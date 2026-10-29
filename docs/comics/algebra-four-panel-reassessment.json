@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-29T02:22:04.069660+00:00",
+  "afterPriority54Complete": true,
+  "entries": [
+    {
+      "id": "q-134",
+      "priorEntry": {
+        "id": "q-134",
+        "subject": "Math",
+        "date": "2026-10-21",
+        "title": "數學第2題｜由共同因式找出兩個一次式",
+        "state": "not_suitable",
+        "reason": "已重新展開兩個因式分解並核對正整數首項係數條件：共同乙為x－2，甲與丙相加為2x＋19，答案A正確。現有三步代數詳解已直接呈現共同因式；人物情境不增加理解，且長度模型可能誤限x取值，因此無需新漫畫。",
+        "checkedAt": "2026-10-28T11:43:46.496888+00:00",
+        "visualChecked": true,
+        "visualEvidenceBackfilledAt": "2026-10-28T20:41:10.416775+00:00",
+        "validationFile": "docs/comics/qa/q-134/layout.json"
+      },
+      "decision": "reopen_for_algebra_diagrams",
+      "reason": "共同因式關係可用兩條分解支路及同色乙因式、正整數首項條件、剩餘甲丙相加分四格；不採長度模型，避免限制x。",
+      "originalActuallyViewed": true
+    },
+    {
+      "id": "q-135",
+      "priorEntry": {
+        "id": "q-135",
+        "subject": "Math",
+        "date": "2026-10-21",
+        "title": "數學第6題｜由兩根求平方形式的參數",
+        "state": "not_suitable",
+        "reason": "已閱讀兩根與平方形式參數解法；核心是兩根中點b＝1/2、代入得a＝4的代數推導。現有分步式子足以說明，人物情境無助於理解這些數值關係，不勉強加入裝飾漫畫。",
+        "checkedAt": "2026-10-28T10:43:19.161278+00:00",
+        "visualChecked": true,
+        "visualEvidenceBackfilledAt": "2026-10-28T20:41:10.416775+00:00",
+        "validationFile": "docs/comics/qa/q-135/layout.json"
+      },
+      "decision": "reopen_for_algebra_diagrams",
+      "reason": "兩根在數線對稱於1/2、半距根號7/2、平方得7/4及a係數可精確分步圖示，比只說人物無助更有教學效果。",
+      "originalActuallyViewed": true
+    },
+    {
+      "id": "q-322",
+      "priorEntry": {
+        "id": "q-322",
+        "subject": "Math",
+        "date": "2026-07-30",
+        "title": "數學第8題｜整數解與代數式可能值",
+        "state": "not_suitable",
+        "reason": "純代數整數條件題，獨立重算D正確；現有代回詳解完整，無必要圖形，避免人物裝飾或重複公式製圖；桌機手機實看無溢出",
+        "reviewStartedAt": "2026-10-28T16:57:53.230416+00:00",
+        "workerLane": 3,
+        "workerReadyAt": "2026-10-28T16:59:19.206691+00:00",
+        "completedAt": "2026-10-28T16:59:44.727675+00:00",
+        "checkedAt": "2026-10-28T16:59:44.727675+00:00",
+        "visualChecked": true,
+        "integrationQueueSeconds": 3.797378,
+        "integrationSeconds": 21.723606
+      },
+      "decision": "reopen_for_algebra_diagrams",
+      "reason": "可用嚴格數線與離散整數點、反推四選項x的表格呈現大於2且為整數雙門檻，不用人物。",
+      "originalActuallyViewed": true
+    },
+    {
+      "id": "q-323",
+      "priorEntry": {
+        "id": "q-323",
+        "subject": "Math",
+        "date": "2026-07-30",
+        "title": "數學第9題｜x與P都須符合整數條件",
+        "state": "not_suitable",
+        "reason": "純代數雙整數條件，原解說已列x=-1,0,1,2與P四個對照、反例P=1，無空間或情境需圖；實看原卷核算C，保留原可選取推導，不加無關人物。1440/390原頁展開QA通過。",
+        "reviewStartedAt": "2026-10-28T16:58:30.740286+00:00",
+        "workerLane": 2,
+        "workerReadyAt": "2026-10-28T16:59:22.753545+00:00",
+        "completedAt": "2026-10-28T17:00:08.788270+00:00",
+        "checkedAt": "2026-10-28T17:00:08.788270+00:00",
+        "visualChecked": true,
+        "integrationQueueSeconds": 22.034757,
+        "integrationSeconds": 23.999968
+      },
+      "decision": "reopen_for_algebra_diagrams",
+      "reason": "可用x整數格點對應P分數、P需為整數的第二層篩選，以及P=1反推非整數x的反例，顯示不能直接無條件向上取整。",
+      "originalActuallyViewed": true
+    }
+  ],
+  "preserveQuestionsAnswersDates": true,
+  "ordering": "回一般科目優先值佇列，不變成第二個54題硬門檻"
+}

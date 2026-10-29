@@ -1,0 +1,92 @@
+{
+  "id": "q-570",
+  "subject": "Chinese",
+  "title": "分清各方立場，再抓報導最後結果",
+  "art": "docs/comics/art/q-570.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T02:17:49.896193+00:00",
+  "panels": [
+    {
+      "heading": "① 前面兩方意見，是爭議背景",
+      "text": "農民協會擔心名稱誤導，主張不應用漢堡等名稱；環保等團體則反對限制名稱。先分清誰說什麼，不能把一方主張當作整篇結論。",
+      "alt": "農民協會與環保等團體兩張立場卡分開呈現，沒有把任一團體意見冒充議會結果或所有農民共識。"
+    },
+    {
+      "heading": "② 文末的表決，才是主要結果",
+      "text": "報導最後交代2020年表決結果：清楚標為素食，仍可使用漢堡等名稱。A最能概括這個結論；B只是反對命名的一方立場，C是支持方提出的理由。",
+      "alt": "2020年報導的議會表決結果連到可保留名稱與清楚標素食，沒有宣稱這就是現在各國所有食品法規。"
+    },
+    {
+      "heading": "③ 可用名稱，不等於成分相同",
+      "text": "A的「素漢堡是漢堡」在本題指名稱可保留，不是說與肉漢堡成分一樣。D又把命名爭議擴大成禁止產品販售，也超出文意。",
+      "alt": "可叫素漢堡與成分完全相同以不等號分開，圖形是語意界線而非食品成分鑑定或全面法律定義。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：素漢堡可保留漢堡名稱",
+    "points": [
+      "讀主旨，要區分背景爭議、支持理由與最後結果。",
+      "B是一方主張；C是理由，都不能取代表決結論。",
+      "只依題文的2020年報導，不擴成成分相同或全面禁止販售。"
+    ]
+  },
+  "protectedWords": [
+    "農民協會",
+    "環保等團體",
+    "素漢堡",
+    "漢堡名稱",
+    "表決結果",
+    "清楚標為素食",
+    "2020年",
+    "成分相同",
+    "禁止產品販售"
+  ],
+  "rationale": "實看原卷3題全文與A–D，A維持。全新原生各方立場/表決結果/名稱與成分界線圖，直接處理主旨比對，不用虛構歐盟表決人數或把食品照片當成成分證明；所有完整閱讀引述由HTML呈現。",
+  "promptSummary": "原生SVG：農協與環團立場分卡；2020報導表決→可保留名稱/清楚標素食；可叫素漢堡≠成分完全相同。非最新食品法律圖，不採來源AI圖。",
+  "answerCheckedAgainst": "原卷農協/13組織立場及2020/10/23文末表決、全部A–D；歐洲議會2020官方新聞稿確認未保留肉類名稱為肉製品專用。沿原A，不作最新狀態推論。",
+  "officialReferences": [
+    {
+      "url": "https://www.europarl.europa.eu/pdfs/news/expert/2020/10/press_release/20201016IPR89542/20201016IPR89542_en.pdf",
+      "finding": "2020歐洲議會新聞稿明示拒絕將肉類名稱保留給含肉產品的提案，供歷史報導核對，不作2026現行法規概括。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-570-source-a3e0d713a3.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "實看原卷3題完整閱讀及四選項，含歐盟2020/10/23、Copa-Cogeca/環團不同立場、包裝清楚標素食。原A與詳解不改，不重開來源已釐清的全面法律定義問題。"
+  },
+  "artSHA256": "4270b0be9578d7d73036a8d7a507b1a6ec727e4bfef65dd41b80962b9fa0ef2b",
+  "completedAt": "2026-10-29T02:20:19.782207+00:00",
+  "checkedAt": "2026-10-29T02:24:18.109026+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-570-preview-validation.json",
+  "visualReview": "實看原卷全文/四選項與540×180原生及1440/390：不同立場分卡不混成結論，2020表決在中格，名稱不等成分界線清楚，A維持。未冒稱最新EU全法規或所有農民共識。三寬無溢出，桌面同行等高/手機自然高度、詞組完整。",
+  "nativeArt": "assets/comics/q-570-art-4270b0be95.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:24:18.102291+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看2020年報導全文/四選項；A命名結果不等同成分或全面法律分類，前兩方立場與文末表決分清；新原生流程與正式桌手機實看、三寬6項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-570-validation.json"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "q-135",
+  "subject": "Math",
+  "title": "兩根找中心，平方距離求倍數",
+  "art": "docs/comics/art/q-135.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-135-generate.py",
+  "startedAt": "2026-10-29T02:23:41.688185+00:00",
+  "panels": [
+    {
+      "heading": "① 兩根的共同中心，就是b",
+      "text": "兩根是1/2－√7/2與1/2＋√7/2，在1/2左右等距。因此中點b＝1/2，不把根號部分當成b。",
+      "alt": "等尺度數線上兩根約負0.823與1.823，中點0.5，左右距離同為√7/2；負根與正根位置正確。"
+    },
+    {
+      "heading": "② 先平方距離，分母不能漏",
+      "text": "代入任一根，都有(x－b)²＝(√7/2)²＝7/4。分母2也要平方，所以是7/4，不是7/2。",
+      "alt": "兩根與b的距離皆為|x−b|＝√7/2，平方後為7/4，絕對值避免把負根的x−b誤當正值。"
+    },
+    {
+      "heading": "③ 7/4乘多少，才會等於7？",
+      "text": "原式變成a×7/4＝7，所以a＝7÷(7/4)＝4。四個7/4合成7；最後a＋b＝4＋1/2＝9/2，選B。",
+      "alt": "四份等長單位各標7/4，合起來為7，表達倍數a為4，不是面積或未知實測量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：a＋b＝9/2",
+    "points": [
+      "兩根取平均，得到b＝1/2。",
+      "(√7/2)²＝7/4，代入求a＝4。",
+      "a＋b＝4＋1/2＝9/2，不漏分母平方。"
+    ]
+  },
+  "protectedWords": [
+    "兩根",
+    "b＝1/2",
+    "a＝4",
+    "√7/2",
+    "(√7/2)²＝7/4",
+    "a×7/4＝7",
+    "a＝7÷(7/4)＝4",
+    "4＋1/2＝9/2",
+    "分母平方"
+  ],
+  "rationale": "原卷第6題a(x−b)²=7與兩根、四選項實看，B不變。新精確對稱數線/平方距離/四等份倍數圖可降低b與根號距離混淆，所有值獨立代入驗7，不以人物圖或無需圖為由略過。",
+  "promptSummary": "原生SVG等尺度數線兩根與b=.5；√7/2平方7/4；四份7/4合7，a4。無人物、無來源AI圖、非假實測圖。",
+  "answerCheckedAgainst": "原卷兩根1/2±√7/2，a(x-b)²=7；獨立驗對稱中心.5、a4與兩根代回均7，a+b9/2。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-135-source-f0a43dbcc8.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "實看分母為2、±根號7係數1/2、原式右7與A5/2 B9/2 C3 D5，未漏原有a、b參數。"
+  },
+  "artSHA256": "1e9a795a5b8be8104a0cdfefe1bc4e93ab45fb6743a99429779ba54e718ad8eb",
+  "algebraValidation": "docs/comics/q-135-algebra-validation.json",
+  "completedAt": "2026-10-29T02:26:31.582872+00:00",
+  "checkedAt": "2026-10-29T02:30:30.944184+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-135-preview-validation.json",
+  "visualReview": "實看原卷/540×180新原生與最終1440/390：兩根與中點數線等尺度，左右距離相同；第二格絕對值明示兩根距離而非負根x−b為正；第三格四份7/4合7，a4及b.5回代正確。公式保護後手機不拆根式/平方，三寬無溢出，同列等高與自然高度。",
+  "nativeArt": "assets/comics/q-135-art-1e9a795a5b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:30:30.918015+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷雙根及四選項實看；獨立回代a4/b1/2雙根皆得7，數線負根/中心/正根同尺度，絕對距離平方及四份7/4無負邊長誤解。正式桌手機已實看、三寬6項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-135-validation.json"
+}

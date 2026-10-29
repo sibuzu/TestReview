@@ -1,0 +1,46 @@
+{
+  "id": "q-322",
+  "pass": true,
+  "rows": [
+    {
+      "option": "A",
+      "value": 2,
+      "x": "1",
+      "greaterThan2": false,
+      "integer": true,
+      "valid": false
+    },
+    {
+      "option": "B",
+      "value": 9,
+      "x": "2",
+      "greaterThan2": false,
+      "integer": true,
+      "valid": false
+    },
+    {
+      "option": "C",
+      "value": 73,
+      "x": "78/7",
+      "greaterThan2": true,
+      "integer": false,
+      "valid": false
+    },
+    {
+      "option": "D",
+      "value": 114,
+      "x": "17",
+      "greaterThan2": true,
+      "integer": true,
+      "valid": true
+    }
+  ],
+  "endpoint": "strict x>2 excludes2; filled integer points3,4,5 on exact equal spacing",
+  "sequence": "x3/4/5/17 maps16/23/30/114; ellipsis explicitly not equal distance scale",
+  "backSubstitution": {
+    "lhs": -74,
+    "rhs": 31,
+    "expression": 114
+  },
+  "originalActuallyViewed": true
+}

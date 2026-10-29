@@ -1,0 +1,78 @@
+{
+  "id": "q-235",
+  "subject": "Math",
+  "title": "中垂線看等距：D在，B不在",
+  "art": "docs/comics/art/q-235-geometry.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T02:23:27.621430+00:00",
+  "panels": [
+    {
+      "heading": "① 平行線求C，再把角平分",
+      "text": "AD∥BC，∠D＝120°，所以∠BCD＝60°。AC平分此角，得到∠BCA＝∠ACD＝30°，圖中兩個分角一樣大。",
+      "alt": "新精確梯形符合B110°/D120°與AC角平分，C兩個30°分角分別標示，並非用不準比例圖量角。"
+    },
+    {
+      "heading": "② D到A、C等距，所以在L上",
+      "text": "AD∥BC，得∠DAC＝∠BCA＝30°。在△ADC中兩底角相等，故DA＝DC。到A、C等距的點在AC中垂線上，因此D在L上。",
+      "alt": "新圖高亮△ADC、AD/DC同記號、A與C30°，L穿D及AC中點並有垂直標記，D字標避開L。"
+    },
+    {
+      "heading": "③ B到A、C不等距，所以不在L上",
+      "text": "△ABC中，∠BAC＝180°−110°−30°＝40°。BA與BC的對角分別是30°、40°，兩角不等，故BA≠BC，所以B不在L上。",
+      "alt": "新圖高亮△ABC與BA/BC，A40°/B110°/C30°，B不在中垂線L上，兩邊不畫相等記號。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 中垂線看等距：D在，B不在",
+    "answer": "答案 D：B不在L上，D在L上",
+    "points": [
+      "D：DA＝DC，符合到兩端等距。",
+      "B：BA≠BC，不符合等距條件。",
+      "角平分線幫忙求角；判斷中垂線要再看距離。"
+    ]
+  },
+  "protectedWords": [
+    "中垂線",
+    "角平分線",
+    "平行線",
+    "角平分",
+    "等距",
+    "等距條件",
+    "兩底角",
+    "兩端",
+    "30°",
+    "40°",
+    "60°",
+    "110°",
+    "120°",
+    "∠BCD",
+    "∠BCA",
+    "∠ACD",
+    "∠DAC",
+    "∠BAC",
+    "DA＝DC",
+    "BA≠BC",
+    "AD∥BC",
+    "△ADC",
+    "△ABC"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-235-source-1647bc44f9.jpg",
+    "site/dist/assets/questions/q-235-given.svg",
+    "site/dist/assets/questions/q-235-proof.svg"
+  ],
+  "originalVisualCheck": "重新實看原卷8完整AD平行BC/AC平分C/B110/D120/L為AC中垂線與四選項，原改D。亦讀既有原生given/proof圖，非來源AI圖；本次另製三分步新構圖。",
+  "answerCheckedAgainst": "獨立建滿足條件的精確模型，計算B110/D120、C兩個30、A在ABC為40、DA=DC而BA≠BC，與原題D一致。核對檔q-235-geometry-check.json；模型尺寸未當原題新增條件。",
+  "rationale": "重審舊無需新圖判斷，依新規製精確三分步幾何圖：平行+角平分→D等距→B不等距，降低只看角平分線就猜中垂線的負擔。新圖保留原題已確認答案，不用人物裝飾。",
+  "artType": "new precise native SVG geometry",
+  "generationCalls": 0,
+  "computationEvidence": "docs/comics/q-235-geometry-check.json",
+  "supersedesReview": "docs/comics/q-235-review.json",
+  "supersedesReason": "舊原生證明圖已清楚，但新指示要求評估幾何分步四格；本次可用分步著色再改善，舊略過紀錄保留。",
+  "artSHA256": "c287880a0e3a910e764988d7d6cdffdfe5e79faf0bcf63d2c5bc97ff5ae52274",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T02:27:35.732212+00:00",
+  "completedAt": "2026-10-29T02:27:35.732212+00:00",
+  "layoutEvidence": "docs/comics/q-235-preview-validation.json",
+  "visualReview": "實看1440/1120/390三分步構圖，C兩30°、ADC等邊記號與L穿D、ABC40/110/30及B不在L均正確；D字標避開L、線段圖層無遮住關鍵點，無橫溢/保護詞拆行，同列等高與手機自然高度。"
+}

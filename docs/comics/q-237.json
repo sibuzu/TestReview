@@ -1,0 +1,93 @@
+{
+  "id": "q-237",
+  "subject": "Math",
+  "title": "把EF換成AP，再找垂線最短",
+  "art": "docs/comics/art/q-237.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-237-generate.py",
+  "startedAt": "2026-10-29T02:20:19.844891+00:00",
+  "panels": [
+    {
+      "heading": "① 小矩形的兩條對角線等長",
+      "text": "E、F是垂足，AEPF構成矩形。藍色AP與金色EF是它的兩條對角線，所以EF＝AP；求EF最小，就改求AP最小。",
+      "alt": "完整8比6外矩形內的AEPF小矩形著色，AP藍、EF金兩對角線同長，P確在線段BD上。"
+    },
+    {
+      "heading": "② P移到垂足H，AP才最短",
+      "text": "P沿BD移動，A到BD的垂線段AH最短。H在線段BD內，P確實可以移到H；此時AP＝AH，也就是EF的最小值。",
+      "alt": "A到BD的綠色垂線AH與直角記號，灰色另一位置AP較長；H在線段內，不假定P是中點。"
+    },
+    {
+      "heading": "③ 同一三角形，換底與高計面積",
+      "text": "畢氏定理得BD＝√(6²＋8²)＝10。△ABD面積為6×8÷2＝24，也等於10×AH÷2＝5AH，所以AH＝24/5。",
+      "alt": "ABD直角三角形兩直角邊6及8，斜邊10藍色、高AH綠色，兩個底高算法算同一面積24。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：EF最小為24/5（4.8）",
+    "points": [
+      "矩形對角線等長：EF＝AP。",
+      "點到直線以垂線最短，P與H重合時取到。",
+      "BD中點對應EF＝5，並不是最小值4.8。"
+    ]
+  },
+  "protectedWords": [
+    "AEPF",
+    "EF＝AP",
+    "AP＝AH",
+    "線段BD",
+    "垂線段AH",
+    "畢氏定理",
+    "BD＝10",
+    "24/5",
+    "同一三角形",
+    "√(6²＋8²)＝10",
+    "6×8÷2＝24",
+    "10×AH÷2＝5AH"
+  ],
+  "rationale": "原卷全文及必要given/proof圖實看，24/5維持。用全新精確小矩形對角線/垂線最短/同面積底高三圖，保留P在線段內可達H，不以人物無助為由略過四格，也不把中點5當最小。",
+  "promptSummary": "原生SVG8:6矩形與BD，genericP在BD；小矩形對角線同長，最短垂足H=(72/25,96/25)，ABD面積24、斜邊10與高24/5。",
+  "answerCheckedAgainst": "原卷AB6/AD8、P沿BD、E/F垂足，幾何獨立驗證AP=EF、投影內點、垂直dot0、面積24，答案24/5。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-237-source-58714f7193.jpg",
+      "site/dist/assets/questions/q-237-given.svg",
+      "site/dist/assets/questions/q-237-proof.svg"
+    ],
+    "visualChecked": true,
+    "answer": "24/5",
+    "notes": "原卷動點沿BD及兩垂線條件、手寫24/5均實看，兩原生附圖render實看；新圖重新座標生成，不修改原題或舊附圖。"
+  },
+  "artSHA256": "1457f631b800664ceccbf97cc02aefccaf8441f1b58e7a422745687ce5b5559a",
+  "geometryValidation": "docs/comics/q-237-geometry-validation.json",
+  "completedAt": "2026-10-29T02:23:41.633909+00:00",
+  "checkedAt": "2026-10-29T02:30:30.920649+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-237-preview-validation.json",
+  "visualReview": "實看原卷/兩既有原生附圖與新540×180及最終1440/390：第一格EF/AP同對角線，第二格H在線段BD內且直角記號垂直，第三格同三角形雙底高計24，24/5不變。加保護詞後手機根號與上下標不再斷開、兩面積式完整，重跑三寬無溢出，同列等高/手機自然高度。",
+  "nativeArt": "assets/comics/q-237-art-1457f631b8.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:30:30.918015+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷8/6矩形/動點/兩垂線實看；獨立算H=(72/25,54/25)、垂直點積0、AH²=(24/5)²，EF=AP及非中點最短新三圖正確。正式桌手機已實看、三寬6項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-237-validation.json"
+}

@@ -2,261 +2,84 @@
   "mode": "three_parallel_workers_with_root_available",
   "workerLimit": 3,
   "rootRole": "機動、回答問題與整合；維持WebP及共用圖片減量",
-  "updatedAt": "2026-10-29T02:09:29.788741+00:00",
+  "updatedAt": "2026-10-29T02:30:30.970787+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-160",
-      "title": "公民第27題｜未成年人的侵權與父母責任",
-      "state": "idle",
-      "startedAt": "2026-10-29T01:48:30.330024+00:00",
+      "questionId": "q-184",
+      "title": "數學延伸練習5｜距離改變後的內角關係",
+      "state": "running",
+      "startedAt": "2026-10-29T02:29:33.208861+00:00",
       "agent": "/root/comic_lane_1"
     },
     {
       "lane": 2,
-      "questionId": "q-161",
-      "title": "公民第2題｜監護宣告與法律行為代理",
-      "state": "idle",
-      "startedAt": "2026-10-29T01:48:54.990937+00:00",
+      "questionId": "q-238",
+      "title": "數學第11題｜正方形內正三角形的面積比",
+      "state": "running",
+      "startedAt": "2026-10-29T02:27:35.794525+00:00",
       "agent": "/root/comic_lane_2"
     },
     {
       "lane": 3,
-      "questionId": "q-344",
-      "title": "地理第14題｜蹦火仔為何屬沿岸漁業",
-      "state": "idle",
-      "startedAt": "2026-10-29T01:43:39.400112+00:00",
+      "questionId": "q-183",
+      "title": "數學延伸練習4｜正三角形內的大角對大邊",
+      "state": "running",
+      "startedAt": "2026-10-29T02:28:22.717454+00:00",
       "agent": "/root/comic_lane_3"
     }
   ],
   "ready": [
     {
-      "id": "q-055",
-      "title": "公民第16題｜自願團體與工會",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:40:21.791933+00:00",
-      "readyAt": "2026-10-29T00:43:27.549046+00:00",
-      "decision": "complete",
-      "reason": "完整原卷與四選項實看，C及工會法適用界線不變；新勞工/公益/自願聯盟情境，不把民間當官署或資方當工會，三寬與原圖桌手機QA。",
-      "evidence": [
-        "docs/comics/q-055.json",
-        "docs/comics/q-055-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-597",
-      "title": "地理第13題｜中彰投雲的產業發展定位",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:43:27.583101+00:00",
-      "readyAt": "2026-10-29T00:45:51.474478+00:00",
-      "decision": "complete",
-      "reason": "原卷全文/四選項實看，C不變；新精密製造/智慧農業/森林觀光圖，三線索合看，不假造地圖或產業獨占；官方中部方案核對，三寬原圖桌手機QA。",
-      "evidence": [
-        "docs/comics/q-597.json",
-        "docs/comics/q-597-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-598",
-      "title": "地理第37題｜人口性別比的長期趨勢",
-      "subject": "Geography",
+      "id": "q-235",
+      "title": "數學第8題｜角平分線與中垂線上的點",
+      "subject": "Math",
       "lane": 2,
       "state": "ready",
-      "startedAt": "2026-10-29T00:43:50.697146+00:00",
-      "readyAt": "2026-10-29T00:46:08.262429+00:00",
+      "startedAt": "2026-10-29T02:19:47.567336+00:00",
+      "readyAt": "2026-10-29T02:27:35.760285+00:00",
       "decision": "complete",
-      "reason": "性別比公式/高齡女性/出生比非死亡率三景，原卷與內政部113年PDF核對，A最合理非單曲線證因果，三寬實看PASS。",
+      "reason": "新精確三分步梯形/角平分/中垂線圖，模型獨立驗B110 D120/C30、DA=DC BA≠BC，D答不變，三寬實看PASS，舊略過留歷程。",
       "evidence": [
-        "docs/comics/q-598.json",
-        "docs/comics/q-598-preview-validation.json"
+        "docs/comics/q-235.json",
+        "docs/comics/q-235-preview-validation.json",
+        "docs/comics/q-235-geometry-check.json"
       ]
     },
     {
-      "id": "q-576",
-      "title": "地理第16題｜環遊世界路線與海陸位置",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:46:08.291571+00:00",
-      "readyAt": "2026-10-29T00:48:53.981366+00:00",
-      "decision": "complete",
-      "reason": "洲序與6日本到7北美西岸跨太平洋核對，新製旅行分類情境＋HTML，不把向東與半球名稱混淆，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-576.json",
-        "docs/comics/q-576-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-578",
-      "title": "地理第27題｜離島路線與在地文化",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:48:10.863192+00:00",
-      "readyAt": "2026-10-29T00:50:21.793587+00:00",
-      "decision": "complete",
-      "reason": "原卷經緯度/必要路線圖/四選項實看，B不變；新路跑與碉堡坑道文化情境，不作精確場址/岩性辨識或宣稱賽道穿特定坑道。官方資料核對與三寬桌手機QA。",
-      "evidence": [
-        "docs/comics/q-578.json",
-        "docs/comics/q-578-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-579",
-      "title": "地理第36題｜低溫特報的門檻與圖例",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:48:54.012042+00:00",
-      "readyAt": "2026-10-29T00:51:07.317585+00:00",
-      "decision": "complete",
-      "reason": "C新北橙色深灰；新三景＋HTML釐清最低溫與連續24小時，原卷及CWA官方PDF核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-579.json",
-        "docs/comics/q-579-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-567",
-      "title": "地理第45題｜河床細流與河川流量變化",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:51:07.350903+00:00",
-      "readyAt": "2026-10-29T00:54:45.644528+00:00",
-      "decision": "complete",
-      "reason": "使用者已確認D；新同河道少水/多水插畫＋HTML區分流量與流速，不重建事故或概括全臺乾季，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-567.json",
-        "docs/comics/q-567-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-285",
-      "title": "國文第8題｜一意孤行與同流合汙的正確用字",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:33:22.554890+00:00",
-      "readyAt": "2026-10-29T01:35:49.900359+00:00",
-      "decision": "complete",
-      "reason": "原卷四選項實看、C依使用者確認河→合、B維持；新製無字孤行/共同作惡/局部整體情境，詞義字形用HTML，三寬QA與桌手機實看。",
-      "evidence": [
-        "docs/comics/q-285.json",
-        "docs/comics/q-285-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-286",
-      "title": "國文第12題｜清風徐來與徐步而行的字義",
-      "subject": "Chinese",
+      "id": "q-322",
+      "title": "數學第8題｜整數解與代數式可能值",
+      "subject": "Math",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T01:33:54.087206+00:00",
-      "readyAt": "2026-10-29T01:39:06.376944+00:00",
+      "startedAt": "2026-10-29T02:25:30.071099+00:00",
+      "readyAt": "2026-10-29T02:28:22.677729+00:00",
       "decision": "complete",
-      "reason": "實看原卷四選項並教育部徐條緩慢義核對，D不變；全新微風慢步字義比較情境，三寬QA與桌手機實看通過",
+      "reason": "重審改製精確代數圖；嚴格端點與整數兩條件、四選項反算皆獨立驗算，三寬QA及桌手機實看通過",
       "evidence": [
-        "docs/comics/q-286.json",
-        "docs/comics/q-286-preview-validation.json"
+        "docs/comics/q-322.json",
+        "docs/comics/q-322-preview-validation.json",
+        "docs/comics/q-322-algebra-validation.json"
       ]
     },
     {
-      "id": "q-287",
-      "title": "國文第40題｜越州趙公救災記的寫作目的",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:34:29.108537+00:00",
-      "readyAt": "2026-10-29T01:38:42.814462+00:00",
-      "decision": "complete",
-      "reason": "54題撤來源AI圖後新預備/記錄/後人依循三景，完整共用文/40題實看，C目的與死者殆半不等減半辨義正確，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-287.json",
-        "docs/comics/q-287-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-289",
-      "title": "國文第42題｜兩文共同支持的崔延伯事蹟",
-      "subject": "Chinese",
+      "id": "q-323",
+      "title": "數學第9題｜x與P都須符合整數條件",
+      "subject": "Math",
       "lane": 1,
       "state": "ready",
-      "startedAt": "2026-10-29T01:35:49.934885+00:00",
-      "readyAt": "2026-10-29T01:37:58.309972+00:00",
+      "startedAt": "2026-10-29T02:26:31.644399+00:00",
+      "readyAt": "2026-10-29T02:29:33.175327+00:00",
       "decision": "complete",
-      "reason": "實看甲乙全文與42題四選項，D不變；新製證據合流、角色配對、主詞關係圖，避免虛構戰場誤導，三寬QA與桌手機實看。",
+      "reason": "原卷x整數/P最小整數兩條件及全部選項實看，C不變；新整數射線與雙向代入表，Fraction獨立核算，三寬QA桌手機實看。",
       "evidence": [
-        "docs/comics/q-289.json",
-        "docs/comics/q-289-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-154",
-      "title": "公民第5題｜法庭直播修法與權力制衡",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:43:53.645724+00:00",
-      "readyAt": "2026-10-29T01:46:46.274994+00:00",
-      "decision": "complete",
-      "reason": "新聞全文與第5題原卷實看，沿使用者確認D；查憲法63/80，新製立法討論/空法庭播送/獨立法官情境，制衡不畫成個案指揮，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-154.json",
-        "docs/comics/q-154-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-155",
-      "title": "公民第5題｜三權分立示意圖判讀",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:46:46.308750+00:00",
-      "readyAt": "2026-10-29T01:48:30.292709+00:00",
-      "decision": "complete",
-      "reason": "核對原卷三角圖及全部甲乙丙丁，C維持；新製國會/內閣權力配對訂正與法院司法獨立三段，官方憲法核查，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-155.json",
-        "docs/comics/q-155-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-160",
-      "title": "公民第27題｜未成年人的侵權與父母責任",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:48:30.330024+00:00",
-      "readyAt": "2026-10-29T01:51:50.746251+00:00",
-      "decision": "complete",
-      "reason": "實看17歲點餐/評論材料及全部四選項，D維持；查民法187，新製中性點餐/評論/家庭法律諮詢，保留侵權要件與代理人免責，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-160.json",
-        "docs/comics/q-160-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-161",
-      "title": "公民第2題｜監護宣告與法律行為代理",
-      "subject": "Civics",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:48:54.990937+00:00",
-      "readyAt": "2026-10-29T01:55:12.454363+00:00",
-      "decision": "complete",
-      "reason": "54題新三景＋HTML，現行民法14/15/76、公選法14/18全文核對C；聲請≠宣告/代理≠同意/民事代理≠代選，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-161.json",
-        "docs/comics/q-161-preview-validation.json"
+        "docs/comics/q-323.json",
+        "docs/comics/q-323-preview-validation.json",
+        "docs/comics/q-323-algebra-validation.json"
       ]
     }
   ],
-  "integrated": 412,
+  "integrated": 432,
   "blocked": [
     {
       "id": "q-054",
@@ -273,236 +96,89 @@
         "docs/comics/q-054-preview-validation.json",
         "docs/comics/q-054-review.json"
       ]
+    },
+    {
+      "id": "q-439",
+      "title": "國文第31題｜從兔字與月兔文章核對敘述",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "blocked",
+      "startedAt": "2026-10-29T02:15:01.464725+00:00",
+      "readyAt": "2026-10-29T02:19:47.534271+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "原卷OCR恢復：共同文以後者取代前者；q440選項無完全二字，A/B已確認答案不變。",
+      "evidence": [
+        "docs/comics/q-439.json",
+        "docs/comics/q-439-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-440",
+      "title": "國文第32題｜以物種史與生物知識反駁月兔假說",
+      "subject": "Chinese",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-10-29T02:15:26.501493+00:00",
+      "readyAt": "2026-10-29T02:22:45.497381+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "原卷OCR恢復：共同文以後者取代前者；q440選項無完全二字，A/B已確認答案不變。",
+      "evidence": [
+        "docs/comics/q-440.json",
+        "docs/comics/q-440-preview-validation.json",
+        "docs/comics/q-440-review.json"
+      ]
     }
   ],
   "waiting": [
     {
-      "id": "q-285",
-      "title": "國文第8題｜一意孤行與同流合汙的正確用字",
-      "subject": "Chinese",
-      "lane": 1,
+      "id": "q-235",
+      "title": "數學第8題｜角平分線與中垂線上的點",
+      "subject": "Math",
+      "lane": 2,
       "state": "ready",
-      "startedAt": "2026-10-29T01:33:22.554890+00:00",
-      "readyAt": "2026-10-29T01:35:49.900359+00:00",
+      "startedAt": "2026-10-29T02:19:47.567336+00:00",
+      "readyAt": "2026-10-29T02:27:35.760285+00:00",
       "decision": "complete",
-      "reason": "原卷四選項實看、C依使用者確認河→合、B維持；新製無字孤行/共同作惡/局部整體情境，詞義字形用HTML，三寬QA與桌手機實看。",
+      "reason": "新精確三分步梯形/角平分/中垂線圖，模型獨立驗B110 D120/C30、DA=DC BA≠BC，D答不變，三寬實看PASS，舊略過留歷程。",
       "evidence": [
-        "docs/comics/q-285.json",
-        "docs/comics/q-285-preview-validation.json"
+        "docs/comics/q-235.json",
+        "docs/comics/q-235-preview-validation.json",
+        "docs/comics/q-235-geometry-check.json"
       ]
     },
     {
-      "id": "q-286",
-      "title": "國文第12題｜清風徐來與徐步而行的字義",
-      "subject": "Chinese",
+      "id": "q-322",
+      "title": "數學第8題｜整數解與代數式可能值",
+      "subject": "Math",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T01:33:54.087206+00:00",
-      "readyAt": "2026-10-29T01:39:06.376944+00:00",
+      "startedAt": "2026-10-29T02:25:30.071099+00:00",
+      "readyAt": "2026-10-29T02:28:22.677729+00:00",
       "decision": "complete",
-      "reason": "實看原卷四選項並教育部徐條緩慢義核對，D不變；全新微風慢步字義比較情境，三寬QA與桌手機實看通過",
+      "reason": "重審改製精確代數圖；嚴格端點與整數兩條件、四選項反算皆獨立驗算，三寬QA及桌手機實看通過",
       "evidence": [
-        "docs/comics/q-286.json",
-        "docs/comics/q-286-preview-validation.json"
+        "docs/comics/q-322.json",
+        "docs/comics/q-322-preview-validation.json",
+        "docs/comics/q-322-algebra-validation.json"
       ]
     },
     {
-      "id": "q-287",
-      "title": "國文第40題｜越州趙公救災記的寫作目的",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:34:29.108537+00:00",
-      "readyAt": "2026-10-29T01:38:42.814462+00:00",
-      "decision": "complete",
-      "reason": "54題撤來源AI圖後新預備/記錄/後人依循三景，完整共用文/40題實看，C目的與死者殆半不等減半辨義正確，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-287.json",
-        "docs/comics/q-287-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-289",
-      "title": "國文第42題｜兩文共同支持的崔延伯事蹟",
-      "subject": "Chinese",
+      "id": "q-323",
+      "title": "數學第9題｜x與P都須符合整數條件",
+      "subject": "Math",
       "lane": 1,
       "state": "ready",
-      "startedAt": "2026-10-29T01:35:49.934885+00:00",
-      "readyAt": "2026-10-29T01:37:58.309972+00:00",
+      "startedAt": "2026-10-29T02:26:31.644399+00:00",
+      "readyAt": "2026-10-29T02:29:33.175327+00:00",
       "decision": "complete",
-      "reason": "實看甲乙全文與42題四選項，D不變；新製證據合流、角色配對、主詞關係圖，避免虛構戰場誤導，三寬QA與桌手機實看。",
+      "reason": "原卷x整數/P最小整數兩條件及全部選項實看，C不變；新整數射線與雙向代入表，Fraction獨立核算，三寬QA桌手機實看。",
       "evidence": [
-        "docs/comics/q-289.json",
-        "docs/comics/q-289-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-154",
-      "title": "公民第5題｜法庭直播修法與權力制衡",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:43:53.645724+00:00",
-      "readyAt": "2026-10-29T01:46:46.274994+00:00",
-      "decision": "complete",
-      "reason": "新聞全文與第5題原卷實看，沿使用者確認D；查憲法63/80，新製立法討論/空法庭播送/獨立法官情境，制衡不畫成個案指揮，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-154.json",
-        "docs/comics/q-154-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-155",
-      "title": "公民第5題｜三權分立示意圖判讀",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:46:46.308750+00:00",
-      "readyAt": "2026-10-29T01:48:30.292709+00:00",
-      "decision": "complete",
-      "reason": "核對原卷三角圖及全部甲乙丙丁，C維持；新製國會/內閣權力配對訂正與法院司法獨立三段，官方憲法核查，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-155.json",
-        "docs/comics/q-155-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-160",
-      "title": "公民第27題｜未成年人的侵權與父母責任",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:48:30.330024+00:00",
-      "readyAt": "2026-10-29T01:51:50.746251+00:00",
-      "decision": "complete",
-      "reason": "實看17歲點餐/評論材料及全部四選項，D維持；查民法187，新製中性點餐/評論/家庭法律諮詢，保留侵權要件與代理人免責，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-160.json",
-        "docs/comics/q-160-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-161",
-      "title": "公民第2題｜監護宣告與法律行為代理",
-      "subject": "Civics",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T01:48:54.990937+00:00",
-      "readyAt": "2026-10-29T01:55:12.454363+00:00",
-      "decision": "complete",
-      "reason": "54題新三景＋HTML，現行民法14/15/76、公選法14/18全文核對C；聲請≠宣告/代理≠同意/民事代理≠代選，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-161.json",
-        "docs/comics/q-161-preview-validation.json"
+        "docs/comics/q-323.json",
+        "docs/comics/q-323-preview-validation.json",
+        "docs/comics/q-323-algebra-validation.json"
       ]
     }
   ],
   "integrating": [],
-  "held": [
-    {
-      "id": "q-055",
-      "title": "公民第16題｜自願團體與工會",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:40:21.791933+00:00",
-      "readyAt": "2026-10-29T00:43:27.549046+00:00",
-      "decision": "complete",
-      "reason": "完整原卷與四選項實看，C及工會法適用界線不變；新勞工/公益/自願聯盟情境，不把民間當官署或資方當工會，三寬與原圖桌手機QA。",
-      "evidence": [
-        "docs/comics/q-055.json",
-        "docs/comics/q-055-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-597",
-      "title": "地理第13題｜中彰投雲的產業發展定位",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:43:27.583101+00:00",
-      "readyAt": "2026-10-29T00:45:51.474478+00:00",
-      "decision": "complete",
-      "reason": "原卷全文/四選項實看，C不變；新精密製造/智慧農業/森林觀光圖，三線索合看，不假造地圖或產業獨占；官方中部方案核對，三寬原圖桌手機QA。",
-      "evidence": [
-        "docs/comics/q-597.json",
-        "docs/comics/q-597-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-598",
-      "title": "地理第37題｜人口性別比的長期趨勢",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:43:50.697146+00:00",
-      "readyAt": "2026-10-29T00:46:08.262429+00:00",
-      "decision": "complete",
-      "reason": "性別比公式/高齡女性/出生比非死亡率三景，原卷與內政部113年PDF核對，A最合理非單曲線證因果，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-598.json",
-        "docs/comics/q-598-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-576",
-      "title": "地理第16題｜環遊世界路線與海陸位置",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:46:08.291571+00:00",
-      "readyAt": "2026-10-29T00:48:53.981366+00:00",
-      "decision": "complete",
-      "reason": "洲序與6日本到7北美西岸跨太平洋核對，新製旅行分類情境＋HTML，不把向東與半球名稱混淆，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-576.json",
-        "docs/comics/q-576-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-578",
-      "title": "地理第27題｜離島路線與在地文化",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:48:10.863192+00:00",
-      "readyAt": "2026-10-29T00:50:21.793587+00:00",
-      "decision": "complete",
-      "reason": "原卷經緯度/必要路線圖/四選項實看，B不變；新路跑與碉堡坑道文化情境，不作精確場址/岩性辨識或宣稱賽道穿特定坑道。官方資料核對與三寬桌手機QA。",
-      "evidence": [
-        "docs/comics/q-578.json",
-        "docs/comics/q-578-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-579",
-      "title": "地理第36題｜低溫特報的門檻與圖例",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:48:54.012042+00:00",
-      "readyAt": "2026-10-29T00:51:07.317585+00:00",
-      "decision": "complete",
-      "reason": "C新北橙色深灰；新三景＋HTML釐清最低溫與連續24小時，原卷及CWA官方PDF核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-579.json",
-        "docs/comics/q-579-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-567",
-      "title": "地理第45題｜河床細流與河川流量變化",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T00:51:07.350903+00:00",
-      "readyAt": "2026-10-29T00:54:45.644528+00:00",
-      "decision": "complete",
-      "reason": "使用者已確認D；新同河道少水/多水插畫＋HTML區分流量與流速，不重建事故或概括全臺乾季，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-567.json",
-        "docs/comics/q-567-preview-validation.json"
-      ]
-    }
-  ]
+  "held": []
 }

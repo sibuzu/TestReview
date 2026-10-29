@@ -1,0 +1,70 @@
+{
+  "id": "q-322",
+  "subject": "Math",
+  "title": "範圍與整數，兩個條件都要過關",
+  "art": "docs/comics/art/q-322.svg",
+  "protectedWords": [
+    "整數",
+    "端點",
+    "x＞2",
+    "x＝2",
+    "x＝17",
+    "x＝78/7",
+    "7x−5",
+    "78/7",
+    "114",
+    "嚴格大於"
+  ],
+  "panels": [
+    {
+      "heading": "① 先解不等式，2是空心端點",
+      "text": "−5x＋11＜2x−3，兩邊加5x、再加3，得14＜7x。除以正數7，不等號方向不變，得x＞2。x是整數，只能取3、4、5、…。",
+      "alt": "等距數線2處空心圓，向右射線及3/4/5綠色整數點，1和2不列入整數解。"
+    },
+    {
+      "heading": "② 代數式的值不是任意大於9的數",
+      "text": "x每增加1，7x−5就增加7，例如16、23、30、…。因此不能只看選項是否大於9；還要確認它能由符合條件的整數x算出。",
+      "alt": "輸入輸出配對3→16、4→23、5→30，省略號後17→114；只作表格，不把跨段間距畫成相同數線尺度。"
+    },
+    {
+      "heading": "③ 四個選項都代回，檢查兩關",
+      "text": "設選項值為v，則x＝(v＋5)/7。A得1，B得2，都不大於2；C得78/7，雖大於2卻非整數；D得17，同時符合兩條件。",
+      "alt": "四列逆算表：A2→1叉、B9→2叉、C73→78/7叉、D114→17勾；端點和非整數分開判斷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：114可由x＝17得到",
+    "points": [
+      "x＞2，不包含端點2。",
+      "C雖大於9，反算x卻不是整數。",
+      "D回代不等式與7x−5，兩者皆符合。"
+    ]
+  },
+  "rationale": "舊not_suitable理由只看人物場景，依最新數學規則重審，以嚴格端點數線、離散輸入輸出及逆算表具體呈現兩條件交集。完整原卷第8題與A2/B9/C73/D114已實看，正確D不變；來源全文只含不等式整數解一般整理，未假稱原AI逐題解說本題。",
+  "supersedesReview": "docs/comics/q-322-review.json",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-322-source-1c371edfb0.jpg",
+    "site/dist/sources/6ae05187-3f28-83ee-a9e3-89b8168480a3.txt lines 240–305 (general inequality review only)"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae05187-3f28-83ee-a9e3-89b8168480a3",
+  "generationMethod": "precise native SVG open endpoint integer number line and input-output inverse table",
+  "answerCheckedAgainst": "14<7x得x>2。四選項反解1、2、78/7、17，僅17是整數且>2。回代x17：-74<31，7×17−5=114。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:27:55.291977+00:00",
+  "checkedAt": "2026-10-29T02:28:22.646457+00:00",
+  "validationFile": "docs/comics/q-322-preview-validation.json",
+  "artSha256": "ef8a078f14ef13f191c9ef051517344a74a433ff63b6ea3ccbb593b1ccb1217f"
+}

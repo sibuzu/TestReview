@@ -109,5 +109,78 @@
     "q-238"
   ],
   "rule": "精確幾何圖可以組成四格教學；無法用人物情境不構成略過四格的充分理由。仍按分步視覺教學是否有實質幫助逐題判斷，不把所有純代數都強塞圖片。",
-  "preserveOriginalQuestionsAnswersAndDates": true
+  "preserveOriginalQuestionsAnswersAndDates": true,
+  "additionalReassessment": {
+    "checkedAt": "2026-10-29T02:19:31.625731+00:00",
+    "afterPriority54Complete": true,
+    "entries": [
+      {
+        "id": "q-235",
+        "priorEntry": {
+          "id": "q-235",
+          "subject": "Math",
+          "date": "2026-06-29",
+          "title": "數學第8題｜角平分線與中垂線上的點",
+          "state": "not_suitable",
+          "reason": "已有精確原生SVG清楚呈現D在中垂線、B不在及30度，文字推導完整；不重複四格幾何圖或加無關人物，既有SVG不誤報來源AI。原卷與1440/390實看通過。",
+          "reviewStartedAt": "2026-10-28T21:01:57.597013+00:00",
+          "workerLane": 2,
+          "workerReadyAt": "2026-10-28T21:03:07.696281+00:00",
+          "completedAt": "2026-10-28T21:05:50.073640+00:00",
+          "checkedAt": "2026-10-28T21:05:50.073640+00:00",
+          "visualChecked": true,
+          "integrationQueueSeconds": 162.343766,
+          "integrationSeconds": 0.033593
+        },
+        "decision": "reopen_for_exact_four_panel",
+        "reason": "原生作答圖可保留；另以四格分開C角二等分、D等距、B不等距及中垂線結論，可降低一次讀多個角度的負擔。",
+        "originalActuallyViewed": true
+      },
+      {
+        "id": "q-237",
+        "priorEntry": {
+          "id": "q-237",
+          "subject": "Math",
+          "date": "2026-06-29",
+          "title": "數學第10題｜動點構成矩形的最短對角線",
+          "state": "not_suitable",
+          "reason": "原卷及24/5獨立核算，現有精確SVG已畫小矩形EF=AP與P在垂足H最短，無需重複漫畫；1440/390實看載入及收合正常。",
+          "reviewStartedAt": "2026-10-28T21:03:07.771693+00:00",
+          "workerLane": 2,
+          "workerReadyAt": "2026-10-28T21:04:13.454662+00:00",
+          "completedAt": "2026-10-28T21:07:14.257582+00:00",
+          "checkedAt": "2026-10-28T21:07:14.257582+00:00",
+          "visualChecked": true,
+          "integrationQueueSeconds": 180.772669,
+          "integrationSeconds": 0.030251
+        },
+        "decision": "reopen_for_exact_four_panel",
+        "reason": "原生作答圖可保留；四格可分矩形對角線EF=AP、P移動距離、垂足最短及同三角形兩種面積，不再以人物不適合而略過。",
+        "originalActuallyViewed": true
+      },
+      {
+        "id": "q-238",
+        "priorEntry": {
+          "id": "q-238",
+          "subject": "Math",
+          "date": "2026-06-29",
+          "title": "數學第11題｜正方形內正三角形的面積比",
+          "state": "not_suitable",
+          "reason": "原卷與面積比2−√3獨立核算，既有精確SVG完整畫F/G/H三垂足、逐步HTML足夠；不加重複漫畫。1440/390實看正常。",
+          "reviewStartedAt": "2026-10-28T21:04:13.532512+00:00",
+          "workerLane": 2,
+          "workerReadyAt": "2026-10-28T21:04:36.678542+00:00",
+          "completedAt": "2026-10-28T21:07:14.320463+00:00",
+          "checkedAt": "2026-10-28T21:07:14.320463+00:00",
+          "visualChecked": true,
+          "integrationQueueSeconds": 157.613753,
+          "integrationSeconds": 0.028168
+        },
+        "decision": "reopen_for_exact_four_panel",
+        "reason": "原生作答圖可保留；四格分正三角形、三垂高、同底長面積比及a/b係數，可避免把比值與和混用。",
+        "originalActuallyViewed": true
+      }
+    ],
+    "preserveQuestionsAnswersDatesAndExistingExamSVG": true
+  }
 }

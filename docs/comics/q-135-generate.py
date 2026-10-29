@@ -1,0 +1,20 @@
+import math,json,hashlib,xml.etree.ElementTree as ET
+from pathlib import Path
+b=.5;r=math.sqrt(7)/2;left=b-r;right=b+r
+pos=lambda x:20+(x+1)*140/3
+L=pos(left);M=pos(b);R=pos(right)
+s=['<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180"><g font-family="Noto Sans CJK TC,sans-serif" fill="#234344" text-anchor="middle">']
+s.append('<path fill="#eef3e9" d="M0 0h180v180H0Z"/><path fill="#edf1f7" d="M180 0h180v180H180Z"/><path fill="#f5efdf" d="M360 0h180v180H360Z"/>')
+s.append('<text x="90" y="23" font-size="14">兩根在b兩側對稱</text><path d="M12 103H169" stroke="#7b9290" stroke-width="1.5"/>')
+for val in [-1,0,1,2]:s.append(f'<path d="M{pos(val)} 99V107" stroke="#7b9290"/><text x="{pos(val)}" y="121" font-size="10">{val}</text>')
+for x,col in [(L,'#bf8e45'),(M,'#57816c'),(R,'#bf8e45')]:s.append(f'<circle cx="{x}" cy="103" r="3.2" fill="{col}"/>')
+s.append(f'<text x="{L+12}" y="59" font-size="11">(1−√7)/2</text><text x="{R-12}" y="59" font-size="11">(1＋√7)/2</text><text x="90" y="87" font-size="14">b＝1/2</text><path d="M{L} 139V145H{M}V139M{M} 139V145H{R}V139" stroke="#bf8e45" fill="none"/><text x="{(L+M)/2}" y="163" font-size="12">√7/2</text><text x="{(M+R)/2}" y="163" font-size="12">√7/2</text>')
+s.append('<text x="270" y="24" font-size="13">距離的平方</text><rect x="200" y="42" width="140" height="37" rx="5" fill="#d0dfed"/><text x="270" y="67" font-size="18">|x−b|＝√7/2</text><text x="270" y="103" font-size="13">平方時，分母也平方</text><rect x="200" y="122" width="140" height="39" rx="5" fill="#d0dfed"/><text x="270" y="149" font-size="19">(x−b)²＝7/4</text>')
+s.append('<text x="450" y="26" font-size="14">a × 7/4＝7</text><text x="450" y="51" font-size="12">1份是7/4</text>')
+for i in range(4):s.append(f'<rect x="{375+i*37.5}" y="66" width="37.5" height="39" fill="{["#d6dfc6","#dedcc1"][i%2]}" stroke="#8b9d88"/><text x="{393.75+i*37.5}" y="92" font-size="12">7/4</text>')
+s.append('<path d="M375 115V122H525V115" stroke="#7b9290" fill="none"/><text x="450" y="141" font-size="15">4份合起來是7</text><text x="450" y="169" font-size="18">a＝7÷(7/4)＝4</text></g></svg>');p=Path('docs/comics/art/q-135.svg');p.write_text(''.join(s));ET.fromstring(p.read_text())
+checks={'roots':[left,right],'midpoint':(left+right)/2,'distanceToMidpoint':r,'distanceSquared':r*r,'a':7/(r*r),'sum':'9/2','rootSubstitution':[4*(left-b)**2,4*(right-b)**2],'passed':True}
+assert abs((left+right)/2-.5)<1e-10 and all(abs(v-7)<1e-10 for v in checks['rootSubstitution'])
+Path('docs/comics/q-135-algebra-validation.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2)+'\n')
+d={'id':'q-135','subject':'Math','title':'兩根找中心，平方距離求倍數','art':str(p),'artMode':'deterministic-svg','generatorFile':'docs/comics/q-135-generate.py','startedAt':'2026-10-29T02:23:41.688185+00:00','panels':[{'heading':'① 兩根的共同中心，就是b','text':'兩根是1/2－√7/2與1/2＋√7/2，在1/2左右等距。因此中點b＝1/2，不把根號部分當成b。','alt':'等尺度數線上兩根約負0.823與1.823，中點0.5，左右距離同為√7/2；負根與正根位置正確。'},{'heading':'② 先平方距離，分母不能漏','text':'代入任一根，都有(x－b)²＝(√7/2)²＝7/4。分母2也要平方，所以是7/4，不是7/2。','alt':'x減b的距離√7/2，平方後為7/4，圖中精確式與文字均可核對，不畫根號長度等於7/2。'},{'heading':'③ 7/4乘多少，才會等於7？','text':'原式變成a×7/4＝7，所以a＝7÷(7/4)＝4。四個7/4合成7；最後a＋b＝4＋1/2＝9/2，選B。','alt':'四份等長單位各標7/4，合起來為7，表達倍數a為4，不是面積或未知實測量。'}],'fourth':{'answer':'答案 B：a＋b＝9/2','points':['兩根取平均，得到b＝1/2。','(√7/2)²＝7/4，代入求a＝4。','a＋b＝4＋1/2＝9/2，不漏分母平方。']},'protectedWords':['兩根','b＝1/2','a＝4','√7/2','(√7/2)²＝7/4','a×7/4＝7','a＝7÷(7/4)＝4','4＋1/2＝9/2','分母平方'],'rationale':'原卷第6題a(x−b)²=7與兩根、四選項實看，B不變。新精確對稱數線/平方距離/四等份倍數圖可降低b與根號距離混淆，所有值獨立代入驗7，不以人物圖或無需圖為由略過。','promptSummary':'原生SVG等尺度數線兩根與b=.5；√7/2平方7/4；四份7/4合7，a4。無人物、無來源AI圖、非假實測圖。','answerCheckedAgainst':'原卷兩根1/2±√7/2，a(x-b)²=7；獨立驗對稱中心.5、a4與兩根代回均7，a+b9/2。','manualLineBreaks':False,'layoutVersion':'native-fluid-v6','sourceAIUsed':False,'originalChecked':{'images':['site/dist/assets/questions/q-135-source-f0a43dbcc8.jpg'],'visualChecked':True,'answer':'B','notes':'實看分母為2、±根號7係數1/2、原式右7與A5/2 B9/2 C3 D5，未漏原有a、b參數。'},'artSHA256':hashlib.sha256(p.read_bytes()).hexdigest(),'algebraValidation':'docs/comics/q-135-algebra-validation.json'}
+Path('docs/comics/q-135.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

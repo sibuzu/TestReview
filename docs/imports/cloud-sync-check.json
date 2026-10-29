@@ -1,0 +1,27 @@
+{
+  "unitTestsPassed": 46,
+  "monitorTestsPassed": 6,
+  "browserChecks": {
+    "twoDevices": true,
+    "independentFlags": true,
+    "offlineRetry": true,
+    "backupImportSynced": true,
+    "expandedPanelPreserved": true,
+    "mobileOverflow": false
+  },
+  "functionBundle": "esbuild --platform=node --format=esm --target=node22 passed",
+  "productionDeploymentVerified": false,
+  "note": "僅完成本機程式與模擬後端測試；使用者自行以完整專案部署到Netlify後才可驗證正式雲端。",
+  "companionOriginsTested": true,
+  "productionBackendGetVerified": true,
+  "productionBackendMarksAtCheck": 0,
+  "productionSameOriginPostValidationStatus": 400,
+  "productionCompanionCorsVerified": false,
+  "productionCheckNote": "使用者於正式網站重新整理後回報標記已同步雲端，並明確確認同步已解決；唯讀API重查取得3筆收藏、0筆疑義。正式網站同步結案；另加的monitor／Live Server跨來源CORS仍依部署版本驗證，不混作已驗證。",
+  "updatedAt": "2026-10-27T15:57:49.834625+00:00",
+  "productionMainSiteSyncUserConfirmed": true,
+  "productionMainSiteConfirmedAt": "2026-10-27T16:03:06.789370+00:00",
+  "productionBackendRecordsAfterRefresh": 3,
+  "productionBackendFavoritesAfterRefresh": 3,
+  "productionBackendDoubtsAfterRefresh": 0
+}

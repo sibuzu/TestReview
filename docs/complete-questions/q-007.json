@@ -1,0 +1,33 @@
+{
+  "volume": "綜合",
+  "chapter": "綜合",
+  "studentAnswer": "",
+  "contentStatus": "完整原題",
+  "verification": "使用者原圖已核對",
+  "images": [],
+  "passage": "",
+  "optionAnalysis": [],
+  "tables": [],
+  "correctOption": "",
+  "diagram": "",
+  "trap": "",
+  "title": "數學第16題｜平行四邊形的角平分線證明",
+  "sourceLabel": "使用者提供原卷｜數學第16題",
+  "question": "如圖，平行四邊形ABCD中，AE平分∠A，DF平分∠D，求證：\n(1) AE⊥DF。\n(2) BF＝CE。\n（依原圖：B、F、E、C依序共線，AE與DF交於G。）",
+  "answer": "(1) AE⊥DF。\n(2) BF＝CE。",
+  "explanation": "(1) 證明兩條角平分線互相垂直\n平行四邊形的鄰角互補，故∠BAD＋∠ADC＝180°。\nAE、DF分別平分這兩個角，所以：\n∠DAE＋∠ADF＝(∠BAD＋∠ADC)／2＝90°。\n設AE與DF交於G。在△AGD中，∠GAD＝∠DAE、∠ADG＝∠ADF，故∠AGD＝180°－90°＝90°。\n因此AE⊥DF。\n\n(2) 證明BF＝CE\n一、找出△ABE的兩個等角\nAD∥BC，所以∠DAE＝∠AEB（內錯角）。\nAE平分∠BAD，所以∠BAE＝∠DAE。\n因此∠BAE＝∠AEB，△ABE為等腰三角形，BE＝AB。\n\n二、找出△DCF的兩個等角\n同理由AD∥BC，得∠ADF＝∠DFC。\nDF平分∠ADC，所以∠CDF＝∠ADF。\n因此∠CDF＝∠DFC，△DCF為等腰三角形，CF＝CD。\n\n三、利用對邊相等並扣除公共線段\n平行四邊形對邊相等，AB＝CD，故BE＝CF。\n依原圖點序B、F、E、C，BE＝BF＋FE，CF＝CE＋FE。\n兩邊同減FE，即得BF＝CE。",
+  "tags": [
+    "平行四邊形",
+    "角平分線",
+    "等腰三角形",
+    "幾何證明"
+  ],
+  "verificationNote": "已依使用者於2026-10-27提供的第16題原卷照片核對。附圖為重繪作答示意，非原卷截圖。原先合併記錄的第18題已拆為獨立題目q-105。",
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-007-given.svg",
+      "alt": "平行四邊形ABCD，B-F-E-C依序共線，角平分線AE與DF交於G",
+      "caption": "依使用者提供原圖重繪的作答附圖"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "next-ten-after-fast",
+  "state": "complete",
+  "startedAt": "2026-10-28T13:28:06.449618+00:00",
+  "target": 10,
+  "definition": "接下來10張成功新生成並核對完成的imagegen插畫；SVG圖與重用圖不計入10張。個別重試時間計入同張累積產圖時間。",
+  "baseline": {
+    "description": "使用者表示先前採SPEED FAST MODE；既有紀錄為50份圖文整體完成週期，含SVG／重用、核對、排版與等待。",
+    "newWorks": 50,
+    "elapsedSeconds": 13002.476013,
+    "averageSecondsPerWork": 260.04952026,
+    "pureGenerationTimingAvailable": false,
+    "samePopulationComparison": "另從前批已記錄reviewStartedAt且採imagegen的新圖文計算較接近的樣本；仍不是隨機對照。"
+  },
+  "samples": [
+    {
+      "id": "q-152",
+      "workStartedAt": "2026-10-28T13:30:06.370Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T13:30:19.493Z",
+          "finishedAt": "2026-10-28T13:30:47.689Z",
+          "seconds": 28.196
+        }
+      ],
+      "completedAt": "2026-10-28T13:33:05.812889+00:00",
+      "totalGenerationSeconds": 28.196,
+      "workSeconds": 179.442889
+    },
+    {
+      "id": "q-121",
+      "workStartedAt": "2026-10-28T13:33:04.129Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T13:33:50.130Z",
+          "finishedAt": "2026-10-28T13:34:15.587Z",
+          "seconds": 25.457
+        }
+      ],
+      "completedAt": "2026-10-28T13:35:57.803101+00:00",
+      "totalGenerationSeconds": 25.457,
+      "workSeconds": 173.674101
+    },
+    {
+      "id": "q-137",
+      "workStartedAt": "2026-10-28T13:36:32.700Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T13:36:45.814Z",
+          "finishedAt": "2026-10-28T13:37:14.838Z",
+          "seconds": 29.024
+        }
+      ],
+      "completedAt": "2026-10-28T13:39:01.768743+00:00",
+      "totalGenerationSeconds": 29.024,
+      "workSeconds": 149.068743
+    },
+    {
+      "id": "q-145",
+      "workStartedAt": "2026-10-28T13:39:50.346Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T13:40:09.915Z",
+          "finishedAt": "2026-10-28T13:40:42.730Z",
+          "seconds": 32.815
+        }
+      ],
+      "completedAt": "2026-10-28T13:43:22.592202+00:00",
+      "totalGenerationSeconds": 32.815,
+      "workSeconds": 212.246202
+    },
+    {
+      "id": "q-254",
+      "workStartedAt": "2026-10-28T13:48:18.806Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T13:49:19.716Z",
+          "finishedAt": "2026-10-28T13:50:13.722Z",
+          "seconds": 54.006
+        }
+      ],
+      "completedAt": "2026-10-28T13:51:48.616720+00:00",
+      "totalGenerationSeconds": 54.006,
+      "workSeconds": 209.81072
+    },
+    {
+      "id": "q-713",
+      "workStartedAt": "2026-10-28T13:55:32.004Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T13:55:51.048Z",
+          "finishedAt": "2026-10-28T13:56:17.487Z",
+          "seconds": 26.439
+        }
+      ],
+      "completedAt": "2026-10-28T13:58:49.708934+00:00",
+      "totalGenerationSeconds": 26.439,
+      "workSeconds": 197.704934
+    },
+    {
+      "id": "q-138",
+      "workStartedAt": "2026-10-28T14:00:50.033Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T14:01:25.935Z",
+          "finishedAt": "2026-10-28T14:01:50.507Z",
+          "seconds": 24.572
+        }
+      ],
+      "completedAt": "2026-10-28T14:04:09.642370+00:00",
+      "totalGenerationSeconds": 24.572,
+      "workSeconds": 199.60937
+    },
+    {
+      "id": "q-146",
+      "workStartedAt": "2026-10-28T14:05:40.426Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T14:06:00.995Z",
+          "finishedAt": "2026-10-28T14:06:30.265Z",
+          "seconds": 29.27
+        }
+      ],
+      "completedAt": "2026-10-28T14:09:38.217740+00:00",
+      "totalGenerationSeconds": 29.27,
+      "workSeconds": 237.79174
+    },
+    {
+      "id": "q-714",
+      "workStartedAt": "2026-10-28T14:10:29.897Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T14:10:48.949Z",
+          "finishedAt": "2026-10-28T14:11:09.353Z",
+          "seconds": 20.404
+        }
+      ],
+      "completedAt": "2026-10-28T14:14:23.202722+00:00",
+      "totalGenerationSeconds": 20.404,
+      "workSeconds": 233.305722
+    },
+    {
+      "id": "q-106",
+      "workStartedAt": "2026-10-28T14:16:22.340Z",
+      "attempts": [
+        {
+          "startedAt": "2026-10-28T14:16:42.501Z",
+          "finishedAt": "2026-10-28T14:17:08.006Z",
+          "seconds": 25.505
+        }
+      ],
+      "completedAt": "2026-10-28T14:20:38.452437+00:00",
+      "totalGenerationSeconds": 25.505,
+      "workSeconds": 256.112437
+    }
+  ],
+  "notificationSent": true,
+  "updatedAt": "2026-10-28T14:20:38.498143+00:00",
+  "completedAt": "2026-10-28T14:20:38.498143+00:00",
+  "averageGenerationSeconds": 29.5688,
+  "averageWorkSeconds": 204.8766858,
+  "averageCompletionCycleSeconds": 303.2082437,
+  "elapsedWindowSeconds": 3032.082437,
+  "workChangePercent": 16.596348032809093,
+  "summary": "速度比較：10張平均產圖29.6秒；整段完成週期平均5.05分鐘（含核對排版及穿插處理其他題）。前50份平均4.33分鐘，差異+16.6%。前批未記純產圖秒數且圖文種類不同，不能據此斷言模式的純產圖速度差。",
+  "notificationSentAt": "2026-10-28T14:21:53.996095+00:00",
+  "notificationId": "OvWnNp7W7NOm"
+}

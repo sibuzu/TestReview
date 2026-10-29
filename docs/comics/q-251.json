@@ -1,0 +1,57 @@
+{
+  "id": "q-251",
+  "subject": "Math",
+  "title": "有效票各選一次，兩組總數必相等",
+  "art": "docs/comics/art/q-251.svg",
+  "panels": [
+    {
+      "heading": "① 每張有效票各貢獻一次",
+      "text": "每人必須選一種想吃及一種不想吃。每張有效票在兩組都各算一次，所以兩組總數相同；不能只看表中一個欄位。",
+      "alt": "一張有效票有想吃與不想吃兩類，各一個勾選，表示每類各貢獻一次紀錄。"
+    },
+    {
+      "heading": "② 分別加總，建立等式",
+      "text": "想吃共85＋x＋125，即210＋x；不想吃共40＋y＋20，即60＋y。因兩組總數相等，得到210＋x＝60＋y。",
+      "alt": "兩類總數的等量方塊，分別為210加x與60加y，方塊面積不表示票數比例。"
+    },
+    {
+      "heading": "③ 依題目要求的方向相減",
+      "text": "由等式可知y比x多150。題目問x減y，所以結果為負150。另列的7張廢票不符合規則，不能加在等式任何一邊。",
+      "alt": "數線上y在x右側，兩者相差150；從y到x的左向箭頭表示x減y為負150。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：x−y＝−150",
+    "points": [
+      "同一批有效票，每張在兩類都各算一次。",
+      "7張廢票不參與有效票總數的等式。",
+      "問x減y，不能把y減x的正150拿來作答。"
+    ]
+  },
+  "rationale": "已實看原卷表格與規則，獨立核對有效票兩列210＋x與60＋y相等；用單票模型、等量關係及數線方向避免任意加廢票或倒置正負。",
+  "generationMethod": "authored SVG count model + native HTML/CSS",
+  "artSHA256": "5848dffa2031b15dba5274f648d8510c07ca3c71b3eee8a41f5c6534ff51bd79",
+  "createdAt": "2026-10-28T14:27:27.223992+00:00",
+  "visualChecked": true,
+  "diagramChecks": [
+    "85＋125＝210；40＋20＝60",
+    "210＋x＝60＋y，故y−x＝150",
+    "數線x在左y在右，從y向x位移為負150",
+    "示意票不是重製原選票版型，僅呈現兩類各一次"
+  ],
+  "nativeArt": "assets/comics/q-251-art-5848dffa20.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T14:28:41.495454+00:00",
+  "validationFile": "docs/comics/q-251-validation.json"
+}

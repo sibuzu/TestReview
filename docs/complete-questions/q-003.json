@@ -1,0 +1,32 @@
+{
+  "title": "數學第17題｜正方形外的AE",
+  "question": "如圖，正方形ABCD中，若AE∥BD，取BE＝BD，若AB＝1，則AE＝＿＿＿＿。",
+  "answer": "AE＝(√6－√2)／2。",
+  "explanation": "一、依原圖確認E的位置\nA、B、C、D依序為左上、左下、右下、右上頂點。E在AD上方的正方形外部，AE與對角線BD平行，且BE＝BD。這些位置會影響計算時該用哪個正根，不能只看邊長而忽略圖形。\n\n二、作輔助線，先求水平與鉛直的等長段\n將BA向上延長，從E向此延長線作垂線，交於F。正方形對角線BD與邊成45°，由AE∥BD，可知△AFE為等腰直角三角形。\n設AF＝EF＝x，則BF＝BA＋AF＝1＋x；AE＝√2x。\n\n三、在直角三角形BFE用畢氏定理\n正方形對角線BD＝√(1²＋1²)＝√2，題給BE＝BD，故BE²＝2。\nx²＋(1＋x)²＝2\n整理：2x²＋2x－1＝0。\nx＝(－1±√3)／2。因x是長度，取x＝(√3－1)／2。\n\n四、把x換回題目所求的AE\nAE＝√2x＝√2(√3－1)／2＝(√6－√2)／2。\n本解法的x是AF與EF的長度，最後還要乘√2；不能直接把x當成AE。",
+  "tags": [
+    "正方形",
+    "畢氏定理",
+    "一元二次方程"
+  ],
+  "volume": "綜合",
+  "chapter": "綜合",
+  "sourceLabel": "使用者提供原卷｜數學第17題",
+  "studentAnswer": "",
+  "contentStatus": "完整原題",
+  "verification": "使用者原圖已核對",
+  "verificationNote": "題幹與圖形條件已依使用者於2026-10-27提供的照片核對。網站附圖為依該照片重繪的作答圖，非原卷截圖。",
+  "passage": "",
+  "images": [],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-003-given.svg",
+      "alt": "正方形外點E，AE平行BD，BE等於BD，邊長1",
+      "caption": "依使用者提供原圖重繪的作答附圖"
+    }
+  ],
+  "optionAnalysis": [],
+  "tables": [],
+  "correctOption": "",
+  "diagram": "",
+  "trap": ""
+}

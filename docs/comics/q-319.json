@@ -1,0 +1,68 @@
+{
+  "id": "q-319",
+  "subject": "Math",
+  "title": "停車先進位，再比較整年總費用",
+  "art": "docs/comics/art/q-319.png",
+  "startedAt": "2026-10-28T16:56:26.959625+00:00",
+  "panels": [
+    {
+      "heading": "① 5小時43分怎麼算？",
+      "text": "一般前2小時40元。剩3小時43分，不足半小時也算半小時，所以計8個半小時：40＋8 × 15＝160元。",
+      "alt": "駕駛在停車場繳費機旁查看停車票，示意先依時段與不足單位計費。"
+    },
+    {
+      "heading": "② 每天11小時，先看上限",
+      "text": "一般：40＋9 × 2 × 15＝310元。會員：前3小時合計40元，再加8 × 10＝80元，共120元，但有每日上限，只收110元。",
+      "alt": "駕駛在停車場服務櫃檯詢問會員方案，示意每日計費還須比較收費上限。"
+    },
+    {
+      "heading": "③ 會員年費不能漏",
+      "text": "每天會員比一般省200元，但須先付10000元年費。停50天只省回年費，兩者打平；要會員更便宜，至少停51天。",
+      "alt": "駕駛在桌邊用計算機與月曆比較全年停車費，示意加入年費後計算損益門檻。"
+    }
+  ],
+  "fourth": {
+    "answer": "(1) 160元　(2) 至少51天",
+    "points": [
+      "設停n天：會員10000＋110n，一般310n。",
+      "10000＋110n＜310n，得到n＞50。",
+      "「較划算」要小於；50天打平，不算比較便宜。"
+    ]
+  },
+  "protectedWords": [
+    "5小時43分",
+    "3小時43分",
+    "160元",
+    "110元",
+    "10000元",
+    "51天"
+  ],
+  "rationale": "使用者已確認原表與160元／51天解答。圖文將進位計費、每日上限、年費門檻分開，避免前3小時合計與每小時收費混淆，並特別保留嚴格不等式。",
+  "promptSummary": "三格無字動漫：駕駛查看停車票、櫃檯詢問會員、月曆計算全年費用。精確價目與公式由HTML呈現。",
+  "answerCheckedAgainst": "(1) 160元；(2) 至少51天。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-319-source-e40091655a.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T16:57:47.872546+00:00",
+  "checkedAt": "2026-10-28T16:59:22.932276+00:00",
+  "visualChecked": true,
+  "artSHA256": "9e826ad7d1c7a99e5d9d665ac64b93df751e97e022103ec85b8fd2022bcad3ee",
+  "previewValidation": "docs/comics/q-319-preview-validation.json",
+  "visualReview": "原卷表格已實看，依已確認160元／51天保留。一般剩餘3時43分進位8個半小時；會員11小時120但受上限110；年費10000加每日費嚴格比較。動漫停車繳費、詢問會員、年曆計算三場景無精確價目文字。原圖及1440/390成品實看，獨立QA1440/1120/390過，手機自然高度，無溢出。",
+  "nativeArt": "assets/comics/q-319-art-9e826ad7d1-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-319-validation.json"
+}

@@ -1,0 +1,251 @@
+{
+  "mode": "three_parallel_workers_with_root_available",
+  "workerLimit": 3,
+  "rootRole": "機動、回答問題與整合",
+  "updatedAt": "2026-10-28T18:59:02.494177+00:00",
+  "lanes": [
+    {
+      "lane": 1,
+      "questionId": "q-797",
+      "title": "歷史第18題｜優先原卷核對中",
+      "state": "idle",
+      "startedAt": "2026-10-28T18:43:24.324776+00:00",
+      "agent": "/root/comic_lane_1"
+    },
+    {
+      "lane": 2,
+      "questionId": "q-803",
+      "title": "歷史第2題｜兩次世界大戰的亞洲戰場參戰原因",
+      "state": "idle",
+      "startedAt": "2026-10-28T18:39:03.790044+00:00",
+      "agent": "/root/comic_lane_2"
+    },
+    {
+      "lane": 3,
+      "questionId": "q-809",
+      "title": "數學第23題｜優先原卷核對中",
+      "state": "idle",
+      "startedAt": "2026-10-28T18:40:47.555794+00:00",
+      "agent": "/root/comic_lane_3"
+    }
+  ],
+  "ready": [
+    {
+      "id": "q-093",
+      "title": "歷史第19題｜琉球使節與朝貢關係",
+      "subject": "History",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:32:08.561541+00:00",
+      "readyAt": "2026-10-28T17:38:13.685866+00:00",
+      "decision": "complete",
+      "reason": "原文與原題C已實看，海路使節／冊封朝貢／拳法文化交流三情境，保留不等同現代行政區說明；精修教師清代帽型，三尺寸QA與實看通過。",
+      "evidence": [
+        "docs/comics/q-093.json",
+        "docs/comics/q-093-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-094",
+      "title": "歷史第20題｜日本藉牡丹社事件向外擴張",
+      "subject": "History",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:33:02.930137+00:00",
+      "readyAt": "2026-10-28T17:36:40.561994+00:00",
+      "decision": "complete",
+      "reason": "原卷長文與牡丹社補充資料實看，維持D及1874→1879脈絡；習武／海船／搬遷概念圖，桌機手機實看與QA過",
+      "evidence": [
+        "docs/comics/q-094.json",
+        "docs/comics/q-094-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-28T17:38:08.190491+00:00"
+    },
+    {
+      "id": "q-785",
+      "title": "歷史第16題｜羅馬共和晚期的政爭結果",
+      "subject": "History",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:33:53.089838+00:00",
+      "readyAt": "2026-10-28T17:38:11.042153+00:00",
+      "decision": "complete",
+      "reason": "原卷A核對，以共和政爭/軍事支持/權力集中象徵三景說明，不把凱撒當國王或與屋大維混同；三寬QA與圖文桌機手機實看通過",
+      "evidence": [
+        "docs/comics/q-785.json",
+        "docs/comics/q-785-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-761",
+      "title": "歷史第5題｜北宋戲劇的角色與時代",
+      "subject": "History",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:36:40.596353+00:00",
+      "readyAt": "2026-10-28T17:40:30.696181+00:00",
+      "decision": "complete",
+      "reason": "原卷北宋A核對，豐收／文官／演員考證三情境，不把重文輕武誤說無將軍；桌機手機實看及三寬QA過",
+      "evidence": [
+        "docs/comics/q-761.json",
+        "docs/comics/q-761-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-762",
+      "title": "歷史第13題｜乾隆疆域與朝貢關係",
+      "subject": "History",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:38:11.073114+00:00",
+      "readyAt": "2026-10-28T17:40:16.937844+00:00",
+      "decision": "not_suitable",
+      "reason": "原肖像與時期關係判讀已有完整解說，泛寺廟使者插畫不能提供歸屬證據，重繪肖像/疆圖易混時點；保留A與原圖，桌機手機實看無溢出",
+      "evidence": [
+        "docs/comics/q-762-review.json",
+        "docs/comics/q-762-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-763",
+      "title": "歷史第14題｜漫畫中的北宋盟約",
+      "subject": "History",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:38:13.762583+00:00",
+      "readyAt": "2026-10-28T17:40:39.211765+00:00",
+      "decision": "not_suitable",
+      "reason": "實看原題漫畫只標北宋／胡人，已確認保留C教材預期與線索限制；新畫外族服飾或盟約標記不能補原題證據，易誤導看外觀判契丹，故留原作答漫畫及完整文字不重畫。1440/390原頁QA通過。",
+      "evidence": [
+        "docs/comics/q-763-review.json",
+        "docs/comics/qa/q-763/layout.json"
+      ]
+    }
+  ],
+  "integrated": 66,
+  "blocked": [
+    {
+      "id": "q-467",
+      "title": "理化第19題｜同高度不同質量的自由落體時間",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-10-28T16:47:18.819832+00:00",
+      "readyAt": "2026-10-28T16:48:55.821919+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "原卷第19題為15公克鋁球，題庫誤錄鐵球；答案A不變，但題幹/詳解材料需訂正並登錄確認，暫不製圖",
+      "evidence": [
+        "docs/comics/q-467-review.json"
+      ]
+    },
+    {
+      "id": "q-469",
+      "title": "理化第39題｜由x–t圖判斷相對原點的位移",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-10-28T16:48:55.864533+00:00",
+      "readyAt": "2026-10-28T16:49:38.871113+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "原卷問出發點相對原點，題庫誤錄終點；答案B碰巧不變，題幹和詳解參照點需訂正",
+      "evidence": [
+        "docs/comics/q-469-review.json"
+      ]
+    }
+  ],
+  "waiting": [],
+  "integrating": [],
+  "held": [
+    {
+      "id": "q-093",
+      "title": "歷史第19題｜琉球使節與朝貢關係",
+      "subject": "History",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:32:08.561541+00:00",
+      "readyAt": "2026-10-28T17:38:13.685866+00:00",
+      "decision": "complete",
+      "reason": "原文與原題C已實看，海路使節／冊封朝貢／拳法文化交流三情境，保留不等同現代行政區說明；精修教師清代帽型，三尺寸QA與實看通過。",
+      "evidence": [
+        "docs/comics/q-093.json",
+        "docs/comics/q-093-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-094",
+      "title": "歷史第20題｜日本藉牡丹社事件向外擴張",
+      "subject": "History",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:33:02.930137+00:00",
+      "readyAt": "2026-10-28T17:36:40.561994+00:00",
+      "decision": "complete",
+      "reason": "原卷長文與牡丹社補充資料實看，維持D及1874→1879脈絡；習武／海船／搬遷概念圖，桌機手機實看與QA過",
+      "evidence": [
+        "docs/comics/q-094.json",
+        "docs/comics/q-094-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-28T17:38:08.190491+00:00"
+    },
+    {
+      "id": "q-785",
+      "title": "歷史第16題｜羅馬共和晚期的政爭結果",
+      "subject": "History",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:33:53.089838+00:00",
+      "readyAt": "2026-10-28T17:38:11.042153+00:00",
+      "decision": "complete",
+      "reason": "原卷A核對，以共和政爭/軍事支持/權力集中象徵三景說明，不把凱撒當國王或與屋大維混同；三寬QA與圖文桌機手機實看通過",
+      "evidence": [
+        "docs/comics/q-785.json",
+        "docs/comics/q-785-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-761",
+      "title": "歷史第5題｜北宋戲劇的角色與時代",
+      "subject": "History",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:36:40.596353+00:00",
+      "readyAt": "2026-10-28T17:40:30.696181+00:00",
+      "decision": "complete",
+      "reason": "原卷北宋A核對，豐收／文官／演員考證三情境，不把重文輕武誤說無將軍；桌機手機實看及三寬QA過",
+      "evidence": [
+        "docs/comics/q-761.json",
+        "docs/comics/q-761-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-762",
+      "title": "歷史第13題｜乾隆疆域與朝貢關係",
+      "subject": "History",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:38:11.073114+00:00",
+      "readyAt": "2026-10-28T17:40:16.937844+00:00",
+      "decision": "not_suitable",
+      "reason": "原肖像與時期關係判讀已有完整解說，泛寺廟使者插畫不能提供歸屬證據，重繪肖像/疆圖易混時點；保留A與原圖，桌機手機實看無溢出",
+      "evidence": [
+        "docs/comics/q-762-review.json",
+        "docs/comics/q-762-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-763",
+      "title": "歷史第14題｜漫畫中的北宋盟約",
+      "subject": "History",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-28T17:38:13.762583+00:00",
+      "readyAt": "2026-10-28T17:40:39.211765+00:00",
+      "decision": "not_suitable",
+      "reason": "實看原題漫畫只標北宋／胡人，已確認保留C教材預期與線索限制；新畫外族服飾或盟約標記不能補原題證據，易誤導看外觀判契丹，故留原作答漫畫及完整文字不重畫。1440/390原頁QA通過。",
+      "evidence": [
+        "docs/comics/q-763-review.json",
+        "docs/comics/qa/q-763/layout.json"
+      ]
+    }
+  ]
+}

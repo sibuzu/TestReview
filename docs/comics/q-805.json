@@ -1,0 +1,76 @@
+{
+  "id": "q-805",
+  "subject": "History",
+  "title": "政治內容＋1905年，定位考察立憲",
+  "art": "docs/comics/art/q-805-v2.png",
+  "protectedWords": [
+    "政治日新",
+    "考求政治",
+    "光緒三十一年",
+    "1905年",
+    "五大臣",
+    "君主立憲",
+    "預備立憲",
+    "新式教育"
+  ],
+  "panels": [
+    {
+      "heading": "① 先讀國書的「政治」",
+      "text": "「政治日新」「考求政治」直接指出考察政治體制。不能只看到出國考察，就在軍事、教育或交通技術中猜選項。",
+      "alt": "現代博物館的教學情境，師生閱讀無字文書道具，不冒充真正國書的文字。"
+    },
+    {
+      "heading": "② 年代與五大臣一起看",
+      "text": "光緒三十一年是1905年，與清末五大臣出洋考察憲政的背景相合，目標是預備立憲，對應B的君主立憲制度。",
+      "alt": "師生以議場模型和王冠教具理解君主立憲，不呈現真實歷史會議或精確使臣人數。"
+    },
+    {
+      "heading": "③ 考察目標，不是已經完成",
+      "text": "君主立憲保留君主，並以憲法、議會等制度規範政治。清廷此時在考察與籌備；不等於當時已完成這項改革。",
+      "alt": "現代教學比較議會制度模型與教育材料，區分政治體制和學校改革。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：君主立憲制度",
+    "points": [
+      "內容線索：政治日新、考求政治。",
+      "背景線索：1905年、五大臣出洋考察憲政。",
+      "同在清末的教育或交通改革，不等於本題目的。"
+    ]
+  },
+  "rationale": "優先原卷7題含國書摘錄已逐字實看，另核故宮官方文物說明，B與1905五大臣考察憲政相合。全新內建imagegen採現代博物館情境，不採來源AI圖、不虛構真實出訪場景；文物原字、年代、人物數及制度說明全部用HTML與原卷裁圖。 已移除道具文書的假字紋與無關國會建築背景，避免冒充史料或混淆受訪國。",
+  "sources": [
+    {
+      "title": "國立故宮博物院：送不出去的國書",
+      "url": "https://theme.npm.edu.tw/selection/DigitalArticle.aspx?sNo=00000012"
+    }
+  ],
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-805-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/priority-6ae2305b-01.jpg",
+    "site/dist/assets/questions/q-805-source.jpg",
+    "site/dist/assets/questions/q-805-figure.jpg"
+  ],
+  "answerCheckedAgainst": "B，君主立憲；政治內容、光緒三十一年/1905、五大臣考察憲政一致。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "7436f7ec98d347b19f5f2797d3385268d7de75d157f3ef52056a6d5641966536",
+  "createdAt": "2026-10-28T18:38:04.012776+00:00",
+  "editPromptFile": "docs/comics/q-805-edit-prompt.txt",
+  "checkedAt": "2026-10-28T18:51:49.049499+00:00",
+  "validationFile": "docs/comics/q-805-validation.json",
+  "nativeArt": "assets/comics/q-805-art-7436f7ec98-web.webp"
+}

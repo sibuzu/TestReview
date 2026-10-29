@@ -1,0 +1,14 @@
+[build]
+  publish = "site/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/data.json"
+  [headers.values]
+    Cache-Control = "no-cache"

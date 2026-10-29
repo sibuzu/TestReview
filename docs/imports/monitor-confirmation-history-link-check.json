@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-28T04:56:30.814028+00:00",
+  "resolvedRecordsWithLinks": 147,
+  "detailFields": [
+    "saved questionText",
+    "questions",
+    "before",
+    "after",
+    "resolution",
+    "questionUrl",
+    "sourceUrl"
+  ],
+  "versionSelector": "confirmationToken or resolvedAt for legacy records",
+  "checks": [
+    "Real q602 original-problem snapshot including mistaken 初升的夕陽 is readable",
+    "Stable link survives browser reload",
+    "No confirmation action on historical viewer",
+    "Legacy missing snapshots explicitly marked",
+    "Unknown record displays missing-record message",
+    "390px viewport has no horizontal overflow",
+    "No production confirmation records changed",
+    "Same-page dialog opens from history link without a new tab",
+    "Escape and close return to same history item viewport position",
+    "Background data refresh does not reset dialog scroll",
+    "Source details collapsed by default; expanding permits Gemini filter and search; can collapse again"
+  ],
+  "browserErrors": [],
+  "monitorTestsPassed": 11,
+  "screenshot": "/tmp/weirugo-monitor-original-review-popup-mobile.png",
+  "screenshotViewed": true,
+  "presentation": "same-page native dialog; no new tab"
+}

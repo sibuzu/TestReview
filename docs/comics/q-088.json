@@ -1,0 +1,72 @@
+{
+  "id": "q-088",
+  "subject": "Earth",
+  "title": "水往下游，向源侵蝕卻往上游發展",
+  "art": "docs/comics/art/q-088.svg",
+  "protectedWords": [
+    "向源侵蝕",
+    "甲橋",
+    "乙橋",
+    "採砂區",
+    "橋墩"
+  ],
+  "panels": [
+    {
+      "heading": "① 先認流向，再定橋梁位置",
+      "text": "原圖水往出海口流，甲橋在採砂區上游，乙橋在下游。兩處採砂都在橋梁之間；不能只比較圖上的遠近，就決定哪座橋先受影響。",
+      "alt": "以簡化俯視位置對照甲橋、兩處採砂區與乙橋，水流由上游甲側往下游乙側。"
+    },
+    {
+      "heading": "② 挖低河床，侵蝕可向上游延伸",
+      "text": "持續挖走砂石，局部河床降低並改變坡降，侵蝕可向上游發展，稱向源侵蝕。圖中藍箭頭是水流，橘箭頭是侵蝕擴展方向，兩者不要混淆。",
+      "alt": "河床剖面示意採砂坑及往上游退縮的侵蝕位置，水流向右、侵蝕發展向左；不是水倒流。"
+    },
+    {
+      "heading": "③ 本題對應上游甲橋的風險",
+      "text": "沿著向上游發展的侵蝕，甲橋橋墩旁的砂石可能被掏空，符合C。重點是圖示位置與向源機制，不是認為採砂只會傷害下游的橋。",
+      "alt": "示意甲橋橋墩旁河床流失、基礎周邊受掏刷，並非某座真實橋梁或工程尺寸。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：甲橋墩旁的泥沙易被掏空",
+    "points": [
+      "先標甲為上游、乙為下游，再連到採砂使河床降低。",
+      "向源指侵蝕往河源方向發展，不表示河水倒流。",
+      "本題以向源侵蝕判C，不把它擴大成下游永遠不受採砂影響。"
+    ]
+  },
+  "rationale": "實看原卷與橋梁、採砂及出海口相對位置，維持C；以定性俯視及縱剖面分開水流與侵蝕發展方向，不捏造現場尺寸、失效時刻或下游絕無風險。",
+  "generationMethod": "authored SVG headcut and bridge-scour diagram; teaching paragraphs rendered in HTML/CSS",
+  "supportingSources": [
+    {
+      "title": "US EPA: Physical Habitat — Mining and headcuts",
+      "url": "https://www.epa.gov/caddis/physical-habitat"
+    },
+    {
+      "title": "USACE: Modeling Headcuts with HEC-RAS 1D Sediment",
+      "url": "https://www.hec.usace.army.mil/confluence/rasdocs/rassed1d/1d-sediment-transport-user-s-manual/simulating-sediment-transport/sediment-computation-options-and-tolerances/sediment-transport-energy-slope/modeling-headcuts-with-hec-ras-1d-sediment"
+    }
+  ],
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-088-art-fc33aaea3d.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "fc33aaea3dfeb51db5d92d5f529df6be9635515bced171a36becaa71837b2ec4",
+  "createdAt": "2026-10-28T16:25:52.615061+00:00",
+  "contentChecks": [
+    "Original plan: 甲 upstream, 乙 downstream, both mining areas between bridges",
+    "Blue water arrow downstream; orange headcut-development arrow upstream; no quantitative scour prediction"
+  ],
+  "checkedAt": "2026-10-28T16:26:36.702232+00:00",
+  "validationFile": "docs/comics/q-088-validation.json"
+}

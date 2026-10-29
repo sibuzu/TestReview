@@ -1,0 +1,80 @@
+{
+  "id": "q-090",
+  "subject": "Earth",
+  "title": "礫岩粗、砂岩中、頁岩最細",
+  "art": "docs/comics/art/q-090.svg",
+  "startedAt": "2026-10-28T17:32:17.812625+00:00",
+  "panels": [
+    {
+      "heading": "① 岩層②：礫岩顆粒較粗",
+      "text": "礫岩含較大的碎屑，常可看出明顯礫石。題目把②判作礫岩，因此②的組成顆粒應較大。",
+      "alt": "礫岩概念圖中有較粗大的圓礫，顆粒大小僅作比較示意，不是原岩層實測照片。"
+    },
+    {
+      "heading": "② 岩層①：砂岩居中",
+      "text": "砂岩的碎屑像砂粒，大小介於礫岩與頁岩之間。辨認三者時，要比較顆粒，而不是只看岩石顏色。",
+      "alt": "砂岩概念圖呈現較小、均勻的砂狀碎屑，與礫岩及頁岩作定性比較。"
+    },
+    {
+      "heading": "③ 岩層③：頁岩顆粒細",
+      "text": "頁岩由更細小的碎屑形成，所以③的顆粒較小。把②礫岩與③頁岩對回選項，正好符合C。",
+      "alt": "頁岩概念圖質地較細緻，細小顆粒不畫成明顯礫石；不是精確粒徑或比例圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：②粗、③細",
+    "points": [
+      "大小順序：礫岩＞砂岩＞頁岩。",
+      "層狀構造不是砂岩獨有，化石也非頁岩獨有。",
+      "各類岩石都可能風化侵蝕，不能說其他岩石不會。"
+    ]
+  },
+  "protectedWords": [
+    "礫岩",
+    "砂岩",
+    "頁岩",
+    "碎屑",
+    "岩層②",
+    "岩層①",
+    "岩層③",
+    "風化侵蝕"
+  ],
+  "rationale": "粒徑對比是此題直接可視化的特徵，採程式SVG概念岩樣，避免生成模型把礫石、砂粒與細屑隨意混用。三格同尺寸質地對比，不宣稱真實粒徑刻度；同時提醒層理與風化的絕對說法不能作排他依據。",
+  "promptSummary": "不用生成圖。程式SVG三格同尺寸岩樣：圓礫粗屑、砂粒中屑、細緻頁岩，粒徑定性對比，非原圖精確重繪。",
+  "answerCheckedAgainst": "正確答案：C。礫岩碎屑顆粒較粗，頁岩顆粒較細，砂岩介於兩者之間。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": [
+    {
+      "src": "site/dist/assets/questions/q-090-reading-source-10ae27f717.jpg",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-090-source-cf5edb652d.jpg",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-090-figure-6347db2458.jpg",
+      "visualChecked": true
+    }
+  ],
+  "completedAt": "2026-10-28T17:33:02.878355+00:00",
+  "checkedAt": "2026-10-28T17:35:53.777782+00:00",
+  "visualChecked": true,
+  "artSHA256": "49720cce0ca8f3561634f76167dd581a92663b0d35b689cc5201cd608c672e09",
+  "previewValidation": "docs/comics/q-090-preview-validation.json",
+  "visualReview": "已實看原卷材料、選項及層位附圖，②礫岩較粗③頁岩較細，維持C。程式SVG以粗圓礫／砂粒／細質三格作定性比較，所有格都有淡層理避免暗示只有頁岩有層狀構造；不附精確粒徑刻度或冒充岩層照片。1440/390成品實看，三寬QA過，手機自然高度、無溢出。",
+  "nativeArt": "assets/comics/q-090-art-49720cce0c.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-090-validation.json"
+}

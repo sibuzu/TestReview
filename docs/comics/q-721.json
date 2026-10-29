@@ -1,0 +1,63 @@
+{
+  "id": "q-721",
+  "subject": "English",
+  "title": "過去完成式：比過去的來到更早",
+  "art": "docs/comics/art/q-721.png",
+  "startedAt": "2026-10-28T17:14:28.211605+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先發生：上網找資料",
+      "text": "Linda先在網路上找墾丁資料。look for是「尋找」，不必解讀成每項資料都已經找到。這件事發生在來到這裡之前。",
+      "alt": "Linda在家使用筆電查找旅行資料，行李尚在身邊。"
+    },
+    {
+      "heading": "② 後發生：來到這裡",
+      "text": "before she came here中的came是過去式，指出她「來到這裡」這個過去時間點。找資料比這個時間點更早。",
+      "alt": "Linda帶行李抵達墾丁海邊，對應較後的過去動作came。"
+    },
+    {
+      "heading": "③ 用had連到過去之前",
+      "text": "用had＋過去分詞，表示在過去某個時間以前已發生的事。因此填had looked for，對照後面的came。",
+      "alt": "抵達後Linda向朋友回顧出發前上網準備的經過。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 找資料在前，來到這裡在後",
+    "answer": "答案 C：had",
+    "points": [
+      "had looked for：過去以前已找過。",
+      "had不因Linda是第三人稱單數而改成has。",
+      "先判斷事件先後，不是看到before就一律套had。"
+    ]
+  },
+  "protectedWords": [
+    "Linda",
+    "墾丁",
+    "過去完成式",
+    "過去分詞",
+    "第三人稱單數"
+  ],
+  "rationale": "以出發前查資料、抵達墾丁、抵達後回顧的時間情境呈現過去以前，避免死背before必用had或looked for必等於found。精確英文保持HTML可校對。",
+  "promptSummary": "無字動漫三格：出發前筆電研究、抵達墾丁、向朋友回顧較早的準備。",
+  "answerCheckedAgainst": "原卷C had；came為過去基準，搜尋較早，had looked for。",
+  "visualChecked": true,
+  "artSHA256": "a0d80930b87d6ede7c6b300df3d6a0f59fcfdfc698a2f0f06d0c7f4faf77b0ab",
+  "completedAt": "2026-10-28T17:16:16.637264+00:00",
+  "checkedAt": "2026-10-28T17:18:31.542402+00:00",
+  "layoutEvidence": "docs/comics/q-721-preview-validation.json",
+  "visualReview": "實看原卷C與生成圖，三格先查資料、後抵達、回顧先前準備，had looked for對照came且未誤教before必用had。1440/1120/390截圖實看，英文單字完整、圖片自然比例、同列高度與手機自然高度正常，無溢出。",
+  "nativeArt": "assets/comics/q-721-art-a0d80930b8-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-721-validation.json"
+}

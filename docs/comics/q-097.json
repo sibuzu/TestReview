@@ -1,0 +1,74 @@
+{
+  "id": "q-097",
+  "subject": "Geography",
+  "title": "性別比的100，是男女等多的界線",
+  "art": "docs/comics/art/q-097.svg",
+  "startedAt": "2026-10-28T17:04:32.477221+00:00",
+  "panels": [
+    {
+      "heading": "① 男性較多，比值大於100",
+      "text": "性別比＝男性人口 ÷ 女性人口 × 100。文中男性比女性多，所以分子大於分母，性別比大於100。",
+      "alt": "概念長條圖中男性長條比女性長；不表示2016年精確人口數或比例。"
+    },
+    {
+      "heading": "② 100表示男女一樣多",
+      "text": "以每100名女性為基準，若對應100名男性，性別比就是100。100不是總人口，也不是男性占總人口的百分比。",
+      "alt": "男女兩條長條等長，示意性別比100時兩者數量相同。"
+    },
+    {
+      "heading": "③ 小於100，方向就相反",
+      "text": "86.4與99.7都小於100，表示男少於女；100.0表示一樣多。只有105.4大於100，符合文章。",
+      "alt": "男性長條比女性短，示意小於100代表男性較少，與本文不符。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：105.4",
+    "points": [
+      "分母是女性人口，不是全體人口。",
+      "男多：大於100；等多：100；男少：小於100。",
+      "只給差額不能硬算精確比例，但能判斷大於100。"
+    ]
+  },
+  "protectedWords": [
+    "性別比",
+    "男性人口",
+    "女性人口",
+    "105.4",
+    "99.7",
+    "100.0"
+  ],
+  "rationale": "本題關鍵是分子分母與100基準，使用程式製作三個可核對長條概念圖，比生成無數據人群更不易誤導。圖的長度只表示大小與相等，未使用105.4作真實人口估值；精確公式與解說全部HTML。",
+  "promptSummary": "不生成點陣人物。手製SVG三格概念長條：男多於女、男女等多、男少於女，使用男／女標籤；僅表示方向，非真實人口統計。",
+  "answerCheckedAgainst": "正確答案：D。男性多於女性，性別比應大於100，四項只有105.4符合。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": [
+    {
+      "src": "site/dist/assets/questions/q-097-reading-source-021569c320.jpg",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-097-source-5b64a530e9.jpg",
+      "visualChecked": true
+    }
+  ],
+  "completedAt": "2026-10-28T17:05:13.453398+00:00",
+  "checkedAt": "2026-10-28T17:06:54.155170+00:00",
+  "visualChecked": true,
+  "artSHA256": "f2a4c550e53565bb1a331c7bdf8fb0be7a9f1a2536f62c947207d6571b55bfe6",
+  "previewValidation": "docs/comics/q-097-preview-validation.json",
+  "visualReview": "原卷閱讀材料及選項已實看，男性多於女性、只有D105.4大於100。三圖為程式SVG概念長條：男多、等多、男少，男女人口方向與各格解說一致；圖無精確比例刻度，不當作2016年數值圖。公式、答案、說明使用HTML，SVG只留圖的男／女標籤。實看1440/390成品，獨立QA1440/1120/390全過，圖清晰、無溢出、手機自然高度。",
+  "nativeArt": "assets/comics/q-097-art-f2a4c550e5.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-097-validation.json"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "q-807",
+  "subject": "Math",
+  "title": "奇偶相鄰配對，每對差一個d",
+  "art": "docs/comics/art/q-807-v2.png",
+  "protectedWords": [
+    "奇數項",
+    "偶數項",
+    "相鄰配對",
+    "6d＝8",
+    "4／3",
+    "12項",
+    "6對"
+  ],
+  "panels": [
+    {
+      "heading": "① 每個偶數項配前一奇數項",
+      "text": "第2項減第1項、第4項減第3項，直到第12項減第11項，每一對都差公差d。12項剛好配成6對。",
+      "alt": "老師以一對無字色卡示意相鄰配對；不是原題12項的精確排列圖。"
+    },
+    {
+      "heading": "② 總差是6個公差",
+      "text": "偶數項和18減奇數項和10，等於8。六對相加便是6d＝8，因此d＝8／6＝4／3。要除以配對數6。",
+      "alt": "師生比較兩組學習單的共通規律，精確組數與總和用旁邊文字呈現。"
+    },
+    {
+      "heading": "③ 回代奇偶項和",
+      "text": "首項取−5、公差取4／3時，奇數項和為10，偶數項和為18。兩個原題條件都成立，不只看選項大小。",
+      "alt": "學生各自驗算再交換檢查，沒有由插畫顯示數字或答案。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：公差4／3",
+    "points": [
+      "12項配成6對，不是12對。",
+      "偶數項−前一奇數項＝d。",
+      "第3項−第1項才是2d，別與相鄰配對混淆。"
+    ]
+  },
+  "rationale": "優先新來源原卷第18題已實看，獨立用六對差求d=4/3，再以首項−5回代奇和10、偶和18。全新內建imagegen只製教學情境，不採來源AI圖，不讓生成模型決定12項/6對或計算數值，精確內容全在HTML。 已清除學習單上的重複色條，避免生成圖看似只有3對而與精確6對混淆。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-807-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/priority-6ae2305b-03.jpg",
+    "site/dist/assets/questions/q-807-source.jpg"
+  ],
+  "answerCheckedAgainst": "B，d=4/3；首項−5時奇數項和10、偶數項和18。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "1a722cbf4bff7c7f5ccedabbdd2d77e7bfa28823c9adc92f19ffe870ec615e11",
+  "createdAt": "2026-10-28T18:12:23.762575+00:00",
+  "editPromptFile": "docs/comics/q-807-edit-prompt.txt",
+  "checkedAt": "2026-10-28T18:22:11.912046+00:00",
+  "validationFile": "docs/comics/q-807-validation.json",
+  "nativeArt": "assets/comics/q-807-art-1a722cbf4b-web.webp"
+}

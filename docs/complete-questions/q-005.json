@@ -1,0 +1,33 @@
+{
+  "volume": "綜合",
+  "chapter": "綜合",
+  "contentStatus": "完整原題",
+  "verification": "使用者原圖已核對",
+  "studentAnswer": "",
+  "images": [],
+  "passage": "",
+  "optionAnalysis": [],
+  "tables": [],
+  "correctOption": "",
+  "diagram": "",
+  "title": "數學第20題｜矩形等面積與黃金比例",
+  "sourceLabel": "使用者提供原卷｜數學第20題",
+  "question": "如圖，矩形ABCD中，已知△APQ面積＝△BCP面積＝△CDQ面積，求AQ：QD的比值＝＿＿＿＿。\n（依原圖：P在AB上，Q在AD上。）",
+  "answer": "AQ／QD＝(√5＋1)／2。\n若寫成比例：AQ：QD＝(√5＋1)：2。",
+  "explanation": "一、依圖設定線段長度\n設AB＝CD＝a，AD＝BC＝b，AQ＝x，BP＝y，則QD＝b－x，AP＝a－y；各線段長度均為正。\n\n二、用等面積列式\n△BCP面積＝by／2。\n△CDQ面積＝a(b－x)／2。\n△APQ面積＝(a－y)x／2。\n由三者相等，去掉共同的1／2，得：\nby＝a(b－x)＝(a－y)x。\n\n三、把y消去\n由by＝a(b－x)，得y＝a(b－x)／b，故a－y＝ax／b。\n代入(a－y)x＝by，得到ax²／b＝a(b－x)。\n因a、b均為正，整理為x²＋bx－b²＝0。\n兩邊除以b²，令t＝x／b，則t²＋t－1＝0。\n取正根：t＝(√5－1)／2。\n\n四、求AQ與QD的比值\n由x²＝b(b－x)，可得：\nAQ／QD＝x／(b－x)＝b／x＝1／t\n＝2／(√5－1)＝(√5＋1)／2。\n原題要求的是「比值」，應填一個數；若以冒號表示比例，則寫(√5＋1)：2。",
+  "trap": "先核對P、Q所在的邊，再分辨每個三角形的底與高；原題的「比值」是AQ除以QD。",
+  "tags": [
+    "矩形",
+    "等面積",
+    "一元二次方程",
+    "黃金比例"
+  ],
+  "verificationNote": "題幹及P、Q位置已依使用者於2026-10-27提供的原卷照片核對。附圖為依照片重繪的作答示意，非原卷截圖。",
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-005-given.svg",
+      "alt": "矩形ABCD，P在AB上、Q在AD上，連接PQ、PC、QC",
+      "caption": "依使用者提供原圖重繪的作答附圖"
+    }
+  ]
+}

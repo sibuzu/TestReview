@@ -1,0 +1,19 @@
+{
+  "id":"q-806", "sourceId":"src-extra-gpt-001", "subject":"Math", "title":"數學第6題｜等差級數多一項與和的差",
+  "chapter":"綜合", "volume":"綜合", "date":"2026-10-29", "dateLabel":"首次出題日期", "addedAt":"2026-10-29",
+  "question":"已知甲、乙兩個等差級數的首項皆為45，公差皆為−4，且甲比乙少一項。若甲的級數和與乙的級數和相差7，則甲有多少項？\n\n(A) 9\n(B) 10\n(C) 12\n(D) 13",
+  "answer":"正確答案：D，甲有13項。",
+  "explanation":"一、兩個和相減，只剩乙多出的那一項\n設甲有n項，乙就有n＋1項。首項與公差相同，所以前n項完全相同，乙比甲多的第n＋1項為45＋n×(−4)＝45−4n。因此S乙−S甲＝45−4n。\n\n二、相差7，不表示乙一定較大\n相差7可能是45−4n＝7，或45−4n＝−7。前者得n＝9.5，不是整數項數，排除；後者得n＝13，符合題意，選D。\n\n三、獨立回代檢查\n甲有13項，末項為45＋12×(−4)＝−3，甲的和為13×(45−3)÷2＝273。乙有14項，末項為−7，乙的和為14×(45−7)÷2＝266。兩和相差273−266＝7，確實成立。\n\n易錯處：乙雖多一項，但多出的是負數−7，總和反而較小。選12項時，多出的項是−3，兩和只差3，不符合相差7。",
+  "trap":"", "tags":["等差級數","整數項數","和的差"], "verification":"原題已核對",
+  "verificationNote":"已實看原卷並忠實旋轉裁切，只收入第6題；完整題幹與A至D核對，獨立求解並回代兩級數和273與266。教材對應課次未確認，歸綜合。",
+  "diagram":"", "notes":"", "status":"todo", "starred":false, "sourceLabel":"優先分享原卷｜第6題", "studentAnswer":"原卷黑筆C，紅筆改D", "contentStatus":"完整原題", "correctOption":"D",
+  "images":["assets/questions/q-806-source.jpg"],
+  "optionAnalysis":[
+    {"label":"A","text":"9","wordClass":"不選","meaning":"","explanation":"乙多出的第10項為45−4×9＝9，兩和相差9。"},
+    {"label":"B","text":"10","wordClass":"不選","meaning":"","explanation":"乙多出的第11項為45−4×10＝5，兩和相差5。"},
+    {"label":"C","text":"12","wordClass":"不選","meaning":"","explanation":"乙多出的第13項為45−4×12＝−3，兩和只相差3。"},
+    {"label":"D","text":"13","wordClass":"應選","meaning":"","explanation":"乙多出的第14項為45−4×13＝−7，兩和相差7，項數亦為整數。"}
+  ],
+  "passage":"", "tables":[], "questionFigures":[], "explanationFigures":[],
+  "originalMaterials":["docs/source-pages/priority-6ae2305b-02.jpg"], "sourceMessageIndex":177
+}

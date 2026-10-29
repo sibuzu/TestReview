@@ -1,0 +1,34 @@
+{
+  "volume": "綜合",
+  "chapter": "綜合",
+  "contentStatus": "完整原題",
+  "verification": "使用者原圖已核對",
+  "studentAnswer": "",
+  "images": [],
+  "passage": "",
+  "optionAnalysis": [],
+  "tables": [],
+  "correctOption": "",
+  "diagram": "",
+  "title": "數學第21題｜旋轉與畢氏定理求正方形面積",
+  "sourceLabel": "使用者提供原卷｜數學第21題",
+  "question": "P為正方形ABCD內部一點，PA＝1，PB＝3，PD＝√7，求正方形ABCD之面積？",
+  "answer": "正方形ABCD的面積＝8＋√14。",
+  "explanation": "一、旋轉構造全等三角形\n將正方形畫成A左上、B左下、C右下、D右上。將△PAB繞A逆時針旋轉90°，使B落在D，P落在Q。\n由旋轉可知AQ＝AP＝1，QD＝PB＝3，∠PAQ＝90°。Q位於正方形外部、AD上方。\n\n二、用畢氏定理逆定理找出直角\n連接PQ。△PAQ是等腰直角三角形，所以PQ²＝AP²＋AQ²＝2，∠APQ＝45°。\n在△PQD中，PQ²＋PD²＝2＋7＝9＝QD²。\n因此由畢氏定理逆定理，∠QPD＝90°。\n\n三、判斷射線順序求∠APD\n在上述圖形中，射線PQ位於∠APD內，故：\n∠APD＝∠APQ＋∠QPD＝45°＋90°＝135°。\n這一步需配合旋轉後的位置判斷，不能只憑角度數字相加。\n\n四、作高並求出等腰直角三角形的邊\n將DP越過P延長，從A向此延長線作垂線，垂足為H；H、P、D依序共線。\n∠APH＝180°－135°＝45°，因此△APH是等腰直角三角形。\n設AH＝PH＝h，則2h²＝AP²＝1，所以AH＝PH＝√2／2。\n因此DH＝DP＋PH＝√7＋√2／2。\n\n五、求正方形面積\n在直角三角形AHD中：\nAD²＝AH²＋DH²\n＝(√2／2)²＋(√7＋√2／2)²\n＝1／2＋7＋√14＋1／2\n＝8＋√14。\nAD是正方形邊長，因此AD²就是所求面積。全程只用旋轉全等、角度關係、畢氏定理及其逆定理。",
+  "trap": "H在DP越過P的延長線上，所以DH＝DP＋PH。任意內點的對角頂點距離平方和，不等於正方形邊長平方的兩倍。",
+  "tags": [
+    "正方形",
+    "旋轉",
+    "全等三角形",
+    "畢氏定理"
+  ],
+  "verificationNote": "已依使用者於2026-10-27提供的第21題原卷照片核對：原題為文字題，未附圖。解說採使用者提供且經重算的國中幾何解法；解說示意圖為另外製作，不冒充原卷。",
+  "questionFigures": [],
+  "explanationFigures": [
+    {
+      "src": "assets/questions/q-006-explanation.png",
+      "alt": "三步幾何圖解：旋轉△PAB得到△QAD，找出∠QPD直角，再作高AH求AD平方",
+      "caption": "AI生成解說示意圖，非原卷；圖形不按比例繪製。點圖可放大。"
+    }
+  ]
+}

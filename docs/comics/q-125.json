@@ -1,0 +1,55 @@
+{
+  "id": "q-125",
+  "subject": "Physics-Chemistry",
+  "title": "煞車不能拿初速當全程平均速度",
+  "art": "docs/comics/art/q-125.svg",
+  "panels": [
+    {
+      "heading": "① 先統一速度單位",
+      "text": "初速360公里／小時，除以3.6後是每秒100公尺；進站停下的末速為0。不能直接把360當成每秒公尺代入。",
+      "alt": "360公里每小時換成100公尺每秒，並列公里、公尺及小時、秒的換算。"
+    },
+    {
+      "heading": "② 等減速時，平均速度是50",
+      "text": "依本題等減速模型，初末速度取平均，得到每秒50公尺。1000公尺除以50，煞車時間是20秒；圖下面積就是這1000公尺。",
+      "alt": "速度由每秒100公尺直線降至0，20秒內三角形面積為1000公尺。"
+    },
+    {
+      "heading": "③ 加速度看速度變化與時間",
+      "text": "速度變化為0減100，也就是每秒−100公尺。再除以20秒，加速度為−5公尺／秒²；取原行進方向為正，煞車加速度為負。",
+      "alt": "火車仍朝正方向行駛，但加速度指向反方向，表示減速而非倒退行駛。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：−5 m/s²",
+    "points": [
+      "先換速度單位，再求時間，最後算速度變化率。",
+      "若錯用初速100去除距離，會誤得10秒和選項B。",
+      "此解採等減速模型；煞車加速度任意變動時，僅給初末速與距離不夠求時間平均加速度。"
+    ]
+  },
+  "rationale": "實看原卷並以等減速公式獨立驗算，保留A與既有適用假設；精確速度時間三角形及方向圖區分初速、平均速度與負加速度，不另造煞車資料。",
+  "generationMethod": "authored SVG physics diagram; teaching paragraphs rendered in HTML/CSS",
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-125-art-614d9c4cd8.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "614d9c4cd8bc31162a3c7a470549df58db62ae65e8bc7b674f48e878687817ac",
+  "createdAt": "2026-10-28T15:42:07.367777+00:00",
+  "contentChecks": [
+    "360*1000/3600=100; mean speed=50; time=20; acceleration=-5",
+    "v*t/2=1000 and v*v+2*a*s=0 under constant deceleration"
+  ],
+  "checkedAt": "2026-10-28T15:43:08.062132+00:00",
+  "validationFile": "docs/comics/q-125-validation.json"
+}

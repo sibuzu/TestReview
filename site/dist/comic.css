@@ -1,0 +1,19 @@
+/* Responsive native layout: fixed-size illustrations, fluid copy, content-driven height. */
+.native-comic{container-type:inline-size;width:100%;margin:16px 0;font-family:"Noto Sans CJK TC","Noto Sans TC",sans-serif;color:#263d35;letter-spacing:0;text-align:left}
+.native-comic .comic-grid{box-sizing:border-box;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto;align-items:stretch;gap:12px;padding:8px;background:#faf4e9;border-radius:12px}
+.native-comic .comic-cell{box-sizing:border-box;display:grid;grid-template-columns:180px minmax(0,1fr);align-items:start;gap:12px;padding:10px;min-width:0;border:2px solid #53685a;border-radius:12px;background:#fff;box-shadow:2px 3px 0 #d9cda7}
+.native-comic .comic-art{position:relative;width:180px;aspect-ratio:1;overflow:hidden}
+.native-comic .comic-art img{position:absolute;display:block;width:300%;max-width:none;height:100%;max-height:none;left:calc(var(--panel) * -100%);top:0;object-fit:fill;border:0;border-radius:0;margin:0}
+.native-comic .comic-copy{min-width:0}
+.native-comic .comic-text{font-size:14px;line-height:1.65;white-space:normal;font-weight:400;margin:0;padding:0;border:0;letter-spacing:0}
+.native-comic h4.comic-text{font-size:14.5px;font-weight:700;color:#8a5029;margin:0 0 8px;line-height:1.45}
+.native-comic .comic-line{display:block;white-space:nowrap}
+.native-comic .comic-recap{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;background:#edf1e2;gap:0;padding:10px 14px}
+.native-comic .comic-recap h4{font-size:16px}
+.native-comic .comic-answer{font-size:17px;font-weight:700;margin-bottom:8px}
+.native-comic .comic-recap ul{margin:0;padding-left:18px}
+.native-comic .comic-recap li{margin:0 0 4px}
+.native-comic .comic-recap li:last-child{margin-bottom:0}
+@container (max-width:680px){.native-comic .comic-grid{grid-template-columns:minmax(0,1fr)}}
+@container (max-width:360px){.native-comic .comic-cell{grid-template-columns:115.2px minmax(0,1fr);gap:8px;padding:8px}.native-comic .comic-art{width:115.2px}}
+@container (max-width:280px){.native-comic .comic-cell{grid-template-columns:76.8px minmax(0,1fr)}.native-comic .comic-art{width:76.8px}}

@@ -1,0 +1,57 @@
+{
+  "id": "q-278",
+  "subject": "Physics-Chemistry",
+  "title": "密度先降後升，氣囊先大後小",
+  "art": "docs/comics/art/q-278.svg",
+  "panels": [
+    {
+      "heading": "① 密度降低，排水體積增大",
+      "text": "依原圖由南緯60度向北，海水密度先降低。裝置重量不變，要維持浮力等於重量，總排水體積必須增大，因此氣囊放大。",
+      "alt": "南方起點的完全浸沒裝置，固定機身與較小氣囊，水深線作對照。"
+    },
+    {
+      "heading": "② 低密度區，需要較大氣囊",
+      "text": "密度較低時，同樣體積排開海水所產生的浮力較小，要靠較大體積補足。原圖最低處略偏赤道以北，不必硬分成赤道南北兩半。",
+      "alt": "同一機身和水深位置，氣囊較大；尺寸僅作概念示意。"
+    },
+    {
+      "heading": "③ 密度回升，氣囊縮小",
+      "text": "繼續向北，海水密度回升，所需總排水體積便減小，氣囊跟著縮小。三圖大小不是精確比例，也不表示起終點體積必須完全相同。",
+      "alt": "北方後段機身保持同一水深，氣囊重新縮小。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：先變大，再變小",
+    "points": [
+      "浮力＝海水密度×總排水體積×g。",
+      "與密度成反比的是整個裝置的排水總體積。",
+      "水深相同不代表浮力自動相同，沿途密度變化仍要調整體積。"
+    ]
+  },
+  "rationale": "已查看原卷密度曲線先降後升及最低處略偏北。以精確固定機身、水深與可變氣囊的概念示意區分兩種體積，不讓生成圖捏造機身或把整個機身一起膨脹。",
+  "generationMethod": "authored SVG device schematic + native HTML/CSS",
+  "artSHA256": "8aeee142adde1ea427008151719bc8a2c98a4cab31b68b9d3b3ee1c91526aa32",
+  "createdAt": "2026-10-28T11:59:36.537767+00:00",
+  "visualChecked": true,
+  "geometryChecks": [
+    "三格固定機身中心與水深線相同。",
+    "氣囊半徑15→24→15僅示意變大後變小，不是原圖數據換算比例。",
+    "完全浸沒、重量固定下浮力rho*g*(Vfixed+Vbag)固定，rho降時Vbag增。",
+    "水面y＝10，最大氣囊最上方y＝20，全程完全位於水面下。"
+  ],
+  "nativeArt": "assets/comics/q-278-art-8aeee142ad.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T12:02:25.581217+00:00",
+  "validationFile": "docs/comics/q-278-validation.json"
+}

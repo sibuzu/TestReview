@@ -1,0 +1,57 @@
+{
+  "id": "q-084",
+  "subject": "Math",
+  "title": "把三角形占比換成梯形底比",
+  "art": "docs/comics/art/q-084.svg",
+  "panels": [
+    {
+      "heading": "① 相似形先給出對角線比",
+      "text": "AB平行CD，△AOB與△COD相似，所以AO：OC＝b：a。因此OC占整條AC的a／(a＋b)。",
+      "alt": "梯形下底AB為b、上底CD為a，上下相似三角形分別著色。"
+    },
+    {
+      "heading": "② 同頂點、共底線，比面積",
+      "text": "△BOC與△BAC的高相同，面積比等於OC／AC。設梯形高h，△ABC面積為bh／2，S為(a＋b)h／2。因此△BOC占S的ab／(a＋b)²，等於2／9。",
+      "alt": "三角形ABC以淡藍底表示，其中BOC著橘色；OC、AC共線，高h另標在右側。"
+    },
+    {
+      "heading": "③ 解方程後回看a＜b",
+      "text": "令r＝a／b，則9r＝2(r＋1)²。整理為(2r－1)(r－2)＝0，得到r＝1／2或2。因a＜b，r須小於1，只取1／2。",
+      "alt": "a小於b的條件篩選兩根，保留r等於二分之一，排除r等於二。"
+    }
+  ],
+  "fourth": {
+    "answer": "a／b＝1／2",
+    "points": [
+      "先求OC占AC的比例，不能直接把三角形占比當底比。",
+      "面積除以S時，要再除以梯形的a＋b。",
+      "方程有兩根，最後用a＜b排除2。"
+    ]
+  },
+  "rationale": "已查看原卷A左下B右下C右上D左上標記，重建精確梯形與面積著色；獨立驗證示例a／b＝1／2時BOC面積恰占梯形2／9。",
+  "generationMethod": "authored SVG geometry + native HTML/CSS",
+  "artSHA256": "eae071b1703509b4d4432fe2fc91067a26ccccaf83a6049893306aa72d8e5b9c",
+  "createdAt": "2026-10-28T12:58:46.793981+00:00",
+  "visualChecked": true,
+  "geometryChecks": [
+    "A(25,145)、B(155,145)、C(122.5,45)、D(57.5,45)，AB平行CD",
+    "O(90,78.333...)為AC、BD交點",
+    "shoelace驗證BOC／ABCD＝2／9，a／b＝65／130＝1／2",
+    "AO／OC＝2，與b／a相符"
+  ],
+  "nativeArt": "assets/comics/q-084-art-eae071b170.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T12:59:01.121545+00:00",
+  "validationFile": "docs/comics/q-084-validation.json"
+}

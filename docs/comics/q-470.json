@@ -1,0 +1,66 @@
+{
+  "id": "q-470",
+  "subject": "Physics-Chemistry",
+  "title": "上拋球的速度，沿直線由正到負",
+  "art": "docs/comics/art/q-470.svg",
+  "startedAt": "2026-10-28T16:50:22.795469+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 上升：速度為正",
+      "text": "球離手向上飛，以上為正，所以速度為正。左圖藍色箭頭表示向上的速度；受到向下重力影響，上升愈來愈慢。",
+      "alt": "排球上升的三個位置，向上藍色速度箭頭逐漸縮短。"
+    },
+    {
+      "heading": "② 最高點：速度為零",
+      "text": "到球自己的最高點，瞬間速度為0，但仍有向下的重力加速度。球網最高點只是位置基準，不是球速度為0的位置。",
+      "alt": "球在軌跡最高點，沒有速度箭頭，但仍有向下紅色加速度箭頭。"
+    },
+    {
+      "heading": "③ 下落：速度成負值",
+      "text": "不計空氣阻力，加速度固定向下，因此速度隨時間等量減少。右圖橫軸是時間、縱軸是速度；藍線由正值穿過0，再降至負值。",
+      "alt": "速度時間圖為固定負斜率直線，從正速度穿過零到負速度。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 上拋球的速度時間圖",
+    "answer": "答案 D：向右下傾斜的直線",
+    "points": [
+      "上升：速度＞0；最高點：速度＝0；下落：速度＜0。",
+      "全程重力加速度向下，a＝－g。",
+      "位置基準改變，不會改變球的速度。"
+    ]
+  },
+  "protectedWords": [
+    "重力加速度",
+    "空氣阻力",
+    "最高點",
+    "速度",
+    "時間",
+    "負值",
+    "正值",
+    "球網"
+  ],
+  "rationale": "本題核心是速度方向與圖線斜率，使用可精確校對的原生SVG畫速度箭頭、最高點加速度與v-t直線，而非讓生成模型猜畫科學圖。圖中無文字，標籤與公式均由HTML解說。",
+  "promptSummary": "原生SVG三圖：上升速度箭頭變短、最高點仍向下加速、負斜率v-t直線。",
+  "answerCheckedAgainst": "原卷D；速度從正值以固定負斜率降至負值，最高點速度0但加速度仍向下。",
+  "artSHA256": "ab1d86799d0c0f43111ae54b8f4e95000b030d79f4c27ab02bcc365707843613",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T16:52:43.062275+00:00",
+  "completedAt": "2026-10-28T16:51:13.069053+00:00",
+  "layoutEvidence": "docs/comics/q-470-preview-validation.json",
+  "visualReview": "實看原卷與1440/1120/390預覽；箭頭方向與縮短符合上升減速，最高點加速度向下，v-t負斜率穿過0。180px圖與手機115px自然縮排，無溢出。",
+  "nativeArt": "assets/comics/q-470-art-ab1d86799d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-470-validation.json"
+}

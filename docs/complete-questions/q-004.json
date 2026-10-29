@@ -1,0 +1,32 @@
+{
+  "title": "數學第19題｜矩形對角線與角度分配",
+  "question": "如圖，在矩形ABCD中，AE⊥BD於E，∠DAE＝3∠BAE，求∠EAC的度數。",
+  "answer": "∠EAC＝45°。",
+  "explanation": "一、利用矩形的直角分配角度\n∠BAD＝90°，由原圖E在BD上，AE位於∠BAD內，因此∠DAE＋∠BAE＝90°。\n又∠DAE＝3∠BAE，所以4∠BAE＝90°，得∠BAE＝22.5°，∠DAE＝67.5°。\n\n二、用AE⊥BD求∠ADB\nE在BD上，故∠AED＝90°，而∠ADE＝∠ADB。在直角三角形ADE中：\n∠ADB＝90°－67.5°＝22.5°。\n\n三、利用矩形對角線等長且互相平分\n設AC與BD交於O。因AC＝BD，且O是兩條對角線的中點，所以OA＝OD，△OAD是等腰三角形。\n∠DAC＝∠OAD＝∠ADO＝∠ADB＝22.5°。\n\n四、依射線位置相減\n由原圖，射線AC位於∠DAE內，因此：\n∠EAC＝∠DAE－∠DAC＝67.5°－22.5°＝45°。\n關鍵是先核對圖中射線的順序，再決定最後相減；不能只看到兩個角就任意相加。",
+  "tags": [
+    "矩形",
+    "對角線",
+    "等腰三角形"
+  ],
+  "volume": "綜合",
+  "chapter": "綜合",
+  "sourceLabel": "使用者提供原卷｜數學第19題",
+  "studentAnswer": "",
+  "contentStatus": "完整原題",
+  "verification": "使用者原圖已核對",
+  "verificationNote": "題幹與圖形條件已依使用者於2026-10-27提供的照片核對。網站附圖為依該照片重繪的作答圖，非原卷截圖。",
+  "passage": "",
+  "images": [],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-004-given.svg",
+      "alt": "矩形ABCD，AE垂直對角線BD於E，對角線交於O",
+      "caption": "依使用者提供原圖重繪的作答附圖"
+    }
+  ],
+  "optionAnalysis": [],
+  "tables": [],
+  "correctOption": "",
+  "diagram": "",
+  "trap": ""
+}

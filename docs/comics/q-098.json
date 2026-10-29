@@ -1,0 +1,67 @@
+{
+  "id": "q-098",
+  "subject": "Geography",
+  "title": "看季節與高度，辨認山牧季移",
+  "art": "docs/comics/art/q-098-v2.png",
+  "protectedWords": [
+    "山牧季移",
+    "逐水草而居",
+    "夏季",
+    "冬季",
+    "高山地區"
+  ],
+  "panels": [
+    {
+      "heading": "① 夏季到較高的草場",
+      "text": "先從原題地圖辨認西部高山、高原地區。夏季較暖，高處草場能供牲畜利用，牧人便把牲畜帶到較高處放牧。",
+      "alt": "夏季的高山草場綠意充足，牧人在較高的山坡照看羊群。"
+    },
+    {
+      "heading": "② 冬季回較低處",
+      "text": "冬季高處寒冷、積雪增多，牧人把牲畜帶回較低、較適合過冬的草場。關鍵是配合季節在不同高度間移動。",
+      "alt": "冬季牧人與羊群在較低山谷草場，高處山區積雪較多。"
+    },
+    {
+      "heading": "③ 不只是「有移動」就相同",
+      "text": "山牧季移的特色是山區的垂直季節移動。「逐水草而居」偏重尋找水草的移動；本題要選最能表現山地條件的選項。",
+      "alt": "山坡小徑連接低谷與高處草場，羊群跟隨牧人在不同高度間移動；非精確路線圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：山牧季移",
+    "points": [
+      "地形線索：原圖西部高山、高原地區。",
+      "方式線索：夏季較高、冬季較低。",
+      "A 放牧較籠統；C 明確指出高度與季節變動。"
+    ]
+  },
+  "rationale": "實看共同閱讀、原卷第24題與分級圖，維持已核對答案C。原題的地區判讀用原地圖，新增情境專門解釋山牧季移的季節及垂直移動，不將插畫當原始地圖，不宣稱所有牧人一律採同一方式。無既有AI解說圖。 第3格採夏季上下草場，修去低谷積雪，避免誤導同季的高度關係。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-098-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-098-reading-source-021569c320.jpg",
+    "site/dist/assets/questions/q-098-source-fcc0c65033.jpg",
+    "site/dist/assets/questions/q-098-map-37370d9c88.jpg"
+  ],
+  "answerCheckedAgainst": "C：高山地區依季節在不同高度草場之間移動，符合山牧季移。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "ed087044e1643267ca155ab456d2b85bb08fb2477cf91f21a9e5e18bf7959cab",
+  "createdAt": "2026-10-28T17:06:22.387830+00:00",
+  "editPromptFile": "docs/comics/q-098-edit-prompt.txt",
+  "checkedAt": "2026-10-28T17:10:33.493443+00:00",
+  "validationFile": "docs/comics/q-098-validation.json",
+  "nativeArt": "assets/comics/q-098-art-ed087044e1-web.webp"
+}

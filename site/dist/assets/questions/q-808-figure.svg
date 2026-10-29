@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 310" role="img" aria-labelledby="title desc">
+ <title id="title">矩形ABCD起始座標與向右滾動方向</title><desc id="desc">A負3逗號0、B2逗號0、C2逗號3、D負3逗號3；AB在x軸上，矩形向右滾動，未標出解題落點。</desc>
+ <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#3e594d" stroke-width="1.4"/></marker></defs>
+ <rect width="600" height="310" rx="12" fill="#fff"/>
+ <path d="M35 250H565" stroke="#3e594d" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+ <path d="M260 285V30" stroke="#3e594d" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+ <path d="M110 250V100H360V250Z" fill="#f5e7a3" fill-opacity=".8" stroke="#42584d" stroke-width="3"/>
+ <g fill="#42584d"><circle cx="110" cy="250" r="4"/><circle cx="360" cy="250" r="4"/><circle cx="360" cy="100" r="4"/><circle cx="110" cy="100" r="4"/></g>
+ <path d="M390 130Q465 155 438 211" stroke="#92642d" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+ <g fill="#233d31" font-family="Arial,sans-serif" font-size="20"><text x="37" y="281">A(−3,0)</text><text x="356" y="281">B(2,0)</text><text x="363" y="90">C(2,3)</text><text x="35" y="90">D(−3,3)</text><text x="238" y="274">O</text><text x="570" y="257" font-style="italic">x</text><text x="268" y="29" font-style="italic">y</text></g>
+</svg>

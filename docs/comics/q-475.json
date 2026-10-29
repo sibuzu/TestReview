@@ -1,0 +1,73 @@
+{
+  "id": "q-475",
+  "subject": "Civics",
+  "title": "三院重要官員：提名、同意、任命",
+  "art": "docs/comics/art/q-475.png",
+  "startedAt": "2026-10-28T16:51:55.121937+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 總統先提名",
+      "text": "題表列出司法、考試、監察三院的重要職稱。這些職位的產生，先由總統提出人選；不是公民直接選舉。",
+      "alt": "虛構總統在辦公室審閱提名人選資料。"
+    },
+    {
+      "heading": "② 立法院行使同意權",
+      "text": "總統提名之後，須經立法院同意。這道程序具有權力制衡的作用，不能只記成「總統直接任命」。",
+      "alt": "立法機關的委員在議場審議人事案並表決。"
+    },
+    {
+      "heading": "③ 總統再任命",
+      "text": "經立法院同意後，再由總統任命。題表中的審計長也採此程序，不是由監察院長自行任命。",
+      "alt": "同一位虛構總統正式交付任命文書給獲任命者。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 三院重要官員的產生方式",
+    "answer": "答案 E：總統提名，立法院同意，總統任命",
+    "points": [
+      "程序順序：提名 → 同意 → 任命。",
+      "審計長也適用題表這一程序。",
+      "只指題表所列職稱，不代表三院所有公務人員。"
+    ]
+  },
+  "protectedWords": [
+    "立法院",
+    "總統",
+    "審計長",
+    "監察院長",
+    "同意權",
+    "公務人員",
+    "考試",
+    "監察",
+    "司法"
+  ],
+  "rationale": "以提名資料、立法機關審議、交付任命文書三情境搭配角色文字，區分提名與任命，強調立法院同意權及職稱適用範圍。人物為虛構，情境不冒充實際機關影像或特定表決方式。",
+  "promptSummary": "無字動漫三格：總統檢視提名資料、議場審議與表決、總統交付任命文書。",
+  "answerCheckedAgainst": "原卷第6項三院合用E；總統提名、立法院同意後總統任命。",
+  "visualChecked": true,
+  "artSHA256": "b1a0ca87b6d3a67c92dd8b3c9480fa2b18b08263c2876e64044644c5dd0ab7e6",
+  "completedAt": "2026-10-28T16:53:28.660106+00:00",
+  "checkedAt": "2026-10-28T16:56:32.365622+00:00",
+  "layoutEvidence": "docs/comics/q-475-preview-validation.json",
+  "visualReview": "已實看原卷兩圖與生成三格情境，提名、立法院同意、總統任命角色順序符合E。虛構人物與議場表決屬情境，不代替法定角色文字。1440/1120/390截圖皆實看，圖像無文字錯誤，手機自然高度，無橫向溢出。",
+  "nativeArt": "assets/comics/q-475-art-b1a0ca87b6-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "verificationSources": [
+    {
+      "title": "總統府：中央政府與立法院人事同意權",
+      "url": "https://www.president.gov.tw/Page/105"
+    }
+  ],
+  "validationFile": "docs/comics/q-475-validation.json"
+}

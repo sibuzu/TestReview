@@ -1,0 +1,55 @@
+{
+  "id": "q-462",
+  "subject": "Physics-Chemistry",
+  "title": "同起終點，位移相同，路徑長未必相同",
+  "art": "docs/comics/art/q-462.svg",
+  "panels": [
+    {
+      "heading": "① 位移只看起點到終點",
+      "text": "例子中終點在起點東方100公尺。直走100公尺，位移是向東100公尺；位移不只含數值，也包含方向。",
+      "alt": "例示路線由左側起點直走到右側終點，路徑長100公尺，位移向東100公尺。"
+    },
+    {
+      "heading": "② 繞路後，總長可以增加",
+      "text": "若先往北30公尺，再往東100公尺，最後往南30公尺，路徑長共160公尺。起、終點仍相同，位移仍為向東100公尺。數字只是解說例子。",
+      "alt": "同一對起終點，矩形繞路30加100加30共160公尺，虛線直箭頭表示仍相同的向東位移。"
+    },
+    {
+      "heading": "③ 兩個子句都對，才算完全正確",
+      "text": "大明說位移相同、路徑長可能不同，整句正確。曉華的位移判斷雖對，卻把路徑長說成一定相同；莉莉與麗花也都誤判位移可能不同。",
+      "alt": "核對四人的完整敘述，只有大明標示正確，其餘三人不符合全部條件。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：只有1個人完全正確",
+    "points": [
+      "同起、終點可確定位移相同，無法保證途中走法相同。",
+      "路徑長是實際走過的總長，繞路可以增加它。",
+      "不要只看到曉華後半句正確，就把整句也算正確。"
+    ]
+  },
+  "rationale": "實看原卷四人原話與姓名，維持A；以既有解說的100與160公尺例子建立精確30＋100＋30路線，起終點與位移方向一致，不拿生成模型臆畫路徑或把例子當原題數值。",
+  "generationMethod": "authored SVG displacement diagram; teaching paragraphs rendered in HTML/CSS",
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-462-art-38ed0fa3e7.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "38ed0fa3e705e307410180c695dc540e1be276c805cf97d2cdd31cbb75314cc1",
+  "createdAt": "2026-10-28T15:48:33.867467+00:00",
+  "contentChecks": [
+    "Polyline lengths verified: straight 100, detour 30+100+30=160",
+    "Both endpoints identical and displacement vector (100,0)"
+  ],
+  "checkedAt": "2026-10-28T15:49:10.695425+00:00",
+  "validationFile": "docs/comics/q-462-validation.json"
+}

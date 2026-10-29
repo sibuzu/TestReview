@@ -1,0 +1,70 @@
+{
+  "id": "q-803",
+  "subject": "History",
+  "title": "甲國是日本，別把攻擊與受攻看反",
+  "art": "docs/comics/art/q-803.png",
+  "startedAt": "2026-10-28T18:40:47.491217+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "questionDraft": "docs/comics/priority-6ae2305b/q-803-question.json",
+  "panels": [
+    {
+      "heading": "① 一戰線索：日本支援英國",
+      "text": "日本依日英同盟，在1914年對德宣戰，並在亞洲作戰。要合看整張表，不能只憑單一格就把甲國認成中國或美國。",
+      "alt": "1914年日本與英國海軍人員合作的概念情境，不代表在當年新簽盟約。"
+    },
+    {
+      "heading": "② 亞洲戰場：盧溝橋衝突",
+      "text": "本題把中日全面戰爭放進二戰亞洲戰場脈絡。1937年盧溝橋一帶爆發衝突後，戰事擴大，故空格填A。",
+      "alt": "1937年日軍在華北石橋附近的歷史情境，表現甲日本的戰爭脈絡，無戰鬥暴力。"
+    },
+    {
+      "heading": "③ C說的是基地遭到攻擊",
+      "text": "原選項是「太平洋基地遭到攻擊」，對應美國基地受到日本攻擊。日本是攻擊者，不能把「遭到攻擊」套給日本。",
+      "alt": "美國太平洋海軍基地受到攻擊後的警戒情境，無爆炸近景或傷亡，不描繪日本基地被攻。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 用主體與事件搭配整張表",
+    "answer": "答案 A：盧溝橋一帶爆發衝突",
+    "points": [
+      "表中二戰因美國原子彈走向終戰，也指向日本。",
+      "原AI把甲國誤作中國；此處依原表與官方史料訂正。",
+      "A的中日全面戰爭，與C的美國受攻參戰不同。"
+    ]
+  },
+  "protectedWords": [
+    "日英同盟",
+    "1914年",
+    "1937年",
+    "盧溝橋",
+    "太平洋基地",
+    "遭到攻擊",
+    "甲國",
+    "日本",
+    "中國",
+    "美國",
+    "攻擊者"
+  ],
+  "rationale": "root已實看原表並核對日本1914對德宣戰官方原件，許可依日本主體全新製圖；原AI甲中國另列確認卡。三格日本與英國合作、中日戰爭日本側、美國基地遭攻，避免C主被動關係顛倒或複用原AI中國圖。",
+  "promptSummary": "全新三格無字歷史動漫：1914英日合作、1937日軍石橋戰爭脈絡、1941美國太平洋基地受攻警戒。",
+  "answerCheckedAgainst": "原2題A，甲日本；原AI國家主體錯誤已獨立查明，C逐字保留被動原文。",
+  "visualChecked": true,
+  "artSHA256": "6fa16aef3f670e88bb8fd16cb3e10f6c63d9cf2120325012edce0b2f50a568a6",
+  "checkedAt": "2026-10-28T18:59:02.484700+00:00",
+  "completedAt": "2026-10-28T18:45:52.389668+00:00",
+  "layoutEvidence": "docs/comics/q-803-preview-validation.json",
+  "visualReview": "實看新生成三格原圖及1440/1120/390截圖：英日海軍合作、日軍近石橋、美國海軍基地受攻三個主體清楚，無教材文字或AI重畫原表；180px桌機／115px手機插畫均載入，四格同列等高、手機自然高度，未見裁字或橫向溢出。",
+  "nativeArt": "assets/comics/q-803-art-6fa16aef3f-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-803-validation.json"
+}

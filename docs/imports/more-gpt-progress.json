@@ -1,0 +1,4538 @@
+{
+  "totalLinks": 48,
+  "uniqueLinks": 48,
+  "sources": [
+    {
+      "order": 1,
+      "url": "https://chatgpt.com/share/6ae05187-3f28-83ee-a9e3-89b8168480a3",
+      "title": "錯題詳細解答",
+      "state": "complete_with_skips",
+      "archiveImages": 9,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-1.jpg",
+          "sha256": "213cbbe72953698d48838330f741cdf048ba8a552dabdd327e49641a7b99e8c8",
+          "bytes": 555819,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-2.jpg",
+          "sha256": "d2173a650f65c9e24ba825720aad0065400efd0411bf586def45e4a88e0cca99",
+          "bytes": 513225,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-3.jpg",
+          "sha256": "3030dcb1036de151af81bad71816498fa0b267d48095b752866b03cd7f833a9e",
+          "bytes": 523882,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-4.jpg",
+          "sha256": "84dd92b714d6dd94c98d860382edfb10fadfd358aa42aa77bc78c839cf746c4f",
+          "bytes": 440619,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-5.jpg",
+          "sha256": "8a22ce51a44a89fa7feb5c6f522f958b334aba9cf8747c2f5e950c425d85c878",
+          "bytes": 546796,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-6.jpg",
+          "sha256": "3937ff1f01628462c7b9cc4fbc2e0b5ecdcd7d95d85691ce96d70007af6d84e4",
+          "bytes": 437314,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-7.jpg",
+          "sha256": "7c8a766749137d3a788c86d3c5ef899f958583b5c9a6185f6708c299d8c833e6",
+          "bytes": 472141,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-8.jpg",
+          "sha256": "013c4fcfaed534beef01849304e372ad340441248a3ae88a8f59fe90d2cb7013",
+          "bytes": 392999,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05187-9.jpg",
+          "sha256": "cf5d8f53fa5fa751934e411ddb98a4fb924d8a599fc3e9621e31b805d68eafe8",
+          "bytes": 532427,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-316",
+        "q-317",
+        "q-318",
+        "q-319",
+        "q-320",
+        "q-321",
+        "q-322",
+        "q-323",
+        "q-324",
+        "q-325",
+        "q-326",
+        "q-327",
+        "q-328",
+        "q-329",
+        "q-330",
+        "q-331",
+        "q-332",
+        "q-333",
+        "q-334",
+        "q-335",
+        "q-336",
+        "q-337"
+      ],
+      "stateHistory": [
+        {
+          "previousState": "skipped_not_in_site",
+          "changedAt": "2026-10-27T14:28:15.077255+00:00",
+          "reason": "依使用者更正，對話前段有原題與圖片，不能因後段Notion或其他操作而排除整份來源。"
+        }
+      ],
+      "reason": "前段22道完整可辨讀題目已收入；9張原卷、25個最終裁切及22題桌面／手機均已實際核對，54項測試通過。只略過後段Canva／Notion操作，以及3個照片邊緣截斷、缺選項或收費條件的鄰題。5項原AI解說修正附雙連結列入monitor。",
+      "imageRetryEvidence": {
+        "checkedAt": "2026-10-27T14:33:36.235Z",
+        "method": "authorized_chrome_scroll_all_attachments",
+        "expected": 9,
+        "renderedImages": 9,
+        "downloadedUnique": 9,
+        "errors": []
+      },
+      "skippedQuestions": [
+        {
+          "page": 1,
+          "number": 6,
+          "reason": "照片下緣截掉四個數線選項的端點數字；只有題幹完整，不猜補選項。"
+        },
+        {
+          "page": 3,
+          "number": 22,
+          "reason": "照片下緣截掉選項D；不由推算結果反填原選項。"
+        },
+        {
+          "page": 4,
+          "number": 10,
+          "reason": "照片下緣截掉選項C、D及超商取貨付款收費規則，無法核對完整題目。"
+        }
+      ],
+      "aiFigureReview": {
+        "archivedMessageCount": 64,
+        "generatedImagePointers": 0,
+        "included": 0,
+        "note": "完整封存無assistant／tool生成圖片指標；Canva操作回傳被來源平台redacted，未將其當成已看過的AI圖。"
+      },
+      "checkedAt": "2026-10-27T20:37:06.531056+00:00",
+      "pendingAnswerQuestionIds": [],
+      "pendingConfirmationIds": [],
+      "userResolutions": {
+        "q-317": {
+          "resolvedAt": "2026-10-28T02:38:30.055317+00:00",
+          "resolution": "使用者確認q-317答案C，保留原題、兩座傾斜天平附圖及不等式解說，□＞☆＞●，結案。"
+        },
+        "q-319": {
+          "resolvedAt": "2026-10-28T02:39:29.834542+00:00",
+          "resolution": "使用者確認q-319目前內容OK，維持第(1)160元、第(2)至少51天，保留原收費表、年費及不等式解法，結案。"
+        },
+        "q-321": {
+          "resolvedAt": "2026-10-28T02:40:49.708465+00:00",
+          "resolution": "使用者確認q-321答案C，雙程搭纜車最多9人，保留原題與4x＋4＜42的人數不等式解法，結案。"
+        },
+        "q-324": {
+          "resolvedAt": "2026-10-28T02:41:39.251841+00:00",
+          "resolution": "使用者確認q-324答案D，保留目前完整原題、原圖及解說，已結案。"
+        },
+        "q-325": {
+          "resolvedAt": "2026-10-28T02:42:54.875621+00:00",
+          "resolution": "使用者確認q-325答案C，保留目前完整原題、原圖及解說，已結案。"
+        }
+      }
+    },
+    {
+      "order": 2,
+      "url": "https://chatgpt.com/share/6ae051d2-0c88-83e8-a6b1-b33cc504c3d6",
+      "title": "錯題解答分析",
+      "state": "complete",
+      "archiveImages": 5,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae051d2-1.jpg",
+          "sha256": "6d32b265e5a641cf6a2c599f3e9eaaac35e31975d2102b68680133102851419e",
+          "bytes": 507712
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051d2-2.jpg",
+          "sha256": "a90882787eca2dd3516a3f79cf6d650ad317c25a5c47e39c4824855eb5e1ba91",
+          "bytes": 518898
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051d2-3.jpg",
+          "sha256": "d9a5c4d515db8d34d0d6e396e7b9a9930b8a3bdba63e1f5bd8e0bc319d59ba58",
+          "bytes": 446991
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051d2-4.jpg",
+          "sha256": "d04f4f33642b802eae7b1c5f5ec3585476c56a24577cbbb0a8a241f896720617",
+          "bytes": 414380
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051d2-5.jpg",
+          "sha256": "59c43db99581a9b7eec7c361512baef494f5b4d462beb05bfda0adc6ad9e6538",
+          "bytes": 357599
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-044",
+        "q-045",
+        "q-046",
+        "q-047",
+        "q-048"
+      ]
+    },
+    {
+      "order": 3,
+      "url": "https://chatgpt.com/share/6ae051eb-1670-83e8-94b9-3cc7afd2a825",
+      "title": "錯題解答分析",
+      "state": "duplicate",
+      "archiveImages": 5,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae051eb-1.jpg",
+          "sha256": "f5d47b7e6aabc4b0a632a09bb8fecf8f4d04332f5cef756a73c41b869769eac8",
+          "bytes": 452355
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051eb-2.jpg",
+          "sha256": "4a78c25ab7522d7f1e36458115f9e70395226ce770a386c4798e025514f51613",
+          "bytes": 518326
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051eb-3.jpg",
+          "sha256": "56a9c33badc77d606ebf5bfb79b7b33b5037aefdc038656671899aa83095e6a5",
+          "bytes": 476140
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051eb-4.jpg",
+          "sha256": "2ec3d6c9db91060e177d7bb070d1ce18e98304affe0d8a5021a4a260ddb669ce",
+          "bytes": 433786
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae051eb-5.jpg",
+          "sha256": "28763505ece401f1396e1bb11fc5324094042be8a4e0322d82f539f4b7b081dc",
+          "bytes": 396713
+        }
+      ],
+      "errors": [
+        {
+          "note": "已依原卷確認同為第4、12、27、44、50題，合併至來源2，保留2026-08-16。"
+        }
+      ],
+      "questionIds": [
+        "q-044",
+        "q-045",
+        "q-046",
+        "q-047",
+        "q-048"
+      ]
+    },
+    {
+      "order": 4,
+      "url": "https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d",
+      "title": "詳細解答鞍部判讀",
+      "state": "complete_with_skips",
+      "archiveImages": 18,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-1.jpg",
+          "sha256": "b443006c67ba5a7e7ad27fb584b57605b59cc0ae64005de1da6ceeaa7ed4dc84",
+          "bytes": 479662
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-2.jpg",
+          "sha256": "ae26e71e6888fff3277e459c9bafabc6f9a7d6b0abbbf7023c4a0c3a83dcb85f",
+          "bytes": 256592
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-3.jpg",
+          "sha256": "6dedc3ba75b3c54816dfa4f6fbdea533a6d980c1b6e381f520dae86892494381",
+          "bytes": 301389
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-4.jpg",
+          "sha256": "6d07fd9aa14323bb4737e60cdba34c25dd2a7d7066392e00e109b250d68107af",
+          "bytes": 377310
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-5.jpg",
+          "sha256": "f77a085e3f9e173cbb434fff34600d06f9f03b9bf6b2e64cce45d0b16d156565",
+          "bytes": 318400
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-6.jpg",
+          "sha256": "5f0f0256ff45598a9ba07d48e39dca0fd4f9c2698a5ba5873e6f3b432bb2bb40",
+          "bytes": 259802
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-7.jpg",
+          "sha256": "c57d6d8e1a7056dcf6e34c92d133410d664a13ebe7b500c7d3a66fc93c64b71e",
+          "bytes": 353238
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-8.jpg",
+          "sha256": "821a04c558e89e27546edf997d5ca266d6ce8fd641fcfa853bf454b0b0b89eaf",
+          "bytes": 336558
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-9.jpg",
+          "sha256": "f253861ba9f4601fef7bad27817e355c5704e2cc7bef2dde2b4b1b06822f915d",
+          "bytes": 368473
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-10.png",
+          "sha256": "e88315e50423c4134168811249c72b47b00efd2a9f76b1047daee0af599c699e",
+          "bytes": 289109
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-11.png",
+          "sha256": "b848c79691aad118d283db22174a5fcdd96f6c008be1d04816e9d1e93b5009b3",
+          "bytes": 273323
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-12.png",
+          "sha256": "ef5982340faf1119f4a9a8db95c343776d8206057b8a4c911aadb4d079a601c1",
+          "bytes": 281123
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-13.jpg",
+          "sha256": "61f2fc1da6c4ee523131ab8aa02925e983b60414a32360cb4e77dd11fff03852",
+          "bytes": 390462
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05208-14.jpg",
+          "sha256": "dfc4f3cf0896fb4a6038b2e0874d0b60b2621c544b4eaad7b1811723a2932e7e",
+          "bytes": 385985
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-338",
+        "q-339",
+        "q-340",
+        "q-341",
+        "q-342",
+        "q-343",
+        "q-344",
+        "q-345",
+        "q-346",
+        "q-347",
+        "q-348",
+        "q-349"
+      ],
+      "stateHistory": [
+        {
+          "previousState": "skipped_missing_images",
+          "changedAt": "2026-10-27T14:28:15.099825+00:00",
+          "reason": "依使用者更正，對話前段有原題與圖片，不能因後段Notion或其他操作而排除整份來源。"
+        }
+      ],
+      "reason": "12道完整原題已核對（地理10、生物2）。11張不重複原卷均可讀，24個最終裁切已逐張開啟、12題桌面／手機與54項測試通過。8張來源AI圖全數檢視：2張截取正確區塊，6張錯誤重製或計數圖排除；另採1張Visualize鞍部剖面。Notion操作／介面與5個照片邊緣不完整鄰題略過；5項修正附雙連結列入monitor。",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 4,
+        "url": "https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d",
+        "title": "詳細解答鞍部判讀",
+        "state": "partial",
+        "checkedAt": "2026-10-27T14:45:08.052Z",
+        "imagesExpected": 18,
+        "renderedImages": 14,
+        "matchedArchiveAttachments": 17,
+        "archive": "docs/sources/6ae05208-3ffc-83ee-be7e-99cc4705ab6d.json",
+        "renderedArchive": "docs/sources/6ae05208-3ffc-83ee-be7e-99cc4705ab6d-rendered.json",
+        "textLength": 4372,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "skippedQuestions": [
+        {
+          "page": 13,
+          "number": 30,
+          "reason": "照片只剩前一題部分題幹與選項，不猜補。"
+        },
+        {
+          "page": 13,
+          "number": 32,
+          "reason": "照片下緣截掉後續選項，原題不完整。"
+        },
+        {
+          "page": 14,
+          "number": 35,
+          "reason": "照片只有前一題的選項，沒有完整題幹。"
+        },
+        {
+          "page": 14,
+          "number": 37,
+          "reason": "照片下緣只剩題幹開頭及部分圖，略過。"
+        },
+        {
+          "page": 4,
+          "number": 18,
+          "reason": "照片下緣僅見題幹開頭，沒有完整選項，略過。"
+        }
+      ],
+      "originalImageInventory": {
+        "archivedUserAttachments": 18,
+        "uniqueOriginalExamPhotos": 11,
+        "repeatedExamUploads": 3,
+        "interfaceScreenshots": 4,
+        "downloadedUniqueFiles": 14,
+        "missingInterfaceScreenshot": 1,
+        "note": "未取得的是Notion手機介面截圖；11張不重複原卷全數可讀。"
+      },
+      "checkedAt": "2026-10-27T21:00:10.051790+00:00"
+    },
+    {
+      "order": 5,
+      "url": "https://chatgpt.com/share/6ae05217-b714-83ec-b37f-323f61d08bf0",
+      "title": "生物分類題解析",
+      "state": "complete",
+      "archiveImages": 2,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05217-1.jpg",
+          "sha256": "1737fe1beaca5b8b0c8ed2fe6ecfd91d61b53cf8f5a986586a2952137942c209",
+          "bytes": 326082,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05217-2.jpg",
+          "sha256": "b4be685c80644c55c887e6c223dd16dce431f0fd8a02439db67d677b241855b1",
+          "bytes": 322841,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-049",
+        "q-050"
+      ]
+    },
+    {
+      "order": 6,
+      "url": "https://chatgpt.com/share/6ae05238-7b84-83ec-b2f2-9a46aa7cb340",
+      "title": "第28題答案解析",
+      "state": "complete_with_skips",
+      "archiveImages": 10,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-1.jpg",
+          "sha256": "c0dd4ff28e628670e7ba7661bf790ed8438b291ab1663340f4306808a69a201c",
+          "bytes": 313129,
+          "renderedWidth": 1000,
+          "renderedHeight": 750
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-2.jpg",
+          "sha256": "3aca72a54e276bedf7bb441d24221a5f51054a3de744d724bb3b28998e1eb6b1",
+          "bytes": 283340,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-3.jpg",
+          "sha256": "3bbd630613f4277073d253ce2c9f862ab59d8de5c06937879b910df31755d338",
+          "bytes": 157640,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-4.jpg",
+          "sha256": "c9789e25f69f76a7c2ca7b659fac38e44f6016fa4249a782486da41a80c2d1b7",
+          "bytes": 344384,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-5.jpg",
+          "sha256": "73503db30e8d9e615300aa8b7c2f96930054475e44a50c78bc8270d66c87f3a3",
+          "bytes": 181945,
+          "renderedWidth": 750,
+          "renderedHeight": 1000
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-6.jpg",
+          "sha256": "46e20139cbe7e7f48f9fc4a6395f056b038cad05f71849f581f6e79ca1d25193",
+          "bytes": 272016,
+          "renderedWidth": 750,
+          "renderedHeight": 1000
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-7.jpg",
+          "sha256": "649a42d72f9d02c4698783f23bd6c1456e5f0aa79ebab5eb982877e4481d795a",
+          "bytes": 285472,
+          "renderedWidth": 750,
+          "renderedHeight": 1000
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-8.png",
+          "sha256": "0e6e57c4716928c5fab4495c06bde22d54b13325cabb278c3c4e80a5e7ffada8",
+          "bytes": 741055,
+          "renderedWidth": 1920,
+          "renderedHeight": 1080,
+          "fileId": "file_00000000df48820ba00778019b755c44"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-9.jpg",
+          "sha256": "315a75d230e9df2ed4cfd27bb498d81bec85fdedcafff0b0988121ca0bf199b1",
+          "bytes": 188954,
+          "renderedWidth": 750,
+          "renderedHeight": 1000,
+          "fileId": "file_00000000fe64820bb7341342fe2592e6"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05238-10.jpg",
+          "sha256": "f0fa0f0d107d8067edfd4f9c38703f4e3c13c24a2649b7ac81f5b6a4611daec6",
+          "bytes": 158503,
+          "renderedWidth": 750,
+          "renderedHeight": 1000,
+          "fileId": "file_00000000288c81fabc78eb488345b1ff"
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-051",
+        "q-052",
+        "q-053",
+        "q-350",
+        "q-351",
+        "q-352",
+        "q-353",
+        "q-354",
+        "q-355",
+        "q-356"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 6,
+        "url": "https://chatgpt.com/share/6ae05238-7b84-83ec-b2f2-9a46aa7cb340",
+        "title": "第28題答案解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T21:20:03.857424+00:00",
+        "imagesExpected": 10,
+        "renderedImages": 6,
+        "matchedArchiveAttachments": 10,
+        "archive": "docs/sources/6ae05238-7b84-83ec-b2f2-9a46aa7cb340.json",
+        "renderedArchive": "docs/sources/6ae05238-7b84-83ec-b2f2-9a46aa7cb340-rendered.json",
+        "textLength": 3533,
+        "errors": [],
+        "method": "authorized_chrome_scroll_and_share_file_retry",
+        "retryEvidence": {
+          "checkedAt": "2026-10-27T21:04:44.932Z",
+          "method": "authorized_browser_share_file_endpoints_parallel",
+          "missingBefore": 3,
+          "recovered": 3,
+          "allOriginalsAvailable": 10,
+          "errors": []
+        },
+        "note": "10張原始附件已取得，9張原卷照片及1張來源提供的官方導覽圖；原圖擷取與逐題整理分開。"
+      },
+      "imageRetryEvidence": {
+        "checkedAt": "2026-10-27T21:04:44.932Z",
+        "method": "authorized_browser_share_file_endpoints_parallel",
+        "missingBefore": 3,
+        "recovered": 3,
+        "allOriginalsAvailable": 10,
+        "errors": []
+      },
+      "previousErrors": [
+        {
+          "reason": "分享頁只顯示10張原始附件中的4張；完成可核對第28題、英文第10與15題。英文31–38閱讀頁僅有文章，缺各題完整選項，先跳過；其餘未顯示附件不推測補題。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 1,
+          "number": 29,
+          "reason": "照片只有題幹，缺全部選項。"
+        },
+        {
+          "page": 2,
+          "number": 8,
+          "reason": "照片上緣缺完整題幹，只見尾句及選項。"
+        },
+        {
+          "page": 2,
+          "number": 12,
+          "reason": "照片下緣截去部分選項。"
+        },
+        {
+          "page": 3,
+          "number": 14,
+          "reason": "只見前題部分選項，缺完整題幹。"
+        },
+        {
+          "page": 4,
+          "number": "31–38",
+          "reason": "只有Matthew Walzer閱讀文章與部分填空，沒有各題完整選項，不由AI補造。"
+        },
+        {
+          "page": 6,
+          "number": "23、24",
+          "reason": "竹子題引用的六種竹表，上方三列遭照片截去；不能用AI文字補成完整原表。"
+        },
+        {
+          "page": 9,
+          "number": "透鏡題",
+          "reason": "原照片上緣截去第一行題幹及部分條件，不用AI重建缺失文字。"
+        },
+        {
+          "page": 10,
+          "number": 32,
+          "reason": "原照片下緣截去D選項部分文字，不猜補。"
+        }
+      ],
+      "reason": "10張原始附件已全數取得並逐張檢視（9張原卷照片及1張官方導覽圖截圖）。新增理化2題、國文3題、英文2題；補齊q-051閱讀全文及官方導覽核對，沿用既有q-052、q-053。只跳過照片截斷、缺表或缺完整選項的題目。5張AI生成圖的共享下載均404，未假稱看過或加入。",
+      "completedAt": "2026-10-27T21:20:03.857424+00:00",
+      "checkedAt": "2026-10-27T21:20:03.857424+00:00",
+      "cropAudit": "docs/imports/gpt-006-check.json"
+    },
+    {
+      "order": 7,
+      "url": "https://chatgpt.com/share/6ae05253-4d68-83ec-9ba7-a11d22475116",
+      "title": "第10題答案解析",
+      "state": "complete",
+      "archiveImages": 1,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05253-1.jpg",
+          "sha256": "3449d87c99614cb8db63a1a25d4e07f5648456f0c70aeff15ed76527dd821e5c",
+          "bytes": 324312,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-054"
+      ]
+    },
+    {
+      "order": 8,
+      "url": "https://chatgpt.com/share/6ae05276-e754-83ee-a87a-569980550954",
+      "title": "公會工會比較",
+      "state": "complete_with_skips",
+      "archiveImages": 10,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-1.jpg",
+          "sha256": "b011d8401b52b6c0dbfb7f68a5b8d54cfadcc9758c57adde7b72e7fbe6c31a76",
+          "bytes": 383158,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-2.jpg",
+          "sha256": "69486ea0b8f3ad3e87ce9e43328416c7248765034db5d32cd55b1940567ca150",
+          "bytes": 475681,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-3.jpg",
+          "sha256": "2dec21932f13e6bab839fd283be3da711d6852398eafffcd79a1d685f69bd3af",
+          "bytes": 237063,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-4.jpg",
+          "sha256": "1fd15707011b1b29f677259845aff8743bc2c4f99cadb99c21b8272fe5d04ec9",
+          "bytes": 342805,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-5.jpg",
+          "sha256": "1d617fd75c8803ba8527f50ef0a33b1a52410c01656aac9d140ecef7919e72b7",
+          "bytes": 460609,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-6.jpg",
+          "sha256": "25295ff9475ca1532ee2a193df261c3165d9608db7912e6fe45c7e2a3b31df69",
+          "bytes": 403458,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-7.jpg",
+          "sha256": "6c3f1a7d83ddb6847b19136901e93bdb292a7dc0410b4997fd6a0123e4ab3d71",
+          "bytes": 379700,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-8.jpg",
+          "sha256": "e3fe328299750ed01e07496aa7655fdb01a12dbe7a91db2fe3c66b4616d8d1c9",
+          "bytes": 364498,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-9.jpg",
+          "sha256": "6bf843e4c35d486cf2afb185ee8e4b2b7b90ad4a520cd8294ac26cb862cbd7bb",
+          "bytes": 424313,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05276-10.jpg",
+          "sha256": "f50a617ac0eac49587180c2535529446711f2096b3c15def7d6167c1230e627a",
+          "bytes": 357547,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-055",
+        "q-357",
+        "q-358",
+        "q-359",
+        "q-360",
+        "q-361",
+        "q-362",
+        "q-363",
+        "q-364",
+        "q-365",
+        "q-366",
+        "q-367"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 8,
+        "url": "https://chatgpt.com/share/6ae05276-e754-83ee-a87a-569980550954",
+        "title": "公會工會比較",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:46:32.272Z",
+        "imagesExpected": 10,
+        "renderedImages": 10,
+        "matchedArchiveAttachments": 10,
+        "archive": "docs/sources/6ae05276-e754-83ee-a87a-569980550954.json",
+        "renderedArchive": "docs/sources/6ae05276-e754-83ee-a87a-569980550954-rendered.json",
+        "textLength": 3905,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "previousErrors": [
+        {
+          "reason": "原始附件10張，分享頁僅顯示2張；完成第16題，其餘未顯示附件不推測。第25題照片下方選項不完整，跳過。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 1,
+          "number": "15、21",
+          "reason": "前題缺題幹；第21題缺所需表格及完整選項。"
+        },
+        {
+          "page": 1,
+          "number": 20,
+          "reason": "照片右緣截去題幹第一行尾部，沒有猜補。"
+        },
+        {
+          "page": 2,
+          "number": 25,
+          "reason": "照片下緣截去選項，無完整原題。"
+        },
+        {
+          "page": 3,
+          "number": "農產品產期題",
+          "reason": "只有題幹尾句、表格與選項；題號、作物名稱及前文遭照片截去。"
+        },
+        {
+          "page": 4,
+          "number": 63,
+          "reason": "照片下緣僅見部分題幹，缺選項。"
+        },
+        {
+          "page": 7,
+          "number": 37,
+          "reason": "C、D選項被照片截斷；不拿原AI說明補造。"
+        },
+        {
+          "page": 6,
+          "number": 41,
+          "reason": "下緣氣候表與題幹、選項不完整。"
+        },
+        {
+          "page": 8,
+          "number": 46,
+          "reason": "照片下緣截去進口結構表及全部選項。"
+        },
+        {
+          "page": 9,
+          "number": "49、53、54",
+          "reason": "鄰題缺題幹、必要表格或全部選項。"
+        },
+        {
+          "page": 10,
+          "number": "人口曲線題",
+          "reason": "手指遮住圖線及部分題幹選項，不能完整核對。"
+        }
+      ],
+      "reason": "10張原始照片全數可讀；新增歷史2題、地理9題，沿用q-055並保留最早日期。濁水溪第61、62題在兩張照片重複，只建各一題。只跳過截斷、遮擋或缺必要材料的鄰題；80則封存訊息無AI生成圖指標，image_group為搜尋圖片語法而非已取得生成圖。",
+      "completedAt": "2026-10-27T21:27:23.362759+00:00",
+      "checkedAt": "2026-10-27T21:27:23.362759+00:00",
+      "cropAudit": "docs/imports/gpt-008-check.json",
+      "pendingAnswerQuestionIds": [],
+      "pendingConfirmationIds": [],
+      "userResolutions": {
+        "q-367": {
+          "resolvedAt": "2026-10-28T02:55:32.935276+00:00",
+          "resolution": "使用者確認q-367答案D，保留目前完整原題、原圖及解說，已結案。"
+        }
+      }
+    },
+    {
+      "order": 9,
+      "url": "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14",
+      "title": "閱讀測驗解題\n",
+      "state": "complete_with_skips",
+      "archiveImages": 6,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae052d5-1.jpg",
+          "sha256": "4de7a76817401c7a4765edab7d04ab8aae255b5025dab4d48c19416f68741dd3",
+          "bytes": 289070,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae052d5-2.jpg",
+          "sha256": "b214e43887c5e41a68ab2dad70f16d92b8a62bd94f210f0449dbb7fab5072cfb",
+          "bytes": 449377,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae052d5-3.jpg",
+          "sha256": "f77224c13c9f82c98845904bbabae45bb8ddf60c3865a95797033aca8cf0a3a0",
+          "bytes": 378104,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae052d5-4.jpg",
+          "sha256": "20ec0a94d230897dde32e0f1dad108326316faf2d00c29ecf6447cc6670f39a4",
+          "bytes": 441921,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae052d5-5.jpg",
+          "sha256": "2d982900c57ba12435447e809143dc459fe0b78b8a12408931ec89061c8fdfeb",
+          "bytes": 337606,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae052d5-6.jpg",
+          "sha256": "4bde33ff0ba9c5eec79836bed8a5f28fce86b8ecc46c2b687a59ecefaf7c576a",
+          "bytes": 385044,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-056",
+        "q-057",
+        "q-368",
+        "q-369",
+        "q-370",
+        "q-371",
+        "q-372",
+        "q-373",
+        "q-374",
+        "q-375",
+        "q-376",
+        "q-377",
+        "q-378",
+        "q-379",
+        "q-380",
+        "q-381"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 9,
+        "url": "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14",
+        "title": "閱讀測驗解題\n",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:46:42.124Z",
+        "imagesExpected": 6,
+        "renderedImages": 6,
+        "matchedArchiveAttachments": 6,
+        "archive": "docs/sources/6ae052d5-0eac-83ee-98fa-606d5c38cc14.json",
+        "renderedArchive": "docs/sources/6ae052d5-0eac-83ee-98fa-606d5c38cc14-rendered.json",
+        "textLength": 5839,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "previousErrors": [
+        {
+          "reason": "6張原卷中僅2張在分享頁顯示；完成可核對英文22、地理3題。氣候圖第5題下方不完整，其餘缺失附件先跳過。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 1,
+          "number": 26,
+          "reason": "只見下一題開頭，沒有完整題幹及選項。"
+        },
+        {
+          "page": 2,
+          "number": 5,
+          "reason": "兩張照片各截掉氣候圖的下緣或右緣，未取得完整氣候圖，先略過，不補繪缺失值。"
+        },
+        {
+          "page": 3,
+          "number": "39、40",
+          "reason": "缺根據本文所需閱讀文章，第39題圖片選項及部分題幹亦被右邊界截斷。"
+        },
+        {
+          "page": 3,
+          "number": 10,
+          "reason": "人口表與後續選項在照片下緣被截去。"
+        },
+        {
+          "page": 6,
+          "number": "7、8",
+          "reason": "照片右緣截掉長題幹文字及引文部分內容，不用AI補造。"
+        }
+      ],
+      "reason": "6張原始附件全數取得並檢視；新增英文4、地理4、歷史5、公民1，共14題，沿用q-056、q-057。已獨立訂正台地圖、鄭氏承天府與平埔族婚姻判讀等原AI錯誤。只跳過缺文章、圖表或照片截斷題；34則封存訊息無工具生成圖指標。",
+      "completedAt": "2026-10-27T21:35:48.454760+00:00",
+      "checkedAt": "2026-10-27T21:35:48.454760+00:00",
+      "cropAudit": "docs/imports/gpt-009-check.json"
+    },
+    {
+      "order": 10,
+      "url": "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a",
+      "title": "字形辨析答案解析",
+      "state": "complete_with_skips",
+      "archiveImages": 15,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-1.jpg",
+          "sha256": "5c082fe79db1dfc67696f6561e4c0b7379e8d0a0cc0125ebceda09a3ca8b8f2c",
+          "bytes": 276785,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-2.jpg",
+          "sha256": "fa024e74e2dc7c0bcc48703a1bdabea618dbd9aef68ae89b6e06cef1e275e412",
+          "bytes": 401890,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-3.jpg",
+          "sha256": "afc7b2a28131ba61ea700b40a41ac6196b26b4faf6c28a821969a106a15e1326",
+          "bytes": 220389,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-4.jpg",
+          "sha256": "ede2ed7ea6ab402fe0c798fab5512a9e1920f2b2ffbcc3c3fdbfbad3ec29f5f3",
+          "bytes": 355784,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-5.jpg",
+          "sha256": "d5785d160cb778199032c0aac125f25037232bafd5083f823950ea3006bd64a8",
+          "bytes": 363006,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-6.jpg",
+          "sha256": "796da17e74c040f6851a3acb2391c7c643fcbde9ca2ec4bb32624504b32b3f5d",
+          "bytes": 349766,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-7.jpg",
+          "sha256": "fc0735c205a301240bbe22aee14b4a9fe53dd72ac45976d6539ee8cf36f4c8a2",
+          "bytes": 347598,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-8.jpg",
+          "sha256": "403e856d8abfd3dc8087e8c0a4bcea2e4a341888a4a144606cb685431c108c65",
+          "bytes": 382437,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-9.jpg",
+          "sha256": "e32cea9db43bd8332c0377fb5b696d3d9542b56b0efb8d8819b4f6b1f3506926",
+          "bytes": 298730,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-10.jpg",
+          "sha256": "c267ce1b7ce854638642579e2a1418d796d5656144593a1ef74ff9e8208a7ab4",
+          "bytes": 390271,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-11.jpg",
+          "sha256": "f913b671667f94ca7f66bfa736a990eda48b5819738fcfd003a155d594f7c199",
+          "bytes": 282920,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-12.jpg",
+          "sha256": "4460f26cf3235d4cf895a25b0542d1365d103e93a891df8e021ba365572174e3",
+          "bytes": 293721,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-13.jpg",
+          "sha256": "4a2c216fc44548163a90ed4c96573267d7ea8d37a2e1b1e304c62c2f49b32751",
+          "bytes": 259478,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-14.jpg",
+          "sha256": "d832da4f3cd8474827ed1395b9324fdd405c7c178708824615d3234bc5e8d472",
+          "bytes": 348457,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0533b-15.jpg",
+          "sha256": "54d7c6aee2b45cfe12aadb67d83db9092c2f9ae536d8881d92b2ce1e94e6fce1",
+          "bytes": 381970,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-058",
+        "q-059",
+        "q-382",
+        "q-383",
+        "q-384",
+        "q-385",
+        "q-386",
+        "q-387",
+        "q-388",
+        "q-389",
+        "q-390",
+        "q-391",
+        "q-392",
+        "q-393",
+        "q-394",
+        "q-395",
+        "q-396",
+        "q-397",
+        "q-398",
+        "q-399",
+        "q-400",
+        "q-401",
+        "q-402",
+        "q-403",
+        "q-404",
+        "q-405",
+        "q-406",
+        "q-407",
+        "q-408",
+        "q-409"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 10,
+        "url": "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a",
+        "title": "字形辨析答案解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T21:55:28.443908+00:00",
+        "imagesExpected": 15,
+        "renderedImages": 14,
+        "matchedArchiveAttachments": 15,
+        "archive": "docs/sources/6ae0533b-4b48-83ec-ba36-0b7b3759f90a.json",
+        "renderedArchive": "docs/sources/6ae0533b-4b48-83ec-ba36-0b7b3759f90a-rendered.json",
+        "textLength": 7072,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments_plus_existing_file_verification",
+        "localOriginalsVerified": 15,
+        "note": "沿用先前授權Chrome取得的附件及既有原圖，逐檔確認SHA256、大小與15個封存附件唯一對應；本次未宣稱重新觀察到15張DOM圖。"
+      },
+      "previousErrors": [
+        {
+          "reason": "15張原卷中僅2張在分享頁顯示；完成可核對國文1、24題，其餘缺失附件先跳過。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 3,
+          "number": "12、13",
+          "reason": "照片只拍頁面邊緣，部分文字與選項被截去或被手指遮住；不依AI猜補顏色詞與造字選項。"
+        },
+        {
+          "page": 4,
+          "number": "2、6",
+          "reason": "第2題只見尾部，第6題缺完整統計圖、題幹與選項。"
+        },
+        {
+          "page": 5,
+          "number": 13,
+          "reason": "前題缺開頭完整題幹。"
+        },
+        {
+          "page": 7,
+          "number": 21,
+          "reason": "照片上緣只見部分選項，無完整題幹。"
+        },
+        {
+          "page": 8,
+          "number": 26,
+          "reason": "照片下緣只見題幹開頭。"
+        },
+        {
+          "page": 10,
+          "number": "31起下一題組",
+          "reason": "照片只見下一閱讀材料首句，未取得全文與題目。"
+        },
+        {
+          "page": 15,
+          "number": 6,
+          "reason": "詩句與植物選項右緣被截去，不用熟悉詩句自行補成原題。"
+        }
+      ],
+      "reason": "15張原始照片全數取得並檢視；新增國文22、地理4、歷史2，共28題，沿用q-058、q-059與其最早日期。q-392已由使用者確認維持B，原題完整保留，解說補足謊稱誤殺並騙過官府才可能免罪的語意；其餘可讀原題獨立判讀。跳過照片截斷／遮擋題及Notion操作段。153則封存訊息未見工具生成圖指標，不把搜尋圖片當AI圖。",
+      "completedAt": "2026-10-27T21:55:28.443908+00:00",
+      "checkedAt": "2026-10-27T21:55:28.443908+00:00",
+      "cropAudit": "docs/imports/gpt-010-check.json",
+      "pendingAnswerQuestionIds": [],
+      "userResolutions": {
+        "q-392": {
+          "resolvedAt": "2026-10-28T01:53:55.543450+00:00",
+          "resolution": "使用者確認q-392維持B。解說中釐清假裝語意有誤導：若能謊稱誤殺並騙過官府，使官府信以為真正誤殺，就有可能免罪；不是假裝本身必然免罪。原題與選項不改。"
+        }
+      }
+    },
+    {
+      "order": 11,
+      "url": "https://chatgpt.com/share/6ae0534e-2698-83ec-9f59-eecd8dafed5d",
+      "title": "文化題解析",
+      "state": "complete_with_skips",
+      "archiveImages": 16,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-1.jpg",
+          "sha256": "79b1489fb088f9f4aee8a67b7776b56f95f4e07671e8b2fb644a7f985226d7fa",
+          "bytes": 266330,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-2.jpg",
+          "sha256": "2d4927559c7b1ff78d39905c108fa912677f2a6e3f3c7832b919f5930f5343e7",
+          "bytes": 344747,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-3.jpg",
+          "sha256": "25aa7d435be441d3d7a1d3885b54cd3555195b99ef7f623013855420916f1651",
+          "bytes": 380444,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-4.jpg",
+          "sha256": "b2647a99a73d7a02610e243590ad8e0abb06f262f281e440996f434345012fbb",
+          "bytes": 276528,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-5.jpg",
+          "sha256": "bd1b94cd51d31c2e9a50f5b7289431a97b601024bf493a2d00fca95a04133fb5",
+          "bytes": 341425,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-6.jpg",
+          "sha256": "60aec480fc4c3728da055847b6fc8d1bed4c3aceb3de084087be58511f2aee22",
+          "bytes": 335873,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-7.jpg",
+          "sha256": "38895fec13670c579b4d2d1df28d913a55cbbe6abbeebc13cb5e4a232d5ba7d8",
+          "bytes": 320879,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-8.jpg",
+          "sha256": "0528852507b9e238bff08aa6c89774083971786b4a36911b64638f213df6189c",
+          "bytes": 374637,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-9.jpg",
+          "sha256": "aa5cc8251a01d2d1ee28f43a7a3dfbbfc84cc2bc57a0e23eb5c67427cd6acbd0",
+          "bytes": 325503,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-10.jpg",
+          "sha256": "1c57195cdff112d5c0a2da8a0c4b749f2ebd5bfcefbb8460087a967d16f4b72c",
+          "bytes": 446604,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-11.jpg",
+          "sha256": "cf92cba2fcdb35305b93e6f2e1e7c9e214a8dacb53407fefbbe2af1d42b9acaf",
+          "bytes": 325293,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-12.jpg",
+          "sha256": "4cd145c9fb2fd5eedc4212fe922f4fde5ed0a1e788b3e12646c0aebf0d5fb6a4",
+          "bytes": 236365,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-13.jpg",
+          "sha256": "eb6b5bc510d4115a05e4dc793dd523ed1b960dc4c09e062f9cef77e3cb52fd15",
+          "bytes": 274642,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-14.jpg",
+          "sha256": "c1aa69c20b61443d4bb3de9564c5a81c7ee93a856a2e39a47f1036486539da07",
+          "bytes": 356113,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-15.jpg",
+          "sha256": "d0eda9c60ea78b4cb6ef94f29c909e1e43ee717fdc0120dc6464fe8c2d2b9d3c",
+          "bytes": 261199,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0534e-16.jpg",
+          "sha256": "0306f3fd7ab171e99221ded46f69edec7584c4d4574a8ae861324822ea34974d",
+          "bytes": 269872,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-060",
+        "q-061",
+        "q-062",
+        "q-063",
+        "q-064",
+        "q-410",
+        "q-411",
+        "q-412",
+        "q-413",
+        "q-414",
+        "q-415",
+        "q-416",
+        "q-417",
+        "q-418",
+        "q-419",
+        "q-420",
+        "q-421",
+        "q-422",
+        "q-423",
+        "q-424",
+        "q-425",
+        "q-426",
+        "q-427"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 11,
+        "url": "https://chatgpt.com/share/6ae0534e-2698-83ec-9f59-eecd8dafed5d",
+        "title": "文化題解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T22:14:06.260704+00:00",
+        "imagesExpected": 16,
+        "renderedImages": 15,
+        "matchedArchiveAttachments": 16,
+        "archive": "docs/sources/6ae0534e-2698-83ec-9f59-eecd8dafed5d.json",
+        "renderedArchive": "docs/sources/6ae0534e-2698-83ec-9f59-eecd8dafed5d-rendered.json",
+        "textLength": 5229,
+        "errors": [],
+        "method": "authorized_chrome_scroll_plus_archived_missing_attachment_retry",
+        "localOriginalsVerified": 16,
+        "retry": {
+          "fileId": "file_0000000050a48206998408dc1da0abf7",
+          "path": "docs/source-pages/chatgpt-6ae0534e-16.jpg",
+          "bytes": 269872,
+          "result": "已由既授權Chrome分享檔案端點取回，與封存附件大小一致。"
+        }
+      },
+      "previousErrors": [
+        {
+          "reason": "16張原始附件中分享頁只顯示5張。已核對文化題、會議程序題、敬老禮金題及歷史第51題；第34題的小文件仍待讀取完整成品，其餘未顯示附件先跳過。"
+        },
+        {
+          "reason": "已核對可讀完整題目；分享頁未呈現其餘原卷，不猜補。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 2,
+          "number": "17",
+          "reason": "題目所需性別工作平等法修法比較表及四個選項在照片下緣被截去。"
+        },
+        {
+          "page": 3,
+          "number": "前一英文題、21",
+          "reason": "前一英文題只剩選項；第21題只見開頭，未見完整材料與選項。"
+        },
+        {
+          "page": 4,
+          "number": "上緣疊放的前題",
+          "reason": "其他試卷只見片段文字，無完整題幹與選項；第35題已由第9張完整補回。"
+        },
+        {
+          "page": 5,
+          "number": "53～54",
+          "reason": "下一題組僅見引文開頭，未見完整公路總局談話、圖及問題。"
+        },
+        {
+          "page": 8,
+          "number": "37、39",
+          "reason": "第37題僅剩部分圖文及選項；第39題只見開頭，四幅矩陣式樹狀圖不完整。"
+        },
+        {
+          "page": 9,
+          "number": "37",
+          "reason": "照片底部的溯溪情境未拍完，缺選項。"
+        },
+        {
+          "page": 10,
+          "number": "40",
+          "reason": "前題僅見部分代號及地圖，完整題幹與題圖缺失。"
+        },
+        {
+          "page": 11,
+          "number": "45",
+          "reason": "僅前題部分選項、統計圖年份下緣，缺完整題幹及圖表。"
+        },
+        {
+          "page": 13,
+          "number": "15",
+          "reason": "只見前題D選項，無完整原題。"
+        },
+        {
+          "page": 14,
+          "number": "33（國文）",
+          "reason": "共用文章已完整轉錄，第33題未出現在照片中，不猜題目。"
+        },
+        {
+          "page": 15,
+          "number": "40（國文）",
+          "reason": "第40題僅見起首，缺完整題幹及選項。"
+        },
+        {
+          "page": 16,
+          "number": "58、59",
+          "reason": "兩題需依資料一或整件事件判斷，但資料一在原照片上緣被截去；第60題只需資料二，已獨立完整收入。"
+        }
+      ],
+      "reason": "16張原始附件全部取齊並逐張檢視；新增18題、沿用原5題，共23題。僅照片本身未拍完整的相鄰題目記錄跳過；原AI重大誤讀列monitor核對。",
+      "checkedAt": "2026-10-27T22:14:06.260704+00:00",
+      "completeQuestionIds": [
+        "q-060",
+        "q-061",
+        "q-062",
+        "q-063",
+        "q-064",
+        "q-410",
+        "q-411",
+        "q-412",
+        "q-413",
+        "q-414",
+        "q-415",
+        "q-416",
+        "q-417",
+        "q-418",
+        "q-419",
+        "q-420",
+        "q-421",
+        "q-422",
+        "q-423",
+        "q-424",
+        "q-425",
+        "q-426",
+        "q-427"
+      ],
+      "pendingAnswerQuestionIds": []
+    },
+    {
+      "order": 12,
+      "url": "https://chatgpt.com/share/6ae0538c-65f8-83ec-a669-cbb0ed5ae0dc",
+      "title": "判斷山崩影響測站",
+      "state": "complete",
+      "archiveImages": 1,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0538c-1.jpg",
+          "sha256": "ab399d99f7f7a2e146019cd16d20dabd8b2374a0b356b2f8665a96704a47ab29",
+          "bytes": 261308,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-065"
+      ]
+    },
+    {
+      "order": 13,
+      "url": "https://chatgpt.com/share/6ae053d0-c380-83ec-8a8a-53ecfa0d7c4e",
+      "title": "無反過換",
+      "state": "complete_with_skips",
+      "archiveImages": 5,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae053d0-1.jpg",
+          "sha256": "cad62c0dd915770b3342b71f79c98934cb99e1edb2ddf3369e56f03e870c0ba0",
+          "bytes": 327767,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053d0-3.jpg",
+          "sha256": "3ca9c73ecf3121d92fe789bb7a8b8b8476684e2ef7706592cdbd8b2b40b2a9c9",
+          "bytes": 375481
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053d0-5.jpg",
+          "sha256": "c122126fbae3ea78ae26dcf4b6255e6d73f5ee423786664e9a7180927ecc1ed2",
+          "bytes": 477081
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053d0-2.jpg",
+          "sha256": "6e444b1eb8002fa809528b48c4698562ab25c31c777a26006ce71d56e018f41f",
+          "bytes": 370816
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053d0-4.jpg",
+          "sha256": "8a24d8798ef6c3f7d5deeacc887a7036f598cb0f81696c121eb7e9a3448763ad",
+          "bytes": 363029
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-066",
+        "q-428",
+        "q-429",
+        "q-430",
+        "q-431",
+        "q-432",
+        "q-433"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 13,
+        "url": "https://chatgpt.com/share/6ae053d0-c380-83ec-8a8a-53ecfa0d7c4e",
+        "title": "無反過換",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:47:21.068Z",
+        "imagesExpected": 5,
+        "renderedImages": 5,
+        "matchedArchiveAttachments": 5,
+        "archive": "docs/sources/6ae053d0-c380-83ec-8a8a-53ecfa0d7c4e.json",
+        "renderedArchive": "docs/sources/6ae053d0-c380-83ec-8a8a-53ecfa0d7c4e-rendered.json",
+        "textLength": 6299,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "previousErrors": [
+        {
+          "reason": "已核對可讀完整題目；分享頁未呈現其餘原卷，不猜補。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 2,
+          "number": "左側另一張試卷片段",
+          "reason": "僅可見反制垃圾等片段，缺完整原題，不依殘句建題。"
+        },
+        {
+          "page": 3,
+          "number": "上緣第28題（其他科）",
+          "reason": "只見部分家暴與少年刑事選項，缺題幹、A選項及必要材料；與本頁國文第29題不同。"
+        },
+        {
+          "page": 3,
+          "number": "30",
+          "reason": "韓昭侯、典冠與典衣的閱讀材料可見，但題幹與全部選項未拍入，先跳過。"
+        },
+        {
+          "page": "4、5",
+          "number": "38、39",
+          "reason": "兩張是同一閱讀題的遠照與近照；已合併核對並收入q-432、q-433，不重複建題。"
+        },
+        {
+          "page": "對話後段",
+          "number": "非題目內容",
+          "reason": "練習時間、快速複習方法及語音誤辨文字不是另一道完整原卷題，不另建題。"
+        }
+      ],
+      "reason": "5張原圖皆已檢視，遠照與近照合併核對；新增6道國文題，沿用q-066，共7題。q-430完整題文保留，原卷紅筆B與文意C的差異待教師確認。",
+      "completeQuestionIds": [
+        "q-066",
+        "q-428",
+        "q-429",
+        "q-430",
+        "q-431",
+        "q-432",
+        "q-433"
+      ],
+      "pendingAnswerQuestionIds": [],
+      "checkedAt": "2026-10-27T22:22:13.030060+00:00",
+      "userResolutions": {
+        "q-430": {
+          "resolvedAt": "2026-10-28T02:06:37.597122+00:00",
+          "resolution": "使用者確認q-430答案C，原卷紅筆B應為誤改。保留原題四選項及原作答，維持依文意以逸豫足以亡身銜接貴族沉溺奢華失權的解說，核對結案。"
+        }
+      }
+    },
+    {
+      "order": 14,
+      "url": "https://chatgpt.com/share/6ae053e4-e970-83ee-b3d3-0c236904b680",
+      "title": "第二題成語解析",
+      "state": "complete_with_skips",
+      "archiveImages": 11,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-1.jpg",
+          "sha256": "f31bdf60d6c2cddecac83acf8cdd084f4ada4929f416ecb663a7397460ff010b",
+          "bytes": 278371,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-2.jpg",
+          "sha256": "e5c0c87f9d1d81c27cd3c27c360c7507608efb9d324592cb7eaef73d9e8d8368",
+          "bytes": 226893,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-10.jpg",
+          "sha256": "0f21d2b46e74be21050721a30fd0c82392b3f7cf8c51033e92f4dbddc6b81d91",
+          "bytes": 316721
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-11.jpg",
+          "sha256": "c98465f16124461409896354e829b73aa97783f6651c0c4f07dbbe7f5d98397d",
+          "bytes": 217919
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-3.jpg",
+          "sha256": "f7af65131ce16456cdf62027c74444e1f6c7c4f936803f4b978c41a8c0aace28",
+          "bytes": 339028
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-4.jpg",
+          "sha256": "5e9eae0d697369273f791bfec0ce66135fd94bf47a8f3cb57974a54197246371",
+          "bytes": 370924
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-5.jpg",
+          "sha256": "867107a5db4e48b3b70f220f8f592adbce31de861f236f1afe90c9d46d55c2bf",
+          "bytes": 221666
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-6.jpg",
+          "sha256": "e51da363ba2c85d20e0f9286c1b035bbe2304183825d0dfc3be819abdc5632df",
+          "bytes": 500555
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-7.jpg",
+          "sha256": "736c1095efbe79ba9fb8e443630610b46fa7f73dff120a4af94577c337271fcb",
+          "bytes": 500130
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-8.jpg",
+          "sha256": "d6230e1ad97ec25d25f869f4f78fb971003cfaa4b0b542967d0db74dc2cb574b",
+          "bytes": 396777
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae053e4-9.jpg",
+          "sha256": "73c7051fd6975009e11a0c832684c71e3ab4257742d690b70b10d23ed9a39583",
+          "bytes": 412154
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-067",
+        "q-068",
+        "q-069",
+        "q-434",
+        "q-435",
+        "q-436",
+        "q-437",
+        "q-438",
+        "q-439",
+        "q-440",
+        "q-441",
+        "q-442",
+        "q-443",
+        "q-444",
+        "q-445",
+        "q-446",
+        "q-447",
+        "q-448",
+        "q-449",
+        "q-450",
+        "q-451",
+        "q-452",
+        "q-453",
+        "q-454",
+        "q-590"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 14,
+        "url": "https://chatgpt.com/share/6ae053e4-e970-83ee-b3d3-0c236904b680",
+        "title": "第二題成語解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:47:31.278Z",
+        "imagesExpected": 11,
+        "renderedImages": 11,
+        "matchedArchiveAttachments": 11,
+        "archive": "docs/sources/6ae053e4-e970-83ee-b3d3-0c236904b680.json",
+        "renderedArchive": "docs/sources/6ae053e4-e970-83ee-b3d3-0c236904b680-rendered.json",
+        "textLength": 5368,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "previousErrors": [
+        {
+          "reason": "已核對可讀完整題目；分享頁未呈現其餘原卷，不猜補。"
+        }
+      ],
+      "skippedQuestions": [
+        {
+          "page": 2,
+          "number": "17",
+          "reason": "上緣只拍到部分選項，缺完整題幹與A選項。"
+        },
+        {
+          "page": 3,
+          "number": "7",
+          "reason": "上緣只見前一題選項片段，沒有完整原題。"
+        },
+        {
+          "page": 4,
+          "number": "15",
+          "reason": "上緣僅有極區示意圖片段，缺題幹與全部選項。"
+        },
+        {
+          "page": 6,
+          "number": "28、29",
+          "reason": "陳列〈無怨〉閱讀文章右緣被照片裁掉多處，28題問句右端亦裁切。已查找同文出版／試題資料但未完整恢復本卷，不用AI補字，先跳過。",
+          "userRequestedSkip": true,
+          "userResolution": "使用者要求移除〈無怨〉缺文確認，第28～30題依指示跳過，不補造或重新收入；保留缺文查核紀錄。"
+        },
+        {
+          "page": 6,
+          "number": "30",
+          "reason": "閱讀文章右緣不全，且選項表C、D未完整拍入。",
+          "userRequestedSkip": true,
+          "userResolution": "使用者要求移除〈無怨〉缺文確認，第28～30題依指示跳過，不補造或重新收入；保留缺文查核紀錄。"
+        },
+        {
+          "page": 8,
+          "number": "32",
+          "reason": "題幹可見，但四個選項未拍入；不由AI的called／was taking推造原選項。"
+        },
+        {
+          "page": 9,
+          "number": "33、40",
+          "reason": "33題前半題幹在照片外；40題下半題幹及全部選項在照片外。"
+        },
+        {
+          "page": 10,
+          "number": "1、4",
+          "reason": "1題上半題幹裁掉；4題只有部分題幹且選項不在照片內。"
+        },
+        {
+          "page": 10,
+          "number": "3",
+          "reason": "右緣裁掉beautiful artw…的末尾及詞彙框；雖可推測artwork，但依完整原題規範不由猜測補入。"
+        },
+        {
+          "page": 11,
+          "number": "10、12、13",
+          "reason": "10題題幹上緣被裁；12題右端Mrs. Smith’s hous…尾字裁切，不能照AI改成home；13題缺B至D選項。"
+        }
+      ],
+      "reason": "原11張原卷皆已檢視，現共25題；補回使用者核對的國文第16題q-590（B），C原印ㄅㄧㄢˇ，正音ㄅㄧㄝˇ。q-445先前已確認A。其餘照片邊緣缺文及選項保留原跳過紀錄。",
+      "completeQuestionIds": [
+        "q-067",
+        "q-068",
+        "q-069",
+        "q-434",
+        "q-435",
+        "q-436",
+        "q-437",
+        "q-438",
+        "q-439",
+        "q-440",
+        "q-441",
+        "q-442",
+        "q-443",
+        "q-444",
+        "q-445",
+        "q-446",
+        "q-447",
+        "q-448",
+        "q-449",
+        "q-450",
+        "q-451",
+        "q-452",
+        "q-453",
+        "q-454",
+        "q-590"
+      ],
+      "pendingAnswerQuestionIds": [],
+      "checkedAt": "2026-10-27T22:39:38.756738+00:00",
+      "userResolutions": {
+        "q-445": {
+          "resolvedAt": "2026-10-28T02:09:55.495163+00:00",
+          "resolution": "使用者確認q-445以A為最佳答案。stay up studying直接表達熬夜讀書；B的stay up to study文法合理，但在本題語意與搭配上不如A順，不視為文法錯誤。原題四項保留，核對結案。"
+        },
+        "q-590": {
+          "resolvedAt": "2026-10-28T03:12:13.667971+00:00",
+          "resolution": "使用者核對GPT第14來源原卷16題：C印刷為ㄅㄧㄢˇ，不是ㄅㄧㄝˇ。乾癟正音ㄅㄧㄝˇ，C不正確，答案B。補入完整原題q-590，注音疑點結案。"
+        },
+        "gpt014-original-cropped-reading": {
+          "resolvedAt": "2026-10-28T03:13:27.604373+00:00",
+          "resolution": "使用者要求移除〈無怨〉缺文確認，第28～30題依指示跳過，不補造或重新收入；保留缺文查核紀錄。",
+          "action": "skip_by_user"
+        }
+      },
+      "newQuestionIds": [
+        "q-590"
+      ],
+      "resolvedSkippedQuestions": [
+        {
+          "page": 4,
+          "number": "16",
+          "reason": "注音題紅筆B；C的韻符看似ㄅㄧㄝˇ，若屬實則同為乾癟正音。保留原圖列確認，未用AI的排除法猜補音符。",
+          "resolution": "使用者核對GPT第14來源原卷16題：C印刷為ㄅㄧㄢˇ，不是ㄅㄧㄝˇ。乾癟正音ㄅㄧㄝˇ，C不正確，答案B。補入完整原題q-590，注音疑點結案。",
+          "resolvedAt": "2026-10-28T03:12:13.667971+00:00",
+          "questionId": "q-590"
+        }
+      ],
+      "pendingConfirmationIds": [],
+      "userExcludedOriginalNumbers": [
+        "28",
+        "29",
+        "30"
+      ]
+    },
+    {
+      "order": 15,
+      "url": "https://chatgpt.com/share/6ae05422-ec64-83ee-b6c5-e808846fc2a9",
+      "title": "詩意圖解 visualize",
+      "state": "excluded_no_question",
+      "archiveImages": 0,
+      "downloadedImages": [],
+      "errors": [
+        {
+          "reason": "詩意賞析與作詩背景討論，沒有可核對的錯題或題幹；先不製成推測題目。"
+        }
+      ],
+      "questionIds": [],
+      "zeroConfirmedByUser": true,
+      "zeroConfirmedAt": "2026-10-27T14:33:36.156138+00:00",
+      "reason": "使用者已明確確認此來源確實0題，可跳過；維持非題目內容排除，不列待確認。"
+    },
+    {
+      "order": 16,
+      "url": "https://chatgpt.com/share/6ae05440-0730-83e8-b0cd-2aaf6ed219d7",
+      "title": "解析第34題答案",
+      "state": "complete_with_skips",
+      "archiveImages": 2,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05440-1.jpg",
+          "sha256": "fd0b9aba6673be0e535145680eb76b31201384f46d14c2b7f7631e1aa3b55acd",
+          "bytes": 349392,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05440-2.jpg",
+          "sha256": "2634115e2ee43b253e79222fcd0a0952130cb3350f385e8ec689a084adca5932",
+          "bytes": 385588,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-070",
+        "q-071",
+        "q-455",
+        "q-456"
+      ],
+      "previousErrors": [
+        {
+          "reason": "已核對第32、38題；第34題照片右緣缺字且答案有爭議，第39題選項未拍完整，先跳過。"
+        }
+      ],
+      "checkedAt": "2026-10-27T22:45:51.379361+00:00",
+      "skippedQuestions": [
+        {
+          "page": 2,
+          "number": "39、40",
+          "reason": "第39題只有題幹及A、B，C、D及第40題未拍入；不由企鵝文章或AI答案猜造選項。"
+        }
+      ],
+      "reason": "2張原圖皆已核對；新增33、34題，保留32、38題，共4題。34題缺字由第17來源同一試卷的完整照片補回，答案B；原紅筆D差異列確認。39題選項不全，記錄跳過。",
+      "crossSourceEvidence": {
+        "sourceOrder": 17,
+        "page": "docs/source-pages/chatgpt-6ae0544e-4.jpg",
+        "compared": "相同標題、票價表、區位圖、全部文章、32至34題及黑紅作答。照片重新拍攝、SHA不同，內容相同；完整照片補足34題的about its。",
+        "questionIds": [
+          "q-070",
+          "q-455",
+          "q-456"
+        ],
+        "earliestQuestionDate": "2026-09-08"
+      },
+      "completeQuestionIds": [
+        "q-070",
+        "q-071",
+        "q-455",
+        "q-456"
+      ],
+      "pendingAnswerQuestionIds": [],
+      "pendingConfirmationIds": [],
+      "userResolutions": {
+        "q-456": {
+          "resolvedAt": "2026-10-28T03:14:48.559903+00:00",
+          "resolution": "使用者確認q-456答案B，保留目前完整原題、原圖及解說，已結案。"
+        }
+      }
+    },
+    {
+      "order": 17,
+      "url": "https://chatgpt.com/share/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad",
+      "title": "比較be動詞與助動詞",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0544e-1.jpg",
+          "sha256": "2de329ce6d95ab93e5b6eadf1fdc5fd76aa6efec176df3063737b147c314abb2",
+          "bytes": 362420,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0544e-2.jpg",
+          "sha256": "3cd157c3e21dc1bda735773abe3e079ed7f11d5beaa4bdf5ce472487d41bb0b7",
+          "bytes": 187362,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0544e-3.jpg",
+          "sha256": "0d3f6da902fbc62748fa0ad46fca0e28ae2f1e62d7ee0212c3a5c9b3c0ff1fc9",
+          "bytes": 427995,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0544e-4.jpg",
+          "sha256": "dd44498cb77d8786fc260994e98442136a7deb053c9691fc98b58f3a27bd9c75",
+          "bytes": 342768,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-072",
+        "q-073",
+        "q-457",
+        "q-458",
+        "q-459",
+        "q-070",
+        "q-455",
+        "q-456"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 17,
+        "url": "https://chatgpt.com/share/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad",
+        "title": "比較be動詞與助動詞",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:47:40.868Z",
+        "imagesExpected": 4,
+        "renderedImages": 4,
+        "matchedArchiveAttachments": 4,
+        "archive": "docs/sources/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad.json",
+        "renderedArchive": "docs/sources/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad-rendered.json",
+        "textLength": 10692,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "previousErrors": [
+        {
+          "reason": "已核對可讀原卷第39、40題；其餘附件未呈現在分享頁。"
+        }
+      ],
+      "checkedAt": "2026-10-27T22:45:51.379361+00:00",
+      "skippedQuestions": [
+        {
+          "page": 2,
+          "reason": "是第40題局部近照，與第1張同題，保留q-073，不新增。"
+        },
+        {
+          "page": 4,
+          "reason": "與第16來源同一試卷的重新拍照；沿用q-070、q-455、q-456，不重建ID。"
+        },
+        {
+          "page": "對話前段",
+          "reason": "be／助動詞比較表及例句屬說明材料，沒有另一份完整原卷，不另造題。"
+        }
+      ],
+      "reason": "4張原卷及22則封存訊息已核對；新增吃播41、42、43題，沿用39、40題。足球頁與第16來源內容重複，映射至3個既有ID並補足34題缺文。原詩shy誤轉shiny已訂正且列確認。",
+      "completeQuestionIds": [
+        "q-072",
+        "q-073",
+        "q-457",
+        "q-458",
+        "q-459",
+        "q-070",
+        "q-455",
+        "q-456"
+      ],
+      "pendingAnswerQuestionIds": []
+    },
+    {
+      "order": 18,
+      "url": "https://chatgpt.com/share/6ae05466-07a4-83ee-b423-155bd746032c",
+      "title": "第39題答案解析",
+      "state": "complete",
+      "archiveImages": 1,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05466-1.jpg",
+          "sha256": "9b5c920711666c47404d86e2c30c850abf513ef0a7715a3716041f6edecddc1a",
+          "bytes": 421473,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-074"
+      ]
+    },
+    {
+      "order": 19,
+      "url": "https://chatgpt.com/share/6ae054b6-cea8-83ec-8c07-8c5e3753fe27",
+      "title": "西亞古文明",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae054b6-1.png",
+          "sha256": "16aff8b291694cf3436815ef16ef8b522b5b69e33dc6b9f9cc3ca2cd418862db",
+          "bytes": 147824,
+          "renderedWidth": 791,
+          "renderedHeight": 252
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae054b6-2.png",
+          "sha256": "467b7f9e0dd3487058454f79feaabac789f18ad3175bc3b7c68ed3094c0a5150",
+          "bytes": 245331,
+          "renderedWidth": 822,
+          "renderedHeight": 449
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae054b6-3.png",
+          "sha256": "ae2320ae7e2fff4ede0b3ef7ed235f24b124cbe1b5a579937e14f16368b3b226",
+          "bytes": 352010,
+          "renderedWidth": 793,
+          "renderedHeight": 567
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae054b6-4.png",
+          "sha256": "be69c22671528752ee7645e2df19cb7f55530e9fd3680cf45d0dbc5cd4df2749",
+          "bytes": 429635,
+          "renderedWidth": 795,
+          "renderedHeight": 577
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-075",
+        "q-076",
+        "q-077",
+        "q-078",
+        "q-079",
+        "q-080",
+        "q-081"
+      ],
+      "reason": "題幹、選項、閱讀材料及必要附圖已核對，裁切成品已實際檢視。"
+    },
+    {
+      "order": 20,
+      "url": "https://chatgpt.com/share/6ae054f6-5d58-83ee-bec6-ffafbd2426a6",
+      "title": "梯形比例證明",
+      "state": "complete",
+      "archiveImages": 2,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae054f6-1.jpg",
+          "sha256": "624f92ebcd4ebec013ece9dfc9d759fda37dd4c366767376961db3c0721c9099",
+          "bytes": 505506,
+          "renderedWidth": 1152,
+          "renderedHeight": 1536
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae054f6-2.jpg",
+          "sha256": "73bf0770b0f88750a560a83b10443d744e215bd8a42a38981759d8b8aefe4d38",
+          "bytes": 281356,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-082",
+        "q-083",
+        "q-084",
+        "q-085"
+      ],
+      "reason": "題幹、選項、閱讀材料及必要附圖已核對，裁切成品已實際檢視。"
+    },
+    {
+      "order": 21,
+      "url": "https://chatgpt.com/share/6ae056ad-41b4-83ec-b5db-2ec7f4afe2aa",
+      "title": "國中錯題解析",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae056ad-1.png",
+          "sha256": "fc624560fa47329a570b7b03737833d8ccdbbb83a7d95c1df367aac1a0bcad02",
+          "bytes": 31337,
+          "renderedWidth": 447,
+          "renderedHeight": 65
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056ad-2.png",
+          "sha256": "da89bcd1feacedc357ca92158f6c85f48620fea516979fa248bff58cbd665070",
+          "bytes": 63278,
+          "renderedWidth": 468,
+          "renderedHeight": 133
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056ad-3.png",
+          "sha256": "4a0b53dcc414880f28b10d67c7a7faa943102e46f422c3d9ed269379eb260811",
+          "bytes": 50479,
+          "renderedWidth": 482,
+          "renderedHeight": 111
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056ad-4.png",
+          "sha256": "b6e1abf05bfb4b8826fd80cd09361e7d7e967425555aa21b3fe30cf37223ea18",
+          "bytes": 252866,
+          "renderedWidth": 482,
+          "renderedHeight": 593
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-086",
+        "q-087",
+        "q-088",
+        "q-089",
+        "q-090",
+        "q-091"
+      ],
+      "reason": "題幹、選項、閱讀材料及必要附圖已核對，裁切成品已實際檢視。"
+    },
+    {
+      "order": 22,
+      "url": "https://chatgpt.com/share/6ae056c4-8b20-83ee-91c3-fecfe8fb0b2b",
+      "title": "國中錯題解析",
+      "state": "complete",
+      "archiveImages": 3,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae056c4-1.png",
+          "sha256": "f57fa9dbe0b5d5525f49d907699c216521daa85bb0a51939d640b5f72c0b7638",
+          "bytes": 73079,
+          "renderedWidth": 489,
+          "renderedHeight": 313
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056c4-2.png",
+          "sha256": "f7173096d77304d138614ab48b1204b3a6a0c28cd83934af7fd6327c72c60e70",
+          "bytes": 165616,
+          "renderedWidth": 504,
+          "renderedHeight": 689
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056c4-3.png",
+          "sha256": "875e6fe00bcfe57327e5be1e8cafd97f7985723e126097be8a1d69482c1e517c",
+          "bytes": 84107,
+          "renderedWidth": 532,
+          "renderedHeight": 331
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-092",
+        "q-093",
+        "q-094"
+      ],
+      "reason": "題幹、選項、閱讀材料及必要附圖已核對，裁切成品已實際檢視。"
+    },
+    {
+      "order": 23,
+      "url": "https://chatgpt.com/share/6ae056f3-bfc4-83e8-935c-b038e5fc23a7",
+      "title": "題目答案解析",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae056f3-1.png",
+          "sha256": "e642123dd832a714559ad8d96d5bd2de4de732c7537c6200dbccb6418d173375",
+          "bytes": 52153,
+          "renderedWidth": 491,
+          "renderedHeight": 153
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056f3-2.png",
+          "sha256": "cc1dd2c513038f6c56b04edcad35df011d4e0c319da8a1f2263c553dca5fe652",
+          "bytes": 198538,
+          "renderedWidth": 498,
+          "renderedHeight": 304
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056f3-3.png",
+          "sha256": "3d65a226415082def6bebfaf774aa2e447ff0618eba66b52fc74c20a933e6a07",
+          "bytes": 165550,
+          "renderedWidth": 472,
+          "renderedHeight": 307
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae056f3-4.png",
+          "sha256": "d7b04c3d8b962df558b86a72766b0526cfb9f6becab3f36aa3413a7505aedc9b",
+          "bytes": 79512,
+          "renderedWidth": 489,
+          "renderedHeight": 175
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-095",
+        "q-096",
+        "q-097",
+        "q-098",
+        "q-099",
+        "q-100"
+      ],
+      "reason": "題幹、選項、閱讀材料及必要附圖已核對，裁切成品已實際檢視。q-100經使用者協助確認名額與錄取率的判讀，依原卷答案採C。"
+    },
+    {
+      "order": 24,
+      "url": "https://chatgpt.com/share/6ae057ce-3b4c-83ec-be2c-017f3c1c8ef2",
+      "title": "錯題解析整理",
+      "state": "complete",
+      "archiveImages": 3,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae057ce-1.jpg",
+          "sha256": "aa8a4ef355285ab90547a893f2af55aaafc1e7ed084f403e47a7c0bacdea147d",
+          "bytes": 431431,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae057ce-2.jpg",
+          "sha256": "da0c1b6a998292bd3f39c1efbea453ac684399ab866213fb45ec5dc0f2bd77a3",
+          "bytes": 415684,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae057ce-3.jpg",
+          "sha256": "a1663a45af7096e3252a81ee6738412f42d5d6f865c0e49c2a474396cc6df8ae",
+          "bytes": 364063,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-101",
+        "q-102",
+        "q-103",
+        "q-104"
+      ],
+      "reason": "題幹、選項、閱讀材料及必要附圖已核對，裁切成品已實際檢視。"
+    },
+    {
+      "order": 25,
+      "url": "https://chatgpt.com/share/6ae057df-3f50-83ee-930a-caeb6fbc0560",
+      "title": "解析生物訂正題",
+      "state": "duplicate",
+      "archiveImages": 3,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae057df-1.jpg",
+          "sha256": "aa8a4ef355285ab90547a893f2af55aaafc1e7ed084f403e47a7c0bacdea147d",
+          "bytes": 431431,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae057df-2.jpg",
+          "sha256": "da0c1b6a998292bd3f39c1efbea453ac684399ab866213fb45ec5dc0f2bd77a3",
+          "bytes": 415684,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae057df-3.jpg",
+          "sha256": "a1663a45af7096e3252a81ee6738412f42d5d6f865c0e49c2a474396cc6df8ae",
+          "bytes": 364063,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [
+        {
+          "reason": "原圖與第24來源逐張相同，合併q-101至q-104；對話把第21組多一條誤寫成XXY，已依照片訂正。"
+        }
+      ],
+      "questionIds": [
+        "q-101",
+        "q-102",
+        "q-103",
+        "q-104"
+      ]
+    },
+    {
+      "order": 26,
+      "url": "https://chatgpt.com/share/6ae05ee6-3780-83ec-889a-fcee520694af",
+      "title": "錯題解析漫畫",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ee6-1.jpg",
+          "sha256": "9bf8ca75223915213080a039c2dccf0032e9a81b60d99d61151e8af9ab44c380",
+          "bytes": 345515,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ee6-2.jpg",
+          "sha256": "ebf5eda39a7ad277a461c216054262b14109e9524728e43cb21338bd2738353a",
+          "bytes": 299718,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ee6-3.jpg",
+          "sha256": "dce9d9c33a7fabf675c29a3ff9df6267d08506b50fd5f624ec6e2e7d3b77edc4",
+          "bytes": 426292,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ee6-4.jpg",
+          "sha256": "2548c65a654417bc5455e40383573cb25eb99b0ec163d72c0569c2b443b3ac14",
+          "bytes": 369379,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-106",
+        "q-107",
+        "q-108",
+        "q-109"
+      ],
+      "reason": "4題的完整閱讀材料、全部選項、解說與原卷裁切成品已核對。"
+    },
+    {
+      "order": 27,
+      "url": "https://chatgpt.com/share/6ae05f2b-7c7c-83e8-9959-f588a97ed563",
+      "title": "國中錯題訂正解析",
+      "state": "complete",
+      "archiveImages": 7,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-1.png",
+          "sha256": "1c4b2919fa576feb4f145ccd096d9c99e8f950213b52cd1c92df591eb85919ac",
+          "bytes": 93680,
+          "renderedWidth": 502,
+          "renderedHeight": 161
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-2.png",
+          "sha256": "e3850ee2ffb0c203474e2ea1cd3b6227d829d81eb81d738c7638d97f9e3d5fa1",
+          "bytes": 130156,
+          "renderedWidth": 518,
+          "renderedHeight": 254
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-3.png",
+          "sha256": "7a219a2b8e2bedf21736673d5a20d7bb74c643df91d795e32b05bd24ddd3d271",
+          "bytes": 98274,
+          "renderedWidth": 516,
+          "renderedHeight": 179
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-4.png",
+          "sha256": "70fa555b4401cc5228379579de6f776c16fdacc107f38dfec9741bfd3dc9f200",
+          "bytes": 40503,
+          "renderedWidth": 496,
+          "renderedHeight": 84
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-5.png",
+          "sha256": "4770e3c8c1e992b24a7535d146b95edd6dc876ee9b7833f37b61b1778c4ce6d6",
+          "bytes": 47226,
+          "renderedWidth": 492,
+          "renderedHeight": 97
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-6.png",
+          "sha256": "5707cece46195b3b7ffb7e2fd3ef1702b3d988d78bbe74fcc192f13adc32a0df",
+          "bytes": 45980,
+          "renderedWidth": 507,
+          "renderedHeight": 89
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f2b-7.png",
+          "sha256": "27c06214b216727f6e44ead9a890b304f386b49b37e23f111e63ed2f861bd69f",
+          "bytes": 60690
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-110",
+        "q-111",
+        "q-112",
+        "q-113",
+        "q-114",
+        "q-115",
+        "q-116",
+        "q-460",
+        "q-461"
+      ],
+      "skippedQuestions": [],
+      "reason": "原對話指定9題全數已整理：原7題保留，第12題與第22題補入。7張原卷皆可讀，教用PDF完整7頁已取回，補齊第22題濃度曲線。11張AI漫畫逐張核對，採7張、略過4張。q-110用語及q-460觀察時點／配平列教師確認，不隱藏原題問題。",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 27,
+        "url": "https://chatgpt.com/share/6ae05f2b-7c7c-83e8-9959-f588a97ed563",
+        "title": "國中錯題訂正解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T22:59:12.554764+00:00",
+        "imagesExpected": 7,
+        "renderedImages": 6,
+        "matchedArchiveAttachments": 7,
+        "archive": "docs/sources/6ae05f2b-7c7c-83e8-9959-f588a97ed563.json",
+        "renderedArchive": "docs/sources/6ae05f2b-7c7c-83e8-9959-f588a97ed563-rendered.json",
+        "textLength": 6385,
+        "errors": [],
+        "method": "先前授權Chrome可見6張，7個本地檔逐一與封存user附件核對；另從已授權Chrome的分享檔下載端點保存原上傳PDF。",
+        "downloadedImages": 7
+      },
+      "previousErrors": [
+        {
+          "reason": "第12題缺原圖；第22題缺必要濃度－時間圖。其餘7題已依可讀原卷轉錄。"
+        }
+      ],
+      "completeQuestionIds": [
+        "q-110",
+        "q-111",
+        "q-112",
+        "q-113",
+        "q-114",
+        "q-115",
+        "q-116",
+        "q-460",
+        "q-461"
+      ],
+      "pendingAnswerQuestionIds": [],
+      "checkedAt": "2026-10-27T22:59:12.554764+00:00",
+      "previousSkippedQuestions": [
+        {
+          "originalNumber": 12,
+          "resolved": "第7個本地附件60690 bytes與封存user原圖相符，並由PDF第6頁核對。"
+        },
+        {
+          "originalNumber": 22,
+          "resolved": "由原上傳PDF第7頁恢復完整曲線圖與共同題幹，新增q-461。"
+        }
+      ],
+      "supportingDocument": {
+        "path": "docs/source-pages/gpt027-chemistry-teacher.pdf",
+        "asset": "assets/originals/gpt027-chemistry-teacher.pdf",
+        "originalName": "115年 國中會考 翰林 大滿貫複習講義_理化(全)_教用.pdf",
+        "fileId": "file_000000005c908206bc3b7ce3bbcdf192",
+        "bytes": 2999927,
+        "sha256": "77a6e38f14ccd9ed9a35664957ad427cadd955d73ad01b374ff739eeefa7492d",
+        "pages": 7,
+        "pagesVisuallyChecked": 7,
+        "purpose": "原對話為指定9個錯題上傳的教用核對資料；其餘未指定的教科書練習不是另外9題錯題的延伸清單。"
+      },
+      "aiFigureReview": {
+        "reviewed": 11,
+        "included": 7,
+        "excluded": 4,
+        "checkedAt": "2026-10-27T22:59:12.554764+00:00",
+        "audit": "docs/acquisition/gpt-ai-027.json"
+      },
+      "userResolutions": {
+        "q-110": {
+          "resolvedAt": "2026-10-28T02:00:51.718016+00:00",
+          "resolution": "使用者確認q-110目前內容OK；維持教材答案A與現有含硫物種／其他參與物的解說限制，保留原題、選項與AI輔助圖，移出待核對。"
+        },
+        "q-460": {
+          "resolvedAt": "2026-10-28T02:17:51.580756+00:00",
+          "resolution": "使用者確認標準答案D：本題重點為加入NaOH後平衡如何變化。A若指最後形成的新平衡也有合理性；保留時點區分及原反應式配平說明，不再列待確認。"
+        }
+      }
+    },
+    {
+      "order": 28,
+      "url": "https://chatgpt.com/share/6ae05f69-8978-83ec-a836-9097f7b4f45a",
+      "title": "錯題訂正練習",
+      "state": "complete",
+      "archiveImages": 6,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f69-1.jpg",
+          "sha256": "55145bf7aaeab36de88439f8c77adcfacf53d32fa5fe244ca7f02bb2395932d7",
+          "bytes": 357235,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f69-2.jpg",
+          "sha256": "e9a94418c7d09df434e40a41163237f7ef5b2150642eb3a3a6c1b0464b994f41",
+          "bytes": 326509,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f69-3.jpg",
+          "sha256": "2059e25ff11e0da3b1e76512b0e43f251f76889374d38f2971af796dfa3bb849",
+          "bytes": 365675,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f69-4.jpg",
+          "sha256": "1e3f1c9d5af8decc5729751c32fb776e58c04ef812152e2f539247a07e13e8dc",
+          "bytes": 425888,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f69-5.jpg",
+          "sha256": "8214107b5000b0ccd9276d0dba7f68de1f70c239ef486cd73f7c3b2205f586d2",
+          "bytes": 380770,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f69-6.jpg",
+          "sha256": "5d20626cd315d5b4cc4cf0dd5a8bf85d1f31dba7298232ad445cc963efe9518f",
+          "bytes": 424650,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-117",
+        "q-118",
+        "q-119",
+        "q-120",
+        "q-121",
+        "q-122",
+        "q-123"
+      ],
+      "reason": "7題完整閱讀文章、全部選項、企鵝比較表與必要圖像已核對；裁切成品已實際檢視，斜拍裁切已校正。"
+    },
+    {
+      "order": 29,
+      "url": "https://chatgpt.com/share/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8",
+      "title": "错题处理",
+      "state": "complete_with_skips",
+      "archiveImages": 6,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f86-1.jpg",
+          "sha256": "30e8ac2d1947598c2536577087cb3475eb36d73b2b755a04fe3132b4b8675c34",
+          "bytes": 512199,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f86-2.jpg",
+          "sha256": "fc7d03703042d6533fa0ebb0c0fd815c26ef759fde0243d5335ae94fc2f36523",
+          "bytes": 352722,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f86-3.jpg",
+          "sha256": "884a6519877c6131b104ab4b2b93c188e36fbe27259a88dc0a581458ee76b6d3",
+          "bytes": 252475,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f86-4.jpg",
+          "sha256": "e292e2fe369d7284a80d888235eb035579c804e25a39103b8ffc90955ced4143",
+          "bytes": 225707,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f86-5.jpg",
+          "sha256": "064b080794f7bf599f6d5ef9e0f2de58438d992292e55116cd0274c1f44516e8",
+          "bytes": 254690,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f86-6.jpg",
+          "sha256": "f812e91bb75d913f9b7d0b97779b3f0c9c022dca2f7897116d0dedf3d1c39e30",
+          "bytes": 472562,
+          "method": "authorized_chrome_archived_user_attachment"
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-124",
+        "q-125",
+        "q-126",
+        "q-127",
+        "q-128",
+        "q-462",
+        "q-463",
+        "q-464",
+        "q-465",
+        "q-466",
+        "q-467",
+        "q-468",
+        "q-469",
+        "q-470"
+      ],
+      "skippedQuestions": [
+        {
+          "page": 1,
+          "number": "15",
+          "reason": "上緣地科題A及前方片段未完整拍入，不由D或教材常識倒推原文。"
+        },
+        {
+          "page": 1,
+          "number": "20",
+          "reason": "接力題下半選項未拍完整，不能只據圖與原選項判題。"
+        },
+        {
+          "page": 2,
+          "number": "36",
+          "reason": "操場比賽題上半共用敘述在照片外，缺完整原文。"
+        },
+        {
+          "page": 3,
+          "number": "18",
+          "reason": "上緣僅有前一題比例選項，缺題幹及附圖。"
+        },
+        {
+          "page": 4,
+          "number": "20",
+          "reason": "與第3張同一題的近照，沿用q-127，沒有新增同題。"
+        },
+        {
+          "page": 5,
+          "number": "非選擇題1",
+          "reason": "蚵仔煎比例題在照片下緣被裁，缺完整資料與設問。"
+        },
+        {
+          "page": 6,
+          "number": "24",
+          "reason": "上方關於伽利略博物館、鈴鐺斜面的共用文章開頭未拍入；不把圖上可推算的結果冒充完整原題。"
+        },
+        {
+          "page": 6,
+          "number": "後續石虎閱讀題",
+          "reason": "只有部分共用敘述及v–t圖片段，未拍到實際設問與全部選項。"
+        },
+        {
+          "page": "來源AI漫畫",
+          "reason": "6個tool生成圖的分享檔下載均404，捲完整分享頁仍未顯示Generated image；記錄失敗且不聲稱已看過，不妨礙6張原卷的轉錄。"
+        }
+      ],
+      "reason": "6張原卷全部取得且檢視；補回原第25題並加入8道同頁完整題，新增9題、保留5個既有ID，共14題。23個裁切與原有3張幾何重繪已核對。6張AI圖分享下載404且頁面不呈現，保留缺圖記錄；未用AI重建不可讀題目。",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 29,
+        "url": "https://chatgpt.com/share/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8",
+        "title": "错题处理",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T23:14:10.243494+00:00",
+        "imagesExpected": 6,
+        "renderedImages": 5,
+        "matchedArchiveAttachments": 6,
+        "archive": "docs/sources/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8.json",
+        "renderedArchive": "docs/sources/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8-rendered.json",
+        "textLength": 9231,
+        "errors": [],
+        "method": "已授權Chrome分享檔端點補取原第25題472562 bytes；其餘5張按封存指標大小及雜湊核對。首屏及捲動DOM有9個User attachment節點但僅5個不同路徑，不重複計圖。",
+        "downloadedImages": 6
+      },
+      "previousErrors": [
+        {
+          "reason": "第25題原圖未取得。其餘第17、38、19、20、21題可核對。"
+        }
+      ],
+      "previousSkippedQuestions": [
+        {
+          "originalNumber": 25,
+          "reason": "原對話有第25題請求，但6個附件僅取得5個；目前可讀圖片未含第25題，先跳過，不依AI描述補題。"
+        }
+      ],
+      "completeQuestionIds": [
+        "q-124",
+        "q-125",
+        "q-126",
+        "q-127",
+        "q-128",
+        "q-462",
+        "q-463",
+        "q-464",
+        "q-465",
+        "q-466",
+        "q-467",
+        "q-468",
+        "q-469",
+        "q-470"
+      ],
+      "pendingAnswerQuestionIds": [],
+      "checkedAt": "2026-10-27T23:14:10.243494+00:00"
+    },
+    {
+      "order": 30,
+      "url": "https://chatgpt.com/share/6ae05f9d-78fc-83ec-8598-7098a25afe11",
+      "title": "第七題錯題解析",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f9d-1.jpg",
+          "sha256": "78f56c81f076bf0abddb58cf31822dbe6bf893c73074fdfa693c96a9ea65ed69",
+          "bytes": 267168,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f9d-2.jpg",
+          "sha256": "18824723fb6bbf69082decccd7b3854038015d343c2fab8824228139a877e2e9",
+          "bytes": 314100,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f9d-3.jpg",
+          "sha256": "5292fd8ffb09a02af4a87e593769831f9bf17f5a4ffe62b35b76e6a9a569079e",
+          "bytes": 355260,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05f9d-4.jpg",
+          "sha256": "1397f1dbdf562b445a3977e9b6f771cf64f6baad52325717988aa4080447c7e3",
+          "bytes": 419005,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-129",
+        "q-130",
+        "q-131",
+        "q-132",
+        "q-133"
+      ],
+      "reason": "5題完整題幹、選項、閱讀材料、詳細解說與裁切成品已核對；Antarctica中文註解誤植另有明示校正。"
+    },
+    {
+      "order": 31,
+      "url": "https://chatgpt.com/share/6ae05fad-9794-83ee-8670-0ba0b24b80f1",
+      "title": "數學錯題處理",
+      "state": "complete",
+      "archiveImages": 3,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fad-1.png",
+          "sha256": "b7ec889a409aeb9e117577085b003fd0e57cb2803bfd0f369ffe9cad715c276c",
+          "bytes": 44411,
+          "renderedWidth": 476,
+          "renderedHeight": 103
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fad-2.png",
+          "sha256": "e6a49037d1f9270bdd9b9241598502fb088367b82f382e2401982939cef52180",
+          "bytes": 39642,
+          "renderedWidth": 486,
+          "renderedHeight": 121
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fad-3.png",
+          "sha256": "35af45cc1a1a2d6c6a08ecc6187593cf07417e618f4bfc38e837f70422336515",
+          "bytes": 27723,
+          "renderedWidth": 519,
+          "renderedHeight": 82
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-134",
+        "q-135",
+        "q-136"
+      ],
+      "reason": "3題的題幹、全部選項、因式分解或方程式解法，以及裁切成品均已核對。"
+    },
+    {
+      "order": 32,
+      "url": "https://chatgpt.com/share/6ae05fb9-bfe8-83ec-8cfb-9598cf3f69eb",
+      "title": "第27題錯題解析",
+      "state": "complete",
+      "archiveImages": 2,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fb9-1.jpg",
+          "sha256": "179a234e795cfcf25ba5bd2c49fdf68836d18c76cc302a7fd6f80b799b7a0d79",
+          "bytes": 466170,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fb9-2.jpg",
+          "sha256": "d7f9269f86e6a4445d26606dfffab0242e248aee3b30a68356c88e058f805560",
+          "bytes": 375500,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-137",
+        "q-138"
+      ],
+      "unresolvedQuestionIds": [],
+      "reason": "2題原題與裁切成品已核對。第23題依使用者確認保留原題幹，於解說註明措辭不精確，命題原意為「全部都不是」，仍選D。"
+    },
+    {
+      "order": 33,
+      "url": "https://chatgpt.com/share/6ae05fc8-682c-83ee-b907-89d584fef5e0",
+      "title": "錯題詳解整理",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fc8-1.png",
+          "sha256": "9e54460d18764044dfb4bfd8a9047275afb163d79e01932acde7a53d2db9f589",
+          "bytes": 58479,
+          "renderedWidth": 482,
+          "renderedHeight": 130
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fc8-2.jpg",
+          "sha256": "dffba9b41d4af2e4f25ea58f5771b68b1ecfd771fee45477fc3bfe9cef7742ec",
+          "bytes": 360732,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fc8-3.jpg",
+          "sha256": "3d078a60f4ef46f926ef81ed75ac5e6322b2357fd3ecb1df4dfc413dff4da50f",
+          "bytes": 357754,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05fc8-4.jpg",
+          "sha256": "a427bf5d76ebbfcf4f5287366a8c4f917a2eeeba2bac22228b409f9c4447cd66",
+          "bytes": 360440,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-139",
+        "q-140",
+        "q-141",
+        "q-142"
+      ],
+      "reason": "4題完整原題、必要背景資料、地圖／等溫線／氣候散布圖及詳細解說已核對；裁切成品已實際檢視。"
+    },
+    {
+      "order": 34,
+      "url": "https://chatgpt.com/share/6ae05ff7-e784-83ee-aa39-b7f2237eafbd",
+      "title": "地理錯題訂正",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ff7-1.jpg",
+          "sha256": "8b3c9cd6abe91ad2c4d4de61e4af9e941ac44bd7ba3ad6793e3786fa7ba8a3a9",
+          "bytes": 294873,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ff7-2.jpg",
+          "sha256": "4a5b581d90cfeef06b3328a2644febb735495dad4d2505e0a522978fc883f287",
+          "bytes": 270816,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ff7-3.jpg",
+          "sha256": "9546aa73c81d309695f559fdc43dd098786fda28e1a0068a33e142c5d3f89134",
+          "bytes": 256390,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae05ff7-4.jpg",
+          "sha256": "37fb0541de2f49def4ef3421acec450f5f16547569964921fc404644e38171a4",
+          "bytes": 347619,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-143",
+        "q-144",
+        "q-145",
+        "q-146"
+      ],
+      "reason": "4題的題幹、全部選項、新聞／人口材料、各自位置圖與詳細解說已核對；裁切成品已實際檢視。"
+    },
+    {
+      "order": 35,
+      "url": "https://chatgpt.com/share/6ae0600c-1028-83ee-9be6-2f86abf6e549",
+      "title": "第二題錯題訂正",
+      "state": "complete",
+      "archiveImages": 10,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-1.jpg",
+          "sha256": "ba60f24bb294e251a6d3506cdb3bdf82ed3035498f61d4fd3673f553537d6c48",
+          "bytes": 415249,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-2.jpg",
+          "sha256": "053a685a766283f624fc001106e8b17107c4a383527d7d09b6996aad028a38d5",
+          "bytes": 248458,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-3.jpg",
+          "sha256": "279980237ec07a0fb15ef75b0621878e8dde40e1c0d1b2bbe5bf2c32c5c1eade",
+          "bytes": 434824,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-4.jpg",
+          "sha256": "b72d80f576c1573698fa97a21fcdeeea6127d398023d79d03b3b6037e4ca0eaf",
+          "bytes": 244758,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-5.jpg",
+          "sha256": "12638624ed447a06c047d03a93d15c505147b33055c04d55c29c0ba610857f38",
+          "bytes": 442718,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-6.jpg",
+          "sha256": "594aab37cf74651a8ff660c74994333bb12d612b27132e844cf0c477d8c181b2",
+          "bytes": 256446,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-7.jpg",
+          "sha256": "f689cee89abf127767ea58a9f5020f72d30c4486605118cb3d586a6f9bde5dfe",
+          "bytes": 368985,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-8.jpg",
+          "sha256": "c094bc20ae3c42af9b8fdaf7f4fef8ac9e873a344fd64749a7e2f0ec26193edb",
+          "bytes": 488704,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-9.jpg",
+          "sha256": "2ac859ec6764af30189e9831fda1d6d1d385f35b38cc0328ebeb2fec4fe953c8",
+          "bytes": 382475,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0600c-10.jpg",
+          "sha256": "a692dc42dcf3d0bb26d4443790209584b2b919a83fcd46e71cbdafbe3c2cc992",
+          "bytes": 441822,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-147",
+        "q-148",
+        "q-149",
+        "q-150",
+        "q-158",
+        "q-159",
+        "q-160",
+        "q-161",
+        "q-162",
+        "q-163"
+      ],
+      "reason": "全部10張原卷已保存，10題完整題幹、選項、必要文件／閱讀材料與解說已核對；裁切成品已逐一檢視。第15題依使用者確認答案C。",
+      "imageRetryEvidence": {
+        "checkedAt": "2026-10-27T13:50:14.338Z",
+        "method": "authorized_chrome_scroll_all_attachments",
+        "expected": 10,
+        "renderedImages": 10,
+        "downloadedUnique": 10,
+        "errors": []
+      },
+      "pendingQuestions": [],
+      "unresolvedQuestionIds": []
+    },
+    {
+      "order": 36,
+      "url": "https://chatgpt.com/share/6ae06068-9bfc-83ee-b608-55ec44d60ceb",
+      "title": "錯題訂正解答",
+      "state": "complete_with_skips",
+      "archiveImages": 7,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-1.jpg",
+          "sha256": "28d1df08fe3fd2eaf96762313bf3fbdef0e09108fc094a7dce190028d8aaaf3d",
+          "bytes": 388711,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-2.jpg",
+          "sha256": "b1b01a68ce65f35bcf78c04e7b353f4e43effbb8d1ffae952a9f0c026ba8a4ab",
+          "bytes": 389247,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-3.jpg",
+          "sha256": "0d4e7dca9a3f5d3afd67cce3f8280af6949cf4afa2ea556b5fc2f4588b982875",
+          "bytes": 249512,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-4.jpg",
+          "sha256": "46411eb0affcd9ecb8d470f4b73574c10d7dba92ee76634993bd9da63eb853dd",
+          "bytes": 426098,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-5.jpg",
+          "sha256": "4c243bbc5e033fd8b3106137fd632d0d860cf233f9eed59eace711a5ecb3bc29",
+          "bytes": 345421,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-6.jpg",
+          "sha256": "b37e052cf8c2ed83001c1bbae9e05adb66a70a697ab9be512032c401556a274e",
+          "bytes": 260294,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06068-7.jpg",
+          "sha256": "bcd2c0b06cb45ff18f646559a043661ca9c5cb2dcf315a5f85f2ecab2c0d5289",
+          "bytes": 209860,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-153",
+        "q-154",
+        "q-155",
+        "q-156",
+        "q-157",
+        "q-471",
+        "q-472",
+        "q-473",
+        "q-474",
+        "q-475",
+        "q-476",
+        "q-477",
+        "q-478",
+        "q-479",
+        "q-480"
+      ],
+      "reason": "7張原卷逐張回查，原有5題保留，新增10題，共15題。原第6項三院重要官員共用一個空格，未任意拆題。23個裁切、16題桌面手機及54項測試通過。第31–33與36題缺共同文章等片段逐項略過；11張AI圖核對後僅原第6、9張採用。",
+      "imageRetryEvidence": {
+        "date": "2026-10-27",
+        "publicShare": "text_readable_no_image_elements",
+        "imageElements": 0,
+        "attachmentPlaceholders": 7,
+        "browserBridge": "connected",
+        "userConfirmation": "images_visible_allowed",
+        "downloadedImages": 7,
+        "cause": "使用者瀏覽器有可讀圖片，但首屏僅載入3張，需捲動觸發其餘附件；公開未登入頁僅有附件佔位文字。"
+      },
+      "skippedQuestions": [
+        {
+          "page": 3,
+          "number": "4",
+          "reason": "照片頂端僅前一題B–D部分選項，缺完整題幹與A。"
+        },
+        {
+          "page": 4,
+          "number": "17",
+          "reason": "題目上半及機關關係圖在照片外，無法列出完整原題。"
+        },
+        {
+          "page": 5,
+          "number": "25",
+          "reason": "照片頂端只有前題選項，缺完整題幹與材料。"
+        },
+        {
+          "page": 6,
+          "number": "31–33",
+          "reason": "三題皆引用前頁共同文章；照片只有文章末句及設問，無法依第33題提及大法官就反推前文。",
+          "userRequestedSkip": true,
+          "userResolution": "使用者明確要求REMOVE：缺少共同文章的原卷題目不收入，移出確認清單，不補造、不自動重加，也不再要求補文。",
+          "resolvedAt": "2026-10-28T03:26:18.419305+00:00"
+        },
+        {
+          "page": 7,
+          "number": "35",
+          "reason": "僅前題海洋名稱選項，缺題幹及共同文章。"
+        },
+        {
+          "page": 7,
+          "number": "36",
+          "reason": "共同文章未拍入；雖可見美國在臺協會及法律承諾設問，不能用AI漫畫替代文章。",
+          "userRequestedSkip": true,
+          "userResolution": "使用者明確要求REMOVE：缺少共同文章的原卷題目不收入，移出確認清單，不補造、不自動重加，也不再要求補文。",
+          "resolvedAt": "2026-10-28T03:26:18.419305+00:00"
+        },
+        {
+          "page": 2,
+          "number": "下一則新聞題組",
+          "reason": "照片底部只有下一篇新聞標題，未包含文章或完整題目。"
+        }
+      ],
+      "aiFigureReview": {
+        "reviewed": 11,
+        "included": 2,
+        "questionIds": [
+          "q-154",
+          "q-155"
+        ],
+        "checkedAt": "2026-10-27T23:29:51.692182+00:00",
+        "note": "另2張封存生成圖已補取得並排除；已確認的既有答案、解說與2張採用圖保留。"
+      },
+      "previousSkippedQuestions": [
+        {
+          "question": "第32題",
+          "imageBytes": 260294,
+          "reason": "照片僅有第31–33題題幹與選項，未包含前頁共同閱讀材料，無法列出完整原題。"
+        },
+        {
+          "question": "第36題",
+          "imageBytes": 209860,
+          "reason": "照片僅有第36題與前題部分選項，未包含所引用的共同閱讀材料，無法列出完整原題。"
+        }
+      ],
+      "checkedAt": "2026-10-27T23:29:51.692182+00:00",
+      "completeQuestionIds": [
+        "q-153",
+        "q-154",
+        "q-155",
+        "q-156",
+        "q-157",
+        "q-471",
+        "q-472",
+        "q-473",
+        "q-474",
+        "q-475",
+        "q-476",
+        "q-477",
+        "q-478",
+        "q-479",
+        "q-480"
+      ],
+      "pendingAnswerQuestionIds": [],
+      "acquisitionEvidence": {
+        "state": "acquired",
+        "downloadedImages": 7,
+        "matchedArchiveAttachments": 7,
+        "checkedAt": "2026-10-27T23:29:51.692182+00:00",
+        "method": "7張檔案逐一核對封存user指標大小及SHA256；實際檢視原圖與轉正圖。"
+      },
+      "userExcludedOriginalNumbers": [
+        "31",
+        "32",
+        "33",
+        "36"
+      ],
+      "userResolutions": {
+        "gpt036-missing-reading-31-33": {
+          "action": "removed_by_user",
+          "originalNumbers": [
+            "31",
+            "32",
+            "33"
+          ],
+          "resolution": "使用者明確要求REMOVE：缺少共同文章的原卷題目不收入，移出確認清單，不補造、不自動重加，也不再要求補文。",
+          "resolvedAt": "2026-10-28T03:26:18.419305+00:00"
+        },
+        "gpt036-missing-reading-36": {
+          "action": "removed_by_user",
+          "originalNumbers": [
+            "36"
+          ],
+          "resolution": "使用者明確要求REMOVE：缺少共同文章的原卷題目不收入，移出確認清單，不補造、不自動重加，也不再要求補文。",
+          "resolvedAt": "2026-10-28T03:26:18.419305+00:00"
+        }
+      }
+    },
+    {
+      "order": 37,
+      "url": "https://chatgpt.com/share/6ae06089-e124-83ec-ad0d-47d32ce097ca",
+      "title": "國文錯題訂正",
+      "state": "complete",
+      "archiveImages": 6,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae06089-1.jpg",
+          "sha256": "8746a88ae24c071a917453377d0c4f224cf729920762c1d064ce55c3d95fd57c",
+          "bytes": 348097,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06089-2.jpg",
+          "sha256": "7cbfba1f556998a4b9d509168087df34b3249215de8afd56578aeca9bd94cb9b",
+          "bytes": 348919,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06089-3.jpg",
+          "sha256": "58615422827e8d6c329c7d81837308b189ce25d684ad62efcdac5804942255bc",
+          "bytes": 314094,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06089-4.jpg",
+          "sha256": "7caebb7f783a6acea097c4f2efc0d76d9cfe28d12c00e1fa081cf6e51bb48ea1",
+          "bytes": 326805,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06089-5.jpg",
+          "sha256": "2ec21612b8141ad9533d470a91f084e3350f7cefd678d7cc62a73a94b115f1a6",
+          "bytes": 374637,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06089-6.jpg",
+          "sha256": "66d07a4a0c4dbb5a43d2e39c7a3098acf87af4c385f1d4e34a6897f89a298094",
+          "bytes": 531714,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-151",
+        "q-152",
+        "q-164",
+        "q-165",
+        "q-166",
+        "q-167"
+      ],
+      "reason": "6張原卷均已保存並實際檢視，6題完整原文、全部選項、必要古文／詩歌／文章與逐項解說已核對。第58題依原對話後續訂正選C；未採用錯誤生成漫畫。",
+      "skippedQuestions": [],
+      "imageRetryEvidence": {
+        "checkedAt": "2026-10-27T14:04:07.284Z",
+        "method": "authorized_chrome_scroll_all_attachments",
+        "expected": 6,
+        "renderedImages": 6,
+        "downloadedUnique": 6,
+        "errors": []
+      },
+      "pendingQuestions": []
+    },
+    {
+      "order": 38,
+      "url": "https://chatgpt.com/share/6ae060b5-29dc-83e8-b329-d1a7781ba070",
+      "title": "錯題解析軍閥勢力",
+      "state": "complete_with_skips",
+      "archiveImages": 11,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-1.jpg",
+          "sha256": "61cf7e5662043e52fc820e89c3a008be2fe3b5915c9d8eb8c1ab84a6ac271e24",
+          "bytes": 484080,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-2.jpg",
+          "sha256": "6da8a1a87db0e9ecee3940c59079be64646c55518e39973d3f85fc03026f0899",
+          "bytes": 358988,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-3.jpg",
+          "sha256": "ab3f7183e9749f22b94232ee7149de1995bb586dec6f0e6776ec03fb6ef8dc3c",
+          "bytes": 423939,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-4.jpg",
+          "sha256": "a00512fda13eccc0423c147ff56eba4606e702caf8d010fe97e7545ea45b9215",
+          "bytes": 469860,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-5.jpg",
+          "sha256": "084b5154d86d5afd7ca2de06659fc03f99b29e617f33e560e9a00abdd7bbb88c",
+          "bytes": 467722,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-6.jpg",
+          "sha256": "92836923f75882da63bccab6d2a85c8adad4715762badc246b8ff12b3e46b96a",
+          "bytes": 439363,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-7.jpg",
+          "sha256": "20d2a04fe5a1a8acfb19f1100bcb609612010ce07ac2064b6f91c2ebe4bbe30d",
+          "bytes": 435260,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-8.jpg",
+          "sha256": "bdcd8b53f8aaa4e96a2404376ce12498ea88ae2670009f7c0e7213fedd45536e",
+          "bytes": 378170,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-9.jpg",
+          "sha256": "5ff681379a0148fb412c002ed91ce1eb841c723af2a4f490d40f8e167212456e",
+          "bytes": 363069,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-10.jpg",
+          "sha256": "f39989545a5630d897a3665fbc6b774b6a55e632480ef15a4bb73bf9edc6b263",
+          "bytes": 325255,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060b5-11.jpg",
+          "sha256": "dc6ad0b1235b53870f484d6310708875f512d6d7e2d1b83e6d8c78c689d9e8c2",
+          "bytes": 299730,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-253",
+        "q-254",
+        "q-255",
+        "q-256",
+        "q-257",
+        "q-258",
+        "q-259",
+        "q-260",
+        "q-261",
+        "q-262",
+        "q-263"
+      ],
+      "reason": "全部11張原卷已取得並實際檢視。11題完整原文、全部選項、必要文章、表格與圖形、逐項詳解已完成；9張來源AI概念圖已核對並加入共同收合解說。11題瀏覽器圖片載入、預設收合與手機排版檢查正常。原卷第3題B、D末尾被照片切掉，單題記錄略過，不猜補。",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 38,
+        "url": "https://chatgpt.com/share/6ae060b5-29dc-83e8-b329-d1a7781ba070",
+        "title": "錯題解析軍閥勢力",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:45:18.934Z",
+        "imagesExpected": 11,
+        "renderedImages": 11,
+        "matchedArchiveAttachments": 11,
+        "archive": "docs/sources/6ae060b5-29dc-83e8-b329-d1a7781ba070.json",
+        "renderedArchive": "docs/sources/6ae060b5-29dc-83e8-b329-d1a7781ba070-rendered.json",
+        "textLength": 8208,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "skippedQuestions": [
+        {
+          "question": "第3題｜護法布告",
+          "sourceImage": "docs/source-pages/chatgpt-6ae060b5-4-upright.jpg",
+          "reason": "選項B、D末尾超出照片，其中D的最後文字無法完整核對；未猜補，不收入。",
+          "sourceUrl": "https://chatgpt.com/share/6ae060b5-29dc-83e8-b329-d1a7781ba070"
+        }
+      ],
+      "aiFigureReview": {
+        "reviewed": 10,
+        "included": 9,
+        "skipped": 1
+      },
+      "curatedAt": "2026-10-27T18:15:04.564545+00:00",
+      "processedImages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "order": 39,
+      "url": "https://chatgpt.com/share/6ae060c6-904c-83ee-ab00-738ed8099cbf",
+      "title": "錯題解析",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae060c6-1.jpg",
+          "sha256": "8c7c31d5421066f5b117de404fb5aae2d8bb6e2c454f793c388d154072329fe2",
+          "bytes": 438956,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060c6-2.jpg",
+          "sha256": "07052535f33b6a4acc6228dd08c861dd07460ed4e2ed92afd2b8427549f072f0",
+          "bytes": 336564,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060c6-3.jpg",
+          "sha256": "3ae2ec4b9b3cf8c36432c2fd6d1d36f8d20ecf9ace4a5e0038f09c95909c64b4",
+          "bytes": 425206,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060c6-4.jpg",
+          "sha256": "54d5847b02183c6c115b389367be918358eea283eb9cf152acaad240186914b7",
+          "bytes": 291619,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-264",
+        "q-265",
+        "q-266",
+        "q-267"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 39,
+        "url": "https://chatgpt.com/share/6ae060c6-904c-83ee-ab00-738ed8099cbf",
+        "title": "錯題解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:45:25.483Z",
+        "imagesExpected": 4,
+        "renderedImages": 4,
+        "matchedArchiveAttachments": 4,
+        "archive": "docs/sources/6ae060c6-904c-83ee-ab00-738ed8099cbf.json",
+        "renderedArchive": "docs/sources/6ae060c6-904c-83ee-ab00-738ed8099cbf-rendered.json",
+        "textLength": 5075,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "reason": "4張原卷與4題完整題幹、選項及詳細解說已核對，所有裁切與4題網頁收合、圖片及手機排版檢查正常。原AI自承賀辭比較圖用建築師代替教師，已列確認；3張AI圖分享下載404，未展示。",
+      "aiFigureReview": {
+        "archiveGeneratedImages": 3,
+        "downloadedImages": 0,
+        "reason": "分享頁未顯示工具生成圖，3個共享檔案下載皆404；不影響原卷核對。"
+      },
+      "pendingConfirmationIds": [
+        "correction-q-265-72921b231c48"
+      ],
+      "curatedAt": "2026-10-27T18:43:57.132871+00:00"
+    },
+    {
+      "order": 40,
+      "url": "https://chatgpt.com/share/6ae060e0-abe8-83ec-a53c-24f58e59ff50",
+      "title": "錯題解析整理",
+      "state": "complete",
+      "archiveImages": 10,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-1.jpg",
+          "sha256": "b63d385e9af5b73b50d50c8f0d5c6621d85b8560c085bfc43e6d05f9b2de2284",
+          "bytes": 416767,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-2.jpg",
+          "sha256": "e751976a6d14261ef70b0687952da0883febd7268241c1415df1b37283a4c4df",
+          "bytes": 371809,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-3.jpg",
+          "sha256": "9863405d2898cd08e888de19bcadc170bafe731c4f2cfbf70709f15dd4fab3ed",
+          "bytes": 361352,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-4.jpg",
+          "sha256": "31e430d8946f1f2cb9fd403675a5e6b207552d5ce316d48e2c970b9c82505af9",
+          "bytes": 415090,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-5.jpg",
+          "sha256": "c8262a060b7a537a4882cecfdaa7614d4237c57a5c344b6fc7b44fc1c057502c",
+          "bytes": 365031,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-6.jpg",
+          "sha256": "9b2db71fb305c01a655ac8d8f126bea7b4a9b328a6a3126fd7a1bf23dab32514",
+          "bytes": 310958,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-7.jpg",
+          "sha256": "4984ee75a663c7c70fd50eb6074979d341b0faac1f3c55669c73bf4a9f0d7f4a",
+          "bytes": 387179,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-8.jpg",
+          "sha256": "d05397851dd9e8ff1f7e0fb73698e0190d0a395b251898c401c9343410dfea44",
+          "bytes": 292632,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-9.jpg",
+          "sha256": "d37d62f4a5151fe52543d2a6ba379e9f0728f6b1f7062a5e9b1e400b123b72a5",
+          "bytes": 312736,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060e0-10.jpg",
+          "sha256": "1eaf30ebbeee96798777a89a8cae4eb450cb46afd6f6cdcc5858239f237974be",
+          "bytes": 359975,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-268",
+        "q-269",
+        "q-270",
+        "q-271",
+        "q-272",
+        "q-273",
+        "q-274",
+        "q-275",
+        "q-276",
+        "q-277"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 40,
+        "url": "https://chatgpt.com/share/6ae060e0-abe8-83ec-a53c-24f58e59ff50",
+        "title": "錯題解析整理",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:45:36.525Z",
+        "imagesExpected": 10,
+        "renderedImages": 10,
+        "matchedArchiveAttachments": 10,
+        "archive": "docs/sources/6ae060e0-abe8-83ec-a53c-24f58e59ff50.json",
+        "renderedArchive": "docs/sources/6ae060e0-abe8-83ec-a53c-24f58e59ff50-rendered.json",
+        "textLength": 6990,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "reason": "10張原卷及10題完整題幹、選項、必要圖表已核對，14個最終裁切已實際檢視，單題頁與手機版檢查通過。來源有9張AI解說圖紀錄，但分享頁未顯示，9個共享檔案均404，未假稱已看過，也未加入。",
+      "checkedAt": "2026-10-27T19:02:16.925426+00:00"
+    },
+    {
+      "order": 41,
+      "url": "https://chatgpt.com/share/6ae060f5-7f44-83e8-b7af-6701d1bce7df",
+      "title": "錯題解析浮力變化",
+      "state": "complete",
+      "archiveImages": 3,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae060f5-1.jpg",
+          "sha256": "2bac1db6995318d1c3e53a38dce74ed2f601bb76c92b5653b220eb5bf97592d4",
+          "bytes": 274915,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060f5-2.jpg",
+          "sha256": "5291ff5d3b9714b5460b37326eec03bca50fa93c7c6bc7d43b80321d61fe71d0",
+          "bytes": 309237,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae060f5-3.jpg",
+          "sha256": "579dfa68e751fe3b657cf52cc707d93da7b05fbbcc088b96f7302d5fd6a795fd",
+          "bytes": 243153,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-278",
+        "q-279",
+        "q-280"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 41,
+        "url": "https://chatgpt.com/share/6ae060f5-7f44-83e8-b7af-6701d1bce7df",
+        "title": "錯題解析浮力變化",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:45:43.451Z",
+        "imagesExpected": 3,
+        "renderedImages": 3,
+        "matchedArchiveAttachments": 3,
+        "archive": "docs/sources/6ae060f5-7f44-83e8-b7af-6701d1bce7df.json",
+        "renderedArchive": "docs/sources/6ae060f5-7f44-83e8-b7af-6701d1bce7df-rendered.json",
+        "textLength": 3702,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "reason": "3張原卷及3題完整題幹、選項、圖表已核對；4個最終裁切已檢視，單題頁與手機版檢查通過。2張來源AI漫畫只有原對話可見，使用者已確認，沿用既有缺圖紀錄，不加入未讀圖片。",
+      "checkedAt": "2026-10-27T19:05:01.327227+00:00"
+    },
+    {
+      "order": 42,
+      "url": "https://chatgpt.com/share/6ae0615a-9340-83ec-8d4f-1121244b7822",
+      "title": "錯題解析 affix question",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0615a-1.jpg",
+          "sha256": "06d7d6c8d7880a3aa735700de74bc6b43924938714e1c14d5e1913ae89b35866",
+          "bytes": 359809
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0615a-2.jpg",
+          "sha256": "b1b69a34059c36ede60b2ae42142ac92c177bef7b1f4b8d1bda5f0fcc3271efb",
+          "bytes": 269589
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0615a-3.jpg",
+          "sha256": "fb65ebb63172f00904ffe02807327a28b555cecc6a368cc5d4de5db6bc34998d",
+          "bytes": 308615
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0615a-4.jpg",
+          "sha256": "d0d3ed13d5d616dd79d5ea2278891c8924155555b28015cc055d9216771b86a3",
+          "bytes": 248449
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-281",
+        "q-282",
+        "q-283",
+        "q-284"
+      ],
+      "stateHistory": [
+        {
+          "previousState": "skipped_unavailable",
+          "changedAt": "2026-10-27T14:39:57.579619+00:00",
+          "reason": "使用者確認連結成功；已在授權Chrome實際開啟，取得標題與8張首屏附件，舊HTTP404不作為失效依據。"
+        }
+      ],
+      "reason": "4題完整題幹及選項已核對、4個最終裁切已檢視；4張來源AI漫畫已放入解說收合區。第19題依使用者確認採國中美式解說、答案A，無跨語域補充，相關確認已結案。",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 42,
+        "url": "https://chatgpt.com/share/6ae0615a-9340-83ec-8d4f-1121244b7822",
+        "title": "錯題解析 affix question",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T19:05:21.653Z",
+        "imagesExpected": 4,
+        "renderedImages": 4,
+        "matchedArchiveAttachments": 4,
+        "archive": "docs/sources/6ae0615a-9340-83ec-8d4f-1121244b7822.json",
+        "renderedArchive": "docs/sources/6ae0615a-9340-83ec-8d4f-1121244b7822-rendered.json",
+        "textLength": 6323,
+        "textComplete": true,
+        "archiveMessages": 38,
+        "errors": [],
+        "method": "authorized_share_api_and_original_files"
+      },
+      "archive": "docs/sources/6ae0615a-9340-83ec-8d4f-1121244b7822.json",
+      "archiveFormat": "full_transcript",
+      "checkedAt": "2026-10-27T19:13:20.437222+00:00"
+    },
+    {
+      "order": 43,
+      "url": "https://chatgpt.com/share/6ae06173-f304-83e8-9d50-b4c48a5b381a",
+      "title": "錯題解析",
+      "state": "complete",
+      "archiveImages": 4,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae06173-1.jpg",
+          "sha256": "ae0bfb0f063167a5bd7b2bfbfabc713d274b42e2f14302c7b629a2c27ade189a",
+          "bytes": 261626,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06173-2.jpg",
+          "sha256": "4ee0747c1cce64f154fa83452e545625df603faf40a1838e699901614e99827a",
+          "bytes": 197116,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06173-3.jpg",
+          "sha256": "171073ddc84d1f7ac275eb9966e03a9ecf663789e706155ef915ddd20e4fcdfa",
+          "bytes": 331240,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae06173-4.jpg",
+          "sha256": "7a73da5cbb42e69656d88a7819cfbb998afa5b686eeebe91dd275e14dd554ab4",
+          "bytes": 401145,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-285",
+        "q-286",
+        "q-287",
+        "q-288",
+        "q-289"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 43,
+        "url": "https://chatgpt.com/share/6ae06173-f304-83e8-9d50-b4c48a5b381a",
+        "title": "錯題解析",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:45:50.130Z",
+        "imagesExpected": 4,
+        "renderedImages": 4,
+        "matchedArchiveAttachments": 4,
+        "archive": "docs/sources/6ae06173-f304-83e8-9d50-b4c48a5b381a.json",
+        "renderedArchive": "docs/sources/6ae06173-f304-83e8-9d50-b4c48a5b381a-rendered.json",
+        "textLength": 5439,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "checkedAt": "2026-10-27T19:32:00.145004+00:00",
+      "reason": "5題完整題幹、全部選項與兩組完整文言閱讀材料已核對，7個最終裁切已檢視，5題瀏覽器檢查通過。5張來源AI圖皆已讀，採用4張；第4張人物身分缺乏原文依據而略過。成語訂正及人物圖處理已列monitor確認。"
+    },
+    {
+      "order": 44,
+      "url": "https://chatgpt.com/share/6ae0618f-520c-83ee-9fc9-958fe6e9288a",
+      "title": "錯題訂正第13題",
+      "state": "complete",
+      "archiveImages": 6,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0618f-1.jpg",
+          "sha256": "09b9c4383d7a6e0b2b2e422d23840bc38ce2958eb9671206d38427c9184c5df4",
+          "bytes": 355120,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0618f-2.jpg",
+          "sha256": "cb7239fd801bdcaa9e2c579d6739de61c1436baa80e3fc536177e2c768f9b74b",
+          "bytes": 241488,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0618f-3.jpg",
+          "sha256": "fd9284acef0fecf5cd64c6e0d43bf410234b6b8ad89596dac4a70839615e6e8f",
+          "bytes": 322557,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0618f-4.jpg",
+          "sha256": "7740d0664eb2c63fd49c18cec07b06bb5f562d0ef1115a77a721122d1afa2bc1",
+          "bytes": 368345,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0618f-5.jpg",
+          "sha256": "b5e69ffe49afaa11c6760ce9f7dfbceb269bed5cbdd0a720fb54529f2be1ff28",
+          "bytes": 379974,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0618f-6.jpg",
+          "sha256": "1fd13ea7e42e0f9b61d21bd8e0d6359c4d8b3affb62a1d4ebc1ba285ae777c8d",
+          "bytes": 311821,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-290",
+        "q-291",
+        "q-292",
+        "q-293",
+        "q-294",
+        "q-295"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 44,
+        "url": "https://chatgpt.com/share/6ae0618f-520c-83ee-9fc9-958fe6e9288a",
+        "title": "錯題訂正第13題",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:45:58.508Z",
+        "imagesExpected": 6,
+        "renderedImages": 6,
+        "matchedArchiveAttachments": 6,
+        "archive": "docs/sources/6ae0618f-520c-83ee-9fc9-958fe6e9288a.json",
+        "renderedArchive": "docs/sources/6ae0618f-520c-83ee-9fc9-958fe6e9288a-rendered.json",
+        "textLength": 6835,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "note": "6道原卷題已逐題核對，6張原圖及10個裁切成品皆實際檢視；保留第13、44題原題用語／條件限制供使用者確認。5張生成圖的分享下載均404，未以圖說冒充已取得圖片。",
+      "checkedAt": "2026-10-27T19:45:56.420709+00:00",
+      "visualChecked": true,
+      "pendingConfirmationIds": []
+    },
+    {
+      "order": 45,
+      "url": "https://chatgpt.com/share/6ae061bb-3158-83e8-bbca-a3aa5f6a97de",
+      "title": "錯題解析第十題",
+      "state": "complete",
+      "archiveImages": 10,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-1.jpg",
+          "sha256": "298fc490abc41f5d888161b7955ed9618096bd569fae8c528363c7b704fa9ea5",
+          "bytes": 366020,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-2.jpg",
+          "sha256": "a1089e76bdf81177ee2537deb4b670aa7e4786a10bd29aaf35245a60f31d9e75",
+          "bytes": 427517,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-3.jpg",
+          "sha256": "291fd262cc06e1e14f0590054a89cc21c6c121a16e1d05b94dc51d706f3e269b",
+          "bytes": 400472,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-4.jpg",
+          "sha256": "acc1ae7bc3d5b0901d36da1463d4e27b3e3f67a2ce8c5f3b00ca54dfe2d0457f",
+          "bytes": 420755,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-5.jpg",
+          "sha256": "e79b829e21065dca6a05b4417719aeba5495d4d28433ac3dccc48c8254ee71f8",
+          "bytes": 451730,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-6.jpg",
+          "sha256": "dd2e32639c18bfc6746cc81b6d13b915810da0c77fd042e68f653ad36ca35763",
+          "bytes": 270912,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-7.jpg",
+          "sha256": "a8ddf20d8e565bde79714af1620fcd9a140da7d95cb8a5da2079493bfa546fb2",
+          "bytes": 279678,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-8.jpg",
+          "sha256": "95c4bead9686ba88d6195e387a9ab5c5fe0499b13dd63169b4bbd355a9d6d4ec",
+          "bytes": 355338,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-9.jpg",
+          "sha256": "895e679b0aba6b3047db6c1bd9550accbfd54e1778a043c7e481a20a42757c63",
+          "bytes": 353626,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae061bb-10.jpg",
+          "sha256": "25fa7a4390acffbd7a407b1c394fa59e73229e4ef6a9c11dd6ba1ee40ecf773c",
+          "bytes": 421031,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-296",
+        "q-297",
+        "q-298",
+        "q-299",
+        "q-139",
+        "q-300",
+        "q-301",
+        "q-302",
+        "q-303",
+        "q-304"
+      ],
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 45,
+        "url": "https://chatgpt.com/share/6ae061bb-3158-83e8-bbca-a3aa5f6a97de",
+        "title": "錯題解析第十題",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T14:46:10.217Z",
+        "imagesExpected": 10,
+        "renderedImages": 10,
+        "matchedArchiveAttachments": 10,
+        "archive": "docs/sources/6ae061bb-3158-83e8-bbca-a3aa5f6a97de.json",
+        "renderedArchive": "docs/sources/6ae061bb-3158-83e8-bbca-a3aa5f6a97de-rendered.json",
+        "textLength": 5373,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments"
+      },
+      "reusedQuestionIds": [
+        "q-139"
+      ],
+      "visualChecked": true,
+      "checkedAt": "2026-10-27T19:58:56.706688+00:00",
+      "note": "10道原卷題已核對：新增9題，降水比較題與q-139同題，沿用最早日期並補入較清晰原圖。10張原卷及最終裁切均實際檢視；RCEP大多數措辭疑義另列確認。9張AI圖分享下載均404，未以圖說冒充圖片。",
+      "pendingConfirmationIds": [],
+      "pendingAnswerQuestionIds": [],
+      "userResolutions": {
+        "q-302": {
+          "resolvedAt": "2026-10-28T02:25:30.215508+00:00",
+          "resolution": "使用者確認q-302依單選題以明顯多數判讀，選B（ASEAN）；大多數不僅指勉強過半。保留原題與2020年圖中組合，結案。"
+        }
+      }
+    },
+    {
+      "order": 46,
+      "url": "https://chatgpt.com/share/6ae0de73-5310-83ec-9332-f7f22d61959a",
+      "title": "錯題解析蘇鐵分類",
+      "state": "complete",
+      "archiveImages": 11,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-3.jpg",
+          "sha256": "ecc42257d95308c5f01818694608e00e04e0441d7532d146d37356dc9dab2420",
+          "bytes": 331372,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000fc0c82068a94ca72fd7d7d6f"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-4.jpg",
+          "sha256": "4fbc4a534c541ed71bf89b1a98243ed4f51dd07a1a9df14490ca81ea9e1958ed",
+          "bytes": 319461,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000e6dc82069b5d286e919ee34b"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-5.jpg",
+          "sha256": "4893e1c796b2dc8b1ec5c84d5392bd02dd7bddb2971f8f227e2ba5fc9631fd9e",
+          "bytes": 290295,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000dfd88206977e08e58f5b5c2e"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-6.jpg",
+          "sha256": "2bb4d4ec38e01f11a1538240e2a3771874defd6edad6c7bf64946bc2e418598b",
+          "bytes": 252501,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_0000000010348206b8257cdb46d83db6"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-7.jpg",
+          "sha256": "b0d5db06dff2c405821cf129d9d7ec964a95f41bd8d79e46949485f1857cbc7c",
+          "bytes": 357391,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_000000007620820688d181ece43d5d09"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-8.jpg",
+          "sha256": "182e8288ca00d6fc3c680a84157f5a22b5278b68b8faeddd3d26b232701e2f02",
+          "bytes": 271249,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000e7f8820686b0465094726504"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-9.jpg",
+          "sha256": "2b462b474a5d22647321306ea9181d8851dcc7fbea451a7c4713e31968de24d2",
+          "bytes": 264094,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_000000008d44820695bd5c72675f7fdb"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-10.jpg",
+          "sha256": "97c4eff2fe49e0f92c5d7ed7f39000047e1bd98eaecefa475b71a9b28edaab0d",
+          "bytes": 315814,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000f5dc8206b7ceb1e8963925c9"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-11.jpg",
+          "sha256": "c868aacf825bb85484b64aa9df7ddcc3b04957450a2e853c52924d283809b12a",
+          "bytes": 300304,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000d42482069b658ce3c7dede89"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-1.jpg",
+          "sha256": "88c2d2a0a86c14bf42d8cf0f772bab673ff0028747765c26e54508e8ac925e13",
+          "bytes": 359441,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_0000000083c08206820dfd2594311490"
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0de73-2.jpg",
+          "sha256": "22ab4e2e3323d6ed86229e9096e5e9fa2f19e79e22e6d7da3d0964fd5c30aae7",
+          "bytes": 269587,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "fileId": "file_00000000607c8206bc3f1c6265b8b1ee"
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-305",
+        "q-306",
+        "q-307",
+        "q-308",
+        "q-309",
+        "q-310",
+        "q-311",
+        "q-312",
+        "q-313",
+        "q-314",
+        "q-315"
+      ],
+      "reason": "",
+      "archive": "docs/sources/6ae0de73-5310-83ec-9332-f7f22d61959a.json",
+      "renderedArchive": "docs/sources/6ae0de73-5310-83ec-9332-f7f22d61959a-rendered.json",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 46,
+        "url": "https://chatgpt.com/share/6ae0de73-5310-83ec-9332-f7f22d61959a",
+        "title": "錯題解析蘇鐵分類",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T18:41:21.732Z",
+        "imagesExpected": 11,
+        "renderedImages": 11,
+        "matchedArchiveAttachments": 11,
+        "archive": "docs/sources/6ae0de73-5310-83ec-9332-f7f22d61959a.json",
+        "renderedArchive": "docs/sources/6ae0de73-5310-83ec-9332-f7f22d61959a-rendered.json",
+        "textLength": 16336,
+        "textComplete": true,
+        "archiveMessages": 300,
+        "errors": [],
+        "method": "authorized_share_api_and_original_files"
+      },
+      "visualChecked": true,
+      "note": "11道原卷題、全部選項、完整閱讀材料、實驗表與必要圖示皆已核對；17個最終裁切實際檢視，11張來源AI圖檢查後採用10張。11題桌面及手機頁面、預設收合與圖片載入檢查通過，54項測試通過。2項原題用語／錯圖處理另列使用者確認。",
+      "checkedAt": "2026-10-27T20:21:38.717502+00:00",
+      "pendingConfirmationIds": [],
+      "pendingAnswerQuestionIds": [],
+      "userResolutions": {
+        "q-307": {
+          "resolvedAt": "2026-10-28T02:27:41.603632+00:00",
+          "resolution": "使用者確認q-307依國中考題簡化用語，維持五界分類答案C；解說聚焦紅藻與變形蟲同屬原生生物界，刪除進階演化分類討論，原題及圖保留，結案。"
+        },
+        "q-314": {
+          "resolvedAt": "2026-10-28T02:32:06.417170+00:00",
+          "resolution": "使用者確認q-314選D：鹽度不夠可能助長孳生，是鹽度足夠可能抑制孳生的反面說法；解說以抑制效果不足、仍可能存活理解，保留可能，不改成必然。原題與實驗表保留，錯誤AI杯數圖仍不採用，結案。"
+        }
+      }
+    },
+    {
+      "order": 47,
+      "url": "https://chatgpt.com/share/6ae0debc-7450-83ee-9ebd-3b43ef606227",
+      "title": "錯題解析第十題",
+      "state": "duplicate",
+      "archiveImages": null,
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-1.jpg",
+          "sha256": "291fd262cc06e1e14f0590054a89cc21c6c121a16e1d05b94dc51d706f3e269b",
+          "bytes": 400472,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-2.jpg",
+          "sha256": "acc1ae7bc3d5b0901d36da1463d4e27b3e3f67a2ce8c5f3b00ca54dfe2d0457f",
+          "bytes": 420755,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-3.jpg",
+          "sha256": "e79b829e21065dca6a05b4417719aeba5495d4d28433ac3dccc48c8254ee71f8",
+          "bytes": 451730,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-4.jpg",
+          "sha256": "298fc490abc41f5d888161b7955ed9618096bd569fae8c528363c7b704fa9ea5",
+          "bytes": 366020,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-5.jpg",
+          "sha256": "95c4bead9686ba88d6195e387a9ab5c5fe0499b13dd63169b4bbd355a9d6d4ec",
+          "bytes": 355338,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-6.jpg",
+          "sha256": "dd2e32639c18bfc6746cc81b6d13b915810da0c77fd042e68f653ad36ca35763",
+          "bytes": 270912,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-7.jpg",
+          "sha256": "a8ddf20d8e565bde79714af1620fcd9a140da7d95cb8a5da2079493bfa546fb2",
+          "bytes": 279678,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-8.jpg",
+          "sha256": "895e679b0aba6b3047db6c1bd9550accbfd54e1778a043c7e481a20a42757c63",
+          "bytes": 353626,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-9.jpg",
+          "sha256": "25fa7a4390acffbd7a407b1c394fa59e73229e4ef6a9c11dd6ba1ee40ecf773c",
+          "bytes": 421031,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae0debc-10.jpg",
+          "sha256": "a1089e76bdf81177ee2537deb4b670aa7e4786a10bd29aaf35245a60f31d9e75",
+          "bytes": 427517,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-296",
+        "q-297",
+        "q-298",
+        "q-299",
+        "q-139",
+        "q-300",
+        "q-301",
+        "q-302",
+        "q-303",
+        "q-304"
+      ],
+      "reason": "與第45來源為同一對話再次分享：原223則訊息ID及內容一致、10張原卷SHA256相同，只多ok與簡短回覆。10題皆由第45來源統一核對，含沿用q-139，其餘9題新建；不重複建題。",
+      "archive": "docs/sources/6ae0debc-7450-83ee-9ebd-3b43ef606227.json",
+      "renderedArchive": "docs/sources/6ae0debc-7450-83ee-9ebd-3b43ef606227-rendered.json",
+      "acquisitionEvidence": {
+        "batch": "gpt",
+        "order": 47,
+        "url": "https://chatgpt.com/share/6ae0debc-7450-83ee-9ebd-3b43ef606227",
+        "title": "錯題解析第十題",
+        "state": "acquired",
+        "checkedAt": "2026-10-27T18:20:04.222Z",
+        "imagesExpected": 0,
+        "renderedImages": 10,
+        "matchedArchiveAttachments": 0,
+        "archive": "docs/sources/6ae0debc-7450-83ee-9ebd-3b43ef606227.json",
+        "renderedArchive": "docs/sources/6ae0debc-7450-83ee-9ebd-3b43ef606227-rendered.json",
+        "textLength": 13863,
+        "errors": [],
+        "method": "authorized_chrome_scroll_all_attachments",
+        "fullArchiveMessages": 228,
+        "fullTextLength": 13863,
+        "archiveReadMethod": "authorized_share_api"
+      },
+      "duplicateOf": "src-more-045",
+      "duplicateOrder": 45,
+      "duplicateCheck": "docs/imports/gpt-047-duplicate-check.json",
+      "reusedQuestionIds": [
+        "q-296",
+        "q-297",
+        "q-298",
+        "q-299",
+        "q-139",
+        "q-300",
+        "q-301",
+        "q-302",
+        "q-303",
+        "q-304"
+      ]
+    },
+    {
+      "order": 48,
+      "url": "https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4",
+      "title": "錯題解析答案判斷",
+      "state": "processing",
+      "sourceId": "src-extra-gpt-001",
+      "archiveImages": 18,
+      "downloadedImages": [
+        {
+          "index": 0,
+          "path": "docs/source-pages/priority-6ae2305b-01.jpg",
+          "sha256": "078aaa1c472025ae679fd9f3f6660affd59dc22c3498f9c344c2f8d70751fc7a",
+          "bytes": 385765,
+          "possibleMessages": [
+            165
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 165,
+          "fileId": "file_00000000e6308206852d6b08d355fc54"
+        },
+        {
+          "index": 1,
+          "path": "docs/source-pages/priority-6ae2305b-02.jpg",
+          "sha256": "abdf1dad8b6b21427ebeb72464e461b2457f380c5fea4c7ac78f182670524590",
+          "bytes": 276536,
+          "possibleMessages": [
+            177
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 177,
+          "fileId": "file_000000004fc482069099a402cd736dca"
+        },
+        {
+          "index": 2,
+          "path": "docs/source-pages/priority-6ae2305b-03.jpg",
+          "sha256": "068d92a6b6b5d4db6a250ecebf84fad0270b555bba8fe6bd4359f6ab5690538f",
+          "bytes": 355785,
+          "possibleMessages": [
+            189
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 189,
+          "fileId": "file_00000000f0988206a0437c57548b9ff5"
+        },
+        {
+          "index": 3,
+          "path": "docs/source-pages/priority-6ae2305b-04.jpg",
+          "sha256": "6bfb3448b4448d9983a7a4ebc3a8fcb1fded55d59247a5cfca14133a8c6eaca5",
+          "bytes": 233265,
+          "possibleMessages": [
+            201
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 201,
+          "fileId": "file_0000000014408206aadfd357ebc2ad78"
+        },
+        {
+          "index": 4,
+          "path": "docs/source-pages/priority-6ae2305b-05.jpg",
+          "sha256": "ac3cbe39e71d462ee76c0043b4015d6730ef86e4d52781167afa2d0da997380c",
+          "bytes": 337232,
+          "possibleMessages": [
+            212
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 212,
+          "fileId": "file_00000000ae708206b6059457aac7ecf4"
+        },
+        {
+          "index": 5,
+          "path": "docs/source-pages/priority-6ae2305b-06.jpg",
+          "sha256": "1f50e48e89e4223bc10d3186f0bd7c4ac977ef74b633e9066abb6d59d6f77fdb",
+          "bytes": 495939,
+          "possibleMessages": [
+            0
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 0,
+          "fileId": "file_0000000007688206988eac058982c9db"
+        },
+        {
+          "index": 6,
+          "path": "docs/source-pages/priority-6ae2305b-07.jpg",
+          "sha256": "24139535fe62eca7064aca000ee0a29725c1c6ba7a56b362bcca3435a541273e",
+          "bytes": 360555,
+          "possibleMessages": [
+            28
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 28,
+          "fileId": "file_000000009bf08206a42359ba8d8ea022"
+        },
+        {
+          "index": 7,
+          "path": "docs/source-pages/priority-6ae2305b-08.jpg",
+          "sha256": "9bf739762f9f760f80570d3795d879b3e70686c35cc2d66f9586687ac7b1f1c1",
+          "bytes": 430555,
+          "possibleMessages": [
+            14
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 14,
+          "fileId": "file_00000000172c8206bf3c7e9fd4ab367d"
+        },
+        {
+          "index": 8,
+          "path": "docs/source-pages/priority-6ae2305b-09.jpg",
+          "sha256": "3a136e197d30499f00092c7cfa58a65e5a0fb5e571769cf98e2e5cff909c532c",
+          "bytes": 453361,
+          "possibleMessages": [
+            39
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 39,
+          "fileId": "file_0000000014308206a808ba74ad15fad7"
+        },
+        {
+          "index": 9,
+          "path": "docs/source-pages/priority-6ae2305b-10.jpg",
+          "sha256": "d8c5d6b46ddb4f008fe389b8bf96ca0d2c1216fd27e42bf68b86d422c3ce53b7",
+          "bytes": 391107,
+          "possibleMessages": [
+            58
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 58,
+          "fileId": "file_0000000048848206af358ef7f06e59f0"
+        },
+        {
+          "index": 10,
+          "path": "docs/source-pages/priority-6ae2305b-11.jpg",
+          "sha256": "4f82fd666681f8a472cfce2009c2d92f6dc4ee2f6a07942c4d60b027af89a5c1",
+          "bytes": 336169,
+          "possibleMessages": [
+            69
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 69,
+          "fileId": "file_00000000323c82069ac35404df7fce10"
+        },
+        {
+          "index": 11,
+          "path": "docs/source-pages/priority-6ae2305b-12.jpg",
+          "sha256": "fa47219417d7e76f2260c7b9a9d299f8ad75c63c7bdc731d2b058c2410db54ff",
+          "bytes": 424513,
+          "possibleMessages": [
+            77
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 77,
+          "fileId": "file_00000000bfbc8206b703562f7189b930"
+        },
+        {
+          "index": 12,
+          "path": "docs/source-pages/priority-6ae2305b-13.jpg",
+          "sha256": "833f479590cb4a73956d9ecc9e9d713c12300a51c88d81f6fba2e77351b6595d",
+          "bytes": 409311,
+          "possibleMessages": [
+            89
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 89,
+          "fileId": "file_0000000000ec8206827301d69fe9ce26"
+        },
+        {
+          "index": 13,
+          "path": "docs/source-pages/priority-6ae2305b-14.jpg",
+          "sha256": "a5f975dd388de7529a24856f109e5d0e13dd252def5b30b87aed4e1e9dcd412f",
+          "bytes": 309557,
+          "possibleMessages": [
+            89
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 89,
+          "fileId": "file_00000000ebfc8206808a68eb5b71b98a"
+        },
+        {
+          "index": 14,
+          "path": "docs/source-pages/priority-6ae2305b-15.jpg",
+          "sha256": "3c62567aad28c7e47f2a88faf44700d77770dbba6152a7dcf378c01d53ab7bf9",
+          "bytes": 381003,
+          "possibleMessages": [
+            104
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 104,
+          "fileId": "file_00000000081482069c2a5c2ec093a53b"
+        },
+        {
+          "index": 15,
+          "path": "docs/source-pages/priority-6ae2305b-16.jpg",
+          "sha256": "bcb936c1a290a037d38a57316e88eca2871ac71dca01cc7112414e6298247684",
+          "bytes": 347303,
+          "possibleMessages": [
+            116
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 116,
+          "fileId": "file_0000000095b482068fc6e28872b8f4b3"
+        },
+        {
+          "index": 16,
+          "path": "docs/source-pages/priority-6ae2305b-17.jpg",
+          "sha256": "e78036cfa5b3b89afbdd9fc95eae1c6743626591808c034caa1ff7d7cfc980d6",
+          "bytes": 382469,
+          "possibleMessages": [
+            129
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 129,
+          "fileId": "file_00000000ce0c820693ac1f8d95500609"
+        },
+        {
+          "index": 17,
+          "path": "docs/source-pages/priority-6ae2305b-18.jpg",
+          "sha256": "1276bdd0dee6c311a0ffe141de1d6d6527e6976dfdcb703ca3e787e83eb0801a",
+          "bytes": 428048,
+          "possibleMessages": [
+            141
+          ],
+          "renderedWidth": 1080,
+          "renderedHeight": 1440,
+          "messageIndex": 141,
+          "fileId": "file_000000005df08206ae42db55247c11d5"
+        }
+      ],
+      "errors": [],
+      "questionIds": [
+        "q-792",
+        "q-793",
+        "q-794",
+        "q-795",
+        "q-796",
+        "q-797",
+        "q-798",
+        "q-799",
+        "q-800",
+        "q-801",
+        "q-802",
+        "q-803",
+        "q-804",
+        "q-805",
+        "q-806",
+        "q-807",
+        "q-808",
+        "q-809"
+      ],
+      "reason": "使用者最高優先新增：先收入18題並新製插畫，來源AI圖不採用。",
+      "archive": "docs/sources/6ae2305b-4b44-83ee-997b-6938a4f8d7e4.json",
+      "acquisitionEvidence": "docs/acquisition/gpt-048.json",
+      "visualChecked": false,
+      "note": "三路逐題核對原卷與全新插畫中。",
+      "checkedAt": "2026-10-28T17:59:06.322193+00:00",
+      "pendingConfirmationIds": [
+        "correction-q-803-0a8cae6ec07c",
+        "correction-q-795-285639b1ac31"
+      ],
+      "pendingAnswerQuestionIds": []
+    }
+  ],
+  "previousDuplicateLinks": [
+    "https://chatgpt.com/share/6ae057df-3f50-83ee-930a-caeb6fbc0560"
+  ]
+}

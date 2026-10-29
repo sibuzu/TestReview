@@ -1,0 +1,57 @@
+{
+  "title": "理化第5題｜液壓機的半徑比與施力",
+  "question": "有一運用帕斯卡原理的水壓機，其大、小活塞的半徑比為3：1，若對小活塞施加30kgw，則大活塞可支持多少kgw的物體？\n\n(A) 270\n(B) 90\n(C) 30\n(D) 10",
+  "answer": "正確答案：A，270kgw。",
+  "explanation": "一、帕斯卡原理比較壓力\n理想水壓機中，小活塞增加的壓力可傳到大活塞；因此F小／A小＝F大／A大。這裡相等的是壓力，不是兩端的力。\n\n二、把半徑比換成面積比\n圓面積與半徑平方成正比，所以A大：A小＝3²：1²＝9：1。\n\n三、計算大活塞的力\nF大＝30×9＝270kgw，選A。原卷選B的90kgw，只把力乘半徑比3，漏掉面積比必須平方。",
+  "sourceLabel": "自然原卷第13張｜第5題",
+  "studentAnswer": "B",
+  "contentStatus": "完整原題",
+  "verification": "原題已核對",
+  "verificationNote": "已核對完整題幹、全部選項與作答所需圖表；原卷標示自然（四），冊次列第四冊；使用者教材的對應章節未確認，章節歸綜合。",
+  "images": [
+    "assets/questions/q-038-source-40d7d06398.jpg"
+  ],
+  "questionFigures": [],
+  "tables": [],
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "270",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "半徑比3：1對應面積比9：1，30乘9。"
+    },
+    {
+      "label": "B",
+      "text": "90",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "把半徑比直接當面積比。"
+    },
+    {
+      "label": "C",
+      "text": "30",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "壓力相等不代表作用力相等。"
+    },
+    {
+      "label": "D",
+      "text": "10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "力的放大方向與面積關係顛倒。"
+    }
+  ],
+  "correctOption": "A",
+  "diagram": "",
+  "volume": "第四冊",
+  "chapter": "綜合",
+  "trap": "",
+  "tags": [
+    "帕斯卡原理",
+    "液壓機",
+    "面積比"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "把三角形占比換成梯形底比",
+    "art": "assets/comics/q-084-art-eae071b170.svg",
+    "panels": [
+      {
+        "heading": "① 相似形先給出對角線比",
+        "text": "AB平行CD，△AOB與△COD相似，所以AO：OC＝b：a。因此OC占整條AC的a／(a＋b)。",
+        "alt": "梯形下底AB為b、上底CD為a，上下相似三角形分別著色。"
+      },
+      {
+        "heading": "② 同頂點、共底線，比面積",
+        "text": "△BOC與△BAC的高相同，面積比等於OC／AC。設梯形高h，△ABC面積為bh／2，S為(a＋b)h／2。因此△BOC占S的ab／(a＋b)²，等於2／9。",
+        "alt": "三角形ABC以淡藍底表示，其中BOC著橘色；OC、AC共線，高h另標在右側。"
+      },
+      {
+        "heading": "③ 解方程後回看a＜b",
+        "text": "令r＝a／b，則9r＝2(r＋1)²。整理為(2r－1)(r－2)＝0，得到r＝1／2或2。因a＜b，r須小於1，只取1／2。",
+        "alt": "a小於b的條件篩選兩根，保留r等於二分之一，排除r等於二。"
+      }
+    ],
+    "fourth": {
+      "answer": "a／b＝1／2",
+      "points": [
+        "先求OC占AC的比例，不能直接把三角形占比當底比。",
+        "面積除以S時，要再除以梯形的a＋b。",
+        "方程有兩根，最後用a＜b排除2。"
+      ]
+    }
+  }
+}

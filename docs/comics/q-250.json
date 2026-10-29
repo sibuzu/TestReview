@@ -1,0 +1,57 @@
+{
+  "id": "q-250",
+  "subject": "Math",
+  "title": "先看灰白圖例，再算人數差",
+  "art": "docs/comics/art/q-250.svg",
+  "panels": [
+    {
+      "heading": "① 灰色才是男生的百分比",
+      "text": "原圖白色代表女生，灰色代表男生。112年白色到40%，灰色占60%；115年白色到50%，灰色占50%。",
+      "alt": "輔助重畫112與115兩年堆疊長條，灰色男生分別60%及50%，白色女生40%及50%。"
+    },
+    {
+      "heading": "② 相差10個百分點",
+      "text": "兩年總人數相同，都是1040人。男生比例60%減50%，相差10個百分點，所以可直接以1040乘10%。",
+      "alt": "同一基準線比較兩年男生60%與50%，強調比例差而非讀分界高度。"
+    },
+    {
+      "heading": "③ 把總人數的十分之一算出來",
+      "text": "1040×10%＝104。也可分別算男生人數：624減520仍為104。不能把115年的520人當成兩年人數差。",
+      "alt": "全校1040人分成十等份，著色一份表示104人，不表示男生人數本身只有10%。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：112年男生多104人",
+    "points": [
+      "先看圖例，勿把白色高度直接當成男生比例。",
+      "比例差是10個百分點，不是原AI誤讀的25個百分點。",
+      "學生原選B正確，保留已確認的讀圖訂正。"
+    ]
+  },
+  "rationale": "已實看原卷圖例與完整題目，依使用者已確認B答精確重畫兩個相關年份，不重製原AI錯誤50%／25%數據；十等分與兩種人數計算獨立一致。",
+  "generationMethod": "authored SVG chart + native HTML/CSS",
+  "artSHA256": "2cf826a2ada9956f6015db32a763651b3edfeb700ebf4b773586adacc7600567",
+  "createdAt": "2026-10-28T13:53:44.183257+00:00",
+  "visualChecked": true,
+  "diagramChecks": [
+    "112：白40灰60；115：白50灰50",
+    "男生長條高度90：75＝60：50，皆從0起算",
+    "1040×0.6－1040×0.5＝104",
+    "灰白堆疊每年合計100%，未改原題四年圖"
+  ],
+  "nativeArt": "assets/comics/q-250-art-2cf826a2ad.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T13:54:44.020810+00:00",
+  "validationFile": "docs/comics/q-250-validation.json"
+}

@@ -1,0 +1,100 @@
+{
+  "sourceOrder": 17,
+  "sourceUrl": "https://chatgpt.com/share/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad",
+  "questionIds": [
+    "q-072",
+    "q-073",
+    "q-457",
+    "q-458",
+    "q-459",
+    "q-070",
+    "q-455",
+    "q-456"
+  ],
+  "newQuestionIds": [
+    "q-457",
+    "q-458",
+    "q-459"
+  ],
+  "originalImages": 4,
+  "originalsVisuallyChecked": 4,
+  "attachmentVerification": "全數下載檔案SHA256、bytes與封存user附件逐一核對；原圖本來正向（17第2張局部旋轉照片另由第1張同頁核對），不以AI轉正圖替代。",
+  "aiImages": {
+    "batch": "gpt",
+    "order": 17,
+    "url": "https://chatgpt.com/share/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad",
+    "kind": "ai_explanation",
+    "state": "not_applicable",
+    "checkedAt": "2026-10-27T22:45:51.379361+00:00",
+    "archiveMessages": 22,
+    "archiveGeneratedImages": 0,
+    "images": [],
+    "errors": [],
+    "note": "逐一檢查assistant/tool的image_asset_pointer，沒有生成圖指標。"
+  },
+  "skippedQuestions": [
+    {
+      "page": 2,
+      "reason": "是第40題局部近照，與第1張同題，保留q-073，不新增。"
+    },
+    {
+      "page": 4,
+      "reason": "與第16來源同一試卷的重新拍照；沿用q-070、q-455、q-456，不重建ID。"
+    },
+    {
+      "page": "對話前段",
+      "reason": "be／助動詞比較表及例句屬說明材料，沒有另一份完整原卷，不另造題。"
+    }
+  ],
+  "crossSourceEvidence": {
+    "sourceOrder": 16,
+    "questionIds": [
+      "q-070",
+      "q-455",
+      "q-456"
+    ],
+    "method": "新照片與完整試卷文字、表格、配圖及手寫答案比對相同，不以不同SHA或URL新增重複題。"
+  },
+  "finalCropsChecked": 17,
+  "visualChecked": true,
+  "browser": {
+    "checkedQuestionIds": [
+      "q-070",
+      "q-071",
+      "q-072",
+      "q-073",
+      "q-455",
+      "q-456",
+      "q-457",
+      "q-458",
+      "q-459"
+    ],
+    "viewports": [
+      1440,
+      390
+    ],
+    "errors": [],
+    "mobileOverflow": false,
+    "badgeIndependentOfIcons": true,
+    "headingsDoNotOverlapIcons": true,
+    "allAnswerEvidenceImagesLoaded": true
+  },
+  "mobileScreenshotViewed": true,
+  "siteTestsPassed": 54,
+  "answers": {
+    "q-070": "C",
+    "q-072": "D",
+    "q-073": "C",
+    "q-455": "D",
+    "q-456": "B",
+    "q-457": "C",
+    "q-458": "C",
+    "q-459": "B"
+  },
+  "pendingConfirmationIds": [
+    "correction-q-456-ef10f984f94e",
+    "correction-q-072-684e9b25fe67",
+    "correction-q-073-3666da833186"
+  ],
+  "checkedAt": "2026-10-27T22:45:51.379361+00:00"
+}

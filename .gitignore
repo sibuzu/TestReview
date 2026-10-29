@@ -1,0 +1,19 @@
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+.DS_Store
+site/.sites-runtime/
+site/.sites-checkout/
+site/.git/
+
+.netlify/
+
+# Original illustrations, downloaded evidence and raster QA stay on this machine.
+# Published, optimized web assets remain versioned under site/dist/assets/.
+docs/**/*.png
+docs/**/*.jpg
+docs/**/*.jpeg
+docs/**/*.webp
+docs/**/*.pdf
+docs/**/*.html

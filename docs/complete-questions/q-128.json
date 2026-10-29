@@ -1,0 +1,32 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "等面積先推平行，再比較高度",
+    "art": "assets/comics/q-128-art-91deaffa61.svg",
+    "panels": [
+      {
+        "heading": "① 扣掉相等的部分",
+        "text": "同一個四邊形 BCEF，可分成兩種組合。題給△BCE與四邊形DCEF面積相等，扣除後，得△BEF與△BDF面積相等。",
+        "alt": "原幾何圖標出要求的三角形BCE，保留EF、EB、DF。"
+      },
+      {
+        "heading": "② 共底等高，推出平行",
+        "text": "△BEF與△BDF共底BF，E、D又在BF同側。面積相等表示到BF的距離相等，因此ED平行AB。圖中虛線是補畫的ED。",
+        "alt": "補上虛線ED，呈現ED與AB平行及相似三角形CED。"
+      },
+      {
+        "heading": "③ 高度比等於三比五",
+        "text": "△CED與△CAB相似，CE：CA＝CD：CB＝3：5。△BCE與△BCA共底BC，所以面積也比3：5，得20×3／5＝12。",
+        "alt": "三角形BCE著色，標示面積12及底邊CD長3、DB長2。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：面積12",
+      "points": [
+        "先由等面積證明ED平行AB，不能看圖猜平行。",
+        "CE：CA＝3：5，對應到BC的高度比。",
+        "相等的兩塊不是整個△ABC的兩半，不能直接算10。"
+      ]
+    }
+  }
+}

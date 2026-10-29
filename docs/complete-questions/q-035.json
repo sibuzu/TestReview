@@ -1,0 +1,63 @@
+{
+  "title": "理化第8題｜串接彈簧秤的讀數",
+  "question": "如圖，當鐵環保持靜止不動時，三個彈簧秤的讀數分別為F₁、F₂、F₃，則F₁、F₂、F₃的關係為何？\n\n(A) F₂＋F₃＝F₁\n(B) F₁＋F₂＝F₃\n(C) F₁＝F₂＝F₃\n(D) F₁＋F₃＝F₂",
+  "answer": "正確答案：C，F₁＝F₂＝F₃。",
+  "explanation": "一、先看連接方式\n三個彈簧秤沿同一條水平線串接，圖中由左至右是F₃、F₁、F₂；這不是兩條分支一起拉一個物體的並聯情形。\n\n二、取中間的鐵環看受力\n鐵環靜止，左右兩側拉力大小相等、方向相反。沿著串接的秤與環逐一看，每一段傳遞的張力相同。\n\n三、理解秤讀的是什麼\n每個彈簧秤顯示的是穿過它的張力，不是把左右兩個相反力相加。因而三個讀數相同，選C。原卷選B，誤把串接張力寫成兩個讀數相加。\n\n先前AI把原圖當成分支受力，現已依實際串接圖更正。",
+  "sourceLabel": "自然原卷第9張｜第8題",
+  "studentAnswer": "B",
+  "contentStatus": "完整原題",
+  "verification": "原題已核對",
+  "verificationNote": "已核對完整題幹、全部選項與作答所需圖表；原卷標示自然（四），冊次列第四冊；使用者教材的對應章節未確認，章節歸綜合。",
+  "images": [
+    "assets/questions/q-035-source-8a408bb185.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-035-figure-38eec8da8d.jpg",
+      "alt": "本題作答所需原卷附圖",
+      "caption": "依原卷裁切的作答附圖"
+    }
+  ],
+  "tables": [],
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "F₂＋F₃＝F₁",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "串接不是兩支分攤後相加。"
+    },
+    {
+      "label": "B",
+      "text": "F₁＋F₂＝F₃",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "同一串接系統中沒有這種相加關係。"
+    },
+    {
+      "label": "C",
+      "text": "F₁＝F₂＝F₃",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "各段平衡，串接張力相同。"
+    },
+    {
+      "label": "D",
+      "text": "F₁＋F₃＝F₂",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "把不同位置的讀數重複相加。"
+    }
+  ],
+  "correctOption": "C",
+  "diagram": "",
+  "volume": "第四冊",
+  "chapter": "綜合",
+  "trap": "",
+  "tags": [
+    "彈簧秤",
+    "串接",
+    "張力"
+  ]
+}

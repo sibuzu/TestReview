@@ -1,0 +1,63 @@
+{
+  "id": "q-142",
+  "subject": "Geography",
+  "title": "先認冬溫與年雨量，再做四類相對配對",
+  "art": "docs/comics/art/q-142.svg",
+  "protectedWords": [
+    "一月均溫",
+    "全年雨量",
+    "熱帶季風",
+    "溫帶季風",
+    "溫帶海洋性",
+    "溫帶乾燥"
+  ],
+  "panels": [
+    {
+      "heading": "① 橫軸看冬溫，縱軸看全年雨量",
+      "text": "題目在北半球，一月是冬季。橫軸是一月均溫，不是年均溫；縱軸是全年雨量，不是一月雨量。要把同一個點的兩項資訊一起讀。",
+      "alt": "依原圖大致位置重整四個點，橫軸一月均溫、縱軸年雨量；不是新增城市氣象資料或精測座標。"
+    },
+    {
+      "heading": "② 先排除冬暖的甲、少雨的丁",
+      "text": "甲一月仍約25度，年雨量約1800毫米，在題給類型中配熱帶季風。丁的全年雨量只有數百毫米，較符合溫帶乾燥，先排除這兩點。",
+      "alt": "保留四點位置，圈出冬季仍高溫的甲及全年雨量最少的丁，作為先排除的對照。"
+    },
+    {
+      "heading": "③ 乙、丙再比較冬季冷暖",
+      "text": "乙冬溫較溫和，年雨量約1200毫米，較偏溫帶海洋性。丙冬季更冷，年雨量約600毫米，在題給四類中最符合溫帶季風。",
+      "alt": "圈出乙和丙，丙的點位較左且雨量低於乙，以綠色突出本題應選丙。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙",
+    "points": [
+      "先用甲、丁辨認明顯差異，再比較乙與丙，不只看單一座標。",
+      "本題只給一月均溫與年雨量，要搭配所列四類作相對配對。",
+      "年雨量不會顯示雨季分配，不能把這幾個數值當成所有城市的唯一分類標準。"
+    ]
+  },
+  "rationale": "實看原圖兩軸、四點及四種指定類型，維持C；沿用原詳解的約值，以三張相同位置示意呈現讀軸、先排除、再比較。點位僅依原圖大致位置重整，未添加城市或季節降雨資料，不當成精確氣象觀測。",
+  "generationMethod": "authored SVG relative scatter-plot reading guide; teaching paragraphs rendered in HTML/CSS",
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-142-art-7a18c91b34.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "7a18c91b3406a79b33696dd22ff276e626df5c6514edd5f4eb79f27867c75bfe",
+  "createdAt": "2026-10-28T16:31:00.001185+00:00",
+  "contentChecks": [
+    "Original graph axes confirmed: January mean temperature vs annual precipitation",
+    "Four point positions only approximate visual reconstruction; no additional weather data or universal cutoffs"
+  ],
+  "checkedAt": "2026-10-28T16:32:37.035230+00:00",
+  "validationFile": "docs/comics/q-142-validation.json"
+}

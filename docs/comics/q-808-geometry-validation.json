@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-28T18:23:34.808732+00:00",
+  "method": "exact integer coordinate clockwise 90-degree rotation about rightmost ground-contact vertex",
+  "initial": {
+    "A": [
+      -3,
+      0
+    ],
+    "B": [
+      2,
+      0
+    ],
+    "C": [
+      2,
+      3
+    ],
+    "D": [
+      -3,
+      3
+    ]
+  },
+  "firstCycle": [
+    {
+      "quarterTurn": 1,
+      "vertex": "C",
+      "x": 5
+    },
+    {
+      "quarterTurn": 2,
+      "vertex": "D",
+      "x": 10
+    },
+    {
+      "quarterTurn": 3,
+      "vertex": "A",
+      "x": 13
+    },
+    {
+      "quarterTurn": 4,
+      "vertex": "B",
+      "x": 18
+    }
+  ],
+  "targetContact": [
+    {
+      "quarterTurn": 25,
+      "vertex": "C",
+      "x": 101
+    }
+  ],
+  "period": 16,
+  "questionFigure": "site/dist/assets/questions/q-808-figure.svg",
+  "visuallyCheckedScreenshot": "docs/comics/qa/q-808/question-figure.png",
+  "noAnswerShownInQuestionFigure": true
+}

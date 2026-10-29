@@ -1,0 +1,68 @@
+{
+  "id": "q-468",
+  "subject": "Physics-Chemistry",
+  "title": "等加速位移，用平均速度乘時間",
+  "art": "docs/comics/art/q-468.png",
+  "startedAt": "2026-10-28T16:49:14.721055+00:00",
+  "panels": [
+    {
+      "heading": "① 一開始就有速度",
+      "text": "初速是15 m/s，不是從靜止出發。加速度5 m/s²，表示速度每秒增加5 m/s。",
+      "alt": "戴安全帽的學生在封閉自行車場騎車，呈現開始時已在前進。"
+    },
+    {
+      "heading": "② 先求6秒後的速度",
+      "text": "末速＝15＋5 × 6＝45 m/s。題目假設一直以相同加速度前進，所以可以用初速和末速的平均值。",
+      "alt": "同一位學生在直線自行車跑道繼續前進，示意速度持續增加。"
+    },
+    {
+      "heading": "③ 平均速度再乘時間",
+      "text": "平均速度＝(15＋45) ÷ 2＝30 m/s。位移＝30 × 6＝180 m；只算15 × 6會漏掉加速增加的位移。",
+      "alt": "學生停在封閉場地休息，於筆記本整理騎乘與計算結果。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：180 m",
+    "points": [
+      "等加速度：平均速度＝(初速＋末速) ÷ 2。",
+      "也可算15 × 6＋½ × 5 × 6²＝90＋90。",
+      "漏掉加速項會算成90 m；漏掉½會算成270 m。"
+    ]
+  },
+  "protectedWords": [
+    "平均速度",
+    "等加速度",
+    "15 m/s",
+    "45 m/s",
+    "30 m/s",
+    "180 m"
+  ],
+  "rationale": "以自行車起步已有速率、持續加速、整理結果三情境，支持從末速求平均速度，避免把初速當成整段速度。圖像為概念情境，並非時距刻度或實際騎乘測量。",
+  "promptSummary": "三格彩色無字動漫：安全帽學生封閉跑道已在騎車、直線加速前進、下車整理筆記。",
+  "answerCheckedAgainst": "正確答案：C。s＝v₀t＋(1/2)at²＝15×6＋(1/2)×5×6²＝180 m。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "completedAt": "2026-10-28T16:50:40.776988+00:00",
+  "checkedAt": "2026-10-28T16:51:58.884762+00:00",
+  "visualChecked": true,
+  "artSHA256": "21c739ffe2317587dda23cf3664e44f9d60d696531834d84017414992d961de5",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-468-source-505468c4d5.jpg",
+    "visualChecked": true
+  },
+  "previewValidation": "docs/comics/q-468-preview-validation.json",
+  "visualReview": "實看原卷、原始三情境圖及1440/390成品。答案C，末速45、平均30、位移180皆核對；各數字與公式在可選文字中。插畫為概念騎乘情境，不冒充實測時距圖。獨立QA在1440/1120/390通過，手機自然高度、無溢出、保護詞完整。",
+  "nativeArt": "assets/comics/q-468-art-21c739ffe2-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-468-validation.json"
+}

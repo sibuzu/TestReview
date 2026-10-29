@@ -1,0 +1,55 @@
+{
+  "id": "q-314",
+  "subject": "Biology",
+  "title": "先讀存活數，再判斷鹽度的影響",
+  "art": "docs/comics/art/q-314.png",
+  "panels": [
+    {
+      "heading": "① 原題是四杯，不是五杯",
+      "text": "甲0%／乙0.7%／丙1.5%／丁3.5%。每杯兩種幼蟲各30隻，兩天後比較存活數。",
+      "alt": "學生觀察桌上的四杯實驗材料。"
+    },
+    {
+      "heading": "② 用數據比較耐鹽能力",
+      "text": "丙杯 1.5%：\n埃及斑蚊存活17隻，\n白線斑蚊存活2隻。\n不支持C：白線斑蚊較強。",
+      "alt": "放大觀察水中的蚊子幼蟲。"
+    },
+    {
+      "heading": "③ 「可能」不能省略",
+      "text": "丁杯 3.5%：兩種都存活0隻。\n鹽度不足，抑制效果可能不夠，幼蟲仍可能存活發育。\n因此依題意選D。",
+      "alt": "學生比較實驗紀錄。"
+    }
+  ],
+  "takeaway": "答案 D｜不等於「少量鹽一定比純水更利於繁殖」。",
+  "note": "僅示意觀察情境；杯別與數據依原題，幼蟲非精確解剖圖。",
+  "rationale": "將四杯條件、丙杯物種比較與D的可能語意分開，避免既有五杯錯圖與必然化推論。",
+  "promptSummary": "三格無字動漫：四杯實驗觀察、幼蟲放大觀察、比較紀錄；不生成濃度與存活數。",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T10:02:49.527337+00:00",
+  "answerCheckedAgainst": "正確答案：D。鹽度不夠時，對幼蟲的抑制效果可能不足。",
+  "artSHA256": "f05a7dcae60b3a10a241ba592ec59527e22e737ea8cb862ccd5b7d784905f343",
+  "fourth": {
+    "heading": "④ 一眼記住",
+    "answer": "答案 D：鹽度不足，抑制可能不夠",
+    "points": [
+      "四杯濃度：0%、0.7%、1.5%、3.5%。",
+      "看兩天後的存活數，保留「可能」。",
+      "不代表少量鹽一定比純水更利於繁殖。"
+    ]
+  },
+  "layoutVersion": "native-fluid-v6",
+  "layoutSHA256": "09a594bf856c899690fe826a231e82ad6e8ace1f5fc02be8de92b65dbc14757d",
+  "nativeArt": "assets/comics/q-314-art-f05a7dcae6-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "layoutUpdatedAt": "2026-10-28T11:57:24.395249+00:00"
+}

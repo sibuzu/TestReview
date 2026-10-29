@@ -1,0 +1,70 @@
+{
+  "id": "q-280",
+  "subject": "Biology",
+  "title": "從已知起點，沿兩個箭頭傳能量",
+  "art": "docs/comics/art/q-280.png",
+  "startedAt": "2026-10-28T17:09:32.218226+00:00",
+  "panels": [
+    {
+      "heading": "① 已知的是浮游動物",
+      "text": "先圈出浮游動物的10,000能量單位。不是從浮游植物開始算，起點之前的箭頭不用再算一次。",
+      "alt": "學生在海洋研究教室使用顯微鏡觀察水樣，示意先確認題目給定的浮游動物起點；不重畫微生物結構。"
+    },
+    {
+      "heading": "② 到蝦：第一次傳遞",
+      "text": "依每階層約保留10%的常用估算，浮游動物10,000→蝦1,000。能量往後減少，不是變成十倍。",
+      "alt": "水下蝦類與海洋環境，對應食物鏈中接在浮游動物之後的蝦。"
+    },
+    {
+      "heading": "③ 到鯨魚：第二次傳遞",
+      "text": "蝦1,000→鯨魚100。從已知起點到鯨魚共兩個箭頭，所以10,000 × 10% × 10%＝100。",
+      "alt": "海中游動的鯨魚，對應本題食物鏈末端；鯨魚體型不表示族群能量多寡。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：100能量單位",
+    "points": [
+      "先找已知起點，再數往後的箭頭。",
+      "本題用每次約10%作概略估算。",
+      "比較的是族群總能量，不是單隻生物的大小。"
+    ]
+  },
+  "protectedWords": [
+    "浮游動物",
+    "浮游植物",
+    "10,000",
+    "1,000",
+    "100能量單位",
+    "族群總能量"
+  ],
+  "rationale": "本題常把整條三箭頭都算進去，或因鯨魚大而倒算能量。三格以觀察水樣確定起點、蝦第一次、鯨魚第二次，文字固定同一10%教學模型，圖不顯示能量尺寸或精確個數。",
+  "promptSummary": "三格無字動漫海洋情境：顯微鏡觀察水樣、海中蝦、海中鯨魚。精確食物鏈與能量用HTML，不生成微觀結構圖。",
+  "answerCheckedAgainst": "正確答案：A。從浮游動物到蝦、再到鯨魚共兩次傳遞，依常用約10%估算為10,000×10%×10%＝100。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-280-source-7177ac0faf.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T17:10:57.617732+00:00",
+  "checkedAt": "2026-10-28T17:13:50.967785+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T17:09:50.891Z",
+  "generationCompletedAt": "2026-10-28T17:09:36.655Z",
+  "artSHA256": "842545b22fedf94ddfeefb72396b5935ecc744531861cafa58ad47146372b944",
+  "previewValidation": "docs/comics/q-280-preview-validation.json",
+  "visualReview": "已實看原卷起點浮游動物10,000及三箭頭鏈，從已知起點只算兩次，維持A100。圖為觀察水樣／蝦／鯨魚，沒有把浮游植物錯作起點，鯨魚圖未暗示體型等同能量大小；不重畫微觀結構。原圖與1440/390成品實看，三寬獨立QA過，公式全HTML、保護詞完整，手機自然高度無溢出。",
+  "nativeArt": "assets/comics/q-280-art-842545b22f-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-280-validation.json"
+}

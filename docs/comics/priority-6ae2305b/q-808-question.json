@@ -1,0 +1,20 @@
+{
+  "id":"q-808", "sourceId":"src-extra-gpt-001", "subject":"Math", "title":"數學第22題｜矩形滾動的落點週期",
+  "chapter":"綜合", "volume":"綜合", "date":"2026-10-29", "dateLabel":"首次出題日期", "addedAt":"2026-10-29",
+  "question":"如右圖，矩形ABCD的坐標分別為A(−3,0)、B(2,0)、C(2,3)、D(−3,3)，在沒有滑動的情形下，將此矩形沿著x軸向右滾動，則過程中，A、B、C、D四點何者會經過點(101,0)？\n\n(A) A\n(B) B\n(C) C\n(D) D",
+  "answer":"正確答案：C，頂點C會經過(101,0)。",
+  "explanation":"一、先求兩種邊長\nAB＝2−(−3)＝5，BC＝3。無滑動向右翻滾，每次繞當下右側接地頂點旋轉90°，接地邊長依序為3、5、3、5。\n\n二、逐次追蹤頂點的落地位置\n起始A在x＝−3、B在x＝2。接著C在x＝5落地、D在x＝10落地、A再次於x＝13落地、B再次於x＝18落地。因此同一頂點下一次接觸地面的位置，相距矩形周長5＋3＋5＋3＝16。\n注意：13是A下一次落地的坐標，不是週期距離。A原先在−3，兩次落點的距離是13−(−3)＝16，不能把13當除數。\n\n三、判斷101屬於哪一組落點\nA的落點為−3＋16k，B為2＋16k，C為5＋16k，D為10＋16k，其中k＝0、1、2、…。因為101＝5＋6×16，所以C會經過(101,0)，選C。\n\n回代C的落點：5、21、37、53、69、85、101。也可逐次以右側接地點為軸旋轉驗算，第25次翻轉由C接觸x＝101。",
+  "trap":"", "tags":["矩形滾動","週期","座標"], "verification":"原題已核對",
+  "verificationNote":"已實看原卷第22題完整座標、條件與四選項；原卷手算13只為落點坐標，獨立以90°座標旋轉逐步驗算，週期16、x=101為C。作答圖用精確座標SVG忠實示意，不含原卷手寫答案；原卷另存收合核對。教材課次未確認，歸綜合。",
+  "diagram":"", "notes":"", "status":"todo", "starred":false, "sourceLabel":"優先分享原卷｜第22題", "studentAnswer":"原卷黑筆D，紅筆改C", "contentStatus":"完整原題", "correctOption":"C",
+  "images":["assets/questions/q-808-source.jpg"],
+  "optionAnalysis":[
+    {"label":"A","text":"A","wordClass":"不選","meaning":"","explanation":"101−(−3)＝104，不是16的整數倍。"},
+    {"label":"B","text":"B","wordClass":"不選","meaning":"","explanation":"101−2＝99，不是16的整數倍。"},
+    {"label":"C","text":"C","wordClass":"應選","meaning":"","explanation":"101−5＝96＝6×16，符合C的落點規律。"},
+    {"label":"D","text":"D","wordClass":"不選","meaning":"","explanation":"101−10＝91，不是16的整數倍。"}
+  ],
+  "passage":"", "tables":[],
+  "questionFigures":[{"src":"assets/questions/q-808-figure.svg","alt":"依原卷座標畫出的起始矩形ABCD，AB在x軸上，向右滾動，不標示解答落點","caption":"依原卷座標重畫的作答示意；原始照片保留於答案區核對"}],
+  "explanationFigures":[], "originalMaterials":["docs/source-pages/priority-6ae2305b-04.jpg"], "sourceMessageIndex":201
+}

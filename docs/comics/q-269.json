@@ -1,0 +1,55 @@
+{
+  "id": "q-269",
+  "subject": "Geography",
+  "title": "工作年齡占比與扶養比，方向相反",
+  "art": "docs/comics/art/q-269.svg",
+  "panels": [
+    {
+      "heading": "① 讀實線的比例",
+      "text": "原圖實線讀右軸，代表15至64歲占總人口的比例，先升後降。陰影讀左軸，是人數；不能把人數直接當扶養比。趨勢圖僅作示意。",
+      "alt": "工作年齡人口占比先升後降的概念趨勢，未標原圖年份或數值。"
+    },
+    {
+      "heading": "② 分母比例越高，扶養比越低",
+      "text": "例如每100人，工作年齡由50人增至75人，非工作年齡便由50人減至25人。扶養比由100%降至約33%。這是假設例，不是原圖數據。",
+      "alt": "假設每一百人的兩個長條，綠色工作年齡人口由五十增至七十五。"
+    },
+    {
+      "heading": "③ 把走勢反過來判讀",
+      "text": "扶養比＝非工作年齡人口÷工作年齡人口×100。工作年齡占比先升後降，扶養比就先降後升。年齡分類不等於實際就業人數。",
+      "alt": "扶養比先降後升的概念趨勢，與第一格比例方向相反。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：先降後升",
+    "points": [
+      "先辨認圖例與左右軸，抓工作年齡人口比例。",
+      "工作年齡占比p以小數表示時，扶養比＝(1－p)÷p×100。",
+      "原圖未來年份是預估值，示意曲線不代替原圖數據。"
+    ]
+  },
+  "rationale": "已查看原卷雙軸圖，確認實線比例先升後降；以不帶年份的概念趨勢與清楚標示假設的人口長條呈現反向關係，避免混淆人口數、比例與實際就業。",
+  "generationMethod": "authored SVG trend + native HTML/CSS",
+  "artSHA256": "93fd0eedd817bf9e290a1a1d38c1a771160ec328c949cfcf3e57f1b7a99c526e",
+  "createdAt": "2026-10-28T11:55:31.533984+00:00",
+  "visualChecked": true,
+  "geometryChecks": [
+    "Panel2:50/100與75/100占比長條，分別寬75與112.5／150",
+    "對應扶養比為100%與100/3%，僅為假設例，非原圖年份資料。"
+  ],
+  "nativeArt": "assets/comics/q-269-art-93fd0eedd8.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T12:02:25.474643+00:00",
+  "validationFile": "docs/comics/q-269-validation.json"
+}

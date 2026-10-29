@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f8f4"><meta name="description" content="把每一次錯題，整理成下一次的理解。依科目、章節與日期整理你的 AI 學習討論。">
+<link rel="canonical" href="https://weirugo.sibuzu.com/"><meta property="og:site_name" content="WeiRuGo"><meta property="og:title" content="WeiRuGo"><meta property="og:url" content="https://weirugo.sibuzu.com/">
+<title>WeiRuGo</title><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="comic.css">
+</head>
+<body>
+<a class="skip" href="#content">跳至題目內容</a>
+<aside class="sidebar">
+<a href="https://youtu.be/o0pGHSYXUKI" class="brand" target="_blank" rel="noopener noreferrer" aria-label="WeiRuGo! 影片（另開新分頁）"><img class="brand-logo" src="assets/weirugo-logo.png" alt="WeiRuGo!" width="2172" height="724"></a>
+<div class="workspace-label">我的學習空間 <span>個人</span></div>
+<nav aria-label="主要導覽" id="main-nav"></nav>
+<div class="nav-heading" id="subject-heading">依科目瀏覽 <span>09</span></div><nav aria-label="科目分類" id="subjects"></nav>
+<div class="sidebar-bottom"><span class="small-icon">↗</span><div>每次訂正，都是進步。<small>累積理解，慢慢來也沒關係。</small></div></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><nav class="breadcrumb" id="breadcrumb" aria-label="目前位置"><a href="#questions">我的學習空間</a><span>/</span><strong aria-current="page">全部錯題</strong></nav><div class="top-actions"><span class="storage-dot"></span><button class="local-label sync-status" id="sync-status" type="button" aria-live="polite">標記存在此瀏覽器</button></div></header>
+<main id="content" tabindex="-1">
+<div id="list-page">
+<div class="list-heading"><h1 id="page-title">全部錯題</h1><div class="view-switch" aria-label="顯示方式"><button id="grid-view" aria-label="卡片檢視" aria-pressed="false">▦</button><button id="list-view" class="active" aria-label="列表檢視" aria-pressed="true">☷</button></div></div>
+<section id="question-tools"><div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="search" placeholder="搜尋題目、觀念或關鍵字…" aria-label="搜尋錯題"></label><div class="filter-controls"><select id="answered-filter" aria-label="依作答狀態篩選"><option value="">全部</option><option value="done">已作</option><option value="not-done">未作</option></select><select id="volume-filter" aria-label="依冊次篩選"><option value="">所有冊次</option></select><select id="chapter-filter" aria-label="依章節篩選"><option value="">所有章節</option></select><select id="sort" aria-label="題目排序"><option value="newest">日期由新到舊</option><option value="oldest">日期由舊到新</option><option value="title">題目名稱排序</option></select></div></div></section>
+<section id="results" aria-label="題目列表"></section>
+</div>
+<section id="question-page" aria-label="題目內容" hidden><article id="detail" class="question-detail" tabindex="-1"></article></section>
+<footer><span class="footer-logo">wg.</span> 每一道錯題，都是理解的起點。<span class="footer-right">WeiRuGo · 學習持續累積中</span></footer>
+</main>
+</div>
+<dialog id="detail-dialog" class="detail-dialog"><div id="source-detail"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">請啟用 JavaScript 以瀏覽錯題與保存標記。</p></noscript>
+<script type="module" src="app.js"></script>
+</body></html>

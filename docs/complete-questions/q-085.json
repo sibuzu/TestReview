@@ -1,0 +1,32 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先求第三塊，再找兩塊相等的原因",
+    "art": "assets/comics/q-085-art-8893a669d6.svg",
+    "panels": [
+      {
+        "heading": "① 由同高三角形建立第一式",
+        "text": "設△AFP＝x、△BFP＝y、△CPE＝z。同高可得BD：DC＝4：3，故(x＋y)：(4＋z)＝4：3。",
+        "alt": "三線共點的原題配置，底部BPD與CPD分別著色且面積為4與3，其餘未知面積標x、y、z。"
+      },
+      {
+        "heading": "② 沿BE再列式，求出z",
+        "text": "△APE與△CPE同高，AE：EC＝4：z，故(x＋y)：7＝4：z。合併兩式得z(4＋z)＝21，取正值得z＝3，且x＋y＝28／3。",
+        "alt": "APB、APE、CPE分別著色，強調沿BE比較由A、C至BP的高，以及AE對EC的比例。"
+      },
+      {
+        "heading": "③ 這時才能推出x與y相等",
+        "text": "此時△ACP與△BCP面積都是7。沿CF看同高三角形，得到AF：FB＝1：1。因此x＝y，各為14／3。",
+        "alt": "ACP與BCP著兩色且各標面積7，AF與FB加相同記號表示推導完成後才知道兩段相等。"
+      }
+    ],
+    "fourth": {
+      "answer": "△CPE＝3；△AFP＝△BFP＝14／3",
+      "points": [
+        "同高三角形的面積比等於底邊比。",
+        "先由兩組比例解z，再推出F是AB中點。",
+        "題目沒有給P為重心，六塊面積也不相等。"
+      ]
+    }
+  }
+}

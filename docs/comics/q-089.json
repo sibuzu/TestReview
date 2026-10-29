@@ -1,0 +1,67 @@
+{
+  "id": "q-089",
+  "subject": "Earth",
+  "title": "岩石三大類，依形成方式分",
+  "art": "docs/comics/art/q-089.png",
+  "protectedWords": [
+    "火成岩",
+    "沉積岩",
+    "變質岩",
+    "冷卻凝固",
+    "壓密膠結",
+    "形成方式"
+  ],
+  "panels": [
+    {
+      "heading": "① 火成岩：熔融後冷卻凝固",
+      "text": "岩漿或熔岩冷卻凝固，形成火成岩。重點是原本熔融的物質變成固體；不必每種都經火山噴到地表。",
+      "alt": "地質觀察者在安全遠處觀察已凝固的熔岩地表，為火成岩的一種形成情境。"
+    },
+    {
+      "heading": "② 沉積岩：沉積物固結",
+      "text": "砂、泥等沉積物經壓密膠結等過程，形成沉積岩。分類重點是形成經過，不能只憑發現它的地點判斷。",
+      "alt": "河岸旁有砂粒與礫石，地質觀察者比較沉積物和已固結的層狀岩石。"
+    },
+    {
+      "heading": "③ 變質岩：固態岩石再改變",
+      "text": "原有岩石受高溫、高壓等影響，在未熔融的情況下改變，形成變質岩。別把變質誤認成熔化後再冷卻。",
+      "alt": "展示區比較固態岩石標本，其中一塊有條帶外觀，沒有熔融或滴落的岩漿。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：岩石的形成方式",
+    "points": [
+      "火成、沉積、變質，是三種形成過程。",
+      "礦物與外觀可作線索，三大類的根本依據仍是成因。",
+      "同一地點或同一年代，也可能有不同類岩石。"
+    ]
+  },
+  "rationale": "實看題組閱讀、原卷第30題及原編號岩層圖，A與形成過程分類吻合。新增情境只說明三種成因，不重繪原圖①至⑤、不讓生成模型決定層號或接觸關係；固態變質與熔融冷卻分開。無既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-089-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-089-reading-source-10ae27f717.jpg",
+    "site/dist/assets/questions/q-089-source-acaca2d54f.jpg",
+    "site/dist/assets/questions/q-089-figure-6347db2458.jpg"
+  ],
+  "answerCheckedAgainst": "A，三大岩石類依形成過程分類。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "0a2f37b022738218a6a320f5ee0634c7fffae103b9ecfb24ed6c2fb2b3b8ec8d",
+  "createdAt": "2026-10-28T17:33:28.020324+00:00",
+  "checkedAt": "2026-10-28T17:35:53.814017+00:00",
+  "validationFile": "docs/comics/q-089-validation.json",
+  "nativeArt": "assets/comics/q-089-art-0a2f37b022-web.webp"
+}

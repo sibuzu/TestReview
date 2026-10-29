@@ -1,0 +1,14 @@
+[Unit]
+Description=WeiRuGo read-only curation monitor
+After=network.target
+Conflicts=mv-monitor.service fermat-monitor.service maxwell-monitor.service moviego-monitor.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/jack/git/TestReview
+ExecStart=/usr/bin/python3 /home/jack/git/TestReview/monitor/server.py --host 0.0.0.0 --port 8765
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-28T16:22:33.353920+00:00",
+  "case": "q-318 names 阿科、小克、蘭蘭",
+  "validation": "65 site tests passed; 24 app/standalone layout checks passed across q-318, q-473, q-317, q-464",
+  "vocabulary": [
+    "阿科",
+    "小克",
+    "蘭蘭",
+    "區間測速",
+    "平均速率"
+  ],
+  "checks": [
+    "Optional vocabulary is validated, bounded, deduplicated and safely escaped",
+    "App and standalone share wrapping code and scoped vocabulary",
+    "All occurrences checked against rendered line boundaries at1440/1120/390",
+    "Original text retained, with no invisible separator characters inserted"
+  ],
+  "files": {
+    "site/dist/core.js": "359e5e9e9ab70307ce74bdaaa9ac49f5c4551a7a19f8e3c9c706a6d29be28b47",
+    "site/dist/teaching-comic.js": "337b223c83a1f5111bc3de664f9762c8c70d467738f4b6553d95bd6f9c575b53",
+    "site/scripts/teaching_comic.py": "ce4836a614a8bed590ca21934f8fa1f8c4002d8779a61072c7569f620d0609cd",
+    "site/scripts/attach-comic.py": "769b06c9e66ecb19c3d90e4609d04748e2a1c48be6bdab53770c8b046b31b240",
+    "site/tests/comic-wrap.test.mjs": "4515070b77e371a0406cd48ecebfaef8793be6ac2fa90a8c82e9e085b80dead3"
+  }
+}

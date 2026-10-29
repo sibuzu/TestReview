@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-10-27T15:17:30.318677+00:00",
+  "reason": "依使用者指示，先驗證10個Gemini來源的處理流程。",
+  "current": {
+    "batch": "gemini",
+    "order": 4
+  },
+  "next": {
+    "batch": "gemini",
+    "orders": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "after": [
+    "完成GPT尚餘來源及既有缺漏回查",
+    "續作Gemini第11–58來源（已完成或重複者不重做）"
+  ],
+  "scopeUnchanged": {
+    "gpt": 45,
+    "gemini": 58
+  },
+  "previousCompleted": {
+    "batch": "gpt",
+    "order": 37
+  },
+  "completedPriorityOrders": [
+    1,
+    2,
+    3
+  ]
+}

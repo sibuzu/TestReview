@@ -1,0 +1,124 @@
+{
+  "sourceOrder": 47,
+  "sourceUrl": "https://share.gemini.google/N0rIIlzzUieY",
+  "state": "duplicate",
+  "createdDate": "2026-09-19",
+  "createdDisplay": "Created with 3.8 Flash September 19, 2026 at 10:35 PM",
+  "questionIds": [
+    "q-082",
+    "q-083",
+    "q-084",
+    "q-085"
+  ],
+  "newQuestionIds": [],
+  "completeQuestionIds": [
+    "q-082",
+    "q-083",
+    "q-084",
+    "q-085"
+  ],
+  "pendingAnswerQuestionIds": [],
+  "questionMapping": {
+    "13": "q-082",
+    "14": "q-083",
+    "17": "q-084",
+    "18": "q-085"
+  },
+  "originalPhotos": 2,
+  "originalsVisuallyChecked": 2,
+  "fullArchiveTextRead": true,
+  "archiveTextLength": 25929,
+  "duplicateChecks": [
+    {
+      "number": "13",
+      "questionId": "q-082",
+      "reason": "完整題幹、所有數值、點線條件及原圖一致，日期保留2026-09-19",
+      "sourceId": "src-more-020"
+    },
+    {
+      "number": "14",
+      "questionId": "q-083",
+      "reason": "完整題幹、所有數值、點線條件及原圖一致，日期保留2026-09-19",
+      "sourceId": "src-more-020"
+    },
+    {
+      "number": "17",
+      "questionId": "q-084",
+      "reason": "完整題幹、所有數值、點線條件及原圖一致，日期保留2026-09-19",
+      "sourceId": "src-more-020"
+    },
+    {
+      "number": "18",
+      "questionId": "q-085",
+      "reason": "完整題幹、所有數值、點線條件及原圖一致，日期保留2026-09-19",
+      "sourceId": "src-more-020"
+    }
+  ],
+  "existingFinalEvidenceAndQuestionFiguresViewed": 8,
+  "independentChecks": [
+    "兩張原卷及忠實transpose=2旋轉副本均實際開啟。與既有四題的四張證據裁切、三張題圖及082純條件SVG逐一實看比對；相同條件不是只用URL／題號去重。",
+    "全文25929字已讀，包括反覆13題說明、14證明、一般比例觀念與17／18三次解說；逐行MathML擷取另整理11052字語意閱讀稿補讀，不以摘要冒充題幹。",
+    "13：C同時在AH與BG，△ABC∼△HGC，BC：CG＝1：3，BD／BH＝1／4，EF＝2CD使BF／BH＝1／2，因此1：1：2；原AI長度2→6的梯形假設錯誤，不存在缺條件或可任設兩端等距。",
+    "14：AO／AC＝a／(a＋b)，EO＝ab／(a＋b)；OF同理，所以EF＝2ab／(a＋b)，既有證明保留。",
+    "17：△BOC／S＝ab／(a＋b)²＝2／9。設r＝a／b，2r²－5r＋2＝0；a＜b取1／2。",
+    "18：設x＝CPE、T＝ABP，由AD及BE共高得3T＝4(4＋x)、xT＝28；x²＋4x－21＝0，正根3；ACP＝BCP＝7使F為AB中點，兩塊各14／3。",
+    "幾何實例再核對：13取B(0,0)、H(4,0)、A(0,2)、G(4,6)，交點C(1,1.5)、E(2,3)；18取B(0,0)、C(7,0)、A(0,20／3)、P(14／5,2)，E(4,20／7)、F(0,10／3)，面積逐塊符合原條件。",
+    "原AI生成圖實際取回768×1024PNG（已渲染img→同尺寸canvas，不是alt重製）；13圖形被改，14重複A取代D且蝴蝶結／金字塔頂點位置錯，整張排除並列確認，不將公式正確當整圖可用。",
+    "四題1440／390預設收合、必要題圖及展開證據皆載入，無溢出／例外／標題遮圖示，082手機展開截圖已實際檢視；原有54網站測試於同版程式已通過。"
+  ],
+  "answers": {
+    "q-082": "BD：DF：FH＝1：1：2。",
+    "q-083": "EF＝2ab／(a＋b)；且EO＝OF＝ab／(a＋b)。",
+    "q-084": "a／b＝1／2。",
+    "q-085": "△CPE＝3；△AFP＝△BFP＝14／3。"
+  },
+  "aiFigureReview": {
+    "generatedMetadata": 1,
+    "actuallyRetrieved": 1,
+    "actuallyViewed": 1,
+    "adoptedExplanationFigures": 0,
+    "skippedIllustration": {
+      "path": "docs/source-pages/gemini-N0rIIlzzUieY-ai-1.png",
+      "kind": "generated_explanation",
+      "sha256": "df326884a68529688bd6e34da5f1fd699163d0b53b30e73117fcfe42d714681c",
+      "bytes": 645695,
+      "alt": "Based on <IMAGE_0>, this new image provides a step-by-step visual explanation for problems 13 and 14. For Problem 13, the original trapezoid BGHX (with X as the bottom-right corner and top-right corner near A) is shown. On the right, a modified diagram demonstrates a crucial auxiliary line construction: from vertex B, a line (red, dashed) is drawn parallel to the entire right side (near A and G). This splits the trapezoid into a rectangle and a left-side right-angled triangle. This line is labeled '紅色虛線(輔助線, 平行右腰)' (Red dashed line (auxiliary line, parallel to right waist)). The green horizontal lines within the rectangle part are all length 2 (labeled '固定長度 2'), matching AB=2. The blue lines within the triangle part represent the increasing lengths, labeled '變化長度 (總計 4)', and specific lengths of these segments are shown as 'CD變: 4*(BD/BH)', 'EF變: 4*(BF/BH)', and 'GH變: 4'. Below the diagram, the formula is presented: '每一層線段 = 2 + 變化長度'. Arrows connect these visual elements, and the proportions are calculated to find BD:DF:FH.\n\nFor Problem 14, the diagram of the trapezoid ABCD with diagonals is shown, but with additional annotations and steps below it. First, a magnified \"Bowtie\" shape highlights triangles AOD and COB with a caption: '步驟1: 找出對角線比例 $\\triangle AOD \\sim \\triangle COB$'. Text below it reads: '比 = a : b $\\rightarrow \\frac{OA}{OC} = \\frac{a}{b} \\rightarrow \\frac{AO}{AC} = \\frac{a}{a+b}$'.\nSecond, a magnified \"Pyramid\" shape highlights triangles AEO and ABC with a caption: '步驟2: 投影求左半段 $\\overline{EO}$ ($\\triangle AEO \\sim \\triangle ABC$)'. Text reads: '利用 $\\frac{EO}{b} = \\frac{AO}{AC} = \\frac{a}{a+b} \\rightarrow \\overline{EO} = \\frac{ab}{a+b}$'.\nThird, a magnified \"Pyramid\" shape highlights triangles DOF and DBC with a caption: '步驟3: 投影求右半段 $\\overline{OF}$ ($\\triangle DOF \\sim \\triangle DBC$)'. Text reads: '利用 $\\frac{OF}{b} = \\frac{OD}{BD} = \\frac{a}{a+b} \\rightarrow \\overline{OF} = \\frac{ab}{a+b}$'.\nFinally, an arrow points to the text and diagram: '總結: $\\overline{EF} = \\overline{EO} + \\overline{OF} = \\frac{ab}{a+b} + \\frac{ab}{a+b} = \\frac{2ab}{a+b}$ (得證)'. All diagrams use consistent colors and clear typography on a white paper texture background., AI generated, AI generated",
+      "visualChecked": true,
+      "width": 768,
+      "height": 1024,
+      "decision": "excluded_inaccurate_illustration",
+      "note": "實際查看成品：13誤改交叉線為梯形並錯寫比例，14重複A取代D且COB等圖示頂點錯誤。整張不採用，原卷2張仍有效。"
+    },
+    "supplementalAcquisition": "docs/acquisition/gemini047-supplemental.json"
+  },
+  "browser": {
+    "checkedQuestionIds": [
+      "q-082",
+      "q-083",
+      "q-084",
+      "q-085"
+    ],
+    "viewports": [
+      1440,
+      390
+    ],
+    "errors": [],
+    "mobileOverflow": false,
+    "badgeIndependentOfIcons": true,
+    "headingsDoNotOverlapIcons": true,
+    "allAnswerEvidenceImagesLoaded": true
+  },
+  "mobileExpandedScreenshot": "/tmp/testreview-gemini047-mobile.png",
+  "mobileScreenshotViewed": true,
+  "confirmationIds": [
+    "correction-q-082-49ea12ab5cdf",
+    "correction-q-083-771edf20bb9e"
+  ],
+  "pendingConfirmationIds": [
+    "correction-q-082-49ea12ab5cdf",
+    "correction-q-083-771edf20bb9e"
+  ],
+  "checkedAt": "2026-10-28T07:16:35.770240+00:00",
+  "siteTestsPassed": 54,
+  "siteTestsLog": "/tmp/testreview-gemini047-tests.log"
+}

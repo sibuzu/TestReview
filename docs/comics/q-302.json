@@ -1,0 +1,57 @@
+{
+  "id": "q-302",
+  "subject": "Geography",
+  "title": "比較成員重疊，要看比例",
+  "art": "docs/comics/art/q-302.svg",
+  "panels": [
+    {
+      "heading": "① 東協：原圖十國全參與",
+      "text": "依原圖2020年簽署時的組合，東協10國全部參與RCEP。左圖每個圓代表一個成員，10個全部填色，即10／10。",
+      "alt": "ASEAN十個圓全部填色，表示原圖十個東協成員全參與。"
+    },
+    {
+      "heading": "② APEC：過半但非全體",
+      "text": "APEC有21個會員經濟體，其中12個參與原圖的RCEP組合。填色12個、留白9個，表示12／21；不能說完全沒有參與。",
+      "alt": "APEC二十一個圓，十二個填色、九個留白。"
+    },
+    {
+      "heading": "③ 分母不同，要比比例",
+      "text": "APEC重疊12個，數量比東協10個多；但占自身成員的比例，東協10／10更高。本題單選以東協最符合。",
+      "alt": "等寬長條比較10／10全滿與12／21約七分之四，清楚顯示比例差異。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：ASEAN，東協",
+    "points": [
+      "看組織自身有多大比例參與，不只比重疊人數。",
+      "依本題簽署時組合，東協10／10最明顯。",
+      "「大多數」不是所有情境通用的固定百分比門檻。"
+    ]
+  },
+  "rationale": "已查看原圖，依使用者確認的單選判準繪製精確成員點陣及等長比例條，避免只比12與10或誤說APEC毫無重疊；使用原圖2020年組合。",
+  "generationMethod": "authored SVG comparison chart + native HTML/CSS",
+  "artSHA256": "16bde314b14bc3b14db3e32e84144b807e1738085ef64e7dec121b927400c13a",
+  "createdAt": "2026-10-28T11:30:39.886104+00:00",
+  "visualChecked": true,
+  "geometryChecks": [
+    "Panel1:10/10 circlesfilled",
+    "Panel2:12/21 circlesfilled",
+    "Panel3:barwidths150 and150*12/21=85.714，等分母寬度比較比例。"
+  ],
+  "nativeArt": "assets/comics/q-302-art-16bde314b1.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T11:31:14.970480+00:00",
+  "validationFile": "docs/comics/q-302-validation.json",
+  "layoutUpdatedAt": "2026-10-28T11:57:24.395249+00:00"
+}

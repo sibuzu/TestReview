@@ -1,0 +1,57 @@
+{
+  "id": "q-124",
+  "subject": "Physics-Chemistry",
+  "title": "先統一單位，再按等速假設求時間",
+  "art": "docs/comics/art/q-124.svg",
+  "panels": [
+    {
+      "heading": "① 查2.0毫米那一列",
+      "text": "前題給雨滴直徑2.0毫米，表中對應終端速度23.4公里／小時。不要誤選5.0毫米那列的32.4。",
+      "alt": "精確重列2.0毫米對應23.4公里每小時，另列5.0毫米作誤讀比較。"
+    },
+    {
+      "heading": "② 把公分與公里／小時換掉",
+      "text": "300公分是3公尺。速度23.4乘1000，再除3600，換成每秒6.5公尺。距離與速度要用相容的單位。",
+      "alt": "抽象身高量尺300公分等於3公尺，以及速度換算；不是原角色的外形復原。"
+    },
+    {
+      "heading": "③ 題目已指定一路等速",
+      "text": "時間＝距離除以速度。3除6.5約0.4615秒，取小數點後兩位是0.46秒。等速圖的水平線表示速度一直維持6.5。",
+      "alt": "速度時間圖為水平線，面積對應3公尺；末時刻3除6.5約0.46秒，顯示四捨五入值。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：0.46秒",
+    "points": [
+      "用300公尺代入，會把距離放大100倍。",
+      "不能直接拿300除23.4，兩者單位不相容。",
+      "本題已給終端速度且假設等速，不用從靜止自由落體公式。"
+    ]
+  },
+  "rationale": "已實看完整閱讀表格與原卷第17題，獨立驗算2.0毫米查值、300公分換算與等速時間。採精確表列、量尺及速度時間圖，避免生成圖錯列數據或誤畫加速下落。",
+  "generationMethod": "authored SVG units and motion graph + native HTML/CSS",
+  "artSHA256": "1c233eab34bcc4bcd19ada38dad4ac8ef7ec338cc22a8936b41ea4279a13a2e1",
+  "createdAt": "2026-10-28T14:50:21.615754+00:00",
+  "visualChecked": true,
+  "diagramChecks": [
+    "2.0毫米對應23.4公里／小時；5.0毫米對應32.4",
+    "300公分＝3公尺；23.4×1000／3600＝6.5",
+    "圖中終點按3／6.5，標籤僅顯示近似0.46",
+    "6.5×(3／6.5)＝3，速度時間圖面積與路程一致"
+  ],
+  "nativeArt": "assets/comics/q-124-art-1c233eab34.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T14:51:17.398881+00:00",
+  "validationFile": "docs/comics/q-124-validation.json"
+}

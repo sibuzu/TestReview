@@ -1,0 +1,32 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "分別求左右兩段，再相加",
+    "art": "assets/comics/q-083-art-a359c89791.svg",
+    "panels": [
+      {
+        "heading": "① 先求對角線分段比",
+        "text": "AD平行BC，所以△AOD與△COB相似，AO：OC＝a：b。因此AO占AC的a／(a＋b)，CO占CA的b／(a＋b)。",
+        "alt": "梯形中上下兩個對角線三角形著色，標出上底a與下底b。"
+      },
+      {
+        "heading": "② 從△ABC求EO",
+        "text": "EO平行BC，△AEO與△ABC相似。EO／b＝AO／AC＝a／(a＋b)，因此EO＝ab／(a＋b)。",
+        "alt": "三角形ABC與小三角形AEO分別著色，橘線強調EO。"
+      },
+      {
+        "heading": "③ 從△CDA求OF",
+        "text": "OF平行AD，△COF與△CAD相似。OF／a＝CO／CA＝b／(a＋b)，因此OF也等於ab／(a＋b)。",
+        "alt": "三角形CAD與小三角形COF分別著色，橘線強調OF。"
+      }
+    ],
+    "fourth": {
+      "answer": "EF＝EO＋OF＝2ab／(a＋b)",
+      "points": [
+        "EO與OF相等，都為ab／(a＋b)。",
+        "過對角線交點，不等於連接兩腰中點。",
+        "一般不能把EF直接算成(a＋b)／2。"
+      ]
+    }
+  }
+}

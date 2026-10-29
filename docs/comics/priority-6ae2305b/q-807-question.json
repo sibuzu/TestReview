@@ -1,0 +1,19 @@
+{
+  "id":"q-807", "sourceId":"src-extra-gpt-001", "subject":"Math", "title":"數學第18題｜奇偶項和與相鄰配對公差",
+  "chapter":"綜合", "volume":"綜合", "date":"2026-10-29", "dateLabel":"首次出題日期", "addedAt":"2026-10-29",
+  "question":"已知一等差數列共12項，若奇數項的和為10，偶數項的和為18，則此數列公差為何？\n\n(A) 2/3\n(B) 4/3\n(C) 3/2\n(D) 3/4",
+  "answer":"正確答案：B，公差為4/3。",
+  "explanation":"一、奇數項與下一個偶數項配成6對\n12項的奇數位置為第1、3、5、7、9、11項，偶數位置為第2、4、6、8、10、12項。把每個偶數項減去前一個奇數項，如a₂−a₁、a₄−a₃，一直到a₁₂−a₁₁，每一對的差都等於公差d。\n\n二、兩組的和相減\n偶數項和−奇數項和＝18−10＝8。另一邊有6對、每對差d，因此6d＝8，d＝8/6＝4/3，選B。分母是配對數6，不是總項數12。\n\n三、獨立回代\n取首項a₁＝−5、公差d＝4/3，則六個奇數項的和為6a₁＋30d＝−30＋40＝10；六個偶數項的和為6a₁＋36d＝−30＋48＝18，兩個條件都成立。\n\n易錯處：相鄰奇偶項只差d；第3項減第1項才是2d。這個完整配對方法用在本題的偶數個等差數列項。",
+  "trap":"", "tags":["等差數列","奇偶項","相鄰配對"], "verification":"原題已核對",
+  "verificationNote":"已實看並忠實旋轉裁切原卷第18題，核對12項、奇數項和10、偶數項和18及四個分數選項。獨立用相鄰配對求公差，再以首項−5、公差4/3精確回代兩和。教材課次未確認，歸綜合。",
+  "diagram":"", "notes":"", "status":"todo", "starred":false, "sourceLabel":"優先分享原卷｜第18題", "studentAnswer":"原卷黑筆C，紅筆改B", "contentStatus":"完整原題", "correctOption":"B",
+  "images":["assets/questions/q-807-source.jpg"],
+  "optionAnalysis":[
+    {"label":"A","text":"2/3","wordClass":"不選","meaning":"","explanation":"6d＝4，不等於兩組和的差8。"},
+    {"label":"B","text":"4/3","wordClass":"應選","meaning":"","explanation":"6d＝8，符合偶數項和18減奇數項和10。"},
+    {"label":"C","text":"3/2","wordClass":"不選","meaning":"","explanation":"6d＝9，不等於兩組和的差8。"},
+    {"label":"D","text":"3/4","wordClass":"不選","meaning":"","explanation":"6d＝9/2，不等於兩組和的差8。"}
+  ],
+  "passage":"", "tables":[], "questionFigures":[], "explanationFigures":[],
+  "originalMaterials":["docs/source-pages/priority-6ae2305b-03.jpg"], "sourceMessageIndex":189
+}

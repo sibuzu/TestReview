@@ -1,0 +1,55 @@
+{
+  "id": "q-136",
+  "subject": "Math",
+  "title": "完全平方：三個係數對對看",
+  "art": "docs/comics/art/q-136.png",
+  "panels": [
+    {
+      "heading": "① 先展開，別漏中間項",
+      "text": "(ax＋b)²\n＝a²x²＋2abx＋b²\n和 4x²－20x＋m 逐項對照。",
+      "alt": "學生展開整理卡片。"
+    },
+    {
+      "heading": "② 三個位置，各自配對",
+      "text": "a²＝4且a＞0，得a＝2。由2ab＝－20，代入a＝2得b＝－5；最後m＝b²＝25。",
+      "alt": "學生配對不同顏色的卡片。"
+    },
+    {
+      "heading": "③ 減去負數，變成加",
+      "text": "m＋a－b＝25＋2－(－5)＝25＋2＋5＝32。別把b＝－5看成b＝5。",
+      "alt": "學生核對計算結果。"
+    }
+  ],
+  "takeaway": "答案 C：32｜中間項是 2abx；－b 要看符號。",
+  "note": "配對卡是學習比喻，不是面積模型；公式由程式排版。",
+  "rationale": "用同色配對比喻逐項比較係數，將實際公式與負號另行精確排版。",
+  "promptSummary": "三格無字動漫，學生展開卡片、配對三種色卡、驗算；不以插畫表示數量或面積。",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T10:02:49.527337+00:00",
+  "answerCheckedAgainst": "正確答案：C。展開比較係數得a＝2、b＝－5、m＝25，所以m＋a－b＝32。",
+  "artSHA256": "c574024039c1322950984f0bb5bf6c55d0c0800c8869f06cb8702eff331f8390",
+  "fourth": {
+    "heading": "④ 一眼記住",
+    "answer": "答案 C：32",
+    "points": [
+      "a＝2，b＝－5，m＝25",
+      "m＋a－b＝25＋2－(－5)＝32",
+      "完全平方中間項是2abx；減負數變加。"
+    ]
+  },
+  "layoutVersion": "native-fluid-v6",
+  "layoutSHA256": "09a594bf856c899690fe826a231e82ad6e8ace1f5fc02be8de92b65dbc14757d",
+  "nativeArt": "assets/comics/q-136-art-c574024039-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "layoutUpdatedAt": "2026-10-28T11:57:24.395249+00:00"
+}

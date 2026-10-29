@@ -1,0 +1,34 @@
+{
+  "title": "數學第7題｜梯形中點到斜腰的距離",
+  "question": "如圖，梯形ABCD中，AB∥CD，∠A＝90°，AB＝4，CD＝3，BC＝7，O為AD的中點，求O到BC的距離。",
+  "answer": "O到BC的距離＝2√3。",
+  "explanation": "一、先求梯形的高\n從C向AB作垂線，垂足為H。因∠A＝90°，AH＝CD＝3，所以BH＝4－3＝1。\n在直角三角形BHC中，CH²＝BC²－BH²＝7²－1²＝48，因此梯形高AD＝CH＝4√3。\n\n二、計算三角形BCO的面積\n梯形面積＝(4＋3)×4√3÷2＝14√3。\nO是AD中點，OA＝OD＝2√3。\n△ABO面積＝4×2√3÷2＝4√3；△CDO面積＝3×2√3÷2＝3√3。\n所以△BCO面積＝14√3－4√3－3√3＝7√3。\n\n三、改用BC當底\n設O到BC的垂直距離為d，則7×d÷2＝7√3，得d＝2√3。\n\n要求點到直線的距離，指的是垂直線段長；不能把OA或OC的長度未經證明直接代入。圖中的3、4、7是已知邊長，不是沿AD分段的長度。",
+  "sourceLabel": "分享原卷｜數學第7題",
+  "studentAnswer": "2√3",
+  "contentStatus": "完整原題",
+  "verification": "原題已核對",
+  "verificationNote": "已核對完整題幹、全部選項與作答所需圖表；對應冊次章節未確認，歸綜合。",
+  "images": [
+    "assets/questions/q-009-source-ebc4275300.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-009-given.svg",
+      "alt": "直角梯形ABCD，AB長4、CD長3、BC長7，O為AD中點",
+      "caption": "依原卷重繪的已知條件圖，移除手寫解答；原卷於收合區保留"
+    }
+  ],
+  "tables": [],
+  "passage": "",
+  "optionAnalysis": [],
+  "correctOption": "",
+  "diagram": "",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "trap": "",
+  "tags": [
+    "梯形",
+    "點到直線距離",
+    "面積法"
+  ]
+}

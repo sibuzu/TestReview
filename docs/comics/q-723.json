@@ -1,0 +1,69 @@
+{
+  "id": "q-723",
+  "subject": "English",
+  "title": "問到現在完成了沒，句尾用yet",
+  "art": "docs/comics/art/q-723.png",
+  "startedAt": "2026-10-28T17:15:52.024983+00:00",
+  "panels": [
+    {
+      "heading": "① 問的是「完成了沒」",
+      "text": "Ada問Pete：你的姊妹到現在還沒完成作業嗎？finished her homework是完成作業，重點是到現在的完成情況。",
+      "alt": "Ada向Pete詢問與作業有關的事情；畫面沒有顯示姊妹實際完成或未完成作業。"
+    },
+    {
+      "heading": "② yet接在問句末尾",
+      "text": "Hasn't your sister finished her homework yet? 這裡yet表示「到現在為止」，用來詢問是否已完成。",
+      "alt": "Ada指著作業本思考時間範圍，桌邊有無數字的時鐘，對應到現在為止的詢問。"
+    },
+    {
+      "heading": "③ 回答不確定，不是說沒做",
+      "text": "Pete回答I don't know.，就是「我不知道」。不能把這句讀成姊妹一定還沒完成，也不能因為是問句就認定已經完成。",
+      "alt": "Pete攤手表示不確定，對應他不知道姊妹作業狀況的回答。"
+    }
+  ],
+  "fourth": {
+    "answer": "本題預期 D：yet",
+    "points": [
+      "完成式問句末尾的yet：到現在完成了沒。",
+      "then是「那時」，不合本題現在的詢問。",
+      "already也能用在有驚訝或期待的問句；本卷預期yet。"
+    ]
+  },
+  "protectedWords": [
+    "Ada",
+    "Pete",
+    "yet",
+    "already",
+    "don't know"
+  ],
+  "rationale": "原題預期D已確認，保留原解說already問句可用的界線。三格避免把I don't know畫成姊妹確實沒做完，透過詢問、到現在時間點與不確定反應支持語意判讀。",
+  "promptSummary": "三格無字動漫：Ada詢問Pete、Ada思考作業與現在時點、Pete攤手表示不知道。不要畫姊妹未完成作業作為既定事實。",
+  "answerCheckedAgainst": "本題預期：(D) yet。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-723-source-073cb5bc92.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T17:18:30.562538+00:00",
+  "checkedAt": "2026-10-28T17:22:25.083165+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T17:16:15.624Z",
+  "generationCompletedAt": "2026-10-28T17:16:08.578Z",
+  "artSHA256": "f1dd5b11855c5b4d9770f8045668ae509e0467bb471cfd0a7960d60998caeb5c",
+  "previewValidation": "docs/comics/q-723-preview-validation.json",
+  "visualReview": "原卷問句及Pete回答已實看，維持預期Dyet，原解說already問句可用的界線保留。插畫只顯示詢問與不確定，未把姊妹一定沒完成畫成事實。原始三圖與1440/390成品實看；移除過長英文片語保護，讓finished her homework在完整單字間自然換行，重跑三寬QA全過，無溢出。",
+  "nativeArt": "assets/comics/q-723-art-f1dd5b1185-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-723-validation.json"
+}

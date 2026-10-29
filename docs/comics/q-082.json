@@ -1,0 +1,56 @@
+{
+  "id": "q-082",
+  "subject": "Math",
+  "title": "先找整段位置，再相減求中段",
+  "art": "docs/comics/art/q-082.svg",
+  "panels": [
+    {
+      "heading": "① 交叉線先求相似比",
+      "text": "△ABC與△HGC相似，BC：CG＝AB：GH＝1：3。因此BC占整段BG的1／4，不能把部分比直接當整段比。",
+      "alt": "兩個交叉相似三角形分別著色，AB長2、GH長6。"
+    },
+    {
+      "heading": "② 平行線換到底邊位置",
+      "text": "CD平行GH，得BD：BH＝1：4，且CD＝6／4。EF是CD的2倍，得EF＝3，所以BF：BH＝1：2。",
+      "alt": "大三角形BGH中標出平行的CD、EF，對應D與F的底邊位置。"
+    },
+    {
+      "heading": "③ 整段分成四份再相減",
+      "text": "把BH當4份，BD是1份、BF是2份。因此DF＝BF－BD＝1份，FH＝BH－BF＝2份。BF包含BD與DF，不等於DF。",
+      "alt": "底邊B到H依D、F分成橘色一份、綠色一份、藍色兩份。"
+    }
+  ],
+  "fourth": {
+    "answer": "BD：DF：FH＝1：1：2",
+    "points": [
+      "BC：CG＝1：3，所以BC：BG＝1：4。",
+      "先定位BD與BF，再用相減求DF。",
+      "四條截線平行，比例才能在交叉線與底邊之間對應。"
+    ]
+  },
+  "rationale": "已實際查看原卷並核對原SVG，利用相似三角形著色、截線與底邊三段示意分清部分比和整段比，尤其避免把BF當成DF。",
+  "generationMethod": "authored SVG geometry + native HTML/CSS",
+  "artSHA256": "dedabb3457627901922134e3ed650e731848e580dfc46c3268ce4f5f688bd179",
+  "createdAt": "2026-10-28T12:11:57.027993+00:00",
+  "visualChecked": true,
+  "geometryChecks": [
+    "AB=20、GH=60，比例1：3；C=(55,105)為AH與BG交點。",
+    "D在BH的1/4、F在BH的1/2；CD=15，EF=30。",
+    "BD=35、DF=35、FH=70，比例1：1：2。"
+  ],
+  "nativeArt": "assets/comics/q-082-art-dedabb3457.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T12:12:32.998119+00:00",
+  "validationFile": "docs/comics/q-082-validation.json"
+}

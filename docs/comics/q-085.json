@@ -1,0 +1,57 @@
+{
+  "id": "q-085",
+  "subject": "Math",
+  "title": "先求第三塊，再找兩塊相等的原因",
+  "art": "docs/comics/art/q-085.svg",
+  "panels": [
+    {
+      "heading": "① 由同高三角形建立第一式",
+      "text": "設△AFP＝x、△BFP＝y、△CPE＝z。同高可得BD：DC＝4：3，故(x＋y)：(4＋z)＝4：3。",
+      "alt": "三線共點的原題配置，底部BPD與CPD分別著色且面積為4與3，其餘未知面積標x、y、z。"
+    },
+    {
+      "heading": "② 沿BE再列式，求出z",
+      "text": "△APE與△CPE同高，AE：EC＝4：z，故(x＋y)：7＝4：z。合併兩式得z(4＋z)＝21，取正值得z＝3，且x＋y＝28／3。",
+      "alt": "APB、APE、CPE分別著色，強調沿BE比較由A、C至BP的高，以及AE對EC的比例。"
+    },
+    {
+      "heading": "③ 這時才能推出x與y相等",
+      "text": "此時△ACP與△BCP面積都是7。沿CF看同高三角形，得到AF：FB＝1：1。因此x＝y，各為14／3。",
+      "alt": "ACP與BCP著兩色且各標面積7，AF與FB加相同記號表示推導完成後才知道兩段相等。"
+    }
+  ],
+  "fourth": {
+    "answer": "△CPE＝3；△AFP＝△BFP＝14／3",
+    "points": [
+      "同高三角形的面積比等於底邊比。",
+      "先由兩組比例解z，再推出F是AB中點。",
+      "題目沒有給P為重心，六塊面積也不相等。"
+    ]
+  },
+  "rationale": "已實看原卷A上B左下C右下與AD、BE、CF共點配置，精確重建非重心P；獨立以座標鞋帶公式驗證六塊面積4、3、4、3、14／3、14／3。",
+  "generationMethod": "authored SVG geometry + native HTML/CSS",
+  "artSHA256": "8893a669d6584b4fdc995f13f01ea864e3176214350843da0a0d06c1c81e1005",
+  "createdAt": "2026-10-28T13:16:32.068113+00:00",
+  "visualChecked": true,
+  "geometryChecks": [
+    "A(90,20)、B(20,150)、C(160,150)、P(97,111)",
+    "D(100,150)、E(130,660／7)、F(55,85)，三線共點",
+    "面積比例轉換因數390，BPD＝APE＝4，CPD＝CPE＝3，AFP＝BFP＝14／3",
+    "全圖面積70／3，P的重心座標為3：3：4，不是重心"
+  ],
+  "nativeArt": "assets/comics/q-085-art-8893a669d6.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T13:17:13.056404+00:00",
+  "validationFile": "docs/comics/q-085-validation.json"
+}

@@ -1,0 +1,8 @@
+{
+  "switchedAt": "2026-10-27T13:37:18.794303+00:00",
+  "port": 8765,
+  "previousService": "mv-monitor.service",
+  "enabled": "enabled",
+  "active": "active",
+  "unit": "# /home/jack/.config/systemd/user/mv-monitor.service\n[Unit]\nDescription=MV read-only production monitor\nAfter=network.target\nConflicts=fermat-monitor.service maxwell-monitor.service moviego-monitor.service\n\n[Service]\nType=simple\nWorkingDirectory=/home/jack/ai/WeiRuGo\nExecStart=/usr/bin/python3 /home/jack/ai/WeiRuGo/monitor/server.py --host 0.0.0.0 --port 8765\nRestart=on-failure\nRestartSec=3\n\n[Install]\nWantedBy=default.target\n"
+}

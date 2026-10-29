@@ -1,0 +1,58 @@
+{
+  "sourceOrder": 4,
+  "imageIndex": 8,
+  "questionIds": [
+    "q-228",
+    "q-229",
+    "q-230",
+    "q-231",
+    "q-232",
+    "q-233"
+  ],
+  "checks": {
+    "q-228": {
+      "A_left_leg": 5.0,
+      "A_right_leg": 5.0,
+      "A_parallel_bases": true,
+      "A_opposite_legs_not_parallel": true
+    },
+    "q-229": {
+      "squareSide": 12,
+      "BF": 21.0,
+      "CDFarea": 54.0,
+      "BC": 30.0
+    },
+    "q-230": {
+      "BF": 10.0,
+      "AC": 21.0,
+      "areaRatio": 0.5714285714285714,
+      "perimeter": 54.0
+    },
+    "q-231": {
+      "cutAngle": 45.0,
+      "shortBase": 6,
+      "longBase": 14
+    },
+    "q-232": {
+      "P": [
+        -3.888888888888889,
+        -3.5555555555555554
+      ],
+      "PABarea": 6.222222222222221,
+      "PCDarea": 62.22222222222222,
+      "AC": 8.0,
+      "BD": 14.0
+    },
+    "q-233": {
+      "DE": 3.8729833462074166,
+      "areaRatio": 0.49999999999999994,
+      "squareArea": 23.999999999999996
+    }
+  },
+  "visualChecked": true,
+  "browserCheckedQuestions": 6,
+  "browserErrors": [],
+  "mobileOverflow": false,
+  "unitTestsPassed": 46,
+  "notes": "修正相片斜拍造成的裁切上緣，完整保留坐標題所有條件及菱形原圖上方。"
+}

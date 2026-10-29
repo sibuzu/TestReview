@@ -1,0 +1,19 @@
+{
+  "id":"q-809", "sourceId":"src-extra-gpt-001", "subject":"Math", "title":"數學第23題｜每10天兌換與星期循環",
+  "chapter":"綜合", "volume":"綜合", "date":"2026-10-29", "dateLabel":"首次出題日期", "addedAt":"2026-10-29",
+  "question":"小君有6張優惠券，每張可以在春天甜品店免費兌換一個甜筒冰淇淋。她決定每10天使用1張優惠券兌換一個甜筒冰淇淋直到用完這6張優惠券為止。已知春天甜品店每週的星期日不開門，小君在月曆中記錄這6次兌換的日期，發現沒有一天是星期日，請問小君第一次使用優惠券兌換甜筒冰淇淋是在星期幾？\n\n(A) 星期一\n(B) 星期二\n(C) 星期三\n(D) 星期四",
+  "answer":"正確答案：C，星期三。",
+  "explanation":"一、將10天換成星期的移動\n一週有7天，10＝7＋3，因此經過10天，星期只需往後推3天。例如星期三過10天是星期六，再過10天便是星期二。跨過星期日後，要接回星期一。\n\n二、四個選項都列滿6次\nA從星期一開始：一、四、日、三、六、二，第3次遇到星期日，排除。\nB從星期二開始：二、五、一、四、日、三，第5次遇到星期日，排除。\nC從星期三開始：三、六、二、五、一、四，全部不是星期日，符合。\nD從星期四開始：四、日、三、六、二、五，第2次遇到星期日，排除。\n所以只有C星期三符合。\n\n三、次數與間隔不要混淆\n第一次兌換已算第1次，6次兌換之間只有5個10天的間隔。必須檢查這6次，不要額外加算第7次，也不要把星期的變化誤算成往後2天。",
+  "trap":"", "tags":["星期循環","固定間隔","逐項驗算"], "verification":"原題已核對",
+  "verificationNote":"已實看並忠實旋轉裁切原卷第23題，核對6張、每10天、週日不營業、6次都不遇週日及四選項；獨立逐次加10天驗算各起始日，唯一符合為星期三。沒有虛構月份、日期或實際營業資訊。教材課次未確認，歸綜合。",
+  "diagram":"", "notes":"", "status":"todo", "starred":false, "sourceLabel":"優先分享原卷｜第23題", "studentAnswer":"原卷黑筆B，紅筆改C", "contentStatus":"完整原題", "correctOption":"C",
+  "images":["assets/questions/q-809-source.jpg"],
+  "optionAnalysis":[
+    {"label":"A","text":"星期一","wordClass":"不選","meaning":"","explanation":"六次為一、四、日、三、六、二，第3次遇週日。"},
+    {"label":"B","text":"星期二","wordClass":"不選","meaning":"","explanation":"六次為二、五、一、四、日、三，第5次遇週日。"},
+    {"label":"C","text":"星期三","wordClass":"應選","meaning":"","explanation":"六次為三、六、二、五、一、四，都不在星期日。"},
+    {"label":"D","text":"星期四","wordClass":"不選","meaning":"","explanation":"六次為四、日、三、六、二、五，第2次遇週日。"}
+  ],
+  "passage":"", "tables":[], "questionFigures":[], "explanationFigures":[],
+  "originalMaterials":["docs/source-pages/priority-6ae2305b-05.jpg"], "sourceMessageIndex":212
+}

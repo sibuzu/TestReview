@@ -1,0 +1,65 @@
+{
+  "id": "q-725",
+  "subject": "English",
+  "title": "省略動作，保留助動詞",
+  "art": "docs/comics/art/q-725.png",
+  "protectedWords": [
+    "Eric",
+    "Tony",
+    "has done",
+    "Tony hasn't",
+    "現在完成式",
+    "助動詞"
+  ],
+  "panels": [
+    {
+      "heading": "① Eric 已完成大部分",
+      "text": "Eric has done most of his homework 用 has done，表示他已完成大部分作業。注意這是現在完成式。",
+      "alt": "穿藍色上衣的學生將接近完成的作業放在一旁，桌上仍有待處理的部分。"
+    },
+    {
+      "heading": "② but 換成 Tony 的對照",
+      "text": "but 表示轉折：Eric 已完成大部分，但 Tony 還沒有。這裡是尚未完成大部分，不是說 Tony 完全沒寫。",
+      "alt": "穿綠色上衣的另一位學生仍認真寫作業，已做了一些但還有不少未完成。"
+    },
+    {
+      "heading": "③ 省略後仍保留 hasn't",
+      "text": "Tony hasn't 後省略 done most of his homework，避免重複。前面是 has done，否定承接就用 hasn't。",
+      "alt": "老師與兩名學生比較作業進度，第一位接近完成，另一位仍有未完成作業。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：Tony hasn't",
+    "points": [
+      "完整意思：Tony hasn't done most of his homework。",
+      "省略的是重複動作，助動詞 has 的否定仍要留下。",
+      "doesn't、isn't、didn't 不承接本句的 has done。"
+    ]
+  },
+  "rationale": "實看第7回第14題原卷與四選項，A以hasn't承接has done正確。以兩人的作業進度對照支持省略概念，不把hasn't done most誤教成完全沒寫，不虛構精確完成頁數。所有助動詞與省略內容用HTML。無既有AI圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-725-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-725-source-d536b826c5.jpg"
+  ],
+  "answerCheckedAgainst": "A Tony hasn't，承接Eric has done的完成式。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "f0a615b5b911941585bc9d051d6e4102981cfe306914d13b20b90457fdb63c8e",
+  "createdAt": "2026-10-28T17:20:35.098115+00:00",
+  "checkedAt": "2026-10-28T17:25:44.983248+00:00",
+  "validationFile": "docs/comics/q-725-validation.json",
+  "nativeArt": "assets/comics/q-725-art-f0a615b5b9-web.webp"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "q-279",
+  "subject": "Physics-Chemistry",
+  "title": "同一次反應，分清誰氧化、誰還原",
+  "art": "docs/comics/art/q-279.svg",
+  "panels": [
+    {
+      "heading": "① 先看哪一管褪色",
+      "text": "三管液體各10mL，碘液各1mL。充分搖勻後，甲、丙仍褐色，只有乙變無色；先鎖定蘋果汁這一組。",
+      "alt": "三支試管依甲乙丙排列，甲丙褐色、乙無色；淺藍僅表示透明液體。"
+    },
+    {
+      "heading": "② 依題幹判定碘被還原",
+      "text": "題幹已說明褐色變無色的機制是還原。因此乙組中的碘被還原；用電子觀念補充，就是碘得到電子。",
+      "alt": "電子符號向碘移動，表示碘得到電子、發生還原；為角色示意，非配平反應式。"
+    },
+    {
+      "heading": "③ 配對判斷另一方被氧化",
+      "text": "氧化與還原相伴發生。使碘還原的蘋果汁成分提供電子，自己被氧化；「使別人還原」不等於「自己被還原」。",
+      "alt": "電子由蘋果汁中某些成分移出，表示提供電子的一方被氧化，未指定是哪一成分。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：乙組蘋果汁有成分被氧化",
+    "points": [
+      "觀察到褪色，再依本題給定機制判讀。",
+      "碘被還原，與蘋果汁某些成分被氧化是同一次反應的兩面。",
+      "不能只憑褪色就認定是哪個成分，也不能推論甲丙在所有條件下都不反應。"
+    ]
+  },
+  "rationale": "已查看原卷表九及完整四選項，原有AI漫畫在原對話可見但分享無法取得；採可校對的精確實驗與電子方向圖，避免生成圖誤置試管顏色或氧化還原箭頭。",
+  "generationMethod": "authored SVG experiment and electron-role diagrams + native HTML/CSS",
+  "artSHA256": "7a4fe324a8513585ae5e00edd945a4b7f9e9b98d9f735001f396a02f8b5342af",
+  "createdAt": "2026-10-28T12:56:42.349399+00:00",
+  "visualChecked": true,
+  "diagramChecks": [
+    "甲酒精、丙水均褐色，乙蘋果汁無色",
+    "還原接受電子、氧化提供電子；兩圖均為角色示意而非反應計量",
+    "不指定蘋果汁反應成分"
+  ],
+  "nativeArt": "assets/comics/q-279-art-7a4fe324a8.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-10-28T12:57:07.956416+00:00",
+  "validationFile": "docs/comics/q-279-validation.json"
+}

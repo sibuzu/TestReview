@@ -1,0 +1,55 @@
+{
+  "id": "q-317",
+  "subject": "Math",
+  "title": "看傾斜方向，再消去共同重量",
+  "art": "docs/comics/art/q-317.svg",
+  "panels": [
+    {
+      "heading": "① 圖一左低：方形比星形重",
+      "text": "左盤較低，所以左盤較重。兩盤各拿掉1個方形、1個星形及1個圓形，剩下2個方形比2個星形重，因此□＞☆。",
+      "alt": "圖一消去共同物件後，左盤兩個方形仍較低，右盤兩個星形較高，表示方形比星形重。"
+    },
+    {
+      "heading": "② 圖二右低：星形比圓形重",
+      "text": "右盤較低，所以右盤較重。兩盤各拿掉2個方形、1個星形與1個圓形，剩下左盤3個圓形、右盤3個星形，因此●＜☆。",
+      "alt": "圖二消去共同物件後，左盤三個圓形較高，右盤三個星形較低，表示圓形比星形輕。"
+    },
+    {
+      "heading": "③ 同數量比較，再合併大小",
+      "text": "圖一得到方形大於星形，圖二得到星形大於圓形。把共同的星形接起來，順序就是方形、星形、圓形，由重到輕。",
+      "alt": "三種圖形依方形大於星形大於圓形排列，圖形大小不表示重量比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：□＞☆＞●",
+    "points": [
+      "傾斜天平用不等式，較低的一端較重，不能寫兩盤相等。",
+      "兩盤同時拿掉相同物件，不改變原有的重量大小關係。",
+      "剩下同數量物件後，才比較單個物件的重量。"
+    ]
+  },
+  "rationale": "實看原圖兩座傾斜方向與全部物件數量，沿用使用者確認C。以精確消去圖表呈現兩個不等式，不沿用原AI誤寫平衡等式；圖中是消去後比較，非原卷或新測量。",
+  "generationMethod": "authored SVG balance inequality diagram; teaching paragraphs rendered in HTML/CSS",
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-317-art-10a663d308.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "10a663d3080cc38cbadb3d943934e74421d8c7d6080efc350130ffa96f3849bf",
+  "createdAt": "2026-10-28T16:08:10.683025+00:00",
+  "contentChecks": [
+    "Exhaustive 343 positive integer weight triples verify original inequalities iff b>s>c",
+    "Original counts: (3b+s+c)>(b+3s+c); (4c+2b+s)<(c+2b+4s)"
+  ],
+  "checkedAt": "2026-10-28T16:08:50.958605+00:00",
+  "validationFile": "docs/comics/q-317-validation.json"
+}

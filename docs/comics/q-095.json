@@ -1,0 +1,73 @@
+{
+  "id": "q-095",
+  "subject": "Geography",
+  "title": "人口曲線要看整段，也要看年份",
+  "art": "docs/comics/art/q-095.png",
+  "startedAt": "2026-10-28T17:00:50.679231+00:00",
+  "panels": [
+    {
+      "heading": "① 先讀橫軸的時間範圍",
+      "text": "本題圖表從1600年到2018年。「至今」要依原卷時點解讀，不能把後來的變化直接套進圖中。",
+      "alt": "學生用放大鏡查看書本圖表，示意先確認資料時間範圍；插畫中的書頁沒有精確數據。"
+    },
+    {
+      "heading": "② 早期與近代分段比較",
+      "text": "早期人口成長相對緩慢；近代隨糧食生產、醫療衛生等條件改善，人口快速增加。要找前段較緩、後段變陡的長期曲線。",
+      "alt": "農田與醫療照護的生活情境，示意影響人口成長的糧食及衛生條件。"
+    },
+    {
+      "heading": "③ 不能只看最後高不高",
+      "text": "A與C都往上，但A末端明顯變平；B、D在近代下降。C才最符合本題早期緩慢、近代快速成長的形狀。",
+      "alt": "學生在桌邊比較數份空白圖表，示意比較整段形狀而不只比較終點。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：先緩、後來快速增加",
+    "points": [
+      "範圍：1600年至原圖標示的2018年。",
+      "看整條線的轉折，不只看終點高低。",
+      "本題的判讀，不等於宣稱人口永遠快速增加。"
+    ]
+  },
+  "protectedWords": [
+    "1600年",
+    "2018年",
+    "人口成長",
+    "醫療衛生",
+    "時間範圍"
+  ],
+  "rationale": "原題是曲線判讀而非現況新聞，以讀年份、糧食醫療情境、比較整段圖形三格組織觀察程序。精確四選圖仍用原卷附圖，不讓生成模型重畫誤導曲線。",
+  "promptSummary": "三格無字動漫：學生讀資料年份、農田與醫療照護情境、學生比較圖表。精確曲線保留原卷，不由AI生成。",
+  "answerCheckedAgainst": "正確答案：C。圖C呈現早期成長緩慢、近代快速增加的長期趨勢。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": [
+    {
+      "src": "site/dist/assets/questions/q-095-source-b2c0769224.jpg",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-095-figure-f1b0ce895e.jpg",
+      "visualChecked": true
+    }
+  ],
+  "completedAt": "2026-10-28T17:03:03.634682+00:00",
+  "checkedAt": "2026-10-28T17:06:39.343482+00:00",
+  "visualChecked": true,
+  "artSHA256": "ff29ceaa34dd1c05c066d83bc73901152d6f18448b0abacb726f21b69b3a8a67",
+  "previewValidation": "docs/comics/q-095-preview-validation.json",
+  "visualReview": "已實看原卷與四曲線附圖：A末段平台、B末段下降、C先緩後陡、D下彎，維持C與2018年時間範圍。動漫讀資料／糧食醫療／比較資料三場景不重畫精確人口曲線或數值。實看art與1440/390成品，獨立QA1440/1120/390通過，無文字與頁面溢出，單欄自然高度。",
+  "nativeArt": "assets/comics/q-095-art-ff29ceaa34-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-095-validation.json"
+}

@@ -1,0 +1,2573 @@
+user
+[原卷附圖]
+詳細解答
+
+assistant
+這題答案是 **（A）甲**。
+
+題目給的最重要線索不是「風大」，而是這一句：
+
+> 「兩座山頭中間下凹處，狹窄的通道形成強風」
+
+所以我們要在等高線圖中找出 **鞍部**，也就是「兩個較高山頭之間，地勢相對低下的缺口」。
+
+觀察圖中的 **甲**，它的左右兩側都有較高地形：左側等高線可到約 **440～540 公尺以上**，右側附近又有一個封閉的 **360 公尺左右山頭**。甲剛好位在兩個高地之間較低、較窄的位置，等高線形狀呈現明顯的「兩山之間缺口」，因此最符合題目描述的「兩座山頭中間下凹處」。
+
+而且這種鞍部很容易產生類似「風口」的效果。空氣通過狹窄山口時，會被地形集中，風速容易增強，因此古人會在此設「虎字碑」來鎮壓強風。
+
+其他三點不符合的原因也可以一起判斷：
+
+- **乙**：位於封閉等高線內部，接近一個小山頭，是較高處，不是兩山之間的下凹處。
+- **丙**：大約位在 260 公尺附近的一般山坡上，等高線沒有呈現鞍部特徵。
+- **丁**：雖然附近地形也有凹凸，但位置主要在山坡／谷地一帶，不是最明顯的「兩座山頭之間的狹窄缺口」。
+
+所以完整解題流程是：
+
+**「兩座山頭中間下凹」 → 想到鞍部 → 找兩個高地中間最低的缺口 → 甲。**
+
+### 答案
+**（A）甲**
+
+這題會考很常用一個技巧：看到「兩山之間、山口、隘口、風口、越嶺道路」時，第一個要想到的地形通常就是 **鞍部**。
+
+user
+@Visualize 
+
+assistant
+我把這題做成「等高線判讀＋鞍部辨識」的互動圖，讓你直接看出為什麼是 **甲**。
+
+genui{"app_block":{"language":"html","entrypoint":"index.html","bundle_version":1,"title":"等高線圖：為什麼虎字碑在甲？","variant":"artifact","icon":"study","content":"<div class=\"w-full space-y-5 text-[var(--viz-text)]\">\n  <div class=\"grid gap-3 sm:grid-cols-4\">\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">答案</div><div class=\"viz-stat-value\">甲</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">關鍵地形</div><div class=\"font-medium\">鞍部</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">題幹線索</div><div class=\"font-medium\">兩山中間下凹</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">容易形成</div><div class=\"font-medium\">強風風口</div></div>\n  </div>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">把等高線想成側面地形</h2>\n    <svg viewBox=\"0 0 720 255\" class=\"w-full h-auto\" role=\"img\" aria-label=\"兩座山峰中間形成鞍部，甲位於中間較低的缺口\">\n      <path d=\"M30 205 C85 195 105 80 180 58 C245 38 275 160 355 166 C430 172 455 72 530 53 C610 33 625 180 690 202\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n      <line x1=\"30\" y1=\"205\" x2=\"690\" y2=\"205\" stroke=\"var(--viz-border)\" stroke-width=\"2\"/>\n      <circle cx=\"355\" cy=\"166\" r=\"9\" fill=\"var(--viz-accent)\"/>\n      <text x=\"355\" y=\"145\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\" font-weight=\"600\">甲</text>\n      <text x=\"178\" y=\"35\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"16\">較高山頭</text>\n      <text x=\"530\" y=\"30\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"16\">較高山頭</text>\n      <path d=\"M300 115 Q355 145 410 115\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/>\n      <text x=\"355\" y=\"105\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"16\">兩山之間的低缺口＝鞍部</text>\n    </svg>\n  </section>\n\n  <section class=\"grid gap-3 sm:grid-cols-2\">\n    <div class=\"viz-node\">\n      <div class=\"font-medium mb-2\">俯視等高線的典型鞍部</div>\n      <svg viewBox=\"0 0 320 210\" class=\"w-full h-auto\" role=\"img\" aria-label=\"鞍部的等高線示意圖\">\n        <g fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\">\n          <ellipse cx=\"88\" cy=\"105\" rx=\"72\" ry=\"82\"/>\n          <ellipse cx=\"88\" cy=\"105\" rx=\"52\" ry=\"62\"/>\n          <ellipse cx=\"88\" cy=\"105\" rx=\"32\" ry=\"42\"/>\n          <ellipse cx=\"232\" cy=\"105\" rx=\"72\" ry=\"82\"/>\n          <ellipse cx=\"232\" cy=\"105\" rx=\"52\" ry=\"62\"/>\n          <ellipse cx=\"232\" cy=\"105\" rx=\"32\" ry=\"42\"/>\n        </g>\n        <circle cx=\"160\" cy=\"105\" r=\"8\" fill=\"var(--viz-accent)\"/>\n        <text x=\"160\" y=\"88\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"17\" font-weight=\"600\">甲</text>\n        <text x=\"160\" y=\"130\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"14\">中央低、兩側高</text>\n      </svg>\n    </div>\n\n    <div class=\"viz-node\">\n      <div class=\"font-medium mb-3\">題目文字 → 地形判讀</div>\n      <div class=\"space-y-3\">\n        <div class=\"flex items-center gap-2 flex-wrap\"><span class=\"viz-badge\">兩座山頭</span><span>→ 找兩個高地</span></div>\n        <div class=\"flex items-center gap-2 flex-wrap\"><span class=\"viz-badge\">中間下凹</span><span>→ 找兩山間較低處</span></div>\n        <div class=\"flex items-center gap-2 flex-wrap\"><span class=\"viz-badge\">狹窄通道</span><span>→ 判斷山口／鞍部</span></div>\n        <div class=\"flex items-center gap-2 flex-wrap\"><span class=\"viz-badge\">形成強風</span><span>→ 風通過缺口時容易加速</span></div>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">四個位置怎麼排除？</h2>\n    <div class=\"grid gap-3 sm:grid-cols-2\">\n      <button type=\"button\" data-point=\"甲\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\"><span class=\"font-medium\">甲 ✓</span><div class=\"text-sm text-[var(--viz-muted)] mt-1\">兩個較高地形之間的低缺口，符合鞍部。</div></button>\n      <button type=\"button\" data-point=\"乙\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\"><span class=\"font-medium\">乙</span><div class=\"text-sm text-[var(--viz-muted)] mt-1\">位於封閉等高線內，較像小山頭或高地。</div></button>\n      <button type=\"button\" data-point=\"丙\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\"><span class=\"font-medium\">丙</span><div class=\"text-sm text-[var(--viz-muted)] mt-1\">位於一般坡面附近，不是兩山間的缺口。</div></button>\n      <button type=\"button\" data-point=\"丁\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\"><span class=\"font-medium\">丁</span><div class=\"text-sm text-[var(--viz-muted)] mt-1\">附近雖有凹地，但不呈現最明顯的兩山夾一低地。</div></button>\n    </div>\n    <div id=\"explain\" class=\"viz-callout\" aria-live=\"polite\">考場口訣：看到「兩山之間＋下凹＋越嶺／風口」，優先找<strong>鞍部</strong>。</div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">30 秒判讀練習</h2>\n    <p class=\"text-sm text-[var(--viz-muted)]\">哪一種描述最可能代表鞍部？</p>\n    <div class=\"space-y-2\" id=\"quiz\">\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"a\" id=\"qa\"><span class=\"form-check-label\">等高線封閉且中心高度逐漸增加</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"b\" id=\"qb\"><span class=\"form-check-label\">兩個高地中間出現較低、可通過的缺口</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"c\" id=\"qc\"><span class=\"form-check-label\">等高線呈 V 字，尖端指向高處</span></label>\n    </div>\n    <button id=\"check\" type=\"button\" class=\"rounded-xl bg-[var(--viz-accent)] text-[var(--viz-accent-text)] px-4 py-2 font-medium\">看答案</button>\n    <div id=\"result\" class=\"text-sm\" aria-live=\"polite\"></div>\n  </section>\n</div>\n<script>\n(() => {\n  if (window.__contourLessonInit) return;\n  window.__contourLessonInit = true;\n  const explain = document.getElementById('explain');\n  const messages = {\n    '甲': '甲：正確。它位於兩個較高地形之間的低缺口，是典型鞍部，也是最符合「風口」描述的位置。',\n    '乙': '乙：封閉等高線表示它接近獨立高地，不是兩山之間的最低缺口。',\n    '丙': '丙：主要位在坡面，沒有明顯被兩個高地夾住。',\n    '丁': '丁：附近地形起伏明顯，但題目所說的「兩山頭中間下凹」以甲最典型。'\n  };\n  document.querySelectorAll('[data-point]').forEach(btn => {\n    btn.addEventListener('click', () => {\n      explain.textContent = messages[btn.dataset.point];\n    });\n  });\n  document.getElementById('check').addEventListener('click', () => {\n    const selected = document.querySelector('input[name=\"q\"]:checked');\n    const result = document.getElementById('result');\n    if (!selected) {\n      result.textContent = '先選一個答案。';\n      return;\n    }\n    result.textContent = selected.value === 'b'\n      ? '答對了：鞍部就是兩個高地中間較低的缺口。'\n      : '再想一下：題幹若強調「兩座山頭中間下凹」，要找的是鞍部。';\n  });\n})();\n</script>"}}
+
+user
+[原卷附圖]
+
+
+assistant
+這題答案是 **（B）14：00**。
+
+題目問的是：「埃及當地早上 8：00 宣布運河堵塞消息，換算成臺灣時間是幾點？」
+
+關鍵在 **時差**。埃及大約位在 **東經 30°**，臺灣大約位在 **東經 120°**，兩地經度大約相差：
+
+\[
+120^\circ-30^\circ=90^\circ
+\]
+
+地球 24 小時轉 360°，所以：
+
+\[
+360^\circ \div 24=15^\circ/\text{小時}
+\]
+
+因此每相差 **15°經度 ≈ 1 小時**。
+
+\[
+90^\circ \div 15^\circ=6\text{小時}
+\]
+
+而臺灣位在埃及的 **東方**。判斷時間早晚可以記：
+
+> **東加西減**
+
+所以臺灣時間比埃及 **快 6 小時**。
+
+埃及早上：
+
+\[
+8:00+6\text{小時}=14:00
+\]
+
+因此：
+
+**答案：（B）14：00。**
+
+另外，題目雖然給了「30.05°N，31.23°E」，真正用來計算時差的是 **經度 31.23°E**，不是緯度 30.05°N。緯度主要用來判斷南北位置、氣候等；**地方時間差主要看經度**。
+
+這類會考題可以直接用：
+
+**經度差 → ÷15 → 得時差 → 東加西減**
+
+本題就是：
+
+**臺灣 120°E − 埃及 30°E = 90° → 90÷15 = 6 小時 → 8+6 = 14 時。**
+
+user
+@Visualize 
+
+assistant
+我把這題做成「經度差 → 時差 → 東加西減」的互動視覺化，方便你一眼看懂為什麼是 **14:00**。
+
+genui{"app_block":{"language":"html","entrypoint":"index.html","bundle_version":1,"title":"埃及 8:00，臺灣幾點？","variant":"artifact","icon":"study","content":"<div class=\"w-full space-y-5 text-[var(--viz-text)]\">\n  <div class=\"grid gap-3 sm:grid-cols-4\">\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">埃及時間</div><div class=\"viz-stat-value\">08:00</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">經度差</div><div class=\"viz-stat-value\">約 90°</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">時差</div><div class=\"viz-stat-value\">+6 小時</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">臺灣時間</div><div class=\"viz-stat-value\">14:00</div></div>\n  </div>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">① 先看經度，不看緯度</h2>\n    <div class=\"grid gap-3 sm:grid-cols-2\">\n      <div class=\"viz-node\">\n        <div class=\"text-sm text-[var(--viz-muted)]\">埃及開羅附近</div>\n        <div class=\"mt-1 font-medium\">約 31°E</div>\n        <div class=\"mt-2 text-sm\">題目中的 <strong>31.23°E</strong> 才是算時差的關鍵。</div>\n      </div>\n      <div class=\"viz-node\">\n        <div class=\"text-sm text-[var(--viz-muted)]\">臺灣</div>\n        <div class=\"mt-1 font-medium\">約 120°E</div>\n        <div class=\"mt-2 text-sm\">臺灣位在埃及的<strong>東方</strong>，所以時間比較快。</div>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">② 用經度差換算時差</h2>\n    <div class=\"viz-callout\">\n      <div class=\"font-medium mb-2\">地球 24 小時轉 360°</div>\n      <div class=\"text-base\">所以每 <strong>15° ≈ 1 小時</strong></div>\n    </div>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>120°E</strong><div class=\"text-sm text-[var(--viz-muted)]\">臺灣</div></div>\n      <div class=\"viz-edge-label\">−</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>30°E</strong><div class=\"text-sm text-[var(--viz-muted)]\">埃及約值</div></div>\n      <div class=\"viz-edge-label\">=</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>90°</strong><div class=\"text-sm text-[var(--viz-muted)]\">經度差</div></div>\n    </div>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>90°</strong></div>\n      <div class=\"viz-edge-label\">÷ 15°</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>6 小時</strong></div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">③ 最重要口訣：東加西減</h2>\n    <svg viewBox=\"0 0 720 180\" class=\"w-full h-auto\" role=\"img\" aria-label=\"埃及在西方，臺灣在東方，因此從埃及時間換算臺灣時間要加六小時\">\n      <line x1=\"80\" y1=\"90\" x2=\"640\" y2=\"90\" stroke=\"var(--viz-border)\" stroke-width=\"4\"/>\n      <circle cx=\"180\" cy=\"90\" r=\"10\" fill=\"var(--viz-series-1)\"/>\n      <circle cx=\"540\" cy=\"90\" r=\"10\" fill=\"var(--viz-accent)\"/>\n      <text x=\"180\" y=\"65\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">埃及</text>\n      <text x=\"180\" y=\"120\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"15\">約 30°E</text>\n      <text x=\"540\" y=\"65\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">臺灣</text>\n      <text x=\"540\" y=\"120\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"15\">約 120°E</text>\n      <path d=\"M225 70 C310 25 410 25 495 70\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n      <path d=\"M488 60 L500 70 L484 74\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n      <text x=\"360\" y=\"35\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"17\">往東 → 時間加</text>\n    </svg>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">④ 直接算出答案</h2>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>08:00</strong><div class=\"text-sm text-[var(--viz-muted)]\">埃及</div></div>\n      <div class=\"viz-edge-label\">+ 6 小時</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>14:00</strong><div class=\"text-sm text-[var(--viz-muted)]\">臺灣</div></div>\n    </div>\n    <div class=\"viz-callout\"><strong>答案：B，14:00</strong></div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">快速判斷練習</h2>\n    <p class=\"text-sm text-[var(--viz-muted)]\">若某地位於臺灣西方 45°，當地是上午 10:00，臺灣大約幾點？</p>\n    <div class=\"space-y-2\">\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"7\" id=\"q1\"><span class=\"form-check-label\">07:00</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"13\" id=\"q2\"><span class=\"form-check-label\">13:00</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"15\" id=\"q3\"><span class=\"form-check-label\">15:00</span></label>\n    </div>\n    <button id=\"check\" type=\"button\" class=\"rounded-xl bg-[var(--viz-accent)] text-[var(--viz-accent-text)] px-4 py-2 font-medium\">檢查答案</button>\n    <div id=\"result\" class=\"text-sm\" aria-live=\"polite\"></div>\n  </section>\n\n  <section class=\"viz-callout\">\n    <div class=\"font-medium\">會考口訣</div>\n    <div class=\"mt-1\">經度差 ÷ 15 = 時差；<strong>東加西減</strong>。</div>\n  </section>\n</div>\n<script>\n(() => {\n  if (window.__timezoneLessonInit) return;\n  window.__timezoneLessonInit = true;\n  document.getElementById('check').addEventListener('click', () => {\n    const picked = document.querySelector('input[name=\"q\"]:checked');\n    const result = document.getElementById('result');\n    if (!picked) {\n      result.textContent = '先選一個答案。';\n      return;\n    }\n    if (picked.value === '13') {\n      result.textContent = '答對了：45° ÷ 15° = 3 小時；臺灣在東方，所以 10:00 + 3 = 13:00。';\n    } else {\n      result.textContent = '再試一次：45° ÷ 15° = 3 小時，而且往東要加時間。';\n    }\n  });\n})();\n</script>"}}
+
+user
+[原卷附圖]
+
+
+assistant
+這題答案是 **（B）海水深且有天然屏障**。
+
+題目關鍵是：**日軍為什麼選擇在「澳底」登陸？** 題目要求根據「臺灣的海岸類型」判斷，因此要從臺灣東北部的海岸地形來思考。
+
+澳底位於臺灣**東北部**。臺灣東北部受到山地接近海岸、海岸曲折等因素影響，較容易形成**岬灣海岸**。這種海岸常見「岬角＋海灣」相間的地形。
+
+對軍隊登陸來說，海灣具有兩個重要優勢：
+
+**① 海水較深**  
+東北部山地接近海岸，近岸水深通常增加較快，因此船隻較容易接近岸邊。
+
+**② 有天然屏障**  
+岬角可以遮蔽部分風浪，使海灣內相對平靜，船隻較容易停靠、士兵也較容易登陸。
+
+因此澳底作為登陸地點，符合：
+
+> **水深 + 海灣受到岬角保護**
+
+所以選 **（B）海水深且有天然屏障**。
+
+其他選項可以快速排除：
+
+- **（A）潟湖內的水域較平靜** ❌  
+  潟湖主要出現在臺灣**西南部沙岸**，不是東北部澳底的典型海岸。
+- **（C）海底地形的起伏較小** ❌  
+  東部、東北部山地接近海岸，海底坡度通常較陡，不是平緩海底。
+- **（D）海岸陡峭不易受攻擊** ❌  
+  「不易受攻擊」反而代表**不容易登陸**，與日軍選擇登陸地點的需求相反。
+
+### 這題真正要記的會考觀念
+
+**西部 → 沙岸 → 海淺、坡緩、沙洲／潟湖**
+
+**東北部 → 岬灣海岸 → 海較深、灣內較避風 → 天然良港**
+
+**東部 → 斷層海岸 → 山高水深、海岸陡峭**
+
+因此看到：
+
+**「澳底＋登陸＋海岸類型」→ 東北岬灣海岸 → 水深、天然屏障 → B。**
+
+user
+@Visualize 
+
+assistant
+我把這題整理成「臺灣海岸類型 → 澳底位置 → 為什麼適合登陸」的視覺化。
+
+genui{"app_block":{"language":"html","entrypoint":"index.html","bundle_version":1,"title":"澳底登陸：為什麼答案是 B？","variant":"artifact","icon":"study","content":"<div class=\"w-full space-y-5 text-[var(--viz-text)]\">\n  <div class=\"grid gap-3 sm:grid-cols-4\">\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">地點</div><div class=\"viz-stat-value\">澳底</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">位置</div><div class=\"font-medium\">臺灣東北部</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">海岸類型</div><div class=\"font-medium\">岬灣海岸</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">答案</div><div class=\"viz-stat-value\">B</div></div>\n  </div>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">① 先把「岬灣海岸」看懂</h2>\n    <svg viewBox=\"0 0 720 290\" class=\"w-full h-auto\" role=\"img\" aria-label=\"岬灣海岸示意圖，兩側岬角突出，中間形成較受保護的海灣，海水較深\">\n      <rect x=\"0\" y=\"0\" width=\"720\" height=\"290\" fill=\"var(--viz-panel)\"/>\n      <path d=\"M0 65 C90 55 145 105 185 160 C220 205 270 220 360 215 C450 220 500 205 535 160 C575 105 630 55 720 65 L720 0 L0 0 Z\" fill=\"var(--viz-accent-bg-subtle)\" stroke=\"var(--viz-border)\" stroke-width=\"2\"/>\n      <path d=\"M185 160 C235 230 485 230 535 160\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"4\"/>\n      <text x=\"120\" y=\"105\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">岬角</text>\n      <text x=\"600\" y=\"105\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">岬角</text>\n      <text x=\"360\" y=\"195\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"20\" font-weight=\"600\">海灣</text>\n      <text x=\"360\" y=\"245\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"16\">兩側岬角可遮擋部分風浪 → 較有天然屏障</text>\n      <path d=\"M360 260 L360 230\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n      <path d=\"M350 240 L360 228 L370 240\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n      <text x=\"455\" y=\"268\" fill=\"var(--viz-accent)\" font-size=\"16\">近岸水深增加較快</text>\n    </svg>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">② 題目線索怎麼一步步導到 B？</h2>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>澳底</strong><div class=\"text-sm text-[var(--viz-muted)]\">臺灣東北部</div></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>岬灣海岸</strong><div class=\"text-sm text-[var(--viz-muted)]\">岬角＋海灣</div></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>適合船隻靠近</strong><div class=\"text-sm text-[var(--viz-muted)]\">水較深＋較避風</div></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>B</strong><div class=\"text-sm text-[var(--viz-muted)]\">海水深且有天然屏障</div></div>\n    </div>\n  </section>\n\n  <section class=\"grid gap-3 sm:grid-cols-2\">\n    <div class=\"viz-node\">\n      <div class=\"font-medium mb-3\">為什麼「海水深」有利登陸？</div>\n      <div class=\"space-y-2 text-sm\">\n        <div>• 船隻較容易接近岸邊。</div>\n        <div>• 不必在很遠的淺海區停船。</div>\n        <div>• 有利人員、物資快速上岸。</div>\n      </div>\n    </div>\n    <div class=\"viz-node\">\n      <div class=\"font-medium mb-3\">為什麼「天然屏障」重要？</div>\n      <div class=\"space-y-2 text-sm\">\n        <div>• 岬角可遮擋部分外海風浪。</div>\n        <div>• 海灣內相對較穩定。</div>\n        <div>• 船隻停靠、登陸較安全。</div>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">③ 四個選項一起排除</h2>\n    <div class=\"grid gap-3 sm:grid-cols-2\">\n      <button type=\"button\" data-choice=\"A\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">A 潟湖內水域較平靜</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">潟湖主要是西南部沙岸常見，不符合澳底。</div>\n      </button>\n      <button type=\"button\" data-choice=\"B\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">B 海水深且有天然屏障 ✓</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">符合東北岬灣海岸與登陸需求。</div>\n      </button>\n      <button type=\"button\" data-choice=\"C\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">C 海底地形起伏較小</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">東北部山地接近海岸，海底坡度通常不平緩。</div>\n      </button>\n      <button type=\"button\" data-choice=\"D\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">D 海岸陡峭不易受攻擊</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">若不易受攻擊，通常也不利軍隊登陸。</div>\n      </button>\n    </div>\n    <div id=\"choiceExplain\" class=\"viz-callout\" aria-live=\"polite\">考場抓法：<strong>東北部＋海灣＋登陸</strong> → 想到岬灣海岸 → <strong>水深、較避風</strong>。</div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">④ 臺灣海岸類型快速比較</h2>\n    <div class=\"grid gap-3 sm:grid-cols-3\">\n      <div class=\"viz-node text-center\">\n        <div class=\"font-medium\">西部</div>\n        <div class=\"text-sm mt-2\">沙岸</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">海淺、坡緩、沙洲、潟湖</div>\n      </div>\n      <div class=\"viz-node text-center\">\n        <div class=\"font-medium\">東北部</div>\n        <div class=\"text-sm mt-2\">岬灣海岸</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">灣多、水較深、較有屏障</div>\n      </div>\n      <div class=\"viz-node text-center\">\n        <div class=\"font-medium\">東部</div>\n        <div class=\"text-sm mt-2\">斷層海岸</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">山高水深、海岸陡峭</div>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">30 秒小測驗</h2>\n    <p class=\"text-sm text-[var(--viz-muted)]\">若題目出現「西南沿海、沙洲、內側水域平靜」，最可能是哪種地形？</p>\n    <div class=\"space-y-2\">\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"a\" id=\"q1\"><span class=\"form-check-label\">岬灣</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"b\" id=\"q2\"><span class=\"form-check-label\">潟湖</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"c\" id=\"q3\"><span class=\"form-check-label\">斷層海岸</span></label>\n    </div>\n    <button id=\"check\" type=\"button\" class=\"rounded-xl bg-[var(--viz-accent)] text-[var(--viz-accent-text)] px-4 py-2 font-medium\">看答案</button>\n    <div id=\"result\" class=\"text-sm\" aria-live=\"polite\"></div>\n  </section>\n\n  <section class=\"viz-callout\">\n    <div class=\"font-medium\">會考口訣</div>\n    <div class=\"mt-1\">東北岬灣：<strong>灣深、較避風</strong>；西南沙岸：<strong>沙洲、潟湖</strong>；東部斷層：<strong>山高水深</strong>。</div>\n  </section>\n</div>\n<script>\n(() => {\n  if (window.__coastLessonInit) return;\n  window.__coastLessonInit = true;\n  const box = document.getElementById('choiceExplain');\n  const msg = {\n    A: 'A 不對：潟湖常見於臺灣西南部沙岸，不是東北部澳底的典型海岸。',\n    B: 'B 正確：澳底位於東北部岬灣海岸，海水較深，岬角又可提供一定天然屏障。',\n    C: 'C 不對：東北部山地接近海岸，海底並非以平緩、起伏小為主要特徵。',\n    D: 'D 不對：陡峭海岸通常反而不利軍隊快速登陸。'\n  };\n  document.querySelectorAll('[data-choice]').forEach(btn => {\n    btn.addEventListener('click', () => {\n      box.textContent = msg[btn.dataset.choice];\n    });\n  });\n  document.getElementById('check').addEventListener('click', () => {\n    const picked = document.querySelector('input[name=\"q\"]:checked');\n    const result = document.getElementById('result');\n    if (!picked) {\n      result.textContent = '先選一個答案。';\n      return;\n    }\n    result.textContent = picked.value === 'b'\n      ? '答對了：沙洲把部分海水隔在內側，就容易形成潟湖。'\n      : '再想一下：西南沿海＋沙洲＋內側平靜水域，關鍵字就是潟湖。';\n  });\n})();\n</script>"}}
+
+user
+[原卷附圖]
+
+
+assistant
+這張圖主要是在問 **第 17 題**，你原本選 **B 乙**，老師改成 **C 丙**。關鍵在「監測水庫**集水區的水質**」，答案確實是 **（C）丙**。
+
+### 第 17 題：為什麼是丙？
+
+「集水區」不是只看水庫旁邊，而是指：
+
+> **所有降雨最後會沿著河川流進石門水庫的範圍。**
+
+所以判斷甲、乙、丙、丁時，要先找到圖中的**分水嶺**。
+
+山稜／分水嶺就像屋頂：
+
+**雨水落在這一側 → 流進石門水庫**  
+**雨水落在另一側 → 流到別的河川**
+
+因此，監測石門水庫集水區水質，採樣點必須位於「水最後會流入石門水庫」的一側。
+
+圖中：
+
+- **甲**：位於水庫東側支流附近，水流可進入水庫 → 可以採樣。
+- **乙**：也位於水庫上游集水範圍 → 可以採樣。
+- **丁**：位於水庫南側上游河谷，仍屬流向水庫的範圍 → 可以採樣。
+- **丙**：雖然看起來離水庫不算遠，但它和水庫之間隔著**山稜／分水嶺**，該處降水會往另一側排出，**不會流進石門水庫**。
+
+所以丙的水質不能代表石門水庫集水區。
+
+### 最容易錯的地方
+
+你選乙，很可能是用「**距離水庫遠近**」判斷。
+
+但這類題不能看：
+
+**離水庫近不近 ❌**
+
+而要看：
+
+**水會不會流進水庫 ✓**
+
+因此：
+
+**找水庫 → 沿支流往上游追 → 找山稜分水嶺 → 判斷各點水流方向。**
+
+所以第 17 題：
+
+\[
+\boxed{\text{（C）丙}}
+\]
+
+順帶一提，第 **16 題你選 A 是正確的**：石門水庫位於淡水河水系上游，攔截的是**淡水河上游水流**。
+
+user
+@Visualize 
+
+assistant
+我把第 17 題做成「分水嶺＋水流方向＋集水區」互動圖，重點看出為什麼 **丙不在石門水庫集水區內**。
+
+genui{"app_block":{"language":"html","entrypoint":"index.html","bundle_version":1,"title":"石門水庫集水區：為什麼丙最不適合採樣？","variant":"artifact","icon":"study","content":"<div class=\"w-full space-y-5 text-[var(--viz-text)]\">\n  <div class=\"grid gap-3 sm:grid-cols-4\">\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">題目核心</div><div class=\"font-medium\">集水區</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">判斷工具</div><div class=\"font-medium\">分水嶺</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">不能只看</div><div class=\"font-medium\">距離遠近</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">答案</div><div class=\"viz-stat-value\">C 丙</div></div>\n  </div>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">① 先懂「集水區」</h2>\n    <div class=\"viz-callout\">\n      集水區＝<strong>降雨最後會沿坡面、溪流流進同一座水庫的所有範圍</strong>。\n    </div>\n    <svg viewBox=\"0 0 720 300\" class=\"w-full h-auto\" role=\"img\" aria-label=\"分水嶺示意圖，山稜兩側的雨水會流向不同方向，其中一側流入水庫，另一側流往別處\">\n      <path d=\"M30 220 C120 210 145 95 230 70 C300 50 325 120 360 145 C395 120 420 50 490 70 C575 95 600 210 690 220\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n      <path d=\"M360 145 C355 120 350 95 360 62\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\" stroke-dasharray=\"7 6\"/>\n      <text x=\"360\" y=\"45\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"17\">分水嶺</text>\n      <path d=\"M265 115 C235 145 210 175 185 205\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n      <path d=\"M455 115 C485 145 510 175 535 205\" fill=\"none\" stroke=\"var(--viz-muted)\" stroke-width=\"3\"/>\n      <path d=\"M176 193 L185 206 L197 196\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n      <path d=\"M523 196 L535 206 L544 193\" fill=\"none\" stroke=\"var(--viz-muted)\" stroke-width=\"3\"/>\n      <ellipse cx=\"160\" cy=\"240\" rx=\"95\" ry=\"28\" fill=\"var(--viz-accent-bg-subtle)\" stroke=\"var(--viz-accent)\" stroke-width=\"2\"/>\n      <text x=\"160\" y=\"246\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"17\">石門水庫</text>\n      <text x=\"205\" y=\"145\" fill=\"var(--viz-accent)\" font-size=\"15\">這側雨水 → 水庫</text>\n      <text x=\"465\" y=\"145\" fill=\"var(--viz-muted)\" font-size=\"15\">另一側 → 別的流域</text>\n    </svg>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">② 這題真正的判斷流程</h2>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>找到水庫</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>沿支流往上游追</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>找山稜／分水嶺</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>看水會流去哪</strong></div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">③ 為什麼丙最不可能？</h2>\n    <div class=\"grid gap-3 sm:grid-cols-2\">\n      <button type=\"button\" data-point=\"甲\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">甲</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">位於會匯入水庫的上游區域，可監測。</div>\n      </button>\n      <button type=\"button\" data-point=\"乙\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">乙</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">雖位置較外側，但仍要看水流方向，不可只憑距離判斷。</div>\n      </button>\n      <button type=\"button\" data-point=\"丙\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">丙 ✓</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">被山稜／分水嶺隔開，水流往另一側，不進石門水庫。</div>\n      </button>\n      <button type=\"button\" data-point=\"丁\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">丁</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">位在會匯入水庫的上游範圍，可作採樣。</div>\n      </button>\n    </div>\n    <div id=\"explain\" class=\"viz-callout\" aria-live=\"polite\">關鍵不是「哪一點離水庫最遠」，而是<strong>哪一點的水不會流進水庫</strong>。</div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">④ 等高線怎麼看水流？</h2>\n    <div class=\"grid gap-3 sm:grid-cols-2\">\n      <div class=\"viz-node\">\n        <div class=\"font-medium mb-2\">河谷</div>\n        <svg viewBox=\"0 0 300 160\" class=\"w-full h-auto\" role=\"img\" aria-label=\"等高線V字尖端指向高處，水往V字開口方向流\">\n          <path d=\"M30 35 Q150 115 270 35\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\"/>\n          <path d=\"M45 60 Q150 130 255 60\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\"/>\n          <path d=\"M65 85 Q150 140 235 85\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\"/>\n          <path d=\"M150 80 L150 135\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n          <path d=\"M140 122 L150 137 L160 122\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n          <text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"14\">V尖端＝高處</text>\n          <text x=\"150\" y=\"155\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"14\">水往低處流</text>\n        </svg>\n      </div>\n      <div class=\"viz-node\">\n        <div class=\"font-medium mb-2\">分水嶺</div>\n        <svg viewBox=\"0 0 300 160\" class=\"w-full h-auto\" role=\"img\" aria-label=\"山稜兩側水流方向相反，形成不同集水區\">\n          <path d=\"M25 130 C80 115 105 45 150 30 C195 45 220 115 275 130\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"3\"/>\n          <path d=\"M150 30 L150 145\" stroke=\"var(--viz-accent)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/>\n          <path d=\"M120 70 L75 120\" stroke=\"var(--viz-accent)\" stroke-width=\"3\"/>\n          <path d=\"M180 70 L225 120\" stroke=\"var(--viz-muted)\" stroke-width=\"3\"/>\n          <text x=\"150\" y=\"20\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"14\">山稜</text>\n          <text x=\"72\" y=\"145\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"14\">流域 A</text>\n          <text x=\"228\" y=\"145\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"14\">流域 B</text>\n        </svg>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">30 秒小測驗</h2>\n    <p class=\"text-sm text-[var(--viz-muted)]\">某採樣點離水庫只有 1 公里，但中間隔著分水嶺，該點雨水流向另一條河。它屬於這座水庫的集水區嗎？</p>\n    <div class=\"space-y-2\">\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"yes\" id=\"q1\"><span class=\"form-check-label\">是，因為距離很近</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"no\" id=\"q2\"><span class=\"form-check-label\">不是，因為水沒有流進水庫</span></label>\n    </div>\n    <button id=\"check\" type=\"button\" class=\"rounded-xl bg-[var(--viz-accent)] text-[var(--viz-accent-text)] px-4 py-2 font-medium\">檢查答案</button>\n    <div id=\"result\" class=\"text-sm\" aria-live=\"polite\"></div>\n  </section>\n\n  <section class=\"viz-callout\">\n    <div class=\"font-medium\">會考口訣</div>\n    <div class=\"mt-1\"><strong>集水區不看近不近，看水流不流得進去。</strong></div>\n  </section>\n</div>\n<script>\n(() => {\n  if (window.__watershedLessonInit) return;\n  window.__watershedLessonInit = true;\n\n  const explain = document.getElementById('explain');\n  const messages = {\n    '甲': '甲：水流可經上游支流匯入石門水庫，因此屬於可考慮的採樣位置。',\n    '乙': '乙：不要因為位置看起來較遠就排除；集水區判斷核心是分水嶺與水流方向。',\n    '丙': '丙：正確。它位於分水嶺另一側，降雨會流往別的流域，因此最不可能作為石門水庫集水區的採樣點。',\n    '丁': '丁：位於水庫上游集水範圍，水可沿溪谷往水庫方向匯流。'\n  };\n\n  document.querySelectorAll('[data-point]').forEach((btn) => {\n    btn.addEventListener('click', () => {\n      explain.textContent = messages[btn.dataset.point];\n    });\n  });\n\n  document.getElementById('check').addEventListener('click', () => {\n    const selected = document.querySelector('input[name=\"q\"]:checked');\n    const result = document.getElementById('result');\n    if (!selected) {\n      result.textContent = '先選一個答案。';\n      return;\n    }\n    result.textContent = selected.value === 'no'\n      ? '答對了：即使距離很近，只要隔著分水嶺、水流往別處，就不是同一個集水區。'\n      : '不對。集水區不能用直線距離判斷，要看雨水最後流向哪裡。';\n  });\n})();\n</script>"}}
+
+user
+[原卷附圖]
+
+
+assistant
+這題答案是 **（B）高雄市**。你原本選 **C 新北市**，關鍵是把「三國通道」誤認成「三條國道都經過的地方」；其實題目說的是**三個國家級交通建設**。
+
+題目告示牌有三個：
+
+**漁港路 → 中山四路 → 三國通道**
+
+而文章已經直接給我們「三國通道」的真正意思：
+
+> 可以通往「國道」、「國際機場」、「國際港」三個國家級交通建設。
+
+所以不是在問哪個縣市有三條國道，而是找哪個城市可以同時連接：
+
+**① 國道  
+② 國際機場  
+③ 國際港**
+
+逐一判斷選項：
+
+- **花蓮縣**：有花蓮港、花蓮機場，但沒有國道 → ❌
+- **高雄市**：有國道、**高雄國際機場**、**高雄港** → 三者都有 → ✅
+- **新北市**：有國道，但沒有題目這種「國際機場＋國際商港」組合 → ❌
+- **基隆市**：有國道、基隆港，但沒有國際機場 → ❌
+
+而且還有一個超強的地名線索：
+
+題目照片寫的是 **「中山四路」**。
+
+高雄就有中山四路，而且這一帶正好可以連接高雄港、高雄國際機場與國道系統，因此答案非常明確。
+
+### 答案
+
+\[
+\boxed{\text{（B）高雄市}}
+\]
+
+這題建議你記一個會考解題技巧：**不要被「三國通道」這個名稱騙了，要回題幹找它的定義。**
+
+**三國 ≠ 三條國道**
+
+而是：
+
+**國道＋國際機場＋國際港 → 高雄 → B**
+
+你這題其實屬於很典型的「關鍵字誤讀型錯題」：看到「三國」很容易直覺聯想到國道，但題目後面已經把「三國」的三個「國」定義出來了。
+
+user
+[原卷附圖]
+
+
+assistant
+這題你原本選 **C 近海漁業**，正確答案是 **（B）沿岸漁業**。關鍵就在題目給的兩個地名：**石門、金山**。
+
+題目說：
+
+> 捕魚作業大多在「石門的草里」和「金山的跳石海岸、中角海灣」一帶。
+
+這些地方都在**新北市北海岸，而且非常靠近陸地**。題目甚至描述漁民晚上出海、利用火光誘魚，屬於近岸的小規模捕撈活動。
+
+### 為什麼是「沿岸漁業」？
+
+國中地理常把臺灣漁業依作業海域分成：
+
+**沿岸漁業 → 近海漁業 → 遠洋漁業**
+
+差別主要看「**離岸距離與作業範圍**」。
+
+| 類型 | 作業位置 | 特徵 |
+|---|---|---|
+| **沿岸漁業** | 距岸很近 | 當天往返、小型漁船、地方性捕魚 |
+| **近海漁業** | 臺灣周圍較外圍海域 | 距岸較遠、規模較大 |
+| **遠洋漁業** | 遠離臺灣的世界各大洋 | 大型漁船、長時間航行 |
+| 養殖漁業 | 魚塭、箱網等 | 人工飼養 |
+
+「蹦火仔」的捕魚位置就在**金山、石門沿岸附近**：
+
+**陸地 → 金山／石門海岸 → 🚤蹦火仔作業區**
+
+距離岸邊非常近，因此屬於：
+
+\[
+\boxed{\text{沿岸漁業}}
+\]
+
+### 為什麼不是你選的 C「近海漁業」？
+
+這是這題最容易混淆的地方。
+
+日常中文裡，「近海」聽起來就是「靠近海岸」，所以很容易直覺選 C。
+
+但考試中的「**近海漁業**」是專有分類，並不等於「靠近海岸捕魚」。
+
+可以記成：
+
+**岸邊附近 → 沿岸漁業**  
+**離岸較遠 → 近海漁業**  
+**跑到其他大洋 → 遠洋漁業**
+
+而題目刻意給你「**石門草里、金山跳石海岸、中角海灣**」，其實就是在暗示：
+
+**都在海岸旁 → 沿岸 → B**
+
+所以這題屬於你很值得記下來的一種錯誤：
+
+> **生活語意 ≠ 地理專有名詞**
+
+「近海」日常聽起來很近，但會考分類中，比「近海」更靠近岸邊的叫做 **沿岸漁業**。
+
+user
+[原卷附圖]
+
+
+assistant
+這題正確答案是 **（A）為了促進本籍國民投入就業市場，規定各行業須提高聘用本籍國民的比例**。你原本選 **B**，老師改成 **A** 是對的。
+
+題目最重要的是先讀懂這張 **人口金字塔**，再判斷政府面對的問題。
+
+### ① 先看人口金字塔透露什麼
+
+圖中最明顯的特徵是：
+
+**20～40 多歲的男性人口比例異常高，而且明顯高於女性。**
+
+正常情況下，一個國家的男女比例不會在青壯年階段差這麼多。因此這不是單純「出生男生比較多」，而是受到**大量外來人口移入**影響。
+
+題幹也直接告訴你：
+
+> 「許多外國移民入籍成為該國國民。」
+
+更精確地說，這類人口結構常見於需要大量外籍勞動力的國家：大量青壯年男性移入工作，使人口金字塔的男性側在勞動年齡特別突出。
+
+所以先得到：
+
+**青壯年男性特別多 → 大量外來勞動人口 → 本國就業人口可能被外籍勞工取代／依賴外籍勞動力。**
+
+### ② 政府最可能採取什麼政策？
+
+既然問題是「勞動市場大量依賴外來人口」，政府若想改善，就可能：
+
+> **要求企業提高本國籍勞工的聘用比例。**
+
+也就是選項 A：
+
+**（A）為了促進本籍國民投入就業市場，政府規定各行業須提高聘用本籍國民的比例。✅**
+
+這是直接針對人口結構所反映出的「外籍勞動人口比例高」問題。
+
+### ③ 你選的 B 為什麼不對？
+
+B 說：
+
+> 鼓勵多生，給予生育第二胎以上家庭更多補貼並延長育嬰假。
+
+這是在處理：
+
+**少子化／出生率過低**
+
+如果題目的核心是少子化，人口金字塔通常會看到：
+
+**底部非常窄 → 幼年人口少 → 出生率低**
+
+但這張圖最突出的異常並不是只有「底部窄」，而是：
+
+**青壯年男性遠多於女性。**
+
+因此解題時要抓「最異常的地方」，不能只看到幼年人口較少就直接想到少子化。
+
+### ④ C、D 為什麼不對？
+
+**C：增加長照預算 ❌**
+
+這是在因應：
+
+**高齡化 → 老年人口很多。**
+
+可是圖中 65 歲以上人口比例並沒有特別龐大，反而是青壯年人口最突出。
+
+**D：提供晚婚晚育獎勵 ❌**
+
+如果政府要鼓勵生育，通常不會鼓勵「晚婚、晚生第一胎」，因為這反而可能降低總生育數，政策邏輯不合理。
+
+### 這題最重要的解題技巧
+
+人口金字塔不要只判斷：
+
+**三角形／鐘形／壺形**
+
+會考越來越常考的是：
+
+**「哪一個年齡＋哪一個性別」出現異常？**
+
+本題：
+
+**青壯年男性異常多  
+→ 不可能主要靠自然增加形成  
+→ 大量男性勞動人口移入  
+→ 外籍勞動人口多  
+→ 政府希望提高本國人的就業比例  
+→ A**
+
+所以答案：
+
+\[
+\boxed{\text{A}}
+\]
+
+你這題的錯誤點跟前面幾題很像：**看到一個熟悉特徵就太早下結論**。這題看到「底部不寬」容易馬上聯想到少子化，但應該再比較整張圖，找出「最不正常、最有辨識力」的特徵——這裡就是 **20～40 多歲男性大量凸出**。
+
+user
+[原卷附圖]
+
+
+assistant
+這題正確答案是 **（D）↙ 西南方**。你原本選 **A（↖）**，關鍵是要同時判斷「東西」和「南北」，不能只看地圖上的直覺位置。
+
+題目問：
+
+> 從臺北松山機場搭飛機前往「該國傳統聚落」，班機主要朝哪個方向前進？
+
+### ① 先讀座標
+
+圖上已經給了經緯度：
+
+- 松山機場大約在 **25°N、121.5°E**
+- 傳統聚落大約在 **24.2°N、118.15°E**
+
+現在分開比較。
+
+**南北方向看緯度：**
+
+\[
+25^\circ N \rightarrow 24.2^\circ N
+\]
+
+北緯數字變小，代表往 **南 ↓**。
+
+**東西方向看經度：**
+
+\[
+121.5^\circ E \rightarrow 118.15^\circ E
+\]
+
+東經數字變小，代表往 **西 ←**。
+
+兩個方向合起來：
+
+\[
+南＋西=西南方\ ↙
+\]
+
+所以答案是：
+
+\[
+\boxed{\text{D ↙}}
+\]
+
+### 你選 A 為什麼錯？
+
+A 是 **西北方 ↖**。
+
+你判斷「往西」是對的，但南北方向判反了。
+
+這題其實不用知道圖中的國家是哪裡，只要讀經緯度就一定能解：
+
+**北緯：數字變大 → 北；數字變小 → 南**  
+**東經：數字變大 → 東；數字變小 → 西**
+
+因此本題：
+
+**25°N → 24.2°N = 南 ↓**  
+**121.5°E → 118.15°E = 西 ←**
+
+最後合成：
+
+**← ＋ ↓ ＝ ↙ 西南方（D）**
+
+這種題建議不要直接「看地圖猜方向」，而是固定做 **「先緯度、再經度、最後合成」**，會穩很多。
+
+user
+[原卷附圖]
+
+
+assistant
+這題正確答案是 **（C）丙**。你原本似乎選 **D 丁**，老師改成 **C**。這題和前面的「鞍部」題很像，但這次要找的是**最適合設置炮臺的位置**。
+
+題目關鍵：
+
+> 「坑道盡頭是一座廢棄炮臺，炮口對準蘭陽平原，目的是趁著敵方靠岸登陸時，可以從龜山島開炮攻擊。」
+
+所以炮臺必須滿足一個最基本條件：
+
+**炮口能直接面向宜蘭／蘭陽平原所在的方向。**
+
+看圖右上角的指北針，**北方朝上**，因此左邊是西方。龜山島位於宜蘭外海，**臺灣本島、蘭陽平原在龜山島的西側**。
+
+所以我們要找：
+
+> **龜山島西側、朝向臺灣本島的位置。**
+
+圖中四點比較：
+
+- **甲**：位於島的北側，不是最直接朝向蘭陽平原。❌
+- **乙**：位於西北側，但位置不是最直接控制西側海面的炮臺位置。❌
+- **丙**：位於島的**西側／西南側海岸**，正面朝向臺灣本島與蘭陽平原。✅
+- **丁**：位於島的**東側**，炮口主要朝向太平洋；中央約 300～350 m 的高地還會阻擋向西射擊的視線。❌
+
+因此：
+
+\[
+\boxed{\text{（C）丙}}
+\]
+
+### 為什麼丁特別不可能？
+
+這點非常重要。
+
+假設炮臺在 **丁**：
+
+**蘭陽平原 ← 山（300～350m）← 丁**
+
+中間隔著龜山島的高山，根本不利於炮口直接對準蘭陽平原。
+
+而在 **丙**：
+
+**蘭陽平原 ← 海面 ← 丙**
+
+前方直接就是臺灣方向的海域，更符合「敵人靠岸登陸時從龜山島開炮攻擊」。
+
+### 這類題的固定解法
+
+不要一看到等高線就開始算高度。先抓題幹中的**功能需求**：
+
+**「炮口對準蘭陽平原」  
+→ 蘭陽平原在哪？  
+→ 龜山島西方  
+→ 找島的西側  
+→ 再確認沒有高山阻擋  
+→ 丙（C）**
+
+這題其實是在考 **「相對位置＋地形阻隔」**，而不只是等高線高度。
+
+user
+@Visualize 
+
+assistant
+我把這題做成「龜山島方向判讀＋炮臺射界」互動圖，直接看出為什麼答案是 **丙（C）**。
+
+genui{"app_block":{"language":"html","entrypoint":"index.html","bundle_version":1,"title":"龜山島炮臺：為什麼在丙？","variant":"artifact","icon":"study","content":"<div class=\"w-full space-y-5 text-[var(--viz-text)]\">\n  <div class=\"grid gap-3 sm:grid-cols-4\">\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">題幹目標</div><div class=\"font-medium\">炮口對準蘭陽平原</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">蘭陽平原方向</div><div class=\"viz-stat-value\">西方</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">最佳位置</div><div class=\"viz-stat-value\">丙</div></div>\n    <div class=\"metric-card\"><div class=\"text-sm text-[var(--viz-muted)]\">答案</div><div class=\"viz-stat-value\">C</div></div>\n  </div>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">① 先抓題幹，不要急著看高度</h2>\n    <div class=\"viz-callout\">\n      題目說炮口要<strong>對準蘭陽平原</strong>，所以第一步是先找出蘭陽平原相對龜山島的方向。\n    </div>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>龜山島</strong></div>\n      <div class=\"viz-edge-label\">位於</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>宜蘭外海</strong></div>\n      <div class=\"viz-edge-label\">所以</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>臺灣本島在西側</strong></div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">② 俯視圖：誰最直接面向臺灣？</h2>\n    <svg viewBox=\"0 0 720 360\" class=\"w-full h-auto\" role=\"img\" aria-label=\"龜山島示意圖，蘭陽平原在島的西側，丙位於西南側最適合朝西射擊，丁位於東側且受到中央高地阻擋\">\n      <rect x=\"0\" y=\"0\" width=\"720\" height=\"360\" fill=\"var(--viz-panel)\"/>\n      <path d=\"M265 60 C355 35 470 55 540 125 C590 175 575 255 500 295 C410 340 280 315 220 250 C160 185 180 100 265 60 Z\" fill=\"var(--viz-accent-bg-subtle)\" stroke=\"var(--viz-series-1)\" stroke-width=\"4\"/>\n      <ellipse cx=\"380\" cy=\"175\" rx=\"110\" ry=\"78\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\"/>\n      <ellipse cx=\"385\" cy=\"175\" rx=\"75\" ry=\"52\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\"/>\n      <ellipse cx=\"390\" cy=\"175\" rx=\"42\" ry=\"30\" fill=\"none\" stroke=\"var(--viz-series-1)\" stroke-width=\"2\"/>\n      <text x=\"390\" y=\"181\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"15\">中央高地</text>\n\n      <rect x=\"25\" y=\"115\" width=\"120\" height=\"105\" rx=\"14\" fill=\"var(--viz-accent-bg-subtle)\" stroke=\"var(--viz-accent)\" stroke-width=\"2\"/>\n      <text x=\"85\" y=\"145\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"17\" font-weight=\"600\">臺灣本島</text>\n      <text x=\"85\" y=\"173\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"16\">蘭陽平原</text>\n      <text x=\"85\" y=\"200\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"14\">← 西側</text>\n\n      <circle cx=\"335\" cy=\"72\" r=\"9\" fill=\"var(--viz-muted)\"/><text x=\"335\" y=\"50\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">甲</text>\n      <circle cx=\"228\" cy=\"130\" r=\"9\" fill=\"var(--viz-muted)\"/><text x=\"205\" y=\"125\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">乙</text>\n      <circle cx=\"225\" cy=\"255\" r=\"11\" fill=\"var(--viz-accent)\"/><text x=\"200\" y=\"280\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"20\" font-weight=\"600\">丙 ✓</text>\n      <circle cx=\"525\" cy=\"235\" r=\"9\" fill=\"var(--viz-muted)\"/><text x=\"550\" y=\"250\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"18\">丁</text>\n\n      <path d=\"M215 250 C165 230 135 215 115 195\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"4\"/>\n      <path d=\"M125 190 L112 195 L120 207\" fill=\"none\" stroke=\"var(--viz-accent)\" stroke-width=\"4\"/>\n      <text x=\"170\" y=\"235\" text-anchor=\"middle\" fill=\"var(--viz-accent)\" font-size=\"15\">直接朝向蘭陽平原</text>\n\n      <path d=\"M515 230 C465 215 440 205 415 195\" fill=\"none\" stroke=\"var(--viz-muted)\" stroke-width=\"3\" stroke-dasharray=\"7 6\"/>\n      <text x=\"505\" y=\"205\" text-anchor=\"middle\" fill=\"var(--viz-muted)\" font-size=\"14\">丁往西會遇中央高地</text>\n\n      <line x1=\"625\" y1=\"85\" x2=\"625\" y2=\"35\" stroke=\"var(--viz-text)\" stroke-width=\"3\"/>\n      <path d=\"M615 48 L625 32 L635 48\" fill=\"none\" stroke=\"var(--viz-text)\" stroke-width=\"3\"/>\n      <text x=\"625\" y=\"105\" text-anchor=\"middle\" fill=\"var(--viz-text)\" font-size=\"16\">N</text>\n    </svg>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">③ 四個位置怎麼排除？</h2>\n    <div class=\"grid gap-3 sm:grid-cols-2\">\n      <button type=\"button\" data-point=\"甲\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">甲</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">偏北側，不是最直接朝向蘭陽平原的位置。</div>\n      </button>\n      <button type=\"button\" data-point=\"乙\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">乙</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">在西北側，方向有部分符合，但不是最直接控制西側登陸海面的點。</div>\n      </button>\n      <button type=\"button\" data-point=\"丙\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">丙 ✓</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">位於西側／西南側，正面面向臺灣本島與蘭陽平原。</div>\n      </button>\n      <button type=\"button\" data-point=\"丁\" class=\"rounded-xl border p-3 text-left hover:bg-[var(--viz-accent-bg-subtle)]\">\n        <div class=\"font-medium\">丁</div>\n        <div class=\"text-sm text-[var(--viz-muted)] mt-1\">位於東側，若向西射擊還受到中央高地阻隔。</div>\n      </button>\n    </div>\n    <div id=\"explain\" class=\"viz-callout\" aria-live=\"polite\">這題不是找「最高點」，而是找<strong>射界最直接、方向正確、又少阻擋</strong>的位置。</div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">④ 解題流程</h2>\n    <div class=\"flex flex-col sm:flex-row items-stretch sm:items-center gap-2\">\n      <div class=\"viz-node flex-1 text-center\"><strong>炮口對準蘭陽平原</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>蘭陽平原在西方</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>找島的西側</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>再排除山體阻擋</strong></div>\n      <div class=\"viz-edge-label\">→</div>\n      <div class=\"viz-node flex-1 text-center\"><strong>C 丙</strong></div>\n    </div>\n  </section>\n\n  <section class=\"space-y-3\">\n    <h2 class=\"font-medium\">30 秒小測驗</h2>\n    <p class=\"text-sm text-[var(--viz-muted)]\">如果軍事設施要監控島嶼東方海面，通常應優先選哪一側？</p>\n    <div class=\"space-y-2\">\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"west\" id=\"q1\"><span class=\"form-check-label\">西側</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"east\" id=\"q2\"><span class=\"form-check-label\">東側</span></label>\n      <label class=\"form-check\"><input class=\"form-check-input\" type=\"radio\" name=\"q\" value=\"high\" id=\"q3\"><span class=\"form-check-label\">只要最高點就可以</span></label>\n    </div>\n    <button id=\"check\" type=\"button\" class=\"rounded-xl bg-[var(--viz-accent)] text-[var(--viz-accent-text)] px-4 py-2 font-medium\">看答案</button>\n    <div id=\"result\" class=\"text-sm\" aria-live=\"polite\"></div>\n  </section>\n\n  <section class=\"viz-callout\">\n    <div class=\"font-medium\">會考口訣</div>\n    <div class=\"mt-1\"><strong>先看任務方向，再看地形阻擋；不要先被高度吸走。</strong></div>\n  </section>\n</div>\n<script>\n(() => {\n  if (window.__batteryLessonInit) return;\n  window.__batteryLessonInit = true;\n\n  const explain = document.getElementById('explain');\n  const messages = {\n    '甲': '甲：位於北側，並非最直接面向西方蘭陽平原。',\n    '乙': '乙：雖偏西，但射界與位置不如丙直接。',\n    '丙': '丙：正確。位於龜山島西側／西南側，可直接朝向臺灣本島與蘭陽平原。',\n    '丁': '丁：位於東側，朝西射擊時中央高地會形成明顯阻擋，因此不合理。'\n  };\n\n  document.querySelectorAll('[data-point]').forEach((btn) => {\n    btn.addEventListener('click', () => {\n      explain.textContent = messages[btn.dataset.point];\n    });\n  });\n\n  document.getElementById('check').addEventListener('click', () => {\n    const selected = document.querySelector('input[name=\"q\"]:checked');\n    const result = document.getElementById('result');\n    if (!selected) {\n      result.textContent = '先選一個答案。';\n      return;\n    }\n    result.textContent = selected.value === 'east'\n      ? '答對了：要監控東方海面，通常優先選東側，並再確認視線沒有被山體阻擋。'\n      : '再想一下：軍事設施位置首先要配合監控／射擊方向，而不是單看高度。';\n  });\n})();\n</script>"}}
+
+user
+**岸邊附近 → 沿岸漁業**
+ **離岸較遠 → 近海漁業**
+ **跑到其他大洋 → 遠洋漁業**  @深入研究 
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+
+
+user
+**岸邊附近 → 沿岸漁業**
+ **離岸較遠 → 近海漁業**
+ **跑到其他大洋 → 遠洋漁業**  @創作圖像 
+
+assistant
+
+
+user
+我有這3個工具如何應用解決錯題?還是逐題解答比較好?
+
+assistant
+如果你說的「3 個工具」是剛才這種學習方式，我反而不建議三個工具每一題全部跑一遍。對會考錯題來說，**「逐題解答」仍然是入口，但不能停在逐題解答**。你現在遇到的問題比較像是：「這題看懂了，但過幾天或題目一變形又忘了。」memcite
+
+我會把三種工具分工成一條流程：
+
+| 工具 | 作用 | 什麼時候用 |
+|---|---|---|
+| 📝 **逐題詳細解答** | 找出「這題為什麼錯」 | **每一題錯題都用** |
+| 🧠 **整理／記憶工具** | 把散落的小細節整理成規則、比較表 | 同類錯誤累積 2～3 題時 |
+| 🎨 **創作圖像** | 把容易混淆、空間關係、流程變成圖像記憶 | 特別難記的知識點才用 |
+
+例如剛才這個地理觀念：
+
+**岸邊附近 → 沿岸漁業**  
+**離岸較遠 → 近海漁業**  
+**跑到其他大洋 → 遠洋漁業**
+
+如果只是把這題解答完，你可能當下會了，但下一次題目改成「某漁船長期航行於南太平洋作業」，又要重新判斷。
+
+這時就值得把錯題「升級」：
+
+**第 1 層：解這一題**  
+→ 正確答案是什麼？  
+→ 我為什麼選錯？
+
+**第 2 層：抽出考點**  
+→ 真正要會的是「依作業海域距離判斷漁業類型」。
+
+**第 3 層：建立判斷規則**  
+→ 岸邊＝沿岸  
+→ 離岸較遠＝近海  
+→ 跨大洋＝遠洋
+
+**第 4 層：真的很容易混淆才做圖**  
+→ 畫出「台灣 → 岸邊 → 外海 → 太平洋」三層距離。  
+這就是剛才「創作圖像」最適合介入的地方。
+
+**第 5 層：之後用變形題測自己**  
+例如：「台灣漁船前往印度洋捕撈鮪魚，屬於哪一種？」  
+你如果能自己判斷「印度洋＝跨大洋 → 遠洋漁業」，才算真的學會。
+
+所以你的會考錯題系統，我會建議改成：
+
+> **錯題 → 逐題解答 → 找錯因 → 抽出知識點 → 判斷是否值得做整理/圖像 → 產生1～2題變形題 → 過幾天再測**
+
+而不是：
+
+> 錯題 → 看詳細解答 → 覺得懂了 → 下一題
+
+這兩種方法差很多。
+
+尤其**不是每一道錯題都值得做圖**。像數學單純計算粗心，做圖幫助很小；但地理位置、生物構造、歷史時間軸、理化流程、容易混淆的比較概念，就非常適合。
+
+如果你願意，我可以把這套直接整合進你現在的**第二代 AI 學習系統**，變成「會考錯題 → AI 自動判斷要不要使用三種工具」的固定流程。memcite
+
+user
+第二代 AI 學習系統  目前是在notion嗎?
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+對，**我們之前規劃的「第二代 AI 學習系統」核心位置是在 Notion**，資料庫名稱是：
+
+**🏅 116 會考 AI 學習系統 → 錯題資料庫**
+
+而你之前定義的第二代錯題格式，就是：
+
+**完整題目 → 正確答案 → 我的錯誤 → 解題觀念 → 知識點 → 延伸／變形 → 複習**
+
+不過有一點我要更正得精確：過去對話中曾出現「已經寫入 Notion」的說法，但紀錄彼此有矛盾，所以我現在**不能只靠先前對話保證目前 Notion 裡實際有哪些題目**。
+
+如果你要，我現在可以直接連到你的 **Notion**，檢查「🏅116 會考 AI 學習系統」目前實際的資料庫結構和內容，再決定剛才這批地理錯題要怎麼整合進去。memcite
+
+user
+我有的3個工具沒有應用的空間?  
+
+assistant
+有，而且我認為你的 **3 個工具其實很適合第二代 AI 學習系統**。剛才我的說法讓它們看起來像是可有可無，其實應該重新定位。
+
+你現在提供的三個工具是：
+
+1. **「觀念重建」**
+2. **「類似題」**
+3. **「國中教材查詢入口」**
+
+它們剛好可以解決「逐題解答」最大的缺點：**解答只能解決眼前這一題，三個工具負責讓你下一次真的會。**
+
+我建議把流程改成：
+
+**錯題照片 → 逐題詳細解答 → 判斷錯因 → 啟動適合的工具 → 回到第二代 AI 學習系統記錄**
+
+例如剛才你錯的「沿岸漁業 vs 近海漁業」：
+
+**第一步｜逐題解答**  
+先知道答案為什麼是「沿岸漁業」。
+
+**第二步｜觀念重建 ⭐**  
+這題非常適合。因為你的問題不是不知道答案，而是把「日常語言的近海」和「地理專有名詞的近海漁業」混在一起。
+
+觀念重建應該建立：
+
+> 岸邊 → 沿岸漁業  
+> 臺灣周邊較外圍海域 → 近海漁業  
+> 跨越遠方海域／大洋 → 遠洋漁業
+
+甚至再整理「船隻大小、航行時間、捕撈範圍」一起比較。
+
+**第三步｜國中教材查詢入口 ⭐**  
+這時不是再問 AI 一次，而是回到**正式教材**確認：「課本到底怎麼定義沿岸、近海、遠洋漁業？」
+
+這個工具很重要，因為可以避免 AI 解釋得太自由，最後跟國中教材的考試用語不完全一致。
+
+**第四步｜類似題 ⭐⭐⭐**  
+這才是真正驗證有沒有學會。
+
+例如換成：
+
+> 某漁船從高雄港出發，前往印度洋捕撈鮪魚，數月後返回臺灣。屬於哪種漁業？
+
+如果你不用看筆記就能答：
+
+**印度洋＋數月 → 遠洋漁業**
+
+代表這個知識點才真的過關。
+
+---
+
+### 所以我會重新設計成「四件套」
+
+| 模組 | 要解決的問題 |
+|---|---|
+| **逐題詳細解答** | 「這一題為什麼錯？」 |
+| 🧠 **觀念重建** | 「我到底哪個觀念沒有建立好？」 |
+| 📚 **國中教材查詢** | 「課本正式怎麼教？」 |
+| 🧪 **類似題** | 「題目變形後我還會嗎？」 |
+
+而且**不是每一題四個全部跑**。
+
+AI 可以先替你「分診」：
+
+**粗心／計算失誤**  
+→ 詳細解答即可，不必浪費時間查教材。
+
+**觀念混淆**  
+→ 詳細解答 ＋ **觀念重建**
+
+**忘記課本小細節**  
+→ 詳細解答 ＋ **教材查詢**
+
+**看答案懂、換題又錯**  
+→ 詳細解答 ＋ **觀念重建 ＋ 類似題**
+
+**重要核心觀念而且反覆錯**  
+→ **三個工具全開**，甚至再加你剛才用的 **Visualize／創作圖像**。
+
+這樣一來，第二代系統真正應該保存的就不只是「錯題答案」，而是：
+
+**錯題 → 錯因 → 教材依據 → 重建觀念 → 類似題測驗 → 是否真正掌握**
+
+這其實比單純把每一道錯題整理成很長的詳解有效率得多。
+
+如果把這套做完整，我甚至會把它稱為 **「第二代 AI 學習系統 2.1」**：你丟一張錯題照片進來，我先解題，再自動判斷這題該叫用「觀念重建、教材查詢、類似題」中的哪幾個，而不是要你自己每次決定。memcite
+
+user
+好,第二代 AI 學習系統 2.1  的計畫書?
+
+assistant
+可以。依照我們剛才確定的方向，我會把 **「第二代 AI 學習系統 2.1」** 定位成：
+
+# 第二代 AI 學習系統 2.1 計畫書
+### 從「錯題整理」升級成「錯因診斷 → 觀念重建 → 變形驗證 → 間隔複習」
+
+## 一、計畫核心
+
+2.0 的重點比較像：
+
+> **把錯題完整整理下來。**
+
+2.1 要再往前一步：
+
+> **不是保存錯題，而是消滅造成錯題的原因。**
+
+因此，一張錯題進來後，不再固定做一大篇詳解，而是先由 AI 判斷：
+
+**這題為什麼錯？下一步最需要哪一種處理？**
+
+整個系統變成：
+
+**📷 錯題**
+→ **🔍 詳細解答**
+→ **🩺 AI 錯因診斷**
+→ **🧠 觀念重建 / 📚 教材查詢 / 🧪 類似題**
+→ **🎨 必要時 Visualize**
+→ **🔁 延後再測**
+→ **✅ 真正掌握**
+
+---
+
+# 二、三個現有工具正式納入系統
+
+你已經有的三個工具不需要淘汰，反而成為 2.1 的核心工具。
+
+| 工具 | 2.1 中的角色 | 何時啟動 |
+|---|---|---|
+| 🧠 **觀念重建** | 修復錯誤的知識模型 | 觀念混淆、似懂非懂 |
+| 📚 **國中教材查詢入口** | 回教材確認正式定義 | 忘記細節、名詞、圖表 |
+| 🧪 **類似題** | 驗證是否能處理變形 | 看完解答後測試 |
+| 📝 **逐題詳細解答** | 找出這一題錯在哪 | 所有真正的錯題 |
+| 🎨 **Visualize／創作圖像** | 建立視覺模型 | 地圖、空間、流程、比較特別適合 |
+
+所以 **詳細解答不是被三個工具取代**。
+
+它們的關係是：
+
+> **詳細解答＝診斷入口**
+>
+> **三個工具＝治療與驗證**
+
+---
+
+# 三、AI 自動「分診」
+
+這會是 2.1 最重要的新功能。
+
+以後你丟一張錯題，不需要自己想「我要不要叫觀念重建？」
+
+AI 先判斷錯誤類型。
+
+### ① 粗心型
+
+例如：
+
+> 120 − 30 算錯  
+> 看錯「不正確」  
+> 漏看單位
+
+處理：
+
+**詳細解答 → 記錄粗心原因 → 類似題快速確認**
+
+不需要做一堆教材查詢。
+
+---
+
+### ② 知識遺忘型
+
+例如：
+
+> 忘記潟湖主要出現在西南部  
+> 忘記 15° 經度約差 1 小時
+
+處理：
+
+**詳細解答 → 📚教材查詢 → 建立知識卡 → 間隔複習**
+
+---
+
+### ③ 觀念混淆型
+
+例如你剛才：
+
+> 「近海」聽起來就是靠近岸邊  
+> 所以把沿岸漁業選成近海漁業。
+
+這不是單純忘記。
+
+而是：
+
+**腦中的分類模型有問題。**
+
+因此：
+
+**詳細解答 → 🧠觀念重建 → 🎨Visualize → 🧪類似題**
+
+---
+
+### ④ 圖表判讀型
+
+例如剛才的人口金字塔：
+
+你可能看到：
+
+> 底部比較窄 → 少子化
+
+於是選出生育補助。
+
+但真正最強烈的線索是：
+
+> **青壯年男性異常突出**
+
+這種題：
+
+**詳細解答 → 找關鍵特徵 → Visualize → 類似圖表題**
+
+---
+
+### ⑤ 空間／地圖型
+
+例如：
+
+- 龜山島炮臺
+- 集水區
+- 等高線
+- 經緯度方向
+- 岬灣海岸
+
+這類特別適合：
+
+**詳細解答 → 🧠觀念重建 → 🎨Visualize → 類似題**
+
+因為只背文字通常效果不好。
+
+---
+
+### ⑥ 變形題失敗型
+
+最值得注意的是：
+
+> 「解答我都懂，但換一題就不會。」
+
+這代表：
+
+**理解 ≠ 能解題。**
+
+直接啟動：
+
+**觀念重建 → 類似題 Level 1 → Level 2 → Level 3**
+
+直到可以獨立解出來。
+
+---
+
+# 四、類似題升級成「三級變形」
+
+我建議「類似題」不要只是再生一題差不多的。
+
+改成三層。
+
+### Level 1｜直接替換
+
+原題：
+
+> 金山沿岸捕魚 → 哪種漁業？
+
+變成：
+
+> 澎湖岸邊小型漁船當日往返 → 哪種漁業？
+
+答案：
+
+**沿岸漁業**
+
+測的是「有沒有記住」。
+
+---
+
+### Level 2｜換情境
+
+> 某漁船離開臺灣數日，在臺灣周邊較遠海域捕魚。
+
+→ **近海漁業**
+
+測的是「能不能套用」。
+
+---
+
+### Level 3｜陌生情境
+
+> 高雄漁船前往印度洋捕撈鮪魚，數月後返臺。
+
+題目完全不講：
+
+「沿岸、近海、遠洋」。
+
+學生必須自己抽取：
+
+**印度洋＋數月**
+
+→ 遠洋漁業。
+
+這才是在測：
+
+> **知識遷移能力**
+
+---
+
+# 五、加入「掌握度」，而不是只有對／錯
+
+Notion 裡每個知識點可以有：
+
+**🔴 0 未理解**  
+**🟠 1 看解答才懂**  
+**🟡 2 可以做原型題**  
+**🟢 3 可以做變形題**  
+**🔵 4 隔一段時間仍能做對**
+
+真正的「已學會」應該至少到：
+
+> **🟢 Level 3**
+
+最好經過間隔複習到：
+
+> **🔵 Level 4**
+
+這會解決一個非常重要的錯覺：
+
+**「我看懂詳解了」≠「我會了」。**
+
+---
+
+# 六、Notion 2.1 資料結構
+
+原本一題一頁仍然保留，但建議新增幾個欄位。
+
+### 📝 錯題紀錄
+
+**題目**
+
+**我的答案**
+
+**正確答案**
+
+**錯因分類**
+
+例如：
+
+`觀念混淆`
+
+---
+
+**核心考點**
+
+例如：
+
+`臺灣漁業類型`
+
+---
+
+**AI 建議處理**
+
+例如：
+
+`🧠觀念重建 + 🧪類似題`
+
+---
+
+**教材來源**
+
+例如：
+
+`國中地理教材：臺灣漁業`
+
+---
+
+**觀念重建**
+
+例如：
+
+> 沿岸 ≠ 日常所說的「近海」
+>
+> 地理分類：
+>
+> 岸邊附近 → 沿岸  
+> 外圍海域 → 近海  
+> 遠方大洋 → 遠洋
+
+---
+
+**Visualize**
+
+需要才產生。
+
+---
+
+**類似題 L1**
+
+結果：✅
+
+**類似題 L2**
+
+結果：✅
+
+**類似題 L3**
+
+結果：❌
+
+---
+
+**目前掌握度**
+
+`🟡 2`
+
+---
+
+**下次複習**
+
+例如：
+
+`2026/8/24`
+
+---
+
+# 七、更重要的升級：建立「知識點資料庫」
+
+這是我認為 **2.1 最值得增加的部分**。
+
+因為現在如果錯 100 題，Notion 最後可能變成：
+
+> 100 個錯題頁面。
+
+但其中可能有：
+
+**5 題其實都是同一個觀念不熟。**
+
+例如：
+
+錯題 #14  
+→ 沿岸 vs 近海
+
+錯題 #38  
+→ 遠洋漁業
+
+錯題 #71  
+→ 捕魚作業範圍
+
+其實全部可以連到：
+
+### 🧠 知識點
+
+**「臺灣漁業類型」**
+
+這個知識點下面再統整：
+
+**沿岸｜近海｜遠洋｜養殖**
+
+以及：
+
+**錯過 3 次**
+
+這樣系統就能發現：
+
+> ⚠️ 這不是三個獨立錯題，而是一個反覆出現的知識漏洞。
+
+---
+
+# 八、因此 2.1 最好有「三層資料」
+
+我會建議最終架構：
+
+### 第一層｜錯題資料庫
+
+回答：
+
+> **我錯過什麼？**
+
+↓
+
+### 第二層｜知識點資料庫
+
+回答：
+
+> **這些錯題背後是哪個觀念？**
+
+↓
+
+### 第三層｜複習佇列
+
+回答：
+
+> **我今天最應該複習什麼？**
+
+這比單純做「錯題本」強很多。
+
+---
+
+# 九、以你今天這批地理錯題示範
+
+今天已經可以開始形成知識網：
+
+**地理**
+→ 臺灣自然環境
+→ 等高線
+→ 集水區／分水嶺
+→ 龜山島地形
+
+**地理**
+→ 臺灣產業
+→ 漁業
+→ 沿岸／近海／遠洋
+
+**地理**
+→ 人口
+→ 人口金字塔
+→ 性別與年齡結構
+→ 外來勞動人口
+
+**地理**
+→ 地圖判讀
+→ 經緯度
+→ 方位
+→ 時差
+
+於是之後不只是：
+
+> 「第 14 題錯了。」
+
+而是系統開始告訴你：
+
+> **你最近的地理錯題集中在「圖表／空間判讀」以及「相似名詞分類」。**
+
+這種資訊才真正有助於下一次考試。
+
+---
+
+# 十、2.1 的理想操作方式
+
+最後我希望做到非常簡單。
+
+你只需要：
+
+> **拍錯題 → 丟給 ChatGPT**
+
+剩下由 AI 做：
+
+**① 解題**  
+↓  
+**② 判斷錯因**  
+↓  
+**③ 判斷是否查教材**  
+↓  
+**④ 判斷是否觀念重建**  
+↓  
+**⑤ 判斷是否需要 Visualize**  
+↓  
+**⑥ 產生適當難度類似題**  
+↓  
+**⑦ 更新掌握度**  
+↓  
+**⑧ 寫入 Notion**  
+↓  
+**⑨ 排入之後的複習**
+
+這樣你不需要每一題都自己喊：
+
+> 「詳細解答」  
+> 「@Visualize」  
+> 「類似題」  
+> 「觀念重建」
+
+**2.1 的核心就是讓 AI 自己決定什麼時候該用哪一個。**
+
+---
+
+## 最終定位
+
+所以我會把 **第二代 AI 學習系統 2.1** 定義成：
+
+> ### 「以錯題為入口、以知識漏洞為管理單位、以變形題答對為學會標準」的 AI 學習系統。
+
+而不是單純的：
+
+> 「AI 幫我整理錯題到 Notion。」
+
+下一階段最值得做的不是再討論概念，而是直接把你目前的 **Notion「116 會考 AI 學習系統」實際結構讀出來**，看看現有 2.0 有哪些欄位，然後我可以替你做一份 **「2.0 → 2.1 Notion 資料庫升級規格」**，這樣不用推倒重來。memcite
+
+user
+有需要到codex專案處理嗎?
+
+assistant
+**目前不一定需要進 Codex 專案。** 我會把「第二代 AI 學習系統 2.1」分成兩個階段：先把學習方法跑通，再決定是否值得工程化。
+
+你現在最重要的是先驗證這條流程：
+
+**錯題照片 → 詳細解答 → AI 判斷錯因 → 觀念重建／教材查詢／類似題 → 掌握度 → Notion**
+
+這一階段主要是 **ChatGPT + Notion + 你現有的 3 個工具**，Codex 幫助反而有限。先拿今天這批地理錯題實際跑個 10～30 題，我們才能知道哪些欄位真的有用、哪些步驟太麻煩。
+
+等流程穩定後，Codex 才非常有價值。那時可以把 2.1 做成真正的程式系統，例如：
+
+**📷 上傳錯題**
+→ AI 自動辨識題目  
+→ 自動分類「粗心／知識遺忘／觀念混淆／圖表判讀」  
+→ 自動決定呼叫哪個工具  
+→ 產生 L1/L2/L3 類似題  
+→ 記錄作答結果  
+→ 計算知識點掌握度  
+→ 排定複習  
+→ 與 Notion 或自己的資料庫同步
+
+這時就很適合開一個 Codex 專案，例如：
+
+`exam-ai-learning-system`
+
+甚至可以把你現在的三個工具正式模組化成：
+
+`concept-rebuild`（觀念重建）  
+`textbook-search`（國中教材查詢）  
+`similar-question`（類似題）
+
+再加：
+
+`mistake-diagnosis`（錯因診斷）  
+`mastery-tracker`（掌握度）  
+`review-scheduler`（複習排程）
+
+最終就會從「Notion 錯題本」變成一個真正的 **AI 自適應學習系統**。
+
+所以我建議現在的順序是：
+
+**2.1 計畫 → 檢查現有 Notion 2.0 → 用真實錯題測試流程 → 修正流程 → 再交給 Codex 工程化。**
+
+不要現在立刻寫大量程式，否則很容易發生「系統做得很完整，但後來發現學習流程要改」而需要重寫。
+
+而且你已經有一個 `japanese-ai-learning` Repository；如果未來工程化，我反而會建議先評估 **會考系統獨立 Repo**，而不是硬塞進日文專案，兩者可以共用「AI 學習引擎」的設計思想。memcite
+
+**下一步我建議直接檢查 Notion 現況。** 我可以讀取你現在的「116 會考 AI 學習系統」，畫出 **現有 2.0 → 2.1 的資料庫架構與升級項目**，先不改任何資料。
+
+user
+直接檢查 Notion 現況  
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+我已經**直接讀取你目前的 Notion**。結論很明確：
+
+> **你的「116 會考 AI 學習系統」確實已經存在，而且 2.0 並不是空架構；已經有實際錯題、固定模板、複習日期等資料。現在很適合「升級 2.1」，不需要重做。** fileciteturn1file0L1-L1
+
+### 我看到的現況
+
+目前其實是用**同一個 Notion Database**，透過「類型」欄位區分不同功能。已經預留了：
+
+**首頁、考卷資料庫、錯題資料庫、觀念資料庫、公式／文法資料庫、知識點資料庫、AI 複習中心、學習分析、會考衝刺中心**。fileciteturn1file0L1-L1
+
+這點很重要，因為我剛才提出的「錯題 → 知識點 → 複習」概念，其實你原本的架構**已經有雛形了**，不用另外再造一套。
+
+目前資料庫欄位則有：
+
+**名稱｜所屬科目｜類型｜狀態｜重要程度｜下次複習｜備註｜建立時間**。fileciteturn1file0L1-L1
+
+而且不是只有架構。例如現在真的有自然、英文、數學、國文等錯題；自然第 50、4、40、27、12 題都已建立，並設定「高重要程度」與複習日期。fileciteturn2file0L2-L8 fileciteturn2file1L7-L13 fileciteturn2file2L12-L18
+
+### 更重要：你的 2.0 模板其實已經做得相當完整
+
+我也讀了「第二代 AI 學習系統｜錯題固定模板與清理檢查表」。
+
+現在每一道錯題已經要求：
+
+**題目 → 作答紀錄 → 我的錯誤 → 正確解法 → 答案驗證 → 核心觀念 → 選項辨析 → 一句防錯規則 → 變式練習 → 複習紀錄**。fileciteturn3file0L1-L1
+
+所以我現在反而**不建議大改這十個區塊**。
+
+真正缺的是一層：
+
+> **AI 根據錯因決定「接下來用哪個工具」。**
+
+也就是你剛才問的三個工具，正好可以填進這個缺口。
+
+---
+
+## 2.0 → 2.1，我建議只升級三件事
+
+**第一：加入「AI 分診」**
+
+錯題解完後自動判斷：
+
+`粗心 / 知識遺忘 / 觀念混淆 / 圖表判讀 / 空間判讀 / 變形失敗`
+
+然後決定：
+
+**🧠 觀念重建｜📚 教材查詢｜🧪 類似題｜🎨 Visualize**
+
+不是每題全部使用。
+
+**第二：加入「掌握度」**
+
+現在的「完成」有一個問題：Notion 裡很多錯題已標示「完成」，但「整理完成」不代表「已經真正學會」。例如數學、國文的一些題目雖然已完成，但複習日期甚至已經是 8 月 1 日或 8 月 9 日。fileciteturn2file9L47-L53 fileciteturn2file12L62-L68
+
+所以 2.1 應該分開：
+
+**頁面狀態：完成**  
+≠  
+**知識掌握度：4**
+
+我建議掌握度：
+
+`0 未理解 → 1 看解答懂 → 2 原型題會 → 3 變形題會 → 4 延後再測仍會`
+
+**第三：把「變式練習」升級成類似題 L1/L2/L3**
+
+你原本模板已經要求「至少一題變式練習」。fileciteturn3file0L1-L1
+
+所以「類似題」工具根本不用另外獨立出去。
+
+直接升級：
+
+**L1 同型題 → L2 換情境 → L3 陌生變形**
+
+最後由 L3 判斷是否真正掌握。
+
+---
+
+### 因此現在我的判斷變了
+
+**暫時完全不需要 Codex。**
+
+你現在的 Notion 基礎比我們剛才假設的還完整。
+
+最合理的是：
+
+> **保留現在 2.0 → 加 AI 分診 → 接上你的三個工具 → 加掌握度 → 強化類似題 → 成為 2.1。**
+
+而且我目前**只檢查，沒有修改你的 Notion**。
+
+下一步如果你同意，我建議我直接替這個現有 Database 做一份**「2.1 最小升級方案」**：明確列出「哪些欄位新增、哪些完全不動、三個工具放在哪一層」，確認後才實際改 Notion。memcite
+
+user
+我的notion116會考 的空間裡有?
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+有，我剛剛直接查了你目前 **Notion「🏅116 會考 AI 學習系統」** 的實際內容。
+
+目前這個空間裡一共有 **21 筆主要資料**，其中：
+- **19 筆是錯題**
+- **1 筆是 AI 複習中心**
+- **1 筆是學習分析**
+
+而 19 筆錯題目前分布是：
+
+| 科目 | 錯題數 |
+|---|---:|
+| 國文 | 8 |
+| 自然 | 5 |
+| 英文 | 3 |
+| 數學 | 3 |
+| 社會 | **0** |
+
+所以你今天這一批地理／社會錯題，例如「沿岸漁業、人口金字塔、集水區、龜山島炮臺、時差、海岸類型」**目前還沒有進到這個 Notion 資料庫裡**。
+
+另外，這個系統的架構其實已經預留很多「類型」：
+**首頁、考卷資料庫、錯題資料庫、觀念資料庫、公式／文法資料庫、知識點資料庫、AI 複習中心、學習分析、會考衝刺中心**；但目前真正有資料的主要只有「錯題資料庫、AI 複習中心、學習分析」。fileciteturn1file0L1-L1
+
+而且你已經有一份正式的 **「第二代 AI 學習系統｜錯題固定模板與清理檢查表」**，內容包含題目、作答紀錄、錯誤原因、正確解法、核心觀念、選項辨析、防錯規則、變式練習與複習紀錄。fileciteturn3file0L1-L1
+
+所以目前最明顯的缺口其實不是「沒有系統」，而是：
+
+> **社會科還沒正式建立錯題資料，而知識點／觀念資料庫雖然架構已有，還沒有真正開始累積。**
+
+這正好也是 2.1 最適合開始的地方：**先拿今天這批社會錯題當第一批 2.1 測試資料。** memcite
+
+user
+請幫我整理這個空間
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+已經開始幫你整理，而且這次是**直接修改 Notion「🏅116 會考 AI 學習系統」本身**，不是只提出建議。
+
+我先採用「**不破壞既有資料、最小幅度升級到 2.1**」的方式。原本資料庫已有科目、類型、狀態、重要程度、下次複習等欄位，我全部保留。fileciteturn4file0L1-L1
+
+這次新增了三個核心欄位：
+
+| 新欄位 | 用途 |
+|---|---|
+| **錯因分類** | 粗心／知識遺忘／觀念混淆／圖表判讀／空間判讀／變形失敗 |
+| **建議工具** | 觀念重建／教材查詢／類似題／Visualize，可複選 |
+| **掌握度** | 0 未理解 → 1 看解答才懂 → 2 原型題會 → 3 變形題會 → 4 延後再測仍會 |
+
+另外我已經把原本的「🧩 第二代 AI 學習系統｜錯題固定模板與清理檢查表」升級，在最前面加入 **2.1 AI 分診規則**：先詳細解答，再判斷錯因，再決定使用哪個工具；類似題則分成 L1 同型、L2 換情境、L3 陌生變形。原本的十段錯題模板全部保留，沒有刪除。fileciteturn3file0L1-L1
+
+我目前**沒有亂改既有 19 道錯題的內容與掌握度**，因為「完成」不能自動等同於「已掌握」；這些最好之後透過重做／類似題再逐步評定。
+
+下一步最適合的是把**今天這批社會地理錯題正式整理進 2.1**，剛好可以成為第一批完整使用「錯因＋工具＋掌握度」的新資料。memcite
+
+user
+可以先把不需要的頁面資料庫刪除?
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+可以，但我檢查後建議**不要直接大量刪除**，因為目前「116 會考」其實不是很多獨立資料庫，而是**一個主資料庫，用「類型」欄位區分功能**。fileciteturn4file0L1-L1
+
+目前我會這樣清理：
+
+- **保留**「第二代 AI 學習系統｜錯題固定模板與清理檢查表」：它現在已經是 2.1 的核心模板。fileciteturn5file14L71-L79
+- **保留所有真正錯題**：國文、英文、數學、自然，之後還要拿來做掌握度與知識漏洞分析。
+- **建議刪除／封存**「目前優先事項與下一步｜2026-08-10」：這是舊的階段性學習分析，現在正在改成 2.1，內容容易和新的複習邏輯重疊。fileciteturn5file15L76-L84
+- 「首頁、考卷資料庫、觀念資料庫、公式／文法資料庫、知識點資料庫、會考衝刺中心」目前主要是**類型選項**，不是六個多餘的實體資料庫，所以暫時不需要因為看起來多就刪掉。fileciteturn4file0L1-L1
+
+我建議第一輪採取**保守清理**：只刪除/封存確定過期的分析頁，不碰任何錯題與模板；接著再整理類型與欄位。
+
+如果你同意，我下一步就先處理 **「目前優先事項與下一步｜2026-08-10」** 這個舊頁面，再繼續找有沒有重複或空白頁。memcite
+
+user
+先處理 **「目前優先事項與下一步｜2026-08-10」** 這個舊頁面，再繼續找有沒有重複或空白頁。  
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+已處理完成。
+
+我先把 **「目前優先事項與下一步｜2026-08-10」** 改成：
+
+**「【封存】目前優先事項與下一步｜2026-08-10」**
+
+並把狀態設為「完成」，備註也標明這是 **2.1 升級前的舊版階段性分析，不再作為目前複習依據**。fileciteturn7file0L1-L9
+
+接著我掃描了目前整個主資料庫：
+
+**沒有發現同名重複頁面，也沒有發現名稱空白的資料列。**
+
+目前看起來主要內容都具有保留價值，例如各科錯題，以及 2.1 的核心模板「第二代 AI 學習系統｜錯題固定模板與清理檢查表」。fileciteturn7file12L61-L69
+
+所以我建議**先不要再刪頁面**。下一輪更值得整理的是「資料庫本身」：檢查目前的 **類型、狀態、重要程度、備註、下次複習，以及剛新增的錯因分類／建議工具／掌握度**，看看哪些欄位重複或其實不需要，讓 2.1 的介面變得更乾淨。memcite
+
+user
+[原卷附圖]
+請評估?
+
+assistant
+從你現在的畫面看，我會給目前 **第二代 AI 學習系統 2.1 的 Notion 結構約 7/10**：核心方向已經對，但介面仍有一些「資料庫管理感」，還沒有變成真正適合每天做錯題的操作介面。
+
+### 目前做得好的地方
+
+畫面中的固定模板已經集中在同一個主資料庫，而且你現在可以看到「下次複習、科目、掌握度、狀態、重要程度、錯因分類、類型」等資訊。這跟我們剛才讀到的資料庫結構一致。模板本身也已經包含題目、錯因、解法、核心觀念、變式練習等完整流程。fileciteturn7file12L61-L69
+
+真正需要改善的是**欄位太多，而且重要性沒有分層**。
+
+例如你現在打開一個錯題頁，首先看到：
+
+> 下次複習  
+> 備註  
+> 建立時間  
+> 建議工具  
+> 所屬科目  
+> 掌握度  
+> 狀態  
+> 重要程度  
+> 錯因分類  
+> 類型
+
+學生每天真正需要注意的其實只有：
+
+> **科目 → 錯因 → 掌握度 → 下次複習 → 建議工具**
+
+「建立時間、類型、備註」比較偏系統管理資料，不應該搶走畫面注意力。
+
+### 我會把 2.1 介面整理成三層
+
+**第一層｜每天真正要看的**
+
+**科目｜錯因分類｜掌握度｜下次複習｜建議工具**
+
+例如：
+
+> 社會 ｜ 觀念混淆 ｜ 🟡 2 原型題會 ｜ 8/24 ｜ 🧠觀念重建＋🧪類似題
+
+一眼就知道：「我現在會到什麼程度、接下來要幹嘛」。
+
+**第二層｜管理用**
+
+**狀態｜重要程度｜類型**
+
+保留，但不需要成為主要視覺焦點。
+
+**第三層｜系統資訊**
+
+**建立時間｜備註**
+
+能隱藏就從主要 View 隱藏，不必刪除資料。
+
+---
+
+### 有一個欄位我特別建議改
+
+你截圖裡現在：
+
+**建議工具：空**
+
+這其實正是 2.1 最重要的欄位之一。
+
+以後一題整理完成，應該出現例如：
+
+**建議工具**
+`🧠觀念重建` `🧪類似題`
+
+而不是要求你自己每次想：
+
+> 「這題我要不要 @Visualize？」
+
+這才是我們做 2.1 的意義。
+
+而「重要程度」也可以降低地位。真正更有價值的是：
+
+**反覆錯幾次 + 掌握度多少 + 距離下次複習多久。**
+
+一題標「高」並不代表今天最值得複習；一題已經錯三次、掌握度只有 1，才是真的危險。
+
+### 左側欄也值得整理
+
+你的截圖左側目前同時看到「116 會考 AI 學習系統」、各個錯題、舊分析頁、會考衝刺系統、不等式整理表、生物等，視覺上開始有點散。
+
+長期我希望它變成非常簡單：
+
+> 🏅 **116 會考 AI 學習系統**
+>
+> 📥 今日錯題  
+> 🔁 今日複習  
+> 🔴 弱點知識  
+> 📚 全部錯題  
+> 📊 學習分析
+
+而不是靠左側 Recent pages 找錯題。
+
+---
+
+## 最重要的一個問題
+
+現在這頁名稱仍然是：
+
+**「第二代 AI 學習系統｜錯題固定模板與清理檢查表」**
+
+這個名字比較像「系統管理文件」。
+
+我建議 2.1 之後乾脆改成：
+
+### 🧩 第二代 AI 學習系統 2.1｜錯題模板
+
+學生操作就只有：
+
+**拍題 → AI 解題 → 自動分診 → 工具處理 → 類似題 → 掌握度 → 排複習**
+
+至於「清理檢查表」可以放在頁面底部作為 AI 的規則，不必放在標題。
+
+**所以我現在不建議再新增更多東西。反而應該做減法。**
+
+下一步我會優先整理 **欄位名稱與用途 → 模板名稱 → 首頁 View**，而不是繼續加功能。這三個整理完，你的 Notion 才會從「資料庫」開始變成真正能每天使用的 **會考學習 Dashboard**。memcite
+
+user
+整理 **欄位名稱與用途 → 模板名稱 → 首頁 View**  
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+已經完成第一輪整理，而且**沒有刪除任何現有錯題資料**。
+
+我做了三部分：
+
+**1. 欄位名稱簡化**
+- `所屬科目` → **科目**
+- `建議工具` → **AI 建議工具**
+- `狀態` → **整理狀態**
+- `重要程度` → **重要度**
+- `備註` → **學習備註**
+
+現在核心欄位就比較清楚：
+
+> **科目 → 錯因分類 → 掌握度 → 下次複習 → AI 建議工具**
+
+而「整理狀態、重要度、建立時間、學習備註」退到管理用途。資料庫也加上 2.1 的用途說明。fileciteturn11file0L1-L1
+
+**2. 模板名稱已改**
+
+原本很長的：
+
+> 第二代 AI 學習系統｜錯題固定模板與清理檢查表
+
+現在改成：
+
+> **🧩 第二代 AI 學習系統 2.1｜錯題模板**
+
+模板的學習備註也改成 2.1 流程：AI 分診 → 選工具 → 變形題 → 延後再測。
+
+**3. 首頁 Database 新增三個實用 View**
+
+現在 `🏅116 會考 AI 學習系統` 多了：
+
+- **🎯 錯題總覽 2.1**：只顯示錯題，並集中顯示科目、錯因、掌握度、複習日期、AI 工具與重要度。
+- **🔁 複習行程**：用 Calendar 直接按照「下次複習」安排錯題。
+- **🧠 掌握度看板**：把錯題依 `0 → 1 → 2 → 3 → 4` 掌握度分組。
+
+這樣以後不需要一直從左側頁面找資料。
+
+下一輪我反而建議**不要再動架構**，直接拿你今天的社會錯題放進去測試。這樣我們才能看到「🎯錯題總覽 → AI 分診 → 🧠掌握度 → 🔁複習」實際跑起來順不順，再決定哪些欄位還可以刪。memcite
+
+user
+會考應戰系統  有用嗎?
+
+assistant
+有用，但它的定位應該和「第二代 AI 學習系統 2.1」分開。
+
+我建議把整套系統想成兩層：
+
+**第二代 AI 學習系統 2.1 = 平時把能力練起來**  
+錯題 → 找錯因 → 補觀念 → Visualize／教材查詢／類似題 → 變形題 → 延後再測 → 掌握度 4。
+
+**會考應戰系統 = 考前把分數拉出來**  
+它不需要再保存大量知識，而是回答：「距離會考剩下這段時間，我現在最值得處理什麼？」
+
+所以它真正有價值的功能應該是：
+
+> 錯題資料庫  
+> ↓  
+> 找出「高頻錯因＋重要考點＋掌握度低」  
+> ↓  
+> **產生本週／今日優先清單**  
+> ↓  
+> 模擬題、限時題、跨單元變形題  
+> ↓  
+> 分析失分  
+> ↓  
+> 回寫第二代系統
+
+這會比另外建立一套「會考筆記」有用很多。
+
+尤其現在資料庫已經有 **科目、錯因分類、掌握度、重要度、下次複習、AI 建議工具**，其實已經具備做應戰系統的資料基礎。fileciteturn11file0L1-L1
+
+因此我**不建議刪掉「會考應戰系統」**，但也不建議讓它變成另一個龐大的資料庫。最理想是把它改造成 **「🎯 會考應戰中心」Dashboard**，直接讀取現在 2.1 的資料，顯示「今天最該救的錯題、各科弱點、待複習題、掌握度 0–2、高重要度題目」。
+
+這樣整個架構就會變得很清楚：
+
+**2.1 負責「學會」；會考應戰中心負責「決定現在練什麼」。**
+
+這個功能我認為值得保留，而且會是接下來最值得整理的部分。memcite
+
+user
+會考弱科捕撈網  呢?
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+這個我查了實際內容後，結論和「會考應戰系統」不太一樣：
+
+**「會考弱科捕撈網 🎯」有價值，而且裡面的內容不應該刪掉；但我不建議繼續讓它當一套獨立系統。**
+
+它現在是一個獨立 Database，欄位只有：
+
+**死穴核心觀念｜科目｜解藥類比｜魔王題｜檔案和媒體**。fileciteturn13file0L1-L1
+
+而且裡面的資料其實很好。例如它已經抓到「地圖動態流向與網格座標的立體空間感」，不只保存原錯題，還用「溜滑梯與玩沙池」重新建立尼日河的空間模型。fileciteturn14file2L12-L18 另外還有「不平等貿易（殖民經濟後遺症）」這種跨題核心觀念，並用生活類比重新解釋。fileciteturn14file3L17-L23
+
+這其實就是我們剛才 2.1 所說的：
+
+> **🧠 觀念重建 + 🧪 魔王／變形題**
+
+所以它不是沒用，反而是**很有價值但功能重疊了**。
+
+我的建議是：
+
+**116 會考 AI 學習系統 2.1 = 主系統**  
+錯題全部進這裡。
+
+↓ AI 發現同一核心觀念反覆錯
+
+**🎯 弱科捕撈 = 2.1 裡的一個「弱點知識 View」**
+
+↓ 點進去
+
+**死穴核心觀念 → 解藥類比（觀念重建）→ L1/L2/L3 → 魔王題 → 掌握度**
+
+這樣「捕撈網」這個概念反而更漂亮：它不是另一個地方讓你手動維護資料，而是**自動從 2.1 捕撈出真正的弱點**。
+
+所以目前我建議：
+
+**不要刪「會考弱科捕撈網」裡面的資料。**
+
+下一步應該做的是**資料遷移／整併規劃**：把現有的「死穴核心觀念、解藥類比、魔王題」保留下來，逐步併入 116 會考 AI 學習系統 2.1；確認全部移好之後，才考慮封存舊的「會考弱科捕撈網」Database。
+
+這會比同時維護「116 系統＋應戰系統＋捕撈網」三套系統乾淨很多。memcite
+
+user
+[原卷附圖]
+為什會出現在左側?版面很亂
+
+assistant
+對，這個畫面會讓人覺得亂，原因我看得出來。
+
+你左側「最近」出現的：
+
+- `英文｜第29題｜連接詞`
+- `英文第25題－閱讀測驗`
+- `會考應戰系統`
+- `會考弱科捕撈網`
+- `不等式單元－錯題整理表`
+- `數學第11題…`
+- `生物`
+- `自然第4題…`
+
+**不代表它們都變成「116 會考 AI 學習系統」底下的首頁子頁面。**
+
+Notion 左側上半部這一區是 **「最近」**，會自動顯示你最近開啟或編輯過的頁面。你最近一直在整理錯題，所以個別錯題頁就被 Notion 自動塞到這裡。這也是為什麼 `英文｜第29題｜連接詞` 看起來像獨立頁面。
+
+真正的空間階層要看左下方 **「私人」** 那一區。從你的截圖看，目前那裡確實還有：
+
+`116 會考 AI 學習系統`  
+`會考應戰系統`  
+`不等式單元－錯題整理表`  
+`會考弱科捕撈網`
+
+這部分才是我們值得整理的地方。
+
+### 我建議最後整理成
+
+**🏅 116 會考 AI 學習系統**
+→ 裡面只有第二代 AI 學習系統 2.1 的入口與 Views
+
+而不是左邊長期放著一堆：
+
+`第29題`、`第25題`、`第11題`、`生物`、`地理`……
+
+**個別錯題應該是資料庫的一筆資料，不應該被當成你的主要導航入口。**
+
+不過「最近」本身是 Notion 的介面行為，我幫你整理資料庫後，**它仍可能暫時顯示最近開過的錯題**；這跟資料庫架構是否乾淨是兩回事。
+
+目前最值得做的是把左下「私人」真正的舊架構收乾淨：
+
+**保留：116 會考 AI 學習系統 → 2.1**  
+**整併：會考弱科捕撈網 → 2.1**  
+**評估封存：會考應戰系統**  
+**整併：不等式單元－錯題整理表 → 2.1**
+
+這樣即使「最近」偶爾顯示個別錯題，**真正的系統架構仍會非常乾淨。** memcite
+
+user
+舊架構收乾淨  
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+我已經先盤點出需要收進主系統的三個舊入口：
+
+- **會考應戰系統** fileciteturn15file0L2-L7
+- **會考弱科捕撈網 🎯**：裡面有真正有價值的弱點資料，不能直接刪。fileciteturn13file0L1-L1
+- **不等式單元－錯題整理表** fileciteturn16file0L2-L8
+
+我剛才嘗試直接把這三個舊入口移到 **「116 會考 AI 學習系統」** 底下，但 Notion 回傳權限／父頁限制，因此**沒有移動成功，也沒有刪除任何內容**。
+
+所以目前資料是安全的。
+
+接下來我建議不要硬搬頁面，而採取更乾淨的方式：**先把「弱科捕撈網」和「不等式錯題」的有效資料遷入 2.1 主資料庫 → 驗證完整 → 再封存舊入口**；「會考應戰系統」則改造成主系統裡的應戰 Dashboard。
+
+這樣才是真正「收乾淨」，而不是只是把左側頁面藏起來。memcite
+
+user
+**先把「弱科捕撈網」和「不等式錯題」的有效資料遷入 2.1 主資料庫 → 驗證完整 → 再封存舊入口**；「會考應戰系統」則改造成主系統裡的應戰 Dashboard。  
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+已經照這個方向開始實際整併。
+
+目前完成三件事：
+
+1. **弱科捕撈網 → 2.1**
+   已把目前辨識到的核心弱點遷入主資料庫，包括「不平等貿易」、「地圖流向與網格座標」、「商業市場供需與獲利邏輯」；原捕撈網確實保存了這些核心觀念、解藥類比與魔王題。fileciteturn19file0L2-L10 fileciteturn19file1L8-L17  
+   舊資料庫已改名為 **「【封存】會考弱科捕撈網 🎯」**，但沒有刪除，方便日後核對。
+
+2. **不等式整理表 → 2.1**
+   已建立 **「數學弱點｜一元一次不等式綜合整理」**，保留原來的分段計算、單位換算、不等號方向、空心／實心、整數解、五步作答流程等內容。原頁面的確包含這些整理。fileciteturn17file0L1-L1  
+   舊頁已改名 **「【封存】不等式單元－錯題整理表」**。
+
+3. **會考應戰系統 → Dashboard**
+   原本它其實只是一個頁面裡嵌著「會考準備」資料庫。fileciteturn24file0L1-L1  
+   現在已改成 **「🎯 會考應戰中心｜2.1 Dashboard」**，並直接連到 116 主資料庫，新增：
+   **🔴 優先救援**與**🧠 弱點觀念**兩個即時 View。
+
+現在架構開始收斂成：
+
+**🏅 116 會考 AI 學習系統 2.1 = 唯一資料核心**  
+→ 錯題  
+→ 弱點觀念  
+→ 掌握度／複習  
+→ **🎯 會考應戰中心 = 決定現在先救什麼**
+
+舊系統目前採「封存而不刪除」，等我們再確認遷移內容完整後，再決定是否真正丟進垃圾桶。memcite
+
+user
+先拿今天這批社會錯題當第一批 2.1 測試資料  
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+可以。今天這批社會錯題就當作 **2.1 的第一批實戰測試資料**。
+
+目前我能確認的一題是「台灣漁業分類」：核心不是背船大小，而是先依**作業海域**判斷沿岸、近海、遠洋；常見陷阱包括把 3 海浬當正式分界、看到大船就直接判遠洋等。fileciteturn0file0
+
+不過目前保存的資料**沒有今天整批社會錯題的原題、你的作答與正解**，所以我不會先猜著寫進 2.1。
+
+你把今天那批社會錯題的照片／題目貼上來即可。我會直接用它測完整流程：
+
+**原題 → 我的答案 → 正解 → 錯因 → 核心知識點 → 解題線索 → L1 原型題 → L2 變形題 → L3 陌生情境 → 掌握度 → 下次複習**
+
+而且這次不是另外做一份整理，而是**直接寫入 2.1 主資料庫，再從「🎯 會考應戰中心」驗證能不能正確抓出優先弱點**。memcite
+
+user
+[原卷附圖]
+
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+好，這題已經正式放進 **116 會考 AI 學習系統 2.1**，作為第一筆社會科實戰測試。
+
+我從圖片判讀到：**你的原答案是乙（B），老師更正為甲（A）**。這題真正考的是：
+
+> **「兩座山頭中間下凹＋狹窄通道」＝鞍部**
+
+所以我沒有把它分類成單純「知識遺忘」，而是：
+
+**錯因：空間判讀**  
+**掌握度：1 看解答才懂**  
+**重要度：高**  
+**AI 建議工具：Visualize＋類似題**  
+**下次複習：2026/8/22**
+
+頁面內也已完整建立：
+
+**原題 → 作答紀錄 → 錯因 → 正確解法 → 核心觀念 → 四選項辨析 → 防錯規則 → AI 分診 → L1/L2/L3 變式題 → 複習紀錄。**
+
+其中防錯規則我設定成：
+
+> **兩山之間＋中間下凹＋通道 → 鞍部。**
+
+這正好顯示 2.1 和以前「逐題解答」的差別：**不是解完甲就結束，而是把「為什麼會把乙看成甲」轉成一個可追蹤的能力漏洞。**
+
+而且這題確實很適合 **Visualize**。如果把等高線直接變成立體「馬鞍」圖，你之後看到不同圖形會比死背「甲」有效很多。
+
+你可以繼續把下一張今天的社會錯題傳上來，我就照同一套 2.1 流程逐題加入；等累積幾題後，我們再看「會考應戰中心」能不能自動抓出共同弱點。memcite
+
+user
+錯題有附圖但notion沒附圖
+
+assistant
+對，你抓到 2.1 目前的一個缺口：**我剛才建立的是文字版題目，沒有把你上傳的原始題目照片一起存進 Notion。**
+
+原因是目前這個 Notion 連接器能直接建立頁面內容，但**不能把這個聊天裡的本機 JPEG 直接當成 Notion 圖片上傳**；它的附件介面目前只接受文字內容或可公開直接下載的 HTTPS 圖片網址。因此我不能假裝已經把照片放進去。
+
+而 2.1 的規則應該修改成：
+
+**凡原題含圖片／圖表／地圖／幾何圖 → 原圖必須保留。**  
+尤其這一題考的是「等高線空間判讀」，**沒有圖，錯題本本身就不完整**。
+
+我建議把 2.1 的「題目」區固定成：
+
+> **① 原始題目圖片 → ② 完整題幹 → ③ 選項 → ④ 我的作答 → ⑤ 正確答案**
+
+之後圖片題我不應該只轉成文字。
+
+這張第 12 題目前先保留已建立的分析；如果你願意，我下一步可以**先修改 2.1 模板規則，把「原題圖片完整性檢查」列為必檢項目**，避免後面的社會、自然、數學圖片題再發生同樣問題。memcite
+
+user
+好
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+完成。
+
+我已經把 **2.1 錯題模板**正式加入「原題圖片完整性」規則：
+
+- 有圖片／地圖／圖表／幾何圖 → **原始圖片必須保留**
+- 圖片之外仍保留文字題幹與選項，方便搜尋與 AI 分析
+- 題組要保留完整材料
+- 如果圖片因工具限制尚未存入 → 必須標記 **⚠️ 原題圖片待補**
+- 原圖沒補齊以前，不能視為完整錯題。fileciteturn27file0L1-L1
+
+而剛才的 **社會第12題「虎字碑／鞍部」**，我也已經加上黃色警示：
+
+> ⚠️ **原題圖片待補**
+
+所以它現在仍維持「進行中」，不會假裝是一筆完整完成的錯題。fileciteturn29file0L1-L1
+
+之後你傳圖片題給我，我會把**「原圖是否成功保存」也當成 2.1 的品質檢查項目**。memcite
+
+user
+[原卷附圖]
+
+
+assistant
+收到，這就是剛才 **社會第 12 題「草嶺古道／虎字碑／鞍部」的完整原題圖片**。
+
+我現在有原圖了，可以把它補進 2.1 的這筆錯題，讓「題目」同時保留 **原始照片＋文字題幹＋選項**，並移除「⚠️ 原題圖片待補」標記。
+
+user
+請將圖片轉正只保留圖片就好
+
+user
+請補到notion內
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+目前還不能把這張實際 PNG/JPEG 補進 Notion：Notion 連接器的圖片附件只接受**公開 HTTPS 圖片網址**，不能直接吃這個聊天中的本機圖片檔。
+
+我沒有把剛才測試用的空白附件放進錯題頁，因此不會污染資料。
+
+這題目前仍應維持：
+
+> ⚠️ **原題圖片待補**
+
+文字解答與 2.1 分析先保留。之後只要能取得這張轉正圖片的公開／Notion 可讀網址，就能直接嵌入原題區，再把警告移除。memcite
+
+user
+如何將這張公開
+
+assistant
+不一定要把圖片「公開到整個網路」。剛才我說得太窄了。
+
+目前最簡單的方法有兩種：
+
+1. **直接在 Notion 手動上傳**
+   打開「社會｜第12題｜等高線判讀：虎字碑位置」→ 在「1. 題目」最上方輸入 `/image` → 選「上傳」→ 選這張轉正圖片。  
+   這樣圖片仍由 Notion 管理，**不需要公開網址**。這是最推薦的做法。
+
+2. **如果希望之後都由我自動寫入**
+   才需要一個 Notion 能直接下載的 HTTPS 圖片網址，例如放到 GitHub 等可取得原始圖片網址的位置。這會增加流程，我不建議為每一道錯題都這樣做。
+
+### 我建議 2.1 的實際工作流
+
+你在 ChatGPT：
+
+**拍錯題 → 我轉正／裁切 → 我做詳細解答＋2.1 分析 → 我寫入 Notion**
+
+只有最後「原始圖片」目前需要你在 Notion **手動拖進去一次**。
+
+而且我建議不要為了自動化，把大量考卷照片設成公開。**多做一次拖曳，比把整套錯題圖片公開更合理。**
+
+如果之後圖片量非常大，再考慮把「ChatGPT 圖片 → Notion」這一步自動化。memcite
+
+user
+**我已經手動存入2.1 的第一題實戰完成**  
+
+assistant
+很好。那這一題就可以視為 **2.1 第一筆完整實戰資料**：
+
+**原題圖片 ✓ → 原題文字 ✓ → 我的答案／正解 ✓ → 錯因 ✓ → 核心觀念 ✓ → AI 工具分診 ✓ → L1/L2/L3 ✓ → 下次複習 ✓**
+
+接下來最重要的反而不是繼續改系統，而是**連續輸入今天剩下的社會錯題**。等累積約 5–10 題後，再檢查 2.1 能不能自動看出：
+
+> 「我不是哪一題不會，而是哪一種能力一直出錯？」
+
+例如今天可能逐漸浮現 **等高線／空間判讀、地圖流向、漁業分類、材料關鍵字判讀**等弱點群。
+
+所以現在可以先停止調整 Notion 架構。**你傳下一題，我們直接跑第二筆 2.1 實戰資料。** memcite
+
+user
+[原卷附圖]
+
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+這題已經加入 **2.1 第二筆社會實戰資料**。
+
+- **第11題｜龜山島廢棄砲臺位置判讀**
+- 你的答案：**D 丁**
+- 正確答案：**C 丙**
+- 錯因：**空間判讀**
+- AI 工具：**Visualize＋類似題**
+- 掌握度：**1**
+- 明日安排 L2/L3 再測
+
+這題我特別記錄了一個重要解題流程：
+
+> **用途 → 必要位置條件 → 地圖證據 → 排除選項**
+
+也就是看到「砲臺」不能只找最高點；要把「防止敵人靠岸登陸」轉換成**臨海、控制登陸方向／射界**等空間條件。
+
+原圖目前標記 **⚠️ 原題圖片待手動補入**。你像第一題一樣把這張照片放進 Notion 後，這筆就完整了。
+
+而且現在連續兩題已經開始出現值得注意的訊號：**第12題鞍部＋第11題砲臺都是「空間判讀」錯誤。** 如果後面又出現同類型錯題，2.1 就應該把它升級成「弱點觀念」，而不只是三道獨立錯題。memcite
+
+user
+請將圖片轉正只保留圖片就好  
+
+user
+我已經手動存入2.1 的第2題實戰完成  
+
+assistant
+很好，第 2 題就可以視為 **完整實戰資料 ✓**。
+
+目前 2.1 已有兩筆完整測試：
+
+| 題目 | 主要錯因 | 狀態 |
+|---|---|---|
+| 第12題 虎字碑／鞍部 | 空間判讀 | ✅ 完成 |
+| 第11題 龜山島／砲臺 | 空間判讀＋用途→位置轉換 | ✅ 完成 |
+
+這時已經出現第一個值得追蹤的訊號：**連續兩題都涉及「把文字條件轉換成地圖空間」**。先不要急著判定為正式弱點；再輸入幾題，如果第三、第四題仍出現同類錯誤，2.1 就應該自動把它提升為一個「弱點觀念／能力」，再安排 Visualize 與 L2/L3 針對訓練。
+
+可以直接傳 **第 3 題錯題**，我們繼續測 2.1。memcite
+
+user
+[原卷附圖]
+沒辦法貼到notion?
+
+assistant
+對，**你畫面中的 Visualize 互動圖沒辦法直接完整貼到 Notion**。
+
+原因是它不是普通的 PNG/JPG，而是 ChatGPT 裡的**互動元件**。複製貼上時，Notion 無法保存它的互動結構。
+
+最實用的方式就是你現在做的：
+
+**Visualize → 截圖 → 貼入 Notion。**
+
+而且我建議 2.1 把圖片分成兩種：
+
+- **原題圖片**：一定保留，還原考試情境。
+- **AI 視覺解說圖**：只有像「鞍部、等高線、河流流向」這種**看圖比文字更容易理解**的題目才加入。
+
+例如第一題的 Notion 頁面可以變成：
+
+**① 原題圖片**  
+↓  
+題目／答案／錯因  
+↓  
+**② AI Visualize 圖：兩山之間低缺口＝鞍部**  
+↓  
+核心觀念＋L1/L2/L3
+
+這樣 Visualize 就真正融入 2.1，而不是每一題都多做一張圖。
+
+**你這張截圖本身就可以直接貼進第一題 Notion 的「核心觀念」下面。** 不需要另外公開圖片。memcite
+
+user
+[原卷附圖]
+為什麼有二個相似的
+
+assistant
+因為上面是「🔴 優先救援」，下面是「🧠 弱點觀念」兩個 View，但 **Notion 手機版把 View 名稱／說明顯示得不夠明顯**，所以看起來像同一個資料庫重複兩次。
+
+兩個 View 的目的其實不同：
+
+- **上面：🔴 優先救援** → 包含第 11、12 題錯題＋弱點，回答「**現在先複習什麼？**」
+- **下面：🧠 弱點觀念** → 只放已整理出的觀念弱點，回答「**我有哪些長期弱點？**」
+
+但從你這張手機截圖來看，**確實太像、太亂，而且重複資訊很多**。尤其「不平等貿易、地圖流向、商業市場、不等式」上下各出現一次，沒有必要。
+
+### 我建議直接簡化
+
+Dashboard 首頁只保留 **一個「🔴 今日優先救援」View** 就好。
+
+「🧠 弱點觀念」不要再整張資料庫放在下面；改成主系統裡的一個 View，需要查弱點時才切過去。
+
+這樣手機打開會變成：
+
+> 🎯 **會考應戰中心 2.1**  
+>   
+> 🔴 今日優先救援  
+> ① 社會第11題  
+> ② 社會第12題  
+> ③ 目前高優先弱點  
+>   
+> **就這一張表。**
+
+我會比較推薦這個版本。**Dashboard 是拿來決定今天做什麼，不應該變成另一個資料庫總覽。** 主資料庫才負責保存全部內容。memcite
+
+user
+好
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+The output of this plugin was redacted.
+
+assistant
+好了，我已把 **🎯 會考應戰中心｜2.1 Dashboard** 簡化。
+
+現在首頁只保留：
+
+**🔴 今日優先救援**
+→ 只回答一件事：**「現在最該先複習什麼？」**
+
+剛才手機畫面下面那個重複的「🧠 弱點觀念」View 已移除；舊的「會考準備」嵌入資料庫也從 Dashboard 移除了。**資料本身沒有刪除**，只是 Dashboard 不再重複顯示。fileciteturn30file0L1-L1
+
+你重新整理 Notion 手機頁面後，版面應該會乾淨很多。memcite
+
+user
+[原卷附圖]
+
+
+assistant
+這題你選 **C**，老師更正為 **B**。正確答案是 **B「具有遺傳物質，且有可能發生變異」**。
+
+關鍵在於題目問的是 **COVID-19 病毒的敘述**：
+
+- **A 原核生物界** ❌：病毒不是生物五界中的原核生物。
+- **B 有遺傳物質＋可能變異** ✅：病毒具有遺傳物質，複製過程也可能產生變異。
+- **C 細胞外生長、代謝、繁殖** ❌：這正是陷阱。**病毒沒有完整的細胞構造，不能在宿主細胞外自行代謝與繁殖**，必須利用宿主細胞。
+- **D 不會透過空氣、血液或眼耳鼻接觸傳染** ❌：題幹本身已說可透過飛沫、接觸感染物等方式傳播。
+
+### 這題真正要補的弱點
+
+不要只記「COVID 的知識」，要記一個會考常考的核心判斷：
+
+**病毒 ≠ 細胞 → 無法獨立代謝、繁殖 → 必須進入活的宿主細胞**
+
+可以濃縮成：
+
+> 🦠 **病毒：有遺傳物質、會變異，但不能自己繁殖。**
+
+這題很適合成為 **2.1 的第 3 題實戰錯題**，錯因可標成「**病毒生命現象／細胞構造概念混淆**」，之後再出 L2 變形題確認你是真的會，而不是只記住 B。memcite
+
+user
+病毒vs細胞
+
+assistant
+對，這題真正需要建立的是 **「病毒 vs. 細胞」比較模型**，比只背 COVID-19 更有用。
+
+| 比較 | 🦠 病毒 | 🔬 細胞 |
+|---|---|---|
+| 是不是細胞？ | ❌ 不是 | ✅ 是 |
+| 細胞膜、細胞質等完整細胞構造 | ❌ 沒有完整細胞構造 | ✅ 有 |
+| 遺傳物質 | ✅ 有 | ✅ 有 |
+| 會不會變異？ | ✅ 會 | ✅ 會 |
+| 能自己代謝？ | ❌ 不行 | ✅ 可以 |
+| 能自己繁殖？ | ❌ **不行** | ✅ 細胞可進行分裂等生命活動 |
+| 病毒如何增加數量？ | **必須寄生在活細胞內，利用宿主細胞** | 本身具有進行生命活動的細胞系統 |
+| 例子 | COVID-19、流感病毒 | 細菌、人體細胞、植物細胞 |
+
+### 🧠 會考最重要的一條線
+
+把它想成：
+
+**細胞 = 一間可以運作的工廠**  
+**病毒 = 帶著遺傳指令，卻沒有自己的完整工廠**
+
+所以病毒：
+
+**有遺傳物質 → ✅**  
+**可能發生變異 → ✅**  
+**自己代謝 → ❌**  
+**自己繁殖 → ❌**  
+**進入活細胞後利用宿主繁殖 → ✅**
+
+因此剛才第 31 題的 C：
+
+> 「能在**細胞外**表現生長、代謝、繁殖……」
+
+看到「**細胞外＋繁殖**」，就可以立刻警覺：**病毒做不到 → C 錯。**
+
+這個「病毒 vs. 細胞」非常適合做成 2.1 的**弱點觀念卡**，而第31題則連到這張觀念卡；這會比每次遇到病毒題重新背一次有效。memcite
+
+user
+弱點觀念卡 @創作圖像 
+
+assistant
+
+
+user
+[原卷附圖]
+
+
+assistant
+這題是很典型的 **減數分裂染色體數目判讀**。你選 **A**，老師改成 **B**；**正確答案 B**。
+
+果蠅體細胞有 **4 對染色體＝2n＝8**。形成精子時進行減數分裂：
+
+**甲：染色體已複製 → 仍是 2n**  
+→ 所以 A「不會出現甲階段」錯。
+
+接著同源染色體分離，最後形成精子：
+
+**精子是單套染色體 n＝4**。
+
+因此圖中的 **乙、丁**都可能是減數分裂不同階段的細胞，所以：
+
+> **(B) 不會出現乙、丁階段** ❌  
+> 題目問「何者正確」，B 的意思是「不會同時出現乙、丁階段」？依圖與題目排版我需要更仔細確認選項原文。
+
+從照片看老師標示的正解確實是 **B**。這題我建議先不要直接寫進 2.1，我要把四個圖的染色體／染色單體數逐一判讀後再建檔，避免把老師答案背後的理由寫錯。
+
+user
+請逐一判讀
+
+assistant
+可以。這題的核心先固定一件事：
+
+**果蠅體細胞有 4 對染色體，所以 2n＝8；受精卵發育成完整個體靠的是「有絲分裂」，染色體套數會維持 2n，不會變成 n。**
+
+逐圖看：
+
+| 圖 | 圖中狀態 | 套數判斷 | 受精卵發育時會不會出現 |
+|---|---|---|---|
+| **甲** | 約 8 條已複製、呈 X 狀的染色體 | **2n＝8** | ✅ 會 |
+| **乙** | 只有 4 條染色體 | **n＝4** | ❌ 不會 |
+| **丙** | 有 8 條單棒狀染色體 | **2n＝8** | ✅ 會 |
+| **丁** | 只有 4 條染色體，屬單套 | **n＝4** | ❌ 不會 |
+
+所以答案就是：
+
+> **(B) 不會出現乙、丁階段。**
+
+### 為什麼甲可以出現？
+
+很多人看到甲的染色體變成「X」會以為染色體數量變多。
+
+其實：
+
+**一條 X 還是算 1 條染色體**，只是它已經複製成兩條姐妹染色分體。
+
+因此甲仍然是：
+
+**4 對＝8 條染色體＝2n**
+
+只是 DNA 已複製，準備進行有絲分裂。
+
+### 為什麼乙不行？
+
+乙圖只有 **4 條**。
+
+果蠅：
+
+**2n＝8 → n＝4**
+
+所以乙代表單套染色體。
+
+這種狀況通常與**配子／減數分裂**有關，不會出現在「受精卵 → 成體」的一般體細胞有絲分裂過程。
+
+### 丙為什麼不是 n？
+
+這是本題很重要的陷阱。
+
+丙雖然染色體都是「單棒」，但數量是 **8 條**。
+
+所以仍然是：
+
+> **2n＝8**
+
+「X 還是棒狀」不能直接判斷 n 或 2n。
+
+判斷套數要看：
+
+> **同源染色體是不是成套存在。**
+
+因此選項 C：
+
+> 「丙階段時，染色體套數可以寫成 n」
+
+❌ 錯。
+
+應該是 **2n**。
+
+### 丁為什麼不行？
+
+丁只有 **4 條染色體**，因此也是：
+
+**n＝4**
+
+它比較符合減數分裂形成單套細胞時可能看到的狀態，而不是受精卵進行有絲分裂的體細胞。
+
+而且 D 說：
+
+> 「丁階段時，染色體進行複製」
+
+也不對。
+
+染色體／DNA 的複製是在**細胞分裂前的間期**完成，不是看到這個階段才突然開始複製。
+
+---
+
+這題最值得記的一句是：
+
+> **X 形不代表染色體變成兩條；判斷 n、2n 要看「有幾套同源染色體」，不是看染色體長得像 X 還是棒子。**
+
+另外要修正我上一則回答的一點：我之前把這題往「減數分裂」方向解釋了，這是不對的。題目問的是**受精卵發育成完整個體**，主軸應該是**有絲分裂，2n 維持不變**。
+
+user
+@Visualize 
+
+assistant
+我把這題做成「逐圖點選＋2n/n 判讀」的互動圖，重點看 **染色體條數**，不要被 X 形或棒狀外觀騙到。
+
+genui{"app_block":{"language":"html","entrypoint":"index.html","bundle_version":1,"title":"果蠅染色體：甲乙丙丁逐圖判讀","variant":"artifact","icon":"study","content":"<div id=\"chromosome-app\" class=\"w-full space-y-5 text-[var(--viz-text)]\">\n  <div class=\"viz-callout\">\n    <div class=\"font-medium\">先固定基準：果蠅體細胞有 4 對染色體 → 2n = 8</div>\n    <div class=\"mt-1 text-sm text-[var(--viz-muted)]\">受精卵發育成完整個體主要靠有絲分裂，因此正常體細胞應維持 2n。判斷時先數染色體，不要只看 X 形或棒狀。</div>\n  </div>\n\n  <div class=\"grid grid-cols-2 gap-3 sm:grid-cols-4\" role=\"group\" aria-label=\"選擇甲乙丙丁階段\">\n    <button type=\"button\" data-stage=\"甲\" class=\"stage-btn rounded-xl border px-3 py-3 text-left\">\n      <div class=\"font-medium\">甲</div>\n      <div class=\"text-sm text-[var(--viz-muted)]\">8 條・已複製</div>\n    </button>\n    <button type=\"button\" data-stage=\"乙\" class=\"stage-btn rounded-xl border px-3 py-3 text-left\">\n      <div class=\"font-medium\">乙</div>\n      <div class=\"text-sm text-[var(--viz-muted)]\">4 條・單套</div>\n    </button>\n    <button type=\"button\" data-stage=\"丙\" class=\"stage-btn rounded-xl border px-3 py-3 text-left\">\n      <div class=\"font-medium\">丙</div>\n      <div class=\"text-sm text-[var(--viz-muted)]\">8 條・分離後</div>\n    </button>\n    <button type=\"button\" data-stage=\"丁\" class=\"stage-btn rounded-xl border px-3 py-3 text-left\">\n      <div class=\"font-medium\">丁</div>\n      <div class=\"text-sm text-[var(--viz-muted)]\">4 條・單套</div>\n    </button>\n  </div>\n\n  <section aria-labelledby=\"stage-title\" class=\"space-y-4\">\n    <div class=\"flex flex-wrap items-center gap-2\">\n      <h2 id=\"stage-title\" class=\"font-medium\">甲階段</h2>\n      <span id=\"ploidy-badge\" class=\"viz-badge\">2n = 8</span>\n      <span id=\"appear-badge\" class=\"viz-badge\">有絲分裂可出現</span>\n    </div>\n\n    <div class=\"grid gap-5 md:grid-cols-[1.1fr_.9fr]\">\n      <div>\n        <svg id=\"cell-svg\" viewBox=\"0 0 520 300\" class=\"w-full\" role=\"img\" aria-label=\"染色體階段示意圖\">\n          <circle cx=\"260\" cy=\"150\" r=\"125\" fill=\"var(--viz-panel)\" stroke=\"var(--viz-border)\" stroke-width=\"3\"/>\n          <g id=\"chromosomes\" stroke=\"var(--viz-series-1)\" stroke-width=\"8\" stroke-linecap=\"round\" fill=\"none\"></g>\n          <g id=\"centromeres\" fill=\"var(--viz-accent)\"></g>\n        </svg>\n        <p id=\"visual-note\" class=\"mt-2 text-sm text-[var(--viz-muted)]\">甲的染色體雖呈 X 狀，但每個 X 仍算 1 條染色體；總數仍是 8 條。</p>\n      </div>\n\n      <div class=\"space-y-3\">\n        <div class=\"metric-card\">\n          <div class=\"text-sm text-[var(--viz-muted)]\">染色體條數</div>\n          <div id=\"count-value\" class=\"viz-stat-value\">8</div>\n        </div>\n        <div class=\"metric-card\">\n          <div class=\"text-sm text-[var(--viz-muted)]\">染色體套數</div>\n          <div id=\"ploidy-value\" class=\"viz-stat-value\">2n</div>\n        </div>\n        <div class=\"metric-card\">\n          <div class=\"text-sm text-[var(--viz-muted)]\">受精卵發育過程</div>\n          <div id=\"possible-value\" class=\"font-medium\">會出現</div>\n        </div>\n      </div>\n    </div>\n\n    <div id=\"explain\" class=\"space-y-2 text-base\" aria-live=\"polite\">\n      <p><strong>甲：</strong>DNA 已經複製，所以染色體呈 X 狀，但仍是 8 條、2n。</p>\n      <p>有絲分裂前 DNA 會複製，因此受精卵發育過程中可以看到這種階段。</p>\n    </div>\n  </section>\n\n  <div class=\"border-t pt-4\">\n    <h3 class=\"font-medium\">一秒判斷法</h3>\n    <div class=\"mt-3 grid gap-3 sm:grid-cols-3\">\n      <div class=\"viz-node\">\n        <div class=\"font-medium\">① 先數條數</div>\n        <div class=\"mt-1 text-sm text-[var(--viz-muted)]\">8 條 → 2n 候選<br>4 條 → n 候選</div>\n      </div>\n      <div class=\"viz-node\">\n        <div class=\"font-medium\">② 不要被形狀騙</div>\n        <div class=\"mt-1 text-sm text-[var(--viz-muted)]\">一個 X 仍是 1 條染色體，只是有兩條姐妹染色分體。</div>\n      </div>\n      <div class=\"viz-node\">\n        <div class=\"font-medium\">③ 看題目情境</div>\n        <div class=\"mt-1 text-sm text-[var(--viz-muted)]\">受精卵 → 成體＝有絲分裂 → 2n 維持不變。</div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"viz-callout\">\n    <strong>本題結論：</strong>乙、丁只有 4 條染色體，屬 n；正常受精卵發育成體的有絲分裂不會出現，因此答案是 <strong>B「不會出現乙、丁階段」</strong>。\n  </div>\n\n  <style>\n    #chromosome-app .stage-btn[data-active=\"true\"] {\n      border-color: var(--viz-accent);\n      background: var(--viz-accent-bg-subtle);\n    }\n  </style>\n\n  <script>\n    (() => {\n      if (window.__chromosomeVizInit) return;\n      window.__chromosomeVizInit = true;\n\n      const stages = {\n        '甲': {\n          count: 8, ploidy: '2n', possible: '會出現', appear: '有絲分裂可出現',\n          note: '甲的染色體雖呈 X 狀，但每個 X 仍算 1 條染色體；總數仍是 8 條。',\n          explain: '<p><strong>甲：</strong>DNA 已經複製，所以染色體呈 X 狀，但仍是 8 條、2n。</p><p>有絲分裂前 DNA 會複製，因此受精卵發育過程中可以看到這種階段。</p>',\n          type: 'x', n: 8\n        },\n        '乙': {\n          count: 4, ploidy: 'n', possible: '不會出現', appear: '單套 n',\n          note: '乙只有 4 條染色體。果蠅 2n = 8，因此 4 條代表單套 n。',\n          explain: '<p><strong>乙：</strong>只有 4 條染色體，因此是 n。</p><p>受精卵發育成體時進行有絲分裂，正常體細胞維持 2n，所以這種單套階段不會出現。</p>',\n          type: 'rod', n: 4\n        },\n        '丙': {\n          count: 8, ploidy: '2n', possible: '會出現', appear: '有絲分裂可出現',\n          note: '丙雖然看起來是單棒狀，但共有 8 條，因此仍是 2n，不是 n。',\n          explain: '<p><strong>丙：</strong>染色體已分開呈棒狀，但總數是 8 條，所以仍屬 2n。</p><p>判斷 n / 2n 不能只看 X 或棒狀，要看整套同源染色體是否存在。</p>',\n          type: 'rod', n: 8\n        },\n        '丁': {\n          count: 4, ploidy: 'n', possible: '不會出現', appear: '單套 n',\n          note: '丁只有 4 條染色體，也是單套 n；不是受精卵有絲分裂形成體細胞的正常階段。',\n          explain: '<p><strong>丁：</strong>只有 4 條染色體，因此屬 n。</p><p>另外，DNA 複製發生在分裂前的間期，不是到了丁這個階段才開始複製。</p>',\n          type: 'mixed', n: 4\n        }\n      };\n\n      const svgGroup = document.getElementById('chromosomes');\n      const centromeres = document.getElementById('centromeres');\n      const buttons = [...document.querySelectorAll('.stage-btn')];\n\n      function draw(stage) {\n        const s = stages[stage];\n        svgGroup.innerHTML = '';\n        centromeres.innerHTML = '';\n        const cx = 260, cy = 150;\n        const positions = [\n          [-62,-58],[-15,-70],[40,-57],[74,-18],\n          [-70,28],[-25,55],[28,48],[70,35]\n        ];\n        for (let i = 0; i < s.n; i++) {\n          const [dx,dy] = positions[i];\n          const x = cx + dx, y = cy + dy;\n          if (s.type === 'x' || (s.type === 'mixed' && i >= 2)) {\n            const a = document.createElementNS('http://www.w3.org/2000/svg','path');\n            a.setAttribute('d', `M ${x-13} ${y-24} Q ${x} ${y} ${x+13} ${y+24} M ${x+13} ${y-24} Q ${x} ${y} ${x-13} ${y+24}`);\n            svgGroup.appendChild(a);\n          } else {\n            const l = document.createElementNS('http://www.w3.org/2000/svg','line');\n            l.setAttribute('x1', x); l.setAttribute('y1', y-23);\n            l.setAttribute('x2', x); l.setAttribute('y2', y+23);\n            svgGroup.appendChild(l);\n          }\n          const c = document.createElementNS('http://www.w3.org/2000/svg','circle');\n          c.setAttribute('cx', x); c.setAttribute('cy', y); c.setAttribute('r', '4');\n          centromeres.appendChild(c);\n        }\n      }\n\n      function select(stage) {\n        const s = stages[stage];\n        buttons.forEach(b => b.dataset.active = String(b.dataset.stage === stage));\n        document.getElementById('stage-title').textContent = `${stage}階段`;\n        document.getElementById('ploidy-badge').textContent = `${s.ploidy} = ${s.count}`;\n        document.getElementById('appear-badge').textContent = s.appear;\n        document.getElementById('count-value').textContent = s.count;\n        document.getElementById('ploidy-value').textContent = s.ploidy;\n        document.getElementById('possible-value').textContent = s.possible;\n        document.getElementById('visual-note').textContent = s.note;\n        document.getElementById('explain').innerHTML = s.explain;\n        draw(stage);\n      }\n\n      buttons.forEach(b => b.addEventListener('click', () => select(b.dataset.stage)));\n      select('甲');\n    })();\n  </script>\n</div>"}}
+
+user
+@創作圖像 
+
+assistant
+
+
+user
+有絲分裂  vs 減數分裂  
+
+assistant
+這正是第 36 題背後更大的核心觀念。建議不要只背「2n、n」，而是把 **有絲分裂 vs 減數分裂**整組比較起來。
+
+| 比較 | 🟦 有絲分裂 | 🟧 減數分裂 |
+|---|---|---|
+| 主要目的 | **生長、修補、更新** | **產生配子** |
+| 發生在哪 | 體細胞 | 生殖母細胞 |
+| DNA 複製 | 1 次 | 1 次 |
+| 細胞分裂 | **1 次** | **2 次** |
+| 1個母細胞最後產生 | **2個** | **4個** |
+| 染色體套數 | **2n → 2n** | **2n → n** |
+| 子細胞與母細胞 | 遺傳資訊大致相同 | 遺傳組合不同 |
+| 同源染色體配對 | ❌ | ✅ 減數分裂第一階段 |
+| 重要功能 | 長大、傷口修復 | 精子、卵形成＋增加遺傳多樣性 |
+
+### 用果蠅直接理解
+
+果蠅體細胞：
+
+**2n = 8**
+
+**有絲分裂：**
+
+> 🟢 2n＝8  
+> ↓ DNA複製  
+> **2n＝8 → 2n＝8 + 2n＝8**
+
+所以受精卵一路長成果蠅，細胞增加很多，但每個正常體細胞仍然是 **8條染色體**。
+
+**減數分裂：**
+
+> 🟠 2n＝8  
+> ↓ DNA複製  
+> ↓ 第一次分裂  
+> ↓ 第二次分裂  
+> **n＝4 + n＝4 + n＝4 + n＝4**
+
+最後形成的配子只有 **4條染色體**。
+
+然後：
+
+> 精子 n＝4 ＋ 卵 n＝4  
+> ↓ **受精**  
+> 受精卵 **2n＝8**  
+> ↓ **有絲分裂**  
+> 成體 **2n＝8**
+
+所以第36題看到：
+
+**「受精卵發育成完整個體」**
+
+腦中第一反應就應該是：
+
+> **受精卵 → 長大 → 有絲分裂 → 2n維持2n**
+
+因此 **n 的乙、丁不應出現 → B。**
+
+### 一句口訣
+
+**有絲：長大不減半；減數：生配子減一半。**
+
+這個很適合成為下一張 **2.1 弱點觀念卡：「有絲分裂 vs 減數分裂」**，並與第36題連結。memcite
+
+user
+@創作圖像 
+
+assistant
+
+
+user
+圖示的部分有誤請修正 先做一張有絲分裂即可  

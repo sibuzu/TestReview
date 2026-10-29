@@ -1,0 +1,66 @@
+{
+  "id": "q-324",
+  "subject": "Math",
+  "title": "同濃度，把大杯條件一起用",
+  "art": "docs/comics/art/q-324.png",
+  "protectedWords": [
+    "咖啡因",
+    "每毫升",
+    "不超過",
+    "150毫克",
+    "200毫克",
+    "300毫克",
+    "400毫克"
+  ],
+  "panels": [
+    {
+      "heading": "① 黃色給上限，紅色給下限",
+      "text": "依原表，中杯360毫升為黃色，含量不超過200毫克；大杯480毫升為紅色，含量超過200毫克。兩個條件都要用。",
+      "alt": "成人在咖啡店比較黃色標示的中杯與紅色標示的大杯。"
+    },
+    {
+      "heading": "② 同濃度，含量隨容量成比例",
+      "text": "中杯容量是大杯的360／480＝3／4，所以中杯咖啡因超過200×3／4＝150毫克。合併黃色上限，中杯含量大於150毫克，且不超過200毫克。",
+      "alt": "成人店員以同一批咖啡示意兩種杯量具有相同濃度，不呈現精確比例圖。"
+    },
+    {
+      "heading": "③ 兩杯中杯，再乘以2",
+      "text": "兩杯總量大於300毫克，且不超過400毫克。因此不符合題給我國的300毫克上限，但符合題給歐盟的400毫克上限。",
+      "alt": "成人顧客對照筆記與兩個相同黃色標示中杯，計算合計含量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：不符合我國，符合歐盟",
+    "points": [
+      "中杯範圍：150＜含量≤200毫克。",
+      "兩杯範圍：300＜總量≤400毫克。",
+      "只看黃色不夠，還要用大杯紅色及同濃度。"
+    ]
+  },
+  "rationale": "實看完整原卷含兩表，獨立用容量比3/4重算，與使用者已確認D一致。用成人比較杯量情境支持同濃度與總量概念，精確數據、界線及題給建議值以HTML呈現，不把題給上限延伸為一般醫療或安全建議。無現有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-324-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-324-source-2fa780e9dd.jpg"
+  ],
+  "answerCheckedAgainst": "D，兩中杯咖啡因總量大於300且不超過400毫克，保留使用者已確認答案。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "62d05cdb582cb4aa352602fdf21258ff0138e406befe27ceb1c09c0f1ab6231f",
+  "createdAt": "2026-10-28T17:01:12.920975+00:00",
+  "checkedAt": "2026-10-28T17:03:12.936807+00:00",
+  "validationFile": "docs/comics/q-324-validation.json",
+  "nativeArt": "assets/comics/q-324-art-62d05cdb58-web.webp"
+}

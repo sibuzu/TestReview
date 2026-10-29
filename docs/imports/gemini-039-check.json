@@ -1,0 +1,77 @@
+{
+  "sourceOrder": 39,
+  "sourceUrl": "https://share.gemini.google/1TruEpwN7cve",
+  "createdDate": "2026-09-08",
+  "createdDisplay": "Created with 3.8 Flash September 8, 2026 at 01:59 PM",
+  "questionIds": [
+    "q-615"
+  ],
+  "newQuestionIds": [
+    "q-615"
+  ],
+  "completeQuestionIds": [
+    "q-615"
+  ],
+  "pendingAnswerQuestionIds": [],
+  "originalImages": 3,
+  "originalsVisuallyChecked": 3,
+  "finalCropsChecked": 3,
+  "visualChecked": true,
+  "answers": {
+    "q-615": "C"
+  },
+  "independentChecks": [
+    "照片1原方向橫置，忠實旋轉副本已讀。第5題Nina／Ella全文與4選項轉錄，C回答10:30；不將帶the一律等同鐘點，依本題語境解釋。",
+    "照片2閱讀末句These ideas aren’t至照片3首hot springs中間有未拍入的文字，不採AI猜補／錯接。原題25與4選項可讀，但必要文章不完整，先跳過、保存兩頁證據並列確認，未用主旨推理冒充全文核對。",
+    "原對話只指定5及25，照片相鄰題不額外收入。既有605題無相同語句及題幹比對重複；不依URL判重。",
+    "原卷與2閱讀證據共3個裁切實際開啟，第5題選項下緣重新放寬並再看。1題在1440／390顯示、原作答答案解說證據同收合、無水平溢出或JS例外；54測試通過。"
+  ],
+  "skippedQuestions": [
+    {
+      "number": "25",
+      "reason": "使用者明確指定skip：Gemini第39來源第25題omotenashi閱讀跨頁缺行不收入，確認結案；保留已完成q-615，不自動重加、不再要求補文。",
+      "confirmationId": "gemini039-missing-reading-25",
+      "originalReason": "閱讀第3段跨頁缺行：照片2末為These ideas aren’t，照片3首接hot springs, and big stores，中間未拍入。AI第一次用方括號猜補、後來朗讀更將其拼成矛盾句，不能據此還原。文章不能完整轉錄，先不收入，已列確認。",
+      "userRequestedSkip": true,
+      "resolvedAt": "2026-10-28T04:52:08.164583+00:00"
+    },
+    {
+      "number": "相鄰3、4、6、7、8、22、23、24",
+      "reason": "不是原對話指定解說的題目；部分需其他閱讀材料，未額外收入。"
+    }
+  ],
+  "readingEvidenceAssets": [
+    "assets/questions/gemini039-reading-front-0080613d22.jpg",
+    "assets/questions/gemini039-reading-back-cff8560c24.jpg"
+  ],
+  "browser": {
+    "checkedQuestionIds": [
+      "q-615"
+    ],
+    "viewports": [
+      1440,
+      390
+    ],
+    "errors": [],
+    "mobileOverflow": false,
+    "badgeIndependentOfIcons": true,
+    "headingsDoNotOverlapIcons": true,
+    "allAnswerEvidenceImagesLoaded": true
+  },
+  "siteTestsPassed": 54,
+  "mobileExpandedScreenshot": "/tmp/testreview-gemini039-mobile.png",
+  "mobileScreenshotViewed": true,
+  "pendingConfirmationIds": [],
+  "referencesAudit": "docs/imports/gemini039-references.json",
+  "checkedAt": "2026-10-28T04:49:19.391101+00:00",
+  "userExcludedOriginalNumbers": [
+    "25"
+  ],
+  "userResolutions": {
+    "gemini039-missing-reading-25": {
+      "action": "skipped_by_user",
+      "resolution": "使用者明確指定skip：Gemini第39來源第25題omotenashi閱讀跨頁缺行不收入，確認結案；保留已完成q-615，不自動重加、不再要求補文。",
+      "resolvedAt": "2026-10-28T04:52:08.164583+00:00"
+    }
+  }
+}

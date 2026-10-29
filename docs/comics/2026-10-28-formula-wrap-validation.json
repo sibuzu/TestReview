@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-28T13:18:50.672332+00:00",
+  "change": "中文與英文混排的數學因式、括號平方及分式平方保持為換行單位",
+  "unitCommand": "node --test site/tests/comic-wrap.test.mjs",
+  "unitTestsPassed": 7,
+  "suiteCommand": "npm test --prefix site",
+  "suiteTestsPassed": 61,
+  "browserQuestions": [
+    "q-083",
+    "q-084"
+  ],
+  "browserCheckCount": 12,
+  "validationFiles": [
+    "docs/comics/q-083-validation.json",
+    "docs/comics/q-084-validation.json"
+  ],
+  "visualReview": "已實看q-084手機圖，(2r－1)、(r－2)、ab／(a＋b)²不再從符號內部分行；全套仍以同列等高、單欄各自自然高度。"
+}

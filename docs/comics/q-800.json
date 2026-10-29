@@ -1,0 +1,71 @@
+{
+  "id": "q-800",
+  "subject": "History",
+  "title": "1937全面抗戰，早於1941正式宣戰",
+  "art": "docs/comics/art/q-800.png",
+  "startedAt": "2026-10-28T18:17:32.702992+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "questionDraft": "docs/comics/priority-6ae2305b/q-800-question.json",
+  "panels": [
+    {
+      "heading": "① 1931年：公告準備自衛",
+      "text": "九一八事變後，公告一方面訴諸國聯，另一方面說「為自衛之準備」。本題再問：後來哪個事件後，這準備付諸行動？",
+      "alt": "1931年政府官員討論自衛準備的情境，非特定會議實錄。"
+    },
+    {
+      "heading": "② 1937年：盧溝橋事變",
+      "text": "七七事變後，中日戰事擴大，進入全面抗戰。這是本題對應的實際自衛行動，所以選盧溝橋事變。",
+      "alt": "1930年代中國軍隊守衛石拱橋，象徵盧溝橋事件後的抗戰，非原址精確重建。"
+    },
+    {
+      "heading": "③ 1941年：正式對日宣戰",
+      "text": "太平洋戰爭爆發後，中華民國在1941年12月9日正式對日宣戰。但這時已抗戰多年，不是直到此刻才開始抵抗。",
+      "alt": "政府代表發布正式宣戰文件的象徵情境，與先前實際交戰區分。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 抗戰與宣戰，時間不同",
+    "answer": "答案 D：盧溝橋事變",
+    "points": [
+      "1931：公告訴諸國聯並準備自衛。",
+      "1937：事變後進入全面抗戰，是本題所問。",
+      "1941：正式宣戰較晚，不能因此改選太平洋戰爭。"
+    ]
+  },
+  "protectedWords": [
+    "1931年",
+    "1937年",
+    "1941年",
+    "九一八事變",
+    "盧溝橋事變",
+    "七七事變",
+    "全面抗戰",
+    "正式宣戰",
+    "太平洋戰爭",
+    "國聯",
+    "12月9日",
+    "中華民國"
+  ],
+  "rationale": "本來源指定全新插畫；將準備、實際守衛交戰、外交宣戰分成三個不同時點，以HTML給精確年代，避免把1941宣戰誤當抗戰開始。",
+  "promptSummary": "新製三格無字歷史動漫：1931自衛準備、1937石橋防衛象徵、1941發布正式宣戰文件。",
+  "answerCheckedAgainst": "原30題D，1937盧溝橋後全面抗戰；原文1931與1941正式宣戰須分清。",
+  "visualChecked": true,
+  "artSHA256": "ea034c5ff1ec85ec3c50f060ae8cd3e4debf4158ee7b0349345d02cb1bd38623",
+  "completedAt": "2026-10-28T18:21:21.421141+00:00",
+  "checkedAt": "2026-10-28T18:33:36.252714+00:00",
+  "layoutEvidence": "docs/comics/q-800-preview-validation.json",
+  "visualReview": "實看原13/14圖共同文章與原30題，D依1937全面抗戰獨立核定，1941正式宣戰官方年代另核對。全新三場景分清1931準備、1937橋梁防衛、1941發表外交文件，不沿用來源AI；三尺寸預覽實看與日期詞組保護正常，無溢出。",
+  "nativeArt": "assets/comics/q-800-art-ea034c5ff1-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-800-validation.json"
+}

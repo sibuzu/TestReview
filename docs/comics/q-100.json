@@ -1,0 +1,74 @@
+{
+  "id": "q-100",
+  "subject": "Geography",
+  "title": "問錄取機率，要找錄取率的線索",
+  "art": "docs/comics/art/q-100.png",
+  "startedAt": "2026-10-28T17:05:47.042860+00:00",
+  "panels": [
+    {
+      "heading": "① 名額多，不等於機率高",
+      "text": "招生名額是錄取人數；錄取率還要考慮報考人數。題幹只說直轄市名額多，不能直接推成錄取機率提高最多。",
+      "alt": "學生與家長在桌邊比較招生資料，示意分清名額與錄取率；紙張不承載真實省份數據。"
+    },
+    {
+      "heading": "② C直接對上題幹現象",
+      "text": "題幹明說：邊陲省分錄取率高於內陸人口大省。湖北→海南，最直接符合由題示不利地區移往錄取率較高地區的方向。",
+      "alt": "學生帶行李在熱帶海島環境閱讀升學資料，示意題目中的移入方向，不是實際遷移紀錄或地圖。"
+    },
+    {
+      "heading": "③ D缺的是錄取率比較",
+      "text": "河南→天津雖移往直轄市，但題目沒有直接比較兩地錄取率。不能只靠名額較多，推成機率提高最多。",
+      "alt": "學生以放大鏡仔細核對兩份招生資料，示意尋找題目真正提供的錄取率資訊。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：湖北→海南",
+    "points": [
+      "本題依給定的概括規則，選最直接符合者。",
+      "北京與西藏例子說明門檻有區域差異。",
+      "不添加題目沒有給的戶籍限制或省別統計。"
+    ]
+  },
+  "protectedWords": [
+    "招生名額",
+    "錄取人數",
+    "報考人數",
+    "錄取率",
+    "湖北",
+    "海南",
+    "河南",
+    "天津",
+    "內陸人口大省",
+    "邊陲省分"
+  ],
+  "rationale": "使用者已確認採C且區分名額與錄取率。三情境協助從資料中找依據，避免新增戶籍障礙或真實政策比較。圖不畫省別精確地圖、人口數或錄取率，完整原題與確認解說保持原樣。",
+  "promptSummary": "三格無字動漫：家長學生讀招生資料、熱帶海島學生讀升學資料、放大鏡比較兩份資料。無省份數字、徽章或精確地圖。",
+  "answerCheckedAgainst": "正確答案：C。湖北→海南，最直接符合題幹「內陸人口大省→錄取率較高的邊陲省分」的方向。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-100-source-030f9fed42.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T17:08:27.414786+00:00",
+  "checkedAt": "2026-10-28T17:10:25.011237+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T17:06:37.197Z",
+  "generationCompletedAt": "2026-10-28T17:06:58.645Z",
+  "artSHA256": "f1cd04cccee5f034efe5a7f6a355ffa63133e2f27f08253a241a8e4d7b2aeee0",
+  "previewValidation": "docs/comics/q-100-preview-validation.json",
+  "visualReview": "原卷已實看，維持使用者確認C及名額不等於錄取率的辨析，不加真實戶籍或競爭資料。三圖是招生資料比較／泛指熱帶海島／找資訊場景，非海南實景、非精確地圖，不承載省別統計。第一格使用「錄取機率提高最多」對齊問法，未改成單比錄取率最高。1440/390成品修訂後已再次實看，三寬獨立QA全過，手機自然高度、無溢出。",
+  "nativeArt": "assets/comics/q-100-art-f1cd04ccce-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-100-validation.json"
+}

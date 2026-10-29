@@ -1,0 +1,106 @@
+{
+  "sourceOrder": 27,
+  "sourceUrl": "https://chatgpt.com/share/6ae05f2b-7c7c-83e8-9959-f588a97ed563",
+  "questionIds": [
+    "q-110",
+    "q-111",
+    "q-112",
+    "q-113",
+    "q-114",
+    "q-115",
+    "q-116",
+    "q-460",
+    "q-461"
+  ],
+  "newQuestionIds": [
+    "q-460",
+    "q-461"
+  ],
+  "originalImages": 7,
+  "originalsVisuallyChecked": 7,
+  "supportingDocument": {
+    "path": "docs/source-pages/gpt027-chemistry-teacher.pdf",
+    "asset": "assets/originals/gpt027-chemistry-teacher.pdf",
+    "originalName": "115年 國中會考 翰林 大滿貫複習講義_理化(全)_教用.pdf",
+    "fileId": "file_000000005c908206bc3b7ce3bbcdf192",
+    "bytes": 2999927,
+    "sha256": "77a6e38f14ccd9ed9a35664957ad427cadd955d73ad01b374ff739eeefa7492d",
+    "pages": 7,
+    "pagesVisuallyChecked": 7,
+    "purpose": "原對話為指定9個錯題上傳的教用核對資料；其餘未指定的教科書練習不是另外9題錯題的延伸清單。"
+  },
+  "finalCropsChecked": 18,
+  "visualChecked": true,
+  "browser": {
+    "checkedQuestionIds": [
+      "q-110",
+      "q-111",
+      "q-112",
+      "q-113",
+      "q-114",
+      "q-115",
+      "q-116",
+      "q-460",
+      "q-461"
+    ],
+    "viewports": [
+      1440,
+      390
+    ],
+    "errors": [],
+    "mobileOverflow": false,
+    "badgeIndependentOfIcons": true,
+    "headingsDoNotOverlapIcons": true,
+    "allAnswerEvidenceImagesLoaded": true
+  },
+  "siteTestsPassed": 54,
+  "mobileScreenshotViewed": true,
+  "answers": {
+    "q-110": "A",
+    "q-111": "B",
+    "q-112": "A",
+    "q-113": "D",
+    "q-114": "D",
+    "q-115": "B",
+    "q-116": "D",
+    "q-460": "D（使用者確認）",
+    "q-461": "B"
+  },
+  "pendingAnswerQuestionIds": [],
+  "aiFigureReview": {
+    "reviewed": 11,
+    "included": 7,
+    "excluded": 4,
+    "checkedAt": "2026-10-27T22:59:12.554764+00:00",
+    "audit": "docs/acquisition/gpt-ai-027.json"
+  },
+  "pendingConfirmationIds": [
+    "correction-q-113-f089958b5241",
+    "correction-q-114-92f062bc3fac",
+    "correction-q-116-c82cd49889ec",
+    "correction-q-461-314756db0182"
+  ],
+  "checkedAt": "2026-10-27T22:59:12.554764+00:00",
+  "deduplication": "7個既有ID及最早日期保留，新第12與第22題與題庫同條件同選項未見重複。教用PDF作指定9題的核對來源，沒有把原圖／PDF同題重建ID，也未將教材其他練習冒稱本次錯題。",
+  "classificationEvidence": "來源PDF印第四冊及單元9反應速率與反應平衡，依此核對9題冊次與章節；不顯示出版社。",
+  "references": [
+    "https://uscibooks.aip.org/wp-content/uploads/mcquarrie_interJ_final.pdf",
+    "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/metal-objects/understanding-silver-tarnish.html"
+  ],
+  "notes": [
+    "原題A硫化物還原用語未改寫，保留教材A並指出實際還原物種依反應條件而定。",
+    "第12題2H₂SO₄原印式未配平，題幹原樣保留；解說說明係數1及配平淨離子式。",
+    "第22題必要作答曲線是真正上傳PDF的裁切，不是重畫或AI推定；曲線終值0.6、0.3、0.2可讀。",
+    "來源AI7張原PNG已保存雜湊並直接加入共同收合的解說區，無圖放到原卷證據內。"
+  ],
+  "userResolutions": {
+    "q-110": {
+      "resolvedAt": "2026-10-28T02:00:51.718016+00:00",
+      "resolution": "使用者確認q-110目前內容OK；維持教材答案A與現有含硫物種／其他參與物的解說限制，保留原題、選項與AI輔助圖，移出待核對。"
+    },
+    "q-460": {
+      "resolvedAt": "2026-10-28T02:17:51.580756+00:00",
+      "resolution": "使用者確認標準答案D：本題重點為加入NaOH後平衡如何變化。A若指最後形成的新平衡也有合理性；保留時點區分及原反應式配平說明，不再列待確認。"
+    }
+  }
+}

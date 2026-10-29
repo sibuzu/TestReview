@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-28T06:27:39.989367+00:00",
+  "problem": "reviewLabel與前後核對題目改變，曾使相同實質內容產生新確認版本。",
+  "change": "自動題目確認快照排除reviewLabel、reviewPreviousId、reviewNextId；答案、核對文字及其他實質內容變更仍使版本更新。",
+  "regression": "導覽變動前產生的卡片仍可確認；之後再改導覽不重開；真的改答案必須重開。",
+  "unitTestsPassed": 12,
+  "question701Outcome": "使用者確認保留A、D均可成句，不指定唯一答案。",
+  "browser": {
+    "questionId": "q-701",
+    "viewports": [
+      1440,
+      390
+    ],
+    "pendingPromptRemoved": true,
+    "zeroPendingSidebarHidden": true,
+    "nonUniqueAnswerPreserved": true,
+    "answerInitiallyCollapsed": true,
+    "noOverflow": true,
+    "errors": []
+  },
+  "screenshotViewed": true
+}

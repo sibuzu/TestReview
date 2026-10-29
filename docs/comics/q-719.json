@@ -1,0 +1,69 @@
+{
+  "id": "q-719",
+  "subject": "English",
+  "title": "過去之前已看過，用had seen",
+  "art": "docs/comics/art/q-719.png",
+  "startedAt": "2026-10-28T17:12:03.331437+00:00",
+  "panels": [
+    {
+      "heading": "① 更早：我已看過這部片",
+      "text": "seen是see的過去分詞。句中的before指出：在那次沒和Linda去看電影以前，我已經看過了。",
+      "alt": "少年更早在電影院看電影的情境，代表先發生的看過電影。"
+    },
+    {
+      "heading": "② 過去：沒和Linda去",
+      "text": "I didn't go是敘述的過去基準。原因是「在那以前已看過」，因此比didn't go更早的事，用過去完成式。",
+      "alt": "Linda拿著電影票與少年交談，示意後來那次看電影的邀約情境。"
+    },
+    {
+      "heading": "③ 把had與seen接起來",
+      "text": "過去完成式＝had＋過去分詞。填入後是because I had seen it before，表示那以前已看過，所以那次沒去。",
+      "alt": "少年禮貌表示不同行，Linda準備去看電影，對應過去那次沒有一起去的結果。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：had",
+    "points": [
+      "先看過電影，後來那次沒有同行。",
+      "較早事件：had seen；過去基準：didn't go。",
+      "I不用has；would後不能直接接seen。"
+    ]
+  },
+  "protectedWords": [
+    "Linda",
+    "had seen",
+    "didn't go",
+    "過去完成式",
+    "過去分詞"
+  ],
+  "rationale": "用先看過電影、後來邀約、沒有同行三場景呈現兩件事的先後，避免因before一字就孤立套時態。只表達本題預期A，不擴增跨語域或其他語境爭議。",
+  "promptSummary": "三格無字動漫：少年更早看電影、Linda持票邀約、少年禮貌不同行。時間先後與英文句型由HTML說明。",
+  "answerCheckedAgainst": "本題預期：(A) had。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-719-source-b4e5fe879c.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T17:14:29.548903+00:00",
+  "checkedAt": "2026-10-28T17:18:31.474996+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T17:12:22.899Z",
+  "generationCompletedAt": "2026-10-28T17:12:48.239Z",
+  "artSHA256": "9549bbdde7fbd3cabe26f3ab03919513ac9f36ac7a33f161d629538f2c8dec27",
+  "previewValidation": "docs/comics/q-719-preview-validation.json",
+  "visualReview": "原卷整句與A核對。三圖依次先看電影、之後邀約、不同行，時序符合had seen早於didn't go，未新增時態爭議。實看art及1440/390成品。縮寫沿用原卷ASCII apostrophe，避免彎引號字型出現分離；修訂後重新跑三寬QA且實看桌機手機，縮寫完整、手機自然高度無溢出。",
+  "nativeArt": "assets/comics/q-719-art-9549bbdde7-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-719-validation.json"
+}

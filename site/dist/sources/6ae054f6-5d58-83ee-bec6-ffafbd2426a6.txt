@@ -1,0 +1,710 @@
+user
+[原卷附圖]
+
+
+assistant
+這張圖的 **第 14 題**是在考「梯形對角線交點＋平行線」的比例。我用最快、最適合考試的方法拆給你。
+
+題目：梯形 \(ABCD\) 中，
+
+\[
+BC\parallel AD,\qquad BC=b,\qquad AD=a
+\]
+
+兩條對角線 \(AC、BD\) 交於 \(O\)，過 \(O\) 作 \(BC\) 的平行線，分別交兩腰於 \(E、F\)。
+
+要證明：
+
+\[
+\boxed{EF=\frac{2ab}{a+b}}
+\]
+
+### 先記一個最重要的核心
+
+梯形的兩條對角線交點，會按照「上下底」分割對角線：
+
+\[
+\boxed{AO:OC=DO:OB=AD:BC=a:b}
+\]
+
+所以沿著 \(AC\) 看，
+
+\[
+AO:OC=a:b
+\]
+
+因此
+
+\[
+\frac{AO}{AC}=\frac{a}{a+b},
+\qquad
+\frac{OC}{AC}=\frac{b}{a+b}
+\]
+
+---
+
+### 左半邊求 \(EO\)
+
+因為
+
+\[
+EO\parallel BC
+\]
+
+看三角形 \(ABC\)：
+
+\[
+\triangle AEO\sim\triangle ABC
+\]
+
+所以
+
+\[
+\frac{EO}{BC}
+=
+\frac{AO}{AC}
+=
+\frac{a}{a+b}
+\]
+
+而 \(BC=b\)，因此
+
+\[
+EO=b\cdot\frac{a}{a+b}
+\]
+
+\[
+\boxed{EO=\frac{ab}{a+b}}
+\]
+
+---
+
+### 右半邊求 \(OF\)
+
+因為
+
+\[
+OF\parallel AD
+\]
+
+看三角形 \(ACD\)：
+
+\[
+\triangle COF\sim\triangle CAD
+\]
+
+所以
+
+\[
+\frac{OF}{AD}
+=
+\frac{CO}{CA}
+=
+\frac{b}{a+b}
+\]
+
+又 \(AD=a\)，因此
+
+\[
+OF=a\cdot\frac{b}{a+b}
+\]
+
+\[
+\boxed{OF=\frac{ab}{a+b}}
+\]
+
+你會發現：
+
+\[
+\boxed{EO=OF}
+\]
+
+所以 \(O\) 剛好是 \(EF\) 的中點。
+
+最後：
+
+\[
+EF=EO+OF
+\]
+
+\[
+=\frac{ab}{a+b}+\frac{ab}{a+b}
+\]
+
+因此
+
+\[
+\boxed{\displaystyle EF=\frac{2ab}{a+b}}
+\]
+
+### 會考／段考「5 秒記憶法」
+
+看到這種圖：
+
+**梯形＋對角線交點＋過交點作底邊平行線**
+
+直接想到兩件事：
+
+\[
+\boxed{\text{對角線分比＝上下底比}}
+\]
+
+以及
+
+\[
+\boxed{EF=\frac{2\times上底\times下底}{上底+下底}}
+\]
+
+也就是這題：
+
+\[
+\boxed{\frac{2ab}{a+b}}
+\]
+
+甚至可以把它記成：
+
+> **「兩底相乘乘 2，再除兩底和。」**
+
+如果你是要問上面的 **第 13 題 \(BD:DF:FH\)**，我也可以接著用同樣的「秒殺比例法」直接解給你。
+
+user
+13
+
+assistant
+第 **13 題**，答案是：
+
+\[
+\boxed{BD:DF:FH=1:1:2}
+\]
+
+這題其實可以用很快的「平行線＋相似三角形」解。
+
+題目給：
+
+\[
+AB\parallel CD\parallel EF\parallel GH
+\]
+
+而且
+
+\[
+AB=2,\qquad GH=6,\qquad CD:EF=1:2
+\]
+
+圖中兩條斜線 \(AH\) 和 \(BG\) 在 \(C\) 相交。
+
+### 第一步：先抓 \(D\) 的位置
+
+因為 \(AB\parallel GH\)，看交叉的兩條斜線，可以得到：
+
+\[
+BD:DH=AB:GH
+\]
+
+所以
+
+\[
+BD:DH=2:6=1:3
+\]
+
+也就是整段
+
+\[
+BH=BD+DH
+\]
+
+被分成 \(1+3=4\) 份。
+
+因此直接設：
+
+\[
+BD=1
+\]
+
+那麼
+
+\[
+BH=4
+\]
+
+---
+
+### 第二步：利用 \(CD:EF=1:2\)
+
+看斜線 \(BG\)。
+
+因為
+
+\[
+CD\parallel EF\parallel GH
+\]
+
+所以從 \(B\) 出發形成的相似三角形：
+
+\[
+\triangle BCD\sim\triangle BEF
+\]
+
+因此「高度比＝底邊比」：
+
+\[
+CD:EF=BD:BF
+\]
+
+題目已經給：
+
+\[
+CD:EF=1:2
+\]
+
+所以：
+
+\[
+BD:BF=1:2
+\]
+
+剛才設 \(BD=1\)，因此
+
+\[
+BF=2
+\]
+
+所以
+
+\[
+DF=BF-BD=2-1=1
+\]
+
+---
+
+### 第三步：求 \(FH\)
+
+我們已經知道：
+
+\[
+BH=4
+\]
+
+而
+
+\[
+BF=2
+\]
+
+因此：
+
+\[
+FH=BH-BF=4-2=2
+\]
+
+所以：
+
+\[
+\boxed{BD:DF:FH=1:1:2}
+\]
+
+### 5 秒秒殺法
+
+這題只要抓兩次比例：
+
+\[
+\boxed{AB:GH=2:6=1:3\Rightarrow BD:DH=1:3}
+\]
+
+因此整條 \(BH\) 是 **4 格**。
+
+再看：
+
+\[
+\boxed{CD:EF=1:2\Rightarrow BD:BF=1:2}
+\]
+
+所以：
+
+**B－D－F－H**
+
+可以直接想成：
+
+\[
+0\quad1\quad2\quad4
+\]
+
+因此三段就是：
+
+\[
+\boxed{1,\ 1,\ 2}
+\]
+
+也就是 **BD : DF : FH = 1 : 1 : 2**。
+
+user
+14
+
+assistant
+第 **14 題**要證明：
+
+\[
+\boxed{EF=\frac{2ab}{a+b}}
+\]
+
+已知梯形 \(ABCD\) 中：
+
+\[
+BC\parallel AD,\quad BC=b,\quad AD=a
+\]
+
+兩對角線交於 \(O\)，過 \(O\) 作 \(BC\) 的平行線，交兩腰於 \(E,F\)。
+
+先抓這題最重要的比例。因為
+
+\[
+AD\parallel BC
+\]
+
+所以
+
+\[
+\triangle AOD\sim\triangle COB
+\]
+
+因此：
+
+\[
+AO:OC=AD:BC=a:b
+\]
+
+所以：
+
+\[
+\frac{AO}{AC}=\frac{a}{a+b},
+\qquad
+\frac{OC}{AC}=\frac{b}{a+b}
+\]
+
+接著求左半段 \(EO\)。
+
+因為
+
+\[
+EO\parallel BC
+\]
+
+所以：
+
+\[
+\triangle AEO\sim\triangle ABC
+\]
+
+因此
+
+\[
+\frac{EO}{BC}=\frac{AO}{AC}
+=\frac{a}{a+b}
+\]
+
+又 \(BC=b\)，所以：
+
+\[
+EO=b\cdot\frac{a}{a+b}
+=\boxed{\frac{ab}{a+b}}
+\]
+
+再求右半段 \(OF\)。
+
+因為
+
+\[
+OF\parallel AD
+\]
+
+所以：
+
+\[
+\triangle CFO\sim\triangle CDA
+\]
+
+因此：
+
+\[
+\frac{OF}{AD}
+=
+\frac{CO}{CA}
+=
+\frac{b}{a+b}
+\]
+
+又 \(AD=a\)，所以：
+
+\[
+OF=a\cdot\frac{b}{a+b}
+=\boxed{\frac{ab}{a+b}}
+\]
+
+因此：
+
+\[
+EF=EO+OF
+\]
+
+\[
+=\frac{ab}{a+b}+\frac{ab}{a+b}
+\]
+
+\[
+\boxed{EF=\frac{2ab}{a+b}}
+\]
+
+### 這題考試最好記的「秒殺口訣」
+
+看到：
+
+**梯形＋對角線交點＋過交點作底邊平行線**
+
+直接記：
+
+\[
+\boxed{EF=\frac{2\times上底\times下底}{上底+下底}}
+\]
+
+所以這題就是：
+
+\[
+\boxed{\frac{2ab}{a+b}}
+\]
+
+而且順便可以記住一個漂亮結論：
+
+\[
+\boxed{EO=OF}
+\]
+
+也就是 **O 是 EF 的中點**。
+
+user
+[原卷附圖]
+
+
+assistant
+這張有第 **17、18 題**，我先一起解。第 17 題比較適合秒殺。
+
+第 17 題：梯形 \(ABCD\)，\(AB\parallel CD\)，\(AB=b,\ CD=a\)，且 \(a<b\)。對角線交於 \(O\)，已知
+
+\[
+[BOC]=\frac29 S
+\]
+
+其中 \(S\) 是整個梯形面積，求 \(\frac ab\)。
+
+梯形對角線交點有一個常用公式：
+
+\[
+\frac{[BOC]}{S}=\frac{ab}{(a+b)^2}
+\]
+
+所以
+
+\[
+\frac{ab}{(a+b)^2}=\frac29
+\]
+
+令
+
+\[
+x=\frac ab
+\]
+
+則
+
+\[
+\frac{x}{(1+x)^2}=\frac29
+\]
+
+交叉相乘：
+
+\[
+9x=2(1+x)^2
+\]
+
+\[
+9x=2+4x+2x^2
+\]
+
+\[
+2x^2-5x+2=0
+\]
+
+因式分解：
+
+\[
+(2x-1)(x-2)=0
+\]
+
+所以
+
+\[
+x=\frac12\quad\text{或}\quad 2
+\]
+
+題目說 \(a<b\)，所以 \(\frac ab<1\)。
+
+因此
+
+\[
+\boxed{\frac ab=\frac12}
+\]
+
+第 17 題秒殺記法：
+
+\[
+\boxed{\frac{[BOC]}{\text{梯形面積}}
+=\frac{ab}{(a+b)^2}}
+\]
+
+看到 \(2/9\)，其實可以直接試 \(a:b=1:2\)：
+
+\[
+\frac{1\times2}{(1+2)^2}
+=\frac29
+\]
+
+所以直接得到
+
+\[
+\boxed{a:b=1:2}
+\]
+
+---
+
+第 18 題：
+
+已知六個小三角形中：
+
+\[
+[BPD]=4,\qquad [APE]=4,\qquad [CPD]=3
+\]
+
+求另外三個。
+
+設
+
+\[
+[APF]=x,\quad [BPF]=y,\quad [CPE]=z
+\]
+
+先看底邊 \(BC\)。
+
+因為 \(\triangle BPD\) 與 \(\triangle CPD\) 對 \(BC\) 有相同高度，所以
+
+\[
+BD:DC=4:3
+\]
+
+因此整個左、右兩大三角形面積也有：
+
+\[
+[ABD]:[ACD]=4:3
+\]
+
+也就是
+
+\[
+(x+y+4):(4+z+3)=4:3
+\]
+
+即
+
+\[
+\frac{x+y+4}{z+7}=\frac43
+\]
+
+再看 \(AC\)。
+
+\(\triangle APE\) 與 \(\triangle CPE\) 對 \(AC\) 有相同高度，所以
+
+\[
+AE:EC=4:z
+\]
+
+而整個 \(\triangle ABE\) 與 \(\triangle CBE\) 也有相同比：
+
+\[
+(x+y+4):(z+7)=4:z
+\]
+
+前面已知左邊比其實是 \(4:3\)，所以
+
+\[
+\frac4z=\frac43
+\]
+
+得到
+
+\[
+\boxed{z=3}
+\]
+
+也就是
+
+\[
+\boxed{[CPE]=3}
+\]
+
+代回：
+
+\[
+\frac{x+y+4}{10}=\frac43
+\]
+
+所以
+
+\[
+x+y+4=\frac{40}{3}
+\]
+
+\[
+x+y=\frac{28}{3}
+\]
+
+最後利用 \(CF\) 這條線的面積比例，可得到
+
+\[
+x=y
+\]
+
+因此
+
+\[
+2x=\frac{28}{3}
+\]
+
+\[
+x=y=\frac{14}{3}
+\]
+
+所以另外三個小三角形面積為
+
+\[
+\boxed{APF=\frac{14}{3}}
+\]
+
+\[
+\boxed{BPF=\frac{14}{3}}
+\]
+
+\[
+\boxed{CPE=3}
+\]
+
+這題最值得記的不是算式，而是：
+
+> **同一條底邊上的兩個小三角形，高相同 → 面積比 = 底邊比。**
+
+這就是第 18 題一路推比例的核心。
+
+---
+
+If you want, I can:
+
+- 繼續解釋第15題的詳細解法與比例應用
+- 說明題目中梯形對角線交點比例及其證明過程
+- 介紹如何用秒殺比例法快速做類似梯形題目

@@ -1,0 +1,71 @@
+{
+  "id": "q-796",
+  "subject": "History",
+  "title": "先認南京事件，再把城市對回乙",
+  "art": "docs/comics/art/q-796.png",
+  "startedAt": "2026-10-28T18:39:36.257682+00:00",
+  "panels": [
+    {
+      "heading": "① 要把整組線索合起來",
+      "text": "中日戰爭中，城內日軍暴行、冒險保存照片，連到戰後審判作證。這組情境指向南京大屠殺，不是只憑戰爭二字判斷。",
+      "alt": "戰時居民在照相館內避難、窗外遠處煙霧的概念場景，沒有血腥或暴行畫面。"
+    },
+    {
+      "heading": "② 照片是保存下來的證據",
+      "text": "題目不是單純介紹攝影職業，而是保存能證明罪行的影像。事件判斷要連上暴行、影像與戰後審判，不只看照相館。",
+      "alt": "成年角色將底片與空白照片收進保護袋，示意保存證據，不生成受害者暴力照片。"
+    },
+    {
+      "heading": "③ 回到原圖找長江下游",
+      "text": "南京位於長江下游，靠近東部沿海但不是海岸城市。對照原卷城市圖，符合的是乙，選B。",
+      "alt": "現代學生在桌邊查閱地理資料的概念場景；精確城市位置使用原卷附圖，不由AI重畫地圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：乙，南京",
+    "points": [
+      "判事件：暴行、照片存證、戰後審判。",
+      "判位置：南京在長江下游。",
+      "甲在華北、丙在華南、丁在西南，都不符南京的位置。"
+    ]
+  },
+  "protectedWords": [
+    "南京大屠殺",
+    "照相館",
+    "保存證據",
+    "長江下游",
+    "南京",
+    "戰後審判"
+  ],
+  "rationale": "以非血腥避難、影像保存、學生查圖組織事件到位置的推理。精確地圖完全保留原卷乾淨裁圖，不交生成模型畫疆界或點位。全新imagegen三格，不採來源AI漫畫。",
+  "promptSummary": "新製三格無字動漫：照相館內避難、收妥照片底片、學生查地理資料。無屍傷、軍旗或精確AI地圖。",
+  "answerCheckedAgainst": "完整原卷劇情、四選項、乙位置與照片成為南京戰犯審判證據的檔案記錄核對，答案B。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "src": "docs/source-pages/priority-6ae2305b-10.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T18:43:24.268286+00:00",
+  "checkedAt": "2026-10-28T18:59:02.472598+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T18:40:07.170Z",
+  "generationCompletedAt": "2026-10-28T18:40:34.043Z",
+  "artSHA256": "23d265ec75a552b7e2ccbec4aa0d0fb6e465e85ef89aa763bf404d328adda5fc",
+  "previewValidation": "docs/comics/q-796-preview-validation.json",
+  "visualReview": "原卷完整劇情、四選項及甲乙丙丁圖均已實看，乙位置符合南京長江下游，B核對。地圖裁切無答案筆跡，沒有AI重畫。新三圖非血腥避難／保存底片／學生查圖，不放戰爭暴力照片。原始圖與1440/390成品實看，移除制式非史實照片提醒改成其餘點位比較後重跑三寬QA通過，手機自然高度無溢出。",
+  "nativeArt": "assets/comics/q-796-art-23d265ec75-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-796-validation.json"
+}

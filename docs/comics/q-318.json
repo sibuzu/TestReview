@@ -1,0 +1,62 @@
+{
+  "id": "q-318",
+  "subject": "Math",
+  "title": "同距離比時間，越短才越快",
+  "art": "docs/comics/art/q-318.svg",
+  "panels": [
+    {
+      "heading": "① 區間測速，看整段平均",
+      "text": "三人都走同一段1.5公里，平均速率是距離除以通過時間。距離相同時，時間越短才越快，不能只比較某個瞬間的速度。",
+      "alt": "同一段A到B路程長1.5公里，測量全段通過時間，不以車在圖上的位置判斷速度。"
+    },
+    {
+      "heading": "② 把限速換成臨界時間",
+      "text": "以時速50公里走1.5公里，需要0.03小時，也就是108秒。平均時速超過50，等價於通過時間少於108秒；不等號方向要看清楚。",
+      "alt": "時速50公里、路程1.5公里對應108秒，低於這個時間才符合題目超速條件。"
+    },
+    {
+      "heading": "③ 三人都先換成秒",
+      "text": "阿科109秒、小克135秒，都比108秒久；蘭蘭103秒，比108秒短。所以只有蘭蘭的平均速率超過題目上限。",
+      "alt": "三人通過時間與判斷並列，109秒與135秒未超速，103秒超速。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：僅蘭蘭超速違規",
+    "points": [
+      "先把分、秒換成同一單位，再比較109、135、103與108。",
+      "時間少於108秒才超速，不是時間越久越快。",
+      "恰好108秒時速率正好50，沒有超過本題所定上限。"
+    ]
+  },
+  "rationale": "實看完整原卷及路段標示，以精確分數獨立驗算臨界108秒與三人速率，保留B；依題目條件判斷，不擅自加入現行測速容許誤差或其他交通規定。",
+  "generationMethod": "authored SVG travel-time diagram; teaching paragraphs rendered in HTML/CSS",
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-318-art-6a02b10d56.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "6a02b10d56f5f27680506b3cb89af5a362bbdefa6b0abe811ac6ff6f16b52289",
+  "createdAt": "2026-10-28T16:17:15.934783+00:00",
+  "contentChecks": [
+    "Fraction(3,2)/50*3600=108 seconds",
+    "Exact average speeds verify only 103 seconds exceeds50; 108 seconds equals50"
+  ],
+  "protectedWords": [
+    "阿科",
+    "小克",
+    "蘭蘭",
+    "區間測速",
+    "平均速率"
+  ],
+  "checkedAt": "2026-10-28T16:22:25.069615+00:00",
+  "validationFile": "docs/comics/q-318-validation.json"
+}

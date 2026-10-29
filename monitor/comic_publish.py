@@ -1,4 +1,4 @@
-"""Root-only publication after each user-authorized batch of 20 verified comics."""
+"""Single integration owner's publication after each authorized 20-comic batch."""
 import argparse
 from datetime import datetime, timezone
 import fcntl

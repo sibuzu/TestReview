@@ -1,0 +1,60 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先求AE＝10，再由等角得到AF",
+    "art": "assets/comics/q-218-art-427970e336.svg",
+    "panels": [
+      {
+        "heading": "① 中點配畢氏，先求AE",
+        "text": "BC＝AD＝16，E是BC中點，所以BE＝8。△ABE在B為直角，兩股6與8，斜邊AE就是10。",
+        "alt": "新製精確6:8:10直角△ABE，直角記號空心位於B，AE斜邊橙色，不把EF當斜邊。"
+      },
+      {
+        "heading": "② 平分與平行得到等腰",
+        "text": "EF平分∠AEC，故∠AEF＝∠FEC。又AF平行EC，內錯角∠AFE＝∠FEC。因此△AEF兩角相等，AF＝AE＝10。",
+        "alt": "新製△AEF與向右EC輔助射線，E兩角與F角相等均標α；AE/AF同色，EF不加等長記號。"
+      },
+      {
+        "heading": "③ FD是扣除AF的剩餘段",
+        "text": "AD全長16，AF已求得10，所以FD＝16−10＝6。E是BC中點，不代表F也是AD中點；角平分線也不等於把對邊平分。",
+        "alt": "新製精確16比6長方形，E在中點8/8，F在距A10距D6處，AF橙/FD青分色，未把F畫成中點。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：6",
+      "points": [
+        "AE＝√(6²＋8²)＝10。",
+        "△AEF等腰，所以AF＝10。",
+        "FD＝AD−AF＝16−10＝6。"
+      ]
+    },
+    "protectedWords": [
+      "中點",
+      "畢氏",
+      "直角",
+      "斜邊",
+      "兩股",
+      "角平分線",
+      "等腰",
+      "平分",
+      "平行",
+      "內錯角",
+      "對邊",
+      "剩餘段",
+      "△ABE",
+      "△AEF",
+      "∠AEC",
+      "∠AEF",
+      "∠FEC",
+      "∠AFE",
+      "AE",
+      "AF",
+      "FD",
+      "AD",
+      "BC",
+      "BE",
+      "EC",
+      "EF"
+    ]
+  }
+}

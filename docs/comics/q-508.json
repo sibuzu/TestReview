@@ -1,0 +1,83 @@
+{
+  "id": "q-508",
+  "subject": "Chinese",
+  "title": "想保護柳樹，方法卻適得其反",
+  "art": "docs/comics/art/q-508.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:32:23.795483+00:00",
+  "panels": [
+    {
+      "heading": "① 本來的目的是守護新柳",
+      "text": "元素怕鄰居孩子搖動新種的柳樹，所以叫阿留看守。撼就是搖動；恐表示擔心，原文沒有說孩子已經破壞柳樹。",
+      "alt": "新製虛構庭院屋主交代阿留看守剛栽柳樹，沒有畫孩子已搖壞樹；三株只是數株的情境示意，不聲稱原文確切株數。"
+    },
+    {
+      "heading": "② 為了進屋吃飯，卻收樹藏好",
+      "text": "阿留將入飯時，便收而藏之。他把已種在土裡的柳樹，當成能收起藏好的物件；想避免被搖動，卻離開了原本應生長的地方。",
+      "alt": "新製阿留把帶土根系的綠色新柳往室內收，原圖沒有盆栽，未畫樹斷裂或死亡；室內飯碗只示意將要吃飯。"
+    },
+    {
+      "heading": "③ 手段違背目的，就是弄巧成拙",
+      "text": "看守應讓樹留在土中安全生長，收起來卻把保護的方法弄錯。原文只寫收藏，沒有寫柳樹已死；不用加上死亡結果，也能判斷A最合適。",
+      "alt": "新製戶外空種植穴與室內仍綠的新柳同框，對照收藏方式和原生長位置；不加枯死或屋主責罵等原文沒有的結局。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 想保護柳樹，方法卻適得其反",
+    "answer": "答案 A：弄巧成拙",
+    "points": [
+      "好意是保護，方法卻破壞原目的。",
+      "不是另處獲得補償，也不是失職後補救。",
+      "先看行為與目的的關係，再選成語。"
+    ]
+  },
+  "protectedWords": [
+    "元素",
+    "阿留",
+    "新柳",
+    "柳樹",
+    "鄰居",
+    "孩子",
+    "搖動",
+    "看守",
+    "擔心",
+    "將入飯",
+    "收而藏之",
+    "收藏",
+    "生長",
+    "目的",
+    "手段",
+    "方法",
+    "物件",
+    "弄巧成拙",
+    "適得其反",
+    "最合適",
+    "死亡結果",
+    "補償",
+    "失職",
+    "補救"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-508-source-66d535df40.jpg"
+  ],
+  "originalVisualCheck": "實看7題引文舍前植新柳數株/元素恐為鄰兒所撼/使留守焉/留將入飯則收而藏之，四項墨魚吐墨弄巧成拙/皮之不存毛將焉附/失之東隅收之桑榆/失晨之雞思補更鳴完整。沒有新增柳樹死亡結果。",
+  "answerCheckedAgainst": "A核心弄巧成拙對應好意保護而錯用收藏方法；B根本依附/C補償/D失職補救不合此處。維持既有A與既有原文未說拔死說明，不推墨魚噴墨必然失敗生物學命題。",
+  "rationale": "新製交代保護/準備吃飯收起/內外位置對照三情境，直接比較目的與方法，綠葉保留避免把AI補出的死亡當原文；不採來源AI圖。",
+  "promptPath": "docs/comics/q-508-prompt.txt",
+  "generationCalls": 1,
+  "diagramChecks": {
+    "selected": "A",
+    "purpose": "protect newly planted willows",
+    "method": "collect and store before meal",
+    "childrenDamagedTree": false,
+    "treeDeathClaim": false,
+    "saplingCount": "three illustrated only, original says several",
+    "inkBiologyClaimAdded": false
+  },
+  "artSHA256": "426b224905c019145dc6001eec663ff21fac243c2dafa38fca8826faf96e7bc0",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:34:43.096370+00:00",
+  "completedAt": "2026-10-29T05:34:43.096370+00:00",
+  "layoutEvidence": "docs/comics/q-508-preview-validation.json",
+  "visualReview": "實看新三景與1440/1120/390：新柳原在土中、阿留攜帶帶根綠柳入屋、空穴與室內收藏對照；無孩子實際破壞或枯死結果，飯碗僅示意將入飯。原卷A意圖/方法矛盾核對，三寬圖裁切和詞組換行正確、同行等高手機自然高無溢出。"
+}

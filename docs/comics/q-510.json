@@ -1,0 +1,100 @@
+{
+  "id": "q-510",
+  "subject": "Chinese",
+  "title": "同音要全對：聲調與介音都不能漏",
+  "art": "docs/comics/art/q-510.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-510-generate.py",
+  "startedAt": "2026-10-29T05:31:49.627581+00:00",
+  "panels": [
+    {
+      "heading": "① A與C：聲調不同就不是同音",
+      "text": "「委」以重任讀ㄨㄟˇ，枯「萎」讀ㄨㄟ；坎「坷」讀ㄎㄜˇ，「苛」責讀ㄎㄜ。兩組都是第三聲對第一聲，所以A、C都不相同；一聲注音通常不另加聲調符號。",
+      "alt": "新原生兩組聲調比較卡，A委三聲萎一聲、C坷三聲苛一聲，注音大字清晰且一聲不加虛構聲調符號。"
+    },
+    {
+      "heading": "② B：偽造與為國，都讀ㄨㄟˋ",
+      "text": "「偽」造文書讀ㄨㄟˋ；「為」國爭光的「為」有替的意思，也讀ㄨㄟˋ。兩字的完整注音與第四聲相同，故選B；別把這裡的「為」讀成ㄨㄟˊ。",
+      "alt": "偽和為兩不同字搭同一ㄨㄟˋ讀音卡，以為國替國家語意核定本題多音字，不泛稱為所有語境都四聲。"
+    },
+    {
+      "heading": "③ D：二聲相同，介音卻不同",
+      "text": "模「稜」兩可讀ㄌㄥˊ；「凌」虐讀ㄌㄧㄥˊ。「凌」的讀音多了介音ㄧ，雖然兩字都是第二聲，仍不能判成同音。",
+      "alt": "稜/凌注音逐格對齊，凌額外ㄧ以橙色框突出，兩字二聲均保留，明確是介音差異而非調號。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：B，偽、為皆讀ㄨㄟˋ",
+    "points": [
+      "先看原題引號圈哪一字，再按詞語確認讀音。",
+      "A、C差聲調；D差介音ㄧ。",
+      "形似或同聲調，都不足以證明完全同音。"
+    ]
+  },
+  "protectedWords": [
+    "ㄨㄟˇ",
+    "ㄨㄟˋ",
+    "ㄨㄟˊ",
+    "ㄌㄥˊ",
+    "ㄌㄧㄥˊ",
+    "ㄎㄜˇ",
+    "ㄎㄜ",
+    "枯萎",
+    "坎坷",
+    "苛責",
+    "模稜兩可",
+    "凌虐",
+    "介音ㄧ",
+    "為國爭光"
+  ],
+  "rationale": "親見原卷12四選項，C引號在坷不是坎，沿已核對B不重開舊OCR。教育部簡編/成語典/小字典主文核聲調與介音。教學重點是精確音節對照，因此新原生SVG注音大字卡/聲調對照/ㄧ差異，比人物或文字生圖更準確；無來源AI。",
+  "promptSummary": "原生三格精確注音：A/C三聲與一聲卡；B偽/為皆ㄨㄟˋ及替義；D逐格對齊ㄌ[空]ㄥˊ與ㄌㄧㄥˊ，介音ㄧ高亮。",
+  "answerCheckedAgainst": "原卷四選項與紅筆B；官方枯萎18550、坎坷18423、苛責17936、模稜成語612、凌虐65485、偽小字典D0002926及為D0002104，逐字語境核音。",
+  "officialReferences": [
+    {
+      "title": "教育部簡編本・枯萎",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18550&la=0&powerMode=0"
+    },
+    {
+      "title": "教育部簡編本・坎坷",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18423&la=0&powerMode=0"
+    },
+    {
+      "title": "教育部簡編本・苛責",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=17936&la=0&powerMode=0"
+    },
+    {
+      "title": "教育部成語典・模稜兩可",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=612&webMd=1"
+    },
+    {
+      "title": "教育部重編本・凌虐",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=65485&q=1&word=%E5%87%8C"
+    },
+    {
+      "title": "教育部小字典・偽",
+      "url": "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0002926"
+    },
+    {
+      "title": "教育部小字典・為",
+      "url": "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0002104"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-510-source-d24ec06c72.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "四選項親見，C坷引用位置與枯萎/為國等語境已還原，學生C和紅筆B區分；無新增文字訂正或另開確認。"
+  },
+  "artSHA256": "e0b136dbfc9b1d4ed5cc63f49d2aa3bf0f9828334c94961c95ea07939664209b",
+  "completedAt": "2026-10-29T05:34:55.478662+00:00",
+  "checkedAt": "2026-10-29T05:34:55.478674+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-510-preview-validation.json",
+  "visualReview": "實看540x180原生注音大字圖與1440/390四格：A/C第三與第一聲對照正確，B兩字均ㄨㄟˋ，D凌的ㄧ單格橙色且同第二聲未誤判。正文注音與圖一致，三寬無橫溢或注音保護詞斷開；桌機同列等高、手機自然高度。"
+}

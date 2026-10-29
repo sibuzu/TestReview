@@ -257,3 +257,10 @@
 - 2026-10-29標記同步最新規則：只有https://weirugo.sibuzu.com可雲端同步；其他所有入口（test.sibuzu.com、Netlify別名、Monitor、localhost/Live Server等）全部只用各自localStorage，不讀寫雲端、不排入上傳佇列。此項取代之前Monitor/Live Server與正式站共用雲端端點的規則。前端預設非正式入口停用同步，後端也拒絕其API；網站內容仍共用同一份題庫。
 - 右上同步狀態下方顯示資料更新日期與秒數，採題庫dataUpdatedAt且固定台灣時間，不用使用者開頁時間冒充資料更新；相同題庫重建保留時間。
 - 使用者已明確授權：往後每完成並驗證20題圖解（含重作）就commit all並push一次，不再逐次確認。以root整合完成的complete工作計數，待確認/未整合/略過不計；原始大圖維持本機排除Git，發布前驗證可引用資產、網站測試與必要桌手機QA。此項取代之前本專案不自行commit/push的指示；不改動DNS/Netlify設定或另行部署。
+
+## 工作分工：2026-10-29使用者最新調整
+
+- 從三路製作＋root整合，改為兩路製作（comic_lane_1、comic_lane_2）＋一路專職整合（comic_lane_3）＋root保留回應使用者與機動。第三路先完成當前已領題目，再停止製作claim；此節取代先前三路製作及root唯一整合的分工。
+- 專職整合代理是共用題庫、attach／curate、asset-map、正式QA、integrated與每20題commit all／正常push的唯一寫入者。root交接後不並行寫這些共用內容；若需機動接手，先明確完成交接。製作線仍只寫各題檔與隔離預覽，stage後續領。
+- 整合代理必須自行完整讀題與原卷、核對解說和成品，實看正式桌機及手機；不可只採製作代理的測試報告。沿用rootReview欄位供既有驗證器相容，並記錄實際reviewerAgent。新疑義照常列Monitor，其他題續作。
+- Monitor顯示兩路製作、一路整合、待整合與整合中；第三路的舊已完成製作紀錄保留，不誤刪或改寫歷史。

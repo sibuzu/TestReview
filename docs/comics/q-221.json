@@ -63,8 +63,37 @@
   "geometryValidation": "docs/comics/q-221-geometry-validation.json",
   "artSHA256": "983a4ad23d264eef57714f4fcfea043c288d838039032d19276333b463ff2e33",
   "completedAt": "2026-10-29T04:54:45.207729+00:00",
-  "checkedAt": "2026-10-29T04:54:45.207746+00:00",
+  "checkedAt": "2026-10-29T05:53:46.133979+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-221-preview-validation.json",
-  "visualReview": "親見完整原卷/四選項、既有given實際渲染、新原生540×180及最終1440/390。四不同色對角線半長與中央四邊一一對應，CD不列入四段周長，AB與EF各加一次。合法非對稱坐標獨立驗證中點四組相等、CD/AB/EF12、中央29、兩不同三角周長合53；圖不假全等。桌機同列等高/手機自然高無溢出裁切，C53維持。"
+  "visualReview": "親見完整原卷/四選項、既有given實際渲染、新原生540×180及最終1440/390。四不同色對角線半長與中央四邊一一對應，CD不列入四段周長，AB與EF各加一次。合法非對稱坐標獨立驗證中點四組相等、CD/AB/EF12、中央29、兩不同三角周長合53；圖不假全等。桌機同列等高/手機自然高無溢出裁切，C53維持。",
+  "nativeArt": "assets/comics/q-221-art-983a4ad23d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T05:53:45.910586+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見共享CD12及對角線P/Q、中央CPDQ周29四選項；對角線各自互平分，四段合29再加AB/EF各12得53。讀獨立非對稱坐標驗證真29，未誤假全等，正式桌手機分色及周界實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "independentCheck": "docs/comics/integration-lane3-214-224-independent-check.json",
+    "formalValidation": "docs/comics/q-221-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-221-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-221-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-221-validation.json"
 }

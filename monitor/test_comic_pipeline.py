@@ -7,6 +7,33 @@ from .comic_pipeline import claim, stage, begin, integrated, load, save
 
 
 class PipelineTests(unittest.TestCase):
+    def test_integration_lane_finishes_existing_job_then_stops_claiming(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'monitor').mkdir()
+            (root/'docs/comics').mkdir(parents=True)
+            save(root/'docs/comics/progress.json', {'entries': [
+                dict(id=f'q-{i}', title=str(i), subject='Math', date='2026-10-21', state='queued')
+                for i in (1, 2, 3)]})
+            save(root/'docs/comics/pipeline.json', {'jobs': []})
+            save(root/'monitor/parallel.json', {'lanes': [{'lane': i} for i in (1, 2, 3)]})
+            current = claim(root, 3)
+            configuration = load(root/'monitor/parallel.json')
+            configuration['lanes'][2]['role'] = 'integration'
+            save(root/'monitor/parallel.json', configuration)
+            self.assertEqual(claim(root, 3)['id'], current['id'])
+            evidence = 'docs/comics/review.json'
+            (root/evidence).write_text('{}')
+            stage(root, current['id'], 'not_suitable', 'Reviewed current job.', [evidence])
+            self.assertIsNone(claim(root, 3))
+            # The integration owner reports work from either production lane.
+            other = claim(root, 1)
+            stage(root, other['id'], 'not_suitable', 'Reviewed production job.', [evidence])
+            begin(root, other['id'])
+            integrator = load(root/'monitor/parallel.json')['lanes'][2]
+            self.assertEqual(integrator['state'], 'integrating')
+            self.assertEqual(integrator['questionId'], other['id'])
+
     def test_rework_priority_holds_general_work_and_uses_whole_bank_subject_scores(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)

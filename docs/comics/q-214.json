@@ -45,7 +45,9 @@
     "∠XFE",
     "∠JFE",
     "FG∥DI",
-    "CD＝DE＝DI"
+    "CD＝DE＝DI",
+    "180°",
+    "360°"
   ],
   "rationale": "親見原卷與既有given渲染，沿已核對C。全新精確SVG D一周三角/鈍角等腰三角/F點同向平行三圖，獨立生成兩正多邊形等邊/角度/平行與射線順序驗證；明確FG∥DI而非EF。採局部放大避免180方全圖角標擁擠，不改必要作答圖。無人物或來源AI圖。",
   "promptSummary": "新原生D局部108+120+132、△CDI頂132底24、F局部60被FJ分24+36。等比例真角度/同半徑角弧，非點陣重製原圖或來源AI解說圖。",
@@ -67,8 +69,37 @@
   "geometryValidation": "docs/comics/q-214-geometry-validation.json",
   "artSHA256": "0398775ab082abdc799dfa176f4731068b2950c91302e2008ffa0620f6bf6b2a",
   "completedAt": "2026-10-29T04:49:16.818291+00:00",
-  "checkedAt": "2026-10-29T04:49:16.818302+00:00",
+  "checkedAt": "2026-10-29T05:53:45.936505+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-214-preview-validation.json",
-  "visualReview": "親見原卷全題/A–D、既有given實際渲染，新原生540×180與最終1440/390實看。D一周三等半徑扇形、鈍角等腰△CDI真比例、F點射線144/180/204分36/24，點線標記無壓字。獨立驗證全部五/六邊角與邊長、9角度、FG∥DI但EF不平行DI、FJ內分角和及方向。桌機同列等高/手機自然高無裁切溢出，C36不變。"
+  "visualReview": "親見原卷全題/A–D、既有given實際渲染，新原生540×180與最終1440/390實看。D一周三等半徑扇形、鈍角等腰△CDI真比例、F點射線144/180/204分36/24，點線標記無壓字。獨立驗證全部五/六邊角與邊長、9角度、FG∥DI但EF不平行DI、FJ內分角和及方向。桌機同列等高/手機自然高無裁切溢出，C36不變。",
+  "nativeArt": "assets/comics/q-214-art-0398775ab0.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T05:53:45.908993+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見正五/正六共DE及JF∥CI四選項；D一周108/120剩132，等腰底24，FG∥DI非EF，F外60扣24得36。各射線方向/角弧正式桌手機實看；只加180°/360°保護詞避免度符單獨換行，重跑6正式check通過。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "independentCheck": "docs/comics/integration-lane3-214-224-independent-check.json",
+    "formalValidation": "docs/comics/q-214-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-214-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-214-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-214-validation.json"
 }

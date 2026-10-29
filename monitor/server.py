@@ -108,7 +108,8 @@ def build_status(root=ROOT):
         if parallel_path.exists():
             comics['parallel'] = read_json(parallel_path)
             paths.append(parallel_path)
-            running = [dict(id=l['questionId'], title=l['title']) for l in comics['parallel'].get('lanes', []) if l['state']=='running']
+            running = [dict(id=l['questionId'], title=l['title']) for l in comics['parallel'].get('lanes', []) if l['state']=='running' and l.get('questionId')]
+            running += [dict(id=j['id'], title=j['title']) for j in comics['parallel'].get('integrating', [])]
             comics['active'] = running
             reserved = {e['id'] for e in comics['parallel'].get('ready', []) + comics['parallel'].get('blocked', [])}
             reserved.update(e['id'] for e in running)

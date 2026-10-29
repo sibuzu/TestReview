@@ -1,0 +1,75 @@
+{
+  "id": "q-384",
+  "subject": "Chinese",
+  "title": "把成語換成白話，再和前後文對照",
+  "art": "docs/comics/art/q-384.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T05:43:54.730070+00:00",
+  "generationStartedAt": "2026-10-29T05:45:39.553Z",
+  "generationCompletedAt": "2026-10-29T05:46:03.267Z",
+  "panels": [
+    {
+      "heading": "① B：生活奢華，配豐盛講究的飲食",
+      "text": "「食前方丈」形容食物非常豐盛、生活奢侈。把這個意思放回「阿民生活奢華，三餐……」，前後相合，因此B用得恰當；這裡的方丈不是寺院住持。",
+      "alt": "全新豐盛餐桌和生活講究的成人，無寺院僧人或量尺，不要求桌面真的一丈見方。"
+    },
+    {
+      "heading": "② A：室如懸磬，說的是非常貧窮",
+      "text": "「室如懸磬」比喻家裡空無所有、非常貧窮，不能只因有室字就當作房屋氣派。A前面用日進斗金表達賺錢多，接上這個貧困意思，和原句語境不合。",
+      "alt": "全新簡陋空屋，作成語貧窮義的獨立示意，不聲稱是第一格阿民或王老闆實際住宅。"
+    },
+    {
+      "heading": "③ D：已經開通，不是快成功才失敗",
+      "text": "「功敗垂成」指快要成功時卻失敗。山路「終於開通」已表達成功，不能再用功敗垂成形容；功字出現，不代表這個成語就是稱讚有功。",
+      "alt": "全新眾人完成山路後看著暢通道路，路無缺口/坍塌/障礙，對照已成功與將成而敗的成語條件。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：B，食前方丈",
+    "points": [
+      "先把成語換成白話，再檢查句意相不相合。",
+      "C數典忘祖是忘本，與句中有成後回饋的正向語境不合。",
+      "A查貧富，C查褒貶語境，D查成功或失敗。"
+    ]
+  },
+  "protectedWords": [
+    "食前方丈",
+    "室如懸磬",
+    "日進斗金",
+    "功敗垂成",
+    "數典忘祖",
+    "生活奢華",
+    "終於開通",
+    "非常貧窮"
+  ],
+  "rationale": "親見原卷4題A-D與B標記，教育部成語典食前方丈/室如懸磬核義，沿B。新內建圖豐盛飲食/獨立空屋義示意/已開通道路，分辨語義條件，不新增老闆實際房屋或硬套量尺/僧人；無來源AI。",
+  "promptSummary": "新無字三格分別示意B豐盛餐桌、A空屋貧窮義、D完成山路。文字逐項語境核對且第四格補C忘本與回饋語境，不把三格誤當同人連續事件。",
+  "answerCheckedAgainst": "原卷4題全部選項與B，官方食前方丈8144/室如懸磬9793；其餘按原句已開通/回饋/日進斗金條件比對。",
+  "officialReferences": [
+    {
+      "title": "教育部《成語典》食前方丈",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=8144&la=0&webMd=1"
+    },
+    {
+      "title": "教育部《成語典》室如懸磬",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=9793&la=0&webMd=1"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-384-source-2709bc3c70.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "A-D四項完整親見，保持原題；新空屋只表成語義，不以臆測富商實際房屋或未寫背景作判據。"
+  },
+  "artSHA256": "1067e9b0362019b94afb983090536a4fb0a275fee5b56d2f828d9f0b2214bb59",
+  "completedAt": "2026-10-29T05:47:39.299509+00:00",
+  "checkedAt": "2026-10-29T05:47:39.299520+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-384-preview-validation.json",
+  "visualReview": "實看2172x724新圖與最終1440/390四格：豪華餐桌、獨立貧窮空屋義示意、已開通山路三情境分明，非同一人故事，不畫寺院或錯把功敗當成功；稿內住持用字已校正後重QA。四選項理由完整，三寬無橫溢/詞組拆行，桌機同列等高、手機自然高度。"
+}

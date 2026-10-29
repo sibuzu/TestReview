@@ -1,0 +1,48 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "同半徑加60°夾角，全等後用平角",
+    "art": "assets/comics/q-215-art-ac21517963.svg",
+    "panels": [
+      {
+        "heading": "① 同圓心的圓弧，給出BD＝BE",
+        "text": "D與E在以B為圓心的同一圓弧上，所以BD＝BE。這個相等關係來自半徑，不必知道半徑數值；題目只說適當長，沒有給半徑等於正三角形邊長。",
+        "alt": "精確正三角形與B圓心弧通過D/E，BD/BE同綠，E在BC下方，原92度標在E；弧半徑約邊長0.4698僅供實現原角，不冒充題設。"
+      },
+      {
+        "heading": "② 兩邊與夾角對上，SAS證全等",
+        "text": "正三角形有AB＝BC，且∠ABD＝60°。BE平行AC，依圖∠CBE也等於60°。加上BD＝BE，得到△ABD≅△CBE，對應為A對C、B對B、D對E。",
+        "alt": "分離畫出的ABD與CBE採相同尺度，AB/BC同藍、BD/BE同綠，兩個B處60度；不把相等兩邊與非夾角誤當SAS。"
+      },
+      {
+        "heading": "③ D點92°與所求角互補",
+        "text": "由全等對應角，∠ADB＝∠BEC＝92°。B、D、C共線，∠ADC與∠ADB合成180°，所以∠ADC＝180°−92°＝88°。",
+        "alt": "只放大正三角形及AD，D在BC中間，92在DB一側、88在DC一側，兩角共線互補，非把92與88標在同一側。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案：88°",
+      "points": [
+        "同圓半徑：BD＝BE。",
+        "AB＝BC且夾角60°，SAS得全等。",
+        "∠ADB＝92°，∠ADC＝180°−92°＝88°。"
+      ]
+    },
+    "protectedWords": [
+      "BD＝BE",
+      "AB＝BC",
+      "∠ABD",
+      "∠CBE",
+      "△ABD",
+      "△CBE",
+      "∠ADB",
+      "∠BEC",
+      "∠ADC",
+      "SAS",
+      "60°",
+      "92°",
+      "88°",
+      "適當長"
+    ]
+  }
+}

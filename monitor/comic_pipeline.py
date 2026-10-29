@@ -50,6 +50,11 @@ def update_display(root, pipeline):
         current = next((j for j in reversed(jobs) if j['state'] == 'claimed'), None)
         if current:
             lane.update(questionId=current['id'], title=current['title'], state='running', startedAt=current['startedAt'])
+        elif lane.get('role') == 'integration':
+            integrating = [j for j in pipeline['jobs'] if j['state'] == 'ready' and j.get('integrationStartedAt')]
+            lane.update(questionId=integrating[0]['id'] if integrating else None,
+                        title='、'.join(j['id'] for j in integrating) if integrating else '等待下一批整合',
+                        state='integrating' if integrating else 'preparing')
         else:
             lane['state'] = 'idle'
     ready = [j for j in pipeline['jobs'] if j['state'] == 'ready']
@@ -73,6 +78,10 @@ def claim(root, lane):
         existing = next((j for j in pipeline['jobs'] if j['lane'] == lane and j['state'] == 'claimed'), None)
         if existing:
             return existing
+        configuration = load(root/'monitor/parallel.json')
+        lane_configuration = next((item for item in configuration.get('lanes', []) if item['lane'] == lane), {})
+        if lane_configuration.get('role') == 'integration':
+            return None
         if pipeline.get('claimsPaused'):
             return None
         progress = load(root/'docs/comics/progress.json')
@@ -119,7 +128,7 @@ def stage(root, qid, decision, reason, evidence):
 
 
 def integrated(root, qid):
-    """Root only, after artifact review and any attach/curate/integrated QA."""
+    """The single integration owner, after artifact review and formal QA."""
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
         job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)
@@ -154,12 +163,12 @@ def integrated(root, qid):
             completed = sum(e['id'] in scope and e['state']=='complete' for e in progress['entries'])
             save(root/'monitor/activity.json', {
                 'title': f'54題重作優先：{completed}／{len(scope)}已整合（全題庫{settled}／{len(progress["entries"])}）',
-                'detail': f'剛整合{qid}；三路只領重作清單，其他已製作項目暫存。全新四格依教學效果選用幾何／結構或情境圖，維持WebP與共用資產減量。',
+                'detail': f'剛整合{qid}；製作線只領重作清單，其他已製作項目暫存。全新四格依教學效果選用幾何／結構或情境圖，維持WebP與共用資產減量。',
                 'goalStatus': 'active', 'updatedAt': finished})
             return job
         save(root/'monitor/activity.json', {
-            'title': f'三路製作、依序整合：已完成檢查{settled}／{len(progress["entries"])}題',
-            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；工作線完成本題即暫存續領，主路持續整合。',
+            'title': f'兩路製作、一路整合：已完成檢查{settled}／{len(progress["entries"])}題',
+            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；兩路完成本題即暫存續領，專職整合線持續核對，主代理保留回應與機動。',
             'goalStatus': 'active', 'updatedAt': finished})
         return job
 

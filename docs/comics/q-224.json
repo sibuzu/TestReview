@@ -77,8 +77,37 @@
   },
   "artSHA256": "f9fd0bd899264b025494c20160dce615ec54cb25c0279602968f196f0054864b",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T04:56:43.540669+00:00",
+  "checkedAt": "2026-10-29T05:53:46.175788+00:00",
   "completedAt": "2026-10-29T04:56:43.540669+00:00",
   "layoutEvidence": "docs/comics/q-224-preview-validation.json",
-  "visualReview": "實看1440/1120/390：A/B與B/C兩次同側內角70/110在正確角域，五邊形A連C/D確分三角形，D未被當四邊形角。SVG標字和540未裁切；雙欄同行等高、手機自然高無溢出。"
+  "visualReview": "實看1440/1120/390：A/B與B/C兩次同側內角70/110在正確角域，五邊形A連C/D確分三角形，D未被當四邊形角。SVG標字和540未裁切；雙欄同行等高、手機自然高無溢出。",
+  "nativeArt": "assets/comics/q-224-art-f9fd0bd899.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T05:53:45.910939+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見兩組平行AB/CD與AE/BC、五頂點B70/E140。兩次同側內角A/C110，三角剖分總540，D110；不把五邊形當平四，正式桌手機角域/三剖分實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "independentCheck": "docs/comics/integration-lane3-214-224-independent-check.json",
+    "formalValidation": "docs/comics/q-224-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-224-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-224-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-224-validation.json"
 }

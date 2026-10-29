@@ -1,0 +1,44 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "平行四邊形相鄰邊和，正好是一條大三角形邊",
+    "art": "assets/comics/q-220-art-cf217c995c.svg",
+    "panels": [
+      {
+        "heading": "① 平行線讓△BFD也成正三角形",
+        "text": "BF在BA上，BD在BC上，FD平行AC，所以△BFD的三個角都是60°。因此BF＝BD＝DF，先把這組相等短邊找出來。",
+        "alt": "精確等邊ABC內部D取BC的0.4位置作示意，BFD淡綠、三邊同綠並標60度，F/E不交換，不把D當固定中點。"
+      },
+      {
+        "heading": "② 用AE＝BF，把相鄰邊拼回AB",
+        "text": "AF平行DE、AE平行DF，AFDE為平行四邊形，對邊相等，AE＝DF。結合前格，AE＝DF＝BF，因此AF＋AE＝AF＋BF＝AB。",
+        "alt": "相同座標以AF/DE藍色與AE/DF綠色分辨兩組對邊，BF也綠色，AF加BF正好完整AB；相鄰邊長3.6/2.4不同，非菱形假設。"
+      },
+      {
+        "heading": "③ 12是兩份AB，先求出一份AB",
+        "text": "12＝2(AF＋AE)＝2AB，所以AB＝6公分。△ABC三邊都等於AB，周長就是3×6＝18公分，選A。",
+        "alt": "兩份同長6的條帶合12，三份同長6合18；每份藍綠分段仍保持相鄰邊比例，只表示已推得的AB，不把12當單邊。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 A：18公分",
+      "points": [
+        "△BFD正三角形，BF＝DF。",
+        "平行四邊形AE＝DF，所以AF＋AE＝AB。",
+        "12＝2AB，AB＝6；大三角形周長＝18。"
+      ]
+    },
+    "protectedWords": [
+      "△BFD",
+      "正三角形",
+      "平行四邊形",
+      "BF＝BD＝DF",
+      "AE＝DF＝BF",
+      "AF＋AE",
+      "AF＋BF",
+      "AB",
+      "12公分",
+      "18公分"
+    ]
+  }
+}

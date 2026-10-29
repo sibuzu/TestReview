@@ -1,0 +1,93 @@
+{
+  "id": "q-583",
+  "subject": "History",
+  "title": "石門附近的人文行程，找不宜就近的一項",
+  "art": "docs/comics/art/q-583.svg",
+  "protectedWords": [
+    "石門",
+    "長濱文化",
+    "八仙洞",
+    "臺東長濱",
+    "圓山文化",
+    "十三行文化",
+    "大坌坑文化",
+    "八里",
+    "就近",
+    "不宜"
+  ],
+  "panels": [
+    {
+      "heading": "① 先定位活動地點：新北石門",
+      "text": "共同題文說風箏節在新北市石門區。橙點標在臺灣本島北端一帶。題目要找放完風箏後就近安排，卻又不宜列入的文化行程。",
+      "alt": "臺灣本島簡化定位圖，北端橙點為石門；程式定位、不生成地名，非精密海岸線或交通路線。"
+    },
+    {
+      "heading": "② 圓山、十三行、大坌坑在北部",
+      "text": "本格放大北部：橙點仍是石門；藍點代表臺北圓山，以及新北八里的十三行、大坌坑代表遺址。B、C、D都屬北部，較符合題目的相對就近。",
+      "alt": "北部概略定位放大，三藍點的相對區位固定，十三行與大坌坑鄰近；不以此圖計算車程或宣稱文化僅分布該點。"
+    },
+    {
+      "heading": "③ 長濱在臺東，離石門較遠",
+      "text": "紅點是臺東長濱一帶，長濱文化的代表遺址八仙洞在這裡。相較其他北部選項，A最不符合就近，因此是本題要選的不宜行程。",
+      "alt": "同一臺灣本島概略圖保留北端橙點與東部長濱紅點，直觀比較區位；無虛構行車路線、公里數、時間或年代。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：長濱文化",
+    "points": [
+      "先找共同題文的石門位置。",
+      "圈清楚就近與不宜兩個條件。",
+      "比代表遺址區位，不是在比文化年代。"
+    ]
+  },
+  "rationale": "實看第46題與共同閱讀材料，四選項/石門/否定詞已核對，維持A。官方文化資產及新北十三行博物館資料核對八仙洞臺東長濱、十三行大坌坑八里；圓山臺北。無合適既有AI圖，採可核對SVG概略定位避免模型錯畫地圖，文化分布以代表遺址說明、不把單點當唯一範圍；不新增實際車程或旅遊推薦。",
+  "generationMethod": "programmatic SVG for simplified regional site-localization map",
+  "generatorFile": "docs/comics/q-583-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-583-source-7ba066159c.jpg",
+    "site/dist/assets/questions/q-583-source-material-91b866b433.jpg",
+    "site/dist/sources/gemini-SGQGiTFXRSh7.txt 第46題"
+  ],
+  "sources": [
+    {
+      "url": "https://nhsrc.boch.gov.tw/SiteDetail?id=20060501000007",
+      "note": "文化部國家考古遺址出土遺物典藏官方頁：八仙洞，臺東長濱，長濱文化。"
+    },
+    {
+      "url": "https://sshm.vm.ntpc.gov.tw/ntp_park",
+      "note": "十三行博物館官方頁：十三行遺址八里河口海岸平原、大坌坑八里觀音山麓。"
+    },
+    {
+      "url": "https://nhsrc.boch.gov.tw/SiteDetail?id=20060501000002",
+      "note": "官方圓山遺址主題頁/國定遺址查詢顯示臺北市中山區，核對代表遺址在北部。"
+    }
+  ],
+  "answerCheckedAgainst": "臺東長濱八仙洞相對北部石門最遠一組，A不宜就近；B臺北C/D八里為北部，不按年代判斷。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-28T23:29:39.074726+00:00",
+  "artSha256": "ef24caf925677b933ae9e622a635a78638899952f8050de77caf89da4bffe7c6",
+  "checkedAt": "2026-10-28T23:34:12.509561+00:00",
+  "validationFile": "docs/comics/q-583-validation.json",
+  "nativeArt": "assets/comics/q-583-art-ef24caf925.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:34:12.481382+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看46題四文化選項與石門風箏節共同材料，否定/就近條件完整。SVG概略區位以北端橙點、北部代表遺址藍點、臺東長濱紅點比相對位置，不冒充交通路線或文化唯一分布，維持A；桌手機無溢出。"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-078",
+  "subject": "History",
+  "title": "用格拉納達定位伊比利半島",
+  "art": "docs/comics/art/q-078.png",
+  "startedAt": "2026-10-28T22:15:34.527114+00:00",
+  "generationStartedAt": "2026-10-28T22:16:52.401Z",
+  "generationCompletedAt": "2026-10-28T22:17:16.386Z",
+  "panels": [
+    {
+      "heading": "① 先抓跨海與半島的線索",
+      "text": "文章從北非摩爾人跨海到歐洲說起，接著描述在同一半島上的長期對抗。不能只看到宗教戰爭，就任選地中海周邊的區域。",
+      "alt": "北非與歐洲間跨海的概念情境，非精確航線、城鎮或8世紀場景考證；地理作答仍用原卷地圖。"
+    },
+    {
+      "heading": "② 最強定位詞：格拉納達",
+      "text": "格拉納達在伊比利半島南部，是文中最後據點。1492年該地被基督教勢力攻陷，與題文的收復失地運動相連。",
+      "alt": "安達魯西亞格拉納達紅色宮堡與內華達山脈情境，用於記憶最後據點；非1492年戰役現場或精確歷史復原。"
+    },
+    {
+      "heading": "③ 回到原圖，找歐洲西南端",
+      "text": "原圖甲位在伊比利半島。乙在義大利一帶、丙在希臘一帶、丁在小亞細亞一帶，都比甲偏東，不能因都靠近地中海就混為一處。",
+      "alt": "現代學生與老師比較閱讀及地理作業，圖中紙面不承擔精確地圖；甲乙丙丁位置依原卷必要附圖查核。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：甲，伊比利半島",
+    "points": [
+      "文章專名：格拉納達。",
+      "地理線索：歐洲西南端的伊比利半島。",
+      "時間線索：1492年最後據點陷落，不是把所有宗教戰爭統稱收復失地運動。"
+    ]
+  },
+  "protectedWords": [
+    "格拉納達",
+    "伊比利半島",
+    "收復失地運動",
+    "1492年",
+    "義大利",
+    "小亞細亞",
+    "地中海",
+    "摩爾人"
+  ],
+  "rationale": "完整閱讀原卷、21題四選項及甲乙丙丁地圖已實看，維持A。新情境圖建立北非跨海→格拉納達→原圖定位記憶；不讓imagegen畫精確地圖或把圖片當地理證據，原題必要地圖保留。歷史宮堡與船皆概念情境而非特定年代建築/船隻復原。",
+  "promptSummary": "內建imagegen三等分：中世紀跨海概念、格拉納達宮堡、現代課堂讀文對照原圖；無文字、精確地圖或戰爭勝利符號。",
+  "answerCheckedAgainst": "三張原卷含完整文章與必要地圖；既有確認A；西班牙文化部與官方觀光局核對格拉納達及1492年。",
+  "officialReferences": [
+    {
+      "url": "https://www.cultura.gob.es/cultura/areas/patrimonio/mc/patrimoniomundial/bienes-declarados/recorrido-historico.html",
+      "finding": "伊比利半島長期基督教與伊斯蘭勢力戰爭，至1492年格拉納達被征服。"
+    },
+    {
+      "url": "https://www.spain.info/en/destination/granada/",
+      "finding": "格拉納達在1492年成為最後被天主教君主征服的城市，阿爾罕布拉為當地重要宮堡。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-078-reading-source-ccaf73dd0d.jpg",
+      "site/dist/assets/questions/q-078-source-b156b355e8.jpg",
+      "site/dist/assets/questions/q-078-figure-5ee7fdadd7.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "完整文章格拉納達/1492/北非至歐洲及原圖甲半島西南端可辨。新圖不替代原圖、不添加時序與宗教全稱。"
+  },
+  "artSHA256": "b7dcd3f675225c0ca8f192a517cfdaf5b6416e070b2423562d2ebc15f672b43a",
+  "completedAt": "2026-10-28T22:18:18.811231+00:00",
+  "checkedAt": "2026-10-28T22:21:55.049032+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-078-preview-validation.json",
+  "visualReview": "實看2172×724原生產圖及1440/390預覽：三等分場景完整，船不帶精確航線、宮堡不帶年代標籤、課堂紙不造假地圖。答案及定位文字HTML清楚，保護半島/城市完整詞，三寬無橫溢出；桌機同列等高、手機自然高。",
+  "nativeArt": "assets/comics/q-078-art-b7dcd3f675-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-078-validation.json"
+}

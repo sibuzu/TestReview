@@ -1,14 +1,29 @@
 {
   "id": "q-255",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T14:47:49.736393+00:00",
-  "answer": "D",
-  "figures": [
+  "reason": "已實看來源總統／帝制雙格對照，圖說標示企圖稱帝，符合D答與共和限定語，保留既有圖不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:04:18.794940+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-255-reading-3e17ba5ce9.jpg",
+      "sha256": "3e17ba5ce91ab28e888ad32dbe3c07a5146a0815435d014b59f2223840b6e535",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-255-source-2b36410c67.jpg",
+      "sha256": "2b36410c673bc2be422a1b50b8d7872486cb1ed4ffbce9cda2f0bce39bfaa7e5",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-255-source-ai-56535f8966.png",
       "sha256": "56535f8966bef5b04a9e0e7e489b4fc445c3302fe0fbd670d4307a928f7b899c",
       "visualChecked": true
     }
   ],
-  "reason": "已讀全文與D答並查看來源雙格圖。左側總統職位、右側帝制象徵及批評氣氛可區分，既有圖說明示後來企圖稱帝，不當作正式登基實景或服飾考據。詳解已區分共和元首與改行帝制，保留既有圖。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-255/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

@@ -1,14 +1,24 @@
 {
   "id": "q-258",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T16:03:39.851933+00:00",
-  "answer": "C",
-  "figures": [
+  "reason": "實看原表、四選項與AI雙格，掌權與外交施壓情境符合C的部分條件，圖說非實景，保留不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T21:49:33.132789+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-258-source-899b8f2f5d.jpg",
+      "sha256": "899b8f2f5d416800838f5303a12b2f81507df6ad444d2207aebe8409b5d4d2b0",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-258-source-ai-49ed7d4459.png",
       "sha256": "49ed7d4459b99218ae933ee37ba68a7be02b309e1a6e25446d1f600fb526eec3",
       "visualChecked": true
     }
   ],
-  "reason": "實看原表袁世凱經歷與四選項，C為1915年接受二十一條部分條件；現有雙格AI圖對照袁掌權與外交施壓，沒有把全部要求視為原樣接受的文字，也沒有1917參戰或廣州軍政府的錯誤場景。原圖說明示非實際談判現場，保留不重製。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-258/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

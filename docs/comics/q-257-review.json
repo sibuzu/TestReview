@@ -1,14 +1,29 @@
 {
   "id": "q-257",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T15:56:23.933019+00:00",
-  "answer": "D",
-  "figures": [
+  "reason": "實看原漫畫紀年、修補鼎足與AI雙格圖，核對修補後的護法考驗D；既有圖為象徵且無錯誤年代，保留不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:01:01.927911+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-257-source-ad37f3b385.jpg",
+      "sha256": "ad37f3b385e46f2c1fda48ac0ef89cbe50a1c45bee644f6d163d073dc996238c",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-257-figure-c2ef5e8165.jpg",
+      "sha256": "c2ef5e816520a92761f15d97d6d720c158530bf7a33eb9f56045cb87a355c210",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-257-source-ai-a5199aaca8.png",
       "sha256": "a5199aaca82d8207b84a4cb6e76c63fc29c67f0b7e6d0ca306cf1b9aa8bdbf81",
       "visualChecked": true
     }
   ],
-  "reason": "實看原漫畫民國五年七月與修補鼎足，1916年7月在袁逝世與二次革命之後，選後續法統受阻的D。現有AI雙格以修補鼎足、軍人阻擋法統書冊表達修復後再遭阻礙，無錯誤年代標籤；原圖說已明示象徵而非實景，配合正文辨時序，保留不重製。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-257/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

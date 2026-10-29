@@ -1,14 +1,29 @@
 {
   "id": "q-253",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T13:04:01.373192+00:00",
-  "answer": "B",
-  "figures": [
+  "reason": "已讀1917～1925建政文章並實看原AI圖，孫中山與軍閥對照符合B答，圖說未冒稱歷史照片，保留不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:04:18.794940+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-253-reading-6058f42672.jpg",
+      "sha256": "6058f42672d4e6b64c245924a375e3930b0c6c33c3abac272ca7cd2b7bcaa2e6",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-253-source-b54ee1dbbb.jpg",
+      "sha256": "b54ee1dbbb894600c35f81c1ceefae3adc42c4efde7e226fd0ec5549ca0dcd78",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-253-source-ai-6435041459.png",
       "sha256": "6435041459bd66728ab298a87fbaeb30ed6b13af9fbb3c45741ec4c52defac63",
       "visualChecked": true
     }
   ],
-  "reason": "已讀完整1917～1925建政文章並查看來源圖。圖以孫中山與各據一方的軍閥作對照，未錯標對抗清朝或袁世凱，圖說也明示概念示意而非歷史照片。原詳解已按年代及北方／南方軍閥線索排除選項，保留既有合適圖，無需重製。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-253/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

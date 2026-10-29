@@ -1,14 +1,29 @@
 {
   "id": "q-259",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T16:14:28.838580+00:00",
-  "answer": "B",
-  "figures": [
+  "reason": "實看原郵票與五四名稱，學生抗議／維護國權概念雙格符合B且未混入其他年代，保留既有圖。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T21:31:02.156398+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-259-source-c18387197a.jpg",
+      "sha256": "c18387197a69c22432fc289eaabe830ba00448fe7100377e1d27e41846f075c2",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-259-figure-4d54f91a23.jpg",
+      "sha256": "4d54f91a235df22e632b0107b157705b1e640f91870ac583f8b619b3ec21e498",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-259-source-ai-9c0c232675.png",
       "sha256": "9c0c2326750c36a9773a9e6c043e6cb8ef7f8cd2b9c1dbcbf64f768f35e739c7",
       "visualChecked": true
     }
   ],
-  "reason": "實看原題郵票可辨五四運動，主題是爭取主權B；既有AI雙格呈現學生抗議及拒簽損害國權和約，與正文1919年脈絡一致。沒有國共抗日、辛亥推翻帝制或軍事統一的錯誤標籤，圖說已明示概念場景，保留不重製；以事件而非郵票發行年代判讀。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-259/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

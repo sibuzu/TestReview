@@ -1,0 +1,94 @@
+{
+  "id": "q-584",
+  "subject": "History",
+  "title": "兩步定位理加：十七世紀＋新港社",
+  "art": "docs/comics/art/q-584-v3.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:28:22.838174+00:00",
+  "panels": [
+    {
+      "heading": "① 荷蘭在臺活動，先鎖定世紀",
+      "text": "文中有荷蘭聯合東印度公司、臺灣長官、日本商船及江戶幕府。這些線索連到荷蘭在臺灣活動的十七世紀。",
+      "alt": "十七世紀臺灣沿岸城堡/商船的輔助情境，不是精確熱蘭遮城重建圖，也不只憑船型或建築斷定年代。"
+    },
+    {
+      "heading": "② 理加是新港社長老",
+      "text": "理加曾參與日荷衝突，後來以新港社首席代表出席地方會議。人物與部落這條線索，對應的是新港社，不是麻豆、大肚或牡丹社。",
+      "alt": "新港社長老角色的概念形象，不是有可驗證肖像的理加本人，不借用特定族服作唯一身分判據。"
+    },
+    {
+      "heading": "③ 稱號不等於統治全臺",
+      "text": "文中「福爾摩沙之王」是事件中的稱號，不能據此認定理加實際統治整個臺灣。作答要把十七世紀與新港社兩條證據合起來。",
+      "alt": "長老以部落代表參與地方會議的局部想像，不畫帝王王冠/全臺疆域或宣稱他統治全島，未捏造確切會議人數。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 兩步定位理加：十七世紀＋新港社",
+    "answer": "答案 B：十七世紀的新港社人",
+    "points": [
+      "時代線索：荷蘭在臺、日荷衝突。",
+      "人物線索：新港社長老理加。",
+      "先配時代，再配部落，不只看王的稱號。"
+    ]
+  },
+  "protectedWords": [
+    "理加",
+    "十七世紀",
+    "新港社",
+    "荷蘭",
+    "東印度公司",
+    "臺灣長官",
+    "日本商船",
+    "江戶幕府",
+    "日荷衝突",
+    "地方會議",
+    "首席代表",
+    "福爾摩沙之王",
+    "統治全臺"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-584-source-09185e36a0.jpg",
+    "site/dist/assets/questions/q-584-source-material-4e27630ba6.jpg"
+  ],
+  "originalVisualCheck": "實看第47題四選項及完整共同材料理加赴日/日荷事件/地方會議，原卷B與既有核對一致；材料人數/稱號照留，不做新人物身世推定。",
+  "answerCheckedAgainst": "臺南文化機關《熱蘭遮市鎮現地教學課程》P12-13原站全文實讀：理加為新港社長老，1627事件、1641及1644-1648地方會議，明確十七世紀與新港社，B。",
+  "references": [
+    {
+      "title": "臺南文化機關：熱蘭遮市鎮現地教學課程－理加與荷人征伐原住民村社",
+      "url": "https://tmach-culture.tainan.gov.tw/warehouse/8ACA968A-B9EF-4EAB-8A90-DF912B2D5887/7766AD13-858B-469F-B6BC-5B8716B80668.pdf",
+      "pages": "12-13"
+    }
+  ],
+  "rationale": "沿岸荷蘭時期情境/新港長老/地方會議三格配年代與部落定位，角色與衣物皆示意而非史料肖像，不把福爾摩沙之王畫成實際全臺君主。原卷已完整，不自行改人數或稱號。",
+  "promptPath": "docs/comics/q-584-prompt.txt",
+  "generationCalls": 3,
+  "visualChecked": true,
+  "artSHA256": "21f1d88d6dfcb7739b7d95070f42b3694098b93d1ae0cce3d3be98275b4c50e6",
+  "editPromptPath": "docs/comics/q-584-edit-prompt.txt",
+  "iterationReason": "初稿左格船桅小旗有未據史料的紅色記號，第一次編輯已去除記號但留下中性白布；第二次要求移除布，最終仍有極小無字無國徽白布，不作國籍或投降事件判據。",
+  "checkedAt": "2026-10-28T23:38:54.962635+00:00",
+  "completedAt": "2026-10-28T23:35:21.451660+00:00",
+  "layoutEvidence": "docs/comics/q-584-preview-validation.json",
+  "visualReview": "實看v3與1440/1120/390：沿岸城堡/新港長老概念/地方會議局部，未畫王冠/全臺統治。初稿國別紅記號已去，極小白布仍在且不作史料或事件判據。B十七世紀新港社與HTML完整，無橫溢/保護詞斷裂，同列等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-584-art-21f1d88d6d-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:38:54.934667+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看47題與理加完整赴日/日荷衝突/地方會議材料，維持十七世紀新港社B。最終v3新圖長老未戴帝王冠、會議無全臺統治疆界；船上小白布非國別旗，不作國籍或投降證據。桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-584-validation.json"
+}

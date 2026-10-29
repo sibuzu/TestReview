@@ -1,0 +1,105 @@
+{
+  "id": "q-580",
+  "subject": "History",
+  "title": "先用1884至1885年的明確年代排除",
+  "art": "docs/comics/art/q-580.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:24:19.367835+00:00",
+  "panels": [
+    {
+      "heading": "① 1884年創刊，翌年就是1885年",
+      "text": "題目明說述報在1884年創刊，翌年結束。先把發行期間轉成1884～1885年，這個明確時間可直接拿來篩選事件。",
+      "alt": "題給年分1884創刊、1885翌年結束的年度順序；不把光緒十年三月直接畫成國曆三月或假定起訖月份。"
+    },
+    {
+      "heading": "② 清法戰爭的臺灣戰事與期間相符",
+      "text": "1884～1885年的清法戰事，符合題目報紙發行期間，選B。劉省三即劉銘傳、文中談電報聯絡，則可作輔助背景線索。",
+      "alt": "按年份示意述報1884/1885與臺灣清法戰事同段，不畫出具體月日或宣稱整場戰爭所有階段都只在此兩年。"
+    },
+    {
+      "heading": "③ 其他三件事都發生得更早",
+      "text": "英法聯軍在1850年代後期至1860年；戴潮春事件在1860年代；牡丹社事件在1874年。都早於1884年，與報紙發行期間不合。",
+      "alt": "三個較早事件以卡片列出，未畫等距時間軸造成錯誤年距；不額外爭論戴潮春平定範圍的結束年份。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：清法戰爭",
+    "points": [
+      "抓到明確年分，先用1884～1885年排除。",
+      "人物與電報建設可輔助核對背景。",
+      "題目提供農曆月份，保留原說法，不自行換成國曆月份。"
+    ]
+  },
+  "protectedWords": [
+    "1884年",
+    "1885年",
+    "1884～1885年",
+    "清法戰爭",
+    "清法戰事",
+    "劉省三",
+    "劉銘傳",
+    "戴潮春事件",
+    "牡丹社事件",
+    "英法聯軍",
+    "1860年代",
+    "1874年",
+    "述報",
+    "1850年代後期",
+    "1860年"
+  ],
+  "rationale": "原卷38題引文、1884創刊翌年結束與四選項實看，維持B。精確SVG年度範圍與兩排年份相符，排除早期事件，不畫無關戰爭場面或將農曆三月誤換國曆。第二格特稱臺灣清法戰事1884–85，避免把更廣戰爭定義全部限制在二年。",
+  "promptSummary": "原生SVG年度先後、述報/臺灣清法戰事1884至1885對照、三個早期事件卡片，不做不等年份等距時間軸。",
+  "answerCheckedAgainst": "原卷完整38題；既有B；國立臺灣歷史博物館1884–1885清法臺灣戰事、國史館牡丹社1874、官方戴潮春1860年代資料。",
+  "officialReferences": [
+    {
+      "url": "https://taiwanoverseas.nmth.gov.tw/research/19%E4%B8%96%E7%B4%80%E6%AD%90%E7%BE%8E%E6%97%A5%E8%A6%96%E8%A7%92%E4%B8%8B%E7%9A%84%E7%A6%8F%E7%88%BE%E6%91%A9%E6%B2%99",
+      "finding": "清法臺灣戰事及法軍遠征福爾摩沙材料為1884–1885年。"
+    },
+    {
+      "url": "https://www.th.gov.tw/News_Content/35/6252/",
+      "finding": "牡丹社事件1874年日本出兵，早於1884。"
+    },
+    {
+      "url": "https://daap.ly.gov.tw/tw/daap/125-3997.html",
+      "finding": "戴潮春事件在1860年代；不同平定範圍年限不影響本題排除。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-580-source-efdc982193.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "光緒十年(1884)三月創刊/翌年結束/同年九月引文與全部四選項核對；新圖只使用年度，不猜報紙停止月日。"
+  },
+  "artSHA256": "8b01eca0953bdfe966da9742bd8da1e1092367ec35028562780e2062dffc7e12",
+  "completedAt": "2026-10-28T23:28:39.309161+00:00",
+  "checkedAt": "2026-10-28T23:32:45.975622+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-580-preview-validation.json",
+  "visualReview": "實看原生540×180及1440/390最終預覽：1884→1885原題年序與發行/臺灣清法戰事兩排年分相符，另三事件卡片均早於1884，不用等距誤比年代。不猜月日、非宣稱戰爭更廣階段僅二年；補1850年代後期/1860年完整詞再QA實看，三寬無溢出與版型問題。",
+  "nativeArt": "assets/comics/q-580-art-8b01eca095.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:32:45.925603+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷38題完整引文/1884年創刊翌年結束與四選項，維持B。SVG年度對照相符，其他事件卡片皆較早且未用錯等距時間軸；無農曆轉國曆月份，未把全部戰爭所有階段限縮兩年；桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-580-validation.json"
+}

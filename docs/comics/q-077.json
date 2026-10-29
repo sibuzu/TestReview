@@ -1,0 +1,91 @@
+{
+  "id": "q-077",
+  "subject": "History",
+  "title": "大流士與御道，先辨認波斯帝國",
+  "art": "docs/comics/art/q-077-v2.png",
+  "protectedWords": [
+    "大流士一世",
+    "波斯帝國",
+    "御道",
+    "薩第斯",
+    "蘇薩",
+    "巴比倫",
+    "巴格達",
+    "85公里",
+    "亞歷山大",
+    "西元前5世紀",
+    "原題括注",
+    "兩城",
+    "同一座城市"
+  ],
+  "panels": [
+    {
+      "heading": "① 人物與年代，先鎖定波斯",
+      "text": "大流士一世是波斯帝國君主，題幹的西元前5世紀也符合其時代。先抓這兩個線索，不要把他和後來征服波斯的亞歷山大混為一人。",
+      "alt": "泛指古波斯行政驛傳情境，無具名大流士肖像或未證實的接見事件。"
+    },
+    {
+      "heading": "② 御道連結領土，協助傳遞訊息",
+      "text": "薩第斯在小亞細亞，蘇薩在今伊朗。題目描述道路整合與信差傳訊，符合波斯治理廣大領土的背景；不必只靠路線細節猜帝國。",
+      "alt": "泛指西亞道路與信差，不生成精確御道路線或帶現代巴格達建築的古代城市。"
+    },
+    {
+      "heading": "③ 原題括注須分清兩座城市",
+      "text": "UNESCO列明巴比倫遺址在巴格達以南約85公里，並非同一座城市。原題括注不精確，兩城應分開辨認；這不改變本題波斯帝國的答案。",
+      "alt": "現代讀者比較兩個不同地名的學習情境，不畫成古巴比倫就是巴格達的城市換名。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案仍為 A：波斯帝國",
+    "points": [
+      "大流士一世、御道是本題直接線索。",
+      "亞歷山大較晚，不能與較早波斯君主混淆。",
+      "古巴比倫與現代巴格達應分開辨認。"
+    ]
+  },
+  "rationale": "實看第2題原卷全部四選項，地名括注明確原印巴比倫（今伊拉克巴格達），不是OCR；讀Monitor未見既有q077確認。Met館方年表核對Darius與薩第斯-蘇薩御道，A不變；UNESCO官方頁正文英中均明載Babylon遺址位於Baghdad以南85km，原題括注不精確需由root列Monitor。原題保留，插畫不生成路線地圖或古今城市等同，泛指信差/道路非具名史實接見。新圖文待此補充確認，不擅改已核對A。 初稿騎具疑有後世馬鐙，已用imagegen移除馬鐙與現代鞍片，僅留簡單墊與自然垂腿。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-077-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-077-source-447290c8e3.jpg"
+  ],
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/wai.html",
+      "note": "Met官方年表559–486BCE項：Darius I 522–486BCE，Royal Road Sardis至Susa。"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/278/",
+      "note": "UNESCO官方Babylon頁開頭：遺址在Baghdad以南85km，不是同一座城市。"
+    }
+  ],
+  "answerCheckedAgainst": "A保持；需確認原題古巴比倫/現代巴格達括注的補充更正，不涉及換答案。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "c3c4cccf2ab0cfee7d60c192f348b7a86c49829a9fc493a2431550380e0ca437",
+  "createdAt": "2026-10-28T22:18:46.082413+00:00",
+  "editPromptFile": "docs/comics/q-077-edit-prompt.txt",
+  "checkedAt": "2026-10-28T23:30:15.126714+00:00",
+  "validationFile": "docs/comics/q-077-validation.json",
+  "nativeArt": "assets/comics/q-077-art-c3c4cccf2a-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:30:15.098232+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "使用者已確認地名釐清；本輪驗題幹SHA仍相同、圖檔與已審稿相同，重跑6項正式QA並實看桌手機。A與原題照留，v2無馬鐙；依核准說明完成整合。"
+  }
+}

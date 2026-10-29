@@ -1,0 +1,69 @@
+[
+  {
+    "id": "gemini063-page01-q02-tree-hierarchy",
+    "candidateId": "gemini063-page01-q02",
+    "questionId": null,
+    "title": "理化第2題｜純氣體的分類樹與化合物例子",
+    "questionText": "阿彥將氣體分類如右圖所示，並在每一分類各舉出一個例子。關於其中甲、乙、丙、丁所填入的內容，下列何者合理？\n\n(A) 甲是雙原子，丙是臭氧\n(B) 甲是多原子，丙是甲烷\n(C) 乙是混合物，丁是空氣\n(D) 乙是化合物，丁是氨氣",
+    "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+    "originalImages": [
+      "docs/imports/new-gemini/gemini063/assets/page01-q02.jpg"
+    ],
+    "before": "原AI開頭稱純物質分甲元素與乙化合物。",
+    "after": "按原卷樹狀分支，純物質分甲（雙原子或多原子分子）與單原子，甲再分元素與乙化合物；D不變。",
+    "reason": "原AI將不同層級誤作同一層，需依完整原印樹狀圖讀取。",
+    "state": "awaiting_integrator_qid_and_monitor_registration"
+  },
+  {
+    "id": "gemini063-page05-q15-periodic-location",
+    "candidateId": "gemini063-page05-q15",
+    "questionId": null,
+    "title": "理化第15題｜由週期表位置比較原子序",
+    "questionText": "右圖為週期表的示意圖，請根據週期表的規律，判斷圖中元素甲、乙、丙、丁、戊的原子序大小關係為何？\n\n(A) 甲＞乙＞丙＞丁＞戊\n(B) 乙＞戊＞丁＞丙＞甲\n(C) 丁＞丙＞戊＞乙＞甲\n(D) 甲＞丙＞丁＞戊＞乙",
+    "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+    "originalImages": [
+      "docs/imports/new-gemini/gemini063/assets/page05-q15.jpg"
+    ],
+    "before": "原AI稱戊在第3週期第18族。",
+    "after": "原印圖戊位於丙下方的第17族；依週期排序仍B，不改原題與字母。",
+    "reason": "戊欄位依原圖定位，避免教錯族別。",
+    "state": "awaiting_integrator_qid_and_monitor_registration"
+  },
+  {
+    "id": "gemini063-page07-q05-ai-option-swapped",
+    "candidateId": "gemini063-page07-q05",
+    "questionId": null,
+    "title": "理化第5題｜普利士力加熱氧化汞的實驗現象",
+    "questionText": "英國科學家卜利士力在1774年所設計氧化汞分解實驗中，他以凸透鏡聚光照射在紅色的氧化汞上使其分解，產生氧氣和汞。右圖為模擬的實驗設計，請問在光照射過後可能會看到以下哪一個實驗結果？\n\n(A) 液面下降，紅色部分變少\n(B) 液面下降，紅色部分變多\n(C) 液面上升，紅色部分變少\n(D) 液面上升，紅色部分變多",
+    "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+    "originalImages": [
+      "docs/imports/new-gemini/gemini063/assets/page07-q05.jpg"
+    ],
+    "before": "原AI稱液面下降/紅色變少是D，與紅筆A矛盾。",
+    "after": "原卷A就是液面下降/紅少；D是液面上升/紅多。用A，現象推導不變。",
+    "reason": "原AI轉錄選項字母與內容錯置；需以原卷四選項為準。",
+    "state": "awaiting_integrator_qid_and_monitor_registration"
+  },
+  {
+    "id": "gemini063-page08-q11-liquid-type-missing",
+    "candidateId": "gemini063-page08-q11",
+    "questionId": null,
+    "title": "理化第11題｜沸騰加熱曲線的液體種類待核",
+    "questionText": "如果在加熱的過程中，每隔一段時間測量液體溫度，直到液體沸騰後5分鐘（尚未蒸發完），請問下列何者最可能是測量到的結果？\n\n(A) 如圖(A)\n(B) 如圖(B)\n(C) 如圖(C)\n(D) 如圖(D)",
+    "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+    "originalImages": [
+      "docs/imports/new-gemini/gemini063/assets/page08-q11.jpg"
+    ],
+    "questionFigures": [
+      {
+        "src": "docs/imports/new-gemini/gemini063/assets/page08-q11-graphs.jpg",
+        "alt": "原卷四條溫度對時間曲線：A先升後水平、B水平、C先較快升後緩升、D先降後水平，保留原紅筆筆記，沒有補畫數值或單位。",
+        "caption": "原卷四個圖形選項（保留原筆記）。"
+      }
+    ],
+    "before": "原AI稱原題強調尚未蒸乾的溶液/混合物，據此排A選C。",
+    "after": "原卷並未寫液體是混合物；A適用純液體沸騰平台，C可適用蒸發時濃度提高的溶液。原卷紅C保留，待補/確認液體種類，不能由尚未蒸發完推出混合物。",
+    "reason": "原AI加入原題不存在的液體種類前提，造成A/C無法僅靠可讀題文唯一排除。",
+    "state": "awaiting_integrator_qid_and_monitor_registration"
+  }
+]

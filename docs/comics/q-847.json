@@ -1,0 +1,81 @@
+{
+  "id": "q-847",
+  "subject": "Physics-Chemistry",
+  "title": "258是粒子個數和，不是258公克",
+  "art": "docs/comics/art/q-847-atomic-counts.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先讀左上、左下的數字",
+      "text": "鍆的原子符號左上258是質量數，左下101是原子序。質量數表示質子與中子的總個數，不是秤量所得的公克數。",
+      "alt": "新製鍆原子符號數字定位圖，258放左上、101放左下；A與Z分別標示質量數及原子序。"
+    },
+    {
+      "heading": "② 中子數要用相減",
+      "text": "原子序101表示有101個質子。從核內總數258扣掉101個質子，中子數就是157，所以選項C正確。",
+      "alt": "新製質子101加中子157合為258的粒子個數長條，兩段長度依101與157比例繪製，並列258減101等於157。"
+    },
+    {
+      "heading": "③ 中性原子，電子數等於質子數",
+      "text": "題目特別說中性不帶電，表示正電的質子數與負電的電子數相等。因此有101個電子，選項D正確。",
+      "alt": "新製中性原子的正負粒子個數對照，質子101與電子101相等；並非實際原子軌道圖。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 258是粒子個數和，不是258公克",
+    "answer": "答案 A：把質量數誤當成公克",
+    "points": [
+      "B正確：質量數為258。",
+      "C正確：中子數258−101＝157。",
+      "D正確：中性原子有101個電子。",
+      "A錯誤：質量數是個數和，沒有公克單位。"
+    ]
+  },
+  "protectedWords": [
+    "質量數",
+    "原子序",
+    "鍆原子",
+    "中性原子",
+    "中子數",
+    "質子數",
+    "電子數",
+    "公克數",
+    "質子",
+    "中子",
+    "電子",
+    "正電",
+    "負電",
+    "左上",
+    "左下"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini063-1cca1d34609e26.jpg"
+  ],
+  "originalVisualCheck": "實看正式原卷第18題，核對²⁵⁸₁₀₁Md、中性不帶電、四姓名/選項與紅筆A；258公克錯，質量數258、中子157、電子101正確。",
+  "answerCheckedAgainst": "正式題庫完整四選項與原卷獨立重算：Z=p=101，A=p+n=258，n=157，中性e=101；A為錯誤敘述。",
+  "rationale": "數字位置、總數分解及中性電子計數屬精確結構關係，原生SVG配可選取HTML比人物情境更清楚；不畫258個粒子、不把質量數當成實際質量，也不沿用來源AI圖。",
+  "generationCalls": 0,
+  "artSHA256": "f0abd15cff006e0edfa5bf0732f5b9d51372897a1bfb8495386339bf28e799ff",
+  "visualChecked": true,
+  "diagramChecks": {
+    "massNumber": 258,
+    "atomicNumber": 101,
+    "protons": 101,
+    "neutrons": 157,
+    "neutralElectrons": 101,
+    "selectedIncorrectOption": "A",
+    "massNumberHasGramUnit": false,
+    "barLengths": "101:157；僅個數比例，不是原子空間分布"
+  },
+  "timingEvidence": "docs/comics/q-847-timing.json",
+  "startedAt": "2026-10-29T08:51:17.038368+00:00",
+  "completedAt": "2026-10-29T08:54:58.746945+00:00",
+  "checkedAt": "2026-10-29T08:54:58.746945+00:00",
+  "layoutEvidence": "docs/comics/q-847-preview-validation.json",
+  "visualReview": "實看最終1440/1120/390隔離截圖：A258左上/Z101左下、質子101＋中子157個數比例、中性電子101，無誤當258公克；移除正負號間等號以免誤示電荷相等。桌機同欄同列符合、手機自然高度，質子/中子/正電/負電等保護詞未斷行，三寬無溢出，預設收合及圖載入通過。",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-847-1440.png",
+    "/tmp/weirugo-comic-previews/q-847-1120.png",
+    "/tmp/weirugo-comic-previews/q-847-390.png"
+  ]
+}

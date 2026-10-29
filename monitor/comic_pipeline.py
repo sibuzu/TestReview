@@ -6,6 +6,9 @@ from datetime import datetime, timezone
 import fcntl
 import json
 import os
+import socket
+import time
+import uuid
 from pathlib import Path
 from .comic_queue import SETTLED, next_entry
 
@@ -14,6 +17,26 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def now():
     return datetime.now(timezone.utc).isoformat()
+
+
+def ensure_job_identity(job):
+    """One identity per work attempt; reworking a question creates another job."""
+    job.setdefault('jobId', 'job-' + uuid.uuid4().hex)
+    return job['jobId']
+
+
+def integration_timing(job):
+    """UTC values remain labels; only same-host monotonic pairs measure time."""
+    end = time.monotonic_ns()
+    host = socket.gethostname()
+    start = job.get('integrationMonotonicStartNs')
+    valid = (isinstance(start, int) and job.get('integrationTimingHost') == host
+             and end >= start)
+    return dict(integrationMonotonicEndNs=end, integrationTimingEndHost=host,
+                integrationSeconds=(end-start)/1e9 if valid else None,
+                integrationTimingValid=valid,
+                integrationTimingMethod='monotonic' if valid else 'unavailable',
+                integrationTimingScope='begin through formal QA and integration bookkeeping; includes coordination and human visual review')
 
 
 def load(path):
@@ -52,9 +75,14 @@ def update_display(root, pipeline):
             lane.update(questionId=current['id'], title=current['title'], state='running', startedAt=current['startedAt'])
         elif lane.get('role') == 'integration':
             integrating = [j for j in pipeline['jobs'] if j['state'] == 'ready' and j.get('integrationStartedAt')]
-            lane.update(questionId=integrating[0]['id'] if integrating else None,
-                        title='、'.join(j['id'] for j in integrating) if integrating else '等待下一批整合',
-                        state='integrating' if integrating else 'preparing')
+            task = lane.get('activeTask')
+            if task:
+                lane.update(questionId=task.get('questionId'), title=task['title'],
+                            state=task.get('state', 'integrating'), startedAt=task.get('startedAt'))
+            else:
+                lane.update(questionId=integrating[0]['id'] if integrating else None,
+                            title='、'.join(j['id'] for j in integrating) if integrating else '等待下一批整合',
+                            state='integrating' if integrating else 'preparing')
         elif lane.get('role') == 'import':
             lane.update(questionId=None, title='新來源原卷取得、逐題核對與候選稿', state='importing')
         else:
@@ -74,6 +102,38 @@ def update_display(root, pipeline):
     save(root/'monitor/parallel.json', display)
 
 
+def integration_has_pending_work(root, pipeline, configuration):
+    """Staged art or handed-off questions take precedence over helping production."""
+    if any(job['state'] == 'ready' for job in pipeline['jobs']):
+        return True
+    owner = next((item for item in configuration.get('lanes', [])
+                  if item['lane'] == 1), {})
+    if owner.get('activeTask'):
+        return True
+    source_progress = root/'docs/imports/more-gemini-progress.json'
+    if not source_progress.exists():
+        return False
+    # Only active sources count. Cancelled source drafts remain as evidence,
+    # and must not prevent the integrator from helping with existing artwork.
+    for source in load(source_progress)['sources']:
+        if source.get('sourceCurationComplete') or source.get('doNotReimport'):
+            continue
+        directory = root/f'docs/imports/new-gemini/gemini{source["order"]:03}'
+        manifest_path = directory/'manifest.json'
+        if not manifest_path.exists():
+            continue
+        manifest = load(manifest_path)
+        ready = set(manifest.get('readyCandidates', []))
+        ready.update(group['groupKey'] for group in manifest.get('readyGroupedCandidates', []))
+        receipt_path = directory/'integrated.json'
+        receipt = load(receipt_path) if receipt_path.exists() else {}
+        received = {item['candidateId'] for item in receipt.get('mappings', [])}
+        received.update(item['candidateId'] for item in receipt.get('skippedCandidates', []))
+        if ready - received:
+            return True
+    return False
+
+
 def claim(root, lane):
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
@@ -82,7 +142,10 @@ def claim(root, lane):
             return existing
         configuration = load(root/'monitor/parallel.json')
         lane_configuration = next((item for item in configuration.get('lanes', []) if item['lane'] == lane), {})
-        if lane_configuration.get('role') in ('integration', 'import'):
+        if lane_configuration.get('role') == 'import':
+            return None
+        if lane_configuration.get('role') == 'integration' and (
+                lane != 1 or integration_has_pending_work(root, pipeline, configuration)):
             return None
         if pipeline.get('claimsPaused'):
             return None
@@ -103,6 +166,7 @@ def claim(root, lane):
             return None
         job = dict(id=candidate['id'], title=candidate['title'], subject=candidate['subject'], lane=lane,
                    state='claimed', startedAt=now())
+        ensure_job_identity(job)
         pipeline['jobs'].append(job)
         save(root/'docs/comics/pipeline.json', pipeline)
         update_display(root, pipeline)
@@ -135,15 +199,25 @@ def integrated(root, qid):
         pipeline = load(root/'docs/comics/pipeline.json')
         job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)
         assert job is not None
+        ensure_job_identity(job)
         finished = now()
         progress = load(root/'docs/comics/progress.json')
         entry = next(e for e in progress['entries'] if e['id'] == qid)
         integration_started = job.get('integrationStartedAt', finished)
+        timing = integration_timing(job)
+        queue_seconds = (datetime.fromisoformat(integration_started)-datetime.fromisoformat(job['readyAt'])).total_seconds()
+        utc_seconds = (datetime.fromisoformat(finished)-datetime.fromisoformat(integration_started)).total_seconds()
+        # Keep raw UTC evidence without treating it as a trustworthy interval.
+        timing.update(integrationUTCLabelDifferenceSeconds=utc_seconds,
+                      integrationUTCLabelsWentBackwards=utc_seconds < 0)
+        if utc_seconds < 0:
+            timing['originalReportedIntegrationSeconds'] = utc_seconds
         entry.update(state=job['decision'], reason=job['reason'], reviewStartedAt=job['startedAt'],
                      workerLane=job['lane'], workerReadyAt=job['readyAt'], completedAt=finished,
                      checkedAt=finished, visualChecked=True,
-                     integrationQueueSeconds=(datetime.fromisoformat(integration_started)-datetime.fromisoformat(job['readyAt'])).total_seconds(),
-                     integrationSeconds=(datetime.fromisoformat(finished)-datetime.fromisoformat(integration_started)).total_seconds())
+                     integrationQueueSeconds=queue_seconds if queue_seconds >= 0 else None,
+                     integrationQueueUTCLabelDifferenceSeconds=queue_seconds,
+                     integrationQueueTimingReliable=False, **timing)
         if job['decision'] == 'complete':
             spec_path = root/'docs/comics'/f'{qid}.json'
             spec = load(spec_path)
@@ -154,7 +228,12 @@ def integrated(root, qid):
                          questionUrl=f'https://monitor.sibuzu.com/site/index.html#question/{qid}')
         progress['updatedAt'] = finished
         save(root/'docs/comics/progress.json', progress)
-        job.update(state='integrated', integratedAt=finished, integrationQueueSeconds=entry['integrationQueueSeconds'], integrationSeconds=entry['integrationSeconds'])
+        job.update(state='integrated', integratedAt=finished,
+                   integrationQueueSeconds=entry['integrationQueueSeconds'], **timing)
+        # This event belongs to the job attempt, never to the question ID or UTC.
+        job.setdefault('integrationEventId', 'integration-' + job['jobId'])
+        pipeline['nextIntegrationSequence'] = pipeline.get('nextIntegrationSequence', 0) + 1
+        job.setdefault('integrationSequence', pipeline['nextIntegrationSequence'])
         save(root/'docs/comics/pipeline.json', pipeline)
         update_display(root, pipeline)
         counts = Counter(e['state'] for e in progress['entries'])
@@ -170,7 +249,7 @@ def integrated(root, qid):
             return job
         save(root/'monitor/activity.json', {
             'title': f'分工製作與整合：已完成檢查{settled}／{len(progress["entries"])}題',
-            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；新題整理、插畫製作與題庫整合依分工續作，主代理保留回應與派工。',
+            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、無需新漫畫{counts["not_suitable"]}題；插畫製作與題庫整合持續，主代理保留回應與派工。',
             'goalStatus': 'active', 'updatedAt': finished})
         return job
 
@@ -180,7 +259,13 @@ def begin(root, qid):
         pipeline = load(root/'docs/comics/pipeline.json')
         job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)
         assert job is not None
+        ensure_job_identity(job)
         job.setdefault('integrationStartedAt', now())
+        # Repeated begin is idempotent. Do not reset a genuine interval.
+        if 'integrationMonotonicStartNs' not in job:
+            job.update(integrationMonotonicStartNs=time.monotonic_ns(),
+                       integrationTimingHost=socket.gethostname(),
+                       integrationTimingScope='begin through formal QA and integration bookkeeping; includes coordination and human visual review')
         save(root/'docs/comics/pipeline.json', pipeline)
         update_display(root, pipeline)
         return job

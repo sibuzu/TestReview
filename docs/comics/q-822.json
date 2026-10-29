@@ -1,0 +1,129 @@
+{
+  "id": "q-822",
+  "subject": "History",
+  "title": "人口圖空白縮小，要連結晚清治理擴張",
+  "art": "docs/comics/art/q-822.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 比較1811與1893的空白區",
+      "text": "先回原題兩張人口密度圖：圖二空白區縮小。配合原卷閱讀提點，這是在說明清廷治理範圍向東部擴張；空白不是證明當地完全沒有人住。",
+      "alt": "全新師生比較抽象色塊紙張情境，不生成或替代原卷1811/1893臺灣行政人口地圖，實際範圍須回原圖。"
+    },
+    {
+      "heading": "② 外力壓力，促使晚清調整政策",
+      "text": "1874年日本出兵臺灣後，清廷感受到海防壓力。沈葆楨來臺，推動當時稱為開山撫番的政策與行政調整，逐步擴大對部分界外地區的治理，對應A。",
+      "alt": "全新匿名晚清人物以望遠鏡觀察遠海船隻，僅示意海防壓力，無特定人物、國旗或虛構戰鬥。"
+    },
+    {
+      "heading": "③ 對照的是治理變化，不只人口增加",
+      "text": "開路與設治等措施，要連到兩圖空白範圍的變化。施琅攻臺早於1811年，不能解釋1811至1893之間的差異；劃界封山也不符合擴大治理的方向。",
+      "alt": "全新匿名晚清人員在山區勘路情境，非特定路線測繪，不由生成圖決定疆界，也不呈現居民自動同意政策。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：外國勢力入侵，造成國防壓力",
+    "points": [
+      "先讀原圖與提點：空白縮小，治理範圍擴張。",
+      "外力壓力 → 晚清政策改變 → 擴大治理。",
+      "空白不等於無人居住，也不是單純人口自然增加。"
+    ]
+  },
+  "protectedWords": [
+    "1811年",
+    "1893年",
+    "1811",
+    "1893",
+    "1874年",
+    "日本出兵臺灣",
+    "清廷",
+    "沈葆楨",
+    "開山撫番",
+    "行政調整",
+    "界外地區",
+    "治理範圍",
+    "施琅攻臺",
+    "劃界封山",
+    "國防壓力"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini060-5de34db4dcfa59.jpg",
+      "site/dist/assets/questions/gemini060-1ac1462fb8f1ca.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/gemini060-d403272dac7c93.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見人口文章、1811/1893兩圖色階行政區白區、第4四項與紅A；不把空白直接當無人或重繪未知邊界。"
+  },
+  "sourceUrl": "https://share.gemini.google/2fl355A2cArZ",
+  "answerCheckedAgainst": "原卷閱讀提點及完整兩圖/四選項核A；國家公園官方1874事件善後及文化部1875開禁碑記支持外力與政策變化。",
+  "references": [
+    {
+      "title": "臺灣國家公園：牡丹社事件140週年紀念研討會",
+      "url": "https://www.taiwan.nps.gov.tw/home/zh-tw/news/25926.html",
+      "supports": "1874出兵、沈葆楨、防務及事後開山撫番行政調整",
+      "access": "官方主文已讀"
+    },
+    {
+      "title": "國家文化記憶庫：開闢後山舊例馳禁碑記拓本",
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=107000023693&indexCode=MOCCOLLECTIONS",
+      "supports": "1875開禁、東部開路與設治",
+      "access": "典藏主文已讀"
+    }
+  ],
+  "rationale": "全新無字讀圖、海防壓力、勘路三情境，精確歷史年份/政策與原題範圍HTML，作答必要原卷雙圖保留，不仿造人口數值或行政疆界。",
+  "promptPath": "docs/comics/q-822-prompt.txt",
+  "generationMetadata": "docs/comics/q-822-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "A",
+    "blankMeansUninhabited": false,
+    "generatedScenesAreOriginalMaps": false,
+    "exactBordersInvented": false,
+    "actualRouteClaimed": false,
+    "dateInterval": [
+      1811,
+      1893
+    ],
+    "keyEvent": 1874
+  },
+  "artSHA256": "6fc5f3484a90304937097b340950b8263c510cfa518ccb698edfec1a6fa238ec",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:55:01.325956+00:00",
+  "previewValidation": "docs/comics/q-822-preview-validation.json",
+  "visualReview": "原文兩人口圖/閱讀提點與第4四項實看沿A；官方1874/1875主文核外力防務開路設治。新2172x724與1440/390實看：抽象紙色塊非臺灣替代圖，海防與勘路匿名情境無錯圖例/疆界、無假稱特定人物。三寬PASS，原必要雙圖保留，無把空白當無人，同行等高手機自然高。",
+  "nativeArt": "assets/comics/q-822-art-6fc5f3484a-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:55:01.322357+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷1811/1893兩人口圖、原提點與四選親見，A外力壓力→晚清治理擴張；空白不等無人，抽象比較圖不重製疆界。新三景與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-822-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-822-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-822-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-822-validation.json"
+}

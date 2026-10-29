@@ -1,0 +1,97 @@
+{
+  "id": "q-843",
+  "subject": "Physics-Chemistry",
+  "title": "辨認道耳頓當時理論，不混用後來修正",
+  "art": "docs/comics/art/q-843.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-843-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① A的不同形狀，不是本題理論內容",
+      "text": "道耳頓用不同質量與性質區分不同元素的原子，不是說一種元素是三角形、另一種是正方形。A把差異說成形狀不同，因此是本題要找的錯誤卡片。",
+      "alt": "新製同為圓球但不同色的假設原子模型，以及被叉掉的三角形方形分類，明示模型非真實原子外觀或定量大小。"
+    },
+    {
+      "heading": "② B、C要放回當時的原子說",
+      "text": "相同元素原子質量相同、原子不可分割，都是當時原子說的觀點。後來同位素與次原子粒子知識會修正它們，但題目問歷史理論內容，不能因此改選B或C。",
+      "alt": "新製B/C當時理論到後來同位素與次原子粒子修正的概念對照，沒有宣稱當時說法至今全部正確。"
+    },
+    {
+      "heading": "③ D重排原子，種類與數量守恆",
+      "text": "化學反應把原子重新排列組合，符合道耳頓原子說。示意圖前後都有2個A原子、2個B原子，只改變組合；不是把原子消滅或憑空生出新原子。",
+      "alt": "新製假設A2+B2重新組成兩組AB，前後A/B各二，無指定真實元素反應或精確鍵角，符號為抽象計數。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：第一組的形狀說法錯誤",
+    "points": [
+      "題目問哪張卡片不屬道耳頓當時理論。",
+      "B、C可在現代被修正，仍是當時觀點。",
+      "D只重組原子，化學反應前後種類與數量不變。"
+    ]
+  },
+  "protectedWords": [
+    "道耳頓",
+    "原子說",
+    "三角形",
+    "正方形",
+    "同位素",
+    "次原子粒子",
+    "重新排列組合",
+    "2個A原子",
+    "2個B原子",
+    "化學反應",
+    "當時理論"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini063-a82209115fea51.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見第4題幹問道耳頓原子說寫法錯誤，四卡全句與黑C紅A；B/C歷史條件不以現代概念改答。"
+  },
+  "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+  "answerCheckedAgainst": "原卷四卡與題幹歷史理論範圍，OpenStax早期原子說與現代原子結構主文交叉核對；選A，B/C後來修正界線保留。",
+  "references": [
+    {
+      "title": "OpenStax Chemistry 2e 2.1 Early Ideas in Atomic Theory",
+      "url": "https://openstax.org/books/chemistry-2e/pages/2-1-early-ideas-in-atomic-theory",
+      "supports": "道耳頓元素原子質量性質、化學變化重排不創生消滅",
+      "access": "主文已讀"
+    },
+    {
+      "title": "OpenStax Chemistry 2e 2.3 Atomic Structure and Symbolism",
+      "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+      "supports": "現代次原子結構及同元素依質子數定義，不混問歷史",
+      "access": "主文已讀"
+    }
+  ],
+  "rationale": "用精確原生原子模型/歷史現代對照/重組守恆計數，比人物更清楚避免選C；圖標都可核對，無來源AI、不讓模型決定原子數。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selectedWrongCard": "A",
+    "historicalBAndCPreserved": true,
+    "hypotheticalReaction": {
+      "before": {
+        "A": 2,
+        "B": 2
+      },
+      "after": {
+        "A": 2,
+        "B": 2
+      }
+    },
+    "realAtomicShapeClaimed": false,
+    "specificChemicalReactionClaimed": false
+  },
+  "artSHA256": "699d3f63380f6a47d8e8307ae075bd0f303cf8dfac6ae3a55a4c959ad7be2bcb",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:42:36.628882+00:00",
+  "previewValidation": "docs/comics/q-843-preview-validation.json",
+  "structureValidation": "docs/comics/q-843-structure-validation.json",
+  "visualReview": "原第4完整四卡親見沿A；OpenStax歷史與現代理論主文核對，B/C歷史條件保留。1440/390最終實看：A明指錯誤不誤當真，D假設組合前後A/B各二，實際SVG節點解析計數相符、連線不遮原子字母。三寬PASS，同列等高單欄自然高無詞組溢出。"
+}

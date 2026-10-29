@@ -1,0 +1,21 @@
+{
+  "sourceKey": "gemini061",
+  "checkedAgainst": "site/dist/data.json",
+  "method": "全文、四個選項、共同文章與四張圖片內容交叉比對；不是只看URL或圖片hash。",
+  "duplicates": [
+    {
+      "originalQuestionKey": "page06-q37",
+      "existingQuestionId": "q-484",
+      "evidence": "Taiwan Sensibility文章全文、After this talk題幹、visitors/problems/family and friends/act politely四選項相同；原卷紅A。",
+      "sourceImage": "docs/imports/new-gemini/gemini061/assets/page-06.jpg"
+    },
+    {
+      "originalQuestionKey": "page06-q38",
+      "existingQuestionId": "q-485",
+      "evidence": "同文、Ailsa choose a picture題幹與A傳統服裝/B紅磚巷弄/C漁船/D101照片逐張實看相同，既有q485 figure與本源原圖一致；紅B。",
+      "sourceImage": "docs/imports/new-gemini/gemini061/assets/page-06.jpg",
+      "existingFigure": "site/dist/assets/questions/q-485-figure-4746180a03.jpg"
+    }
+  ],
+  "otherCandidates": "以sunny day/sold their house/Ally/ABC traffic/Salon du Chocolat查現有題庫，除sunny day出現不相同介系詞題外，5份新稿無同完整題命中。"
+}

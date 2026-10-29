@@ -1,0 +1,244 @@
+{
+  "sourceKey": "gemini062",
+  "groupKey": "gemini062-p10-group-q41-q42",
+  "type": "shared_passage_question_group",
+  "title": "地理題組｜印尼遷都的座標變化與海水倒灌",
+  "commonPassage": "印尼首都雅加達是全球地層下陷最快、空氣汙染最嚴重的城市之一。由於長期過度抽取地下水，造成地層下陷，加上海平面上升，預估到2050年，當地多達95%的土地恐將被海水淹沒，外加地處環太平洋地震帶，火山、地震與海嘯等天災頻繁。為此，印尼政府早在2019年宣布將首都遷往約1,400公里外的努山塔拉（如圖(三)）。事實上，印尼並非唯一遷都的國家。過去一百年間，已超過30個國家因天災人禍進行遷都，如巴西於1960年將首都遷至巴西利亞，藉此推動內陸發展。",
+  "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gemini/gemini062/assets/p10-q41-map.jpg",
+      "alt": "原卷東南亞地圖，顯示爪哇島雅加達、婆羅洲努山塔拉、赤道0度及兩地相連線。",
+      "caption": "共同閱讀原卷位置圖。"
+    }
+  ],
+  "originalQuestionNumbers": [
+    "p10-q41",
+    "p10-q42"
+  ],
+  "subQuestions": [
+    {
+      "candidateId": "gemini062-p10-q41",
+      "sourceKey": "gemini062",
+      "originalQuestionNumber": "p10-q41",
+      "subject": "Geography",
+      "title": "地理第41題｜印尼遷都的經緯度數變化",
+      "volume": "綜合",
+      "chapter": "綜合",
+      "date": "2026-08-13",
+      "dateLabel": "對話建立日期（Created）",
+      "addedAt": "2026-10-29",
+      "question": "根據文中所述，該國遷都至努山塔拉後，其新首都的絕對位置變化，最符合表(五)中哪一情況？\n\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 丁",
+      "passage": "印尼首都雅加達是全球地層下陷最快、空氣汙染最嚴重的城市之一。由於長期過度抽取地下水，造成地層下陷，加上海平面上升，預估到2050年，當地多達95%的土地恐將被海水淹沒，外加地處環太平洋地震帶，火山、地震與海嘯等天災頻繁。為此，印尼政府早在2019年宣布將首都遷往約1,400公里外的努山塔拉（如圖(三)）。事實上，印尼並非唯一遷都的國家。過去一百年間，已超過30個國家因天災人禍進行遷都，如巴西於1960年將首都遷至巴西利亞，藉此推動內陸發展。",
+      "answer": "正確答案：C。丙表示緯度度數減少、經度度數增加；新地點較靠近赤道且在較東方，符合圖示。",
+      "explanation": "先看圖中兩地都在赤道以南：往北靠近赤道，不是南緯度數增加，而是南緯數字減少。再看東西位置，努山塔拉在雅加達東方，兩地均為東經，因此經度數字增加。依表格找到「緯度減少＋經度增加」的丙，選C。此處比較度數大小，不能把向北一律記成緯度數字增加。\n\n【A】甲表示緯度、經度度數都增加，不合新地點向赤道靠近。\n【B】乙表示緯度增加、經度減少，與圖上的移動均不合。\n【C】丙表示緯度度數減少、經度度數增加；新地點較靠近赤道且在較東方，符合圖示。\n【D】丁表示兩者度數皆減少，但新地點向東移，東經度數應增加。",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "甲",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "甲表示緯度、經度度數都增加，不合新地點向赤道靠近。"
+        },
+        {
+          "label": "B",
+          "text": "乙",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "乙表示緯度增加、經度減少，與圖上的移動均不合。"
+        },
+        {
+          "label": "C",
+          "text": "丙",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "丙表示緯度度數減少、經度度數增加；新地點較靠近赤道且在較東方，符合圖示。"
+        },
+        {
+          "label": "D",
+          "text": "丁",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "丁表示兩者度數皆減少，但新地點向東移，東經度數應增加。"
+        }
+      ],
+      "correctOption": "C",
+      "studentAnswer": "A，原卷紅筆訂正C",
+      "images": [
+        "docs/imports/new-gemini/gemini062/assets/p10-reading-q41-q42.jpg",
+        "docs/imports/new-gemini/gemini062/assets/p10-q41.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "docs/imports/new-gemini/gemini062/assets/p10-q41-map.jpg",
+          "alt": "原卷東南亞地圖，顯示爪哇島雅加達、婆羅洲努山塔拉、赤道0度及兩地相連線。",
+          "caption": "共同閱讀原卷位置圖。"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "表(五) 絕對位置度數變化",
+          "headers": [
+            "",
+            "經度度數增加",
+            "經度度數減少"
+          ],
+          "rows": [
+            [
+              "緯度度數增加",
+              "甲",
+              "乙"
+            ],
+            [
+              "緯度度數減少",
+              "丙",
+              "丁"
+            ]
+          ]
+        }
+      ],
+      "verification": "原題已核對",
+      "contentStatus": "完整原題",
+      "verificationNote": "已實看原卷題幹、選項與作答必要材料；無可核對康軒冊次章節證據，歸綜合。題內時事數據保留原題情境，不冒充今日統計。",
+      "trap": "",
+      "diagram": "",
+      "tags": [],
+      "sourceUrl": "https://share.gemini.google/lEdStGcomTed",
+      "sourceAliases": [
+        "https://share.gemini.google/uw4w2YCL8j8I",
+        "https://gemini.google.com/share/6aa40aba9fca"
+      ],
+      "sourceLabel": "分享原卷｜p10-q41",
+      "references": [],
+      "reviewIssues": [],
+      "illustrationStatus": "pending",
+      "illustrationNote": "待專職插畫代理新製四格，不採來源AI圖。",
+      "inclusionEvidence": {
+        "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+        "redCorrection": "C",
+        "location": "第41題左側黑A旁紅C，表內丙下方有紅筆靠近0度",
+        "originalQuestionKey": "p10-q41",
+        "visuallyChecked": true,
+        "qualifiesForThisBatch": true,
+        "checkedAt": "2026-10-29T08:10:50.546577+00:00"
+      },
+      "draftMetadata": {
+        "originalVisualChecked": true,
+        "originalImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+        "imagePathsNeedPublishRewrite": true,
+        "qidAssignedByIntegrator": true,
+        "checkedAt": "2026-10-29T08:10:50.546577+00:00"
+      }
+    },
+    {
+      "candidateId": "gemini062-p10-q42",
+      "sourceKey": "gemini062",
+      "originalQuestionNumber": "p10-q42",
+      "subject": "Geography",
+      "title": "地理第42題｜內陸盆地與海水倒灌風險",
+      "volume": "綜合",
+      "chapter": "綜合",
+      "date": "2026-08-13",
+      "dateLabel": "對話建立日期（Created）",
+      "addedAt": "2026-10-29",
+      "question": "舊首都因開發過度，導致地層下陷與海水倒灌，而臺灣部分地區也有類似情形。下列何地最不會有此困擾？\n\n(A) 埔里盆地\n(B) 臺北盆地\n(C) 宜蘭平原\n(D) 嘉南平原",
+      "passage": "印尼首都雅加達是全球地層下陷最快、空氣汙染最嚴重的城市之一。由於長期過度抽取地下水，造成地層下陷，加上海平面上升，預估到2050年，當地多達95%的土地恐將被海水淹沒，外加地處環太平洋地震帶，火山、地震與海嘯等天災頻繁。為此，印尼政府早在2019年宣布將首都遷往約1,400公里外的努山塔拉（如圖(三)）。事實上，印尼並非唯一遷都的國家。過去一百年間，已超過30個國家因天災人禍進行遷都，如巴西於1960年將首都遷至巴西利亞，藉此推動內陸發展。",
+      "answer": "正確答案：A。埔里盆地位於中部內陸，地勢較高、遠離海岸，最不容易有本題所問海水倒灌的困擾。",
+      "explanation": "題目把「地層下陷與海水倒灌」放在一起，四地比較的關鍵是是否鄰近海岸、是否為低地。埔里盆地位於南投內陸，最能排除海水倒灌，選A。原AI將地層下陷本身的必要條件也說成「地下水超抽＋臨海低窪」，應釐清：內陸也可能地層下陷；臨海低窪是判斷海水倒灌風險的重要條件，不能說所有地層下陷都必須靠海。\n\n【A】埔里盆地位於中部內陸，地勢較高、遠離海岸，最不容易有本題所問海水倒灌的困擾。\n【B】臺北盆地較低且與河口海岸相通，和內陸埔里相比，不是最能排除海水影響者。\n【C】宜蘭平原臨太平洋，低地與海岸相接，不能像埔里一樣以遠離海岸排除。\n【D】嘉南平原有沿海低地，部分地區另有地下水超抽及地層下陷問題，並非最不受海水倒灌影響的選項。",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "埔里盆地",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "埔里盆地位於中部內陸，地勢較高、遠離海岸，最不容易有本題所問海水倒灌的困擾。"
+        },
+        {
+          "label": "B",
+          "text": "臺北盆地",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "臺北盆地較低且與河口海岸相通，和內陸埔里相比，不是最能排除海水影響者。"
+        },
+        {
+          "label": "C",
+          "text": "宜蘭平原",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "宜蘭平原臨太平洋，低地與海岸相接，不能像埔里一樣以遠離海岸排除。"
+        },
+        {
+          "label": "D",
+          "text": "嘉南平原",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "嘉南平原有沿海低地，部分地區另有地下水超抽及地層下陷問題，並非最不受海水倒灌影響的選項。"
+        }
+      ],
+      "correctOption": "A",
+      "studentAnswer": "C，原卷紅筆訂正A",
+      "images": [
+        "docs/imports/new-gemini/gemini062/assets/p10-reading-q41-q42.jpg",
+        "docs/imports/new-gemini/gemini062/assets/p10-q42.jpg"
+      ],
+      "questionFigures": [],
+      "tables": [],
+      "verification": "原題已核對",
+      "contentStatus": "完整原題",
+      "verificationNote": "已實看原卷題幹、選項與作答必要材料；無可核對康軒冊次章節證據，歸綜合。題內時事數據保留原題情境，不冒充今日統計。",
+      "trap": "",
+      "diagram": "",
+      "tags": [],
+      "sourceUrl": "https://share.gemini.google/lEdStGcomTed",
+      "sourceAliases": [
+        "https://share.gemini.google/uw4w2YCL8j8I",
+        "https://gemini.google.com/share/6aa40aba9fca"
+      ],
+      "sourceLabel": "分享原卷｜p10-q42",
+      "references": [],
+      "reviewIssues": [
+        "gemini062-p10-q42-subsidence-versus-inundation"
+      ],
+      "illustrationStatus": "pending",
+      "illustrationNote": "待專職插畫代理新製四格，不採來源AI圖。",
+      "inclusionEvidence": {
+        "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+        "redCorrection": "A",
+        "location": "第42題左側黑C旁紅A",
+        "originalQuestionKey": "p10-q42",
+        "visuallyChecked": true,
+        "qualifiesForThisBatch": true,
+        "checkedAt": "2026-10-29T08:10:50.546577+00:00"
+      },
+      "draftMetadata": {
+        "originalVisualChecked": true,
+        "originalImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+        "imagePathsNeedPublishRewrite": true,
+        "qidAssignedByIntegrator": true,
+        "checkedAt": "2026-10-29T08:10:50.546577+00:00"
+      }
+    }
+  ],
+  "visualChecked": true,
+  "inclusionEvidence": [
+    {
+      "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+      "redCorrection": "C",
+      "location": "第41題左側黑A旁紅C，表內丙下方有紅筆靠近0度",
+      "originalQuestionKey": "p10-q41",
+      "visuallyChecked": true,
+      "qualifiesForThisBatch": true,
+      "checkedAt": "2026-10-29T08:10:50.546577+00:00"
+    },
+    {
+      "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-06.jpg",
+      "redCorrection": "A",
+      "location": "第42題左側黑C旁紅A",
+      "originalQuestionKey": "p10-q42",
+      "visuallyChecked": true,
+      "qualifiesForThisBatch": true,
+      "checkedAt": "2026-10-29T08:10:50.546577+00:00"
+    }
+  ],
+  "integrationInstruction": "本批真共文41/42合為1筆；共同文章與位置圖一次，各小題原號、各四選項、41題表(五)、各自答案細解完整保留。正常第43題無紅訂正不加入。"
+}

@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "card": "目前新增來源進度\n1/45 來源結案\n\n圖文已取回 44/45 個來源 · 原卷 240 張 · 題目已收入 10 題 · 全新插畫已整合 0/10 題 · 待確認 0 題\n\n進度條依來源結案計算，尚未整理的來源不預估題數。新題先收入完整原題與解說，插畫完成後再整合。\n\n查看來源明細 ↓",
+      "source60": "more_gemini #60 · 歷史大滿貫臺灣清帝國統治時期錯題 ↗\n原圖已取得／待整理\n0 題已加入 · 原圖 8/8\n\n對話與原圖已保存本機，待逐題整理；本批只收入原卷有紅字訂正的題目。取回圖文不代表已完成錄題或插畫。",
+      "dimensions": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "width": 390,
+      "card": "目前新增來源進度\n1/45 來源結案\n\n圖文已取回 44/45 個來源 · 原卷 240 張 · 題目已收入 10 題 · 全新插畫已整合 0/10 題 · 待確認 0 題\n\n進度條依來源結案計算，尚未整理的來源不預估題數。新題先收入完整原題與解說，插畫完成後再整合。\n\n查看來源明細 ↓",
+      "source60": "more_gemini #60 · 歷史大滿貫臺灣清帝國統治時期錯題 ↗\n原圖已取得／待整理\n0 題已加入 · 原圖 8/8\n\n對話與原圖已保存本機，待逐題整理；本批只收入原卷有紅字訂正的題目。取回圖文不代表已完成錄題或插畫。",
+      "dimensions": {
+        "scroll": 390,
+        "client": 390
+      }
+    }
+  ],
+  "errors": [],
+  "checkedAt": "2026-10-29T07:50:42.795645+00:00",
+  "reviewerAgent": "/root",
+  "scope": "Live systemd Monitor API and desktop/mobile page; new-source aggregation and acquisition display, not source curation or comic completion.",
+  "unitTests": {
+    "command": "python -m unittest monitor.test_server",
+    "passed": 18
+  },
+  "service": "testreview-monitor.service restarted and live /api/status returned current newSources",
+  "visualReview": {
+    "1440": "Actual screenshot inspected: latest-source card 1/45, images240, questions10, own illustrations0/10; no stale completed18 card.",
+    "390": "Actual screenshot inspected: card wraps within viewport; counts and headings legible."
+  },
+  "manualSelectionPreservedOnRefresh": true,
+  "defaultFilters": {
+    "batch": "all",
+    "state": "pending",
+    "search": ""
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "q-372",
+  "subject": "Geography",
+  "title": "先求兩點間距，再用同單位求比例尺",
+  "art": "docs/comics/art/q-372.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-372-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先把里程位置，變成兩點間距",
+      "text": "197公里與198公里是道路上的里程位置。兩處相差198－197＝1公里；不能把197與198直接相除，也不能拿198公里當兩點距離。",
+      "alt": "新精確里程兩標點與差值1公里，線段只表兩點關係、不是按螢幕長度實測10公分。"
+    },
+    {
+      "heading": "② 公里換成公分，兩邊單位一致",
+      "text": "題給圖上距離是10公分，實地距離也要換成公分。1公里＝1,000公尺，每公尺100公分，所以1公里＝100,000公分。",
+      "alt": "新製公里到公尺到公分換算階梯，第一步乘1000、第二步乘100，數字精確不跳錯零。"
+    },
+    {
+      "heading": "③ 圖上距離比實地距離，再約分",
+      "text": "比例尺是圖上距離：實地距離。代入同單位的10：100,000，兩邊都除以10，得到1：10,000，所以選C。",
+      "alt": "新精確比值10比100000同除10，約成1比10000，不把比例尺倒成實地比圖上。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：1：10,000",
+    "points": [
+      "先相減：198－197＝1公里。",
+      "再換單位：1公里＝100,000公分。",
+      "最後約分：10：100,000＝1：10,000。"
+    ]
+  },
+  "protectedWords": [
+    "197公里",
+    "198公里",
+    "1公里",
+    "10公分",
+    "1,000公尺",
+    "100公分",
+    "100,000公分",
+    "圖上距離",
+    "實地距離",
+    "1：10,000",
+    "10：100,000",
+    "比例尺",
+    "198－197＝1公里",
+    "1公里＝100,000公分"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-372-source-8679fbe73e.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見原卷2題197至198公里/10公分與A197:198 B1:10 C1:10000 D1:1980000，C維持。"
+  },
+  "answerCheckedAgainst": "獨立計算198−197=1km=100000cm，圖上10cm約成1:10000；以原題距離而非198總里程，無更改已核定C。",
+  "rationale": "新精確里程差線段、單位階梯、同除10比值三步SVG配HTML，直接減少把GPS情境當解法或漏換單位的負擔；不用人物或來源AI，線段只關係示意非實際圖上公分長度。",
+  "generationCalls": 0,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "firstKilometreMarker": 197,
+    "secondKilometreMarker": 198,
+    "differenceKm": 1,
+    "actualDistanceCm": 100000,
+    "mapDistanceCm": 10,
+    "scaleDenominator": 10000,
+    "displayLineIsMeasuredMap": false
+  },
+  "artSHA256": "f56a734a177532e686a2967b471bcf2d5798224c9653e9fe4c14814957e48fa7",
+  "sourceUrl": "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T07:22:10.658835+00:00",
+  "previewValidation": "docs/comics/q-372-preview-validation.json",
+  "visualReview": "原卷全題與四項實看，獨立算198−197=1公里=100000公分，再10:100000約1:10000選C。新1440/390實看，單位梯乘1000/100及里程相減、約分正確；保護完整短等式後重跑三寬PASS，手機公式不拆行，同行等高/單欄自然高無溢出。",
+  "nativeArt": "assets/comics/q-372-art-f56a734a17.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T07:22:10.632495+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整原卷2題四項親見；獨立1公里=100000cm，圖上10cm約1:10000核C。正式里程差/乘1000再乘100/同除10三圖精確，未暗示螢幕線可量得10cm，保護等式未拆行。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-372-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-372-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-372-app-390.png"
+    ],
+    "integrationTimingEvidence": "docs/comics/q-372-integration-timing.json"
+  },
+  "validationFile": "docs/comics/q-372-validation.json"
+}

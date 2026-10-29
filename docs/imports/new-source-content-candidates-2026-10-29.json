@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-29T07:54:06.963872+00:00",
+  "reviewerAgent": "/root",
+  "scope": "Non-mutating acquisition-level duplicate leads. Matching complete conversation text is strong evidence of shared dialogue; matching single exam photos alone is not a duplicate verdict. No source or question excluded by this audit.",
+  "sourcesExamined": 103,
+  "sourcesWithText": 103,
+  "exactConversationGroups": [
+    {
+      "normalizedConversationSha256": "f67323933d66d1b720c0c6c2b1ac998ef182cca3ff165943c2307fac9a971547",
+      "sources": [
+        {
+          "order": 84,
+          "title": "新增Gemini來源84（待整理）",
+          "url": "https://share.gemini.google/4wohnHFYRygC",
+          "archive": "docs/sources/gemini-4wohnHFYRygC.json",
+          "characters": 4163
+        },
+        {
+          "order": 85,
+          "title": "新增Gemini來源85（待整理）",
+          "url": "https://share.gemini.google/I4fwzs3O2wOE",
+          "archive": "docs/sources/gemini-I4fwzs3O2wOE.json",
+          "characters": 4163
+        },
+        {
+          "order": 86,
+          "title": "新增Gemini來源86（待整理）",
+          "url": "https://share.gemini.google/wXmKCOB3oIOx",
+          "archive": "docs/sources/gemini-wXmKCOB3oIOx.json",
+          "characters": 4163
+        }
+      ]
+    },
+    {
+      "normalizedConversationSha256": "edd1a944e0c0a39e81d1701d1158cd65760af4cad90dd4049b51a648ed9175b4",
+      "sources": [
+        {
+          "order": 100,
+          "title": "新增Gemini來源100（待整理）",
+          "url": "https://share.gemini.google/CdmNU8pFUKHt",
+          "archive": "docs/sources/gemini-CdmNU8pFUKHt.json",
+          "characters": 3435
+        },
+        {
+          "order": 103,
+          "title": "新增Gemini來源103（待整理）",
+          "url": "https://share.gemini.google/7w4E1gVqZega",
+          "archive": "docs/sources/gemini-7w4E1gVqZega.json",
+          "characters": 3435
+        }
+      ]
+    }
+  ],
+  "sharedPhotoCandidates": [
+    {
+      "orders": [
+        84,
+        85
+      ],
+      "matchingPhotoHashes": 7
+    },
+    {
+      "orders": [
+        84,
+        86
+      ],
+      "matchingPhotoHashes": 7
+    },
+    {
+      "orders": [
+        85,
+        86
+      ],
+      "matchingPhotoHashes": 7
+    },
+    {
+      "orders": [
+        100,
+        103
+      ],
+      "matchingPhotoHashes": 3
+    }
+  ]
+}

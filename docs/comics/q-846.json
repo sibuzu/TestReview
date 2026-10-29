@@ -1,0 +1,132 @@
+{
+  "id": "q-846",
+  "subject": "Physics-Chemistry",
+  "title": "按週期與左右順序，比較原子序",
+  "art": "docs/comics/art/q-846.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-846-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先核對五點位置，戊在丙下方",
+      "text": "甲在第2週期左端；丙、丁在同列最右側，丁在丙右方。戊在丙下方的第17族，乙在第4週期。新圖省略中間族，只放本題需要的位置。",
+      "alt": "新精確省略中間族表列1/2/17/18族與2/3/4週期，甲2/1乙4/2丙2/17丁2/18戊3/17，位置同原卷而非完整週期表。"
+    },
+    {
+      "heading": "② 同列向右增加，再接下一週期",
+      "text": "原子序在同一週期由左向右增加，所以甲＜丙＜丁。戊在下一週期，原子序大於丁；乙又在第4週期，比這四個都大。不是單看整張圖的左右位置排序。",
+      "alt": "新製甲小於丙小於丁同列關係，再接第3戊與第4乙，明示按週期接續，非只讀幾何左右坐標。"
+    },
+    {
+      "heading": "③ 由大到小：乙、戊、丁、丙、甲",
+      "text": "按位置可直接得到乙＞戊＞丁＞丙＞甲，選B。也可用實際原子序複核：乙20、戊17、丁10、丙9、甲3；用的是原子序，不是原子量。",
+      "alt": "新精確由大至小20/17/10/9/3卡，對應Ca/Cl/Ne/F/Li與乙戊丁丙甲，不拿平均原子量排序。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：乙＞戊＞丁＞丙＞甲",
+    "points": [
+      "同週期由左向右，原子序逐一增加。",
+      "看完本週期，才接下一週期。",
+      "戊在第17族，丙正下方；不是丁正下方。"
+    ]
+  },
+  "protectedWords": [
+    "第2週期",
+    "第3週期",
+    "第4週期",
+    "第17族",
+    "第18族",
+    "原子序",
+    "原子量",
+    "甲＜丙＜丁",
+    "乙＞戊＞丁＞丙＞甲"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini063-e04978fb4a5b20.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/gemini063-e768e299e0bbae.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "完整15四排序與必要表實看，戊確在丙第17族下方、乙4週期2族，紅B；不重開原AI欄位誤讀已訂正。"
+  },
+  "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+  "answerCheckedAgainst": "原位置逐點對照，IUPAC2022週期表原子序Li3/F9/Ne10/Cl17/Ca20核實，降序乙戊丁丙甲B。",
+  "references": [
+    {
+      "title": "IUPAC Periodic Table of the Elements（4 May 2022）",
+      "url": "https://iupac.org/wp-content/uploads/2022/07/IUPAC_Periodic_Table-04May22_CRA.pdf",
+      "supports": "五位置元素與原子序3/9/10/17/20",
+      "access": "官方PDF全文數值與截圖調用核對"
+    },
+    {
+      "title": "IUPAC：Periodic Table of Elements",
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "supports": "官方週期表及族號1–18",
+      "access": "官方主文已讀"
+    }
+  ],
+  "rationale": "原錯誤風險是週期表欄位與排序規則，精確SVG縮列位置/同列增序/實際Z值最直接，不需人物或模型拼表，必要原卷表仍保留。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "B",
+    "positionMapping": {
+      "甲": {
+        "period": 2,
+        "group": 1,
+        "symbol": "Li",
+        "Z": 3
+      },
+      "乙": {
+        "period": 4,
+        "group": 2,
+        "symbol": "Ca",
+        "Z": 20
+      },
+      "丙": {
+        "period": 2,
+        "group": 17,
+        "symbol": "F",
+        "Z": 9
+      },
+      "丁": {
+        "period": 2,
+        "group": 18,
+        "symbol": "Ne",
+        "Z": 10
+      },
+      "戊": {
+        "period": 3,
+        "group": 17,
+        "symbol": "Cl",
+        "Z": 17
+      }
+    },
+    "descendingOrder": [
+      "乙",
+      "戊",
+      "丁",
+      "丙",
+      "甲"
+    ],
+    "compressedGroups": [
+      1,
+      2,
+      17,
+      18
+    ],
+    "middleGroupsExplicitlyOmitted": true,
+    "atomicWeightsUsed": false
+  },
+  "artSHA256": "14d1ce78e19874590cab8ac2d0adb061c3c5d741910abb73fc6c0dabec1f5b35",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:53:01.388834+00:00",
+  "previewValidation": "docs/comics/q-846-preview-validation.json",
+  "positionValidation": "docs/comics/q-846-position-validation.json",
+  "visualReview": "原卷15與必要表親見，戊第17族丙下方核B；IUPAC官方PDF五元素Z已讀。1440/390實看省略族表/同列加跨週期/20>17>10>9>3，實際SVG位置與排序metadata解析吻合，非原子量。三寬PASS，省略中間族明標，同行等高與手機自然高無溢出。"
+}

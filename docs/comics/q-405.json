@@ -1,0 +1,130 @@
+{
+  "id": "q-405",
+  "subject": "Chinese",
+  "title": "券、井、聒三個錯字，踰越本來正確",
+  "art": "docs/comics/art/q-405.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① A：可兌換書籍的，是禮券",
+      "text": "原句圖書禮卷的卷要改成券。禮券是可兌換商品的憑券；想像拿券換書，連結詞義與字形，不能因為兩字看起來相近就混用。",
+      "alt": "全新無字圖書館贈禮情境，老師交給成年學習者平面卡片而非捲軸，精確券字在HTML。"
+    },
+    {
+      "heading": "② B：離開家鄉，是離鄉背井",
+      "text": "原句離鄉背景的景要改成井。這裡井借指家鄉，離鄉背井就是離開故鄉，在外地生活；不是寫環境背景的景。圖為詞義示例，非許伯伯出征紀錄。",
+      "alt": "全新旅人帶行李向家人道別情境，沒有戰爭或把背井誤畫成搬運水井。"
+    },
+    {
+      "heading": "③ C：吵鬧嘮叨，寫作聒噪",
+      "text": "原句刮噪的刮要改成聒。聒噪指吵鬧、嘮叨，與聲音有關。把正字連回句中不停抱怨的情境，不要和刮除東西的刮混淆。",
+      "alt": "全新成年伴侶長篇抱怨與疲倦聆聽的日常情境，無暴力、不概括性別特質，聒字由HTML呈現。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：踰越的字形正確",
+    "points": [
+      "踰越是越過、超過；不能因常見逾越而判踰錯。",
+      "A禮卷→禮券，B背景→背井，C刮噪→聒噪。",
+      "原選項保留錯字；在解說裡辨認並訂正。"
+    ]
+  },
+  "protectedWords": [
+    "圖書禮卷",
+    "圖書禮券",
+    "禮券",
+    "禮卷",
+    "離鄉背景",
+    "離鄉背井",
+    "家鄉",
+    "許伯伯",
+    "刮噪",
+    "聒噪",
+    "踰越",
+    "逾越",
+    "嘮叨",
+    "憑券"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-405-source-7a8bd3c8c5.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "親見第2完整四句與藍A紅D，原卷禮卷/離鄉背景/刮噪及D踰越核對；不把題幹錯字先修成正字。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a",
+  "answerCheckedAgainst": "原卷四選項及MOE圖書禮券/離鄉背井/聒噪/踰越詞條核字形與詞義，維持D。",
+  "references": [
+    {
+      "title": "教育部國語辭典簡編本：踰越",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44237&la=0&powerMode=0",
+      "supports": "踰越為正詞，超過、越過"
+    },
+    {
+      "title": "教育部重編國語辭典修訂本：圖書禮券",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=54187&la=0&powerMode=0",
+      "supports": "可持券換書籍文具的憑券"
+    },
+    {
+      "title": "教育部成語典：離鄉背井",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1031&powerMode=1",
+      "supports": "井借指家鄉，非景"
+    },
+    {
+      "title": "教育部重編國語辭典修訂本：聒噪",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=71757&la=0&powerMode=0",
+      "supports": "聒噪詞形與嘮叨吵鬧義"
+    }
+  ],
+  "rationale": "全新無字禮券贈送、離家、反覆抱怨三情境配HTML錯字正字詞義，第四格澄清踰不錯；不讓生成模型寫字，不虛構原人物戰爭事件。",
+  "promptPath": "docs/comics/q-405-prompt.txt",
+  "generationMetadata": "docs/comics/q-405-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "D",
+    "corrections": {
+      "卷": "券",
+      "景": "井",
+      "刮": "聒"
+    },
+    "originalQuestionCorrected": false,
+    "踰MistakenAsWrong": false
+  },
+  "artSHA256": "04b77703978dd74fa7820007cc845b529c6f6fe4886dadef8025c63b516d8bfe",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:26:24.516579+00:00",
+  "previewValidation": "docs/comics/q-405-preview-validation.json",
+  "visualReview": "原卷完整四句與紅D親見；MOE四詞核字形。實看新2172x724：平面卡贈送/行李離家/交談三景無字，非許伯伯實錄。1440/390實看及三寬PASS，詞組完整、同行等高與手機自然高，原錯字只在HTML解說訂正。",
+  "nativeArt": "assets/comics/q-405-art-04b7770397-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:26:24.513220+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷四個完整句親見，A卷→券、B景→井、C刮→聒留原題只於解說訂正，踰越正詞維持D；新贈券/離家/抱怨情境與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-405-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-405-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-405-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-405-validation.json"
+}

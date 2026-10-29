@@ -1,0 +1,33 @@
+{
+  "reviewerAgent": "/root",
+  "stats": {
+    "published": 838,
+    "drafts": 42,
+    "unpublishedDrafts": 1,
+    "sources": 121,
+    "groups": 2,
+    "aliases": 2,
+    "importState": "paused",
+    "revision": "2026-10-27.0d145a899dd5"
+  },
+  "checks": {
+    "publishedMatchesBank": true,
+    "q821ResolvesToQ820": true,
+    "source61Includes5NewAnd2Reused": true,
+    "cancelledSource64NotActive": true,
+    "source62GroupMembersPublished": true,
+    "onlyOneUnpublishedDraft": "gemini063-page08-q11",
+    "sqliteIntegrity": "ok",
+    "foreignKeys": "ok",
+    "chineseSearchIds": [
+      "q-820"
+    ]
+  },
+  "searchSeconds": 0.001879,
+  "bytes": 16134144,
+  "databasePath": ".cache/question-index.sqlite3",
+  "testCommand": "python -m unittest discover -s site/scripts -p test_question_index.py",
+  "testsPassed": 13,
+  "deployDirectory": "site/dist",
+  "databaseGitIgnored": ".cache/question-index.sqlite3"
+}

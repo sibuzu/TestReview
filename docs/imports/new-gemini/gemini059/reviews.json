@@ -1,0 +1,83 @@
+[
+  {
+    "id": "gemini059-original-17-ocr",
+    "candidateId": "gemini059-original-17",
+    "questionId": null,
+    "title": "國文第17題｜贅詞搭配與句子語病",
+    "questionText": "下列文句，何者沒有語病？\n\n(A) 我發自內心由衷感謝父母對我無微不至的照顧\n(B) 頑皮的弟弟打破爺爺珍愛的花瓶，一定被挨罵\n(C) 為了恢復身體疲勞，他決定向上司請假一星期\n(D) 即使父母苦口婆心地勸說，他卻依然明知故犯",
+    "sourceUrl": "https://gemini.google.com/share/ec6c955b81b3",
+    "sourceAliases": [
+      "https://share.gemini.google/yQXdW6l2rekh"
+    ],
+    "originalImage": "docs/acquisition/gemini-extra-ec6c955b81b3/question-17.jpg",
+    "before": "原AI轉錄B為「頑皮的弟弟打破爺爺珍愛的花瓶，一定被慘罵」，並以語序不當分析。",
+    "after": "依原卷保留B「頑皮的弟弟打破爺爺珍愛的花瓶，一定被挨罵」；D答案不變，B解說改為被與挨的受事表達重複，可刪被或改被責罵。",
+    "reason": "AI未按原卷轉錄B選項，導致分析的是另一句。",
+    "references": [],
+    "state": "awaiting_integrator_qid_and_monitor_registration",
+    "createdAt": "2026-10-29T07:07:45.674377+00:00"
+  },
+  {
+    "id": "gemini059-original-18-answer-letter",
+    "candidateId": "gemini059-original-18",
+    "questionId": null,
+    "title": "國文第18題｜何易于拉船與體恤民情",
+    "questionText": "「（何易于）為益昌令。縣距州四十里，刺史崔朴嘗乘春與賓屬汎舟出益昌旁，索民挽縴①，易于身引舟，朴驚問狀，易于曰：『方春，百姓耕且蠶，惟令不事，可任其勞。』朴愧，與賓客疾驅去。」（《新唐書》）\n\n注①縴：音ㄑㄧㄢˋ，粗麻繩。\n\n根據本文，下列敘述何者最符合作者觀點？\n\n(A) 政府官員必須與民同樂\n(B) 政府官員必須與民並耕\n(C) 政府官員必須體恤民情\n(D) 政府官員必須平息民怨",
+    "sourceUrl": "https://gemini.google.com/share/ec6c955b81b3",
+    "sourceAliases": [
+      "https://share.gemini.google/yQXdW6l2rekh"
+    ],
+    "originalImage": "docs/acquisition/gemini-extra-ec6c955b81b3/question-18.jpg",
+    "before": "原AI把B列為體恤民情、C列為與民並耕，並選B。",
+    "after": "原卷B為「政府官員必須與民並耕」、C為「政府官員必須體恤民情」；原卷紅筆C，獨立依何易于代農忙百姓拉船判C。",
+    "reason": "不是改原選項，是恢復原卷B/C順序並訂正AI答字母。",
+    "references": [],
+    "state": "awaiting_integrator_qid_and_monitor_registration",
+    "createdAt": "2026-10-29T07:07:45.674437+00:00"
+  },
+  {
+    "id": "gemini059-original-21-plant-ocr",
+    "candidateId": "gemini059-original-21",
+    "questionId": null,
+    "title": "國文第21題｜蒝荽描寫與文意銜接",
+    "questionText": "「一般人就喊它香菜，以致常和九層塔混為一談，別名又叫香荽、胡菜、胡荽，我們慣常寫成的『芫荽』，其實錯了一個字，應該是『蒝』不是『芫』，李時珍在本草綱目中特別解釋，『蒝』形容植物『莖葉布散』的樣子，『荽』則因其『莖柔葉細，而根多鬚，綏綏然也』。寥寥數句，精確__________。」（蔡珠兒〈冷香飛上飯桌〉）\n\n根據文意推論，畫線處應填入的文句是什麼？\n\n(A) 分析了蒝荽與九層塔的差異\n(B) 查證了本草綱目中的說法\n(C) 捕捉了蒝荽的神韻姿態\n(D) 說明了蒝荽的起源地",
+    "sourceUrl": "https://gemini.google.com/share/ec6c955b81b3",
+    "sourceAliases": [
+      "https://share.gemini.google/yQXdW6l2rekh"
+    ],
+    "originalImage": "docs/acquisition/gemini-extra-ec6c955b81b3/question-21.jpg",
+    "before": "原AI將植物寫作「菥蓂」，字義寫「菥」/「蓂」與「綠綠然也」，四選項也套錯植物名。",
+    "after": "原卷慣常寫「芫荽」，本文辨應用「蒝」不是「芫」，選項為「蒝荽」；引句末為「綏綏然也」。答案C不變。",
+    "reason": "蒝是艹＋原，芫是艹＋元；AI兩字皆錯。不可把蒝/芫辨析一起簡化成常用芫荽。",
+    "references": [
+      {
+        "title": "教育部異體字字典B03993蒝",
+        "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=68892&powerMode=2&q=1",
+        "support": "蒝釋為草木莖葉布散之形，引本草綱目「蒝乃莖葉布散之貌」。"
+      }
+    ],
+    "state": "awaiting_integrator_qid_and_monitor_registration",
+    "createdAt": "2026-10-29T07:07:45.674472+00:00"
+  },
+  {
+    "id": "gemini059-original-29-option-D-scope",
+    "candidateId": "gemini059-original-29",
+    "questionId": null,
+    "title": "國文第29題｜錦瑟意象與古籍引證",
+    "questionText": "在《全唐詩》裡，「錦瑟」這個意象共出現十一次，單單李商隱便用了四次，包括：\n・歸來已不見，錦瑟長於人。（〈房中曲〉）\n・新知他日好，錦瑟傍朱櫳。（〈寓目〉）\n・玉盤迸淚傷心數，錦瑟驚弦破夢頻。（〈回中牡丹為雨所敗二首之一〉）\n再加上〈錦瑟〉這首詩，比例高達三分之一強！〈錦瑟〉也是《全唐詩》中唯一一首用「錦瑟」作標題的詩篇。作為李商隱所鍾愛的詩歌意象，他特別偏好錦瑟的原因，一是它的美麗高貴。「錦」是華麗的織物，瑟加上「錦」字，可見造型十分精美。《周禮樂器圖》云：「雅瑟二十三絃，頌瑟二十五絃，飾以寶玉者曰寶瑟，繪文如錦者曰錦瑟。」可見錦瑟以「繪文如錦」展現出人文藝術的文化精神，代表一種細緻的、性靈的美。\n至於原因之二，則是「瑟」這種樂器本為悲哀的象徵，《史記封禪書》：\n太帝使素女鼓五十絃瑟，悲，帝禁不止，故破其瑟為二十五絃。\n原來「瑟」本身就是一個哀愁的意象，五十根絃悲淒慘楚至極，甚至連太上忘情的天神也為之動容，到了完全無法承受的地步。\n於是，錦瑟這種文彩華美卻音聲悽悲的樂器，代表了一種柔美深情的心靈，而寓有無限的沉痛與悲感，本來就是一個美麗與哀愁的共同結晶。就像李商隱的心靈和他的人生一樣，努力追求美麗，但美麗卻同時滲透了悲傷的淚水，很美又很沉重，遂成為李商隱反覆致意的一個特殊象徵。\n（節錄自歐麗娟《驚豔唐詩：字行間的人生密碼》）\n\n關於本文的寫作手法，下列敘述何者正確？\n\n(A) 引用古籍說明錦瑟的特性\n(B) 摘錄詩人獨白呈現寫作背景\n(C) 統計古典詩歌「錦瑟」出現次數強化論點\n(D) 列舉全唐詩出現「錦瑟」的詩句作為論據",
+    "sourceUrl": "https://gemini.google.com/share/ec6c955b81b3",
+    "sourceAliases": [
+      "https://share.gemini.google/yQXdW6l2rekh"
+    ],
+    "originalImages": [
+      "docs/acquisition/gemini-extra-ec6c955b81b3/reading-29.jpg",
+      "docs/acquisition/gemini-extra-ec6c955b81b3/question-29.jpg"
+    ],
+    "before": "原AI判D錯，理由是文中沒有列舉《全唐詩》所有出現錦瑟的詩句，而只列李商隱用例。",
+    "after": "題幹、四項及原卷訂正A保留。A引用古籍最直接；D原文沒有「所有」或「全部」，而李商隱例句確屬《全唐詩》，該項有概括解讀空間。解說不可硬加「所有」再排除，列教師釐清。",
+    "reason": "原AI擴充了原選項未明示的範圍限制；D若泛指舉出《全唐詩》的例句可成立，應說明單選採A與措辭不夠精確的界線。",
+    "recommendedAnswer": "A（原卷紅筆）",
+    "state": "awaiting_integrator_qid_and_monitor_registration",
+    "createdAt": "2026-10-29T07:16:00.813641+00:00"
+  }
+]

@@ -13,10 +13,12 @@ try:
     from .confirmation_store import edit_confirmations
     from .comic_queue import subject_stats, next_entry
     from .parallel_timing import measure
+    from .new_sources import current_sources
 except ImportError:  # Also support running python monitor/server.py.
     from confirmation_store import edit_confirmations
     from comic_queue import subject_stats, next_entry
     from parallel_timing import measure
+    from new_sources import current_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 TERMINAL = {
@@ -70,6 +72,10 @@ def build_status(root=ROOT):
              root/'docs/imports/more-gpt-progress.json', root/'docs/imports/more-gemini-progress.json',
              root/'monitor/activity.json', root/'monitor/confirmations.json']
     data, todo, gpt, gemini, activity, requests = [read_json(p) for p in paths]
+    import_control_path = root/'monitor/import-control.json'
+    import_control = read_json(import_control_path) if import_control_path.exists() else {}
+    if import_control:
+        paths.append(import_control_path)
     acquisition = []
     for name in ('acquisition.json', 'gemini-acquisition.json', 'ai-acquisition.json'):
         p = root/'monitor'/name
@@ -108,6 +114,11 @@ def build_status(root=ROOT):
         if parallel_path.exists():
             comics['parallel'] = read_json(parallel_path)
             paths.append(parallel_path)
+            if import_control.get('state') == 'paused':
+                for lane in comics['parallel'].get('lanes', []):
+                    if lane.get('role') == 'import':
+                        lane.update(state='paused', questionId=None,
+                                    title='第63來源已收尾；新題整理依使用者指示暫停')
             running = [dict(id=l['questionId'], title=l['title']) for l in comics['parallel'].get('lanes', []) if l['state']=='running' and l.get('questionId')]
             running += [dict(id=j['id'], title=j['title']) for j in comics['parallel'].get('integrating', [])]
             comics['active'] = running
@@ -178,6 +189,22 @@ def build_status(root=ROOT):
     acknowledged = {(r['id'], r.get('confirmationToken')) for r in requests.get('resolved', [])}
     confirmations = [dict(c, confirmationToken=confirmation_token(c)) for c in confirmations
                      if (c['id'], confirmation_token(c)) not in acknowledged]
+    new_sources = current_sources(root, gemini['sources'], questions,
+                                  comic_data.get('entries', []) if comics else [], confirmations, paths)
+    if new_sources:
+        acquired_rows = {row['order']: row for row in new_sources['sources']}
+        for batch in batches:
+            if batch['id'] != 'gemini':
+                continue
+            for row in batch['sources']:
+                acquired = acquired_rows.get(row['order'])
+                if acquired is not None:
+                    for key in ('title', 'state', 'reason', 'imagesAvailable', 'imagesExpected'):
+                        row[key] = acquired[key]
+                    row['questions'] = [{'id': qid, 'title': by_id[qid]['title'],
+                                         'url': '/site/index.html#question/'+qid}
+                                        for qid in acquired['questionIds']]
+                    row['stateLabel'] = STATE_NAMES.get(row['state'], row['state'])
     missing = [dict(batch=b['title'], **s) for b in batches for s in b['sources']
                if not s['settled'] and (s['skippedQuestions'] or s['state'] == 'awaiting_image_retry'
                    or s['imagesExpected'] and s['imagesAvailable'] < s['imagesExpected'])]
@@ -191,6 +218,7 @@ def build_status(root=ROOT):
                     'newSourcesSettled': settled, 'newSourcesPending': total-settled,
                     'percent': round(settled/total*100, 1) if total else 100},
         'batches': batches, 'confirmations': confirmations, 'imageRetries': missing,
+        'newSources': new_sources, 'importControl': import_control,
         'resolvedConfirmations': requests.get('resolved', []),
     }
 

@@ -1,0 +1,54 @@
+{
+  "sourceKey": "gemini062",
+  "status": "drafts_complete",
+  "createdDate": "2026-08-13",
+  "redCorrectedSubquestionCount": 8,
+  "completeSubquestionCount": 8,
+  "completeRecordCountAfterGrouping": 7,
+  "completeCandidates": 8,
+  "awaitingCandidates": 0,
+  "readyCandidates": [
+    "gemini062-p02-q06",
+    "gemini062-p05-q22",
+    "gemini062-p08-q34",
+    "gemini062-p11-q45",
+    "gemini062-p01-q04",
+    "gemini062-p07-q29"
+  ],
+  "readyGroupedCandidates": [
+    {
+      "groupKey": "gemini062-p10-group-q41-q42",
+      "draft": "docs/imports/new-gemini/gemini062/group-p10-q41-q42.json",
+      "originalKeys": [
+        "p10-q41",
+        "p10-q42"
+      ]
+    }
+  ],
+  "standaloneDraftsReplacedByGroup": [
+    "p10-q41",
+    "p10-q42"
+  ],
+  "awaitingContentConfirmationOriginalKeys": [],
+  "remainingOriginalKeys": [],
+  "skippedThisBatch": [
+    {
+      "originalQuestionKey": "p02-q07",
+      "state": "skippedThisBatch",
+      "reason": "原圖第7題左側為黑筆叉，無紅字改答；上方紅色宗教筆記屬第6題選項，不當作第7題紅訂正。",
+      "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-02.jpg"
+    },
+    {
+      "originalQuestionKey": "p07-q30",
+      "state": "skippedThisBatch",
+      "reason": "黑筆C原選與必要圖南部丙（班加羅爾）相符，未見紅筆改答案；紅色地名旁註不把正常答題當錯題。原AI卻把丁解作班加羅爾並選D，不能照抄，圖中丁在印度東北部。",
+      "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-04.jpg",
+      "sourceAiIncorrectAnswer": "D",
+      "actualMapSouthLabel": "丙/C"
+    }
+  ],
+  "notPermanentlyExcluded": true,
+  "qidAssignment": "Agent1唯一分配",
+  "acquisitionRecord": "docs/acquisition/new-gemini062.json",
+  "revisionNote": "使用者允許4/29保留原圖筆跡，兩題已補完整解說解除圖像待核"
+}

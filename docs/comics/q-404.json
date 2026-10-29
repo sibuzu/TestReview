@@ -1,0 +1,126 @@
+{
+  "id": "q-404",
+  "subject": "Chinese",
+  "title": "窕與挑燈同音，聲調也要相同",
+  "art": "docs/comics/art/q-404.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 窈窕的窕，讀ㄊㄧㄠˇ",
+      "text": "窈窕淑女中的窕讀ㄊㄧㄠˇ。先把目標字從完整詞語中找出來；不是比較窈與挑，也不能只看相近的字形。圖以端莊人物呈現詞語情境。",
+      "alt": "全新無字古典園林中的端莊成年女性，非特定歷史人物，不以極瘦體型定義窈窕。"
+    },
+    {
+      "heading": "② 挑燈的挑，也讀ㄊㄧㄠˇ",
+      "text": "挑燈是撥動燈芯，讓燈光更亮；這裡的挑讀ㄊㄧㄠˇ。挑燈夜戰指夜間用功，不是拿燈去打仗，也不能套成挑選的ㄊㄧㄠ。",
+      "alt": "全新成年讀書人在夜間以細工具調整小油燈燈芯，書頁無字，沒有武器，示意挑燈用功。"
+    },
+    {
+      "heading": "③ 其他三組，逐一比完整讀音",
+      "text": "A秧ㄧㄤ、怏ㄧㄤˋ，聲調不同；C塑ㄙㄨˋ、朔ㄕㄨㄛˋ，聲母和韻母不同；D骸ㄏㄞˊ、駭ㄏㄞˋ，聲調不同。完全同音連聲調也必須相同。",
+      "alt": "全新教師與成年學習者比對空白卡和無字字典，精確注音全放HTML文字，不由模型書寫。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：窕、挑都讀ㄊㄧㄠˇ",
+    "points": [
+      "在窈窕與挑燈的詞義情境中確定字音。",
+      "同音須聲母、韻母、聲調全部相同。",
+      "A、D差聲調；C的聲母與韻母不同。"
+    ]
+  },
+  "protectedWords": [
+    "窈窕淑女",
+    "挑燈夜戰",
+    "ㄊㄧㄠˇ",
+    "ㄊㄧㄠ",
+    "ㄧㄤˋ",
+    "ㄧㄤ",
+    "ㄙㄨˋ",
+    "ㄕㄨㄛˋ",
+    "ㄏㄞˊ",
+    "ㄏㄞˋ",
+    "聲母",
+    "韻母",
+    "聲調",
+    "燈芯",
+    "挑選"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a",
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-404-source-9316e23503.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "親見第1完整四組字形與原藍A紅B；B比較窕和挑，非窈，C塑/朔，D骸/駭核對。"
+  },
+  "answerCheckedAgainst": "原卷完整四組與教育部窕、挑燈詞條注音核B；A/D聲調不同、C音節不同，不改已確認答案。",
+  "references": [
+    {
+      "title": "教育部國語辭典簡編本：挑燈",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=11029&la=0&powerMode=0",
+      "supports": "挑燈ㄊㄧㄠˇ ㄉㄥ，撥動燈心使燈亮"
+    },
+    {
+      "title": "教育部重編國語辭典修訂本：窕",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2702&la=0&powerMode=0",
+      "supports": "窕讀ㄊㄧㄠˇ"
+    },
+    {
+      "title": "教育部異體字字典：塑",
+      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=8231&la=0",
+      "supports": "塑讀ㄙㄨˋ，不依朔聲形硬套"
+    }
+  ],
+  "rationale": "全新無字端莊人物、挑燈用功、查字比較三情境，精確注音與聲調對照由HTML呈現；以詞義幫助破音字判讀，不以圖像決定讀音。",
+  "promptPath": "docs/comics/q-404-prompt.txt",
+  "generationMetadata": "docs/comics/q-404-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "B",
+    "targetCharacters": [
+      "窕",
+      "挑"
+    ],
+    "sameReading": "ㄊㄧㄠˇ",
+    "phoneticsGeneratedInArt": false,
+    "nightStudyNotCombat": true
+  },
+  "artSHA256": "c60e794d5540aeb4f02595c048af689c8590a5a87fa43fed4815c7650106b5ff",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:26:24.494349+00:00",
+  "previewValidation": "docs/comics/q-404-preview-validation.json",
+  "visualReview": "親見原題1四組、藍A紅B，官方窕/挑燈完整詞條核同音ㄊㄧㄠˇ。新原圖2172x724及1440/390實看：端莊女性/調燈芯/查字無字三景吻合，無戰鬥或錯拼注音。三寬PASS，完整HTML注音詞組保護、桌機同行等高及手機自然高。",
+  "nativeArt": "assets/comics/q-404-art-c60e794d55-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:26:24.490613+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷四組目標字親見；窕/挑燈同ㄊㄧㄠˇ、秧怏/骸駭不同調、塑朔不同聲韻，B不變。新三景無字、注音HTML與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-404-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-404-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-404-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-404-validation.json"
+}

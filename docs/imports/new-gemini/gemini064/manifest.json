@@ -1,0 +1,43 @@
+{
+  "sourceKey": "gemini064",
+  "status": "drafts_complete",
+  "createdDate": "2026-08-10",
+  "redCorrectedSubquestionCount": 9,
+  "completeSubquestionCount": 8,
+  "completeCandidates": 8,
+  "completeRecordCountAfterGrouping": 7,
+  "duplicateCount": 1,
+  "awaitingCandidates": 0,
+  "readyCandidates": [
+    "gemini064-page01-q04",
+    "gemini064-page02-q02",
+    "gemini064-page02-q04",
+    "gemini064-page02-q05",
+    "gemini064-page03-q03",
+    "gemini064-page04-q25"
+  ],
+  "readyGroupedCandidates": [
+    {
+      "groupKey": "gemini064-page05-group-q40-q41",
+      "draft": "docs/imports/new-gemini/gemini064/group-page05-q40-q41.json",
+      "originalKeys": [
+        "page05-q40",
+        "page05-q41"
+      ]
+    }
+  ],
+  "standaloneDraftsReplacedByGroup": [
+    "page05-q40",
+    "page05-q41"
+  ],
+  "remainingOriginalKeys": [],
+  "duplicates": [
+    {
+      "originalQuestionKey": "page02-q01",
+      "existingQuestionId": "q-481"
+    }
+  ],
+  "normalQuestionsSkippedThisBatch": true,
+  "acquisitionRecord": "docs/acquisition/new-gemini064.json",
+  "qidAssignment": "Agent1唯一分配"
+}

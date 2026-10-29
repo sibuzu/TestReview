@@ -1,0 +1,108 @@
+{
+  "id": "q-406",
+  "subject": "Chinese",
+  "title": "先看條件，再看做法與避免的後果",
+  "art": "docs/comics/art/q-406.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 假如：先提出一個條件",
+      "text": "C先說假如大家都反對此議案。假如引出假設的情況，先不要把它讀成已經發生的事實；圖中的會議只是幫助理解的例子。",
+      "alt": "全新成年參與者在會議上表達保留意見的假設情境，無實際議案內容或真實人物。"
+    },
+    {
+      "heading": "② 就：說明條件成立時的做法",
+      "text": "接著說我們就不能貿然實施。反對的條件若成立，就不應冒失地推行；假如與就連成前後一致的條件關係。圖以暫停方案、先聽意見作示意。",
+      "alt": "全新協調者合起素面資料夾並示意暫停，不是完成施行或正式裁定。"
+    },
+    {
+      "heading": "③ 以免：交代希望避免的後果",
+      "text": "最後說以免引起公憤，表示不貿然實施，是為了避免招來眾人的憤怒。這是目的，不是保證結果；A的既而表時間，D的喜歡也不是價高的原因。",
+      "alt": "全新成人團體平和討論示意希望降低衝突，不把畫面當已保證避免公憤或全體同意。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：條件、做法、目的相接",
+    "points": [
+      "假如大家反對 → 就不能貿然實施 → 以免引起公憤。",
+      "A既而不合轉折；B即使與本句關係不順。",
+      "D喜歡衣服與價錢高，不能用因而接成因果。"
+    ]
+  },
+  "protectedWords": [
+    "假如",
+    "貿然實施",
+    "以免",
+    "引起公憤",
+    "既而",
+    "即使",
+    "因而",
+    "條件關係",
+    "時間",
+    "因果",
+    "議案"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-406-source-0e893a31ba.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見原題3全文四句與藍C，C假如/就/以免三層，A既而、B即使、D因而詞位核對。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a",
+  "answerCheckedAgainst": "原卷完整四句及既有C，獨立條件/做法/避免後果語義核對；MOE既而詞條佐證時間承接。",
+  "references": [
+    {
+      "title": "教育部重編國語辭典修訂本：既而",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=88571&la=0&powerMode=0",
+      "supports": "既而是前事後不久的時間承接，不是此句需要的轉折"
+    }
+  ],
+  "rationale": "全新無字反對意見/暫停推行/溝通三情境配HTML拆條件關係，第四格完整C鏈及另三項缺陷；圖僅假設例，不保證方案暫停就不會公憤。",
+  "promptPath": "docs/comics/q-406-prompt.txt",
+  "generationMetadata": "docs/comics/q-406-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "C",
+    "conditionalNotActualHistory": true,
+    "purposeNotGuaranteedOutcome": true,
+    "decisionLegalityInferred": false
+  },
+  "artSHA256": "3de3b7d7ee7105e27ddd0e9dec856abdff8380cf9fa1cd98fd9a55e7d8eb1f03",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:55:01.235055+00:00",
+  "previewValidation": "docs/comics/q-406-preview-validation.json",
+  "visualReview": "親見原卷3完整四句，沿C。新原圖及1440/390實看反對/暫停/溝通三景與HTML條件鏈吻合，圖不當事實、不保證無公憤。三寬PASS，預設收合、同行等高/單欄自然高和詞組無溢出；既而時間義官方核對。",
+  "nativeArt": "assets/comics/q-406-art-3de3b7d7ee-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:55:01.230759+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷四句與新三景實看，C假如/就/以免條件做法目的連貫；假設不當已發生、以免不當保證。四選排除無新增全稱，原題C不變，正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-406-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-406-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-406-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-406-validation.json"
+}

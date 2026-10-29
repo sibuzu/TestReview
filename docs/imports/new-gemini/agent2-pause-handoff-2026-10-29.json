@@ -1,0 +1,44 @@
+{
+  "agent": "comic_lane_2",
+  "role": "new_source_transcriber",
+  "state": "paused_by_user",
+  "pausedAt": "2026-10-29T08:39:04.773515+00:00",
+  "currentSource": "gemini065",
+  "currentSourceHandoff": "docs/imports/new-gemini/gemini065/paused-handoff.json",
+  "noQuestionDraftsAtCurrentSource": true,
+  "previousHandedOffSources": [
+    {
+      "sourceKey": "gemini059",
+      "state": "10題既已入庫，原卷10/10紅訂正",
+      "manifest": "docs/imports/new-gemini/gemini059/manifest.json"
+    },
+    {
+      "sourceKey": "gemini060",
+      "state": "10完整子題合9筆；p39q5使用者確認朱一貴已補稿；p44q30使用者明確skip不得重加",
+      "manifest": "docs/imports/new-gemini/gemini060/manifest.json"
+    },
+    {
+      "sourceKey": "gemini061",
+      "state": "5新完整題＋2重複沿q484/q485；0待核",
+      "manifest": "docs/imports/new-gemini/gemini061/manifest.json"
+    },
+    {
+      "sourceKey": "gemini062",
+      "state": "8完整子題合7筆，41/42共文；4/29使用者允許留原圖筆跡已解除待核",
+      "manifest": "docs/imports/new-gemini/gemini062/manifest.json"
+    },
+    {
+      "sourceKey": "gemini063",
+      "state": "8完整題＋1加熱液體種類條件待核；已全部交1",
+      "manifest": "docs/imports/new-gemini/gemini063/manifest.json"
+    },
+    {
+      "sourceKey": "gemini064",
+      "state": "8完整子題合7筆，40/41共文；1與q481重複；0待核，已交1",
+      "manifest": "docs/imports/new-gemini/gemini064/manifest.json"
+    }
+  ],
+  "instruction": "未入庫稿件保留原位，不要求Agent1新增入庫；本線不新增題目、不續來源、不修改共享題庫，直到使用者明確恢復。",
+  "liveTools": "沒有此線仍在執行的下載、圖像生成或轉錄程序。",
+  "scopeNote": "原圖預取由root早已完成，尚有66–103來源local可用；本線暫停不再讀取整理。"
+}

@@ -49,6 +49,93 @@ class MonitorTest(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
+    def test_current_new_sources_use_plan_and_local_acquisition_reports(self):
+        self.write('docs/imports/new-source-plan-2026-10-29.json', {'sources': [
+            {'key': 'new1', 'suggestedOrder': 1, 'url': 'https://example.com/1'},
+            {'key': 'new2', 'suggestedOrder': 2, 'url': 'https://example.com/2'}]})
+        original = self.root/'docs/original.jpg'
+        original.parent.mkdir(exist_ok=True)
+        original.write_bytes(b'local-acquisition-fixture')
+        self.write('docs/imports/more-gemini-progress.json', {'sources': [
+            self.source(1, 'complete', sourceCurationComplete=True, questionIds=['q-001'],
+                        archiveImages=1, downloadedImages=[{'path': 'docs/original.jpg'}]),
+            self.source(2, 'partial', questionIds=['q-002'])]})
+        self.write('docs/acquisition/gemini-002.json', {
+            'title': '已取回文字，圖片未完成', 'imagesExpected': 2,
+            'downloadedImages': [{'path': 'docs/missing-original.jpg'}]})
+        status = server.build_status(self.root)['newSources']
+        self.assertEqual((status['settled'], status['total'], status['percent']), (1, 2, 50))
+        self.assertEqual((status['imagesAvailable'], status['acquiredSources']), (1, 1))
+        self.assertEqual(status['published'], 2)
+        self.assertEqual(status['awaitingConfirmation'], 1)
+        self.assertEqual(status['sources'][1]['title'], '已取回文字，圖片未完成')
+
+    def test_current_new_sources_absent_without_assignment_plan(self):
+        self.assertIsNone(server.build_status(self.root)['newSources'])
+
+    def test_import_pause_is_explicit_without_pausing_comic_production(self):
+        self.write('monitor/import-control.json', {'state': 'paused', 'lastAllowedSourceOrder': 63})
+        self.write('docs/comics/progress.json', {'entries': [dict(
+            id='q-001',subject='Chinese',title='既有題',date='2026-01-01',state='queued')]})
+        self.write('monitor/parallel.json', {'lanes': [
+            dict(lane=2,role='import',state='importing',title='整理來源'),
+            dict(lane=3,role='production',state='running',questionId='q-001',title='製圖')]})
+        status=server.build_status(self.root)
+        self.assertEqual(status['importControl']['state'],'paused')
+        self.assertEqual(status['comics']['parallel']['lanes'][0]['state'],'paused')
+        self.assertEqual(status['comics']['parallel']['lanes'][1]['state'],'running')
+        self.assertEqual(status['summary']['questions'],2)
+        self.assertEqual(status['comics']['active'][0]['id'],'q-001')
+
+    def test_new_source_counts_published_bank_and_unpublished_source_confirmation(self):
+        self.write('docs/imports/new-source-plan-2026-10-29.json', {'sources': [
+            {'key': 'gemini001', 'suggestedOrder': 1, 'url': 'https://example.com/1'}]})
+        data = server.read_json(self.root/'site/dist/data.json')
+        data['questions'][0]['sourceId'] = 'src-gemini-more-001'
+        self.write('site/dist/data.json', data)
+        self.write('monitor/confirmations.json', {'requests': [
+            {'id': 'missing-original', 'state': 'pending', 'title': '尚未收入的題目缺字',
+             'sourceKey': 'gemini001', 'questions': ['請核對原圖']}], 'resolved': []})
+        status = server.build_status(self.root)
+        self.assertEqual(status['newSources']['published'], 1)
+        self.assertEqual(status['newSources']['awaitingConfirmation'], 1)
+        self.assertEqual(status['batches'][2]['sources'][0]['questions'][0]['id'], 'q-001')
+        self.assertFalse(status['batches'][2]['sources'][0]['settled'])
+
+    def test_source_list_displays_local_acquisition_without_claiming_curation(self):
+        self.write('docs/imports/new-source-plan-2026-10-29.json', {'sources': [
+            {'key': 'new1', 'suggestedOrder': 1, 'url': 'https://example.com/1'}]})
+        original = self.root/'docs/original.jpg'
+        original.parent.mkdir(exist_ok=True)
+        original.write_bytes(b'original')
+        self.write('docs/acquisition/gemini-001.json', {
+            'title': '已取回的歷史原卷', 'imagesExpected': 1,
+            'downloadedImages': [{'path': 'docs/original.jpg'}]})
+        original_progress = (self.root/'docs/imports/more-gemini-progress.json').read_bytes()
+        status = server.build_status(self.root)
+        row = status['batches'][2]['sources'][0]
+        self.assertEqual(row['title'], '已取回的歷史原卷')
+        self.assertEqual(row['state'], 'awaiting_transcription')
+        self.assertEqual(row['stateLabel'], '原圖已取得／待整理')
+        self.assertEqual((row['imagesAvailable'], row['imagesExpected']), (1, 1))
+        self.assertEqual(row['questions'], [])
+        self.assertFalse(row['settled'])
+        self.assertEqual(status['newSources']['settled'], 0)
+        self.assertEqual(status['newSources']['published'], 0)
+        self.assertEqual((self.root/'docs/imports/more-gemini-progress.json').read_bytes(), original_progress)
+
+    def test_missing_acquired_file_does_not_advance_source_state(self):
+        self.write('docs/imports/new-source-plan-2026-10-29.json', {'sources': [
+            {'key': 'new1', 'suggestedOrder': 1, 'url': 'https://example.com/1'}]})
+        self.write('docs/acquisition/gemini-001.json', {
+            'title': '缺圖來源', 'imagesExpected': 1,
+            'downloadedImages': [{'path': 'docs/not-downloaded.jpg'}]})
+        status = server.build_status(self.root)
+        row = status['batches'][2]['sources'][0]
+        self.assertEqual(row['state'], 'awaiting_source_read')
+        self.assertEqual((row['imagesAvailable'], row['imagesExpected']), (0, 1))
+        self.assertEqual(status['newSources']['acquiredSources'], 0)
+
     def test_new_source_denominator_excludes_original_todo(self):
         status = server.build_status(self.root)
         self.assertEqual(status['summary']['newSourcesTotal'], 6)

@@ -1,0 +1,115 @@
+{
+  "id": "q-363",
+  "subject": "Geography",
+  "title": "先定位東南山區，再比較人口密度",
+  "art": "docs/comics/art/q-363.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-363-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 西北臨海，東南深入山區",
+      "text": "回原圖定位：乙較靠西北沿海，丙在中段，丁在狹長的東南端。桃園東南部深入山地；新圖只示意地勢變化，不取代原題的行政區輪廓。",
+      "alt": "新製西北沿海經台地到東南山地的定性剖面，明示非實測或比例圖；四點精確位置仍回原卷。"
+    },
+    {
+      "heading": "② 丁的自然條件較不利密集聚居",
+      "text": "山區地形較陡，可居住用地與交通條件受限。依題目要求比較自然環境，丁附近最不利大量人口聚集，因此選D；不是說山區完全沒有居民。",
+      "alt": "新製東南丁山區到陡坡、可居住與交通條件受限、人口較難密集聚居的條件鏈。"
+    },
+    {
+      "heading": "③ 比的是密度，不是面積或人口總數",
+      "text": "人口密度是人口數除以土地面積。同樣面積內，人較少就較疏；不能因為山區面積廣，便認為密度較高。圓點圖只是定義示意，不是桃園人口統計。",
+      "alt": "新製相同大小兩區12與3圓點的假設密度比較，明示非桃園統計、不作人口估算。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：丁，東南部山區",
+    "points": [
+      "用原輪廓圖定位丁在東南端。",
+      "陡峭地形及開發條件限制人口聚集。",
+      "原題是2014年升格前背景，不是今日即將升格。"
+    ]
+  },
+  "protectedWords": [
+    "東南部",
+    "東南端",
+    "西北沿海",
+    "人口密度",
+    "人口總數",
+    "2014年",
+    "自然環境",
+    "行政區",
+    "桃園",
+    "山區"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-363-source-0828db7916.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-363-figure-9240cbf795.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "親見45完整2014升格前題幹四點選項及輪廓圖，甲北側乙西北丙中段丁狹長東南端，維持D。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae05276-e754-83ee-a87a-569980550954",
+  "answerCheckedAgainst": "原輪廓圖丁東南端與自然環境條件對照，復興區公所官方地理位置佐證桃園東南山區；答案D不變。",
+  "references": [
+    {
+      "title": "桃園市復興區公所：地理位置",
+      "url": "https://www.fuxing.tycg.gov.tw/cp.aspx?Create=1&n=7091",
+      "supports": "桃園東南山地位置，不把原丁點精確化成已知實測地點"
+    }
+  ],
+  "rationale": "新精確概念剖面與人口密度同面積示例，比泛用人物情境更直接連結位置、地形及密度定義；不猜丁點坐標，不虛構人口統計，原圖保留。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "D",
+    "terrainCrossSectionSurveyed": false,
+    "hypotheticalDotCounts": [
+      12,
+      3
+    ],
+    "equalAreaComparison": true,
+    "dotCountsRepresentActualPopulation": false,
+    "originalMapReplaced": false,
+    "2014BackgroundPreserved": true
+  },
+  "artSHA256": "c7cb1dda09c96c654dc76c007f5caa56362cd23043a5c1e2f1f00f5f48a3a2f1",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:26:24.471372+00:00",
+  "previewValidation": "docs/comics/q-363-preview-validation.json",
+  "visualReview": "原卷全文與輪廓圖兩張實看，丁東南端核D；1440/390實看新SVG剖面方向及等面積12/3圓點示例，無當實測或人口統計。三寬PASS、雙欄同行等高與手機單欄自然高，無溢出或詞組跨行。",
+  "nativeArt": "assets/comics/q-363-art-c7cb1dda09.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:26:24.468218+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷完整題與甲乙丙丁輪廓親見，丁東南山區對D；新概念剖面不冒充原圖，12/3點同面積僅定義密度，2014歷史語境未改。SVG與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-363-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-363-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-363-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-363-validation.json"
+}

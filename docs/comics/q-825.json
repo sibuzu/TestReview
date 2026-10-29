@@ -1,0 +1,118 @@
+{
+  "id": "q-825",
+  "subject": "History",
+  "title": "古地圖要用當時已出現的建設判年代",
+  "art": "docs/comics/art/q-825.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先抓乾隆年間這個時間限制",
+      "text": "題幹問哪個註記符合乾隆年間的地圖。乾隆朝在18世紀，所以先檢查各項設施在那時是否已經出現；不是看到古地圖或清朝建築，就不分先後。",
+      "alt": "全新研究者查看無字山水卷軸的概念情境，不是原題指定地圖、故宮藏品重製或精確地名圖。"
+    },
+    {
+      "heading": "② 臺灣府城，是臺南的府城",
+      "text": "C所說臺灣府城主要指臺南，不是前題晚清的臺北府城。乾隆年間臺灣府城已有城門建設，所以符合這個時段；兩座府城不能因名稱相近而混用。",
+      "alt": "全新匿名清代讀圖人物與一般古城門情境，不是現存臺南城門精確復原，不讓模型決定年代與城門數。"
+    },
+    {
+      "heading": "③ 其餘三項，出現年代都較晚",
+      "text": "馬偕的醫館、億載金城炮臺、打狗英國領事館，都是19世紀後期相關設施。若把它們畫進乾隆時期地圖，就有年代不合的問題；不能將晚清設施挪到18世紀。",
+      "alt": "全新現代師生比較空白年代卡的情境，精確設施名稱與世紀皆由HTML呈現。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：臺灣府城的城門",
+    "points": [
+      "乾隆年間屬18世紀，臺南府城城門符合。",
+      "A、B、D都是較晚的19世紀相關設施。",
+      "本題是四選一比較；精確繪圖年仍須多項史料交叉。"
+    ]
+  },
+  "protectedWords": [
+    "乾隆年間",
+    "18世紀",
+    "19世紀後期",
+    "19世紀",
+    "臺灣府城",
+    "臺北府城",
+    "臺南",
+    "馬偕",
+    "億載金城",
+    "打狗英國領事館",
+    "炮臺",
+    "醫館"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini060-6a5699e438c574.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見第7完整山水地圖描述與四設施選項，紅C；原題臺灣府城非臺北府城，未改原題未確定地圖細節。"
+  },
+  "sourceUrl": "https://share.gemini.google/2fl355A2cArZ",
+  "answerCheckedAgainst": "完整原卷四選項核C，國家文化資產網/臺南官方史料支持1736乾隆城門；故宮官方古圖頁支持以官署治所等交叉斷代方法，不把題目未具名地圖精確定為單一藏品或年份。",
+  "references": [
+    {
+      "title": "國家文化資產網：臺灣府城城門及城垣殘蹟",
+      "url": "https://nchdb.boch.gov.tw/city/TN/assets/overview/monument/19851127000058/",
+      "supports": "1736乾隆元年石造城門與乾隆時期發展",
+      "access": "官方搜尋摘要，直開需JS"
+    },
+    {
+      "title": "國立故宮博物院：臺灣地圖",
+      "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04001051",
+      "supports": "以圖中官署治所行政區劃等交叉推估年代的方法",
+      "access": "主文實讀，僅引用斷代方法，不等同原題未具名圖的全部數字"
+    }
+  ],
+  "rationale": "全新無字看古圖、古城情境、比較年代三景配HTML，抓18/19世紀排除與臺南/臺北辨名；不讓生成圖仿造原卷地圖、製造地名或精確斷代。",
+  "promptPath": "docs/comics/q-825-prompt.txt",
+  "generationMetadata": "docs/comics/q-825-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "C",
+    "taiwanPrefectureCity": "臺南",
+    "confusedWithTaipeiPrefectureCity": false,
+    "exactMapDateClaimed": false,
+    "generatedScrollIsActualMuseumArtifact": false,
+    "chronology": "乾隆18世紀 vs 晚清19世紀"
+  },
+  "artSHA256": "99451351e25124ab080b8075fa63d9679a042f82fa3331424b8cfa901abeba5f",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:59:57.288777+00:00",
+  "previewValidation": "docs/comics/q-825-preview-validation.json",
+  "visualReview": "原第7完整四設施與紅C親見，官方臺灣府城1736與故宮斷代方法已核。新原圖/1440/390實看古卷軸、匿名古城讀圖、現代比年代，非故宮原件或實際臺南城門復原，不改地圖數字、不憑單門精確定年。三寬PASS，臺灣府城/臺北府城詞完整、同行等高手機自然高。",
+  "nativeArt": "assets/comics/q-825-art-99451351e2-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:59:57.285334+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷乾隆地圖題四項親見，18世紀臺南臺灣府城C與晚清臺北府城區分；其餘3設施19世紀排除，不單憑城門推定精確圖年。新原始圖與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-825-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-825-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-825-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-825-validation.json"
+}

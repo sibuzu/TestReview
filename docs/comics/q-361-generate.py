@@ -1,0 +1,29 @@
+from pathlib import Path
+import json,hashlib
+s=['<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180">']
+for i in range(3):
+ o=180*i
+ def txt(x,y,t,size=10,col='#244b50'):s.append(f'<text x="{o+x}" y="{y}" text-anchor="middle" font-size="{size}" fill="{col}">{t}</text>')
+ def box(y,t,col='#dce8d0',size=11):s.append(f'<rect x="{o+10}" y="{y}" width="160" height="30" rx="5" fill="{col}"/>');txt(90,y+20,t,size)
+ def line(x,y,xx,yy):s.append(f'<path d="M{o+x} {y}L{o+xx} {yy}" fill="none" stroke="#849e8f" stroke-width="1.5"/>')
+ s.append(f'<rect x="{o}" width="180" height="180" fill="{["#edf2e8","#edf2f5","#faf1e4"][i]}"/><g font-family="sans-serif">')
+ if i==0:
+  txt(90,18,'先完整讀表（原題資料）',10)
+  rows=[('成立','民國74年'),('面積','11,338公頃'),('最高點','1,120公尺'),('年雨量','4,863.1mm'),('特色','全年有雨')]
+  for j,(a,b) in enumerate(rows):
+   y=33+j*25;s.append(f'<rect x="{o+8}" y="{y}" width="164" height="24" fill="{ "#e1ecd9" if j==2 else "#f7f9f3"}"/>');txt(40,y+16,a,9);txt(119,y+16,b,10)
+  txt(90,176,'不替換成今天的統計',9)
+ elif i==1:
+  txt(90,18,'最高點是排除關鍵',11)
+  for j,t in enumerate(['A 陽明山：1,120公尺','B 雪霸：最高點更高','C 太魯閣：也含高山','D 玉山：最高點更高']):box(32+j*32,t,'#dce8d0' if j==0 else '#f8f7ef',10)
+  txt(90,178,'對照同一欄：園區最高點',9)
+ else:
+  txt(90,18,'不能只靠民國74年',10)
+  box(34,'陽明山與玉山皆民國74年',size=10);line(90,67,90,86);line(86,81,90,86);line(94,81,90,86)
+  box(91,'再合看最高點與雨量','#dce7ef',10);line(90,123,90,141);line(86,136,90,141);line(94,136,90,141)
+  txt(90,162,'A 陽明山最相符',13)
+ s.append('</g>')
+s.append('</svg>');art='docs/comics/art/q-361.svg';Path(art).write_text(''.join(s))
+q={'id':'q-361','subject':'Geography','title':'成立年份不夠，要合看最高點與雨量','art':art,'artMode':'deterministic-svg','generatorFile':'docs/comics/q-361-generate.py','layoutVersion':'native-fluid-v6','panels':[{'heading':'① 先完整讀表，不只記成立年份','text':'表中列民國74年、面積11,338公頃、最高點1,120公尺、年雨量4,863.1mm與全年有雨。這些要一起核對，尤其最高點是很有用的限制。','alt':'新製逐欄原表摘錄，五項數值逐字保留原題，最高點色帶突出，不替換今日面積、雨量或公園總數。'},{'heading':'② 最高點1,120公尺，排除高山園區','text':'陽明山位於北部大屯火山群，符合表中最高點1,120公尺。雪霸、太魯閣、玉山都涵蓋更高的山地，不能因為也有多雨環境，就忽略這個高度限制。','alt':'四公園最高點條件對照卡，A符合，其餘只標更高或含高山，不臆造未核對的數值比例或實際山形。'},{'heading':'③ 同年成立，也要看其他條件','text':'陽明山與玉山都在民國74年設立，所以年份不能單獨決定答案。再合看面積、最高點與全年有雨的特色，A最相符；北部迎東北季風的環境也能幫助理解多雨。','alt':'同為74年到合看最高點/雨量再選陽明山的篩選流程，非只年份一項判定。'}],'fourth':{'answer':'答案 A：陽明山國家公園','points':['最高點1,120公尺，是排除其他高山園區的關鍵。','同為民國74年成立，仍須合看其他欄位。','題幹8座與表中數值照原教材，並非今天總數與最新統計。']},'protectedWords':['民國74年','11,338公頃','1,120公尺','4,863.1mm','全年有雨','陽明山','雪霸','太魯閣','玉山','國家公園','東北季風','最高點','原教材'],'originalChecked':{'images':['site/dist/assets/questions/q-361-source-65fcba2754.jpg'],'visualChecked':True,'answer':'A','notes':'親見43題全文8座、公園四項與表九五行，74/11338/1120/4863.1/全年有雨，維持A。'},'answerCheckedAgainst':'原表五條件合看陽明山，尤其1120排除三高山園區；官方陽明山介紹與環教認證資料支持74年及1120；原表歷史面積雨量不更新為今日不同口徑，八座亦保留時點限制。','references':[{'title':'陽明山國家公園管理處：園區介紹','url':'https://www.ymsnp.gov.tw/ch/sglarticle/park-introduction','access':'official search-result full excerpt','supports':'74年公告計畫及成立管理處'},{'title':'環境部環境教育認證：陽明山國家公園','url':'https://neecs.moenv.gov.tw/Home/PlaceQryView?id=1d9f96d8-6ab8-4444-a292-fa126d291351','access':'official search-result excerpt','supports':'民國74年、海拔200至1120；不以現行面積替換原表11338'}],'rationale':'新原生精確表格摘錄、最高點條件卡、年份再交叉篩選，直接減少只記成立年錯選玉山的風險；不需泛用山景取代精確資訊，原數值與歷史時點保留，無來源AI。','sourceAIUsed':False,'generationCalls':0,'manualLineBreaks':False,'diagramChecks':{'selected':'A','originalTable':[74,11338,1120,4863.1,'全年有雨'],'modernAreaSubstituted':False,'eightParksClaimIsCurrent':False,'yearAloneIdentifiesAnswer':False},'artSHA256':hashlib.sha256(Path(art).read_bytes()).hexdigest()}
+D=json.loads(Path('site/dist/data.json').read_text());sid=next(x['sourceId'] for x in D['questions'] if x['id']=='q-361');q['sourceUrl']=next(x['url'] for x in D['sources'] if x['id']==sid)
+Path('docs/comics/q-361.json').write_text(json.dumps(q,ensure_ascii=False,indent=2)+'\n')

@@ -7,7 +7,8 @@ const {chromium} = require('playwright');
 const ROOT = path.resolve(__dirname, '../..');
 const progressFile = path.join(ROOT, 'docs/imports/more-gemini-progress.json');
 const orders = process.argv.slice(2).map(Number);
-if(!orders.length || orders.some(n=>!Number.isInteger(n)||n<1||n>58))throw Error('Pass Gemini source orders (1–58)');
+const sourceCount = JSON.parse(fs.readFileSync(progressFile,'utf8')).sources.length;
+if(!orders.length || orders.some(n=>!Number.isInteger(n)||n<1||n>sourceCount))throw Error(`Pass Gemini source orders (1–${sourceCount})`);
 fs.mkdirSync(path.join(ROOT,'docs/acquisition'),{recursive:true});
 const priorStatus=path.join(ROOT,'monitor/gemini-acquisition.json');
 const previous=fs.existsSync(priorStatus)?JSON.parse(fs.readFileSync(priorStatus,'utf8')).sources:[];
@@ -26,7 +27,7 @@ function createdDate(line) {
   try {
     for (const order of orders) {
       const current = JSON.parse(fs.readFileSync(progressFile,'utf8')).sources[order-1];
-      if (!current || !/^https:\/\/share\.gemini\.google\/[A-Za-z0-9]+$/.test(current.url)) throw Error('Invalid source order/URL');
+      if (!current || !/^https:\/\/(?:share\.gemini\.google\/|gemini\.google\.com\/share\/)[A-Za-z0-9]+$/.test(current.url)) throw Error('Invalid source order/URL');
       const key = current.url.split('/').pop();
       const page = await context.newPage();
       let archive, downloaded=[], errors=[];
@@ -45,7 +46,8 @@ function createdDate(line) {
           scroller.scrollTo(0,top);
           return {title:document.title,text:document.body.innerText,images:[...seen.values()],allImageMetadata:[...document.images].map(im=>({alt:im.alt,width:im.naturalWidth,height:im.naturalHeight})),finalUrl:location.href};
         });
-        const createdLine=result.text.split('\n').find(t=>t.startsWith('Created with'))||result.text.split('\n').find(t=>/^\s*[A-Z][a-z]+ \d{1,2}, \d{4} at /.test(t))||'';
+        const headerLines=result.text.split('You said')[0].split('\n');
+        const createdLine=headerLines.find(t=>!t.startsWith('Published ')&&/[A-Z][a-z]+ \d{1,2}, \d{4} at /.test(t))||'';
         const publishedLine=result.text.split('\n').find(t=>t.startsWith('Published '))||'';
         archive={url:current.url,...result,createdDisplay:createdLine,createdDate:createdDate(createdLine),publishedDisplay:publishedLine,fetchedAt:new Date().toISOString()};
         fs.writeFileSync(path.join(ROOT,`docs/sources/gemini-${key}.json`),JSON.stringify(archive,null,2)+'\n');

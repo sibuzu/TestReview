@@ -1,6 +1,6 @@
 {
   "createdAt": "2026-10-29T06:59:32.793712+00:00",
-  "instruction": "使用者分工：主Agent回答派工；Agent1整合；Agent2加入新題且先留插畫位置；Agent3產插畫。依序整理這四個使用者提供的Gemini來源。",
+  "instruction": "新增題目範圍截至more_gemini第63來源；Agent2只完成63收尾後暫停，不處理64起已取消來源。Agent1先將63可收入稿入網頁，再排插畫QUEUE；現有插畫與整合持續。",
   "sources": [
     {
       "key": "gemini059",
@@ -39,13 +39,23 @@
       "draftDirectory": "docs/imports/new-gemini/gemini062",
       "acquisitionRecord": "docs/acquisition/new-gemini062.json",
       "integrationReceipt": "docs/imports/new-gemini/gemini062/integrated.json"
+    },
+    {
+      "key": "gemini063",
+      "suggestedOrder": 63,
+      "url": "https://share.gemini.google/SBtc8Pxn9RX4",
+      "aliases": [],
+      "draftDirectory": "docs/imports/new-gemini/gemini063",
+      "acquisitionRecord": "docs/acquisition/new-gemini063.json",
+      "integrationReceipt": "docs/imports/new-gemini/gemini063/integrated.json"
     }
   ],
   "ownership": {
     "plan": "root append-only input assignments",
     "acquisitionAndDrafts": "/root/comic_lane_2",
     "sharedSourceProgressAndPublication": "/root/comic_lane_1",
-    "illustrations": "/root/comic_lane_3"
+    "illustrations": "/root/comic_lane_3",
+    "newQuestionContentAndRedCorrectionValidation": "/root/comic_lane_2"
   },
   "rules": [
     "判斷內容重複，不只比URL；不沿用來源AI圖。",
@@ -54,5 +64,22 @@
     "題目qid由Agent1唯一分配；Agent2候選稿用sourceKey/question-local-key，避免撞id。",
     "Agent1可先收入核對好的題目/答案/詳解，保留待製作插畫欄位並加入漫畫佇列；Agent3完成後再由1整合四格。",
     "原799題未完成插畫繼續，除非使用者另指定優先，不硬暫停舊佇列。"
-  ]
+  ],
+  "updatedAt": "2026-10-29T07:29:55.984339+00:00",
+  "inclusionPolicy": {
+    "updatedAt": "2026-10-29T07:33:54.792117+00:00",
+    "scope": "本次尚未發布的新增題目；已入庫59十題另核對是否均符合，有例外回報，不擅刪現有題庫。",
+    "required": "原卷有明確紅筆訂正",
+    "excludedThisBatch": "一般正常答題，暫跳過而非永久排除",
+    "evidence": "Agent2逐題核對並保存原圖path、題號／位置、紅字訂正與完整內容證據；Agent1只去重和技術入庫，不重複核對紅字。",
+    "notEvidence": "AI回覆用紅字、紅色印刷或猜測錯題標記均不能替代原卷訂正。"
+  },
+  "handoffPolicy": {
+    "newQuestions": "先網頁入庫，後排插畫QUEUE；不等待插畫完成才發布完整原題及解說。",
+    "importer": "每來源穩定manifest交稿後直接續下一來源，不等待Agent1回應或整合。",
+    "integrator": "新題稿先上網頁，再消化ready插畫；兩類佇列無可處理工作時才原子claim協助插畫。",
+    "switchBack": "協助插畫途中有整合工作到達，完成當前插畫並stage，再切回整合，不續領新製作。"
+  },
+  "sourceScopeEnd": 63,
+  "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json"
 }

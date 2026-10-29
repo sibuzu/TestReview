@@ -1,0 +1,115 @@
+{
+  "id": "q-826",
+  "subject": "History",
+  "title": "看土地侵占與協商，判斷官員處理的事件",
+  "art": "docs/comics/art/q-826.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 題幹列的是土地與移墾問題",
+      "text": "先找具體行為：購買、質押原住民土地，或擅自進入、占據土地。這些都指向漢人移墾時的土地爭端，不是泛指任何原住民族相關事件。",
+      "alt": "全新匿名居民在田界旁就空白土地文件提出疑問，示意土地糾紛，不指定族群服飾或真實人物。"
+    },
+    {
+      "heading": "② 官員統籌的是原漢協商",
+      "text": "題幹說北路理番同知統籌漢人與原住民之間須協商的事件。把官員工作和土地線索合看，最符合C：化解平埔族因漢人移墾產生的衝突。",
+      "alt": "全新匿名清代官員與書吏審閱無字土地文件，非現代法院或實際印章重製，不保證行政必然公平成功。"
+    },
+    {
+      "heading": "③ 不能只見官職，就套別的政策",
+      "text": "A說動員鎮壓，B說對抗日軍，都不是本段的土地協商；D雖也談原住民事務，卻把處理方式換成地方會議。選項要同時符合事件與題幹職務。",
+      "alt": "全新匿名官員聽取居民土地問題的概念情境，不是D所指統治制度的地方會議或軍事集會，無投票儀式。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：化解漢人移墾造成的衝突",
+    "points": [
+      "土地購買、質押、擅入與占據，是核心線索。",
+      "官員統籌原漢交涉，對應土地爭端。",
+      "歷史官職照原題，不能換成別時代或當代程序。"
+    ]
+  },
+  "protectedWords": [
+    "北路理番同知",
+    "原住民土地",
+    "原住民族",
+    "漢人移墾",
+    "土地爭端",
+    "原漢協商",
+    "平埔族",
+    "地方會議",
+    "土地協商"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini060-3a150fe1d48c56.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見第16完整官職管轄與購買質押占據、四項及紅C，不新增設官年份或把後期海防職權覆蓋本題。"
+  },
+  "sourceUrl": "https://share.gemini.google/2fl355A2cArZ",
+  "answerCheckedAgainst": "原題完整土地行為與統籌協商核C；臺史博理番分府印章典藏主文、原住民族事典核交涉及土地職掌，不作現代法規說明。",
+  "references": [
+    {
+      "title": "國立臺灣歷史博物館：理番分府印章",
+      "url": "https://collections.nmth.gov.tw/CollectionContent.aspx?a=132&rno=2006.006.0702",
+      "supports": "清代理番同知管理漢人原住民交涉與土地契約",
+      "access": "典藏主文實讀"
+    },
+    {
+      "title": "臺灣原住民族事典：理番同知",
+      "url": "https://indigenapedia-alcd.nccu.edu.tw/detail?cat=0&id=11650&race=0&search=&writer=",
+      "supports": "原漢土地交涉及民事爭端職務，不泛化各時期職權",
+      "access": "主文與職務段已讀"
+    }
+  ],
+  "rationale": "全新無字田界/官員看土地文件/聽取問題三情境配HTML連土地行為與職掌，人物匿名不AI重建族服，不把行政協商描繪成必然公平解決或現代程序。",
+  "promptPath": "docs/comics/q-826-prompt.txt",
+  "generationMetadata": "docs/comics/q-826-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "C",
+    "historicalOfficePreserved": true,
+    "allIndigenousIssuesConflated": false,
+    "specificTribalCostumeInvented": false,
+    "fairResolutionGuaranteed": false,
+    "modernLawProcedureClaimed": false
+  },
+  "artSHA256": "c05d7a76479ec32ee9e436d0bfe83e33ef1dff7b5fe2259827430b14cc8eeee4",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:59:57.309668+00:00",
+  "previewValidation": "docs/comics/q-826-preview-validation.json",
+  "visualReview": "原第16完整官職/管轄土地行為與四項紅C親見；臺史博典藏主文與原住民族事典核職掌不加設官年。新原圖及1440/390實看田界/看契約/聽居民三景匿名無族服刻板、無虛構特定判決；題幹原官職保留不等同現行程序。三寬PASS、同行等高與單欄自然高無溢出。",
+  "nativeArt": "assets/comics/q-826-art-c05d7a7647-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:59:57.306070+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷全部官員職掌與4項親見，購買質押/擅入原住民土地→原漢協商C，不混鎮壓/日軍/地方會議或今法程序。新田界/官員/聽取居民三圖與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-826-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-826-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-826-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-826-validation.json"
+}

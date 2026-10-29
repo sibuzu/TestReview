@@ -1,0 +1,76 @@
+{
+  "id": "q-849",
+  "subject": "Physics-Chemistry",
+  "title": "紅色固體減少，管內液面下降",
+  "art": "docs/comics/art/q-849-hgo-level.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T08:56:57.855853+00:00",
+  "panels": [
+    {
+      "heading": "① 紅色反應物會變少",
+      "text": "紅色的氧化汞受熱分解，逐漸轉變成汞和氧氣。被消耗的是原本紅色的固體，所以紅色部分變少。",
+      "alt": "新製氧化汞量的前後比較條，後方紅色較少，僅作減少趨勢示意，不暗示題目給定反應比例。"
+    },
+    {
+      "heading": "② 氧氣生成，占據管內空間",
+      "text": "氧化汞分解成汞與氧氣；生成的氧氣聚集在管內上方，使管內氣體增加。反應前後物質種類改變，屬於分解反應。",
+      "alt": "新製產物汞與氧氣的概念圖，汞以銀色液滴、氧氣以氣體泡示意；沒有把氣體畫成紅色氧化汞。"
+    },
+    {
+      "heading": "③ 氣體增加，把液面向下排",
+      "text": "管口在槽內液面下，生成的氣體聚集於管內上方，讓液體向下排出，因此管內液面下降。",
+      "alt": "新製倒置收集管前後液面對照，兩管口皆伸入槽內液面下；槽內液體先畫、管內液柱及玻璃輪廓後畫，內部液面由高變低，無指定液體種類或精確液位。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 紅色固體減少，管內液面下降",
+    "answer": "答案 A：液面下降、紅色部分變少",
+    "points": [
+      "反應：2HgO → 2Hg＋O₂。",
+      "紅色氧化汞被消耗，紅色部分減少。",
+      "生成氣體使管內液面下降。",
+      "對照原卷內容選A，不沿原AI誤標的D。"
+    ]
+  },
+  "protectedWords": [
+    "氧化汞",
+    "紅色",
+    "固體",
+    "氧氣",
+    "倒置管",
+    "液面",
+    "管內",
+    "分解反應",
+    "反應物"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini063-77eafe02b7b491.jpg",
+    "site/dist/assets/questions/gemini063-6db5b6fc1569ed.jpg"
+  ],
+  "originalVisualCheck": "重讀正式第5題原卷四選項及必要裝置圖：A液面下降紅少、B下降紅多、C上升紅少、D上升紅多，原卷紅A；裝置倒管口在液槽內。",
+  "answerCheckedAgainst": "依已核對正式題文與2HgO受熱分解產Hg/O2，紅反應物減少、氣體增加使管內液面下降，核A。原AI說明現象但字母誤D的舊確認項已交Monitor，本題不再重開。",
+  "rationale": "用精確前後量條、分解產物與倒置管液位對照，直接教兩個可觀測結果，比人物操作圖清楚；不猜液槽液體種類，不教實際操作步驟，不重用來源AI圖。",
+  "generationCalls": 0,
+  "artSHA256": "d8bebc4b49f163dd67a06ca79fc8053adc45f2d81e734fff19fc1b8537a7e9b0",
+  "visualChecked": true,
+  "diagramChecks": {
+    "originalAnswer": "A",
+    "redSolidAfterLess": true,
+    "gasAfterMore": true,
+    "insideLiquidLevelAfterLower": true,
+    "tubeMouthBelowExternalLiquidBothFrames": true,
+    "tubeDrawingAfterLiquidFill": true,
+    "liquidIdentityClaim": false,
+    "preciseReactionFractionClaim": false
+  },
+  "timingEvidence": "docs/comics/q-849-timing.json",
+  "completedAt": "2026-10-29T09:00:36.010778+00:00",
+  "checkedAt": "2026-10-29T09:00:36.010778+00:00",
+  "layoutEvidence": "docs/comics/q-849-preview-validation.json",
+  "visualReview": "實看三寬及最終桌機/手機截圖；HgO量減少、Hg/O2產物、兩倒管口皆在液槽液面下且管內後液位較低。已修液柱填色高度，無溢出槽底或遮掉管口；原卷A與反應現象一致。1440/1120同列等高、390單欄自然高度，三寬載圖/換行/無橫溢及預設收合通過。",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-849-1440.png",
+    "/tmp/weirugo-comic-previews/q-849-1120.png",
+    "/tmp/weirugo-comic-previews/q-849-390.png"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "q-824",
+  "subject": "History",
+  "title": "設府、規畫、落成，分清晚清建城背景",
+  "art": "docs/comics/art/q-824.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 2024減140，先定位1884落成",
+      "text": "題幹用2024年建城140周年，算出1884年落成。再依規畫到落成費時5年的線索，放回晚清脈絡；不能見到清朝，就選早兩世紀的納臺。",
+      "alt": "全新現代師生看無字時間紙與簡單城牆模型，數字計算由HTML呈現，非北門精確模型。"
+    },
+    {
+      "heading": "② 設臺北府，才連到府城的規畫",
+      "text": "牡丹社事件後，沈葆楨1875年奏設臺北府。府級行政與防務需求，是後續府城規畫的直接背景，因此選A；不是把設府就當成城牆已經落成。",
+      "alt": "全新匿名晚清官員在木桌前研議空白規畫圖，無實際臺北街廓或特定人物，示意行政規畫。"
+    },
+    {
+      "heading": "③ 把三個階段分開記",
+      "text": "1875年設府、1879年開始規畫、1884年落成，是不同階段。開港與茶業興起能解釋北部發展，但本題問最初規畫背景，行政區劃調整比商業興起更直接。",
+      "alt": "全新晚清工匠砌低矮石牆概念情境，不是北門建築復原，不讓模型決定真實城門形制或工程年代。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：牡丹社事件後調整行政區劃",
+    "points": [
+      "2024－140＝1884，定位府城落成的晚清年代。",
+      "1875設府 → 1879規畫 → 1884落成。",
+      "不能混成1684納臺，也不把茶業興起當設府本身。"
+    ]
+  },
+  "protectedWords": [
+    "2024年",
+    "1884年",
+    "1875年",
+    "1879年",
+    "1684",
+    "2024－140＝1884",
+    "1875設府",
+    "1879規畫",
+    "1884落成",
+    "沈葆楨",
+    "臺北府",
+    "牡丹社事件",
+    "行政區劃",
+    "府城"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini060-870762053c303c.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見第1完整2024建城140周年/規畫落成5年及四項，黑C紅A；題目問最初規畫不是目前樓層開放。"
+  },
+  "sourceUrl": "https://share.gemini.google/2fl355A2cArZ",
+  "answerCheckedAgainst": "原卷完整題幹四項核A，臺北市文化局主文1875奏設/1879規畫/1884竣工獨立對照，2024-140=1884。",
+  "references": [
+    {
+      "title": "臺北市政府文化局：認識有形文化資產",
+      "url": "https://culture.gov.taipei/cp.aspx?n=EA99D09460E4AFB8",
+      "supports": "主文1875設府、1879規畫、1884竣工",
+      "access": "主文286–288段實讀"
+    },
+    {
+      "title": "臺北市政府：歷史發展探源",
+      "url": "https://www.gov.taipei/cp.aspx?n=14D2637CBC4AAEC2&s=E0ACC486E3DA0A8C",
+      "supports": "1875沈葆楨奏府及1884府城完竣",
+      "access": "官方搜尋摘要"
+    }
+  ],
+  "rationale": "全新無字看年代/行政規畫/石牆工程三情境配HTML準確年份鏈，讓年代推算與制度背景分開；不AI重建精確北門或假稱史實人物照片。",
+  "promptPath": "docs/comics/q-824-prompt.txt",
+  "generationMetadata": "docs/comics/q-824-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "A",
+    "subtraction": {
+      "year": 2024,
+      "anniversary": 140,
+      "completion": 1884
+    },
+    "stages": {
+      "establishPrefecture": 1875,
+      "planning": 1879,
+      "completion": 1884
+    },
+    "stagesConflated": false,
+    "exactNorthGateReconstruction": false
+  },
+  "artSHA256": "c70a830fb6f03f5d24518743d07d880d78ab1eb44b26e4ec955c51ad1f3ca39c",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:59:57.266225+00:00",
+  "previewValidation": "docs/comics/q-824-preview-validation.json",
+  "visualReview": "親見原卷1完整四項與紅A；獨立2024-140/1884-1879驗算及文化局主文1875/1879/1884核對。新原圖及1440/390實看無字看年代/規畫/砌牆，非精確北門復原、不把三階段混同。三寬PASS、同行等高單欄自然高、短算式與日期詞組完整，答案A。",
+  "nativeArt": "assets/comics/q-824-art-c70a830fb6-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:59:57.260916+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷完整建城140周年及5年規畫題四項親見，2024−140＝1884、1875設府/1879規畫/1884落成分清，A不混成納臺或茶產業；新三景無字非北門實測復原，正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-824-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-824-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-824-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-824-validation.json"
+}

@@ -3,10 +3,105 @@ import json
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
-from .comic_pipeline import claim, stage, begin, integrated, load, save
+from unittest.mock import patch
+from .comic_pipeline import claim, stage, begin, integrated, load, save, update_display
 
 
 class PipelineTests(unittest.TestCase):
+    def idle_integration_fixture(self, directory):
+        root = Path(directory)
+        (root/'monitor').mkdir()
+        (root/'docs/comics').mkdir(parents=True)
+        save(root/'docs/comics/progress.json', {'entries': [
+            dict(id=f'q-{i}', title=str(i), subject='Math', date='2026-10-21', state='queued')
+            for i in (1, 2, 3)]})
+        save(root/'docs/comics/pipeline.json', {'jobs': []})
+        save(root/'monitor/parallel.json', {'lanes': [
+            {'lane':1,'role':'integration'}, {'lane':2,'role':'import'}, {'lane':3,'role':'production'}]})
+        return root
+
+    def test_idle_integrator_can_help_without_duplicate_claims(self):
+        with TemporaryDirectory() as directory:
+            root=self.idle_integration_fixture(directory)
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                jobs=list(pool.map(lambda lane:claim(root,lane),[1,3]))
+            self.assertEqual(len({job['id'] for job in jobs}),2)
+            self.assertIsNone(claim(root,2))
+
+    def test_new_ready_work_waits_until_existing_helper_job_finishes(self):
+        with TemporaryDirectory() as directory:
+            root=self.idle_integration_fixture(directory)
+            helper=claim(root,1)
+            production=claim(root,3)
+            (root/'docs/comics/evidence.json').write_text('{}')
+            stage(root,production['id'],'not_suitable','Reviewed',['docs/comics/evidence.json'])
+            self.assertEqual(claim(root,1)['jobId'],helper['jobId'])
+            stage(root,helper['id'],'not_suitable','Reviewed',['docs/comics/evidence.json'])
+            self.assertIsNone(claim(root,1))
+
+    def test_handed_off_drafts_block_help_but_cancelled_sources_do_not(self):
+        with TemporaryDirectory() as directory:
+            root=self.idle_integration_fixture(directory)
+            (root/'docs/imports/new-gemini/gemini063').mkdir(parents=True)
+            (root/'docs/imports/new-gemini/gemini064').mkdir()
+            save(root/'docs/imports/more-gemini-progress.json', {'sources':[{'order':63,'sourceCurationComplete':False}]})
+            for order in (63,64):
+                save(root/f'docs/imports/new-gemini/gemini{order:03}/manifest.json',{'readyCandidates':[f'gemini{order:03}-one']})
+            self.assertIsNone(claim(root,1))
+            save(root/'docs/imports/new-gemini/gemini063/integrated.json',{'mappings':[{'candidateId':'gemini063-one'}]})
+            self.assertIsNotNone(claim(root,1))
+
+    def test_import_qa_activity_survives_production_refresh(self):
+        with TemporaryDirectory() as directory:
+            root=self.idle_integration_fixture(directory)
+            configuration=load(root/'monitor/parallel.json')
+            configuration['lanes'][0]['activeTask']={'title':'Published question QA','state':'integrating'}
+            save(root/'monitor/parallel.json',configuration)
+            self.assertIsNone(claim(root,1))
+            claim(root,3)
+            owner=load(root/'monitor/parallel.json')['lanes'][0]
+            self.assertEqual(owner['title'],'Published question QA')
+            self.assertEqual(owner['state'],'integrating')
+
+    def timing_fixture(self, root):
+        (root/'monitor').mkdir()
+        (root/'docs/comics').mkdir(parents=True)
+        save(root/'docs/comics/progress.json', {'entries': [dict(id='q-1', title='Clock', subject='Math', date='2026-10-21', state='queued')]})
+        save(root/'docs/comics/pipeline.json', {'jobs': []})
+        save(root/'monitor/parallel.json', {'lanes': [{'lane': i} for i in (1, 2, 3)]})
+        claim(root, 1)
+        (root/'docs/comics/evidence.json').write_text('{}')
+        stage(root, 'q-1', 'not_suitable', 'Individual review', ['docs/comics/evidence.json'])
+
+    def test_same_host_monotonic_interval_survives_utc_label_reversal(self):
+        with TemporaryDirectory() as directory:
+            root=Path(directory)
+            self.timing_fixture(root)
+            with patch('monitor.comic_pipeline.now', return_value='2026-10-29T10:00:00+00:00'), patch('monitor.comic_pipeline.time.monotonic_ns', return_value=1000000000), patch('monitor.comic_pipeline.socket.gethostname', return_value='same-host'):
+                begin(root, 'q-1')
+            with patch('monitor.comic_pipeline.now', return_value='2026-10-29T09:00:00+00:00'), patch('monitor.comic_pipeline.time.monotonic_ns', return_value=4000000000), patch('monitor.comic_pipeline.socket.gethostname', return_value='same-host'):
+                integrated(root, 'q-1')
+            job=load(root/'docs/comics/pipeline.json')['jobs'][0]
+            self.assertEqual(job['integrationSeconds'],3.0)
+            self.assertTrue(job['integrationTimingValid'])
+            self.assertEqual(job['integrationTimingMethod'],'monotonic')
+            self.assertEqual(job['originalReportedIntegrationSeconds'],-3600.0)
+            self.assertTrue(job['integrationUTCLabelsWentBackwards'])
+            self.assertEqual(job['integratedAt'],'2026-10-29T09:00:00+00:00')
+            self.assertIn('integrationEventId',job)
+
+    def test_different_hosts_have_no_comparable_monotonic_interval(self):
+        with TemporaryDirectory() as directory:
+            root=Path(directory)
+            self.timing_fixture(root)
+            with patch('monitor.comic_pipeline.socket.gethostname', return_value='host-a'):
+                begin(root,'q-1')
+            with patch('monitor.comic_pipeline.socket.gethostname', return_value='host-b'):
+                integrated(root,'q-1')
+            job=load(root/'docs/comics/pipeline.json')['jobs'][0]
+            self.assertIsNone(job['integrationSeconds'])
+            self.assertFalse(job['integrationTimingValid'])
+
     def test_integration_lane_finishes_existing_job_then_stops_claiming(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)

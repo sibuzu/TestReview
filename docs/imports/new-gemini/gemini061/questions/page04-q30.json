@@ -1,0 +1,92 @@
+{
+  "candidateId": "gemini061-page04-q30",
+  "sourceKey": "gemini061",
+  "originalQuestionNumber": "page04-q30",
+  "subject": "English",
+  "title": "英文第30題｜路況方向與到咖啡館的最省時路線",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "date": "2026-08-14",
+  "dateLabel": "對話建立日期（Created）",
+  "addedAt": "2026-10-29",
+  "question": "Joe is going to have dinner with his friends at Andy's Café. If he starts from his house, which route can save him the most time?\n\n(A) Bank Road → Park Road.\n(B) Market Road → Green Road.\n(C) Market Road → Lake Road → Park Road.\n(D) Market Road → Rainbow Road → Park Road.",
+  "passage": "Good evening, everyone. This is ABC traffic report. I'm Jerry Hsu. For those of you going south on Bank Road, the traffic is moving slowly. Westbound traffic on Park Road looks good until you reach Lake Road. Besides, there is a traffic jam on the corner of Market Road and Green Road because of the roadwork. Please watch out when passing there. Also, the weather report said there will be heavy snow later into the night and early morning hours in the mountains. If you're going there, remember to be more careful. And that's all from ABC traffic report. Have a nice day!\n\n【原卷字詞註釋】westbound：西向的；jam：堵塞；roadwork：修路工程。",
+  "answer": "正確答案：A。從Joe家沿Bank Road往北，再沿Park Road向西到咖啡館；報導只說Bank Road向南慢，不影響此向北路線，最直接。",
+  "explanation": "先用北箭頭確認方向，再把每個塞車點放回地圖：Bank Road只有南下慢，不能把整條Bank Road判成雙向塞車。Joe從家往咖啡館先北上，再沿Park Road往西；西向車流在到Lake Road前尚順暢，而咖啡館位於Lake Road以東，因此A兼顧方向與較短路程。Market與Green交叉口的施工會影響B、C，D則繞道。\n\n【A】從Joe家沿Bank Road往北，再沿Park Road向西到咖啡館；報導只說Bank Road向南慢，不影響此向北路線，最直接。\n【B】Market Road與Green Road交叉口施工塞車，這條路會經過該路口。\n【C】必須沿Market Road向西經過Green Road施工路口，再繞Lake Road，會受影響。\n【D】先往東到Rainbow Road再繞回Park Road，較A繞遠，無相應避開A必經堵點的優勢。",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "Bank Road → Park Road.",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "從Joe家沿Bank Road往北，再沿Park Road向西到咖啡館；報導只說Bank Road向南慢，不影響此向北路線，最直接。"
+    },
+    {
+      "label": "B",
+      "text": "Market Road → Green Road.",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "Market Road與Green Road交叉口施工塞車，這條路會經過該路口。"
+    },
+    {
+      "label": "C",
+      "text": "Market Road → Lake Road → Park Road.",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "必須沿Market Road向西經過Green Road施工路口，再繞Lake Road，會受影響。"
+    },
+    {
+      "label": "D",
+      "text": "Market Road → Rainbow Road → Park Road.",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "先往東到Rainbow Road再繞回Park Road，較A繞遠，無相應避開A必經堵點的優勢。"
+    }
+  ],
+  "correctOption": "A",
+  "studentAnswer": "D，原卷紅筆訂正A",
+  "images": [
+    "docs/imports/new-gemini/gemini061/assets/page04-q30-reading.jpg",
+    "docs/imports/new-gemini/gemini061/assets/page04-q30.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gemini/gemini061/assets/page04-q30-map.jpg",
+      "alt": "原卷街道地圖，含Joe家、Andys Café、Bank/Park/Market/Green/Lake/Rainbow道路及向北箭頭；未含手寫答案。",
+      "caption": "原卷路線圖，請配合交通報導判斷。"
+    }
+  ],
+  "tables": [],
+  "verification": "原題已核對",
+  "contentStatus": "完整原題",
+  "verificationNote": "已實看原卷完整題文、選項及必要材料；來源標示第8單元，但無可核對翰林冊次章節，歸綜合。",
+  "trap": "",
+  "diagram": "",
+  "tags": [],
+  "sourceUrl": "https://share.gemini.google/PG8U2uUXtGhv",
+  "sourceAliases": [
+    "https://share.gemini.google/ZyMMNvNzXf2L",
+    "https://gemini.google.com/share/8531ceb61375"
+  ],
+  "sourceLabel": "分享原卷｜page04-q30",
+  "references": [],
+  "reviewIssues": [],
+  "illustrationStatus": "pending",
+  "illustrationNote": "待專職插畫代理新製四格，不採用來源AI圖。",
+  "inclusionEvidence": {
+    "sourceImage": "docs/imports/new-gemini/gemini061/assets/page-04.jpg",
+    "redCorrection": "A",
+    "location": "第30題左側黑D被劃紅叉，旁寫紅A",
+    "originalQuestionKey": "page04-q30",
+    "visuallyChecked": true,
+    "qualifiesForThisBatch": true,
+    "checkedAt": "2026-10-29T07:59:47.907485+00:00"
+  },
+  "draftMetadata": {
+    "originalVisualChecked": true,
+    "originalImage": "docs/imports/new-gemini/gemini061/assets/page-04.jpg",
+    "imagePathsNeedPublishRewrite": true,
+    "qidAssignedByIntegrator": true,
+    "checkedAt": "2026-10-29T07:59:47.907485+00:00"
+  }
+}

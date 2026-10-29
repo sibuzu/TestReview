@@ -1,0 +1,118 @@
+{
+  "id": "q-823",
+  "subject": "History",
+  "title": "租約是導火線，漳泉祖籍對立是背景",
+  "art": "docs/comics/art/q-823.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先抓原文的祖籍線索",
+      "text": "林家出身漳州，原文又說林國芳與泉州人先前就有嫌隙。這是在交代漳泉兩方的祖籍背景，D寫的是祖籍，不是租籍；不能把祖誤當出租的租。",
+      "alt": "全新現代師生比對空白卡閱讀歷史情境，精確漳州泉州與祖字均由HTML呈現。"
+    },
+    {
+      "heading": "② 收回土地、改租，成為導火線",
+      "text": "1861年租約糾紛後，林國芳收回泉州籍佃農的土地，再改租漳州人。這個行為引爆衝突；但要連同兩方原有嫌隙，才看得出祖籍對立的群體背景。",
+      "alt": "全新匿名清代地主與佃農在田邊就空白租約爭執，非林國芳肖像或特定衝突現場，不虛構金額和面積。"
+    },
+    {
+      "heading": "③ 不能只因林家經商，就選郊商競爭",
+      "text": "原文雖提林家經營米、糖、鹽，這場衝突卻不是在比較商人的生意，而是由租約與改租不同籍貫的人引發。依本文背景選D，不是說祖籍不同就一定會敵對。",
+      "alt": "全新兩組匿名清代村民在街巷相對而立的緊張情境，無族群外貌刻板區分或真實戰鬥，並非普遍因果定律。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：祖籍不同互相敵視",
+    "points": [
+      "原文線索：漳州林家與泉州人先有嫌隙。",
+      "租約糾紛、改租漳州人，是衝突導火線。",
+      "原題祖籍不可誤寫租籍；經商背景也不等於郊商競爭。"
+    ]
+  },
+  "protectedWords": [
+    "林國芳",
+    "林家",
+    "漳州",
+    "泉州",
+    "祖籍",
+    "租籍",
+    "1861年",
+    "租約糾紛",
+    "泉州籍佃農",
+    "導火線",
+    "郊商競爭",
+    "群體背景"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini060-789381fa409001.jpg",
+      "site/dist/assets/questions/gemini060-00d4102f470242.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "親見林國芳全文含1861租約改租段及第6四項，紅D、D祖籍清楚；不重開來源AI祖/租已訂正事項。"
+  },
+  "sourceUrl": "https://share.gemini.google/2fl355A2cArZ",
+  "answerCheckedAgainst": "原文先有漳泉嫌隙、1861改租與第6完整四項核D，文獻館官方摘要及林本源園邸史料支持漳泉衝突脈絡；不補新因果或把全體籍貫不同者概括為敵對。",
+  "references": [
+    {
+      "title": "林本源園邸：板橋林家發跡",
+      "url": "https://www.culture.ntpc.gov.tw/linfamily_chi/xmdoc/cont?sid=0G246413375211681532&xsmsid=0G245368629130386174",
+      "supports": "林家與漳泉衝突背景"
+    },
+    {
+      "title": "國史館臺灣文獻館：大觀義學與板橋林家",
+      "url": "https://www.th.gov.tw/Epaper_Content/238/7010/",
+      "supports": "1861漳泉衝突擴大與清廷嚴辦",
+      "access": "官方搜尋摘要，直開JS殼未冒稱全文"
+    }
+  ],
+  "rationale": "全新無字讀史、租約與群體嫌隙三景配HTML拆導火線/背景；人物匿名非史實肖像，不模擬焚搶血腥，沒有把祖籍差異當天生必然敵對。",
+  "promptPath": "docs/comics/q-823-prompt.txt",
+  "generationMetadata": "docs/comics/q-823-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "D",
+    "originalD": "祖籍不同互相敵視",
+    "ancestryWordNotRentWord": true,
+    "rentTriggerAndGroupBackgroundDistinguished": true,
+    "allDifferentAncestriesConflict": false,
+    "anonymousArtNotHistoricalPortrait": true
+  },
+  "artSHA256": "692731461e3cbe22a6e0f8f7db4f27a05df14bd66342007225e1701ddea728b2",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:55:01.346538+00:00",
+  "previewValidation": "docs/comics/q-823-preview-validation.json",
+  "visualReview": "全文與第6四項親見，祖籍非租籍/紅D核對。林本源官方主文及文獻館摘要交叉核漳泉背景。新原圖2172x724與1440/390實看：現代讀史/田邊租約/兩群嫌隙三景，無真實人物肖像、暴力或族群外貌刻板，HTML分導火線與背景。三寬PASS，同行等高單欄自然高，無溢出。",
+  "nativeArt": "assets/comics/q-823-art-692731461e-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T08:55:01.343679+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷完整林國芳材料及D祖籍四選親見，新三景分清漳泉原嫌隙和1861租約導火線，經商不當郊商競爭；不把籍貫差異當必然敵對。D與使用者確認維持，正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-823-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-823-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-823-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-823-validation.json"
+}

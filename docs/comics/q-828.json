@@ -1,0 +1,75 @@
+{
+  "id": "q-828",
+  "subject": "History",
+  "title": "契作先看收購成本，不混售價與收入",
+  "art": "docs/comics/art/q-828.png",
+  "artMode": "imagegen",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 契作內容：貸款加上保障收購",
+      "text": "題目指定陶德提供的契作模式，先回找對應句。他提供貸款並保障收購茶葉，鼓勵農民種茶；不能把全文所有茶業發展，都當作這個模式的直接作用。",
+      "alt": "全新匿名英商與臺灣農民討論無字契約的晚清概念情境，不是陶德本人肖像、真實簽約紀錄或現代法律程序。"
+    },
+    {
+      "heading": "② 農民種茶，陶德取得茶葉原料",
+      "text": "原文接著明說，藉此以較低的價格取得茶葉。這裡的茶葉是陶德茶業的投入原料，所以較低的取得價格，對應C所說降低生產成本。",
+      "alt": "全新臺灣丘陵茶園農民採茶示意原文供應背景，不設定產量、工資或保證契作增加多少產出。"
+    },
+    {
+      "heading": "③ 原料買價，不等於產品售價",
+      "text": "後文的茶價攀升、外銷成長，與契作句的低價取得茶葉要分開讀。少花成本買原料，不等於賣茶收入降低；本文也沒說此模式直接提高產品售價。",
+      "alt": "全新工坊接收茶葉並秤量情境，無金額、價格走勢或利潤圖，不讓模型編造成本降幅與交易價格。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：降低生產成本",
+    "points": [
+      "貸款與保障收購 → 鼓勵種茶 → 低價取得茶葉。",
+      "成本在此指取得茶葉等生產投入的成本。",
+      "原料買價、產品售價、銷量與收入要分開判讀。"
+    ]
+  },
+  "protectedWords": [
+    "陶德",
+    "契作模式",
+    "保障收購",
+    "較低的價格",
+    "取得茶葉",
+    "降低生產成本",
+    "產品售價",
+    "銷售收入",
+    "外銷成長",
+    "生產投入"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini060-d44c6f014bf281.jpg",
+      "site/dist/assets/questions/gemini060-e7fb7b821e8f13.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見完整茶業共文全文、原33四項及紅C；契作句貸款保障收購與較低價格取得茶葉清楚，未擅補數字或延伸已排除子題。"
+  },
+  "sourceUrl": "https://share.gemini.google/2fl355A2cArZ",
+  "answerCheckedAgainst": "僅依完整原文指定契作句→較低價格取得原料，獨立區分成本/售價/銷量/收入四項，C不變；不新增外部史實。",
+  "rationale": "全新無字契作商談/採茶/工坊收原料三景支援因果鏈，所有機制與C成本概念由HTML，人物匿名不作歷史現場照片，沒有杜撰利潤或契約條款。",
+  "promptPath": "docs/comics/q-828-prompt.txt",
+  "generationMetadata": "docs/comics/q-828-generation.json",
+  "generationCalls": 1,
+  "sourceAIUsed": false,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "C",
+    "rawMaterialAcquisitionCostNotRetailPrice": true,
+    "profitOrYieldInvented": false,
+    "actualDoddPortrait": false,
+    "contractGuaranteesFairnessOrProfit": false,
+    "noOtherSubquestionAdded": true
+  },
+  "artSHA256": "ce8c6a5c4a845f3e304d1277fc1285f358e323c682e370c17e9fd5db98fce7b3",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T08:59:35.317951+00:00",
+  "previewValidation": "docs/comics/q-828-preview-validation.json",
+  "visualReview": "完整原茶葉共文及33四項紅C親見，低價取得茶葉句核C成本不混銷價/收入。實看新原圖2172x724及1440/390：匿名英商契作商談/採茶/接收秤茶三景無字不杜撰金額，非陶德實際肖像或特定交易。三寬PASS、詞組完整且同行等高手機自然高，未新增其他共文小題。"
+}

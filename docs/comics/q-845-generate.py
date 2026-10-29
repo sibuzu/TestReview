@@ -1,0 +1,46 @@
+from pathlib import Path
+import json,hashlib
+s=['<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180">']
+for i in range(3):
+ o=180*i
+ def t(x,y,z,size=10,c='#284d4d'):s.append(f'<text x="{o+x}" y="{y}" text-anchor="middle" font-size="{size}" fill="{c}">{z}</text>')
+ def box(x,y,w,h,z,c='#dce7cf',size=14,tag=''):s.append(f'<rect x="{o+x}" y="{y}" width="{w}" height="{h}" rx="5" fill="{c}" {tag}/>');t(x+w/2,y+h/2+5,z,size)
+ s.append(f'<rect x="{o}" width="180" height="180" fill="{["#eaf1f4","#eef3e7","#faf0e6"][i]}"/><g font-family="sans-serif">')
+ if i==0:
+  t(90,19,'電荷總和要等於0',11)
+  box(10,64,67,39,'Mg²⁺','#c1d8e1',16,'data-ion="Mg" data-charge="2"')
+  box(104,34,64,35,'OH⁻','#dce7cf',16,'data-ion="OH" data-charge="-1"')
+  box(104,98,64,35,'OH⁻','#dce7cf',16,'data-ion="OH" data-charge="-1"')
+  t(91,89,'+',14)
+  t(90,157,'(+2)＋(−1)＋(−1)＝0',11)
+  t(90,177,'離子比例示意，非晶體結構',8)
+ elif i==1:
+  t(90,19,'下標2作用於整組OH',11)
+  t(90,49,'Mg(OH)₂',20)
+  box(12,75,42,34,'Mg','#c1d8e1',14)
+  box(67,75,44,34,'OH','#dce7cf',14)
+  box(123,75,44,34,'OH','#dce7cf',14)
+  t(90,137,'Mg：1　O：2　H：2',12)
+  t(90,163,'兩組OH，不是只加倍H',10)
+  t(90,178,'化學式比例，不是分子圖',8)
+ else:
+  t(90,18,'核對原卷B的化學式',11)
+  box(15,33,150,34,'MgOH（錯）','#edcfbf',15)
+  t(90,87,'+2−1＝+1，不平衡',11)
+  box(15,106,150,34,'Mg(OH)₂（正）','#cee0bc',15)
+  t(90,160,'+2−2＝0',13)
+ s.append('</g>')
+s.append('</svg>');a=Path('docs/comics/art/q-845.svg');a.write_text(''.join(s))
+d={'id':'q-845','subject':'Physics-Chemistry','title':'氫氧根要兩組，括號下標一起算','art':str(a),'artMode':'deterministic-svg','generatorFile':'docs/comics/q-845-generate.py','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① Mg²⁺要配兩個OH⁻才中性','text':'鎂離子帶+2電，氫氧根OH⁻每組帶−1電。需要兩組OH⁻，總電荷才是+2−1−1＝0；只配一組，電荷還沒有平衡。','alt':'新精確離子比例卡一Mg2+兩OH−，帶電量2/-1/-1總和0；非獨立分子或晶體結構圖。'},
+{'heading':'② Mg(OH)₂的2，是乘整組OH','text':'OH是原子團，有兩組時要先加括號，再在外面寫2。展開Mg(OH)₂的組成比例，是1個Mg、2個O、2個H；不是只把H變成2。','alt':'新精確化學式展開卡Mg+OH+OH顯示一鎂兩氧兩氫，只表示化學式比例不當真實分子。'},
+{'heading':'③ 題目找錯誤，所以選B','text':'原卷B寫MgOH，少了一組OH，應訂正為Mg(OH)₂。A的HCl、C的Ag、D的CO₂都與名稱相合；不要因銀是金屬，就把Ag判成不能作化學式。','alt':'新製MgOH錯與Mg(OH)2正兩列電荷核對，不更改原選項，只在展開解說訂正。'}],
+'fourth':{'answer':'答案 B：MgOH錯，應為Mg(OH)₂','points':['Mg²⁺與OH⁻要按1：2配成電中性。','括號外2作用於O和H，兩者都各2。','離子化合物的化學式表示組成比例。']},
+'protectedWords':['Mg²⁺','OH⁻','Mg(OH)₂','MgOH','+2−1−1＝0','氫氧根','原子團','HCl','Ag','CO₂','電中性','化學式'],
+'originalChecked':{'images':['site/dist/assets/questions/gemini063-405e11f148aee5.jpg'],'visualChecked':True,'answer':'B','notes':'親見第11找錯誤及原表四名/式，B確印MgOH紅訂Mg(OH)2，紅B，保留原表錯式在題幹。'},
+'sourceUrl':'https://share.gemini.google/SBtc8Pxn9RX4','answerCheckedAgainst':'原表完整四項核B，獨立2+2*(-1)=0，OpenStax Mg(OH)2離子解離組成支持一Mg2+兩OH−；不作分子/晶格形狀宣稱。',
+'references':[{'title':'OpenStax Chemistry 2e 15.1 Precipitation and Dissolution','url':'https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution','supports':'Mg(OH)2名稱與一Mg2+兩OH−比例','access':'官方搜尋主文與例題15.1內容已讀'},{'title':'PubChem: Magnesium Hydroxide','url':'https://pubchem.ncbi.nlm.nih.gov/compound/magnesium_hydroxide','supports':'化學式Mg(OH)2','access':'官方搜尋摘要'}],
+'rationale':'用精確離子電荷、原子團括號展開及錯式對照直接支援配平，不需人物和模型猜化學式；區分組成比例與分子形狀，不擅改原題。',
+'sourceAIUsed':False,'generationCalls':0,'manualLineBreaks':False,'diagramChecks':{'selectedWrongOption':'B','correctFormula':'Mg(OH)₂','ionRatio':{'Mg2+':1,'OH-':2},'totalCharge':0,'formulaAtomCounts':{'Mg':1,'O':2,'H':2},'claimsDiscreteMoleculeOrLattice':False},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()}
+assert 2+2*(-1)==0 and 2-1!=0
+Path('docs/comics/q-845.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

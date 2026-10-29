@@ -1,0 +1,118 @@
+{
+  "batch": "gemini",
+  "order": 62,
+  "url": "https://share.gemini.google/lEdStGcomTed",
+  "title": "地理第5回題本",
+  "state": "acquired",
+  "checkedAt": "2026-10-29T07:15:18.204Z",
+  "createdDate": "2026-08-13",
+  "createdDisplay": "Created with 3.8 Flash August 13, 2026 at 07:49 PM",
+  "archive": "docs/sources/gemini-lEdStGcomTed.json",
+  "imagesExpected": 7,
+  "downloadedImages": [
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-1.jpg",
+      "sha256": "4e8bfa221106c42adff50a968aa24e78f59069ef0c06389d16bc776ddf822e98",
+      "bytes": 261178,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    },
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-2.jpg",
+      "sha256": "eb6225c5fb84b273b0ac01c7e8a39ae6a9dd0b9381ec278913ec58b2553433f4",
+      "bytes": 329201,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    },
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-3.jpg",
+      "sha256": "b17fc4674d86cb4b8927b3eb12b2a71a381da1458a480845e673ab87ffcd3fb9",
+      "bytes": 262163,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    },
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-4.jpg",
+      "sha256": "dec37d770d9d88795a360b060db87814e77b74fad47aa66dcca0e95dd22ccd7a",
+      "bytes": 329978,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    },
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-5.jpg",
+      "sha256": "26a36d97f05cd710f2e8dbe687c7a5396dec7316c1b0195a93f9fa084f924b43",
+      "bytes": 255465,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    },
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-6.jpg",
+      "sha256": "902528900c9189d37a1e23f37f6f674ee9506a90428a2f038b344d61f535a784",
+      "bytes": 328209,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    },
+    {
+      "path": "docs/source-pages/gemini-lEdStGcomTed-7.jpg",
+      "sha256": "ee720c2079a84fb0e033170da45d2c46c30ce50f2656e10757984925cf2a2e44",
+      "bytes": 295395,
+      "renderedWidth": 750,
+      "renderedHeight": 1000,
+      "downloadVariant": "original_size_s0"
+    }
+  ],
+  "textLength": 5569,
+  "errors": [],
+  "sourceKey": "gemini062",
+  "status": "drafts_complete",
+  "draftDirectory": "docs/imports/new-gemini/gemini062",
+  "visualChecked": true,
+  "visualCheckNote": "7/7原卷實看；前6側轉90度校正，第7本直立。8明確紅訂正子題，其中41/42共文合一筆；2附圖含答案提示待核。",
+  "candidateCount": 8,
+  "completeCandidates": 8,
+  "completeRecordCountAfterGrouping": 7,
+  "awaitingCandidates": 0,
+  "aliases": [
+    "https://share.gemini.google/uw4w2YCL8j8I",
+    "https://gemini.google.com/share/6aa40aba9fca"
+  ],
+  "inclusionEvidence": "docs/imports/new-gemini/gemini062/inclusion-evidence.json",
+  "readyOriginalKeys": [
+    "p02-q06",
+    "p05-q22",
+    "p08-q34",
+    "p11-q45",
+    "p10-q41",
+    "p10-q42",
+    "p01-q04",
+    "p07-q29"
+  ],
+  "remainingOriginalKeys": [],
+  "awaitingOriginalKeys": [],
+  "skippedThisBatch": [
+    {
+      "originalQuestionKey": "p02-q07",
+      "state": "skippedThisBatch",
+      "reason": "原圖第7題左側為黑筆叉，無紅字改答；上方紅色宗教筆記屬第6題選項，不當作第7題紅訂正。",
+      "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-02.jpg"
+    },
+    {
+      "originalQuestionKey": "p07-q30",
+      "state": "skippedThisBatch",
+      "reason": "黑筆C原選與必要圖南部丙（班加羅爾）相符，未見紅筆改答案；紅色地名旁註不把正常答題當錯題。原AI卻把丁解作班加羅爾並選D，不能照抄，圖中丁在印度東北部。",
+      "sourceImage": "docs/imports/new-gemini/gemini062/assets/page-04.jpg",
+      "sourceAiIncorrectAnswer": "D",
+      "actualMapSouthLabel": "丙/C"
+    }
+  ],
+  "userAllowedAnnotatedOriginals": [
+    "p01-q04",
+    "p07-q29"
+  ]
+}

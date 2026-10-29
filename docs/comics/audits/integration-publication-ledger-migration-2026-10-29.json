@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-10-29T07:50:01.754327+00:00",
+  "migrationLedger": "docs/comics/publication-ledger.json",
+  "publishedBatchCount": 15,
+  "publishedEvents": 300,
+  "uniquePublishedEvents": 300,
+  "eligibleEvents": 304,
+  "pendingEvents": 4,
+  "pendingQuestionIds": [
+    "q-400",
+    "q-401",
+    "q-057",
+    "q-372"
+  ],
+  "baselineExcludedEvents": 298,
+  "remoteCommitVerified": "14ac9a414e9a3e8b1a71a525055586dd07f0a664",
+  "oldReceiptsBytePreserved": [
+    {
+      "batchNumber": 1,
+      "events": 20,
+      "receiptSHA256": "a4e14731ac60af39005ce606abd07a001209879ca2b5d926bd14c6e640f7057a"
+    },
+    {
+      "batchNumber": 2,
+      "events": 20,
+      "receiptSHA256": "01dd6b5611346a4367cfcf2e2fe3042f5e7ed5de5381d31065f067a59e4d185f"
+    },
+    {
+      "batchNumber": 3,
+      "events": 20,
+      "receiptSHA256": "ca038cc652b4ad089ae93bb731aff08d42c9103dc5a3ce1634d39902e10908a5"
+    },
+    {
+      "batchNumber": 4,
+      "events": 20,
+      "receiptSHA256": "347338b1d24e8dc408cdfb0b1fb502c45c598a36de2a182563b995c718bd44ac"
+    },
+    {
+      "batchNumber": 5,
+      "events": 20,
+      "receiptSHA256": "d5ea363d5bcf4851653259c22438e61c7d0b953b11cf9c80634f838c956713fa"
+    },
+    {
+      "batchNumber": 6,
+      "events": 20,
+      "receiptSHA256": "35b7170f4967341c0ce4244c2160ab6b73f89ad558af1eef457b3a63365146bd"
+    },
+    {
+      "batchNumber": 7,
+      "events": 20,
+      "receiptSHA256": "2bb7a41180c0e114bfb34bfa63677ae09e66ce862bd569f4d5b8a29daea81127"
+    },
+    {
+      "batchNumber": 8,
+      "events": 20,
+      "receiptSHA256": "04a55db4f06beb5206a0c0064729e5cdbce51c48d236a52b80f80ca27142539f"
+    },
+    {
+      "batchNumber": 9,
+      "events": 20,
+      "receiptSHA256": "bb14ccecf8f063df18288a2c4b51bc65ad18a079c2cd5b74511c978e5f1992aa"
+    },
+    {
+      "batchNumber": 10,
+      "events": 20,
+      "receiptSHA256": "212ae031a1cd09f7f4c3723282cae09544a89cead6bf7ee0d61c9b7140f6dd0b"
+    },
+    {
+      "batchNumber": 11,
+      "events": 20,
+      "receiptSHA256": "120a4ca3f85877839ad062fba93a770e59fc4a2f50c34076c218e826b432d90a"
+    },
+    {
+      "batchNumber": 12,
+      "events": 20,
+      "receiptSHA256": "57bcb064a7c984a4a1adc197f036352eb361f1c8c3203bb220d537afcb4808a8"
+    },
+    {
+      "batchNumber": 13,
+      "events": 20,
+      "receiptSHA256": "5da194545a997181877f383ec2648dbcd46f126e6458c5fed92da513e09aa9e4"
+    },
+    {
+      "batchNumber": 14,
+      "events": 20,
+      "receiptSHA256": "cf3562d1259fb10b2cdf6d4a3530ba8d0c9cc4a08fdfa829719c25022f6e3e98"
+    },
+    {
+      "batchNumber": 15,
+      "events": 20,
+      "receiptSHA256": "3150c8e992961a140e1359fb7a2c71dcfd6e53d8cde17597e07baf7ea45a1c6c"
+    }
+  ],
+  "frozenComparisons": [
+    {
+      "path": "docs/comics/parallel-speed-comparison.json",
+      "sha256": "03b2ef75b8d1fe46765c14dd0a95cab869af5df28bd414b34ed3917fb46a523d",
+      "unchangedVsHEAD": true
+    },
+    {
+      "path": "docs/comics/speed-comparison.json",
+      "sha256": "75ffeb9af1265fc84402567851b4c2debae4c7bcf5d0ff9f38d44726317aa864",
+      "unchangedVsHEAD": true
+    }
+  ],
+  "newCounterUsesUTC": false,
+  "newCounterUsesStableJobEventId": true,
+  "sameQuestionNewAttemptCountsAgain": true,
+  "metadataEditsDoNotCreateEvents": true,
+  "networkRetryKeepsPendingPush": true,
+  "tests": {
+    "pipelineAndPublication": 16,
+    "allMonitorBeforeFinalExtraTest": 38,
+    "site": 72
+  },
+  "proofTests": [
+    "new event UTC earlier than last cursor still counted",
+    "same qid rework different event; metadata no new event",
+    "failed push retried without second commit or duplicate event",
+    "cache restored from tracked ledger after remote HEAD verification",
+    "same-host monotonic valid despite UTC reversal",
+    "different hosts duration invalid null"
+  ],
+  "notes": [
+    "q057 original UTC negative duration preserved and invalid/null, no invented interval.",
+    "q372 isolated monotonic interval separately retained; old positive UTC samples not retroactively guessed or rewritten.",
+    "No DNS/Netlify deployment or force push; next normal publication waits for 20 events."
+  ],
+  "siteValidationNote": "Initial ingress draft-only illustrationStatus/illustrationNote and source aliases were not schema fields; removed from published objects while retained acquisition/receipt/progress evidence. Dataset rebuilt, all72 site tests pass.",
+  "siteValidationLog": ".cache/integrator-site-test-after-ledger.log"
+}

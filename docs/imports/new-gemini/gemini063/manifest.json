@@ -1,0 +1,36 @@
+{
+  "sourceKey": "gemini063",
+  "status": "drafts_complete_with_one_answer_condition_confirmation",
+  "createdDate": "2026-08-12",
+  "candidateCount": 9,
+  "completeCandidates": 8,
+  "completeRecordCountAfterGrouping": 8,
+  "awaitingCandidates": 1,
+  "readyCandidates": [
+    "gemini063-page01-q02",
+    "gemini063-page02-q04",
+    "gemini063-page03-q05",
+    "gemini063-page04-q11",
+    "gemini063-page05-q15",
+    "gemini063-page05-q18",
+    "gemini063-page06-q23",
+    "gemini063-page07-q05"
+  ],
+  "awaitingContentConfirmationOriginalKeys": [
+    "page08-q11"
+  ],
+  "remainingOriginalKeys": [],
+  "groups": [],
+  "groupingBasis": "無真共用文章/條件的多個紅訂正小題，不能僅同課主題或同頁合併。",
+  "skippedThisBatch": [
+    {
+      "originalQuestionKey": "page02-q03",
+      "state": "skippedThisBatch",
+      "notPermanentlyExcluded": true,
+      "sourceImage": "docs/imports/new-gemini/gemini063/assets/page-02.jpg",
+      "reason": "原AI列為錯題，但原卷第3題只見黑C與黑叉註記，無紅筆改答/訂正；不能把鄰題第4題紅A或右頁第11題紅B挪作本題紅訂正證據。"
+    }
+  ],
+  "acquisitionRecord": "docs/acquisition/new-gemini063.json",
+  "qidAssignment": "Agent1唯一分配"
+}

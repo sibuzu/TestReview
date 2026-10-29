@@ -266,3 +266,11 @@
 - Monitor顯示兩路製作、一路整合、待整合與整合中；第三路的舊已完成製作紀錄保留，不誤刪或改寫歷史。
 
 - 產圖計時可靠性：UTC起訖只作時間標籤，不直接把跨環境Date差當可靠耗時；可比較耗時使用同一執行主機的monotonic_ns起訖並註明包含的協調／工具呼叫範圍。負值、時間倒退或不可比較的起訖，一律durationSeconds=null、timingValid=false、excludeFromSpeedStatistics=true，保留原時間與originalReportedDurationSeconds，不補猜秒數。歷史凍結10張／20題比較不可因新題或時間異常改寫；明確區分純產圖與整體工作週期。
+
+- 計時規則澄清：上述「倒退」是指實際用來計算耗時的時鐘。若同一主機有完整、遞增且可比的monotonic_ns起訖，該區間耗時有效；UTC標籤倒退僅另外註記，不使有效單調耗時失效。保留measurementMethod、主機、monotonic原值與scope，不把含工具協調／probe的區間宣稱純模型產圖時間。沒有單調旁證的舊UTC倒退樣本仍排除。
+
+## 工作分工：使用者最新指定 Agent1整合／Agent2新題／Agent3插畫
+
+- 取代前述兩路製作與第3路整合：root回答問題、分派與協調；comic_lane_1為唯一題庫整合者；comic_lane_2專責新來源原卷取得、逐題轉錄與候選稿，插畫位置先留待製；comic_lane_3為唯一插畫製作線。各路已開始工作先收尾再交接。
+- Agent1唯一執行共用來源進度／題庫發布／qid分配／attach／curate／正式QA與實看／integrated／每20complete正常commit all和push；延續既有計數，不因換角色重置。Agent2只寫來源取得報告、逐題draft及原卷素材，交Agent1整合；Agent3只寫本題插畫、spec及隔離QA，stage後交1。root不並行修改共享題庫。
+- 新來源指派以docs/imports/new-source-plan-2026-10-29.json為準；Agent2依序處理，Agent1將新增題目漫畫狀態列待製作，Agent3完成新製四格後由1更新。沒有指定優先時繼續按原製作優先公式，不捨棄原799題工作。

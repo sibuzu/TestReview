@@ -1,0 +1,74 @@
+{
+  "id": "q-400",
+  "subject": "Geography",
+  "title": "易腐原料要快處理，工廠靠近原料來源",
+  "art": "docs/comics/art/q-400.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-400-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 從原圖找出沿海分布線索",
+      "text": "原圖點位多在沿海附近。先觀察整組分布，再想哪種區位需求能解釋它；不要看到某一個點，就替所有工廠指定同一個未提供的名稱。",
+      "alt": "新製海陸分界與沿海工廠概念示意，明示非原圖位置，不冒充臺灣比例地圖或增加真實工廠數量。"
+    },
+    {
+      "heading": "② 原料容易腐壞，運送等待要縮短",
+      "text": "易腐原料不宜長時間運送與等待，工廠便傾向靠近取得原料的地方，盡快處理。水產加工可幫助理解這種需求，但原題沒有逐點列出工廠名稱。",
+      "alt": "原料來源到附近加工廠再縮短運輸等待的關係圖，不加溫度、保鮮時限或聲稱全是水產加工廠。"
+    },
+    {
+      "heading": "③ 比較特性，不是斷言所有沿海工廠一樣",
+      "text": "A體積大偏向運輸負擔，C高技術要看人才與研發，D大量用電要看供電等條件。就本題整組分布比較，B原料易腐、靠近來源地最符合。",
+      "alt": "A體積/B易腐/C技術/D電能四種判斷線索對照，B高亮，不宣稱其他產業不能位於沿海。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：原料容易腐壞",
+    "points": [
+      "觀察整組點位，再連到原料區位。",
+      "易腐原料須快處理，縮短運送與等待。",
+      "水產加工是理解例子，不是圖中每點的已知名稱。"
+    ]
+  },
+  "protectedWords": [
+    "原料容易腐壞",
+    "易腐原料",
+    "原料來源",
+    "水產加工",
+    "運輸負擔",
+    "高技術",
+    "研發",
+    "區位需求",
+    "沿海",
+    "等待時間"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a",
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-400-source-8e0f831f66.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-400-figure-131c4178dc.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "親見16題四項及必要臺灣沿海點位圖，東北、西南等沿海多群點；原黑A紅B，不替點位杜撰工廠名稱。"
+  },
+  "answerCheckedAgainst": "完整題圖與四項獨立比較，維持B易腐原料須靠來源地快處理；既有詳解水產只是例子與非所有沿海工廠限定均保留。",
+  "rationale": "新製海陸點位概念、易腐原料與處理時間關係、四選項區位線索SVG，原圖仍作位置依據。精確邏輯比泛用港口工廠圖片更能避免武斷指定產業；不使用來源AI圖。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "selected": "B",
+    "preciseFactoryLocationsInvented": false,
+    "allCoastalFactoriesAreSeafoodClaim": false,
+    "illustrativeFactoryCountIsOriginalCount": false
+  },
+  "artSHA256": "36824de9c269c6b59fe2b72060c66a18763b9f9bc3e52a254d02b028bf4433a9",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T07:05:52.823321+00:00",
+  "previewValidation": "docs/comics/q-400-preview-validation.json",
+  "visualReview": "親見原卷全題/必要點位圖與新四格1440/390：示意工廠只概念不冒充地圖，沿海分布→易腐原料快處理→四選項比較，B保留；圖文未將全體沿海工廠判成同一產業。三寬PASS，桌機同列等高、手機自然高，圖片/詞組無裁切溢出。"
+}

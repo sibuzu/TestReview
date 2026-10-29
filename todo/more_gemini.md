@@ -56,3 +56,7 @@ https://share.gemini.google/qw5YWuffhmTR
 https://share.gemini.google/1SU0x7yJYtcY
 https://share.gemini.google/nTYq53HZnjo3
 https://share.gemini.google/yOX0LwiRZz1S
+https://gemini.google.com/share/ec6c955b81b3
+https://share.gemini.google/2fl355A2cArZ
+https://share.gemini.google/PG8U2uUXtGhv
+https://share.gemini.google/lEdStGcomTed

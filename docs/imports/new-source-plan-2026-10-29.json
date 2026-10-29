@@ -1,0 +1,58 @@
+{
+  "createdAt": "2026-10-29T06:59:32.793712+00:00",
+  "instruction": "使用者分工：主Agent回答派工；Agent1整合；Agent2加入新題且先留插畫位置；Agent3產插畫。依序整理這四個使用者提供的Gemini來源。",
+  "sources": [
+    {
+      "key": "gemini059",
+      "suggestedOrder": 59,
+      "url": "https://gemini.google.com/share/ec6c955b81b3",
+      "aliases": [
+        "https://share.gemini.google/yQXdW6l2rekh"
+      ],
+      "draftDirectory": "docs/imports/new-gemini/gemini059",
+      "acquisitionRecord": "docs/acquisition/new-gemini059.json",
+      "integrationReceipt": "docs/imports/new-gemini/gemini059/integrated.json"
+    },
+    {
+      "key": "gemini060",
+      "suggestedOrder": 60,
+      "url": "https://share.gemini.google/2fl355A2cArZ",
+      "aliases": [],
+      "draftDirectory": "docs/imports/new-gemini/gemini060",
+      "acquisitionRecord": "docs/acquisition/new-gemini060.json",
+      "integrationReceipt": "docs/imports/new-gemini/gemini060/integrated.json"
+    },
+    {
+      "key": "gemini061",
+      "suggestedOrder": 61,
+      "url": "https://share.gemini.google/PG8U2uUXtGhv",
+      "aliases": [],
+      "draftDirectory": "docs/imports/new-gemini/gemini061",
+      "acquisitionRecord": "docs/acquisition/new-gemini061.json",
+      "integrationReceipt": "docs/imports/new-gemini/gemini061/integrated.json"
+    },
+    {
+      "key": "gemini062",
+      "suggestedOrder": 62,
+      "url": "https://share.gemini.google/lEdStGcomTed",
+      "aliases": [],
+      "draftDirectory": "docs/imports/new-gemini/gemini062",
+      "acquisitionRecord": "docs/acquisition/new-gemini062.json",
+      "integrationReceipt": "docs/imports/new-gemini/gemini062/integrated.json"
+    }
+  ],
+  "ownership": {
+    "plan": "root append-only input assignments",
+    "acquisitionAndDrafts": "/root/comic_lane_2",
+    "sharedSourceProgressAndPublication": "/root/comic_lane_1",
+    "illustrations": "/root/comic_lane_3"
+  },
+  "rules": [
+    "判斷內容重複，不只比URL；不沿用來源AI圖。",
+    "Created作Gemini代表日期；完整原卷/文章/選項必須核對，不照AI摘要猜補。",
+    "單張有問題可先略過；整批原圖讀不到則暫停該源，通知root列使用者確認，其餘可做工作續作。",
+    "題目qid由Agent1唯一分配；Agent2候選稿用sourceKey/question-local-key，避免撞id。",
+    "Agent1可先收入核對好的題目/答案/詳解，保留待製作插畫欄位並加入漫畫佇列；Agent3完成後再由1整合四格。",
+    "原799題未完成插畫繼續，除非使用者另指定優先，不硬暫停舊佇列。"
+  ]
+}

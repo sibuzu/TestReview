@@ -1,0 +1,110 @@
+{
+  "id": "q-399",
+  "subject": "Geography",
+  "title": "屏東臺東交界，判中央山脈南端",
+  "art": "docs/comics/art/q-399-coast.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:54:38.551399+00:00",
+  "panels": [
+    {
+      "heading": "① 先用屏東、臺東找位置",
+      "text": "題幹說古道橫跨屏東、臺東兩縣，又走在山與海之間。把縣市交界和海岸線索合看，可定位到臺灣東南部。",
+      "alt": "新製屏東/臺東兩縣線索共同連到臺灣東南部交界的資訊圖，不把左右框排列當縣市比例地圖。"
+    },
+    {
+      "heading": "② 中央山脈東南段與太平洋",
+      "text": "這裡對應中央山脈向南延伸、東南段臨太平洋的山海環境，所以選B。圖只表示山、古道與海的關係，沒有重畫實際步道路線。",
+      "alt": "新製中央山脈東南段山坡、山海間古道和太平洋關係剖面；標明非比例，沒有虛構高程、行走里程或公路。"
+    },
+    {
+      "heading": "③ 海岸山脈，是特定山脈名",
+      "text": "海岸山脈主要位於花東縱谷東側，不能只看到海岸景觀就選C。雪山、玉山山脈的位置，也不符合題中的南端沿海情境。",
+      "alt": "新製海岸山脈專名/花東縱谷東側與一般靠海山坡概念對照，避免地名望文生義。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 屏東臺東交界，判中央山脈南端",
+    "answer": "答案 B：中央山脈",
+    "points": [
+      "先定位：屏東、臺東交界與東南海岸。",
+      "再對應：中央山脈東南段臨太平洋。",
+      "靠海的山，不一定是專名「海岸山脈」。"
+    ]
+  },
+  "protectedWords": [
+    "中央山脈",
+    "海岸山脈",
+    "花東縱谷",
+    "太平洋",
+    "屏東",
+    "臺東",
+    "東南部",
+    "東南段",
+    "縣市交界",
+    "雪山",
+    "玉山",
+    "古道"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-399-source-633c2e56a0.jpg"
+  ],
+  "originalVisualCheck": "實看第15題完整原卷，屏東臺東/山海之間/四山脈選項，維持B；原題約8公里等敘述保留，不用現況路線長度另改原題。",
+  "answerCheckedAgainst": "水利署電子報阿朗壹介紹明言沿中央山脈東南段與西太平洋間海岸線；國家文化記憶庫確認恆春半島與後山濱海古道背景。漫畫不作現況入山或行程建議。",
+  "rationale": "新原生SVG縣市定位、山海剖面、海岸專名辨別，可精確教位置判山脈，優於生成海邊風景讓人誤選海岸山脈；不臆造實際路線或重用來源AI。",
+  "generationCalls": 0,
+  "references": [
+    {
+      "title": "水利署電子報｜阿朗壹古道介紹",
+      "url": "https://www.wra.gov.tw/epaper/Article_Detail.aspx?n=30173&s=4951&sms=9942",
+      "checked": "中央山脈東南段與西太平洋間海岸線"
+    },
+    {
+      "title": "國家文化記憶庫｜阿朗壹古道",
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=263392&indexCode=Culture_Object",
+      "checked": "恆春半島、後山原住民族商貿遷移濱海小徑背景"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "B",
+    "range": "中央山脈東南段",
+    "sea": "太平洋",
+    "exactTrailMapClaim": false,
+    "hikingAdviceClaim": false,
+    "allCoastalMountainsAreCoastalRangeClaim": false
+  },
+  "artSHA256": "a3c3d4be2367c93ea25a2ba5ffe326b5f4639d70aabf74ffcea517bddb2babae",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T07:05:24.089940+00:00",
+  "completedAt": "2026-10-29T06:57:09.452633+00:00",
+  "layoutEvidence": "docs/comics/q-399-preview-validation.json",
+  "timingEvidence": "docs/comics/q-399-timing.json",
+  "visualReview": "實看1440/1120/390最終SVG：縣市交界/中央山脈東南臨太平洋/海岸山脈專名對照；無虛構實際路線或高程，三寬無橫溢保護詞斷裂，桌機同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-399-art-a3c3d4be23.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T07:05:23.746717+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整15原卷長題幹/四山脈親見，屏東臺東東南山海位置核B，原生概念剖面非實際路線；海岸山脈專名區別清楚。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-399-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-399-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-399-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-399-validation.json"
+}

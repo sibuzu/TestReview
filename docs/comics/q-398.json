@@ -1,0 +1,105 @@
+{
+  "id": "q-398",
+  "subject": "Geography",
+  "title": "離赤道越遠，緯線圈越短",
+  "art": "docs/comics/art/q-398.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-398-generate.py",
+  "startedAt": "2026-10-29T06:53:50.328686+00:00",
+  "panels": [
+    {
+      "heading": "① 越靠近極地，緯線圈越小",
+      "text": "本題始終朝正東或正西飛行，沿同一緯線繞行。赤道的緯線圈最大，離赤道越遠，圈長越短；要比較緯度離赤道多遠，不是經度大小。",
+      "alt": "新原生由極地方向看同心緯線圈，赤道最大/近極地較小，明示非四點精確定位；半徑按球面緯度關係計算。"
+    },
+    {
+      "heading": "② 同樣速率，較短的圈先繞完",
+      "text": "時間＝距離÷速率。四人速率相同，甲在圖中離赤道最遠，緯線圈最短，因此最先回到起點，選A。平面地圖把緯線畫成差不多長，不能直接拿圖上橫線長度當繞行距離。",
+      "alt": "新原生時間關係與同速率短/長圈長條，僅定性示意不造實際距離時間；甲最高絕對緯度依原圖判讀。"
+    },
+    {
+      "heading": "③ 向東、向西，不改變同一圈的長度",
+      "text": "沿同一緯線順向或反向繞一圈，距離一樣。丁在南半球也不代表圈長最短，仍須比較離赤道的距離。題目已排除其他因素，不加入風向或時差來改變判斷。",
+      "alt": "新原生同圓起點及相反方向箭頭說明一圈同長，非兩飛行員實際航線；保留題目等速排除其他因素的模型。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：A，甲",
+    "points": [
+      "甲距赤道最遠，緯線圈最短。",
+      "等速下，距離短，所需時間就少。",
+      "不以南北正負號、經度或地圖橫線長度判圈長。"
+    ]
+  },
+  "protectedWords": [
+    "緯線圈",
+    "赤道",
+    "正東",
+    "正西",
+    "南半球",
+    "平面地圖",
+    "時間＝距離÷速率"
+  ],
+  "rationale": "實看原卷5全題四項與必要全球四點圖，甲北高緯比丁南中緯更遠赤道，已核A；原AI錯D已結案不重開。用幾何緯線圈及等速時間/反向同長圖比人物飛行更清楚，無來源AI。",
+  "promptSummary": "新原生三格：極地方向觀看的緯線圈尺寸；等速時間距離圖；相反方向繞同圈距離不變。",
+  "answerCheckedAgainst": "原卷四點甲離赤道最遠且紅改A；National Geographic/University of Hawaii緯線離赤道越遠越小支持；同速t=d/v獨立核A。",
+  "officialReferences": [
+    {
+      "title": "National Geographic Society・Latitude",
+      "url": "https://education.nationalgeographic.org/resource/latitude/"
+    },
+    {
+      "title": "University of Hawaii・Locating Points on a Globe",
+      "url": "https://manoa.hawaii.edu/exploringourfluidearth/physical/world-ocean/locating-points-globe"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-398-source-ac22993429.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-398-figure-516248caac.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見全球圖甲北高緯/乙近赤道/丙低緯/丁南中緯；不假稱四點都精確落整數緯度。"
+  },
+  "geometryValidation": "docs/comics/q-398-geometry-validation.json",
+  "artSHA256": "875d01e32b32cfafa8057501f497cf4516442edc870b7dfae775548f468fac67",
+  "completedAt": "2026-10-29T06:56:50.258319+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-398-preview-validation.json",
+  "visualReview": "實看最終SVG原圖、1440及390四格。赤道明指最外圈，近極地為較小圈；相反向箭頭同圈同長，甲A與原卷位置吻合。三寬無溢出或保護詞跨行，桌機列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-398-art-875d01e32b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T07:05:23.745979+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整5題/全球四點圖親見，甲較丁更遠赤道沿A；新緯線圈赤道最外、極地較小，等速距離時間與反向同圈正確，未用示意緯度冒充四點精確位置。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-398-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-398-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-398-app-390.png"
+    ]
+  },
+  "checkedAt": "2026-10-29T07:05:24.037843+00:00",
+  "validationFile": "docs/comics/q-398-validation.json"
+}

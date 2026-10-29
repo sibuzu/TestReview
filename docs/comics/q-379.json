@@ -1,0 +1,129 @@
+{
+  "id": "q-379",
+  "subject": "Geography",
+  "title": "分清全臺份額，都市化比較選甲",
+  "art": "docs/comics/art/q-379-shares.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:51:45.791567+00:00",
+  "panels": [
+    {
+      "heading": "① 占全臺，不是占區內",
+      "text": "原表農業欄寫占全臺比例，不能把甲的1直接說成甲區居民只有1%務農。比較2010年時，也要對照同年的區域人口份額。",
+      "alt": "新製原表農業1/15/7/9與2010人口45/2/28/25百分比摘錄，分母保留全臺，沒有改成區內比率。"
+    },
+    {
+      "heading": "② 兩個份額相除，比較相對程度",
+      "text": "農業份額除以人口份額：甲約0.022，乙7.5，丙0.25，丁0.36。甲最低；這些是相對指標，不是區內務農百分比。",
+      "alt": "新製1÷45、15÷2、7÷28、9÷25精確相對指標表與排序甲丙丁乙；沒有加百分號當作實際區內農業人口比例。"
+    },
+    {
+      "heading": "③ 人口集中，配合非農線索",
+      "text": "甲占土地20%，卻占人口45%，人口相對集中；再配合相對務農程度最低，最符合高度都市化。不能只看人口最多，就跳過其他資料。",
+      "alt": "新製甲人口45%與土地20%全臺份額同一0至50%比例尺條圖，並非都市建成區面積圖。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 分清全臺份額，都市化比較選甲",
+    "answer": "答案 A：甲",
+    "points": [
+      "先釐清分母：全臺份額不等於區內比例。",
+      "農業份額相對人口份額，甲最低。",
+      "土地20%、人口45%，人口相對集中。"
+    ]
+  },
+  "protectedWords": [
+    "全臺份額",
+    "區內比例",
+    "百分比",
+    "相對指標",
+    "務農程度",
+    "2010年",
+    "都市化",
+    "人口份額",
+    "農業份額",
+    "1%",
+    "20%",
+    "45%",
+    "0.022",
+    "0.25",
+    "0.36"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-379-table-82d7a637b7.jpg",
+    "site/dist/assets/questions/q-379-source-23cc92228e.jpg"
+  ],
+  "originalVisualCheck": "實看表7所有欄名/四區數值及第55題四項。分母是占全臺；2010人口45/2/28/25，土地20/23/28/29，保留原表。",
+  "answerCheckedAgainst": "沿用使用者已於Monitor確認correction-q-379-deea946c33b5的分母訂正與A，獨立算1/45=.0222、15/2=7.5、7/28=.25、9/25=.36。不把原表當新查核官方統計，不重開已確認議題。",
+  "rationale": "新原生SVG原表摘錄、相對指標表、共同比例尺份額條圖，精確分母與數據關係比城市照片更能消除1%誤讀；不是把農業欄直接當區內比例，未用來源AI。",
+  "generationCalls": 0,
+  "userConfirmationId": "correction-q-379-deea946c33b5",
+  "diagramChecks": {
+    "selected": "A",
+    "agriShares": [
+      1,
+      15,
+      7,
+      9
+    ],
+    "populationShares2010": [
+      45,
+      2,
+      28,
+      25
+    ],
+    "indices": [
+      0.022222222222222223,
+      7.5,
+      0.25,
+      0.36
+    ],
+    "rankAscending": [
+      "甲",
+      "丙",
+      "丁",
+      "乙"
+    ],
+    "populationLandBars": [
+      45,
+      20
+    ],
+    "commonBarScale": 2,
+    "indicesAreWithinRegionPercentages": false,
+    "newOfficialStatisticsClaim": false
+  },
+  "artSHA256": "59411950b79a7d77683b248e4582e882790eb8b68a9fe7233280a75902a991e7",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T07:05:23.982549+00:00",
+  "completedAt": "2026-10-29T06:54:09.624124+00:00",
+  "layoutEvidence": "docs/comics/q-379-preview-validation.json",
+  "timingEvidence": "docs/comics/q-379-timing.json",
+  "visualReview": "實看1440/1120/390最終SVG四格：原表欄分母/四算式排序/45與20同尺度條圖一致，沒有把相對指標加百分號。沿用使用者已確認解法A，三寬無橫溢或保護詞斷裂，桌機同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-379-art-59411950b7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T07:05:23.745330+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見共同表七欄名與55四項，已確認分母訂正沿A；獨立計算1/45<7/28<9/25<15/2，新表不加百分號，人口45%和土地20%共同比例尺核對。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-379-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-379-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-379-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-379-validation.json"
+}

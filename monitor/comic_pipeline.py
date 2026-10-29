@@ -55,6 +55,8 @@ def update_display(root, pipeline):
             lane.update(questionId=integrating[0]['id'] if integrating else None,
                         title='、'.join(j['id'] for j in integrating) if integrating else '等待下一批整合',
                         state='integrating' if integrating else 'preparing')
+        elif lane.get('role') == 'import':
+            lane.update(questionId=None, title='新來源原卷取得、逐題核對與候選稿', state='importing')
         else:
             lane['state'] = 'idle'
     ready = [j for j in pipeline['jobs'] if j['state'] == 'ready']
@@ -80,7 +82,7 @@ def claim(root, lane):
             return existing
         configuration = load(root/'monitor/parallel.json')
         lane_configuration = next((item for item in configuration.get('lanes', []) if item['lane'] == lane), {})
-        if lane_configuration.get('role') == 'integration':
+        if lane_configuration.get('role') in ('integration', 'import'):
             return None
         if pipeline.get('claimsPaused'):
             return None
@@ -167,8 +169,8 @@ def integrated(root, qid):
                 'goalStatus': 'active', 'updatedAt': finished})
             return job
         save(root/'monitor/activity.json', {
-            'title': f'兩路製作、一路整合：已完成檢查{settled}／{len(progress["entries"])}題',
-            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；兩路完成本題即暫存續領，專職整合線持續核對，主代理保留回應與機動。',
+            'title': f'分工製作與整合：已完成檢查{settled}／{len(progress["entries"])}題',
+            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；新題整理、插畫製作與題庫整合依分工續作，主代理保留回應與派工。',
             'goalStatus': 'active', 'updatedAt': finished})
         return job
 

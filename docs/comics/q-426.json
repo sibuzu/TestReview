@@ -1,0 +1,130 @@
+{
+  "id": "q-426",
+  "subject": "Geography",
+  "title": "晚育少子看趨勢，別說一路下滑",
+  "art": "docs/comics/art/q-426-trends.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:46:53.813633+00:00",
+  "panels": [
+    {
+      "heading": "① 第一胎年齡，不是結婚年齡",
+      "text": "原圖虛線表示第一胎平均生育年齡，用左軸歲數，1985年24.5歲、2017年30.8歲。C把指標換成結婚年齡，所以不對。",
+      "alt": "新製1985/24.5歲與2017/30.8歲原圖兩端標記值對照，明示指標第一胎而非結婚年齡，不畫當代數值。"
+    },
+    {
+      "heading": "② 整體低落，但不是一路下降",
+      "text": "實線是總生育率，用右軸人數。原圖2010年0.89、2012年1.27，顯示中途回升；即使整體處於低水準，也不能像D說一路下滑。",
+      "alt": "新製總生育率原圖2010/0.89、2012/1.27、2017/1.13三標記點摘錄，統一y軸0.8至1.4，明示不是完整原曲線。"
+    },
+    {
+      "heading": "③ B概括晚育、少子最合適",
+      "text": "B最接近圖意；A的工資補助不是圖內資料能直接推出的主張。總人口還受死亡與遷移影響，不能只憑這兩條線精算每年人口增減。",
+      "alt": "新製晚育與少子概括及總人口證據界線的邏輯對照，不畫不存在的人口總量曲線。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 晚育少子看趨勢，別說一路下滑",
+    "answer": "答案 B：最接近原圖的主旨",
+    "points": [
+      "讀圖例：第一胎年齡與總生育率，分用兩軸。",
+      "總生育率有回升，D的「一路」過度概括。",
+      "保留1985至2017年資料時點，不當作現在數值。"
+    ]
+  },
+  "protectedWords": [
+    "第一胎",
+    "生育年齡",
+    "結婚年齡",
+    "總生育率",
+    "總人口",
+    "晚育",
+    "少子",
+    "工資補助",
+    "1985年",
+    "2010年",
+    "2012年",
+    "2017年",
+    "24.5歲",
+    "30.8歲",
+    "0.89",
+    "1.27",
+    "1.13",
+    "1985至2017年"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-426-source-9ee0bc9d64.jpg",
+    "site/dist/assets/questions/q-426-figure-c2c7b261d4.jpg"
+  ],
+  "originalVisualCheck": "實看完整38題/圖19兩軸/圖例/端點/2010與2012回升，四項文字同資料；保持既有B與對人口推論限制的說明，不重新開舊確認。",
+  "answerCheckedAgainst": "虛線第一胎平均生育年齡由24.5至30.8；實線TFR2010.89→2012 1.27→2017 1.13，不能說一路下降。B四選項最接近晚育少子概括，不以兩指標精算人口。",
+  "rationale": "新原生SVG精確端點、三標記點同軸與推論邊界，避免人物把生育年齡偷換婚齡，避免生成圖誤接雙軸或捏造現在統計；未用來源AI。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "selected": "B",
+    "firstBirthEndpointA": [
+      1985,
+      24.5
+    ],
+    "firstBirthEndpointB": [
+      2017,
+      30.8
+    ],
+    "tfrExcerpt": [
+      [
+        2010,
+        0.89
+      ],
+      [
+        2012,
+        1.27
+      ],
+      [
+        2017,
+        1.13
+      ]
+    ],
+    "tfrAxis": [
+      0.8,
+      1.4
+    ],
+    "fullSeriesRedrawClaim": false,
+    "currentDemographicDataClaim": false,
+    "marriageAgeClaim": false,
+    "preciseTotalPopulationInference": false
+  },
+  "artSHA256": "1a8002b114cb5a4cc45c52b9f0ba68033eb1c366b38f5a7d3b9b1cc2652bdfd7",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T07:04:26.801222+00:00",
+  "completedAt": "2026-10-29T06:48:49.278537+00:00",
+  "layoutEvidence": "docs/comics/q-426-preview-validation.json",
+  "timingEvidence": "docs/comics/q-426-timing.json",
+  "visualReview": "實看1440/1120/390三寬：第一胎非婚齡端點、三TFR摘錄點與2010至2012回升、人口證據邊界均同原圖。三寬無橫溢/保護詞斷裂，桌機同列等高、手機自然高度，未把歷史指標冒當現在數據。",
+  "nativeArt": "assets/comics/q-426-art-1a8002b114.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T07:04:26.732050+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "獨立實看38題原卷兩軸/圖例/第一胎24.5至30.8/總生育率2010 .89至2012 1.27反彈，B概括且保留總人口推論限制；新圖三摘錄點非完整曲線。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-426-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-426-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-426-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-426-validation.json"
+}

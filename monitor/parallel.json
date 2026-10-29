@@ -1,429 +1,76 @@
 {
-  "mode": "two_producers_one_integrator_root_available",
-  "workerLimit": 2,
-  "rootRole": "回答使用者與機動；專職整合交由comic_lane_3",
-  "updatedAt": "2026-10-29T06:45:46.428938+00:00",
+  "mode": "import_illustrate_integrate_root_dispatch",
+  "workerLimit": 1,
+  "rootRole": "回答使用者、分派與協調",
+  "updatedAt": "2026-10-29T07:05:52.900436+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-420",
-      "title": "地理第48題｜西低東高的苗栗地形剖面",
-      "state": "running",
-      "startedAt": "2026-10-29T06:43:33.717436+00:00",
-      "agent": "/root/comic_lane_1",
-      "role": "production"
-    },
-    {
-      "lane": 2,
-      "questionId": "q-419",
-      "title": "地理第47題｜太平東沙與小琉球的辨識",
-      "state": "running",
-      "startedAt": "2026-10-29T06:43:04.765231+00:00",
-      "agent": "/root/comic_lane_2",
-      "role": "production"
-    },
-    {
-      "lane": 3,
       "questionId": null,
       "title": "等待下一批整合",
       "state": "preparing",
-      "startedAt": "2026-10-29T05:40:07.660300+00:00",
-      "agent": "/root/comic_lane_3",
+      "startedAt": "2026-10-29T06:53:50.328686+00:00",
+      "agent": "/root/comic_lane_1",
       "role": "integration"
+    },
+    {
+      "lane": 2,
+      "questionId": null,
+      "title": "新來源原卷取得、逐題核對與候選稿",
+      "state": "importing",
+      "startedAt": "2026-10-29T06:54:09.694737+00:00",
+      "agent": "/root/comic_lane_2",
+      "role": "import"
+    },
+    {
+      "lane": 3,
+      "questionId": "q-401",
+      "title": "地理第18題｜少子化與幼兒照顧政策",
+      "state": "running",
+      "startedAt": "2026-10-29T07:05:52.894710+00:00",
+      "agent": "/root/comic_lane_3",
+      "role": "production"
     }
   ],
   "ready": [
     {
-      "id": "q-065",
-      "title": "地理第32題｜山崩後哪些測站水質會混濁",
+      "id": "q-400",
+      "title": "地理第16題｜沿海工廠與易腐原料",
       "subject": "Geography",
-      "lane": 1,
+      "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T06:17:19.927762+00:00",
-      "readyAt": "2026-10-29T06:25:20.971711+00:00",
+      "startedAt": "2026-10-29T07:02:58.651749+00:00",
+      "readyAt": "2026-10-29T07:05:52.854575+00:00",
       "decision": "complete",
-      "reason": "新精確河網拓撲/泥沙下游/流程四格，原卷等高線甲最高與甲→匯流→乙核A，獨立有向可達性只得甲乙；三寬QA及最終raw桌手機實看。",
+      "reason": "沿海分布與易腐原料快處理的區位需求對照，保留B及水產僅例示界線，原卷和隔離三寬實看通過",
       "evidence": [
-        "docs/comics/q-065.json",
-        "docs/comics/q-065-preview-validation.json",
-        "docs/comics/q-065-topology-validation.json"
-      ]
-    },
-    {
-      "id": "q-545",
-      "title": "地理第36題｜等高線與最陡雪道",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:23:27.747615+00:00",
-      "readyAt": "2026-10-29T06:26:19.793210+00:00",
-      "decision": "complete",
-      "reason": "原卷細線疏密與甲位置實看，維持A；新SVG等高線/同高差剖面/題幹色例，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-545.json",
-        "docs/comics/q-545-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-548",
-      "title": "地理第5題｜從經緯度辨認行政區",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:25:21.016218+00:00",
-      "readyAt": "2026-10-29T06:31:29.532945+00:00",
-      "decision": "complete",
-      "reason": "新精確緯度/經度數線與回原圖丁流程四格，原卷必要行政圖放大/官方高雄位置核D；坐標軸與點位驗證、三寬QA和raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-548.json",
-        "docs/comics/q-548-preview-validation.json",
-        "docs/comics/q-548-coordinate-validation.json"
-      ]
-    },
-    {
-      "id": "q-550",
-      "title": "地理第10題｜臺灣海峽與離島強風",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:26:19.831827+00:00",
-      "readyAt": "2026-10-29T06:29:12.377919+00:00",
-      "decision": "complete",
-      "reason": "原卷與氣象署/澎湖官方季風說明核對，維持A；新SVG柱體/地形通道/海域對照，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-550.json",
-        "docs/comics/q-550-preview-validation.json",
-        "docs/comics/q-550-timing.json"
-      ]
-    },
-    {
-      "id": "q-410",
-      "title": "地理第13題｜傳統領域與花東縱谷",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:29:12.418985+00:00",
-      "readyAt": "2026-10-29T06:32:40.831870+00:00",
-      "decision": "complete",
-      "reason": "原卷與官方區域分布核對B；新SVG土地文化/縱谷剖面/最可能比較，三寬QA實看通過。既有廢止法規參考另列review交root，不影響本題答案與漫畫。",
-      "evidence": [
-        "docs/comics/q-410.json",
-        "docs/comics/q-410-preview-validation.json",
-        "docs/comics/q-410-reference-review.json",
-        "docs/comics/q-410-timing.json"
-      ]
-    },
-    {
-      "id": "q-411",
-      "title": "地理第14題｜原料運輸成本與距離",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:31:29.567067+00:00",
-      "readyAt": "2026-10-29T06:34:40.836047+00:00",
-      "decision": "complete",
-      "reason": "新精確坐標/近低遠高/100→10等重量格四格，原卷軸名與A上升核對，沿已訂正A；三寬QA及raw桌手機實看，無實際費率/零原點假設。",
-      "evidence": [
-        "docs/comics/q-411.json",
-        "docs/comics/q-411-preview-validation.json",
-        "docs/comics/q-411-relation-validation.json"
-      ]
-    },
-    {
-      "id": "q-412",
-      "title": "地理第20題｜產業升級與新竹科學園區",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:32:40.871345+00:00",
-      "readyAt": "2026-10-29T06:35:24.786369+00:00",
-      "decision": "complete",
-      "reason": "原卷及竹科/經濟部官方年代政策核對A；新製成本/研發/科技聚集情境四格，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-412.json",
-        "docs/comics/q-412-preview-validation.json",
-        "docs/comics/q-412-timing.json"
-      ]
-    },
-    {
-      "id": "q-414",
-      "title": "地理第36題｜礦產品運輸與花蓮港腹地",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:34:40.875595+00:00",
-      "readyAt": "2026-10-29T06:38:52.437227+00:00",
-      "decision": "complete",
-      "reason": "新精確2014兩礦產品環圖/腹地貨種/口徑限制四格，官方港口特色核B，81.9+18.1及角度驗證；完整原卷必要圖親見、三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-414.json",
-        "docs/comics/q-414-preview-validation.json",
-        "docs/comics/q-414-chart-validation.json"
-      ]
-    },
-    {
-      "id": "q-415",
-      "title": "地理第41題｜製鞋業外移與自動化回流",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:35:24.825044+00:00",
-      "readyAt": "2026-10-29T06:37:35.557773+00:00",
-      "decision": "complete",
-      "reason": "原卷全產業線索與A核對；新SVG製鞋勞力/外移成本/自動化部分回流，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-415.json",
-        "docs/comics/q-415-preview-validation.json",
-        "docs/comics/q-415-timing.json"
-      ]
-    },
-    {
-      "id": "q-416",
-      "title": "地理第42題｜小麥的季節與區域條件",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:37:35.594591+00:00",
-      "readyAt": "2026-10-29T06:40:24.303755+00:00",
-      "decision": "complete",
-      "reason": "原卷/農糧署播種期與彰化產區核對B；新製冬晴綠苗/冬陰雨/夏暖多雨情境，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-416.json",
-        "docs/comics/q-416-preview-validation.json",
-        "docs/comics/q-416-timing.json"
-      ]
-    },
-    {
-      "id": "q-417",
-      "title": "地理第43題｜北部路線與火山地熱景觀",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:38:52.474286+00:00",
-      "readyAt": "2026-10-29T06:43:33.677452+00:00",
-      "decision": "complete",
-      "reason": "新內建北部丘陵/溫泉/硫氣孔三景四格，官方地熱核B且不杜撰站名；完整原卷必要圖親見、三寬QA和raw桌手機實看。計時另保留同機monotonic，UTC倒退已排除主統計。",
-      "evidence": [
-        "docs/comics/q-417.json",
-        "docs/comics/q-417-preview-validation.json",
-        "docs/comics/q-417-generation.json"
-      ]
-    },
-    {
-      "id": "q-418",
-      "title": "地理第46題｜國道轉接與宜蘭頭城",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:40:24.335267+00:00",
-      "readyAt": "2026-10-29T06:43:04.723007+00:00",
-      "decision": "complete",
-      "reason": "原卷與高公局國道轉接/頭城服務區域核對A；新SVG路線順序四格，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-418.json",
-        "docs/comics/q-418-preview-validation.json",
-        "docs/comics/q-418-timing.json"
+        "docs/comics/q-400.json",
+        "docs/comics/q-400-preview-validation.json"
       ]
     }
   ],
-  "integrated": 640,
+  "integrated": 660,
   "blocked": [],
   "waiting": [
     {
-      "id": "q-065",
-      "title": "地理第32題｜山崩後哪些測站水質會混濁",
+      "id": "q-400",
+      "title": "地理第16題｜沿海工廠與易腐原料",
       "subject": "Geography",
-      "lane": 1,
+      "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T06:17:19.927762+00:00",
-      "readyAt": "2026-10-29T06:25:20.971711+00:00",
+      "startedAt": "2026-10-29T07:02:58.651749+00:00",
+      "readyAt": "2026-10-29T07:05:52.854575+00:00",
       "decision": "complete",
-      "reason": "新精確河網拓撲/泥沙下游/流程四格，原卷等高線甲最高與甲→匯流→乙核A，獨立有向可達性只得甲乙；三寬QA及最終raw桌手機實看。",
+      "reason": "沿海分布與易腐原料快處理的區位需求對照，保留B及水產僅例示界線，原卷和隔離三寬實看通過",
       "evidence": [
-        "docs/comics/q-065.json",
-        "docs/comics/q-065-preview-validation.json",
-        "docs/comics/q-065-topology-validation.json"
-      ]
-    },
-    {
-      "id": "q-545",
-      "title": "地理第36題｜等高線與最陡雪道",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:23:27.747615+00:00",
-      "readyAt": "2026-10-29T06:26:19.793210+00:00",
-      "decision": "complete",
-      "reason": "原卷細線疏密與甲位置實看，維持A；新SVG等高線/同高差剖面/題幹色例，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-545.json",
-        "docs/comics/q-545-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-548",
-      "title": "地理第5題｜從經緯度辨認行政區",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:25:21.016218+00:00",
-      "readyAt": "2026-10-29T06:31:29.532945+00:00",
-      "decision": "complete",
-      "reason": "新精確緯度/經度數線與回原圖丁流程四格，原卷必要行政圖放大/官方高雄位置核D；坐標軸與點位驗證、三寬QA和raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-548.json",
-        "docs/comics/q-548-preview-validation.json",
-        "docs/comics/q-548-coordinate-validation.json"
-      ]
-    },
-    {
-      "id": "q-550",
-      "title": "地理第10題｜臺灣海峽與離島強風",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:26:19.831827+00:00",
-      "readyAt": "2026-10-29T06:29:12.377919+00:00",
-      "decision": "complete",
-      "reason": "原卷與氣象署/澎湖官方季風說明核對，維持A；新SVG柱體/地形通道/海域對照，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-550.json",
-        "docs/comics/q-550-preview-validation.json",
-        "docs/comics/q-550-timing.json"
-      ]
-    },
-    {
-      "id": "q-410",
-      "title": "地理第13題｜傳統領域與花東縱谷",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:29:12.418985+00:00",
-      "readyAt": "2026-10-29T06:32:40.831870+00:00",
-      "decision": "complete",
-      "reason": "原卷與官方區域分布核對B；新SVG土地文化/縱谷剖面/最可能比較，三寬QA實看通過。既有廢止法規參考另列review交root，不影響本題答案與漫畫。",
-      "evidence": [
-        "docs/comics/q-410.json",
-        "docs/comics/q-410-preview-validation.json",
-        "docs/comics/q-410-reference-review.json",
-        "docs/comics/q-410-timing.json"
-      ]
-    },
-    {
-      "id": "q-411",
-      "title": "地理第14題｜原料運輸成本與距離",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:31:29.567067+00:00",
-      "readyAt": "2026-10-29T06:34:40.836047+00:00",
-      "decision": "complete",
-      "reason": "新精確坐標/近低遠高/100→10等重量格四格，原卷軸名與A上升核對，沿已訂正A；三寬QA及raw桌手機實看，無實際費率/零原點假設。",
-      "evidence": [
-        "docs/comics/q-411.json",
-        "docs/comics/q-411-preview-validation.json",
-        "docs/comics/q-411-relation-validation.json"
-      ]
-    },
-    {
-      "id": "q-412",
-      "title": "地理第20題｜產業升級與新竹科學園區",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:32:40.871345+00:00",
-      "readyAt": "2026-10-29T06:35:24.786369+00:00",
-      "decision": "complete",
-      "reason": "原卷及竹科/經濟部官方年代政策核對A；新製成本/研發/科技聚集情境四格，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-412.json",
-        "docs/comics/q-412-preview-validation.json",
-        "docs/comics/q-412-timing.json"
-      ]
-    },
-    {
-      "id": "q-414",
-      "title": "地理第36題｜礦產品運輸與花蓮港腹地",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:34:40.875595+00:00",
-      "readyAt": "2026-10-29T06:38:52.437227+00:00",
-      "decision": "complete",
-      "reason": "新精確2014兩礦產品環圖/腹地貨種/口徑限制四格，官方港口特色核B，81.9+18.1及角度驗證；完整原卷必要圖親見、三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-414.json",
-        "docs/comics/q-414-preview-validation.json",
-        "docs/comics/q-414-chart-validation.json"
-      ]
-    },
-    {
-      "id": "q-415",
-      "title": "地理第41題｜製鞋業外移與自動化回流",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:35:24.825044+00:00",
-      "readyAt": "2026-10-29T06:37:35.557773+00:00",
-      "decision": "complete",
-      "reason": "原卷全產業線索與A核對；新SVG製鞋勞力/外移成本/自動化部分回流，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-415.json",
-        "docs/comics/q-415-preview-validation.json",
-        "docs/comics/q-415-timing.json"
-      ]
-    },
-    {
-      "id": "q-416",
-      "title": "地理第42題｜小麥的季節與區域條件",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:37:35.594591+00:00",
-      "readyAt": "2026-10-29T06:40:24.303755+00:00",
-      "decision": "complete",
-      "reason": "原卷/農糧署播種期與彰化產區核對B；新製冬晴綠苗/冬陰雨/夏暖多雨情境，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-416.json",
-        "docs/comics/q-416-preview-validation.json",
-        "docs/comics/q-416-timing.json"
-      ]
-    },
-    {
-      "id": "q-417",
-      "title": "地理第43題｜北部路線與火山地熱景觀",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:38:52.474286+00:00",
-      "readyAt": "2026-10-29T06:43:33.677452+00:00",
-      "decision": "complete",
-      "reason": "新內建北部丘陵/溫泉/硫氣孔三景四格，官方地熱核B且不杜撰站名；完整原卷必要圖親見、三寬QA和raw桌手機實看。計時另保留同機monotonic，UTC倒退已排除主統計。",
-      "evidence": [
-        "docs/comics/q-417.json",
-        "docs/comics/q-417-preview-validation.json",
-        "docs/comics/q-417-generation.json"
-      ]
-    },
-    {
-      "id": "q-418",
-      "title": "地理第46題｜國道轉接與宜蘭頭城",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T06:40:24.335267+00:00",
-      "readyAt": "2026-10-29T06:43:04.723007+00:00",
-      "decision": "complete",
-      "reason": "原卷與高公局國道轉接/頭城服務區域核對A；新SVG路線順序四格，三寬QA實看通過。",
-      "evidence": [
-        "docs/comics/q-418.json",
-        "docs/comics/q-418-preview-validation.json",
-        "docs/comics/q-418-timing.json"
+        "docs/comics/q-400.json",
+        "docs/comics/q-400-preview-validation.json"
       ]
     }
   ],
   "integrating": [],
   "held": [],
   "integrationLimit": 1,
-  "roleChangedAt": "2026-10-29T05:44:09.957649+00:00"
+  "roleChangedAt": "2026-10-29T07:01:25.554580+00:00",
+  "importLimit": 1
 }

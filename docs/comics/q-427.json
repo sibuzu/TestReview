@@ -1,0 +1,109 @@
+{
+  "id": "q-427",
+  "subject": "Geography",
+  "title": "郭錫瑠、瑠公圳與新店溪",
+  "art": "docs/comics/art/q-427-canal.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:49:18.695666+00:00",
+  "panels": [
+    {
+      "heading": "① 從共同表格找人物事蹟",
+      "text": "題組表格的乙是郭錫瑠，事蹟為規劃建設臺北地區的農田水利系統。把人物和地區連起來，對應瑠公圳。",
+      "alt": "新製乙/郭錫瑠與原表臺北農田水利事蹟對照，不使用臆測肖像、沒有移植其他人物事蹟。"
+    },
+    {
+      "heading": "② 溪水經水圳，送往農田",
+      "text": "瑠公圳引新店溪的水，灌溉臺北盆地農田，因此A正確。河川是水源，水圳是引送水的設施，兩者角色要分清。",
+      "alt": "新製新店溪→瑠公圳→臺北盆地農田水流關係圖，箭頭指引送水概念，不重建完整渠線、不標現代運行狀態。"
+    },
+    {
+      "heading": "③ 其他三溪，區域不相符",
+      "text": "大甲溪、濁水溪主要在臺灣中部，高屏溪在南部，與這題的臺北水利系統不同。別只背人物名，還要核對水圳、區域與水源。",
+      "alt": "新製選項溪流與北中南相對區域對照，A新店溪對應瑠公圳，不畫跨區虛構取水渠。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 郭錫瑠、瑠公圳與新店溪",
+    "answer": "答案 A：新店溪",
+    "points": [
+      "人物：郭錫瑠；工程：瑠公圳。",
+      "區域：臺北地區；水源：新店溪。",
+      "水圳引水灌田，不能與河川名稱混淆。"
+    ]
+  },
+  "protectedWords": [
+    "郭錫瑠",
+    "瑠公圳",
+    "新店溪",
+    "臺北盆地",
+    "大甲溪",
+    "濁水溪",
+    "高屏溪",
+    "農田水利",
+    "水利系統",
+    "臺北地區",
+    "水圳",
+    "河川"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-427-reading-1b0726b3d0.jpg",
+    "site/dist/assets/questions/q-427-source-86c2c98a47.jpg"
+  ],
+  "originalVisualCheck": "實看51-52共用材料表4完整四人事蹟、第52題四溪選項。乙郭錫瑠/臺北水利與A新店溪維持，未把前題排序當水源。",
+  "answerCheckedAgainst": "農田水利署瑠公管理處引水石硿官方介紹明示為引新店溪水的隧道工程，與原題郭錫瑠水利系統對應。未宣稱古石硿今日仍在運作。",
+  "rationale": "新原生SVG拆開人物事蹟配對、真實引水方向、溪流區域排除，精確比泛用歷史人物/景觀更能回答來源溪；不沿用來源AI，也不生成臆測渠線。",
+  "generationCalls": 0,
+  "references": [
+    {
+      "title": "農田水利署瑠公管理處｜瑠公圳引水石硿",
+      "url": "https://www.ialgo.nat.gov.tw/zh-tw/fun/Articles?a=22260",
+      "checked": "新店溪引水隧道、郭錫瑠開圳及歷史工程，今日石硿已停用"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "A",
+    "waterFlow": [
+      "新店溪",
+      "瑠公圳",
+      "臺北盆地農田"
+    ],
+    "associatedPerson": "郭錫瑠",
+    "historicalTunnelStillOperatingClaim": false,
+    "exactCanalRouteReconstruction": false
+  },
+  "artSHA256": "4e49e7fad7eb3b665362fb8925b09adf9dc7d7305b108097e287d14a5712c56c",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T07:04:26.846411+00:00",
+  "completedAt": "2026-10-29T06:51:16.803723+00:00",
+  "layoutEvidence": "docs/comics/q-427-preview-validation.json",
+  "timingEvidence": "docs/comics/q-427-timing.json",
+  "visualReview": "實看1440/1120/390最終SVG：乙人物事蹟/新店溪→圳→農田/四溪區域對照一致；文字瑠/郭錫瑠可辨，無實際渠線臆造，三寬無橫溢保護詞斷裂，桌機同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-427-art-4e49e7fad7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T07:04:26.732306+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "獨立實看完整共同表四四人事蹟與52題四溪，乙郭錫瑠→瑠公圳→新店溪→臺北農田角色正確；新圖無虛構渠線。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-427-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-427-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-427-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-427-validation.json"
+}

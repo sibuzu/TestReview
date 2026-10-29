@@ -20,7 +20,9 @@ class PipelineTests(unittest.TestCase):
             current = claim(root, 3)
             configuration = load(root/'monitor/parallel.json')
             configuration['lanes'][2]['role'] = 'integration'
+            configuration['lanes'][1]['role'] = 'import'
             save(root/'monitor/parallel.json', configuration)
+            self.assertIsNone(claim(root, 2))
             self.assertEqual(claim(root, 3)['id'], current['id'])
             evidence = 'docs/comics/review.json'
             (root/evidence).write_text('{}')

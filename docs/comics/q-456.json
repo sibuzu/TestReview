@@ -1,0 +1,79 @@
+{
+  "id": "q-456",
+  "subject": "English",
+  "title": "想了解history，就找文章的Museum線索",
+  "art": "docs/comics/art/q-456-v2.png",
+  "protectedWords": [
+    "history",
+    "Fan Museum",
+    "King Soccer Team",
+    "Kick Café",
+    "Prize Ground",
+    "Green Stadium",
+    "Jocelyn"
+  ],
+  "panels": [
+    {
+      "heading": "① 先抓Jocelyn想知道什麼",
+      "text": "她是球隊的球迷，但這次問的是去哪裡了解球隊的history，也就是歷史。不是只要與足球有關的地方就能選。",
+      "alt": "球迷少女讀空白參觀手冊，普通球場外觀只提示足球情境，不新增賽事、隊徽、票種或場館實際位置。"
+    },
+    {
+      "heading": "② 文章直接把歷史對應到Fan Museum",
+      "text": "原文明寫可visit the Fan Museum，了解著名球隊的history與部分球員經歷。這與問題需求直接吻合，所以選B。圖為想像的足球歷史展示。",
+      "alt": "匿名足球文物展示與學習情境，不冒充實際Fan Museum布局、球隊史實或真實球員照片，無年份隊徽。"
+    },
+    {
+      "heading": "③ 其他地點各有用途，依本文配對",
+      "text": "Kick Café是喝咖啡、與朋友聚會；Prize Ground找紀念品；Green Stadium舉辦比賽。本題不是在問這些活動，應回文找最直接的功能說明。",
+      "alt": "師生比較完整閱讀與空白選項卡，精確地點功能均由HTML，不把賽場等同提供球隊歷史的地方。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：The Fan Museum",
+    "points": [
+      "問題需求：了解球隊歷史。",
+      "原文線索：history與Fan Museum。",
+      "都與足球相關，仍要依場所功能配對。"
+    ]
+  },
+  "rationale": "已實看全文票券表/附圖及第34題完整問句四選項，讀原對話直接定位history；使用者已明確確認q456 B，紅筆D差異結案不重開。無既有合適圖，內建新球迷讀手冊/想像歷史展覽/讀文配對，不新增真球隊歷史、館藏、票價、需要紫票或拍照權利。 首圖中館內說明板有偽字，已內建編輯清除為v2全空白說明板。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-456-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-070-reading-source-cb2d21e910.jpg",
+    "site/dist/assets/questions/q-456-source-748e2f5a4a.jpg",
+    "site/dist/assets/questions/q-070-seating-71727c7884.jpg",
+    "site/dist/sources/6ae05440-0730-83e8-b0cd-2aaf6ed219d7.txt 第34題",
+    "site/dist/data.json q456 使用者已確認B"
+  ],
+  "answerCheckedAgainst": "原文visit Fan Museum to learn history，正對需求B；不因同題材就選Green Stadium。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "3bc6610e520149f0d674680b4a1f26ce083b7c7707f4c903f53bdebeedbaab7c",
+  "createdAtUTC": "2026-10-28T23:40:24.222609+00:00",
+  "editPromptFile": "docs/comics/q-456-edit-prompt.txt",
+  "checkedAt": "2026-10-28T23:45:56.250562+00:00",
+  "validationFile": "docs/comics/q-456-validation.json",
+  "nativeArt": "assets/comics/q-456-art-3bc6610e52-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:45:56.225374+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看完整閱讀票券表及34題完整問句/四選項，維持使用者已確認B，紅筆D差異不重開。新圖想像博物館/完整閱讀比功能，v2背景說明板空白，不冒充真球隊史料或加入紫票限制；桌手機無溢出。"
+  }
+}

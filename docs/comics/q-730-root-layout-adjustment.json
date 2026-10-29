@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-28T19:28:22.843982+00:00",
+  "reason": "英文字型的彎撇號留白過寬；新製漫畫改ASCII撇號，原題、答案與語意不變。",
+  "changes": [
+    {
+      "field": ".panels[1].text",
+      "before": "It’s been可展開成It has been。主句說從開學起算，到現在已經過one and a half months，並非未來才要開學。",
+      "after": "It's been可展開成It has been。主句說從開學起算，到現在已經過one and a half months，並非未來才要開學。"
+    },
+    {
+      "field": ".protectedWords[5]",
+      "before": "It’s been",
+      "after": "It's been"
+    }
+  ],
+  "requiresNewContentConfirmation": false
+}

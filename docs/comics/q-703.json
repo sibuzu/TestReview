@@ -1,0 +1,75 @@
+{
+  "id": "q-703",
+  "subject": "English",
+  "title": "先認清招呼對象，再接please fill in",
+  "art": "docs/comics/art/q-703.png",
+  "protectedWords": [
+    "Anyone",
+    "who wants",
+    "please",
+    "fill in",
+    "fills in",
+    "to fill in",
+    "filling in",
+    "before Friday"
+  ],
+  "panels": [
+    {
+      "heading": "① 前段先說：有意加入的人",
+      "text": "Anyone who wants to join...先說明招呼的對象：想加入英文戲劇社的人。wants在who子句裡，描述這些人的意願，不是逗號後請求部分的主要動詞。",
+      "alt": "老師向有意參加的學生說明社團活動，無字背景幕布僅提示戲劇情境，不新增試鏡或錄取條件。"
+    },
+    {
+      "heading": "② 真正請求是please fill in...",
+      "text": "逗號後是請填寫報名表的叮嚀。please後接肯定祈使句的原形fill in，不因前面的Anyone或wants，就改成fills in。",
+      "alt": "學生填空白報名紙，示意被請求的填表動作，無印字或日期，不讓AI拼寫動詞。"
+    },
+    {
+      "heading": "③ 不要讓前面的s，跨到後面",
+      "text": "to fill in與filling in不能單獨完成此處的請求。before Friday只是補充填表的期限，不改變這裡的動詞形式；填回原句仍是please fill in。",
+      "alt": "師生用兩張空白卡區分前置對象與請求內容，所有s、逗號、please及期限文字由HTML精確排。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：fill in",
+    "points": [
+      "who wants...描述招呼的對象。",
+      "please後是請求，用原形動詞。",
+      "前面wants的s，不延伸到fill。"
+    ]
+  },
+  "rationale": "來源完整文字練習第3題及四選項已讀，使用者A A C B回答第三C，題庫既有C與祈使句解說一致。純文字完整題無缺原卷。無合適既有AI圖，內建新圖社團說明/填表/結構比較，不造實際Friday日期、錄取或試鏡。關係子句與請求分開，不將Anyone直接當後面fills的主詞，也不插入超出國中範圍之語域議論。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-703-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-GU0TNUXFyN50.txt lines353-363，第3題與A A C B回覆"
+  ],
+  "answerCheckedAgainst": "前置對象＋逗號please請求，用原形fill in，wants屬who子句，不以其s變fills。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "f64e93a7285eb7171bdc5378dca6b2f82c91b25b11a89693c1b2913cd500a4b4",
+  "createdAtUTC": "2026-10-28T23:33:34.632355+00:00",
+  "checkedAt": "2026-10-28T23:37:23.915064+00:00",
+  "validationFile": "docs/comics/q-703-validation.json",
+  "nativeArt": "assets/comics/q-703-art-f64e93a728-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:37:23.888979+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整來源353行起第3題及四選項、使用者原C回覆核對。前置who wants描述對象，please填表請求用fill in，圖無額外試鏡錄取或具體Friday日期，維持C；桌手機無溢出。"
+  }
+}

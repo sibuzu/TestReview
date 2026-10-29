@@ -1,0 +1,91 @@
+{
+  "id": "q-712",
+  "subject": "English",
+  "title": "已出發尚未返，教材用has gone",
+  "art": "docs/comics/art/q-712.png",
+  "protectedWords": [
+    "Nora",
+    "has gone",
+    "has gone to",
+    "has been to",
+    "went",
+    "next month",
+    "won't be home",
+    "until next month",
+    "過去式"
+  ],
+  "panels": [
+    {
+      "heading": "① 抓未返線索：到下個月才回家",
+      "text": "後句won't be home until next month，說爸爸要到下個月才回家。這次出差已經出發，而現在還沒返回，是本題要凸顯的狀態。",
+      "alt": "泛指出差出發情境，不新增航班、日期、特定城市或把空格判成已返。"
+    },
+    {
+      "heading": "② has gone to：已去，尚未回來",
+      "text": "教材用has gone to表達已去某地、尚未返回，C最直接。has been to常用來談曾造訪或已完成往返，與本句強調的這次未返不同。",
+      "alt": "父親在外出差的想像例，不畫成已經回到Nora家，也不把has gone限定為已飛抵目的地。"
+    },
+    {
+      "heading": "③ went也能成句，別誤記時間詞規則",
+      "text": "A的went也能敘述過去已發生的出發，不能因沒寫過去時間詞就判文法錯。此題仍按教材對照選C，以強調目前已去未返。",
+      "alt": "Nora在家讀題，父親不在場，不增加原題沒說的某天歸期或完成返家場景。"
+    }
+  ],
+  "fourth": {
+    "answer": "教材預期 C：has gone",
+    "points": [
+      "原句重點：出差已去、現在未返。",
+      "been to與gone to要看本句語境。",
+      "went可成句；不能靠缺少時間詞直接排除。"
+    ]
+  },
+  "rationale": "實看第13題原卷Japan/on business/下個月回家與四選項，讀resolved correction-q-712-9ecbcf039ff9維持教材C並保留A可成句，不重開同項。Cambridge頁正文403，搜索摘要可讀gone未返；British Council官方現在完成式/過去式頁核對。新圖僅泛指出發/在外出差/Nora在家，無確切城市日期或已返畫面；不因過去時間詞缺席硬判went錯，也不用跨語域說法。英文縮寫均ASCII撇號。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-712-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-712-source-80e1c58c8f.jpg",
+    "monitor/confirmations.json resolved correction-q-712-9ecbcf039ff9"
+  ],
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/been-or-gone",
+      "note": "本輪正文403，官方搜尋摘要可讀未返對照；不聲稱已讀正文。"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-perfect?page=1",
+      "note": "官方參考been/gone往返差異。"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+      "note": "官方過去式參考，沿已確認A也可敘事的限制。"
+    }
+  ],
+  "answerCheckedAgainst": "教材C has gone突出已去未返；A went可述過去出發，無時間詞非文法錯，沿既有使用者確認。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "c2768313756d35a9a9a5d67572b14aa264dee45f992e43783df2bbe45d2be655",
+  "createdAt": "2026-10-28T22:53:46.332360+00:00",
+  "checkedAt": "2026-10-28T23:00:38.251570+00:00",
+  "validationFile": "docs/comics/q-712-validation.json",
+  "nativeArt": "assets/comics/q-712-art-c276831375-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:00:38.228652+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷13題四選項與完整句、維持教材C並保留A過去式可成句；桌手機圖文與未返場景一致，無新疑義。"
+  }
+}

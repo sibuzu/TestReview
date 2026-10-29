@@ -1,0 +1,91 @@
+{
+  "id": "q-073",
+  "subject": "English",
+  "title": "崩落、堵河、蓄水，三步讀懂堰塞湖",
+  "art": "docs/comics/art/q-073.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:35:54.015868+00:00",
+  "panels": [
+    {
+      "heading": "① landslide：土石從山坡崩落",
+      "text": "原詩提到山中岩石與A wall of earth。C進一步說明rocks or mud從山坡落下；不是人們築起的高牆。",
+      "alt": "概念俯視圖，山坡土石正往流動河道落下，藍箭頭指水流、棕箭頭指土石移動。"
+    },
+    {
+      "heading": "② block a river：土石堵住河道",
+      "text": "關鍵是崩落土石擋住原本流動的河水。原詩的held back與cannot pass，對應C的block a river。",
+      "alt": "同一概念河段被天然土石堆橫向堵住，無人造壩體；下游河床留白，不把土石當成低地積水。"
+    },
+    {
+      "heading": "③ Water collects behind it.",
+      "text": "it指堵河的土石阻塞物；behind it就是水被擋住、在上游一側累積成湖。B只說低地積水，漏掉堵河這個必要成因。",
+      "alt": "湖水在土石阻塞物左側上游擴大，右側標示下游；示意形成過程，不給實地湖深與尺度。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：土石堵河，上游蓄水",
+    "points": [
+      "landslide → block a river → water collects。",
+      "A是人造高牆，不是原詩的天然土石阻塞。",
+      "D沒交代山崩堵河；湖水變重也不是本題定義。"
+    ]
+  },
+  "protectedWords": [
+    "landslide",
+    "block a river",
+    "rocks or mud",
+    "held back",
+    "cannot pass",
+    "behind it",
+    "上游",
+    "土石阻塞物"
+  ],
+  "rationale": "實看完整原詩及四選項，維持C；SVG精確控制同河段土石崩落、堵住、上游蓄水的因果順序，避免AI山景畫成低地窪水或人造壩。只用原詩形成線索，不改shy或推廣所有堰塞湖永無出流。",
+  "promptSummary": "原生SVG三個俯視示意：土石朝河道落、天然土石橫堵、上游蓄水；水流與土石箭頭分色，無實地比例。",
+  "answerCheckedAgainst": "原詩A wall of earth/held back/cannot pass與原選項C；氣象署震生湖說明崩落土石堵塞河川使上游蓄水。",
+  "officialReferences": [
+    {
+      "url": "https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/62",
+      "finding": "山崩土石堵塞河川迫使上游水流蓄積形成天然堰塞湖。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-073-reading-source-bc116ce30f.jpg",
+      "site/dist/assets/questions/q-073-source-cd87d809a5.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "全詩與四選項核對；保留clear, shy mirror，第三圖不把所有堰塞湖定義成永久無出流。"
+  },
+  "artSHA256": "e45e746117c7d8071d3af4570f927413dc039be6ba93a7904ca20adeea4091fa",
+  "completedAt": "2026-10-28T23:37:32.802568+00:00",
+  "checkedAt": "2026-10-28T23:41:14.058531+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-073-preview-validation.json",
+  "visualReview": "實看540×180原生SVG與1440/390成品：三格同一橫向河道，先崩落再橫堵，蓄水只在左側上游，水流藍箭頭與土石棕箭頭分開。三寬無溢出，桌機同列等高/手機自然高，圖中文字僅最小示意標記。",
+  "nativeArt": "assets/comics/q-073-art-e45e746117.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:41:14.029384+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原詩及40題四選項，C土石崩落堵河及上游蓄水完整。SVG同河段水流向右、土石橫堵、左側上游水面擴大，非人造壩或僅低地積水；未聲稱永久無出流，維持C。桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-073-validation.json"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "q-697",
+  "subject": "English",
+  "title": "兩個並列指令：turn off... and go...",
+  "art": "docs/comics/art/q-697.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:53:37.294075+00:00",
+  "panels": [
+    {
+      "heading": "① After子句交代先後時間",
+      "text": "After you finish your homework表示「做完功課後」。先暫時遮住它，逗號後是在提醒對方接著做兩件事。",
+      "alt": "少女做完功課並合起無字作業本，表示After子句的時間背景，不把finish當後面指令的主要動詞。"
+    },
+    {
+      "heading": "② 第一個指令：turn off",
+      "text": "「關掉你的電腦」是叮嚀對方做事，用祈使句原形turn。空格後已有off，合起來就是turn off your computer。",
+      "alt": "少女在功課完成後關閉自己的筆電，黑畫面不顯示文字選單，對照turn off動作。"
+    },
+    {
+      "heading": "③ 第二個指令：go to bed",
+      "text": "這裡and連接兩個並列指令：turn off... and go...。後面的go是原形，前面的turn也用原形，選C。",
+      "alt": "少女換睡衣上床，承接關電腦後的go to bed，具體時刻未指定，不用圖編造幾點睡覺。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 兩個並列指令：turn off... and go...",
+    "answer": "答案 C：turn",
+    "points": [
+      "After子句是時間背景。",
+      "兩個指令：關電腦、早點睡。",
+      "本句兩個祈使動詞都用原形。"
+    ]
+  },
+  "protectedWords": [
+    "After",
+    "功課",
+    "祈使句",
+    "原形",
+    "turn off",
+    "go to bed",
+    "your computer",
+    "and",
+    "turn"
+  ],
+  "originalAssets": [],
+  "originalTextSource": "site/dist/sources/gemini-GU0TNUXFyN50.txt：變形題2完整題幹、A-D四選項與C解析已實讀，屬文字延伸無原卷照片。",
+  "answerCheckedAgainst": "來源完整句的主要部分是兩個並列祈使指令，turn off與go同用原形，C；不是把and誤教成所有相連動詞永遠同形式。",
+  "rationale": "做完功課/關電腦/早睡三情境直接對應本句時間子句與兩指令，文字可分開檢查。保持單題語境，不擴大為所有and結構一律原形，不給未載明具體時間。",
+  "promptPath": "docs/comics/q-697-prompt.txt",
+  "generationCalls": 1,
+  "visualChecked": true,
+  "artSHA256": "9fd1f69df8a39a5f9bf0b2632f0907311ad71c76c8dade3dac93793dfd3dbb3e",
+  "checkedAt": "2026-10-28T23:00:48.305476+00:00",
+  "completedAt": "2026-10-28T22:55:00.309707+00:00",
+  "layoutEvidence": "docs/comics/q-697-preview-validation.json",
+  "visualReview": "實看新圖與1440/1120/390：功課結束、關好收起筆電、睡前上床，與兩指令對應；闔蓋動作只是收起電腦情境，不宣稱闔蓋必然等於作業系統關機。HTML祈使指令turn off與go文法正確，三寬無溢出或保護詞斷裂。",
+  "nativeArt": "assets/comics/q-697-art-9fd1f69df8-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:00:48.274787+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整來源純文字After句和四選項核對；圖示功課完成、收起電腦及上床，沒有新增具體睡眠時刻，C及並列祈使指令正確。"
+  },
+  "validationFile": "docs/comics/q-697-validation.json"
+}

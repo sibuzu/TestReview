@@ -1,0 +1,92 @@
+{
+  "id": "q-071",
+  "subject": "English",
+  "title": "outlive比較壽命長短，與住得遠近無關",
+  "art": "docs/comics/art/q-071.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:37:14.469106+00:00",
+  "panels": [
+    {
+      "heading": "① them指同批的51隻企鵝",
+      "text": "Captain Eo在1984年和另外51隻企鵝來到動物園。all of them指那一批其他企鵝，不是全世界所有企鵝。",
+      "alt": "溫帶動物園麥哲倫企鵝群情境，僅示同批群體，不畫成精確52隻計數圖、不放南極冰山。"
+    },
+    {
+      "heading": "② oldest提示：牠活得較久",
+      "text": "後文說牠成為園內最年長的麥哲倫企鵝。outlive＝live longer than，表示比別人活得久；不是比別人早死。",
+      "alt": "照護員在普通岩岸圍場餵年長企鵝，對應原文老年需要協助進食，不憑外表推定精確40歲或生成死亡景象。"
+    },
+    {
+      "heading": "③ near、far away都在談距離",
+      "text": "A、D說住得近或遠，把比較方向換錯了。原文比較的是壽命長短，所以B的lived longer than最符合前後文。",
+      "alt": "學生讀平板企鵝新聞並回看長壽線索，無地圖或距離尺，精確字義與選項由HTML呈現。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ outlive比較壽命長短，與住得遠近無關",
+    "answer": "答案 B：lived longer than all of them",
+    "points": [
+      "outlive someone＝比某人活得久。",
+      "them對回同批另外51隻企鵝。",
+      "文中40歲是個體長壽，不是所有企鵝的壽命。"
+    ]
+  },
+  "protectedWords": [
+    "Captain Eo",
+    "1984年",
+    "51隻企鵝",
+    "all of them",
+    "麥哲倫企鵝",
+    "outlive",
+    "live longer than",
+    "lived longer than",
+    "oldest",
+    "far away",
+    "壽命長短",
+    "40歲",
+    "同批"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-071-reading-source-e8362a2e36.jpg",
+    "site/dist/assets/questions/q-071-source-756a1091c0.jpg"
+  ],
+  "originalVisualCheck": "實看完整Captain Eo原文與第38題全部選項：1984+51同伴、oldest與outlived，文中40歲及一般20-30年分清，B與既有核對一致。",
+  "answerCheckedAgainst": "閱讀前後oldest/longlife與outlive標準活得更久字義配對B，不把near/far距離或earlier死亡套入；不依照片外觀推理精確年齡。",
+  "rationale": "同批企鵝/年長照護/回讀新聞三景支持指代與壽命比較，不生成墓地、精確群數或出生死亡時間線，不拿圖片當新證據。麥哲倫溫帶棲地/蹼腳與雙胸帶維持物種，未畫帝王企鵝或冰山。",
+  "promptPath": "docs/comics/q-071-prompt.txt",
+  "generationCalls": 1,
+  "visualChecked": true,
+  "artSHA256": "76775ab747b2f686c580f95f19385c489b52a3b66c6cbf709a8e2a244fa4be55",
+  "references": [
+    {
+      "title": "Merriam-Webster: outlive",
+      "url": "https://www.merriam-webster.com/dictionary/outlive"
+    }
+  ],
+  "referenceAccessNote": "Merriam-Webster實讀to live beyond or longer than及兒童詞條；Cambridge本次403不列為實讀。英文教學由原卷閱讀，不以新聞轉載增寫生平。",
+  "checkedAt": "2026-10-28T23:42:17.000007+00:00",
+  "completedAt": "2026-10-28T23:40:20.204069+00:00",
+  "layoutEvidence": "docs/comics/q-071-preview-validation.json",
+  "visualReview": "實看新溫帶動物園麥哲倫企鵝群/年長餵食/學生讀新聞圖，雙胸帶與無冰山無精確群數示意合理，無死亡圖。1440/1120/390三寬outlive與them範圍/B完整，保護詞不拆、無橫溢，同列等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-071-art-76775ab747-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:42:16.971312+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看Captain Eo完整原文與38題四選項，1984同批另外51隻/them與oldest線索正確。新圖麥哲倫企鵝群與餵食照護，未畫精確51/52隻、不把所有企鵝壽命寫成40歲、未用居住遠近解outlive，維持B；桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-071-validation.json"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "q-696",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T22:51:21.001873+00:00",
+  "completedAt": "2026-10-28T22:53:11.444052+00:00",
+  "reviewedAt": "2026-10-28T22:53:11.444052+00:00",
+  "answer": "A，slow",
+  "sourceTranscript": "site/dist/sources/gemini-GU0TNUXFyN50.txt",
+  "sourceSHA256": "cbc148acb7f0b03842ef4fd238cad7cd006a838fec8b233ab37ff0fd0a9a52cb",
+  "sourceLines": "203–218",
+  "completeExtensionTextChecked": true,
+  "originals": [],
+  "reason": "本題只需辨清when時間子句與主要祈使句的界線，現有逐項表已直接說明light只管turns、主句要原形slow。車輛減速或紅綠燈插畫可畫同一情境，卻無法區分slow/slows/slowing/to slow四詞形，會把版面重心移向交通場景；畫三次沒有新增語法辨識資訊，因此保留可校對的原句與對照表，不加裝飾漫畫。不是缺原圖，來源文字題完整。",
+  "officialReferences": [
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/imperative",
+      "finding": "祈使句通常省略主詞，以原形動詞提出指令。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/imperatives",
+      "finding": "否定祈使句用do not/don't加原形，與本題後文do not rush相符。"
+    }
+  ],
+  "validation": "docs/comics/q-696-validation.json",
+  "visualChecked": true,
+  "rootReview": {
+    "checkedAt": "2026-10-28T22:56:19.294921+00:00",
+    "reason": "同來源q690已用新圖文拆解時間子句與主要祈使句，本題作文字遷移練習；新增同類動作圖的辨識增益有限。保留原句、逐項詞形表和句子界線，以可校對文字完成核對，不是缺原圖。",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "recheckedAt": "2026-10-28T23:00:06.868780+00:00"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-28T19:23:58.315586+00:00",
+  "reason": "字型將彎撇號顯示過寬；新製英文圖文改用普通ASCII撇號，保留原題與所有語意。",
+  "changes": [
+    {
+      "field": ".panels[0].heading",
+      "before": "① eight o’clock是時間起點",
+      "after": "① eight o'clock是時間起點"
+    },
+    {
+      "field": ".panels[1].text",
+      "before": "have played是現在完成式。依本題語境，男孩從早上八點起打球至今，因此填since eight o’clock。",
+      "after": "have played是現在完成式。依本題語境，男孩從早上八點起打球至今，因此填since eight o'clock。"
+    },
+    {
+      "field": ".panels[2].text",
+      "before": "for eight hours才表示「持續八小時」。原題是eight o’clock，不能只看到eight，就把鐘點誤讀成八小時。",
+      "after": "for eight hours才表示「持續八小時」。原題是eight o'clock，不能只看到eight，就把鐘點誤讀成八小時。"
+    },
+    {
+      "field": ".fourth.points[0]",
+      "before": "since eight o’clock：從八點起。",
+      "after": "since eight o'clock：從八點起。"
+    },
+    {
+      "field": ".protectedWords[0]",
+      "before": "eight o’clock",
+      "after": "eight o'clock"
+    }
+  ],
+  "requiresNewContentConfirmation": false
+}

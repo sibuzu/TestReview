@@ -1,0 +1,23 @@
+{
+  "id": "q-711",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T22:07:11.883636+00:00",
+  "answer": "教材預期C：been",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-711-source-9b654d22b7.jpg",
+      "sha256": "9b654d22b7cb961ecbef30ccef57a29e61330fe54ab601662fe293733f0505f6",
+      "visualChecked": true
+    }
+  ],
+  "reason": "原卷21題完整對話、四選項與C實看。核心是have never been to的經驗搭配，並保留never gone並非一概不成句的既有範圍說明。若畫Ken與Ann都在公園外，再以位置排除gone，會重犯原AI把對話當必定面對面、把肯定已去未返硬套否定句的錯誤；公園旅遊裝飾不能解釋been/gone語義與visited to形式，故保留完整HTML，不添漫畫。",
+  "existingClarification": "維持教材預期C及其他可能表達的既有區分，不改四選項、不重開已確認問題。",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T22:09:11.463827+00:00",
+  "completedAt": "2026-10-28T22:09:11.463827+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-711/layout.json",
+    "visualChecked": true,
+    "result": "1440/390詳解實看，教材C/never gone適用範圍/visited不加to三點完整，預設收合及展開正常，無頁面橫溢。"
+  }
+}

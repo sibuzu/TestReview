@@ -1,0 +1,28 @@
+{
+  "id": "q-700",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T22:54:43.311167+00:00",
+  "completedAt": "2026-10-28T22:56:05.930977+00:00",
+  "reviewedAt": "2026-10-28T22:56:05.930977+00:00",
+  "answer": "Take",
+  "sourceTranscript": "site/dist/sources/gemini-GU0TNUXFyN50.txt",
+  "sourceSHA256": "cbc148acb7f0b03842ef4fd238cad7cd006a838fec8b233ab37ff0fd0a9a52cb",
+  "sourceLines": "303–319",
+  "completeExtensionTextChecked": true,
+  "originals": [],
+  "reason": "原對話已由使用者正確選take，題目只檢查建議句用原形Take，並以when子句補充時機。現有短解已指出Take/Taking/To take的句法差別及句號不能跨句借can help；深呼吸的人物圖只能教同一動作，無法區分三個形式，三格反覆畫緊張/呼吸/放鬆會把簡短文法題膨脹成未要求的技巧教學。因此不新增裝飾圖，保留完整文字與正確作答。",
+  "officialReferences": [
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/imperative",
+      "finding": "祈使句通常省略主詞，以原形動詞提出建議。"
+    }
+  ],
+  "validation": "docs/comics/q-700-validation.json",
+  "visualChecked": true,
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:00:22.952868+00:00",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reason": "完整來源短練習含使用者已正確take回答；q690及q697已具體圖解相同主要祈使句結構，這題保留簡短文字作遷移練習，新增同動作插畫辨識三詞形的增益有限；並非缺圖或缺題。"
+  }
+}

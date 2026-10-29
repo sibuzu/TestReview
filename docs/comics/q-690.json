@@ -1,0 +1,74 @@
+{
+  "id": "q-690",
+  "subject": "English",
+  "title": "先找主要指令，祈使句用原形動詞",
+  "art": "docs/comics/art/q-690.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:51:23.997873+00:00",
+  "panels": [
+    {
+      "heading": "① Before子句：先交代時間",
+      "text": "Before you go to bed是「睡覺前」。先暫時遮住這段，觀察逗號後的主要部分：這是在叮嚀對方刷牙。",
+      "alt": "家長在睡前提醒穿睡衣的少年刷牙，用生活情境理解時間子句與指令的關係，沒有另外加主詞或答案文字。"
+    },
+    {
+      "heading": "② 直接叮嚀：brush your teeth",
+      "text": "祈使句常省略主詞you，直接用原形動詞。這裡應填brush，組成brush your teeth for two minutes，意思是刷牙兩分鐘。",
+      "alt": "少年在浴室刷牙，無數字計時器僅襯托持續一段時間，精確兩分鐘由HTML給定，不由圖面推測。"
+    },
+    {
+      "heading": "③ 分清詞形，也分清句子",
+      "text": "brushes、brushing、to brush都無法完成這句祈使句。It will help...是另一句話，不能借用那個will來填前句。",
+      "alt": "少年與家長看牙齒與床的無字作息圖卡，表示睡前指令，沒有把第二句will當前句助動詞。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先找主要指令，祈使句用原形動詞",
+    "answer": "答案 A：brush",
+    "points": [
+      "Before子句交代時間，主要部分是指令。",
+      "省略you的祈使句，用原形動詞開頭。",
+      "先分清句子，再判斷每個動詞的功能。"
+    ]
+  },
+  "protectedWords": [
+    "Before",
+    "go to bed",
+    "祈使句",
+    "原形動詞",
+    "主詞you",
+    "brush",
+    "brushes",
+    "brushing",
+    "to brush",
+    "兩分鐘",
+    "will"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-690-source-ae29f249a8.jpg"
+  ],
+  "originalVisualCheck": "實看第11題原卷Before you go to bed逗號後填空、四詞形與第二句It will help、紅筆A。題幹與選項未修改。",
+  "answerCheckedAgainst": "國中祈使句省略you，原形brush；Before時間子句不改主句指令，第二句will不跨句，A與現有核對一致。",
+  "rationale": "睡前提醒、實際刷牙、作息指令三情境搭配可讀HTML文法拆解。圖不編寫文法文字、不用精確時鐘猜兩分鐘、不延伸保證牙齒健康。",
+  "promptPath": "docs/comics/q-690-prompt.txt",
+  "generationCalls": 1,
+  "visualChecked": true,
+  "artSHA256": "bea5f46fa5218ba3f890fac812340a54aed47ef86d62a43c6fe7dbb8e660eff8",
+  "checkedAt": "2026-10-28T22:56:19.256485+00:00",
+  "completedAt": "2026-10-28T22:52:49.865335+00:00",
+  "layoutEvidence": "docs/comics/q-690-preview-validation.json",
+  "visualReview": "實看新圖與1440/1120/390：睡前提醒/刷牙/作息圖卡對應，計時器無數字，不憑圖推兩分鐘。英文完整單字與主詞you等保護詞不拆，無橫溢，同行等高、手機單欄自然高度。",
+  "nativeArt": "assets/comics/q-690-art-bea5f46fa5-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-690-validation.json"
+}

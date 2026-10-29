@@ -1,0 +1,93 @@
+{
+  "id": "q-070",
+  "subject": "English",
+  "title": "紫票讓你和球員一起入鏡",
+  "art": "docs/comics/art/q-070.png",
+  "startedAt": "2026-10-28T23:34:12.446926+00:00",
+  "panels": [
+    {
+      "heading": "① Area 1對應Purple Pass",
+      "text": "先查票券表：Area 1是紫票座位區。接著找題目問的after the game，不只看表內的點心和飲料。",
+      "alt": "藍衣球迷持純紫色無字票券坐在球場旁，精確區域與票種以HTML說明。"
+    },
+    {
+      "heading": "② with players：和球員一起合照",
+      "text": "註記說紫票持有人賽後能take a photo with soccer players。球迷和球員一起入鏡，正是C的take a picture with players。",
+      "alt": "賽後藍衣球迷與兩名綠衣足球員一起讓另一人拍照；不是比賽中，也沒有送禮。"
+    },
+    {
+      "heading": "③ of players：照片裡呈現球員",
+      "text": "第三圖只是對照概念：a photo of soccer players指球員的照片，不等於和球員合照。D還加了原文沒說的免費足球。",
+      "alt": "純概念對照照片中只有兩名球員，沒有藍衣球迷；非聲稱原文有發照片或贈品。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：有機會與球員合照",
+    "points": [
+      "Area 1 → Purple Pass → 賽後合照。",
+      "with表示合照對象；of指出照片所呈現的人物。",
+      "不能把未寫明的蛋糕、帽子、T恤或足球當成贈品。"
+    ]
+  },
+  "protectedWords": [
+    "Area 1",
+    "Purple Pass",
+    "after the game",
+    "with players",
+    "of players",
+    "take a photo",
+    "take a picture",
+    "soccer players"
+  ],
+  "rationale": "實看完整閱讀、票表/註記、必要座位圖及全部四選項。紫票賽後合照為C，新動漫用球迷共同入鏡與只有球員的照片具體對照；第三格明說概念圖，不虛構原卷贈送照片或免費足球。",
+  "promptSummary": "三張無字情境：紫票球迷、同一球迷和球員賽後合照、只有球員的照片作語意對照；不畫贈品。",
+  "answerCheckedAgainst": "完整原卷表格Purple Pass/Area 1與註記People with the Purple Pass can take a photo with soccer players after the game；C與with對應。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-070-reading-source-cb2d21e910.jpg",
+      "site/dist/assets/questions/q-070-source-fa3dfad43d.jpg",
+      "site/dist/assets/questions/q-070-seating-71727c7884.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "票價、區域、免費品、紫票註記與四選項均核對，原學生D錯誤不沿用。"
+  },
+  "artSHA256": "64c4bb1d79ad54c59627e3cc22786c6e2897b88da5335a04140e6bade75a3541",
+  "generationStartedAt": "2026-10-28T23:34:24.784Z",
+  "generationCompletedAt": "2026-10-28T23:35:17.174Z",
+  "completedAt": "2026-10-28T23:35:53.957852+00:00",
+  "checkedAt": "2026-10-28T23:41:30.414062+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-070-preview-validation.json",
+  "visualReview": "實看原始2172×724圖及1440/390最終預覽：同一藍衣球迷紫票、與兩球員共同入鏡、純兩球員照片對照明確，精確票券表仍原題。不虛構免費贈品；原圖與新圖三寬載入、無溢出，桌機同列等高與手機自然高度正常。",
+  "nativeArt": "assets/comics/q-070-art-64c4bb1d79-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootDraftRefinement": {
+    "checkedAt": "2026-10-28T23:40:27.046593+00:00",
+    "before": "③ of players：只有球員的照片",
+    "after": "③ of players：照片裡呈現球員",
+    "reason": "示意照片只有球員，不代表介詞of在一般語意上排除其他人物；未改原題、原詳解或C答。"
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:41:30.379890+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看完整閱讀、票券表/紫票註記、座位及32題四選項，維持C。新圖紫票球迷與球員合照清楚；第三格只是球員照片示例，Root將標題改為照片裡呈現球員，避免把of一律教成只有球員。未新增贈品；重跑6項並實看桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-070-validation.json"
+}

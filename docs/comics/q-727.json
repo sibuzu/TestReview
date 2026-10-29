@@ -1,0 +1,68 @@
+{
+  "id": "q-727",
+  "subject": "English",
+  "title": "since接起點，for接期間",
+  "art": "docs/comics/art/q-727.png",
+  "startedAt": "2026-10-28T19:20:14.920840+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① eight o'clock是時間起點",
+      "text": "題目說早上八點，指「從何時開始」。它是一個鐘點，不是八小時，也不是打球多久的期間。",
+      "alt": "男孩們早晨抵達籃球場開始暖身，精確八點由HTML說明，不在插畫生成鐘面或時刻。"
+    },
+    {
+      "heading": "② 從那時延續到現在：since",
+      "text": "have played是現在完成式。依本題語境，男孩從早上八點起打球至今，因此填since eight o'clock。",
+      "alt": "同組男孩在較明亮的白天持續打籃球，示意活動從先前開始延續，未虛構當下精確時刻。"
+    },
+    {
+      "heading": "③ for後面要接持續期間",
+      "text": "for eight hours才表示「持續八小時」。原題是eight o'clock，不能只看到eight，就把鐘點誤讀成八小時。",
+      "alt": "師生以沙漏討論一段時間的概念，無生成單字或精確八小時刻度。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 分清開始時點與持續多久",
+    "answer": "答案 B：since",
+    "points": [
+      "since eight o'clock：從八點起。",
+      "for eight hours：持續八小時。",
+      "依本題完成式語境，用since接起點。"
+    ]
+  },
+  "protectedWords": [
+    "eight o'clock",
+    "eight hours",
+    "have played",
+    "現在完成式",
+    "時間起點",
+    "八小時",
+    "早上八點",
+    "持續期間"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-727-source-90a03333b3.jpg"
+  ],
+  "rationale": "實看原卷16題、完整選項與B；無既有AI圖。三情境對照早晨開始、延續活動、沙漏期間，避免AI鐘面寫錯八點或虛構現在時刻，since/for精確文字由HTML呈現。",
+  "answerCheckedAgainst": "原卷7回16題與完整題庫答案B，按教材現在完成式since起點的預期。",
+  "visualChecked": true,
+  "artSHA256": "f634876b112c0b5ea2c9e86893d315d9173ad05e7300f6aaea4273f04474fae5",
+  "checkedAt": "2026-10-28T19:25:16.446578+00:00",
+  "completedAt": "2026-10-28T19:21:19.595197+00:00",
+  "layoutEvidence": "docs/comics/q-727-preview-validation.json",
+  "visualReview": "實看原卷及三格新圖：同組男孩清晨開始、白天持續打球、師生用沙漏分辨期間；未畫錯精確鐘面。1440/1120/390三寬實看，英文短語保護、不跨行拆字，圖文完整，無橫溢，雙欄同列等高與手機自然高度通過。",
+  "nativeArt": "assets/comics/q-727-art-f634876b11-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-727-validation.json"
+}

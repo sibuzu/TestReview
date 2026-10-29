@@ -1,0 +1,78 @@
+{
+  "id": "q-731",
+  "subject": "English",
+  "title": "承接完成式回問，要保留 have",
+  "art": "docs/comics/art/q-731.png",
+  "startedAt": "2026-10-28T19:21:55.924480+00:00",
+  "panels": [
+    {
+      "heading": "① 先看 Ann 用哪個助動詞",
+      "text": "Ann 問「Have you had your lunch?」，意思是你吃午餐了嗎？這句用 Have 加上過去分詞 had，形成現在完成式。",
+      "alt": "Ann向Paul詢問午餐情況，Paul專心聽，圖片沒有生成英文對話。"
+    },
+    {
+      "heading": "② Paul 先回答，再問回去",
+      "text": "Paul 回答「Yes.」，表示自己已吃了。接著用「Haven't you?」反問 Ann：你還沒吃嗎？這裡承接前一句的完成式，所以選B。",
+      "alt": "Paul用過的空餐盤表示已吃完午餐，向Ann點頭回答，沒有暗示Ann已吃或未吃。"
+    },
+    {
+      "heading": "③ 把省略的內容補回來看",
+      "text": "「Haven't you?」可補成「Haven't you had your lunch?」。省略重複內容後，仍須保留完成式的助動詞，不能直接換成 do、be 或 will。",
+      "alt": "Paul轉向Ann以好奇手勢問回去，Ann傾聽，未替她畫出吃過與否的答案。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：Haven't",
+    "points": [
+      "先找原問句：Have you had...?",
+      "反問承接：Haven't you?",
+      "have 加過去分詞，不能任意換助動詞。"
+    ]
+  },
+  "protectedWords": [
+    "Ann",
+    "Paul",
+    "Have",
+    "Haven't",
+    "lunch",
+    "your",
+    "had",
+    "do",
+    "be",
+    "will",
+    "助動詞",
+    "過去分詞",
+    "現在完成式"
+  ],
+  "rationale": "用詢問、已吃完的回答、友善問回去三個對話回合配合完整可校對英文，將焦點放在have完成式及省略承接；不替Ann斷定吃過與否，縮寫統一ASCII apostrophe避免渲染異常。",
+  "promptSummary": "全新無字動漫三景：Ann詢問Paul、Paul空餐盤答已吃、Paul友善問回去。Ann餐況保持未知，所有英文由HTML排字。",
+  "answerCheckedAgainst": "原卷Ann/Paul完整對話四選項實看，維持B Haven't。以完成式have had與省略後保留助動詞的標準規則核對，不把所有have主動詞問句都類推。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-731-source-a9f0863626.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T19:25:32.196042+00:00",
+  "checkedAt": "2026-10-28T19:30:01.314428+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T19:23:11.437Z",
+  "generationCompletedAt": "2026-10-28T19:23:33.794Z",
+  "artSHA256": "b271e265692f05fdb72a070bd079a0b59f24a4a437360d248c133b87c9009b09",
+  "previewValidation": "docs/comics/q-731-preview-validation.json",
+  "visualReview": "原卷Ann/Paul對話與全部選項實看，維持B。原畫三回合詢問／Paul已吃／問回Ann，Ann實際吃過與否沒有被圖先決定。ASCII縮寫、完整回填句及助動詞對應核對，修正引用標點後重新三寬QA與1440/390實看，無英文拆字或頁面溢出。",
+  "nativeArt": "assets/comics/q-731-art-b271e26569-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-731-validation.json"
+}

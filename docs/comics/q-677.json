@@ -1,0 +1,76 @@
+{
+  "id": "q-677",
+  "subject": "Chinese",
+  "title": "對照生卒年，保留可能推論的界線",
+  "art": "docs/comics/art/q-677.svg",
+  "startedAt": "2026-10-28T20:10:32.004789+00:00",
+  "panels": [
+    {
+      "heading": "① 應試時，兩位長者都在世",
+      "text": "嘉祐二年是1057年，落在梅聖俞1002～1060、歐陽脩1007～1072的生命期間。再加乙文閱卷記事，支持C的可能見證，不是證明所有細節都親見。",
+      "alt": "生卒期間長條依同一時間比例繪製，1057虛線落在梅聖俞與歐陽脩兩條生命區間內，沒有以人物場景冒充親見史實。"
+    },
+    {
+      "heading": "② 墓誌的時間在蘇軾逝後",
+      "text": "蘇軾1101年過世，亡兄墓誌須在此後撰寫。梅聖俞早在1060年過世，因此A說寫墓誌時還可向他求證，時間不合。",
+      "alt": "時間線將梅聖俞1060年過世放在蘇軾1101年過世之前，不把墓誌撰寫硬定成同一日期。"
+    },
+    {
+      "heading": "③ 生年先後，不等於傳話方式",
+      "text": "歐陽脩生於1007，蘇轍生於1039，D把先後說反。B只憑兄弟生年接近，就推定當面轉述，也沒有足夠依據。",
+      "alt": "出生時間線清楚顯示歐陽脩1007早於蘇轍1039，只表示年代先後，不生成資訊傳遞箭頭。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：可能見證蘇軾早年成名",
+    "points": [
+      "1057年，梅聖俞與歐陽脩仍在世。",
+      "年代要和乙文參與閱卷的記事合看。",
+      "可能見證，不可擴成每件事都親眼看見。"
+    ]
+  },
+  "protectedWords": [
+    "嘉祐二年",
+    "1057年",
+    "梅聖俞",
+    "歐陽脩",
+    "蘇軾",
+    "蘇轍",
+    "亡兄墓誌",
+    "可能見證",
+    "當面轉述",
+    "1002～1060",
+    "1007～1072"
+  ],
+  "rationale": "本題核心是時間區間交集與推論範圍，程式SVG時間線可直接核對1057落在兩人生涯內、1060早於1101與1007早於1039。避免生成歷史人物互動，被誤認為已證實親眼見證或當面傳話。完整推理與日期仍HTML。",
+  "promptSummary": "程式SVG三格時間圖：兩條生卒長條與1057事件線、梅與蘇軾過世先後、歐陽脩與蘇轍出生先後。不以imagegen猜畫未記載的歷史互動。",
+  "answerCheckedAgainst": "實看甲乙全文、丙生卒表及四選項，維持C。故宮官方藏品資料交叉核對嘉祐二年=1057；保留原選項可能二字，不重開既有狀元/科舉階段訂正。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-677-reading-e6869645b3.jpg",
+    "question": "site/dist/assets/questions/q-677-source-a383883837.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T20:15:44.905983+00:00",
+  "checkedAt": "2026-10-28T20:22:55.848415+00:00",
+  "visualChecked": true,
+  "artSHA256": "bb2af6ab16b2b690ba0841c7f152c2f2ff538987bfabfd3c2220df9c70fc1c19",
+  "previewValidation": "docs/comics/q-677-preview-validation.json",
+  "visualReview": "甲乙全文、丙表、四選項實看維持C且保留可能。SVG依同尺度繪生卒條，1057線在兩條期間內；1060<1101、1007<1039斷言通過。原SVG及1440/390實看，初見事件虛線穿1060字，已將該處虛線留空後重跑三寬與重看，日期不重疊，HTML完整年份與姓名自然換行，無人物親見史實暗示。",
+  "nativeArt": "assets/comics/q-677-art-bb2af6ab16.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-677-validation.json"
+}

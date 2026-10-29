@@ -1,0 +1,83 @@
+{
+  "id": "q-680",
+  "subject": "Chinese",
+  "title": "沿時間讀盛衰，沿語境理解譬喻",
+  "art": "docs/comics/art/q-680.png",
+  "startedAt": "2026-10-28T20:15:45.067286+00:00",
+  "panels": [
+    {
+      "heading": "① 時間詞串起全詩結構",
+      "text": "昔日荷蘭與明鄭、清乾隆、十九世紀初，再到鐵路未經與外出謀生。各節沿時間向前，描寫鹿港興衰，符合A。",
+      "alt": "詩意繁華港口的舊帆船與商貿情境，只表現盛衰敘事的繁盛階段，不冒充某年實景。"
+    },
+    {
+      "heading": "② 珍珠與魚浪，都要讀本意",
+      "text": "珍珠比喻鹿港珍貴耀眼的地位，不是說盛產珠寶。商人如魚、巨富如海浪，主要用明喻寫商貿繁盛，也不是描寫海浪驚險。",
+      "alt": "熱鬧市場街巷的商人與買賣，對應商貿繁盛；沒有畫成珍珠產業、魚形商人或危險海浪。"
+    },
+    {
+      "heading": "③ 稻草指最後再添的打擊",
+      "text": "最後一根稻草緊接未經過的鐵路，表示鹿港衰退時又受交通發展的打擊。原文沒有把它連到原住民族反抗，C的推論超出詩意。",
+      "alt": "較安靜廟宇街巷中居民攜行囊離開，示意外出謀生；沒有把鐵路畫成經過鹿港，也無稻草或抗爭的字面誤解。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：按時間推移描寫盛衰",
+    "points": [
+      "看篇章：各節時間詞由早到晚。",
+      "看譬喻：分清所比的意義和字面物產。",
+      "看語境：最後一根稻草是再添打擊。"
+    ]
+  },
+  "protectedWords": [
+    "清乾隆",
+    "十九世紀初",
+    "外出謀生",
+    "鹿港",
+    "珍珠",
+    "商人如魚",
+    "巨富如海浪",
+    "明喻",
+    "最後一根稻草",
+    "原住民族",
+    "詩意",
+    "時間推移"
+  ],
+  "rationale": "以港口繁華、街市商貿、後來街巷與外出謀生三景把盛衰與譬喻本意連起來。原詩早期到近代的時間順序由HTML明示，不讓模型拼字或虛構精確史實；避開珍珠物產、魚人、稻草與原民抗爭等錯誤字面圖像。",
+  "promptSummary": "全新無字動漫三景：舊港繁華、熱鬧市場、較安靜廟巷居民攜行囊。無史實重建宣稱、珍珠產業、魚人、稻草、抗爭或穿過鹿港的火車。",
+  "answerCheckedAgainst": "完整文字延伸題四選項及真正原卷q675閱讀詩圖逐行實看，維持A。按昔日/清乾隆/十九世紀初/鐵路與外出的順序判結構，譬喻回原詩語境，不加未記載史實。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-675-reading-79c0709f16.jpg",
+    "sourceText": "site/dist/sources/gemini-ft1A3NfIdqI2.txt",
+    "lines": [
+      301,
+      330
+    ],
+    "visualChecked": true,
+    "completeTextChecked": true
+  },
+  "completedAt": "2026-10-28T20:20:34.741362+00:00",
+  "checkedAt": "2026-10-28T20:25:56.313248+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T20:17:54.528Z",
+  "generationCompletedAt": "2026-10-28T20:18:19.478Z",
+  "artSHA256": "6a42f4aaa1a9964f3701285ed42a96277c0a1284ee57b0e92855ded677a822c0",
+  "previewValidation": "docs/comics/q-680-preview-validation.json",
+  "visualReview": "來源完整文字延伸與原卷q675全詩照片逐節實看，維持A。新圖繁華港口/商貿街市/較靜廟巷外出人群對應盛衰與譬喻本意，未畫成珍珠物產、魚人、稻草或鐵路穿城，不作特定史實復原。原畫及1440/390成品實看，時間詞/詩句詞組保護正常，三寬QA通過。",
+  "nativeArt": "assets/comics/q-680-art-6a42f4aaa1-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-680-validation.json"
+}

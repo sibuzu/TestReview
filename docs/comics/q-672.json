@@ -1,0 +1,76 @@
+{
+  "id": "q-672",
+  "subject": "Chinese",
+  "title": "循圖表的產銷關係，找有根據的推論",
+  "art": "docs/comics/art/q-672.png",
+  "startedAt": "2026-10-28T19:28:45.279121+00:00",
+  "panels": [
+    {
+      "heading": "① 從計畫性生產開始",
+      "text": "第一幅圖由計畫性生產出發，再連到規模化經營與產銷對接。C卻說先自由生產，最後才找盤商，和圖中的安排不符。",
+      "alt": "農友與合作單位先討論空白生產計畫，示意事前協調，不生成契約內容或流程箭頭。"
+    },
+    {
+      "heading": "② 集團與聯盟把環節接起來",
+      "text": "圖中有集團契作，也有農家聯盟、加工整合等連結。農友和其他環節協力，形成規模化經營，符合D的前半段。",
+      "alt": "多位農友在甘藷旱作田共同整理作物，示意規模協作，不表示全臺稻田都要轉作。"
+    },
+    {
+      "heading": "③ 供需對接，減少銷售風險",
+      "text": "契作可事先約定生產、收購條件，降低找不到買方的風險，D最直接呼應圖表。但實際價格、數量仍看契約，不能推成一定獲利。",
+      "alt": "合作單位與買方核對甘藷貨箱並安排運送，示意產銷連結，沒有金錢暴利或保證收益畫面。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：產銷對接降低銷售風險",
+    "points": [
+      "圖表支持：計畫生產、規模經營、供需對接。",
+      "B談稻米出口；C先自由生產再找通路，都不合圖意。",
+      "推論要有材料支持，不能自行加上保證獲利。"
+    ]
+  },
+  "protectedWords": [
+    "計畫性生產",
+    "規模化經營",
+    "產銷對接",
+    "集團契作",
+    "農家聯盟",
+    "供需對接",
+    "銷售風險",
+    "稻米出口",
+    "盤商",
+    "獲利"
+  ],
+  "rationale": "新情境圖把原指定閱讀圖表的計畫、協作、銷售對接變成可理解農事場景，文字逐步對回D並排除其他選項。原題指定AI圖是閱讀材料，不把它當既有解說圖；新漫畫不重畫其精確地圖或政策數字，也不沿用已訂正的3加3誤解。",
+  "promptSummary": "全新無字動漫：先議生產計畫、甘藷田集團協作、合作單位與買方核對收購。無AI流程圖、數字政策、價格或保證收益。",
+  "answerCheckedAgainst": "實看原卷前言、兩幅指定圖表與四選項，維持D。農業部2024年大事回顧核對政策背景，避免全面停稻及一律保證收益的超額推論。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-672-source-3953043f33.jpg",
+    "figure": "site/dist/assets/questions/q-672-policy-figure-02df95cc40.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T19:31:54.028085+00:00",
+  "checkedAt": "2026-10-28T19:37:01.187697+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T19:30:02.971Z",
+  "generationCompletedAt": "2026-10-28T19:29:55.595Z",
+  "artSHA256": "e191493a97c363c64d500a42b864b1a847bfc613dad24972530bb95d1f2ccbf3",
+  "previewValidation": "docs/comics/q-672-preview-validation.json",
+  "visualReview": "原卷前言/兩幅指定圖表/四選項已實看，D與原圖流程核對。新三景計畫／甘藷協作／收購出貨，沒有AI政策數字、全停稻或保證利潤。原畫和1440/390成品實看，計畫性生產/規模化經營/產銷對接等詞保護生效，三寬QA與列高自然換行通過。",
+  "nativeArt": "assets/comics/q-672-art-e191493a97-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-672-validation.json"
+}

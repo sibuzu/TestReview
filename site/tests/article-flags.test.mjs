@@ -7,7 +7,7 @@ import {SESSION_KEY,signIn,signOut,restoreSession,accountStorage} from '../dist/
 import {accountEndpoint} from '../dist/account-policy.js';
 import {handleSession} from '../../netlify/lib/sessions.mjs';
 import {handleAccountMarks} from '../../netlify/lib/account-marks.mjs';
-const markURL='https://weirugo.sibuzu.com/.netlify/functions/marks',sessionURL='https://weirugo.sibuzu.com/.netlify/functions/session';
+const markURL='https://mytestreview.netlify.app/.netlify/functions/marks',sessionURL='https://mytestreview.netlify.app/.netlify/functions/session';
 const day='2026-10-29',eventId=n=>'00000000-0000-4000-8000-'+String(n).padStart(12,'0');
 const memory=()=>{const map=new Map();return {map,getItem:k=>map.get(k)??null,setItem:(k,v)=>map.set(k,String(v)),removeItem:k=>map.delete(k)};};
 const database=()=>{const values=new Map();return {values,list:async({prefix=''})=>({blobs:[...values.keys()].filter(k=>k.startsWith(prefix)).map(key=>({key}))}),get:async key=>structuredClone(values.get(key)??null),setJSON:async(key,value)=>values.set(key,structuredClone(value)),delete:async key=>values.delete(key)};};

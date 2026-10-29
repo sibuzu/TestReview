@@ -1,9 +1,6 @@
-export const ACCOUNT_API_ORIGIN='https://weirugo.sibuzu.com';
-export function accountEndpoint(name,href=globalThis.location?.href){
- const path='/.netlify/functions/'+name;
- try{if(new URL(href).origin===ACCOUNT_API_ORIGIN)return path;}catch{}
- return ACCOUNT_API_ORIGIN+path;
-}
+// Use the site's direct Netlify API so Cloudflare does not block cross-origin preflight.
+export const ACCOUNT_API_ORIGIN='https://mytestreview.netlify.app';
+export function accountEndpoint(name){return ACCOUNT_API_ORIGIN+'/.netlify/functions/'+name;}
 export function allowedAccountOrigin(origin){
  if(!origin)return true;
  try{const url=new URL(origin);return ['https:','http:'].includes(url.protocol)&&url.origin===origin;}catch{return false;}

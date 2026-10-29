@@ -1,0 +1,83 @@
+{
+  "id": "q-545",
+  "subject": "Geography",
+  "title": "等高線越密越陡：新手避開甲",
+  "art": "docs/comics/art/q-545-contours.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:25:45.459173+00:00",
+  "panels": [
+    {
+      "heading": "① 細線疏密，才是坡度線索",
+      "text": "粗黑線代表雪道，細線才是等高線。等高距相同時，細線越密，表示相同水平距離內高差越大，坡度越陡。",
+      "alt": "新製線密與線疏兩組平行等高線概念示意，粗橫線代表比較路線，明示非原卷地形。"
+    },
+    {
+      "heading": "② 高差相同，短距離更陡",
+      "text": "反過來看，若高度差相同，水平距離越短，坡度就越大。不能只看海拔高低，也不能把滑雪道的粗細當成坡度。",
+      "alt": "新製兩個相同高差、不同水平距離的剖面概念圖，短距離坡更陡；不添加原卷高程或算出雪道實際長度。"
+    },
+    {
+      "heading": "③ 甲穿過的等高線較密",
+      "text": "回到原圖，甲在左上部，沿途穿過較密集的細等高線。題幹把最陡高級雪道標為黑線，因此新手應避免甲；不是找最低的路線。",
+      "alt": "新製題幹綠初級、紅中級、黑最陡的顏色規則對照，結論甲，僅沿用本題設定不宣稱所有雪場標準一致。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 等高線越密越陡：新手避開甲",
+    "answer": "答案 A：甲",
+    "points": [
+      "細線是等高線，粗黑線是雪道。",
+      "相同等高距，線越密、坡越陡。",
+      "依本題規則，最陡黑線是新手應避開者。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "等高距",
+    "水平距離",
+    "高度差",
+    "高差",
+    "滑雪道",
+    "細線",
+    "粗黑線",
+    "坡度",
+    "海拔",
+    "雪道",
+    "新手",
+    "初級",
+    "中級"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-545-source-2ac4e87d37.jpg",
+    "site/dist/assets/questions/q-545-contours-859afcf0e1.jpg"
+  ],
+  "originalVisualCheck": "實看完整36題與圖21原圖。甲左上從高處向右下延伸、穿越細線密集；乙中部、丙丁右下；維持A。舊AI方位錯置已由既有資料訂正，不再用錯誤位置製圖。",
+  "answerCheckedAgainst": "依原圖線距判讀甲最陡，依題幹黑線最陡/新手避免條件選A；乙也跨細線，沒有畫成完全無落差。",
+  "rationale": "本題需要等高距、水平距離與坡度的精確關係，採新原生SVG疏密/同高差剖面/題幹色例，不用生成風景猜坡度；不把概念圖當原圖或加入雪道實際數值。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "selected": "A",
+    "originalARegion": "左上",
+    "profileVerticalDrops": [
+      35,
+      35
+    ],
+    "profileHorizontalRuns": [
+      40,
+      130
+    ],
+    "originalAltitudeValuesAdded": false,
+    "skiColorRuleScope": "依本題設定",
+    "roughTrackIsContour": false,
+    "denseSparseContourCounts": [
+      8,
+      4
+    ]
+  },
+  "artSHA256": "2b339880a441cf37fc8f4dc22893b21d76b39377e0bb4d3291e15d82ed801dd7",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:26:19.762804+00:00",
+  "completedAt": "2026-10-29T06:26:19.762804+00:00",
+  "layoutEvidence": "docs/comics/q-545-preview-validation.json",
+  "visualReview": "實看最終1440/1120/390三寬截圖；密線8條/疏線4條在同路徑長度比較，剖面同35高差但水平40/130；題幹色例/甲結論一致。桌機同列等高、手機自然高度，無橫溢或保護詞斷裂。"
+}

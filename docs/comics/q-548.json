@@ -1,0 +1,73 @@
+{
+  "id": "q-548",
+  "subject": "Geography",
+  "title": "兩個坐標合看，再回原圖找丁",
+  "art": "docs/comics/art/q-548.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-548-generate.py",
+  "startedAt": "2026-10-29T06:25:21.016218+00:00",
+  "panels": [
+    {
+      "heading": "① 北緯22.63°，先縮到臺灣南部",
+      "text": "北緯22.63°在北回歸線以南，配合臺灣位置，先把範圍縮到南部。緯度用來判南北，不能只因某個山區有獼猴，就忽略題目直接給出的定位資訊。",
+      "alt": "新原生緯度數線由南22到北25.5，22.63精確落在約23.5北回歸線以南；非新畫臺灣行政界。"
+    },
+    {
+      "heading": "② 東經120.31°，再合看西南側位置",
+      "text": "東經120.31°再配合本島輪廓與南部緯度，可定位到高雄一帶。經度和緯度要一起看；300公尺與猴群是情境線索，不能取代坐標或改掉原題高度。",
+      "alt": "精確東經數線120→121→122，120.31標在靠120一側，明示合緯度/輪廓才能定西南；不拿單一經度斷行政區。"
+    },
+    {
+      "heading": "③ 回原圖查行政區，丁才對得上",
+      "text": "原圖甲在東北、乙在中北部偏西、丙在中部內陸，都不合題給的西南側位置。丁對應高雄所在行政區，故選D。題目只問附近行政區，不必把坐標說成某座山峰的精確位置。",
+      "alt": "兩坐標→西南高雄→原卷標記丁→D流程，不新增市界/山名或沿原AI錯置甲乙縣市名。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：D，丁",
+    "points": [
+      "緯度先判南北，經度再配合輪廓判東西。",
+      "兩坐標指向西南部高雄一帶，回圖找丁。",
+      "保留附近與約300公尺，不擅自精確到山峰。"
+    ]
+  },
+  "protectedWords": [
+    "北緯22.63°",
+    "東經120.31°",
+    "北回歸線",
+    "獼猴",
+    "300公尺",
+    "高雄",
+    "行政區"
+  ],
+  "rationale": "親見5題全文四選項/必要行政圖及4倍放大，甲東北乙中北偏西丙內陸丁西南位置獨立核D。官方高雄市政府定位西南及經緯範圍核對。新原生精確坐標數線/回圖流程，不讓AI亂畫縣市界或獼猴代替定位；不沿用來源AI。",
+  "promptSummary": "原生三格：緯度22.63在約23.5南；經度120.31數線精確位置；合坐標高雄對回原卷丁D。精確關係用SVG，不重造行政圖或山峰位置。",
+  "answerCheckedAgainst": "原卷22.63N/120.31E/約300與行政甲乙丙丁，放大核丁西南；高雄市政府Knowing Kaohsiung官方經緯範圍與西南位置交叉核對，沿D而不指定山峰。",
+  "officialReferences": [
+    {
+      "title": "高雄市政府・Knowing Kaohsiung（經緯位置）",
+      "url": "https://www.kcg.gov.tw/En/cp.aspx?n=E5AA72D4F35F91D0"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-548-source-b549489ad9.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-548-taiwan-map-9287c59599.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "完整題幹四項與必要圖實看，另用/tmp只讀放大確認丁字與相對行政位置；不使用原AI錯置甲台東乙花蓮說法，不改300高度。"
+  },
+  "coordinateValidation": "docs/comics/q-548-coordinate-validation.json",
+  "artSHA256": "079363df5e95c175eea4648547daa4df5fcfaba9a4370086b881564f62ca4e00",
+  "completedAt": "2026-10-29T06:31:29.506068+00:00",
+  "checkedAt": "2026-10-29T06:31:29.506082+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-548-preview-validation.json",
+  "visualReview": "實看540x180原生坐標數線與最終1440/390四格：22.63點位確在約23.5以南、120.31點位近120，軸北上東右方向正確；行政字母須回原卷不假造縣界。原圖放大丁西南、高雄官方位置交叉核D，300保留。三寬無橫溢/詞組拆行，桌機同列等高、手機自然高度。"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q-517",
+  "type": "generation-timing-reliability",
+  "reason": "generation.json/spec UTC values run backward by 7.071 seconds; these V8 Date values are not reliable duration evidence.",
+  "preserveOriginalFrozenSpec": true,
+  "excludeUTCDurationFromSpeedStatistics": true,
+  "observedFunctionsExecWallSeconds": 24.4,
+  "observedWallTimeScope": "Original builtin imagegen functions.exec cell tool result reported 24.4 s. This includes the builtin call and minimal JS bookkeeping; it is a cell-duration proxy, not a replacement UTC timestamp or exact imagegen-only duration.",
+  "contentAndVisualQAUnaffected": true,
+  "futureTimingMethod": "Use time.monotonic_ns before and after the builtin generation on the same exec_command host, and keep UTC timestamps only as non-duration labels."
+}

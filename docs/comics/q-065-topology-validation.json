@@ -1,0 +1,101 @@
+{
+  "directedRiverGraph": {
+    "山崩": [
+      "甲"
+    ],
+    "甲": [
+      "匯流"
+    ],
+    "丙": [
+      "丁"
+    ],
+    "丁": [
+      "匯流"
+    ],
+    "匯流": [
+      "乙"
+    ],
+    "乙": [
+      "下游"
+    ],
+    "下游": []
+  },
+  "downstreamReachableFromLandslide": [
+    "下游",
+    "乙",
+    "匯流",
+    "山崩",
+    "甲"
+  ],
+  "affectedStations": [
+    "甲",
+    "乙"
+  ],
+  "unaffectedStations": [
+    "丙",
+    "丁"
+  ],
+  "highestStationFromOriginalContours": "甲",
+  "sketchStationCoordinates": {
+    "丙": [
+      111,
+      44
+    ],
+    "丁": [
+      116,
+      79
+    ],
+    "匯流": [
+      87,
+      92
+    ],
+    "甲": [
+      110,
+      137
+    ],
+    "乙": [
+      43,
+      120
+    ],
+    "山崩": [
+      131,
+      158
+    ],
+    "北源": [
+      118,
+      29
+    ],
+    "下游": [
+      24,
+      146
+    ]
+  },
+  "originalFigureVisualReferenceApproxPixels": {
+    "甲": [
+      247,
+      266
+    ],
+    "乙": [
+      126,
+      207
+    ],
+    "丙": [
+      225,
+      90
+    ],
+    "丁": [
+      245,
+      148
+    ],
+    "匯流": [
+      199,
+      165
+    ]
+  },
+  "checks": {
+    "directedReachability": true,
+    "noReverseIntoOtherTributary": true,
+    "northUpButNotHeightAxis": true
+  },
+  "note": "原生圖只保留原卷河網拓撲/大致方位，不重造等高線/精確標高/比例尺；海拔判斷仍依原卷圖。"
+}

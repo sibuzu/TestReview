@@ -2,23 +2,23 @@
   "mode": "two_producers_one_integrator_root_available",
   "workerLimit": 2,
   "rootRole": "回答使用者與機動；專職整合交由comic_lane_3",
-  "updatedAt": "2026-10-29T06:11:48.928251+00:00",
+  "updatedAt": "2026-10-29T06:33:53.630183+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-397",
-      "title": "國文第30題｜戰爭與科技的正反關係",
+      "questionId": "q-411",
+      "title": "地理第14題｜原料運輸成本與距離",
       "state": "running",
-      "startedAt": "2026-10-29T06:10:39.703511+00:00",
+      "startedAt": "2026-10-29T06:31:29.567067+00:00",
       "agent": "/root/comic_lane_1",
       "role": "production"
     },
     {
       "lane": 2,
-      "questionId": "q-396",
-      "title": "國文第29題｜罐頭發展目的的資訊擷取",
+      "questionId": "q-412",
+      "title": "地理第20題｜產業升級與新竹科學園區",
       "state": "running",
-      "startedAt": "2026-10-29T06:08:34.436243+00:00",
+      "startedAt": "2026-10-29T06:32:40.871345+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production"
     },
@@ -34,317 +34,6 @@
   ],
   "ready": [
     {
-      "id": "q-526",
-      "title": "國文第39題｜人幾為魚的語意",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:17:57.514442+00:00",
-      "readyAt": "2026-10-29T05:21:48.637615+00:00",
-      "decision": "complete",
-      "reason": "新製幾為所禽逃脫/州官攬事/洪災登高三情境，原乙文/註釋/四項核對D近淹死，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-526.json",
-        "docs/comics/q-526-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-527",
-      "title": "國文第40題｜趙括與劉羽沖的共同問題",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:18:49.990369+00:00",
-      "readyAt": "2026-10-29T05:21:29.479550+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen比較閱讀四格，趙括/劉羽沖人物區分、拘泥不變通共同點與A核定；全文/註釋hash共享原卷已親見，40四選項實看，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-527.json",
-        "docs/comics/q-527-preview-validation.json",
-        "docs/comics/q-527-generation.json"
-      ]
-    },
-    {
-      "id": "q-513",
-      "title": "國文第8題｜邯鄲獻鳩與放生的本末",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:19:00.234457+00:00",
-      "readyAt": "2026-10-29T05:21:30.173250+00:00",
-      "decision": "complete",
-      "reason": "獎賞競捕傷生因果與買櫝還珠對照，不補造簡子惡意或禁捕已施行",
-      "evidence": [
-        "docs/comics/q-513.json",
-        "docs/comics/q-513-prompt.txt",
-        "docs/comics/q-513-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-514",
-      "title": "國文第16題｜慘綠少年與成語語境",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:21:29.514175+00:00",
-      "readyAt": "2026-10-29T05:24:04.568568+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen成語語境四格，官方簡編/成語典核對青年才俊義，沿B且不把綠衣當現代條件；原卷四選項實看，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-514.json",
-        "docs/comics/q-514-preview-validation.json",
-        "docs/comics/q-514-generation.json"
-      ]
-    },
-    {
-      "id": "q-515",
-      "title": "國文第18題｜韓娥鬻歌與六馬仰秣",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:21:30.212592+00:00",
-      "readyAt": "2026-10-29T05:24:33.206796+00:00",
-      "decision": "complete",
-      "reason": "韓娥賣唱餘音哀聲三景判歌聲感染力，六馬為獨立成語典故不補進本文",
-      "evidence": [
-        "docs/comics/q-515.json",
-        "docs/comics/q-515-prompt.txt",
-        "docs/comics/q-515-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-516",
-      "title": "國文第19題｜芝蘭鮑魚與正反對比",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:21:48.675072+00:00",
-      "readyAt": "2026-10-29T05:25:24.027000+00:00",
-      "decision": "complete",
-      "reason": "新製芝蘭香室/鹽漬魚店/染絲三情境，原卷完整對比擇友A核對，不把職業當善惡，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-516.json",
-        "docs/comics/q-516-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-517",
-      "title": "國文第21題｜小獅王劇本的曲折誕生歷程",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:24:04.605460+00:00",
-      "readyAt": "2026-10-29T05:26:19.816528+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen擱置/草原體驗/劇本審查四格，依改寫全文主旨A不冒充製片史；原卷全文及四選項實看，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-517.json",
-        "docs/comics/q-517-preview-validation.json",
-        "docs/comics/q-517-generation.json"
-      ]
-    },
-    {
-      "id": "q-518",
-      "title": "國文第36題｜四種鳥類資料的精確比對",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:24:33.238572+00:00",
-      "readyAt": "2026-10-29T05:27:27.089267+00:00",
-      "decision": "complete",
-      "reason": "四鳥資料精確比對黑羽例外許多地區及停棲築巢差別，雙親輪流不誤教雄不孵卵",
-      "evidence": [
-        "docs/comics/q-518.json",
-        "docs/comics/q-518-reading-validation.json",
-        "docs/comics/q-518-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-519",
-      "title": "國文第39題｜南岐人的固執與不察己過",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:25:24.066382+00:00",
-      "readyAt": "2026-10-29T05:30:39.296943+00:00",
-      "decision": "complete",
-      "reason": "新製受嘲/拒勸/現代自省反例三情境，D兩成語原文各有依據，不補醫療機轉或改結局，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-519.json",
-        "docs/comics/q-519-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-520",
-      "title": "國文第40題｜南岐人之癭的寓意",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:26:19.854276+00:00",
-      "readyAt": "2026-10-29T05:29:30.820749+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen南岐寓意四格：比較差異/拒絕提醒/群體附和，沿A封閉認知顛倒是非，不作病因診斷；全文註釋及四選項親見，三寬QA+raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-520.json",
-        "docs/comics/q-520-preview-validation.json",
-        "docs/comics/q-520-generation.json"
-      ]
-    },
-    {
-      "id": "q-521",
-      "title": "國文第41題｜荊人涉澭的失敗原因",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:27:27.128301+00:00",
-      "readyAt": "2026-10-29T05:30:46.587096+00:00",
-      "decision": "complete",
-      "reason": "先前可導到水況改變及照舊夜涉三景因果，未補敵軍雨因或設標時段",
-      "evidence": [
-        "docs/comics/q-521.json",
-        "docs/comics/q-521-prompt.txt",
-        "docs/comics/q-521-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-522",
-      "title": "國文第42題｜察今對照搬古法的態度",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:29:30.877276+00:00",
-      "readyAt": "2026-10-29T05:31:49.591493+00:00",
-      "decision": "complete",
-      "reason": "新原生論證四格：前後水況/雙欄故事類比/反詰態度C；全文註釋四選項親見，避免加造溺水細節及全盤否定古法，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-522.json",
-        "docs/comics/q-522-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-508",
-      "title": "國文第7題｜阿留守柳與弄巧成拙",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:30:39.334537+00:00",
-      "readyAt": "2026-10-29T05:34:43.153409+00:00",
-      "decision": "complete",
-      "reason": "新製交代守柳/飯前收起/空穴與綠柳收藏三景，A弄巧成拙原卷核對，不加枯死或孩子已破壞情節，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-508.json",
-        "docs/comics/q-508-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-509",
-      "title": "國文第2題｜不字成語的情境運用",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:30:46.620541+00:00",
-      "readyAt": "2026-10-29T05:33:11.892699+00:00",
-      "decision": "complete",
-      "reason": "比較高下與互相分享詞義精確對照，ABC語境配對並保留勝的正音",
-      "evidence": [
-        "docs/comics/q-509.json",
-        "docs/comics/q-509-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-510",
-      "title": "國文第12題｜偽造與為國的同音判讀",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:31:49.627581+00:00",
-      "readyAt": "2026-10-29T05:34:55.506252+00:00",
-      "decision": "complete",
-      "reason": "新原生注音精確對照四格，A/C聲調差/B同音/D介音ㄧ差；原卷及官方辭典核音，沿已核定B，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-510.json",
-        "docs/comics/q-510-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-511",
-      "title": "國文第13題｜三星蔥的感官描寫與訊息範圍",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:33:11.929483+00:00",
-      "readyAt": "2026-10-29T05:35:56.323510+00:00",
-      "decision": "complete",
-      "reason": "三星蔥產地過程感官三景，保留不一會兒概略時間而區分具體食譜資訊",
-      "evidence": [
-        "docs/comics/q-511.json",
-        "docs/comics/q-511-prompt.txt",
-        "docs/comics/q-511-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-512",
-      "title": "國文第17題｜出身寒微與建立自信",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:34:43.199687+00:00",
-      "readyAt": "2026-10-29T05:39:15.490497+00:00",
-      "decision": "complete",
-      "reason": "新製磨石木火/蚌珠璞玉/鼓勵卡三情境涵四比喻，B出身寒微缺自信原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-512.json",
-        "docs/comics/q-512-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-422",
-      "title": "國文第16題｜炒三鮮的三種造字法",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:34:55.538752+00:00",
-      "readyAt": "2026-10-29T05:37:53.974704+00:00",
-      "decision": "complete",
-      "reason": "新原生精確字形/部件四格，沿本題炒形聲/三指事/鮮會意與B，明限定教材分類不稱唯一字源；原卷親見，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-422.json",
-        "docs/comics/q-422-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-423",
-      "title": "國文第32題｜山村明月的原文證據",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:35:56.358780+00:00",
-      "readyAt": "2026-10-29T05:40:07.624540+00:00",
-      "decision": "complete",
-      "reason": "書房望山引思古想像的直接證據，月夜清寂不推社交或態度變化",
-      "evidence": [
-        "docs/comics/q-423.json",
-        "docs/comics/q-423-prompt.txt",
-        "docs/comics/q-423-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-424",
-      "title": "國文第39題｜隋侯救蛇與民胞物與",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:37:54.023020+00:00",
-      "readyAt": "2026-10-29T05:40:38.556592+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen隋侯救蛇/侍從施藥/蛇報恩四格，主詞行為區分沿C；全文四選項及官方成語義核對，三寬QA和raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-424.json",
-        "docs/comics/q-424-preview-validation.json",
-        "docs/comics/q-424-generation.json"
-      ]
-    },
-    {
       "id": "q-058",
       "title": "國文第1題｜同音字寫成國字",
       "subject": "Chinese",
@@ -587,323 +276,153 @@
       "evidence": [
         "docs/comics/q-395.json",
         "docs/comics/q-395-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-396",
+      "title": "國文第29題｜罐頭發展目的的資訊擷取",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:08:34.436243+00:00",
+      "readyAt": "2026-10-29T06:18:17.098050+00:00",
+      "decision": "complete",
+      "reason": "實看原卷文章與四項，維持C；新製補給、早期裝瓶、後期罐頭三情境與HTML四格，三寬QA及實看通過。",
+      "evidence": [
+        "docs/comics/q-396.json",
+        "docs/comics/q-396-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-397",
+      "title": "國文第30題｜戰爭與科技的正反關係",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:10:39.703511+00:00",
+      "readyAt": "2026-10-29T06:17:19.866917+00:00",
+      "decision": "complete",
+      "reason": "新內建載舟/覆舟/原文兩例象徵四格，沿A正反關係；初稿布口罩已工具編輯成全罩面具v2，題文與四項核對，三寬QA和最終raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-397.json",
+        "docs/comics/q-397-preview-validation.json",
+        "docs/comics/q-397-generation.json"
+      ]
+    },
+    {
+      "id": "q-065",
+      "title": "地理第32題｜山崩後哪些測站水質會混濁",
+      "subject": "Geography",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:17:19.927762+00:00",
+      "readyAt": "2026-10-29T06:25:20.971711+00:00",
+      "decision": "complete",
+      "reason": "新精確河網拓撲/泥沙下游/流程四格，原卷等高線甲最高與甲→匯流→乙核A，獨立有向可達性只得甲乙；三寬QA及最終raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-065.json",
+        "docs/comics/q-065-preview-validation.json",
+        "docs/comics/q-065-topology-validation.json"
+      ]
+    },
+    {
+      "id": "q-543",
+      "title": "地理第4題｜美寧工廠與臺灣代工產業",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:18:17.133776+00:00",
+      "readyAt": "2026-10-29T06:21:27.022072+00:00",
+      "decision": "complete",
+      "reason": "原卷與新北官方文化資料核對美寧在泰山，維持D；新製組裝/縫衣/包裝情境＋行政名稱HTML，三寬QA與實看通過。",
+      "evidence": [
+        "docs/comics/q-543.json",
+        "docs/comics/q-543-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-544",
+      "title": "地理第6題｜濱臨太平洋的陸塊辨識",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:21:27.061348+00:00",
+      "readyAt": "2026-10-29T06:23:27.711688+00:00",
+      "decision": "complete",
+      "reason": "實看六陸塊原圖，維持C；新製SVG圖卡對照/太平洋兩側方位/四卡組合，三寬QA與實看通過。",
+      "evidence": [
+        "docs/comics/q-544.json",
+        "docs/comics/q-544-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-545",
+      "title": "地理第36題｜等高線與最陡雪道",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:23:27.747615+00:00",
+      "readyAt": "2026-10-29T06:26:19.793210+00:00",
+      "decision": "complete",
+      "reason": "原卷細線疏密與甲位置實看，維持A；新SVG等高線/同高差剖面/題幹色例，三寬QA實看通過。",
+      "evidence": [
+        "docs/comics/q-545.json",
+        "docs/comics/q-545-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-548",
+      "title": "地理第5題｜從經緯度辨認行政區",
+      "subject": "Geography",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:25:21.016218+00:00",
+      "readyAt": "2026-10-29T06:31:29.532945+00:00",
+      "decision": "complete",
+      "reason": "新精確緯度/經度數線與回原圖丁流程四格，原卷必要行政圖放大/官方高雄位置核D；坐標軸與點位驗證、三寬QA和raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-548.json",
+        "docs/comics/q-548-preview-validation.json",
+        "docs/comics/q-548-coordinate-validation.json"
+      ]
+    },
+    {
+      "id": "q-550",
+      "title": "地理第10題｜臺灣海峽與離島強風",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:26:19.831827+00:00",
+      "readyAt": "2026-10-29T06:29:12.377919+00:00",
+      "decision": "complete",
+      "reason": "原卷與氣象署/澎湖官方季風說明核對，維持A；新SVG柱體/地形通道/海域對照，三寬QA實看通過。",
+      "evidence": [
+        "docs/comics/q-550.json",
+        "docs/comics/q-550-preview-validation.json",
+        "docs/comics/q-550-timing.json"
+      ]
+    },
+    {
+      "id": "q-410",
+      "title": "地理第13題｜傳統領域與花東縱谷",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:29:12.418985+00:00",
+      "readyAt": "2026-10-29T06:32:40.831870+00:00",
+      "decision": "complete",
+      "reason": "原卷與官方區域分布核對B；新SVG土地文化/縱谷剖面/最可能比較，三寬QA實看通過。既有廢止法規參考另列review交root，不影響本題答案與漫畫。",
+      "evidence": [
+        "docs/comics/q-410.json",
+        "docs/comics/q-410-preview-validation.json",
+        "docs/comics/q-410-reference-review.json",
+        "docs/comics/q-410-timing.json"
       ]
     }
   ],
-  "integrated": 600,
+  "integrated": 620,
   "blocked": [],
   "waiting": [
-    {
-      "id": "q-526",
-      "title": "國文第39題｜人幾為魚的語意",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:17:57.514442+00:00",
-      "readyAt": "2026-10-29T05:21:48.637615+00:00",
-      "decision": "complete",
-      "reason": "新製幾為所禽逃脫/州官攬事/洪災登高三情境，原乙文/註釋/四項核對D近淹死，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-526.json",
-        "docs/comics/q-526-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-527",
-      "title": "國文第40題｜趙括與劉羽沖的共同問題",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:18:49.990369+00:00",
-      "readyAt": "2026-10-29T05:21:29.479550+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen比較閱讀四格，趙括/劉羽沖人物區分、拘泥不變通共同點與A核定；全文/註釋hash共享原卷已親見，40四選項實看，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-527.json",
-        "docs/comics/q-527-preview-validation.json",
-        "docs/comics/q-527-generation.json"
-      ]
-    },
-    {
-      "id": "q-513",
-      "title": "國文第8題｜邯鄲獻鳩與放生的本末",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:19:00.234457+00:00",
-      "readyAt": "2026-10-29T05:21:30.173250+00:00",
-      "decision": "complete",
-      "reason": "獎賞競捕傷生因果與買櫝還珠對照，不補造簡子惡意或禁捕已施行",
-      "evidence": [
-        "docs/comics/q-513.json",
-        "docs/comics/q-513-prompt.txt",
-        "docs/comics/q-513-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-514",
-      "title": "國文第16題｜慘綠少年與成語語境",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:21:29.514175+00:00",
-      "readyAt": "2026-10-29T05:24:04.568568+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen成語語境四格，官方簡編/成語典核對青年才俊義，沿B且不把綠衣當現代條件；原卷四選項實看，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-514.json",
-        "docs/comics/q-514-preview-validation.json",
-        "docs/comics/q-514-generation.json"
-      ]
-    },
-    {
-      "id": "q-515",
-      "title": "國文第18題｜韓娥鬻歌與六馬仰秣",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:21:30.212592+00:00",
-      "readyAt": "2026-10-29T05:24:33.206796+00:00",
-      "decision": "complete",
-      "reason": "韓娥賣唱餘音哀聲三景判歌聲感染力，六馬為獨立成語典故不補進本文",
-      "evidence": [
-        "docs/comics/q-515.json",
-        "docs/comics/q-515-prompt.txt",
-        "docs/comics/q-515-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-516",
-      "title": "國文第19題｜芝蘭鮑魚與正反對比",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:21:48.675072+00:00",
-      "readyAt": "2026-10-29T05:25:24.027000+00:00",
-      "decision": "complete",
-      "reason": "新製芝蘭香室/鹽漬魚店/染絲三情境，原卷完整對比擇友A核對，不把職業當善惡，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-516.json",
-        "docs/comics/q-516-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-517",
-      "title": "國文第21題｜小獅王劇本的曲折誕生歷程",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:24:04.605460+00:00",
-      "readyAt": "2026-10-29T05:26:19.816528+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen擱置/草原體驗/劇本審查四格，依改寫全文主旨A不冒充製片史；原卷全文及四選項實看，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-517.json",
-        "docs/comics/q-517-preview-validation.json",
-        "docs/comics/q-517-generation.json"
-      ]
-    },
-    {
-      "id": "q-518",
-      "title": "國文第36題｜四種鳥類資料的精確比對",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:24:33.238572+00:00",
-      "readyAt": "2026-10-29T05:27:27.089267+00:00",
-      "decision": "complete",
-      "reason": "四鳥資料精確比對黑羽例外許多地區及停棲築巢差別，雙親輪流不誤教雄不孵卵",
-      "evidence": [
-        "docs/comics/q-518.json",
-        "docs/comics/q-518-reading-validation.json",
-        "docs/comics/q-518-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-519",
-      "title": "國文第39題｜南岐人的固執與不察己過",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:25:24.066382+00:00",
-      "readyAt": "2026-10-29T05:30:39.296943+00:00",
-      "decision": "complete",
-      "reason": "新製受嘲/拒勸/現代自省反例三情境，D兩成語原文各有依據，不補醫療機轉或改結局，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-519.json",
-        "docs/comics/q-519-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-520",
-      "title": "國文第40題｜南岐人之癭的寓意",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:26:19.854276+00:00",
-      "readyAt": "2026-10-29T05:29:30.820749+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen南岐寓意四格：比較差異/拒絕提醒/群體附和，沿A封閉認知顛倒是非，不作病因診斷；全文註釋及四選項親見，三寬QA+raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-520.json",
-        "docs/comics/q-520-preview-validation.json",
-        "docs/comics/q-520-generation.json"
-      ]
-    },
-    {
-      "id": "q-521",
-      "title": "國文第41題｜荊人涉澭的失敗原因",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:27:27.128301+00:00",
-      "readyAt": "2026-10-29T05:30:46.587096+00:00",
-      "decision": "complete",
-      "reason": "先前可導到水況改變及照舊夜涉三景因果，未補敵軍雨因或設標時段",
-      "evidence": [
-        "docs/comics/q-521.json",
-        "docs/comics/q-521-prompt.txt",
-        "docs/comics/q-521-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-522",
-      "title": "國文第42題｜察今對照搬古法的態度",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:29:30.877276+00:00",
-      "readyAt": "2026-10-29T05:31:49.591493+00:00",
-      "decision": "complete",
-      "reason": "新原生論證四格：前後水況/雙欄故事類比/反詰態度C；全文註釋四選項親見，避免加造溺水細節及全盤否定古法，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-522.json",
-        "docs/comics/q-522-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-508",
-      "title": "國文第7題｜阿留守柳與弄巧成拙",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:30:39.334537+00:00",
-      "readyAt": "2026-10-29T05:34:43.153409+00:00",
-      "decision": "complete",
-      "reason": "新製交代守柳/飯前收起/空穴與綠柳收藏三景，A弄巧成拙原卷核對，不加枯死或孩子已破壞情節，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-508.json",
-        "docs/comics/q-508-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-509",
-      "title": "國文第2題｜不字成語的情境運用",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:30:46.620541+00:00",
-      "readyAt": "2026-10-29T05:33:11.892699+00:00",
-      "decision": "complete",
-      "reason": "比較高下與互相分享詞義精確對照，ABC語境配對並保留勝的正音",
-      "evidence": [
-        "docs/comics/q-509.json",
-        "docs/comics/q-509-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-510",
-      "title": "國文第12題｜偽造與為國的同音判讀",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:31:49.627581+00:00",
-      "readyAt": "2026-10-29T05:34:55.506252+00:00",
-      "decision": "complete",
-      "reason": "新原生注音精確對照四格，A/C聲調差/B同音/D介音ㄧ差；原卷及官方辭典核音，沿已核定B，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-510.json",
-        "docs/comics/q-510-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-511",
-      "title": "國文第13題｜三星蔥的感官描寫與訊息範圍",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:33:11.929483+00:00",
-      "readyAt": "2026-10-29T05:35:56.323510+00:00",
-      "decision": "complete",
-      "reason": "三星蔥產地過程感官三景，保留不一會兒概略時間而區分具體食譜資訊",
-      "evidence": [
-        "docs/comics/q-511.json",
-        "docs/comics/q-511-prompt.txt",
-        "docs/comics/q-511-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-512",
-      "title": "國文第17題｜出身寒微與建立自信",
-      "subject": "Chinese",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:34:43.199687+00:00",
-      "readyAt": "2026-10-29T05:39:15.490497+00:00",
-      "decision": "complete",
-      "reason": "新製磨石木火/蚌珠璞玉/鼓勵卡三情境涵四比喻，B出身寒微缺自信原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-512.json",
-        "docs/comics/q-512-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-422",
-      "title": "國文第16題｜炒三鮮的三種造字法",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:34:55.538752+00:00",
-      "readyAt": "2026-10-29T05:37:53.974704+00:00",
-      "decision": "complete",
-      "reason": "新原生精確字形/部件四格，沿本題炒形聲/三指事/鮮會意與B，明限定教材分類不稱唯一字源；原卷親見，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-422.json",
-        "docs/comics/q-422-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-423",
-      "title": "國文第32題｜山村明月的原文證據",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:35:56.358780+00:00",
-      "readyAt": "2026-10-29T05:40:07.624540+00:00",
-      "decision": "complete",
-      "reason": "書房望山引思古想像的直接證據，月夜清寂不推社交或態度變化",
-      "evidence": [
-        "docs/comics/q-423.json",
-        "docs/comics/q-423-prompt.txt",
-        "docs/comics/q-423-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-424",
-      "title": "國文第39題｜隋侯救蛇與民胞物與",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:37:54.023020+00:00",
-      "readyAt": "2026-10-29T05:40:38.556592+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen隋侯救蛇/侍從施藥/蛇報恩四格，主詞行為區分沿C；全文四選項及官方成語義核對，三寬QA和raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-424.json",
-        "docs/comics/q-424-preview-validation.json",
-        "docs/comics/q-424-generation.json"
-      ]
-    },
     {
       "id": "q-058",
       "title": "國文第1題｜同音字寫成國字",
@@ -1147,6 +666,147 @@
       "evidence": [
         "docs/comics/q-395.json",
         "docs/comics/q-395-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-396",
+      "title": "國文第29題｜罐頭發展目的的資訊擷取",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:08:34.436243+00:00",
+      "readyAt": "2026-10-29T06:18:17.098050+00:00",
+      "decision": "complete",
+      "reason": "實看原卷文章與四項，維持C；新製補給、早期裝瓶、後期罐頭三情境與HTML四格，三寬QA及實看通過。",
+      "evidence": [
+        "docs/comics/q-396.json",
+        "docs/comics/q-396-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-397",
+      "title": "國文第30題｜戰爭與科技的正反關係",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:10:39.703511+00:00",
+      "readyAt": "2026-10-29T06:17:19.866917+00:00",
+      "decision": "complete",
+      "reason": "新內建載舟/覆舟/原文兩例象徵四格，沿A正反關係；初稿布口罩已工具編輯成全罩面具v2，題文與四項核對，三寬QA和最終raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-397.json",
+        "docs/comics/q-397-preview-validation.json",
+        "docs/comics/q-397-generation.json"
+      ]
+    },
+    {
+      "id": "q-065",
+      "title": "地理第32題｜山崩後哪些測站水質會混濁",
+      "subject": "Geography",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:17:19.927762+00:00",
+      "readyAt": "2026-10-29T06:25:20.971711+00:00",
+      "decision": "complete",
+      "reason": "新精確河網拓撲/泥沙下游/流程四格，原卷等高線甲最高與甲→匯流→乙核A，獨立有向可達性只得甲乙；三寬QA及最終raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-065.json",
+        "docs/comics/q-065-preview-validation.json",
+        "docs/comics/q-065-topology-validation.json"
+      ]
+    },
+    {
+      "id": "q-543",
+      "title": "地理第4題｜美寧工廠與臺灣代工產業",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:18:17.133776+00:00",
+      "readyAt": "2026-10-29T06:21:27.022072+00:00",
+      "decision": "complete",
+      "reason": "原卷與新北官方文化資料核對美寧在泰山，維持D；新製組裝/縫衣/包裝情境＋行政名稱HTML，三寬QA與實看通過。",
+      "evidence": [
+        "docs/comics/q-543.json",
+        "docs/comics/q-543-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-544",
+      "title": "地理第6題｜濱臨太平洋的陸塊辨識",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:21:27.061348+00:00",
+      "readyAt": "2026-10-29T06:23:27.711688+00:00",
+      "decision": "complete",
+      "reason": "實看六陸塊原圖，維持C；新製SVG圖卡對照/太平洋兩側方位/四卡組合，三寬QA與實看通過。",
+      "evidence": [
+        "docs/comics/q-544.json",
+        "docs/comics/q-544-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-545",
+      "title": "地理第36題｜等高線與最陡雪道",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:23:27.747615+00:00",
+      "readyAt": "2026-10-29T06:26:19.793210+00:00",
+      "decision": "complete",
+      "reason": "原卷細線疏密與甲位置實看，維持A；新SVG等高線/同高差剖面/題幹色例，三寬QA實看通過。",
+      "evidence": [
+        "docs/comics/q-545.json",
+        "docs/comics/q-545-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-548",
+      "title": "地理第5題｜從經緯度辨認行政區",
+      "subject": "Geography",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:25:21.016218+00:00",
+      "readyAt": "2026-10-29T06:31:29.532945+00:00",
+      "decision": "complete",
+      "reason": "新精確緯度/經度數線與回原圖丁流程四格，原卷必要行政圖放大/官方高雄位置核D；坐標軸與點位驗證、三寬QA和raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-548.json",
+        "docs/comics/q-548-preview-validation.json",
+        "docs/comics/q-548-coordinate-validation.json"
+      ]
+    },
+    {
+      "id": "q-550",
+      "title": "地理第10題｜臺灣海峽與離島強風",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:26:19.831827+00:00",
+      "readyAt": "2026-10-29T06:29:12.377919+00:00",
+      "decision": "complete",
+      "reason": "原卷與氣象署/澎湖官方季風說明核對，維持A；新SVG柱體/地形通道/海域對照，三寬QA實看通過。",
+      "evidence": [
+        "docs/comics/q-550.json",
+        "docs/comics/q-550-preview-validation.json",
+        "docs/comics/q-550-timing.json"
+      ]
+    },
+    {
+      "id": "q-410",
+      "title": "地理第13題｜傳統領域與花東縱谷",
+      "subject": "Geography",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:29:12.418985+00:00",
+      "readyAt": "2026-10-29T06:32:40.831870+00:00",
+      "decision": "complete",
+      "reason": "原卷與官方區域分布核對B；新SVG土地文化/縱谷剖面/最可能比較，三寬QA實看通過。既有廢止法規參考另列review交root，不影響本題答案與漫畫。",
+      "evidence": [
+        "docs/comics/q-410.json",
+        "docs/comics/q-410-preview-validation.json",
+        "docs/comics/q-410-reference-review.json",
+        "docs/comics/q-410-timing.json"
       ]
     }
   ],

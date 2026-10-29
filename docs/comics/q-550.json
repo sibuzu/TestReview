@@ -1,0 +1,85 @@
+{
+  "id": "q-550",
+  "subject": "Geography",
+  "title": "同處臺灣海峽，強風成因可類比",
+  "art": "docs/comics/art/q-550-strait.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:27:26.275433+00:00",
+  "panels": [
+    {
+      "heading": "① 柱狀玄武岩，辨認澎湖",
+      "text": "A的六角形柱狀玄武岩，是本題辨識澎湖的景觀線索。這是先找出島嶼，不是說玄武岩本身會讓風變強。",
+      "alt": "新製幾何六角柱體示意配A柱狀玄武岩名稱，非原景照片，沒有把岩石當成風的動力。"
+    },
+    {
+      "heading": "② 地形通道，季風可增強",
+      "text": "題幹說季風吹過臺灣海峽，受兩側陸域地形影響而增強。這種通道作用可稱狹管效應；澎湖同處海峽，能與金門類比。",
+      "alt": "新製陸域間通道與同向氣流機制圖；註明非海峽比例或實際風向圖，不標虛構風速數值。"
+    },
+    {
+      "heading": "③ 問相同成因，不是有沒有風",
+      "text": "其他選項分別指蘭嶼、東沙與龜山島，所在海域不同。它們也可能有強風，但不能因此說與題幹的臺灣海峽通道機制相同。",
+      "alt": "新製島嶼/海域文字對照，金門澎湖同在臺灣海峽，蘭嶼太平洋、東沙南海、龜山島宜蘭外海，不冒充地理比例地圖。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 同處臺灣海峽，強風成因可類比",
+    "answer": "答案 A：澎湖",
+    "points": [
+      "柱狀玄武岩，是辨識澎湖的線索。",
+      "季風受海峽地形影響，風勢可增強。",
+      "地質用來認島；強風原因要看風與地形。"
+    ]
+  },
+  "protectedWords": [
+    "臺灣海峽",
+    "狹管效應",
+    "柱狀玄武岩",
+    "六角形",
+    "澎湖",
+    "金門",
+    "蘭嶼",
+    "東沙",
+    "龜山島",
+    "太平洋",
+    "宜蘭外海",
+    "南海",
+    "季風",
+    "兩側陸域",
+    "通道機制"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-550-source-db0f68965e.jpg"
+  ],
+  "originalVisualCheck": "實看第10題完整原卷，題幹金門強風與兩陸域海峽縮窄，A玄武岩/B原民族/C南海環礁/D宜蘭火山島，維持A。",
+  "answerCheckedAgainst": "既有答案A與中央氣象署東吉島測站說明、澎湖縣政府季風介紹一致：澎湖位於臺灣海峽，受季風及地形通道影響。未把所有離島強風都歸同成因。",
+  "rationale": "使用新製幾何柱體、地形通道氣流、島嶼海域對照SVG＋HTML，區分辨島的地質線索與強風機制；不靠人物或來源AI地圖，也不讓生成模型決定海峽地形或風速。",
+  "references": [
+    {
+      "title": "中央氣象署｜東吉島測站特色",
+      "url": "https://etour.cwa.gov.tw/station_inpage.php?stn_id=27",
+      "checked": "臺灣海峽、缺地形屏障、狹管效應與東北季風強勁"
+    },
+    {
+      "title": "澎湖縣政府｜季風",
+      "url": "https://www.penghu.gov.tw/ch/home.jsp?id=10013",
+      "checked": "秋末初冬東北季風通過臺灣海峽時增強"
+    }
+  ],
+  "generationCalls": 0,
+  "diagramChecks": {
+    "selected": "A",
+    "basaltCausesWind": false,
+    "fictionalWindSpeedAdded": false,
+    "mechanismDiagramIsScaleMap": false,
+    "allIslandsSameMechanism": false,
+    "flowArrowMeaning": "通道氣流概念，不是實際風向圖"
+  },
+  "artSHA256": "04c3e17811f468720b427ea24830ebc7c2ebd8d9ab8473af18ac7bb66bc7048b",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:29:12.348173+00:00",
+  "completedAt": "2026-10-29T06:29:12.348173+00:00",
+  "layoutEvidence": "docs/comics/q-550-preview-validation.json",
+  "timingEvidence": "docs/comics/q-550-timing.json",
+  "visualReview": "實看1440/1120/390最終三寬：柱體頂面六角、通道箭頭在陸域間且註明非風向比例圖、四離島海域名稱一致；桌機同列等高、手機自然高度，無橫溢或保護詞斷裂。"
+}

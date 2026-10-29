@@ -1,0 +1,84 @@
+{
+  "id": "q-544",
+  "subject": "Geography",
+  "title": "太平洋兩側：乙、丙、丁、戊",
+  "art": "docs/comics/art/q-544-pacific.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:23:06.375224+00:00",
+  "panels": [
+    {
+      "heading": "① 先辨輪廓，別看排列猜",
+      "text": "原卷六張圖卡依序是：甲歐洲、乙北美洲、丙亞洲、丁南美洲、戊澳洲、己非洲。圖卡排列不是世界地圖；戊要辨作澳洲。",
+      "alt": "新製六圖卡名稱對照表，位置沿用甲乙丙上排、丁戊己下排；文字對照原卷輪廓，並非重製古地圖或輪廓。"
+    },
+    {
+      "heading": "② 找太平洋兩側的海岸",
+      "text": "亞洲東岸、澳洲東岸濱臨太平洋；太平洋另一側是北美洲西岸、南美洲西岸。對應圖卡是丙、戊與乙、丁。",
+      "alt": "新製非按比例方位關係圖，太平洋在中間，左側亞洲與澳洲東岸，右側北美洲與南美洲西岸；不是板塊圖。"
+    },
+    {
+      "heading": "③ 四張都選到，也不多選",
+      "text": "乙、丙、丁、戊符合指令；甲歐洲與己非洲不直接濱臨太平洋。選項C正好包含四張，不能漏選乙，也不能多選甲或己。",
+      "alt": "新製四張應選陸塊名稱組合與兩張排除名稱，完整涵蓋原圖六卡。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 太平洋兩側：乙、丙、丁、戊",
+    "answer": "答案 C：乙、丙、丁、戊",
+    "points": [
+      "丙亞洲、戊澳洲：東岸濱太平洋。",
+      "乙北美洲、丁南美洲：西岸濱太平洋。",
+      "這是陸塊與海洋關係，不是板塊分類。"
+    ]
+  },
+  "protectedWords": [
+    "太平洋",
+    "北美洲",
+    "南美洲",
+    "亞洲",
+    "澳洲",
+    "非洲",
+    "歐洲",
+    "東岸",
+    "西岸",
+    "世界地圖",
+    "板塊分類",
+    "圖卡"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-544-source-7878481f41.jpg",
+    "site/dist/assets/questions/q-544-continents-d0d3649bc8.jpg"
+  ],
+  "originalVisualCheck": "實看完整第6題與必要圖二。甲歐洲、乙北美洲、丙亞洲、丁南美洲、戊澳洲、己非洲，四選項同目前資料；維持C。既有解說的戊澳洲訂正沿用，不重新啟動舊確認。",
+  "answerCheckedAgainst": "原圖輪廓與既有已核對答案：四濱太平洋陸塊為北美/亞洲/南美/澳洲；無南極圖卡，不需引入南冰洋邊界。",
+  "rationale": "純人物或生成地圖無法精確教海岸方位；使用自行繪製原生SVG名稱對照與太平洋兩側示意搭配HTML四格，原卷輪廓留在題目必要圖，沒有沿用來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "originalCardOrder": [
+      "甲歐洲",
+      "乙北美洲",
+      "丙亞洲",
+      "丁南美洲",
+      "戊澳洲",
+      "己非洲"
+    ],
+    "pacificWest": [
+      "丙亞洲東岸",
+      "戊澳洲東岸"
+    ],
+    "pacificEast": [
+      "乙北美洲西岸",
+      "丁南美洲西岸"
+    ],
+    "selected": "C",
+    "outlineMapClaim": false,
+    "scaleMapClaim": false,
+    "tectonicPlateMapClaim": false
+  },
+  "artSHA256": "dd1f9149f6a6df532ca6aaa6de1e4e1922e7e067a2f5ab2b2a9f08a1fde5c67d",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:23:27.682853+00:00",
+  "completedAt": "2026-10-29T06:23:27.682853+00:00",
+  "layoutEvidence": "docs/comics/q-544-preview-validation.json",
+  "visualReview": "實看最終1440/1120/390 SVG四格。六圖卡對照、太平洋兩側與四卡組合對應原卷；方位圖明示非按比例，非板塊圖。三寬圖片載入，無橫溢與保護詞斷裂，手機單欄自然高度。"
+}

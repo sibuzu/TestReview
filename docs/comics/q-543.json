@@ -1,0 +1,82 @@
+{
+  "id": "q-543",
+  "subject": "Geography",
+  "title": "美寧工廠在泰山：今屬新北市",
+  "art": "docs/comics/art/q-543.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:19:18.301274+00:00",
+  "panels": [
+    {
+      "heading": "① 地點線索：美寧在泰山",
+      "text": "美寧工廠在1967年於臺北縣泰山鄉設廠，代工製造芭比娃娃。題目問哪個縣市，關鍵是認出這個具體的產業據點。",
+      "alt": "新製早期臺灣成人工人手工組裝玩具的虛構情境，不冒充美寧原廠照片或精確廠房。"
+    },
+    {
+      "heading": "② 產業特色：需要許多勞力",
+      "text": "娃娃製作、服裝縫製等工作，需要許多工人參與，能連結勞力密集的輕工業。豐富勞力是題幹背景，不能單靠這點就判定縣市。",
+      "alt": "新製成人工人縫製小尺寸娃娃服裝情境，表現人工技能與勞力需求，不是兒童勞動。"
+    },
+    {
+      "heading": "③ 當時名稱，對應今天選項",
+      "text": "當時的臺北縣泰山鄉，如今是新北市泰山區，因此選D。工廠製造產品供外銷，是出口代工；不等於產品品牌由臺灣公司持有。",
+      "alt": "新製成人把玩具裝入素面紙箱、準備運出倉庫的虛構代工情境，未把工廠放在港口或暗示某特定港。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 美寧工廠在泰山：今屬新北市",
+    "answer": "答案 D：新北市",
+    "points": [
+      "產業據點：美寧工廠位於泰山。",
+      "舊稱臺北縣泰山鄉；今為新北市泰山區。",
+      "勞力密集、出口代工是背景，地點仍須辨識。"
+    ]
+  },
+  "protectedWords": [
+    "美寧工廠",
+    "泰山鄉",
+    "泰山區",
+    "臺北縣",
+    "新北市",
+    "芭比娃娃",
+    "勞力密集",
+    "輕工業",
+    "產業據點",
+    "出口代工",
+    "豐富勞力",
+    "服裝縫製"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-543-source-5ee2c21f35.jpg"
+  ],
+  "originalVisualCheck": "已實看4題完整原卷，題幹1967年美寧工廠、四選項澎湖/南投/花蓮/新北，原紅筆D；維持D。",
+  "answerCheckedAgainst": "獨立查新北市政府文化局建檔的國家文化記憶庫與新北博物館家族，均明記美寧1967年在臺北縣泰山鄉設廠，對應今新北市泰山區。",
+  "rationale": "用新製組裝、縫衣、包裝三情境呈現勞力密集與代工；關鍵具體地點、行政名稱對應均用可校對HTML。刻意說明勞力背景不足以獨自推出縣市，不把所有輕工業都歸新北。",
+  "promptPath": "docs/comics/q-543-prompt.txt",
+  "generationCalls": 1,
+  "references": [
+    {
+      "title": "國家文化記憶庫｜美寧工廠（新北市政府文化局建檔）",
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=189218&indexCode=Culture_Place",
+      "checked": "1967年臺北縣泰山鄉設廠、塑膠與娃衣代工"
+    },
+    {
+      "title": "新北市博物館家族｜泰山區娃娃產業文化館",
+      "url": "https://www.museum.ntpc.gov.tw/xmdoc/cont?sid=0G297830925501164507&xsmsid=0G275735901206394658",
+      "checked": "民國56年美寧在泰山設廠、數千員工與外包代工"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "D",
+    "then": "臺北縣泰山鄉",
+    "now": "新北市泰山區",
+    "historicalFactoryPhotoClaim": false,
+    "specificPortClaim": false,
+    "exactWorkersCountDepicted": false
+  },
+  "artSHA256": "57479c2dfd5da4a9c4e97f5960f345e4cddaf8d830170100f55059d0ba5180b7",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:21:26.986067+00:00",
+  "completedAt": "2026-10-29T06:21:26.986067+00:00",
+  "layoutEvidence": "docs/comics/q-543-preview-validation.json",
+  "visualReview": "實看新圖、1440/1120/390最終截圖。三成人工業情境與HTML組裝/縫衣/外銷對應；具體地點與行政名稱獨立文字核對。桌機同列等高、手機自然高度，無橫溢、保護詞斷裂，答案D清楚。"
+}

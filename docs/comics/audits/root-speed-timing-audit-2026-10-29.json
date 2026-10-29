@@ -1,0 +1,232 @@
+{
+  "checkedAt": "2026-10-29T06:23:34.295584+00:00",
+  "filesChecked": 282,
+  "scope": "計時與generation metadata的負數及倒退時間檢查；重算凍結10張平均並盤點凍結20題分段值。正數與算式一致不等於證明時鐘準確，也不代表可比較純模型速度。",
+  "negativeFields": [
+    {
+      "file": "docs/comics/q-517-generation.json",
+      "path": "originalReportedDurationSeconds",
+      "seconds": -7.071,
+      "excluded": true
+    },
+    {
+      "file": "docs/comics/q-723-generation.json",
+      "path": "durationSeconds",
+      "seconds": -7.046,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-775-generation.json",
+      "path": "durationSeconds",
+      "seconds": -1.763,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-674-generation.json",
+      "path": "durationSeconds",
+      "seconds": -7.642,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-672-generation.json",
+      "path": "durationSeconds",
+      "seconds": -7.376,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-094-generation.json",
+      "path": "durationSeconds",
+      "seconds": -5.854,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-280-generation.json",
+      "path": "durationSeconds",
+      "seconds": -14.236,
+      "excluded": false
+    }
+  ],
+  "reversedTimestamps": [
+    {
+      "file": "docs/comics/q-517-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.071,
+      "excluded": true
+    },
+    {
+      "file": "docs/comics/q-723-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.046,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-775-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -1.763,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-674-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.642,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-672-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.376,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-094-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -5.854,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-280-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -14.236,
+      "excluded": false
+    }
+  ],
+  "frozen10": {
+    "samples": 10,
+    "computedAverageGeneration": 29.5688,
+    "recordedAverageGeneration": 29.5688,
+    "computedAverageWork": 204.87668580000002,
+    "recordedAverageWork": 204.8766858,
+    "allNonnegative": true
+  },
+  "frozen20": {
+    "state": "complete",
+    "samples": 20,
+    "negativeIntegrationFields": []
+  },
+  "unexcludedInvalidRecords": [
+    {
+      "file": "docs/comics/q-723-generation.json",
+      "path": "durationSeconds",
+      "seconds": -7.046,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-775-generation.json",
+      "path": "durationSeconds",
+      "seconds": -1.763,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-674-generation.json",
+      "path": "durationSeconds",
+      "seconds": -7.642,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-672-generation.json",
+      "path": "durationSeconds",
+      "seconds": -7.376,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-094-generation.json",
+      "path": "durationSeconds",
+      "seconds": -5.854,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-280-generation.json",
+      "path": "durationSeconds",
+      "seconds": -14.236,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-723-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.046,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-775-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -1.763,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-674-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.642,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-672-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -7.376,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-094-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -5.854,
+      "excluded": false
+    },
+    {
+      "file": "docs/comics/q-280-generation.json",
+      "path": "",
+      "keys": [
+        "startedAt",
+        "completedAt"
+      ],
+      "seconds": -14.236,
+      "excluded": false
+    }
+  ]
+}

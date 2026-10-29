@@ -264,3 +264,5 @@
 - 專職整合代理是共用題庫、attach／curate、asset-map、正式QA、integrated與每20題commit all／正常push的唯一寫入者。root交接後不並行寫這些共用內容；若需機動接手，先明確完成交接。製作線仍只寫各題檔與隔離預覽，stage後續領。
 - 整合代理必須自行完整讀題與原卷、核對解說和成品，實看正式桌機及手機；不可只採製作代理的測試報告。沿用rootReview欄位供既有驗證器相容，並記錄實際reviewerAgent。新疑義照常列Monitor，其他題續作。
 - Monitor顯示兩路製作、一路整合、待整合與整合中；第三路的舊已完成製作紀錄保留，不誤刪或改寫歷史。
+
+- 產圖計時可靠性：UTC起訖只作時間標籤，不直接把跨環境Date差當可靠耗時；可比較耗時使用同一執行主機的monotonic_ns起訖並註明包含的協調／工具呼叫範圍。負值、時間倒退或不可比較的起訖，一律durationSeconds=null、timingValid=false、excludeFromSpeedStatistics=true，保留原時間與originalReportedDurationSeconds，不補猜秒數。歷史凍結10張／20題比較不可因新題或時間異常改寫；明確區分純產圖與整體工作週期。

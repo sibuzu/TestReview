@@ -91,8 +91,13 @@ class MonitorTest(unittest.TestCase):
         self.write('monitor/active-source-plan.json', {'path': 'docs/imports/current-gpt.json'})
         self.write('docs/imports/current-gpt.json', {'sources': [
             {'key': 'gpt004', 'batch': 'gpt', 'suggestedOrder': 4,
+             'sourceId': 'src-more-004', 'expectedOriginalQuestions': 2,
              'url': 'https://chatgpt.com/share/new',
              'acquisitionRecord': 'docs/acquisition/current.json'}]})
+        self.write('site/dist/data.json', {'revision': 'group', 'questions': [
+            {'id': 'q-001', 'title': '完整題組', 'sourceId': 'src-more-004',
+             'verification': '原題已核對', 'contentStatus': '完整原題',
+             'groupQuestions': [{'id': 'q-001'}, {'id': 'q-009'}]}]})
         self.write('docs/imports/more-gemini-progress.json', {'sources': [self.source(4, 'complete')]})
         self.write('docs/acquisition/current.json', {
             'userImagesExpected': 1, 'originalImages': [{'path': 'original.jpg'}]})
@@ -103,6 +108,9 @@ class MonitorTest(unittest.TestCase):
         self.assertEqual(source['state'], 'awaiting_transcription')
         self.assertEqual(result['newSources']['settled'], 0)
         self.assertEqual(result['newSources']['imagesExpected'], 1)
+        self.assertEqual(result['newSources']['published'], 1)
+        self.assertEqual(result['newSources']['originalsPublished'], 2)
+        self.assertEqual(result['newSources']['originalsExpected'], 2)
         batches = {batch['id']: batch for batch in result['batches']}
         self.assertEqual(batches['gemini']['sources'][0]['state'], 'complete')
         self.assertEqual(batches['gpt']['sources'][3]['imagesAvailable'], 1)

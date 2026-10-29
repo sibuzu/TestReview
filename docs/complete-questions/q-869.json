@@ -1,0 +1,107 @@
+{
+  "id": "q-869",
+  "sourceId": "src-more-050",
+  "subject": "Geography",
+  "title": "地理第2題｜人口與GDP矩形圖",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-29",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-30",
+  "question": "右圖為世界銀行繪製用來展現世界各國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大小。根據圖中資訊，哪個國家最可能是「印度」？\n(A) 甲國\n(B) 乙國\n(C) 丙國\n(D) 丁國",
+  "answer": "(B) 乙國",
+  "explanation": "本圖橫軸是各國人口占世界人口的累積百分比；每個矩形的寬度才是該國人口占比，縱向高度是人均GDP，寬乘高的面積反映經濟規模。2011年印度人口多、人均GDP低於圖示世界平均，因此要找寬而矮的乙國，選B。乙約從20%延伸到38%，人口占比約為兩端之差18%，不是把它所在的30%位置讀成占比30%。甲太窄；丙較窄且高度較高；丁窄而高。",
+  "trap": "先核對原題位置、圖例與時間範圍，再比較全部選項。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實看本題原卷、完整選項及必要附圖；首次日期採原使用者本次對話日期，不冒稱實際考試日。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "印度人口與人均GDP矩形圖"
+  ],
+  "images": [
+    "assets/originals/src-more-050-original-13-7a4fdfe23a77.webp"
+  ],
+  "sourceLabel": "分享原卷｜第2題",
+  "studentAnswer": "B",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "甲國",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "甲雖低但很窄，人口占比不符合印度。"
+    },
+    {
+      "label": "B",
+      "text": "乙國",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "乙的矩形寬、低於世界平均線，符合2011年的印度。"
+    },
+    {
+      "label": "C",
+      "text": "丙國",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "丙較窄、人均GDP較高，不符合本題印度特徵。"
+    },
+    {
+      "label": "D",
+      "text": "丁國",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "丁窄且高，代表人口占比較小、人均GDP高。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/q-869-given-f1347e90b369.webp",
+      "alt": "2011年各國GDP與累積人口百分比原圖，含甲乙丙丁及世界平均線",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "art": "assets/comics/q-869-new-art-e41ff4e4c462.svg",
+    "title": "寬看人口、高看人均，面積看總量",
+    "panels": [
+      {
+        "heading": "① 乙的寬度，是兩端累積值相減",
+        "text": "原圖乙約從20%延伸到38%，差約18%，才是人口占比。所在位置不是人口占比，不能直接把30%或38%當乙的比率。",
+        "alt": "新製累積人口軸，標20與38端點及約18差值；不是把累積值讀作單國人口。"
+      },
+      {
+        "heading": "② 高度較低，仍可能人口很多",
+        "text": "圖示世界平均線為13,460美元。乙寬而矮，人均GDP低於平均，符合本題2011年的印度；高度示意不另編其精確人均數字。",
+        "alt": "新製乙在平均線下的相對高度，保留原圖平均值，未重建任意實測數據。"
+      },
+      {
+        "heading": "③ 面積是人口與人均的共同結果",
+        "text": "人口多且人均較低，總量仍可能很大。矩形面積用寬乘高理解經濟規模，不把人均GDP高直接當成總GDP一定最大。",
+        "alt": "新製矩形面積與兩向尺寸關係，示意人口乘人均GDP。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 B：乙國",
+      "points": [
+        "寬度：人口占比，需用左右兩端相減。",
+        "高度：人均GDP；乙低於圖示平均線。",
+        "面積：可比較經濟規模，不能只看高度。"
+      ]
+    },
+    "protectedWords": [
+      "人均GDP",
+      "人口占比",
+      "累積百分比",
+      "2011年",
+      "13,460"
+    ]
+  }
+}

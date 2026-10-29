@@ -159,12 +159,30 @@
       "visualChecked": false
     }
   ],
-  "state": "acquired_pending_visual_review",
+  "state": "complete_ready",
   "questionIdReservation": {
     "first": 851,
     "step": 2,
     "reservedBy": "/root/comic_lane_1",
     "rule": "每個核對後原卷原題/小題依序使用奇數qid；真共文組最小qid作parent，各子保留獨立qid"
   },
-  "excludedContent": "來源AI自編延伸與原來源生成解說圖不採用"
+  "excludedContent": "來源AI自編延伸與原來源生成解說圖不採用",
+  "questionIds": [
+    "q-851",
+    "q-853",
+    "q-855",
+    "q-857",
+    "q-859",
+    "q-861",
+    "q-863",
+    "q-865",
+    "q-867",
+    "q-869",
+    "q-871",
+    "q-873"
+  ],
+  "originalQuestionCount": 12,
+  "entryCount": 11,
+  "newComicCount": 12,
+  "scope": "只原問；AI延伸及來源生成圖不收入"
 }

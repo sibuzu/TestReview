@@ -1,6 +1,7 @@
 from pathlib import Path
 import json,hashlib,datetime,time
 from PIL import Image
+from zoneinfo import ZoneInfo
 R=Path('/home/jack/git/TestReview');P=R/'docs/imports/new-gpt-20261029-a'
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def dump(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
@@ -13,7 +14,7 @@ def write_item(q,spec,svg,page,crop,contentReview):
  dump(R/'docs/comics'/f'{qid}.json',spec)
  out=R/'.cache/new-gpt-20261029-a-publish'/f'{qid}-original.webp';im=Image.open(R/orig['uprightPath']);im.crop(crop).save(out,lossless=True,method=6)
  target=f'assets/originals/{qid}-original.webp';publicArt=f'assets/comics/{qid}-new-art.svg'
- q.update(sourceId='src-more-049',volume='綜合',chapter='綜合',date='2026-10-29',dateLabel='首次出題日期',addedAt='2026-10-29',images=[target],questionFigures=q.get('questionFigures',[]),explanationFigures=[],tables=q.get('tables',[]),passage=q.get('passage',''),sourceLabel=f"分享原卷｜第{q['originalQuestionNumber']}題",verification='原卷逐題核對',verificationNote='已逐字實看原卷、完整上文及全部選項；答案與原卷紅筆及獨立推理對照，未使用來源AI圖。',contentStatus='完整原題',status='todo',starred=False,notes='',teachingComic={**{k:spec[k] for k in ['title','panels','fourth','protectedWords']},'art':publicArt})
+ q.update(sourceId='src-more-049',volume='綜合',chapter='綜合',date='2026-10-29',dateLabel='首次出題日期',addedAt=datetime.datetime.now(ZoneInfo('Asia/Taipei')).date().isoformat(),images=[target],questionFigures=q.get('questionFigures',[]),explanationFigures=[],tables=q.get('tables',[]),passage=q.get('passage',''),sourceLabel=f"分享原卷｜第{q['originalQuestionNumber']}題",verification='原卷逐題核對',verificationNote='已逐字實看原卷、完整上文及全部選項；答案與原卷紅筆及獨立推理對照，未使用來源AI圖。',contentStatus='完整原題',status='todo',starred=False,notes='',teachingComic={**{k:spec[k] for k in ['title','panels','fourth','protectedWords']},'art':publicArt})
  dump(qp,q)
  assets=[dict(sourcePath=str(out.relative_to(R)),targetPath=target,sha256=sha(out),lossless=True,kind='original_crop',cropBox=list(crop),originalSHA256=orig['sha256']),dict(sourcePath=str(art.relative_to(R)),targetPath=publicArt,sha256=sha(art),lossless=True,kind='new_native_art')]
  ap=P/'asset-map.json';am=json.loads(ap.read_text());am.extend(assets);dump(ap,am)

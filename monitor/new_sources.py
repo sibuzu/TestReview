@@ -13,8 +13,9 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
     paths.append(plan_path)
     plan = json.loads(plan_path.read_text())
     published = {q['id'] for q in questions}
+    by_id = {q['id']: q for q in questions}
     states = {e['id']: e['state'] for e in entries}
-    rows, all_ids = [], set()
+    rows, all_ids, all_original_ids = [], set(), set()
     terminal = {'complete', 'complete_with_skips', 'duplicate', 'excluded_no_question',
                 'skipped_not_in_site', 'skipped_missing_images', 'skipped_unavailable',
                 'skipped_invalid_question'}
@@ -42,6 +43,9 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
         ids = (set(source.get('questionIds', [])) |
                {q['id'] for q in questions if q.get('sourceId') == source_id}) & published
         all_ids.update(ids)
+        original_ids = {child['id'] for qid in ids
+                        for child in (by_id[qid].get('groupQuestions') or [by_id[qid]])}
+        all_original_ids.update(original_ids)
         state = source.get('state', 'awaiting_source_read')
         reason = source.get('reason', '')
         if state == 'awaiting_source_read' and any(r.get('state') in {
@@ -59,6 +63,8 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
                      'state': state, 'reason': reason,
                      'settled': bool(source.get('sourceCurationComplete')) or source.get('state') in terminal,
                      'imagesAvailable': len(images), 'imagesExpected': expected or None,
+                     'originalsExpected': item.get('expectedOriginalQuestions'),
+                     'originalsPublished': len(original_ids),
                      'questionIds': sorted(ids),
                      'published': len(ids), 'generated': sum(states.get(qid) == 'complete' for qid in ids)})
     settled = sum(row['settled'] for row in rows)
@@ -75,6 +81,9 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
         agents = json.loads(parallel_path.read_text()).get('lanes', [])
     return {'sources': rows, 'total': len(rows), 'settled': settled,
             'agents': agents,
+            'originalsExpected': sum(item.get('expectedOriginalQuestions') or 0 for item in plan.get('sources', [])),
+            'originalsPublished': len(all_original_ids),
+            'originalsGenerated': sum(states.get(qid) == 'complete' for qid in all_original_ids),
             'complete':settled==len(rows) and not pending_ids and comics_settled==len(all_ids),
             'comicsSettled':comics_settled,
             'percent': round(100*settled/len(rows)) if rows else 0,

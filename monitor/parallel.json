@@ -2,21 +2,21 @@
   "mode": "two_source_producers_one_integrator_root_dispatch",
   "workerLimit": 2,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T15:57:01.268185+00:00",
+  "updatedAt": "2026-10-29T16:15:22.188193+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-851",
-      "title": "已收到第50來源首件 q-851 完整稿與三寬版面驗收，正在加入題庫",
+      "questionId": null,
+      "title": "本批已正式加入12道原問；持續接稿，達20及Goal完成時發布",
       "state": "integrating",
       "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "activeTask": {
-        "title": "已收到第50來源首件 q-851 完整稿與三寬版面驗收，正在加入題庫",
+        "title": "本批已正式加入12道原問；持續接稿，達20及Goal完成時發布",
         "state": "integrating",
         "startedAt": "2026-10-29T15:06:06.207488+00:00",
-        "questionId": "q-851"
+        "questionId": null
       }
     },
     {
@@ -28,9 +28,10 @@
       "agent": "/root/comic_lane_2",
       "role": "import",
       "activeTask": {
-        "title": "第一來源9/9原卷已取回：逐題實看、查重與原題解說整理",
-        "state": "importing",
-        "startedAt": "2026-10-29T15:06:06.207488+00:00"
+        "title": "第一來源生物2題已加入，製作4道歷史原問；英文5題將交Agent 3",
+        "state": "running",
+        "startedAt": "2026-10-29T15:06:06.207488+00:00",
+        "questionId": "q-854"
       }
     },
     {
@@ -42,15 +43,15 @@
       "agent": "/root/comic_lane_3",
       "role": "import",
       "activeTask": {
-        "title": "已交第一份完整稿 q-851，繼續其餘原題的新製四格與驗版",
+        "title": "第二來源12原問／11題面已全部驗版交稿；轉第一來源英文5原題（35／36共文合組）",
         "state": "running",
         "startedAt": "2026-10-29T15:06:06.207488+00:00",
-        "questionId": null
+        "questionId": "q-862"
       }
     }
   ],
   "ready": [],
-  "integrated": 773,
+  "integrated": 781,
   "blocked": [],
   "waiting": [],
   "integrating": [],

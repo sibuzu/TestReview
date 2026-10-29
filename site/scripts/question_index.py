@@ -13,7 +13,7 @@ import tempfile
 import unicodedata
 
 ROOT = Path(__file__).resolve().parents[2]
-VERSION = 1
+VERSION = 2
 
 
 def normalized(text):
@@ -48,7 +48,7 @@ def input_paths(root):
                 'docs/imports/new-gemini/*/integrated.json',
                 'docs/imports/new-gemini/*/group*.json',
                 'docs/imports/new-gemini/*/questions/*.json',
-                'docs/question-aliases.json', 'docs/comics/progress.json',
+                'docs/question-aliases.json', 'docs/question-groups.json', 'docs/comics/progress.json',
                 'monitor/confirmations.json', 'monitor/import-control.json']
     return sorted(set(required + [p for pattern in patterns for p in root.glob(pattern)]))
 
@@ -103,7 +103,10 @@ CREATE VIRTUAL TABLE source_fts USING fts5(id UNINDEXED,title,transcript, tokeni
 
 def populate(db, files):
     data = files['site/dist/data.json']
-    aliases = files.get('docs/question-aliases.json', {})
+    aliases = dict(files.get('docs/question-aliases.json', {}))
+    for parent,group in files.get('docs/question-groups.json',{}).items():
+        for member in group['members']:
+            if member!=parent:aliases[member]=parent
     published = {q['id']: q for q in data['questions']}
     comics = {e['id']: e['state'] for e in files.get('docs/comics/progress.json', {}).get('entries', [])}
     source_map = {s['id']: dict(s) for s in data.get('sources', [])}
@@ -173,10 +176,10 @@ def populate(db, files):
         db.execute('INSERT OR IGNORE INTO passages VALUES (?,?)', (key, text or ''))
         return key
 
-    def add_record(q, kind, path, sid=None):
-        qid = q['id'] if kind == 'published' else q['candidateId']
+    def add_record(q, kind, path, sid=None, published_parent=None):
+        qid = q['id'] if kind in {'published','group_child'} else q['candidateId']
         key = kind+':'+qid
-        target = qid if kind == 'published' else receipts.get(qid)
+        target = qid if kind == 'published' else published_parent if kind=='group_child' else receipts.get(qid)
         sid = sid or q.get('sourceId')
         if sid not in source_map:
             sid = None
@@ -189,7 +192,7 @@ def populate(db, files):
         db.execute('INSERT INTO records VALUES ('+','.join('?' for _ in range(21))+')',
                    (key, kind, qid, target, q.get('title', ''), q.get('subject', ''),
                     q.get('volume', ''), q.get('chapter', ''), q.get('date', ''), state,
-                    comics.get(target, 'not_published'), sid, passage(material), q.get('question', ''),
+                    comics.get(qid if kind=='group_child' else target, 'not_published'), sid, passage(material), q.get('question', ''),
                     q.get('answer', ''), q.get('explanation', ''), stem_hash, json_text(options),
                     json_text({'figures': q.get('questionFigures', []), 'tables': q.get('tables', [])}),
                     json_text(q.get('images', [])), path))
@@ -202,6 +205,17 @@ def populate(db, files):
 
     for q in published.values():
         add_record(q, 'published', 'site/dist/data.json')
+        if q.get('groupQuestions'):
+            group_key='published-group:'+q['id']
+            db.execute('INSERT INTO question_groups VALUES (?,?,?,?,?)',
+                (group_key,q['title'],q['id'],passage(q.get('passage','')),'site/dist/data.json'))
+            for child in q['groupQuestions']:
+                key=add_record(child,'group_child','site/dist/data.json',published_parent=q['id'])
+                db.execute('INSERT INTO group_members VALUES (?,?,?)',
+                    (group_key,key,child.get('originalQuestionNumber','')))
+                if child.get('sourceId') in source_map:
+                    db.execute('INSERT OR IGNORE INTO record_sources VALUES (?,?,?)',
+                        ('published:'+q['id'],child['sourceId'],'group_child'))
     for path, q in files.items():
         if '/questions/' in path and path.startswith('docs/imports/new-gemini/') and q.get('candidateId'):
             if cancelled_source(q.get('sourceKey')):
@@ -348,10 +362,10 @@ def duplicate_candidates(db, question, limit=10):
             "SELECT id,title,kind,published_id FROM records WHERE passage_hash=? AND stem_hash<>? LIMIT ?", (material, stem, limit))]
     target = normalized(question.get('question', ''))
     fuzzy = []
-    for row in db.execute("SELECT id,title,question FROM records WHERE kind='published' AND stem_hash<>?", (stem,)):
+    for row in db.execute("SELECT id,title,question,published_id FROM records WHERE kind IN ('published','group_child') AND stem_hash<>?", (stem,)):
         score = difflib.SequenceMatcher(None, target, normalized(row['question']), autojunk=False).ratio()
         if score >= .6:
-            fuzzy.append({'id': row['id'], 'title': row['title'], 'score': round(score, 4)})
+            fuzzy.append({'id': row['id'], 'title': row['title'], 'published_id':row['published_id'], 'score': round(score, 4)})
     return {'exactTextCandidates': exact[:limit], 'similarStems': sorted(fuzzy, key=lambda r:r['score'], reverse=True)[:limit],
             'sharedMaterialNotDuplicate': shared,
             'policy': 'Candidates only. Compare complete stem, choices, material and diagrams. Shared passage alone is not a duplicate; a real group keeps every subquestion.'}

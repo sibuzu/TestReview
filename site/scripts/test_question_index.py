@@ -90,6 +90,19 @@ class QuestionIndexTest(unittest.TestCase):
             unrelated=dict(self.q1,question='完全不同的數學題：求三角形面積。')
             self.assertEqual(index.duplicate_candidates(db,unrelated)['similarStems'],[])
 
+    def test_published_group_keeps_child_search_identity_sources_and_old_urls(self):
+        group=dict(self.q1,question=self.q1['question']+'\n'+self.q2['question'],
+            groupQuestions=[dict(self.q1,originalQuestionNumber='1'),dict(self.q2,originalQuestionNumber='2')])
+        payload=json.loads((self.root/'site/dist/data.json').read_text());payload['questions']=[group]
+        self.write('site/dist/data.json',payload)
+        self.write('docs/question-groups.json',{'q-001':{'members':['q-001','q-002'],'displayOrder':['q-001','q-002'],'revision':'fixture'}})
+        with self.open_built() as db:
+            self.assertEqual(index.stats(db)['published'],1)
+            self.assertEqual(index.search(db,'q-004')[0]['id'],'q-001')
+            self.assertEqual(db.execute('SELECT count(*) FROM group_members').fetchone()[0],2)
+            exact=index.duplicate_candidates(db,self.q2)['exactTextCandidates']
+            self.assertTrue(any(q['id']=='q-002' and q['kind']=='group_child' and q['published_id']=='q-001' for q in exact))
+
     def test_different_material_with_same_stem_requires_review(self):
         with self.open_built() as db:
             q=dict(self.q1,passage='另一個朝代的文章。')

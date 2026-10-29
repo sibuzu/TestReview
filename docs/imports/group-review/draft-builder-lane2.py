@@ -52,7 +52,7 @@ def main():
     assert job['state'] == 'merging' and job['owner'] == AGENT, 'Only build own current claim.'
     report = read(Path(job['reviewReport']))
     reviewed = next(g for g in report['confirmedGroups'] if set(g['questionIds']) == set(job['questionIds']))
-    assert reviewed.get('groupType', 'original_paper') == 'original_paper'
+    assert reviewed.get('groupType', 'original_paper') in {'original_paper', 'original_paper_group'}
     data_path = ROOT/'site/dist/data.json'
     data_bytes = data_path.read_bytes()
     data = json.loads(data_bytes)
@@ -84,8 +84,15 @@ def main():
     current_tables = [t for q in raw.values() for t in q.get('tables', [])]
     for table in material.get('tables', []):
         assert table in current_tables, 'Reviewed common table differs from latest; ask root.'
-    figures = deepcopy(material.get('questionFigures', []))
     current_figures = [f for q in raw.values() for f in q.get('questionFigures', [])]
+    figures = []
+    for reviewed_figure in material.get('questionFigures', []):
+        src = reviewed_figure['src']
+        latest = next((f for f in current_figures if f.get('src') == src), None)
+        figure = deepcopy(latest) if latest else {'src': src, 'alt': '題組共同原卷附圖', 'caption': '共同原卷附圖'}
+        for key, value in reviewed_figure.items():
+            figure.setdefault(key, deepcopy(value))
+        figures.append(figure)
     for ref in material.get('requiredFigureRefs', []):
         src = ref if isinstance(ref, str) else ref['src']
         existing = next((f for f in current_figures if f.get('src') == src), None)
@@ -129,6 +136,15 @@ def main():
     parent['dateLabel'] = earliest.get('dateLabel', '')
     parent['addedAt'] = min(q['addedAt'] for q in raw.values())
     parent['groupMetadata'] = {'groupId': job['id'], 'kind': 'original_paper', 'originalQuestionIds': job['questionIds'], 'displayOrder': order, 'retainId': job['retainId'], 'aliasesProposed': [qid for qid in raw if qid != job['retainId']], 'reviewReport': job['reviewReport'], 'printedRange': reviewed['printedRange'], 'representativeSubjectReason': reviewed.get('representativeSubjectReason', '依已核原卷題組代表科目。')}
+    equivalent_figures = []
+    for common in figures:
+        common_src = common['src']
+        common_hash = sha((ROOT/'site/dist'/common_src).read_bytes())
+        for child_figure in current_figures:
+            src = child_figure['src']
+            if src != common_src and sha((ROOT/'site/dist'/src).read_bytes()) == common_hash:
+                equivalent_figures.append({'src': src, 'commonSrc': common_src, 'sha256': common_hash})
+    parent['groupMetadata']['commonFigureEquivalentSources'] = union(equivalent_figures)
     assert parent.get('teachingComic') == raw[job['retainId']].get('teachingComic')
     assert [child['id'] for child in children] == order
     for qid in order:

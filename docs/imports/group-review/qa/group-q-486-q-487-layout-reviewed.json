@@ -1,0 +1,67 @@
+{
+  "groupId": "group-q-486-q-487",
+  "reviewerAgent": "/root/comic_lane_3",
+  "passed": true,
+  "checkedAt": "2026-10-29T14:04:29.051570+00:00",
+  "childCoverage": [
+    "q-486",
+    "q-487"
+  ],
+  "actualViewed": [
+    "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-486-app-1440.png",
+    "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-487-app-1440.png",
+    "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-486-app-390.png",
+    "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-487-app-390.png"
+  ],
+  "actualViewCoverage": [
+    {
+      "childId": "q-486",
+      "width": 1440,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-486-app-1440.png"
+    },
+    {
+      "childId": "q-487",
+      "width": 1440,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-487-app-1440.png"
+    },
+    {
+      "childId": "q-486",
+      "width": 390,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-486-app-390.png"
+    },
+    {
+      "childId": "q-487",
+      "width": 390,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-486-q-487/q-486-q-487-app-390.png"
+    }
+  ],
+  "automatedValidation": "docs/imports/group-review/qa/group-q-486-q-487-validation.json",
+  "automatedValidationSHA256": "23e2c814566201ff96758d7fd776846d822001abb598330256cf911c02d6ae3e",
+  "automatedLayouts": 6,
+  "appAndStandaloneTechnicalPassed": true,
+  "allChildComicsChecked": true,
+  "visualNotes": "兩子app1440/390四張全實看，C的人物默契及A的詩意/後事兩層圖文都完整，手機長答案正常換行，各格無文字裁切或跨欄。",
+  "renderCodeSHA256": {
+    "site/dist/app.js": "e8737ca5a6897cac869e9e444a1b0c6e98dddc946b5322bf6628e449708d7a73",
+    "site/dist/styles.css": "d8b3b7c6548c73153b2a4e6eb0a5d9e11f127625d7aca3cff45b635c5ad20d7b",
+    "site/dist/comic.css": "2c7f466cb66a21ae4c97774f3bd957a81dfd0ba59ddf00d00d18fe1e335f6488",
+    "site/dist/comic-wrap.js": "5de6877f45ac9da0e310cedb64ba6af9413574906b80788141fc083fa9e3f986",
+    "site/dist/teaching-comic.js": "337b223c83a1f5111bc3de664f9762c8c70d467738f4b6553d95bd6f9c575b53",
+    "site/dist/core.js": "b61d14105857006c9866e434fa0a55915e5619f3ecd7a228a47357c1796640c5",
+    "site/dist/group-materials.js": "6ecaba0abe6bc964d4b397480524c5f6b090bb1084cc6d24e99af746c6ffdfa0",
+    "site/scripts/build_review_page.py": "e1965bb6dcef086cdc10f18914147db3c9f0c114d765595e1ad4eaa6232df1c7",
+    "site/scripts/group_review_html.py": "61e2074531e2392dec4f5371378bbe0c0369a179965bf9018eabdb0f1bc88d88",
+    "site/scripts/teaching_comic.py": "ce4836a614a8bed590ca21934f8fa1f8c4002d8779a61072c7569f620d0609cd"
+  },
+  "technicalCheckerSHA256": "1ee5a67afa9e64e9d967e0ff3dfe530c502149815dd4f259171450db64d3b8df",
+  "personalCloudRequestsAborted": true,
+  "sharedBankEdited": false
+}

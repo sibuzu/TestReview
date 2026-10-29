@@ -123,6 +123,8 @@ apply_review_requests(records, ROOT)
 apply_pending_sources(sources, ROOT)
 from comic_policy import apply_comic_policy
 apply_comic_policy(records, ROOT)
+from question_groups import apply_groups
+records=apply_groups(records, ROOT, DEST)
 # Curated diagrams are accessible, code-native SVGs, independent of missing source photos.
 revision='2026-10-27.'+hashlib.sha256(json.dumps([sources, records],ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
 payload=dict(schemaVersion=1,revision=revision,subjects=[dict(id=i,name=n,publisher=p,icon=ic) for i,n,p,ic in subjects],sources=sources,questions=records)
@@ -140,4 +142,6 @@ else:
 print(f'{len(sources)} sources, {len(records)} questions, {sum(len(s["images"]) for s in sources)} original images')
 
 subprocess.run([sys.executable, str(BASE / 'scripts/build_review_page.py')], check=True)
+from question_groups import write_group_redirects
+write_group_redirects(ROOT, DEST)
 prune_unreferenced(DEST, payload)

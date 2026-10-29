@@ -73,5 +73,21 @@ class GroupQueueTests(unittest.TestCase):
   queue=q.read(self.root/q.QUEUE);self.assertEqual(queue['groups'][0]['state'],'superseded');self.assertEqual(queue['candidates'][0]['state'],'confirmed')
   q.exclude_questions(['q-001','q-002'],'AI practice','removed.json',self.root)
   self.assertEqual(len(q.read(self.root/q.QUEUE)['scopeChanges']),1)
+ def test_layout_qa_requires_complete_child_coverage_and_rejects_changed_renderer(self):
+  q.record_review(self.report('one',['q-001','q-002']),'worker2',existing=True,root=self.root)
+  q.record_review(self.report('two',['q-003','q-004'],decision='rejected'),'worker2',existing=True,root=self.root)
+  q.reported_summary('/root',self.root);group=q.claim_merge('worker2',self.root)
+  draft=self.write('draft.json',{});manifest=self.write('manifest.json',{'questionIds':group['questionIds'],'retainId':group['retainId'],'draftPath':draft,'childCoverage':group['questionIds']})
+  q.stage_group(group['id'],manifest,'worker2',self.root)
+  with q.edit(self.root) as data:data['requireLayoutQA']=True
+  with self.assertRaises(ValueError):q.integration(group['id'],'integrator',root=self.root)
+  q.layout_qa(group['id'],'worker2',root=self.root)
+  renderer=self.root/'render.js';renderer.write_text('v1')
+  report=self.write('qa.json',{'groupId':group['id'],'passed':True,'childCoverage':group['questionIds'],'actualViewed':['proof.jpg'],'renderCodeSHA256':{'render.js':q.digest(renderer)}})
+  q.layout_qa(group['id'],'worker2',report,self.root)
+  renderer.write_text('v2')
+  with self.assertRaises(ValueError):q.integration(group['id'],'integrator',root=self.root)
+  data=q.read(self.root/report);data['renderCodeSHA256']['render.js']=q.digest(renderer);self.write(report,data)
+  q.layout_qa(group['id'],'worker2',report,self.root);q.integration(group['id'],'integrator',root=self.root)
 
 if __name__=='__main__':unittest.main()

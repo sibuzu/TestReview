@@ -1,5 +1,6 @@
 """Build reading pages using shared image assets, without duplicating image bytes."""
 from teaching_comic import render_comic, inline_comic_support
+from group_review_html import render_group_page
 import os
 import html
 import json
@@ -21,6 +22,10 @@ def table_html(t):
 payload=json.loads((DEST/'data.json').read_text());subjects={s['id']:s['name'] for s in payload['subjects']};count=0
 for q in payload['questions']:
  if q.get('contentStatus')!='完整原題':continue
+ if q.get('groupQuestions'):
+  page=render_group_page(q,subjects,{s['id']:s for s in payload['sources']},CSS,text_html,image_url,table_html,lambda:inline_comic_support(DEST),DEST)
+  (DEST/(q['id']+'.html')).write_text(page);count+=1
+  continue
  rows=''.join(f'<tr class="{"correct" if o["label"]==q.get("correctOption", "D" if q["id"]=="q-024" else "") else ""}"><th scope="row"><b>({e(o["label"])})</b><br>{text_html(o["text"])}</th><td>{e(o["wordClass"])}</td><td><p>{text_html(o["meaning"])}</p><p>{text_html(o["explanation"])}</p></td></tr>' for o in q.get('optionAnalysis',[]))
  options=('<h2>逐項解析</h2><div class="table-wrap"><table><thead><tr><th scope="col">選項與原句</th><th scope="col">判讀</th><th scope="col">句意與判斷理由</th></tr></thead><tbody>'+rows+'</tbody></table></div>') if rows else ''
  materials=('<section class="reading-passage"><h3>作答所需文章／材料</h3>'+text_html(q.get('passage'))+'</section>') if q.get('passage') else ''

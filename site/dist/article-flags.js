@@ -1,4 +1,5 @@
-import {canonicalQuestionId} from './question-identity.js';
+import {canonicalMarkQuestionId} from './question-identity.js';
+import {GROUP_FLAGS_KEY,checkedGroupFlags} from './group-marks.js';
 
 export const FLAGS_KEY='weirugo:article-flags:v1';
 export const PRACTICE_KEY='weirugo:practice-days:v1';
@@ -19,7 +20,7 @@ export function checkedFlags(value){
  const out={};
  for(const [id,flag] of Object.entries(value)){
   if(!validQuestionId(id)||!validFlag(flag))throw Error('FLAG格式不正確。');
-  const key=canonicalQuestionId(id);if(!(key in out)||id===key)out[key]=flag;
+  const key=canonicalMarkQuestionId(id);if(!(key in out)||id===key)out[key]=flag;
  }
  return out;
 }
@@ -28,7 +29,7 @@ export function checkedPractice(value){
  const records=new Map();
  for(const item of value){
   if(!item||!validQuestionId(item.id)||!validDay(item.day)||!validEventId(item.eventId)||![1,-1].includes(item.delta))throw Error('每日進度格式不正確。');
-  const event={id:canonicalQuestionId(item.id),day:item.day,eventId:item.eventId,delta:item.delta};
+  const event={id:canonicalMarkQuestionId(item.id),day:item.day,eventId:item.eventId,delta:item.delta};
   if(records.has(event.eventId)&&JSON.stringify(records.get(event.eventId))!==JSON.stringify(event))throw Error('進度紀錄識別碼重複。');
   records.set(event.eventId,event);
  }
@@ -44,17 +45,18 @@ export function dailyCounts(events){
 }
 export function changedFlag(flags,events,id,value,day=practiceDay(),eventId=globalThis.crypto.randomUUID()){
  if(!validQuestionId(id)||!validFlag(value)||!validDay(day))throw Error('FLAG格式不正確。');
- const next=checkedFlags(flags),key=canonicalQuestionId(id),previous=next[key]??DEFAULT_FLAG;
+ const next=checkedFlags(flags),key=canonicalMarkQuestionId(id),previous=next[key]??DEFAULT_FLAG;
  next[key]=value;
  const delta=previous===3&&value!==3?1:previous!==3&&value===3?-1:0;
  return {flags:next,practice:checkedPractice([...events,...(delta?[{id:key,day,eventId,delta}]:[])])};
 }
-export function persistFlagState(storage,flags,practice,doubts){
+export function persistFlagState(storage,flags,practice,doubts,groupFlags){
  const checked={flags:checkedFlags(flags),practice:checkedPractice(practice)},keys=[FLAGS_KEY,PRACTICE_KEY],values=[checked.flags,checked.practice];
  if(doubts!==undefined){
   if(!Array.isArray(doubts)||doubts.some(id=>!validQuestionId(id)))throw Error('疑義格式不正確。');
-  checked.doubts=[...new Set(doubts.map(canonicalQuestionId))].sort();keys.push('test-review:doubts:v1');values.push(checked.doubts);
+  checked.doubts=[...new Set(doubts.map(canonicalMarkQuestionId))].sort();keys.push('test-review:doubts:v1');values.push(checked.doubts);
  }
+ if(groupFlags!==undefined){checked.groupFlags=checkedGroupFlags(groupFlags);keys.push(GROUP_FLAGS_KEY);values.push(checked.groupFlags);}
  const previous=keys.map(key=>storage.getItem(key));
  try{keys.forEach((key,i)=>storage.setItem(key,JSON.stringify(values[i])));}
  catch(error){keys.forEach((key,i)=>{try{if(previous[i]===null)storage.removeItem(key);else storage.setItem(key,previous[i]);}catch{}});throw error;}

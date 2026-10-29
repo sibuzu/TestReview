@@ -1,0 +1,140 @@
+{
+  "groupId": "group-q-124-q-465",
+  "producerAgent": "/root/comic_lane_3",
+  "createdAt": "2026-10-29T13:15:33.133959+00:00",
+  "questionIds": [
+    "q-124",
+    "q-465"
+  ],
+  "retainId": "q-124",
+  "displayOrder": [
+    "q-465",
+    "q-124"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-124-q-465/question.json",
+  "childCoverage": [
+    "q-465",
+    "q-124"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-124.json",
+  "reviewSHA256": "44ae29462adbe367f22efac66f790a38240c2409c10983f4262e0557b4f3d2e5",
+  "dataSnapshotSHA256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+  "hashMethod": "SHA256 of UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "childSnapshots": [
+    {
+      "id": "q-465",
+      "sha256": "59e5b48da05d22a13d3cec1dd1bd84b2e62e9599925f049239dcc27edb318504",
+      "sourceId": "src-more-029",
+      "sourceURL": "https://chatgpt.com/share/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    },
+    {
+      "id": "q-124",
+      "sha256": "138671e826371b92bc7b37af5d0c5f38e7b017aaa092190d6098378355db4307",
+      "sourceId": "src-more-029",
+      "sourceURL": "https://chatgpt.com/share/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "q-465",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 2
+    },
+    {
+      "id": "q-124",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    }
+  ],
+  "representativeSubject": "Physics-Chemistry",
+  "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+  "commonMaterialSource": "Verified review and matching latest published child objects; no new text/answers/images",
+  "sourceAIImagesAdded": false,
+  "newArtProduced": false,
+  "notes": [
+    "All child object fields remain unchanged except optional originalQuestionNumber addition.",
+    "Parent teachingComic only supports the old renderer; the grouped renderer must show each child comic once.",
+    "Draft only. No shared bank, aliases, flags or published assets were mutated."
+  ],
+  "draftSHA256": "baaf030a64990e7c0933412057c4d0bd9023094cfad398638df3a16b506098ad"
+}

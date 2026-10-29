@@ -21,7 +21,7 @@ export function validateQuestion(q) {
   out.volume=out.volume||'綜合';out.chapter=out.chapter||'綜合';out.status=Object.hasOwn(STATUS,q.status)?q.status:'todo';out.starred=!!q.starred;
   out.tags=Array.isArray(q.tags)?q.tags.filter(x=>typeof x==='string').slice(0,20):[];
   out.images=Array.isArray(q.images)?q.images.filter(safeAsset).slice(0,50):[];
-  for(const key of ['sourceLabel','studentAnswer','contentStatus','correctOption','passage','reviewExcerpt','reviewLabel','reviewPreviousId','reviewNextId']) if(typeof q[key]==='string') out[key]=q[key].slice(0,['passage','reviewExcerpt'].includes(key)?50000:1000);
+  for(const key of ['sourceLabel','studentAnswer','contentStatus','correctOption','passage','reviewExcerpt','reviewLabel','reviewPreviousId','reviewNextId','originalQuestionNumber']) if(typeof q[key]==='string') out[key]=q[key].slice(0,['passage','reviewExcerpt'].includes(key)?50000:1000);
   if(Array.isArray(q.reviewQuestions))out.reviewQuestions=q.reviewQuestions.filter(x=>typeof x==='string').slice(0,30).map(x=>x.slice(0,5000));
   if(Array.isArray(q.optionAnalysis)) out.optionAnalysis=q.optionAnalysis.slice(0,30).map(option=>Object.fromEntries(['label','text','wordClass','meaning','explanation'].map(key=>[key,typeof option?.[key]==='string'?option[key].slice(0,5000):''])));
   if(Array.isArray(q.tables)) out.tables=q.tables.slice(0,10).map(table=>({caption:String(table.caption||'').slice(0,1000),headers:(Array.isArray(table.headers)?table.headers:[]).map(x=>String(x).slice(0,1000)).slice(0,20),rows:(Array.isArray(table.rows)?table.rows:[]).slice(0,100).map(row=>(Array.isArray(row)?row:[]).map(x=>String(x).slice(0,5000)).slice(0,20))}));
@@ -32,6 +32,18 @@ export function validateQuestion(q) {
     out.teachingComic={art:safeAsset(c.art),title:clean(c.title),panels:c.panels.map(p=>({heading:clean(p?.heading),text:clean(p?.text),alt:clean(p?.alt)})),fourth:{answer:clean(c.fourth.answer),points:c.fourth.points.slice(0,5).map(clean)}};
     const words=Array.isArray(c.protectedWords)?[...new Set(c.protectedWords.filter(w=>typeof w==='string'&&w.trim().length>=2&&w.length<=40&&!/[\u0000-\u001f]/u.test(w)).map(w=>w.trim()))].slice(0,50):[];
     if(words.length)out.teachingComic.protectedWords=words;
+  }
+  if(q.groupQuestions!==undefined){
+    if(!Array.isArray(q.groupQuestions)||q.groupQuestions.length<2||q.groupQuestions.length>30||q.groupQuestions.some(child=>!child||child.groupQuestions!==undefined))throw Error('題組必須有2至30個完整子題，不可巢狀合併。');
+    out.groupQuestions=q.groupQuestions.map(child=>validateQuestion(child));
+    const ids=out.groupQuestions.map(child=>child.id);
+    if(new Set(ids).size!==ids.length||!ids.includes(q.id))throw Error('題組子題識別碼重複或缺少保留題號。');
+    if(q.groupMetadata&&typeof q.groupMetadata==='object'){
+      const meta=q.groupMetadata;out.groupMetadata={};
+      for(const key of ['groupId','kind','retainId','reviewReport','printedRange','representativeSubjectReason'])if(typeof meta[key]==='string')out.groupMetadata[key]=meta[key].slice(0,5000);
+      for(const key of ['originalQuestionIds','displayOrder','aliasesProposed'])if(Array.isArray(meta[key]))out.groupMetadata[key]=meta[key].filter(id=>ids.includes(id));
+      out.groupMetadata.commonFigureEquivalentSources=(Array.isArray(meta.commonFigureEquivalentSources)?meta.commonFigureEquivalentSources:[]).filter(row=>safeAsset(row?.src)&&safeAsset(row?.commonSrc)&&/^[a-f0-9]{64}$/.test(row?.sha256||'')).map(row=>({src:row.src,commonSrc:row.commonSrc,sha256:row.sha256}));
+    }
   }
   return out;
 }

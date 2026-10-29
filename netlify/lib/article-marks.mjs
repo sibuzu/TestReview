@@ -20,9 +20,10 @@ async function handleRequest(request,store){
    const value=await store.get(key,{type:'json',consistency:'strong'}),[,kind,id]=key.split('/');
    try{return checkedFlagOperations([{kind,id,...(kind==='flag'?{value:value?.value}:{on:value?.on})}])[0];}catch{return null;}
   })).filter(Boolean);
+  for(const {key} of current){const match=key.match(/^v2\/groupFlag\/(q-\d{3,6})\/([a-zA-Z0-9][a-zA-Z0-9._-]{0,127})$/);if(match){const record=await store.get(key,{type:'json',consistency:'strong'});try{marks.push(...checkedFlagOperations([{kind:'groupFlag',id:match[1],revision:match[2],value:record?.value,operationId:record?.operationId}]));}catch{}}}
   for(const {key} of current){const match=key.match(/^v2\/practice\/([0-9a-f-]{36})\/(\d{4}-\d{2}-\d{2})\/(q-\d{3,6})\/(plus|minus)$/i);if(match){try{marks.push(...checkedFlagOperations([{kind:'practice',eventId:match[1],day:match[2],id:match[3],delta:match[4]==='plus'?1:-1}]));}catch{}}}
   marks.sort((a,b)=>flagOperationKey(a).localeCompare(flagOperationKey(b)));
-  const payload={schemaVersion:2,kinds:['flag','doubt','practice'],defaultFlag:3,marks};
+  const payload={schemaVersion:2,kinds:['flag','groupFlag','doubt','practice'],defaultFlag:3,marks};
   const etag='"'+createHash('sha256').update(JSON.stringify(payload)).digest('hex')+'"';
   if(request.headers.get('If-None-Match')===etag)return new Response(null,{status:304,headers:{ETag:etag}});
   return json(payload,200,{ETag:etag});
@@ -38,7 +39,7 @@ async function handleRequest(request,store){
  const unique=[...new Map(operations.map(op=>[flagOperationKey(op),op])).values()];
  for(const op of unique){
   const key=op.kind==='doubt'?'v1/doubt/'+op.id:op.kind==='practice'?'v2/'+flagOperationKey(op)+'/'+op.day+'/'+op.id+'/'+(op.delta===1?'plus':'minus'):'v2/'+flagOperationKey(op);
-  await store.setJSON(key,op.kind==='flag'?{value:op.value}:op.kind==='doubt'?{on:op.on}:{recorded:true});
+  await store.setJSON(key,op.kind==='groupFlag'?{value:op.value,operationId:op.operationId}:op.kind==='flag'?{value:op.value}:op.kind==='doubt'?{on:op.on}:{recorded:true});
  }
  return json({schemaVersion:2,applied:unique});
 }

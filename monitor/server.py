@@ -170,19 +170,23 @@ def build_status(root=ROOT):
             job=next((g for g in groups if g.get('integrator' if lane==1 else 'owner')==agent
                 and g['state']==('integrating' if lane==1 else 'merging')),None)
             review=next((c for c in queue['candidates'] if c.get('owner')==agent and c['state']=='reviewing'),None)
+            qa=next((g for g in groups if g.get('qaOwner')==agent and g.get('qaState')=='running'),None)
+            if not job and qa:job=qa
             ids=job['questionIds'] if job else review['questionIds'] if review else []
-            state=('integrating' if lane==1 else 'merging') if job else 'reviewing' if review else (
+            state=('qa_checking' if qa and job is qa else 'integrating' if lane==1 else 'merging') if job else 'reviewing' if review else (
                 'preparing' if lane==1 and control.get('state')=='preparing_compatibility' else
                 'ready' if lane==1 and any(g['state']=='ready' for g in groups) else
                 'preparing' if lane!=1 and any(g['state']=='confirmed' for g in groups) else 'idle')
             lanes.append({'lane':lane,'state':state,'questionIds':ids,
                 'titles':[by_id.get(qid,{}).get('title',qid) for qid in ids],
                 'detail':control.get('detail','') if lane==1 and state=='preparing' else '',
+                'qaCompleted':sum(g.get('qaState')=='complete' and g.get('qaOwner')==agent for g in groups),
                 'completed':sum(g['state']=='integrated' and g.get('integrator')==agent for g in groups) if lane==1
                     else sum(g['state'] in {'ready','integrating','integrated'} and g.get('owner')==agent for g in groups)})
         group_review['lanes']=lanes
         group_review['waiting']=[{'id':g['id'],'retainId':g['retainId'],'readyAt':g.get('readyAt')}
             for g in groups if g['state']=='ready']
+        group_review['layoutChecked']=sum(g.get('qaState')=='complete' for g in groups)
         paths.append(group_path)
     batches = []
     for key, title, payload in [('todo', '原 TODO', todo), ('gpt', 'more_gpt', gpt), ('gemini', 'more_gemini', gemini)]:

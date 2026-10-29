@@ -1,0 +1,140 @@
+{
+  "groupId": "group-q-766-q-767",
+  "producerAgent": "/root/comic_lane_3",
+  "createdAt": "2026-10-29T13:26:04.856504+00:00",
+  "questionIds": [
+    "q-766",
+    "q-767"
+  ],
+  "retainId": "q-766",
+  "displayOrder": [
+    "q-766",
+    "q-767"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-766-q-767/question.json",
+  "childCoverage": [
+    "q-766",
+    "q-767"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-766.json",
+  "reviewSHA256": "27a1006361d7d83418d9872246a4721c9a4cd222066f2b59d3fcec1fc3c228aa",
+  "dataSnapshotSHA256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+  "hashMethod": "SHA256 of UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "childSnapshots": [
+    {
+      "id": "q-766",
+      "sha256": "f6ea889768f10a34580f5d6083ec6d09d0eec91c10ab2dd9c60d94779cbb0f8a",
+      "sourceId": "src-gemini-more-048",
+      "sourceURL": "https://share.gemini.google/h1wbwCp8gYgo",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    },
+    {
+      "id": "q-767",
+      "sha256": "c75643848eaf8c74961c2c15ab28b5ecc489e90a282fb6f4a95063508dc102b0",
+      "sourceId": "src-gemini-more-048",
+      "sourceURL": "https://share.gemini.google/h1wbwCp8gYgo",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "q-766",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    },
+    {
+      "id": "q-767",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    }
+  ],
+  "representativeSubject": "History",
+  "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+  "commonMaterialSource": "Verified review and matching latest published child objects; no new text/answers/images",
+  "sourceAIImagesAdded": false,
+  "newArtProduced": false,
+  "notes": [
+    "All child object fields remain unchanged except optional originalQuestionNumber addition.",
+    "Parent teachingComic only supports the old renderer; the grouped renderer must show each child comic once.",
+    "Draft only. No shared bank, aliases, flags or published assets were mutated."
+  ],
+  "draftSHA256": "cbd644da9a7f0d2efb75f340ad6f81a3542b07f19b8267f227c271a5e8d1d6b5"
+}

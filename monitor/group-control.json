@@ -1,5 +1,9 @@
 {
-  "state": "preparing_compatibility",
-  "detail": "題組完整稿可先交佇列；目前準備多子題顯示、各子四格與既有FLAG／疑義／每日進度相容，驗收前不覆正式題庫。",
-  "updatedAt": "2026-10-29T13:09:28.737696+00:00"
+  "state": "ready",
+  "detail": "新題面一律從3一般開始，不承接舊子題FLAG；完整稿通過兩路自行版面驗收後，由整合線直接批次加入。",
+  "updatedAt": "2026-10-29T13:46:36.081932+00:00",
+  "evidence": [
+    "docs/imports/group-review/group-mark-ui-validation.json",
+    "docs/imports/group-review/integration-readiness-lane1.json"
+  ]
 }

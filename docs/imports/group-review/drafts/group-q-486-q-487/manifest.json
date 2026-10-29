@@ -1,0 +1,140 @@
+{
+  "groupId": "group-q-486-q-487",
+  "producerAgent": "/root/comic_lane_3",
+  "createdAt": "2026-10-29T13:21:40.942572+00:00",
+  "questionIds": [
+    "q-486",
+    "q-487"
+  ],
+  "retainId": "q-486",
+  "displayOrder": [
+    "q-486",
+    "q-487"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-486-q-487/question.json",
+  "childCoverage": [
+    "q-486",
+    "q-487"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-486.json",
+  "reviewSHA256": "cd7e07a36ecd11ddb023c0c6a17cde424edc4b1c4d5506ff65a866727ebc9c4f",
+  "dataSnapshotSHA256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+  "hashMethod": "SHA256 of UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "childSnapshots": [
+    {
+      "id": "q-486",
+      "sha256": "1f027a5baec1b6132e49dc6655ff77e3fc5d50eac732c356feb5b98e0d2bec90",
+      "sourceId": "src-gemini-more-014",
+      "sourceURL": "https://share.gemini.google/i3AiUoByWkyB",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    },
+    {
+      "id": "q-487",
+      "sha256": "ab1b89c53e466ea71461c5a5522511234ec111a7d118b353405297dec46ea229",
+      "sourceId": "src-gemini-more-014",
+      "sourceURL": "https://share.gemini.google/i3AiUoByWkyB",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "q-486",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    },
+    {
+      "id": "q-487",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    }
+  ],
+  "representativeSubject": "Chinese",
+  "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+  "commonMaterialSource": "Verified review and matching latest published child objects; no new text/answers/images",
+  "sourceAIImagesAdded": false,
+  "newArtProduced": false,
+  "notes": [
+    "All child object fields remain unchanged except optional originalQuestionNumber addition.",
+    "Parent teachingComic only supports the old renderer; the grouped renderer must show each child comic once.",
+    "Draft only. No shared bank, aliases, flags or published assets were mutated."
+  ],
+  "draftSHA256": "c49a8dc367643f55bfd6c1870bd92f5a6862adcecea32d14ddfdc13025481fe9"
+}

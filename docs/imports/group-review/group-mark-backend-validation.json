@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-29T13:40:09.040011+00:00",
+  "command": "node --test --test-timeout=10000 site/tests/group-marks.test.mjs site/tests/article-flags.test.mjs",
+  "passed": 32,
+  "failed": 0,
+  "newGroupTests": 17,
+  "noRealCloudAccess": true,
+  "fakeAccountsOnly": true,
+  "rawChildrenPreservedAcrossGroupRoutes": true,
+  "explicitGroupOverridesLegacyChildFive": true,
+  "revisionScopedIntent": true,
+  "originalPracticeUUIDsAndSignedDeltasPreserved": true,
+  "aggregationCreatesNoEvents": true,
+  "localFifthFieldRollbackTested": true,
+  "privateAccountIsolationTested": true,
+  "offlineReloadRetryAndSlowAcknowledgementTested": true,
+  "oldV2CapabilityFallbackTested": true,
+  "longRevisionRequestByteLimitTested": true,
+  "codeSHA256": {
+    "site/dist/article-flags.js": "20a2a371c218f18f647be24a7a6a17eec64ff584a9bd0812572ffdd520345c73",
+    "site/dist/flag-protocol.js": "8f7ba9cf7c8bdafffd49942a34e5120eb85e1afffbd92939002f2ad7c2c47309",
+    "site/dist/flag-sync.js": "3c500c2fe5df70d95c10fccd145ae1920061d299dd9d042229f56708256d3278",
+    "site/dist/group-marks.js": "3dc2398386e3070edc330caab307dc0b7cc22995db56fb2ed085b351ae951fef",
+    "netlify/lib/article-marks.mjs": "fe7a7a8379496a6f70e0f56331a6037df415f4ee8564b216f95320bd58fc45ca",
+    "site/tests/group-marks.test.mjs": "75623f5a8084202e8ba130511339611f31fd2031078c966a1102e52ce118a764"
+  }
+}

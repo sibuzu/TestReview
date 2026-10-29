@@ -3,6 +3,7 @@ import argparse
 import copy
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -83,9 +84,12 @@ def build(group_id, title):
                   images=unique([i for q in originals.values() for i in q.get('images', [])]),
                   explanationFigures=unique([f for q in originals.values() for f in q.get('explanationFigures', [])]),
                   optionAnalysis=[], correctOption='')
+    if basis.get('commonOptionBank'):
+        parent['commonOptionBank'] = copy.deepcopy(basis['commonOptionBank'])
     def section(qid):
         number = numbers.get(qid)
-        return f'【原第{number}題｜{originals[qid]["title"]}】' if number else f'【{originals[qid]["title"]}】'
+        unit = '項' if number and re.search(r'第\s*' + re.escape(str(number)) + r'\s*項', originals[qid]['title']) else '題'
+        return f'【原第{number}{unit}｜{originals[qid]["title"]}】' if number else f'【{originals[qid]["title"]}】'
     for field in ['question', 'answer', 'explanation', 'studentAnswer', 'trap']:
         parent[field] = '\n\n'.join(section(qid) + '\n' + originals[qid][field] for qid in order if originals[qid].get(field))
     parent['tags'] = unique([tag for q in originals.values() for tag in q.get('tags', [])])
@@ -112,7 +116,7 @@ def build(group_id, title):
         snapshots.append({'id': qid, 'sha256': sha(original), 'sourceId': original['sourceId'],
                           'sourceURL': sources[original['sourceId']]['url'], 'sourcePath': 'site/dist/data.json',
                           'fieldNames': sorted(original)})
-    assert parent['teachingComic'] == originals[job['retainId']]['teachingComic']
+    assert parent.get('teachingComic') == originals[job['retainId']].get('teachingComic')
     out = ROOT / 'docs/imports/group-review/drafts' / group_id
     out.mkdir(parents=True, exist_ok=True)
     draft_path = out / 'question.json'

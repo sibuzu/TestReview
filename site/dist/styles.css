@@ -72,3 +72,5 @@
 
 /* Fixed list view. The two icon controls sit above the first question. */
 #question-tools{display:flex;justify-content:space-between;align-items:flex-end;gap:12px 20px;flex-wrap:wrap}#flag-filters{flex:1 1 260px;max-width:520px;min-width:0}#flag-filters .flag-filter-table{width:100%}.list-order{display:flex;gap:6px;margin-left:auto;flex-shrink:0}.list-order button{width:40px;height:40px;display:grid;place-items:center;padding:8px;border:1px solid transparent;border-radius:6px;color:#8b9886}.list-order button[aria-pressed="true"]{color:var(--green);background:#eaf0e5;border-color:#dce5d6}.list-order button:hover{background:#edf1e8}.list-order-icon{display:block;width:24px;height:24px}@media(max-width:760px){#flag-filters{flex-basis:100%;max-width:none}}
+
+.group-question h2,.group-answer h2{font-size:18px;line-height:1.6;margin:8px 0}.group-question+.group-question,.group-answer+.group-answer{border-top:1px solid var(--line);margin-top:18px;padding-top:14px}.group-child-source{color:var(--muted);font-size:11px}.group-child-source a{text-decoration:underline;text-underline-offset:3px}

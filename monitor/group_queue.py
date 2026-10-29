@@ -29,6 +29,12 @@ def local_file(root, relative):
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def viewed_image(root, relative):
+    path=Path(relative)
+    if path.is_absolute() and path.resolve().is_relative_to(Path('/tmp/weirugo-group-checks')) and path.suffix.lower() in {'.png','.jpg','.webp'} and path.is_file() and not path.is_symlink():
+        return path
+    return local_file(root,relative)
+
 @contextmanager
 def edit(root=ROOT):
     lock = root/'.cache/locks/group-queue.lock'
@@ -272,7 +278,38 @@ def integration(group_id, agent, done=False, root=ROOT):
         else:
             if group['state'] != 'ready':
                 raise ValueError('A complete, handed-off draft is required.')
+            if queue.get('requireLayoutQA') and group.get('qaState')!='complete':
+                raise ValueError('The merged layout must pass technical and actual visual review first.')
+            control=root/'monitor/group-control.json'
+            if control.exists() and read(control).get('state') not in {'ready','complete'}:
+                raise ValueError('The group UI and mark-compatibility framework is still under validation.')
+            if group.get('qaReport'):
+                proof=local_file(root,group['qaReport'])
+                if digest(proof)!=group.get('qaReportSHA256'):raise ValueError('Layout review changed after acceptance.')
+                for relative,sha in read(proof).get('renderCodeSHA256',{}).items():
+                    if digest(local_file(root,relative))!=sha:raise ValueError('Rendered code changed after QA.')
             group.update(state='integrating', integrator=agent, integrationStartedAt=now())
+        return group
+
+def layout_qa(group_id, agent, report_path=None, root=ROOT):
+    with edit(root) as queue:
+        group=next(g for g in queue['groups'] if g['id']==group_id)
+        if group['state']!='ready' or group.get('owner')!=agent:
+            raise ValueError('The draft owner reviews its ready group layout.')
+        if report_path is None:
+            if any(g.get('qaState')=='running' and g.get('qaOwner')==agent and g['id']!=group_id for g in queue['groups']):
+                raise ValueError('Finish the current layout review first.')
+            group.update(qaState='running',qaOwner=agent,qaStartedAt=now())
+        else:
+            path=local_file(root,report_path);report=read(path)
+            if group.get('qaState') not in {'running','complete'} or group.get('qaOwner')!=agent:
+                raise ValueError('Claim the layout review first.')
+            if report.get('groupId')!=group_id or report.get('passed') is not True or set(report.get('childCoverage',[]))!=set(group['questionIds']) or not report.get('actualViewed'):
+                raise ValueError('A passed technical and actual-view child-coverage report is required.')
+            for relative in report['actualViewed']:viewed_image(root,relative)
+            for relative,sha in report.get('renderCodeSHA256',{}).items():
+                if digest(local_file(root,relative))!=sha:raise ValueError('Rendered code changed; repeat the affected QA.')
+            group.update(qaState='complete',qaCompletedAt=now(),qaReport=report_path,qaReportSHA256=digest(path))
         return group
 
 def main():
@@ -280,14 +317,15 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     sub.add_parser('init').add_argument('--inventory', default='docs/imports/group-review/inventory-v1.json')
     sub.add_parser('status')
-    for name in ('claim-review', 'review', 'claim-merge', 'stage', 'begin', 'integrated', 'reported'):
+    for name in ('claim-review', 'review', 'claim-merge', 'stage', 'begin', 'integrated', 'reported', 'qa-begin','qa-done'):
         cmd = sub.add_parser(name)
         cmd.add_argument('--agent', required=True)
         if name == 'claim-review': cmd.add_argument('--candidate')
         if name == 'review':
             cmd.add_argument('--report', required=True)
             cmd.add_argument('--existing', action='store_true')
-        if name in ('stage', 'begin', 'integrated'): cmd.add_argument('--group', required=True)
+        if name in ('stage', 'begin', 'integrated','qa-begin','qa-done'): cmd.add_argument('--group', required=True)
+        if name=='qa-done':cmd.add_argument('--report',required=True)
         if name == 'stage': cmd.add_argument('--manifest', required=True)
     args = parser.parse_args()
     if args.command == 'init': result = initialize(args.inventory)
@@ -297,6 +335,8 @@ def main():
     elif args.command == 'claim-merge': result = claim_merge(args.agent)
     elif args.command == 'stage': result = stage_group(args.group, args.manifest, args.agent)
     elif args.command == 'reported': result = reported_summary(args.agent)
+    elif args.command == 'qa-begin': result = layout_qa(args.group,args.agent)
+    elif args.command == 'qa-done': result = layout_qa(args.group,args.agent,args.report)
     else: result = integration(args.group, args.agent, args.command == 'integrated')
     print(json.dumps(result, ensure_ascii=False, indent=2))
 

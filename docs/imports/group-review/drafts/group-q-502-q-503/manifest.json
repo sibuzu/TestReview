@@ -1,0 +1,140 @@
+{
+  "groupId": "group-q-502-q-503",
+  "producerAgent": "/root/comic_lane_3",
+  "createdAt": "2026-10-29T13:22:26.485608+00:00",
+  "questionIds": [
+    "q-502",
+    "q-503"
+  ],
+  "retainId": "q-502",
+  "displayOrder": [
+    "q-502",
+    "q-503"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-502-q-503/question.json",
+  "childCoverage": [
+    "q-502",
+    "q-503"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-502.json",
+  "reviewSHA256": "25352a8f28c28aefb7f8f4198ba9d24ade331ab7fad1666358720a84b706663c",
+  "dataSnapshotSHA256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+  "hashMethod": "SHA256 of UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "childSnapshots": [
+    {
+      "id": "q-502",
+      "sha256": "c2d68a5451b0c8a4ce8e24007841704d62bff83d8dfeb1cbdefe9d9f395b1e8b",
+      "sourceId": "src-gemini-more-017",
+      "sourceURL": "https://share.gemini.google/1P48K0fgDy6p",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    },
+    {
+      "id": "q-503",
+      "sha256": "34731e6919885afa5f33ed199e6c2b413e8049fdb2d322c95f15830b5aaa5f26",
+      "sourceId": "src-gemini-more-017",
+      "sourceURL": "https://share.gemini.google/1P48K0fgDy6p",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "q-502",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    },
+    {
+      "id": "q-503",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    }
+  ],
+  "representativeSubject": "Chinese",
+  "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+  "commonMaterialSource": "Verified review and matching latest published child objects; no new text/answers/images",
+  "sourceAIImagesAdded": false,
+  "newArtProduced": false,
+  "notes": [
+    "All child object fields remain unchanged except optional originalQuestionNumber addition.",
+    "Parent teachingComic only supports the old renderer; the grouped renderer must show each child comic once.",
+    "Draft only. No shared bank, aliases, flags or published assets were mutated."
+  ],
+  "draftSHA256": "fd126699aa64ac8c9e4e62d7fe8761d88c99bef9558ebbe1f3d35d7a1f1b8ca0"
+}

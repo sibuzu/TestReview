@@ -1,0 +1,34 @@
+{
+  "groupId": "group-q-366-q-367",
+  "reviewerAgent": "/root/comic_lane_2",
+  "passed": true,
+  "checkedAt": "2026-10-29T13:52:38.232393+00:00",
+  "childCoverage": [
+    "q-366",
+    "q-367"
+  ],
+  "actualViewed": [
+    "/tmp/weirugo-group-checks/q-366-q-366-app-1440.png",
+    "/tmp/weirugo-group-checks/q-366-q-367-app-1440.png",
+    "/tmp/weirugo-group-checks/q-366-q-366-app-390.png",
+    "/tmp/weirugo-group-checks/q-366-q-367-app-390.png"
+  ],
+  "technicalValidation": "docs/imports/group-review/qa/group-q-366-q-367-validation.json",
+  "technicalValidationSHA256": "60c834ebf54c9f2036770a6fa82f761e7e77a46727c525018514c6f3b22a0b54",
+  "renderCodeSHA256": {
+    "site/dist/app.js": "e8737ca5a6897cac869e9e444a1b0c6e98dddc946b5322bf6628e449708d7a73",
+    "site/dist/core.js": "b61d14105857006c9866e434fa0a55915e5619f3ecd7a228a47357c1796640c5",
+    "site/dist/styles.css": "d8b3b7c6548c73153b2a4e6eb0a5d9e11f127625d7aca3cff45b635c5ad20d7b",
+    "site/dist/teaching-comic.js": "337b223c83a1f5111bc3de664f9762c8c70d467738f4b6553d95bd6f9c575b53",
+    "site/dist/comic.css": "2c7f466cb66a21ae4c97774f3bd957a81dfd0ba59ddf00d00d18fe1e335f6488",
+    "site/dist/comic-wrap.js": "5de6877f45ac9da0e310cedb64ba6af9413574906b80788141fc083fa9e3f986",
+    "site/scripts/build_review_page.py": "e1965bb6dcef086cdc10f18914147db3c9f0c114d765595e1ad4eaa6232df1c7"
+  },
+  "desktopMobileActuallyViewed": true,
+  "notes": [
+    "已逐子實看app1440與390漫畫，四格文字/圖片清晰、無裁切重疊、行高與列高符合規則。",
+    "原本無漫畫之子題另實看題文及答案/選項分析表格桌手機截圖；未補造漫畫。",
+    "技術工具另檢查app及standalone三寬、預設收合、完整題幹/答案/解說/來源、所有漫畫與載入/換行/溢出。",
+    "僅shadow預覽及本機QA檔，未改正式題庫/個人標記。"
+  ]
+}

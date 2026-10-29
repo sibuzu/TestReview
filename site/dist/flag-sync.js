@@ -1,6 +1,7 @@
 import {accountEndpoint} from './account-policy.js';
 import {checkedFlagOperations,flagOperationKey} from './flag-protocol.js';
 import {checkedFlags,checkedPractice} from './article-flags.js';
+import {checkedGroupFlags} from './group-marks.js';
 export const FLAG_OUTBOX_KEY='weirugo:flag-outbox:v1';
 export const DOUBT_OUTBOX_KEY='weirugo:doubt-outbox:v1';
 
@@ -20,19 +21,20 @@ export class FlagSync{
  importLocalUnknown(){
   const local=this.getLocal(),remote=new Set(this.snapshot.map(flagOperationKey));
   const operations=[...Object.entries(checkedFlags(local.flags||{})).map(([id,value])=>({kind:'flag',id,value})),
-   ...(local.doubts||[]).map(id=>({kind:'doubt',id,on:true})),...checkedPractice(local.practice||[]).map(event=>({kind:'practice',...event}))];
+   ...checkedGroupFlags(local.groupFlags||[]).map(record=>({kind:'groupFlag',...record})),...(local.doubts||[]).map(id=>({kind:'doubt',id,on:true})),...checkedPractice(local.practice||[]).map(event=>({kind:'practice',...event}))];
   for(const op of checkedFlagOperations(operations)){const key=flagOperationKey(op);if(!remote.has(key)&&!this.pending.has(key))this.pending.set(key,{...op,seq:++this.sequence});}
   this.persist();
  }
  publish(){
   const all=new Map(this.snapshot.map(op=>[flagOperationKey(op),op]));for(const op of this.pending.values())all.set(flagOperationKey(op),op);
-  const flags={},doubts=[],practice=[];
+  const flags={},doubts=[],practice=[],groupFlags=[];
   for(const op of all.values()){
    if(op.kind==='flag')flags[op.id]=op.value;
+   if(op.kind==='groupFlag')groupFlags.push({id:op.id,value:op.value,revision:op.revision,operationId:op.operationId});
    if(op.kind==='doubt'&&op.on)doubts.push(op.id);
    if(op.kind==='practice')practice.push({id:op.id,day:op.day,eventId:op.eventId,delta:op.delta});
   }
-  this.apply({flags:checkedFlags(flags),doubts:doubts.sort(),practice:checkedPractice(practice)});
+  this.apply({flags:checkedFlags(flags),groupFlags:checkedGroupFlags(groupFlags),doubts:doubts.sort(),practice:checkedPractice(practice)});
  }
  refresh(){
   if(this.localOnly){this.available=false;this.status('local');return Promise.resolve();}
@@ -55,15 +57,20 @@ export class FlagSync{
    if(response.status!==304){
     if(!response.ok)throw Error('Cloud unavailable');
     const body=await response.json();this.serverVersion=body.schemaVersion;
-    if(this.serverVersion===2){this.snapshot=checkedFlagOperations(body.marks);this.serverKinds=['flag','doubt','practice'];}
+    if(this.serverVersion===2){this.snapshot=checkedFlagOperations(body.marks);this.serverKinds=(Array.isArray(body.kinds)?body.kinds:['flag','doubt','practice']).filter(kind=>['flag','groupFlag','doubt','practice'].includes(kind));}
     else if(this.serverVersion===1){this.snapshot=checkedFlagOperations(body.marks.filter(op=>op.kind==='doubt'));this.serverKinds=['doubt'];}
     else throw Error('Unsupported version');
     this.etag=response.headers.get('ETag')||'';
    }
    this.importLocalUnknown();this.publish();
    while(this.pending.size){
-    const batch=[...this.pending.values()].filter(op=>this.serverKinds.includes(op.kind)).slice(0,100);if(!batch.length)break;
-    const sent=batch.map(({seq,...op})=>op);
+    const batch=[],sent=[];
+    for(const pending of [...this.pending.values()].filter(op=>this.serverKinds.includes(op.kind)).slice(0,100)){
+     const {seq,...op}=pending;
+     if(JSON.stringify({schemaVersion:this.serverVersion,operations:[...sent,op]}).length>16384)break;
+     batch.push(pending);sent.push(op);
+    }
+    if(!batch.length)break;
     const response=await this.request({method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({schemaVersion:this.serverVersion,operations:sent})});
     if(!response.ok)throw Error('Cloud write failed');
     const ack=await response.json(),applied=checkedFlagOperations(ack.applied,100);

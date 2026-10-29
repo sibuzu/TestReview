@@ -1,0 +1,140 @@
+{
+  "groupId": "group-q-541-q-542",
+  "producerAgent": "/root/comic_lane_3",
+  "createdAt": "2026-10-29T13:23:59.257176+00:00",
+  "questionIds": [
+    "q-541",
+    "q-542"
+  ],
+  "retainId": "q-541",
+  "displayOrder": [
+    "q-541",
+    "q-542"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-541-q-542/question.json",
+  "childCoverage": [
+    "q-541",
+    "q-542"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-541.json",
+  "reviewSHA256": "1447bcd182f8b545e3ecb604572ab5cae10021d37a386153df06eb838b950a8b",
+  "dataSnapshotSHA256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+  "hashMethod": "SHA256 of UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "childSnapshots": [
+    {
+      "id": "q-541",
+      "sha256": "407c15e02b9e8a2d0027ac243190c99c9121f897802af838549d30ede8d0714b",
+      "sourceId": "src-gemini-more-024",
+      "sourceURL": "https://share.gemini.google/VAh0FUGIfRrM",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    },
+    {
+      "id": "q-542",
+      "sha256": "a3da188f19fdfa3e335bd3f3e8664230446e91737b8fde6b11479d292ffa3cb7",
+      "sourceId": "src-gemini-more-024",
+      "sourceURL": "https://share.gemini.google/VAh0FUGIfRrM",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "q-541",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    },
+    {
+      "id": "q-542",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    }
+  ],
+  "representativeSubject": "Chinese",
+  "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+  "commonMaterialSource": "Verified review and matching latest published child objects; no new text/answers/images",
+  "sourceAIImagesAdded": false,
+  "newArtProduced": false,
+  "notes": [
+    "All child object fields remain unchanged except optional originalQuestionNumber addition.",
+    "Parent teachingComic only supports the old renderer; the grouped renderer must show each child comic once.",
+    "Draft only. No shared bank, aliases, flags or published assets were mutated."
+  ],
+  "draftSHA256": "33919d5085a4aa46cb881007ff7323d728165f57db3bc28042df25d2907a8cd1"
+}

@@ -1,0 +1,67 @@
+{
+  "groupId": "group-q-063-q-427",
+  "reviewerAgent": "/root/comic_lane_3",
+  "passed": true,
+  "checkedAt": "2026-10-29T13:41:23.647023+00:00",
+  "childCoverage": [
+    "q-063",
+    "q-427"
+  ],
+  "actualViewed": [
+    "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-063-app-1440.png",
+    "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-427-app-1440.png",
+    "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-063-app-390.png",
+    "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-427-app-390.png"
+  ],
+  "actualViewCoverage": [
+    {
+      "childId": "q-063",
+      "width": 1440,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-063-app-1440.png"
+    },
+    {
+      "childId": "q-427",
+      "width": 1440,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-427-app-1440.png"
+    },
+    {
+      "childId": "q-063",
+      "width": 390,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-063-app-390.png"
+    },
+    {
+      "childId": "q-427",
+      "width": 390,
+      "mode": "app",
+      "actuallyViewed": true,
+      "screenshot": "docs/comics/qa/group-review/group-q-063-q-427/q-063-q-427-app-390.png"
+    }
+  ],
+  "automatedValidation": "docs/imports/group-review/qa/group-q-063-q-427-validation.json",
+  "automatedValidationSHA256": "41ea9e9d0f58123e4f0c7effe403e9ab473a967e565302d7efdd823b0c4d573d",
+  "automatedLayouts": 6,
+  "appAndStandaloneTechnicalPassed": true,
+  "allChildComicsChecked": true,
+  "visualNotes": "已實看原51/52兩子app1440與390共四張；兩套SVG及D/A答案分明，桌機同列等高、手機逐格等寬自然高，姓名與圳名未截斷。",
+  "renderCodeSHA256": {
+    "site/dist/app.js": "e8737ca5a6897cac869e9e444a1b0c6e98dddc946b5322bf6628e449708d7a73",
+    "site/dist/styles.css": "d8b3b7c6548c73153b2a4e6eb0a5d9e11f127625d7aca3cff45b635c5ad20d7b",
+    "site/dist/comic.css": "2c7f466cb66a21ae4c97774f3bd957a81dfd0ba59ddf00d00d18fe1e335f6488",
+    "site/dist/comic-wrap.js": "5de6877f45ac9da0e310cedb64ba6af9413574906b80788141fc083fa9e3f986",
+    "site/dist/teaching-comic.js": "337b223c83a1f5111bc3de664f9762c8c70d467738f4b6553d95bd6f9c575b53",
+    "site/dist/core.js": "b61d14105857006c9866e434fa0a55915e5619f3ecd7a228a47357c1796640c5",
+    "site/dist/group-materials.js": "6ecaba0abe6bc964d4b397480524c5f6b090bb1084cc6d24e99af746c6ffdfa0",
+    "site/scripts/build_review_page.py": "e1965bb6dcef086cdc10f18914147db3c9f0c114d765595e1ad4eaa6232df1c7",
+    "site/scripts/group_review_html.py": "61e2074531e2392dec4f5371378bbe0c0369a179965bf9018eabdb0f1bc88d88",
+    "site/scripts/teaching_comic.py": "ce4836a614a8bed590ca21934f8fa1f8c4002d8779a61072c7569f620d0609cd"
+  },
+  "technicalCheckerSHA256": "7480bb242a5325f44b24fe30cff95d36591eb0a4e318e3d196149799398f6b1b",
+  "personalCloudRequestsAborted": true,
+  "sharedBankEdited": false
+}

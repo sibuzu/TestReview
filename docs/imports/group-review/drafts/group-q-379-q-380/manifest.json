@@ -1,0 +1,140 @@
+{
+  "groupId": "group-q-379-q-380",
+  "producerAgent": "/root/comic_lane_3",
+  "createdAt": "2026-10-29T13:19:18.866117+00:00",
+  "questionIds": [
+    "q-379",
+    "q-380"
+  ],
+  "retainId": "q-379",
+  "displayOrder": [
+    "q-379",
+    "q-380"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-379-q-380/question.json",
+  "childCoverage": [
+    "q-379",
+    "q-380"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-379.json",
+  "reviewSHA256": "bb1649df5feee165750055c2643044e4e973e734a5882523c3b69c3480781325",
+  "dataSnapshotSHA256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+  "hashMethod": "SHA256 of UTF-8 canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "childSnapshots": [
+    {
+      "id": "q-379",
+      "sha256": "ec326df84104e18fc7bbdcb8995f1a2c2de5273a3d916fffac9200880f4edc02",
+      "sourceId": "src-more-009",
+      "sourceURL": "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    },
+    {
+      "id": "q-380",
+      "sha256": "e85129d7566ce2fd3421f775e920e458444eb4058c5e9d670eb130350c784f28",
+      "sourceId": "src-more-009",
+      "sourceURL": "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14",
+      "sourcePath": "site/dist/data.json",
+      "fieldNames": [
+        "addedAt",
+        "answer",
+        "chapter",
+        "contentStatus",
+        "correctOption",
+        "date",
+        "dateLabel",
+        "diagram",
+        "explanation",
+        "explanationFigures",
+        "id",
+        "images",
+        "notes",
+        "optionAnalysis",
+        "passage",
+        "question",
+        "questionFigures",
+        "sourceId",
+        "sourceLabel",
+        "starred",
+        "status",
+        "studentAnswer",
+        "subject",
+        "tables",
+        "tags",
+        "teachingComic",
+        "title",
+        "trap",
+        "verification",
+        "verificationNote",
+        "volume"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "q-379",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 3
+    },
+    {
+      "id": "q-380",
+      "fullObjectPreserved": true,
+      "originalQuestionPreserved": true,
+      "allOptionsPreserved": true,
+      "answerPreserved": true,
+      "explanationPreserved": true,
+      "allFiguresAndTablesPreserved": true,
+      "ownComicPreserved": true,
+      "assetFilesChecked": 4
+    }
+  ],
+  "representativeSubject": "Geography",
+  "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+  "commonMaterialSource": "Verified review and matching latest published child objects; no new text/answers/images",
+  "sourceAIImagesAdded": false,
+  "newArtProduced": false,
+  "notes": [
+    "All child object fields remain unchanged except optional originalQuestionNumber addition.",
+    "Parent teachingComic only supports the old renderer; the grouped renderer must show each child comic once.",
+    "Draft only. No shared bank, aliases, flags or published assets were mutated."
+  ],
+  "draftSHA256": "e8715c4d7334d68c51416921c42c72626096282003461e6440d2247c66691d40"
+}

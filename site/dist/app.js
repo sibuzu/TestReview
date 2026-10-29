@@ -3,16 +3,19 @@ import {escapeHTML as e,renderText,safeAsset,selectQuestions,needsReview} from '
 import {parseRoute,questionHash,listHash} from './routes.js';
 import {DOUBTS_KEY,loadDoubts} from './marks.js';
 import {FlagSync,FLAG_OUTBOX_KEY} from './flag-sync.js';
-import {hasQuestionMark,toggleQuestionMark,canonicalQuestionId} from './question-identity.js';
+import {hasQuestionMark,toggleQuestionMark,canonicalQuestionId,canonicalMarkQuestionId,equivalentQuestionIds} from './question-identity.js';
 import {FLAGS_KEY,PRACTICE_KEY,FLAG_OPTIONS,DEFAULT_FLAG,checkedFlags,checkedPractice,changedFlag,persistFlagState,discardLegacyMarks,flagIcon,practiceDay,dailyCounts} from './article-flags.js';
 import {formatDataUpdatedAt} from './data-updated.js';
 import {SESSION_KEY,readSession,restoreSession,signIn,signOut,accountStorage} from './auth.js';
 import {QuestionOrder} from './question-order.js';
+import {childMaterials} from './group-materials.js';
+import {QUESTION_GROUPS} from './question-group-data.js';
+import {GROUP_FLAGS_KEY,checkedGroupFlags,effectiveFlag,changedGroupFlag} from './group-marks.js';
 const $=id=>document.getElementById(id);
-let data,filters={subject:'',issue:false,doubt:false},page='questions',activeId='',toastTimer,doubts=new Set(),flags={},practice=[];
+let data,filters={subject:'',issue:false,doubt:false},page='questions',activeId='',toastTimer,doubts=new Set(),flags={},practice=[],groupFlags=[];
 let selectedFlags=new Set([3,4,5]),markSync,session,userStorage;
 const ordering=new QuestionOrder();
-const flagFor=id=>flags[canonicalQuestionId(id)]??DEFAULT_FLAG;
+const flagFor=id=>effectiveFlag(flags,groupFlags,canonicalQuestionId(id));
 const scopedQuestions=(questions,selection={})=>ordering.order(selectQuestions(questions.filter(q=>selectedFlags.has(flagFor(q.id))),{subject:selection.subject||'',doubt:!!selection.doubt,issue:!!selection.issue,sort:'newest'}));
 const icon={all:'▦',source:'↙',issue:'◷',progress:'▤'};
 function toast(message){$('toast').textContent=message;$('toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('show'),3500);}
@@ -29,26 +32,29 @@ function refreshMarkButtons(){
  if(button){button.classList.toggle('selected',doubt);button.setAttribute('aria-pressed',doubt);button.setAttribute('aria-label',doubt?'取消疑義標記':'標記疑義，待老師確認');button.title=doubt?'已標記疑義，點擊取消':'標記疑義，待老師確認';}
 }
 function applySyncedMarks(incoming){
- const nextFlags=checkedFlags(incoming.flags||{}),nextPractice=checkedPractice(incoming.practice||[]),nextDoubts=[...incoming.doubts].sort();
- if(JSON.stringify(flags)===JSON.stringify(nextFlags)&&JSON.stringify(practice)===JSON.stringify(nextPractice)&&JSON.stringify([...doubts].sort())===JSON.stringify(nextDoubts))return;
- try{persistFlagState(userStorage,nextFlags,nextPractice,nextDoubts);}catch{toast('瀏覽器無法儲存標記，請檢查儲存空間。');}
- flags=nextFlags;practice=nextPractice;doubts=new Set(nextDoubts);for(const q of data.questions)q.doubted=hasQuestionMark(doubts,q.id);
+ const nextGroups=checkedGroupFlags(incoming.groupFlags||[]),nextFlags=checkedFlags(incoming.flags||{}),nextPractice=checkedPractice(incoming.practice||[]),nextDoubts=[...incoming.doubts].sort();
+ if(JSON.stringify(groupFlags)===JSON.stringify(nextGroups)&&JSON.stringify(flags)===JSON.stringify(nextFlags)&&JSON.stringify(practice)===JSON.stringify(nextPractice)&&JSON.stringify([...doubts].sort())===JSON.stringify(nextDoubts))return;
+ try{persistFlagState(userStorage,nextFlags,nextPractice,nextDoubts,nextGroups);}catch{toast('瀏覽器無法儲存標記，請檢查儲存空間。');}
+ flags=nextFlags;groupFlags=nextGroups;practice=nextPractice;doubts=new Set(nextDoubts);for(const q of data.questions)q.doubted=hasQuestionMark(doubts,q.id);
  render();refreshMarkButtons();
 }
 function setArticleFlag(id,value){
- const key=canonicalQuestionId(id);if(flagFor(key)===value)return;
+ const key=canonicalQuestionId(id),group=QUESTION_GROUPS[key];
+ const explicit=group&&groupFlags.some(row=>row.id===key&&row.revision===group.revision&&row.value===value);
+ if(flagFor(key)===value&&(!group||explicit))return;
  const oldEvents=new Set(practice.map(event=>event.eventId));let next;
- try{next=changedFlag(flags,practice,key,value);persistFlagState(userStorage,next.flags,next.practice,[...doubts]);}
+ try{next=group?changedGroupFlag(flags,groupFlags,practice,key,value):changedFlag(flags,practice,key,value);persistFlagState(userStorage,next.flags||flags,next.practice,[...doubts],next.groupFlags||groupFlags);}
  catch{toast('瀏覽器無法儲存FLAG，請檢查儲存空間。');return;}
- flags=next.flags;practice=next.practice;
- markSync?.queueAll([{kind:'flag',id:key,value},...practice.filter(event=>!oldEvents.has(event.eventId)).map(event=>({kind:'practice',...event}))]);
+ flags=next.flags||flags;groupFlags=next.groupFlags||groupFlags;practice=next.practice;
+ markSync?.queueAll([next.operation||{kind:'flag',id:key,value},...practice.filter(event=>!oldEvents.has(event.eventId)).map(event=>({kind:'practice',...event}))]);
  render();refreshMarkButtons();toast('已設定為「'+value+' '+FLAG_OPTIONS[value-1].label+'」');
 }
 function toggleDoubt(id){
  const next=toggleQuestionMark(doubts,id),on=hasQuestionMark(next,id);
- try{persistFlagState(userStorage,flags,practice,[...next]);}catch{toast('瀏覽器無法儲存疑義標記。');return;}
+ try{persistFlagState(userStorage,flags,practice,[...next],groupFlags);}catch{toast('瀏覽器無法儲存疑義標記。');return;}
  doubts=next;for(const q of data.questions)q.doubted=hasQuestionMark(doubts,q.id);
- markSync?.queueAll([{kind:'doubt',id:canonicalQuestionId(id),on}]);render();refreshMarkButtons();
+ const keys=[...new Set(equivalentQuestionIds(id).map(canonicalMarkQuestionId))],parent=canonicalMarkQuestionId(canonicalQuestionId(id));
+ markSync?.queueAll(keys.map(key=>({kind:'doubt',id:key,on:on&&key===parent})));render();refreshMarkButtons();
 }
 const doubtIcon="<svg class=\"question-mark-icon\" viewBox=\"230 65 560 900\" aria-hidden=\"true\" focusable=\"false\"><path class=\"question-shape\" d=\"M715.720415 207.522102C675.902539 136.26685 603.803606 95.397443 518.015326 95.397443c-129.594189 0-205.287984 72.306782-238.682003 195.401348-20.885213 76.845665 110.976883 131.618411 140.38594 27.173916 15.792407-56.028029 37.099461-79.499576 98.296063-79.499576 33.883437 0 58.475115 13.134401 72.864799 38.912762 15.649063 28.014526 14.18286 62.384309 3.633769 79.571248-17.119363 27.874254-35.489913 44.013758-56.72939 62.663829-44.432528 39.05201-99.619947 88.864031-99.619946 221.809398 0 70.489385 71.537844 71.537844 71.537843 71.537844 39.470779 0 71.537844-32.067064 71.537844-71.537844 0-69.581199 14.880125-82.643928 50.856384-114.224647 25.013518-21.933671 55.960452-49.11066 84.325148-95.35956 39.677604-64.691123 39.399107-152.714544-0.701362-224.324059z\"/><path class=\"question-highlight\" d=\"M670.72987 403.764058c-24.240485 39.399107-50.648535 62.595229-73.980834 83.134369-40.172141 35.210392-69.16243 60.710256-69.16243 154.531941 0 9.850801-7.965828 17.884205-17.884205 17.884205-9.850801 0-17.884205-8.033404-17.884205-17.884205 0-110.031836 39.470779-144.68114 81.316973-181.430432 22.494761-19.769178 45.759483-40.168045 67.066536-74.960692 22.355512-36.326427 21.307054-91.374598-2.514662-133.850481-23.893388-42.758475-66.436847-66.369271-119.671717-66.369271-86.768138 0-134.762763 39.12061-150.969843 123.022894-1.884973 9.711552-11.213592 16.070904-20.925144 14.182859-9.711552-1.884973-16.067832-11.245333-14.181836-20.956885 19.493753-100.879326 82.05417-152.017278 186.076823-152.017278 66.78804 0 120.368983 30.11042 150.898172 84.672245 30.32134 54.071384 31.018606 122.393204 1.816372 170.040731z\"/><path class=\"question-shape\" d=\"M513.19385 757.121218c-47.433535 0-85.859952 38.423345-85.859951 85.859952 0 47.433535 38.426416 85.859952 85.859951 85.859952 47.364935 0 85.791351-38.426416 85.791352-85.859952 0-47.436607-38.426416-85.859952-85.791352-85.859952z\"/><path class=\"question-highlight\" d=\"M513.19385 875.187483c-17.812533 0-32.206313-14.39378-32.206313-32.206313 0-17.744957 14.39378-32.206313 32.206313-32.206313 17.744957 0 32.138736 14.461356 32.138737 32.206313-0.001024 17.812533-14.39378 32.206313-32.138737 32.206313z\"/></svg>";
 function flagControls(q,position='header'){
@@ -112,7 +118,7 @@ function fullOptionAnalysis(q){
  const correct=q.correctOption||q.answer.match(/^正確答案：([A-D])/)?.[1];
  return `<section class="option-analysis" aria-label="逐項解析"><h3>逐項解析</h3><div class="option-table-wrap"><table><thead><tr><th scope="col">選項與原句</th><th scope="col">判讀</th><th scope="col">句意與判斷理由</th></tr></thead><tbody>${q.optionAnalysis.map(o=>`<tr class="${correct===o.label?'correct-option':''}"><th scope="row"><span class="choice-letter">${e(o.label)}</span>${renderText(o.text)}</th><td><strong>${e(o.wordClass)}</strong></td><td>${o.meaning?`<p>${renderText(o.meaning)}</p>`:''}<p>${renderText(o.explanation)}</p></td></tr>`).join('')}</tbody></table></div></section>`;
 }
-function questionMaterials(q){return `${q.passage?`<section class="reading-passage"><h3>作答所需文章／材料</h3><p>${renderText(q.passage)}</p></section>`:''}${(q.tables||[]).map(t=>`<div class="question-table"><table>${t.caption?`<caption>${e(t.caption)}</caption>`:''}<thead><tr>${t.headers.map(h=>`<th scope="col">${e(h)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(row=>`<tr>${row.map(cell=>`<td>${renderText(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`).join('')}${(q.questionFigures||[]).map(f=>`<figure class="question-figure"><img src="${e(safeAsset(f.src))}" alt="${e(f.alt)}">${f.caption?`<figcaption>${e(f.caption)}</figcaption>`:''}</figure>`).join('')}`;}
+function questionMaterials(q){return `${q.passage?`<section class="reading-passage"><h3>作答所需文章／材料</h3><p>${renderText(q.passage)}</p></section>`:''}${(q.tables||[]).map(t=>`<div class="question-table"><table>${t.caption?`<caption>${e(t.caption)}</caption>`:''}<thead><tr>${t.headers.map(h=>`<th scope="col">${e(h)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(row=>`<tr>${row.map(cell=>`<td>${renderText(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`).join('')}${(q.questionFigures||[]).map(f=>`<figure class="question-figure"><img src="${e(safeAsset(f.src))}" alt="${e(f.alt)}">${f.caption?`<figcaption>${e(f.caption)}</figcaption>`:''}</figure>`).join('')}${(q.sharedFigureNotes||[]).map(note=>`<p class="group-shared-figure-note">${renderText(note)}</p>`).join('')}`;}
 function explanationFigures(q){return (q.explanationFigures||[]).map(f=>`<figure class="question-figure explanation-figure${f.src.startsWith('assets/comics/')?' teaching-comic':''}"><a href="${e(safeAsset(f.src))}" target="_blank" rel="noopener noreferrer"><img src="${e(safeAsset(f.src))}" alt="${e(f.alt)}" loading="lazy"></a>${f.caption?`<figcaption>${e(f.caption)}</figcaption>`:''}</figure>`).join('');}
 function sourceEvidence(q){return `<section class="modal-source-images"><h3>原圖（僅本題）</h3>${q.images.length?q.images.map(path=>`<a class="question-evidence" href="${e(safeAsset(path))}" target="_blank" rel="noopener noreferrer"><img src="${e(safeAsset(path))}" alt="${e(q.sourceLabel||q.title)}原卷截圖" loading="lazy"></a>`).join(''):q.contentStatus==='完整原題'?'<p class="muted">'+(q.questionFigures?.length?'作答附圖已列在題目中，重繪圖已註明；此處尚無另存的原卷截圖。':'本題為文字來源，沒有原始附圖。')+'</p>':'<p class="muted">尚未取得可核對的原圖。此題保留待更新，未以推測補齊。</p>'}</section>`;}
 function reviewRequests(q,s){
@@ -120,8 +126,22 @@ function reviewRequests(q,s){
  const previous=q.reviewPreviousId?`<a href="${questionHash(q.reviewPreviousId)}" data-question-nav="${e(q.reviewPreviousId)}">← 上一個待核對題目</a>`:'',next=q.reviewNextId?`<a href="${questionHash(q.reviewNextId)}" data-question-nav="${e(q.reviewNextId)}">下一個待核對題目 →</a>`:'';
  return `<section class="review-request" aria-labelledby="review-request-title"><div class="review-request-heading"><h2 id="review-request-title">請協助核對</h2><span>${e(q.reviewLabel)}</span></div><ol>${q.reviewQuestions.map(text=>`<li>${e(text)}</li>`).join('')}</ol>${q.reviewExcerpt?`<h3>目前保存的原始輸入（未訂正）</h3><div class="review-excerpt">${e(q.reviewExcerpt)}</div>`:''}${s?`<a class="review-source-link" href="${e(s.url)}" target="_blank" rel="noopener noreferrer">開啟原始對話 ↗</a>`:''}<nav class="review-queue-links" aria-label="優先核對題目">${previous}${next}</nav></section>`;
 }
+function answerContent(q){
+ return `${q.studentAnswer?`<p class="original-response">原卷作答：<strong>${e(q.studentAnswer)}</strong></p>`:''}<h3>${renderText(q.answer||'尚未補上答案')}</h3>${fullOptionAnalysis(q)}<div class="explanation">${renderText(q.explanation)}</div>${renderTeachingComic(q.teachingComic)}${explanationFigures(q)}${q.trap?`<div class="trap"><strong>容易卡住的地方</strong><br>${renderText(q.trap)}</div>`:''}${q.verificationNote?`<p class="muted">核對註記：${e(q.verificationNote)}</p>`:''}${sourceEvidence(q)}`;
+}
+function questionContent(q){
+ if(!q.groupQuestions?.length)return `${questionMaterials(q)}<p class="detail-question">${renderText(q.question)}</p>`;
+ return questionMaterials(q)+q.groupQuestions.map(child=>`<section class="group-question" data-group-question="${e(child.id)}"><h2>${e(child.title)}</h2>${questionMaterials(childMaterials(child,q))}<p class="detail-question">${renderText(child.question)}</p></section>`).join('');
+}
+function allAnswers(q){
+ if(!q.groupQuestions?.length)return answerContent(q);
+ return q.groupQuestions.map(child=>{
+  const source=data.sources.find(s=>s.id===child.sourceId);
+  return `<section class="group-answer" data-group-answer="${e(child.id)}"><h2>${e(child.title)}</h2><p class="group-child-source">${e(child.sourceLabel||'')} · ${e(child.dateLabel||'首次出題日期')} ${e(child.date)} ${source?`· <a href="${e(source.url)}" target="_blank" rel="noopener noreferrer">原AI對話 ↗</a>`:''}</p>${answerContent(child)}</section>`;
+ }).join('');
+}
 function renderDetail(id){const q=data.questions.find(q=>q.id===id);if(!q)return;activeId=id;const s=data.sources.find(s=>s.id===q.sourceId),complete=q.contentStatus==='完整原題';
- $('detail').innerHTML=`<header class="detail-header">${markButtons(q,true)}<div class="detail-subject">${badge(q.subject)}</div><h1>${e(displayTitle(q))}</h1><div class="detail-meta"><span>${e(q.volume)} / ${e(q.chapter)}</span><span>${e(q.dateLabel||'首次出題日期')} ${q.date}</span><span>加入 ${e(q.addedAt||'未記錄')}</span></div></header><div class="detail-content">${reviewRequests(q,s)}${!complete?'<div class="verification-note">待更新：尚未按完整原題標準核對。下方保留舊資料，不代表已驗證答案。</div>':''}${questionMaterials(q)}<p class="detail-question">${renderText(q.question)}</p><button class="answer-toggle" id="answer-toggle" aria-expanded="false" data-complete="true">先想一想，再查看答案、解說與原圖 <span>＋</span></button><div class="answer-panel" id="answer-panel" hidden>${q.studentAnswer?`<p class="original-response">原卷作答：<strong>${e(q.studentAnswer)}</strong></p>`:''}<h3>${renderText(q.answer||'尚未補上答案')}</h3>${fullOptionAnalysis(q)}<div class="explanation">${renderText(q.explanation)}</div>${renderTeachingComic(q.teachingComic)}${explanationFigures(q)}${q.trap?`<div class="trap"><strong>容易卡住的地方</strong><br>${renderText(q.trap)}</div>`:''}${q.verificationNote?`<p class="muted">核對註記：${e(q.verificationNote)}</p>`:''}${sourceEvidence(q)}</div><div class="question-footer-flags">${flagControls(q,'footer')}</div>${!complete&&s?`<div class="source-bottom"><a class="source-link" href="${e(s.url)}" target="_blank" rel="noopener noreferrer">開啟 ${e(s.platform)} 原始討論 ↗</a></div>`:''}</div>`;
+ $('detail').innerHTML=`<header class="detail-header">${markButtons(q,true)}<div class="detail-subject">${badge(q.subject)}</div><h1>${e(displayTitle(q))}</h1><div class="detail-meta"><span>${e(q.volume)} / ${e(q.chapter)}</span><span>${e(q.dateLabel||'首次出題日期')} ${q.date}</span><span>加入 ${e(q.addedAt||'未記錄')}</span></div></header><div class="detail-content">${reviewRequests(q,s)}${!complete?'<div class="verification-note">待更新：尚未按完整原題標準核對。下方保留舊資料，不代表已驗證答案。</div>':''}${questionContent(q)}<button class="answer-toggle" id="answer-toggle" aria-expanded="false" data-complete="true">先想一想，再查看答案、解說與原圖 <span>＋</span></button><div class="answer-panel" id="answer-panel" hidden>${allAnswers(q)}</div><div class="question-footer-flags">${flagControls(q,'footer')}</div>${!complete&&s?`<div class="source-bottom"><a class="source-link" href="${e(s.url)}" target="_blank" rel="noopener noreferrer">開啟 ${e(s.platform)} 原始討論 ↗</a></div>`:''}</div>`;
  layoutTeachingComics($('detail'));
  updateQuestionBreadcrumb();
 }
@@ -190,13 +210,13 @@ async function start(){try{
  const response=await fetch('data.json');if(!response.ok)throw Error('題庫讀取失敗');data=await response.json();
  const updated=formatDataUpdatedAt(data.dataUpdatedAt);if(updated){$('data-updated-time').textContent=updated;$('data-updated-time').dateTime=data.dataUpdatedAt;$('data-updated').hidden=false;}
  let legacyDoubts=[];try{legacyDoubts=discardLegacyMarks(localStorage);}catch{toast('瀏覽器無法清除舊標記。');}
- try{flags=checkedFlags(JSON.parse(userStorage.getItem(FLAGS_KEY)||'{}'));practice=checkedPractice(JSON.parse(userStorage.getItem(PRACTICE_KEY)||'[]'));doubts=new Set(loadDoubts(userStorage));}catch{toast('無法讀取本機標記；題目仍可正常閱讀。');}
+ try{groupFlags=checkedGroupFlags(JSON.parse(userStorage.getItem(GROUP_FLAGS_KEY)||'[]'));flags=checkedFlags(JSON.parse(userStorage.getItem(FLAGS_KEY)||'{}'));practice=checkedPractice(JSON.parse(userStorage.getItem(PRACTICE_KEY)||'[]'));doubts=new Set(loadDoubts(userStorage));}catch{toast('無法讀取本機標記；題目仍可正常閱讀。');}
  for(const q of data.questions)q.doubted=hasQuestionMark(doubts,q.id);applyRoute();
- markSync=new FlagSync({storage:userStorage,getToken:()=>session.token,getLocal:()=>({flags,practice,doubts:[...doubts]}),apply:applySyncedMarks,status:syncStatus});
+ markSync=new FlagSync({storage:userStorage,getToken:()=>session.token,getLocal:()=>({flags,groupFlags,practice,doubts:[...doubts]}),apply:applySyncedMarks,status:syncStatus});
  if(markSync.localOnly)syncStatus('local');if(legacyDoubts.length)markSync.queueAll(legacyDoubts);
  const refresh=()=>{if(document.visibilityState!=='hidden'&&markSync.available!==false)void markSync.refresh();};
  $('sync-status').onclick=()=>{markSync.available=null;void markSync.refresh();};window.addEventListener('focus',refresh);window.addEventListener('online',()=>{markSync.available=null;refresh();});document.addEventListener('visibilitychange',refresh);
- window.addEventListener('storage',event=>{if(userStorage.ownsKey(event.key)){try{applySyncedMarks({flags:JSON.parse(userStorage.getItem(FLAGS_KEY)||'{}'),practice:JSON.parse(userStorage.getItem(PRACTICE_KEY)||'[]'),doubts:loadDoubts(userStorage)});}catch{}refresh();}});
+ window.addEventListener('storage',event=>{if(userStorage.ownsKey(event.key)){try{applySyncedMarks({groupFlags:JSON.parse(userStorage.getItem(GROUP_FLAGS_KEY)||'[]'),flags:JSON.parse(userStorage.getItem(FLAGS_KEY)||'{}'),practice:JSON.parse(userStorage.getItem(PRACTICE_KEY)||'[]'),doubts:loadDoubts(userStorage)});}catch{}refresh();}});
  setInterval(refresh,60000);refresh();
  }catch(error){$('results').innerHTML='<div class="empty"><h3>暫時無法開啟錯題本</h3><p>請重新整理頁面，或確認網站資料檔案是否完整。</p></div>';console.error(error);}}
 async function bootAuth(){

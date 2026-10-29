@@ -1,0 +1,74 @@
+{
+  "id": "q-333",
+  "subject": "Math",
+  "title": "平方比較絕對值，不能只比原數",
+  "art": "docs/comics/art/q-333.svg",
+  "startedAt": "2026-10-28T19:56:26.582226+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 原數較大，未必離0較遠",
+      "text": "取a＝−1、b＝−2。橘點a在藍點b右邊，所以a＞b；但a到灰點0的距離只有1，b的距離是2。",
+      "alt": "等距數線上藍點−2、橘點−1、灰點0由左至右，兩條距離線以相同比例顯示2與1。"
+    },
+    {
+      "heading": "② 用絕對值作邊長，看平方",
+      "text": "以絕對值作邊長，橘色正方形面積是1，藍色是4。因此a²＝1＜4＝b²，已足以推翻原敘述。",
+      "alt": "橘色邊長1單位面積1，藍色邊長2單位面積4且分成四等格，不把負數當實際邊長。"
+    },
+    {
+      "heading": "③ 平方後，也可能相等",
+      "text": "再取a＝1、b＝−1，仍有a＞b；但兩者絕對值相同，平方都是1。不能只憑a＞b，就保證a²＞b²。",
+      "alt": "兩個相同邊長與面積的橘色、藍色正方形，代表1與−1平方相等；正負號由HTML標示。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 平方後比較，要看絕對值",
+    "answer": "答案 B：×",
+    "points": [
+      "−1＞−2，但(−1)²＜(−2)²。",
+      "1＞−1，但1²＝(−1)²。",
+      "原題未限定皆非負，不能直接推出。"
+    ]
+  },
+  "protectedWords": [
+    "a＝−1",
+    "b＝−2",
+    "a＝1",
+    "b＝−1",
+    "a＞b",
+    "a²＞b²",
+    "a²＝1＜4＝b²",
+    "絕對值",
+    "正方形",
+    "平方",
+    "灰點0",
+    "(−1)²",
+    "(−2)²"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-333-source-93785e1a56.jpg"
+  ],
+  "rationale": "實看原卷命題a>b推出a²>b²及×，兩個反例與題庫相同。無字原生SVG精確呈現數線相對順序/到0距離、絕對值為邊長的平方格、同絕對值同面積，避免AI誤畫數字或負邊長，精確算式HTML。",
+  "promptSummary": "原生SVG三圖：−2/−1/0等距數線、面積1與4正方形、兩個面積1的正方形。",
+  "answerCheckedAgainst": "原卷4題×與題庫B，反例(−1,−2)及(1,−1)獨立核算一致。",
+  "artSHA256": "c671b9843fa8d57acfb58dff14ac2823ac0f61e4f017156492b87c32edaef8fa",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T20:00:42.108771+00:00",
+  "completedAt": "2026-10-28T19:57:08.866420+00:00",
+  "layoutEvidence": "docs/comics/q-333-preview-validation.json",
+  "visualReview": "實看原卷×及三寬SVG渲染：藍−2、橘−1、灰0等距次序正確；距離2/1、面積4/1格數正確；第三格兩同面積正方形對應1與−1。沒有負邊長，公式原生HTML，1440/1120/390無橫溢、公式專詞未拆，欄列及自然高度通過。",
+  "nativeArt": "assets/comics/q-333-art-c671b9843f.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-333-validation.json"
+}

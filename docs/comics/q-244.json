@@ -1,0 +1,77 @@
+{
+  "id": "q-244",
+  "subject": "Math",
+  "title": "先找BG，再用中位線求BF，最後扣BC",
+  "art": "docs/comics/art/q-244.svg",
+  "startedAt": "2026-10-28T21:56:04.742616+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 等腰梯形兩側突出，各長6",
+      "text": "由D向BC作垂線，垂足G。CG＝(24−12)÷2＝6，所以BG＝24−6＝18；腰長10不必先用上。",
+      "alt": "精確等腰梯形上底12下底24高8，兩突出段各6，右上D垂線至G，橘標突出段、紫線標BG18。"
+    },
+    {
+      "heading": "② D是中點，平行線帶出G也是中點",
+      "text": "第二格紫點D是BE中點，橘線DG平行藍線EF。依三角形中位線性質，G是BF中點，所以BF＝2×18＝36。",
+      "alt": "精確直角三角形B到F水平36、EF高16，D在斜邊中點、DG高8且G在BF中點，紫點明確標D。"
+    },
+    {
+      "heading": "③ 所求是C到F，不是整段BF",
+      "text": "第三格由左向右是B、G、C、F。藍段BC長24，整段BF長36，所以橘段CF＝36−24＝12。",
+      "alt": "同一比例直線B/G/C/F依序，位置0/18/24/36，藍BC占全線三分之二，橘CF占三分之一；紫下括線BG與右半等長。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 垂線加中點，把幾何轉成線段長",
+    "answer": "答案：CF＝12",
+    "points": [
+      "CG＝6，BG＝18。",
+      "G是BF中點，BF＝36。",
+      "CF＝BF−BC＝36−24＝12。"
+    ]
+  },
+  "protectedWords": [
+    "等腰梯形",
+    "垂足",
+    "中位線",
+    "三角形",
+    "紫點D",
+    "橘線DG",
+    "藍線EF",
+    "(24−12)÷2＝6",
+    "BG＝24−6＝18",
+    "BF＝2×18＝36",
+    "CF＝36−24＝12",
+    "B、G、C、F",
+    "CF＝12",
+    "橘段CF",
+    "藍段BC"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-244-source-d20f531fe0.jpg"
+  ],
+  "rationale": "原卷11題及圖實看，D在BE中點、C在BF條件完整；獨立設B(0,0)、C(24,0)、D(18,8)、E(36,16)、F(36,0)核算CF12。原生SVG精確畫突出段、中位線、同一直線分段，文字與數值HTML，不讓imagegen猜點位或把C當F。",
+  "promptSummary": "原生SVG：等腰梯形CG6/BG18；直角三角形中點D與平行DG；B/G/C/F按0/18/24/36同比例線段。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "原卷11題手寫12及題庫12，等腰突出6、BG18，中位線得BF36、扣BC24得到CF12獨立核算。",
+  "artSHA256": "34d194400659762519265e74a604f6783465455f147b33d5a2ed13051f11c03f",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:00:00.199576+00:00",
+  "completedAt": "2026-10-28T21:57:32.680687+00:00",
+  "layoutEvidence": "docs/comics/q-244-preview-validation.json",
+  "visualReview": "原卷11題圖與手寫12實看，SVG突出CG6/BG18、D與G中點平行位置、B/G/C/F依0/18/24/36正確同比例。三寬1440/1120/390實看，橘段CF等詞保護後無斷裂或溢出，桌機同欄同列及手機自然高度通過。",
+  "nativeArt": "assets/comics/q-244-art-34d1944006.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-244-validation.json"
+}

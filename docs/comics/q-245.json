@@ -1,0 +1,71 @@
+{
+  "id": "q-245",
+  "subject": "Math",
+  "title": "面積一樣，底邊和越大就越矮",
+  "art": "docs/comics/art/q-245.svg",
+  "protectedWords": [
+    "58°",
+    "60°",
+    "62°",
+    "乙＞甲＞丙",
+    "丙＞甲＞乙",
+    "大角對大邊",
+    "灰色三角形",
+    "上底＋下底",
+    "等面積"
+  ],
+  "panels": [
+    {
+      "heading": "① 全等大三角形，扣同一小塊",
+      "text": "左橘是甲、下藍是乙、右綠是丙。三個大三角形全等，面積相同；各扣掉同一個灰色三角形，剩下三梯形面積也相等。",
+      "alt": "按58/62/60三角形建立同倍率三大三角形，扣除中央同一灰色區；甲橘乙藍丙綠位置對應原圖。"
+    },
+    {
+      "heading": "② 移回小三角形，用大角對大邊",
+      "text": "由兩底平行，可將原角移到灰色三角形：上角58°、左下62°、右下60°。對邊依序比較，綠丙上底最大、橘甲次之、藍乙最小。",
+      "alt": "同一小三角形放大，橘左斜邊對60度、藍下邊對58度、綠右斜邊對62度；精確角度用HTML。"
+    },
+    {
+      "heading": "③ 同面積，底邊和與高反序",
+      "text": "灰色三角形與三個大三角形相似，放大倍率相同，故上底＋下底為丙＞甲＞乙。面積＝底邊和×高÷2，所以高反過來是乙＞甲＞丙。",
+      "alt": "三梯形各自畫垂直兩底的高，不以紙面直立高度替代斜向的甲丙高；線段垂直由程式驗證。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：乙＞甲＞丙",
+    "points": [
+      "先證三梯形等面積，再比各自的底。",
+      "角度越大，對應的小三角形邊越長。",
+      "各高須垂直各自兩底，不能只看圖上直立長短。"
+    ]
+  },
+  "rationale": "實看分享第12題、官方104會考第25題完整四選項與原圖，角度依平行移到小三角形為上58/左下62/右下60。獨立同倍率構造三全等大三角形，減同一小三角形，三梯形等面積；對邊丙甲乙、底邊和同序、高反序乙甲丙選A。精確SVG按正弦定理實際角度建立，三面積與高線垂直/大小以程式校驗；畫圖倍率僅示意，不新增題目給定值。無合適既有AI解說圖，避免AI把三角形畫成正三角形或錯置高。",
+  "generationMethod": "programmatic SVG for exact congruent-triangle/trapezoid geometry",
+  "generatorFile": "docs/comics/q-245-generate.py",
+  "promptSummary": "三格：甲橘乙藍丙綠扣共同灰；中央三角形對邊色對應58/62/60；各梯形垂直兩底的高。所有面積角度排序HTML，圖程式確保全等與同倍率。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-245-source-2de4bb5238.jpg",
+    "site/dist/assets/questions/q-245-official-source-4584fe56d4.jpg",
+    "site/dist/assets/questions/q-245-official-figure-d501970d82.jpg"
+  ],
+  "answerCheckedAgainst": "等面積＋同相似倍率，底和丙甲乙，故高乙甲丙；官方原題四選項與A一致。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T21:57:45.334920+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "2d6b0785d976e268be56e3f7784aa3fad042e1628774db0cce9d3494e70e18b7",
+  "checkedAt": "2026-10-28T22:00:00.230157+00:00",
+  "validationFile": "docs/comics/q-245-validation.json",
+  "nativeArt": "assets/comics/q-245-art-2d6b0785d9.svg"
+}

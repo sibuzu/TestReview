@@ -1,0 +1,107 @@
+{
+  "id": "q-239",
+  "subject": "Math",
+  "title": "摺線分的是摺前與摺後，不是整個梯形角",
+  "art": "docs/comics/art/q-239.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:49:50.339264+00:00",
+  "panels": [
+    {
+      "heading": "① 同底角115°，平行線給65°",
+      "text": "等腰梯形∠ADC＝∠A＝115°。DF∥AB、AD∥BF，ABFD是平行四邊形，因此∠ADF＝65°。",
+      "alt": "精確等腰梯形同底角115，摺線DF平行AB，AD平行BF，D點ADF65角弧標示"
+    },
+    {
+      "heading": "② 先扣角，再由摺疊得到相等角",
+      "text": "∠FDC＝115°−65°＝50°。沿DF把DC摺成DE，摺線兩側對應角相等，所以∠EDF也等於50°。",
+      "alt": "同坐標C關於DF精確反射到E，原DC虛線、摺後DE實線，DF兩側對應角各50度"
+    },
+    {
+      "heading": "③ DE在∠ADF內，相減得15°",
+      "text": "依圖∠ADE＝∠ADF−∠EDF＝65°−50°＝15°。DF平分的是DC與DE所夾的角，不是整個∠ADC。",
+      "alt": "同坐標只用金色小角弧標出AD與DE的15度夾角，精確角度由坐標核對"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：∠ADE＝15°",
+    "points": [
+      "等腰梯形同底角相等，平行線再求65°。",
+      "摺前50°對應摺後50°，方向要看清楚。",
+      "最後求AD與DE的夾角：65°−50°。"
+    ]
+  },
+  "protectedWords": [
+    "∠ADC",
+    "∠ADF",
+    "∠FDC",
+    "∠EDF",
+    "∠ADE",
+    "平行四邊形",
+    "DF∥AB",
+    "AD∥BF",
+    "115°",
+    "65°",
+    "50°",
+    "15°"
+  ],
+  "rationale": "原卷6題及原已重繪必要圖實看，維持15度。精確構造等腰梯形A/D115與DF∥AB，再用向量反射C→E而非AI畫摺疊。三格相同座標分別判65、兩側50、最後15；不錯將DF當整個ADC角平分線。",
+  "promptSummary": "原生SVG精確等腰梯形與DF反射：D115內ADF65、DC/DE對應各50、ADE15。",
+  "answerCheckedAgainst": "原卷AD∥BC/AB＝DC/∠A115/DF∥AB/C摺至E；坐標反射與角度、長度和平行獨立驗算，既有15一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-239-source-f16d783366.jpg",
+      "site/dist/assets/questions/q-239-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "15°",
+    "notes": "原卷折後D-E-F實線及原DC虛線拓撲核對，E位於ADF內，C反射到E而非任意點。"
+  },
+  "constructionCoordinates": {
+    "A": [
+      60,
+      50
+    ],
+    "B": [
+      29.69000221992509,
+      115
+    ],
+    "C": [
+      155.30999778007492,
+      115
+    ],
+    "D": [
+      125,
+      50
+    ],
+    "E": [
+      55.72422017460775,
+      68.5623892592501
+    ],
+    "F": [
+      94.69000221992509,
+      115
+    ]
+  },
+  "completedAt": "2026-10-28T21:53:15.141960+00:00",
+  "checkedAt": "2026-10-28T21:59:08.393239+00:00",
+  "visualChecked": true,
+  "artSHA256": "413eef72aaf323423581ca7f97c060c524be52eedae19a3757ddf98b58cd8357",
+  "previewValidation": "docs/comics/q-239-preview-validation.json",
+  "visualReview": "實看540×180原生SVG及1440/390預覽：D-F-C原三角虛線、D-E-F摺後實線，E位於ADF內；50°兩側及最後15°小弧顏色清楚，未把DF誤畫整角平分。反射坐標角度/等長核對115/65/50/15，手機式子正常換行，桌機同列等高/手機自然高，無橫溢裁切；1120亦通過。",
+  "nativeArt": "assets/comics/q-239-art-413eef72aa.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-239-validation.json"
+}

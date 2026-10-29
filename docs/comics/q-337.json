@@ -1,0 +1,81 @@
+{
+  "id": "q-337",
+  "subject": "Math",
+  "title": "先以全慢走作基準，再增加快走時間",
+  "art": "docs/comics/art/q-337.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T20:59:45.222424+00:00",
+  "panels": [
+    {
+      "heading": "① 只讀60公斤，換成每分鐘",
+      "text": "表中105、165大卡，都是運動30分鐘的消耗。慢走105÷30＝3.5，快走165÷30＝5.5，單位是大卡／分鐘。",
+      "alt": "精確列出60公斤欄105與165各除30，得到慢走3.5與快走5.5大卡每分鐘"
+    },
+    {
+      "heading": "② 全慢走420，每換1分鐘多2",
+      "text": "2小時＝120分鐘，全慢走消耗420大卡。每把1分鐘慢走換成快走，多5.5−3.5＝2大卡；快走t分鐘，總量為420＋2t。",
+      "alt": "慢走120−t與快走t合計120分鐘的示意時間條，總消耗基準420加2t，時間條不表示特定t數值"
+    },
+    {
+      "heading": "③ 熱量範圍換成時間範圍",
+      "text": "450≤420＋2t≤480。先減420，再除以2，得15≤t≤30。24分鐘在範圍內，共消耗420＋2×24＝468大卡。",
+      "alt": "15與30實心端點的閉區間，24分鐘標記在正確相對位置，對應B及468大卡"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：快走24分鐘",
+    "points": [
+      "兩種走法時間合計120分鐘。",
+      "快走可在15至30分鐘之間，端點也包含。",
+      "A得444、C得492、D得516大卡，均不合範圍。"
+    ]
+  },
+  "protectedWords": [
+    "60公斤",
+    "30分鐘",
+    "120分鐘",
+    "24分鐘",
+    "468大卡",
+    "420＋2t",
+    "15≤t≤30",
+    "3.5",
+    "5.5",
+    "t分鐘",
+    "1分鐘",
+    "2小時",
+    "全慢走"
+  ],
+  "rationale": "原卷與熱量表/四選項實看，維持B。精確表格單位、時間組合、閉區間是重點，用原生SVG及HTML解釋基準加增量，比只畫散步情境更能直接拆解常見105誤當每小時的錯誤。時間條只示分拆，不虛構t佔比。",
+  "promptSummary": "原生SVG三格：60公斤每分鐘速率、全慢走420加快走增量2t、15至30閉區間與24標記。",
+  "answerCheckedAgainst": "原卷60公斤欄慢走30分105、快走30分165；獨立算450≤420＋2t≤480⇒15≤t≤30，四選項僅24。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-337-source-20626f912b.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "原卷2小時/450至480及完整右表30分鐘標題、60公斤欄與四選項核對；不採學生手寫數字。"
+  },
+  "completedAt": "2026-10-28T21:02:15.618224+00:00",
+  "checkedAt": "2026-10-28T21:04:37.404079+00:00",
+  "visualChecked": true,
+  "artSHA256": "c1b459de73f8806f24cfbb6c64e06b5b86a280c94f01413e278a90d78a79c415",
+  "previewValidation": "docs/comics/q-337-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG與最終1440/390預覽：30分資料除30得3.5/5.5，全慢走420，時間條總120且為抽象t分拆，閉區間15/30實心端點及24標記0.6相對位置正確。手機t分鐘/1分鐘/2小時不拆，桌機同列等高、手機自然高，無裁切橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-337-art-c1b459de73.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-337-validation.json"
+}

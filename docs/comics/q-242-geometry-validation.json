@@ -1,0 +1,46 @@
+{
+  "id": "q-242",
+  "modelUnits": {
+    "A": [
+      "1",
+      "4"
+    ],
+    "B": [
+      "0",
+      "0"
+    ],
+    "C": [
+      "9",
+      "0"
+    ],
+    "D": [
+      "6",
+      "4"
+    ],
+    "E": [
+      "43/10",
+      "0"
+    ],
+    "H": [
+      "1",
+      "0"
+    ],
+    "K": [
+      "6",
+      "0"
+    ]
+  },
+  "checks": {
+    "AB_squared": "17",
+    "CD_squared": "25",
+    "BC": "9",
+    "AD": "5",
+    "BH": "1",
+    "KC": "3",
+    "height": "4",
+    "ADE_area": "10"
+  },
+  "independentCalculation": "17-x^2 = 25-(4-x)^2 -> x=1; h^2=16 -> h=4; 5*4/2=10",
+  "E_position": "representative 4.3 within [0,9]; not a new given, any base position gives same height/area",
+  "userConfirmedLabel": "E, not F; do not reopen"
+}

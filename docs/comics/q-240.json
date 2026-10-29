@@ -1,0 +1,69 @@
+{
+  "id": "q-240",
+  "subject": "Math",
+  "title": "先換成同底等高，再相加兩塊",
+  "art": "docs/comics/art/q-240.svg",
+  "protectedWords": [
+    "△ABC",
+    "△BCD",
+    "△ABD",
+    "△ABE",
+    "AD∥BC",
+    "同底等高",
+    "10＋15＝25",
+    "平方單位"
+  ],
+  "panels": [
+    {
+      "heading": "① △ABC與△BCD同底等高",
+      "text": "藍色△ABC的面積是15。它和△BCD都以BC為底；A、D又在同一條與BC平行的AD上，所以兩個高度相等。虛線只示意同一高度，沒有新增長度。",
+      "alt": "精確梯形ABCD與交點E；ABC藍色、從A與D至共同底BC兩條等高虛線，AD與BC平行。"
+    },
+    {
+      "heading": "② 把已知的15換給△BCD",
+      "text": "依同底等高，藍色換成△BCD後，面積仍是15。這不是說△ABC和△BCD形狀必相同，也不必先求梯形的底長或高。",
+      "alt": "同一梯形改將BCD塗藍，共同底BC與相同高度不變，非聲稱兩三角形全等。"
+    },
+    {
+      "heading": "③ 沿BD，才真正分成兩塊",
+      "text": "對角線BD把梯形分成橘色△ABD與藍色△BCD，兩塊內部不重疊。因此總面積＝10＋15＝25平方單位。",
+      "alt": "ABD橘色10、BCD藍色15為正確無重疊分割，字母由程式標，面積數值留HTML。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：25平方單位",
+    "points": [
+      "共同底BC，A、D到BC的高相同。",
+      "先得△BCD＝△ABC＝15，再與10相加。",
+      "不要直接說△ABD、△ABC就是拼成梯形的兩塊。"
+    ]
+  },
+  "rationale": "實看第7題原卷文字與附圖E，讀乾淨作答SVG，獨立以ABC與BCD共底BC且AD平行證等面積，再沿BD分割得25。精確SVG用同一座標模型、平行符號與兩高，面積比校驗ABD10/ABC15/BCD15/梯形25；ABE重疊6與CDE缺塊6只作獨立QA不新增題目條件。保留E但不需其長度。無適合既有AI圖，避免AI幾何點位亂置或把重疊三角形當分割。",
+  "generationMethod": "programmatic SVG for exact equal-height trapezoid partition",
+  "generatorFile": "docs/comics/q-240-generate.py",
+  "promptSummary": "同一梯形三格：藍ABC與AD/BC等高；藍BCD換等面積；橘ABD+藍BCD無重疊分割。保留A-D/E字母，無新增邊長。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-240-source-2e0d46d066.jpg",
+    "site/dist/assets/questions/q-240-given.svg"
+  ],
+  "answerCheckedAgainst": "共底等高ABC=BCD15；沿BD梯形=ABD10+BCD15=25。已知ABD和ABC本身重疊，不當拼圖直接相加。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T21:51:24.186875+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "2c8930f0aab5eefec6095b86299856e5991576636456efad5025fd9093870d1b",
+  "checkedAt": "2026-10-28T21:55:27.021874+00:00",
+  "validationFile": "docs/comics/q-240-validation.json",
+  "nativeArt": "assets/comics/q-240-art-2c8930f0aa.svg"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "q-241",
+  "subject": "Math",
+  "title": "對角線5配水平4，先求高3再算面積",
+  "art": "docs/comics/art/q-241.svg",
+  "startedAt": "2026-10-28T21:53:48.316986+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 等腰梯形，兩側突出部分相等",
+      "text": "由A、D向BC作垂線，垂足為H、K。左右突出部分各為(6−2)÷2＝2，所以BK＝6−2＝4。",
+      "alt": "精確等腰梯形上底2下底6，兩條垂線把下底分成2/2/2，橘色標出左右突出段，綠線標左下到右垂足水平4。"
+    },
+    {
+      "heading": "② 抽出直角三角形BDK",
+      "text": "BD是對角線長5，BK是水平長4；用畢氏定理求高，DK＝√(5²−4²)＝3。不要把對角線直接當高。",
+      "alt": "精確3:4:5直角三角形，橘斜邊5、藍直角邊3、底4，以HTML標示長度，不生成數字。"
+    },
+    {
+      "heading": "③ 用上底加下底，乘高再除二",
+      "text": "梯形面積＝(2＋6)×3÷2＝12。兩個全等梯形也可拼成底8、高3的平行四邊形，再取一半。",
+      "alt": "兩個全等梯形精確拼為平行四邊形，底8高3，綠橘兩半面積相等，不當梯形每條腰皆5。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先求真正的高，對角線不是高",
+    "answer": "答案：12平方單位",
+    "points": [
+      "左右突出段各2，所以對角線水平投影為4。",
+      "5²−4²＝3²，高是3。",
+      "面積：(2＋6)×3÷2＝12。"
+    ]
+  },
+  "protectedWords": [
+    "等腰梯形",
+    "垂足",
+    "平行四邊形",
+    "對角線",
+    "畢氏定理",
+    "直角三角形",
+    "(6−2)÷2＝2",
+    "BK＝6−2＝4",
+    "√(5²−4²)＝3",
+    "(2＋6)×3÷2＝12",
+    "5²−4²＝3²"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-241-source-f673fbef2c.jpg"
+  ],
+  "rationale": "實看原卷8題2/6/5條件，獨立求水平4、高3與面積12。原生無字SVG精確畫等腰兩突出段、3:4:5三角形及兩梯形拼平行四邊形，避免imagegen錯把對角線為腰或高；公式與名稱HTML。",
+  "promptSummary": "精確原生SVG：上底2下底6等腰梯形、對角線5水平4高3直角三角形、兩全等梯形拼底8高3平行四邊形。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "原卷8題條件與題庫12，(6−2)/2=2、BK4、畢氏高3、梯形面積12獨立核算一致。",
+  "artSHA256": "5ca0191afb7bed242715c1364fb990ef32002d67d13b25ad216cfeb5888ee5af",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T21:59:08.432120+00:00",
+  "completedAt": "2026-10-28T21:54:34.112349+00:00",
+  "layoutEvidence": "docs/comics/q-241-preview-validation.json",
+  "visualReview": "實看原卷8題，SVG等腰突出段2/2、抽出3:4:5直角三角形、兩全等梯形拼成底8高3平行四邊形比例與方向核算正確；沒有把對角線當腰或高。三寬1440/1120/390實看，公式完整不溢出，同欄同列與手機自然高度通過。",
+  "nativeArt": "assets/comics/q-241-art-5ca0191afb.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-241-validation.json"
+}

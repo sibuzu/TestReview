@@ -1,0 +1,79 @@
+{
+  "id": "q-243",
+  "checkedAt": "2026-10-28T21:57:13.456456+00:00",
+  "answer": "2√2",
+  "originals": [
+    {
+      "src": "site/dist/assets/questions/q-243-source-f4e9c8f24c.jpg",
+      "sha256": "f4e9c8f24c26c488fb5b3408364a54c9398a52afc24e4fda5e2fc8bcdb2c33ff",
+      "visualChecked": true
+    }
+  ],
+  "givenFigure": "site/dist/assets/questions/q-243-given.svg",
+  "findings": [
+    "原卷10題完整點序A-D-P-R/B-C-Q及全部長度、兩等腰梯形/等腰三角形實看。",
+    "先由底差求側距1及h√8，ABQP右腰PQ等於AB3，再由RQ3確認PR中點高、半底1。",
+    "新圖抽出兩子圖但共用同一y高及相同比例20px/單位，不把腰長當高或把半底當全底。",
+    "式子冪次保護已重跑QA，手機無上標孤行，原生SVG座標算得面積√8。"
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "lengths": {
+      "AD": 4.0,
+      "BC": 6.0,
+      "AB": 3.0,
+      "CD": 3.0,
+      "PQ": 3.0,
+      "RQ": 3.0,
+      "PR": 2.0,
+      "PH": 1.0,
+      "QH": 2.8284271247461903
+    },
+    "area": 2.8284271247461903,
+    "coordinates": {
+      "leftTrapezoid": {
+        "A": [
+          40,
+          60
+        ],
+        "B": [
+          20,
+          116.5685424949238
+        ],
+        "C": [
+          140,
+          116.5685424949238
+        ],
+        "D": [
+          120,
+          60
+        ]
+      },
+      "rightTriangle": {
+        "P": [
+          70,
+          60
+        ],
+        "Q": [
+          90,
+          116.5685424949238
+        ],
+        "R": [
+          110,
+          60
+        ],
+        "H": [
+          90,
+          60
+        ]
+      },
+      "scale": 20,
+      "height": 2.8284271247461903,
+      "parallelY": [
+        60,
+        116.5685424949238
+      ]
+    }
+  },
+  "visualChecked": true
+}

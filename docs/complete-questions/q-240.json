@@ -1,0 +1,42 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先換成同底等高，再相加兩塊",
+    "art": "assets/comics/q-240-art-2c8930f0aa.svg",
+    "panels": [
+      {
+        "heading": "① △ABC與△BCD同底等高",
+        "text": "藍色△ABC的面積是15。它和△BCD都以BC為底；A、D又在同一條與BC平行的AD上，所以兩個高度相等。虛線只示意同一高度，沒有新增長度。",
+        "alt": "精確梯形ABCD與交點E；ABC藍色、從A與D至共同底BC兩條等高虛線，AD與BC平行。"
+      },
+      {
+        "heading": "② 把已知的15換給△BCD",
+        "text": "依同底等高，藍色換成△BCD後，面積仍是15。這不是說△ABC和△BCD形狀必相同，也不必先求梯形的底長或高。",
+        "alt": "同一梯形改將BCD塗藍，共同底BC與相同高度不變，非聲稱兩三角形全等。"
+      },
+      {
+        "heading": "③ 沿BD，才真正分成兩塊",
+        "text": "對角線BD把梯形分成橘色△ABD與藍色△BCD，兩塊內部不重疊。因此總面積＝10＋15＝25平方單位。",
+        "alt": "ABD橘色10、BCD藍色15為正確無重疊分割，字母由程式標，面積數值留HTML。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案：25平方單位",
+      "points": [
+        "共同底BC，A、D到BC的高相同。",
+        "先得△BCD＝△ABC＝15，再與10相加。",
+        "不要直接說△ABD、△ABC就是拼成梯形的兩塊。"
+      ]
+    },
+    "protectedWords": [
+      "△ABC",
+      "△BCD",
+      "△ABD",
+      "△ABE",
+      "AD∥BC",
+      "同底等高",
+      "10＋15＝25",
+      "平方單位"
+    ]
+  }
+}

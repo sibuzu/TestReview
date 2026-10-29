@@ -1,0 +1,78 @@
+{
+  "id": "q-242",
+  "subject": "Math",
+  "title": "先求共同高，E移動也不改面積",
+  "art": "docs/comics/art/q-242.svg",
+  "protectedWords": [
+    "△ADE",
+    "AB＝√17",
+    "h²＝17−x²",
+    "h²＝25−(4−x)²",
+    "17＝9＋8x",
+    "h＝4",
+    "5×4÷2＝10",
+    "等腰梯形",
+    "平方單位",
+    "AD∥BC",
+    "x＝1",
+    "h²＝16",
+    "BH＝x",
+    "KC＝4−x",
+    "HK＝AD＝5",
+    "BC＝9",
+    "AD＝5"
+  ],
+  "panels": [
+    {
+      "heading": "① 作兩條高，底邊拆出4",
+      "text": "由A、D向BC作垂線，垂足為H、K，令共同高為h、BH＝x。因AD∥BC，HK＝AD＝5；BC＝9，所以KC＝4−x，不是把兩側平均成2。",
+      "alt": "精確比例梯形，AH/DK為共同高，B-H-E-K-C依代表位置排列；E位置不作新增條件。"
+    },
+    {
+      "heading": "② 兩側畢氏式，解同一個h",
+      "text": "左側給h²＝17−x²，右側給h²＝25−(4−x)²。兩式相等，化簡成17＝9＋8x，得x＝1，再得h²＝16、h＝4。兩腰不等，不可當等腰梯形。",
+      "alt": "左直角ABH藍色，右直角DKC橘色；程式長度平方核AB17、CD25，共高4。"
+    },
+    {
+      "heading": "③ AD是底，E到AD的高仍是4",
+      "text": "E在與AD平行的BC上，E到AD的垂直距離就是共同高4。故△ADE面積＝5×4÷2＝10平方單位。E沿BC移動，不需要重新計算這個面積。",
+      "alt": "ADE綠色，從E到AD的垂直高以虛線及直角記號呈現，不把腰長5誤當高。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：10平方單位",
+    "points": [
+      "先由兩個直角三角形求得h＝4。",
+      "再以AD＝5為底，乘高除以2。",
+      "E在BC上，沿底邊移動不改變共同高。"
+    ]
+  },
+  "rationale": "實看第9題原卷及已確認E的乾淨SVG，不重問印刷看似F問題。獨立設BH=x，左右畢氏17-x²=25-(4-x)²得x1/h4，AD5面積10；程式按實際比例驗AB²17/CD²25及三角面積10。E只取代表位置作圖，不新增其長度，三格皆精確SVG標H/K高與已知幾何，避免AI畫成等腰梯形或把腰當高。無可用既有AI解說圖。",
+  "generationMethod": "programmatic SVG for exact common-height trapezoid geometry",
+  "generatorFile": "docs/comics/q-242-generate.py",
+  "promptSummary": "三格同一比例圖：兩垂足H/K；左右直角三角形分色；ADE綠與E至AD的共同高。字母程式標，全部數值算式HTML。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-242-source-7f58173657.jpg",
+    "site/dist/assets/questions/q-242-given.svg"
+  ],
+  "answerCheckedAgainst": "17-x²=25-(4-x)² -> x1,h4；AD5×h4/2=10。E命名已確認，不重開。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T21:54:15.417047+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "cae48a8df3cc27e74edb7ae438625472184b275d73e92030a6fc3e3399698e2b",
+  "checkedAt": "2026-10-28T22:00:00.138797+00:00",
+  "validationFile": "docs/comics/q-242-validation.json",
+  "nativeArt": "assets/comics/q-242-art-cae48a8df3.svg"
+}

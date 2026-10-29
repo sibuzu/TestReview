@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180" role="img" aria-label="a在0右方，x在負3左方，例子負8小於負6">
+<rect width="540" height="180" fill="#faf6e9"/>
+<defs><marker id="axis" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#8b9b87"/></marker><marker id="ray" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#4d8c73"/></marker></defs>
+<rect x="10" y="15" width="160" height="150" rx="17" fill="#fff" stroke="#abb79f" stroke-width="2"/>
+<rect x="190" y="15" width="160" height="150" rx="17" fill="#fff" stroke="#abb79f" stroke-width="2"/>
+<rect x="370" y="15" width="160" height="150" rx="17" fill="#fff" stroke="#abb79f" stroke-width="2"/>
+<path d="M25 90H158" stroke="#8b9b87" stroke-width="2" marker-end="url(#axis)"/>
+<path d="M40 83V97" stroke="#8b9b87" stroke-width="2"/>
+<circle id="positive-a" cx="132" cy="90" r="7" fill="#c68d50"/>
+<text x="40" y="123" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#425d4b">0</text>
+<text x="132" y="123" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#425d4b">a</text>
+<text x="90" y="53" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#c68d50">a</text>
+<path d="M205 90H340" stroke="#8b9b87" stroke-width="2" marker-end="url(#axis)"/>
+<path id="x-less-minus-three" d="M300 90H208" stroke="#4d8c73" stroke-width="5" marker-end="url(#ray)"/>
+<circle id="excluded-minus-three" cx="300" cy="90" r="7" fill="#fff" stroke="#4d8c73" stroke-width="3"/>
+<text x="300" y="123" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#425d4b">−3</text>
+<text x="265" y="53" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#4d8c73">x</text>
+<path d="M383 90H524" stroke="#8b9b87" stroke-width="2" marker-end="url(#axis)"/>
+<path d="M400 83V97" stroke="#4d8c73" stroke-width="2"/>
+<text x="400" y="124" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#4d8c73">−8</text>
+<circle cx="400" cy="90" r="6" fill="#4d8c73"/>
+<path d="M430 83V97" stroke="#c68d50" stroke-width="2"/>
+<text x="430" y="124" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#c68d50">−6</text>
+<circle cx="430" cy="90" r="6" fill="#c68d50"/>
+<path d="M520 83V97" stroke="#8b9b87" stroke-width="2"/>
+<text x="520" y="124" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#8b9b87">0</text>
+<text x="450" y="53" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#425d4b">a = 2</text>
+</svg>

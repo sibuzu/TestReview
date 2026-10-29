@@ -1,0 +1,81 @@
+{
+  "id": "q-329",
+  "subject": "Math",
+  "title": "頂角小於50°，還要大於0°",
+  "art": "docs/comics/art/q-329.svg",
+  "startedAt": "2026-10-28T19:52:26.216374+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 兩個底角相等，先扣掉2x",
+      "text": "等腰三角形有兩個底角x°。內角和是180°，所以頂角為(180−2x)°；題目要求這個頂角小於50°。",
+      "alt": "有效等腰三角形示意，兩個橘色底角相等，藍色頂角為剩餘角；不標示未給定的精確角度。"
+    },
+    {
+      "heading": "② 少了大於0°，就不成三角形",
+      "text": "頂角除了小於50°，也必須大於0°。若x＝90，頂角變成0°，兩腰重合成線段，便不是有效三角形。",
+      "alt": "頂角趨近零時的退化示意，兩腰重合而底端兩點重合；不是畫一個具有零度內角的有效三角形。"
+    },
+    {
+      "heading": "③ 合併兩條不等式",
+      "text": "由180−2x＜50得x＞65；由180−2x＞0得x＜90。因此65＜x＜90。圖中左端65、右端90，兩端都不含。",
+      "alt": "開區間示意，左端65右端90皆空心，僅兩端之間綠線為解；精確數字與式子使用HTML。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 幾何條件也要一起列入",
+    "answer": "答案 B：×；65＜x＜90",
+    "points": [
+      "完整條件：0＜180−2x＜50。",
+      "只列頂角＜50，會漏掉頂角＞0。",
+      "例如x＝100會得負頂角，不是三角形。"
+    ]
+  },
+  "protectedWords": [
+    "等腰三角形",
+    "三角形",
+    "頂角",
+    "底角",
+    "內角和",
+    "180−2x",
+    "65＜x＜90",
+    "0＜180−2x＜50",
+    "x＝90",
+    "x＝100",
+    "x°",
+    "x＞65",
+    "x＜90",
+    "180−2x＜50",
+    "180−2x＞0",
+    "頂角＞0",
+    "頂角＜50",
+    "(180−2x)°",
+    "左端65",
+    "右端90"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-329-source-7e6809d5c1.jpg"
+  ],
+  "rationale": "實看原卷是非4題，解域需頂角0到50內，維持B×。無字原生SVG畫有效等腰/退化重合線段/兩端開區間，避免生成模型畫負角三角形或錯誤幾何；數字公式全部可校對HTML。",
+  "promptSummary": "原生SVG三圖：等底角三角形、零頂角退化線段、(65,90)開區間。",
+  "answerCheckedAgainst": "原卷4題×、題庫B；0<180−2x<50解得65<x<90。",
+  "artSHA256": "6542b0c0eea56b4e8fbdd4517d0286fae9beaa660eaa27d88bd64176803ec3df",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T19:58:33.487395+00:00",
+  "completedAt": "2026-10-28T19:54:45.603502+00:00",
+  "layoutEvidence": "docs/comics/q-329-preview-validation.json",
+  "visualReview": "原卷4題×與條件推導實看；SVG三圖有效等腰、零頂角退化重合線段、65至90兩端空心開區間皆正確。1440/1120/390實看後將x°、整段角度公式及端點短語設保護，消除度數符號孤行；無溢出，雙欄同列等高/手機自然高度。",
+  "nativeArt": "assets/comics/q-329-art-6542b0c0ee.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-329-validation.json"
+}

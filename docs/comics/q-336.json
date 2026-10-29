@@ -1,0 +1,82 @@
+{
+  "id": "q-336",
+  "subject": "Math",
+  "title": "至少幾顆蛋，要進位並檢查",
+  "art": "docs/comics/art/q-336.svg",
+  "startedAt": "2026-10-28T19:58:37.567732+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先算目標，豆漿按比例換算",
+      "text": "依題目公式，每天60×1.2＝72g；早餐目標72×30%＝21.6g。300ml豆漿按7.5×300/250＝9g換算，不能直接用7.5g。",
+      "alt": "同一份豆漿的無字概念圖，300ml及9g按題目數據由HTML提供，不畫新營養標示。"
+    },
+    {
+      "heading": "② 一顆蛋：16g，還不夠",
+      "text": "一顆水煮蛋含7g，加同一份豆漿9g，共16g。因16＜21.6，一顆不足以達到本題早餐目標。",
+      "alt": "一顆完整蛋與同一杯豆漿，數量由原生SVG精確畫出，不把蛋切半畫成兩顆。"
+    },
+    {
+      "heading": "③ 兩顆蛋：23g，已達標",
+      "text": "兩顆蛋加豆漿是2×7＋9＝23g，已達21.6g以上。題目問至少，所以選2顆，不需增加到3或4顆。",
+      "alt": "兩顆完整蛋與同一份豆漿，對照一顆不足、兩顆足夠；圖不代表個別化飲食處方。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 顆數要是整數，還要最少",
+    "answer": "答案 B：至少2顆",
+    "points": [
+      "7n＋9≥21.6，解得n≥1.8。",
+      "蛋顆數取整數，最少是2，不是1.8顆。",
+      "3、4顆雖達標，卻不是最少。"
+    ]
+  },
+  "protectedWords": [
+    "21.6g",
+    "300ml",
+    "250",
+    "7.5g",
+    "7n＋9≥21.6",
+    "n≥1.8",
+    "1.8顆",
+    "2顆",
+    "16＜21.6",
+    "蛋白質",
+    "水煮蛋",
+    "豆漿",
+    "至少",
+    "2×7＋9＝23g",
+    "7.5×300/250＝9g",
+    "9g",
+    "7g",
+    "16g",
+    "23g",
+    "60×1.2＝72g",
+    "72×30%＝21.6g"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-336-source-20eae9e2ae.jpg"
+  ],
+  "rationale": "實看完整原卷18題與右側蛋/豆漿資訊，維持B。原生SVG精確畫同一杯豆漿、1蛋、2蛋，不讓生成模型誤畫顆數；依題目數據的比例與不等式均HTML，並明說是本題公式非個別化營養建議。",
+  "promptSummary": "原生SVG可愛無字食物三格：同一份豆漿、豆漿加1完整蛋、豆漿加2完整蛋。",
+  "answerCheckedAgainst": "原卷B；72×30%=21.6，豆漿9，1蛋16不足、2蛋23足夠，獨立驗算B。",
+  "artSHA256": "0dc55dfff76c0107f429dd66b0d3415ae67a8580eee236d4d01ddf079db5e2d4",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T20:04:52.010022+00:00",
+  "completedAt": "2026-10-28T20:00:25.083242+00:00",
+  "layoutEvidence": "docs/comics/q-336-preview-validation.json",
+  "visualReview": "實看原卷18題右側數據與SVG三寬渲染，同一杯豆漿/一顆完整蛋/兩顆完整蛋數量正確。初版長公式超寬，已拆為每天72g與早餐21.6g兩段並保護短完整算式；1440/1120/390重新實看全過，無橫溢、公式不斷，字圖及自然高度完整。",
+  "nativeArt": "assets/comics/q-336-art-0dc55dfff7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-336-validation.json"
+}

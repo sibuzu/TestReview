@@ -1,0 +1,126 @@
+{
+  "id": "q-243",
+  "subject": "Math",
+  "title": "共用兩平行線的高，再求等腰三角形面積",
+  "art": "docs/comics/art/q-243.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:53:15.196788+00:00",
+  "panels": [
+    {
+      "heading": "① 等腰梯形的底差，兩側各分一半",
+      "text": "ABCD兩底4、6，單側水平距離＝(6−4)÷2＝1。腰長3，用畢氏定理得h²＝3²−1²＝8，所以h＝2√2。",
+      "alt": "精確4/6/3等腰梯形，一側水平突出1，垂線高h與直角標記；兩條平行線的高度相同"
+    },
+    {
+      "heading": "② 共用同一高度，先求PR",
+      "text": "ABQP等腰，得PQ＝AB＝3；另給RQ＝3。過Q作高QH，H是PR中點。PH²＝3²−(2√2)²＝1，因此PR＝2。",
+      "alt": "等腰PQR兩腰3，QH高2√2且垂足H在PR中點，PH1，PR2；與前格兩條線間距完全相同"
+    },
+    {
+      "heading": "③ 面積＝底×高÷2",
+      "text": "△PQR的底是PR＝2，高是QH＝2√2。面積＝2×2√2÷2＝2√2平方單位，不是把腰長3直接當作高。",
+      "alt": "同坐標PQR以金色填面積，底2與垂直高2√2分別標示，保留直角框"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：2√2平方單位",
+    "points": [
+      "等腰梯形把底差2分成兩側各1。",
+      "平行線間距相同，梯形與三角形共用高2√2。",
+      "等腰三角形高平分底，PR＝2，面積再除以2。"
+    ]
+  },
+  "protectedWords": [
+    "ABCD",
+    "ABQP",
+    "PQ＝AB＝3",
+    "QH",
+    "PR",
+    "PH",
+    "畢氏定理",
+    "平行線間距",
+    "2√2",
+    "平方單位",
+    "h²＝3²−1²＝8",
+    "PH²",
+    "3²−(2√2)²"
+  ],
+  "rationale": "原卷10題完整點序、長度及必要圖實看，維持2√2。原生SVG先單獨抽等腰梯形求共同高，再把同高度搬到PQR，最後填面積；所有格平行線y座標完全同值，3不是高、1不是完整底，避免imagegen比例或點序錯。",
+  "promptSummary": "原生精確SVG三格：4/6/3梯形求h、兩腰3同高的PQR求底2、面積底2高2√2。",
+  "answerCheckedAgainst": "原卷完整等腰ABCD/ABQP、PQ/RQ3與圖AD4/BC6/AB3，向量距離/畢氏獨立驗算共同h√8、PR2、面積√8，既有答一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-243-source-f4e9c8f24c.jpg",
+      "site/dist/assets/questions/q-243-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "2√2",
+    "notes": "原圖A-D-P-R、B-C-Q點序與3標記核對；新圖分別抽出左梯形與右三角形解說，不更動共同兩平行線關係。"
+  },
+  "constructionCoordinates": {
+    "leftTrapezoid": {
+      "A": [
+        40,
+        60
+      ],
+      "B": [
+        20,
+        116.5685424949238
+      ],
+      "C": [
+        140,
+        116.5685424949238
+      ],
+      "D": [
+        120,
+        60
+      ]
+    },
+    "rightTriangle": {
+      "P": [
+        70,
+        60
+      ],
+      "Q": [
+        90,
+        116.5685424949238
+      ],
+      "R": [
+        110,
+        60
+      ],
+      "H": [
+        90,
+        60
+      ]
+    },
+    "scale": 20,
+    "height": 2.8284271247461903,
+    "parallelY": [
+      60,
+      116.5685424949238
+    ]
+  },
+  "completedAt": "2026-10-28T21:57:13.456456+00:00",
+  "checkedAt": "2026-10-28T22:00:00.168871+00:00",
+  "visualChecked": true,
+  "artSHA256": "235b4d89607e517f5a54d9f4771adf86e11d96698f1cc0d2c964065133909adc",
+  "previewValidation": "docs/comics/q-243-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG及最終1440/390預覽：梯形4/6/3及側距1、PQR兩腰3/半底1/底2、垂直高2√2均正確，三格平行線y座標相同；向量距離和面積獨立驗證。手機保護h²＝3²−1²＝8與冪次組，避免上標孤行；桌機同列等高、手機自然高，無橫溢裁切；1120亦通過。",
+  "nativeArt": "assets/comics/q-243-art-235b4d8960.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-243-validation.json"
+}

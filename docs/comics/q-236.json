@@ -1,0 +1,99 @@
+{
+  "id": "q-236",
+  "subject": "Math",
+  "title": "先扣直角，再用平行線移角",
+  "art": "docs/comics/art/q-236.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:02:15.684708+00:00",
+  "panels": [
+    {
+      "heading": "① D點的140°裡，有一個直角",
+      "text": "BD⊥CD，所以∠BDC＝90°。由圖可見，射線DB在∠ADC內部，將140°分成∠ADB與直角兩部分。",
+      "alt": "精確梯形AD平行BC，BD垂直CD；D點140度弧及直角方框清楚"
+    },
+    {
+      "heading": "② 扣掉90°，求出∠ADB",
+      "text": "∠ADB＝140°−90°＝50°。先找對被分割的整個角，不要把140°直接當作B點的角。",
+      "alt": "與第一圖相同座標，D點AD與DB間角用金色弧標50度，直角標記保留"
+    },
+    {
+      "heading": "③ AD∥BC，內錯角相等",
+      "text": "BD是平行線的截線，∠DBC與∠ADB是內錯角，因此∠DBC＝50°，選C。40°則是∠BCD，不是本題所求。",
+      "alt": "同一梯形D點50度與B點50度用相同金色弧標示，AD平行BC"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：∠DBC＝50°",
+    "points": [
+      "BD⊥CD給出∠BDC＝90°。",
+      "140°−90°＝50°，先得到∠ADB。",
+      "AD∥BC，將50°移到∠DBC。"
+    ]
+  },
+  "protectedWords": [
+    "∠BDC",
+    "∠ADC",
+    "∠ADB",
+    "∠DBC",
+    "∠BCD",
+    "內錯角",
+    "AD∥BC",
+    "BD⊥CD",
+    "140°",
+    "90°",
+    "50°",
+    "40°"
+  ],
+  "rationale": "實看原卷及必要重繪附圖，核對原題BD⊥CD而非對角線彼此垂直。新SVG以同一組滿足140°與90°的座標三次重現，先整角、分角、平行內錯角，保證不靠AI畫錯幾何。維持C。",
+  "promptSummary": "原生精確SVG三格：D140°含直角、D剩50°、平行AD/BC內錯角B50°。",
+  "answerCheckedAgainst": "原卷9題條件AD∥BC/∠ADC140°/BD⊥CD與全部四選項；向量獨立檢驗D140、BDC90、ADB/DBC50，既有C一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-236-source-08dfb18da7.jpg",
+      "site/dist/assets/questions/q-236-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "原圖與題目條件一致，原卷手寫50/40僅驗算參照，答案由角度及平行推得。"
+  },
+  "constructionCoordinates": {
+    "A": [
+      18,
+      50
+    ],
+    "B": [
+      33.4585239734768,
+      115
+    ],
+    "C": [
+      165.46398351862365,
+      115
+    ],
+    "D": [
+      88,
+      50
+    ]
+  },
+  "completedAt": "2026-10-28T21:04:15.195608+00:00",
+  "checkedAt": "2026-10-28T21:06:21.429647+00:00",
+  "visualChecked": true,
+  "artSHA256": "dc0577a726a4844449ccab3059d7676072246e5ae1f9a9d524bbe245610e2b9e",
+  "previewValidation": "docs/comics/q-236-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG及1440/390預覽：D140°整弧確實包住BD/CD直角，第二格剩ADB50°，第三格同色D/B內錯角均50°；精確座標acos驗證140/90/50/50/40。標籤、直角框與角弧無混淆或裁切，桌機同列等高，手機自然高無橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-236-art-dc0577a726.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-236-validation.json"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "q-327",
+  "subject": "Math",
+  "title": "且，就是同時符合兩個條件",
+  "art": "docs/comics/art/q-327.svg",
+  "protectedWords": [
+    "x＜−9",
+    "x≤4",
+    "−9",
+    "交集"
+  ],
+  "panels": [
+    {
+      "heading": "① 先看x＜−9：界點不包含",
+      "text": "三圖左標記對應−9，右標記對應4。藍線向左取小於−9的數，−9用空心圓，因為不包含等於。",
+      "alt": "第一個條件的精確數線概念：左標記−9空心向左，右標記4只作共同定位。"
+    },
+    {
+      "heading": "② 再看x≤4：範圍比較寬",
+      "text": "黃線取4及更小的數，右端4用實心圓。凡是小於−9的數，也一定符合小於或等於4。",
+      "alt": "第二個條件的同尺度數線：右標記4實心向左，涵蓋左標記−9與其左側。"
+    },
+    {
+      "heading": "③ 取交集，保留共同符合的數",
+      "text": "題目用「且」，不能只符合其中一個。兩條件共同的部分就是x＜−9：左標記空心、往左延伸，和原圖相同。",
+      "alt": "共同範圍的綠線精確保持左標記−9空心向左，不把右邊4以內都當交集。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：○，原圖正確",
+    "points": [
+      "x＜−9的範圍完全包含在x≤4裡。",
+      "且取交集，不把兩個範圍合併成較寬的解。",
+      "−9本身仍不符合第一個條件，所以是空心。"
+    ]
+  },
+  "rationale": "實看原卷是非第2題與原數線：−9空心往左，紅筆訂○。獨立以集合包含關係核對，交集確為x＜−9。採可核對程式原生SVG同尺度三數線，不用AI畫不精確端點、不添無關人物；數值標籤與不等式全在旁邊HTML，圖內只呈現兩個固定位置、空實心及範圍。",
+  "generationMethod": "programmatic SVG for exact number lines",
+  "promptSummary": "三格同尺度數線：x＜−9藍空心向左、x≤4黃實心向左、交集綠空心−9向左。圖內無字，左標記−9右標記4由HTML明確說明。",
+  "generatorFile": "docs/comics/q-327-generate.py",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-327-source-72ba7a1e84.jpg"
+  ],
+  "answerCheckedAgainst": "任意x＜−9都滿足x≤4，交集x＜−9；等於−9不滿足第一式，原圖空心向左正確。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "b7791faff1cb5018ca0510d0fbaef5d54c14f2d4d2cc27e6c6608f57e5822931",
+  "createdAt": "2026-10-28T19:51:36.234932+00:00",
+  "checkedAt": "2026-10-28T19:54:47.524490+00:00",
+  "validationFile": "docs/comics/q-327-validation.json",
+  "nativeArt": "assets/comics/q-327-art-b7791faff1.svg"
+}

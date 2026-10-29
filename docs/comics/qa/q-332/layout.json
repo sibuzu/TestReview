@@ -1,0 +1,25 @@
+{
+  "id": "q-332",
+  "checkedAt": "2026-10-28T19:58:38.782Z",
+  "marksRequestsAborted": true,
+  "results": [
+    {
+      "viewport": 1440,
+      "collapsedByDefault": true,
+      "question": "判斷是非，對的畫「○」，錯的打「×」。\n若 ax＞ay，則 x＞y。\n\n(A) ○（對）\n(B) ×（錯）",
+      "explanation": "a的正負沒有指定，不能直接消去a後保留不等號。若a＞0，可得x＞y；若a＜0，則同除以a須反向，得到x＜y。a＝0會使前提變成0＞0，無法成立。\n反例：取a＝−1、x＝0、y＝1，則ax＝0＞−1＝ay，但x＝0並沒有大於y＝1。原敘述錯誤，打×。",
+      "docOverflow": false,
+      "screenshot": "docs/comics/qa/q-332/1440-text.png"
+    },
+    {
+      "viewport": 390,
+      "collapsedByDefault": true,
+      "question": "判斷是非，對的畫「○」，錯的打「×」。\n若 ax＞ay，則 x＞y。\n\n(A) ○（對）\n(B) ×（錯）",
+      "explanation": "a的正負沒有指定，不能直接消去a後保留不等號。若a＞0，可得x＞y；若a＜0，則同除以a須反向，得到x＜y。a＝0會使前提變成0＞0，無法成立。\n反例：取a＝−1、x＝0、y＝1，則ax＝0＞−1＝ay，但x＝0並沒有大於y＝1。原敘述錯誤，打×。",
+      "docOverflow": false,
+      "screenshot": "docs/comics/qa/q-332/390-text.png"
+    }
+  ],
+  "visualChecked": true,
+  "visualCheckedAt": "2026-10-28T20:00:42.121435+00:00"
+}

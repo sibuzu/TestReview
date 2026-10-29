@@ -1,0 +1,28 @@
+{
+  "id": "q-238",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T21:04:13.532512+00:00",
+  "answer": "1；a＝2、b＝−1",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-238-source-02e014ce94.jpg",
+      "sha256": "02e014ce94ef83566d6aec14b34fec34f33dabd3d812f23fdbc0485d6be1e7d5",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-238-proof.svg",
+      "sha256": "13a309e654bbc70f79d11eb8b4a7f71e144e59eda6ae0d2dc5c6909b25e7a261",
+      "visualChecked": true
+    }
+  ],
+  "reason": "原卷11題條件AB=BE=CE及a+b實看，獨立核算正三角形高√3、取邊2則兩面積2−√3與1，a+b=1。既有精確SVG已展示E到AD/BC/CD的F/G/H三個垂足，配逐步HTML正好完成等底比高與係數辨讀；再畫四格只會重複圖形或增加無關人物，不另加漫畫。原生proof.svg保留，不誤報來源AI。",
+  "existingDiagramRetained": "site/dist/assets/questions/q-238-proof.svg",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T21:04:36.598201+00:00",
+  "completedAt": "2026-10-28T21:04:36.598201+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-238/layout.json",
+    "visualChecked": true,
+    "result": "1440/390實看正方形內正三角形與F/G/H垂足完整，SVG載入、預設收合與展開正常，無文件橫溢。"
+  }
+}

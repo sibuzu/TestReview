@@ -1,0 +1,29 @@
+{
+  "id": "q-335",
+  "original": "site/dist/assets/questions/q-335-source-acf01ad76b.jpg",
+  "figure": "site/dist/assets/questions/q-335-figure-6d4f370fe0.jpg",
+  "originalVisualChecked": true,
+  "allCoordinateAndOptionFiguresChecked": true,
+  "answer": "B",
+  "existingExplanationFigures": [],
+  "decision": "new_comic",
+  "answerBasis": "第三象限a<0,b<0；ax+b>=0得ax>=-b，同除負數a得x<=-b/a；-b>0除負a得負端點，含等號實心向左，與原B一致。原卷學生手寫方向不可當正解。",
+  "artMode": "deterministic-svg",
+  "artAssertions": {
+    "pointQuadrant": 3,
+    "endpointNegative": true,
+    "endpointIncluded": true,
+    "rayDirection": "left",
+    "example": {
+      "a": -2,
+      "b": -4,
+      "endpoint": -2,
+      "xMinus3Included": true,
+      "xMinus1Excluded": true
+    }
+  },
+  "sourceAIFiguresUsed": false,
+  "checkedAt": "2026-10-28T19:59:45.713051+00:00",
+  "svgAssertionsPassed": true,
+  "rawSVGVisualCheck": "/tmp/q-335-native-art.png"
+}

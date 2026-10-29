@@ -1,0 +1,22 @@
+{
+  "id": "q-326",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T19:50:14.231106+00:00",
+  "answer": "B：×，只有1至6共六個正整數解",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-326-source-37aa00a7ee.jpg",
+      "sha256": "37aa00a7eea5c8bde9cb4e266194485582f66174aa9750f80d36865de0067884",
+      "visualChecked": true
+    }
+  ],
+  "reason": "實看原卷是非題，x為正整數且x<7，答案列1、2、3、4、5、6即完整證明有限，現有HTML還對照不限正整數時的數域差異。沒有幾何配置或作答附圖需要補足；畫六個人物/物件只是把已列舉數字換裝飾，畫連續數線反易把限定正整數誤讀成實數區間，因此保留精確列舉與數域文字，不強加四格。",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T19:50:56.193787+00:00",
+  "completedAt": "2026-10-28T19:50:56.193787+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-326/layout.json",
+    "visualChecked": true,
+    "result": "1440/390詳解截圖實看，六個正整數列舉與實數/整數數域對照均完整可讀，答案預設收合正常，無橫向溢出。"
+  }
+}

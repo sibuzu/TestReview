@@ -1,0 +1,75 @@
+{
+  "id": "q-328",
+  "subject": "Math",
+  "title": "除以負數，不等號必須反向",
+  "art": "docs/comics/art/q-328.svg",
+  "startedAt": "2026-10-28T19:50:52.499630+00:00",
+  "panels": [
+    {
+      "heading": "① 先判斷除數的正負",
+      "text": "題目給a＜0，因此4a也是負數，而且不會等於0。把4ax＞12a的兩邊同除以4a時，除的是負數。",
+      "alt": "數線上4a與a都在0左側，4a更靠左，精確相對位置由程式決定，表示負數乘4仍為負。"
+    },
+    {
+      "heading": "② 反向後，解在3的左邊",
+      "text": "不等式兩邊同除以負數，不等號要反向。4ax＞12a化簡後是x＜3；原敘述卻寫x＞3，所以是錯的。",
+      "alt": "解集數線在3畫空心點，綠色射線往左延伸，表示小於3且不包含3。"
+    },
+    {
+      "heading": "③ 用一組數字檢查反例",
+      "text": "取a＝−1、x＝0，原不等式成為0＞−12，確實成立；但0＞3不成立。這也能確認原敘述不能成立，應打×。",
+      "alt": "上數線0在−12右側，下數線0在3左側，核對原式成立但錯誤結論不成立的反例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：×（錯）",
+    "points": [
+      "a＜0，因此4a＜0。",
+      "同除以4a，不等號由＞反成＜。",
+      "正確結論是x＜3。"
+    ]
+  },
+  "protectedWords": [
+    "a＜0",
+    "4a",
+    "4ax＞12a",
+    "x＜3",
+    "x＞3",
+    "a＝−1",
+    "x＝0",
+    "0＞−12",
+    "0＞3",
+    "不等號",
+    "反例"
+  ],
+  "rationale": "本題推理完全取決於負數除法和不等式方向，使用程式SVG數線比無關人物情境更直接。數線精確呈現4a負值、3空心向左解集和反例兩種大小關係；運算與答案全部HTML，避免生成模型畫錯箭頭或正負。",
+  "promptSummary": "不以imagegen生成精確數線。程式SVG三格：4a和a在0左、3空心且左射線、0大於−12而小於3的兩條數線。",
+  "answerCheckedAgainst": "實看原卷a＜0、4ax＞12a及x＞3敘述；同除以負數4a得x＜3，維持B×。反例a=-1,x=0以程式驗算原式真而結論假。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-328-source-b00b664d13.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T19:53:40.063482+00:00",
+  "checkedAt": "2026-10-28T19:57:19.581660+00:00",
+  "visualChecked": true,
+  "artSHA256": "41de723e1da607f2c7b7b5313c778f102f72ab9377e9e61d9b2b08f2dabb6b1b",
+  "previewValidation": "docs/comics/q-328-preview-validation.json",
+  "visualReview": "原卷a<0、4ax>12a、x>3已實看核對B×。SVG原渲染及1440/390成品實看，4a與a均在0左、3空心向左射線、反例0>-12且0<3皆正確，XML射線/空心端點與數值反例斷言通過。精確運算HTML，三寬QA無溢出或錯行。",
+  "nativeArt": "assets/comics/q-328-art-41de723e1d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-328-validation.json"
+}

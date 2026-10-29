@@ -1,0 +1,46 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "摺線分的是摺前與摺後，不是整個梯形角",
+    "art": "assets/comics/q-239-art-413eef72aa.svg",
+    "panels": [
+      {
+        "heading": "① 同底角115°，平行線給65°",
+        "text": "等腰梯形∠ADC＝∠A＝115°。DF∥AB、AD∥BF，ABFD是平行四邊形，因此∠ADF＝65°。",
+        "alt": "精確等腰梯形同底角115，摺線DF平行AB，AD平行BF，D點ADF65角弧標示"
+      },
+      {
+        "heading": "② 先扣角，再由摺疊得到相等角",
+        "text": "∠FDC＝115°−65°＝50°。沿DF把DC摺成DE，摺線兩側對應角相等，所以∠EDF也等於50°。",
+        "alt": "同坐標C關於DF精確反射到E，原DC虛線、摺後DE實線，DF兩側對應角各50度"
+      },
+      {
+        "heading": "③ DE在∠ADF內，相減得15°",
+        "text": "依圖∠ADE＝∠ADF−∠EDF＝65°−50°＝15°。DF平分的是DC與DE所夾的角，不是整個∠ADC。",
+        "alt": "同坐標只用金色小角弧標出AD與DE的15度夾角，精確角度由坐標核對"
+      }
+    ],
+    "fourth": {
+      "answer": "答案：∠ADE＝15°",
+      "points": [
+        "等腰梯形同底角相等，平行線再求65°。",
+        "摺前50°對應摺後50°，方向要看清楚。",
+        "最後求AD與DE的夾角：65°−50°。"
+      ]
+    },
+    "protectedWords": [
+      "∠ADC",
+      "∠ADF",
+      "∠FDC",
+      "∠EDF",
+      "∠ADE",
+      "平行四邊形",
+      "DF∥AB",
+      "AD∥BF",
+      "115°",
+      "65°",
+      "50°",
+      "15°"
+    ]
+  }
+}

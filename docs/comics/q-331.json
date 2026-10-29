@@ -1,0 +1,74 @@
+{
+  "id": "q-331",
+  "subject": "Math",
+  "title": "看所乘的數：a是正數，方向不變",
+  "art": "docs/comics/art/q-331.svg",
+  "startedAt": "2026-10-28T19:53:40.203058+00:00",
+  "panels": [
+    {
+      "heading": "① 先確認乘上的是正數",
+      "text": "題目給a＞0，這是判斷不等號方向的關鍵。原式雖有−3，仍要看接下來乘或除的數；這裡乘上的是正數a。",
+      "alt": "數線上a在0右方，表示題目指定a為正數；圖示不是特定數值。"
+    },
+    {
+      "heading": "② 同乘正數，維持小於",
+      "text": "從x＜−3出發，兩邊同乘正數a，方向不變，得到ax＜−3a。原敘述和正確運算相同，所以應畫○，選A。",
+      "alt": "原條件數線在−3處空心，往左是x的範圍；精確乘法推導用旁邊HTML文字呈現。"
+    },
+    {
+      "heading": "③ 代數字作為檢查",
+      "text": "例如取a＝2、x＝−4，符合a＞0與x＜−3。兩邊同乘2後，−8＜−6仍成立。這是數值檢查；一般理由仍是同乘正數不反向。",
+      "alt": "同一數線上−8在−6左方，0在更右方；座標間距以同一單位程式計算，示意a=2的檢查。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：○（對）",
+    "points": [
+      "看乘或除的數，不是只看原式有沒有負號。",
+      "a＞0，同乘a，方向維持＜。",
+      "正確結論：ax＜−3a。"
+    ]
+  },
+  "protectedWords": [
+    "a＞0",
+    "x＜−3",
+    "ax＜−3a",
+    "a＝2",
+    "x＝−4",
+    "−8＜−6",
+    "同乘正數",
+    "不等號",
+    "方向不變",
+    "數值檢查"
+  ],
+  "rationale": "用精確SVG正值位置、原解區間及乘2數值檢查，直接分辨負號出現在原式與乘數為負的差異。數線比無關人物情境有效，所有推導與答案可校對HTML；不把一個例子當全部證明。",
+  "promptSummary": "程式SVG三格：a在0右、−3空心左射線、a=2時−8<−6的數線。精確數學圖不交給imagegen畫。",
+  "answerCheckedAgainst": "原卷x＜−3、a＞0及ax＜−3a已實看，維持A○；同乘正數a保留方向，a=2,x=-4例子獨立驗算成立。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-331-source-e9fd60940c.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T19:56:11.574698+00:00",
+  "checkedAt": "2026-10-28T20:00:42.092247+00:00",
+  "visualChecked": true,
+  "artSHA256": "2d1f76fac0886e49d8b4a2f169f308f68ae75e5446649dd591480d88c88f5601",
+  "previewValidation": "docs/comics/q-331-preview-validation.json",
+  "visualReview": "原卷x<-3、a>0、ax<-3a實看核對A○。SVG原渲染和1440/390成品實看，a在0右、-3空心左射線及a=2的-8<-6同刻度數線正確，XML位置/方向與數值檢查通過。文字分清一般正數乘法理由和單一例子檢查，三寬QA通過、無溢出。",
+  "nativeArt": "assets/comics/q-331-art-2d1f76fac0.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-331-validation.json"
+}

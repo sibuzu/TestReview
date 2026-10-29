@@ -1,0 +1,38 @@
+{
+  "id": "q-337",
+  "checkedAt": "2026-10-28T21:02:15.618224+00:00",
+  "answer": "B",
+  "originals": [
+    {
+      "src": "site/dist/assets/questions/q-337-source-20626f912b.jpg",
+      "sha256": "20626f912b2a4187cdc5e5a610c22b6dd6489b7275d61384b6bed57b9f180a3c",
+      "visualChecked": true
+    }
+  ],
+  "findings": [
+    "原題完整右表標題為30分鐘，60公斤欄慢走105、快走165核對，非每小時。",
+    "兩小時120分，全慢走420；每分鐘由慢改快增加2，得420＋2t。",
+    "450至480等價15≤t≤30，四選項僅24，獨立全選項驗算如記錄。",
+    "時間條未假裝t比例是定量，閉區間24標記精確落在15至30的0.6位置。"
+  ],
+  "arithmeticChecks": {
+    "rates": [
+      3.5,
+      5.5
+    ],
+    "baseline": 420,
+    "bounds": [
+      15,
+      30
+    ],
+    "optionCalories": {
+      "12": 444.0,
+      "24": 468.0,
+      "36": 492.0,
+      "48": 516.0
+    },
+    "numberline24fraction": 0.6
+  },
+  "xmlValid": true,
+  "visualChecked": true
+}

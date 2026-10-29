@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180" role="img" aria-label="第三象限的點、負端點與實心向左解集">
+<rect width="540" height="180" fill="#faf6e9"/>
+<defs><marker id="axis" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#879984"/></marker><marker id="solution" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#4d8a72"/></marker></defs>
+<rect x="10" y="15" width="160" height="150" rx="17" fill="#fff" stroke="#aab79e" stroke-width="2"/>
+<rect x="190" y="15" width="160" height="150" rx="17" fill="#fff" stroke="#aab79e" stroke-width="2"/>
+<rect x="370" y="15" width="160" height="150" rx="17" fill="#fff" stroke="#aab79e" stroke-width="2"/>
+<path d="M22 86H159" stroke="#879984" stroke-width="2" marker-end="url(#axis)"/>
+<path d="M96 155V28" stroke="#879984" stroke-width="2" marker-end="url(#axis)"/>
+<path d="M76 86V126H96" fill="none" stroke="#c88d50" stroke-width="2" stroke-dasharray="4 3"/>
+<circle id="quadrant-three-point" cx="76" cy="126" r="6" fill="#c88d50"/>
+<text x="155" y="105" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#435d4c">x</text>
+<text x="110" y="31" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#435d4c">y</text>
+<text x="108" y="103" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#435d4c">0</text>
+<text x="76" y="75" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#435d4c">a</text>
+<text x="112" y="132" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#435d4c">b</text>
+<text x="49" y="149" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#435d4c">(a,b)</text>
+<path d="M205 94H340" stroke="#879984" stroke-width="2" marker-end="url(#axis)"/>
+<circle id="negative-endpoint-only" cx="235" cy="94" r="6" fill="#c88d50"/>
+<path d="M319 87V101" stroke="#879984" stroke-width="2"/>
+<text x="235" y="129" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#435d4c">−b/a</text>
+<text x="319" y="129" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#435d4c">0</text>
+<path d="M385 94H521" stroke="#879984" stroke-width="2" marker-end="url(#axis)"/>
+<path id="solution-left-ray" d="M425 94H386" stroke="#4d8a72" stroke-width="5" marker-end="url(#solution)"/>
+<circle id="included-negative-endpoint" cx="425" cy="94" r="7" fill="#4d8a72"/>
+<path d="M506 87V101" stroke="#879984" stroke-width="2"/>
+<text x="425" y="129" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#435d4c">−b/a</text>
+<text x="506" y="129" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#435d4c">0</text>
+<text x="450" y="54" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#4d8a72">x</text>
+</svg>

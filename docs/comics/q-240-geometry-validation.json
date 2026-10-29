@@ -1,0 +1,38 @@
+{
+  "id": "q-240",
+  "vertices": {
+    "A": [
+      90,
+      95
+    ],
+    "B": [
+      40,
+      275
+    ],
+    "C": [
+      310,
+      275
+    ],
+    "D": [
+      270,
+      95
+    ],
+    "E": [
+      178,
+      167
+    ]
+  },
+  "areaScale": "1/1620",
+  "areas": {
+    "ABD": "10",
+    "ABC": "15",
+    "BCD": "15",
+    "ABCD": "25",
+    "ABE": "6",
+    "CDE": "6"
+  },
+  "sharedBase": "ABC and BCD share BC, apex A/D on AD parallel BC",
+  "validPartition": "ABCD=ABD+BCD interiors disjoint",
+  "invalidClaim": "ABD and ABC overlap in ABE; numerical areas sum to 25 but that alone is not a partition proof",
+  "sourceSideLengthsAdded": false
+}

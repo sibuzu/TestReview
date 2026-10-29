@@ -1,0 +1,46 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先扣直角，再用平行線移角",
+    "art": "assets/comics/q-236-art-dc0577a726.svg",
+    "panels": [
+      {
+        "heading": "① D點的140°裡，有一個直角",
+        "text": "BD⊥CD，所以∠BDC＝90°。由圖可見，射線DB在∠ADC內部，將140°分成∠ADB與直角兩部分。",
+        "alt": "精確梯形AD平行BC，BD垂直CD；D點140度弧及直角方框清楚"
+      },
+      {
+        "heading": "② 扣掉90°，求出∠ADB",
+        "text": "∠ADB＝140°−90°＝50°。先找對被分割的整個角，不要把140°直接當作B點的角。",
+        "alt": "與第一圖相同座標，D點AD與DB間角用金色弧標50度，直角標記保留"
+      },
+      {
+        "heading": "③ AD∥BC，內錯角相等",
+        "text": "BD是平行線的截線，∠DBC與∠ADB是內錯角，因此∠DBC＝50°，選C。40°則是∠BCD，不是本題所求。",
+        "alt": "同一梯形D點50度與B點50度用相同金色弧標示，AD平行BC"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：∠DBC＝50°",
+      "points": [
+        "BD⊥CD給出∠BDC＝90°。",
+        "140°−90°＝50°，先得到∠ADB。",
+        "AD∥BC，將50°移到∠DBC。"
+      ]
+    },
+    "protectedWords": [
+      "∠BDC",
+      "∠ADC",
+      "∠ADB",
+      "∠DBC",
+      "∠BCD",
+      "內錯角",
+      "AD∥BC",
+      "BD⊥CD",
+      "140°",
+      "90°",
+      "50°",
+      "40°"
+    ]
+  }
+}

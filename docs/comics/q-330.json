@@ -1,0 +1,65 @@
+{
+  "id": "q-330",
+  "subject": "Math",
+  "title": "都比c大，不代表a和b有固定順序",
+  "art": "docs/comics/art/q-330.svg",
+  "protectedWords": [
+    "a＞b",
+    "a＜b",
+    "a＝b",
+    "a＞c",
+    "b＞c"
+  ],
+  "panels": [
+    {
+      "heading": "① 可以a＞b",
+      "text": "三圖用灰點表示c，藍點表示a，橘點表示b。取c＝0、a＝2、b＝1，兩者都大於c，而且a＞b。",
+      "alt": "同尺度數線：灰c在0，橘b在1，藍a在2，a與b都在c右方而a較大。"
+    },
+    {
+      "heading": "② 也可以a＜b",
+      "text": "改取c＝0、a＝1、b＝2，原來的兩個條件仍成立，卻變成a＜b。條件沒有把a、b的順序鎖住。",
+      "alt": "同尺度數線：灰c在0，藍a在1，橘b在2，兩者仍大於c但a較小。"
+    },
+    {
+      "heading": "③ 甚至可以a＝b",
+      "text": "取c＝0、a＝b＝1也符合條件。藍、橘雙色在同一位置，表示a和b相等；都大於c，不等於彼此不相等。",
+      "alt": "同尺度數線：灰c在0，藍橘雙色點共用1的位置，表示a與b相等。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：○，無法確定彼此大小",
+    "points": [
+      "三種例子都滿足a＞c、b＞c。",
+      "a＞b、a＜b、a＝b都可能，沒有唯一順序。",
+      "遞移性要有前後相接的比較，不能只比同一個c。"
+    ]
+  },
+  "rationale": "實看是非第1題原卷及○；獨立用c0、a/b為2/1、1/2、1/1逐一代入，三種關係皆成立。原生無字SVG保證灰/藍/橘點同尺度位置精確，等號用同位置雙色半圓，不讓AI決定數線次序；數值及顏色對照由HTML說明，無裝飾人物。",
+  "generationMethod": "programmatic SVG for exact counterexamples",
+  "promptSummary": "三格同尺度數線以灰c=0、藍a、橘b依序表示2/1、1/2、1/1，第三格藍橘共用位置；圖內無字。",
+  "generatorFile": "docs/comics/q-330-generate.py",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-330-source-821cec812c.jpg"
+  ],
+  "answerCheckedAgainst": "三組a/b值皆大於c=0而有三種彼此關係，原敘述無法確定正確。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "4e4d8e864442024ca86b875555c0521f01eb3c19bb63387471de2e0844730209",
+  "createdAt": "2026-10-28T19:54:07.471800+00:00",
+  "checkedAt": "2026-10-28T19:57:19.590575+00:00",
+  "validationFile": "docs/comics/q-330-validation.json",
+  "nativeArt": "assets/comics/q-330-art-4e4d8e8644.svg"
+}

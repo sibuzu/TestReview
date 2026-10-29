@@ -1,0 +1,78 @@
+{
+  "id": "q-335",
+  "subject": "Math",
+  "title": "負端點、實心點、向左，三條件一起看",
+  "art": "docs/comics/art/q-335.svg",
+  "startedAt": "2026-10-28T19:56:11.721529+00:00",
+  "panels": [
+    {
+      "heading": "① 第三象限先決定係數符號",
+      "text": "點(a，b)在第三象限，橫座標a、縱座標b都小於0。所以a＜0、b＜0，接下來除以a時，必須留意方向。",
+      "alt": "程式坐標圖中點在原點左下方，投影a在負橫軸、b在負縱軸，沒有生成模型的象限錯置。"
+    },
+    {
+      "heading": "② 除以負數a，要反向",
+      "text": "ax＋b≥0移項成ax≥−b。兩邊同除以負數a，得到x≤−b/a。端點不是b/a，這個負號不能漏掉。",
+      "alt": "程式數線將端點−b/a標在0左側，顯示端點位置；此格單純標出數值，完整解集見下一格。"
+    },
+    {
+      "heading": "③ 再核對端點和延伸方向",
+      "text": "因−b＞0、a＜0，所以−b/a＜0。小於等於表示端點實心、向左延伸；負端點也在0左側，三個條件合起來正是B。",
+      "alt": "負端點−b/a在0左側，以實心綠點包含端點，左射線延伸至更小的數，對應原卷B。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：負端點實心、向左",
+    "points": [
+      "第三象限：a與b都是負數。",
+      "解為x≤−b/a，且−b/a＜0。",
+      "小於等於：實心點、向左延伸。"
+    ]
+  },
+  "protectedWords": [
+    "第三象限",
+    "橫座標",
+    "縱座標",
+    "a＜0",
+    "b＜0",
+    "ax＋b≥0",
+    "ax≥−b",
+    "x≤−b/a",
+    "−b/a",
+    "b/a",
+    "實心點",
+    "小於等於",
+    "負端點"
+  ],
+  "rationale": "題目要同時判象限係數、除負數方向、端點正負與是否包含。以程式SVG坐標圖和數線確保位置與實心左射線正確，取代容易誤畫的生成數學圖；完整運算及答案保持HTML可校對。",
+  "promptSummary": "程式SVG三格：第三象限點與負a/b投影、−b/a在0左側、實心負端點向左解集。不用imagegen生成精確坐標與數線。",
+  "answerCheckedAgainst": "實看原卷第三象限點及四個數線圖，維持B。獨立推導x≤−b/a且端點負，含等號實心向左；取a=-2,b=-4驗算端點-2及解集方向。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-335-source-acf01ad76b.jpg",
+    "figure": "site/dist/assets/questions/q-335-figure-6d4f370fe0.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T19:59:45.713051+00:00",
+  "checkedAt": "2026-10-28T20:04:52.002362+00:00",
+  "visualChecked": true,
+  "artSHA256": "2721b8e6b50b0fffcd75754138dfc9913fefb386b7068a78e3d3c6bffe4a150f",
+  "previewValidation": "docs/comics/q-335-preview-validation.json",
+  "visualReview": "原卷第三象限點及A/B/C/D圖逐一實看，維持B且不沿用原手寫錯向。SVG原渲染、1440/390成品實看：QIII負a/b、負端點、實心向左及雙軸箭頭正確。端點/方向XML和a=-2,b=-4代值斷言通過；圖小字和分式標籤完整，三寬QA通過，手機自然高度。",
+  "nativeArt": "assets/comics/q-335-art-2721b8e6b5.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-335-validation.json"
+}

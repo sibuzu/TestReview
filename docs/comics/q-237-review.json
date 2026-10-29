@@ -1,0 +1,28 @@
+{
+  "id": "q-237",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T21:03:07.771693+00:00",
+  "answer": "24／5，即4.8",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-237-source-58714f7193.jpg",
+      "sha256": "58714f7193115d3e67911d4f5dbb7973572865b802c3ff6ed2c2907549656e4a",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-237-proof.svg",
+      "sha256": "67bd296d95f5a3803504550200aa5ab15603f0f6496b4febf24ad665e0f883c6",
+      "visualChecked": true
+    }
+  ],
+  "reason": "原卷10題完整條件與手寫24/5實看，獨立核算BD10、同三角形面積24得AH24/5。已有精確proof.svg畫出小矩形AEPF、兩對角線EF與AP及P到垂足H的最短位置，搭逐步文字已完整。新增四格將重複同一條件和幾何圖，人物情境不會改善EF=AP或最短垂距判斷，因此保留現有輔助圖，不另外漫畫化；原生SVG不誤稱來源AI圖。",
+  "existingDiagramRetained": "site/dist/assets/questions/q-237-proof.svg",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T21:04:13.379096+00:00",
+  "completedAt": "2026-10-28T21:04:13.379096+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-237/layout.json",
+    "visualChecked": true,
+    "result": "1440/390實看P位於H的矩形及垂足直角記號完整，SVG載入、收合/展開正常，無頁面橫溢。"
+  }
+}

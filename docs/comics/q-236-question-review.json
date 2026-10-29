@@ -1,0 +1,48 @@
+{
+  "id": "q-236",
+  "checkedAt": "2026-10-28T21:04:15.195608+00:00",
+  "answer": "C",
+  "originals": [
+    {
+      "src": "site/dist/assets/questions/q-236-source-08dfb18da7.jpg",
+      "sha256": "08dfb18da7bf7e306587611f7ec4d803338180350486b6ac3da969bb0ff27e91",
+      "visualChecked": true
+    }
+  ],
+  "givenFigure": "site/dist/assets/questions/q-236-given.svg",
+  "findings": [
+    "原卷第9題完整條件及四選項實看；真正垂直是BD與邊CD，不是BD與AC。",
+    "D140度包含BD與CD90度，扣得ADB50；AD與BC平行所以DBC50。",
+    "三格均相同精確坐標，幾何不是AI生成形狀，角度由向量acos逐一驗證。"
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "coordinates": {
+      "A": [
+        18,
+        50
+      ],
+      "B": [
+        33.4585239734768,
+        115
+      ],
+      "C": [
+        165.46398351862365,
+        115
+      ],
+      "D": [
+        88,
+        50
+      ]
+    },
+    "angleDegrees": {
+      "ADC": 140.0,
+      "BDC": 90.0,
+      "ADB": 50.00000000000001,
+      "DBC": 50.0,
+      "BCD": 40.000000000000014
+    },
+    "parallelADBC": true
+  },
+  "visualChecked": true
+}

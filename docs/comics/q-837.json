@@ -1,0 +1,94 @@
+{
+  "id": "q-837",
+  "subject": "Geography",
+  "title": "先認成本因素，再用鮮乳特性判市場指向",
+  "art": "docs/comics/art/q-837.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-837-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 圓是成本因素，斜線方塊是基地",
+      "text": "先讀四圖旁的圖例：圓表示各項成本因素，斜線方塊表示工廠或生產基地位置。接著比較每個選項哪個因素圓最大，不要把最大的圓看成工廠規模或某一座城市。",
+      "alt": "新精確圖例：圓為成本因素、斜線方塊為基地，保留符號區別，不把圓當人口數或工廠。"
+    },
+    {
+      "heading": "② 鮮乳要保鮮、及時送到消費市場",
+      "text": "題目問這類商業化農業的區位類型。鮮乳需要保鮮與及時配送，消費市場對區位相當重要，因此依教材分類判斷為市場指向；不是看報導提到哪個縣市，就改選另一因素。",
+      "alt": "新原生鮮乳瓶至保鮮配送至消費市場的需求關係圖，無品牌、時事統計、保冷溫度時數或商品療效宣稱。"
+    },
+    {
+      "heading": "③ D的市場因素最大，最符合題意",
+      "text": "A突出原料，B突出勞工，C突出能源，D突出市場，所以選D。圖D其他兩個小圓是技術與資金。市場指向是相對分類，並非說牧場一定在都市內，或不用考慮土地、飼料與冷鏈。",
+      "alt": "新精確D關係示意保留市場大圓、技術資金小圓與斜線基地；不換成其他選項的原料勞工，不捏造實際成本百分比。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：市場指向",
+    "points": [
+      "讀圖例，找哪個成本因素最突出。",
+      "鮮乳保鮮及配送，連結消費市場需求。",
+      "D的市場因素最大；不代表牧場必在都市內。"
+    ]
+  },
+  "protectedWords": [
+    "商業化農業",
+    "成本因素",
+    "生產基地",
+    "消費市場",
+    "市場指向",
+    "鮮乳",
+    "技術",
+    "資金",
+    "原料",
+    "勞工",
+    "能源",
+    "冷鏈"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini062-b2f7eb56c7260d.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/gemini062-ef1f1ae84ebec6.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "親見原34全報導/四圖/圓與斜線方塊圖例，A原料B勞工C能源D市場最大；D小圓技術資金，黑B紅D。題內政策當時情境原文保留，不當今日現況。"
+  },
+  "sourceUrl": "https://share.gemini.google/lEdStGcomTed",
+  "answerCheckedAgainst": "原紅D與完整四圖逐項讀最大因素，鮮乳保鮮配送特性及原題商業化農業教材分類核D。",
+  "references": [
+    {
+      "title": "農業部公開：鮮乳產品生命週期材料",
+      "url": "https://agrinetzero.moa.gov.tw/zh-TW/UploadFile/Download/e8b1111c-93e0-41f4-b3c0-0ee10cc2ce91",
+      "supports": "配送銷售過程須冷藏，僅佐證保鮮配送特性，非區位選項的直接答案",
+      "access": "官方PDF下載確認檔頭並pdftotext實讀表1配送段與10.4；不提供飲用或冷藏操作數據，也不稱法規"
+    }
+  ],
+  "rationale": "原題是抽象成本因素圖，精確圖例與D三因素關係可防把符號/最大因素讀反，比人物或乳牛場景更直接；不代替原題必要圖、不AI捏造百分比。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "D",
+    "dominantFactor": "市場",
+    "otherDFactors": [
+      "技術",
+      "資金"
+    ],
+    "factorCircleRadius": {
+      "市場": 18,
+      "技術": 8,
+      "資金": 8
+    },
+    "circleSizeIsActualCostPercentage": false,
+    "farmMustBeInCity": false,
+    "policyCurrentStatusAsserted": false
+  },
+  "artSHA256": "e5adfc23642feb05f86f8cbdf78fd0d5c95091d0eceb91cdc379de34a231d141",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T10:15:22.956219+00:00",
+  "previewValidation": "docs/comics/q-837-preview-validation.json",
+  "visualReview": "原34完整報導/四圖/圖例親見，D市場最大且小圓為技術資金不換別選項。新SVG實際3因素與最大半徑、兩斜線基地符號獨立核；原PDF表1冷藏段讀取僅作佐證，不混現況統計。最終1440/390實看瓶/圖例/關係圖及詞組無碰撞，三寬PASS；D不變。"
+}

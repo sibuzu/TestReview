@@ -1,0 +1,119 @@
+{
+  "id": "q-501",
+  "subject": "Chinese",
+  "title": "按原文的目的與結果，核對人物評語",
+  "art": "docs/comics/art/q-501.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-501-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 齊景公憂慮魯治，黎且要排除孔子",
+      "text": "孔子在魯國治理有成，齊景公卻感到憂慮。黎且出計策的目的是使孔子離開魯國，因此不能把齊景公說成光明磊落、廣納人才；要從文中行動看動機。",
+      "alt": "新精確目的鏈孔子治魯有成至齊景公憂慮至黎且獻計使孔子離魯，不額外推演重祿高位之字對象。"
+    },
+    {
+      "heading": "② 送女樂、君主怠政、進諫不聽、孔子離去",
+      "text": "原文寫黎且送女樂，魯哀公享樂而怠政；孔子進諫不被聽從，便離開前往楚國。把這條連鎖結果按順序連起來，就能看出黎且預想的排除孔子目的確實達成。",
+      "alt": "新精確五節點因果鏈依正文行動排序，不畫被官兵押逐，也不讓模型猜造女樂的16人精確隊伍。"
+    },
+    {
+      "heading": "③ D符合計謀達成，不是肯定計謀道德",
+      "text": "魯哀公沉迷而怠政，不是潔身自愛；孔子治理並進諫，也不是只顧獨善其身。黎且的計謀按預想實現，所以D符合本文。描述計謀有效，與讚許做法正當，是兩回事。",
+      "alt": "新原生四人物行為對照，D突出，將足智謀略的描述與道德肯定分開，不色情化女樂或虛構歷史肖像。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：黎且獻計，達成使孔子離去的目的",
+    "points": [
+      "先看計策的目的，再追蹤行為與結果。",
+      "魯君怠政，孔子進諫不聽後離去。",
+      "D描述謀略有效，沒有要求肯定其道德。"
+    ]
+  },
+  "protectedWords": [
+    "齊景公",
+    "黎且",
+    "孔子",
+    "魯哀公",
+    "女樂",
+    "潔身自愛",
+    "獨善其身",
+    "足智多謀",
+    "計謀達成",
+    "前往楚國"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-501-reading-source-3c5037826e.jpg",
+      "site/dist/assets/questions/q-501-source-a0ecf1da25.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "原35全段與註2/四項親見，原紅D；正文與註2為驕熒而不是現題庫驕矜，詳獨立review待確認，未改shared。原文孔子去而之楚不畫強制押逐。"
+  },
+  "sourceUrl": "https://share.gemini.google/1P48K0fgDy6p",
+  "answerCheckedAgainst": "原紅D，依原文送女樂/樂之怠政/仲尼諫不聽/離魯之楚逐句獨立核，既有判答不重開。",
+  "rationale": "原文人物與計策包含多步因果，用精確目的及結果關係圖較人物演出更能防主客與順序混淆；不畫模糊16人隊伍，不暗示計謀達成即道德正確。",
+  "pendingReview": "docs/comics/q-501-original-ocr-review.json",
+  "pendingReason": "原卷驕熒恢復及原註2完整轉錄待使用者確認，D不變。四格刻意不引用誤字或未核的重祿高位白話對象。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "D",
+    "actualActionOrder": [
+      "送女樂",
+      "哀公樂之怠政",
+      "孔子進諫",
+      "不聽",
+      "孔子離魯之楚"
+    ],
+    "moralApprovalImplied": false,
+    "forcibleExpulsionInvented": false,
+    "performerCountDecidedByImagegen": false,
+    "misquotedCharacterRepeated": false
+  },
+  "artSHA256": "329f244c297c977b69f9c018ab0b93d6fa226b7caeb9322e40a07cbc8e71a3b5",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T10:26:15.341432+00:00",
+  "previewValidation": "docs/comics/q-501-preview-validation.json",
+  "visualReview": "原35全段/原註2/四項親見並忠實三倍放大核熒字；新精確目的鏈及5行結果因果順序與正文吻合，不畫強押孔子或暗定女樂人數。最終1440/390實看箭頭/節點/詞組無碰撞，三寬PASS；D不變。新OCR/譯文指代分別交root待確認，不改shared。",
+  "additionalReview": "docs/comics/q-501-translation-review.json",
+  "nativeArt": "assets/comics/q-501-art-329f244c29.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:26:15.337895+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷正文驕熒／原註2完整句及35四人物選項親見，D不變。兩獨立卡皆已確認後，分別套用原文原註恢復與迎之指仲尼、提案/已實施分開的白話；原閱讀與完整解說桌手機實看並app/單頁8項文字QA通過。新SVG目的/五節點因果/四人物核評皆對，不暗示迎請成功、強押離國或計謀道德可取，正式三寬6項與1440/390實看通過。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-501-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-501-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-501-app-390.png",
+      "/tmp/weirugo-comic-checks/q-501-app-confirmed-copy-1440.png",
+      "/tmp/weirugo-comic-checks/q-501-app-confirmed-copy-390.png",
+      "/tmp/weirugo-comic-checks/q-501-app-confirmed-reading-1440.png",
+      "/tmp/weirugo-comic-checks/q-501-app-confirmed-reading-390.png"
+    ],
+    "resolvedContentReviews": [
+      "correction-q-501-a2c15bb78ecc",
+      "correction-q-501-a408463463c6"
+    ]
+  },
+  "validationFile": "docs/comics/q-501-validation.json"
+}

@@ -92,7 +92,7 @@ def build_status(root=ROOT):
         settled_comics = sum(counts[k] for k in ('complete', 'existing_ai', 'not_suitable'))
         comics = {'total': len(entries), 'settled': settled_comics,
                   'generated': counts['complete'], 'existingAI': counts['existing_ai'],
-                  'notSuitable': counts['not_suitable'], 'awaitingConfirmation': counts['awaiting_confirmation'] + sum(r.get('state')=='pending' and r.get('kind')=='漫畫排版確認' for r in requests.get('requests', [])),
+                  'notSuitable': counts['not_suitable'], 'awaitingConfirmation': 0,
                   'remaining': len(entries)-settled_comics,
                   'percent': round(settled_comics/len(entries)*100, 1) if entries else 0,
                   'updatedAt': comic_data.get('updatedAt', comic_data.get('startedAt')),
@@ -189,6 +189,20 @@ def build_status(root=ROOT):
     acknowledged = {(r['id'], r.get('confirmationToken')) for r in requests.get('resolved', [])}
     confirmations = [dict(c, confirmationToken=confirmation_token(c)) for c in confirmations
                      if (c['id'], confirmation_token(c)) not in acknowledged]
+    if comics:
+        waiting_ids = {e['id'] for e in entries if e['state']=='awaiting_confirmation'}
+        pipeline_path = root/'docs/comics/pipeline.json'
+        if pipeline_path.exists():
+            paths.append(pipeline_path)
+            published_comic_ids = {e['id'] for e in entries}
+            waiting_ids.update(j['id'] for j in read_json(pipeline_path).get('jobs', [])
+                               if j.get('state')=='blocked' and j.get('decision')=='awaiting_confirmation'
+                               and j.get('id') in published_comic_ids)
+        review_ids = {c.get('questionId') or c['id'] for c in confirmations}
+        waiting_ids.update(c.get('questionId') or c['id'] for c in confirmations
+                           if c.get('kind')=='漫畫排版確認')
+        # Count questions once, and stop asking after OK even while integration is pending.
+        comics['awaitingConfirmation'] = len(waiting_ids & review_ids)
     new_sources = current_sources(root, gemini['sources'], questions,
                                   comic_data.get('entries', []) if comics else [], confirmations, paths)
     if new_sources:

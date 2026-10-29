@@ -87,6 +87,33 @@ class MonitorTest(unittest.TestCase):
         self.assertEqual(status['summary']['questions'],2)
         self.assertEqual(status['comics']['active'][0]['id'],'q-001')
 
+    def test_blocked_comic_counts_unresolved_questions_once_and_stops_after_ok(self):
+        self.write('docs/comics/progress.json', {'entries': [dict(
+            id='q-001', subject='Chinese', title='待核對譯文', date='2026-01-01', state='queued')]})
+        self.write('docs/comics/pipeline.json', {'jobs': [dict(
+            id='q-001', state='blocked', decision='awaiting_confirmation')]})
+        self.write('monitor/confirmations.json', {'requests': [dict(
+            id='review-'+str(i), questionId='q-001', state='pending', title='譯文',
+            kind='白話譯文指涉核對', questions=['請核對']) for i in range(2)], 'resolved': []})
+        pipeline_before = (self.root/'docs/comics/pipeline.json').read_bytes()
+        status = server.build_status(self.root)
+        self.assertEqual(status['comics']['awaitingConfirmation'], 1)
+        for card in status['confirmations']:
+            if card['id'].startswith('review-'):
+                server.resolve_confirmation(card['id'], card['confirmationToken'], root=self.root)
+        self.assertEqual(server.build_status(self.root)['comics']['awaitingConfirmation'], 0)
+        self.assertEqual((self.root/'docs/comics/pipeline.json').read_bytes(), pipeline_before)
+
+    def test_comic_confirmation_deduplicates_progress_layout_and_pipeline(self):
+        self.write('docs/comics/progress.json', {'entries': [dict(
+            id='q-002', subject='Chinese', title='待確認', date='2026-01-01', state='awaiting_confirmation')]})
+        self.write('docs/comics/pipeline.json', {'jobs': [dict(
+            id='q-002', state='blocked', decision='awaiting_confirmation')]})
+        self.write('monitor/confirmations.json', {'requests': [dict(
+            id='layout', questionId='q-002', state='pending', title='排版', kind='漫畫排版確認',
+            questions=['請核對'])], 'resolved': []})
+        self.assertEqual(server.build_status(self.root)['comics']['awaitingConfirmation'], 1)
+
     def test_new_source_counts_published_bank_and_unpublished_source_confirmation(self):
         self.write('docs/imports/new-source-plan-2026-10-29.json', {'sources': [
             {'key': 'gemini001', 'suggestedOrder': 1, 'url': 'https://example.com/1'}]})

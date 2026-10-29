@@ -1,0 +1,138 @@
+{
+  "id": "q-835",
+  "subject": "Geography",
+  "title": "先認伊斯蘭節慶，再配主要宗教國家",
+  "art": "docs/comics/art/q-835.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T10:06:48.589787+00:00",
+  "panels": [
+    {
+      "heading": "① 齋戒月結束，迎來開齋節",
+      "text": "題幹的穆斯林、伊斯蘭曆、齋戒月，都是伊斯蘭教線索。開齋節在齋戒月結束後，先認出節慶所屬的宗教。",
+      "alt": "新生成穆斯林家庭在齋戒月結束後的開齋節相聚慶祝，白天有節慶食品，不是在齋戒中的白天進食；人物建築為尊重文化的通用情境。"
+    },
+    {
+      "heading": "② 主要宗教配對，埃及最相符",
+      "text": "本題依各國主要宗教配對，應選埃及。採買新衣、食品與禮品的敘述，連到伊斯蘭節慶帶來的相關消費需求。",
+      "alt": "新生成家庭在埃及風格市集採買新衣的節慶需求示意，不是實際開羅店面或消費量圖，也不宣稱埃及所有人都屬同一宗教。"
+    },
+    {
+      "heading": "③ 日期依曆法，不能固定記4～5月",
+      "text": "開齋節依伊斯蘭曆決定，換算西曆會逐年移動。不能把原題提到的4～5月當作每年通則；宗教配對仍選C。",
+      "alt": "新生成翻動無字無日期的桌曆、窗外新月，示意曆法日期移動，沒有生成固定4或5月、特定年份或每日禁食起訖時間。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 抓節慶宗教，不靠固定月份猜",
+    "answer": "答案 C：埃及",
+    "points": [
+      "開齋節、齋戒月：伊斯蘭教。",
+      "埃及主要信仰伊斯蘭教。",
+      "泰國以佛教、印度以印度教為主；希臘以東正教為主。",
+      "換成西曆日期會移動，不是每年固定4～5月。"
+    ]
+  },
+  "protectedWords": [
+    "開齋節",
+    "齋戒月",
+    "穆斯林",
+    "伊斯蘭曆",
+    "伊斯蘭教",
+    "伊斯蘭節慶",
+    "宗教",
+    "埃及",
+    "主要宗教",
+    "新衣",
+    "食品",
+    "禮品",
+    "西曆",
+    "4～5月",
+    "泰國",
+    "佛教",
+    "印度教",
+    "印度",
+    "希臘",
+    "東正教"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini062-e5e3db6b7466cc.jpg"
+  ],
+  "originalVisualCheck": "實看原卷p02-q06全題/四國選項、黑D紅C與紅筆宗教註記。主要宗教配C保留；原題月份固定說法按使用者已確認日期卡解說，不當年度日期。每日起點日出/黎明另交root新卡，本漫畫不涉及禁食時段。",
+  "answerCheckedAgainst": "正式C/原卷紅C與各國主要宗教配對；已resolved日期確認correction-q-835-605d48eb2733保留，不重開。美國海軍天文台官方全文列12陰曆月年較西曆短，逐年移動佐證。",
+  "confirmationEvidence": "monitor/confirmations.json#correction-q-835-605d48eb2733",
+  "separateContentReview": "docs/comics/q-835-dawn-review.json",
+  "rationale": "新圖把齋戒結束的節慶、節前採買與日期移動三概念分開，避免把4～5月固定記或將題目主要宗教配對誤當真實絕對人口/市場銷售排名；人物尊重文化，不用來源AI圖。起訖措辭新疑點已交root，不影響這組內容。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-835-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-176e5463-9f86-4e0a-85a4-304d05611c8d.png",
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "US Naval Observatory｜The Islamic Calendar",
+      "url": "https://aa.usno.navy.mil/faq/islamic",
+      "checked": "已開官方全文：伊斯蘭曆依陰曆月，12月平均比西曆年短，西曆中的日期逐年移動。"
+    },
+    {
+      "title": "Brandeis Muslim Chaplain｜Ramadan",
+      "url": "https://www.brandeis.edu/spiritual-life/resources/guide-to-observances/ramadan.html",
+      "checked": "已開全文，齋戒月結束後開齋節家庭團聚/禮品慶祝；每日黎明起點另報root確認，這份四格不涉及起訖。"
+    }
+  ],
+  "artChecks": {
+    "threeEqualSquareScenes": true,
+    "celebratesEidAfterRamadan": true,
+    "marketCategoryNotMeasuredSales": true,
+    "calendarBlankNoFixedSolarDate": true,
+    "teachesSunriseFastingStart": false,
+    "claimsAllEgyptiansSameReligion": false,
+    "claimsMarketSizeRankingByAbsoluteMuslimPopulation": false,
+    "sourceAIReuse": false,
+    "teachingTextBurnedIntoArt": false
+  },
+  "timingEvidence": "docs/comics/q-835-timing.json",
+  "completedAt": "2026-10-29T10:13:43.868779+00:00",
+  "checkedAt": "2026-10-29T10:26:15.294993+00:00",
+  "layoutEvidence": "docs/comics/q-835-preview-validation.json",
+  "visualReview": "原卷p02-q06黑D紅C與全四選/宗教紅註實看，新2172x724三格及1440/1120/390最終版：齋戒結束慶祝/新衣採買/無數字曆與新月，沒有固定西曆月份或每日齋戒起點。C主要宗教配對不當真實銷售排行。三寬預設收合、圖載入、詞不拆無溢出、桌同列等高手機自然高PASS。",
+  "artSHA256": "806229737921e6acbfc01c61401900160aee09a2fefbff4c3791a769280d2960",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-835-1440.png",
+    "/tmp/weirugo-comic-previews/q-835-1120.png",
+    "/tmp/weirugo-comic-previews/q-835-390.png"
+  ],
+  "separateRootReview": "docs/comics/q-835-dawn-root-review.json",
+  "separatePendingConfirmationId": "correction-q-835-13abff3ee436",
+  "nativeArt": "assets/comics/q-835-art-8062297379-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:26:15.291046+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷全題四國選項與紅C及新慶祝／採買／無日期曆原件親見；主要宗教配對C，不當真實銷售量排行。已套用使用者單點黎明補充，原題日出與已確認日期移動說明均保留。正式桌手機漫畫、完整解說及app/單頁八項文字QA親見通過，不重開舊日期卡。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-835-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-835-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-835-app-390.png",
+      "/tmp/weirugo-comic-checks/q-835-app-confirmed-copy-1440.png",
+      "/tmp/weirugo-comic-checks/q-835-app-confirmed-copy-390.png"
+    ],
+    "resolvedContentReviews": [
+      "correction-q-835-13abff3ee436"
+    ]
+  },
+  "validationFile": "docs/comics/q-835-validation.json"
+}

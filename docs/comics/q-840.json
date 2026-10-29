@@ -1,0 +1,106 @@
+{
+  "id": "q-840",
+  "subject": "Geography",
+  "title": "先定位西北棉區，再配乾燥氣候",
+  "art": "docs/comics/art/q-840-xinjiang-region.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T10:19:17.261994+00:00",
+  "panels": [
+    {
+      "heading": "① 看原圖：新疆在西北，不是西南",
+      "text": "原圖的棉區指向新疆，位於中國西北部。先定位位置，再判斷氣候與區域特徵，B把方向寫成西南，不能選。",
+      "alt": "新製八方位中的西北指向關係示意，標新疆棉區與不是西南；不重繪或替代使用者已允許保留筆記的作答中國地圖。"
+    },
+    {
+      "heading": "② 深居內陸少雨，種棉依靠灌溉",
+      "text": "圖示棉區較乾燥，A的年降水量不足500毫米最合。乾燥不等於不能種作物；有灌溉水源，仍可在合適地區種棉。",
+      "alt": "新製少雨日照下的棉株與下方灌溉水源關係圖，白色棉絮由褐色棉鈴托住，沒有虛造各站實測降水數字、採收機具或營區情況。"
+    },
+    {
+      "heading": "③ 自治區，不是特別行政區",
+      "text": "新疆主要少數民族為維吾爾族；壯族主要在廣西。新疆是自治區，和香港、澳門的特別行政區不同，C、D都不合。",
+      "alt": "新製新疆/維吾爾族/自治區，與廣西壯族、香港澳門特別行政區的分類對照；不是族群百分比圖，更不表示新疆所有人同一民族。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 定位、氣候、民族、行政分類分開核對",
+    "answer": "答案 A：年降水量不足500毫米",
+    "points": [
+      "位置：新疆在中國西北。",
+      "棉區：深居內陸，較乾燥少雨。",
+      "少數民族：維吾爾族，不是壯族。",
+      "行政區：自治區，不是特別行政區。"
+    ]
+  },
+  "protectedWords": [
+    "新疆",
+    "中國",
+    "西北部",
+    "西北",
+    "西南",
+    "棉區",
+    "區域特徵",
+    "深居內陸",
+    "年降水量",
+    "500毫米",
+    "灌溉",
+    "水源",
+    "作物",
+    "維吾爾族",
+    "壯族",
+    "廣西",
+    "自治區",
+    "特別行政區",
+    "香港",
+    "澳門",
+    "少數民族"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini062-530477406236c6.jpg",
+    "site/dist/assets/questions/gemini062-2c5408d5b37c52.jpg"
+  ],
+  "originalVisualCheck": "實看原卷p01-q04全題/四選/黑D紅A與新疆棉區必要原地圖，紅註沙漠名/年雨量/特別行政區區別可見；原圖使用者已允許保留筆跡，未裁/未去紅/未復原線條。本漫畫不改原圖與時事題幹。",
+  "answerCheckedAgainst": "正式A/原卷紅A；水利廳官方氣候資料屬乾旱內陸/降水少，農業部西北棉區技術意見明列灌溉。僅解本題棉區，不說全新疆山區每處皆不足500，不把原題產量比例/人工採收敘述當最新統計。",
+  "rationale": "以方位、棉株供水關係與行政民族分類的原生SVG幫學生分開核對四選項，比泛畫採棉人物更能處理A/B/C/D混淆，也不捏造原題時事場景或借用來源AI圖。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "新疆水利廳｜水資源基本情況",
+      "url": "https://slt.xinjiang.gov.cn/xjslt/c114524/201704/9c1bb4ce45284f568968bcb96677f2d1.shtml",
+      "checked": "官方歷史基本資料正文：乾旱內陸、降水少蒸發強；漫畫不採新造精確年均數或當年氣候數。"
+    },
+    {
+      "title": "農業農村部｜2022西北內陸棉區棉花前期生產技術指導意見",
+      "url": "https://zzys.moa.gov.cn/gdxw/202203/t20220317_6392586.htm",
+      "checked": "官方技術指導正文明列南疆棉田冬春灌與土壤保墒；只佐證種棉可利用灌溉，不作現行實務操作建議。"
+    },
+    {
+      "title": "國家民委｜民族自治地方",
+      "url": "https://www.neac.gov.cn/seac/ztzl/mzzzdf/index.shtml",
+      "checked": "官方列表搜尋結果列新疆維吾爾自治區/廣西壯族自治區，對照正式已核對行政分類。"
+    }
+  ],
+  "diagramChecks": {
+    "correctOption": "A",
+    "orientation": "中國西北",
+    "aridCottonIrrigationRelationship": true,
+    "admin": "自治區，不是特別行政區",
+    "ethnicExamplesNotAllResidents": true,
+    "replacesAnnotatedOriginalMap": false,
+    "inventsAnnualRainfallObservations": false,
+    "treatsSourceProductionShareAsCurrent": false,
+    "depictsUnverifiedHumanRightsScene": false
+  },
+  "timingEvidence": "docs/comics/q-840-timing.json",
+  "completedAt": "2026-10-29T10:22:44.907327+00:00",
+  "checkedAt": "2026-10-29T10:22:44.907327+00:00",
+  "layoutEvidence": "docs/comics/q-840-preview-validation.json",
+  "visualReview": "實看原卷全題/紅A/必要含筆記棉區圖，沒有裁紅復原；最終1440/1120/390三寬西北箭頭、白棉絮褐棉鈴/灌溉關係與民族行政分類可辨。氣候只解圖示棉區，不斷言全疆各地雨量或重製時事採收營區。三寬預設收合/圖載入/詞不拆無溢出/桌同列等高手機自然高PASS。",
+  "artSHA256": "c15c68ae6e9bd74ec7315629a0bfe1cb05a9600d75b420c1436d510366c9bbf8",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-840-1440.png",
+    "/tmp/weirugo-comic-previews/q-840-1120.png",
+    "/tmp/weirugo-comic-previews/q-840-390.png"
+  ]
+}

@@ -79,7 +79,7 @@
   },
   "timingEvidence": "docs/comics/q-346-timing.json",
   "completedAt": "2026-10-29T09:32:25.274648+00:00",
-  "checkedAt": "2026-10-29T09:32:25.274648+00:00",
+  "checkedAt": "2026-10-29T09:50:15.705441+00:00",
   "layoutEvidence": "docs/comics/q-346-preview-validation.json",
   "visualReview": "實看原卷經緯度聚落圖/原四箭頭黑A紅D，及最終1440/1120/390三寬：左圖範圍不冒充單點座標，中圖金門經度小在西，右圖西南向量/正交分量一致；無實際航路或比例圖。度數與度多已連詞保護。預設收合、圖載入、無溢出/拆詞、桌機同列等高/手機自然高度PASS。",
   "artSHA256": "77a5191c5567ee2b293c7695bc1290a37be4fe3ac3a05f2a7e030507c8ae381c",
@@ -99,5 +99,21 @@
     "independentRowHeights": true,
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
-  }
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:50:15.701950+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷聚落經緯圖及四方向核對，D西南不變；新經度小往西、緯度小往南的SVG坐標與箭頭一致，非實際飛行路線，桌機與手機逐張實看無詞溢出。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-346-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-346-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-346-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-346-validation.json"
 }

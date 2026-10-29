@@ -1,0 +1,97 @@
+{
+  "id": "q-838",
+  "subject": "Geography",
+  "title": "南緯要看距赤道，倒灌要看離海多遠",
+  "art": "docs/comics/art/q-838-coordinate-coast.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T10:14:35.804973+00:00",
+  "panels": [
+    {
+      "heading": "① 第41題：往北，南緯度數反而小",
+      "text": "依原圖，雅加達與努山塔拉都在赤道以南。新地點向北靠近赤道，南緯度數減少；又向東移，東經度數增加。",
+      "alt": "新製相對位置示意，赤道0度在上，雅加達左下/努山塔拉右上且均在赤道南側；不造精確坐標或比例航路。"
+    },
+    {
+      "heading": "② 第41題：緯減、經增，對應丙",
+      "text": "表(五)比較的是度數增減：找到緯度減少那列，再找經度增加那欄，交會處是丙，選C。不能把向北一律記成緯度數字增加。",
+      "alt": "新製表五同構示意，經度增加/減少兩欄、緯度增加/減少兩列，丙位在第二列第一資料欄並標綠色，與原卷表格完全對應。"
+    },
+    {
+      "heading": "③ 第42題：內陸較高，不易海水倒灌",
+      "text": "埔里盆地在內陸、遠離海岸，最能排除這題的海水影響，選A。注意：內陸也可能地層下陷，不能把臨海說成所有下陷的必要條件。",
+      "alt": "新製沿海低地與較高內陸盆地的關係剖面，海水箭頭只到沿岸，不越山灌入內陸；埔里標為內陸例，沒有捏造實際高程或斷言內陸永不下陷。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 兩小題，各用一組判斷條件",
+    "answer": "第41題 C（丙）；第42題 A（埔里盆地）",
+    "points": [
+      "41：兩地同為南緯，靠近赤道是度數減少。",
+      "41：同為東經，向東是度數增加。",
+      "42：埔里較高且內陸，最不易受海水倒灌。",
+      "下陷與倒灌要分清，不能說下陷必須臨海。"
+    ]
+  },
+  "protectedWords": [
+    "雅加達",
+    "努山塔拉",
+    "赤道",
+    "南緯",
+    "東經",
+    "度數",
+    "經度",
+    "緯度",
+    "埔里盆地",
+    "埔里",
+    "內陸",
+    "海岸",
+    "海水",
+    "地層下陷",
+    "海水倒灌",
+    "倒灌",
+    "必要條件",
+    "比例地圖",
+    "第41題",
+    "第42題",
+    "表(五)"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini062-6fa7ee5c60937d.jpg",
+    "site/dist/assets/questions/gemini062-488a6c0166b79d.jpg",
+    "site/dist/assets/questions/gemini062-91986c596f2724.jpg",
+    "site/dist/assets/questions/gemini062-e0595032fbeded.jpg"
+  ],
+  "originalVisualCheck": "實看共文、東南亞兩地相對赤道地圖、41題表五與四選、42題四地選項；原卷41黑A紅C/42黑C紅A，均與正式答案相合。圖表丙=緯減經增不調換。原題2050預測/遷都年份距離均未變成當前確定事實或新漫畫資料。",
+  "answerCheckedAgainst": "正式兩小題41C/42A、原卷紅筆及已resolved確認correction-q-838-268428514bdc；內陸可下陷與海水倒灌條件之區別按使用者已確認詳解維持，不重開。",
+  "confirmationEvidence": "monitor/confirmations.json#correction-q-838-268428514bdc",
+  "rationale": "題組同時考赤道南側的度數方向、表格交會與倒灌條件，原生SVG位置向量/原表同構/概念剖面比人物情境更精確；一份四格保留兩小題各自答案與推理，不複述未查當代遷都狀態或風災預測。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "diagramChecks": {
+    "answers": {
+      "41": "C/丙",
+      "42": "A/埔里盆地"
+    },
+    "bothSouthOfEquator": true,
+    "NusantaraNortheastRelativeToJakarta": true,
+    "latitudeDegreesDecrease": true,
+    "eastLongitudeDegreesIncrease": true,
+    "tableSecondRowFirstDataColumn": "丙",
+    "inlandBasinAboveCoastSchematic": true,
+    "claimsAllSubsidenceRequiresCoast": false,
+    "claimsExactElevation": false,
+    "claimsCurrentCapitalStatus": false,
+    "historicalPredictionTreatedAsCurrentFact": false
+  },
+  "timingEvidence": "docs/comics/q-838-timing.json",
+  "completedAt": "2026-10-29T10:18:17.781294+00:00",
+  "checkedAt": "2026-10-29T10:18:17.781294+00:00",
+  "layoutEvidence": "docs/comics/q-838-preview-validation.json",
+  "visualReview": "實看共文地圖/41表五四選/42四選紅C紅A及resolved內容卡；最終1440/1120/390兩點均赤道南、向東北、表格丙位置正確，海水箭頭與海平面同層且只到沿岸，內陸盆地較高。未造真航路/高程/現行遷都或災害95%確定預測。預設收合、圖載入、無拆詞溢出、桌同列等高手機自然高PASS，四格保留兩小題答案。",
+  "artSHA256": "fc918d01dcdb170366e814c77fcfbc4e32de844ac369a919eba3115efd67d587",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-838-1440.png",
+    "/tmp/weirugo-comic-previews/q-838-1120.png",
+    "/tmp/weirugo-comic-previews/q-838-390.png"
+  ]
+}

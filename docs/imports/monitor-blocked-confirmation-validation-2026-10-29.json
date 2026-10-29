@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-29T10:16:43.009844+00:00",
+  "change": "漫畫待確認數包含 pipeline blocked/awaiting_confirmation，依題號與現行可確認卡去重；使用者按OK後即歸零，整合狀態仍由整合代理處理。",
+  "testCommand": "python -m unittest monitor.test_server",
+  "testsPassed": 22,
+  "regressionsCovered": [
+    "只有pipeline阻擋、progress仍queued的題目仍計入待確認",
+    "同題多卡、progress、pipeline、排版卡合計只算一題",
+    "確認後pipeline尚待整合也不再要求使用者確認",
+    "build_status只讀pipeline不改派工狀態"
+  ],
+  "liveHealth": 200,
+  "liveSnapshot": {
+    "comicAwaitingConfirmation": 0,
+    "allConfirmationCards": 0
+  },
+  "monitorUserApprovals": [
+    {
+      "id": "correction-q-501-a2c15bb78ecc",
+      "resolvedAt": "2026-10-29T10:03:35.296079+00:00",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。"
+    },
+    {
+      "id": "correction-q-501-a408463463c6",
+      "resolvedAt": "2026-10-29T10:11:51.778900+00:00",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。"
+    },
+    {
+      "id": "correction-q-835-13abff3ee436",
+      "resolvedAt": "2026-10-29T10:11:58.774005+00:00",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "q-352",
+  "subject": "Chinese",
+  "title": "先總說、再舉例、回到主張：合分合",
+  "art": "docs/comics/art/q-352.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-352-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 開頭提出看法，是合說",
+      "text": "從古今論諫開始，作者先提出共同議題，再說「諷、直一也」，關鍵在如何運用。這是統整全文的主張，尚未分別講伍舉、茅焦的事例，因此開頭是合。",
+      "alt": "新精確開頭合說圖，用共同立場諷直與運用之術承接合，不按句數將開頭拆成分。"
+    },
+    {
+      "heading": "② 中間舉兩個事例，是分說",
+      "text": "伍舉委婉進言，楚王反而更加荒淫；茅焦冒險直言，秦帝卻立刻醒悟。兩個事例分別論證：委婉或直接，不能先固定誰好誰壞，要看如何運用。這部分是分。",
+      "alt": "新精確並列雙事例：伍舉隱語與楚王淫益甚、茅焦危論與秦帝立悟，兩線互不相接，不混成同一君主或先後因果。"
+    },
+    {
+      "heading": "③ 末尾重申運用策略，又回到合說",
+      "text": "結尾說諷不宜一概讚許，直也不能輕易貶低，再次回到「顧用之之術何如耳」。它把兩例收回同一主張，形成首尾呼應；不是在末尾另加一個分說事例。",
+      "alt": "新精確結尾合說圖回到與開頭相同的運用之術，顯示首尾呼應合分合，不把原文諷不可盡與改成全不讚許。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：合 → 分 → 合",
+    "points": [
+      "合：提出共同議題與作者主張。",
+      "分：用伍舉、茅焦兩例分別論證。",
+      "合：再回到運用之術，重申立場。"
+    ]
+  },
+  "protectedWords": [
+    "古今論諫",
+    "諷、直一也",
+    "伍舉",
+    "茅焦",
+    "楚王",
+    "秦帝",
+    "顧用之之術何如耳",
+    "合說",
+    "分說",
+    "首尾呼應",
+    "運用策略"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-352-reading-7143f9d8b0.jpg",
+      "site/dist/assets/questions/q-352-source-f2cb2814ab.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "親見完整蘇洵原段/與諷少術四註及33四項結構，原B。兩次顧用之之術何如耳首尾照應；不改原文或額外認楚王秦帝確切歷史身份。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae05238-7b84-83ec-b2f2-9a46aa7cb340",
+  "answerCheckedAgainst": "原卷B，按開頭總主張/兩人物例證/結尾重申逐段功能獨立標記，不以人物或句子數量判斷。",
+  "rationale": "論述結構題用精確開頭與末尾同款合說、中央並列雙例圖，比人物故事插畫直接呈現總分總，不混淆兩個例子為連續因果。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "B",
+    "structure": [
+      "合",
+      "分",
+      "合"
+    ],
+    "examplePairs": [
+      [
+        "伍舉進隱語",
+        "楚王淫益甚"
+      ],
+      [
+        "茅焦解衣危論",
+        "秦帝立悟"
+      ]
+    ],
+    "examplesAreSequentialCausation": false,
+    "openingAndClosingSharedPhrase": "顧用之之術何如耳",
+    "allObliqueAdviceBad": false,
+    "allDirectAdviceGood": false
+  },
+  "artSHA256": "2c2ac28a7a47be2a0d0635d3423c32dab8218296cc21e243a59ff7a41a88347d",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T10:08:53.526455+00:00",
+  "previewValidation": "docs/comics/q-352-preview-validation.json",
+  "visualReview": "原蘇洵整段及四註/33四結構選項親見，按語段功能獨立劃合分合。新精確開頭與結尾同款合、中段雙例並列，未把伍舉茅焦畫連續因果或依人數斷結構。最終1440/390實看句詞、樹枝配對與自然高正常，三寬PASS；B不變。",
+  "nativeArt": "assets/comics/q-352-art-2c2ac28a7a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:08:53.521723+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見蘇洵諫論整段／四註及33四結構選項，按論述功能核B合分合；新SVG首尾合說一致、中間伍舉及茅焦兩例並列，未串成先後因果或按人數判結構。正式桌機手機實看原生圖與全篇文案，內容無溢出、同列同高／單欄自然高。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-352-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-352-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-352-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-352-validation.json"
+}

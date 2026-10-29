@@ -1,0 +1,139 @@
+{
+  "id": "q-347",
+  "subject": "Geography",
+  "title": "先定方向，再合看臨海峭壁：丙最符合",
+  "art": "docs/comics/art/q-347.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-347-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 北向上，找臺灣本島的那一側",
+      "text": "依原圖指北針，上方是北、左方是西。龜山島在宜蘭外海，蘭陽平原在其西方至西南方的臺灣本島一側；要先找符合這個方向的位置，不是看畫面哪座山最高。",
+      "alt": "新精確北上方位關係圖，龜山島至蘭陽平原箭頭向左下西南分量，明標非比例地圖，不重製島形或砲臺位置。"
+    },
+    {
+      "heading": "② 線密而且臨海，符合峭壁條件",
+      "text": "同一圖尺、相同等高距下，等高線越密，代表地勢越陡。回原卷看，丙在西南側臨海密線處，符合題幹峭壁內的條件；示例線只解釋疏密，不取代原圖。",
+      "alt": "新精確兩組50至200示例等高線，共同等高距與圖尺，密組間隔11、疏組間隔20，明示不是原島實測值。"
+    },
+    {
+      "heading": "③ 丙同時符合方向與地形，選C",
+      "text": "丙同時符合朝本島一側與臨海峭壁兩個條件。甲偏北，乙靠湖區，丁在東側且隔著島內高地，都不如丙。800公尺指坑道長度，不能直接當作射程來選位置。",
+      "alt": "新方向＋臨海密線條件合成圖，對回原卷丙選C，不重繪舊AI多出乙點的島圖或猜造射程。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙",
+    "points": [
+      "先用指北針判斷西至西南、本島一側。",
+      "再看臨海密集等高線，找符合峭壁的部位。",
+      "合看兩條件；不選最高峰，也不把坑道長當射程。"
+    ]
+  },
+  "protectedWords": [
+    "龜山島",
+    "蘭陽平原",
+    "臺灣本島",
+    "西南側",
+    "西南方",
+    "西至西南",
+    "指北針",
+    "等高線",
+    "等高距",
+    "800公尺",
+    "坑道長度",
+    "射程"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-347-source-8f3bc43cf4.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-347-figure-2ef31f8250.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "完整11題幹/四點四選、原北箭頭、島西南丙密線臨海部位親見；使用者已確認correction-q347，沿C不重問方向。原AI轉正重畫錯圖不採，不改原島輪廓或高度。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d",
+  "answerCheckedAgainst": "使用者已確認C與原卷紅C，原圖指北針與丙方位/密線交叉判斷；蘭陽博物館主文頭城東方海域地理背景佐證。",
+  "references": [
+    {
+      "title": "蘭陽博物館020期：龜山島海域地質",
+      "url": "https://www.lym.gov.tw/ch/collection/epaper/epaper-detail/138041f0-1180-11ea-8482-2760f1289ae7/",
+      "supports": "龜山島位於宜蘭頭城東方海域，平原可見島的位置背景",
+      "access": "官方HTML主文145行及urllib實讀；不引用與題目無關精確高程面積"
+    }
+  ],
+  "rationale": "精確方向箭頭與同等高距線密比較，讓方向及坡度兩條件合併，不讓AI改原島或增加乙點；不推測武器射程或作現地部署建議。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "C",
+    "arrowStart": [
+      125,
+      82
+    ],
+    "arrowEnd": [
+      68,
+      118
+    ],
+    "towardPlainWestAndSouth": true,
+    "denseContourX": [
+      18,
+      29,
+      40,
+      51
+    ],
+    "sparseContourX": [
+      103,
+      123,
+      143,
+      163
+    ],
+    "sameDemoElevations": [
+      50,
+      100,
+      150,
+      200
+    ],
+    "originalMapReconstructed": false,
+    "tunnelLengthMeansRange": false,
+    "oldConfirmationReopened": false
+  },
+  "artSHA256": "915c4b039310f8abe93f3d472afc20cbc86209851b36739cdcd179be82bbfe97",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T10:26:15.269643+00:00",
+  "previewValidation": "docs/comics/q-347-preview-validation.json",
+  "visualReview": "完整原11/四項/指北針及丙西南臨海密線原圖親見，沿已確認C。新SVG實際箭頭西及南分量獨算，兩組同高差密線11距疏線20距驗算；明示不重畫原島或算射程。最終1440/390實看箭頭/密線數字與正文無碰撞，三寬PASS。",
+  "nativeArt": "assets/comics/q-347-art-915c4b0393.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:26:15.264864+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷11全文、北針與丙西南臨海密線必要圖親見；沿已確認C。新西南箭頭與同圖尺同等高距線密比較SVG核對，未重畫原島、未把800公尺坑道當射程。正式1440/390逐張親見，圖文字與完整原卷配對正確。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-347-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-347-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-347-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-347-validation.json"
+}

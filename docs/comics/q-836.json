@@ -1,0 +1,137 @@
+{
+  "id": "q-836",
+  "subject": "Geography",
+  "title": "看往年季節風險，找梅雨前的4月",
+  "art": "docs/comics/art/q-836-seasonal-risk.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-836-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 當年水情，和往年季節要分開",
+      "text": "題幹說2025年水情樂觀，最後卻問回顧往年最常何時吃緊。答題要看季節性風險，不能用這一次供水穩定，就推成其他年份也一樣。",
+      "alt": "新原生SVG分列2025當次供水樂觀與題目詢問往年何時吃緊，區分單次新聞情境與季節性問題，不冒稱當前水庫資料。"
+    },
+    {
+      "heading": "② 少雨累積，加上春季農業需水",
+      "text": "中南部常見枯水期約為11月至翌年4月。到春季末段，少雨已累積多月，還有農業用水需求，蓄水調度壓力可能加大。",
+      "alt": "新精確月份順序11、12、1、2、3、4，末端4月高亮；少雨累積與春季農業需水構成概念關係，不畫虛構水庫實測水位或蓄水百分比。"
+    },
+    {
+      "heading": "③ 四個月份中，4月最接近枯水尾端",
+      "text": "梅雨一般在5、6月。四個選項中，4月最接近枯水季尾端、梅雨前的時段，因此選B。這是常見季節風險，不表示全臺每年4月都必缺水。",
+      "alt": "新月份關係圖將4月置於5至6月梅雨之前，箭頭表示季節先後，不是預報必然有雨或保證水庫補滿。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 往年常見風險，不能當作必然事件",
+    "answer": "答案 B：4月",
+    "points": [
+      "枯水季累積少雨，春季仍有用水需求。",
+      "4月接近梅雨季之前的枯水尾端。",
+      "依四個選項比較，不把單次樂觀水情當常態。",
+      "各地、各年情況不同，並非4月必然缺水。"
+    ]
+  },
+  "protectedWords": [
+    "季節性風險",
+    "水情樂觀",
+    "供水穩定",
+    "枯水期",
+    "枯水季",
+    "中南部",
+    "春季末段",
+    "少雨累積",
+    "農業用水",
+    "蓄水調度",
+    "梅雨",
+    "5、6月",
+    "4月",
+    "枯水尾端"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini062-edf184226da937.jpg"
+  ],
+  "originalVisualCheck": "實看原卷22題完整2025春耕/3月20日/兩波鋒面及回顧往年問句、1/4/7/10四月份，原黑A紅B；原題當年北區水情與一般季節比較須分開，原文不改。",
+  "answerCheckedAgainst": "正式B與原卷紅B；國家災害防救科技中心乾旱主文說11–4枯水、春季常見旱災及農業一期作需求；氣象署梅雨主文核5–6月及中南部季節差。",
+  "references": [
+    {
+      "title": "國家災害防救科技中心：臺灣旱災通常何時發生",
+      "url": "https://dra.ncdr.nat.gov.tw/Frontend/Disaster/DisasterDetail/Menu000039",
+      "access": "官方主文第80–85行已讀",
+      "supports": "11–4枯水期、多月少雨累積與農業一期作需求，旱災通常春季發生"
+    },
+    {
+      "title": "中央氣象署：乾旱",
+      "url": "https://climate.cwa.gov.tw/Drought",
+      "access": "官方頁及搜尋完整段落已讀",
+      "supports": "中南部秋冬枯水至春季的風險及梅雨補水的重要性"
+    },
+    {
+      "title": "中央氣象署：季節氣候與梅雨",
+      "url": "https://climate.cwa.gov.tw/SeasonalClimate?subpage=PlumRain",
+      "access": "官方頁與梅雨完整段落已讀",
+      "supports": "5–6月梅雨季；不是每年固定日期或保證蓄水補足"
+    }
+  ],
+  "rationale": "季節推論使用精確月份/問句層次/因果概念SVG，比單畫乾裂水庫不易造成每年4月必乾旱或假水位印象；保留中南部典型與跨年地域差異。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "timingEvidence": "docs/comics/q-836-timing.json",
+  "manualLineBreaks": false,
+  "artSHA256": "010595511d216033526ec9cf527186ebf017a86866a7c14c923b4b7eeff49f42",
+  "diagramChecks": {
+    "monthsParsedFromActualSVG": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthSequenceCrossesYear": true,
+    "aprilBeforeMayJune": true,
+    "actualReservoirPercentagesInvented": false,
+    "everyAprilDroughtClaim": false,
+    "allTaiwanUniformRainfallClaim": false,
+    "correctOption": "B"
+  },
+  "startedAt": "2026-10-29T10:10:59.632925+00:00",
+  "completedAt": "2026-10-29T10:14:46.331909+00:00",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T10:26:15.317104+00:00",
+  "previewValidation": "docs/comics/q-836-preview-validation.json",
+  "visualReview": "原卷22全文四月份與紅B親見；官方NCDR乾旱主文核季節性/少雨與農需，CWA核梅雨5–6月與中南部差異。實際SVG月份11/12/1/2/3/4解析核序，無假造水位或每年必缺水。1440/390隔離成品實看，三寬預設收合/解碼/文字不拆詞溢出/同欄寬同列高與手機自然高PASS。",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-836-1440.png",
+    "/tmp/weirugo-comic-previews/q-836-390.png"
+  ],
+  "nativeArt": "assets/comics/q-836-art-010595511d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:26:15.313784+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "閒置協助製作：原卷22全題/四月份與紅B親見，官方NCDR與CWA主文核枯水累積/農需及5–6月梅雨；新精確SVG月份跨年順序與4月在梅雨前正確，不畫假水位、不宣稱每年全臺必缺水。隔離3寬與正式6項皆PASS，桌手機正式成品再次親見。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-836-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-836-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-836-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-836-validation.json"
+}

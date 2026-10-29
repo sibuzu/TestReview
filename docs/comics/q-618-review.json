@@ -1,0 +1,31 @@
+{
+  "id": "q-618",
+  "subject": "English",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-29T02:42:18.452470+00:00",
+  "checkedAt": "2026-10-29T02:44:40.854377+00:00",
+  "completedAt": "2026-10-29T02:44:40.854377+00:00",
+  "visualChecked": true,
+  "answerCheckedAgainst": "來源文字基礎填空2完整句The cat ___ sleeping under the chair及原解答is；第三人稱單數＋is＋V-ing，答案is不變。",
+  "source": {
+    "url": "https://share.gemini.google/0KrY8NZ0TTP2",
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "questionLines": "61–65",
+    "answerLines": "144–148",
+    "read": true,
+    "originalPhotoExpected": false
+  },
+  "reason": "此題僅判斷The cat單數而填is，現有完整答案已用一句示範加一句主詞/現在進行式規則講清，沒有多段推理或易混角色可由四格減輕。貓在椅子下的情境圖能顯示sleeping/under，卻無法判斷am/is/are的主詞一致；三幅貓圖會重複場景。亦評估原生The cat→is→sleeping分塊，但只會把現有同一句機械重排，不增加判斷依據。因此逐題判定保留現有短解說，不加裝飾圖；不是因為無原卷照片或無法產圖而略過。",
+  "nativeDiagramConsidered": true,
+  "preserveQuestionAnswer": true,
+  "sourceAIUsed": false,
+  "validationFile": "docs/comics/q-618-validation.json",
+  "visualReview": "以新頁1440/1120/390確認答案預設收合，單次展開後完整例句及單數主詞/is sleeping規則均可讀；實看1440及390截圖，無水平溢出、無缺字，文字來源無原題附圖提示正確。未點個人標記、functions路由全攔截。",
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:46:17.596043+00:00",
+    "sourceActuallyRead": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "note": "來源完整文字題與is解答核對，正式桌手機展開成品實看；The cat單數決定is，sleeping圖只重述位置/動作而不解主詞一致，原生詞塊亦僅重排同一句，短解保留較合此題。"
+  }
+}

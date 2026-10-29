@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.47b02e3de656",
+  "revision": "2026-10-27.5b2ea352df68",
   "subjects": [
     {
       "id": "Chinese",
@@ -6129,7 +6129,48 @@
           "alt": "原題第 10 題附圖",
           "caption": "依原卷裁切的作答附圖"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "動物保育與減少汙染，同屬環境倫理",
+        "art": "assets/comics/q-054-art-9aa7eb790e-web.webp",
+        "panels": [
+          {
+            "heading": "① 紙貓熊海報，倡導保育動物",
+            "text": "海報要大家守護瀕臨絕種動物。對象是動物與自然環境，因此先抓住環境倫理，不是只看到免費展覽或公益活動就判斷。",
+            "alt": "少量紙工藝貓熊樣本，材質有紙折痕，不是活體貓熊、不代表1600隻的精確陳列或真實展場復原。"
+          },
+          {
+            "heading": "② C也關心人類行為對環境的影響",
+            "text": "C倡導低碳、減少汙染的大眾運輸，把自然環境納入考量。雖然實際行為不同，關懷環境的倫理方向相近，所以能與保育動物配對。",
+            "alt": "無品牌市區公車與樹木街景，示意公共運輸及空氣品質關懷，不生成排放數據或斷言生命週期零汙染。"
+          },
+          {
+            "heading": "③ 都是正向行為，倫理重點仍不同",
+            "text": "A重點是關懷弱勢；B是個人隱私；D是校園安全與人際相處。題目問與海報相同的倫理觀念，最直接對應的是C的環境關懷。",
+            "alt": "師生比較四張空白卡，所有選項類別由HTML清楚呈現，不把未選行為畫成負面，也不重製來源AI錯誤處罰情節。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：低碳、減少汙染的大眾運輸",
+          "points": [
+            "保育動物：關懷自然環境。",
+            "減少汙染：同樣考量環境影響。",
+            "比較倫理對象，不把所有公益都分同一類。"
+          ]
+        },
+        "protectedWords": [
+          "紙貓熊",
+          "保育動物",
+          "環境倫理",
+          "低碳",
+          "汙染",
+          "自然環境",
+          "公益",
+          "個人隱私",
+          "校園安全"
+        ]
+      }
     },
     {
       "id": "q-055",
@@ -19065,7 +19106,53 @@
           "alt": "數學延伸練習4｜正三角形內的大角對大邊作答附圖",
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先比較對邊，才能判斷角度大小",
+        "art": "assets/comics/q-183-art-0884047c03.svg",
+        "panels": [
+          {
+            "heading": "① 平行線先找出兩個正三角形",
+            "text": "DE∥AC、EF∥AB，外框又是正三角形，因此△BDE與△CEF都是正三角形。在直線BC上，∠DEF＝180°−60°−60°＝60°。",
+            "alt": "依正確平行條件精確構圖，BDE藍色、CEF橘色，E點內角60度；不套用別題DF平行BC條件。"
+          },
+          {
+            "heading": "② 用相等線段，把已知不等式搬進來",
+            "text": "△BDE給出DE＝BD＝BE；△CEF給出EF＝EC。又BC＝AB，扣掉BE＝BD，得EC＝AD。所以BD＞AD就變成DE＞EF。",
+            "alt": "藍色BD/DE/BE等長，橘色AD/EC/EF等長；藍色大於橘色，由完整正三角形的邊長關係推出。"
+          },
+          {
+            "heading": "③ 同一三角形，短邊對較小角",
+            "text": "在△DEF內，EF較短，所對的∠EDF＝α較小；DE較長，所對的∠DFE＝β較大。α＋β＝120°且α＜β，所以α＜60°。",
+            "alt": "只保留精確比例的DEF三角形，長邊DE藍色對F點β，短邊EF橘色對D點α，E角60度；非特定角度數值範例。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：∠DEF＝60°，∠EDF＜60°",
+          "points": [
+            "先由平行線得到兩個小正三角形。",
+            "把BD＞AD轉為DE＞EF。",
+            "大邊對大角，小邊對小角；不能只憑圖猜。"
+          ]
+        },
+        "protectedWords": [
+          "正三角形",
+          "△BDE",
+          "△CEF",
+          "△DEF",
+          "DE∥AC",
+          "EF∥AB",
+          "BD＞AD",
+          "DE＞EF",
+          "∠DEF",
+          "∠EDF",
+          "∠DFE",
+          "60°",
+          "120°",
+          "α＜β"
+        ]
+      }
     },
     {
       "id": "q-184",
@@ -19135,7 +19222,50 @@
           "alt": "數學延伸練習5｜距離改變後的內角關係作答附圖",
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "距離變化先定位交點，再分辨內外角",
+        "art": "assets/comics/q-184-art-a4bb97f6aa.svg",
+        "panels": [
+          {
+            "heading": "① 兩組垂距，分開比較",
+            "text": "A、B到CD的距離為2、4，從B往A更靠近CD；A、D到BC的距離為5、3，從A往D更靠近BC。距離都指垂直距離，不是沿邊走的長度。",
+            "alt": "同一精確四邊形，綠色A/D至BC垂距5/3，藍色A/B至CD垂距2/4；垂足直角標示，CD為斜線不是特例直角。"
+          },
+          {
+            "heading": "② 延長BA、CD，得到上方的W",
+            "text": "依圖延長BA與CD，在A、D上方交於W。原四邊形的∠B、∠C，就是△WBC的兩個底角，所以∠B＋∠C＝180°−∠W＜180°。",
+            "alt": "W在A與D上方、A在線段WB上、D在線段WC上，三角形WBC底角正是原四邊形B/C；不採原AI錯位ASCII圖。"
+          },
+          {
+            "heading": "③ 延長AD、BC，在外側交於V",
+            "text": "V在D、C外側。原∠C與∠VCD互補，原∠D與∠VDC互補；兩個原內角相加，得到∠C＋∠D＝180°＋∠V＞180°。",
+            "alt": "右側三角形VCD著金色，原四邊形C/D內角以綠弧標示，分清兩對互補角，V位於延長AD與BC的交點。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：B＋C＜180°；C＋D＞180°",
+          "points": [
+            "先找延長線交點在哪一側，不能只背角和方向。",
+            "W三角形：B、C是其中兩內角，和小於180°。",
+            "V三角形：原C、D各補一個內角，和大於180°。"
+          ]
+        },
+        "protectedWords": [
+          "垂直距離",
+          "直線BC",
+          "線段WB",
+          "線段WC",
+          "△WBC",
+          "∠VCD",
+          "∠VDC",
+          "∠B＋∠C",
+          "∠C＋∠D",
+          "180°−∠W",
+          "180°＋∠V"
+        ]
+      }
     },
     {
       "id": "q-185",
@@ -19962,7 +20092,53 @@
           "alt": "數學第6題｜用共高面積比比較五邊形邊長作答附圖",
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "共高先比底，兩倍再比份數",
+        "art": "assets/comics/q-202-art-37d0494ded.svg",
+        "panels": [
+          {
+            "heading": "① AB與CE平行，兩三角形共高",
+            "text": "△ABC以AB為底，△ACE以CE為底，高都是兩條平行線的距離。面積比等於底邊比，AB：CE＝12：27＝4：9；正三角形給出CE＝AE。",
+            "alt": "精確五邊形左側三角形面積12、中央正三角形27，AB與CE同藍色；虛線h是兩平行線距離，AB延長線保留。"
+          },
+          {
+            "heading": "② 換另一組底邊，比AC與DE",
+            "text": "AC∥DE，△ACE以AC為底，△CDE以DE為底，也有共同的高。AC：DE＝27：15＝9：5。再用AC＝AE，就得AE：DE＝9：5。",
+            "alt": "中央正三角形面積27、右側三角形15，平行底AC與DE橘色，h垂直兩底；不把斜邊直接當高。"
+          },
+          {
+            "heading": "③ 同一套份數，再比較兩倍邊長",
+            "text": "可統一看成AE有9份、AB有4份、DE有5份。因此2AB有8份，2DE有10份，8＜9＜10，所以AE＞2AB、AE＜2DE。",
+            "alt": "精確同單位條：AE九份、2AB八份、2DE十份，條長與每一等份完全一致；不是面積條。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：AE＞2AB，AE＜2DE",
+          "points": [
+            "共高三角形：面積比＝底邊比。",
+            "用正三角形三邊相等，把CE、AC換成AE。",
+            "統一份數後，8＜9＜10直接比較。"
+          ]
+        },
+        "protectedWords": [
+          "共高",
+          "面積比",
+          "底邊比",
+          "正三角形",
+          "△ABC",
+          "△ACE",
+          "△CDE",
+          "AB∥CE",
+          "AC∥DE",
+          "AE＞2AB",
+          "AE＜2DE",
+          "4：9",
+          "9：5",
+          "8＜9＜10"
+        ]
+      }
     },
     {
       "id": "q-203",
@@ -20034,7 +20210,62 @@
           "alt": "數學第7題｜正八邊形與正六邊形的直線方向作答附圖",
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "判斷直線是否相交，要比方向",
+        "art": "assets/comics/q-203-art-8c562bfa15.svg",
+        "panels": [
+          {
+            "heading": "① 正多邊形外角，決定邊的方向",
+            "text": "正八邊形外角360°÷8＝45°；正六邊形外角360°÷6＝60°。以D、E、T所在直線L為基準，沿邊逐次轉向來比較方向。",
+            "alt": "新精確正八/六邊形位L兩側共用E，D/E/T共線；選不同邊長作示意，未把兩圖邊長相同加成條件。"
+          },
+          {
+            "heading": "② 甲：AH與QR平行，並不相交",
+            "text": "AH∥DE，QR∥ET，而DE、ET都在L上，所以AH∥QR。兩線分居L兩側、不重合，延長也不相交，因此甲錯誤。",
+            "alt": "AH、L、QR三條互平行直線，原線段粗實線、延伸虛線，AH/QR分居兩側不重合。"
+          },
+          {
+            "heading": "③ 乙：HG與PQ不同方向，延長會相交",
+            "text": "HG、PQ與L所成銳角分別為45°、60°，所以不平行。把直線延長，會相交於輔助點K，乙正確；不需計算K的位置。",
+            "alt": "保留同一模型HG/PQ真實所在位置，向上左延長交於K，不把兩線段原位置挪在一起；L銳角45/60標記分開。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：甲錯誤，乙正確",
+          "points": [
+            "AH∥QR且不重合，不相交。",
+            "HG與PQ不平行，延長後相交。",
+            "線段沒有碰到，不代表所在直線不相交。"
+          ]
+        },
+        "protectedWords": [
+          "正多邊形",
+          "正八邊形",
+          "正六邊形",
+          "外角",
+          "直線L",
+          "基準",
+          "45°",
+          "60°",
+          "360°",
+          "AH",
+          "QR",
+          "HG",
+          "PQ",
+          "AH∥DE",
+          "QR∥ET",
+          "AH∥QR",
+          "分居",
+          "不重合",
+          "不平行",
+          "銳角",
+          "輔助點K",
+          "甲錯誤",
+          "乙正確"
+        ]
+      }
     },
     {
       "id": "q-204",
@@ -20098,7 +20329,53 @@
           "alt": "數學第8題｜兩條平行線轉換三角形角度作答附圖",
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先找補角，再把角度搬回三角形",
+        "art": "assets/comics/q-204-art-9f1aa2bb9e.svg",
+        "panels": [
+          {
+            "heading": "① 120°先取補角，再找C角",
+            "text": "L∥BC。在L與AC交點，120°旁邊的補角是60°，這個角與∠C互為對應角，所以∠C＝60°。不能把120°直接當C角。",
+            "alt": "精確L水平且平行BC，交點下方鈍角120度與左上銳角60度相鄰互補，C角同為60度，藍色顯示平行底。"
+          },
+          {
+            "heading": "② 115°也先取補角，得到A角",
+            "text": "M∥AB。圖示115°的補角是65°；由平行線可把它對應到∠A，所以∠A＝65°。先確認兩條射線，再辨認內外方向。",
+            "alt": "精確M平行AB，與AC交點左側115度及上方65度相鄰互補，A內角65度；不把鈍角標在錯誤扇形。"
+          },
+          {
+            "heading": "③ 只留三角形，使用內角和",
+            "text": "三角形內角和是180°。扣除已求得的65°與60°，剩下∠B＝55°，選A。60°和65°分別是C、A，不是B。",
+            "alt": "同一精確三角形移除輔助平行線，A65度、C60度、B55度，弧線與射線角度吻合。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：∠B＝55°",
+          "points": [
+            "兩個已知鈍角都要先找相鄰補角。",
+            "依平行線，把60°與65°對應回C、A。",
+            "三角形內角和180°，剩下B角55°。"
+          ]
+        },
+        "protectedWords": [
+          "補角",
+          "對應角",
+          "L∥BC",
+          "M∥AB",
+          "120°",
+          "115°",
+          "180°",
+          "60°",
+          "65°",
+          "55°",
+          "∠A",
+          "∠B",
+          "∠C",
+          "內角和"
+        ]
+      }
     },
     {
       "id": "q-205",
@@ -21978,13 +22255,61 @@
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
       ],
-      "explanationFigures": [
-        {
-          "src": "assets/questions/q-235-proof.svg",
-          "alt": "AC的中垂線通過D，並標示等腰三角形兩個30度底角",
-          "caption": "解說輔助圖：中垂線L及推得的30°只在展開後顯示。"
-        }
-      ]
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "中垂線看等距：D在，B不在",
+        "art": "assets/comics/q-235-art-c287880a0e.svg",
+        "panels": [
+          {
+            "heading": "① 平行線求C，再把角平分",
+            "text": "AD∥BC，∠D＝120°，所以∠BCD＝60°。AC平分此角，得到∠BCA＝∠ACD＝30°，圖中兩個分角一樣大。",
+            "alt": "新精確梯形符合B110°/D120°與AC角平分，C兩個30°分角分別標示，並非用不準比例圖量角。"
+          },
+          {
+            "heading": "② D到A、C等距，所以在L上",
+            "text": "AD∥BC，得∠DAC＝∠BCA＝30°。在△ADC中兩底角相等，故DA＝DC。到A、C等距的點在AC中垂線上，因此D在L上。",
+            "alt": "新圖高亮△ADC、AD/DC同記號、A與C30°，L穿D及AC中點並有垂直標記，D字標避開L。"
+          },
+          {
+            "heading": "③ B到A、C不等距，所以不在L上",
+            "text": "△ABC中，∠BAC＝180°−110°−30°＝40°。BA與BC的對角分別是30°、40°，兩角不等，故BA≠BC，所以B不在L上。",
+            "alt": "新圖高亮△ABC與BA/BC，A40°/B110°/C30°，B不在中垂線L上，兩邊不畫相等記號。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：B不在L上，D在L上",
+          "points": [
+            "D：DA＝DC，符合到兩端等距。",
+            "B：BA≠BC，不符合等距條件。",
+            "角平分線幫忙求角；判斷中垂線要再看距離。"
+          ]
+        },
+        "protectedWords": [
+          "中垂線",
+          "角平分線",
+          "平行線",
+          "角平分",
+          "等距",
+          "等距條件",
+          "兩底角",
+          "兩端",
+          "30°",
+          "40°",
+          "60°",
+          "110°",
+          "120°",
+          "∠BCD",
+          "∠BCA",
+          "∠ACD",
+          "∠DAC",
+          "∠BAC",
+          "DA＝DC",
+          "BA≠BC",
+          "AD∥BC",
+          "△ADC",
+          "△ABC"
+        ]
+      }
     },
     {
       "id": "q-236",
@@ -22233,13 +22558,61 @@
           "caption": "依原題條件重繪；不含原卷手寫推導與答案"
         }
       ],
-      "explanationFigures": [
-        {
-          "src": "assets/questions/q-238-proof.svg",
-          "alt": "E到AD、BC、CD的垂足F、G、H及對應高度",
-          "caption": "解說輔助圖：以F、G、H表示計算面積所需的垂足。"
-        }
-      ]
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先認正三角形，再用高求面積比",
+        "art": "assets/comics/q-238-art-6d854bcc74.svg",
+        "panels": [
+          {
+            "heading": "① BC＝BE＝CE，是正三角形",
+            "text": "正方形有AB＝BC，配合已知AB＝BE＝CE，可知△BCE為正三角形。面積比不因等比縮放改變，所以可方便設正方形邊長為2。",
+            "alt": "新圖高亮△BCE與AB/BC/BE/CE共同等長記號，正方形方向和原卷相同，不把E移出正方形。"
+          },
+          {
+            "heading": "② 用正三角形的高，求三段距離",
+            "text": "E向BC的垂足G在中點，BG＝GC＝1，故EG＝√(2²−1²)＝√3。E到AD的高EF＝2−√3；E到CD的距離EH＝1。",
+            "alt": "新精確圖標F/G/H，EG=√3、BG=GC=1、EH=1，三垂直標記留空心，EF是靠上方短高而非整個正方形高度。"
+          },
+          {
+            "heading": "③ 同用底邊2，兩面積分別求",
+            "text": "藍色△ADE面積＝2−√3，金色△CDE面積＝1。因此前者除以後者，得到比值2−√3；不要把兩個面積直接相加。",
+            "alt": "新圖只著色上方薄△ADE與右側△CDE，底AD/CD同為2，高分別EF/EH，顯示實際面積差異而非人物比喻。"
+          }
+        ],
+        "fourth": {
+          "answer": "a＋b＝1（a＝2，b＝−1）",
+          "points": [
+            "面積比＝2−√3＝2＋(−1)√3。",
+            "a是2，b是負1，不是正1。",
+            "題目最後問a＋b，不是只寫面積比。"
+          ]
+        },
+        "protectedWords": [
+          "正方形",
+          "正三角形",
+          "等比縮放",
+          "面積比",
+          "比值",
+          "底邊",
+          "垂足",
+          "中點",
+          "AB＝BC",
+          "AB＝BE＝CE",
+          "BG＝GC＝1",
+          "EF＝2−√3",
+          "EG＝√3",
+          "EH＝1",
+          "2−√3",
+          "△BCE",
+          "△ADE",
+          "△CDE",
+          "a＋b＝1",
+          "a＝2",
+          "b＝−1",
+          "負1",
+          "正1"
+        ]
+      }
     },
     {
       "id": "q-239",
@@ -30848,7 +31221,49 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "範圍與整數，兩個條件都要過關",
+        "art": "assets/comics/q-322-art-ef8a078f14.svg",
+        "panels": [
+          {
+            "heading": "① 先解不等式，2是空心端點",
+            "text": "−5x＋11＜2x−3，兩邊加5x、再加3，得14＜7x。除以正數7，不等號方向不變，得x＞2。x是整數，只能取3、4、5、…。",
+            "alt": "等距數線2處空心圓，向右射線及3/4/5綠色整數點，1和2不列入整數解。"
+          },
+          {
+            "heading": "② 代數式的值不是任意大於9的數",
+            "text": "x每增加1，7x−5就增加7，例如16、23、30、…。因此不能只看選項是否大於9；還要確認它能由符合條件的整數x算出。",
+            "alt": "輸入輸出配對3→16、4→23、5→30，省略號後17→114；只作表格，不把跨段間距畫成相同數線尺度。"
+          },
+          {
+            "heading": "③ 四個選項都代回，檢查兩關",
+            "text": "設選項值為v，則x＝(v＋5)/7。A得1，B得2，都不大於2；C得78/7，雖大於2卻非整數；D得17，同時符合兩條件。",
+            "alt": "四列逆算表：A2→1叉、B9→2叉、C73→78/7叉、D114→17勾；端點和非整數分開判斷。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：114可由x＝17得到",
+          "points": [
+            "x＞2，不包含端點2。",
+            "C雖大於9，反算x卻不是整數。",
+            "D回代不等式與7x−5，兩者皆符合。"
+          ]
+        },
+        "protectedWords": [
+          "整數",
+          "端點",
+          "x＞2",
+          "x＝2",
+          "x＝17",
+          "x＝78/7",
+          "7x−5",
+          "78/7",
+          "114",
+          "嚴格大於"
+        ]
+      }
     },
     {
       "id": "q-323",
@@ -30912,7 +31327,50 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "x要整數，P也要整數，兩條件一起查",
+        "art": "assets/comics/q-323-art-b4a6c50866.svg",
+        "panels": [
+          {
+            "heading": "① 先解不等式，再取整數x",
+            "text": "−3x＋5＜8−x，移項得−2x＜3。除以−2要反向，所以x＞−1.5；x為整數，可從−1、0、1、2依序檢查。",
+            "alt": "x＞−1.5的開口射線與整數點−1/0/1/2，−1.5不納入，最小整數x為−1。"
+          },
+          {
+            "heading": "② 最小x，不一定給整數P",
+            "text": "代入x＝−1、0、1、2，P依序為4/5、6/5、8/5、2。第一個整數是2；不能把4/5直接向上取成1，就省略檢查對應的x。",
+            "alt": "對照表x與P的四筆精確分數，最後一列x2/P2著綠色；不把4/5或6/5當整數。"
+          },
+          {
+            "heading": "③ 反查較小選項，排除漏條件",
+            "text": "P＝0時x＝−3，不符合範圍；P＝1時x＝−1/2，不是整數。P＝2時x＝2，兩條件都符合，因此最小整數值為2，選C。",
+            "alt": "P0/1/2對應x−3/−1/2/2分別標不合範圍、非整數、兩條件皆合，不把P整數與x整數混同。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：P的最小整數值是2",
+          "points": [
+            "不等式除以負數，方向要反轉。",
+            "x≥−1且x為整數；P也必須是整數。",
+            "P隨x增加，從最小x依序查，第一個整數P為2。"
+          ]
+        },
+        "protectedWords": [
+          "−2x＜3",
+          "x＞−1.5",
+          "x＝−1",
+          "P＝1",
+          "P＝2",
+          "x＝−1/2",
+          "x＝2",
+          "最小整數值",
+          "4/5",
+          "6/5",
+          "8/5"
+        ]
+      }
     },
     {
       "id": "q-324",
@@ -41121,7 +41579,47 @@
       ],
       "passage": "Mukbang: Why Do People Watch Others Eat?\n\nMukbang is a new kind of online show. In these videos, people eat a lot of food while talking to their viewers. Many fans sit in front of a computer and watch them eat. In most countries, eating is a time for family and friends to get together and have some fun. People share food, stories, and joy. But some people eat alone and feel lonely. In South Korea, many people live alone, but eating alone is still not a common habit. Because of this, Mukbang becomes very popular.\n\nMukbang started in 2010 on a Korean website, AfreecaTV. The word “Mukbang”（먹방）comes from two Korean words: 먹（meok, meaning “eat”）and 방송（bangsong, meaning “broadcast”）. It means eating on live videos. Watching someone eat and talk makes people feel like they are eating together, even if they are alone.\n\nSome people worry that Mukbang can make viewers eat too much. In South Korea, the number of overweight people grew from 26% in 1998 to 35% in 2016. In 2018, Korea made rules to help people eat healthier and watch Mukbang safely. However, some people still think the number may grow more by 2030. Even with these worries, thousands of people watch their favorite Mukbang programs every day. Many enjoy the food, the talk and the feeling of not being alone.\n\n字詞：viewer 觀眾；website 網站；broadcast 廣播；overweight 肥胖的；feeling 感覺。",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "找流行原因：獨食的孤單與線上陪伴",
+        "art": "assets/comics/q-457-art-1e34858449-web.webp",
+        "panels": [
+          {
+            "heading": "① Why問原因，先找lonely",
+            "text": "第一段說，有些人eat alone而feel lonely，接著以Because of this說明吃播流行。這個因果線索，比看到影片裡很多食物更重要。",
+            "alt": "一人用餐的觀眾與空椅子，示意文章獨食背景；不把每位獨食者都畫成痛苦或有疾病。"
+          },
+          {
+            "heading": "② 螢幕帶來一起用餐的感覺",
+            "text": "第二段說，看人吃東西、聽人聊天，會feel like they are eating together。這是陪伴感，觀眾實際上仍可能獨自在家，不是主播到他家吃飯。",
+            "alt": "主持人只在筆電畫面內說話用餐，觀眾在自己的空間觀看，兩個角色分開；不畫成實際同桌或贈送食物。"
+          },
+          {
+            "heading": "③ by themselves，就是自己一個人",
+            "text": "C的eat by themselves對應文中的eat alone。因為不喜歡獨食的孤單而尋求陪伴，符合本文原因；文中沒有說觀眾靠觀看賺錢，也未比較餐廳花費。",
+            "alt": "同一觀眾仍獨坐但看著螢幕感到陪伴，沒有金錢、餐廳價差或大量進食獎勵的暗示。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：不喜歡自己一個人用餐",
+          "points": [
+            "原因線索：feel lonely → Because of this。",
+            "by themselves＝alone；陪伴感解釋流行。",
+            "後段對過量進食的疑慮，不能取代題目所問的流行原因。"
+          ]
+        },
+        "protectedWords": [
+          "Mukbang",
+          "eat alone",
+          "feel lonely",
+          "Because of this",
+          "by themselves",
+          "eating together",
+          "陪伴感",
+          "流行原因"
+        ]
+      }
     },
     {
       "id": "q-458",
@@ -41184,7 +41682,49 @@
       ],
       "passage": "Mukbang: Why Do People Watch Others Eat?\n\nMukbang is a new kind of online show. In these videos, people eat a lot of food while talking to their viewers. Many fans sit in front of a computer and watch them eat. In most countries, eating is a time for family and friends to get together and have some fun. People share food, stories, and joy. But some people eat alone and feel lonely. In South Korea, many people live alone, but eating alone is still not a common habit. Because of this, Mukbang becomes very popular.\n\nMukbang started in 2010 on a Korean website, AfreecaTV. The word “Mukbang”（먹방）comes from two Korean words: 먹（meok, meaning “eat”）and 방송（bangsong, meaning “broadcast”）. It means eating on live videos. Watching someone eat and talk makes people feel like they are eating together, even if they are alone.\n\nSome people worry that Mukbang can make viewers eat too much. In South Korea, the number of overweight people grew from 26% in 1998 to 35% in 2016. In 2018, Korea made rules to help people eat healthier and watch Mukbang safely. However, some people still think the number may grow more by 2030. Even with these worries, thousands of people watch their favorite Mukbang programs every day. Many enjoy the food, the talk and the feeling of not being alone.\n\n字詞：viewer 觀眾；website 網站；broadcast 廣播；overweight 肥胖的；feeling 感覺。",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "看完整篇，作者同時呈現正反兩面",
+        "art": "assets/comics/q-458-art-5a631149c8-web.webp",
+        "panels": [
+          {
+            "heading": "① 前兩段：為什麼有人喜歡看？",
+            "text": "前兩段寫共同用餐的樂趣，以及獨自吃飯的人能得到陪伴感。這些是文章呈現的吸引力，不是作者要求每個人都去看吃播。",
+            "alt": "成年觀眾用正常份量晚餐配著筆電上親切主持人的吃播，示意文中陪伴感，不宣稱所有觀眾都有同樣感受。"
+          },
+          {
+            "heading": "② Some people worry：轉入疑慮",
+            "text": "第三段以Some people worry提出有人擔心觀眾吃得過多。這是另一面的觀點；文章列出的兩個年代比例，不能單獨證明吃播造成肥胖。",
+            "alt": "同一成年觀眾在添下一份食物前停下思考，普通料理量；不畫身材羞辱、暴食誇張或看影片導致身體改變的假因果。"
+          },
+          {
+            "heading": "③ Even with these worries：仍有人喜歡",
+            "text": "最後又回到仍有觀眾享受食物、談話與不孤單的感覺。把全文合起來看，作者同時呈現好處與疑慮；A、B、D都只抓到一面或說得太強。",
+            "alt": "師生並列兩份不同顏色的空白資料卡，比較正反面後看整體作者態度，精確英文及選項以HTML排版。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：both good and bad sides",
+          "points": [
+            "前面談樂趣與陪伴，後面提出吃太多的疑慮。",
+            "作者沒有要求所有人停止觀看。",
+            "判斷作者態度，要涵蓋全文正反兩面。"
+          ]
+        },
+        "protectedWords": [
+          "Mukbang",
+          "Some people",
+          "worry",
+          "Even with",
+          "these worries",
+          "both good",
+          "bad sides",
+          "陪伴感",
+          "疑慮",
+          "作者態度"
+        ]
+      }
     },
     {
       "id": "q-459",
@@ -41247,7 +41787,49 @@
       ],
       "passage": "Mukbang: Why Do People Watch Others Eat?\n\nMukbang is a new kind of online show. In these videos, people eat a lot of food while talking to their viewers. Many fans sit in front of a computer and watch them eat. In most countries, eating is a time for family and friends to get together and have some fun. People share food, stories, and joy. But some people eat alone and feel lonely. In South Korea, many people live alone, but eating alone is still not a common habit. Because of this, Mukbang becomes very popular.\n\nMukbang started in 2010 on a Korean website, AfreecaTV. The word “Mukbang”（먹방）comes from two Korean words: 먹（meok, meaning “eat”）and 방송（bangsong, meaning “broadcast”）. It means eating on live videos. Watching someone eat and talk makes people feel like they are eating together, even if they are alone.\n\nSome people worry that Mukbang can make viewers eat too much. In South Korea, the number of overweight people grew from 26% in 1998 to 35% in 2016. In 2018, Korea made rules to help people eat healthier and watch Mukbang safely. However, some people still think the number may grow more by 2030. Even with these worries, thousands of people watch their favorite Mukbang programs every day. Many enjoy the food, the talk and the feeling of not being alone.\n\n字詞：viewer 觀眾；website 網站；broadcast 廣播；overweight 肥胖的；feeling 感覺。",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從拍攝與修圖語境，推回self＋camera",
+        "art": "assets/comics/q-459-art-abd630731d-web.webp",
+        "panels": [
+          {
+            "heading": "① 兩個線索一起讀，不必先懂韓文",
+            "text": "題目把taking 셀카和讓셀카 look better放在一起。結合四組候選詞，與拍攝影像相關的self、camera最能同時符合這些線索。",
+            "alt": "同一學習者把手機前鏡頭朝向自己自拍，畫面不含韓文或英文標籤，完整詞義由文字解釋。"
+          },
+          {
+            "heading": "② online tools，呼應影像處理",
+            "text": "線上工具可以讓照片更好看，例如調整亮度或裁切。這和自拍語境相符；單看前文吃播，就選alone＋meal，反而忽略這題自己的新線索。",
+            "alt": "手機畫面是持機者本人的照片，不是別人替拍；未暗示照片中的人是另一個角色。"
+          },
+          {
+            "heading": "③ self＋camera，對應自己拍自己",
+            "text": "self指自己，camera指相機；셀카縮自self camera，表達自拍。먹방只是提示另一個詞也由詞組合成，並不表示셀카也和吃飯有關。",
+            "alt": "本人用電腦裁切、調亮自己的照片，沒有改身材、容貌比較或真實品牌操作步驟；與線上影像工具呼應。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：Self and camera",
+          "points": [
+            "把taking與online tools…look better合起來判斷。",
+            "self＋camera對應自拍，符合照片語境。",
+            "不要讓前文吃播的alone、meal，蓋過新題線索。"
+          ]
+        },
+        "protectedWords": [
+          "셀카",
+          "먹방",
+          "taking",
+          "look better",
+          "online tools",
+          "self camera",
+          "camera",
+          "alone",
+          "meal",
+          "自拍"
+        ]
+      }
     },
     {
       "id": "q-460",
@@ -47759,7 +48341,58 @@
       ],
       "passage": "我昔在田間，但知羊與牛。川平牛背穩，如駕百斛舟。舟行無人岸自移，我臥讀書牛不知。前有百尾羊，聽我鞭聲如鼓鼙。我鞭不妄發，視其後者而鞭之。澤中草木長，草長病牛羊。尋山跨坑谷，騰趠筋骨強。煙蓑雨笠長林下，老去而今空見畫。世間馬耳射東風，悔不長作多牛翁。",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從昔日牧養，讀到如今空見畫的悔",
+        "art": "assets/comics/q-540-art-8b5f4881a8-web.webp",
+        "panels": [
+          {
+            "heading": "① 牛背如舟，是比喻",
+            "text": "川平牛背穩，把騎牛比成駕大船；我臥讀書牛不知仍在牛背上。景物彷彿後移，不能讀成真的乘船出遊。",
+            "alt": "新製平坦田間牛背讀書情境，畫出實際水牛，沒有把比喻畫成真船。"
+          },
+          {
+            "heading": "② 留戀田間牧養，不等於游牧",
+            "text": "前段寫照看牛羊、山路奔走的往事，確實留戀牧養生活。但沒有逐水草遷徙的線索，C的荒野游牧擴大了原意。",
+            "alt": "新製農田附近牧羊往事情境，無沙漠、遷徙車隊或游牧帳篷，不憑詩句杜撰牛羊病因。"
+          },
+          {
+            "heading": "③ 空見畫與悔，直指末句情感",
+            "text": "老去而今空見畫，是如今只能望畫追想；悔不長作多牛翁，後悔沒有長久做牧養者。昔日與現在的落差，支持D。",
+            "alt": "新製老年文人室內望牛羊田間畫，感懷與後悔；非蘇軾寫實肖像，畫內不印詩文。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：對現狀的無奈與後悔",
+          "points": [
+            "五言、七言交錯，不是固定句式的近體詩。",
+            "牛、舟與羊、強等韻腳不同，不是一韻到底。",
+            "確實懷念牧養，但不能把田間牧養直接說成荒野游牧。"
+          ]
+        },
+        "protectedWords": [
+          "牛背",
+          "駕大船",
+          "讀書",
+          "乘船",
+          "比喻",
+          "牧養",
+          "游牧",
+          "荒野游牧",
+          "逐水草",
+          "空見畫",
+          "多牛翁",
+          "無奈",
+          "後悔",
+          "近體詩",
+          "五言",
+          "七言",
+          "韻腳",
+          "一韻到底",
+          "田間"
+        ]
+      }
     },
     {
       "id": "q-541",
@@ -47827,7 +48460,48 @@
       ],
       "passage": "【甲】\n姜公輔，不知何許人。登進士第，為校書郎。應制策科高等，授左拾遺，召入翰林為學士。歲滿當改官，公輔上書自陳，以母老家貧，以府掾俸給稍優，乃求兼京兆尹戶曹參軍，特承恩顧。才高有器識，每對見言事，德宗多從之。\n——《舊唐書・姜公輔傳》\n\n【乙】\n姜公輔，愛州日南人。第進士，補校書郎，以制策異等授右拾遺，為翰林學士。歲滿當遷，上書以母老賴祿而養，求兼京兆尹戶曹參軍事。公輔有高材，每進見，敷奏詳亮，德宗器之。\n——《新唐書・姜公輔傳》",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "籍貫、科名與職官，逐項對照兩文",
+        "art": "assets/comics/q-541-art-ea78df7d01.svg",
+        "panels": [
+          {
+            "heading": "① 籍貫：甲未詳記，乙有明文",
+            "text": "甲說「不知何許人」，沒有具體籍貫；乙寫「愛州日南人」，有明確記載。因此C符合甲文，不是A所說兩篇皆記愛州日南。",
+            "alt": "甲未詳記與乙愛州日南並列，分清文字記錄範圍，不把甲文未載畫成人物失憶。"
+          },
+          {
+            "heading": "② 進士：不同說法，意思相同",
+            "text": "甲的「登進士第」與乙的「第進士」，都表示考中進士。B說兩篇皆未提到進士，和兩文的明確記載相反。",
+            "alt": "甲登進士第、乙第進士兩條箭頭合到考中進士，詞序不同不代表身分不同。"
+          },
+          {
+            "heading": "③ D把不同資訊拼成錯誤結論",
+            "text": "「家貧」見於甲，屬家庭狀況；乙的「愛州日南」才是籍貫。「京兆尹戶曹參軍事」是所求兼任的官職，不能拼成出身於貧困的京城。",
+            "alt": "三色資訊卡分開籍貫、家庭狀況與京兆職官，京兆不能替換為出生地，家貧也不能移入乙文。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：甲文對出身未詳加說明",
+          "points": [
+            "不知何許人：本文未詳記籍貫，不是姜公輔自己不知道。",
+            "兩文都寫考中進士，不能漏讀科名。",
+            "比較閱讀，要核對哪篇說了什麼，以及資訊屬於哪一類。"
+          ]
+        },
+        "protectedWords": [
+          "姜公輔",
+          "愛州日南",
+          "不知何許人",
+          "登進士第",
+          "第進士",
+          "考中進士",
+          "京兆尹戶曹參軍事",
+          "家庭狀況",
+          "未詳記籍貫"
+        ]
+      }
     },
     {
       "id": "q-542",
@@ -47895,7 +48569,50 @@
       ],
       "passage": "【甲】\n姜公輔，不知何許人。登進士第，為校書郎。應制策科高等，授左拾遺，召入翰林為學士。歲滿當改官，公輔上書自陳，以母老家貧，以府掾俸給稍優，乃求兼京兆尹戶曹參軍，特承恩顧。才高有器識，每對見言事，德宗多從之。\n——《舊唐書・姜公輔傳》\n\n【乙】\n姜公輔，愛州日南人。第進士，補校書郎，以制策異等授右拾遺，為翰林學士。歲滿當遷，上書以母老賴祿而養，求兼京兆尹戶曹參軍事。公輔有高材，每進見，敷奏詳亮，德宗器之。\n——《新唐書・姜公輔傳》",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "比較明文與詳略，不替史料補因果",
+        "art": "assets/comics/q-542-art-034bb9936d.svg",
+        "panels": [
+          {
+            "heading": "① 同一項資料，並排才能比較",
+            "text": "甲只說不知何許人，未詳記籍貫；乙明寫愛州日南人，有具體地名。因此A比較地理資訊的精確與具體程度，能直接得到兩文支持。",
+            "alt": "籍貫欄甲不知何許人對乙愛州日南人，並排兩筆原句；沒有虛構古今地圖位置或現代行政對應。"
+          },
+          {
+            "heading": "② 省略或詳略不同，不等於互相否定",
+            "text": "甲的母老家貧，與乙的母老、賴祿而養可以相容。不能因乙較簡略就說甲完全不可信；為養母而求兼官，也不足以斷定貪慕富貴。",
+            "alt": "兩筆家庭描述卡保留原句並列，未畫互相矛盾符號，不將求薪俸虛構成貪財劇情。"
+          },
+          {
+            "heading": "③ 器重有寫，不代表晉升結果也寫了",
+            "text": "乙的德宗器之確實支持受器重，但這段沒有明寫因此晉升高官。D把一個有根據的前半句，接上未明示的結果與因果，推論超出本文。",
+            "alt": "德宗器之已記載卡與因此晉升高官問號卡，兩者間斷線問號表示缺證據，非已成立升遷箭頭。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：乙的籍貫記載更具體",
+          "points": [
+            "比較同一項目，不把沒寫當成否定。",
+            "求兼官奉養母親，不等同貪慕富貴。",
+            "分清楚明文、合理推論與自行補上的因果。"
+          ]
+        },
+        "protectedWords": [
+          "姜公輔",
+          "不知何許人",
+          "愛州日南人",
+          "母老家貧",
+          "賴祿而養",
+          "德宗器之",
+          "受器重",
+          "晉升高官",
+          "籍貫",
+          "貪慕富貴",
+          "詳略"
+        ]
+      }
     },
     {
       "id": "q-543",
@@ -50211,7 +50928,48 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "回到智者的態度：不偏向盲目樂觀或悲觀",
+        "art": "assets/comics/q-571-art-11d47cb585-web.webp",
+        "panels": [
+          {
+            "heading": "① 只見綠燈：一味看好事情",
+            "text": "樂觀者眼裡盡是綠燈，比喻總把事情想得順利。圖中只注意計畫優點，沒有一起考量困難；這是一種偏向，還不是全句最後讚許的態度。",
+            "alt": "同一學生做校慶手工計畫，過度興奮只看綠色機會卡，紅色疑慮卡放在邊緣；非道路交通情境。"
+          },
+          {
+            "heading": "② 只見紅燈：總覺得處處有阻礙",
+            "text": "悲觀者只看得到紅燈，比喻一味想到問題與阻礙。這能對應原有看法的局限，但題目要找整句意旨，不能只停在前兩種人。",
+            "alt": "學生同一計畫中只盯紅色疑慮卡、忽略綠色機會卡，表情普通憂慮，不畫真實危險或醫療視覺障礙。"
+          },
+          {
+            "heading": "③ 智者的色盲：不被兩種偏向牽走",
+            "text": "這裡的色盲是比喻，不是指真的辨色問題。智者以平常心看事情，兼顧機會與困難，審慎判斷再行動，因此A最直接掌握末句重點。",
+            "alt": "同一學生冷靜比較綠紅兩組計畫資料、記錄可行方案；不畫閉眼、忽視紅燈或把色盲當疾病評價。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：以平常心看待事物",
+          "points": [
+            "全句落點在智者應有的態度。",
+            "不盲目樂觀，也不一味悲觀。",
+            "D只說看法的局限，A更直接對應平常心。"
+          ]
+        },
+        "protectedWords": [
+          "樂觀者",
+          "悲觀者",
+          "智者",
+          "綠燈",
+          "紅燈",
+          "色盲",
+          "平常心",
+          "謀定而後動",
+          "預設立場"
+        ]
+      }
     },
     {
       "id": "q-572",
@@ -50277,7 +51035,49 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先看說明與收束，再核對五個空格",
+        "art": "assets/comics/q-572-art-50e0a98e5a.svg",
+        "panels": [
+          {
+            "heading": "① 冒號，引出下面有哪些人",
+            "text": "「過客們」後面，開始列舉東方人、西方人及不同膚色的人。第一空用冒號，引出後面的介紹與說明。",
+            "alt": "過客們、放大的冒號、人物列舉三層關係，放大精確符號而不是讓生成圖片拼字。"
+          },
+          {
+            "heading": "② 句號，結束這一段人物介紹",
+            "text": "人物介紹結束，接著轉到「今天下午忽然全不見了」的新情況。第二空用句號收束，前兩空因此留下B、D。",
+            "alt": "人物介紹以放大的句號收束，再接今天下午的新情況，兩個語意區分開。"
+          },
+          {
+            "heading": "③ 猜想後用逗號，再照卷核對",
+            "text": "「猜想」後用逗號停頓，B比D的破折號直接。B第四空原印的是頓號，第五空為逗號；原卷怎麼印就怎麼核對，不能暗改成別組符號。",
+            "alt": "五空順序冒號/句號/逗號/頓號/逗號完整列出，第四空頓號綠底放大，B與D在猜想後的差異另列。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：冒號、句號、逗號、頓號、逗號",
+          "points": [
+            "第一空引出說明；第二空結束人物介紹。",
+            "第三空猜想後停頓，用B的逗號。",
+            "本題第四空是頓號，不推成所有長分句列舉都只能用頓號。"
+          ]
+        },
+        "protectedWords": [
+          "過客們",
+          "冒號",
+          "句號",
+          "逗號",
+          "頓號",
+          "破折號",
+          "人物介紹",
+          "第三空",
+          "第四空",
+          "第五空"
+        ]
+      }
     },
     {
       "id": "q-573",
@@ -52131,7 +52931,52 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先看詞義，再核對聲母韻母與聲調",
+        "art": "assets/comics/q-590-art-46e88c8391-web.webp",
+        "panels": [
+          {
+            "heading": "① 傍水的傍：靠近，讀第四聲",
+            "text": "依山傍水的傍表示靠近，正音是ㄅㄤˋ。A印的是ㄅㄤ，少了第四聲；字形看對了，還要檢查聲調有沒有標對。",
+            "alt": "傳統古厝靠山臨水的具體詞義情境，沒有把傍誤當傍晚時間；注音由HTML列出。"
+          },
+          {
+            "heading": "② 鞭辟入裡：見解深入透澈",
+            "text": "B說教授的報告分析得深刻，鞭辟入裡的辟讀ㄅㄧˋ，原題標音正確。先理解整個成語，再確定其中的字音，不把鞭畫成真的拿鞭打人。",
+            "alt": "成年教授向學者深入說明問題，大家專注聽講，示意見解深刻透澈；沒有鞭打或暴力字面化。"
+          },
+          {
+            "heading": "③ 便宜行事：和價格便宜分開讀",
+            "text": "便宜行事指依情況斟酌處理，便讀ㄅㄧㄢˋ；價格便宜才讀ㄆㄧㄢˊ。圖畫調整安排的詞義，不代表D原句的草率行為值得肯定。",
+            "alt": "工作人員在有遮雨處協調包裹安排，示意因情況調整，非原句被懲處人物重演，也非偷工或違規。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：辟讀ㄅㄧˋ",
+          "points": [
+            "A傍應是ㄅㄤˋ，不能漏第四聲。",
+            "C原印ㄅㄧㄢˇ；乾癟正音ㄅㄧㄝˇ，韻母不同。",
+            "D便宜行事讀ㄅㄧㄢˋ，不是價格便宜的ㄆㄧㄢˊ。"
+          ]
+        },
+        "protectedWords": [
+          "依山傍水",
+          "鞭辟入裡",
+          "乾癟",
+          "便宜行事",
+          "ㄅㄤˋ",
+          "ㄅㄧˋ",
+          "ㄅㄧㄝˇ",
+          "ㄅㄧㄢˇ",
+          "ㄅㄧㄢˋ",
+          "ㄆㄧㄢˊ",
+          "第四聲",
+          "韻母",
+          "聲調"
+        ]
+      }
     },
     {
       "id": "q-591",
@@ -54525,7 +55370,51 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "問的是現在幾點，就回答鐘點",
+        "art": "assets/comics/q-615-art-f72b64fe64-web.webp",
+        "panels": [
+          {
+            "heading": "① Do you have the time? 問現在幾點",
+            "text": "本題Nina問Do you have the time?，是在問對方知不知道現在幾點。先抓整句語境，不要只把time翻成有沒有空。",
+            "alt": "Nina在校園向Ella詢問，Ella低頭看自己的手錶；錶盤朝向佩戴者，不讓生成模型決定精確時刻。"
+          },
+          {
+            "heading": "② Yes, it's ten thirty. 回答十點半",
+            "text": "Ella先說Yes表示知道，再補上it's ten thirty，即現在十點半。C提供了鐘點，能完整接住Nina的問題；A的I don't還和Yes矛盾。",
+            "alt": "Ella從手錶抬頭友善回答；精確十點半只由HTML呈現，不用生成錶針或顯示器誤畫時刻。"
+          },
+          {
+            "heading": "③ 比較另一個情境：Do you have time?",
+            "text": "若問Do you have time?，通常是在問有沒有空，例如可否幫忙。I'm free表示有空，I'm busy表示很忙，兩者都不是本題需要的鐘點回答。",
+            "alt": "另一段圖書館情境兩位朋友有空一起幫忙筆記，無字行事本作示意；不是把帶the的所有time用法一律限定為鐘點。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：it's ten thirty",
+          "points": [
+            "本題問現在幾點，回答十點半。",
+            "I'm free／I'm busy回答的是有沒有空。",
+            "比較常見語境，不機械認定所有the time都只指鐘點。"
+          ]
+        },
+        "protectedWords": [
+          "Nina",
+          "Ella",
+          "Do you",
+          "have the time",
+          "have time",
+          "it's",
+          "ten thirty",
+          "I'm free",
+          "I'm busy",
+          "I don't",
+          "鐘點",
+          "有沒有空"
+        ]
+      }
     },
     {
       "id": "q-616",
@@ -54593,7 +55482,60 @@
       ],
       "passage": "Mrs. Lin: ___26___ at school today?\nAnna: Not so good. Our new teacher made many rules for us. ___27___\nMrs. Lin: Don’t be sad. What are the rules?\nAnna: We have to sit on our seats after we get to the classroom. We can’t walk around. What’s more, we can’t eat breakfast in the classroom. All we can do is read books.\nMrs. Lin: I like your new teacher.\nAnna: Hey, Mom. Then I don’t have time for breakfast, and I want to talk about my favorite singers with my classmates.\nMrs. Lin: I think your teacher wants all of you to have more time to read books in the morning. ___28___\nAnna: No, only after learning each lesson. ___29___ she wants us to read one book a week.\nMrs. Lin: Great! What a good teacher she is!\n\n題組第26～28題的原選項，供判讀本題上下文：\n26. (A) What do you do (B) When is your first time (C) Why are you (D) How was your first day\n27. (A) I don’t like the rules. (B) She teaches us English. (C) We can’t be late for school. (D) I have to go to school at 7:00 a.m.\n28. (A) What do you do before class? (B) Do you have tests before every class? (C) Do you take your cellphone to school? (D) Do you have your favorite food with you?",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先看誰在抱怨，再讀But的轉折",
+        "art": "assets/comics/q-616-art-82572da20d-web.webp",
+        "panels": [
+          {
+            "heading": "① Anna在抱怨，媽媽卻贊成",
+            "text": "Anna 一開始說 Not so good，抱怨沒時間吃早餐、想和同學聊天。媽媽則喜歡老師的安排。先分清說話者立場，不能把兩人的反應混在一起。",
+            "alt": "新製Anna向媽媽抱怨規定的情境，Anna略不滿、媽媽傾聽，不新增懲罰或恐嚇、第三位說話者。"
+          },
+          {
+            "heading": "② 考試沒那麼頻繁，還有閱讀要求",
+            "text": "Anna 澄清只在學完一課後考試，接著提出老師還要求 one book a week，一週一本書。依前文抱怨與原卷預期，用 But 帶出另一項要求的轉折。",
+            "alt": "新製老師交代閱讀任務的課堂，手中一本無字書僅示閱讀要求，不用一疊書假定每週冊數、不發明天天考試行事曆。"
+          },
+          {
+            "heading": "③ Great!是媽媽的反應，不是Anna的",
+            "text": "媽媽稱讚老師，不代表 Anna 也在讚美。And 可補充另一項規定，單看文法未必錯；本題保留已確認的 B But，依完整對話讀語境。",
+            "alt": "新製媽媽欣賞老師、Anna持書仍略無奈的相異反應，不把Anna改成由衷讚美，也不以圖像宣告And文法錯誤。"
+          }
+        ],
+        "fourth": {
+          "answer": "依原卷答案 B：But",
+          "points": [
+            "And 可表補充，不教成一律不能使用。",
+            "Or 是選擇、So 是因果，本文不符。",
+            "want＋人＋to V：要某人做某事；一週一本是 one book a week。"
+          ]
+        },
+        "protectedWords": [
+          "Anna",
+          "媽媽",
+          "老師",
+          "Not so good",
+          "But",
+          "And",
+          "Or",
+          "So",
+          "Great!",
+          "one book a week",
+          "語境",
+          "轉折",
+          "閱讀要求",
+          "說話者",
+          "一週一本",
+          "每一課",
+          "to V",
+          "B But",
+          "抱怨",
+          "贊成",
+          "規定多"
+        ]
+      }
     },
     {
       "id": "q-617",
@@ -73105,5 +74047,5 @@
       }
     }
   ],
-  "dataUpdatedAt": "2026-10-29T02:28:15+00:00"
+  "dataUpdatedAt": "2026-10-29T02:53:59+00:00"
 }

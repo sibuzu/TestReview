@@ -1,0 +1,92 @@
+{
+  "id": "q-615",
+  "subject": "English",
+  "title": "問的是現在幾點，就回答鐘點",
+  "art": "docs/comics/art/q-615.png",
+  "protectedWords": [
+    "Nina",
+    "Ella",
+    "Do you",
+    "have the time",
+    "have time",
+    "it's",
+    "ten thirty",
+    "I'm free",
+    "I'm busy",
+    "I don't",
+    "鐘點",
+    "有沒有空"
+  ],
+  "panels": [
+    {
+      "heading": "① Do you have the time? 問現在幾點",
+      "text": "本題Nina問Do you have the time?，是在問對方知不知道現在幾點。先抓整句語境，不要只把time翻成有沒有空。",
+      "alt": "Nina在校園向Ella詢問，Ella低頭看自己的手錶；錶盤朝向佩戴者，不讓生成模型決定精確時刻。"
+    },
+    {
+      "heading": "② Yes, it's ten thirty. 回答十點半",
+      "text": "Ella先說Yes表示知道，再補上it's ten thirty，即現在十點半。C提供了鐘點，能完整接住Nina的問題；A的I don't還和Yes矛盾。",
+      "alt": "Ella從手錶抬頭友善回答；精確十點半只由HTML呈現，不用生成錶針或顯示器誤畫時刻。"
+    },
+    {
+      "heading": "③ 比較另一個情境：Do you have time?",
+      "text": "若問Do you have time?，通常是在問有沒有空，例如可否幫忙。I'm free表示有空，I'm busy表示很忙，兩者都不是本題需要的鐘點回答。",
+      "alt": "另一段圖書館情境兩位朋友有空一起幫忙筆記，無字行事本作示意；不是把帶the的所有time用法一律限定為鐘點。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：it's ten thirty",
+    "points": [
+      "本題問現在幾點，回答十點半。",
+      "I'm free／I'm busy回答的是有沒有空。",
+      "比較常見語境，不機械認定所有the time都只指鐘點。"
+    ]
+  },
+  "rationale": "實看原卷第5題與全部四選項，讀原AI前30行，核對題庫已加的語境限制，不重開舊確認。Cambridge官方blog全文實讀支持do you have the time詢問鐘點，字典主頁403如實記錄。全新現代對話插畫，避免可讀錶面使生成圖給出錯誤時間；精確英語ASCII撇號與鐘點以HTML文字呈現，C不變。",
+  "generationMethod": "built-in imagegen new wordless clock-question versus availability scenes",
+  "promptFile": "docs/comics/q-615-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-615-source-846fae71d5.jpg",
+    "site/dist/sources/gemini-1TruEpwN7cve.txt lines 1–30"
+  ],
+  "sourceUrl": "https://share.gemini.google/1TruEpwN7cve",
+  "sources": [
+    {
+      "url": "https://dictionaryblog.cambridge.org/2018/02/14/what-time-is-it-how-to-say-the-time/",
+      "note": "Cambridge Dictionary官方blog正文：詢問對方是否知道鐘點可用do you have the time；實際讀取文章／分類頁正文。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/time",
+      "note": "本輪開啟403；未冒稱重讀字典全文。"
+    }
+  ],
+  "answerCheckedAgainst": "本題四選項C回答鐘點、B/D空閒忙碌不符，A否定又跟Yes矛盾；保留語境不作所有the time的絕對規則。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:41:43.707716+00:00",
+  "checkedAt": "2026-10-29T02:44:59.660864+00:00",
+  "validationFile": "docs/comics/q-615-validation.json",
+  "artSha256": "f72b64fe64ff924f9771438bcbd05e9067137e7ec040f8bdff1e26571cb9634e",
+  "nativeArt": "assets/comics/q-615-art-f72b64fe64-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:44:59.658821+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷the time/Yes/四選項實看，C鐘點答覆正確；三圖錶面朝佩戴者不假造十點半，另一time情境清楚標對照不變原語境。正式桌手機實看、三寬6項QA通過。",
+    "sharedWebPAssetVerified": true
+  }
+}

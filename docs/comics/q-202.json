@@ -1,0 +1,84 @@
+{
+  "id": "q-202",
+  "subject": "Math",
+  "title": "共高先比底，兩倍再比份數",
+  "art": "docs/comics/art/q-202.svg",
+  "protectedWords": [
+    "共高",
+    "面積比",
+    "底邊比",
+    "正三角形",
+    "△ABC",
+    "△ACE",
+    "△CDE",
+    "AB∥CE",
+    "AC∥DE",
+    "AE＞2AB",
+    "AE＜2DE",
+    "4：9",
+    "9：5",
+    "8＜9＜10"
+  ],
+  "panels": [
+    {
+      "heading": "① AB與CE平行，兩三角形共高",
+      "text": "△ABC以AB為底，△ACE以CE為底，高都是兩條平行線的距離。面積比等於底邊比，AB：CE＝12：27＝4：9；正三角形給出CE＝AE。",
+      "alt": "精確五邊形左側三角形面積12、中央正三角形27，AB與CE同藍色；虛線h是兩平行線距離，AB延長線保留。"
+    },
+    {
+      "heading": "② 換另一組底邊，比AC與DE",
+      "text": "AC∥DE，△ACE以AC為底，△CDE以DE為底，也有共同的高。AC：DE＝27：15＝9：5。再用AC＝AE，就得AE：DE＝9：5。",
+      "alt": "中央正三角形面積27、右側三角形15，平行底AC與DE橘色，h垂直兩底；不把斜邊直接當高。"
+    },
+    {
+      "heading": "③ 同一套份數，再比較兩倍邊長",
+      "text": "可統一看成AE有9份、AB有4份、DE有5份。因此2AB有8份，2DE有10份，8＜9＜10，所以AE＞2AB、AE＜2DE。",
+      "alt": "精確同單位條：AE九份、2AB八份、2DE十份，條長與每一等份完全一致；不是面積條。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：AE＞2AB，AE＜2DE",
+    "points": [
+      "共高三角形：面積比＝底邊比。",
+      "用正三角形三邊相等，把CE、AC換成AE。",
+      "統一份數後，8＜9＜10直接比較。"
+    ]
+  },
+  "rationale": "實看原卷第6題全部三個印刷選項與必要圖；讀來源完整相關段落。按兩組平行線建立實際正三角形及外接兩三角形，標示面積12/27/15。獨立座標面積與邊長比例驗算，9/4大於2、9/5小於2，B不變。新製精確SVG，不沿用來源AI圖，不補造不存在的D選項。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-202-source-cdf1801efa.jpg",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1120–1280"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG equal-height triangles and same-unit ratio bars",
+  "answerCheckedAgainst": "獨立座標areaABC:ACE:CDE=12:27:15，AB:AE:DE=4:9:5，2AB:AE:2DE=8:9:10；B。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:33:25.376118+00:00",
+  "checkedAt": "2026-10-29T02:41:03.211118+00:00",
+  "validationFile": "docs/comics/q-202-validation.json",
+  "artSha256": "37d0494deda97f648a4ee5a6e05f23aae8941f04b507ae705ffd3702f6e50478",
+  "nativeArt": "assets/comics/q-202-art-37d0494ded.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:41:03.188142+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷及三個印刷選項實看，獨立三角形面積12/27/15與邊4/9/5核算，圖上h垂直平行底、8<9<10同尺度正確，B不變。正式桌手機實看、三寬6項QA通過。",
+    "independentGeometryCheck": "docs/comics/root-nextmath3-validation.json",
+    "sharedNativeAssetVerified": true
+  }
+}

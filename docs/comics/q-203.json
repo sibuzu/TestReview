@@ -1,0 +1,97 @@
+{
+  "id": "q-203",
+  "subject": "Math",
+  "title": "判斷直線是否相交，要比方向",
+  "art": "docs/comics/art/q-203-geometry.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T02:38:22.468906+00:00",
+  "panels": [
+    {
+      "heading": "① 正多邊形外角，決定邊的方向",
+      "text": "正八邊形外角360°÷8＝45°；正六邊形外角360°÷6＝60°。以D、E、T所在直線L為基準，沿邊逐次轉向來比較方向。",
+      "alt": "新精確正八/六邊形位L兩側共用E，D/E/T共線；選不同邊長作示意，未把兩圖邊長相同加成條件。"
+    },
+    {
+      "heading": "② 甲：AH與QR平行，並不相交",
+      "text": "AH∥DE，QR∥ET，而DE、ET都在L上，所以AH∥QR。兩線分居L兩側、不重合，延長也不相交，因此甲錯誤。",
+      "alt": "AH、L、QR三條互平行直線，原線段粗實線、延伸虛線，AH/QR分居兩側不重合。"
+    },
+    {
+      "heading": "③ 乙：HG與PQ不同方向，延長會相交",
+      "text": "HG、PQ與L所成銳角分別為45°、60°，所以不平行。把直線延長，會相交於輔助點K，乙正確；不需計算K的位置。",
+      "alt": "保留同一模型HG/PQ真實所在位置，向上左延長交於K，不把兩線段原位置挪在一起；L銳角45/60標記分開。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 判斷直線是否相交，要比方向",
+    "answer": "答案 D：甲錯誤，乙正確",
+    "points": [
+      "AH∥QR且不重合，不相交。",
+      "HG與PQ不平行，延長後相交。",
+      "線段沒有碰到，不代表所在直線不相交。"
+    ]
+  },
+  "protectedWords": [
+    "正多邊形",
+    "正八邊形",
+    "正六邊形",
+    "外角",
+    "直線L",
+    "基準",
+    "45°",
+    "60°",
+    "360°",
+    "AH",
+    "QR",
+    "HG",
+    "PQ",
+    "AH∥DE",
+    "QR∥ET",
+    "AH∥QR",
+    "分居",
+    "不重合",
+    "不平行",
+    "銳角",
+    "輔助點K",
+    "甲錯誤",
+    "乙正確"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-203-source-5eaf1b3492.jpg",
+    "site/dist/assets/questions/q-203-given.svg"
+  ],
+  "originalVisualCheck": "實看第7題正八ABCDEFGH/正六EPQRST在L兩側、D/E/T共線，甲AH與QR相交/乙HG與PQ相交，四判斷選項與D標記；原照片L傾斜，新圖整體轉水平不改關係。",
+  "answerCheckedAgainst": "獨立正多邊形模型以叉積驗AH平行DE、QR平行ET；HG斜率−1與PQ−√3、銳角45/60不同，計算示意交點K，不靠量圖。不同多邊形邊長無須相同，D不變。檔q-203-direction-check.json。",
+  "rationale": "新三步幾何：原圖關係與外角/抽出甲的三平行線/保留乙線段位置並向外延長到交點。把無限直線與有限線段視覺區分，方向由精確構造決定，K位置只作示例不當原題條件。",
+  "artType": "new precise native SVG regular polygons and extended lines",
+  "generationCalls": 0,
+  "computationEvidence": "docs/comics/q-203-direction-check.json",
+  "artSHA256": "8c562bfa152de22b23613dd5f6ec8507726648c25ced536d28eadb03bdd22239",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T02:42:53.138059+00:00",
+  "completedAt": "2026-10-29T02:40:57.192849+00:00",
+  "layoutEvidence": "docs/comics/q-203-preview-validation.json",
+  "visualReview": "實看1440/1120/390兩正多邊形共E/L兩側、AH/QR平行與HG/PQ真位置向上左延長相交K，45/60標記各自清楚。沒有把有限線段移到交點冒充原圖，無橫溢/保護詞拆行，同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-203-art-8c562bfa15.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:42:53.132735+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷兩正多邊形/L兩側/DE共線T/甲乙與四選項實看；獨立外角45/60及對邊平行推AH/QR同方向不重合，HG/PQ不同方向延長交K；正式桌手機實看、三寬6項QA通過，D不變。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-203-validation.json"
+}

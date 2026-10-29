@@ -1,0 +1,84 @@
+{
+  "id": "q-183",
+  "subject": "Math",
+  "title": "先比較對邊，才能判斷角度大小",
+  "art": "docs/comics/art/q-183.svg",
+  "protectedWords": [
+    "正三角形",
+    "△BDE",
+    "△CEF",
+    "△DEF",
+    "DE∥AC",
+    "EF∥AB",
+    "BD＞AD",
+    "DE＞EF",
+    "∠DEF",
+    "∠EDF",
+    "∠DFE",
+    "60°",
+    "120°",
+    "α＜β"
+  ],
+  "panels": [
+    {
+      "heading": "① 平行線先找出兩個正三角形",
+      "text": "DE∥AC、EF∥AB，外框又是正三角形，因此△BDE與△CEF都是正三角形。在直線BC上，∠DEF＝180°−60°−60°＝60°。",
+      "alt": "依正確平行條件精確構圖，BDE藍色、CEF橘色，E點內角60度；不套用別題DF平行BC條件。"
+    },
+    {
+      "heading": "② 用相等線段，把已知不等式搬進來",
+      "text": "△BDE給出DE＝BD＝BE；△CEF給出EF＝EC。又BC＝AB，扣掉BE＝BD，得EC＝AD。所以BD＞AD就變成DE＞EF。",
+      "alt": "藍色BD/DE/BE等長，橘色AD/EC/EF等長；藍色大於橘色，由完整正三角形的邊長關係推出。"
+    },
+    {
+      "heading": "③ 同一三角形，短邊對較小角",
+      "text": "在△DEF內，EF較短，所對的∠EDF＝α較小；DE較長，所對的∠DFE＝β較大。α＋β＝120°且α＜β，所以α＜60°。",
+      "alt": "只保留精確比例的DEF三角形，長邊DE藍色對F點β，短邊EF橘色對D點α，E角60度；非特定角度數值範例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：∠DEF＝60°，∠EDF＜60°",
+    "points": [
+      "先由平行線得到兩個小正三角形。",
+      "把BD＞AD轉為DE＞EF。",
+      "大邊對大角，小邊對小角；不能只憑圖猜。"
+    ]
+  },
+  "rationale": "讀完整延伸練習4與四選項，實看既有作答附圖，依DE平行AC／EF平行AB／BD大於AD獨立構圖。以精確幾何著色將邊長不等式與對角對應，保留C答；不沿用來源AI圖。示例BD/AB取0.65只是構圖參數，未給的角度與邊長數值不出現在圖文。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-183-given.svg",
+    "site/dist/sources/gemini-fIG3raRmygwQ.txt lines 1064–1215,1510–1810"
+  ],
+  "sourceUrl": "https://share.gemini.google/fIG3raRmygwQ",
+  "generationMethod": "precise native SVG equilateral subtriangles and opposite side-angle correspondence",
+  "answerCheckedAgainst": "任意1/2<t<1均DE=tL、EF=(1−t)L，E角60；短邊EF對D角，D小於60。實際座標驗證所有平行及角和。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:31:03.670837+00:00",
+  "checkedAt": "2026-10-29T02:34:51.650672+00:00",
+  "validationFile": "docs/comics/q-183-validation.json",
+  "artSha256": "0884047c03a1bccbe1ef26bf07d546d7fae23f1940d329c4a820f7c66b1f9a0e",
+  "nativeArt": "assets/comics/q-183-art-0884047c03.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:34:51.613295+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原Gemini延伸練習及given SVG核對；沿DE平行AC、EF平行AB之條件，一般s=BD、1-s=AD證DE>EF，角E60/角D<60，C不變。正式桌手機成品已實看、三寬6項QA通過。",
+    "independentGeometryCheck": "docs/comics/root-geometry3-validation.json",
+    "sharedNativeAssetVerified": true
+  }
+}

@@ -61,8 +61,30 @@
   "artSHA256": "b4a6c5086696bcc6b2f5121a976ea9a1e912bffbbc466fec97ee274c2792a233",
   "algebraValidation": "docs/comics/q-323-algebra-validation.json",
   "completedAt": "2026-10-29T02:29:33.147720+00:00",
-  "checkedAt": "2026-10-29T02:29:33.147720+00:00",
+  "checkedAt": "2026-10-29T02:32:45.343774+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-323-preview-validation.json",
-  "visualReview": "實看原卷/新540×180及1440/390：−1.5開口射線方向右、整數點從−1，x/P四列分數正確且首次整數2著色；P0/1反查分別失範圍/整數，C不變。三寬無溢出，手機負分數保護與自然高度、桌面同行等高正常。"
+  "visualReview": "實看原卷/新540×180及1440/390：−1.5開口射線方向右、整數點從−1，x/P四列分數正確且首次整數2著色；P0/1反查分別失範圍/整數，C不變。三寬無溢出，手機負分數保護與自然高度、桌面同行等高正常。",
+  "nativeArt": "assets/comics/q-323-art-b4a6c50866.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:32:45.342221+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷整數x及最小整數P實看；獨立負數除法x>-1.5、代入4/5/6/5/8/5/2、反查P1對x-1/2均驗，C不變。正式桌手機實看、三寬6項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-323-validation.json"
 }

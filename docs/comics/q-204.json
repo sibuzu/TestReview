@@ -1,0 +1,84 @@
+{
+  "id": "q-204",
+  "subject": "Math",
+  "title": "先找補角，再把角度搬回三角形",
+  "art": "docs/comics/art/q-204.svg",
+  "protectedWords": [
+    "補角",
+    "對應角",
+    "L∥BC",
+    "M∥AB",
+    "120°",
+    "115°",
+    "180°",
+    "60°",
+    "65°",
+    "55°",
+    "∠A",
+    "∠B",
+    "∠C",
+    "內角和"
+  ],
+  "panels": [
+    {
+      "heading": "① 120°先取補角，再找C角",
+      "text": "L∥BC。在L與AC交點，120°旁邊的補角是60°，這個角與∠C互為對應角，所以∠C＝60°。不能把120°直接當C角。",
+      "alt": "精確L水平且平行BC，交點下方鈍角120度與左上銳角60度相鄰互補，C角同為60度，藍色顯示平行底。"
+    },
+    {
+      "heading": "② 115°也先取補角，得到A角",
+      "text": "M∥AB。圖示115°的補角是65°；由平行線可把它對應到∠A，所以∠A＝65°。先確認兩條射線，再辨認內外方向。",
+      "alt": "精確M平行AB，與AC交點左側115度及上方65度相鄰互補，A內角65度；不把鈍角標在錯誤扇形。"
+    },
+    {
+      "heading": "③ 只留三角形，使用內角和",
+      "text": "三角形內角和是180°。扣除已求得的65°與60°，剩下∠B＝55°，選A。60°和65°分別是C、A，不是B。",
+      "alt": "同一精確三角形移除輔助平行線，A65度、C60度、B55度，弧線與射線角度吻合。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：∠B＝55°",
+    "points": [
+      "兩個已知鈍角都要先找相鄰補角。",
+      "依平行線，把60°與65°對應回C、A。",
+      "三角形內角和180°，剩下B角55°。"
+    ]
+  },
+  "rationale": "實看原卷第8題數字與弧角位置及印刷A55/B60/C65三選項；來源相關文字僅介紹此類角度模組。以A65/B55/C60獨立座標構形，L∥BC、M∥AB及兩個鈍角120/115均數值驗證，A答不變；重新製作三張精確角度步驟SVG，不採來源AI圖。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-204-source-d533f6a255.jpg",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1120–1280 (module discussion)"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG parallel-line angle sectors and triangle angle sum",
+  "answerCheckedAgainst": "120補60，115補65，內角和得55。實際向量內積計算各標示扇形角度全符。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:36:21.663120+00:00",
+  "checkedAt": "2026-10-29T02:41:03.224491+00:00",
+  "validationFile": "docs/comics/q-204-validation.json",
+  "artSha256": "9f1aa2bb9e8202900af08725c152cdc17f9d666466b0a35325dea2e5264613e3",
+  "nativeArt": "assets/comics/q-204-art-9f1aa2bb9e.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:41:03.188142+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷兩鈍角扇形與三選項實看，獨立重算A65/B55/C60；新圖L/M平行及120/115相鄰補角方向正確，A不變。正式桌手機實看、三寬6項QA通過。",
+    "independentGeometryCheck": "docs/comics/root-nextmath3-validation.json",
+    "sharedNativeAssetVerified": true
+  }
+}

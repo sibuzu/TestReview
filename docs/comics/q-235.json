@@ -71,8 +71,31 @@
   "supersedesReason": "舊原生證明圖已清楚，但新指示要求評估幾何分步四格；本次可用分步著色再改善，舊略過紀錄保留。",
   "artSHA256": "c287880a0e3a910e764988d7d6cdffdfe5e79faf0bcf63d2c5bc97ff5ae52274",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T02:27:35.732212+00:00",
+  "checkedAt": "2026-10-29T02:34:51.615977+00:00",
   "completedAt": "2026-10-29T02:27:35.732212+00:00",
   "layoutEvidence": "docs/comics/q-235-preview-validation.json",
-  "visualReview": "實看1440/1120/390三分步構圖，C兩30°、ADC等邊記號與L穿D、ABC40/110/30及B不在L均正確；D字標避開L、線段圖層無遮住關鍵點，無橫溢/保護詞拆行，同列等高與手機自然高度。"
+  "visualReview": "實看1440/1120/390三分步構圖，C兩30°、ADC等邊記號與L穿D、ABC40/110/30及B不在L均正確；D字標避開L、線段圖層無遮住關鍵點，無橫溢/保護詞拆行，同列等高與手機自然高度。",
+  "nativeArt": "assets/comics/q-235-art-c287880a0e.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:34:51.613295+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷與完整四選項已實看；獨立平行角/二等分30度、ABC40度及解析模型AD=DC/BA不等BC核算，中垂線與兩種等距結論正確。正式桌手機成品已實看、三寬6項QA通過。",
+    "independentGeometryCheck": "docs/comics/root-geometry3-validation.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-235-validation.json"
 }

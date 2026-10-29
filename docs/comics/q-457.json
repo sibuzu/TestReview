@@ -1,0 +1,87 @@
+{
+  "id": "q-457",
+  "subject": "English",
+  "title": "找流行原因：獨食的孤單與線上陪伴",
+  "art": "docs/comics/art/q-457.png",
+  "startedAt": "2026-10-29T02:35:19.504981+00:00",
+  "panels": [
+    {
+      "heading": "① Why問原因，先找lonely",
+      "text": "第一段說，有些人eat alone而feel lonely，接著以Because of this說明吃播流行。這個因果線索，比看到影片裡很多食物更重要。",
+      "alt": "一人用餐的觀眾與空椅子，示意文章獨食背景；不把每位獨食者都畫成痛苦或有疾病。"
+    },
+    {
+      "heading": "② 螢幕帶來一起用餐的感覺",
+      "text": "第二段說，看人吃東西、聽人聊天，會feel like they are eating together。這是陪伴感，觀眾實際上仍可能獨自在家，不是主播到他家吃飯。",
+      "alt": "主持人只在筆電畫面內說話用餐，觀眾在自己的空間觀看，兩個角色分開；不畫成實際同桌或贈送食物。"
+    },
+    {
+      "heading": "③ by themselves，就是自己一個人",
+      "text": "C的eat by themselves對應文中的eat alone。因為不喜歡獨食的孤單而尋求陪伴，符合本文原因；文中沒有說觀眾靠觀看賺錢，也未比較餐廳花費。",
+      "alt": "同一觀眾仍獨坐但看著螢幕感到陪伴，沒有金錢、餐廳價差或大量進食獎勵的暗示。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：不喜歡自己一個人用餐",
+    "points": [
+      "原因線索：feel lonely → Because of this。",
+      "by themselves＝alone；陪伴感解釋流行。",
+      "後段對過量進食的疑慮，不能取代題目所問的流行原因。"
+    ]
+  },
+  "protectedWords": [
+    "Mukbang",
+    "eat alone",
+    "feel lonely",
+    "Because of this",
+    "by themselves",
+    "eating together",
+    "陪伴感",
+    "流行原因"
+  ],
+  "rationale": "實看吃播閱讀全文及41題四選項，C維持。新製獨食/螢幕主持人/觀眾仍獨處但感陪伴三情境，強調原文因果及詞句對應，不把觀看者與主播混同，不把舊人口比例或規定當現況，不推導醫療或肥胖因果。",
+  "promptSummary": "內建imagegen新無字三幅：普通一人晚餐、螢幕中主持人用餐聊天、同一觀眾仍獨自但感陪伴。主持人不出螢幕、無賺錢或大食量炫耀，原因關鍵詞用HTML。",
+  "answerCheckedAgainst": "原卷完整三段閱讀中feel lonely/Because of this/feel like eating together、選項C by themselves；四選項全文核對，不依外部現況作答。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-457-reading-source-dc93361b18.jpg",
+      "site/dist/assets/questions/q-457-source-0523dbfcb7.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "實看完整225words閱讀含原圖食物背景、三段文末與41題所有選項；主旨陪伴因果清楚，年代統計不新推因果。"
+  },
+  "artSHA256": "1e348584494c7236e5652cdd02d1c7f7a549f039bac304d363a5db0f2a5d5f17",
+  "generationStartedAt": "2026-10-29T02:36:54.946Z",
+  "generationCompletedAt": "2026-10-29T02:37:22.683Z",
+  "completedAt": "2026-10-29T02:38:48.424557+00:00",
+  "checkedAt": "2026-10-29T02:42:28.823057+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-457-preview-validation.json",
+  "visualReview": "實看原文三段/41題與2172×724無字新圖及1440/390成品：同一觀眾獨處、主持人只在螢幕內，最後仍實際獨坐但有陪伴感。C與alone/by themselves對應正確，無觀看賺錢或健康因果圖。三寬無溢出，英文單字/受保護詞組完整，同列等高與手機自然高度。",
+  "nativeArt": "assets/comics/q-457-art-1e34858449-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:42:28.820866+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷三段全文及41題四選項實看，lonely/Because of this/feel like eating together對C；新圖觀眾與螢幕主播分開、不把觀看當賺錢或食量成因。正式桌手機實看、三寬6項QA通過。",
+    "sharedWebPAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-457-validation.json"
+}

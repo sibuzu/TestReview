@@ -1,0 +1,95 @@
+{
+  "id": "q-616",
+  "subject": "English",
+  "title": "先看誰在抱怨，再讀But的轉折",
+  "art": "docs/comics/art/q-616.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T02:42:30.146559+00:00",
+  "panels": [
+    {
+      "heading": "① Anna在抱怨，媽媽卻贊成",
+      "text": "Anna 一開始說 Not so good，抱怨沒時間吃早餐、想和同學聊天。媽媽則喜歡老師的安排。先分清說話者立場，不能把兩人的反應混在一起。",
+      "alt": "新製Anna向媽媽抱怨規定的情境，Anna略不滿、媽媽傾聽，不新增懲罰或恐嚇、第三位說話者。"
+    },
+    {
+      "heading": "② 考試沒那麼頻繁，還有閱讀要求",
+      "text": "Anna 澄清只在學完一課後考試，接著提出老師還要求 one book a week，一週一本書。依前文抱怨與原卷預期，用 But 帶出另一項要求的轉折。",
+      "alt": "新製老師交代閱讀任務的課堂，手中一本無字書僅示閱讀要求，不用一疊書假定每週冊數、不發明天天考試行事曆。"
+    },
+    {
+      "heading": "③ Great!是媽媽的反應，不是Anna的",
+      "text": "媽媽稱讚老師，不代表 Anna 也在讚美。And 可補充另一項規定，單看文法未必錯；本題保留已確認的 B But，依完整對話讀語境。",
+      "alt": "新製媽媽欣賞老師、Anna持書仍略無奈的相異反應，不把Anna改成由衷讚美，也不以圖像宣告And文法錯誤。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先看誰在抱怨，再讀But的轉折",
+    "answer": "依原卷答案 B：But",
+    "points": [
+      "And 可表補充，不教成一律不能使用。",
+      "Or 是選擇、So 是因果，本文不符。",
+      "want＋人＋to V：要某人做某事；一週一本是 one book a week。"
+    ]
+  },
+  "protectedWords": [
+    "Anna",
+    "媽媽",
+    "老師",
+    "Not so good",
+    "But",
+    "And",
+    "Or",
+    "So",
+    "Great!",
+    "one book a week",
+    "語境",
+    "轉折",
+    "閱讀要求",
+    "說話者",
+    "一週一本",
+    "每一課",
+    "to V",
+    "B But",
+    "抱怨",
+    "贊成",
+    "規定多"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-616-reading-d4b1967097.jpg",
+    "site/dist/assets/questions/q-616-context-options-8b659c7e15.jpg",
+    "site/dist/assets/questions/q-616-source-5410549665.jpg"
+  ],
+  "originalVisualCheck": "實看26至29完整對話、26至28選項與29四選項/原紅改B，Anna Not so good/考試僅課後/一週一本/媽媽Great角色分別核對。",
+  "answerCheckedAgainst": "使用者已在Monitor確認q616依原卷B But及And可補充之語境處理，保持不重開。原全文前後說話者與頻率重新核對，不將And一概說成文法錯，不加國中不需要的跨語域分支。",
+  "rationale": "新三景把Anna抱怨、閱讀要求、媽媽稱讚的不同視角呈現，But按原卷語氣解讀；第三格保留And可補充的已確認限制，精確頻率與文字HTML不由圖造日期或冊數。",
+  "promptPath": "docs/comics/q-616-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "82572da20ddb308a0e624550bf6b6c1e0f81ade5ac28fc099809f65d20f68a13",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T02:51:03.647257+00:00",
+  "completedAt": "2026-10-29T02:48:33.842197+00:00",
+  "layoutEvidence": "docs/comics/q-616-preview-validation.json",
+  "visualReview": "實看新製三景與1440/1120/390三寬成品：Anna略不滿與媽媽欣賞清楚區別；單本無字書不替代頻率條件，無假行事曆。桌面同列等高；手機依文字自然高、無單字孤行與橫溢。",
+  "nativeArt": "assets/comics/q-616-art-82572da20d-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:51:03.641734+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整原卷對話、26–28上下文選項與29四選項實看；沿已確認But及And補充可能性，不重問；三圖Anna抱怨/每週閱讀要求/媽媽稱讚分清角色與語氣，不假造每日考試。正式桌手機實看、三寬6項QA通過。",
+    "sharedWebPAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-616-validation.json"
+}

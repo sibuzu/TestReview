@@ -1,0 +1,92 @@
+{
+  "id": "q-184",
+  "subject": "Math",
+  "title": "距離變化先定位交點，再分辨內外角",
+  "art": "docs/comics/art/q-184.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-184-generate.py",
+  "startedAt": "2026-10-29T02:29:33.208861+00:00",
+  "panels": [
+    {
+      "heading": "① 兩組垂距，分開比較",
+      "text": "A、B到CD的距離為2、4，從B往A更靠近CD；A、D到BC的距離為5、3，從A往D更靠近BC。距離都指垂直距離，不是沿邊走的長度。",
+      "alt": "同一精確四邊形，綠色A/D至BC垂距5/3，藍色A/B至CD垂距2/4；垂足直角標示，CD為斜線不是特例直角。"
+    },
+    {
+      "heading": "② 延長BA、CD，得到上方的W",
+      "text": "依圖延長BA與CD，在A、D上方交於W。原四邊形的∠B、∠C，就是△WBC的兩個底角，所以∠B＋∠C＝180°−∠W＜180°。",
+      "alt": "W在A與D上方、A在線段WB上、D在線段WC上，三角形WBC底角正是原四邊形B/C；不採原AI錯位ASCII圖。"
+    },
+    {
+      "heading": "③ 延長AD、BC，在外側交於V",
+      "text": "V在D、C外側。原∠C與∠VCD互補，原∠D與∠VDC互補；兩個原內角相加，得到∠C＋∠D＝180°＋∠V＞180°。",
+      "alt": "右側三角形VCD著金色，原四邊形C/D內角以綠弧標示，分清兩對互補角，V位於延長AD與BC的交點。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：B＋C＜180°；C＋D＞180°",
+    "points": [
+      "先找延長線交點在哪一側，不能只背角和方向。",
+      "W三角形：B、C是其中兩內角，和小於180°。",
+      "V三角形：原C、D各補一個內角，和大於180°。"
+    ]
+  },
+  "protectedWords": [
+    "垂直距離",
+    "直線BC",
+    "線段WB",
+    "線段WC",
+    "△WBC",
+    "∠VCD",
+    "∠VDC",
+    "∠B＋∠C",
+    "∠C＋∠D",
+    "180°−∠W",
+    "180°＋∠V"
+  ],
+  "rationale": "來源Gemini延伸練習5全文及全部四選項實讀，必要given圖已render實看，C不變。新精確座標同時滿足四垂距5/3/2/4，三圖呈現垂距/上方W/右側V，區分原內角與輔助三角形內角。既有ASCII不一致早已註明，不重問、不改已核對答案。",
+  "promptSummary": "原生SVG同一四邊形、四垂距與直角腳；延長BA/CD至W和AD/BC至V，兩三角形/原內角色分。原生座標與角和有獨立程式驗證，不讓imagegen決定精確圖。",
+  "answerCheckedAgainst": "延伸原文A/D至BC5/3、A/B至CD2/4與C選項；獨立座標驗垂距及B+C=180−W、C+D=180+V，無來源AI圖。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-fIG3raRmygwQ.txt lines1817–2466",
+    "images": [
+      "site/dist/assets/questions/q-184-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "此題是來源新編延伸，無原卷照片；全文及4選項與完整解析實讀，必要given圖render實看。舊ASCII錯位不沿用，現答案C與網站詳解保持。"
+  },
+  "artSHA256": "a4bb97f6aaa98b0f9617d1e8ab0d8e795c7a1ab4f133de96f7328baa2b024f97",
+  "geometryValidation": "docs/comics/q-184-geometry-validation.json",
+  "completedAt": "2026-10-29T02:35:19.440120+00:00",
+  "checkedAt": "2026-10-29T02:41:03.190853+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-184-preview-validation.json",
+  "visualReview": "實讀延伸全文/4選項、render必要given並實看540×180及1440/390：四垂距5/3/2/4的直角腳與標色正確，W在上方、A/D分別在線段WB/WC；V在D/C外側、原內角綠弧與補角三角形金色分離。角和程式驗C，三寬無溢出，標籤/底公式完整，同行等高與手機自然高度。",
+  "nativeArt": "assets/comics/q-184-art-a4bb97f6aa.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:41:03.188142+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "來源延伸全文5/3/2/4及必要given圖實看；獨立算四垂距及W/V角和：B+C=180-W、C+D=180+V，精確圖內外角位置正確，C不變。正式桌手機實看、三寬6項QA通過。",
+    "independentGeometryCheck": "docs/comics/root-nextmath3-validation.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-184-validation.json"
+}

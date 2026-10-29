@@ -7041,16 +7041,21 @@
       "title": "公民第10題｜保育動物與環境倫理",
       "subject": "Civics",
       "lane": 3,
-      "state": "blocked",
+      "state": "integrated",
       "startedAt": "2026-10-29T00:40:03.751095+00:00",
       "readyAt": "2026-10-29T00:45:37.587771+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "原卷名稱紙貓熊展之OCR校字；答案C不變，待使用者確認名稱更正。",
+      "decision": "complete",
+      "reason": "紙貓熊名稱OCR已由使用者在Monitor確認OK；C環境倫理不變，新四格隔離QA完成，待root正式整合。",
       "evidence": [
         "docs/comics/q-054.json",
         "docs/comics/q-054-preview-validation.json",
         "docs/comics/q-054-review.json"
-      ]
+      ],
+      "resolutionId": "correction-q-054-8ac116e9716a",
+      "integrationStartedAt": "2026-10-29T02:36:27.980877+00:00",
+      "integratedAt": "2026-10-29T02:37:08.334787+00:00",
+      "integrationQueueSeconds": 6650.393106,
+      "integrationSeconds": 40.35391
     },
     {
       "id": "q-055",
@@ -8372,7 +8377,7 @@
       "title": "數學第8題｜角平分線與中垂線上的點",
       "subject": "Math",
       "lane": 2,
-      "state": "ready",
+      "state": "integrated",
       "startedAt": "2026-10-29T02:19:47.567336+00:00",
       "readyAt": "2026-10-29T02:27:35.760285+00:00",
       "decision": "complete",
@@ -8381,7 +8386,11 @@
         "docs/comics/q-235.json",
         "docs/comics/q-235-preview-validation.json",
         "docs/comics/q-235-geometry-check.json"
-      ]
+      ],
+      "integrationStartedAt": "2026-10-29T02:33:37.283741+00:00",
+      "integratedAt": "2026-10-29T02:34:51.615977+00:00",
+      "integrationQueueSeconds": 361.523456,
+      "integrationSeconds": 74.332236
     },
     {
       "id": "q-237",
@@ -8448,7 +8457,7 @@
       "title": "數學第8題｜整數解與代數式可能值",
       "subject": "Math",
       "lane": 3,
-      "state": "ready",
+      "state": "integrated",
       "startedAt": "2026-10-29T02:25:30.071099+00:00",
       "readyAt": "2026-10-29T02:28:22.677729+00:00",
       "decision": "complete",
@@ -8457,14 +8466,18 @@
         "docs/comics/q-322.json",
         "docs/comics/q-322-preview-validation.json",
         "docs/comics/q-322-algebra-validation.json"
-      ]
+      ],
+      "integrationStartedAt": "2026-10-29T02:31:26.238348+00:00",
+      "integratedAt": "2026-10-29T02:32:45.322665+00:00",
+      "integrationQueueSeconds": 183.560619,
+      "integrationSeconds": 79.084317
     },
     {
       "id": "q-323",
       "title": "數學第9題｜x與P都須符合整數條件",
       "subject": "Math",
       "lane": 1,
-      "state": "ready",
+      "state": "integrated",
       "startedAt": "2026-10-29T02:26:31.644399+00:00",
       "readyAt": "2026-10-29T02:29:33.175327+00:00",
       "decision": "complete",
@@ -8473,31 +8486,400 @@
         "docs/comics/q-323.json",
         "docs/comics/q-323-preview-validation.json",
         "docs/comics/q-323-algebra-validation.json"
-      ]
+      ],
+      "integrationStartedAt": "2026-10-29T02:31:26.244840+00:00",
+      "integratedAt": "2026-10-29T02:32:45.343774+00:00",
+      "integrationQueueSeconds": 113.069513,
+      "integrationSeconds": 79.098934
     },
     {
       "id": "q-238",
       "title": "數學第11題｜正方形內正三角形的面積比",
       "subject": "Math",
       "lane": 2,
-      "state": "claimed",
-      "startedAt": "2026-10-29T02:27:35.794525+00:00"
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:27:35.794525+00:00",
+      "readyAt": "2026-10-29T02:32:44.190952+00:00",
+      "decision": "complete",
+      "reason": "新三步精確幾何找正三角形/三垂距/兩目標面積著色，座標與鞋帶面積獨立驗a2 b負1 sum1，三寬實看PASS，舊略過保存。",
+      "evidence": [
+        "docs/comics/q-238.json",
+        "docs/comics/q-238-preview-validation.json",
+        "docs/comics/q-238-geometry-check.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:33:37.291316+00:00",
+      "integratedAt": "2026-10-29T02:34:51.637013+00:00",
+      "integrationQueueSeconds": 53.100364,
+      "integrationSeconds": 74.345697
     },
     {
       "id": "q-183",
       "title": "數學延伸練習4｜正三角形內的大角對大邊",
       "subject": "Math",
       "lane": 3,
-      "state": "claimed",
-      "startedAt": "2026-10-29T02:28:22.717454+00:00"
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:28:22.717454+00:00",
+      "readyAt": "2026-10-29T02:31:23.868823+00:00",
+      "decision": "complete",
+      "reason": "完整延伸練習與既有附圖核對C；正三角形座標平行及大邊對角獨立驗算，精確SVG三寬QA與桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-183.json",
+        "docs/comics/q-183-preview-validation.json",
+        "docs/comics/q-183-geometry-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:33:37.304029+00:00",
+      "integratedAt": "2026-10-29T02:34:51.650672+00:00",
+      "integrationQueueSeconds": 133.435206,
+      "integrationSeconds": 74.346643
     },
     {
       "id": "q-184",
       "title": "數學延伸練習5｜距離改變後的內角關係",
       "subject": "Math",
       "lane": 1,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:29:33.208861+00:00",
+      "readyAt": "2026-10-29T02:35:19.469342+00:00",
+      "decision": "complete",
+      "reason": "延伸原文/四選項與given圖實看，C維持；全新四垂距5/3/2/4精確座標及W/V三角形圖，驗角和180−W/180+V，三寬QA桌手機實看。",
+      "evidence": [
+        "docs/comics/q-184.json",
+        "docs/comics/q-184-preview-validation.json",
+        "docs/comics/q-184-geometry-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:39:29.699555+00:00",
+      "integratedAt": "2026-10-29T02:41:03.190853+00:00",
+      "integrationQueueSeconds": 250.230213,
+      "integrationSeconds": 93.491298
+    },
+    {
+      "id": "q-202",
+      "title": "數學第6題｜用共高面積比比較五邊形邊長",
+      "subject": "Math",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:31:23.900629+00:00",
+      "readyAt": "2026-10-29T02:33:52.111294+00:00",
+      "decision": "complete",
+      "reason": "原卷三選項完整核對B；共高兩面積比及9/4/5份數座標獨立驗算，新SVG三寬QA與桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-202.json",
+        "docs/comics/q-202-preview-validation.json",
+        "docs/comics/q-202-geometry-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:39:29.705975+00:00",
+      "integratedAt": "2026-10-29T02:41:03.211118+00:00",
+      "integrationQueueSeconds": 337.594681,
+      "integrationSeconds": 93.505143
+    },
+    {
+      "id": "q-203",
+      "title": "數學第7題｜正八邊形與正六邊形的直線方向",
+      "subject": "Math",
+      "lane": 2,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:32:44.221870+00:00",
+      "readyAt": "2026-10-29T02:40:57.219336+00:00",
+      "decision": "complete",
+      "reason": "新精確正多邊形/甲平行/乙線段原位向外延長相交三圖，叉積與斜率獨立驗D，不加兩圖等邊長假設，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-203.json",
+        "docs/comics/q-203-preview-validation.json",
+        "docs/comics/q-203-direction-check.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:42:28.858943+00:00",
+      "integratedAt": "2026-10-29T02:42:53.138059+00:00",
+      "integrationQueueSeconds": 91.639607,
+      "integrationSeconds": 24.279116
+    },
+    {
+      "id": "q-204",
+      "title": "數學第8題｜兩條平行線轉換三角形角度",
+      "subject": "Math",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:33:52.141652+00:00",
+      "readyAt": "2026-10-29T02:36:47.778841+00:00",
+      "decision": "complete",
+      "reason": "原卷A核對；兩平行線精確座標驗證120/115鈍角扇形及補角60/65，B角55，新SVG三寬QA與桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-204.json",
+        "docs/comics/q-204-preview-validation.json",
+        "docs/comics/q-204-geometry-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:39:29.716644+00:00",
+      "integratedAt": "2026-10-29T02:41:03.224491+00:00",
+      "integrationQueueSeconds": 161.937803,
+      "integrationSeconds": 93.507847
+    },
+    {
+      "id": "q-457",
+      "title": "英文第41題｜吃播流行的原因",
+      "subject": "English",
+      "lane": 1,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:35:19.504981+00:00",
+      "readyAt": "2026-10-29T02:38:48.452766+00:00",
+      "decision": "complete",
+      "reason": "實看完整吃播原文/四選項，C維持；新獨食→螢幕陪伴→仍獨處情境，HTML因果與alone同義對照，三寬QA桌手機實看。",
+      "evidence": [
+        "docs/comics/q-457.json",
+        "docs/comics/q-457-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:41:03.328934+00:00",
+      "integratedAt": "2026-10-29T02:42:28.823057+00:00",
+      "integrationQueueSeconds": 134.876168,
+      "integrationSeconds": 85.494123
+    },
+    {
+      "id": "q-458",
+      "title": "英文第42題｜作者呈現吃播的正反兩面",
+      "subject": "English",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:36:47.810469+00:00",
+      "readyAt": "2026-10-29T02:39:02.562649+00:00",
+      "decision": "complete",
+      "reason": "完整原文與四選項核對C；全新正反觀點閱讀情境不誤推健康因果，三寬QA與桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-458.json",
+        "docs/comics/q-458-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:41:03.335782+00:00",
+      "integratedAt": "2026-10-29T02:42:28.844353+00:00",
+      "integrationQueueSeconds": 120.773133,
+      "integrationSeconds": 85.508571
+    },
+    {
+      "id": "q-459",
+      "title": "英文第43題｜從語境猜셀카的組成",
+      "subject": "English",
+      "lane": 1,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:38:48.486509+00:00",
+      "readyAt": "2026-10-29T02:42:18.398453+00:00",
+      "decision": "complete",
+      "reason": "實看原文與43題四選項，B維持；新自拍/本人照片/影像工具情境，國立國語院核self camera縮語，三寬QA桌手機實看且韓字正確顯示。",
+      "evidence": [
+        "docs/comics/q-459.json",
+        "docs/comics/q-459-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:42:53.157208+00:00",
+      "integratedAt": "2026-10-29T02:44:59.644585+00:00",
+      "integrationQueueSeconds": 34.758755,
+      "integrationSeconds": 126.487377
+    },
+    {
+      "id": "q-615",
+      "title": "英文第5題｜Do you have the time的時間問答",
+      "subject": "English",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:39:02.593833+00:00",
+      "readyAt": "2026-10-29T02:42:10.318962+00:00",
+      "decision": "complete",
+      "reason": "原卷與官方Cambridge正文核對鐘點用法C；全新對話圖不露錯誤時刻，ASCII英文三寬QA與桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-615.json",
+        "docs/comics/q-615-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:42:53.163575+00:00",
+      "integratedAt": "2026-10-29T02:44:59.660864+00:00",
+      "integrationQueueSeconds": 42.844613,
+      "integrationSeconds": 126.497289
+    },
+    {
+      "id": "q-616",
+      "title": "英文第29題｜新老師的考試與閱讀規定",
+      "subject": "English",
+      "lane": 2,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:40:57.252291+00:00",
+      "readyAt": "2026-10-29T02:48:33.873903+00:00",
+      "decision": "complete",
+      "reason": "新製Anna抱怨、老師閱讀要求、媽媽稱讚三景；原卷B But及And可補充均依已確認解說，三寬視覺QA完成。",
+      "evidence": [
+        "docs/comics/q-616.json",
+        "docs/comics/q-616-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:49:35.255599+00:00",
+      "integratedAt": "2026-10-29T02:51:03.647257+00:00",
+      "integrationQueueSeconds": 61.381696,
+      "integrationSeconds": 88.391658
+    },
+    {
+      "id": "q-617",
+      "title": "英文延伸填空1｜第一人稱單數",
+      "subject": "English",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:42:10.353226+00:00",
+      "readyAt": "2026-10-29T02:43:48.693730+00:00",
+      "decision": "not_suitable",
+      "reason": "I與am單一基礎填空，人物或詞卡只重複原兩行規則、四格無新增理解；來源完整文字及正式桌手機收合QA已實看",
+      "evidence": [
+        "docs/comics/q-617-review.json",
+        "docs/comics/q-617-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:45:37.334745+00:00",
+      "integratedAt": "2026-10-29T02:45:37.341202+00:00",
+      "integrationQueueSeconds": 108.641015,
+      "integrationSeconds": 0.006457
+    },
+    {
+      "id": "q-618",
+      "title": "英文延伸填空2｜現在進行式的單數主詞",
+      "subject": "English",
+      "lane": 1,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:42:18.452470+00:00",
+      "readyAt": "2026-10-29T02:44:40.877625+00:00",
+      "decision": "not_suitable",
+      "reason": "單句The cat單數填is，完整短解已含主詞一致與進行式；貓圖只呈sleeping/under，原生分塊亦僅重排同句，無新增推理幫助。來源文字核對is不變，三寬收合/展開QA及桌手機實看完成。",
+      "evidence": [
+        "docs/comics/q-618-review.json",
+        "docs/comics/q-618-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:46:17.598415+00:00",
+      "integratedAt": "2026-10-29T02:46:17.605210+00:00",
+      "integrationQueueSeconds": 96.72079,
+      "integrationSeconds": 0.006795
+    },
+    {
+      "id": "q-571",
+      "title": "國文第7題｜樂觀、悲觀與平常心",
+      "subject": "Chinese",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:43:48.740347+00:00",
+      "readyAt": "2026-10-29T02:46:19.315508+00:00",
+      "decision": "complete",
+      "reason": "使用者已確認A保持不重問；新比喻計畫圖呈現平常心，不作真實色盲或交通解讀，三寬QA與桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-571.json",
+        "docs/comics/q-571-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:47:22.538361+00:00",
+      "integratedAt": "2026-10-29T02:48:23.678692+00:00",
+      "integrationQueueSeconds": 63.222853,
+      "integrationSeconds": 61.140331
+    },
+    {
+      "id": "q-572",
+      "title": "國文第8題｜冒號、句號與列舉標點",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:44:40.908029+00:00",
+      "readyAt": "2026-10-29T02:49:09.376100+00:00",
+      "decision": "complete",
+      "reason": "原卷全文/五空/四組選項及B第四頓號放大實看，B維持；新放大符號與語意結構圖，正文用符號名稱避既有wrap孤立標點重排，三寬QA桌手機實看。",
+      "evidence": [
+        "docs/comics/q-572.json",
+        "docs/comics/q-572-preview-validation.json",
+        "docs/comics/qa/q-572/options-zoom.png"
+      ],
+      "integrationStartedAt": "2026-10-29T02:51:03.703788+00:00",
+      "integratedAt": "2026-10-29T02:51:29.566848+00:00",
+      "integrationQueueSeconds": 114.327688,
+      "integrationSeconds": 25.86306
+    },
+    {
+      "id": "q-590",
+      "title": "國文第16題｜傍、辟、癟、便的讀音",
+      "subject": "Chinese",
+      "lane": 3,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:46:19.349046+00:00",
+      "readyAt": "2026-10-29T02:49:38.768882+00:00",
+      "decision": "complete",
+      "reason": "使用者已確認原C韻母保留；五詞教育部正文核音B答，新詞義情境圖與HTML精確注音三寬QA桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-590.json",
+        "docs/comics/q-590-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:51:03.709361+00:00",
+      "integratedAt": "2026-10-29T02:51:29.590754+00:00",
+      "integrationQueueSeconds": 84.940479,
+      "integrationSeconds": 25.881393
+    },
+    {
+      "id": "q-540",
+      "title": "國文題畫詩｜牧牛生活、文體與末句情感",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:48:48.369436+00:00",
+      "readyAt": "2026-10-29T02:51:40.428311+00:00",
+      "decision": "complete",
+      "reason": "新製牛背讀書/田間牧養/老年望畫三景，原卷全文與D答核對，避免舟喻成真與牧養誤作游牧；1440/1120/390實看PASS。",
+      "evidence": [
+        "docs/comics/q-540.json",
+        "docs/comics/q-540-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:53:58.960333+00:00",
+      "integratedAt": "2026-10-29T02:54:55.453649+00:00",
+      "integrationQueueSeconds": 138.532022,
+      "integrationSeconds": 56.493316
+    },
+    {
+      "id": "q-541",
+      "title": "國文第29題｜兩傳對姜公輔出身的記載",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "integrated",
+      "startedAt": "2026-10-29T02:49:09.413252+00:00",
+      "readyAt": "2026-10-29T02:51:45.186560+00:00",
+      "decision": "complete",
+      "reason": "甲乙完整傳記與29題四選項實看，C維持；新籍貫比較/進士等義/資訊歸屬三原生圖，不拼接家貧與京兆，三寬QA桌手機實看。",
+      "evidence": [
+        "docs/comics/q-541.json",
+        "docs/comics/q-541-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:53:58.967926+00:00",
+      "integratedAt": "2026-10-29T02:54:55.476004+00:00",
+      "integrationQueueSeconds": 133.781366,
+      "integrationSeconds": 56.508078
+    },
+    {
+      "id": "q-542",
+      "title": "國文第30題｜姜公輔兩傳的比較判讀",
+      "subject": "Chinese",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-29T02:49:38.799262+00:00",
+      "readyAt": "2026-10-29T02:51:54.533578+00:00",
+      "decision": "complete",
+      "reason": "甲乙全文及四選項實看A；新原生比較圖區分籍貫詳略、家庭相容、器重不等於已晉升，三寬QA桌手機實看通過",
+      "evidence": [
+        "docs/comics/q-542.json",
+        "docs/comics/q-542-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:53:58.978503+00:00"
+    },
+    {
+      "id": "q-523",
+      "title": "國文第20題｜賈誼被召為博士的原因",
+      "subject": "Chinese",
+      "lane": 1,
       "state": "claimed",
-      "startedAt": "2026-10-29T02:29:33.208861+00:00"
+      "startedAt": "2026-10-29T02:51:45.218270+00:00"
+    },
+    {
+      "id": "q-589",
+      "title": "歷史第21題｜美麗島事件與基本人權",
+      "subject": "History",
+      "lane": 2,
+      "state": "claimed",
+      "startedAt": "2026-10-29T02:51:40.463989+00:00"
+    },
+    {
+      "id": "q-577",
+      "title": "歷史第20題｜雞籠煤礦與清法戰爭後政策",
+      "subject": "History",
+      "lane": 3,
+      "state": "claimed",
+      "startedAt": "2026-10-29T02:51:54.567505+00:00"
     }
   ],
   "retryHistory": [

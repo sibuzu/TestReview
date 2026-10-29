@@ -1,0 +1,48 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先比較對邊，才能判斷角度大小",
+    "art": "assets/comics/q-183-art-0884047c03.svg",
+    "panels": [
+      {
+        "heading": "① 平行線先找出兩個正三角形",
+        "text": "DE∥AC、EF∥AB，外框又是正三角形，因此△BDE與△CEF都是正三角形。在直線BC上，∠DEF＝180°−60°−60°＝60°。",
+        "alt": "依正確平行條件精確構圖，BDE藍色、CEF橘色，E點內角60度；不套用別題DF平行BC條件。"
+      },
+      {
+        "heading": "② 用相等線段，把已知不等式搬進來",
+        "text": "△BDE給出DE＝BD＝BE；△CEF給出EF＝EC。又BC＝AB，扣掉BE＝BD，得EC＝AD。所以BD＞AD就變成DE＞EF。",
+        "alt": "藍色BD/DE/BE等長，橘色AD/EC/EF等長；藍色大於橘色，由完整正三角形的邊長關係推出。"
+      },
+      {
+        "heading": "③ 同一三角形，短邊對較小角",
+        "text": "在△DEF內，EF較短，所對的∠EDF＝α較小；DE較長，所對的∠DFE＝β較大。α＋β＝120°且α＜β，所以α＜60°。",
+        "alt": "只保留精確比例的DEF三角形，長邊DE藍色對F點β，短邊EF橘色對D點α，E角60度；非特定角度數值範例。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：∠DEF＝60°，∠EDF＜60°",
+      "points": [
+        "先由平行線得到兩個小正三角形。",
+        "把BD＞AD轉為DE＞EF。",
+        "大邊對大角，小邊對小角；不能只憑圖猜。"
+      ]
+    },
+    "protectedWords": [
+      "正三角形",
+      "△BDE",
+      "△CEF",
+      "△DEF",
+      "DE∥AC",
+      "EF∥AB",
+      "BD＞AD",
+      "DE＞EF",
+      "∠DEF",
+      "∠EDF",
+      "∠DFE",
+      "60°",
+      "120°",
+      "α＜β"
+    ]
+  }
+}

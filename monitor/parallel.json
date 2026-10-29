@@ -2,101 +2,53 @@
   "mode": "three_parallel_workers_with_root_available",
   "workerLimit": 3,
   "rootRole": "機動、回答問題與整合；維持WebP及共用圖片減量",
-  "updatedAt": "2026-10-29T02:30:30.970787+00:00",
+  "updatedAt": "2026-10-29T02:54:55.488409+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-184",
-      "title": "數學延伸練習5｜距離改變後的內角關係",
+      "questionId": "q-523",
+      "title": "國文第20題｜賈誼被召為博士的原因",
       "state": "running",
-      "startedAt": "2026-10-29T02:29:33.208861+00:00",
+      "startedAt": "2026-10-29T02:51:45.218270+00:00",
       "agent": "/root/comic_lane_1"
     },
     {
       "lane": 2,
-      "questionId": "q-238",
-      "title": "數學第11題｜正方形內正三角形的面積比",
+      "questionId": "q-589",
+      "title": "歷史第21題｜美麗島事件與基本人權",
       "state": "running",
-      "startedAt": "2026-10-29T02:27:35.794525+00:00",
+      "startedAt": "2026-10-29T02:51:40.463989+00:00",
       "agent": "/root/comic_lane_2"
     },
     {
       "lane": 3,
-      "questionId": "q-183",
-      "title": "數學延伸練習4｜正三角形內的大角對大邊",
+      "questionId": "q-577",
+      "title": "歷史第20題｜雞籠煤礦與清法戰爭後政策",
       "state": "running",
-      "startedAt": "2026-10-29T02:28:22.717454+00:00",
+      "startedAt": "2026-10-29T02:51:54.567505+00:00",
       "agent": "/root/comic_lane_3"
     }
   ],
   "ready": [
     {
-      "id": "q-235",
-      "title": "數學第8題｜角平分線與中垂線上的點",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T02:19:47.567336+00:00",
-      "readyAt": "2026-10-29T02:27:35.760285+00:00",
-      "decision": "complete",
-      "reason": "新精確三分步梯形/角平分/中垂線圖，模型獨立驗B110 D120/C30、DA=DC BA≠BC，D答不變，三寬實看PASS，舊略過留歷程。",
-      "evidence": [
-        "docs/comics/q-235.json",
-        "docs/comics/q-235-preview-validation.json",
-        "docs/comics/q-235-geometry-check.json"
-      ]
-    },
-    {
-      "id": "q-322",
-      "title": "數學第8題｜整數解與代數式可能值",
-      "subject": "Math",
+      "id": "q-542",
+      "title": "國文第30題｜姜公輔兩傳的比較判讀",
+      "subject": "Chinese",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T02:25:30.071099+00:00",
-      "readyAt": "2026-10-29T02:28:22.677729+00:00",
+      "startedAt": "2026-10-29T02:49:38.799262+00:00",
+      "readyAt": "2026-10-29T02:51:54.533578+00:00",
       "decision": "complete",
-      "reason": "重審改製精確代數圖；嚴格端點與整數兩條件、四選項反算皆獨立驗算，三寬QA及桌手機實看通過",
+      "reason": "甲乙全文及四選項實看A；新原生比較圖區分籍貫詳略、家庭相容、器重不等於已晉升，三寬QA桌手機實看通過",
       "evidence": [
-        "docs/comics/q-322.json",
-        "docs/comics/q-322-preview-validation.json",
-        "docs/comics/q-322-algebra-validation.json"
-      ]
-    },
-    {
-      "id": "q-323",
-      "title": "數學第9題｜x與P都須符合整數條件",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T02:26:31.644399+00:00",
-      "readyAt": "2026-10-29T02:29:33.175327+00:00",
-      "decision": "complete",
-      "reason": "原卷x整數/P最小整數兩條件及全部選項實看，C不變；新整數射線與雙向代入表，Fraction獨立核算，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-323.json",
-        "docs/comics/q-323-preview-validation.json",
-        "docs/comics/q-323-algebra-validation.json"
-      ]
+        "docs/comics/q-542.json",
+        "docs/comics/q-542-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:53:58.978503+00:00"
     }
   ],
-  "integrated": 432,
+  "integrated": 454,
   "blocked": [
-    {
-      "id": "q-054",
-      "title": "公民第10題｜保育動物與環境倫理",
-      "subject": "Civics",
-      "lane": 3,
-      "state": "blocked",
-      "startedAt": "2026-10-29T00:40:03.751095+00:00",
-      "readyAt": "2026-10-29T00:45:37.587771+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "原卷名稱紙貓熊展之OCR校字；答案C不變，待使用者確認名稱更正。",
-      "evidence": [
-        "docs/comics/q-054.json",
-        "docs/comics/q-054-preview-validation.json",
-        "docs/comics/q-054-review.json"
-      ]
-    },
     {
       "id": "q-439",
       "title": "國文第31題｜從兔字與月兔文章核對敘述",
@@ -129,56 +81,24 @@
       ]
     }
   ],
-  "waiting": [
+  "waiting": [],
+  "integrating": [
     {
-      "id": "q-235",
-      "title": "數學第8題｜角平分線與中垂線上的點",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T02:19:47.567336+00:00",
-      "readyAt": "2026-10-29T02:27:35.760285+00:00",
-      "decision": "complete",
-      "reason": "新精確三分步梯形/角平分/中垂線圖，模型獨立驗B110 D120/C30、DA=DC BA≠BC，D答不變，三寬實看PASS，舊略過留歷程。",
-      "evidence": [
-        "docs/comics/q-235.json",
-        "docs/comics/q-235-preview-validation.json",
-        "docs/comics/q-235-geometry-check.json"
-      ]
-    },
-    {
-      "id": "q-322",
-      "title": "數學第8題｜整數解與代數式可能值",
-      "subject": "Math",
+      "id": "q-542",
+      "title": "國文第30題｜姜公輔兩傳的比較判讀",
+      "subject": "Chinese",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T02:25:30.071099+00:00",
-      "readyAt": "2026-10-29T02:28:22.677729+00:00",
+      "startedAt": "2026-10-29T02:49:38.799262+00:00",
+      "readyAt": "2026-10-29T02:51:54.533578+00:00",
       "decision": "complete",
-      "reason": "重審改製精確代數圖；嚴格端點與整數兩條件、四選項反算皆獨立驗算，三寬QA及桌手機實看通過",
+      "reason": "甲乙全文及四選項實看A；新原生比較圖區分籍貫詳略、家庭相容、器重不等於已晉升，三寬QA桌手機實看通過",
       "evidence": [
-        "docs/comics/q-322.json",
-        "docs/comics/q-322-preview-validation.json",
-        "docs/comics/q-322-algebra-validation.json"
-      ]
-    },
-    {
-      "id": "q-323",
-      "title": "數學第9題｜x與P都須符合整數條件",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T02:26:31.644399+00:00",
-      "readyAt": "2026-10-29T02:29:33.175327+00:00",
-      "decision": "complete",
-      "reason": "原卷x整數/P最小整數兩條件及全部選項實看，C不變；新整數射線與雙向代入表，Fraction獨立核算，三寬QA桌手機實看。",
-      "evidence": [
-        "docs/comics/q-323.json",
-        "docs/comics/q-323-preview-validation.json",
-        "docs/comics/q-323-algebra-validation.json"
-      ]
+        "docs/comics/q-542.json",
+        "docs/comics/q-542-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T02:53:58.978503+00:00"
     }
   ],
-  "integrating": [],
   "held": []
 }

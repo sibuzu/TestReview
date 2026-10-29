@@ -1,0 +1,107 @@
+{
+  "id": "q-572",
+  "subject": "Chinese",
+  "title": "先看說明與收束，再核對五個空格",
+  "art": "docs/comics/art/q-572.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-572-generate.py",
+  "startedAt": "2026-10-29T02:44:40.908029+00:00",
+  "panels": [
+    {
+      "heading": "① 冒號，引出下面有哪些人",
+      "text": "「過客們」後面，開始列舉東方人、西方人及不同膚色的人。第一空用冒號，引出後面的介紹與說明。",
+      "alt": "過客們、放大的冒號、人物列舉三層關係，放大精確符號而不是讓生成圖片拼字。"
+    },
+    {
+      "heading": "② 句號，結束這一段人物介紹",
+      "text": "人物介紹結束，接著轉到「今天下午忽然全不見了」的新情況。第二空用句號收束，前兩空因此留下B、D。",
+      "alt": "人物介紹以放大的句號收束，再接今天下午的新情況，兩個語意區分開。"
+    },
+    {
+      "heading": "③ 猜想後用逗號，再照卷核對",
+      "text": "「猜想」後用逗號停頓，B比D的破折號直接。B第四空原印的是頓號，第五空為逗號；原卷怎麼印就怎麼核對，不能暗改成別組符號。",
+      "alt": "五空順序冒號/句號/逗號/頓號/逗號完整列出，第四空頓號綠底放大，B與D在猜想後的差異另列。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：冒號、句號、逗號、頓號、逗號",
+    "points": [
+      "第一空引出說明；第二空結束人物介紹。",
+      "第三空猜想後停頓，用B的逗號。",
+      "本題第四空是頓號，不推成所有長分句列舉都只能用頓號。"
+    ]
+  },
+  "protectedWords": [
+    "過客們",
+    "冒號",
+    "句號",
+    "逗號",
+    "頓號",
+    "破折號",
+    "人物介紹",
+    "第三空",
+    "第四空",
+    "第五空"
+  ],
+  "rationale": "實看原卷完整段落/五個方框/A–D，另放大B/D逐個符號確認B第四空為頓號、B不變。全新原生符號與語意結構圖能處理讀圖誤認與順序，不重用來源AI錯轉錄；不概括破折號絕對不可或長分句只用頓號。",
+  "promptSummary": "原生SVG放大冒號引出人物、句號收束人物；B五符號：。，、，及猜想後B逗號/D破折號對照。文字精確HTML，非人物裝飾。",
+  "answerCheckedAgainst": "原卷五空及A兩破折起/B冒句逗頓逗/C破分逗逗逗/D冒句破逗逗放大核對；教育部手冊查冒號總起下文/句號完整句末/逗號停頓/頓號並列詞語。",
+  "officialReferences": [
+    {
+      "url": "https://language.moe.gov.tw/001/Upload/FILES/SITE_CONTENT/M0001/HAU/h5.htm",
+      "finding": "冒號可總起下文或舉例說明上文，包括列舉人事物。"
+    },
+    {
+      "url": "https://language.moe.gov.tw/001/Upload/FILES/SITE_CONTENT/M0001/HAU/h1.htm",
+      "finding": "句號用於語義完整句末，適用本題人物介紹後轉新情況。"
+    },
+    {
+      "url": "https://language.moe.gov.tw/001/Upload/FILES/SITE_CONTENT/M0001/HAU/h2.htm",
+      "finding": "逗號分隔分句或標示句內語氣停頓，核猜想後的停頓。"
+    },
+    {
+      "url": "https://language.moe.gov.tw/001/Upload/FILES/SITE_CONTENT/M0001/HAU/h3.htm",
+      "finding": "頓號用於並列詞語，不將本題選項用法一概推為所有長句列舉規則。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-572-source-1837a216ec.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "實看原文全段及全部A–D，B第四頓號以/tmp/q-572-options-zoom.png讀取放大確認，非逗號；原AI舊轉錄錯誤既已詳解註明，不重問、不改原題。",
+    "zoomEvidence": "docs/comics/qa/q-572/options-zoom.png"
+  },
+  "artSHA256": "50e0a98e5a94748f0cc72cad5be5fc14500483f8736bfad5166d128f2658ef8b",
+  "completedAt": "2026-10-29T02:49:09.340377+00:00",
+  "checkedAt": "2026-10-29T02:51:29.566848+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-572-preview-validation.json",
+  "visualReview": "實看原卷全段/四選項及B/D放大、540×180新原生和最終1440/390：B五空冒/句/逗/頓/逗明確，第四頓號綠底放大，不私改逗號；B答案名稱全部可讀。首次純標點引號遭既有wrap重排，改正文用頓號名稱而原生圖保留精確符號，重跑QA並實看末稿正常，三寬無溢出、同行等高/手機自然高度。",
+  "nativeArt": "assets/comics/q-572-art-50e0a98e5a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:51:29.564273+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷五空與四組符號實看，放大B/D核第四空頓號；新符號圖順序：冒號/句號/逗號/頓號/逗號，不改原印或泛稱所有長句列舉只能用頓號，B不變。正式桌手機實看、三寬6項QA通過。",
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-572-validation.json"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "q-238",
+  "subject": "Math",
+  "title": "先認正三角形，再用高求面積比",
+  "art": "docs/comics/art/q-238-geometry.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T02:30:34.932770+00:00",
+  "panels": [
+    {
+      "heading": "① BC＝BE＝CE，是正三角形",
+      "text": "正方形有AB＝BC，配合已知AB＝BE＝CE，可知△BCE為正三角形。面積比不因等比縮放改變，所以可方便設正方形邊長為2。",
+      "alt": "新圖高亮△BCE與AB/BC/BE/CE共同等長記號，正方形方向和原卷相同，不把E移出正方形。"
+    },
+    {
+      "heading": "② 用正三角形的高，求三段距離",
+      "text": "E向BC的垂足G在中點，BG＝GC＝1，故EG＝√(2²−1²)＝√3。E到AD的高EF＝2−√3；E到CD的距離EH＝1。",
+      "alt": "新精確圖標F/G/H，EG=√3、BG=GC=1、EH=1，三垂直標記留空心，EF是靠上方短高而非整個正方形高度。"
+    },
+    {
+      "heading": "③ 同用底邊2，兩面積分別求",
+      "text": "藍色△ADE面積＝2−√3，金色△CDE面積＝1。因此前者除以後者，得到比值2−√3；不要把兩個面積直接相加。",
+      "alt": "新圖只著色上方薄△ADE與右側△CDE，底AD/CD同為2，高分別EF/EH，顯示實際面積差異而非人物比喻。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先認正三角形，再用高求面積比",
+    "answer": "a＋b＝1（a＝2，b＝−1）",
+    "points": [
+      "面積比＝2−√3＝2＋(−1)√3。",
+      "a是2，b是負1，不是正1。",
+      "題目最後問a＋b，不是只寫面積比。"
+    ]
+  },
+  "protectedWords": [
+    "正方形",
+    "正三角形",
+    "等比縮放",
+    "面積比",
+    "比值",
+    "底邊",
+    "垂足",
+    "中點",
+    "AB＝BC",
+    "AB＝BE＝CE",
+    "BG＝GC＝1",
+    "EF＝2−√3",
+    "EG＝√3",
+    "EH＝1",
+    "2−√3",
+    "△BCE",
+    "△ADE",
+    "△CDE",
+    "a＋b＝1",
+    "a＝2",
+    "b＝−1",
+    "負1",
+    "正1"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-238-source-02e014ce94.jpg",
+    "site/dist/assets/questions/q-238-given.svg",
+    "site/dist/assets/questions/q-238-proof.svg"
+  ],
+  "originalVisualCheck": "重新實看11題完整E在正方形內/AB=BE=CE/面積比為a+b√3且a,b整數/求a+b，原手算1及F/G/H僅手作輔助。既有given/proof是原生向量，不採來源AI圖。",
+  "answerCheckedAgainst": "以邊長2模型E=(1,√3)獨立驗AB=BE=CE=2，鞋帶面積ADE=2−√3、CDE=1，比值2−√3，故a2 b−1 sum1。幾何檢查q-238-geometry-check.json；縮放選2不新增原題限制。",
+  "rationale": "重審舊無需新圖，使用三分步原生幾何：找正三角形/畫三垂線/分別著色目標面積，凸顯EF很短與EH=1以及最後要a+b的兩層轉換。保持已核對1，幾何比人物更直接。",
+  "artType": "new precise native SVG geometry and area highlighting",
+  "generationCalls": 0,
+  "computationEvidence": "docs/comics/q-238-geometry-check.json",
+  "supersedesReview": "docs/comics/q-238-review.json",
+  "supersedesReason": "使用者新指示評估幾何四格效益，分步圖可改善舊單圖證明，舊略過保存歷程。",
+  "artSHA256": "6d854bcc74d4ba917e96e6dd16746aaf2888d412b087af086aa09ae5c398012e",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T02:34:51.637013+00:00",
+  "completedAt": "2026-10-29T02:32:44.164315+00:00",
+  "layoutEvidence": "docs/comics/q-238-preview-validation.json",
+  "visualReview": "實看1440/1120/390正三角形四等長記號、三垂足F/G/H與√3/1、上薄ADE藍區與右CDE金區，方形比例/高度位置準確，空心直角未黑塊遮線。最後比值與a+b=1區分清楚，無溢出/保護詞拆行，同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-238-art-6d854bcc74.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:34:51.613295+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷條件與最後a+b實看；獨立設邊2算E(1,√3)、EF2-√3/EH1/兩面積比2-√3及sum1，三格著色及垂足精確。正式桌手機成品已實看、三寬6項QA通過。",
+    "independentGeometryCheck": "docs/comics/root-geometry3-validation.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-238-validation.json"
+}

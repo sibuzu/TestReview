@@ -1,0 +1,79 @@
+{
+  "id": "q-571",
+  "subject": "Chinese",
+  "title": "回到智者的態度：不偏向盲目樂觀或悲觀",
+  "art": "docs/comics/art/q-571.png",
+  "protectedWords": [
+    "樂觀者",
+    "悲觀者",
+    "智者",
+    "綠燈",
+    "紅燈",
+    "色盲",
+    "平常心",
+    "謀定而後動",
+    "預設立場"
+  ],
+  "panels": [
+    {
+      "heading": "① 只見綠燈：一味看好事情",
+      "text": "樂觀者眼裡盡是綠燈，比喻總把事情想得順利。圖中只注意計畫優點，沒有一起考量困難；這是一種偏向，還不是全句最後讚許的態度。",
+      "alt": "同一學生做校慶手工計畫，過度興奮只看綠色機會卡，紅色疑慮卡放在邊緣；非道路交通情境。"
+    },
+    {
+      "heading": "② 只見紅燈：總覺得處處有阻礙",
+      "text": "悲觀者只看得到紅燈，比喻一味想到問題與阻礙。這能對應原有看法的局限，但題目要找整句意旨，不能只停在前兩種人。",
+      "alt": "學生同一計畫中只盯紅色疑慮卡、忽略綠色機會卡，表情普通憂慮，不畫真實危險或醫療視覺障礙。"
+    },
+    {
+      "heading": "③ 智者的色盲：不被兩種偏向牽走",
+      "text": "這裡的色盲是比喻，不是指真的辨色問題。智者以平常心看事情，兼顧機會與困難，審慎判斷再行動，因此A最直接掌握末句重點。",
+      "alt": "同一學生冷靜比較綠紅兩組計畫資料、記錄可行方案；不畫閉眼、忽視紅燈或把色盲當疾病評價。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：以平常心看待事物",
+    "points": [
+      "全句落點在智者應有的態度。",
+      "不盲目樂觀，也不一味悲觀。",
+      "D只說看法的局限，A更直接對應平常心。"
+    ]
+  },
+  "rationale": "實看完整原卷第7題四選項，讀原AI選D與比喻分析，但依使用者已確認A，不重開判答。三格使用虛構校慶計畫中只看優點／只看阻礙／平衡判斷，教學比喻與原題語意一致；不擴張成真實交通應忽略號誌，也不把色盲生理狀況作能力判斷。全新imagegen，不沿用來源AI圖。",
+  "generationMethod": "built-in imagegen new wordless optimistic pessimistic and balanced planning scenes",
+  "promptFile": "docs/comics/q-571-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-571-source-26a5224f91.jpg",
+    "site/dist/sources/gemini-u6vEkVH1rZtH.txt lines 202–225"
+  ],
+  "sourceUrl": "https://share.gemini.google/u6vEkVH1rZtH",
+  "answerCheckedAgainst": "使用者已確認A；末句智者不被樂觀悲觀牽走，平常心＋謀定後動；不重問原D爭議。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:45:56.301516+00:00",
+  "checkedAt": "2026-10-29T02:48:23.678692+00:00",
+  "validationFile": "docs/comics/q-571-validation.json",
+  "artSha256": "11d47cb58508995a25f015b1dca3e55b9fdf873b2c5e8400963bd7b0f8f66f8a",
+  "nativeArt": "assets/comics/q-571-art-11d47cb585-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:48:23.673219+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷完整紅綠燈色盲比喻與四選項實看，沿使用者A；新同一校慶計畫只看機會/只看困難/平常心兩面審慎三景，不推真交通忽略號誌，不當生理辨色評價。正式桌手機實看、三寬6項QA通過。",
+    "sharedWebPAssetVerified": true
+  }
+}

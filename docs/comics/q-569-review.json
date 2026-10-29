@@ -1,0 +1,32 @@
+{
+  "id": "q-569",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T19:39:57.122178+00:00",
+  "answer": "A：410000卡＝410大卡",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-569-source-cae7372a8f.jpg",
+      "sha256": "cae7372a8faa1da2d01f6a6a7af94058095acf8a7454fecaf2e8df5695262a2f",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-569-source-material-c89d237e9b.jpg",
+      "sha256": "c89d237e9bcf77c47a9097af27d1ddb7d0cf73166ad7c58340a627466cf6e99f",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-569-passage-893b48ee84.jpg",
+      "sha256": "893b48ee841e4a10ef4343763545f86759a21724aa8414b30f4f1a4e589f694e",
+      "visualChecked": true
+    }
+  ],
+  "reason": "原卷營養表、共同題文與四選項實看，已解決原表表頭大卡但列單位為公克/毫克的問題；維持使用者已確認A。核心是直接讀營養素總量後做20×4、10×9、60×4及大卡乘1000的精確算式，現有可選取HTML逐步完整。再畫一碗麵或各種食材，無法呈現給定營養素總量，反會誘導把每項食材都算20公克；粒子/份量圖亦易混淆重量與熱量，故不加裝飾人物或虛構營養比例圖。",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T19:40:33.407027+00:00",
+  "completedAt": "2026-10-28T19:40:33.407027+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-569/layout.json",
+    "visualChecked": true,
+    "result": "1440/390詳解截圖實看，三大營養素4/9/4換算、410大卡→410000卡及表頭誤印釐清皆完整可讀，預設收合正常、頁面無橫溢。"
+  }
+}

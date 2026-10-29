@@ -1,0 +1,37 @@
+{
+  "id": "q-559",
+  "checkedAt": "2026-10-28T20:45:07.349933+00:00",
+  "answer": "B",
+  "originals": [
+    {
+      "src": "site/dist/assets/questions/q-559-source-d664f2ea95.jpg",
+      "sha256": "d664f2ea953f27dd75637b0e6ee2bb9b957c1733f8a36a6f52765bb69c23a92a",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-559-blood-flow-7776ef72e6.jpg",
+      "sha256": "7776ef72e6e63d813bb5b4a703df5b808fc4824083f445ef36b9b31b6c23066b",
+      "visualChecked": true
+    }
+  ],
+  "findings": [
+    "原卷32題與必要血管附圖已實看，採用已確認B。",
+    "題圖按箭頭甲分支到乙細網再匯入丙，SVG抽取交換路徑重排，不把上下位置當血管定義。",
+    "局部蜂毒入血由丙帶走，B比較方向反；葡萄糖由血液到細胞、CO₂由細胞入血與原題A/C相符。",
+    "新SVG路徑座標確認3組箭頭方向，微血管示意寬度/粒子不作真實大小與數量模型。"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/physiology.html",
+      "finding": "微血管銜接動靜脈且負責血液和組織的物質交換。"
+    }
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "bloodFlow": "left-to-right甲乙丙",
+    "venomEntry": "x45→109 into capillary then y28→151 downstream",
+    "glucose": "x47→109 toward cell",
+    "carbonDioxide": "x109→47 toward blood"
+  },
+  "visualChecked": true
+}

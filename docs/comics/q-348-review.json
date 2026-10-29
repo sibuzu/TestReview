@@ -1,0 +1,38 @@
+{
+  "id": "q-348",
+  "decision": "existing_ai",
+  "startedAt": "2026-10-28T21:36:03.329062+00:00",
+  "answer": "B",
+  "figures": [
+    {
+      "src": "site/dist/assets/explanations/q-348-source-ai-47c3b0e384.webp",
+      "sha256": "55cd189f9d5f3d39ca4c30ef5c897da71695e54334c9d519626daa23b7596467",
+      "visualChecked": true
+    }
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-348-source-a830e26491.jpg"
+  ],
+  "reason": "完整原卷31題與紅筆B、來源AI病毒/細胞比較表實看。既有圖清楚呈現病毒有DNA或RNA、可能變異、非細胞且需宿主細胞複製，能直接對應A/B/C與原學生誤選C；感染力仍在不等於物體表面自行繁殖。NHGRI官方Virus即時核對核酸及需宿主複製核心。現有HTML已明確修正COVID-19為疾病名、SARS-CoV-2為病毒名及空氣傳播，保留圖表作核心對照，不把圖底COVID-19俗稱當正確病毒學命名；也不把簡表解成每一種細胞皆可自行分裂。無須重製。",
+  "references": [
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Virus",
+      "title": "NHGRI Genetics Glossary：Virus",
+      "checkedAt": "2026-10-28T21:37:42.948845+00:00",
+      "supports": "病毒含核酸DNA或RNA，不能單獨複製，須利用宿主細胞。"
+    }
+  ],
+  "existingClarification": "正式HTML已有疾病/病毒名稱與空氣傳播的澄清，不改原題，也不重開已處理的傳播訂正。",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T21:37:42.948845+00:00",
+  "completedAt": "2026-10-28T21:37:42.948845+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-348/layout.json",
+    "screenshots": [
+      "docs/comics/qa/q-348/1440-figure.png",
+      "docs/comics/qa/q-348/390-figure.png"
+    ],
+    "visualChecked": true,
+    "result": "1440/390實看比較表，預設隱藏、共同展開圖片正常載入，完整縮放無文件橫溢；手機小字可開原圖，HTML詳解不依賴小圖。"
+  }
+}

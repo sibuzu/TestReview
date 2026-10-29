@@ -1,0 +1,60 @@
+{
+  "id": "q-047",
+  "checkedAt": "2026-10-28T21:43:27.131158+00:00",
+  "answer": "D",
+  "originals": [
+    {
+      "src": "site/dist/assets/questions/q-047-source-7c718787c0.jpg",
+      "sha256": "7c718787c0b258de5d74bd1e739f6bac91ffbc804cad1ebad83cef60c2150d9f",
+      "visualChecked": true
+    }
+  ],
+  "findings": [
+    "原卷44完整四選項實看，A/B/C混淆通氣交換與細胞代謝，採已確認廣義D。",
+    "國科會科普核對胸腔通氣，教育部教材核對養分釋能，NIH NHLBI研究摘要核對成熟紅血球依賴糖解。",
+    "不把D擴成所有人體細胞都有粒線體且進行有氧呼吸；沿用既有教材限定，不重開確認。",
+    "SVG精確箭頭氧從肺泡入血、二氧化碳反向，吸氣進/呼氣出為不同相位示意，無定量粒子或能量創造假設。"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://web.nstc.gov.tw/pstrain/2021/techtrain-prod-front.azurewebsites.net/home/Biology.html",
+      "finding": "胸腔擴張/鬆弛影響空氣進出肺部。"
+    },
+    {
+      "url": "https://market.cloud.edu.tw/resources/video/1830917",
+      "finding": "呼吸作用分解養分，釋出的能量用以形成可用能量形式。"
+    },
+    {
+      "url": "https://biolincc.nhlbi.nih.gov/publications/597b6438d5e94ee18d6328382adb8876/",
+      "finding": "成熟紅血球缺粒線體，依賴糖解產ATP。"
+    }
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "oxygenArrow": [
+      82,
+      76,
+      119,
+      76
+    ],
+    "carbonDioxideArrow": [
+      119,
+      111,
+      82,
+      111
+    ],
+    "inspirationArrow": [
+      71,
+      39,
+      71,
+      66
+    ],
+    "expirationArrow": [
+      109,
+      66,
+      109,
+      39
+    ]
+  },
+  "visualChecked": true
+}

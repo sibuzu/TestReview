@@ -1,14 +1,24 @@
 {
   "id": "q-305",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T13:59:40.848849+00:00",
-  "answer": "A",
-  "figures": [
+  "reason": "已實看來源四格圖，圖說清楚區分雄性構造、種子及另一盆紅花，符合裸子植物A答，保留既有圖。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:01:01.927911+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-305-source-22a7807830.jpg",
+      "sha256": "22a7807830c21b64d41bad35fb6e765d954cf10713d7326c142284d82a2c122b",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-305-source-ai-b38d2b8d71.webp",
       "sha256": "26dda45643cca8fc55505439d62c9f926e69eac7cec9d525b2b2eef2423ebebe",
       "visualChecked": true
     }
   ],
-  "reason": "已讀四本書的選項及A答，並實看四格來源圖。蘇鐵、雄性球果狀構造、橘紅種子及另一盆開花植物可辨；現有詳解與圖說已明確說種子非果實、紅花不屬蘇鐵且雌雄構造不同，無需重製。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-305/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

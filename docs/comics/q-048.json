@@ -1,0 +1,90 @@
+{
+  "id": "q-048",
+  "subject": "Biology",
+  "title": "先看軸名，再判斷主要熱源",
+  "art": "docs/comics/art/q-048.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:10:35.901391+00:00",
+  "panels": [
+    {
+      "heading": "① 本題甲：對應內溫動物",
+      "text": "甲在圖示範圍近乎水平；依本題簡化模型，對應內溫動物。猴子是例子，體溫主要靠體內代謝產熱維持，符合C。",
+      "alt": "猴子在森林吃水果作內溫動物例子，不以進食判斷是否內溫、不畫體內火焰或所有溫度下固定代謝。"
+    },
+    {
+      "heading": "② 本題乙：對應外溫動物",
+      "text": "乙的代謝速率隨圖示環境溫度上升而增加，對應外溫動物，如鱷魚。牠也有代謝，只是體溫主要受外界熱源影響。",
+      "alt": "鱷魚在日照河岸休息，表示外界熱源重要，不表示沒有代謝、體溫永遠低或只能靠曬太陽。"
+    },
+    {
+      "heading": "③ 橫軸環境溫度，縱軸代謝速率",
+      "text": "原圖不是直接畫體溫！這是有限範圍的簡化關係；實際內溫動物的代謝也會受保溫、散熱、活動等因素影響，並非永遠固定。",
+      "alt": "師生比較猴子/鱷魚無字圖卡，精確曲線和軸名依原卷與HTML，不生成可能錯誤的新圖表。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先看軸名，再判斷主要熱源",
+    "answer": "答案 C：甲主要由體內代謝產熱",
+    "points": [
+      "按本題模型：甲內溫、乙外溫。",
+      "猴子屬內溫；鱷魚屬外溫。",
+      "圖中是代謝速率，不是體溫曲線。"
+    ]
+  },
+  "protectedWords": [
+    "簡化模型",
+    "內溫動物",
+    "外溫動物",
+    "體內代謝產熱",
+    "代謝速率",
+    "環境溫度",
+    "圖示範圍",
+    "猴子",
+    "鱷魚",
+    "體溫",
+    "外界熱源",
+    "有限範圍"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-048-source-ef9a677c42.jpg",
+    "site/dist/assets/questions/q-048-figure-3b2a205ec7.jpg"
+  ],
+  "originalVisualCheck": "實看原卷50題四選項與圖二十一，縱軸代謝速率、橫軸環境溫度，甲近水平/乙上升。C與既有核對一致，原圖未改為體溫曲線。",
+  "answerCheckedAgainst": "按題目簡化模型保留C，OpenStax Homeostasis原站實讀內/外溫主要熱源與保溫散熱調節，避免把內溫代謝說成所有溫度恆定。",
+  "references": [
+    {
+      "title": "OpenStax Biology 2e 33.3: Homeostasis（Endotherms and Ectotherms）",
+      "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis"
+    }
+  ],
+  "rationale": "原圖精確坐標仍供作答，新增猴子/鱷魚/師生對照情境作分類記憶，正文明示甲乙只是本題有限範圍簡化模型與軸名，防止體溫/代謝率混同及外溫無代謝誤解。",
+  "promptPath": "docs/comics/q-048-prompt.txt",
+  "generationCalls": 1,
+  "visualChecked": true,
+  "artSHA256": "1b7272d67b2620f0ef2e4e8f235212fb6312be4ffdd59b80ea98e892a262481a",
+  "checkedAt": "2026-10-28T23:13:46.723249+00:00",
+  "completedAt": "2026-10-28T23:12:43.413151+00:00",
+  "layoutEvidence": "docs/comics/q-048-preview-validation.json",
+  "visualReview": "實看新猴子/鱷魚/師生圖卡，沒有火焰或假溫度/代謝曲線。1440/1120/390三寬正文保留代謝軸名與有限範圍模型、不把外溫說成無代謝，C一致，無橫溢/保護詞斷裂、同行等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-048-art-1b7272d67b-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:13:46.695829+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷50題完整四選項及甲乙原圖，縱軸為代謝速率。猴子/鱷魚圖與內外溫分類一致，正文保留有限範圍與非永遠固定的限制，維持C；桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-048-validation.json"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "q-103",
+  "subject": "Biology",
+  "title": "每對只取一條，花粉組合是AB或aB",
+  "art": "docs/comics/art/q-103.svg",
+  "startedAt": "2026-10-28T19:37:51.853119+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 葉片兩對染色體：AaBB",
+      "text": "圖（四）長的一對帶A、a，短的一對都是B。左圖以藍長條示意A、橘長條示意a，兩根綠短條都代表B，合起來是AaBB。",
+      "alt": "一個示意細胞含兩根等長長條A/a及兩根等長短條B/B，以顏色區分等位基因，無生成文字。"
+    },
+    {
+      "heading": "② 減數分裂：每對取一條",
+      "text": "A、a這一對取其一；B、B這一對只能取到B。兩種可能組合因此是AB與aB，對應原圖（八）、（九）。",
+      "alt": "兩種可能配子的概念示意：左為A長條加B短條，右為a長條加B短條；非一次減數分裂全部四細胞。"
+    },
+    {
+      "heading": "③ 一般分裂，不改成Aabb",
+      "text": "組織培養及一般細胞分裂主要保留AaBB。母株配子也一定帶B，所以種子繁殖的子代不能得到只有bb、沒有B的圖（七）。",
+      "alt": "兩個示意體細胞各保留A/a/B/B四根條，表示一般細胞分裂或組織培養保留原有組合。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 花粉的染色體每對各取一條",
+    "answer": "答案 C：圖（八）、（九）",
+    "points": [
+      "葉片AaBB→可能配子AB、aB。",
+      "組織培養不會自然改成AABB或aaBB。",
+      "色條只作概念，不代表染色體真實顏色。"
+    ]
+  },
+  "protectedWords": [
+    "染色體",
+    "AaBB",
+    "AABB",
+    "aaBB",
+    "Aabb",
+    "AB",
+    "aB",
+    "圖（四）",
+    "圖（七）",
+    "圖（八）",
+    "圖（九）",
+    "減數分裂",
+    "細胞分裂",
+    "組織培養",
+    "母株",
+    "配子"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-103-source-f063f87743.jpg",
+    "site/dist/assets/questions/q-103-figure-7eab69a296.jpg"
+  ],
+  "rationale": "本題核心為兩對染色體的精確條數、相對長度及基因組合；已實看原卷與七組附圖。使用可校對無字原生SVG畫4條→兩種各2條→體細胞仍4條，避免生成模型畫錯染色體或標字；字母/原圖號/答案全部HTML，不加無關蘭花裝飾。",
+  "promptSummary": "原生SVG三個無字圖：AaBB兩對條、AB與aB兩種配子、兩個AaBB體細胞。",
+  "answerCheckedAgainst": "原卷19題、題庫C；原圖四AaBB、七Aabb、八AB、九aB逐一實看。",
+  "artSHA256": "e15b7c975baa0a02d7af225c69d0b7b01b569b50c5dc199c62441a71d2d3b31e",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T19:41:03.798258+00:00",
+  "completedAt": "2026-10-28T19:38:29.322891+00:00",
+  "layoutEvidence": "docs/comics/q-103-preview-validation.json",
+  "visualReview": "實看原卷及必要附圖，並以瀏覽器實看SVG在1440/1120/390三寬渲染：第一格2長2短，第二格兩種各1長1短，第三格兩細胞各2長2短，字母由HTML對應正確。無X形複製階段混淆，色條非真實顏色；無橫溢，字母及原圖號完整。",
+  "nativeArt": "assets/comics/q-103-art-e15b7c975b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-103-validation.json"
+}

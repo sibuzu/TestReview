@@ -1,0 +1,33 @@
+{
+  "id": "q-102",
+  "original": "site/dist/assets/questions/q-102-source-ade479de7d.jpg",
+  "figure": "site/dist/assets/questions/q-102-figure-cb591e4d3f.jpg",
+  "originalVisualChecked": true,
+  "completeKaryotypeAndOptionsChecked": true,
+  "answer": "B",
+  "existingExplanationFigures": [],
+  "decision": "new_comic",
+  "answerBasis": "原圖21組三條，23組XY只有兩條。體染色體44+1=45，另性染色體2，總47；不能把XY誤成XXY，也不能把23組編號當總條數。沿用已核定B與既有原AI更正，不重新製作原卷核型。",
+  "reference": {
+    "title": "NHGRI Chromosome Abnormalities Fact Sheet",
+    "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosome-Abnormalities-Fact-Sheet",
+    "supports": "人類通常22對體染色體及兩條性染色體，第21號三份比通常多一條。"
+  },
+  "artMode": "deterministic-svg",
+  "artAssertions": {
+    "group21": 3,
+    "group23": 2,
+    "autosomeCount": 45,
+    "sexChromosomeCount": 2,
+    "total": 47
+  },
+  "sourceAIFiguresUsed": false,
+  "checkedAt": "2026-10-28T19:39:03.968094+00:00",
+  "svgCountAssertions": {
+    "group21": 3,
+    "autosomeCount": 45,
+    "sexChromosomeCount": 2,
+    "group23": 2
+  },
+  "rawSVGVisualCheck": "/tmp/q-102-native-art.png"
+}

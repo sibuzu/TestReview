@@ -1,14 +1,29 @@
 {
   "id": "q-308",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T15:46:50.786855+00:00",
-  "answer": "A",
-  "figures": [
+  "reason": "實看原卷與眼蟲圖，既有AI四格能對照光合作用共有特徵，說明已釐清眼點、鞭毛與無細胞壁，保留不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T21:26:48.132401+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-308-source-2f53cb0d72.jpg",
+      "sha256": "2f53cb0d72c796cc63bcdbdd234d3c7e30f2dc4f7644581cccc497482cb2b952",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-308-figure-bf1b99b1e6.jpg",
+      "sha256": "bf1b99b1e6f30a640cb68ad2c01a5d1472fb6122a65772dfba9988b7e75506c3",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-308-source-ai-2bcfe622d1.webp",
       "sha256": "fb48997e7bed2fa6c991001d6f47a0d3ffbc3b8c8673e002bdac8e5209074e6b",
       "visualChecked": true
     }
   ],
-  "reason": "實看原卷與眼蟲附圖，A為眼蟲與綠色植物的光合作用共有特徵。既有四格AI圖有綠色構造、眼點及鞭毛，並以植物對照；沒有細胞壁標籤或把眼蟲歸植物界的箭頭，現有文字亦明確說明沒有細胞壁、依本題歸原生生物。保留原圖，不重製精確顯微構造。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-308/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

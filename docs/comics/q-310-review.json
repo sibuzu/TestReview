@@ -1,14 +1,29 @@
 {
   "id": "q-310",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T16:15:14.834607+00:00",
-  "answer": "D",
-  "figures": [
+  "reason": "實看原卷與四格AI圖，鱗片放大、毬果與帶翅種子能配合D；原文已區分種子和花粉傳播，保留既有圖。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T21:15:18.786890+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-310-source-c162e5bc4f.jpg",
+      "sha256": "c162e5bc4f9ad232f2afdcdfcd6afa95881424d7bdb4c31f134d08d030fc51d4",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-310-figure-a3da11e0f7.jpg",
+      "sha256": "a3da11e0f75f1a6dd6efde9ecc1316c6b89aa4d5a42dd083a68681f9834aa7e5",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-310-source-ai-25e1c3594a.webp",
       "sha256": "8511bceea2eb28e28731ad386ce6b76c2165333f8a0015fe96985038883c7e09",
       "visualChecked": true
     }
   ],
-  "reason": "實看原圖針狀葉、毬果與四選項，D鱗片可由既有漫畫放大構造清楚對照。後兩格帶翅種子與松果有助區別種子及花粉；原說明已明確指出翅助種子傳播，不把它當昆蟲傳粉或果皮，保留不重製。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-310/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

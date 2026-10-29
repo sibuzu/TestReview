@@ -1,0 +1,92 @@
+{
+  "id": "q-047",
+  "subject": "Biology",
+  "title": "吸氣呼氣、交換氣體、細胞取能，三件事分清楚",
+  "art": "docs/comics/art/q-047.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:39:58.272017+00:00",
+  "panels": [
+    {
+      "heading": "① 呼吸運動：空氣進出肺部",
+      "text": "胸腔容積改變，讓空氣進出肺部，形成吸氣、呼氣。這是身體的呼吸運動，不是細胞取能反應本身。",
+      "alt": "肺與氣管簡化示意，吸氣向下進入、呼氣向上離開的兩種方向，不表同時發生或精確肺葉解剖"
+    },
+    {
+      "heading": "② 氣體交換：氧與二氧化碳移動",
+      "text": "以肺泡與血液為例，氧進入血液，二氧化碳則由血液進入肺泡。這是在交換氣體，不能直接當呼吸作用的定義。",
+      "alt": "精確箭頭氧由左肺泡到右血液、CO₂由血液反向到肺泡，不表示兩種氣體整批交換數量"
+    },
+    {
+      "heading": "③ 呼吸作用：細胞取得可用能量",
+      "text": "細胞利用養分，取得生命活動所需的可用能量。依本題廣義課程用語，活細胞都需要取能，所以選D。",
+      "alt": "細胞內養分轉換取得可用能量的概念示意，未畫每個細胞都有粒線體或無中生有的能量"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：活細胞可進行呼吸作用",
+    "points": [
+      "A混淆代謝與氣體交換；B、C混淆呼吸運動與作用。",
+      "不要記成每個人體細胞都進行有氧呼吸。",
+      "成熟紅血球沒有粒線體，仍可藉糖解取得能量。"
+    ]
+  },
+  "protectedWords": [
+    "呼吸運動",
+    "呼吸作用",
+    "氣體交換",
+    "肺泡",
+    "二氧化碳",
+    "可用能量",
+    "活細胞",
+    "成熟紅血球",
+    "粒線體",
+    "有氧呼吸"
+  ],
+  "rationale": "原卷44題及全部四選項實看，保留既有確認D與國中課程廣義呼吸作用。以原生SVG把身體通氣、肺泡氣體交換、細胞代謝三層次分開，方向與名詞可校對；不畫所有細胞皆有粒線體，成熟紅血球糖解限定仍保留，不重開已確認用語範圍。",
+  "promptSummary": "原生SVG三格：空氣進出肺、肺泡/血液O₂與CO₂反向交換、細胞養分取得可用能量；無精確能量比例或全細胞粒線體假設。",
+  "answerCheckedAgainst": "原卷44題與既有D；國科會科普胸腔通氣、教育部資源能量轉換、NIH NHLBI研究摘要成熟紅血球糖解核對，依本題課程廣義用語不改答。",
+  "officialReferences": [
+    {
+      "url": "https://web.nstc.gov.tw/pstrain/2021/techtrain-prod-front.azurewebsites.net/home/Biology.html",
+      "finding": "胸腔擴張/鬆弛影響空氣進出肺部。"
+    },
+    {
+      "url": "https://market.cloud.edu.tw/resources/video/1830917",
+      "finding": "呼吸作用分解養分，釋出的能量用以形成可用能量形式。"
+    },
+    {
+      "url": "https://biolincc.nhlbi.nih.gov/publications/597b6438d5e94ee18d6328382adb8876/",
+      "finding": "成熟紅血球缺粒線體，依賴糖解產ATP。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-047-source-7c718787c0.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "原題號44，A/B/C混用作用運動交換，D依既有廣義課程說明；不把成熟紅血球例外刪掉或擴為所有細胞有氧。"
+  },
+  "completedAt": "2026-10-28T21:43:27.131158+00:00",
+  "checkedAt": "2026-10-28T21:46:34.254714+00:00",
+  "visualChecked": true,
+  "artSHA256": "681c6953ba32994d4f4328544283e627582d911bc25560686696ae259223b829",
+  "previewValidation": "docs/comics/q-047-preview-validation.json",
+  "visualReview": "實看540×180原生SVG及最終1440/390預覽：吸氣箭頭進肺/呼氣離肺，肺泡→血液O₂與反向CO₂方向正確，細胞取能圖未塞入粒線體等全稱假設。HTML沿用本題廣義課程與成熟紅血球糖解補充，D明確顯示。桌機同列等高、手機自然高，無裁切橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-047-art-681c6953ba.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-047-validation.json"
+}

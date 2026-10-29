@@ -1,0 +1,93 @@
+{
+  "id": "q-560",
+  "subject": "Biology",
+  "title": "辨認免疫細胞，不把三類功能混在一起",
+  "art": "docs/comics/art/q-560.png",
+  "startedAt": "2026-10-28T20:46:48.286256+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 淋巴球：參與免疫反應",
+      "text": "淋巴結內有淋巴球等免疫細胞。受到刺激後，相關細胞可活化、增殖及聚集，使淋巴結可能腫大；淋巴球屬白血球的一類。",
+      "alt": "淋巴球防禦團隊的擬人概念，示意參與免疫，不代表真實形態比例，也不畫成全部淋巴球都吞噬病菌。"
+    },
+    {
+      "heading": "② 紅血球：主要運送氧氣",
+      "text": "紅血球的主要工作是運送氧氣，不是題目所問在淋巴結內聚集對抗病原體的免疫角色，因此B不選。",
+      "alt": "紅血球在血管內作運輸員的擬人概念，藍色貨物象徵氧氣，不畫在淋巴結中打病菌。"
+    },
+    {
+      "heading": "③ 血小板：主要參與止血",
+      "text": "血小板主要協助止血、凝血。它和紅血球、淋巴球的主要作用不同，不能因都與血液有關，就選三者一起對抗病原體。",
+      "alt": "血小板小碎片修補血管破口的擬人概念，象徵止血凝血，非實際組織比例或醫療操作。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 題目問淋巴結的免疫反應",
+    "answer": "答案 A：淋巴球聚集抗病原體",
+    "points": [
+      "淋巴球：免疫；紅血球：運氧。",
+      "血小板：止血、凝血，不等同淋巴球。",
+      "腫大是可能的反應，不憑腫大判定特定病原。"
+    ]
+  },
+  "protectedWords": [
+    "淋巴結",
+    "淋巴球",
+    "免疫細胞",
+    "免疫反應",
+    "白血球",
+    "紅血球",
+    "血小板",
+    "病原體",
+    "止血",
+    "凝血",
+    "氧氣",
+    "活化",
+    "增殖"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-560-source-3decd965ab.jpg"
+  ],
+  "references": [
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-node",
+      "title": "NCI: lymph node",
+      "checkedAt": "2026-10-28T20:46:48.286256+00:00",
+      "supports": "淋巴結含淋巴球等白血球、參與防禦感染。"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymphocyte",
+      "title": "NCI: lymphocyte",
+      "checkedAt": "2026-10-28T20:46:48.286256+00:00",
+      "supports": "淋巴球為免疫細胞/白血球一類，不概括為全部吞噬細胞。"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/blood-tests",
+      "title": "NHLBI: blood tests — blood cell functions",
+      "checkedAt": "2026-10-28T20:46:48.286256+00:00",
+      "supports": "紅血球血紅素攜氧、血小板碎片協助止血凝血。"
+    }
+  ],
+  "rationale": "實看原卷33題A與四選項，NCI/NHLBI官方基本細胞功能查核一致。新製淋巴球防禦/紅血球運輸/血小板修補三角色，圖明示擬人概念，不當病理切片、不畫淋巴球皆吞噬或以淋巴結腫大診斷疾病。",
+  "answerCheckedAgainst": "原卷A與題庫A；免疫/運氧/止血三功能獨立區分。",
+  "visualChecked": true,
+  "artSHA256": "d22fa66621deadbcdc119dbc6cd99500f49f4865f726462625101e86a822e441",
+  "checkedAt": "2026-10-28T20:50:48.814616+00:00",
+  "completedAt": "2026-10-28T20:49:00.939941+00:00",
+  "layoutEvidence": "docs/comics/q-560-preview-validation.json",
+  "visualReview": "實看原卷33題A與NCI/NHLBI基本功能資料；新三格淋巴球防禦/紅血球搬運/血小板修補皆為擬人概念，未畫淋巴球吞噬、紅血球在淋巴結打病菌或用腫大診斷。1440/1120/390實看圖文功能對應，無圖內教學字、無溢出，同列等高及手機自然高度通過。",
+  "nativeArt": "assets/comics/q-560-art-d22fa66621-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-560-validation.json"
+}

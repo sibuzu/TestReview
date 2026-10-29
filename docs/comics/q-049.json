@@ -1,0 +1,86 @@
+{
+  "id": "q-049",
+  "subject": "Biology",
+  "title": "像樹一樣高大，也可能是沒有種子的蕨類",
+  "art": "docs/comics/art/q-049.png",
+  "startedAt": "2026-10-28T20:45:07.399172+00:00",
+  "panels": [
+    {
+      "heading": "① 先沿分類條件走到終點",
+      "text": "甲沒有角質層，可能是海帶。\n乙有角質層、沒有維管束，\n可能是圖示這類的地錢。",
+      "alt": "低矮平貼濕土的地錢情境，示意乙，不將外形當成維管束的直接證據"
+    },
+    {
+      "heading": "② 丙有維管束，以孢子繁殖",
+      "text": "鐵線蕨屬於蕨類，\n有維管束、以孢子繁殖。\n所以C把鐵線蕨放在丙，合理。",
+      "alt": "細黑葉柄與扇形小葉的鐵線蕨，葉形情境幫助辨識，不繪孢子精確結構"
+    },
+    {
+      "heading": "③ 筆筒樹高大，仍屬蕨類",
+      "text": "筆筒樹雖然像樹，卻沒有種子。\n它也應放在以孢子繁殖的丙。\n丁的條件是有種子，兩者不符。",
+      "alt": "高大的筆筒樹樣樹蕨，羽狀細裂葉及樹幹，學生仰視提供尺度，沒有花果"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：筆筒樹不能放在丁",
+    "points": [
+      "題目找錯誤敘述，A、B、C皆可符合分支。",
+      "鐵線蕨和筆筒樹都對應丙，不是丁。",
+      "依分類特徵判斷，不靠高矮判斷有沒有種子。"
+    ]
+  },
+  "protectedWords": [
+    "角質層",
+    "維管束",
+    "鐵線蕨",
+    "筆筒樹",
+    "孢子繁殖",
+    "沒有種子"
+  ],
+  "rationale": "實看原卷分支圖及全部選項，維持已確認D。新圖以地錢、鐵線蕨、筆筒樹的形態差異，凸顯低矮鐵線蕨和高大樹蕨同屬孢子分支。微觀角質層/維管束無法憑插畫直接看出，所有分類條件仍由原題與HTML文字明確給定；不把圖片當植物鑑定照片。",
+  "promptSummary": "無字全新三聯植物情境：地錢扁平葉狀體、鐵線蕨扇形小葉、臺灣高大樹蕨，無花果或假種子。",
+  "answerCheckedAgainst": "原題44題分類圖/全部選項與既有確認D；農業部知識入口及林試所植物園官方資料確認筆筒樹是大型蕨類、以孢子繁殖。",
+  "officialReferences": [
+    {
+      "url": "https://kmweb.moa.gov.tw/knowledgebase.php?id=23382",
+      "finding": "筆筒樹為多年生大型蕨類，具孢子囊。"
+    },
+    {
+      "url": "https://tpbg.tfri.gov.tw/ParkMapContent2a7e.html?ID=46",
+      "finding": "蕨類不開花結果而以孢子繁殖。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-049-source-61ef31fdfc.jpg",
+      "site/dist/assets/questions/q-049-figure-c77d7c42fd.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "分類條件依原圖：甲無角質、乙無維管、丙孢子、丁種子；插畫不替代分類原圖。"
+  },
+  "completedAt": "2026-10-28T20:47:15.217372+00:00",
+  "checkedAt": "2026-10-28T20:48:43.068298+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T20:45:59.653Z",
+  "generationCompletedAt": "2026-10-28T20:46:15.494Z",
+  "artSHA256": "9e1a1134cd5d8e88a786ec6f5d0576eabf5718404335693f155b2f40c66de995",
+  "previewValidation": "docs/comics/q-049-preview-validation.json",
+  "visualReview": "新原圖與1440/390預覽實看：地錢為貼地分叉葉狀體/杯狀構造，鐵線蕨細黑葉柄和扇形小葉，高大筆筒樹樣樹蕨為粗單幹與細分羽狀冠，無棕櫚果或花種子；情境圖非鑑種照片。文字與180px圖分離，桌機同列等高、手機各自自然高，沒有橫溢或文字裁切；1120亦通過。",
+  "nativeArt": "assets/comics/q-049-art-9e1a1134cd-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-049-validation.json"
+}

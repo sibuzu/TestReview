@@ -1,0 +1,74 @@
+{
+  "id": "q-710",
+  "subject": "Geography",
+  "title": "改變人口結構，與回應照護需求不同",
+  "art": "docs/comics/art/q-710.png",
+  "protectedWords": [
+    "65歲以上",
+    "2024年",
+    "2070年",
+    "19.2%",
+    "46.5%",
+    "老年人口占比",
+    "長照",
+    "育兒"
+  ],
+  "panels": [
+    {
+      "heading": "① 題目問減緩占比上升",
+      "text": "先依原卷圓點線：65歲以上占比由2024年19.2%，推估到2070年46.5%。這題問減緩上升趨勢，不只是問如何照顧更多長者。",
+      "alt": "師生讀報表的情境，不用生成畫面人物數量代替原卷百分比，也不畫假的人口曲線。"
+    },
+    {
+      "heading": "② 育兒支持：從人口結構著手",
+      "text": "D提高育兒津貼、建立友善育嬰空間，目的在減輕養育負擔、支持生育，長期有助減緩老化速度。不是說發津貼就必定或立即扭轉趨勢。",
+      "alt": "父母共同照顧孩子的假想友善空間，不表示任何實際補助一定增加出生數或要求人人生育。"
+    },
+    {
+      "heading": "③ 長照重要，但回答的是照護需求",
+      "text": "B規劃長照能回應現有照護需求，卻不能直接當作降低老年人口占比的方法。題目若改問怎樣因應照護需要，B才會直接對應。",
+      "alt": "照護者與長者互動尊重友善，強調長照價值而非把老人當負擔或畫成年齡逆轉。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：改善育兒環境",
+    "points": [
+      "占比是老年人口數除以總人口數。",
+      "減緩結構老化，與照護服務的目標不同。",
+      "2024年以後是推估，不能當已發生的實績。"
+    ]
+  },
+  "rationale": "實看第45題原卷、三年齡組曲線與數值，核19.2至46.5及2024後推估。使用者已確認D及長照/人口結構的區分，不重開來源AI誤B。國發會簡報政策段查核支持生育與減緩老化之關係；不拿該舊版推估數字覆寫本題某國原圖，也不保證政策立即效果。新動漫三情境展示讀圖、育兒與長照不同目標，不以人物數量假裝精確比例。無可用既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-710-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-710-source-de89e36436.jpg",
+    "site/dist/assets/questions/q-710-population-chart-377d6e7774.jpg"
+  ],
+  "sources": [
+    {
+      "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/0/13729/77412825-9a15-4fe1-ba3e-41138271f148.pdf",
+      "note": "國發會人口未來課題政策文字；人口圖數值仍完全依本題原卷。"
+    }
+  ],
+  "answerCheckedAgainst": "已確認D對應減緩老年占比；B是照護服務，A限制入境不等減少外移，C補助生活非本題最直接。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "67a3c4f624fa74435166cb013999cefb75ebd6efd978a056d2295a8708e02c59",
+  "createdAt": "2026-10-28T21:46:48.303218+00:00",
+  "checkedAt": "2026-10-28T21:52:42.563432+00:00",
+  "validationFile": "docs/comics/q-710-validation.json",
+  "nativeArt": "assets/comics/q-710-art-67a3c4f624-web.webp"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "q-650",
+  "subject": "Geography",
+  "title": "先讀原圖標字，再辨認代表性海岸",
+  "art": "docs/comics/art/q-650.png",
+  "startedAt": "2026-10-28T19:39:04.101652+00:00",
+  "panels": [
+    {
+      "heading": "① 把海洋、沙灘和公路一起看",
+      "text": "原圖標了海洋、沙灘、公路與陸地。先依標字辨認海岸景觀；依本題的代表性海岸分類，沙岸景觀指向A西部。",
+      "alt": "寬沙灘與平緩陸側公路的情境景觀，沒有生成斷崖；這是概念比較，不是重製原卷圖。"
+    },
+    {
+      "heading": "② 陰影不能直接當成斷崖",
+      "text": "判斷斷崖，要看高陡岩壁是否緊臨海洋，不能只因黑白圖有陰影就認定。本格另示斷崖作比較；作答仍以原卷的標字和線索為準。",
+      "alt": "另一種高陡岩壁緊臨海洋的海岸比較情境，明確不是本題原卷的答案圖。"
+    },
+    {
+      "heading": "③ 代表特徵，不是每段都一樣",
+      "text": "西部常以沙岸、東部常以斷崖為代表，但不是絕對規則；東北角福隆也有沙灘。本題要合看原圖和教材分類，不能說只有西部才有沙灘。",
+      "alt": "師生對照無字海岸資料與課本，示意以原圖線索和分類一起判斷，不生成精確臺灣地圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：西部",
+    "points": [
+      "讀標字：海洋、沙灘、公路、陸地。",
+      "辨地形：別把印刷陰影直接當斷崖。",
+      "海岸代表分類有例外，不能一概而論。"
+    ]
+  },
+  "protectedWords": [
+    "海洋",
+    "沙灘",
+    "公路",
+    "陸地",
+    "代表性",
+    "海岸分類",
+    "斷崖",
+    "東北角",
+    "福隆",
+    "黑白圖"
+  ],
+  "rationale": "用沙岸情境與另一幅斷崖比較，配合讀圖示範保護原卷不被AI陰影想像覆寫。保留已核定A並明示海岸分類是代表特徵，插畫不冒充原題或特定實景，也不沿用只有西部有沙灘的錯誤絕對化。",
+  "promptSummary": "全新三景無字動漫：沙灘與平緩陸側公路、另外的高陡岩岸比較、師生核對圖文。第一景不生成斷崖，第二景不當原圖重繪，無精確地圖。",
+  "answerCheckedAgainst": "實看原卷及海岸圖原標字，維持已核定A。官方東北角地質資料確認福隆亦有沙灘，避免把代表特徵說成排他規則；不重開既有原AI誤判訂正。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-650-source-712560f483.jpg",
+    "figure": "site/dist/assets/questions/q-650-coast-3e45b2384d.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T19:43:18.662139+00:00",
+  "checkedAt": "2026-10-28T19:47:27.753289+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T19:40:36.700Z",
+  "generationCompletedAt": "2026-10-28T19:40:57.561Z",
+  "artSHA256": "f185b80911398c11d03a6a31f58ee55130a4263e81a706aed48144f067b3cee1",
+  "previewValidation": "docs/comics/q-650-preview-validation.json",
+  "visualReview": "原卷圖標字及A已實看核對。原畫第一景海灘/公路/低緩陸地、第二景另作高崖比較，無把生成斷崖說成原圖，官方福隆沙灘例外核對。實看1440/390成品，清楚標比較用途與代表特徵非排他，更新文句後重跑三寬及重看桌機手機，圖裁切與文字自然換行正常。",
+  "nativeArt": "assets/comics/q-650-art-f185b80911-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-650-validation.json"
+}

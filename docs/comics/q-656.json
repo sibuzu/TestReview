@@ -1,0 +1,70 @@
+{
+  "id": "q-656",
+  "subject": "Geography",
+  "title": "台地要同時看頂面與邊緣",
+  "art": "docs/comics/art/q-656.svg",
+  "startedAt": "2026-10-28T19:46:39.183007+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① A只呈現低平，少了周緣陡坡",
+      "text": "看到等高線稀疏，只能先判斷坡較緩。A還說全區都在低海拔，沒有呈現台地頂緩、周緣較陡的組合。",
+      "alt": "低平起伏小地形剖面概念，不標精確海拔，也不是題目等高線圖。"
+    },
+    {
+      "heading": "② B中央低、四周高，像盆地",
+      "text": "B的數值向外升高，表示中間較低、周圍較高，比較像盆地。台地不是中央凹下去，而是有較平緩的頂面。",
+      "alt": "盆地剖面示意，左右高、中間低；原生SVG精確畫出相對高低，不生成假等高線數字。"
+    },
+    {
+      "heading": "③ C把頂緩與邊陡一起寫出",
+      "text": "台地頂面較平緩，所以等高線較疏；邊緣較陡，所以等高線較密。兩個特徵一起判讀，C最符合林口台地。",
+      "alt": "台地剖面示意，寬闊頂面較平、兩側較陡；不是精確實地剖面或新作答圖。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 頂面平緩、邊緣較陡的組合",
+    "answer": "答案 C：邊緣密、頂部疏",
+    "points": [
+      "A低平、B盆地，都不符合台地組合。",
+      "D尖峰高山，缺少本題的平緩頂面。",
+      "三圖為剖面概念；原選項是等高線描述。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "低海拔",
+    "台地",
+    "頂面",
+    "周緣",
+    "邊緣",
+    "盆地",
+    "林口台地",
+    "平緩",
+    "較陡",
+    "四周"
+  ],
+  "originalTextSource": "docs/sources/gemini-5LjOi6JL0S8W.json，校準類題2，已核對完整文字及來源答案C；本題本來無原卷照片。",
+  "rationale": "本題是已核對完整文字的延伸題、沒有應取而缺漏的原圖。用無字原生SVG精確對照低平/中央低盆地/頂緩邊陡台地三種剖面，避免AI地形數值亂畫或將盆地/台地高低顛倒；文字明確三圖為概念，非原題等高線。",
+  "promptSummary": "原生SVG三格無字剖面：低平、兩側高中間低、寬頂平緩兩側較陡。",
+  "answerCheckedAgainst": "完整來源校準類題2明列C，題庫C與地形相對高低一致。",
+  "artSHA256": "feb8eb145146be466a1233d617e6473b49ada1cc15f80aff39fcd594b0bfce45",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T19:50:29.864677+00:00",
+  "completedAt": "2026-10-28T19:47:18.400736+00:00",
+  "layoutEvidence": "docs/comics/q-656-preview-validation.json",
+  "visualReview": "實讀來源完整校準類題2與C，再實看SVG的1440/1120/390渲染：低平/中央低/寬頂面周緣陡三剖面與文字對應，未冒充等高線作答圖或虛構標高。三寬無橫溢、專詞完整，同列等高及單欄自然高度通過。",
+  "nativeArt": "assets/comics/q-656-art-feb8eb1451.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-656-validation.json"
+}

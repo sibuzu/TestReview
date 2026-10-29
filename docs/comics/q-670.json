@@ -1,0 +1,90 @@
+{
+  "id": "q-670",
+  "subject": "Geography",
+  "title": "年雨量多，不等於全年都能留住水",
+  "art": "docs/comics/art/q-670.png",
+  "startedAt": "2026-10-28T21:43:27.189161+00:00",
+  "panels": [
+    {
+      "heading": "① 甲：降雨時間分配不均",
+      "text": "夏季水多、冬季水少，\n供水時間未必配合用水需求。\n全年雨量高，枯水期仍可能缺水。",
+      "alt": "枯水期水庫低水位的概念情境，非指定年份或所有水庫必然見底"
+    },
+    {
+      "heading": "② 乙：河短坡陡，水容易流走",
+      "text": "臺灣山高、河川較短而流急，\n降下的水可能很快流向海洋。\n下過雨，不代表所有水都留得住。",
+      "alt": "島嶼山地短河接近海洋的概念景觀，無精確地圖或流速數值"
+    },
+    {
+      "heading": "③ 丁：大型蓄水工程有條件限制",
+      "text": "地形起伏使選址、工程與環境限制較大。\n這不是說山區完全不能建水庫。\n雨水也仍可被適當設施蓄存。",
+      "alt": "山谷已有水庫、規劃者觀察地形的情境，避免將難建誤畫成山區禁止水庫"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：甲、乙、丁",
+    "points": [
+      "總雨量、下雨時間、能留多少水，要一起看。",
+      "丙說對流雨無法蓄積，太絕對，應排除。",
+      "含丙的B、C、D均不選，留下甲乙丁。"
+    ]
+  },
+  "protectedWords": [
+    "枯水期",
+    "用水需求",
+    "大型蓄水工程",
+    "對流雨",
+    "甲、乙、丁",
+    "甲乙丁",
+    "夏季水多",
+    "冬季水少",
+    "供水時間"
+  ],
+  "rationale": "完整文字延伸20-2及四原因/組合已核對，沿用A。水利署/環境部官方資料確認季節分布不均、河短坡陡、蓄水設施有限。新圖以低水位、短河入海、山谷水庫規劃限制相對應；保留丁不是山區絕對無法建庫、丙不是對流雨完全不可蓄。原背景缺水評比未指標準，不添加國際排名或最新雨量。",
+  "promptSummary": "全新無字動漫：枯水庫水位、山高短河入海、山谷水庫規劃；有水庫的山谷反示不能誤解地形限制為不可能。",
+  "answerCheckedAgainst": "來源類題20-2完整甲乙丙丁與四組合，既有A；水利署水資源電子報及環境部水文特性官方資料核對，保留既有教材解釋範圍。",
+  "officialReferences": [
+    {
+      "url": "https://www.wra.gov.tw/epaper/Article_Detail.aspx?n=30173&s=1303&sms=9942",
+      "finding": "臺灣坡陡流急、可蓄水設施有限、降雨時間空間不均及豐枯明顯。"
+    },
+    {
+      "url": "https://wq.moenv.gov.tw/EWQP/zh/Encyclopedia/WaterKnowledge/Pedia_38.aspx",
+      "finding": "河短坡陡流急與季節分配不均，可用水資源不等於全年總雨量。"
+    },
+    {
+      "url": "https://web.wra.gov.tw/wcis/cp.aspx?n=7889",
+      "finding": "雨水可透過適當設施蓄存利用，不應說對流雨無法蓄積。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "757至759行完整文字延伸，無原卷必要圖；背景2500mm不代換新數值，亦不自行補缺水國際評比。"
+  },
+  "completedAt": "2026-10-28T21:46:25.842500+00:00",
+  "checkedAt": "2026-10-28T21:48:54.396672+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T21:45:04.581Z",
+  "generationCompletedAt": "2026-10-28T21:45:25.052Z",
+  "artSHA256": "da7de9febd399dca465a274db9424d1696d6d4511e522a0704cc8dd2c09dc74e",
+  "previewValidation": "docs/comics/q-670-preview-validation.json",
+  "visualReview": "實看新三聯原圖及最終1440/390預覽：低水位但未全乾水庫、山坡短河向近海流、已存在水庫的陡山谷和規劃者，沒有把山區畫成絕不能蓄水。HTML季節短語不拆，未宣稱對流雨無法蓄積或補造缺水國際排名。桌機同列等高、手機自然高，無裁切橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-670-art-da7de9febd-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-670-validation.json"
+}

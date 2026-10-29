@@ -1,0 +1,84 @@
+{
+  "id": "q-662",
+  "subject": "Geography",
+  "title": "西北雨：地表受熱，暖濕空氣上升",
+  "art": "docs/comics/art/q-662.png",
+  "startedAt": "2026-10-28T20:49:20.823448+00:00",
+  "panels": [
+    {
+      "heading": "① 夏季強烈日照，使地表受熱",
+      "text": "白天太陽加熱地表，\n近地面的空氣隨之增溫。\n這是本題熱對流的起點。",
+      "alt": "強烈夏季日照下的臺灣校園街區，與後兩格為連續天氣情境"
+    },
+    {
+      "heading": "② 暖濕空氣上升，冷卻凝結",
+      "text": "暖濕空氣向上升，逐漸冷卻，\n水氣凝結，形成對流雲。\n對流旺盛時，雲可向高處發展。",
+      "alt": "同一街區上方發展高聳對流雲，情境圖不假裝畫精確氣流箭頭"
+    },
+    {
+      "heading": "③ 對流雲發展，帶來午後雷雨",
+      "text": "西北雨常指夏季午後的熱雷雨。\n來得急、去得快是常見特徵，\n不代表每場雨都在固定時間停止。",
+      "alt": "學生與老師從教室內觀察街區陣雨，不畫成精確時間預報"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：太陽加熱，暖濕空氣上升",
+    "points": [
+      "A是日照引起的熱對流。",
+      "B是地形抬升；C、D是鋒面機制。",
+      "分辨主要成因，不靠西北雨名稱猜成東北季風。"
+    ]
+  },
+  "protectedWords": [
+    "熱對流",
+    "暖濕空氣",
+    "對流雲",
+    "午後雷雨",
+    "東北季風",
+    "地形抬升",
+    "鋒面機制"
+  ],
+  "rationale": "完整文字延伸12-2已核對，維持A。新製相同街區的晴熱→對流雲→陣雨情境，HTML精確解釋地表加熱與暖濕空氣冷卻凝結，不讓AI畫不準的箭頭承擔機理，也不硬定每場雷雨時間或範圍。",
+  "promptSummary": "無字全新三聯動漫：臺灣夏季晴熱街區、高聳對流雲、從室內觀察午後陣雨；無時間標示或機理箭頭。",
+  "answerCheckedAgainst": "來源類題12-2全文與既有A；中央氣象署西北雨/午後雨兩篇官方科普核對，含可能剛入夜出現的時間例外。",
+  "officialReferences": [
+    {
+      "url": "https://edu.cwa.gov.tw/PopularScience/wt/wt_21.html",
+      "finding": "西北雨指夏季午後太陽加熱產生的氣團性雷陣雨。"
+    },
+    {
+      "url": "https://pweb.cwa.gov.tw/PopularScience/wt/wt_31.html",
+      "finding": "受熱升空、凝結成對流雲系；有時剛入夜也會發生午後雷雨。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "完整文字延伸12-2含全部四選項，非原卷照片，不需要另補原圖。"
+  },
+  "completedAt": "2026-10-28T20:51:18.613683+00:00",
+  "checkedAt": "2026-10-28T20:53:18.987557+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T20:50:01.810Z",
+  "generationCompletedAt": "2026-10-28T20:50:24.261Z",
+  "artSHA256": "3e324e5aa2f6fc7ddfb220eeed3d163b740a6a78090d601fa429018da135d07d",
+  "previewValidation": "docs/comics/q-662-preview-validation.json",
+  "visualReview": "新三聯原圖與1440/390預覽實看：同一臺灣校園街區晴熱、高聳對流雲、室內觀雨情境連續，沒有科學箭頭錯向或限定時刻。HTML正確顯示暖濕空氣上升冷卻凝結，非水氣被曬成雲的錯誤；圖文分離、桌機每列等高、手機自然高，無橫溢裁切，1120亦通過。",
+  "nativeArt": "assets/comics/q-662-art-3e324e5aa2-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-662-validation.json"
+}

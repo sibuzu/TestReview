@@ -1,0 +1,39 @@
+{
+  "id": "q-654",
+  "sourceText": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+  "sourceLine": 214,
+  "completeTextChecked": true,
+  "originalEvidenceType": "完整文字延伸練習，非缺原圖",
+  "answer": "1：25,000",
+  "existingExplanationFigures": [],
+  "decision": "new_comic",
+  "answerBasis": "來源明載圖上2公分代表500公尺，500公尺=50000公分，2:50000同除2得1:25000。換單位不改距離，化簡兩項同除。",
+  "artMode": "deterministic-svg",
+  "artAssertions": {
+    "firstBars": [
+      120,
+      120
+    ],
+    "unitConversionBars": [
+      120,
+      120
+    ],
+    "simplifiedBars": [
+      60,
+      60
+    ],
+    "scaleDenominator": 25000
+  },
+  "sourceAIFiguresUsed": false,
+  "layoutNote": "初次QA發現50,000的千位逗號在現有分行器中切開且無法以protectedWords保護；改成等值50000/25000的數字格式，未改題義或答案，避免數字被拆行。",
+  "checkedAt": "2026-10-28T19:47:13.264923+00:00",
+  "svgBarLengthAssertions": {
+    "panel1-bar1": 120.0,
+    "panel1-bar2": 120.0,
+    "panel2-bar1": 120.0,
+    "panel2-bar2": 120.0,
+    "panel3-bar1": 60.0,
+    "panel3-bar2": 60.0
+  },
+  "rawSVGVisualCheck": "/tmp/q-654-native-art.png"
+}

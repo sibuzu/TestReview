@@ -1,0 +1,41 @@
+{
+  "id": "q-667",
+  "checkedAt": "2026-10-28T20:57:42.955460+00:00",
+  "answer": "B",
+  "userConfirmed": true,
+  "sourceTranscript": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+  "sourceExcerpt": "類題 16-1：清代郁永河乘帆船來臺。若他打算從福建泉州「順風」快速橫渡臺灣海峽抵達臺灣，他最應該選擇在下列哪一個月份啟航？\n(A) 1 月（吹東北季風） (B) 7 月（吹西南季風） (C) 10 月（秋末轉涼） (D) 12 月（寒流來襲）",
+  "sourceComplete": true,
+  "visualChecked": true,
+  "findings": [
+    "沿用使用者B/7月確認，依東向橫越需求，未重問到達港或順風全程平行。",
+    "官方氣象署核對夏季西南/冬季東北時段；風來向與吹往分開教。",
+    "SVG向量座標核對西南→東北dx+90,dy-90，東分量dx+90；冬風反向dx-90,dy+90，西分量dx-90。",
+    "首格海峽方位示意不作港口或精確航線，從未畫西南風朝東南。"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://pweb.cwa.gov.tw/PopularScience/wt/wt_3.html",
+      "finding": "夏季主要西南季風、冬季主要東北季風，月份比較採本題教材代表情境。"
+    }
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "summerWind": [
+      90,
+      -90
+    ],
+    "summerEastComponent": [
+      90,
+      0
+    ],
+    "winterWind": [
+      -90,
+      90
+    ],
+    "winterWestComponent": [
+      -90,
+      0
+    ]
+  }
+}

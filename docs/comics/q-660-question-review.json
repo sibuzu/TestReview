@@ -1,0 +1,22 @@
+{
+  "id": "q-660",
+  "checkedAt": "2026-10-28T20:48:49.347859+00:00",
+  "answer": "C",
+  "sourceTranscript": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+  "sourceExcerpt": "類題 7-2：某地圖右下方標示線段比例尺為「圖上 2 公分代表實際 10 公里」，換算成數字比例尺應為：\n(A) 1 : 5,000 (B) 1 : 50,000 (C) 1 : 500,000 (D) 1 : 5,000,000",
+  "sourceComplete": true,
+  "visualChecked": true,
+  "findings": [
+    "完整文字延伸類題7-2，不需要補不存在照片。",
+    "獨立驗算10公里＝1000000公分，圖上2公分故1：500000。",
+    "SVG全部數值、單位、120→60示意長度核對，無AI精度問題。",
+    "新漫畫數字省千分逗號只為防止手機拆數值；原題選項不改。"
+  ],
+  "arithmetic": {
+    "kilometers": 10,
+    "centimeters": 1000000,
+    "mapCm": 2,
+    "denominator": 500000
+  },
+  "xmlValid": true
+}

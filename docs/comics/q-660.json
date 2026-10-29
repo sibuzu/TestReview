@@ -1,0 +1,74 @@
+{
+  "id": "q-660",
+  "subject": "Geography",
+  "title": "統一單位，再把圖上距離化成1",
+  "art": "docs/comics/art/q-660.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T20:47:15.297059+00:00",
+  "panels": [
+    {
+      "heading": "① 圖上2公分，代表實際10公里",
+      "text": "線段比例尺告訴我們，圖上2公分與實際10公里相對應。數字比例尺要先把兩邊換成相同單位。",
+      "alt": "圖上0至2公分的兩等分示意尺，對應實際10公里；非螢幕實測尺"
+    },
+    {
+      "heading": "② 公里換公尺，再換公分",
+      "text": "10公里＝10000公尺，10000公尺＝1000000公分。從公里換成公分，共乘100000，不能只乘1000。",
+      "alt": "10km乘1000成10000m，再乘100成1000000cm的精確換算流程"
+    },
+    {
+      "heading": "③ 比例前後都除以2",
+      "text": "圖上：實際＝2：1000000。前後同除以2，得到1：500000；也就是圖上1公分代表實際500000公分。",
+      "alt": "2比1000000兩項同除2得到1比500000，圖上線段長也由120示意單位減為60"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：1：500000",
+    "points": [
+      "數字比例尺的前後項必須使用相同單位。",
+      "10公里＝1000000公分。",
+      "2：1000000＝1：500000。"
+    ]
+  },
+  "protectedWords": [
+    "數字比例尺",
+    "2公分",
+    "10公里",
+    "10000公尺",
+    "1000000公分",
+    "500000公分",
+    "1：500000",
+    "2：1000000"
+  ],
+  "rationale": "本題是完整文字延伸題，不依缺圖猜題。精確數字、換算與同除2為核心，採可校核SVG線段及單位流程；真實圖上測量值由題幹給定，示意線段不作螢幕實測尺。新講解用無千分逗號數字避免手機將同一數值拆行，數值與原題選項C一致。",
+  "promptSummary": "原生SVG三格：2cm對應10km、公里→公尺→公分、兩項同除2；非AI場景裝飾。",
+  "answerCheckedAgainst": "完整來源文字類題7-2，site/dist/sources/gemini-5LjOi6JL0S8W.txt字元12490附近；獨立驗算10×1000×100÷2＝500000。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "完整文字延伸題7-2含2公分、10公里及四選項，不需要原卷照片或另造地圖；已逐字核對。"
+  },
+  "completedAt": "2026-10-28T20:48:49.347859+00:00",
+  "checkedAt": "2026-10-28T20:53:03.008774+00:00",
+  "visualChecked": true,
+  "artSHA256": "73abd163e43df1b4654b019135fa1ba97d018fb3475f8df04694d86ca510592f",
+  "previewValidation": "docs/comics/q-660-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG、1440及390預覽；2cm對應10km、×1000再×100、1000000除2均標示正確。示意線段120→60表示圖上長度減半，非螢幕實測尺。HTML同一長數字不在逗號拆行，桌機同列等高、手機自然高，無橫溢裁切；1120亦通過。",
+  "nativeArt": "assets/comics/q-660-art-73abd163e4.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-660-validation.json"
+}

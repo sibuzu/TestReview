@@ -1,0 +1,75 @@
+{
+  "id": "q-652",
+  "subject": "Geography",
+  "title": "看隔年春旱，要回頭看前一年夏雨",
+  "art": "docs/comics/art/q-652.png",
+  "startedAt": "2026-10-28T19:41:58.640617+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 主要補水季在夏季",
+      "text": "題目限定每年夏季雨量占八成以上。先看前一年的主要雨季：圖中2007年全年雨量最低，雨季補水不足的風險較高。",
+      "alt": "主要雨季相對少雨的村落農田概念，不重畫年雨量圖或假定實際氣象數值。"
+    },
+    {
+      "heading": "② 夏雨之後，秋冬仍會用水",
+      "text": "雨季結束，用水不會跟著停止。經過秋冬消耗，而補水較少時，可用水量可能下降，影響會延續到下一年。",
+      "alt": "較涼季節仍持續使用水澆灌的情境，不假定原題一定有水庫或水庫完全枯竭。"
+    },
+    {
+      "heading": "③ 隔年春季，還沒到主雨季",
+      "text": "2007雨季補水偏少，經秋冬後，最可能影響2008年春季。不能用2007年尚未到來的夏雨，倒推當年春季。",
+      "alt": "隔年春季土壤較乾、植物缺水，但小水桶仍有水，呈現可能缺水而非所有水源必定全面乾涸。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 前一年夏雨少，隔年春季承接影響",
+    "answer": "答案 B：2008年",
+    "points": [
+      "先排時序：夏雨→秋冬→隔年春季。",
+      "不是直接選全年雨量最低的2007年。",
+      "題目問可能最嚴重，不保證水源必定耗盡。"
+    ]
+  },
+  "protectedWords": [
+    "2007年",
+    "2008年",
+    "2007雨季",
+    "2008年春季",
+    "主要雨季",
+    "全年雨量",
+    "秋冬",
+    "春季",
+    "八成以上",
+    "倒推",
+    "補水",
+    "缺水",
+    "前一年"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-652-source-a392c09354.jpg",
+    "site/dist/assets/questions/q-652-rain-chart-e3849e143b.jpg"
+  ],
+  "existingConfirmation": "q652原AI水庫必定枯竭的訂正卡已resolved，維持B及可能性/不假定水庫的限制。",
+  "rationale": "實看原卷折線圖2007最低及原題季節條件，維持B。三情境具體化夏季補水→秋冬消耗→隔年春季的時序，不AI重建精確折線圖、不添加必有水庫或完全枯竭。",
+  "answerCheckedAgainst": "原卷紅筆B、題庫B與已resolved訂正內容一致。",
+  "visualChecked": true,
+  "artSHA256": "fea4bedc11c57d04edf473882f6d3f56700eacf8d5c80b7eb127a13c374bfbc9",
+  "checkedAt": "2026-10-28T19:47:27.770318+00:00",
+  "completedAt": "2026-10-28T19:44:28.385129+00:00",
+  "layoutEvidence": "docs/comics/q-652-preview-validation.json",
+  "visualReview": "實看原卷與折線圖2007低點、resolved訂正卡B及三格新圖：夏雨較少/秋冬持續用水/春季土乾植株缺水，仍有少量可用水，不畫水庫必定枯竭。1440/1120/390實看後補水等詞保護，文字時序清楚且無橫溢，雙欄同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-652-art-fea4bedc11-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-652-validation.json"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "q-667",
+  "subject": "Geography",
+  "title": "從風的來向，找出有助東渡的分量",
+  "art": "docs/comics/art/q-667.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T20:55:37.650396+00:00",
+  "panels": [
+    {
+      "heading": "① 先抓橫越海峽的東渡需要",
+      "text": "從福建沿岸渡往臺灣，本題主要判斷向東橫越海峽。先掌握需要的方向，再比較不同月份的季風。",
+      "alt": "福建在左、臺灣在右的概念方位圖，向東箭頭僅示橫渡主要方向，非實際港口或航線"
+    },
+    {
+      "heading": "② 7月西南風，吹向東北",
+      "text": "風名說的是從哪裡吹來。西南風由西南吹向東北，其中包含向東的分量，有助本題的東向橫渡。",
+      "alt": "西南至東北的精確向右上風矢量，橙色虛線表示向東分量"
+    },
+    {
+      "heading": "③ 冬季東北風，具有向西分量",
+      "text": "東北風由東北吹向西南，含向西分量。1月、12月屬冬季，10月也逐漸轉為東北季風，都不如7月符合本題。",
+      "alt": "東北至西南的精確向左下風矢量，橙色虛線表示向西分量"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：7月，西南季風",
+    "points": [
+      "本題依有助東渡的主要風向判斷。",
+      "西南風有向東分量，不是吹向東南。",
+      "順風不必理解成每一段航線都與風完全平行。"
+    ]
+  },
+  "protectedWords": [
+    "西南季風",
+    "東北季風",
+    "向東分量",
+    "向西分量",
+    "東向橫渡",
+    "西南風",
+    "東北風",
+    "1月",
+    "12月",
+    "10月",
+    "7月"
+  ],
+  "rationale": "沿用使用者已確認B/7月及東渡需求判準，不重問既結案事項。方向與向東/西分量是學習核心，採可校核SVG羅盤矢量；不讓AI生成錯誤方向或具體航線，不畫風直接吹東南。左格僅概念方位，不作泉州至某港精確航圖。",
+  "promptSummary": "原生SVG方位/矢量三格：概念福建→臺灣東渡、西南風→東北及東分量、東北風→西南及西分量。",
+  "answerCheckedAgainst": "使用者已確認B，完整延伸16-1全文；氣象署官方季風科普核對夏季西南季風與冬季東北季風時段。",
+  "officialReferences": [
+    {
+      "url": "https://pweb.cwa.gov.tw/PopularScience/wt/wt_3.html",
+      "finding": "夏季主要西南季風、冬季主要東北季風，月份比較採本題教材代表情境。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+    "visualChecked": true,
+    "answer": "B",
+    "userConfirmed": true,
+    "notes": "16-1完整文字含泉州順風渡臺問句及A～D，無需補不存在原卷；不要求港口或重新爭論已確認B。"
+  },
+  "completedAt": "2026-10-28T20:57:42.955460+00:00",
+  "checkedAt": "2026-10-28T21:00:30.587448+00:00",
+  "visualChecked": true,
+  "artSHA256": "5b3b9249e5cc0cf571ad55c7e2a00d3edbbb97c9237f416dfb97a4d963d1c81d",
+  "previewValidation": "docs/comics/q-667-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG與最終1440/390預覽：北向上/東向右，西南風由左下到右上，東北風反向，橙色東西分量方向正確；首格明定橫渡概念方位非實際港口航線。手機1月/12月/10月/7月不拆行，三寬QA無橫溢、預設收合及圖片載入通過；桌機同列等高/手機自然高。",
+  "nativeArt": "assets/comics/q-667-art-5b3b9249e5.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-667-validation.json"
+}

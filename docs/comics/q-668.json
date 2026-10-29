@@ -1,0 +1,77 @@
+{
+  "id": "q-668",
+  "subject": "Geography",
+  "title": "海陸冷熱差異，隨季節改變風場",
+  "art": "docs/comics/art/q-668.png",
+  "protectedWords": [
+    "東亞",
+    "歐亞大陸",
+    "太平洋",
+    "海陸交界",
+    "季風",
+    "黑潮",
+    "氣壓差",
+    "比熱",
+    "升溫",
+    "降溫",
+    "大尺度環流",
+    "海陸風"
+  ],
+  "panels": [
+    {
+      "heading": "① 東亞位在廣大海陸的交界",
+      "text": "本題先看位置：東亞介於歐亞大陸與太平洋。廣大陸地和海洋冷熱變化不同，是解釋顯著季風的關鍵背景，不只因為緯度跨得廣。",
+      "alt": "夏季海岸觀察情境，不讓生成圖代替歐亞大陸與太平洋的精確位置地圖。"
+    },
+    {
+      "heading": "② 換季後，相對冷暖與氣壓改變",
+      "text": "概念上，夏季陸地升溫較快；冬季陸地降溫也較快。海陸間的季節性氣壓差，配合大尺度環流，使盛行風向隨季節轉變；不是只講一天的海陸風。",
+      "alt": "同一海岸冷季情境，海水不結冰，也不以地方風景宣稱整個東亞相同天氣。"
+    },
+    {
+      "heading": "③ 風是空氣移動，不是海水流動",
+      "text": "C的黑潮是洋流，不能直接等同季風；D的地形會影響風雨分布，卻不能取代海陸冷熱差異這個成因。因此四選項中以B最符合。",
+      "alt": "師生比較兩季，精確成因用HTML說明，不畫可見的黑潮帶或捏造海風箭頭。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：廣大海陸的受熱差異",
+    "points": [
+      "歐亞大陸、太平洋形成顯著海陸對比。",
+      "冷熱變化與氣壓場隨季節改變。",
+      "黑潮是洋流；季風是季節性風場。"
+    ]
+  },
+  "rationale": "讀完整純文字延伸16-2及來源答案表，四選項與題庫一致，本題無另缺原卷或作答圖。中央氣象署官方科普頁核對海陸比熱、夏冬相對冷暖、氣壓及亞洲季風，保留大尺度環流背景，不把季風說成單一地點日夜海陸風。圖只示意兩季觀察，不造真地圖、測值、方向或整個東亞一致降雨。沒有既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-668-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-5LjOi6JL0S8W.txt 類題16-2完整四選項與答案表"
+  ],
+  "sources": [
+    {
+      "url": "https://edu.cwa.gov.tw/PopularScience/wt/wt_3.html",
+      "note": "氣象署季風形成：海陸比熱、夏冬氣壓場與亞洲廣大海陸背景。"
+    }
+  ],
+  "answerCheckedAgainst": "B廣大海陸冷熱差為主；A緯度、C洋流、D地形都不能取代本題主要機制。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "00119bf3c1946985d0c6df0b03839b2b46029ac29a4bacc3ad098e7e44921c5f",
+  "createdAt": "2026-10-28T21:43:29.692216+00:00",
+  "checkedAt": "2026-10-28T21:46:29.068803+00:00",
+  "validationFile": "docs/comics/q-668-validation.json",
+  "nativeArt": "assets/comics/q-668-art-00119bf3c1-web.webp"
+}

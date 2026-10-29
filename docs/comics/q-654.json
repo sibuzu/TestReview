@@ -1,0 +1,77 @@
+{
+  "id": "q-654",
+  "subject": "Geography",
+  "title": "比例尺先統一單位，再把前項化成1",
+  "art": "docs/comics/art/q-654.svg",
+  "startedAt": "2026-10-28T19:43:18.808528+00:00",
+  "panels": [
+    {
+      "heading": "① 先分清圖上與實際距離",
+      "text": "題目給圖上2公分，對應實際500公尺。數字比例尺要寫圖上距離比實際距離，而且兩邊須使用相同單位。",
+      "alt": "綠色圖上距離標2cm、橘色實際對應距離標500m，兩條線表示對應，不是拿螢幕當真實公分尺。"
+    },
+    {
+      "heading": "② 把公尺換成公分",
+      "text": "1公尺是100公分，所以500公尺是50000公分。現在可以同用公分，先寫成2：50000，不能保留混合單位直接相除。",
+      "alt": "綠色仍標2cm，橘色改標50000cm，條長不變，示意只轉換單位、實際距離沒有改變。"
+    },
+    {
+      "heading": "③ 前後兩項一起除以2",
+      "text": "把2：50000的前後兩項同除以2，就得1：25000。意思是圖上1公分代表實際25000公分，也就是250公尺。",
+      "alt": "兩個對應線段都取原來一半，標1cm和25000cm；精確除法運算使用HTML文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：1：25000",
+    "points": [
+      "500公尺先換成50000公分。",
+      "2：50000，前後兩項同除以2。",
+      "圖上1公分，對應實際250公尺。"
+    ]
+  },
+  "protectedWords": [
+    "比例尺",
+    "圖上距離",
+    "實際距離",
+    "相同單位",
+    "50000",
+    "25000",
+    "250公尺",
+    "同除以2",
+    "25000公分",
+    "50000公分",
+    "圖上1公分",
+    "圖上"
+  ],
+  "rationale": "本題全部關鍵是2公分/500公尺的對應、單位不改變距離、前後同除以2。程式SVG使線段轉換前後不變、化簡時兩條同步減半，可直接檢查比例，人物情境不如量化對應圖有效。所有運算和答案用HTML，SVG只有短測量標籤。",
+  "promptSummary": "不使用imagegen製作精確量化圖。程式SVG三格：2cm對500m、同長改50000cm、兩條都取半對1cm與25000cm。",
+  "answerCheckedAgainst": "來源完整文字類題2已核對，無原卷照片或遺漏附圖；獨立驗算500乘100除2=25000，維持1：25000。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/sources/gemini-5LjOi6JL0S8W.txt",
+    "line": 214,
+    "completeTextChecked": true
+  },
+  "completedAt": "2026-10-28T19:47:13.264923+00:00",
+  "checkedAt": "2026-10-28T19:50:29.845895+00:00",
+  "visualChecked": true,
+  "artSHA256": "a97b6738e07a0c114aeef88fc767caf72abc12f3434f8d622826a2ff61bdafb1",
+  "previewValidation": "docs/comics/q-654-preview-validation.json",
+  "visualReview": "來源第214行完整文字類題已核對，獨立驗算1:25000。SVG轉單位保持兩條長度，化簡兩條均取半，XML長度斷言120/120/120/120/60/60。SVG原渲染及1440/390實看；千位逗號以等值無逗號格式避免分行，並保護數字與公分單位不分離，三寬重跑與成品再實看通過。",
+  "nativeArt": "assets/comics/q-654-art-a97b6738e0.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-654-validation.json"
+}

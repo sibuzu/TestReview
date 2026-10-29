@@ -27,6 +27,7 @@ for i in range(3):
   s.append('<polygon points="'+' '.join(f'{o+rr[z][0]},{rr[z][1]}' for z in ['A','O','D'])+'" fill="#d7e4c9"/>')
   for a,b in [('A','B'),('B','C'),('C','D'),('D','A'),('A','C'),('B','D')]:line(rr[a],rr[b])
   line(rr['A'],rr['E'],'#b08b4f',1.6)
+  ee=rr['E']; ua=(rr['A'][0]-ee[0],rr['A'][1]-ee[1]); va=(rr['D'][0]-ee[0],rr['D'][1]-ee[1]); ul=math.hypot(*ua); vl=math.hypot(*va); u=(4*ua[0]/ul,4*ua[1]/ul); v=(4*va[0]/vl,4*va[1]/vl); line((ee[0]+u[0],ee[1]+u[1]),(ee[0]+u[0]+v[0],ee[1]+u[1]+v[1]),'#b08b4f',.8); line((ee[0]+u[0]+v[0],ee[1]+u[1]+v[1]),(ee[0]+v[0],ee[1]+v[1]),'#b08b4f',.8)
   for a,b in [('A','O'),('O','D')]:
    aa,bb=rr[a],rr[b];mx,my=(aa[0]+bb[0])/2,(aa[1]+bb[1])/2;dx,dy=bb[0]-aa[0],bb[1]-aa[1];l=math.hypot(dx,dy);line((mx-3*dy/l,my+3*dx/l),(mx+3*dy/l,my-3*dx/l),'#7196a2',1.4)
   for z in P:

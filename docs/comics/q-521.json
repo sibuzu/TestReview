@@ -1,0 +1,73 @@
+{
+  "id": "q-521",
+  "subject": "Chinese",
+  "title": "水況已改變，舊標記不能照用",
+  "art": "docs/comics/art/q-521.png",
+  "protectedWords": [
+    "荊人",
+    "澭水",
+    "暴益",
+    "弗知",
+    "循表",
+    "夜涉",
+    "水位變化",
+    "舊標記",
+    "因果",
+    "先前",
+    "楚軍"
+  ],
+  "panels": [
+    {
+      "heading": "① 先前的標記，原本可以引導渡河",
+      "text": "楚人想偷襲宋國，先派人標記澭水。原文說「嚮其先表之時可導也」：設標記時確實可以通行，不能說舊做法從一開始就毫無作用。",
+      "alt": "近景手臂設立無字標記，河水較淺，畫面不露天空或日月，不指定原文未說的設標時段；標記外形只是示意。"
+    },
+    {
+      "heading": "② 河水暴漲，條件已經改變",
+      "text": "「澭水暴益」寫河水突然增加，「荊人弗知」寫楚人不知道。失敗的關鍵在水況已變、資訊卻沒更新，不是原文交代敵軍放水或下雨。",
+      "alt": "同一標記及河岸，水位較前明顯上漲、水流增強，未標數值，也不畫暴雨或水攻等未提供原因。"
+    },
+    {
+      "heading": "③ 仍循舊標夜涉，才發生嚴重後果",
+      "text": "楚軍依舊照著標記，在夜間渡河，結果千餘人溺死。把環境變化、不知現況、照舊行動與溺亡串起來，D最完整符合原文因果。",
+      "alt": "明確夜間，楚軍跟舊標涉入深水，神情驚惶但無遺體、傷口或原文未有的救援結果，死亡事實由HTML保留。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：未察水變，仍依舊標渡河",
+    "points": [
+      "環境變化：澭水暴益。",
+      "未更新資訊：荊人弗知；照舊行動：循表夜涉。",
+      "A埋伏、B水攻、C控制雨量，原文都沒有這些原因。"
+    ]
+  },
+  "rationale": "實看共同文言全文/兩注與第41題完整A-D，讀來源214及424–465。既有correction-q-521-0aa01cf79edc已確認不能補白天設標，不重開；新圖前兩格避天空/日月/燈，不指定設標時段，第三格依原文明確夜渡。標記木柱只是可讀示意，不聲稱原文指定材質外形；不補雨、敵軍或救援。D保持不變。",
+  "sourceUrl": "https://share.gemini.google/CYhs1soHtI73",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-521-reading-source-5190c71acb.jpg",
+    "site/dist/assets/questions/q-521-source-5e198076f3.jpg",
+    "site/dist/sources/gemini-CYhs1soHtI73.txt line214 and424–465",
+    "monitor resolved correction-q-521-0aa01cf79edc"
+  ],
+  "answerCheckedAgainst": "澭水暴益→荊人弗知→循表夜涉→溺死，D精確對應；A/B/C均加入無依據原因。",
+  "generationMethod": "built-in imagegen new textless anime earlier shallow river marking, higher water under same marker and night crossing consequence",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T05:29:48.796863+00:00",
+  "promptFile": "docs/comics/q-521-prompt.txt",
+  "checkedAt": "2026-10-29T05:30:46.556123+00:00",
+  "validationFile": "docs/comics/q-521-preview-validation.json",
+  "artSha256": "dbe30fedff68857264540e8e649c6c7e5df7fed49efeb553d62a6a84242178ab"
+}

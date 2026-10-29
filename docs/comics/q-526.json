@@ -1,0 +1,88 @@
+{
+  "id": "q-526",
+  "subject": "Chinese",
+  "title": "人幾為魚：洪水使人差點淹死",
+  "art": "docs/comics/art/q-526.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:19:37.988795+00:00",
+  "panels": [
+    {
+      "heading": "① 幾為所禽：自己差點被抓",
+      "text": "幾是差一點，為所表示被動，禽通擒。全隊潰覆之後，是劉羽沖自己差點被土寇捉住；A卻說他捉盡土寇，把主被動顛倒了。",
+      "alt": "新製虛構古代鄉兵潰退、讀書人逃離追兵，沒有畫成成功擒獲土寇或已遭捆綁；少數人只為情境不冒稱十萬兵實數。"
+    },
+    {
+      "heading": "② 州官亦好事：喜歡攬事",
+      "text": "他拿水利圖說請求試辦，州官也喜歡攬事，就讓他先在一村試做。好事在此不是認為這是好事，B把詞義讀錯了。",
+      "alt": "新製讀書人向地方官呈水利方案、地方官急於試辦，非真實人物肖像/印章/確切官服，不用成功灌溉美化成已驗證善政。"
+    },
+    {
+      "heading": "③ 洪水灌入，村民差點淹死",
+      "text": "水大至接著順渠灌入，是洪水沿溝渠湧進村落，並非成功灌田。人幾為魚形容人差點被淹死；D最符合上下文，不是神話變魚。",
+      "alt": "新製洪水沿新渠湧入村落，成年人相助登高避水，無傷亡描寫；不畫魚、人魚或變身，不把危險洪水畫成平靜灌溉。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 人幾為魚：洪水使人差點淹死",
+    "answer": "答案 D：差點淹死",
+    "points": [
+      "幾＝差一點，為所＝被動。",
+      "水大至與順渠灌入，要接著讀。",
+      "水中之魚是形象說法，指淹水險境。"
+    ]
+  },
+  "protectedWords": [
+    "幾為所禽",
+    "人幾為魚",
+    "州官亦好事",
+    "順渠灌入",
+    "水大至",
+    "全隊潰覆",
+    "劉羽沖",
+    "土寇",
+    "被動",
+    "主被動",
+    "顛倒",
+    "差一點",
+    "差點",
+    "好事",
+    "攬事",
+    "水利",
+    "圖說",
+    "詞義",
+    "洪水",
+    "溝渠",
+    "村落",
+    "灌田",
+    "淹死",
+    "上下文",
+    "神話",
+    "水中之魚",
+    "形象說法",
+    "淹水險境"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-526-reading-source-7de9bf2807.jpg",
+    "site/dist/assets/questions/q-526-notes-source-ec2f246c4a.jpg",
+    "site/dist/assets/questions/q-526-source-694712f399.jpg"
+  ],
+  "originalVisualCheck": "實看完整甲乙閱讀原卷、九條註釋與39題四選項。乙文幾為所禽、州官亦好事、水大至/順渠灌入/人幾為魚相接，禽註通擒。原卷B學生圈後紅D訂正，原文為獨立核對依據。",
+  "answerCheckedAgainst": "A主被動反，B好事誤作好事物，C水大至引入洪災非成功灌田，D以成魚比淹水險境；幾未然不畫實際被擒/死亡或變魚，保持既有D。",
+  "rationale": "新製被擒未遂/州官攬事/洪水避難三情境，加HTML原文逐句判讀，將語境與字義連結，比抽象詞卡更能區分A/B/C/D；不採來源AI圖。",
+  "promptPath": "docs/comics/q-526-prompt.txt",
+  "generationCalls": 1,
+  "diagramChecks": {
+    "answer": "D",
+    "passive": "Liu almost captured, not capturing all bandits",
+    "official": "eager for projects, not judgment this is a good deed",
+    "flood": "danger not successful irrigation",
+    "fishTransformation": false,
+    "identity": "fictional illustrative adults, no real-person likeness claim"
+  },
+  "artSHA256": "2bce224972f9616e059611cb637a7781643aa5b12dd1c155f895a88508e3bb17",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:21:48.604103+00:00",
+  "completedAt": "2026-10-29T05:21:48.604103+00:00",
+  "layoutEvidence": "docs/comics/q-526-preview-validation.json",
+  "visualReview": "實看新原始三景及1440/1120/390，讀書人逃離追兵未被抓/未成功擒賊、州官急於試辦、洪災成人登高自救，沒有魚變身或傷亡誤畫。三張原卷完整核對D；圖裁切/詞組換行正確、同行等高手機自然高無溢出。"
+}

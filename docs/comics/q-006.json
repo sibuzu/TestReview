@@ -1,0 +1,75 @@
+{
+  "id": "q-006",
+  "subject": "Math",
+  "title": "旋轉構造直角，再作高求正方形面積",
+  "art": "docs/comics/art/q-006.svg",
+  "protectedWords": [
+    "正方形",
+    "等腰直角三角形",
+    "畢氏定理",
+    "逆定理",
+    "延長線",
+    "90°",
+    "135°",
+    "45°",
+    "8＋√14"
+  ],
+  "panels": [
+    {
+      "heading": "① 繞A逆時針旋轉，B到D、P到Q",
+      "text": "將三角形PAB逆時針旋轉90°，得到QAD。對應邊相等，所以AQ＝AP＝1、QD＝PB＝3；Q在正方形上方，且角PAQ是直角。",
+      "alt": "真實等比例正方形，A左上B左下D右上，P內部，繞A逆時針90度映至外部上方Q，原三角形與旋轉三角形分色。"
+    },
+    {
+      "heading": "② 用逆定理找出P點的直角",
+      "text": "等腰直角三角形PAQ給出PQ²＝2、角APQ為45°。再由2＋7＝9，可知角QPD是90°。射線PQ在角APD內，因此角APD為135°。",
+      "alt": "沿同一精確座標畫PAQ及PQD，PQ與PD在P垂直，以右角記號及QD3、PD根號7核對逆畢氏。"
+    },
+    {
+      "heading": "③ 向延長線作高，注意H、P、D次序",
+      "text": "將DP越過P延長，作AH垂直於DH。角APH為45°，所以AH＝PH＝h，且h²＝1／2。H在P外側，因此DH＝√7＋h，要相加，不是相減。",
+      "alt": "精確投影得到H在DP越過P的延長線，H、P、D共線依序，AH垂直DH；標同長h，AD為斜邊。"
+    }
+  ],
+  "fourth": {
+    "answer": "正方形面積＝AD²＝8＋√14",
+    "points": [
+      "AD²＝h²＋(√7＋h)²。",
+      "h²＝1／2，展開得1／2＋7＋√14＋1／2。",
+      "AD是正方形的邊長，因此AD²就是所求面積。"
+    ]
+  },
+  "rationale": "依使用者已提供且確認的第21題文字與旋轉幾何解法製作；原卷為純文字，當前題庫未保存附件，不冒稱從來源下載原圖。對話原圖可見完整PA1/PB3/PD根號7及內點條件。原AI141–183最初座標答8+根14，287–354後段錯答8已在既有訂正，未重開。獨立精確數值座標驗證逆時針B→D、P→Q、各邊角、H投影及三點順序；全新SVG替代舊AI示意，不更改已確認答案。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "user supplied original第21題 visible in inherited conversation, pure text no given diagram",
+    "docs/complete-questions/q-006.json user-confirmed rotation proof",
+    "site/dist/sources/6ae04e07-ac08-83e8-a547-b5a07976b7d8.txt lines 141–183 and 287–354"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae04e07-ac08-83e8-a547-b5a07976b7d8",
+  "generationMethod": "precise native SVG true-square rotation, converse Pythagoras and perpendicular altitude on extended DP",
+  "answerCheckedAgainst": "Numerical independent distances PA1 PB3 PDsqrt7, QD3 PQsqrt2, angles45/90/135, H outside P, area8+sqrt14. Existing user confirmation retained.",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T05:14:52.108999+00:00",
+  "integrationRecommendations": {
+    "removeRedundantOwnOldExplanationFigures": [
+      "assets/questions/q-006-explanation.png"
+    ],
+    "reason": "新精確四格完整涵蓋旋轉、逆畢氏、延長線作高及面積計算；舊自製非比例AI三步示意已重複，建議root移除其explanationFigures引用，原卷與given不動。"
+  },
+  "checkedAt": "2026-10-29T05:15:22.761587+00:00",
+  "validationFile": "docs/comics/q-006-preview-validation.json",
+  "artSha256": "7004659441fa1d87364c76267b0cb04b745b9930daf67ac7c542afae197418ea"
+}

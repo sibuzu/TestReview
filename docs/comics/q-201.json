@@ -13,7 +13,8 @@
     "Two of them",
     "自由填空",
     "小學",
-    "高中"
+    "高中",
+    "Two"
   ],
   "panels": [
     {
@@ -27,27 +28,27 @@
       "alt": "同樣三個圖標中兩個綠色小學、一個橘色高中，學段分組數量為2及1，不假定實際年齡、年級或其他家族關係。"
     },
     {
-      "heading": "③ 兩位都符合，用Both配are",
-      "text": "Both of them表示所指的兩位都符合，接複數動詞are。這是自由填空，Two of them也能表達其中兩人，不能把它當成文法錯誤或補造選項限制。",
-      "alt": "精確3減1等2與兩個綠色圖標共同括起Both，表示兩位都在小學；不把Two作自由填空錯答或杜撰單選選項。"
+      "heading": "③ 三位中的兩位，用Two of them",
+      "text": "them回指前句的三位女兒，Two of them才明確表示其中兩位，搭配are。Both通常指已確立的兩人整組，不能只因三減一等於二，就把本句填成Both。",
+      "alt": "精確3減1等2與兩個綠色圖標共同括起Two，表示三位中的兩位在小學，不把Both當從三人中選兩人的詞。"
     }
   ],
   "fourth": {
-    "answer": "可填 Both；自由填空也可用Two",
+    "answer": "答案：Two",
     "points": [
       "總共三位，the other one所指另外一位在高中。",
       "3−1＝2，前半句是兩位小學生。",
-      "Both of them are；不用All指三人全都。"
+      "Two of them are：三位中的兩位；不用Both直接回指三人。"
     ]
   },
-  "rationale": "無圖的完整文字追問，原來源最後一段Mr. Wang三女兒及Both答已實讀；不誤用原卷Mrs. Wang兩女兒題。新精確SVG固定三個圖標、2/1分組及3-1=2，避免生成模型決定數量。保留自由填空Two也可，Both原答不變，未增選項。",
+  "rationale": "無圖完整文字追問，與照片另一題兩女兒分開。使用者已確認答案Two，原AI從3−1＝2推必用Both忽略them的三人先行詞。新精確三人集合、2/1學段分組與Two的圖文均按確認訂正；未新增選項。",
   "originalMaterialsChecked": true,
   "originalMaterials": [
     "site/dist/sources/gemini-m6pmkxQwUTM8.txt (entire94 lines read; final user text and answer at lines78–84)"
   ],
   "sourceUrl": "https://share.gemini.google/m6pmkxQwUTM8",
   "generationMethod": "precise native SVG three-person partition and exact subtraction with native HTML free-fill grammar",
-  "answerCheckedAgainst": "文字總數3，另1高中→2小學，Both及Two皆符合自由填空；All三位全小學與另1高中矛盾，沒有原卷照片需求。",
+  "answerCheckedAgainst": "使用者明確確認correction-q-201-53941bc300cf改Two；three daughters為them的三人集合，Two of them表示其中兩位，Both不作本句答案。",
   "visualChecked": true,
   "layoutVersion": "native-fluid-v6",
   "nativeLayout": {
@@ -61,8 +62,24 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "createdAtUTC": "2026-10-29T04:30:15.745146+00:00",
-  "checkedAt": "2026-10-29T04:31:19.222532+00:00",
-  "validationFile": "docs/comics/q-201-preview-validation.json",
-  "artSha256": "494309cd77d3c56e1825800d148440b21d729c36eac752b04bcd76f391129cfe"
+  "createdAtUTC": "2026-10-29T05:26:40.500312+00:00",
+  "userConfirmedAnswer": {
+    "requestId": "correction-q-201-53941bc300cf",
+    "answer": "Two",
+    "confirmedAt": "2026-10-29T05:26:40.526717+00:00"
+  },
+  "primaryReference": "https://www.oxfordlearnersdictionaries.com/us/grammar/online-grammar/quantifiers-both-several-most-and-all",
+  "nativeArt": "assets/comics/q-201-art-ac6022749a.svg",
+  "supersedesPreviewAfterCorrection": "原隔離預覽沿原AI Both稿，已由使用者確認Two後替換；正式validation才是現行成品。",
+  "rootReview": {
+    "checkedAt": "2026-10-29T05:29:10.373874+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "使用者明確確認Two後，原題three daughters/the other one照留、答案/詳解/第三格SVG與第四格均改Two，3-1=2與2/1分組正確。正式桌手機實看，主網站及單頁三寬6項QA通過；原Both預覽標為被取代。",
+    "sharedNativeAssetVerified": true
+  },
+  "checkedAt": "2026-10-29T05:29:10.376889+00:00",
+  "validationFile": "docs/comics/q-201-validation.json"
 }

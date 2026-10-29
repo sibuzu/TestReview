@@ -1,0 +1,71 @@
+{
+  "id": "q-518",
+  "subject": "Chinese",
+  "title": "找到鳥名，逐字比對範圍與行為",
+  "art": "docs/comics/art/q-518.svg",
+  "protectedWords": [
+    "黑袖鴿",
+    "翠翼鳩",
+    "維多利亞冠鴿",
+    "紅鳩",
+    "許多地區",
+    "整年",
+    "全身",
+    "輪流孵化",
+    "電線桿",
+    "停棲",
+    "築巢"
+  ],
+  "panels": [
+    {
+      "heading": "① A漏掉例外，不能改寫成全身",
+      "text": "黑袖鴿的資料先列黑色飛羽、覆羽及尾羽等例外，再說其餘白色帶些黃色調。A直接說「全身」白色，抹去了原文限制。",
+      "alt": "兩塊語意卡分別列部分羽毛黑色、其餘白帶黃色，並列全身白色不符；卡片大小只分組不表示羽色比例。"
+    },
+    {
+      "heading": "② B直接對應翠翼鳩的習性欄",
+      "text": "先找到翠翼鳩，再看習性：「在許多地區整年都可以繁殖。」B保留鳥名、地區範圍及整年繁殖，與原文相符；許多地區仍不等於全部地區。",
+      "alt": "翠翼鳩習性原句關鍵詞與程式排列1至12月份，表示原文整年，整體限定於許多地區，不把繁殖範圍擴為所有地區。"
+    },
+    {
+      "heading": "③ D把停棲處，換成了築巢處",
+      "text": "紅鳩會停在電線或電線桿，也常落地覓食；巢則位在樹的較高處。D的覓食敘述雖符合，但把停棲的位置改成築巢的位置，整句仍不合資料。",
+      "alt": "紅鳩雙欄對應卡，電線或電線桿對停棲，樹的較高處對築巢；不畫電線桿上的鳥巢。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：與資料逐項相符",
+    "points": [
+      "A省略黑色羽毛例外；D偷換停棲與築巢。",
+      "C只說雄鴿孵卵，未完整表達原文雌雄輪流。",
+      "依原卷比對，不把現行保育等級或其他生態知識代入。"
+    ]
+  },
+  "rationale": "實看四鳥完整原表和第36題四選項，讀來源144–160逐項判B。原卷限定許多、黑羽例外、雙親輪流、停棲/築巢不可替換。新精確語意SVG避免生成鳥類色塊及錯誤巢位；12月格程式列1..12，整年範圍明限許多地區；不宣稱雄性從不孵化，C僅缺輪流資訊而B最直接。保育碼LC/NT僅原題，不查新標準替換。",
+  "sourceUrl": "https://share.gemini.google/CYhs1soHtI73",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-518-reading-source-63b28caf41.jpg",
+    "site/dist/assets/questions/q-518-source-af5bf86610.jpg",
+    "site/dist/sources/gemini-CYhs1soHtI73.txt lines144–160"
+  ],
+  "answerCheckedAgainst": "B與翠翼鳩習性直接一致；A全身省例外、C未完整輪流、D場所與行為偷換。依完整原表判最可能。",
+  "generationMethod": "precise native SVG scope/exception cards, programmatic12-month reading cue and location-action comparison",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T05:26:25.786066+00:00",
+  "checkedAt": "2026-10-29T05:27:27.059759+00:00",
+  "validationFile": "docs/comics/q-518-preview-validation.json",
+  "artSha256": "9cc869b3dab533e3d4e3f77512b1f25e4498a16c7e4b5b386116ccf8cac40291"
+}

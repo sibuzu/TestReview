@@ -1,0 +1,97 @@
+{
+  "id": "q-105",
+  "subject": "Math",
+  "title": "連接大、小矩形中心，剩餘面積也平分",
+  "art": "docs/comics/art/q-105-bisect.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:17:22.416634+00:00",
+  "panels": [
+    {
+      "heading": "① 大矩形兩對角線交O₁",
+      "text": "直尺連AC與BD，交點記O₁。即使對角線跨過凹口，仍是連原來大矩形的頂點；不需要量長度或找邊中點。",
+      "alt": "新製原凹多邊形比例，補出大矩形上緣輔助虛線，AC/BD相交於O1，不把凹多邊形頂點誤接成對角線。"
+    },
+    {
+      "heading": "② 凹矩形兩對角線交O₂",
+      "text": "小矩形P、S在上，Q、R在下。連PR與QS，交點就是O₂。這格把小矩形放大，步驟只用直尺連已有頂點。",
+      "alt": "新製放大PQRS小矩形，P左上/Q左下/R右下/S右上，PR/QS正確交於中心O2，不誤接PQ與RS。"
+    },
+    {
+      "heading": "③ 通過O₁、O₂畫答案線L",
+      "text": "連兩中心並延長，得到L。過矩形中心的直線會平分面積；L同時平分大矩形與挖去的小矩形，兩側相減後仍各剩一半。",
+      "alt": "新製L精確通過大中心(90,100)與小中心(54,67)，延長到外面；剩餘兩側以解析裁切著色同面積，線L最後繪製清楚不被填色遮住。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 連接大、小矩形中心，剩餘面積也平分",
+    "answer": "答案：過O₁、O₂的直線L",
+    "points": [
+      "AC交BD得到O₁；PR交QS得到O₂。",
+      "L的兩側各得一半大矩形，再各扣一半凹矩形。",
+      "原題不必證明，保留輔助作圖線並標明L。"
+    ]
+  },
+  "protectedWords": [
+    "大矩形",
+    "小矩形",
+    "凹矩形",
+    "凹多邊形",
+    "凹口",
+    "頂點",
+    "對角線",
+    "直尺",
+    "中點",
+    "面積",
+    "平分",
+    "兩側",
+    "O₁",
+    "O₂",
+    "AC",
+    "BD",
+    "PR",
+    "QS",
+    "PQRS"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-105-given.svg"
+  ],
+  "existingArtChecked": [
+    "site/dist/assets/questions/q-105-explanation.png"
+  ],
+  "originalVisualCheck": "題庫原卷images為空，原照片為本對話使用者提供18題，已核對A/B/C/D完整大矩形與PQRS向下凹口。讀given.svg精確位置，實看現有自行生成三步AI說明圖，其作法正確但本次不沿用，改製原生精確四格。未宣稱未保存的原照片有本機檔。",
+  "answerCheckedAgainst": "矩形對角線交點為中心，任意過中心線平分該矩形；連兩中心同步平分大形和扣除小形。新圖line f=36(y-67)-33(x-54)，兩中心f=0；解析裁切剩餘面積兩側均6396。維持使用者已確認作法。",
+  "rationale": "新製大中心/小中心/連中心的精確SVG並以解析同面積著色驗算，取代舊三步點陣AI解說；文字HTML可讀，無人物與來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "bigCenter": [
+      90,
+      100
+    ],
+    "notchCenter": [
+      54,
+      67
+    ],
+    "lineEquation": "36(y-67)-33(x-54)=0",
+    "remainingArea": 12792.0,
+    "sideAreas": [
+      6396.000000000001,
+      6395.999999999999
+    ],
+    "diagonals": [
+      "AC",
+      "BD",
+      "PR",
+      "QS"
+    ]
+  },
+  "supersedesExplanationFigures": [
+    "assets/questions/q-105-explanation.png"
+  ],
+  "integrationRecommendation": "新四格完整涵蓋舊三步AI作圖，root整合時移除舊q-105-explanation.png的explanationFigures引用以免重複；保留q-105-given.svg作答必要圖及原卷。",
+  "artSHA256": "df55ea3881f44d9ab539926f451df33fc88f708af54682f270f27056d8d046a9",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:17:57.449079+00:00",
+  "completedAt": "2026-10-29T05:17:57.449079+00:00",
+  "layoutEvidence": "docs/comics/q-105-preview-validation.json",
+  "visualReview": "實看1440/1120/390，AC/BD與PR/QS連線端點/中心交點正確，P/S上Q/R下，小矩形明示放大；L最後繪製穿過兩中心並延長，兩側解析同面積。標字未裁切，同行等高手機自然高，完整取代舊三步圖。"
+}

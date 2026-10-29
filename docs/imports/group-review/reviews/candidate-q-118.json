@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-118",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:11:46.087139+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-118",
+    "q-119"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-118",
+    "q-119"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-118-q-119",
+      "questionIds": [
+        "q-118",
+        "q-119"
+      ],
+      "retainId": "q-118",
+      "aliasIds": [
+        "q-119"
+      ],
+      "subject": "English",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "English",
+      "childSubjects": {
+        "q-118": "English",
+        "q-119": "English"
+      },
+      "sourceIds": [
+        "src-more-028"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05f69-8978-83ec-a836-9097f7b4f45a"
+      ],
+      "printedRange": "同一src-more-028原卷22與24依同一Adler受傷獲救文章，兩問的人名、事件與現有原文照片同hash逐一吻合；22問標題/24問缺述事項，為同讀文不同小題，不把本source其他諾貝爾/分享書/企鵝/盧森堡文章合入。",
+      "originalQuestionNumbers": {
+        "q-118": "22",
+        "q-119": "24"
+      },
+      "commonMaterial": {
+        "passage": "I am Adler, a big eagle. I live on a farm in Australia. Life on the farm is good and safe, and I have a lot of food. Andrew Smith, the owner of the farm, and his wife are kind to me and my family. However, Sandra, his seventeen-year-old daughter, is not a bird person, and she seldom gets close to us.\nThree weeks ago, something terrible happened to me. When I was chasing a rabbit, I was not careful about what was ahead, so I hit my right leg on a rock and it got broken. It really hurt, so I stayed on the ground, all wet and cold. Then, Sandra happened to pass by. She was devastated to see me lying on the ground like this. She totally had no idea how this could happen.\nSandra called for help right away. Though she was scared of birds, she stayed with me until the rescuers came. They sent me to an animal hospital to have my broken leg treated.\nLuckily and happily, I am getting better day by day. I hope I can get back to my home on the farm soon. When I go back there, I’d like to thank Sandra for her help.\n\n原卷字詞：eagle 老鷹；chase 追；rescuer 援救者；title 標題。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-118-reading-source-9ea8865583.jpg",
+          "visibleHeader": "共同Adler老鷹第一人稱文章：澳洲農場Andrew/Sandra、右腿受傷送醫、希望soon回家；全文與照片同頁。",
+          "questionNumbers": [],
+          "sha256": "9ea88655834a40a156531ca4de198236714080551208ff6f1857dee8f8abd3bf",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-118-source-cee931dd53.jpg",
+          "visibleHeader": "印刷22問the reading最佳標題，四選含My Terrible Experience、Sandra/animal hospital，對應同篇事件。",
+          "questionNumbers": [
+            "22"
+          ],
+          "sha256": "cee931dd53bb3eda1b752b777baaffac416c0e8b9336f28ca42fc27e9ede37dd",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-119-source-fa2eee25d5.jpg",
+          "visibleHeader": "印刷24問Which is NOT said in the reading，四選均指Adler/Sandra及同文返家未定時間。",
+          "questionNumbers": [
+            "24"
+          ],
+          "sha256": "fa2eee25d55a3e05ac2d31b0397a7af03abbe78eb84e731226b20acdb50b8674",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-028原卷22與24依同一Adler受傷獲救文章，兩問的人名、事件與現有原文照片同hash逐一吻合；22問標題/24問缺述事項，為同讀文不同小題，不把本source其他諾貝爾/分享書/企鵝/盧森堡文章合入。",
+      "childCoverage": [
+        {
+          "questionId": "q-118",
+          "originalQuestionNumber": "22",
+          "sourceId": "src-more-028",
+          "date": "2026-10-20",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "A",
+          "questionFingerprint": "e332a90e63d38004d3d98990e8099531ce75d32008ed08c6592b5740661d4e36",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-118-reading-source-9ea8865583.jpg",
+            "assets/questions/q-118-source-cee931dd53.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "最佳標題要包住整段受傷經歷",
+            "art": "assets/comics/q-118-art-59a56ac5f6-web.webp",
+            "panels": [
+              {
+                "heading": "① 開頭農場只是背景",
+                "text": "敘述者I是老鷹Adler。開頭介紹農場生活與Sandra，接著轉入老鷹受傷的主要事件；不能只用溫馨背景當全文標題。",
+                "alt": "Sandra發現受傷的棕色老鷹，圖中尚未接受治療。"
+              },
+              {
+                "heading": "② 主體是受傷與救援",
+                "text": "Sandra雖怕鳥，仍留下陪伴並叫人救援。這段獲救過程與受傷事件一起，構成文章的主要篇幅。",
+                "alt": "Sandra打電話求助並陪在老鷹附近，救援人員到場。"
+              },
+              {
+                "heading": "③ 康復是經歷的結尾",
+                "text": "老鷹在動物醫院逐漸康復，希望回農場後向Sandra道謝。D只涵蓋醫院部分；A能包住受傷、獲救與康復。",
+                "alt": "老鷹在動物醫院由獸醫照護、逐漸康復，尚未回到農場。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：My Terrible Experience",
+              "points": [
+                "先分背景、主要事件與結尾，再選全文標題。",
+                "B只抓農場背景；C不是全文的家庭介紹。",
+                "D只抓醫院片段；A涵蓋老鷹整段受傷經歷。"
+              ]
+            }
+          }
+        },
+        {
+          "questionId": "q-119",
+          "originalQuestionNumber": "24",
+          "sourceId": "src-more-028",
+          "date": "2026-10-20",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "D",
+          "questionFingerprint": "5e1c92e7d511d04eb9aa6ff86bdcbfc4787c579315b54ede04b54e239f705061",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-119-reading-source-9ea8865583.jpg",
+            "assets/questions/q-119-source-fa2eee25d5.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "希望 soon 回家，不是確定返家時間",
+            "art": "assets/comics/q-118-art-59a56ac5f6-web.webp",
+            "panels": [
+              {
+                "heading": "① 農場住處已交代",
+                "text": "開頭說Adler與家人住在澳洲農場，所以B的Where已有答案。找NOT said時，不能把明確出現的地點當成未交代。",
+                "alt": "沿用同篇故事的農場情境，幫助定位住處資訊。"
+              },
+              {
+                "heading": "② 救援方式與感謝原因都有",
+                "text": "Sandra打電話叫救援，並留在旁邊陪伴；救援人員送老鷹去醫院。因此A如何獲救、C為何感謝Sandra，都能在文中找到。",
+                "alt": "沿用Sandra叫援救並陪伴老鷹的情境，對應A與C的文句證據。"
+              },
+              {
+                "heading": "③ hope 表期待，沒有確定日期",
+                "text": "I hope I can get back…soon. 只是希望不久後返家。文章說牠逐漸康復，卻沒有交代確定何時能回家，所以選D。",
+                "alt": "沿用老鷹仍在醫院康復的情境，未新增已返家的結局。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：何時能回家，未交代",
+              "points": [
+                "先圈NOT，題目找的是文章沒有說的資訊。",
+                "住處、救援、感謝原因都有依據。",
+                "hope與soon是期待，不等於確定的返家日期。"
+              ]
+            }
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-118-reading-source-9ea8865583.jpg",
+      "visibleHeader": "共同Adler老鷹第一人稱文章：澳洲農場Andrew/Sandra、右腿受傷送醫、希望soon回家；全文與照片同頁。",
+      "questionNumbers": [],
+      "sha256": "9ea88655834a40a156531ca4de198236714080551208ff6f1857dee8f8abd3bf",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-118-source-cee931dd53.jpg",
+      "visibleHeader": "印刷22問the reading最佳標題，四選含My Terrible Experience、Sandra/animal hospital，對應同篇事件。",
+      "questionNumbers": [
+        "22"
+      ],
+      "sha256": "cee931dd53bb3eda1b752b777baaffac416c0e8b9336f28ca42fc27e9ede37dd",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-119-source-fa2eee25d5.jpg",
+      "visibleHeader": "印刷24問Which is NOT said in the reading，四選均指Adler/Sandra及同文返家未定時間。",
+      "questionNumbers": [
+        "24"
+      ],
+      "sha256": "fa2eee25d55a3e05ac2d31b0397a7af03abbe78eb84e731226b20acdb50b8674",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "本庫未收入23，僅合已存在22/24，不為補連號新增題目，也不把23憑空省略或宣稱本庫已有。",
+    "共文照片中老鷹實拍可隨共同原件保留，閱讀推理不依鳥類精確物種；兩子既有教學與A/D已核答均保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-118",
+      "q-119"
+    ],
+    "reviewedQuestionIds": [
+      "q-118",
+      "q-119"
+    ],
+    "confirmedQuestionIds": [
+      "q-118",
+      "q-119"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-118": "f611c4fc81e1c42cd8a7bf1287fbc3b59c1e2cfbddd861ad17131c3647fc36c1",
+    "q-119": "a327f57be9751aa278c04a41ff53fdea82acb5ce1316da11becc589f06cf1af7"
+  }
+}

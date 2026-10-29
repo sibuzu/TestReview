@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-352",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:23:48.468846+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-352",
+    "q-353",
+    "q-354"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-352",
+    "q-353",
+    "q-354"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-352-q-353-q-354",
+      "questionIds": [
+        "q-352",
+        "q-353",
+        "q-354"
+      ],
+      "retainId": "q-352",
+      "aliasIds": [
+        "q-353",
+        "q-354"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-352": "Chinese",
+        "q-353": "Chinese",
+        "q-354": "Chinese"
+      },
+      "sourceIds": [
+        "src-more-006"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05238-7b84-83ec-b2f2-9a46aa7cb340"
+      ],
+      "printedRange": "同一src-more-006同一原卷閱讀段(三)蘇洵諫論，後連33結構/34論證/35主旨，三題明指本文且引用同段獨特詞句，是共文不同小題。",
+      "originalQuestionNumbers": {
+        "q-352": "33",
+        "q-353": "34",
+        "q-354": "35"
+      },
+      "commonMaterial": {
+        "passage": "古今論諫，常與諷而少直，其說蓋出於仲尼。吾以為諷、直一也，顧用之之術何如耳。伍舉進隱語，楚王淫益甚；茅焦解衣危論，秦帝立悟。諷固不可盡與，直亦未易少之。吾故曰：顧用之之術何如耳。\n（節錄自蘇洵〈諫論〉）\n\n註：①與：讚許。②諷：委婉勸諫。③少：貶低。④術：方法、策略。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-352-reading-7143f9d8b0.jpg",
+          "visibleHeader": "共同閱讀段標(三)，蘇洵諫論全文/四註，框下銜接33起題。",
+          "questionNumbers": [
+            "33-35(context)"
+          ],
+          "sha256": "7143f9d8b0bbeeb5240a2f421fcbf4e27de694f7a8cf714a927061aac3933f2f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-352-source-f2cb2814ab.jpg",
+          "visibleHeader": "33「本文的結構」問四種合分順序，與共同諫論段相接。",
+          "questionNumbers": [
+            "33"
+          ],
+          "sha256": "f2cb2814ab82a87f37dbc181aa40f48d8f187c2cc013b01425a81760e1130881",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-353-source-4d3f134774.jpg",
+          "visibleHeader": "34「根據本文」問何者有誤，四選逐引諷直/仲尼/伍舉，原黑D。",
+          "questionNumbers": [
+            "34"
+          ],
+          "sha256": "4d3f13477438b3f01c62816b5fbb30314c26d6db21385a575ecec900c655bad2",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-354-source-8a79deb842.jpg",
+          "visibleHeader": "35「根據本文」問諫法看法、方式方法四選，原標記不採為推翻後續使用者確認B的依據。",
+          "questionNumbers": [
+            "35"
+          ],
+          "sha256": "8a79deb842d38b2ce3fa2f4ced4c4b931dbfa490053308ccb84ad281bb09a239",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-006同一原卷閱讀段(三)蘇洵諫論，後連33結構/34論證/35主旨，三題明指本文且引用同段獨特詞句，是共文不同小題。",
+      "childCoverage": [
+        {
+          "questionId": "q-352",
+          "originalQuestionNumber": "33",
+          "sourceId": "src-more-006",
+          "date": "2026-08-23",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "2b18ab5e62196f8809938f6dcc3532de067f9446e626d050d6cfb9330e4dfcec",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-352-reading-7143f9d8b0.jpg",
+            "assets/questions/q-352-source-f2cb2814ab.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先總說、再舉例、回到主張：合分合",
+            "art": "assets/comics/q-352-art-2c2ac28a7a.svg",
+            "panels": [
+              {
+                "heading": "① 開頭提出看法，是合說",
+                "text": "從古今論諫開始，作者先提出共同議題，再說「諷、直一也」，關鍵在如何運用。這是統整全文的主張，尚未分別講伍舉、茅焦的事例，因此開頭是合。",
+                "alt": "新精確開頭合說圖，用共同立場諷直與運用之術承接合，不按句數將開頭拆成分。"
+              },
+              {
+                "heading": "② 中間舉兩個事例，是分說",
+                "text": "伍舉委婉進言，楚王反而更加荒淫；茅焦冒險直言，秦帝卻立刻醒悟。兩個事例分別論證：委婉或直接，不能先固定誰好誰壞，要看如何運用。這部分是分。",
+                "alt": "新精確並列雙事例：伍舉隱語與楚王淫益甚、茅焦危論與秦帝立悟，兩線互不相接，不混成同一君主或先後因果。"
+              },
+              {
+                "heading": "③ 末尾重申運用策略，又回到合說",
+                "text": "結尾說諷不宜一概讚許，直也不能輕易貶低，再次回到「顧用之之術何如耳」。它把兩例收回同一主張，形成首尾呼應；不是在末尾另加一個分說事例。",
+                "alt": "新精確結尾合說圖回到與開頭相同的運用之術，顯示首尾呼應合分合，不把原文諷不可盡與改成全不讚許。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：合 → 分 → 合",
+              "points": [
+                "合：提出共同議題與作者主張。",
+                "分：用伍舉、茅焦兩例分別論證。",
+                "合：再回到運用之術，重申立場。"
+              ]
+            },
+            "protectedWords": [
+              "古今論諫",
+              "諷、直一也",
+              "伍舉",
+              "茅焦",
+              "楚王",
+              "秦帝",
+              "顧用之之術何如耳",
+              "合說",
+              "分說",
+              "首尾呼應",
+              "運用策略"
+            ]
+          }
+        },
+        {
+          "questionId": "q-353",
+          "originalQuestionNumber": "34",
+          "sourceId": "src-more-006",
+          "date": "2026-08-23",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "4744b82b872ee9548c59e80863a7f563cbb8d0f7cdd91959bf36afeae0f698e1",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-353-reading-7143f9d8b0.jpg",
+            "assets/questions/q-353-source-4d3f134774.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "看論證結果，伍舉不是諷諫成功例",
+            "art": "assets/comics/q-353-art-2cb1bd9e6a.svg",
+            "panels": [
+              {
+                "heading": "① 伍舉用隱語，楚王卻更放縱",
+                "text": "伍舉雖用委婉的隱語，結果卻是「楚王淫益甚」。作者拿這個例子說明諷諫未必有效；D說它肯定諷言功效，和結果相反。",
+                "alt": "新製原文論證關係圖：伍舉/諷諫隱語指向楚王淫益甚，以橙色標不良結果；只轉述原文關係，不具象化荒淫行為或添加宮廷史實。"
+              },
+              {
+                "heading": "② 茅焦直言，秦帝反而立悟",
+                "text": "茅焦「解衣危論」，秦帝卻「立悟」，作為另一個對照。作者要提醒：直接進諫也能奏效，不能一開始就說直諫比較差。",
+                "alt": "新製對照關係圖：茅焦/直諫危論指向秦帝立悟，以綠色表示此例奏效；不是說直諫在所有情境都必然成功。"
+              },
+              {
+                "heading": "③ 最後看方法，不以形式定優劣",
+                "text": "「顧用之之術何如耳」把重點放在運用的方法。諷、直本身沒有固定優劣，不是說委婉和直接的表達形式完全相同。",
+                "alt": "新製諷與直兩個不同入口共同匯入用之之術的論證結論圖，保留形式不同且運用策略才重要，不用等號說兩種表達完全一樣。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：伍舉不是肯定諷諫功效的例子",
+              "points": [
+                "伍舉諷諫後，楚王淫益甚。",
+                "茅焦直諫後，秦帝立悟。",
+                "兩例對照：須看運用方法與策略。",
+                "A、B有開頭依據；C不表示形式完全相同。"
+              ]
+            },
+            "protectedWords": [
+              "伍舉",
+              "茅焦",
+              "楚王",
+              "秦帝",
+              "隱語",
+              "諷諫",
+              "直諫",
+              "諷言",
+              "淫益甚",
+              "楚王淫益甚",
+              "解衣危論",
+              "立悟",
+              "顧用之之術何如耳",
+              "用之之術",
+              "方法",
+              "策略",
+              "委婉",
+              "直接",
+              "表達形式",
+              "固定優劣",
+              "有誤",
+              "對照",
+              "功效"
+            ]
+          }
+        },
+        {
+          "questionId": "q-354",
+          "originalQuestionNumber": "35",
+          "sourceId": "src-more-006",
+          "date": "2026-08-23",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "dffbcadfd4eb99e700b1ee676397e223b7e9e9f1157f6f28613fdbc22e6ac075",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-354-reading-7143f9d8b0.jpg",
+            "assets/questions/q-354-source-8a79deb842.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "依本題用語，方法策略重於形式選擇",
+            "art": "assets/comics/q-354-art-2cb1bd9e6a.svg",
+            "panels": [
+              {
+                "heading": "① 委婉的形式，不保證勸諫成功",
+                "text": "伍舉用隱語，是委婉進諫，但楚王卻「淫益甚」。作者用結果提醒：不能只因為說法委婉，就先判定它比較好。",
+                "alt": "沿用本專案新製q353精確伍舉論證圖，諷諫隱語指向楚王淫益甚；不是來源AI圖，不以委婉形式預設成功。"
+              },
+              {
+                "heading": "② 直接進言，也有奏效的例子",
+                "text": "茅焦「解衣危論」，秦帝反而「立悟」。和伍舉的結果對照，直接或委婉的表達形式，不足單獨決定成效。",
+                "alt": "沿用本專案新製茅焦直諫危論指向秦帝立悟的對照圖，僅此例奏效，不擴大成所有直接進言都必成功。"
+              },
+              {
+                "heading": "③ 術，就是如何實際運用的策略",
+                "text": "作者兩次說「顧用之之術何如耳」。依本題區分，方式是諷、直等表達形式；方法是實際運用的策略，所以B最合。",
+                "alt": "沿用本專案新製諷與直兩種形式共同匯入用之之術/方法策略的結構圖，文案專為35題方式方法的題內區分撰寫。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：方法重於方式",
+              "points": [
+                "方式：委婉、直接等表達形式。",
+                "方法：如何運用的技巧與策略。",
+                "作者不以形式本身預定優劣。",
+                "D說不用講究，和重視術的立場相反。"
+              ]
+            },
+            "protectedWords": [
+              "伍舉",
+              "茅焦",
+              "楚王",
+              "秦帝",
+              "隱語",
+              "諷諫",
+              "直諫",
+              "淫益甚",
+              "解衣危論",
+              "立悟",
+              "顧用之之術何如耳",
+              "用之之術",
+              "方式",
+              "方法",
+              "策略",
+              "委婉",
+              "直接",
+              "表達形式",
+              "成效",
+              "題內區分",
+              "方法重於方式"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-352-reading-7143f9d8b0.jpg",
+      "visibleHeader": "共同閱讀段標(三)，蘇洵諫論全文/四註，框下銜接33起題。",
+      "questionNumbers": [
+        "33-35(context)"
+      ],
+      "sha256": "7143f9d8b0bbeeb5240a2f421fcbf4e27de694f7a8cf714a927061aac3933f2f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-352-source-f2cb2814ab.jpg",
+      "visibleHeader": "33「本文的結構」問四種合分順序，與共同諫論段相接。",
+      "questionNumbers": [
+        "33"
+      ],
+      "sha256": "f2cb2814ab82a87f37dbc181aa40f48d8f187c2cc013b01425a81760e1130881",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-353-source-4d3f134774.jpg",
+      "visibleHeader": "34「根據本文」問何者有誤，四選逐引諷直/仲尼/伍舉，原黑D。",
+      "questionNumbers": [
+        "34"
+      ],
+      "sha256": "4d3f13477438b3f01c62816b5fbb30314c26d6db21385a575ecec900c655bad2",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-354-source-8a79deb842.jpg",
+      "visibleHeader": "35「根據本文」問諫法看法、方式方法四選，原標記不採為推翻後續使用者確認B的依據。",
+      "questionNumbers": [
+        "35"
+      ],
+      "sha256": "8a79deb842d38b2ce3fa2f4ced4c4b931dbfa490053308ccb84ad281bb09a239",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "共同諫論全文與四註一次，三個小題完整B/D/B各答及細解保留。",
+    "q354目前B使用者已明確確認，不能因原卷黑/紅別標記重新改答或開舊疑義。",
+    "q353與q354曾共用自己新製SVG素材但HTML/答案不同；不得只按art hash去重而刪一子教學，三份teachingComic均完整保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-352",
+      "q-353",
+      "q-354"
+    ],
+    "reviewedQuestionIds": [
+      "q-352",
+      "q-353",
+      "q-354"
+    ],
+    "confirmedQuestionIds": [
+      "q-352",
+      "q-353",
+      "q-354"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-352": "e590fede05296128ab4db2f5543d8bcdf1cb4bdc0ac31e23b9cebf7ca8fae9ae",
+    "q-353": "f2f1d803246303902cd2b2b89290bd988492f2d664f90f7f1a410baaa5db087f",
+    "q-354": "3fc2f0a5bcf7de33fbddab5c220bc1f01364df54cc5b9212c2301b28d15df270"
+  }
+}

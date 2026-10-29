@@ -69,3 +69,6 @@
 .question-detail .detail-header{position:relative;display:block}.question-detail .detail-header .detail-actions{float:none;position:absolute;top:0;right:0;margin:0}.question-detail .detail-header h1{padding-right:285px}@media(max-width:760px){.question-detail .detail-header{padding-top:56px}.question-detail .detail-header h1{padding-right:0}}
 
 .question-footer-flags{display:flex;justify-content:flex-start;margin-top:12px}.question-footer-flags .flag-options{flex-shrink:0}
+
+/* Fixed list view. The two icon controls sit above the first question. */
+#question-tools{display:flex;justify-content:space-between;align-items:flex-end;gap:12px 20px;flex-wrap:wrap}#flag-filters{flex:1 1 260px;max-width:520px;min-width:0}#flag-filters .flag-filter-table{width:100%}.list-order{display:flex;gap:6px;margin-left:auto;flex-shrink:0}.list-order button{width:40px;height:40px;display:grid;place-items:center;padding:8px;border:1px solid transparent;border-radius:6px;color:#8b9886}.list-order button[aria-pressed="true"]{color:var(--green);background:#eaf0e5;border-color:#dce5d6}.list-order button:hover{background:#edf1e8}.list-order-icon{display:block;width:24px;height:24px}@media(max-width:760px){#flag-filters{flex-basis:100%;max-width:none}}

@@ -17758,7 +17758,7 @@
       "title": "鳥第6題｜一句話中的修辭",
       "subject": "Chinese",
       "lane": 2,
-      "state": "ready",
+      "state": "integrated",
       "startedAt": "2026-10-29T11:35:40.845481+00:00",
       "jobId": "job-1a9b15de3b7242b3bd61a1688ac9a2fe",
       "readyAt": "2026-10-29T11:42:44.045851+00:00",
@@ -17769,7 +17769,22 @@
         "docs/comics/q-026-preview-validation.json",
         "docs/comics/q-026-timing.json",
         "docs/comics/q-026-question-mark-review.json"
-      ]
+      ],
+      "integrationStartedAt": "2026-10-29T12:15:02.152387+00:00",
+      "integrationMonotonicStartNs": 682076693454553,
+      "integrationTimingHost": "R5090",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "integratedAt": "2026-10-29T12:20:55.112447+00:00",
+      "integrationQueueSeconds": 1938.106536,
+      "integrationMonotonicEndNs": 682420109598501,
+      "integrationTimingEndHost": "R5090",
+      "integrationSeconds": 343.416143948,
+      "integrationTimingValid": true,
+      "integrationTimingMethod": "monotonic",
+      "integrationUTCLabelDifferenceSeconds": 352.96006,
+      "integrationUTCLabelsWentBackwards": false,
+      "integrationEventId": "integration-job-1a9b15de3b7242b3bd61a1688ac9a2fe",
+      "integrationSequence": 764
     },
     {
       "id": "q-829",
@@ -17904,7 +17919,7 @@
       "title": "英文第34題｜從網頁內容判讀巧克力展活動連結",
       "subject": "English",
       "lane": 3,
-      "state": "ready",
+      "state": "integrated",
       "startedAt": "2026-10-29T11:56:10.365075+00:00",
       "jobId": "job-5ab61aaa33544efa9145b77910c980db",
       "readyAt": "2026-10-29T12:02:46.376838+00:00",
@@ -17914,16 +17929,49 @@
         "docs/comics/q-833.json",
         "docs/comics/q-833-preview-validation.json",
         "docs/comics/q-833-generation.json"
-      ]
+      ],
+      "integrationStartedAt": "2026-10-29T12:07:18.572511+00:00",
+      "integrationMonotonicStartNs": 681631967462602,
+      "integrationTimingHost": "R5090",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "integratedAt": "2026-10-29T12:11:41.948376+00:00",
+      "integrationQueueSeconds": 272.195673,
+      "integrationMonotonicEndNs": 681882594920910,
+      "integrationTimingEndHost": "R5090",
+      "integrationSeconds": 250.627458308,
+      "integrationTimingValid": true,
+      "integrationTimingMethod": "monotonic",
+      "integrationUTCLabelDifferenceSeconds": 263.375865,
+      "integrationUTCLabelsWentBackwards": false,
+      "integrationEventId": "integration-job-5ab61aaa33544efa9145b77910c980db",
+      "integrationSequence": 763
     },
     {
       "id": "q-027",
       "title": "秋天的況味第4題｜季節雅稱",
       "subject": "Chinese",
       "lane": 3,
-      "state": "claimed",
+      "state": "blocked",
       "startedAt": "2026-10-29T12:02:46.422697+00:00",
-      "jobId": "job-3236eaf028ef4f5aa22a91fbd255b9b4"
+      "jobId": "job-3236eaf028ef4f5aa22a91fbd255b9b4",
+      "readyAt": "2026-10-29T12:17:37.136027+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "A初秋對孟秋不變，原引用句蕭瑟前省漏兩字，回取高解析原字待核",
+      "evidence": [
+        "docs/comics/q-027.json",
+        "docs/comics/q-027-preview-validation.json",
+        "docs/comics/q-027-original-ocr-review.json",
+        "docs/comics/q-027-original-retry.json"
+      ]
+    },
+    {
+      "id": "q-001",
+      "title": "張釋之：依法斷案與人物判讀",
+      "subject": "Chinese",
+      "lane": 3,
+      "state": "claimed",
+      "startedAt": "2026-10-29T12:17:37.179134+00:00",
+      "jobId": "job-d38a5ef734c24f5ba83638603f9362de"
     }
   ],
   "retryHistory": [
@@ -17976,5 +18024,5 @@
   "pausedAt": "2026-10-29T00:06:50.640860+00:00",
   "resumedAt": "2026-10-29T00:29:03.726405+00:00",
   "resumeReason": "使用者要求現在繼續插畫製作，並維持WebP／共用資產減量方式。",
-  "nextIntegrationSequence": 762
+  "nextIntegrationSequence": 764
 }

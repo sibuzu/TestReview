@@ -44,6 +44,22 @@ const root=path.resolve(__dirname,'../..'),site=path.join(root,'site/dist'),out=
   assert.equal(await page.locator('[data-flag-count="3"]').textContent(),String(ids.length));assert.equal(values.has('v1/favorite/q-271'),false);assert.equal(values.has('v1/answered/q-298'),false);
   await page.locator('[data-nav="all"] .nav-symbol').click();assert.equal(await page.locator('#page-title').textContent(),'全部錯題');
   const dates=await page.locator('.card-date').allTextContents();assert.deepEqual(dates,[...dates].sort().reverse());
+  assert.equal(await page.locator('#grid-view,#list-view,.view-switch').count(),0,'fixed list view');
+  const questionIds=()=>page.locator('[data-open]').evaluateAll(nodes=>nodes.map(n=>n.dataset.open));
+  const byDate=await questionIds();
+  await page.locator('#shuffle-order').click();
+  assert.equal(await page.locator('#shuffle-order').getAttribute('aria-pressed'),'true');
+  const shuffled=await questionIds();assert.deepEqual([...shuffled].sort(),[...byDate].sort());
+  await page.locator('[data-flag-filter="5"]').uncheck();await page.locator('[data-flag-filter="5"]').check();
+  assert.deepEqual(await questionIds(),shuffled,'filter redraw does not reshuffle');
+  const first=shuffled[0],currentSubject=dataset.questions.find(q=>q.id===first).subject;
+  await page.locator('[data-open="'+first+'"]').click();
+  assert.deepEqual(await page.locator('[data-question-nav]').evaluateAll(nodes=>nodes.map(n=>n.dataset.questionNav)),shuffled.filter(id=>dataset.questions.find(q=>q.id===id).subject===currentSubject),'sidebar follows the shuffled list');
+  await page.goBack();await page.waitForSelector('#list-page:not([hidden])');
+  assert.deepEqual(await questionIds(),shuffled,'return from question preserves shuffle');
+  await page.locator('#date-order').click();assert.equal(await page.locator('#date-order').getAttribute('aria-pressed'),'true');
+  assert.deepEqual(await questionIds(),byDate,'calendar restores newest first');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'sort toolbar fits');
   await page.screenshot({path:path.join(out,`list-${width}.png`),fullPage:true});
   await page.locator('[data-open="q-271"]').click();await page.locator('#answer-toggle').click();await page.waitForSelector('#answer-panel:not([hidden])');
   assert.equal(await page.getByText('開啟本題單頁閱讀版').count(),0);
@@ -78,7 +94,7 @@ const root=path.resolve(__dirname,'../..'),site=path.join(root,'site/dist'),out=
   const shape=await page.locator('.flag-options').first().evaluate(el=>[...el.children].map(n=>{const r=n.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};}));assert.ok(shape.every(n=>n.y===shape[0].y),'five icons in one row');
   if(width<=760){const title=await page.locator('#detail h1').boundingBox(),actions=await page.locator('.detail-actions').boundingBox();assert.ok(title.y>=actions.y+actions.height,'mobile title clears the five FLAG controls');}
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);assert.equal(overflow,false);assert.deepEqual(errors,[]);
-  await page.screenshot({path:path.join(out,`detail-${width}.png`),fullPage:true});results.push({width,passed:true,negativeProgressVerified:true,accountIsolationVerified:true,sharedDoubtsVerified:true,overflow,shape});await context.close();
+  await page.screenshot({path:path.join(out,`detail-${width}.png`),fullPage:true});results.push({width,passed:true,fixedListVerified:true,shuffleAndReturnVerified:true,negativeProgressVerified:true,accountIsolationVerified:true,sharedDoubtsVerified:true,overflow,shape});await context.close();
  }
  fs.writeFileSync(path.join(root,'docs/imports/flag-account-ui-validation-2026-10-29.json'),JSON.stringify({checkedAt:new Date().toISOString(),mode:'isolated static fixtures with mocked cloud/session handlers; no real cloud calls',results,screenshots:out},null,2)+'\n');console.log('PASS',results.length,'viewport flows');
  }finally{await browser.close();}

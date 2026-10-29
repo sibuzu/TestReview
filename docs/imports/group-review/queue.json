@@ -1,0 +1,1839 @@
+{
+  "schemaVersion": 1,
+  "inventory": "docs/imports/group-review/inventory-v1.json",
+  "inventorySHA256": "7174507d8126dd518273488c6756efe55cad56384e13028aac0b7d922d64460c",
+  "baseline": {
+    "dataUpdatedAt": "2026-10-29T11:52:21+00:00",
+    "revision": "2026-10-27.bc4a4191514e",
+    "questionIdsFingerprint": "861299d8d944f9a9ecdd75493de0a30d84d546f79da66792d0bcb07defaea87f"
+  },
+  "baselineQuestionIds": [
+    "q-001",
+    "q-002",
+    "q-003",
+    "q-004",
+    "q-005",
+    "q-006",
+    "q-007",
+    "q-008",
+    "q-009",
+    "q-011",
+    "q-012",
+    "q-013",
+    "q-014",
+    "q-015",
+    "q-016",
+    "q-019",
+    "q-020",
+    "q-021",
+    "q-022",
+    "q-023",
+    "q-024",
+    "q-025",
+    "q-026",
+    "q-027",
+    "q-029",
+    "q-030",
+    "q-031",
+    "q-032",
+    "q-033",
+    "q-034",
+    "q-035",
+    "q-036",
+    "q-037",
+    "q-038",
+    "q-039",
+    "q-040",
+    "q-041",
+    "q-042",
+    "q-043",
+    "q-044",
+    "q-045",
+    "q-046",
+    "q-047",
+    "q-048",
+    "q-049",
+    "q-050",
+    "q-051",
+    "q-052",
+    "q-053",
+    "q-054",
+    "q-055",
+    "q-056",
+    "q-057",
+    "q-058",
+    "q-059",
+    "q-060",
+    "q-061",
+    "q-062",
+    "q-063",
+    "q-064",
+    "q-065",
+    "q-066",
+    "q-067",
+    "q-068",
+    "q-069",
+    "q-070",
+    "q-071",
+    "q-072",
+    "q-073",
+    "q-074",
+    "q-075",
+    "q-076",
+    "q-077",
+    "q-078",
+    "q-079",
+    "q-080",
+    "q-081",
+    "q-082",
+    "q-083",
+    "q-084",
+    "q-085",
+    "q-086",
+    "q-087",
+    "q-088",
+    "q-089",
+    "q-090",
+    "q-091",
+    "q-092",
+    "q-093",
+    "q-094",
+    "q-095",
+    "q-096",
+    "q-097",
+    "q-098",
+    "q-099",
+    "q-100",
+    "q-101",
+    "q-102",
+    "q-103",
+    "q-104",
+    "q-105",
+    "q-106",
+    "q-107",
+    "q-108",
+    "q-109",
+    "q-110",
+    "q-111",
+    "q-112",
+    "q-113",
+    "q-114",
+    "q-115",
+    "q-116",
+    "q-117",
+    "q-118",
+    "q-119",
+    "q-120",
+    "q-121",
+    "q-122",
+    "q-123",
+    "q-124",
+    "q-125",
+    "q-126",
+    "q-127",
+    "q-128",
+    "q-129",
+    "q-130",
+    "q-131",
+    "q-132",
+    "q-133",
+    "q-134",
+    "q-135",
+    "q-136",
+    "q-137",
+    "q-138",
+    "q-139",
+    "q-140",
+    "q-141",
+    "q-142",
+    "q-143",
+    "q-144",
+    "q-145",
+    "q-146",
+    "q-147",
+    "q-148",
+    "q-149",
+    "q-150",
+    "q-151",
+    "q-152",
+    "q-153",
+    "q-154",
+    "q-155",
+    "q-156",
+    "q-157",
+    "q-158",
+    "q-159",
+    "q-160",
+    "q-161",
+    "q-162",
+    "q-163",
+    "q-164",
+    "q-165",
+    "q-166",
+    "q-167",
+    "q-168",
+    "q-169",
+    "q-170",
+    "q-171",
+    "q-172",
+    "q-173",
+    "q-174",
+    "q-175",
+    "q-176",
+    "q-177",
+    "q-178",
+    "q-179",
+    "q-180",
+    "q-182",
+    "q-183",
+    "q-184",
+    "q-185",
+    "q-186",
+    "q-187",
+    "q-188",
+    "q-189",
+    "q-190",
+    "q-191",
+    "q-192",
+    "q-193",
+    "q-194",
+    "q-195",
+    "q-196",
+    "q-197",
+    "q-198",
+    "q-199",
+    "q-200",
+    "q-201",
+    "q-202",
+    "q-203",
+    "q-204",
+    "q-205",
+    "q-206",
+    "q-207",
+    "q-208",
+    "q-209",
+    "q-210",
+    "q-211",
+    "q-212",
+    "q-213",
+    "q-214",
+    "q-215",
+    "q-216",
+    "q-218",
+    "q-219",
+    "q-220",
+    "q-221",
+    "q-222",
+    "q-223",
+    "q-224",
+    "q-225",
+    "q-226",
+    "q-227",
+    "q-228",
+    "q-229",
+    "q-230",
+    "q-231",
+    "q-232",
+    "q-233",
+    "q-234",
+    "q-235",
+    "q-236",
+    "q-237",
+    "q-238",
+    "q-239",
+    "q-240",
+    "q-241",
+    "q-242",
+    "q-243",
+    "q-244",
+    "q-245",
+    "q-246",
+    "q-247",
+    "q-248",
+    "q-250",
+    "q-251",
+    "q-252",
+    "q-253",
+    "q-254",
+    "q-255",
+    "q-256",
+    "q-257",
+    "q-258",
+    "q-259",
+    "q-260",
+    "q-261",
+    "q-262",
+    "q-263",
+    "q-264",
+    "q-265",
+    "q-266",
+    "q-267",
+    "q-268",
+    "q-269",
+    "q-270",
+    "q-271",
+    "q-272",
+    "q-273",
+    "q-274",
+    "q-275",
+    "q-276",
+    "q-277",
+    "q-278",
+    "q-279",
+    "q-280",
+    "q-281",
+    "q-282",
+    "q-283",
+    "q-284",
+    "q-285",
+    "q-286",
+    "q-287",
+    "q-288",
+    "q-289",
+    "q-290",
+    "q-291",
+    "q-292",
+    "q-293",
+    "q-294",
+    "q-295",
+    "q-296",
+    "q-297",
+    "q-298",
+    "q-299",
+    "q-300",
+    "q-301",
+    "q-302",
+    "q-303",
+    "q-304",
+    "q-305",
+    "q-306",
+    "q-307",
+    "q-308",
+    "q-309",
+    "q-310",
+    "q-311",
+    "q-312",
+    "q-313",
+    "q-314",
+    "q-315",
+    "q-316",
+    "q-317",
+    "q-318",
+    "q-319",
+    "q-320",
+    "q-321",
+    "q-322",
+    "q-323",
+    "q-324",
+    "q-325",
+    "q-326",
+    "q-327",
+    "q-328",
+    "q-329",
+    "q-330",
+    "q-331",
+    "q-332",
+    "q-333",
+    "q-334",
+    "q-335",
+    "q-336",
+    "q-337",
+    "q-338",
+    "q-339",
+    "q-340",
+    "q-341",
+    "q-342",
+    "q-343",
+    "q-344",
+    "q-345",
+    "q-346",
+    "q-347",
+    "q-348",
+    "q-349",
+    "q-350",
+    "q-351",
+    "q-352",
+    "q-353",
+    "q-354",
+    "q-355",
+    "q-356",
+    "q-357",
+    "q-358",
+    "q-359",
+    "q-360",
+    "q-361",
+    "q-362",
+    "q-363",
+    "q-364",
+    "q-365",
+    "q-366",
+    "q-367",
+    "q-368",
+    "q-369",
+    "q-370",
+    "q-371",
+    "q-372",
+    "q-373",
+    "q-374",
+    "q-375",
+    "q-376",
+    "q-377",
+    "q-378",
+    "q-379",
+    "q-380",
+    "q-381",
+    "q-382",
+    "q-383",
+    "q-384",
+    "q-385",
+    "q-386",
+    "q-387",
+    "q-388",
+    "q-389",
+    "q-390",
+    "q-391",
+    "q-392",
+    "q-393",
+    "q-394",
+    "q-395",
+    "q-396",
+    "q-397",
+    "q-398",
+    "q-399",
+    "q-400",
+    "q-401",
+    "q-402",
+    "q-403",
+    "q-404",
+    "q-405",
+    "q-406",
+    "q-407",
+    "q-408",
+    "q-409",
+    "q-410",
+    "q-411",
+    "q-412",
+    "q-413",
+    "q-414",
+    "q-415",
+    "q-416",
+    "q-417",
+    "q-418",
+    "q-419",
+    "q-420",
+    "q-421",
+    "q-422",
+    "q-423",
+    "q-424",
+    "q-425",
+    "q-426",
+    "q-427",
+    "q-428",
+    "q-429",
+    "q-430",
+    "q-431",
+    "q-432",
+    "q-433",
+    "q-434",
+    "q-435",
+    "q-436",
+    "q-437",
+    "q-438",
+    "q-439",
+    "q-440",
+    "q-441",
+    "q-442",
+    "q-443",
+    "q-444",
+    "q-445",
+    "q-446",
+    "q-447",
+    "q-448",
+    "q-449",
+    "q-450",
+    "q-451",
+    "q-452",
+    "q-453",
+    "q-454",
+    "q-455",
+    "q-456",
+    "q-457",
+    "q-458",
+    "q-459",
+    "q-460",
+    "q-461",
+    "q-462",
+    "q-463",
+    "q-464",
+    "q-465",
+    "q-466",
+    "q-467",
+    "q-468",
+    "q-469",
+    "q-470",
+    "q-471",
+    "q-472",
+    "q-473",
+    "q-474",
+    "q-475",
+    "q-476",
+    "q-477",
+    "q-478",
+    "q-479",
+    "q-480",
+    "q-481",
+    "q-482",
+    "q-483",
+    "q-484",
+    "q-485",
+    "q-486",
+    "q-487",
+    "q-488",
+    "q-489",
+    "q-490",
+    "q-491",
+    "q-492",
+    "q-493",
+    "q-494",
+    "q-495",
+    "q-496",
+    "q-497",
+    "q-498",
+    "q-499",
+    "q-500",
+    "q-501",
+    "q-502",
+    "q-503",
+    "q-504",
+    "q-505",
+    "q-506",
+    "q-507",
+    "q-508",
+    "q-509",
+    "q-510",
+    "q-511",
+    "q-512",
+    "q-513",
+    "q-514",
+    "q-515",
+    "q-516",
+    "q-517",
+    "q-518",
+    "q-519",
+    "q-520",
+    "q-521",
+    "q-522",
+    "q-523",
+    "q-524",
+    "q-525",
+    "q-526",
+    "q-527",
+    "q-528",
+    "q-529",
+    "q-530",
+    "q-531",
+    "q-532",
+    "q-533",
+    "q-534",
+    "q-535",
+    "q-536",
+    "q-537",
+    "q-538",
+    "q-539",
+    "q-540",
+    "q-541",
+    "q-542",
+    "q-543",
+    "q-544",
+    "q-545",
+    "q-546",
+    "q-548",
+    "q-549",
+    "q-550",
+    "q-551",
+    "q-552",
+    "q-553",
+    "q-554",
+    "q-555",
+    "q-556",
+    "q-557",
+    "q-558",
+    "q-559",
+    "q-560",
+    "q-561",
+    "q-562",
+    "q-563",
+    "q-564",
+    "q-565",
+    "q-566",
+    "q-567",
+    "q-568",
+    "q-569",
+    "q-570",
+    "q-571",
+    "q-572",
+    "q-573",
+    "q-574",
+    "q-575",
+    "q-576",
+    "q-577",
+    "q-578",
+    "q-579",
+    "q-580",
+    "q-581",
+    "q-582",
+    "q-583",
+    "q-584",
+    "q-585",
+    "q-586",
+    "q-587",
+    "q-588",
+    "q-589",
+    "q-590",
+    "q-591",
+    "q-592",
+    "q-593",
+    "q-594",
+    "q-595",
+    "q-596",
+    "q-597",
+    "q-598",
+    "q-599",
+    "q-601",
+    "q-602",
+    "q-603",
+    "q-604",
+    "q-605",
+    "q-606",
+    "q-607",
+    "q-608",
+    "q-609",
+    "q-610",
+    "q-611",
+    "q-612",
+    "q-613",
+    "q-614",
+    "q-615",
+    "q-616",
+    "q-617",
+    "q-618",
+    "q-619",
+    "q-620",
+    "q-621",
+    "q-622",
+    "q-623",
+    "q-624",
+    "q-625",
+    "q-626",
+    "q-627",
+    "q-628",
+    "q-629",
+    "q-630",
+    "q-631",
+    "q-632",
+    "q-633",
+    "q-634",
+    "q-635",
+    "q-636",
+    "q-637",
+    "q-638",
+    "q-639",
+    "q-640",
+    "q-641",
+    "q-642",
+    "q-643",
+    "q-644",
+    "q-645",
+    "q-646",
+    "q-647",
+    "q-648",
+    "q-649",
+    "q-650",
+    "q-651",
+    "q-652",
+    "q-653",
+    "q-654",
+    "q-655",
+    "q-656",
+    "q-657",
+    "q-658",
+    "q-659",
+    "q-660",
+    "q-661",
+    "q-662",
+    "q-663",
+    "q-664",
+    "q-665",
+    "q-666",
+    "q-667",
+    "q-668",
+    "q-669",
+    "q-670",
+    "q-671",
+    "q-672",
+    "q-673",
+    "q-674",
+    "q-675",
+    "q-676",
+    "q-677",
+    "q-678",
+    "q-679",
+    "q-680",
+    "q-681",
+    "q-682",
+    "q-683",
+    "q-684",
+    "q-685",
+    "q-686",
+    "q-687",
+    "q-688",
+    "q-689",
+    "q-690",
+    "q-691",
+    "q-693",
+    "q-694",
+    "q-695",
+    "q-696",
+    "q-697",
+    "q-698",
+    "q-699",
+    "q-700",
+    "q-701",
+    "q-702",
+    "q-703",
+    "q-704",
+    "q-705",
+    "q-706",
+    "q-707",
+    "q-708",
+    "q-709",
+    "q-710",
+    "q-711",
+    "q-712",
+    "q-713",
+    "q-714",
+    "q-715",
+    "q-716",
+    "q-717",
+    "q-718",
+    "q-719",
+    "q-720",
+    "q-721",
+    "q-722",
+    "q-723",
+    "q-724",
+    "q-725",
+    "q-726",
+    "q-727",
+    "q-728",
+    "q-729",
+    "q-730",
+    "q-731",
+    "q-732",
+    "q-733",
+    "q-734",
+    "q-735",
+    "q-736",
+    "q-737",
+    "q-738",
+    "q-739",
+    "q-740",
+    "q-741",
+    "q-742",
+    "q-743",
+    "q-744",
+    "q-745",
+    "q-746",
+    "q-747",
+    "q-748",
+    "q-749",
+    "q-750",
+    "q-751",
+    "q-752",
+    "q-753",
+    "q-754",
+    "q-755",
+    "q-756",
+    "q-757",
+    "q-758",
+    "q-759",
+    "q-760",
+    "q-761",
+    "q-762",
+    "q-763",
+    "q-764",
+    "q-765",
+    "q-766",
+    "q-767",
+    "q-768",
+    "q-769",
+    "q-770",
+    "q-771",
+    "q-772",
+    "q-773",
+    "q-774",
+    "q-775",
+    "q-776",
+    "q-777",
+    "q-778",
+    "q-779",
+    "q-780",
+    "q-781",
+    "q-782",
+    "q-783",
+    "q-784",
+    "q-785",
+    "q-786",
+    "q-787",
+    "q-788",
+    "q-789",
+    "q-790",
+    "q-791",
+    "q-792",
+    "q-798",
+    "q-806",
+    "q-807",
+    "q-793",
+    "q-799",
+    "q-800",
+    "q-808",
+    "q-794",
+    "q-801",
+    "q-795",
+    "q-804",
+    "q-802",
+    "q-803",
+    "q-805",
+    "q-796",
+    "q-797",
+    "q-809",
+    "q-810",
+    "q-811",
+    "q-812",
+    "q-813",
+    "q-814",
+    "q-815",
+    "q-816",
+    "q-817",
+    "q-818",
+    "q-819",
+    "q-820",
+    "q-822",
+    "q-823",
+    "q-824",
+    "q-825",
+    "q-826",
+    "q-827",
+    "q-828",
+    "q-829",
+    "q-830",
+    "q-831",
+    "q-832",
+    "q-833",
+    "q-834",
+    "q-835",
+    "q-836",
+    "q-837",
+    "q-838",
+    "q-839",
+    "q-840",
+    "q-841",
+    "q-842",
+    "q-843",
+    "q-844",
+    "q-845",
+    "q-846",
+    "q-847",
+    "q-848",
+    "q-849"
+  ],
+  "createdAt": "2026-10-29T12:09:45.898372+00:00",
+  "candidates": [
+    {
+      "id": "candidate-q-029",
+      "questionIds": [
+        "q-029",
+        "q-031"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "a552bc8290ff77ce2527337a81b92db8e3af2ef2c9c0b3f77ec4fb7647c1c6de"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.904923+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-029.json",
+      "reportSHA256": "6bef0253fcbf28e15a8b3ef0a572df2610232753ce37140a5cc3c3933cfa7814"
+    },
+    {
+      "id": "candidate-q-063",
+      "questionIds": [
+        "q-063",
+        "q-427"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.910970+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-063.json",
+      "reportSHA256": "dc4405cc4bf7a66bc889b93bf1e734e5c5c6724f809c44a1e66780961b6965fa"
+    },
+    {
+      "id": "candidate-q-070",
+      "questionIds": [
+        "q-070",
+        "q-455",
+        "q-456"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "cb2d21e9101284f9096161237f8a57a626e3de374259a39b3fd9f072eb165d25"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.917343+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-070.json",
+      "reportSHA256": "937aea9ca4bbed0d119928cdfc100fdda045b159142edc649a870c771cba3ecc"
+    },
+    {
+      "id": "candidate-q-072",
+      "questionIds": [
+        "q-072",
+        "q-073"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "bc116ce30f877f5b844502e3d483e230be149d7bbe982cdcc66109d682f4537d"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.925904+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-072.json",
+      "reportSHA256": "b19b76364e0de504cf25642a2ae4ba3004e3abbfe39264f859fb6ff6c78f939c"
+    },
+    {
+      "id": "candidate-q-078",
+      "questionIds": [
+        "q-078",
+        "q-079"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "ccaf73dd0db11309b1d41e1a8406f98ae367243881d83da17db18918eceef776"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.932164+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-078.json",
+      "reportSHA256": "d38d7144c5590262ef8c30a6ed89cff75b9d5b8f805916b3243d71b72c4df086"
+    },
+    {
+      "id": "candidate-q-080",
+      "questionIds": [
+        "q-080",
+        "q-081"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "c6df0faa291d5321780fc081088be55ebfb89814d0ecff76ef31f65cbcfa0093"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.938988+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-080.json",
+      "reportSHA256": "377f8029ac3a4fa348887341895328e256941a1c0324278a7bad0e881d771ca4"
+    },
+    {
+      "id": "candidate-q-089",
+      "questionIds": [
+        "q-089",
+        "q-090",
+        "q-091"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [],
+      "seedQuestionIds": [
+        "q-089",
+        "q-090"
+      ],
+      "discoveredQuestionIds": [
+        "q-091"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.945181+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-089.json",
+      "reportSHA256": "724f75cda342a92b8c5455305085024fb95b6ec37c00aa0c71c26ddaea11a4fc"
+    },
+    {
+      "id": "candidate-q-093",
+      "questionIds": [
+        "q-093",
+        "q-094"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "825b63f26f9974becee171ecac7048b9fc9ace054fedaaf3bbb88891eb57b871"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.950181+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-093.json",
+      "reportSHA256": "c174995107f418213d159fbd11a0b6aade510a7792061c3d0a69481ca695e430"
+    },
+    {
+      "id": "candidate-q-097",
+      "questionIds": [
+        "q-097",
+        "q-098",
+        "q-099"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "021569c3206ee7ee9cd439c72e5d9957a853064e05f14518a1d7881da129c936"
+      ],
+      "owner": "/root/comic_lane_2",
+      "reviewedAt": "2026-10-29T12:09:45.959794+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-097.json",
+      "reportSHA256": "c77bef4225efc6177ad505bce0d84d5688249b0807c841ed20365a8d6638949d"
+    },
+    {
+      "id": "candidate-q-118",
+      "questionIds": [
+        "q-118",
+        "q-119"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "9ea88655834a40a156531ca4de198236714080551208ff6f1857dee8f8abd3bf"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:10:59.912625+00:00",
+      "reviewedAt": "2026-10-29T12:11:46.121402+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-118.json",
+      "reportSHA256": "1a30e91a186809c52b1514e644170e5f4e86ec6aee2926dfc023cee69be276b6"
+    },
+    {
+      "id": "candidate-q-124",
+      "questionIds": [
+        "q-124",
+        "q-465"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:11:46.148103+00:00",
+      "reviewedAt": "2026-10-29T12:12:50.974814+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-124.json",
+      "reportSHA256": "44ae29462adbe367f22efac66f790a38240c2409c10983f4262e0557b4f3d2e5"
+    },
+    {
+      "id": "candidate-q-130",
+      "questionIds": [
+        "q-130",
+        "q-131"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "94500e8353fa9b4eefd7dfeb3f497ad6c6500c8a9c93993750d3e882e2059712"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:12:51.004010+00:00",
+      "reviewedAt": "2026-10-29T12:14:04.116362+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-130.json",
+      "reportSHA256": "d91233370b116859671e04adfb9eafa074a518d6f5961b7437d1a6ab23255eaf"
+    },
+    {
+      "id": "candidate-q-154",
+      "questionIds": [
+        "q-154",
+        "q-476"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "8b587e6efe3370fe5558d2622a042397378273ebab35d0a8434587a00634775a"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:14:04.143159+00:00",
+      "reviewedAt": "2026-10-29T12:16:33.583984+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-154.json",
+      "reportSHA256": "88fe14d359e2fd152760e8ab61f005639140d29a252890fca0b864980b54dfd3"
+    },
+    {
+      "id": "candidate-q-247",
+      "questionIds": [
+        "q-247",
+        "q-248"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "5301fcbecc50ab218b7db012d5fcedfdedc1dab94e60d8dc836007a0ca36deef"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:16:33.611572+00:00",
+      "reviewedAt": "2026-10-29T12:17:51.366688+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-247.json",
+      "reportSHA256": "1189bc0a9a782d063aa8d857e91dfcc96780220ccd4db0081dbc168b2c8b3754"
+    },
+    {
+      "id": "candidate-q-261",
+      "questionIds": [
+        "q-261",
+        "q-262"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "c06040273928d6dfdde83c006ca3e159a723615faaa103eb65a3493f3fa92db4"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:17:51.389798+00:00",
+      "reviewedAt": "2026-10-29T12:19:22.767790+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-261.json",
+      "reportSHA256": "11daf3204d86ee611c449787bf03864fa998317f63f31cc6bf4ae0ac77851b03"
+    },
+    {
+      "id": "candidate-q-288",
+      "questionIds": [
+        "q-288",
+        "q-289"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "5c4bd5cf59196d9519ee23204de47bc81b86f6a2942713773c3bd9937eab43bb"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:19:22.794169+00:00",
+      "reviewedAt": "2026-10-29T12:20:34.216673+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-288.json",
+      "reportSHA256": "10a2a8599ef246877eeced46d2dbe929c4550a991bde9484aae8e08c35439fa9"
+    },
+    {
+      "id": "candidate-q-341",
+      "questionIds": [
+        "q-341",
+        "q-342"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "25048afbfcaeda896e8dd77ab9d3444a8f8cb89d24ad703e359c5cfc6536b49b"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:20:34.249459+00:00",
+      "reviewedAt": "2026-10-29T12:22:27.121097+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-341.json",
+      "reportSHA256": "6ccc480fabe11de025e676ed0cc95cfc9b594c59978077e35c7d88007865aaac"
+    },
+    {
+      "id": "candidate-q-352",
+      "questionIds": [
+        "q-352",
+        "q-353",
+        "q-354"
+      ],
+      "kind": "shared_material",
+      "state": "confirmed",
+      "photoHints": [
+        "7143f9d8b0bbeeb5240a2f421fcbf4e27de694f7a8cf714a927061aac3933f2f"
+      ],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:22:27.197227+00:00",
+      "reviewedAt": "2026-10-29T12:23:48.501469+00:00",
+      "report": "docs/imports/group-review/reviews/candidate-q-352.json",
+      "reportSHA256": "9f7d868060b887917c1903313a3571bf3c2c7631466449c531f2d65d5dec4b4c"
+    },
+    {
+      "id": "candidate-q-366",
+      "questionIds": [
+        "q-366",
+        "q-367"
+      ],
+      "kind": "shared_material",
+      "state": "reviewing",
+      "photoHints": [],
+      "owner": "/root/comic_lane_2",
+      "startedAt": "2026-10-29T12:23:48.532386+00:00"
+    },
+    {
+      "id": "candidate-q-379",
+      "questionIds": [
+        "q-379",
+        "q-380"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "82d7a637b7c396c813f1a9d9e9ddc09a475db0f564d51b46768a2dd48d87635f"
+      ]
+    },
+    {
+      "id": "candidate-q-395",
+      "questionIds": [
+        "q-395",
+        "q-396",
+        "q-397"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "5ccda4cd218cfc1cc2d596aa7f20f52c1519eaae561f6a5c2fbfc383cbeab32f"
+      ]
+    },
+    {
+      "id": "candidate-q-432",
+      "questionIds": [
+        "q-432",
+        "q-433"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "b099041c08331a57876be1c7733f627302f904fc271f63b7fef72e99cf7de4cd"
+      ]
+    },
+    {
+      "id": "candidate-q-439",
+      "questionIds": [
+        "q-439",
+        "q-440"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-457",
+      "questionIds": [
+        "q-457",
+        "q-458",
+        "q-459"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "dc93361b18b8fa94ad51a4c137db0e28a88fea11ef5e247b51294ea9fb58539e"
+      ]
+    },
+    {
+      "id": "candidate-q-466",
+      "questionIds": [
+        "q-466",
+        "q-467"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-483",
+      "questionIds": [
+        "q-483",
+        "q-484",
+        "q-485"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "e4fa4e2f986e8a86c36db488a4acf262d868a850b8c2bf0255a56a1739f1ad76"
+      ]
+    },
+    {
+      "id": "candidate-q-486",
+      "questionIds": [
+        "q-486",
+        "q-487"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "95fe277b5e861e788cda736bfe2b3d24342b4c1308e20d4a995d9ec6e49877df"
+      ]
+    },
+    {
+      "id": "candidate-q-488",
+      "questionIds": [
+        "q-488",
+        "q-489"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "ef4899163d1e353580f7a392a1af7b10cd1ed1a262cd0a853e4ee3bd6ad0a214"
+      ]
+    },
+    {
+      "id": "candidate-q-495",
+      "questionIds": [
+        "q-495",
+        "q-496"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "623fb37cd3c922aa2b2bdd589101cf65b72705c0bfa8355b1fb904958ef546ae"
+      ]
+    },
+    {
+      "id": "candidate-q-502",
+      "questionIds": [
+        "q-502",
+        "q-503"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "65da2962564d65b2e1b3a0ad88d88e7d2247f43eb0cb6f4562d7138c66a275c6"
+      ]
+    },
+    {
+      "id": "candidate-q-506",
+      "questionIds": [
+        "q-506",
+        "q-507"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "2a2b46768de50ee4e3b10cc9db92e79b51598cab0e1f7f2c18ba96b4b49ddc54",
+        "7383ac369b9c015bd6dae3c6d8a7c0d4e1853dfd5cddc15fa294bb934feef085"
+      ]
+    },
+    {
+      "id": "candidate-q-519",
+      "questionIds": [
+        "q-519",
+        "q-520"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "b326d9b6fc918f095b268ef5cf16ae7119c4f55fa3f8ea05c9cf1fd2b81d7cb9"
+      ]
+    },
+    {
+      "id": "candidate-q-521",
+      "questionIds": [
+        "q-521",
+        "q-522"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "5190c71acbbbfab31c0f88978a45e5bd93d6211f9e2f5d0570b2ccdb6679dfb8"
+      ]
+    },
+    {
+      "id": "candidate-q-525",
+      "questionIds": [
+        "q-525",
+        "q-526",
+        "q-527"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "7de9bf280779e7a9409d1d21bc115a3d00975bd2e1d49ea834ad414dfc31e326",
+        "ec2f246c4a45651ef3847a61b94b1d2de28c2a1a5552b1ef3ce8aec6c8ea6f2b"
+      ]
+    },
+    {
+      "id": "candidate-q-530",
+      "questionIds": [
+        "q-530",
+        "q-531",
+        "q-532"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "234824077ef0d4bfe39ee048fae2dbd480c6c6fa2c2ab4312c92648638385efd"
+      ]
+    },
+    {
+      "id": "candidate-q-533",
+      "questionIds": [
+        "q-533",
+        "q-534",
+        "q-535"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-537",
+      "questionIds": [
+        "q-537",
+        "q-538",
+        "q-539"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "4e5503d42463cdacea1ceb1a459e6fba3b9c305201705aaddd5908b5ad2ffa78"
+      ]
+    },
+    {
+      "id": "candidate-q-541",
+      "questionIds": [
+        "q-541",
+        "q-542"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "4549729fd53111b5fab0a47d94778abca00614118da7e9c1c57bc5ba1e87e7fb"
+      ]
+    },
+    {
+      "id": "candidate-q-581",
+      "questionIds": [
+        "q-581",
+        "q-582",
+        "q-583"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "91b866b4330889f877980172684ae42a764694660cf38a16faa194fb701bbeca"
+      ]
+    },
+    {
+      "id": "candidate-q-585",
+      "questionIds": [
+        "q-585",
+        "q-586",
+        "q-587"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "80bf5c43fe5b2263e2f7f7ac30f41adf0bf6174b8391eaa1dee84b7c0bcf9411"
+      ]
+    },
+    {
+      "id": "candidate-q-672",
+      "questionIds": [
+        "q-672",
+        "q-678"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-674",
+      "questionIds": [
+        "q-674",
+        "q-681",
+        "q-682",
+        "q-689"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-675",
+      "questionIds": [
+        "q-675",
+        "q-679",
+        "q-680"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-676",
+      "questionIds": [
+        "q-676",
+        "q-677",
+        "q-683",
+        "q-684",
+        "q-685",
+        "q-686",
+        "q-687",
+        "q-688"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "e6869645b3dc051acf8bad4d98e3f861715f0e989536420fbb84d80645a83bf2"
+      ]
+    },
+    {
+      "id": "candidate-q-766",
+      "questionIds": [
+        "q-766",
+        "q-767"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": []
+    },
+    {
+      "id": "candidate-q-799",
+      "questionIds": [
+        "q-799",
+        "q-800"
+      ],
+      "kind": "shared_material",
+      "state": "queued",
+      "photoHints": [
+        "a378f146c6c8bcaca6fac1dcb2e7111d88bbd6108be2a1c16f103d487389a32c"
+      ]
+    },
+    {
+      "id": "photo-10ae27f71762e0f3",
+      "questionIds": [
+        "q-089",
+        "q-090",
+        "q-091"
+      ],
+      "kind": "shared_original_only",
+      "state": "queued",
+      "photoHints": [
+        "10ae27f71762e0f36711bbce762d75c54d2f6f968882ac49db77ac9c62329886"
+      ]
+    },
+    {
+      "id": "photo-e5771b764c614a51",
+      "questionIds": [
+        "q-471",
+        "q-472",
+        "q-473",
+        "q-474",
+        "q-475"
+      ],
+      "kind": "shared_original_only",
+      "state": "queued",
+      "photoHints": [
+        "e5771b764c614a51fa26adabc227297d6db609cfe3fa3807a24ce7a7637870c0"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-q-029-q-031",
+      "questionIds": [
+        "q-029",
+        "q-031"
+      ],
+      "retainId": "q-029",
+      "subject": "Physics-Chemistry",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-029.json",
+      "reviewSHA256": "6bef0253fcbf28e15a8b3ef0a572df2610232753ce37140a5cc3c3933cfa7814",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.904910+00:00",
+      "sourceIds": [
+        "src-9"
+      ]
+    },
+    {
+      "id": "group-q-063-q-427",
+      "questionIds": [
+        "q-063",
+        "q-427"
+      ],
+      "retainId": "q-063",
+      "subject": "History",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-063.json",
+      "reviewSHA256": "dc4405cc4bf7a66bc889b93bf1e734e5c5c6724f809c44a1e66780961b6965fa",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.910958+00:00",
+      "sourceIds": [
+        "src-more-011"
+      ]
+    },
+    {
+      "id": "group-q-070-q-455-q-456",
+      "questionIds": [
+        "q-070",
+        "q-455",
+        "q-456"
+      ],
+      "retainId": "q-070",
+      "subject": "English",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-070.json",
+      "reviewSHA256": "937aea9ca4bbed0d119928cdfc100fdda045b159142edc649a870c771cba3ecc",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.917330+00:00",
+      "sourceIds": [
+        "src-more-016"
+      ]
+    },
+    {
+      "id": "group-q-072-q-073",
+      "questionIds": [
+        "q-072",
+        "q-073"
+      ],
+      "retainId": "q-072",
+      "subject": "English",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-072.json",
+      "reviewSHA256": "b19b76364e0de504cf25642a2ae4ba3004e3abbfe39264f859fb6ff6c78f939c",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.925884+00:00",
+      "sourceIds": [
+        "src-more-017"
+      ]
+    },
+    {
+      "id": "group-q-078-q-079",
+      "questionIds": [
+        "q-078",
+        "q-079"
+      ],
+      "retainId": "q-078",
+      "subject": "History",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-078.json",
+      "reviewSHA256": "d38d7144c5590262ef8c30a6ed89cff75b9d5b8f805916b3243d71b72c4df086",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.932147+00:00",
+      "sourceIds": [
+        "src-more-019"
+      ]
+    },
+    {
+      "id": "group-q-080-q-081",
+      "questionIds": [
+        "q-080",
+        "q-081"
+      ],
+      "retainId": "q-080",
+      "subject": "History",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-080.json",
+      "reviewSHA256": "377f8029ac3a4fa348887341895328e256941a1c0324278a7bad0e881d771ca4",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.938976+00:00",
+      "sourceIds": [
+        "src-more-019"
+      ]
+    },
+    {
+      "id": "group-q-089-q-090-q-091",
+      "questionIds": [
+        "q-089",
+        "q-090",
+        "q-091"
+      ],
+      "retainId": "q-089",
+      "subject": "Earth",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-089.json",
+      "reviewSHA256": "724f75cda342a92b8c5455305085024fb95b6ec37c00aa0c71c26ddaea11a4fc",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.945165+00:00",
+      "sourceIds": [
+        "src-more-021"
+      ]
+    },
+    {
+      "id": "group-q-093-q-094",
+      "questionIds": [
+        "q-093",
+        "q-094"
+      ],
+      "retainId": "q-093",
+      "subject": "History",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-093.json",
+      "reviewSHA256": "c174995107f418213d159fbd11a0b6aade510a7792061c3d0a69481ca695e430",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.950171+00:00",
+      "sourceIds": [
+        "src-more-022"
+      ]
+    },
+    {
+      "id": "group-q-097-q-098-q-099",
+      "questionIds": [
+        "q-097",
+        "q-098",
+        "q-099"
+      ],
+      "retainId": "q-097",
+      "subject": "Geography",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-097.json",
+      "reviewSHA256": "c77bef4225efc6177ad505bce0d84d5688249b0807c841ed20365a8d6638949d",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:09:45.959779+00:00",
+      "sourceIds": [
+        "src-more-023"
+      ]
+    },
+    {
+      "id": "group-q-118-q-119",
+      "questionIds": [
+        "q-118",
+        "q-119"
+      ],
+      "retainId": "q-118",
+      "subject": "English",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-118.json",
+      "reviewSHA256": "1a30e91a186809c52b1514e644170e5f4e86ec6aee2926dfc023cee69be276b6",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:11:46.121390+00:00",
+      "sourceIds": [
+        "src-more-028"
+      ]
+    },
+    {
+      "id": "group-q-124-q-465",
+      "questionIds": [
+        "q-124",
+        "q-465"
+      ],
+      "retainId": "q-124",
+      "subject": "Physics-Chemistry",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-124.json",
+      "reviewSHA256": "44ae29462adbe367f22efac66f790a38240c2409c10983f4262e0557b4f3d2e5",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:12:50.974801+00:00",
+      "sourceIds": [
+        "src-more-029"
+      ]
+    },
+    {
+      "id": "group-q-130-q-131",
+      "questionIds": [
+        "q-130",
+        "q-131"
+      ],
+      "retainId": "q-130",
+      "subject": "English",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-130.json",
+      "reviewSHA256": "d91233370b116859671e04adfb9eafa074a518d6f5961b7437d1a6ab23255eaf",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:14:04.116347+00:00",
+      "sourceIds": [
+        "src-more-030"
+      ]
+    },
+    {
+      "id": "group-q-154-q-476",
+      "questionIds": [
+        "q-154",
+        "q-476"
+      ],
+      "retainId": "q-154",
+      "subject": "Civics",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-154.json",
+      "reviewSHA256": "88fe14d359e2fd152760e8ab61f005639140d29a252890fca0b864980b54dfd3",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:16:33.583972+00:00",
+      "sourceIds": [
+        "src-more-036"
+      ]
+    },
+    {
+      "id": "group-q-247-q-248",
+      "questionIds": [
+        "q-247",
+        "q-248"
+      ],
+      "retainId": "q-247",
+      "subject": "Chinese",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-247.json",
+      "reviewSHA256": "1189bc0a9a782d063aa8d857e91dfcc96780220ccd4db0081dbc168b2c8b3754",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:17:51.366678+00:00",
+      "sourceIds": [
+        "src-gemini-more-009"
+      ]
+    },
+    {
+      "id": "group-q-261-q-262",
+      "questionIds": [
+        "q-261",
+        "q-262"
+      ],
+      "retainId": "q-261",
+      "subject": "Civics",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-261.json",
+      "reviewSHA256": "11daf3204d86ee611c449787bf03864fa998317f63f31cc6bf4ae0ac77851b03",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:19:22.767778+00:00",
+      "sourceIds": [
+        "src-more-038"
+      ]
+    },
+    {
+      "id": "group-q-288-q-289",
+      "questionIds": [
+        "q-288",
+        "q-289"
+      ],
+      "retainId": "q-288",
+      "subject": "Chinese",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-288.json",
+      "reviewSHA256": "10a2a8599ef246877eeced46d2dbe929c4550a991bde9484aae8e08c35439fa9",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:20:34.216652+00:00",
+      "sourceIds": [
+        "src-more-043"
+      ]
+    },
+    {
+      "id": "group-q-341-q-342",
+      "questionIds": [
+        "q-341",
+        "q-342"
+      ],
+      "retainId": "q-341",
+      "subject": "Geography",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-341.json",
+      "reviewSHA256": "6ccc480fabe11de025e676ed0cc95cfc9b594c59978077e35c7d88007865aaac",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:22:27.121077+00:00",
+      "sourceIds": [
+        "src-more-004"
+      ]
+    },
+    {
+      "id": "group-q-352-q-353-q-354",
+      "questionIds": [
+        "q-352",
+        "q-353",
+        "q-354"
+      ],
+      "retainId": "q-352",
+      "subject": "Chinese",
+      "state": "confirmed",
+      "reviewReport": "docs/imports/group-review/reviews/candidate-q-352.json",
+      "reviewSHA256": "9f7d868060b887917c1903313a3571bf3c2c7631466449c531f2d65d5dec4b4c",
+      "confirmedBy": "/root/comic_lane_2",
+      "confirmedAt": "2026-10-29T12:23:48.501437+00:00",
+      "sourceIds": [
+        "src-more-006"
+      ]
+    }
+  ],
+  "reviewSummaryReported": false,
+  "updatedAt": "2026-10-29T12:23:48.532409+00:00"
+}

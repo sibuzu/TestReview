@@ -7,11 +7,13 @@ import {hasQuestionMark,toggleQuestionMark,canonicalQuestionId} from './question
 import {FLAGS_KEY,PRACTICE_KEY,FLAG_OPTIONS,DEFAULT_FLAG,checkedFlags,checkedPractice,changedFlag,persistFlagState,discardLegacyMarks,flagIcon,practiceDay,dailyCounts} from './article-flags.js';
 import {formatDataUpdatedAt} from './data-updated.js';
 import {SESSION_KEY,readSession,restoreSession,signIn,signOut,accountStorage} from './auth.js';
+import {QuestionOrder} from './question-order.js';
 const $=id=>document.getElementById(id);
-let data,filters={subject:'',issue:false,doubt:false},page='questions',layout='list',activeId='',toastTimer,doubts=new Set(),flags={},practice=[];
+let data,filters={subject:'',issue:false,doubt:false},page='questions',activeId='',toastTimer,doubts=new Set(),flags={},practice=[];
 let selectedFlags=new Set([3,4,5]),markSync,session,userStorage;
+const ordering=new QuestionOrder();
 const flagFor=id=>flags[canonicalQuestionId(id)]??DEFAULT_FLAG;
-const scopedQuestions=(questions,selection={})=>selectQuestions(questions.filter(q=>selectedFlags.has(flagFor(q.id))),{subject:selection.subject||'',doubt:!!selection.doubt,issue:!!selection.issue,sort:'newest'});
+const scopedQuestions=(questions,selection={})=>ordering.order(selectQuestions(questions.filter(q=>selectedFlags.has(flagFor(q.id))),{subject:selection.subject||'',doubt:!!selection.doubt,issue:!!selection.issue,sort:'newest'}));
 const icon={all:'▦',source:'↙',issue:'◷',progress:'▤'};
 function toast(message){$('toast').textContent=message;$('toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('show'),3500);}
 function syncStatus(state){
@@ -81,8 +83,9 @@ function updateNav(){
  $('breadcrumb').innerHTML=`<a href="#questions">我的學習空間</a><span>/</span><strong aria-current="page">${e(label)}</strong>`;
 }
 function renderFlagFilters(){
+ $('date-order').setAttribute('aria-pressed',ordering.mode==='newest');$('shuffle-order').setAttribute('aria-pressed',ordering.mode==='shuffle');
  const counts=Object.fromEntries(FLAG_OPTIONS.map(o=>[o.value,0]));for(const q of data.questions)counts[flagFor(q.id)]++;
- $('question-tools').innerHTML=`<table class="flag-filter-table" aria-label="全域FLAG篩選"><thead><tr><th scope="col">FLAG</th><th scope="col">題數</th><th scope="col">顯示</th></tr></thead><tbody>${FLAG_OPTIONS.map(o=>`<tr><th scope="row"><label for="flag-filter-${o.value}"><span class="flag-row-icon" style="color:${o.color}">${flagIcon(o.value)}</span><span>${o.value} ${o.label}</span></label></th><td data-flag-count="${o.value}">${counts[o.value]}</td><td><input id="flag-filter-${o.value}" type="checkbox" data-flag-filter="${o.value}" ${selectedFlags.has(o.value)?'checked':''} aria-label="顯示${o.value} ${o.label}"></td></tr>`).join('')}</tbody></table>`;
+ $('flag-filters').innerHTML=`<table class="flag-filter-table" aria-label="全域FLAG篩選"><thead><tr><th scope="col">FLAG</th><th scope="col">題數</th><th scope="col">顯示</th></tr></thead><tbody>${FLAG_OPTIONS.map(o=>`<tr><th scope="row"><label for="flag-filter-${o.value}"><span class="flag-row-icon" style="color:${o.color}">${flagIcon(o.value)}</span><span>${o.value} ${o.label}</span></label></th><td data-flag-count="${o.value}">${counts[o.value]}</td><td><input id="flag-filter-${o.value}" type="checkbox" data-flag-filter="${o.value}" ${selectedFlags.has(o.value)?'checked':''} aria-label="顯示${o.value} ${o.label}"></td></tr>`).join('')}</tbody></table>`;
 }
 function renderProgress(){
  const rows=dailyCounts(practice),today=rows.find(row=>row.day===practiceDay())?.count||0,total=rows.reduce((sum,row)=>sum+row.count,0);
@@ -95,13 +98,12 @@ function diagram(type){const wrap=body=>`<div class="card-art" aria-label="輔�
  if(type==='diagonals')return wrap('<path d="m150 12 74 108-74 35-74-35z" fill="#edf2e9"/><path d="M150 12v143M76 120h148" stroke-dasharray="4 4"/><path d="M150 111h9v9"/><g fill="#7d9270" stroke="none" font-size="12" font-family="Georgia"><text x="146" y="10">A</text><text x="230" y="124">B</text><text x="145" y="158">C</text><text x="63" y="124">D</text><text x="155" y="71">3</text><text x="155" y="141">1</text><text x="183" y="115">2</text><text x="110" y="115">2</text></g>');return '';}
 function render(){
  updateNav();if(activeId){updateQuestionBreadcrumb();return;}
- const sources=page==='sources',progress=page==='progress';$('question-tools').hidden=sources||progress;$('grid-view').parentElement.hidden=sources||progress;
+ const sources=page==='sources',progress=page==='progress';$('question-tools').hidden=sources||progress;
  $('page-title').textContent=sources?'匯入紀錄':progress?'我的進度':filters.doubt?'有疑義的題目':filters.issue?'待核對原題':filters.subject?subject(filters.subject).name:'全部錯題';
  if(sources){renderSources();return;}if(progress){renderProgress();return;}
  renderFlagFilters();const qs=scopedQuestions(data.questions,filters);
- $('results').className=layout==='grid'?'question-grid':'question-list';
+ $('results').className='question-list';
  $('results').innerHTML=qs.length?qs.map(q=>`<article class="question-card"><div class="card-main" role="link" tabindex="0" data-open="${q.id}" aria-label="閱讀 ${e(displayTitle(q))}"><div class="card-top">${badge(q.subject)}${markButtons(q)}</div><div class="card-location">${e(q.volume)} <span>/</span> ${e(q.chapter)}</div><h3><a href="${questionHash(q.id)}">${e(displayTitle(q))}</a></h3>${diagram(q.diagram)}<p class="question-preview">${renderText(q.question)}</p><div class="tags">${q.tags.slice(0,3).map(t=>`<span class="tag"># ${e(t)}</span>`).join('')}</div>${needsReview(q)?`<div class="issue-label">◌ ${e(q.contentStatus==='待更新'?'待更新':q.verification)}</div>`:q.verification==='已更正'?'<div class="issue-label" style="color:#7a9566">✓ 已更正原 AI 解答</div>':''}</div><div class="card-foot"><span class="card-date" title="${e(q.dateLabel||'首次出題日期')}：依目前來源最早可確認日期">◷ ${q.date.replaceAll('-','.')} </span><span aria-hidden="true">↗</span></div></article>`).join(''):`<div class="empty" style="grid-column:1/-1"><div class="empty-mark">a fresh page.</div><h3>${filters.subject&&!data.questions.some(q=>q.subject===filters.subject)?'這個科目的錯題本，等你開始。':'目前沒有符合條件的題目'}</h3><p>可在上方勾選要顯示的FLAG。</p><button class="button clear-button" id="clear-filters">顯示一般、重要與很重要</button></div>`;
- $('grid-view').classList.toggle('active',layout==='grid');$('list-view').classList.toggle('active',layout==='list');$('grid-view').setAttribute('aria-pressed',layout==='grid');$('list-view').setAttribute('aria-pressed',layout==='list');
 }
 function renderSources(){const pending=data.sources.filter(s=>s.status==='pending');$('results').className='source-list';$('results').innerHTML=(pending.length?`<div class="source-banner">${pending.length} 個來源尚未整理完成。</div>`:'<div class="empty-state">目前沒有待整理來源。</div>')+pending.map(s=>`<article class="source-card"><div class="source-platform">${s.platform==='Gemini'?'✧':'◎'}</div><div class="source-info"><h3>${e(s.title||'等待整理的學習討論')} <span class="tag">待整理</span></h3><a class="source-url" href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.url)} ↗</a><p>${e(s.note||'尚未完成原題與圖片核對。')}</p><p>${e(s.date?'最早對話 '+s.date:'加入日期 '+s.addedAt)} · ${data.questions.filter(q=>q.sourceId===s.id).length} 題已列入題庫</p></div><div class="source-actions">${s.transcript||s.content?`<button class="button" data-source-detail="${s.id}">檢視內容</button>`:''}</div></article>`).join('');}
 function photoHTML(images){return images.length?'<div class="photo-grid">'+images.map((src,i)=>`<a href="${e(safeAsset(src))}" target="_blank" rel="noopener noreferrer" aria-label="開啟原卷第 ${i+1} 張"><img src="${e(safeAsset(src))}" alt="原卷預覽第 ${i+1} 張" loading="lazy"><span>${i+1} ↗</span></a>`).join('')+'</div>':'';}
@@ -130,7 +132,7 @@ function updateQuestionBreadcrumb(){
  const returnHash=history.state?.returnTo?.hash||listHash({subject:q.subject});
  $('breadcrumb').innerHTML=`<a href="#questions">我的學習空間</a><span>/</span><a href="${e(returnHash)}" data-question-return>${e(subject(q.subject).name)}</a><span>/</span><strong aria-current="page">${e(displayTitle(q))}</strong>`;
 }
-function listSnapshot(){return {hash:location.hash||'#questions',filters:{...filters},page,layout,scroll:window.scrollY};}
+function listSnapshot(){return {hash:location.hash||'#questions',filters:{...filters},page,order:ordering.snapshot(),scroll:window.scrollY};}
 function navigateRoute(hash,state={}){history.pushState(state,'',hash);applyRoute();}
 function showDetail(id){
  if(!data.questions.some(q=>q.id===id))return;
@@ -142,6 +144,7 @@ function showDetail(id){
 function applyRoute(){
  if(activeId&&$('toast').textContent.startsWith('已設定為')){clearTimeout(toastTimer);$('toast').classList.remove('show');$('toast').textContent='';}
  const route=parseRoute(location.hash),q=route.kind==='question'?data.questions.find(q=>q.id===route.id):null;activeId='';
+ const savedOrder=route.kind==='question'?history.state?.returnTo?.order:history.state?.listSnapshot?.order;if(savedOrder)ordering.restore(savedOrder);
  $('list-page').hidden=route.kind==='question';$('question-page').hidden=route.kind!=='question';$('content').classList.toggle('reading-question',route.kind==='question');
  if(route.kind==='question'){
   page='questions';filters={subject:q?.subject||'',issue:false,doubt:false};updateNav();
@@ -149,7 +152,7 @@ function applyRoute(){
   window.scrollTo(0,0);$('detail').focus({preventScroll:true});return;
  }
  const saved=history.state?.listSnapshot;
- if(saved&&saved.hash===(location.hash||'#questions')){filters={subject:saved.filters.subject||'',issue:!!saved.filters.issue,doubt:!!saved.filters.doubt};page=saved.page;layout=saved.layout;}
+ if(saved&&saved.hash===(location.hash||'#questions')){filters={subject:saved.filters.subject||'',issue:!!saved.filters.issue,doubt:!!saved.filters.doubt};page=saved.page;}
  else{page=route.kind==='sources'?'sources':route.kind==='progress'?'progress':'questions';filters={subject:route.subject||'',issue:route.kind==='issues',doubt:route.kind==='doubts'};}
  render();document.title='WeiRuGo';requestAnimationFrame(()=>window.scrollTo(0,saved?.hash===(location.hash||'#questions')?saved.scroll:0));
 }
@@ -180,7 +183,7 @@ document.addEventListener('keydown',ev=>{
  }
 });
 $('detail').addEventListener('click',ev=>{if(ev.target.closest('#answer-toggle')){const show=$('answer-panel').hidden;$('answer-panel').hidden=!show;$('answer-toggle').setAttribute('aria-expanded',show);const complete=$('answer-toggle').dataset.complete==='true';$('answer-toggle').innerHTML=complete?(show?'收起答案、解說與原圖 <span>−</span>':'先想一想，再查看答案、解說與原圖 <span>＋</span>'):(show?'收起解題筆記 <span>−</span>':'先想一想，再看解題筆記 <span>＋</span>');}});
-$('grid-view').onclick=()=>{layout='grid';render();};$('list-view').onclick=()=>{layout='list';render();};
+$('date-order').onclick=()=>{ordering.byDate();render();};$('shuffle-order').onclick=()=>{ordering.shuffle(data.questions);render();};
 for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',ev=>{if(ev.target===d){const r=d.getBoundingClientRect();if(ev.clientX<r.left||ev.clientX>r.right||ev.clientY<r.top||ev.clientY>r.bottom)d.close();}});
 window.addEventListener('hashchange',()=>{if(data)applyRoute();});if('scrollRestoration' in history)history.scrollRestoration='manual';
 async function start(){try{

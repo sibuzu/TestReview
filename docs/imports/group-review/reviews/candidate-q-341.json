@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-341",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:22:27.079750+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-341",
+    "q-342"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-341",
+    "q-342"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-341-q-342",
+      "questionIds": [
+        "q-341",
+        "q-342"
+      ],
+      "retainId": "q-341",
+      "aliasIds": [
+        "q-342"
+      ],
+      "subject": "Geography",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Geography",
+      "childSubjects": {
+        "q-341": "Geography",
+        "q-342": "Geography"
+      },
+      "sourceIds": [
+        "src-more-004"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d"
+      ],
+      "printedRange": "同一src-more-004原卷16/17相接，兩問同石門水庫，17直接指共同框圖十一；共同上文原圖和題號構成一個閱讀地形題組，與同卷其他草嶺/海岸/三國通道題無關。",
+      "originalQuestionNumbers": {
+        "q-341": "16",
+        "q-342": "17"
+      },
+      "commonMaterial": {
+        "passage": "在臺灣，若被他人委婉地說「你的石門水庫沒關」，一般人都會很有默契地趕緊低下頭檢查褲檔的拉鍊是否拉上，其真實的來源已不可考。\n圖(十一)為石門水庫附近的等高線地形圖（支流未繪製），1964年正式啟用的石門水庫，在當時可說是東亞容量最大的水庫，也是臺灣第一座多功能水庫，有蓄水、給水的功能，更包含了灌溉、發電、防洪，甚至還有觀光的功能，其中洩洪的壯闊景象，每每吸引臺灣人競相前往參觀。也許正因具跨時代以及指標性的意義，當一個人忘記拉褲子拉鍊的時候，就被很含蓄的比喻為「石門水庫沒關」了！",
+        "tables": [],
+        "questionFigures": [
+          {
+            "src": "assets/questions/q-342-figure-8f1fe3d4ba.jpg",
+            "role": "原卷16/17共同圖十一石門水庫等高線"
+          }
+        ]
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-341-reading-25048afbfc.jpg",
+          "visibleHeader": "共同石門水庫俗語與1964水庫功能長文，文內明指圖(十一)，同框右上等高線含甲乙丙丁與水庫。",
+          "questionNumbers": [
+            "16-17(context)"
+          ],
+          "sha256": "25048afbfcaeda896e8dd77ab9d3444a8f8cb89d24ad703e359c5cfc6536b49b",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-341-source-5d0d32b712.jpg",
+          "visibleHeader": "印刷16石門水庫攔哪河川上游，完整淡水河/蘭陽溪/大甲溪/濁水溪四選。",
+          "questionNumbers": [
+            "16"
+          ],
+          "sha256": "5d0d32b71279f2fbb575f3d289a8b12104dd9926f67012ead60d6783dad96a87",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-342-source-64c783965d.jpg",
+          "visibleHeader": "印刷17明指同一圖十一，監測集水區採水點甲乙丙丁四選。",
+          "questionNumbers": [
+            "17"
+          ],
+          "sha256": "64c783965db1d363b55e66c2f8eeedb29c44f721cc566632178da3b2ceb42cc9",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-342-figure-8f1fe3d4ba.jpg",
+          "visibleHeader": "原卷圖十一等高線/水庫/甲乙丙丁，與共同長文框右圖完全同圖，非新情境插畫。",
+          "questionNumbers": [
+            "16-17(shared map)"
+          ],
+          "sha256": "8f1fe3d4ba876e31562d78df1804a3021a213737f72b8612d0d9c193086dab54",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-004原卷16/17相接，兩問同石門水庫，17直接指共同框圖十一；共同上文原圖和題號構成一個閱讀地形題組，與同卷其他草嶺/海岸/三國通道題無關。",
+      "childCoverage": [
+        {
+          "questionId": "q-341",
+          "originalQuestionNumber": "16",
+          "sourceId": "src-more-004",
+          "date": "2026-08-21",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "0797546f67e67ee0515f17e08462b44b761217ee6a7a1a6b685f1f49f4f62ba7",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-341-reading-25048afbfc.jpg",
+            "assets/questions/q-341-source-5d0d32b712.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "石門水庫在大漢溪，選它所屬的水系",
+            "art": "assets/comics/q-341-art-84aed26305.svg",
+            "panels": [
+              {
+                "heading": "① 直接攔蓄的是大漢溪",
+                "text": "先記水庫實際所在的河川：石門水庫的大壩攔蓄大漢溪溪水。不是看到選項A，就把水庫記成在淡水河下游幹流。",
+                "alt": "新製概念剖面示意，大漢溪水在大壩上游形成石門水庫；不表示實際高程、河段方位或尺寸。"
+              },
+              {
+                "heading": "② 支流也屬於整個水系",
+                "text": "大漢溪是淡水河水系的支流。水系包含主流與支流，因此「水庫在大漢溪」和「水庫屬淡水河水系」可以同時成立。",
+                "alt": "新製層級關係圖，淡水河水系大框包含大漢溪支流層，大漢溪層內標出石門水庫所在；不是把水庫當成另一條支流。"
+              },
+              {
+                "heading": "③ 看選項，選所屬水系",
+                "text": "四個選項沒有大漢溪，要從所屬水系判斷。A淡水河符合；蘭陽溪、大甲溪、濁水溪都不是石門水庫所在的水系。",
+                "alt": "四選項同列比較，淡水河A以綠框標出；未造出其他三條河的地圖位置或虛假連接。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：淡水河",
+              "points": [
+                "直接攔蓄的河川：大漢溪。",
+                "所屬水系：淡水河水系。",
+                "大漢溪未列在四個選項中。",
+                "選A不代表水庫在淡水河下游幹流。"
+              ]
+            },
+            "protectedWords": [
+              "石門水庫",
+              "大漢溪",
+              "淡水河水系",
+              "淡水河",
+              "蘭陽溪",
+              "大甲溪",
+              "濁水溪",
+              "大壩",
+              "支流",
+              "幹流",
+              "攔蓄",
+              "水系"
+            ]
+          }
+        },
+        {
+          "questionId": "q-342",
+          "originalQuestionNumber": "17",
+          "sourceId": "src-more-004",
+          "date": "2026-08-21",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "a87ed110a32bace90fa4da2d75fd8766c5c681eafe8c491d978f7dff0b0fc47c",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-342-reading-25048afbfc.jpg",
+            "assets/questions/q-342-source-64c783965d.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-342-figure-8f1fe3d4ba.jpg",
+              "alt": "第17題原卷作答附圖",
+              "caption": "依原卷裁切的作答附圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "看谷地匯流與山脊分流，找最不可能的採水點",
+            "art": "assets/comics/q-342-art-6c7402d804.svg",
+            "panels": [
+              {
+                "heading": "① 河谷V形尖端朝上游高處",
+                "text": "原題註明支流未畫出，要靠等高線找可能的水道。配合高度判斷：谷地V形尖端指向上游高處，水流則往低處匯集。新圖的300、200、100是示例高度，不是原卷數值。",
+                "alt": "新精確概念等高線谷地V尖向上方高處，三線高度由300至100往下減少，藍箭頭沿谷線下流；不補畫原卷未載水道。"
+              },
+              {
+                "heading": "② 山脊向外凸出，水向兩側分流",
+                "text": "山脊的等高線凸出尖端伸向低處，與河谷的彎曲方向不同。水較容易向脊線兩側低處流走，脊部不是支流水集中的位置。不能只看形狀像V，還要讀高低方向。",
+                "alt": "新精確山脊概念線V尖朝下方低處，300至100往下減少，兩支藍箭頭由脊頂向兩旁低處，不畫脊頂有河流。"
+              },
+              {
+                "heading": "③ 丙在脊部，最不適合直接採支流水",
+                "text": "回到原圖，丙在613公尺高地向外伸出的脊部，甲、乙、丁則較符合谷地位置。因此問最不可能的採樣地點，選C丙。這不等於已證明丙整個地點不在水庫集水區內。",
+                "alt": "新判讀資訊卡比較甲乙丁谷地與丙脊部，選C；明確不推斷脊部一定在石門集水區外。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：丙",
+              "points": [
+                "先看等高線的高度，再辨認谷地或山脊。",
+                "谷地較能集中支流水，脊部向兩側分流。",
+                "不適合直接採支流水，不等於在集水區之外。"
+              ]
+            },
+            "protectedWords": [
+              "等高線",
+              "V形",
+              "上游高處",
+              "300",
+              "200",
+              "100",
+              "613公尺",
+              "甲、乙、丁",
+              "集水區",
+              "支流水"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-341-reading-25048afbfc.jpg",
+      "visibleHeader": "共同石門水庫俗語與1964水庫功能長文，文內明指圖(十一)，同框右上等高線含甲乙丙丁與水庫。",
+      "questionNumbers": [
+        "16-17(context)"
+      ],
+      "sha256": "25048afbfcaeda896e8dd77ab9d3444a8f8cb89d24ad703e359c5cfc6536b49b",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-341-source-5d0d32b712.jpg",
+      "visibleHeader": "印刷16石門水庫攔哪河川上游，完整淡水河/蘭陽溪/大甲溪/濁水溪四選。",
+      "questionNumbers": [
+        "16"
+      ],
+      "sha256": "5d0d32b71279f2fbb575f3d289a8b12104dd9926f67012ead60d6783dad96a87",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-342-source-64c783965d.jpg",
+      "visibleHeader": "印刷17明指同一圖十一，監測集水區採水點甲乙丙丁四選。",
+      "questionNumbers": [
+        "17"
+      ],
+      "sha256": "64c783965db1d363b55e66c2f8eeedb29c44f721cc566632178da3b2ceb42cc9",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-342-figure-8f1fe3d4ba.jpg",
+      "visibleHeader": "原卷圖十一等高線/水庫/甲乙丙丁，與共同長文框右圖完全同圖，非新情境插畫。",
+      "questionNumbers": [
+        "16-17(shared map)"
+      ],
+      "sha256": "8f1fe3d4ba876e31562d78df1804a3021a213737f72b8612d0d9c193086dab54",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "圖十一在共同框內，應升共同必要圖一次；不能因q341原questionFigures空，就把地形圖省略。",
+    "16淡水河水系A與17採樣C原答案不改；自製水系SVG及17等高線教學都保留，不只一份。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-341",
+      "q-342"
+    ],
+    "reviewedQuestionIds": [
+      "q-341",
+      "q-342"
+    ],
+    "confirmedQuestionIds": [
+      "q-341",
+      "q-342"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-341": "156d2f8e276843ee4c9b890d2081f3bb2d914b41c424d63323c87f30e031bf43",
+    "q-342": "e78b4a008f8ba7eeb6a3b4f22442992fd818b5f5eacda7ba4300cc920eaa87b9"
+  }
+}

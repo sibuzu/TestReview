@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-097",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:09:15.894548+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-097",
+    "q-098",
+    "q-099"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-097",
+    "q-098",
+    "q-099"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-097-q-098-q-099",
+      "questionIds": [
+        "q-097",
+        "q-098",
+        "q-099"
+      ],
+      "retainId": "q-097",
+      "aliasIds": [
+        "q-098",
+        "q-099"
+      ],
+      "subject": "Geography",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Geography",
+      "childSubjects": {
+        "q-097": "Geography",
+        "q-098": "Geography",
+        "q-099": "Geography"
+      },
+      "sourceIds": [
+        "src-more-023"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae056f3-bfc4-83e8-935c-b038e5fc23a7"
+      ],
+      "printedRange": "同一src-more-023原卷23-25連續三題，共用性別比/遷徙上文與中國比例路線圖；23讀數值、24讀最高區、25讀移入地，原題裁圖23/24保留同一圖邊及圖例證實同卷。",
+      "originalQuestionNumbers": {
+        "q-097": "23",
+        "q-098": "24",
+        "q-099": "25"
+      },
+      "commonMaterial": {
+        "passage": "中國是世界上性別比失衡最嚴重的國家之一，此情形導致中國出現諸多社會問題。根據中國國家統計局的數據，2016年全中國男性比女性多出3,359萬人。美國政治經濟學家更在其著作中預測，到2030年中國會有超過四分之一的年滿30歲的男性單身。右圖是中國單身漢及新娘遷徙路線圖，請問：",
+        "tables": [],
+        "questionFigures": [
+          {
+            "src": "assets/questions/q-098-map-37370d9c88.jpg",
+            "role": "原卷23-25共同中國未婚男比率及新娘路線圖"
+          }
+        ]
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-097-reading-source-021569c320.jpg",
+          "visibleHeader": "共同中國性別比/2016男性多3359萬/單身漢及新娘遷徙路線圖段，結尾請問。",
+          "questionNumbers": [],
+          "sha256": "021569c3206ee7ee9cd439c72e5d9957a853064e05f14518a1d7881da129c936",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-097-source-5b64a530e9.jpg",
+          "visibleHeader": "印刷23根據上文問2016性別比，右邊接同一地圖下緣與圖例。",
+          "questionNumbers": [
+            "23"
+          ],
+          "sha256": "5b64a530e93c4426274f4521105ac544fc088c03befe05806f8f30d42a999597",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-098-source-fcc0c65033.jpg",
+          "visibleHeader": "印刷24「圖中單身漢比例最高地區」畜牧方式，旁接同一遷徙圖圖例，四選完整。",
+          "questionNumbers": [
+            "24"
+          ],
+          "sha256": "fcc0c65033855da4770c58147f5addfd74463eeba3e3e37ae3cf36ab4cd2a4e7",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-099-source-b47036203d.jpg",
+          "visibleHeader": "印刷25「藉婚姻娶的新娘以南方居多」問移居地共同特徵；既有完整題目圖片保留，不猜重轉低解析文字。",
+          "questionNumbers": [
+            "25"
+          ],
+          "sha256": "b47036203d540c3b267eaad086ca485e2c7b3946e93774ab31923bb407b485de",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-098-map-37370d9c88.jpg",
+          "visibleHeader": "中國30歲以上未婚男性比率分色圖與新娘遷徙路線，兩組圖例可辨，與23/24邊緣同圖。",
+          "questionNumbers": [
+            "23-25(map)"
+          ],
+          "sha256": "37370d9c889add17c95590a44ef1b1e0a98f0db04caba2522824e5e5eda20ba1",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-023原卷23-25連續三題，共用性別比/遷徙上文與中國比例路線圖；23讀數值、24讀最高區、25讀移入地，原題裁圖23/24保留同一圖邊及圖例證實同卷。",
+      "childCoverage": [
+        {
+          "questionId": "q-097",
+          "originalQuestionNumber": "23",
+          "sourceId": "src-more-023",
+          "date": "2026-09-30",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "D",
+          "questionFingerprint": "101bc62dd795328a6999217ec3c28783c15ae2fd4d886e1b8eec3d444b2c267a",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-097-reading-source-021569c320.jpg",
+            "assets/questions/q-097-source-5b64a530e9.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "性別比的100，是男女等多的界線",
+            "art": "assets/comics/q-097-art-f2a4c550e5.svg",
+            "panels": [
+              {
+                "heading": "① 男性較多，比值大於100",
+                "text": "性別比＝男性人口 ÷ 女性人口 × 100。文中男性比女性多，所以分子大於分母，性別比大於100。",
+                "alt": "概念長條圖中男性長條比女性長；不表示2016年精確人口數或比例。"
+              },
+              {
+                "heading": "② 100表示男女一樣多",
+                "text": "以每100名女性為基準，若對應100名男性，性別比就是100。100不是總人口，也不是男性占總人口的百分比。",
+                "alt": "男女兩條長條等長，示意性別比100時兩者數量相同。"
+              },
+              {
+                "heading": "③ 小於100，方向就相反",
+                "text": "86.4與99.7都小於100，表示男少於女；100.0表示一樣多。只有105.4大於100，符合文章。",
+                "alt": "男性長條比女性短，示意小於100代表男性較少，與本文不符。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：105.4",
+              "points": [
+                "分母是女性人口，不是全體人口。",
+                "男多：大於100；等多：100；男少：小於100。",
+                "只給差額不能硬算精確比例，但能判斷大於100。"
+              ]
+            },
+            "protectedWords": [
+              "性別比",
+              "男性人口",
+              "女性人口",
+              "105.4",
+              "99.7",
+              "100.0"
+            ]
+          }
+        },
+        {
+          "questionId": "q-098",
+          "originalQuestionNumber": "24",
+          "sourceId": "src-more-023",
+          "date": "2026-09-30",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "C",
+          "questionFingerprint": "26869f0746de17d637ae39e9679006bc9cae4fd1348fa10523e3a59c305a30df",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-098-reading-source-021569c320.jpg",
+            "assets/questions/q-098-source-fcc0c65033.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-098-map-37370d9c88.jpg",
+              "alt": "原題第 24 題附圖",
+              "caption": "依原卷裁切的作答附圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "看季節與高度，辨認山牧季移",
+            "art": "assets/comics/q-098-art-ed087044e1-web.webp",
+            "panels": [
+              {
+                "heading": "① 夏季到較高的草場",
+                "text": "先從原題地圖辨認西部高山、高原地區。夏季較暖，高處草場能供牲畜利用，牧人便把牲畜帶到較高處放牧。",
+                "alt": "夏季的高山草場綠意充足，牧人在較高的山坡照看羊群。"
+              },
+              {
+                "heading": "② 冬季回較低處",
+                "text": "冬季高處寒冷、積雪增多，牧人把牲畜帶回較低、較適合過冬的草場。關鍵是配合季節在不同高度間移動。",
+                "alt": "冬季牧人與羊群在較低山谷草場，高處山區積雪較多。"
+              },
+              {
+                "heading": "③ 不只是「有移動」就相同",
+                "text": "山牧季移的特色是山區的垂直季節移動。「逐水草而居」偏重尋找水草的移動；本題要選最能表現山地條件的選項。",
+                "alt": "山坡小徑連接低谷與高處草場，羊群跟隨牧人在不同高度間移動；非精確路線圖。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：山牧季移",
+              "points": [
+                "地形線索：原圖西部高山、高原地區。",
+                "方式線索：夏季較高、冬季較低。",
+                "A 放牧較籠統；C 明確指出高度與季節變動。"
+              ]
+            },
+            "protectedWords": [
+              "山牧季移",
+              "逐水草而居",
+              "夏季",
+              "冬季",
+              "高山地區"
+            ]
+          }
+        },
+        {
+          "questionId": "q-099",
+          "originalQuestionNumber": "25",
+          "sourceId": "src-more-023",
+          "date": "2026-09-30",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "B",
+          "questionFingerprint": "b80662d69064aa3b991aa6164980868a0888a2fbaaf2424beffd2918389133e7",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-099-reading-source-021569c320.jpg",
+            "assets/questions/q-099-source-b47036203d.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-099-map-37370d9c88.jpg",
+              "alt": "中國單身男性比例與跨區新娘遷徙路線",
+              "caption": "原題地圖及圖例"
+            },
+            {
+              "src": "assets/questions/q-099-question-text-02ea2e1924.jpg",
+              "alt": "原題第 25 題附圖",
+              "caption": "原題完整題幹與選項（保留印刷字樣，未猜補低解析度文字）"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "移入地的共同條件，不必包含礦產",
+            "art": "assets/comics/q-099-art-dc04a83d63-web.webp",
+            "panels": [
+              {
+                "heading": "① 先分清起點與終點",
+                "text": "原圖箭頭呈現遷移方向。題目問女性的「移入地區」，要看箭頭終點，不能拿移出地的條件來作答。",
+                "alt": "成人女性旅客抵達城市，對應移入目的地的概念，不代替原地圖。"
+              },
+              {
+                "heading": "② 比較本題的共同條件",
+                "text": "依題組地圖，主要移入區相對偏低緯、氣候較溼潤，生產與生活條件較能承載人口，對應環境負載力較高。",
+                "alt": "溼潤的河流平原有農田、聚落與生產生活空間，呈現本題所比的承載條件。"
+              },
+              {
+                "heading": "③ 礦產不是必備條件",
+                "text": "人口移入不等於當地一定礦產豐富。工農業、交通與區位等條件，也可能支持人口生活；不能把個別資源當共同特徵。",
+                "alt": "港口與城市呈現多樣經濟活動，說明生產生活不只依靠礦產。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：礦產資源豐富",
+              "points": [
+                "先看箭頭終點，再比較移入區。",
+                "「共同」指題組所示地區共有的條件。",
+                "本題區域特徵不代表全球所有女性移入地。"
+              ]
+            },
+            "protectedWords": [
+              "移入地區",
+              "移入區",
+              "移出地",
+              "環境負載力",
+              "礦產",
+              "氣候",
+              "低緯",
+              "共同特徵"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-097-reading-source-021569c320.jpg",
+      "visibleHeader": "共同中國性別比/2016男性多3359萬/單身漢及新娘遷徙路線圖段，結尾請問。",
+      "questionNumbers": [],
+      "sha256": "021569c3206ee7ee9cd439c72e5d9957a853064e05f14518a1d7881da129c936",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-097-source-5b64a530e9.jpg",
+      "visibleHeader": "印刷23根據上文問2016性別比，右邊接同一地圖下緣與圖例。",
+      "questionNumbers": [
+        "23"
+      ],
+      "sha256": "5b64a530e93c4426274f4521105ac544fc088c03befe05806f8f30d42a999597",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-098-source-fcc0c65033.jpg",
+      "visibleHeader": "印刷24「圖中單身漢比例最高地區」畜牧方式，旁接同一遷徙圖圖例，四選完整。",
+      "questionNumbers": [
+        "24"
+      ],
+      "sha256": "fcc0c65033855da4770c58147f5addfd74463eeba3e3e37ae3cf36ab4cd2a4e7",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-099-source-b47036203d.jpg",
+      "visibleHeader": "印刷25「藉婚姻娶的新娘以南方居多」問移居地共同特徵；既有完整題目圖片保留，不猜重轉低解析文字。",
+      "questionNumbers": [
+        "25"
+      ],
+      "sha256": "b47036203d540c3b267eaad086ca485e2c7b3946e93774ab31923bb407b485de",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-098-map-37370d9c88.jpg",
+      "visibleHeader": "中國30歲以上未婚男性比率分色圖與新娘遷徙路線，兩組圖例可辨，與23/24邊緣同圖。",
+      "questionNumbers": [
+        "23-25(map)"
+      ],
+      "sha256": "37370d9c889add17c95590a44ef1b1e0a98f0db04caba2522824e5e5eda20ba1",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "共同地圖雖原來只掛98/99，合組必列共同一次，不能因97questionFigures空就漏圖。",
+    "25既有印刷題文/四選原圖隨子題完整保留，低解析文字不重新猜寫。",
+    "原題2016/2030背景資料仍按題內情境，不當今日統計，也不重開已核D/C/B答案。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-097",
+      "q-098",
+      "q-099"
+    ],
+    "reviewedQuestionIds": [
+      "q-097",
+      "q-098",
+      "q-099"
+    ],
+    "confirmedQuestionIds": [
+      "q-097",
+      "q-098",
+      "q-099"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-097": "45f89e65f3bb2c4647351084cc1c6aeb08830936cba32a22438aa2e07a5e0ac8",
+    "q-098": "a98523a5519d9e2fb7c674a9f78ffc3a354a5d56c3dae4fe8f90dd5d74aa09c4",
+    "q-099": "f2729f6caf8028baeae18f0618a9e24b324b303d583ef79e2100f45b372eb5b6"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-124",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:12:50.940950+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-124",
+    "q-465"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-124",
+    "q-465"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-124-q-465",
+      "questionIds": [
+        "q-124",
+        "q-465"
+      ],
+      "retainId": "q-124",
+      "aliasIds": [
+        "q-465"
+      ],
+      "subject": "Physics-Chemistry",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Physics-Chemistry",
+      "childSubjects": {
+        "q-124": "Physics-Chemistry",
+        "q-465": "Physics-Chemistry"
+      },
+      "sourceIds": [
+        "src-more-029"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05f86-8ce4-83ec-9e4e-ea3d50edbfd8"
+      ],
+      "printedRange": "同一src-more-029同一物理原卷，16在共文表下問2.0mm雨滴速度，17明印承上題/這顆雨滴再問300公分落下時間；共同表及相接16/17版面是最終依據。",
+      "originalQuestionNumbers": {
+        "q-124": "17",
+        "q-465": "16"
+      },
+      "commonMaterial": {
+        "passage": "吉伊卡哇人魚島下著雨，賽蓮看著窗外，突然想到一個問題：「雨滴是從數千公尺高的雲層掉下來的，如果雨滴只受到重力作用，做自由落體運動，那它落到地面的速度應該快得像子彈一樣（時速可達數百公里）。為什麼我們淋到雨時，卻不會被雨滴砸傷呢？」事實上，雨滴在空氣中下落時，除了受到向下的重力，還會受到向上的空氣阻力。空氣阻力會隨著雨滴下落速度的增加而變大。當空氣阻力大到與重力相等時，雨滴所受的合力為零，此時雨滴會開始做等速度運動，這個固定的最高速度，稱為「終端速度」。圖表是觀測到不同直徑的雨滴，在接近地面時的終端速度數據。",
+        "tables": [
+          {
+            "caption": "原題雨滴平均直徑與終端速度",
+            "headers": [
+              "雨滴類型",
+              "平均直徑（mm）",
+              "終端速度（km/hr）"
+            ],
+            "rows": [
+              [
+                "毛毛雨",
+                "0.5",
+                "7.6"
+              ],
+              [
+                "一般小雨",
+                "1.0",
+                "14.4"
+              ],
+              [
+                "中雨",
+                "2.0",
+                "23.4"
+              ],
+              [
+                "大雨／暴雨",
+                "5.0",
+                "32.4"
+              ]
+            ]
+          }
+        ],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-124-reading-source-9c6477a244.jpg",
+          "visibleHeader": "共同吉伊卡哇人魚島/賽蓮雨滴終端速度長文及0.5/1.0/2.0/5.0 mm與7.6/14.4/23.4/32.4 km/hr四列表，原印明確。",
+          "questionNumbers": [],
+          "sha256": "9c6477a24412ae24c726917fbdf2e5632bc662aa40c1f5a5091c80de4c5210b9",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-465-source-88d2320ca4.jpg",
+          "visibleHeader": "同一原卷共同長文/表完整，下面接印刷16，問2.0mm換m/s，底緣接17開頭；頁面手算保留。",
+          "questionNumbers": [
+            "16",
+            "17(head)"
+          ],
+          "sha256": "88d2320ca482d46554e01949ea4ea33de57f4e53e6bc88e264e2c41022decfcb",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-124-source-straight-a1283251ce.jpg",
+          "visibleHeader": "印刷17明說「承上題」「這顆雨滴」，300公分/一路終端速度/四選46.15,12.82,0.46,0.23。",
+          "questionNumbers": [
+            "17"
+          ],
+          "sha256": "a1283251ce16560c954b700c0e4a6e21b63e82333f9caa16e391abd53e6a46c4",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-029同一物理原卷，16在共文表下問2.0mm雨滴速度，17明印承上題/這顆雨滴再問300公分落下時間；共同表及相接16/17版面是最終依據。",
+      "childCoverage": [
+        {
+          "questionId": "q-124",
+          "originalQuestionNumber": "17",
+          "sourceId": "src-more-029",
+          "date": "2026-10-21",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "C",
+          "questionFingerprint": "082a39c275581760ff8636a015fc0a321146451605722ffe4897e29a08a78995",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-124-reading-source-9c6477a244.jpg",
+            "assets/questions/q-124-source-straight-a1283251ce.jpg"
+          ],
+          "tables": [
+            {
+              "caption": "原題雨滴平均直徑與終端速度",
+              "headers": [
+                "雨滴類型",
+                "平均直徑（mm）",
+                "終端速度（km/hr）"
+              ],
+              "rows": [
+                [
+                  "毛毛雨",
+                  "0.5",
+                  "7.6"
+                ],
+                [
+                  "一般小雨",
+                  "1.0",
+                  "14.4"
+                ],
+                [
+                  "中雨",
+                  "2.0",
+                  "23.4"
+                ],
+                [
+                  "大雨／暴雨",
+                  "5.0",
+                  "32.4"
+                ]
+              ]
+            }
+          ],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先統一單位，再按等速假設求時間",
+            "art": "assets/comics/q-124-art-1c233eab34.svg",
+            "panels": [
+              {
+                "heading": "① 查2.0毫米那一列",
+                "text": "前題給雨滴直徑2.0毫米，表中對應終端速度23.4公里／小時。不要誤選5.0毫米那列的32.4。",
+                "alt": "精確重列2.0毫米對應23.4公里每小時，另列5.0毫米作誤讀比較。"
+              },
+              {
+                "heading": "② 把公分與公里／小時換掉",
+                "text": "300公分是3公尺。速度23.4乘1000，再除3600，換成每秒6.5公尺。距離與速度要用相容的單位。",
+                "alt": "抽象身高量尺300公分等於3公尺，以及速度換算；不是原角色的外形復原。"
+              },
+              {
+                "heading": "③ 題目已指定一路等速",
+                "text": "時間＝距離除以速度。3除6.5約0.4615秒，取小數點後兩位是0.46秒。等速圖的水平線表示速度一直維持6.5。",
+                "alt": "速度時間圖為水平線，面積對應3公尺；末時刻3除6.5約0.46秒，顯示四捨五入值。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：0.46秒",
+              "points": [
+                "用300公尺代入，會把距離放大100倍。",
+                "不能直接拿300除23.4，兩者單位不相容。",
+                "本題已給終端速度且假設等速，不用從靜止自由落體公式。"
+              ]
+            }
+          }
+        },
+        {
+          "questionId": "q-465",
+          "originalQuestionNumber": "16",
+          "sourceId": "src-more-029",
+          "date": "2026-10-21",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "44ddbf8fcbcd2a7b8be444df049e3c596d149e94e8b2f7900ac6f09fd7bc0ae7",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-465-source-88d2320ca4.jpg"
+          ],
+          "tables": [
+            {
+              "caption": "原題雨滴平均直徑與終端速度",
+              "headers": [
+                "雨滴類型",
+                "平均直徑（mm）",
+                "終端速度（km/hr）"
+              ],
+              "rows": [
+                [
+                  "毛毛雨",
+                  "0.5",
+                  "7.6"
+                ],
+                [
+                  "一般小雨",
+                  "1.0",
+                  "14.4"
+                ],
+                [
+                  "中雨",
+                  "2.0",
+                  "23.4"
+                ],
+                [
+                  "大雨／暴雨",
+                  "5.0",
+                  "32.4"
+                ]
+              ]
+            }
+          ],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "雨滴速率換單位，先查表再除以3.6",
+            "art": "assets/comics/q-465-art-a83976fd8f-web.webp",
+            "panels": [
+              {
+                "heading": "① 先找2.0 mm那一列",
+                "text": "題目給雨滴直徑2.0 mm，對應表中的中雨。這一列的終端速度是23.4 km/hr，不是23.4 m/s。",
+                "alt": "學生在窗邊觀察午後降雨，注意雨滴資料。"
+              },
+              {
+                "heading": "② 公里與小時都要換",
+                "text": "1公里＝1000公尺，1小時＝3600秒。把每小時的公里數換成每秒的公尺數，要乘1000，再除以3600。",
+                "alt": "學生觀察量長工具與計時器，連結距離和時間的單位。"
+              },
+              {
+                "heading": "③ 換成每秒走多少公尺",
+                "text": "23.4 × 1000 ÷ 3600＝23.4 ÷ 3.6＝6.5 m/s。同一個速率，只是改用不同單位表示，並不是雨滴變慢了。",
+                "alt": "學生在雨天窗旁用計算機核對速率換算。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：6.5 m/s",
+              "points": [
+                "km/hr換成m/s：除以3.6。",
+                "m/s換成km/hr：乘以3.6。",
+                "終端速度時，重力與空氣阻力平衡，速率維持固定。"
+              ]
+            },
+            "protectedWords": [
+              "終端速度",
+              "空氣阻力",
+              "2.0 mm",
+              "23.4 km/hr",
+              "6.5 m/s"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "displayQuestionOrder": [
+        "q-465",
+        "q-124"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-124-reading-source-9c6477a244.jpg",
+      "visibleHeader": "共同吉伊卡哇人魚島/賽蓮雨滴終端速度長文及0.5/1.0/2.0/5.0 mm與7.6/14.4/23.4/32.4 km/hr四列表，原印明確。",
+      "questionNumbers": [],
+      "sha256": "9c6477a24412ae24c726917fbdf2e5632bc662aa40c1f5a5091c80de4c5210b9",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-465-source-88d2320ca4.jpg",
+      "visibleHeader": "同一原卷共同長文/表完整，下面接印刷16，問2.0mm換m/s，底緣接17開頭；頁面手算保留。",
+      "questionNumbers": [
+        "16",
+        "17(head)"
+      ],
+      "sha256": "88d2320ca482d46554e01949ea4ea33de57f4e53e6bc88e264e2c41022decfcb",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-124-source-straight-a1283251ce.jpg",
+      "visibleHeader": "印刷17明說「承上題」「這顆雨滴」，300公分/一路終端速度/四選46.15,12.82,0.46,0.23。",
+      "questionNumbers": [
+        "17"
+      ],
+      "sha256": "a1283251ce16560c954b700c0e4a6e21b63e82333f9caa16e391abd53e6a46c4",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "保留最早qid q124但閱讀順序必16(q465)→17(q124)，不可按qid直接把17放16前。",
+    "17原有前題條件2.0mm是整理補充，合組完整呈現16後自然承接；不丟2.0mm關鍵條件，也不新改原題文字/已核D與C答。",
+    "原表原件含手算，依使用者筆跡通則完整保留，不為去筆跡重畫猜值。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-124",
+      "q-465"
+    ],
+    "reviewedQuestionIds": [
+      "q-124",
+      "q-465"
+    ],
+    "confirmedQuestionIds": [
+      "q-124",
+      "q-465"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-124": "d2a0f4670d6ea7d32bfcb3ba6a9bf53bb19226988ce01a966ce8d584eaec5b4d",
+    "q-465": "6d2f6777aed9b969694efa09cdc799d1ee8a752e65da6e6c5a17a00ed6193ebe"
+  }
+}

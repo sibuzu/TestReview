@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-130",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:14:04.084489+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-130",
+    "q-131"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-130",
+    "q-131"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-130-q-131",
+      "questionIds": [
+        "q-130",
+        "q-131"
+      ],
+      "retainId": "q-130",
+      "aliasIds": [
+        "q-131"
+      ],
+      "subject": "English",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "English",
+      "childSubjects": {
+        "q-130": "English",
+        "q-131": "English"
+      },
+      "sourceIds": [
+        "src-more-030"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05f9d-78fc-83ec-8598-7098a25afe11"
+      ],
+      "printedRange": "同一src-more-030同一原卷克漏字框明印16～20，現有q130第16與q131第18各填該篇編號空，是真正共享克漏字題組；沒有把另篇系外行星或童婚文章合入。",
+      "originalQuestionNumbers": {
+        "q-130": "16",
+        "q-131": "18"
+      },
+      "commonMaterial": {
+        "passage": "People want to know about space. We want to visit Mars next. Before we go, we need to know: ___16___ is the weather like on Mars? It is very cold there, much colder than Antarctica.\nMany people have a big plan. They ___17___ send workers to Mars in the near future. However, the trip is long and not safe. We cannot go there ___18___ a plane or a bus. We need a strong ship. Time is also hard. It usually ___19___ a ship about seven months to fly from Earth to Mars. Even so, we are still happy. Robots on Mars get rocks and send news ___20___ us every day.\n\n原卷字詞：Mars 火星；Antarctica 南極。\n原卷將Antarctica誤註為「北極」，此處校正；其餘文章及空格依原題保留。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-130-reading-source-94500e8353.jpg",
+          "visibleHeader": "原卷共同框上方明印(16～20)，Mars克漏字文有16/17/18/19/20空、字詞Mars/Antarctica；註字北極保留照片，現有說明已訂南極。",
+          "questionNumbers": [
+            "16-20"
+          ],
+          "sha256": "94500e8353fa9b4eefd7dfeb3f497ad6c6500c8a9c93993750d3e882e2059712",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-130-source-0e5c9cef78.jpg",
+          "visibleHeader": "16原四選How/What/Which/Where，填共同文weather like的16空。",
+          "questionNumbers": [
+            "16"
+          ],
+          "sha256": "0e5c9cef78c3fbda962f4c1692cbb9c70880c02254644b1fadf7f4051ec646b1",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-131-source-f535ca97ae.jpg",
+          "visibleHeader": "18原四選by/in/on/with，填共同文a plane or a bus的18空。",
+          "questionNumbers": [
+            "18"
+          ],
+          "sha256": "f535ca97aed59270cd1d5d12c9c4cac6b727113350e54bf86a813053946b1271",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-030同一原卷克漏字框明印16～20，現有q130第16與q131第18各填該篇編號空，是真正共享克漏字題組；沒有把另篇系外行星或童婚文章合入。",
+      "childCoverage": [
+        {
+          "questionId": "q-130",
+          "originalQuestionNumber": "16",
+          "sourceId": "src-more-030",
+          "date": "2026-10-21",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "B",
+          "questionFingerprint": "b6e69c20891d34e1b6228932df057f44b541d882a909f3ab81b77feb119fa75a",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-130-reading-source-94500e8353.jpg",
+            "assets/questions/q-130-source-0e5c9cef78.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "問天氣，先看句尾有沒有 like",
+            "art": "assets/comics/q-130-art-6ecb99a53d-web.webp",
+            "panels": [
+              {
+                "heading": "① 有 like，用 What",
+                "text": "What is the weather like? 是「天氣如何？」本題句尾已有 like，因此空格選 What。",
+                "alt": "師生望向窗外天氣，以問答情境連結詢問天氣。"
+              },
+              {
+                "heading": "② 另一種問法用 How",
+                "text": "How is the weather? 也可詢問天氣，但這個句型沒有 like。兩種完整問法要分開記。",
+                "alt": "師生在科學教室討論火星，用不同問句表達同樣的天氣問題。"
+              },
+              {
+                "heading": "③ 用後文確認問的內容",
+                "text": "後文 It is very cold there. 回答那裡很冷，談的是天氣狀況。on Mars 已交代地點，不必再用 Where。",
+                "alt": "師生觀看教室中的火星地表影像，並非人在火星戶外。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：What",
+              "points": [
+                "What is the weather like?",
+                "How is the weather?",
+                "本題已有 like，不能混成 How…like?。"
+              ]
+            }
+          }
+        },
+        {
+          "questionId": "q-131",
+          "originalQuestionNumber": "18",
+          "sourceId": "src-more-030",
+          "date": "2026-10-21",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "C",
+          "questionFingerprint": "006d738f7c33b2c4e593a71f656b85a6cdd330fc73e3fe9b5299c6bb27e3f3c6",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-131-reading-source-94500e8353.jpg",
+            "assets/questions/q-131-source-f535ca97ae.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先看冠詞，再選交通介系詞",
+            "art": "assets/comics/q-131-art-cc87d5f00f-web.webp",
+            "panels": [
+              {
+                "heading": "① 搭飛機：on a plane",
+                "text": "本題已印出 a plane。一般說 on a plane；若用 by，則說 by plane，交通工具名詞前不加 a。",
+                "alt": "旅客坐在飛機客艙內，繫好安全帶。"
+              },
+              {
+                "heading": "② 搭公車：on a bus",
+                "text": "公車也常用 on a bus。本句把 a plane 與 a bus 並列，所以同一個 on 能與兩者搭配。",
+                "alt": "同一位旅客坐在公車內，與飛機搭乘情境對照。"
+              },
+              {
+                "heading": "③ 小客車常用 in",
+                "text": "小客車或計程車常說 in a car、in a taxi。這是搭配習慣；on a plane 不表示人坐在飛機屋頂上。",
+                "alt": "旅客坐在小客車後座車廂內，繫好安全帶。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：on",
+              "points": [
+                "by plane／by bus：不加 a。",
+                "on a plane／on a bus：保留 a。",
+                "回原文：不能搭一般飛機或公車到火星，需要太空船。"
+              ]
+            }
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-130-reading-source-94500e8353.jpg",
+      "visibleHeader": "原卷共同框上方明印(16～20)，Mars克漏字文有16/17/18/19/20空、字詞Mars/Antarctica；註字北極保留照片，現有說明已訂南極。",
+      "questionNumbers": [
+        "16-20"
+      ],
+      "sha256": "94500e8353fa9b4eefd7dfeb3f497ad6c6500c8a9c93993750d3e882e2059712",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-130-source-0e5c9cef78.jpg",
+      "visibleHeader": "16原四選How/What/Which/Where，填共同文weather like的16空。",
+      "questionNumbers": [
+        "16"
+      ],
+      "sha256": "0e5c9cef78c3fbda962f4c1692cbb9c70880c02254644b1fadf7f4051ec646b1",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-131-source-f535ca97ae.jpg",
+      "visibleHeader": "18原四選by/in/on/with，填共同文a plane or a bus的18空。",
+      "questionNumbers": [
+        "18"
+      ],
+      "sha256": "f535ca97aed59270cd1d5d12c9c4cac6b727113350e54bf86a813053946b1271",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "只合庫內16/18。共同文其餘17/19/20原空格照留，不憑空補新子題、選項或答案。",
+    "Antarctica原註北極的既有校正與原件都保留，不新開已處理事項；B/C各自句型詳解/圖全保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-130",
+      "q-131"
+    ],
+    "reviewedQuestionIds": [
+      "q-130",
+      "q-131"
+    ],
+    "confirmedQuestionIds": [
+      "q-130",
+      "q-131"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-130": "a5db91367099da2622801ce06b113611d0356620bdadc6e16ce376b9e085ae61",
+    "q-131": "42a9dfcd21273ef43b4dc8f9feae4fdd907c99b27739086de7e6891144daf805"
+  }
+}

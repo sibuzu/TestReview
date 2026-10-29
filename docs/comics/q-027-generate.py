@@ -1,0 +1,17 @@
+from pathlib import Path
+import json,hashlib
+a=Path('docs/comics/art/q-027.svg');p=['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="孟初農曆七月，仲中農曆八月，季末農曆九月，不是西曆月份"><rect width="900" height="300" fill="#faf8ed"/><style>text{font-family:"Noto Sans CJK TC",sans-serif;text-anchor:middle;fill:#294c48}.h{font-size:26px;font-weight:700}.w{font-size:24px;font-weight:700}.s{font-size:20px}</style>']
+for i,(title,month,order,c) in enumerate([('孟＝初','七月','秋季第一月','#dfeadb'),('仲＝中','八月','秋季第二月','#eee5d4'),('季＝末','九月','秋季第三月','#e9dfd6')]):
+ p.append(f'<g id="season-{i}" transform="translate({i*300} 0)"><text x="150" y="37" class="h">{title}</text><rect x="39" y="64" width="222" height="168" rx="15" fill="{c}" stroke="#939e87" stroke-width="2"/><path d="M39 112 H261" stroke="#939e87" stroke-width="2"/><path d="M86 54 V79 M214 54 V79" stroke="#939e87" stroke-width="7" stroke-linecap="round"/><text x="150" y="98" class="s">農曆</text><text x="150" y="191" style="font-size:60px;font-weight:700">{month}</text><text x="150" y="275" class="w">{order}</text></g>')
+p.append('</svg>');a.write_text(''.join(p))
+d={'id':'q-027','subject':'Chinese','title':'先抓原句初秋，再對應孟、仲、季','art':str(a),'artMode':'deterministic-svg','generatorFile':'docs/comics/q-027-generate.py','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① 孟＝初：初秋就是孟秋','text':'原文明說我所愛的不是晚秋，是初秋。孟表示一季的開始，孟秋就是秋季第一個月、農曆七月，所以直接對應 A；不必另猜作者未說的時段。','alt':'全新精確SVG孟等於初、農曆七月、秋季第一月日曆牌，只標月份不編年份日期或把農曆誤當西曆。'},
+{'heading':'② 仲＝中：仲秋在秋季中段','text':'仲表示一季中段，仲秋是秋季第二個月、農曆八月。作者已說初秋，不能看到月正圓，就捨棄直接線索而猜成中秋或仲秋；本題先做原句到雅稱的對應。','alt':'全新精確SVG仲等於中、農曆八月、秋季第二月日曆牌，不以月相畫面推原題一定是中秋節或把中秋僅有一義。'},
+{'heading':'③ 季＝末：季秋就是秋季末段','text':'季表示一季末段，季秋是秋季第三個月、農曆九月，也就是晚秋。原句不是晚秋已明確排除這一項。把孟、仲、季按初、中、末順序一起記，便不容易混淆。','alt':'全新精確SVG季等於末、農曆九月、秋季第三月日曆牌，不用植物落葉深淺冒充精確月份或實際天氣紀錄。'}],
+'fourth':{'answer':'答案 A：孟秋','points':['直接線索：不是晚秋，是初秋。','孟初、仲中、季末，先後依序對照。','七、八、九月在這裡都是農曆月份。']},
+'protectedWords':['孟秋','仲秋','中秋','季秋','初秋','晚秋','農曆','七月','八月','九月','第一個月','第二個月','第三個月','月正圓','直接線索','雅稱','孟、仲、季'],
+'originalChecked':{'images':['site/dist/assets/questions/q-027-source-1-a1bdbef598.jpg','site/dist/assets/questions/q-027-source-2-e5f8b2065b.jpg'],'visualChecked':True,'answer':'A','notes':'親見原閱讀裁與4四項/紅改A，初秋明確可讀。另原句蕭瑟前漏兩字，後字低解析未斷定，已另review待核；漫畫僅用清楚初秋線索，未猜補該詞或後段引詩。'},
+'sourceUrl':'https://share.gemini.google/P5nF20mjzum8','answerCheckedAgainst':'原卷初秋對孟秋；MOE孟秋七月、仲秋八月、季秋九月三主文實讀，A不變。原文漏字待核不重問答案。',
+'references':[{'title':'教育部簡編辭典：孟秋','url':'https://dict.concised.moe.edu.tw/dictView.jsp?ID=4373&la=0&powerMode=0','supports':'秋季第一月，農曆七月','access':'主文已讀'},{'title':'教育部重編辭典：仲秋','url':'https://dict.revised.moe.edu.tw/dictView.jsp?ID=120432&la=0&powerMode=0','supports':'秋季第二月，陰曆八月','access':'主文已讀'},{'title':'教育部重編辭典：季秋','url':'https://dict.revised.moe.edu.tw/dictView.jsp?ID=88729&la=1&powerMode=0','supports':'秋季第三月，農曆九月','access':'主文已讀'}],
+'rationale':'三個精確農曆月牌與孟仲季初中末對照，避免靠自然景象猜季節。原文完整性新差異另交卡，此圖不依賴待核兩字，也不推斷月正圓等於節日。',
+'sourceAIUsed':False,'generationCalls':0,'manualLineBreaks':False,'contentReview':'docs/comics/q-027-original-ocr-review.json','diagramChecks':{'answer':'A','monthSystem':'農曆','孟秋':7,'仲秋':8,'季秋':9,'weekdayOrGregorianDateInvented':False,'newOCRWordGuessedInComic':False,'answerDoubtReopened':False},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()};Path('docs/comics/q-027.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

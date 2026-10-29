@@ -1,10 +1,12 @@
 {
-  "checkedAt": "2026-10-29T11:38:23.189Z",
+  "checkedAt": "2026-10-29T12:21:07.975Z",
   "mode": "isolated static fixtures with mocked cloud/session handlers; no real cloud calls",
   "results": [
     {
       "width": 1440,
       "passed": true,
+      "fixedListVerified": true,
+      "shuffleAndReturnVerified": true,
       "negativeProgressVerified": true,
       "accountIsolationVerified": true,
       "sharedDoubtsVerified": true,
@@ -45,6 +47,8 @@
     {
       "width": 390,
       "passed": true,
+      "fixedListVerified": true,
+      "shuffleAndReturnVerified": true,
       "negativeProgressVerified": true,
       "accountIsolationVerified": true,
       "sharedDoubtsVerified": true,
@@ -85,6 +89,8 @@
     {
       "width": 360,
       "passed": true,
+      "fixedListVerified": true,
+      "shuffleAndReturnVerified": true,
       "negativeProgressVerified": true,
       "accountIsolationVerified": true,
       "sharedDoubtsVerified": true,
@@ -123,5 +129,14 @@
       ]
     }
   ],
-  "screenshots": "/home/jack/git/TestReview/.cache/score-ui"
+  "screenshots": "/home/jack/git/TestReview/.cache/score-ui",
+  "actualVisualReview": {
+    "reviewer": "root",
+    "screenshots": [
+      ".cache/score-ui/list-1440.png",
+      ".cache/score-ui/list-390.png"
+    ],
+    "findings": "Fixed list; icon-only calendar and shuffle above first question, right-aligned next to/below FLAG table; no horizontal overflow."
+  },
+  "scope": "FLAG/account regression plus fixed list, newest-date and persistent shuffle ordering"
 }

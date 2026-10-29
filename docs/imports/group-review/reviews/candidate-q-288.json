@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-288",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:20:34.176020+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-288",
+    "q-289"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-288",
+    "q-289"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-288-q-289",
+      "questionIds": [
+        "q-288",
+        "q-289"
+      ],
+      "retainId": "q-288",
+      "aliasIds": [
+        "q-289"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-288": "Chinese",
+        "q-289": "Chinese"
+      },
+      "sourceIds": [
+        "src-more-043"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae06173-f304-83e8-9d50-b4c48a5b381a"
+      ],
+      "printedRange": "同一src-more-043原卷題頭明示兩篇短文41～42，41比較敗亡因果、42尋共同事蹟，各用完整甲乙，不是僅同崔延伯題材。",
+      "originalQuestionNumbers": {
+        "q-288": "41",
+        "q-289": "42"
+      },
+      "commonMaterial": {
+        "passage": "【甲】\n有田僧超者，善吹笳，征西將軍崔延伯甚愛之。延伯高冠長劍耀武於前，僧超吹壯士音哀曲於後。聞之者懦夫成勇，劍客思奮。延伯膽略不群，戰無不勝，二年之間，獻捷相繼。萬俟醜奴，募善射者射僧超亡，延伯悲惜哀慟，左右謂伯牙之失鍾子期。僧超死，延伯不復能戰。後延伯為流矢所中，卒於軍中。於是五萬之師，一時潰散。\n（改寫自楊衒之《洛陽伽藍記》）\n\n【乙】\n延伯既破賊，乃與蕭寶夤率眾會於涇州，軍威甚盛。萬俟醜奴置營涇州西北七十里處，時或輕騎暫來挑戰，大兵未交，便示奔北。延伯矜功負勝，遂倡議先驅。眾軍將出討賊，未戰之間，有賊數百騎，詐持文書，云是降簿，乞且緩師。寶夤、延伯謂其事實而未閱。俄而宿勤明達率眾自東北而至，乞降之賊從西競下，延伯軍前後受敵。賊本輕騎，延伯軍兼步卒，兵力疲怠，延伯軍遂大敗。寶夤斂軍退保涇州，延伯修繕器械，購募驍勇。延伯恥前挫辱，不報寶夤，獨出襲賊，賊皆逃遁。延伯軍趁亂劫掠，散亂不整，賊兵還來衝突，遂大奔敗。延伯中流矢，為賊所害，士卒死者萬餘人。\n（改寫自《魏書》）\n\n字詞提示（依原卷註釋整理）：萬俟醜奴，北魏時期軍事領袖；萬俟為複姓，讀ㄇㄛˋ ㄑㄧˊ。伯牙，春秋時善鼓琴者，與鍾子期為至交。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-288-reading-5c4bd5cf59.jpg",
+          "visibleHeader": "原卷明印「請閱讀以下兩篇短文，並回答41～42題」，甲洛陽伽藍記改寫與乙魏書改寫兩篇完整。",
+          "questionNumbers": [
+            "41-42"
+          ],
+          "sha256": "5c4bd5cf59196d9519ee23204de47bc81b86f6a2942713773c3bd9937eab43bb",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-288-source-129da0943f.jpg",
+          "visibleHeader": "41甲乙敗亡過程比較四選，右邊原字詞註萬俟醜奴/伯牙/鍾子期。",
+          "questionNumbers": [
+            "41"
+          ],
+          "sha256": "129da0943ff31c35d67be27e9a14de2dac88bb5796ce5a0101396b9871b56c65",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-289-source-f3230bd211.jpg",
+          "visibleHeader": "42根據甲乙兩文，四選比較共同事蹟，原紅D訂正可見。",
+          "questionNumbers": [
+            "42"
+          ],
+          "sha256": "f3230bd211e5e9165385973e0082b2785ed1c5831f15030dee6b681f196fe85f",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-043原卷題頭明示兩篇短文41～42，41比較敗亡因果、42尋共同事蹟，各用完整甲乙，不是僅同崔延伯題材。",
+      "childCoverage": [
+        {
+          "questionId": "q-288",
+          "originalQuestionNumber": "41",
+          "sourceId": "src-more-043",
+          "date": "2026-10-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "9224bfa6e2624d48c43fa144f80cedc98b4fbf4e600e3f120fce6a4850336c89",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-288-reading-5c4bd5cf59.jpg",
+            "assets/questions/q-288-source-129da0943f.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "甲看鼓舞前後，乙看戰術行動",
+            "art": "assets/comics/q-288-art-90c75d9d60-web.webp",
+            "panels": [
+              {
+                "heading": "① 甲文：音樂鼓舞士氣",
+                "text": "田僧超吹奏時，文中說「懦夫成勇，劍客思奮」，崔延伯也接連獲勝。作用是鼓舞，不是沉溺聲色享樂。",
+                "alt": "甲文概念示意：蓄髮吹奏者與將士，表現音樂鼓舞士氣。"
+              },
+              {
+                "heading": "② 甲文：失去鼓舞後轉弱",
+                "text": "田僧超死後，崔延伯悲痛，原文直接說「延伯不復能戰」。前後變化最能支持B。情境圖不復原人物真實外貌。",
+                "alt": "將領在軍營神情悲傷，身旁吹奏者的位置已空。"
+              },
+              {
+                "heading": "③ 乙文：核對具體行動",
+                "text": "乙文談假投降、前後受敵，及後來獨自出兵、軍紀散亂。「退保涇州」是撤回防守，不能改成涇州失守，也未寫離間計。",
+                "alt": "現代師生把兩份文章分開比較，確認不同敘述的依據。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：失去鼓舞後不復善戰",
+              "points": [
+                "甲文支持音樂鼓舞的前後對照，A把作用解反。",
+                "C、D增加了乙文沒有的失守或離間情節。",
+                "田僧超是人物姓名，不能因名字有僧字就推定出家。"
+              ]
+            }
+          }
+        },
+        {
+          "questionId": "q-289",
+          "originalQuestionNumber": "42",
+          "sourceId": "src-more-043",
+          "date": "2026-10-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "a232c88fbcb4dcb481b60551df641d34def0a17f99165af8c6d788702ac07ca7",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-288-reading-5c4bd5cf59.jpg",
+            "assets/questions/q-289-source-f3230bd211.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "比較兩文：共同點要兩邊都有證據",
+            "art": "assets/comics/q-289-art-f12c1b22a9.svg",
+            "panels": [
+              {
+                "heading": "① 甲、乙各找到立功證據",
+                "text": "甲說「戰無不勝」「獻捷相繼」；乙開頭說「延伯既破賊」，表示崔延伯已經打敗敵軍。兩篇都提及他曾獲勝立功，因此D有雙重依據。",
+                "alt": "甲、乙兩份文本各有一個證據勾，兩箭頭共同指向曾立戰功，不把後來失敗誤當從未立功。"
+              },
+              {
+                "heading": "② A把說話者與角色都換錯",
+                "text": "甲的「左右謂」是身邊的人作比喻，不是崔延伯自比。崔延伯對應伯牙，田僧超對應鍾子期；A把人物與比喻角色配錯了。",
+                "alt": "說話者左右置頂，兩條分開的角色配對：崔延伯對伯牙、田僧超對鍾子期，避免交叉錯配。"
+              },
+              {
+                "heading": "③ B換主詞，C把一文當兩文",
+                "text": "乙的「延伯矜功負勝」在寫崔延伯自恃戰功，不是在寫萬俟醜奴。甲的重點則是田僧超的鼓舞與死後影響，不能把乙的描寫擴成兩文共同重點。",
+                "alt": "乙文主詞延伯沿箭頭連到矜功負勝，不把性格判斷錯移給萬俟醜奴。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：兩文皆提及曾立戰功",
+              "points": [
+                "共同點要甲、乙各找到明確依據。",
+                "A核對比喻者及被比喻者；B核對主詞。",
+                "不能把乙文的性格描寫擴成兩文共同結論。"
+              ]
+            },
+            "protectedWords": [
+              "崔延伯",
+              "田僧超",
+              "萬俟醜奴",
+              "鍾子期",
+              "伯牙",
+              "戰無不勝",
+              "獻捷相繼",
+              "延伯既破賊",
+              "矜功負勝",
+              "左右謂",
+              "曾立戰功"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-288-reading-5c4bd5cf59.jpg",
+      "visibleHeader": "原卷明印「請閱讀以下兩篇短文，並回答41～42題」，甲洛陽伽藍記改寫與乙魏書改寫兩篇完整。",
+      "questionNumbers": [
+        "41-42"
+      ],
+      "sha256": "5c4bd5cf59196d9519ee23204de47bc81b86f6a2942713773c3bd9937eab43bb",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-288-source-129da0943f.jpg",
+      "visibleHeader": "41甲乙敗亡過程比較四選，右邊原字詞註萬俟醜奴/伯牙/鍾子期。",
+      "questionNumbers": [
+        "41"
+      ],
+      "sha256": "129da0943ff31c35d67be27e9a14de2dac88bb5796ce5a0101396b9871b56c65",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-289-source-f3230bd211.jpg",
+      "visibleHeader": "42根據甲乙兩文，四選比較共同事蹟，原紅D訂正可見。",
+      "questionNumbers": [
+        "42"
+      ],
+      "sha256": "f3230bd211e5e9165385973e0082b2785ed1c5831f15030dee6b681f196fe85f",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "兩篇甲乙與原字詞註釋完整一次，不能只留其中一篇或省掉41右欄註。",
+    "q288使用者已確認B；q289 D維持，兩子全部選項/已核解說與教學圖均保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-288",
+      "q-289"
+    ],
+    "reviewedQuestionIds": [
+      "q-288",
+      "q-289"
+    ],
+    "confirmedQuestionIds": [
+      "q-288",
+      "q-289"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-288": "ce4d3658fd2c48043c288141960634c8fd858a5e66277e98e1f8548b109dc8ae",
+    "q-289": "9953116d5f0d59d2b5cbcb39b974f5eeeb306570e75d6d4484b155693082e451"
+  }
+}

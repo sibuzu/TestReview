@@ -90,8 +90,36 @@
   "integrationRecommendation": "新四格完整涵蓋舊三步AI作圖，root整合時移除舊q-105-explanation.png的explanationFigures引用以免重複；保留q-105-given.svg作答必要圖及原卷。",
   "artSHA256": "df55ea3881f44d9ab539926f451df33fc88f708af54682f270f27056d8d046a9",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T05:17:57.449079+00:00",
+  "checkedAt": "2026-10-29T06:11:48.815836+00:00",
   "completedAt": "2026-10-29T05:17:57.449079+00:00",
   "layoutEvidence": "docs/comics/q-105-preview-validation.json",
-  "visualReview": "實看1440/1120/390，AC/BD與PR/QS連線端點/中心交點正確，P/S上Q/R下，小矩形明示放大；L最後繪製穿過兩中心並延長，兩側解析同面積。標字未裁切，同行等高手機自然高，完整取代舊三步圖。"
+  "visualReview": "實看1440/1120/390，AC/BD與PR/QS連線端點/中心交點正確，P/S上Q/R下，小矩形明示放大；L最後繪製穿過兩中心並延長，兩側解析同面積。標字未裁切，同行等高手機自然高，完整取代舊三步圖。",
+  "nativeArt": "assets/comics/q-105-art-df55ea3881.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T06:11:48.703610+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "使用者第18凹矩形原圖及已確認作法已對照，另實渲染given。AC/BD交大中心，PR/QS交小中心，連中心同時平分兩矩形，解析剩餘面積6396/6396。正式桌手機點序P/S上Q/R下及L通過雙中心實看；移除舊自製q-105-explanation.png重複引用，必要given保留。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-105-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-105-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-105-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-105-validation.json"
 }

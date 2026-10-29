@@ -65,8 +65,36 @@
   "geometryValidation": "docs/comics/q-229-geometry-validation.json",
   "artSHA256": "991e35634882797a37cbaddf1498105aa4b625b8f2a61ae1e34bfbc13ffccc0c",
   "completedAt": "2026-10-29T05:04:12.234804+00:00",
-  "checkedAt": "2026-10-29T05:04:12.234822+00:00",
+  "checkedAt": "2026-10-29T06:00:56.413187+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-229-preview-validation.json",
-  "visualReview": "實看新540x180原生SVG與1440/390完整四格：點名和正方形垂線清楚，BF括線止於F、BC括線至C；54位於右側三角形內，三段9/12/9區分清楚。桌機同列等高、手機自然高度，無橫溢/公式保護詞斷裂。"
+  "visualReview": "實看新540x180原生SVG與1440/390完整四格：點名和正方形垂線清楚，BF括線止於F、BC括線至C；54位於右側三角形內，三段9/12/9區分清楚。桌機同列等高、手機自然高度，無橫溢/公式保護詞斷裂。",
+  "nativeArt": "assets/comics/q-229-art-991e356348.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T06:00:56.387539+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見等腰梯形內接正方形、BF=2AE−3、右三角54及求BC；先BE=CF=x−3，面積方程正根12排負−9，BC9+12+9=30而BF21。正式桌手機BF/BC括線與面積區實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-229-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-229-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-229-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-229-validation.json"
 }

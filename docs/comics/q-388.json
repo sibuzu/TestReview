@@ -1,0 +1,93 @@
+{
+  "id": "q-388",
+  "subject": "Chinese",
+  "title": "口的形體加符號，表達發言",
+  "art": "docs/comics/art/q-388-concept.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:57:45.423701+00:00",
+  "panels": [
+    {
+      "heading": "① 先看題目指定的指事條件",
+      "text": "題目要找在象形形體上附加符號，用來表示抽象概念。不是單憑筆畫少，或看到幾個部件組合，就判為這一類指事。",
+      "alt": "新製現代楷書概念圖，以口形外框與內加橙色短橫表示基底/指示符號，明示概念示意，不重描原卷篆形或冒充古文字。"
+    },
+    {
+      "heading": "② C的曰用來表示發言",
+      "text": "依本題的說明，曰在口的形體內加符號，表示說話，符合條件。注意它是曰，不是日；原卷古文字要對照作答附圖。",
+      "alt": "新製現代曰/日原生大字比較，曰橫長豎短、日豎長橫短；下方明示古文字看原卷，未用AI生成古字形替換題圖。"
+    },
+    {
+      "heading": "③ 其餘三字依題意排除",
+      "text": "依本題分類，古與北是組合形體表意的會意；果描畫樹木結果的樣子，屬象形。這些都不是題目指定的加符號表抽象概念。",
+      "alt": "新製古/北/果現代標準字與本題會意/會意/象形分類對照，未將古誤讀谷，也不宣稱學界所有分類絕無差異。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 口的形體加符號，表達發言",
+    "answer": "答案 C：曰",
+    "points": [
+      "象形基底加上指示符號，表示發言。",
+      "曰不是日，古不是谷。",
+      "保留原卷古文字，按題目指定條件判斷。"
+    ]
+  },
+  "protectedWords": [
+    "指事",
+    "象形",
+    "形體",
+    "附加符號",
+    "抽象概念",
+    "筆畫",
+    "部件",
+    "組合",
+    "發言",
+    "說話",
+    "古文字",
+    "作答附圖",
+    "會意",
+    "分類",
+    "樹木結果",
+    "原卷"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-388-source-1a0ba81167.jpg",
+    "site/dist/assets/questions/q-388-figure-e8bfb440e0.jpg"
+  ],
+  "originalVisualCheck": "實看18題完整題幹與原卷四古字/說文表：古故也、北二人相背、曰詞也、果木實也，原手寫D紅改C。原篆形原圖保留不重畫替換；新SVG只現代字形與概念教學。",
+  "answerCheckedAgainst": "題目限定在象形基礎上附符號表抽象，本題曰口內加符號發言屬指事，古/北會意、果象形依本題既有分類，維持C。官方異體字曰明示楷書口中加一橫、曰與日比例有別；未用學界不同六書分類翻改已核對題。",
+  "rationale": "新製基底與符號著色、曰日現代形比較、其餘類別排除三步SVG，原題古文字完整保留作答區，避免AI重現古字誤形；不用人物或來源AI圖。",
+  "generationCalls": 0,
+  "references": [
+    {
+      "title": "教育部異體字字典：曰",
+      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=20234&la=0",
+      "access": "opened full text, modern character shape and meaning checked"
+    },
+    {
+      "title": "教育部教育百科：指事（簡編本來源）",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E6%8C%87%E4%BA%8B&title=%E6%8C%87%E4%BA%8B",
+      "access": "opened full text, general symbolic definition checked"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "C 曰",
+    "modernConceptOnly": true,
+    "ancientOriginalReplaced": false,
+    "asQuestionClassification": {
+      "古": "會意",
+      "北": "會意",
+      "曰": "指事",
+      "果": "象形"
+    },
+    "modernContrast": [
+      "曰",
+      "日"
+    ]
+  },
+  "artSHA256": "acf1e710d8ef747d63a6cb6a195f1ebccc596467503d81cf77a82295af52b2cf",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:58:32.750516+00:00",
+  "completedAt": "2026-10-29T05:58:32.750516+00:00",
+  "layoutEvidence": "docs/comics/q-388-preview-validation.json",
+  "visualReview": "實看1440/1120/390：口框與內符號標明概念示意，現代曰/日大字與長短差清楚，古/北/果不誤字；原古字題圖未改。三寬裁切和詞組換行正確，同行等高手機自然高無溢出。"
+}

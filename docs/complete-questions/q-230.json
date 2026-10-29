@@ -1,0 +1,59 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "面積比找高度，再求10與17兩種邊",
+    "art": "assets/comics/q-230-art-a9d9f6a195.svg",
+    "panels": [
+      {
+        "heading": "① 面積比轉成AF與AC的比",
+        "text": "AC垂直平分BD。兩個圖形都用BD作共同底，面積比等於AF比AC。由4：7與AC＝21，得AF＝12；AE＝EF，所以各為6。",
+        "alt": "新製精確鳶形A/B/C/D與內部ABFD橙色區，共用BD；AC全長21與AF12以兩側括號分別標示，F在EC內不畫成C。"
+      },
+      {
+        "heading": "② 直角△BEF求BE",
+        "text": "BF＝10、EF＝6，△BEF在E為直角。用畢氏定理得BE＝8。另有EC＝AC−AE＝21−6＝15，不是21減AF。",
+        "alt": "新製精確6/8/10直角△BEF，EF直角邊6、BE8、BF斜邊10；原生空心直角記號在E。"
+      },
+      {
+        "heading": "③ 兩種邊長相加後乘2",
+        "text": "△ABE兩股6與8，求AB＝10；△CBE兩股15與8，求BC＝17。鳶形各有兩條這樣的邊，所以周長54，也符合AB小於BC。",
+        "alt": "新製鳶形左半△ABC與垂線BE，AE6/EC15/BE8，AB10與BC17同橙色但數值不同，不把兩種邊畫成全等。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案：54",
+      "points": [
+        "AF＝12，AE＝EF＝6，EC＝15。",
+        "BE＝8；AB＝10，BC＝17。",
+        "周長＝2×10＋2×17＝54。"
+      ]
+    },
+    "protectedWords": [
+      "鳶形",
+      "面積比",
+      "共同底",
+      "垂直平分",
+      "畢氏定理",
+      "直角",
+      "直角邊",
+      "斜邊",
+      "兩股",
+      "周長",
+      "兩種邊長",
+      "AC",
+      "BD",
+      "AF",
+      "AE",
+      "EF",
+      "BF",
+      "BE",
+      "EC",
+      "AB",
+      "BC",
+      "ABFD",
+      "△BEF",
+      "△ABE",
+      "△CBE"
+    ]
+  }
+}

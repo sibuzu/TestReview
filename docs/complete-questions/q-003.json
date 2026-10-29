@@ -28,5 +28,51 @@
   "tables": [],
   "correctOption": "",
   "diagram": "",
-  "trap": ""
+  "trap": "",
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先算兩段x，再換回AE＝√2x",
+    "art": "assets/comics/q-003-art-cb602d36ba.svg",
+    "panels": [
+      {
+        "heading": "① 正方形對角線給出BE＝√2",
+        "text": "AB＝1，所以BD²＝1²＋1²＝2，BD＝√2。又BE＝BD，故BE＝√2。E在AD上方的正方形外，不能把它放到正方形裡面計算。",
+        "alt": "新精確單位正方形外點E，AE平行BD，BE與BD標同長√2，位置沿使用者已確認原圖。"
+      },
+      {
+        "heading": "② 作垂線，把AE拆成兩條相等段",
+        "text": "將BA向上延長，從E作垂線交於F。因AE∥BD，△AFE為45°等腰直角三角形。設AF＝EF＝x，則BF＝1＋x，而題目要求的AE＝√2x。",
+        "alt": "同一正方形向上延長BA至F，E垂足F，AF/EF皆x、AB1，F為直角，AE才是小三角形斜邊。"
+      },
+      {
+        "heading": "③ 在△BFE用畢氏，再乘回√2",
+        "text": "x²＋(1＋x)²＝2，整理得2x²＋2x−1＝0。取正根x＝(√3−1)／2，再算AE＝√2x＝(√6−√2)／2；不要把AF的長度x直接當成AE。",
+        "alt": "抽出同一真坐標大直角三角形BFE，兩直角邊x/1+x、斜邊√2，與小等腰直角三角形區分。"
+      }
+    ],
+    "fourth": {
+      "answer": "AE＝(√6−√2)／2",
+      "points": [
+        "大三角形BF＝1＋x，EF＝x，BE＝√2。",
+        "先得到AF＝x＝(√3−1)／2。",
+        "所求是小三角形斜邊AE，還要乘√2。"
+      ]
+    },
+    "protectedWords": [
+      "BE＝√2",
+      "BD＝√2",
+      "BD²",
+      "△AFE",
+      "△BFE",
+      "AF＝EF＝x",
+      "BF＝1＋x",
+      "AE＝√2x",
+      "x²＋(1＋x)²＝2",
+      "2x²＋2x−1＝0",
+      "(√3−1)／2",
+      "(√6−√2)／2",
+      "AF",
+      "AE"
+    ]
+  }
 }

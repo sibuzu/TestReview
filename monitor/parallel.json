@@ -2,23 +2,23 @@
   "mode": "two_producers_one_integrator_root_available",
   "workerLimit": 2,
   "rootRole": "回答使用者與機動；專職整合交由comic_lane_3",
-  "updatedAt": "2026-10-29T05:53:46.189455+00:00",
+  "updatedAt": "2026-10-29T06:11:48.928251+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-387",
-      "title": "國文第15題｜始終不渝與堅定意志",
+      "questionId": "q-397",
+      "title": "國文第30題｜戰爭與科技的正反關係",
       "state": "running",
-      "startedAt": "2026-10-29T05:51:34.979985+00:00",
+      "startedAt": "2026-10-29T06:10:39.703511+00:00",
       "agent": "/root/comic_lane_1",
       "role": "production"
     },
     {
       "lane": 2,
-      "questionId": "q-388",
-      "title": "國文第18題｜指事造字與口中符號",
+      "questionId": "q-396",
+      "title": "國文第29題｜罐頭發展目的的資訊擷取",
       "state": "running",
-      "startedAt": "2026-10-29T05:53:25.839687+00:00",
+      "startedAt": "2026-10-29T06:08:34.436243+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production"
     },
@@ -34,319 +34,6 @@
   ],
   "ready": [
     {
-      "id": "q-223",
-      "title": "數學第6題｜平行四邊形沿對角線摺疊",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:53:36.935529+00:00",
-      "readyAt": "2026-10-29T04:59:27.881249+00:00",
-      "decision": "complete",
-      "reason": "真鏡射A到A撇及E線交、兩x與136補角精確圖，獨立驗114及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-223.json",
-        "docs/comics/q-223-geometry-validation.json",
-        "docs/comics/q-223-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-225",
-      "title": "數學第8題｜三段圓弧等長關係與邊長比",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:54:45.279023+00:00",
-      "readyAt": "2026-10-29T05:02:15.754055+00:00",
-      "decision": "complete",
-      "reason": "新精確三弧幾何四格；沿已確認35:24，逐段半徑換算與x7/y24座標驗證，三寬QA及桌手機實看完成。",
-      "evidence": [
-        "docs/comics/q-225.json",
-        "docs/comics/q-225-preview-validation.json",
-        "docs/comics/q-225-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-226",
-      "title": "數學第9題｜等腰直角三角形決定平行四邊形面積",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:56:43.603491+00:00",
-      "readyAt": "2026-10-29T04:59:11.305532+00:00",
-      "decision": "complete",
-      "reason": "新製等腰直角△BEC/垂線分底5+5/平行四邊形共高5面積50 SVG，原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-226.json",
-        "docs/comics/q-226-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-227",
-      "title": "數學第10題｜鈍角平行四邊形的長對角線",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:59:11.344729+00:00",
-      "readyAt": "2026-10-29T05:02:19.540318+00:00",
-      "decision": "complete",
-      "reason": "新製鈍角平行四邊形外垂足/9-12-15/12-16-20精確SVG，H-B-C相加求AC20(A)，原卷與三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-227.json",
-        "docs/comics/q-227-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-228",
-      "title": "數學第1題｜哪些條件足以判定平行四邊形",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:59:27.920203+00:00",
-      "readyAt": "2026-10-29T05:04:34.936288+00:00",
-      "decision": "complete",
-      "reason": "B垂直等長充分條件及A/C/D逐項精確反例，斜接比較正確，三寬實看通過",
-      "evidence": [
-        "docs/comics/q-228.json",
-        "docs/comics/q-228-geometry-validation.json",
-        "docs/comics/q-228-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-229",
-      "title": "數學第2題｜等腰梯形內接正方形的底邊長",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:02:15.791776+00:00",
-      "readyAt": "2026-10-29T05:04:12.277949+00:00",
-      "decision": "complete",
-      "reason": "新精確等腰梯形四格，BF與BC分段及面積求正根；獨立合法坐標/長度/因式分解驗證30，三寬QA和raw桌手機實看完成。",
-      "evidence": [
-        "docs/comics/q-229.json",
-        "docs/comics/q-229-preview-validation.json",
-        "docs/comics/q-229-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-230",
-      "title": "數學第3題｜鳶形面積比與畢氏定理",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:02:19.577753+00:00",
-      "readyAt": "2026-10-29T05:04:53.826282+00:00",
-      "decision": "complete",
-      "reason": "新製共BD面積比/BEF6-8-10/半鳶形10與17幾何SVG，周長54原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-230.json",
-        "docs/comics/q-230-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-231",
-      "title": "數學第4題｜長方形裁成全等梯形的短底",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:04:12.317659+00:00",
-      "readyAt": "2026-10-29T05:06:03.805645+00:00",
-      "decision": "complete",
-      "reason": "新精確裁紙四格：全等長短底對應、45度等腰直角水平差8、解短底6；180度逐頂點映射及角度和差驗證，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-231.json",
-        "docs/comics/q-231-preview-validation.json",
-        "docs/comics/q-231-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-232",
-      "title": "數學第5題｜座標四邊形的面積差與對角線",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:04:34.972346+00:00",
-      "readyAt": "2026-10-29T05:12:41.379953+00:00",
-      "decision": "complete",
-      "reason": "精確坐標核對相套三角形面積差56及垂直對角線方程，正根8推出17",
-      "evidence": [
-        "docs/comics/q-232.json",
-        "docs/comics/q-232-geometry-validation.json",
-        "docs/comics/q-232-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-233",
-      "title": "數學第6題｜正方形內菱形的面積與對角線",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:04:53.858481+00:00",
-      "readyAt": "2026-10-29T05:07:10.558155+00:00",
-      "decision": "complete",
-      "reason": "新製旋轉菱形共中心/4a-2a比例/DOE直角1:2幾何SVG，面積24原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-233.json",
-        "docs/comics/q-233-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-008",
-      "title": "數學第6題｜四邊長為1、2、3、4的梯形",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:06:03.839032+00:00",
-      "readyAt": "2026-10-29T05:07:41.254819+00:00",
-      "decision": "complete",
-      "reason": "新六組配底/平移腰/畢氏求高四格；窮舉嚴格三角形不等式、7長度與坐標面積驗證10√2/3，三寬QA及raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-008.json",
-        "docs/comics/q-008-preview-validation.json",
-        "docs/comics/q-008-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-009",
-      "title": "數學第7題｜梯形中點到斜腰的距離",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:07:10.596067+00:00",
-      "readyAt": "2026-10-29T05:11:02.963898+00:00",
-      "decision": "complete",
-      "reason": "新製梯形高4√3/三區面積/BC換底垂足P精確SVG，距離2√3原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-009.json",
-        "docs/comics/q-009-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-003",
-      "title": "數學第17題｜正方形外的AE",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:07:41.292037+00:00",
-      "readyAt": "2026-10-29T05:10:15.513040+00:00",
-      "decision": "complete",
-      "reason": "沿已確認使用者第17圖，新精確外E/輔助F/大小直角三角形四格，獨立坐標平行等長正根驗證；三寬QA及raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-003.json",
-        "docs/comics/q-003-preview-validation.json",
-        "docs/comics/q-003-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-004",
-      "title": "數學第19題｜矩形對角線與角度分配",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:10:15.546435+00:00",
-      "readyAt": "2026-10-29T05:12:49.639890+00:00",
-      "decision": "complete",
-      "reason": "沿已確認第19圖與45度，新精確角分配/等腰半對角線/角差四格，真坐標6角驗證；三寬QA及最終raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-004.json",
-        "docs/comics/q-004-preview-validation.json",
-        "docs/comics/q-004-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-005",
-      "title": "數學第20題｜矩形等面積與黃金比例",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:11:03.002499+00:00",
-      "readyAt": "2026-10-29T05:14:34.865989+00:00",
-      "decision": "complete",
-      "reason": "新製三等面積著色/底高公式/二次正根與目標比值SVG，沿用使用者已確認(√5+1)/2，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-005.json",
-        "docs/comics/q-005-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-006",
-      "title": "數學第21題｜旋轉與畢氏定理求正方形面積",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:12:41.420247+00:00",
-      "readyAt": "2026-10-29T05:15:22.790724+00:00",
-      "decision": "complete",
-      "reason": "真坐標核對旋轉全等及延長線垂足順序，以逆畢氏與作高得到正方形面積",
-      "evidence": [
-        "docs/comics/q-006.json",
-        "docs/comics/q-006-geometry-validation.json",
-        "docs/comics/q-006-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-007",
-      "title": "數學第16題｜平行四邊形的角平分線證明",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:12:49.674211+00:00",
-      "readyAt": "2026-10-29T05:15:54.636848+00:00",
-      "decision": "complete",
-      "reason": "新角平分線證明四格：鄰角半角/兩等腰換長/公共FE減法；合法坐標雙平分垂直與三組等長/點序驗證，三寬QA及raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-007.json",
-        "docs/comics/q-007-preview-validation.json",
-        "docs/comics/q-007-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-105",
-      "title": "數學第18題｜用無刻度直尺二等分凹多邊形",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:14:34.903043+00:00",
-      "readyAt": "2026-10-29T05:17:57.478981+00:00",
-      "decision": "complete",
-      "reason": "新製大矩形/凹矩形對角線中心/連中心L精確SVG，解析兩側面積均6396；建議root移除舊三步AI重複圖，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-105.json",
-        "docs/comics/q-105-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-524",
-      "title": "國文第22題｜題墨葡萄與懷才不遇",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:15:22.826484+00:00",
-      "readyAt": "2026-10-29T05:19:00.199435+00:00",
-      "decision": "complete",
-      "reason": "新書齋墨葡萄情境以明珠無處賣解懷才不遇，保留既已確認的不實丟畫訂正",
-      "evidence": [
-        "docs/comics/q-524.json",
-        "docs/comics/q-524-prompt.txt",
-        "docs/comics/q-524-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-525",
-      "title": "國文第38題｜趙奢論戰事不可輕忽",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:15:54.674017+00:00",
-      "readyAt": "2026-10-29T05:18:49.954012+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen父子談兵/母親問故/性命責任象徵四格，完整甲乙/註釋/四選項實看；C依然不謂善與兵死地核定，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-525.json",
-        "docs/comics/q-525-preview-validation.json",
-        "docs/comics/q-525-generation.json"
-      ]
-    },
-    {
       "id": "q-526",
       "title": "國文第39題｜人幾為魚的語意",
       "subject": "Chinese",
@@ -764,325 +451,148 @@
       "evidence": [
         "docs/comics/q-386.json",
         "docs/comics/q-386-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-387",
+      "title": "國文第15題｜始終不渝與堅定意志",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:51:34.979985+00:00",
+      "readyAt": "2026-10-29T05:54:46.305922+00:00",
+      "decision": "complete",
+      "reason": "新原生語義對照四格：始終不渝/兩句堅定核心/四主題C，官方成語核義與四選項原卷親見，三寬QA及raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-387.json",
+        "docs/comics/q-387-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-388",
+      "title": "國文第18題｜指事造字與口中符號",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:53:25.839687+00:00",
+      "readyAt": "2026-10-29T05:58:32.783595+00:00",
+      "decision": "complete",
+      "reason": "新製現代口加符號/曰日字形/依題分類SVG，C曰不變，原卷古字完整實看且不重畫替換，三寬PASS。",
+      "evidence": [
+        "docs/comics/q-388.json",
+        "docs/comics/q-388-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-389",
+      "title": "國文第19題｜言論自由與守法的主旨",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:54:46.341695+00:00",
+      "readyAt": "2026-10-29T05:57:40.200357+00:00",
+      "decision": "complete",
+      "reason": "新原生主旨論證四格，保留保障與責任兩重點沿B，不擴充法律要件；原卷全文四項親見，三寬QA與raw桌手機最終實看。",
+      "evidence": [
+        "docs/comics/q-389.json",
+        "docs/comics/q-389-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-390",
+      "title": "國文第22題｜不約而同與轉折關係",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:57:40.235227+00:00",
+      "readyAt": "2026-10-29T06:00:08.453631+00:00",
+      "decision": "complete",
+      "reason": "新原生轉折語義四格，卻字連接不約而同/陽奉陰違沿A，B遞進/C條件/D並列分清；原卷完整親見，三寬QA與raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-390.json",
+        "docs/comics/q-390-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-391",
+      "title": "國文第23題｜不責小過與待人寬厚",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:58:32.828085+00:00",
+      "readyAt": "2026-10-29T06:02:58.786747+00:00",
+      "decision": "complete",
+      "reason": "新製小過協助/隱私合簿/再合作三生活例，B寬厚原卷核對，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-391.json",
+        "docs/comics/q-391-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-392",
+      "title": "國文第24題｜大明律例的誤殺與免罪",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:00:08.493259+00:00",
+      "readyAt": "2026-10-29T06:03:24.818761+00:00",
+      "decision": "complete",
+      "reason": "沿使用者已確認B及假裝條件，新原生古文分類/成功欺瞞才可能免罪/A-C-D對文四格，不重開確認；原卷全文四項親見，三寬QA與raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-392.json",
+        "docs/comics/q-392-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-393",
+      "title": "國文第25題｜愛默生的讀書自主思考",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:02:58.823107+00:00",
+      "readyAt": "2026-10-29T06:08:34.392308+00:00",
+      "decision": "complete",
+      "reason": "新製衛星繞書比喻/比較閱讀/自主討論三景，A盡信書不如無書原卷核對，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-393.json",
+        "docs/comics/q-393-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-394",
+      "title": "國文第20題｜千里馬寓言與人才出身偏見",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:03:24.856324+00:00",
+      "readyAt": "2026-10-29T06:07:24.527946+00:00",
+      "decision": "complete",
+      "reason": "新內建imagegen良駒/太僕/宮外牧養四格，分內廄建議與外牧結果沿B有誤，既有產地血統限制保留；全文註釋四項親見，三寬QA與raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-394.json",
+        "docs/comics/q-394-preview-validation.json",
+        "docs/comics/q-394-generation.json"
+      ]
+    },
+    {
+      "id": "q-395",
+      "title": "國文第28題｜防毒面具材料的資訊比對",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:07:24.568725+00:00",
+      "readyAt": "2026-10-29T06:10:39.664420+00:00",
+      "decision": "complete",
+      "reason": "新原生資訊類別比對四格，A行為/B狀態/C外型材質/D用途沿D，避免通俗故事延伸防護科學；完整材料與四項親見，三寬QA和raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-395.json",
+        "docs/comics/q-395-preview-validation.json"
       ]
     }
   ],
-  "integrated": 580,
+  "integrated": 600,
   "blocked": [],
   "waiting": [
-    {
-      "id": "q-223",
-      "title": "數學第6題｜平行四邊形沿對角線摺疊",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:53:36.935529+00:00",
-      "readyAt": "2026-10-29T04:59:27.881249+00:00",
-      "decision": "complete",
-      "reason": "真鏡射A到A撇及E線交、兩x與136補角精確圖，獨立驗114及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-223.json",
-        "docs/comics/q-223-geometry-validation.json",
-        "docs/comics/q-223-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-225",
-      "title": "數學第8題｜三段圓弧等長關係與邊長比",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:54:45.279023+00:00",
-      "readyAt": "2026-10-29T05:02:15.754055+00:00",
-      "decision": "complete",
-      "reason": "新精確三弧幾何四格；沿已確認35:24，逐段半徑換算與x7/y24座標驗證，三寬QA及桌手機實看完成。",
-      "evidence": [
-        "docs/comics/q-225.json",
-        "docs/comics/q-225-preview-validation.json",
-        "docs/comics/q-225-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-226",
-      "title": "數學第9題｜等腰直角三角形決定平行四邊形面積",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:56:43.603491+00:00",
-      "readyAt": "2026-10-29T04:59:11.305532+00:00",
-      "decision": "complete",
-      "reason": "新製等腰直角△BEC/垂線分底5+5/平行四邊形共高5面積50 SVG，原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-226.json",
-        "docs/comics/q-226-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-227",
-      "title": "數學第10題｜鈍角平行四邊形的長對角線",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:59:11.344729+00:00",
-      "readyAt": "2026-10-29T05:02:19.540318+00:00",
-      "decision": "complete",
-      "reason": "新製鈍角平行四邊形外垂足/9-12-15/12-16-20精確SVG，H-B-C相加求AC20(A)，原卷與三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-227.json",
-        "docs/comics/q-227-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-228",
-      "title": "數學第1題｜哪些條件足以判定平行四邊形",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T04:59:27.920203+00:00",
-      "readyAt": "2026-10-29T05:04:34.936288+00:00",
-      "decision": "complete",
-      "reason": "B垂直等長充分條件及A/C/D逐項精確反例，斜接比較正確，三寬實看通過",
-      "evidence": [
-        "docs/comics/q-228.json",
-        "docs/comics/q-228-geometry-validation.json",
-        "docs/comics/q-228-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-229",
-      "title": "數學第2題｜等腰梯形內接正方形的底邊長",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:02:15.791776+00:00",
-      "readyAt": "2026-10-29T05:04:12.277949+00:00",
-      "decision": "complete",
-      "reason": "新精確等腰梯形四格，BF與BC分段及面積求正根；獨立合法坐標/長度/因式分解驗證30，三寬QA和raw桌手機實看完成。",
-      "evidence": [
-        "docs/comics/q-229.json",
-        "docs/comics/q-229-preview-validation.json",
-        "docs/comics/q-229-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-230",
-      "title": "數學第3題｜鳶形面積比與畢氏定理",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:02:19.577753+00:00",
-      "readyAt": "2026-10-29T05:04:53.826282+00:00",
-      "decision": "complete",
-      "reason": "新製共BD面積比/BEF6-8-10/半鳶形10與17幾何SVG，周長54原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-230.json",
-        "docs/comics/q-230-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-231",
-      "title": "數學第4題｜長方形裁成全等梯形的短底",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:04:12.317659+00:00",
-      "readyAt": "2026-10-29T05:06:03.805645+00:00",
-      "decision": "complete",
-      "reason": "新精確裁紙四格：全等長短底對應、45度等腰直角水平差8、解短底6；180度逐頂點映射及角度和差驗證，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-231.json",
-        "docs/comics/q-231-preview-validation.json",
-        "docs/comics/q-231-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-232",
-      "title": "數學第5題｜座標四邊形的面積差與對角線",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:04:34.972346+00:00",
-      "readyAt": "2026-10-29T05:12:41.379953+00:00",
-      "decision": "complete",
-      "reason": "精確坐標核對相套三角形面積差56及垂直對角線方程，正根8推出17",
-      "evidence": [
-        "docs/comics/q-232.json",
-        "docs/comics/q-232-geometry-validation.json",
-        "docs/comics/q-232-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-233",
-      "title": "數學第6題｜正方形內菱形的面積與對角線",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:04:53.858481+00:00",
-      "readyAt": "2026-10-29T05:07:10.558155+00:00",
-      "decision": "complete",
-      "reason": "新製旋轉菱形共中心/4a-2a比例/DOE直角1:2幾何SVG，面積24原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-233.json",
-        "docs/comics/q-233-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-008",
-      "title": "數學第6題｜四邊長為1、2、3、4的梯形",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:06:03.839032+00:00",
-      "readyAt": "2026-10-29T05:07:41.254819+00:00",
-      "decision": "complete",
-      "reason": "新六組配底/平移腰/畢氏求高四格；窮舉嚴格三角形不等式、7長度與坐標面積驗證10√2/3，三寬QA及raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-008.json",
-        "docs/comics/q-008-preview-validation.json",
-        "docs/comics/q-008-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-009",
-      "title": "數學第7題｜梯形中點到斜腰的距離",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:07:10.596067+00:00",
-      "readyAt": "2026-10-29T05:11:02.963898+00:00",
-      "decision": "complete",
-      "reason": "新製梯形高4√3/三區面積/BC換底垂足P精確SVG，距離2√3原卷核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-009.json",
-        "docs/comics/q-009-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-003",
-      "title": "數學第17題｜正方形外的AE",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:07:41.292037+00:00",
-      "readyAt": "2026-10-29T05:10:15.513040+00:00",
-      "decision": "complete",
-      "reason": "沿已確認使用者第17圖，新精確外E/輔助F/大小直角三角形四格，獨立坐標平行等長正根驗證；三寬QA及raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-003.json",
-        "docs/comics/q-003-preview-validation.json",
-        "docs/comics/q-003-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-004",
-      "title": "數學第19題｜矩形對角線與角度分配",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:10:15.546435+00:00",
-      "readyAt": "2026-10-29T05:12:49.639890+00:00",
-      "decision": "complete",
-      "reason": "沿已確認第19圖與45度，新精確角分配/等腰半對角線/角差四格，真坐標6角驗證；三寬QA及最終raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-004.json",
-        "docs/comics/q-004-preview-validation.json",
-        "docs/comics/q-004-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-005",
-      "title": "數學第20題｜矩形等面積與黃金比例",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:11:03.002499+00:00",
-      "readyAt": "2026-10-29T05:14:34.865989+00:00",
-      "decision": "complete",
-      "reason": "新製三等面積著色/底高公式/二次正根與目標比值SVG，沿用使用者已確認(√5+1)/2，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-005.json",
-        "docs/comics/q-005-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-006",
-      "title": "數學第21題｜旋轉與畢氏定理求正方形面積",
-      "subject": "Math",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:12:41.420247+00:00",
-      "readyAt": "2026-10-29T05:15:22.790724+00:00",
-      "decision": "complete",
-      "reason": "真坐標核對旋轉全等及延長線垂足順序，以逆畢氏與作高得到正方形面積",
-      "evidence": [
-        "docs/comics/q-006.json",
-        "docs/comics/q-006-geometry-validation.json",
-        "docs/comics/q-006-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-007",
-      "title": "數學第16題｜平行四邊形的角平分線證明",
-      "subject": "Math",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:12:49.674211+00:00",
-      "readyAt": "2026-10-29T05:15:54.636848+00:00",
-      "decision": "complete",
-      "reason": "新角平分線證明四格：鄰角半角/兩等腰換長/公共FE減法；合法坐標雙平分垂直與三組等長/點序驗證，三寬QA及raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-007.json",
-        "docs/comics/q-007-preview-validation.json",
-        "docs/comics/q-007-geometry-validation.json"
-      ]
-    },
-    {
-      "id": "q-105",
-      "title": "數學第18題｜用無刻度直尺二等分凹多邊形",
-      "subject": "Math",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:14:34.903043+00:00",
-      "readyAt": "2026-10-29T05:17:57.478981+00:00",
-      "decision": "complete",
-      "reason": "新製大矩形/凹矩形對角線中心/連中心L精確SVG，解析兩側面積均6396；建議root移除舊三步AI重複圖，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-105.json",
-        "docs/comics/q-105-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-524",
-      "title": "國文第22題｜題墨葡萄與懷才不遇",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:15:22.826484+00:00",
-      "readyAt": "2026-10-29T05:19:00.199435+00:00",
-      "decision": "complete",
-      "reason": "新書齋墨葡萄情境以明珠無處賣解懷才不遇，保留既已確認的不實丟畫訂正",
-      "evidence": [
-        "docs/comics/q-524.json",
-        "docs/comics/q-524-prompt.txt",
-        "docs/comics/q-524-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-525",
-      "title": "國文第38題｜趙奢論戰事不可輕忽",
-      "subject": "Chinese",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T05:15:54.674017+00:00",
-      "readyAt": "2026-10-29T05:18:49.954012+00:00",
-      "decision": "complete",
-      "reason": "新內建imagegen父子談兵/母親問故/性命責任象徵四格，完整甲乙/註釋/四選項實看；C依然不謂善與兵死地核定，三寬QA與raw桌手機實看。",
-      "evidence": [
-        "docs/comics/q-525.json",
-        "docs/comics/q-525-preview-validation.json",
-        "docs/comics/q-525-generation.json"
-      ]
-    },
     {
       "id": "q-526",
       "title": "國文第39題｜人幾為魚的語意",
@@ -1501,6 +1011,142 @@
       "evidence": [
         "docs/comics/q-386.json",
         "docs/comics/q-386-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-387",
+      "title": "國文第15題｜始終不渝與堅定意志",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:51:34.979985+00:00",
+      "readyAt": "2026-10-29T05:54:46.305922+00:00",
+      "decision": "complete",
+      "reason": "新原生語義對照四格：始終不渝/兩句堅定核心/四主題C，官方成語核義與四選項原卷親見，三寬QA及raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-387.json",
+        "docs/comics/q-387-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-388",
+      "title": "國文第18題｜指事造字與口中符號",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:53:25.839687+00:00",
+      "readyAt": "2026-10-29T05:58:32.783595+00:00",
+      "decision": "complete",
+      "reason": "新製現代口加符號/曰日字形/依題分類SVG，C曰不變，原卷古字完整實看且不重畫替換，三寬PASS。",
+      "evidence": [
+        "docs/comics/q-388.json",
+        "docs/comics/q-388-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-389",
+      "title": "國文第19題｜言論自由與守法的主旨",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:54:46.341695+00:00",
+      "readyAt": "2026-10-29T05:57:40.200357+00:00",
+      "decision": "complete",
+      "reason": "新原生主旨論證四格，保留保障與責任兩重點沿B，不擴充法律要件；原卷全文四項親見，三寬QA與raw桌手機最終實看。",
+      "evidence": [
+        "docs/comics/q-389.json",
+        "docs/comics/q-389-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-390",
+      "title": "國文第22題｜不約而同與轉折關係",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:57:40.235227+00:00",
+      "readyAt": "2026-10-29T06:00:08.453631+00:00",
+      "decision": "complete",
+      "reason": "新原生轉折語義四格，卻字連接不約而同/陽奉陰違沿A，B遞進/C條件/D並列分清；原卷完整親見，三寬QA與raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-390.json",
+        "docs/comics/q-390-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-391",
+      "title": "國文第23題｜不責小過與待人寬厚",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T05:58:32.828085+00:00",
+      "readyAt": "2026-10-29T06:02:58.786747+00:00",
+      "decision": "complete",
+      "reason": "新製小過協助/隱私合簿/再合作三生活例，B寬厚原卷核對，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-391.json",
+        "docs/comics/q-391-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-392",
+      "title": "國文第24題｜大明律例的誤殺與免罪",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:00:08.493259+00:00",
+      "readyAt": "2026-10-29T06:03:24.818761+00:00",
+      "decision": "complete",
+      "reason": "沿使用者已確認B及假裝條件，新原生古文分類/成功欺瞞才可能免罪/A-C-D對文四格，不重開確認；原卷全文四項親見，三寬QA與raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-392.json",
+        "docs/comics/q-392-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-393",
+      "title": "國文第25題｜愛默生的讀書自主思考",
+      "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:02:58.823107+00:00",
+      "readyAt": "2026-10-29T06:08:34.392308+00:00",
+      "decision": "complete",
+      "reason": "新製衛星繞書比喻/比較閱讀/自主討論三景，A盡信書不如無書原卷核對，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-393.json",
+        "docs/comics/q-393-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-394",
+      "title": "國文第20題｜千里馬寓言與人才出身偏見",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:03:24.856324+00:00",
+      "readyAt": "2026-10-29T06:07:24.527946+00:00",
+      "decision": "complete",
+      "reason": "新內建imagegen良駒/太僕/宮外牧養四格，分內廄建議與外牧結果沿B有誤，既有產地血統限制保留；全文註釋四項親見，三寬QA與raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-394.json",
+        "docs/comics/q-394-preview-validation.json",
+        "docs/comics/q-394-generation.json"
+      ]
+    },
+    {
+      "id": "q-395",
+      "title": "國文第28題｜防毒面具材料的資訊比對",
+      "subject": "Chinese",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T06:07:24.568725+00:00",
+      "readyAt": "2026-10-29T06:10:39.664420+00:00",
+      "decision": "complete",
+      "reason": "新原生資訊類別比對四格，A行為/B狀態/C外型材質/D用途沿D，避免通俗故事延伸防護科學；完整材料與四項親見，三寬QA和raw桌手機實看。",
+      "evidence": [
+        "docs/comics/q-395.json",
+        "docs/comics/q-395-preview-validation.json"
       ]
     }
   ],

@@ -24,11 +24,45 @@
   ],
   "verificationNote": "已依使用者於2026-10-27提供的第21題原卷照片核對：原題為文字題，未附圖。解說採使用者提供且經重算的國中幾何解法；解說示意圖為另外製作，不冒充原卷。",
   "questionFigures": [],
-  "explanationFigures": [
-    {
-      "src": "assets/questions/q-006-explanation.png",
-      "alt": "三步幾何圖解：旋轉△PAB得到△QAD，找出∠QPD直角，再作高AH求AD平方",
-      "caption": "AI生成解說示意圖，非原卷；圖形不按比例繪製。點圖可放大。"
-    }
-  ]
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "旋轉構造直角，再作高求正方形面積",
+    "art": "assets/comics/q-006-art-7004659441.svg",
+    "panels": [
+      {
+        "heading": "① 繞A逆時針旋轉，B到D、P到Q",
+        "text": "將三角形PAB逆時針旋轉90°，得到QAD。對應邊相等，所以AQ＝AP＝1、QD＝PB＝3；Q在正方形上方，且角PAQ是直角。",
+        "alt": "真實等比例正方形，A左上B左下D右上，P內部，繞A逆時針90度映至外部上方Q，原三角形與旋轉三角形分色。"
+      },
+      {
+        "heading": "② 用逆定理找出P點的直角",
+        "text": "等腰直角三角形PAQ給出PQ²＝2、角APQ為45°。再由2＋7＝9，可知角QPD是90°。射線PQ在角APD內，因此角APD為135°。",
+        "alt": "沿同一精確座標畫PAQ及PQD，PQ與PD在P垂直，以右角記號及QD3、PD根號7核對逆畢氏。"
+      },
+      {
+        "heading": "③ 向延長線作高，注意H、P、D次序",
+        "text": "將DP越過P延長，作AH垂直於DH。角APH為45°，所以AH＝PH＝h，且h²＝1／2。H在P外側，因此DH＝√7＋h，要相加，不是相減。",
+        "alt": "精確投影得到H在DP越過P的延長線，H、P、D共線依序，AH垂直DH；標同長h，AD為斜邊。"
+      }
+    ],
+    "fourth": {
+      "answer": "正方形面積＝AD²＝8＋√14",
+      "points": [
+        "AD²＝h²＋(√7＋h)²。",
+        "h²＝1／2，展開得1／2＋7＋√14＋1／2。",
+        "AD是正方形的邊長，因此AD²就是所求面積。"
+      ]
+    },
+    "protectedWords": [
+      "正方形",
+      "等腰直角三角形",
+      "畢氏定理",
+      "逆定理",
+      "延長線",
+      "90°",
+      "135°",
+      "45°",
+      "8＋√14"
+    ]
+  }
 }

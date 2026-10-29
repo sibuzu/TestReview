@@ -68,8 +68,36 @@
   "geometryValidation": "docs/comics/q-007-geometry-validation.json",
   "artSHA256": "7e0a4f6e08a1ee3709e4a927251583f6a8a2a5566e56ce162db2ea62f02e4f9b",
   "completedAt": "2026-10-29T05:15:54.606958+00:00",
-  "checkedAt": "2026-10-29T05:15:54.606970+00:00",
+  "checkedAt": "2026-10-29T06:11:48.762681+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-007-preview-validation.json",
-  "visualReview": "實看最終540x180 SVG與1440/390四格：G直角、A/D半角標在正確角內，兩等腰邊加單/雙刻痕區分；公共FE上下灰段對齊、剩BF/CE同色。手機90°斷開問題以完整算式保護修復，最終三寬無橫溢，桌機同列等高。"
+  "visualReview": "實看最終540x180 SVG與1440/390四格：G直角、A/D半角標在正確角內，兩等腰邊加單/雙刻痕區分；公共FE上下灰段對齊、剩BF/CE同色。手機90°斷開問題以完整算式保護修復，最終三寬無橫溢，桌機同列等高。",
+  "nativeArt": "assets/comics/q-007-art-7e0a4f6e08.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T06:11:48.703184+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "使用者第16原圖及完整證明已對照，另實渲染given親見B/F/E/C次序和交點G。鄰角半和90→AE⊥DF；兩等腰BE=AB/CF=CD配對邊→BE=CF，扣公共FE。正式桌手機半角及兩色/灰段對應實看，無新增中點假設。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-007-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-007-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-007-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-007-validation.json"
 }

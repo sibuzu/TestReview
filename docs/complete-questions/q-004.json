@@ -28,5 +28,49 @@
   "tables": [],
   "correctOption": "",
   "diagram": "",
-  "trap": ""
+  "trap": "",
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先分直角，再用對角線，最後相減",
+    "art": "assets/comics/q-004-art-0801c0cdea.svg",
+    "panels": [
+      {
+        "heading": "① 90°分成三份與一份",
+        "text": "∠BAD＝90°，而∠DAE＝3∠BAE，所以4∠BAE＝90°。得∠BAE＝22.5°，∠DAE＝67.5°；圖中先放大A角看清楚這兩部分。",
+        "alt": "A角局部精確射線AD/AE/AB，67.5與22.5合90；沒有把紙上任意量角當條件。"
+      },
+      {
+        "heading": "② OA＝OD，對應兩個底角相等",
+        "text": "AE⊥BD，故∠ADB＝90°−67.5°＝22.5°。對角線交於O；矩形對角線等長且互相平分，所以OA＝OD。△AOD等腰，得∠DAC＝∠ADB＝22.5°。",
+        "alt": "精確矩形全圖，對角線交O、AE垂足E，三角形AOD底角相等；OA與OD等長刻痕，不泛稱所有對角線段皆相等。"
+      },
+      {
+        "heading": "③ 依射線順序，從大角扣小角",
+        "text": "AC位在∠DAE內，∠DAE由∠DAC與∠CAE組成。因此∠EAC＝∠DAE−∠DAC＝67.5°−22.5°＝45°；不是把兩個角直接相加。",
+        "alt": "局部放大AD/AC/AE三射線，AC位於DAE內；先22.5後45兩段，總67.5，符合原圖。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案：∠EAC＝45°",
+      "points": [
+        "直角按3：1分，得到22.5°與67.5°。",
+        "矩形對角線等長且平分，推出∠DAC＝22.5°。",
+        "∠EAC＝67.5°−22.5°，由圖中射線順序決定。"
+      ]
+    },
+    "protectedWords": [
+      "∠BAD＝90°",
+      "∠BAE＝22.5°",
+      "∠DAE＝67.5°",
+      "OA＝OD",
+      "△AOD",
+      "∠DAC",
+      "∠ADB",
+      "∠EAC＝45°",
+      "67.5°−22.5°＝45°",
+      "22.5°",
+      "67.5°",
+      "3：1"
+    ]
+  }
 }

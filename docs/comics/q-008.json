@@ -67,8 +67,36 @@
   "geometryValidation": "docs/comics/q-008-geometry-validation.json",
   "artSHA256": "e5bc82a97fd9e4af65595e38afd2f9543b7db25f6a03343b38823659781f01ad",
   "completedAt": "2026-10-29T05:07:41.224788+00:00",
-  "checkedAt": "2026-10-29T05:07:41.224801+00:00",
+  "checkedAt": "2026-10-29T06:03:20.991086+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-008-preview-validation.json",
-  "visualReview": "實看540x180原生三格及最終1440/390：六組底配只有1/4綠列，梯形1/4與腰2/3和內移AT/TC點序正確，抽出三角形高腳在線段內；h平方保護後手機不再拆開h與上標。三寬無橫溢，同列等高及手機自然高度。"
+  "visualReview": "實看540x180原生三格及最終1440/390：六組底配只有1/4綠列，梯形1/4與腰2/3和內移AT/TC點序正確，抽出三角形高腳在線段內；h平方保護後手機不再拆開h與上標。三寬無橫溢，同列等高及手機自然高度。",
+  "nativeArt": "assets/comics/q-008-art-e5bc82a97f.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T06:03:20.911812+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見原卷只有四邊1/2/3/4文字；獨立六組嚴格三角不等式只底1/4、腰2/3非退化，底差3、投影2/3、高4√2/3，面積10√2/3。正式桌手機底差平移/三角形與新點名實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-008-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-008-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-008-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-008-validation.json"
 }

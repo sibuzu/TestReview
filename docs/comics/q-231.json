@@ -65,8 +65,36 @@
   "geometryValidation": "docs/comics/q-231-geometry-validation.json",
   "artSHA256": "456d33f1b7f8822293f3a4967da1d6fa03bf11ccfbdded5151a557d4d3c50d96",
   "completedAt": "2026-10-29T05:06:03.770639+00:00",
-  "checkedAt": "2026-10-29T05:06:03.770653+00:00",
+  "checkedAt": "2026-10-29T06:00:56.539015+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-231-preview-validation.json",
-  "visualReview": "實看新540x180精確SVG與1440/390全四格：上下長短底交錯、P/H/Q與垂線/45度弧位置正確，8為高與水平差而非剪線；6/14驗算清楚。桌機同列等高，手機自然四格高度；無橫溢或公式保護詞斷裂。"
+  "visualReview": "實看新540x180精確SVG與1440/390全四格：上下長短底交錯、P/H/Q與垂線/45度弧位置正確，8為高與水平差而非剪線；6/14驗算清楚。桌機同列等高，手機自然四格高度；無橫溢或公式保護詞斷裂。",
+  "nativeArt": "assets/comics/q-231-art-456d33f1b7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T06:00:56.388566+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見矩形20x8、剪成全等梯形及下端左向45。兩片180旋轉相配長短底和20，45水平差8，x6/長底14。正式桌手機PH/HQ真等長8而剪線非8，輔助P/Q/H明示新名。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-231-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-231-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-231-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-231-validation.json"
 }

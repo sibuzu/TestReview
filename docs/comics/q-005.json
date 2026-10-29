@@ -76,8 +76,36 @@
   },
   "artSHA256": "9c585dee3b99b77d1e58c6ab98a67e97cd40673cea9c58a41b7e5f7d88f68f4b",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T05:14:34.836546+00:00",
+  "checkedAt": "2026-10-29T06:06:08.626303+00:00",
   "completedAt": "2026-10-29T05:14:34.836546+00:00",
   "layoutEvidence": "docs/comics/q-005-preview-validation.json",
-  "visualReview": "實看1440/1120/390最終成品，三色區相等、中間PQC不著色；底高面積式與t正根/目標比值正確。D/C標籤內移防跨圖裁切後重驗，公式/根號無錯位、同行等高手機自然高無溢出。"
+  "visualReview": "實看1440/1120/390最終成品，三色區相等、中間PQC不著色；底高面積式與t正根/目標比值正確。D/C標籤內移防跨圖裁切後重驗，公式/根號無錯位、同行等高手機自然高無溢出。",
+  "nativeArt": "assets/comics/q-005-art-9c585dee3b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T06:06:08.487550+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "使用者第20題原照與確認解法已對照，P在AB/Q在AD；另實渲染given。三等面積消y→t²+t−1，正根t，所求t/(1−t)=1/t黃金比。正式桌手機只三色角區相等、中間PQC未誤列，原題比值/比例分明。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-005-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-005-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-005-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-005-validation.json"
 }

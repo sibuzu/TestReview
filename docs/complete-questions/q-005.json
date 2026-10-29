@@ -29,5 +29,61 @@
       "alt": "矩形ABCD，P在AB上、Q在AD上，連接PQ、PC、QC",
       "caption": "依使用者提供原圖重繪的作答附圖"
     }
-  ]
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "三個等面積，轉成一個二次方程",
+    "art": "assets/comics/q-005-art-9c585dee3b.svg",
+    "panels": [
+      {
+        "heading": "① 先分清三角形與線段",
+        "text": "設AB＝a、AD＝b、AQ＝x、BP＝y，則QD＝b−x、AP＝a−y。三個有色三角形面積都記作S，中間△PQC不在等面積條件內。",
+        "alt": "新製精確矩形，P在AB/Q在AD，APQ橙/BCP藍/CDQ綠三區同面積S；中間PQC不著色，不錯把中間也當相等。"
+      },
+      {
+        "heading": "② 等面積列式，消去y",
+        "text": "三式同乘2，得by＝a(b−x)＝(a−y)x。先由前兩式得到a−y＝ax／b，再代入第三式，可整理成x²＋bx−b²＝0。",
+        "alt": "新製三區面積公式同色卡，BCP底b高y、CDQ底a高b-x、APQ兩直角邊a-y與x，不以任意斜線當高。"
+      },
+      {
+        "heading": "③ 取正根，再算所求比值",
+        "text": "令t＝x／b，得到t²＋t−1＝0，正根為(√5−1)／2。所求AQ／QD是t／(1−t)，由方程可化成1／t，得到(√5＋1)／2。",
+        "alt": "新製二次方程到正根再到所求t/(1-t)流程，轉換箭頭限教學推理步驟；不把t當最後比值。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案：(√5＋1)／2",
+      "points": [
+        "t＝AQ／AD，還不是AQ／QD。",
+        "x²＝b(b−x)，故AQ／QD＝b／x＝1／t。",
+        "題目要比值；若寫比例，則為(√5＋1)：2。"
+      ]
+    },
+    "protectedWords": [
+      "矩形",
+      "等面積",
+      "三角形",
+      "線段",
+      "二次方程",
+      "正根",
+      "比值",
+      "比例",
+      "△PQC",
+      "AB",
+      "AD",
+      "AQ",
+      "BP",
+      "QD",
+      "AP",
+      "by",
+      "ax",
+      "bx",
+      "x²",
+      "b²",
+      "t²",
+      "1／t",
+      "a−y",
+      "b−x"
+    ]
+  }
 }

@@ -66,8 +66,36 @@
   "geometryValidation": "docs/comics/q-225-geometry-validation.json",
   "artSHA256": "f5c159e679153a49b71daaf6ca0c205fdec5bf9d4b8c3a1064acaaef4ea42ba2",
   "completedAt": "2026-10-29T05:02:15.723563+00:00",
-  "checkedAt": "2026-10-29T05:02:15.723575+00:00",
+  "checkedAt": "2026-10-29T05:58:05.156946+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-225-preview-validation.json",
-  "visualReview": "實看原生540x180三格與1440/390成品：三圓心弧/各分段同色與點名清楚；桌機同列等高，手機四格自然分高，公式無溢出或保護詞斷行。35:24與x7實例一致，手寫7:4未當標準答案。"
+  "visualReview": "實看原生540x180三格與1440/390成品：三圓心弧/各分段同色與點名清楚；桌機同列等高，手機四格自然分高，公式無溢出或保護詞斷行。35:24與x7實例一致，手寫7:4未當標準答案。",
+  "nativeArt": "assets/comics/q-225-art-f5c159e679.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "checkedAt": "2026-10-29T05:58:05.017038+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見三弧半徑與1:4、3:1；AE=x/AB=y得到BG=y−x、CH=6x−y、DH=2y−6x，24x=7y→35:24。用x7/y24核13段/點序/三圓心真半徑，沿既有學生7:4誤答已確認；正式桌手機弧與分色實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-225-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-225-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-225-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-225-validation.json"
 }

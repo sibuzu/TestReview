@@ -1,0 +1,48 @@
+{
+  "id": "q-591",
+  "subject": "Chinese",
+  "decision": "not_suitable",
+  "title": "字音逐一比較，現有可校對注音優先",
+  "originalMaterials": [
+    "site/dist/assets/questions/q-591-source-57dff84b9f.jpg"
+  ],
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "answerCheckedAgainst": "原卷Aㄌㄟˋ/Bㄙㄨㄛˋ/Cㄎㄨㄤˋ/Dㄊㄤˇ逐字實看；教育部簡編本核轉捩點ㄌㄧㄝˋ、追溯ㄙㄨˋ、粗獷ㄍㄨㄤˇ、公帑ㄊㄤˇ，只有D正確。correction-q-591-3330f66e77a6已由使用者確認，不重開原AI誤C問題。",
+  "reason": "本題的判別點是介音、聲母和聲調，四個詞各自的賽事/古蹟/嗓音/公款語義場景不能判出哪組注音印對。既有逐項文字已清楚列原音與正音並連結教育部字典；再加人物故事會轉移到詞義、或把不可靠發音諧音當線索。精確注音應維持現有可選取文字，不為四個無共同故事的字音強塞三格裝飾漫畫。",
+  "sources": [
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30965&la=0&powerMode=0",
+      "word": "轉捩點",
+      "verifiedPhonetic": "ㄌㄧㄝˋ"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30869",
+      "word": "追溯",
+      "verifiedPhonetic": "ㄙㄨˋ"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=38255&la=0&powerMode=0",
+      "word": "粗獷",
+      "verifiedPhonetic": "ㄍㄨㄤˇ"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=17705&la=0&powerMode=0",
+      "word": "公帑",
+      "verifiedPhonetic": "ㄊㄤˇ"
+    }
+  ],
+  "preserveContent": true,
+  "reviewedAt": "2026-10-28T22:24:27.942524+00:00",
+  "validationFile": "docs/comics/q-591-preview-validation.json",
+  "formalPageQaScript": "docs/comics/q-591-page-preview.cjs",
+  "checkedAt": "2026-10-28T22:25:20.881784+00:00",
+  "layoutObservation": "正式題目390px的既有一般文字排版會把B的注音組及部分解說注音跨行；所有字元齊全且無水平溢出。此非新漫畫，未改共享CSS或原題；已向root提示可另做注音組保護。",
+  "layoutObservationResolved": true,
+  "rootLayoutValidation": "docs/comics/q-591-phonetics-validation.json",
+  "rootLayoutReview": "已修正一般題文的注音組換行：安全轉義後將完整注音組包成不可斷行的純文字span；APP與單頁版一致。未改任何原文、讀音或答案D。",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-591/layout.json",
+    "visualChecked": true
+  }
+}

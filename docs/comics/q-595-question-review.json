@@ -1,0 +1,27 @@
+{
+  "id": "q-595",
+  "checkedAt": "2026-10-28T22:28:31.131992+00:00",
+  "visualChecked": true,
+  "answer": "A",
+  "fullPassageChecked": true,
+  "allOptionsChecked": true,
+  "necessaryFiguresChecked": true,
+  "originalImages": [
+    "site/dist/assets/questions/q-595-source-cd8d55c030.jpg"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/pth_lt/35_deng_tai_shan_ji.pdf",
+      "finding": "登泰山記原文泰山之陽汶水西流、其陰濟水東流，古長城及日觀峰南方關係。"
+    }
+  ],
+  "reason": "原卷全文及四圖、北箭頭實看，維持A。核心是三組精確空間約束，以原生SVG逐步示意南北→流向→峰與長城，避免imagegen混淆水流箭頭或古長城位置。不改原題最高日觀峰原文、不擴為現代測量。",
+  "svgCheck": {
+    "northFlow": "x26→154 increases east/right, y61 above mountain",
+    "southFlow": "x154→26 decreases west/left, y150 below mountain",
+    "wallY": 81,
+    "peakTopY": 100,
+    "peakSouthOfWall": true,
+    "scaleClaim": false
+  }
+}

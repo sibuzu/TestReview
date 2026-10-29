@@ -1,0 +1,69 @@
+{
+  "id": "q-605",
+  "subject": "Chinese",
+  "title": "備暖閣、理寒衣，讀出初冬生活趣味",
+  "art": "docs/comics/art/q-605.png",
+  "protectedWords": [
+    "朝曦",
+    "秋聲漸作威",
+    "新暖閣",
+    "舊寒衣",
+    "蓉菊",
+    "賞心",
+    "乙丙丁甲",
+    "初冬"
+  ],
+  "panels": [
+    {
+      "heading": "① 愛朝曦：天冷，更覺晨光可愛",
+      "text": "開頭寫晴窗與朝曦，接著說秋聲漸作威：窗外寒意漸強，晨光更可愛。A多加了晚起的原因，原詩並沒有這樣說。",
+      "alt": "晨間已起身的成人賞暖陽，竹外微寒，不畫晚起睡眠或大雪嚴冬。"
+    },
+    {
+      "heading": "② 備暖閣、理寒衣：迎接寒冷",
+      "text": "命僕準備新暖閣、呼童整理舊寒衣，都是天氣轉冷的生活準備。配合秋風漸強，指向秋末冬初，正是B的意思。",
+      "alt": "依文意想像整理暖房與厚衣，不畫現代電熨斗或靠危險室內燃燒取暖。"
+    },
+    {
+      "heading": "③ 飲食、花景：珍惜眼前賞心事",
+      "text": "黃橙、肥蟹、新釀與蓉菊，寫當下的生活樂趣。末句希望賞心事不相違，沒有C的追憶往昔，也不是D的抗拒環境。",
+      "alt": "成人欣賞花園與時令食物，蓉菊依原卷為芙蓉和菊花，不沿用來源AI誤讀的酴醿。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：防寒準備透露初冬",
+    "points": [
+      "重點是天冷備衣與暖房，不是晚起。",
+      "食物、花景連到當下的閒適與珍惜。",
+      "中間四句依已訂正順序乙丙丁甲，不沿用原AI誤排。"
+    ]
+  },
+  "rationale": "實看q605閱讀原卷與第26題四選項，完整詩文及來源對話比對。使用者已確認此訂正卡；維持B、正確乙丙丁甲及蓉菊，不重開同項確認。重點為初冬防寒與眼前生活情趣；新圖不冒稱劉克莊寫真、不將朝曦畫成晚起，也不把詩當抗爭言志。無合適既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-605-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-605-reading-adacee34be.jpg",
+    "site/dist/assets/questions/q-605-source-428d43b4b5.jpg",
+    "site/dist/sources/gemini-3vdeK9qTAHou.txt"
+  ],
+  "answerCheckedAgainst": "B冬衣暖閣與初冬吻合；A晚起、C昔日回憶、D不屈心志均非詩文。既有訂正乙丙丁甲以偶數句衣/肥押韻與威/違呼應，保留原卷慰貼及解說熨貼。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "2b2a39ddda10189f8c1f1f95f3d4cda2193f602bd03b9b68d3846a1e1dca32f8",
+  "createdAt": "2026-10-28T21:35:39.130161+00:00",
+  "checkedAt": "2026-10-28T21:39:43.788457+00:00",
+  "validationFile": "docs/comics/q-605-validation.json",
+  "nativeArt": "assets/comics/q-605-art-2b2a39ddda-web.webp"
+}

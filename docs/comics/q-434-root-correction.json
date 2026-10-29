@@ -1,0 +1,80 @@
+{
+  "id": "q-434",
+  "checkedAt": "2026-10-28T23:25:38.647295+00:00",
+  "before": {
+    "question": "下列哪一個文句完全沒有錯別字？\n\n(A) 他雖然實力深厚，但站在世界冠軍身旁，不免顯得相形見拙\n(B) 由於強震侵襲加上連日大雨，這棟建築物的結構已急急可危\n(C) 導師為了班上學生勞心勞力，這種鞠躬盡粹的精神令人感佩\n(D) 既然你不同意這個提議，不如就直截了當地拒絕，別再猶豫",
+    "optionA": "應為相形見「絀」，指比較之下顯出不足；「拙」不能代替此成語的「絀」。",
+    "optionC": "應為鞠躬盡「瘁」，指不辭勞苦、竭盡心力；「粹」指精純。"
+  },
+  "after": {
+    "question": "下列哪一個文句完全沒有錯別字？\n\n(A) 他雖然實力深厚，但站在世界冠軍身旁，不免顯得相形見拙\n(B) 由於強震侵襲加上連日大雨，這棟建築物的結構已急急可危\n(C) 導師為了班上學生勞心勞力，這種鞠躬盡悴的精神令人感佩\n(D) 既然你不同意這個提議，不如就直截了當地拒絕，別再猶豫",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "他雖然實力深厚，但站在世界冠軍身旁，不免顯得相形見拙",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "本題按慣用成語「相形見絀」判讀：「絀」表示不足、比不上。"
+      },
+      {
+        "label": "B",
+        "text": "由於強震侵襲加上連日大雨，這棟建築物的結構已急急可危",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "應為「岌岌」可危，形容非常危險，將要傾覆；不是急急。"
+      },
+      {
+        "label": "C",
+        "text": "導師為了班上學生勞心勞力，這種鞠躬盡悴的精神令人感佩",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "慣用成語寫作「鞠躬盡瘁」，表示不辭勞苦、竭盡心力。原卷印「悴」，不是「粹」；此題依成語固定字形應改「瘁」。"
+      },
+      {
+        "label": "D",
+        "text": "既然你不同意這個提議，不如就直截了當地拒絕，別再猶豫",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "「直截了當」表示說話或做事爽快明確，本句沒有錯別字。"
+      }
+    ],
+    "explanation": "這題考的是「字形」，先確認成語的固定寫法：相形見絀、岌岌可危、鞠躬盡瘁、直截了當。A、B、C各有錯字，只有D完全正確。\n原AI一度把它當成贅詞題，討論「由於／加上」及「勞心勞力／鞠躬盡瘁」是否重複，偏離了題目要求；不能因語意相關就判成錯別字。\n\n【原卷字形與OCR訂正】\n原卷C實際印「鞠躬盡悴」，先前轉錄成「鞠躬盡粹」是OCR錯誤，本頁已恢復原卷的「悴」。慣用成語應寫「鞠躬盡瘁」，因此C仍有錯字，答案D不變。A依本題的慣用成語「相形見絀」判讀，不將現行字形說明擴大成否定所有歷史異文。"
+  },
+  "answerUnchanged": "D",
+  "originalActuallyViewed": true,
+  "originalImage": "site/dist/assets/questions/q-434-source-8a712385fd.jpg",
+  "sourceUrl": "https://chatgpt.com/share/6ae053e4-e970-83ee-b3d3-0c236904b680",
+  "countsAsComplete": false,
+  "notificationSent": true,
+  "confirmationId": "correction-q-434-17729bec40b6",
+  "textDesktopMobileActuallyViewed": true,
+  "monitorCardDesktopMobileActuallyViewed": true,
+  "validationFiles": [
+    "docs/comics/qa/q-434/layout.json",
+    "docs/comics/q-434-monitor-validation.json"
+  ],
+  "notificationSentAt": "2026-10-28T23:28:05.751300+00:00",
+  "requiresUserConfirmation": false,
+  "userConfirmedAt": "2026-10-28T23:28:34.294702+00:00",
+  "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+  "preConfirmationPipelineJob": {
+    "id": "q-434",
+    "title": "國文第8題｜相形見絀、岌岌可危與鞠躬盡瘁",
+    "subject": "Chinese",
+    "lane": 1,
+    "state": "blocked",
+    "startedAt": "2026-10-28T23:21:02.117583+00:00",
+    "readyAt": "2026-10-28T23:24:19.336337+00:00",
+    "decision": "awaiting_confirmation",
+    "reason": "新發現原卷C實印鞠躬盡悴，data誤轉鞠躬盡粹；正解仍D/標準字瘁。未產圖，原卷裁切證據與原AI連結已保存，待主路修正及確認後重排。",
+    "evidence": [
+      "docs/comics/q-434-review.json",
+      "docs/comics/q-434-character-evidence.png"
+    ],
+    "confirmationId": "correction-q-434-17729bec40b6",
+    "publishedDraft": true,
+    "publishedDraftAt": "2026-10-28T23:27:03.613356+00:00",
+    "formalValidation": "docs/comics/qa/q-434/layout.json"
+  },
+  "state": "queued_for_illustration"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "q-595",
+  "subject": "Chinese",
+  "title": "先定山陰山陽，再核對水流與日觀峰",
+  "art": "docs/comics/art/q-595.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:27:16.781682+00:00",
+  "panels": [
+    {
+      "heading": "① 「泰山之陽」說的是山的南側",
+      "text": "題目給的規則是山南為陽、山北為陰。因此汶水在泰山南側，濟水在北側；不要改用「水北為陽」去解釋山的位置。",
+      "alt": "方位示意，指北向上，濟水置山北上側、汶水置山南下側；不是現代精確地形比例圖。"
+    },
+    {
+      "heading": "② 河在哪邊，與河往哪流要分開",
+      "text": "「汶水西流」是汶水往西；「濟水東流」是濟水往東。指北向上時，西在左、東在右，所以南河箭頭向左、北河箭頭向右。",
+      "alt": "北側濟水流向右東，南側汶水流向左西，精確箭頭由原生SVG固定，不讓AI猜流向。"
+    },
+    {
+      "heading": "③ 再加上長城與日觀峰的位置",
+      "text": "古長城分隔山南、山北；日觀峰在長城南十五里。圖中峰應位於長城下方，再合併兩河的位置與流向，才能完整對照選項。",
+      "alt": "原生綜合方位示意，日觀峰在長城下方南側；北濟水右流、南汶水左流，不畫十五里比例或最高峰現代測量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：三組位置與方向都符合",
+    "points": [
+      "濟水：山北，向東流。汶水：山南，向西流。",
+      "日觀峰在長城南方，不能畫到北側。",
+      "B反轉流向；C把峰放北側；D顛倒兩河的南北位置。"
+    ]
+  },
+  "protectedWords": [
+    "泰山之陽",
+    "山南為陽",
+    "山北為陰",
+    "水北為陽",
+    "日觀峰",
+    "古長城",
+    "南十五里",
+    "汶水西流",
+    "濟水東流"
+  ],
+  "rationale": "原卷全文及四圖、北箭頭實看，維持A。核心是三組精確空間約束，以原生SVG逐步示意南北→流向→峰與長城，避免imagegen混淆水流箭頭或古長城位置。不改原題最高日觀峰原文、不擴為現代測量。",
+  "promptSummary": "原生SVG三格：山北陰濟水/山南陽汶水；北河東右流南河西左流；長城南日觀峰與兩河合併。",
+  "answerCheckedAgainst": "原卷20題完整引用及A～D四附圖；既有確認A；香港教育局登泰山記教材原文。",
+  "officialReferences": [
+    {
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/pth_lt/35_deng_tai_shan_ji.pdf",
+      "finding": "登泰山記原文泰山之陽汶水西流、其陰濟水東流，古長城及日觀峰南方關係。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-595-source-cd8d55c030.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "原圖A北濟水東流、南汶水西流及日觀峰長城南；B流向反、C峰北、D兩河位置反。新的SVG不取代原附圖。"
+  },
+  "artSHA256": "e8ae1afe8a74238aeb15d59964e980b56212d35228a8f469a6a342d056b9fc00",
+  "completedAt": "2026-10-28T22:28:53.004109+00:00",
+  "checkedAt": "2026-10-28T22:34:55.990176+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-595-preview-validation.json",
+  "visualReview": "實看540×180原生圖及1440/390最終預覽：北濟水向右東、南汶水向左西，日觀峰在長城南，與原圖A一致；三格方向及指北箭頭無互換。不聲稱現代比例或最高峰。三寬無溢出，桌機同列等高、手機自然高，正確專名與方位詞完整。",
+  "nativeArt": "assets/comics/q-595-art-e8ae1afe8a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-595-validation.json"
+}

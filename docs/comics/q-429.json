@@ -1,0 +1,78 @@
+{
+  "id": "q-429",
+  "subject": "Chinese",
+  "title": "人去盡與舊時花，對照出物是人非",
+  "art": "docs/comics/art/q-429-v2.png",
+  "protectedWords": [
+    "人去盡",
+    "舊時花",
+    "物是人非",
+    "亂飛鴉",
+    "懷才不遇",
+    "時局紛亂",
+    "人情冷暖",
+    "擬人",
+    "梁園"
+  ],
+  "panels": [
+    {
+      "heading": "① 日暮、亂飛鴉、三兩家：先讀蕭條",
+      "text": "前兩句寫梁園傍晚，烏鴉紛飛，遠望只有稀落人家。這營造蕭條氣氛；亂飛鴉的亂字，不能直接當成時局紛亂的證據。",
+      "alt": "想像詩境的春日黃昏、稀落舊屋與飛鴉，不是梁園建築復原，也沒有戰爭破壞。"
+    },
+    {
+      "heading": "② 人已散盡，花卻仍開",
+      "text": "人去盡寫人事已非，舊時花寫景物依舊。庭樹不知是擬人：春天到了，樹仍照常開花，不是說樹真的能理解人的離去。",
+      "alt": "無人庭院的樹仍盛開，無墓地幽靈或死亡情節，不把人去盡全解為死亡，不為樹畫擬人臉。"
+    },
+    {
+      "heading": "③ 要選有原文支持的感傷",
+      "text": "最直接對照是人已離去、花仍重開，所以選物是人非。詩中沒有才能不被重用、戰亂或他人待我態度改變的明確線索，不能只憑悲涼氣氛補故事。",
+      "alt": "現代師生閱讀比較兩張空白卡，所有詩句與選項推論由HTML呈現，不冒充岑參肖像或特定史實。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：感傷物是人非",
+    "points": [
+      "人去盡：人事變了。",
+      "舊時花：景物仍依季節循環。",
+      "從直接對照選答，不另補詩外情節。"
+    ]
+  },
+  "rationale": "已實看第23題原卷含完整岑參山房春事四句與四選項，對照題庫全文維持B。來源轉存文字未提供本詩細節，以實際原卷為核對依據，不冒稱讀到來源不存在文字。無合適既有AI圖，新製想像詩境日暮稀落屋/無人庭樹開花/現代讀詩；不補戰亂、仕途、死亡、人情勢利，擬人解讀不變成植物有意識。 實看首圖屋舍過密像繁華村落，已用內建編輯改v2稀落住屋，保留人去景存的對照。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-429-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-429-source-1891423542.jpg；原卷完整四句/四選項實看",
+    "site/dist/data.json q-429 passage and question"
+  ],
+  "answerCheckedAgainst": "人去盡/舊時花形成物是人非B；亂飛鴉非戰亂證據，未見A仕途D交往態度線索。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "79a0cef0f42bae5b89c467d5599b4419fe837f0dd7a3bb69aa3f62003665c0c5",
+  "createdAtUTC": "2026-10-28T23:18:49.676438+00:00",
+  "editPromptFile": "docs/comics/q-429-edit-prompt.txt",
+  "checkedAt": "2026-10-28T23:22:13.376992+00:00",
+  "validationFile": "docs/comics/q-429-validation.json",
+  "nativeArt": "assets/comics/q-429-art-79a0cef0f4-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:22:13.351410+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷完整詩句及四選項，維持B；新v2僅稀落房屋、無人庭樹依舊開花與讀詩情境，未畫戰亂死亡，物是人非對照清楚。桌手機無溢出。"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "q-603",
+  "subject": "Chinese",
+  "title": "對照方法與範圍，不把資訊讀過頭",
+  "art": "docs/comics/art/q-603.png",
+  "protectedWords": [
+    "凱布斯",
+    "光譜儀",
+    "永久陰影帶",
+    "隕石坑",
+    "NASA",
+    "LCROSS",
+    "已證實",
+    "只能"
+  ],
+  "panels": [
+    {
+      "heading": "① 凱布斯先存在，才成為任務目標",
+      "text": "題文說任務撞擊的隕石坑叫凱布斯。它是選定的既有目標，不是整個大隕石坑在這次任務後才形成；A把先後關係讀反了。",
+      "alt": "既有月球隕石坑的無字輔助情境，不把本次小撞擊坑誤畫成整個凱布斯。"
+    },
+    {
+      "heading": "② 分析煙塵的光，辨識物質成分",
+      "text": "原文的研究方法是以光譜儀分析揚起煙塵的光與波長，據此判讀成分，對應C。不只研究水，所以B的只能也不符合原文。",
+      "alt": "地面科學家處理遠端觀測資料的泛指情境；沒有AI捏造的光譜峰、測值或肉眼辨色結論。"
+    },
+    {
+      "heading": "③ 月球有水，不等於每處已證實",
+      "text": "月球上有水是大範圍陳述；希望在永久陰影帶隕石坑發現水，是特定位置的研究。D不能把前者直接當成撞擊前已證實後者。",
+      "alt": "師生區分一般敘述和特定地點，不用後來發現倒填報導當時的資訊。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：分析煙塵，辨識成分",
+    "points": [
+      "C直接對應題文交代的研究方法。",
+      "A誤讀先後，B的只能限縮過度。",
+      "D混淆已知範圍與待研究的特定位置。"
+    ]
+  },
+  "rationale": "實看原卷第16題完整文章與A至D，核對C。NASA LCROSS官方任務頁確認既有Cabeus目標、撞擊揚塵、光譜儀觀測與後續發現；不把之後科學結果倒填題文當時。原文的任何材料保留科普簡化，漫畫只說判讀成分，不承諾任意條件辨盡所有物質。新圖不造光譜數值、不畫月表液態水；科學家為泛指地面資料分析情境。無合適既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-603-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-603-source-f04035d8d8.jpg",
+    "site/dist/sources/gemini-i7ayScrFiwQf.txt"
+  ],
+  "sources": [
+    {
+      "url": "https://science.nasa.gov/mission/lcross/",
+      "note": "官方任務頁：既有Cabeus、揚塵、光譜儀與時序。"
+    },
+    {
+      "url": "https://www.nasa.gov/general/what-is-lcross-the-lunar-crater-observation-and-sensing-satellite/",
+      "note": "官方任務介紹：針對陰影隕石坑調查水冰。"
+    }
+  ],
+  "answerCheckedAgainst": "C研究方法有原句依據；A對象時序錯，B只水過度限縮，D將月球一般含水直接擴及本文當時待證實的位置。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "55093f8c483a471d17b8ed1828d453e2da55c40612ccba41561e815be5dcfe37",
+  "createdAt": "2026-10-28T21:32:47.552265+00:00",
+  "checkedAt": "2026-10-28T21:36:18.781960+00:00",
+  "validationFile": "docs/comics/q-603-validation.json",
+  "nativeArt": "assets/comics/q-603-art-55093f8c48-web.webp"
+}

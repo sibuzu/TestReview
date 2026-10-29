@@ -1,0 +1,96 @@
+{
+  "id": "q-428",
+  "subject": "Chinese",
+  "title": "看整詞意思，選出符合語境的杯葛",
+  "art": "docs/comics/art/q-428.png",
+  "startedAt": "2026-10-28T22:41:36.055587+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 賦閒：未任職而閒居",
+      "text": "例如：他離職後，暫時賦閒在家。重點是沒有職務或工作，不是有工作者假日休閒；因此原題A不恰當。",
+      "alt": "一名離職後暫未就業的成年人在家閒居，身分由旁邊HTML例句明示，不憑休息畫面判定失業。"
+    },
+    {
+      "heading": "② 服膺：牢記心中不忘",
+      "text": "例如：他服膺師長的教誨。「膺」指內心，整詞是把道理牢記心中；原題B說在消防隊任職，應用「服務」。",
+      "alt": "青年認真聽取長者教導並以手貼胸表示銘記，沒有消防或任職制服，對照正確詞義。"
+    },
+    {
+      "heading": "③ 濫觴：由水源引申為開端",
+      "text": "濫觴原指水流發源處，可比喻事物的起源。例如：這次讀書會是社團成立的濫觴。原題D把它當過量飲酒，意思不合。",
+      "alt": "淺小山泉從岩石間發源並匯成溪流，作起源的語義聯想，不畫酒杯或喝酒，不暗示社團真的由河流成立。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 看整詞意思，選出符合語境的杯葛",
+    "answer": "答案 C：杯葛＝抵制、阻撓",
+    "points": [
+      "原題C表態反對政策，與杯葛相合。",
+      "賦閒不是假日休閒；服膺不是任職服務。",
+      "濫觴指起源、開端，不是酗酒。"
+    ]
+  },
+  "protectedWords": [
+    "賦閒",
+    "未任職",
+    "假日休閒",
+    "服膺",
+    "師長",
+    "教誨",
+    "消防隊",
+    "服務",
+    "濫觴",
+    "發源處",
+    "讀書會",
+    "社團成立",
+    "過量飲酒",
+    "杯葛",
+    "抵制",
+    "阻撓",
+    "水源",
+    "牢記心中",
+    "未任職而閒居"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-428-source-a717eb4eb2.jpg"
+  ],
+  "originalVisualCheck": "實看原卷22題：完整A賦閒/B服膺/C杯葛/D濫觴及藍D紅C，四選項不改寫。",
+  "answerCheckedAgainst": "原卷紅C、完整四選項與既有已核對詞解；教育部賦閒/服膺/濫觴三詞條逐一開啟查證。",
+  "references": [
+    {
+      "title": "教育部重編國語辭典：賦閒",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=39487&q=1&word=%E8%B3%A6"
+    },
+    {
+      "title": "教育部國語辭典簡編本：服膺",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=6403&la=0&powerMode=0"
+    },
+    {
+      "title": "教育部重編國語辭典：濫觴",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=61131&la=1&powerMode=0"
+    }
+  ],
+  "promptPath": "docs/comics/q-428-prompt.txt",
+  "generationCalls": 1,
+  "rationale": "重新審查：四格HTML可涵蓋全部四詞。前三格改用三個錯選項的正確語義新例與情境，避免消防員/飲酒強化原錯搭配；第四格集中杯葛與C，無需每詞另有一幅圖。賦閒身分用HTML明示，濫觴山泉只供起源聯想，不用插畫替代精確詞義。",
+  "visualChecked": true,
+  "artSHA256": "a7b99bbece376f36a6b3ffa70d3a05c3081eec816cc9f3aad402ad951f9d5e85",
+  "checkedAt": "2026-10-28T22:45:11.616766+00:00",
+  "completedAt": "2026-10-28T22:43:29.672977+00:00",
+  "layoutEvidence": "docs/comics/q-428-preview-validation.json",
+  "visualReview": "實看新生成三景：居家閒居、教誨銘記、淺小水源，圖文均表現正確語義，不畫原錯義消防/飲酒。1440/1120/390三寬實看：四詞與C完整、圖裁切清楚、同行等高與手機自然高度、無橫溢或保護詞斷裂。",
+  "nativeArt": "assets/comics/q-428-art-a7b99bbece-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-428-validation.json"
+}

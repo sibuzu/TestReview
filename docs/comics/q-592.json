@@ -1,0 +1,97 @@
+{
+  "id": "q-592",
+  "subject": "Chinese",
+  "title": "靠詞義記正字：遐想、漸進、明察",
+  "art": "docs/comics/art/q-592.png",
+  "startedAt": "2026-10-28T22:24:49.855607+00:00",
+  "generationStartedAt": "2026-10-28T22:25:48.408Z",
+  "generationCompletedAt": "2026-10-28T22:26:10.811Z",
+  "panels": [
+    {
+      "heading": "① A：「暇想」要改「遐想」",
+      "text": "遐想是超越現實的思索或想像。小說令人展開想像，要用「遐」；「暇」是空閒，不能代替這個詞的正字。",
+      "alt": "閱讀小說展開幻想城堡的想像情境，協助記遐想詞義；實際正字在HTML，不由生成圖拼寫。"
+    },
+    {
+      "heading": "② C：「漸近」要改「漸進」",
+      "text": "循序漸進是按次序、步驟逐漸推進。學習由淺入深，重點是前進、進步，不是距離上的靠近。",
+      "alt": "同學從葉子簡單輪廓到較完整素描，在教師指導下逐步學習；新舉例對應漸進，不作原題不存在的技術考題。"
+    },
+    {
+      "heading": "③ D：「明查」要改「明察」",
+      "text": "明察秋毫形容能看出極細微的地方。「察」有仔細觀察的意思；原句形容法官不放過細微線索，正字應寫「察」。",
+      "alt": "學生透過放大鏡仔細觀察葉脈細節的語義例子，非原題法官辦案程序，也非把生物葉脈當本題證據。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：「貿然行事」用字正確",
+    "points": [
+      "貿然是輕率的意思；句中提醒不可輕率行事。",
+      "A遐想、C循序漸進、D明察秋毫，三處需訂正。",
+      "原卷B印的是「貿然」，按實際字形判斷，不沿用AI誤讀。"
+    ]
+  },
+  "protectedWords": [
+    "遐想",
+    "暇想",
+    "漸進",
+    "漸近",
+    "明查",
+    "明察",
+    "循序漸進",
+    "明察秋毫",
+    "貿然行事",
+    "貿然"
+  ],
+  "rationale": "原卷四句逐字實看，B確為貿然、D為明查，維持已確認B；新imagegen三詞義場景搭配HTML正字對照，把讀音/形近誤混連回意思。原卷錯字保留，漫畫只解說訂正，不重開既有AI冒然誤讀及明查通用錯誤。",
+  "promptSummary": "內建imagegen：小說遐想、逐步素描學習、放大鏡觀察細微，正字與答案全部HTML。",
+  "answerCheckedAgainst": "原卷4題全部句子；既有確認B；教育部遐想、循序漸進、明察秋毫及貿然辭條核對。",
+  "officialReferences": [
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=26566&la=0&powerMode=0",
+      "finding": "遐想為超越現實的思索或想像。"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=28732&la=0&powerMode=0",
+      "finding": "循序漸進為按照次序與步驟逐漸推進。"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4911&la=0&powerMode=0",
+      "finding": "正字明察秋毫，形容看出極細微的地方。"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4082&la=0&powerMode=0",
+      "finding": "正字貿然，輕率冒失義。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-592-source-a1136561e4.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "原卷A暇想、B貿然、C循序漸近、D明查秋毫實看，保持原題不擅修；新教學正字均HTML，不畫成可誤讀點陣字。"
+  },
+  "artSHA256": "54b625680c0093b0481db2264c32038b23373f30a76bfa677076bd81f26ff3b6",
+  "completedAt": "2026-10-28T22:27:16.729955+00:00",
+  "checkedAt": "2026-10-28T22:32:39.721183+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-592-preview-validation.json",
+  "visualReview": "實看2172×724與1440/390預覽：遐想/漸進/明察三語義場景與正字HTML對應，葉脈圖不當法官案件證據。字形對照明確，B原印貿然保留，無AI文字；手機詞組不拆、標點及字形可讀，三寬無橫溢出、行列尺寸規則通過。",
+  "nativeArt": "assets/comics/q-592-art-54b625680c-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-592-validation.json"
+}

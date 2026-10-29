@@ -1,0 +1,92 @@
+{
+  "id": "q-602",
+  "subject": "Chinese",
+  "title": "晴後林梢與傍晚城寒，讀出三四句的對偶",
+  "art": "docs/comics/art/q-602.png",
+  "startedAt": "2026-10-28T21:30:30.284873+00:00",
+  "panels": [
+    {
+      "heading": "① 雪浮雲端，著眼山勢高遠",
+      "text": "高處積雪遠看像浮在雲端。\n一、二句也寫陰嶺的秀麗，\n不是只誇張雪積得有多厚。",
+      "alt": "山坡下段藏於雲層而上部積雪露出，表現高遠，不是真正漂浮的山"
+    },
+    {
+      "heading": "② 霽色：雨雪停止、天色放晴",
+      "text": "林表是林梢，霽指雨雪後放晴。\n第三句寫林梢明亮的晴後光景，\n不是積雪在樹梢塗上某種顏色。",
+      "alt": "雪停後樹林頂部的晴光，沒有顏料或人為塗色，也沒有添加日出"
+    },
+    {
+      "heading": "③ 暮寒：城裡傍晚寒意加深",
+      "text": "暮是傍晚，不是正午。\n林表／城中、明／增、霽色／暮寒，\n三組前後相對，形成對偶。",
+      "alt": "古城傍晚冷意加深的概念情境，配合晴後林梢與暮寒對照，不作精確古城復原"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：三、四句對偶",
+    "points": [
+      "場所相對：林表／城中；明與增也前後相對。",
+      "名詞：霽色／暮寒，晴後光景對傍晚寒意。",
+      "全詩四句、每句五字，是五言絕句。"
+    ]
+  },
+  "protectedWords": [
+    "積雪",
+    "陰嶺",
+    "林表",
+    "林梢",
+    "霽色",
+    "暮寒",
+    "五言絕句",
+    "三、四句",
+    "晴後光景"
+  ],
+  "rationale": "原卷全詩、注釋及四選項實看，維持B。新圖把高處餘雪、雨雪放晴的林梢、城中傍晚寒意具體化，HTML精確拆對偶三組；不沿用原AI五言律詩或初升夕陽錯誤，也不從圖虛構詩中未說的日出時間。",
+  "promptSummary": "無字新製古詩動漫景：積雪高出雲端、雪停林梢晴光、古城傍晚寒意；詩句和對偶用HTML，不畫浮島/塗樹顏料。",
+  "answerCheckedAgainst": "原卷15題完整詩句注釋和A～D、既有確認B；教育部字典核對林表及霽，學校唐詩教材核對五言絕句。",
+  "officialReferences": [
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=64490&la=0&powerMode=0",
+      "finding": "林表指樹林末梢。"
+    },
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5471&la=1&powerMode=0",
+      "finding": "霽為雨雪停止及晴朗光景。"
+    },
+    {
+      "url": "https://www.kses.ntpc.edu.tw/var/file/0/1000/attach/3/pta_5718_3932709_28499.pdf",
+      "finding": "學校古詩教材收錄祖詠本詩四句。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-602-source-1a72f6c172.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "原題明寫絕句，全詩20字可辨；三四句對偶，暮與正午矛盾；不重開既有原AI錯誤訂正。"
+  },
+  "completedAt": "2026-10-28T21:33:13.390649+00:00",
+  "checkedAt": "2026-10-28T21:38:53.801761+00:00",
+  "visualChecked": true,
+  "generationStartedAt": "2026-10-28T21:31:53.361Z",
+  "generationCompletedAt": "2026-10-28T21:32:10.113Z",
+  "artSHA256": "7a9e8df7828314c2c7fa8b788fa8d74302db8dafb92c189a3f9967dfdc66ac26",
+  "previewValidation": "docs/comics/q-602-preview-validation.json",
+  "visualReview": "新三聯原圖及最終1440/390預覽實看：餘雪高出雲層而非浮島、林梢雪停晴光、古城傍晚冷意，不畫成正午/日出或塗樹顏料。景觀只示詩意、不作終南山真實海拔地形或古城精確復原；對偶分組在HTML明示，未額外硬斷明的詞性。桌機同列等高/手機自然高，無裁切橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-602-art-7a9e8df782-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-602-validation.json"
+}

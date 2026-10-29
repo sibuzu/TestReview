@@ -1,0 +1,88 @@
+{
+  "id": "q-593",
+  "subject": "Chinese",
+  "title": "成語要對上本義與前後語境",
+  "art": "docs/comics/art/q-593.png",
+  "protectedWords": [
+    "不分軒輊",
+    "墨守成規",
+    "妙不可言",
+    "嚴懲不貸",
+    "很快分出高下",
+    "寬恕",
+    "褒貶",
+    "協調",
+    "固守舊規",
+    "嚴厲處罰",
+    "絕不姑息"
+  ],
+  "panels": [
+    {
+      "heading": "① 不分軒輊：兩者實力相當",
+      "text": "A先說不分軒輊，指分不出高下、實力相當；後面卻接很快分出高下，這樣的前後語境不協調，不能只看成語有歌唱情境就選。",
+      "alt": "兩名歌者並列的想像情境，不讓圖像代替真實評分，也不畫已分勝負卻標實力難分。"
+    },
+    {
+      "heading": "② B、C也不合詞義與語氣",
+      "text": "C的妙不可言指奇妙得難以述說，不是說明書交代詳盡。B的墨守成規指固守舊規、不肯改變，也不適合拿來讚揚學生從不遲到早退。",
+      "alt": "師生看說明書的教學情境，沒有奇蹟魔法，也不把好學生畫成墨守成規的刻板人物。"
+    },
+    {
+      "heading": "③ 嚴懲不貸：嚴厲處罰，絕不寬免",
+      "text": "D的傾倒廢料情境配合絕不姑息，正適合嚴懲不貸。這裡的貸是寬恕、饒免，不是借貸，因此整句意思通順。",
+      "alt": "泛指環保稽查人員記錄傾倒廢料，不畫身體處罰、真實公司或捏造確切裁罰。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：嚴懲不貸",
+    "points": [
+      "核本義，再看前後文是否協調。",
+      "墨守成規帶固守舊規的意味，不能只當守規矩的讚詞。",
+      "貸在本成語解作寬恕，不是借錢。"
+    ]
+  },
+  "rationale": "實看第5題完整原卷四語句與D作答，教育部簡編本核不分軒輊、墨守成規、妙不可言，重編本核嚴懲不貸之貸為寬恕。獨立判A前後不協調、B褒貶不合、C語義不合、D符合。新內建圖語義場景支援比較，不描繪具體刑罰或法律必然結果；不假造比賽分數/實際公司/說明文字。無合適既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-593-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-593-source-94c5dbfa2e.jpg"
+  ],
+  "sources": [
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1942&la=0&powerMode=0",
+      "word": "不分軒輊"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3759&la=0&powerMode=0",
+      "word": "墨守成規"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4565&la=0&powerMode=0",
+      "word": "妙不可言"
+    },
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=155425&la=0&powerMode=0",
+      "word": "嚴懲不貸"
+    }
+  ],
+  "answerCheckedAgainst": "D嚴懲不貸/絕不姑息義相合；A前後矛盾語境、B守時不等墨守、C詳盡不等妙不可言。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "1556f9accee636e856df1cfdbc957c66fcd94441648a837b4abd456b4b65759c",
+  "createdAt": "2026-10-28T22:29:26.618884+00:00",
+  "checkedAt": "2026-10-28T22:34:55.909491+00:00",
+  "validationFile": "docs/comics/q-593-validation.json",
+  "nativeArt": "assets/comics/q-593-art-1556f9acce-web.webp"
+}

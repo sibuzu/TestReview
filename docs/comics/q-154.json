@@ -1,0 +1,77 @@
+{
+  "id": "q-154",
+  "subject": "Civics",
+  "title": "先看修法者，再看被規範的權力",
+  "art": "docs/comics/art/q-154.png",
+  "startedAt": "2026-10-29T01:43:53.645724+00:00",
+  "panels": [
+    {
+      "heading": "① 做事的是立法院：立法權",
+      "text": "文章的動作是「立法院三讀通過法律修正案」。立法院制定、修正法律，屬於立法權；別因材料出現法庭，就直接把動作者判成司法權。",
+      "alt": "成年議員在一般議事空間討論空白法律草案的概念情境，不冒充某次實際院會或真實政治人物。"
+    },
+    {
+      "heading": "② 規範的是法院審理：司法權",
+      "text": "修正內容涉及法庭審理的公開播送制度，規範對象是法院行使司法權的程序。因此方向是立法權制衡司法權，選D，不是立法對行政。",
+      "alt": "空法庭後方的攝影機，示意公開播送制度的可能安排；沒有實際案件，也不表示所有審理都須直播。"
+    },
+    {
+      "heading": "③ 一般規則，不是指揮個案",
+      "text": "立法院可依法制定法院組織及程序規則；法官仍須依法獨立審判。修法不等於立委可以要求某個案件判誰輸贏，也不是法院正在審查法律違憲。",
+      "alt": "法官獨自依法律閱讀、思考，沒有議員下令或個案判決指令，不把制衡畫成上下級指揮。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：立法權制衡司法權",
+    "points": [
+      "誰做事：立法院修法，辨認立法權。",
+      "規範誰：法院審理程序，辨認司法權。",
+      "法院審查法律是否違憲才是反方向，本題問修法行為。"
+    ]
+  },
+  "protectedWords": [
+    "立法院",
+    "立法權",
+    "司法權",
+    "行政權",
+    "獨立審判",
+    "公開播送",
+    "法律修正案",
+    "法院組織",
+    "一般規則",
+    "審理程序"
+  ],
+  "rationale": "實看新聞全文和第5題四選項，沿使用者已確認D，不重開原AI舊B錯答。依憲法63/80查核修法權與獨立審判，內建imagegen新製立法討論/空法庭攝影機/獨立法官情境；不重用原AI訂正版，不把舊新聞當最新直播施行狀態。",
+  "promptSummary": "內建imagegen全新無字三情境：成年人議事討論草案、空法庭後方攝影機、法官獨立讀法律。無真實人物/院會、無逐案指揮/實際開庭直播，精確制衡方向及界線用HTML。",
+  "answerCheckedAgainst": "原卷立法院修法院組織法公開播送、四選項與使用者確認D；全國法規資料庫憲法63議決法律案、80依法獨立審判。",
+  "officialReferences": [
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=63",
+      "finding": "憲法63規定立法院議決法律案等權限，支持修法者為立法權。"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=80",
+      "finding": "憲法80要求法官依法獨立審判不受干涉，一般程序立法不等於個案指令。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-154-reading-source-8b587e6efe.jpg",
+      "site/dist/assets/questions/q-154-source-4d890d127b.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "實看分流原則/法律審及事實審、公聽會及司法方審慎意見原文，題目專問修法制衡方向。原報導內容保留，不改最新法律狀態；既已確認D不重問。"
+  },
+  "artSHA256": "e0d9f05de9d1617508424d6b49312fdff4a41d877ccc89c917a6db201d1aa409",
+  "generationStartedAt": "2026-10-29T01:45:04.924Z",
+  "generationCompletedAt": "2026-10-29T01:45:28.232Z",
+  "completedAt": "2026-10-29T01:46:46.240364+00:00",
+  "checkedAt": "2026-10-29T01:46:46.240364+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-154-preview-validation.json",
+  "visualReview": "實看2172×724無字新圖及1440/390：三情境依序議事草案、空法庭攝影機、法官獨立讀法律；沒有命令個案/實際直播或真實政治人物暗示。D方向立法→司法正確，原新聞不當最新法律宣示；三寬無溢出，同行等高與手機自然高度。"
+}

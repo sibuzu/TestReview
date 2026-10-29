@@ -63,8 +63,31 @@
   "supersedesSpec": "docs/comics/q-136-prior-anime-spec.json",
   "artSHA256": "35f242daeb996e12601edaed2b9ef632806d4e6fc4cbc7f7d1d92a98d10d5e0d",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T01:13:31.456528+00:00",
+  "checkedAt": "2026-10-29T02:03:12.182744+00:00",
   "completedAt": "2026-10-29T01:13:31.456528+00:00",
   "layoutEvidence": "docs/comics/q-136-preview-validation.json",
-  "visualReview": "實看1440/1120/390新代數乘法表/三係數對應/數線，abx兩格與2ab配−20清楚；數線等尺度兩跳+2、+5箭頭方向正確，不用負邊長面積模型。最後加法整式保護後重看桌手機，無橫溢/保護詞拆行，同列等高手機自然高度。"
+  "visualReview": "實看1440/1120/390新代數乘法表/三係數對應/數線，abx兩格與2ab配−20清楚；數線等尺度兩跳+2、+5箭頭方向正確，不用負邊長面積模型。最後加法整式保護後重看桌手機，無橫溢/保護詞拆行，同列等高手機自然高度。",
+  "nativeArt": "assets/comics/q-136-art-35f242daeb.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:03:12.180677+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "乘法表非負邊長模型；係數a2/b-5/m25與數線25→27→32重算。正式桌手機實看、三寬6項QA通過。",
+    "independentMathCheck": "docs/comics/root-math7-validation.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-136-validation.json"
 }

@@ -1,0 +1,84 @@
+{
+  "id": "q-155",
+  "subject": "Civics",
+  "title": "機關、權力、職權，要全部搭配正確",
+  "art": "docs/comics/art/q-155.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:46:46.308750+00:00",
+  "panels": [
+    {
+      "heading": "① 甲只對一部分，還不能選",
+      "text": "國會可以審查國家預算，但行使的是立法權。甲把國會標成行政權，即使上面的工作內容正確，整格仍不算「完全正確」。",
+      "alt": "甲國會的原錯誤行政權標紅叉，箭頭改配立法權綠勾；不是把原題作答前的標籤替換。"
+    },
+    {
+      "heading": "② 乙把內閣配成立法權",
+      "text": "內閣屬行政機關，應配行政權；立法權應配國會。讀圖時逐一核對機關與權力，不要因原圖有箭頭，就接受框內的錯誤搭配。",
+      "alt": "乙內閣的原錯誤立法權標叉，改配行政權；不把監督其他行政機關的工作全盤說錯。"
+    },
+    {
+      "heading": "③ 丙三項吻合，符合題意",
+      "text": "丙將法院、司法權、獨立行使職權放在一起，機關、權力與工作內容相符。法院依法獨立審判，這一格完整正確，選C。",
+      "alt": "法院沿箭頭配司法權，再接獨立行使職權，三段完整對應丙。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙，法院行使司法權",
+    "points": [
+      "不能只看一個字眼對，就忽略同格錯誤。",
+      "甲改配立法權；乙改配行政權；丙搭配正確。",
+      "丁的核心應看相互制衡；機關可依法合作，但合作不能取代制衡。"
+    ]
+  },
+  "protectedWords": [
+    "國會",
+    "內閣",
+    "立法權",
+    "行政權",
+    "司法權",
+    "完全正確",
+    "獨立行使職權",
+    "獨立審判",
+    "相互制衡",
+    "審查國家預算"
+  ],
+  "rationale": "實看原卷全題及含甲乙丙丁完整三權圖，C維持。新原生配對/訂正圖直接比較機關權力錯置，原卷錯標僅在解說內訂正，原題不改；不把丁不選擴大成機關不能合作。",
+  "promptSummary": "原生SVG：甲國會行政權×→立法權✓；乙內閣立法權×→行政權✓；丙法院→司法權→獨立行使職權。文字均是可核對制度標籤，不畫人物權力上下級。",
+  "answerCheckedAgainst": "原卷甲國會行政權、乙內閣立法權、丙法院司法權獨立職權與丁相互合作標籤實看；憲法53/62/77及80核對分類及審判獨立。",
+  "officialReferences": [
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=53",
+      "finding": "行政院為最高行政機關；對應本題內閣行政權分類，不涉及另增任免制度。"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=62",
+      "finding": "立法院為最高立法機關，代表人民行使立法權。"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=77",
+      "finding": "司法院掌理審判等司法事項，對應本題法院司法權分類。"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=80",
+      "finding": "法官依法獨立審判，不受干涉。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-155-source-46b710b0ec.jpg",
+      "site/dist/assets/questions/q-155-figure-542d1868f0.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "原題三角圖甲審查國家預算行政權國會/乙立法權內閣監督行政機關/丙司法權法院獨立行使職權/丁相互合作，四標與題目完全正確條件均核對；新圖為解說訂正非原題。"
+  },
+  "artSHA256": "b9359cce8b489b072f40050786a3a0b913e14c85206025fa5cef9b7f91860062",
+  "completedAt": "2026-10-29T01:48:30.266448+00:00",
+  "checkedAt": "2026-10-29T01:48:30.266448+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-155-preview-validation.json",
+  "visualReview": "實看原卷/三角關係必要附圖及540×180新原生、1440/390成品：甲國會改立法/乙內閣改行政兩段清楚，丙法院司法獨立三段相符。新圖僅解說內訂正、不重畫原題標籤；丁說明不否定依法合作。三寬無溢出，桌面同行等高、手機單欄自然高度。"
+}

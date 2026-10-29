@@ -1,0 +1,651 @@
+{
+  "checkedAt": "2026-10-29T01:57:55.491156+00:00",
+  "reviewerLane": 3,
+  "scope": "54題優先批次13道數學重作，只讀交叉核對；未修改spec/data/asset-map或共享進度",
+  "reviewMethod": "原卷實看，完整題文/選項/必要表格核對；重新以Fraction、獨立坐標、逐步順時針旋轉和模7列舉驗算；目前SVG直接渲染後實看，不僅依原作者validation結論。",
+  "existingOwnReviewReused": [
+    127,
+    320,
+    324,
+    807,
+    809
+  ],
+  "freshCurrentArtContactSheets": [
+    "/tmp/rework-math-cross-review-lane3-0.png",
+    "/tmp/rework-math-cross-review-lane3-1.png"
+  ],
+  "screenshotCaveat": "先前q126隔離預覽仍顯舊5/6標籤；本次直接渲染目前SVG確認已為5份/6份，不將舊截圖冒充現版本。",
+  "passedCount": 13,
+  "substantiveIssueCount": 0,
+  "newConfirmationRequired": false,
+  "records": [
+    {
+      "id": "q-126",
+      "title": "數學第19題｜相似形與共高三角形面積比",
+      "answerUnchanged": true,
+      "expectedOption": "A",
+      "calculation": {
+        "freshCoordinates": {
+          "A": [
+            "0",
+            "43"
+          ],
+          "B": [
+            "0",
+            "0"
+          ],
+          "C": [
+            "10",
+            "0"
+          ],
+          "D": [
+            "0",
+            "129/5"
+          ],
+          "F": [
+            "100/43",
+            "33"
+          ],
+          "G": [
+            "250/43",
+            "18"
+          ],
+          "E": [
+            "50/11",
+            "0"
+          ]
+        },
+        "exactAreas": {
+          "ADF": "20",
+          "DBF": "30",
+          "BFG": "75",
+          "GBC": "90",
+          "ABG": "125"
+        },
+        "BE_over_EC": "5/6"
+      },
+      "specificDiagramChecks": [
+        "A-D-B、A-F-G-C、B-E-C順序與原卷一致",
+        "新坐標兩組平行叉積均0；共高與相似面積平方關係正確",
+        "目前SVG的BC標5份/6份，不作絕對長度",
+        "圖中125為整ABG、75為中間BFG，不混用"
+      ],
+      "artPath": "docs/comics/art/q-126.svg",
+      "artSha256": "cf158edaeb7469effedf52d4247daed6ffa2b031204788fa2fddbdb3ae1c2f66",
+      "specSha256": "ed3ea2850ab6af408ff5970547afe3799964bd2e650788bab4288263c24fb278",
+      "originalPhotoPaths": [
+        "assets/questions/q-126-source-10d413a6ce.jpg",
+        "assets/questions/q-126-figure-source-bbbf424d0b.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-127",
+      "title": "數學第20題｜角度推平行後求交點分段比",
+      "answerUnchanged": true,
+      "expectedOption": "B",
+      "calculation": {
+        "angles": {
+          "ADE": 65.0,
+          "DEA": 65.0,
+          "EAC": 65.0,
+          "ACB": 65.00000000000001
+        },
+        "AD": 5,
+        "BE": 6,
+        "BF": 4,
+        "FC": 7,
+        "BT": 6,
+        "FT": 2,
+        "AP_over_AF": "5/7"
+      },
+      "specificDiagramChecks": [
+        "T在F與C之間；AD∥FT且ADP與FTP相似",
+        "AD/FT是實際5/2；AP/PF僅為5份/2份，不誤作絕對長",
+        "AP比AF為5/7，不把BF當對應邊"
+      ],
+      "artPath": "docs/comics/art/q-127.svg",
+      "artSha256": "24d44f3d33a6ee6539e0463601c73d95f590bd324cd1b065ac9205441a5d49f4",
+      "specSha256": "40634eb37c8d6ab846f36890d38b7297391b3ef6166252c5d333668d4dbe84d6",
+      "originalPhotoPaths": [
+        "assets/questions/q-127-source-6ae46440ff.jpg",
+        "assets/questions/q-127-figure-source-1ac49e2af0.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-136",
+      "title": "數學第2題｜完全平方與常數項",
+      "answerUnchanged": true,
+      "expectedOption": "C",
+      "calculation": {
+        "a": 2,
+        "b": -5,
+        "m": 25,
+        "expandedCoefficients": [
+          4,
+          -20,
+          25
+        ],
+        "target": 32
+      },
+      "specificDiagramChecks": [
+        "乘法表是抽象代數乘積，spec明確不是負邊長/實際面積",
+        "數線25到27到32，每單位18像素，兩跳分別+2與+5",
+        "沒有把b=-5畫成實際負長度"
+      ],
+      "artPath": "docs/comics/art/q-136-algebra.svg",
+      "artSha256": "35f242daeb996e12601edaed2b9ef632806d4e6fc4cbc7f7d1d92a98d10d5e0d",
+      "specSha256": "b39659639953d29ec5edcaf65a74de3fe4bc36af258fef7479a99b0ed2c05b91",
+      "originalPhotoPaths": [
+        "assets/questions/q-136-source-1056681497.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-319",
+      "title": "數學非選第2題｜停車分段計費與會員年費",
+      "answerUnchanged": true,
+      "expectedOption": "非選：160元、51天",
+      "calculation": {
+        "minutes": 343,
+        "chargeUnitsAfterFirst2h": 8,
+        "part1": 160,
+        "normal11h": 310,
+        "member11hBeforeCap": 120,
+        "member11h": 110,
+        "50daysTotals": [
+          15500,
+          15500
+        ],
+        "51daysTotals": [
+          15810,
+          15610
+        ],
+        "minimumDays": 51
+      },
+      "specificDiagramChecks": [
+        "最後13/30格仍算第8格",
+        "年費圖斜率310和110、截距0和10000、交點50/15500符合",
+        "原卷會員前3小時合計40；嚴格較便宜排除50"
+      ],
+      "artPath": "docs/comics/art/q-319.svg",
+      "artSha256": "09761e88e3d550c0a827b059ef917dc59d1d371d9cd472266bb5422e935bdb98",
+      "specSha256": "8fceb0ffc44bd00a4a5d20e67f18392302a4f3eba6c8d0e49f52f4af7f3411dc",
+      "originalPhotoPaths": [
+        "assets/questions/q-319-source-e40091655a.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-320",
+      "title": "數學第20題｜肉粽數量同時受金額與熱量限制",
+      "answerUnchanged": true,
+      "expectedOption": "C",
+      "calculation": {
+        "amountBound": "23/4",
+        "energyBound": "1430/329",
+        "totals": {
+          "2": [
+            150,
+            1153
+          ],
+          "3": [
+            190,
+            1482
+          ],
+          "4": [
+            230,
+            1811
+          ],
+          "5": [
+            270,
+            2140
+          ],
+          "6": [
+            310,
+            2469
+          ]
+        },
+        "maxInteger": 4
+      },
+      "specificDiagramChecks": [
+        "同尺度兩數線界線5.75與約4.35位置正確",
+        "表內2/3/4/5個的兩種總量全部正確",
+        "數線明示只看上限，不把0或1個當兩餐完整安排"
+      ],
+      "artPath": "docs/comics/art/q-320-algebra.svg",
+      "artSha256": "b6023044217c9a19180c4a10ad84c220e96635c775dc5a9fc245c2c6a5fc095b",
+      "specSha256": "2e8552e17bce0f3e3ca587fd452ac016acf74a13f0d060a1efb487bc41f699c7",
+      "originalPhotoPaths": [
+        "assets/questions/q-320-source-f1c681a94c.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-321",
+      "title": "數學第21題｜單程與雙程纜車人數",
+      "answerUnchanged": true,
+      "expectedOption": "C",
+      "calculation": {
+        "outboundTotal": "3x+5",
+        "returnTotal": "3x-1",
+        "oneWayOnly": "4x+4",
+        "strictBound": "x<19/2",
+        "maxInteger": 9,
+        "check9": {
+          "outbound": 32,
+          "return": 26,
+          "onlyOutbound": 23,
+          "onlyReturn": 17,
+          "oneWay": 40
+        },
+        "check10OneWay": 44
+      },
+      "specificDiagramChecks": [
+        "Venn交集x被每個總數各包含一次，只單程須各減x",
+        "圈面積不聲稱人數比例",
+        "數線9.5端點空心、向左，9高亮，未寫≤"
+      ],
+      "artPath": "docs/comics/art/q-321-algebra.svg",
+      "artSha256": "fe20c41ed4cd6dbd64a36be043452d46ea8af9da0a2f153d8c566fb02a12c5c2",
+      "specSha256": "3f4fc1aec6d5f0351bf33bc3a4a3da878d393909c34e4da4dceb215c454be716",
+      "originalPhotoPaths": [
+        "assets/questions/q-321-source-f5145b6eb0.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-324",
+      "title": "數學第4題｜咖啡因標示與相同濃度",
+      "answerUnchanged": true,
+      "expectedOption": "D",
+      "calculation": {
+        "ratio": "3/4",
+        "middleRange": "(150,200]",
+        "twoMiddleRange": "(300,400]",
+        "givenThresholds": [
+          300,
+          400
+        ]
+      },
+      "specificDiagramChecks": [
+        "容量條162/216為3/4",
+        "黃色100開200閉；大杯推150開；交集150開200閉",
+        "乘2後300開400閉，D符合題給數據，不推醫療建議"
+      ],
+      "artPath": "docs/comics/art/q-324-algebra.svg",
+      "artSha256": "929dbf597b0dde03442803dfe05e759edd3135aa9ed7af7f4c8dd5eae4d62bcd",
+      "specSha256": "11e4a0f97500048cb6ffb19c08f1846e1cef443edfe92e771b11a55d1e8f23b1",
+      "originalPhotoPaths": [
+        "assets/questions/q-324-source-2fa780e9dd.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-325",
+      "title": "數學第3題｜兩地通勤與月票的損益比較",
+      "answerUnchanged": true,
+      "expectedOption": "C",
+      "calculation": {
+        "base": 880,
+        "extraPerBDay": 60,
+        "strictBound": "x>16/3",
+        "fare5": 1180,
+        "fare6": 1240,
+        "minimumDays": 6
+      },
+      "specificDiagramChecks": [
+        "兩排各11格共22天，未將一天上下班費再乘2",
+        "圖縱軸800起且標局部；費用線880+60x與1200交於16/3",
+        "數線16/3在5和6之間且空心，6為首整數"
+      ],
+      "artPath": "docs/comics/art/q-325.svg",
+      "artSha256": "800e157784879d77a31715e4272b010cb5efecee11e891bd7e97349046ad1bd1",
+      "specSha256": "752d3c53346c3295dff5bd827676ac4ee077a97bffd3bb2fd219008bbc6e1ff0",
+      "originalPhotoPaths": [
+        "assets/questions/q-325-source-ad673df1e0.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-334",
+      "title": "數學是非第5題｜不超過應包含等號",
+      "answerUnchanged": true,
+      "expectedOption": "B",
+      "calculation": {
+        "remainder": "200-x",
+        "correctCondition": "200-x<=30",
+        "counterexampleSpent": 170,
+        "counterexampleRemainder": 30,
+        "budgetFullDomain": "170<=x<=200"
+      },
+      "specificDiagramChecks": [
+        "同尺度≤30實心與<30空心，兩者箭頭都向左",
+        "170/30圖條136/24，比例85%/15%正確",
+        "答案B打叉，不能把正確修正式誤當原式正確"
+      ],
+      "artPath": "docs/comics/art/q-334-algebra.svg",
+      "artSha256": "3dc78711860782f6530aed0c04febf748b3158dddebd3f53ecfe519d28414b20",
+      "specSha256": "94235daa4bbb8102d1dad83ab95e0ebed681abda07157140bfa9320bedd9c684",
+      "originalPhotoPaths": [
+        "assets/questions/q-334-source-ef6a0605b3.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-806",
+      "title": "數學第6題｜等差級數多一項與和的差",
+      "answerUnchanged": true,
+      "expectedOption": "D",
+      "calculation": {
+        "differenceExpression": "45-4n",
+        "solutions": [
+          "19/2",
+          "13"
+        ],
+        "selectedN": 13,
+        "sum13": 273,
+        "sum14": 266,
+        "extraTerm": -7
+      },
+      "specificDiagramChecks": [
+        "前n項方塊只示結構，未把負項當正長度/總和條",
+        "±7在0兩側等距，排除非整數9.5",
+        "局部數線266與273相隔7且加-7箭頭向左"
+      ],
+      "artPath": "docs/comics/art/q-806.svg",
+      "artSha256": "1f874076fc7c9cb16fa997a3ab770b94a37778cf1d18dfd20329e887d50f31d5",
+      "specSha256": "87a9ddb540209fb508278bd4474dd55d94ab408602ebf8e4e19f5c0b4f27cf8f",
+      "originalPhotoPaths": [
+        "assets/questions/q-806-source.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-807",
+      "title": "數學第18題｜奇偶項和與相鄰配對公差",
+      "answerUnchanged": true,
+      "expectedOption": "B",
+      "calculation": {
+        "d": "4/3",
+        "a1": -5,
+        "oddSum": "10",
+        "evenSum": "18",
+        "pairCount": 6,
+        "pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ]
+        ]
+      },
+      "specificDiagramChecks": [
+        "圖正好12框6對，每一對只差d",
+        "兩總和條長100和180代表總和10/18，不代表個別項皆正",
+        "項次a1/a2/a3示一步d兩步2d，不作全正數線"
+      ],
+      "artPath": "docs/comics/art/q-807-algebra.svg",
+      "artSha256": "fd6a0475c7da0d1e3d889273ea485390051c7bb6e68c53a01fa43cf6f7f00146",
+      "specSha256": "8f6fa084bff7f8a79a3d6632a6b82636514f6b64da08e4ac2a486c304c6f0672",
+      "originalPhotoPaths": [
+        "assets/questions/q-807-source.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-808",
+      "title": "數學第22題｜矩形滾動的落點週期",
+      "answerUnchanged": true,
+      "expectedOption": "C",
+      "calculation": {
+        "initial": {
+          "turn": 0,
+          "ground": {
+            "A": [
+              -3,
+              0
+            ],
+            "B": [
+              2,
+              0
+            ]
+          }
+        },
+        "first5GroundStates": [
+          {
+            "turn": 0,
+            "ground": {
+              "A": [
+                -3,
+                0
+              ],
+              "B": [
+                2,
+                0
+              ]
+            }
+          },
+          {
+            "turn": 1,
+            "ground": {
+              "B": [
+                2,
+                0
+              ],
+              "C": [
+                5,
+                0
+              ]
+            }
+          },
+          {
+            "turn": 2,
+            "ground": {
+              "C": [
+                5,
+                0
+              ],
+              "D": [
+                10,
+                0
+              ]
+            }
+          },
+          {
+            "turn": 3,
+            "ground": {
+              "A": [
+                13,
+                0
+              ],
+              "D": [
+                10,
+                0
+              ]
+            }
+          },
+          {
+            "turn": 4,
+            "ground": {
+              "A": [
+                13,
+                0
+              ],
+              "B": [
+                18,
+                0
+              ]
+            }
+          }
+        ],
+        "target": [
+          [
+            25,
+            "C"
+          ]
+        ],
+        "sameVertexPeriod": 16,
+        "CContacts": [
+          5,
+          21,
+          37,
+          53,
+          69,
+          85,
+          101
+        ]
+      },
+      "specificDiagramChecks": [
+        "起始A在-3不是0，AB5/BC3形狀比例正確",
+        "五快照同尺度寬高5/3交替，A-3/B2/C5/D10/A13/B18標籤正確",
+        "六段16總96，C在101；13只是A落點坐標非週期"
+      ],
+      "artPath": "docs/comics/art/q-808-geometry.svg",
+      "artSha256": "5692841eab416be3ec3da892bbbf8bb1499c9bbbe3d327ab895cb63a5ee9d71f",
+      "specSha256": "f61e0b8bf6328d0358abce901d43d0bed63e7d67fdf7b244407d7d79ee5ef689",
+      "originalPhotoPaths": [
+        "assets/questions/q-808-source.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "id": "q-809",
+      "title": "數學第23題｜每10天兌換與星期循環",
+      "answerUnchanged": true,
+      "expectedOption": "C",
+      "calculation": {
+        "optionSequences": {
+          "A": [
+            "一",
+            "四",
+            "日",
+            "三",
+            "六",
+            "二"
+          ],
+          "B": [
+            "二",
+            "五",
+            "一",
+            "四",
+            "日",
+            "三"
+          ],
+          "C": [
+            "三",
+            "六",
+            "二",
+            "五",
+            "一",
+            "四"
+          ],
+          "D": [
+            "四",
+            "日",
+            "三",
+            "六",
+            "二",
+            "五"
+          ]
+        },
+        "elapsedDays": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "visits": 6,
+        "intervals": 5,
+        "weekdayStep": 3
+      },
+      "specificDiagramChecks": [
+        "星期環順時針一二三四五六日，三到六是三個一步箭頭",
+        "6列兌換恰好5個間隔，四選項各6次",
+        "A第3/B第5/D第2遇日；C避日，沒有多算第7次"
+      ],
+      "artPath": "docs/comics/art/q-809-cycle.svg",
+      "artSha256": "b60e2bfc38f193683749edba542b5c73d13a4257c2159c5074ad7a3891bac057",
+      "specSha256": "68a4e561957f76e8fff8d38eb7b9b25095b4526ff1d6d9a54035ff1129d75470",
+      "originalPhotoPaths": [
+        "assets/questions/q-809-source.jpg"
+      ],
+      "originalActuallyViewed": true,
+      "currentArtActuallyViewed": true,
+      "rectanglesHaveNonnegativeDimensions": true,
+      "result": "pass",
+      "issues": []
+    }
+  ],
+  "overall": "pass，未發現需改答案、數據或精確圖關係的實質錯誤"
+}

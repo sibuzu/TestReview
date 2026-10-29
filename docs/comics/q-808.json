@@ -60,8 +60,31 @@
   "computationEvidence": "docs/comics/q-808-rotation-check.json",
   "artSHA256": "5692841eab416be3ec3da892bbbf8bb1499c9bbbe3d327ab895cb63a5ee9d71f",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T01:10:40.769156+00:00",
+  "checkedAt": "2026-10-29T02:01:07.319448+00:00",
   "completedAt": "2026-10-29T01:10:40.769156+00:00",
   "layoutEvidence": "docs/comics/q-808-preview-validation.json",
-  "visualReview": "實看1440/1120/390精確初始5×3矩形、相同尺度連續接地快照及C等差數線；A−3/B2/C5/D10/A13/B18、101位置與六段16均正確，原點不混A。快照寬高交替保持比例，無圖層遮住端點；公式與詞組保護無橫溢，同列等高、手機自然高度。"
+  "visualReview": "實看1440/1120/390精確初始5×3矩形、相同尺度連續接地快照及C等差數線；A−3/B2/C5/D10/A13/B18、101位置與六段16均正確，原點不混A。快照寬高交替保持比例，無圖層遮住端點；公式與詞組保護無橫溢，同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-808-art-5692841eab.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:01:07.317951+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "核對原始四坐標與滾動方向；獨立依5/3交替邊長與週期16驗證第25次C接地101。正式桌手機圖文均已實看，三寬共6項QA通過。",
+    "independentMathCrossReview": "docs/comics/rework-math-cross-review-lane3.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-808-validation.json"
 }

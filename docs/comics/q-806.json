@@ -60,8 +60,31 @@
   "replaces": "docs/comics/q-806-before-diagrams.json",
   "artSHA256": "1f874076fc7c9cb16fa997a3ab770b94a37778cf1d18dfd20329e887d50f31d5",
   "completedAt": "2026-10-29T01:08:12.515650+00:00",
-  "checkedAt": "2026-10-29T01:08:12.515663+00:00",
+  "checkedAt": "2026-10-29T02:01:07.230509+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-806-preview-validation.json",
-  "visualReview": "實看原卷/新原生540×180與1440/390預覽：前n項對齊、乙多一項；±7分支n9.5與13正確；局部數線260–280等距標266與273，加−7向左。程式核13/14項和273/266；D不變，三寬無溢出與版型問題。"
+  "visualReview": "實看原卷/新原生540×180與1440/390預覽：前n項對齊、乙多一項；±7分支n9.5與13正確；局部數線260–280等距標266與273，加−7向左。程式核13/14項和273/266；D不變，三寬無溢出與版型問題。",
+  "nativeArt": "assets/comics/q-806-art-1f874076fc.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:01:07.227457+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "逐項核對原卷45、公差-4、多一項與差7；獨立重算n=13、S13=273、S14=266，負項和反減。正式桌手機圖文均已實看，三寬共6項QA通過。",
+    "independentMathCrossReview": "docs/comics/rework-math-cross-review-lane3.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-806-validation.json"
 }

@@ -1,0 +1,82 @@
+{
+  "id": "q-344",
+  "subject": "Geography",
+  "title": "分類看作業海域，不只看捕魚方法",
+  "art": "docs/comics/art/q-344-v2.png",
+  "protectedWords": [
+    "蹦火仔",
+    "沿岸漁業",
+    "近海漁業",
+    "遠洋漁業",
+    "養殖漁業",
+    "石門草里",
+    "金山跳石",
+    "中角海灣",
+    "作業海域",
+    "人工飼養",
+    "捕撈"
+  ],
+  "panels": [
+    {
+      "heading": "① 地名把作業範圍定位在近岸",
+      "text": "題目列出石門草里、金山跳石海岸、中角海灣，都是北海岸的近岸水域。先找在哪裡作業，便能判斷為沿岸漁業，選B。",
+      "alt": "全新北海岸近岸漁船概念情境，岸線與聚落清楚可見，非特定港口寫實重建，未虛構離岸海里數。"
+    },
+    {
+      "heading": "② 夜間、火光是漁法特徵",
+      "text": "入夜出海、用火光誘魚，說明蹦火仔怎麼捕魚；船員人數也只是本題作業描述。這些都不能取代作業海域，作為沿岸、近海或遠洋的絕對分界。",
+      "alt": "傳統磺火捕魚概念場景，僅部分成人船員入鏡，不當作完整人數；不畫化學燃料製程、爆炸或整船燃燒。"
+    },
+    {
+      "heading": "③ 捕野生魚，不是人工養殖",
+      "text": "養殖漁業是人工飼養，與本題出海捕捉野生魚不同。另外，日常說靠近海邊，不等於地理分類的近海漁業；這題的沿岸線索更直接。",
+      "alt": "人工管理魚塭及成人餵養場景，對照野生捕撈，不假定特定地點、物種或產量；非指蹦火仔在魚塭作業。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：沿岸漁業",
+    "points": [
+      "先圈石門、金山海岸與海灣地名。",
+      "分類依作業海域，不依夜間或船員人數。",
+      "生活中的近海，不能直接套作專有分類。"
+    ]
+  },
+  "rationale": "實看第14題完整原卷與四選項，讀原對話分類全文；維持現有B與詳解已限制絕對化船型/返港/跨大洋說法，不重開已整理事項。新北官方觀光及金山區公所主文核對蹦火仔近岸傳統漁法背景，不採用不穩定現存船數、活動日期及來源AI圖。全新近岸/磺火/人工養殖情境配HTML，無虛構海里界線，不把夜間漁法當分類條件。",
+  "generationMethod": "built-in imagegen new wordless coastal fishing and aquaculture comparison scenes",
+  "promptFile": "docs/comics/q-344-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-344-source-0c7594a343.jpg",
+    "site/dist/sources/6ae05208-3ffc-83ee-be7e-99cc4705ab6d.txt lines 264–333"
+  ],
+  "sources": [
+    {
+      "url": "https://newtaipei.travel/zh-tw/column/906",
+      "note": "新北市觀光旅遊網金山蹦火仔，地方與沿岸背景；不採最新船數及活動安排。"
+    },
+    {
+      "url": "https://www.jinshan.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=115e45cd114cd16ffad73a5743610d4a&id=434bd53925c22e62",
+      "note": "金山區公所觀光活動頁，傳統捕魚技法及金山磺港背景。"
+    }
+  ],
+  "answerCheckedAgainst": "原卷指定石門金山近岸海域，沿岸漁業B；非人工飼養，方法/人數不是決定條件。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:46:58.732420+00:00",
+  "artSha256": "f05e09fd88803bfa7fd20cb7bebd849373009890fef7d0c63ab6388b772b6ad5",
+  "editPromptFile": "docs/comics/q-344-edit-prompt.txt",
+  "artReview": "初圖中格為電燈集魚，已內建imagegen修為蹦火漁法的火炬局部火焰，保留近岸地點分類重點。",
+  "checkedAt": "2026-10-29T01:50:14.275185+00:00",
+  "validationFile": "docs/comics/q-344-preview-validation.json"
+}

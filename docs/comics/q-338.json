@@ -1,0 +1,70 @@
+{
+  "id": "q-338",
+  "subject": "Geography",
+  "title": "鞍部要看兩山之間的相對低處",
+  "art": "docs/comics/art/q-338-saddle.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T01:44:49.744747+00:00",
+  "panels": [
+    {
+      "heading": "① 兩山之間下凹，轉成鞍部概念",
+      "text": "題文說兩座山頭中間下凹的通道，對應鞍部。新圖P只示範這種相對高低，不是原題地圖；作答位置仍依保留的等高線圖判斷。",
+      "alt": "新製原生鞍形曲面，P沿藍色連線低於兩端、沿紫色方向高於鄰側；不含原卷甲乙丙丁或原圖高度，不冒充重製原圖。"
+    },
+    {
+      "heading": "② 沿兩山連線：中間比較低",
+      "text": "藍線剖面示意兩側高地之間的較低缺口。重點是兩邊都有較高地勢，不能只看到下凹、線密，或全圖較低的位置就直接選。",
+      "alt": "概念藍色剖面兩端較高、P居中較低，沒有海拔數字或比例尺，非虎字碑實際測線。"
+    },
+    {
+      "heading": "③ 換另一方向：可連到兩側低地",
+      "text": "紫線示意另一方向的兩側較低，P並不是全圖最低處。回看原題，甲處在兩側高地間的缺口，最符合鞍部，因此選A。",
+      "alt": "概念紫色剖面P比兩端高，與藍線垂直方向對照，表示鞍部非盆地；P是概念位置，不是原圖甲的量測高度。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 鞍部要看兩山之間的相對低處",
+    "answer": "答案 A：甲符合兩側高地間的低凹通道",
+    "points": [
+      "乙較像小丘；低海拔的丙也不等於鞍部。",
+      "丁附近是高地延伸，並非本題的兩山間缺口。",
+      "先把文字條件變成地形概念，再對照原圖位置。"
+    ]
+  },
+  "protectedWords": [
+    "鞍部",
+    "山頭",
+    "低凹通道",
+    "相對高低",
+    "等高線圖",
+    "藍線",
+    "紫線",
+    "剖面",
+    "較高地勢",
+    "低地",
+    "最低處",
+    "小丘",
+    "低海拔",
+    "兩山連線",
+    "高地延伸",
+    "地形概念",
+    "下凹",
+    "另一方向"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-338-source-68fb2ff88c.jpg",
+    "site/dist/assets/questions/q-338-figure-08173b4062.jpg"
+  ],
+  "originalVisualCheck": "實看原卷12完整題幹與甲乙丙丁原圖位置，紅訂A；只用原始照片等高線圖作位置證據，不採前來源AI曾轉正而改動位置的兩圖。",
+  "answerCheckedAgainst": "維持既有A甲，兩側高地間較低缺口符合鞍部，不憑最低/線密判答。新曲面P滿足沿山脊方向鄰點較高、垂直方向鄰點較低，檢查檔q-338-surface-check.json，不以曲面合成原卷海拔。",
+  "rationale": "依54題來源AI全撤規則，原生曲面與兩垂直方向剖面直接示鞍部拓樸；新圖P無原卷標記及高度，避免重複舊AI誤排甲乙問題。原卷真圖保留，主文藍線概念描述可由新原生藍線實現，不冒稱比例地形圖。",
+  "artType": "new precise native SVG saddle surface and conceptual profiles",
+  "generationCalls": 0,
+  "computationEvidence": "docs/comics/q-338-surface-check.json",
+  "artSHA256": "20d864d9847c3973d8bafb67d8cb46cb5b8247e829165d36eac56eb28b5f21b5",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T01:48:54.931467+00:00",
+  "completedAt": "2026-10-29T01:48:54.931467+00:00",
+  "layoutEvidence": "docs/comics/q-338-preview-validation.json",
+  "visualReview": "實看1440/1120/390新鞍形曲面與藍U/紫倒U剖面，P兩方向相對高低正確，無原卷甲乙高度位置重畫，原卷作答真圖另留。下凹與另一方向詞保護後手機重看，無橫溢/詞拆行，同列等高、手機自然高度；模型不是原圖比例測線。"
+}

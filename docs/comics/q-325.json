@@ -66,8 +66,31 @@
   "replaces": "docs/comics/q-325-before-diagrams.json",
   "artSHA256": "800e157784879d77a31715e4272b010cb5efecee11e891bd7e97349046ad1bd1",
   "completedAt": "2026-10-29T01:18:14.171978+00:00",
-  "checkedAt": "2026-10-29T01:18:14.171990+00:00",
+  "checkedAt": "2026-10-29T02:03:12.253032+00:00",
   "visualChecked": true,
   "previewValidation": "docs/comics/q-325-preview-validation.json",
-  "visualReview": "實看原卷全題/四選項與原生540×180、1440/390成品：兩排各11格共22日，A40換B100差60；局部函數圖原費880+60x對月票1200、門檻16/3位5與6間，5日1180/6日1240正確。已確認C不變，三寬無溢出/版型問題。"
+  "visualReview": "實看原卷全題/四選項與原生540×180、1440/390成品：兩排各11格共22日，A40換B100差60；局部函數圖原費880+60x對月票1200、門檻16/3位5與6間，5日1180/6日1240正確。已確認C不變，三寬無溢出/版型問題。",
+  "nativeArt": "assets/comics/q-325-art-800e157784.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:03:12.180677+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原每日往返/22天實看，880+60x>1200，x>16/3，5天1180、6天1240。正式桌手機實看、三寬6項QA通過。",
+    "independentMathCheck": "docs/comics/root-math7-validation.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-325-validation.json"
 }

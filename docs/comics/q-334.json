@@ -61,8 +61,31 @@
   "supersedesSpec": "docs/comics/q-334-prior-anime-spec.json",
   "artSHA256": "3dc78711860782f6530aed0c04febf748b3158dddebd3f53ecfe519d28414b20",
   "visualChecked": true,
-  "checkedAt": "2026-10-29T01:18:32.320730+00:00",
+  "checkedAt": "2026-10-29T02:03:12.266330+00:00",
   "completedAt": "2026-10-29T01:18:32.320730+00:00",
   "layoutEvidence": "docs/comics/q-334-preview-validation.json",
-  "visualReview": "實看1440/1120/390金額關係/30實心空心端點/170比30金額條，數線方向相同只改端點包含，正確反映不超過。手機數線詞保護後重看，無溢出及保護詞拆行，兩列獨立高度、手機自然高度。"
+  "visualReview": "實看1440/1120/390金額關係/30實心空心端點/170比30金額條，數線方向相同只改端點包含，正確反映不超過。手機數線詞保護後重看，無溢出及保護詞拆行，兩列獨立高度、手機自然高度。",
+  "nativeArt": "assets/comics/q-334-art-3dc7871186.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T02:03:12.180677+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原是非敘述實看；170+30邊界證明不超過必須含等號，兩數線空實心正確。正式桌手機實看、三寬6項QA通過。",
+    "independentMathCheck": "docs/comics/root-math7-validation.json",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-334-validation.json"
 }

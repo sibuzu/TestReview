@@ -1,0 +1,79 @@
+{
+  "id": "q-787",
+  "subject": "Physics-Chemistry",
+  "title": "只量兩管之間，先用兩端速度取平均",
+  "art": "docs/comics/art/q-787.svg",
+  "startedAt": "2026-10-28T20:04:46.691535+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 進1號管時，速度不是0",
+      "text": "球從更上方釋放，通過1號管才開始這一段計時。表中0.2秒是兩管之間的時間，不能當成從靜止落下的全部時間。",
+      "alt": "小球從較上方落至第一道光束已向下運動，下方另有第二道光束，箭頭顯示進第一管速度非零；裝置位置僅示意。"
+    },
+    {
+      "heading": "② 地球：平均速度2m/s",
+      "text": "等加速度下，均速(1＋3)÷2＝2m/s。距離2×0.2＝0.4m；換單位0.4m＝40cm。表格填cm，所以a＝40。",
+      "alt": "地球兩管間速度時間示意，速度由1線性升至3，橫向時間、縱向速度；虛線示意平均速度2，面積表示距離，數值由HTML提供。"
+    },
+    {
+      "heading": "③ 月球：先把17cm換成m",
+      "text": "17cm＝0.17m，所以平均速度0.17÷0.2＝0.85m/s。由(0.7＋b)÷2＝0.85，得到b＝1m/s。",
+      "alt": "月球速度時間示意，由0.7線性升至1，虛線平均0.85，曲線下面積為0.17m；無生成原表或實測標字。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 兩端速度平均，單位再檢查",
+    "answer": "答案 B：a＝40，b＝1",
+    "points": [
+      "等加速度這一段：平均速度＝兩端速度平均。",
+      "a的單位是cm，0.4m要填40。",
+      "按表中數據算，不另外套月球精確重力值。"
+    ]
+  },
+  "protectedWords": [
+    "0.2秒",
+    "等加速度",
+    "平均速度",
+    "0.4m",
+    "40cm",
+    "17cm",
+    "0.17m",
+    "0.85m/s",
+    "b＝1m/s",
+    "a＝40",
+    "b＝1",
+    "(1＋3)÷2＝2m/s",
+    "(0.7＋b)÷2＝0.85",
+    "2×0.2＝0.4m",
+    "0.4m＝40cm",
+    "0.17÷0.2＝0.85m/s",
+    "17cm＝0.17m"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-787-source-256d7ad466.jpg",
+    "site/dist/assets/questions/q-787-figure-05ca31ce58.jpg"
+  ],
+  "rationale": "實看原卷實驗裝置、兩地數據表及紅筆B，獨立驗算a40cm/b1m/s。無字原生SVG精確兩管間非靜止起算、地球/月球線性v-t與平均線/距離面積，不AI亂畫測量數值，也不套外部月球常數。",
+  "promptSummary": "原生SVG三圖：進第一道光束已有下速、地球1至3的v-t、月球0.7至1的v-t。",
+  "answerCheckedAgainst": "原卷紅筆B；地球均速2×0.2=.4m=40cm，月球均速.85=>b1。",
+  "artSHA256": "a045b4874d54698b6d6d8718e9434dec2ca4d3b42cbed43c71164e559f3add50",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T20:17:01.733209+00:00",
+  "completedAt": "2026-10-28T20:07:21.255255+00:00",
+  "layoutEvidence": "docs/comics/q-787-preview-validation.json",
+  "visualReview": "實看原卷B、表格cm/sec/m/s與光電管裝置，SVG示意入第一管非零與兩段線性v-t，均速虛線/面積正確。初版距離連等式過寬已拆開，17cm換算與0.17÷0.2完整短式保護後1440/1120/390重新實看全過，無斷式/橫溢，同列等高/單欄自然高度正常。",
+  "nativeArt": "assets/comics/q-787-art-a045b4874d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-787-validation.json"
+}

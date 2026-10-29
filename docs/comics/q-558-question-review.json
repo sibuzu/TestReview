@@ -1,0 +1,36 @@
+{
+  "id": "q-558",
+  "checkedAt": "2026-10-28T22:01:08.061486+00:00",
+  "answer": "B",
+  "originals": [
+    {
+      "src": "site/dist/assets/questions/q-558-source-f189ff9ae3.jpg",
+      "sha256": "f189ff9ae3ddd4f96d8437af09ca92e424dfdf3dd2bf3768afdc421185c0b801",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-558-tea-cup-7998c55030.jpg",
+      "sha256": "7998c550301eddc28d96a1ed4847f0b7f1aa6c6ea33b7e4f4e2b17661ddfc896",
+      "visualChecked": true
+    }
+  ],
+  "findings": [
+    "原卷9題與封膜/冰塊紅茶附圖實看，問題比較溶液質量與重量百分率，非整杯總質量，維持B。",
+    "水冰融化加溶劑：液態溶液變多，原有糖等溶質不增加，故稀釋。",
+    "數字採既有詳解自明示例：200g含20g糖另冰50g→250g含20g糖，整體守恆；不是向原題補假數據。",
+    "SVG用質量塊而非液面或冰漂浮體積；50/250與圖20/100比例一致，避免混淆體積守恆。"
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "beforeSolutionMass": 200,
+    "iceMass": 50,
+    "afterSolutionMass": 250,
+    "soluteMassBoth": 20,
+    "concentrationsPercent": [
+      10,
+      8
+    ],
+    "totalMassBoth": 250
+  },
+  "visualChecked": true
+}

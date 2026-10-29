@@ -1,0 +1,75 @@
+{
+  "id": "q-790",
+  "subject": "Physics-Chemistry",
+  "title": "先由面積求末速，再求煞車加速度",
+  "art": "docs/comics/art/q-790.svg",
+  "startedAt": "2026-10-28T20:09:10.073071+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 撞上落石，不代表已停車",
+      "text": "原圖10秒的末速度x仍在時間軸上方。題目只說撞上落石，沒有說先停止；不能直接把末速度設成0。",
+      "alt": "速度時間圖在10秒時仍高於時間軸，末速度不為零；無字SVG保留這個關鍵幾何位置。"
+    },
+    {
+      "heading": "② 面積250m，平均速度25m/s",
+      "text": "梯形面積是前進距離。平均速度250÷10＝25m/s；由(40＋x)÷2＝25，得末速度x＝10m/s。",
+      "alt": "速度時間圖下的梯形面積及平均速度水平虛線，端速40和10、均速25由HTML說明，不猜原圖手寫值。"
+    },
+    {
+      "heading": "③ 用速度變化除以10秒",
+      "text": "速度變化是10−40＝−30m/s。再除10秒，加速度為−3m/s²；負號表示與原行車方向相反，題目問大小所以取3。",
+      "alt": "直線減速的速度時間圖，橘色水平/垂直虛線示意10秒與減少30m/s，斜率為負；無生成公式。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 面積是距離，斜率是加速度",
+    "answer": "答案 D：3m/s²",
+    "points": [
+      "末速度10m/s，不是0。",
+      "加速度−3m/s²，大小是3m/s²。",
+      "40到10的均速25，10秒恰前進250m。"
+    ]
+  },
+  "protectedWords": [
+    "10秒",
+    "末速度",
+    "時間軸",
+    "梯形面積",
+    "平均速度",
+    "250÷10＝25m/s",
+    "(40＋x)÷2＝25",
+    "x＝10m/s",
+    "10−40＝−30m/s",
+    "−3m/s²",
+    "3m/s²",
+    "10m/s",
+    "250m"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-790-source-64f0017c40.jpg",
+    "site/dist/assets/questions/q-790-speed-time.svg"
+  ],
+  "rationale": "實看原卷24題/D與作答v-t圖，關鍵是末速不等於0、面積與斜率兩種量。無字原生SVG精確畫出末點高於軸、梯形面積/均速線、斜率直角位移，避免生成模型把撞擊當停車或畫錯正負斜率，公式全HTML。",
+  "promptSummary": "原生SVG三圖：非零末速度、梯形下面積及均速、斜率的水平時間與垂直速度變化。",
+  "answerCheckedAgainst": "原卷D；均速25=>末速10，(10−40)/10=−3，大小3m/s²。",
+  "artSHA256": "828e8c821d33e0e9e7bb7a1990764f8dd0691c1da8ffdae5e64a0add532e0c33",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T20:22:55.820959+00:00",
+  "completedAt": "2026-10-28T20:09:51.651394+00:00",
+  "layoutEvidence": "docs/comics/q-790-preview-validation.json",
+  "visualReview": "實看原卷24題D與圖，三寬SVG圖末點皆高於時間軸、梯形面積與均速線、橘色斜率三角形皆正確，未畫停車或撞擊暴力。1440/1120/390實看，公式/單位完整、無橫溢，同列等高與手機自然高度通過。",
+  "nativeArt": "assets/comics/q-790-art-828e8c821d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-790-validation.json"
+}

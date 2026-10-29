@@ -1,0 +1,71 @@
+{
+  "id": "q-116",
+  "subject": "Physics-Chemistry",
+  "title": "平衡是速率相等，不是濃度相等",
+  "art": "docs/comics/art/q-116.svg",
+  "startedAt": "2026-10-28T20:02:24.725659+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 兩方向都進行，而且等速",
+      "text": "動態平衡時，正反應速率＝逆反應速率。兩個方向仍持續，不是反應全部停止，也不是一個方向比另一個快。",
+      "alt": "兩個方向相反、長度及粗細相同的箭頭示意正逆反應速率相等，不表示化學物種粒子數相等。"
+    },
+    {
+      "heading": "② 各自濃度穩定，不代表相等",
+      "text": "圖中橫向表示時間，兩條水平線示意各自濃度不變，但數值可不同。反應係數2：1也不能直接當成平衡濃度比。",
+      "alt": "無數據濃度時間示意圖，兩條不同高度水平線；僅示意各物質濃度各自穩定，不代表本題測得的濃度或比例。"
+    },
+    {
+      "heading": "③ 濃度穩定，巨觀顏色穩定",
+      "text": "本題兩種有色離子的濃度維持穩定，所以同一溶液先後觀察時，顏色不再變化。這是動態平衡的巨觀表現。",
+      "alt": "同一混合溶液在先後兩時點的概念示意，呈相同色澤與液面；不是分開盛裝兩種離子或宣稱兩者濃度相同。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 分清速率、濃度與顏色",
+    "answer": "答案 D：顏色不再變化",
+    "points": [
+      "正、逆反應速率相等，而且持續進行。",
+      "不同物質的濃度不必相等或按係數比。",
+      "整體顏色不變，不等於微觀反應停止。"
+    ]
+  },
+  "protectedWords": [
+    "動態平衡",
+    "正反應速率",
+    "逆反應速率",
+    "平衡濃度比",
+    "濃度",
+    "反應係數",
+    "2：1",
+    "巨觀",
+    "微觀"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-116-source-f7ba385668.jpg",
+    "site/dist/assets/questions/q-116-pdf-source-38eaa1ea3f.jpg"
+  ],
+  "rationale": "實看教用原卷17題D及兩種離子色澤/四選項。核心為精確等速與濃度不等，使用原生SVG等長相反箭頭、不同水平濃度線、先後同色溶液示意，避免AI生成係數/粒子濃度假比或把反應停下來；精確文字HTML，不另推算未給的濃度值。",
+  "promptSummary": "原生SVG三圖：等長正逆箭頭、兩不同高度水平濃度線、同一溶液先後同色。",
+  "answerCheckedAgainst": "原卷教用17題D；平衡正逆反應等速、不同離子濃度不必相等，巨觀顏色穩定。",
+  "artSHA256": "a0f46b8832bc3325670fff2a3f8e323c0c91a18aa2c6029eacf5d0ab7e132526",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T20:08:50.393779+00:00",
+  "completedAt": "2026-10-28T20:03:10.608749+00:00",
+  "layoutEvidence": "docs/comics/q-116-preview-validation.json",
+  "visualReview": "實看原卷D與1440/1120/390原生SVG渲染：正逆箭頭等長反向、不同高度水平濃度線、先後同色同液面概念與詳解一致，未把不同離子濃度畫成必相等或用2:1做濃度。字圖完整、無橫溢，專詞保護與同列等高/手機自然高度通過。",
+  "nativeArt": "assets/comics/q-116-art-a0f46b8832.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-116-validation.json"
+}

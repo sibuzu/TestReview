@@ -1,0 +1,67 @@
+{
+  "id": "q-469",
+  "subject": "Physics-Chemistry",
+  "title": "讀起始位置，以原點作基準",
+  "art": "docs/comics/art/q-469.png",
+  "protectedWords": [
+    "原點",
+    "出發點",
+    "起始位置",
+    "向西為正",
+    "西方5公尺",
+    "x＝＋5",
+    "t＝0"
+  ],
+  "panels": [
+    {
+      "heading": "① 從t＝0讀出發位置",
+      "text": "原圖t＝0時，位置是x＝＋5公尺。題目問出發點，不能拿途中最大位置15公尺代入。",
+      "alt": "師生先閱讀學習單的起始資訊；精確x–t圖仍以原題附圖為準。"
+    },
+    {
+      "heading": "② 先找原點，再解讀正方向",
+      "text": "原點是x＝0，出發位置比原點多＋5公尺。題目定義向西為正，因此出發點在原點西方5公尺。",
+      "alt": "地面參考標記的概念練習，學生站在其中一處；不由插畫決定本題精確距離或東西方向。"
+    },
+    {
+      "heading": "③ 起始位置不是全程位移",
+      "text": "這題不是問從出發到終點移動多少。若另問那段位移，才算0−5＝−5公尺；別把不同問法混成同一題。",
+      "alt": "學生回到題目核對所問的參考點與時間，沒有呈現另一次實際移動。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：西方5公尺",
+    "points": [
+      "t＝0的起始位置是＋5，不是＋15。",
+      "以原點為基準，正方向依題意為西。",
+      "終點雖剛好也在原點，仍須照原題問法判斷。"
+    ]
+  },
+  "rationale": "原卷與x–t圖再次實看，現題庫已依使用者確認將參照點訂正為原點，沿用B不重開疑義。新增起始讀值/參考點/題意核對情境，精確圖與西正方向仍由原題及HTML判讀，不讓生成模型畫數據、方位或距離。無既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-469-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-469-source-7826f657c9.jpg",
+    "site/dist/assets/questions/q-469-figure-1e5f2a0579.jpg"
+  ],
+  "answerCheckedAgainst": "B，出發位置＋5公尺，以原點為基準，向西為正。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "b944e92e4966256b1a9ccfa6dd2a2b36d8cfed10d782dd6349a2bf90af7318ba",
+  "createdAt": "2026-10-28T19:10:25.505430+00:00",
+  "checkedAt": "2026-10-28T19:11:56.816355+00:00",
+  "validationFile": "docs/comics/q-469-validation.json",
+  "nativeArt": "assets/comics/q-469-art-b944e92e49-web.webp"
+}

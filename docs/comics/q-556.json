@@ -1,0 +1,79 @@
+{
+  "id": "q-556",
+  "subject": "Physics-Chemistry",
+  "title": "常見化學式要看電荷、下標與慣用順序",
+  "art": "docs/comics/art/q-556.svg",
+  "startedAt": "2026-10-28T20:07:24.460778+00:00",
+  "panels": [
+    {
+      "heading": "① 氯化鈣的配比符合電中性",
+      "text": "Ca²⁺帶兩個正電，Cl⁻帶一個負電。1個Ca²⁺要配2個Cl⁻，正負電荷才能抵銷，所以CaCl₂正確，選B。",
+      "alt": "電荷配比示意明確列一個Ca²⁺與兩個Cl⁻，只是離子計數，不表示氯化鈣是這種孤立分子構形。"
+    },
+    {
+      "heading": "② A考常見化學式的順序",
+      "text": "葡萄糖通常寫C₆H₁₂O₆。A寫成C₆O₆H₁₂，原子種類與數目仍相同；本題不選A，是因不合慣用寫法，並不是原子比例改變。",
+      "alt": "三張字卡依次為C₆、H₁₂、O₆，表示化學式慣用書寫順序，不是葡萄糖分子結構或三個原子。"
+    },
+    {
+      "heading": "③ 氦氣與碳酸鈉也要核對",
+      "text": "氦氣通常以單原子He存在，不寫He₂。碳酸根CO₃²⁻帶兩個負電，需2個Na⁺配平，所以碳酸鈉應寫Na₂CO₃，不能少鈉的下標2。",
+      "alt": "分隔線上是一個He圖示，線下是兩個Na⁺與一個CO₃²⁻的電荷配比，兩個不同例子並非化學反應。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：CaCl₂",
+    "points": [
+      "離子化合物的正、負電荷總和要抵銷。",
+      "下標代表數量，不能任意省略。",
+      "常見物質也要記住慣用的書寫順序。"
+    ]
+  },
+  "protectedWords": [
+    "Ca²⁺",
+    "Cl⁻",
+    "CaCl₂",
+    "C₆H₁₂O₆",
+    "C₆O₆H₁₂",
+    "He₂",
+    "He",
+    "CO₃²⁻",
+    "Na⁺",
+    "Na₂CO₃",
+    "電中性",
+    "葡萄糖",
+    "碳酸鈉",
+    "單原子",
+    "慣用寫法"
+  ],
+  "rationale": "精確離子配比與化學符號是本題關鍵，使用程式SVG保證1Ca對2Cl、2Na對1碳酸根、He單一及葡萄糖順序字卡，不用imagegen拼錯符號或畫出假分子。保留使用者已確認B與A慣用寫法判準，不再列單選疑義。",
+  "promptSummary": "程式SVG三格：Ca²⁺與兩Cl⁻配比、C₆/H₁₂/O₆順序字卡、分開的He單原子及2Na⁺對CO₃²⁻例子。精確符號與計數不交imagegen製作。",
+  "answerCheckedAgainst": "實看原卷四式，維持使用者確認B。A只談慣用排列、原子數未變；B及D以電中性獨立驗算，C為常見氦氣He單原子。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-556-source-d9e6877079.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T20:10:31.839357+00:00",
+  "checkedAt": "2026-10-28T20:17:01.763164+00:00",
+  "visualChecked": true,
+  "artSHA256": "109a0e8662bb786e0d49fe661d951bce213a58d6ee977d3b3ef1bc92198da417",
+  "previewValidation": "docs/comics/q-556-preview-validation.json",
+  "visualReview": "原卷四式已實看，維持使用者B與A慣用順序判準，不再開疑義。SVG原渲染與1440/390成品實看，1Ca²⁺/2Cl⁻、C6H12O6順序、分開He及2Na⁺/CO3²⁻圖示數量電荷正確，不當成孤立分子或化學反應。電荷/數量斷言、三寬QA通過，下標與上標完整、手機無溢出。",
+  "nativeArt": "assets/comics/q-556-art-109a0e8662.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-556-validation.json"
+}

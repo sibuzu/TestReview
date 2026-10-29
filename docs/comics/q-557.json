@@ -1,0 +1,70 @@
+{
+  "id": "q-557",
+  "subject": "Physics-Chemistry",
+  "title": "傳訊到手機，與聲音傳到耳朵是兩個階段",
+  "art": "docs/comics/art/q-557.png",
+  "protectedWords": [
+    "電磁波",
+    "力學波",
+    "聲波",
+    "喇叭",
+    "空氣"
+  ],
+  "panels": [
+    {
+      "heading": "① 無線訊號先傳到手機",
+      "text": "手機收到的是電磁波訊號。電磁波不是力學波，不靠空氣等物質介質也能傳播；它也可以在空氣中傳播，所以B不對。",
+      "alt": "手機接收資料的情境，沒有把不可見無線訊號畫成可直接聽到的音符。"
+    },
+    {
+      "heading": "② 電路處理後，由喇叭振動",
+      "text": "手機不是讓人耳直接聽無線電波。電路處理訊號，再驅動喇叭，使周圍空氣形成疏密變化，產生聲波。",
+      "alt": "指認手機喇叭位置的概念情境，沒有AI內部電路或不正確的氣流箭頭。"
+    },
+    {
+      "heading": "③ 聲波靠介質把振動傳到耳朵",
+      "text": "聲波是力學波，需要空氣等介質。在空氣中，電磁波比聲波快得多；C、D都先說兩種波速相同，前提就不對。",
+      "alt": "聽手機外放喇叭的聲音，不是耳朵直接聽到電磁波或真空中的聲波。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：電磁波不是力學波",
+    "points": [
+      "接收電磁訊號，和振動空氣讓人聽見要分開。",
+      "電磁波可通過空氣，也能在真空傳播。",
+      "波速、頻率、振幅是不同概念，不能互相替代。"
+    ]
+  },
+  "rationale": "實看第8題完整原卷，依電磁波非力學波及喇叭振動空氣的轉換選A；核NASA電磁/力學波介質說明。不把B空氣中不能傳播或C/D等波速當成正確，也不畫橫波當聲波、直接可聞無線電波或空氣粒子一路飛到耳朵。無既有AI圖。",
+  "sources": [
+    {
+      "title": "NASA：Anatomy of an Electromagnetic Wave",
+      "url": "https://science.nasa.gov/ems/02_anatomy/"
+    }
+  ],
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-557-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-557-source-bc88d6106d.jpg"
+  ],
+  "answerCheckedAgainst": "電磁波不需物質介質、可在空氣中傳播；喇叭使空氣振動形成需要介質的聲波，A最合理。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "6df3b452fd24fc39b3c432a8e35f63289222ae06ae6a6a5653d8ad87ff458d1d",
+  "createdAt": "2026-10-28T20:11:12.581488+00:00",
+  "checkedAt": "2026-10-28T20:22:55.830839+00:00",
+  "validationFile": "docs/comics/q-557-validation.json",
+  "nativeArt": "assets/comics/q-557-art-6df3b452fd-web.webp"
+}

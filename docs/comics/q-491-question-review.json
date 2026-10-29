@@ -1,0 +1,48 @@
+{
+  "id": "q-491",
+  "checkedAt": "2026-10-28T22:05:28.744844+00:00",
+  "answer": "凹透鏡",
+  "sourceTranscript": "site/dist/sources/gemini-eHXLTgEGgfQm.txt",
+  "sourceExcerpt": "You said 請問近視眼是凹透鏡還是凸透鏡？\n\n請問近視眼是凹透鏡還是凸透鏡？\n\n近視眼需要配戴凹透鏡來矯正。\n\n原理說明\n\n近視原因：眼球眼軸過長，或是水晶體曲度過大（聚光能力過強），導致光線在到達視網膜之前就提前聚焦成虛像/成像，使落在視網膜上的影像變得模糊。\n\n矯正方式：凹透鏡具有發散光線的作用。配戴凹透鏡後，能先將入射光線適度發散，再經過水晶體聚合，讓焦點剛好後移落在視網膜上。",
+  "sourceComplete": true,
+  "visualChecked": true,
+  "findings": [
+    "來源使用者完整文字問題，不是原卷32題選項，不存在需猜補圖片。",
+    "NEI與臺大醫院官方資料核對近視看遠聚焦於網膜前、凹鏡發散矯正；既有眼內虛像錯詞訂正不重開。",
+    "SVG使用同一薄眼模型f50、鏡位80、網膜155；前置f−100於x30，入射±13兩光均交網膜，斜率精確核對。",
+    "外鏡本身與眼睛最後實像分開，不把教學模型數值當配鏡處方或生理尺寸。"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+      "finding": "近視看遠光線會聚於視網膜前。"
+    },
+    {
+      "url": "https://epaper.ntuh.gov.tw/health/202304/PDF/%E9%9D%92%E5%B0%91%E5%B9%B4%E8%A6%96%E5%8A%9B%E4%BF%9D%E5%81%A5--%E9%AB%98%E5%BA%A6%E8%BF%91%E8%A6%96%E9%98%B2%E6%B2%BB.pdf",
+      "finding": "凹透鏡先發散，再由眼睛會聚於視網膜。"
+    }
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "uncorrectedFocusX": 130,
+    "retinaX": 155,
+    "correctedRays": [
+      {
+        "incidentOffset": -13,
+        "externalSlope": -0.13,
+        "eyeOffset": -19.5,
+        "outgoingSlope": 0.26,
+        "retinaOffset": 0.0,
+        "focusX": 155.0
+      },
+      {
+        "incidentOffset": 13,
+        "externalSlope": 0.13,
+        "eyeOffset": 19.5,
+        "outgoingSlope": -0.26,
+        "retinaOffset": 0.0,
+        "focusX": 155.0
+      }
+    ]
+  }
+}

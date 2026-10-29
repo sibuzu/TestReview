@@ -1,0 +1,81 @@
+{
+  "id": "q-558",
+  "subject": "Physics-Chemistry",
+  "title": "液態溶液變多，整杯總質量仍守恆",
+  "art": "docs/comics/art/q-558.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:57:13.514359+00:00",
+  "panels": [
+    {
+      "heading": "① 先分開冰塊與液態溶液",
+      "text": "冰塊熔化前是固體，不算在液態紅茶溶液中。用例子看：原溶液200克、其中糖20克，另有冰50克。",
+      "alt": "新增質量例子：溶液200g含糖20g另有冰50g，質量塊20:80對應50:200，不代表冰體積或杯內液面"
+    },
+    {
+      "heading": "② 冰變成水，加入溶液",
+      "text": "冰融化並混勻後，水加入液態溶液，溶液變成250克；糖仍是20克。整個封閉杯內的總質量仍守恆。",
+      "alt": "同總質量250g質量塊融化後全部計為溶液，糖仍20g；不是指容積或液面不變"
+    },
+    {
+      "heading": "③ 溶質不變、溶液增加，濃度降低",
+      "text": "重量百分率＝溶質質量÷溶液質量×100%。例子由20÷200＝10%，變為20÷250＝8%，所以濃度變小。",
+      "alt": "同分子20、分母由200變250的精確比值，10%降為8%，全部為新增解說數字"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：溶液質量變大，濃度變小",
+    "points": [
+      "題目問溶液質量，不是冰加紅茶的總質量。",
+      "一般水冰增加溶劑，不增加原有糖等溶質。",
+      "200、20、50克是解說例子，原題未給數值。"
+    ]
+  },
+  "protectedWords": [
+    "液態溶液",
+    "溶液質量",
+    "總質量",
+    "重量百分率",
+    "溶質質量",
+    "200克",
+    "20克",
+    "50克",
+    "250克",
+    "10%",
+    "8%",
+    "液態紅茶溶液"
+  ],
+  "rationale": "完整原卷與封膜冰紅茶附圖實看，維持B。核心為比較邊界不同和比率分子分母，採可校核SVG質量塊及比例數字，避免AI杯中液面變高/變低導致把質量與體積混淆。200/20/50使用既有解說例子明示非題給，整體總質量250與液態200→250同時成立。",
+  "promptSummary": "原生精確SVG質量示意：冰50＋溶液200、融後溶液250、糖20固定且10%→8%；非體積/液面圖。",
+  "answerCheckedAgainst": "原卷9題封膜未開、冰完全融化混勻及四選項，液態溶液質量增加且被稀釋，既有B；例子20/200=10%、20/250=8%獨立驗算。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-558-source-f189ff9ae3.jpg",
+      "site/dist/assets/questions/q-558-tea-cup-7998c55030.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "原題比較紅茶溶液而非整杯，未給定質量數字；新圖明示例子，水冰為題意普通飲料冰塊。"
+  },
+  "completedAt": "2026-10-28T22:01:08.061486+00:00",
+  "checkedAt": "2026-10-28T22:02:56.001345+00:00",
+  "visualChecked": true,
+  "artSHA256": "2074ecb7aafb761d03bffd24cf1752a7c1d53021cc9b0e8a2747fc2273d9ea53",
+  "previewValidation": "docs/comics/q-558-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG與最終1440/390預覽：質量例子前後總250、液態200→250、糖20不變，10%→8%算值正確；質量塊比例50:200=20:80，不畫液面變動推質量或體積。明示例子非原題給值。桌機同列等高、手機自然高，液態紅茶溶液與單位不拆，無橫溢裁切；1120亦通過。",
+  "nativeArt": "assets/comics/q-558-art-2074ecb7aa.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-558-validation.json"
+}

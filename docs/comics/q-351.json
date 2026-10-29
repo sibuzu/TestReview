@@ -1,0 +1,67 @@
+{
+  "id": "q-351",
+  "subject": "Physics-Chemistry",
+  "title": "稀釋的是濃度，溶質公克數不變",
+  "art": "docs/comics/art/q-351-v2.png",
+  "protectedWords": [
+    "硫酸鈉",
+    "溶質公克數",
+    "溶液體積",
+    "濃度",
+    "水平線",
+    "加水稀釋"
+  ],
+  "panels": [
+    {
+      "heading": "① 加入的是水，沒有增減硫酸鈉",
+      "text": "原溶液含硫酸鈉；加水稀釋只增加溶劑。若沒有反應、濺出或其他損失，原來溶質的公克數保持不變，不能把加水當成增加溶質。",
+      "alt": "已配好且完全均勻的無色硫酸鈉溶液，無沉澱、不畫成硫酸或彩色飲料。"
+    },
+    {
+      "heading": "② 體積增加，濃度會降低",
+      "text": "加水後溶液變多，同樣的溶質分散在更多溶液中，所以濃度降低。但變稀不代表硫酸鈉公克數減少，也沒有把溶質倒掉。",
+      "alt": "同一燒杯只加清水、無溢出或取樣損失，液量定性增加，不由模型指定公克數或精確刻度。"
+    },
+    {
+      "heading": "③ 看清縱軸，才選水平線",
+      "text": "橫軸是溶液體積，向右增加；縱軸是溶質公克數，維持原高度，所以選D水平線。B的下降曲線容易讓人誤把縱軸當成濃度。",
+      "alt": "師生核對座標的空白筆記情境，原題曲線為準，不讓生成模型畫錯圖表座標。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：溶質公克數固定",
+    "points": [
+      "只加水，硫酸鈉質量不變。",
+      "體積變多、濃度降低，是不同的量。",
+      "不用先算出到底幾克，也能判斷水平線。"
+    ]
+  },
+  "rationale": "實看第24題題幹、四曲線及原圖裁切，完整橫縱軸由題文指定；依質量守恆獨立判D。保留已訂正原AI硫酸/莫耳誤讀為硫酸鈉/公克，不重開已處理事項。不假設4%與30cm³可直接算1.2g，無需未知密度或百分比定義即可看出固定質量。新內建imagegen僅無色水溶液加水的定性教學情境，沒有顆粒計數、錯誤圖軸、反應或蒸發損失。無合適既有AI解說圖。 初圖第三格多一容器，已用imagegen移除，避免誤讀成分裝、取走溶質。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-351-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-351-source-46118085e2.jpg",
+    "site/dist/assets/questions/q-351-figure-e5a178a29d.jpg"
+  ],
+  "answerCheckedAgainst": "m硫酸鈉固定，V溶液增，y=m對x=V水平線D；濃度才下降。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "3825ee282bc420e160b3b38ea7fad9c0bfd07ee7d8de0e84590604cda7cfd5a3",
+  "createdAt": "2026-10-28T22:00:32.679843+00:00",
+  "editPromptFile": "docs/comics/q-351-edit-prompt.txt",
+  "checkedAt": "2026-10-28T22:05:36.858625+00:00",
+  "validationFile": "docs/comics/q-351-validation.json",
+  "nativeArt": "assets/comics/q-351-art-3825ee282b-web.webp"
+}

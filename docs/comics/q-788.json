@@ -1,0 +1,77 @@
+{
+  "id": "q-788",
+  "subject": "Physics-Chemistry",
+  "title": "回到同高度，速率相同、方向相反",
+  "art": "docs/comics/art/q-788.svg",
+  "startedAt": "2026-10-28T20:03:48.927828+00:00",
+  "panels": [
+    {
+      "heading": "① 同一高度，速率回到原值",
+      "text": "依本題不計空氣阻力的理想上拋模型，球以60 m/s向上出手，回到同一高度時速率仍為60 m/s，但運動方向改為向下。",
+      "alt": "初拋球在共同高度虛線上，速度箭頭向上標60m/s；數學示意不模擬真實高速拋球實驗。"
+    },
+    {
+      "heading": "② 最高點與回到手上要分開",
+      "text": "球在最高點的瞬時速率才是0。回到手上的那一刻，球已向下運動，不能把最高點的0 m/s當成這一刻的答案。",
+      "alt": "最高點的球在共同高度上方，標v=0，虛線只示意鉛直路徑，不畫錯成水平拋物線。"
+    },
+    {
+      "heading": "③ 數字相同，還要檢查單位",
+      "text": "1 m/s等於3.6 km/hr，所以60 m/s＝216 km/hr，選C。A的60 km/hr與60 m/s不同；D的120 m/s則把兩個速率相加，並非此刻大小。",
+      "alt": "回落球回到與初拋相同高度，等長速度箭頭向下仍標60m/s；換算公式以HTML表達。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：216 km/hr",
+    "points": [
+      "同高度返回：速率仍為60 m/s。",
+      "方向改成向下，速率大小不加負號。",
+      "60乘3.6，得到216 km/hr。"
+    ]
+  },
+  "protectedWords": [
+    "空氣阻力",
+    "同一高度",
+    "瞬時速率",
+    "最高點",
+    "60 m/s",
+    "0 m/s",
+    "1 m/s",
+    "3.6 km/hr",
+    "216 km/hr",
+    "60 km/hr",
+    "120 m/s"
+  ],
+  "rationale": "關鍵是同高度的速度大小相同、方向相反，以及最高點零速率與單位換算。精確SVG固定起終高度、速度箭頭等長反向，不用人物高速拋球情境或imagegen畫錯軌跡；公式、原理與答案均HTML。圓環共同情境不影響本題球的瞬時速率，不額外重繪路線。",
+  "promptSummary": "程式SVG三格：起點向上60m/s、最高點v=0、回到相同高度向下60m/s。速度箭頭等長反向，非位置對時間比例圖，不以imagegen產生精確物理圖。",
+  "answerCheckedAgainst": "原卷共同情境、圓環圖、第28題和四選項均實看。沿用已核定C，理想同高度速率60m/s，乘3.6換算216km/hr；方向向下不影響速度大小，最高點0不是回手瞬間。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "artMode": "deterministic-svg",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-788-source-8b6a3df342.jpg",
+    "question": "site/dist/assets/questions/q-788-source-question-599841874b.jpg",
+    "figure": "site/dist/assets/questions/q-788-figure-67919e396c.jpg",
+    "visualChecked": true
+  },
+  "completedAt": "2026-10-28T20:07:24.308967+00:00",
+  "checkedAt": "2026-10-28T20:17:01.743464+00:00",
+  "visualChecked": true,
+  "artSHA256": "5f9c39e3c0dd92d4f91e56b157fb410926ec219a1456c742fc81db2a89e754e2",
+  "previewValidation": "docs/comics/q-788-preview-validation.json",
+  "visualReview": "原卷共同題文、圓環與第28題四選項實看維持C。SVG原渲染及1440/390成品實看：起終球在同一高度、速度箭頭等長反向、最高點才v=0，XML高度與箭長斷言和60*3.6=216驗算通過。理想模型與瞬時速率限定清楚，三寬QA通過，英文單位整段保護無拆字。",
+  "nativeArt": "assets/comics/q-788-art-5f9c39e3c0.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-788-validation.json"
+}

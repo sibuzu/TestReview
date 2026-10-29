@@ -1,0 +1,91 @@
+{
+  "id": "q-491",
+  "subject": "Physics-Chemistry",
+  "title": "近視用凹透鏡：先發散，再讓眼睛會聚",
+  "art": "docs/comics/art/q-491.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:01:08.118772+00:00",
+  "panels": [
+    {
+      "heading": "① 看遠時，近視眼在視網膜前先聚焦",
+      "text": "遠方物體來的光線，進入近視眼後，在到達視網膜前就先會聚。到視網膜時已不在清晰焦點上。",
+      "alt": "國中薄透鏡簡化眼模型，平行光在x130先交會，視網膜在x155；非眼球精確解剖"
+    },
+    {
+      "heading": "② 凹透鏡中央薄，有發散作用",
+      "text": "凹透鏡先把入射光適度發散。它中央較薄、邊緣較厚；不要把這個發散步驟和眼睛最後的成像混成一件事。",
+      "alt": "中央薄邊緣厚的凹透鏡，平行光經鏡後上光線向上、下光線向下發散"
+    },
+    {
+      "heading": "③ 再經眼睛會聚，焦點移回視網膜",
+      "text": "光先過凹透鏡，再由眼睛會聚，使焦點往後移到視網膜。眼睛最後形成的是實像，不是把眼內焦點說成虛像。",
+      "alt": "同一眼模型外加負焦距凹鏡後先發散再會聚，光線精確交於x155視網膜"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：凹透鏡",
+    "points": [
+      "近視看遠：會聚位置在視網膜前。",
+      "凹透鏡先發散，配合眼睛會聚使焦點後移。",
+      "分清凹透鏡本身與眼睛最終形成實像的成像系統。"
+    ]
+  },
+  "protectedWords": [
+    "凹透鏡",
+    "視網膜",
+    "實像",
+    "虛像",
+    "中央薄",
+    "邊緣厚"
+  ],
+  "rationale": "來源使用者完整文字提問已核對，無必要原卷圖。原生SVG以可計算薄透鏡模型繪前焦、發散、會聚回網膜，避免AI光路錯誤。原AI眼內虛像用語已訂正沿用，不重問；僅為國中光學，不加入配鏡度數或治療建議。",
+  "promptSummary": "原生光路SVG：眼模型f50/x80/網膜155，外鏡x30 f−100後精確交於155，數值純繪圖模型非醫療度數。",
+  "answerCheckedAgainst": "來源文字25–35行完整提問；NEI與臺大醫院官方資料支持焦在網膜前及凹鏡矯正，既有凹透鏡不變。",
+  "officialReferences": [
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+      "finding": "近視看遠光線會聚於視網膜前。"
+    },
+    {
+      "url": "https://epaper.ntuh.gov.tw/health/202304/PDF/%E9%9D%92%E5%B0%91%E5%B9%B4%E8%A6%96%E5%8A%9B%E4%BF%9D%E5%81%A5--%E9%AB%98%E5%BA%A6%E8%BF%91%E8%A6%96%E9%98%B2%E6%B2%BB.pdf",
+      "finding": "凹透鏡先發散，再由眼睛會聚於視網膜。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-eHXLTgEGgfQm.txt",
+    "visualChecked": true,
+    "answer": "凹透鏡",
+    "notes": "完整文字使用者問句，不是第32題選項；不存在缺原圖。眼內虛像既有訂正沿用。"
+  },
+  "thinLensModel": {
+    "axisY": 90,
+    "eyeX": 80,
+    "eyeFocalLength": 50,
+    "retinaX": 155,
+    "externalX": 30,
+    "externalFocalLength": -100,
+    "inputOffset": 13
+  },
+  "completedAt": "2026-10-28T22:05:28.744844+00:00",
+  "checkedAt": "2026-10-28T22:06:50.947273+00:00",
+  "visualChecked": true,
+  "artSHA256": "60f333f54b06b04d52e12b6fc3022beb101f0894a9884343e5bbb6131ac03429",
+  "previewValidation": "docs/comics/q-491-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG及1440/390預覽：未矯正兩平行光在x130交後到x155網膜已分開；凹鏡中央薄邊緣厚使光發散；同眼模型外加鏡後兩光精確於x155網膜相交。薄鏡斜率逐步驗算，非臨床度數/實際眼球尺寸。眼內實像與凹鏡性質分清楚；桌機同列等高、手機自然高無裁切橫溢，1120亦通過。",
+  "nativeArt": "assets/comics/q-491-art-60f333f54b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-491-validation.json"
+}

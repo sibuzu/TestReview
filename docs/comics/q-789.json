@@ -1,0 +1,67 @@
+{
+  "id": "q-789",
+  "subject": "Physics-Chemistry",
+  "title": "開始煞車的時刻，不是停止的時刻",
+  "art": "docs/comics/art/q-789.png",
+  "protectedWords": [
+    "開始煞車",
+    "13秒",
+    "20秒",
+    "7.0秒",
+    "350 km/hr",
+    "2.5＋2.5＝5秒",
+    "3.5秒",
+    "4.5秒"
+  ],
+  "panels": [
+    {
+      "heading": "① 先找速度開始下降的那一段",
+      "text": "前四段速度由0逐步增加到350 km/hr，都還在加速。最後350降到0的那段，才是煞車減速。",
+      "alt": "完整防護的摩托車騎士在封閉直線賽道移動，精確速度只依原表，不由插畫判定。"
+    },
+    {
+      "heading": "② 把之前四段的時間加起來",
+      "text": "前兩段共2.5＋2.5＝5秒，再加3.5秒與4.5秒，合計13秒。各列是那一段花多久，不是出發後的累計讀數。",
+      "alt": "同一摩托車進入減速的概念情境，沒有AI儀表或精確時刻冒充原表。"
+    },
+    {
+      "heading": "③ 再過7秒才停止",
+      "text": "最後7.0秒是煞車持續時間。開始是13秒，停止才是13＋7＝20秒；不能把最後7秒加進開始煞車的時刻。",
+      "alt": "減速之後摩托車才停下，停車畫面不當作開始煞車。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：出發後13秒開始煞車",
+    "points": [
+      "先判斷哪段減速，再累加它之前的時間。",
+      "13秒是開始，7秒是歷時，20秒是停止。",
+      "選項A的20秒，回答的是何時停下。"
+    ]
+  },
+  "rationale": "實看第29題原卷含MotoGP條件與完整5列表，獨立累加前四列2.5+2.5+3.5+4.5=13，最後7秒後停止為20。所有數值/運動分段以HTML核對，新圖只給加速/減速/停止情境，保持摩托車與直線賽道，不以模型顯示儀表讀數，不把7秒當開始。無既有AI圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-789-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-789-source-bed0a9819d.jpg"
+  ],
+  "answerCheckedAgainst": "加速共13秒才進350→0煞車列，最後7秒不加入開始時刻，D。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "17e448e9df7d02a0ecdf424971d607625d9bf274d72f176ffdced4ee61afb945",
+  "createdAt": "2026-10-28T20:06:57.068743+00:00",
+  "checkedAt": "2026-10-28T20:17:01.753520+00:00",
+  "validationFile": "docs/comics/q-789-validation.json",
+  "nativeArt": "assets/comics/q-789-art-17e448e9df-web.webp"
+}

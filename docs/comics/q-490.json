@@ -1,0 +1,81 @@
+{
+  "id": "q-490",
+  "subject": "Physics-Chemistry",
+  "title": "魚的光先進水面，再折射到眼睛",
+  "art": "docs/comics/art/q-490.svg",
+  "startedAt": "2026-10-28T22:02:38.892383+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先畫光的真正方向",
+      "text": "魚反射的光，從水下橘點出發，到水面P，再折射到右上方眼睛。不是人眼發光去找魚，也不是整段都沿一直線。",
+      "alt": "水平水面上方眼睛，水下橘點到P的藍光路、P到眼睛的橘光路均向上，灰虛線是法線；顏色只區分兩側路徑。"
+    },
+    {
+      "heading": "② 水到空氣，偏離法線",
+      "text": "灰虛線垂直水面，代表法線。光由水進空氣，折射角較大；所以藍色水中光路，比橘色空氣光路更靠近法線。",
+      "alt": "兩側法線與光路角度精確示意，水中約34度、空氣約48度，橘弧較大，不生成文字或角度數字。"
+    },
+    {
+      "heading": "③ 丁在丙右側，更符合水中光路",
+      "text": "虛線直線延長會到灰點丙，卻忽略折射。橘點丁在丙右側，連到P更靠近法線，才符合魚光折射入眼的方向。",
+      "alt": "同原題相對點位：甲左上、乙左下、丙位視線延長、丁在丙右側；灰延長線經丙，實際藍水路從丁到P。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 判光路轉折，不只猜深淺",
+    "answer": "答案 D：丁",
+    "points": [
+      "光線方向：魚→P→眼睛。",
+      "水中靠近法線，空氣中偏離法線。",
+      "丙只在直線延長上，不憑單線指定唯一虛像。"
+    ]
+  },
+  "protectedWords": [
+    "魚反射",
+    "水面P",
+    "法線",
+    "折射角",
+    "直線延長",
+    "灰點丙",
+    "橘點丁",
+    "水中光路",
+    "空氣光路",
+    "唯一虛像"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-490-source-204cb660d9.jpg",
+    "site/dist/assets/questions/q-490-figure-0651f2bf44.jpg"
+  ],
+  "references": [
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+      "title": "OpenStax College Physics：The Law of Refraction",
+      "checkedAt": "2026-10-28T22:02:38.892383+00:00",
+      "supports": "折射角對法線量，水到空氣折射遠離法線。"
+    }
+  ],
+  "rationale": "原卷題幹與甲乙丙丁相對位置實看，丁在視線延長丙右側且水中光路更近法線，維持D與原澄清不把丙指定唯一虛像。原生無字SVG精確畫光方向、法線、角度大小與候選點，避免imagegen畫反光線或亂移魚的位置。",
+  "promptSummary": "原生SVG：水下丁→P→眼光路；法線與水/空氣角度比較；灰延長線到丙與實際丁的區分。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "原卷真附圖、題庫D；水中光路角較小且丁在丙右側，符水到空氣遠離法線。",
+  "artSHA256": "14760163294cc9e45393b3baf3692756f846de00f6616d9013945dd72949bd17",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:05:36.893178+00:00",
+  "completedAt": "2026-10-28T22:03:29.114365+00:00",
+  "layoutEvidence": "docs/comics/q-490-preview-validation.json",
+  "visualReview": "原卷完整附圖甲乙丙丁實看；SVG魚丁→P→眼箭頭向上、水中約34度/空氣約48度遠離法線，灰延長線到丙且丁在右側，獨立方向核對正確。三寬1440/1120/390實看，線與點完整、術語不拆、無橫溢，同欄同列與手機自然高度通過。",
+  "nativeArt": "assets/comics/q-490-art-1476016329.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-490-validation.json"
+}

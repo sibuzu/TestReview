@@ -1,0 +1,13 @@
+{
+ "id":"q-461", "subject":"Physics-Chemistry", "decision":"existing_ai",
+ "title":"保留濃度變化量求係數的來源AI圖",
+ "originalMaterials":["site/dist/assets/questions/q-461-source-2dc6c732b6.jpg","site/dist/assets/questions/q-461-figure-0fb22a2af1.jpg"],
+ "retainedFigures":["site/dist/assets/questions/q-461-ai-f2a2f5d684.png"],
+ "originalMaterialsChecked":true,"visualChecked":true,
+ "answerCheckedAgainst":"實看第22題全部選項及必要濃度-時間圖，同0至80秒讀x0.8→0.6、y0.7→0.3、z0→0.2M，變化量0.2:0.4:0.2=1:2:1，定容前提下選B x+2y→z，與使用者原對話訂正B一致。",
+ "independentChecks":["x消耗0.8-0.6=0.2M；y消耗0.7-0.3=0.4M；z生成0.2-0=0.2M。","共同除0.2得1:2:1，不把最終濃度0.6:0.3:0.2當係數。"],
+ "reason":"既有圖逐項列前後濃度與變化量，再配成1x+2y→1z，和原圖數據、答案B一致，已完整提供本題需要的概念。第9個錯題是來源整理批次的稱呼而非原卷題號，正式頁標明第22題及來源AI圖。保留既有圖，不生成重複插畫。",
+ "validationFile":"docs/comics/q-461-preview-validation.json", "layoutEvidence":["docs/comics/qa/q-461/1440-existing-ai.png","docs/comics/qa/q-461/390-existing-ai.png"],
+ "pageReview":"正式頁1440/390答案原始收合，展開來源AI圖正常載入、無橫溢，必要原始曲線在作答區另列；未點個人標記，marks API阻擋。",
+ "reviewedAt":"2026-10-28T20:04:20+00:00"
+}

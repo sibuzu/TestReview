@@ -61,10 +61,20 @@ def publish_bytes(path, target):
     return target
 
 
-def main(manifest_path):
-    manifest = load(manifest_path)
+def load_item(manifest_path, item_id=None):
+    document = load(manifest_path)
+    if 'items' not in document:
+        return document
+    if item_id:
+        return next(item for item in document['items'] if item['id'] == item_id)
+    assert len(document['items']) == 1, 'Choose --id for a multi-item source manifest'
+    return document['items'][0]
+
+
+def main(manifest_path, item_id=None):
+    manifest = load_item(manifest_path, item_id)
     assert manifest['status'] == 'ready'
-    directory = manifest_path.parents[1]
+    directory = (ROOT/manifest['questionPath']).parent.parent
     receipt_path = directory/'integrated.json'
     receipt = load(receipt_path) if receipt_path.exists() else {'items': []}
     existing = next((r for r in receipt['items'] if r['id'] == manifest['id']), None)
@@ -130,8 +140,9 @@ def main(manifest_path):
         save(ROOT/'docs/additional-sources.json', sources)
         imports = load(ROOT/'docs/imports/more-gpt-progress.json')
         imported = next(s for s in imports['sources'] if s['order'] == order and s['url'] == source['url'])
+        acquisition = load(ROOT/imported['acquisitionRecord'])
         imported.update(title=source['title'], state='partial', sourceCurationComplete=False,
-                        downloadedImages=source['images'],
+                        downloadedImages=acquisition.get('downloadedImages', acquisition.get('originalImages', [])),
                         reason='原圖已取回；已完成稿逐筆收入，其餘由指定代理繼續核對與製圖。')
         imported['questionIds'] = list(dict.fromkeys(imported.get('questionIds', []) + [question['id']]))
         imports['updatedAt'] = timestamp
@@ -172,9 +183,9 @@ def main(manifest_path):
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
-def finish(manifest_path):
-    manifest = load(manifest_path)
-    directory = manifest_path.parents[1]
+def finish(manifest_path, item_id=None):
+    manifest = load_item(manifest_path, item_id)
+    directory = (ROOT/manifest['questionPath']).parent.parent
     receipt_path = directory/'integrated.json'
     receipt = load(receipt_path)
     row = next(r for r in receipt['items'] if r['id'] == manifest['id'])
@@ -207,6 +218,7 @@ def finish(manifest_path):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('manifest', type=Path)
+    parser.add_argument('--id', help='Select a ready item from a source-level manifest.')
     parser.add_argument('--finalize', action='store_true', help='After the batch curator build, record basic technical checks and the integration event.')
     args = parser.parse_args()
-    (finish if args.finalize else main)(args.manifest.resolve())
+    (finish if args.finalize else main)(args.manifest.resolve(), args.id)

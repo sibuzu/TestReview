@@ -18116,6 +18116,39 @@
       "integrationUTCLabelsWentBackwards": false,
       "integrationEventId": "integration-job-64914f5686744533868c4d896fbdfd57",
       "integrationSequence": 769
+    },
+    {
+      "id": "q-850",
+      "title": "生物第11題｜髮菜與念珠藻的分類階層",
+      "subject": "Biology",
+      "lane": 2,
+      "state": "integrated",
+      "startedAt": "2026-10-29T15:54:44.155046+00:00",
+      "readyAt": "2026-10-29T15:54:44.155046+00:00",
+      "decision": "complete",
+      "reason": "新來源原卷與全新四格；指定製作代理完成原題核對與自身完整版面QA，整合者僅技術加入。",
+      "evidence": [
+        "docs/imports/new-gpt-20261029-a/questions/q-850.json",
+        "docs/comics/q-850.json",
+        "docs/imports/new-gpt-20261029-a/qa/q-850-reviewed.json"
+      ],
+      "producerManifest": "docs/imports/new-gpt-20261029-a/manifest.json",
+      "jobId": "job-a6973e8a15f34012aaada89a9617dfbc",
+      "integrationStartedAt": "2026-10-29T15:55:56.799299+00:00",
+      "integrationMonotonicStartNs": 694820793241409,
+      "integrationTimingHost": "R5090",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "integratedAt": "2026-10-29T15:55:57.591715+00:00",
+      "integrationQueueSeconds": 72.644253,
+      "integrationMonotonicEndNs": 694821587676089,
+      "integrationTimingEndHost": "R5090",
+      "integrationSeconds": 0.79443468,
+      "integrationTimingValid": true,
+      "integrationTimingMethod": "monotonic",
+      "integrationUTCLabelDifferenceSeconds": 0.792416,
+      "integrationUTCLabelsWentBackwards": false,
+      "integrationEventId": "integration-job-a6973e8a15f34012aaada89a9617dfbc",
+      "integrationSequence": 770
     }
   ],
   "retryHistory": [
@@ -18168,5 +18201,5 @@
   "pausedAt": "2026-10-29T00:06:50.640860+00:00",
   "resumedAt": "2026-10-29T00:29:03.726405+00:00",
   "resumeReason": "使用者要求現在繼續插畫製作，並維持WebP／共用資產減量方式。",
-  "nextIntegrationSequence": 769
+  "nextIntegrationSequence": 770
 }

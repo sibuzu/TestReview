@@ -1,20 +1,20 @@
 {
-  "mode": "two_source_producers_one_integrator_root_dispatch",
-  "workerLimit": 2,
+  "mode": "complete",
+  "workerLimit": 0,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T16:15:22.188193+00:00",
+  "updatedAt": "2026-10-29T16:37:17.568657+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "本批已正式加入12道原問；持續接稿，達20及Goal完成時發布",
-      "state": "integrating",
+      "title": "本批23原問／21題面／23新四格已全數加入，完整性檢查完成",
+      "state": "complete",
       "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "activeTask": {
-        "title": "本批已正式加入12道原問；持續接稿，達20及Goal完成時發布",
-        "state": "integrating",
+        "title": "本批23原問／21題面／23新四格已全數加入，完整性檢查完成",
+        "state": "complete",
         "startedAt": "2026-10-29T15:06:06.207488+00:00",
         "questionId": null
       }
@@ -22,36 +22,36 @@
     {
       "lane": 2,
       "questionId": null,
-      "title": "新來源原卷取得、逐題核對與候選稿",
-      "state": "importing",
+      "title": "生物2＋歷史4原問及6份新四格已驗版交付完成",
+      "state": "complete",
       "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_2",
       "role": "import",
       "activeTask": {
-        "title": "第一來源生物2題已加入，製作4道歷史原問；英文5題將交Agent 3",
-        "state": "running",
+        "title": "生物2＋歷史4原問及6份新四格已驗版交付完成",
+        "state": "complete",
         "startedAt": "2026-10-29T15:06:06.207488+00:00",
-        "questionId": "q-854"
+        "questionId": null
       }
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "新來源原卷取得、逐題核對與候選稿",
-      "state": "importing",
+      "title": "第二來源12原問及第一來源英文5原問，17份新四格已驗版交付完成",
+      "state": "complete",
       "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_3",
       "role": "import",
       "activeTask": {
-        "title": "第二來源12原問／11題面已全部驗版交稿；轉第一來源英文5原題（35／36共文合組）",
-        "state": "running",
+        "title": "第二來源12原問及第一來源英文5原問，17份新四格已驗版交付完成",
+        "state": "complete",
         "startedAt": "2026-10-29T15:06:06.207488+00:00",
-        "questionId": "q-862"
+        "questionId": null
       }
     }
   ],
   "ready": [],
-  "integrated": 781,
+  "integrated": 789,
   "blocked": [],
   "waiting": [],
   "integrating": [],

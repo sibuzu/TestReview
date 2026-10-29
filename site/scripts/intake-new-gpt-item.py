@@ -131,6 +131,11 @@ def main(manifest_path, item_id=None):
     # This is publication metadata; the producer's original question date stays.
     published_added_at = datetime.now(ZoneInfo('Asia/Taipei')).date().isoformat()
     question['addedAt'] = published_added_at
+    metadata_overrides = {'addedAt': published_added_at}
+    for key in ('originalQuestionNumber',):
+        if key in manifest.get('questionMetadataOverrides', {}):
+            question[key] = manifest['questionMetadataOverrides'][key]
+            metadata_overrides[key] = question[key]
     assert question.get('teachingComic') and not question.get('explanationFigures')
     for asset in question['images'] + [f['src'] for f in question.get('questionFigures', [])] + [question['teachingComic']['art']]:
         checked('site/dist/' + asset)
@@ -197,7 +202,7 @@ def main(manifest_path, item_id=None):
                   producerReview=manifest['qaReport'], assetMappings=mappings,
                   sourceAssetMappings=source_asset_mappings,
                   renderAssetAliases=manifest.get('renderAssetAliases', {}),
-                  metadataOverrides={'addedAt': published_added_at},
+                  metadataOverrides=metadata_overrides,
                   jobId=job['jobId'], addedAt=timestamp, state='added_pending_curate_and_integrated')
     receipt['items'].append(result)
     save(receipt_path, receipt)
@@ -256,6 +261,13 @@ def grouped(manifest_path, item_id=None, finalize=False):
             row.update(state='integrated', integratedAt=now())
             save(directory/'integrated.json', receipt)
         return
+    receipt_path = directory/'integrated.json'
+    prior = load(receipt_path) if receipt_path.exists() else {}
+    previous = next((r for r in prior.get('groups', []) if r['id'] == manifest['id']), None)
+    if previous:
+        assert previous['questionSHA256'] == manifest['questionSHA256']
+        print(manifest['id'], previous['state'], '; no duplicate group or illustration event')
+        return
     checked(manifest['questionPath'], manifest['questionSHA256'])
     checked(manifest['qaReport'], manifest['qaReportSHA256'])
     parent, review = load(ROOT/manifest['questionPath']), load(ROOT/manifest['qaReport'])
@@ -268,7 +280,8 @@ def grouped(manifest_path, item_id=None, finalize=False):
     aliases = {r['src']: r['commonSrc'] for r in parent.get('groupMetadata', {}).get('commonFigureEquivalentSources', [])}
     for binding in manifest['childSpecs']:
         checked(binding['questionPath'], binding['questionSHA256'])
-        checked(binding['specPath'], binding['specSHA256'])
+        if not any(r['id'] == binding['id'] for r in prior.get('items', [])):
+            checked(binding['specPath'], binding['specSHA256'])
         derived_review = dict(review, id=binding['id'], questionPath=binding['questionPath'],
             questionSHA256=binding['questionSHA256'], inheritedGroupReview=manifest['qaReport'],
             inheritedGroupReviewSHA256=manifest['qaReportSHA256'], derivedReviewOnly=True)
@@ -278,6 +291,9 @@ def grouped(manifest_path, item_id=None, finalize=False):
             qaReport=str(review_path.relative_to(ROOT)), qaReportSHA256=digest(review_path),
             status='ready', assets=manifest['assets'], readyAt=manifest['readyAt'],
             renderAssetAliases=aliases, inheritedGroupManifest=str(manifest_path.relative_to(ROOT)))
+        original_child = next(c for c in parent['groupQuestions'] if c['id'] == binding['id'])
+        child_manifest['questionMetadataOverrides'] = {
+            key: original_child[key] for key in ('originalQuestionNumber',) if key in original_child}
         child_path = intake/f'{binding["id"]}-manifest.json'
         save(child_path, child_manifest)
         main(child_path)

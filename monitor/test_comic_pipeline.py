@@ -8,6 +8,22 @@ from .comic_pipeline import claim, stage, begin, integrated, load, save, update_
 
 
 class PipelineTests(unittest.TestCase):
+    def test_finished_import_lane_stays_complete_unless_a_real_job_is_claimed(self):
+        with TemporaryDirectory() as directory:
+            root = self.idle_integration_fixture(directory)
+            config = load(root/'monitor/parallel.json')
+            config['lanes'][1]['activeTask'] = {'state': 'complete', 'title': '本批原題與新圖已交付'}
+            save(root/'monitor/parallel.json', config)
+            pipeline = {'jobs': []}
+            update_display(root, pipeline)
+            lane = load(root/'monitor/parallel.json')['lanes'][1]
+            self.assertEqual(lane['state'], 'complete')
+            self.assertEqual(lane['title'], '本批原題與新圖已交付')
+            pipeline['jobs'].append({'lane': 2, 'id': 'q-new', 'title': '另行指派新工作',
+                                     'state': 'claimed', 'startedAt': '2026-10-30T00:00:00Z'})
+            update_display(root, pipeline)
+            self.assertEqual(load(root/'monitor/parallel.json')['lanes'][1]['state'], 'running')
+
     def test_group_review_remains_active_without_restoring_comic_claims(self):
         with TemporaryDirectory() as directory:
             root = self.idle_integration_fixture(directory)

@@ -1,0 +1,61 @@
+{
+  "id": "q-862",
+  "subject": "English",
+  "title": "it回指房間，was配合過去敘事",
+  "art": "docs/comics/art/q-862.png",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先找被描述的房間",
+      "text": "Jessie進房間後驚訝，下一句解釋房間裡充滿玫瑰。圖只是故事情境，沒有新增送花者或任何原文沒說的事件。",
+      "alt": "新製Jessie推門看到玫瑰房間的情境，未新增送花者或戀愛情節。"
+    },
+    {
+      "heading": "② 單數room，用it回指",
+      "text": "her room是單數事物，用it作主詞；過去敘事用was，連成it was full of ...，選C。不能只因花很多便把主詞改成they。",
+      "alt": "新製同一間滿是花瓶玫瑰的房間，精確代名詞由HTML說明。"
+    },
+    {
+      "heading": "③ roses在of後，不是這句主詞",
+      "text": "many beautiful roses屬於of後的片語內容。be full of是充滿的結構；there was或there were不能直接塞進空格取代it was。",
+      "alt": "新製玫瑰花瓶近景，以多朵花對比單數房間；不把花當代名詞先行詞。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：it was",
+    "points": [
+      "it → her room，單數。",
+      "was配合前文過去敘事。",
+      "full of後的roses不決定主詞單複數。"
+    ]
+  },
+  "protectedWords": [
+    "Jessie",
+    "her room",
+    "it was",
+    "full of",
+    "roses"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d",
+  "originalMaterialsChecked": true,
+  "rationale": "實看原卷全文四選及所需閱讀材料，依完整句法/文意逐項核答。新圖不沿來源AI圖，不因同頁誤合15與16，35與36才依同文合組。",
+  "generationMethod": "new built-in imagegen wordless context + HTML",
+  "promptPath": "docs/imports/new-gpt-20261029-a/agent3-english/comics/q-862-prompt.txt",
+  "nativeArt": "assets/comics/q-862-new-art-e870a84a958a.webp",
+  "rootReview": {
+    "visualChecked": true,
+    "reviewerAgent": "/root/comic_lane_3",
+    "inheritedProducerQA": "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-862-reviewed.json",
+    "mechanicalIntegrator": "/root/comic_lane_1",
+    "actualViewed": [
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-862-app-question-1440.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-862-app-question-390.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-862-app-comic-1440.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-862-app-comic-390.png"
+    ],
+    "checkedAt": "2026-10-29T16:24:26.405953+00:00"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T16:25:28.801935+00:00",
+  "validationFile": "docs/comics/q-862-validation.json"
+}

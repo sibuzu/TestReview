@@ -1,0 +1,64 @@
+{
+  "id": "q-866",
+  "subject": "English",
+  "title": "逐人核對偏好，再數符合者",
+  "art": "docs/comics/art/q-866.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 四個人，不是四人都選同一處",
+      "text": "Jenny、Ben、Linda偏好超市；Tom比較喜歡傳統市場。名單示意逐人分類，不用生成圖片的人頭數當答案。",
+      "alt": "新製四名角色到購物偏好的明確對應表，內容可校對。"
+    },
+    {
+      "heading": "② 不同說法，也能表達偏好",
+      "text": "Jenny的better、Ben的more、Linda的more convenient都是線索。Linda說超市對上班族較方便，不能因沒用like就漏算她。",
+      "alt": "三條分開的偏好語句線索圖，未把字面說法不同當不喜歡。"
+    },
+    {
+      "heading": "③ 只有集合中的三人符合",
+      "text": "把Jenny、Ben、Linda放進偏好超市的集合，Tom排除，總共三人，選C。Tom有去超市，不代表他比較喜歡超市。",
+      "alt": "三個清楚分開、具姓名的圓點集合，精確計數3，不用AI人物數量判題。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：Three.",
+    "points": [
+      "Jenny、Ben、Linda，共三人。",
+      "better／more／more convenient都要讀到。",
+      "有去超市，不等於比較喜歡超市。"
+    ]
+  },
+  "protectedWords": [
+    "Jenny",
+    "Ben",
+    "Linda",
+    "Tom",
+    "better",
+    "more convenient",
+    "Three"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d",
+  "originalMaterialsChecked": true,
+  "rationale": "實看原卷全文四選及所需閱讀材料，依完整句法/文意逐項核答。新圖不沿來源AI圖，不因同頁誤合15與16，35與36才依同文合組。",
+  "generationMethod": "new exact SVG relation/calendar/count diagram + HTML",
+  "nativeArt": "assets/comics/q-866-new-art-185a2dbfc349.svg",
+  "rootReview": {
+    "visualChecked": true,
+    "reviewerAgent": "/root/comic_lane_3",
+    "inheritedProducerQA": "docs/imports/new-gpt-20261029-a/intake/q-866-inherited-review.json",
+    "mechanicalIntegrator": "/root/comic_lane_1",
+    "actualViewed": [
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-866-group-app-question-1440.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-866-group-app-question-390.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-866-group-q-866-comic-1440.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-866-group-q-866-comic-390.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-866-group-q-868-comic-1440.png",
+      "docs/imports/new-gpt-20261029-a/agent3-english/qa/q-866-group-q-868-comic-390.png"
+    ],
+    "checkedAt": "2026-10-29T16:31:36.988221+00:00"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T16:32:46.174440+00:00",
+  "validationFile": "docs/comics/q-866-validation.json"
+}

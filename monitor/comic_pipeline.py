@@ -73,6 +73,10 @@ def update_display(root, pipeline):
         current = next((j for j in reversed(jobs) if j['state'] == 'claimed'), None)
         if current:
             lane.update(questionId=current['id'], title=current['title'], state='running', startedAt=current['startedAt'])
+        elif (lane.get('activeTask') or {}).get('state') == 'complete':
+            task = lane['activeTask']
+            lane.update(questionId=None, title=task['title'], state='complete',
+                        startedAt=task.get('startedAt'))
         elif lane.get('role') == 'group_review':
             task = lane.get('activeTask') or {}
             lane.update(questionId=task.get('questionId'),

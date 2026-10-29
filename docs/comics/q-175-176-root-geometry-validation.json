@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-28T22:53:51.198895+00:00",
+  "method": "Extract coordinates from final SVG; independent angles/distance computed, tolerance .01 degree/.002px for rounded coordinates.",
+  "results": [
+    {
+      "id": "q-175",
+      "svgAngles": {
+        "B": 134.00015128416806,
+        "E": 130.0000810180978,
+        "A": 95.99976769773417,
+        "CAD": 47.00000837469362,
+        "CplusD": 180.0
+      },
+      "expected": {
+        "B": 134,
+        "E": 130,
+        "A": 96,
+        "CAD": 47,
+        "CplusD": 180
+      },
+      "parallel": true
+    },
+    {
+      "id": "q-176",
+      "svgAngles": {
+        "CDP": 31.99937380165431,
+        "APD": 91.99960921363058,
+        "ABP": 57.999907962092024,
+        "DCP": 74.00071468454513,
+        "BPC": 132.00062264663714
+      },
+      "expected": {
+        "CDP": 32,
+        "APD": 92,
+        "ABP": 58,
+        "DCP": 74,
+        "BPC": 132
+      },
+      "DC": 76.28857343665564,
+      "DP": 76.28888007968463
+    }
+  ],
+  "passed": true
+}

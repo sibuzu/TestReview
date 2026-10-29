@@ -1,0 +1,50 @@
+{
+  "id": "q-168",
+  "checkedAt": "2026-10-28T22:44:32.573955+00:00",
+  "answer": [
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "fullQuestionChecked": true,
+  "originalImages": [
+    "site/dist/assets/questions/q-168-source-b621715762.jpg"
+  ],
+  "reason": "原卷三邊代數式與整數條件實看並獨立求解，維持五整數。精確SVG兩個等號退化端點＋開區間數線，避免AI畫出原本不能成立的端點三角形。兩段與總長在各格等比，數線等距。",
+  "independentMath": {
+    "lower": "4a>36 → a>9",
+    "upper": "23>2a−7 → a<15",
+    "third": "19>−3 always",
+    "positiveBounds": "a>3,a<26,a>3.5 satisfied",
+    "endpoint9": [
+      6,
+      17,
+      11
+    ],
+    "endpoint15": [
+      12,
+      11,
+      23
+    ],
+    "finiteSanityCheckFromMinus30To50": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "numberLineOpenEndpoints": [
+      9,
+      15
+    ],
+    "numberLineClosedDots": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  }
+}

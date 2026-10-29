@@ -1,0 +1,88 @@
+{
+  "id": "q-175",
+  "subject": "Math",
+  "title": "平行線先合併兩角，再用五邊形內角和",
+  "art": "docs/comics/art/q-175.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:47:39.337366+00:00",
+  "panels": [
+    {
+      "heading": "① BC∥DE，讓C角與D角相加",
+      "text": "以CD作截線，依原圖內部位置，∠BCD與∠CDE是同側內角，合計180°。不用分別求出這兩個角。",
+      "alt": "有效五邊形重繪，BC與DE同方向垂直相互平行，CD斜截線，α與β合計180；未擅設兩角各90度。"
+    },
+    {
+      "heading": "② 五邊形內角和減掉已知角",
+      "text": "五邊形內角和540°。扣除B角134°、E角130°及C、D兩角和180°，得∠BAE＝96°。原題平行為BC∥DE，不能換成AB∥DE。",
+      "alt": "相同有效五邊形，B134/E130、A96皆由幾何座標核算，不把134/130誤畫成外角。"
+    },
+    {
+      "heading": "③ 去掉中間47°，留下兩側之和",
+      "text": "AC、AD把A角分成三部分。所求∠BAC＋∠DAE，就是整個96°扣除中間的∠CAD＝47°，得到49°。",
+      "alt": "A的四射線依B/C/D/E順序展開，兩外小角標x/y，中央47度，合計A96；不聲稱x/y各自有固定已知度數。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：49°",
+    "points": [
+      "平行線帶來C角＋D角＝180°。",
+      "五邊形內角和540°，先算得A角96°。",
+      "兩側角和＝96°−47°＝49°。"
+    ]
+  },
+  "protectedWords": [
+    "BC∥DE",
+    "AB∥DE",
+    "同側內角",
+    "五邊形",
+    "∠BCD",
+    "∠CDE",
+    "∠BAE",
+    "∠BAC",
+    "∠DAE",
+    "∠CAD",
+    "96°−47°",
+    "C角＋D角",
+    "134°",
+    "130°",
+    "180°",
+    "540°",
+    "96°",
+    "47°",
+    "49°"
+  ],
+  "rationale": "原卷五邊形與四選項、既有乾淨作答附圖內容核對，維持D。新原生SVG採確實符合B134/E130/CAD47/BC∥DE的非直角C/D座標，展示不用假設C/D各90而合併。A扇形保留x/y而不把任意分配21/28作新已知。",
+  "promptSummary": "原生SVG五邊形C/D同側內角和、內角和求A96、A四射線扣中央47留外兩角。",
+  "answerCheckedAgainst": "原卷第1題與四選項；獨立座標角度核算及五邊形內角和；原有乾淨附圖語義核對。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-175-source-0dd3caea8c.jpg"
+    ],
+    "questionFigure": "site/dist/assets/questions/q-175-given.svg",
+    "visualChecked": true,
+    "answer": "D，49°",
+    "notes": "原卷BC∥DE而非AB∥DE；B134/E130/CAD47與選項核對。新SVG採另一組有效座標示意，不把邊長或單個未知角補成原題條件。"
+  },
+  "artSHA256": "8b926559a46cd83a3894922c68a043a461567ae187c92aca8294eb9456ed2b75",
+  "completedAt": "2026-10-28T22:51:20.937657+00:00",
+  "checkedAt": "2026-10-28T22:54:20.374977+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-175-preview-validation.json",
+  "visualReview": "實看原卷、乾淨原題SVG、540×180新圖與1440/390最終預覽：BC/DE平行、CD斜截非假設兩直角，B134/E130/A96/中央47座標正確；扇形B/C/D/E順序及x/y未知不誤加單角答案。縮扇形後E標籤完整，改長式為分項扣角及保護度數後重新QA與實看。三寬無溢出、版型規則通過。",
+  "nativeArt": "assets/comics/q-175-art-8b926559a4.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-175-validation.json"
+}

@@ -1,14 +1,37 @@
 {
   "id": "q-127",
   "decision": "not_suitable",
-  "reason": "本題重點是精確的共線、平行及分段比，情境人物漫畫容易分散注意；保留原圖並新增計算式SVG輔助圖。",
-  "addedFigure": "assets/explanations/q-127-auxiliary.svg",
-  "checks": [
-    "對照原卷AB＝BC＝11、AE＝AD＝5",
-    "由角度得AD平行BC；BT＝6，FT＝2",
-    "ADP與FTP相似，AP：PF＝5：2，AP：AF＝5：7",
-    "實際查看桌機SVG與390px題目圖；預設收合，手機無水平溢出"
+  "reason": "已核對原卷角度與線段關係；此題適合精確幾何圖，無需人物情境漫畫。已新增延長DE到T與相似三角形著色SVG，清楚區分AP：PF和AP：AF，桌機與手機均已查看。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T21:09:15.650692+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-127-source-6ae46440ff.jpg",
+      "sha256": "6ae46440ff50c3b20bb4d43f3360ed9bb21c4f317b4f25d9a2eccea67b420af8",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-127-figure-source-1ac49e2af0.jpg",
+      "sha256": "1ac49e2af0fc03bac3e599e7fe1a23ab6829f0f2180f6b9bed5da9cc0595f8f3",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-127-given.svg",
+      "sha256": "94f2c96875cb0a4a4f5ceeb991d893739d5861e08b54c96f6e546762fef8713a",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/explanations/q-127-auxiliary.svg",
+      "sha256": "99640402006e0a1d79c0ff2bd05446730099c5f4b5f390405a8a51c76e74ee70",
+      "visualChecked": true
+    }
   ],
-  "checkedAt": "2026-10-28T11:18:35.252412+00:00",
-  "visualChecked": true
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-127/layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true,
+  "extraLayoutEvidence": [
+    "docs/comics/qa/q-127/question-figures.json"
+  ]
 }

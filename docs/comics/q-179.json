@@ -1,0 +1,86 @@
+{
+  "id": "q-179",
+  "subject": "Math",
+  "title": "延長成三角形，比較內外角的和",
+  "art": "docs/comics/art/q-179.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:50:28.181569+00:00",
+  "panels": [
+    {
+      "heading": "① 點到直線的距離，要看垂直",
+      "text": "A、D到BC距離是2、4；A、B到CD距離是5、3。這些是對同一基準線量出的垂直距離，不是AB、AD等斜邊長。",
+      "alt": "原圖同向凸四邊形，以BC含延長線為基準畫A/D垂足與2/4，A垂足落在BC延長線，正確區分到直線與到線段。"
+    },
+    {
+      "heading": "② 延長AB、CD，相交於W",
+      "text": "由B走向A，到CD的距離從3增到5。反向延長得到W；四邊形的B、C角是三角形WBC的外角，因此∠B＋∠C＝180°＋∠W＞180°。",
+      "alt": "原生交點計算AB/CD交於B/C另一側W，WBC淡綠區與四邊形B/C外角關係明確，延長兩邊同一精確線方向。"
+    },
+    {
+      "heading": "③ 延長DA，與BC相交於V",
+      "text": "由D走向A，到BC的距離從4減到2。延長DA到V，A在VD上、B在VC上；C、D是三角形VCD的內角，所以∠C＋∠D＝180°−∠V＜180°。",
+      "alt": "精確交點V在B左側，V-A-D共線、V-B-C共線，VCD淡藍三角形中原四邊形C/D即內角，不把A/B順序倒置。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 延長成三角形，比較內外角的和",
+    "answer": "答案 A：B＋C＞180°；C＋D＜180°",
+    "points": [
+      "AB、CD延長：B、C看成三角形外角。",
+      "AD、BC延長：C、D看成三角形內角。",
+      "角和要配合原凸四邊形的位置判斷。"
+    ]
+  },
+  "protectedWords": [
+    "垂直距離",
+    "基準線",
+    "凸四邊形",
+    "三角形WBC",
+    "三角形VCD",
+    "外角",
+    "內角",
+    "∠B＋∠C",
+    "∠C＋∠D",
+    "180°",
+    "∠W",
+    "∠V",
+    "B＋C",
+    "C＋D"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-179-source-c7189d2ba8.jpg",
+    "site/dist/assets/questions/q-179-given.svg"
+  ],
+  "originalVisualCheck": "實看原卷5題，只有A/B/C三選項；距離2/4及5/3、原凸四邊形點順序完整。given.svg點位符合2:4與5:3，本圖依其座標精確延長。",
+  "answerCheckedAgainst": "獨立以兩直線交點計算W(576.3995,612.4988)、V(-251.551,380)（原given座標），驗W在B/C外側，V-A-D及V-B-C共線。角和外角180+W、內角180-V，所以A。",
+  "rationale": "精確原生SVG垂距/AB-CD交W/AD-BC交V逐格推理，避免只憑形狀猜角和或畫錯交點。第一格只畫BC距離2/4，第二格用HTML5/3控制交點；不把垂距當邊長。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "abc91eb3ecb87c2aeefb5be98f01a46e72418c348c0576236d43a4fc2a98c290",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T00:06:50.590676+00:00",
+  "completedAt": "2026-10-28T23:51:30.653198+00:00",
+  "layoutEvidence": "docs/comics/q-179-preview-validation.json",
+  "visualReview": "實看1440/1120/390：原四邊形點序、BC延長上的A垂足、W在B/C另一側、V-A-D與V-B-C共線正確。WBC外角和/VCD內角和與A一致，標記沒有遮擋，無詞拆/橫溢，同列等高與單欄自然高度。",
+  "nativeArt": "assets/comics/q-179-art-abc91eb3ec.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T00:06:50.588451+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "核對原卷四個點線距離及AB/CD延長交W、AD/BC延長交V；外角和>180、內角和<180，A答不變。正式桌手機圖文已實看。"
+  },
+  "validationFile": "docs/comics/q-179-validation.json"
+}

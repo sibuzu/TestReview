@@ -1,0 +1,28 @@
+{
+  "id": "q-235",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-28T21:01:57.597013+00:00",
+  "answer": "D：B不在L上，D在L上",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-235-source-1647bc44f9.jpg",
+      "sha256": "1647bc44f912a4c86d7875eb79b4f37864125ccbb0a5cbe74524ad9a0d30252a",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-235-proof.svg",
+      "sha256": "8e4c25d1703d8da0f0c235dafcfe10574e280a8cfc3854d5d83a436fcf8666c1",
+      "visualChecked": true
+    }
+  ],
+  "reason": "原卷8題與D實看並獨立推算：C60度二分30度，D到A/C等距，B由30/40度不等距。現有精確SVG已清楚畫梯形、AC、中垂線通過D且不通過B及兩個30度，搭配逐步文字已完整；再做四格會重複同一幾何圖，人物情境更不能解釋角平分線與中垂線判定，故不另加漫畫。既有proof.svg是原生輔助圖，不誤列為來源AI漫畫。",
+  "existingDiagramRetained": "site/dist/assets/questions/q-235-proof.svg",
+  "visualChecked": true,
+  "reviewedAt": "2026-10-28T21:03:07.625122+00:00",
+  "completedAt": "2026-10-28T21:03:07.625122+00:00",
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-235/layout.json",
+    "visualChecked": true,
+    "result": "1440/390圖形實看，L確經D且不經B，兩30度位置正確、SVG完整載入，答案預設收合且展開正常，文件無橫溢。"
+  }
+}

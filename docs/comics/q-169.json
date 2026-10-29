@@ -1,0 +1,75 @@
+{
+  "id": "q-169",
+  "subject": "Math",
+  "title": "把同側折線對稱，最短路徑拉直",
+  "art": "docs/comics/art/q-169.svg",
+  "protectedWords": [
+    "y軸",
+    "A′",
+    "A（4，−6）",
+    "B（3，8）",
+    "A′（−4，−6）",
+    "P（0，2）",
+    "PA＝PA′",
+    "7√5",
+    "三角不等式",
+    "4／7",
+    "√(7²＋14²)",
+    "PA＋PB",
+    "PA′＋PB",
+    "PA＝4√5",
+    "PB＝3√5"
+  ],
+  "panels": [
+    {
+      "heading": "① A、B同在y軸右側",
+      "text": "A（4，−6）、B（3，8）的x坐標都為正。圖中先任選y軸上的P示意折線；直接連AB並不經過y軸，不能把AB長當作所求最小值。",
+      "alt": "精確座標圖第一格用P在原點作任意折線示意，並非原題給定或最佳點；AB整段在右側。"
+    },
+    {
+      "heading": "② 對稱A，折線就能改寫成直線",
+      "text": "A對稱成A′（−4，−6）。P在y軸上時，PA＝PA′，所以PA＋PB＝PA′＋PB。折線不短於直線A′B；P位在A′B與y軸交點，便可達最小值。",
+      "alt": "A關於y軸對稱到左側A′；藍直線A′B通過最優P，橘PA/PB折線等長，不誤把P任取都最短。"
+    },
+    {
+      "heading": "③ 水平走4／7，找交點並求長",
+      "text": "A′到B水平增加7、鉛直增加14。到y軸占水平路程4／7，故升高8，得P（0，2）。最小值是A′B＝√(7²＋14²)＝7√5。",
+      "alt": "精確反射後的直角分量圖：水平7與鉛直14不由模型亂畫，數值與算式全HTML。"
+    }
+  ],
+  "fourth": {
+    "answer": "P（0，2）；最小值7√5",
+    "points": [
+      "兩點同側，先反射其中一點。",
+      "反射保距離，再以直線達到最小值。",
+      "代回PA＝4√5、PB＝3√5，總和7√5。"
+    ]
+  },
+  "rationale": "實看第6題原卷全文座標與兩問，獨立反射A(-4,-6)，線段參數4/7交y軸得P0,2，距離平方245，回代PA²80/PB²45，合7√5。原生SVG同一比例軸、任取P/反射最優/直角分量三格，精確點位與字母程式控制；第一格原點P明為任意示意，不新增條件。無合適既有AI解說圖，不把原卷手寫答案提前放作答區。",
+  "generationMethod": "programmatic SVG for exact coordinate reflection and minimum path",
+  "generatorFile": "docs/comics/q-169-generate.py",
+  "promptSummary": "三格同尺度座標：右側A/B與軸上任意P折線；A反射A′後直線交P0,2；A′B直角分量。數字答案HTML，SVG只點/軸字母。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-169-source-fb8f97c6ae.jpg"
+  ],
+  "answerCheckedAgainst": "A′(-4,-6)至B(3,8)交x0在t4/7，y2；長sqrt245=7sqrt5。回代sqrt80+sqrt45相同，符合三角不等式等號。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T22:44:37.906183+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "d92e01fb9e1030c04d30404a2749ff107a334bc98e20806ba4e90e9ee8fa3776",
+  "checkedAt": "2026-10-28T22:49:35.642910+00:00",
+  "validationFile": "docs/comics/q-169-validation.json",
+  "nativeArt": "assets/comics/q-169-art-d92e01fb9e.svg"
+}

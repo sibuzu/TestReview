@@ -1,0 +1,40 @@
+{
+  "id": "q-172",
+  "checkedAt": "2026-10-28T22:47:11.630757+00:00",
+  "answer": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "completeExtensionTextChecked": true,
+  "sourceTranscript": "site/dist/sources/gemini-aasmEiRUGhOz.txt",
+  "sourceLines": "15–35；137–273",
+  "reason": "完整來源文字類似題1與三個邊長已核對，獨立三組不等式及正邊長重算，維持五整數。新原生SVG兩個同座標範圍及放大的交集數線，避免把必要條件當充分條件或忽略其中一組。不是原卷照片缺圖，也不是重製同題來源AI圖。",
+  "mathCheck": {
+    "positiveBounds": "1.5<x<15",
+    "upper": "17>2x−3 → x<10",
+    "lower": "3x−1>15−x → x>4",
+    "third": "12>2 always",
+    "endpoint4": [
+      6,
+      11,
+      5
+    ],
+    "endpoint10": [
+      12,
+      5,
+      17
+    ],
+    "validIntegerSanityCheck": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "firstTwoNumberLinesSameScale": "x_px=15+10x",
+    "thirdNumberLineZoomed": true
+  }
+}

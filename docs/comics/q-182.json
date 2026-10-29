@@ -1,0 +1,85 @@
+{
+  "id": "q-182",
+  "subject": "Math",
+  "title": "注意反向射線，C角先取補角",
+  "art": "docs/comics/art/q-182.svg",
+  "protectedWords": [
+    "E在AD上",
+    "∠CDE",
+    "∠ADC",
+    "∠EFG",
+    "∠BCD",
+    "∠BAD",
+    "FE∥CD",
+    "FG∥BC",
+    "180°−48°＝132°",
+    "360°",
+    "104°",
+    "62°",
+    "48°",
+    "132°",
+    "256°",
+    "360°−256°＝104°"
+  ],
+  "panels": [
+    {
+      "heading": "① E在AD上，D角就是62°",
+      "text": "E位於線段AD上，DE與DA同方向，因此∠ADC＝∠CDE＝62°。B角也已給62°；先確定這兩個內角，再處理C角。",
+      "alt": "按延伸條件精確重繪四邊形及E/F/G，僅標原已知B/D的62°與F的48°，不把原卷另數混入。"
+    },
+    {
+      "heading": "② 平行不代表兩角一定相等",
+      "text": "藍線FE∥CD，橙線FG∥BC。由C向右延長BC後，延長線與CD的夾角對應48°；但∠BCD用的是反向的CB，所以C角＝180°−48°＝132°。",
+      "alt": "C點向右橙色虛線是BC延長方向，藍弧標內角、橙弧標外側夾角，並保留F處對應弧；精確區分反向射線。"
+    },
+    {
+      "heading": "③ 最後用四邊形內角和",
+      "text": "先把B、C、D三個已知內角相加，得256°。四邊形內角和為360°，所以A角＝360°−256°＝104°，選A。圖中對角線只協助理解可分成兩個三角形，不是額外已知條件。",
+      "alt": "對角線AC分出兩個三角形，用以說明內角和360°；四角用弧標位置，公式與答案只在HTML。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：104°",
+    "points": [
+      "D角62°，與∠CDE同角。",
+      "C角是48°的補角132°。",
+      "四邊形內角和，再扣除三個已知角。"
+    ]
+  },
+  "rationale": "已讀來源完整延伸練習3題幹四選項/解答，實看其模擬的原卷第3題圖確認E/G位置與F內部配置；本題是另數完整文字練習，沒有照片缺失。核對既有作答SVG，獨立用兩射線交點建四邊形，驗算B/D62、EFG48、C132、A104，及E/G在線、兩組平行。維持A，不沿用原卷123°。無合適既有AI圖，採精確SVG控制延長BC與反向CB，數字推導HTML。",
+  "generationMethod": "programmatic SVG for exact quadrilateral and parallel-ray angles",
+  "generatorFile": "docs/comics/q-182-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-fIG3raRmygwQ.txt 延伸練習3完整題幹與四選項/解答",
+    "site/dist/assets/questions/q-182-given.svg 原題條件重繪",
+    "site/dist/assets/questions/q-177-source-4e01c2651b.jpg 僅核對模擬幾何配置，不沿用56/55原數"
+  ],
+  "answerCheckedAgainst": "B/D62，EFG48與C內角補角132，A360−62−132−62＝104，選A。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-28T23:51:11.442379+00:00",
+  "artSha256": "82e7649bbeec26a40a5084487bb19e18940b6c1fd2e606bde50cc805203bae7a",
+  "checkedAt": "2026-10-29T00:06:50.621791+00:00",
+  "validationFile": "docs/comics/q-182-validation.json",
+  "nativeArt": "assets/comics/q-182-art-82e7649bbe.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T00:06:50.620259+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "核對完整延伸原題及四選項；兩平行的反向線判角得C132，四角和得A104，A答不變。正式桌手機圖文已實看。"
+  }
+}

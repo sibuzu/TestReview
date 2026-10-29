@@ -1,0 +1,34 @@
+{
+  "pixelVertices": {
+    "A": [
+      82,
+      205
+    ],
+    "B": [
+      82,
+      305
+    ],
+    "C": [
+      262,
+      305
+    ],
+    "D": [
+      262,
+      205
+    ],
+    "E": [
+      82,
+      65
+    ]
+  },
+  "areaScale": "20 / drawn rectangle area",
+  "scaledAreas": {
+    "ABCD": "20",
+    "ABD": "10",
+    "BCD": "10",
+    "ADE": "14",
+    "BDE": "24"
+  },
+  "partition": "BDE = ABD + ADE, with only edge AD shared",
+  "overlapInterior": false
+}

@@ -1,0 +1,40 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "大三角形減去的是半個矩形",
+    "art": "assets/comics/q-234-art-5b2eb78eb4.svg",
+    "panels": [
+      {
+        "heading": "① 矩形對角線把20分成兩半",
+        "text": "BD是矩形ABCD的對角線，藍色△ABD與灰色△BCD面積相同。矩形面積20，所以△ABD＝20÷2＝10。",
+        "alt": "精確SVG標A至E；矩形下方兩個三角形共對角線BD，藍ABD與灰BCD等面積。"
+      },
+      {
+        "heading": "② △BDE只由藍、橘兩塊拼成",
+        "text": "A在BE上，AD把△BDE分成藍色△ABD與橘色△ADE，兩塊不重疊。灰色△BCD在大三角形外，不能一起扣掉。",
+        "alt": "大三角形BDE內是藍ABD與橘ADE，共邊AD，灰BCD在外；不誤畫A離開BE。"
+      },
+      {
+        "heading": "③ 用24減10，留下橘色部分",
+        "text": "△BDE面積24，藍色△ABD已知為10，所以橘色△ADE＝24−10＝14。不是24−20，也不是把24直接除以2。",
+        "alt": "橘色ADE為目標，藍ABD淡化仍屬BDE內；數值與算式留在HTML，不由AI決定幾何。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：14",
+      "points": [
+        "先用矩形對角線，求△ABD面積10。",
+        "再用△BDE＝△ABD＋△ADE相減。",
+        "灰色△BCD不在△BDE內，不能扣整個矩形。"
+      ]
+    },
+    "protectedWords": [
+      "△ABD",
+      "△ADE",
+      "△BDE",
+      "△BCD",
+      "20÷2＝10",
+      "24−10＝14"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "q-178",
+  "subject": "Math",
+  "title": "先固定60°，再用邊長比出較大角",
+  "art": "docs/comics/art/q-178.svg",
+  "protectedWords": [
+    "正三角形",
+    "AF＜FC",
+    "DF＝AF",
+    "FE＝FC",
+    "DF＜FE",
+    "∠1",
+    "∠2",
+    "∠DEF",
+    "∠FDE",
+    "120°",
+    "60°",
+    "△ADF",
+    "△CFE",
+    "△DFE"
+  ],
+  "panels": [
+    {
+      "heading": "① 兩組平行線，固定∠1",
+      "text": "圖上藍線FE∥AB、橙線DF∥BC。∠1是∠DFE，等於正三角形的60°。不是中央三角形看起來像正三角形，就把所有角都當60°。",
+      "alt": "程式控制正三角形ABC與DF/FE平行線，F處標原∠1；同色線顯示兩組平行關係。"
+    },
+    {
+      "heading": "② 用兩個小正三角形，把長短搬進來",
+      "text": "△ADF是正三角形，故DF＝AF；△CFE也是正三角形，故FE＝FC。原題AF＜FC，就轉成中央△DFE的DF＜FE。",
+      "alt": "△ADF藍色與△CFE橙色，兩者各自正三角形；對應同色邊長相等，不宣稱兩個三角形彼此等大。"
+    },
+    {
+      "heading": "③ 大邊對大角，∠2大於60°",
+      "text": "橙邊FE較長，它對的∠2大於藍邊DF對的∠DEF。扣掉∠1的60°，剩兩角共120°；較大的∠2因此大於60°，選B。",
+      "alt": "等比放大中央△DFE，保留D/F/E位置關係與角1/2，綠弧角2較紫弧E大；示意數值不作新條件。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：∠1＝60°，∠2＞60°",
+    "points": [
+      "平行線先求∠1。",
+      "小正三角形導出DF＜FE。",
+      "兩角和120°，較大者必大於60°。"
+    ]
+  },
+  "rationale": "已實看原卷完整三選項與角1/2位置，核對原作答附圖；獨立座標t=.35示意驗算DF=AF<FC=FE、角1=60、角2>60、其餘兩角和120。維持B，不由圖形外觀猜中央正三角形。無合適既有AI圖，精確幾何SVG控制邊角與三角形著色，示意參數/特定角度不顯示為原題已知。",
+  "generationMethod": "programmatic SVG for exact equilateral-triangle parallel geometry",
+  "generatorFile": "docs/comics/q-178-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-178-source-cbab792a8e.jpg",
+    "site/dist/assets/questions/q-178-given.svg 原題條件重繪",
+    "site/dist/sources/gemini-fIG3raRmygwQ.txt 來源背景/延伸說明；原題依實圖核對"
+  ],
+  "answerCheckedAgainst": "DF∥BC FE∥AB→∠1=60；DF=AF<FC=FE→∠2>∠E，且∠2+∠E=120，故∠2>60，B。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-28T23:47:02.630595+00:00",
+  "artSha256": "eb2543a388c887a94be379b9d65a0c5296f905179bb29ddfc77ebb4dde37f804",
+  "checkedAt": "2026-10-29T00:06:50.571715+00:00",
+  "validationFile": "docs/comics/q-178-validation.json",
+  "nativeArt": "assets/comics/q-178-art-eb2543a388.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T00:06:50.569242+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "核對正三角形與兩組平行；AF<FC搬成DF<FE，角1=60且角2>60，原題B答不變。正式桌手機圖文已實看。"
+  }
+}

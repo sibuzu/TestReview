@@ -1,0 +1,80 @@
+{
+  "id": "q-176",
+  "subject": "Math",
+  "title": "平行線移角：58°加74°",
+  "art": "docs/comics/art/q-176.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:50:22.387962+00:00",
+  "panels": [
+    {
+      "heading": "① DC＝DP，先求底角74°",
+      "text": "DCP是等腰三角形，D角32°。剩餘兩底角相等，所以∠DCP＝∠DPC＝（180°−32°）÷2＝74°。",
+      "alt": "精確重繪平行四邊形與內部P，凸顯綠色等長DC/DP和DCP，角值用HTML推導。"
+    },
+    {
+      "heading": "② 過P作平行AB的輔助線",
+      "text": "灰虛線通過P，平行AB，也平行DC。取朝下的射線，利用平行線內錯角，把B角的58°移到P點橘色角區。",
+      "alt": "過P作與AB/DC相同方向的灰虛線，朝下射線把BPC分成橘色58與藍色74，沒有把APD92混入所求角。"
+    },
+    {
+      "heading": "③ 藍色角74°，加上橘色58°",
+      "text": "同理，C角的74°移到P點藍色角區。橘、藍兩角合起來就是∠BPC，故∠BPC＝58°＋74°＝132°。",
+      "alt": "同一P角分割：從PB至朝下平行射線為橘58，射線至PC為藍74，所求BPC合計132。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 平行線移角：58°加74°",
+    "answer": "答案 B：132°",
+    "points": [
+      "DC＝DP，等腰底角都是74°。",
+      "過P作AB、DC的平行線來移角。",
+      "92°條件保留，但這條解法不必用它。"
+    ]
+  },
+  "protectedWords": [
+    "平行四邊形",
+    "等腰三角形",
+    "平行線",
+    "內錯角",
+    "輔助線",
+    "灰虛線",
+    "橘色角區",
+    "藍色角區",
+    "∠DCP",
+    "∠DPC",
+    "∠BPC",
+    "32°",
+    "74°",
+    "58°",
+    "92°",
+    "132°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-176-source-b52d481d7c.jpg",
+    "site/dist/assets/questions/q-176-given.svg"
+  ],
+  "originalVisualCheck": "實看原卷2題與四選項130/132/134/136，DC=DP、32/92/58三已知條件及內部P。given.svg幾何座標沿用其準確條件，另加平行線。",
+  "answerCheckedAgainst": "獨立以等腰底角74和平行AB/DC移58求132；用座標檢查灰射線位於PB/PC夾角內，與PB為58、與PC為74。",
+  "rationale": "精確原生SVG保留92度題設的幾何，不讓AI誤畫輔助線方向。由DC/DP等腰→過P平行→58+74三步，灰虛線射線確實分割目標角。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "80c7789af64748dbfd5f2c9acfeabcd150aedd06749f90ae98aff274771fe332",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:54:20.410280+00:00",
+  "completedAt": "2026-10-28T22:50:45.742061+00:00",
+  "layoutEvidence": "docs/comics/q-176-preview-validation.json",
+  "visualReview": "三寬1440/1120/390實看：DC/DP等長三角形、與AB/DC同向的過P灰虛線、橘58藍74拼132清楚；四點P標記與HTML一致，無橫溢/保護詞斷裂，同列等高、單欄自然高度。",
+  "nativeArt": "assets/comics/q-176-art-80c7789af6.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-176-validation.json"
+}

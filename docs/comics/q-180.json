@@ -1,0 +1,88 @@
+{
+  "id": "q-180",
+  "subject": "Math",
+  "title": "先求完整C角，再扣中間35度",
+  "art": "docs/comics/art/q-180.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:46:45.251686+00:00",
+  "panels": [
+    {
+      "heading": "① A角與E角相加180°",
+      "text": "AB∥DE，AE當截線，五邊形內的A角與E角是同側內角，所以和為180°。只用角和，不必假設兩角各是90°。",
+      "alt": "抽出AB/DE兩平行邊與斜截線AE，αβ為A/E內角，圖上兩角不各90；兩平行符號方向一致。"
+    },
+    {
+      "heading": "② 五邊形內角和求C角120°",
+      "text": "五邊形內角和540°，扣去A與E的180°、B的122°及D的118°，得到完整∠BCD＝120°。",
+      "alt": "受控五邊形實際滿足AB∥DE、B122/D118/C120及A+E180，不把AE硬畫水平而形成額外直角假設。"
+    },
+    {
+      "heading": "③ 扣掉中間35°，留下兩側角",
+      "text": "CA、CE把C角分成x＝∠BCA、35°與y＝∠ECD。因此x＋y＝120°－35°＝85°，選B；無須分別求x和y。",
+      "alt": "C點四射線CB/CA/CE/CD依序，完整120、中央35，兩側x/y僅標未知，沒有猜各自相等。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：85°",
+    "points": [
+      "先由平行線得A＋E＝180°。",
+      "完整C角是120°。",
+      "所求兩側角和＝完整C角－中央35°。"
+    ]
+  },
+  "protectedWords": [
+    "∠BCD",
+    "∠BCA",
+    "∠ECD",
+    "180°",
+    "120°",
+    "122°",
+    "118°",
+    "540°",
+    "35°",
+    "85°",
+    "x＋y"
+  ],
+  "rationale": "完整延伸文字來源與四選項讀取，必要SVG實看。新原生圖去除不必要各90假設，用一般斜AE平行邊；坐標以三角函數建模，程序驗算B122/D118/C120/ACE35/A+E180，兩側未知只求和不猜個別值。",
+  "promptSummary": "原生SVG同側內角180、一般五邊形內角和、C點120拆35與x/y兩側。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-fIG3raRmygwQ.txt完整延伸1/四選項及解析；獨立內角和120-35=85。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-fIG3raRmygwQ.txt",
+    "images": [
+      "site/dist/assets/questions/q-180-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "B，85°",
+    "notes": "對話產生延伸題，無原卷照片；完整文字與4選項已讀，必要圖實看，未使用來源AI圖。"
+  },
+  "artSHA256": "74489968fbd470e0af8dd5ef3da18a185706d6f50530e27c3a6bd160c3b0573e",
+  "completedAt": "2026-10-28T23:48:52.144188+00:00",
+  "checkedAt": "2026-10-29T00:06:50.608314+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-180-preview-validation.json",
+  "visualReview": "實看原必要SVG、原生540×180與1440/390預覽：新圖平行AB/DE、AE非水平避免額外各90假設；一般五邊形坐標驗算B122/D118/C120/ACE35/A+E180，C扇形四射線次序正確，兩側x/y未假設相等。三寬無溢出，桌機同列等高與手機自然高度正常。",
+  "nativeArt": "assets/comics/q-180-art-74489968fb.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T00:06:50.606682+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "核對原始完整延伸題與各選項；AB平行DE只得A+E180而非各90，C120扣35=85，B答不變。正式桌手機圖文已實看。"
+  },
+  "validationFile": "docs/comics/q-180-validation.json"
+}

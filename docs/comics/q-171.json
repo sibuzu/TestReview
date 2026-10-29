@@ -1,0 +1,83 @@
+{
+  "id": "q-171",
+  "subject": "Math",
+  "title": "先比較角度，再排出三段距離",
+  "art": "docs/comics/art/q-171.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:46:44.120671+00:00",
+  "panels": [
+    {
+      "heading": "① 正五邊形108°，正三角形60°",
+      "text": "正五邊形每個內角108°，正三角形PAB的角是60°。因此∠PBC＝48°，且PB＝AB＝BC，得到等腰三角形PBC。",
+      "alt": "依原題比例精確繪正五邊形及內部正三角形PAB，橘色連結AB、PB、BC供等邊關係對照；點名為原生SVG可校對標記。"
+    },
+    {
+      "heading": "② 在△PBC：PB＞PC",
+      "text": "等腰三角形PBC的底角都是66°。橘邊PB對66°，藍邊PC對48°；同一三角形中，大角對大邊，所以PB＞PC。",
+      "alt": "凸顯PBC，橘PB與藍PC對照；精確角度以HTML說明，不單憑外觀決定大小。"
+    },
+    {
+      "heading": "③ 在△PCD：PC＞PD",
+      "text": "∠PCD＝108°−66°＝42°。P在正五邊形的對稱軸上，所以∠PDC＝54°。藍邊PC對54°、紫邊PD對42°，故PC＞PD。",
+      "alt": "凸顯PCD及由D通過P至AB中點的灰虛線對稱軸，藍PC與紫PD同三角形比較。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先比較角度，再排出三段距離",
+    "answer": "先到D點：PB＞PC＞PD",
+    "points": [
+      "正五邊形內角108°；PAB是正三角形。",
+      "分別在PBC、PCD中用大角對大邊。",
+      "PD最短，因此三點中先到D。"
+    ]
+  },
+  "protectedWords": [
+    "正五邊形",
+    "正三角形",
+    "等腰三角形",
+    "對稱軸",
+    "大角對大邊",
+    "∠PBC",
+    "∠PCD",
+    "∠PDC",
+    "PB＞PC",
+    "PC＞PD",
+    "橘邊PB",
+    "藍邊PC",
+    "紫邊PD",
+    "108°",
+    "60°",
+    "48°",
+    "66°",
+    "42°",
+    "54°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-171-source-d0998d9e90.jpg",
+    "site/dist/assets/questions/q-171-given.svg"
+  ],
+  "originalVisualCheck": "實看原卷8題正五邊形/內部P及PAB正三角形、B/C/D三任務點，圖與手寫D、PB>PC>PD對照，未改原題。",
+  "answerCheckedAgainst": "獨立用108-60=48、底角66、C剩42、D軸半角54，兩次大角對大邊得PB>PC>PD。另以正五邊形與等邊P座標確認相對位置與DP軸。",
+  "rationale": "原生SVG準確維持正五邊形與PAB等邊及D對稱軸，三格逐步對應必要角度和距離比較。迷宮情境本身不提供新判據，故不另加無關人物。點名為程式可校對幾何標籤，推導/角度保持HTML可選取。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "51a81f031a99fa2ae1c8f512d81e58a8f087cab5a85e85a6a4e5fdc18e52200f",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:49:35.761955+00:00",
+  "completedAt": "2026-10-28T22:47:22.217714+00:00",
+  "layoutEvidence": "docs/comics/q-171-preview-validation.json",
+  "visualReview": "實看1440/1120/390：正五邊形、內部等邊PAB及DP軸比例正確，三格著色對應比較三角形/橘PB藍PC紫PD。角度及保護詞不拆，字與圖不橫溢，同列等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-171-art-51a81f031a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-171-validation.json"
+}

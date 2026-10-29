@@ -1,0 +1,79 @@
+{
+  "id": "q-172",
+  "subject": "Math",
+  "title": "正邊長還不夠，要取三角不等式的交集",
+  "art": "docs/comics/art/q-172.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:45:35.974487+00:00",
+  "panels": [
+    {
+      "heading": "① 三個邊長都必須大於0",
+      "text": "x＋2＞0、15−x＞0、2x−3＞0，合併得到1.5＜x＜15。這只保證長度為正，還沒保證能圍成三角形。",
+      "alt": "正邊長範圍1.5至15開區間，數線採15+10x座標；不是最終答案。"
+    },
+    {
+      "heading": "② 三組兩邊和都要檢查",
+      "text": "前兩邊和大於第三邊，得到x＜10；第一、三邊和大於第二邊，得到x＞4。剩下一組化簡為12＞2，恆成立，不再限縮範圍。",
+      "alt": "三角不等式範圍4至10開區間，數線與第一格同一座標比例，範圍更窄且包含在第一格內。"
+    },
+    {
+      "heading": "③ 取交集，再取其中的整數",
+      "text": "兩種條件都要滿足，所以得到4＜x＜10。可取的整數只有5、6、7、8、9；不能只依邊長為正就列出全部整數。",
+      "alt": "將4至10開區間放大呈現，4/10空心，5/6/7/8/9實心且等距；明示此格放大，不與前格誤比紙面比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "x＝5、6、7、8、9",
+    "points": [
+      "先有正邊長，再檢查任兩邊和大於第三邊。",
+      "合併為4＜x＜10，取五個整數。",
+      "x＝4或10會有兩邊和等於第三邊，因此端點不取。"
+    ]
+  },
+  "protectedWords": [
+    "三角不等式",
+    "三角形",
+    "1.5＜x＜15",
+    "4＜x＜10",
+    "x＜10",
+    "x＞4",
+    "12＞2",
+    "x＋2",
+    "15−x",
+    "2x−3",
+    "x＝4"
+  ],
+  "rationale": "完整來源文字類似題1與三個邊長已核對，獨立三組不等式及正邊長重算，維持五整數。新原生SVG兩個同座標範圍及放大的交集數線，避免把必要條件當充分條件或忽略其中一組。不是原卷照片缺圖，也不是重製同題來源AI圖。",
+  "promptSummary": "原生SVG正邊長開區間1.5至15、三角不等式開區間4至10、放大最終五整數數線。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-aasmEiRUGhOz.txt第15～35行完整題目與解答；獨立推導x<10/x>4/12>2及正邊長；整數−30～50三角條件檢核。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-aasmEiRUGhOz.txt",
+    "lines": "15–35；137–273",
+    "completeTextChecked": true,
+    "visualChecked": true,
+    "answer": "5、6、7、8、9",
+    "notes": "分享對話文字類似題，不是原卷第5題；邊長x+2/15−x/2x−3及整數條件完整。"
+  },
+  "artSHA256": "cd57d64d66c2f00898e316531f4eb9d61a6fda4ff6ab1089be4d58f5bc15631c",
+  "completedAt": "2026-10-28T22:47:39.271137+00:00",
+  "checkedAt": "2026-10-28T22:51:56.807379+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-172-preview-validation.json",
+  "visualReview": "實看540×180及1440/390成品：1.5~15與4~10前兩格同座標縮尺，後格明示放大，4/10空心與五內整數實心等距；邊長式和12>2等短式保護未拆行。三寬無溢出，桌機同列等高與手機自然高。完整文字練習非缺原圖。",
+  "nativeArt": "assets/comics/q-172-art-cd57d64d66.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-172-validation.json"
+}

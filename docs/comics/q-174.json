@@ -1,0 +1,81 @@
+{
+  "id": "q-174",
+  "subject": "Math",
+  "title": "PCD是正三角形，所求APB為84°",
+  "art": "docs/comics/art/q-174.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:48:20.810396+00:00",
+  "panels": [
+    {
+      "heading": "① 先找等腰三角形BCP",
+      "text": "PCD是正三角形，PC＝CD＝BC。正五邊形內角108°，故∠BCP＝108°−60°＝48°；BCP的兩底角各為66°。",
+      "alt": "正五邊形內向上作等邊PCD，藍邊PC/CD/BC相等，原生SVG精確點位，不沿用正三角形在AB的另一題。"
+    },
+    {
+      "heading": "② 求出B角：108°減66°",
+      "text": "P位於∠ABC內部。已知∠CBP＝66°，所以∠ABP＝108°−66°＝42°；不能把對角線AD當成正五邊形的一條邊。",
+      "alt": "以BCP著色對照B的108度被BP分成66度與42度，AD並未畫成與邊等長。"
+    },
+    {
+      "heading": "③ AP是對稱軸，A角54°",
+      "text": "A與CD中點的連線是對稱軸，P也在這條軸上，所以∠BAP＝54°。在ABP內，用180°減去42°與54°，所求∠APB＝84°。",
+      "alt": "凸顯ABP，AP沿垂直對稱軸，P處紫色角扇形準確標出約84度而非168度。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ PCD是正三角形，所求APB為84°",
+    "answer": "∠APB＝84°",
+    "points": [
+      "先由等腰BCP求底角66°。",
+      "ABP的B角42°、A角54°。",
+      "AD是對角線，不能誤用AD＝CD來推168°。"
+    ]
+  },
+  "protectedWords": [
+    "正五邊形",
+    "正三角形",
+    "等腰三角形",
+    "對稱軸",
+    "對角線AD",
+    "∠BCP",
+    "∠CBP",
+    "∠ABP",
+    "∠BAP",
+    "∠APB",
+    "108°",
+    "60°",
+    "48°",
+    "66°",
+    "42°",
+    "54°",
+    "84°",
+    "168°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-174-given.svg"
+  ],
+  "originalTextSource": "site/dist/sources/gemini-aasmEiRUGhOz.txt：類似題3原始完整文字、原168度推導已實讀；原題無照片圖，給定圖由條件重繪。",
+  "answerCheckedAgainst": "既有已訂正84度；獨立算BCP48/66/66，ABP的42/54/84，並用正五邊形與等邊PCD座標核實。原AI168錯誤已在題庫註明，未重開同項。",
+  "rationale": "與q171雖同正五邊形但等邊三角形放在CD，需本題專屬精確SVG，不能直接重用AB版。三格聚焦等腰、B剩角、AP軸與目標P角，強調AD非邊，保留既有資料已核對訂正的84°。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "a67e087de94f2bb0057233c349b6f712984e16f04bf004d0f5ce1d1b3b7e1706",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:51:56.878315+00:00",
+  "completedAt": "2026-10-28T22:49:12.690792+00:00",
+  "layoutEvidence": "docs/comics/q-174-preview-validation.json",
+  "visualReview": "實看三寬1440/1120/390：等邊PCD在下、P位於A-CD軸，BCP/ABP填色與84度扇形清楚，CD版與另一題AB版無混淆。三寬詞和角度不拆、無橫溢；桌機同行等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-174-art-a67e087de9.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-174-validation.json"
+}

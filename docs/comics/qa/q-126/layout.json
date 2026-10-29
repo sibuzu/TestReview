@@ -1,0 +1,26 @@
+{
+  "id": "q-126",
+  "checkedAt": "2026-10-28T21:01:19.560Z",
+  "marksRequestsAborted": true,
+  "results": [
+    {
+      "viewport": 1440,
+      "collapsedByDefault": true,
+      "question": "如圖十二，△ABC中，D、E兩點分別在AB、BC上，F、G兩點在AC上，且DF∥BG，BF∥EG。若△ADF、△DBF、△GBC的面積分別為20、30、90，則BE與EC比為何？\n\n(A) 5：6\n(B) 5：4\n(C) 5：3\n(D) 4：3",
+      "explanation": "一、由共高三角形求線段比\n△ADF與△DBF以AD、DB為底且同高，故AD：DB＝20：30＝2：3，所以AD：AB＝2：5。\n\n二、利用DF∥BG\n△ADF與△ABG相似，邊長比2：5，面積比4：25。\n△ABG面積＝20×25／4＝125。\n△ABF面積＝20＋30＝50，所以△BFG面積＝125－50＝75。\n\n三、用同一頂點B比較FG與GC\n△BFG與△BGC以同一直線AC上的FG、GC為底，且共高，故FG：GC＝75：90＝5：6。\n\n四、利用BF∥EG換到BC上的比例\n在△CBF中，E在CB上、G在CF上，EG∥BF。平行線截比例可得BE：EC＝FG：GC＝5：6，選A。\n\n快速判斷：20、30先相加為50，再由相似面積比求125；中間那塊是75，不是125。",
+      "docOverflow": false,
+      "screenshot": "docs/comics/qa/q-126/1440-text.png"
+    },
+    {
+      "viewport": 390,
+      "collapsedByDefault": true,
+      "question": "如圖十二，△ABC中，D、E兩點分別在AB、BC上，F、G兩點在AC上，且DF∥BG，BF∥EG。若△ADF、△DBF、△GBC的面積分別為20、30、90，則BE與EC比為何？\n\n(A) 5：6\n(B) 5：4\n(C) 5：3\n(D) 4：3",
+      "explanation": "一、由共高三角形求線段比\n△ADF與△DBF以AD、DB為底且同高，故AD：DB＝20：30＝2：3，所以AD：AB＝2：5。\n\n二、利用DF∥BG\n△ADF與△ABG相似，邊長比2：5，面積比4：25。\n△ABG面積＝20×25／4＝125。\n△ABF面積＝20＋30＝50，所以△BFG面積＝125－50＝75。\n\n三、用同一頂點B比較FG與GC\n△BFG與△BGC以同一直線AC上的FG、GC為底，且共高，故FG：GC＝75：90＝5：6。\n\n四、利用BF∥EG換到BC上的比例\n在△CBF中，E在CB上、G在CF上，EG∥BF。平行線截比例可得BE：EC＝FG：GC＝5：6，選A。\n\n快速判斷：20、30先相加為50，再由相似面積比求125；中間那塊是75，不是125。",
+      "docOverflow": false,
+      "screenshot": "docs/comics/qa/q-126/390-text.png"
+    }
+  ],
+  "visualChecked": true,
+  "visualCheckedAt": "2026-10-28T21:09:15.650692+00:00",
+  "visualReview": "Root已實際查看1440/390正式頁截圖及所有原卷/必要材料/保留AI原始檔，題幹、答案與詳解及圖說互相符合；圖片正常等比載入（如有），預設收合/展開正常，無頁面橫向溢出。"
+}

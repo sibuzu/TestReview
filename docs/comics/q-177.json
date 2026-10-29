@@ -1,0 +1,87 @@
+{
+  "id": "q-177",
+  "subject": "Math",
+  "title": "兩組平行線，先確認角的方向",
+  "art": "docs/comics/art/q-177.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:44:51.784647+00:00",
+  "panels": [
+    {
+      "heading": "① 保留55°與兩組平行條件",
+      "text": "原圖中FE與CD同向，FG與BC同向。先抓∠EFG＝55°；兩組線平行，還要分清角的兩邊是否反向，不能一律直接搬成55°。",
+      "alt": "依原圖方向畫F處FE斜向右上、FG向右，內角55度，並列兩組平行條件。"
+    },
+    {
+      "heading": "② C角是55°的補角",
+      "text": "在C點，CD向右上，但CB朝左，與BC反向。圖中外側55°與∠BCD合成平角，所以∠BCD＝180°－55°＝125°。",
+      "alt": "B-C水平、CD斜向右上55度；C右側延長線與CD外角55、左側內角125，兩弧明確分色。"
+    },
+    {
+      "heading": "③ 四邊形內角和扣掉三個已知角",
+      "text": "E在AD上，因此∠CDE就是D的內角56°；B角也為56°。四邊形內角和360°，扣除56°、125°、56°，得到∠BAD＝123°。",
+      "alt": "依原已知幾何同比縮放四邊形，B56/C125/D56，A待求；正確算式得123度。"
+    }
+  ],
+  "fourth": {
+    "answer": "∠BAD＝123°",
+    "points": [
+      "平行先看方向：同向或反向會影響角度。",
+      "C角是125°，不是55°。",
+      "A＋B＋C＋D＝360°。"
+    ]
+  },
+  "protectedWords": [
+    "∠EFG",
+    "∠BCD",
+    "∠CDE",
+    "∠BAD",
+    "55°",
+    "125°",
+    "123°",
+    "56°",
+    "360°",
+    "180°－55°"
+  ],
+  "rationale": "實看原卷3題/完整條件與必要SVG；獨立驗算C125、A123。新SVG受控平行射線、正反向補角與原四邊形；第三格坐標角度程序驗算A123/B56/C125/D56容差0.01度，無假直角。",
+  "promptSummary": "原生SVG F處55度、C點55+125補角、四邊形內角和，精確方向及角標。",
+  "answerCheckedAgainst": "原卷FE∥CD、FG∥BC、B=D56/EFG55；C125及360−56−125−56=123；第三格坐標角度獨立計算。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-177-source-4e01c2651b.jpg",
+      "site/dist/assets/questions/q-177-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "123°",
+    "notes": "原卷E在AD/G在CD/F內部與兩平行條件、B/D56和F55實看；手寫別題132不沿用。"
+  },
+  "artSHA256": "e8443032ead6bbd6bf3ec02f6e59b3cda0c5a05f255503ded4accc9dc1b45adc",
+  "completedAt": "2026-10-28T23:46:45.194012+00:00",
+  "checkedAt": "2026-10-28T23:59:15.084452+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-177-preview-validation.json",
+  "visualReview": "實看必要SVG/原生540×180及1440/390預覽：F處55小角、C處外55與內125共平角，兩弧方向正確；第三格A123/B56/C125/D56已坐標驗算，無假直角。三寬無溢出，桌機同列等高及手機自然高度正常。",
+  "nativeArt": "assets/comics/q-177-art-e8443032ea.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:59:14.946914+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷3題E/G位置及兩平行、B/D56與EFG55。SVG明示CB反向造成C125，四角總和得A123；無假直角，原題答案不變。正式桌手機實看無溢出。"
+  },
+  "validationFile": "docs/comics/q-177-validation.json"
+}

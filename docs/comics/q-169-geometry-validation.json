@@ -1,0 +1,34 @@
+{
+  "id": "q-169",
+  "A": [
+    4,
+    -6
+  ],
+  "B": [
+    3,
+    8
+  ],
+  "A_reflected": [
+    -4,
+    -6
+  ],
+  "intersectionParameter": "4/7",
+  "P": [
+    0,
+    2
+  ],
+  "squaredDistances": {
+    "AP": "80",
+    "PB": "45",
+    "reflectedToP": "80",
+    "reflectedToB": "245",
+    "directAB": "197"
+  },
+  "backSubstitution": "sqrt80 + sqrt45 = 4sqrt5+3sqrt5 =7sqrt5",
+  "directABNotFeasible": "whole segment has x in [3,4], does not meet y axis",
+  "minimumProof": "reflection preserves PA, triangle inequality equality at axis intersection",
+  "prototypePInPanel1": [
+    0,
+    0
+  ]
+}

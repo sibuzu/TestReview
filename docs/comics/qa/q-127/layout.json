@@ -1,0 +1,26 @@
+{
+  "id": "q-127",
+  "checkedAt": "2026-10-28T21:01:20.611Z",
+  "marksRequestsAborted": true,
+  "results": [
+    {
+      "viewport": 1440,
+      "collapsedByDefault": true,
+      "question": "如圖十三，△ABC與△ADE中，D點在△ABC外，E點在AB上，∠D＝∠DEA＝∠EAC＝∠C＝65°。若BC上有一點F，AF與直線DE相交於P點，且BF＝4、FC＝7、BE＝6，則AP與AF的長度比為何？\n\n(A) 2：7\n(B) 5：7\n(C) 7：9\n(D) 8：9",
+      "explanation": "一、由等角求AB與AD\n在△ABC中，∠BAC＝∠EAC＝65°，又∠C＝65°，所以AB＝BC＝BF＋FC＝11。\nBE＝6，故AE＝11－6＝5。\n在△ADE中，∠D＝∠DEA＝65°，因此AD＝AE＝5。\n\n二、證明AD∥BC\n△ADE的∠DAE＝180°－65°－65°＝50°。\n所以∠DAC＝∠DAE＋∠EAC＝50°＋65°＝115°。\n∠DAC＋∠ACB＝115°＋65°＝180°，可得AD∥BC。\n\n三、作輔助點T並求FT\n延長DE，與BC交於T。因對頂角相等，∠BET＝∠DEA＝65°。\n由AD∥BC可得∠BTE＝∠ADE＝65°，故△BET為等腰三角形，BT＝BE＝6。\n由圖及BF＝4可知T在F與C間，FT＝BT－BF＝6－4＝2。\n\n四、用相似三角形求AP：AF\nAD∥FT，且A、P、F共線，D、P、T共線，故△ADP與△FTP相似。\nAP：PF＝AD：FT＝5：2。\n因AF＝AP＋PF，所以AP：AF＝5：(5＋2)＝5：7，選B。\n\n快速判斷：最後問的是AP比整段AF，不能把AP：PF直接當答案。",
+      "docOverflow": false,
+      "screenshot": "docs/comics/qa/q-127/1440-text.png"
+    },
+    {
+      "viewport": 390,
+      "collapsedByDefault": true,
+      "question": "如圖十三，△ABC與△ADE中，D點在△ABC外，E點在AB上，∠D＝∠DEA＝∠EAC＝∠C＝65°。若BC上有一點F，AF與直線DE相交於P點，且BF＝4、FC＝7、BE＝6，則AP與AF的長度比為何？\n\n(A) 2：7\n(B) 5：7\n(C) 7：9\n(D) 8：9",
+      "explanation": "一、由等角求AB與AD\n在△ABC中，∠BAC＝∠EAC＝65°，又∠C＝65°，所以AB＝BC＝BF＋FC＝11。\nBE＝6，故AE＝11－6＝5。\n在△ADE中，∠D＝∠DEA＝65°，因此AD＝AE＝5。\n\n二、證明AD∥BC\n△ADE的∠DAE＝180°－65°－65°＝50°。\n所以∠DAC＝∠DAE＋∠EAC＝50°＋65°＝115°。\n∠DAC＋∠ACB＝115°＋65°＝180°，可得AD∥BC。\n\n三、作輔助點T並求FT\n延長DE，與BC交於T。因對頂角相等，∠BET＝∠DEA＝65°。\n由AD∥BC可得∠BTE＝∠ADE＝65°，故△BET為等腰三角形，BT＝BE＝6。\n由圖及BF＝4可知T在F與C間，FT＝BT－BF＝6－4＝2。\n\n四、用相似三角形求AP：AF\nAD∥FT，且A、P、F共線，D、P、T共線，故△ADP與△FTP相似。\nAP：PF＝AD：FT＝5：2。\n因AF＝AP＋PF，所以AP：AF＝5：(5＋2)＝5：7，選B。\n\n快速判斷：最後問的是AP比整段AF，不能把AP：PF直接當答案。",
+      "docOverflow": false,
+      "screenshot": "docs/comics/qa/q-127/390-text.png"
+    }
+  ],
+  "visualChecked": true,
+  "visualCheckedAt": "2026-10-28T21:09:15.650692+00:00",
+  "visualReview": "Root已實際查看1440/390正式頁截圖及所有原卷/必要材料/保留AI原始檔，題幹、答案與詳解及圖說互相符合；圖片正常等比載入（如有），預設收合/展開正常，無頁面橫向溢出。"
+}

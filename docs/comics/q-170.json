@@ -1,0 +1,87 @@
+{
+  "id": "q-170",
+  "subject": "Math",
+  "title": "先作鏡射，把折線路徑拉直",
+  "art": "docs/comics/art/q-170.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:44:41.911544+00:00",
+  "panels": [
+    {
+      "heading": "① 對稱換距離：AP＝CP",
+      "text": "藍點A與綠點C關於灰線L對稱，紫點是B、黑點是P。P在L上，所以AP＝CP，橘色折線AP＋PB可換成直線CP＋PB。",
+      "alt": "按座標比例示意A與C關於L對稱，最短折線經P反射後與BC重合。色點由HTML對應名稱。"
+    },
+    {
+      "heading": "② 改走Q，就繞了三角形兩邊",
+      "text": "任取L上異於P的橘點Q，AQ＝CQ。橘線BQ＋QC大於綠線BC；換回AQ後，就是AQ＋BQ＞AP＋BP。",
+      "alt": "同一BC與L位置，Q選在P右側作比較示例；橘色三角形兩邊BQ和QC與綠色直線BC比較，Q不固定只能在右側。"
+    },
+    {
+      "heading": "③ 鏡射後，水平差5、鉛直差12",
+      "text": "A（−4，3）到L：y＝−1相距4，鏡射得C（−4，−5）。B（1，7）與C的水平差為5、鉛直差為12，形成直角三角形。",
+      "alt": "以5比12的正確比例繪BC為斜邊的直角三角形，橘色兩直角邊、綠色BC，精確數值以HTML說明。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 最短路徑＝鏡射後的直線BC",
+    "answer": "最短長度：13",
+    "points": [
+      "AP＝CP、AQ＝CQ，來自軸對稱。",
+      "Q≠P時，以三角不等式得嚴格大於。",
+      "BC²＝5²＋12²＝169，所以BC＝13。"
+    ]
+  },
+  "protectedWords": [
+    "軸對稱",
+    "三角不等式",
+    "直角三角形",
+    "水平差",
+    "鉛直差",
+    "鏡射",
+    "AP＝CP",
+    "AQ＝CQ",
+    "CP＋PB",
+    "BQ＋QC",
+    "AQ＋BQ",
+    "AP＋BP",
+    "y＝−1",
+    "最短路徑",
+    "灰線",
+    "紫點",
+    "藍點",
+    "綠點",
+    "橘點",
+    "黑點",
+    "A（−4，3）",
+    "B（1，7）",
+    "C（−4，−5）"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-170-source-0b820ccf54.jpg",
+    "site/dist/assets/questions/q-170-given.svg"
+  ],
+  "originalVisualCheck": "實看原卷7題圖、兩小題完整條件、y=-1與A(-4,3)、B(1,7)，無需原AI答案當標準。現有given.svg只給條件，不含最短路徑說明。",
+  "answerCheckedAgainst": "鏡射y=-1得C(-4,-5)，B-C=(5,12)，BC=13；P為BC交L，Q異P才嚴格大於。",
+  "rationale": "精確鏡射和5:12比例需原生SVG，三格分別對稱換距離、三角不等式及座標距離，明確區分原AP+PB折線與鏡射BC直線。圖2的Q是任選示例，不把Q右於P當新條件。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "d645d9b57ad9b4cec6221cf46ca3992b47f7bc55568381556d4048c254c9c900",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:49:35.700384+00:00",
+  "completedAt": "2026-10-28T22:45:27.851569+00:00",
+  "layoutEvidence": "docs/comics/q-170-preview-validation.json",
+  "visualReview": "實看三寬1440/1120/390：A/C鏡射點、P反射直線、Q三角繞路及5:12直角圖與HTML一致；座標/色點保護詞完整，無橫溢，桌機同行等高、手機自然高度。",
+  "nativeArt": "assets/comics/q-170-art-d645d9b57a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-170-validation.json"
+}

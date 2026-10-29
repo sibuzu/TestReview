@@ -1,0 +1,69 @@
+{
+  "id": "q-173",
+  "subject": "Math",
+  "title": "先看異側，直線已經符合經過L",
+  "art": "docs/comics/art/q-173.svg",
+  "protectedWords": [
+    "x＝2",
+    "A（−2，5）",
+    "B（6，11）",
+    "P（2，8）",
+    "A′（6，5）",
+    "PA＋PB≥AB",
+    "√(8²＋6²)＝10",
+    "同側",
+    "異側"
+  ],
+  "panels": [
+    {
+      "heading": "① 先判A、B位在L的不同側",
+      "text": "A（−2，5）的x小於2，B（6，11）的x大於2，所以兩點分居L的兩側。藍灰線AB本來就會穿過L，這題不用先把A反射過去。",
+      "alt": "精確座標圖L為紫虛線x2，與y軸不同；任選P2,5的橘折線只是第一格示例，不是最優點。"
+    },
+    {
+      "heading": "② 讓P落在直線AB上，折線最短",
+      "text": "對L上任一P，PA＋PB≥AB。L恰好通過AB中點，故P（2，8），等號成立。水平距離8、鉛直距離6，最小值為√(8²＋6²)＝10。",
+      "alt": "藍色AB直線交紫L於中點P，程式驗兩段距離各5與總長10；不捏造必要附圖。"
+    },
+    {
+      "heading": "③ 再反射得到的6，根本不經過L",
+      "text": "若反射A成A′（6，5），A′B雖長6，卻落在x＝6並與L平行，不會與L相交。它沒有符合P必在L上的限制，不能當所求路徑。",
+      "alt": "錯誤反射A′與B同x6，橘線和紫x2平行，明確顯示原AI6不是可行解，非採用錯解。"
+    }
+  ],
+  "fourth": {
+    "answer": "P（2，8）；最小值10",
+    "points": [
+      "異側：直線AB本來就通過L。",
+      "P是中點，兩段各5，合計10。",
+      "先檢查最短線段是否符合P必在L的限制。"
+    ]
+  },
+  "rationale": "完整來源文字類似題2與題庫既有訂正讀取，原AI曾錯反射取6，既有資料已訂正10；本次沿既有答案，不宣稱另有使用者確認。獨立以異側、三角不等式與中點P2,8，回代AP²PB²25/AB²100，錯反射線x6平行L2驗證不可行。新精確SVG三格同尺度點位、分開y軸與L，第一格候選P2,5只是示例，未添題目條件。純文字完整練習無缺原圖；無適合既有AI解說圖。",
+  "generationMethod": "programmatic SVG for exact opposite-side minimum path",
+  "generatorFile": "docs/comics/q-173-generate.py",
+  "promptSummary": "三格：異側A/B、候選P；AB直線交L中點取最短；錯反射線x6不交x2示其不符合限制。所有數值答案HTML，軸點字母程式精確。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-aasmEiRUGhOz.txt 類似題2完整條件、原AI錯反射解答"
+  ],
+  "answerCheckedAgainst": "A/B異側，P2,8為AB與x2交點，AP=PB5，最小10；不採原AI平行L的錯反射6，沿題庫既有訂正。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T22:48:54.802777+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "d5a6098ef0b15972a0598f83b94de1f822becb5c411db1783b2fd8157b46d800",
+  "checkedAt": "2026-10-28T22:51:56.843642+00:00",
+  "validationFile": "docs/comics/q-173-validation.json",
+  "nativeArt": "assets/comics/q-173-art-d5a6098ef0.svg"
+}

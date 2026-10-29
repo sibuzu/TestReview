@@ -1,0 +1,70 @@
+{
+  "id": "q-011",
+  "subject": "Math",
+  "title": "等長又垂直，仍可能沒有互相平分",
+  "art": "docs/comics/art/q-011.svg",
+  "startedAt": "2026-10-28T21:01:29.939836+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 正方形具有性質，不代表反推成立",
+      "text": "正方形的兩條對角線確實等長、垂直，也互相平分。A說正方形具有這些性質，是正確敘述。",
+      "alt": "精確菱向正方形，藍橘兩對角線等長垂直且交點在各自中點。"
+    },
+    {
+      "heading": "② 反例：長度相同，交點卻偏了",
+      "text": "中圖上下藍線長3＋1＝4，左右橘線長2＋2＝4，兩線也垂直。但藍線被分成3與1，不是互相平分，所以不是正方形。",
+      "alt": "精確箏形，藍對角線上段90下段30，橘線左右各60，總長皆120且垂直，藍線交點不在中點。"
+    },
+    {
+      "heading": "③ 長方形的判定，要有互相平分",
+      "text": "四邊形的對角線互相平分，可判為平行四邊形；再加上兩條對角線等長，便可判為長方形。因此C、D正確。",
+      "alt": "精確非正方形長方形，兩對角線等長且互相平分，交角不必為直角。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 一個反例，就能推翻一定",
+    "answer": "答案 B：垂直、等長仍不足以保證正方形",
+    "points": [
+      "反例兩對角線都長4，也互相垂直。",
+      "一條卻分成3與1，沒有互相平分。",
+      "不要把正方形有的性質，直接倒轉成判定。"
+    ]
+  },
+  "protectedWords": [
+    "正方形",
+    "長方形",
+    "平行四邊形",
+    "互相平分",
+    "對角線",
+    "3＋1＝4",
+    "2＋2＝4",
+    "反例"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-011-source-4d9ec053d6.jpg"
+  ],
+  "rationale": "原卷題幹四選項與原作答B實看，依題庫反例A(0,3)/B(2,0)/C(0,-1)/D(-2,0)精確作SVG，藍線四單位且分3/1，橘線四單位分2/2。幾何精確比例原生SVG，數值與性質文字HTML，不用人物裝飾代替反例。",
+  "promptSummary": "原生無字SVG：正方形對角線、等長垂直但未互相平分的箏形、等長且互相平分的長方形。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "原卷B與題庫B；反例兩對角線長4垂直、交點非藍線中點，獨立核算。",
+  "artSHA256": "ee0b3b5ae55895bc077fd52c53b3f0775f3135ceab1c2394e70f0a9ccf9f4867",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T21:04:37.439741+00:00",
+  "completedAt": "2026-10-28T21:01:57.454203+00:00",
+  "layoutEvidence": "docs/comics/q-011-preview-validation.json",
+  "visualReview": "原卷完整四選項B實看，三寬SVG實際渲染檢查：正方形等長垂直且平分、箏形兩對角線皆120但藍分90/30、長方形等長互平分，比例正確。1440/1120/390無橫溢、公式不拆，桌機列高與手機自然高度通過。",
+  "nativeArt": "assets/comics/q-011-art-ee0b3b5ae5.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-011-validation.json"
+}

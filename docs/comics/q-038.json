@@ -1,0 +1,87 @@
+{
+  "id": "q-038",
+  "subject": "Physics-Chemistry",
+  "title": "水壓機先把半徑比平方，才得到力比",
+  "art": "docs/comics/art/q-038.svg",
+  "protectedWords": [
+    "半徑比",
+    "面積比",
+    "帕斯卡原理",
+    "壓力",
+    "施力",
+    "3：1",
+    "9：1",
+    "30kgw",
+    "270kgw",
+    "90kgw",
+    "3²：1²＝9：1",
+    "30×9＝270kgw",
+    "30×3＝90kgw"
+  ],
+  "panels": [
+    {
+      "heading": "① 半徑比3：1，面積比要平方",
+      "text": "藍色是小活塞圓面，橙色是大活塞圓面。圓面積與半徑平方成正比，所以大、小面積比是3²：1²＝9：1，不是3：1。",
+      "alt": "圓面半徑程式控制23比69，兩短線是半徑；面積恰為1比9，不以九個錯誤填塞的小圓冒充面積。"
+    },
+    {
+      "heading": "② 傳遞的是壓力，不是相同的力",
+      "text": "理想水壓機中，小活塞向下施力增加的壓力，可傳到大活塞。兩端比較的是力除以面積；面積較大，對應的力也可較大。箭頭只表示方向。",
+      "alt": "封閉連通液體，大小活塞底面同高，寬度比1比3；左向下輸入、右向上輸出，箭頭長度不代表施力倍數。"
+    },
+    {
+      "heading": "③ 大活塞支持力＝30×9",
+      "text": "面積放大9倍，大活塞的支持力就是30×9＝270kgw，選A。若算30×3＝90kgw，是把半徑比誤當面積比，才會誤選B。",
+      "alt": "同一水壓機大活塞承載物體，小活塞施力示意；物塊無數字，精確270kgw計算由HTML，不新增物塊尺寸或移動距離。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：270kgw",
+    "points": [
+      "給半徑比，先平方成面積比。",
+      "帕斯卡原理比較壓力。",
+      "30×9＝270，不是30×3。"
+    ]
+  },
+  "rationale": "原卷第5題完整條件四選項實看，來源解說已讀，獨立(3/1)^2＝9、30×9＝270，維持A。OpenStax官方帕斯卡段落核對壓力增量、同高活塞與F/A。無合適既有圖；用程式SVG精確圓半徑比例與連通液體活塞同高，箭頭僅方向不亂給力比，數字公式HTML。",
+  "generationMethod": "programmatic SVG for exact circle area ratios and hydraulic schematics",
+  "generatorFile": "docs/comics/q-038-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-038-source-40d7d06398.jpg",
+    "site/dist/sources/gemini-science.txt 液壓機半徑比段落"
+  ],
+  "sources": [
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-5-pascals-principle",
+      "note": "官方教材33/43-49段落：封閉流體傳壓、同高活塞F1/A1=F2/A2；此圖原創SVG並未複製教材圖文。"
+    }
+  ],
+  "answerCheckedAgainst": "大/小半徑3:1，面積9:1，270kgw支持力A；90只乘半徑比錯。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-28T23:43:50.408947+00:00",
+  "artSha256": "bc36e320e3ddc2c0e7ab77ca96d155f7ad8e2708c2d7f20c67347e4ff97ebfbb",
+  "checkedAt": "2026-10-28T23:59:14.970158+00:00",
+  "validationFile": "docs/comics/q-038-validation.json",
+  "nativeArt": "assets/comics/q-038-art-bc36e320e3.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:59:14.945230+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷半徑3:1及30kgw/四選項，面積9:1，支持270kgw；SVG半徑與同高連通活塞正確，不把壓力當等力，A不變。正式桌手機實看無溢出。"
+  }
+}

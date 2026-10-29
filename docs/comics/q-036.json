@@ -1,0 +1,92 @@
+{
+  "id": "q-036",
+  "subject": "Physics-Chemistry",
+  "title": "先求每個砝碼的增量，再扣回秤盤",
+  "art": "docs/comics/art/q-036.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:40:21.046287+00:00",
+  "panels": [
+    {
+      "heading": "① 每增加10gw，多伸長0.3cm",
+      "text": "2個變4個砝碼，伸長量由1.8變2.4cm。多2個共多0.6cm，所以每個10gw砝碼多造成0.3cm伸長。",
+      "alt": "原表2個/1.8cm與4個/2.4cm兩筆資料作差，正確算出每個增加0.3cm。"
+    },
+    {
+      "heading": "② 5個是2.7cm，0個仍有1.2cm",
+      "text": "5個比4個多1個：2.4＋0.3＝2.7cm。0個比2個少2個：1.8－0.6＝1.2cm。圖上金色點是依線性關係推算的0個與5個。",
+      "alt": "以相同座標比例畫砝碼個數與伸長量直線，原表2/4/6/8/10個藍點，推算0/5個金點；y截距1.2而非0。"
+    },
+    {
+      "heading": "③ 1.2cm換算出秤盤重40gw",
+      "text": "只掛秤盤仍伸長1.2cm，是0.3cm的4倍；每份0.3cm對應10gw，秤盤就重40gw。這裡是伸長量，不是彈簧全長。",
+      "alt": "1.2除0.3等於4、4乘10等於40gw，零個砝碼仍掛著秤盤，不把1.2cm當原長。"
+    }
+  ],
+  "fourth": {
+    "answer": "第4題2.7cm；第5題1.2cm；第6題40gw",
+    "points": [
+      "先用兩筆資料的差，找每個砝碼造成的增量。",
+      "0個砝碼不等於0負重，秤盤也有重量。",
+      "按題目表格的線性關係計算，不把伸長量改當全長。"
+    ]
+  },
+  "protectedWords": [
+    "10gw",
+    "0.3cm",
+    "0.6cm",
+    "1.2cm",
+    "1.8cm",
+    "2.4cm",
+    "2.7cm",
+    "40gw",
+    "伸長量",
+    "線性關係"
+  ],
+  "rationale": "實看原卷填充4至6題/表頭伸長量/全部5筆實驗資料。原生SVG精確畫x=個數、y=伸長量與五原始點，0與5為金色推算點；未把截距當原長，三答案不改。",
+  "promptSummary": "原生增量資料對照、正確截距的線性圖、秤盤重換算。",
+  "answerCheckedAgainst": "原表(2,1.8)(4,2.4)(6,3)(8,3.6)(10,4.2)，每個10gw；y=1.2+0.3n，5個2.7/0個1.2/盤40gw。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+      "finding": "線性彈性範圍伸長量與施力成正比；本題使用表中線性資料與秤盤常數負重。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-036-source-7e8ec3ab49.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "2.7cm；1.2cm；40gw",
+    "notes": "原卷表頭確為伸長量，各數值/每砝碼10gw及三問核對；不改為12/17cm。"
+  },
+  "artSHA256": "888687a115b5429f7e7c4fd129410da406ed46453a9ada1356c5f20e750d82ff",
+  "completedAt": "2026-10-28T23:41:46.523616+00:00",
+  "checkedAt": "2026-10-28T23:43:57.628957+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-036-preview-validation.json",
+  "visualReview": "實看原生SVG540×180、1440與390成品：圖上五原始藍點、0/5兩金色推算點、y截距1.2及5個2.7正確；橫軸個數不冒充總負重，40gw算式正確。三寬無溢出且同列等高/手機自然高。",
+  "nativeArt": "assets/comics/q-036-art-888687a115.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:43:57.601730+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷伸長量表五數據與三問。獨立算y=1.2+0.3n，n5為2.7cm、n0為1.2cm、盤40gw；最終SVG五藍點/兩金推算點及非零截距正確，未混全長或原長，桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-036-validation.json"
+}

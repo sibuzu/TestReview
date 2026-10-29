@@ -1,0 +1,90 @@
+{
+  "id": "q-037",
+  "subject": "Physics-Chemistry",
+  "title": "磅秤和彈簧秤一起分擔重量",
+  "art": "docs/comics/art/q-037.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:41:46.590054+00:00",
+  "panels": [
+    {
+      "heading": "① 同一物體有兩種支撐",
+      "text": "物體一邊放在磅秤上，一邊被彈簧秤向上拉住。磅秤讀500gw，彈簧秤讀300gw；兩種力都在支撐這個物體。",
+      "alt": "物體放在下方磅秤並懸於上方彈簧，500gw標下秤，300gw標彈簧；兩器材未串錯。"
+    },
+    {
+      "heading": "② 受力圖只畫物體受到的力",
+      "text": "磅秤給物體向上500gw支持力，彈簧給物體向上300gw拉力。重量向下，靜止時應由這兩個向上的力共同平衡。",
+      "alt": "抽出物體三力：支持力500與拉力300向上，重量800向下；同一換算比例箭長37.5/22.5/60，方向與總和正確。"
+    },
+    {
+      "heading": "③ 求總重量，要把兩個支撐相加",
+      "text": "向下重量＝500＋300＝800gw，選A。只拿300會漏掉磅秤；只拿500會漏掉彈簧。兩個已知支撐都向上，不能相減。",
+      "alt": "物體靜止的力平衡等式與500加300等於800gw，不把兩秤讀數相減。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：800公克重",
+    "points": [
+      "看清楚未知量是總重量。",
+      "磅秤支持力＋彈簧拉力＝重量。",
+      "若總重量已知而缺一種支撐，才用總重量減去已知支撐。"
+    ]
+  },
+  "protectedWords": [
+    "500gw",
+    "300gw",
+    "800gw",
+    "800公克重",
+    "磅秤",
+    "彈簧秤",
+    "支持力"
+  ],
+  "rationale": "實看原卷2題與附圖及全部四選項。原生圖按真實器材上下配置、分開物體受力與平衡式，兩向上力相加不把秤與物體作用反作用混畫；箭長500:300:800正確。",
+  "promptSummary": "原生SVG彈簧＋磅秤共同支撐、物體三力、靜止力平衡算式。",
+  "answerCheckedAgainst": "原卷磅秤500公克重、彈簧秤300公克重、物體靜止；向上總力800平衡重量，A。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+      "finding": "靜力平衡合力為零，鉛直向上支持力與拉力之和等於向下重量。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-037-source-5c53d675a1.jpg",
+      "site/dist/assets/questions/q-037-figure-071fcc3486.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "完整題幹與四選項/器材附圖均實看，公克重是力單位，不當成未知質量。"
+  },
+  "artSHA256": "fc9a9bc4deb9debf0085268517e240a980505801bdd22d410e98e142e5a4b18b",
+  "completedAt": "2026-10-28T23:42:40.345115+00:00",
+  "checkedAt": "2026-10-28T23:44:53.825050+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-037-preview-validation.json",
+  "visualReview": "實看原生540×180與1440/390預覽：500gw在磅秤、300gw在彈簧秤，物體三力圖兩上一直下，箭長37.5/22.5/60對應500/300/800。800gw算式正確，三寬無溢出/版型問題。",
+  "nativeArt": "assets/comics/q-037-art-fc9a9bc4de.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:44:53.800849+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷2題磅秤500gw、彈簧秤300gw、物體靜止與四選項，兩向上力共同支撐。SVG器材順序與三力方向正確，500:300:800箭長一致，總重量800gw A不變；桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-037-validation.json"
+}

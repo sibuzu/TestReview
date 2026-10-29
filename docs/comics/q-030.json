@@ -1,0 +1,94 @@
+{
+  "id": "q-030",
+  "subject": "Physics-Chemistry",
+  "title": "元素種類少，也能連出許多不同的碳骨架",
+  "art": "docs/comics/art/q-030.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:59:18.374915+00:00",
+  "panels": [
+    {
+      "heading": "① 碳不只可以連接其他元素",
+      "text": "碳可與氫、氧等元素結合，例如甲烷由碳與氫組成。不過，僅說能與其他元素結合，還沒有說明種類眾多的主要原因。",
+      "alt": "甲烷CH4精確連結示意，一個C連四個H且每H一鍵；平面連結圖非分子四鍵共平面的立體主張。"
+    },
+    {
+      "heading": "② 碳與碳互連，形成直鏈或支鏈",
+      "text": "碳原子之間也能相連。即使用相同數目的碳原子，直鏈與支鏈的接法仍可不同；多種碳骨架帶來多種化合物結構。",
+      "alt": "碳骨架示意：上方4個C連成一鏈；下方4個C中一中心連三支，皆省略H，不把中心四碳誤畫成五鍵。"
+    },
+    {
+      "heading": "③ 還可以連成環，增加結構形式",
+      "text": "除了鏈狀，碳也能連成環狀。化合物多，重點是原子連結方式多，不表示所含元素的種類比較多，也不是所有有機物活性都更大。",
+      "alt": "六個C及六條單鍵閉合成一環的碳骨架，氫省略；非精確環己烷立體構形，也不是將單鍵環誤稱苯。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：碳既能連其他元素，也能彼此連結",
+    "points": [
+      "核心特性：碳與碳可相連成鏈、支鏈或環。",
+      "元素種類與化合物結構種類要分清楚。",
+      "不能用「活性都比較大」取代碳骨架多樣性的原因。"
+    ]
+  },
+  "protectedWords": [
+    "碳原子",
+    "碳骨架",
+    "甲烷",
+    "直鏈",
+    "支鏈",
+    "環狀",
+    "有機物",
+    "化合物結構"
+  ],
+  "rationale": "原卷10題完整四選項實看，維持C。新原生SVG精確甲烷4個H鍵、同碳數直/支鏈、六碳環連結；科學構造由程式控制而非imagegen。碳骨架省H明示，無五價碳或把平面連結示意當實際立體構形，不把單鍵環說成苯。",
+  "promptSummary": "原生SVG甲烷C-H、四碳直鏈對支鏈、六碳單鍵環，其他精確文字用HTML。",
+  "answerCheckedAgainst": "原卷第10題完整四選項；既有C；OpenStax碳成鏈成環與臺大科學Online鏈/支/環烷烴。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/1-why-this-chapter",
+      "finding": "碳原子能彼此鍵結形成長鏈與環。"
+    },
+    {
+      "url": "https://case.ntu.edu.tw/highscope/%E7%83%B7%E7%83%B4alkanes/index.html",
+      "finding": "碳氫化合物可具直鏈、支鏈及環狀碳骨架，單鍵環不是苯的交替/芳香鍵表示。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-030-source-1f4371e1a2.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "原卷C兩部分其他元素/碳碳互連清楚，D活性大不能解釋主要原因。新圖為結構連結示意，未改選項或照原錯選D。"
+  },
+  "artSHA256": "c36b01cc0b313083d33104408556d4a5b0ad1d7fba6e2219242b973faba8e045",
+  "completedAt": "2026-10-28T23:01:28.242243+00:00",
+  "checkedAt": "2026-10-28T23:02:56.650882+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-030-preview-validation.json",
+  "visualReview": "實看540×180與1440/390預覽：甲烷1C4H各一鍵；直鏈4C3鍵、支鏈中心連3C、六碳單鍵環閉合，氫省略標示清楚，未出現五鍵碳/錯把環當苯。圖為連結示意非立體模型。三寬無溢出、桌機同列等高與手機自然高，元素種類/結構種類對比清楚。",
+  "nativeArt": "assets/comics/q-030-art-c36b01cc0b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:02:56.621561+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷第10題四選項，答案C不變；SVG甲烷四個C-H、四碳直/支鏈與六碳單鍵環接法正確；明示省H與平面連結示意非立體構形。桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-030-validation.json"
+}

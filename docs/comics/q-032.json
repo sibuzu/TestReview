@@ -1,0 +1,78 @@
+{
+  "id": "q-032",
+  "subject": "Physics-Chemistry",
+  "title": "靜止時，摩擦力補足左右拉力差",
+  "art": "docs/comics/art/q-032.svg",
+  "protectedWords": [
+    "靜摩擦力",
+    "摩擦力",
+    "張力",
+    "合力",
+    "2kgw",
+    "5kgw",
+    "3kgw",
+    "最大靜摩擦力",
+    "正向力"
+  ],
+  "panels": [
+    {
+      "heading": "① 先看左右兩邊的張力",
+      "text": "左側懸掛2公斤，右側懸掛5公斤；砝碼也靜止，因此分別提供向左2kgw、向右5kgw的張力。桌上木塊的質量是3公斤。",
+      "alt": "依原圖重畫木塊、桌面、兩側滑輪及懸掛砝碼；質量與左右位置用旁側HTML說明，非學生手寫答案。"
+    },
+    {
+      "heading": "② 先不算摩擦力，看拉力差",
+      "text": "本格藍箭頭向左，代表2kgw；橙箭頭向右，代表5kgw。兩張力合起來向右3kgw，表示若無摩擦力，木塊有向右運動的趨勢。",
+      "alt": "僅畫水平張力：藍箭頭長44、橙箭頭長110，按2比5等比例，箭頭表示力而非速度或位移。"
+    },
+    {
+      "heading": "③ 靜止，水平方向合力必須為零",
+      "text": "橙色向右5kgw，要由藍色向左2kgw與綠色向左3kgw一起平衡。因此實際靜摩擦力向左3kgw。這裡只列水平受力，不是說木塊沒有重力。",
+      "alt": "三條水平力箭頭按5比2比3畫，綠色摩擦力沿接觸面向左；不畫移動軌跡，不將摩擦力當成木塊重量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：向左、3kgw",
+    "points": [
+      "先算兩側張力的差：5−2＝3。",
+      "已知靜止，摩擦力抵消向右的拉力差。",
+      "3公斤木塊的重量，不直接等於實際摩擦力。"
+    ]
+  },
+  "rationale": "已實看本題原卷完整題幹四選項與所需滑輪附圖，左2公斤右5公斤，木塊3公斤；獨立平衡5−2−3＝0，維持C。無合適既有AI解說圖。方向、比例與接觸面是本題教學重點，用程式SVG控制精確箭頭與裝置；不讓imagegen決定左右/數量。三格分裝置、兩張力合力、摩擦力補平衡，數字HTML。未給摩擦係數且已知靜止，不另推最大摩擦力或主張摩擦力永遠反向於全部淨外力。",
+  "generationMethod": "programmatic SVG for precise static horizontal force diagrams",
+  "generatorFile": "docs/comics/q-032-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-032-source-45808ef814.jpg",
+    "site/dist/assets/questions/q-032-figure-48a1466c10.jpg",
+    "site/dist/sources/gemini-science.txt lines519-568"
+  ],
+  "answerCheckedAgainst": "左張力2kgw、右張力5kgw；靜止時2＋3＝5，摩擦力向左3kgw。",
+  "visualChecked": true,
+  "createdAtUTC": "2026-10-28T23:01:54.833991+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "73723574d5d3fd9fc51e44ea73559601f6a406c958e0c9f79d4a01ecc20a492a",
+  "checkedAt": "2026-10-28T23:05:14.094847+00:00",
+  "validationFile": "docs/comics/q-032-validation.json",
+  "nativeArt": "assets/comics/q-032-art-73723574d5.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:05:14.029433+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷左2kg右5kg及桌上3kg；SVG力箭頭2:5:3方向與靜止平衡5−2−3=0正確，C不變，未混同最大摩擦力。"
+  }
+}

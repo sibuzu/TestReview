@@ -1,0 +1,71 @@
+{
+  "id": "q-113",
+  "subject": "Physics-Chemistry",
+  "title": "三種改變，都會影響平衡",
+  "art": "docs/comics/art/q-113.png",
+  "startedAt": "2026-10-28T19:10:35.283953+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 甲：加熱改變平衡狀態",
+      "text": "題目是N₂O₄ ⇌ 2NO₂的氣體平衡。溫度改變會影響這個平衡，所以甲要選。此處先判斷是否影響，不必把三項當成同方向。",
+      "alt": "教師在密閉氣體容器外以水浴改變溫度的概念圖，無明火及開放氣體。"
+    },
+    {
+      "heading": "② 乙：縮小體積而加壓",
+      "text": "左側1份N₂O₄對應右側2份NO₂。兩側氣體莫耳數不同，縮小體積加壓時，平衡傾向分子數較少的左側。",
+      "alt": "封閉透明壓力裝置以活塞縮小氣體空間的概念情境，不表示粒子數量或顏色變化。"
+    },
+    {
+      "heading": "③ 丙：增加右側的NO₂",
+      "text": "NO₂是右側物質。增加它的量，系統會朝消耗NO₂的方向調整，也就是向左移動；生成物的改變同樣會影響平衡。",
+      "alt": "教師示範密閉容器與封閉側管連接的添加成分概念，不以畫面猜補實驗數據或提供操作步驟。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 溫度、壓力、組成都要查",
+    "answer": "答案 D：甲、乙、丙",
+    "points": [
+      "甲加熱會影響此平衡。",
+      "乙加壓、丙增加NO₂也會影響。",
+      "問的是是否影響，不是是否都向同側移動。"
+    ]
+  },
+  "protectedWords": [
+    "N₂O₄",
+    "NO₂",
+    "2NO₂",
+    "莫耳數",
+    "加熱",
+    "加壓",
+    "縮小體積",
+    "生成物",
+    "向左",
+    "平衡"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-113-source-bf6e7c53a8.jpg",
+    "site/dist/assets/questions/q-113-pdf-source-c407295e69.jpg"
+  ],
+  "rationale": "實看兩份原卷，教用答案D與完整詳解一致，無既有AI解說圖。新製加熱/壓縮/封閉添加三種變因情境，精確反應式與分子數用可校對HTML，不用生成圖畫精確粒子數或推斷NO2顏色深淺。",
+  "answerCheckedAgainst": "原卷3題教用D；既有題目答案D及完整三變因解說。",
+  "visualChecked": true,
+  "artSHA256": "94c3c20a32da1e59591acff302bdd0d7c2a338dcac363a16d5a6d703c929a88a",
+  "checkedAt": "2026-10-28T19:15:09.086112+00:00",
+  "completedAt": "2026-10-28T19:14:04.588712+00:00",
+  "layoutEvidence": "docs/comics/q-113-preview-validation.json",
+  "visualReview": "原卷教用D實看，三格新插畫為封閉水浴加熱、活塞壓縮、閉管添加概念，未生成精確粒子數與化學標字。1440/1120/390實看通過，化學式/保護詞完整，同列等高、手機單欄自然高度，無裁字或頁面橫溢。",
+  "nativeArt": "assets/comics/q-113-art-94c3c20a32-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-113-validation.json"
+}

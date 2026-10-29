@@ -1,0 +1,32 @@
+{
+  "id": "q-033",
+  "checkedAt": "2026-10-28T23:03:48.270823+00:00",
+  "answer": "C",
+  "allOptionsChecked": true,
+  "necessaryFiguresChecked": true,
+  "originalImages": [
+    "site/dist/assets/questions/q-033-source-5b02f1e82f.jpg"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "finding": "最大靜摩擦依正向力與接觸材質，不依表觀接觸面積；實際靜摩擦是隨外力反應到上限。"
+    }
+  ],
+  "reason": "原卷6題及原圖兩種擺法、四選項實看，維持C。新精確SVG上甲下乙/左甲右乙皆2塊，接觸寬度2倍而總塊數不變，F均水平，啟動F>20與最大值區分。沿題設乾摩擦模型，不把面積無關擴為所有材料/變形情境，也不畫未施力就有最大摩擦。",
+  "diagramCheck": {
+    "blocksPerArrangement": 2,
+    "stackTop": "甲",
+    "stackBottom": "乙",
+    "parallelLeft": "甲",
+    "parallelRight": "乙",
+    "contactWidths": [
+      44,
+      88
+    ],
+    "pullDirection": "horizontal right",
+    "maxStaticBothGw": 20,
+    "startCondition": "F>20gw",
+    "notConstantActualStatic": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "q-034",
+  "subject": "Physics-Chemistry",
+  "title": "水平推住，鉛直靠摩擦力平衡",
+  "art": "docs/comics/art/q-034.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:38:45.885796+00:00",
+  "panels": [
+    {
+      "heading": "① 10kgw推力是水平的",
+      "text": "木塊重3kgw，被水平推力壓在垂直牆面上，而且已經靜止。推力不是向上的托力，不能拿10直接減去重量3。",
+      "alt": "木塊貼右側垂直牆，10kgw推力向右、3kgw重量向下；此格僅標已知力，不是完整受力圖。"
+    },
+    {
+      "heading": "② 水平：牆的正向力平衡推力",
+      "text": "牆對木塊的正向力朝左，與朝右的10kgw推力互相平衡。這組水平力只處理水平方向，不是題目要找的摩擦力。",
+      "alt": "只抽出水平分量，木塊以質點表示，10kgw推力右箭頭與10kgw正向力左箭頭等長相反。"
+    },
+    {
+      "heading": "③ 鉛直：摩擦力向上3kgw",
+      "text": "木塊有往下滑的趨勢，牆給木塊的靜摩擦力向上。因為靜止，向上摩擦力必須平衡向下3kgw重量，所以選A。",
+      "alt": "只抽出鉛直分量，向上3kgw摩擦力和向下3kgw重量箭頭等長；不把摩擦力畫向下。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：3kgw，方向向上",
+    "points": [
+      "靜止 → 水平與鉛直分別平衡。",
+      "實際靜摩擦力由本題鉛直平衡求得，不等於水平推力。",
+      "已知靜止就能作答，不必另求摩擦係數或最大靜摩擦力。"
+    ]
+  },
+  "protectedWords": [
+    "10kgw",
+    "3kgw",
+    "正向力",
+    "靜摩擦力",
+    "摩擦係數",
+    "鉛直方向",
+    "水平方向"
+  ],
+  "rationale": "實看原卷6題及必要受力配置SVG，維持A；原生圖將水平/鉛直分開畫，以方向避免10−3與10+3，等長箭頭只表示同格等大兩力，非跨格比例。第一格只標已知並在alt說明非完整受力圖，後兩格各分量。",
+  "promptSummary": "原生SVG貼牆受力配置，水平一對等大反向力、鉛直一對等大反向力；不新增係數或假設極限摩擦。",
+  "answerCheckedAgainst": "原卷水平10kgw、重量3kgw、靜止及四選項；平衡得鉛直摩擦3kgw向上；OpenStax靜摩擦自調整與平衡條件。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "finding": "靜摩擦可隨平衡所需改變，不必一直等於最大靜摩擦。"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+      "finding": "靜力平衡各方向合力為零。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-034-source-2c19200020.jpg",
+      "site/dist/assets/questions/q-034-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "完整原題/四選項與貼牆圖，推力水平向右，重量3kgw而非3kg質量；原題以kgw作力單位。"
+  },
+  "artSHA256": "a52a6f3fb3fbbca6bc0f0bc95936ba907ebfd6bf8c2d00a88a25b66b4abf596e",
+  "completedAt": "2026-10-28T23:40:20.993308+00:00",
+  "checkedAt": "2026-10-28T23:43:40.164757+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-034-preview-validation.json",
+  "visualReview": "實看原卷必要SVG、原生540×180與1440/390成品：木塊貼右牆，推力朝右，重量朝下；水平推/正向力等大相反，鉛直摩擦/重量等大相反，無把3kgw當質量或把10與3相加減。三寬無溢出及排版問題，向上3kgw箭頭與數值正確。",
+  "nativeArt": "assets/comics/q-034-art-a52a6f3fb3.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:43:40.136887+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷水平推10kgw/木塊重3kgw/靜止與四選項。SVG右牆向右推、水平正向力向左，鉛直摩擦向上與重力向下等大；各格分量示意非混加10±3，維持A。桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-034-validation.json"
+}

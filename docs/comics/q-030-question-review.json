@@ -1,0 +1,48 @@
+{
+  "id": "q-030",
+  "checkedAt": "2026-10-28T23:00:55.845499+00:00",
+  "answer": "C",
+  "allOptionsChecked": true,
+  "originalImages": [
+    "site/dist/assets/questions/q-030-source-1f4371e1a2.jpg"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/1-why-this-chapter",
+      "finding": "碳原子能彼此鍵結形成長鏈與環。"
+    },
+    {
+      "url": "https://case.ntu.edu.tw/highscope/%E7%83%B7%E7%83%B4alkanes/index.html",
+      "finding": "碳氫化合物可具直鏈、支鏈及環狀碳骨架，單鍵環不是苯的交替/芳香鍵表示。"
+    }
+  ],
+  "reason": "原卷10題完整四選項實看，維持C。新原生SVG精確甲烷4個H鍵、同碳數直/支鏈、六碳環連結；科學構造由程式控制而非imagegen。碳骨架省H明示，無五價碳或把平面連結示意當實際立體構形，不把單鍵環說成苯。",
+  "graphCheck": {
+    "methaneAtoms": {
+      "C": 1,
+      "H": 4
+    },
+    "methaneEdges": 4,
+    "linearCarbonVertices": 4,
+    "linearCarbonEdges": 3,
+    "branchCarbonVertices": 4,
+    "branchDegrees": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "ringCarbonVertices": 6,
+    "ringCarbonEdges": 6,
+    "ringDegrees": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "hydrogensOmittedInCarbonSkeletons": true,
+    "notStereochemicalGeometry": true
+  }
+}

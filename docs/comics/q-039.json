@@ -1,0 +1,88 @@
+{
+  "id": "q-039",
+  "subject": "Physics-Chemistry",
+  "title": "先算液面上方氣壓，再加深度壓力",
+  "art": "docs/comics/art/q-039.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:45:19.997407+00:00",
+  "panels": [
+    {
+      "heading": "① 1atm＝76cm-Hg，先比液面",
+      "text": "以槽外液面為基準：A高76cm、B高38cm、C低38cm。因此管頂氣壓分別是0、38、114cm-Hg，排序C＞B＞A。",
+      "alt": "只比較水銀液面標記：A相對槽外+76、B+38、C−38，虛線為槽外；這不是玻璃管總長或封閉端高度的重繪比例。"
+    },
+    {
+      "heading": "② P點：頂端0，再加10cm",
+      "text": "P在A管液面下10cm；液面上方氣壓相當於0cm-Hg。P壓力相當於10cm水銀柱，所以10×13.6＝136gw/cm²。",
+      "alt": "A管局部放大：頂端0cmHg與P低於水銀面10cm，橘深度括線可見，不把局部管長當原題全長。"
+    },
+    {
+      "heading": "③ Q點：38＋10＝48cm-Hg",
+      "text": "Q在B管液面下10cm，但上方氣體已經有38cm-Hg壓力。合計48cm-Hg，再算48×13.6＝652.8gw/cm²，不能漏掉頂端氣壓。",
+      "alt": "B管同樣局部深10cm，但頂端38cmHg，Q與P不同是氣壓背景而非深度，氣液圖層與深度括線不互相遮擋。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先算液面上方氣壓，再加深度壓力",
+    "answer": "C＞B＞A；P＝136，Q＝652.8gw/cm²",
+    "points": [
+      "內液面高：頂端氣壓小；低則氣壓大。",
+      "P、Q都深10cm，但頂端氣壓不同。",
+      "本題1cm-Hg對應13.6gw/cm²。"
+    ]
+  },
+  "protectedWords": [
+    "槽外液面",
+    "液面上方",
+    "管頂氣壓",
+    "頂端氣壓",
+    "水銀柱",
+    "10cm",
+    "48cm-Hg",
+    "136gw/cm²",
+    "652.8gw/cm²",
+    "13.6gw/cm²",
+    "C＞B＞A",
+    "76cm-Hg",
+    "0cm-Hg",
+    "38cm-Hg",
+    "114cm-Hg",
+    "1cm-Hg"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-039-source-58d94f185f.jpg",
+    "site/dist/assets/questions/q-039-figure-697d50a97f.jpg"
+  ],
+  "originalVisualCheck": "實看原卷第8-10題共同圖與A高76/B高38/C低38、P/Q各低於各自內液面10cm，與資料表相符；原圖單位密度13.6g/cm3和atm。",
+  "answerCheckedAgainst": "1atm=76cmHg，A氣0/B38/C114→C>B>A；P10*13.6=136gw/cm2，Q(38+10)*13.6=652.8gw/cm2，與既有核對一致。",
+  "rationale": "原生精確液面高度標記＋P/Q局部深度，不重造無依據全長玻璃管比例。第三格刻意與第二格同10cm深，僅改上方0/38氣壓，強調相同深度不同總壓力。圖層先填液體再畫點/括線，全部可見。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "e389a4676db8a3e7bd2ac4c4fd6f8019428cdaa4c07c8260f10159299807bd6f",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T23:59:15.006458+00:00",
+  "completedAt": "2026-10-28T23:46:34.279699+00:00",
+  "layoutEvidence": "docs/comics/q-039-preview-validation.json",
+  "visualReview": "實看1440/1120/390：A+76/B+38/C−38標記相對槽外正確，P/Q均在各液面下10cm而頂部0/38，點與括線先後圖層無遮擋。壓力換算與C>B>A完整，cm-Hg整組保護後無拆/橫溢，同列等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-039-art-e389a4676d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:59:14.945657+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷與水銀圖，液面+76/+38/−38及P/Q各深10cm。獨立算A0/B38/C114 cmHg，P136及Q652.8gw/cm²；SVG局部放大不假設全管比例，氣液點與深度括線可見。正式桌手機實看無溢出。"
+  },
+  "validationFile": "docs/comics/q-039-validation.json"
+}

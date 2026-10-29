@@ -1,0 +1,101 @@
+{
+  "id": "q-029",
+  "subject": "Physics-Chemistry",
+  "title": "導電＋放出二氧化碳，兩線索一起比",
+  "art": "docs/comics/art/q-029.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T22:59:07.725205+00:00",
+  "panels": [
+    {
+      "heading": "① 水溶液導電：有可移動離子",
+      "text": "粉末溶於水後能導電，表示溶液中有可移動的離子。葡萄糖水溶液不易導電，因此不能只憑白色外觀選A。",
+      "alt": "低電壓電池與發亮燈泡串聯兩支不接觸的浸液電極，藍正離子/橘負離子只是示意，不把固體粉末直接當可導電。"
+    },
+    {
+      "heading": "② 加熱後，石灰水變混濁",
+      "text": "產生的氣體讓澄清石灰水變混濁，是二氧化碳的線索。B、C雖可形成導電溶液，卻不符合這次加熱的產氣條件。",
+      "alt": "加熱白色粉末的試管以導管將氣體送入石灰水，顯示白色混濁；只是反應線索示意，不是完整操作步驟圖。"
+    },
+    {
+      "heading": "③ 試紙藍變粉紅：也驗出水",
+      "text": "試管冷卻後，透明液體使藍色氯化亞鈷試紙變粉紅色。這與碳酸氫鈉加熱分解也產生水相符，補強判斷。",
+      "alt": "左側藍試紙對照右側液滴作用後粉紅試紙，保留冷卻後才取液的HTML條件，不在加熱時直接操作取液。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 導電＋放出二氧化碳，兩線索一起比",
+    "answer": "答案 D：碳酸氫鈉",
+    "points": [
+      "先用導電排除葡萄糖。",
+      "再用加熱產CO₂確認四選項中符合者。",
+      "加熱分解：2NaHCO₃ → Na₂CO₃＋CO₂＋H₂O。"
+    ]
+  },
+  "protectedWords": [
+    "水溶液",
+    "可移動離子",
+    "葡萄糖",
+    "澄清石灰水",
+    "二氧化碳",
+    "導電溶液",
+    "氯化亞鈷",
+    "試紙",
+    "粉紅色",
+    "碳酸氫鈉",
+    "加熱分解",
+    "2NaHCO₃",
+    "Na₂CO₃",
+    "CO₂",
+    "H₂O"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-029-experiment-a552bc8290.jpg",
+    "site/dist/assets/questions/q-029-source-3a6c11337f.jpg"
+  ],
+  "originalVisualCheck": "實看實驗題組三步驟、原架設圖及15題四選項，確認水溶液可導電/加熱石灰水混濁/冷卻後透明液使氯化亞鈷藍變粉紅。",
+  "answerCheckedAgainst": "碳酸氫鈉溶液電解質且加熱分解CO2/H2O；葡萄糖不符導電，NaOH/CaCl2不符本實驗放CO2，D與既有核對更正一致，不重開舊AI錯選A。",
+  "references": [
+    {
+      "title": "翰林國中自然四：常見化學反應",
+      "url": "https://public.ehanlin.com.tw/handout/112%E4%B8%8B%E8%AC%9B%E7%BE%A9%E8%A9%A6%E9%96%B1/%E5%9C%8B%E4%B8%AD%E8%87%AA%E7%84%B64_%E8%AC%9B%E7%BE%A9%E8%A9%A6%E9%96%B1%E6%AA%94.pdf"
+    }
+  ],
+  "rationale": "精確原生SVG將三步驟現象配對導電/CO2/水線索，電路兩電極分離、氣體導入石灰水、試紙顏色前後分明；不讓生成模型猜化學裝置/反應式，保留冷卻後取液。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "03fd600c67ebbc286565dddcd0339edec83720739fa7bc57cb40bbd1eb1e43e8",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T23:01:42.761999+00:00",
+  "completedAt": "2026-10-28T22:59:41.075144+00:00",
+  "layoutEvidence": "docs/comics/q-029-preview-validation.json",
+  "visualReview": "實看1440/1120/390：電極分離浸溶液、離子正負示意、氣管末端入石灰水、藍/粉紅試紙與滴液對照正確；第三格保留冷卻後取液，反應式配平正確，三寬無橫溢/保護詞斷裂、同行等高與單欄自然高度。",
+  "nativeArt": "assets/comics/q-029-art-03fd600c67.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:01:42.734052+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原實驗題組及15題四選項；兩電極分離、氣體通入石灰水及藍轉粉紅試紙正確，冷卻後再取液明確，反應配平2:1:1:1且答案維持D，桌手機無溢出。",
+    "layerCorrection": {
+      "checkedAt": "2026-10-28T23:02:44.609768+00:00",
+      "issue": "導管先畫、燒杯填色後畫，入水段被蓋住",
+      "change": "導管路徑移到燒杯填色之後；保留V123深於液面114",
+      "requiresVisualRecheck": false,
+      "desktopMobileActuallyViewed": true,
+      "note": "實看重生正式桌手機圖，導管延伸至液面下可見，程式QA六項通過。"
+    }
+  },
+  "validationFile": "docs/comics/q-029-validation.json"
+}

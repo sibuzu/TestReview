@@ -1,0 +1,102 @@
+{
+  "id": "q-031",
+  "subject": "Physics-Chemistry",
+  "title": "先認出步驟三的水，再比對反應產物",
+  "art": "docs/comics/art/q-031.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:01:27.209040+00:00",
+  "panels": [
+    {
+      "heading": "① 步驟三驗的是水",
+      "text": "藍色氯化亞鈷試紙變粉紅色，檢測出水。題目指定步驟三；不要誤用步驟二的石灰水，把目標換成二氧化碳。",
+      "alt": "重用同題組q029試紙示意做本題第一格：藍紙與液滴作用後粉紅紙，目標是水而非石灰水檢測的CO2。"
+    },
+    {
+      "heading": "② 乙酸與乙醇，酯化會產生水",
+      "text": "乙酸與乙醇進行酯化反應，產物包括乙酸乙酯和水。因此A符合「也有同樣產物」；不是要找到完全相同的反應。",
+      "alt": "兩瓶無色試劑以原生文字標乙酸/乙醇，HTML說明在酯化反應中產生酯和水，不是任意常溫混合立即完全反應。"
+    },
+    {
+      "heading": "③ 氫氣不是水，產物要分清",
+      "text": "C的鋅與鹽酸生成氫氣H₂，不是水H₂O。B的鎂與二氧化碳、D的氮氣與氧氣也不符；兩組反應物都沒有氫元素。",
+      "alt": "精確球棒對比一O二H水分子與二H氫分子，只表示原子種類與連結，不是實際原子大小或分子間距比例。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先認出步驟三的水，再比對反應產物",
+    "answer": "答案 A：乙酸＋乙醇",
+    "points": [
+      "目標是水，來自氯化亞鈷試紙檢驗。",
+      "乙酸＋乙醇 ⇌ 乙酸乙酯＋水。",
+      "只要有相同產物，不必是同一種反應。"
+    ]
+  },
+  "protectedWords": [
+    "步驟三",
+    "步驟二",
+    "氯化亞鈷",
+    "粉紅色",
+    "石灰水",
+    "二氧化碳",
+    "乙酸",
+    "乙醇",
+    "酯化反應",
+    "乙酸乙酯",
+    "氫氣",
+    "氫元素",
+    "H₂O",
+    "H₂"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-031-experiment-a552bc8290.jpg",
+    "site/dist/assets/questions/q-031-source-7e3f6a2f4c.jpg"
+  ],
+  "originalVisualCheck": "同題組三步驟原文與圖已實看，另實看第16題A乙酸+乙醇/B鎂+CO2/C鋅+鹽酸/D氮+氧及手寫D，目標明確是步驟三水。",
+  "answerCheckedAgainst": "藍氯化亞鈷遇水粉紅；乙酸+乙醇酯化生成乙酸乙酯與水，A。Zn/HCl生成氫不等於水；B/D反應物無氫亦可排除。",
+  "references": [
+    {
+      "title": "Royal Society of Chemistry: Making esters from alcohols and acids",
+      "url": "https://edu.rsc.org/experiments/making-esters-from-alcohols-and-acids/1743.article"
+    },
+    {
+      "title": "RSC Carboxylic acids student sheets",
+      "url": "https://edu.rsc.org/download?ac=538970"
+    }
+  ],
+  "artReusedFrom": {
+    "id": "q-029",
+    "path": "docs/comics/art/q-029.svg",
+    "reason": "同題組同一水檢驗，第一格重用其藍粉試紙原生幾何；後兩格為本題專屬新SVG。"
+  },
+  "rationale": "把指定檢測步驟、A酯化產水、C氫氣不等於水三點視覺化，使用程式原生試劑名和原子標記，HTML寫精確反應。保留A與全部原選項，未以加熱CO2線索答錯步驟。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "1b96aa219080597ec95b8bc41c2f44cbe2bb1a633e7afe250dd488c3696c0057",
+  "visualChecked": true,
+  "referenceAccessNote": "RSC原站實驗/學生講義均有搜尋摘要，摘要明列乙酸+乙醇產生酯和水；兩網址open皆405，沒有假稱成功實讀全文。南投國中教師原站本次不可存取。",
+  "checkedAt": "2026-10-28T23:05:14.056599+00:00",
+  "completedAt": "2026-10-28T23:02:17.259210+00:00",
+  "layoutEvidence": "docs/comics/q-031-preview-validation.json",
+  "visualReview": "實看1440/1120/390：藍粉試紙、乙酸/乙醇兩瓶及水OHH與氫HH分子對比清楚；原子標記連結不被遮擋，H₂/H₂O完整、圖文無橫溢、同行等高與單欄自然高度。",
+  "nativeArt": "assets/comics/q-031-art-1b96aa2190.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:05:14.028868+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看16題四選項及同題組完整實驗文，藍粉試紙確認水；乙酸乙醇產水，水OHH與氫HH對比正確，A不變。"
+  },
+  "validationFile": "docs/comics/q-031-validation.json"
+}

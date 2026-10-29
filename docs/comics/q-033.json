@@ -1,0 +1,91 @@
+{
+  "id": "q-033",
+  "subject": "Physics-Chemistry",
+  "title": "擺法改變，總正向力與啟動門檻不變",
+  "art": "docs/comics/art/q-033.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:01:28.314652+00:00",
+  "panels": [
+    {
+      "heading": "① 疊放時，桌面仍承受兩塊重量",
+      "text": "圖（一）只有下方木塊接觸桌面，但桌面承受的是甲、乙合計重量。題目已給這種擺法的最大靜摩擦力為20 gw。",
+      "alt": "兩個等尺寸示意木塊上甲下乙疊放，同一桌面，水平F箭頭向右；甲乙順序與原圖一致，20gw是題給最大值非固定當下摩擦。"
+    },
+    {
+      "heading": "② 並排後，總重量並未改變",
+      "text": "圖（二）兩塊都接觸桌面，總重量與總正向力仍相同。在題設接觸性質相同的模型中，不能因表觀接觸面積變大，就把最大靜摩擦力改成兩倍或一半。",
+      "alt": "兩木塊甲左乙右並排，接觸寬度為首圖2倍但總塊數2不變；不畫正向力減半或最大摩擦倍增。"
+    },
+    {
+      "heading": "③ 20 gw是門檻，施力須超過它",
+      "text": "圖（二）的最大靜摩擦力仍為20 gw。要開始沿桌面滑動，施力須超過20 gw；不能把臨界值20 gw直接改成10 gw或40 gw。",
+      "alt": "F力值區間示意，20gw處空心界點與向右超過區域，強調F大於20，不主張未施力時摩擦也固定20。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：超過20 gw",
+    "points": [
+      "兩種擺法的總正向力相同，接觸性質相同。",
+      "表觀接觸面積改變，不直接改變本題最大靜摩擦力。",
+      "20 gw是最大靜摩擦力；開始移動須超過此值。"
+    ]
+  },
+  "protectedWords": [
+    "最大靜摩擦力",
+    "總正向力",
+    "正向力",
+    "接觸性質",
+    "表觀接觸面積",
+    "20 gw",
+    "10 gw",
+    "40 gw"
+  ],
+  "rationale": "原卷6題及原圖兩種擺法、四選項實看，維持C。新精確SVG上甲下乙/左甲右乙皆2塊，接觸寬度2倍而總塊數不變，F均水平，啟動F>20與最大值區分。沿題設乾摩擦模型，不把面積無關擴為所有材料/變形情境，也不畫未施力就有最大摩擦。",
+  "promptSummary": "原生SVG疊放與並排比較、20gw臨界值的F>20力區間；避免imagegen亂畫重量、力箭頭或塊數。",
+  "answerCheckedAgainst": "原卷6題完整圖文與四選項、既有乾淨作答SVG；既有C；OpenStax乾摩擦法則最大靜摩擦取決於材質及正向力。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "finding": "最大靜摩擦依正向力與接觸材質，不依表觀接觸面積；實際靜摩擦是隨外力反應到上限。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-033-source-5b02f1e82f.jpg"
+    ],
+    "questionFigure": "site/dist/assets/questions/q-033-given.svg",
+    "visualChecked": true,
+    "answer": "C，20 gw臨界值",
+    "notes": "原卷疊放上甲下乙、並排左甲右乙、F水平方向及20gw可辨。新圖保留總系統/桌面接觸重點，不另算兩塊間滑動。"
+  },
+  "artSHA256": "268d967882db5315230ba8d76cb0886d67cb0c6ba051a41a67d61bcf2dcc2d0c",
+  "completedAt": "2026-10-28T23:04:23.883940+00:00",
+  "checkedAt": "2026-10-28T23:05:56.943764+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-033-preview-validation.json",
+  "visualReview": "實看原卷、乾淨附圖、540×180新圖及1440/390成品：上甲下乙/左甲右乙均兩塊，表觀接觸寬44/88而總重不變，F水平向右；第三格20空心界點且只標超過區域，不把當下摩擦固定最大值。20gw/10gw/40gw詞組未拆，三寬無溢出與版型問題。",
+  "nativeArt": "assets/comics/q-033-art-268d967882.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:05:56.915176+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷兩擺法、至少施力超過多少及四選項；總重及接觸材質未改，20gw為臨界值，F>20圖示與題意一致。桌手機圖兩塊數量順序及力向一致，無溢出。"
+  },
+  "validationFile": "docs/comics/q-033-validation.json"
+}

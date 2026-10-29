@@ -1,0 +1,73 @@
+{
+  "id": "q-415",
+  "subject": "Geography",
+  "title": "製鞋業：勞力密集到自動化回流",
+  "art": "docs/comics/art/q-415-reshoring.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:35:49.225575+00:00",
+  "panels": [
+    {
+      "heading": "① 先抓住大量勞力的製程",
+      "text": "題幹說傳統製程需要大量工人，之後因工資上升而外移。四個選項中，製鞋最符合這組勞力密集產業的線索。",
+      "alt": "新製鞋子符號與工人/工資/成本關聯框，概念示意，非特定公司照片或鞋款品牌。"
+    },
+    {
+      "heading": "② 外移後，成本也會變動",
+      "text": "生產線從臺灣移往中國或東南亞，之後當地勞力成本也上升。要把前後變化一起看，不能只因工廠在雲林，就選製糖。",
+      "alt": "新製臺灣工資上升、生產線外移、外移地成本也上升流程，不畫未證實企業路線地圖。"
+    },
+    {
+      "heading": "③ 自動化，降低大量用工需求",
+      "text": "題幹中的工廠以設備減少人力需求，於是部分生產線能移回臺灣。數百臺機器、三名員工，是這間工廠的描述，不是全製鞋業的固定比例。",
+      "alt": "新製題幹工廠數百機器/三名操作員與部分回臺關聯，精確文字直接取自原題，不新增機器數或生產力倍數。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 製鞋業：勞力密集到自動化回流",
+    "answer": "答案 A：製鞋",
+    "points": [
+      "大量勞力、工資上升，是外移線索。",
+      "自動化降低用工需求，部分生產可回臺。",
+      "用完整產業脈絡作答，不只看雲林地名。"
+    ]
+  },
+  "protectedWords": [
+    "製鞋業",
+    "製鞋",
+    "製糖",
+    "自動化",
+    "勞力密集",
+    "工資上升",
+    "勞力成本",
+    "生產線",
+    "臺灣",
+    "東南亞",
+    "中國",
+    "雲林",
+    "三名員工",
+    "數百臺",
+    "回臺"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-415-source-25a79b99b3.jpg"
+  ],
+  "originalVisualCheck": "實看原卷41題完整段落及四選項，製鞋A，題幹數百臺機器/三名員工。維持既有後續訂正A，不重開原AI先選製糖的舊議題。",
+  "answerCheckedAgainst": "傳統大量勞力→工資上升外移→外移地成本上升→自動化降低用工→部分回臺，四項比較以製鞋最符。沒有把原題例子泛化全製鞋業已全回流。",
+  "rationale": "使用新原生SVG產業流程與文字數量框，精確串聯地點、成本、製程變化；比一般工廠照片更能防只見雲林就猜糖廠，未沿用來源AI。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "selected": "A",
+    "machines": "數百臺（原題描述）",
+    "workers": "三名（原題描述）",
+    "allFactoriesReturnedClaim": false,
+    "fixedIndustryMachineWorkerRatioClaim": false,
+    "outsourcingDateConverted": false
+  },
+  "artSHA256": "0be5e7ba7470e73007424907549c39b69df42efc494087d19fc5d9a34d87840b",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:37:35.500036+00:00",
+  "completedAt": "2026-10-29T06:37:35.500036+00:00",
+  "layoutEvidence": "docs/comics/q-415-preview-validation.json",
+  "timingEvidence": "docs/comics/q-415-timing.json",
+  "visualReview": "實看1440/1120/390最終三寬SVG：製鞋/外移成本/自動化回臺流程一致，原題數百機器與三員工限該廠、不泛化全業，無虛構地圖或數值。三寬無橫溢保護詞斷裂，桌機同列等高、手機自然高度。"
+}

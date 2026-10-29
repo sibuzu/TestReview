@@ -1,0 +1,81 @@
+{
+  "id": "q-417",
+  "subject": "Geography",
+  "title": "北部火山地熱景觀：溫泉與硫氣孔",
+  "art": "docs/comics/art/q-417.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T06:38:52.474286+00:00",
+  "generationStartedAt": "2026-10-29T06:40:55.921313+00:00",
+  "generationCompletedAt": "2026-10-29T06:40:50.003083+00:00",
+  "panels": [
+    {
+      "heading": "① 合看盆地、河流與北側山地路線",
+      "text": "原圖把河流、盆地與向北側山地延伸的彎曲路線放在一起，可判為北部大屯火山群、陽明山一帶的地熱景觀。本題不必補出未標示的公車名稱或A、B站名。",
+      "alt": "全新北部綠色火山丘陵與觀光巴士區域情境，非精確路線地圖，無自造站名/車號/時刻表。"
+    },
+    {
+      "heading": "② 火山地區的地下熱源，形成溫泉",
+      "text": "大屯火山地區地下仍有熱源，滲入地下的水受熱，可沿裂隙形成溫泉。這是B的第一個線索；A指定三千公尺以上高山，不能看到山坡草地就直接套用。",
+      "alt": "全新綠山中的自然地熱溫泉蒸氣景觀，無泡湯遊客/精確溫度/個別地點名稱，不仿科學精確剖面。"
+    },
+    {
+      "heading": "③ 硫氣孔的白色煙霧，不是燃燒黑煙",
+      "text": "地表噴氣與硫磺結晶是另一個地熱線索。可見的白色霧氣主要與水汽凝結成小液滴有關，不是硫磺正在燃燒。溫泉加硫氣孔，最符合B。",
+      "alt": "全新灰岩黃色硫磺結晶與白色汽霧，沒有黑煙/明火/岩漿爆發，符合後火山地熱景觀而非燃燒。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：B，溫泉與硫氣孔",
+    "points": [
+      "由原圖區域與景觀組合判讀，不杜撰精確公車站名。",
+      "C是海岸溼地景觀，D典型是太魯閣大理石峽谷。",
+      "A的三千公尺以上高山環境，不合本路線所指區域。"
+    ]
+  },
+  "protectedWords": [
+    "大屯火山群",
+    "陽明山",
+    "地熱景觀",
+    "A、B",
+    "三千公尺",
+    "硫氣孔",
+    "硫磺結晶",
+    "白色霧氣",
+    "小液滴",
+    "大理石峽谷"
+  ],
+  "rationale": "親見43完整題文/四項及必要河流盆地北山路線圖，沿已核定B、不新增未知站名。官方陽明山後火山活動/小油坑景觀核對。全新內建自然丘陵巴士/溫泉/白霧硫氣孔三景，不由imagegen繪精確地圖或科學剖面，不用來源AI。",
+  "promptSummary": "新無字三格北部區域地景：綠色丘陵彎路巴士、自然熱泉、白汽黃色結晶硫氣孔。無3000m高峰/黑煙火焰/虛構站名，文字用HTML精確校對。",
+  "answerCheckedAgainst": "原卷43圖河流盆地與北山彎線/四景觀B，官方陽明山國家公園地熱/噴氣孔溫泉介紹支持，沿已核對B不另補班次或具體站名。",
+  "officialReferences": [
+    {
+      "title": "陽明山國家公園・後火山活動",
+      "url": "https://www.ymsnp.gov.tw/ch/sglarticle/volcanic-activity"
+    },
+    {
+      "title": "陽明山國家公園・小油坑遊憩區",
+      "url": "https://www.ymsnp.gov.tw/ch/specialreport/accessible-travel/141"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-417-source-d1a76cc6d5.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-417-figure-4714589054.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "完整原題四景選項及必要路線圖實看，原圖未清楚標站名/公車名，不猜補。圖地景為區域教學示意，非真實行程照片。"
+  },
+  "generationMetadata": "docs/comics/q-417-generation.json",
+  "artSHA256": "c4038d5048deb4e036d8fc4a0d7248b0c15f0be00d56c0da1b529b440577e671",
+  "completedAt": "2026-10-29T06:43:33.647620+00:00",
+  "checkedAt": "2026-10-29T06:43:33.647632+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-417-preview-validation.json",
+  "visualReview": "實看新2172x724與1440/390四格：北部丘陵巴士/自然熱泉/白色霧氣黃色硫磺結晶景觀吻合，無3000m高峰/黑煙明火或自造車號站名。原題區域圖仍作判讀依據，新圖明示區域情境；三寬無橫溢/詞組拆行，桌機同列等高、手機自然高度。"
+}

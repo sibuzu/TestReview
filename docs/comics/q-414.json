@@ -1,0 +1,84 @@
+{
+  "id": "q-414",
+  "subject": "Geography",
+  "title": "先看礦產品貨種，再連花蓮的礦產腹地",
+  "art": "docs/comics/art/q-414.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-414-generate.py",
+  "startedAt": "2026-10-29T06:34:40.875595+00:00",
+  "panels": [
+    {
+      "heading": "① 81.9與18.1兩部分，都是礦產品",
+      "text": "題圖標「礦產品（國內）81.9%」和「礦產品（國外）18.1%」。兩者合為100%，本題先抓共同貨種礦產品；小部分不是其他產品，也不能改成今天整個港口的貨運占比。",
+      "alt": "新精確環圖81.9/18.1，兩扇色皆礦產品，中心明2014題圖；比例由數值計算而非imagegen猜，不當今日全港貨種資料。"
+    },
+    {
+      "heading": "② 礦產品，連到東部礦產與加工腹地",
+      "text": "花蓮及東部腹地有石材、石灰石等礦產與相關產業，花蓮港運輸礦石、砂石、水泥等貨物的特色最符合，故選B。解題是在比貨種與腹地，不是在選規模最大的港。",
+      "alt": "原生腹地產業→貨物特色→花蓮港流程，官方貨種特色支持，不畫虛構港界或礦點精確位置。"
+    },
+    {
+      "heading": "③ 國內與國外，別擅自補成原產地",
+      "text": "圖中沒有註明這組括號的完整統計口徑，不能自行斷言18.1%是外國原料再出口。保留原標籤與2014年時點，作答依有根據的礦產品貨種與腹地關係。",
+      "alt": "國內/國外原標籤→口徑未註明→不猜原產地/復出口，保持既有已核對限制，無新不實統計方向箭頭。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：B，花蓮港",
+    "points": [
+      "本題兩塊都屬礦產品，81.9%＋18.1%＝100%。",
+      "以花蓮東部礦產與相關產業，連到港口貨種特色。",
+      "不把國內、國外直接等同原產地，也不猜復出口。"
+    ]
+  },
+  "protectedWords": [
+    "81.9%",
+    "18.1%",
+    "100%",
+    "2014年",
+    "礦產品",
+    "花蓮港",
+    "石灰石",
+    "原產地",
+    "統計口徑",
+    "復出口"
+  ],
+  "rationale": "親見36全文四項及必要圖，兩標籤和81.9/18.1逐字核對，沿已確認B與既有口徑限制。官方港務/交通年鑑交叉核花蓮礦砂石水泥特色。新精確環圖/腹地貨種流程/口徑限制圖，避免imagegen造百分比或錯指18.1其他/外貨復出口，不用來源AI。",
+  "promptSummary": "新原生三格：依原數81.9/18.1的2014礦產品環圖；東部礦產腹地貨種港口連結；國內外口徑不臆測。精確文字原生，不假造當前貨運資料。",
+  "answerCheckedAgainst": "原卷36兩扇均礦產品，四港B花蓮；官方交通部及港務公司發展定位/裝卸設備支持礦砂石水泥，保留2014與國內外未明口徑限制。",
+  "officialReferences": [
+    {
+      "title": "交通部107年交通年鑑・港埠設施",
+      "url": "https://www.motc.gov.tw/uploaddowndoc?file=yearbook%2F107%2F107YB09%2F107YB090101.pdf&filedisplay=107YB090101.pdf&flag=doc"
+    },
+    {
+      "title": "花蓮港務分公司・裝卸設備（砂石、礦石、水泥）",
+      "url": "https://hl.twport.com.tw/zh-TW/port/Articles?a=1107"
+    },
+    {
+      "title": "臺灣港務公司・花蓮港發展定位",
+      "url": "https://www.twport.com.tw/fapi/AttFile?id=3518&l=1&type=AttFile"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-414-source-9517a58701.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-414-figure-98d7884893.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "全題及必要百分比圖實看，兩項礦產品國內81.9/國外18.1無誤；已結案原AI錯口徑不重問，不新增當前礦產100%等全港概括。"
+  },
+  "chartValidation": "docs/comics/q-414-chart-validation.json",
+  "artSHA256": "eb76eddf86c76bafedc51d22cac9459906a28e6c4672979095ca7a3d3459a8b8",
+  "completedAt": "2026-10-29T06:38:52.406464+00:00",
+  "checkedAt": "2026-10-29T06:38:52.406499+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-414-preview-validation.json",
+  "visualReview": "實看540x180原生圖表及1440/390四格：81.9大綠區與18.1小藍區比例/圖例一致，兩項皆礦產品且中心2014題圖；腹地貨種港口B流程與國內外不猜口徑分明。無今天全港100%礦產或18.1外貨復出口斷言。三寬無橫溢/詞組拆行，桌機同列等高、手機自然高度。"
+}

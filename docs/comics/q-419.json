@@ -1,0 +1,100 @@
+{
+  "id": "q-419",
+  "subject": "Geography",
+  "title": "甲太平、乙東沙、丙小琉球",
+  "art": "docs/comics/art/q-419-islands.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:43:30.119396+00:00",
+  "panels": [
+    {
+      "heading": "① 原表距離與面積一起看",
+      "text": "甲約1,492公里、0.51平方公里，對應太平島；乙約423公里、1.74平方公里，是東沙島；丙約23公里、6.8平方公里，是小琉球。",
+      "alt": "新製三島原表數值對照，距離指距高雄港最短直線距離，面積單位平方公里，完全保留原表測量口徑，不據此推算南北。"
+    },
+    {
+      "heading": "② 太平島位於低緯度南海",
+      "text": "甲太平島在菲律賓巴拉望島西側，全年溫暖，年溫差較小，符合B。甲比乙東沙島更南，因此C把乙說成最南並不對。",
+      "alt": "新製三島與巴拉望相對位置關係示意，北向上，太平位巴拉望西側且比東沙南；註明非比例地圖或疆界圖。"
+    },
+    {
+      "heading": "③ 小琉球，不是東沙環礁",
+      "text": "東沙環礁設有國家公園；小琉球則納入大鵬灣國家風景區範圍，不能混稱，所以D不對。A也不能把三島一概說成崎嶇丘陵。",
+      "alt": "新製東沙環礁國家公園與小琉球/大鵬灣國家風景區的名稱類別對照，沒有把觀光區直接當國家公園。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 甲太平、乙東沙、丙小琉球",
+    "answer": "答案 B：甲的地點與氣候敘述正確",
+    "points": [
+      "甲太平島位於低緯度南海、巴拉望島西側。",
+      "乙東沙島比甲偏北，不是C說的最南。",
+      "丙小琉球：國家風景區與國家公園要分清。"
+    ]
+  },
+  "protectedWords": [
+    "太平島",
+    "東沙島",
+    "小琉球",
+    "東沙環礁",
+    "大鵬灣",
+    "國家風景區",
+    "國家公園",
+    "平方公里",
+    "巴拉望島",
+    "菲律賓",
+    "低緯度",
+    "年溫差",
+    "高雄港",
+    "1,492",
+    "423",
+    "0.51",
+    "1.74"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-419-source-567ef3d8dd.jpg",
+    "site/dist/assets/questions/q-419-figure-cfe9636e06.jpg"
+  ],
+  "originalVisualCheck": "實看第47題完整原卷四項與表6，逐筆核對1492/0.51、423/1.74、23/6.8；保留原題數值與既有B。",
+  "answerCheckedAgainst": "原表辨三島；行政院國情簡介與海巡署太平島地理資訊核對低緯、巴拉望西側與氣候，國家公園署東沙/大鵬灣官方小琉球資料分辨類別。環境部舊頁直開未出太平正文，已換實際可讀官方證據，沒有把取回頁面當成已讀該段。",
+  "rationale": "新製SVG數據對照、相對位置、保護區類別三圖，精確地理關係比泛用海島風景更能辨選項；不畫疆界、不新增主權主張，不沿用來源AI。",
+  "generationCalls": 0,
+  "references": [
+    {
+      "title": "行政院國情簡介｜土地",
+      "url": "https://www.ey.gov.tw/state/4447F4A951A1EC45/094b1d53-de8d-4393-bde6-ab092969cce4",
+      "checked": "太平島與巴拉望相對位置、原題面積口徑"
+    },
+    {
+      "title": "大鵬灣國家風景區｜小琉球",
+      "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionAreaPage?a=142",
+      "checked": "小琉球2000納入大鵬灣國家風景區範圍"
+    },
+    {
+      "title": "國家公園署｜東沙環礁國家公園問答",
+      "url": "https://www.taiwan.nps.gov.tw/home/zh-tw/QA/21571.html",
+      "checked": "東沙環礁為國家公園，非丙小琉球"
+    },
+    {
+      "title": "海巡署｜太平島地理資訊",
+      "url": "https://www.cga.gov.tw/GipOpen/wSite/ct?ctNode=8739&mp=999%2F&xItem=156731",
+      "checked": "熱帶海洋性氣候、終年高溫四季如夏"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "B",
+    "originalDistanceKm": [
+      "約1492",
+      "約423",
+      "約23"
+    ],
+    "originalAreaKm2": [
+      0.51,
+      1.74,
+      6.8
+    ],
+    "distanceUsedToInferLatitude": false,
+    "scaleMapClaim": false,
+    "sovereigntyBoundaryClaim": false,
+    "nationalParkEqualsScenicArea": false
+  }
+}

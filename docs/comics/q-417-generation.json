@@ -1,0 +1,18 @@
+{
+  "tool": "builtin image_gen",
+  "rawPath": "/home/jack/.codex/generated_images/01a1835e-901b-7220-83d5-34f859958296/exec-5df61da4-140c-43a8-98dc-2c4965b6fd5b.png",
+  "startedAt": "2026-10-29T06:40:55.921313+00:00",
+  "completedAt": "2026-10-29T06:40:50.003083+00:00",
+  "monotonicStartNs": "662753539950971",
+  "monotonicEndNs": "662777065522304",
+  "clockHost": "R5090",
+  "sameClockHost": true,
+  "monotonicDurationSeconds": 23.525571333,
+  "timingScope": "同一exec_command主機monotonic_ns緊夾內建imagegen工具；包含工具呼叫協調與兩次shell clock probes，不是影像引擎純運算秒數。",
+  "durationSeconds": null,
+  "timingValid": false,
+  "excludeFromSpeedStatistics": true,
+  "utcClockWentBackwards": true,
+  "originalReportedDurationSeconds": -5.918,
+  "timingReason": "同主機UTC牆鐘倒退，先依AGENTS倒退規則排除主要速度統計；保留有效正向monotonic區間供root定義後續統計口徑，不猜補UTC。"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "q-416",
+  "subject": "Geography",
+  "title": "小麥自然條件：冬季的彰化平原",
+  "art": "docs/comics/art/q-416.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:37:58.510105+00:00",
+  "panels": [
+    {
+      "heading": "① 先找較冷涼的季節",
+      "text": "題幹要求冷涼、溼度低、日照多。臺灣冬季較冷涼，比夏季更符合季節條件；西部冬季的小麥田，可作理解情境。",
+      "alt": "新製西部冬季晴朗、輕外套成人農民與綠色小麥苗的虛構田野，不把冬季播種畫成成熟金黃麥浪或冰雪。"
+    },
+    {
+      "heading": "② 同是冬季，宜蘭較常陰雨",
+      "text": "宜蘭冬季受東北季風影響，較常潮溼陰雨；彰化在西部，冬季相對較乾燥。比較這兩組自然條件，B比A更適合。",
+      "alt": "新製東北部冬季陰雨農田比較情境，無作物死亡、洪災或虛構實測雨量，不宣稱宜蘭不能種小麥。"
+    },
+    {
+      "heading": "③ 夏季高溫多雨，不如冬季",
+      "text": "C屏東平原與D桃園臺地都配夏季，較不合題幹的冷涼、較乾燥條件。契作價格與禁用農藥化肥是背景，不取代自然條件判斷。",
+      "alt": "新製夏季溫暖潮溼與午後雨田野概念景，不冒充某日屏東或桃園天氣，不畫小麥枯死。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 小麥自然條件：冬季的彰化平原",
+    "answer": "答案 B：冬季的彰化平原",
+    "points": [
+      "先比較季節：冬季較冷涼。",
+      "再比較區域：彰化冬季較乾燥，宜蘭較常陰雨。",
+      "這是四組條件相對比較，不是絕對種植禁區。"
+    ]
+  },
+  "protectedWords": [
+    "彰化平原",
+    "宜蘭平原",
+    "屏東平原",
+    "桃園臺地",
+    "東北季風",
+    "自然條件",
+    "契作價格",
+    "冷涼",
+    "潮溼陰雨",
+    "較乾燥",
+    "小麥",
+    "冬季",
+    "夏季",
+    "農藥",
+    "化肥"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-416-source-261b5e85d6.jpg"
+  ],
+  "originalVisualCheck": "實看原卷42題，需求冷涼/溼度低/日照多，A冬宜蘭/B冬彰化/C夏屏東/D夏桃園，維持B。",
+  "answerCheckedAgainst": "農糧署中區分署麥香麥鄉官方說明臺灣小麥11-12月種、隔年3月成熟，彰化大城為產地；原題季節及區域相對比較支持B。沒有新增特定溫度、雨量或灌溉管理建議。",
+  "rationale": "新製冬西部綠麥苗、東北部冬陰雨、夏季溫暖多雨三個正常田野對比，HTML表達相對適合條件；不以枯死圖誤導其他地區絕不能種，也不把契作條件作氣候因素。",
+  "generationCalls": 1,
+  "promptPath": "docs/comics/q-416-prompt.txt",
+  "references": [
+    {
+      "title": "農糧署中區分署｜麥香～麥鄉 國產小麥故鄉",
+      "url": "https://crb.afa.gov.tw/index.php?article_id=31635&code=list&flag=detail&ids=17",
+      "checked": "11-12月種植、隔年3月採收，彰化大城產區"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "B",
+    "winterYoungGreenWheat": true,
+    "winterGoldenHarvestClaim": false,
+    "absoluteYilanCannotGrowClaim": false,
+    "contractPriceDeterminesClimate": false,
+    "measuredClimateDataAdded": false
+  },
+  "artSHA256": "19138f2c280bb463c4e2f0ce207085ced3a912655d57a5b280cb054689319260",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:40:24.275352+00:00",
+  "completedAt": "2026-10-29T06:40:24.275352+00:00",
+  "layoutEvidence": "docs/comics/q-416-preview-validation.json",
+  "timingEvidence": "docs/comics/q-416-timing.json",
+  "visualReview": "實看新圖與1440/1120/390三寬最終截圖；冬季綠苗非收穫金黃、陰雨/夏季正常田野比較，不畫必死。B與相對條件敘述一致，三寬無橫溢保護詞斷裂，桌機同列等高手機自然高度。"
+}

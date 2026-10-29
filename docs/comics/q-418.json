@@ -1,0 +1,98 @@
+{
+  "id": "q-418",
+  "subject": "Geography",
+  "title": "國道2接3再接5：鎖定宜蘭頭城",
+  "art": "docs/comics/art/q-418-route.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T06:40:50.303119+00:00",
+  "panels": [
+    {
+      "heading": "① 國道2號，接到國道3號",
+      "text": "題目依序列出2號、3號、5號，不能只看其中一段。以桃園機場出發的這組路線，國道2號在鶯歌系統接國道3號。",
+      "alt": "新製桃園機場/國道2號/鶯歌系統/國道3號順序關係圖，非道路比例地圖，不標虛構里程或時間。"
+    },
+    {
+      "heading": "② 南港系統，轉國道5號",
+      "text": "再沿國道3號往北，於南港系統轉國道5號往宜蘭。最後一段國道5號，才是判斷目的地區域的重要線索。",
+      "alt": "新製國3/南港系統/國5/宜蘭轉接順序圖，標示非比例地圖，箭頭表示路線順序而非地理南北。"
+    },
+    {
+      "heading": "③ 頭城可達，最符合四選項",
+      "text": "國道5號頭城交流道可通往頭城，因此選A。花蓮、埔里、林邊不合這組最後轉國5的線索；一個多小時只是題目情境，不保證實際車程。",
+      "alt": "新製國5沿線/頭城交流道/通往頭城礁溪的關係圖，不把交流道名稱當成行政位置，不承諾交通耗時。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 國道2接3再接5：鎖定宜蘭頭城",
+    "answer": "答案 A：宜蘭縣頭城鎮",
+    "points": [
+      "國道2號 → 鶯歌系統 → 國道3號。",
+      "國道3號 → 南港系統 → 國道5號。",
+      "最後進入宜蘭，四選項以頭城最符合。"
+    ]
+  },
+  "protectedWords": [
+    "國道2號",
+    "國道3號",
+    "國道5號",
+    "鶯歌系統",
+    "南港系統",
+    "桃園機場",
+    "宜蘭",
+    "頭城",
+    "交流道",
+    "宜蘭縣",
+    "頭城鎮",
+    "花蓮",
+    "埔里",
+    "林邊",
+    "實際車程"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-418-source-b7e0151d06.jpg"
+  ],
+  "originalVisualCheck": "實看第46題完整原卷，序列2/3/5與一個多小時、交流道附近；A宜蘭頭城/B花蓮/C埔里/D林邊，維持A。",
+  "answerCheckedAgainst": "高速公路局國3表記鶯歌系統接國2、南港系統接國5，北分局範圍記國5南港至蘇澳；另查國5頭城交流道，四選項A合線索。",
+  "rationale": "新原生SVG用路線拓樸與轉接順序，精確名稱HTML，不生成看似真實但路網錯誤的地圖；不把一個多小時作固定導航承諾。",
+  "generationCalls": 0,
+  "references": [
+    {
+      "title": "高速公路局｜國道3號交流道一覽表",
+      "url": "https://www.freeway.gov.tw/Publish.aspx?cnid=1906&p=4622",
+      "checked": "鶯歌系統接國2、南港系統接國5"
+    },
+    {
+      "title": "高速公路局｜北區養護工程分局範圍",
+      "url": "https://www.freeway.gov.tw/Publish.aspx?cnid=562",
+      "checked": "國2機場至鶯歌、國5南港至蘇澳"
+    },
+    {
+      "title": "高速公路局｜國道5號交流道一覽表",
+      "url": "https://www.freeway.gov.tw/Publish.aspx?cnid=1906&p=4621",
+      "checked": "頭城交流道主要服務頭城與礁溪"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "A",
+    "routeOrder": [
+      2,
+      3,
+      5
+    ],
+    "junctions": [
+      "鶯歌系統",
+      "南港系統"
+    ],
+    "arrowsAreGeographicDirection": false,
+    "travelTimeGuarantee": false,
+    "scaleMapClaim": false,
+    "interchangeNameEqualsAdministrativeLocationClaim": false
+  },
+  "artSHA256": "3c85344df9e2f78a11f5d003b7547a66ac82f79ef2b5052b41beb2c42114e120",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T06:43:04.690081+00:00",
+  "completedAt": "2026-10-29T06:43:04.690081+00:00",
+  "layoutEvidence": "docs/comics/q-418-preview-validation.json",
+  "timingEvidence": "docs/comics/q-418-timing.json",
+  "visualReview": "實看1440/1120/390最終截圖，國2/鶯歌/國3/南港/國5轉接與頭城可達一致；SVG明示順序非比例圖，不宣稱交流道行政位置，不保證車程。三寬無橫溢保護詞斷裂，桌機同列等高手機自然高度。"
+}

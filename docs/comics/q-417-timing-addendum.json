@@ -1,0 +1,18 @@
+{
+  "id": "q-417",
+  "type": "generation-timing-method-clarification",
+  "preserveFrozenSpecAndGenerationRecord": true,
+  "durationSeconds": 23.525571333,
+  "timingValid": true,
+  "excludeFromSpeedStatistics": false,
+  "measurementMethod": "monotonic",
+  "clockHost": "R5090",
+  "monotonicStartNs": "662753539950971",
+  "monotonicEndNs": "662777065522304",
+  "scope": "同一exec_command主機前後緊夾內建imagegen工具；含工具協調與兩次shell clock probes，不是影像引擎純運算秒數。",
+  "utcClockWentBackwards": true,
+  "originalUTCStart": "2026-10-29T06:40:55.921313+00:00",
+  "originalUTCEnd": "2026-10-29T06:40:50.003083+00:00",
+  "utcDifferenceMustNotBeUsed": true,
+  "basis": "Root明確釐清：同主機正向單調的monotonic interval有效，UTC僅異常標籤，不使此interval失效。原metadata早先依歧義規則排除，這份addendum更正統計方法判斷，不更動UTC原值或凍結圖文。"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "q-009",
+  "subject": "Math",
+  "title": "先求三角形面積，再以斜腰為底求距離",
+  "art": "docs/comics/art/q-009-distance.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:10:01.232060+00:00",
+  "panels": [
+    {
+      "heading": "① 用窄直角三角形求高",
+      "text": "C向AB作垂線，垂足暫記H。AH＝CD＝3，BH＝4−3＝1。△BHC斜邊7，故CH＝4√3，也是梯形高AD。",
+      "alt": "新製比例正確右梯形與C向AB的垂線，AH3/BH1/BC7/CH4根號3，直角空心記號在H與A，不誤把3/4/7當AD分段。"
+    },
+    {
+      "heading": "② 梯形扣兩角，得△BCO面積",
+      "text": "梯形面積14√3。O是AD中點，所以OA＝OD＝2√3，△ABO面積4√3，△CDO面積3√3；相減後△BCO面積7√3。",
+      "alt": "新製三角剖分著色，ABO橙/BCO綠/CDO藍，3根號3/7根號3/4根號3外標框以同色點線指向各區。"
+    },
+    {
+      "heading": "③ 垂直BC的線段才是距離",
+      "text": "從O向BC作垂線，垂足暫記P，距離設d。同一個△BCO改以BC＝7作底，得7乘d除2＝7√3，所以d＝2√3。",
+      "alt": "新製比例正確O到BC垂足P，OP垂直BC且P在線段BC內，旋轉空心直角記號附著P；d不是任意斜線或OA代入。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先求三角形面積，再以斜腰為底求距離",
+    "answer": "答案：2√3",
+    "points": [
+      "CH＝√(7²−1²)＝4√3。",
+      "△BCO面積＝14√3−4√3−3√3＝7√3。",
+      "距離d＝2×7√3÷7＝2√3。"
+    ]
+  },
+  "protectedWords": [
+    "梯形",
+    "直角三角形",
+    "垂線",
+    "垂足",
+    "中點",
+    "面積",
+    "距離",
+    "斜腰",
+    "斜邊",
+    "相減",
+    "△BHC",
+    "△ABO",
+    "△CDO",
+    "△BCO",
+    "AH",
+    "CD",
+    "BH",
+    "CH",
+    "AD",
+    "OA",
+    "OD",
+    "AB",
+    "BC",
+    "OP",
+    "2√3",
+    "3√3",
+    "4√3",
+    "7√3",
+    "14√3"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-009-source-ebc4275300.jpg"
+  ],
+  "originalVisualCheck": "實看原卷7題AB∥CD/A90/AB4/CD3/BC7與O為AD中點，原圖上DC/下AB/右BC，無原選項。原卷混雜手寫3/4/7等推導，條件依印刷辨清；H/P是新解說垂足。",
+  "answerCheckedAgainst": "BH1，梯形高√48=4sqrt3；O半高2sqrt3，梯形14sqrt3減兩端4sqrt3/3sqrt3剩7sqrt3；以BC7作底得垂距2sqrt3。P沿B到C參數4/7，OP·BC=0，P在線段內。",
+  "rationale": "以精確梯形高、面積剖分與旋轉直角垂距分步SVG，將同三角形換底與距離定義連起來；不直接因OA恰等答案就當垂距，不採人物或來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "AB": 4,
+    "CD": 3,
+    "BC": 7,
+    "BH": 1,
+    "height": "4sqrt3",
+    "OAmid": "2sqrt3",
+    "areas": {
+      "trapezoid": "14sqrt3",
+      "ABO": "4sqrt3",
+      "CDO": "3sqrt3",
+      "BCO": "7sqrt3"
+    },
+    "distance": "2sqrt3",
+    "PparameterFromBtoC": 0.5714285714285714,
+    "perpendicularDot": 0
+  },
+  "artSHA256": "e22bd6c49c16db5973ab58e15fb06655c589719b2e645f0cbfc8fd6314ae3be8",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:11:02.933355+00:00",
+  "completedAt": "2026-10-29T05:11:02.933355+00:00",
+  "layoutEvidence": "docs/comics/q-009-preview-validation.json",
+  "visualReview": "實看1440/1120/390最終成品：BH1的窄三角形、三區面積標框指線與OP垂直BC記號清楚。移開B標籤避免與最下公式相疊後重驗；P在BC內，字圖無裁切、同行等高手機自然高。"
+}

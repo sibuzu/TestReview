@@ -1,0 +1,68 @@
+{
+  "id": "q-232",
+  "subject": "Math",
+  "title": "三角形面積相減，留下四邊形",
+  "art": "docs/comics/art/q-232.svg",
+  "protectedWords": [
+    "四邊形",
+    "三角形",
+    "面積差",
+    "對角線",
+    "共同底邊",
+    "正根",
+    "負根",
+    "AC＝8",
+    "BD＝14",
+    "m＝5",
+    "n＝12"
+  ],
+  "panels": [
+    {
+      "heading": "① 大三角形減小三角形，留下56",
+      "text": "P、A、D共線，P、B、C共線。大三角形PCD扣掉小三角形PAB，剩下四邊形ABCD，所以四邊形面積是56；不是面積比1：56。",
+      "alt": "依解得坐標等比例畫相套三角形，P在左下，PAB藍色、ABCD綠色，共同部分扣除後剩四邊形。"
+    },
+    {
+      "heading": "② 對角線互相垂直，面積可相乘取半",
+      "text": "沿AC切成上下兩個三角形，共同底邊是AC，高分別為2與n。因此面積等於AC乘BD再除以2，其中AC＝m＋3，BD＝n＋2。",
+      "alt": "同一坐標四邊形，水平AC和垂直BD相交成直角，長度以m＋3與n＋2表示，不靠圖上視覺比例猜數值。"
+    },
+    {
+      "heading": "③ 設AC為x，記得兩倍還要減2",
+      "text": "BD＝2x−2，代入面積56得x²−x−56＝0。分解後有8與−7兩根；長度必須為正，所以AC＝8，接著BD＝14。",
+      "alt": "完整一元二次方程式、因式分解、正根8及負根−7並列，負根只作代數解，不畫成負邊長。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 17：m＝5，n＝12",
+    "points": [
+      "AC＝m＋3＝8，所以m＝5。",
+      "BD＝n＋2＝14，所以n＝12。",
+      "m＋n＝17；回代面積與兩倍少2都成立。"
+    ]
+  },
+  "rationale": "實看原卷第5題與作答SVG；來源1628–1644僅提共享三角形消去摘要，未冒稱有完整推導。獨立精確分數求P=(-35/9,-32/9)，PAB=56/9、PCD=560/9，相減56；用等比例真坐標畫出相套與對角線，正負根分清，不將圖上解後坐標當新增已知。原答案17不變。",
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-232-source-a74e3d3a0e.jpg",
+    "site/dist/assets/questions/q-232-given.svg",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1628–1644 summary only"
+  ],
+  "answerCheckedAgainst": "Exact Fraction intersection and area differences, x roots8/-7, positive8, diagonals8/14, m5+n12=17.",
+  "generationMethod": "precise native SVG coordinate nested triangles, perpendicular diagonals and positive quadratic-root selection",
+  "visualChecked": false,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T05:12:22.229487+00:00"
+}

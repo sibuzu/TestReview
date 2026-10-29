@@ -1,0 +1,72 @@
+{
+  "id": "q-003",
+  "subject": "Math",
+  "title": "先算兩段x，再換回AE＝√2x",
+  "art": "docs/comics/art/q-003.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-003-generate.py",
+  "startedAt": "2026-10-29T05:07:41.292037+00:00",
+  "panels": [
+    {
+      "heading": "① 正方形對角線給出BE＝√2",
+      "text": "AB＝1，所以BD²＝1²＋1²＝2，BD＝√2。又BE＝BD，故BE＝√2。E在AD上方的正方形外，不能把它放到正方形裡面計算。",
+      "alt": "新精確單位正方形外點E，AE平行BD，BE與BD標同長√2，位置沿使用者已確認原圖。"
+    },
+    {
+      "heading": "② 作垂線，把AE拆成兩條相等段",
+      "text": "將BA向上延長，從E作垂線交於F。因AE∥BD，△AFE為45°等腰直角三角形。設AF＝EF＝x，則BF＝1＋x，而題目要求的AE＝√2x。",
+      "alt": "同一正方形向上延長BA至F，E垂足F，AF/EF皆x、AB1，F為直角，AE才是小三角形斜邊。"
+    },
+    {
+      "heading": "③ 在△BFE用畢氏，再乘回√2",
+      "text": "x²＋(1＋x)²＝2，整理得2x²＋2x−1＝0。取正根x＝(√3−1)／2，再算AE＝√2x＝(√6−√2)／2；不要把AF的長度x直接當成AE。",
+      "alt": "抽出同一真坐標大直角三角形BFE，兩直角邊x/1+x、斜邊√2，與小等腰直角三角形區分。"
+    }
+  ],
+  "fourth": {
+    "answer": "AE＝(√6−√2)／2",
+    "points": [
+      "大三角形BF＝1＋x，EF＝x，BE＝√2。",
+      "先得到AF＝x＝(√3−1)／2。",
+      "所求是小三角形斜邊AE，還要乘√2。"
+    ]
+  },
+  "protectedWords": [
+    "BE＝√2",
+    "BD＝√2",
+    "BD²",
+    "△AFE",
+    "△BFE",
+    "AF＝EF＝x",
+    "BF＝1＋x",
+    "AE＝√2x",
+    "x²＋(1＋x)²＝2",
+    "2x²＋2x−1＝0",
+    "(√3−1)／2",
+    "(√6−√2)／2",
+    "AF",
+    "AE"
+  ],
+  "rationale": "沿使用者已核對第17題原圖，親見對話原圖及given渲染，獨立合法坐標驗證E外部/平行/BE=BD/兩直角三角形與正根。新精確SVG特別分辨中間x與所求AE，不用人物、來源AI或重製原卷。",
+  "promptSummary": "真坐標三格：外點E與等長√2；BA延長到F的等腰直角AFE；抽出大直角BFE列x²+(1+x)²2，再乘√2回AE。",
+  "answerCheckedAgainst": "使用者提供原卷17圖與已確認AE∥BD、BE=BD、AB1，獨立坐標/兩次畢氏與正根求(√6−√2)/2。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "userProvidedOriginalInConversation": true,
+    "existingFiguresActuallyRendered": [
+      "site/dist/assets/questions/q-003-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "(√6−√2)／2",
+    "notes": "原卷照片由使用者本對話提供，E在AD上方，已確認不重問；本機given已實際渲染看過，資料images空不偽稱另有原卷檔。"
+  },
+  "geometryValidation": "docs/comics/q-003-geometry-validation.json",
+  "artSHA256": "cb602d36baf5428021fe6adf0e569394dddee24ed91e5742aa8257083876ca9a",
+  "completedAt": "2026-10-29T05:10:15.482312+00:00",
+  "checkedAt": "2026-10-29T05:10:15.482326+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-003-preview-validation.json",
+  "visualReview": "實看新540x180真坐標三格及1440/390四格：E確在AD上方，BD/BE兩長根號2；F是向上BA延長線上垂足，小x兩段與大BF1+x可對照，第三格只抽BFE不變比例。手機公式不溢出且正根與最終AE分明，桌機同列等高。"
+}

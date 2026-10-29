@@ -1,0 +1,84 @@
+{
+  "id": "q-233",
+  "subject": "Math",
+  "title": "共用DB看面積比，兩直角邊為a與2a",
+  "art": "docs/comics/art/q-233-rhombus.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:06:40.077024+00:00",
+  "panels": [
+    {
+      "heading": "① 兩圖共用對角線中心O",
+      "text": "菱形的DB與EF互相垂直平分。正方形的DB與AC也互相垂直平分，因此EF在AC上，共用中心O；圖先旋轉方便觀察。",
+      "alt": "新製旋轉正方形A左/B下/C右/D上，菱形D-E-B-F著色，E/F位於AC內；AC/DB/EF共O，直角空心在O。"
+    },
+    {
+      "heading": "② 面積比得到OE與OD",
+      "text": "兩面積公式都有二分之一乘DB，故面積一半代表EF是AC一半。設OE＝a，就有EF＝2a、AC＝DB＝4a，因此OD＝2a。",
+      "alt": "新製AC/EF/DB比例線段4a/2a/4a，O將EF與DB各分半，未把菱形兩對角線都設為相等。"
+    },
+    {
+      "heading": "③ 已知DE，求出a平方",
+      "text": "△DOE在O為直角，兩股是2a與a，斜邊DE＝√15。畢氏定理得到5a²＝15，所以a²＝3；求面積不必先化出a的根號值。",
+      "alt": "新製直角△DOE，OD:OE=2:1，DE斜邊√15，直角空心記號在O，沒有把根號15當平方15²。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 共用DB看面積比，兩直角邊為a與2a",
+    "answer": "答案：24",
+    "points": [
+      "DE²＝(2a)²＋a²＝15，所以a²＝3。",
+      "正方形兩對角線都為4a。",
+      "面積＝(4a×4a)÷2＝8a²＝24。"
+    ]
+  },
+  "protectedWords": [
+    "正方形",
+    "菱形",
+    "對角線",
+    "中心",
+    "垂直平分",
+    "面積比",
+    "直角",
+    "兩股",
+    "斜邊",
+    "畢氏定理",
+    "根號值",
+    "DB",
+    "EF",
+    "AC",
+    "OE",
+    "OD",
+    "DE",
+    "△DOE",
+    "a²",
+    "2a",
+    "4a",
+    "5a²",
+    "8a²",
+    "√15"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-233-source-464e3269b5.jpg"
+  ],
+  "originalVisualCheck": "實看6題正方形ABCD內E/F、DEBF菱形、面積一半、DE根號15與求正方形面積，原圖E/F在AC左右且DB共同長對角線。另讀given.svg核對標點；教學圖旋轉不改頂點順序。",
+  "answerCheckedAgainst": "兩圖共DB且直角對角線同中心，EF=AC/2；OE=a、OD=2a，DE²=5a²=15得a²3，正方形面積(4a)²/2=24。保持既有24。",
+  "rationale": "新製旋轉對角線著色、三條比例線段、DOE的1:2直角三角形分步SVG，分清菱形對角線與正方形等長對角線；無人物或來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "EFtoAC": 0.5,
+    "OE": "a",
+    "EF": "2a",
+    "AC": "4a",
+    "DB": "4a",
+    "OD": "2a",
+    "DE": "sqrt15",
+    "aSquared": 3,
+    "area": 24
+  },
+  "artSHA256": "93198b3c1691c613223fae18deffd8bc0f95857ef0b1c407b7247a9d2f9dcb63",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:07:10.530272+00:00",
+  "completedAt": "2026-10-29T05:07:10.530272+00:00",
+  "layoutEvidence": "docs/comics/q-233-preview-validation.json",
+  "visualReview": "實看1440/1120/390：旋轉示意A左/B下/C右/D上仍保持原鄰接，菱形DEBF與共中心O正確；EF半長、OD2a/OEa/DE根號15直角三角形相符。字圖無裁切溢出，同列等高手機自然高。"
+}

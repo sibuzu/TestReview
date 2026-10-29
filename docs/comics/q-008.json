@@ -1,0 +1,74 @@
+{
+  "id": "q-008",
+  "subject": "Math",
+  "title": "先找兩底，再把底差三角形的高算出來",
+  "art": "docs/comics/art/q-008.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-008-generate.py",
+  "startedAt": "2026-10-29T05:06:03.839032+00:00",
+  "panels": [
+    {
+      "heading": "① 六種配底，只剩1與4可行",
+      "text": "兩腰與兩底之差必須能圍成有面積的三角形。六種底邊配法逐一檢查，只有底1、4和腰2、3可行；其餘不是退化，就是不符合三角形不等式。",
+      "alt": "逐列列出六種底邊組合及對應兩腰和底差，只有1/4那列通過嚴格三角形不等式。"
+    },
+    {
+      "heading": "② 平移長3的腰，留下底差3",
+      "text": "將梯形標為ABCD，AD＝1、BC＝4。在BC上取T，使TC＝AD＝1，則ADCT為平行四邊形，AT＝DC＝3。△ABT的三邊為2、3、3，且與梯形同高。",
+      "alt": "新精確梯形AB2/AD1/DC3/BC4，補AT平行DC，TC1與AD1同色，底差BT3；內三角形與梯形共用同高。"
+    },
+    {
+      "heading": "③ 作高h，兩式相減求投影x",
+      "text": "作AH⊥BT，設BH＝x、AH＝h。x²＋h²＝4，(3−x)²＋h²＝9；相減得9−6x＝5，所以x＝2／3。再得h²＝4−4／9＝32／9，即h＝4√2／3。",
+      "alt": "底差三角形ABT的真坐標高AH，BH=x、HT=3−x，高同時滿足腰長2/3的畢氏定理。"
+    }
+  ],
+  "fourth": {
+    "answer": "面積＝10√2／3平方單位",
+    "points": [
+      "兩底為1與4，兩腰為2與3。",
+      "高h＝4√2／3。",
+      "面積＝(1＋4)×h÷2＝10√2／3。"
+    ]
+  },
+  "protectedWords": [
+    "三角形不等式",
+    "AD＝1",
+    "BC＝4",
+    "TC＝AD＝1",
+    "ADCT",
+    "AT＝DC＝3",
+    "△ABT",
+    "AH⊥BT",
+    "BH＝x",
+    "AH＝h",
+    "x²＋h²＝4",
+    "(3−x)²＋h²＝9",
+    "9−6x＝5",
+    "x＝2／3",
+    "h＝4√2／3",
+    "10√2／3",
+    "h²"
+  ],
+  "rationale": "親見原卷無圖完整1/2/3/4題幹；獨立枚舉六種底配及7長度/平行平移/畢氏與面積核定。新精確SVG把容易假設最長兩邊為底的陷阱及底差三角形具體呈現，不用人物或來源AI。",
+  "promptSummary": "原生三格：六組底配嚴格不等式表；合法梯形及平移腰作BT3；抽出精確2/3/3三角形作高x/3−x並求h。",
+  "answerCheckedAgainst": "原卷四邊1/2/3/4；窮舉唯一底1/4，真坐標兩腰2/3、高4√2/3、面積10√2/3，與既有答案一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-008-source-9690790e2a.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "10√2／3",
+    "notes": "原卷只有完整一句無選項/必要圖，點名A/B/C/D/T/H均為新解題構造並明示，未假稱原卷標記。"
+  },
+  "geometryValidation": "docs/comics/q-008-geometry-validation.json",
+  "artSHA256": "e5bc82a97fd9e4af65595e38afd2f9543b7db25f6a03343b38823659781f01ad",
+  "completedAt": "2026-10-29T05:07:41.224788+00:00",
+  "checkedAt": "2026-10-29T05:07:41.224801+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-008-preview-validation.json",
+  "visualReview": "實看540x180原生三格及最終1440/390：六組底配只有1/4綠列，梯形1/4與腰2/3和內移AT/TC點序正確，抽出三角形高腳在線段內；h平方保護後手機不再拆開h與上標。三寬無橫溢，同列等高及手機自然高度。"
+}

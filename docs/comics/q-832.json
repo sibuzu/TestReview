@@ -1,0 +1,143 @@
+{
+  "id": "q-832",
+  "subject": "English",
+  "title": "路況先分方向，再看必經路口與是否繞遠",
+  "art": "docs/comics/art/q-832.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-832-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① going south：只有南下慢，別擴成雙向",
+      "text": "報導說 Bank Road 往南車流慢。Joe 沿 Bank Road 往北，不能因道路同名，就認為他也必定遇到南下的壅塞。先按北箭頭分清 north 與 south，才把路況放回路線。",
+      "alt": "全新精確SVG同一Bank南下紅箭/北上藍箭，藍僅標Joe方向，不保證所有北上路況永遠暢通；不把南下塞車擴成雙向。"
+    },
+    {
+      "heading": "② A 先北上，再沿 Park Road 向西",
+      "text": "咖啡館在 Lake Road 以東。A 沿 Bank 北上，接 Park 向西，到咖啡館時還沒到 Lake；符合西向車流到 Lake 前尚順暢的資訊。原卷地圖要保留看，這裡只抽出必要道路關係。",
+      "alt": "全新精確非比例拓撲SVG保留Lake/Green/Bank西東順序與Park北Market南、Cafe在Lake與Green之間、Joe家在Bank東南側，以A北後西路線說明；不是替換或裁掉原必要地圖。"
+    },
+    {
+      "heading": "③ B、C 經施工路口，D 往東繞遠",
+      "text": "B、C 都會經過 Market 與 Green 交叉施工處；D 先向東繞 Rainbow，再回到 Park，路線更繞。比較題中路況與路線，A 最直接。題目沒有分鐘、車速，不另估造通行時間。",
+      "alt": "全新精確SVG分類B/C經Market與Green施工點、D繞Rainbow、A在Lake以東先到咖啡館；不畫整條Green封閉、Lake之後必塞或不存在的分鐘數。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：Bank Road → Park Road",
+    "points": [
+      "Bank 向南慢，不可直接套到 Joe 的向北路線。",
+      "咖啡館在 Lake 以東，Park 西行先到目的地。",
+      "B、C 受施工路口影響；D 比 A 繞遠。"
+    ]
+  },
+  "protectedWords": [
+    "Bank Road",
+    "Park Road",
+    "Market Road",
+    "Green Road",
+    "Lake Road",
+    "Rainbow Road",
+    "Market",
+    "Green",
+    "Bank",
+    "Park",
+    "Lake",
+    "Rainbow",
+    "Joe",
+    "north",
+    "south",
+    "going south",
+    "西向",
+    "北上",
+    "南下",
+    "交叉",
+    "施工",
+    "咖啡館",
+    "通行時間",
+    "繞遠"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini061-a24ec85bfe8753.jpg",
+      "site/dist/assets/questions/gemini061-adc50b8fad3e1f.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/gemini061-2fdb04eb3a43ff.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見報導全文/原卷地圖北箭頭與六路街/30四項紅改A。Cafe在Lake以東且Green以西，Joe家在Bank東側Market南側；A北後西，B/C必過MarketGreen施工，D東繞。無分鐘數。"
+  },
+  "sourceUrl": "https://share.gemini.google/PG8U2uUXtGhv",
+  "answerCheckedAgainst": "原圖拓撲與方向逐一對報導going south/Westbound untilLake/MarketGreen roadwork，A不經報導堵點，D多向東折返；不假設速度或道路長度。",
+  "integrationNotes": "保留原卷questionFigures街道地圖。新圖僅精確道路關係示意，不能拿新SVG替掉必要原圖；既有手寫與原圖通則照現有資料，不再清除原圖。",
+  "rationale": "重點是方向性路況、咖啡館在Lake之前與繞道比較，以拓撲箭頭比人物圖精確。不造分鐘或目前交通、不把到Lake前順暢改為以後一定塞。起點圖為相對位置示意，不主張實際車道出口。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "A",
+    "westEastOrder": [
+      "Lake",
+      "Green",
+      "Bank",
+      "Rainbow"
+    ],
+    "northRoad": "Park",
+    "southRoad": "Market",
+    "cafeBetween": [
+      "Lake",
+      "Green"
+    ],
+    "joeRelativeToBankMarket": "東南側",
+    "slowDirectionOnBank": "south",
+    "aDirectionSequence": [
+      "north",
+      "west"
+    ],
+    "constructionIntersection": [
+      "Market",
+      "Green"
+    ],
+    "minutesInvented": false,
+    "afterLakeDefinitelyJammedClaimed": false,
+    "originalNecessaryMapReplaced": false
+  },
+  "artSHA256": "7439f759755059a1cfcb2bcfe2a9f5cc2bbaf588c508bbdac24ff7e06a0ee6cd",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T12:05:34.435088+00:00",
+  "previewValidation": "docs/comics/q-832-preview-validation.json",
+  "routeValidation": "docs/comics/q-832-route-validation.json",
+  "visualReview": "親見原報導/必要地圖北箭頭咖啡館家與各街/30四項紅改A；原尺寸SVG及最終1440/390實看。獨立核實SVG A北後西與Cafe在LakeGreen間、BC經MarketGreen施工，D先東繞。方向為獨立圖卡不是左右行車道，未暗示A有堵點，無分鐘速度假造。原必要地圖保留，三寬PASS。",
+  "nativeArt": "assets/comics/q-832-art-7439f75975.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T12:05:34.430053+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "交通報導全文、30題四選紅A與原街圖北箭頭/六道路/家及咖啡館親見。原圖Lake-Green-Bank-Rainbow次序、Joe在Bank東南、Cafe在Lake東Green西，A北後西；BC經MarketGreen施工，D東繞。新獨立方向卡/非比例必要拓撲/路口對比親見，不造分鐘、車速、Lake後必堵或A必經堵點；原questionFigures地圖保留後再assert。正式1440/390實看、六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-832-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-832-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-832-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-832-validation.json"
+}

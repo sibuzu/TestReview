@@ -8,6 +8,45 @@ from .comic_pipeline import claim, stage, begin, integrated, load, save, update_
 
 
 class PipelineTests(unittest.TestCase):
+    def test_group_review_remains_active_without_restoring_comic_claims(self):
+        with TemporaryDirectory() as directory:
+            root = self.idle_integration_fixture(directory)
+            config = load(root/'monitor/parallel.json')
+            config['lanes'][1].update(role='group_review', claimsPaused=True,
+                                      activeTask={'title':'逐組核對共同閱讀與小題'})
+            save(root/'monitor/parallel.json', config)
+            self.assertIsNone(claim(root, 2))
+            self.assertIsNotNone(claim(root, 3))
+            lane = load(root/'monitor/parallel.json')['lanes'][1]
+            self.assertEqual(lane['state'], 'reviewing')
+            self.assertEqual(lane['title'], '逐組核對共同閱讀與小題')
+            self.assertTrue(lane['claimsPaused'])
+
+    def test_lane_pause_finishes_current_job_blocks_new_claims_and_preserves_other_worker(self):
+        with TemporaryDirectory() as directory:
+            root = self.idle_integration_fixture(directory)
+            config = load(root/'monitor/parallel.json')
+            config['lanes'][1]['role'] = 'production'
+            save(root/'monitor/parallel.json', config)
+            current = claim(root, 2)
+            config = load(root/'monitor/parallel.json')
+            config['lanes'][1].update(claimsPaused=True, pauseReason='使用者指定完成當前後暫停')
+            save(root/'monitor/parallel.json', config)
+            # The already-reserved work remains available to its owner.
+            self.assertEqual(claim(root, 2)['jobId'], current['jobId'])
+            evidence = 'docs/comics/review.json'
+            (root/evidence).write_text('{}')
+            stage(root, current['id'], 'not_suitable', 'Reviewed current job.', [evidence])
+            self.assertIsNone(claim(root, 2))
+            paused = load(root/'monitor/parallel.json')['lanes'][1]
+            self.assertEqual(paused['state'], 'paused')
+            self.assertIsNone(paused['questionId'])
+            self.assertEqual(paused['title'], '使用者指定完成當前後暫停')
+            other = claim(root, 3)
+            self.assertIsNotNone(other)
+            self.assertNotEqual(other['id'], current['id'])
+            self.assertEqual(load(root/'monitor/parallel.json')['lanes'][1]['state'], 'paused')
+
     def idle_integration_fixture(self, directory):
         root = Path(directory)
         (root/'monitor').mkdir()

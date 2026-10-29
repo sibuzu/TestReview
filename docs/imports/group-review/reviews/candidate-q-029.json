@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-029",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T11:59:24.671880+00:00",
+  "decision": "confirmed",
+  "questionIds": [
+    "q-029",
+    "q-031"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-029-q-031",
+      "questionIds": [
+        "q-029",
+        "q-031"
+      ],
+      "retainId": "q-029",
+      "aliasIds": [
+        "q-031"
+      ],
+      "subject": "Physics-Chemistry",
+      "sourceIds": [
+        "src-9"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/4y9jAamQ8xdh"
+      ],
+      "printedRange": "同一自然原卷，共同實驗後印刷第15、16題",
+      "originalQuestionNumbers": {
+        "q-029": "15",
+        "q-031": "16"
+      },
+      "commonMaterial": {
+        "passage": "小明想了解外觀為白色粉末的化合物中所含有的物質，而進行以下實驗：\n步驟一：取部分粉末加入水中，溶解後發現水溶液可導電。\n步驟二：取部分粉末置於試管中加熱，可觀察到澄清石灰水變混濁。\n步驟三：待步驟二的試管冷卻後，取試管內管口附近的透明液體，滴在藍色氯化亞鈷試紙上，發現試紙變成粉紅色。",
+        "tables": [],
+        "requiredFigureRefs": [
+          "assets/questions/q-029-experiment-a552bc8290.jpg"
+        ],
+        "note": "實驗裝置在共同說明原圖，不可只留文字而漏原印試管/導管/石灰水圖；保留原件不臆造裝置。"
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-029-experiment-a552bc8290.jpg",
+          "sha256": "a552bc8290ff77ce2527337a81b92db8e3af2ef2c9c0b3f77ec4fb7647c1c6de",
+          "visibleHeader": "共同實驗說明含「而進行以下實驗、試回答下列問題」，右上原印加熱試管/導管/澄清石灰水裝置，步驟一至三完整。",
+          "questionNumbers": [],
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-029-source-3a6c11337f.jpg",
+          "sha256": "3a6c11337f7d03c7fba878ba4e787f8d9f3eb5a819ea657a8dee44c5df78ae5b",
+          "visibleHeader": "印刷15綜合步驟一二辨白色化合物，A葡萄糖/B氫氧化鈉/C氯化鈣/D碳酸氫鈉。",
+          "questionNumbers": [
+            "15"
+          ],
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-031-source-7e3f6a2f4c.jpg",
+          "sha256": "7e3f6a2f4c0212fb8d64b5e151f614c933ba049351c51dc05868c43fdec72b6e",
+          "visibleHeader": "印刷16問也產生步驟三所檢測物質相同產物，A乙酸乙醇/B鎂二氧化碳/C鋅鹽酸/D氮氣氧氣。",
+          "questionNumbers": [
+            "16"
+          ],
+          "visualChecked": true
+        }
+      ],
+      "reason": "不只是相同內容或同網址：共同題頭明令試答下列問題，兩個不同題幹各直接引用步驟一二/步驟三，原卷印刷15/16連續，均在同一自然原卷第1張且共用同實驗。題幹與全部四選不同，是兩子題而非重複。",
+      "childCoverage": [
+        {
+          "questionId": "q-029",
+          "originalQuestionNumber": "15",
+          "sourceId": "src-9",
+          "date": "2026-06-24",
+          "addedAt": "2026-10-27",
+          "correctOption": "D",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "teachingComic": {
+            "title": "導電＋放出二氧化碳，兩線索一起比",
+            "art": "assets/comics/q-029-art-03fd600c67.svg",
+            "panels": [
+              {
+                "heading": "① 水溶液導電：有可移動離子",
+                "text": "粉末溶於水後能導電，表示溶液中有可移動的離子。葡萄糖水溶液不易導電，因此不能只憑白色外觀選A。",
+                "alt": "低電壓電池與發亮燈泡串聯兩支不接觸的浸液電極，藍正離子/橘負離子只是示意，不把固體粉末直接當可導電。"
+              },
+              {
+                "heading": "② 加熱後，石灰水變混濁",
+                "text": "產生的氣體讓澄清石灰水變混濁，是二氧化碳的線索。B、C雖可形成導電溶液，卻不符合這次加熱的產氣條件。",
+                "alt": "加熱白色粉末的試管以導管將氣體送入石灰水，顯示白色混濁；只是反應線索示意，不是完整操作步驟圖。"
+              },
+              {
+                "heading": "③ 試紙藍變粉紅：也驗出水",
+                "text": "試管冷卻後，透明液體使藍色氯化亞鈷試紙變粉紅色。這與碳酸氫鈉加熱分解也產生水相符，補強判斷。",
+                "alt": "左側藍試紙對照右側液滴作用後粉紅試紙，保留冷卻後才取液的HTML條件，不在加熱時直接操作取液。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：碳酸氫鈉",
+              "points": [
+                "先用導電排除葡萄糖。",
+                "再用加熱產CO₂確認四選項中符合者。",
+                "加熱分解：2NaHCO₃ → Na₂CO₃＋CO₂＋H₂O。"
+              ]
+            },
+            "protectedWords": [
+              "水溶液",
+              "可移動離子",
+              "葡萄糖",
+              "澄清石灰水",
+              "二氧化碳",
+              "導電溶液",
+              "氯化亞鈷",
+              "試紙",
+              "粉紅色",
+              "碳酸氫鈉",
+              "加熱分解",
+              "2NaHCO₃",
+              "Na₂CO₃",
+              "CO₂",
+              "H₂O"
+            ]
+          },
+          "explanationFigures": []
+        },
+        {
+          "questionId": "q-031",
+          "originalQuestionNumber": "16",
+          "sourceId": "src-9",
+          "date": "2026-06-24",
+          "addedAt": "2026-10-27",
+          "correctOption": "A",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "teachingComic": {
+            "title": "先認出步驟三的水，再比對反應產物",
+            "art": "assets/comics/q-031-art-1b96aa2190.svg",
+            "panels": [
+              {
+                "heading": "① 步驟三驗的是水",
+                "text": "藍色氯化亞鈷試紙變粉紅色，檢測出水。題目指定步驟三；不要誤用步驟二的石灰水，把目標換成二氧化碳。",
+                "alt": "重用同題組q029試紙示意做本題第一格：藍紙與液滴作用後粉紅紙，目標是水而非石灰水檢測的CO2。"
+              },
+              {
+                "heading": "② 乙酸與乙醇，酯化會產生水",
+                "text": "乙酸與乙醇進行酯化反應，產物包括乙酸乙酯和水。因此A符合「也有同樣產物」；不是要找到完全相同的反應。",
+                "alt": "兩瓶無色試劑以原生文字標乙酸/乙醇，HTML說明在酯化反應中產生酯和水，不是任意常溫混合立即完全反應。"
+              },
+              {
+                "heading": "③ 氫氣不是水，產物要分清",
+                "text": "C的鋅與鹽酸生成氫氣H₂，不是水H₂O。B的鎂與二氧化碳、D的氮氣與氧氣也不符；兩組反應物都沒有氫元素。",
+                "alt": "精確球棒對比一O二H水分子與二H氫分子，只表示原子種類與連結，不是實際原子大小或分子間距比例。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：乙酸＋乙醇",
+              "points": [
+                "目標是水，來自氯化亞鈷試紙檢驗。",
+                "乙酸＋乙醇 ⇌ 乙酸乙酯＋水。",
+                "只要有相同產物，不必是同一種反應。"
+              ]
+            },
+            "protectedWords": [
+              "步驟三",
+              "步驟二",
+              "氯化亞鈷",
+              "粉紅色",
+              "石灰水",
+              "二氧化碳",
+              "乙酸",
+              "乙醇",
+              "酯化反應",
+              "乙酸乙酯",
+              "氫氣",
+              "氫元素",
+              "H₂O",
+              "H₂"
+            ]
+          },
+          "explanationFigures": []
+        }
+      ],
+      "mergeRequirements": [
+        "共同三步實驗與必要裝置圖列一次。",
+        "15與16完整題幹、四選、各自D/A答案及詳解均保留。",
+        "兩子現有自己新製SVG四格均完整保留，不能只保留q029一份；舊原件不可失去引用。",
+        "FLAG/疑義/作題淨數歷史按原始題ID保留；aliases只改閱讀入口，不刪兩子標記或事件；由root/1驗相容後入庫。",
+        "本輪候選全部核畢前只排確認QUEUE，不產合併稿或發布。"
+      ],
+      "representativeSubjectReason": "本組全部子題同科，共同原卷材料和各小題均屬此科。"
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-029",
+      "q-031"
+    ],
+    "confirmedQuestionIds": [
+      "q-029",
+      "q-031"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-029": "f94a4bc885f72429891675ce9309aa25621df67c92e45d8924b6110702cb8a7e",
+    "q-031": "0c757cc11d632f58856f4bbb095d1251c7505ae865c37b6245d08b4fc621b44e"
+  },
+  "reviewRevision": 2
+}

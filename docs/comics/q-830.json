@@ -1,0 +1,126 @@
+{
+  "id": "q-830",
+  "subject": "English",
+  "title": "已賣房是過去，預定下月搬家是未來",
+  "art": "docs/comics/art/q-830-future-arrangement.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T11:43:53.408313+00:00",
+  "panels": [
+    {
+      "heading": "① sold只說已賣房，next month另指未來",
+      "text": "They sold their house表示賣房已發生；next month則說明搬家在下個月。兩個動作時間不同，不能見sold就把後句也選成過去式。",
+      "alt": "新製過去sold/現在now/未來move三點時間軸，next month接未來搬家，不把賣房和搬家同放過去，也不畫成現在已搬完。"
+    },
+    {
+      "heading": "② are moving可以表示已安排的未來",
+      "text": "現在進行式be + V-ing，除了正在進行，也可表已安排的未來行動。They搭配are，接moving，再配合next month，表示他們預定下月搬家。",
+      "alt": "新製They/are/moving三詞框及現在已安排→next month預定搬家的時間軸，強調本句未來用法，不把所有進行式都說成未來。"
+    },
+    {
+      "heading": "③ 其他形式放回各自的時間觀點",
+      "text": "moved表示過去搬家；would move通常要有過去觀點或假設語境；were going to move談過去的計畫。本句在陳述目前已定安排，B最合適。",
+      "alt": "新製A moved過去動作/C would move過去觀點或假設/D were going to move過去計畫三列，不說D必然取消，不把C/D斷為任何情境都不合語法。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 依目前安排與未來時間，填are moving",
+    "answer": "答案 B：are moving",
+    "points": [
+      "next month把搬家時間指向未來。",
+      "They + are + moving，表預定安排。",
+      "sold只管前句賣房，不迫後句用過去式。",
+      "were going to談過去計畫，不必然已取消。"
+    ]
+  },
+  "protectedWords": [
+    "sold",
+    "next month",
+    "are moving",
+    "be + V-ing",
+    "They",
+    "are",
+    "moving",
+    "moved",
+    "would move",
+    "were going to",
+    "move",
+    "現在進行式",
+    "過去式",
+    "已安排",
+    "預定安排",
+    "未來行動",
+    "過去觀點",
+    "假設語境"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/gemini061-1a7c2920777d6e.jpg"
+  ],
+  "originalVisualCheck": "實看來源61 page02-q02原卷完整They sold their house, so they...to a new apartment next month，A moved/B are moving/C would move/D were going to move；學生D劃訂紅B，與正式B一致。原題未提計畫取消，不擅加取消情節。",
+  "answerCheckedAgainst": "原卷紅B/正式B；British Council官網搜尋擷取內容列現在進行式future plans or arrangements，Cambridge官網搜尋擷取內容列過去計畫may have changed而非必取消。兩原頁再實開分別逾時/403，未冒稱完整原頁成功載入；保留國中本句現在已定安排判斷。",
+  "rationale": "時間軸和be+V-ing句構能直接降低見sold便全選過去式的錯誤，比把搬家人物畫成現在正在搬更準確；採新精確SVG三圖及可換行HTML，未重用來源AI圖或虛構賣房金額、搬家日期。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "British Council：Present continuous",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous",
+      "checked": "官方搜尋擷取正文核對be+ing與future plans or arrangements；原頁再開逾時，非聲稱已完整載入"
+    },
+    {
+      "title": "Cambridge English Grammar Today：Going to",
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/going-",
+      "checked": "官方搜尋擷取正文核對was/were going to談過去計畫may have changed；原頁再開403，未聲稱完整載入"
+    }
+  ],
+  "diagramChecks": {
+    "sold": "過去已發生賣房",
+    "moving": "本句現在安排的下月動作",
+    "TheyBeAgreement": "are",
+    "VingForm": "moving",
+    "DGuaranteedCancelled": false,
+    "everyPresentContinuousFuture": false,
+    "sourceAIReuse": false
+  },
+  "timingEvidence": "docs/comics/q-830-timing.json",
+  "pauseAfterStageUserRequested": true,
+  "completedAt": "2026-10-29T11:48:53.330924+00:00",
+  "checkedAt": "2026-10-29T12:00:32.179206+00:00",
+  "layoutEvidence": "docs/comics/q-830-preview-validation.json",
+  "visualReview": "實看原卷2黑D紅B，精確時間軸/They-are-moving句構/A-C-D時間觀點三新SVG圖與1440/1120/390全部截圖；sold在過去、move與next month在未來，現在已安排箭頭方向正確，D未畫取消或錯誤文法叉。英文字不拆、短片語不溢出，桌同列等高/手機單欄自然高度，預設收合/圖片解碼QA PASS。",
+  "artSHA256": "26f4d910a2798f3e67467cad3b64068354a8a309d3ac66a42490a5bb4adb2980",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-830-1440.png",
+    "/tmp/weirugo-comic-previews/q-830-1120.png",
+    "/tmp/weirugo-comic-previews/q-830-390.png"
+  ],
+  "nativeArt": "assets/comics/q-830-art-26f4d910a2.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T12:00:32.172974+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原2完整sold their house...next month/四項與黑D紅B親見。新SVG賣房過去/現在安排/下月搬家、They-are-moving句構及ACD各時間觀點親見，B已安排未來；D未斷必取消，C未斷一切情境皆錯。正式桌手機字圖親見、六檢PASS，為Agent2最後一般插畫交稿。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-830-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-830-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-830-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-830-validation.json"
+}

@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-070",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:00:55.165645+00:00",
+  "decision": "confirmed",
+  "questionIds": [
+    "q-070",
+    "q-455",
+    "q-456"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-070-q-455-q-456",
+      "questionIds": [
+        "q-070",
+        "q-455",
+        "q-456"
+      ],
+      "retainId": "q-070",
+      "aliasIds": [
+        "q-455",
+        "q-456"
+      ],
+      "suggestedSubject": "English",
+      "childSubjects": {
+        "q-070": "English",
+        "q-455": "English",
+        "q-456": "English"
+      },
+      "sourceIds": [
+        "src-more-016"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05440-0730-83e8-b0cd-2aaf6ed219d7"
+      ],
+      "printedRange": "同一src-more-016原卷連續32-34三題，共用Green Stadium唯一讀文、票券表與三座位圖，33裁圖同時保留32尾/34頭證明相鄰；是三個不同問法而非重複。",
+      "originalQuestionNumbers": {
+        "q-070": "32",
+        "q-455": "33",
+        "q-456": "34"
+      },
+      "commonMaterial": {
+        "passage": "Watch a National Soccer Game at Green Stadium!\n\nIf you are a soccer fan, don’t miss the exciting national soccer game next weekend at Green Stadium. You can also go to some special places near the stadium before or after the game. Let’s cheer for our favorite team!\n\nPeople with the Purple Pass can take a photo with soccer players after the game.\n\nThere are several interesting places around Green Stadium. At Prize Ground, you can find souvenirs like caps, T-shirts and toys. Kick Café is a good place for a quick coffee or being with friends. You can also visit the Fan Museum to learn about the history of famous soccer teams and the experiences of some players.\n\n字詞：stadium 體育場；souvenir 紀念品。",
+        "tables": [
+          {
+            "caption": "原題票券表",
+            "headers": [
+              "Color",
+              "Price",
+              "Seating Area",
+              "Free Items"
+            ],
+            "rows": [
+              [
+                "Yellow Pass",
+                "NT$200",
+                "Area 3",
+                "No"
+              ],
+              [
+                "Blue Pass",
+                "NT$400",
+                "Area 2",
+                "Drinks"
+              ],
+              [
+                "Purple Pass",
+                "NT$600",
+                "Area 1",
+                "Snacks and drinks"
+              ]
+            ]
+          }
+        ],
+        "questionFigures": [
+          {
+            "src": "assets/questions/q-070-seating-71727c7884.jpg",
+            "alt": "原題座位圖：Area 1位於最內側，外側依序為Area 2、Area 3",
+            "caption": "原題座位區示意圖"
+          }
+        ]
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-070-reading-source-cb2d21e910.jpg",
+          "visibleHeader": "原文Watch a National Soccer Game at Green Stadium，含同頁三色票價/座位/贈品表、Area1-3圖、紫票賽後合照與周邊場所文。",
+          "questionNumbers": [],
+          "sha256": "cb2d21e9101284f9096161237f8a57a626e3de374259a39b3fd9f072eb165d25",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-070-source-fa3dfad43d.jpg",
+          "visibleHeader": "印刷32問Area1賽後待遇及完整四選。",
+          "questionNumbers": [
+            "32"
+          ],
+          "sha256": "fa3dfad43db0a134ff94e360f44c318f11c695837b9d0ff2674bde043368794d",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-455-source-74997d81dc.jpg",
+          "visibleHeader": "印刷33四選；頂端保留32的D尾句，底端接34的King Soccer Team題幹，原印相鄰連續可核。",
+          "questionNumbers": [
+            "32(tail)",
+            "33",
+            "34(head)"
+          ],
+          "sha256": "74997d81dc9674a68f6ad797c706e018d12384467b503c416ebadccce77fc607",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-456-source-748e2f5a4a.jpg",
+          "visibleHeader": "印刷34問Jocelyn了解球隊歷史，頂端接33的D，四選引用同篇三場所與球場。",
+          "questionNumbers": [
+            "33(tail)",
+            "34"
+          ],
+          "sha256": "748e2f5a4ab468b7113d1a7159d6db13352a35276bef0886571e478d72d46f44",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-016原卷連續32-34三題，共用Green Stadium唯一讀文、票券表與三座位圖，33裁圖同時保留32尾/34頭證明相鄰；是三個不同問法而非重複。",
+      "childCoverage": [
+        {
+          "questionId": "q-070",
+          "originalQuestionNumber": "32",
+          "sourceId": "src-more-016",
+          "date": "2026-09-08",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "C",
+          "questionFingerprint": "33aab628a3f940c817586effe6b66bb77ec5b017ae9d0a1979fd5dc0d89bf4ed",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-070-reading-source-cb2d21e910.jpg",
+            "assets/questions/q-070-source-fa3dfad43d.jpg"
+          ],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-070-seating-71727c7884.jpg",
+              "alt": "原題座位圖：Area 1位於最內側，外側依序為Area 2、Area 3",
+              "caption": "原題座位區示意圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "紫票讓你和球員一起入鏡",
+            "art": "assets/comics/q-070-art-64c4bb1d79-web.webp",
+            "panels": [
+              {
+                "heading": "① Area 1對應Purple Pass",
+                "text": "先查票券表：Area 1是紫票座位區。接著找題目問的after the game，不只看表內的點心和飲料。",
+                "alt": "藍衣球迷持純紫色無字票券坐在球場旁，精確區域與票種以HTML說明。"
+              },
+              {
+                "heading": "② with players：和球員一起合照",
+                "text": "註記說紫票持有人賽後能take a photo with soccer players。球迷和球員一起入鏡，正是C的take a picture with players。",
+                "alt": "賽後藍衣球迷與兩名綠衣足球員一起讓另一人拍照；不是比賽中，也沒有送禮。"
+              },
+              {
+                "heading": "③ of players：照片裡呈現球員",
+                "text": "第三圖只是對照概念：a photo of soccer players指球員的照片，不等於和球員合照。D還加了原文沒說的免費足球。",
+                "alt": "純概念對照照片中只有兩名球員，沒有藍衣球迷；非聲稱原文有發照片或贈品。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：有機會與球員合照",
+              "points": [
+                "Area 1 → Purple Pass → 賽後合照。",
+                "with表示合照對象；of指出照片所呈現的人物。",
+                "不能把未寫明的蛋糕、帽子、T恤或足球當成贈品。"
+              ]
+            },
+            "protectedWords": [
+              "Area 1",
+              "Purple Pass",
+              "after the game",
+              "with players",
+              "of players",
+              "take a photo",
+              "take a picture",
+              "soccer players"
+            ]
+          }
+        },
+        {
+          "questionId": "q-455",
+          "originalQuestionNumber": "33",
+          "sourceId": "src-more-016",
+          "date": "2026-09-08",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "55e1f9894e03461f555c90a2ff5ce800cfd8f13cb3793aac006663c0feafb1f7",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-070-reading-source-cb2d21e910.jpg",
+            "assets/questions/q-455-source-74997d81dc.jpg"
+          ],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-070-seating-71727c7884.jpg",
+              "alt": "原題座位圖：Area 1位於最內側，外側依序為Area 2、Area 3",
+              "caption": "原題座位區示意圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "把票種、座位和差額分開讀",
+            "art": "assets/comics/q-455-art-0db5d5b68a.svg",
+            "panels": [
+              {
+                "heading": "① 票種先對回區域",
+                "text": "黃票200元、Area 3；藍票400元、Area 2；紫票600元、Area 1。A說Area 3有免費點心或飲料，但表中黃票的免費品是No。",
+                "alt": "三張相同大小票券卡列正確票色、區域、票價；卡片大小不代表座位大小或票價比例。"
+              },
+              {
+                "heading": "② 最外圈才是the farthest",
+                "text": "簡化圖保留原圖內外次序：紫色Area 1最內側，黃色Area 3最外側。D說黃票座位離場地最遠，符合原圖；C的藍票不是最前方。",
+                "alt": "依原座位圖簡化三個同心矩形：黃3外、藍2中、紫1內，中間綠色場地；非實際尺度或座位數。"
+              },
+              {
+                "heading": "③ more than問的是多出多少",
+                "text": "B說紫票比其他票多600元，不能只看到紫票票價600元就選。紫票比黃票多400元，比藍票多200元，兩個差額都不是600元。",
+                "alt": "兩個獨立正確減法600減200等於400、600減400等於200，清楚區分票價與價差。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：黃票座位離場地最遠",
+              "points": [
+                "票種查表格，遠近讀座位圖。",
+                "黃票 → Area 3 → 最外側。",
+                "costs 600 more than不是costs 600；要比較差額。"
+              ]
+            },
+            "protectedWords": [
+              "Area 1",
+              "Area 2",
+              "Area 3",
+              "the farthest",
+              "more than",
+              "600元",
+              "400元",
+              "200元",
+              "Yellow Pass",
+              "Blue Pass",
+              "Purple Pass"
+            ]
+          }
+        },
+        {
+          "questionId": "q-456",
+          "originalQuestionNumber": "34",
+          "sourceId": "src-more-016",
+          "date": "2026-09-08",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "8fce487e33c413d20bc26f02561fd35c6d566bf77c4011119be1f244510e74df",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-070-reading-source-cb2d21e910.jpg",
+            "assets/questions/q-456-source-748e2f5a4a.jpg"
+          ],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-070-seating-71727c7884.jpg",
+              "alt": "原題座位圖：Area 1位於最內側，外側依序為Area 2、Area 3",
+              "caption": "原題座位區示意圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "想了解history，就找文章的Museum線索",
+            "art": "assets/comics/q-456-art-3bc6610e52-web.webp",
+            "panels": [
+              {
+                "heading": "① 先抓Jocelyn想知道什麼",
+                "text": "她是球隊的球迷，但這次問的是去哪裡了解球隊的history，也就是歷史。不是只要與足球有關的地方就能選。",
+                "alt": "球迷少女讀空白參觀手冊，普通球場外觀只提示足球情境，不新增賽事、隊徽、票種或場館實際位置。"
+              },
+              {
+                "heading": "② 文章直接把歷史對應到Fan Museum",
+                "text": "原文明寫可visit the Fan Museum，了解著名球隊的history與部分球員經歷。這與問題需求直接吻合，所以選B。圖為想像的足球歷史展示。",
+                "alt": "匿名足球文物展示與學習情境，不冒充實際Fan Museum布局、球隊史實或真實球員照片，無年份隊徽。"
+              },
+              {
+                "heading": "③ 其他地點各有用途，依本文配對",
+                "text": "Kick Café是喝咖啡、與朋友聚會；Prize Ground找紀念品；Green Stadium舉辦比賽。本題不是在問這些活動，應回文找最直接的功能說明。",
+                "alt": "師生比較完整閱讀與空白選項卡，精確地點功能均由HTML，不把賽場等同提供球隊歷史的地方。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：The Fan Museum",
+              "points": [
+                "問題需求：了解球隊歷史。",
+                "原文線索：history與Fan Museum。",
+                "都與足球相關，仍要依場所功能配對。"
+              ]
+            },
+            "protectedWords": [
+              "history",
+              "Fan Museum",
+              "King Soccer Team",
+              "Kick Café",
+              "Prize Ground",
+              "Green Stadium",
+              "Jocelyn"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "subject": "English",
+      "representativeSubjectReason": "本組全部子題同科，共同原卷材料和各小題均屬此科。"
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-070-reading-source-cb2d21e910.jpg",
+      "visibleHeader": "原文Watch a National Soccer Game at Green Stadium，含同頁三色票價/座位/贈品表、Area1-3圖、紫票賽後合照與周邊場所文。",
+      "questionNumbers": [],
+      "sha256": "cb2d21e9101284f9096161237f8a57a626e3de374259a39b3fd9f072eb165d25",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-070-source-fa3dfad43d.jpg",
+      "visibleHeader": "印刷32問Area1賽後待遇及完整四選。",
+      "questionNumbers": [
+        "32"
+      ],
+      "sha256": "fa3dfad43db0a134ff94e360f44c318f11c695837b9d0ff2674bde043368794d",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-455-source-74997d81dc.jpg",
+      "visibleHeader": "印刷33四選；頂端保留32的D尾句，底端接34的King Soccer Team題幹，原印相鄰連續可核。",
+      "questionNumbers": [
+        "32(tail)",
+        "33",
+        "34(head)"
+      ],
+      "sha256": "74997d81dc9674a68f6ad797c706e018d12384467b503c416ebadccce77fc607",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-456-source-748e2f5a4a.jpg",
+      "visibleHeader": "印刷34問Jocelyn了解球隊歷史，頂端接33的D，四選引用同篇三場所與球場。",
+      "questionNumbers": [
+        "33(tail)",
+        "34"
+      ],
+      "sha256": "748e2f5a4ab468b7113d1a7159d6db13352a35276bef0886571e478d72d46f44",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "原卷34 B使用者已確認，不重開；32 C/33 D/34 B各答完整保留。",
+    "所有子題已有教學圖各自保留，不能只留下紫票合照圖；共同座位圖和票券表需保留一次。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-070",
+      "q-455",
+      "q-456"
+    ],
+    "confirmedQuestionIds": [
+      "q-070",
+      "q-455",
+      "q-456"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-070": "3ab30f4c303325b4be456e1842fb8cb6b8912fc049d23e4a0f5b94616822cc9f",
+    "q-455": "9d8d284b617b3545d6841b4a3de4fcf3fa1df9fede5b94de779b163266cfbd0c",
+    "q-456": "ba5d062a2462b5f4a9ef0d90e66fb80af2373f1a4967704df7d5e3720f39f6ad"
+  },
+  "reviewRevision": 2
+}

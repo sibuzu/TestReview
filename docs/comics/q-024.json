@@ -1,0 +1,115 @@
+{
+  "id": "q-024",
+  "subject": "Chinese",
+  "title": "問詞性不同，別只比助詞的細部作用",
+  "art": "docs/comics/art/q-024-zhi-grammar.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T11:31:52.201082+00:00",
+  "panels": [
+    {
+      "heading": "① 何陋之有，還原成有何陋",
+      "text": "有是動詞，何陋是它的賓語。何陋移到有的前面，用之標示賓語前置；這個之是助詞，沒有代替某一個事物。",
+      "alt": "新製有何陋的動詞/賓語框對照何陋-之-有，何陋橘色為前置賓語、有藍色動詞、之綠色助詞，不把之當代替何陋的代詞。"
+    },
+    {
+      "heading": "② A、B、C作用不全同，仍都是助詞",
+      "text": "A、B的之連接主謂成分；C蓮之愛可還原為愛蓮，也是標示賓語前置。三者細部作用不必一樣，但詞性同為助詞，都不選。",
+      "alt": "新製A絲竹/之/亂耳、B案牘/之/勞形、C蓮/之/愛三列，之統一綠色助詞；上方明標作用未必完全相同，沒有把所有細部作用都說成賓前。"
+    },
+    {
+      "heading": "③ D的之可以換成所學內容",
+      "text": "學而時習之，是學習後按時溫習所學內容。之放在習的後面，代替學過的知識或道理，作它的賓語，所以這裡是代詞。",
+      "alt": "新製D習-之與習-所學內容替換圖，之/所學內容橘色同一指代，習藍色動詞；完整教學在HTML，不把之說成無義。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先分助詞或代詞，再比較是否不同",
+    "answer": "答案 D：之是代詞，與題幹助詞不同",
+    "points": [
+      "題幹何陋之有：之標示賓語前置。",
+      "A、B連接主謂；C標示賓語前置。",
+      "A、B、C同屬助詞，作用不必全同。",
+      "D之＝所學內容，有指代作用，是代詞。"
+    ]
+  },
+  "protectedWords": [
+    "何陋之有",
+    "有何陋",
+    "何陋",
+    "動詞",
+    "賓語",
+    "助詞",
+    "代詞",
+    "賓語前置",
+    "主謂成分",
+    "蓮之愛",
+    "愛蓮",
+    "學而時習之",
+    "所學內容",
+    "知識",
+    "道理",
+    "指代作用",
+    "詞性",
+    "細部作用"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-024-source.jpg"
+  ],
+  "originalVisualCheck": "實看原卷第五張選擇2題學生C/紅D，題幹詞性不同、A無絲竹之亂耳/B無案牘之勞形/C蓮之愛同予者何人/D學而時習之不亦說乎；保留正式已核對蓮之愛，沒有回用舊AI牡丹誤字。",
+  "answerCheckedAgainst": "原卷紅D與正式完整解說/optionAnalysis；比較大類詞性：題幹及ABC助詞、D代詞，A/B與題幹C細部作用不同但不是不同詞性。",
+  "rationale": "此題核心是語法類別與指代，使用新精確原生結構圖更能直接看見賓語位置、ABC共同助詞、D內容替換，不必畫無關蓮花或琴書人物。保留完整原題細解，四格只是同一已核對內容的分步呈現。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "diagramChecks": {
+    "stemWordClass": "助詞",
+    "stemObject": "何陋",
+    "A": "主謂間助詞",
+    "B": "主謂間助詞",
+    "C": "賓語前置助詞",
+    "D": "代詞，指所學內容，作習的賓語",
+    "samePartOfSpeechEquatedWithIdenticalFunction": false,
+    "CReplacedWithPeony": false,
+    "sourceAIReuse": false
+  },
+  "timingEvidence": "docs/comics/q-024-timing.json",
+  "completedAt": "2026-10-29T11:35:15.413526+00:00",
+  "checkedAt": "2026-10-29T11:49:58.577015+00:00",
+  "layoutEvidence": "docs/comics/q-024-preview-validation.json",
+  "visualReview": "實看原卷C劃訂D、何陋有/ABC綠助詞/D指代橘三新句法圖與1440/1120/390全部截圖：賓語和動詞標籤未倒置，ABC同詞性但作用不全同，D習之→習所學內容替換正確。初次QA主謂成分保護重疊已移除交叉項後重驗PASS，桌同列等高手機自然高度，預設收合/圖解碼/無橫溢通過。",
+  "artSHA256": "0762c51983c2eba5ff283c0a6c3d828a734e4543b669f7e30003eab2532ff64c",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-024-1440.png",
+    "/tmp/weirugo-comic-previews/q-024-1120.png",
+    "/tmp/weirugo-comic-previews/q-024-390.png"
+  ],
+  "nativeArt": "assets/comics/q-024-art-0762c51983.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:49:58.572218+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原選擇2四項與學生C紅D親見，題目問詞性不同，C確蓮之愛非舊AI牡丹。新SVG何陋賓前/ABC綠助詞但不同細部作用/D習之代所學內容，逐位置與顏色親見，無把所有助詞當相同用法。正式1440/390實看、六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-024-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-024-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-024-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-024-validation.json"
+}

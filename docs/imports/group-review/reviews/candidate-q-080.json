@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-080",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:04:56.181652+00:00",
+  "decision": "confirmed",
+  "questionIds": [
+    "q-080",
+    "q-081"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-080-q-081",
+      "questionIds": [
+        "q-080",
+        "q-081"
+      ],
+      "retainId": "q-080",
+      "aliasIds": [
+        "q-081"
+      ],
+      "subject": "History",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "History",
+      "childSubjects": {
+        "q-080": "History",
+        "q-081": "History"
+      },
+      "sourceIds": [
+        "src-more-019"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae054b6-cea8-83ec-8c07-8c5e3753fe27"
+      ],
+      "printedRange": "同一src-more-019同原卷23/24連號；23明引上文史詩/方舟、24明引文末博物館戰亂，共同材料照片相同且這段含兩題專屬線索，與前一組摩爾人21/22分開。",
+      "originalQuestionNumbers": {
+        "q-080": "23",
+        "q-081": "24"
+      },
+      "commonMaterial": {
+        "passage": "伊拉克國家博物館，是世界上最重要的博物館之一，館內最受矚目的藏品便是一套刻有「吉爾伽美什史詩」的泥板。據了解，這些泥板製作於西元前18世紀，以當時兩河流域通行的楔形文字寫成，內容描述該地區一位名為「吉爾伽美什」的統治者所經歷的傳奇冒險。學者發現其內容提到美索不達米亞眾神決定用洪水毀滅人類，一位英雄建造大船使部分人類得以存活的內容，與《舊約聖經》中「諾亞方舟」十分接近，認為這反映出了該地區不同民族間的文化交流。雖然該博物館有許多珍貴的收藏，但因為當地衝突頻繁、時常發生戰爭，館內許多文物因此遭到盜竊、破壞，其營運狀況也十分不穩定，曾數度閉館。2022年，伊拉克國家博物館再次重新對外開放，該國總理表示：「這座博物館的重新開放，是長時間精心維護和修復的結果，也標誌著伊拉克文明重獲新生。」",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-080-reading-source-c6df0faa29.jpg",
+          "visibleHeader": "共同伊拉克國家博物館與吉爾伽美什泥板/諾亞故事、戰爭閉館與2022重開的同篇，段尾「請問」。",
+          "questionNumbers": [],
+          "sha256": "c6df0faa291d5321780fc081088be55ebfb89814d0ecff76ef31f65cbcfa0093",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-080-source-82f37daae8.jpg",
+          "visibleHeader": "印刷23「根據上文」比較史詩與諾亞，四選完整。",
+          "questionNumbers": [
+            "23"
+          ],
+          "sha256": "82f37daae87ed15d3ea3816796181b468a967f656fcaf3fac91389d8618a75da",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-081-source-913d70496e.jpg",
+          "visibleHeader": "印刷24「文末」問博物館數度閉館戰亂環境形成原因，四選完整。",
+          "questionNumbers": [
+            "24"
+          ],
+          "sha256": "913d70496e8560d37cf576cc188a9df0105a81ff4021921d1b36dea63471058c",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-019同原卷23/24連號；23明引上文史詩/方舟、24明引文末博物館戰亂，共同材料照片相同且這段含兩題專屬線索，與前一組摩爾人21/22分開。",
+      "childCoverage": [
+        {
+          "questionId": "q-080",
+          "originalQuestionNumber": "23",
+          "sourceId": "src-more-019",
+          "date": "2026-09-17",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "A",
+          "questionFingerprint": "d3fd3dfdd076abf65b89ad38450c3ffe2cd289ad5d8062132991bada8fb56766",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-080-reading-source-c6df0faa29.jpg",
+            "assets/questions/q-080-source-82f37daae8.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "比較洪水故事，尋找西亞文化交流線索",
+            "art": "assets/comics/q-080-art-00f5835740-web.webp",
+            "panels": [
+              {
+                "heading": "① 先辨識兩份材料屬於哪種文化",
+                "text": "吉爾伽美什史詩屬於兩河流域文化；諾亞方舟故事見於舊約聖經，與古代希伯來文化相關。不是看到聖經就直接選早期教會。",
+                "alt": "學生觀看古代兩河流域泥板類藏品的博物館情境，不代表伊拉克國家博物館特定展廳、實物或製作年代。"
+              },
+              {
+                "heading": "② 比較共同情節：洪水與造船",
+                "text": "兩份故事都有洪水與造船求生的情節。這些相似之處可成為研究不同民族文化交流的線索；不能只憑相似就證明每個細節的傳播方向。",
+                "alt": "洪水中木船庇護人的故事想像，不宣稱實際全球洪水發生、舟形或人物人數已獲考古證明。"
+              },
+              {
+                "heading": "③ 依材料選研究主題",
+                "text": "題目比較的是兩河流域與希伯來人的古代文化，最接近西亞地區的發展。亞歷山大東征、早期教會與伊斯蘭文化擴張，都不是這組比較的直接主題。",
+                "alt": "學生與教師並列兩本史料作比較，紙面無偽造引文，不將兩種故事當同一本書或直接證明全部傳播路線。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：古代希伯來人在西亞地區的發展",
+              "points": [
+                "先對應材料：兩河流域史詩、希伯來人的舊約故事。",
+                "相似情節提供文化交流的研究線索。",
+                "研究依據不等於單憑相似就證明所有傳播細節。"
+              ]
+            },
+            "protectedWords": [
+              "吉爾伽美什史詩",
+              "諾亞方舟",
+              "舊約聖經",
+              "希伯來人",
+              "兩河流域",
+              "文化交流",
+              "亞歷山大",
+              "早期教會",
+              "伊斯蘭文化"
+            ]
+          }
+        },
+        {
+          "questionId": "q-081",
+          "originalQuestionNumber": "24",
+          "sourceId": "src-more-019",
+          "date": "2026-09-17",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "B",
+          "questionFingerprint": "60ba728a7e3fbffa4ae5885c5dfaa39d66ad8b90cde1a0ad6eef6634e2d8ecc6",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-081-reading-source-c6df0faa29.jpg",
+            "assets/questions/q-081-source-913d70496e.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": null
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-080-reading-source-c6df0faa29.jpg",
+      "visibleHeader": "共同伊拉克國家博物館與吉爾伽美什泥板/諾亞故事、戰爭閉館與2022重開的同篇，段尾「請問」。",
+      "questionNumbers": [],
+      "sha256": "c6df0faa291d5321780fc081088be55ebfb89814d0ecff76ef31f65cbcfa0093",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-080-source-82f37daae8.jpg",
+      "visibleHeader": "印刷23「根據上文」比較史詩與諾亞，四選完整。",
+      "questionNumbers": [
+        "23"
+      ],
+      "sha256": "82f37daae87ed15d3ea3816796181b468a967f656fcaf3fac91389d8618a75da",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-081-source-913d70496e.jpg",
+      "visibleHeader": "印刷24「文末」問博物館數度閉館戰亂環境形成原因，四選完整。",
+      "questionNumbers": [
+        "24"
+      ],
+      "sha256": "913d70496e8560d37cf576cc188a9df0105a81ff4021921d1b36dea63471058c",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "不能把同src19的21至24全部合：21/22為摩爾人，23/24為伊拉克博物館，是兩個分立原卷共文。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-080",
+      "q-081"
+    ],
+    "confirmedQuestionIds": [
+      "q-080",
+      "q-081"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-080": "8fa59db67ebb98f4768f2772a65c56b6d07d83a010114c75bcb93e7f3f7cec0c",
+    "q-081": "cda3ebcf4ce579e64934a3a05395c080e00c28cb87c3aa7897d6ef96d4c6603c"
+  }
+}

@@ -73,6 +73,14 @@ def update_display(root, pipeline):
         current = next((j for j in reversed(jobs) if j['state'] == 'claimed'), None)
         if current:
             lane.update(questionId=current['id'], title=current['title'], state='running', startedAt=current['startedAt'])
+        elif lane.get('role') == 'group_review':
+            task = lane.get('activeTask') or {}
+            lane.update(questionId=task.get('questionId'),
+                        title=task.get('title') or '全庫題組回查：原卷逐組核對與完整候選稿',
+                        state='reviewing', startedAt=task.get('startedAt'))
+        elif lane.get('claimsPaused'):
+            lane.update(questionId=None, title=lane.get('pauseReason') or '依使用者指示暫停，不再領新題',
+                        state='paused', startedAt=None)
         elif lane.get('role') == 'integration':
             integrating = [j for j in pipeline['jobs'] if j['state'] == 'ready' and j.get('integrationStartedAt')]
             task = lane.get('activeTask')
@@ -142,6 +150,8 @@ def claim(root, lane):
             return existing
         configuration = load(root/'monitor/parallel.json')
         lane_configuration = next((item for item in configuration.get('lanes', []) if item['lane'] == lane), {})
+        if lane_configuration.get('claimsPaused'):
+            return None
         if lane_configuration.get('role') == 'import':
             return None
         if lane_configuration.get('role') == 'integration' and (

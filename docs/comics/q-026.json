@@ -1,0 +1,86 @@
+{
+  "id": "q-026",
+  "subject": "Chinese",
+  "title": "找出比較對象，再看自由受限的誇張描寫",
+  "art": "docs/comics/art/q-026.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T11:35:56.786257+00:00",
+  "panels": [
+    {
+      "heading": "① 先抓作者要寫的處境：失去自由",
+      "text": "作者把鳥的苦悶和快樂放在一起比較，強調不自由的處境。重點不在鳥外表漂亮，而是牠受到拘束、難有快樂。",
+      "alt": "新生成自然姿態小鳥被關在鳥籠、外有樹林空間的情境，不畫人類眼淚/表情或衣服，不藉新圖添加轉化證據；不是動物心理量表。"
+    },
+    {
+      "heading": "② 鳥和黏住的蒼蠅相比：譬喻",
+      "text": "用黏在膠紙上的蒼蠅比擬鳥的苦悶，讓受拘束、難脫身的感受更具體。先找出鳥與蒼蠅兩個比較對象，就能看見譬喻。",
+      "alt": "新生成完整蒼蠅輕黏膠紙情境，對照難脫身的感受，無血腥、撕裂或製作陷阱步驟，不是生物實驗或量化兩物種痛苦。"
+    },
+    {
+      "heading": "③ 把快樂比到標本：強化程度的誇飾",
+      "text": "把活鳥的快樂比到標本室中的鳥，極力寫出幾乎沒有快樂。這是作者強化不自由感受的誇飾，不是在測量標本有多少情緒。",
+      "alt": "新生成玻璃罩內鳥標本的靜態博物館陳列，無製作過程/傷口/血，對照原文極少快樂的誇飾，不宣稱標本真能感到快樂。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 看比較與程度，整組判斷修辭",
+    "answer": "答案 B：誇飾、譬喻",
+    "points": [
+      "譬喻：鳥的苦悶，對比黏住的蒼蠅。",
+      "誇飾：用標本等極端比較強化不自由。",
+      "原卷末尾有問號，仍要看語意與整組修辭。"
+    ]
+  },
+  "protectedWords": [
+    "失去自由",
+    "不自由",
+    "苦悶",
+    "快樂",
+    "拘束",
+    "蒼蠅",
+    "膠紙",
+    "難脫身",
+    "比較對象",
+    "譬喻",
+    "標本室",
+    "標本",
+    "誇飾",
+    "修辭",
+    "問號",
+    "誇張描寫",
+    "活鳥"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-026-source-2096fe9d7b.jpg",
+    "site/dist/assets/originals/gemini-chinese-7.jpg"
+  ],
+  "originalVisualCheck": "實看第6題裁圖與完整鳥試卷，原引句苦悶僅次於黏膠蠅/快樂僅優於標本室、末有罷？及A誇飾轉化/B誇飾譬喻/C類疊設問/D設問層遞四選、學生C。原卷問號不可忽略；已交root措辭卡，保留既有B。",
+  "answerCheckedAgainst": "既有正式B與原題兩比較對象、極度強化拘束的誇飾。root已獨立核對問號並登correction-q-026-3846b6d15cce，明確維持B，不由問號直接改C/D；本四格不沿用舊解說絕對沒有問句。",
+  "rationale": "三張新自然場景直接對應鳥/黏蠅/標本，比人物更清楚。教學以比較對象與程度為主，避免將作者主觀修辭當科學情緒排序；原圖不生成哭臉或人衣來誤導轉化。問號矛盾已分開交完整review，不自行改原題或共享解說。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-026-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-1d2344ce-80b4-4b50-90c3-804623b296c8.png",
+  "visualChecked": true,
+  "contentReview": "docs/comics/q-026-question-mark-review.json",
+  "contentReviewCard": "correction-q-026-3846b6d15cce",
+  "artChecks": {
+    "naturalCagedBirdNoHumanTears": true,
+    "intactFlyStickyPaperNonGraphic": true,
+    "staticMuseumSpecimenNoWounds": true,
+    "animalEmotionNumericMeasurement": false,
+    "sourceAIReuse": false,
+    "teachingTextBurnedIn": false,
+    "newAbsoluteDenialOfQuestionMark": false
+  },
+  "timingEvidence": "docs/comics/q-026-timing.json",
+  "completedAt": "2026-10-29T11:42:44.006979+00:00",
+  "checkedAt": "2026-10-29T11:42:44.006979+00:00",
+  "layoutEvidence": "docs/comics/q-026-preview-validation.json",
+  "visualReview": "實看第6題原卷/整頁，2172×724自然三景與1440/1120/390全部最終截圖：籠鳥與外景、完整黏蠅、無傷口靜態標本可辨；無擬人眼淚或情緒量尺。四格只教既有B譬喻誇飾、末有問號需看語意整組，不絕對否定設問；root已登措辭卡續行。桌同列等高手機自然高，字詞保護/預設收合/解碼與無橫溢PASS。",
+  "artSHA256": "40bfb4c1c06ec8b6c8bfb23687d85892087416ff3781d778c9ec14475097d6c0",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-026-1440.png",
+    "/tmp/weirugo-comic-previews/q-026-1120.png",
+    "/tmp/weirugo-comic-previews/q-026-390.png"
+  ]
+}

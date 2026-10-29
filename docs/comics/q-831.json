@@ -1,0 +1,121 @@
+{
+  "id": "q-831",
+  "subject": "English",
+  "title": "她當時說會來：過去觀點的未來用 would come",
+  "art": "docs/comics/art/q-831.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-831-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① yesterday、said：先定位昨天說的話",
+      "text": "Ally 說昨天遇見 Jane，她當時表示會來派對。可用 I will come. 示意當時的意思；這個會來，是相對昨天說話時的未來計畫，不是說她已經來過。",
+      "alt": "全新精確SVG昨天的語意示意I will come，標意思示意並非原卷逐字直接引文，不造真實昨天日期或Jane已出席的場景。"
+    },
+    {
+      "heading": "② said 作過去轉述，will 對應 would",
+      "text": "本題以昨天的 said 為轉述基準，採用國中標準時態配合：will come 轉為 would come。She said she would come. 就是她當時說她會來，表過去觀點中的未來。",
+      "alt": "全新精確SVG She said she/would come與will對would對照，精確英文由標準字型排版，未把所有said後句子一概宣告必退移。"
+    },
+    {
+      "heading": "③ 現在還沒現身，不是已完成的來到",
+      "text": "Ally 正問 Jane 為何沒出現，came 不能表達昨天說將會來的計畫。Sandy 說也許生病，只是可能原因；重點仍是轉述當時的計畫，不能由此認定 Jane 已到或一定生病。",
+      "alt": "全新精確SVG昨天說會來/派對時尚未現身的相對時間線，不畫確實生病、已到派對或精確日曆時刻，也不把時間間距當比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：would come",
+    "points": [
+      "said、yesterday 把轉述基準放在過去。",
+      "would come 表當時所預期的未來，不是已經到場。",
+      "本題依標準轉述配合選 C，先看時間關係。"
+    ]
+  },
+  "protectedWords": [
+    "Ally",
+    "Jane",
+    "Sandy",
+    "yesterday",
+    "said",
+    "will come",
+    "would come",
+    "I will come.",
+    "She said she",
+    "轉述",
+    "未來計畫",
+    "過去觀點",
+    "時態配合",
+    "派對",
+    "came",
+    "生病",
+    "現身"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/gemini061-cd169d9e2e62ae.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見page03第16兩人對話/四項及紅改C，昨天說會來與現在未出現分清；Maybe只是可能，不新增病況或實際到場。"
+  },
+  "sourceUrl": "https://share.gemini.google/PG8U2uUXtGhv",
+  "answerCheckedAgainst": "原卷yesterday/said轉述當時的未來計畫，C would come沿用；British Council青少年官方reported speech將will退為would規則交叉核，不加跨語域枝節。",
+  "references": [
+    {
+      "title": "British Council LearnEnglish Teens：Reported speech",
+      "url": "https://learnenglishteens.britishcouncil.org/grammar/b1-b2-grammar/reported-speech",
+      "supports": "過去轉述的will→would時態配合",
+      "access": "官方搜尋及主文對話規則已讀，採本題國中標準用法，不聲稱一切轉述必須退移"
+    }
+  ],
+  "rationale": "語意還原、標準退移、相對時間三圖，直接看出would並非已完成came；未對Jane診斷疾病、不把示意直接引語當原卷已出現的字句。英文均ASCII標點。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "C",
+    "reportingTime": "過去的昨天說話",
+    "expectedEvent": "從昨天看後來的派對",
+    "alreadyArrived": false,
+    "sicknessConfirmed": false,
+    "directSpeechIsParaphraseExample": true,
+    "allReportingClausesMustAlwaysBackshift": false,
+    "exactClockOrCalendarInvented": false,
+    "EnglishApostrophesASCII": true
+  },
+  "artSHA256": "2a0531710b19957d3d6b3195d0bd44944760973f30eac3ccab643bcdb6099a92",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T12:00:32.055688+00:00",
+  "previewValidation": "docs/comics/q-831-preview-validation.json",
+  "visualReview": "親見16兩人對話/四項紅改C；SVG原尺寸與最終1440/390實看，直接語意示意非原卷逐字引文，said後would come表示昨天視角的後來計畫，不作已到場或確定生病。British Council官方主文L44-69含will→would及適用範圍已讀，三寬PASS。",
+  "nativeArt": "assets/comics/q-831-art-2a0531710b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T12:00:32.051363+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原16Ally/Sandy兩人完整對話與四項紅C親見，昨天said預期後來來派對，現在未現身，Maybe病情不確定。新SVG直接話只標語意示例、will→would過去轉述、昨天到派對相對線親見，不教所有said必退移或Jane確病/已到。正式1440/390親見、六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-831-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-831-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-831-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-831-validation.json"
+}

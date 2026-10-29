@@ -99,3 +99,10 @@ test('newer flag and negative event survive an older slow acknowledgement',async
  const fetcher=async(url,options={})=>{if(options.method==='POST'&&first){first=false;started();await new Promise(resolve=>release=resolve);}return api(db)(url,options);};
  const a=await device(db,'weiru',memory(),fetcher);a.act('q-001',2);await began;a.act('q-001',3);release();await idle(a.sync);assert.equal(a.local.flags['q-001'],3);assert.equal(dailyCounts(a.local.practice)[0].count,0);assert.equal(a.local.practice.length,2);
 });
+
+test('offline shared-doubt cancellation syncs when either account next signs in, without transferring private flags',async()=>{
+ const db=database(),raw=memory();await db.setJSON('v1/doubt/q-002',{on:true});
+ const demo=await device(db,'demo',raw,async()=>{throw Error('offline');});demo.act('q-001',5);demo.sync.queueAll([{kind:'doubt',id:'q-002',on:false}]);await idle(demo.sync);
+ const weiru=await device(db,'weiru',raw);await weiru.sync.refresh();assert.deepEqual(weiru.local.flags,{});assert.deepEqual(weiru.local.practice,[]);assert.deepEqual(weiru.local.doubts,[]);assert.equal(db.values.get('v1/doubt/q-002').on,false);
+ assert.ok(demo.storage.getItem(FLAG_OUTBOX_KEY),'Demo private work remains in Demo outbox');
+});

@@ -25,11 +25,11 @@ export async function signOut(storage,session,fetcher){
 }
 export function accountStorage(storage,user){
  if(!['weiru','demo'].includes(user))throw Error('Unknown account');
- const prefix='weirugo:user:'+user+':',shared='test-review:doubts:v1';
- const keyFor=key=>key===shared?key:prefix+key;
+ const prefix='weirugo:user:'+user+':',shared=new Set(['test-review:doubts:v1','weirugo:doubt-outbox:v1']);
+ const keyFor=key=>shared.has(key)?key:prefix+key;
  // Only the first account inherits any work made during the pre-sign-in preview.
  if(user==='weiru')for(const key of ['weirugo:article-flags:v1','weirugo:practice-days:v1','weirugo:flag-outbox:v1']){
   const value=storage.getItem(key);if(value!==null){if(storage.getItem(keyFor(key))===null)storage.setItem(keyFor(key),value);storage.removeItem(key);}
  }
- return {getItem:key=>storage.getItem(keyFor(key)),setItem:(key,value)=>storage.setItem(keyFor(key),value),removeItem:key=>storage.removeItem(keyFor(key)),ownsKey:key=>key===shared||key?.startsWith(prefix)};
+ return {getItem:key=>storage.getItem(keyFor(key)),setItem:(key,value)=>storage.setItem(keyFor(key),value),removeItem:key=>storage.removeItem(keyFor(key)),ownsKey:key=>shared.has(key)||key?.startsWith(prefix)};
 }

@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-072",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:02:35.073933+00:00",
+  "decision": "confirmed",
+  "questionIds": [
+    "q-072",
+    "q-073"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-072-q-073",
+      "questionIds": [
+        "q-072",
+        "q-073"
+      ],
+      "retainId": "q-072",
+      "aliasIds": [
+        "q-073"
+      ],
+      "suggestedSubject": "English",
+      "childSubjects": {
+        "q-072": "English",
+        "q-073": "English"
+      },
+      "sourceIds": [
+        "src-more-017"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae0544e-a7f4-83ee-8e18-ecfaca3e43ad"
+      ],
+      "printedRange": "同一src-more-017原卷39-40讀同一篇The Quiet Lake；39明引the poem和兩畫線字，40接同文專詞landslide-dammed lake，兩題連號且共同原文照片同hash，為詞義與閱讀不同子題。",
+      "originalQuestionNumbers": {
+        "q-072": "39",
+        "q-073": "40"
+      },
+      "commonMaterial": {
+        "passage": "The Quiet Lake\n\nThe lake stays still under the sky,\nIts water level, like glass close by.\nThe sunlight shines on the waves,\nAnd trees move slowly in the wind.\n\nIt looks so safe, it looks so nice,\nA clear, shy mirror resting there.\nBirds fly over, the water shines,\nShowing mountains, clouds and skies.\n\nHigh in the mountains, the rocks push hard,\nA wall of earth, very strong.\nA river once ran free and fast,\nNow held back, it cannot pass.\n\nHeavy rain falls from the sky,\nClouds get dark, the wind moves slow.\nThe lake is calm, but still it rises.\nIts strong power waits, quiet and new.\n\nPeople walk along the road,\nThey see the lake, they do not know.\nThey do not see the wall may fall,\nThe earth may shake, the lake may break.\n\nA landslide-dammed lake appears so small,\nBut it can hurt both one and all.\nIts face is still, a calm place,\nYet strong power waits hidden too.\n\nSo when you go to this quiet lake,\nRemember still is not all safe.\nThink about the lake, its strong power,\nIts calm is a mask; the lake hides its power.\n\n字詞：mirror 鏡子；calm 平靜的；hidden 隱藏的；poem 詩。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-072-reading-source-bc116ce30f.jpg",
+          "visibleHeader": "The Quiet Lake詩原印兩欄，still/earth畫線，後半原印landslide-dammed lake，字詞mirror/calm/hidden。",
+          "questionNumbers": [],
+          "sha256": "bc116ce30f877f5b844502e3d483e230be149d7bbe982cdcc66109d682f4537d",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-072-source-889cecb0ac.jpg",
+          "visibleHeader": "39明說after reading the poem，問still與earth的雙義，含A/B筆記與四組圖選項。",
+          "questionNumbers": [
+            "39"
+          ],
+          "sha256": "889cecb0ac642e0a8413ada6ba323c26bbd5d955ce9a0f1ced25c190aa2a02d8",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-073-source-cd87d809a5.jpg",
+          "visibleHeader": "40原印問最佳landslide-dammed lake解釋，四選同詩a wall of earth/rocks/river題意，完整清楚。",
+          "questionNumbers": [
+            "40"
+          ],
+          "sha256": "cd87d809a570af3bf36a80e948e033e009b4226e55ce50445e11c2517969aaff",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-017原卷39-40讀同一篇The Quiet Lake；39明引the poem和兩畫線字，40接同文專詞landslide-dammed lake，兩題連號且共同原文照片同hash，為詞義與閱讀不同子題。",
+      "childCoverage": [
+        {
+          "questionId": "q-072",
+          "originalQuestionNumber": "39",
+          "sourceId": "src-more-017",
+          "date": "2026-09-08",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "D",
+          "questionFingerprint": "0c0c044c6df1dc2439909ac2c9b6a82da9d33291437dc9a7130d23d412f77003",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-072-reading-source-bc116ce30f.jpg",
+            "assets/questions/q-072-source-889cecb0ac.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-072-figure-15f5582dcd.jpg",
+              "alt": "原題第 39 題附圖",
+              "caption": "原題筆記：still分為A與Even so / yet；earth分為B與地球圖"
+            },
+            {
+              "src": "assets/questions/q-072-choices-21af94d26f.jpg",
+              "alt": "原題四組圖像選項：海浪或靜坐者，搭配磚牆或土堆",
+              "caption": "原題圖像選項；下方文字僅轉寫圖中內容"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先看已給的字義，再補靜止與泥土",
+            "art": "assets/comics/q-072-art-cddef074bf-web.webp",
+            "panels": [
+              {
+                "heading": "① stays still：保持靜止、平靜",
+                "text": "The lake stays still與Its face is still，都在描寫湖面平靜。A要補這個字義，安靜坐著、不亂動的人較符合；海浪的動態不合。",
+                "alt": "少女安靜坐在校園長椅，不亂動，以日常姿勢表still的靜止義，非宗教或醫學情境。"
+              },
+              {
+                "heading": "② A wall of earth：泥土形成的阻隔",
+                "text": "earth在這個片語中是泥土。B要畫土堆，不能因wall是牆，就直接畫磚牆。句子要整組看，earth才是本題要辨認的字。",
+                "alt": "棕色園藝土堆與小芽，只表泥土材料，不畫磚牆、食物或實際堰塞湖工程。"
+              },
+              {
+                "heading": "③ 原筆記已給一義，空格要補另一義",
+                "text": "still另一格已寫Even so / yet；earth另一格已畫地球。因此空格分別補靜止與泥土。依原文用法配圖，只有D把兩格都配對。",
+                "alt": "師生讀原文與空白筆記卡，精確Even so/yet及雙義關係由HTML，不讓AI重畫錯字或原卷附圖。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：A靜坐者，B土堆",
+              "points": [
+                "still：此處補靜止、不動。",
+                "earth：此處補泥土。",
+                "先核對已給的一義，避免重複或只憑題材聯想。"
+              ]
+            },
+            "protectedWords": [
+              "still",
+              "earth",
+              "Even so",
+              "yet",
+              "stays still",
+              "A wall of earth",
+              "安靜坐著",
+              "土堆",
+              "磚牆",
+              "地球"
+            ]
+          }
+        },
+        {
+          "questionId": "q-073",
+          "originalQuestionNumber": "40",
+          "sourceId": "src-more-017",
+          "date": "2026-09-08",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-27",
+          "correctOption": "C",
+          "questionFingerprint": "fb2fb176df162e543cf6b373715837e549e08550c16a6bd38035c8ca8f8ef82b",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-073-reading-source-bc116ce30f.jpg",
+            "assets/questions/q-073-source-cd87d809a5.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "崩落、堵河、蓄水，三步讀懂堰塞湖",
+            "art": "assets/comics/q-073-art-e45e746117.svg",
+            "panels": [
+              {
+                "heading": "① landslide：土石從山坡崩落",
+                "text": "原詩提到山中岩石與A wall of earth。C進一步說明rocks or mud從山坡落下；不是人們築起的高牆。",
+                "alt": "概念俯視圖，山坡土石正往流動河道落下，藍箭頭指水流、棕箭頭指土石移動。"
+              },
+              {
+                "heading": "② block a river：土石堵住河道",
+                "text": "關鍵是崩落土石擋住原本流動的河水。原詩的held back與cannot pass，對應C的block a river。",
+                "alt": "同一概念河段被天然土石堆橫向堵住，無人造壩體；下游河床留白，不把土石當成低地積水。"
+              },
+              {
+                "heading": "③ Water collects behind it.",
+                "text": "it指堵河的土石阻塞物；behind it就是水被擋住、在上游一側累積成湖。B只說低地積水，漏掉堵河這個必要成因。",
+                "alt": "湖水在土石阻塞物左側上游擴大，右側標示下游；示意形成過程，不給實地湖深與尺度。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：土石堵河，上游蓄水",
+              "points": [
+                "landslide → block a river → water collects。",
+                "A是人造高牆，不是原詩的天然土石阻塞。",
+                "D沒交代山崩堵河；湖水變重也不是本題定義。"
+              ]
+            },
+            "protectedWords": [
+              "landslide",
+              "block a river",
+              "rocks or mud",
+              "held back",
+              "cannot pass",
+              "behind it",
+              "上游",
+              "土石阻塞物"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "subject": "English",
+      "representativeSubjectReason": "本組全部子題同科，共同原卷材料和各小題均屬此科。"
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-072-reading-source-bc116ce30f.jpg",
+      "visibleHeader": "The Quiet Lake詩原印兩欄，still/earth畫線，後半原印landslide-dammed lake，字詞mirror/calm/hidden。",
+      "questionNumbers": [],
+      "sha256": "bc116ce30f877f5b844502e3d483e230be149d7bbe982cdcc66109d682f4537d",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-072-source-889cecb0ac.jpg",
+      "visibleHeader": "39明說after reading the poem，問still與earth的雙義，含A/B筆記與四組圖選項。",
+      "questionNumbers": [
+        "39"
+      ],
+      "sha256": "889cecb0ac642e0a8413ada6ba323c26bbd5d955ce9a0f1ced25c190aa2a02d8",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-073-source-cd87d809a5.jpg",
+      "visibleHeader": "40原印問最佳landslide-dammed lake解釋，四選同詩a wall of earth/rocks/river題意，完整清楚。",
+      "questionNumbers": [
+        "40"
+      ],
+      "sha256": "cd87d809a570af3bf36a80e948e033e009b4226e55ce50445e11c2517969aaff",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "39專屬A/B詞義筆記圖和四組圖選項只掛39，不能當40共同附圖；詩全文共同一次。",
+    "D/C兩個答案與各自教學完整保留；不因來源相同就把其他不相關英語單題合入。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-072",
+      "q-073"
+    ],
+    "confirmedQuestionIds": [
+      "q-072",
+      "q-073"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-072": "f77f0f0acf3030d26ac2dc7ccc38484d80bb7393e91a958e7304d9886ed9e25f",
+    "q-073": "723d658e65fb7572200f0ab5ef6b64dc5892ad7860c4a72f1ee088bcdf21e143"
+  },
+  "reviewRevision": 2
+}

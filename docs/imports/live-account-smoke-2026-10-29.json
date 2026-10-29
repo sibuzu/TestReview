@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-29T11:30:08.475Z",
+  "entry": "http://127.0.0.1:8765/site/index.html",
+  "account": "demo",
+  "result": "PASS",
+  "responses": [
+    {
+      "path": "/.netlify/functions/session",
+      "method": "POST",
+      "status": 200,
+      "origin": "https://mytestreview.netlify.app"
+    },
+    {
+      "path": "/.netlify/functions/session",
+      "method": "GET",
+      "status": 200,
+      "origin": "https://mytestreview.netlify.app"
+    },
+    {
+      "path": "/.netlify/functions/marks",
+      "method": "GET",
+      "status": 200,
+      "origin": "https://mytestreview.netlify.app"
+    },
+    {
+      "path": "/.netlify/functions/session",
+      "method": "DELETE",
+      "status": 204,
+      "origin": "https://mytestreview.netlify.app"
+    }
+  ],
+  "scope": "actual cross-origin Sign In, authenticated mark read, sync and Sign Out; no question marks changed"
+}

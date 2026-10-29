@@ -1,72 +1,119 @@
 {
   "mode": "two_production_integration_root_dispatch",
-  "workerLimit": 2,
+  "workerLimit": 1,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T11:23:20.055883+00:00",
+  "updatedAt": "2026-10-29T12:05:34.452913+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-020",
-      "title": "閱讀第25題｜人生階段的上下文",
-      "state": "running",
+      "questionId": null,
+      "title": "等待下一批整合",
+      "state": "preparing",
       "startedAt": "2026-10-29T11:23:12.951252+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration"
     },
     {
       "lane": 2,
-      "questionId": "q-019",
-      "title": "陋室銘第14題｜成語字形",
-      "state": "running",
-      "startedAt": "2026-10-29T11:20:17.826140+00:00",
+      "questionId": null,
+      "title": "全庫838筆題組候選盤點，再依原卷逐組核對",
+      "state": "reviewing",
+      "startedAt": "2026-10-29T11:54:50.208241+00:00",
       "agent": "/root/comic_lane_2",
-      "role": "production"
+      "role": "group_review",
+      "claimsPaused": true,
+      "pauseReason": "一般插畫領題暫停；另執行全庫題組回查",
+      "pauseRequestedAt": "2026-10-29T11:46:59.832359+00:00",
+      "activeTask": {
+        "title": "全庫838筆題組候選盤點，再依原卷逐組核對",
+        "state": "reviewing",
+        "startedAt": "2026-10-29T11:54:50.208241+00:00",
+        "evidenceDirectory": "docs/imports/group-review/"
+      }
     },
     {
       "lane": 3,
-      "questionId": "q-021",
-      "title": "圖表閱讀第3題｜日環食活動資訊",
+      "questionId": "q-027",
+      "title": "秋天的況味第4題｜季節雅稱",
       "state": "running",
-      "startedAt": "2026-10-29T11:23:20.046469+00:00",
+      "startedAt": "2026-10-29T12:02:46.422697+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production"
     }
   ],
   "ready": [
     {
-      "id": "q-016",
-      "title": "詞語解釋｜絮絮叨叨",
+      "id": "q-026",
+      "title": "鳥第6題｜一句話中的修辭",
       "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T11:35:40.845481+00:00",
+      "jobId": "job-1a9b15de3b7242b3bd61a1688ac9a2fe",
+      "readyAt": "2026-10-29T11:42:44.045851+00:00",
+      "decision": "complete",
+      "reason": "原卷問號與四選核對保留B；新籠鳥/黏蠅/靜態標本三景教比較與誇飾，不沿用沒有問句斷語。root已登措辭卡correction-q-026-3846b6d15cce准續作；三寬QA與全部截圖實看PASS。",
+      "evidence": [
+        "docs/comics/q-026.json",
+        "docs/comics/q-026-preview-validation.json",
+        "docs/comics/q-026-timing.json",
+        "docs/comics/q-026-question-mark-review.json"
+      ]
+    },
+    {
+      "id": "q-833",
+      "title": "英文第34題｜從網頁內容判讀巧克力展活動連結",
+      "subject": "English",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T11:19:18.183512+00:00",
-      "jobId": "job-1ebc05d69b104252a9e6241d8bf8d210",
-      "readyAt": "2026-10-29T11:23:19.997781+00:00",
+      "startedAt": "2026-10-29T11:56:10.365075+00:00",
+      "jobId": "job-5ab61aaa33544efa9145b77910c980db",
+      "readyAt": "2026-10-29T12:02:46.376838+00:00",
       "decision": "complete",
-      "reason": "整詞解釋與瑣鎖精確字形對照，原卷圈鎖已逐字核圖",
+      "reason": "統整試吃示範巧克力秀音樂舞蹈四活動，A Program涵蓋全頁",
       "evidence": [
-        "docs/comics/q-016.json",
-        "docs/comics/q-016-preview-validation.json"
+        "docs/comics/q-833.json",
+        "docs/comics/q-833-preview-validation.json",
+        "docs/comics/q-833-generation.json"
       ]
     }
   ],
-  "integrated": 750,
+  "integrated": 762,
   "blocked": [],
   "waiting": [
     {
-      "id": "q-016",
-      "title": "詞語解釋｜絮絮叨叨",
+      "id": "q-026",
+      "title": "鳥第6題｜一句話中的修辭",
       "subject": "Chinese",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T11:35:40.845481+00:00",
+      "jobId": "job-1a9b15de3b7242b3bd61a1688ac9a2fe",
+      "readyAt": "2026-10-29T11:42:44.045851+00:00",
+      "decision": "complete",
+      "reason": "原卷問號與四選核對保留B；新籠鳥/黏蠅/靜態標本三景教比較與誇飾，不沿用沒有問句斷語。root已登措辭卡correction-q-026-3846b6d15cce准續作；三寬QA與全部截圖實看PASS。",
+      "evidence": [
+        "docs/comics/q-026.json",
+        "docs/comics/q-026-preview-validation.json",
+        "docs/comics/q-026-timing.json",
+        "docs/comics/q-026-question-mark-review.json"
+      ]
+    },
+    {
+      "id": "q-833",
+      "title": "英文第34題｜從網頁內容判讀巧克力展活動連結",
+      "subject": "English",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T11:19:18.183512+00:00",
-      "jobId": "job-1ebc05d69b104252a9e6241d8bf8d210",
-      "readyAt": "2026-10-29T11:23:19.997781+00:00",
+      "startedAt": "2026-10-29T11:56:10.365075+00:00",
+      "jobId": "job-5ab61aaa33544efa9145b77910c980db",
+      "readyAt": "2026-10-29T12:02:46.376838+00:00",
       "decision": "complete",
-      "reason": "整詞解釋與瑣鎖精確字形對照，原卷圈鎖已逐字核圖",
+      "reason": "統整試吃示範巧克力秀音樂舞蹈四活動，A Program涵蓋全頁",
       "evidence": [
-        "docs/comics/q-016.json",
-        "docs/comics/q-016-preview-validation.json"
+        "docs/comics/q-833.json",
+        "docs/comics/q-833-preview-validation.json",
+        "docs/comics/q-833-generation.json"
       ]
     }
   ],

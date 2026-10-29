@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T11:18:43.402Z",
+  "checkedAt": "2026-10-29T11:38:23.189Z",
   "mode": "isolated static fixtures with mocked cloud/session handlers; no real cloud calls",
   "results": [
     {
@@ -123,30 +123,5 @@
       ]
     }
   ],
-  "screenshots": "/home/jack/git/TestReview/.cache/score-ui",
-  "unitTestsPassed": 94,
-  "newModelTestsPassed": 14,
-  "actuallyViewedByRoot": [
-    "signin-1440.png",
-    "list-1440.png",
-    "progress-1440.png",
-    "detail-1440.png",
-    "signin-390.png",
-    "list-390.png",
-    "progress-390.png",
-    "detail-360.png"
-  ],
-  "accountHintRemoved": true,
-  "checks": [
-    "五FLAG單選與全域預設3/4/5",
-    "列表固定新至舊且旗標唯讀",
-    "1至5熱鍵及輸入/組字/重複/修飾鍵保護",
-    "保留展開解說",
-    "每日淨數抵消與跨日負數",
-    "Sign In與Sign Out、重新載入仍登入",
-    "兩帳號FLAG/進度隔離與疑義共用",
-    "所有入口使用雲端API/CORS",
-    "舊收藏/已作刪除不遷移",
-    "手機標題避開五FLAG控制且三寬無水平溢出"
-  ]
+  "screenshots": "/home/jack/git/TestReview/.cache/score-ui"
 }

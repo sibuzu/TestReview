@@ -46,21 +46,27 @@ const root=path.resolve(__dirname,'../..'),site=path.join(root,'site/dist'),out=
   const dates=await page.locator('.card-date').allTextContents();assert.deepEqual(dates,[...dates].sort().reverse());
   await page.screenshot({path:path.join(out,`list-${width}.png`),fullPage:true});
   await page.locator('[data-open="q-271"]').click();await page.locator('#answer-toggle').click();await page.waitForSelector('#answer-panel:not([hidden])');
-  const reading=await page.evaluate(()=>({scroll:scrollY,panel:document.querySelector('#answer-panel')}));
-  await page.keyboard.press('2');assert.equal(await page.locator('[data-article-flag="2"]').getAttribute('aria-checked'),'true');assert.equal(await page.locator('#answer-panel').getAttribute('hidden'),null);
-  assert.equal(await page.locator('[data-article-flag][aria-checked="true"]').count(),1);
+  assert.equal(await page.getByText('開啟本題單頁閱讀版').count(),0);
+  assert.equal(await page.locator('[data-flag-position="footer"] [data-article-flag]').count(),5);
+  await page.evaluate(()=>window.__answerPanel=document.querySelector('#answer-panel'));
+  await page.locator('[data-flag-position="footer"] [data-article-flag="5"]').click();
+  assert.equal(await page.locator('[data-flag-position="header"] [data-article-flag="5"]').getAttribute('aria-checked'),'true');
+  await page.locator('[data-flag-position="footer"] [data-article-flag="3"]').click();
+  await page.evaluate(()=>document.querySelector('#answer-toggle').focus({preventScroll:true}));
+  await page.keyboard.press('2');assert.equal(await page.locator('[data-article-flag="2"]').first().getAttribute('aria-checked'),'true');assert.equal(await page.locator('#answer-panel').getAttribute('hidden'),null);assert.equal(await page.evaluate(()=>window.__answerPanel===document.querySelector('#answer-panel')),true);
+  assert.equal(await page.locator('[data-article-flag][aria-checked="true"]').count(),2);
   await page.keyboard.press('3');await page.keyboard.press('5');await page.keyboard.press('1');await page.keyboard.press('3');
-  assert.equal(await page.locator('[data-article-flag="3"]').getAttribute('aria-checked'),'true');
-  await page.evaluate(()=>{const input=document.createElement('textarea');input.id='test-input';document.body.append(input);input.focus();});await page.keyboard.press('2');assert.equal(await page.locator('[data-article-flag="3"]').getAttribute('aria-checked'),'true');await page.locator('#test-input').evaluate(el=>el.remove());
+  assert.equal(await page.locator('[data-article-flag="3"]').first().getAttribute('aria-checked'),'true');
+  await page.evaluate(()=>{const input=document.createElement('textarea');input.id='test-input';document.body.append(input);input.focus();});await page.keyboard.press('2');assert.equal(await page.locator('[data-article-flag="3"]').first().getAttribute('aria-checked'),'true');await page.locator('#test-input').evaluate(el=>el.remove());
   for(const options of [{key:'2',repeat:true},{key:'2',isComposing:true},{key:'2',ctrlKey:true}])await page.locator('#detail').dispatchEvent('keydown',options);
-  assert.equal(await page.locator('[data-article-flag="3"]').getAttribute('aria-checked'),'true');
+  assert.equal(await page.locator('[data-article-flag="3"]').first().getAttribute('aria-checked'),'true');
   await page.locator('[data-nav="progress"]').click();assert.equal(await page.locator('.practice-table tbody td').first().textContent(),'0');
   // Simulate an actual previously completed question, then undo it today.
   const token=await page.evaluate(()=>JSON.parse(localStorage.getItem('weirugo:session:v1')).token),yesterday=new Date(Date.now()-86400000),oldDay=practiceDay(yesterday);
   const response=await handleAccountMarks(new Request('https://weirugo.sibuzu.com/.netlify/functions/marks',{method:'POST',headers:{Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({schemaVersion:2,operations:[{kind:'flag',id:'q-298',value:2},{kind:'practice',id:'q-298',day:oldDay,eventId:'00000000-0000-4000-8000-000000000099',delta:1}]})}),db);assert.equal(response.status,200);
   await page.locator('#sync-status').click();await page.waitForFunction(()=>document.querySelector('#sync-status').dataset.state==='synced');
   await page.locator('[data-nav="all"]').click();await page.locator('[data-flag-filter="2"]').check();await page.locator('[data-open="q-298"] .flag-indicator').click();
-  assert.equal(await page.locator('[data-article-flag="2"]').getAttribute('aria-checked'),'true');await page.keyboard.press('3');await page.locator('[data-nav="progress"]').click();assert.equal(await page.locator('.practice-table tbody td').first().textContent(),'-1');
+  assert.equal(await page.locator('[data-article-flag="2"]').first().getAttribute('aria-checked'),'true');await page.keyboard.press('3');await page.locator('[data-nav="progress"]').click();assert.equal(await page.locator('.practice-table tbody td').first().textContent(),'-1');
   await page.screenshot({path:path.join(out,`progress-${width}.png`),fullPage:true});
   await page.locator('[data-nav="all"]').click();await page.locator('[data-open="q-271"]').click();await page.keyboard.press('5');await page.waitForFunction(()=>document.querySelector('#sync-status').dataset.state==='synced');
   await page.reload();await page.waitForSelector('[data-article-flag="5"][aria-checked="true"]');assert.equal(await page.locator('#account-name').textContent(),'weiru');
@@ -68,8 +74,8 @@ const root=path.resolve(__dirname,'../..'),site=path.join(root,'site/dist'),out=
   await login('demo');assert.equal(await page.locator('[data-flag-count="3"]').textContent(),String(ids.length));await page.locator('[data-nav="progress"]').click();assert.equal(await page.locator('.empty-progress').count(),1);
   await page.locator('[data-nav="all"]').click();await page.locator('[data-open="q-271"]').click();await page.keyboard.press('1');await page.locator('[data-doubt]').click();await page.waitForFunction(()=>document.querySelector('#sync-status').dataset.state==='synced');
   await page.locator('#sign-out').click();await page.waitForSelector('#signin-screen:not([hidden])');await login('weiru');await page.locator('[data-open="q-271"]').click();
-  assert.equal(await page.locator('[data-article-flag="5"]').getAttribute('aria-checked'),'true');assert.equal(await page.locator('[data-doubt]').getAttribute('aria-pressed'),'true');
-  const shape=await page.locator('.flag-options').evaluate(el=>[...el.children].map(n=>{const r=n.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};}));assert.ok(shape.every(n=>n.y===shape[0].y),'five icons in one row');
+  assert.equal(await page.locator('[data-article-flag="5"]').first().getAttribute('aria-checked'),'true');assert.equal(await page.locator('[data-doubt]').getAttribute('aria-pressed'),'true');
+  const shape=await page.locator('.flag-options').first().evaluate(el=>[...el.children].map(n=>{const r=n.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};}));assert.ok(shape.every(n=>n.y===shape[0].y),'five icons in one row');
   if(width<=760){const title=await page.locator('#detail h1').boundingBox(),actions=await page.locator('.detail-actions').boundingBox();assert.ok(title.y>=actions.y+actions.height,'mobile title clears the five FLAG controls');}
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);assert.equal(overflow,false);assert.deepEqual(errors,[]);
   await page.screenshot({path:path.join(out,`detail-${width}.png`),fullPage:true});results.push({width,passed:true,negativeProgressVerified:true,accountIsolationVerified:true,sharedDoubtsVerified:true,overflow,shape});await context.close();

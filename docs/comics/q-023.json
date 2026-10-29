@@ -1,0 +1,151 @@
+{
+  "id": "q-023",
+  "subject": "Chinese",
+  "title": "先定位劉禹錫在唐代，再找後世作者作品",
+  "art": "docs/comics/art/q-023.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-023-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 東漢與南朝的三本書，早於唐代",
+      "text": "許慎在東漢，劉義慶在南朝宋，蕭統在南朝梁，都早於唐代。三本前人作品在時間上可能出現，不是本題不可能的答案；南朝宋也不要和後面的北宋混為一談。",
+      "alt": "全新精確SVG三張前人作者朝代與原書名對照卡，東漢許慎說文解字/南朝宋劉義慶世說新語/南朝梁蕭統昭明文選，非等距年份線或實際書架復原。"
+    },
+    {
+      "heading": "② 劉禹錫是唐人，作為先後判斷的基準",
+      "text": "以劉禹錫生前的唐代為界，先辨作者朝代，再比較前人與後人作品。題目考時間上的可能性，不是書名熟不熟，也不是在證明他真的收藏了哪些書。",
+      "alt": "全新精確SVG大字唐/劉禹錫為時間基準，前人作品只標時間上可能，不新增書房藏本照片或實際收藏史料。"
+    },
+    {
+      "heading": "③ 歐陽修在北宋，作品晚於唐代",
+      "text": "歐陽修是北宋人，晚於唐代劉禹錫；歐陽文忠公全集屬後世作者的作品，不可能在劉禹錫生前出現。因此選 D，無須先確定這部全集的編刊年份。",
+      "alt": "全新精確SVG唐劉禹錫在前/北宋歐陽修在後，題中全集名列後世作品，不把作者朝代直接宣稱為全集的精確成書出版年代。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：歐陽修的歐陽文忠公全集",
+    "points": [
+      "順序：東漢、南朝宋、南朝梁、唐、北宋。",
+      "劉禹錫在唐，歐陽修在後世北宋。",
+      "書名辨識後，仍要核對作者與時代。"
+    ]
+  },
+  "protectedWords": [
+    "劉禹錫",
+    "歐陽修",
+    "許慎",
+    "劉義慶",
+    "蕭統",
+    "東漢",
+    "南朝宋",
+    "南朝梁",
+    "北宋",
+    "唐代",
+    "說文解字",
+    "世說新語",
+    "昭明文選",
+    "歐陽文忠公全集",
+    "前人",
+    "後世",
+    "朝代",
+    "生前",
+    "全集",
+    "編刊年份"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-023-source-3da87b4592.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "親見19完整題幹四項與原卷D訂正；保留夢中書房的國中先後題意，不以夢可任意跨時空翻案、不宣稱真有藏書史料。"
+  },
+  "sourceUrl": "https://share.gemini.google/P5nF20mjzum8",
+  "answerCheckedAgainst": "原卷四本書作者對比唐劉禹錫：前三早於唐、北宋歐陽修晚於唐；官方MOE/故宮/圖書館作者朝代資料交叉核。",
+  "references": [
+    {
+      "title": "教育部重編辭典：劉義慶",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=63665&la=1&powerMode=0",
+      "supports": "南朝宋作者身分",
+      "access": "官方搜尋摘要已讀"
+    },
+    {
+      "title": "教育百科：劉禹錫",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E9%A6%A8&title=%E5%8A%89%E7%A6%B9%E9%8C%AB",
+      "supports": "唐代772至842，僅用唐代不將年數放圖",
+      "access": "官方搜尋摘要已讀"
+    },
+    {
+      "title": "教育百科：許慎",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E8%B9%84&title=%E8%A8%B1%E6%85%8E",
+      "supports": "東漢作者身分；不採用有異說的精確生卒年",
+      "access": "官方搜尋摘要已讀"
+    },
+    {
+      "title": "弘前市立圖書館：和裝本目錄3",
+      "url": "https://www.city.hirosaki.aomori.jp/tosho/old/wasobon_3.pdf",
+      "supports": "梁蕭統文選編者朝代",
+      "access": "館方目錄搜尋摘要已讀，未宣稱逐頁全文檢視"
+    },
+    {
+      "title": "故宮典藏：宋歐陽修尺牘",
+      "url": "https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/1103?dep=P&mode=full",
+      "supports": "北宋中期文學家，晚於唐",
+      "access": "官方搜尋摘要已讀，不據此判定全集編刊日期"
+    }
+  ],
+  "rationale": "以作者朝代建立先後，不用虛構文人肖像或書房藏書；南朝宋與北宋明分，作者年代不等於現存全集版次的編印年代。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "D",
+    "order": [
+      "東漢許慎",
+      "南朝宋劉義慶",
+      "南朝梁蕭統",
+      "唐劉禹錫",
+      "北宋歐陽修"
+    ],
+    "proportionalYearIntervalsClaimed": false,
+    "actualCollectionProven": false,
+    "preciseOuyangCollectionPublicationYearInvented": false,
+    "southernSongConfusedWithNorthernSong": false
+  },
+  "artSHA256": "8ee0fa2cd79d335d29559585d0fc235d1d0976168ed0fac135819c5e1fdb777a",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T11:40:46.285299+00:00",
+  "previewValidation": "docs/comics/q-023-preview-validation.json",
+  "visualReview": "親見19題幹四項和D訂正；新SVG900與最終1440/390實看。東漢許慎/南朝宋劉義慶/南朝梁蕭統早於唐劉禹錫，北宋歐陽修在後，官方作者資料已查。南朝宋非北宋，不假證實際藏書、不造全集精確編年；三寬PASS。",
+  "nativeArt": "assets/comics/q-023-art-8ee0fa2cd7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:40:46.281770+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原19夢中劉禹錫書房題幹四書名與紅D親見，作者朝代東漢許慎/南朝宋劉義慶/南朝梁蕭統在唐劉禹錫前、北宋歐陽修在後。新SVG逐卡與先後關係親見，不混南朝宋北宋、不假證藏書或具體全集編刊年；正式桌手機實看、六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-023-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-023-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-023-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-023-validation.json"
+}

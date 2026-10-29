@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,hashlib
+a=Path('docs/comics/art/q-833.png');d={'id':'q-833','subject':'English','title':'看整頁的活動內容，選能涵蓋全頁的連結','art':str(a),'artMode':'imagegen','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① Tasting：試吃是一項展覽活動','text':'目標頁先列品嘗各種巧克力。讀首頁連結時，先問這一頁在介紹哪類內容；這裡是活動安排，不是列購物地點。不能因看見巧克力，就直接選 Places for Shoppers。','alt':'全新內建巧克力展成人參觀者試吃情境，無購物結帳主題、標牌或品牌，不讓AI畫出的糖果數量代表原文過百種。'},
+{'heading':'② masters 帶製作示範，只是其中一項','text':'Join the masters 是請參觀者跟著大師了解如何製作巧克力，屬示範活動。整頁還有試吃與表演，不是只介紹大師本人；只抓 masters 一字，會誤選 Chocolate Masters。','alt':'全新內建成人巧克力師桌邊示範、成人訪客觀看情境，不造真實大師履歷、配方步驟或現行展會課程；只對應原題其中一項。'},
+{'heading':'③ Show 與音樂舞蹈，合看是 Program','text':'Chocolate Show 加上音樂與舞蹈表演，整頁都在列展場節目。Program 在此是活動安排，Showcase 是展示；2022 Showcase Program 最能涵蓋全頁，所以選 A。','alt':'全新內建成人音樂舞蹈展場舞臺情境，服裝現代中性、不指定國籍民族或真實表演者，與試吃示範合看活動節目，不是假現行2022活動廣告。'}],
+'fourth':{'answer':'答案 A：2022 Showcase Program','points':['統整四項：試吃、製作示範、Chocolate Show、音樂舞蹈。','Program 在此是活動安排，不只是一位大師。','城市規畫、購物地點，都不能涵蓋目標頁內容。']},
+'protectedWords':['Tasting','masters','Program','Showcase','Showcase Program','Chocolate Masters','Chocolate Show','Places for Shoppers','Join the masters','試吃','製作示範','音樂舞蹈','活動安排','目標頁','首頁連結','城市規畫','購物地點','巧克力','參觀者','大師','表演'],
+'originalChecked':{'images':['site/dist/assets/questions/gemini061-c025b06ebb508c.jpg','site/dist/assets/questions/gemini061-331b05dc6417b9.jpg'],'necessaryFigures':['site/dist/assets/questions/gemini061-c025b06ebb508c.jpg','site/dist/assets/questions/gemini061-a31a49adaf1536.jpg'],'visualChecked':True,'answer':'A','notes':'親見首頁三類導覽/目標頁四條活動/34完整四項與紅改A；Showcase Program涵蓋全活動，不因masters單字排整頁。原文2022不是現行展會資訊。'},
+'sourceUrl':'https://share.gemini.google/PG8U2uUXtGhv','answerCheckedAgainst':'原目標頁Tasting/Join masters/Chocolate Show/Music dance四條，A與首頁About Salon活動安排相合；B僅大師、C城市規畫D購物場所不涵蓋全頁。',
+'integrationNotes':'保留原卷兩張questionFigures首頁與目標頁；新插畫只補內容分類理解，不能代替原網站選單與四項內容的作答材料。',
+'rationale':'三個活動情境幫助看整頁功能，Chocolate Show仍在HTML保留四項全貌。精確入口詞和字義用HTML，不造圖中文字、過百實物數量或真實節目國籍。',
+'sourceAIUsed':False,'generationCalls':1,'generationMetadata':'docs/comics/q-833-generation.json','promptFile':'docs/comics/q-833-prompt.txt','manualLineBreaks':False,'diagramChecks':{'answer':'A','wholePageActivities':['Tasting','making demonstration','Chocolate Show','music and dance show'],'mastersIsOnlyOnePart':True,'shoppingPlacesArePageMainPurpose':False,'allFourActivitiesKeptInHTML':True,'currentEventRecommendation':False,'exactHundredTreatsOrNationalCostumesInvented':False,'originalNavigationFiguresReplaced':False},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()};Path('docs/comics/q-833.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

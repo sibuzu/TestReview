@@ -1,0 +1,144 @@
+{
+  "id": "q-021",
+  "subject": "Chinese",
+  "title": "分清活動場地、起訖時辰與費用對象",
+  "art": "docs/comics/art/q-021.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-021-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 講座、直播在室內，觀測在戶外",
+      "text": "題表講座在科學教室、直播在小禮堂，另列戶外日食觀測，整場包含室內與戶外，所以 A 正確。主辦資訊要看探索自然協會；場地和同步連線天文館，不等於共同主辦單位。",
+      "alt": "全新精確SVG依原活動表把講座/直播列室內，觀測列戶外，不把三時段畫成不重疊的依序行程，不重造觀測器材或直視太陽示意。"
+    },
+    {
+      "heading": "② 14:00 是未時，17:30 是酉時",
+      "text": "開始的 14:00 在未時範圍，結束的 17:30 在酉時範圍。C 寫午時開始、申時結束，起點和終點都不合；不能只看活動在下午，就把它判成午時。圖上的時段只核對題中 2020 年活動。",
+      "alt": "全新精確SVG11至19等距時軸，午11至13/未13至15/申15至17/酉17至19；14標在未、17.5標在酉，無整點邊界的包含歧義。"
+    },
+    {
+      "heading": "③ 班內生少付一百元，不等於一律優惠",
+      "text": "原表小學生 300 元、班內生優惠 200 元。班內生確實比一般價少付 100 元，但優惠有指定對象，不能擴大為參加活動的學員一律優待一百元；D 錯在一律，不是把折扣金額當售價。",
+      "alt": "全新精確SVG同一零點300元與200元長條比例2比3，原費用對象明示；區別優惠少付100與一律對象，不當成200就是折扣100元不可能。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：活動包含室內與戶外兩部分",
+    "points": [
+      "教室、禮堂與戶外，直接支持 A。",
+      "C 起訖都要對：未時開始、酉時結束。",
+      "D 注意一律與班內生優惠的對象差別。"
+    ]
+  },
+  "protectedWords": [
+    "室內",
+    "戶外",
+    "科學教室",
+    "小禮堂",
+    "日食觀測",
+    "探索自然協會",
+    "天文館",
+    "共同主辦",
+    "14:00",
+    "17:30",
+    "未時",
+    "酉時",
+    "午時",
+    "申時",
+    "班內生",
+    "小學生",
+    "300 元",
+    "200 元",
+    "100 元",
+    "一律",
+    "折扣金額",
+    "售價",
+    "指定對象",
+    "一百元"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-021-source-a4d5089942.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見乙活動標題/地點/時間/費用/三時段表與3四項。保留C午時開始申時結束，不改成下午兩點；D原一律優待一百元，區別折扣幅度與適用對象。"
+  },
+  "sourceUrl": "https://share.gemini.google/P5nF20mjzum8",
+  "answerCheckedAgainst": "原活動表室內講座直播/戶外觀測，14:00-17:30，300/200分對象；A沿用、C兩端皆不符、D一律超過班內限定。",
+  "references": [
+    {
+      "title": "教育部臺灣台語常用詞辭典：未",
+      "url": "https://sutian.moe.edu.tw/zh-hant/su/1652/",
+      "supports": "未時下午一點到三點，對應14時",
+      "access": "官方搜尋摘要已讀，未以整頁全文查核申報"
+    },
+    {
+      "title": "教育部重編辭典：酉時",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=154623&la=0&powerMode=0",
+      "supports": "下午五點到七點，對應17時30",
+      "access": "官方搜尋摘要已讀"
+    }
+  ],
+  "rationale": "用原表分組與精確時間價格圖幫助跨欄核對，不新增天文或直視太陽教學。D確有班內少100，但非一律；將既有對象限制清楚說明，不把折扣錯當售價。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "A",
+    "activityDate": "2020-06-21",
+    "hourAxis": {
+      "minimum": 11,
+      "maximum": 19,
+      "xMinimum": 30,
+      "xMaximum": 270
+    },
+    "startHour": 14,
+    "endHour": 17.5,
+    "startTraditional": "未",
+    "endTraditional": "酉",
+    "generalPrice": 300,
+    "memberPrice": 200,
+    "memberDiscount": 100,
+    "discountAppliesToEveryone": false,
+    "overlappingSchedulesShownSequential": false,
+    "solarViewingInstructionAdded": false
+  },
+  "artSHA256": "baebd80d01dc888604efc3f9eda103d20b0ff8d9027dc15ed8e64f0df95363e4",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T11:36:20.339059+00:00",
+  "previewValidation": "docs/comics/q-021-preview-validation.json",
+  "chartValidation": "docs/comics/q-021-chart-validation.json",
+  "visualReview": "親見完整題表/費用/三活動時段與3四選；SVG900原尺寸及最終1440/390實看。原午/申選項保留，實際SVG14/17.5坐標及未/酉對照核正；300/200同基準2比3長條、班內少付100與非一律分清。未新增觀日器材或直視太陽教學，三寬PASS。最後僅補官方時辰參考，視覺未改。",
+  "nativeArt": "assets/comics/q-021-art-baebd80d01.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:36:20.335271+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原完整2020活動表、講座直播戶外觀測、費用300/班內200與3四項親見。新分類SVG不把重疊時段畫串行；等距11-19時軸14未/17.5酉及300/200同基準條長親見，D班內確少100但非一律，不錯把折扣當售價。正式1440/390實看，六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-021-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-021-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-021-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-021-validation.json"
+}

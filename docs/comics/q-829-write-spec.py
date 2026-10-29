@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,hashlib
+a=Path('docs/comics/art/q-829.png');d={'id':'q-829','subject':'English','title':'活動名稱 bicycle riding，和 ride a bicycle 分開看','art':str(a),'artMode':'imagegen','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① go bicycle riding：去騎單車','text':'本題填 bicycle riding，整句是提議早餐後去騎單車。bicycle 放在 riding 前，組成活動名稱；A 的 bicycle rides 是複數名詞，不是本題 go 後要接的活動搭配。','alt':'全新內建晴天公園獨立車道成年朋友戴安全帽休閒騎車情境，精確英文與名詞結構在HTML，不以圖片自行決定單複數或機械圖。'},
+{'heading':'② 同類例子：go swimming、go shopping','text':'go + V-ing 可表示去從事休閒活動，例如 go swimming（去游泳）、go shopping（去購物）。這些搭配和 go bicycle riding 一起記；游泳是延伸例子，不是題幹新增的行程。','alt':'全新內建成年休閒游泳情境，只為go swimming句型例子，不假設原題人物早餐後還去了游泳，也不作泳技教學。'},
+{'heading':'③ ride a bicycle：這種結構要留冠詞','text':'ride a bicycle 是動詞加受詞，本例單數 bicycle 前有 a。D 的 riding bicycle 漏了冠詞；C 的 bicycle riding 則是活動名稱，bicycle 修飾 riding，不能把兩種結構混在一起。','alt':'全新內建戴安全帽青年在公園扶著停放單車的情境，冠詞與句型只由HTML精確標示，不把AI畫的車輛數目當可數名詞規則證據。'}],
+'fourth':{'answer':'答案 C：bicycle riding','points':['go + V-ing：常見休閒活動搭配。','bicycle riding 是活動名稱；ride a bicycle 是動詞加受詞。','D 的 riding bicycle 少冠詞，不能當作 C 的詞序。']},
+'protectedWords':['bicycle riding','go bicycle riding','ride a bicycle','riding bicycle','bicycle rides','go swimming','go shopping','V-ing','冠詞','受詞','活動名稱','單數','複數','早餐後','修飾'],
+'originalChecked':{'images':['site/dist/assets/questions/gemini061-76e73faceaa0db.jpg'],'visualChecked':True,'answer':'C','notes':'親見page01第4完整題/四項與紅改C，原Bto ride a bicycle/D riding bicycle均保留，不把原句或選項先改好再分析。'},
+'sourceUrl':'https://share.gemini.google/PG8U2uUXtGhv','answerCheckedAgainst':'原句go後活動名bicycle riding與D冠詞缺漏，沿原卷C；不把所有go to不定式一概判錯，B仍依本題休閒活動搭配處理。',
+'references':[{'title':'BBC Learning English：Go, play or do?','url':'https://downloads.bbc.co.uk/worldservice/learningenglish/quiznet/pdfs/110_go_play_do.pdf','supports':'go + ing活動搭配，go swimming/go shopping示例','access':'官方PDF62780 bytes已下載並pdftotext實讀ANSWERS第1題，無需採非官方轉載'},{'title':'Cambridge English Grammar Today：Go','url':'https://dictionary.cambridge.org/grammar/british-grammar/go','supports':'go + ing用於一般活動','access':'官方搜尋摘要已讀，開頁403未聲稱全文已讀'}],
+'rationale':'新休閒騎車/延伸游泳/單車受詞情境，精確英文以HTML排版、全ASCII撇號。活動複合名與動詞受詞冠詞分清，不把圖片數車當文法或去指定任何真實行程。',
+'sourceAIUsed':False,'generationCalls':1,'generationMetadata':'docs/comics/q-829-generation.json','promptFile':'docs/comics/q-829-prompt.txt','manualLineBreaks':False,'diagramChecks':{'answer':'C','correctActivity':'bicycle riding','verbObjectExample':'ride a bicycle','DOriginal':'riding bicycle','swimmingIsExtensionExample':True,'allGoToInfinitivesDeclaredWrong':False,'EnglishApostrophesASCII':True,'visualVehicleCountDeterminesGrammar':False},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()};Path('docs/comics/q-829.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

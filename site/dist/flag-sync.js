@@ -2,15 +2,16 @@ import {accountEndpoint} from './account-policy.js';
 import {checkedFlagOperations,flagOperationKey} from './flag-protocol.js';
 import {checkedFlags,checkedPractice} from './article-flags.js';
 export const FLAG_OUTBOX_KEY='weirugo:flag-outbox:v1';
+export const DOUBT_OUTBOX_KEY='weirugo:doubt-outbox:v1';
 
 export class FlagSync{
  constructor({storage,getLocal,apply,status,getToken=()=>null,fetcher=globalThis.fetch.bind(globalThis),endpoint=accountEndpoint('marks')}){
   Object.assign(this,{storage,getLocal,apply,status,getToken,fetcher,endpoint});
   this.localOnly=endpoint===null;this.pending=new Map();this.sequence=0;this.snapshot=[];this.etag='';
   if(this.localOnly){this.available=false;try{storage.removeItem(FLAG_OUTBOX_KEY);}catch{}return;}
-  try{for(const op of checkedFlagOperations(JSON.parse(storage.getItem(FLAG_OUTBOX_KEY)||'[]')))this.pending.set(flagOperationKey(op),{...op,seq:++this.sequence});}catch{}
+  for(const key of [FLAG_OUTBOX_KEY,DOUBT_OUTBOX_KEY])try{for(const op of checkedFlagOperations(JSON.parse(storage.getItem(key)||'[]')))if(key===FLAG_OUTBOX_KEY||op.kind==='doubt')this.pending.set(flagOperationKey(op),{...op,seq:++this.sequence});}catch{}
  }
- persist(){try{if(this.pending.size)this.storage.setItem(FLAG_OUTBOX_KEY,JSON.stringify([...this.pending.values()].map(({seq,...op})=>op)));else this.storage.removeItem(FLAG_OUTBOX_KEY);}catch{}}
+ persist(){try{for(const [key,shared] of [[FLAG_OUTBOX_KEY,false],[DOUBT_OUTBOX_KEY,true]]){const items=[...this.pending.values()].filter(op=>(op.kind==='doubt')===shared).map(({seq,...op})=>op);if(items.length)this.storage.setItem(key,JSON.stringify(items));else this.storage.removeItem(key);}}catch{}}
  queueAll(operations){
   if(this.localOnly){this.status('local');return;}
   for(const op of checkedFlagOperations(operations))this.pending.set(flagOperationKey(op),{...op,seq:++this.sequence});

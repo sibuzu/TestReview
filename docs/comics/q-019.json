@@ -64,7 +64,7 @@
   "generationCalls": 1,
   "generationPrompt": "docs/comics/q-019-prompt.txt",
   "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-e0c9a94f-899e-43b3-b711-59ee09644117.png",
-  "visualChecked": false,
+  "visualChecked": true,
   "references": [
     {
       "title": "教育部成語典：汗流浹背",
@@ -91,5 +91,45 @@
     "charactersOrAnswersBurnedIntoImage": false,
     "threeCorrectMeaningsOfWrongOptions": true
   },
-  "timingEvidence": "docs/comics/q-019-timing.json"
+  "timingEvidence": "docs/comics/q-019-timing.json",
+  "completedAt": "2026-10-29T11:24:21.125210+00:00",
+  "checkedAt": "2026-10-29T11:36:20.317634+00:00",
+  "layoutEvidence": "docs/comics/q-019-preview-validation.json",
+  "visualReview": "原卷14四句黑A紅B及浹荼毫紅正字、2172×724新三情境與1440/1120/390全部截圖實看，汗濕背部/熱烈布置非失火/當下未關心均可辨，字形以HTML清楚對照，B籌義正確。雙欄同列等高、單欄自然高度、保護詞無拆字與預設收合/解碼/無橫溢PASS。",
+  "artSHA256": "c99266ed2ed42b5440b7518090e1ddcb6c35956531ca99b719bb9fdfcc48c3ce",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-019-1440.png",
+    "/tmp/weirugo-comic-previews/q-019-1120.png",
+    "/tmp/weirugo-comic-previews/q-019-390.png"
+  ],
+  "nativeArt": "assets/comics/q-019-art-c99266ed2e-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:36:20.314100+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原14四句及A學生/紅B與夾浹、塗荼、豪毫訂正親見，只有B一籌莫展全句正字。新農夫汗濕背/活動熱烈非真火/暫未關心三景原圖親見，正字均HTML，不以健康或人格診斷推論學生；正式桌手機四格實看、六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-019-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-019-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-019-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-019-validation.json"
 }

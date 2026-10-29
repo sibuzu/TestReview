@@ -2,8 +2,12 @@
 import json
 
 
-def current_sources(root, source_rows, questions, entries, confirmations, paths):
+def current_sources(root, source_rows, questions, entries, confirmations, paths, source_catalog=None):
     plan_path = root/'docs/imports/new-source-plan-2026-10-29.json'
+    selector = root/'monitor/active-source-plan.json'
+    if selector.is_file():
+        paths.append(selector)
+        plan_path = root/json.loads(selector.read_text())['path']
     if not plan_path.exists():
         return None
     paths.append(plan_path)
@@ -15,10 +19,12 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths)
                 'skipped_not_in_site', 'skipped_missing_images', 'skipped_unavailable',
                 'skipped_invalid_question'}
     for item in plan.get('sources', []):
-        source = next((s for s in source_rows if s['order'] == item['suggestedOrder']), {})
+        batch = item.get('batch', 'gemini')
+        candidates = (source_catalog or {}).get(batch, source_rows)
+        source = next((s for s in candidates if s['order'] == item['suggestedOrder']), {})
         reports = []
         for relative in (item.get('acquisitionRecord'),
-                         f'docs/acquisition/gemini-{item["suggestedOrder"]:03d}.json'):
+                         f'docs/acquisition/{batch}-{item["suggestedOrder"]:03d}.json'):
             if relative and (root/relative).is_file():
                 path = root/relative
                 paths.append(path)
@@ -30,20 +36,25 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths)
                 if relative and (root/relative).is_file():
                     images[image.get('sha256') or relative] = relative
         expected = max([source.get('archiveImages') or 0] +
-                       [r.get('imagesExpected') or len(r.get('originalImages', [])) for r in reports])
-        source_id = source.get('sourceId') or f'src-gemini-more-{item["suggestedOrder"]:03d}'
+                       [r.get('imagesExpected') or r.get('userImagesExpected') or
+                        len(r.get('originalImages', [])) for r in reports])
+        source_id = source.get('sourceId') or item.get('sourceId') or f'src-gemini-more-{item["suggestedOrder"]:03d}'
         ids = (set(source.get('questionIds', [])) |
                {q['id'] for q in questions if q.get('sourceId') == source_id}) & published
         all_ids.update(ids)
         state = source.get('state', 'awaiting_source_read')
         reason = source.get('reason', '')
+        if state == 'awaiting_source_read' and any(r.get('state') in {
+                'awaiting_chrome_approval', 'awaiting_browser_access'} for r in reports):
+            reason = '對話文字已保存本機；取原卷的程式正等待 Chrome 允許連線，尚未開始判題。'
         # Acquisition writes its own reports; never change the curated records
         # merely to display downloaded originals in the monitor.
         if state == 'awaiting_source_read' and expected and len(images) >= expected:
             state = 'awaiting_transcription'
-            reason = ('對話與原圖已保存本機，待逐題整理；本批只收入原卷有紅字訂正的題目。'
+            reason = ('對話與原圖已保存本機，待逐題整理。'
                       '取回圖文不代表已完成錄題或插畫。')
-        rows.append({'order': item['suggestedOrder'], 'url': item['url'],
+        rows.append({'batch': batch, 'lane': item.get('lane'),
+                     'order': item['suggestedOrder'], 'url': item['url'],
                      'title': next((r['title'] for r in reports if r.get('title')), source.get('title', item['key'])),
                      'state': state, 'reason': reason,
                      'settled': bool(source.get('sourceCurationComplete')) or source.get('state') in terminal,
@@ -57,7 +68,13 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths)
                    if (r.get('questionId') or r.get('id')) in all_ids
                    or r.get('sourceKey') in assigned_keys or r.get('sourceUrl') in assigned_urls}
     comics_settled=sum(states.get(qid) in {'complete','not_suitable','existing_ai'} for qid in all_ids)
+    agents = []
+    parallel_path = root/'monitor/parallel.json'
+    if plan.get('showAgents') and parallel_path.is_file():
+        paths.append(parallel_path)
+        agents = json.loads(parallel_path.read_text()).get('lanes', [])
     return {'sources': rows, 'total': len(rows), 'settled': settled,
+            'agents': agents,
             'complete':settled==len(rows) and not pending_ids and comics_settled==len(all_ids),
             'comicsSettled':comics_settled,
             'percent': round(100*settled/len(rows)) if rows else 0,

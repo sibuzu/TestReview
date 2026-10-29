@@ -87,6 +87,26 @@ class MonitorTest(unittest.TestCase):
     def test_current_new_sources_absent_without_assignment_plan(self):
         self.assertIsNone(server.build_status(self.root)['newSources'])
 
+    def test_active_gpt_assignment_does_not_read_same_order_gemini(self):
+        self.write('monitor/active-source-plan.json', {'path': 'docs/imports/current-gpt.json'})
+        self.write('docs/imports/current-gpt.json', {'sources': [
+            {'key': 'gpt004', 'batch': 'gpt', 'suggestedOrder': 4,
+             'url': 'https://chatgpt.com/share/new',
+             'acquisitionRecord': 'docs/acquisition/current.json'}]})
+        self.write('docs/imports/more-gemini-progress.json', {'sources': [self.source(4, 'complete')]})
+        self.write('docs/acquisition/current.json', {
+            'userImagesExpected': 1, 'originalImages': [{'path': 'original.jpg'}]})
+        (self.root/'original.jpg').write_bytes(b'original')
+        result = server.build_status(self.root)
+        source = result['newSources']['sources'][0]
+        self.assertEqual(source['batch'], 'gpt')
+        self.assertEqual(source['state'], 'awaiting_transcription')
+        self.assertEqual(result['newSources']['settled'], 0)
+        self.assertEqual(result['newSources']['imagesExpected'], 1)
+        batches = {batch['id']: batch for batch in result['batches']}
+        self.assertEqual(batches['gemini']['sources'][0]['state'], 'complete')
+        self.assertEqual(batches['gpt']['sources'][3]['imagesAvailable'], 1)
+
     def test_import_pause_is_explicit_without_pausing_comic_production(self):
         self.write('monitor/import-control.json', {'state': 'paused', 'lastAllowedSourceOrder': 63})
         self.write('docs/comics/progress.json', {'entries': [dict(

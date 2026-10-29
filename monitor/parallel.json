@@ -1,61 +1,56 @@
 {
-  "mode": "two_production_integration_root_dispatch",
-  "workerLimit": 1,
+  "mode": "two_source_producers_one_integrator_root_dispatch",
+  "workerLimit": 2,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T14:15:48.894746+00:00",
+  "updatedAt": "2026-10-29T15:49:22.695711+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": null,
-      "title": "45/45題組已加入，最後批發布完成後無待整合稿",
-      "state": "complete",
-      "startedAt": "2026-10-29T14:15:48.889784+00:00",
+      "questionId": "q-851",
+      "title": "已收到第50來源首件 q-851 完整稿與三寬版面驗收，正在加入題庫",
+      "state": "integrating",
+      "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "activeTask": {
-        "state": "complete",
-        "title": "45/45題組已加入，最後批發布完成後無待整合稿",
-        "startedAt": "2026-10-29T14:15:48.889784+00:00"
+        "title": "已收到第50來源首件 q-851 完整稿與三寬版面驗收，正在加入題庫",
+        "state": "integrating",
+        "startedAt": "2026-10-29T15:06:06.207488+00:00",
+        "questionId": "q-851"
       }
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "全庫838筆題組候選盤點，再依原卷逐組核對",
-      "state": "reviewing",
-      "startedAt": "2026-10-29T11:54:50.208241+00:00",
+      "title": "新來源原卷取得、逐題核對與候選稿",
+      "state": "importing",
+      "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_2",
-      "role": "group_review",
-      "claimsPaused": true,
-      "pauseReason": "一般插畫領題暫停；另執行全庫題組回查",
-      "pauseRequestedAt": "2026-10-29T11:46:59.832359+00:00",
+      "role": "import",
       "activeTask": {
-        "title": "全庫838筆題組候選盤點，再依原卷逐組核對",
-        "state": "reviewing",
-        "startedAt": "2026-10-29T11:54:50.208241+00:00",
-        "evidenceDirectory": "docs/imports/group-review/"
+        "title": "第一來源9/9原卷已取回：逐題實看、查重與原題解說整理",
+        "state": "importing",
+        "startedAt": "2026-10-29T15:06:06.207488+00:00"
       }
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "題組候選共同材料與同源原卷核對，全部核完才合稿",
-      "state": "reviewing",
-      "startedAt": "2026-10-29T12:29:23.522299+00:00",
+      "title": "新來源原卷取得、逐題核對與候選稿",
+      "state": "importing",
+      "startedAt": "2026-10-29T15:06:06.207488+00:00",
       "agent": "/root/comic_lane_3",
-      "role": "group_review",
-      "claimsPaused": true,
-      "pauseReason": "可處理插畫已收尾，依使用者指定轉題組候選核對",
+      "role": "import",
       "activeTask": {
-        "title": "題組候選共同材料與同源原卷核對，全部核完才合稿",
-        "state": "reviewing",
-        "startedAt": "2026-10-29T12:29:23.522299+00:00",
-        "evidenceDirectory": "docs/imports/group-review/"
+        "title": "已交第一份完整稿 q-851，繼續其餘原題的新製四格與驗版",
+        "state": "running",
+        "startedAt": "2026-10-29T15:06:06.207488+00:00",
+        "questionId": null
       }
     }
   ],
   "ready": [],
-  "integrated": 766,
+  "integrated": 769,
   "blocked": [],
   "waiting": [],
   "integrating": [],

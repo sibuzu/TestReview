@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-10-29T15:06:06.207488+00:00",
+  "instruction": "本次僅處理使用者新增的兩個 GPT 分享來源；取回原卷後逐題核對，只收入原對話的原題，AI 另出的練習略過。各製作路完成新製四格與自身版面驗收後交 Agent 1 直接加入。",
+  "showAgents": true,
+  "sources": [
+    {
+      "key": "gpt049",
+      "batch": "gpt",
+      "lane": 2,
+      "suggestedOrder": 49,
+      "sourceId": "src-more-049",
+      "url": "https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d",
+      "draftDirectory": "docs/imports/new-gpt-20261029-a",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261029-a.json",
+      "integrationReceipt": "docs/imports/new-gpt-20261029-a/integrated.json"
+    },
+    {
+      "key": "gpt050",
+      "batch": "gpt",
+      "lane": 3,
+      "suggestedOrder": 50,
+      "sourceId": "src-more-050",
+      "url": "https://chatgpt.com/share/6ae35d9f-f560-83ee-bbe9-d01ff3be9e33",
+      "draftDirectory": "docs/imports/new-gpt-20261029-b",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261029-b.json",
+      "integrationReceipt": "docs/imports/new-gpt-20261029-b/integrated.json"
+    }
+  ]
+}

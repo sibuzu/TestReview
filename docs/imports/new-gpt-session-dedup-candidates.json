@@ -1,0 +1,278 @@
+{
+  "createdAt": "2026-10-29T15:15:19.021437+00:00",
+  "purpose": "Read-only candidate matching to save duplicate work; AI text never treated as original exam or final answer",
+  "baselineEntries": 695,
+  "originalRecordsSearched": 757,
+  "blocks": [
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 71,
+      "contextHeader": "**第11題答案：C。**照片紅筆標示 C，與分類推理一致。",
+      "aiQuotedQuestionForCandidatesOnly": "髮菜是一種藍菌，音似「發財」，故常被用於宴席食用。現今因過度採挖，已被禁止採集與銷售，下列關於「髮菜」的敘述，何者正確？\n\n(A) 至少有一個分類階層與高麗菜相同\n(B) 至少有一個分類階層與石花菜相同\n(C) 至少有一個分類階層與念珠藻相同\n(D) 至少有一個分類階層與新月藻相同\n\n**關鍵觀念：髮菜是「藍菌」，屬原核生物界。**\n\n這題用「比較法」最清楚。依本題採用的國中五界分類：\n\n| 選項 | 生物分類 | 判斷 |\n|---|---|---|\n| A 高麗菜 | 植物界 | ❌ 與髮菜不同界 |\n| B 石花菜 | 紅藻，屬原生生物界 | ❌ 與髮菜不同界 |\n| C 念珠藻 | 藍菌，屬原核生物界 | ✅ 與髮菜同界 |\n| D 新月藻 | 綠藻，屬原生生物界 | ❌ 與髮菜不同界 |\n\n分類階層由大到小為：**界、門、綱、目、科、屬、種**。\n髮菜與念珠藻都屬「原核生物界」，光是「界」相同，就符合「至少有一個分類階層相同」。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 164,
+      "contextHeader": "**第28題｜塵蟎是節肢動物，但不是昆蟲**",
+      "aiQuotedQuestionForCandidatesOnly": "小張：我的過敏原是塵蟎。之前醫生特別用顯微鏡讓我觀察，原來我平時用的枕頭裡就有這些小生物。有8隻分節的附肢，會吃脫落的皮屑。塵蟎的屍體、排泄物、蟲卵都會讓我產生過敏反應。\n\n**28. 關於小張的過敏原——塵蟎的敘述，下列何者正確？**\n\n(A) 塵蟎體型微小，但肉眼可見\n(B) 應屬於動物界，節肢動物門\n(C) 與蒼蠅、蟑螂、蚊子一樣，是家中常見的昆蟲\n(D) 只要把枕頭放到烘衣機裡烘乾，殺死塵蟎，就可以避免塵蟎引起的過敏",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 278,
+      "contextHeader": "**第7題｜清帝退位時，誰受指定組織共和政府？**",
+      "aiQuotedQuestionForCandidatesOnly": "附圖是20世紀時，中華民國、清帝國兩方代表在某一事件時的談判內容，根據內容判斷，圖中的○○○最可能是下列何人？\n\n(A) 孫中山\n(B) 宋教仁\n(C) 袁世凱\n(D) 段祺瑞\n\n**附圖文字**\n\n中華民國代表：\n\n- 辭位後，「尊號仍存不廢」，我方以「待各外國君主之禮」相待。\n- 歲用四百萬兩，此款由我方撥用。\n- 「暫居宮禁」，侍衛人等，照常留用。\n\n清帝國代表：\n\n- 外觀大勢，內審輿情，特率皇帝將統治權公諸全國，定為共和立憲國體。\n- 即由○○○以全權組織臨時共和政府，與民軍協商統一辦法。",
+      "candidates": [
+        {
+          "id": "q-263",
+          "parentId": "q-263",
+          "title": "歷史第4題｜清帝退位談判的甲乙雙方",
+          "textSimilarity": 0.547,
+          "longestCommonRun": 28,
+          "strongTextCandidate": false
+        }
+      ],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 403,
+      "contextHeader": "**第20題｜「恢復約法」是哪個運動？**",
+      "aiQuotedQuestionForCandidatesOnly": "附圖是中國某時期敵對陣營間相互聲討時，提出的布告文字摘要。根據內容判斷，這二個陣營最可能在下列哪個時期出現？\n\n**左側布告：**\n\n> ……於是申請國會，集於廣州，開會議事，以文為海陸軍大元帥，以勘定內亂，恢復約法為責任，奉迎元首之事。\n\n**右側布告：**\n\n> 一、召開新國會。\n> 二、召集臨時參議院，修改國會組織選舉法。\n> 三、追緝法辦孫中山等人叛逆罪行。\n\n(A) 民國初建之時\n(B) 洪憲帝制期間\n(C) 護法運動期間\n(D) 十年建設期間",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 520,
+      "contextHeader": "**第25題｜先認出袁世凱，再找「無關」**",
+      "aiQuotedQuestionForCandidatesOnly": "民國初年，一北洋軍閥稱帝僅102天便下臺。此人於辛亥革命後假意擁護共和，實則圖謀帝制，自導「洪憲帝制」，引起國內外反對而迫撤銷，憤恨而亡。下列哪一事件與此人**無關**？\n\n(A) 武昌起事\n(B) 解散國會\n(C) 二次革命\n(D) 五九國恥",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 619,
+      "contextHeader": "**第27題｜新文化運動：重證據，不盲從**",
+      "aiQuotedQuestionForCandidatesOnly": "以下為小安看到的一篇文章部分內容，下列何者較符合文中當時新知識分子的觀點？\n\n> 新文化運動是我國空前的思想變革。……輿論沸騰，學潮遍及全國，民眾奮起投入愛國運動。我黨革命成功，必須依賴思想變革，正如兵法所言「攻心」、「革心」，此運動尤為重要。\n\n(A) 男主外女主內，遵守媒妁之言\n(B) 講究實事求是，反對服從權威\n(C) 消除文化隔閡，實現世界大同\n(D) 重建倫理秩序，恢復固有文化",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 740,
+      "contextHeader": "**第15題｜「充滿」和「有」是不同句型**",
+      "aiQuotedQuestionForCandidatesOnly": "Jessie was so surprised when she entered her room. That was because ______ full of many beautiful roses.\n\n(A) there was\n(B) they were\n(C) it was\n(D) there were",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 782,
+      "contextHeader": "**第16題｜問距離，也能用交通時間回答**",
+      "aiQuotedQuestionForCandidatesOnly": "Remy: ______ is it from your home to the post office?\nAngel: It’s 5 minutes by bike.\n\n(A) How long\n(B) How far\n(C) How soon\n(D) How often",
+      "candidates": [
+        {
+          "id": "q-735",
+          "parentId": "q-735",
+          "title": "英文第7回第25題｜多久與八年以上的期間",
+          "textSimilarity": 0.418,
+          "longestCommonRun": 8,
+          "strongTextCandidate": false
+        }
+      ],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 928,
+      "contextHeader": "**第35題｜問「偏好」，不是問次數**",
+      "aiQuotedQuestionForCandidatesOnly": "How many of the four people like supermarkets more?\n\n(A) One.\n(B) Two.\n(C) Three.\n(D) Four.",
+      "candidates": [
+        {
+          "id": "q-444",
+          "parentId": "q-444",
+          "title": "英文第29題｜stop making fun與形式主詞it",
+          "textSimilarity": 0.415,
+          "longestCommonRun": 10,
+          "strongTextCandidate": false
+        }
+      ],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 966,
+      "contextHeader": "**第36題｜問「比 Ben 更少去超市」**",
+      "aiQuotedQuestionForCandidatesOnly": "Who goes shopping at supermarkets less often than Ben?\n\n(A) Jenny and Tom.\n(B) Only Tom.\n(C) Only Linda.\n(D) Linda and Tom.",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 49,
+      "transcript": "docs/imports/new-gpt-20261029-a/transcript.txt",
+      "line": 1062,
+      "contextHeader": "**第41題｜用前後文猜 avoid**",
+      "aiQuotedQuestionForCandidatesOnly": "What does **avoid** mean?\n\n(A) To keep away from.\n(B) To enjoy.\n(C) To begin.\n(D) To remember.",
+      "candidates": [
+        {
+          "id": "q-283",
+          "parentId": "q-283",
+          "title": "英文第13題｜Any of the snacks表示任一份",
+          "textSimilarity": 0.382,
+          "longestCommonRun": 7,
+          "strongTextCandidate": false
+        }
+      ],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 74,
+      "contextHeader": "**第 3 題｜你選 A → 正解 B（乙）**  ",
+      "aiQuotedQuestionForCandidatesOnly": "新聞報導：「印度在 2023 年遭遇有紀錄以來最乾旱的 8 月，降水量減少已大幅衝擊棉花產量，這也威脅到全球棉花的供應。」根據上述報導判斷，右圖中哪個作物區最可能是新聞的發生地點？\n\n(A) 甲  \n(B) 乙  \n(C) 丙  \n(D) 丁  \n\n原題地圖保留在下方漫畫左下角。\n\n**詳解：先找「棉花」，再定位產區。**\n\n題目考的是**印度農作物分布**。「棉花」決定要找哪個產區；「降水量減少」則解釋減產原因。\n\n印度**德干高原的黑土適合種植棉花**，對應圖中半島內陸的**乙區**，所以選 **B**。印度 NCERT 地理教材也指出，棉花適合生長於德干高原較乾燥的黑土區。genui{\"citation\":{\"ref\":\"turn2search0\"}}\n\n依原圖位置判讀各區的代表作物：\n\n| 選項 | 圖中作物區 | 判斷 |\n|---|---|---|\n| A 甲 | 西北部的小麥區 | 新聞談的是棉花，排除。 |\n| **B 乙** | **德干高原的棉花區** | **符合新聞中的作物，正確。** |\n| C 丙 | 恆河平原與沿海的稻作區 | 代表作物為稻米，排除。 |\n| D 丁 | 東北部的茶作區 | 代表作物為茶葉，排除。 |\n\n這是在辨認圖中的**代表作物區**，不是說印度其他地區完全不種棉花。\n\n**A 的易錯陷阱**\n\n若是看到「乾旱」，就聯想到較乾燥的西北部而選甲，便漏掉了更直接的線索——**棉花**。而且，較耐旱也不等於不需要水；雨量不足仍可能造成減產。\n\n**5 秒判斷**\n\n先看新聞的**作物名稱** → 棉花先鎖定**德干高原** → 再看原圖位置是**乙** → 選 **B**。  \n適用於本題這類代表作物分區圖，不能只憑「乾旱」定位。\n\n![第3題：棉花產區與乾旱影響小漫畫](sandbox:/workspace/scratch/2338d8512f0e/output/q3_india_cotton_comic.png)\n\n遮住解析，說一次：**「我選乙，因為新聞談棉花；乙是德干高原的代表棉作區。」**\n\n\n[ATTACHMENT {\"content_type\": \"image_asset_pointer\", \"asset_pointer\": \"sediment://file_00000000fdd88206a2460842c0c514a0?shared_conversation_id=6ae35d9f-f560-83ee-bbe9-d01ff3be9e33\", \"size_bytes\": 40318, \"width\": 777, \"height\": 95, \"metadata\": {\"sanitized\": true}}]\n4@錯題 a--b\n\n\n\n\n\n\n\n\n\n\n\n我會依你提供的 A→B 訂正第 4 題，先核對原題與各選項，再整理詳解、5 秒判斷和小漫畫。\n\n\n\n\n\n\n\n\n\n\n\nThe output of this plugin was redacted.\n\n\n\n\n\n\n\n\n[ATTACHMENT {\"content_type\": \"image_asset_pointer\", \"asset_pointer\": \"sediment://file_0000000054408206a43a9c985cee09cb?shared_conversation_id=6ae35d9f-f560-83ee-bbe9-d01ff3be9e33\", \"size_bytes\": 3235426, \"width\": 2172, \"height\": 724, \"metadata\": {\"dalle\": {\"prompt\": \"Create a beautiful rich colorful cute anime comic ILLUSTRATION ASSET, landscape ratio 3:1, three equal softly separated vertical scenes. Absolutely NO text letters numbers arrows speech bubbles maps geographic outlines formulas or diagrams. Same friendly chibi boy detective in a blue vest and orange cat teacher in all panels. Left: on a tropical island coast the duo admire a distant volcanic mountain across blue water, peaceful daylight. Center: duo in a small wooden boat looking at several lush small islands separated by ocean, tropical archipelago scenery. Right: in a classroom duo examine a tabletop imaginary archipelago model with many separate small islands, a loose red cord carefully following shorelines of the model, for a playful geography investigation. Not an actual map and no scientific cross sections. Warm cream, teal ocean and orange accents, expressive faces, detailed charming educational manga art. Characters and scenery only; educational captions will be added separately.\", \"serialization_title\": \"DALL-E generation metadata\"}, \"generation\": {\"gen_id\": \"af3b0542-b722-4601-af79-9cbbcbee4751\", \"height\": 724, \"width\": 2172, \"transparent_background\": false, \"serialization_title\": \"Image Generation metadata\"}, \"container_pixel_height\": 724, \"container_pixel_width\": 2172, \"sanitized\": false}}]\n\n\n這題的關鍵是「板塊交界 → 眾多島嶼 → 各島海岸線加總很長」，所以選 B。A 的「地質古老」不能直接解釋海岸線長度；小漫畫會把這條因果關係畫清楚。\n\n\n\n\n\n\n\n\n**第 4 題｜你選 A → 正解 B**\n\n**原題**\n\n根據統計，印尼的海岸線長度排名世界第二位，比俄羅斯的海岸線還長，其原因與下列何者最相關？\n\n(A) 陸塊地質古老  \n(B) 位板塊交界處  \n(C) 屬季風氣候區  \n(D) 東西交通要道",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 164,
+      "contextHeader": "**第 4 題｜你選 A → 正解 B**",
+      "aiQuotedQuestionForCandidatesOnly": "根據統計，印尼的海岸線長度排名世界第二位，比俄羅斯的海岸線還長，其原因與下列何者最相關？\n\n(A) 陸塊地質古老  \n(B) 位板塊交界處  \n(C) 屬季風氣候區  \n(D) 東西交通要道",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 300,
+      "contextHeader": "**第 5 題｜你選 D → 正解 A**",
+      "aiQuotedQuestionForCandidatesOnly": "右圖為印度半島的降水量分布圖，形成圖中由乙到甲的分布情況，最主要因素為下列何者？\n\n(A) 西南季風持續時間的長短  \n(B) 東北季風吹拂力道的強弱  \n(C) 當地熱帶氣旋發生的頻率  \n(D) 整體地形高低起伏的程度  \n\n原圖見下方漫畫左下角：**乙雨量較多，往甲逐漸減少**，圖例單位為毫米（mm）。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 334,
+      "contextHeader": "**第 12 題｜你更正為 A→C：待核**",
+      "aiQuotedQuestionForCandidatesOnly": "某財金雜誌寫道：「該國位於中南半島東端，氣候和臺灣類似，受中國文化影響，也過著春節、中秋、端午等節日。目前總人口約1億30餘萬，其中壯年人口占67%，平均薪資低廉，漸成為中國以外的第二製造據點。該國目前在全球經濟體系中的地位日益提升，根據國際貨幣基金的數據，全國GDP已達4,658億美元，經濟成長率高達5.8%，成為東南亞第五大經濟體。」上文所述國家，應為下列何者？\n\n(A) 越南  \n(B) 印度  \n(C) 新加坡  \n(D) 馬來西亞",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 374,
+      "contextHeader": "**第 12 題｜孩子選 C（新加坡）→ 正解 A（越南）**  ",
+      "aiQuotedQuestionForCandidatesOnly": "某財金雜誌寫道：「該國位於中南半島東端，氣候和臺灣類似，受中國文化影響，也過著春節、中秋、端午等節日。目前總人口約1億30餘萬，其中壯年人口占67%，平均薪資低廉，漸成為中國以外的第二製造據點。該國目前在全球經濟體系中的地位日益提升，根據國際貨幣基金的數據，全國GDP已達4,658億美元，經濟成長率高達5.8%，成為東南亞第五大經濟體。」上文所述國家，應為下列何者？\n\n(A) 越南  \n(B) 印度  \n(C) 新加坡  \n(D) 馬來西亞  \n\n**詳解：先抓位置，再用其他線索確認。**\n\n這題適合用「關鍵字排除法」。最有辨識力的線索是**「中南半島東端」**，對應沿著中南半島東側、國土南北延伸的**越南**。\n\n「受中國文化影響、過春節等節日」及題幹描述的「人口多、薪資較低、製造業發展」，則是輔助確認線索。\n\n| 選項 | 正誤與理由 |\n|---|---|\n| **A 越南** | ✅ **位於中南半島東側**，也符合題幹的文化與製造業描述。 |\n| B 印度 | ❌ 位於南亞的印度半島，不在中南半島。 |\n| C 新加坡 | ❌ 位於馬來半島南端外海，不在中南半島東端。 |\n| D 馬來西亞 | ❌ 主要分布於馬來半島南部及婆羅洲北部，不符合位置線索。 |\n\n**C 的易錯陷阱**\n\n新加坡也有春節、中秋等節慶，**只看文化線索，容易選到 C**。但答案必須同時符合題幹條件，不能忽略「中南半島東端」。\n\n記憶口訣：**「半島東側找越南，馬來南端看星國。」**\n\n**5 秒判斷**\n\n先看**「中南半島東端」** → 鎖定**越南 A** → 再檢查文化、人口與產業描述是否吻合。  \n這套方法適用於位置明確的國家辨識題；不能只憑「過春節」判斷。GDP、成長率沿用題目報導，不必靠背數字解題。\n\n![第12題：抓位置線索辨認越南的小漫畫](sandbox:/workspace/scratch/2338d8512f0e/output/q12_vietnam_clues_comic.png)\n\n遮住解析說一次：**「我選越南，因為題目寫中南半島東端；新加坡在馬來半島南端，位置不符。」**\n\n\n[ATTACHMENT {\"content_type\": \"image_asset_pointer\", \"asset_pointer\": \"sediment://file_0000000000908206a683c382d8772790?shared_conversation_id=6ae35d9f-f560-83ee-bbe9-d01ff3be9e33\", \"size_bytes\": 96792, \"width\": 788, \"height\": 163, \"metadata\": {\"sanitized\": true}}]\n17@錯題 B--C\n\n\n\n\n\n\n\n\n\n\n\n我會依你提供的 B→C 訂正第 17 題，先核對原題，再完成逐項詳解、5 秒判斷與小漫畫。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe output of this plugin was redacted.\n\n\n這題要把「黃麻＋水稻＋河道密布」一起判讀，對應孟加拉（C）。排除 B 還有一個直接證據：斯里蘭卡國徽的中央是持劍獅子，與題圖的睡蓮不同。我會保留原國徽圖，標出各部分的意思。\n\n\n\n\n\n[ATTACHMENT {\"content_type\": \"image_asset_pointer\", \"asset_pointer\": \"sediment://file_00000000f82c8206a0c1a464f7b029cf?shared_conversation_id=6ae35d9f-f560-83ee-bbe9-d01ff3be9e33\", \"size_bytes\": 3177143, \"width\": 2172, \"height\": 724, \"metadata\": {\"dalle\": {\"prompt\": \"Create a rich colorful cute anime educational illustration asset, horizontal landscape ratio 3:1, three equal softly separated vertical panels. Absolutely no words, text, letters, digits, labels, arrows, logos, official emblems, national flags, maps or diagrams. Same friendly chibi boy detective in blue vest and orange cat teacher in each scene. Left: they gently observe a flowering white water lily floating among round lily pads on a pond, flower on water surface, not a lotus on a tall stem. Middle: they ride a small wooden boat along lush South Asian delta waterways with tall green jute crop by the bank, warm bright tropical daylight. Right: they inspect golden ripe rice plants with drooping panicles in a paddy field beside a farmer, wholesome rural Bangladesh atmosphere. Detailed beautiful manga art, cream teal gold orange colors, charming expressive faces. Illustrative fictional scenery only. Exact national emblem and verified labels will be placed separately by program.\", \"serialization_title\": \"DALL-E generation metadata\"}, \"generation\": {\"gen_id\": \"f0a1e390-0363-41c1-b76e-d456174a314a\", \"height\": 724, \"width\": 2172, \"transparent_background\": false, \"serialization_title\": \"Image Generation metadata\"}, \"container_pixel_height\": 724, \"container_pixel_width\": 2172, \"sanitized\": false}}]\n\n\n\n\n\n\n\n\nThe output of this plugin was redacted.\n\n\n\n\n\n**第 17 題｜你選 B（斯里蘭卡）→ 正解 C（孟加拉）**\n\n**原題**\n\n右圖為南亞某國的國徽，其中中央圖案為該國國花——睡蓮，下方水紋象徵當地河道縱橫的地理環境，上方的黃麻為當地主要的經濟作物，兩旁為當地主要糧食作物——水稻。由圖文推論，「某國」是指哪個國家？\n\n(A) 尼泊爾  \n(B) 斯里蘭卡  \n(C) 孟加拉  \n(D) 馬爾地夫  \n\n原國徽圖保留在下方漫畫左下角。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 466,
+      "contextHeader": "**第 17 題｜你選 B（斯里蘭卡）→ 正解 C（孟加拉）**",
+      "aiQuotedQuestionForCandidatesOnly": "右圖為南亞某國的國徽，其中中央圖案為該國國花——睡蓮，下方水紋象徵當地河道縱橫的地理環境，上方的黃麻為當地主要的經濟作物，兩旁為當地主要糧食作物——水稻。由圖文推論，「某國」是指哪個國家？\n\n(A) 尼泊爾  \n(B) 斯里蘭卡  \n(C) 孟加拉  \n(D) 馬爾地夫  \n\n原國徽圖保留在下方漫畫左下角。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 576,
+      "contextHeader": "**第 23 題｜你選 B → 正解 A（集約經營）**",
+      "aiQuotedQuestionForCandidatesOnly": "關於文中新德里北部農民的農業活動類型，下列敘述何者正確？\n\n(A) 集約經營的型態  \n(B) 單位面積產量低  \n(C) 稻米於乾季種植  \n(D) 小麥於雨季種植",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 677,
+      "contextHeader": "**第 3 題｜你選 D → 正解 A（熱帶季風氣候）**",
+      "aiQuotedQuestionForCandidatesOnly": "上述地區最可能屬於下列何種氣候類型？\n\n(A) 熱帶季風氣候  \n(B) 熱帶沙漠氣候  \n(C) 熱帶雨林氣候  \n(D) 熱帶東北季風氣候",
+      "candidates": [
+        {
+          "id": "q-261",
+          "parentId": "q-261",
+          "title": "地理第29題｜青島與溫帶季風氣候圖",
+          "textSimilarity": 0.382,
+          "longestCommonRun": 4,
+          "strongTextCandidate": false
+        }
+      ],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 770,
+      "contextHeader": "**第 4 題｜你選 C（蒙古人）→ 正解 B（阿利安人）**",
+      "aiQuotedQuestionForCandidatesOnly": "上述的階級觀念是由下列哪個族群所帶來的？\n\n(A) 埃及人  \n(B) 阿利安人  \n(C) 蒙古人  \n(D) 希伯來人  \n\n共用文章沿用上一題〈印度擬用臉部辨識系統防範性騷擾〉，本題關鍵原文是：**「受到西元前1500年帶來的階級觀念影響」**。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 863,
+      "contextHeader": "**第 1 題｜你選 A → 正解 C**",
+      "aiQuotedQuestionForCandidatesOnly": "右圖為2023年底跨太平洋夥伴全面進步協定（CPTPP）的正式成員國分布圖。該協定透過階段性的廢除關稅，以促進貿易往來。許多國家正積極爭取加入此協議，我國政府也不例外，若是能通過並正式簽署協議，我國在國際貿易上最可能出現下列哪項變化？\n\n(A) 貿易商進口南韓泡麵可免除關稅  \n(B) 國產腳踏車出口歐盟可增加配額  \n(C) 鋼鐵業者進口澳洲鐵礦利潤提高  \n(D) 車商進口美國汽車可降低關稅額  \n\n原成員分布圖保留在下方漫畫左下角。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 946,
+      "contextHeader": "**第 2 題先列待核：你提供 B→D，但目前照片的圖表較支持 B（乙國）。**",
+      "aiQuotedQuestionForCandidatesOnly": "右圖為世界銀行繪製用來展現世界各國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大小。根據圖中資訊，哪個國家最可能是「印度」？\n\n(A) 甲國  \n(B) 乙國  \n(C) 丙國  \n(D) 丁國  \n\n圖表資訊：\n\n- 橫軸：各國人口占世界人口的**累積百分比**。\n- 縱軸：人均 GDP（美元）。\n- 世界平均值：13,460 美元。\n- 矩形面積：該國經濟規模。\n\n**核對後的疑點**\n\n印度在2011年人口龐大，人均 GDP 低於圖中的世界平均線，應找**「寬、矮」的矩形**。印度官方2011年資料指出，當時印度約占世界人口的 **17.5%**。genui{\"citation\":{\"ref\":\"turn15search2\"}}\n\n| 圖中國家 | 圖表特徵 | 與印度是否相符 |\n|---|---|---|\n| **乙國（B）** | 約從20%延伸至38%，**寬度約18%**；高度低於世界平均 | 較符合 |\n| 丁國（D） | 矩形窄，人均 GDP 約三萬多美元，高於世界平均 | 不符合上述特徵 |\n\n注意：乙的位置約在30%，**不代表乙占世界人口30%**；要讀矩形左右兩端的差，也就是它的寬度。\n\n依[錯題技能](sandbox:/root/.codex/skills/remote-skills/skill-6abdccfe79d48191b064eae792a715b0/SKILL.md)「題目、答案與考點有矛盾時，列出疑點，不硬認定正解」，這題先暫緩答案漫畫與確定性口訣。\n\n**請確認：這張第 2 題的正解是否應為 B（乙國），還是 D 對應另一題？**\n\n\n第 2 題的正解是應為 B\n\n\n\n\n\n\n\n\n\n\n\n收到，正解確認為 **B（乙國）**。若孩子原本也選 B，這題就不用改答案。我會補上圖表讀法與小漫畫，重點是「矩形寬度看人口占比，高度看人均 GDP」。\n\n\n\n\n\n\n\n\n[ATTACHMENT {\"content_type\": \"image_asset_pointer\", \"asset_pointer\": \"sediment://file_00000000c1b88206a912eedf3eed1486?shared_conversation_id=6ae35d9f-f560-83ee-bbe9-d01ff3be9e33\", \"size_bytes\": 2492845, \"width\": 2172, \"height\": 724, \"metadata\": {\"dalle\": {\"prompt\": \"Create a rich colorful cute anime educational ILLUSTRATION ASSET, horizontal landscape ratio 3:1, three equal softly separated vertical panels. Absolutely NO words, text, letters, digits, arrows, maps, flags, labels, charts, bar graphs, coordinate axes, formulas, speech bubbles or writing. Same chibi young detective in a blue vest and friendly orange cat teacher throughout. Left: duo examine a long row of many identical plain wooden person tokens on a desk with magnifying glass, conveying counting population, cheerful classroom. Middle: duo study small baskets of coins shared among plain person tokens, conveying average economic output per person; no scales or numerical quantities need to be exact. Right: duo compare a blank wide shallow rectangular wooden box with a blank narrow tall rectangular wooden box, curious expressions, colorful classroom setting. Beautiful polished detailed manga, warm cream teal and orange palette, lively expressive faces. These are decorative fictional scenes only; the exact original GDP graph and verified reading rules will be composited separately by program.\", \"serialization_title\": \"DALL-E generation metadata\"}, \"generation\": {\"gen_id\": \"c74c2ec8-ffca-4107-b2eb-e60e71663534\", \"height\": 724, \"width\": 2172, \"transparent_background\": false, \"serialization_title\": \"Image Generation metadata\"}, \"container_pixel_height\": 724, \"container_pixel_width\": 2172, \"sanitized\": false}}]\n\n\n\n\n\n\n\n\n**第 2 題正解確認為 B（乙國），與圖表判讀一致。**  \n若孩子原本選 B，這題就不用改答案，補清楚讀圖方法即可。\n\n**原題**\n\n右圖為世界銀行繪製用來展現世界各國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大小。根據圖中資訊，哪個國家最可能是「印度」？\n\n(A) 甲國  \n(B) 乙國  \n(C) 丙國  \n(D) 丁國  \n\n原圖保留在下方漫畫中。\n\n**詳解：先看寬度，再看高度。**\n\n這題用「圖表判讀法」，分清楚三件事：\n\n- **寬度＝人口占世界人口的比例。**\n- **高度＝人均 GDP。**\n- **面積＝可比較該國的經濟規模。**\n\n2011年的印度**人口很多、人均 GDP 低於圖中的世界平均值**，因此要找「**寬、矮**」的矩形。印度官方2011年資料記載，當時印度約占世界人口的17.5%。genui{\"citation\":{\"ref\":\"turn15search2\"}}\n\n| 選項 | 圖表特徵與判斷 |\n|---|---|\n| A 甲國 | ❌ 雖然矮，但很窄，人口占比不符合印度。 |\n| **B 乙國** | ✅ **矩形寬、低於世界平均線，同時符合兩條線索。** |\n| C 丙國 | ❌ 矩形較窄，人均 GDP 接近並略高於世界平均。 |\n| D 丁國 | ❌ 矩形窄、高，表示人口占比小、人均 GDP 高。 |",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 1011,
+      "contextHeader": "**第 2 題正解確認為 B（乙國），與圖表判讀一致。**  ",
+      "aiQuotedQuestionForCandidatesOnly": "右圖為世界銀行繪製用來展現世界各國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大小。根據圖中資訊，哪個國家最可能是「印度」？\n\n(A) 甲國  \n(B) 乙國  \n(C) 丙國  \n(D) 丁國  \n\n原圖保留在下方漫畫中。\n\n**詳解：先看寬度，再看高度。**\n\n這題用「圖表判讀法」，分清楚三件事：\n\n- **寬度＝人口占世界人口的比例。**\n- **高度＝人均 GDP。**\n- **面積＝可比較該國的經濟規模。**\n\n2011年的印度**人口很多、人均 GDP 低於圖中的世界平均值**，因此要找「**寬、矮**」的矩形。印度官方2011年資料記載，當時印度約占世界人口的17.5%。genui{\"citation\":{\"ref\":\"turn15search2\"}}\n\n| 選項 | 圖表特徵與判斷 |\n|---|---|\n| A 甲國 | ❌ 雖然矮，但很窄，人口占比不符合印度。 |\n| **B 乙國** | ✅ **矩形寬、低於世界平均線，同時符合兩條線索。** |\n| C 丙國 | ❌ 矩形較窄，人均 GDP 接近並略高於世界平均。 |\n| D 丁國 | ❌ 矩形窄、高，表示人口占比小、人均 GDP 高。 |",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 1100,
+      "contextHeader": "**第 4 題｜你選 D → 正解 A（雨季來臨前的 5 月）**",
+      "aiQuotedQuestionForCandidatesOnly": "偉哲收看關於印度的新聞報導，右圖為新聞報導中所呈現當地某項災害的統計資料，根據圖中資訊判斷，報導中的災害最可能發生在下列哪個月份？\n\n(A) 雨季來臨前的5月  \n(B) 熱季來臨前的2月  \n(C) 涼季來臨前的10月  \n(D) 正逢雨季的8月  \n\n原圖保留在下方漫畫左下角。圖中標示**熱浪受影響區域、災情嚴重區域與死亡人數**；海得拉巴預測最高溫為 **42°C**，維薩喀巴坦為 **35°C**。",
+      "candidates": [],
+      "notOriginalVerified": true
+    },
+    {
+      "sourceOrder": 50,
+      "transcript": "docs/imports/new-gpt-20261029-b/transcript.txt",
+      "line": 1207,
+      "contextHeader": "**第 5 題｜你選 B → 正解 A（佛教）**",
+      "aiQuotedQuestionForCandidatesOnly": "5. 右圖為某間國際物流中心官方網站的最新消息，圖中各國適逢連續假期，是因為此期間有這些國家主要宗教信仰的重要節日。根據圖中資訊判斷，圖中各國的主要宗教信仰應為下列何者？\n\n(A)佛教　(B)印度教　(C)基督教　(D)伊斯蘭教\n\n公告「最新消息」：\n> 4 月中適逢斯里蘭卡、泰國、緬甸、柬埔寨、新加坡等國之連續假期，寄往上述國家貨物如有延遲送達，造成不便敬請見諒。",
+      "candidates": [],
+      "notOriginalVerified": true
+    }
+  ]
+}

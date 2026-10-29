@@ -1,5 +1,22 @@
 {
-  "requests": [],
+  "requests": [
+    {
+      "id": "access-new-gpt-20261029-originals",
+      "title": "Chrome 連線允許：取回兩個 GPT 來源的原卷",
+      "kind": "原圖存取",
+      "state": "resolved",
+      "sourceKey": "gpt049",
+      "sourceUrl": "https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d",
+      "questionText": "兩份對話文字已保存。第49來源有9張原卷，第50來源有15張原卷，均尚未取回；沒有原圖就先不判題。",
+      "questions": [
+        "請在 Chrome 新出現的遠端偵錯連線提示按「允許／Allow」。先前的連線已逾時，現在唯一的新連線會等待15分鐘。",
+        "這是原圖存取確認，不是題目內容核對；兩來源原圖成功取回後會更新此項。"
+      ],
+      "createdAt": "2026-10-29T15:21:26.511125+00:00",
+      "resolvedAt": "2026-10-29T15:24:32.978721+00:00",
+      "resolution": "使用者已明確確認對這次新的 Chrome 提示按 Allow；程式接續驗證連線與取回原卷，尚不宣稱圖片已下載。"
+    }
+  ],
   "resolved": [
     {
       "id": "gpt-source-036-images",
@@ -5194,6 +5211,23 @@
       "resolvedAt": "2026-10-29T12:34:06.102689+00:00",
       "appliedAt": "2026-10-29T13:05:02.978027+00:00",
       "appliedEvidence": "docs/comics/q-027-confirmed-application.json"
+    },
+    {
+      "id": "access-new-gpt-20261029-originals",
+      "title": "Chrome 連線允許：取回兩個 GPT 來源的原卷",
+      "kind": "原圖存取",
+      "state": "resolved",
+      "sourceKey": "gpt049",
+      "sourceUrl": "https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d",
+      "questionText": "兩份對話文字已保存。第49來源有9張原卷，第50來源有15張原卷，均尚未取回；沒有原圖就先不判題。",
+      "questions": [
+        "請在 Chrome 新出現的遠端偵錯連線提示按「允許／Allow」。先前的連線已逾時，現在唯一的新連線會等待15分鐘。",
+        "這是原圖存取確認，不是題目內容核對；兩來源原圖成功取回後會更新此項。"
+      ],
+      "createdAt": "2026-10-29T15:21:26.511125+00:00",
+      "resolvedAt": "2026-10-29T15:24:32.978721+00:00",
+      "resolution": "使用者已明確確認對這次新的 Chrome 提示按 Allow；程式接續驗證連線與取回原卷，尚不宣稱圖片已下載。",
+      "confirmationToken": "5ddd7de90621c06ae6e43c94efe340a4c26776a6b1c90f48803556da1431b2c7"
     }
   ]
 }

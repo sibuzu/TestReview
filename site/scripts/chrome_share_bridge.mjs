@@ -3,8 +3,12 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import readline from 'node:readline';
+import {createRequire} from 'node:module';
+// Reuse the same WebSocket implementation as the local browser QA tools. A
+// Chrome Allow prompt can outlast the native client's HTTP handshake timeout.
+const {ws: ApprovalWebSocket}=createRequire(import.meta.url)('/home/jack/ai/Chemery/node_modules/playwright-core/lib/utilsBundle.js');
 const [port,route]=fs.readFileSync(path.join(os.homedir(),'.config/google-chrome/DevToolsActivePort'),'utf8').trim().split('\n');
-const socket=new WebSocket(`ws://127.0.0.1:${port}${route}`);
+const socket=new ApprovalWebSocket(`ws://127.0.0.1:${port}${route}`,{handshakeTimeout:15*60*1000});
 let seq=0;const pending=new Map();
 function send(method,params={},sessionId){return new Promise((resolve,reject)=>{const id=++seq;pending.set(id,{resolve,reject});socket.send(JSON.stringify({id,method,params,...(sessionId?{sessionId}:{})}));setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error('CDP request timed out'));}},45000).unref();});}
 socket.addEventListener('message',event=>{const m=JSON.parse(event.data);if(!m.id)return;const p=pending.get(m.id);if(!p)return;pending.delete(m.id);if(m.error)p.reject(Error(m.error.message));else p.resolve(m.result);});

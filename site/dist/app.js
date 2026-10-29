@@ -57,8 +57,25 @@ function toggleDoubt(id){
  markSync?.queueAll(keys.map(key=>({kind:'doubt',id:key,on:on&&key===parent})));render();refreshMarkButtons();
 }
 const doubtIcon="<svg class=\"question-mark-icon\" viewBox=\"230 65 560 900\" aria-hidden=\"true\" focusable=\"false\"><path class=\"question-shape\" d=\"M715.720415 207.522102C675.902539 136.26685 603.803606 95.397443 518.015326 95.397443c-129.594189 0-205.287984 72.306782-238.682003 195.401348-20.885213 76.845665 110.976883 131.618411 140.38594 27.173916 15.792407-56.028029 37.099461-79.499576 98.296063-79.499576 33.883437 0 58.475115 13.134401 72.864799 38.912762 15.649063 28.014526 14.18286 62.384309 3.633769 79.571248-17.119363 27.874254-35.489913 44.013758-56.72939 62.663829-44.432528 39.05201-99.619947 88.864031-99.619946 221.809398 0 70.489385 71.537844 71.537844 71.537843 71.537844 39.470779 0 71.537844-32.067064 71.537844-71.537844 0-69.581199 14.880125-82.643928 50.856384-114.224647 25.013518-21.933671 55.960452-49.11066 84.325148-95.35956 39.677604-64.691123 39.399107-152.714544-0.701362-224.324059z\"/><path class=\"question-highlight\" d=\"M670.72987 403.764058c-24.240485 39.399107-50.648535 62.595229-73.980834 83.134369-40.172141 35.210392-69.16243 60.710256-69.16243 154.531941 0 9.850801-7.965828 17.884205-17.884205 17.884205-9.850801 0-17.884205-8.033404-17.884205-17.884205 0-110.031836 39.470779-144.68114 81.316973-181.430432 22.494761-19.769178 45.759483-40.168045 67.066536-74.960692 22.355512-36.326427 21.307054-91.374598-2.514662-133.850481-23.893388-42.758475-66.436847-66.369271-119.671717-66.369271-86.768138 0-134.762763 39.12061-150.969843 123.022894-1.884973 9.711552-11.213592 16.070904-20.925144 14.182859-9.711552-1.884973-16.067832-11.245333-14.181836-20.956885 19.493753-100.879326 82.05417-152.017278 186.076823-152.017278 66.78804 0 120.368983 30.11042 150.898172 84.672245 30.32134 54.071384 31.018606 122.393204 1.816372 170.040731z\"/><path class=\"question-shape\" d=\"M513.19385 757.121218c-47.433535 0-85.859952 38.423345-85.859951 85.859952 0 47.433535 38.426416 85.859952 85.859951 85.859952 47.364935 0 85.791351-38.426416 85.791352-85.859952 0-47.436607-38.426416-85.859952-85.791352-85.859952z\"/><path class=\"question-highlight\" d=\"M513.19385 875.187483c-17.812533 0-32.206313-14.39378-32.206313-32.206313 0-17.744957 14.39378-32.206313 32.206313-32.206313 17.744957 0 32.138736 14.461356 32.138737 32.206313-0.001024 17.812533-14.39378 32.206313-32.138737 32.206313z\"/></svg>";
+function readingQuestions(q){
+ const saved=history.state?.returnTo;
+ if(Array.isArray(saved?.questionIds)){
+  const byId=new Map(data.questions.map(item=>[item.id,item]));
+  return [...new Set(saved.questionIds.filter(id=>typeof id==='string').map(canonicalQuestionId))].map(id=>byId.get(id)).filter(Boolean);
+ }
+ return scopedQuestions(data.questions,saved?.filters||{subject:q.subject});
+}
+function readingLabel(q){
+ const selection=history.state?.returnTo?.filters||{subject:q.subject};
+ return selection.subject?subject(selection.subject).name:selection.doubt?'有疑義的題目':selection.issue?'待核對原題':'全部錯題';
+}
+function nextQuestionControl(q){
+ const questions=readingQuestions(q),index=questions.findIndex(item=>item.id===q.id),next=index>=0?questions[index+1]:null;
+ const arrow='<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4"/><path d="M8 12h8"/></svg>';
+ return next?`<a class="next-question" data-next-question data-question-nav="${e(next.id)}" href="${questionHash(next.id)}" aria-label="下一題" title="下一題">${arrow}</a>`:`<span class="next-question" data-next-question role="link" aria-disabled="true" aria-label="已是清單最後一題" title="已是清單最後一題">${arrow}</span>`;
+}
 function flagControls(q,position='header'){
- const value=flagFor(q.id);return `<div class="flag-options" role="radiogroup" data-flag-position="${position}" aria-label="題目FLAG（${position==='header'?'上方':'下方'}），快捷鍵1至5">${FLAG_OPTIONS.map(o=>`<button type="button" role="radio" class="flag-option" data-article-flag="${o.value}" aria-checked="${o.value===value}" tabindex="${o.value===value?0:-1}" aria-label="${o.value} ${o.label}" aria-keyshortcuts="${o.value}" title="${o.value} ${o.label}（快捷鍵 ${o.value}）" style="--flag-color:${o.color}"><span class="flag-key">${o.value}</span>${flagIcon(o.value)}</button>`).join('')}</div>`;
+ const value=flagFor(q.id);return `<div class="flag-and-next"><div class="flag-options" role="radiogroup" data-flag-position="${position}" aria-label="題目FLAG（${position==='header'?'上方':'下方'}），快捷鍵1至5">${FLAG_OPTIONS.map(o=>`<button type="button" role="radio" class="flag-option" data-article-flag="${o.value}" aria-checked="${o.value===value}" tabindex="${o.value===value?0:-1}" aria-label="${o.value} ${o.label}" aria-keyshortcuts="${o.value}" title="${o.value} ${o.label}（快捷鍵 ${o.value}）" style="--flag-color:${o.color}"><span class="flag-key">${o.value}</span>${flagIcon(o.value)}</button>`).join('')}</div>${nextQuestionControl(q)}</div>`;
 }
 function markButtons(q,detail=false){
  const value=flagFor(q.id),option=FLAG_OPTIONS[value-1],doubt=hasQuestionMark(doubts,q.id);
@@ -77,9 +94,9 @@ function updateNav(){
  const route=parseRoute(location.hash),current=route.kind==='question'?data.questions.find(q=>q.id===route.id):null,nav=$('subjects');
  document.querySelector('.sidebar').classList.toggle('reading-question',!!current);nav.classList.toggle('question-nav',!!current);
  if(current){
-  const qs=scopedQuestions(data.questions,{...(history.state?.returnTo?.filters||{}),subject:current.subject});
-  $('subject-heading').innerHTML=`${e(subject(current.subject).name)} <span>${qs.length}</span>`;
-  nav.setAttribute('aria-label',subject(current.subject).name+'題目導覽');
+  const qs=readingQuestions(current),label=readingLabel(current);
+  $('subject-heading').innerHTML=`${e(label)} <span>${qs.length}</span>`;
+  nav.setAttribute('aria-label',label+'題目導覽');
   nav.innerHTML=qs.map(q=>`<a class="nav-item question-nav-link ${q.id===current.id?'active':''}" href="${questionHash(q.id)}" data-question-nav="${q.id}" ${q.id===current.id?'aria-current="page"':''}>${e(displayTitle(q))}</a>`).join('');
  }else{
   $('subject-heading').innerHTML=`依科目瀏覽 <span>${data.subjects.length}</span>`;nav.setAttribute('aria-label','科目分類');
@@ -150,9 +167,9 @@ function showSource(id){const s=data.sources.find(s=>s.id===id);if(!s)return;act
 function updateQuestionBreadcrumb(){
  const q=data.questions.find(q=>q.id===activeId);if(!q)return;
  const returnHash=history.state?.returnTo?.hash||listHash({subject:q.subject});
- $('breadcrumb').innerHTML=`<a href="#questions">我的學習空間</a><span>/</span><a href="${e(returnHash)}" data-question-return>${e(subject(q.subject).name)}</a><span>/</span><strong aria-current="page">${e(displayTitle(q))}</strong>`;
+ $('breadcrumb').innerHTML=`<a href="#questions">我的學習空間</a><span>/</span><a href="${e(returnHash)}" data-question-return>${e(readingLabel(q))}</a><span>/</span><strong aria-current="page">${e(displayTitle(q))}</strong>`;
 }
-function listSnapshot(){return {hash:location.hash||'#questions',filters:{...filters},page,order:ordering.snapshot(),scroll:window.scrollY};}
+function listSnapshot(){return {hash:location.hash||'#questions',filters:{...filters},page,order:ordering.snapshot(),questionIds:scopedQuestions(data.questions,filters).map(q=>q.id),scroll:window.scrollY};}
 function navigateRoute(hash,state={}){history.pushState(state,'',hash);applyRoute();}
 function showDetail(id){
  if(!data.questions.some(q=>q.id===id))return;
@@ -167,7 +184,15 @@ function applyRoute(){
  const savedOrder=route.kind==='question'?history.state?.returnTo?.order:history.state?.listSnapshot?.order;if(savedOrder)ordering.restore(savedOrder);
  $('list-page').hidden=route.kind==='question';$('question-page').hidden=route.kind!=='question';$('content').classList.toggle('reading-question',route.kind==='question');
  if(route.kind==='question'){
-  page='questions';filters={subject:q?.subject||'',issue:false,doubt:false};updateNav();
+  if(q&&!Array.isArray(history.state?.returnTo?.questionIds)){
+   const previous=history.state?.returnTo,selection=previous?.filters||{subject:q.subject,issue:false,doubt:false};
+   let questions=scopedQuestions(data.questions,selection);
+   if(!questions.some(item=>item.id===q.id))questions=ordering.order([...questions,q]);
+   const returnTo={hash:listHash({subject:q.subject}),page:'questions',order:ordering.snapshot(),scroll:0,...previous,filters:{...selection},questionIds:questions.map(item=>item.id)};
+   history.replaceState({...history.state,returnTo},'',location.href);
+  }
+  const selection=history.state?.returnTo?.filters||{subject:q?.subject||''};
+  page='questions';filters={subject:selection.subject||'',issue:!!selection.issue,doubt:!!selection.doubt};updateNav();
   if(q){renderDetail(q.id);document.title=displayTitle(q)+'｜WeiRuGo';}else{$('detail').innerHTML='<div class="empty"><h1>找不到這道題目</h1><p>請回錯題本確認題目網址。</p></div>';document.title='找不到題目｜WeiRuGo';}
   window.scrollTo(0,0);$('detail').focus({preventScroll:true});return;
  }

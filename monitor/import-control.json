@@ -1,12 +1,16 @@
 {
-  "state": "complete",
+  "state": "active",
   "lastAllowedSourceOrder": 63,
   "allowedSourceOrders": [],
-  "allowNewSources": false,
-  "haltAfterCurrentSource": true,
-  "updatedAt": "2026-10-29T11:07:08.524506+00:00",
-  "instruction": "使用者確認本批來源已全部處理，無待新增來源；第63來源加熱曲線條件不足題直接略過、不收入。以後另通知新增來源；第64起取消維持。",
+  "allowNewSources": true,
+  "haltAfterCurrentSource": false,
+  "updatedAt": "2026-10-29T15:06:06.207488+00:00",
+  "instruction": "使用者明確新增本批兩個 GPT URL，僅放行這兩個；原 Gemini 第64來源起仍取消，不自動加入其他來源。",
   "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
   "closeoutEvidence": "docs/imports/new-gemini/gemini063/page08-q11-user-skip-addendum.json",
-  "detail": "本批來源已全部處理，無待新增來源。第63來源8題已發布、1題按使用者要求永久略過；原卷與已確認歧義證據保留。Agent2與Agent3繼續插畫，Agent1繼續整合。"
+  "detail": "兩路各自取得原卷、去重核對、製作四格與版面檢查；Agent 1 收到完整稿後直接加入題庫。",
+  "allowedSourceUrls": [
+    "https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d",
+    "https://chatgpt.com/share/6ae35d9f-f560-83ee-bbe9-d01ff3be9e33"
+  ]
 }

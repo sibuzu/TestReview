@@ -262,14 +262,13 @@ def build_status(root=ROOT):
         # Count questions once, and stop asking after OK even while integration is pending.
         comics['awaitingConfirmation'] = len(waiting_ids & review_ids)
     new_sources = current_sources(root, gemini['sources'], questions,
-                                  comic_data.get('entries', []) if comics else [], confirmations, paths)
+                                  comic_data.get('entries', []) if comics else [], confirmations, paths,
+                                  source_catalog={'gpt': gpt['sources'], 'gemini': gemini['sources']})
     if new_sources:
-        acquired_rows = {row['order']: row for row in new_sources['sources']}
+        acquired_rows = {(row['batch'], row['order']): row for row in new_sources['sources']}
         for batch in batches:
-            if batch['id'] != 'gemini':
-                continue
             for row in batch['sources']:
-                acquired = acquired_rows.get(row['order'])
+                acquired = acquired_rows.get((batch['id'], row['order']))
                 if acquired is not None:
                     for key in ('title', 'state', 'reason', 'imagesAvailable', 'imagesExpected'):
                         row[key] = acquired[key]

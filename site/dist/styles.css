@@ -74,3 +74,8 @@
 #question-tools{display:flex;justify-content:space-between;align-items:flex-end;gap:12px 20px;flex-wrap:wrap}#flag-filters{flex:1 1 260px;max-width:520px;min-width:0}#flag-filters .flag-filter-table{width:100%}.list-order{display:flex;gap:6px;margin-left:auto;flex-shrink:0}.list-order button{width:40px;height:40px;display:grid;place-items:center;padding:8px;border:1px solid transparent;border-radius:6px;color:#8b9886}.list-order button[aria-pressed="true"]{color:var(--green);background:#eaf0e5;border-color:#dce5d6}.list-order button:hover{background:#edf1e8}.list-order-icon{display:block;width:24px;height:24px}@media(max-width:760px){#flag-filters{flex-basis:100%;max-width:none}}
 
 .group-question h2,.group-answer h2{font-size:18px;line-height:1.6;margin:8px 0}.group-question+.group-question,.group-answer+.group-answer{border-top:1px solid var(--line);margin-top:18px;padding-top:14px}.group-child-source{color:var(--muted);font-size:11px}.group-child-source a{text-decoration:underline;text-underline-offset:3px}
+
+/* Keep the reading sequence beside both FLAG controls. */
+.flag-and-next{display:flex;align-items:center;gap:18px}.next-question{display:inline-grid;place-items:center;width:34px;height:48px;padding-top:12px;flex-shrink:0;color:var(--green);border-radius:6px}.next-question svg{width:24px;height:24px}.next-question[aria-disabled="true"]{opacity:.3;cursor:default}.question-detail .detail-header h1{padding-right:325px}
+@media(max-width:760px){.question-detail .detail-header h1{padding-right:0}.next-question{width:30px}}
+@media(max-width:360px){.detail-actions .flag-options{grid-template-columns:repeat(5,34px)}.detail-actions .flag-option{width:34px}}

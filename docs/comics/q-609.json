@@ -1,0 +1,98 @@
+{
+  "id": "q-609",
+  "subject": "History",
+  "title": "先辨認大肚部落聯盟，再找臺灣中部",
+  "art": "docs/comics/art/q-609.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:03:51.893575+00:00",
+  "panels": [
+    {
+      "heading": "① 大眉、多個部落，是辨識線索",
+      "text": "題幹提到「大眉」、「20餘部落的聯盟」，再加上荷蘭、鄭氏的時代背景，可辨認為大肚部落聯盟，常稱大肚王國。",
+      "alt": "鄰近村落居民交流的情境想像，表現跨部落合作，不冒充大眉肖像或某次有史料細節的會議重建。"
+    },
+    {
+      "heading": "② 活動中心在臺灣中部",
+      "text": "大肚部落聯盟的活動中心在中部地區，與大肚溪流域一帶相關。河川與低地聚落只是情境，不是聯盟疆界圖。",
+      "alt": "中部西側低地河流與聚落情境，不以AI風景證明確切位置，不畫今日縣市邊界或固定國界。"
+    },
+    {
+      "heading": "③ 回到原圖，中部西側是乙",
+      "text": "先由歷史線索找出中部，再對照原卷位置圖，選乙，也就是B。不能只因鄭氏以臺南為中心，就直接跳選西南部的丁。",
+      "alt": "現代師生比較聚落與河川兩幅情境圖卡，精確甲乙丙丁位置仍依頁面已提供的原卷圖，不生成新地圖。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先辨認大肚部落聯盟，再找臺灣中部",
+    "answer": "答案 B：乙",
+    "points": [
+      "大眉、20餘部落、荷鄭時期 → 大肚聯盟。",
+      "定位中部，再找原圖中部西側的乙。",
+      "部落聯盟不可直接套成今日國家或縣市疆界。"
+    ]
+  },
+  "protectedWords": [
+    "大眉",
+    "20餘部落",
+    "大肚部落聯盟",
+    "大肚王國",
+    "荷蘭",
+    "鄭氏",
+    "大肚溪",
+    "中部地區",
+    "中部西側",
+    "臺南",
+    "西南部",
+    "部落聯盟",
+    "荷鄭時期",
+    "歷史線索",
+    "中部",
+    "位置圖"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-609-source-a689df8eac.jpg",
+    "site/dist/assets/questions/q-609-figure-8d254c6b95.jpg"
+  ],
+  "originalVisualCheck": "實看原卷8題完整引文、A甲/B乙/C丙/D丁和原卷臺灣圖：乙在中部西側、丙在澎湖、丁西南，B與既有核對一致。",
+  "answerCheckedAgainst": "臺灣原住民族事典康培德大肚王詞條與東海大肚山地方知識平台原站實讀，活動中心在今日大肚溪/猫羅溪等中部，不把鄭氏臺南當聯盟位置。",
+  "references": [
+    {
+      "title": "臺灣原住民族事典：大肚王（康培德）",
+      "url": "https://indigenapedia-alcd.nccu.edu.tw/detail?cat=0&id=11716&race=0&search=&writer="
+    },
+    {
+      "title": "東海大學大肚山地方知識平台：被遺忘的大肚王國",
+      "url": "https://dadu3.thu.edu.tw/history_d.php?i=13"
+    }
+  ],
+  "rationale": "跨部落交流/中部河川聚落/師生核對線索三情境配原卷位置判讀，AI圖不負責精確地圖或民族服飾/制度復原，不畫歐式王冠/單一今日國家疆界。保留原題引文，不另外猜確切瓦解年份。",
+  "promptPath": "docs/comics/q-609-prompt.txt",
+  "generationCalls": 1,
+  "visualChecked": true,
+  "artSHA256": "911beb5db0ffc3f848d8801fea710d4c4ebafca0a1d676732ab24e6e38aed69a",
+  "checkedAt": "2026-10-28T23:07:30.812208+00:00",
+  "completedAt": "2026-10-28T23:06:09.606150+00:00",
+  "layoutEvidence": "docs/comics/q-609-preview-validation.json",
+  "visualReview": "實看生成圖：跨村交流/中部河川低地/現代師生核對，無假地圖/疆界/王冠或特定族服史料宣稱。1440/1120/390三寬原圖乙/B解題鏈完整、保護詞不拆、無橫溢，同行等高與單欄自然高度。",
+  "nativeArt": "assets/comics/q-609-art-911beb5db0-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:07:30.784811+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷8題全部引文及甲乙丙丁圖，乙中部西側、丙澎湖、丁西南；維持B。新圖為匿名合作與河川情境，未畫固定國家疆界或冒充大眉肖像，桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-609-validation.json"
+}

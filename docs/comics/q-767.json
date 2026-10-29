@@ -1,0 +1,79 @@
+{
+  "id": "q-767",
+  "subject": "History",
+  "title": "唐代交流，不能放進宋代的紙幣",
+  "art": "docs/comics/art/q-767-v2.png",
+  "protectedWords": [
+    "吐蕃",
+    "青藏高原",
+    "唐代",
+    "北宋",
+    "交子",
+    "飛錢",
+    "紙幣",
+    "文成公主"
+  ],
+  "panels": [
+    {
+      "heading": "① 先依原圖認乙，再看不包括",
+      "text": "乙位在青藏高原，題目指的是吐蕃。這題問唐與吐蕃往來中不包括哪項，不是看見文化交流就把四項全收。",
+      "alt": "高原只是教學情境，吐蕃判定依原卷地圖，不以生成風景代替原圖位置。"
+    },
+    {
+      "heading": "② 農技、宗教與和親符合時代背景",
+      "text": "A農業技術、B佛教相關交流、D公主和親，都能放在唐與吐蕃往來的脈絡。文成公主和親，就是D的例子。",
+      "alt": "泛指古代文化往來的文意情境，不冒充確切人物事件或宣稱西藏文化只來自唐。"
+    },
+    {
+      "heading": "③ 紙幣交子要放到北宋等後續時代",
+      "text": "教材以北宋交子作紙幣時代的分界，因此C不能倒放進唐代往來。唐代有紙張和飛錢匯兌，不代表已有本題所說的流通紙幣。",
+      "alt": "現代讀者分辨時代的教具場景，不讓AI畫偽造的交子紙幣或亂印面額。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：紙鈔用法傳入乙國",
+    "points": [
+      "先看原圖乙＝吐蕃，再檢查唐代背景。",
+      "紙張、匯兌票據、流通紙幣要分開。",
+      "題問不包括；C是時代不合，不是唐代沒有紙。"
+    ]
+  },
+  "rationale": "已實看第32題原卷及共用地圖，乙確在青藏高原，紅筆C與時代檢查一致。核中央銀行券幣數位博物館北宋交子/唐飛錢區別，及故宮博物院文成公主交流記載；不引用文化全由單方傳入或交子初期全國流通等過度概括。新圖不畫後世布達拉宮、不冒充真實事件/紙鈔樣式，精確時代/標籤/原圖位置全以正文和原卷為準。無既有AI解說圖。 初圖錢形教具有偽刻字，已用imagegen清成完全無字的方孔圓道具，不作真實唐錢或交子文物。",
+  "sources": [
+    {
+      "title": "中央銀行券幣數位博物館：信用貨幣",
+      "url": "https://museum.cbc.gov.tw/web/zh-tw/story/birth/credit"
+    },
+    {
+      "title": "故宮博物院：文成公主",
+      "url": "https://www.dpm.org.cn/lemmas/240045.html"
+    }
+  ],
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-767-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-767-source-b362d2b474.jpg",
+    "site/dist/assets/questions/q-766-figure-79945285a9.jpg"
+  ],
+  "answerCheckedAgainst": "原圖乙吐蕃；唐交流可有農技宗教和親，北宋交子不能倒放唐，C。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "8803f497e31170b32b9a75cd8b0e7937617437b79bd6df87879ed679321e1b6f",
+  "createdAt": "2026-10-28T21:20:28.841142+00:00",
+  "editPromptFile": "docs/comics/q-767-edit-prompt.txt",
+  "checkedAt": "2026-10-28T21:31:02.080588+00:00",
+  "validationFile": "docs/comics/q-767-validation.json",
+  "nativeArt": "assets/comics/q-767-art-8803f497e3-web.webp"
+}

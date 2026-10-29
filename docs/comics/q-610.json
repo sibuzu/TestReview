@@ -1,0 +1,85 @@
+{
+  "id": "q-610",
+  "subject": "History",
+  "title": "找鄭氏時期，連到設廟興學",
+  "art": "docs/comics/art/q-610.png",
+  "protectedWords": [
+    "鄭氏時期",
+    "全臺首學",
+    "臺南孔廟",
+    "鄭經",
+    "陳永華",
+    "1665年",
+    "億載金城",
+    "噶瑪蘭",
+    "紅毛城",
+    "清代",
+    "荷西時期"
+  ],
+  "panels": [
+    {
+      "heading": "① 先圈指定時代：鄭氏時期",
+      "text": "安真要找的是鄭氏時期的歷史，不是只要古老的建築都符合。先把題幹的時代條件留下，再核對各書的主題。",
+      "alt": "現代學生在圖書館比較空白書封；只示意依研究主題選書，不讓AI編造書名或年代。"
+    },
+    {
+      "heading": "② 全臺首學連到儒學教育",
+      "text": "全臺首學指臺南孔廟。鄭經採納陳永華建議，於1665年創建，設廟興學，因此C與鄭氏時期最直接相關。本格只示意傳統講學。",
+      "alt": "匿名傳統師生的儒學講學情境，不是鄭經陳永華肖像、1665典禮或臺南孔廟實際建築復原；不畫清代辮髮。"
+    },
+    {
+      "heading": "③ 其他古蹟，對應的時代不同",
+      "text": "億載金城是清末海防；噶瑪蘭設廳治理是清代重點；紅毛城的起源連到荷西時期。它們各有歷史，但不如全臺首學直接對應鄭氏。",
+      "alt": "現代師生比較無字卡片，所有古蹟名稱與歷史時代以HTML呈現，不用虛構外觀判斷時代。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：《文化種子：全臺首學》",
+    "points": [
+      "題幹限定鄭氏時期。",
+      "全臺首學指臺南孔廟，創建於1665年。",
+      "用時代與主題配對，不以古老程度選書。"
+    ]
+  },
+  "rationale": "已實看原卷全題與四書名、讀來源第9題；維持C。內政部臺灣宗教文化地圖正文核對1665與鄭經採納陳永華建議，未聲稱全臺首學稱號1665首次出現，也不把儒學官學起點說成全臺所有族群教育起點。無合適既有圖，內建imagegen新製現代選書/匿名傳統講學/時代配對情境，準確名稱年代由HTML。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-610-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-610-source-a382184d8c.jpg",
+    "site/dist/sources/gemini-3vdeK9qTAHou.txt 第9題"
+  ],
+  "sources": [
+    {
+      "url": "https://taiwangods.moi.gov.tw/html/Landscape/1_0011.aspx?i=74",
+      "note": "正文130/137：孔廟鄭氏創建、1665、鄭經採納陳永華建議及後續清代擴修。"
+    }
+  ],
+  "answerCheckedAgainst": "全臺首學對應臺南孔廟，1665創建與鄭氏設廟興學C；原題和既有答案不改。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "97f137c3460abf3f4582926a66f1307496967780e2abbaeddf9019685f6d60e0",
+  "createdAtUTC": "2026-10-28T23:05:08.197498+00:00",
+  "checkedAt": "2026-10-28T23:06:23.082180+00:00",
+  "validationFile": "docs/comics/q-610-validation.json",
+  "nativeArt": "assets/comics/q-610-art-97f137c346-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:06:23.055271+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷9題四書名，鄭氏全臺首學與既有1665年說明一致，維持C；新圖傳統講學作想像情境，未冒充古蹟原貌，桌手機可讀且無溢出。"
+  }
+}

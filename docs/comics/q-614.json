@@ -1,0 +1,86 @@
+{
+  "id": "q-614",
+  "subject": "History",
+  "title": "樟腦產業帶動市鎮與機會，選甲丙",
+  "art": "docs/comics/art/q-614.png",
+  "protectedWords": [
+    "樟腦業",
+    "大溪",
+    "三峽",
+    "關西",
+    "甲丙",
+    "客家族人",
+    "社會地位",
+    "世界第一",
+    "出口最大宗",
+    "比較範圍"
+  ],
+  "panels": [
+    {
+      "heading": "① 產地與集散市鎮興起，連到甲",
+      "text": "材料列出大溪、三峽、關西等地。樟腦產地、運輸與交易帶動北部經濟活動，配合開港後貿易發展，可連到甲的政經重心逐漸北移。",
+      "alt": "想像十九世紀近山貿易市鎮，不冒充大溪三峽關西精確復原，無現代貨櫃或地圖虛構位置。"
+    },
+    {
+      "heading": "② 部分族人參與產業，連到丙",
+      "text": "部分北部客家族人從採製、運輸、交易等工作或經營取得機會，有些經營者累積財富與地方影響。這能說明丙，不代表每位客家人都致富，也不是單一族群獨占。",
+      "alt": "匿名工人合作運貨只示意產業參與，不用服飾分配族群職業，不畫人人金銀滿屋或掌控全部山林。"
+    },
+    {
+      "heading": "③ 世界產量名次，不等於臺灣出口排名",
+      "text": "丁把比較範圍換了：樟腦產量世界第一，是比各地產量；出口最大宗則要和臺灣其他商品比。乙的械鬥增加也不能只由本段推出，故選甲、丙。",
+      "alt": "現代師生以空白卡比較不同問題，精確甲乙丙丁及世界/臺灣指標都由HTML，不生成統計圖或虛假數值。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：甲、丙",
+    "points": [
+      "甲：北部產地與貿易市鎮發展。",
+      "丙：部分參與者累積資源與地方影響。",
+      "不把世界產量第一換成出口最大宗。"
+    ]
+  },
+  "rationale": "原卷閱讀與第29題全部條件四選項已實看，resolved correction-q-614-d6082d356294已確認，不重開原AI族群/治安/出口概括訂正。保持B與部分族人參與之有界說明。無既有合適圖；新製泛用近山交易市鎮/匿名運貨/現代比較指標，不重建真實個案、不用民族服飾或性格解釋分工、不畫全部山林屬一族/人人暴富。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-614-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-614-reading-3df9edc4cc.jpg",
+    "site/dist/assets/questions/q-614-source-25c0c3c786.jpg",
+    "site/dist/sources/gemini-3vdeK9qTAHou.txt 第29題追問",
+    "monitor/confirmations.json resolved correction-q-614-d6082d356294"
+  ],
+  "sources": [
+    {
+      "url": "https://cloud.hakka.gov.tw/site/hakka/public/Attachment/32208202271.pdf",
+      "note": "客委會獎助研究：水沙連地域客家開發/腦丁族群分布，用於確認研究需區分地區與群體，非直接當清代北部全部情況。"
+    }
+  ],
+  "answerCheckedAgainst": "材料北部交易市鎮與部分族人產業參與符合甲丙B；乙非必然，丁混比較範圍，維持使用者已確認處理。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "f7befd3583df5331d90647189e2252203b34e0ff9e39e80a2c17a430f1fdc95a",
+  "createdAtUTC": "2026-10-28T23:25:55.692615+00:00",
+  "checkedAt": "2026-10-28T23:32:23.724311+00:00",
+  "validationFile": "docs/comics/q-614-validation.json",
+  "nativeArt": "assets/comics/q-614-art-f7befd3583-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:32:23.699112+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看完整樟腦閱讀及29題四選項，維持已確認B甲丙。新圖北部市鎮/匿名合作運輸對應產業機會，正文限定部分參與者、世界產量與臺灣出口比較分開，未畫族群獨占或人人致富；桌手機無溢出。"
+  }
+}

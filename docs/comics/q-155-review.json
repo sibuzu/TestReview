@@ -1,14 +1,29 @@
 {
   "id": "q-155",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T13:47:18.589384+00:00",
-  "answer": "C",
-  "figures": [
+  "reason": "已實看原題四格與來源C答圖，機關權力職權逐項判讀正確，詳解保留合作與制衡區別；保留既有圖不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:04:18.794940+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-155-source-46b710b0ec.jpg",
+      "sha256": "46b710b0ec7134c194556034804af96dcf74cdac03e9ec70afe1012d8db681aa",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-155-figure-542d1868f0.jpg",
+      "sha256": "542d1868f0ad808651c6005dc79a007a8f4dc91a9da2f4fe2d366ea8fb017e04",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-155-source-ai-965d7cb79b.png",
       "sha256": "965d7cb79b954234c5d1b54afd9f43203f61c4a0a04cba4346edb616cd7fb384",
       "visualChecked": true
     }
   ],
-  "reason": "已查看原三角示意圖及整張來源AI圖，甲乙錯誤權力標籤、丙法院司法權及丁制衡核心均逐項對應正確；保留原題故意錯置標籤。詳解已說明機關仍可合作，不把分權教成禁止合作。現有圖足夠，無需重製。"
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-155/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

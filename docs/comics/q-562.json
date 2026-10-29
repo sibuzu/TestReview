@@ -1,0 +1,91 @@
+{
+  "id": "q-562",
+  "subject": "Civics",
+  "title": "貿易規則與正式爭端，想到WTO",
+  "art": "docs/comics/art/q-562.png",
+  "protectedWords": [
+    "WTO",
+    "APEC",
+    "OPEC",
+    "ASEAN",
+    "世界貿易組織",
+    "爭端解決",
+    "正式程序",
+    "自願合作",
+    "2002年"
+  ],
+  "panels": [
+    {
+      "heading": "① 鳳梨只是情境，重點是貿易爭端",
+      "text": "題文提進口禁令、貿易規則，還問能否透過某組織正式處理爭端。要找組織的功能，不是只因地點在亞太就選APEC。",
+      "alt": "鳳梨農與貿易顧問討論空白文件，僅示意進口限制引起的問題，不聲稱已證明果實病蟲害或判決結果。"
+    },
+    {
+      "heading": "② WTO有正式貿易爭端解決制度",
+      "text": "會員認為其他會員違反WTO協定時，可依制度提出爭端。這最符合題文，但有正式程序，不代表必然勝訴、立即獲賠或馬上解禁。",
+      "alt": "匿名國際貿易規則文件討論情境，不是法庭宣判、實際官員會議或已獲賠償。"
+    },
+    {
+      "heading": "③ APEC重合作，不能混成功能相同",
+      "text": "APEC以自願、共識的方式促進經濟合作，不能替代本題的正式貿易爭端制度。OPEC以石油輸出國合作為主，ASEAN是東南亞區域組織。",
+      "alt": "另一組匿名成人經濟合作討論，只示意諮商交流，不冒充APEC實際會場或判案機關。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：WTO（世界貿易組織）",
+    "points": [
+      "線索：貿易規則、正式爭端解決。",
+      "APEC的自願合作與WTO制度不同。",
+      "臺灣自2002年1月1日起是WTO會員。"
+    ]
+  },
+  "rationale": "完整原卷四選項與來源追問會籍已讀，維持A；WTO官方會員頁核對2002年1月1日，官方爭端入口核對制度；APEC官方說明核對自願共識與不具約束力。題文2021報導不當成已裁決違規或程序時程保證。無既有合適圖，新製鳳梨包裝與匿名貿易文件/合作場景，不造官員肖像、裁判、賠償或檢疫證據。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-562-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-562-source-c2c195b990.jpg",
+    "site/dist/sources/gemini-pQcTqKLjFftX.txt 第15題與會籍追問"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wto.org/english/thewto_e/countries_e/chinese_taipei_e.htm",
+      "note": "官方會員資料頁正文8-10，2002年1月1日入會，名稱Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu。"
+    },
+    {
+      "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_e.htm",
+      "note": "官方入口9/33/44：會員間協定爭端、DSU與爭端解決機構。"
+    },
+    {
+      "url": "https://www.apec.org/who-we-are/how-apec-operates",
+      "note": "官方How we work，核對自願合作、共識、不具約束力。"
+    }
+  ],
+  "answerCheckedAgainst": "題文貿易規則與正式爭端制度符合WTO A；APEC合作論壇不等同。保留既有解說之無自動勝訴/補償界線。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSha256": "671982e4150aa13c7d3a35f2d67cccbb299984e586d6d10a9daa2290677108ab",
+  "createdAtUTC": "2026-10-28T23:12:20.844962+00:00",
+  "checkedAt": "2026-10-28T23:14:20.626782+00:00",
+  "validationFile": "docs/comics/q-562-validation.json",
+  "nativeArt": "assets/comics/q-562-art-671982e415-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:14:20.598965+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看原卷鳳梨禁令報導與四選項，維持A；新圖貿易文件與合作會議僅情境，未畫勝訴、賠償或檢疫證據。題文年份與時程保留歷史語境，未作當前保證；桌手機無溢出。"
+  }
+}

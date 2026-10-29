@@ -1,0 +1,85 @@
+{
+  "id": "q-163",
+  "subject": "Civics",
+  "title": "17歲與滿7歲，本題分類仍相同",
+  "art": "docs/comics/art/q-163.png",
+  "protectedWords": [
+    "17歲",
+    "滿7歲",
+    "限制行為能力人",
+    "法定代理人",
+    "高價電腦",
+    "純獲法律上利益",
+    "滿18歲",
+    "無行為能力"
+  ],
+  "panels": [
+    {
+      "heading": "① 17歲仍是未成年人",
+      "text": "依我國民法，滿18歲為成年。17歲屬限制行為能力人，不是所有買賣都能獨自決定，因此A的購車前提不成立。",
+      "alt": "題設工藤新一的少年情境，不因外表較高大就視為已成年。"
+    },
+    {
+      "heading": "② 本題7歲按滿7歲理解",
+      "text": "未滿7歲才是無行為能力；滿7歲的未成年人有限制行為能力。所以變為題設滿7歲後，與17歲同屬這個分類。",
+      "alt": "題設柯南為已滿7歲的小學生，不把小個子或小學生外貌直接當成未滿7歲。"
+    },
+    {
+      "heading": "③ 買高價電腦，仍須允許",
+      "text": "題中的高價電腦交易，不屬純獲利益或一般日常必要行為。兩個年齡都須法定代理人允許，C說維持不變，正好回答前後狀態。",
+      "alt": "法定代理人參與高價電腦交易的假設情境，不冒充漫畫原有事件或法院裁決。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：同屬限制行為能力人，條件不變",
+    "points": [
+      "年齡變小，不代表法律分類一定改變。",
+      "未附義務的小禮物屬純獲法律上利益，B不必改由代理人收受。",
+      "受監護宣告者無行為能力，和滿7歲不同，D不對。"
+    ]
+  },
+  "rationale": "完整實看第3題原卷，嚴守使用者已確認C、7歲按滿7歲及維持不變可回答變化；不重開此題。已查官方民法12/13/15/77主文，核成年、年齡門檻、監護宣告及純獲利益例外。來源AI把7歲當無行為能力選B已被題庫排除，不採用；本次新圖不畫錯類別/毒藥/實際法律身分轉變，法定年齡及條件全HTML。",
+  "sources": [
+    {
+      "title": "民法第12條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=12"
+    },
+    {
+      "title": "民法第13條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=13"
+    },
+    {
+      "title": "民法第15條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=15"
+    },
+    {
+      "title": "民法第77條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=77"
+    }
+  ],
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-163-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-163-source-ee5eb1c48a.jpg"
+  ],
+  "answerCheckedAgainst": "使用者已確認滿7歲/17歲皆限制行為能力，高價電腦須允許仍不變，C；官方條文相符。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "d94a86e5ed71f675ad88cef460f0967a1fd08b4e345e96d98a909046adfa4847",
+  "createdAt": "2026-10-28T20:44:45.384255+00:00",
+  "checkedAt": "2026-10-28T20:47:53.752972+00:00",
+  "validationFile": "docs/comics/q-163-validation.json",
+  "nativeArt": "assets/comics/q-163-art-d94a86e5ed-web.webp"
+}

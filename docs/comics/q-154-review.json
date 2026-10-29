@@ -1,22 +1,38 @@
 {
   "id": "q-154",
   "decision": "existing_ai",
-  "reviewedAt": "2026-10-28T12:57:37.883701+00:00",
-  "answer": "D",
-  "figures": [
+  "reason": "已實看來源D答訂正版，圖文正確區分立法修法規範司法與個案獨立審判；核對憲法63、80條，保留原AI圖，不重製。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:04:18.794940+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-154-reading-source-8b587e6efe.jpg",
+      "sha256": "8b587e6efe3370fe5558d2622a042397378273ebab35d0a8434587a00634775a",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-154-source-4d890d127b.jpg",
+      "sha256": "4d890d127b643ebc7a0014ff4855d946087a0b96129aaf711daaf07f79d0d2a6",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/explanations/q-154-source-ai-039c481091.png",
       "sha256": "039c4810919eeff85774c26dfed32bef549aeacc6e0c891209a8ddd236e9508e",
       "visualChecked": true
     }
   ],
-  "reason": "實看來源後續訂正版：D、立法院修法、法院審理制度及制衡方向均正確；與完整文章及已確認詳解一致。詳解已區分一般程序規則與個案獨立審判，未把原新聞時點當現行直播施行狀態，無需重製。",
-  "supportingSources": [
-    "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=63",
-    "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=80"
-  ],
-  "checkedProvisions": [
-    "第63條立法院議決法律案",
-    "第80條依法獨立審判"
-  ]
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-154/retained-layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true,
+  "supplementalSourceCheck": {
+    "checkedAt": "2026-10-28T22:04:18.853923+00:00",
+    "method": "Official MOJ pages read through web tool and requests fallback after transient fetch timeouts; only relevant provisions reviewed, no question/answer changes.",
+    "urls": [
+      "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=63",
+      "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=80"
+    ],
+    "findings": "憲法63立法院議決法律，80法官依法獨立審判，支持既有D方向與個案獨立審判的區別。"
+  }
 }

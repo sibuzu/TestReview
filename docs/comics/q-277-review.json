@@ -1,0 +1,35 @@
+{
+  "id": "q-277",
+  "decision": "not_suitable",
+  "reason": "判讀依精確選票種類與行政區資格，原題選票圖及逐項文字已直接呈現；一般投票情境無新增辨識價值，本輪不勉強加漫畫。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:04:18.794940+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-277-source-988ec627bb.jpg",
+      "sha256": "988ec627bb5c6f74cb1cbfaa84d5dbb70f1d33d7e2ea7634aaa17d8a8ab0d8c3",
+      "visualChecked": true
+    },
+    {
+      "src": "site/dist/assets/questions/q-277-figure-c19d73ca8c.jpg",
+      "sha256": "c19d73ca8cf3e5fe7ad094466213c09e345a6cd4bdeace59faedf0235df3c745",
+      "visualChecked": true
+    }
+  ],
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-277/layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true,
+  "supplementalSourceCheck": {
+    "checkedAt": "2026-10-28T22:04:18.854370+00:00",
+    "method": "Official MOJ pages read through web tool and requests fallback after transient fetch timeouts; only relevant provisions reviewed, no question/answer changes.",
+    "urls": [
+      "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0020010&flno=14",
+      "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0020010&flno=15",
+      "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0020010&flno=26",
+      "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0020053&flno=12"
+    ],
+    "findings": "公職選罷法14未以監護宣告排除選舉權；26第16款受監護或輔助宣告未撤銷不得登記候選人；15四個月與總統選罷12自由地區六個月不同。原卷臺北市長票與C判斷保持。"
+  }
+}

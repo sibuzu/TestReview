@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-486",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:33:52.749446+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-486",
+    "q-487"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-486",
+    "q-487"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-486-q-487",
+      "questionIds": [
+        "q-486",
+        "q-487"
+      ],
+      "retainId": "q-486",
+      "aliasIds": [
+        "q-487"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-486": "Chinese",
+        "q-487": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-014"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/i3AiUoByWkyB"
+      ],
+      "printedRange": "同一src-gemini-more-014原卷題頭明示39～40，39人物形象使用全文、40引楊樸妻詩，兩題共享同篇前後故事而不是同作者篇名臆配。",
+      "originalQuestionNumbers": {
+        "q-486": "39",
+        "q-487": "40"
+      },
+      "commonMaterial": {
+        "passage": "昔年過洛，見李公簡云：「真宗既東封還，訪天下隱者，得杞人楊樸，能詩。及召對，自言不能。上問：『臨行有人作詩送卿否？』樸言：『惟臣妻有一首云：更休落魄耽杯酒，且莫猖狂愛詠詩。今日捉將官裡去，這回斷送老頭皮。』上大笑，放還山。」余在湖州，坐作詩追赴詔獄，妻子送余出門，皆哭。無以語之，顧語妻曰：「子獨不能如楊處士妻作一詩送我乎？」妻子不覺失笑，余乃出。\n——蘇軾《東坡志林》卷二〈隱逸・書楊樸事〉\n\n【原題註釋】\n1. 東封還：封泰山歸來。\n2. 杞：地名。\n3. 召對：召其應對詩歌。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-486-reading-source-95fe277b5e.jpg",
+          "visibleHeader": "原卷明印「請閱讀以下選文，並回答第39～40題」，完整書楊樸事前後兩故事與三註。",
+          "questionNumbers": [
+            "39-40"
+          ],
+          "sha256": "95fe277b5e861e788cda736bfe2b3d24342b4c1308e20d4a995d9ec6e49877df",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-486-source-0e5a633fb9.jpg",
+          "visibleHeader": "39本文人物形象四選，含東坡/真宗/東坡妻/楊樸。",
+          "questionNumbers": [
+            "39"
+          ],
+          "sha256": "0e5a633fb9bb2a14423140569436c2c0996bdc8dc9dd89a7dfbc2a86efec3c82",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-487-source-3e65d84cba.jpg",
+          "visibleHeader": "40「根據上文，楊樸妻子所作詩」問詩意四選。",
+          "questionNumbers": [
+            "40"
+          ],
+          "sha256": "3e65d84cba6eeeb9fc622b760c3133af6fdc87887f73093d99dca65bcedfa52c",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-014原卷題頭明示39～40，39人物形象使用全文、40引楊樸妻詩，兩題共享同篇前後故事而不是同作者篇名臆配。",
+      "childCoverage": [
+        {
+          "questionId": "q-486",
+          "originalQuestionNumber": "39",
+          "sourceId": "src-gemini-more-014",
+          "date": "2026-08-15",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "6b81bacf97e6a4ff77d8b0e76c92dde52efb0e315a8b593bbd36d75ec78732c8",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-486-reading-source-95fe277b5e.jpg",
+            "assets/questions/q-486-source-0e5a633fb9.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "從哭到不覺失笑，看出關心與理解",
+            "art": "assets/comics/q-486-art-438f76b3f0-web.webp",
+            "panels": [
+              {
+                "heading": "① 送行時皆哭，表現關心安危",
+                "text": "蘇軾因作詩被追赴詔獄，妻兒送他出門時皆哭。這個反應直接表現家人的擔心，也支持妻子關心丈夫安危的判讀。",
+                "alt": "新生成泛指文中夫妻送行情境，妻子含淚擔心、蘇軾神情體諒，背景家人模糊不指定人數身分；不描繪虐待或增加拘捕方式。"
+              },
+              {
+                "heading": "② 借楊樸舊事，用幽默寬慰",
+                "text": "他借前段楊樸妻作詩送行的舊事，轉頭向妻子開玩笑。這是危難中寬慰家人的幽默，不是A說的臨事慌亂、戰戰兢兢。",
+                "alt": "新生成蘇軾泛指形象轉身溫和說笑、妻子傾聽的情境；楊樸和真宗只在舊事中，不與夫妻同場，也沒有取笑妻子的眼淚。"
+              },
+              {
+                "heading": "③ 不覺失笑，顯出聽懂的默契",
+                "text": "妻兒聽到玩笑而「不覺失笑」，是不由自主地笑，不是嘲笑。把前面的哭與後面的笑合看，C同時涵蓋關心與理解。",
+                "alt": "新生成妻子仍帶淚意卻溫柔微笑、丈夫將出門的默契示意；不是幸災樂禍或危險已解除，更未編造獲赦/放回家結局。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：東坡妻理解丈夫，關心其安危",
+              "points": [
+                "C：哭與笑的轉折，兼有擔心與默契。",
+                "A：東坡能借舊事寬慰家人。",
+                "B：真宗大笑、放還山，不是嚴峻不通情理。",
+                "D：自言不能作詩，不足說楊樸徒有虛名。"
+              ]
+            },
+            "protectedWords": [
+              "蘇軾",
+              "東坡",
+              "詔獄",
+              "妻兒",
+              "妻子",
+              "安危",
+              "楊樸",
+              "楊處士",
+              "舊事",
+              "送行",
+              "幽默",
+              "寬慰",
+              "臨事慌亂",
+              "戰戰兢兢",
+              "不覺失笑",
+              "失笑",
+              "不由自主",
+              "嘲笑",
+              "默契",
+              "理解",
+              "真宗",
+              "放還山",
+              "不通情理",
+              "徒有虛名"
+            ]
+          }
+        },
+        {
+          "questionId": "q-487",
+          "originalQuestionNumber": "40",
+          "sourceId": "src-gemini-more-014",
+          "date": "2026-08-15",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "94955ce97ceae67480a832742ee2b7b2fe41d2f20d4e3fbe66f4c4688e82b5b1",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-487-reading-source-95fe277b5e.jpg",
+            "assets/questions/q-487-source-3e65d84cba.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "詩中的不測之憂，不能用後來結果倒推",
+            "art": "assets/comics/q-487-art-89871613fd-web.webp",
+            "panels": [
+              {
+                "heading": "① 題目問楊樸妻子的詩意",
+                "text": "先抓今日捉將官裡去、這回斷送老頭皮。後兩句以誇張語氣說這一去恐怕要送命，字面表達對丈夫遭逢不測的擔憂，最符合 A。送別圖是情境示意，不是後來真的遇害。",
+                "alt": "全新內建楊樸夫妻臨行送別情境，妻子持無字紙、面有擔憂；無逮捕、醉酒鬧事或處刑畫面。"
+              },
+              {
+                "heading": "② 大笑放還山，是後來的結果",
+                "text": "真宗聽詩後大笑，讓楊樸回山裡，這是事情後來的發展。不能因為結果平安，就把詩意倒推成相信官府不會刁難。讀詩時的擔憂，和敘事的結果，屬於不同層次。",
+                "alt": "全新內建匿名文學帝王聽後笑、灰鬚褐衣楊樸得以離去的情境，不新增受勳享文名或真正刑罰事件。"
+              },
+              {
+                "heading": "③ 蘇軾借故事，轉化送別的悲傷",
+                "text": "後半段換成蘇軾被追赴詔獄，家人哭著送他。他借楊樸妻子的詩開玩笑，使妻子不由得笑了。這是蘇軾借典安慰家人的作用，不能和前一首詩的字面意思混在一起。",
+                "alt": "全新內建不同深鬚藍衣文人蘇軾向家人說笑、妻子含淚微笑的送別示意，不把兩位文人混為一人、不作家庭人數考證。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：推斷丈夫將遭不測",
+              "points": [
+                "最關鍵是後兩句的不測之憂，不是實際遇害預言。",
+                "C 只顧前兩句，也多加了詩中沒有的喝酒鬧事。",
+                "D 把後來獲釋的結果，誤當成贈詩原本的意思。"
+              ]
+            },
+            "protectedWords": [
+              "楊樸",
+              "妻子",
+              "詩意",
+              "真宗",
+              "放還山",
+              "蘇軾",
+              "詔獄",
+              "不測之憂",
+              "不測",
+              "斷送老頭皮",
+              "官裡去",
+              "誇張語氣",
+              "相信官府",
+              "不會刁難",
+              "不同層次",
+              "喝酒鬧事",
+              "獲釋",
+              "字面意思",
+              "讀詩",
+              "借典",
+              "最符合 A",
+              "楊樸妻子",
+              "今日捉將官裡去",
+              "這回斷送老頭皮"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-486-reading-source-95fe277b5e.jpg",
+      "visibleHeader": "原卷明印「請閱讀以下選文，並回答第39～40題」，完整書楊樸事前後兩故事與三註。",
+      "questionNumbers": [
+        "39-40"
+      ],
+      "sha256": "95fe277b5e861e788cda736bfe2b3d24342b4c1308e20d4a995d9ec6e49877df",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-486-source-0e5a633fb9.jpg",
+      "visibleHeader": "39本文人物形象四選，含東坡/真宗/東坡妻/楊樸。",
+      "questionNumbers": [
+        "39"
+      ],
+      "sha256": "0e5a633fb9bb2a14423140569436c2c0996bdc8dc9dd89a7dfbc2a86efec3c82",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-487-source-3e65d84cba.jpg",
+      "visibleHeader": "40「根據上文，楊樸妻子所作詩」問詩意四選。",
+      "questionNumbers": [
+        "40"
+      ],
+      "sha256": "3e65d84cba6eeeb9fc622b760c3133af6fdc87887f73093d99dca65bcedfa52c",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "全文含真宗召楊樸、後蘇軾赴獄，兩故事與三註都留一次；楊樸妻與東坡妻不能混成同一人或省前故事。",
+    "原C/A分題答案、各自解說及兩份已有自己的教學圖完整保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-486",
+      "q-487"
+    ],
+    "reviewedQuestionIds": [
+      "q-486",
+      "q-487"
+    ],
+    "confirmedQuestionIds": [
+      "q-486",
+      "q-487"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-486": "1681adac1acb2993ac927ef1f2d187a60e0d1ea82e0a5179d719088c207e4050",
+    "q-487": "80d55144e931a53d02966ada6b3f3623627ab5b021fbef2556850e218da59cd8"
+  }
+}

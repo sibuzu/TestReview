@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-379",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:27:24.990720+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-379",
+    "q-380"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-379",
+    "q-380"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-379-q-380",
+      "questionIds": [
+        "q-379",
+        "q-380"
+      ],
+      "retainId": "q-379",
+      "aliasIds": [
+        "q-380"
+      ],
+      "subject": "Geography",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Geography",
+      "childSubjects": {
+        "q-379": "Geography",
+        "q-380": "Geography"
+      },
+      "sourceIds": [
+        "src-more-009"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14"
+      ],
+      "printedRange": "同一src-more-009原卷題頭明示55至56，共用原表七；55人口都市化判讀、56由行程辨區後回表配對。共用表是答題必要關係，與同來源其他地理單題分開。",
+      "originalQuestionNumbers": {
+        "q-379": "55",
+        "q-380": "56"
+      },
+      "commonMaterial": {
+        "passage": "表(七)為臺灣本島北、中、南、東部四大區域西元2010年的土地面積、農業就業人口資料，及歷年人口比例變化表。",
+        "tables": [
+          {
+            "caption": "表(七) 原題四大區域資料（欄名與數值照原卷）",
+            "headers": [
+              "區域",
+              "土地面積占全臺比例（%）",
+              "農業就業人口占全臺比例（%）",
+              "1893年人口比例（%）",
+              "1925年人口比例（%）",
+              "1970年人口比例（%）",
+              "2010年人口比例（%）"
+            ],
+            "rows": [
+              [
+                "甲",
+                "20",
+                "1",
+                "30",
+                "31",
+                "40",
+                "45"
+              ],
+              [
+                "乙",
+                "23",
+                "15",
+                "0",
+                "3",
+                "3",
+                "2"
+              ],
+              [
+                "丙",
+                "28",
+                "7",
+                "43",
+                "33",
+                "32",
+                "28"
+              ],
+              [
+                "丁",
+                "29",
+                "9",
+                "27",
+                "33",
+                "25",
+                "25"
+              ]
+            ]
+          }
+        ],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-379-table-82d7a637b7.jpg",
+          "visibleHeader": "原卷明印「閱讀下列選文，回答第55至56題」，表七四區土地/農業就業/1893、1925、1970、2010人口完整原欄。",
+          "questionNumbers": [
+            "55-56"
+          ],
+          "sha256": "82d7a637b7c396c813f1a9d9e9ddc09a475db0f564d51b46768a2dd48d87635f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-379-source-23cc92228e.jpg",
+          "visibleHeader": "55「由表中資料判斷」問2010都市化最高，甲乙丙丁四選。",
+          "questionNumbers": [
+            "55"
+          ],
+          "sha256": "23cc92228e711506455afe4d8b7f46d2544b24d2ed81393e8e943fa99f356867",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-380-source-8bbf3e76d7.jpg",
+          "visibleHeader": "56「圖十三」旅遊行程問位表七何區，含完整四選與行程圖，頂端接55選項。",
+          "questionNumbers": [
+            "55(tail)",
+            "56"
+          ],
+          "sha256": "8bbf3e76d758bf980392342974789bfa690f23e19bb4b17c478c098548070e05",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-380-figure-2186211422.jpg",
+          "visibleHeader": "56專屬行程圖含鹽田生態文化村/大眾廟/鹿耳門溪口/鹿耳門天后宮/安平區與距離，原印圖十三。",
+          "questionNumbers": [
+            "56(figure)"
+          ],
+          "sha256": "2186211422b71578ce0bc24e4f1bf05488a346fb1bd67dc8df8ed284f0f4717b",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-009原卷題頭明示55至56，共用原表七；55人口都市化判讀、56由行程辨區後回表配對。共用表是答題必要關係，與同來源其他地理單題分開。",
+      "childCoverage": [
+        {
+          "questionId": "q-379",
+          "originalQuestionNumber": "55",
+          "sourceId": "src-more-009",
+          "date": "2026-08-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "297601be545cf70c45b5e43857dce333271027581b11352895642cf83d67a6ab",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-379-table-82d7a637b7.jpg",
+            "assets/questions/q-379-source-23cc92228e.jpg"
+          ],
+          "tables": [
+            {
+              "caption": "表(七) 原題四大區域資料（欄名與數值照原卷）",
+              "headers": [
+                "區域",
+                "土地面積占全臺比例（%）",
+                "農業就業人口占全臺比例（%）",
+                "1893年人口比例（%）",
+                "1925年人口比例（%）",
+                "1970年人口比例（%）",
+                "2010年人口比例（%）"
+              ],
+              "rows": [
+                [
+                  "甲",
+                  "20",
+                  "1",
+                  "30",
+                  "31",
+                  "40",
+                  "45"
+                ],
+                [
+                  "乙",
+                  "23",
+                  "15",
+                  "0",
+                  "3",
+                  "3",
+                  "2"
+                ],
+                [
+                  "丙",
+                  "28",
+                  "7",
+                  "43",
+                  "33",
+                  "32",
+                  "28"
+                ],
+                [
+                  "丁",
+                  "29",
+                  "9",
+                  "27",
+                  "33",
+                  "25",
+                  "25"
+                ]
+              ]
+            }
+          ],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "分清全臺份額，都市化比較選甲",
+            "art": "assets/comics/q-379-art-59411950b7.svg",
+            "panels": [
+              {
+                "heading": "① 占全臺，不是占區內",
+                "text": "原表農業欄寫占全臺比例，不能把甲的1直接說成甲區居民只有1%務農。比較2010年時，也要對照同年的區域人口份額。",
+                "alt": "新製原表農業1/15/7/9與2010人口45/2/28/25百分比摘錄，分母保留全臺，沒有改成區內比率。"
+              },
+              {
+                "heading": "② 兩個份額相除，比較相對程度",
+                "text": "農業份額除以人口份額：甲約0.022，乙7.5，丙0.25，丁0.36。甲最低；這些是相對指標，不是區內務農百分比。",
+                "alt": "新製1÷45、15÷2、7÷28、9÷25精確相對指標表與排序甲丙丁乙；沒有加百分號當作實際區內農業人口比例。"
+              },
+              {
+                "heading": "③ 人口集中，配合非農線索",
+                "text": "甲占土地20%，卻占人口45%，人口相對集中；再配合相對務農程度最低，最符合高度都市化。不能只看人口最多，就跳過其他資料。",
+                "alt": "新製甲人口45%與土地20%全臺份額同一0至50%比例尺條圖，並非都市建成區面積圖。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：甲",
+              "points": [
+                "先釐清分母：全臺份額不等於區內比例。",
+                "農業份額相對人口份額，甲最低。",
+                "土地20%、人口45%，人口相對集中。"
+              ]
+            },
+            "protectedWords": [
+              "全臺份額",
+              "區內比例",
+              "百分比",
+              "相對指標",
+              "務農程度",
+              "2010年",
+              "都市化",
+              "人口份額",
+              "農業份額",
+              "1%",
+              "20%",
+              "45%",
+              "0.022",
+              "0.25",
+              "0.36"
+            ]
+          }
+        },
+        {
+          "questionId": "q-380",
+          "originalQuestionNumber": "56",
+          "sourceId": "src-more-009",
+          "date": "2026-08-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "7b6f2a499aac6d87da01abd065d591a8c53e3b624861f2f58446f52b45db48f5",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-380-table-82d7a637b7.jpg",
+            "assets/questions/q-380-source-8bbf3e76d7.jpg"
+          ],
+          "tables": [
+            {
+              "caption": "表(七) 原題四大區域資料（欄名與數值照原卷）",
+              "headers": [
+                "區域",
+                "土地面積占全臺比例（%）",
+                "農業就業人口占全臺比例（%）",
+                "1893年人口比例（%）",
+                "1925年人口比例（%）",
+                "1970年人口比例（%）",
+                "2010年人口比例（%）"
+              ],
+              "rows": [
+                [
+                  "甲",
+                  "20",
+                  "1",
+                  "30",
+                  "31",
+                  "40",
+                  "45"
+                ],
+                [
+                  "乙",
+                  "23",
+                  "15",
+                  "0",
+                  "3",
+                  "3",
+                  "2"
+                ],
+                [
+                  "丙",
+                  "28",
+                  "7",
+                  "43",
+                  "33",
+                  "32",
+                  "28"
+                ],
+                [
+                  "丁",
+                  "29",
+                  "9",
+                  "27",
+                  "33",
+                  "25",
+                  "25"
+                ]
+              ]
+            }
+          ],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-380-figure-2186211422.jpg",
+              "alt": "原題第 56 題附圖",
+              "caption": "依原卷裁切的作答附圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先定位臺南，再回表找南部代號",
+            "art": "assets/comics/q-380-art-af35deedcf.svg",
+            "panels": [
+              {
+                "heading": "① 四草、鹿耳門、安平，指向臺南",
+                "text": "從原行程找地名：四草砲臺、鹿耳門溪口、鹿耳門天后宮與安平都在臺南一帶。先定位為南部，再查表找代號；不必把行程沒有列的景點補進來。",
+                "alt": "新原生地名線索卡集中指向臺南南部，未冒充實際路線圖，不新增景點或猜距離。"
+              },
+              {
+                "heading": "② 回到表格，丙對應南部",
+                "text": "合看開發史與人口分布：南部早期開發較早，丙在1893年占43%，後降至2010年的28%；甲後期占比上升對應北部，乙對應東部，丁對應中部。因此臺南行程選丙，也就是C。",
+                "alt": "新原生表格核對1893/2010四區人口份額30/45、0/2、43/28、27/25；丙南高亮，合看歷史地理脈絡不把比例單獨當唯一證明。"
+              },
+              {
+                "heading": "③ 人口占比下降，不等於人口變少",
+                "text": "比例的分母是全臺人口。用假設例來看：全體100人時，43%是43人；全體增加為200人時，28%是56人。比例雖降，區域人數仍可能增加，不能只看占比就判人口減少。",
+                "alt": "新原生純假設100×43%=43與200×28%=56，明示非歷史人數，說明分母變動；無虛構真實人口時間序列。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案：C，丙（南部）",
+              "points": [
+                "原行程地名定位臺南，屬南部。",
+                "結合開發史與表格，南部對應丙。",
+                "人口份額與實際人口數要分開判讀。"
+              ]
+            },
+            "protectedWords": [
+              "四草砲臺",
+              "鹿耳門溪口",
+              "鹿耳門天后宮",
+              "1893年",
+              "2010年",
+              "43%",
+              "28%",
+              "100人",
+              "200人",
+              "43人",
+              "56人",
+              "臺南",
+              "南部",
+              "北部",
+              "東部",
+              "中部"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-379-table-82d7a637b7.jpg",
+      "visibleHeader": "原卷明印「閱讀下列選文，回答第55至56題」，表七四區土地/農業就業/1893、1925、1970、2010人口完整原欄。",
+      "questionNumbers": [
+        "55-56"
+      ],
+      "sha256": "82d7a637b7c396c813f1a9d9e9ddc09a475db0f564d51b46768a2dd48d87635f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-379-source-23cc92228e.jpg",
+      "visibleHeader": "55「由表中資料判斷」問2010都市化最高，甲乙丙丁四選。",
+      "questionNumbers": [
+        "55"
+      ],
+      "sha256": "23cc92228e711506455afe4d8b7f46d2544b24d2ed81393e8e943fa99f356867",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-380-source-8bbf3e76d7.jpg",
+      "visibleHeader": "56「圖十三」旅遊行程問位表七何區，含完整四選與行程圖，頂端接55選項。",
+      "questionNumbers": [
+        "55(tail)",
+        "56"
+      ],
+      "sha256": "8bbf3e76d758bf980392342974789bfa690f23e19bb4b17c478c098548070e05",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-380-figure-2186211422.jpg",
+      "visibleHeader": "56專屬行程圖含鹽田生態文化村/大眾廟/鹿耳門溪口/鹿耳門天后宮/安平區與距離，原印圖十三。",
+      "questionNumbers": [
+        "56(figure)"
+      ],
+      "sha256": "2186211422b71578ce0bc24e4f1bf05488a346fb1bd67dc8df8ed284f0f4717b",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "表七完整欄名/全數值照原題一次，不重命名農業欄或改百分比；原表照片保留可對照。",
+    "56圖十三行程仍是子題必要圖，不可因有共同表就漏它。A/C既有答案與各子教學均保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-379",
+      "q-380"
+    ],
+    "reviewedQuestionIds": [
+      "q-379",
+      "q-380"
+    ],
+    "confirmedQuestionIds": [
+      "q-379",
+      "q-380"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-379": "c83acb39217ceede283dc89241af81fdcf003854e2530e07c3f5f51c1b8e42a4",
+    "q-380": "d8187850432a555462e8804137557702eb8561d38e2cef1b94bc5ac51501844c"
+  }
+}

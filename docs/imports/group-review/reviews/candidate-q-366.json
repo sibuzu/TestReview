@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-366",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:25:30.078295+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-366",
+    "q-367"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-366",
+    "q-367"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-366-q-367",
+      "questionIds": [
+        "q-366",
+        "q-367"
+      ],
+      "retainId": "q-366",
+      "aliasIds": [
+        "q-367"
+      ],
+      "subject": "Geography",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Geography",
+      "childSubjects": {
+        "q-366": "Geography",
+        "q-367": "Geography"
+      },
+      "sourceIds": [
+        "src-more-008"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae05276-e754-83ee-a87a-569980550954"
+      ],
+      "printedRange": "同一src-more-008原卷題頭明示61～63，現有61/62均直指共同圖23，兩題裁圖彼此保留相鄰邊緣。實際題庫僅61/62，本輪只合兩子，不為填63增加新來源或新題。",
+      "originalQuestionNumbers": {
+        "q-366": "61",
+        "q-367": "62"
+      },
+      "commonMaterial": {
+        "passage": "臺灣島因面積不大，島上的河川普遍短小，其中最長的河川為濁水溪，主流全長約186.6公里。圖(二十三)為濁水溪的水系圖，根據圖(二十三)圖答下列問題：",
+        "tables": [],
+        "questionFigures": [
+          {
+            "src": "assets/questions/q-366-figure-5d80a56c4d.jpg",
+            "alt": "原題第 61 題附圖",
+            "caption": "依原卷裁切的作答附圖"
+          }
+        ]
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-367-reading-a0cc5c5c48.jpg",
+          "visibleHeader": "原卷明印「請根據下列敘述，回答61～63題」，濁水溪186.6km共同說明及圖23比例尺0-A公里、甲點。",
+          "questionNumbers": [
+            "61-63"
+          ],
+          "sha256": "a0cc5c5c4812c99cad33293961bce7da960c32615b0c6000e313650ddf3aa6f8",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-366-source-e7831f9a4a.jpg",
+          "visibleHeader": "印刷61問圖23上方比例尺A，5/40/80/120四選，底緣接62。",
+          "questionNumbers": [
+            "61",
+            "62(head)"
+          ],
+          "sha256": "e7831f9a4a4d3fd984f5dc2a17c7ff0f12806c6190424b654c831ecf00b56849",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-366-source-7b7db1c1f0.jpg",
+          "visibleHeader": "同印刷61的完整第二裁圖，保留兩原件不刪。",
+          "questionNumbers": [
+            "61"
+          ],
+          "sha256": "7b7db1c1f0ce3593e9ac798f3cf2801cb98363bfa170b4c07cb1a14bd4df6ec1",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-367-source-7dfbce1bb1.jpg",
+          "visibleHeader": "印刷62圖23甲水庫名四選，上緣接61四選尾，原日月潭項清楚。",
+          "questionNumbers": [
+            "61(tail)",
+            "62"
+          ],
+          "sha256": "7dfbce1bb12b6820d99c31b23c2a21bc09bdc4c5b31256e226dcad47898f4a05",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-008原卷題頭明示61～63，現有61/62均直指共同圖23，兩題裁圖彼此保留相鄰邊緣。實際題庫僅61/62，本輪只合兩子，不為填63增加新來源或新題。",
+      "childCoverage": [
+        {
+          "questionId": "q-366",
+          "originalQuestionNumber": "61",
+          "sourceId": "src-more-008",
+          "date": "2026-08-24",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "250c2bf6ea14c5cfc0efbf69a83e6bbdd463cc3d95d9a3dac83b25838f56a8f1",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-366-source-e7831f9a4a.jpg",
+            "assets/questions/q-366-source-7b7db1c1f0.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-366-figure-5d80a56c4d.jpg",
+              "alt": "原題第 61 題附圖",
+              "caption": "依原卷裁切的作答附圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "沿主流量長，再回代比例尺",
+            "art": "assets/comics/q-366-art-d3d5b7140d.svg",
+            "panels": [
+              {
+                "heading": "① 只量主流，沿彎曲逐段量",
+                "text": "材料給濁水溪主流全長186.6公里。圖上應沿主流彎曲量長，不把所有支流加總，也不用源頭到河口的直線距離代替。",
+                "alt": "新製量法示意，用橘線代表彎曲主流、灰線代表支流、虛線對照兩端直距，明標非實際河道圖，沒有重畫或猜補濁水溪支流位置。"
+              },
+              {
+                "heading": "② 用比例尺的一段作比較",
+                "text": "圖示比例尺從0到A是一段，單位是公里。若主流長度約等於k段，就有k×A≈186.6；主流與比例尺須用同一倍率比較。",
+                "alt": "新製0至A的一段圖示比例尺與k乘A約186.6的關係圖，沒有臆造原圖紙上公分或像素測量值。"
+              },
+              {
+                "heading": "③ 回代40，看需幾段河長",
+                "text": "186.6÷40約為4.7段，與原圖主流相對比例尺的估量最相近。若填5、80、120，則需約37.3、2.3、1.6段，不符原圖。",
+                "alt": "新製四候選值回代段數對照表，5/40/80/120公里各對應約37.3/4.7/2.3/1.6段，40與4.7列同色強調。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：40公里",
+              "points": [
+                "實際主流長186.6公里，由題目提供。",
+                "用同圖的主流與比例尺線比長。",
+                "一段40公里，整條主流約需4.7段。",
+                "照片傾斜可近似估量，選最恰當數字。"
+              ]
+            },
+            "protectedWords": [
+              "濁水溪",
+              "主流",
+              "支流",
+              "比例尺",
+              "圖示比例尺",
+              "直線距離",
+              "源頭",
+              "河口",
+              "同一倍率",
+              "40公里",
+              "186.6公里",
+              "k×A≈186.6",
+              "186.6÷40"
+            ]
+          }
+        },
+        {
+          "questionId": "q-367",
+          "originalQuestionNumber": "62",
+          "sourceId": "src-more-008",
+          "date": "2026-08-24",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "9f64607f46fa8a04c6ebc7d4211db5d1091eb0fccb8d7b10618f0c62adc2f6c3",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-367-reading-a0cc5c5c48.jpg",
+            "assets/questions/q-367-source-7dfbce1bb1.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-367-figure-5d80a56c4d.jpg",
+              "alt": "原題第 62 題附圖",
+              "caption": "依原卷裁切的作答附圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "同屬濁水溪系統，不等於主流穿過潭面",
+            "art": "assets/comics/q-367-art-bf6bfbeeeb.svg",
+            "panels": [
+              {
+                "heading": "① 題組已告訴你：這是濁水溪水系",
+                "text": "先連同共同說明讀題：原圖是濁水溪水系圖，再找甲點對應的水庫。不能只憑水庫名稱或都在山區，就把另一個河系的水庫放到這裡。位置仍以原卷附圖為準。",
+                "alt": "新製讀題資訊卡只列濁水溪水系、甲點、水庫名稱任務，不重畫或擅改必要原圖地理位置。"
+              },
+              {
+                "heading": "② 日月潭靠引水道連結濁水溪",
+                "text": "日月潭是離槽水庫：濁水溪的水經武界壩與引水道送入日月潭蓄存。它不是把濁水溪主流直接攔成整個潭面。關係圖只示引水連結，不表示真實方位或各水流的比例。",
+                "alt": "新精確拓樸圖濁水溪至武界壩，主流繼續往下游，側支引水道至日月潭，避免畫成天然主河道流經潭面。"
+              },
+              {
+                "heading": "③ 把四個選項各自配回水系",
+                "text": "翡翠屬淡水河水系，曾文屬曾文溪，德基屬大甲溪，都不符合題組給的濁水溪。日月潭從濁水溪引水，與原圖甲點及題設相符，因此選D。",
+                "alt": "新製四水庫水系對照：翡翠淡水河系、曾文曾文溪、德基大甲溪、日月潭引濁水溪水，D突出。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：日月潭水庫",
+              "points": [
+                "濁水溪水系是題組提供的重要線索。",
+                "武界壩透過引水道，把水送入日月潭。",
+                "離槽水庫不是天然主流直接流過潭面。"
+              ]
+            },
+            "protectedWords": [
+              "濁水溪",
+              "日月潭",
+              "武界壩",
+              "引水道",
+              "離槽水庫",
+              "淡水河",
+              "曾文溪",
+              "大甲溪",
+              "日月潭水庫",
+              "翡翠",
+              "甲點"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-367-reading-a0cc5c5c48.jpg",
+      "visibleHeader": "原卷明印「請根據下列敘述，回答61～63題」，濁水溪186.6km共同說明及圖23比例尺0-A公里、甲點。",
+      "questionNumbers": [
+        "61-63"
+      ],
+      "sha256": "a0cc5c5c4812c99cad33293961bce7da960c32615b0c6000e313650ddf3aa6f8",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-366-source-e7831f9a4a.jpg",
+      "visibleHeader": "印刷61問圖23上方比例尺A，5/40/80/120四選，底緣接62。",
+      "questionNumbers": [
+        "61",
+        "62(head)"
+      ],
+      "sha256": "e7831f9a4a4d3fd984f5dc2a17c7ff0f12806c6190424b654c831ecf00b56849",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-366-source-7b7db1c1f0.jpg",
+      "visibleHeader": "同印刷61的完整第二裁圖，保留兩原件不刪。",
+      "questionNumbers": [
+        "61"
+      ],
+      "sha256": "7b7db1c1f0ce3593e9ac798f3cf2801cb98363bfa170b4c07cb1a14bd4df6ec1",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-367-source-7dfbce1bb1.jpg",
+      "visibleHeader": "印刷62圖23甲水庫名四選，上緣接61四選尾，原日月潭項清楚。",
+      "questionNumbers": [
+        "61(tail)",
+        "62"
+      ],
+      "sha256": "7dfbce1bb12b6820d99c31b23c2a21bc09bdc4c5b31256e226dcad47898f4a05",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "原印61～63的題組範圍照保留，不能宣稱本庫已含63；共文186.6km、未定比例尺A及甲點圖都須留。",
+    "q367 D為使用者確認，不以原卷筆跡重開；q366 B與兩子各自教學均保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-366",
+      "q-367"
+    ],
+    "reviewedQuestionIds": [
+      "q-366",
+      "q-367"
+    ],
+    "confirmedQuestionIds": [
+      "q-366",
+      "q-367"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-366": "0cda348e8a63716d5a694033a15d39fb201e4945d9d2ebf9282589edddab69a5",
+    "q-367": "18f76bdfb4b44bc9ce6587ce2466cc52ed449d30ea12c8e1813457cf8c118e12"
+  }
+}

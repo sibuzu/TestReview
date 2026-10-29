@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-675",
+  "reviewerAgent": "/root/comic_lane_3",
+  "reviewedAt": "2026-10-29T12:46:50.387293+00:00",
+  "decision": "split",
+  "inventoryQuestionIds": [
+    "q-675",
+    "q-679",
+    "q-680"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-675",
+    "q-679",
+    "q-680"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-679-q-680",
+      "questionIds": [
+        "q-679",
+        "q-680"
+      ],
+      "retainId": "q-679",
+      "aliasIds": [
+        "q-680"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "同批AI延伸皆問同一新詩的國文閱讀，取Chinese。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-679": "Chinese",
+        "q-680": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-042"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/ft1A3NfIdqI2"
+      ],
+      "printedRange": "本候選拆分：原卷38(q675)保持單題；AI對話另一回合明確為37與38設計同一批兩道會考風格變形題，第一/第二同讀孤寂鹿港，q679/q680可獨立復原為AI延伸題組，絕不混稱原卷37/38。",
+      "originalQuestionNumbers": {
+        "q-679": null,
+        "q-680": null
+      },
+      "commonMaterial": {
+        "passage": "鹿港，靜臥海岸的珍珠\n昔日荷蘭與明鄭縱橫\n原住民巴布薩族如晨曦花苞\n悄然綻放生命的芬芳\n\n清乾隆正式開港\n張開雙臂\n迎接泉州的船隻，港闊水深\n商人如魚，巨富如海浪\n\n十九世紀初\n濁水溪肆無忌憚\n泥沙封住港口\n海岸線不再\n船舶無所適從\n\n未經過的鐵路，\n最後一根稻草\n壓垮了鹿港\n子民外出謀生如離鄉的鷹，\n飛向遠方\n獨留廟宇街巷遙想當年繁華\n——王澄〈孤寂鹿港〉",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-675-reading-79c0709f16.jpg",
+          "visibleHeader": "原卷共同詩〈孤寂鹿港〉標37～38；僅驗證後場AI延伸沿用的材料，不假稱AI兩小題印在原卷。",
+          "questionNumbers": [
+            "37-38(shared poem only)"
+          ],
+          "sha256": "79c0709f16c46c894e4cb8c73e1f7741b3df0f2d2c43049b4750bf5d73bec162",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-675-source-193e31ba5e.jpg",
+          "visibleHeader": "原卷獨立第38題寫作手法，與後場AI延伸一/二不是同一次作答。",
+          "questionNumbers": [
+            "38(original only)"
+          ],
+          "sha256": "193e31ba5eef620d5f2080aff88a11a4cc9131f79c4c159f56b6a128e6b8199e",
+          "visualChecked": true
+        }
+      ],
+      "reason": "本候選拆分：原卷38(q675)保持單題；AI對話另一回合明確為37與38設計同一批兩道會考風格變形題，第一/第二同讀孤寂鹿港，q679/q680可獨立復原為AI延伸題組，絕不混稱原卷37/38。",
+      "childCoverage": [
+        {
+          "questionId": "q-679",
+          "originalQuestionNumber": null,
+          "sourceId": "src-gemini-more-042",
+          "date": "2026-09-09",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "6e11c7d043a0264cdf0d4a4d88c9e5adf81bafc5bbea8ff0456578515bd1a6b4",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "興衰推論，要有詩句的因果證據",
+            "art": "assets/comics/q-679-art-0e2f946fd8-web.webp",
+            "panels": [
+              {
+                "heading": "① 先看興盛：開港時港闊水深",
+                "text": "詩寫開港迎船、港闊水深、商人巨富。B卻說起初狹窄淤淺，還添入接駁，和原詩不同。",
+                "alt": "同一首詩的商港繁盛概念情境，沿用已核對q675平坦沿海背景插畫，非鹿港實景復原。"
+              },
+              {
+                "heading": "② 自然因素：泥沙封住港口",
+                "text": "第三節明寫泥沙封港、船舶無所適從，支持自然地理變遷影響港口。原因要從詩句找，不能自行補戰爭或信仰沒落。",
+                "alt": "港口泥沙淤積、船隻在較外側等待的概念，與自然地理變遷的文字證據對應。"
+              },
+              {
+                "heading": "③ 交通因素：未經過的鐵路",
+                "text": "第四節把鐵路未經寫成最後一根稻草，接著居民外出謀生。這是交通邊緣化；A把鐵路安在明鄭時期，沒有詩句支持。",
+                "alt": "清靜老街、居民外出及遠方未經此鎮的火車概念，沿用相同材料的審核圖，不當精確交通路線。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：自然變遷＋交通邊緣化",
+              "points": [
+                "「泥沙封住港口」→自然地理變遷。",
+                "「未經過的鐵路」→交通邊緣化。",
+                "末句廟宇街巷，不等於因信仰沒落而外出。"
+              ]
+            },
+            "protectedWords": [
+              "港闊水深",
+              "商人巨富",
+              "泥沙封港",
+              "泥沙封住港口",
+              "未經過的鐵路",
+              "最後一根稻草",
+              "交通邊緣化",
+              "自然地理變遷",
+              "明鄭時期",
+              "廟宇街巷",
+              "外出謀生"
+            ]
+          },
+          "fullQuestion": "根據王澄〈孤寂鹿港〉一詩的內容，下列關於鹿港興衰演變的推論，何者最恰當？\n\n(A) 明鄭時期引進鐵路建設，奠定鹿港日後成為商貿重鎮的基礎\n(B) 鹿港開港之初因港道狹窄淤淺，主要仰賴原住民族提供舟船接駁\n(C) 鹿港由盛轉衰的主因，包含了自然地理變遷與近代陸路交通邊緣化\n(D) 現代鹿港子弟選擇遠走他鄉，是因為傳統廟宇文化與信仰日漸沒落",
+          "answer": "正確答案：(C) 鹿港由盛轉衰的主因，包含了自然地理變遷與近代陸路交通邊緣化。",
+          "explanation": "原因要有詩句支持：「泥沙封住港口」→港道淤積；「未經過的鐵路」→錯失近代交通優勢。二者合起來是C。末句留下廟宇街巷的對照，不等於居民因信仰衰退而離去。",
+          "aiExerciseLabel": "第一題（對應原37考點）"
+        },
+        {
+          "questionId": "q-680",
+          "originalQuestionNumber": null,
+          "sourceId": "src-gemini-more-042",
+          "date": "2026-09-09",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "4bc4b79aa176d3c4cfa2c5531a83d0fa3216db874920c5306ee44e2c48247161",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "沿時間讀盛衰，沿語境理解譬喻",
+            "art": "assets/comics/q-680-art-6a42f4aaa1-web.webp",
+            "panels": [
+              {
+                "heading": "① 時間詞串起全詩結構",
+                "text": "昔日荷蘭與明鄭、清乾隆、十九世紀初，再到鐵路未經與外出謀生。各節沿時間向前，描寫鹿港興衰，符合A。",
+                "alt": "詩意繁華港口的舊帆船與商貿情境，只表現盛衰敘事的繁盛階段，不冒充某年實景。"
+              },
+              {
+                "heading": "② 珍珠與魚浪，都要讀本意",
+                "text": "珍珠比喻鹿港珍貴耀眼的地位，不是說盛產珠寶。商人如魚、巨富如海浪，主要用明喻寫商貿繁盛，也不是描寫海浪驚險。",
+                "alt": "熱鬧市場街巷的商人與買賣，對應商貿繁盛；沒有畫成珍珠產業、魚形商人或危險海浪。"
+              },
+              {
+                "heading": "③ 稻草指最後再添的打擊",
+                "text": "最後一根稻草緊接未經過的鐵路，表示鹿港衰退時又受交通發展的打擊。原文沒有把它連到原住民族反抗，C的推論超出詩意。",
+                "alt": "較安靜廟宇街巷中居民攜行囊離開，示意外出謀生；沒有把鐵路畫成經過鹿港，也無稻草或抗爭的字面誤解。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：按時間推移描寫盛衰",
+              "points": [
+                "看篇章：各節時間詞由早到晚。",
+                "看譬喻：分清所比的意義和字面物產。",
+                "看語境：最後一根稻草是再添打擊。"
+              ]
+            },
+            "protectedWords": [
+              "清乾隆",
+              "十九世紀初",
+              "外出謀生",
+              "鹿港",
+              "珍珠",
+              "商人如魚",
+              "巨富如海浪",
+              "明喻",
+              "最後一根稻草",
+              "原住民族",
+              "詩意",
+              "時間推移"
+            ]
+          },
+          "fullQuestion": "關於王澄〈孤寂鹿港〉全詩的修辭手法與篇章結構，下列敘述何者正確？\n\n(A) 全詩依循「時間推移」的順序，由古至今呈現鹿港的滄海桑田\n(B) 「商人如魚，巨富如海浪」運用誇飾修辭，強調港口海浪的驚險\n(C) 以「最後一根稻草」象徵原住民族對土地開發的反抗與沉重代價\n(D) 首節將鹿港比喻為「珍珠」，是為了強調其盛產名貴珠寶與海產",
+          "answer": "正確答案：(A) 全詩依循「時間推移」的順序，由古至今呈現鹿港的滄海桑田。",
+          "explanation": "用時間詞抓結構最穩：昔日→清乾隆→十九世紀初→未經過的鐵路與外出謀生。A符合。比喻題要區分喻體與本意，不能看到珍珠就當珠寶產業、看到稻草就當種稻。",
+          "aiExerciseLabel": "第二題（對應原38考點）"
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "sameOriginalPaper": false,
+      "sameAIExerciseBatch": true,
+      "provenanceKind": "source_ai_extension_batch",
+      "extensionBatchEvidence": [
+        {
+          "path": "site/dist/sources/gemini-ft1A3NfIdqI2.txt",
+          "sha256": "9b072148468df66f2494779c906289cde070adc6128f4452a6ff4c7a7fcdc138",
+          "lineRange": [
+            270,
+            329
+          ],
+          "textChecked": true,
+          "context": "You said 出這二題變形題；針對第37題與第38題…設計兩道…第一題：詩意推論與歷史脈絡整合…第二題：修辭與寫作手法辨析。"
+        }
+      ],
+      "aiExerciseNumbers": {
+        "q-679": "第一題（對應原37考點）",
+        "q-680": "第二題（對應原38考點）"
+      }
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-675-reading-79c0709f16.jpg",
+      "visibleHeader": "原卷共同詩〈孤寂鹿港〉標37～38；僅驗證後場AI延伸沿用的材料，不假稱AI兩小題印在原卷。",
+      "questionNumbers": [
+        "37-38(shared poem only)"
+      ],
+      "sha256": "79c0709f16c46c894e4cb8c73e1f7741b3df0f2d2c43049b4750bf5d73bec162",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-675-source-193e31ba5e.jpg",
+      "visibleHeader": "原卷獨立第38題寫作手法，與後場AI延伸一/二不是同一次作答。",
+      "questionNumbers": [
+        "38(original only)"
+      ],
+      "sha256": "193e31ba5eef620d5f2080aff88a11a4cc9131f79c4c159f56b6a128e6b8199e",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [
+    {
+      "questionIds": [
+        "q-675",
+        "q-679"
+      ],
+      "reason": "原卷38與另場AI延伸一非同組。"
+    },
+    {
+      "questionIds": [
+        "q-675",
+        "q-680"
+      ],
+      "reason": "原卷38與另場AI延伸二非同組。"
+    }
+  ],
+  "needsConfirmation": [],
+  "notes": [
+    "索引查孤寂鹿港只命中675/679/680，原卷37未在838題baseline，不新增原37、不以AI第一題冒充原37。q675保留B；AI兩子原C/A及所有選項詳解/新四格保留。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-675",
+      "q-679",
+      "q-680"
+    ],
+    "reviewedQuestionIds": [
+      "q-675",
+      "q-679",
+      "q-680"
+    ],
+    "confirmedQuestionIds": [
+      "q-679",
+      "q-680"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true,
+    "retainedSeparatelyQuestionIds": [
+      "q-675"
+    ]
+  },
+  "inputFingerprints": {
+    "q-675": "3d9f5f97d5865b3c079d1894ce6b0651c45875a3b6c941c495ef2a8ae1fb2b4a",
+    "q-679": "3bd07a0cc9a73dff44b53f45dbb2eea92e85ad077f3947194eb3e41b16902d20",
+    "q-680": "84d1ae1cb9e2bde0baf6e1a846da1325b0609c83c76a299ba1aa2f6b1d391a3a"
+  },
+  "textEvidence": [
+    {
+      "path": "site/dist/sources/gemini-ft1A3NfIdqI2.txt",
+      "sha256": "9b072148468df66f2494779c906289cde070adc6128f4452a6ff4c7a7fcdc138",
+      "lineRange": [
+        270,
+        329
+      ],
+      "textChecked": true,
+      "context": "You said 出這二題變形題；針對第37題與第38題…設計兩道…第一題：詩意推論與歷史脈絡整合…第二題：修辭與寫作手法辨析。"
+    }
+  ],
+  "retainedSeparately": [
+    {
+      "questionId": "q-675",
+      "originalQuestionNumber": "38",
+      "correctOption": "B",
+      "fullQuestion": "關於本詩的寫作手法，下列敘述何者正確？\n\n(A) 用摹寫手法使鹿港具有生動形象\n(B) 用歷史事件展現鹿港昔日的繁榮\n(C) 以戰爭慘烈和地形改變呈現鹿港的衰落\n(D) 以具體的細節描寫鹿港廟宇與街道之美",
+      "preserveUnchanged": true,
+      "reason": "原卷真正37～38題組只有38已收入baseline，與另一場AI延伸不同作答情境。"
+    }
+  ]
+}

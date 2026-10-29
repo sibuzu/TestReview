@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-502",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:35:30.460123+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-502",
+    "q-503"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-502",
+    "q-503"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-502-q-503",
+      "questionIds": [
+        "q-502",
+        "q-503"
+      ],
+      "retainId": "q-502",
+      "aliasIds": [
+        "q-503"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-502": "Chinese",
+        "q-503": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-017"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/1P48K0fgDy6p"
+      ],
+      "printedRange": "同一src-gemini-more-017同一原卷44/45，44引同文鵝死/家人變怪、45明說桓南郡且問規勸，均依同一故事的判斷/情緒線索，是共文不同小題。",
+      "originalQuestionNumbers": {
+        "q-502": "44",
+        "q-503": "45"
+      },
+      "commonMaterial": {
+        "passage": "桓南郡小兒時，與諸從兄弟各養鵝共鬥。南郡鵝每不如，甚以為忿；通夜往鵝欄間，取諸兄弟鵝悉殺之。既曉，家人咸以驚駭，云嘗變怪，以白車騎。車騎曰：「無所致怪，當是南郡戲耳。」問，果如之。\n——《世說新語・忿狷篇》\n\n【原題註釋】白：告訴。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-502-reading-source-65da296256.jpg",
+          "visibleHeader": "原卷世說新語忿狷篇桓南郡養鵝共鬥/忿殺鵝/家人變怪/車騎識破同篇。",
+          "questionNumbers": [],
+          "sha256": "65da2962564d65b2e1b3a0ad88d88e7d2247f43eb0cb6f4562d7138c66a275c6",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-502-source-4afd393f51.jpg",
+          "visibleHeader": "44鵝一夜盡死家人以變怪問缺哪能力，完整四選洞見癥結/未雨綢繆/反省改過/亡羊補牢。",
+          "questionNumbers": [
+            "44"
+          ],
+          "sha256": "4afd393f51ad4eab8865236c94ff9efaefe040659914b0bd7fa677fdbbbe0c9f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-503-source-f09345902d.jpg",
+          "visibleHeader": "45若是桓南郡朋友規勸四選，獨特人名與共文吻合，題號相接。",
+          "questionNumbers": [
+            "45"
+          ],
+          "sha256": "f09345902dbbf9dcf9fbd98f2f6a88cc4d50009de982ad203261cc3e06447ea9",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-017同一原卷44/45，44引同文鵝死/家人變怪、45明說桓南郡且問規勸，均依同一故事的判斷/情緒線索，是共文不同小題。",
+      "childCoverage": [
+        {
+          "questionId": "q-502",
+          "originalQuestionNumber": "44",
+          "sourceId": "src-gemini-more-017",
+          "date": "2026-08-24",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "e6171d181985d7127e48d1fdfebdc3f20aef1130cd02d5343c100f5263a001c1",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-502-reading-source-65da296256.jpg",
+            "assets/questions/q-502-source-4afd393f51.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "從異常結果追查真因，才是洞見癥結",
+            "art": "assets/comics/q-502-art-39b169dc3b-web.webp",
+            "panels": [
+              {
+                "heading": "① 先讀前文：南郡有忿怒的動機",
+                "text": "南郡的鵝每次不如別人，因而忿怒。文中接著說他夜裡殺了兄弟們的鵝；前因與後果要一起讀，不只看隔天的驚訝。",
+                "alt": "全新內建古代家庭概念少年在健康白鵝欄外失望的情境，只輔助理解忿怒動機；沒有鬥鵝、死鵝、武器或傷害手法，不冒充原文鵝欄的實際配置。"
+              },
+              {
+                "heading": "② 家人只見結果，就先說是變怪",
+                "text": "家人見到鵝一夜盡死，就以為發生變怪。他們還沒有察明真正原因，便先用怪異解釋結果；這正是題目要辨認的判斷落差。",
+                "alt": "全新內建兩名成人家人在戶外驚訝困惑的概念畫面，沒有亡鳥屍體或超自然怪物，不把錯誤歸因畫成真實原因。"
+              },
+              {
+                "heading": "③ 車騎提出人為原因，再追問確認",
+                "text": "車騎認為是南郡所為，接著問，果然如此。重點不只是猜到誰做的，還有追問確認。與家人的反應對比，就能看出他們缺乏找出真因的能力。",
+                "alt": "全新內建藍衣成人長輩平靜詢問同一少年、家人傾聽的概念場景，沒有刑罰、威嚇或現代司法程序，不冒充真實歷史肖像。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：洞見癥結",
+              "points": [
+                "洞見癥結：看出事情真正的原因與關鍵。",
+                "家人先說變怪；車騎提出人為原因並查問。",
+                "B是事前準備，D是事後補救。",
+                "C是檢討自身錯誤，不是本文對照的判因能力。"
+              ]
+            },
+            "protectedWords": [
+              "洞見癥結",
+              "南郡",
+              "忿怒",
+              "變怪",
+              "車騎",
+              "真正原因",
+              "前因",
+              "後果",
+              "追問確認",
+              "人為原因",
+              "未雨綢繆",
+              "反省改過",
+              "亡羊補牢",
+              "事前準備",
+              "事後補救",
+              "判因能力"
+            ]
+          }
+        },
+        {
+          "questionId": "q-503",
+          "originalQuestionNumber": "45",
+          "sourceId": "src-gemini-more-017",
+          "date": "2026-08-24",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "e3972aad9f6e3d33b469d54304fce3e7e859281f995a40da47f98d542e2fce18",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-503-reading-source-65da296256.jpg",
+            "assets/questions/q-503-source-f09345902d.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "規勸要對準失利後的怒氣",
+            "art": "assets/comics/q-503-art-41021228dc-web.webp",
+            "panels": [
+              {
+                "heading": "① 先抓動機：不如人，就生忿",
+                "text": "「南郡鵝每不如，甚以為忿」是關鍵。他因自己的鵝輸給別人而惱怒；規勸要先對準不能忍受失利的情緒。",
+                "alt": "新生成男孩賽後失落、旁邊健康白鵝與遠處孩子的情緒示意；不實畫鬥鵝傷害，背景孩子不作原文具體親屬身分或數量的史實證據。"
+              },
+              {
+                "heading": "② 小忿失控，做出傷害之事",
+                "text": "接著原文說他夜間把兄弟的鵝「悉殺之」。錯在逞怒傷害；原文沒有說殺害兄弟，也沒有交代具體殺鵝方式，不能自行補上。",
+                "alt": "新生成男孩在夜間閉門外握拳生氣，欄內不可見，沒有武器/死亡/傷口/殺鵝方法，不臆畫共同鵝欄布局或殺害兄弟。"
+              },
+              {
+                "heading": "③ 若要規勸，勸他忍住一時怒氣",
+                "text": "朋友最該勸的是：別因小怨怒而衝動毀事。D「忍小忿方可就大謀」正好扣住犯錯原因，不是教他下次如何贏得鬥鵝。",
+                "alt": "新生成假設朋友舉掌平和規勸、男孩傾聽的情境，對應題目的如果你是朋友；不宣稱原故事確實有人規勸或已改過。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：忍小忿方可就大謀",
+              "points": [
+                "甚以為忿：不能忍受競賽失利。",
+                "D勸忍怒，最直接處理行為的原因。",
+                "A雖能勸親族相惜，卻不如D扣住逞怒。",
+                "B勤奮、C勝敵，都不是本題規勸重點。"
+              ]
+            },
+            "protectedWords": [
+              "南郡",
+              "甚以為忿",
+              "悉殺之",
+              "規勸",
+              "失利",
+              "惱怒",
+              "情緒",
+              "小忿",
+              "逞怒",
+              "傷害",
+              "兄弟",
+              "鬥鵝",
+              "怨怒",
+              "衝動",
+              "忍小忿",
+              "方可就大謀",
+              "忍怒",
+              "競賽",
+              "親族",
+              "相惜",
+              "勤奮",
+              "勝敵"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-502-reading-source-65da296256.jpg",
+      "visibleHeader": "原卷世說新語忿狷篇桓南郡養鵝共鬥/忿殺鵝/家人變怪/車騎識破同篇。",
+      "questionNumbers": [],
+      "sha256": "65da2962564d65b2e1b3a0ad88d88e7d2247f43eb0cb6f4562d7138c66a275c6",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-502-source-4afd393f51.jpg",
+      "visibleHeader": "44鵝一夜盡死家人以變怪問缺哪能力，完整四選洞見癥結/未雨綢繆/反省改過/亡羊補牢。",
+      "questionNumbers": [
+        "44"
+      ],
+      "sha256": "4afd393f51ad4eab8865236c94ff9efaefe040659914b0bd7fa677fdbbbe0c9f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-503-source-f09345902d.jpg",
+      "visibleHeader": "45若是桓南郡朋友規勸四選，獨特人名與共文吻合，題號相接。",
+      "questionNumbers": [
+        "45"
+      ],
+      "sha256": "f09345902dbbf9dcf9fbd98f2f6a88cc4d50009de982ad203261cc3e06447ea9",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "完整故事與白=告訴註留一次，不增寫兄弟遭殺或後來改過等未有情節。",
+    "q503 D已使用者確認，不能回到舊原AI A或把原詩語義重開；44 A維持。",
+    "兩子獨立教學完整保留，不能只保留忿怒規勸而丟44判斷能力圖。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-502",
+      "q-503"
+    ],
+    "reviewedQuestionIds": [
+      "q-502",
+      "q-503"
+    ],
+    "confirmedQuestionIds": [
+      "q-502",
+      "q-503"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-502": "3172380a8f37fc4546de76564e9a4e4f37a8602a7b6418db7e3241b1189765a8",
+    "q-503": "a14a7d85f45d821151c834c4ae13e7eccab547f0b78c87216547e162f1b6bc81"
+  }
+}

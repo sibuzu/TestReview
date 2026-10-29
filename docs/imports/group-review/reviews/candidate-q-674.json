@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-674",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:46:09.355944+00:00",
+  "decision": "split",
+  "inventoryQuestionIds": [
+    "q-674",
+    "q-681",
+    "q-682",
+    "q-689"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-674",
+    "q-681",
+    "q-682",
+    "q-689"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-674-q-689",
+      "questionIds": [
+        "q-674",
+        "q-689"
+      ],
+      "retainId": "q-674",
+      "aliasIds": [
+        "q-689"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-674": "Chinese",
+        "q-689": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-042",
+        "src-gemini-more-043"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/ft1A3NfIdqI2",
+        "https://share.gemini.google/GU0TNUXFyN50"
+      ],
+      "printedRange": "原卷第25～26題",
+      "originalQuestionNumbers": {
+        "q-674": "25",
+        "q-689": "26"
+      },
+      "commonMaterial": {
+        "passage": "在2026年世界棒球經典賽（WBC）C組預賽的關鍵戰中，南韓隊以7：2擊敗澳洲隊。此役的主角為南韓重砲文保景，他單場貢獻3安打、4分打點，包括二局上的兩分砲，助隊一路領先。\n\n然而，賽後爭議聚焦於九局上，當時南韓以7：2領先，滿足了「領先5分以上且失分不超過2分」的晉級條件。在一、三壘有人的得分良機下，文保景卻站著不動，看著好球進壘遭三振，將比分定格在7：2。最終南韓順利拿下八強門票。\n\n此舉引發了臺灣球迷的強烈憤怒，原因在於臺灣隊的晉級命運與此戰比分掛鉤。若南韓得分達8分以上、澳洲得3分以上，臺灣才能靠失分率優勢晉級。文保景的「消極進攻」被部分球迷解讀為刻意「控分」以排除臺灣，導致其個人社群與維基百科遭到憤怒留言洗版。\n\n針對文保景的行為，各方評論不一。部分媒體與球迷認為南韓精於計算，選擇讓比分鎖在7：2以確保晉級，同時不讓第三方（臺灣）漁翁得利。也有專業分析指出，對南韓而言，7分與100分的意義相同，重點在於維持5分差。繼續進攻會拉長局數，導致準備多時的投手群「手感冷掉」，增加九局下被追分的風險，因此趕緊結束進攻是保護晉級機會的直觀選擇。也有聲音呼籲臺灣球迷保持理性，強調南韓並無義務幫臺灣打球。臺灣連續兩屆因首戰失利而處於被動，其晉級結果主要與自身表現有關，並非他國球員的戰術選擇所致。\n\n總結而言，文保景的舉動雖讓臺灣隊止步預賽，但也反映出國際賽中「掌握主動權」的重要性，以及多方互咬局勢下殘酷的晉級邏輯。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-674-source-5ec530c23f.jpg",
+          "visibleHeader": "source042原卷明印「二、題組(25～42題)」「請閱讀以下短文，並回答25～26題」；WBC完整五段及25四選，末題型與26續頁吻合。",
+          "questionNumbers": [
+            "25-26",
+            "25"
+          ],
+          "sha256": "5ec530c23f0fcd7534af780ff912831a772b90fcbcf49ce0c6f2baa82c684e73",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-689-reading-afde2495f5.jpg",
+          "visibleHeader": "source043同原卷同題頭25～26及WBC完全同文/畫線/版式，證實不同share仍同一張原卷。",
+          "questionNumbers": [
+            "25-26"
+          ],
+          "sha256": "afde2495f51aea5cd072670537c53a48c0b00bcbff979ff49d1e470f10038f58",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-689-source-0ee422f602.jpg",
+          "visibleHeader": "原印26根據本文問作者主要觀點，B掌握主動權等完整四選。",
+          "questionNumbers": [
+            "26"
+          ],
+          "sha256": "0ee422f602da17bb8f0c408f5c9a6edc5548eb950ceb0849da9dc0ebcea24537",
+          "visualChecked": true
+        }
+      ],
+      "reason": "原卷25/26跨source042/043但同題頭、同WBC五段、同版面已實看，構成原卷真組；681/682另是042同一次「25題的變形題」明確兩道延伸，不與原卷硬併，分兩組。",
+      "childCoverage": [
+        {
+          "questionId": "q-674",
+          "originalQuestionNumber": "25",
+          "sourceId": "src-gemini-more-042",
+          "date": "2026-09-09",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "a9dc5b91aa6db619c7e2843d8b9e96b1a405d9e175a126acce0d7ea2c958da23",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-674-source-5ec530c23f.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "綜合全場貢獻與最後一打席的爭議",
+            "art": "assets/comics/q-674-art-f4ea2e17a3-web.webp",
+            "panels": [
+              {
+                "heading": "① 前文已有具體貢獻",
+                "text": "文章先列文保景單場3安打、4打點，其中包括兩分全壘打。這些是判斷他對球隊勝利有貢獻的依據，不能因最後一打席就全部忽略。",
+                "alt": "無特定真人肖像的棒球打者擊球、隊友肯定貢獻，精確數據只用旁邊HTML文字。"
+              },
+              {
+                "heading": "② 有爭議，也仍有全場貢獻",
+                "text": "九局上的行為引發爭議，與他全場貢獻很大，兩件事可以同時成立。C把前後兩部分一起考慮，最符合本文，不必先猜他的內心動機。",
+                "alt": "同一概念打者在稍後打席站立持棒，沒有畫成惡意表情或作弊證據。"
+              },
+              {
+                "heading": "③ 條件和分析都不能少讀",
+                "text": "B只加南韓1分，仍未滿足文中澳洲也須得3分的條件。D說延長投手休息，但文中分析是避免等待太久，兩者方向相反。",
+                "alt": "師生共同核對無字文章資料，示意逐項比對條件與推論，沒有生成賽制公式。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：整合全場表現與末段爭議",
+              "points": [
+                "全場貢獻與最後一打席爭議，可以並存。",
+                "A把部分球迷解讀說成唯一目的，證據不足。",
+                "晉級條件依本文脈絡，不當成通用比分公式。"
+              ]
+            },
+            "protectedWords": [
+              "文保景",
+              "全壘打",
+              "打席",
+              "九局上",
+              "全場貢獻",
+              "內心動機",
+              "南韓",
+              "澳洲",
+              "唯一目的",
+              "3安打",
+              "4打點",
+              "單場",
+              "最後一打席",
+              "兩分全壘打",
+              "晉級條件"
+            ]
+          }
+        },
+        {
+          "questionId": "q-689",
+          "originalQuestionNumber": "26",
+          "sourceId": "src-gemini-more-043",
+          "date": "2026-09-09",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "9f0215bb266787ca7905f4356b32ab337eaa9fbcd393774b0b888b3336139452",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-689-reading-afde2495f5.jpg",
+            "assets/questions/q-689-source-0ee422f602.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "主旨要統整全文：把主動權握在自己手中",
+            "art": "assets/comics/q-689-art-34df7d52f5-web.webp",
+            "panels": [
+              {
+                "heading": "① 事件爭議是材料，不是主旨全貌",
+                "text": "文章先寫他隊比賽與球迷爭議。\n若只挑最有爭議的片段，\n就容易漏掉作者最後的提醒。",
+                "alt": "棒球迷觀看泛稱他隊比賽的情境，不虛構真實比分、惡意動機或網路攻擊"
+              },
+              {
+                "heading": "② 前文已轉回自身表現",
+                "text": "第四段提醒，臺灣處於被動，\n主要與自身表現有關。\n作者並非以球員抗壓不足作結論。",
+                "alt": "球員與教練合作練習的示意情境，對應提升自身實力，非本文歷史賽事重演"
+              },
+              {
+                "heading": "③ 最後收束：掌握主動權",
+                "text": "末段直接點出掌握主動權。\nB把加強實力與不依賴他隊連起來，\n最能統整全文，不只抓單一事件。",
+                "alt": "學生閱讀整篇文章並注意末段收束，文字由可校核HTML表達"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：加強實力，掌握主動權",
+              "points": [
+                "主旨要連起前文論述與最後收束。",
+                "A加了抗壓診斷；C把投手討論轉套到打者。",
+                "D只談控分解讀，未涵蓋作者對臺灣的提醒。"
+              ]
+            },
+            "protectedWords": [
+              "掌握主動權",
+              "加強實力",
+              "自身表現",
+              "投手",
+              "打者",
+              "控分解讀"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "groupType": "original_paper",
+      "sameOriginalPaper": true,
+      "displayQuestionOrder": [
+        "q-674",
+        "q-689"
+      ]
+    },
+    {
+      "groupKey": "group-q-681-q-682",
+      "questionIds": [
+        "q-681",
+        "q-682"
+      ],
+      "retainId": "q-681",
+      "aliasIds": [
+        "q-682"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-681": "Chinese",
+        "q-682": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-042"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/ft1A3NfIdqI2"
+      ],
+      "printedRange": "AI延伸1～2（非原卷題號）",
+      "originalQuestionNumbers": {
+        "q-681": "AI延伸1",
+        "q-682": "AI延伸2"
+      },
+      "commonMaterial": {
+        "passage": "在2026年世界棒球經典賽（WBC）C組預賽的關鍵戰中，南韓隊以7：2擊敗澳洲隊。此役的主角為南韓重砲文保景，他單場貢獻3安打、4分打點，包括二局上的兩分砲，助隊一路領先。\n\n然而，賽後爭議聚焦於九局上，當時南韓以7：2領先，滿足了「領先5分以上且失分不超過2分」的晉級條件。在一、三壘有人的得分良機下，文保景卻站著不動，看著好球進壘遭三振，將比分定格在7：2。最終南韓順利拿下八強門票。\n\n此舉引發了臺灣球迷的強烈憤怒，原因在於臺灣隊的晉級命運與此戰比分掛鉤。若南韓得分達8分以上、澳洲得3分以上，臺灣才能靠失分率優勢晉級。文保景的「消極進攻」被部分球迷解讀為刻意「控分」以排除臺灣，導致其個人社群與維基百科遭到憤怒留言洗版。\n\n針對文保景的行為，各方評論不一。部分媒體與球迷認為南韓精於計算，選擇讓比分鎖在7：2以確保晉級，同時不讓第三方（臺灣）漁翁得利。也有專業分析指出，對南韓而言，7分與100分的意義相同，重點在於維持5分差。繼續進攻會拉長局數，導致準備多時的投手群「手感冷掉」，增加九局下被追分的風險，因此趕緊結束進攻是保護晉級機會的直觀選擇。也有聲音呼籲臺灣球迷保持理性，強調南韓並無義務幫臺灣打球。臺灣連續兩屆因首戰失利而處於被動，其晉級結果主要與自身表現有關，並非他國球員的戰術選擇所致。\n\n總結而言，文保景的舉動雖讓臺灣隊止步預賽，但也反映出國際賽中「掌握主動權」的重要性，以及多方互咬局勢下殘酷的晉級邏輯。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-674-source-5ec530c23f.jpg",
+          "visibleHeader": "source042原卷明印「二、題組(25～42題)」「請閱讀以下短文，並回答25～26題」；WBC完整五段及25四選，末題型與26續頁吻合。",
+          "questionNumbers": [
+            "25-26",
+            "25"
+          ],
+          "sha256": "5ec530c23f0fcd7534af780ff912831a772b90fcbcf49ce0c6f2baa82c684e73",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-689-reading-afde2495f5.jpg",
+          "visibleHeader": "source043同原卷同題頭25～26及WBC完全同文/畫線/版式，證實不同share仍同一張原卷。",
+          "questionNumbers": [
+            "25-26"
+          ],
+          "sha256": "afde2495f51aea5cd072670537c53a48c0b00bcbff979ff49d1e470f10038f58",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-689-source-0ee422f602.jpg",
+          "visibleHeader": "原印26根據本文問作者主要觀點，B掌握主動權等完整四選。",
+          "questionNumbers": [
+            "26"
+          ],
+          "sha256": "0ee422f602da17bb8f0c408f5c9a6edc5548eb950ceb0849da9dc0ebcea24537",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一source042原對話一次回應明確設計兩道變形題，共用WBC文章，原AI兩道題幹/四選逐項符合正式681/682；獨立AI延伸組，並非紙上原25/26子題。",
+      "childCoverage": [
+        {
+          "questionId": "q-681",
+          "originalQuestionNumber": "AI延伸1",
+          "sourceId": "src-gemini-more-042",
+          "date": "2026-09-09",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "1e5b167629cac747b45e395cd27726b9f2b90a6a0e808f13f5d621b6a162445c",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "除了這一項，也必須有另一項",
+            "art": "assets/comics/q-681-art-83fd670c11-web.webp",
+            "panels": [
+              {
+                "heading": "① 先限定根據文章作答",
+                "text": "題目問最符合文意，不是請我們推測球員內心。先回到第三段，找本文列出的得分條件。",
+                "alt": "現代教室閱讀棒球文章，不重演比賽或冒充球員實際動機。"
+              },
+              {
+                "heading": "② 兩個條件都要保留",
+                "text": "第三段列南韓至少8分、澳洲至少3分。B把兩個條件都保留下來，沒有只看其中一隊。",
+                "alt": "兩張空白教學卡象徵兩項條件，實際隊名與條件只依旁邊文字。"
+              },
+              {
+                "heading": "③ 排除反說與自行補的原因",
+                "text": "A和文中南韓晉級的結局相反；C把等待風險反說成好處；D添了體能耗盡，本文沒有這個證據。",
+                "alt": "理性比對本文與評論，不描繪球員體力、意圖或球迷謾罵為已證實事實。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：兩隊的得分條件都要看",
+              "points": [
+                "除了、也必須，提醒兩項缺一不可。",
+                "依本文情境選答，不把比分抽成所有賽事通用公式。",
+                "戰術分析是分析，不等於已證明球員的內心動機。"
+              ]
+            },
+            "protectedWords": [
+              "南韓",
+              "澳洲",
+              "臺灣",
+              "文保景",
+              "根據文章",
+              "至少8分",
+              "至少3分"
+            ]
+          }
+        },
+        {
+          "questionId": "q-682",
+          "originalQuestionNumber": "AI延伸2",
+          "sourceId": "src-gemini-more-042",
+          "date": "2026-09-09",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "323e4bb64c2275d6de0824698ebe07926ca399a474cbe8ca1dd76efc1293f56a",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "分辨各方看法，不替球員斷定動機",
+            "art": "assets/comics/q-682-art-f4ea2e17a3-web.webp",
+            "panels": [
+              {
+                "heading": "① 表現資料，不等於道德判決",
+                "text": "文章先列打者全場貢獻，再提出末段爭議。B把行為歸為純粹道德瑕疵，是價值指責，不是文中所列的風險分析。",
+                "alt": "同材料打者全場擊球表現的概念情境，沿用q674已核對圖，非真人肖像，不以插畫判定品格。"
+              },
+              {
+                "heading": "② 末段爭議，不能直接推內心",
+                "text": "「控分排除臺灣」是部分媒體與球迷的解讀。A說完全為了阻斷臺灣，D把責任歸他隊，都超出文中專業分析的角度。",
+                "alt": "打者在末段打席站立持棒的概念情境，無惡意表情或作弊暗示；畫面不能證明內心動機。"
+              },
+              {
+                "heading": "③ C著眼自身晉級風險",
+                "text": "文中分析是在已達安全線時，盡快結束進攻，可能降低下半局防守變數。這是在辨認作者整理的觀點，不是證明球員收到相同指令。",
+                "alt": "師生比對文章資料與不同解讀，沿用q674核對圖；未生成賽制公式或投手生理因果。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：降低自身防守端變數",
+              "points": [
+                "C以自身晉級風險作解釋，對應文中分析。",
+                "A猜單一動機，B作道德指責，D歸責他隊。",
+                "本文的分析看法，不等於已證實的內心動機。"
+              ]
+            },
+            "protectedWords": [
+              "臺灣",
+              "專業分析",
+              "風險分析",
+              "道德瑕疵",
+              "控分排除臺灣",
+              "內心動機",
+              "自身晉級風險",
+              "防守變數",
+              "安全線",
+              "媒體",
+              "球迷"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "groupType": "ai_extension_group",
+      "sameOriginalPaper": false,
+      "sameSourceExtensionBatch": true,
+      "displayQuestionOrder": [
+        "q-681",
+        "q-682"
+      ],
+      "discussionEvidence": [
+        {
+          "path": "docs/sources/gemini-ft1A3NfIdqI2.json",
+          "sha256": "b90d50f758a23bd6794e6c892ec7346bd661206f0856b6053788c3d69a09dc44",
+          "textChecked": true,
+          "visibleHeader": "You said 25題的變形題；回應明說針對第25題「為您設計兩道不同維度的變形題目」，依次列變形題一(文本細節與條件推論)與變形題二(觀點歸納與多方立場辨析)。",
+          "textOffsets": {
+            "start": 6100,
+            "end": 7158
+          },
+          "questionMapping": {
+            "q-681": "變形題一全文/四選/答案B一致",
+            "q-682": "變形題二全文/四選/答案C一致"
+          }
+        }
+      ],
+      "originalEvidencePurpose": "原卷照片只核對共同文章來源，不表示延伸印在原卷上。"
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-674-source-5ec530c23f.jpg",
+      "visibleHeader": "source042原卷明印「二、題組(25～42題)」「請閱讀以下短文，並回答25～26題」；WBC完整五段及25四選，末題型與26續頁吻合。",
+      "questionNumbers": [
+        "25-26",
+        "25"
+      ],
+      "sha256": "5ec530c23f0fcd7534af780ff912831a772b90fcbcf49ce0c6f2baa82c684e73",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-689-reading-afde2495f5.jpg",
+      "visibleHeader": "source043同原卷同題頭25～26及WBC完全同文/畫線/版式，證實不同share仍同一張原卷。",
+      "questionNumbers": [
+        "25-26"
+      ],
+      "sha256": "afde2495f51aea5cd072670537c53a48c0b00bcbff979ff49d1e470f10038f58",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-689-source-0ee422f602.jpg",
+      "visibleHeader": "原印26根據本文問作者主要觀點，B掌握主動權等完整四選。",
+      "questionNumbers": [
+        "26"
+      ],
+      "sha256": "0ee422f602da17bb8f0c408f5c9a6edc5548eb950ceb0849da9dc0ebcea24537",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [
+    {
+      "questionIds": [
+        "q-674",
+        "q-681"
+      ],
+      "reason": "原卷題與另批AI延伸分開，不僅因同文硬合；各自有保留組，不刪題。"
+    },
+    {
+      "questionIds": [
+        "q-674",
+        "q-682"
+      ],
+      "reason": "原卷題與另批AI延伸分開，不僅因同文硬合；各自有保留組，不刪題。"
+    },
+    {
+      "questionIds": [
+        "q-689",
+        "q-681"
+      ],
+      "reason": "原卷題與另批AI延伸分開，不僅因同文硬合；各自有保留組，不刪題。"
+    },
+    {
+      "questionIds": [
+        "q-689",
+        "q-682"
+      ],
+      "reason": "原卷題與另批AI延伸分開，不僅因同文硬合；各自有保留組，不刪題。"
+    }
+  ],
+  "needsConfirmation": [],
+  "notes": [
+    "依root轉使用者口徑：原卷組與後製延伸批次分離；四子均保留，不因無印刷原題號而刪延伸。",
+    "現有WBC條件/動機推論之已核更正與各題C/B/B/C答案沿用最新正式資料，不重新採原AI規則錯解。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-674",
+      "q-681",
+      "q-682",
+      "q-689"
+    ],
+    "reviewedQuestionIds": [
+      "q-674",
+      "q-681",
+      "q-682",
+      "q-689"
+    ],
+    "confirmedQuestionIds": [
+      "q-674",
+      "q-681",
+      "q-682",
+      "q-689"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-674": "37ac71f11941ee5754737201b103ac0680d510c38cb85349556eedce350b620b",
+    "q-681": "bae19a7cbb9dea952a17db849fe1f45abb5f5151e798cb1b01e03c64b15016c8",
+    "q-682": "ddffc6e7fe2b8f8b94ab03ea536184f6f9786b6324702a00a9787ab6d9b50b53",
+    "q-689": "0ae8294aee7c11774346d3df5e49b107871b3b757cbcaafef25e7cbed4925d23"
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-537",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:40:00.066896+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-537",
+    "q-538",
+    "q-539"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-537",
+    "q-538",
+    "q-539"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-537-q-538-q-539",
+      "questionIds": [
+        "q-537",
+        "q-538",
+        "q-539"
+      ],
+      "retainId": "q-537",
+      "aliasIds": [
+        "q-538",
+        "q-539"
+      ],
+      "subject": "English",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "English",
+      "childSubjects": {
+        "q-537": "English",
+        "q-538": "English",
+        "q-539": "English"
+      },
+      "sourceIds": [
+        "src-gemini-more-022"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/niuTSqX6ssM7"
+      ],
+      "printedRange": "同一src-gemini-more-022原卷明示38-40，共用Tom/Sam海灘四段故事，38圖序、39詞義、40類比，是三個不同子題；與同來源30-32寵物海報/其他火車文是分立篇章，不能僅按URL全合。",
+      "originalQuestionNumbers": {
+        "q-537": "38",
+        "q-538": "39",
+        "q-539": "40"
+      },
+      "commonMaterial": {
+        "passage": "There is a 2-kilometer-long beach close to a beautiful blue sea. During summer, it is always full of people. The sun is shining and the sea water is warm. An ice cream seller, Tom, arrives. Where does he put his ice cream stand? Of course, he sets up the stand in the middle of the beach. This way, the visitors on the beach can easily walk to him. They don't have to walk more than 1 km to get his ice cream.\nLater, a second ice cream seller, Sam, arrives. Tom and Sam talk for a while, and they agree to divide the beach into two halves. They each put their ice cream stands in the middle of their half. The longest walk by any customers is less than 0.5 km.\nThen, Tom isn't happy he only has 50% of the business. He decides to go back to the middle of the beach. He puts his stand close to the middle of the beach again. So, Tom takes the lion's share of the beach and makes more money. Some of the customers in Sam's half can also buy from Tom conveniently.\nWhen Sam notices Tom's stand, he doesn't feel happy. He is making less money! So, he also moves to the middle of the beach and gets 50% of the market again. Tom and Sam end up next to each other. Both of them get half of the customers.\n\n【原卷字詞】divide（使）分開；customer 顧客；correctly 正確地；be related to 和……相關。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-537-reading-source-4e5503d424.jpg",
+          "visibleHeader": "原卷明印(38-40)，兩公里海灘Tom/Sam設攤與移攤四段、四字詞完整。",
+          "questionNumbers": [
+            "38-40"
+          ],
+          "sha256": "4e5503d42463cdacea1ceb1a459e6fba3b9c305201705aaddd5908b5ad2ffa78",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-537-source-b510c53f19.jpg",
+          "visibleHeader": "38問故事正確圖序，原a/b/c/d四攤位位置圖、公里標示/人名、A-D序列完整，保留原筆跡。",
+          "questionNumbers": [
+            "38"
+          ],
+          "sha256": "b510c53f19f53759beaad90eaa3f0d9b5602c6f9da06d0d53403e8145044496c",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-538-source-d96888ac28.jpg",
+          "visibleHeader": "39明問from the reading的takes the lion's share意義，四選完整。",
+          "questionNumbers": [
+            "39"
+          ],
+          "sha256": "d96888ac285c3eb0e2274d907ee8d0b8cc1d9fd3f3a6b0ef99ae6468ccb8b82f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-539-source-c6d6d4610d.jpg",
+          "visibleHeader": "40哪例related to the story四選，含漢堡店相鄰，比同篇設攤。",
+          "questionNumbers": [
+            "40"
+          ],
+          "sha256": "c6d6d4610d73aaa8e428db6ab49e123aa25e7d56fd03d423bd982eda7cc0503e",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-022原卷明示38-40，共用Tom/Sam海灘四段故事，38圖序、39詞義、40類比，是三個不同子題；與同來源30-32寵物海報/其他火車文是分立篇章，不能僅按URL全合。",
+      "childCoverage": [
+        {
+          "questionId": "q-537",
+          "originalQuestionNumber": "38",
+          "sourceId": "src-gemini-more-022",
+          "date": "2026-08-30",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "c088fdc26f9872c256952e3de175fbb95d85f7f7461f33f828f92bdc2be7a1cd",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-537-reading-source-4e5503d424.jpg",
+            "assets/questions/q-537-source-b510c53f19.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-537-option-a-1f4fdc909d.jpg",
+              "alt": "第38題原卷位置圖(a)",
+              "caption": "原卷圖 (a)；原手寫記號不作條件"
+            },
+            {
+              "src": "assets/questions/q-537-option-b-f978969c94.jpg",
+              "alt": "第38題原卷位置圖(b)",
+              "caption": "原卷圖 (b)；原手寫記號不作條件"
+            },
+            {
+              "src": "assets/questions/q-537-option-c-20202437ee.jpg",
+              "alt": "第38題原卷位置圖(c)",
+              "caption": "原卷圖 (c)；原手寫記號不作條件"
+            },
+            {
+              "src": "assets/questions/q-537-option-d-79a35ecedc.jpg",
+              "alt": "第38題原卷位置圖(d)",
+              "caption": "原卷圖 (d)；原手寫記號不作條件"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "各半中央之後，Tom先移，Sam才跟上",
+            "art": "assets/comics/q-537-art-c71dc60d68.svg",
+            "panels": [
+              {
+                "heading": "① (a)：先只有Tom，在整條海灘中央",
+                "text": "故事先說Tom一人來到2公里海灘，把攤位設在中央，兩側各1公里。先找只有一個攤位的(a)，不能一開始就放兩人相鄰的結局。",
+                "alt": "長2公里位置線的中央1公里處只有Tom，左右各1公里，未加入Sam或虛構顧客密度。"
+              },
+              {
+                "heading": "② (c)：Sam加入，各在自己一半的中央",
+                "text": "兩人先商量把海灘分兩半，再各自站到那一半的中央。攤位位置是0.5與1.5公里，中間隔1公里，對應(c)，不是已經靠在一起。",
+                "alt": "同一比例位置線上Tom在0.5公里、Sam在1.5公里，中央虛線分兩半，兩端到攤位各0.5公里，中間1公里。"
+              },
+              {
+                "heading": "③ (d)先Tom移，(b)才兩人相鄰",
+                "text": "接著Tom先靠近海灘中央，Sam還沒移，是(d)。Sam發現生意變少後才跟上，最後兩攤相鄰，才是(b)。要保留誰先移、誰後移的先後。",
+                "alt": "上方(d)用中央位置示意Tom先移、Sam仍在原半中央；下方(b)兩人標籤連到同一中央標點，表示最後相鄰，不虛構精確攤位寬度或間距。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：(a)→(c)→(d)→(b)",
+              "points": [
+                "一人中央，再兩人各半中央。",
+                "Tom先靠中央，Sam之後才跟著移。",
+                "兩攤相鄰是最後結果，不是第二步。"
+              ]
+            },
+            "protectedWords": [
+              "Tom",
+              "Sam",
+              "0.5公里",
+              "1.5公里",
+              "各半中央",
+              "圖序",
+              "相鄰",
+              "(a)",
+              "(c)",
+              "(d)",
+              "(b)"
+            ]
+          }
+        },
+        {
+          "questionId": "q-538",
+          "originalQuestionNumber": "39",
+          "sourceId": "src-gemini-more-022",
+          "date": "2026-08-30",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "2ce338c0645f324ad26d10fa28719ee32d382c3f77860c3cd15289e05b7698c0",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-538-reading-source-4e5503d424.jpg",
+            "assets/questions/q-538-source-d96888ac28.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "the lion's share：拿到最大的一份",
+            "art": "assets/comics/q-538-art-a9a8039d8f.svg",
+            "panels": [
+              {
+                "heading": "① Tom原來分50%，卻想得到更多",
+                "text": "兩人原本各分一半生意，Tom卻不滿足自己的50%，把攤位搬回接近海灘中央。先抓住這個前因，就知道接下來的share是在說生意的份額。",
+                "alt": "原文明列Tom與Sam各50%生意，用同寬色塊精確呈現原先一半；不是移位後的比例。"
+              },
+              {
+                "heading": "② 移位後，Sam那側部分客人也能找Tom",
+                "text": "文章接著說，Sam那一半的部分顧客也能方便向Tom買冰淇淋，因此Tom的生意份額變大、賺更多。這些後文幫助解釋takes the lion's share，不只是看到lion就照字面翻譯。",
+                "alt": "原有客源和Sam側部分顧客兩來源箭頭指向Tom，表示文中吸引更多生意，不畫精確人數、比例或未提供的攤位座標。"
+              },
+              {
+                "heading": "③ share在這裡是名詞份額",
+                "text": "the lion's share指最大、主要的一份，最符合C。B說喜歡分享，混淆share的另一種用法；D只說努力多賺錢，沒有表達分到最大份額的核心意思。",
+                "alt": "片語the lion's share下以大份額與其餘作定性示意，明示非本文精確比例，避免把未提供百分比寫成事實。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：拿到最大、主要的一份",
+              "points": [
+                "前因：Tom不滿足原先一半生意。",
+                "後果：移位後吸引另一側部分客人，份額變大。",
+                "share在此是份額，不是樂於分享。"
+              ]
+            },
+            "protectedWords": [
+              "Tom",
+              "Sam",
+              "50%",
+              "share",
+              "the lion's share",
+              "takes",
+              "lion"
+            ]
+          }
+        },
+        {
+          "questionId": "q-539",
+          "originalQuestionNumber": "40",
+          "sourceId": "src-gemini-more-022",
+          "date": "2026-08-30",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "5379b9ae0a924864b1c77ab817228d8192b85c05ece3b95abe39ec31d54741b3",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-539-reading-source-4e5503d424.jpg",
+            "assets/questions/q-539-source-c6d6d4610d.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "類比看關係：同類商家相鄰爭取顧客",
+            "art": "assets/comics/q-539-art-8899b99d5a-web.webp",
+            "panels": [
+              {
+                "heading": "① 故事結局：兩個冰淇淋攤靠在一起",
+                "text": "Tom與Sam為了爭取同一片海灘的顧客，先後調整攤位位置，最後相鄰。這題要找相似的商家關係，不只是找同樣提到地點的句子。",
+                "alt": "兩個不同冰淇淋攤相鄰的虛構場景，只示意同類商家關係，不重建Tom與Sam性別外貌、海灘精確距離或顧客比例。"
+              },
+              {
+                "heading": "② C：同一條街的漢堡店，相鄰吸引顧客",
+                "text": "C同時具備同類商品、相鄰位置，以及爭取更多顧客三個線索。漢堡店與故事中的冰淇淋攤不同，但這組關係相似，因此選C。",
+                "alt": "同一街段兩間彼此相鄰的不同漢堡店，分開入口與漢堡圖案，無真實品牌、折扣或保證收益圖示，僅作閱讀類比。"
+              },
+              {
+                "heading": "③ B也說靠近，卻不是相同的關係",
+                "text": "工廠靠近機場，是不同類型設施之間的位置關係，沒有表達同類商家相鄰爭客。A只說超市變多，D只說大減價，都少了本題的設點競爭。",
+                "alt": "工廠與遠方機場在同一示意場景，表示不同設施靠近；非真實地理、精確距離或運輸成效證明，不把它誤標同業競爭。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：漢堡店相鄰以吸引顧客",
+              "points": [
+                "抓共同關係，不要求商品完全相同。",
+                "同類商家＋相鄰＋爭取顧客，C最貼近。",
+                "這是本文類比，不是所有店家都一定聚在中央。"
+              ]
+            },
+            "protectedWords": [
+              "Tom",
+              "Sam",
+              "相鄰",
+              "競爭者",
+              "漢堡店",
+              "顧客",
+              "工廠",
+              "機場",
+              "類比",
+              "設點競爭"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-537-reading-source-4e5503d424.jpg",
+      "visibleHeader": "原卷明印(38-40)，兩公里海灘Tom/Sam設攤與移攤四段、四字詞完整。",
+      "questionNumbers": [
+        "38-40"
+      ],
+      "sha256": "4e5503d42463cdacea1ceb1a459e6fba3b9c305201705aaddd5908b5ad2ffa78",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-537-source-b510c53f19.jpg",
+      "visibleHeader": "38問故事正確圖序，原a/b/c/d四攤位位置圖、公里標示/人名、A-D序列完整，保留原筆跡。",
+      "questionNumbers": [
+        "38"
+      ],
+      "sha256": "b510c53f19f53759beaad90eaa3f0d9b5602c6f9da06d0d53403e8145044496c",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-538-source-d96888ac28.jpg",
+      "visibleHeader": "39明問from the reading的takes the lion's share意義，四選完整。",
+      "questionNumbers": [
+        "39"
+      ],
+      "sha256": "d96888ac285c3eb0e2274d907ee8d0b8cc1d9fd3f3a6b0ef99ae6468ccb8b82f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-539-source-c6d6d4610d.jpg",
+      "visibleHeader": "40哪例related to the story四選，含漢堡店相鄰，比同篇設攤。",
+      "questionNumbers": [
+        "40"
+      ],
+      "sha256": "c6d6d4610d73aaa8e428db6ab49e123aa25e7d56fd03d423bd982eda7cc0503e",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "共同全文與原字詞完整一次，38四張a-d必要圖與全序列選項仍留子題38；不把位置圖省成文字答案。",
+    "保留各自B/C/C與三份完整教學，材料原km數字/百分比依原題，不重作敘事或填更多假設。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-537",
+      "q-538",
+      "q-539"
+    ],
+    "reviewedQuestionIds": [
+      "q-537",
+      "q-538",
+      "q-539"
+    ],
+    "confirmedQuestionIds": [
+      "q-537",
+      "q-538",
+      "q-539"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-537": "d120207f056cd33026413a977f20108cde407c9bf264878725aa091c58f4df04",
+    "q-538": "b49c8523e835fd91375f3aba966d91a4cf60352d9c5515c0f96b83d3e0b29e5c",
+    "q-539": "32a3f34d2846a9e0d8e1f69e0dba75b46baceb0fa3167f755e6d96bdc169cdb0"
+  }
+}

@@ -2,16 +2,21 @@
   "mode": "two_production_integration_root_dispatch",
   "workerLimit": 1,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T12:20:55.133909+00:00",
+  "updatedAt": "2026-10-29T13:05:03.048990+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "等待下一批整合",
-      "state": "preparing",
-      "startedAt": "2026-10-29T11:23:12.951252+00:00",
+      "title": "移除81道來源AI延伸練習：題庫／原卷保留與技術QA",
+      "state": "integrating",
+      "startedAt": "2026-10-29T13:00:51.736695+00:00",
       "agent": "/root/comic_lane_1",
-      "role": "integration"
+      "role": "integration",
+      "activeTask": {
+        "state": "integrating",
+        "title": "移除81道來源AI延伸練習：題庫／原卷保留與技術QA",
+        "startedAt": "2026-10-29T13:00:51.736695+00:00"
+      }
     },
     {
       "lane": 2,
@@ -33,36 +38,25 @@
     },
     {
       "lane": 3,
-      "questionId": "q-001",
-      "title": "張釋之：依法斷案與人物判讀",
-      "state": "running",
-      "startedAt": "2026-10-29T12:17:37.179134+00:00",
+      "questionId": null,
+      "title": "題組候選共同材料與同源原卷核對，全部核完才合稿",
+      "state": "reviewing",
+      "startedAt": "2026-10-29T12:29:23.522299+00:00",
       "agent": "/root/comic_lane_3",
-      "role": "production"
+      "role": "group_review",
+      "claimsPaused": true,
+      "pauseReason": "可處理插畫已收尾，依使用者指定轉題組候選核對",
+      "activeTask": {
+        "title": "題組候選共同材料與同源原卷核對，全部核完才合稿",
+        "state": "reviewing",
+        "startedAt": "2026-10-29T12:29:23.522299+00:00",
+        "evidenceDirectory": "docs/imports/group-review/"
+      }
     }
   ],
   "ready": [],
-  "integrated": 764,
-  "blocked": [
-    {
-      "id": "q-027",
-      "title": "秋天的況味第4題｜季節雅稱",
-      "subject": "Chinese",
-      "lane": 3,
-      "state": "blocked",
-      "startedAt": "2026-10-29T12:02:46.422697+00:00",
-      "jobId": "job-3236eaf028ef4f5aa22a91fbd255b9b4",
-      "readyAt": "2026-10-29T12:17:37.136027+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "A初秋對孟秋不變，原引用句蕭瑟前省漏兩字，回取高解析原字待核",
-      "evidence": [
-        "docs/comics/q-027.json",
-        "docs/comics/q-027-preview-validation.json",
-        "docs/comics/q-027-original-ocr-review.json",
-        "docs/comics/q-027-original-retry.json"
-      ]
-    }
-  ],
+  "integrated": 766,
+  "blocked": [],
   "waiting": [],
   "integrating": [],
   "held": [],

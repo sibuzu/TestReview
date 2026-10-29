@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-395",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:29:43.668241+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-395",
+    "q-396",
+    "q-397"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-395",
+    "q-396",
+    "q-397"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-395-q-396-q-397",
+      "questionIds": [
+        "q-395",
+        "q-396",
+        "q-397"
+      ],
+      "retainId": "q-395",
+      "aliasIds": [
+        "q-396",
+        "q-397"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-395": "Chinese",
+        "q-396": "Chinese",
+        "q-397": "Chinese"
+      },
+      "sourceIds": [
+        "src-more-010"
+      ],
+      "sourceURLs": [
+        "https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a"
+      ],
+      "printedRange": "同一src-more-010原卷閱讀(一)後連28/29/30，28讀防毒面具段、29讀罐頭段、30概括首句兩面；共用同篇完整文章而不是僅同戰爭主題。",
+      "originalQuestionNumbers": {
+        "q-395": "28",
+        "q-396": "29",
+        "q-397": "30"
+      },
+      "commonMaterial": {
+        "passage": "戰爭為人類帶來災難，但有時也會促進科學發展。\n1915年，德軍在比利時與英法聯軍的一次戰爭中首先使用了毒氣，五千多名英法士兵中毒死亡，毒氣區的家禽、動物，唯有豬倖存了下來。這引起人們的注意。\n經過觀察，發現每當毒氣來襲時，豬就拼命用嘴拱土，然後將口鼻埋在鬆軟泥土裡。毒氣含毒成分被土壤顆粒吸附，豬吸到的空氣已是經過濾後淨化的氣體。專家依據這個啟示，製成了外型酷似豬鼻的防毒面具。經多次改良，已被廣泛應用到各個領域。\n在拿破崙對外征戰中，因法軍戰線太長，為了讓食物能長期貯存，拿破崙懸賞一萬二千法郎徵求解決辦法，最後，馬賽的食品專家想出將食品高溫煮熟、殺菌裝入瓶內，然後密封瓶口的辦法，後來逐漸改良成現在所見的罐頭。\n（節錄自張壯年、張穎震《世界歷史祕聞軼事》）",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-395-reading-5ccda4cd21.jpg",
+          "visibleHeader": "同原卷閱讀(一)戰爭/防毒面具/罐頭三段，完整出處世界歷史祕聞軼事，末框下接28。",
+          "questionNumbers": [
+            "28(head/context)"
+          ],
+          "sha256": "5ccda4cd218cfc1cc2d596aa7f20f52c1519eaae561f6a5c2fbfc383cbeab32f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-395-source-84f48b92b4.jpg",
+          "visibleHeader": "28「根據本文」防毒面具四選，上緣接共同框底。",
+          "questionNumbers": [
+            "28"
+          ],
+          "sha256": "84f48b92b437d785aa584a98b66b9fd925027aa0882fd4b6f6dc8e4c10ca9737",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-396-source-3d258f20ad.jpg",
+          "visibleHeader": "29「根據本文」罐頭目的四選，詞語呼應共同文末段。",
+          "questionNumbers": [
+            "29"
+          ],
+          "sha256": "3d258f20adc07c06e3d4648efacec836fc39c78a2eebc5f5b826a481b46cb587",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-397-source-c0f9414c94.jpg",
+          "visibleHeader": "30概括本文內容四選，與共同開頭戰爭災難但促科技的兩面相合。",
+          "questionNumbers": [
+            "30"
+          ],
+          "sha256": "c0f9414c946ee4f6757e2d1215fee35077c8812680238fcefcf95bf043df8894",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-more-010原卷閱讀(一)後連28/29/30，28讀防毒面具段、29讀罐頭段、30概括首句兩面；共用同篇完整文章而不是僅同戰爭主題。",
+      "childCoverage": [
+        {
+          "questionId": "q-395",
+          "originalQuestionNumber": "28",
+          "sourceId": "src-more-010",
+          "date": "2026-08-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "13c11dbbc2399b153c2b89992ece79af8c7b906fb1930b1a5bdd98a5dc2d7184",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-395-reading-5ccda4cd21.jpg",
+            "assets/questions/q-395-source-84f48b92b4.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "逐項比對：誰做什麼、外型、材質、用途",
+            "art": "assets/comics/q-395-art-28244468f0.svg",
+            "panels": [
+              {
+                "heading": "① A、B先查主體行為與物質狀態",
+                "text": "原文說德軍使用毒氣，A卻改成德國發明防毒面具，使用者不等於發明者；B又把毒氣改成固態毒素，改動了物質狀態。兩項都沒有忠實保留原文資訊。",
+                "alt": "原生原文/選項雙列核對卡，A使用對發明、B毒氣對固態，無戰爭毒氣實驗或製造裝置。"
+              },
+              {
+                "heading": "② C把像什麼，偷換成用什麼做",
+                "text": "「外型酷似豬鼻」只在說外觀相像，並沒有說面具用豬皮製成。外型與材質是兩種不同資訊，不能因為長得像，就自行補上製作材料。",
+                "alt": "新原生外型酷似豬鼻與材質豬皮兩分類卡中間不等號，避免新畫剝皮或把外型比喻當材質證據。"
+              },
+              {
+                "heading": "③ D的不限戰場，有明確句子支持",
+                "text": "末句說面具「已被廣泛應用到各個領域」，可以直接推出用途不限於戰場，故D正確。本題是根據材料比對敘述，重點在有沒有原文支持。",
+                "alt": "原文廣泛各領域到D不限戰場的推論圖，不加原文未列的特定場所/用途或濾毒安全保證。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案：D，防毒面具已不限在戰場使用",
+              "points": [
+                "A換了行為：使用毒氣，不等於發明面具。",
+                "B換了狀態；C換了資訊類別：外型不是材質。",
+                "D有末句廣泛應用到各個領域直接支持。"
+              ]
+            },
+            "protectedWords": [
+              "防毒面具",
+              "物質狀態",
+              "固態毒素",
+              "發明者",
+              "使用者",
+              "外型",
+              "材質",
+              "酷似豬鼻",
+              "廣泛應用",
+              "各個領域",
+              "不限於戰場"
+            ]
+          }
+        },
+        {
+          "questionId": "q-396",
+          "originalQuestionNumber": "29",
+          "sourceId": "src-more-010",
+          "date": "2026-08-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "4c5c17064e4238256c361b339b46224165417cdbdaf47c460b440992c8c1a1e7",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-396-reading-5ccda4cd21.jpg",
+            "assets/questions/q-396-source-3d258f20ad.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "抓住為了：長期貯存才是直接目的",
+            "art": "assets/comics/q-396-art-6ee620af4b-web.webp",
+            "panels": [
+              {
+                "heading": "① 問題是戰線長，保存不易",
+                "text": "文章交代法軍戰線太長，食物保存成了問題。讀到為了，就要留意後面接的目的；本段直接寫讓食物能長期貯存。",
+                "alt": "新製虛構早期歐洲補給車隊與長路情境，僅呼應文章法軍補給背景，非拿破崙肖像或真實戰役場景，無戰鬥傷亡。"
+              },
+              {
+                "heading": "② 裝瓶密封，回應保存需求",
+                "text": "文章接著敘述食品處理後裝入瓶內，再密封瓶口的做法。這個方法在文中回應前面的保存問題，並不是在強調口味變得更好。",
+                "alt": "新製舊式玻璃食品瓶與密封瓶塞、背景烹煮場景，不畫操作參數或食譜，不把現代拉環罐放到文中早期裝瓶階段。"
+              },
+              {
+                "heading": "③ 後來的罐頭，也扣住這個目的",
+                "text": "文中說這個做法後來逐漸改良成罐頭。問根據本文，就要回到保存需求選C；A的名利與D的貧苦人民生活，都不是這段寫的直接目的。",
+                "alt": "新製較後時代現代食品罐整齊貯存的示意，與前格早期裝瓶區分；無味覺盛宴、財富獎賞或原文未提的社會救濟情節。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：讓食物能長期貯存",
+              "points": [
+                "法軍戰線長，提出食物保存需求。",
+                "為了後面接的目的，是最直接文字證據。",
+                "依本文作答，分清目的、做法與後續發展。"
+              ]
+            },
+            "protectedWords": [
+              "罐頭",
+              "為了",
+              "長期貯存",
+              "直接目的",
+              "保存需求",
+              "保存問題",
+              "法軍",
+              "戰線",
+              "補給",
+              "食品",
+              "裝瓶",
+              "瓶內",
+              "密封",
+              "瓶口",
+              "口味",
+              "名利",
+              "貧苦人民",
+              "根據本文",
+              "後續發展",
+              "文字證據"
+            ]
+          }
+        },
+        {
+          "questionId": "q-397",
+          "originalQuestionNumber": "30",
+          "sourceId": "src-more-010",
+          "date": "2026-08-26",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "567875a9463c56883da4c76063c33816c6d5de170bf5745962601dbd70239e2f",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-397-reading-5ccda4cd21.jpg",
+            "assets/questions/q-397-source-c0f9414c94.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "同一事物的正反兩面：水能載舟，亦能覆舟",
+            "art": "assets/comics/q-397-art-f4e313d2f6-web.webp",
+            "panels": [
+              {
+                "heading": "① 水能載舟：先看到助益的一面",
+                "text": "A先說水可以承載船隻，帶來助益。這是在把事物的作用分成兩面來看；但只讀到載舟，還不夠，還要接著讀後半句。",
+                "alt": "全新平靜河面空木舟正常浮起，作A前半水能載舟的比喻圖，非新增原文事件。"
+              },
+              {
+                "heading": "② 亦能覆舟：同一事物也可能有害",
+                "text": "後半說水也能使船翻覆。前後都是水，作用卻可能相反，構成正反對照。A重在這種兩面關係，不是在說本文真的討論了船或水溫。",
+                "alt": "同款空木舟在風浪中翻覆，無人落水/傷亡，清楚正反作用而不是船僅換方向。"
+              },
+              {
+                "heading": "③ 回扣總說：災難，但有時促進科學",
+                "text": "本文首句說戰爭帶來災難，但有時也促進科學發展，後以防毒面具與食物保存作例子。A能概括這個正反關係；D只談先準備好工具，漏掉了文章的另一面。",
+                "alt": "全新防毒面具/保存瓶/罐頭靜物代表原文兩例，僅象徵物而非實際歷史/防護機制；已修正初稿布口罩為可辨全罩面具。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案：A，水能載舟，亦能覆舟",
+              "points": [
+                "概括全文先抓首句總說，再看例子如何支持。",
+                "B談親身感受；C談福禍接連，與本文重點不同。",
+                "D只抓工具，A才保留同一事物的正反作用。"
+              ]
+            },
+            "protectedWords": [
+              "水能載舟",
+              "亦能覆舟",
+              "正反對照",
+              "正反關係",
+              "防毒面具",
+              "食物保存",
+              "親身感受",
+              "福禍接連",
+              "科學發展"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-395-reading-5ccda4cd21.jpg",
+      "visibleHeader": "同原卷閱讀(一)戰爭/防毒面具/罐頭三段，完整出處世界歷史祕聞軼事，末框下接28。",
+      "questionNumbers": [
+        "28(head/context)"
+      ],
+      "sha256": "5ccda4cd218cfc1cc2d596aa7f20f52c1519eaae561f6a5c2fbfc383cbeab32f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-395-source-84f48b92b4.jpg",
+      "visibleHeader": "28「根據本文」防毒面具四選，上緣接共同框底。",
+      "questionNumbers": [
+        "28"
+      ],
+      "sha256": "84f48b92b437d785aa584a98b66b9fd925027aa0882fd4b6f6dc8e4c10ca9737",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-396-source-3d258f20ad.jpg",
+      "visibleHeader": "29「根據本文」罐頭目的四選，詞語呼應共同文末段。",
+      "questionNumbers": [
+        "29"
+      ],
+      "sha256": "3d258f20adc07c06e3d4648efacec836fc39c78a2eebc5f5b826a481b46cb587",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-397-source-c0f9414c94.jpg",
+      "visibleHeader": "30概括本文內容四選，與共同開頭戰爭災難但促科技的兩面相合。",
+      "questionNumbers": [
+        "30"
+      ],
+      "sha256": "c0f9414c946ee4f6757e2d1215fee35077c8812680238fcefcf95bf043df8894",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "三段原文與書名出處完整一次，不因28只問面具就截掉罐頭段，30要全文兩面。",
+    "D/C/A分題答案及全部子教學保留；本輪不重寫閱讀原材料為現實史實/操作方法。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-395",
+      "q-396",
+      "q-397"
+    ],
+    "reviewedQuestionIds": [
+      "q-395",
+      "q-396",
+      "q-397"
+    ],
+    "confirmedQuestionIds": [
+      "q-395",
+      "q-396",
+      "q-397"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-395": "287289401872afb9600c0b0c0545b4394962e8cb81b2c4e156e26dfcae4f8bd8",
+    "q-396": "11b0a388dbecf28553bee89687a4c5b41b70e852624e3afaff1e7dd0fbc9ad14",
+    "q-397": "0e506c5dc9becb457e8285fe2d61a3318446546e66dc3c04ce759952234c39f7"
+  }
+}

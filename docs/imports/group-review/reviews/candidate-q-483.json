@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-483",
+  "reviewerAgent": "/root/comic_lane_3",
+  "reviewedAt": "2026-10-29T12:32:36.430267+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-483",
+    "q-484",
+    "q-485"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-483",
+    "q-484",
+    "q-485"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-483-q-484-q-485",
+      "questionIds": [
+        "q-483",
+        "q-484",
+        "q-485"
+      ],
+      "retainId": "q-483",
+      "aliasIds": [
+        "q-484",
+        "q-485"
+      ],
+      "subject": "English",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "English",
+      "childSubjects": {
+        "q-483": "English",
+        "q-484": "English",
+        "q-485": "English"
+      },
+      "sourceIds": [
+        "src-gemini-more-013"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/W2hFrwI5cSIf"
+      ],
+      "printedRange": "同一src-gemini-more-013原卷第183頁Taiwan Sensibility對話後連列36至38題，37/38均明回指此對話，確為三個不同問法的真題組。",
+      "originalQuestionNumbers": {
+        "q-483": "36",
+        "q-484": "37",
+        "q-485": "38"
+      },
+      "commonMaterial": {
+        "passage": "【Taiwan Sensibility】\nCheez: Ever since I came to Taiwan, I started to love something special here. It touched my heart again and again. It’s hard to name, but it really resonates with me.\nYu-shin: I guess you mean Taiwan Sensibility.\nCheez: People here help others in simple ways. Yesterday, a stranger saw me looking worried at the bus stop. She didn’t just point the way — she stayed with me until the bus came.\nYu-shin: That sounds like people here. We like to make sure others feel safe.\nCheez: I can feel that. In my country, people are kind too, but sometimes we don’t show it so openly. In Taiwan, the care is right in front of you. It’s simple but strong.\nYu-shin: Many people here grew up watching neighbors help each other. Maybe that shapes our Taiwan Sensibility today. Also, small things carry memories to us. A small temple, a simple bowl of rice, the sound of scooters, a quiet street in the morning. All those things bring us joy.\nCheez: I went to a night market last night. I heard families talking and laughing. It made me miss home, but I didn’t feel lonely.\nYu-shin: I’m really glad you feel safe here.\nCheez: I do. Taiwan Sensibility makes me think more about my way of treating others. I want to be warmer, too.\nYu-shin: Then Taiwan is already part of you.\nCheez: Yes. This place will always feel like home to me.\n\n【原題字詞註釋】memory：記憶。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/originals/gemini-W2hFrwI5cSIf-1.jpg",
+          "visibleHeader": "完整第183頁只有Taiwan Sensibility一篇對話，緊接36/37/38三題；37明After this talk，38明writer of the talk，均回指共同對話。",
+          "questionNumbers": [
+            "36",
+            "37",
+            "38"
+          ],
+          "sha256": "a184431a2626e2a561f4df7e47405c8abe71d471022c296c3bb34be1cf51da04",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-483-reading-source-e4fa4e2f98.jpg",
+          "visibleHeader": "Cheez/Yu-shin全對話從抵臺至feel like home，字詞memory亦保留。",
+          "questionNumbers": [
+            "36-38(article)"
+          ],
+          "sha256": "e4fa4e2f986e8a86c36db488a4acf262d868a850b8c2bf0255a56a1739f1ad76",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-483-source-5a2764f479.jpg",
+          "visibleHeader": "36 resonate同義字Feel/Follow/Love/Move四項。",
+          "questionNumbers": [
+            "36"
+          ],
+          "sha256": "5a2764f4790f5aade8fa66aea6b28e56645ff159eab9db885ef1e7a0730701e8",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-484-source-540b266f8f.jpg",
+          "visibleHeader": "37人情味解釋四個完整句子選項。",
+          "questionNumbers": [
+            "37"
+          ],
+          "sha256": "540b266f8fcbe1acc6cdd546dabad5da05705f094296188f3fde62f0f595dfbb",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-485-source-949074c4fd.jpg",
+          "visibleHeader": "38明回指writer of the talk，A傳統服飾/B巷弄/C漁船/D101四照片完整。",
+          "questionNumbers": [
+            "38"
+          ],
+          "sha256": "949074c4fdcf80789eaaaf6be106b7c92ff6987a377d538e77bd2743651ce83e",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-485-figure-4746180a03.jpg",
+          "visibleHeader": "q485必要原圖四個照片選項，不能只留下圖A到D文字代號。",
+          "questionNumbers": [
+            "38(figure)"
+          ],
+          "sha256": "4746180a0323612c0f0bc9b9f7829c899addcde73fd374c449c7a0ab07f6cf17",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-013原卷第183頁Taiwan Sensibility對話後連列36至38題，37/38均明回指此對話，確為三個不同問法的真題組。",
+      "childCoverage": [
+        {
+          "questionId": "q-483",
+          "originalQuestionNumber": "36",
+          "sourceId": "src-gemini-more-013",
+          "date": "2026-08-14",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "022c988d8f1453986f071f54fbdbbf14614fd87ff9f77800bace6d211d3f2fef",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-483-reading-source-e4fa4e2f98.jpg",
+            "assets/questions/q-483-source-5a2764f479.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "touched my heart提示情感，move不只表示移動",
+            "art": "assets/comics/q-483-art-84ff210cf4-web.webp",
+            "panels": [
+              {
+                "heading": "① 先讀前句touched my heart",
+                "text": "Cheez先說那種特別的感受一次次觸動他的心，接著才用resonates with me。因此這裡的resonate是情感上的共鳴，不是在講聲音或物理振動。",
+                "alt": "陌生人在公車站陪伴並協助旅客的善意情境，對應文中感到受照顧的經驗；不新增可辨識地標或特定國籍對照。"
+              },
+              {
+                "heading": "② move也能表示打動、使人感動",
+                "text": "move除了移動，也能表示使人感動。夜市的家庭談笑讓Cheez想家卻不孤單，這類觸動心情的語境，與前句touched my heart呼應，D最貼近。",
+                "alt": "旅客看夜市家庭溫暖交談，神情帶懷念與歸屬；只示意原文情感，不畫心臟被觸碰或宣稱每個臺灣人行為相同。"
+              },
+              {
+                "heading": "③ 意思相近，搭配不必照字硬換",
+                "text": "resonates with me可用moves me表達相近意思，with不必照搬。feel是感受、follow是跟隨、love是喜愛；此處最要表達的是事情打動了人。",
+                "alt": "現代讀者核對文章與字義的學習情境，非原文另有教室事件；精確resonates with me與moves me用HTML呈現，不讓生成圖拼寫。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：Move.",
+              "points": [
+                "前句touched my heart是直接情感線索。",
+                "move可表示打動，不只表示移動。",
+                "以情境比較字義，並留意resonate與move的搭配不同。"
+              ]
+            },
+            "protectedWords": [
+              "Cheez",
+              "resonate",
+              "move",
+              "touched my heart",
+              "resonates with me",
+              "moves me",
+              "feel",
+              "follow",
+              "love",
+              "共鳴",
+              "打動"
+            ]
+          },
+          "fullQuestion": "Which word can Cheez use to mean resonate?\n\n(A) Feel.\n(B) Follow.\n(C) Love.\n(D) Move.",
+          "answer": "正確答案：D，Move。",
+          "explanation": "一、回到目標字前一句\nCheez先說It touched my heart again and again，表示那種特別的感受一次次觸動他的心。接著才說it really resonates with me，所以這裡不是物理上的共振聲響，而是引起共鳴、觸動心情。\n\n二、選同樣能表達打動人的動詞\nmove除了移動，也有打動、使感動的意思，與此處的resonate最接近，故選D。resonates with me可用moves me表達相近意思；意思相近不表示原介系詞with也要照搬。\n\n三、區別感受與使人感動\nfeel是感覺、感受，follow是跟隨，love是喜愛；本題強調那件事觸動Cheez的心，用move最能呼應前文。字義題要把選項放回情境比較，不能只背move的第一個中文意思「移動」。"
+        },
+        {
+          "questionId": "q-484",
+          "originalQuestionNumber": "37",
+          "sourceId": "src-gemini-more-013",
+          "date": "2026-08-14",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "5a951d7deaec914a7de71c78de66678f557caca741f478421d0fd4c50cb3cf4a",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-484-reading-source-e4fa4e2f98.jpg",
+            "assets/questions/q-484-source-540b266f8f.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "陌生人的陪伴，讓訪客感到安心與歡迎",
+            "art": "assets/comics/q-484-art-e16f24cdc5-web.webp",
+            "panels": [
+              {
+                "heading": "① 幫助Cheez的，是一位stranger",
+                "text": "Cheez在公車站顯得擔心，一位陌生女子主動關心、指路。stranger是陌生人，這個例子中的關懷對象並不只是家人或朋友，主旨也要包含訪客受到的照顧。",
+                "alt": "虛構成人訪客Cheez在公車站擔心，穿綠外套陌生女子友善指路；不設國旗、國籍外觀或把她畫成原有朋友。"
+              },
+              {
+                "heading": "② 不只指路，還陪等到公車到站",
+                "text": "She stayed with me until the bus came.說明對方一直陪他等車，讓他感到安心。這不只是禮貌地說一句話，而是文中具體呈現的溫暖關懷與陪伴。",
+                "alt": "同一陌生女子仍陪在Cheez旁，無字路線牌與到站公車可見，對應陪等情節，無擁抱、送錢或額外危機。"
+              },
+              {
+                "heading": "③ 想家卻不孤單，呼應welcoming to visitors",
+                "text": "Cheez也提到夜市的家庭笑語，讓他想家卻不覺得孤單，最後說台灣像家。A的友善、歡迎訪客最能涵蓋這些感受；C只寫到親友，沒有涵蓋陌生人照顧訪客的主要例子。",
+                "alt": "Cheez在溫暖夜市聽到周遭家庭說笑的另項文中例子，表現融入與歸屬感，不把其他遊客當成他的親友或指定著名地點。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：對訪客友善、熱情歡迎",
+              "points": [
+                "對象：陌生人關心外來的Cheez。",
+                "行為：不只指路，還陪等到公車到站。",
+                "主旨須涵蓋陌生人與訪客，不只擷取親友、小事等局部字詞。"
+              ]
+            },
+            "protectedWords": [
+              "Cheez",
+              "stranger",
+              "visitors",
+              "Taiwan Sensibility",
+              "welcoming",
+              "friendly",
+              "family and friends"
+            ]
+          },
+          "fullQuestion": "After this talk, Cheez shares Taiwan Sensibility with an American friend. Which is the best way to explain it?\n\n(A) People in Taiwan are friendly and welcoming to visitors.\n(B) People in Taiwan notice problems and try hard to fix them.\n(C) People in Taiwan help family and friends in small, simple ways.\n(D) People in Taiwan act politely and carefully in their everyday life.",
+          "answer": "正確答案：A。People in Taiwan are friendly and welcoming to visitors.",
+          "explanation": "一、先看文章用哪個事件解釋人情味\nCheez在公車站顯得擔心，一位陌生人不只指路，還一直陪他等到公車到站。Yu-shin說大家希望別人感到安全，後來Cheez也說台灣會像家一樣。\n\n二、用能涵蓋主要例子的選項\nA所說對訪客友善、熱情，符合外來者Cheez受到陌生人照顧的情節，故選A。\n\n三、提到相近詞語不代表範圍就正確\nC雖提到日常小事，卻把受幫助的人限縮成family and friends，漏掉文中最直接的stranger例子。B的發現問題並努力解決、D的禮貌與謹慎，都不是對話所著重的溫暖關心。主旨題須兼顧行為與對象，不只比對單一字詞。"
+        },
+        {
+          "questionId": "q-485",
+          "originalQuestionNumber": "38",
+          "sourceId": "src-gemini-more-013",
+          "date": "2026-08-14",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "e90eaf073a2a563bdb563a202b85cf03763370152ebd4735a138144ddb89aca9",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-485-reading-source-e4fa4e2f98.jpg",
+            "assets/questions/q-485-source-949074c4fd.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-485-figure-4746180a03.jpg",
+              "alt": "原題四張圖片：A傳統服飾人群，B巷弄街景，C漁船，D台北101夜景",
+              "caption": "原卷第38題的四個圖片選項"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "圖片要對上本文的日常意象",
+            "art": "assets/comics/q-485-art-f22169d9a5-web.webp",
+            "panels": [
+              {
+                "heading": "① 陪等公車，先讀出簡單的關心",
+                "text": "陌生人不只指路，還陪Cheez等到公車來。這段對話用日常小事表達關心，不是在比較哪一國的人一定比較友善。",
+                "alt": "新製站牌旁耐心陪伴旅人的概念場景，非原題選項照片或真實人物；無猜國籍、車號與國民性對比。"
+              },
+              {
+                "heading": "② 小事承載回憶，是選圖線索",
+                "text": "Yu-shin列出小廟、一碗飯、機車聲與安靜街道，說這些小事帶來快樂與熟悉感。要找本文點出的生活意象，不只找著名地標。",
+                "alt": "新製普通白飯與家中餐桌的日常例，對應simple bowl of rice，不把生活小事換成豪華宴席或文化節慶。"
+              },
+              {
+                "heading": "③ B巷弄街景最接近quiet street",
+                "text": "四圖中B的巷弄街景最呼應日常街道。A傳統服飾、C漁船、D地標夜景也可能與臺灣有關，但不是本文的最佳對應；不用猜B的拍攝時刻。",
+                "alt": "新製臺灣普通巷道/停妥機車概念圖，不冒充B原照片，也不憑原照猜定清晨；原四張照片仍在題目材料。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：巷弄街景",
+              "points": [
+                "quiet street與日常事物承載回憶，是直接線索。",
+                "選本文最支持的圖片，不是最有名的景點。",
+                "其他畫面也能有文化意義，不等於本篇最佳答案。"
+              ]
+            },
+            "protectedWords": [
+              "Cheez",
+              "Yu-shin",
+              "公車",
+              "關心",
+              "日常小事",
+              "生活意象",
+              "小廟",
+              "一碗飯",
+              "機車聲",
+              "安靜街道",
+              "巷弄街景",
+              "quiet street",
+              "simple bowl of rice",
+              "原照片",
+              "拍攝時刻",
+              "傳統服飾",
+              "地標夜景",
+              "臺灣"
+            ]
+          },
+          "fullQuestion": "Ailsa, the writer of the talk, wants to choose a picture to show Taiwan Sensibility. Which picture is the best choice?\n\n(A) 圖A\n(B) 圖B\n(C) 圖C\n(D) 圖D",
+          "answer": "正確答案：B，巷弄街景。",
+          "explanation": "一、找文章中能與畫面比對的具體事物\nYu-shin提到small things carry memories to us，接著列出小廟、一碗飯、機車聲、清晨安靜的街道。這些日常景物帶來快樂與熟悉感。\n\n二、逐張圖與原文對照\nB呈現巷弄街景，最接近文中的quiet street以及日常生活的意象，因此選B。A是穿著傳統服飾的人群，C是漁船，D是都會地標夜景；這些也可能與台灣有關，但不是這段對話用來說明人情味的具體畫面。\n\n三、選文章支持的最佳圖片\n題目不是問哪張最有名或最能代表所有台灣文化。要把圖片與本篇文章的描寫對上，不能單憑自己認識的文化特色決定。B的優勢是日常街景與文意呼應，不必憑照片猜定拍攝時刻。"
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "sameOriginalPaper": true
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/originals/gemini-W2hFrwI5cSIf-1.jpg",
+      "visibleHeader": "完整第183頁只有Taiwan Sensibility一篇對話，緊接36/37/38三題；37明After this talk，38明writer of the talk，均回指共同對話。",
+      "questionNumbers": [
+        "36",
+        "37",
+        "38"
+      ],
+      "sha256": "a184431a2626e2a561f4df7e47405c8abe71d471022c296c3bb34be1cf51da04",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-483-reading-source-e4fa4e2f98.jpg",
+      "visibleHeader": "Cheez/Yu-shin全對話從抵臺至feel like home，字詞memory亦保留。",
+      "questionNumbers": [
+        "36-38(article)"
+      ],
+      "sha256": "e4fa4e2f986e8a86c36db488a4acf262d868a850b8c2bf0255a56a1739f1ad76",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-483-source-5a2764f479.jpg",
+      "visibleHeader": "36 resonate同義字Feel/Follow/Love/Move四項。",
+      "questionNumbers": [
+        "36"
+      ],
+      "sha256": "5a2764f4790f5aade8fa66aea6b28e56645ff159eab9db885ef1e7a0730701e8",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-484-source-540b266f8f.jpg",
+      "visibleHeader": "37人情味解釋四個完整句子選項。",
+      "questionNumbers": [
+        "37"
+      ],
+      "sha256": "540b266f8fcbe1acc6cdd546dabad5da05705f094296188f3fde62f0f595dfbb",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-485-source-949074c4fd.jpg",
+      "visibleHeader": "38明回指writer of the talk，A傳統服飾/B巷弄/C漁船/D101四照片完整。",
+      "questionNumbers": [
+        "38"
+      ],
+      "sha256": "949074c4fdcf80789eaaaf6be106b7c92ff6987a377d538e77bd2743651ce83e",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-485-figure-4746180a03.jpg",
+      "visibleHeader": "q485必要原圖四個照片選項，不能只留下圖A到D文字代號。",
+      "questionNumbers": [
+        "38(figure)"
+      ],
+      "sha256": "4746180a0323612c0f0bc9b9f7829c899addcde73fd374c449c7a0ab07f6cf17",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "原答D/A/B、所有12個選項及三份各自新四格全部保留。q485四照片選項是其必要圖，合組後仍須綁定第38題展示；不能只保留共文或第一子題的空questionFigures。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-483",
+      "q-484",
+      "q-485"
+    ],
+    "reviewedQuestionIds": [
+      "q-483",
+      "q-484",
+      "q-485"
+    ],
+    "confirmedQuestionIds": [
+      "q-483",
+      "q-484",
+      "q-485"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-483": "ccd792c1b69969c977ebdf7c9cd814cf6c39459f1eab9fc073926dfc97dd646e",
+    "q-484": "5af9dbc7b487c980203a6c8219c86af664fea76e5de4d06b47cba7a2553fbb95",
+    "q-485": "e0557f9a082c35fb81087212e4b56f548dc26ff174eb08ce847c59757c901561"
+  }
+}

@@ -88,13 +88,66 @@ def summary(queue):
         row = by_subject[group['subject']]
         row['groups'] += 1
         row['questions'] += len(group['questionIds'])
-    return {'phase': 'review' if not review_done else 'merge', 'reviewComplete': review_done,
+    return {'phase': 'review' if not review_done else ('merge' if queue.get('reviewSummaryReported') else 'waiting_summary'), 'reviewComplete': review_done,
             'baselineQuestions': len(queue.get('baselineQuestionIds', [])),
+            'activeBaselineQuestions':len(set(queue.get('baselineQuestionIds',[]))-set(queue.get('excludedQuestionIds',[]))),
+            'excludedQuestions':len(queue.get('excludedQuestionIds',[])),
             'candidates': len(candidates), 'reviewed': sum(states[s] for s in REVIEWED),
             'awaitingConfirmation': states['needs_confirmation'], 'reviewing': states['reviewing'],
             'confirmedGroups': len(groups), 'groupedQuestions': sum(len(g['questionIds']) for g in groups),
             'mergeStates': dict(Counter(g['state'] for g in groups)), 'subjects': dict(by_subject),
             'reviewSummaryReported': queue.get('reviewSummaryReported', False)}
+
+def exclude_questions(question_ids, reason, report_path, root=ROOT):
+    proof=local_file(root,report_path)
+    with edit(root) as queue:
+        ids=set(question_ids)
+        if not ids <= set(queue['baselineQuestionIds']):
+            raise ValueError('Exclusions must refer to the frozen baseline.')
+        if any(set(g['questionIds']) & ids and not set(g['questionIds']) <= ids
+               for g in queue['groups'] if g['state']!='superseded'):
+            raise ValueError('Mixed groups need a fresh reviewed split before exclusion.')
+        for group in queue['groups']:
+            if set(group['questionIds']) <= ids and group['state']!='superseded':
+                if group['state']!='confirmed':raise ValueError('Cannot exclude work already merging.')
+                group.update(state='superseded',supersededAt=now(),supersededReason=reason)
+        previous=set(queue.get('excludedQuestionIds',[]))
+        queue['excludedQuestionIds']=sorted(previous|ids)
+        if ids-previous:
+            queue.setdefault('scopeChanges',[]).append({'at':now(),'reason':reason,
+                'excludedQuestionIds':sorted(ids-previous),'report':report_path,'reportSHA256':digest(proof)})
+            queue['reviewSummaryReported']=False
+        for candidate in queue['candidates']:
+            candidate['excludedQuestionIds']=sorted(set(candidate['questionIds']) & (previous|ids))
+        return summary(queue)
+
+def add_candidate(candidate_id, question_ids, evidence_path, root=ROOT):
+    """Append a documented dependency lead without replacing the frozen inventory."""
+    proof = local_file(root, evidence_path)
+    with edit(root) as queue:
+        ids = sorted(set(question_ids), key=lambda qid:int(qid[2:]))
+        if not ids or not set(ids) <= set(queue['baselineQuestionIds']):
+            raise ValueError('A supplemental lead must reference existing baseline questions.')
+        if any(g['state'] not in {'confirmed', 'superseded'} for g in queue['groups']):
+            raise ValueError('Cannot change review scope after merging starts.')
+        old = next((c for c in queue['candidates'] if c['id']==candidate_id), None)
+        if old:
+            if old['questionIds'] != ids:
+                raise ValueError('Cannot replace an existing lead.')
+            return summary(queue)
+        queue['candidates'].append({'id':candidate_id,'questionIds':ids,
+            'kind':'continuation_reference','state':'queued','photoHints':[],
+            'discoveryEvidence':evidence_path,'discoverySHA256':digest(proof)})
+        queue['reviewSummaryReported'] = False
+        return summary(queue)
+
+def reported_summary(agent, root=ROOT):
+    with edit(root) as queue:
+        if agent != '/root' or not summary(queue)['reviewComplete']:
+            raise ValueError('Root reports the totals after every candidate has been reviewed.')
+        queue['reportedSummary'] = dict(summary(queue),reportedAt=now())
+        queue['reviewSummaryReported'] = True
+        return summary(queue)
 
 def claim_review(agent, candidate_id=None, root=ROOT):
     with edit(root) as queue:
@@ -138,6 +191,8 @@ def record_review(report_path, agent, existing=False, root=ROOT):
         prepared = []
         for group in proposed:
             ids = sorted(set(group['questionIds']), key=lambda qid:int(qid[2:]))
+            if set(ids)&set(queue.get('excludedQuestionIds',[])):
+                raise ValueError('User-excluded AI practice cannot enter a merged group.')
             if len(ids) < 2 or not set(ids) <= expected_ids or used & set(ids):
                 raise ValueError('Groups must preserve distinct candidate members.')
             used.update(ids)
@@ -150,6 +205,14 @@ def record_review(report_path, agent, existing=False, root=ROOT):
                 proof = local_file(root, item['path'])
                 if not item.get('visualChecked') or digest(proof) != item.get('sha256') or not item.get('visibleHeader'):
                     raise ValueError('Original evidence must be viewed and match its saved hash.')
+            if group.get('groupType') == 'ai_extension_group':
+                discussion = group.get('discussionEvidence', [])
+                if not discussion:
+                    raise ValueError('AI extension groups require the discussion declaration.')
+                for item in discussion:
+                    proof = local_file(root, item['path'])
+                    if not item.get('textChecked') or digest(proof) != item.get('sha256') or not item.get('visibleHeader'):
+                        raise ValueError('Extension-group discussion evidence must be read and hashed.')
             source_ids = {members[qid]['sourceId'] for qid in ids}
             if len(source_ids) > 1 and not group.get('sameOriginalPaper'):
                 raise ValueError('Across sources, explicitly verify the same original paper.')
@@ -174,6 +237,8 @@ def claim_merge(agent, root=ROOT):
     with edit(root) as queue:
         if not summary(queue)['reviewComplete']:
             raise ValueError('Finish the entire candidate review phase before merging.')
+        if not queue.get('reviewSummaryReported'):
+            raise ValueError('Report the verified total and subject counts before merging.')
         current = next((g for g in queue['groups'] if g.get('owner') == agent and g['state'] == 'merging'), None)
         if current:
             return current
@@ -215,7 +280,7 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     sub.add_parser('init').add_argument('--inventory', default='docs/imports/group-review/inventory-v1.json')
     sub.add_parser('status')
-    for name in ('claim-review', 'review', 'claim-merge', 'stage', 'begin', 'integrated'):
+    for name in ('claim-review', 'review', 'claim-merge', 'stage', 'begin', 'integrated', 'reported'):
         cmd = sub.add_parser(name)
         cmd.add_argument('--agent', required=True)
         if name == 'claim-review': cmd.add_argument('--candidate')
@@ -231,6 +296,7 @@ def main():
     elif args.command == 'review': result = record_review(args.report, args.agent, args.existing)
     elif args.command == 'claim-merge': result = claim_merge(args.agent)
     elif args.command == 'stage': result = stage_group(args.group, args.manifest, args.agent)
+    elif args.command == 'reported': result = reported_summary(args.agent)
     else: result = integration(args.group, args.agent, args.command == 'integrated')
     print(json.dumps(result, ensure_ascii=False, indent=2))
 

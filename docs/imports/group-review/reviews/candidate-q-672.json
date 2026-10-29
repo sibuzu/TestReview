@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-672",
+  "reviewerAgent": "/root/comic_lane_3",
+  "reviewedAt": "2026-10-29T12:44:14.441346+00:00",
+  "decision": "rejected",
+  "inventoryQuestionIds": [
+    "q-672",
+    "q-678"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-672",
+    "q-678"
+  ],
+  "confirmedGroups": [],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-672-source-3953043f33.jpg",
+      "visibleHeader": "原卷只是一題獨立第18題，前言/兩圖/四選；沒有共同題頭要求另一子題。",
+      "questionNumbers": [
+        "18"
+      ],
+      "sha256": "3953043f336607e44cff55b8e301fd54fcf7a019a1f8e75263bb12992386afb5",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-672-policy-figure-02df95cc40.jpg",
+      "visibleHeader": "原第18題指定閱讀的兩個政策圖，不包含另一題。",
+      "questionNumbers": [
+        "18(figure)"
+      ],
+      "sha256": "02df95cc40d3e4ababddc761bc91f47b7b57926242f05daee06ec13fc08b45e5",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [
+    {
+      "questionIds": [
+        "q-672",
+        "q-678"
+      ],
+      "reason": "q672是原卷18；q678為對話後來在「出這二題變形題」請求下產生的跨領域變形測驗Question 1，雖同文同圖，原始作答情境不同，不能硬合。"
+    }
+  ],
+  "needsConfirmation": [],
+  "notes": [
+    "依root明確本輪恢復真題組關係的範圍，不擴大成同文即合併。兩題各自完整保留，不刪q678、不重開既有政策訂正。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-672",
+      "q-678"
+    ],
+    "reviewedQuestionIds": [
+      "q-672",
+      "q-678"
+    ],
+    "confirmedQuestionIds": [],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-672": "545d4b55c6f0666dd04b23a5be354a310de941a578ad3b1786149bf28dd86dc0",
+    "q-678": "47b255ea6adef01f0c7d4fd43c97406e74d30f879a92ff23e17bea0f7875a194"
+  },
+  "textEvidence": [
+    {
+      "path": "site/dist/sources/gemini-ft1A3NfIdqI2.txt",
+      "sha256": "9b072148468df66f2494779c906289cde070adc6128f4452a6ff4c7a7fcdc138",
+      "lineRange": [
+        116,
+        152
+      ],
+      "textChecked": true,
+      "visibleContext": "You said 出這二題變形題；我為您將這兩道考題轉化為延伸理解與應用的變形測驗題；Question 1；某縣市...節水高粱。"
+    }
+  ],
+  "retainedSeparately": [
+    {
+      "questionId": "q-672",
+      "sourceLabel": "分享原卷｜第18題",
+      "originalQuestionNumber": "18",
+      "aiExerciseLabel": null,
+      "fullQuestion": "大揚將行政院國家永續發展委員會網站資料，整理成兩大重點並以AI繪製成圖，最後寫出自己的推論。請問下列何者才是正確的推論？\n\n(A) 「2轉」措施鼓勵農民停止種植水稻，改種旱作作物，以提升糧食自給率\n(B) 農業部推動甘藷等旱作，主要以增加稻米出口為目標，藉此加強產業鏈結\n(C) 新產銷模式先由農友自由生產、建立品牌後，再交由中小盤商負責開拓通路\n(D) 集團契作模式已達規模化經營，藉由產銷供需對接制度來降低農友的銷售風險",
+      "correctOption": "D",
+      "reason": "原卷獨立題",
+      "preserveUnchanged": true
+    },
+    {
+      "questionId": "q-678",
+      "sourceLabel": "來源AI延伸練習",
+      "originalQuestionNumber": null,
+      "aiExerciseLabel": "跨領域題型變形測驗 Question 1",
+      "fullQuestion": "某縣市配合農業部「糧食產業全面升級計畫」，針對轄內水資源吃緊的稻作區進行輔導。下列何項推動方案最符合該政策的核心精神與「集團契作」運作理念？\n\n(A) 引導農民種植進口大豆並由政府直接編列公糧收購\n(B) 輔導休耕並改發停灌補償金以減少整體產銷虧損\n(C) 鼓勵農戶自主增產水稻並透過外銷補助搶佔海外市場\n(D) 媒合農民組織與加工廠簽約轉作節水高粱實施計畫生產",
+      "correctOption": "D",
+      "reason": "另場AI延伸，未與原卷18同組",
+      "preserveUnchanged": true
+    }
+  ]
+}

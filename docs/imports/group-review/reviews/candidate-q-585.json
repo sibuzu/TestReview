@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-585",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:41:33.874535+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-585",
+    "q-586",
+    "q-587"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-585",
+    "q-586",
+    "q-587"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-585-q-586-q-587",
+      "questionIds": [
+        "q-585",
+        "q-586",
+        "q-587"
+      ],
+      "retainId": "q-585",
+      "aliasIds": [
+        "q-586",
+        "q-587"
+      ],
+      "subject": "Civics",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Civics",
+      "childSubjects": {
+        "q-585": "Civics",
+        "q-586": "Civics",
+        "q-587": "Civics"
+      },
+      "sourceIds": [
+        "src-gemini-more-033"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/SGQGiTFXRSh7"
+      ],
+      "printedRange": "同一src-gemini-more-033原卷50/51/52連題，50影集權益與51同一惠仁事件引第一段，52明指第二段同一甲劃線會議程序；兩段完整共用，不能按議題差異拆開。",
+      "originalQuestionNumbers": {
+        "q-585": "50",
+        "q-586": "51",
+        "q-587": "52"
+      },
+      "commonMaterial": {
+        "passage": "身為導師的芸蓁，鑑於校園霸凌問題日益嚴重，因此利用影片與新聞與班上同學進行宣導。她分享一部探討校園霸凌問題的戲劇作品《清潭國際高等學校》，該劇以貧富差距為背景，富家子女利用權勢對出身貧困的學生進行的嚴重霸凌行為。這些霸凌行為包括排擠、嘲諷、辱罵並操控其他學生參與肢體暴力。故事核心聚焦於該名貧窮學生惠仁，在進入貴族學校後所遭遇的階級壓迫與權力鬥爭以及學校對霸凌者的漠視與放任，她要在極端不平等的校園環境中求生存。\n隔週的班會課，芸蓁希望在宣導完校園霸凌的相關嚴重性後，希望班上能制定出更適切的班級公約，隨即讓學生以此為討論主題進行班會。而本次擔任主席的政厚，【甲】宣布完開班會後，直接進行討論事項，這時同學舉手提出意見。隨即處理完的主席政厚，順利讓班會進行下去，最終針對提案討論過後，透過多數決，產出新的班級公約。由於沒有額外的臨時動議，政厚也宣布散會，最後，導師芸蓁也給予班上回饋與鼓勵，希望這份新的班級公約，能在班上發揮更好的效用。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-585-source-material-80bf5c43fe.jpg",
+          "visibleHeader": "共同原文兩段：芸蓁宣導清潭國際高等學校惠仁霸凌，隔週班會政厚【甲】宣布開會直接討論之劃線句與後續。",
+          "questionNumbers": [],
+          "sha256": "80bf5c43fe5b2263e2f7f7ac30f41adf0bf6174b8391eaa1dee84b7c0bcf9411",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-585-source-562130bf1f.jpg",
+          "visibleHeader": "印刷50「有關上文提及影集」問侵害權益，四選完整。",
+          "questionNumbers": [
+            "50"
+          ],
+          "sha256": "562130bf1fe3392ec3b30bc575f3abaeff9c6703193ba0787744a5c94f824cf3",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-586-source-41ae0283bd.jpg",
+          "visibleHeader": "印刷51「根據上文第一段」惠仁對學校處置提出申請後之調查四選，右緣申字缺口沿用使用者確認。",
+          "questionNumbers": [
+            "51"
+          ],
+          "sha256": "41ae0283bd4e312184986b390e674549fec1c65326a22961df4876bda2071318",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-587-source-c1d06a9294.jpg",
+          "visibleHeader": "印刷52「上文中，針對甲畫底線部分」問學生應提哪種問題，四選完整。",
+          "questionNumbers": [
+            "52"
+          ],
+          "sha256": "c1d06a929432d8395898b478c81f5e6151338be7fc38b1f723d8bc38a8f11fac",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-033原卷50/51/52連題，50影集權益與51同一惠仁事件引第一段，52明指第二段同一甲劃線會議程序；兩段完整共用，不能按議題差異拆開。",
+      "childCoverage": [
+        {
+          "questionId": "q-585",
+          "originalQuestionNumber": "50",
+          "sourceId": "src-gemini-more-033",
+          "date": "2026-09-05",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "a045c97d957f95552cc616421d42477af1bf6ac268bcf47e587b2a87d8a09e65",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-585-source-562130bf1f.jpg",
+            "assets/questions/q-585-source-material-80bf5c43fe.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "把文中霸凌行為，對應兩項權益",
+            "art": "assets/comics/q-585-art-037efb94a9-web.webp",
+            "panels": [
+              {
+                "heading": "① 排擠、嘲諷、辱罵傷害人格尊嚴",
+                "text": "閱讀明列排擠、嘲諷和辱罵。這些行為傷害人的尊嚴與自我發展，對應本題的人格發展權。不能因沒有拿走財物，就說沒有侵害權益。",
+                "alt": "成人教育者閱讀空白案例紙，示意重視人格尊嚴，非霸凌現場或影集人物。"
+              },
+              {
+                "heading": "② 肢體暴力直接侵害身體自主",
+                "text": "題文也明說操控其他學生參與肢體暴力。對身體施以違反本人意願的侵害，直接對應身體自主權。本格用成人尊重拒絕接觸的示範，對照應有的界線。",
+                "alt": "兩位成人教育者隔開距離，一人抬掌表達界線，另一人停下且不接觸；是尊重界線的正向示範，非原題霸凌情節。"
+              },
+              {
+                "heading": "③ 比較選項，不補沒有寫的財物損失",
+                "text": "A、B都有財產權，題文卻沒有強索金錢或毀損財物。C雖提人格發展權，D更直接把辱罵與肢體暴力兩條線索都配上。這不表示霸凌不會影響學習。",
+                "alt": "成人教育者比較權益案例卡，非原影集人物或結局，不新增財物損失。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：人格發展權、身體自主權",
+              "points": [
+                "排擠辱罵：對應人格尊嚴與發展。",
+                "肢體暴力：直接對應身體自主。",
+                "從題文找最直接組合，不自行新增情節。"
+              ]
+            },
+            "protectedWords": [
+              "人格發展權",
+              "身體自主權",
+              "財產權",
+              "學習權",
+              "排擠",
+              "嘲諷",
+              "辱罵",
+              "肢體暴力"
+            ]
+          }
+        },
+        {
+          "questionId": "q-586",
+          "originalQuestionNumber": "51",
+          "sourceId": "src-gemini-more-033",
+          "date": "2026-09-05",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "5774cbd159f2da8933ed9384bf18fe4be77648c8f7860aa23529e62544bbc240",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-586-source-41ae0283bd.jpg",
+            "assets/questions/q-586-source-material-80bf5c43fe.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "看清申訴對象：題目針對學校的處置",
+            "art": "assets/comics/q-586-art-5275ea51dc-web.webp",
+            "panels": [
+              {
+                "heading": "① 關鍵：對學校的處置提出異議",
+                "text": "題目不是只問「遇到霸凌怎麼辦」，而是強調惠仁針對學校的處置提出申請。要先辨認這個權利救濟的脈絡。",
+                "alt": "學生在支持者陪伴下看學校通知，焦點是對學校處置的疑問，不把初次霸凌通報與處置申訴畫為同一動作。"
+              },
+              {
+                "heading": "② 本題脈絡：學生申訴制度",
+                "text": "在本題針對學校處置的申訴脈絡中，選C，學生申訴評議委員會，簡稱申評會。它可就申訴案件調查證據、進行評議。",
+                "alt": "學生將文件交給校內人員示意提出申訴，不是到法院起訴，也不畫已獲准或勝訴。"
+              },
+              {
+                "heading": "③ 通報與申訴，程序要分清",
+                "text": "初次通報疑似霸凌，與對學校處置提出申訴，程序不同。霸凌及校園性別事件另有專門規定，不能背成一律都由申評會調查。",
+                "alt": "評議人員查閱資料並聽學生說明的局部情境，非全體法定委員名單或人數；不把所有霸凌調查畫成申評會職權。"
+              }
+            ],
+            "fourth": {
+              "answer": "本題答案 C：學生申訴評議委員會",
+              "points": [
+                "依題目的學校處置申訴脈絡選C。",
+                "法院、教評會、性平會的職責各不同。",
+                "仍須依霸凌、性別事件等專門程序區分。"
+              ]
+            },
+            "protectedWords": [
+              "惠仁",
+              "學校處置",
+              "提出異議",
+              "權利救濟",
+              "學生申訴制度",
+              "學生申訴評議委員會",
+              "申評會",
+              "調查證據",
+              "初次通報",
+              "校園性別事件",
+              "專門規定",
+              "教評會",
+              "性平會",
+              "霸凌",
+              "申訴"
+            ]
+          }
+        },
+        {
+          "questionId": "q-587",
+          "originalQuestionNumber": "52",
+          "sourceId": "src-gemini-more-033",
+          "date": "2026-09-05",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "9779fa9008ee669862e5d689c888e5539bf63eec3f62a260773d26419726ddcc",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-587-source-c1d06a9294.jpg",
+            "assets/questions/q-587-source-material-80bf5c43fe.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先辨程序錯誤：秩序問題，不是新增提案",
+            "art": "assets/comics/q-587-art-c4ff54cb44-web.webp",
+            "panels": [
+              {
+                "heading": "① 甲指出的是跳過議事程序",
+                "text": "主席宣布開會後，便直接進入討論。依本題班會流程，同學指出漏了應有程序，重點是糾正當下進行方式，不是在另外提出一件新事。",
+                "alt": "學生主席直接展開討論的課堂情境，紙面無偽造議程，不演出霸凌或把學生主席改成法官。"
+              },
+              {
+                "heading": "② 糾正程序，提出秩序問題",
+                "text": "同學可及時請主席處理程序錯誤，應提出秩序問題。臨時動議是議程外的新提案，不能拿來代替這種程序糾正。",
+                "alt": "同學禮貌舉手指向議程紙，主席傾聽，對應程序提醒；沒有把提問者畫成新增主題或處罰主席。"
+              },
+              {
+                "heading": "③ 換個情況：太吵而聽不清",
+                "text": "若會場有人喧擾，妨礙同學聽清發言，這類影響權利與會場環境的事，才屬權宜問題。它和本題漏程序的情況不同。",
+                "alt": "另舉會場喧擾導致聽不清的權宜例子，非原文甲本來有噪音；無肢體暴力或霸凌描繪。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：秩序問題",
+              "points": [
+                "秩序問題處理議事程序、規則上的錯誤。",
+                "權宜問題處理影響權利與會場的情況。",
+                "本題針對甲漏程序，不是議程外的新提案。"
+              ]
+            },
+            "protectedWords": [
+              "秩序問題",
+              "權宜問題",
+              "臨時動議",
+              "議事程序",
+              "程序錯誤",
+              "學生主席",
+              "議程外"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-585-source-material-80bf5c43fe.jpg",
+      "visibleHeader": "共同原文兩段：芸蓁宣導清潭國際高等學校惠仁霸凌，隔週班會政厚【甲】宣布開會直接討論之劃線句與後續。",
+      "questionNumbers": [],
+      "sha256": "80bf5c43fe5b2263e2f7f7ac30f41adf0bf6174b8391eaa1dee84b7c0bcf9411",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-585-source-562130bf1f.jpg",
+      "visibleHeader": "印刷50「有關上文提及影集」問侵害權益，四選完整。",
+      "questionNumbers": [
+        "50"
+      ],
+      "sha256": "562130bf1fe3392ec3b30bc575f3abaeff9c6703193ba0787744a5c94f824cf3",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-586-source-41ae0283bd.jpg",
+      "visibleHeader": "印刷51「根據上文第一段」惠仁對學校處置提出申請後之調查四選，右緣申字缺口沿用使用者確認。",
+      "questionNumbers": [
+        "51"
+      ],
+      "sha256": "41ae0283bd4e312184986b390e674549fec1c65326a22961df4876bda2071318",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-587-source-c1d06a9294.jpg",
+      "visibleHeader": "印刷52「上文中，針對甲畫底線部分」問學生應提哪種問題，四選完整。",
+      "questionNumbers": [
+        "52"
+      ],
+      "sha256": "c1d06a929432d8395898b478c81f5e6151338be7fc38b1f723d8bc38a8f11fac",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "共同兩段都留一次，尤其【甲】標記與相接會議程序/原劃線照片不能漏，52必須能找到所指。",
+    "q586提出申請後之申為使用者已確認，保留其現有程序適用範圍說明，不重新設缺字pending或改C。",
+    "各答50 D/51 C/52 B、詳解和三子教學完整保留；不把班會或霸凌兩不同線索混成單題答案。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-585",
+      "q-586",
+      "q-587"
+    ],
+    "reviewedQuestionIds": [
+      "q-585",
+      "q-586",
+      "q-587"
+    ],
+    "confirmedQuestionIds": [
+      "q-585",
+      "q-586",
+      "q-587"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-585": "333846b6ffce190248548917af630c7a15115e2132c9399d962c304e895cd67e",
+    "q-586": "6b9cf19eefbabac6c88814175655a1b64428b33f6e97f4cba0e7f096d680b119",
+    "q-587": "46bf43c75d0fdaa895eda84f80b6d8bbca14da66444e8ad2aae95def1f1c390b"
+  }
+}

@@ -49,6 +49,20 @@ class MonitorTest(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
+    def test_group_review_counts_remain_separate_from_published_bank_and_comics(self):
+        self.write('site/dist/data.json',{'revision':'test','questions':[
+            {'id':'q-001','title':'子題一'},{'id':'q-002','title':'子題二'}],
+            'subjects':[{'id':'Chinese','name':'國文'},{'id':'Math','name':'數學'}]})
+        self.write('docs/imports/group-review/queue.json',{'baselineQuestionIds':['q-001','q-002'],
+            'candidates':[{'id':'candidate-1','state':'confirmed'},
+                {'id':'candidate-2','state':'reviewing','owner':'worker2','questionIds':['q-002']}],
+            'groups':[{'id':'group-1','questionIds':['q-001','q-002'],'subject':'Chinese','state':'confirmed'}]})
+        d=server.build_status(self.root);g=d['groupReview']
+        self.assertEqual(d['summary']['questions'],2)
+        self.assertEqual((g['candidates'],g['reviewed'],g['confirmedGroups'],g['groupedQuestions']),(2,1,1,2))
+        self.assertFalse(g['reviewComplete']);self.assertEqual(g['subjects'][1]['groups'],0)
+        self.assertEqual(g['groups'][0]['questions'][1]['url'],'/site/index.html#question/q-002')
+
     def test_current_new_sources_use_plan_and_local_acquisition_reports(self):
         self.write('docs/imports/new-source-plan-2026-10-29.json', {'sources': [
             {'key': 'new1', 'suggestedOrder': 1, 'url': 'https://example.com/1'},

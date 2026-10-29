@@ -36,6 +36,9 @@ class GroupQueueTests(unittest.TestCase):
   q.record_review(self.report('one',['q-001','q-002']),'worker2',existing=True,root=self.root)
   q.record_review(self.report('two',['q-003','q-004'],decision='rejected'),'worker2',existing=True,root=self.root)
   self.assertTrue(q.summary(q.read(self.root/q.QUEUE))['reviewComplete'])
+  with self.assertRaises(ValueError):q.claim_merge('worker2',self.root)
+  with self.assertRaises(ValueError):q.reported_summary('worker2',self.root)
+  q.reported_summary('/root',self.root)
   with ThreadPoolExecutor(2) as pool:claims=list(pool.map(lambda a:q.claim_merge(a,self.root),['worker2','worker3']))
   self.assertEqual(sum(c is not None for c in claims),1);group=next(c for c in claims if c)
   draft=self.write('draft.json',{'children':['q-001','q-002']})
@@ -54,5 +57,21 @@ class GroupQueueTests(unittest.TestCase):
   p=self.report('one',['q-001']);
   with self.assertRaises(ValueError):q.record_review(p,'worker2',existing=True,root=self.root)
   data=q.read(self.root/q.QUEUE);self.assertEqual(data['candidates'][0]['state'],'queued');self.assertEqual(data['groups'],[])
+ def test_dependency_leads_preserve_baseline_and_can_find_an_existing_mate(self):
+  self.write('discovery.json',{'id':'q-001','finding':'承上題'})
+  q.add_candidate('dependency-one',['q-001'],'discovery.json',self.root)
+  result=q.summary(q.read(self.root/q.QUEUE));self.assertEqual(result['candidates'],3);self.assertEqual(result['baselineQuestions'],4)
+  q.add_candidate('dependency-one',['q-001'],'discovery.json',self.root)
+  self.assertEqual(q.summary(q.read(self.root/q.QUEUE))['candidates'],3)
+  with self.assertRaises(ValueError):q.add_candidate('bad',['q-999'],'discovery.json',self.root)
+ def test_user_ai_exclusions_do_not_erase_review_history_or_count_removed_groups(self):
+  q.record_review(self.report('one',['q-001','q-002']),'worker2',existing=True,root=self.root)
+  self.write('removed.json',{'ids':['q-001','q-002']})
+  with self.assertRaises(ValueError):q.exclude_questions(['q-001'],'AI practice','removed.json',self.root)
+  result=q.exclude_questions(['q-001','q-002'],'AI practice','removed.json',self.root)
+  self.assertEqual((result['baselineQuestions'],result['activeBaselineQuestions'],result['confirmedGroups']),(4,2,0))
+  queue=q.read(self.root/q.QUEUE);self.assertEqual(queue['groups'][0]['state'],'superseded');self.assertEqual(queue['candidates'][0]['state'],'confirmed')
+  q.exclude_questions(['q-001','q-002'],'AI practice','removed.json',self.root)
+  self.assertEqual(len(q.read(self.root/q.QUEUE)['scopeChanges']),1)
 
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "dependency-q-140",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:54:07.921010+00:00",
+  "decision": "rejected",
+  "inventoryQuestionIds": [
+    "q-140"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-140"
+  ],
+  "confirmedGroups": [],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-140-source-77e8a578bf.jpg",
+      "sha256": "77e8a578bfe87e5cc0c65e0605cd440693662660867baab8543874cc6720bbc4",
+      "visualChecked": true,
+      "visibleHeader": "原印第10題明說承上題、東北亞經濟圈，問北韓優勢，資金/技術/礦產/管理經驗四選。",
+      "questionNumbers": [
+        "10"
+      ]
+    },
+    {
+      "path": "site/dist/assets/originals/chatgpt-6ae05fc8-2.jpg",
+      "sha256": "dffba9b41d4af2e4f25ea58f5771b68b1ecfd771fee45477fc3bfe9cef7742ec",
+      "visualChecked": true,
+      "visibleHeader": "原卷同張照片可見第9題完整敘述：日本、南韓、中國中心的經濟圈，含北韓/蒙古/俄羅斯遠東；黃金通道轉運點甲及日本海冬季雪災圖；接10承上題。真正前題是9，不是同source現存7。",
+      "questionNumbers": [
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "reason": "確有承上依賴原卷第9題，但838筆既有題庫只找到第10(q140)，未找到前題9，因此沒有可合併的既有子題；不為合組新加原9，不誤配q139原7。",
+  "coverage": {
+    "inputQuestionIds": [
+      "q-140"
+    ],
+    "reviewedQuestionIds": [
+      "q-140"
+    ],
+    "confirmedQuestionIds": [],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "dependencyResolution": {
+    "printedPredecessorNumber": "9",
+    "predecessorVisibleInOriginal": true,
+    "predecessorInPublishedBank": false,
+    "searchedQuestionCount": 838,
+    "searchedFields": [
+      "title",
+      "question",
+      "passage",
+      "sourceLabel"
+    ],
+    "searchTerms": [
+      "東北亞經濟",
+      "圖們江",
+      "環日本海",
+      "蒙古、北韓",
+      "北韓、蒙古",
+      "黃金通道",
+      "主要轉運點",
+      "經濟圈",
+      "經過日本海",
+      "海參崴",
+      "西北季風"
+    ],
+    "matchingExistingQuestionIds": [
+      "q-140"
+    ],
+    "sameSourceQuestionIds": [
+      "q-139",
+      "q-140",
+      "q-141",
+      "q-142"
+    ],
+    "wrongAdjacentMate": "q-139是西亞季風降水第7題，與9/10經濟圈非共用材料。"
+  },
+  "retainedSeparately": [
+    {
+      "questionId": "q-140",
+      "sourceLabel": "分享原卷｜第 10 題",
+      "originalQuestionNumber": "10",
+      "fullQuestion": "承上題，「東北亞經濟圈」的國家組成極具互補性，北韓最可能提供下列何種優勢？\n\n(A) 資金\n(B) 技術\n(C) 礦產\n(D) 管理經驗",
+      "correctOption": "C",
+      "reason": "原前題9未收既有銀行；10已有必要前題共用資料，維持完整現狀，不新增9。",
+      "preserveUnchanged": true
+    }
+  ],
+  "notes": [
+    "本項是拒絕額外合併，不刪除q140，不更改已確認C或本文。"
+  ],
+  "inputFingerprints": {
+    "q-140": "88e08b59c19626873123a0be8552716c7300c4b2676942e0fcb308c20a6debe1"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-488",
+  "reviewerAgent": "/root/comic_lane_3",
+  "reviewedAt": "2026-10-29T12:33:25.305576+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-488",
+    "q-489"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-488",
+    "q-489"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-488-q-489",
+      "questionIds": [
+        "q-488",
+        "q-489"
+      ],
+      "retainId": "q-488",
+      "aliasIds": [
+        "q-489"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-488": "Chinese",
+        "q-489": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-014"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/i3AiUoByWkyB"
+      ],
+      "printedRange": "同一src-gemini-more-014原卷直接標41～42，先問事件推論再問古仁之風意涵；兩題不同不重複，合為共同選文真題組。",
+      "originalQuestionNumbers": {
+        "q-488": "41",
+        "q-489": "42"
+      },
+      "commonMaterial": {
+        "passage": "宋陳諫議家有劣馬，性暴，不可馭，蹄嚙傷人多矣。一日，諫議入廄，不見是馬，因詰僕：「彼馬何以不見？」僕言為陳堯咨售之賈人矣。堯咨者，陳諫議之子也。諫議遽召子，曰：「汝為貴臣，家中左右尚不能制，賈人安能蓄之？是移禍於人也！」急命人追賈人取馬，而償其直。戒僕養之終老。時人稱陳諫議有古仁之風。\n——李幼武〈陳諫議教子〉\n\n【原題註釋】直：通「值」。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/originals/gemini-i3AiUoByWkyB-2.jpg",
+          "visibleHeader": "完整同一原卷頁明印「請閱讀以下選文，並回答第41～42題」，陳諫議教子共文/直通值註釋/41與42全四項皆同頁。",
+          "questionNumbers": [
+            "41",
+            "42"
+          ],
+          "sha256": "d2223763a7f83706811df43c1e296d029b7ba21bdc482d08fa096d0a9c56d4a0",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-488-reading-source-ef4899163d.jpg",
+          "visibleHeader": "41～42題共用選文及原註直通值。",
+          "questionNumbers": [
+            "41-42"
+          ],
+          "sha256": "ef4899163d1e353580f7a392a1af7b10cd1ed1a262cd0a853e4ee3bd6ad0a214",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-488-source-7e9bd2e81f.jpg",
+          "visibleHeader": "41劣馬事件敘述四項。",
+          "questionNumbers": [
+            "41"
+          ],
+          "sha256": "7e9bd2e81f739e971585b02e061c457d6a7d9b6a2d065acbcbf59eb1578659a5",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-489-source-b0fc112e95.jpg",
+          "visibleHeader": "42古仁之風意涵四項。",
+          "questionNumbers": [
+            "42"
+          ],
+          "sha256": "b0fc112e956bab9861d8de1f9a15435166be90a93f002c1e98b6ceab12ba1621",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-014原卷直接標41～42，先問事件推論再問古仁之風意涵；兩題不同不重複，合為共同選文真題組。",
+      "childCoverage": [
+        {
+          "questionId": "q-488",
+          "originalQuestionNumber": "41",
+          "sourceId": "src-gemini-more-014",
+          "date": "2026-08-15",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "B",
+          "questionFingerprint": "73923d5e86aa8b606b449dbeb6b73c13a474402b27b1882ec8578c293a4fedf4",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-488-reading-source-ef4899163d.jpg",
+            "assets/questions/q-488-source-7e9bd2e81f.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "從先問才知，判出售馬未先告父",
+            "art": "assets/comics/q-488-art-48d6df57fe-web.webp",
+            "panels": [
+              {
+                "heading": "① 父親先發現馬不見，才問僕人",
+                "text": "陳諫議進廄不見馬，問僕人後，才知道兒子陳堯咨已把馬售給商人。這個事件順序支持B：售馬前未先告知父親。",
+                "alt": "新生成陳諫議泛指形象在空馬廄詢問灰衣僕人，未畫出馬仍在廄中；以事件順序教先不知售馬，不冒充確切人物/宅第照片。"
+              },
+              {
+                "heading": "② 反對移禍於人，不是評論愛不愛馬",
+                "text": "父親說家中僕役尚不能制，商人更難飼養，不能移禍於人。沒有說只有父親能駕馭，也沒用商人是否愛馬作理由，A、C不合。",
+                "alt": "新生成父親向成年兒子說明責任的情境，沒有打罵/懲罰或描繪父親能駕馭馬，也未把商人畫成不愛馬的壞人。"
+              },
+              {
+                "heading": "③ 取回馬、退價，命僕養到老",
+                "text": "「償其直」是退還馬價；「戒僕養之終老」是命僕人飼養到老。取回後由自家負責，不是把馬贈送給僕人，D不合。",
+                "alt": "新生成灰衣家僕把錢退給褐衣商人、旁邊馬在木欄後的取回退款示意，父親未在場施展馭術；錢方向由家僕到商人，沒有送馬作禮的情境。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：陳堯咨未先告父便售馬",
+              "points": [
+                "先發現、再問僕、才知道已售。",
+                "反對理由：不能移禍於人。",
+                "取回馬時，仍退還賣馬價款。",
+                "命僕飼養到老，不等於贈送給僕人。"
+              ]
+            },
+            "protectedWords": [
+              "陳諫議",
+              "陳堯咨",
+              "馬廄",
+              "進廄",
+              "僕人",
+              "家僕",
+              "僕役",
+              "商人",
+              "售馬",
+              "父親",
+              "告知",
+              "移禍於人",
+              "飼養",
+              "駕馭",
+              "所有權",
+              "償其直",
+              "戒僕養之終老",
+              "馬價",
+              "退還",
+              "價款",
+              "贈送",
+              "不能制"
+            ]
+          },
+          "fullQuestion": "下列關於「劣馬」的敘述，何者符合上文文意？\n\n(A) 陳諫議家的劣馬只有他能夠駕馭\n(B) 陳堯咨未告知父親便將劣馬賣人\n(C) 商人並非愛馬者，故陳諫議命人贖回馬\n(D) 陳諫議將馬贈送給僕人，希望他善待馬",
+          "answer": "正確答案：B，陳堯咨未告知父親便將劣馬賣人。",
+          "explanation": "【全段白話】\n宋朝陳諫議家有一匹性情暴躁的劣馬，無法駕馭，已踢咬傷許多人。有一天，陳諫議進入馬廄，沒看到這匹馬，就質問僕人：「那匹馬為什麼不見了？」僕人說陳堯咨已把牠賣給商人。陳堯咨就是陳諫議的兒子。\n陳諫議立即叫來兒子，說：「你是地位尊貴的臣子，家裡的僕役尚且不能制服牠，商人怎麼能養好牠？這是在把禍害轉嫁給別人！」於是他急忙命人追上商人、取回馬，並退還賣馬的價款；又告誡僕人把馬養到老。當時的人稱讚陳諫議具有古代仁者的風範。\n「蹄嚙」指用蹄踢、用口咬；「賈人」是商人；「左右」是身邊僕役；「償其直」在這裡是退還馬價，不是白拿回馬。\n\n【依事件順序查核】\n陳諫議先發現馬不見，再詢問僕人，才知道兒子已將馬賣給商人，顯示這筆售馬之事未先告知父親，因此選B。\n父親反對的理由是家中僕役都無法制服、商人更難飼養，不能把危險轉嫁出去。文中沒有說只有陳諫議能駕馭，也不是因商人不愛馬才買回；他退錢取回馬，命僕人養到老，並非把馬贈送給僕人。"
+        },
+        {
+          "questionId": "q-489",
+          "originalQuestionNumber": "42",
+          "sourceId": "src-gemini-more-014",
+          "date": "2026-08-15",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "170d689fbd5aef4eda4a253d3c2008a74ecbdb2a55644e0aba390fe352a3598d",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-489-reading-source-ef4899163d.jpg",
+            "assets/questions/q-489-source-b0fc112e95.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "己所不欲，勿施於人：不把禍害轉嫁出去",
+            "art": "assets/comics/q-489-art-e1d5d45be2-web.webp",
+            "panels": [
+              {
+                "heading": "① 自家難以駕馭，不能只想賣給別人",
+                "text": "劣馬性暴、曾踢咬傷人，連家中僕役都難控制。父親問賈人安能蓄之，點出商人也將承受危險；責備的是兒子把禍害轉嫁出去，不是責備他沒有賣到好價錢。",
+                "alt": "全新內建父親向成年兒子談責任、栗色馬在馬廄屏障後的情境，未描繪踢咬傷人或暴力。"
+              },
+              {
+                "heading": "② 追商人取回馬，同時退還馬價",
+                "text": "急命人追回馬，還要償其直：這裡是把賣馬的價款退給商人，並非白拿回馬，也不是繼續賣給另一人。這個行動停止轉嫁自己不願承受的禍害，最扣住己所不欲，勿施於人。",
+                "alt": "全新內建僕役向普通商人交還無字錢袋、另有人牽回同匹馬的情境；付款精確方向由HTML說明，不臆造金額或傷害賠償。"
+              },
+              {
+                "heading": "③ 留下照養，自己承擔後續責任",
+                "text": "戒僕養之終老，表示把馬留下照養，不讓危險繼續轉給別人。關鍵是對人不轉嫁禍害；並非因愛某人而連帶愛他的事物，也不是一則捐款助人的故事。",
+                "alt": "全新內建成年僕役在屏障外供草水、父親關照穩定馬廄的長期飼養情境，不宣稱劣馬已被馴服或成為慈善募捐事件。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：己所不欲，勿施於人",
+              "points": [
+                "直接線索：是移禍於人也。",
+                "取馬＋退價＋留下照養，讓自己承擔責任。",
+                "C 的推己及人雖相近，樂善好施未扣住本篇重點。"
+              ]
+            },
+            "protectedWords": [
+              "己所不欲",
+              "勿施於人",
+              "陳諫議",
+              "陳堯咨",
+              "劣馬",
+              "賈人",
+              "僕役",
+              "償其直",
+              "馬價",
+              "退還",
+              "轉嫁",
+              "禍害",
+              "養之終老",
+              "推己及人",
+              "樂善好施",
+              "好價錢",
+              "是移禍於人也",
+              "取回馬",
+              "踢咬",
+              "價款"
+            ]
+          },
+          "fullQuestion": "文中提到的「古仁之風」，最接近下列何者？\n\n(A) 愛屋及烏，仁民愛物\n(B) 知過能改，勇於認錯\n(C) 推己及人，樂善好施\n(D) 己所不欲，勿施於人",
+          "answer": "正確答案：D，己所不欲，勿施於人。",
+          "explanation": "【全段白話】\n宋朝陳諫議家有一匹性情暴躁的劣馬，無法駕馭，已踢咬傷許多人。有一天，陳諫議進入馬廄，沒看到這匹馬，就質問僕人：「那匹馬為什麼不見了？」僕人說陳堯咨已把牠賣給商人。陳堯咨就是陳諫議的兒子。\n陳諫議立即叫來兒子，說：「你是地位尊貴的臣子，家裡的僕役尚且不能制服牠，商人怎麼能養好牠？這是在把禍害轉嫁給別人！」於是他急忙命人追上商人、取回馬，並退還賣馬的價款；又告誡僕人把馬養到老。當時的人稱讚陳諫議具有古代仁者的風範。\n「蹄嚙」指用蹄踢、用口咬；「賈人」是商人；「左右」是身邊僕役；「償其直」在這裡是退還馬價，不是白拿回馬。\n\n【從父親責備兒子的話找主旨】\n「家中左右尚不能制，賈人安能蓄之？是移禍於人也！」最直接點出：自己家裡難以處理的危險，不能用出售的方式轉嫁給別人。陳諫議退錢、取回馬，自己承擔飼養責任，正符合D「己所不欲，勿施於人」。\n故事不在說因愛一個人而連帶愛其事物，也不以承認自身錯誤或慈善捐贈為重點。C中的推己及人雖有相近方向，但樂善好施不是本文具體行為；D更準確扣住不把禍害移給別人。"
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "sameOriginalPaper": true
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/originals/gemini-i3AiUoByWkyB-2.jpg",
+      "visibleHeader": "完整同一原卷頁明印「請閱讀以下選文，並回答第41～42題」，陳諫議教子共文/直通值註釋/41與42全四項皆同頁。",
+      "questionNumbers": [
+        "41",
+        "42"
+      ],
+      "sha256": "d2223763a7f83706811df43c1e296d029b7ba21bdc482d08fa096d0a9c56d4a0",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-488-reading-source-ef4899163d.jpg",
+      "visibleHeader": "41～42題共用選文及原註直通值。",
+      "questionNumbers": [
+        "41-42"
+      ],
+      "sha256": "ef4899163d1e353580f7a392a1af7b10cd1ed1a262cd0a853e4ee3bd6ad0a214",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-488-source-7e9bd2e81f.jpg",
+      "visibleHeader": "41劣馬事件敘述四項。",
+      "questionNumbers": [
+        "41"
+      ],
+      "sha256": "7e9bd2e81f739e971585b02e061c457d6a7d9b6a2d065acbcbf59eb1578659a5",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-489-source-b0fc112e95.jpg",
+      "visibleHeader": "42古仁之風意涵四項。",
+      "questionNumbers": [
+        "42"
+      ],
+      "sha256": "b0fc112e956bab9861d8de1f9a15435166be90a93f002c1e98b6ceab12ba1621",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "原註直通值及全文只共列一次；41的B與42的D獨立保留，全部選項/各自白話詳解/兩套新四格均保留，不以共同白話相同就刪去子題的獨立判斷。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-488",
+      "q-489"
+    ],
+    "reviewedQuestionIds": [
+      "q-488",
+      "q-489"
+    ],
+    "confirmedQuestionIds": [
+      "q-488",
+      "q-489"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-488": "40fbe79906285b4781e3c9f9f8715ebf25e04f59d1aba7e5b5b33f38b6de7e44",
+    "q-489": "0ba90ad0dfee7445f7a55e984e668c12a4ef6613193ac81aa89b886b8b7d83cd"
+  }
+}

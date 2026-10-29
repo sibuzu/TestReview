@@ -17951,27 +17951,72 @@
       "title": "秋天的況味第4題｜季節雅稱",
       "subject": "Chinese",
       "lane": 3,
-      "state": "blocked",
+      "state": "integrated",
       "startedAt": "2026-10-29T12:02:46.422697+00:00",
       "jobId": "job-3236eaf028ef4f5aa22a91fbd255b9b4",
-      "readyAt": "2026-10-29T12:17:37.136027+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "A初秋對孟秋不變，原引用句蕭瑟前省漏兩字，回取高解析原字待核",
+      "readyAt": "2026-10-29T13:04:11.378104+00:00",
+      "decision": "complete",
+      "reason": "使用者已確認補回凜冽；初秋對孟秋A與原選項不變，新原生孟仲季四格",
       "evidence": [
         "docs/comics/q-027.json",
         "docs/comics/q-027-preview-validation.json",
-        "docs/comics/q-027-original-ocr-review.json",
-        "docs/comics/q-027-original-retry.json"
-      ]
+        "docs/comics/q-027-confirmed-application.json"
+      ],
+      "confirmationUnblock": {
+        "confirmedAt": "2026-10-29T12:34:06.102689+00:00",
+        "confirmationId": "correction-q-027-37f8bc259320",
+        "previousState": "blocked",
+        "previousDecision": "awaiting_confirmation",
+        "previousReadyAt": "2026-10-29T12:17:37.136027+00:00",
+        "evidence": "docs/comics/q-027-confirmed-application.json"
+      },
+      "integrationStartedAt": "2026-10-29T13:04:11.417767+00:00",
+      "integrationMonotonicStartNs": 684909506340089,
+      "integrationTimingHost": "R5090",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "integratedAt": "2026-10-29T13:05:03.028348+00:00",
+      "integrationQueueSeconds": 0.039663,
+      "integrationMonotonicEndNs": 684959618159995,
+      "integrationTimingEndHost": "R5090",
+      "integrationSeconds": 50.111819906,
+      "integrationTimingValid": true,
+      "integrationTimingMethod": "monotonic",
+      "integrationUTCLabelDifferenceSeconds": 51.610581,
+      "integrationUTCLabelsWentBackwards": false,
+      "integrationEventId": "integration-job-3236eaf028ef4f5aa22a91fbd255b9b4",
+      "integrationSequence": 766
     },
     {
       "id": "q-001",
       "title": "張釋之：依法斷案與人物判讀",
       "subject": "Chinese",
       "lane": 3,
-      "state": "claimed",
+      "state": "integrated",
       "startedAt": "2026-10-29T12:17:37.179134+00:00",
-      "jobId": "job-d38a5ef734c24f5ba83638603f9362de"
+      "jobId": "job-d38a5ef734c24f5ba83638603f9362de",
+      "readyAt": "2026-10-29T12:26:33.743415+00:00",
+      "decision": "complete",
+      "reason": "沿使用者授權文字版三題DAB，玉環真案陵土假設及表情推想與受諫結局分景",
+      "evidence": [
+        "docs/comics/q-001.json",
+        "docs/comics/q-001-preview-validation.json",
+        "docs/comics/q-001-generation.json"
+      ],
+      "integrationStartedAt": "2026-10-29T12:29:23.512360+00:00",
+      "integrationMonotonicStartNs": 682906127221219,
+      "integrationTimingHost": "R5090",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "integratedAt": "2026-10-29T12:41:20.646189+00:00",
+      "integrationQueueSeconds": 169.768945,
+      "integrationMonotonicEndNs": 683591037104726,
+      "integrationTimingEndHost": "R5090",
+      "integrationSeconds": 684.909883507,
+      "integrationTimingValid": true,
+      "integrationTimingMethod": "monotonic",
+      "integrationUTCLabelDifferenceSeconds": 717.133829,
+      "integrationUTCLabelsWentBackwards": false,
+      "integrationEventId": "integration-job-d38a5ef734c24f5ba83638603f9362de",
+      "integrationSequence": 765
     }
   ],
   "retryHistory": [
@@ -18024,5 +18069,5 @@
   "pausedAt": "2026-10-29T00:06:50.640860+00:00",
   "resumedAt": "2026-10-29T00:29:03.726405+00:00",
   "resumeReason": "使用者要求現在繼續插畫製作，並維持WebP／共用資產減量方式。",
-  "nextIntegrationSequence": 764
+  "nextIntegrationSequence": 766
 }

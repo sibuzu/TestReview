@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-581",
+  "reviewerAgent": "/root/comic_lane_3",
+  "reviewedAt": "2026-10-29T12:41:23.817770+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-581",
+    "q-582",
+    "q-583"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-581",
+    "q-582",
+    "q-583"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-581-q-582-q-583",
+      "questionIds": [
+        "q-581",
+        "q-582",
+        "q-583"
+      ],
+      "retainId": "q-581",
+      "aliasIds": [
+        "q-582",
+        "q-583"
+      ],
+      "subject": "Geography",
+      "representativeSubjectReason": "共同核心為石門活動地點、配置圖與風向，44/45屬地理，46以就近區位比較文化遺址；依代表科目原則選Geography，保留q583的History子題來源分類。",
+      "suggestedSubject": "Geography",
+      "childSubjects": {
+        "q-581": "Geography",
+        "q-582": "Geography",
+        "q-583": "History"
+      },
+      "sourceIds": [
+        "src-gemini-more-033"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/SGQGiTFXRSh7"
+      ],
+      "printedRange": "同一src-gemini-more-033風箏題組原卷直接標44～46，讀圖/風向/活動後就近考古行程皆依同一活動位置與共文，跨地理歷史的三個真子題。",
+      "originalQuestionNumbers": {
+        "q-581": "44",
+        "q-582": "45",
+        "q-583": "46"
+      },
+      "commonMaterial": {
+        "passage": "2025北海岸國際風箏節9月20日在新北市石門區舉辦，石門地處沿海四季都有海風吹送，是一處適合放風箏的優質地點，因而有臺灣「風箏故鄉」之稱。主辦單位邀請國內外專業風箏團隊參與盛會，展示各種造型風箏、特技風箏。想要讓手中的風箏翱翔天際，最好在放風箏前確認風向，選擇風力充足的時候，手拿風箏提線並逆風向前跑動，直到感覺風箏有拉力並向上爬升，再慢慢放線，活動當天現場測得風向為「東南風」。圖（九）是此場節慶的場地規劃圖。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/originals/gemini-SGQGiTFXRSh7-3.jpg",
+          "visibleHeader": "原卷社會1-13頁大題44～54之下，風箏短文明確另標「回答第44～46題」；共同活動文字/圖九與44/45/46完整四項同頁。",
+          "questionNumbers": [
+            "44",
+            "45",
+            "46"
+          ],
+          "sha256": "82922fb24e0ccf67e114835a191cd701e852a1119517556150f50112e0c30d2f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-581-source-material-5080bc7268.jpg",
+          "visibleHeader": "2025石門風箏活動/當天東南風與圖九完整共同材料。",
+          "questionNumbers": [
+            "44-46(material)"
+          ],
+          "sha256": "5080bc72688fd5059a55b1d47b40d2ed3cb0b2ad9e3b43cfe0c5e00ba8e14526",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-581-source-5cd5146d05.jpg",
+          "visibleHeader": "44問配置圖可得資訊A-D。",
+          "questionNumbers": [
+            "44"
+          ],
+          "sha256": "5cd5146d0568fd7d09936370112e0fbb6475974369fe4706561d0eb7bcfd25b5",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-582-source-9db8e5d852.jpg",
+          "visibleHeader": "45活動當天逆風跑動四方位。",
+          "questionNumbers": [
+            "45"
+          ],
+          "sha256": "9db8e5d8520a18f0514fa2b15dd99e47a6d4eb7482e10ab429b6962d79462b06",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-583-source-7ba066159c.jpg",
+          "visibleHeader": "46承放風箏後就近人文旅程，長濱/圓山/十三行/大坌坑四項。",
+          "questionNumbers": [
+            "46"
+          ],
+          "sha256": "7ba066159cb5887d63486da91fc07aafff9aa15f0f82d9d12cbecabceb670ead",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-581-figure-a849017915.jpg",
+          "visibleHeader": "原圖九各區/中心/舞臺/市集必要配置圖，合組仍須展示。",
+          "questionNumbers": [
+            "44(figure)"
+          ],
+          "sha256": "a8490179153a6baac2664a44efc6ba874856547cdfc9c4d165da638581afd9d9",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-033風箏題組原卷直接標44～46，讀圖/風向/活動後就近考古行程皆依同一活動位置與共文，跨地理歷史的三個真子題。",
+      "childCoverage": [
+        {
+          "questionId": "q-581",
+          "originalQuestionNumber": "44",
+          "sourceId": "src-gemini-more-033",
+          "date": "2026-09-05",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "0773d2bf6ab7f35c98491ec838429caa80087ca8929bcd2ce9dc2a2d0d399f71",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-581-source-5cd5146d05.jpg",
+            "assets/questions/q-581-source-material-5080bc7268.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-581-figure-a849017915.jpg",
+              "alt": "圖（九）風箏節場地配置，含各區、舞臺、遊客中心及市集",
+              "caption": "圖（九）｜風箏節場地規劃（原卷裁切）"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": null,
+          "fullQuestion": "根據圖（九）所呈現的內容，遊客可以得到下列哪項資訊？\n\n(A) 特技風箏區位在造型風箏區的東側\n(B) 民眾放飛區可眺望臺灣海峽的風光\n(C) 遊客中心緊鄰開幕主舞臺表演場地\n(D) 農特產與文創市集到播報臺的實際距離",
+          "answer": "正確答案：C，遊客中心緊鄰開幕主舞臺表演場地。",
+          "explanation": "【選圖上能直接看出的資訊】\n圖中標示白沙灣遊客中心與開幕主舞臺表演場地，兩者相鄰，C是由圖面配置可直接讀取的資訊，因此選C。\n\n【其他選項】\nA：特技風箏區在圖面左側，造型風箏區在較右側；依一般地圖上北下南的讀法，不能把特技區說成在造型區東側。\nB：圖中沒有標海域名稱，不能只靠場地配置圖得出「臺灣海峽」的資訊；本題也不是問憑地理常識猜海域。\nD：沒有比例尺或已知實際長度，不能從簡圖算出農特產與文創市集到播報臺的實際距離。\n\n【來源AI訂正】\n原AI先選B，誤判遊客中心與舞臺相距很遠，後來才改C。本頁依原圖標示與相鄰位置選C；不採原AI自行補出的海域名稱或對圖面的錯誤描述。"
+        },
+        {
+          "questionId": "q-582",
+          "originalQuestionNumber": "45",
+          "sourceId": "src-gemini-more-033",
+          "date": "2026-09-05",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "0bdce2eebe7d6b6e8299fca0247eb86a67413a46bf7e474e1144cb062894f232",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-582-source-9db8e5d852.jpg",
+            "assets/questions/q-582-source-material-91b866b433.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "風名看來向，逆風跑向東南",
+            "art": "assets/comics/q-582-art-544a19e1e7.svg",
+            "panels": [
+              {
+                "heading": "① 東南風：從東南吹來",
+                "text": "風向名稱說的是來向。東南風從東南方吹向西北方；圖中藍箭頭表示空氣移動，箭尾在東南，箭頭朝西北。",
+                "alt": "北上東右羅盤，藍箭尾在右下東南、箭頭在左上西北，原生SVG精確表示東南風，不把風去向稱東南。"
+              },
+              {
+                "heading": "② 逆風：朝來風方向前進",
+                "text": "題文指定逆風向前跑。藍色風往西北吹，橘色跑動箭頭就往相反的東南方，迎向來風，選A。",
+                "alt": "同一北上羅盤，藍風箭頭向西北、橘跑箭頭向東南，兩支分開精確相反，沒有把順風跑混作逆風。"
+              },
+              {
+                "heading": "③ 風往西北，人往東南",
+                "text": "放風箏的情境要和方位合起來看。此題依現場給的東南風作答，不能看到北海岸或活動月份，就改用另一種常見季風。",
+                "alt": "北上概念配置：風箏在人物西北側、提線連到手部，藍風往西北、橘跑箭頭往東南。此為方向示意，非場地原圖或升力測量。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：東南方",
+              "points": [
+                "東南風：東南 → 西北。",
+                "逆風跑：迎向東南方來風。",
+                "先用題文風向，不猜季節盛行風。"
+              ]
+            },
+            "protectedWords": [
+              "東南風",
+              "東南方",
+              "西北方",
+              "逆風",
+              "藍箭頭",
+              "橘色",
+              "箭尾",
+              "北海岸",
+              "現場",
+              "來向",
+              "風向名稱"
+            ]
+          },
+          "fullQuestion": "依照放風箏的正確方式，民眾於活動當天應朝下列哪一個方向跑動，最有利於風箏升空？\n\n(A) 東南方\n(B) 西南方\n(C) 東北方\n(D) 西北方",
+          "answer": "正確答案：A，東南方。",
+          "explanation": "【風向是風吹來的方向】\n題文給的是東南風，表示風從東南方吹向西北方。\n\n【逆風就是朝風來的方向前進】\n題文要求手拿提線、逆風向前跑動，因此人應朝東南方跑，迎向來風，選A。\n不要把風吹去的西北方當成風向名稱，也不要選順風跑的方向。"
+        },
+        {
+          "questionId": "q-583",
+          "originalQuestionNumber": "46",
+          "sourceId": "src-gemini-more-033",
+          "date": "2026-09-05",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "62890c1602c09313ef01269d40fac848ef944e6adc54e0d2a7ed4006bbff0b60",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-583-source-7ba066159c.jpg",
+            "assets/questions/q-583-source-material-91b866b433.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "石門附近的人文行程，找不宜就近的一項",
+            "art": "assets/comics/q-583-art-ef24caf925.svg",
+            "panels": [
+              {
+                "heading": "① 先定位活動地點：新北石門",
+                "text": "共同題文說風箏節在新北市石門區。橙點標在臺灣本島北端一帶。題目要找放完風箏後就近安排，卻又不宜列入的文化行程。",
+                "alt": "臺灣本島簡化定位圖，北端橙點為石門；程式定位、不生成地名，非精密海岸線或交通路線。"
+              },
+              {
+                "heading": "② 圓山、十三行、大坌坑在北部",
+                "text": "本格放大北部：橙點仍是石門；藍點代表臺北圓山，以及新北八里的十三行、大坌坑代表遺址。B、C、D都屬北部，較符合題目的相對就近。",
+                "alt": "北部概略定位放大，三藍點的相對區位固定，十三行與大坌坑鄰近；不以此圖計算車程或宣稱文化僅分布該點。"
+              },
+              {
+                "heading": "③ 長濱在臺東，離石門較遠",
+                "text": "紅點是臺東長濱一帶，長濱文化的代表遺址八仙洞在這裡。相較其他北部選項，A最不符合就近，因此是本題要選的不宜行程。",
+                "alt": "同一臺灣本島概略圖保留北端橙點與東部長濱紅點，直觀比較區位；無虛構行車路線、公里數、時間或年代。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：長濱文化",
+              "points": [
+                "先找共同題文的石門位置。",
+                "圈清楚就近與不宜兩個條件。",
+                "比代表遺址區位，不是在比文化年代。"
+              ]
+            },
+            "protectedWords": [
+              "石門",
+              "長濱文化",
+              "八仙洞",
+              "臺東長濱",
+              "圓山文化",
+              "十三行文化",
+              "大坌坑文化",
+              "八里",
+              "就近",
+              "不宜"
+            ]
+          },
+          "fullQuestion": "小明一家人放完風箏後，想就近來一趟人文之旅，下列哪一考古行程不宜列入參考？\n\n(A) 長濱文化\n(B) 圓山文化\n(C) 十三行文化\n(D) 大坌坑文化",
+          "answer": "正確答案：A，長濱文化。",
+          "explanation": "【先找活動地點與否定詞】\n共同題文的活動在新北市石門區，問的是放完風箏後「就近」參觀，而且要選「不宜」列入的行程。\n\n【比較四個文化的代表遺址】\n長濱文化的代表遺址八仙洞在臺東長濱，距離新北石門較遠，因此A最不符合就近的條件。\n圓山文化的代表遺址在臺北；十三行及大坌坑的代表遺址在新北八里，均屬北部，較符合本題安排。\n\n【不要把文化年代與距離混為一談】\n這題不是問哪個文化最早或最晚，而是用活動地點判斷附近的文化行程。就近只是題目中的相對比較，不必額外猜實際車程。"
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "sameOriginalPaper": true
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/originals/gemini-SGQGiTFXRSh7-3.jpg",
+      "visibleHeader": "原卷社會1-13頁大題44～54之下，風箏短文明確另標「回答第44～46題」；共同活動文字/圖九與44/45/46完整四項同頁。",
+      "questionNumbers": [
+        "44",
+        "45",
+        "46"
+      ],
+      "sha256": "82922fb24e0ccf67e114835a191cd701e852a1119517556150f50112e0c30d2f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-581-source-material-5080bc7268.jpg",
+      "visibleHeader": "2025石門風箏活動/當天東南風與圖九完整共同材料。",
+      "questionNumbers": [
+        "44-46(material)"
+      ],
+      "sha256": "5080bc72688fd5059a55b1d47b40d2ed3cb0b2ad9e3b43cfe0c5e00ba8e14526",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-581-source-5cd5146d05.jpg",
+      "visibleHeader": "44問配置圖可得資訊A-D。",
+      "questionNumbers": [
+        "44"
+      ],
+      "sha256": "5cd5146d0568fd7d09936370112e0fbb6475974369fe4706561d0eb7bcfd25b5",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-582-source-9db8e5d852.jpg",
+      "visibleHeader": "45活動當天逆風跑動四方位。",
+      "questionNumbers": [
+        "45"
+      ],
+      "sha256": "9db8e5d8520a18f0514fa2b15dd99e47a6d4eb7482e10ab429b6962d79462b06",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-583-source-7ba066159c.jpg",
+      "visibleHeader": "46承放風箏後就近人文旅程，長濱/圓山/十三行/大坌坑四項。",
+      "questionNumbers": [
+        "46"
+      ],
+      "sha256": "7ba066159cb5887d63486da91fc07aafff9aa15f0f82d9d12cbecabceb670ead",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-581-figure-a849017915.jpg",
+      "visibleHeader": "原圖九各區/中心/舞臺/市集必要配置圖，合組仍須展示。",
+      "questionNumbers": [
+        "44(figure)"
+      ],
+      "sha256": "a8490179153a6baac2664a44efc6ba874856547cdfc9c4d165da638581afd9d9",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "原答C/A/A及所有選項/詳解/三套自製四格保留。圖九不可因另兩子questionFigures空而丟掉，至少在44作答之前完整保留，可放共同材料後一次展示。大段44～54包括後面其他閱讀，不能整段合一。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-581",
+      "q-582",
+      "q-583"
+    ],
+    "reviewedQuestionIds": [
+      "q-581",
+      "q-582",
+      "q-583"
+    ],
+    "confirmedQuestionIds": [
+      "q-581",
+      "q-582",
+      "q-583"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-581": "7922e82d3351c1bf8b1ddfbe1273b21b586996550dac710281fc48982db1398b",
+    "q-582": "bd646999c1d37d82b8688c4be3bceca64f6bf3f801c80e8666a021699df18842",
+    "q-583": "53c8fe877ce66e663281aa56a07c60a7e05d2e43fdee262734a008a1bf7c613e"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-541",
+  "reviewerAgent": "/root/comic_lane_3",
+  "reviewedAt": "2026-10-29T12:39:30.164726+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-541",
+    "q-542"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-541",
+    "q-542"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-541-q-542",
+      "questionIds": [
+        "q-541",
+        "q-542"
+      ],
+      "retainId": "q-541",
+      "aliasIds": [
+        "q-542"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-541": "Chinese",
+        "q-542": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-024"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/VAh0FUGIfRrM"
+      ],
+      "printedRange": "同一src-gemini-more-024題組(四)單一甲乙雙文本框，29與30均明問此兩篇，為完整雙文本真題組，不僅同人物主題相近。",
+      "originalQuestionNumbers": {
+        "q-541": "29",
+        "q-542": "30"
+      },
+      "commonMaterial": {
+        "passage": "【甲】\n姜公輔，不知何許人。登進士第，為校書郎。應制策科高等，授左拾遺，召入翰林為學士。歲滿當改官，公輔上書自陳，以母老家貧，以府掾俸給稍優，乃求兼京兆尹戶曹參軍，特承恩顧。才高有器識，每對見言事，德宗多從之。\n——《舊唐書・姜公輔傳》\n\n【乙】\n姜公輔，愛州日南人。第進士，補校書郎，以制策異等授右拾遺，為翰林學士。歲滿當遷，上書以母老賴祿而養，求兼京兆尹戶曹參軍事。公輔有高材，每進見，敷奏詳亮，德宗器之。\n——《新唐書・姜公輔傳》",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/originals/gemini-VAh0FUGIfRrM-1.jpg",
+          "visibleHeader": "原卷題組(四)明印「請閱讀以下二文，並回答問題」，舊/新唐書甲乙兩段共同框後連接29與30完整四選。",
+          "questionNumbers": [
+            "29",
+            "30"
+          ],
+          "sha256": "7abdcfe0c69955e541b8fa45d25cec05ef96e638a8f67bdf3386e1a492d23b8c",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-541-reading-source-4549729fd5.jpg",
+          "visibleHeader": "共同甲舊唐書/乙新唐書姜公輔傳，兩文左/右拾遺記載不同照原留。",
+          "questionNumbers": [
+            "29-30(article)"
+          ],
+          "sha256": "4549729fd53111b5fab0a47d94778abca00614118da7e9c1c57bc5ba1e87e7fb",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-541-source-a2acaea737.jpg",
+          "visibleHeader": "29明根據甲乙兩文問出身背景，A-D完整。",
+          "questionNumbers": [
+            "29"
+          ],
+          "sha256": "a2acaea737d6dced453dc9bea9eece867c80e3d734a7b0e0ba8852eaca007629",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-542-source-0ff45add7f.jpg",
+          "visibleHeader": "30明兩段史料比較，A-D完整。",
+          "questionNumbers": [
+            "30"
+          ],
+          "sha256": "0ff45add7f8be639018fa2dc53d7f140561779f05881d99f76c718ae9e0717e6",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-024題組(四)單一甲乙雙文本框，29與30均明問此兩篇，為完整雙文本真題組，不僅同人物主題相近。",
+      "childCoverage": [
+        {
+          "questionId": "q-541",
+          "originalQuestionNumber": "29",
+          "sourceId": "src-gemini-more-024",
+          "date": "2026-08-31",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "3909a56498a4fb4f1b62eba504825d786e6e95aa284854a44999f2301ac07238",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-541-reading-source-4549729fd5.jpg",
+            "assets/questions/q-541-source-a2acaea737.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "籍貫、科名與職官，逐項對照兩文",
+            "art": "assets/comics/q-541-art-ea78df7d01.svg",
+            "panels": [
+              {
+                "heading": "① 籍貫：甲未詳記，乙有明文",
+                "text": "甲說「不知何許人」，沒有具體籍貫；乙寫「愛州日南人」，有明確記載。因此C符合甲文，不是A所說兩篇皆記愛州日南。",
+                "alt": "甲未詳記與乙愛州日南並列，分清文字記錄範圍，不把甲文未載畫成人物失憶。"
+              },
+              {
+                "heading": "② 進士：不同說法，意思相同",
+                "text": "甲的「登進士第」與乙的「第進士」，都表示考中進士。B說兩篇皆未提到進士，和兩文的明確記載相反。",
+                "alt": "甲登進士第、乙第進士兩條箭頭合到考中進士，詞序不同不代表身分不同。"
+              },
+              {
+                "heading": "③ D把不同資訊拼成錯誤結論",
+                "text": "「家貧」見於甲，屬家庭狀況；乙的「愛州日南」才是籍貫。「京兆尹戶曹參軍事」是所求兼任的官職，不能拼成出身於貧困的京城。",
+                "alt": "三色資訊卡分開籍貫、家庭狀況與京兆職官，京兆不能替換為出生地，家貧也不能移入乙文。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：甲文對出身未詳加說明",
+              "points": [
+                "不知何許人：本文未詳記籍貫，不是姜公輔自己不知道。",
+                "兩文都寫考中進士，不能漏讀科名。",
+                "比較閱讀，要核對哪篇說了什麼，以及資訊屬於哪一類。"
+              ]
+            },
+            "protectedWords": [
+              "姜公輔",
+              "愛州日南",
+              "不知何許人",
+              "登進士第",
+              "第進士",
+              "考中進士",
+              "京兆尹戶曹參軍事",
+              "家庭狀況",
+              "未詳記籍貫"
+            ]
+          },
+          "fullQuestion": "根據甲、乙兩文，關於姜公輔的出身背景，下列敘述何者正確？\n\n(A) 皆明確記載他是愛州日南人\n(B) 皆未提及他具備進士身分\n(C) 甲文對他的出身未詳加說明\n(D) 乙文指出他出身於貧困的京城",
+          "answer": "正確答案：C，甲文對他的出身未詳加說明。",
+          "explanation": "【甲文完整白話】\n姜公輔，這篇未詳載他是哪裡人。他考中進士，擔任校書郎；參加制策科考試成績優異，獲授左拾遺，並被召入翰林當學士。\n任期滿、應當改任官職時，他上書說明母親年老、家境貧窮，而官府屬官的俸給稍好，便請求兼任京兆尹戶曹參軍，特別得到皇帝眷顧。他才華高、識見好，每次面見皇帝議論政事，德宗多半採納。\n\n【乙文完整白話】\n姜公輔是愛州日南人，考中進士，補任校書郎；因制策考試成績優異，獲授右拾遺，擔任翰林學士。\n任期滿、將要遷任時，他上書說母親年老，要靠俸祿奉養，請求兼任京兆尹戶曹參軍事。他才華出眾，每次進見，陳述奏議都詳盡明白，德宗很器重他。\n\n【重要字詞及兩文記載】\n何許是什麼地方；不知何許人是作者未載明籍貫，不是姜公輔本人不知道自己哪裡出生。登進士第、 第進士都是考中進士。\n府掾是官府屬官，俸給是官員薪俸；賴祿而養是依靠俸祿奉養母親；敷奏詳亮是陳述奏議詳盡、清楚；器之是器重他。\n原卷甲寫左拾遺，乙寫右拾遺，依各自原文保留，不為了讓兩文一致而擅改。歲滿當遷是應當遷任的敘述，不等於已經記載他因受器重而晉升高官。\n\n【先分清每句屬於哪一篇】\n甲開頭是不知何許人，沒有具體籍貫；乙明寫愛州日南人。因此C符合甲文的記載範圍，A兩篇皆明確記載愛州日南不對。\n甲的登進士第、乙的第進士，都交代進士身分，所以B皆未提及不對。\n母老家貧出現在甲，不能把它和乙的任職地京兆拼接成出身於貧困的京城。乙的愛州日南是籍貫，京兆尹戶曹參軍事是所求兼任的官職，D混淆出生背景、家庭狀況與任官地。"
+        },
+        {
+          "questionId": "q-542",
+          "originalQuestionNumber": "30",
+          "sourceId": "src-gemini-more-024",
+          "date": "2026-08-31",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "e681345c5336b68613d1fd4a7f64a37d11f4c26b96812a60cc0f318987280c52",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-542-reading-source-4549729fd5.jpg",
+            "assets/questions/q-542-source-0ff45add7f.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "比較明文與詳略，不替史料補因果",
+            "art": "assets/comics/q-542-art-034bb9936d.svg",
+            "panels": [
+              {
+                "heading": "① 同一項資料，並排才能比較",
+                "text": "甲只說不知何許人，未詳記籍貫；乙明寫愛州日南人，有具體地名。因此A比較地理資訊的精確與具體程度，能直接得到兩文支持。",
+                "alt": "籍貫欄甲不知何許人對乙愛州日南人，並排兩筆原句；沒有虛構古今地圖位置或現代行政對應。"
+              },
+              {
+                "heading": "② 省略或詳略不同，不等於互相否定",
+                "text": "甲的母老家貧，與乙的母老、賴祿而養可以相容。不能因乙較簡略就說甲完全不可信；為養母而求兼官，也不足以斷定貪慕富貴。",
+                "alt": "兩筆家庭描述卡保留原句並列，未畫互相矛盾符號，不將求薪俸虛構成貪財劇情。"
+              },
+              {
+                "heading": "③ 器重有寫，不代表晉升結果也寫了",
+                "text": "乙的德宗器之確實支持受器重，但這段沒有明寫因此晉升高官。D把一個有根據的前半句，接上未明示的結果與因果，推論超出本文。",
+                "alt": "德宗器之已記載卡與因此晉升高官問號卡，兩者間斷線問號表示缺證據，非已成立升遷箭頭。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 A：乙的籍貫記載更具體",
+              "points": [
+                "比較同一項目，不把沒寫當成否定。",
+                "求兼官奉養母親，不等同貪慕富貴。",
+                "分清楚明文、合理推論與自行補上的因果。"
+              ]
+            },
+            "protectedWords": [
+              "姜公輔",
+              "不知何許人",
+              "愛州日南人",
+              "母老家貧",
+              "賴祿而養",
+              "德宗器之",
+              "受器重",
+              "晉升高官",
+              "籍貫",
+              "貪慕富貴",
+              "詳略"
+            ]
+          },
+          "fullQuestion": "若要針對這兩段史料進行比較評論，下列哪一個觀察最為中肯？\n\n(A) 乙文在地理位置的紀錄比甲文精確且具體\n(B) 甲文對姜公輔家庭狀況的描寫完全不可信\n(C) 甲文可知姜公輔貪慕富貴之心\n(D) 乙文可見姜公輔受德宗器重，晉升高官",
+          "answer": "正確答案：A，乙文在地理位置的紀錄比甲文精確且具體。",
+          "explanation": "【甲文完整白話】\n姜公輔，這篇未詳載他是哪裡人。他考中進士，擔任校書郎；參加制策科考試成績優異，獲授左拾遺，並被召入翰林當學士。\n任期滿、應當改任官職時，他上書說明母親年老、家境貧窮，而官府屬官的俸給稍好，便請求兼任京兆尹戶曹參軍，特別得到皇帝眷顧。他才華高、識見好，每次面見皇帝議論政事，德宗多半採納。\n\n【乙文完整白話】\n姜公輔是愛州日南人，考中進士，補任校書郎；因制策考試成績優異，獲授右拾遺，擔任翰林學士。\n任期滿、將要遷任時，他上書說母親年老，要靠俸祿奉養，請求兼任京兆尹戶曹參軍事。他才華出眾，每次進見，陳述奏議都詳盡明白，德宗很器重他。\n\n【重要字詞及兩文記載】\n何許是什麼地方；不知何許人是作者未載明籍貫，不是姜公輔本人不知道自己哪裡出生。登進士第、 第進士都是考中進士。\n府掾是官府屬官，俸給是官員薪俸；賴祿而養是依靠俸祿奉養母親；敷奏詳亮是陳述奏議詳盡、清楚；器之是器重他。\n原卷甲寫左拾遺，乙寫右拾遺，依各自原文保留，不為了讓兩文一致而擅改。歲滿當遷是應當遷任的敘述，不等於已經記載他因受器重而晉升高官。\n\n【比較要看明文支持，不能先加價值判斷】\nA：乙有愛州日南的具體籍貫，甲沒有載明，乙在這項地理資訊更精確、具體，評論有根據。\nB：甲說母老家貧，乙說母老賴祿而養，詳略不同卻能相互對應，沒有理由因此斷言甲的家庭狀況完全不可信。\nC：為奉養年老母親而求兼薪俸較好的官職，不等於貪慕富貴；不能把尋求俸給一律推成貪念。\nD：乙確有德宗器之，支持受器重；但沒有明寫因此晉升高官的結果。前面的任官記載也不能任意與後面的器重串成未明示的因果。A對資料詳略的比較較準確。\n史料省略某細節，不代表否定另一篇記載；比較時先分清有寫、沒寫、可推論與過度推論。"
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ],
+      "sameOriginalPaper": true
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/originals/gemini-VAh0FUGIfRrM-1.jpg",
+      "visibleHeader": "原卷題組(四)明印「請閱讀以下二文，並回答問題」，舊/新唐書甲乙兩段共同框後連接29與30完整四選。",
+      "questionNumbers": [
+        "29",
+        "30"
+      ],
+      "sha256": "7abdcfe0c69955e541b8fa45d25cec05ef96e638a8f67bdf3386e1a492d23b8c",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-541-reading-source-4549729fd5.jpg",
+      "visibleHeader": "共同甲舊唐書/乙新唐書姜公輔傳，兩文左/右拾遺記載不同照原留。",
+      "questionNumbers": [
+        "29-30(article)"
+      ],
+      "sha256": "4549729fd53111b5fab0a47d94778abca00614118da7e9c1c57bc5ba1e87e7fb",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-541-source-a2acaea737.jpg",
+      "visibleHeader": "29明根據甲乙兩文問出身背景，A-D完整。",
+      "questionNumbers": [
+        "29"
+      ],
+      "sha256": "a2acaea737d6dced453dc9bea9eece867c80e3d734a7b0e0ba8852eaca007629",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-542-source-0ff45add7f.jpg",
+      "visibleHeader": "30明兩段史料比較，A-D完整。",
+      "questionNumbers": [
+        "30"
+      ],
+      "sha256": "0ff45add7f8be639018fa2dc53d7f140561779f05881d99f76c718ae9e0717e6",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "原C/A與全部選項、兩篇白話/比較詳解、新四格保留。甲左拾遺乙右拾遺是原卷分別記載，不可為合組統一改字；不知何許人也不能改成愛州日南來抹去差異。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-541",
+      "q-542"
+    ],
+    "reviewedQuestionIds": [
+      "q-541",
+      "q-542"
+    ],
+    "confirmedQuestionIds": [
+      "q-541",
+      "q-542"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-541": "dfe9d2c4144cebfeb3fbf9bf024af17e9df8a1b0bc7fd4d2931b37f9b8921944",
+    "q-542": "d62e9417cd3f005526986ae07a050f95f1fe9bb460cd5e9a8cd7c3595eee3af9"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-766",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:48:44.713700+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-766",
+    "q-767"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-766",
+    "q-767"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-766-q-767",
+      "questionIds": [
+        "q-766",
+        "q-767"
+      ],
+      "retainId": "q-766",
+      "aliasIds": [
+        "q-767"
+      ],
+      "subject": "History",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "History",
+      "childSubjects": {
+        "q-766": "History",
+        "q-767": "History"
+      },
+      "sourceIds": [
+        "src-gemini-more-048"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/h1wbwCp8gYgo"
+      ],
+      "printedRange": "同源048同張原卷題組(一)，共同唐代文化外傳文與甲乙丙丁圖，31、32均直接指向該圖，形成原卷兩小題組。",
+      "originalQuestionNumbers": {
+        "q-766": "31",
+        "q-767": "32"
+      },
+      "commonMaterial": {
+        "passage": "唐代是一個承前啟後、大放異彩的全盛時期，其文化騰達和威力遠播，與當時西方世界的混亂和分裂形成了強烈的對比，以致在文明發展史上遙遙領先。附圖是唐代文化的外傳指示意圖，請問：",
+        "tables": [],
+        "questionFigures": [
+          {
+            "src": "assets/questions/q-766-figure-79945285a9.jpg",
+            "alt": "唐文化外傳原圖，甲在西方、乙在青藏高原、丙在朝鮮半島、丁在日本",
+            "caption": "原卷共同地圖；依原圖判斷甲乙丙丁的位置"
+          }
+        ]
+      },
+      "originalEvidence": [
+        {
+          "path": "docs/source-pages/gemini-h1wbwCp8gYgo-2.jpg",
+          "visibleHeader": "同張歷史試卷「二、題組」下(一)唐代文化外傳共文及甲乙丙丁地圖，緊接31導遊君子國、32圖上乙國交流；兩題都位於共同材料下，沒有新材料分界。",
+          "questionNumbers": [
+            "31",
+            "32"
+          ],
+          "sha256": "9a2595a58f246023dd69764b1e14066291f0acb599497e3ed386eeb111f1d4a1",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-766-source-6037eaa64a.jpg",
+          "visibleHeader": "31完整題幹問圖上的某國及君子國，甲乙丙丁四選。",
+          "questionNumbers": [
+            "31"
+          ],
+          "sha256": "6037eaa64ad412fa0c53b0fd154db557eaad99897285132724fb0309a93aa6b6",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-767-source-b362d2b474.jpg",
+          "visibleHeader": "32明說「圖上的乙國」與唐帝國交流互動，四選完整，紙鈔C。",
+          "questionNumbers": [
+            "32"
+          ],
+          "sha256": "b362d2b474fc5b73034bd0b34c764935faebbd167ad865c05f53f912ca79e15f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-766-figure-79945285a9.jpg",
+          "visibleHeader": "兩題共同唐文化外傳圖，甲西方/乙青藏高原/丙朝鮮半島/丁日本；原卷31/32在同圖下。",
+          "questionNumbers": [
+            "31",
+            "32"
+          ],
+          "sha256": "79945285a98d7adde3a11c7c0fbad42b8f4477a6bfab87a7351040adbb93978d",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同源048同張原卷題組(一)，共同唐代文化外傳文與甲乙丙丁圖，31、32均直接指向該圖，形成原卷兩小題組。",
+      "childCoverage": [
+        {
+          "questionId": "q-766",
+          "originalQuestionNumber": "31",
+          "sourceId": "src-gemini-more-048",
+          "date": "2026-09-22",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "94f3d4d2fecfc2cdf1b73519778068a970b7e451a9758c2eda2412d848335840",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-766-source-6037eaa64a.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-766-figure-79945285a9.jpg",
+              "alt": "唐文化外傳原圖，甲在西方、乙在青藏高原、丙在朝鮮半島、丁在日本",
+              "caption": "原卷共同地圖；依原圖判斷甲乙丙丁的位置"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "先辨新羅，再到原圖找朝鮮半島",
+            "art": "assets/comics/q-766-art-8694639034-web.webp",
+            "panels": [
+              {
+                "heading": "① 唐文化傳入周邊國家",
+                "text": "題目提到唐代，以及學習文字、曆法。\n但日本、新羅都曾學習唐文化，\n只抓這個線索，還不能選定地點。",
+                "alt": "唐代學術交流的概念情境，教具與人物非特定史事重現"
+              },
+              {
+                "heading": "② 關鍵稱呼：君子國，指新羅",
+                "text": "本題的君子國線索，指向新羅。\n新羅深受唐文化影響，\n文字、曆法與制度都曾向唐學習。",
+                "alt": "新羅風格學習書籍與曆法知識的概念情境，非器物精確復原或文字史料"
+              },
+              {
+                "heading": "③ 新羅在朝鮮半島，對照原圖丙",
+                "text": "回到題目的地圖，\n朝鮮半島所在位置標的是丙。\n日本標的是丁，不要把兩地混淆。",
+                "alt": "現代歷史旅行團聆聽導覽的情境；位置判讀依實看原卷地圖，不用AI生成假地圖"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：圖中丙，新羅",
+              "points": [
+                "文字辨國：君子國→新羅。",
+                "地圖定位：朝鮮半島→丙。",
+                "選項C代表丙，須由原圖核對，不是字母直接對號。"
+              ]
+            },
+            "protectedWords": [
+              "唐文化",
+              "君子國",
+              "新羅",
+              "朝鮮半島",
+              "原圖丙",
+              "圖中丙"
+            ]
+          }
+        },
+        {
+          "questionId": "q-767",
+          "originalQuestionNumber": "32",
+          "sourceId": "src-gemini-more-048",
+          "date": "2026-09-22",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "C",
+          "questionFingerprint": "f9694a65457b26a67ba777103c45968a0c9a3fd249166077fffe563c01e9a354",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-767-source-b362d2b474.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [
+            {
+              "src": "assets/questions/q-766-figure-79945285a9.jpg",
+              "alt": "原卷唐文化外傳共同地圖，乙標在青藏高原",
+              "caption": "與第31題共用的原卷地圖"
+            }
+          ],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "唐代交流，不能放進宋代的紙幣",
+            "art": "assets/comics/q-767-art-8803f497e3-web.webp",
+            "panels": [
+              {
+                "heading": "① 先依原圖認乙，再看不包括",
+                "text": "乙位在青藏高原，題目指的是吐蕃。這題問唐與吐蕃往來中不包括哪項，不是看見文化交流就把四項全收。",
+                "alt": "高原只是教學情境，吐蕃判定依原卷地圖，不以生成風景代替原圖位置。"
+              },
+              {
+                "heading": "② 農技、宗教與和親符合時代背景",
+                "text": "A農業技術、B佛教相關交流、D公主和親，都能放在唐與吐蕃往來的脈絡。文成公主和親，就是D的例子。",
+                "alt": "泛指古代文化往來的文意情境，不冒充確切人物事件或宣稱西藏文化只來自唐。"
+              },
+              {
+                "heading": "③ 紙幣交子要放到北宋等後續時代",
+                "text": "教材以北宋交子作紙幣時代的分界，因此C不能倒放進唐代往來。唐代有紙張和飛錢匯兌，不代表已有本題所說的流通紙幣。",
+                "alt": "現代讀者分辨時代的教具場景，不讓AI畫偽造的交子紙幣或亂印面額。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：紙鈔用法傳入乙國",
+              "points": [
+                "先看原圖乙＝吐蕃，再檢查唐代背景。",
+                "紙張、匯兌票據、流通紙幣要分開。",
+                "題問不包括；C是時代不合，不是唐代沒有紙。"
+              ]
+            },
+            "protectedWords": [
+              "吐蕃",
+              "青藏高原",
+              "唐代",
+              "北宋",
+              "交子",
+              "飛錢",
+              "紙幣",
+              "文成公主"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "docs/source-pages/gemini-h1wbwCp8gYgo-2.jpg",
+      "visibleHeader": "同張歷史試卷「二、題組」下(一)唐代文化外傳共文及甲乙丙丁地圖，緊接31導遊君子國、32圖上乙國交流；兩題都位於共同材料下，沒有新材料分界。",
+      "questionNumbers": [
+        "31",
+        "32"
+      ],
+      "sha256": "9a2595a58f246023dd69764b1e14066291f0acb599497e3ed386eeb111f1d4a1",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-766-source-6037eaa64a.jpg",
+      "visibleHeader": "31完整題幹問圖上的某國及君子國，甲乙丙丁四選。",
+      "questionNumbers": [
+        "31"
+      ],
+      "sha256": "6037eaa64ad412fa0c53b0fd154db557eaad99897285132724fb0309a93aa6b6",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-767-source-b362d2b474.jpg",
+      "visibleHeader": "32明說「圖上的乙國」與唐帝國交流互動，四選完整，紙鈔C。",
+      "questionNumbers": [
+        "32"
+      ],
+      "sha256": "b362d2b474fc5b73034bd0b34c764935faebbd167ad865c05f53f912ca79e15f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-766-figure-79945285a9.jpg",
+      "visibleHeader": "兩題共同唐文化外傳圖，甲西方/乙青藏高原/丙朝鮮半島/丁日本；原卷31/32在同圖下。",
+      "questionNumbers": [
+        "31",
+        "32"
+      ],
+      "sha256": "79945285a98d7adde3a11c7c0fbad42b8f4477a6bfab87a7351040adbb93978d",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "共同原圖與圖例/文字全部保留一次；31/32分題各自四選、C/C答案、學生原答與紅改、兩份自製教學均完整保留。",
+    "相同照片其他單題27～30未共享此題組材料，不因同一張照片加入。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-766",
+      "q-767"
+    ],
+    "reviewedQuestionIds": [
+      "q-766",
+      "q-767"
+    ],
+    "confirmedQuestionIds": [
+      "q-766",
+      "q-767"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-766": "b813533d1507c34c1abe85537843134b45aa6fabe0ba5125f0aa0e0d26f1d63f",
+    "q-767": "d5269486fe79aca9b07fa7f6cf44c19f8b447132d2935f90dca1b7c52ac2033b"
+  }
+}

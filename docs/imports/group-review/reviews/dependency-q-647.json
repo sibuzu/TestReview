@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "dependency-q-647",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T13:00:00.642393+00:00",
+  "decision": "rejected",
+  "inventoryQuestionIds": [
+    "q-647"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-647"
+  ],
+  "confirmedGroups": [],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-647-source-030d04eabc.jpg",
+      "sha256": "030d04eabcc4650c574ae3c5e6e432ffc554fc001d770684453055e90d3dfa4b",
+      "visualChecked": true,
+      "visibleHeader": "原印第7題明說承上題，並給自身0/1/2公里比例尺，黑色0～1段已知圖上1公分，完整A-D四選。",
+      "questionNumbers": [
+        "7"
+      ]
+    },
+    {
+      "path": "site/dist/assets/originals/gemini-5LjOi6JL0S8W-1.jpg",
+      "sha256": "e8007f1463d79ce8ebf4257dfe79cbb51d6bdb7145a9b81401ea88fc26a30884",
+      "visualChecked": true,
+      "visibleHeader": "同張原卷可見前題6：2016美濃強震後臺灣全島土壤液化潛勢查詢系統，點選⊕使空間範圍縮小，問哪個地圖要素變化；圖名/圖例/方向標/比例尺。接下才是7承上題。",
+      "questionNumbers": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "reason": "原卷前題6已實看，但838既有題庫未收此美濃/土壤液化系統與地圖縮放題，因此無existing mate可合。相鄰q646屬source040的AI延伸營地選擇，不是source041原卷6。保留q647原7完整單題，不為合組新增6。",
+  "coverage": {
+    "inputQuestionIds": [
+      "q-647"
+    ],
+    "reviewedQuestionIds": [
+      "q-647"
+    ],
+    "confirmedQuestionIds": [],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "dependencyResolution": {
+    "printedPredecessorNumber": "6",
+    "predecessorVisibleInOriginal": true,
+    "predecessorInPublishedBank": false,
+    "searchedQuestionCount": 838,
+    "searchedFields": [
+      "title",
+      "question",
+      "passage"
+    ],
+    "searchTerms": [
+      "美濃",
+      "潛勢",
+      "空間範圍",
+      "滑鼠",
+      "土壤液化",
+      "地圖要素"
+    ],
+    "matchingExistingQuestionIds": [],
+    "sameSourceOriginalQuestionIds": [
+      "q-647",
+      "q-648",
+      "q-649",
+      "q-650",
+      "q-651",
+      "q-652"
+    ],
+    "wrongAdjacentMate": "q646來源src-gemini-more-040、AI延伸等高線營地選擇，非原卷前6；依最新user規則移除AI由root/Agent1統一處理。"
+  },
+  "retainedSeparately": [
+    {
+      "questionId": "q-647",
+      "sourceLabel": "分享原卷｜第7題",
+      "originalQuestionNumber": "7",
+      "fullQuestion": "承上題，圖面上的比例尺如右，用尺測量後得出黑色線段長度為1公分，該圖的比例尺為多少？\n\n(A) 1：1\n(B) 1：100\n(C) 1：1,000\n(D) 1：100,000",
+      "correctOption": "D",
+      "requiredQuestionFigures": [
+        {
+          "src": "assets/questions/q-647-scale-e7da819d3f.jpg",
+          "alt": "原卷比例尺：黑段0至1公里，題目已知其原卷長度為1公分",
+          "caption": "原卷比例尺：黑段0至1公里，題目已知其原卷長度為1公分"
+        }
+      ],
+      "reason": "前題6未入庫，7自有0～1公里黑段比例尺和1公分條件可完整作答，保留現況。",
+      "preserveUnchanged": true
+    }
+  ],
+  "notes": [
+    "只完成root指定最後單一原卷候選，不再claim其他，也未合稿、未改共享題庫或原D答案。",
+    "本項是拒絕額外合併，不是刪除原卷題q647。"
+  ],
+  "inputFingerprints": {
+    "q-647": "6e20b7911a6704bb32e2216f60bf308fa42dde877d7ea82d39036d6a09b716a9"
+  }
+}

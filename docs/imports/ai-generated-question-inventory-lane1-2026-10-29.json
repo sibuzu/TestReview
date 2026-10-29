@@ -1,0 +1,1272 @@
+{
+  "checkedAt": "2026-10-29T12:54:49.765542+00:00",
+  "readOnlyAudit": true,
+  "dataCountBefore": 838,
+  "candidateCount": 81,
+  "projectedRetainedCount": 757,
+  "bySubject": {
+    "Geography": 33,
+    "English": 26,
+    "Chinese": 15,
+    "Math": 7
+  },
+  "comicStatuses": {
+    "complete": 67,
+    "not_suitable": 14
+  },
+  "extraEvidence": {
+    "q172q173q174": {
+      "transcript": "site/dist/sources/gemini-aasmEiRUGhOz.txt",
+      "lines": "6–14",
+      "quote": "You said 請出類似題練習；我針對第5題、第6/7題，以及第8題各出一題非常類似的變型題"
+    }
+  },
+  "preserveNonAITextQuestions": [
+    "q-001",
+    "q-002",
+    "q-201",
+    "q-491",
+    "q-528",
+    "q-529"
+  ],
+  "candidates": [
+    {
+      "id": "q-172",
+      "title": "數學類似題1｜三邊含x的整數範圍",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-001",
+      "sourceURL": "https://share.gemini.google/aasmEiRUGhOz",
+      "sourceLabel": "分享對話｜類似題練習1",
+      "verificationNote": "題目完整來自分享對話的文字練習，不是照片中的原卷第5題；已獨立重算。",
+      "tags": [
+        "三角不等式",
+        "類似題練習"
+      ],
+      "fullQuestionSHA256": "c701d02a0ab5678d23e10b991ee5a94b02a0761b21050c79a0651fe92e99f2b1",
+      "reason": "原AI對話產生類似題練習，非原卷錯題"
+    },
+    {
+      "id": "q-173",
+      "title": "數學類似題2｜兩點分居直線兩側的最短路徑",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-001",
+      "sourceURL": "https://share.gemini.google/aasmEiRUGhOz",
+      "sourceLabel": "分享對話｜類似題練習2",
+      "verificationNote": "題目完整依分享對話文字保留；原AI解答的6已經獨立重算訂正為10。",
+      "tags": [
+        "最短距離",
+        "三角不等式",
+        "類似題練習"
+      ],
+      "fullQuestionSHA256": "1d63f7dbf9417dbbc749fbe6a038658e2bb74217a2119282a45a142f28c12cb4",
+      "reason": "原AI對話產生類似題練習，非原卷錯題"
+    },
+    {
+      "id": "q-174",
+      "title": "數學類似題3｜正五邊形內的正三角形與夾角",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-001",
+      "sourceURL": "https://share.gemini.google/aasmEiRUGhOz",
+      "sourceLabel": "分享對話｜類似題練習3",
+      "verificationNote": "依完整文字條件重繪附圖；原AI解答168°已獨立核對訂正為84°。",
+      "tags": [
+        "正五邊形",
+        "等腰三角形",
+        "類似題練習"
+      ],
+      "fullQuestionSHA256": "06cb3a57bd428596413ca75750dd718f06d25ad82a1b4f30e64274ac79857d18",
+      "reason": "原AI對話產生類似題練習，非原卷錯題"
+    },
+    {
+      "id": "q-180",
+      "title": "數學延伸練習1｜五邊形對角線夾角",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-002",
+      "sourceURL": "https://share.gemini.google/fIG3raRmygwQ",
+      "sourceLabel": "分享對話｜延伸練習1",
+      "verificationNote": "已依原卷或完整文字核對並獨立解題；對應教材課次未確認，歸綜合。",
+      "tags": [
+        "多邊形內角和",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "150fb816bf938b714eb938d124cf476528d3b2adc8b031e4e4191d9eb923202c",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-182",
+      "title": "數學延伸練習3｜四邊形內的平行線角度",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-002",
+      "sourceURL": "https://share.gemini.google/fIG3raRmygwQ",
+      "sourceLabel": "分享對話｜延伸練習3",
+      "verificationNote": "已依原卷或完整文字核對並獨立解題；對應教材課次未確認，歸綜合。",
+      "tags": [
+        "四邊形內角和",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "023f3dd8e728fc64909b3766866bf38560122c4c996c81bfbc3d4a83a56fc1ac",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-183",
+      "title": "數學延伸練習4｜正三角形內的大角對大邊",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-002",
+      "sourceURL": "https://share.gemini.google/fIG3raRmygwQ",
+      "sourceLabel": "分享對話｜延伸練習4",
+      "verificationNote": "已依原卷或完整文字核對並獨立解題；對應教材課次未確認，歸綜合。",
+      "tags": [
+        "正三角形",
+        "大角對大邊",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "0cf5f9b152517d57b47ba07c418fca3a4862c302f94e157ca5f8ad32e0731528",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-184",
+      "title": "數學延伸練習5｜距離改變後的內角關係",
+      "subject": "Math",
+      "sourceId": "src-gemini-more-002",
+      "sourceURL": "https://share.gemini.google/fIG3raRmygwQ",
+      "sourceLabel": "分享對話｜延伸練習5",
+      "verificationNote": "已依原卷或完整文字核對並獨立解題；對應教材課次未確認，歸綜合。",
+      "tags": [
+        "點到直線距離",
+        "三角形外角",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "5935b30c5765d87560605a4282ff34dd6524e4db9b0f4a5591c4b382c41782f6",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-246",
+      "title": "英文模擬題｜when間接問句詢問抵達時間",
+      "subject": "English",
+      "sourceId": "src-gemini-more-008",
+      "sourceURL": "https://share.gemini.google/fyel6OsEcUin",
+      "sourceLabel": "原AI對話自編模擬題｜if／when的雙重身分",
+      "verificationNote": "依使用者確認，以接人、詢問未來抵達時間的語境選(2) will arrive。保留原題及原選項編號；arrives表固定班次時刻表的文法補充留在解說中，不把此用法教成錯誤。",
+      "tags": [
+        "when",
+        "間接問句",
+        "未來式",
+        "接人語境"
+      ],
+      "fullQuestionSHA256": "e243a75931cf660968f1a52df7af50137657adffadbf8da3b1e9f84bc2bf1378",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-617",
+      "title": "英文延伸填空1｜第一人稱單數",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空1",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "b924cbb42176b1bddcd41c38e8b39c00031fb2b42ec7566c38612df96c2176ab",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-618",
+      "title": "英文延伸填空2｜現在進行式的單數主詞",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空2",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "aa1ddedc9795799951c52cb21724f84bb503ec0d932f8ebe9c96dde4f84c3296",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-619",
+      "title": "英文延伸填空3｜兩個人作主詞",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空3",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "1b9c43a3ac1cb7a17fd2846d5401a56bca313f366acc682ae486c5c73eaaf4b7",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-620",
+      "title": "英文延伸填空4｜第二人稱主詞",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空4",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "e690df2ea3918a91264100f3812122484334ba6fd535e7fb8767e31deeb143b2",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-621",
+      "title": "英文延伸填空5｜人物的職業身分",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空5",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "bd29968d54f4aae65854ea5833e943c4065bc99b8bfe07cb805b1084281fad6a",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-622",
+      "title": "英文延伸填空6｜複數書本主詞",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空6",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "be932d55bcbf03e875d8becb6c50b61a51dac4fbb3f730903ba550cb03d28194",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-623",
+      "title": "英文延伸填空7｜天氣描述",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空7",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "e31b1cbdae4c0ea84da4605289d0af0e61dfa1a54acb16a7cb44efb15c855d91",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-624",
+      "title": "英文延伸填空8｜第一人稱複數",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞基礎填空8",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "735477a371a90e4869c607ed28f9b3e21e16f77c23fdfc5e926793c2f60caac6",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-625",
+      "title": "英文延伸改寫1｜They的否定句",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞句型改寫1",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "否定句"
+      ],
+      "fullQuestionSHA256": "bf9288c8bc8ebc196137dd3c52575db4f0fa2fe64740953d000b1c909bfff758",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-626",
+      "title": "英文延伸改寫2｜She的否定句",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞句型改寫2",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "否定句"
+      ],
+      "fullQuestionSHA256": "127af2c1544f475369ae634cbbec2dfa3cd5b188d7bf39875c5f408d2b632af8",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-627",
+      "title": "英文延伸改寫3｜咖啡的疑問句",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞句型改寫3",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "疑問句"
+      ],
+      "fullQuestionSHA256": "4f5c1ad091bcc9d8c2a4c2354e8d4452886127cdc43323ed2fe112d8d1ba794d",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-628",
+      "title": "英文延伸改寫4｜You的疑問句",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞句型改寫4",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "疑問句"
+      ],
+      "fullQuestionSHA256": "0b77badd10a09941e46435e0de1692cb42ca1e353d7d9a6c25e0559e419ee247",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-629",
+      "title": "英文延伸選擇1｜列舉物品的there be",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞選擇1",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "a62603a03cae8d2696a7b7ec155a7ab42452856c889410c9fe24be3f02bfb575",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-630",
+      "title": "英文延伸選擇2｜活動作主詞",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞選擇2",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "ae22511dc0021efdf6bdcd30350c985a4afeaf5145defb209a56711dc4752ec3",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-631",
+      "title": "英文延伸選擇3｜Both所指人數",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞選擇3",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "d71a8e96bd7a3f31dd2c2a5ee11619267e98de3079befd4f58246fce2058fb79",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-632",
+      "title": "英文延伸選擇4｜One of的核心主詞",
+      "subject": "English",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜be動詞選擇4",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "be動詞",
+        "主詞與動詞一致"
+      ],
+      "fullQuestionSHA256": "ec1dfd05db37bfb0345c6cac52ce5dfa389a764964ebd058d1a2d9235112d3f2",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-633",
+      "title": "地理延伸填空1｜凸向高處的地形",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線地形填空1",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "b773b6ddcb61c95e74886b2329b01840f853330ea27aa43b0806aa51bcadca29",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-634",
+      "title": "地理延伸填空2｜凸向低處的地形",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線地形填空2",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "85690651c8c3242fbfbfd0b5fb53a19333d95915a82bebc325bc5d1e31dc9e02",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-635",
+      "title": "地理延伸填空3｜相鄰山頭之間",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線地形填空3",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "71627713143b5541420b738f39ebe6e14f91eda855a05969463ecba1e94d258a",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-636",
+      "title": "地理延伸填空4｜重疊等高線的意義",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線地形填空4",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "015b2651fd08cd93b9be906b13da96206c7320d5ff8c80135dff338d60af922c",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-637",
+      "title": "地理延伸填空5｜閉合曲線高度變化1",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線地形填空5",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "fd1b84dc6a2a6c78955afd721f69185b89a8f0f214e481bfd508b7b2bd9cea8b",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-638",
+      "title": "地理延伸填空6｜閉合曲線高度變化2",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線地形填空6",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "02ad6e46c9c0f60947507a7d9856adbb4caaebe6a1d5e7a6d094e37e231f9e53",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-639",
+      "title": "地理延伸是非1｜線條密度與坡度",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線是非1",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "觀念判斷"
+      ],
+      "fullQuestionSHA256": "71d22a78b3ce5c10dc188bc51a629c0ca10ac7fd4f9daf04ba0115f5171a602b",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-640",
+      "title": "地理延伸是非2｜河流與地形位置",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線是非2",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "觀念判斷"
+      ],
+      "fullQuestionSHA256": "49486c3e616aea777b3e857ff1eab64cefc6de26ab52fd717d5dc30ddf3dacbc",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-641",
+      "title": "地理延伸是非3｜地形與通視",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線是非3",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "觀念判斷"
+      ],
+      "fullQuestionSHA256": "d7fea7a05d5685d34a8a42382e74869d39b68d8c4034b60608adb4c897521033",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-642",
+      "title": "地理延伸是非4｜等高距能否單獨決定坡度",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線是非4",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "觀念判斷"
+      ],
+      "fullQuestionSHA256": "b3e9b929b6e5d824b5dc494756c5553d15e40785428e5ff3b002976ffc82824d",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-643",
+      "title": "地理延伸選擇1｜河流流向",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線選擇1",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "46e5b89ca8e9248b7710cbd34fe19d4a15f0eccdce6ccd2701bf1091bdc8f3b8",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-644",
+      "title": "地理延伸選擇2｜比例尺與平均坡度",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線選擇2",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "比例尺"
+      ],
+      "fullQuestionSHA256": "c0d716c7625d0e64ae5b11d50de5bddd54352f13ae25a46e21050a23720a150b",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-645",
+      "title": "地理延伸選擇3｜由山頂往山腳的坡形",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線選擇3",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "e4a6c098286e256c356de75b65cbbba41a01883781b9d193da64f8fddf406bef",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-646",
+      "title": "地理延伸選擇4｜等高線地形與營地選擇",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-040",
+      "sourceURL": "https://share.gemini.google/0KrY8NZ0TTP2",
+      "sourceLabel": "來源AI延伸練習｜等高線選擇4",
+      "verificationNote": "來源是原對話中使用者要求的文字延伸練習，非試卷照片題；完整文字與解答已獨立核對。對應教材課次未確認，歸綜合。",
+      "tags": [
+        "來源AI延伸",
+        "等高線",
+        "地形判讀"
+      ],
+      "fullQuestionSHA256": "fb0740b752b6c4dcd6f38815e3b08dc2d708b58ad03072f2fe9d57a7b53f96fb",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-653",
+      "title": "地理延伸｜由比例尺換算實際公里數",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜初次類題1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "d74edad523f37b90afd8c5cae431829c6274f87e460d243441e46043dc500031",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-654",
+      "title": "地理延伸｜兩公分代表五百公尺",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜初次類題2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "e6eeeda64e1bc8c75d51479deec32804737fc2cee6675a1307cf8439496eb0d8",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-655",
+      "title": "地理延伸｜滯留鋒面降水的成因",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜校準類題1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "ecefbba63974cf0f788f9db4e4470abbd785fb98b661708765ece6ecaf724988",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-656",
+      "title": "地理延伸｜林口台地的等高線形態",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜校準類題2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "51dde73922e74260fb8ad68c6eaa5f65e44a4391f7a68c1fe9f64b121b856706",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-657",
+      "title": "地理延伸｜沙洲蚵架照片的海岸位置",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜初次類題3",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "fc264689ba4f8d56d1c7a96fb7a54238a50705382eea7fd2f1d1f51b3b216d40",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-658",
+      "title": "地理延伸｜西濱公路沿途景觀",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜校準類題3",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "7b9efcf8cf00caf3da7bc7d44101839abed82c4311999b1528d561e8f67e9a5e",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-659",
+      "title": "地理延伸｜六公分登山步道的實距",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜7-1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "37f840f5f0f60d123a00d57718eb8b10404d7bc7623a032dc9ae67b53a54df23",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-660",
+      "title": "地理延伸｜兩公分代表十公里",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜7-2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "a7394e68db820a3dcc7353a1a70b616f8e1a9eca72d972fdd5916aae3fbeb85b",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-661",
+      "title": "地理延伸｜五六月連日陰雨的鋒面",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜12-1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "76d6e17e4b1d0dc9a278b4359fb805738a944f4b18ed2482fe6a9697301f326a",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-662",
+      "title": "地理延伸｜西北雨的熱對流成因",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜12-2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "3766d8b650bc05f3facdd4a5654a14c763e98dd5c15bba194bae0c4a6e39142d",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-663",
+      "title": "地理延伸｜中心低平而四周較高的地形",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜13-1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "188809a93b71765150633ca4ef84cfcc12093a2a4ede57d0ffb916634717c70c",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-664",
+      "title": "地理延伸｜台地與平原的地形差別",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜13-2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "cbf7c9cf1cbdae34a206ba00c33cc8a75b4dcd9127f62179508b635b4fe101e3",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-665",
+      "title": "地理延伸｜女王頭與岬灣地形",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜14-1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "56e617ecbb058512b54f37c088a173e6b27b7c9ae3773ee629f362b14a66a36d",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-666",
+      "title": "地理延伸｜清水斷崖的海岸特徵",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜14-2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "0896c6c3edb4735283c844a9a952dc9cdd18b0686eab9d4a633d2e6e3d3520b1",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-667",
+      "title": "地理延伸｜泉州渡臺的順風月份",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜16-1",
+      "verificationNote": "使用者已確認：以臺灣海峽東渡的主要航行需要及夏季西南季風判讀，選B；不要求風向與整段航線完全平行。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "641c3699c037b82725d3f9d63913f6ac5cd4a9e2d57294b15ce457352539d5d1",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-668",
+      "title": "地理延伸｜東亞季風顯著的地理背景",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜16-2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "9814d883783a4222cd63a6ac6bfbfc80c974e6dca28e88e234247df32ca96f96",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-669",
+      "title": "地理延伸｜夏季少雨後的缺水時序",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜20-1",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "fac4244b3234663396e14e2d41622b08f84c417632e8725337154281171617ce",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-670",
+      "title": "地理延伸｜降雨多仍可能缺水的原因",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜20-2",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "76d155bff8dd30f694e656b3479428c79726e7981ad2ab75f189cefd761c04d9",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-671",
+      "title": "地理延伸｜離島春季限水的氣候原因",
+      "subject": "Geography",
+      "sourceId": "src-gemini-more-041",
+      "sourceURL": "https://share.gemini.google/5LjOi6JL0S8W",
+      "sourceLabel": "來源AI延伸練習｜20-3",
+      "verificationNote": "來源為原對話中完整文字的延伸練習，並非原卷照片；已獨立核對條件與解答。同題更正版沿用同一ID，不把重複答案表當新題。",
+      "tags": [
+        "來源AI延伸",
+        "地理"
+      ],
+      "fullQuestionSHA256": "0c302927e5548824e13e27d6dc7b79211b235d35f42aaa162819eefdaa2385dc",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-678",
+      "title": "國文延伸｜節水轉作與計畫生產",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "a3ae05a679e8743088cce4c663b710b1be337ae9b6a76d3d7ebca3585ebc4d6c",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-679",
+      "title": "國文延伸｜鹿港興衰的原因",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "6e11c7d043a0264cdf0d4a4d88c9e5adf81bafc5bbea8ff0456578515bd1a6b4",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-680",
+      "title": "國文延伸｜鹿港詩的時間與譬喻",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "4bc4b79aa176d3c4cfa2c5531a83d0fa3216db874920c5306ee44e2c48247161",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-681",
+      "title": "國文延伸｜WBC閱讀的雙重條件",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "1e5b167629cac747b45e395cd27726b9f2b90a6a0e808f13f5d621b6a162445c",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-682",
+      "title": "國文延伸｜WBC各方觀點的區分",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "323e4bb64c2275d6de0824698ebe07926ca399a474cbe8ca1dd76efc1293f56a",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-683",
+      "title": "國文延伸｜刑賞忠厚的仁厚精神",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "3a42d8736ec47ba51064387368a6dc249035150462863e3d6259c00acafca5f0",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-684",
+      "title": "國文延伸｜古文革新與選才理念",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "9394753a3c418664d3b96a0300dcf19a00f2b0540309d8be995112f7db41b072",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-685",
+      "title": "國文延伸｜出人頭地與讓賢胸襟",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "e1b16b420d2ce339254d0fffce2bdef6a72a2011952fae6dd35c6157d048f928",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-686",
+      "title": "國文延伸｜年表計算與墓誌時序",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "17e41c3f0dcc18d5ef8ae3bae44643f6a7d0b761733bb2af25dab792e89e8f43",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-687",
+      "title": "國文延伸｜兩文人物情感的對照",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "13399e8774aebc2272007ade0d290f78e8b45917abc6efadd4ebd8b0e0bcaa31",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-688",
+      "title": "國文延伸｜篇章細節與改革文風",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-042",
+      "sourceURL": "https://share.gemini.google/ft1A3NfIdqI2",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依對話完整題幹與全部選項保存；必要材料取真正原卷或可核對原典，答案獨立核對，非原卷另題。",
+      "tags": [
+        "閱讀理解",
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "6c1806d8d0c4274b53a4d80b1cf57288b457c7667176572c0ac20d2067bca864",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-691",
+      "title": "國文延伸｜蘇軾改寫兩文的共同態度",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "6c8c96f7f16e7bbbf3557ad54b8849167a66225022049431a54f7b9d7ec2777f",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-693",
+      "title": "國文延伸｜轉作情境與契作風險",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "286bfaea1419af5dabc42bb2800705787e3b1d142b21666c96d857551a48d999",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-694",
+      "title": "國文延伸｜艋舺新詩的盛衰時序",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "f8aa9ad4adaf1115cab48a95a8757b3ac762682e8883f62982ec0df6a2caa322",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-695",
+      "title": "國文延伸｜賽事評論的主旨歸納",
+      "subject": "Chinese",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "92a0884a45ae2117b6f94e3508818a89f77dacf28595304feea4a70c033ed67c",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-696",
+      "title": "英文延伸｜時間子句與slow down",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "73d8f0ede929c58218546b723275638c8285a45d64fab22324caa2749d6d9891",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-697",
+      "title": "英文延伸｜turn off與go的並列",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "8f53e9ffb503e5362b42d1cd2c4ef2f8bc747e0cc23391776a7e78296e4bfbbd",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-698",
+      "title": "英文延伸｜Drink與Drinking的句型差異",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "fe9cd4bd7fc88bcd090ae7413a17da1fe49764441a8bd7f1b19b53d8e46bd0f5",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-699",
+      "title": "英文短練習｜稱謂後的wear",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "1e5af9af9fb4e0ba3224416fb5a81a71b41d167d8aa64afb2d917a4bdfbcb3e0",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-700",
+      "title": "英文短練習｜Take a deep breath",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "5db94a728c3d34a2136cd177f8ebe394cb01c001d41365270b77dccae7373b8a",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-701",
+      "title": "英文進階｜動名詞與祈使句兩種成句方式",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "完整題目及A、D兩種成句方式均已核對；使用者在monitor確認目前處理可保留。保留單選設計疑義，不指定唯一答案，也不再列為待補資料。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "5aeea85f2191fe3ac242935117fcefa32fefa92156e6183830a95553156ef4df",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-702",
+      "title": "英文進階｜Check與or的提醒句",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "c56aaa0eed6206705d85a80cebc6ae357b7eb20ac0186908f97eaecca80f76a5",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-703",
+      "title": "英文進階｜關係子句後的please",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "f546caa6ad4360ae2b84951b30ada87e9f497c6375dcbda115235c115c45e927",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    },
+    {
+      "id": "q-704",
+      "title": "英文進階｜同位語與主詞的判讀",
+      "subject": "English",
+      "sourceId": "src-gemini-more-043",
+      "sourceURL": "https://share.gemini.google/GU0TNUXFyN50",
+      "sourceLabel": "來源AI延伸練習",
+      "verificationNote": "依原卷或完整來源文字核對，必要材料完整保留；教材課次未確認，歸綜合。",
+      "tags": [
+        "延伸練習"
+      ],
+      "fullQuestionSHA256": "e207cef57c53d0ae7528b2409336bd78349d48e06285fe28832cc9afb2abb5e9",
+      "reason": "來源AI延伸／自編模擬題，題庫metadata明示"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "candidateId": "candidate-q-675",
+  "groupId": "group-q-679-q-680",
+  "basedReviewSHA256": "da08469ea941f1d2ed087e23e9e0ad495350b03018c7774c7c0e5ab495927395",
+  "purpose": "補充與Agent2一致的AI題組溯源欄位，不修改已註冊review或共享queue。",
+  "proposedGroupFields": {
+    "groupType": "ai_extension_group",
+    "printedRange": "AI第一～第二題（非原卷題號；分別對應原37/38考點）",
+    "originalEvidencePurpose": "原詩照片只證明共用閱讀材料；679/680本身來自另場AI回應，非原卷照片上的37/38題。",
+    "discussionEvidence": [
+      {
+        "path": "docs/sources/gemini-ft1A3NfIdqI2.json",
+        "sha256": "b90d50f758a23bd6794e6c892ec7346bd661206f0856b6053788c3d69a09dc44",
+        "textChecked": true,
+        "visibleHeader": "You said 出這二題變形題；針對第37題與第38題設計兩道；第一題詩意推論/第二題修辭與寫作手法",
+        "textOffsets": {
+          "start": 5050,
+          "end": 6100
+        },
+        "questionMapping": {
+          "q-679": "第一題：詩意推論與歷史脈絡整合",
+          "q-680": "第二題：修辭與寫作手法辨析"
+        }
+      }
+    ]
+  }
+}

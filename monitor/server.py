@@ -14,11 +14,13 @@ try:
     from .comic_queue import subject_stats, next_entry
     from .parallel_timing import measure
     from .new_sources import current_sources
+    from .group_queue import summary as group_summary
 except ImportError:  # Also support running python monitor/server.py.
     from confirmation_store import edit_confirmations
     from comic_queue import subject_stats, next_entry
     from parallel_timing import measure
     from new_sources import current_sources
+    from group_queue import summary as group_summary
 
 ROOT = Path(__file__).resolve().parents[1]
 TERMINAL = {
@@ -143,6 +145,45 @@ def build_status(root=ROOT):
                                              for e in entries if e['id'] in priority_ids])
     questions = data['questions']
     by_id = {q['id']: q for q in questions}
+    group_review = None
+    group_path = root/'docs/imports/group-review/queue.json'
+    if group_path.exists():
+        queue = read_json(group_path)
+        group_review = dict(group_summary(queue),updatedAt=queue.get('updatedAt'))
+        group_review['subjects'] = [dict(subject=s['id'],name=s['name'],
+            **group_review['subjects'].get(s['id'],{'groups':0,'questions':0}))
+            for s in data.get('subjects',[])]
+        group_review['groups'] = [dict(id=g['id'],state=g['state'],
+            subject=g['subject'],questions=[{'id':qid,'title':by_id.get(qid,{}).get('title',qid),
+                'url':'/site/index.html#question/'+qid} for qid in g['questionIds']])
+            for g in queue.get('groups',[]) if g['state']!='superseded']
+        group_review['active'] = [{'id':c['id'],'owner':c.get('owner'),
+            'questionIds':c['questionIds']} for c in queue.get('candidates',[]) if c['state']=='reviewing']
+        control_path=root/'monitor/group-control.json'
+        control=read_json(control_path) if control_path.exists() else {}
+        if control_path.exists():paths.append(control_path)
+        group_review['integrationGate']=control
+        groups=[g for g in queue.get('groups',[]) if g['state']!='superseded']
+        lanes=[]
+        for lane in (1,2,3):
+            agent='/root/comic_lane_'+str(lane)
+            job=next((g for g in groups if g.get('integrator' if lane==1 else 'owner')==agent
+                and g['state']==('integrating' if lane==1 else 'merging')),None)
+            review=next((c for c in queue['candidates'] if c.get('owner')==agent and c['state']=='reviewing'),None)
+            ids=job['questionIds'] if job else review['questionIds'] if review else []
+            state=('integrating' if lane==1 else 'merging') if job else 'reviewing' if review else (
+                'preparing' if lane==1 and control.get('state')=='preparing_compatibility' else
+                'ready' if lane==1 and any(g['state']=='ready' for g in groups) else
+                'preparing' if lane!=1 and any(g['state']=='confirmed' for g in groups) else 'idle')
+            lanes.append({'lane':lane,'state':state,'questionIds':ids,
+                'titles':[by_id.get(qid,{}).get('title',qid) for qid in ids],
+                'detail':control.get('detail','') if lane==1 and state=='preparing' else '',
+                'completed':sum(g['state']=='integrated' and g.get('integrator')==agent for g in groups) if lane==1
+                    else sum(g['state'] in {'ready','integrating','integrated'} and g.get('owner')==agent for g in groups)})
+        group_review['lanes']=lanes
+        group_review['waiting']=[{'id':g['id'],'retainId':g['retainId'],'readyAt':g.get('readyAt')}
+            for g in groups if g['state']=='ready']
+        paths.append(group_path)
     batches = []
     for key, title, payload in [('todo', '原 TODO', todo), ('gpt', 'more_gpt', gpt), ('gemini', 'more_gemini', gemini)]:
         rows = []
@@ -232,7 +273,7 @@ def build_status(root=ROOT):
                     'newSourcesSettled': settled, 'newSourcesPending': total-settled,
                     'percent': round(settled/total*100, 1) if total else 100},
         'batches': batches, 'confirmations': confirmations, 'imageRetries': missing,
-        'newSources': new_sources, 'importControl': import_control,
+        'newSources': new_sources, 'importControl': import_control, 'groupReview': group_review,
         'resolvedConfirmations': requests.get('resolved', []),
     }
 

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "groupId": "group-q-029-q-031",
+  "preparedBy": "/root/comic_lane_2",
+  "preparedAt": "2026-10-29T13:12:26.688555+00:00",
+  "questionIds": [
+    "q-029",
+    "q-031"
+  ],
+  "retainId": "q-029",
+  "displayOrder": [
+    "q-029",
+    "q-031"
+  ],
+  "draftPath": "docs/imports/group-review/drafts/group-q-029-q-031/question.json",
+  "childCoverage": [
+    "q-029",
+    "q-031"
+  ],
+  "reviewReport": "docs/imports/group-review/reviews/candidate-q-029.json",
+  "childSnapshots": [
+    {
+      "questionId": "q-029",
+      "path": "docs/imports/group-review/drafts/group-q-029-q-031/children/q-029.json",
+      "sha256": "f5484f52cc5217885c4278aa4cc4ee8784ef8b5112b762cc3e9cefc4e1d5d8fc",
+      "canonicalSHA256": "502f0b07942c98a537dfc6435e04561534aa8d7fdfb3436e4ad8a1e79d282ee2",
+      "sourceId": "src-9",
+      "sourceLabel": "自然原卷第1張｜題組第15題",
+      "date": "2026-06-24",
+      "addedAt": "2026-10-27"
+    },
+    {
+      "questionId": "q-031",
+      "path": "docs/imports/group-review/drafts/group-q-029-q-031/children/q-031.json",
+      "sha256": "0700525fef8f53b493eda1b34fc7bb446ede8ce8e5d6b47163880a6dc09e3482",
+      "canonicalSHA256": "9c32f6b8b7dc2d9c37d69c6f6aab3a11298ae4e03ba1dab3e6f2a1c3681106c1",
+      "sourceId": "src-9",
+      "sourceLabel": "自然原卷第1張｜題組第16題",
+      "date": "2026-06-24",
+      "addedAt": "2026-10-27"
+    }
+  ],
+  "checks": {
+    "allChildrenFullObjects": true,
+    "noAnswerOrExplanationChanged": true,
+    "noChildComicDeduplication": true,
+    "parentCorrectOptionEmpty": true,
+    "commonPassageSourceQuestionId": "q-029",
+    "reviewedCommonMaterialRetained": true,
+    "allReferencedAssetsExist": true,
+    "assetCount": 6,
+    "perChild": [
+      {
+        "questionId": "q-029",
+        "allOriginalFieldsUnchanged": true,
+        "fullQuestionAndOptionsPreserved": true,
+        "answerAndCorrectOptionPreserved": true,
+        "explanationAndOptionAnalysisPreserved": true,
+        "allFiguresAndOriginalsPreserved": true,
+        "fullTeachingComicPreserved": true,
+        "teacherConfirmedMetadataPreserved": true,
+        "teachingComicPresent": true
+      },
+      {
+        "questionId": "q-031",
+        "allOriginalFieldsUnchanged": true,
+        "fullQuestionAndOptionsPreserved": true,
+        "answerAndCorrectOptionPreserved": true,
+        "explanationAndOptionAnalysisPreserved": true,
+        "allFiguresAndOriginalsPreserved": true,
+        "fullTeachingComicPreserved": true,
+        "teacherConfirmedMetadataPreserved": true,
+        "teachingComicPresent": true
+      }
+    ]
+  },
+  "inputPublishedData": {
+    "path": "site/dist/data.json",
+    "sha256": "50d7026fbb311530198ecaef9e1dbf33f33cd163dc50f432928d93e90473bd86",
+    "questions": 757
+  },
+  "notes": [
+    "僅獨立合稿，未改題庫/別名/雲端標記/來源進度，未重新製圖。",
+    "各子完整原物件另有快照；groupQuestions只增原卷題號，其餘欄位逐項完全一致。",
+    "parent保留canonical既有漫畫僅作舊版相容；正式新renderer必須逐子呈現全部漫畫一次。"
+  ]
+}

@@ -56,7 +56,10 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths)
     pending_ids = {r.get('questionId') or r.get('id') for r in confirmations
                    if (r.get('questionId') or r.get('id')) in all_ids
                    or r.get('sourceKey') in assigned_keys or r.get('sourceUrl') in assigned_urls}
+    comics_settled=sum(states.get(qid) in {'complete','not_suitable','existing_ai'} for qid in all_ids)
     return {'sources': rows, 'total': len(rows), 'settled': settled,
+            'complete':settled==len(rows) and not pending_ids and comics_settled==len(all_ids),
+            'comicsSettled':comics_settled,
             'percent': round(100*settled/len(rows)) if rows else 0,
             'imagesAvailable': sum(row['imagesAvailable'] for row in rows),
             'imagesExpected': sum(row['imagesExpected'] or 0 for row in rows),

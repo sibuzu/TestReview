@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "candidate-q-519",
+  "reviewerAgent": "/root/comic_lane_2",
+  "reviewedAt": "2026-10-29T12:37:04.779833+00:00",
+  "decision": "confirmed",
+  "inventoryQuestionIds": [
+    "q-519",
+    "q-520"
+  ],
+  "discoveredQuestionIds": [],
+  "questionIds": [
+    "q-519",
+    "q-520"
+  ],
+  "confirmedGroups": [
+    {
+      "groupKey": "group-q-519-q-520",
+      "questionIds": [
+        "q-519",
+        "q-520"
+      ],
+      "retainId": "q-519",
+      "aliasIds": [
+        "q-520"
+      ],
+      "subject": "Chinese",
+      "representativeSubjectReason": "本組所有子題同科，共同原卷材料與問法均屬此科。",
+      "suggestedSubject": "Chinese",
+      "childSubjects": {
+        "q-519": "Chinese",
+        "q-520": "Chinese"
+      },
+      "sourceIds": [
+        "src-gemini-more-020"
+      ],
+      "sourceURLs": [
+        "https://share.gemini.google/CYhs1soHtI73"
+      ],
+      "printedRange": "同一src-gemini-more-020原卷題頭39～40，同文一問人物缺點、一問寓意，五註與故事兩子共用；不與其他來源同題號39/40混合。",
+      "originalQuestionNumbers": {
+        "q-519": "39",
+        "q-520": "40"
+      },
+      "commonMaterial": {
+        "passage": "南岐在秦蜀①山谷中，其水甘而不良，凡飲之者輒病癭②，故其地之民無一人無癭者。及見外方人至，則群小婦人聚觀而笑之，曰：「異③哉人之頸也，焦④而不吾類。」外方人曰：「爾之累然⑤凸出於頸者，癭病也。不求善藥去爾病，反以吾頸為焦耶？」笑者曰：「吾鄉人皆然，焉用去乎哉？」終莫知其為醜。\n——節錄自明・劉元卿《賢奕編》\n\n【原卷註釋】\n①秦蜀：陝西、四川一帶。\n②病癭：得大脖子病。癭，音ㄧㄥˇ，長在脖子上的囊狀瘤。\n③異：奇怪。\n④焦：乾枯，這裡形容人的脖子細。\n⑤累然：形容臃腫的樣子。",
+        "tables": [],
+        "questionFigures": []
+      },
+      "originalEvidence": [
+        {
+          "path": "site/dist/assets/questions/q-519-reading-source-b326d9b6fc.jpg",
+          "visibleHeader": "原卷明印「請閱讀以下短文，並回答39～40題」，完整南岐病癭故事/賢奕編出處與秦蜀病癭異焦累然五註。",
+          "questionNumbers": [
+            "39-40"
+          ],
+          "sha256": "b326d9b6fc918f095b268ef5cf16ae7119c4f55fa3f8ea05c9cf1fd2b81d7cb9",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-519-source-17caaa432b.jpg",
+          "visibleHeader": "39「根據本文」問人民缺點，四選成語完整。",
+          "questionNumbers": [
+            "39"
+          ],
+          "sha256": "17caaa432b99b12ec57b7f5e5e00c846464acbca15bb4ca1a1142b619c065d6f",
+          "visualChecked": true
+        },
+        {
+          "path": "site/dist/assets/questions/q-520-source-6c7c107710.jpg",
+          "visibleHeader": "40問本文寓意，四選完整，依同文閉塞環境/把異常當正常。",
+          "questionNumbers": [
+            "40"
+          ],
+          "sha256": "6c7c10771011c58f1b10692f5d7dd7ba75c7a34be56ce4fb31711cc9c72f0988",
+          "visualChecked": true
+        }
+      ],
+      "reason": "同一src-gemini-more-020原卷題頭39～40，同文一問人物缺點、一問寓意，五註與故事兩子共用；不與其他來源同題號39/40混合。",
+      "childCoverage": [
+        {
+          "questionId": "q-519",
+          "originalQuestionNumber": "39",
+          "sourceId": "src-gemini-more-020",
+          "date": "2026-08-29",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "D",
+          "questionFingerprint": "a5e89b4b121c3fdde63d4d8d1f2213bc6ec7eeb29a25f827140e384fa8bda9b6",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-519-reading-source-b326d9b6fc.jpg",
+            "assets/questions/q-519-source-17caaa432b.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "拒絕勸告、不察己過，兩個成語都要符合",
+            "art": "assets/comics/q-519-art-0504403f71-web.webp",
+            "panels": [
+              {
+                "heading": "① 嘲笑外人，卻不察己過",
+                "text": "當地人見到外來者細頸，就嘲笑他不像自己。他們把大家都一樣當成唯一標準，反而沒發現自身的問題。文章批評的是認知與態度。",
+                "alt": "新製寓言古村與外來成人，村民頸部僅溫和圓腫示意而非精確診斷，表情聚焦錯誤嘲笑；不以病狀本身當道德缺點。"
+              },
+              {
+                "heading": "② 剛愎自用：固執不聽勸",
+                "text": "外來者勸告後，他們仍說吾鄉人皆然，焉用去乎哉。把鄉里都如此當成拒絕改正的理由，正是固執己見的剛愎自用。",
+                "alt": "新製外來者平和說明、村民轉身抱臂拒絕再想，沒有加醫療、缺碘或治療步驟；圖中文字由HTML引用原句。"
+              },
+              {
+                "heading": "③ 目不見睫：看不到己過",
+                "text": "目不見睫比喻看不見自身缺點，不是真的看不見睫毛。第三圖是願意檢查自己的延伸對照；原文人物到最後仍不察己過。",
+                "alt": "新製現代學生聽建議並檢查自己的筆記，明示為與原文不自省相反的延伸情境；不是村民改過的新增故事，也不畫眼疾。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：剛愎自用、目不見睫",
+              "points": [
+                "固執拒絕勸告，對應剛愎自用。",
+                "看不見自身缺點，對應目不見睫。",
+                "兩個成語都要相合；不自量力在文中沒有依據。"
+              ]
+            },
+            "protectedWords": [
+              "剛愎自用",
+              "目不見睫",
+              "不察己過",
+              "固執己見",
+              "不自量力",
+              "認知",
+              "態度",
+              "缺點",
+              "自身",
+              "外來者",
+              "細頸",
+              "勸告",
+              "拒絕",
+              "改正",
+              "吾鄉人皆然",
+              "焉用去乎哉",
+              "鄉里",
+              "睫毛",
+              "延伸對照",
+              "原文",
+              "自省"
+            ]
+          }
+        },
+        {
+          "questionId": "q-520",
+          "originalQuestionNumber": "40",
+          "sourceId": "src-gemini-more-020",
+          "date": "2026-08-29",
+          "dateLabel": "對話建立日期（Created）",
+          "addedAt": "2026-10-28",
+          "correctOption": "A",
+          "questionFingerprint": "9286161632f2f2d4c6d2c305fb842618719edcb222403bad658753ee8a03516f",
+          "preserveFullQuestionOptionsAnswerExplanation": true,
+          "originalImages": [
+            "assets/questions/q-520-reading-source-b326d9b6fc.jpg",
+            "assets/questions/q-520-source-6c7c107710.jpg"
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "把「大家都一樣」當成正確標準，才是問題",
+            "art": "assets/comics/q-520-art-eeaf33f788-web.webp",
+            "panels": [
+              {
+                "heading": "① 只見過鄉里，就把差異當怪異",
+                "text": "南岐人習慣了鄉里都有癭的樣子，看到外地人反而嘲笑他的脖子細、不像自己。問題是見識封閉，把熟悉的狀態當成判斷別人的唯一標準。",
+                "alt": "全新山谷村落與外地旅人，村人和外地人互相比較，頸部病狀溫和示意；不作醜化或醫療診斷。"
+              },
+              {
+                "heading": "② 外人指出問題，他們仍用多數回應",
+                "text": "外地人提醒他們患病，應求藥去病；他們卻說「吾鄉人皆然，焉用去乎哉？」只是大家都這樣，不能證明這樣就是對的。他們沒有檢查提醒是否有道理。",
+                "alt": "同一藍衣外地人平和解釋，三位村人以熟悉多數自信拒絕；不增醫藥品/病因或療效。"
+              },
+              {
+                "heading": "③ 從封閉見識，讀出顛倒是非",
+                "text": "「終莫知其為醜」說他們始終沒有察覺自身問題，還把正常人的差異當錯誤。A同時扣住孤陋寡聞、目光短淺與是非顛倒，比只說主觀行事更完整。",
+                "alt": "同一三村人彼此附和、外地人稍離群體而困惑，以群體一致不等於正確呈現寓意，無療癒或懲罰結局。"
+              }
+            ],
+            "fourth": {
+              "answer": "答案：A，封閉見識可能顛倒是非",
+              "points": [
+                "看故事的態度與判斷方式，不只看表面病狀。",
+                "B的專心做事、C的眼前利益，故事沒有談。",
+                "D提到不顧事實，但「善於詭辯」不如A切合全文。"
+              ]
+            },
+            "protectedWords": [
+              "南岐人",
+              "吾鄉人皆然",
+              "焉用去乎哉",
+              "終莫知其為醜",
+              "孤陋寡聞",
+              "目光短淺",
+              "是非顛倒",
+              "顛倒是非",
+              "善於詭辯",
+              "眼前利益"
+            ]
+          }
+        }
+      ],
+      "mergeRequirements": [
+        "全盤候選核畢才可由group_queue領合併，不在確認階段產merge稿或發布。",
+        "共同材料完整一次；各小題原號、題幹/全部選項、已核答案/詳解、來源及日期完整保留。",
+        "每子已有自己新製圖文/原件及必要圖全部保留，不只第一子；原討論AI圖不回用。",
+        "舊qid閱讀alias到最早qid，但原FLAG/疑義/進度事件/來源追蹤不能丟，root/1另驗兼容。"
+      ]
+    }
+  ],
+  "originalEvidence": [
+    {
+      "path": "site/dist/assets/questions/q-519-reading-source-b326d9b6fc.jpg",
+      "visibleHeader": "原卷明印「請閱讀以下短文，並回答39～40題」，完整南岐病癭故事/賢奕編出處與秦蜀病癭異焦累然五註。",
+      "questionNumbers": [
+        "39-40"
+      ],
+      "sha256": "b326d9b6fc918f095b268ef5cf16ae7119c4f55fa3f8ea05c9cf1fd2b81d7cb9",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-519-source-17caaa432b.jpg",
+      "visibleHeader": "39「根據本文」問人民缺點，四選成語完整。",
+      "questionNumbers": [
+        "39"
+      ],
+      "sha256": "17caaa432b99b12ec57b7f5e5e00c846464acbca15bb4ca1a1142b619c065d6f",
+      "visualChecked": true
+    },
+    {
+      "path": "site/dist/assets/questions/q-520-source-6c7c107710.jpg",
+      "visibleHeader": "40問本文寓意，四選完整，依同文閉塞環境/把異常當正常。",
+      "questionNumbers": [
+        "40"
+      ],
+      "sha256": "6c7c10771011c58f1b10692f5d7dd7ba75c7a34be56ce4fb31711cc9c72f0988",
+      "visualChecked": true
+    }
+  ],
+  "rejectedPairs": [],
+  "needsConfirmation": [],
+  "notes": [
+    "故事與五註共同一次，保留原注讀音字形，不把文本病癭描述擴張成現代診斷。",
+    "39 D/40 A已核答、全部選項與各子教學完整保留；最早qid519，520只成舊網址alias不刪歷史。"
+  ],
+  "coverage": {
+    "inputQuestionIds": [
+      "q-519",
+      "q-520"
+    ],
+    "reviewedQuestionIds": [
+      "q-519",
+      "q-520"
+    ],
+    "confirmedQuestionIds": [
+      "q-519",
+      "q-520"
+    ],
+    "unresolvedQuestionIds": [],
+    "allMembersAccountedFor": true
+  },
+  "inputFingerprints": {
+    "q-519": "e1df66ad8b39a287fad8341f63264e1e007b7c1a8cec370799f37f0cbab016e2",
+    "q-520": "11bfba099ab114828849094927bd52d9d6661cde7d424f5e8de5d0de46cfd72c"
+  }
+}

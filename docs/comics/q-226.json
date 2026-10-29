@@ -1,0 +1,85 @@
+{
+  "id": "q-226",
+  "subject": "Math",
+  "title": "等腰直角三角形找出高5",
+  "art": "docs/comics/art/q-226-area.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:58:32.347481+00:00",
+  "panels": [
+    {
+      "heading": "① BC是等腰直角三角形斜邊",
+      "text": "平行四邊形有BC＝AD＝10。BE＝CE且E角90°，所以△BEC為等腰直角三角形，B、C底角各45°。",
+      "alt": "新製等腰直角△BEC，直角空心記號在E而非B/C，BE與CE同刻痕；BC標10是斜邊。"
+    },
+    {
+      "heading": "② 頂角作高，底邊分成5、5",
+      "text": "從E向BC作垂線，垂足暫記M。等腰三角形的這條高平分底邊，所以BM＝CM＝5。△BEM也是等腰直角三角形，EM＝BM＝5。",
+      "alt": "新製EM垂線落BC中點M，BM/CM各5，EM高5；空心直角記號在M，B45角保留。"
+    },
+    {
+      "heading": "③ 用垂直高，不用斜邊乘底",
+      "text": "E位於AD上，AD又平行BC，所以EM就是平行四邊形的高。面積為BC乘EM，10乘5得50平方單位；E不必是AD中點。",
+      "alt": "新製AD10與高5正確比例平行四邊形，E位於AD的三成處非中點，EM垂直BC，AB斜邊不當高。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 等腰直角三角形找出高5",
+    "answer": "答案：50平方單位",
+    "points": [
+      "BC＝10，BM＝CM＝5。",
+      "45°直角三角形中，EM＝BM＝5。",
+      "面積＝底BC×高EM＝10×5＝50。"
+    ]
+  },
+  "protectedWords": [
+    "平行四邊形",
+    "等腰直角三角形",
+    "直角三角形",
+    "等腰三角形",
+    "斜邊",
+    "垂線",
+    "垂足",
+    "中點",
+    "底邊",
+    "底角",
+    "垂直高",
+    "平方單位",
+    "△BEC",
+    "△BEM",
+    "BC",
+    "AD",
+    "BE",
+    "CE",
+    "BM",
+    "CM",
+    "EM",
+    "45°",
+    "90°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-226-source-c960820aa5.jpg"
+  ],
+  "originalVisualCheck": "實看9題完整AD10、E在AD、BE=CE與BEC90，原形平行四邊形頂邊E偏左非中點，題目無選項；求面積平方單位。原卷手畫高但不以其數字代替推導。",
+  "answerCheckedAgainst": "BC=10為等腰直角三角形斜邊，E作高到中點M使BM5，45度小三角EM5，平行四邊形底10高5面積50。保持既有答案；BE/CE長不假設5。",
+  "rationale": "新製等腰直角三角形、垂線分底、平行四邊形共高三步精確SVG，避免誤用斜邊乘底與誤認E為AD中點；無人物與來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "BC": 10,
+    "BM": 5,
+    "CM": 5,
+    "EM": 5,
+    "area": 50,
+    "EonADfraction": 0.3,
+    "rightAngles": [
+      "BEC",
+      "BME"
+    ],
+    "notClaimed": "E need not midpoint AD; BE not 5"
+  },
+  "artSHA256": "56abc750ea2d89dcac746c6d9ace08af77c2d6467a76e3d3e058cb44aadba34d",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:59:11.275379+00:00",
+  "completedAt": "2026-10-29T04:59:11.275379+00:00",
+  "layoutEvidence": "docs/comics/q-226-preview-validation.json",
+  "visualReview": "實看1440/1120/390：E與M直角記號空心、BC斜邊10與兩45清楚，BM/CM各5及EM5正確；平行四邊形E非AD中點，高垂直底而非斜側邊。圖字無裁切、同行等高手機自然高。"
+}

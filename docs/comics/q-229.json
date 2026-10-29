@@ -1,0 +1,72 @@
+{
+  "id": "q-229",
+  "subject": "Math",
+  "title": "BF還不是BC：正方形邊長算出後，再加右段",
+  "art": "docs/comics/art/q-229.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-229-generate.py",
+  "startedAt": "2026-10-29T05:02:15.791776+00:00",
+  "panels": [
+    {
+      "heading": "① 設正方形邊長x，兩端各是x−3",
+      "text": "正方形的AE＝EF＝FD＝AD＝x。BF＝2x−3，扣掉EF＝x，得BE＝x−3。等腰梯形兩腰相等，兩側直角三角形斜邊相等、高也相等，故全等，CF＝BE＝x−3。",
+      "alt": "精確等腰梯形內接正方形，底邊分成x−3、x、x−3，以下括線單獨指出BF並非BC。"
+    },
+    {
+      "heading": "② 面積54，列出x的方程式",
+      "text": "△CDF的底CF＝x−3、高DF＝x，所以½×x(x−3)＝54。整理得x²−3x−108＝0，即(x−12)(x＋9)＝0；邊長須為正，取x＝12。",
+      "alt": "同一等腰梯形右側直角三角形上色，底x−3及高x對應面積54，無不相干人物。"
+    },
+    {
+      "heading": "③ 把BE、EF、FC三段都算入",
+      "text": "x＝12，所以BE＝CF＝9、EF＝12。BC＝BE＋EF＋FC＝9＋12＋9＝30公分。若只算BF＝2×12−3＝21，仍少了右端CF＝9。",
+      "alt": "三段底邊上色，左右各9，中間12，全長括線為30；仍沿同一12高30底精確座標。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：BC＝30公分",
+    "points": [
+      "BE＝CF＝x−3，先用兩側全等找出右段。",
+      "54＝½×x(x−3)，取正根x＝12。",
+      "題目問BC，不是BF；21＋9＝30。"
+    ]
+  },
+  "protectedWords": [
+    "BF",
+    "BC",
+    "BE",
+    "CF",
+    "x−3",
+    "2x−3",
+    "½×x(x−3)＝54",
+    "x²−3x−108＝0",
+    "(x−12)(x＋9)＝0",
+    "x＝12",
+    "CF＝9",
+    "BE＋EF＋FC"
+  ],
+  "rationale": "親見原卷全文及必要given實際渲染，標準30與獨立代數/坐標核對一致。新精確SVG將BF/BC範圍、等腰兩端、面積與三段相加具象化；不使用人物、來源AI或重製題圖。",
+  "promptSummary": "三格同一精確等腰梯形：設x和BF括線；右三角面積54；底邊9+12+9，以HTML解全等/方程式。",
+  "answerCheckedAgainst": "原卷BF比AE2倍少3、△CDF54及求BC；獨立解x12/BE9/CF9/BC30，正負根與平方等腰坐標皆驗證。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-229-source-c019052cbe.jpg"
+    ],
+    "existingFiguresActuallyRendered": [
+      "site/dist/assets/questions/q-229-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "30公分",
+    "notes": "親見原卷完整題幹與小圖及given渲染，x12圖合題意；BF21是部分底邊，不誤作BC。"
+  },
+  "geometryValidation": "docs/comics/q-229-geometry-validation.json",
+  "artSHA256": "991e35634882797a37cbaddf1498105aa4b625b8f2a61ae1e34bfbc13ffccc0c",
+  "completedAt": "2026-10-29T05:04:12.234804+00:00",
+  "checkedAt": "2026-10-29T05:04:12.234822+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-229-preview-validation.json",
+  "visualReview": "實看新540x180原生SVG與1440/390完整四格：點名和正方形垂線清楚，BF括線止於F、BC括線至C；54位於右側三角形內，三段9/12/9區分清楚。桌機同列等高、手機自然高度，無橫溢/公式保護詞斷裂。"
+}

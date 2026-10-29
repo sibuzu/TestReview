@@ -1,0 +1,128 @@
+{
+  "id": "q-228",
+  "counterexampleOnly_A_C_D_NotOriginalExtraData": true,
+  "B_exampleWidth8_NotGiven": true,
+  "optionChecks": {
+    "A": {
+      "coordinates": {
+        "TL": [
+          0,
+          4.999238475781956
+        ],
+        "TR": [
+          9,
+          4.999238475781956
+        ],
+        "BL": [
+          0.087262032186418,
+          0
+        ],
+        "BR": [
+          8.912737967813582,
+          0
+        ]
+      },
+      "leftTopAngle": 89.0,
+      "leftBottomAngle": 91.00000000000001,
+      "leftLeg": 5.0,
+      "rightLeg": 5.0,
+      "upperBase": 9.0,
+      "lowerBase": 8.825475935627164,
+      "horizontalBasesParallel": true,
+      "legVectorCross": -0.8724874175625282
+    },
+    "B": {
+      "coordinates": {
+        "TL": [
+          0,
+          5
+        ],
+        "TR": [
+          8,
+          5
+        ],
+        "BL": [
+          0,
+          0
+        ],
+        "BR": [
+          8,
+          0
+        ]
+      },
+      "leftTopAngle": 90.0,
+      "leftBottomAngle": 90.0,
+      "leftLeg": 5.0,
+      "rightLeg": 5.0,
+      "upperBase": 8.0,
+      "lowerBase": 8.0,
+      "horizontalBasesParallel": true,
+      "legVectorCross": 0
+    },
+    "C": {
+      "coordinates": {
+        "TL": [
+          0,
+          4.999238475781956
+        ],
+        "TR": [
+          9,
+          4.999238475781956
+        ],
+        "BL": [
+          0.087262032186418,
+          0
+        ],
+        "BR": [
+          11,
+          0
+        ]
+      },
+      "leftTopAngle": 89.0,
+      "leftBottomAngle": 91.00000000000001,
+      "leftLeg": 5.0,
+      "rightLeg": 5.384457757076259,
+      "upperBase": 9.0,
+      "lowerBase": 10.912737967813582,
+      "horizontalBasesParallel": true,
+      "legVectorCross": 9.562233242782648
+    },
+    "D": {
+      "coordinates": {
+        "TL": [
+          0,
+          5
+        ],
+        "TR": [
+          9,
+          5
+        ],
+        "BL": [
+          0,
+          0
+        ],
+        "BR": [
+          12,
+          0
+        ]
+      },
+      "leftTopAngle": 90.0,
+      "leftBottomAngle": 90.0,
+      "leftLeg": 5.0,
+      "rightLeg": 5.830951894845301,
+      "upperBase": 9.0,
+      "lowerBase": 12.0,
+      "horizontalBasesParallel": true,
+      "legVectorCross": 15
+    }
+  },
+  "B_generalProof": "rightSideSquared=5²+t² and rightSide=5 implies t²=0, so t=0",
+  "hypothesisDiagramOnly": {
+    "parallelLineGap": 5,
+    "drawnHorizontalOffset_NotGiven": 3,
+    "slantedLength": 5.830951894845301,
+    "slantedLengthGreaterThan5": true
+  },
+  "D_displayScaleIsotropic": 13,
+  "independentAllGivenConstraintsPass": true
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-227",
+  "subject": "Math",
+  "title": "鈍角決定垂足在外，水平距離要相加",
+  "art": "docs/comics/art/q-227-diagonal.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T05:01:00.512777+00:00",
+  "panels": [
+    {
+      "heading": "① 面積除底，求垂直高12",
+      "text": "以BC＝7為底，面積84除以7，得到高12。從A向BC所在直線作垂線，垂足暫記H，所以AH＝12。",
+      "alt": "新製AB15/底7/高12比例的鈍角平行四邊形，垂足H在B左外側，AH虛線及H空心直角記號可見。"
+    },
+    {
+      "heading": "② 鈍角使H落在B左外側",
+      "text": "因∠ABC大於90°，H、B、C依序在同一直線上。△ABH的斜邊AB＝15、直角邊AH＝12，畢氏定理可得BH＝9。",
+      "alt": "新製直角△ABH的12/9/15比例，另延長BC7，H不畫在線段BC內；直角記號在H不在B。"
+    },
+    {
+      "heading": "③ CH要把兩段相加",
+      "text": "CH＝BH＋BC＝16。直角△AHC的兩股是12與16，所以斜邊AC＝20。鈍角條件決定水平距離相加，不能拿9減7。",
+      "alt": "新製精確12/16/20直角△AHC，B在H/C之間分9與7；AC斜邊橙色，不把12倍增作對角線。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 鈍角決定垂足在外，水平距離要相加",
+    "answer": "答案 A：20",
+    "points": [
+      "AH＝84÷7＝12，BH＝9。",
+      "H、B、C依序共線：CH＝9＋7＝16。",
+      "AC＝√(12²＋16²)＝20。"
+    ]
+  },
+  "protectedWords": [
+    "鈍角",
+    "垂足",
+    "垂線",
+    "垂直高",
+    "水平距離",
+    "相加",
+    "相減",
+    "畢氏定理",
+    "直角",
+    "直角邊",
+    "斜邊",
+    "兩股",
+    "共線",
+    "所在直線",
+    "平行四邊形",
+    "△ABH",
+    "△AHC",
+    "BC",
+    "AB",
+    "AH",
+    "BH",
+    "CH",
+    "AC",
+    "90°",
+    "同一直線"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-227-source-0fb084f9a0.jpg"
+  ],
+  "originalVisualCheck": "實看10題AB15/BC7/ABC>90、面積84求AC，原平行四邊形向左上斜、四項20/22/24/26完整。原圖沒有H，新作垂足標明解說加名。",
+  "answerCheckedAgainst": "面積/底=12；AB15勾股BH9；鈍角使H在B外側，CH9+7=16；AC12/16/20選A，保持既有答。新圖座標A23,44 B95,140 C151,140 D79,44精確比例。",
+  "rationale": "以同底高平行四邊形、外側垂足9/12/15、最後12/16/20三步精確SVG，讓加減由鈍角位置決定；不採人物或來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "AB": 15,
+    "BC": 7,
+    "area": 84,
+    "AH": 12,
+    "BH": 9,
+    "CH": 16,
+    "AC": 20,
+    "order": [
+      "H",
+      "B",
+      "C"
+    ],
+    "angleB": "126.8699 degrees >90, construction instance"
+  },
+  "artSHA256": "73849f9b3469a482842d4ff758a12b9e454c8fceb33a0c91d3b058cce9e080ec",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T05:02:19.510202+00:00",
+  "completedAt": "2026-10-29T05:02:19.510202+00:00",
+  "layoutEvidence": "docs/comics/q-227-preview-validation.json",
+  "visualReview": "實看最終1440/1120/390，鈍角B與外垂足H、H/B/C順序正確，AH12/BH9/BC7/CH16/AC20比例及右角記號核對。標題改為兩段相加避免孤7，英文/公式無溢出，同列等高手機自然高。"
+}

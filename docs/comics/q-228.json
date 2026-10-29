@@ -1,0 +1,69 @@
+{
+  "id": "q-228",
+  "subject": "Math",
+  "title": "B的條件迫使右側垂直，其餘用反例檢查",
+  "art": "docs/comics/art/q-228.svg",
+  "protectedWords": [
+    "90°",
+    "89°",
+    "91°",
+    "平行四邊形",
+    "長方形",
+    "等腰梯形",
+    "直角梯形",
+    "充分條件",
+    "畢氏定理"
+  ],
+  "panels": [
+    {
+      "heading": "① B的兩個90°，先得到上下平行",
+      "text": "左側同時垂直上邊與下邊，所以這兩邊平行。左側長5，兩平行線的距離就是5；B又給右側長5，這個等長條件要一起用。",
+      "alt": "B畫符合條件的矩形，左上左下兩直角標記、左右皆5；未把未給的上邊長度9移入B，右側直角結論由下一格論證。"
+    },
+    {
+      "heading": "② 斜接會超過5，因此右側必須垂直",
+      "text": "若右側上下端點有水平差t，依畢氏定理，長度平方等於5²加上t²。已知右側也長5，只能t＝0。因此四角都是直角，B一定是長方形，也是平行四邊形。",
+      "alt": "假設右側斜接的輔助圖，垂直距離5、水平t，斜邊明標大於5；不把非零t的斜邊錯標5。原條件長5迫使t為0。"
+    },
+    {
+      "heading": "③ 其餘圖仍可能是梯形，不能只靠目測",
+      "text": "A的89°與91°只保證上下平行，兩腿等長仍可能是等腰梯形。C、D缺少右側限制；圖中D的直角梯形反例，就符合左側5、上邊9與兩個90°。",
+      "alt": "D精確反例上邊9、左邊5、左兩角90，右側斜接且長度未給；未把反例底邊12當原題新增條件，A/C反例另存驗算。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：給定條件足以判成長方形",
+    "points": [
+      "兩直角確定上下平行，相距5。",
+      "右側也長5，必垂直，形成長方形。",
+      "其餘條件容許非平行四邊形反例，不能目測補條件。"
+    ]
+  },
+  "rationale": "實看4-3第1題完整四幅原卷條件（C也有89/91）及givenSVG，讀來源1574–1587判B摘要，獨立用畢氏排斜接。另逐項精確構造A等腰梯形左89/91雙腿5、C左89/91左5上9斜右、D左90/90左5上9斜右，三者均符合已知卻左右不平行。新SVG B條件/假設斜接長>5/D反例，不誇大89°成別的角；B答不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-228-source-3737014927.jpg",
+    "site/dist/assets/questions/q-228-given.svg (all exact option conditions read)",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1574–1587"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG sufficient-condition rectangle, hypothetical oblique segment and a validated right-trapezoid counterexample",
+  "answerCheckedAgainst": "B平行線距5且右線段5→水平差0→矩形；A/C/D皆有精確非平行四邊形反例符合原給邊角，B唯一足以判定。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T05:03:35.391614+00:00",
+  "checkedAt": "2026-10-29T05:04:34.909334+00:00",
+  "validationFile": "docs/comics/q-228-preview-validation.json",
+  "artSha256": "6f5579fad8dfc2ba4f4190e06e19c334d75cb91fa59168c9aadfe3c9df668fed"
+}

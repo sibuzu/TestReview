@@ -1,0 +1,75 @@
+{
+  "id": "q-223",
+  "subject": "Math",
+  "title": "摺疊給兩個x，先求22°再回到A′",
+  "art": "docs/comics/art/q-223.svg",
+  "protectedWords": [
+    "BD",
+    "A′",
+    "∠DBC",
+    "∠ADB",
+    "∠BDE",
+    "∠BED",
+    "∠DEC",
+    "∠ABC",
+    "44°",
+    "136°",
+    "22°",
+    "66°",
+    "114°",
+    "△BDE",
+    "摺疊"
+  ],
+  "panels": [
+    {
+      "heading": "① 先設BD與BC的夾角為x",
+      "text": "設∠DBC＝x。AD平行BC，得∠ADB＝x；沿BD摺疊，DA映到DA′，所以∠BDA′也等於x。E在DA′上，因此∠BDE＝x。",
+      "alt": "依真正BD鏡射構造A′，原AB/AD虛線、BD綠摺線、A′下方實線，B處x及D兩側相等x；B/D固定不移，E是DA′交BC。"
+    },
+    {
+      "heading": "② E點先求補角，再用三角形內角和",
+      "text": "B、E、C共線，外角44°的補角是136°，所以∠BED＝136°。△BDE其餘兩角都是x，兩個x合計44°，解得x＝22°。",
+      "alt": "同幾何單獨放大△BDE，E的136在三角內、44在EC一側外角，B/D各x；角標未互換，x22由內角和求得。"
+    },
+    {
+      "heading": "③ B內角66°，摺前摺後A角都114°",
+      "text": "B點44°再加上22°，完整內角為66°。平行四邊形鄰角互補，180°扣掉66°得到A角114°。摺疊保留角度，因此∠A′＝114°，選A。",
+      "alt": "完整反射形的B角標66度、A′的BA′D角標114，原A仍在虛線摺前位置，不把折後A′錯畫成平行四邊形頂點或改變角度。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：114°",
+    "points": [
+      "△BDE兩個相等小角，皆為22°。",
+      "B角的44°加上22°，合成66°。",
+      "A角與A′角都等於114°。"
+    ]
+  },
+  "rationale": "實看原卷第6題完整句、四選項及摺前虛線附圖，讀givenSVG與來源1460–1497摺疊公式摘要。獨立取BC10僅供繪圖，AB=10/(2cos22)，A方向66，D=A+C，A′以BD真鏡射2u(u·A)−A構造，E求線交；驗ABD=DEC44、DBC=ADB=BDA′=BDE22、BED136、ABC66、BAD=BA′D114。新精確SVG鏡射/三角形補角/角度保留，不新增邊長題設，114答不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-223-source-33cb93cd85.jpg",
+    "site/dist/assets/questions/q-223-given.svg (source fold geometry read)",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1460–1497"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG true reflection across BD, line intersection E and validated angle partitions",
+  "answerCheckedAgainst": "AD∥BC與摺疊→BDE兩角x，BED136→x22，ABC44+22=66，A=A′114。鏡射等距與所有角另驗。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:58:02.839293+00:00",
+  "checkedAt": "2026-10-29T04:59:27.850867+00:00",
+  "validationFile": "docs/comics/q-223-preview-validation.json",
+  "artSha256": "c59e96d272800684cb7c7e5203bcc7f7d274a2cf14b0c9299794b4416ee93c95"
+}

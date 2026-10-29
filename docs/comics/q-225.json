@@ -1,0 +1,73 @@
+{
+  "id": "q-225",
+  "subject": "Math",
+  "title": "三弧半徑逐段換，AD：AB＝35：24",
+  "art": "docs/comics/art/q-225.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-225-generate.py",
+  "startedAt": "2026-10-29T04:54:45.279023+00:00",
+  "panels": [
+    {
+      "heading": "① 設AE＝x、AB＝y，先求第一段半徑",
+      "text": "AE：DE＝1：4，所以DE＝4x、AD＝BC＝5x。第一弧以A為圓心，故AF＝AE＝x，剩下BF＝AB−AF＝y−x；別把整條AD當成4x。",
+      "alt": "完整平行四邊形與A圓心真圓弧，AE/AF同綠色等半徑，E在AD上且F在AB上；同一合法35/24配置三格共用。"
+    },
+    {
+      "heading": "② 第二弧把BF換成BG，再扣出CG",
+      "text": "以B為圓心，第二弧給出BG＝BF＝y−x。因此CG＝BC−BG＝5x−(y−x)＝6x−y。先算整段再減已知部分，每步都對回圖中的線段。",
+      "alt": "B中心真圓弧BF/BG同藍綠色，BC剩餘CG另色，前一弧只留淡線；不把BG或CG誤當整條BC。"
+    },
+    {
+      "heading": "③ 第三弧把CG換成CH，套入3：1",
+      "text": "以C為圓心，CH＝CG＝6x−y。又CD＝AB＝y，所以DH＝y−CH＝2y−6x。由CH：DH＝3：1，得6x−y＝3(2y−6x)，整理成24x＝7y。",
+      "alt": "C中心真圓弧連G與H，CG/CH同藍色、剩餘DH橙色，原圖條件CH:DH3:1由HTML列式，不沿用學生誤答。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：AD：AB＝35：24",
+    "points": [
+      "24x＝7y，所以y＝24x÷7。",
+      "AD：AB＝5x：y＝35：24。",
+      "取x＝7檢查：AD35、AB24、CH18、DH6，符合3：1。"
+    ]
+  },
+  "protectedWords": [
+    "AE：DE",
+    "1：4",
+    "AF＝AE＝x",
+    "y−x",
+    "6x−y",
+    "2y−6x",
+    "CH：DH",
+    "3：1",
+    "6x−y＝3(2y−6x)",
+    "24x＝7y",
+    "AD：AB",
+    "35：24",
+    "5x：y"
+  ],
+  "rationale": "親見原卷/必要given實際渲染，沿使用者已確認AD:AB35:24、手寫7:4是學生誤答，不重開確認。全新精確SVG依三圓心分步真圓弧與同色等半徑，x7/y24例獨立驗證13長度/所有點在線段內/兩比值與代數；不把115度示意斜度新增成題目條件。無人物或來源AI圖，不改必要作答圖。",
+  "promptSummary": "新原生三格同一平行四邊形依A/B/C畫真圓弧，逐步AF=AE、BG=BF、CH=CG及各剩餘長；三格不同色聚焦當前半徑，前弧淡色。35:24已確認，無點陣改原圖或來源AI圖。",
+  "answerCheckedAgainst": "原卷AE:DE1:4、依A/B/C三弧交F/G/H、CH:DH3:1及求AD:AB；代數24x7y及獨立x7/y24合法坐標/點序驗證35:24，沿使用者確認。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-225-source-1ae4da4904.jpg"
+    ],
+    "existingFiguresActuallyRendered": [
+      "site/dist/assets/questions/q-225-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "35：24",
+    "notes": "親見全題、三圓弧、AE:DE1:4及CH:DH3:1，現有given已實際渲染看過。7:4為使用者確認學生誤答，未重問；新圖所有F/G/H均在指定邊上。"
+  },
+  "geometryValidation": "docs/comics/q-225-geometry-validation.json",
+  "artSHA256": "f5c159e679153a49b71daaf6ca0c205fdec5bf9d4b8c3a1064acaaef4ea42ba2",
+  "completedAt": "2026-10-29T05:02:15.723563+00:00",
+  "checkedAt": "2026-10-29T05:02:15.723575+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-225-preview-validation.json",
+  "visualReview": "實看原生540x180三格與1440/390成品：三圓心弧/各分段同色與點名清楚；桌機同列等高，手機四格自然分高，公式無溢出或保護詞斷行。35:24與x7實例一致，手寫7:4未當標準答案。"
+}

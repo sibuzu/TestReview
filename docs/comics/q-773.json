@@ -1,0 +1,83 @@
+{
+  "id": "q-773",
+  "subject": "Civics",
+  "title": "先看整組事例，再分政府與國家",
+  "art": "docs/comics/art/q-773.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:08:45.755754+00:00",
+  "panels": [
+    {
+      "heading": "① 甲：誰在行使公權力？",
+      "text": "立法院處理預算、行政院長赴立法院接受質詢，各縣市政府推動地方自治。雖然機關層級不同，都屬政府的運作。",
+      "alt": "原生概念圖將立法院、行政院與縣市政府列為同一甲組政府機關，不暗示三機關同一層級。"
+    },
+    {
+      "heading": "② 乙：國籍與主權看國家",
+      "text": "國籍涉及國家的人民，邦交事例涉及主權。國家具有人民、領土、政府與主權四項要素，乙的範圍比政府機關更廣。",
+      "alt": "國家四要素卡片，強調人民與主權對應原表乙組，沒有把邦交承認畫成國家成立的第五要素。"
+    },
+    {
+      "heading": "③ 中央與地方都包含在政府內",
+      "text": "甲已同時列出中央與地方機關；乙也不是地方政府。因此不能把甲、乙兩欄分別當成中央政府與地方政府。",
+      "alt": "國家外框內含政府，政府內再列中央、地方；其餘三國家要素在政府框外列出，呈現概念層級。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：政府與國家",
+    "points": [
+      "甲的共同點：政府機關行使公權力。",
+      "乙的共同點：國籍與主權等國家要素。",
+      "判讀整組內容，不只抓中央、地方或內政、外交的單一例子。"
+    ]
+  },
+  "protectedWords": [
+    "政府機關",
+    "行使公權力",
+    "立法院",
+    "行政院長",
+    "地方自治",
+    "國家要素",
+    "中央政府",
+    "地方政府"
+  ],
+  "rationale": "原卷兩張實看及完整表格五事例、四選項核對。以原生SVG精確概念層級及四要素圖，避免虛構建築/旗幟或把國家和政府當同義。維持既有確認C及既有原AI前段錯縮成中央地方的訂正，不重開確認。",
+  "promptSummary": "原生三幅概念示意：甲政府機關清單；乙國家四要素；國家包含政府、政府含中央地方。",
+  "answerCheckedAgainst": "原卷25題完整表與四選項；既有確認C；教育部國語辭典簡編本國家四要素。",
+  "officialReferences": [
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=16993&la=0&powerMode=0",
+      "finding": "國家具備領土、人民、主權與政府四個要素。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-773-source-2b086b16d4.jpg",
+      "site/dist/assets/questions/q-773-source-options-84cd145e5b.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "五例及四選項均可辨。政府含中央地方；乙為國籍與主權，沒有更動國籍取得原卷說法或擴成外交承認為國家成立要件。"
+  },
+  "artSHA256": "c0d9ee4ed27d1fd0632042b9bb60f9655aaa5ead0aa4f92fff7132669a58afee",
+  "completedAt": "2026-10-28T22:14:06.555507+00:00",
+  "checkedAt": "2026-10-28T22:14:56.325207+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-773-preview-validation.json",
+  "visualReview": "實看原生540×180與1440/390最終預覽：三機關同組、四要素完整、國家與政府層級框正確。正文原生可選，兩欄同列等高、手機自然高度、標籤無裁切，1120亦通過。",
+  "nativeArt": "assets/comics/q-773-art-c0d9ee4ed2.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-773-validation.json"
+}

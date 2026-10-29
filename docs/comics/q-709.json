@@ -1,0 +1,89 @@
+{
+  "id": "q-709",
+  "subject": "Civics",
+  "title": "先畫收養關係，再判斷直系與旁系",
+  "art": "docs/comics/art/q-709.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:14:06.694565+00:00",
+  "panels": [
+    {
+      "heading": "① 收養讓小凡成為法律上的子女",
+      "text": "這對夫妻依法收養小凡，成立的是擬制血親。小凡與養父母是擬制直系血親，不是有實際血緣的自然血親。",
+      "alt": "收養夫妻與小凡上下相連，採收養虛線並明標擬制直系血親，不畫成自然血緣。"
+    },
+    {
+      "heading": "② 小凡與小蘊：法律上的兄妹",
+      "text": "小蘊是這對夫妻的親生女兒。兄妹並非一方生下另一方，而是透過同一父母形成旁系關係；因收養而成立，屬擬制旁系血親。",
+      "alt": "父母下方並列小凡與小蘊，收養虛線與親生實線分開，底部註法律上兄妹，不以實際血緣連結兩人。"
+    },
+    {
+      "heading": "③ 社福協助不取代法院認可",
+      "text": "民法第1079條規定，收養應以書面並向法院聲請認可。社福機構可協助評估，但不能把向社會局申請當成法院認可。",
+      "alt": "書面收養到法院認可的必要程序示意，不宣稱列出所有收養要件，也不否認社會局有協助角色。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：小凡與小蘊為旁系血親",
+    "points": [
+      "養父母與小凡：擬制直系血親。",
+      "小凡與小蘊：擬制旁系血親，法律上為兄妹。",
+      "除法律另有規定外，養子女與養父母及其親屬的關係，與婚生子女相同。"
+    ]
+  },
+  "protectedWords": [
+    "小凡",
+    "小蘊",
+    "養父母",
+    "擬制血親",
+    "自然血親",
+    "擬制直系血親",
+    "擬制旁系血親",
+    "法院認可",
+    "社會局",
+    "婚生子女",
+    "第1079條"
+  ],
+  "rationale": "原卷44題全文及四選項實看，關鍵為收養形成的法律親屬線路；使用可核對原生家族關係SVG而非可能誤畫自然血緣或人數的情境圖。維持A及既有法律另有規定與社福協助限制。",
+  "promptSummary": "原生精確關係示意：養父母與小凡收養虛線；同父母下收養兒與親生女並列；書面及法院認可必要程序。",
+  "answerCheckedAgainst": "原卷44題完整紀錄及A～D；既有確認A；法務部民法1077條第一項、1079條。",
+  "officialReferences": [
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=1077",
+      "finding": "養子女與養父母及其親屬，除法律另有規定外與婚生子女同。"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=1079",
+      "finding": "收養應以書面並向法院聲請認可。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-709-source-88392df4a2.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "原卷收養小凡後生下小蘊；不是自然血緣兄妹；保留擬制及法律另有規定例外，不泛化成所有條件權利完全無差別。"
+  },
+  "artSHA256": "eb793899e069306da8fa4e7990486108b271e64a4ff1829067569fad3b030d76",
+  "completedAt": "2026-10-28T22:15:34.469392+00:00",
+  "checkedAt": "2026-10-28T22:19:59.214660+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-709-preview-validation.json",
+  "visualReview": "實看540×180關係圖及1440/390最終預覽：同父母下兩子女並列、收養虛線親生實線清晰；無直系旁系倒置。書面與法院認可圖未聲稱涵蓋全部要件。桌機同列等高，手機自然高，保護姓名與法條無跨行；三寬無溢出。",
+  "nativeArt": "assets/comics/q-709-art-eb793899e0.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-709-validation.json"
+}

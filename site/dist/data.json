@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.af237cfbb299",
+  "revision": "2026-10-27.49c320811ea9",
   "subjects": [
     {
       "id": "Chinese",
@@ -4891,7 +4891,53 @@
           "explanation": "已知等重量及浮沉狀態，不必另外知道密度數值。"
         }
       ],
-      "correctOption": "A"
+      "correctOption": "A",
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "同樣重量，從一浮一沉比較浮力",
+        "art": "assets/comics/q-041-art-5866feaec3.svg",
+        "panels": [
+          {
+            "heading": "① 浮著靜止，浮力等於重量",
+            "text": "保麗龍球浮在水面、保持靜止，向上的浮力與向下的重量平衡。設兩球的共同重量都是W，保麗龍球浮力就是W。",
+            "alt": "精確SVG保麗龍球部分浸水，浮力向上與重量向下同長；水在球後、液面不中穿球，球浸入比例僅概念示意。"
+          },
+          {
+            "heading": "② 鐵球下沉，浮力小於重量",
+            "text": "鐵球沉入食鹽水，所受浮力小於同一個W。圖取未觸底的下沉狀態、忽略水阻；若已沉到底，靜止還有底部支持力。",
+            "alt": "精確SVG鐵球在食鹽水液面下、與底部保有間距，浮力向上較短、重量向下與浮球同長；不是浮力為零。"
+          },
+          {
+            "heading": "③ 等重量，正好提供共同基準",
+            "text": "浮球浮力＝W，沉球浮力＜W，所以浮球較大。食鹽水較密，仍不能只看液體密度；排開液體體積也影響浮力。",
+            "alt": "精確SVG同一W基準下浮球等於W、沉球小於W的關係，未把箭頭長度當題目提供的精確比例。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：保麗龍球所受浮力較大",
+          "points": [
+            "等重量，不等於浮力一定相同。",
+            "沉下去的鐵球仍然受到浮力。",
+            "題目的一浮一沉已足夠，不必另求食鹽水密度。"
+          ]
+        },
+        "protectedWords": [
+          "保麗龍球",
+          "鐵球",
+          "食鹽水",
+          "浮力",
+          "重量",
+          "靜止",
+          "共同重量",
+          "下沉狀態",
+          "水阻",
+          "支持力",
+          "液體密度",
+          "液體體積",
+          "等重量",
+          "一浮一沉"
+        ]
+      }
     },
     {
       "id": "q-042",
@@ -4981,7 +5027,52 @@
           "explanation": "物體體積雖相同，但漂浮時排水體積不同。"
         }
       ],
-      "correctOption": "A"
+      "correctOption": "A",
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "物體體積相同，漂浮時排水量卻不同",
+        "art": "assets/comics/q-042-art-2aaa72a833.svg",
+        "panels": [
+          {
+            "heading": "① 三者密度，都比水小",
+            "text": "甲、乙、丙體積都為40 cm³，但質量是30、20、10 g。用質量÷體積，密度分別為0.75、0.50、0.25 g/cm³，都小於水的1 g/cm³，最後會浮在水面。",
+            "alt": "逐一列出甲30÷40、乙20÷40、丙10÷40的密度，均低於水；沒有把質量不同誤說成體積不同。"
+          },
+          {
+            "heading": "② 漂浮時，只有一部分體積浸入水中",
+            "text": "同一杯水中，三個等體積物體最後排水量並不相同：甲排開30 cm³，乙20 cm³，丙10 cm³的水。等體積方塊示意中，甲浸入比例最大，丙最小。",
+            "alt": "三個相同64像素高方塊，甲/乙/丙在同水面下的高度精確為48/32/16，對應3/4、1/2、1/4排水比例；僅為方塊形狀示意。"
+          },
+          {
+            "heading": "③ 靜止漂浮，浮力等於各自重量",
+            "text": "甲的重量是30 gw，所需平衡浮力也是30 gw；乙與丙分別為20、10 gw。因此甲受的浮力最大，選A。要比較的是最後漂浮平衡，不是剛投入水中的瞬間。",
+            "alt": "以甲為例，浮力30 gw向上、重量30 gw向下，兩支等長反向箭頭表示平衡，總結甲浮力大於乙大於丙。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：甲受的浮力最大",
+          "points": [
+            "先由密度判定三者最後皆漂浮。",
+            "靜止漂浮：浮力＝重量，30＞20＞10 gw。",
+            "等物體體積不等於等排水體積；全浸沒時才可直接用40 cm³比較。"
+          ]
+        },
+        "protectedWords": [
+          "40 cm³",
+          "30 cm³",
+          "20 cm³",
+          "10 cm³",
+          "0.75",
+          "0.50",
+          "0.25",
+          "g/cm³",
+          "30 gw",
+          "20 gw",
+          "10 gw",
+          "甲＞乙＞丙",
+          "靜止漂浮"
+        ]
+      }
     },
     {
       "id": "q-043",
@@ -5071,7 +5162,51 @@
           "explanation": "甲的浮力最大，乙不會比甲大。"
         }
       ],
-      "correctOption": "C"
+      "correctOption": "C",
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先判浮沉，再比較三個浮力",
+        "art": "assets/comics/q-043-art-b66bd32bea.svg",
+        "panels": [
+          {
+            "heading": "① 先算三個密度，分清浮與沉",
+            "text": "甲40÷50＝0.8，乙30÷60＝0.5，丙60÷30＝2，單位是g/cm³。和水密度1比較，甲、乙漂浮，丙下沉；不能先把三物體全當成完全浸水。",
+            "alt": "三列原表質量除以體積，甲0.8浮、乙0.5浮、丙2沉，對照水密度1；沒有把質量大小直接排成浮力大小。"
+          },
+          {
+            "heading": "② 漂浮甲、乙：浮力等於自身重量",
+            "text": "甲漂浮時B甲＝40 gw，乙漂浮時B乙＝30 gw。甲只需排開40 cm³的水，乙排開30 cm³；不是把整個50、60 cm³都當排水體積。",
+            "alt": "正立方體剖面同尺度邊長依體積開三次方；甲80%高度浸水、乙50%，浮力40及30gw，不用整個體積。"
+          },
+          {
+            "heading": "③ 沉入的丙：排開水重才是浮力",
+            "text": "丙完全浸水時，排開30 cm³的水，所以B丙＝30 gw。圖示未碰杯底的浸水片刻，物重60 gw大於浮力，會繼續下沉，不能把60 gw直接當浮力。",
+            "alt": "丙完全浸水且與杯底有間隙，方塊體積30cm³；旁列同尺度浮力向上30、物重向下60不等長箭頭，無靜止平衡或杯底支持力假象。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：B甲＞B乙＝B丙",
+          "points": [
+            "甲40 gw，乙30 gw，丙30 gw。",
+            "漂浮體的排水體積只取浸水部分。",
+            "沉體浮力取排開水重，不直接等於物重。"
+          ]
+        },
+        "protectedWords": [
+          "密度",
+          "漂浮",
+          "排水體積",
+          "甲、乙",
+          "40 gw",
+          "30 gw",
+          "60 gw",
+          "30 cm³",
+          "0.8",
+          "0.5",
+          "水密度",
+          "B甲＞B乙＝B丙"
+        ]
+      }
     },
     {
       "id": "q-044",
@@ -7615,7 +7750,57 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "單數主詞＋is making，才是完整進行式",
+        "art": "assets/comics/q-069-art-986990ac56-web.webp",
+        "panels": [
+          {
+            "heading": "① 受夠了，是眼前又發生的吵鬧",
+            "text": "我受夠了，加上要找主人處理，表示說話者正在抱怨狗再次製造噪音。這裡在說眼前狀態，最適合現在進行式。",
+            "alt": "新製受隔壁噪音困擾的說話者，沒有暴怒報復或醫療症狀，對應我受夠了的語境。"
+          },
+          {
+            "heading": "② The dog是單數，要用is",
+            "text": "The dog next door是隔壁那隻狗，next door不把牠變成複數。主詞單數配is，再接making，不能選are making。",
+            "alt": "新製院內唯一一隻狗正在吠叫，非多狗或能力展示；next door不改狗的單數，圖中無生成噪音字。"
+          },
+          {
+            "heading": "③ making前還需要be動詞",
+            "text": "現在進行式要有is making，只有making不成完整述語。can make是能夠或可能製造噪音，不如B貼近正抱怨的情境；談話是下一步打算。",
+            "alt": "新製說話者打算與主人理性溝通的後續情境，HTML明說是打算，不宣稱原文已談完；不含暴力或處罰。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：is making",
+          "points": [
+            "The dog是單數，配is。",
+            "現在進行式：be動詞＋V-ing。",
+            "make noise是製造噪音；A缺be，D主詞不一致。"
+          ]
+        },
+        "protectedWords": [
+          "The dog",
+          "next door",
+          "The dog next door",
+          "is making",
+          "are making",
+          "can make",
+          "making",
+          "be動詞",
+          "V-ing",
+          "make noise",
+          "單數",
+          "複數",
+          "現在進行式",
+          "完整述語",
+          "噪音",
+          "情境",
+          "下一步",
+          "is"
+        ]
+      }
     },
     {
       "id": "q-070",
@@ -40970,7 +41155,46 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "him指Nick，them指那些玩具車",
+        "art": "assets/comics/q-441-art-5f42f58efb.svg",
+        "panels": [
+          {
+            "heading": "① 先找到空格要指的玩具車",
+            "text": "Nick有許多toy cars，但玩具車總在紙箱裡，所以說話者沒看過他拿出來玩。空格指的是這些玩具車；圖只示意收藏，不表示原句有交代確切數量。",
+            "alt": "紙箱裡放多台不同色玩具車，表示toy cars複數且收在箱內；未畫Nick正在玩車，不與never see情境相反。"
+          },
+          {
+            "heading": "② 句中的him，已經指Nick",
+            "text": "I never see him play with ... 的him指Nick，整段說的是沒看過Nick玩那些車；with後的空格才指玩具車。分清「他」與「它們」，不要因前面有him就再選him。",
+            "alt": "兩條不同指代卡Nick→him、toy cars→them，以分色區分人與複數玩具，不把him代玩具車。"
+          },
+          {
+            "heading": "③ 複數事物，放在with後用them",
+            "text": "toy cars是複數；with是介系詞，後面接受格，所以用them。it是單數，me指我，him在本句指Nick，都不符合空格要代的那些玩具車。",
+            "alt": "with向下連到them，旁註複數事物的受格；此為本句所指對象，不概括them只指物而不能指人。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：them",
+          "points": [
+            "toy cars是複數，空格代這些玩具車。",
+            "with後接受格them。",
+            "him指Nick，兩個代名詞的對象不同。"
+          ]
+        },
+        "protectedWords": [
+          "Nick",
+          "toy cars",
+          "him",
+          "them",
+          "with",
+          "play with",
+          "paper boxes"
+        ]
+      }
     },
     {
       "id": "q-442",
@@ -41342,7 +41566,50 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "花錢在課程上，付錢請家教",
+        "art": "assets/comics/q-447-art-8b1ac16803.svg",
+        "panels": [
+          {
+            "heading": "① 先看第一格後面的money與on",
+            "text": "Ted是花錢的人，第一格後面接a lot of money on an English program。依人＋spend＋金錢＋on＋事物的句型，這裡用過去式spent。",
+            "alt": "Ted spent money經on連到English program課程卡，表示花費在何事；省略a lot of只為結構圖縮寫，原題HTML保留完整。"
+          },
+          {
+            "heading": "② 第二格先看到付款對象a tutor",
+            "text": "第二格後面是家教a tutor，再接to teach his eight-year-old son，表示付錢請家教教八歲兒子。用paid a tutor to teach，不能用spent直接接家教。",
+            "alt": "he paid a tutor連到to teach his son，明確付費對象是家教、學習者是兒子，不把兒子當付款對象。"
+          },
+          {
+            "heading": "③ 同樣談花費，仍要對準各自句型",
+            "text": "第一格的金錢＋on指向spent；第二格的人＋to teach指向paid。A第二格錯，B第一格錯，D兩格都不合；只有C同時符合。",
+            "alt": "兩個獨立結構並排比較，money on課程對spent、a tutor to teach對paid，不將pay所有用法限於接人。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：spent；paid",
+          "points": [
+            "人＋spend＋金錢＋on＋事物。",
+            "pay＋人＋to V：付費請人做某事。",
+            "本題選過去式spent與paid，分別核對兩格。"
+          ]
+        },
+        "protectedWords": [
+          "Ted",
+          "spent",
+          "paid",
+          "money on",
+          "a tutor",
+          "to teach",
+          "English program",
+          "spend",
+          "pay",
+          "家教",
+          "八歲兒子"
+        ]
+      }
     },
     {
       "id": "q-448",
@@ -41404,7 +41671,57 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "兩個搭配都接V-ing，別漏mopping的雙p",
+        "art": "assets/comics/q-448-art-96b53fca6a.svg",
+        "panels": [
+          {
+            "heading": "① be busy＋V-ing：忙著做",
+            "text": "說話者正忙著清地板，be busy後接V-ing。clean加ing成為cleaning，第一格填cleaning，排除A、B。",
+            "alt": "原生SVGbe busy+V-ing套入busy cleaning的詞塊，正確補語結構與原動詞對應；非只用情境猜答案。"
+          },
+          {
+            "heading": "② finish＋V-ing：做完某事",
+            "text": "對方願意等待，直到說話者拖完地。finish後也接V-ing，所以用finish mopping；D的to mop不合這裡的結構。",
+            "alt": "原生SVGfinish+V-ing套入finish mopping，第二格與第一格分別檢查，不能只對其中一格就作答。"
+          },
+          {
+            "heading": "③ mop先重複p，再加ing",
+            "text": "mop是短母音加單一子音結尾的單音節字，接ing時重複p，寫成mopping。兩格依序是cleaning、mopping，C才都正確。",
+            "alt": "原生SVGmop+p+ing→mopping並突出pp，新增p為拼字操作不是新單字或獨立原題內容。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：cleaning；mopping",
+          "points": [
+            "be busy doing：忙著做。",
+            "finish doing：做完某事。",
+            "mop → mopping；clean → cleaning。"
+          ]
+        },
+        "protectedWords": [
+          "be busy",
+          "V-ing",
+          "clean",
+          "cleaning",
+          "mop",
+          "mopping",
+          "finish",
+          "finish mopping",
+          "to mop",
+          "to clean",
+          "單音節",
+          "短母音",
+          "單一子音",
+          "第一格",
+          "第二格",
+          "單音節字",
+          "mop先重複p",
+          "重複p"
+        ]
+      }
     },
     {
       "id": "q-449",
@@ -41466,7 +41783,46 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "一直說個不停，兩格都用talking",
+        "art": "assets/comics/q-449-art-f9645b5660-web.webp",
+        "panels": [
+          {
+            "heading": "① keep talking：持續說話",
+            "text": "Toby喜歡分享學校生活，所以一直說個不停。keep後接V-ing，第一格用talking；不是keep to talk。圖中是分享談話的示意，沒有替原題編造特定學校事件。",
+            "alt": "虛構Toby在校園座椅上熱情分享，兩位同學友善傾聽，表示持續談話的情境，不含文字或額外事件。"
+          },
+          {
+            "heading": "② can't stop talking：無法停止說話",
+            "text": "stop V-ing表示停止做某事，加上can't，就成為無法停止做某事。Toby還在繼續分享，因此第二格也是talking，不是表示停下別的事去說話。",
+            "alt": "同一段談話稍後的近景，Toby仍開心說話、同學持續聽，搭配HTML解釋不能停止，不畫被迫噤聲或疾病。"
+          },
+          {
+            "heading": "③ stop to talk：停下別的活動去說話",
+            "text": "比較另設情境：原本在讀書，先停下閱讀，再轉向朋友說話，可用stop to talk描述。這不是原題交代的事件，而是用來區分to talk與talking的不同意思。",
+            "alt": "另設對照情境，Toby放下無字書本轉身與朋友交談，書仍攤在桌上；不把閱讀事件冒稱原題事實。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：talking；talking",
+          "points": [
+            "keep talking＝持續說。",
+            "can't stop talking＝無法停止說話。",
+            "stop to talk＝停下原本活動，去說話；意思不同。"
+          ]
+        },
+        "protectedWords": [
+          "Toby",
+          "keep talking",
+          "talking",
+          "stop V-ing",
+          "can't stop",
+          "stop to talk",
+          "to talk"
+        ]
+      }
     },
     {
       "id": "q-450",
@@ -41528,7 +41884,48 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先看had再判今晚，用am going表明日安排",
+        "art": "assets/comics/q-450-art-f12983a681.svg",
+        "panels": [
+          {
+            "heading": "① 同樣是今晚，活動可以已經結束",
+            "text": "回答I had a great time說的是已經玩得很開心。因此對話發生在活動之後，即使還在tonight的範圍，也是在回顧今晚稍早的經驗。",
+            "alt": "同一晚的區間包含稍早活動與現在對話兩點，不編造時鐘讀數，不把tonight直接等同未來。"
+          },
+          {
+            "heading": "② 一般動詞過去問句用Did加原形",
+            "text": "肯定回答用了had，對應的問句是Did you have a good time ...?。Did已標示過去，後面保留have；不能用Were you have。",
+            "alt": "回答I had a great time連到問句Did you have，保留一般動詞原形，不出現Did had或Were have錯誤搭配。"
+          },
+          {
+            "heading": "③ 明天再去，可以用am going表安排",
+            "text": "I am going there again tomorrow用現在進行式表明日的安排，不是說此刻正在去。先靠had把第一格定為Did，再選同時合適的B。",
+            "alt": "現在對話點位於tomorrow之前，完整I am going there again tomorrow卡指向明天，不畫成現在正在移動或誤稱be going to句型。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：Did；am going",
+          "points": [
+            "tonight仍可包含今晚稍早的過去活動。",
+            "I had對應Did you have。",
+            "am going配tomorrow可以表示已安排的未來行程。"
+          ]
+        },
+        "protectedWords": [
+          "tonight",
+          "tomorrow",
+          "Did",
+          "have",
+          "had",
+          "am going",
+          "Were you have",
+          "現在進行式",
+          "明日安排"
+        ]
+      }
     },
     {
       "id": "q-451",
@@ -41590,7 +41987,49 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "nice of you稱讚人，兩件行為用平行結構",
+        "art": "assets/comics/q-451-art-f1c8efc73c.svg",
+        "panels": [
+          {
+            "heading": "① nice是在稱讚對方的體貼行為",
+            "text": "你在我不在城裡時幫忙遛Lucky、準備食物，真是體貼。此處用It was nice of you to V，第一格選of；不是在說這件事對你有什麼好處。",
+            "alt": "nice of you稱讚卡分到遛Lucky與準備食物兩項行為，標示同一位好心幫忙者，不把nice誤解成狗的外貌。"
+          },
+          {
+            "heading": "② to walk與to prepare兩件事並列",
+            "text": "遛狗與準備食物都承接前面的to V。D的to prepare和to walk形成平行結構；prepared或preparing不適合直接放進這裡的並列位置。",
+            "alt": "to walk Lucky及to prepare food上下並列，中間and，兩個不定詞用同色，沒有把主句was誤套成每一動詞都要過去式。"
+          },
+          {
+            "heading": "③ B的prepare可省to，但for不合本意",
+            "text": "and後第二個to可以省略，所以prepare本身可以與前面的to walk並列。B仍不選，錯在for；D的of與to prepare兩格都正確。",
+            "alt": "B選項第一格for標錯而prepare標可用；D的of與to prepare都標可用，避免教成第二個to永遠不可省略。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：of；to prepare",
+          "points": [
+            "稱讚人的體貼：nice of＋人＋to V。",
+            "to walk與to prepare構成平行結構。",
+            "B錯在for，不能把prepare單獨判錯。"
+          ]
+        },
+        "protectedWords": [
+          "nice of you",
+          "Lucky",
+          "to walk",
+          "to prepare",
+          "prepare",
+          "prepared",
+          "preparing",
+          "平行結構",
+          "不定詞",
+          "for"
+        ]
+      }
     },
     {
       "id": "q-452",
@@ -54754,7 +55193,47 @@
       ],
       "passage": "Most of us have the experience of making paper planes and having great fun with a simple piece of paper. However, as we grow up, fewer and fewer people play with them. We often forget the simple joy we had before. But for some people, paper planes are still a big deal. Every few years, there is a big game called “Paper Wings.” Thousands of people from many countries join this fun event. They use only one piece of paper to make their planes. There are two parts in the match.\n\nFirst, “Longest Distance.” In this part, the person whose plane flies the furthest wins. To win, you need to make a plane that looks like a thin arrow. However, the most important thing is to have a very strong arm because you need enough power to throw the plane far. Do you know how far the planes can fly? The best players can throw their planes over 70 m.\n\nSecond, “Longest Airtime.” Here, the plane must stay in the air for a long time. These planes usually have very big wings. They do not fly fast, but they can stay in the air for a long time. The best record is between 20 and 29 seconds.\n\nPaper planes are more than just toys. They show us how things fly in the sky. If you want to be a winner, you need to practice and learn more about science.\n\n【原卷字彙】wing 翅膀；distance 距離；arrow 箭；airtime 飛行時間。",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "看However後的最重要條件，不混淆距離與時間",
+        "art": "assets/comics/q-599-art-bc4976e1d1-web.webp",
+        "panels": [
+          {
+            "heading": "① 先鎖定問的是哪個項目",
+            "text": "題目問Longest Distance，也就是誰把飛機擲得最遠。第二段提到細長箭形的飛機，但有被提到，不等於就是作者說的最重要條件。",
+            "alt": "學生準備向空曠體育館投擲細長紙飛機，只示意距離項目，不呈現實際賽事或精確紀錄。"
+          },
+          {
+            "heading": "② However之後，才是題目要找的重點",
+            "text": "However後面接most important，明說要有very strong arm，因為需要足夠力量把飛機擲遠。題目問最重要，應選A，而非只重複前句外形的D。",
+            "alt": "學生自然投出紙飛機，手臂投擲動作配合文章strong arm的文字線索；不宣稱單靠肌力就能贏或固定飛行距離。"
+          },
+          {
+            "heading": "③ 大機翼屬於停得久，不是飛得遠",
+            "text": "很大的機翼出現在Longest Airtime，是比停留空中的時間。C把第三段另一項目的條件，拿來回答第二段的距離題，對錯了項目。",
+            "alt": "另一架較寬紙翼飛機在空曠場地飛行，旁邊學生持看不到讀數的碼表，僅作滯空時間情境，不讓模型決定秒數或科學測量。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：A strong arm.",
+          "points": [
+            "問最重要，定位most important的明文。",
+            "However把重點帶到手臂力量。",
+            "距離與滯空時間要分清，不能混用條件。"
+          ]
+        },
+        "protectedWords": [
+          "Longest Distance",
+          "Longest Airtime",
+          "However",
+          "most important",
+          "strong arm",
+          "細長箭形",
+          "滯空時間",
+          "最長距離"
+        ]
+      }
     },
     {
       "id": "q-601",
@@ -56537,7 +57016,56 @@
       "optionAnalysis": [],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "You指你或你們，都搭配are",
+        "art": "assets/comics/q-620-art-5e532e63d0-web.webp",
+        "panels": [
+          {
+            "heading": "① 先讀句意：謝謝你的幫忙",
+            "text": "You指正在對話的對方，是第二人稱。句意是你幫助我，真是太好心了。空格要依主詞You選be動詞，不能看到kind就直接猜。",
+            "alt": "新製同學幫忙分擔書本的友善情境，對應kind to help me，不新增原題答案提示字或書名。"
+          },
+          {
+            "heading": "② 即使只對一個人，也用are",
+            "text": "You可以指你一個人，仍然是You are。不能因為只有一位聽話者，就誤套第三人稱單數的is；也不能用只配I的am。",
+            "alt": "新製一位說話者向一位幫忙者致謝，明確只有一位聽話者，示範you單數仍配are的語境。"
+          },
+          {
+            "heading": "③ 對兩人說你們，仍用are",
+            "text": "You也可以指你們，搭配同樣是are。判斷時先認人稱，再看主詞的搭配；第二人稱單數、複數，現在式be都用are。",
+            "alt": "新製一位感謝者對兩位幫忙同學說話，三人視線對應一說話者/兩聽者，與單人you對照；圖不印英文。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案：You are very kind to help me.",
+          "points": [
+            "You是第二人稱，搭配are。",
+            "am配I；is配he、she、it等第三人稱單數。",
+            "不是看到只有一個人，就一律選is。"
+          ]
+        },
+        "protectedWords": [
+          "You",
+          "are",
+          "You are",
+          "be動詞",
+          "kind",
+          "kind to help me",
+          "第二人稱",
+          "第三人稱",
+          "單數",
+          "複數",
+          "現在式",
+          "聽話者",
+          "am",
+          "is",
+          "好心",
+          "幫助",
+          "一個人"
+        ]
+      }
     },
     {
       "id": "q-621",
@@ -56712,7 +57240,45 @@
       "optionAnalysis": [],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "保留原句骨架，在are後加入not",
+        "art": "assets/comics/q-625-art-d9d0b576d5.svg",
+        "panels": [
+          {
+            "heading": "① 原句已經有be動詞are",
+            "text": "They are in the library. 的主詞是They，be動詞是are，後面是地點in the library。改否定時，先找到原句的are，不另加do或does。",
+            "alt": "原句依序分成They、著色的are、in the library三塊，確認原句已有be動詞。"
+          },
+          {
+            "heading": "② 原位置保留are，在它後面加not",
+            "text": "把not放到are後面，就成為They are not in the library.。主詞They與地點片語都保留，不要把are刪掉，也不用為了否定改動主詞或地點。",
+            "alt": "與第一圖相同句構位置，在are後插入橘色not塊，They及in the library維持原先內容。"
+          },
+          {
+            "heading": "③ are not可以合成aren't",
+            "text": "完整寫法是They are not in the library.；縮寫可寫They aren't in the library.。兩句意思相同；縮寫中的撇號標示省略，不是把are整個拿走。",
+            "alt": "are not向下轉成ASCII撇號的aren't，下方列完整縮寫否定句，對應第二圖同義句。"
+          }
+        ],
+        "fourth": {
+          "answer": "They are not in the library.",
+          "points": [
+            "否定句在原be動詞are後加not。",
+            "也可寫They aren't in the library.。",
+            "主詞及地點保留，本句不需do或does。"
+          ]
+        },
+        "protectedWords": [
+          "They",
+          "are not",
+          "aren't",
+          "in the library",
+          "be動詞",
+          "does"
+        ]
+      }
     },
     {
       "id": "q-626",
@@ -56747,7 +57313,46 @@
       "optionAnalysis": [],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "is後加not，形容詞與介系詞片語保留",
+        "art": "assets/comics/q-626-art-8baaef7078.svg",
+        "panels": [
+          {
+            "heading": "① is是動詞，angry是形容詞",
+            "text": "She is angry with her brother. 中的be動詞是is；angry表示生氣，是形容詞。改否定要處理原句的is，不能把angry當一般動詞而套用does not。",
+            "alt": "She之下並列著色is與angry，分別標be動詞、形容詞，讓否定操作對準is。"
+          },
+          {
+            "heading": "② 把not加在is後面",
+            "text": "改為She is not angry with her brother. 其中is仍然保留，後接not；angry與with her brother不必改動，後者說明生誰的氣。",
+            "alt": "句構保留She、is not angry及with her brother，顯示只在is後增加not，而不移除is。"
+          },
+          {
+            "heading": "③ is not可縮成isn't",
+            "text": "She isn't angry with her brother.與完整寫法同義。原句已有be動詞，不能改成does not is；第三人稱She不代表任何否定句都加does。",
+            "alt": "is not向下縮成ASCII撇號的isn't，錯誤片段does not is以刪除線標示，說明本句不另加does。"
+          }
+        ],
+        "fourth": {
+          "answer": "She is not angry with her brother.",
+          "points": [
+            "也可寫She isn't angry with her brother.",
+            "is後加not，保留形容詞與原片語。",
+            "不要寫does not is，也不要刪掉is。"
+          ]
+        },
+        "protectedWords": [
+          "She",
+          "is not",
+          "isn't",
+          "angry",
+          "with her brother",
+          "does not is",
+          "be動詞"
+        ]
+      }
     },
     {
       "id": "q-627",
@@ -56782,7 +57387,58 @@
       "optionAnalysis": [],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "已有be動詞，移到主詞前問問題",
+        "art": "assets/comics/q-627-art-e99627deee.svg",
+        "panels": [
+          {
+            "heading": "① 先找到主詞與be動詞",
+            "text": "The coffee是主詞，is是be動詞，hot表示熱的。原句是在陳述咖啡是熱的；改成Yes/No問句時，內容仍保留。",
+            "alt": "原生SVG三詞塊The coffee/is/hot.，依主詞、be、形容詞配色標記，不依人物猜主詞。"
+          },
+          {
+            "heading": "② 把is移到the coffee前",
+            "text": "已有be動詞，直接移到主詞前。原來的is成為句首Is，the coffee放在後面，hot仍保留；不用另外加入do或does。",
+            "alt": "原生SVG原詞序至Is/the coffee/hot?，曲箭頭只標is前移，其他詞塊依新句序重排，不把hot一起前移。"
+          },
+          {
+            "heading": "③ 句首大寫，句尾改問號",
+            "text": "完成Is the coffee hot?，意思是咖啡是熱的嗎？coffee在本句作不可數名詞使用，仍配is，不因改成問句就換成are。",
+            "alt": "原生SVG完整問句與is→Is、句點→問號格式檢查，native labels精確拼字，可由HTML核對。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案：Is the coffee hot?",
+          "points": [
+            "be動詞＋主詞＋其餘部分＋問號。",
+            "The coffee is hot. → Is the coffee hot?",
+            "主詞不變，hot保留，不加do或does。"
+          ]
+        },
+        "protectedWords": [
+          "The coffee",
+          "the coffee",
+          "coffee",
+          "Is the coffee hot?",
+          "Yes/No",
+          "be動詞",
+          "主詞",
+          "形容詞",
+          "不可數名詞",
+          "問句",
+          "句首",
+          "句尾",
+          "問號",
+          "大寫",
+          "hot",
+          "are",
+          "is",
+          "do",
+          "does"
+        ]
+      }
     },
     {
       "id": "q-628",
@@ -56817,7 +57473,49 @@
       "optionAnalysis": [],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "be疑問句：移動are，不另加Do",
+        "art": "assets/comics/q-628-art-7432349ff9.svg",
+        "panels": [
+          {
+            "heading": "① 先找到句中已有的are",
+            "text": "You是主詞，are是be動詞；from Taiwan說明來自臺灣。先確認句子的動詞，不要一看到疑問句就直接加入Do。",
+            "alt": "原句You are from Taiwan.中You與are分色標示，地名片語保留原序，不把be當一般實義動詞。"
+          },
+          {
+            "heading": "② 讓are移到you前面",
+            "text": "改成一般疑問句時，把are移到主詞you前面。原本的You are變成Are you，其餘from Taiwan保持原順序。",
+            "alt": "are卡片的移動箭頭指向You前，下一行呈Are you，沒有刪去主詞或重複are。"
+          },
+          {
+            "heading": "③ 調整大小寫與標點",
+            "text": "句首寫Are，移到句中的you改為小寫，句尾改問號。完整寫成Are you from Taiwan?，不寫成Do you are。",
+            "alt": "完整疑問句Are you from Taiwan?，Are和you分色、問號另外突出，沒有再添加Do。"
+          }
+        ],
+        "fourth": {
+          "answer": "參考答案：Are you from Taiwan?",
+          "points": [
+            "be動詞are移到主詞you前。",
+            "from Taiwan的順序不變。",
+            "句首大寫，句尾用問號，不另外加Do。"
+          ]
+        },
+        "protectedWords": [
+          "You",
+          "are",
+          "Are",
+          "you",
+          "from Taiwan",
+          "Do you are",
+          "一般疑問句",
+          "主詞",
+          "句首",
+          "問號"
+        ]
+      }
     },
     {
       "id": "q-629",
@@ -56881,7 +57579,45 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "there be列舉練習：先看緊接的名詞",
+        "art": "assets/comics/q-629-art-43dd3eabba.svg",
+        "panels": [
+          {
+            "heading": "① 一顆蘋果，加上三顆柳橙",
+            "text": "an apple是單數，three oranges是複數，圖中是餐桌上一顆蘋果和三顆柳橙。不過本題的國中there be列舉練習，不是把水果總數加起來就決定動詞。",
+            "alt": "餐桌上明確畫一顆紅蘋果和三顆橙色柳橙，文字an apple與three oranges對應兩組，數目精確。"
+          },
+          {
+            "heading": "② 第一個名詞是單數an apple",
+            "text": "依本題的就近搭配，be動詞後先接an apple，因此用There is an apple and three oranges on the dining table. 後面的three oranges不改變這題的預期答案B。",
+            "alt": "There is下方緊接著色an apple，再列and three oranges，指出本題先接單數，非用總水果數選動詞。"
+          },
+          {
+            "heading": "③ 把順序反過來，更容易看懂配對",
+            "text": "若同樣按這項列舉練習，先列three oranges，再列an apple，就配There are three oranges and an apple。這個對照幫助看出本題先接哪個名詞；不要與一般複數主詞直接畫上等號。",
+            "alt": "對照改寫There are three oranges and an apple，先接的three oranges著色；限定同樣依本題列舉配法，不宣稱所有英文語境只能如此。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：is",
+          "points": [
+            "原句先接an apple，依本題就近配法用is。",
+            "後面的three oranges是列舉的另一組物品。",
+            "此處辨識there be列舉句，不只數共有幾顆水果。"
+          ]
+        },
+        "protectedWords": [
+          "an apple",
+          "three oranges",
+          "There is",
+          "There are",
+          "there be",
+          "dining table"
+        ]
+      }
     },
     {
       "id": "q-630",
@@ -56945,7 +57681,56 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "整件活動當主詞，不讓friends搶走焦點",
+        "art": "assets/comics/q-630-art-f48b33dd5d.svg",
+        "panels": [
+          {
+            "heading": "① 把完整主詞一起框起來",
+            "text": "Playing basketball with friends指和朋友打籃球這件事。這整個動名詞片語才是主詞，不是單看其中的朋友有幾位。",
+            "alt": "原生SVG把Playing basketball與with friends納入同一主詞框與括線，精確表示整個活動片語，不以球員人數當主詞數。"
+          },
+          {
+            "heading": "② friends靠近空格，也不是主詞",
+            "text": "with friends說明和誰一起活動。friends是with後的對象，不是主詞；不能只看這個複數名詞，就選are。",
+            "alt": "原生SVGwith friends及錯誤friends→are連結叉號，朋友複數不控制本句主詞動詞一致。"
+          },
+          {
+            "heading": "③ 本句活動片語視為單數",
+            "text": "動名詞片語作主詞，本句視為單數，因此選is。am用於I；原形be也不能在這句單獨當現在式述語，D不合。",
+            "alt": "原生SVG動名詞片語本句單數→is流程，語法規則由HTML再次完整說明，未生成虛構題目選項。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：is",
+          "points": [
+            "完整主詞：Playing basketball with friends。",
+            "句意：放學後和朋友打籃球很有趣。",
+            "先找完整主詞，再決定be動詞。"
+          ]
+        },
+        "protectedWords": [
+          "Playing basketball",
+          "with friends",
+          "friends",
+          "動名詞片語",
+          "完整主詞",
+          "主詞",
+          "複數",
+          "單數",
+          "現在式",
+          "述語",
+          "配對",
+          "are",
+          "am",
+          "be",
+          "is",
+          "複數名詞",
+          "活動片語"
+        ]
+      }
     },
     {
       "id": "q-631",
@@ -57009,7 +57794,48 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "Both指兩位，複數主詞配are",
+        "art": "assets/comics/q-631-art-f0bcea3935.svg",
+        "panels": [
+          {
+            "heading": "① Both不是挑其中一人",
+            "text": "Both of my sisters指我的兩位姊妹，而且兩位都包括在內。圖中兩人一起被括起，對應Both所指的範圍；不是只選其中一位。",
+            "alt": "兩個抽象人物圖標被同一括號括住，對應Both of my sisters的兩位皆包括，不讓人物外形決定語法。"
+          },
+          {
+            "heading": "② 把整個主詞看成複數",
+            "text": "Both of my sisters是複數主詞，所以一般現在式選are。am搭配I；is用於第三人稱單數，這裡都不合適。",
+            "alt": "完整主詞Both of my sisters作一組，箭頭連到are，不把介詞of後單一字誤當主詞。"
+          },
+          {
+            "heading": "③ tall and thin是兩人的描述",
+            "text": "完整句為Both of my sisters are tall and thin.，意思是我的兩位姊妹都又高又瘦。tall and thin描述兩人的特徵，不改變主詞為複數的判斷。",
+            "alt": "主詞Both of my sisters、動詞are、形容詞片語tall and thin分層呈現，沒有多添人物或暗示只有一位符合。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：are",
+          "points": [
+            "Both表示兩者都，主詞為複數。",
+            "現在式複數主詞使用are。",
+            "be是原形，這句要使用變化後的形式。"
+          ]
+        },
+        "protectedWords": [
+          "Both",
+          "my sisters",
+          "are",
+          "am",
+          "is",
+          "be",
+          "tall and thin",
+          "兩者都",
+          "複數主詞"
+        ]
+      }
     },
     {
       "id": "q-632",
@@ -57073,7 +57899,45 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "一群學生中的一位：動詞看One",
+        "art": "assets/comics/q-632-art-ad78b7f875.svg",
+        "panels": [
+          {
+            "heading": "① 學生很多，句子談的卻是其中一位",
+            "text": "One of the students in our class表示我們班學生當中的一位。圖中的一群成員只是示意，著色的單一成員才是One，不是整班同學一起作主詞。",
+            "alt": "班級集合內有多個抽象成員點，其中恰一個著色標1；六點僅為集合示意，不代表原題確定班級人數或國籍。"
+          },
+          {
+            "heading": "② students在of片語裡，不是核心",
+            "text": "核心One是單數，所以動詞用is。of the students in our class用來限定從哪一群人中取一位；不要因為students有複數字尾，就改選are。",
+            "alt": "著色One直接連向is，下方灰藍卡列of the students及in our class，視覺區分核心與限定範圍。"
+          },
+          {
+            "heading": "③ One與The students，主詞數量不同",
+            "text": "比較One搭配is，與The students搭配are，才能看出差別在核心主詞。本題的句子說其中一位來自日本，沒有說全班都來自日本，答案選A。",
+            "alt": "單數One→is和複數The students→are兩張語法對照卡，不另畫國旗、人物國籍或推論全班皆來自日本。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：is",
+          "points": [
+            "核心主詞是單數One。",
+            "of the students in our class限定範圍，不改變One的單數。",
+            "students雖是複數，仍不能越過核心直接配are。"
+          ]
+        },
+        "protectedWords": [
+          "One",
+          "The students",
+          "of the students",
+          "in our class",
+          "students",
+          "Japan"
+        ]
+      }
     },
     {
       "id": "q-633",
@@ -74909,5 +75773,5 @@
       }
     }
   ],
-  "dataUpdatedAt": "2026-10-29T04:51:17+00:00"
+  "dataUpdatedAt": "2026-10-29T04:56:16+00:00"
 }

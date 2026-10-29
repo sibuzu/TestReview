@@ -1,0 +1,70 @@
+{
+  "id": "q-220",
+  "subject": "Math",
+  "title": "平行四邊形相鄰邊和，正好是一條大三角形邊",
+  "art": "docs/comics/art/q-220.svg",
+  "protectedWords": [
+    "△BFD",
+    "正三角形",
+    "平行四邊形",
+    "BF＝BD＝DF",
+    "AE＝DF＝BF",
+    "AF＋AE",
+    "AF＋BF",
+    "AB",
+    "12公分",
+    "18公分"
+  ],
+  "panels": [
+    {
+      "heading": "① 平行線讓△BFD也成正三角形",
+      "text": "BF在BA上，BD在BC上，FD平行AC，所以△BFD的三個角都是60°。因此BF＝BD＝DF，先把這組相等短邊找出來。",
+      "alt": "精確等邊ABC內部D取BC的0.4位置作示意，BFD淡綠、三邊同綠並標60度，F/E不交換，不把D當固定中點。"
+    },
+    {
+      "heading": "② 用AE＝BF，把相鄰邊拼回AB",
+      "text": "AF平行DE、AE平行DF，AFDE為平行四邊形，對邊相等，AE＝DF。結合前格，AE＝DF＝BF，因此AF＋AE＝AF＋BF＝AB。",
+      "alt": "相同座標以AF/DE藍色與AE/DF綠色分辨兩組對邊，BF也綠色，AF加BF正好完整AB；相鄰邊長3.6/2.4不同，非菱形假設。"
+    },
+    {
+      "heading": "③ 12是兩份AB，先求出一份AB",
+      "text": "12＝2(AF＋AE)＝2AB，所以AB＝6公分。△ABC三邊都等於AB，周長就是3×6＝18公分，選A。",
+      "alt": "兩份同長6的條帶合12，三份同長6合18；每份藍綠分段仍保持相鄰邊比例，只表示已推得的AB，不把12當單邊。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：18公分",
+    "points": [
+      "△BFD正三角形，BF＝DF。",
+      "平行四邊形AE＝DF，所以AF＋AE＝AB。",
+      "12＝2AB，AB＝6；大三角形周長＝18。"
+    ]
+  },
+  "rationale": "實看4-2第3題完整原卷、四選項及givenSVG；來源封存未搜尋到AFDE/BFD/周長12對應逐行解答，獨立核幾何。取邊6、D在BC0.4示意，AF3.6 AE2.4，相鄰不等；驗BF=BD=DF=AE2.4、AF+AE6、四邊周長12、三角18，另以t=.2/.4/.7核不變式。新精確SVG等邊/對邊轉換/2份對3份條帶，18答不變，不把示意t當條件。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-220-source-02365895f1.jpg",
+    "site/dist/assets/questions/q-220-given.svg (source geometry read)",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt (scoped search no AFDE/BFD/perimeter12 target solution)"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG equilateral subtriangle and parallelogram side recombination with exact two-versus-three unit bars",
+  "answerCheckedAgainst": "BFD正三角BF=DF，平四AE=DF→AF+AE=AF+BF=AB，四周長12=2AB→AB6，正三角周長18，A。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:52:20.832200+00:00",
+  "checkedAt": "2026-10-29T04:53:36.874221+00:00",
+  "validationFile": "docs/comics/q-220-preview-validation.json",
+  "artSha256": "cf217c995cd6fbbf69ec39544c44c3c862eedaee1aca62fe594095d7b989d41a"
+}

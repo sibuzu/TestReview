@@ -1,0 +1,70 @@
+{
+  "id": "q-221",
+  "subject": "Math",
+  "title": "把四段斜邊換成中央周界，再補兩條12",
+  "art": "docs/comics/art/q-221.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-221-generate.py",
+  "startedAt": "2026-10-29T04:49:16.885339+00:00",
+  "panels": [
+    {
+      "heading": "① P、Q都把各自對角線平分",
+      "text": "平行四邊形對角線互相平分，所以PA＝PC、PB＝PD；另一個平行四邊形則QE＝QC、QF＝QD。圖中同一對角線的兩半以相同顏色對應，不能把兩條不同對角線都當等長。",
+      "alt": "兩個合法平行四邊形與四條不同色對角線，交點P/Q按真實中點；同條對角線的兩半同色，沒有用同刻痕誤認所有斜邊等長。"
+    },
+    {
+      "heading": "② 四條三角形斜邊，正好換成CPDQ四邊",
+      "text": "把△PAB的PA、PB換成PC、PD；把△QEF的QE、QF換成QC、QD。四段加起來就是四邊形CPDQ周長29，這一步還沒有加AB與EF。",
+      "alt": "只畫中央C-P-D-Q周界，四段顏色對應第一圖各對角線半長；沒有把中間CD也算進四邊形周長。"
+    },
+    {
+      "heading": "③ 還有兩條底邊，各等於CD＝12",
+      "text": "AB與CD是平行四邊形對邊，EF與CD也是對邊，因此AB＝EF＝12。把29再加這兩條底邊：29＋12＋12＝53，選C，無須先求每一條對角線。",
+      "alt": "中央四段合計29，另加AB12與EF12兩個相等底邊，得53；各加一次，不重算CD。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：53",
+    "points": [
+      "對角線平分，把三角形斜邊換成中央四段。",
+      "PC＋PD＋DQ＋QC＝29。",
+      "再加AB與EF各12，周長和53。"
+    ]
+  },
+  "protectedWords": [
+    "PA＝PC",
+    "PB＝PD",
+    "QE＝QC",
+    "QF＝QD",
+    "△PAB",
+    "△QEF",
+    "CPDQ",
+    "AB＝EF＝12",
+    "CD＝12",
+    "29＋12＋12＝53"
+  ],
+  "rationale": "親見原卷/四選項與既有given渲染，C維持。全新精確SVG對角線同色半長→中央四段→補兩底邊；選合法非對稱坐標，CD真12、CPDQ真29、兩三角形不全等而和真53，獨立驗證中點/對邊/替換長度。無人物或來源AI圖，不改必要原題圖。",
+  "promptSummary": "新原生雙平行四邊形彩色對角線、中央CPDQ四段29、加AB/EF各12。保持真坐標比例與不同上下配置，不以所有斜邊同刻痕或假全等簡化。",
+  "answerCheckedAgainst": "原卷兩平行四邊形ABCD/CDEF、P/Q對角線中點、CD12/CPDQ周長29與A49 B51 C53 D55；獨立幾何配置與長度替換得53，C不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-221-source-f69ca22424.jpg"
+    ],
+    "existingFiguresActuallyRendered": [
+      "site/dist/assets/questions/q-221-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "C 53",
+    "notes": "親見完整原卷兩圖共享CD、對角線P/Q、CD12與中央周長29、全四選項；現有given已實際渲染。新圖僅另一合法示意，不用上下額外全等或等高作證明。"
+  },
+  "geometryValidation": "docs/comics/q-221-geometry-validation.json",
+  "artSHA256": "983a4ad23d264eef57714f4fcfea043c288d838039032d19276333b463ff2e33",
+  "completedAt": "2026-10-29T04:54:45.207729+00:00",
+  "checkedAt": "2026-10-29T04:54:45.207746+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-221-preview-validation.json",
+  "visualReview": "親見完整原卷/四選項、既有given實際渲染、新原生540×180及最終1440/390。四不同色對角線半長與中央四邊一一對應，CD不列入四段周長，AB與EF各加一次。合法非對稱坐標獨立驗證中點四組相等、CD/AB/EF12、中央29、兩不同三角周長合53；圖不假全等。桌機同列等高/手機自然高無溢出裁切，C53維持。"
+}

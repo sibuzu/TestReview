@@ -1,0 +1,84 @@
+{
+  "id": "q-224",
+  "subject": "Math",
+  "title": "兩組平行求A、C，五邊形總和求D",
+  "art": "docs/comics/art/q-224-pentagon.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:56:10.608266+00:00",
+  "panels": [
+    {
+      "heading": "① AE平行BC，先求A角",
+      "text": "以AB作截線，A角和B角是同側內角，合計180°。B角70°，所以A角110°，不是直接假設對角相等。",
+      "alt": "新製AE/BC平行水平線與AB截線，A110/B70的角弧在兩線之間同側，局部圖不含其餘邊。"
+    },
+    {
+      "heading": "② AB平行CD，再求C角",
+      "text": "改用BC作截線，B角與C角也是同側內角。由B角70°，同樣求得C角110°；兩組平行條件各用一次。",
+      "alt": "新製AB/CD同方向平行斜線，BC連接下端，B70/C110同側內角，AB/CD同青色。"
+    },
+    {
+      "heading": "③ 這是五邊形，要用540°",
+      "text": "ABCDE有五個頂點，可分成三個三角形，內角和540°。扣除A、B、C、E四角合計430°，D角就是110°。",
+      "alt": "新製符合條件五邊形，自A連AC/AD分成三區不同淡色；保持D為第五個角，不把整形畫成平行四邊形。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 兩組平行求A、C，五邊形總和求D",
+    "answer": "答案 B：110°",
+    "points": [
+      "A、C各180°−70°＝110°。",
+      "其餘四角：110°＋70°＋110°＋140°＝430°。",
+      "D角＝540°−430°＝110°。"
+    ]
+  },
+  "protectedWords": [
+    "五邊形",
+    "三角形",
+    "平行",
+    "截線",
+    "同側內角",
+    "對角",
+    "頂點",
+    "內角和",
+    "AB",
+    "AE",
+    "BC",
+    "CD",
+    "ABCDE",
+    "70°",
+    "110°",
+    "140°",
+    "180°",
+    "430°",
+    "540°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-224-source-330b186ee7.jpg"
+  ],
+  "originalVisualCheck": "實看7題兩組平行AB/CD與AE/BC、B70/E140、五邊形ABCDE含右上斜邊ED與四選項100/110/120/130，原手寫也標A/C110，不採為唯一依據。",
+  "answerCheckedAgainst": "兩對平行各以AB/BC作截線同側內角求A/C110；五邊形總540，四已知角430，D110選B。獨立射線A110 B70 C110 E140 D110總540驗算。",
+  "rationale": "新製兩次局部同側內角與五邊形三角剖分三步圖，保留五個頂點，避免把有兩組平行邊就當平行四邊形；不採人物或來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "angles": {
+      "A": 110,
+      "B": 70,
+      "C": 110,
+      "D": 110,
+      "E": 140
+    },
+    "sum": 540,
+    "triangulation": [
+      "ABC",
+      "ACD",
+      "ADE"
+    ],
+    "knownSum": 430
+  },
+  "artSHA256": "f9fd0bd899264b025494c20160dce615ec54cb25c0279602968f196f0054864b",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:56:43.540669+00:00",
+  "completedAt": "2026-10-29T04:56:43.540669+00:00",
+  "layoutEvidence": "docs/comics/q-224-preview-validation.json",
+  "visualReview": "實看1440/1120/390：A/B與B/C兩次同側內角70/110在正確角域，五邊形A連C/D確分三角形，D未被當四邊形角。SVG標字和540未裁切；雙欄同行等高、手機自然高無溢出。"
+}

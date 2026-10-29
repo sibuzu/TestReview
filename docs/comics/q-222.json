@@ -1,0 +1,88 @@
+{
+  "id": "q-222",
+  "subject": "Math",
+  "title": "加同一個角又減去，留下15°",
+  "art": "docs/comics/art/q-222-parallel.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:53:49.222532+00:00",
+  "panels": [
+    {
+      "heading": "① 先找兩組需要的平行線",
+      "text": "三個平行四邊形給出CD、GH都平行AB，且AF平行BE。把BC與GH交點暫記Y，AF與CD交點暫記X，聚焦原圖標的兩個角。",
+      "alt": "新製三個平行四邊形示意，AB/CD/GH青色、AF/BE橙色；保持CBE15與EBG20，X/Y位置依定義標記，不加直角記號。"
+    },
+    {
+      "heading": "② 用BE平行線拆開∠1",
+      "text": "過Y作向右、平行BE的射線。它與YC夾15°；下方剩餘角暫設θ，則∠1＝15°＋θ。",
+      "alt": "新製Y點局部YC向右上、BE平行輔助射線向右微下、YG向下，15度位於兩右向射線之間，θ為下方剩餘角。"
+    },
+    {
+      "heading": "③ 剩下的θ就是∠2",
+      "text": "θ的兩邊，分別與XA、XD反向平行；兩邊同時反向，夾角相等，所以∠2＝θ。兩角相減，只留下15°，不是20°減15°。",
+      "alt": "新製X點XA向左上、XD向上，原∠2左上角域標θ，與Y的兩邊各反向，未給θ固定角度。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 加同一個角又減去，留下15°",
+    "answer": "答案 B：15°",
+    "points": [
+      "∠1＝15°＋θ，∠2＝θ。",
+      "∠1−∠2＝15°。",
+      "20°決定BG方向，不是這兩個交角的差。"
+    ]
+  },
+  "protectedWords": [
+    "平行四邊形",
+    "平行線",
+    "平行",
+    "射線",
+    "交點",
+    "反向",
+    "夾角",
+    "剩餘角",
+    "同時",
+    "CD",
+    "GH",
+    "AB",
+    "AF",
+    "BE",
+    "BC",
+    "XA",
+    "XD",
+    "YC",
+    "BG",
+    "∠1",
+    "∠2",
+    "15°",
+    "20°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-222-source-f3bd0d893a.jpg"
+  ],
+  "originalVisualCheck": "實看5題三平行四邊形、CBE15/EBG20與三選項5/15/20；∠1位於BC與GH交點右下方，∠2在AF/CD交點左上方。讀given.svg再核對X/Y交點定義和原角弧，未改角域。",
+  "answerCheckedAgainst": "輔助射線∥BE在Y的∠1內，YC與該射線相差CBE15，剩餘θ兩邊均與XA/XD反向故等於∠2，差15選B。20度BG不影響GH∥AB。示意BE5/BC-10/BG25、AB90為一個滿足條件例子，不將θ賦值作通解。",
+  "rationale": "新製平行關係分色、Y點拆角、X點反向等角三步，讓15+θ−θ可見，避免15與20任意相減；角θ未寫固定數，非人物或來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "constructionAnglesScreen": {
+      "AB": 90,
+      "BE": 5,
+      "BC": -10,
+      "BG": 25
+    },
+    "CBE": 15,
+    "EBG": 20,
+    "parallelPairs": [
+      "CD/GH/AB",
+      "AF/BE"
+    ],
+    "theta": "symbolic, no fixed numeric claim",
+    "difference": 15
+  },
+  "artSHA256": "7ad00117f639ad71a7f85d14def6ad3cb74d564088fe0ce111738d020a77234b",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:54:18.224666+00:00",
+  "completedAt": "2026-10-29T04:54:18.224666+00:00",
+  "layoutEvidence": "docs/comics/q-222-preview-validation.json",
+  "visualReview": "實看1440/1120/390：平行分色與X/Y交點正確，Y點輔助射線位於∠1內，15度指線清楚；X左上θ與Y剩餘θ均是反向平行等角。未畫直角或替θ標固定數；字圖無溢出、同行等高手機自然高。"
+}

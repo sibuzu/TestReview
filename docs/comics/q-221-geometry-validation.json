@@ -1,0 +1,65 @@
+{
+  "id": "q-221",
+  "coordinates": {
+    "A": [
+      3.0,
+      -8.0
+    ],
+    "B": [
+      15.0,
+      -8.0
+    ],
+    "C": [
+      12.0,
+      0.0
+    ],
+    "D": [
+      0.0,
+      0.0
+    ],
+    "E": [
+      5.0,
+      7.603881090617936
+    ],
+    "F": [
+      17.0,
+      7.603881090617936
+    ],
+    "P": [
+      7.5,
+      -4.0
+    ],
+    "Q": [
+      8.5,
+      3.801940545308968
+    ]
+  },
+  "equalHalfPairs": {
+    "PA_PC": [
+      6.020797289396148,
+      6.020797289396148
+    ],
+    "PB_PD": [
+      8.5,
+      8.5
+    ],
+    "QE_QC": [
+      5.167664067067852,
+      5.167664067067852
+    ],
+    "QF_QD": [
+      9.311538643536,
+      9.311538643536
+    ]
+  },
+  "CD": 12.0,
+  "AB": 12.0,
+  "EF": 12.0,
+  "quadrilateralCPDQPerimeter": 29.0,
+  "trianglePABPerimeter": 26.52079728939615,
+  "triangleQEFPerimeter": 26.479202710603854,
+  "trianglePerimeterSum": 53.0,
+  "differentTrianglePerimetersAvoidCongruenceAssumption": true,
+  "allChecksPassed": true,
+  "note": "選一合法非對稱配置使中央周長真為29；不使用其額外個別半長作解題條件，證明只靠對角線平分與AB=EF=CD。"
+}

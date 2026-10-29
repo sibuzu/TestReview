@@ -2,413 +2,34 @@
   "mode": "three_parallel_workers_with_root_available",
   "workerLimit": 3,
   "rootRole": "機動、回答問題與整合；維持WebP及共用圖片減量",
-  "updatedAt": "2026-10-29T04:52:09.780204+00:00",
+  "updatedAt": "2026-10-29T04:56:57.059418+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-221",
-      "title": "數學第4題｜對角線中點與周長總和",
+      "questionId": "q-225",
+      "title": "數學第8題｜三段圓弧等長關係與邊長比",
       "state": "running",
-      "startedAt": "2026-10-29T04:49:16.885339+00:00",
+      "startedAt": "2026-10-29T04:54:45.279023+00:00",
       "agent": "/root/comic_lane_1"
     },
     {
       "lane": 2,
-      "questionId": "q-222",
-      "title": "數學第5題｜三個平行四邊形交角的差",
+      "questionId": "q-226",
+      "title": "數學第9題｜等腰直角三角形決定平行四邊形面積",
       "state": "running",
-      "startedAt": "2026-10-29T04:51:45.255693+00:00",
+      "startedAt": "2026-10-29T04:56:43.603491+00:00",
       "agent": "/root/comic_lane_2"
     },
     {
       "lane": 3,
-      "questionId": "q-220",
-      "title": "數學第3題｜正三角形內的平行四邊形周長",
+      "questionId": "q-223",
+      "title": "數學第6題｜平行四邊形沿對角線摺疊",
       "state": "running",
-      "startedAt": "2026-10-29T04:49:15.404415+00:00",
+      "startedAt": "2026-10-29T04:53:36.935529+00:00",
       "agent": "/root/comic_lane_3"
     }
   ],
   "ready": [
-    {
-      "id": "q-041",
-      "title": "理化第8題｜等重量浮球與沉球的浮力",
-      "subject": "Physics-Chemistry",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:12:22.116133+00:00",
-      "readyAt": "2026-10-29T03:16:15.533522+00:00",
-      "decision": "complete",
-      "reason": "新製液面/浮沉受力/共同重量基準SVG，A答；兩W同長、浮球平衡、沉球仍有較小浮力，鐵球未觸底，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-041.json",
-        "docs/comics/q-041-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-042",
-      "title": "理化第29題｜等體積不同質量物體的浮力",
-      "subject": "Physics-Chemistry",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:12:47.679326+00:00",
-      "readyAt": "2026-10-29T03:15:08.447293+00:00",
-      "decision": "complete",
-      "reason": "原卷質量體積表與A–D實核A。新精確密度/3比2比1排水/同線力平衡SVG，數值與比例獨立驗證；三寬QA、原生及最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-042.json",
-        "docs/comics/q-042-preview-validation.json",
-        "docs/comics/q-042-physics-validation.json"
-      ]
-    },
-    {
-      "id": "q-043",
-      "title": "理化第10題｜先判浮沉再比較三物體浮力",
-      "subject": "Physics-Chemistry",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:13:44.508712+00:00",
-      "readyAt": "2026-10-29T03:17:45.452472+00:00",
-      "decision": "complete",
-      "reason": "原卷表格C核對；新精確浮沉SVG立方體邊長與80/50百分比、滿杯水位及丙30對60力箭頭驗算，三寬QA桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-043.json",
-        "docs/comics/q-043-preview-validation.json",
-        "docs/comics/q-043-physics-validation.json"
-      ]
-    },
-    {
-      "id": "q-619",
-      "title": "英文延伸填空3｜兩個人作主詞",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:15:08.488471+00:00",
-      "readyAt": "2026-10-29T03:16:19.317146+00:00",
-      "decision": "not_suitable",
-      "reason": "單一步兩人and複數→are，現有短解說已完整；情境圖只重演朋友，原生括號流程也僅機械重述，四格無新增教學價值。文字來源完整核對、正式頁三寬及桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-619-review.json",
-        "docs/comics/q-619-validation.json"
-      ]
-    },
-    {
-      "id": "q-620",
-      "title": "英文延伸填空4｜第二人稱主詞",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:16:15.567159+00:00",
-      "readyAt": "2026-10-29T03:21:23.265656+00:00",
-      "decision": "complete",
-      "reason": "新製幫忙/you一位聽者/you兩位聽者三景，are答與來源文字延伸核對；不因指一人誤用is，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-620.json",
-        "docs/comics/q-620-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-621",
-      "title": "英文延伸填空5｜人物的職業身分",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:16:19.352705+00:00",
-      "readyAt": "2026-10-29T03:17:11.490246+00:00",
-      "decision": "not_suitable",
-      "reason": "My mother第三人稱單數→is僅一步，醫院人物圖只解釋nurse/hospital，原生句構亦無新推理層次；現有短解說足夠。完整文字來源、三寬QA與桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-621-review.json",
-        "docs/comics/q-621-validation.json"
-      ]
-    },
-    {
-      "id": "q-622",
-      "title": "英文延伸填空6｜複數書本主詞",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:17:11.524611+00:00",
-      "readyAt": "2026-10-29T03:18:14.532855+00:00",
-      "decision": "not_suitable",
-      "reason": "These與books已直接標示複數，短解說足夠；書堆只顯示heavy，句構對照無新增解題層次，不硬擴四格。完整文字源/三寬只讀QA及桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-622-review.json",
-        "docs/comics/q-622-validation.json"
-      ]
-    },
-    {
-      "id": "q-623",
-      "title": "英文延伸填空7｜天氣描述",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:17:45.487064+00:00",
-      "readyAt": "2026-10-29T03:22:38.961769+00:00",
-      "decision": "not_suitable",
-      "reason": "單一It與is配對無需強拆四格，正式桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-623-review.json",
-        "docs/comics/q-623-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-624",
-      "title": "英文延伸填空8｜第一人稱複數",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:18:14.570064+00:00",
-      "readyAt": "2026-10-29T03:19:13.743733+00:00",
-      "decision": "not_suitable",
-      "reason": "We→are基本單步配對，學生備考情境只展示ready/test，I/We原生對照亦僅擴寫已清楚規則，無新推理價值。完整文字來源/三寬只讀QA與桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-624-review.json",
-        "docs/comics/q-624-validation.json"
-      ]
-    },
-    {
-      "id": "q-625",
-      "title": "英文延伸改寫1｜They的否定句",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:19:13.778872+00:00",
-      "readyAt": "2026-10-29T03:20:56.741809+00:00",
-      "decision": "complete",
-      "reason": "完整文字源否定改寫核對。新原生句塊呈現找are→保留骨架插not→縮寫，具可對照操作；三寬QA及原生桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-625.json",
-        "docs/comics/q-625-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-626",
-      "title": "英文延伸改寫2｜She的否定句",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:20:56.799420+00:00",
-      "readyAt": "2026-10-29T03:22:58.391698+00:00",
-      "decision": "complete",
-      "reason": "完整文字源否定改寫核對。新原生is/angry角色、插not保留原片語、縮寫與錯式對照；三寬QA及原生/最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-626.json",
-        "docs/comics/q-626-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-627",
-      "title": "英文延伸改寫3｜咖啡的疑問句",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:21:23.300700+00:00",
-      "readyAt": "2026-10-29T03:24:02.690459+00:00",
-      "decision": "complete",
-      "reason": "新製主詞/be/形容詞詞塊移位SVG，Is the coffee hot?不變，保留hot且不用do/does；來源文字核對及三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-627.json",
-        "docs/comics/q-627-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-628",
-      "title": "英文延伸改寫4｜You的疑問句",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:22:38.995708+00:00",
-      "readyAt": "2026-10-29T03:24:04.348520+00:00",
-      "decision": "complete",
-      "reason": "be疑問句精確詞序移動及標點圖完成，三寬檢查與桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-628.json",
-        "docs/comics/q-628-grammar-validation.json",
-        "docs/comics/q-628-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-629",
-      "title": "英文延伸選擇1｜列舉物品的there be",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:22:58.426729+00:00",
-      "readyAt": "2026-10-29T03:25:11.807442+00:00",
-      "decision": "complete",
-      "reason": "完整文字源四選項與既核定B維持。新精確水果數/先接an apple/反轉列舉對照SVG，限定本題國中配法；三寬QA及原生/最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-629.json",
-        "docs/comics/q-629-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-630",
-      "title": "英文延伸選擇2｜活動作主詞",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:24:02.727252+00:00",
-      "readyAt": "2026-10-29T03:26:15.999355+00:00",
-      "decision": "complete",
-      "reason": "新製完整活動主詞框/排除friends假主詞/單數is三步SVG，A與來源文字核對；三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-630.json",
-        "docs/comics/q-630-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-631",
-      "title": "英文延伸選擇3｜Both所指人數",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:24:04.382904+00:00",
-      "readyAt": "2026-10-29T03:25:25.494539+00:00",
-      "decision": "complete",
-      "reason": "Both兩位皆包括精確分組與主謂一致圖，三寬QA桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-631.json",
-        "docs/comics/q-631-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-632",
-      "title": "英文延伸選擇4｜One of的核心主詞",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:25:11.840428+00:00",
-      "readyAt": "2026-10-29T03:27:22.022580+00:00",
-      "decision": "complete",
-      "reason": "完整文字源A答維持。新原生集合選1/One核心與of修飾區別/單複對照，精確處理students干擾；三寬QA及原生最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-632.json",
-        "docs/comics/q-632-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-599",
-      "title": "英文第35題｜紙飛機最長距離賽的關鍵",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:25:25.530357+00:00",
-      "readyAt": "2026-10-29T03:27:32.264418+00:00",
-      "decision": "complete",
-      "reason": "新製紙飛機距離與滯空時間情境，最高級轉折閱讀核對及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-599.json",
-        "docs/comics/q-599-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-069",
-      "title": "英文第18題｜現在進行式的完整結構",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:26:16.031882+00:00",
-      "readyAt": "2026-10-29T03:29:23.643406+00:00",
-      "decision": "complete",
-      "reason": "新製噪音困擾/單狗吠叫/預計找主人三景，B is making，原卷核對be+Ving完整與單數；C語法可而語境非最佳，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-069.json",
-        "docs/comics/q-069-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-441",
-      "title": "英文第19題｜them指代複數玩具車",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:27:22.057301+00:00",
-      "readyAt": "2026-10-29T03:29:28.662048+00:00",
-      "decision": "complete",
-      "reason": "原卷全句與A–D核對D。新紙箱玩具車/雙指代/with受格原生圖，never see不誤成沒見過Nick或正在玩；三寬QA及原生最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-441.json",
-        "docs/comics/q-441-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-447",
-      "title": "英文第34題｜spend money on與pay a tutor",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:27:32.300737+00:00",
-      "readyAt": "2026-10-29T03:29:40.003016+00:00",
-      "decision": "complete",
-      "reason": "spend課程項目與pay家教對象精確句型圖，原卷四選項及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-447.json",
-        "docs/comics/q-447-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-448",
-      "title": "英文第35題｜be busy與finish後接V-ing",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:29:23.677783+00:00",
-      "readyAt": "2026-10-29T03:32:21.400609+00:00",
-      "decision": "complete",
-      "reason": "新製be busy/finish的V-ing詞塊與mopping雙p拼字圖，原卷兩格及C答核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-448.json",
-        "docs/comics/q-448-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-449",
-      "title": "英文第36題｜keep talking與can’t stop talking",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:29:28.714035+00:00",
-      "readyAt": "2026-10-29T03:32:21.928697+00:00",
-      "decision": "complete",
-      "reason": "原卷對話與四選項實核C。新imagegen持續分享/仍在談話/停下閱讀去說話的另設對照，精確文字HTML；原始成圖及三寬QA與桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-449.json",
-        "docs/comics/q-449-preview-validation.json",
-        "docs/comics/q-449-generation.json"
-      ]
-    },
-    {
-      "id": "q-450",
-      "title": "英文第37題｜Did回顧今晚與am going明日安排",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:29:40.037403+00:00",
-      "readyAt": "2026-10-29T03:31:28.778121+00:00",
-      "decision": "complete",
-      "reason": "同晚已結束活動與明日安排時間線，原卷B答和三寬桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-450.json",
-        "docs/comics/q-450-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-451",
-      "title": "英文第38題｜It was nice of you與平行不定詞",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:31:28.811790+00:00",
-      "readyAt": "2026-10-29T03:34:24.421664+00:00",
-      "decision": "complete",
-      "reason": "nice of與並列不定詞精確圖，保留B的prepare可省to界線，三寬實看通過",
-      "evidence": [
-        "docs/comics/q-451.json",
-        "docs/comics/q-451-preview-validation.json"
-      ]
-    },
     {
       "id": "q-452",
       "title": "英文第39題｜make a card for受贈者",
@@ -1535,9 +1156,71 @@
         "docs/comics/q-219.json",
         "docs/comics/q-219-preview-validation.json"
       ]
+    },
+    {
+      "id": "q-220",
+      "title": "數學第3題｜正三角形內的平行四邊形周長",
+      "subject": "Math",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:49:15.404415+00:00",
+      "readyAt": "2026-10-29T04:53:36.901322+00:00",
+      "decision": "complete",
+      "reason": "精確等邊小三角與非菱形對邊重組、2份對3份條帶，獨立驗18及三寬實看通過",
+      "evidence": [
+        "docs/comics/q-220.json",
+        "docs/comics/q-220-geometry-validation.json",
+        "docs/comics/q-220-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-221",
+      "title": "數學第4題｜對角線中點與周長總和",
+      "subject": "Math",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:49:16.885339+00:00",
+      "readyAt": "2026-10-29T04:54:45.240917+00:00",
+      "decision": "complete",
+      "reason": "原卷/given實看C53維持。新精確分色半對角線→中央四段29→補兩12 SVG；合法非對稱坐標實滿足12/29/53且不假全等，中點等長獨立驗證。三寬QA及原生桌手機實看通過。",
+      "evidence": [
+        "docs/comics/q-221.json",
+        "docs/comics/q-221-preview-validation.json",
+        "docs/comics/q-221-geometry-validation.json"
+      ]
+    },
+    {
+      "id": "q-222",
+      "title": "數學第5題｜三個平行四邊形交角的差",
+      "subject": "Math",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:51:45.255693+00:00",
+      "readyAt": "2026-10-29T04:54:18.252400+00:00",
+      "decision": "complete",
+      "reason": "新製平行分色/Y輔助射線拆15+θ/X反向等角θ幾何SVG，原卷B15核對，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-222.json",
+        "docs/comics/q-222-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-224",
+      "title": "數學第7題｜兩組平行邊的五邊形內角",
+      "subject": "Math",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:54:18.287163+00:00",
+      "readyAt": "2026-10-29T04:56:43.569252+00:00",
+      "decision": "complete",
+      "reason": "新製兩次同側內角70/110與五邊形三角剖分540 SVG，D110選B，原卷與三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-224.json",
+        "docs/comics/q-224-preview-validation.json"
+      ]
     }
   ],
-  "integrated": 474,
+  "integrated": 499,
   "blocked": [
     {
       "id": "q-439",
@@ -1589,385 +1272,6 @@
   ],
   "waiting": [
     {
-      "id": "q-041",
-      "title": "理化第8題｜等重量浮球與沉球的浮力",
-      "subject": "Physics-Chemistry",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:12:22.116133+00:00",
-      "readyAt": "2026-10-29T03:16:15.533522+00:00",
-      "decision": "complete",
-      "reason": "新製液面/浮沉受力/共同重量基準SVG，A答；兩W同長、浮球平衡、沉球仍有較小浮力，鐵球未觸底，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-041.json",
-        "docs/comics/q-041-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-042",
-      "title": "理化第29題｜等體積不同質量物體的浮力",
-      "subject": "Physics-Chemistry",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:12:47.679326+00:00",
-      "readyAt": "2026-10-29T03:15:08.447293+00:00",
-      "decision": "complete",
-      "reason": "原卷質量體積表與A–D實核A。新精確密度/3比2比1排水/同線力平衡SVG，數值與比例獨立驗證；三寬QA、原生及最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-042.json",
-        "docs/comics/q-042-preview-validation.json",
-        "docs/comics/q-042-physics-validation.json"
-      ]
-    },
-    {
-      "id": "q-043",
-      "title": "理化第10題｜先判浮沉再比較三物體浮力",
-      "subject": "Physics-Chemistry",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:13:44.508712+00:00",
-      "readyAt": "2026-10-29T03:17:45.452472+00:00",
-      "decision": "complete",
-      "reason": "原卷表格C核對；新精確浮沉SVG立方體邊長與80/50百分比、滿杯水位及丙30對60力箭頭驗算，三寬QA桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-043.json",
-        "docs/comics/q-043-preview-validation.json",
-        "docs/comics/q-043-physics-validation.json"
-      ]
-    },
-    {
-      "id": "q-619",
-      "title": "英文延伸填空3｜兩個人作主詞",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:15:08.488471+00:00",
-      "readyAt": "2026-10-29T03:16:19.317146+00:00",
-      "decision": "not_suitable",
-      "reason": "單一步兩人and複數→are，現有短解說已完整；情境圖只重演朋友，原生括號流程也僅機械重述，四格無新增教學價值。文字來源完整核對、正式頁三寬及桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-619-review.json",
-        "docs/comics/q-619-validation.json"
-      ]
-    },
-    {
-      "id": "q-620",
-      "title": "英文延伸填空4｜第二人稱主詞",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:16:15.567159+00:00",
-      "readyAt": "2026-10-29T03:21:23.265656+00:00",
-      "decision": "complete",
-      "reason": "新製幫忙/you一位聽者/you兩位聽者三景，are答與來源文字延伸核對；不因指一人誤用is，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-620.json",
-        "docs/comics/q-620-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-621",
-      "title": "英文延伸填空5｜人物的職業身分",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:16:19.352705+00:00",
-      "readyAt": "2026-10-29T03:17:11.490246+00:00",
-      "decision": "not_suitable",
-      "reason": "My mother第三人稱單數→is僅一步，醫院人物圖只解釋nurse/hospital，原生句構亦無新推理層次；現有短解說足夠。完整文字來源、三寬QA與桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-621-review.json",
-        "docs/comics/q-621-validation.json"
-      ]
-    },
-    {
-      "id": "q-622",
-      "title": "英文延伸填空6｜複數書本主詞",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:17:11.524611+00:00",
-      "readyAt": "2026-10-29T03:18:14.532855+00:00",
-      "decision": "not_suitable",
-      "reason": "These與books已直接標示複數，短解說足夠；書堆只顯示heavy，句構對照無新增解題層次，不硬擴四格。完整文字源/三寬只讀QA及桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-622-review.json",
-        "docs/comics/q-622-validation.json"
-      ]
-    },
-    {
-      "id": "q-623",
-      "title": "英文延伸填空7｜天氣描述",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:17:45.487064+00:00",
-      "readyAt": "2026-10-29T03:22:38.961769+00:00",
-      "decision": "not_suitable",
-      "reason": "單一It與is配對無需強拆四格，正式桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-623-review.json",
-        "docs/comics/q-623-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-624",
-      "title": "英文延伸填空8｜第一人稱複數",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:18:14.570064+00:00",
-      "readyAt": "2026-10-29T03:19:13.743733+00:00",
-      "decision": "not_suitable",
-      "reason": "We→are基本單步配對，學生備考情境只展示ready/test，I/We原生對照亦僅擴寫已清楚規則，無新推理價值。完整文字來源/三寬只讀QA與桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-624-review.json",
-        "docs/comics/q-624-validation.json"
-      ]
-    },
-    {
-      "id": "q-625",
-      "title": "英文延伸改寫1｜They的否定句",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:19:13.778872+00:00",
-      "readyAt": "2026-10-29T03:20:56.741809+00:00",
-      "decision": "complete",
-      "reason": "完整文字源否定改寫核對。新原生句塊呈現找are→保留骨架插not→縮寫，具可對照操作；三寬QA及原生桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-625.json",
-        "docs/comics/q-625-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-626",
-      "title": "英文延伸改寫2｜She的否定句",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:20:56.799420+00:00",
-      "readyAt": "2026-10-29T03:22:58.391698+00:00",
-      "decision": "complete",
-      "reason": "完整文字源否定改寫核對。新原生is/angry角色、插not保留原片語、縮寫與錯式對照；三寬QA及原生/最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-626.json",
-        "docs/comics/q-626-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-627",
-      "title": "英文延伸改寫3｜咖啡的疑問句",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:21:23.300700+00:00",
-      "readyAt": "2026-10-29T03:24:02.690459+00:00",
-      "decision": "complete",
-      "reason": "新製主詞/be/形容詞詞塊移位SVG，Is the coffee hot?不變，保留hot且不用do/does；來源文字核對及三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-627.json",
-        "docs/comics/q-627-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-628",
-      "title": "英文延伸改寫4｜You的疑問句",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:22:38.995708+00:00",
-      "readyAt": "2026-10-29T03:24:04.348520+00:00",
-      "decision": "complete",
-      "reason": "be疑問句精確詞序移動及標點圖完成，三寬檢查與桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-628.json",
-        "docs/comics/q-628-grammar-validation.json",
-        "docs/comics/q-628-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-629",
-      "title": "英文延伸選擇1｜列舉物品的there be",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:22:58.426729+00:00",
-      "readyAt": "2026-10-29T03:25:11.807442+00:00",
-      "decision": "complete",
-      "reason": "完整文字源四選項與既核定B維持。新精確水果數/先接an apple/反轉列舉對照SVG，限定本題國中配法；三寬QA及原生/最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-629.json",
-        "docs/comics/q-629-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-630",
-      "title": "英文延伸選擇2｜活動作主詞",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:24:02.727252+00:00",
-      "readyAt": "2026-10-29T03:26:15.999355+00:00",
-      "decision": "complete",
-      "reason": "新製完整活動主詞框/排除friends假主詞/單數is三步SVG，A與來源文字核對；三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-630.json",
-        "docs/comics/q-630-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-631",
-      "title": "英文延伸選擇3｜Both所指人數",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:24:04.382904+00:00",
-      "readyAt": "2026-10-29T03:25:25.494539+00:00",
-      "decision": "complete",
-      "reason": "Both兩位皆包括精確分組與主謂一致圖，三寬QA桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-631.json",
-        "docs/comics/q-631-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-632",
-      "title": "英文延伸選擇4｜One of的核心主詞",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:25:11.840428+00:00",
-      "readyAt": "2026-10-29T03:27:22.022580+00:00",
-      "decision": "complete",
-      "reason": "完整文字源A答維持。新原生集合選1/One核心與of修飾區別/單複對照，精確處理students干擾；三寬QA及原生最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-632.json",
-        "docs/comics/q-632-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-599",
-      "title": "英文第35題｜紙飛機最長距離賽的關鍵",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:25:25.530357+00:00",
-      "readyAt": "2026-10-29T03:27:32.264418+00:00",
-      "decision": "complete",
-      "reason": "新製紙飛機距離與滯空時間情境，最高級轉折閱讀核對及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-599.json",
-        "docs/comics/q-599-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-069",
-      "title": "英文第18題｜現在進行式的完整結構",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:26:16.031882+00:00",
-      "readyAt": "2026-10-29T03:29:23.643406+00:00",
-      "decision": "complete",
-      "reason": "新製噪音困擾/單狗吠叫/預計找主人三景，B is making，原卷核對be+Ving完整與單數；C語法可而語境非最佳，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-069.json",
-        "docs/comics/q-069-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-441",
-      "title": "英文第19題｜them指代複數玩具車",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:27:22.057301+00:00",
-      "readyAt": "2026-10-29T03:29:28.662048+00:00",
-      "decision": "complete",
-      "reason": "原卷全句與A–D核對D。新紙箱玩具車/雙指代/with受格原生圖，never see不誤成沒見過Nick或正在玩；三寬QA及原生最終桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-441.json",
-        "docs/comics/q-441-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-447",
-      "title": "英文第34題｜spend money on與pay a tutor",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:27:32.300737+00:00",
-      "readyAt": "2026-10-29T03:29:40.003016+00:00",
-      "decision": "complete",
-      "reason": "spend課程項目與pay家教對象精確句型圖，原卷四選項及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-447.json",
-        "docs/comics/q-447-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-448",
-      "title": "英文第35題｜be busy與finish後接V-ing",
-      "subject": "English",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:29:23.677783+00:00",
-      "readyAt": "2026-10-29T03:32:21.400609+00:00",
-      "decision": "complete",
-      "reason": "新製be busy/finish的V-ing詞塊與mopping雙p拼字圖，原卷兩格及C答核對，三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-448.json",
-        "docs/comics/q-448-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-449",
-      "title": "英文第36題｜keep talking與can’t stop talking",
-      "subject": "English",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:29:28.714035+00:00",
-      "readyAt": "2026-10-29T03:32:21.928697+00:00",
-      "decision": "complete",
-      "reason": "原卷對話與四選項實核C。新imagegen持續分享/仍在談話/停下閱讀去說話的另設對照，精確文字HTML；原始成圖及三寬QA與桌手機實看通過。",
-      "evidence": [
-        "docs/comics/q-449.json",
-        "docs/comics/q-449-preview-validation.json",
-        "docs/comics/q-449-generation.json"
-      ]
-    },
-    {
-      "id": "q-450",
-      "title": "英文第37題｜Did回顧今晚與am going明日安排",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:29:40.037403+00:00",
-      "readyAt": "2026-10-29T03:31:28.778121+00:00",
-      "decision": "complete",
-      "reason": "同晚已結束活動與明日安排時間線，原卷B答和三寬桌手機實看通過",
-      "evidence": [
-        "docs/comics/q-450.json",
-        "docs/comics/q-450-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-451",
-      "title": "英文第38題｜It was nice of you與平行不定詞",
-      "subject": "English",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T03:31:28.811790+00:00",
-      "readyAt": "2026-10-29T03:34:24.421664+00:00",
-      "decision": "complete",
-      "reason": "nice of與並列不定詞精確圖，保留B的prepare可省to界線，三寬實看通過",
-      "evidence": [
-        "docs/comics/q-451.json",
-        "docs/comics/q-451-preview-validation.json"
-      ]
-    },
-    {
       "id": "q-452",
       "title": "英文第39題｜make a card for受贈者",
       "subject": "English",
@@ -3092,6 +2396,68 @@
       "evidence": [
         "docs/comics/q-219.json",
         "docs/comics/q-219-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-220",
+      "title": "數學第3題｜正三角形內的平行四邊形周長",
+      "subject": "Math",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:49:15.404415+00:00",
+      "readyAt": "2026-10-29T04:53:36.901322+00:00",
+      "decision": "complete",
+      "reason": "精確等邊小三角與非菱形對邊重組、2份對3份條帶，獨立驗18及三寬實看通過",
+      "evidence": [
+        "docs/comics/q-220.json",
+        "docs/comics/q-220-geometry-validation.json",
+        "docs/comics/q-220-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-221",
+      "title": "數學第4題｜對角線中點與周長總和",
+      "subject": "Math",
+      "lane": 1,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:49:16.885339+00:00",
+      "readyAt": "2026-10-29T04:54:45.240917+00:00",
+      "decision": "complete",
+      "reason": "原卷/given實看C53維持。新精確分色半對角線→中央四段29→補兩12 SVG；合法非對稱坐標實滿足12/29/53且不假全等，中點等長獨立驗證。三寬QA及原生桌手機實看通過。",
+      "evidence": [
+        "docs/comics/q-221.json",
+        "docs/comics/q-221-preview-validation.json",
+        "docs/comics/q-221-geometry-validation.json"
+      ]
+    },
+    {
+      "id": "q-222",
+      "title": "數學第5題｜三個平行四邊形交角的差",
+      "subject": "Math",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:51:45.255693+00:00",
+      "readyAt": "2026-10-29T04:54:18.252400+00:00",
+      "decision": "complete",
+      "reason": "新製平行分色/Y輔助射線拆15+θ/X反向等角θ幾何SVG，原卷B15核對，三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-222.json",
+        "docs/comics/q-222-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-224",
+      "title": "數學第7題｜兩組平行邊的五邊形內角",
+      "subject": "Math",
+      "lane": 2,
+      "state": "ready",
+      "startedAt": "2026-10-29T04:54:18.287163+00:00",
+      "readyAt": "2026-10-29T04:56:43.569252+00:00",
+      "decision": "complete",
+      "reason": "新製兩次同側內角70/110與五邊形三角剖分540 SVG，D110選B，原卷與三寬實看PASS。",
+      "evidence": [
+        "docs/comics/q-224.json",
+        "docs/comics/q-224-preview-validation.json"
       ]
     }
   ],

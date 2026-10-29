@@ -1,0 +1,70 @@
+{
+  "id": "q-220",
+  "coordinates": {
+    "A": [
+      3.0,
+      5.196152422706632
+    ],
+    "B": [
+      0.0,
+      0.0
+    ],
+    "C": [
+      6.0,
+      0.0
+    ],
+    "D": [
+      2.4000000000000004,
+      0.0
+    ],
+    "F": [
+      1.2000000000000002,
+      2.078460969082653
+    ],
+    "E": [
+      4.199999999999999,
+      3.117691453623979
+    ]
+  },
+  "illustrativeDfraction_NotAdditionalCondition": 0.4,
+  "BF_BD_DF_AE": [
+    2.4000000000000004,
+    2.4000000000000004,
+    2.4000000000000004,
+    2.4
+  ],
+  "AFplusAE": 6.0,
+  "AFDEPerimeter": 12.0,
+  "trianglePerimeter": 18,
+  "adjacentSidesDifferent": [
+    3.6,
+    2.4
+  ],
+  "variablePointChecks": [
+    {
+      "chosenInternalBaseFraction_NotGiven": 0.2,
+      "AF": 4.800000000000001,
+      "AE": 1.2000000000000002,
+      "AFplusAE": 6.000000000000001,
+      "parallelogramPerimeter": 12.000000000000002
+    },
+    {
+      "chosenInternalBaseFraction_NotGiven": 0.4,
+      "AF": 3.5999999999999996,
+      "AE": 2.4000000000000004,
+      "AFplusAE": 6.0,
+      "parallelogramPerimeter": 12.0
+    },
+    {
+      "chosenInternalBaseFraction_NotGiven": 0.7,
+      "AF": 1.8000000000000003,
+      "AE": 4.199999999999999,
+      "AFplusAE": 6.0,
+      "parallelogramPerimeter": 12.0
+    }
+  ],
+  "symbolic": "AF=(1−t)L, AE=tL, AF+AE=L, quadrilateralPerimeter=2L=12, L=6, trianglePerimeter=3L=18",
+  "barCopiesTop": 2,
+  "barCopiesBottom": 3,
+  "independentPass": true
+}

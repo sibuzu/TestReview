@@ -1,0 +1,63 @@
+{
+  "id": "q-733",
+  "subject": "English",
+  "title": "事件是一回事，延續的狀態是另一回事",
+  "art": "docs/comics/art/q-733.png",
+  "protectedWords": [
+    "for many years",
+    "has been dead",
+    "has died",
+    "was dead"
+  ],
+  "panels": [
+    {
+      "heading": "① die指死亡事件",
+      "text": "died、has died著重死亡這件事發生了。不能把這個事件說成連續進行好多年；插畫只回顧歌手生前的照片。",
+      "alt": "虛構歌手只出現在過去的演出照片中，不描繪死亡原因或過程。"
+    },
+    {
+      "heading": "② dead表示已死亡的狀態",
+      "text": "has been dead for many years＝已去世多年。for many years在這裡說的是狀態從過去延續至今，不是反覆發生死亡。",
+      "alt": "照片、唱片和花作為溫和的追思情境，不代表連續死亡事件。"
+    },
+    {
+      "heading": "③ 歌迷到現在仍喜愛他的歌",
+      "text": "still love呼應現在的情況。本句用has been dead把過去與現在連起來，再說他的歌曲仍受喜愛。",
+      "alt": "現代歌迷聆聽留下的錄音，歌手本人沒有在現場演出或復生。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：has been dead",
+    "points": [
+      "本句比較：die事件；be dead狀態。",
+      "持續多年用has been dead for many years。",
+      "was dead偏過去時段，A最直接對應延續至今。"
+    ]
+  },
+  "rationale": "已實看第7回第23題原卷，並查已由使用者確認的correction-q-733-d2d1ed0b8eda：維持A，不能照原AI誤選D。新圖分為舊照片、追思狀態及現在聽錄音，不畫死亡過程，不虛構真實歌手。無既有AI圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-733-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-733-source-98ceb58aea.jpg"
+  ],
+  "answerCheckedAgainst": "已確認A：for many years搭已死亡的持續狀態；不是has died事件持續多年。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "2f63cad8af022066ba52980a4608c73398d43b085c2fc183d9a23cf3ef26fd63",
+  "createdAt": "2026-10-28T19:26:26.254833+00:00",
+  "checkedAt": "2026-10-28T19:30:01.323271+00:00",
+  "validationFile": "docs/comics/q-733-validation.json",
+  "nativeArt": "assets/comics/q-733-art-2f63cad8af-web.webp"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "q-746",
+  "subject": "English",
+  "title": "未來將會有，仍用There be的結構",
+  "art": "docs/comics/art/q-746-v2.png",
+  "protectedWords": [
+    "There be",
+    "next Friday",
+    "is going to be",
+    "will be",
+    "will have",
+    "was"
+  ],
+  "panels": [
+    {
+      "heading": "① next Friday把時間指向未來",
+      "text": "句子說下星期五有一場重要籃球賽，是尚未發生的事。A的was表示過去，與這個時間線索不合。",
+      "alt": "讀將來活動的概念公告，不用圖中日期、比分或已結束比賽改寫題意。"
+    },
+    {
+      "heading": "② 有一場比賽，是There be句型",
+      "text": "這是在說某地將有活動，不是某人擁有某物。There be的未來式仍要保留be，不能把它換成have。",
+      "alt": "公園球場為活動準備，不把存在活動改畫成誰擁有比賽的財物關係。"
+    },
+    {
+      "heading": "③ 本題正確形式是is going to be",
+      "text": "an important basketball game是一場比賽，所以用There is going to be。也可說There will be，但B寫的是will have，不能選。",
+      "alt": "學生談將來想參加的活動，沒有AI拼寫的句型或假日曆數字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：is going to be",
+    "points": [
+      "時間：next Friday，指向未來。",
+      "結構：There be，不是There have。",
+      "B、C都有have，無法替代本句所需的be。"
+    ]
+  },
+  "rationale": "已實看第2回第11題原卷含next Friday與四選項，核There be未來存在句正確D。保留可用There will be的對照，但不把B will have誤看作will be；不畫實際比賽已發生的完成敘事。圖僅公告/準備/期待，日期及句型均HTML，不讓模型拼字。無既有AI解說圖。 初圖空白日曆格可能暗示錯誤週欄，已用imagegen刪格和圓環，v2只留空白公告。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-746-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-746-source-5c7715e59c.jpg"
+  ],
+  "answerCheckedAgainst": "next Friday未來+There be存在句，本題D is going to be，B/C誤用have。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "019dbf08c2f14cf6c9dd52796fed96b8dbaf4e7647078281352eda912f702b36",
+  "createdAt": "2026-10-28T21:08:07.848672+00:00",
+  "editPromptFile": "docs/comics/q-746-edit-prompt.txt",
+  "checkedAt": "2026-10-28T21:13:00.135036+00:00",
+  "validationFile": "docs/comics/q-746-validation.json",
+  "nativeArt": "assets/comics/q-746-art-019dbf08c2-web.webp"
+}

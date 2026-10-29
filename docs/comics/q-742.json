@@ -1,0 +1,65 @@
+{
+  "id": "q-742",
+  "subject": "English",
+  "title": "兩人合成they，一般動詞問句用Do",
+  "art": "docs/comics/art/q-742.png",
+  "protectedWords": [
+    "Jenny",
+    "her sister",
+    "they",
+    "speak",
+    "Does",
+    "Do"
+  ],
+  "panels": [
+    {
+      "heading": "① 主詞包含Jenny和her sister",
+      "text": "and把兩個人連在一起，整個主詞可換成they。不能只看到Jenny一個名字，就判成第三人稱單數。",
+      "alt": "兩位姊妹同時在場，不由圖片判定誰年長，也沒有把其中一人移出主詞。"
+    },
+    {
+      "heading": "② 主要動詞是speak",
+      "text": "speak English是說英語，這裡的speak是一般動詞原形。本句不能直接把Are或Is放在它前面來提問。",
+      "alt": "兩人參與語言對話，不畫拼錯的英語，也不把說話動作改成be動詞身分敘述。"
+    },
+    {
+      "heading": "③ 用Do向兩個人提問",
+      "text": "一般現在式的複數主詞問句，用Do＋主詞＋原形動詞。這裡是Do...speak English?，不是單數用的Does。",
+      "alt": "老師向兩位姊妹一起提問，助動詞與句型以HTML呈現。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：Do",
+    "points": [
+      "Jenny and her sister＝they，主詞是複數。",
+      "本句一般動詞問句用Do，後面保留原形speak。",
+      "不要只判人數：還要看後面是be動詞還是一般動詞。"
+    ]
+  },
+  "rationale": "實看第2回第7題原卷四選項，兩人並列主詞+原形speak，D Do正確；不把sister擅斷為一定姊或妹，不把複數問句一概選Are。新圖兩位姊妹同時作主詞，原形動詞與助動詞由HTML校對，無AI拼字。無既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-742-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-742-source-1c0e6df1f3.jpg"
+  ],
+  "answerCheckedAgainst": "Jenny and her sister複數，一般動詞speak的現在式問句用Do，D。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "8a779f348af024d4c409ce2b58809d8b27b9efa059b8c3d6c11b2864f7019e80",
+  "createdAt": "2026-10-28T20:35:05.426260+00:00",
+  "checkedAt": "2026-10-28T20:37:59.076480+00:00",
+  "validationFile": "docs/comics/q-742-validation.json",
+  "nativeArt": "assets/comics/q-742-art-8a779f348a-web.webp"
+}

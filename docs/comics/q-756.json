@@ -1,0 +1,67 @@
+{
+  "id": "q-756",
+  "subject": "English",
+  "title": "朋友went去幫忙，搬家用moved承接",
+  "art": "docs/comics/art/q-756.png",
+  "protectedWords": [
+    "went to help",
+    "went",
+    "moved",
+    "will move",
+    "are moving",
+    "are going to move",
+    "過去式"
+  ],
+  "panels": [
+    {
+      "heading": "① 先看後句went to help",
+      "text": "Several friends went to help them.說幾位朋友去幫忙；went是go的過去式，把這段直接敘述放在過去。不要只看第一句的new就判未來。",
+      "alt": "朋友到新公寓幫忙的文意想像，不增添昨天、日期或題幹沒有的先打包後未來搬家背景。"
+    },
+    {
+      "heading": "② 一家搬入，朋友也去幫忙",
+      "text": "按這兩句連續的過去情境，Lin一家搬入新公寓，朋友去幫忙。第一空用move的過去式moved，與後句went自然承接，選A。",
+      "alt": "同一搬家情境中家人朋友協助放置物品，不把不同額外時間故事強加原題。"
+    },
+    {
+      "heading": "③ 其餘選項需要不同時間背景",
+      "text": "will move與are going to move是未來式；are moving是現在進行。原句未另交代時間轉換，按最直接的過去敘述選moved。",
+      "alt": "師生讀原句辨時態的學習情境，文字只由HTML排，不讓模型生成錯誤英文或日期。"
+    }
+  ],
+  "fourth": {
+    "answer": "本題預期 A：moved",
+    "points": [
+      "went、moved都是過去式。",
+      "new apartment指新公寓，不等於未來時間。",
+      "看本句連續語境，不把所有相鄰句都當必同時態。"
+    ]
+  },
+  "rationale": "實看第2回第21題原卷全部兩句四選項，讀已resolved的correction-q-756-c020b14a9500，使用者monitor已確認A按直接過去情境。新圖跟隨同次搬家與朋友幫忙，不補未提供的yesterday、日期或未來搬家前先打包的故事。保留預期A措辭，不說僅因相鄰句就永遠同時態。無合適既有AI解說圖，英文單字HTML可校對。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-756-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-756-source-4d80965e8a.jpg",
+    "monitor/confirmations.json resolved correction-q-756-c020b14a9500"
+  ],
+  "answerCheckedAgainst": "已確認A moved與went直接連續敘述；其他形式需原題未提供的不同時間背景，不重問同項。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "c94d94b917184c12878e37210141e206d5b2ee20f67bfcfd5d97399cb572a63e",
+  "createdAt": "2026-10-28T22:05:14.616353+00:00",
+  "checkedAt": "2026-10-28T22:08:15.738642+00:00",
+  "validationFile": "docs/comics/q-756-validation.json",
+  "nativeArt": "assets/comics/q-756-art-c94d94b917-web.webp"
+}

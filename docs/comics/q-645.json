@@ -1,0 +1,82 @@
+{
+  "id": "q-645",
+  "subject": "Geography",
+  "title": "由山頂往山腳，先密後疏是凹面坡",
+  "art": "docs/comics/art/q-645.svg",
+  "protectedWords": [
+    "山頂",
+    "山腳",
+    "凹面坡",
+    "凸面坡",
+    "上陡下緩",
+    "上緩下陡",
+    "等高線",
+    "橙實線",
+    "藍虛線"
+  ],
+  "panels": [
+    {
+      "heading": "① 先固定方向：由山頂往山腳",
+      "text": "本格由左邊橙點高處走向右邊藍點低處，剖面上段陡、下段緩。灰虛線以相同高差切坡面，把交點向下投影，方便看水平間距。",
+      "alt": "程式控制的上陡下緩剖面，五條等高水平切線相同高差，交點投影間距由左往右逐次變寬。"
+    },
+    {
+      "heading": "② 等高差相同，先密後疏",
+      "text": "本格是同一段坡面的俯視示意。由左向右、由高到低，等高線先密後疏：上部在短距離內下降相同高度，較陡；下部需走較遠，較緩。",
+      "alt": "與首格相同五個投影橫座標畫成五條局部等高線，間距嚴格遞增；只是一段坡面，不是完整山頂閉合圖。"
+    },
+    {
+      "heading": "③ 比較坡形，也不能把方向讀反",
+      "text": "橙實線是上陡下緩的凹面坡；藍虛線是上緩下陡的凸面坡，與題意相反。同一凹面坡若改從山腳讀向山頂，線距順序也會反過來。",
+      "alt": "相同高低端點下，橙實線凹面坡與藍虛線凸面坡直接比較；左高右低方向箭頭三格一致，無實際山名或海拔。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：凹面坡（上陡下緩）",
+    "points": [
+      "閱讀方向：山頂往山腳。",
+      "先密後疏，對應先陡後緩。",
+      "從反方向讀，線距先後也會反轉。"
+    ]
+  },
+  "rationale": "已讀原對話完整文字延伸選擇3與四選項，非照片題無缺原卷。獨立以等高差/水平距離推坡度，維持C；用h=(1-x)^2精確SVG，同高差五條線的水平間距嚴格增加，三格閱讀方向一致。無合適既有圖；精確剖面與投影不可由imagegen任意畫，使用程式SVG，數字與名稱HTML；不添加實際山名/海拔。",
+  "generationMethod": "programmatic SVG for exact slope profile and equal-contour-interval projection",
+  "generatorFile": "docs/comics/q-645-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-0KrY8NZ0TTP2.txt lines248-256 and360，完整文字延伸"
+  ],
+  "sources": [
+    {
+      "url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide",
+      "note": "USGS官方符號指南，近密線為陡坡、稀線較平；本題公式為示意數學驗算，非外加原題數字。"
+    }
+  ],
+  "answerCheckedAgainst": "等高距固定，高至低先密後疏→上陡下緩→凹面坡C；反讀順序不可混。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-28T23:14:06.307660+00:00",
+  "artSha256": "2f25538fb9378cbd5b0ed6ef2a8962b370a725d399cf02f4abc7ec3e2eba7c50",
+  "checkedAt": "2026-10-28T23:16:01.581459+00:00",
+  "validationFile": "docs/comics/q-645-validation.json",
+  "nativeArt": "assets/comics/q-645-art-2f25538fb9.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:16:01.555708+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整來源248–256行四選項核對。檢查生成器h=(1-x)^2，同高差投影間距遞增，橙線上陡下緩、藍虛線相反，三格高到低箭頭一致；桌手機實看，維持C。"
+  }
+}

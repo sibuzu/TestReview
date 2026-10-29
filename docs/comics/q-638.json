@@ -1,0 +1,72 @@
+{
+  "id": "q-638",
+  "subject": "Geography",
+  "title": "閉合線看數值：向內降低，中央就是凹地",
+  "art": "docs/comics/art/q-638.svg",
+  "startedAt": "2026-10-28T22:37:09.652286+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 題設向內降低，中央比周圍低",
+      "text": "第一格用輔助數值說明：外圈300公尺、中圈200公尺、內圈100公尺。沿箭頭向內，高度降低，判為盆地或窪地。",
+      "alt": "三個同心閉合等高線，箭頭只示由外讀向內的順序；300/200/100高度用HTML，不是圖面向右較高的通則。"
+    },
+    {
+      "heading": "② 同樣閉合，不一定都是山頂",
+      "text": "第二格外形相似，但若外圈100公尺、中圈200公尺、內圈300公尺，就變成向內升高的山頂。關鍵是數值變化。",
+      "alt": "與第一格同形閉合線，刻意保留相同外形以比較HTML相反高度順序，避免只憑閉合外觀判斷。"
+    },
+    {
+      "heading": "③ 橫剖面可想成中央凹下",
+      "text": "第三格示意四周相對較高、中央較低的剖面。盆地或窪地不一定有水，不能看到中央低就直接當作湖泊。",
+      "alt": "乾燥凹地剖面，周圍高、中央低，沒有繪湖水，不假定所有盆地是湖泊。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 閉合形狀加高度，才判得出地形",
+    "answer": "答案：盆地／窪地",
+    "points": [
+      "由外向內降低：中央凹地。",
+      "由外向內升高：山頂。",
+      "有無積水，題目沒有提供，不自行添加。"
+    ]
+  },
+  "protectedWords": [
+    "閉合等高線",
+    "300公尺",
+    "200公尺",
+    "100公尺",
+    "由外向內",
+    "數值變化",
+    "橫剖面",
+    "盆地",
+    "窪地",
+    "山頂",
+    "湖泊"
+  ],
+  "originalTextSource": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt：等高線地形填空6完整句子與詞庫實讀，非原卷照片題。",
+  "originalAssets": [],
+  "rationale": "完整來源填空6與題庫盆地/窪地對照，向內降低代表中心較低。原生無字SVG以相同閉合外形配HTML反向高度示例，強調數值重要性，第三乾地剖面不誤認盆地必有湖水；不讓imagegen畫錯等高線或把頂/盆倒置。",
+  "promptSummary": "原生SVG：相同三閉合線配相反高度由HTML說明，另附中央低周圍高的乾凹地剖面。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "完整來源填空6原句由外向內降低及詞庫，判盆地/窪地，非僅閉合即山頂。",
+  "artSHA256": "653606d415d42de6c2f209e25ad1535bd9d45b4807bb53738bba0ac367dc26b1",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T22:43:29.918521+00:00",
+  "completedAt": "2026-10-28T22:40:56.902364+00:00",
+  "layoutEvidence": "docs/comics/q-638-preview-validation.json",
+  "visualReview": "實看1440/1120/390截圖：三層等高線向內箭頭與乾凹地剖面清楚，左右讀序與高度文字一致；桌機同行等高、手機單欄自然高度，無橫溢或保護詞斷裂。",
+  "nativeArt": "assets/comics/q-638-art-653606d415.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-638-validation.json"
+}

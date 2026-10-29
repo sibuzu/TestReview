@@ -1,0 +1,92 @@
+{
+  "id": "q-643",
+  "subject": "Geography",
+  "title": "V尖端指上游，水從西北流往東南",
+  "art": "docs/comics/art/q-643.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T23:12:28.618905+00:00",
+  "panels": [
+    {
+      "heading": "① 先從高度決定上、下游",
+      "text": "溪流依序穿過500 m、400 m、300 m的等高線。水由高往低，因此500 m在較上游，300 m在較下游；先不要把V尖端當流水箭頭。",
+      "alt": "題給500/400/300依高往低排列，向下箭頭只表高低順序，不將第一格圖上方向當真實南北。"
+    },
+    {
+      "heading": "② 北西方就是西北，尖端朝上游",
+      "text": "河谷等高線凸向高處，V尖端指上游。題目說尖端朝北西方，也就是西北方，所以較高的上游在西北。",
+      "alt": "原生新示意三V全部尖端向西北，北向上；500尖端左上、400中間、300右下，金色箭頭指上游西北而非流水。"
+    },
+    {
+      "heading": "③ 下游在相反的東南方",
+      "text": "上游在西北，水就沿河谷往較低的東南流。所求是水流方向，不是等高線凸出的方向，因此選西北方流向東南方。",
+      "alt": "指北向上四方羅盤，藍色流水箭頭由左上西北到右下東南；不反向、不混成東北西南。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：西北方流向東南方",
+    "points": [
+      "500→400→300，確認水由高往低。",
+      "河谷V尖端朝高處，是西北上游。",
+      "水流往下游東南，與V尖端方向相反。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "西北方",
+    "東南方",
+    "北西方",
+    "V尖端",
+    "水流方向",
+    "500 m",
+    "400 m",
+    "300 m",
+    "500→400→300"
+  ],
+  "rationale": "完整來源選擇1文字與四選項核對，維持B。新原生SVG把高度順序、河谷尖端方位、真正流水分開，旋轉數值幾何確保500/400/300沿東南降低；避免imagegen反轉V或箭頭。新等高線示意不冒充原題有圖。",
+  "promptSummary": "原生SVG高度遞降、V向西北的三條等高線及上游箭頭、指北向上羅盤流水向東南。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt第228起完整選擇1及第295行B；既有B；翰林河谷V尖端指高處/上游定義。",
+  "officialReferences": [
+    {
+      "url": "https://www.ehanlin.com.tw/app/keyword/%E5%9C%8B%E4%B8%AD/%E5%9C%B0%E7%90%86/%E7%AD%89%E9%AB%98%E7%B7%9A%E5%9C%B0%E5%BD%A2%E5%9C%96.html",
+      "finding": "河谷V尖端指較高處/上游；流水向低處。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "lines": "228–240；295",
+    "completeTextChecked": true,
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "完整文字延伸，沒有原卷缺圖；北西即西北，三高度和四方位選項核對。新示意圖的方向由數值與坐標雙重檢核。"
+  },
+  "artSHA256": "b696418948655773664eb3e42d52bf6c52e6b51879295b21ebd25542f7b8cc93",
+  "completedAt": "2026-10-28T23:14:40.535397+00:00",
+  "checkedAt": "2026-10-28T23:16:36.277079+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-643-preview-validation.json",
+  "visualReview": "實看最終540×180及1440/390：三V尖端西北，高度500/400/300往東南降低，金色箭頭上游西北與藍色流水東南區分；羅盤北上東右未倒置。將300標籤內移後重跑QA和實看避免邊緣裁切。文字單位與方位詞完整，三寬無溢出，雙欄同列等高及手機自然高。",
+  "nativeArt": "assets/comics/q-643-art-b696418948.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:16:36.249961+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整來源228行起四方位選項與三高度核對；最終SVG三V尖端西北且500/400/300往東南依序，金色上游與藍色流水箭頭相反；羅盤北上東右，維持B。桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-643-validation.json"
+}

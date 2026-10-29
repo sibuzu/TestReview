@@ -1,0 +1,86 @@
+{
+  "id": "q-634",
+  "subject": "Geography",
+  "title": "先看高低，再判凸向：凸低為脊",
+  "art": "docs/comics/art/q-634.svg",
+  "startedAt": "2026-10-28T21:49:46.954469+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 山脊等高線，向低處突出",
+      "text": "第一格是輔助示意：上、中、下三線依序300、200、100公尺，下方較低。曲線向下凸出，代表山脊向低處延伸。",
+      "alt": "三條等高線由上而下高度降低，各線中段向下彎凸，綠虛線沿山脊向下延伸；數值關係由HTML說明，非原卷附圖。"
+    },
+    {
+      "heading": "② 與山谷對照，彎向剛好相反",
+      "text": "第二格同樣設上方較高，但曲線中段向上凸。這是山谷的等高線特徵：凸向高處，不能只看像U還是V就下結論。",
+      "alt": "同樣上高下低，三曲線中段向上彎凸，藍虛線只標谷線，不主張每條山谷必有常年河流。"
+    },
+    {
+      "heading": "③ 脊線相對高，兩側坡面下降",
+      "text": "第三格是橫切山脊的剖面：中央相對較高，往兩側下降。判讀時仍須先找等高線數值，不能把圖面上方一律當高處。",
+      "alt": "山脊橫剖面示意，中央較高、兩側向下，綠箭頭示下降；不是地圖平面流向。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 凸向哪邊，要用高度判斷",
+    "answer": "答案：山脊／稜線",
+    "points": [
+      "凸向低處：山脊。",
+      "凸向高處：山谷。",
+      "高低由等高線數值判斷，不是紙面的上下。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "山脊",
+    "山谷",
+    "稜線",
+    "凸向低處",
+    "凸向高處",
+    "上、中、下",
+    "300",
+    "200",
+    "100",
+    "橫剖面"
+  ],
+  "originalTextSource": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt：等高線地形填空2完整題目與詞庫實讀，非原卷照片題。",
+  "originalAssets": [],
+  "references": [
+    {
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/105107122/modules/module5/html/91.htm",
+      "title": "NPTEL Surveying：Contour characteristics",
+      "checkedAt": "2026-10-28T21:49:46.954469+00:00",
+      "supports": "等高線山谷向高處彎，山脊向低處彎，不能僅據U/V外形判斷。"
+    },
+    {
+      "url": "https://dec.vermont.gov/sites/dec/files/wsm/rivers/docs/assessment-protocol-appendices/D-Appendix-D-04-Topos-%26-Arials.pdf",
+      "title": "Vermont DEC：Topographic Maps and Aerial Photography",
+      "supports": "山谷等高線V指向高處、山脊U/V指向低處。"
+    }
+  ],
+  "rationale": "完整來源文字與詞庫實讀，山脊/稜線正確。製作無字精確SVG對照山脊/山谷彎向，示意高度與術語用HTML，不讓imagegen猜等高線或地形數據；橫剖面另說明脊相對較高。",
+  "promptSummary": "原生SVG：同上高下低基準的凸低山脊/凸高山谷兩組等高線，及山脊橫剖面中央高兩側低。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "完整填空2及詞庫、題庫山脊/稜線，NPTEL測量課程等高線特徵交叉核對。",
+  "artSHA256": "d093f7eac86d052b98feeb143023f3896ad409a37bf5a7e89cff29789a3e9901",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T21:54:00.626781+00:00",
+  "completedAt": "2026-10-28T21:51:02.600804+00:00",
+  "layoutEvidence": "docs/comics/q-634-preview-validation.json",
+  "visualReview": "完整文字填空2與詞庫實讀，無原卷圖。SVG三條高到低等高線凸低脊/凸高谷對照、山脊橫剖面兩側下降方向實看正確；300/200/100為HTML明示輔助例。三寬1440/1120/390實看，無橫溢，同列等高與手機自然高度通過。",
+  "referenceAccessNote": "官方NPTEL與Vermont搜尋結果摘錄可讀，全文open分別逾時/不支援；不宣稱全文已開啟。原題基本地形定義與獨立示意方向一致。",
+  "nativeArt": "assets/comics/q-634-art-d093f7eac8.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-634-validation.json"
+}

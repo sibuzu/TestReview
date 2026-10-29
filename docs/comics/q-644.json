@@ -1,0 +1,83 @@
+{
+  "id": "q-644",
+  "subject": "Geography",
+  "title": "高差除以水平距離，再換成百分比",
+  "art": "docs/comics/art/q-644.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:13:58.947904+00:00",
+  "panels": [
+    {
+      "heading": "① 地圖4公分，實地1,000公尺",
+      "text": "比例尺1：25,000，代表圖上1公分對應實地25,000公分。4公分換算為100,000公分，也就是1,000公尺的水平距離。",
+      "alt": "地圖平面甲乙4cm與尺的概念圖，不是來源中不存在的等高線圖；刻度只示4個相等單位，實際距離依HTML比例尺換算。"
+    },
+    {
+      "heading": "② 兩點高差：500減200",
+      "text": "甲海拔200公尺、乙海拔500公尺，兩者使用同一海拔基準。相減得到垂直高差300公尺；不是把兩個海拔相加。",
+      "alt": "同一基準線上200與500高度按2:5比例呈現，橘色括線表示差300，不把直柱當真實地形剖面。"
+    },
+    {
+      "heading": "③ 高差300，除以水平1,000",
+      "text": "平均坡度百分比＝高差÷水平距離×100%。因此300÷1,000×100%＝30%；分子分母都用公尺，單位先統一。",
+      "alt": "按1000:300比例的直角三角形，藍色水平邊1000/橘色高差300；灰虛斜邊不是分母，不把30%畫成30度角。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 高差除以水平距離，再換成百分比",
+    "answer": "答案 B：30%",
+    "points": [
+      "水平距離：4×25,000公分＝1,000公尺。",
+      "高差：500−200＝300公尺。",
+      "300÷1,000＝0.3，即30%；不是30°。"
+    ]
+  },
+  "protectedWords": [
+    "比例尺",
+    "25,000公分",
+    "100,000公分",
+    "1,000公尺",
+    "200公尺",
+    "500公尺",
+    "300公尺",
+    "水平距離",
+    "垂直高差",
+    "海拔基準",
+    "平均坡度",
+    "百分比",
+    "30%",
+    "30°"
+  ],
+  "originalAssets": [],
+  "originalTextSource": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt：延伸選擇題2完整比例尺1:25000/4cm/200m/500m/四選項與B解答實讀，原題為文字延伸無照片附圖。",
+  "answerCheckedAgainst": "獨立換算4*25000cm=1000m，500-200=300m，300/1000*100%=30%；不混斜距或角度。",
+  "rationale": "精確原生SVG逐步平距換算/同基準高差/真10:3比例坡度三角形。原題沒有實際等高線地圖，不捏造地形曲線；測量線與柱形只是輔助概念。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "d59c9810820c5f35040c97ab0008f5011a0fb85e6f555969783b15340bc886ca",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T23:16:49.040760+00:00",
+  "completedAt": "2026-10-28T23:14:45.084754+00:00",
+  "layoutEvidence": "docs/comics/q-644-preview-validation.json",
+  "visualReview": "實看1440/1120/390：4等分尺距、200/500同比基準柱與300括線、真1000:300坡度三角形正確，直角空心標記已明示fill none。30%非30度與平距非斜距說明完整，無橫溢/保護詞斷裂，同列等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-644-art-d59c981082.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:16:49.015291+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整來源比例尺/4cm/200m/500m與四選項核對。最終SVG尺為4等段、高度40:100=200:500、三角形高39/底130=0.3，30%非30度，維持B。桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-644-validation.json"
+}

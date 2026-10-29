@@ -1,0 +1,29 @@
+{
+  "id": "q-642",
+  "checkedAt": "2026-10-28T22:42:29.690361+00:00",
+  "answer": "×",
+  "completeExtensionTextChecked": true,
+  "sourceTranscript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+  "sourceLines": "224，291",
+  "reason": "來源完整文字是非4與既有訂正核對，維持×。新原生SVG自擬反例40/100=40%、80/400=20%，證明較大等高距非絕對較陡；甲乙水平縮尺與垂直縮尺各自相同，不用圖上誇示角當真實坡角。不是改原題詞語或新增原題已知。",
+  "mathCheck": {
+    "A": {
+      "rise": 40,
+      "horizontal": 100,
+      "slopePercent": 40,
+      "risePx": 36,
+      "horizontalPx": 36
+    },
+    "B": {
+      "rise": 80,
+      "horizontal": 400,
+      "slopePercent": 20,
+      "risePx": 72,
+      "horizontalPx": 144
+    },
+    "sameHorizontalScale": true,
+    "sameVerticalScale": true,
+    "barLengthsRatio": "100/50=40/20",
+    "counterexampleNotOriginalKnown": true
+  }
+}

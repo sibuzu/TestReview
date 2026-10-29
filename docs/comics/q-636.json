@@ -1,0 +1,81 @@
+{
+  "id": "q-636",
+  "subject": "Geography",
+  "title": "重疊與密集分開看：斷崖的等高線",
+  "art": "docs/comics/art/q-636.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:34:14.656484+00:00",
+  "panels": [
+    {
+      "heading": "① 從側面想：崖壁上下幾乎同一位置",
+      "text": "在理想化垂直崖壁，高度雖然改變，水平位置卻相同。從上方投影到地圖時，不同高度的線就可能重合。",
+      "alt": "原生側視崖壁，100/200/300為新解說高度示例，三高度同在垂直崖壁x92，並非原題提供數據或按比例地形。"
+    },
+    {
+      "heading": "② 圖上重疊，對應懸崖或斷崖",
+      "text": "圖中三條不同高度的等高線，在右側共用同一段位置。這是國中教材用來表示懸崖、斷崖的理想化畫法。",
+      "alt": "三條封閉等高線100/200/300在x150,y82至115共用垂直線段，橙色標出重疊處；無交叉，數值由外向內增加。"
+    },
+    {
+      "heading": "③ 只是很密集，先判斷坡陡",
+      "text": "若等高線靠得很近，但仍可分出間距，只能先說坡度很陡。不能把所有密集線，一律當成垂直斷崖。",
+      "alt": "三條相同形狀的等高線片段各間距21px，接近但並未重合，與第二格真正共享線段區分。"
+    }
+  ],
+  "fourth": {
+    "answer": "填入：懸崖／斷崖",
+    "points": [
+      "關鍵字是多條等高線「重疊」。",
+      "理解原理：不同高度投影在幾乎同一水平位置。",
+      "密集表示坡陡；本題的重疊是理想化斷崖表示法。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "懸崖",
+    "斷崖",
+    "水平位置",
+    "垂直崖壁",
+    "理想化",
+    "坡度"
+  ],
+  "rationale": "來源完整文字延伸填空4及詞庫核對，無原卷照片缺漏。原生SVG對照側視/俯視/僅密集，精確重疊不可交給imagegen猜；保留既有理想化畫法及密集不等於垂直斷崖限制，不把新示意數值說成原題條件。",
+  "promptSummary": "原生SVG：垂直剖面同水平位置、三封閉線共享一側的俯視圖、三條有間距的密集等高線比較。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt第200～214行完整填空題及詞庫；既有懸崖/斷崖答案；翰林國中等高線教材條目。",
+  "officialReferences": [
+    {
+      "url": "https://www.ehanlin.com.tw/app/keyword/%E5%9C%8B%E4%B8%AD/%E5%9C%B0%E7%90%86/%E7%AD%89%E9%AB%98%E7%B7%9A%E5%9C%B0%E5%BD%A2%E5%9C%96.html",
+      "finding": "教材定義等高線重疊處為斷崖，密集為坡陡，二者不同。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "lines": "200–214",
+    "completeTextChecked": true,
+    "visualChecked": true,
+    "answer": "懸崖／斷崖",
+    "notes": "本題是完整文字延伸，不需要原卷照片；新圖數值只用來呈現同水平投影。"
+  },
+  "artSHA256": "3429065d6b6d92686fbc62605aeedd2e40125b1e3ec7ea7967771d78403bd704",
+  "completedAt": "2026-10-28T22:36:33.843274+00:00",
+  "checkedAt": "2026-10-28T22:41:14.457608+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-636-preview-validation.json",
+  "visualReview": "實看原生540×180與1440/390預覽：側視不同高度同x位置，三封閉等高線共用右側同一線段，數值由外往內增；第三格三線仍留間距，未把密集混成重疊。數值明示新示意非原題地圖。三寬無溢出，雙欄同列等高、單欄自然高。",
+  "nativeArt": "assets/comics/q-636-art-3429065d6b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-636-validation.json"
+}

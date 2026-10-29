@@ -1,0 +1,49 @@
+{
+  "id": "q-633",
+  "checkedAt": "2026-10-28T21:49:50.280118+00:00",
+  "answer": "山谷",
+  "sourceTranscript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+  "sourceExcerpt": "請根據等高線特徵，寫出對應的地形名稱（山頂、鞍部、山脊、山谷、懸崖/斷崖、盆地）：\n\n等高線彎曲處，凸向高處者為 __________。",
+  "sourceComplete": true,
+  "visualChecked": true,
+  "findings": [
+    "完整填空1與共同地形詞庫核對，271行原解答山谷一致。",
+    "官方教材V尖端指上游高處，原生三格高程向上增而流水向下，無方向混用。",
+    "100/200/300是新增解說例圖，不是缺原圖補造；主題本來是完整文字，未修改原題。",
+    "三格相同折線坐標，不用imagegen生成可能交叉或高程錯置的等高線。"
+  ],
+  "officialReferences": [
+    {
+      "url": "https://tmrc.tiec.tp.edu.tw/HTML/RSR200811191906220FM/topographytaiwan/tai07.htm",
+      "finding": "等高線V尖端表示上游方向。"
+    },
+    {
+      "url": "https://www.tksh.ntpc.edu.tw/uploads/1626668078626HSQ5372L.pdf",
+      "finding": "山谷V形尖端朝高處，與山脊判別不同。"
+    }
+  ],
+  "nativeArtChecks": {
+    "xmlValid": true,
+    "contourVertexElevations": [
+      {
+        "y": 35,
+        "m": 300
+      },
+      {
+        "y": 65,
+        "m": 200
+      },
+      {
+        "y": 95,
+        "m": 100
+      }
+    ],
+    "valleyTip": "up to high side",
+    "streamArrow": [
+      85,
+      27,
+      85,
+      140
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "q-641",
+  "subject": "Geography",
+  "title": "通視要比視線連線與沿途地面",
+  "art": "docs/comics/art/q-641.svg",
+  "protectedWords": [
+    "通視",
+    "山脊",
+    "山頭",
+    "觀察位置",
+    "地形阻擋",
+    "兩點連線",
+    "剖面"
+  ],
+  "panels": [
+    {
+      "heading": "① 地形截住連線，就不能直接通視",
+      "text": "藍點是兩端觀察位置，虛線是兩點連線。本格中間山頭高過連線，地形截住視線，因此兩端無法直接看見彼此，符合原題已被阻擋的前提。",
+      "alt": "程式剖面中山頭高過連線，橘虛線穿入地形表示被遮，不是地面上的道路。"
+    },
+    {
+      "heading": "② 有山脊，不一定就擋住視線",
+      "text": "對照本格：兩端位置較高，連線越過中間較低山脊，視線沒有穿過地面。判斷須看相對位置，不能只看到山脊這個名稱就斷言不通視。",
+      "alt": "自製反例剖面：兩端觀察點高，中間仍有較低山脊，但全程地面低於藍色直線。"
+    },
+    {
+      "heading": "③ 連線會傾斜，也要逐段比較",
+      "text": "兩端高度不同時，視線是斜線。應把沿途地面逐段與這條連線比較；中間某點高於低的一端，也不代表它已截到該位置的視線。",
+      "alt": "程式斜視線反例：局部地面可高於低端觀察點，但仍低於該位置的斜向視線，無新原題海拔。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 ○：原題已限定地形阻擋",
+    "points": [
+      "連兩個觀察位置，再比沿途剖面。",
+      "有山脊的名稱，與確實被擋住要分開。",
+      "兩端不等高時，以斜向連線逐段比較。"
+    ]
+  },
+  "rationale": "完整文字延伸是非3、原來源題文與答案讀取核對，句中已明說被山脊或山頭阻擋，故○。新精確SVG三種自製地形，第一被擋、第二兩端高於中脊仍通視、第三斜線全高於地形，2001樣點驗每段高度差，避免只依地形名或低端海拔判斷。無缺原卷圖，無具體海拔/距離，不引入曲率霧林等題外因素。無合適既有AI解說圖。",
+  "generationMethod": "programmatic SVG for exact terrain and sight-line relations",
+  "generatorFile": "docs/comics/q-641-generate.py",
+  "promptSummary": "三剖面：中央高峰擋平視線；中脊低於兩端連線；斜視線高於全地形。藍點是觀察位置、虛線不是路徑，所有具體數值不顯示。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-0KrY8NZ0TTP2.txt 等高線是非3完整題文與答案"
+  ],
+  "answerCheckedAgainst": "原題條件就是地形已阻擋視線，故○；不把所有山脊一概當遮擋。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T22:41:15.988619+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "c20fcb1e139c47ecc4481450d8bbc51d1a1bf16a377356bfe3ca3481a46b5153",
+  "checkedAt": "2026-10-28T22:45:11.654923+00:00",
+  "validationFile": "docs/comics/q-641-validation.json",
+  "nativeArt": "assets/comics/q-641-art-c20fcb1e13.svg"
+}

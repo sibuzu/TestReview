@@ -1,0 +1,66 @@
+{
+  "id": "q-647",
+  "subject": "Geography",
+  "title": "比例尺比較前，先統一單位",
+  "art": "docs/comics/art/q-647.png",
+  "protectedWords": [
+    "黑色線段",
+    "1公分",
+    "1公里",
+    "100,000公分",
+    "1：100,000",
+    "同單位"
+  ],
+  "panels": [
+    {
+      "heading": "① 只讀題目指定的黑段",
+      "text": "原圖黑色線段由0到1公里；題目已給原卷長度1公分。不要把白色1到2那段一起算，也不必重新量螢幕上的圖。",
+      "alt": "師生閱讀原卷資訊與紙本學習單，不由插畫重新量出比例尺長度。"
+    },
+    {
+      "heading": "② 將公里換成公分",
+      "text": "1公里＝1,000公尺＝100,000公分。換算後，圖上1公分對應實際100,000公分，兩邊才是同單位。",
+      "alt": "老師以尺與測量工具討論單位，工具在圖中的大小不是本題實際距離。"
+    },
+    {
+      "heading": "③ 寫比值，再把前項化為1",
+      "text": "圖上距離：實際距離＝1：100,000。重點是同單位，不是一定得用公分；本題用公分只是計算方便。",
+      "alt": "學生核對比值與單位，精確數字只在旁邊的文字中呈現。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：1：100,000",
+    "points": [
+      "題給黑段1公分，代表實際1公里。",
+      "1公里＝100,000公分，不是1,000公分。",
+      "先統一單位，再化簡距離比；別把整段白黑都算入。"
+    ]
+  },
+  "rationale": "實看第7題原卷及黑0至1/白1至2公里比例尺，獨立換算得D。新增情境輔助讀題、單位、比值，原精確線段仍依原卷，不讓生成模型決定長度或刻度；沿用原詳解同單位不必固定公分的已核對限制，不重開舊疑義。無既有AI解說圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-647-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-647-source-030d04eabc.jpg",
+    "site/dist/assets/questions/q-647-scale-e7da819d3f.jpg"
+  ],
+  "answerCheckedAgainst": "D，1公分：1公里＝1：100,000。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "cacf1bf7e22d3bade723cd112790188f4e88c0c9419da32dc4eea95fb91b862b",
+  "createdAt": "2026-10-28T19:05:17.625998+00:00",
+  "checkedAt": "2026-10-28T19:08:10.416123+00:00",
+  "validationFile": "docs/comics/q-647-validation.json",
+  "nativeArt": "assets/comics/q-647-art-cacf1bf7e2-web.webp"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "q-633",
+  "subject": "Geography",
+  "title": "先辨高低，再看V尖端凸向哪裡",
+  "art": "docs/comics/art/q-633.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:46:25.905041+00:00",
+  "panels": [
+    {
+      "heading": "① 先讀數值，找出較高一側",
+      "text": "解說圖用100、200、300公尺示意。由下往上數值增加，所以這個例子上方較高；不是所有圖面上方都代表高處。",
+      "alt": "新增解說示意等高線100/200/300公尺由下向上增加，不是題目原附圖或實測地圖"
+    },
+    {
+      "heading": "② V形尖端凸向高處，是山谷",
+      "text": "看彎曲處的尖端，它朝向較高一側。等高線凸向高處，判作山谷，可記成凸高為谷。",
+      "alt": "同一等高線圖以金色圈與向上箭頭指出200公尺線V尖端朝300較高側"
+    },
+    {
+      "heading": "③ 流水方向與尖端相反",
+      "text": "水由高處流向低處，圖中沿谷地往下流。不要把等高線凸出的方向，誤當成水流前進方向。",
+      "alt": "同一谷線中心水流由300→200→100向下，與向高處突出的V尖端相反"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：山谷",
+    "points": [
+      "先判高低，再判等高線凸出方向。",
+      "凸高為谷；本題不是問凸向低處的山脊。",
+      "V尖端指向上游高處，流水向下游低處。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "較高一側",
+    "凸高為谷",
+    "水流方向",
+    "V尖端",
+    "上游高處",
+    "下游低處"
+  ],
+  "rationale": "完整來源文字填空1與共同詞庫已核對，答案山谷。採原生SVG明確標示相對高程與相反箭頭，避免imagegen畫錯等高線或流水。100/200/300是新增解說例圖而非補造原題材料，不拿頁面上方當普遍高處；圖形是典型山谷簡化模型。",
+  "promptSummary": "原生SVG三格：100/200/300讀高低、V尖端朝高側、藍色流水向低側，所有座標與標高可驗。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt202/204及271行完整題/詞庫/解答；官方教育資源及教材V尖端指上游高處核對。",
+  "officialReferences": [
+    {
+      "url": "https://tmrc.tiec.tp.edu.tw/HTML/RSR200811191906220FM/topographytaiwan/tai07.htm",
+      "finding": "等高線V尖端表示上游方向。"
+    },
+    {
+      "url": "https://www.tksh.ntpc.edu.tw/uploads/1626668078626HSQ5372L.pdf",
+      "finding": "山谷V形尖端朝高處，與山脊判別不同。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "visualChecked": true,
+    "answer": "山谷",
+    "notes": "來源為完整文字填空含詞庫，沒有需另取的試卷圖；新加100/200/300圖只是講解，不改題幹或把它冒稱原圖。"
+  },
+  "completedAt": "2026-10-28T21:49:50.280118+00:00",
+  "checkedAt": "2026-10-28T21:52:42.604882+00:00",
+  "visualChecked": true,
+  "artSHA256": "c6871a17bb8b11573af095f897733b695ae65d73a1abe500e64cfaedaf0d945f",
+  "previewValidation": "docs/comics/q-633-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG及1440/390預覽：由下100至上300標高一致，三條V向較高上方凸出；金色箭頭指高側、藍水流由300經200至100向低側。坐標核對三格同圖，明示解說示意而非原附圖，亦明說圖面上方不普遍等於高處。桌機同列等高、手機自然高，無裁切橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-633-art-c6871a17bb.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-633-validation.json"
+}

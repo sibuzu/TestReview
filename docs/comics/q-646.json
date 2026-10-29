@@ -1,0 +1,83 @@
+{
+  "id": "q-646",
+  "subject": "Geography",
+  "title": "依四選項比較，不把鞍部當安全保證",
+  "art": "docs/comics/art/q-646.svg",
+  "protectedWords": [
+    "等高線",
+    "山谷",
+    "谷地",
+    "斷崖",
+    "鞍部",
+    "上游",
+    "平台",
+    "匯流",
+    "落石",
+    "崩塌"
+  ],
+  "panels": [
+    {
+      "heading": "① V形凸向高處，是谷地線索",
+      "text": "本格圖上方較高，等高線的V尖朝上，藍箭頭往下游。這是A的谷地或溪溝軸線，可能匯集雨水，不符合避開山洪的條件。",
+      "alt": "局部V形谷地五條等高線，尖端朝高處，水流朝低處，方向程式控制；未給實際海拔或河流名稱。"
+    },
+    {
+      "heading": "② 陡坡與崖下，也不符題目條件",
+      "text": "左邊密集閉合線示意C的陡峭山頭；右邊剖面示意B的斷崖與崖下，可能有落石崩落。兩者都不符合題目要的平坦、開闊條件。",
+      "alt": "同格兩個獨立示意：左密集等高線，右斷崖剖面；不是同一張地圖，無人員在危險處紮營。"
+    },
+    {
+      "heading": "③ D還明確給了稀疏、開闊的平台",
+      "text": "橙點在兩峰間的鞍部。本題D特別給定等高線稀疏、平台開闊，在四選項中較符合條件；不能只見鞍部兩字，就認定任何實地都安全。",
+      "alt": "精確等高線雙峰模型與中央鞍部橙點，只教地形相對位置，不畫帳篷或安全勾，不當實際營地地圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "本題選 D：給定稀疏、開闊的鞍部平台",
+    "points": [
+      "A谷地可能匯水；B崖下、C陡坡不符。",
+      "D的關鍵還有稀疏、開闊，不只鞍部。",
+      "實地仍須評估風、排水與崩塌等條件。"
+    ]
+  },
+  "rationale": "原對話完整文字延伸4與四選項已讀，非照片題無缺圖。依既有詳解維持四選一D但不保證所有鞍部安全；NPS官方營地頁核對洪水/風/雷/崖緣與低地須另判。無合適既有圖，用精確SVG控制V形方向、稠密線/崖下、雙峰鞍部；不讓imagegen虛構安全場址，不畫帳篷/勾誘導現地使用，所有條件與限制HTML。",
+  "generationMethod": "programmatic SVG for precise topographic teaching diagrams",
+  "generatorFile": "docs/comics/q-646-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-0KrY8NZ0TTP2.txt lines257-270 and362-365，完整文字延伸"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm",
+      "note": "官方正文37-39、51-53、59、67：營地須另判洪水風雷崖緣低地，不是任何鞍部保證安全。"
+    }
+  ],
+  "answerCheckedAgainst": "比較給定四項，D特別有稀疏開闊平台，A谷地匯水/B崖下/C陡坡不符；維持既有四選一D與實地限制。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-28T23:16:38.778063+00:00",
+  "artSha256": "6155dc42f7b35a1c1c67ac6596b2a79fd4b59494c1dcc1ab11aa3459ca938e5e",
+  "checkedAt": "2026-10-28T23:18:05.415355+00:00",
+  "validationFile": "docs/comics/q-646-validation.json",
+  "nativeArt": "assets/comics/q-646-art-6155dc42f7.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:18:05.388279+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "完整來源四選項核對，D明列稀疏開闊平台，非任何鞍部保證安全。SVG谷地V向高處/流水低處、密線陡坡、斷崖及雙峰鞍部相對高低正確，無帳篷或安全勾；既有D與現地條件限制保留，桌手機無溢出。"
+  }
+}

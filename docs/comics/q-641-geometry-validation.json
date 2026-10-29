@@ -1,0 +1,43 @@
+{
+  "id": "q-641",
+  "model": "three illustrative terrain profiles, not original altitude data",
+  "samplesPerProfile": 2001,
+  "checks": [
+    {
+      "panel": 1,
+      "expectedBlocked": true,
+      "maxTerrainAboveSightLine": 1.1,
+      "minimumClearance": -1.1,
+      "eyeHeightsRelative": [
+        0.7,
+        0.7
+      ],
+      "noRealAltitudeValues": true
+    },
+    {
+      "panel": 2,
+      "expectedBlocked": false,
+      "maxTerrainAboveSightLine": -0.1222002234958175,
+      "minimumClearance": 0.1222002234958175,
+      "eyeHeightsRelative": [
+        1.9222104191222114,
+        1.9222104191222111
+      ],
+      "noRealAltitudeValues": true
+    },
+    {
+      "panel": 3,
+      "expectedBlocked": false,
+      "maxTerrainAboveSightLine": -0.30000000000000027,
+      "minimumClearance": 0.30000000000000027,
+      "eyeHeightsRelative": [
+        1.4,
+        2.8
+      ],
+      "noRealAltitudeValues": true
+    }
+  ],
+  "decision": "Original states actual terrain obstruction, hence true; other panels distinguish ridge name from actual blockage",
+  "thirdProfileLocalPointAboveLowObserver": true,
+  "earthCurvatureOrTreesModelled": false
+}

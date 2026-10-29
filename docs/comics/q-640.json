@@ -1,0 +1,81 @@
+{
+  "id": "q-640",
+  "subject": "Geography",
+  "title": "河流在集水山谷，山脊通常分水",
+  "art": "docs/comics/art/q-640.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:38:19.675183+00:00",
+  "panels": [
+    {
+      "heading": "① 山谷相對低，容易匯集水流",
+      "text": "山谷是兩側地形間的低處，水往低處匯集，河流通常發育在這裡。先理解地形的集水作用，不要只背線條形狀。",
+      "alt": "山谷橫向剖面，兩側水箭頭朝中間低處匯集，不畫水上坡或把高稜當河床。"
+    },
+    {
+      "heading": "② 山脊較高，通常形成分水位置",
+      "text": "山脊是向外延伸的高稜，兩側的水各往較低處流。原句把河流說成通常發育在山脊，與這個分水特徵不合。",
+      "alt": "山脊橫向剖面呈中高兩側低，兩箭頭從高稜向兩側下坡分開，沒有中央河流。"
+    },
+    {
+      "heading": "③ 山谷等高線的尖端朝高處",
+      "text": "示意圖數值由100升到300，谷地等高線凸向較高處；河水則沿谷地往低處流。尖端方向與下游水流方向相反。",
+      "alt": "新俯視等高線示意300上、200中、100下，V尖端向上高處，谷中河流向下低處；圖上方高只是此示例，不代表永遠北高南低。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 ×：應改成凸向高處的山谷",
+    "points": [
+      "原句把山谷與山脊弄反了。",
+      "山谷通常集水，山脊通常分水。",
+      "判斷凸高或凸低要看數值，不要只看紙面上、下方向。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "山谷",
+    "山脊",
+    "分水位置",
+    "凸向高處",
+    "凸向低處",
+    "水流方向"
+  ],
+  "rationale": "來源完整延伸是非2及答案核對，維持×與既有訂正。新原生SVG集水V剖面/分水稜剖面/谷地等高線，箭頭依地形固定，不交AI猜精確地理。新數值只示意相對高低，不重建不存在的原卷地圖。",
+  "promptSummary": "原生SVG：山谷雙箭頭往低處匯集；山脊雙箭頭向兩側分流；V尖端高與水流低的方向對照。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt第216～220行原敘述與第287行山谷訂正；既有確認×；翰林國中等高線河谷定義。",
+  "officialReferences": [
+    {
+      "url": "https://www.ehanlin.com.tw/app/keyword/%E5%9C%8B%E4%B8%AD/%E5%9C%B0%E7%90%86/%E7%AD%89%E9%AB%98%E7%B7%9A%E5%9C%B0%E5%BD%A2%E5%9C%96.html",
+      "finding": "河谷等高線呈V字，尖端向高處/上游；山脊尖端向低處。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "lines": "216–220，287",
+    "completeTextChecked": true,
+    "visualChecked": true,
+    "answer": "×",
+    "notes": "本題完整文字延伸，不缺原卷照片；河流通常在山谷，新圖不改成所有山谷必有常年河流。"
+  },
+  "artSHA256": "d79a06e082603d1cfe1204f82d5c789cb2a99d2ee18294c88c63a155acfb6540",
+  "completedAt": "2026-10-28T22:40:45.071860+00:00",
+  "checkedAt": "2026-10-28T22:43:29.961690+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-640-preview-validation.json",
+  "visualReview": "實看最終540×180及1440/390預覽：山谷兩側各有向低處集水箭頭；山脊兩側各有向外下坡分水箭頭；第三格300→200→100與河水向低處同向，V尖端向高。已拆分雙箭頭path以確保每支有箭頭，再跑三寬QA與看桌手機。圖文不把上北等同高、不把通常擴為所有。無溢出與版型問題。",
+  "nativeArt": "assets/comics/q-640-art-d79a06e082.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-640-validation.json"
+}

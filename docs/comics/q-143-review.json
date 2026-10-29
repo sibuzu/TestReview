@@ -1,20 +1,24 @@
 {
   "id": "q-143",
   "decision": "not_suitable",
-  "reviewedAt": "2026-10-28T13:03:31.053868+00:00",
-  "answer": "C",
-  "viewedFigures": [
+  "reason": "已實看四點日本圖，丙清楚在本州中部日本海側；純定位用原圖及逐點排除已足夠，不加與位置無關的災難人物漫畫。",
+  "visualChecked": true,
+  "visualEvidenceBackfilledAt": "2026-10-28T22:04:18.794940+00:00",
+  "originalFigures": [
+    {
+      "src": "site/dist/assets/questions/q-143-source-5545676764.jpg",
+      "sha256": "5545676764899160e7e7b126980d92e7282732b8f8837057144bf99d7e89e533",
+      "visualChecked": true
+    },
     {
       "src": "site/dist/assets/questions/q-143-map-0387fc45ab.jpg",
-      "sha256": "0387fc45ab346904d999ec7977b6bd9f0c783dd88e36ff3880fdbb8577c54f53"
+      "sha256": "0387fc45ab346904d999ec7977b6bd9f0c783dd88e36ff3880fdbb8577c54f53",
+      "visualChecked": true
     }
   ],
-  "reason": "已實看原題四點日本位置圖，丙清楚位在本州中部日本海側。這題僅由地名與海岸方位定位，原圖搭配現有逐點排除已足夠；另加人物或海嘯情境不會提供判讀所需位置，反可能把地震／海嘯印象取代地圖線索，因此不新增漫畫，保留可放大的必要原圖。",
-  "checks": [
-    "甲九州附近",
-    "乙本州西部",
-    "丙本州中部日本海側",
-    "丁本州太平洋側",
-    "不將海嘯成因作為定位依據"
-  ]
+  "layoutCheck": {
+    "report": "docs/comics/qa/q-143/layout.json",
+    "visualChecked": true
+  },
+  "preservesOriginalCompletionTime": true
 }

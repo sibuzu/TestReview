@@ -1,0 +1,74 @@
+{
+  "id": "q-635",
+  "subject": "Geography",
+  "title": "鞍部是兩峰之間的相對低處",
+  "art": "docs/comics/art/q-635.svg",
+  "protectedWords": [
+    "鞍部",
+    "山頭",
+    "相對低處",
+    "等高線",
+    "兩峰之間",
+    "區域最低點",
+    "低凹部位",
+    "剖面示意"
+  ],
+  "panels": [
+    {
+      "heading": "① 沿兩山頭看，中間低一截",
+      "text": "本格是自製雙山頭剖面示意。兩側山頭較高，橘點所在的中間凹低部位，像馬鞍；題目要填的就是鞍部。",
+      "alt": "同一自製高度模型沿連接兩峰軸的剖面，中間橘點低於兩峰，無新增真實海拔值。"
+    },
+    {
+      "heading": "② 俯看也要先辨認兩個山頭",
+      "text": "本格是同一模型的等高線概念圖，已知兩組內圈往內升高，是兩個山頭。橘點位在兩者之間；橫虛線對應第一格的剖面，直虛線對應第三格。",
+      "alt": "自製雙峰模型精確等高線，中心鞍點與兩個剖面方向由程式控制，不冒充原卷或真實地圖。"
+    },
+    {
+      "heading": "③ 換個方向看，兩側仍可更低",
+      "text": "沿直虛線換方向看，橘點兩側的地面反而下降。因此鞍部只是兩峰之間的相對低處，不表示整個區域最低，也不能只見低凹就答盆地。",
+      "alt": "同一模型沿垂直方向剖面，橘點向另外兩側下降，說明鞍點非整個區域最低處。"
+    }
+  ],
+  "fourth": {
+    "answer": "填答：鞍部",
+    "points": [
+      "先找兩個相鄰山頭，再看中間低處。",
+      "低是相對於兩峰，不是整區最低。",
+      "圖為自製概念示意，原題沒有給海拔。"
+    ]
+  },
+  "rationale": "原對話填空3與詞庫全文讀取核對：兩相鄰山頭的低鞍處，答案鞍部。這是完整純文字延伸，不缺原卷圖。原生SVG採同一雙高斯山峰高度模型生成兩正交剖面與真等高線，數值檢查中心沿兩峰軸低、垂直軸高且非全域最低，避免圖像模型把鞍部畫成盆地或猜等高線。所有海拔數值不顯示，明示自製模型非原圖。官方古道搜尋摘要以合歡兩峰間鞍部為地形例；該網頁正文逾時，未宣稱已讀其正文。無合適既有AI解說圖。",
+  "generationMethod": "programmatic SVG for exact saddle geometry and contours",
+  "generatorFile": "docs/comics/q-635-generate.py",
+  "promptSummary": "同一雙峰模型：沿兩峰連線剖面中間低；俯視真等高線；垂直軸剖面橘點兩側更低。橘點相同，無海拔/原卷冒充。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-0KrY8NZ0TTP2.txt 等高線填空3完整題文與詞庫"
+  ],
+  "sources": [
+    {
+      "url": "https://trail.tacp.gov.tw/zh-hant/Keyword/522",
+      "note": "官方搜索摘要可讀，正文擷取逾時；摘要以武嶺為合歡主峰、東峰間鞍部例，不拿外部案例補原題。"
+    }
+  ],
+  "answerCheckedAgainst": "兩相鄰山頭之間相對低鞍處，鞍部；並非所有局部低地都叫盆地。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T21:49:25.832381+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "6f67b680543e7f14184a44787ab885a0d8c7554bd9125a473e72476cd0315b72",
+  "checkedAt": "2026-10-28T21:53:13.568891+00:00",
+  "validationFile": "docs/comics/q-635-validation.json",
+  "nativeArt": "assets/comics/q-635-art-6f67b68054.svg"
+}

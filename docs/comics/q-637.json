@@ -1,0 +1,72 @@
+{
+  "id": "q-637",
+  "subject": "Geography",
+  "title": "往內越高，閉合圈包住山頂",
+  "art": "docs/comics/art/q-637.svg",
+  "protectedWords": [
+    "等高線",
+    "由外向內",
+    "最內圈",
+    "山頂",
+    "精確海拔",
+    "相對高處"
+  ],
+  "panels": [
+    {
+      "heading": "① 先讀完整條件：由外向內增加",
+      "text": "本格是自製概念圖。題目已說等高線數值由外向內增加，因此外藍、中綠、最內橘圈，對應的高度逐層上升。只看到閉合圈，還不夠判斷高低。",
+      "alt": "自製同心等高線模型，外藍中綠內橘配合已知往內增高的條件，不新增海拔數值。"
+    },
+    {
+      "heading": "② 剖面連起來，就是往中心隆起",
+      "text": "把同一模型切開看，高度往中心上升，中心相對周圍較高，所以詞庫中應填山頂。圖中虛線只對應各圈的高度，不代表平坦階梯或地層。",
+      "alt": "與第一格同一高度函數的剖面，各顏色虛線只表示等高線的高度，地面為連續隆起曲線。"
+    },
+    {
+      "heading": "③ 最內圈不等於山頂精確海拔",
+      "text": "放大頂部看，橘色最內圈的高度還在最高點下方。最內圈只是一條已畫出的等高線；本題沒給數值與間隔，不能算出山頂的精確海拔。",
+      "alt": "相同模型頂部放大，橘虛線切過兩側坡面，綠色最高點明顯在上方，不把內圈高度當精確頂高。"
+    }
+  ],
+  "fourth": {
+    "answer": "填答：山頂",
+    "points": [
+      "關鍵是數值往內增加，不只看曲線閉合。",
+      "中心區域相對周圍較高。",
+      "判地形名稱，與求精確最高海拔不同。"
+    ]
+  },
+  "rationale": "原對話填空5、詞庫與答案全文已讀，題目明給往內數值增加，是完整純文字延伸，無缺原圖。新原生SVG用同一連續徑向高度函數生成三圈與兩剖面，內升序、同一模型固定等高距與最內圈低於最高點以程式校驗。圖僅示意無數字，不把自製高度當原題海拔；強調閉合形狀本身不足及最內圈不是精確頂高。USGS官方定義核等高線表現地面高度/形狀，不採其地圖或數值。無合適既有AI解說圖。",
+  "generationMethod": "programmatic SVG for exact conceptual contour/profile match",
+  "generatorFile": "docs/comics/q-637-generate.py",
+  "promptSummary": "同一徑向山丘：外藍中綠內橘閉合等高線、對應山丘剖面、內圈高度低於山頂的放大剖面；無新增原題海拔。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/sources/gemini-0KrY8NZ0TTP2.txt 等高線填空5與詞庫、答案"
+  ],
+  "sources": [
+    {
+      "url": "https://www.usgs.gov/faqs/what-a-topographic-map?items_per_page=6&page=0",
+      "note": "官方等高線表現地表高程與形狀的定義；此處圖形/相對高程均自製。"
+    }
+  ],
+  "answerCheckedAgainst": "題給閉合等高線外到內升高，中心相對高處，詞庫填山頂；未給內圈確切海拔，不能求頂高。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T22:36:41.519381+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "0def2fbf92eac0583386f245d65187afb551c1bc906152fd049b227923af295a",
+  "checkedAt": "2026-10-28T22:41:14.491824+00:00",
+  "validationFile": "docs/comics/q-637-validation.json",
+  "nativeArt": "assets/comics/q-637-art-0def2fbf92.svg"
+}

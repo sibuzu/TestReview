@@ -1,0 +1,82 @@
+{
+  "id": "q-639",
+  "subject": "Geography",
+  "title": "同樣高差，水平距離越短就越陡",
+  "art": "docs/comics/art/q-639.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T22:36:33.897321+00:00",
+  "panels": [
+    {
+      "heading": "① 線較密：相同高差在短距離內完成",
+      "text": "在同一張圖、等高距相同時，兩條等高線距離較近，表示地面在較短的水平距離內升降同樣高度，因此坡較陡。",
+      "alt": "同一比例示意：三線100/150/200相距20px，底下同高差剖面水平長40px，非原題新增已知數據。"
+    },
+    {
+      "heading": "② 線較疏：相同高差分散在長距離",
+      "text": "高差相同，兩線之間的水平距離較長，表示坡度較緩。圖中陡坡與緩坡採相同的高度、水平比例，才能直接比較。",
+      "alt": "三線100/150/200相距60px，剖面水平長120px；高差與第一格相同，橫縱比例均與第一格相同。"
+    },
+    {
+      "heading": "③ 跨圖比較，不能只看紙上間距",
+      "text": "本格另舉相同高差的例子：水平距離100公尺，比300公尺更陡。若換到另一張地圖，須先檢查比例尺與等高距，不能只看線畫得多近。",
+      "alt": "新示例兩條剖面共享起點與頂部高度，短水平40px對100m、長120px對300m，僅比較同高差水平距離；此格垂直可誇示但兩坡一致，不與前格直接量坡角。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 ○：密陡、疏緩",
+    "points": [
+      "判讀前提：比例尺與等高距相同或可比較。",
+      "相同高差，水平距離短就陡，距離長就緩。",
+      "跨圖不要直接比紙上線距，要換成可比較的實際距離。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "等高距",
+    "比例尺",
+    "水平距離",
+    "100公尺",
+    "300公尺",
+    "密陡",
+    "疏緩"
+  ],
+  "rationale": "來源完整文字是非1核對，維持○及既有跨圖比較限制。以精確原生SVG同等高距三線與剖面對照，不用imagegen描出任意線密度。數值、剖面皆新示意非原題附圖；三線100/150/200，前兩格高差、橫縱縮尺一致。",
+  "promptSummary": "原生SVG三格：密20px與疏60px的等高線/等高差剖面；另舉同高差100m與300m水平距離比較。",
+  "answerCheckedAgainst": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt第216～218行完整是非；既有○；翰林國中等高線坡度教材。",
+  "officialReferences": [
+    {
+      "url": "https://www.ehanlin.com.tw/app/keyword/%E5%9C%8B%E4%B8%AD/%E5%9C%B0%E7%90%86/%E7%AD%89%E9%AB%98%E7%B7%9A%E5%9C%B0%E5%BD%A2%E5%9C%96.html",
+      "finding": "同圖等高距相同，等高線稀疏坡緩、密集坡陡。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "lines": "216–218",
+    "completeTextChecked": true,
+    "visualChecked": true,
+    "answer": "○",
+    "notes": "完整文字來源無待補原卷；新示意數值非原題已知，保留比例尺與等高距可比的條件。"
+  },
+  "artSHA256": "e8fb82a7c7c096f56931839d613beace976932839da44dbe828a765399c1002d",
+  "completedAt": "2026-10-28T22:38:19.612956+00:00",
+  "checkedAt": "2026-10-28T22:41:52.727588+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-639-preview-validation.json",
+  "visualReview": "實看原生540×180及1440/390預覽：前兩格等高線間隔20/60、剖面同高40且水平40/120，密陡疏緩一致；第三格相同高差100m/300m水平比較無反向，數值為新示意。三寬無溢出，單位詞組完整，桌機同列等高與手機自然高。",
+  "nativeArt": "assets/comics/q-639-art-e8fb82a7c7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-639-validation.json"
+}

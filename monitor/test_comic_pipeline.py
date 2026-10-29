@@ -7,6 +7,32 @@ from .comic_pipeline import claim, stage, begin, integrated, load, save
 
 
 class PipelineTests(unittest.TestCase):
+    def test_paused_claims_finish_existing_work_without_reserving_new_questions(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'monitor').mkdir()
+            (root/'docs/comics').mkdir(parents=True)
+            save(root/'docs/comics/progress.json', {'entries': [
+                dict(id=f'q-{i}', title=str(i), subject='History', date='2026-10-21', state='queued')
+                for i in range(1, 4)]})
+            save(root/'docs/comics/pipeline.json', {'jobs': []})
+            save(root/'monitor/parallel.json', {'lanes': [{'lane': i} for i in (1, 2, 3)]})
+            active = claim(root, 1)
+            pipeline = load(root/'docs/comics/pipeline.json')
+            pipeline['claimsPaused'] = True
+            save(root/'docs/comics/pipeline.json', pipeline)
+            self.assertEqual(claim(root, 1)['id'], active['id'])
+            self.assertIsNone(claim(root, 2))
+            evidence = 'docs/comics/review.json'
+            (root/evidence).write_text('{}')
+            stage(root, active['id'], 'existing_ai', 'Finish already reserved work.', [evidence])
+            self.assertIsNone(claim(root, 1))
+            begin(root, active['id'])
+            integrated(root, active['id'])
+            self.assertEqual(len(load(root/'docs/comics/pipeline.json')['jobs']), 1)
+            self.assertEqual([e['state'] for e in load(root/'docs/comics/progress.json')['entries']],
+                             ['existing_ai', 'queued', 'queued'])
+
     def test_priority_source_blocks_old_work_until_whole_group_is_released(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)

@@ -237,3 +237,5 @@
 
 - 最高優先來源以monitor/priority-source.json為準。active時，三路只領該來源questionIds／laneAssignments；全部新題即使已stage仍不可回舊佇列，須全部收入題庫、完成使用者指定的新製插畫與正式頁QA後才由root改state=complete。monitor獨立顯示原卷取得、已收入題數、新插畫整合、待確認數；舊ready工作另列暫存。
 - 2026-10-29新優先來源https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4：18張User原卷已保存，18題q-792～q-809。這組明確不採用來源AI圖，需自行新製imagegen情境插畫；精確圖文仍HTML／必要SVG。計畫與原卷映射docs/comics/priority-source-6ae2305b.json，drafts在docs/comics/priority-6ae2305b/。root用site/scripts/publish-priority-question.py收入已核對完整稿，之後attach／curate／正式QA／integrated，完成全組後自動接回原goal，不commit／push／部署。
+
+- 新製英文圖文的英文縮寫／撇號使用普通ASCII單引號（如o'clock、It's、haven't），避免目前字型對彎撇號產生過寬留白；只調新製文案排版，不改原卷題目或答案。

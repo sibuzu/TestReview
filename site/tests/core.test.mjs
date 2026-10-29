@@ -1,9 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-import {canonicalURL,safeAsset,validateQuestion,mergeData,selectQuestions,escapeHTML,validDate} from '../dist/core.js';
+import {canonicalURL,safeAsset,validateQuestion,mergeData,selectQuestions,escapeHTML,renderText,validDate} from '../dist/core.js';
 const seed=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url)));
 const blank=()=>({...seed,questions:[],sources:[]});
+test('phonetic formatting preserves the printed text and keeps markup escaped',()=>{
+ const text='<img src=x onerror="alert(1)"> 正音ㄍㄨㄤˇ，不是ㄎㄨㄤˋ；輕聲˙ㄉㄜ & done';
+ const rendered=renderText(text);
+ assert.equal(rendered.replace(/<span class="phonetic">([^<]*)<\/span>/g,'$1'),escapeHTML(text));
+ assert.ok(!rendered.includes('<img'));
+ assert.ok(rendered.includes('>ㄍㄨㄤˇ</span>'));
+ assert.ok(rendered.includes('>˙ㄉㄜ</span>'));
+});
 test('dataset retains the original subjects and archives alongside new questions',()=>{assert.equal(seed.subjects.length,9);assert.ok(seed.sources.length>=9);assert.ok(seed.questions.length>=43);assert.equal(new Set(seed.questions.map(q=>q.id)).size,seed.questions.length);for(const q of seed.questions){assert.deepEqual(validateQuestion(q),q);assert.ok(seed.sources.some(s=>s.id===q.sourceId));}});
 test('all source transcripts and locally saved images exist',()=>{for(const s of seed.sources){assert.ok(existsSync(new URL('../dist/'+s.transcript,import.meta.url)));for(const path of s.images)assert.ok(existsSync(new URL('../dist/'+path,import.meta.url)));}assert.ok(seed.sources.reduce((n,s)=>n+s.images.length,0)>=31);});
 test('English composition remains in English comprehensive as requested',()=>{const q=seed.questions.find(q=>q.sourceId==='src-2');assert.equal(q.subject,'English');assert.equal(q.volume,'綜合');assert.equal(q.chapter,'綜合');});

@@ -11,6 +11,10 @@ python3 site/scripts/curate.py
 
 VS Code Live Server 可直接開根目錄 `index.html`，會保留題目網址並轉到 `site/dist/index.html`。網站不需建置；請透過 HTTP 開啟。
 
+單題閱讀頁與主網站共用 `assets/` 圖片，不再把圖片重複內嵌到每份 HTML。原卷照片保留原尺寸；無字教學插畫使用原尺寸 WebP，含文字的舊 AI 解說圖使用無損 WebP。重新整理資料時會沿用 `site/asset-map.json`，避免 PNG 與重複圖檔再進入部署目錄。
+
+原始插畫、下載證據與點陣 QA 檔保留在本機，排除於 Git；2026-10-29 減量前備份在 `/home/jack/backups/WeiRuGo-size-reduction-20261029/`，從部署目錄移出的圖片在 `/home/jack/backups/WeiRuGo-original-assets/`。換機若要繼續編輯舊插畫，需另行搬移這些原始檔；瀏覽網站及 Git 部署不需要它們。可用 `WEIRUGO_ORIGINAL_ARCHIVE` 指定新的原圖備份位置。
+
 - 預設列表模式，可切換卡片；依科目、已作／未作、冊次、章節與關鍵字篩選，日期或題名排序。
 - 題目直接取代主區域，網址如 `index.html#question/q-024`。上方有麵包屑及「← 回上頁」，返回保留列表搜尋、篩選與捲動位置。
 - 題幹、選項與必要閱讀材料或圖表先顯示；原卷作答、答案、逐項解析、詳細說明與本題原圖預設一起收合。

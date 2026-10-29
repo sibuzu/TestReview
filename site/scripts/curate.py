@@ -132,5 +132,4 @@ payload['revision']='2026-10-27.'+hashlib.sha256(json.dumps([payload['sources'],
 print(f'{len(sources)} sources, {len(records)} questions, {sum(len(s["images"]) for s in sources)} original images')
 
 subprocess.run([sys.executable, str(BASE / 'scripts/build_review_page.py')], check=True)
-
 prune_unreferenced(DEST, payload)

@@ -65,6 +65,8 @@ def claim(root, lane):
         existing = next((j for j in pipeline['jobs'] if j['lane'] == lane and j['state'] == 'claimed'), None)
         if existing:
             return existing
+        if pipeline.get('claimsPaused'):
+            return None
         progress = load(root/'docs/comics/progress.json')
         reserved = {j['id'] for j in pipeline['jobs'] if j['state'] != 'integrated'}
         entries = progress['entries']
@@ -134,7 +136,7 @@ def integrated(root, qid):
         settled = sum(counts[state] for state in SETTLED)
         save(root/'monitor/activity.json', {
             'title': f'三路製作、依序整合：已完成檢查{settled}／{len(progress["entries"])}題',
-            'detail': f'剛整合{qid}。新製{counts["complete"]}張、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；工作線完成本題即暫存續領，主路持續整合。',
+            'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；工作線完成本題即暫存續領，主路持續整合。',
             'goalStatus': 'active', 'updatedAt': finished})
         return job
 

@@ -2,6 +2,12 @@ export const STATUS = { todo: '待複習', learning: '加強中', mastered: '已
 export const SUBJECT_IDS = ['Chinese','English','Math','Biology','Physics-Chemistry','Earth','History','Geography','Civics'];
 export function today() { return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Taipei' }).format(new Date()); }
 export function escapeHTML(v) { return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// Keep one printed pronunciation together without changing its characters.
+// Use only for text content; attributes must continue to use escapeHTML.
+export function renderText(value) {
+  return escapeHTML(value).replace(/˙?[\u3105-\u312f]+[ˊˇˋ˙]?/gu,
+    syllable => `<span class="phonetic">${syllable}</span>`);
+}
 export function canonicalURL(value) {
   try { const u=new URL(value.trim()); if(u.protocol!=='https:') return ''; const valid=(u.hostname==='chatgpt.com'&&/^\/share\/[a-zA-Z0-9-]+\/?$/.test(u.pathname))||(['share.gemini.google','gemini.google.com'].includes(u.hostname)&&/^\/(share\/)?[a-zA-Z0-9_-]+\/?$/.test(u.pathname)); return valid?u.origin+u.pathname.replace(/\/$/,''):''; } catch { return ''; }
 }

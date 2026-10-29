@@ -1,5 +1,6 @@
 import {createHash} from 'node:crypto';
 import {checkedOperations, markKey, allowedMarksOrigin, MARK_KINDS} from '../../site/dist/mark-protocol.js';
+import {FAVORITE_COLOR_IDS,DEFAULT_FAVORITE_COLOR} from '../../site/dist/favorite-colors.js';
 
 const json = (data, status = 200, extra = {}) => new Response(JSON.stringify(data), {
   status, headers: {'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store',
@@ -34,12 +35,12 @@ async function handleRequest(request, store) {
         const value = await store.get(key, {type: 'json', consistency: 'strong'});
         if (!value || typeof value.on !== 'boolean') return null;
         const [,kind,id] = key.split('/');
-        return {kind, id, on: value.on};
+        return {kind, id, on: value.on,...(kind==='favorite'&&value.on&&FAVORITE_COLOR_IDS.includes(value.color)?{color:value.color}:{})};
       }));
       marks.push(...rows.filter(Boolean));
     }
     marks.sort((a,b) => markKey(a).localeCompare(markKey(b)));
-    const payload = {schemaVersion: 1, kinds: MARK_KINDS, marks};
+    const payload = {schemaVersion: 1, kinds: MARK_KINDS, favoriteColors:true, marks};
     const etag = '"'+createHash('sha256').update(JSON.stringify(payload)).digest('hex')+'"';
     if (request.headers.get('If-None-Match') === etag) return new Response(null, {status: 304, headers: {'ETag': etag, 'Cache-Control': 'no-store'}});
     return json(payload, 200, {'ETag': etag});
@@ -59,7 +60,13 @@ async function handleRequest(request, store) {
   for (const op of unique) {
     // Keep OFF records as tombstones. An old browser's first sync must not
     // resurrect a mark that another device has already removed.
-    await store.setJSON('v1/'+markKey(op), {on: op.on});
+    const key='v1/'+markKey(op);
+    let color=op.color;
+    if(op.kind==='favorite'&&op.on&&!color){
+      const previous=await store.get(key,{type:'json',consistency:'strong'});
+      color=previous?.on&&FAVORITE_COLOR_IDS.includes(previous.color)?previous.color:DEFAULT_FAVORITE_COLOR;
+    }
+    await store.setJSON(key, {on: op.on,...(color?{color}:{})});
   }
   return json({schemaVersion: 1, applied: unique});
 }

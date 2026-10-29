@@ -1,0 +1,121 @@
+{
+  "id": "q-343",
+  "subject": "Geography",
+  "title": "把三個「國」字對回交通建設",
+  "art": "docs/comics/art/q-343.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T09:25:09.396763+00:00",
+  "panels": [
+    {
+      "heading": "① 第一個國：國道",
+      "text": "題幹先說正在中山高速公路行駛。「三國」的第一個國是國道，不是曹操、孫權、劉備的三個國家，也不是三條國道。",
+      "alt": "新生成都市高速公路有車流與貨櫃車，綠色牌面完全空白；只示範國道類別，不重製原卷路牌或虛構實際行車路線。"
+    },
+    {
+      "heading": "② 第二個國：國際機場",
+      "text": "高雄有高雄國際機場，也常稱小港機場。把機場線索和中山高速公路合看，逐步縮小縣市範圍，不能只看到有港口就決定。",
+      "alt": "新生成民航機、航廈與塔臺的國際機場情境，無航空品牌/字號；不是小港機場建築的精確復原。"
+    },
+    {
+      "heading": "③ 第三個國：國際港",
+      "text": "高雄港再補上第三項設施：國道、國際機場、國際港。原圖的「漁港路、中山四路」也是高雄線索，三項合起來選B。",
+      "alt": "新生成貨櫃船靠泊國際貨櫃港、岸橋與貨櫃的港口情境，不是現場航道配置圖或現代高雄港鳥瞰重製。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 三種設施合看，定位高雄",
+    "answer": "答案 B：高雄市",
+    "points": [
+      "國道：中山高速公路。",
+      "國際機場：高雄國際機場。",
+      "國際港：高雄港。",
+      "原卷是舊牌面；2019年公告已將主線「三國通道」改為「金福路」。"
+    ]
+  },
+  "protectedWords": [
+    "中山高速公路",
+    "三國",
+    "國道",
+    "國際機場",
+    "高雄國際機場",
+    "小港機場",
+    "國際港",
+    "高雄港",
+    "高雄市",
+    "高雄",
+    "漁港路",
+    "中山四路",
+    "三國通道",
+    "金福路",
+    "曹操",
+    "孫權",
+    "劉備",
+    "貨櫃"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-343-source-25ac43d439.jpg",
+    "site/dist/assets/questions/q-343-figure-aa1f327e6e.jpg"
+  ],
+  "originalVisualCheck": "實看原卷第7題黑C紅B及全部題幹選項，附圖三牌為漁港路/中山四路/三國通道；本題沿用原牌面，不將新生成空白路牌當作作答材料。",
+  "answerCheckedAgainst": "原卷紅B、正式完整原題/詳解，交通部168官方2019-03-27全文：國道末端銜接國際機場/國際海港，原主線三國通道指示牌調整為金福路。",
+  "rationale": "三國是三種交通設施的國字，不是三條國道或三國歷史；新製三場景具體對應國道/國際機場/國際港，HTML承載可校對的高雄設施名及舊路牌年代說明。原卷路牌保留作答，生成圖不擔任真路線/建築照片。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-343-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-bd078b0f-5838-4899-9c99-361b652ec146.png",
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "交通部168交通安全入口網｜國1南下金福路（三國通道）匝道預計108年3月29日開放小型車通行",
+      "url": "https://168.motc.gov.tw/theme/news/post/1906121104246",
+      "checked": "已開2019-03-27官方全文，明載三國通道連接國道/國際機場/國際海港，並更換主線牌面為金福路；只作舊原題背景，不當現行導航。"
+    }
+  ],
+  "artChecks": {
+    "threeEqualSquareScenes": true,
+    "highwayAirportCargoPort": true,
+    "readableTeachingTextGenerated": false,
+    "usesSourceAIImages": false,
+    "pretendsActualRouteMap": false,
+    "pretendsExactCurrentAirportOrPort": false,
+    "preservesOriginalSignAsQuestionMaterial": true
+  },
+  "timingEvidence": "docs/comics/q-343-timing.json",
+  "completedAt": "2026-10-29T09:28:36.581946+00:00",
+  "checkedAt": "2026-10-29T09:39:41.548079+00:00",
+  "layoutEvidence": "docs/comics/q-343-preview-validation.json",
+  "visualReview": "實看生成2172x724原件及1440/1120/390：三個等寬場景依序國道/民航機場/貨櫃港，三國字義由HTML完整承載，綠牌無教學字/無實際路線假復原；桌機同列等高、手機自然高度，預設收合/圖片載入/文字保護/無溢出PASS。舊牌面2019改名以官方歷史公告註明。",
+  "artSHA256": "9bfbbfe22737092b7dc47a0bdfaf25dccba20ba8f97c65784835f08523d55a1b",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-343-1440.png",
+    "/tmp/weirugo-comic-previews/q-343-1120.png",
+    "/tmp/weirugo-comic-previews/q-343-390.png"
+  ],
+  "nativeArt": "assets/comics/q-343-art-9bfbbfe227-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:39:41.543456+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷完整三國通道題/四項/漁港路與中山四路三牌親見，B高雄三國道/國際機場/國際港線索正確，不當三國時代或三條國道。原牌保留，2019更名金福路已明示舊題背景不當現行導航；新空白牌面/機場/港口原圖與正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-343-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-343-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-343-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-343-validation.json"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "q-339",
+  "subject": "Geography",
+  "title": "先判岬灣，再看水深與遮蔽",
+  "art": "docs/comics/art/q-339-bay-lagoon.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T09:14:32.057845+00:00",
+  "panels": [
+    {
+      "heading": "① 東北部，先想岬灣海岸",
+      "text": "題目要依海岸類型判斷。澳底位於臺灣東北部的岬灣海岸，突出海域的是岬角，向陸地凹入的是海灣。",
+      "alt": "新製岬角突出與海灣內凹的平面關係示意，綠為陸地、藍為海水，明標不是澳底實際海岸地圖。"
+    },
+    {
+      "heading": "② 灣澳遮蔽，較利接近停泊",
+      "text": "周圍地形可遮蔽部分風浪，配合較深水域，較有利船隻接近與停泊。四個選項中，B最符合本題的岬灣條件。",
+      "alt": "新製周圍岬角地形包圍灣澳的關係圖，小船在灣內，外側少量波紋；未指定深度數字或保證所有風向皆能避浪。"
+    },
+    {
+      "heading": "③ 平靜海灣，不等於潟湖",
+      "text": "潟湖要看是否有沙洲等地形圍隔；不能只憑水域平靜就選A。陡峭海岸也不等於方便登陸，D不是本題重點。",
+      "alt": "新製沙洲沿岸圍隔形成潟湖的概念示意，標潟湖/沙洲/外海，底部仍可與外海連通；不冒充澳底實際地圖。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先判岬灣，再看水深與遮蔽",
+    "answer": "答案 B：海水深且有天然屏障",
+    "points": [
+      "先定位：東北部岬灣海岸。",
+      "再判斷：灣澳與周圍地形有遮蔽作用。",
+      "平靜水域不能直接判成潟湖。",
+      "此題比較海岸地形，並非所有登陸條件。"
+    ]
+  },
+  "protectedWords": [
+    "岬灣海岸",
+    "岬角",
+    "海灣",
+    "澳底",
+    "臺灣",
+    "東北部",
+    "海岸類型",
+    "天然屏障",
+    "潟湖",
+    "沙洲",
+    "水域",
+    "停泊",
+    "風浪",
+    "陡峭海岸"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-339-source-53145d2976.jpg"
+  ],
+  "originalVisualCheck": "實看第15題完整原卷與黑A紅B，1895登陸背景及四選項照正式題；按海岸類型比較不擴寫軍事情境、不把現代港口測深當1895數據。",
+  "answerCheckedAgainst": "正式原卷B與已核對詳解；海科館官方岬灣海岸全文明言兩側岬角保護灣內、風浪相對平靜；新北市官方澳底介紹為三面環山天然灣澳。",
+  "rationale": "用精確海岸形態/遮蔽/潟湖圍隔三種原生SVG比人物登陸插畫更能教題目問的地理分類；皆概念示意，沒有復原1895登陸路線或造出深度與軍事情勢。",
+  "generationCalls": 0,
+  "artSHA256": "492c1a119d7375da87553329f63967a1e67853c346c34d80a29b16dd0516909c",
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "國立海洋科技博物館｜岬灣海岸",
+      "url": "https://mscloud.nmmst.gov.tw/chhtml/opencontenttab.aspx?tdid=151",
+      "checked": "已開全文：岬角突出/海灣內凹，兩側岬角遮蔽灣內風浪，可發展聚落漁港。"
+    },
+    {
+      "title": "新北市觀光旅遊網｜澳底漁港",
+      "url": "https://newtaipei.travel/zh-tw/attractions/detail/110808",
+      "checked": "已開全文：三面環山的天然灣澳；只佐證地形，沒有拿當代港口設施等同1895登陸點復原。"
+    }
+  ],
+  "diagramChecks": {
+    "selected": "B",
+    "headlandProtrudes": true,
+    "bayRecessesLandward": true,
+    "lagoonHasBarrier": true,
+    "lagoonConnectedToSea": true,
+    "claimsExactAodiCoast": false,
+    "claimsExact1895LandingSite": false,
+    "claimsMeasuredWaterDepth": false,
+    "claimsShelterFromAllDirections": false
+  },
+  "timingEvidence": "docs/comics/q-339-timing.json",
+  "completedAt": "2026-10-29T09:20:14.278197+00:00",
+  "checkedAt": "2026-10-29T09:38:19.538542+00:00",
+  "layoutEvidence": "docs/comics/q-339-preview-validation.json",
+  "visualReview": "實看原卷第15題黑A紅B，以及1440/1120/390最終圖文：岬角向海突出/海灣向陸凹，灣澳部分遮蔽與泊船，沙洲圍隔且可通海的潟湖。圖上未復原澳底真海岸或1895軍事路線，無水深實測數據；三寬無溢出/保護詞跨行、預設收合、桌機同列等高/手機自然高度通過。",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-339-1440.png",
+    "/tmp/weirugo-comic-previews/q-339-1120.png",
+    "/tmp/weirugo-comic-previews/q-339-390.png"
+  ],
+  "nativeArt": "assets/comics/q-339-art-492c1a119d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:38:19.534548+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷1895澳底登陸四項親見，B岬灣水域/部分天然遮蔽符合海岸類型比較；新SVG岬突出灣內凹、灣澳遮部分浪與沙洲潟湖機制分清，不畫實際澳底輪廓或假造深度。正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-339-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-339-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-339-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-339-validation.json"
+}

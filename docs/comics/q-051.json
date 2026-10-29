@@ -1,0 +1,132 @@
+{
+  "id": "q-051",
+  "subject": "Geography",
+  "title": "先讀完整地址，用共同地標把兩張圖對齊",
+  "art": "docs/comics/art/q-051.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-051-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 藝師館：普濟路五十二號",
+      "text": "文章第一句直接給出目的地與完整地址。找到普濟路是第一步，還要確認52號是哪一棟。原卷圖沒有逐棟標門牌，不能看到同一條路旁的館舍，就直接判定答案。",
+      "alt": "新地址拆讀圖把原文普濟路五十二號分成路名與52號兩塊，不推算不存在的地圖門牌刻度。"
+    },
+    {
+      "heading": "② 兩圖視角不同，先對齊共同地標",
+      "text": "補充官方導覽圖有館名，可用大漢溪、普濟路與大溪國小，和原卷圖交叉核對方向與位置。畫面左右不能直接對貼；必須先確認兩張圖講的是哪些相同地標。",
+      "alt": "新原生三組同名地標的配對關係圖，左右欄是原卷與官方圖，不代表地標真實上下方位或街廓距離。"
+    },
+    {
+      "heading": "③ 官方⑥藝師館，對應原卷C區",
+      "text": "官方圖的⑥藝師館與原卷C區相符；B附近則是⑫溪小宿舍，兩者不是同一棟。官方資料也可核對：藝師館在普濟路52號，溪小宿舍在普濟路84巷3、4號。這是解說補充，仍保留原題地圖。",
+      "alt": "新館名地址對照卡突出藝師館52號C，區別溪小宿舍84巷3及4號B附近；館舍編號引用親見官方補充圖，不是原卷自帶。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：C區",
+    "points": [
+      "文章給完整地址：普濟路五十二號。",
+      "共同地標對齊兩圖，不能只照畫面左右。",
+      "官方⑥藝師館與⑫溪小宿舍分開辨認。"
+    ]
+  },
+  "protectedWords": [
+    "藝師館",
+    "普濟路",
+    "五十二號",
+    "普濟路52號",
+    "普濟路84巷3、4號",
+    "大漢溪",
+    "大溪國小",
+    "溪小宿舍",
+    "C區",
+    "B附近"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-051-reading-5453a670a8.jpg",
+      "site/dist/assets/questions/q-051-source-19858cdeee.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-051-figure-735915f833.jpg"
+    ],
+    "supplementaryOfficialFigure": "site/dist/assets/questions/q-051-official-guide-6c49ed2255.jpg",
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見文章全文、28題四區與原卷地圖/官方彩色圖，⑥藝師館與⑫溪小宿舍對照確認。既有C不重問。兩圖方向不同，不能只依路名推門牌。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae05238-7b84-83ec-b2f2-9a46aa7cb340",
+  "answerCheckedAgainst": "原卷28紅筆C、親見官方圖⑥藝師館/⑫溪小宿舍，官方館舍地址兩頁另實讀。",
+  "references": [
+    {
+      "title": "大溪木藝生態博物館：藝師館",
+      "url": "https://wem.tycg.gov.tw/Photo_News_Content_Museums.aspx?n=14933&s=1157540",
+      "supports": "藝師館普濟路52號",
+      "access": "官方HTML urllib主文地址段實讀"
+    },
+    {
+      "title": "大溪國小日式宿舍（溪小宿舍）",
+      "url": "https://wem.tycg.gov.tw/News_Content.aspx?n=14933&s=1462911&sms=17238",
+      "supports": "普濟路84巷3號、4號",
+      "access": "官方HTML urllib主文地址段實讀"
+    }
+  ],
+  "rationale": "本題需學會比對不同視角真實導覽圖，精確地址拆讀與地標配對比人物情境更直接；新SVG不重畫街廓，不虛構門牌與館舍立體外觀。保留官方解說圖供逐點查核，不因新增四格刪去官方圖。",
+  "integrationNotes": {
+    "preserveOfficialExplanationFigure": "assets/questions/q-051-official-guide-6c49ed2255.jpg",
+    "reason": "這是非AI官方必要補充材料，新四格是判讀方法，不取代真實地圖"
+  },
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "C",
+    "artistHouse": {
+      "guideNumber": 6,
+      "address": "普濟路52號",
+      "originalZone": "C"
+    },
+    "schoolDorm": {
+      "guideNumber": 12,
+      "address": "普濟路84巷3、4號",
+      "originalZone": "B附近"
+    },
+    "anchorRowsAreGeographicPositions": false,
+    "mapsHaveSamePageOrientation": false,
+    "inventedDoorNumberOnOriginalMap": false
+  },
+  "artSHA256": "01ed94e5fee5f27b55e28c843e7769615101105b6140cf06ca49063052d83206",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T09:31:25.491401+00:00",
+  "previewValidation": "docs/comics/q-051-preview-validation.json",
+  "visualReview": "原卷全文/28四項/必要地圖與官方補充彩色圖均親見，兩頁官方地址實讀。新SVG不重畫地圖位置或門牌；⑥藝師館C與⑫溪小宿舍B附近保持區別。最終1440/390實看，地址/地標配對/館名文字無碰撞，三寬PASS；正式整合保留官方解說圖。",
+  "nativeArt": "assets/comics/q-051-art-01ed94e5fe.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:31:25.487522+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷完整文章地址52號、四區圖及官方6藝師館/12溪小宿舍導覽圖親見，統一河流/道路/小學方向後C可對應，B非藝師館。新SVG只有判讀方法不替代原圖；官方材料SHA不變且預設收合、展開實際解碼桌手機/單頁4檢通過；正式漫畫桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-051-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-051-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-051-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-051-validation.json"
+}

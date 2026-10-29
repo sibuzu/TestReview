@@ -1,0 +1,100 @@
+{
+  "id": "q-409",
+  "subject": "Chinese",
+  "title": "整句評價不同，「名」都指名聲",
+  "art": "docs/comics/art/q-409.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T09:37:41.311524+00:00",
+  "panels": [
+    {
+      "heading": "① 先看括號：兩個名都是名聲",
+      "text": "聽朋友推薦一家店，得到的是它的名聲、聲譽。A的兩個「名」都指這個意思；題目沒有要找整個成語同義的一組。",
+      "alt": "新生成學生分享餐點照片並推薦餐廳的口碑情境，手機只有餐點無字；名聲的意思由HTML說明，不把推薦當客觀真實品牌評價。"
+    },
+    {
+      "heading": "② 名不虛傳：名聲符合實際",
+      "text": "例如大家稱讚一家店，親自品嘗後發現確實出色，就可說名不虛傳。「不虛」是沒有虛假，名聲與表現相符。",
+      "alt": "新生成虛構餐廳女廚師端出佳餚、食客滿意的示例，說明名聲符合實際，並非對真實店家或名人作評價。"
+    },
+    {
+      "heading": "③ 名過其實：名聲超過表現",
+      "text": "另一家店名聲很大，實際表現卻達不到期待，就可說名過其實。雖然評價和上一句不同，「名」仍然是名聲。",
+      "alt": "新生成另一家虛構餐廳男廚師與不符期待的餐點示例，賓客輕微失望，示範名聲超過實際；不是同一位廚師突然被改評價。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 比單字的意義，別被整句褒貶帶走",
+    "answer": "答案 A：兩個名都指名聲",
+    "points": [
+      "名不虛傳：名聲符合實際。",
+      "名過其實：名聲超過實際。",
+      "整句評價不同，不代表其中的名不同義。",
+      "D可換詞比較：只有四壁／白白費力。"
+    ]
+  },
+  "protectedWords": [
+    "名不虛傳",
+    "名過其實",
+    "名聲",
+    "聲譽",
+    "不虛",
+    "同義",
+    "褒貶",
+    "家徒四壁",
+    "徒勞無功",
+    "四壁",
+    "白白費力",
+    "親自品嘗",
+    "實際",
+    "表現",
+    "期待"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-409-source-854459cd1c.jpg"
+  ],
+  "originalVisualCheck": "實看原卷第7題全四組字義，原卷A、正式A一致。A比較「名」而非全成語，B遂/C淺/D徒均維持題庫原義解，不另改原題或答案。",
+  "answerCheckedAgainst": "正式A/原卷A，教育部成語典名不虛傳釋義為名聲與實際相符，名過其實為名聲超過實際。",
+  "rationale": "以口碑傳遞、表現符合、表現不符的三個虛構正確語義例，具體分出共同的名聲與整句不同評價；圖文不讓一褒一貶誤導成單字異義。D換詞在第四格補充方法，完整其他選項詳解仍在原頁。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-409-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-9a40b1a0-119a-4e6f-ac65-cf73983280c9.png",
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "教育部成語典｜名不虛傳",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=192&webMd=2",
+      "checked": "官方完整搜尋結果釋義：名聲與實際相符，並列名過其實為相反整句。"
+    },
+    {
+      "title": "教育部重編國語辭典｜名過其實",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=32081&la=0&powerMode=0",
+      "checked": "官方完整釋義搜尋結果：名聲超過實際。"
+    },
+    {
+      "title": "教育部國語辭典簡編本｜徒",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=11440&la=0&powerMode=0",
+      "checked": "官方搜尋結果分列白白地（徒勞無功）與僅只（家徒四壁）的用法。"
+    }
+  ],
+  "artChecks": {
+    "threeEqualSquareScenes": true,
+    "wordOfMouthThenTwoDistinctFictionalExamples": true,
+    "middleLivesUpToReputation": true,
+    "rightReputationExceedsPerformance": true,
+    "sameTargetWordMeaning": true,
+    "comparesWholeIdiomsAsSynonyms": false,
+    "sourceAIReuse": false,
+    "teachingTextBurnedIntoArt": false
+  },
+  "timingEvidence": "docs/comics/q-409-timing.json",
+  "completedAt": "2026-10-29T09:40:29.391718+00:00",
+  "checkedAt": "2026-10-29T09:40:29.391718+00:00",
+  "layoutEvidence": "docs/comics/q-409-preview-validation.json",
+  "visualReview": "實看2172x724新三格原件及1440/1120/390：推薦口碑、女廚師佳餚符合名聲、不同男廚師店表現不符期待，皆虛構例不混成真品牌評價。HTML明辨兩個名同義/整句褒貶不同。預設收合、圖載入、詞不拆/無溢出、桌機同列等高/手機自然高度PASS。",
+  "artSHA256": "f4dc8779415e3584c2ad526a79078655df56672d1f349084599e563e5fea6a5d",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-409-1440.png",
+    "/tmp/weirugo-comic-previews/q-409-1120.png",
+    "/tmp/weirugo-comic-previews/q-409-390.png"
+  ]
+}

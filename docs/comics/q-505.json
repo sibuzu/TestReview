@@ -1,0 +1,87 @@
+{
+  "id": "q-505",
+  "subject": "Chinese",
+  "title": "準備有價值，卻未必能避開所有禍患",
+  "art": "docs/comics/art/q-505.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T09:41:03.912089+00:00",
+  "panels": [
+    {
+      "heading": "① 先讀對照：防難，卻忽易",
+      "text": "「常圖其所難，而忽其所易」說人往往用力處理難事，卻忽略看似容易之處。防備可怕威脅時，也可能漏掉不曾懷疑的地方。",
+      "alt": "新生成虛構古代書生仔細研究城鎮模型與抽象圖紙，作費心謀慮的情境；沒有原文以外的史實人物或事件。"
+    },
+    {
+      "heading": "② 禍患可能出在被忽略之處",
+      "text": "「禍常發於所忽之中」提醒我們，注意大處不代表小處全已顧到。文中先指出思慮會有疏漏，還要接著看末句的限制。",
+      "alt": "新生成大城門與平常側門的對照，作注意範圍大小的示意；不宣稱圖中側門確定未上閂、已遭入侵或發生史實事故。"
+    },
+    {
+      "heading": "③ 末句再說：思慮也有其限度",
+      "text": "人能推想常理下的人事，仍有「智力之所不及」的變化。因此即使費心準備，也未必能避開所有禍患；不是叫人放棄準備。",
+      "alt": "新生成書生與居民在風雨中合作固定棚布、搬物避雨，示意準備與應變仍有價值；不把所有天氣都說成無法預測，也不具象化神明干預。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 看準未必，避免推論過頭",
+    "answer": "答案 B：苦心焦慮未必皆能免禍",
+    "points": [
+      "B的未必，保留人力與智力的限度。",
+      "A把用心說成必能避免疏失，太絕對。",
+      "C不能把所有憂慮都說成杞人憂天。",
+      "D的出奇制勝，不是本文所論主旨。"
+    ]
+  },
+  "protectedWords": [
+    "深慮論",
+    "常圖其所難",
+    "而忽其所易",
+    "禍常發於所忽之中",
+    "智力之所不及",
+    "未必",
+    "免禍",
+    "思慮",
+    "防備",
+    "禍患",
+    "疏漏",
+    "人事",
+    "變化",
+    "杞人憂天",
+    "出奇制勝",
+    "苦心焦慮",
+    "人力",
+    "智力"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-505-source-b3565b4df1.jpg"
+  ],
+  "originalVisualCheck": "實看原卷完整方孝孺深慮論節錄與四個選項，逐句對照正式passage；本文結尾以人事宜然/智力所不及限制推論，正式已核對答案B不改。裁圖的邊側批改不作額外可辨讀宣稱。",
+  "answerCheckedAgainst": "原卷完整節錄與正式B/逐句白話及選項分析；重點是未必而不是全部無法防範，不將後文史例或整篇未節錄內容補進原題。",
+  "rationale": "用費心規劃、大門與側門注意範圍、風雨中合作應變三個虛構情境承載抽象論理；人物圖不替代原文證據，HTML以原句與限制詞說明B，避免把天道簡化為不可預測天氣或消極宿命。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-505-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-b53e6a91-cef9-4aa5-b0cf-79eda8847bec.png",
+  "visualChecked": true,
+  "artChecks": {
+    "threeEqualSquareScenes": true,
+    "fictionalPremodernMetaphors": true,
+    "planningThenAttentionScopeThenUsefulAdaptation": true,
+    "assertsSideGateUnlatched": false,
+    "assertsAllWeatherUnpredictable": false,
+    "assertsPreparationUseless": false,
+    "addsHistoricalEventsToOriginal": false,
+    "sourceAIReuse": false,
+    "teachingTextBurnedIntoArt": false
+  },
+  "timingEvidence": "docs/comics/q-505-timing.json",
+  "completedAt": "2026-10-29T09:45:24.103492+00:00",
+  "checkedAt": "2026-10-29T09:45:24.103492+00:00",
+  "layoutEvidence": "docs/comics/q-505-preview-validation.json",
+  "visualReview": "原卷全節錄與四選實看，最終新2172x724三格及1440/1120/390實看：規劃模型/大門側門注意範圍/合作應變情境只作比喻，不當歷史事實、不聲稱側門未上閂或天氣全不可預測。QA初見免禍與禍患保護交疊，已同義改寫避免禍患為避開所有禍患；最終3寬預設收合/圖載入/無拆詞溢出/桌同列等高手機自然高PASS。",
+  "artSHA256": "9d48540d94743ed74c960c0d966a15fda5f8c450b75703086082c5dee09c50ee",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-505-1440.png",
+    "/tmp/weirugo-comic-previews/q-505-1120.png",
+    "/tmp/weirugo-comic-previews/q-505-390.png"
+  ]
+}

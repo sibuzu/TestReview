@@ -1,0 +1,121 @@
+{
+  "id": "q-340",
+  "subject": "Geography",
+  "title": "用宣布消息的8時，換算同時臺灣14時",
+  "art": "docs/comics/art/q-340.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-340-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 換算8時宣布，不是約7時40分擱淺",
+      "text": "題幹先交代擱淺背景，後來才問官方在早上8時宣布消息時，臺灣是幾點。真正要換算的起點是08:00，不要把前文約07:40的事件時間帶入。",
+      "alt": "新精確事件卡將約07:40擱淺和08:00宣布分開，突出後者，日期為原卷2021/3/23。"
+    },
+    {
+      "heading": "② 依題目日期，臺灣比埃及快6小時",
+      "text": "2021年3月23日，埃及是UTC+2，臺灣是UTC+8；兩地差8−2＝6小時。臺灣的鐘錶比埃及快6小時，所以從埃及換到臺灣，要在埃及的鐘點加6小時。",
+      "alt": "新精確同時刻表UTC06:00、埃及08:00、臺灣14:00與UTC+0/+2/+8，計算6小時差；不使用現在日期的夏令規則。"
+    },
+    {
+      "heading": "③ 08:00加6小時，就是14:00",
+      "text": "埃及08:00＋6小時＝臺灣14:00，也就是同一天下午2時，選B。題目問各地的鐘錶時間，不是用31.23°E直接計算地方太陽時，也不用把兩地時差相加。",
+      "alt": "新精確兩鐘埃及8點和臺灣14點，分針皆12方向；時針8與2，表示同時刻上午8和下午2。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：14:00",
+    "points": [
+      "取宣布消息的08:00作為換算起點。",
+      "當日臺灣比埃及快6小時。",
+      "08:00＋6小時＝同日14:00。"
+    ]
+  },
+  "protectedWords": [
+    "08:00",
+    "07:40",
+    "14:00",
+    "UTC+2",
+    "UTC+8",
+    "2021年3月23日",
+    "6小時",
+    "31.23°E",
+    "地方太陽時"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-340-source-973279ca26.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "親見原13題2021/3/23、約7時40分、8:00公告與四項12/14/16/18；紅B黑D分開，不將擱淺背景當公告起點。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d",
+  "answerCheckedAgainst": "原卷B和獨立zoneinfo歷史日期轉換符合2021-03-23T08:00+02至同日14:00+08；IANA Cairo Egypt規則2014後至2023復行前、Taipei UTC+8源檔實讀。",
+  "references": [
+    {
+      "title": "IANA tzdb Africa",
+      "url": "https://data.iana.org/time-zones/tzdb/africa",
+      "supports": "Africa/Cairo UTC+2與Egypt歷年規則；本題2021日期",
+      "access": "web及Python原檔Egypt2014/2023規則行實讀"
+    },
+    {
+      "title": "IANA tzdb Asia",
+      "url": "https://data.iana.org/time-zones/tzdb/asia",
+      "supports": "Asia/Taipei時區記錄",
+      "access": "web全文與Python實讀Zone Asia/Taipei段，zoneinfo獨立換算"
+    }
+  ],
+  "rationale": "精確時刻表與時鐘比人物或貨船圖直接，可同時排除誤抓7:40、時差反加及12小時鐘讀法；不畫不按刻度的全球經線或地方太陽時計算。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "date": "2021-03-23",
+    "from": "2021-03-23T08:00:00+02:00",
+    "to": "2021-03-23T14:00:00+08:00",
+    "offsetDifferenceHours": 6,
+    "sameDate": true,
+    "hourHands": [
+      8,
+      14
+    ],
+    "minuteHands": [
+      0,
+      0
+    ]
+  },
+  "artSHA256": "d0d9322393e9d5cf48c4bce96cefe1c87fa34a598745590558a08ce8f3f41663",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T09:38:19.563988+00:00",
+  "previewValidation": "docs/comics/q-340-preview-validation.json",
+  "visualReview": "原13題完整日期/擱淺約7:40與8:00公告/四項實看；IANA歷史規則與zoneinfo確認+02/+08及14:00。SVG實際時針端點獨立驗算8/2、兩分針向12，最終1440/390實看無碰撞，三寬PASS。",
+  "nativeArt": "assets/comics/q-340-art-d0d9322393.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:38:19.560953+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷2021/3/23公告08:00與擱淺07:40區分親見，B14:00；獨立Python zoneinfo當日Cairo+2→Taipei+8確為+6，SVG兩鐘8與2時針/12分針與同時UTC06表正確，非地方太陽時；正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-340-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-340-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-340-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-340-validation.json"
+}

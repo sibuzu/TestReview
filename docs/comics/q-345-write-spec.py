@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,hashlib
+a=Path('docs/comics/art/q-345.png');d={'id':'q-345','subject':'Geography','title':'由青壯年男性突出，連結勞動市場的政策','art':str(a),'artMode':'imagegen','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① 先看年齡與性別，不只看整體形狀','text':'原圖20多歲至40多歲的男性側明顯較寬，最突出的不是高齡人口，而是青壯年男女比例的差別。要回原圖讀年齡與左右標示；插畫只是閱讀情境，沒有代替原始人口圖。','alt':'全新內建動漫成人教師與成年學習者桌邊讀資料，無字空白紙，未AI生成或替代人口金字塔數據。'},
+{'heading':'② 結合移民線索，關注就業結構','text':'題幹另提供移民線索，與青壯年男性偏多的圖形一起看，最直接連到勞動市場。不能只靠人口金字塔，就斷言是哪個國家、失業率多高，或把移入工作與取得國籍當成同一件事。','alt':'全新內建一般現代職場面談，成人男女應徵者及招募者，非特定國家實景，不用膚色衣著區分本籍與外籍。'},
+{'heading':'③ A的聘用比例，最直接對應就業問題','text':'A提高聘用本籍國民的比例，直接處理題目指向的本籍就業。B是生育補助，C是長者照護，D是推遲生育；比較四項，A最直接回應原圖突出的青壯年與勞動市場線索。','alt':'全新內建一般成人政策研究者桌邊比較空白卡片討論就業支持，非真實國家政策發布會；精確四政策由HTML列出。'}],
+'fourth':{'answer':'答案 A：提高聘用本籍國民的比例','points':['原圖先看青壯年男性明顯較突出。','結合題幹移民線索，對應本籍就業與勞動市場。','在四選項中選最直接的政策，不猜國名或失業率。']},
+'protectedWords':['青壯年','20多歲','40多歲','人口金字塔','勞動市場','本籍國民','移入工作','取得國籍','生育補助','長者照護','推遲生育'],
+'originalChecked':{'images':['site/dist/assets/questions/q-345-source-56affadf75.jpg'],'necessaryFigures':['site/dist/assets/questions/q-345-figure-cbdb66b40a.jpg'],'visualChecked':True,'answer':'A','notes':'親見原15題2020亞洲某國、移民入籍線索、全部四政策與男左女右人口金字塔，青壯年男性峰突出；原紅A與既有詳解保留。'},
+'sourceUrl':'https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d','answerCheckedAgainst':'原卷紅A、人口圖年齡性別與四政策獨立逐項比較，不引入未提供國名、失業率或國籍統計。',
+'rationale':'保留原始人口圖作精確證據，新圖僅幫助由閱讀到職場及政策的因果配對，不估算重畫百分比，不以角色人數冒充原圖比例。',
+'sourceAIUsed':False,'generationCalls':1,'generationMetadata':'docs/comics/q-345-generation.json','promptFile':'docs/comics/q-345-prompt.txt','manualLineBreaks':False,'diagramChecks':{'answer':'A','redrawnPopulationData':False,'nationalityInferred':False,'unemploymentRateInvented':False,'workMigrationEqualsCitizenship':False,'modernScenesAreActualCountry':False},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()};Path('docs/comics/q-345.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

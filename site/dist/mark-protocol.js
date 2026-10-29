@@ -1,3 +1,4 @@
+import {FAVORITE_COLOR_IDS} from './favorite-colors.js';
 export const MARK_KINDS = ['favorite', 'doubt', 'answered'];
 export const MARK_FIELDS = {favorite:'favorites', doubt:'doubts', answered:'answered'};
 export const CLOUD_MARKS_URL = 'https://weirugo.sibuzu.com/.netlify/functions/marks';
@@ -19,7 +20,8 @@ export function checkedOperations(value, limit = 10000) {
   if (!Array.isArray(value) || value.length > limit) throw Error('標記資料格式不正確。');
   return value.map(item => {
     if (!item || !MARK_KINDS.includes(item.kind) || !/^q-\d{3,6}$/.test(item.id) || typeof item.on !== 'boolean') throw Error('標記資料格式不正確。');
-    return {kind: item.kind, id: item.id, on: item.on};
+    if(item.color!==undefined&&(!item.on||item.kind!=='favorite'||!FAVORITE_COLOR_IDS.includes(item.color)))throw Error('收藏顏色格式不正確。');
+    return {kind: item.kind, id: item.id, on: item.on,...(item.color!==undefined?{color:item.color}:{})};
   });
 }
 export function checkedSnapshot(value) {

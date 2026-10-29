@@ -1,0 +1,13 @@
+from pathlib import Path
+import json,hashlib
+a=Path('docs/comics/art/q-408.png');d={'id':'q-408','subject':'Chinese','title':'疊字不一定是聲音，要看詞在句中寫什麼','art':str(a),'artMode':'imagegen','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① 呱呱墜地：模擬嬰兒哭聲','text':'呱呱墜地的「呱呱」模擬嬰兒初生時的哭聲，符合狀聲詞的條件。先問這個詞是不是在摹寫聽到的聲音，不是只看它有沒有疊字或口字旁。','alt':'全新內建動漫成人家長安全抱著包巾嬰兒，嬰兒普通短暫哭泣神情，無出生醫療畫面、無文字聲音泡泡。'},
+{'heading':'② 撫琴錚錚：模擬清亮的琴聲','text':'本題「撫琴錚錚」中的錚錚，寫的是彈奏時的聲音。和呱呱墜地放在一起看，D前後兩個疊字都在摹聲，符合「前後皆為狀聲詞」的要求。','alt':'全新內建動漫成年樂人指尖撫彈橫放中式弦樂器，情境呈現琴聲來源；不以模型弦數作精確音樂教學。'},
+{'heading':'③ 涓涓小溪：寫細水慢流的樣子','text':'C的潺潺可寫流水聲，但「涓涓小溪」的涓涓描寫細水慢流的樣子。溪水本身可以有聲音，不代表用來描寫它的每個詞都是狀聲詞；要回到詞義與語句判斷。','alt':'全新內建窄淺清溪緩流與小石輕紋，不是大瀑布激流；潺潺聲音和涓涓狀態的精確差別以HTML說明，不在圖中寫字。'}],
+'fourth':{'answer':'答案 D：呱呱墜地／撫琴錚錚','points':['呱呱寫嬰兒哭聲，錚錚在此寫琴聲。','涓涓在本句寫細水慢流的樣子。','分別判斷前後兩詞，不把所有疊字都當狀聲詞。']},
+'protectedWords':['呱呱墜地','呱呱','狀聲詞','撫琴錚錚','錚錚','涓涓小溪','涓涓','細水慢流','潺潺','前後皆為狀聲詞'],
+'originalChecked':{'images':['site/dist/assets/questions/q-408-source-bacd882943.jpg'],'visualChecked':True,'answer':'D','notes':'親見原5題問前後皆狀聲，A喋喋誇誇/B牙牙嚷嚷/C潺潺涓涓/D呱呱錚錚全項；原紅D，保留原句與原答，不另改讀音或詞性欄。'},
+'sourceUrl':'https://chatgpt.com/share/6ae0533b-4b48-83ec-ba36-0b7b3759f90a','answerCheckedAgainst':'原紅D與本句兩個聲音來源核對；教育部涓涓本義細水慢流，錚錚擬聲詞且有轉義，文案限本題撫琴語境。',
+'references':[{'title':'教育部重編辭典：涓涓','url':'https://dict.revised.moe.edu.tw/dictView.jsp?ID=97517','supports':'第一義細水慢流的樣子，辨C後詞非摹聲','access':'主文已讀'}, {'title':'教育部重編辭典：錚錚','url':'https://dict.revised.moe.edu.tw/dictView.jsp?ID=117365&la=0&powerMode=0','supports':'擬聲詞並存在人品轉義；本題限撫琴聲語境','access':'主文已讀，未把金屬碰擊例誤稱原文直接列琴聲'}],
+'rationale':'兩種聲音來源對照同樣有聲的溪流卻用狀態詞描寫，讓使用者區分事物聲音與詞語功能；不添加呱呱多音爭論，不把琴圖弦數當條件。',
+'sourceAIUsed':False,'generationCalls':1,'generationMetadata':'docs/comics/q-408-generation.json','promptFile':'docs/comics/q-408-prompt.txt','manualLineBreaks':False,'diagramChecks':{'answer':'D','allReduplicatedWordsAreOnomatopoeia':False,'streamHavingSoundMakesAllWordsOnomatopoeia':False,'qinStringCountIsQuestionCondition':False,'specificToSentenceMeaning':True},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()};Path('docs/comics/q-408.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

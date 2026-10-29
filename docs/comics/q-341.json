@@ -1,0 +1,113 @@
+{
+  "id": "q-341",
+  "subject": "Geography",
+  "title": "石門水庫在大漢溪，選它所屬的水系",
+  "art": "docs/comics/art/q-341-watersystem.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T09:22:01.979505+00:00",
+  "panels": [
+    {
+      "heading": "① 直接攔蓄的是大漢溪",
+      "text": "先記水庫實際所在的河川：石門水庫的大壩攔蓄大漢溪溪水。不是看到選項A，就把水庫記成在淡水河下游幹流。",
+      "alt": "新製概念剖面示意，大漢溪水在大壩上游形成石門水庫；不表示實際高程、河段方位或尺寸。"
+    },
+    {
+      "heading": "② 支流也屬於整個水系",
+      "text": "大漢溪是淡水河水系的支流。水系包含主流與支流，因此「水庫在大漢溪」和「水庫屬淡水河水系」可以同時成立。",
+      "alt": "新製層級關係圖，淡水河水系大框包含大漢溪支流層，大漢溪層內標出石門水庫所在；不是把水庫當成另一條支流。"
+    },
+    {
+      "heading": "③ 看選項，選所屬水系",
+      "text": "四個選項沒有大漢溪，要從所屬水系判斷。A淡水河符合；蘭陽溪、大甲溪、濁水溪都不是石門水庫所在的水系。",
+      "alt": "四選項同列比較，淡水河A以綠框標出；未造出其他三條河的地圖位置或虛假連接。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 直接河川、水系層次別混淆",
+    "answer": "答案 A：淡水河",
+    "points": [
+      "直接攔蓄的河川：大漢溪。",
+      "所屬水系：淡水河水系。",
+      "大漢溪未列在四個選項中。",
+      "選A不代表水庫在淡水河下游幹流。"
+    ]
+  },
+  "protectedWords": [
+    "石門水庫",
+    "大漢溪",
+    "淡水河水系",
+    "淡水河",
+    "蘭陽溪",
+    "大甲溪",
+    "濁水溪",
+    "大壩",
+    "支流",
+    "幹流",
+    "攔蓄",
+    "水系"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-341-reading-25048afbfc.jpg",
+    "site/dist/assets/questions/q-341-source-5d0d32b712.jpg"
+  ],
+  "originalVisualCheck": "實看石門水庫共同材料與第16題全四選，原卷A與題庫A一致；此題只判河川水系，不需要推造等高線圖的比例尺/河川線形。",
+  "answerCheckedAgainst": "原卷16題A、正式詳解，以及水利署石門水庫全文：位於桃園市境淡水河最大支流大漢溪上。",
+  "rationale": "本題的混淆在直接河川與整個水系的層級；精確SVG剖面、包含關係及選項比較比人物觀光水庫情境更有教學效益。圖為概念關係，沒有擅畫實際大漢溪地圖或水庫工程尺寸。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "經濟部水利署｜石門水庫簡介",
+      "url": "https://www.wra.gov.tw/News_Content.aspx?n=3254&s=19369",
+      "checked": "已開官方全文，明載石門水庫位於淡水河最大支流大漢溪上；不引用當前供水量等易變資料。"
+    }
+  ],
+  "diagramChecks": {
+    "correctOption": "A",
+    "directRiver": "大漢溪",
+    "watersystem": "淡水河水系",
+    "damUpstreamReservoir": true,
+    "reservoirNotTributary": true,
+    "schematicNotMeasuredProfile": true,
+    "claimsActualGeographicRiverShapes": false
+  },
+  "timingEvidence": "docs/comics/q-341-timing.json",
+  "completedAt": "2026-10-29T09:24:18.927006+00:00",
+  "checkedAt": "2026-10-29T09:38:19.583980+00:00",
+  "layoutEvidence": "docs/comics/q-341-preview-validation.json",
+  "visualReview": "三寬1440/1120/390實看：水庫概念剖面大壩位在蓄水下游側，所屬水系嵌套框、原四選A皆可辨讀。預設收合、3圖載入、文詞不拆/無溢出、桌機同列等高/手機自然高度PASS。沒有實際地圖方位或工程量測假資料。",
+  "artSHA256": "84aed26305dd8a537e5aa7c0b5f75c7c428e9d1b7cc7435dd4ccb8ace6ee3979",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-341-1440.png",
+    "/tmp/weirugo-comic-previews/q-341-1120.png",
+    "/tmp/weirugo-comic-previews/q-341-390.png"
+  ],
+  "nativeArt": "assets/comics/q-341-art-84aed26305.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:38:19.580739+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷共同材料及四河川親見，A按水系層級理解；新SVG直接攔大漢溪、淡水河水系包含大漢溪，不把水庫畫在淡水河下游幹流，沒有把水庫當支流。正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-341-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-341-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-341-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-341-validation.json"
+}

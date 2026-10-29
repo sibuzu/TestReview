@@ -21,7 +21,7 @@
 <main id="content" tabindex="-1">
 <div id="list-page">
 <div class="list-heading"><h1 id="page-title">全部錯題</h1><div class="view-switch" aria-label="顯示方式"><button id="grid-view" aria-label="卡片檢視" aria-pressed="false">▦</button><button id="list-view" class="active" aria-label="列表檢視" aria-pressed="true">☷</button></div></div>
-<section id="question-tools"><div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="search" placeholder="搜尋題目、觀念或關鍵字…" aria-label="搜尋錯題"></label><div class="filter-controls"><select id="answered-filter" aria-label="依作答狀態篩選"><option value="">全部</option><option value="done">已作</option><option value="not-done">未作</option></select><select id="volume-filter" aria-label="依冊次篩選"><option value="">所有冊次</option></select><select id="chapter-filter" aria-label="依章節篩選"><option value="">所有章節</option></select><select id="sort" aria-label="題目排序"><option value="newest">日期由新到舊</option><option value="oldest">日期由舊到新</option><option value="title">題目名稱排序</option></select></div></div></section>
+<section id="question-tools"><div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="search" placeholder="搜尋題目、觀念或關鍵字…" aria-label="搜尋錯題"></label><div class="filter-controls"><select id="volume-filter" aria-label="依冊次篩選"><option value="">所有冊次</option></select><select id="chapter-filter" aria-label="依章節篩選"><option value="">所有章節</option></select><select id="sort" aria-label="題目排序"><option value="newest">日期由新到舊</option><option value="oldest">日期由舊到新</option><option value="title">題目名稱排序</option></select></div></div></section>
 <section id="results" aria-label="題目列表"></section>
 </div>
 <section id="question-page" aria-label="題目內容" hidden><article id="detail" class="question-detail" tabindex="-1"></article></section>
@@ -30,6 +30,7 @@
 </div>
 <dialog id="detail-dialog" class="detail-dialog"><div id="source-detail"></div></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
+<div id="favorite-palette" class="favorite-palette" role="menu" aria-label="選擇收藏顏色" hidden></div>
 <noscript><p class="noscript">請啟用 JavaScript 以瀏覽錯題與保存標記。</p></noscript>
 <script type="module" src="app.js"></script>
 </body></html>

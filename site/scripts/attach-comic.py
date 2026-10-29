@@ -7,6 +7,11 @@ from optimized_assets import optimize_payload
 
 ROOT = Path(__file__).resolve().parents[2]
 
+def retained_figures(qid, override, baseline):
+    """A new comic must not erase official reference material in the base row."""
+    figures = override.get('explanationFigures', baseline)
+    return [figure for figure in figures if figure['src'] != f'assets/comics/{qid}.png']
+
 def attach(qid):
     spec_path = ROOT / 'docs/comics' / (qid + '.json')
     spec = json.loads(spec_path.read_text())
@@ -26,9 +31,13 @@ def attach(qid):
         comic['protectedWords'] = spec['protectedWords']
     override_path = ROOT / 'docs/complete-questions' / (qid + '.json')
     override = json.loads(override_path.read_text()) if override_path.exists() else {}
-    # Replace only our previous flattened comic; retain other explanation figures.
-    override['explanationFigures'] = [f for f in override.get('explanationFigures', [])
-                                     if f['src'] != f'assets/comics/{qid}.png']
+    # A question without an override can still have official explanation figures.
+    baseline = []
+    if 'explanationFigures' not in override:
+        data = json.loads((ROOT/'site/dist/data.json').read_text())
+        baseline = next((q.get('explanationFigures', []) or []
+                         for q in data['questions'] if q['id'] == qid), [])
+    override['explanationFigures'] = retained_figures(qid, override, baseline)
     override['teachingComic'] = comic
     override_path.write_text(json.dumps(override, ensure_ascii=False, indent=2) + '\n')
     spec.update(nativeArt=asset, layoutVersion='native-fluid-v6',

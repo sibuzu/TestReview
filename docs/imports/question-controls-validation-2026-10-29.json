@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-29T09:46:45.622572+00:00",
+  "reviewerAgent": "/root",
+  "unitTests": {
+    "command": "npm test --prefix site",
+    "passed": 80
+  },
+  "browserCommand": "node site/scripts/check-question-controls.cjs",
+  "browserResults": [
+    {
+      "width": 1440,
+      "result": "PASS",
+      "globalScope": "all/not-done/done, subject/favorites/history/detail",
+      "palette": "3x2 five colors plus none, read-only list, closes on selection/outside/Escape, alias and reload persistence",
+      "shortcut": "x/X updates mark and bubble without collapsing explanation; typing/modifier/list ignored",
+      "cloudRequests": 0,
+      "dimensions": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "width": 390,
+      "result": "PASS",
+      "globalScope": "all/not-done/done, subject/favorites/history/detail",
+      "palette": "3x2 five colors plus none, read-only list, closes on selection/outside/Escape, alias and reload persistence",
+      "shortcut": "x/X updates mark and bubble without collapsing explanation; typing/modifier/list ignored",
+      "cloudRequests": 0,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "width": 360,
+      "result": "PASS",
+      "globalScope": "all/not-done/done, subject/favorites/history/detail",
+      "palette": "3x2 five colors plus none, read-only list, closes on selection/outside/Escape, alias and reload persistence",
+      "shortcut": "x/X updates mark and bubble without collapsing explanation; typing/modifier/list ignored",
+      "cloudRequests": 0,
+      "dimensions": {
+        "width": 360,
+        "scrollWidth": 360
+      }
+    }
+  ],
+  "screenshotsActuallyViewed": [
+    "palette-1440.png",
+    "palette-390.png",
+    "palette-360.png",
+    "list-390.png",
+    "list-360.png",
+    "scope-not-done-1440.png",
+    "scope-done-1440.png"
+  ],
+  "visualFindings": "3欄2列無紅藍/橘青黃，色票青為亮綠；列表星號僅呈現；窄螢幕全域計數可見且頁面無水平溢出。",
+  "cloudValidationScope": "Controlled in-memory Netlify store tests for color changes, legacy booleans, offline retries, race/ack handling, bulk validation and old-server rollout. Browser QA uses isolated storage, local-only origin and no real cloud requests.",
+  "preserved": [
+    "Existing favorite/doubt/answered storage and production-only cloud policy",
+    "Question aliases q821→820",
+    "Expanded explanation DOM and position during scope/mark changes",
+    "New-source pause at63 and ongoing illustration work"
+  ],
+  "pass": true
+}

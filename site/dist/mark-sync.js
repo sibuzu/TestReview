@@ -1,4 +1,5 @@
 import {checkedOperations, checkedSnapshot, markKey, marksEndpointFor, MARK_FIELDS, MARK_KINDS} from './mark-protocol.js';
+import {DEFAULT_FAVORITE_COLOR} from './favorite-colors.js';
 
 export const OUTBOX_KEY = 'test-review:mark-outbox:v1';
 
@@ -20,8 +21,8 @@ export class MarkSync {
       else this.storage.removeItem(OUTBOX_KEY);
     } catch {} // The in-memory outbox still retries when storage is unavailable.
   }
-  queue(kind, id, on) {
-    this.queueAll([{kind,id,on}]);
+  queue(kind, id, on, color) {
+    this.queueAll([{kind,id,on,...(color!==undefined?{color}:{})}]);
   }
   queueAll(operations) {
     if(this.localOnly){this.status('local');return;}
@@ -36,8 +37,11 @@ export class MarkSync {
     for (const [kind, field] of Object.entries(MARK_FIELDS)) {
       for (const id of local[field]||[]) {
         if (!/^q-\d{3,6}$/.test(id)) continue;
-        const op = {kind,id,on:true}, key = markKey(op);
-        if (!remote.has(key) && !this.pending.has(key)) this.pending.set(key, {...op,seq:++this.sequence});
+        const color=kind==='favorite'?local.favoriteColors?.[id]:undefined;
+        const op = {kind,id,on:true,...(color?{color}:{})}, key = markKey(op);
+        const previous=remote.get(key);
+        const missingColor=this.serverFavoriteColors&&previous?.on&&!previous.color&&color&&color!==DEFAULT_FAVORITE_COLOR;
+        if ((!remote.has(key)||missingColor) && !this.pending.has(key)) this.pending.set(key, {...op,seq:++this.sequence});
       }
     }
     this.persist();
@@ -45,8 +49,11 @@ export class MarkSync {
   publish(extra = []) {
     const current = new Map(this.snapshot.map(op => [markKey(op), op]));
     for (const op of [...extra, ...this.pending.values()]) current.set(markKey(op), op);
-    this.apply(Object.fromEntries(Object.entries(MARK_FIELDS).map(([kind,field])=>
-      [field,[...current.values()].filter(op=>op.kind===kind&&op.on).map(op=>op.id).sort()])));
+    const result=Object.fromEntries(Object.entries(MARK_FIELDS).map(([kind,field])=>
+      [field,[...current.values()].filter(op=>op.kind===kind&&op.on).map(op=>op.id).sort()]));
+    if(this.getLocal().favoriteColors!==undefined||[...current.values()].some(op=>op.color&&op.color!==DEFAULT_FAVORITE_COLOR))result.favoriteColors=Object.fromEntries(
+      [...current.values()].filter(op=>op.kind==='favorite'&&op.on).map(op=>[op.id,op.color||DEFAULT_FAVORITE_COLOR]));
+    this.apply(result);
   }
   refresh() {
     if(this.localOnly){this.available=false;this.status('local');return Promise.resolve();}
@@ -79,12 +86,13 @@ export class MarkSync {
         // favorite/doubt. Keep answered changes local without blocking those.
         this.serverKinds = Array.isArray(payload.kinds)
           ? payload.kinds.filter(kind=>MARK_KINDS.includes(kind)) : ['favorite','doubt'];
+        this.serverFavoriteColors=payload.favoriteColors===true;
         this.etag = response.headers.get('ETag')||'';
       }
       this.importLocalUnknown();
       this.publish();
       while (this.pending.size) {
-        const batch = [...this.pending.values()].filter(op=>(this.serverKinds||['favorite','doubt']).includes(op.kind)).slice(0,100);
+        const batch = [...this.pending.values()].filter(op=>(this.serverKinds||['favorite','doubt']).includes(op.kind)&&(!op.color||this.serverFavoriteColors)).slice(0,100);
         if (!batch.length) break;
         const sent = batch.map(({seq,...op})=>op);
         const saved = await this.request({method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({schemaVersion:1,operations:sent})});

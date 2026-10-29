@@ -1,0 +1,103 @@
+{
+  "id": "q-346",
+  "subject": "Geography",
+  "title": "目的地在西、在南，合起來選西南",
+  "art": "docs/comics/art/q-346-coordinate-direction.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T09:29:11.115044+00:00",
+  "panels": [
+    {
+      "heading": "① 聚落名與座標，先認出金門",
+      "text": "原圖的水頭、珠山、瓊林等聚落指向金門國家公園。圖上位置約在東經118度多、北緯24度多，先把目的地看清楚。",
+      "alt": "新製經緯度讀圖概念框與金色地點符號，只列原圖約東經118度多/北緯24度多範圍；不造出聚落精確位置或新海岸輪廓。"
+    },
+    {
+      "heading": "② 東經數字較小，要往西",
+      "text": "臺北松山約在東經121度多；金門約在東經118度多。同在東經，目的地數字較小，就是在出發地的西側。",
+      "alt": "新製經度比較線，金門118度多E在左、松山121度多E在右，從松山指向金門的箭頭向西；不是比例地圖。"
+    },
+    {
+      "heading": "③ 北緯較小，還要往南",
+      "text": "松山約在北緯25度多，金門約在北緯24度多。同在北緯，目的地較南；和向西合起來，就是西南方↙。",
+      "alt": "新製相對方位圖，松山在右上、金門在左下，西向與南向分量以虛線表示，直連向量指西南；非實際航路或實際轉彎。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先比較經緯度，再合成方向",
+    "answer": "答案 D：西南方 ↙",
+    "points": [
+      "東經較小：向西。",
+      "北緯較小：向南。",
+      "西＋南＝西南。",
+      "題目判主要方向，不算實際航路或時間。"
+    ]
+  },
+  "protectedWords": [
+    "金門國家公園",
+    "金門",
+    "國家公園",
+    "臺北松山",
+    "松山",
+    "東經",
+    "北緯",
+    "目的地",
+    "出發地",
+    "水頭",
+    "珠山",
+    "瓊林",
+    "西南方",
+    "西南",
+    "118度多",
+    "121度多",
+    "24度多",
+    "25度多"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-346-source-88d1f7b2e9.jpg",
+    "site/dist/assets/questions/q-346-figure-d9effcb6be.jpg"
+  ],
+  "originalVisualCheck": "實看原卷第10題全題/四箭頭、黑A紅D與經緯度聚落圖；原圖列北山南山瓊林山后水頭珠山歐厝，經線118.15/118.20/118.25E，緯線24.25/24.30N。圖只作位置識別與方位，不從印刷尺寸猜航路。",
+  "answerCheckedAgainst": "正式D/已核對詳解，原卷紅D，原圖聚落及經緯度在松山西南；金門國家公園官方傳統聚落名單交叉確認目的地。",
+  "rationale": "原題關鍵是相對經緯度與方向合成，使用可查核SVG座標概念/經度比較/西南分量比旅客乘機人物情境更清楚；不用AI猜地圖，不把直線向量冒充實際航線或比例尺。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "references": [
+    {
+      "title": "金門國家公園｜傳統聚落",
+      "url": "https://www.kmnp.gov.tw/ch/sglarticle/villages",
+      "checked": "官方聚落名單含原圖歐厝珠山水頭瓊林山后南山北山；方向主依原題地圖與正式詳解，不作旅遊行程推薦。"
+    }
+  ],
+  "diagramChecks": {
+    "correctOption": "D",
+    "westLongitudeComparison": "118多<121多，同東經",
+    "southLatitudeComparison": "24多<25多，同北緯",
+    "combined": "西南↙",
+    "exactVillageCoordinatesInvented": false,
+    "claimsRealFlightRoute": false,
+    "claimsToScaleMap": false
+  },
+  "timingEvidence": "docs/comics/q-346-timing.json",
+  "completedAt": "2026-10-29T09:32:25.274648+00:00",
+  "checkedAt": "2026-10-29T09:32:25.274648+00:00",
+  "layoutEvidence": "docs/comics/q-346-preview-validation.json",
+  "visualReview": "實看原卷經緯度聚落圖/原四箭頭黑A紅D，及最終1440/1120/390三寬：左圖範圍不冒充單點座標，中圖金門經度小在西，右圖西南向量/正交分量一致；無實際航路或比例圖。度數與度多已連詞保護。預設收合、圖載入、無溢出/拆詞、桌機同列等高/手機自然高度PASS。",
+  "artSHA256": "77a5191c5567ee2b293c7695bc1290a37be4fe3ac3a05f2a7e030507c8ae381c",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-346-1440.png",
+    "/tmp/weirugo-comic-previews/q-346-1120.png",
+    "/tmp/weirugo-comic-previews/q-346-390.png"
+  ],
+  "nativeArt": "assets/comics/q-346-art-77a5191c55.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  }
+}

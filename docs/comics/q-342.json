@@ -1,0 +1,126 @@
+{
+  "id": "q-342",
+  "subject": "Geography",
+  "title": "看谷地匯流與山脊分流，找最不可能的採水點",
+  "art": "docs/comics/art/q-342.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-342-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 河谷V形尖端朝上游高處",
+      "text": "原題註明支流未畫出，要靠等高線找可能的水道。配合高度判斷：谷地V形尖端指向上游高處，水流則往低處匯集。新圖的300、200、100是示例高度，不是原卷數值。",
+      "alt": "新精確概念等高線谷地V尖向上方高處，三線高度由300至100往下減少，藍箭頭沿谷線下流；不補畫原卷未載水道。"
+    },
+    {
+      "heading": "② 山脊向外凸出，水向兩側分流",
+      "text": "山脊的等高線凸出尖端伸向低處，與河谷的彎曲方向不同。水較容易向脊線兩側低處流走，脊部不是支流水集中的位置。不能只看形狀像V，還要讀高低方向。",
+      "alt": "新精確山脊概念線V尖朝下方低處，300至100往下減少，兩支藍箭頭由脊頂向兩旁低處，不畫脊頂有河流。"
+    },
+    {
+      "heading": "③ 丙在脊部，最不適合直接採支流水",
+      "text": "回到原圖，丙在613公尺高地向外伸出的脊部，甲、乙、丁則較符合谷地位置。因此問最不可能的採樣地點，選C丙。這不等於已證明丙整個地點不在水庫集水區內。",
+      "alt": "新判讀資訊卡比較甲乙丁谷地與丙脊部，選C；明確不推斷脊部一定在石門集水區外。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙",
+    "points": [
+      "先看等高線的高度，再辨認谷地或山脊。",
+      "谷地較能集中支流水，脊部向兩側分流。",
+      "不適合直接採支流水，不等於在集水區之外。"
+    ]
+  },
+  "protectedWords": [
+    "等高線",
+    "V形",
+    "上游高處",
+    "300",
+    "200",
+    "100",
+    "613公尺",
+    "甲、乙、丁",
+    "集水區",
+    "支流水"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-342-reading-25048afbfc.jpg",
+      "site/dist/assets/questions/q-342-source-64c783965d.jpg"
+    ],
+    "necessaryFigures": [
+      "site/dist/assets/questions/q-342-figure-8f1fe3d4ba.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見完整共同說明支流未繪製、17四選與山圖613及丙脊部；沿已核對C，不重開既有原AI武斷集水區外的訂正。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6ae05208-3ffc-83ee-be7e-99cc4705ab6d",
+  "answerCheckedAgainst": "原卷紅C，對比原圖613高地向外伸出脊部；谷V指高處、脊V指低處依高度圖模型獨立重算。",
+  "references": [
+    {
+      "title": "臺北市教學資源：表示地形的方法",
+      "url": "https://tmrc.tiec.tp.edu.tw/HTML/RSR200811191906220FM/topographytaiwan/tai07.htm",
+      "supports": "等高線同高與V谷尖指上游方向",
+      "access": "官方教育網站主文1至15行實讀"
+    },
+    {
+      "title": "NWCG Firefighter Math：Contour Lines and Intervals",
+      "url": "https://www.nwcg.gov/course/ffm/mapping/firefighter-math-55-contour-lines-and-intervals",
+      "supports": "谷線V向上游及山脊特徵",
+      "access": "官方搜尋摘錄，實開403，未冒稱全文"
+    }
+  ],
+  "rationale": "以精確概念等高線對照水流方向，防把所有V都當河谷及由脊部推出集水區外。示例高度清楚標示，不用AI重畫原卷山形或虛構採樣水量。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "C",
+    "conceptElevations": [
+      300,
+      200,
+      100
+    ],
+    "valleyVertexPointsTo": "higher",
+    "ridgeVertexPointsTo": "lower",
+    "originalRidgeHeight": 613,
+    "watershedOutsideAsserted": false,
+    "allValleysGuaranteedWet": false,
+    "zValley": "450-(10/3)*y+(5/3)*abs(x-90)",
+    "zRidge": "550-(10/3)*y-(5/3)*abs(x-90)"
+  },
+  "artSHA256": "6c7402d804d141391863c1664d9efb24e6c4ea118d2d5ca99091673b5a0747c4",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T09:38:19.603657+00:00",
+  "previewValidation": "docs/comics/q-342-preview-validation.json",
+  "visualReview": "共同原文/支流未繪/17四項/613與丙脊部原圖實看。新示例6條等高線逐點高度式核對，谷尖高/脊尖低不反。最終1440/390實看無字碰撞、數值標籤與水流箭頭可辨，三寬PASS，維持C且不推斷集水區外。",
+  "nativeArt": "assets/comics/q-342-art-6c7402d804.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T09:38:19.600632+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷支流未繪共同材料與等高線/613高地/4點親見，C丙脊部缺集中支流水不當集水區外定論；新SVG示例谷尖向高、脊尖向低與分匯流方向正確，300/200/100非原數值。正式桌手機實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-342-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-342-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-342-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-342-validation.json"
+}

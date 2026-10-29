@@ -1,0 +1,100 @@
+{
+  "id": "q-403",
+  "subject": "History",
+  "title": "雷震、自由中國、籌組中國民主黨",
+  "art": "docs/comics/art/q-403.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:06:05.102944+00:00",
+  "panels": [
+    {
+      "heading": "① 雜誌與姓名，把背景鎖定雷震",
+      "text": "題文提到雷震辦自由中國，胡適則評論他因爭取言論自由入獄。先認清雷震是事件主角，胡適是發表評論的人。",
+      "alt": "新製泛指雜誌編輯情境，非雷震寫實肖像或自由中國原件；刊物無生成文字，不冒充史料。"
+    },
+    {
+      "heading": "② 1960年籌組中國民主黨",
+      "text": "雷震與其他社會人士推動中國民主黨籌備，後遭逮捕並判刑十年。題問與被捕最相關的政治背景，C最直接。",
+      "alt": "新製成年人討論與組織工作的概念情境，非1960某次會議的歷史重建；無現代政黨標誌或偽造口號。"
+    },
+    {
+      "heading": "③ 民主運動不能混成一件事",
+      "text": "A議會請願屬日治時期；B指1947年二二八；D人權日警民衝突對應1979年美麗島事件。都不能取代1960年雷震案。",
+      "alt": "新製學生比對四張無字學習卡的史序學習情境；卡片不生成歷史照片或日期，完整事件/年代由HTML準確列出。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 雷震、自由中國、籌組中國民主黨",
+    "answer": "答案 C：戒嚴時期籌組中國民主黨",
+    "points": [
+      "雷震辦雜誌，胡適發表評論，兩人角色不同。",
+      "1960年雷震案與組黨政治背景直接相關。",
+      "日治議會請願、二二八、美麗島各有脈絡與年代。"
+    ]
+  },
+  "protectedWords": [
+    "雷震",
+    "胡適",
+    "自由中國",
+    "中國民主黨",
+    "言論自由",
+    "政治背景",
+    "日治時期",
+    "議會請願",
+    "二二八",
+    "美麗島事件",
+    "人權日",
+    "警民衝突",
+    "1947年",
+    "1960年",
+    "1979年",
+    "十年"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-403-source-1ec3bdb99b.jpg"
+  ],
+  "originalVisualCheck": "實看35題胡適引言與四選項，C明列戒嚴時期籌組中國民主黨；原卷B紅改C。D人權日衝突不等於此案。",
+  "answerCheckedAgainst": "政治大學雷震研究中心年表/生平核對1960組黨籌備、9月被捕、判刑十年；原題C最有關。明確區分歷史政治背景與當時當局提出的形式罪名，不把組黨說成當時合法判決所列唯一罪名。",
+  "rationale": "新製雜誌編輯/成人協作/學生對照事件三景，搭配HTML姓名、組黨與史序線索；不用偽造會議照片或現代政黨旗幟，人物只作明示概念情境，避免雷震/胡適角色混淆。",
+  "promptPath": "docs/comics/q-403-prompt.txt",
+  "generationCalls": 1,
+  "sourceChecks": [
+    {
+      "url": "https://leichencenter.nccu.edu.tw/pages1.php",
+      "supports": "雷震研究中心年表：1960組黨籌備與被捕/十年判刑",
+      "access": "已開啟並實讀年表/傳略相關1960段落。"
+    },
+    {
+      "url": "https://leichencenter.nccu.edu.tw/pages1.php?sn=4",
+      "supports": "研究中心生平：與臺籍政治人士共同籌組中國民主黨、連結本省與外省民主人士；僅背景核對，不杜撰當次會議場景",
+      "access": "已開啟並實讀年表/傳略相關1960段落。"
+    }
+  ],
+  "artSHA256": "5570f121f466f9772238e2588c50f628ffca05e6b9d877cac2d3711d1609e17c",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:50:53.913814+00:00",
+  "completedAt": "2026-10-29T03:07:53.550639+00:00",
+  "layoutEvidence": "docs/comics/q-403-preview-validation.json",
+  "visualReview": "實看新製三景與1440/1120/390：概念編輯/成年討論/學生四卡清楚，無仿歷史照片、政黨標誌或可讀史料假字。文本分清雷震與胡適、1960組黨背景；三寬無橫溢，關鍵姓名/黨名保護完整，桌面同列等高、手機自然高。",
+  "nativeArt": "assets/comics/q-403-art-5570f121f4-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:50:53.911342+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原題胡適評論雷震、四事件選項實看。全新編輯/成人會議僅概念圖，無偽造史照文字或現代政黨符號，角色及1960背景分清，桌手機實看及正式QA通過。",
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-403-validation.json"
+}

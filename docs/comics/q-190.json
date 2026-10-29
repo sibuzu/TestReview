@@ -1,0 +1,65 @@
+{
+  "id": "q-190",
+  "subject": "English",
+  "title": "其中幾位以前當服務生：複數過去用were",
+  "art": "docs/comics/art/q-190.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-190-generate.py",
+  "startedAt": "2026-10-29T04:20:57.672078+00:00",
+  "panels": [
+    {
+      "heading": "① A few of them表示其中幾個人",
+      "text": "主詞指不只一個人，是複數。這決定be動詞不能用單數was；但還要看時間，才能在現在式are與過去式were之間選對。",
+      "alt": "多個抽象成員點表示A few of them複數，三點只是示意，沒有聲稱原題精確人數。"
+    },
+    {
+      "heading": "② before在本句是以前曾任職的時間",
+      "text": "句子說其中幾位以前在那家餐廳當服務生，原卷訂正採一般過去式。時間線只標出以前的工作身分；目前是否仍在任職，這句沒有交代。",
+      "alt": "以前到現在的定性時間線，以前標waiters、現在標未說明，不把過去任職擴大成現在必定離職。"
+    },
+    {
+      "heading": "③ 複數加上過去時間，選were",
+      "text": "合併兩條線索：A few of them是複數，本句又在談過去，故填were。before在不同句子可有不同時間語境；要從這句的以前工作身分判斷，而不是看見before就一律套過去式。",
+      "alt": "複數與過去兩卡匯到were，旁註本題was不合複數、are是現在式；不把before當自動選時態開關。"
+    }
+  ],
+  "fourth": {
+    "answer": "填were",
+    "points": [
+      "A few of them＝其中幾個人，複數。",
+      "本句談以前曾當服務生，採過去式。",
+      "複數過去be用were，讀完整時間語境再選。"
+    ]
+  },
+  "protectedWords": [
+    "A few of them",
+    "A few",
+    "them",
+    "were",
+    "was",
+    "are",
+    "waiters",
+    "before",
+    "be動詞"
+  ],
+  "rationale": "實看原卷完整句/are作答及be填空，沿已核對were。新原生複數成員、過去任職且現在未交代的時間線、數與時合併決策，直接指出are只符數不符本句過去；不將before一律當過去或推定現職已改。無來源AI圖。",
+  "promptSummary": "新原生SVG A few複數成員、以前waiters/現在未說明時間線、複數＋過去→were。無職業人物刻板圖或來源AI圖，不加離職事實。",
+  "answerCheckedAgainst": "原卷A few of them___(be)waiters in the restaurant before與are作答；現有核對按以前工作身份採were，既有before非一律過去的說明保留。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-190-source-4b86b7e7e0.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "were",
+    "notes": "親見完整原卷A few/them/waiters/in the restaurant/before與填are；不從before單字推遍所有句型，未推定現在職業。"
+  },
+  "artSHA256": "1d3787a0ff4502fdbbc9233782f86fb2af2b9477efd164bfb4bab11e76662ea1",
+  "completedAt": "2026-10-29T04:23:02.080220+00:00",
+  "checkedAt": "2026-10-29T04:23:02.080233+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-190-preview-validation.json",
+  "visualReview": "親見原卷完整句與are→were訂正、原生540×180及最終1440/390。A few複數成員、以前waiters/現在未交代的時間線、複數＋過去匯到were清楚；沒有推定離職或before一律過去。桌機同列等高/手機自然高度，詞組無溢出裁切，were維持。"
+}

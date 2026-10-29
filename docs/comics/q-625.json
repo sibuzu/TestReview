@@ -1,0 +1,62 @@
+{
+  "id": "q-625",
+  "subject": "English",
+  "title": "保留原句骨架，在are後加入not",
+  "art": "docs/comics/art/q-625.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-625-generate.py",
+  "startedAt": "2026-10-29T03:19:13.778872+00:00",
+  "panels": [
+    {
+      "heading": "① 原句已經有be動詞are",
+      "text": "They are in the library. 的主詞是They，be動詞是are，後面是地點in the library。改否定時，先找到原句的are，不另加do或does。",
+      "alt": "原句依序分成They、著色的are、in the library三塊，確認原句已有be動詞。"
+    },
+    {
+      "heading": "② 原位置保留are，在它後面加not",
+      "text": "把not放到are後面，就成為They are not in the library.。主詞They與地點片語都保留，不要把are刪掉，也不用為了否定改動主詞或地點。",
+      "alt": "與第一圖相同句構位置，在are後插入橘色not塊，They及in the library維持原先內容。"
+    },
+    {
+      "heading": "③ are not可以合成aren't",
+      "text": "完整寫法是They are not in the library.；縮寫可寫They aren't in the library.。兩句意思相同；縮寫中的撇號標示省略，不是把are整個拿走。",
+      "alt": "are not向下轉成ASCII撇號的aren't，下方列完整縮寫否定句，對應第二圖同義句。"
+    }
+  ],
+  "fourth": {
+    "answer": "They are not in the library.",
+    "points": [
+      "否定句在原be動詞are後加not。",
+      "也可寫They aren't in the library.。",
+      "主詞及地點保留，本句不需do或does。"
+    ]
+  },
+  "protectedWords": [
+    "They",
+    "are not",
+    "aren't",
+    "in the library",
+    "be動詞",
+    "does"
+  ],
+  "rationale": "文字延伸原句與解答完整閱讀，答案不變。與單步be選詞不同，此題有保留句構→定位插入not→縮寫三個可對照操作，原生句塊直接展示改寫前後，避免人物在圖書館只重現地點；三圖皆全新而非來源AI圖。",
+  "promptSummary": "原生三張180方句構圖：They/are/in the library，於are後插not，are not→aren't縮寫。英文撇號ASCII，不以裝飾故事替代句型操作。",
+  "answerCheckedAgainst": "完整來源基礎改寫第一句They are in the library與來源They are not (aren't) in the library解答，符合現有詳解；不改原題。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "questionLines": "79–105",
+    "answerLines": "160–176",
+    "visualChecked": true,
+    "answer": "They are not in the library. / They aren't in the library.",
+    "notes": "來源原本為純文字延伸，完整問句/否定改寫解答已讀；無缺原卷圖問題。"
+  },
+  "artSHA256": "d9d0b576d51bea0630130999fbdb721b00a393e1a1b27d147c05cc39f2cc1a43",
+  "completedAt": "2026-10-29T03:20:56.651308+00:00",
+  "checkedAt": "2026-10-29T03:20:56.651332+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-625-preview-validation.json",
+  "visualReview": "完整文字源問句與否定/縮寫解答已讀；實看原生540×180及最終1440/390。三圖句構對照、not插入位置及ASCII縮寫清楚，保留They/地點，不新增do。桌機同列等高，手機英文自動換行無溢出，答案兩種寫法一致。"
+}

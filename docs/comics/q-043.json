@@ -1,0 +1,77 @@
+{
+  "id": "q-043",
+  "subject": "Physics-Chemistry",
+  "title": "先判浮沉，再比較三個浮力",
+  "art": "docs/comics/art/q-043.svg",
+  "protectedWords": [
+    "密度",
+    "漂浮",
+    "排水體積",
+    "甲、乙",
+    "40 gw",
+    "30 gw",
+    "60 gw",
+    "30 cm³",
+    "0.8",
+    "0.5",
+    "水密度",
+    "B甲＞B乙＝B丙"
+  ],
+  "panels": [
+    {
+      "heading": "① 先算三個密度，分清浮與沉",
+      "text": "甲40÷50＝0.8，乙30÷60＝0.5，丙60÷30＝2，單位是g/cm³。和水密度1比較，甲、乙漂浮，丙下沉；不能先把三物體全當成完全浸水。",
+      "alt": "三列原表質量除以體積，甲0.8浮、乙0.5浮、丙2沉，對照水密度1；沒有把質量大小直接排成浮力大小。"
+    },
+    {
+      "heading": "② 漂浮甲、乙：浮力等於自身重量",
+      "text": "甲漂浮時B甲＝40 gw，乙漂浮時B乙＝30 gw。甲只需排開40 cm³的水，乙排開30 cm³；不是把整個50、60 cm³都當排水體積。",
+      "alt": "正立方體剖面同尺度邊長依體積開三次方；甲80%高度浸水、乙50%，浮力40及30gw，不用整個體積。"
+    },
+    {
+      "heading": "③ 沉入的丙：排開水重才是浮力",
+      "text": "丙完全浸水時，排開30 cm³的水，所以B丙＝30 gw。圖示未碰杯底的浸水片刻，物重60 gw大於浮力，會繼續下沉，不能把60 gw直接當浮力。",
+      "alt": "丙完全浸水且與杯底有間隙，方塊體積30cm³；旁列同尺度浮力向上30、物重向下60不等長箭頭，無靜止平衡或杯底支持力假象。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：B甲＞B乙＝B丙",
+    "points": [
+      "甲40 gw，乙30 gw，丙30 gw。",
+      "漂浮體的排水體積只取浸水部分。",
+      "沉體浮力取排開水重，不直接等於物重。"
+    ]
+  },
+  "rationale": "完整實看自然四原卷第10題質量40/30/60、體積50/60/30及四選項，讀原AI本題完整推導。獨立計密度與排水，B=40/30/30。新精確SVG依立方體邊長cbrt(V)、浮體浸水比例0.8/0.5、沉體完整浸水且不碰底的瞬間，避免畫成下沉也B=W或落底水壓歧義。OpenStax正文核阿基米德原理及浮體浸水比例，C不變，不採來源AI圖。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-043-source-c8108e8b9a.jpg",
+    "site/dist/sources/gemini-science.txt lines 933–1065"
+  ],
+  "sourceUrl": "https://share.gemini.google/4y9jAamQ8xdh",
+  "sources": [
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-7-archimedes-principle",
+      "note": "正文31–58浮力等於排開液體重、沉浮取決與物重比較；113–126浮體浸水比例。"
+    }
+  ],
+  "generationMethod": "precise native SVG cubic cross sections, submergence fractions, and unequal buoyancy-weight force diagram",
+  "answerCheckedAgainst": "密度0.8/0.5/2，甲乙漂浮排水40/30，丙全浸排30；浮力40>30=30，C。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T03:16:45.390717+00:00",
+  "checkedAt": "2026-10-29T03:17:45.419105+00:00",
+  "validationFile": "docs/comics/q-043-preview-validation.json",
+  "artSha256": "b66bd32bea5685201dedad70c84cc98db8cc4fd00f572b12a05e787e34e11203"
+}

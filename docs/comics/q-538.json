@@ -1,0 +1,64 @@
+{
+  "id": "q-538",
+  "subject": "English",
+  "title": "the lion's share：拿到最大的一份",
+  "art": "docs/comics/art/q-538.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-538-generate.py",
+  "startedAt": "2026-10-29T03:56:33.573886+00:00",
+  "panels": [
+    {
+      "heading": "① Tom原來分50%，卻想得到更多",
+      "text": "兩人原本各分一半生意，Tom卻不滿足自己的50%，把攤位搬回接近海灘中央。先抓住這個前因，就知道接下來的share是在說生意的份額。",
+      "alt": "原文明列Tom與Sam各50%生意，用同寬色塊精確呈現原先一半；不是移位後的比例。"
+    },
+    {
+      "heading": "② 移位後，Sam那側部分客人也能找Tom",
+      "text": "文章接著說，Sam那一半的部分顧客也能方便向Tom買冰淇淋，因此Tom的生意份額變大、賺更多。這些後文幫助解釋takes the lion's share，不只是看到lion就照字面翻譯。",
+      "alt": "原有客源和Sam側部分顧客兩來源箭頭指向Tom，表示文中吸引更多生意，不畫精確人數、比例或未提供的攤位座標。"
+    },
+    {
+      "heading": "③ share在這裡是名詞份額",
+      "text": "the lion's share指最大、主要的一份，最符合C。B說喜歡分享，混淆share的另一種用法；D只說努力多賺錢，沒有表達分到最大份額的核心意思。",
+      "alt": "片語the lion's share下以大份額與其餘作定性示意，明示非本文精確比例，避免把未提供百分比寫成事實。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：拿到最大、主要的一份",
+    "points": [
+      "前因：Tom不滿足原先一半生意。",
+      "後果：移位後吸引另一側部分客人，份額變大。",
+      "share在此是份額，不是樂於分享。"
+    ]
+  },
+  "protectedWords": [
+    "Tom",
+    "Sam",
+    "50%",
+    "share",
+    "the lion's share",
+    "takes",
+    "lion"
+  ],
+  "rationale": "實看全文/四選項，沿C。新原生原先50/50精確條、客源流向與片語定性份額，讓讀者由前後文推義；不捏造移位後百分比、精確座標或全海灘客群分配，不重開已說明距離措辭問題。無來源AI圖。",
+  "promptSummary": "全新原生SVG原先50%/50%、Sam側部分顧客流向Tom、最大一份定性示意（非本文精確比例）；ASCII片語撇號，無人物表情或假比例統計。",
+  "answerCheckedAgainst": "原卷Tom不滿意原先50%、移到接近中央吸引Sam側部分客源、獲較多錢與第39題A–D；the lion's share最大主要一份，C不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-538-reading-source-4e5503d424.jpg",
+      "site/dist/assets/questions/q-538-source-d96888ac28.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見完整四段故事與全四選項；原文less than0.5與既有精確說明已知，本題片語不必重畫距離模型或重問已核定事項。"
+  },
+  "artSHA256": "a9a8039d8f9fb378068115daebee92ba3d96338f267aadf125ef8cab4c34e04f",
+  "completedAt": "2026-10-29T03:59:08.721760+00:00",
+  "checkedAt": "2026-10-29T03:59:08.721774+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-538-preview-validation.json",
+  "visualReview": "親見原卷完整四段故事及四選項、原生540×180與最終1440/390。原先50/50條同寬、客源箭頭只說Sam側部分，最大份額示意明註不是本文比例；不新增75%等精確市場模型或重開既有距離措辭。桌機同列等高/手機自然高，ASCII片語完整詞組換行無溢出裁切，C不變。"
+}

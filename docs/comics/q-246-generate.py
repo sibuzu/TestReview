@@ -1,0 +1,22 @@
+import json,datetime
+from pathlib import Path
+from xml.sax.saxutils import escape
+s=['<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">']
+def r(x,y,w,h,c='#faf8ee'):s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="7" fill="{c}" stroke="#b9cbbf"/>')
+def t(x,y,v,z=17,c='#2d4d3a'):s.append(f'<text x="{x}" y="{y}" font-family="Noto Sans CJK TC,sans-serif" font-size="{z}" text-anchor="middle" dominant-baseline="middle" fill="{c}">{escape(v)}</text>')
+for i in range(3):r(i*200+2,2,196,196)
+t(100,22,'接人前先問抵達時間',16)
+r(18,46,164,40,'#e6edf3');t(100,67,'Please tell me',20)
+s.append('<path d="M100 90V110M96 105L100 111L104 105" fill="none" stroke="#608a72" stroke-width="2"/>')
+r(18,123,164,50,'#dcebdc');t(100,147,'明天何時會抵達？',18)
+t(300,22,'陳述句語序',18)
+t(300,49,'when',18,c='#a16d47')
+r(218,67,164,35,'#e6edf3');t(300,85,'the train',21)
+r(218,111,164,35,'#dcebdc');t(300,129,'will arrive',21)
+t(300,174,'tomorrow',20)
+t(500,22,'先分清 when 的工作',16)
+r(418,44,164,59,'#e6edf3');t(500,62,'本題：何時？',17);t(500,86,'告知內容',19)
+r(418,119,164,60,'#f0e6d6');t(500,137,'對照：當……時',17);t(500,161,'交代做事時間',17)
+s.append('</svg>');Path('docs/comics/art/q-246.svg').write_text(''.join(s))
+x={'id':'q-246','subject':'English','title':'告知何時抵達：本題用will arrive','art':'docs/comics/art/q-246.svg','protectedWords':['when','will arrive','arrives','the train','tomorrow','Please tell me','間接問句','陳述句語序','固定時刻表'],'panels':[{'heading':'① 為明天接人，詢問何時抵達','text':'Please tell me後面是想知道的內容：火車明天何時會到，好去接人。依本題這個語境，用will arrive；不是把when解成當火車到達時才告知。','alt':'Please tell me連到明天何時會抵達的詢問內容，未畫未提供的班次時刻、精確日期或接人已完成。'},{'heading':'② 間接問句保留主詞在動詞前','text':'寫成when the train will arrive tomorrow。the train在will arrive前，是陳述句語序；不要改成when will the train arrive那種直接問句語序。','alt':'when後依序主詞the train、動詞will arrive、時間tomorrow，清楚主詞在前，不把疑問助動詞倒裝到主詞前。'},{'heading':'③ 不是看見when就一律禁止will','text':'若說I will call you when the train arrives，when表示當到站時，通常用現在式表未來。本題問何時抵達，功能不同；固定時刻表也可用arrives，不能一概判現在式錯。','alt':'本題何時的告知內容與對照當……時的時間關係分開卡片，不以遮掉子句後主句是否完整作唯一分類，也不否定時刻表現在式。'}],'fourth':{'answer':'答案 (2)：will arrive','points':['依本題接人、詢問未來抵達時間的語境。','間接問句用the train will arrive的順序。','arrives有固定時刻表用法，勿教成一律錯誤。']},'rationale':'完整116行無圖文字來源已讀，原模擬題兩選項(A)/(2)照留。此題will arrive為使用者已明確確認，本次不重開arrives情境；以新SVG分告知內容、陳述順序、when兩種功能，保留題庫時刻表補充，不照抄來源一律禁will或主句遮蔽判別的過度口訣。','originalMaterialsChecked':True,'originalMaterials':['site/dist/sources/gemini-fyel6OsEcUin.txt (entire 116-line text source; question at 98–105)'],'sourceUrl':'https://share.gemini.google/fyel6OsEcUin','sources':[{'url':'https://dictionary.cambridge.org/grammar/british-grammar/when','note':'官方搜尋結果完整列間接問句when ... will arrive及時間子句現在式表未來，僅記搜尋核對。'},{'url':'https://dictionary.cambridge.org/grammar/british-grammar/future-present-','note':'官方搜尋結果完整列固定時間表現在簡單式及train arrives例，僅記搜尋核對。'},{'url':'https://dictionary.cambridge.org/grammar/british-grammar/reported-speech-indirect-speech','note':'官方搜尋結果完整列間接疑問陳述語序subject+verb，僅記搜尋核對。'}],'generationMethod':'precise native SVG indirect-question content and subject-verb order contrasted with temporal-when function','answerCheckedAgainst':'使用者已確認接人語境以(2)will arrive，陳述語序the train will arrive，保留arrives時刻表可能及時間副詞when現在式補充，不再要求相同確認。','visualChecked':False,'layoutVersion':'native-fluid-v6','nativeLayout':{'width':'100%','height':'auto','artWidth':180,'fontSize':14,'equalColumnWidths':True,'equalHeightWithinRow':True,'independentRowHeights':True,'singleColumnNaturalHeight':True,'narrowSingleColumn':True},'createdAtUTC':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+Path('docs/comics/q-246.json').write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')

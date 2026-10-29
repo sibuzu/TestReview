@@ -1,0 +1,82 @@
+{
+  "id": "q-196",
+  "subject": "English",
+  "title": "不只看some，還要看of與tastes",
+  "art": "docs/comics/art/q-196-some.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:26:01.690349+00:00",
+  "panels": [
+    {
+      "heading": "① tastes的s是重要線索",
+      "text": "原句已有tastes sweet，tastes是第三人稱單數形式。Some指部分或一些，不能單靠這個字就認定主詞一定是複數。",
+      "alt": "新製tastes末s著色與單數/不可數提示，不讓some單獨決定單複數。"
+    },
+    {
+      "heading": "② A少了限定詞，不能直接填",
+      "text": "A填入會成為some of food。這個部分量結構不能直接接裸用的food；可另寫some food或some of the food，但原空格只有food。",
+      "alt": "新製some of food刪除線與兩個正確改寫分列，原題A仍照food，不偷偷補the。"
+    },
+    {
+      "heading": "③ it與原句動詞相配",
+      "text": "C的it可指某個單數或不可數整體，Some of it配tastes。B的noodles與D的them在此是複數，應配taste，和原句不合。",
+      "alt": "新製some of it/tastes與some of them/taste對照，noodles複數另註，不把beef誤當中心詞。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 不只看some，還要看of與tastes",
+    "answer": "答案 C：it",
+    "points": [
+      "Some of it tastes sweet.",
+      "A的food少限定詞，不能補字代選。",
+      "B、D在此配taste，原句卻是tastes。"
+    ]
+  },
+  "protectedWords": [
+    "tastes",
+    "taste",
+    "sweet",
+    "Some",
+    "some",
+    "Some of it",
+    "some of it",
+    "some of them",
+    "some of food",
+    "some food",
+    "some of the food",
+    "food",
+    "it",
+    "noodles",
+    "them",
+    "第三人稱",
+    "單數",
+    "複數",
+    "不可數",
+    "主詞",
+    "限定詞",
+    "部分量",
+    "原句",
+    "中心詞"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-196-source-5e019e8d41.jpg"
+  ],
+  "originalVisualCheck": "實看綜合5 Some of __ tastes sweet.四項food/the beef noodles/it/them，完整印刷詞形確認。",
+  "answerCheckedAgainst": "C it同時滿足some of受格代名詞結構與tastes單數一致；A缺限定詞，B/D複數。維持原C，不將食物可甜作判準。",
+  "rationale": "以動詞s、限定詞結構、代名詞數一致三步精確圖解，避免用食物畫面誤導選noodles；不採來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "singular": "some of it → tastes",
+    "plural": "some of them → taste",
+    "badOption": "some of food",
+    "rewrites": [
+      "some food",
+      "some of the food"
+    ]
+  },
+  "artSHA256": "81a0e38820ecdb9cf3c3097769d0c775b420d820694151a62f981893268cd84e",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:26:24.777582+00:00",
+  "completedAt": "2026-10-29T04:26:24.777582+00:00",
+  "layoutEvidence": "docs/comics/q-196-preview-validation.json",
+  "visualReview": "實看1440/1120/390，tastes的s著色、A結構缺詞與it/them動詞數皆一致；SVG詞塊無裁切、雙欄同列等高與手機自然高，無溢出。"
+}

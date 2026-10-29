@@ -1,0 +1,66 @@
+{
+  "id": "q-185",
+  "subject": "English",
+  "title": "Each逐一看每個人，動詞配has",
+  "art": "docs/comics/art/q-185.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-185-generate.py",
+  "startedAt": "2026-10-29T04:16:50.794355+00:00",
+  "panels": [
+    {
+      "heading": "① Each強調每一位，不把整群當複數核心",
+      "text": "Each of you是你們每一個人。雖然面對一群人，Each仍是逐一看每一位，主詞核心按單數處理；圖中三位僅示意，不是題目限定人數。",
+      "alt": "三個成員點各有獨立框並標一位，表示Each逐一看每個人而非只挑一位；不假定原題只有三個人。"
+    },
+    {
+      "heading": "② Each配has，of you只補範圍",
+      "text": "of you補充是哪一群人中的每一位，不會把核心Each變成複數。因此現在式用has，形成Each of you has to finish ...，不能只看離空格最近的you就選have。",
+      "alt": "綠色Each直接連向has，灰藍of you放在下方標範圍，分清主詞核心與修飾片語。"
+    },
+    {
+      "heading": "③ You作主詞時，才改配have",
+      "text": "比較Each of you has to finish ...與You have to finish ...。兩句主詞核心不同，所以動詞形式不同；has to或have to都表示必須，後面finish仍用原形。",
+      "alt": "Each...has to與You...have to兩張配對對照卡，限定本題you們語境，不將you的單複數推成動詞差別。"
+    }
+  ],
+  "fourth": {
+    "answer": "圈選has",
+    "points": [
+      "主詞核心Each，單數配has。",
+      "of you補充範圍，不決定動詞單複數。",
+      "has to finish表示必須完成，依原句在星期一完成作業。"
+    ]
+  },
+  "protectedWords": [
+    "Each",
+    "of you",
+    "Each of you",
+    "has to",
+    "have to",
+    "You",
+    "has",
+    "have",
+    "finish",
+    "Monday"
+  ],
+  "rationale": "實看原卷完整圈選句與have誤答，選has維持。新原生逐一成員圖、Each→has與of you分層、Each/You主詞配對，正面處理最靠近you干擾；三位點數僅示意、不變更on Monday為by Monday。無來源AI圖。",
+  "promptSummary": "新原生SVG各成員逐一一位、Each→has核心與of you範圍、Each has to/You have to對照。非人物故事或來源AI圖，不假設人數或截止日。",
+  "answerCheckedAgainst": "原卷Each of you(has;have)to finish your homework on Monday；核心Each單數，has to，現有詳解一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-185-source-9ba79a5a8f.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "has",
+    "notes": "親見完整原題與has/have圈選作答，原句是on Monday非by Monday，Each of you核心與修飾範圍分清。"
+  },
+  "artSHA256": "a527b10504a16868d335858d2892808b0f249fe754b7872b97ff9afc2b634dea",
+  "completedAt": "2026-10-29T04:18:48.672127+00:00",
+  "checkedAt": "2026-10-29T04:18:48.672142+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-185-preview-validation.json",
+  "visualReview": "親見原卷完整句與圈選has/have、原生540×180及最終1440/390。Each三示意成員各框逐一，非只挑一人；Each核心→has、of you灰藍範圍、You/have對照清楚。on Monday未改成提前截止；桌機同列等高/手機詞組自然排無裁切溢出，has不變。"
+}

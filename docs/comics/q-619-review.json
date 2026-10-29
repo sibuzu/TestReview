@@ -1,0 +1,23 @@
+{
+  "id": "q-619",
+  "subject": "English",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-29T03:15:08.488471+00:00",
+  "completedAt": "2026-10-29T03:16:19.288788+00:00",
+  "visualChecked": true,
+  "answerChecked": "are：Mark and Leo以and合成複數主詞。",
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "questionLines": "57–77",
+    "answerLines": "142–153",
+    "notes": "完整文字延伸基礎填空第三句與來源答案已讀；本來沒有原卷照片，非圖缺漏。"
+  },
+  "reason": "本題僅一步主詞與be動詞一致，既有短句已明示Mark和Leo兩人、and連接、複數用are。兩人物插畫只重現好朋友；兩圓點或括號→they→are的原生圖仍只是把同一句機械拆成四格，沒有額外可比較情境、空間關係或推理層次，四格將增加閱讀負擔，保留清楚的現有解說較合適。",
+  "consideredAlternatives": [
+    "兩個朋友的情境人物圖：只展示friends而非增加主詞一致判斷。",
+    "Mark＋Leo→they→are原生群組：可解釋但原有一句已完整說明，擴四格無新增辨識線索。"
+  ],
+  "sourceAIUsed": false,
+  "validation": "docs/comics/q-619-validation.json",
+  "visualReview": "正式頁只讀QA攔截全部Netlify函式、不操作個人標記；1440/1120/390預設答案收合、展開後答案全文正確且無橫向溢出。實際看1440與390截圖，短解說排版清楚，無圖缺漏，無需加漫畫。"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "q-214",
+  "subject": "Math",
+  "title": "共邊先求底角24°，移到F再用60°相減",
+  "art": "docs/comics/art/q-214.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-214-generate.py",
+  "startedAt": "2026-10-29T04:42:57.771596+00:00",
+  "panels": [
+    {
+      "heading": "① D點一周扣掉兩內角，得到132°",
+      "text": "兩正多邊形共用DE，所以CD＝DE＝DI。正五邊形在D的內角是108°，正六邊形是120°；D點剩下的∠CDI＝360°−108°−120°＝132°。",
+      "alt": "D局部三射線DC/DE/DI，三個等半徑扇形108/120/132度按實際角度構圖，合成一周，非任意圓餅比例。"
+    },
+    {
+      "heading": "② CD＝DI，△CDI的底角都是24°",
+      "text": "由共邊可知CD與DI等長，所以△CDI是等腰三角形。頂角132°，兩底角各為(180°−132°)÷2＝24°，特別記住∠DIC＝24°。",
+      "alt": "精確比例的鈍角等腰△CDI，頂132度/底各24度、兩腰有等長記號；沒有把扁三角任意拉高。"
+    },
+    {
+      "heading": "③ 將FG經F反向延長至X，再移角",
+      "text": "FX與ID同向平行，且FJ與IC同向平行，所以∠XFJ＝24°。正六邊形的FG∥DI，FX是FG的反向延長；∠XFE＝180°−120°＝60°。FJ在兩射線內，故∠JFE＝60°−24°＝36°。",
+      "alt": "F局部射線FE下左144度、FJ左180度、FX上左204度與FG右下24度，精確顯示FJ在60度外角內分24/36；不把EF誤作DI平行。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：36°",
+    "points": [
+      "共邊得CD＝DI，D點剩餘角132°。",
+      "等腰△CDI底角24°，移角到F。",
+      "真正平行的是FG與DI；60°−24°＝36°。"
+    ]
+  },
+  "protectedWords": [
+    "108°",
+    "120°",
+    "132°",
+    "24°",
+    "60°",
+    "36°",
+    "△CDI",
+    "∠CDI",
+    "∠DIC",
+    "∠XFJ",
+    "∠XFE",
+    "∠JFE",
+    "FG∥DI",
+    "CD＝DE＝DI"
+  ],
+  "rationale": "親見原卷與既有given渲染，沿已核對C。全新精確SVG D一周三角/鈍角等腰三角/F點同向平行三圖，獨立生成兩正多邊形等邊/角度/平行與射線順序驗證；明確FG∥DI而非EF。採局部放大避免180方全圖角標擁擠，不改必要作答圖。無人物或來源AI圖。",
+  "promptSummary": "新原生D局部108+120+132、△CDI頂132底24、F局部60被FJ分24+36。等比例真角度/同半徑角弧，非點陣重製原圖或來源AI解說圖。",
+  "answerCheckedAgainst": "原卷正五/正六共DE、JF∥CI、求JFE與A34 B35 C36 D37。獨立坐標驗證全部等邊、D132/I24/F60/24/36及FG∥DI、EF不平行DI，C不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-214-source-05cd94a846.jpg"
+    ],
+    "existingFiguresActuallyRendered": [
+      "site/dist/assets/questions/q-214-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "C 36°",
+    "notes": "親見完整原卷題文/四選項及共邊圖，現有given實際渲染查看；J在F左、CI水平，FX沿FG反方向，絕不翻轉FJ選錯補角。"
+  },
+  "geometryValidation": "docs/comics/q-214-geometry-validation.json",
+  "artSHA256": "0398775ab082abdc799dfa176f4731068b2950c91302e2008ffa0620f6bf6b2a",
+  "completedAt": "2026-10-29T04:49:16.818291+00:00",
+  "checkedAt": "2026-10-29T04:49:16.818302+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-214-preview-validation.json",
+  "visualReview": "親見原卷全題/A–D、既有given實際渲染，新原生540×180與最終1440/390實看。D一周三等半徑扇形、鈍角等腰△CDI真比例、F點射線144/180/204分36/24，點線標記無壓字。獨立驗證全部五/六邊角與邊長、9角度、FG∥DI但EF不平行DI、FJ內分角和及方向。桌機同列等高/手機自然高無裁切溢出，C36不變。"
+}

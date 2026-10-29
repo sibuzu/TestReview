@@ -1,0 +1,66 @@
+{
+  "id": "q-449",
+  "subject": "English",
+  "title": "一直說個不停，兩格都用talking",
+  "art": "docs/comics/art/q-449.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T03:29:28.714035+00:00",
+  "generationStartedAt": "2026-10-29T03:30:52.182Z",
+  "generationCompletedAt": "2026-10-29T03:31:36.609Z",
+  "generationMetadata": "docs/comics/q-449-generation.json",
+  "promptFile": "docs/comics/q-449-prompt.txt",
+  "panels": [
+    {
+      "heading": "① keep talking：持續說話",
+      "text": "Toby喜歡分享學校生活，所以一直說個不停。keep後接V-ing，第一格用talking；不是keep to talk。圖中是分享談話的示意，沒有替原題編造特定學校事件。",
+      "alt": "虛構Toby在校園座椅上熱情分享，兩位同學友善傾聽，表示持續談話的情境，不含文字或額外事件。"
+    },
+    {
+      "heading": "② can't stop talking：無法停止說話",
+      "text": "stop V-ing表示停止做某事，加上can't，就成為無法停止做某事。Toby還在繼續分享，因此第二格也是talking，不是表示停下別的事去說話。",
+      "alt": "同一段談話稍後的近景，Toby仍開心說話、同學持續聽，搭配HTML解釋不能停止，不畫被迫噤聲或疾病。"
+    },
+    {
+      "heading": "③ stop to talk：停下別的活動去說話",
+      "text": "看右圖的另設對照：原本在讀書，先停下閱讀，再轉向朋友說話，可用stop to talk描述。這不是原題交代的事件，而是用來區分to talk與talking的不同意思。",
+      "alt": "另設對照情境，Toby放下無字書本轉身與朋友交談，書仍攤在桌上；不把閱讀事件冒稱原題事實。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：talking；talking",
+    "points": [
+      "keep talking＝持續說。",
+      "can't stop talking＝無法停止說話。",
+      "stop to talk＝停下原本活動，去說話；意思不同。"
+    ]
+  },
+  "protectedWords": [
+    "Toby",
+    "keep talking",
+    "talking",
+    "stop V-ing",
+    "can't stop",
+    "stop to talk",
+    "to talk"
+  ],
+  "rationale": "實看原卷完整對話與四選項，C不變。全新內建imagegen三情境，持續談話/仍在分享/停下閱讀去說話的對照，HTML負責精確V-ing與不定詞語義。第三圖明示另設例子，不添加到原題；無來源AI圖、情緒/疾病臆測或迫停情節。",
+  "promptSummary": "全新無字三方情境：一致虛構Toby與友人分享；稍後繼續談話；另設對照放下書本去說話。180方圖由CSS搭HTML精確文法，ASCII撇號。",
+  "answerCheckedAgainst": "原卷Why does Toby keep___/He can't stop___because he likes to share school life與全部A–D；keep V-ing與can't stop V-ing兩格talking，C。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-449-source-8015683c64.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "實看完整原卷對話、分享學校生活原因與四選項C兩格talking；第二圖非停下談話，第三停下閱讀為明示延伸對照，未更改原題。"
+  },
+  "artSHA256": "f9645b56601c492d968d9df11daf82b1b62804837f6c0ad9c4f1188b1db4f822",
+  "completedAt": "2026-10-29T03:32:21.901323+00:00",
+  "checkedAt": "2026-10-29T03:32:21.901335+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-449-preview-validation.json",
+  "visualReview": "實看原卷全對話/四選項、2172×724新原生輸出與最終1440/390成品。Toby造型三格一致，前兩格持續說/同學傾聽，第三有攤開無字書本並轉向朋友，HTML明示另設語義對照。圖片無字、人物手部與裁切正常；桌機同列等高，手機文字自然換行無溢出，C兩格talking一致，ASCII撇號清楚。"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "q-448",
+  "subject": "English",
+  "title": "兩個搭配都接V-ing，別漏mopping的雙p",
+  "art": "docs/comics/art/q-448-ing.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:30:48.822025+00:00",
+  "panels": [
+    {
+      "heading": "① be busy＋V-ing：忙著做",
+      "text": "說話者正忙著清地板，be busy後接V-ing。clean加ing成為cleaning，第一格填cleaning，排除A、B。",
+      "alt": "原生SVGbe busy+V-ing套入busy cleaning的詞塊，正確補語結構與原動詞對應；非只用情境猜答案。"
+    },
+    {
+      "heading": "② finish＋V-ing：做完某事",
+      "text": "對方願意等待，直到說話者拖完地。finish後也接V-ing，所以用finish mopping；D的to mop不合這裡的結構。",
+      "alt": "原生SVGfinish+V-ing套入finish mopping，第二格與第一格分別檢查，不能只對其中一格就作答。"
+    },
+    {
+      "heading": "③ mop先重複p，再加ing",
+      "text": "mop是短母音加單一子音結尾的單音節字，接ing時重複p，寫成mopping。兩格依序是cleaning、mopping，C才都正確。",
+      "alt": "原生SVGmop+p+ing→mopping並突出pp，新增p為拼字操作不是新單字或獨立原題內容。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 兩個搭配都接V-ing，別漏mopping的雙p",
+    "answer": "答案 C：cleaning；mopping",
+    "points": [
+      "be busy doing：忙著做。",
+      "finish doing：做完某事。",
+      "mop → mopping；clean → cleaning。"
+    ]
+  },
+  "protectedWords": [
+    "be busy",
+    "V-ing",
+    "clean",
+    "cleaning",
+    "mop",
+    "mopping",
+    "finish",
+    "finish mopping",
+    "to mop",
+    "to clean",
+    "單音節",
+    "短母音",
+    "單一子音",
+    "第一格",
+    "第二格",
+    "單音節字",
+    "mop先重複p",
+    "重複p"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-448-source-c1d23e8017.jpg"
+  ],
+  "originalVisualCheck": "實看35題完整作業請求/清地板/等待對話與四個雙空選項；原黑B紅C，兩格分別cleaning/mopping，沒有改寫until時態或原題。",
+  "answerCheckedAgainst": "be busy V-ing、finish V-ing獨立核對；mop雙寫p後加ing，clean直接加ing，答案C。只解本題補語，不延伸不必要英美語域分支。",
+  "rationale": "兩格各用結構→實例、第三格放mopping雙p拼字，原生SVG的詞塊對應比重複清潔人物圖更能避免第一格to clean及漏寫p兩個錯誤。所有英文拼字HTML/SVG均程式控制，不採來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "slot1": "busy cleaning",
+    "slot2": "finish mopping",
+    "spelling": [
+      "mop+p+ing=mopping",
+      "clean+ing=cleaning"
+    ],
+    "elimination": "A/B第一格錯，D第二格錯，C兩格皆對"
+  },
+  "artSHA256": "96b53fca6a9d1428728575a3b1603784cb98b0b77ad8ec1fa8d5f6ea613d9092",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:32:21.371741+00:00",
+  "completedAt": "2026-10-29T03:32:21.371741+00:00",
+  "layoutEvidence": "docs/comics/q-448-preview-validation.json",
+  "visualReview": "實看1440/1120/390：兩格公式分別套入cleaning/mopping，mop+p+ing與mopping的pp正確、無裁字。手機單音節字/重複p已保護不孤行；主要英文片語完整，桌面同列等高、單欄自然高，無橫溢。"
+}

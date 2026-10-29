@@ -1,0 +1,76 @@
+{
+  "id": "q-630",
+  "subject": "English",
+  "title": "整件活動當主詞，不讓friends搶走焦點",
+  "art": "docs/comics/art/q-630-subject.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:25:12.736922+00:00",
+  "panels": [
+    {
+      "heading": "① 把完整主詞一起框起來",
+      "text": "Playing basketball with friends指和朋友打籃球這件事。這整個動名詞片語才是主詞，不是單看其中的朋友有幾位。",
+      "alt": "原生SVG把Playing basketball與with friends納入同一主詞框與括線，精確表示整個活動片語，不以球員人數當主詞數。"
+    },
+    {
+      "heading": "② friends靠近空格，也不是主詞",
+      "text": "with friends說明和誰一起活動。friends是with後的對象，不是主詞；不能只看這個複數名詞，就選are。",
+      "alt": "原生SVGwith friends及錯誤friends→are連結叉號，朋友複數不控制本句主詞動詞一致。"
+    },
+    {
+      "heading": "③ 本句活動片語視為單數",
+      "text": "動名詞片語作主詞，本句視為單數，因此選is。am用於I；原形be也不能在這句單獨當現在式述語，D不合。",
+      "alt": "原生SVG動名詞片語本句單數→is流程，語法規則由HTML再次完整說明，未生成虛構題目選項。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 整件活動當主詞，不讓friends搶走焦點",
+    "answer": "答案 A：is",
+    "points": [
+      "完整主詞：Playing basketball with friends。",
+      "句意：放學後和朋友打籃球很有趣。",
+      "先找完整主詞，再決定be動詞。"
+    ]
+  },
+  "protectedWords": [
+    "Playing basketball",
+    "with friends",
+    "friends",
+    "動名詞片語",
+    "完整主詞",
+    "主詞",
+    "複數",
+    "單數",
+    "現在式",
+    "述語",
+    "配對",
+    "are",
+    "am",
+    "be",
+    "is",
+    "複數名詞",
+    "活動片語"
+  ],
+  "originalAssets": [],
+  "originalTextSource": "docs/sources/gemini-0KrY8NZ0TTP2.json",
+  "originalVisualCheck": "本題為來源純文字延伸進階選擇第2題，無原卷照片；已讀原句Playing basketball with friends ___ fun after school與Ais/Bare/Cam/Dbe四選項。",
+  "answerCheckedAgainst": "完整動名詞片語作主詞在本句單數is，with後friends不是控制動詞的主詞；來源A與獨立句構分析相符。",
+  "rationale": "原生詞組框/干擾名詞連結/單數→is三步直接展示句構，比籃球人物圖能更精確避免看見多人就誤選are。全新程式圖，不採來源AI解說圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "subject": "Playing basketball with friends",
+    "distractor": "friends",
+    "agreement": "完整活動動名詞片語本句單數→is",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ]
+  },
+  "artSHA256": "f48b33dd5da77c97ae2beec0604ce1e51c70a972ed83475ae3e834a01450bd24",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:26:15.972376+00:00",
+  "completedAt": "2026-10-29T03:26:15.972376+00:00",
+  "layoutEvidence": "docs/comics/q-630-preview-validation.json",
+  "visualReview": "實看1440/1120/390：完整主詞框涵括Playing basketball with friends，friends→are錯配明確叉號、本句單數→is清楚。所有詞塊在圖框內，HTML英文短語完整、無單字孤行，桌面同列等高/手機自然高，無橫溢。"
+}

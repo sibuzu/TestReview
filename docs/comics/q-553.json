@@ -1,0 +1,82 @@
+{
+  "id": "q-553",
+  "subject": "English",
+  "title": "點心用snack，別和甜的混成一格",
+  "art": "docs/comics/art/q-553.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:43:55.267759+00:00",
+  "panels": [
+    {
+      "heading": "① snack：少量點心，不必是甜食",
+      "text": "snack常指兩餐之間吃的少量食物。放學後的一點米餅、水果等，也能是snack；點心不必都甜，更不等於只有糖果。",
+      "alt": "新製放學後少量飯糰/餅類點心例，未畫成完整正餐或糖果，食物僅詞義例子非營養建議。"
+    },
+    {
+      "heading": "② dessert：重點在餐後甜點",
+      "text": "dessert指一餐之後吃的甜點，像餐後的一小碗紅豆湯。不限定西式甜點，也不能直接把所有點心都當成dessert。",
+      "alt": "新製用餐結束後端上少量紅豆湯的例子，特意不只畫西式蛋糕，配餐後情境而非所有點心通稱。"
+    },
+    {
+      "heading": "③ sweet：這張表另有甜的一格",
+      "text": "原卷第二頁另列甜的，填sweet。The cake is sweet.是在說蛋糕的味道；這格問點心的名詞，應填snack。",
+      "alt": "新製蛋糕甜味的語意例，形容味道由HTML說明，不用圖上生成英文，也不教sweet在所有語境只能作形容詞。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 點心用snack，別和甜的混成一格",
+    "answer": "參考答案：snack",
+    "points": [
+      "snack看少量點心；dessert看餐後甜點。",
+      "sweet在這張學習單對應甜的。",
+      "同一種食物可能符合不同描述，詞義仍要分清。"
+    ]
+  },
+  "protectedWords": [
+    "snack",
+    "dessert",
+    "sweet",
+    "甜的",
+    "少量食物",
+    "兩餐之間",
+    "西式甜點",
+    "餐後甜點",
+    "紅豆湯",
+    "The cake is sweet.",
+    "名詞",
+    "第二頁",
+    "形容詞"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-553-source-b89d0401a4.jpg",
+    "site/dist/assets/originals/gemini-b8VZTLt8yLVK-1.jpg",
+    "site/dist/assets/originals/gemini-b8VZTLt8yLVK-2.jpg"
+  ],
+  "originalVisualCheck": "實看單格點心寫sweet與Food&Drinks兩張完整原卷，第一頁點心、第二頁甜的/sweet、糖suger及食物表，僅本題點心格製作，不新增其他題。",
+  "answerCheckedAgainst": "本表點心以snack最合，sweet另對甜的形容詞欄；Cambridge美式詞典snack/dessert/sweet主義核對。snack常為餐間/少量，不說絕對只能餐間；dessert不限定西式。",
+  "rationale": "新製鹹點心/餐後臺式紅豆湯/甜味蛋糕三景，讓使用情境與味道分開，不把三詞畫成互斥食物分類；全部文字HTML可校對，不採來源AI解說圖。",
+  "promptPath": "docs/comics/q-553-prompt.txt",
+  "generationCalls": 1,
+  "sourceChecks": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/snack",
+      "supports": "small amount of food, especially between meals，不把尤其誤教成排他條件",
+      "access": "官方美式詞典搜尋索引可核對定義；直接端點403，不稱讀到完整頁。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/dessert",
+      "supports": "餐後甜點，無限定西式",
+      "access": "官方美式詞典搜尋索引可核對定義；直接端點403，不稱讀到完整頁。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/sweet",
+      "supports": "味道甜的形容詞義，依本表另格作區分，不延伸跨語域",
+      "access": "官方美式詞典搜尋索引可核對定義；直接端點403，不稱讀到完整頁。"
+    }
+  ],
+  "artSHA256": "77d2082d9e44ec0565f5d276f639d2e9c05aa2a6d8417539ac78769076c23c74",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:45:54.382710+00:00",
+  "completedAt": "2026-10-29T03:45:54.382710+00:00",
+  "layoutEvidence": "docs/comics/q-553-preview-validation.json",
+  "visualReview": "實看新三景與1440/1120/390：餐間少量飯糰/米餅非糖果，紅豆湯與空餐碗呈餐後甜點且非只西式，蛋糕甜味對形容詞例。文案保留詞義可重疊，不作互斥分類。英文與紅豆湯詞完整，無橫溢，桌面同列等高、手機自然高。"
+}

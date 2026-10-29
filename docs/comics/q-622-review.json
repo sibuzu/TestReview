@@ -1,0 +1,23 @@
+{
+  "id": "q-622",
+  "subject": "English",
+  "decision": "not_suitable",
+  "startedAt": "2026-10-29T03:17:11.524611+00:00",
+  "completedAt": "2026-10-29T03:18:14.504374+00:00",
+  "visualChecked": true,
+  "answerChecked": "are：These books已明示複數。",
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "questionLines": "69–78",
+    "answerLines": "150–160",
+    "notes": "已讀基礎填空第六句These books及are來源解答；原本為完整文字練習而非缺圖。"
+  },
+  "reason": "These與books兩處均直接標明複數，本題只需複數主詞配are。畫一疊沉重書本會轉移注意到heavy重量，並非用來選be動詞；原生句框或與This book比較雖能複習規則，但沒有解開本題額外干擾，現有短解說已明確分開主詞複數與形容詞heavy不變。無需為一句規則擴成四格。",
+  "consideredAlternatives": [
+    "沉重書堆情境：顯示heavy，不新增複數一致的辨識步驟。",
+    "This book/These books的原生對照：額外延伸例句，對本題現有明確複數規則無必要，保留短解說較精簡。"
+  ],
+  "sourceAIUsed": false,
+  "validation": "docs/comics/q-622-validation.json",
+  "visualReview": "正式頁1440/1120/390只讀QA，Netlify函式已攔截，不操作個人標記。實看1440與390短解說，預設收合/答案are、These books與heavy說明正確，無溢出或缺圖。"
+}

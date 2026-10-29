@@ -1,0 +1,90 @@
+{
+  "id": "q-216",
+  "subject": "Math",
+  "title": "摺線分出55°與33°，餘角92°",
+  "art": "docs/comics/art/q-216-fold.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:46:11.941685+00:00",
+  "panels": [
+    {
+      "heading": "① E點的110°被摺線平分",
+      "text": "摺前右上角暫記D₀，摺入後記D。ED平行AB，配合A、E、D₀共線，可得∠D₀ED＝110°。EF平分摺前後紙邊的角，所以∠DEF＝55°。",
+      "alt": "新製E局部圖原紙邊ED0虛線與新紙邊ED實線，以EF反射兩側55度，D0只是摺前頂點新名。"
+    },
+    {
+      "heading": "② F點的66°也分成兩半",
+      "text": "FD平行CB，C、F、D₀共線，所以∠D₀FD＝66°。同樣利用摺疊對稱，EF把66°分成兩個33°，得到∠EFD＝33°。",
+      "alt": "新製F局部圖FD0虛線與FD實線夾66度，FE介於兩者，兩個33度角域清楚分開。"
+    },
+    {
+      "heading": "③ 三角形內角和求D角",
+      "text": "△DEF已有E角55°與F角33°，剩下D角為92°。摺疊不改變角度，摺入的D角與摺前D₀角相同。",
+      "alt": "新製精確55/33/92度△DEF，D角92接近但大於直角，不畫直角記號，不混淆原四邊形的A/C角。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 摺線分出55°與33°，餘角92°",
+    "answer": "答案：92°",
+    "points": [
+      "110°÷2＝55°；66°÷2＝33°。",
+      "180°−55°−33°＝92°。",
+      "摺線平分相應紙邊的夾角，摺前後D角不變。"
+    ]
+  },
+  "protectedWords": [
+    "摺線",
+    "摺前",
+    "摺入",
+    "摺疊",
+    "紙邊",
+    "平行",
+    "共線",
+    "平分",
+    "三角形",
+    "內角和",
+    "△DEF",
+    "∠D₀ED",
+    "∠D₀FD",
+    "∠DEF",
+    "∠EFD",
+    "D₀",
+    "110°",
+    "66°",
+    "55°",
+    "33°",
+    "92°",
+    "180°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-216-source-62461bf79c.jpg"
+  ],
+  "originalVisualCheck": "實看12題完整A110/C66，DE∥AB、DF∥BC、摺前圖一及摺後圖二；D在摺入三角形左下，E/F摺線端點確認。讀after.svg核對反射局部射線。",
+  "answerCheckedAgainst": "E原/新紙邊方向-22與88，共110由EF33平分55；F原/新方向246與180，共66由FE213平分33。△DEF餘92，維持既有92。",
+  "rationale": "以兩個摺線局部放大分角再回△DEF，讓110/66為何各除2可視化；精確反射SVG，不畫人物，不採來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "E": {
+      "whole": 110,
+      "halves": [
+        55,
+        55
+      ]
+    },
+    "F": {
+      "whole": 66,
+      "halves": [
+        33,
+        33
+      ]
+    },
+    "D": 92,
+    "triangleSum": 180,
+    "originalVertexRename": "D0 prior to fold"
+  },
+  "artSHA256": "74ba9afb51755aae8afa2c618ded464f55f95640556f5efc6a11653033405b7a",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:46:39.593233+00:00",
+  "completedAt": "2026-10-29T04:46:39.593233+00:00",
+  "layoutEvidence": "docs/comics/q-216-preview-validation.json",
+  "visualReview": "實看1440/1120/390：E的55/55與F的33/33分置摺線兩側，原ED0/FD0虛線、新ED/FD實線清楚；△DEF92角未畫直角記號。桌面同行等高、手機自然高，字圖無溢出。"
+}

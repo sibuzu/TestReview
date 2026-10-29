@@ -1,0 +1,22 @@
+import json,datetime
+from pathlib import Path
+from xml.sax.saxutils import escape
+s=['<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200"><defs><marker id="a" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#548362"/></marker></defs>']
+def rect(x,y,w,h,fill='#faf8ee',r=7):s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="{fill}" stroke="#b8c9bd"/>')
+def t(x,y,st,size=17,c='#294b38',weight=500):s.append(f'<text x="{x}" y="{y}" text-anchor="middle" dominant-baseline="middle" font-family="Noto Sans CJK TC,sans-serif" font-size="{size}" fill="{c}" font-weight="{weight}">{escape(st)}</text>')
+for i in range(3):rect(i*200+2,2,196,196)
+rect(14,15,172,30,'#e3edf2');t(100,30,'1880年代＋雞籠',18)
+s.append('<path d="M25 90L37 65L56 61L72 76L87 67L105 91Z" fill="#4b5352" stroke="#303e38" stroke-width="2"/><path d="M120 96L132 111H176L188 96Z" fill="#5b8095"/><path d="M134 76H174V96H134Z" fill="#d0d8d8"/><path d="M148 62H160V77H148Z" fill="#5f6b70"/><path d="M153 60Q142 44 130 53" fill="none" stroke="#a4aaa7" stroke-width="4"/>')
+t(62,113,'煤礦',15);t(154,126,'軍艦燃煤',14)
+rect(15,151,170,32,'#e2eddf');t(100,167,'清法戰爭',21,weight=700)
+t(300,19,'分開兩個事件',17,weight=700)
+rect(213,37,174,60,'#f1e5d4');t(300,53,'1874 牡丹社事件',15);t(300,79,'後續：億載金城等',15,c='#956b42')
+rect(213,112,174,69,'#e2eddf');t(300,129,'1884～1885',17);t(300,149,'清法戰爭',17);t(300,170,'戰後：決定建省',15,c='#3c7d54')
+t(500,21,'1885 決定建省',20,weight=700)
+s.append('<path d="M442 69L500 45L558 69Z" fill="#91b194" stroke="#4a7956" stroke-width="2"/><path d="M445 70H555V79H445Z" fill="#d9e5d3"/>')
+for x in [454,479,504,529]:s.append(f'<rect x="{x}" y="80" width="13" height="48" fill="#acc5a8" stroke="#62886a"/>')
+s.append('<path d="M440 130H560V141H440Z" fill="#8aa889"/><path d="M434 142H566V150H434Z" fill="#b3c7aa"/>')
+t(500,176,'行政層級提升',19,c='#367e53',weight=700)
+s.append('</svg>');Path('docs/comics/art/q-577.svg').write_text(''.join(s))
+spec={'id':'q-577','subject':'History','title':'1880年代清法戰爭，戰後對應臺灣建省','art':'docs/comics/art/q-577.svg','protectedWords':['雞籠','煤礦','清法戰爭','牡丹社事件','億載金城','臺灣建省','1880年代','1884～1885','1885','1874','行政層級'],'panels':[{'heading':'① 合併三個線索，先辨識事件','text':'1880年代、雞籠煤礦、避免敵軍取得燃煤，合起來指向1884～1885年的清法戰爭。煤炭是當時軍艦的重要燃料，但不把煤礦當成戰爭唯一成因。','alt':'題幹年代地點卡搭配煤塊與概念蒸汽軍艦符號，辨識清法戰爭；不是特定戰艦或實景復原。'},{'heading':'② 不能只看到防衛，就選任何建設','text':'1874年牡丹社事件後，清廷推動較早的防務與治理措施，億載金城也與此相關。本題線索在1880年代，要另找清法戰爭後對臺政策的改變。','alt':'分開事件卡：1874牡丹社事件與後續億載金城，1884至1885清法戰爭與戰後建省；分組順序非同尺度時間軸。'},{'heading':'③ 回答政策改變：改建為省','text':'清法戰爭使清廷更重視臺灣的戰略地位，於1885年決定建省，提升行政層級，對應D。題目問的是戰後政策，不是把1876年建官礦再當答案。','alt':'1885決定建省及行政層級提升文字，通用行政建築符號不冒充當年巡撫衙門實際建物，不假稱全面建制同年完成。'}],'fourth':{'answer':'答案 D：改建為省，提升行政層級','points':['1880年代、雞籠煤礦，對應清法戰爭。','與1874牡丹社事件後的防務措施分開。','1885決定建省，不把籌設與全部完成混成一時點。']},'rationale':'實看原卷第20題全文與四選項，讀原AI本題段落。淡水古蹟博物館正文核對煤為軍艦燃料及1884基隆戰事、臺灣文獻館官方搜尋摘要及林務局誌正文核對1885建省、臺南市官方頁／公報摘要核對億載金城與1874事件。新原生SVG以線索及事件政策比較，避免生成不實毀礦場面或建築；不重開原題1876／毀煤數量，保留D。','originalMaterialsChecked':True,'originalMaterials':['site/dist/assets/questions/q-577-source-ccdd11ae90.jpg','site/dist/sources/gemini-EIL6o38enzRm.txt lines 168–183'],'sourceUrl':'https://share.gemini.google/EIL6o38enzRm','sources':[{'url':'https://www.tshs.ntpc.gov.tw/xmdoc/cont?sid=0K258527866884050217&xsmsid=0K255571641497878724','note':'實讀正文106–110行，煤為軍艦動力、1884基隆戰事及煤礦處置。'},{'url':'https://www.th.gov.tw/CP/104/176/','note':'官方搜尋摘要載1874開山治理、1885建省；直接頁面只回傳sys-root外殼，未冒稱全文可讀。'},{'url':'https://www.forest.gov.tw/0001243','note':'實讀正文375行載1885分省並區分1887實際建省說；只採決定建省層次，不照搬其周邊其他不一致年代。'},{'url':'https://medicaltour-tainan.tncghb.gov.tw/travel/jp/138/','note':'臺南市官方日文頁首段實讀1874沈葆楨防務；億載金城關聯在官方搜尋摘要核對，後續find回403，不冒稱完整該段可讀。'},{'url':'https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031174/ch05/type3/gov46/num11/Eg.htm','note':'官方公報搜尋摘要核對億載金城因應1874事件；直接正文403，不冒稱全文可讀。'}],'generationMethod':'precise native SVG clue grouping and event-policy chronology','answerCheckedAgainst':'1884～1885清法戰爭後1885決定臺灣建省D；1874牡丹社後億載金城較早，不能混用。','visualChecked':False,'layoutVersion':'native-fluid-v6','nativeLayout':{'width':'100%','height':'auto','artWidth':180,'fontSize':14,'equalColumnWidths':True,'equalHeightWithinRow':True,'independentRowHeights':True,'singleColumnNaturalHeight':True,'narrowSingleColumn':True},'createdAtUTC':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+Path('docs/comics/q-577.json').write_text(json.dumps(spec,ensure_ascii=False,indent=2)+'\n')

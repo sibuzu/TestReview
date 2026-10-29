@@ -1,0 +1,72 @@
+{
+  "id": "q-002",
+  "subject": "English",
+  "title": "Amber看圖寫作：先寫原因，再寫結果與反思",
+  "art": "docs/comics/art/q-002.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T04:29:19.059090+00:00",
+  "generationStartedAt": "2026-10-29T04:32:40.611Z",
+  "generationCompletedAt": "2026-10-29T04:33:03.639Z",
+  "generationMetadata": "docs/comics/q-002-generation.json",
+  "promptFile": "docs/comics/q-002-prompt.txt",
+  "panels": [
+    {
+      "heading": "① 前一晚熬夜玩遊戲，沒準備考試",
+      "text": "The night before the exam, Amber played video games until very late and did not study. 先交代時間與原因；played video games概括玩遊戲，prepare for an exam是為考試準備。",
+      "alt": "全新虛構Amber深夜在桌邊玩非暴力無字遊戲，閉合課本擱旁；造型不同於原卷，僅說明相同事件，不替換作答原圖。"
+    },
+    {
+      "heading": "② 隔天疲倦，考試無法專心",
+      "text": "The next morning, she felt very tired and could not focus on the test. felt與could表過去；先依圖中打呵欠，寫疲倦、不專心這個結果。",
+      "alt": "同一Amber隔天在考試桌前打呵欠、仍握筆，沒有畫已經睡著；描述原圖可見的疲倦。"
+    },
+    {
+      "heading": "③ 收卷時還沒寫完，把前後事件連起來",
+      "text": "When the teacher asked everyone to hand in their papers, Amber had not finished hers. When連接老師收卷的時刻；hers代Amber的考卷。",
+      "alt": "老師平靜收其他人的卷，Amber握筆面對未完成的卷驚慌；沒有編造處罰、分數或試卷答案。"
+    }
+  ],
+  "fourth": {
+    "answer": "結尾示例：She regretted staying up late and promised herself that she would prepare well next time.",
+    "points": [
+      "上面三句加本格結尾，可連成60字的參考段落，超過50字。",
+      "主線採過去敘事；When連接收卷時刻，前後指涉要清楚。",
+      "可用後悔與下次改善作合理結尾；regretted staying up late直接接動名詞。"
+    ]
+  },
+  "protectedWords": [
+    "Amber",
+    "video games",
+    "prepare for",
+    "felt",
+    "could not",
+    "hand in",
+    "hers",
+    "regretted",
+    "staying up late",
+    "next time",
+    "When"
+  ],
+  "rationale": "實看原卷完整提示/三圖及保留寫作內容，依使用者要求英文綜合分類不改。新內建imagegen三情境＋另一份可成立60字段落：原因/可見疲倦/收卷未完成，再加合理反思。中圖原卷在打呵欠，故新圖與本份範例不強判睡著；開放寫作範文不取代既有參考答案，未改題。無來源AI圖。",
+  "promptSummary": "全新無字三方敘事：深夜遊戲、考場打呵欠仍醒、收卷未完驚慌。HTML四句可連成60字參考段落，無假日期/分數或AI重建原卷；手部/人物一致性實看。",
+  "answerCheckedAgainst": "原卷至少50字、Amber段考前晚熬夜、第二圖打呵欠、第三收卷未完。新範例完整四句60英文詞，過去敘事與因果/代詞/動詞搭配正確，為開放寫作另一範例非唯一答案。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-002-source-1-3fa7f56396.jpg",
+      "site/dist/assets/questions/q-002-prompt.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "開放寫作：至少50字的合理三圖段落",
+    "notes": "親見題目二完整提示與三圖，深夜遊戲/隔天打呵欠/收卷未完；新圖保持醒著打呵欠，不把睡著當原圖已證明事件。原卷日期鐘點不在新圖編造，反思是可加的合理結尾。"
+  },
+  "artSHA256": "7c04bf2b4d117d8ece9af73268017cb81a007a7ed7fa18a8d96998237705c763",
+  "writingValidation": "docs/comics/q-002-writing-validation.json",
+  "completedAt": "2026-10-29T04:36:37.825471+00:00",
+  "checkedAt": "2026-10-29T04:36:37.825483+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-002-preview-validation.json",
+  "visualReview": "親見原卷完整至少50字提示與三圖、新2172×724無字圖及最終1440/390。Amber造型一致、夜間遊戲→打呵欠考試→收卷未完，無假分數/日期；中圖依可見疲倦未硬畫睡著。四句另作可成立寫作範例經空白計詞16+14+15+15=60，反思標結尾示例。桌機同列等高/手機每格自然高，英文詞組無溢出裁切。"
+}

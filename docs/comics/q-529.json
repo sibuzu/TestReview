@@ -1,0 +1,98 @@
+{
+  "id": "q-529",
+  "subject": "English",
+  "title": "H日報告：改道、準備與數字分開讀",
+  "art": "docs/comics/art/q-529-hday.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:49:29.620919+00:00",
+  "panels": [
+    {
+      "heading": "① 靠左改靠右，不是車內座位",
+      "text": "報告說瑞典在1967年9月3日改成靠右行駛，以前靠左。right hand side在此指行駛的道路側，不是在問方向盤裝哪邊。",
+      "alt": "精確SVG俯視雙向道路：以前向上在左/向下在右，之後反轉。左右依各車行進方向判定，不畫車內方向盤或重現原歷史街道。"
+    },
+    {
+      "heading": "② 83%不贊成，政府仍做準備",
+      "text": "1955年投票，83%不贊成這個想法。報告另說政府花四年宣導、換路標等；spent four years telling是花四年做宣導，不是四年前只說一次。",
+      "alt": "原生SVG1955投票83%不贊成與花四年宣導兩塊，未把剩餘17%都標贊成，也未把1955至1967全畫成四年。"
+    },
+    {
+      "heading": "③ 157小事故，不是零事故",
+      "text": "原文說當天157起小事故、無人死亡，別把兩種數量混在一起。最後Maybe推測大家開得更小心；不是證明改道必然降低事故。",
+      "alt": "原生SVG分開157起小事故/0死亡與Maybe推測，不偽造事故曲線、未給的年度數字或把相關當因果證明。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ H日報告：改道、準備與數字分開讀",
+    "answer": "1967年9月3日：靠左改為靠右",
+    "points": [
+      "busy taking down...and putting up...：忙著拆下及裝上。",
+      "To everyone's surprise：令大家驚訝。",
+      "Maybe是推測，不等於已證明唯一原因。"
+    ]
+  },
+  "protectedWords": [
+    "H日",
+    "瑞典",
+    "1967年9月3日",
+    "靠左",
+    "靠右",
+    "right hand side",
+    "方向盤",
+    "1955年",
+    "83%",
+    "不贊成",
+    "路標",
+    "四年宣導",
+    "spent four years telling",
+    "157起",
+    "小事故",
+    "無人死亡",
+    "Maybe",
+    "推測",
+    "taking down",
+    "putting up",
+    "To everyone's surprise"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-529-source-a1306a5937.jpg"
+  ],
+  "originalVisualCheck": "實看完整History Report四節與空白teacher comments欄，1955/83%不贊成/四年宣導/1-6am作業/5am宣布/157小事故/零死亡/1967vs1965/Maybe推測逐段核對，沒有正式28/29題設問。",
+  "answerCheckedAgainst": "原需求白話全文中譯，非新選擇題；數字與語法依原報告讀。改靠右日期方向由瑞典官方博物館/Stockholm歷史資料交叉核對；未據此重寫原文其餘數字或推論唯一因果。",
+  "rationale": "精確道路方向/讀數據/Maybe推測SVG比隨機汽車人物圖更能處理right hand side與事故死亡誤讀；不用imagegen決定駕駛車道，也不把車內方向盤與道路方向混在一起。",
+  "generationCalls": 0,
+  "sourceChecks": [
+    {
+      "url": "https://www.statensmuseermtf.se/vara-museer-och-samlingar/vara-samlingar/transporthistoria/vaghistoriska-samlingarna/trafikhistoria/hogertrafik",
+      "supports": "瑞典官方道路歷史館藏說明1967/9/3改靠右",
+      "access": "已開啟官方道路歷史全文，日期另與Stockholm專題交叉核對。"
+    },
+    {
+      "url": "https://stockholmskallan.stockholm.se/teman/stockholmshandelser/hogertrafikomlaggningen-1967/",
+      "supports": "Stockholm市歷史資料庫改道專題，確認左轉右與日期；原報告數據仍按原卷翻譯",
+      "access": "已開啟並讀改道日期/左與右/宣導及事故原因非單一的段落。"
+    }
+  ],
+  "diagramChecks": {
+    "before": {
+      "northbound": "west/leftlane",
+      "southbound": "east/rightlane"
+    },
+    "after": {
+      "northbound": "east/rightlane",
+      "southbound": "west/leftlane"
+    },
+    "articleCounts": {
+      "minorAccidents": 157,
+      "deaths": 0
+    },
+    "vote": "83%不贊成，未推剩餘17%全贊成",
+    "causality": "Maybe明示推測"
+  },
+  "artSHA256": "169d30e0412e78b6f1e2b483d75fc04b89b39d367b5550e2b7b419808ec81676",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:50:09.884260+00:00",
+  "completedAt": "2026-10-29T03:50:09.884260+00:00",
+  "layoutEvidence": "docs/comics/q-529-preview-validation.json",
+  "visualReview": "實看原報告與1440/1120/390：靠左/靠右各雙向車道相對行進方向正確；1955/83%不贊成與四年宣導分塊不冒12年作四年；157起事故與0死亡分開，Maybe推測標示清楚。手機英文長短語可讀不溢，桌面同列等高、手機自然高，無橫溢。"
+}

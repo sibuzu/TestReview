@@ -1,0 +1,67 @@
+{
+  "id": "q-484",
+  "subject": "English",
+  "title": "陌生人的陪伴，讓訪客感到安心與歡迎",
+  "art": "docs/comics/art/q-484.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T04:08:01.818569+00:00",
+  "generationStartedAt": "2026-10-29T04:09:04.115Z",
+  "generationCompletedAt": "2026-10-29T04:09:25.579Z",
+  "generationMetadata": "docs/comics/q-484-generation.json",
+  "promptFile": "docs/comics/q-484-prompt.txt",
+  "panels": [
+    {
+      "heading": "① 幫助Cheez的，是一位stranger",
+      "text": "Cheez在公車站顯得擔心，一位陌生女子主動關心、指路。stranger是陌生人，這個例子中的關懷對象並不只是家人或朋友，主旨也要包含訪客受到的照顧。",
+      "alt": "虛構成人訪客Cheez在公車站擔心，穿綠外套陌生女子友善指路；不設國旗、國籍外觀或把她畫成原有朋友。"
+    },
+    {
+      "heading": "② 不只指路，還陪等到公車到站",
+      "text": "She stayed with me until the bus came.說明對方一直陪他等車，讓他感到安心。這不只是禮貌地說一句話，而是文中具體呈現的溫暖關懷與陪伴。",
+      "alt": "同一陌生女子仍陪在Cheez旁，無字路線牌與到站公車可見，對應陪等情節，無擁抱、送錢或額外危機。"
+    },
+    {
+      "heading": "③ 想家卻不孤單，呼應welcoming to visitors",
+      "text": "Cheez也提到夜市的家庭笑語，讓他想家卻不覺得孤單，最後說台灣像家。A的友善、歡迎訪客最能涵蓋這些感受；C只寫到親友，沒有涵蓋陌生人照顧訪客的主要例子。",
+      "alt": "Cheez在溫暖夜市聽到周遭家庭說笑的另項文中例子，表現融入與歸屬感，不把其他遊客當成他的親友或指定著名地點。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：對訪客友善、熱情歡迎",
+    "points": [
+      "對象：陌生人關心外來的Cheez。",
+      "行為：不只指路，還陪等到公車到站。",
+      "主旨須涵蓋陌生人與訪客，不只擷取親友、小事等局部字詞。"
+    ]
+  },
+  "protectedWords": [
+    "Cheez",
+    "stranger",
+    "visitors",
+    "Taiwan Sensibility",
+    "welcoming",
+    "friendly",
+    "family and friends"
+  ],
+  "rationale": "實看完整對話與A–D，A維持。全新內建imagegen陌生人指路/陪等車/夜市歸屬感三項文字證據，結合行為與受助對象判主旨。C用沒有涵蓋主要例子評範圍，不擅加只有親友才會幫的全稱；不指定Cheez美國國籍或貶他國。無來源AI圖。",
+  "promptSummary": "全新無字三方圖：一致Cheez與陌生女子公車站指路、陪等至公車到站、另項夜市家庭笑語與歸屬感。無假國籍、送錢/危機或國家友善排名，精確主旨由HTML校對。",
+  "answerCheckedAgainst": "原卷完整Cheez/Yu-shin對話stranger陪等、公車來、safe/nightmarket不孤單/feel like home與第37題A–D；A最能涵蓋訪客友善歡迎，C範圍不足而不擴寫only命題。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-484-reading-source-e4fa4e2f98.jpg",
+      "site/dist/assets/questions/q-484-source-540b266f8f.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見完整對話與全部四選項；題目說轉述給American friend不等於Cheez本人美國人。另有In my country people are kind too，未抹成只有台灣人友善。"
+  },
+  "artSHA256": "e16f24cdc51293b73f722316e244b5dd5e7f89776a02cfed60e9606e8c37de9d",
+  "completedAt": "2026-10-29T04:11:29.528380+00:00",
+  "checkedAt": "2026-10-29T04:11:29.528392+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-484-preview-validation.json",
+  "visualReview": "親見完整原卷對話/A–D、新2172×724無字素材與最終1440/390。Cheez與女子前兩格一致、陌生人指路與陪等車可辨、夜市另例溫暖但不造親友關係；無國籍旗幟或他國不友善暗示。C僅按沒涵蓋陌生人例評範圍，未擴成只幫親友的全稱。桌機同列等高/手機自然高無溢出裁切，A不變。"
+}

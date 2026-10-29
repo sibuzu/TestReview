@@ -1,0 +1,65 @@
+{
+  "id": "q-199",
+  "subject": "English",
+  "title": "雖然爸爸多次努力，Jimmy仍不肯起床",
+  "art": "docs/comics/art/q-199.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-199-generate.py",
+  "startedAt": "2026-10-29T04:26:55.369582+00:00",
+  "panels": [
+    {
+      "heading": "① 一邊是已多次嘗試，一邊是仍不肯起床",
+      "text": "had already tried表示爸爸早已試過好幾次；would not get up則說Jimmy當時仍不肯起床吃早餐。先讀清兩項事實，不只挑一個not就選連接詞。",
+      "alt": "兩個事實卡爸爸已嘗試多次/Jimmy仍不肯起床，中央卻仍然明確表示反差，沒有畫成爸爸努力導致拒絕的因果。"
+    },
+    {
+      "heading": "② 照理努力應有效，實際結果卻相反",
+      "text": "多次努力叫起床，通常預期對方會起來；句子卻說Jimmy仍不肯。這種雖然有前面的情況、結果仍與預期不同的關係，就是although要表達的讓步。",
+      "alt": "爸爸多次努力向兩側分支：虛線通常預期會起床，實線實際仍不肯，明確區分預期與原題事實。"
+    },
+    {
+      "heading": "③ until看時間界線，本題強調的是讓步",
+      "text": "until用來交代直到某個時間或事件；本句則用已嘗試多次襯托仍不肯起床，故選A although。不能只看not就套not ... until，也不把爸爸努力誤當成Jimmy拒絕的原因。",
+      "alt": "although讓步/ because原因/ if條件/ until時間界線四種關係對照，although著綠色，限定本題文意而非說not直到句永不可用。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：although",
+    "points": [
+      "爸爸已嘗試多次，Jimmy仍不肯起床。",
+      "實際結果與通常預期相反，選讓步關係。",
+      "時態與not不是單獨選until的理由，要合看前後文。"
+    ]
+  },
+  "protectedWords": [
+    "Jimmy",
+    "although",
+    "had already tried",
+    "would not",
+    "get up",
+    "not",
+    "until",
+    "not ... until",
+    "because"
+  ],
+  "rationale": "實看完整原卷長句及四選項，沿已核對A。新原生已發生事實/預期與實際分支/連接詞關係圖，直接處理學生D由not套until的誤解；不臆造孩子已起床、強拉的衝突場面或起床時間界線，無來源AI圖。",
+  "promptSummary": "新原生SVG爸爸多次嘗試與Jimmy仍不肯的事實卡，通常預期/實際結果分支，四連接詞語意關係對照；無人物拉扯裝飾、假時刻或來源AI圖。",
+  "answerCheckedAgainst": "原卷Jimmy would not get up for breakfast___his dad had already tried...several times與A although B because C if D until；讓步違反預期，A維持，不重開原詳解已說明until語境。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-199-source-9d5eee1b46.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見完整句would not/had already tried/several times與全A–D，學生until誤選；未把預期會起床畫成原文實際已起床。"
+  },
+  "artSHA256": "b1b3f3b4076b026cbd49fa2229de01aff740e81dfe72a83c2243a1e72acb5dc3",
+  "completedAt": "2026-10-29T04:29:18.984522+00:00",
+  "checkedAt": "2026-10-29T04:29:18.984534+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-199-preview-validation.json",
+  "visualReview": "實看完整原卷與A–D、原生540×180及最終1440/390。事實/預期分支清楚，虛線預期會起床、實際仍不肯，不將假設當事實；四連接詞關係表無裁切，底字移入安全基線後重跑實看。桌機同列等高/手機自然高，英文詞組無溢出，A維持且不把not直到句一概否定。"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "q-193",
+  "subject": "English",
+  "title": "先看money，再看yesterday",
+  "art": "docs/comics/art/q-193-agreement.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:24:22.755075+00:00",
+  "panels": [
+    {
+      "heading": "① money視為單數",
+      "text": "Some of his money是他的部分錢。money是不可數名詞，這個主詞視為單數；不能只看到Some就選複數動詞。",
+      "alt": "新製完整主詞詞塊與money不可數標記，不依錢幣或紙鈔張數決定文法。"
+    },
+    {
+      "heading": "② yesterday要求過去式",
+      "text": "句尾yesterday表示昨天，因此要用be動詞的過去式。單數的現在式is要改成was，不能保留學生填的is。",
+      "alt": "新製昨天在現在左方的時間線，is轉was；不以現在錢是否仍在餐桌推定。"
+    },
+    {
+      "heading": "③ of後名詞與時間一起判斷",
+      "text": "原句的money配過去式was。若另換成Some of his coins，coins是複數，過去式才用were；這是比較句，不改原題。",
+      "alt": "新製同過去時間下money配was、coins配were兩列，coins只延伸對照。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先看money，再看yesterday",
+    "answer": "答案：was",
+    "points": [
+      "Some of his money was on the dining table yesterday.",
+      "money不可數，主詞視為單數。",
+      "yesterday指過去，is改was。"
+    ]
+  },
+  "protectedWords": [
+    "Some",
+    "Some of his money",
+    "Some of his coins",
+    "money",
+    "coins",
+    "yesterday",
+    "was",
+    "were",
+    "is",
+    "be動詞",
+    "不可數名詞",
+    "單數",
+    "複數",
+    "主詞",
+    "過去式",
+    "現在式",
+    "原題",
+    "比較句",
+    "不可數"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-193-source-81b12094be.jpg"
+  ],
+  "originalVisualCheck": "實看填空20完整Some of his money __(be) on the dining table yesterday.，原is旁紅筆was，名詞與時間皆可辨。",
+  "answerCheckedAgainst": "money為不可數名詞，部分money仍單數，yesterday使be用was；保持既有was。coins/were只另外例句。",
+  "rationale": "以名詞可數性與時間雙條件圖解，避免只看some或只看單數而漏過去時間；精確詞塊與時間線較泛用餐桌人物有效。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "noun": "money",
+    "time": "yesterday",
+    "answer": "was",
+    "contrastOnly": "coins → were"
+  },
+  "artSHA256": "44c106b9d08ff94fd1d5cce1a4542d039c82dabe7266c038eea2e491bb3e7847",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:25:08.929569+00:00",
+  "completedAt": "2026-10-29T04:25:08.929569+00:00",
+  "layoutEvidence": "docs/comics/q-193-preview-validation.json",
+  "visualReview": "實看1440/1120/390最終圖文，money/was與coins/were僅比較，時間線昨天早於現在；SVG無裁字、英文詞完整、同行等高手機自然高，無溢出。"
+}

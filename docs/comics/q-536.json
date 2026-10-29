@@ -1,0 +1,71 @@
+{
+  "id": "q-536",
+  "subject": "English",
+  "title": "依本文比較：物品、技能、空間與慈善",
+  "art": "docs/comics/art/q-536.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:56:13.249790+00:00",
+  "panels": [
+    {
+      "heading": "① A衣物：使用後付款、歸還",
+      "text": "Stylend讓衣物被不同人使用，原圖寫使用後付款、寄還衣主。對應文章少買一些、共用既有物品的想法，A符合。",
+      "alt": "新製衣物暫借/租用概念，成人交乾淨衣服與衣袋，非真實Stylend介面或折扣、不畫慈善捐衣；歸還條件由HTML明示。"
+    },
+    {
+      "heading": "② B技能：共享不只限於物品",
+      "text": "TaskRabbit媒合修繕、種花、搬運等服務。文章明說special skills，分享時間與技能也在本文範圍內，不能因沒有出租物品就排B。",
+      "alt": "新製技能提供者修水管與屋主的概念情境，非出售新家電或真實平台服務價格；不印品牌或假介面。"
+    },
+    {
+      "heading": "③ C花園：把私人空間供人使用",
+      "text": "花園露營網站提供他人庭園中的營地，對應共享空間。判斷應看主要服務與本文例子，不能只看有沒有免費或賺錢。",
+      "alt": "新製私人住宅後院的帳篷與主人/訪客，非公共營地或災民救濟，未聲稱原選項中的特定庭院或尺寸。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 依本文比較：物品、技能、空間與慈善",
+    "answer": "答案 D：Feed the Hungry One",
+    "points": [
+      "NOT要選不符合的一項。",
+      "D主要是捐食物、衣物及志工救濟，與本文情境有別。",
+      "不把所有免費或無償共享一概排除，要依本文與網站主要服務判斷。"
+    ]
+  },
+  "protectedWords": [
+    "Stylend",
+    "TaskRabbit",
+    "special skills",
+    "Feed the Hungry One",
+    "NOT",
+    "衣物",
+    "衣主",
+    "付款",
+    "歸還",
+    "共享空間",
+    "主要服務",
+    "慈善",
+    "志工救濟",
+    "無償共享",
+    "營地",
+    "私人空間"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-536-reading-source-45798d146b.jpg",
+    "site/dist/assets/questions/q-536-source-ecb026d338.jpg",
+    "site/dist/assets/questions/q-536-option-A-776cc16b1f.jpg",
+    "site/dist/assets/questions/q-536-option-B-e23ad45937.jpg",
+    "site/dist/assets/questions/q-536-option-C-3f678bf885.jpg",
+    "site/dist/assets/questions/q-536-option-D-86d1be36c6.jpg"
+  ],
+  "originalVisualCheck": "實看完整36-37共用文與37題NOT、A付款歸還衣物/B地區技能每小時價格修繕種花搬箱清潔/C四處私人花園露營/D食物衣物毯子與說故事理髮清潔志工。A深色極細字不猜，依清楚主要服務解題。",
+  "answerCheckedAgainst": "原D與完整閱讀文及四網頁一致。special skills明列所以B符合；D慈善救濟依本文相對不同，不把付費賺錢當共享經濟唯一條件，不新增法定定義。",
+  "rationale": "新製ABC物品/技能/私人空間三景，第四格統整D慈善與NOT範圍，避免只拍物品租用讓學生誤排B、或把一切無償共享排除。精確名稱及判準以原文HTML，不用現在網站規則取代原題。",
+  "promptPath": "docs/comics/q-536-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "a912471b625e58ef8c7c0596c1c12e3a6e697481b919ad0c23070da3154786ae",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:58:13.157743+00:00",
+  "completedAt": "2026-10-29T03:58:13.157743+00:00",
+  "layoutEvidence": "docs/comics/q-536-preview-validation.json",
+  "visualReview": "實看六個原卷素材與新三景/1440/1120/390：衣物租用、技能修水管、私人庭園帳篷各對ABC，無銷售價牌/慈善捐衣混淆或公開營地；D慈善只依本文相對辨別，非無償一律排除。姓名/網站名不拆、無橫溢，桌面同列等高、手機自然高。"
+}

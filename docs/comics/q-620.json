@@ -1,0 +1,66 @@
+{
+  "id": "q-620",
+  "subject": "English",
+  "title": "You指你或你們，都搭配are",
+  "art": "docs/comics/art/q-620.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:17:51.350757+00:00",
+  "panels": [
+    {
+      "heading": "① 先讀句意：謝謝你的幫忙",
+      "text": "You指正在對話的對方，是第二人稱。句意是你幫助我，真是太好心了。空格要依主詞You選be動詞，不能看到kind就直接猜。",
+      "alt": "新製同學幫忙分擔書本的友善情境，對應kind to help me，不新增原題答案提示字或書名。"
+    },
+    {
+      "heading": "② 即使只對一個人，也用are",
+      "text": "You可以指你一個人，仍然是You are。不能因為只有一位聽話者，就誤套第三人稱單數的is；也不能用只配I的am。",
+      "alt": "新製一位說話者向一位幫忙者致謝，明確只有一位聽話者，示範you單數仍配are的語境。"
+    },
+    {
+      "heading": "③ 對兩人說你們，仍用are",
+      "text": "You也可以指你們，搭配同樣是are。判斷時先認人稱，再看主詞的搭配；第二人稱單數、複數，現在式be都用are。",
+      "alt": "新製一位感謝者對兩位幫忙同學說話，三人視線對應一說話者/兩聽者，與單人you對照；圖不印英文。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ You指你或你們，都搭配are",
+    "answer": "答案：You are very kind to help me.",
+    "points": [
+      "You是第二人稱，搭配are。",
+      "am配I；is配he、she、it等第三人稱單數。",
+      "不是看到只有一個人，就一律選is。"
+    ]
+  },
+  "protectedWords": [
+    "You",
+    "are",
+    "You are",
+    "be動詞",
+    "kind",
+    "kind to help me",
+    "第二人稱",
+    "第三人稱",
+    "單數",
+    "複數",
+    "現在式",
+    "聽話者",
+    "am",
+    "is",
+    "好心",
+    "幫助",
+    "一個人"
+  ],
+  "originalAssets": [],
+  "originalTextSource": "docs/sources/gemini-0KrY8NZ0TTP2.json",
+  "originalVisualCheck": "本題為原對話使用者要求的純文字be動詞延伸第4題，無試卷圖片；已讀來源JSON完整練習上下文中You ___ very kind to help me與am/is/are要求，未假稱看過照片。",
+  "answerCheckedAgainst": "第二人稱現在式You are，不因單數改is；主句You are very kind與to help me不改be人稱，與來源完整題文相符。",
+  "rationale": "新製幫忙/向單一對方致謝/向兩位對方致謝三景，具體區分you的人稱與指涉人數；精確英文與規則只用HTML，不讓人物數量誤導單數必is。",
+  "promptPath": "docs/comics/q-620-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "5e532e63d02e7b6630bc84e036271489a3eb799b4ab4d16d3a0252d98782a48c",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:21:23.233367+00:00",
+  "completedAt": "2026-10-29T03:21:23.233367+00:00",
+  "layoutEvidence": "docs/comics/q-620-preview-validation.json",
+  "visualReview": "實看三景與1440/1120/390：友善幫忙情境無文字，第二景一說話者一聽者、第三景一說話者兩聽者的數量正確，語境指向明確。HTML說明兩種You皆are，無單數必is誤導。好心詞組已保護，三寬無橫溢、桌面同列等高、手機自然高。"
+}

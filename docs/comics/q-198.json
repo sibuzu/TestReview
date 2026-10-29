@@ -1,0 +1,78 @@
+{
+  "id": "q-198",
+  "subject": "English",
+  "title": "只有兩人更早：Few呼應only",
+  "art": "docs/comics/art/q-198-few.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:27:36.366104+00:00",
+  "panels": [
+    {
+      "heading": "① 分號後補充前句",
+      "text": "後句說只有Losi和Lana比Clark更早到職。這說明比Clark資深的其他服務生只有兩位；圖只比較他們與Clark，不推定兩人的先後。",
+      "alt": "新製Losi/Lana共同更早區與Clark較晚區；無精確年月或兩人同時到職暗示。"
+    },
+    {
+      "heading": "② only要凸顯人數很少",
+      "text": "only在這裡強調只有兩個人。前句用Few other waiters表示很少有其他服務生，比單說一些更能呼應後面的少數語氣。",
+      "alt": "新製只有兩個計數點及Few詞塊，不捏造餐廳總員工人數或比例圖。"
+    },
+    {
+      "heading": "③ Few比Some更貼合語氣",
+      "text": "All是全部，Most是大多數；Some只是一些，沒有凸顯很少。題目要選最貼切的字，因此Few最能接住only的強調。",
+      "alt": "新製四詞語意對照，Few強調少數，不把Some描述為數量必然矛盾或文法不成立。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 只有兩人更早：Few呼應only",
+    "answer": "答案 D：Few",
+    "points": [
+      "only Losi and Lana是關鍵線索。",
+      "Few other waiters表示很少有其他服務生。",
+      "Few直接接other waiters，不在中間加of。"
+    ]
+  },
+  "protectedWords": [
+    "Losi",
+    "Lana",
+    "Clark",
+    "Few",
+    "Few other waiters",
+    "other waiters",
+    "only",
+    "All",
+    "Most",
+    "Some",
+    "of",
+    "服務生",
+    "兩位",
+    "兩人",
+    "到職",
+    "資深",
+    "分號",
+    "大多數",
+    "少數",
+    "語氣"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-198-source-206616c44d.jpg"
+  ],
+  "originalVisualCheck": "實看22題完整句、only Losi and Lana started working here before him與四選項All/Most/Some/Few，原學生B。",
+  "answerCheckedAgainst": "分號後only兩人強調少數，Few最貼切；Some不明示少數而非結構違法。餐廳總人數未知，不以自編分母證明Most算術錯。維持D。",
+  "rationale": "先後關係圖加兩人計數與詞義對照精確呈現文意線索，比泛用餐廳人物更直接；無來源AI圖與員工總數杜撰。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "earlierThanClark": [
+      "Losi",
+      "Lana"
+    ],
+    "relativeOrderBetweenLosiAndLana": "unknown",
+    "restaurantTotal": "not specified; not drawn",
+    "selection": "D Few"
+  },
+  "artSHA256": "f121477fabd6fb2efdfee50d05f83321b5f83eb8e23cbc7798b4d6b16ce8abff",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:27:44.431960+00:00",
+  "completedAt": "2026-10-29T04:27:44.431960+00:00",
+  "layoutEvidence": "docs/comics/q-198-preview-validation.json",
+  "visualReview": "實看1440/1120/390，Losi與Lana同更早區而未推定相同到職日；計數只有兩位資深者、未捏造總數。原生詞彙對照無裁字、英語完整，同行等高手機自然高，無溢出。"
+}

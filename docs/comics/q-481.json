@@ -1,0 +1,67 @@
+{
+  "id": "q-481",
+  "subject": "English",
+  "title": "兩個希望做的動作：visit和try都用原形",
+  "art": "docs/comics/art/q-481.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-481-generate.py",
+  "startedAt": "2026-10-29T04:11:29.594879+00:00",
+  "panels": [
+    {
+      "heading": "① Jake希望做的事，有visit與try兩項",
+      "text": "兩個目標是visit different countries和try many new kinds of food，都是hope後面希望做的動作。and把兩個希望做的動作放在同一層次。",
+      "alt": "hopes向下分到to visit與(to) try兩個同層次節點，分別對應遊不同國家與嘗試新食物。"
+    },
+    {
+      "heading": "② and後的第二個to可省略",
+      "text": "完整結構可看成hopes to visit ... and to try ...；省略第二個to後，成為hopes to visit ... and try ...。只省掉to，原形try保持不變，所以選A。",
+      "alt": "to visit and to try向下化為to visit and try，清楚只省第二個to而不換動詞形態，第一個to仍保留。"
+    },
+    {
+      "heading": "③ hopes加s，不代表try也加s",
+      "text": "Jake是第三人稱單數，主要動詞用hopes；但本句visit與try是希望做的兩個動作，仍在不定詞結構裡。不能只因主詞單數就把空格變成tries，也不選trying或tried。",
+      "alt": "主句Jake hopes與不定詞中的visit/try分色區分，說明s依主句與不定詞位置而定，不只看主詞是誰。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：try",
+    "points": [
+      "to visit ... and (to) try ...，兩個並列目標。",
+      "第二個to可省略，try仍是原形。",
+      "hopes是主要動詞；空格不跟著加s或改過去式。"
+    ]
+  },
+  "protectedWords": [
+    "Jake",
+    "hopes",
+    "to visit",
+    "to try",
+    "(to) try",
+    "visit",
+    "try",
+    "tries",
+    "trying",
+    "tried",
+    "and"
+  ],
+  "rationale": "實看上傳AI整理題目截圖中的完整題句/四選項，沿已核對A。新原生同層兩目標樹、只省to的等義變換、主句與不定詞形態分區，直接處理tries與tried干擾，不重用截圖內AI分析或改已訂正的舊來源例句。無來源AI解說圖。",
+  "promptSummary": "新原生SVG hopes分支to visit/(to) try；to visit and to try→to visit and try；Jake hopes與visit/try分區。是新句法圖，不是來源AI整理截圖再用。",
+  "answerCheckedAgainst": "完整上傳截圖Jake hopes to visit...and___many new kinds of food與A try/B tries/C trying/D tried；現有核對並列不定詞省第二to仍原形，A不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-481-source-1633222b6a.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見完整題目截圖及A–D；原素材是含題文、A–D及標示答案A的來源AI整理截圖，並非試卷，不冒稱原卷照片。只讀題文為證據，不沿用其解說圖片。"
+  },
+  "artSHA256": "83216f95882a4ab81f36cb04c155090de2b0127562ca98642af521bfb32a1c51",
+  "completedAt": "2026-10-29T04:14:10.933540+00:00",
+  "checkedAt": "2026-10-29T04:14:10.933552+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-481-preview-validation.json",
+  "visualReview": "實看含完整題句/A–D/標A的來源整理截圖，原生540×180及最終1440/390。雙目標同層分支、只省第二to的前後對照、hopes與不定詞原形分區清楚；未把省to改成改時態，亦未重用來源解說圖。桌機同列等高/手機詞組自然換行無裁切溢出，A不變。"
+}

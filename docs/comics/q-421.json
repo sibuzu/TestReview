@@ -1,0 +1,93 @@
+{
+  "id": "q-421",
+  "subject": "History",
+  "title": "看官職定位日治，再判斷誰在抗議",
+  "art": "docs/comics/art/q-421.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-421-generate.py",
+  "startedAt": "2026-10-29T03:02:29.840675+00:00",
+  "panels": [
+    {
+      "heading": "① 官職先幫我們定位時代",
+      "text": "材料出現總督、警務局長與臺中州知事，指向日治時期。再連同警察對原住民族的剝削、殘忍處罰判讀，對應霧社事件後的批評。",
+      "alt": "總督、警務局長、臺中州知事三張官職卡，底下指出日治時期；不以服裝或仿造公文暗示史料來源。"
+    },
+    {
+      "heading": "② 要求究責，不代表官府自己發言",
+      "text": "資料要求撤職、保障生活自由並改革警察制度，立場是抗議殖民統治的弊害。臺灣總督府是受到究責的機關，不能只看到「總督」就選A。",
+      "alt": "歷史臺灣民眾黨向殖民當局提出抗議的上下關係圖，箭頭文字為抗議剝削、要求改革，分清發言者和被批評者。"
+    },
+    {
+      "heading": "③ 1930年的主張，與兩個其他選項錯開",
+      "text": "1927年成立的歷史臺灣民眾黨，曾在1930年就霧社事件提出抗議。臺灣民主國屬1895年；二二八處理委員會屬1947年，時代均不符。",
+      "alt": "1895臺灣民主國、1930臺灣民眾黨抗議霧社事件、1947二二八處理委員會三張年代卡；僅表示先後，不以間距代表年代長度。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：日治時期的臺灣民眾黨",
+    "points": [
+      "官職先定日治，再由抗議與改革主張辨認組織。",
+      "這是1927年成立的歷史政黨，與同名當代政黨區分。",
+      "原史料「蕃人」為舊稱，解說使用原住民族。"
+    ]
+  },
+  "protectedWords": [
+    "臺灣民眾黨",
+    "臺灣總督府",
+    "警務局長",
+    "臺中州知事",
+    "霧社事件",
+    "臺灣民主國",
+    "二二八處理委員會",
+    "原住民族"
+  ],
+  "rationale": "實看資料二三點與第60題全四選項，C不變。全新原生官職線索、批評者與被究責者、年代比較圖，直接呈現判讀流程，避免人物形貌/族群/服飾臆測或混入當代政黨。官方立法院歷史資料核對1927成立及1930抗議霧社事件。",
+  "promptSummary": "三張180×180原生SVG：日治官職卡；歷史民眾黨抗議殖民當局的關係圖；1895/1930/1947不同時代的組織。無人物、假公文、來源AI圖。",
+  "answerCheckedAgainst": "原卷資料二警察剝削/要求總督等撤職/警制改革與第60題A–D；立法院記載1927民眾黨成立及1930向帝國議會/內閣控訴霧社事件，C不變。",
+  "officialReferences": [
+    {
+      "url": "https://daap.ly.gov.tw/tw/daap/125-3984.html",
+      "finding": "歷史臺灣民眾黨1927年正式成立，1930年12月致電日本帝國議會與內閣總理大臣控訴霧社事件。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-421-reading-9e53fe47b1.jpg",
+      "site/dist/assets/questions/q-421-source-d4c678d29e.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見原卷三點材料含舊稱蕃人、總督/警務局長/臺中州知事、改革警察制度及全四選項。尊重原史料舊詞，不泛化為一般臺灣人，與既有訂正一致不重開。"
+  },
+  "artSHA256": "131b105495dda27db3189f53e92cd9aba76c1f61b8f082f60bdba643eceb121b",
+  "completedAt": "2026-10-29T03:07:55.034045+00:00",
+  "checkedAt": "2026-10-29T04:50:53.877099+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-421-preview-validation.json",
+  "visualReview": "實看兩張原卷全題與原生540×180、最終1440/390成品。官職、抗議者/殖民當局與年代三圖文字無裁切，箭頭關係明確，C與歷史民眾黨一致；桌機兩欄同列等高，手機單欄自然增高且無溢出。",
+  "nativeArt": "assets/comics/q-421-art-131b105495.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:50:53.874701+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原資料二三點及四選項實看；日治官職、民眾黨抗議與受批評殖民當局不同，1927成立/1930抗議不混同1895/1947，桌手機實看及正式QA通過。",
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-421-validation.json"
+}

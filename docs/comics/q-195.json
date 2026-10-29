@@ -1,0 +1,65 @@
+{
+  "id": "q-195",
+  "subject": "English",
+  "title": "Although表讓步，時態依過去事件或現在習慣選擇",
+  "art": "docs/comics/art/q-195.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-195-generate.py",
+  "startedAt": "2026-10-29T04:24:52.426972+00:00",
+  "panels": [
+    {
+      "heading": "① Although連接逛街與沒買東西的反差",
+      "text": "Although先引出Mandy去逛街，主句再說與預期不同的結果：沒有買任何東西。一般同一句中用Although連接這兩段，就不再另加but；它不負責指定過去式。",
+      "alt": "逛街與卻沒買東西兩卡用箭頭連接，表示讓步反差，不畫買滿購物袋而違反not buy anything。"
+    },
+    {
+      "heading": "② 說一次過去的事情，用went與didn't buy",
+      "text": "可寫Although Mandy went shopping, she didn't buy anything. went與didn't對應過去事件；didn't後的buy用原形，不改成bought。這是原卷採用的過去語境。",
+      "alt": "過去事件的went shopping與didn't buy兩相配卡，明示didn't後原形，並非因Although而強制過去。"
+    },
+    {
+      "heading": "③ 說現在的習慣，也可用goes與doesn't buy",
+      "text": "若要描述現在的習慣，可寫Although Mandy goes shopping, she doesn't buy anything. 提示沒有指定時間詞，所以這種現在式也成立；時態要和想表達的時間一致。",
+      "alt": "現在習慣goes shopping/doesn't buy兩配對卡，與第二格均作可成立版本，不畫成只有一種正確。"
+    }
+  ],
+  "fourth": {
+    "answer": "過去事件或現在習慣，兩種版本都可成立",
+    "points": [
+      "Although Mandy went shopping, she didn't buy anything.",
+      "Although Mandy goes shopping, she doesn't buy anything.",
+      "Although表讓步；本句不再另加but，時態依完整語境。"
+    ]
+  },
+  "protectedWords": [
+    "Although",
+    "Mandy",
+    "went shopping",
+    "goes shopping",
+    "didn't buy",
+    "doesn't buy",
+    "buy anything",
+    "but",
+    "bought"
+  ],
+  "rationale": "親見原卷完整造句提示/現在式作答/過去式訂正，並沿使用者已確認q195的兩時態說明，不重開舊確認。新原生讓步反差/過去搭配/現在習慣搭配，正面展示Although非過去式開關、助動詞後原形；不畫買到物品或假購物日期。無來源AI圖。",
+  "promptSummary": "新原生SVG逛街卻未買反差，went shopping/didn't buy過去，goes shopping/doesn't buy現在習慣，兩版均可。ASCII撇號，無來源AI圖，無重開已確認事項。",
+  "answerCheckedAgainst": "原卷Mandy/go shopping/not buy anything(Although...)未指定時間，現有核對及使用者q195 OK：過去原卷採went/didn't，現在習慣goes/doesn't亦可；沿此確認。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-195-source-cfcb268c28.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "過去went/didn't與習慣goes/doesn't兩者皆成立",
+    "notes": "親見完整提示、Although開頭條件、手寫現在式與改過去式；使用者已確認兩種可成立，未重開舊疑義。"
+  },
+  "artSHA256": "919625c86c4f57c779f82f6f4afd3fdab7f943e23a19ec8a606c60ce697ee045",
+  "completedAt": "2026-10-29T04:26:55.304051+00:00",
+  "checkedAt": "2026-10-29T04:26:55.304061+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-195-preview-validation.json",
+  "visualReview": "親見原卷完整提示/現在作答/過去訂正，沿使用者已確認兩版可成立。實看原生540×180及最終1440/390：讓步反差、went/didn't buy與goes/doesn't buy兩版同為可用，ASCII撇號及助動詞後原形清楚。桌機同列等高、手機完整兩參考句自然換行無溢出裁切，未重新要求確認。"
+}

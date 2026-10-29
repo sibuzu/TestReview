@@ -1,0 +1,50 @@
+{
+  "id": "q-043",
+  "pass": true,
+  "rows": [
+    {
+      "name": "甲",
+      "mass": 40,
+      "volume": 50,
+      "density": 0.8,
+      "floating": true,
+      "displacedCm3": 40,
+      "buoyancyGw": 40,
+      "cubeSideSVG": 73.68062997280772,
+      "submergedFraction": 0.8
+    },
+    {
+      "name": "乙",
+      "mass": 30,
+      "volume": 60,
+      "density": 0.5,
+      "floating": true,
+      "displacedCm3": 30,
+      "buoyancyGw": 30,
+      "cubeSideSVG": 78.29735282337727,
+      "submergedFraction": 0.5
+    },
+    {
+      "name": "丙",
+      "mass": 60,
+      "volume": 30,
+      "density": 2.0,
+      "floating": false,
+      "displacedCm3": 30,
+      "buoyancyGw": 30,
+      "cubeSideSVG": 62.14465011907717,
+      "submergedFraction": 1
+    }
+  ],
+  "waterDensity": 1,
+  "correctOption": "C",
+  "cubeView": "upright square cross sections side lengths proportional to cbrt(volume), submerged height fractions0.8/0.5",
+  "Cstate": "fully immersed snapshot not contacting bottom, no false equilibrium B=W",
+  "CforceArrows": {
+    "upwardBshaft": 36,
+    "downwardWshaft": 72,
+    "forceRatio": 0.5
+  },
+  "originalTableAndAllOptionsActuallyViewed": true,
+  "fullBeakerCheck": "water surface equals open rim in both diagrams, no false freeboard"
+}

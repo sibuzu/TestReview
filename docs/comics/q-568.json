@@ -1,0 +1,104 @@
+{
+  "id": "q-568",
+  "subject": "History",
+  "title": "宣布、斷交、條約終止，分開三日期",
+  "art": "docs/comics/art/q-568-relations.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T02:59:27.969689+00:00",
+  "panels": [
+    {
+      "heading": "① 1978年宣布，先抓記者會年代",
+      "text": "題文是卡特在1978年12月15日宣布外交承認變化。這是美國當地日期，不表示所有後續行動都在記者會當天完成。",
+      "alt": "精確SVG公告概念圖，1978.12.15卡特宣布；不冒充白宮原始新聞文件或卡特照片。"
+    },
+    {
+      "heading": "② 1979年生效：與中華民國斷交",
+      "text": "1979年1月1日，美國與中華人民共和國建立正式外交關係，並與中華民國斷交。改變的是正式外交關係，非所有民間往來。",
+      "alt": "精確SVG美國正式外交關係分線：中華人民共和國建交實線，中華民國斷交虛線與叉號；文字完整區分政府名稱。"
+    },
+    {
+      "heading": "③ 條約經通知期間，1980年終止",
+      "text": "共同防禦條約的終止通知自1979年1月1日生效；經一年通知期間，1980年1月1日條約才終止。D概括陸續採取的行動。",
+      "alt": "精確SVG條約終止時序，1979通知生效至1980終止，明標一年；不把正式外交斷交和條約終止畫成同一天。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 宣布、斷交、條約終止，分開三日期",
+    "answer": "答案 D：斷交並終止共同防禦條約",
+    "points": [
+      "1978宣布、1979斷交、1980條約終止。",
+      "A聯合國代表權、B二戰、C韓戰都早於題文。",
+      "題文明說仍有文化、商務等非官方關係。"
+    ]
+  },
+  "protectedWords": [
+    "記者會",
+    "卡特",
+    "外交承認",
+    "正式外交關係",
+    "民間往來",
+    "非官方關係",
+    "中華人民共和國",
+    "中華民國",
+    "共同防禦條約",
+    "通知期間",
+    "條約終止",
+    "1978年12月15日",
+    "1979年1月1日",
+    "1980年1月1日",
+    "1978年",
+    "1979年",
+    "1980年",
+    "聯合國",
+    "代表權",
+    "二戰",
+    "韓戰"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-568-source-a3470c01ba.jpg"
+  ],
+  "originalVisualCheck": "實看原卷46完整題幹和四選項，美國當地1978/12/15宣布、非官方關係與D斷交/終止共同防禦條約逐字核對。",
+  "answerCheckedAgainst": "原卷D與美國國務院FRUS第180件終止通知原史料、官方China Policy歷史敘述核對。通知1979/1/1生效一年後終止，不同於1978宣布與1979斷交。A只用時序排除，不宣稱美國當年支持中國代表權案。",
+  "rationale": "精確日期/政府關係分線比泛用白宮或握手人物更能降低三時點混淆；保留非官方關係，避免斷交誤讀全部交流停止。SVG是教學結構，非史料複製。",
+  "generationCalls": 0,
+  "sourceChecks": [
+    {
+      "url": "https://history.state.gov/historicaldocuments/frus1977-80v13/d180",
+      "access": "已開啟完整原始外交電報，1978/12/23通知文字",
+      "supports": "條約終止通知自1979/1/1生效，依第十條一年後終止即1980/1/1"
+    },
+    {
+      "url": "https://history.state.gov/milestones/1977-1980/china-policy",
+      "access": "已讀官方歷史敘述全文",
+      "supports": "1978/12/15宣布、1979/1/1正式外交建交，撤回對中華民國外交承認與繼續非官方往來"
+    }
+  ],
+  "artSHA256": "ce2960cf63d01c7a1a031de9dcf1da96f9346f20376c02cd9c18ba84095a4e70",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:48:51.984723+00:00",
+  "completedAt": "2026-10-29T03:00:04.563570+00:00",
+  "layoutEvidence": "docs/comics/q-568-preview-validation.json",
+  "visualReview": "實看1440/1120/390：外交關係分線未混淆兩政府，宣布與生效不畫同日；時間軸1979通知生效至1980一年後終止，無圖層遮蔽，日期及完整國名在HTML不拆開，三寬無橫溢、同列等高。",
+  "nativeArt": "assets/comics/q-568-art-ce2960cf63.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:48:51.982392+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷全文四選項及卡特宣告日期已核；原始外交文件區分1978宣告、1979建交斷交與終止通知生效、1980條約終止。正式桌手機實看及18項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-568-validation.json"
+}

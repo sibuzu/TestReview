@@ -1,0 +1,72 @@
+{
+  "id": "q-530",
+  "subject": "English",
+  "title": "照片做成客製物，找Happy Photo",
+  "art": "docs/comics/art/q-530-v2.png",
+  "protectedWords": [
+    "Tom",
+    "Happy Photo",
+    "photo",
+    "key ring",
+    "Free photos",
+    "Magic Tool",
+    "Tina's Place",
+    "Cats' Kitchen",
+    "鑰匙圈",
+    "寵物照片",
+    "客製物品"
+  ],
+  "panels": [
+    {
+      "heading": "① 題目要找照片鑰匙圈，不只找貓咪用品",
+      "text": "Tom買的是印有自己貓咪照片的key ring。關鍵是寵物照片能做成物品，不能只看到cat就挑Cats' Kitchen。",
+      "alt": "Tom拿著內有平面貓咪照片的透明鑰匙圈，旁邊是同隻虎斑貓；只示意照片客製物，不把活貓畫在鑰匙圈內。"
+    },
+    {
+      "heading": "② 海報的it，指剛拍好的寵物照片",
+      "text": "Happy Photo先邀請替寵物拍照，再說可以用it製作特別物品。it指照片，這項服務正好對應題目中的貓咪照片鑰匙圈，所以選C。",
+      "alt": "攝影師替舒適坐在軟墊上的寵物貓拍照，無字場景對應Happy Photo拍照服務，攤位名與代名詞證據由HTML呈現。"
+    },
+    {
+      "heading": "③ 拍照免費，不等於所有照片商品都免費",
+      "text": "Free photos說的是免費拍照；Tom的鑰匙圈是bought，題目說他買了。海報能支持照片客製服務，但沒有保證每件照片商品都免費。",
+      "alt": "攝影師展示貓咪照片與另一個照片鑰匙圈，兩件物品分開，沒有免費禮物標誌、價格、付款金額或虛構促銷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：Happy Photo.",
+    "points": [
+      "照片＋客製鑰匙圈，對上Happy Photo服務。",
+      "A梳子、B餐點、D雞肉，與本題服務不同。",
+      "免費拍照的範圍，不擴大成全部商品免費。"
+    ]
+  },
+  "rationale": "完整實看Joy Pet Fair八攤位海報及第30題四選項，實讀來源165–250行服務與本題解析。新內建imagegen原創三場景：照片鑰匙圈→拍寵物照→照片及客製物，對應閱讀資訊而非創造新優惠。第二版去除相機小品牌字，精確攤位名、it指涉和Free photos範圍皆HTML；C答不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-530-reading-source-234824077e.jpg",
+    "site/dist/assets/questions/q-530-source-4ff87b2c35.jpg",
+    "site/dist/sources/gemini-niuTSqX6ssM7.txt lines 165–250"
+  ],
+  "sourceUrl": "https://share.gemini.google/niuTSqX6ssM7",
+  "generationMethod": "built-in imagegen original wordless photo-product and pet-photography context with native HTML service matching and free-offer scope",
+  "promptFile": "docs/comics/q-530-prompt.txt",
+  "answerCheckedAgainst": "Happy Photo take a photo後的it指photo，可make something special；Tom買照片鑰匙圈對應C，A梳子/B餐點/D雞肉不合，且bought非免費物品承諾。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T03:50:01.788115+00:00",
+  "checkedAt": "2026-10-29T03:50:58.046537+00:00",
+  "validationFile": "docs/comics/q-530-preview-validation.json",
+  "artSha256": "7bf3e76813575c29faab01c775dccdd9031382e5eb73168c945af48f305f365a"
+}

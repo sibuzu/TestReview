@@ -1,0 +1,64 @@
+{
+  "id": "q-452",
+  "subject": "English",
+  "title": "製作卡片給誰：make物for人",
+  "art": "docs/comics/art/q-452.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:34:32.221160+00:00",
+  "panels": [
+    {
+      "heading": "① 先找動作與製作的東西",
+      "text": "教師節快到了，同學提議做卡片。make是製作，a card是做出的物品。題目What about making後面，要接完整的製作對象與受益者。",
+      "alt": "新製同學製作無字花朵卡片的概念情境，製作者是同學、物品是卡片，原題只是提議，非宣稱已發生。"
+    },
+    {
+      "heading": "② make＋物＋for＋人",
+      "text": "a card for Ms. Wang，表示為王老師做一張卡片。先放物品a card，再用for連到受益者Ms. Wang，C正確。",
+      "alt": "新製女教師作預定收卡者的概念場景，沒有讓老師變成製作者或學生變受贈者，姓名與for不印在圖裡。"
+    },
+    {
+      "heading": "③ 別把give的to直接套到make",
+      "text": "give a card to人，是把卡片送給對方；本題動詞是make，物後用for。make Ms. Wang a card也可成立，但D結尾多了to。",
+      "alt": "新製同學把已完成卡片交給老師的延伸對照場景，只為區分give/製作兩種動作，HTML不改原題提議的時間與內容。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 製作卡片給誰：make物for人",
+    "answer": "答案 C：a card for Ms. Wang",
+    "points": [
+      "make＋物＋for＋人，或make＋人＋物。",
+      "A把for誤換to；B語序不合。",
+      "D多出to且沒有受詞，不能只看前半就選。"
+    ]
+  },
+  "protectedWords": [
+    "教師節",
+    "make",
+    "making",
+    "a card",
+    "for",
+    "Ms. Wang",
+    "受益者",
+    "製作對象",
+    "What about",
+    "give",
+    "give a card",
+    "to",
+    "受詞",
+    "語序"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-452-source-cf76c33aae.jpg"
+  ],
+  "originalVisualCheck": "實看39題提議教師節做卡片對話、A to Ms.Wang/B Ms.Wang for a card/C a card for Ms.Wang/D Ms.Wang a card to四選項，原卷C。",
+  "answerCheckedAgainst": "四選項只有C符合make物for人；make人a card本可成立但D有懸空to，因此不可把另個可用結構一律說成錯。give物to人僅延伸對照，原動詞仍make。",
+  "rationale": "新製製作/預定受益老師/延伸交卡三景區分人物角色與make vs give，所有for/to與姓名由HTML準確標，避免只是見人就套to、或誤說make人+物不可用。",
+  "promptPath": "docs/comics/q-452-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "ef2c9346bb771baf505398aac27a6ac52f8b72fcf458360140bb039a34e93abb",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:36:05.324880+00:00",
+  "completedAt": "2026-10-29T03:36:05.324880+00:00",
+  "layoutEvidence": "docs/comics/q-452-preview-validation.json",
+  "visualReview": "實看三景與1440/1120/390：同學製作、教師預定受益者、交卡方向清楚，花卡無生成文字；姓名與介詞在HTML完整。make人+物仍保留可用，D多to說明精確。三寬無橫溢、桌面同列等高、手機自然高，圖未裁主體。"
+}

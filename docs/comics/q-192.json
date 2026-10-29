@@ -1,0 +1,65 @@
+{
+  "id": "q-192",
+  "subject": "English",
+  "title": "主詞雖單數，有can仍填play",
+  "art": "docs/comics/art/q-192.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-192-generate.py",
+  "startedAt": "2026-10-29T04:23:02.146730+00:00",
+  "panels": [
+    {
+      "heading": "① One of my brothers的核心是One",
+      "text": "這個主詞指我的其中一位兄弟，核心One是單數。但不能只判斷主詞後，就直接把空格寫成plays；還要讀到主詞後的can。",
+      "alt": "One著色作單數核心，of my brothers下方作範圍，不因brothers複數而改主詞，也提醒繼續找can。"
+    },
+    {
+      "heading": "② can是情態助動詞，接原形play",
+      "text": "本句有can，後面直接用原形play，不加s。One of my brothers can play the violin.的意思是其中一位兄弟會拉小提琴。",
+      "alt": "can＋play兩綠塊並列，錯式can plays刪除線，讓有助動詞後原形的規則可見。"
+    },
+    {
+      "heading": "③ 去掉can的句子，才與plays作對照",
+      "text": "比較One of my brothers plays the violin.與One of my brothers can play the violin.。前者以plays表一般現在式；後者有can表示能力，play保留原形。",
+      "alt": "沒有can的一般現在式One...plays對比本題One...can play，同一主詞但結構改變時動詞形式不同。"
+    }
+  ],
+  "fourth": {
+    "answer": "填play",
+    "points": [
+      "本句的關鍵是can＋原形動詞。",
+      "One單數，不表示can後的play也加s。",
+      "完整片語can play the violin：會拉小提琴。"
+    ]
+  },
+  "protectedWords": [
+    "One",
+    "of my brothers",
+    "can play",
+    "can",
+    "play",
+    "plays",
+    "the violin",
+    "One of",
+    "情態助動詞"
+  ],
+  "rationale": "實看原卷完整題句及plays誤答，play維持。新原生單數核心但尚須找can、can+play與錯式、同主詞有無can比較，直接處理單數加s與情態結構的干擾，不只為拉琴人物重演字義。無來源AI圖。",
+  "promptSummary": "全新原生SVG One核心、can＋play/錯式can plays、One...plays對One...can play。無人物琴姿/假場景或來源AI圖，精確句法由原生文字呈現。",
+  "answerCheckedAgainst": "原卷One of my brothers can___(play)the violin，學生plays；can後原形play與現有withoutcan plays對照一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-192-source-b17f9f8069.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "play",
+    "notes": "親見原卷完整主詞One of my brothers、can、play提示、violin及plays作答，句中有can不能只看單數One。"
+  },
+  "artSHA256": "e65bf87f3766f4e780106a9d4108e28e0d568beb48125945477cffe576f36b21",
+  "completedAt": "2026-10-29T04:24:52.360059+00:00",
+  "checkedAt": "2026-10-29T04:24:52.360071+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-192-preview-validation.json",
+  "visualReview": "親見原卷完整句與plays誤答、原生540×180及最終1440/390。One單數與of brothers分區、can+play/錯式刪除線、同主詞無can用plays對照清楚；不把單數規則硬套can後。桌機同列等高、手機各格自然高，詞組與完整例句無溢出裁切，play維持。"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "q-441",
+  "subject": "English",
+  "title": "him指Nick，them指那些玩具車",
+  "art": "docs/comics/art/q-441.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-441-generate.py",
+  "startedAt": "2026-10-29T03:27:22.057301+00:00",
+  "panels": [
+    {
+      "heading": "① 先找到空格要指的玩具車",
+      "text": "Nick有許多toy cars，但玩具車總在紙箱裡，所以說話者沒看過他拿出來玩。空格指的是這些玩具車；圖只示意收藏，不表示原句有交代確切數量。",
+      "alt": "紙箱裡放多台不同色玩具車，表示toy cars複數且收在箱內；未畫Nick正在玩車，不與never see情境相反。"
+    },
+    {
+      "heading": "② 句中的him，已經指Nick",
+      "text": "I never see him play with ... 的him指Nick，整段說的是沒看過Nick玩那些車；with後的空格才指玩具車。分清「他」與「它們」，不要因前面有him就再選him。",
+      "alt": "兩條不同指代卡Nick→him、toy cars→them，以分色區分人與複數玩具，不把him代玩具車。"
+    },
+    {
+      "heading": "③ 複數事物，放在with後用them",
+      "text": "toy cars是複數；with是介系詞，後面接受格，所以用them。it是單數，me指我，him在本句指Nick，都不符合空格要代的那些玩具車。",
+      "alt": "with向下連到them，旁註複數事物的受格；此為本句所指對象，不概括them只指物而不能指人。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：them",
+    "points": [
+      "toy cars是複數，空格代這些玩具車。",
+      "with後接受格them。",
+      "him指Nick，兩個代名詞的對象不同。"
+    ]
+  },
+  "protectedWords": [
+    "Nick",
+    "toy cars",
+    "him",
+    "them",
+    "with",
+    "play with",
+    "paper boxes"
+  ],
+  "rationale": "原卷完整句子與四選項實看，D不變。新原生紙箱收車/雙指代通道/with受格選詞，直接展示先找對象再判數與格的流程；不為了人物故事把Nick畫成正在玩車而違背never see，三台僅示意許多而非確切數量。無來源AI圖。",
+  "promptSummary": "新原生SVG紙箱收藏多台玩具車、Nick→him和toy cars→them的兩條對應、with→them。本句指物，不限制them只能指物。",
+  "answerCheckedAgainst": "原卷Nick有許多toy cars、說話者never see him play with___、紙箱原因及A it/B me/C him/D them；指代複數車用受格them，D不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-441-source-5138c6b751.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "實看原卷完整兩句與全部A–D，him=Nick、空格=toy cars；未把未看過他玩改成他正在玩。"
+  },
+  "artSHA256": "5f42f58efbe51e7322d1e74b233f3a2760f5560b3d60ebf599f3dc69d10a4743",
+  "completedAt": "2026-10-29T03:29:28.628435+00:00",
+  "checkedAt": "2026-10-29T03:29:28.628448+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-441-preview-validation.json",
+  "visualReview": "實看原卷完整句子與A–D、原生540×180及最終1440/390。紙箱中多台車、Nick/him與車/them兩路、with受格清楚；never see限定未看過玩車，非沒看過Nick。未畫正在玩車；數量僅示意。桌機同列等高/手機自然高，英文片語無裁切溢出，D不變。"
+}

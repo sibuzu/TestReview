@@ -1,0 +1,73 @@
+{
+  "id": "q-369",
+  "subject": "English",
+  "title": "不能外出，因為要在家照顧弟弟",
+  "art": "docs/comics/art/q-369.png",
+  "protectedWords": [
+    "Mary",
+    "take care of",
+    "little brother",
+    "at home",
+    "has to",
+    "take",
+    "worry about",
+    "run after",
+    "run over to",
+    "照顧",
+    "第三人稱單數",
+    "片語",
+    "原形"
+  ],
+  "panels": [
+    {
+      "heading": "① 不能出去與必須在家，要連在一起讀",
+      "text": "Mary今晚不能和朋友外出，because後面說明原因：她必須在家對弟弟做某件事。把不能外出、弟弟和at home合起來看，照顧最符合。",
+      "alt": "Mary留在家門內與弟弟一起向外出的朋友揮手，屬句意示意而非原題另記的送別事件，不新增父母去向。"
+    },
+    {
+      "heading": "② take care of表示實際照顧",
+      "text": "take care of her little brother就是照顧她的弟弟。worry about只是擔心，沒有直接說出這裡的照顧工作；run after與run over to也不是這個意思。",
+      "alt": "姊姊在家陪弟弟看無字圖畫書，示意照顧而非追逐或焦慮；不把看書認定為原題明寫的特定任務。"
+    },
+    {
+      "heading": "③ has to後接原形，片語要完整保留",
+      "text": "寫成has to take care of，不因Mary是第三人稱單數就把take加s。take care of是完整片語，後面接her little brother，表示受照顧的人。",
+      "alt": "姊姊在家為弟弟擺點心水杯的照顧示意，具體take原形與care of搭配只由旁側HTML呈現，不讓模型拼字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：take care of",
+    "points": [
+      "because後交代不能外出的原因。",
+      "在家照顧弟弟，對應take care of。",
+      "has to之後用原形take，片語後接人。"
+    ]
+  },
+  "rationale": "實看原卷23題完整句與四個片語、讀來源54–77行。新內建imagegen無字日常照顧三場景，把不能外出與居家照顧的因果連起；細節僅教學情境，不假稱原文指定看書/點心，不把女性照顧泛化成性別責任。D答不變，未把worry about說成文法不成立，而是本題照顧語意較合。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-369-source-0778bff3f9.jpg",
+    "site/dist/sources/6ae052d5-0eac-83ee-98fa-606d5c38cc14.txt lines 54–77"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae052d5-0eac-83ee-98fa-606d5c38cc14",
+  "generationMethod": "built-in imagegen original wordless home-care contexts with native HTML causation and phrasal-verb structure",
+  "promptFile": "docs/comics/q-369-prompt.txt",
+  "answerCheckedAgainst": "不能外出因必須在家照顧弟弟，take care of最合語境；has to後原形take，D。C擔心僅情緒不直接表照顧工作，非硬判所有擔心情境不能留家。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:02:30.396017+00:00",
+  "checkedAt": "2026-10-29T04:03:33.852970+00:00",
+  "validationFile": "docs/comics/q-369-preview-validation.json",
+  "artSha256": "352312226c9504c09eacd66f13b10449c63854fe1483f56c7131880a24d73918"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "q-212",
+  "subject": "Math",
+  "title": "B平分內角，C先分清外角，再求P",
+  "art": "docs/comics/art/q-212.svg",
+  "protectedWords": [
+    "∠PCD＝∠DCE",
+    "∠PBC",
+    "∠BCP",
+    "∠BPC",
+    "114°",
+    "66°",
+    "33°",
+    "48°",
+    "99°",
+    "△BPC",
+    "外角",
+    "內角"
+  ],
+  "panels": [
+    {
+      "heading": "① 鄰角互補，B角66°再平分",
+      "text": "平行四邊形的鄰角互補，∠ABC＝180°−114°＝66°。BP平分B角，所以△BPC的B內角∠PBC＝33°。",
+      "alt": "由A114度精確建立平行四邊形與BP33度方向，B角雙弧示平分，標半角33；P為BP與正確CP方向交點。"
+    },
+    {
+      "heading": "② C外角66°，但△BPC的C角是48°",
+      "text": "對角相等，∠BCD＝114°。CE是BC延長線，∠DCE＝66°；已知∠PCD＝∠DCE，因此∠BCP＝114°−66°＝48°。CP並非平分C內角。",
+      "alt": "C處放大，B/C/E水平依序共線，CD向66度、CP向132度，兩個橘66在CD兩側，剩餘BCP藍48，不誤畫CP內角平分。"
+    },
+    {
+      "heading": "③ 最後只用△BPC的三角形內角和",
+      "text": "已知△BPC在B點33°、C點48°，因此∠P＝∠BPC＝180°−33°−48°＝99°。不要把C點的66°外角直接當成三角形內角。",
+      "alt": "精確33/48/99度△BPC，P處99標於三角形內部，B/C不對調，無把外角66放入三角形。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：99°",
+    "points": [
+      "B內角66°，被BP分成33°。",
+      "C點先求外角66°，三角形內角剩48°。",
+      "∠BPC＝180°−33°−48°＝99°。"
+    ]
+  },
+  "rationale": "實看第7及第8題兩份原卷同條件，讀given SVG精確線段；第8題筆跡與重複合併為使用者已確認，不再重開或把筆跡當係數。原封存來源無PCD/DCE/114對應逐字解答，獨立取B(0,0),C(10,0),A(6cot66°,6)，BP33°、CP132°，驗ABC66/ABP33/PBC33/BCD114/DCE66/PCD66/BCP48/BPC99。新精確SVG分B內角、C放大外角、三角形內角和，答案99不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-212-source-77a6ce70ed.jpg",
+    "site/dist/assets/questions/q-217-source-8c92cc856d.jpg",
+    "site/dist/assets/questions/q-212-given.svg (geometry read)",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt (scoped search no PCD/DCE/114 exact solution)"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG validated parallelogram internal B bisection, enlarged C exterior-angle equality and final BPC triangle",
+  "answerCheckedAgainst": "B66半33，C內114外66且PCD66→BCP48，P180−33−48=99。q217筆跡不是係數與合併均已確認，不改原題。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:42:41.494364+00:00",
+  "checkedAt": "2026-10-29T04:43:37.559144+00:00",
+  "validationFile": "docs/comics/q-212-preview-validation.json",
+  "artSha256": "598372d042dea390f50044a8111a210e34c137cf9f6a3e25119666640d14e812"
+}

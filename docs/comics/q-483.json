@@ -1,0 +1,82 @@
+{
+  "id": "q-483",
+  "subject": "English",
+  "title": "touched my heart提示情感，move不只表示移動",
+  "art": "docs/comics/art/q-483-v2.png",
+  "protectedWords": [
+    "Cheez",
+    "resonate",
+    "move",
+    "touched my heart",
+    "resonates with me",
+    "moves me",
+    "feel",
+    "follow",
+    "love",
+    "共鳴",
+    "打動"
+  ],
+  "panels": [
+    {
+      "heading": "① 先讀前句touched my heart",
+      "text": "Cheez先說那種特別的感受一次次觸動他的心，接著才用resonates with me。因此這裡的resonate是情感上的共鳴，不是在講聲音或物理振動。",
+      "alt": "陌生人在公車站陪伴並協助旅客的善意情境，對應文中感到受照顧的經驗；不新增可辨識地標或特定國籍對照。"
+    },
+    {
+      "heading": "② move也能表示打動、使人感動",
+      "text": "move除了移動，也能表示使人感動。夜市的家庭談笑讓Cheez想家卻不孤單，這類觸動心情的語境，與前句touched my heart呼應，D最貼近。",
+      "alt": "旅客看夜市家庭溫暖交談，神情帶懷念與歸屬；只示意原文情感，不畫心臟被觸碰或宣稱每個臺灣人行為相同。"
+    },
+    {
+      "heading": "③ 意思相近，搭配不必照字硬換",
+      "text": "resonates with me可用moves me表達相近意思，with不必照搬。feel是感受、follow是跟隨、love是喜愛；此處最要表達的是事情打動了人。",
+      "alt": "現代讀者核對文章與字義的學習情境，非原文另有教室事件；精確resonates with me與moves me用HTML呈現，不讓生成圖拼寫。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：Move.",
+    "points": [
+      "前句touched my heart是直接情感線索。",
+      "move可表示打動，不只表示移動。",
+      "以情境比較字義，並留意resonate與move的搭配不同。"
+    ]
+  },
+  "rationale": "實看完整Taiwan Sensibility對話及36四選項，讀來源91–119行問答及使用者D。新imagegen呈善意陪伴/夜市共鳴/字義閱讀三場景；首版意外地標已在未發布第二版去除，避免對同篇其他題造成不在原文的地點暗示。精確詞義與介系詞搭配由HTML；不把Cheez希望變溫暖畫成已發生行為，不泛化國籍。D答不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-483-reading-source-e4fa4e2f98.jpg",
+    "site/dist/assets/questions/q-483-source-5a2764f479.jpg",
+    "site/dist/sources/gemini-W2hFrwI5cSIf.txt lines 91–119"
+  ],
+  "sourceUrl": "https://share.gemini.google/W2hFrwI5cSIf",
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/move",
+      "note": "官方搜尋結果完整FEELINGS段列使人產生強烈情感，僅記搜尋核對。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/resonate?q=resonate_2",
+      "note": "官方搜尋摘要列經驗或記憶引起情感連結，僅記搜尋核對。"
+    }
+  ],
+  "generationMethod": "built-in imagegen original wordless emotional reading context plus native HTML polysemy and collocation comparison",
+  "promptFile": "docs/comics/q-483-prompt.txt",
+  "answerCheckedAgainst": "touched my heart上下文支持情感共鳴，四選中move使感動最近；resonates with me≈moves me語意而非with逐字替換，D。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:12:10.617530+00:00",
+  "checkedAt": "2026-10-29T04:12:43.896924+00:00",
+  "validationFile": "docs/comics/q-483-preview-validation.json",
+  "artSha256": "84ff210cf401a185e51ed0b3127028df6f0df7fc0b3ae8c2c980a181272685b3"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "q-626",
+  "subject": "English",
+  "title": "is後加not，形容詞與介系詞片語保留",
+  "art": "docs/comics/art/q-626.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-626-generate.py",
+  "startedAt": "2026-10-29T03:20:56.799420+00:00",
+  "panels": [
+    {
+      "heading": "① is是動詞，angry是形容詞",
+      "text": "She is angry with her brother. 中的be動詞是is；angry表示生氣，是形容詞。改否定要處理原句的is，不能把angry當一般動詞而套用does not。",
+      "alt": "She之下並列著色is與angry，分別標be動詞、形容詞，讓否定操作對準is。"
+    },
+    {
+      "heading": "② 把not加在is後面",
+      "text": "改為She is not angry with her brother. 其中is仍然保留，後接not；angry與with her brother不必改動，後者說明生誰的氣。",
+      "alt": "句構保留She、is not angry及with her brother，顯示只在is後增加not，而不移除is。"
+    },
+    {
+      "heading": "③ is not可縮成isn't",
+      "text": "She isn't angry with her brother.與完整寫法同義。原句已有be動詞，不能改成does not is；第三人稱She不代表任何否定句都加does。",
+      "alt": "is not向下縮成ASCII撇號的isn't，錯誤片段does not is以刪除線標示，說明本句不另加does。"
+    }
+  ],
+  "fourth": {
+    "answer": "She is not angry with her brother.",
+    "points": [
+      "也可寫She isn't angry with her brother.",
+      "is後加not，保留形容詞與原片語。",
+      "不要寫does not is，也不要刪掉is。"
+    ]
+  },
+  "protectedWords": [
+    "She",
+    "is not",
+    "isn't",
+    "angry",
+    "with her brother",
+    "does not is",
+    "be動詞"
+  ],
+  "rationale": "完整來源否定改寫第二句與解答已讀。新原生句構將be與形容詞拆清，再展示not插入與縮寫/錯式對照，提供改寫操作線索；人物生氣或高興場景不能精確顯示語法，故不用情緒臆測情境或來源AI圖。",
+  "promptSummary": "新原生SVG三方圖：She/is/angry角色區分、原句後半保留並加入not、is not→isn't對照刪除does not is。英文ASCII撇號，無來源AI圖。",
+  "answerCheckedAgainst": "來源基礎句型改寫She is angry with her brother與She is not (isn't) angry with her brother，與現有詳解一致，無新增實質訂正。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "questionLines": "79–105",
+    "answerLines": "160–176",
+    "visualChecked": true,
+    "answer": "She is not angry with her brother. / She isn't angry with her brother.",
+    "notes": "完整純文字延伸問句與來源否定/縮寫解答已讀，原本無原卷照片；不把否定生氣等同必然高興。"
+  },
+  "artSHA256": "8baaef7078ea8b4d01f3eb252aaf2fff8fb4ccb1a6cbfa2c50b6d7c4b5f250b9",
+  "completedAt": "2026-10-29T03:22:58.362382+00:00",
+  "checkedAt": "2026-10-29T03:22:58.362394+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-626-preview-validation.json",
+  "visualReview": "完整文字源第二改寫與解答已讀。實看原生540×180與最終1440/390；is動詞/angry形容詞角色清楚，not插位與縮寫正確，刪除線只標錯式does not is。桌機同列等高，手機片語保護/自動換行無溢出，否定並未推成必然高興。"
+}

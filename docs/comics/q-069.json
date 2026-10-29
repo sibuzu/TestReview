@@ -1,0 +1,68 @@
+{
+  "id": "q-069",
+  "subject": "English",
+  "title": "單數主詞＋is making，才是完整進行式",
+  "art": "docs/comics/art/q-069.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:27:56.114297+00:00",
+  "panels": [
+    {
+      "heading": "① 受夠了，是眼前又發生的吵鬧",
+      "text": "我受夠了，加上要找主人處理，表示說話者正在抱怨狗再次製造噪音。這裡在說眼前狀態，最適合現在進行式。",
+      "alt": "新製受隔壁噪音困擾的說話者，沒有暴怒報復或醫療症狀，對應我受夠了的語境。"
+    },
+    {
+      "heading": "② The dog是單數，要用is",
+      "text": "The dog next door是隔壁那隻狗，next door不把牠變成複數。主詞單數配is，再接making，不能選are making。",
+      "alt": "新製院內唯一一隻狗正在吠叫，非多狗或能力展示；next door不改狗的單數，圖中無生成噪音字。"
+    },
+    {
+      "heading": "③ making前還需要be動詞",
+      "text": "現在進行式要有is making，只有making不成完整述語。can make是能夠或可能製造噪音，不如B貼近正抱怨的情境；談話是下一步打算。",
+      "alt": "新製說話者打算與主人理性溝通的後續情境，HTML明說是打算，不宣稱原文已談完；不含暴力或處罰。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 單數主詞＋is making，才是完整進行式",
+    "answer": "答案 B：is making",
+    "points": [
+      "The dog是單數，配is。",
+      "現在進行式：be動詞＋V-ing。",
+      "make noise是製造噪音；A缺be，D主詞不一致。"
+    ]
+  },
+  "protectedWords": [
+    "The dog",
+    "next door",
+    "The dog next door",
+    "is making",
+    "are making",
+    "can make",
+    "making",
+    "be動詞",
+    "V-ing",
+    "make noise",
+    "單數",
+    "複數",
+    "現在進行式",
+    "完整述語",
+    "噪音",
+    "情境",
+    "下一步",
+    "is"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-069-source-2a7da93f10.jpg"
+  ],
+  "originalVisualCheck": "實看18題完整抱怨句、隔壁狗、再發生及找主人處理，A making/B is making/C can make/D are making；原卷選A，獨立語法B。",
+  "answerCheckedAgainst": "The dog單數is；be+V-ing完整述語，進行抱怨情境選B。C本身有語法但語意非最佳，不教成can make一律文法錯，談話依have to視作下一步非已發生。",
+  "rationale": "新製噪音困擾/單隻正在吠叫的狗/打算找主人三景把情境與主詞數連起來；文法精確HTML，沒有生成聲效拼字或把將來打算誤當完成事實。",
+  "promptPath": "docs/comics/q-069-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "986990ac568fe59d59c5a3d38e2cfeacb62424d03584d626529a30ea632b3e85",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:29:23.614185+00:00",
+  "completedAt": "2026-10-29T03:29:23.614185+00:00",
+  "layoutEvidence": "docs/comics/q-069-preview-validation.json",
+  "visualReview": "實看三景與1440/1120/390：困擾者、唯一一隻正在吠叫的狗、計畫中的理性溝通均貼語境；無聲效文字、無多狗或傷害情節。英文The dog next door/is making/are making完整不拆，三寬無橫溢，桌面同列等高、手機自然高。"
+}

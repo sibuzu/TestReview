@@ -1,0 +1,90 @@
+{
+  "id": "q-442",
+  "subject": "English",
+  "title": "第一格可不只一種，第二格決定答案",
+  "art": "docs/comics/art/q-442-two-blanks.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:37:14.503122+00:00",
+  "panels": [
+    {
+      "heading": "① like to draw與like drawing都可",
+      "text": "like後可接to V，也可接V-ing，所以to draw與drawing都能填第一格。不能為了選A，就把like drawing教成錯誤。",
+      "alt": "原生SVG由like分支to draw與drawing兩種皆可，對應第一格，不把正確drawing錯刪。"
+    },
+    {
+      "heading": "② drawing pictures是整件活動",
+      "text": "第二句的主詞是drawing pictures，意思是畫圖這件事。pictures雖然複數，整個動名詞片語在本句仍視為單數，配is。",
+      "alt": "原生SVG完整drawing pictures主詞框→本句單數is，不以pictures字面複數控制動詞。"
+    },
+    {
+      "heading": "③ 比較兩格，不只看第一格",
+      "text": "B的drawing可用，但are不合。D的to draw可用，to be卻不能獨立作主要動詞。C兩格都不合，只有A兩格皆對。",
+      "alt": "原生SVG四選項雙格可用性表：A可可/B可不可/C不可不可/D可不可；依原選項核對，不發明新選項。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 第一格可不只一種，第二格決定答案",
+    "answer": "答案 A：to draw；is",
+    "points": [
+      "like to draw、like drawing皆可。",
+      "畫圖這件事作主詞，選is。",
+      "複數pictures不是單獨的主詞。"
+    ]
+  },
+  "protectedWords": [
+    "like",
+    "to draw",
+    "like drawing",
+    "drawing",
+    "V-ing",
+    "to V",
+    "drawing pictures",
+    "pictures",
+    "主詞",
+    "動名詞片語",
+    "主要動詞",
+    "第一格",
+    "第二格",
+    "to be",
+    "are",
+    "is",
+    "不合",
+    "選A"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-442-source-b0fdc2d5ea.jpg"
+  ],
+  "originalVisualCheck": "實看27題原卷Why do those kids like...Because drawing pictures...及A to draw/is、B drawing/are、C draw/be、D to draw/to be，原卷A。",
+  "answerCheckedAgainst": "like to V/like Ving兩種合法；第二格整個drawing pictures活動單數is，因此只有A兩格都對。不能因原A答就誤說like drawing不成立。",
+  "rationale": "分支語法/完整活動主詞/雙空檢核表讓正確但不完整的B/D也得到精準解釋，比人物畫圖情境更能處理選項語法差異。全新原生詞塊，不採來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "A": [
+      true,
+      true
+    ],
+    "B": [
+      true,
+      false
+    ],
+    "C": [
+      false,
+      false
+    ],
+    "D": [
+      true,
+      false
+    ],
+    "subject": "drawing pictures",
+    "complements": [
+      "to draw",
+      "drawing"
+    ]
+  },
+  "artSHA256": "335457f888c4676dc938243c4dad5c018ee0cf1e58981cc9ad0fa9d7be4e518c",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:38:25.796123+00:00",
+  "completedAt": "2026-10-29T03:38:25.796123+00:00",
+  "layoutEvidence": "docs/comics/q-442-preview-validation.json",
+  "visualReview": "實看1440/1120/390：like兩分支皆可、drawing pictures完整框為單數、A可可/B可不可/C不可不可/D可不可表正確。手機不合與選A已保護不拆，英文短語完整、SVG未裁字，桌面同列等高/手機自然高、無橫溢。"
+}

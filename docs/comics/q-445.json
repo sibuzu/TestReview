@@ -1,0 +1,77 @@
+{
+  "id": "q-445",
+  "subject": "English",
+  "title": "叫他不要熬夜，與沒有要求他不同",
+  "art": "docs/comics/art/q-445-scope.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:39:56.325188+00:00",
+  "panels": [
+    {
+      "heading": "① 叫他不要，不是沒有叫他",
+      "text": "Carl重感冒，爸爸要勸他不要熬夜。asked him not to是否定要做的事；didn't ask him to只是沒有要求他做，不能直接代替勸阻。",
+      "alt": "原生SVGasked him not to/叫他不要與didn't ask him to/沒有要求對照，標不等於，精確呈現否定範圍而非否定句一律錯。"
+    },
+    {
+      "heading": "② studying直接描述熬夜讀書",
+      "text": "stay up studying表示熬夜時持續讀書。本題把熬夜讀書當作爸爸勸阻的活動，用studying最直接、自然，因此選A。",
+      "alt": "原生SVGstay up studying與熬夜時持續讀書/本題A對應，文字可核對，不讓生成模型改結構。"
+    },
+    {
+      "heading": "③ to study可表目的，不是文法錯",
+      "text": "stay up to study表示為了讀書而熬夜，文法上可成立。但本題用studying描述該活動較順；不要記成stay up後永遠不能接to V。",
+      "alt": "原生SVGstay up to study與目的用法可成立對照，沒有叉掉B語法；清楚限定本題最佳答案A而非全域禁用toV。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 叫他不要熬夜，與沒有要求他不同",
+    "answer": "答案 A：asked him not to；studying",
+    "points": [
+      "ask＋人＋not to V：叫某人不要做。",
+      "V-ing描述同時活動，to V可以突出目的。",
+      "B文法合理；本題A語意搭配較自然。"
+    ]
+  },
+  "protectedWords": [
+    "Carl",
+    "重感冒",
+    "asked him not to",
+    "ask",
+    "not to V",
+    "not to",
+    "didn't ask him to",
+    "stay up studying",
+    "stay up to study",
+    "stay up",
+    "studying",
+    "to study",
+    "to V",
+    "V-ing",
+    "勸阻",
+    "活動",
+    "語意搭配",
+    "否定範圍",
+    "目的"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-445-source-b67ae51ec2.jpg"
+  ],
+  "originalVisualCheck": "實看30題原卷重感冒/爸爸/今晚與A asked him not to;studying/B同首格;to study/Cdidn't ask;studying/Ddidn't ask;to study全四組；原黑B紅A。",
+  "answerCheckedAgainst": "AGENTS明示使用者已確認q445 A與B語法合理但語意搭配不如A，已結案；原題保留，不重開疑問或誤教stay up永不能toV。新英文一律ASCII撇號。",
+  "rationale": "否定範圍與同時活動/目的的原生結構對照，比單純生病熬夜人物圖能精確呈現使用者已釐清的B語法限制；不新增醫療處置或推測原題外行為。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "notScope": [
+      "asked him not to=叫他不要",
+      "didn't ask him to=沒有要求"
+    ],
+    "A": "stay up studying直接活動",
+    "B": "stay up to study目的，語法可",
+    "userConfirmed": "AGENTS.md q445結案規則"
+  },
+  "artSHA256": "18e0fb4b037c0873a13d814469a565c3e88c4e620b767d64b418cacd398e47f8",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:41:10.431367+00:00",
+  "completedAt": "2026-10-29T03:41:10.431367+00:00",
+  "layoutEvidence": "docs/comics/q-445-preview-validation.json",
+  "visualReview": "實看1440/1120/390：not範圍不等號、studying活動與to study目的可成立三圖語義正確，未叉掉B文法，原已確認A不改。ASCII撇號顯示正常；目的詞組與英文短語不拆，桌面同列等高/手機自然高，無橫溢。"
+}

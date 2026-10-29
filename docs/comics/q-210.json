@@ -1,0 +1,72 @@
+{
+  "id": "q-210",
+  "subject": "Math",
+  "title": "先求延長線36°，再以平行線扣掉12°",
+  "art": "docs/comics/art/q-210.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-210-generate.py",
+  "startedAt": "2026-10-29T04:36:37.892984+00:00",
+  "panels": [
+    {
+      "heading": "① 正五邊形內角108°，補角72°",
+      "text": "每個內角為(5−2)×180°÷5＝108°。把AB與DC延長，三角形在B、C處用到的是內角的補角，所以兩角各為180°−108°＝72°。設所求∠FAB為x。",
+      "alt": "新精確正五邊形A–E與水平L/M、F/G，A標x、D標12°，B內角108°；相同正五邊形條件由等邊/角獨立驗證。"
+    },
+    {
+      "heading": "② H是延長線交點，△HBC頂角36°",
+      "text": "AB經B延長、DC經C延長，交於H；B在AH上、C在DH上。△HBC兩底角各72°，因此∠BHC＝180°−72°−72°＝36°。",
+      "alt": "H向B/A、C/D兩延長線與原五邊形，△HBC淡綠高亮，B/C各72°、H36°，所有點位按同一精確坐標計算。"
+    },
+    {
+      "heading": "③ 過H作平行線，分成x與12°",
+      "text": "過H作與L、M平行的直線。它在∠BHC內，上方角等於∠FAB＝x，下方角等於∠CDG＝12°。所以x＋12°＝36°，得x＝24°。",
+      "alt": "H局部放大圖的兩射線方向精確為水平上24°、下12°，水平平行線分割總36°；兩弧同半徑，按真實24°/12°夾角標示。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：24°",
+    "points": [
+      "正五邊形內角108°，延長處補角72°。",
+      "△HBC的頂角＝36°。",
+      "平行線移角：x＋12°＝36°，x＝24°。"
+    ]
+  },
+  "protectedWords": [
+    "108°",
+    "72°",
+    "36°",
+    "12°",
+    "24°",
+    "∠FAB",
+    "∠CDG",
+    "∠BHC",
+    "△HBC",
+    "L、M",
+    "x＋12°＝36°"
+  ],
+  "rationale": "親見原卷與現有given/proof原生圖，沿已核定D。全新精確SVG同一正五邊形、延長線H、局部水平移角；獨立生成頂點/交點/等邊/角度並驗證B在AH/C在DH/水平位兩射線內，不用人物或來源AI圖，不改必要作答附圖。",
+  "promptSummary": "新原生幾何三格：正五邊形內角補角、延長形成72/72/36三角形、H水平平行線上24下12合36。540×180三方原生，精確數學文字HTML，無點陣重繪原卷。",
+  "answerCheckedAgainst": "原卷L∥M/正五邊形/∠CDG12°/求FAB與A18 B20 C22 D24；獨立坐標驗證內角108、補角72、H36、平行切分24+12，D不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-210-source-1b0793a8fe.jpg"
+    ],
+    "existingFiguresActuallyRendered": [
+      "site/dist/assets/questions/q-210-given.svg",
+      "site/dist/assets/questions/q-210-proof.svg"
+    ],
+    "visualChecked": true,
+    "answer": "D 24°",
+    "notes": "親見原卷含右側正五邊形可見A/B/C/D/E與L/M線、12條件及全部A–D；現有原生given/proof實際渲染看過。依已核定條件生成新圖，非猜補新疑點。"
+  },
+  "geometryValidation": "docs/comics/q-210-geometry-validation.json",
+  "artSHA256": "0798e607f68cd21574d6550863a8e7912d5148b2f8db10cf0a2bdd977e8b6b11",
+  "completedAt": "2026-10-29T04:42:57.705165+00:00",
+  "checkedAt": "2026-10-29T04:42:57.705177+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-210-preview-validation.json",
+  "visualReview": "親見原卷全題/A–D，並實際渲染看現有given/proof；新原生540×180及最終1440/390實看。正五邊形等邊、H交點與八角度獨立驗證108/72/36/24/12，B在AH、C在DH、水平在兩射線內；局部兩弧同半徑按24/12角標示。移開12度文字免壓邊、A的x縮入小角後重跑親看。桌機同列等高/手機自然高無溢出，D24不變。"
+}

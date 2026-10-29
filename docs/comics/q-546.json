@@ -1,0 +1,101 @@
+{
+  "id": "q-546",
+  "subject": "History",
+  "title": "題目問率先，先把四項排出年代",
+  "art": "docs/comics/art/q-546.svg",
+  "protectedWords": [
+    "李仙得",
+    "外務省顧問",
+    "牡丹社事件",
+    "琉球漂民",
+    "南臺灣",
+    "甲午戰爭",
+    "乙未戰爭",
+    "臺灣民主國",
+    "第二次世界大戰",
+    "1872",
+    "1874",
+    "1894",
+    "1895",
+    "率先"
+  ],
+  "panels": [
+    {
+      "heading": "① 先抓1872年，不把建議當既成事實",
+      "text": "題幹從李仙得成為日本外務省顧問談起，問日本隨後率先發動哪一行動。引述的是擴張建議，不代表當時已完成併吞所提到的各地。",
+      "alt": "1872顧問身分資料卡往下指向建議，不畫各地已被征服或不實疆界，也不虛構歷史人物肖像。"
+    },
+    {
+      "heading": "② 直接接到1874年出兵南臺灣",
+      "text": "日本以琉球漂民遇害為藉口，於1874年出兵南臺灣，對應牡丹社事件，也就是D。要分清1871年漂民遇害，與1874年日本出兵是不同時間點。",
+      "alt": "1874牡丹社事件卡，琉球漂民遇害作出兵藉口而非同年事件標示；箭頭僅連政策利用，不把遇害與出兵畫成同時。"
+    },
+    {
+      "heading": "③ 排序比對：其他三項都較晚",
+      "text": "D在1874年；C的甲午戰爭始於1894年；B臺灣民主國抗日是在1895年乙未戰爭時期；A南洋作戰屬第二次世界大戰背景，所以率先是D。",
+      "alt": "四選項按D1874/C1894/B1895/A二戰先後排列表格，不把相同列高誤當同尺度年距。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：1874年出兵南臺灣",
+    "points": [
+      "1872受聘顧問後，比對直接後續事件。",
+      "1871遇害與1874出兵不可混成一年。",
+      "只因都涉及日本擴張，不能忽略率先的時序。"
+    ]
+  },
+  "rationale": "實看第42題完整題文與四選項，讀原AI第42題全段；原民會文獻及臺史博官方材料核對1871遇害、1874出兵、1894甲午、1895乙未及二戰動員。新製精確事件比較SVG，避免生成人物肖像、軍服、侵略疆域等難以核對的情境。保留D不新增原題訂正，1871只作核清事件分期。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-546-source-aea91e1f6b.jpg",
+    "site/dist/sources/gemini-5WMxlYMpeJnK.txt lines 75–97"
+  ],
+  "sourceUrl": "https://share.gemini.google/5WMxlYMpeJnK",
+  "sources": [
+    {
+      "url": "https://ihc.cip.gov.tw/EJournal/EJournalCat/99",
+      "note": "官方文獻正文實讀1871琉球人遇難、1874遠征軍及事件分期；1872顧問段另由官方搜尋全文摘要核對。"
+    },
+    {
+      "url": "https://collections.nmth.gov.tw/CollectionContent.aspx?a=132&rno=2009.011.0351",
+      "note": "臺史博典藏正文141行實讀1894甲午因朝鮮問題、1895馬關條約。"
+    },
+    {
+      "url": "https://the.nmth.gov.tw/nmth/zh-TW/Location/0efd8ce3-ca00-4bcb-8e30-af9a7e9df4b6",
+      "note": "臺史博鉅變1895主題官方頁及搜尋摘要，臺灣民主國與民眾抗日脈絡。"
+    },
+    {
+      "url": "https://the.nmth.gov.tw/nmth/zh-TW/Location/e7a16806-c58a-45ee-b983-3d2eaa86d98a",
+      "note": "臺史博正文實讀二戰社會轉為戰爭動員與臺灣人走向戰場；未添本題未要求的精確徵召年度。"
+    }
+  ],
+  "generationMethod": "precise native SVG historical action chronology and proposal-versus-result distinction",
+  "answerCheckedAgainst": "1872後四項最早D1874，C1894、B1895、A二戰皆晚；不把日本所有擴張當同時。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T02:59:30.184974+00:00",
+  "checkedAt": "2026-10-29T04:48:52.002772+00:00",
+  "validationFile": "docs/comics/q-546-validation.json",
+  "artSha256": "a727e75ea082640092c538e212fa313ee75c11ea81738036c083f09e92ef4b0f",
+  "nativeArt": "assets/comics/q-546-art-a727e75ea0.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:48:52.000674+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷四選項與1872顧問起點實看；1871遇害、1874牡丹社、1894甲午與1895乙未時序分明。SVG不虛構戰場，正式桌手機實看及18項QA通過。",
+    "sharedNativeAssetVerified": true
+  }
+}

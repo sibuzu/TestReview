@@ -1,0 +1,65 @@
+{
+  "id": "q-187",
+  "subject": "English",
+  "title": "Every one逐一看每位，核心one配is",
+  "art": "docs/comics/art/q-187.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-187-generate.py",
+  "startedAt": "2026-10-29T04:18:48.733428+00:00",
+  "panels": [
+    {
+      "heading": "① Every one分開寫，核心是one",
+      "text": "Every one of those girls是那些女孩中的每一位。這裡Every one分成兩字，one表示單獨看每一位，是單數核心；不是省掉one而寫成Every of ...。",
+      "alt": "Every與one兩個字塊分開，one著綠色標單數核心；不與單字everyone另設詞義例外混淆。"
+    },
+    {
+      "heading": "② of those girls只限定是哪一群",
+      "text": "girls雖然是複數，但它在of片語裡，用來說明是哪一群女孩。動詞仍配前面的單數one，用is going，不因為空格靠近girls就選are。",
+      "alt": "one直接配is，下方灰藍of those girls作範圍說明，清楚區別核心與接近空格的複數名詞。"
+    },
+    {
+      "heading": "③ Every one與All都可指全員，但主詞形式不同",
+      "text": "Every one of those girls is going ...；All of those girls are going ...。兩句都可說那些女孩全都要去派對，前者逐一看每位、後者以整群為複數，所以動詞形式不同。",
+      "alt": "Every one→is與All→are語法配對對照，明示兩句皆可指全員，不畫成Every one只去一人而All全去。"
+    }
+  ],
+  "fourth": {
+    "answer": "圈選is",
+    "points": [
+      "核心one為單數，配is going。",
+      "of those girls限定範圍，不讓動詞變are。",
+      "Every one of ...可用，不能省one寫成Every of ...。"
+    ]
+  },
+  "protectedWords": [
+    "Every one",
+    "one",
+    "of those girls",
+    "girls",
+    "is going",
+    "are",
+    "is",
+    "All",
+    "Every of"
+  ],
+  "rationale": "實看原卷完整圈選句與are誤答，選is維持。新原生Every/one雙字、核心與of片語、All主詞對照直接處理複數girls干擾，也明示Every one與All語意可均指全員而非一人/多人出席差別。無來源AI圖或派對人物故事。",
+  "promptSummary": "新原生SVG Every+one兩字、one→is與of those girls範圍、Every one/is對All/are。無特定人數、派對地點或來源AI圖。",
+  "answerCheckedAgainst": "原卷Every one of those girls(is;are)going to the party；單數核心one，is，現有詳解與All比較一致。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-187-source-b3de2fce55.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "is",
+    "notes": "親見完整原卷Every one兩字及of those girls/兩選動詞/party，原are劃改；不把Every one誤成只有一位去。"
+  },
+  "artSHA256": "0e183051c7c6acb0aa2eee0bd89b68b880642d1914a11e38ada720e72726f40b",
+  "completedAt": "2026-10-29T04:20:57.611927+00:00",
+  "checkedAt": "2026-10-29T04:20:57.611939+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-187-preview-validation.json",
+  "visualReview": "親見原卷完整句/兩選動詞劃改、原生540×180及最終1440/390。Every與one分成兩字，one配is與of those girls範圍分色，All/are對照明示皆可指全員，未誤示每一位等於只去一位。桌機同列等高、手機各格自然高，英文詞組無裁切溢出，is維持。"
+}

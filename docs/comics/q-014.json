@@ -1,0 +1,67 @@
+{
+  "id": "q-014",
+  "subject": "English",
+  "title": "So前後要有因果，找與過馬路相連的號誌",
+  "art": "docs/comics/art/q-014.svg",
+  "protectedWords": [
+    "typhoon",
+    "knocked down",
+    "So",
+    "traffic lights",
+    "motorcycles",
+    "過馬路",
+    "因果關係",
+    "交通號誌"
+  ],
+  "panels": [
+    {
+      "heading": "① 颱風會吹倒東西，還不夠選答案",
+      "text": "只看到typhoon與knocked down，機車似乎也可能被吹倒。但這是兩句相連的題目，不能讀到颱風就停下來，要繼續看後面說什麼。",
+      "alt": "雲與風線示意颱風，圖下提醒多種物品都可能被吹倒，不以圖像虛構原題實際災害地點或損壞比例。"
+    },
+    {
+      "heading": "② So提示後句，是前句造成的結果",
+      "text": "後一句提醒過馬路要確認沒有車子來。要找哪種物品被吹倒，最能解釋這個特別提醒；重點是車流指引，不是物品是否可能被風吹倒。",
+      "alt": "道路、車輛與人行穿越線的抽象圖，只呈現後句過馬路與來車線索，沒有行人衝入車道或錯誤綠燈通行指示。"
+    },
+    {
+      "heading": "③ traffic lights把兩句的意思接起來",
+      "text": "traffic lights是交通號誌。號誌倒下無法正常指引車流，所以題目接著提醒注意來車；這個因果最直接。不是說有號誌時就可以不注意車輛。",
+      "alt": "傾倒交通號誌三個燈均灰暗，配So因果文字，不出現紅綠同亮或可通行訊號，不充當實際災害通行指引。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：traffic lights",
+    "points": [
+      "颱風、吹倒只是前半句線索。",
+      "So連起號誌損壞與過馬路留意來車。",
+      "比較哪個選項最能解釋整句因果。"
+    ]
+  },
+  "rationale": "實看原卷10完整兩句及四選項，讀來源198–212行本題詳細解答。新原生SVG用颱風/道路來車/倒下暗燈號誌三個精確線索建立因果，避免僅背typhoon選機車。未增加受傷或錯誤交通指示；閱讀因果不是號誌正常就不用注意來車。D答不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-014-source-hires-2fb91fd088.jpg",
+    "site/dist/sources/gemini-english.txt lines 198–212"
+  ],
+  "sourceUrl": "https://share.gemini.google/bNv4UUk9wO1L",
+  "generationMethod": "precise native SVG storm clue, road-crossing consequence and dark damaged traffic-light cause",
+  "answerCheckedAgainst": "四項可能受風影響但D交通號誌損壞最直接解釋So後過馬路留意來車，原卷B為學生作答，D正確不改。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:17:01.577922+00:00",
+  "checkedAt": "2026-10-29T04:18:07.577200+00:00",
+  "validationFile": "docs/comics/q-014-preview-validation.json",
+  "artSha256": "ced944a54cf78adf8291e431fc344401e54d0a54481ade5ef40d24c6c4afcb6a"
+}

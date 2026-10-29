@@ -1,0 +1,96 @@
+{
+  "id": "q-200",
+  "subject": "English",
+  "title": "連接詞先看關係，晚起未必同一結果",
+  "art": "docs/comics/art/q-200.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:29:02.395056+00:00",
+  "panels": [
+    {
+      "heading": "① because交代開心的原因",
+      "text": "第1句：媽媽允許Patty去生日派對，是她開心的原因，所以填because。先問為什麼，再找表示原因的連接詞。",
+      "alt": "新製母親同意女兒參加生日派對的無字情境，尚未描畫女兒已抵達派對，不以圖中文字提示答案。"
+    },
+    {
+      "heading": "② 晚起，結果沒趕上：so",
+      "text": "第8句：Jack早上起晚，結果沒趕上第一班公車。前因後果順著走，用so連接；不能只看到過去式就決定連接詞。",
+      "alt": "新製男孩站在人行道看第一班車離開，安全不追車；為第8句結果，與第9句是不同例句。"
+    },
+    {
+      "heading": "③ 晚起，卻趕上：though",
+      "text": "第9句反過來：Jack雖然晚起，卻趕上第一班車，和預期不同，用though表讓步。第7句的although也表讓步，和第9句各用一次。",
+      "alt": "新製同一造型男孩安全坐在車內，為第9句另一情境，不冒稱搭上下一班車或與第8句同一次行程。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 連接詞先看關係，晚起未必同一結果",
+    "answer": "第8空so；第9空though",
+    "points": [
+      "1 because；2 and；3 if；4 after；5 Before。",
+      "6 When；7 Although；8 so；9 though；10 or。",
+      "10個空格只有9個詞，原詞庫漏了though。",
+      "雖然作業多仍看電影是讓步；if表示如果。"
+    ]
+  },
+  "protectedWords": [
+    "Patty",
+    "Jack",
+    "because",
+    "so",
+    "though",
+    "although",
+    "Although",
+    "and",
+    "if",
+    "after",
+    "Before",
+    "When",
+    "or",
+    "連接詞",
+    "生日派對",
+    "公車",
+    "第一班",
+    "晚起",
+    "趕上",
+    "沒趕上",
+    "因果",
+    "讓步",
+    "詞庫",
+    "原詞庫",
+    "10個空格",
+    "9個詞",
+    "過去式",
+    "第一班車"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-200-source-e284b1dd1a.jpg"
+  ],
+  "originalVisualCheck": "實看完整原卷九詞詞庫及1至10句，8晚起未趕上、9晚起仍趕上，原第9批改though不在詞庫。第3改if，第4after，全部題文與既有資料一致。",
+  "answerCheckedAgainst": "按既有使用者q200 OK保留十答案及though缺詞庫說明；不是新疑義，不重開已確認項。because原因、so結果、though/although讓步，其他if/after/before/when/and/or按原句語意。",
+  "rationale": "新製原因情境與同樣晚起兩種相反結果，具體對照so和though；第4格仍列十空答案與已確認詞庫缺漏，圖片不生成精確語句或冒稱同一次行程。",
+  "promptPath": "docs/comics/q-200-prompt.txt",
+  "generationCalls": 1,
+  "diagramChecks": {
+    "panel2": "q8 did not catch first bus",
+    "panel3": "q9 caught first bus (alternative example)",
+    "answers": [
+      "because",
+      "and",
+      "if",
+      "after",
+      "Before",
+      "When",
+      "Although",
+      "so",
+      "though",
+      "or"
+    ],
+    "wordBankDefect": "though missing, already user-confirmed"
+  },
+  "artSHA256": "aa7a9b635b343770a4bbc13d29a9708e84c6cd6517e8f9a4bd54445469bf6ca6",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:31:21.398312+00:00",
+  "completedAt": "2026-10-29T04:31:21.398312+00:00",
+  "layoutEvidence": "docs/comics/q-200-preview-validation.json",
+  "visualReview": "實看新三景與1440/1120/390最終成品：母親允許派對；男孩在安全人行道錯過車；另一例句安全坐車，圖無字、不冒充同次行程。十答案與已確認though漏詞庫完整，桌面同行等高、手機自然高、英文詞完整，無溢出。"
+}

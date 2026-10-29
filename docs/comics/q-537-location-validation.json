@@ -1,0 +1,38 @@
+{
+  "id": "q-537",
+  "scale": "80 SVG units per km in every rail",
+  "a": {
+    "Tom": 1,
+    "Sam": null,
+    "edgeDistances": [
+      1,
+      1
+    ]
+  },
+  "c": {
+    "Tom": 0.5,
+    "Sam": 1.5,
+    "segmentLengths": [
+      0.5,
+      1,
+      0.5
+    ],
+    "maximumNearestStandWalk": 0.5
+  },
+  "d": {
+    "Tom": "central schematic point, not new measured condition",
+    "Sam": 1.5,
+    "onlyTomMoved": true
+  },
+  "b": {
+    "TomAndSam": "same central marker, label leaders only offset",
+    "bothMoved": true
+  },
+  "sourceDiagramOrder": [
+    "a",
+    "c",
+    "d",
+    "b"
+  ],
+  "answer": "B"
+}

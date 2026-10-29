@@ -1,0 +1,67 @@
+{
+  "id": "q-453",
+  "subject": "English",
+  "title": "檢查稻田水位，把活動與農場類型連起來",
+  "art": "docs/comics/art/q-453.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T03:32:21.972886+00:00",
+  "generationStartedAt": "2026-10-29T03:34:12.610Z",
+  "generationCompletedAt": "2026-10-29T03:34:27.245Z",
+  "generationMetadata": "docs/comics/q-453-generation.json",
+  "promptFile": "docs/comics/q-453-prompt.txt",
+  "panels": [
+    {
+      "heading": "① rice farm：種植水稻的農場",
+      "text": "空格要和後面的farm組成農場類型。rice在這裡與稻作有關，rice farm可理解成種植水稻的農場；圖中以稻田情境幫助連結詞義。",
+      "alt": "整齊年輕水稻種在淺水灌溉田中，背景有田埂與農舍；無文字、國別或精確農務數據。"
+    },
+    {
+      "heading": "② checking the water levels：檢查水位",
+      "text": "Kelly's grandfather正在檢查水位。注意check是檢查，water levels是水位；圖中爺爺觀察稻田水面，呈現檢查水位這項活動。",
+      "alt": "虛構灰髮爺爺在乾燥田埂上觀察淺水稻田，以無刻字木桿示意查看水線，無虛假測量刻度。"
+    },
+    {
+      "heading": "③ 水位線索，最直接呼應稻田灌溉",
+      "text": "把活動與詞語搭配合看：在稻作農場檢查水位，很符合稻田灌溉的情境，所以選rice。animal farm也可能使用水，但沒有rice farm那樣直接呼應本句線索。",
+      "alt": "年輕稻叢基部在淺水中的近景，土壤自然可見，呈現本題灌溉語境；不畫根系精確剖面或暗示各生長期需相同水深。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：rice",
+    "points": [
+      "rice＋farm＝稻作農場。",
+      "checking the water levels＝檢查水位。",
+      "選最貼合活動的詞，不推論其他農場完全不用水。"
+    ]
+  },
+  "protectedWords": [
+    "rice farm",
+    "water levels",
+    "Kelly's",
+    "grandfather",
+    "animal farm",
+    "rice",
+    "farm",
+    "check"
+  ],
+  "rationale": "實看原卷完整一句與A–D，A維持；既有原AI誤B已訂正不重問。全新內建imagegen稻田/爺爺查看水位/稻叢淺水，建立單字與灌溉情境連結，精確詞義由HTML負責。不做農法普遍斷言或其他農場從不需水的排除，無來源AI圖。",
+  "promptSummary": "全新無字三方自然農場情境：年輕水稻田、虛構爺爺在田埂查看水位、稻叢淺水近景。無測量刻度或科學精確剖面，無來源AI圖，HTML校對英語詞義。",
+  "answerCheckedAgainst": "原卷Kelly's grandfather checking water levels on___farm及A rice/B park/C garden/D animal，依活動與搭配最適合rice，沿原題已核對A答不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-453-source-74a7277720.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "實看完整原卷一句/四選項與B刪除記號、紅筆訂正；以題文water levels＋farm核對A，不從手寫誤B推定答案。"
+  },
+  "artSHA256": "61c8e4052bce3a0c9ff8124c865aaa6f2633556a22a0b55d329f401c99907d04",
+  "completedAt": "2026-10-29T03:36:10.326682+00:00",
+  "checkedAt": "2026-10-29T03:36:10.326696+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-453-preview-validation.json",
+  "visualReview": "實看完整原卷與A–D、2172×724新無字原始圖與最終1440/390。三圖為稻田/田埂觀察水位/稻叢淺水，無假字刻度或浮根；HTML只論本題搭配，不概括所有生長期水位或其他農場不用水。桌機同列等高、手機自然高度，詞組與ASCII Kelly撇號無溢出裁切，A不變。"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "q-532",
+  "subject": "English",
+  "title": "mostly問整張海報，不只一個優惠",
+  "art": "docs/comics/art/q-532.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:52:20.363840+00:00",
+  "panels": [
+    {
+      "heading": "① mostly問主要目的，先看全張",
+      "text": "Joy Pet Fair列出八個攤位，有食品、玩具、餐飲、照片商品與服務。整體在吸引參觀與消費，D能概括全張。",
+      "alt": "新製多種商品/服務寵物展概念場景，無標價文字或精確攤數重建；非動物救援或獸醫公告。"
+    },
+    {
+      "heading": "② 餐點與生日優惠都只是部分",
+      "text": "A寵物餐點，只對應部分攤位；C壽星折扣，只是Magic Tool的一項優惠。兩者都有海報線索，卻不夠概括整體目的。",
+      "alt": "新製單一寵物食品攤試吃，刻意只示整展一角，與mostly整體對比；不暗示所有餐點商品免費。"
+    },
+    {
+      "heading": "③ 5%給老人之家，不是救援病犬貓",
+      "text": "海報說收入5%給Old People House，也就是老人之家。B病犬病貓救援沒有材料支持；不能因看到捐款，就猜成救援寵物。",
+      "alt": "新製老人之家受助概念場景，長者尊重呈現，無寵物醫院/救援病獸；百分比與機構詞只用HTML，不造真實捐款紀錄。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ mostly問整張海報，不只一個優惠",
+    "answer": "答案 D：宣傳攤位商品與服務",
+    "points": [
+      "A、C是部分細節，D才涵蓋全張。",
+      "公益受益者是老人之家，不是病犬貓。",
+      "試吃、免費贈品與折扣都有各自條件，商品不一定全免費。"
+    ]
+  },
+  "protectedWords": [
+    "mostly",
+    "Joy Pet Fair",
+    "Magic Tool",
+    "Old People House",
+    "老人之家",
+    "病犬病貓",
+    "餐點",
+    "生日優惠",
+    "壽星折扣",
+    "優惠",
+    "攤位",
+    "試吃",
+    "免費贈品",
+    "材料支持",
+    "5%"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-532-reading-source-234824077e.jpg",
+    "site/dist/assets/questions/q-532-source-d3786db80a.jpg"
+  ],
+  "originalVisualCheck": "實看完整Joy Pet Fair海報八攤、生日Magic Tool20%/一攤一章八章禮物/5%OldPeopleHouse、全部贈品條件及32題四選項，原A紅改D；未把捐款對象改成病犬貓。",
+  "answerCheckedAgainst": "D為整張宣傳寵物攤位商品服務主旨，A/C真實但局部、B無原海報支持；不因部分資訊真就選主旨題，也不否定海報確有公益。",
+  "rationale": "新製整展多業態/餐點一角/老人之家受益者三景，把全體、局部與不存在的B線索分開；精確日期、金額、折扣/集章條件仍依原海報與HTML，不由模型拼寫或重建。",
+  "promptPath": "docs/comics/q-532-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "25ae2dc2373a6696e4217d21a4c4eca64c9c6b034833d3e0c47edaab2e8740d6",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:53:59.297150+00:00",
+  "completedAt": "2026-10-29T03:53:59.297150+00:00",
+  "layoutEvidence": "docs/comics/q-532-preview-validation.json",
+  "visualReview": "實看新三景與1440/1120/390：全展多種商品服務/單一寵物食品/老人之家受益者對應，無病獸救援或商品全免費假象。原5%僅HTML無生成數字；Magic Tool/Old People House完整不拆，桌面同列等高、手機自然高，無橫溢。"
+}

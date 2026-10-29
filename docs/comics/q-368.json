@@ -1,0 +1,68 @@
+{
+  "id": "q-368",
+  "subject": "English",
+  "title": "看刷子與指甲油，選painting her nails",
+  "art": "docs/comics/art/q-368.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T03:59:08.782362+00:00",
+  "generationStartedAt": "2026-10-29T04:00:42.296Z",
+  "generationCompletedAt": "2026-10-29T04:01:04.974Z",
+  "generationMetadata": "docs/comics/q-368-generation.json",
+  "promptFile": "docs/comics/q-368-prompt.txt",
+  "panels": [
+    {
+      "heading": "① 小刷子與指甲油瓶，是辨識動作的線索",
+      "text": "原題圖有小刷子與指甲油瓶，女子把刷子伸向另一手的指甲。先看工具和動作，才能判斷是在塗指甲油；左圖以新的近景幫助看懂這項動作。",
+      "alt": "新的成人手部近景，以小指甲油刷塗另一手指甲、旁有無標籤指甲油瓶；不替換或重建原題的必要作答圖。"
+    },
+    {
+      "heading": "② painting：塗指甲油",
+      "text": "完整句是The woman is painting her nails. paint在這個搭配中表示塗色，nails是指甲。四個選項本來都是V-ing，不能只靠is後用V-ing就決定答案，還要核對動作。",
+      "alt": "虛構成年女子在桌邊以刷子塗指甲油的新全景，動作與painting搭配；文字與語法全部在HTML。"
+    },
+    {
+      "heading": "③ washing是用水清洗，和painting不同",
+      "text": "另看洗手的對照圖，washing是清洗。biting是咬，cutting是剪，painting才是本題刷指甲油的動作。把字義和原圖逐項對照，就能選C。",
+      "alt": "另設對照為成人用肥皂流水洗手，沒有指甲油刷；用來說明washing，並非原題女子接下來的行動。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：painting",
+    "points": [
+      "painting her nails＝塗指甲油。",
+      "刷子與指甲油瓶符合原圖動作。",
+      "四個選項皆V-ing，仍須由動作和字義選擇。"
+    ]
+  },
+  "protectedWords": [
+    "painting",
+    "painting her nails",
+    "her nails",
+    "nails",
+    "V-ing",
+    "washing",
+    "biting",
+    "cutting"
+  ],
+  "rationale": "原卷完整題句/全選項與必要作答圖實看，C維持。全新內建imagegen手部工具近景/成人塗指甲全景/另設洗手對照，讓學生由圖像動作選字，不只套進行式。無字新說明場景而非AI改造原卷，原題圖仍獨立保留；人物手部/工具實看。",
+  "promptSummary": "全新無字三方情境：成人手部小刷塗指甲、同一成人桌邊塗指甲、另設流水洗手washing對照。精確英文HTML，不用來源AI或重建原題作答圖。",
+  "answerCheckedAgainst": "原卷Look at the picture/The woman is___her nails與A biting/B cutting/C painting/D washing；必要圖小刷子＋指甲油瓶塗另一手指甲，C。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-368-source-5d08735668.jpg",
+      "site/dist/assets/questions/q-368-figure-a995becd89.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見完整題幹/四選項與原圖女子刷指甲油，非只看文字猜圖。新插畫另作說明，不取代必要原卷證據。"
+  },
+  "artSHA256": "d83dcdeb604cde8d493637312f537f50f9841ebdbd143eb9322c0a8543df3e66",
+  "completedAt": "2026-10-29T04:02:53.997767+00:00",
+  "checkedAt": "2026-10-29T04:02:53.997779+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-368-preview-validation.json",
+  "visualReview": "實看原卷完整題句/四選項與作答圖、新2172×724原始素材及最終1440/390。小刷與指甲油瓶/塗指甲動作清楚，兩手無多指畸形，另設washing對照不冒充原題後續。縮短第二格標題後重跑親看，消除手機單獨②一行；桌機同列等高、手機自然高無溢出裁切，C維持。"
+}

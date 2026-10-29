@@ -1,0 +1,108 @@
+{
+  "id": "q-549",
+  "subject": "History",
+  "title": "先屬諸羅，1723年才分設彰化",
+  "art": "docs/comics/art/q-549.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-549-generate.py",
+  "startedAt": "2026-10-29T02:58:51.051079+00:00",
+  "panels": [
+    {
+      "heading": "① 清初一府三縣，還沒有彰化縣",
+      "text": "1683年清廷領有臺灣，隔年設臺灣府，下轄臺灣、鳳山、諸羅三縣。當時彰化尚未另設縣，該地區在諸羅縣管轄內。",
+      "alt": "1684臺灣府下三縣的行政樹，諸羅縣特別著色，包含後來分出的彰化地區；非地理方位或面積圖。"
+    },
+    {
+      "heading": "② 1723分設，才有彰化縣",
+      "text": "材料說原轄區太大，清廷於1723年重新劃設彰化縣。是從諸羅縣劃出，不是將諸羅整個改名為彰化，因此D銜接設縣前後最恰當。",
+      "alt": "原諸羅縣部分轄域劃出而新設彰化縣，只示本題相關關係，不冒充1723所有行政調整的完整列表，也不是整縣更名。"
+    },
+    {
+      "heading": "③ 1721不是林爽文，時序要對",
+      "text": "1721年是朱一貴事件，1723年彰化設縣；林爽文事件始於1786年，較晚。C把不同事件混在一起，不能因事件也與彰化有關就選它。",
+      "alt": "1721朱一貴、1723彰化設縣、1786林爽文三張順序卡；只表先後，不用卡片間隔冒充時間長度比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：設縣前屬諸羅縣管轄",
+    "points": [
+      "1684一府三縣→1723從諸羅分設彰化。",
+      "半線社與巴布薩族背景相關，不直接換成西拉雅族。",
+      "物產豐饒不等於可任意填入茶葉、樟腦，還要核對時期。"
+    ]
+  },
+  "protectedWords": [
+    "彰化縣",
+    "諸羅縣",
+    "臺灣府",
+    "臺灣縣",
+    "鳳山縣",
+    "朱一貴事件",
+    "林爽文事件",
+    "巴布薩族",
+    "西拉雅族",
+    "半線社",
+    "1723年",
+    "1786年"
+  ],
+  "rationale": "原卷設縣沿革全段/四選項實看，D維持。全新行政樹/分設支系/事件順序圖，清楚不將諸羅整縣改名、不將1721誤認林爽文，不造古地圖邊界；官方彰化縣沿革與文獻資料核查，A族名和B時期僅按已核對範圍。",
+  "promptSummary": "原生SVG1684臺灣府一府三縣、諸羅含後分彰化；1723諸羅部分轄域劃出新設彰化；1721/1723/1786順序卡。非完整1723改制清單/疆界面積/比例年代線，不採來源AI圖。",
+  "answerCheckedAgainst": "原卷1683隔年設府三縣、1721事件後1723設彰化與A–D；彰化縣政府及臺灣文獻館分諸羅設彰化的官方記錄，D不變。",
+  "officialReferences": [
+    {
+      "url": "https://www.chcg.gov.tw/ch2/abouts-build-city-story.aspx",
+      "finding": "彰化縣政府記載1723從諸羅分出虎尾至大甲範圍設彰化治縣。"
+    },
+    {
+      "url": "https://www.th.gov.tw/Epaper_Content/238/7150/",
+      "finding": "臺灣文獻館說明1723劃諸羅縣部分地域設彰化，與行政分設示意相符。"
+    },
+    {
+      "url": "https://daap.ly.gov.tw/tw/daap/125-5937.html",
+      "finding": "立法院民主議政園區史料說明朱一貴事件為1721，避免與林爽文混淆。"
+    },
+    {
+      "url": "https://www.changtax.gov.tw/FileDownLoad/FileUpload/20190130114310165483.pdf",
+      "finding": "彰化縣地方稅務局地方資料說明半線與巴布薩族背景，非選項西拉雅。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-549-source-a0222ff6b9.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "實看完整方框材料1683/隔年三縣/1721/1723與南虎尾北大甲及全部A–D；原卷紅D，沒有把後來行政稱謂提前。"
+  },
+  "artSHA256": "d59f8346932ae5d1a432ab637b9455eee7355c670c3941dd76032b008473bbb0",
+  "completedAt": "2026-10-29T03:02:29.782755+00:00",
+  "checkedAt": "2026-10-29T04:49:38.976770+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-549-preview-validation.json",
+  "visualReview": "實看原卷全文/四選項及540×180新原生、最終1440/390：1684三縣樹、1723部分轄域劃出彰化、事件先後卡明確。分設圖只表本題關係，不冒稱完整1723行政改制或整縣更名；D不變。三寬無溢出，同列等高/手機自然高度，三事件年號與名稱無錯配。",
+  "nativeArt": "assets/comics/q-549-art-d59f834693.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:49:38.974147+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷1683/1684三縣、1721事件、1723劃設及四選項實看；樹狀圖不造地界、部分諸羅分設而非整體改名，朱一貴/林爽文先後正確。正式桌手機實看及三寬18項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-549-validation.json"
+}

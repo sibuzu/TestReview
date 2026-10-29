@@ -1,0 +1,79 @@
+{
+  "id": "q-207",
+  "subject": "Math",
+  "title": "摺線平分前後角，三個80°相加",
+  "art": "docs/comics/art/q-207-fold.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:35:09.305982+00:00",
+  "panels": [
+    {
+      "heading": "① 摺過去，50°保持不變",
+      "text": "把摺線兩端暫記P、Q。摺疊以PQ為對稱軸，原紙邊與摺線夾50°，新紙邊與摺線也夾50°。所以∠1＝180°−50°−50°＝80°。",
+      "alt": "新製P點原紙邊40度與新紙邊-60度，以-10度PQ為對稱軸，兩個50度分置兩側，原紙邊虛線與新紙邊實線區分。"
+    },
+    {
+      "heading": "② 用平行紙邊找等角",
+      "text": "原紙條的兩長邊互相平行，摺後兩長邊也平行。依題目標出的方向，∠2與∠1相等，∠3也相等，所以三個角都是80°。",
+      "alt": "以已核對原題重繪座標新製摺後紙條局部教學圖，P/X/Q上方三個80度角弧對應1/2/3，不改成補角。"
+    },
+    {
+      "heading": "③ 不能把其中一角換補角",
+      "text": "看清楚1、2、3各自標在哪個角域。相交處雖然也會有100°的補角，原題要加的三個角卻都是80°，合計240°。",
+      "alt": "新製三個指定角各80度的原生詞塊，依角弧對應顏色，不把100度鄰角混入總和。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 摺線平分前後角，三個80°相加",
+    "answer": "答案 D：240°",
+    "points": [
+      "∠1＝180°−2×50°＝80°。",
+      "∠1＝∠2＝∠3＝80°。",
+      "80°＋80°＋80°＝240°。"
+    ]
+  },
+  "protectedWords": [
+    "摺線",
+    "摺疊",
+    "紙邊",
+    "紙條",
+    "對稱軸",
+    "平行",
+    "補角",
+    "相等",
+    "角域",
+    "三個角",
+    "∠1",
+    "∠2",
+    "∠3",
+    "50°",
+    "80°",
+    "100°",
+    "180°",
+    "240°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-207-source-92cc3e9069.jpg"
+  ],
+  "originalVisualCheck": "實看原卷2題完整V摺紙與50度虛線、原題1/2/3角位置、222/228/234/240選項；另讀before/after既有作答必要重繪，P/Q/X是解說加名。",
+  "answerCheckedAgainst": "PQ對稱軸-10°，原長邊40°反射成-60°，50+50共100，和原反向紙邊成80；三指定角皆由220°與300°射線組成80度，總240選D。",
+  "rationale": "數學用原生精確摺線/角弧/平行紙邊/三角總和分步圖，依原卷指定角而非人物情境；保留必要題圖不動，全新教學組合。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "foldAxisDeg": -10,
+    "originalRayDeg": 40,
+    "reflectedRayDeg": -60,
+    "angles": [
+      80,
+      80,
+      80
+    ],
+    "sum": 240,
+    "geometryReference": "checked questionFigures after.svg coordinates, new diagram composition and arcs"
+  },
+  "artSHA256": "353e643b6ef5ef8d6080a0e67b992b3d4829c3ef6f81d2dbffffda064a2737c7",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:35:36.553881+00:00",
+  "completedAt": "2026-10-29T04:35:36.553881+00:00",
+  "layoutEvidence": "docs/comics/q-207-preview-validation.json",
+  "visualReview": "實看1440/1120/390，摺線兩側各50度、原紙邊虛線和新紙邊實線分明；P/X/Q三角弧與原題1/2/3方向相同，沒有把補角當指定角。三寬字圖無溢出、同行等高與手機自然高。"
+}

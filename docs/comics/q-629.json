@@ -1,0 +1,69 @@
+{
+  "id": "q-629",
+  "subject": "English",
+  "title": "there be列舉練習：先看緊接的名詞",
+  "art": "docs/comics/art/q-629.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-629-generate.py",
+  "startedAt": "2026-10-29T03:22:58.426729+00:00",
+  "panels": [
+    {
+      "heading": "① 一顆蘋果，加上三顆柳橙",
+      "text": "an apple是單數，three oranges是複數，圖中是餐桌上一顆蘋果和三顆柳橙。不過本題的國中there be列舉練習，不是把水果總數加起來就決定動詞。",
+      "alt": "餐桌上明確畫一顆紅蘋果和三顆橙色柳橙，文字an apple與three oranges對應兩組，數目精確。"
+    },
+    {
+      "heading": "② 第一個名詞是單數an apple",
+      "text": "依本題的就近搭配，be動詞後先接an apple，因此用There is an apple and three oranges on the dining table. 後面的three oranges不改變這題的預期答案B。",
+      "alt": "There is下方緊接著色an apple，再列and three oranges，指出本題先接單數，非用總水果數選動詞。"
+    },
+    {
+      "heading": "③ 把順序反過來，更容易看懂配對",
+      "text": "若同樣按這項列舉練習，先列three oranges，再列an apple，就配There are three oranges and an apple。這個對照幫助看出本題先接哪個名詞；不要與一般複數主詞直接畫上等號。",
+      "alt": "對照改寫There are three oranges and an apple，先接的three oranges著色；限定同樣依本題列舉配法，不宣稱所有英文語境只能如此。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：is",
+    "points": [
+      "原句先接an apple，依本題就近配法用is。",
+      "後面的three oranges是列舉的另一組物品。",
+      "此處辨識there be列舉句，不只數共有幾顆水果。"
+    ]
+  },
+  "protectedWords": [
+    "an apple",
+    "three oranges",
+    "There is",
+    "There are",
+    "there be",
+    "dining table"
+  ],
+  "rationale": "完整來源題幹與四選項、預期B解釋已讀。新原生精確水果數量、原句第一名詞、反轉順序比較，釐清本題的就近列舉配法而不擴大為所有英文跨語域唯一規範；不用人物/來源AI圖。",
+  "promptSummary": "新原生SVG一蘋果三柳橙餐桌、There is an apple先接單數、There are three oranges先接複數對照。數量用SVG精確控制，文字可讀、同本題範圍，不採來源AI圖。",
+  "answerCheckedAgainst": "來源There___an apple and three oranges/A am B is C are D be及來源就近名詞說明、現有完整詳解；沿已核對國中列舉B答，不重開語域問題。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "transcript": "site/dist/sources/gemini-0KrY8NZ0TTP2.txt",
+    "questionLines": "101–119",
+    "answerLines": "174–192",
+    "visualChecked": true,
+    "answer": "B is",
+    "notes": "來源文字練習完整四選項與解說已讀；原本無照片，不是缺圖。保持本題國中列舉句範圍，不改題或重開已核定答案。"
+  },
+  "artSHA256": "43dd3eabba7217fab15d3e9f63dbd7280d9154198525f2090e596a8189b79b14",
+  "countValidation": {
+    "applePaths": 1,
+    "orangeCircles": 3,
+    "originalFirstNoun": "an apple",
+    "contrastFirstNoun": "three oranges",
+    "checked": true
+  },
+  "completedAt": "2026-10-29T03:25:11.780534+00:00",
+  "checkedAt": "2026-10-29T03:25:11.780545+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-629-preview-validation.json",
+  "visualReview": "完整文字來源/四選項與就近配法解答已讀，原答B不變。實看原生及最終1440/390，餐桌上一蘋果三柳橙精確，原句先接單數/反轉先接複數的對照清楚；多次標明本題列舉範圍，不擴為全語域絕對規則。桌機同列等高/手機自然高，英文詞組換行無溢出裁切。"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "q-205",
+  "subject": "Math",
+  "title": "兩個等腰關係，把小周長拼回AB＋AC",
+  "art": "docs/comics/art/q-205.svg",
+  "protectedWords": [
+    "BD＝DP",
+    "CE＝EP",
+    "DE＝DP＋PE",
+    "AB＋AC",
+    "AD＋BD",
+    "AE＋CE",
+    "△BDP",
+    "△CEP",
+    "△ADE",
+    "角平分線",
+    "內錯角",
+    "周長差"
+  ],
+  "panels": [
+    {
+      "heading": "① B角平分線加平行，得到BD＝DP",
+      "text": "BP平分B角，∠DBP＝∠PBC。又DP平行BC，∠BPD＝∠PBC，所以△BDP有兩個相等的角，是等腰三角形，得到BD＝DP。",
+      "alt": "依AB15、BC14、AC13精確座標作圖，△BDP淡綠、BD與DP同綠，B的兩半角與P處相等內錯角用綠弧標出。"
+    },
+    {
+      "heading": "② C角也同樣處理，得到CE＝EP",
+      "text": "CP平分C角，配合EP平行BC，可得∠ECP＝∠CPE。△CEP為等腰三角形，所以CE＝EP；左右兩側的短邊，都能替換成DE上的一段。",
+      "alt": "相同座標下△CEP淡橘、CE與EP同橘，C的兩半角及P處內錯角橘弧；不把兩組不同長邊畫成同長。"
+    },
+    {
+      "heading": "③ 把DE拆開，再各自補回大三角形兩側",
+      "text": "P在DE上，DE＝DP＋PE＝BD＋CE。因此小周長AD＋AE＋DE，重組為AD＋BD加上AE＋CE，正好是AB＋AC，不是大周長的一半。",
+      "alt": "△ADE上方藍色，DE分成綠DP及橘PE，分別和兩側綠BD、橘CE對應；圖未把P放成DE中點，各段長度依實算。"
+    }
+  ],
+  "fourth": {
+    "answer": "(1) 小周長＝AB＋AC；(2) 周長差＝14",
+    "points": [
+      "△ABC周長＝15＋14＋13＝42。",
+      "△ADE周長＝15＋13＝28。",
+      "相差42−28＝14，也就是BC。"
+    ]
+  },
+  "rationale": "實看原卷9題完整兩問及附圖，讀來源1210–1243及1284–1318模組摘要，不假稱來源留有逐行完整證明。獨立取B(0,0)、C(14,0)、A(9,12)，角平分交點P(8,4)、D(3,4)、E(37/3,4)，驗BD=DP=5、CE=EP=13/3，兩周長42/28。新原生SVG按同尺度三格展示兩等腰/周長重組，精確弧度數據另存，答案14不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-205-source-4b4e4b2a5c.jpg",
+    "site/dist/assets/questions/q-205-given.svg (read exact supplied source geometry)",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1210–1243,1284–1318"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG 13-14-15 triangle, angle-bisector equal arcs and side-length perimeter rearrangement",
+  "answerCheckedAgainst": "內錯角配角平分線→BD=DP、CE=EP；DE=BD+CE；小周長AB+AC=28，大周長42，差14。精確座標及角度/長度獨立驗證。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:34:28.077259+00:00",
+  "checkedAt": "2026-10-29T04:35:08.042390+00:00",
+  "validationFile": "docs/comics/q-205-preview-validation.json",
+  "artSha256": "d21b42aa8d293bb31495749dd2a818b75cbe7ebdbeb0fa5a10f40b2931f991ab"
+}

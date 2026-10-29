@@ -1,0 +1,70 @@
+{
+  "id": "q-370",
+  "subject": "English",
+  "title": "遊客為花而來：be famous for",
+  "art": "docs/comics/art/q-370.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:02:05.361289+00:00",
+  "panels": [
+    {
+      "heading": "① 後句的遊客，提供語意線索",
+      "text": "很多人來小鎮看花，表示花是這裡吸引人的特色。不是小鎮生氣，也不是單說友善或令人興奮，要選有名的famous。",
+      "alt": "新製花園遍布的虛構小鎮，未宣稱真實旅遊地點、節慶或特定花種，貼近small town與flowers。"
+    },
+    {
+      "heading": "② be famous for：因特色聞名",
+      "text": "This small town is famous for its flowers.意思是這座小鎮以花聞名。for後的flowers是聞名的特色，和後句賞花情境相合。",
+      "alt": "新製遊客注視或拍照花園的情境，賞花是來訪重點，不畫城市藝人表演或其他觀光賣點。"
+    },
+    {
+      "heading": "③ them指flowers，不是town",
+      "text": "後句watch them的them，指前句複數的flowers。遊客來看的是花；town是單數小鎮，不是這裡them的對象。",
+      "alt": "新製多朵花與輕指花叢的手，協助理解複數flowers的指涉；不生成them等字或以花數當原題條件。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 遊客為花而來：be famous for",
+    "answer": "答案 B：famous",
+    "points": [
+      "be famous for＋特色：因某事物聞名。",
+      "後句Lots of people...watch them提供賞花線索。",
+      "先讀語意，再核對搭配與代名詞指涉。"
+    ]
+  },
+  "protectedWords": [
+    "小鎮",
+    "遊客",
+    "賞花",
+    "特色",
+    "聞名",
+    "famous",
+    "be famous for",
+    "for",
+    "flowers",
+    "This small town",
+    "is famous for",
+    "its flowers",
+    "watch them",
+    "them",
+    "town",
+    "Lots of people",
+    "複數",
+    "單數",
+    "代名詞",
+    "指涉"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-370-source-c23aac3eb7.jpg"
+  ],
+  "originalVisualCheck": "實看24題This small town...for its flowers/Lots of people come here to watch them全句與angry/famous/friendly/exciting四項，B原卷可見，題無地名花種不猜。",
+  "answerCheckedAgainst": "原B，從賞花遊客→因花聞名與famous for搭配獨立核對，them回指複數flowers；不只看介系詞背單字，也不把其他形容詞全球判文法不可。",
+  "rationale": "新製小鎮花園/遊客賞花/多朵花指涉三景，讓詞義搭配與them讀法相接；完整文字HTML無生成品牌地名，不作真實旅遊推薦或補造花卉節。",
+  "promptPath": "docs/comics/q-370-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "01b1bd392361083aeb6d9b2d5853e7e792b4cfd55c81b2b18aa794b99930ca9d",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:03:54.313083+00:00",
+  "completedAt": "2026-10-29T04:03:54.313083+00:00",
+  "layoutEvidence": "docs/comics/q-370-preview-validation.json",
+  "visualReview": "實看三景與1440/1120/390：虛構花園小鎮/遊客確實朝花拍照/手指多朵花，無生成招牌或真實地名、額外節慶。英文famous for與them→flowers指涉在HTML完整，圖未裁主體，桌面同列等高、手機自然高、無橫溢。"
+}

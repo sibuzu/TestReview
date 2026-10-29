@@ -1,0 +1,74 @@
+{
+  "id": "q-215",
+  "subject": "Math",
+  "title": "同半徑加60°夾角，全等後用平角",
+  "art": "docs/comics/art/q-215.svg",
+  "protectedWords": [
+    "BD＝BE",
+    "AB＝BC",
+    "∠ABD",
+    "∠CBE",
+    "△ABD",
+    "△CBE",
+    "∠ADB",
+    "∠BEC",
+    "∠ADC",
+    "SAS",
+    "60°",
+    "92°",
+    "88°",
+    "適當長"
+  ],
+  "panels": [
+    {
+      "heading": "① 同圓心的圓弧，給出BD＝BE",
+      "text": "D與E在以B為圓心的同一圓弧上，所以BD＝BE。這個相等關係來自半徑，不必知道半徑數值；題目只說適當長，沒有給半徑等於正三角形邊長。",
+      "alt": "精確正三角形與B圓心弧通過D/E，BD/BE同綠，E在BC下方，原92度標在E；弧半徑約邊長0.4698僅供實現原角，不冒充題設。"
+    },
+    {
+      "heading": "② 兩邊與夾角對上，SAS證全等",
+      "text": "正三角形有AB＝BC，且∠ABD＝60°。BE平行AC，依圖∠CBE也等於60°。加上BD＝BE，得到△ABD≅△CBE，對應為A對C、B對B、D對E。",
+      "alt": "分離畫出的ABD與CBE採相同尺度，AB/BC同藍、BD/BE同綠，兩個B處60度；不把相等兩邊與非夾角誤當SAS。"
+    },
+    {
+      "heading": "③ D點92°與所求角互補",
+      "text": "由全等對應角，∠ADB＝∠BEC＝92°。B、D、C共線，∠ADC與∠ADB合成180°，所以∠ADC＝180°−92°＝88°。",
+      "alt": "只放大正三角形及AD，D在BC中間，92在DB一側、88在DC一側，兩角共線互補，非把92與88標在同一側。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：88°",
+    "points": [
+      "同圓半徑：BD＝BE。",
+      "AB＝BC且夾角60°，SAS得全等。",
+      "∠ADB＝92°，∠ADC＝180°−92°＝88°。"
+    ]
+  },
+  "rationale": "實看原卷11完整題幹及附圖、讀givenSVG與來源1370–1398不變量摘要；源只留角和摘要，未有逐行完整證明，獨立完成SAS。取等邊長1供繪圖，r=sin28/sin92實現BEC92，驗BD=BE、AB=BC、兩B夾角60、ADB92及ADC88，BE與AC叉積0。新精確SVG同半徑/分離同尺度全等/補角三步，無須把半徑算入教學，答案88不變。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-215-source-c4fdba3417.jpg",
+    "site/dist/assets/questions/q-215-given.svg (exact source construction read)",
+    "site/dist/sources/gemini-GD2msWyGjhx0.txt lines 1370–1398"
+  ],
+  "sourceUrl": "https://share.gemini.google/GD2msWyGjhx0",
+  "generationMethod": "precise native SVG equal-radius arc, same-scale SAS correspondence and linear-pair angle transfer",
+  "answerCheckedAgainst": "AB=BC、BD=BE、角ABD=CBE60→ABD≅CBE，ADB=BEC92；ADC補角88。精確半徑只是繪圖驗角，非原題新增長度。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T04:48:30.425344+00:00",
+  "checkedAt": "2026-10-29T04:49:15.333400+00:00",
+  "validationFile": "docs/comics/q-215-preview-validation.json",
+  "artSha256": "ac21517963bbe947ae0e786f43b79c789b033b39c6601154bb7847a263d67fb1"
+}

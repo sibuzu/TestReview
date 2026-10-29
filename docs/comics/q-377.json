@@ -1,0 +1,87 @@
+{
+  "id": "q-377",
+  "subject": "History",
+  "title": "稱呼與信仰都跨過原鄉祖籍的界線",
+  "art": "docs/comics/art/q-377.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-377-generate.py",
+  "startedAt": "2026-10-29T03:09:38.500112+00:00",
+  "panels": [
+    {
+      "heading": "① 稱呼由祖籍轉向臺灣的居住區域",
+      "text": "泉州人、漳州人，重點是祖籍來自哪裡；頂港人、下港人，重點轉為臺灣的北部與南部。材料呈現分類重心改變，不能把頂港直接當成泉州的另一名稱。",
+      "alt": "原鄉祖籍分類泉州人漳州人，向下轉為臺灣居住區域分類頂港北部與下港南部；不把兩組名稱一一配對。"
+    },
+    {
+      "heading": "② 不同祖籍居民，也有共同守護神",
+      "text": "開漳聖王、保生大帝與三山國王等鄉土神，逐漸成為不同祖籍居民共同信仰的守護神，顯示信仰圈跨越原有祖籍界線。不是說所有居民從此只信同一位神。",
+      "alt": "兩組不同祖籍居民連向共同信仰，表示信仰跨祖籍；不畫特定神像、族群外貌或假定居民只信單一神明。"
+    },
+    {
+      "heading": "③ 兩項變化，都指向祖籍意識淡化",
+      "text": "稱呼與信仰都呈現地方社會的融合，最符合D。A的性別比例、B的人口減少，都需要另外的人口資料；C的分類械鬥加劇，也不是這兩項變化的方向。",
+      "alt": "可支持的祖籍界線淡化/地方融合與材料未提供的人口數據分開，避免從社會認同變化推算人口。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：漢人移民祖籍觀念日趨淡薄",
+    "points": [
+      "稱呼從原鄉祖籍轉向臺灣居住區域。",
+      "共同信仰跨越不同祖籍的居民。",
+      "「日趨淡薄」是趨勢，不等於祖籍被忘記或衝突全消失。"
+    ]
+  },
+  "protectedWords": [
+    "泉州人",
+    "漳州人",
+    "頂港人",
+    "下港人",
+    "開漳聖王",
+    "保生大帝",
+    "三山國王",
+    "不同祖籍",
+    "原住民族"
+  ],
+  "rationale": "原卷完整題幹與四選項實看，D不變。新原生兩種分類依據、跨群信仰連線與推論範圍，正好對應兩項材料證據；避免用同質化人物/儀式插畫，或將信仰擴大誤說成全部衝突消失。無新增史實，僅視覺化原題可支持的方向。",
+  "promptSummary": "新原生SVG：祖籍分類轉為臺灣區域分類；不同祖籍節點連共同信仰；可推趨勢與缺人口資料範圍。不畫來源AI神像/人物，非移民路線或人口比例圖。",
+  "answerCheckedAgainst": "原卷泉漳→頂下港、三類鄉土神成為跨祖籍共同信仰的兩項轉變，以及A–D；D與原詳解一致，無新增實質訂正。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-377-source-fb8dc7e08c.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "實看完整原卷清領後期、兩組稱呼/三個神明及全部A–D，原卷D可見；只論逐漸淡化，不推導所有人信仰相同或人口變化。"
+  },
+  "artSHA256": "96173e53c29df32c869f2243e849f9648f7df201599bc7f591b2e2186ea136bd",
+  "completedAt": "2026-10-29T03:11:20.018067+00:00",
+  "checkedAt": "2026-10-29T04:50:53.947371+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-377-preview-validation.json",
+  "visualReview": "親見全卷題幹/四選項、原生三圖及最終1440/390成品。泉漳與頂下港僅改分類依據，沒有一對一遷移線；兩祖籍組連共同信仰，無多餘未連接節點線。D與推論邊界一致，桌機同列等高/手機各格自然高無裁切溢出。",
+  "nativeArt": "assets/comics/q-377-art-96173e53c2.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:50:53.945543+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷全部稱呼、三神與四選項實看。兩組分類非一對一、信仰跨祖籍非全部同神、融合非全無衝突，桌手機實看及正式QA通過。",
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-377-validation.json"
+}

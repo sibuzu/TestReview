@@ -1,0 +1,65 @@
+{
+  "id": "q-013",
+  "subject": "English",
+  "title": "no one後用else，other則放在teacher前",
+  "art": "docs/comics/art/q-013.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-013-generate.py",
+  "startedAt": "2026-10-29T04:14:10.999001+00:00",
+  "panels": [
+    {
+      "heading": "① Gary是我認識的老師中最好的",
+      "text": "第一句把範圍放在說話者認識的老師，接著說沒有其他人教得這麼好。空格要表達其他的人，並與前面的no one組合。",
+      "alt": "說話者認識的老師這個範圍框內列Gary與其他認識老師，Gary著色，避免擴大全世界的比較範圍或捏造分數。"
+    },
+    {
+      "heading": "② no one是整組不定代名詞，else放後面",
+      "text": "no one else就是沒有其他人，這裡else放在no one後面，選C。類似也可說someone else、anyone else；詞義相近，仍要看完整詞組的順序。",
+      "alt": "no one與else兩塊按原句順序相接，no one作一整組、不拆成no＋名詞，else著色。"
+    },
+    {
+      "heading": "③ 用other時，改成no other teacher",
+      "text": "other通常放在名詞前，例如no other teacher。例如No other teacher teaches so well. 這和no one else是兩種結構，本題不能混接為no one other。",
+      "alt": "no/other/teacher三塊顯示other在名詞teacher前，原題錯誤混接no one other以刪除線表示，不討論other than等另一種結構。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：else",
+    "points": [
+      "no one else＝沒有其他人。",
+      "no other teacher＝沒有其他老師。",
+      "依空格前已有no one，選接在後面的else。"
+    ]
+  },
+  "protectedWords": [
+    "Gary",
+    "no one",
+    "no one else",
+    "else",
+    "other",
+    "teacher",
+    "someone else",
+    "anyone else",
+    "no other teacher"
+  ],
+  "rationale": "實看原卷兩句/四選項，C維持。新原生範圍框/no one+else/other在名詞前三圖，直接處理學生D誤選與詞序混接；不以人物教師肖像重演字義、不將最佳擴到全球客觀排名。無來源AI圖。",
+  "promptSummary": "全新原生SVG說話者認識老師的範圍、no one→後接else、no other teacher詞序與錯式混接對照。精確文字，無假排名或來源AI圖。",
+  "answerCheckedAgainst": "原卷Gary best teacher I've ever known/No one___teaches so well與A all/B another/C else/D other；no one else後置與no other teacher前置對比，C不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-013-source-hires-502b012c90.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "親見原卷完整兩句及全部A–D；說話者I've ever known限制比較範圍，未把no one other than另一句型塞入基本題。"
+  },
+  "artSHA256": "c9e6fcad5bf4be832783ff67de86932d651eff2ec946e7694d6697f04e94af1f",
+  "completedAt": "2026-10-29T04:16:50.729267+00:00",
+  "checkedAt": "2026-10-29T04:16:50.729278+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-013-preview-validation.json",
+  "visualReview": "親見原卷兩句/四選項、原生540×180與最終1440/390。已認識老師範圍框、no one後else、no other teacher詞序對照清楚；錯式no one other刪除線僅針對本題混接。桌機同列等高/手機自然高，詞組換行無裁切溢出，C不變，不引入other than額外例外。"
+}

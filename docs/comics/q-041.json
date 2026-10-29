@@ -1,0 +1,83 @@
+{
+  "id": "q-041",
+  "subject": "Physics-Chemistry",
+  "title": "同樣重量，從一浮一沉比較浮力",
+  "art": "docs/comics/art/q-041-buoyancy.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:14:32.090896+00:00",
+  "panels": [
+    {
+      "heading": "① 浮著靜止，浮力等於重量",
+      "text": "保麗龍球浮在水面、保持靜止，向上的浮力與向下的重量平衡。設兩球的共同重量都是W，保麗龍球浮力就是W。",
+      "alt": "精確SVG保麗龍球部分浸水，浮力向上與重量向下同長；水在球後、液面不中穿球，球浸入比例僅概念示意。"
+    },
+    {
+      "heading": "② 鐵球下沉，浮力小於重量",
+      "text": "鐵球沉入食鹽水，所受浮力小於同一個W。圖取未觸底的下沉狀態、忽略水阻；若已沉到底，靜止還有底部支持力。",
+      "alt": "精確SVG鐵球在食鹽水液面下、與底部保有間距，浮力向上較短、重量向下與浮球同長；不是浮力為零。"
+    },
+    {
+      "heading": "③ 等重量，正好提供共同基準",
+      "text": "浮球浮力＝W，沉球浮力＜W，所以浮球較大。食鹽水較密，仍不能只看液體密度；排開液體體積也影響浮力。",
+      "alt": "精確SVG同一W基準下浮球等於W、沉球小於W的關係，未把箭頭長度當題目提供的精確比例。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 同樣重量，從一浮一沉比較浮力",
+    "answer": "答案 A：保麗龍球所受浮力較大",
+    "points": [
+      "等重量，不等於浮力一定相同。",
+      "沉下去的鐵球仍然受到浮力。",
+      "題目的一浮一沉已足夠，不必另求食鹽水密度。"
+    ]
+  },
+  "protectedWords": [
+    "保麗龍球",
+    "鐵球",
+    "食鹽水",
+    "浮力",
+    "重量",
+    "靜止",
+    "共同重量",
+    "下沉狀態",
+    "水阻",
+    "支持力",
+    "液體密度",
+    "液體體積",
+    "等重量",
+    "一浮一沉"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-041-source-071ad50200.jpg"
+  ],
+  "originalVisualCheck": "實看第8題全選項與兩物體/兩液體，保麗龍球在水面、鐵球沉食鹽水，等重量，A。未誤用舊摘要鐵/鋁兩球。",
+  "answerCheckedAgainst": "原卷A，獨立以浮球平衡F=W、鐵球F<W且重量相等驗證。圖取未觸底、忽略水阻的國中基本模型；底部情況在文字補支持力，不誤稱沉球無浮力。",
+  "rationale": "精確球體液面與受力SVG比人物情境直接呈現浮力/重量關係，水先填後畫球與受力，兩重力箭頭同長、浮球兩箭頭同長，沉球上箭頭較短；不讓imagegen決定科學狀態。",
+  "generationCalls": 0,
+  "sourceChecks": [
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+      "supports": "浮體平衡與阿基米德原理：浮力等於排開流體重量，受液體密度及排液體積共同影響",
+      "access": "已開啟並讀浮沉及排液重量/體積關係段落。"
+    }
+  ],
+  "diagramChecks": {
+    "weightArrowLengths": [
+      35,
+      35
+    ],
+    "foamBuoyancyLength": 35,
+    "ironBuoyancyLength": 18,
+    "ironTop": 85,
+    "liquidSurfaceIron": 57,
+    "ironBottom": 119,
+    "tankBottom": 149,
+    "physicalRatios": "純示意，不據此推算原題未給的密度與精確浮力比例"
+  },
+  "artSHA256": "5866feaec394d1d7b3bda2b5c3e1136a8501ca60f88d85eb44330f243ea747af",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:16:15.503871+00:00",
+  "completedAt": "2026-10-29T03:16:15.503871+00:00",
+  "layoutEvidence": "docs/comics/q-041-preview-validation.json",
+  "visualReview": "實看1440/1120/390：水先填/球與力後畫，保麗龍部分入水、鐵球全入水未觸底，兩W箭頭同長且力共線；浮球浮力=W、鐵球浮力<W，食鹽水標籤已避開浮力。無層遮/標籤重疊、無橫溢，同列等高與單欄自然高。"
+}

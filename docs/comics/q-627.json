@@ -1,0 +1,80 @@
+{
+  "id": "q-627",
+  "subject": "English",
+  "title": "已有be動詞，移到主詞前問問題",
+  "art": "docs/comics/art/q-627-word-order.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:23:22.767584+00:00",
+  "panels": [
+    {
+      "heading": "① 先找到主詞與be動詞",
+      "text": "The coffee是主詞，is是be動詞，hot表示熱的。原句是在陳述咖啡是熱的；改成Yes/No問句時，內容仍保留。",
+      "alt": "原生SVG三詞塊The coffee/is/hot.，依主詞、be、形容詞配色標記，不依人物猜主詞。"
+    },
+    {
+      "heading": "② 把is移到the coffee前",
+      "text": "已有be動詞，直接移到主詞前。原來的is成為句首Is，the coffee放在後面，hot仍保留；不用另外加入do或does。",
+      "alt": "原生SVG原詞序至Is/the coffee/hot?，曲箭頭只標is前移，其他詞塊依新句序重排，不把hot一起前移。"
+    },
+    {
+      "heading": "③ 句首大寫，句尾改問號",
+      "text": "完成Is the coffee hot?，意思是咖啡是熱的嗎？coffee在本句作不可數名詞使用，仍配is，不因改成問句就換成are。",
+      "alt": "原生SVG完整問句與is→Is、句點→問號格式檢查，native labels精確拼字，可由HTML核對。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 已有be動詞，移到主詞前問問題",
+    "answer": "答案：Is the coffee hot?",
+    "points": [
+      "be動詞＋主詞＋其餘部分＋問號。",
+      "The coffee is hot. → Is the coffee hot?",
+      "主詞不變，hot保留，不加do或does。"
+    ]
+  },
+  "protectedWords": [
+    "The coffee",
+    "the coffee",
+    "coffee",
+    "Is the coffee hot?",
+    "Yes/No",
+    "be動詞",
+    "主詞",
+    "形容詞",
+    "不可數名詞",
+    "問句",
+    "句首",
+    "句尾",
+    "問號",
+    "大寫",
+    "hot",
+    "are",
+    "is",
+    "do",
+    "does"
+  ],
+  "originalAssets": [],
+  "originalTextSource": "docs/sources/gemini-0KrY8NZ0TTP2.json",
+  "originalVisualCheck": "本題為原對話純文字延伸，無原卷照片；讀來源第二部分改寫第3題The coffee is hot.與答案Is the coffee hot?。原題原問句用語在既有解說解作一般疑問句，不另改題幹。",
+  "answerCheckedAgainst": "英文現在式be一般問句直接倒裝，the coffee本句不可數主詞仍is；詞序/大寫/標點逐項核對，答案不變。",
+  "rationale": "詞塊配色與移位箭頭能精確顯示be問句構成，比咖啡或人物情境更直接教語序；全程新製原生SVG，不採來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "before": [
+      "The coffee",
+      "is",
+      "hot."
+    ],
+    "after": [
+      "Is",
+      "the coffee",
+      "hot?"
+    ],
+    "moves": "is前移，句首改Is、原The改the，句尾問號；保留hot，無do/does"
+  },
+  "artSHA256": "e99627deeea4c15078667fb3a0d373fa3b4c4140abc8fe2eeecac6597b29f944",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T03:24:02.660714+00:00",
+  "completedAt": "2026-10-29T03:24:02.660714+00:00",
+  "layoutEvidence": "docs/comics/q-627-preview-validation.json",
+  "visualReview": "實看1440/1120/390：原The coffee/is/hot.詞塊與Is/the coffee/hot?一一對應，is箭頭從原位置指向新句首，句首大小寫/標點不漏。英文在HTML完整保護，SVG不裁字，桌面同列等高、手機自然高、無橫溢。"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "q-064",
+  "subject": "History",
+  "title": "先讀紀年，再比對事件",
+  "art": "docs/comics/art/q-064-dates.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T03:01:22.244825+00:00",
+  "panels": [
+    {
+      "heading": "① 先找文件上可辨的紀年",
+      "text": "文件左側可讀到中華民國三十六年。這是能客觀定位的線索；字跡不清的其他內容，不先猜成政治改革主張或處理委員會。",
+      "alt": "原生SVG僅摘錄可辨的民國三十六年與36，明標非整張史料重建；沒有虛構文件抬頭或機關。"
+    },
+    {
+      "heading": "② 民國年加1911，換成西元",
+      "text": "36＋1911＝1947。把民國紀年轉成西元年，才能與四個事件的年代比較；不是加1900，也不是直接把36當成1936年。",
+      "alt": "原生SVG民國36加1911轉成1947的計算流程，數字由程式控制，不讓生成模型決定。"
+    },
+    {
+      "heading": "③ 1947年與二二八事件相合",
+      "text": "西來庵1915、霧社1930、美麗島1979，都不合文件年代。1947年與事件後的自新手續背景相合，因此選D二二八事件。",
+      "alt": "原生SVG四事件年表按1915/1930/1947/1979先後排列，1947與D二二八同色標出；非等比例年數尺。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先讀紀年，再比對事件",
+    "answer": "答案 D：二二八事件",
+    "points": [
+      "民國36年＋1911＝西元1947年。",
+      "先定位年代，再配合自新文件背景。",
+      "美麗島事件是1979年，不能只憑政治事件印象選C。"
+    ]
+  },
+  "protectedWords": [
+    "民國",
+    "三十六年",
+    "中華民國",
+    "政治改革",
+    "處理委員會",
+    "民國紀年",
+    "西元年",
+    "36＋1911＝1947",
+    "1936年",
+    "1947年",
+    "1915",
+    "1930",
+    "1979年",
+    "西來庵",
+    "霧社",
+    "美麗島事件",
+    "二二八事件",
+    "自新",
+    "客觀定位",
+    "文件年代"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-064-source-0a385ef052.jpg",
+    "site/dist/assets/questions/q-064-figure-92a425265d.jpg"
+  ],
+  "originalVisualCheck": "實看34題原卷四選項與必要自新文件；左側印刷中華民國三十六年清楚，不引用其他難辨字句。",
+  "answerCheckedAgainst": "36+1911=1947獨立驗算；西來庵1915/霧社1930/二二八1947/美麗島1979與原卷D核對。已有解說指出原AI誤述，此次不再發明機關或把自新說成改革要求。",
+  "rationale": "以原史料的可辨紀年→紀年換算→事件時間比對三步SVG，直接教史料判讀；避免人物重現鎮壓造成不必要臆測，保留完整原照片於原題作證。",
+  "generationCalls": 0,
+  "sourceChecks": [
+    {
+      "url": "https://www.228.org.tw/incident-research3",
+      "supports": "二二八事件1947及自新辦法背景，僅核對，不以片段補原卷不可辨文字",
+      "access": "已開啟報告並讀1947事件與第十四節自新背景。"
+    },
+    {
+      "url": "https://www.th.gov.tw/Epaper_Content/238/5658/",
+      "supports": "臺灣文獻館：西來庵1915",
+      "access": "官方搜尋索引可讀事件年份；直接頁面僅回傳前端殼，未聲稱讀到全文。"
+    },
+    {
+      "url": "https://www.th.gov.tw/CP/220/247/",
+      "supports": "臺灣文獻館：霧社1930/10/27",
+      "access": "官方搜尋索引可讀事件年份；直接頁面僅回傳前端殼，未聲稱讀到全文。"
+    },
+    {
+      "url": "https://www.drnh.gov.tw/p/405-1003-15330%2Cc169.php?Lang=zh-tw",
+      "supports": "前題已讀國史館美麗島事件1979/12/10"
+    }
+  ],
+  "artSHA256": "aacb17042076225e88ff4727e11a3bbf4ace85052cbf7191214b73868d6b4680",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:49:39.010745+00:00",
+  "completedAt": "2026-10-29T03:02:12.830475+00:00",
+  "layoutEvidence": "docs/comics/q-064-preview-validation.json",
+  "visualReview": "實看原卷/必要附圖與1440/1120/390：紀年摘錄清楚，36+1911=1947無誤，四事件順序A/B/D/C對應原選項，D高亮與1947同列。原生圖不重建模糊史料；三寬同列等高、手機自然高、無橫溢或拆開事件名稱。",
+  "nativeArt": "assets/comics/q-064-art-aacb170420.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T04:49:39.008706+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原文件左側中華民國三十六年實看清楚；原生摘錄非重建公文，36+1911=1947獨立核算，D與原題正確。桌手機實看及三寬18項QA通過。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-064-validation.json"
+}

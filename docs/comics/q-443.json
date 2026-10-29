@@ -1,0 +1,66 @@
+{
+  "id": "q-443",
+  "subject": "English",
+  "title": "搭飛機用took a plane，搭船用by ship",
+  "art": "docs/comics/art/q-443.png",
+  "artMode": "imagegen",
+  "startedAt": "2026-10-29T03:36:10.396924+00:00",
+  "generationStartedAt": "2026-10-29T03:37:25.711Z",
+  "generationCompletedAt": "2026-10-29T03:37:48.540Z",
+  "generationMetadata": "docs/comics/q-443-generation.json",
+  "promptFile": "docs/comics/q-443-prompt.txt",
+  "panels": [
+    {
+      "heading": "① 家庭搭乘飛機：took a plane",
+      "text": "問句How did ...詢問過去的度假交通方式，回答用take的過去式took。第一格後面已有a plane，因此是They took a plane there，表示他們搭飛機前往。",
+      "alt": "一家人帶行李在航廈看向窗外客機，表達乘客搭機而非駕駛；成員數只是示意，不冒充原題具體人數。"
+    },
+    {
+      "heading": "② go ... by ship：以船作為交通方式",
+      "text": "第二格已有go there，後面接by ship表示搭船。對話說搭船去那裡會太花時間，是用來說明為何選飛機；圖中船只是比較方案，不表示他們實際搭了船。",
+      "alt": "海上旅客船為未採用交通方式的示意，沒有王家成員在船上，無航線圖、精確航時或地理港口臆測。"
+    },
+    {
+      "heading": "③ fly a plane：操作飛機，不是單純搭乘",
+      "text": "fly to the USA可以表示搭機前往；但第一格直接接a plane，flew a plane會變成駕駛飛機。右圖以另設機師情境比較語意，避免只看到plane就選flew。",
+      "alt": "另設比較為成年專業機師在駕駛艙操作，並非王家家人；與第一圖乘客身份區分，非精確航空操作教學。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：took；by",
+    "points": [
+      "take a plane → 過去式took a plane。",
+      "go there by ship：搭船前往。",
+      "fly a plane是駕駛飛機，與本題預期的乘客交通方式不同。"
+    ]
+  },
+  "protectedWords": [
+    "took a plane",
+    "a plane",
+    "by ship",
+    "go there",
+    "fly a plane",
+    "flew a plane",
+    "the USA"
+  ],
+  "rationale": "實看原卷完整兩句與A–D，A不變。全新內建imagegen乘客家庭/作為比較的船/另設專業機師，讓搭乘與駕駛的語意差別可見，時態與by句構由HTML精確表達。不臆造實際搭船、飛行路線、家庭固定人數或家人親自開飛機。無來源AI圖。",
+  "promptSummary": "全新無字三方圖：航廈乘客家庭、海上旅客船（比較方案）、成年機師駕駛（另設比較）。精確語法HTML，不用假航線/航時/來源AI圖。",
+  "answerCheckedAgainst": "原卷過去問句How did...，They___a plane there...go there___ship與A took/by B flew/ride C flew/by D took/ride；依已核定乘客交通語境與句構A不變。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-443-source-00b3a717da.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "實看完整原卷對話及四選項，原藍C紅A；區別took a plane與fly a plane，不認定王家實際搭船或駕駛飛機。"
+  },
+  "artSHA256": "dba0c4133975af6a83c937cb7ba445a141550e4d0f9caa5c548fc2cda584197b",
+  "completedAt": "2026-10-29T03:39:14.405981+00:00",
+  "checkedAt": "2026-10-29T03:39:14.405993+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-443-preview-validation.json",
+  "visualReview": "實看完整原卷兩句/四選項、2172×724新無字圖與最終1440/390。航廈乘客對照另設機師，船標明比較方案而非實際旅程，三格圖與語法角色一致；無地圖假航時、家人駕駛誤畫。桌機同列等高、手機自然高無裁切溢出，A took/by不變。"
+}

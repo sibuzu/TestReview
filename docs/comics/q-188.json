@@ -1,0 +1,75 @@
+{
+  "id": "q-188",
+  "subject": "English",
+  "title": "Each of you：每一個人都是單數",
+  "art": "docs/comics/art/q-188-structure.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:20:16.892666+00:00",
+  "panels": [
+    {
+      "heading": "① 先看空格後面的of you",
+      "text": "原題只有一個字的位置，後面直接接of you。Each能當代名詞，用Each of you表示你們每一個人，因此圈Each。",
+      "alt": "新製詞塊Each/of you與整體語意，不額外加入原題沒有的one。"
+    },
+    {
+      "heading": "② Every不能單獨接of",
+      "text": "Every通常要放在單數可數名詞前，例如every student。若接of you，須寫Every one of you；只填Every會少了one。",
+      "alt": "新製Every of you刪除線與Every one of you對照，明确標為改寫。"
+    },
+    {
+      "heading": "③ needs配合Each的單數",
+      "text": "Each of you以每一個人為單位，是單數主詞，所以原句用needs。不要看到you就忽略前面的Each，誤把動詞改成need。",
+      "alt": "新製完整主詞Each of you與needs對應；不把of you內的you視為整句中心主詞。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ Each of you：每一個人都是單數",
+    "answer": "答案：Each",
+    "points": [
+      "Each of you needs to stay in the house.",
+      "Every one of you也成立，但不是原空格選項。",
+      "each與every意思相近，接法並不完全相同。"
+    ]
+  },
+  "protectedWords": [
+    "Each",
+    "Each of you",
+    "Every",
+    "Every one of you",
+    "Every of you",
+    "every student",
+    "of you",
+    "needs",
+    "need",
+    "you",
+    "one",
+    "each",
+    "every",
+    "單數",
+    "主詞",
+    "代名詞",
+    "可數名詞",
+    "一個字",
+    "每一個人",
+    "單數可數名詞"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-188-source-b526bb8211.jpg"
+  ],
+  "originalVisualCheck": "實看原卷第5題(Every; Each) of you needs to stay in the house.；Every為學生圈選，Each有紅筆核訂。",
+  "answerCheckedAgainst": "獨立核對each可代名詞直接接of，every必須接名詞或Every one of，Each of you搭配needs，維持既有Each答案。",
+  "rationale": "新製結構詞塊比泛用人物更能凸顯一字空格、of直接銜接與單數動詞，改寫句與原題分開；未採來源AI圖。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "choice": "Each",
+    "rewrite": "Every one of you",
+    "agreement": "Each of you needs",
+    "originalUnchanged": true
+  },
+  "artSHA256": "04e8278ca3cc85c0fe11bed4bde9f4902091c4e5af4642b3b27f1c75199577a0",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:21:48.716756+00:00",
+  "completedAt": "2026-10-29T04:21:48.716756+00:00",
+  "layoutEvidence": "docs/comics/q-188-preview-validation.json",
+  "visualReview": "實看1440/1120/390，詞塊/刪除線/單數連接正確，英文完整；雙欄同行等高、手機自然高，無溢出。"
+}

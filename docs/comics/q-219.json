@@ -1,0 +1,89 @@
+{
+  "id": "q-219",
+  "subject": "Math",
+  "title": "先求兩個角，再算80°減18°",
+  "art": "docs/comics/art/q-219-parallelograms.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T04:50:30.870265+00:00",
+  "panels": [
+    {
+      "heading": "① 平行射線把80°移到E",
+      "text": "ABCE使AB平行EC，AFDE使AF平行ED。依圖的射線方向，∠BAF與∠CED相等，所以∠4＝80°。",
+      "alt": "新製A/ E局部同向射線兩組，AB/EC青色、AF/ED橙色，兩個80角位置一致，不以反向射線畫補角。"
+    },
+    {
+      "heading": "② △ECD在D的角是58°",
+      "text": "△ECD已有E角80°與C角42°。內角和180°扣除這兩角，可得∠EDC＝58°；58°還不是題目要求的角差。",
+      "alt": "新製精確E80/C42/D58度△ECD，D58是未分割整角，不錯標成∠5。"
+    },
+    {
+      "heading": "③ DF在58°內分出∠5",
+      "text": "DF把∠EDC分成∠3＝40°與∠5。因此∠5＝18°。題目最後要的是∠4減∠5，還需用80°減18°，得到62°。",
+      "alt": "新製D局部DE/DF/DC依215/175/157度方向，40度與18度兩個鄰角位於58度內，∠5為外層弧指向DF/DC之間。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先求兩個角，再算80°減18°",
+    "answer": "答案 C：62°",
+    "points": [
+      "∠4＝80°；∠EDC＝58°。",
+      "∠5＝58°−40°＝18°。",
+      "∠4−∠5＝80°−18°＝62°。"
+    ]
+  },
+  "protectedWords": [
+    "平行",
+    "射線",
+    "同向",
+    "相等",
+    "內角和",
+    "角差",
+    "ABCE",
+    "AFDE",
+    "AB",
+    "EC",
+    "AF",
+    "ED",
+    "DF",
+    "△ECD",
+    "∠BAF",
+    "∠CED",
+    "∠EDC",
+    "∠3",
+    "∠4",
+    "∠5",
+    "80°",
+    "42°",
+    "58°",
+    "40°",
+    "18°",
+    "62°",
+    "180°"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-219-source-6ab3382c7c.jpg"
+  ],
+  "originalVisualCheck": "實看第2題ABCE/BCDF/AFDE三平行四邊形、∠1=80/2=42/3=40、求4減5，圖D上3下5且DF位於ECD的D角內，四選項58/60/62/64確認。另讀given.svg核對各射線相對方向。",
+  "answerCheckedAgainst": "AB與EC同115度、AF與ED同35度→E角80；C角42→D整角58；DE215/DF175/DC157，DF內分40+18；80-18=62(C)保持。",
+  "rationale": "新製平行同向射線、三角形整角、DF局部分角三步，最後明示所求差而非58或18本身；依數學幾何規則不用人物或來源AI。",
+  "generationCalls": 0,
+  "diagramChecks": {
+    "angle4": 80,
+    "C": 42,
+    "EDC": 58,
+    "EDF": 40,
+    "FDC": 18,
+    "difference": 62,
+    "DdirectionsScreen": [
+      215,
+      175,
+      157
+    ]
+  },
+  "artSHA256": "1b30372cdfd5ccd32657a82c35335bbd1ddd25b37a54e0009e3f644cd0fa18f8",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T04:51:45.192781+00:00",
+  "completedAt": "2026-10-29T04:51:45.192781+00:00",
+  "layoutEvidence": "docs/comics/q-219-preview-validation.json",
+  "visualReview": "實看1440/1120/390最終成品：A/E局部射線圖上下分開避免端點假連接，同向80度正確；△ECD80/42/58，DF內分40與18角弧清楚。無裁切/溢出，同行等高手機自然高。"
+}

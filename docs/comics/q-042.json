@@ -1,0 +1,70 @@
+{
+  "id": "q-042",
+  "subject": "Physics-Chemistry",
+  "title": "物體體積相同，漂浮時排水量卻不同",
+  "art": "docs/comics/art/q-042.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-042-generate.py",
+  "startedAt": "2026-10-29T03:12:47.679326+00:00",
+  "panels": [
+    {
+      "heading": "① 三者密度，都比水小",
+      "text": "甲、乙、丙體積都為40 cm³，但質量是30、20、10 g。用質量÷體積，密度分別為0.75、0.50、0.25 g/cm³，都小於水的1 g/cm³，最後會浮在水面。",
+      "alt": "逐一列出甲30÷40、乙20÷40、丙10÷40的密度，均低於水；沒有把質量不同誤說成體積不同。"
+    },
+    {
+      "heading": "② 漂浮時，只有一部分體積浸入水中",
+      "text": "同一杯水中，三個等體積物體最後排水量並不相同：甲排開30 cm³，乙20 cm³，丙10 cm³的水。等體積方塊示意中，甲浸入比例最大，丙最小。",
+      "alt": "三個相同64像素高方塊，甲/乙/丙在同水面下的高度精確為48/32/16，對應3/4、1/2、1/4排水比例；僅為方塊形狀示意。"
+    },
+    {
+      "heading": "③ 靜止漂浮，浮力等於各自重量",
+      "text": "甲的重量是30 gw，所需平衡浮力也是30 gw；乙與丙分別為20、10 gw。因此甲受的浮力最大，選A。要比較的是最後漂浮平衡，不是剛投入水中的瞬間。",
+      "alt": "以甲為例，浮力30 gw向上、重量30 gw向下，兩支等長反向箭頭表示平衡，總結甲浮力大於乙大於丙。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：甲受的浮力最大",
+    "points": [
+      "先由密度判定三者最後皆漂浮。",
+      "靜止漂浮：浮力＝重量，30＞20＞10 gw。",
+      "等物體體積不等於等排水體積；全浸沒時才可直接用40 cm³比較。"
+    ]
+  },
+  "protectedWords": [
+    "40 cm³",
+    "30 cm³",
+    "20 cm³",
+    "10 cm³",
+    "0.75",
+    "0.50",
+    "0.25",
+    "g/cm³",
+    "30 gw",
+    "20 gw",
+    "10 gw",
+    "甲＞乙＞丙",
+    "靜止漂浮"
+  ],
+  "rationale": "原卷完整質量體積表/四選項實看，A不變。新精確SVG密度計算、按3/4/1/2/1/4浸沒的等體積方塊、浮力重力等長反向箭頭，直接排除等體積即等浮力的誤解，不需人物裝飾。獨立物理數值與高度比例驗證保存。",
+  "promptSummary": "新原生SVG：密度表、共水面同體積物體不同排水比例、甲30gw力平衡。物體形狀僅示意，水面線不穿過固體，不用來源AI圖。",
+  "answerCheckedAgainst": "原題表甲30g/40cm³、乙20g/40cm³、丙10g/40cm³與A–D；密度皆<水，漂浮浮力各等重量，A。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-042-source-0ac7f397fb.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "實看完整原卷題幹/質量與體積表/四選項，未把投入瞬時與最後漂浮平衡混為一談。"
+  },
+  "artSHA256": "2aaa72a833ca53826159f33ef6f0268861386fd560126f51d9b00e68bd72a9f9",
+  "physicsValidation": "docs/comics/q-042-physics-validation.json",
+  "completedAt": "2026-10-29T03:15:08.416693+00:00",
+  "checkedAt": "2026-10-29T03:15:08.416706+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-042-preview-validation.json",
+  "visualReview": "實看原卷全題與表格、原生540×180及最終1440/390。甲乙丙方塊等高同體積、浸水48/32/16比例清楚，三標籤不與副標重疊；浮力重力同一直線等長反向，密度/排水/力數值獨立驗證。桌機同列等高、手機各格自然高，單位與答案A無溢出裁切。"
+}

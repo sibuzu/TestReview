@@ -1,0 +1,67 @@
+{
+  "id": "q-371",
+  "subject": "English",
+  "title": "卡片是it，收卡片的人是her",
+  "art": "docs/comics/art/q-371.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-371-generate.py",
+  "startedAt": "2026-10-29T04:02:54.062310+00:00",
+  "panels": [
+    {
+      "heading": "① it代card，空格代your sister",
+      "text": "前句說卡片是要給Frank的姐姐或妹妹。it指card，空格則指your sister；先分清物品與收件人，不能把兩個代名詞混成同一對象。",
+      "alt": "card→it與your sister→her兩組對應，物品灰綠、收件人綠，姐姐或妹妹不憑英文字sister斷定年紀。"
+    },
+    {
+      "heading": "② pass it to her：把它交給她",
+      "text": "說話者請Frank把卡片交給sister。這裡的to是介系詞，後面要用受格her表示收到卡片的她，所以選B。",
+      "alt": "Frank→卡片it→sister的物品交付流程，下方列pass it to her；未捏造生日、情書或實際面容。"
+    },
+    {
+      "heading": "③ she、her、hers、herself，工作不同",
+      "text": "she是主格；her是本句所需受格；hers表示她的東西；herself是反身代名詞。本句交卡片的Frank與收卡片的sister不是同一人，不能只因提到她就選herself。",
+      "alt": "四種代名詞與主格/受格/所有代名詞/反身角色對照，her單獨著色，限定本句而非說反身詞從不能接介系詞。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：her",
+    "points": [
+      "空格代收卡片的人your sister。",
+      "to後以受格her表示她。",
+      "it指卡片；hers指她的東西，herself不合本句指涉。"
+    ]
+  },
+  "protectedWords": [
+    "Frank",
+    "your sister",
+    "sister",
+    "card",
+    "it",
+    "to her",
+    "pass it",
+    "she",
+    "her",
+    "hers",
+    "herself"
+  ],
+  "rationale": "實看原卷全句與四選項，B不變。新原生物品/人雙對應、交付流向及代詞格/功能表，直接處理it與her和所有/反身詞干擾，較人物遞卡插畫更能標明句法。sister不強判年齡，卡片不編內容與節日，無來源AI圖。",
+  "promptSummary": "新原生SVG card→it、your sister→her；Frank→卡片→sister；she/her/hers/herself角色表。無假故事、來源AI圖，不概括herself絕不能作介系詞受詞。",
+  "answerCheckedAgainst": "原卷Frank/this card for your sister/pass it to___與A she B her C hers D herself，指物it與收件人her；B維持。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-371-source-46a959a558.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "親見完整原句及全部A–D；sister只有姐妹詞義不確定年長/年幼，新圖說姐姐或妹妹，不改原題。"
+  },
+  "artSHA256": "9af20ecaea589efe72cd7a91c944a9f26174f6df0689492f8baeda85e61f7994",
+  "completedAt": "2026-10-29T04:04:55.346113+00:00",
+  "checkedAt": "2026-10-29T04:04:55.346125+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-371-preview-validation.json",
+  "visualReview": "親見原卷全句/四選項、原生540×180與最終1440/390。card/it和sister/her分色，Frank交付方向與受格/所有/反身角色清楚；沒有把sister強定年長、卡片內容或節日。桌機同列等高、手機自然高度無溢出裁切，B不變，不概括反身詞從不能接介系詞。"
+}

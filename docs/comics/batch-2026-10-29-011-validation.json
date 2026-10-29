@@ -1,0 +1,155 @@
+{
+  "checkedAt": "2026-10-28T22:36:28.832139+00:00",
+  "questions": [
+    {
+      "id": "q-705",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-705.json",
+        "docs/comics/q-705-preview-validation.json",
+        "docs/comics/q-705-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:32:39.636904+00:00",
+      "art": "assets/comics/q-705-art-99453a07cc.png",
+      "artType": "imagegen_raster"
+    },
+    {
+      "id": "q-607",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-607.json",
+        "docs/comics/q-607-question-review.json",
+        "docs/comics/q-607-preview-validation.json",
+        "docs/comics/q-607-generation.json",
+        "docs/comics/q-607-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:32:39.678946+00:00",
+      "art": "assets/comics/q-607-art-884119fffb.png",
+      "artType": "imagegen_raster"
+    },
+    {
+      "id": "q-591",
+      "decision": "not_suitable",
+      "evidence": [
+        "docs/comics/q-591-review.json",
+        "docs/comics/q-591-preview-validation.json",
+        "docs/comics/qa/q-591/layout.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:34:04.364930+00:00"
+    },
+    {
+      "id": "q-592",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-592.json",
+        "docs/comics/q-592-question-review.json",
+        "docs/comics/q-592-preview-validation.json",
+        "docs/comics/q-592-generation.json",
+        "docs/comics/q-592-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:32:39.721183+00:00",
+      "art": "assets/comics/q-592-art-54b625680c.png",
+      "artType": "imagegen_raster"
+    },
+    {
+      "id": "q-593",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-593.json",
+        "docs/comics/q-593-preview-validation.json",
+        "docs/comics/q-593-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:34:55.909491+00:00",
+      "art": "assets/comics/q-593-art-1556f9acce.png",
+      "artType": "imagegen_raster"
+    },
+    {
+      "id": "q-594",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-594.json",
+        "docs/comics/q-594-preview-validation.json",
+        "docs/comics/q-594-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:34:55.949253+00:00",
+      "art": "assets/comics/q-594-art-55ce6c79b2.png",
+      "artType": "imagegen_raster"
+    },
+    {
+      "id": "q-595",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-595.json",
+        "docs/comics/q-595-question-review.json",
+        "docs/comics/q-595-preview-validation.json",
+        "docs/comics/q-595-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:34:55.990176+00:00",
+      "art": "assets/comics/q-595-art-e8ae1afe8a.svg",
+      "artType": "programmatic_svg"
+    },
+    {
+      "id": "q-596",
+      "decision": "complete",
+      "evidence": [
+        "docs/comics/q-596.json",
+        "docs/comics/q-596-question-review.json",
+        "docs/comics/q-596-preview-validation.json",
+        "docs/comics/q-596-generation.json",
+        "docs/comics/q-596-validation.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:34:56.030250+00:00",
+      "art": "assets/comics/q-596-art-ac8e5d94eb.png",
+      "artType": "imagegen_raster"
+    },
+    {
+      "id": "q-067",
+      "decision": "not_suitable",
+      "evidence": [
+        "docs/comics/q-067-review.json",
+        "docs/comics/qa/q-067/layout.json",
+        "docs/comics/qa/q-067/layout.json"
+      ],
+      "visualChecked": true,
+      "integratedAt": "2026-10-28T22:35:16.840556+00:00"
+    }
+  ],
+  "counts": {
+    "complete": 7,
+    "not_suitable": 2
+  },
+  "artTypes": {
+    "imagegen_raster": 6,
+    "programmatic_svg": 1
+  },
+  "nativeLayoutChecks": 42,
+  "retainedOrTextLayoutChecks": 4,
+  "siteTestsPassed": 66,
+  "siteTestLog": "/tmp/weirugo-goal-011-site-tests.txt",
+  "monitorTestsPreviouslyPassed": 23,
+  "monitorTestLog": "/tmp/weirugo-goal-007-monitor-tests.txt",
+  "phoneticLayoutFix": {
+    "question": "q-591",
+    "validation": "docs/comics/q-591-phonetics-validation.json",
+    "checks": 4,
+    "scope": "App and standalone question/explanation/options/passage text; complete printed phonetic groups stay together, no character changes, attributes remain escaped.",
+    "securityTest": "core.test.mjs preserves escaped markup and all original text"
+  },
+  "awaitingConfirmation": [
+    "correction-q-077-ff75cb313385"
+  ],
+  "settledAtSnapshot": 400,
+  "totalAtSnapshot": 799,
+  "remainingGoalWork": 399,
+  "datasetSHA256": "1aebb5aba57906e30b0b7fd67bba296976ba685d8a2e943f4354712e16d796d5",
+  "scopeComplete": false,
+  "note": "正式桌機手機均實看。新圖文數包含6份imagegen情境及1份精確SVG；兩題依具體理由保留原生字形/字音文字。注音行組排版改善不修改原卷或已確認答案，不新開內容確認。q077仍待地名釐清確認。"
+}

@@ -145,6 +145,8 @@ def build_status(root=ROOT):
                                              for e in entries if e['id'] in priority_ids])
     questions = data['questions']
     by_id = {q['id']: q for q in questions}
+    for parent in questions:
+        for child in parent.get('groupQuestions',[]):by_id.setdefault(child['id'],child)
     group_review = None
     group_path = root/'docs/imports/group-review/queue.json'
     if group_path.exists():
@@ -164,6 +166,8 @@ def build_status(root=ROOT):
         if control_path.exists():paths.append(control_path)
         group_review['integrationGate']=control
         groups=[g for g in queue.get('groups',[]) if g['state']!='superseded']
+        eligible=sorted((g for g in groups if g['state']=='ready' and g.get('qaState')=='complete'),key=lambda g:g.get('qaCompletedAt',''))
+        awaiting_layout=[g for g in groups if g['state']=='ready' and g.get('qaState')!='complete']
         lanes=[]
         for lane in (1,2,3):
             agent='/root/comic_lane_'+str(lane)
@@ -172,20 +176,29 @@ def build_status(root=ROOT):
             review=next((c for c in queue['candidates'] if c.get('owner')==agent and c['state']=='reviewing'),None)
             qa=next((g for g in groups if g.get('qaOwner')==agent and g.get('qaState')=='running'),None)
             if not job and qa:job=qa
-            ids=job['questionIds'] if job else review['questionIds'] if review else []
+            upcoming=eligible[0] if lane==1 and eligible else next((g for g in awaiting_layout if g.get('owner')==agent),None) if lane!=1 else None
+            ids=job['questionIds'] if job else review['questionIds'] if review else upcoming['questionIds'] if upcoming else []
             state=('qa_checking' if qa and job is qa else 'integrating' if lane==1 else 'merging') if job else 'reviewing' if review else (
                 'preparing' if lane==1 and control.get('state')=='preparing_compatibility' else
-                'ready' if lane==1 and any(g['state']=='ready' for g in groups) else
+                'ready' if lane==1 and eligible else
+                'waiting_qa' if lane==1 and awaiting_layout else
+                'qa_preparing' if lane!=1 and upcoming else
                 'preparing' if lane!=1 and any(g['state']=='confirmed' for g in groups) else 'idle')
             lanes.append({'lane':lane,'state':state,'questionIds':ids,
+                'next':bool(upcoming and not job and not review),
                 'titles':[by_id.get(qid,{}).get('title',qid) for qid in ids],
-                'detail':control.get('detail','') if lane==1 and state=='preparing' else '',
+                'detail':control.get('detail','') if lane==1 and state=='preparing' else
+                    '等待合稿線完成'+str(len(awaiting_layout))+'組版面驗收；通過後直接加入。' if state=='waiting_qa' else
+                    '本路已完成交稿與版面驗收。' if lane!=1 and state=='idle' else
+                    '所有通過驗收的稿件均已加入。' if lane==1 and state=='idle' else '',
                 'qaCompleted':sum(g.get('qaState')=='complete' and g.get('qaOwner')==agent for g in groups),
                 'completed':sum(g['state']=='integrated' and g.get('integrator')==agent for g in groups) if lane==1
                     else sum(g['state'] in {'ready','integrating','integrated'} and g.get('owner')==agent for g in groups)})
         group_review['lanes']=lanes
-        group_review['waiting']=[{'id':g['id'],'retainId':g['retainId'],'readyAt':g.get('readyAt')}
-            for g in groups if g['state']=='ready']
+        group_review['waiting']=[{'id':g['id'],'retainId':g['retainId'],
+            'readyAt':g.get('qaCompletedAt'),'handedOffAt':g.get('readyAt')} for g in eligible]
+        group_review['awaitingLayout']=len(awaiting_layout)
+        group_review['readyForIntegration']=len(eligible)
         group_review['layoutChecked']=sum(g.get('qaState')=='complete' for g in groups)
         paths.append(group_path)
     batches = []

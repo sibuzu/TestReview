@@ -33,6 +33,16 @@ def locked(root=ROOT):
         yield
 
 
+def active_priority(root):
+    for filename in ('rework-priority.json', 'priority-source.json'):
+        path = root/'monitor'/filename
+        if path.exists():
+            priority = load(path)
+            if priority.get('state') not in ('complete', 'cancelled'):
+                return priority
+    return None
+
+
 def update_display(root, pipeline):
     display = load(root/'monitor/parallel.json')
     for lane in display['lanes']:
@@ -44,13 +54,11 @@ def update_display(root, pipeline):
             lane['state'] = 'idle'
     ready = [j for j in pipeline['jobs'] if j['state'] == 'ready']
     active_ready, held = ready, []
-    priority_path = root/'monitor/priority-source.json'
-    if priority_path.exists():
-        priority = load(priority_path)
-        if priority.get('state') not in ('complete', 'cancelled'):
-            allowed = set(priority.get('questionIds', []))
-            active_ready = [j for j in ready if j['id'] in allowed]
-            held = [j for j in ready if j['id'] not in allowed]
+    priority = active_priority(root)
+    if priority:
+        allowed = set(priority.get('questionIds', []))
+        active_ready = [j for j in ready if j['id'] in allowed]
+        held = [j for j in ready if j['id'] not in allowed]
     display.update(updatedAt=now(), ready=ready,
                    waiting=[j for j in active_ready if not j.get('integrationStartedAt')],
                    integrating=[j for j in active_ready if j.get('integrationStartedAt')], held=held,
@@ -70,15 +78,15 @@ def claim(root, lane):
         progress = load(root/'docs/comics/progress.json')
         reserved = {j['id'] for j in pipeline['jobs'] if j['state'] != 'integrated'}
         entries = progress['entries']
-        priority_path = root/'monitor/priority-source.json'
-        if priority_path.exists():
-            priority = load(priority_path)
-            if priority.get('state') not in ('complete', 'cancelled'):
-                allowed = set(priority.get('questionIds', []))
-                assignments = priority.get('laneAssignments', {})
-                if assignments:
-                    allowed &= set(assignments.get(str(lane), []))
-                entries = [e for e in entries if e['id'] in allowed]
+        priority = active_priority(root)
+        if priority:
+            allowed = set(priority.get('questionIds', []))
+            assignments = priority.get('laneAssignments', {})
+            if assignments:
+                allowed &= set(assignments.get(str(lane), []))
+            # Preserve whole-bank totals/completions for completed²/total;
+            # only availability is limited to the active priority scope.
+            entries = [dict(e, state='reserved') if e['id'] not in allowed and e['state']=='queued' else e for e in entries]
         candidate = next_entry([dict(e, state='reserved') if e['id'] in reserved else e for e in entries])
         if not candidate:
             return None
@@ -95,8 +103,14 @@ def stage(root, qid, decision, reason, evidence):
     assert evidence and all((root/p).is_file() and Path(p).is_relative_to('docs/comics') for p in evidence)
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
-        job = next(j for j in pipeline['jobs'] if j['id'] == qid)
-        assert job['state'] == 'claimed', 'Only the assigned worker can finish a claimed job once.'
+        job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'claimed'), None)
+        assert job is not None, 'Only the assigned worker can finish a claimed job once.'
+        policy_path = root/'docs/comics/policy.json'
+        if policy_path.exists() and not load(policy_path).get('reuseSourceAI', True):
+            assert decision != 'existing_ai', 'Current user policy requires new four-panel artwork, not source AI reuse.'
+            entry = next(e for e in load(root/'docs/comics/progress.json')['entries'] if e['id'] == qid)
+            if entry.get('freshFourPanelRequired'):
+                assert decision in ('complete', 'awaiting_confirmation'), 'This reopened question requires fresh four-panel artwork.'
         job.update(state='blocked' if decision == 'awaiting_confirmation' else 'ready', readyAt=now(),
                    decision=decision, reason=reason, evidence=evidence)
         save(root/'docs/comics/pipeline.json', pipeline)
@@ -108,8 +122,8 @@ def integrated(root, qid):
     """Root only, after artifact review and any attach/curate/integrated QA."""
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
-        job = next(j for j in pipeline['jobs'] if j['id'] == qid)
-        assert job['state'] == 'ready'
+        job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)
+        assert job is not None
         finished = now()
         progress = load(root/'docs/comics/progress.json')
         entry = next(e for e in progress['entries'] if e['id'] == qid)
@@ -134,6 +148,15 @@ def integrated(root, qid):
         update_display(root, pipeline)
         counts = Counter(e['state'] for e in progress['entries'])
         settled = sum(counts[state] for state in SETTLED)
+        priority = active_priority(root)
+        if priority and priority.get('kind') == 'rework':
+            scope = set(priority['questionIds'])
+            completed = sum(e['id'] in scope and e['state']=='complete' for e in progress['entries'])
+            save(root/'monitor/activity.json', {
+                'title': f'54題重作優先：{completed}／{len(scope)}已整合（全題庫{settled}／{len(progress["entries"])}）',
+                'detail': f'剛整合{qid}；三路只領重作清單，其他已製作項目暫存。全新四格依教學效果選用幾何／結構或情境圖，維持WebP與共用資產減量。',
+                'goalStatus': 'active', 'updatedAt': finished})
+            return job
         save(root/'monitor/activity.json', {
             'title': f'三路製作、依序整合：已完成檢查{settled}／{len(progress["entries"])}題',
             'detail': f'剛整合{qid}。新製圖文{counts["complete"]}題、保留既有AI圖{counts["existing_ai"]}題、無需新漫畫{counts["not_suitable"]}題；工作線完成本題即暫存續領，主路持續整合。',
@@ -144,8 +167,8 @@ def integrated(root, qid):
 def begin(root, qid):
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
-        job = next(j for j in pipeline['jobs'] if j['id'] == qid)
-        assert job['state'] == 'ready'
+        job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)
+        assert job is not None
         job.setdefault('integrationStartedAt', now())
         save(root/'docs/comics/pipeline.json', pipeline)
         update_display(root, pipeline)

@@ -1,0 +1,88 @@
+{
+  "id": "q-311",
+  "subject": "Biology",
+  "title": "商品叫代鮑，分類要看海螺本身",
+  "art": "docs/comics/art/q-311-v2.png",
+  "protectedWords": [
+    "代鮑",
+    "海螺",
+    "鮑魚",
+    "烏賊",
+    "牡蠣",
+    "海參",
+    "軟體動物",
+    "棘皮動物",
+    "腹足類",
+    "頭足類",
+    "雙殼類",
+    "海星",
+    "海膽"
+  ],
+  "panels": [
+    {
+      "heading": "① 先找題幹已給的身分",
+      "text": "題目說代鮑是一種海螺肉，所以分類的比較對象是海螺。海螺屬軟體動物，不能只依商品名稱中的鮑字判斷。",
+      "alt": "全新自然情境海螺插畫，可辨螺旋殼及爬行足；非指定代鮑物種，不以插畫猜品種。"
+    },
+    {
+      "heading": "② A、B、C都還在軟體動物中",
+      "text": "鮑魚與海螺是腹足類；烏賊是頭足類；牡蠣是雙殼類。外形和殼的形式不同，卻都屬軟體動物，與海螺同門。",
+      "alt": "分開的鮑魚、烏賊及牡蠣自然示意；外形與大小非比例，不是祖先後代演化圖。"
+    },
+    {
+      "heading": "③ 海參柔軟，卻屬棘皮動物",
+      "text": "海參與海星、海膽同屬棘皮動物，和海螺不同門。這組選項中，D的分類關係最遠；不能把身體軟直接等同於軟體動物。",
+      "alt": "海參、海星、海膽的海底觀察情境，不畫外殼或魚鰭，不把海參當植物或蠕蟲。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：海參",
+    "points": [
+      "先由題幹確定：代鮑是海螺。",
+      "A、B、C與海螺同門。",
+      "D是不同門，符合本題關係最遠。"
+    ]
+  },
+  "rationale": "完整原卷第17題和四選項及來源原對話實讀，D與目前詳解一致；全新自然生物素材配HTML分類比較，不採用來源AI圖。僅比較本題三個同門一個不同門，不以外形柔軟或外殼有無分類，也不把同門說成毫無差別。",
+  "generationMethod": "built-in imagegen new wordless marine natural-history scenes plus editable HTML",
+  "promptFile": "docs/comics/q-311-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-311-source-cca831b72f.jpg",
+    "site/dist/sources/6ae0de73-5310-83ec-9332-f7f22d61959a.txt lines 440–510"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=D2D358AF79CF63AB&s=02AC2520E058EC0A&sms=51E132D99F254E3B",
+      "note": "國立海生館棘皮動物圖鑑簡介，正文確認海參與海膽屬棘皮動物。"
+    },
+    {
+      "url": "https://www.tfrin.gov.tw/theme_data.php?id=253&sub_theme=fishery&theme=qa",
+      "note": "農業部水試所漁業問答搜尋結果確認烏賊軟體動物門頭足綱；正文端點一度逾時。"
+    },
+    {
+      "url": "https://www.marine.gov.tw/zh_tw/conservation/EcologyArea/貝類大概有多少分類-92923454",
+      "note": "海洋國家公園管理處分類介紹：軟體動物各綱與牡蠣雙殼、烏賊頭足。"
+    }
+  ],
+  "answerCheckedAgainst": "題幹給海螺，A腹足B頭足C雙殼皆軟體，D海參棘皮與之不同門。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:01:09.644629+00:00",
+  "artSha256": "36b6abbffa0c6a5e5dc00cbe9c49c815bd0b676078299f5bd1ec7d4d3554a9c9",
+  "editPromptFile": "docs/comics/q-311-edit-prompt.txt",
+  "artReview": "初版左格像陸生蝸牛，已內建imagegen編修為海螺，保留原始版本供核對；只用v2。",
+  "checkedAt": "2026-10-29T01:03:15.432770+00:00",
+  "validationFile": "docs/comics/q-311-preview-validation.json"
+}

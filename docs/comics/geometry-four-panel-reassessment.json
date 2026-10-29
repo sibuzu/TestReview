@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-29T00:39:10.361814+00:00",
+  "userQuestion": "q-126 q-127 為什麼沒有 AI 圖4格解說? 判斷是?",
+  "reopened": [
+    {
+      "id": "q-126",
+      "priorEntry": {
+        "id": "q-126",
+        "subject": "Math",
+        "date": "2026-10-21",
+        "title": "數學第19題｜相似形與共高三角形面積比",
+        "state": "not_suitable",
+        "reason": "已查看原卷圖並對照精確SVG：F、G順序與兩組平行線相符。20：30→2：3、相似面積125、扣除50得75，再比90得5：6；詳解與原題圖已完整呈現推導。人物情境插畫無助分辨共高與相似比例，保留原精確圖形，不新增裝飾漫畫。",
+        "checkedAt": "2026-10-28T11:07:52.287351+00:00",
+        "visualChecked": true,
+        "visualEvidenceBackfilledAt": "2026-10-28T21:09:15.650692+00:00",
+        "validationFile": "docs/comics/qa/q-126/layout.json"
+      },
+      "priorReview": {
+        "id": "q-126",
+        "decision": "not_suitable",
+        "reason": "已查看原卷圖並對照精確SVG：F、G順序與兩組平行線相符。20：30→2：3、相似面積125、扣除50得75，再比90得5：6；詳解與原題圖已完整呈現推導。人物情境插畫無助分辨共高與相似比例，保留原精確圖形，不新增裝飾漫畫。",
+        "visualChecked": true,
+        "visualEvidenceBackfilledAt": "2026-10-28T21:09:15.650692+00:00",
+        "originalFigures": [
+          {
+            "src": "site/dist/assets/questions/q-126-source-10d413a6ce.jpg",
+            "sha256": "10d413a6ce13522840d85d0a58a903cf8f8a983f1311f01af60445606c95e55f",
+            "visualChecked": true
+          },
+          {
+            "src": "site/dist/assets/questions/q-126-figure-source-bbbf424d0b.jpg",
+            "sha256": "bbbf424d0bc2b13bcbc11f89f1ffeb8373c5550399767ff7ae7275be9c8cfae6",
+            "visualChecked": true
+          },
+          {
+            "src": "site/dist/assets/questions/q-126-given.svg",
+            "sha256": "c45295eef068db4bbac7401de797dfdddcfed0e227b5ad90900c44f886c18145",
+            "visualChecked": true
+          }
+        ],
+        "layoutCheck": {
+          "report": "docs/comics/qa/q-126/layout.json",
+          "visualChecked": true
+        },
+        "preservesOriginalCompletionTime": true,
+        "extraLayoutEvidence": [
+          "docs/comics/qa/q-126/question-figures.json"
+        ]
+      }
+    },
+    {
+      "id": "q-127",
+      "priorEntry": {
+        "id": "q-127",
+        "subject": "Math",
+        "date": "2026-10-21",
+        "title": "數學第20題｜角度推平行後求交點分段比",
+        "state": "not_suitable",
+        "reviewStartedAt": "2026-10-28T11:17:08.016958+00:00",
+        "reason": "已核對原卷角度與線段關係；此題適合精確幾何圖，無需人物情境漫畫。已新增延長DE到T與相似三角形著色SVG，清楚區分AP：PF和AP：AF，桌機與手機均已查看。",
+        "checkedAt": "2026-10-28T11:18:35.273653+00:00",
+        "visualChecked": true,
+        "visualEvidenceBackfilledAt": "2026-10-28T21:09:15.650692+00:00",
+        "validationFile": "docs/comics/qa/q-127/layout.json"
+      },
+      "priorReview": {
+        "id": "q-127",
+        "decision": "not_suitable",
+        "reason": "已核對原卷角度與線段關係；此題適合精確幾何圖，無需人物情境漫畫。已新增延長DE到T與相似三角形著色SVG，清楚區分AP：PF和AP：AF，桌機與手機均已查看。",
+        "visualChecked": true,
+        "visualEvidenceBackfilledAt": "2026-10-28T21:09:15.650692+00:00",
+        "originalFigures": [
+          {
+            "src": "site/dist/assets/questions/q-127-source-6ae46440ff.jpg",
+            "sha256": "6ae46440ff50c3b20bb4d43f3360ed9bb21c4f317b4f25d9a2eccea67b420af8",
+            "visualChecked": true
+          },
+          {
+            "src": "site/dist/assets/questions/q-127-figure-source-1ac49e2af0.jpg",
+            "sha256": "1ac49e2af0fc03bac3e599e7fe1a23ab6829f0f2180f6b9bed5da9cc0595f8f3",
+            "visualChecked": true
+          },
+          {
+            "src": "site/dist/assets/questions/q-127-given.svg",
+            "sha256": "94f2c96875cb0a4a4f5ceeb991d893739d5861e08b54c96f6e546762fef8713a",
+            "visualChecked": true
+          },
+          {
+            "src": "site/dist/assets/explanations/q-127-auxiliary.svg",
+            "sha256": "99640402006e0a1d79c0ff2bd05446730099c5f4b5f390405a8a51c76e74ee70",
+            "visualChecked": true
+          }
+        ],
+        "layoutCheck": {
+          "report": "docs/comics/qa/q-127/layout.json",
+          "visualChecked": true
+        },
+        "preservesOriginalCompletionTime": true,
+        "extraLayoutEvidence": [
+          "docs/comics/qa/q-127/question-figures.json"
+        ]
+      }
+    }
+  ],
+  "furtherCandidates": [
+    "q-235",
+    "q-237",
+    "q-238"
+  ],
+  "rule": "精確幾何圖可以組成四格教學；無法用人物情境不構成略過四格的充分理由。仍按分步視覺教學是否有實質幫助逐題判斷，不把所有純代數都強塞圖片。",
+  "preserveOriginalQuestionsAnswersAndDates": true
+}

@@ -121,12 +121,20 @@ for q in records:
   q['dateLabel']='對話建立日期（Created）'
 apply_review_requests(records, ROOT)
 apply_pending_sources(sources, ROOT)
+from comic_policy import apply_comic_policy
+apply_comic_policy(records, ROOT)
 # Curated diagrams are accessible, code-native SVGs, independent of missing source photos.
 revision='2026-10-27.'+hashlib.sha256(json.dumps([sources, records],ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
 payload=dict(schemaVersion=1,revision=revision,subjects=[dict(id=i,name=n,publisher=p,icon=ic) for i,n,p,ic in subjects],sources=sources,questions=records)
 from optimized_assets import optimize_payload, prune_unreferenced
 payload=optimize_payload(payload)
 payload['revision']='2026-10-27.'+hashlib.sha256(json.dumps([payload['sources'],payload['questions']],ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
+previous_path=DEST/'data.json'
+previous=json.loads(previous_path.read_text()) if previous_path.exists() else {}
+if previous.get('revision')==payload['revision']:
+ payload['dataUpdatedAt']=previous.get('dataUpdatedAt') or datetime.datetime.fromtimestamp(previous_path.stat().st_mtime,datetime.timezone.utc).isoformat(timespec='seconds')
+else:
+ payload['dataUpdatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
 (DEST/'data.json.tmp').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
 (DEST/'data.json.tmp').replace(DEST/'data.json')
 print(f'{len(sources)} sources, {len(records)} questions, {sum(len(s["images"]) for s in sources)} original images')

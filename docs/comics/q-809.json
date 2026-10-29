@@ -2,30 +2,36 @@
   "id": "q-809",
   "subject": "Math",
   "title": "每10天，星期往後推3天",
-  "art": "docs/comics/art/q-809.png",
+  "art": "docs/comics/art/q-809-cycle.svg",
   "protectedWords": [
     "小君",
     "星期三",
     "星期日",
+    "星期一",
+    "星期六",
     "10＝7＋3",
     "6次兌換",
-    "5個間隔"
+    "5個間隔",
+    "差10天",
+    "第3次",
+    "第5次",
+    "第2次"
   ],
   "panels": [
     {
-      "heading": "① 先換成星期的變化",
-      "text": "一週7天，10＝7＋3，所以每10天兌換一次，星期就往後推3天；不是推2天，也不必先猜實際月份。",
-      "alt": "小君以優惠券和信封規劃兌換，圖中不顯示精確券數或數值。"
+      "heading": "① 過10天，星期只往後推3天",
+      "text": "一週有7天，10＝7＋3。完整的一週回到同一星期，再多走3天；從星期三出發，依序經過四、五，到星期六。",
+      "alt": "七日順時針循環，星期三到四、四到五、五到六三段箭頭，10天的星期位移是3天。"
     },
     {
-      "heading": "② 從星期三列滿6次",
-      "text": "星期三開始，六次依序是三、六、二、五、一、四。每次往後推3天，這六次全都避開不營業的星期日。",
-      "alt": "小君與家人用無字筆記規劃，精確星期順序由文字呈現，不由圖片排日曆。"
+      "heading": "② 六次兌換，只有五個間隔",
+      "text": "從星期三列滿6次：三、六、二、五、一、四。以首次為起點，經過0、10、20、30、40、50天；相鄰兩次都差10天。",
+      "alt": "六列兌換星期與首次後經過天數，恰好五支間隔箭頭，不畫實際月份與日期。"
     },
     {
-      "heading": "③ 次數不是間隔數",
-      "text": "第一次兌換已算第1次，6次兌換只有5個間隔。不要多算第7次；其他選項只要有一次遇到星期日，就不符合。",
-      "alt": "小君在營業中的店家成功兌換一次冰淇淋，沒有畫出遇上公休日的失敗情節。"
+      "heading": "③ 其他選項都碰到星期日",
+      "text": "A從星期一開始，第3次遇星期日；B在第5次、D在第2次遇星期日。C的六次都沒有星期日，因此符合題意。",
+      "alt": "四選項各六次的精確星期表，星期日以橙紅色框突出，C六格皆無星期日，列數與次數不省略。"
     }
   ],
   "fourth": {
@@ -36,9 +42,8 @@
       "C的六次為三、六、二、五、一、四，全部符合。"
     ]
   },
-  "rationale": "優先原卷23題完整條件實看，獨立逐次加10天驗四選項，唯一C避開週日。全新內建imagegen只製規劃與成功兌換情境，不採來源AI圖，不讓模型決定6張/6次或日期日曆，所有精確數據與排除過程用HTML。",
-  "generationMethod": "built-in image_gen",
-  "promptFile": "docs/comics/q-809-prompt.txt",
+  "rationale": "依使用者數學優先精確關係圖新規，把原人物版封存before-cycle，替換原創星期循環SVG、六次與五間隔表、四選項精確排除表。重看原卷23題及來源全文，獨立模7列舉ABCD六次星期，唯一C無日；保留原題與C，不虛構月份日期或真實店家資訊。全部圖均新製、不採來源AI圖。",
+  "generationMethod": "programmatic SVG exact weekday cycle and six-visit option table",
   "originalMaterialsChecked": true,
   "visualChecked": true,
   "originalMaterials": [
@@ -58,9 +63,10 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "b8f48bccb34a010978a21d3d482ab14b1c0c9d36e1fdde90077080c08d9bd12b",
   "createdAt": "2026-10-28T18:46:11.717009+00:00",
-  "checkedAt": "2026-10-28T18:59:02.489743+00:00",
-  "validationFile": "docs/comics/q-809-validation.json",
-  "nativeArt": "assets/comics/q-809-art-b8f48bccb3-web.webp"
+  "generatorFile": "docs/comics/q-809-cycle-generate.py",
+  "createdAtUTC": "2026-10-29T01:09:10.475000+00:00",
+  "artSha256": "b60e2bfc38f193683749edba542b5c73d13a4257c2159c5074ad7a3891bac057",
+  "checkedAt": "2026-10-29T01:09:00.836112+00:00",
+  "validationFile": "docs/comics/q-809-preview-validation.json"
 }

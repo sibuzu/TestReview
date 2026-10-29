@@ -1,0 +1,87 @@
+{
+  "id": "q-261",
+  "subject": "Geography",
+  "title": "辨識青島氣候類型，不把選項當實測",
+  "art": "docs/comics/art/q-261.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:41:41.948009+00:00",
+  "panels": [
+    {
+      "heading": "① 文章先定位：青島",
+      "text": "文章明示山東半島南端的青島，位於中國東部沿海，屬溫帶季風氣候。先用位置鎖定類型，再比較原題四張氣候圖。",
+      "alt": "由青島、山東半島南端與中國東部沿海，連到溫帶季風氣候的定位關係圖，不是假地圖。"
+    },
+    {
+      "heading": "② 氣溫與雨季，要分開看",
+      "text": "紅線看冬冷夏暖熱，藍柱看降水是否集中夏季。D全年炎熱不符，A夏季較涼；B、C都有明顯年溫差，還要比較雨量與季節分布。",
+      "alt": "無數值的季節型態示意：紅線冬低夏高，藍柱夏高冬低；標明不是青島實測或原題月值重建。"
+    },
+    {
+      "heading": "③ 比類型，C比B更符合題意",
+      "text": "原圖B年降水量316毫米，整體較乾；C為524毫米，夏雨集中較明顯，因此選C。C年均溫4.2°C不是青島的實際數據，不能直接背成當地氣候值。",
+      "alt": "原選項B316毫米與C524毫米等尺度總量柱，高度比與數值一致；不畫400毫米分類硬界線。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：較符合溫帶季風類型",
+    "points": [
+      "先定位青島，再合看年溫差與雨季。",
+      "紅線讀氣溫，藍柱讀降水，不能混用。",
+      "題目比較最接近的類型，不是找青島每項數值完全相同的測站。"
+    ]
+  },
+  "protectedWords": [
+    "青島",
+    "山東半島",
+    "溫帶季風氣候",
+    "年溫差",
+    "年降水量",
+    "316毫米",
+    "524毫米",
+    "4.2°C",
+    "實際數據"
+  ],
+  "rationale": "實看完整青島閱讀與四張氣候圖，C維持。全新定位關係/明示非實測的季節型態/原選項年雨量比較，不假造青島測站曲線，不把C4.2°C套成青島，不用400毫米作萬用氣候分類門檻。",
+  "promptSummary": "原生SVG：青島位置與溫帶季風定位；無數值冬冷夏暖/夏雨型態示意；B316與C524毫米等比例年雨量柱。",
+  "answerCheckedAgainst": "原卷文章青島與A7.5°C420/B9.3°C316/C4.2°C524/D25.9°C1392四圖實看；政府/氣象官方確認青島溫帶季風。",
+  "officialReferences": [
+    {
+      "url": "https://www.qingdao.gov.cn/yfqd/qdgk/dlzy/202009/t20200903_65.shtml",
+      "finding": "青島位於山東半島南部，東南臨黃海，屬溫帶季風氣候；不以題圖C的4.2°C作青島實測。"
+    },
+    {
+      "url": "https://www.weather.com.cn/shandong/sdqh/gsqhtd/11/86234.shtml",
+      "finding": "中國氣象官方網站說明青島位於北溫帶季風區並受海洋調節，故判讀型態不可把各選項數值直接當青島測站。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-261-reading-c060402739.jpg",
+      "site/dist/assets/questions/q-261-source-c5358d6ba9.jpg",
+      "site/dist/assets/questions/q-261-figure-4bd154f99b.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "原卷青島兩段閱讀、29題與全部A–D氣溫線/雨柱/年均值實看，C不變，不再引入殖民路名題的錯位。"
+  },
+  "artSHA256": "757f4a1027318740c5747dce13a563ee5c1b3fbaf04321f60e5f41c7b933f22e",
+  "calculationChecked": {
+    "originalAnnualRainMm": {
+      "B": 316,
+      "C": 524
+    },
+    "barHeights": [
+      63.2,
+      104.8
+    ],
+    "scalePxPerMm": 0.2
+  },
+  "completedAt": "2026-10-29T01:43:53.590614+00:00",
+  "checkedAt": "2026-10-29T01:43:53.590614+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-261-preview-validation.json",
+  "visualReview": "實看完整青島閱讀/A–D氣候圖與原生540×180及最終1440/390：季節圖明示非實測、紅溫藍雨，B316/C524總量柱比例正確、標頭與524分離。保留C型態而非青島實測4.2°C說明，無400門檻；三寬無溢出，桌面同列等高/手機自然高度。"
+}

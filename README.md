@@ -42,12 +42,11 @@ VS Code Live Server 可直接開根目錄 `index.html`，會保留題目網址�
 
 ### 單一使用者雲端標記
 
-- 正式網站：<https://weirugo.sibuzu.com>。沒有登入，所有裝置與訪客共用同一份收藏、疑義及已作標記。
+- 只有正式網站 <https://weirugo.sibuzu.com> 啟用雲端同步，使用同一份收藏、疑義與已作標記。其他所有入口（含 test.sibuzu.com、Netlify網址、Monitor及Live Server）只用各自瀏覽器的localStorage，不讀寫雲端。
 - `/.netlify/functions/marks`使用Netlify site-wide Blobs保存資料，重新部署不會清掉標記。每題的收藏、疑義及已作各自寫入，避免兩部裝置更新不同標記時互相覆蓋。
 - 初次同步會合併尚未上雲端的本機標記；雲端已取消的標記不會被另一台裝置的舊快取重新打開。離線變更先排入`test-review:mark-outbox:v1`，連線恢復後重試。同一標記若在兩台裝置修改，以最後成功寫入的操作為準。
 - 開啟頁面、回到前景、恢復網路時同步；前景每60秒再讀取一次。也可點右上角同步狀態立即重試。同步不收合目前展開的答案。
 - 新的已作標記需同時部署新版前端與Functions。舊後端未提供answered能力時，已作先留在本機待同步，收藏及疑義照常同步；新版部署後自動補傳。
-- 指定的monitor（monitor.sibuzu.com、localhost／127.0.0.1:8765）與Live Server（localhost／127.0.0.1:5500、4173）會連到weirugo.sibuzu.com的同一個雲端端點；正式網站與Netlify預覽則使用自己的Functions端點。後端只允許這些明確指定的跨來源請求。
 - 跨網址同步需同時更新正式網站的Functions（CORS）與前端。已開啟的舊頁面在更新後重新整理一次，才會載入新同步程式；原有本機收藏會自動合併。不清除瀏覽器資料，以免遺失尚待上傳的標記。
 - 同步服務尚未就緒或網路不可用時，保留本機標記並顯示待同步；狀態顯示「標記已同步雲端」才代表該次同步完成。
 - Blobs所需的服務憑證由Netlify Functions執行環境提供，不放入前端。參考[Netlify Blobs文件](https://docs.netlify.com/build/data-and-storage/netlify-blobs/)。
@@ -59,3 +58,9 @@ npm test
 
 目前已完成本機與模擬後端測試；須在完整專案部署到Netlify後，才能驗證正式雲端端點。
 
+
+### 同站台的本機標記入口
+
+在同一Netlify站台的Domain management → Production domains加入test.sibuzu.com為domain alias，再於Cloudflare新增CNAME：test → 該站台目前的xxx.netlify.app（不含https或路徑），先採DNS only。網站依入口網址決定標記模式；不設定轉址到weirugo.sibuzu.com，因為轉址後會變成正式站雲端模式。兩個入口共用相同題庫及部署。Functions同時拒絕非正式入口的標記API讀寫。
+
+右上資料更新時間來自data.json的dataUpdatedAt，固定以Asia/Taipei顯示到秒，與標記同步狀態分開；相同題庫重新產生不改寫更新時間。

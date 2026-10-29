@@ -1,8 +1,35 @@
 {
   "id": "q-806",
   "subject": "Math",
-  "title": "多一項，不保證總和較大",
-  "art": "docs/comics/art/q-806.png",
+  "title": "相同部分消去，多出一項可能是負數",
+  "art": "docs/comics/art/q-806.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:05:30.532048+00:00",
+  "panels": [
+    {
+      "heading": "① 相減後只剩乙多出的那一項",
+      "text": "設甲有n項，乙有n＋1項。首項、公差都相同，前n項相減消去，只剩乙的第n＋1項：45＋n×(−4)＝45−4n。",
+      "alt": "甲乙有同樣前n項的結構方塊對齊，乙另有一項；方塊寬度只示項數結構，不表示總和或正負大小。"
+    },
+    {
+      "heading": "② 相差7，分成正負兩種情況",
+      "text": "相差7沒有說誰的和較大。45−4n＝7得到n＝9.5，不是整數項數；45−4n＝−7得到n＝13，才符合。",
+      "alt": "多出項的值可能為正7或負7，兩個點在0兩側等距；分別解出非整數9.5與整數13。"
+    },
+    {
+      "heading": "③ 多加負數，總和反而變小",
+      "text": "回代甲13項的和273，乙14項的和266。乙多出的第14項是−7，總和從273往左到266，確實只相差7，選D。",
+      "alt": "總和局部數線260至280按比例標甲273、乙266，加負7箭頭向左，不把乙多項誤畫成一定和更大。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：甲有13項",
+    "points": [
+      "先找多出的一項，不必先算兩個和。",
+      "相差7，差可以是＋7或−7。",
+      "12項時乙多出−3，只差3，不合題意。"
+    ]
+  },
   "protectedWords": [
     "等差級數",
     "第n＋1項",
@@ -13,58 +40,28 @@
     "n＝9.5",
     "n＝13",
     "45−4n＝7",
-    "45−4n＝−7"
+    "45−4n＝−7",
+    "第14項"
   ],
-  "panels": [
-    {
-      "heading": "① 先消去相同的前n項",
-      "text": "設甲有n項，乙有n＋1項。兩級數前n項相同，相減後只剩乙多出的第n＋1項：45＋n×(−4)＝45−4n。",
-      "alt": "老師與學生比較兩份有共同部分的學習單；情境不呈現精確項數或公式。"
-    },
-    {
-      "heading": "② 相差7，要想正負兩種",
-      "text": "相差7沒有說誰的和較大。45−4n＝7得n＝9.5，不能作整數項數；45−4n＝−7才得n＝13。",
-      "alt": "老師提醒附加條件，學生留意多出的一項可能為負；精確數值由旁邊文字呈現。"
-    },
-    {
-      "heading": "③ 回代兩個和，檢查一次",
-      "text": "甲13項的和為273，乙14項的和為266，確實相差7。乙多出的第14項是−7，所以乙的和反而比較小。",
-      "alt": "兩位學生各自核對兩份學習單，再比較結果，沒有由圖片顯示答案。"
-    }
-  ],
-  "fourth": {
-    "answer": "答案 D：甲有13項",
-    "points": [
-      "先看乙多出的末項，不必一開始就算兩個總和。",
-      "相差7表示差可能是＋7或−7。",
-      "選12項時，多出的項是−3，兩和只差3。"
-    ]
-  },
-  "rationale": "使用者指定優先新來源，已實看原卷並獨立求解、回代273與266確認D。全新內建imagegen製作教學情境，不採來源AI圖；精確項數、正負、公式與總和全部放HTML，未讓生成模型決定數字或項數。",
-  "generationMethod": "built-in image_gen",
-  "promptFile": "docs/comics/q-806-prompt.txt",
-  "originalMaterialsChecked": true,
-  "visualChecked": true,
-  "originalMaterials": [
-    "docs/source-pages/priority-6ae2305b-02.jpg",
-    "site/dist/assets/questions/q-806-source.jpg"
-  ],
-  "answerCheckedAgainst": "D；甲13項和273，乙14項和266，相差7。",
+  "rationale": "依使用者新數學圖規則重製已核定q806，舊人物稿存before-diagrams紀錄。實看原卷6題完整四選項，D不變；新原生SVG同項消去/±7分支/局部和數線；程序回代273/266，正負與比例正確，不重用舊人物或來源AI圖。",
+  "promptSummary": "原生代數結構圖、正負差數線與局部總和數線取代人物圖，所有文字公式可核對。",
+  "answerCheckedAgainst": "原卷首項45/公差−4/甲少1項/和差7與四選項；獨立程式13項和273、14項和266，差−7；n9.5排除。",
+  "manualLineBreaks": false,
   "layoutVersion": "native-fluid-v6",
-  "nativeLayout": {
-    "width": "100%",
-    "height": "auto",
-    "artWidth": 180,
-    "fontSize": 14,
-    "equalColumnWidths": true,
-    "equalHeightWithinRow": true,
-    "independentRowHeights": true,
-    "singleColumnNaturalHeight": true,
-    "narrowSingleColumn": true
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-806-source.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "完整原卷重看，C學生答案非標準；原核定答案不改；先前優先來源禁來源AI仍遵守，數學新規覆蓋舊人物版要求。"
   },
-  "artSHA256": "f1c10bee3c4992d0db2b8bde4106be827f0b346a4f3ac1eabd0ea78381d33761",
-  "createdAt": "2026-10-28T18:06:26.415869+00:00",
-  "checkedAt": "2026-10-28T18:15:46.446449+00:00",
-  "validationFile": "docs/comics/q-806-validation.json",
-  "nativeArt": "assets/comics/q-806-art-f1c10bee3c-web.webp"
+  "replaces": "docs/comics/q-806-before-diagrams.json",
+  "artSHA256": "1f874076fc7c9cb16fa997a3ab770b94a37778cf1d18dfd20329e887d50f31d5",
+  "completedAt": "2026-10-29T01:08:12.515650+00:00",
+  "checkedAt": "2026-10-29T01:08:12.515663+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-806-preview-validation.json",
+  "visualReview": "實看原卷/新原生540×180與1440/390預覽：前n項對齊、乙多一項；±7分支n9.5與13正確；局部數線260–280等距標266與273，加−7向左。程式核13/14項和273/266；D不變，三寬無溢出與版型問題。"
 }

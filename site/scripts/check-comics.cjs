@@ -20,6 +20,7 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
    assert.equal(await comic.isVisible(),false,id+' must start collapsed');
    await page.locator(standalone?'details.review summary':'#answer-toggle').click();
    await comic.scrollIntoViewIfNeeded();
+   await page.waitForFunction(()=>[...document.querySelectorAll('.native-comic .comic-art img')].every(i=>i.complete&&i.naturalWidth>0));
    for(const width of [1440,1120,390]){
     await page.setViewportSize({width,height:1000});
     await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(150);
@@ -40,6 +41,7 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
      overflow:[...c.querySelectorAll('.comic-line')].filter(x=>x.scrollWidth>x.clientWidth+1).map(x=>x.textContent),
      docOverflow:document.documentElement.scrollWidth>innerWidth,
      art:[...c.querySelectorAll('.comic-art')].map(x=>x.clientWidth),
+     artImages:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.naturalWidth,height:i.naturalHeight,src:i.getAttribute('src')})),
      text:[...c.querySelectorAll('.comic-copy p')].map(x=>x.textContent),
     };});
     assert.equal(result.wrapErrors,0,id+' wrap');assert.deepEqual(result.overflow,[],id+' overflow');
@@ -56,6 +58,9 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
      assert.ok(one.top<two.top&&two.top<three.top&&three.top<four.top,id+' single-column reading order');
     }
     assert.ok(result.art.every(w=>w<=180));
+    assert.equal(result.artImages.length,3,id+' three loaded illustration panels');
+    assert.ok(result.artImages.every(i=>i.loaded&&i.width>0&&i.height>0),id+' image decoding');
+    assert.ok(result.artImages.every(i=>i.src&&!i.src.startsWith('data:')),id+' shared assets rather than embedded image copies');
     const spec=JSON.parse(fs.readFileSync(path.join(root,'docs/comics',id+'.json')));
     assert.deepEqual(result.text.map(t=>t.replace(/\s/gu,'')),spec.panels.map(p=>p.text.replace(/\s/gu,'')),id+' must retain all copy');
     const shot=path.join(shotDir,`${id}-${standalone?'standalone':'app'}-${width}.png`);

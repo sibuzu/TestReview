@@ -1,0 +1,74 @@
+{
+  "id": "q-325",
+  "subject": "Math",
+  "title": "月票划算，先算整月原車資",
+  "art": "docs/comics/art/q-325.png",
+  "startedAt": "2026-10-28T17:00:10.808138+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 一天車資，不再乘2",
+      "text": "去A地一天40元，去B地一天100元，都已包含上下班。工作共22天，月票則固定1200元。",
+      "alt": "阿勇在城市公車站準備通勤，車資以一天往返計算。"
+    },
+    {
+      "heading": "② 每個B地工作天多60元",
+      "text": "若22天全在A地，需40×22＝880元。每換1天去B地，就多100－40＝60元。設B地工作x天，不買月票需880＋60x元。",
+      "alt": "阿勇查看月票、錢包與行事曆，規劃兩地工作天數。"
+    },
+    {
+      "heading": "③ 月票要嚴格比較便宜",
+      "text": "須滿足1200＜880＋60x，即320＜60x，得到x＞16／3，約5.33。工作天數是整數，所以至少6天。",
+      "alt": "阿勇選擇月票搭車，實際天數與損益門檻由文字計算。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 月票何時比原車資便宜？",
+    "answer": "答案 C：至少6天在B地工作",
+    "points": [
+      "B地5天：原車資1180元，買月票較貴。",
+      "B地6天：原車資1240元，月票省40元。",
+      "關鍵是整月22天與嚴格小於，不能只算單趟。"
+    ]
+  },
+  "protectedWords": [
+    "阿勇",
+    "A地",
+    "B地",
+    "月票",
+    "1200元",
+    "880元",
+    "60元",
+    "工作天數",
+    "1180元",
+    "1240元",
+    "40元",
+    "100元",
+    "1200＜880＋60x",
+    "320＜60x",
+    "16／3",
+    "x＞16／3"
+  ],
+  "rationale": "以通勤、行事曆規劃、使用月票情境搭配基準加差額方法，突出一天已含來回、22天總費與整數嚴格門檻。原已確認C維持。",
+  "promptSummary": "三格無字動漫：公車通勤、比較月票與工作日規劃、持月票上車。",
+  "answerCheckedAgainst": "使用者已確認C；x>16/3，最少6，5天1180與6天1240。",
+  "visualChecked": true,
+  "artSHA256": "0b9a3e4ef8d38041bea3fb8bf237c8590d6688bc5cee29ae8d80997a89f0835e",
+  "completedAt": "2026-10-28T17:04:41.069062+00:00",
+  "checkedAt": "2026-10-28T17:06:39.375622+00:00",
+  "layoutEvidence": "docs/comics/q-325-preview-validation.json",
+  "visualReview": "實看原卷與修訂後3:1動漫素材，公車／月票情境無數字誤植，原C維持；重算5天1180與6天1240。1440/1120/390截圖實看，插畫自然比例180px，手機115px，公式未跨詞，無頁面溢出。",
+  "nativeArt": "assets/comics/q-325-art-0b9a3e4ef8-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-325-validation.json"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "q-809",
+  "subject": "Math",
+  "title": "每10天，星期往後推3天",
+  "art": "docs/comics/art/q-809.png",
+  "protectedWords": [
+    "小君",
+    "星期三",
+    "星期日",
+    "10＝7＋3",
+    "6次兌換",
+    "5個間隔"
+  ],
+  "panels": [
+    {
+      "heading": "① 先換成星期的變化",
+      "text": "一週7天，10＝7＋3，所以每10天兌換一次，星期就往後推3天；不是推2天，也不必先猜實際月份。",
+      "alt": "小君以優惠券和信封規劃兌換，圖中不顯示精確券數或數值。"
+    },
+    {
+      "heading": "② 從星期三列滿6次",
+      "text": "星期三開始，六次依序是三、六、二、五、一、四。每次往後推3天，這六次全都避開不營業的星期日。",
+      "alt": "小君與家人用無字筆記規劃，精確星期順序由文字呈現，不由圖片排日曆。"
+    },
+    {
+      "heading": "③ 次數不是間隔數",
+      "text": "第一次兌換已算第1次，6次兌換只有5個間隔。不要多算第7次；其他選項只要有一次遇到星期日，就不符合。",
+      "alt": "小君在營業中的店家成功兌換一次冰淇淋，沒有畫出遇上公休日的失敗情節。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：第一次是星期三",
+    "points": [
+      "A星期一：第3次遇星期日。",
+      "B星期二：第5次遇星期日；D星期四：第2次遇星期日。",
+      "C的六次為三、六、二、五、一、四，全部符合。"
+    ]
+  },
+  "rationale": "優先原卷23題完整條件實看，獨立逐次加10天驗四選項，唯一C避開週日。全新內建imagegen只製規劃與成功兌換情境，不採來源AI圖，不讓模型決定6張/6次或日期日曆，所有精確數據與排除過程用HTML。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-809-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/priority-6ae2305b-05.jpg",
+    "site/dist/assets/questions/q-809-source.jpg"
+  ],
+  "answerCheckedAgainst": "C星期三；六次三、六、二、五、一、四，全部不是星期日。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "b8f48bccb34a010978a21d3d482ab14b1c0c9d36e1fdde90077080c08d9bd12b",
+  "createdAt": "2026-10-28T18:46:11.717009+00:00",
+  "checkedAt": "2026-10-28T18:59:02.489743+00:00",
+  "validationFile": "docs/comics/q-809-validation.json",
+  "nativeArt": "assets/comics/q-809-art-b8f48bccb3-web.webp"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "q-283",
+  "subject": "English",
+  "title": "多份可選，任一份可以用單數讀法",
+  "art": "docs/comics/art/q-283-v2.png",
+  "protectedWords": [
+    "Any",
+    "Some",
+    "All",
+    "Much",
+    "snacks",
+    "is",
+    "are",
+    "any one",
+    "of the snacks",
+    "Any of",
+    "Some of",
+    "All of"
+  ],
+  "panels": [
+    {
+      "heading": "① snacks是多份可供選擇的點心",
+      "text": "桌上有多樣點心，所以of the snacks裡用複數snacks。但要決定動詞，還要看前面表示一些、全部，還是任一份；不能只看到snacks就判答案。",
+      "alt": "全新多類點心可供選擇情境，種類數不作題目數據，不把所有點心都拿走。"
+    },
+    {
+      "heading": "② 本句Any可理解為any one",
+      "text": "Any在這裡指任一份，可以理解為any one of the snacks，因此配合單數is。圖中選一份只是幫助理解，不表示原句規定只能吃一份。",
+      "alt": "學生從多份點心中選一個作為任一份示例，沒有禁止再取食的標誌，避免把文法變成限量規則。"
+    },
+    {
+      "heading": "③ Some、All在本題要用are",
+      "text": "Some of the snacks是其中一些，All of the snacks是全部，在本題可數點心的語境要配are。Much用於不可數量，也不符合複數snacks，因此選C。",
+      "alt": "另一學生自由選不同種類，示意任一選擇皆可，精確Some/All/Any語義與is/are用HTML校對，不讓圖中人物數決定文法。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：Any",
+    "points": [
+      "任一份的讀法：any one，配is。",
+      "一些或全部可數點心：Some／All，配are。",
+      "Any不是在所有句子裡都只能配is。"
+    ]
+  },
+  "rationale": "實看原卷13題完整句子及四選項，來源原對話全文讀畢；保留現有C及任一份/非限量規定說明。Chicago Manual of Style官方問答正文核對any單數可理解省略one，非一概永用單數；不新增語域枝節。全新選點心imagegen情境，不沿用來源AI圖，不把選一份示意誤成只能吃一份。",
+  "generationMethod": "built-in imagegen new wordless snack-choice scenes plus exact editable grammar text",
+  "promptFile": "docs/comics/q-283-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-283-source-62978c1b4d.jpg",
+    "site/dist/sources/6ae0615a-9340-83ec-8d4f-1121244b7822.txt lines 154–218"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Usage/faq0398.html",
+      "note": "芝加哥大學出版社問答正文：any可單複數，單數理解any one，補one更清楚。"
+    }
+  ],
+  "answerCheckedAgainst": "原句is＋可數複數snacks，本題Any任一份讀法C；Some/All應are、Much不合snacks。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:41:28.398821+00:00",
+  "artSha256": "c1a7b2a7f088e84a95db2be970a6e17251dd2410b38caed653f92fcc005165fe",
+  "editPromptFile": "docs/comics/q-283-edit-prompt.txt",
+  "artReview": "初圖選取時盤中已有餅乾，已內建編修為空盤只正選取一份的例子；原句不限制只能取一份。",
+  "checkedAt": "2026-10-29T01:43:39.341665+00:00",
+  "validationFile": "docs/comics/q-283-preview-validation.json"
+}

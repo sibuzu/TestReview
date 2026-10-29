@@ -1,0 +1,79 @@
+{
+  "id": "q-574",
+  "subject": "Geography",
+  "title": "先看低年溫差，再在兩點中比雨量",
+  "art": "docs/comics/art/q-574.svg",
+  "protectedWords": [
+    "年溫差",
+    "年降水量",
+    "年平均氣溫",
+    "長久如春",
+    "乙、丙",
+    "甲、丁",
+    "2500毫米",
+    "北回歸線"
+  ],
+  "panels": [
+    {
+      "heading": "① 縱軸年溫差，橫軸年降水量",
+      "text": "縱軸越高，最熱月與最冷月的月均溫差距越大；不是年平均氣溫。橫軸越往右，一年的總雨量越多。先讀軸，才能用題文篩選。",
+      "alt": "依原圖相對配置重繪甲乙丙丁散點及20/10/0與2500刻度；點位不賦予原題沒有的精確氣候值。"
+    },
+    {
+      "heading": "② 長久如春，先找年溫差較小",
+      "text": "題文用長久如春描述恆春的氣候，表示季節間溫度差異較小。因此找圖下方的乙、丙，先排除年溫差較大的甲、丁。",
+      "alt": "淡綠區凸顯低年溫差兩點，10只是原圖刻度參考，不改成高低氣溫或新氣候分區門檻。"
+    },
+    {
+      "heading": "③ 在乙、丙之間，丙的雨量較多",
+      "text": "題文又說降水充沛，丙比乙更靠右，所以選丙。注意丙仍在2500毫米刻度左側；相對較多雨，不等於一定超過這個刻度。",
+      "alt": "橙色圈出丙，藍色為乙，2500垂直參考線仍在丙右方，避免重複原AI把丙說成2500右側的錯誤。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙",
+    "points": [
+      "長久如春：年溫差較小。",
+      "降水充沛：在低溫差兩點中選較右者。",
+      "兩項線索合看，不把刻度當成必過門檻。"
+    ]
+  },
+  "rationale": "原卷全文四選項與圖5軸/刻度/點位實看，來源AI先B後C及2500/南回歸線錯說已在resolved correction-q-574-7d5f362d49d5確認訂正，不重開。維持C，圖只按相對配置做SVG，沒有替點估精確雨量或年溫差，也不把圖當現行CWA氣候資料。低年溫差乙丙先篩，再比雨量丙較右但小於2500位置。全部新製不採來源AI圖。",
+  "generationMethod": "programmatic SVG for faithful relative climate scatter positions",
+  "generatorFile": "docs/comics/q-574-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-574-source-5359ad8746.jpg",
+    "site/dist/assets/questions/q-574-figure-4409470f63.jpg",
+    "site/dist/sources/gemini-EIL6o38enzRm.txt 第14題",
+    "monitor/confirmations.json resolved correction-q-574-7d5f362d49d5"
+  ],
+  "answerCheckedAgainst": "縱軸低乙丙，橫軸丙較右，且丙左於2500刻度；選C，無現代數據推補。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T00:48:50.728523+00:00",
+  "artSha256": "6daaeb14183cdc901bb4e2c1691fa61a401adcf188d3efc8792a4e408b8e9e21",
+  "checkedAt": "2026-10-29T01:05:50.915987+00:00",
+  "validationFile": "docs/comics/q-574-validation.json",
+  "nativeArt": "assets/comics/q-574-art-6daaeb1418.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T01:05:50.914372+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷兩軸、四點及2500刻度實看，C丙不變；新SVG先低年溫差篩乙丙再比雨量，丙仍在2500左，與已確認訂正一致。正式桌手機圖文實看。",
+    "sharedNativeAssetVerified": true
+  }
+}

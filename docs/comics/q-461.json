@@ -1,0 +1,90 @@
+{
+  "id": "q-461",
+  "subject": "Physics-Chemistry",
+  "title": "反應係數看變化量，不看剩餘量",
+  "art": "docs/comics/art/q-461.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:31:45.623778+00:00",
+  "panels": [
+    {
+      "heading": "① 同一段時間，先讀前後濃度",
+      "text": "在0～80秒，x由0.8降至0.6M，y由0.7降至0.3M，z由0升至0.2M。三者都取同一段，不能只拿最後剩多少來比較。",
+      "alt": "依原圖列出x、y、z在同一段時間的前後濃度；數值逐列完整對應。"
+    },
+    {
+      "heading": "② 消耗、生成量各自相減",
+      "text": "x消耗0.8－0.6＝0.2M；y消耗0.7－0.3＝0.4M；z生成0.2－0＝0.2M。把消耗與生成分清，再比較變化量的大小。",
+      "alt": "三根等寬柱以相同比例顯示x消耗0.2、y消耗0.4、z生成0.2M；y柱恰為另外兩柱的兩倍。"
+    },
+    {
+      "heading": "③ 最簡變化比，才對應係數",
+      "text": "定容下，濃度變化量比對應物質的量變化比。0.2：0.4：0.2同除以0.2，得到1：2：1，所以x＋2y→z，選B。",
+      "alt": "三個變化量同除以0.2得到1比2比1，對應x加2y生成z，不把y的2當反應級數。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：x＋2y → z",
+    "points": [
+      "反應物用起初減後來；產物用後來減起初。",
+      "變化量比為0.2：0.4：0.2＝1：2：1。",
+      "剩餘濃度0.6：0.3：0.2，不是反應係數比。"
+    ]
+  },
+  "protectedWords": [
+    "變化量",
+    "反應係數",
+    "剩餘濃度",
+    "物質的量",
+    "定容",
+    "0.8",
+    "0.6M",
+    "0.3M",
+    "0.2M",
+    "0.4M",
+    "1：2：1"
+  ],
+  "rationale": "實看原卷第22題四選項與必要濃度曲線，B與原使用者A→B更正一致。全新SVG前後濃度表/按精確比例的變化量柱/最簡比與反應式，比人物圖更能消除剩餘量當係數的錯誤；不偽造時間曲線形狀或未知分子結構。",
+  "promptSummary": "原生SVG：0～80秒前後濃度表；0.2/0.4/0.2M等尺度柱狀圖；同除0.2得到1:2:1及x+2y→z。",
+  "answerCheckedAgainst": "原卷完整曲線x0.8→0.6、y0.7→0.3、z0→0.2，Δ濃度大小1:2:1；程式核算與OpenStax反應計量關係。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+      "finding": "反應物/產物濃度變化之間依化學計量相關，可從同時段變化量推係數比；此處不把係數誤作速率律級數。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-461-source-2dc6c732b6.jpg",
+      "site/dist/assets/questions/q-461-figure-0fb22a2af1.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "實看第22題全部選項及濃度/時間原圖，約80秒後平坦；不以剩餘濃度0.6/0.3/0.2求係數。"
+  },
+  "artSHA256": "f9c27cbb03bce47baddedde786d4faa2a0daf84cdc1a618cde964807ad7c9806",
+  "calculationChecked": {
+    "changes": [
+      0.2,
+      0.4,
+      0.2
+    ],
+    "ratio": [
+      1,
+      2,
+      1
+    ],
+    "barHeights": [
+      40,
+      80,
+      40
+    ]
+  },
+  "completedAt": "2026-10-29T01:33:22.493604+00:00",
+  "checkedAt": "2026-10-29T01:33:22.493604+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-461-preview-validation.json",
+  "visualReview": "實看540×180原生圖及1440/390：前後表數值均與原圖一致，變化量柱高40/80/40呈1:2:1，消耗與生成標籤清楚，最簡比對應B。桌面同行等高與手機單欄自然高度、公式換行無裁切，三寬QA通過。"
+}

@@ -1,0 +1,49 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "共高找比例，相似找中間面積",
+    "art": "assets/comics/q-126-art-cf158edaeb.svg",
+    "panels": [
+      {
+        "heading": "① 共高面積比，先求AD：DB",
+        "text": "△ADF與△DBF用AD、DB作底，頂點都在F，對AB同高。因此AD：DB＝20：30＝2：3，AD：AB＝2：5。",
+        "alt": "單獨抽出共高兩三角形，20與30分色；F到AB垂線及直角記號按坐標精確作出，非假設整個ABC直角。"
+      },
+      {
+        "heading": "② 相似面積比，算出中間75",
+        "text": "DF∥BG使△ADF與△ABG相似，邊比2：5、面積比4：25。△ABG＝125；扣去△ABF的20＋30＝50，才得到△BFG＝75。",
+        "alt": "同一精確幾何中整個ABG面積125標在外，BFG紫色區才是75，不把125誤標成中間小區。"
+      },
+      {
+        "heading": "③ 共高轉線段，再由平行線換底",
+        "text": "△BFG與△BGC對AC共高，故FG：GC＝75：90＝5：6。再用EG∥BF，將AC上的比例轉成BE：EC＝5：6，選A。",
+        "alt": "BFG/BCG兩共高區分色，BF與EG同色示平行；E與F/G位置正確，BC兩段5/6對應相同比例。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 A：BE：EC＝5：6",
+      "points": [
+        "共高：面積比＝底邊比。",
+        "相似：面積比是對應邊比的平方。",
+        "先扣20＋30得到75，再和90相比。"
+      ]
+    },
+    "protectedWords": [
+      "△ADF",
+      "△DBF",
+      "△ABG",
+      "△ABF",
+      "△BFG",
+      "△BGC",
+      "AD：DB",
+      "AD：AB",
+      "FG：GC",
+      "BE：EC",
+      "2：5",
+      "4：25",
+      "5：6",
+      "EG∥BF",
+      "DF∥BG"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "q-313",
+  "subject": "Biology",
+  "title": "沿細胞核來源，推回甲蛙體色",
+  "art": "docs/comics/art/q-313.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:02:04.725241+00:00",
+  "panels": [
+    {
+      "heading": "① 甲提供蝌蚪體細胞的細胞核",
+      "text": "沿原圖先找核的來源：甲蛙蝌蚪的體細胞取出細胞核。圖中金色是追蹤核來源的標記，不代表細胞或青蛙真的呈金色。",
+      "alt": "甲蝌蚪體細胞的金色核被取出，金色為來源追蹤，不把體細胞與卵細胞或精子混用。"
+    },
+    {
+      "heading": "② 乙提供去核卵，再移入甲核",
+      "text": "乙的卵細胞先移除原核，再放入甲的核並活化發育。沒有精卵結合，所以C不能只因使用卵細胞，就判成有性生殖。",
+      "alt": "乙卵內保留甲來源金色核，原卵灰核在外被叉掉；無兩個細胞核融合或精子加入。"
+    },
+    {
+      "heading": "③ 丙白色，依本題推甲也白色",
+      "text": "依題目體色受核內遺傳控制的模型，丙的核內資訊來自甲。已知丙為白色，可推甲也是白色，選D；不能改追已被移除的乙核。",
+      "alt": "丙蛙白色外觀概念圖與核來源推論，不把核金色當體色，不推所有性狀或細胞全部成分都由甲提供。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：甲蛙體色也是白色",
+    "points": [
+      "核來源是甲；去核卵來源是乙。",
+      "使用卵細胞，不等於發生精卵結合。",
+      "只依本題體色模型推論，不把卵的其他成分說成不存在。"
+    ]
+  },
+  "protectedWords": [
+    "細胞核",
+    "體細胞",
+    "甲蛙",
+    "乙核",
+    "丙蛙",
+    "去核卵",
+    "精卵結合",
+    "有性生殖",
+    "核內遺傳"
+  ],
+  "rationale": "實看原卷1題完整敘事/四選項及核移植附圖，D不變。全新SVG用一致金色只追蹤甲核，乙灰核移除，不畫精卵融合；白色丙按已確認核內體色模型反推甲，不擴張所有性狀/全部遺傳成分。",
+  "promptSummary": "原生SVG甲蝌蚪體細胞取核、乙去核卵內甲核、白色丙及來源推論；非實驗操作比例圖。",
+  "answerCheckedAgainst": "原圖腸細胞甲取核/乙卵去核/電刺激活化/丙白色，D；Nobel官方核移植研究說明。",
+  "officialReferences": [
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/2012/press-release/",
+      "finding": "Gurdon以蝌蚪體細胞核置換蛙卵核，可發育為蝌蚪，核內資訊未隨分化消失。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-313-source-4ee3ef3205.jpg",
+      "site/dist/assets/questions/q-313-figure-9483cf3c60.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "全部敘事/四選項/取核去核注入與發育原圖實看，未把兩卵或精卵融合畫進新圖。"
+  },
+  "artSHA256": "418537898e4d91b94dff7178269f609434de9dfed2984a1f4a5699d0510e345d",
+  "completedAt": "2026-10-29T01:05:30.467639+00:00",
+  "checkedAt": "2026-10-29T01:05:30.467652+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-313-preview-validation.json",
+  "visualReview": "實看原卷/必要核移植圖及最終原生540×180、1440/390預覽：金色一致標甲核非蛙體色，乙灰核在卵外刪除，卵內只甲核；無精卵結合，白丙依題內模型推甲白、D不變。底部模型註記上移後重跑QA並實看三寬，無溢出/版型問題。"
+}

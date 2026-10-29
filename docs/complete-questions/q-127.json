@@ -5,5 +5,50 @@
       "alt": "延長DE交BC於T；橘色ADP與綠色FTP相似，AP：PF＝5：2，AP：AF＝5：7",
       "caption": "依已知條件與詳解計算繪製的輔助圖；虛線為延長DE至T。"
     }
-  ]
+  ],
+  "teachingComic": {
+    "title": "先補出對應邊，再換成部分比全長",
+    "art": "assets/comics/q-127-art-24d44f3d33.svg",
+    "panels": [
+      {
+        "heading": "① 兩個等腰三角形，求出AD",
+        "text": "△ABC中，A、C兩角都65°，所以AB＝BC＝4＋7＝11。扣掉BE＝6，得AE＝5。△ADE也有兩個65°，因此AE＝AD＝5。",
+        "alt": "依精確角度構造全圖，綠色AB與BC等長11，橙色AE與AD等長5；E在AB、F在BC、P為AF與DE交點。"
+      },
+      {
+        "heading": "② 角度推平行，延長DE到T",
+        "text": "∠DAE＝50°，所以∠DAC＝115°，與C角65°互補，得AD∥BC。延長DE交BC於T；△BET兩個角都是65°，故BT＝BE＝6，減BF＝4得FT＝2。",
+        "alt": "新輔助線DE延長段虛線至T；B、F、T、C的順序忠實標示，BT6不是BF4，AD與BC平行。"
+      },
+      {
+        "heading": "③ 相似先得兩段比，再合成全長",
+        "text": "△ADP與△FTP相似，AD對應FT，所以AP：PF＝5：2。題目要AP：AF；整段AF是5＋2＝7份，因此AP：AF＝5：7。",
+        "alt": "相似的ADP橙色、FTP綠色，AD5對應FT2，AP及PF分色；不把BF作相似對應邊。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 B：AP：AF＝5：7",
+      "points": [
+        "輔助點T是DE與BC的交點。",
+        "對應邊是AD與FT，不是BF。",
+        "5：2是AP：PF；題目要部分比全長。"
+      ]
+    },
+    "protectedWords": [
+      "AD∥BC",
+      "AB＝BC",
+      "AE＝AD＝5",
+      "BT＝BE＝6",
+      "FT＝2",
+      "AP：PF",
+      "AP：AF",
+      "5：2",
+      "5：7",
+      "等腰三角形",
+      "相似三角形",
+      "65°",
+      "115°",
+      "50°"
+    ]
+  }
 }

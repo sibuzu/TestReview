@@ -1,0 +1,85 @@
+{
+  "id": "q-126",
+  "subject": "Math",
+  "title": "共高找比例，相似找中間面積",
+  "art": "docs/comics/art/q-126.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:08:12.577073+00:00",
+  "panels": [
+    {
+      "heading": "① 共高面積比，先求AD：DB",
+      "text": "△ADF與△DBF用AD、DB作底，頂點都在F，對AB同高。因此AD：DB＝20：30＝2：3，AD：AB＝2：5。",
+      "alt": "單獨抽出共高兩三角形，20與30分色；F到AB垂線及直角記號按坐標精確作出，非假設整個ABC直角。"
+    },
+    {
+      "heading": "② 相似面積比，算出中間75",
+      "text": "DF∥BG使△ADF與△ABG相似，邊比2：5、面積比4：25。△ABG＝125；扣去△ABF的20＋30＝50，才得到△BFG＝75。",
+      "alt": "同一精確幾何中整個ABG面積125標在外，BFG紫色區才是75，不把125誤標成中間小區。"
+    },
+    {
+      "heading": "③ 共高轉線段，再由平行線換底",
+      "text": "△BFG與△BGC對AC共高，故FG：GC＝75：90＝5：6。再用EG∥BF，將AC上的比例轉成BE：EC＝5：6，選A。",
+      "alt": "BFG/BCG兩共高區分色，BF與EG同色示平行；E與F/G位置正確，BC兩段5/6對應相同比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：BE：EC＝5：6",
+    "points": [
+      "共高：面積比＝底邊比。",
+      "相似：面積比是對應邊比的平方。",
+      "先扣20＋30得到75，再和90相比。"
+    ]
+  },
+  "protectedWords": [
+    "△ADF",
+    "△DBF",
+    "△ABG",
+    "△ABF",
+    "△BFG",
+    "△BGC",
+    "AD：DB",
+    "AD：AB",
+    "FG：GC",
+    "BE：EC",
+    "2：5",
+    "4：25",
+    "5：6",
+    "EG∥BF",
+    "DF∥BG"
+  ],
+  "rationale": "依使用者新數學規則重開舊not_suitable，真正製作幾何教學四格，不以人物不適合跳過。實看原卷/含手寫附圖/乾淨必要SVG，A不變；新坐標驗算各面積20/30/75/90/125比例與兩組平行及BE:EC5:6，三格明確凸顯不同推理步驟。",
+  "promptSummary": "原生SVG共高20/30、相似ABG125扣50得75、共高75/90與平行截比例，取代無圖審查結果。",
+  "answerCheckedAgainst": "原卷19題兩組平行與面積20/30/90、四選項；獨立坐標面積/平行叉積/BE:EC驗算均符合5:6。",
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-126-source-10d413a6ce.jpg",
+      "site/dist/assets/questions/q-126-figure-source-bbbf424d0b.jpg",
+      "site/dist/assets/questions/q-126-given.svg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "全部選項與A-D-B、A-F-G-C、B-E-C位置及平行條件重核；舊not_suitable已由使用者新圖規則取代。"
+  },
+  "artSHA256": "cf158edaeb7469effedf52d4247daed6ffa2b031204788fa2fddbdb3ae1c2f66",
+  "completedAt": "2026-10-29T01:11:35.055447+00:00",
+  "checkedAt": "2026-10-29T01:11:35.055466+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-126-preview-validation.json",
+  "visualReview": "實看原卷/手寫附圖/乾淨必要SVG及新原生540×180、1440/390成品；共高垂足直角記號按坐標，125標整ABG而75在中間BFG，75/90與BE/EC5/6位置明確。程序驗算各面積與兩平行叉積、線段比；A不變，三寬無溢出/版型問題。",
+  "nativeArt": "assets/comics/q-126-art-cf158edaeb.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootLabelAdjustment": "BC分段5、6明列5份、6份，避免把比例份數讀成題給絕對長。"
+}

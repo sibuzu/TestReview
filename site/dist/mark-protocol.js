@@ -1,16 +1,18 @@
 export const MARK_KINDS = ['favorite', 'doubt', 'answered'];
 export const MARK_FIELDS = {favorite:'favorites', doubt:'doubts', answered:'answered'};
 export const CLOUD_MARKS_URL = 'https://weirugo.sibuzu.com/.netlify/functions/marks';
-export const COMPANION_ORIGINS = [
-  'https://monitor.sibuzu.com',
-  ...['127.0.0.1', 'localhost'].flatMap(host => [4173, 5500, 8765].map(port => `http://${host}:${port}`)),
-];
+export const CLOUD_MARKS_ORIGIN = 'https://weirugo.sibuzu.com';
+export function isCloudMarksSite(href){
+  try{return new URL(href).origin===CLOUD_MARKS_ORIGIN;}catch{return false;}
+}
+export function isLocalOnlySite(href){
+  return !isCloudMarksSite(href);
+}
 export function marksEndpointFor(href) {
-  try {if (COMPANION_ORIGINS.includes(new URL(href).origin)) return CLOUD_MARKS_URL;} catch {}
-  return '/.netlify/functions/marks';
+  return isCloudMarksSite(href)?'/.netlify/functions/marks':null;
 }
 export function allowedMarksOrigin(origin, requestURL) {
-  return !origin || origin === new URL(requestURL).origin || COMPANION_ORIGINS.includes(origin);
+  return isCloudMarksSite(requestURL)&&(!origin||origin===CLOUD_MARKS_ORIGIN);
 }
 export const markKey = operation => `${operation.kind}/${operation.id}`;
 export function checkedOperations(value, limit = 10000) {

@@ -2,31 +2,36 @@
   "id": "q-807",
   "subject": "Math",
   "title": "奇偶相鄰配對，每對差一個d",
-  "art": "docs/comics/art/q-807-v2.png",
+  "art": "docs/comics/art/q-807-algebra.svg",
   "protectedWords": [
+    "奇數位置",
+    "偶數位置",
     "奇數項",
     "偶數項",
     "相鄰配對",
     "6d＝8",
     "4／3",
     "12項",
-    "6對"
+    "6對",
+    "差2d",
+    "差d",
+    "2d"
   ],
   "panels": [
     {
-      "heading": "① 每個偶數項配前一奇數項",
-      "text": "第2項減第1項、第4項減第3項，直到第12項減第11項，每一對都差公差d。12項剛好配成6對。",
-      "alt": "老師以一對無字色卡示意相鄰配對；不是原題12項的精確排列圖。"
+      "heading": "① 12項，逐對看相鄰的差",
+      "text": "綠框為奇數位置，藍框為下一個偶數位置：第2項配第1項，一直到第12項配第11項。每一對相鄰，所以偶數項減前一奇數項都等於d。",
+      "alt": "精確6列奇偶位置配對，每列從奇數項到下一偶數項標+d；共12個框、6個相鄰差，未省略成3對。"
     },
     {
-      "heading": "② 總差是6個公差",
-      "text": "偶數項和18減奇數項和10，等於8。六對相加便是6d＝8，因此d＝8／6＝4／3。要除以配對數6。",
-      "alt": "師生比較兩組學習單的共通規律，精確組數與總和用旁邊文字呈現。"
+      "heading": "② 兩組和的差，就是6個d",
+      "text": "偶數項和18減奇數項和10，總差為8。六對相加得到6d＝8，所以d＝8／6＝4／3；分母用配對數6，並不是總項數12。",
+      "alt": "兩條長度比10比18的總和條，和的差8；下方6個等寬d框示意6個相同公差，不把個別項畫成必為正數。"
     },
     {
-      "heading": "③ 回代奇偶項和",
-      "text": "首項取−5、公差取4／3時，奇數項和為10，偶數項和為18。兩個原題條件都成立，不只看選項大小。",
-      "alt": "學生各自驗算再交換檢查，沒有由插畫顯示數字或答案。"
+      "heading": "③ 隔一項，才會差2d",
+      "text": "從第1項到第2項只走一步，差d；從第1項到第3項走了兩步，差2d。不要把第3項減第1項的差，誤套到本題相鄰奇偶配對。",
+      "alt": "依序a1、a2、a3的項次示意，每步+d，兩步+2d；不是個別數值正負的數線。"
     }
   ],
   "fourth": {
@@ -37,9 +42,8 @@
       "第3項−第1項才是2d，別與相鄰配對混淆。"
     ]
   },
-  "rationale": "優先新來源原卷第18題已實看，獨立用六對差求d=4/3，再以首項−5回代奇和10、偶和18。全新內建imagegen只製教學情境，不採來源AI圖，不讓生成模型決定12項/6對或計算數值，精確內容全在HTML。 已清除學習單上的重複色條，避免生成圖看似只有3對而與精確6對混淆。",
-  "generationMethod": "built-in image_gen",
-  "promptFile": "docs/comics/q-807-prompt.txt",
+  "rationale": "依使用者最新數學圖優先規則，原人物版另存q-807-before-algebra.json，本版以全新精確6對SVG替換。重看原卷第18題及來源message189全文，獨立以Fraction建12項，6對差皆4/3、奇和10、偶和18精確回代通過；B不變。條形圖只表總和，不假定每項均為正；項次圖只表相鄰與隔項關係，不是數值數線。不沿用來源AI圖。",
+  "generationMethod": "programmatic SVG exact adjacent-pair algebra relationship diagrams",
   "originalMaterialsChecked": true,
   "visualChecked": true,
   "originalMaterials": [
@@ -59,10 +63,10 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "1a722cbf4bff7c7f5ccedabbdd2d77e7bfa28823c9adc92f19ffe870ec615e11",
   "createdAt": "2026-10-28T18:12:23.762575+00:00",
-  "editPromptFile": "docs/comics/q-807-edit-prompt.txt",
-  "checkedAt": "2026-10-28T18:22:11.912046+00:00",
-  "validationFile": "docs/comics/q-807-validation.json",
-  "nativeArt": "assets/comics/q-807-art-1a722cbf4b-web.webp"
+  "generatorFile": "docs/comics/q-807-algebra-generate.py",
+  "createdAtUTC": "2026-10-29T01:07:12.193111+00:00",
+  "artSha256": "fd6a0475c7da0d1e3d889273ea485390051c7bb6e68c53a01fa43cf6f7f00146",
+  "checkedAt": "2026-10-29T01:07:56.457144+00:00",
+  "validationFile": "docs/comics/q-807-preview-validation.json"
 }

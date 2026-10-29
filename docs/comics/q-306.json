@@ -1,0 +1,107 @@
+{
+  "id": "q-306",
+  "subject": "Biology",
+  "title": "乙、丙都找得到單細胞與多細胞例子",
+  "art": "docs/comics/art/q-306.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T00:55:59.890444+00:00",
+  "panels": [
+    {
+      "heading": "① 先按原題的五界模型認代號",
+      "text": "原圖甲向乙，乙再分向丙、動物界與植物界。本題甲是原核生物界、乙是原生生物界、丙是真菌界；依試題採用的傳統模型作答。",
+      "alt": "程式重現原題甲向乙、乙分向丙動植物三分支的拓樸，只作傳統五界題圖，不宣稱最新演化樹。"
+    },
+    {
+      "heading": "② 乙原生生物：不全是單細胞",
+      "text": "草履蟲是單細胞；海帶等部分藻類是多細胞。在本題五界分類中，原生生物界能同時找到這兩類例子。",
+      "alt": "原生生物示例：單一草履蟲輪廓及海帶藻體，非同倍率、非完整細胞結構或真正根莖葉構造。"
+    },
+    {
+      "heading": "③ 丙真菌：也有單細胞例子",
+      "text": "酵母菌是單細胞，蕈類是多細胞。不能看到蘑菇，就把整個真菌界都當成多細胞；因此乙、丙都符合B。",
+      "alt": "單一酵母細胞與蕈類外形並列，大小非實際比例，沒有用蕈類輪廓當成一個巨大細胞。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 乙、丙都找得到單細胞與多細胞例子",
+    "answer": "答案 B：乙、丙皆有單細胞與多細胞生物",
+    "points": [
+      "A：草履蟲無細胞壁，「均有」不成立。",
+      "C：病毒沒有細胞構造，不屬本題五界。",
+      "D：藍菌可光合作用，但沒有葉綠體。"
+    ]
+  },
+  "protectedWords": [
+    "五界模型",
+    "原核生物界",
+    "原生生物界",
+    "真菌界",
+    "動物界",
+    "植物界",
+    "五界分類",
+    "單細胞",
+    "多細胞",
+    "草履蟲",
+    "海帶",
+    "藻類",
+    "酵母菌",
+    "蕈類",
+    "蘑菇",
+    "細胞壁",
+    "病毒",
+    "細胞構造",
+    "藍菌",
+    "光合作用",
+    "葉綠體"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-306-source-2fa4ca6670.jpg",
+    "site/dist/assets/questions/q-306-figure-e6b7c997f3.jpg"
+  ],
+  "originalVisualCheck": "實看原卷焦點3第6題、完整四選項與圖，箭頭甲上行乙、乙向丙/動物/植物三向，未將對話3@錯題誤作原題號。",
+  "answerCheckedAgainst": "原題B與既有核對一致；OpenStax Protists/Fungi實際全文核對單細胞與多細胞例子。原題五界年代措辭沿用，解說限定傳統題圖，不升格為現代共識。",
+  "references": [
+    {
+      "url": "https://openstax.org/books/concepts-biology/pages/13-3-protists",
+      "title": "OpenStax Concepts of Biology 13.3 Protists",
+      "checked": "實際讀分類歷史及單細胞/多細胞海帶部分，不把原生生物當單一現代演化支。"
+    },
+    {
+      "url": "https://openstax.org/books/concepts-biology/pages/13-4-fungi",
+      "title": "OpenStax Concepts of Biology 13.4 Fungi",
+      "checked": "實際讀Cell Structure and Function/Growth and Reproduction，酵母單細胞、蕈類多細胞。Gatech原頁502，未稱讀成功。"
+    }
+  ],
+  "rationale": "精確分類拓樸與兩組生物形態直接表達單/多細胞對照，用原生SVG避免生成錯分支或把海帶當植物；HTML承載教學句。示意生物不按同倍率，不臆造新分類或裝飾人物。",
+  "artType": "precise native SVG biological classification and example silhouettes",
+  "generationCalls": 0,
+  "artSHA256": "3dc8b1b42144062c39638072a296bb083807add9f2830cf4e1df6c8ae60f56f8",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T01:13:51.323871+00:00",
+  "completedAt": "2026-10-29T00:58:17.709766+00:00",
+  "layoutEvidence": "docs/comics/q-306-preview-validation.json",
+  "visualReview": "實看1440/1120/390 SVG分類箭頭與四種示例，海帶改為單一帶狀藻體而非似陸生分枝葉片，酵母單一細胞不畫出芽造成誤數。甲乙丙箭頭均可見且不被方塊遮擋，無溢出/保護詞拆行，同列等高、手機自然高度；示意不按倍率。",
+  "nativeArt": "assets/comics/q-306-art-3dc8b1b421.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T01:13:51.321704+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷五界拓樸甲→乙及乙→丙/動物/植物、四選項實看，B不變。新SVG分清兩界單/多細胞示例及傳統模型，非最新演化樹。正式桌手機圖文/文字換行實看。",
+    "sourceAIReplaced": true,
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-306-validation.json"
+}

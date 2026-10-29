@@ -2,11 +2,16 @@
   "id": "q-324",
   "subject": "Math",
   "title": "同濃度，把大杯條件一起用",
-  "art": "docs/comics/art/q-324.png",
+  "art": "docs/comics/art/q-324-algebra.svg",
   "protectedWords": [
     "咖啡因",
     "每毫升",
     "不超過",
+    "3／4",
+    "100＜m≤200",
+    "150＜m≤200",
+    "m＞150",
+    "300＜2m≤400",
     "150毫克",
     "200毫克",
     "300毫克",
@@ -14,19 +19,19 @@
   ],
   "panels": [
     {
-      "heading": "① 黃色給上限，紅色給下限",
-      "text": "依原表，中杯360毫升為黃色，含量不超過200毫克；大杯480毫升為紅色，含量超過200毫克。兩個條件都要用。",
-      "alt": "成人在咖啡店比較黃色標示的中杯與紅色標示的大杯。"
+      "heading": "① 同濃度，含量隨容量成比例",
+      "text": "中杯360毫升、大杯480毫升，容量比為3：4。每毫升含量相同，所以中杯咖啡因含量，也是大杯的3／4；不能只看杯子顏色。",
+      "alt": "360與480毫升的精確3比4等高條形，不把容量和咖啡因含量混為相同單位。"
     },
     {
-      "heading": "② 同濃度，含量隨容量成比例",
-      "text": "中杯容量是大杯的360／480＝3／4，所以中杯咖啡因超過200×3／4＝150毫克。合併黃色上限，中杯含量大於150毫克，且不超過200毫克。",
-      "alt": "成人店員以同一批咖啡示意兩種杯量具有相同濃度，不呈現精確比例圖。"
+      "heading": "② 黃色上限，合併大杯推得的下限",
+      "text": "設一中杯含量為m。黃色給100＜m≤200；大杯紅色超過200毫克，乘3／4可得m＞150。合併後，150＜m≤200。",
+      "alt": "同尺度三條含量範圍：中杯黃色100開200閉、大杯推出150開往右、交集150開200閉；實心為包含端點，空心為不包含。"
     },
     {
-      "heading": "③ 兩杯中杯，再乘以2",
-      "text": "兩杯總量大於300毫克，且不超過400毫克。因此不符合題給我國的300毫克上限，但符合題給歐盟的400毫克上限。",
-      "alt": "成人顧客對照筆記與兩個相同黃色標示中杯，計算合計含量。"
+      "heading": "③ 兩杯乘2，再比題給上限",
+      "text": "兩中杯總量是2m。以毫克計，300＜2m≤400。一定超過題給我國300毫克上限，卻不超過題給歐盟400毫克上限，所以選D。",
+      "alt": "總量範圍300開400閉，搭配原卷所給兩個上限；僅數學判讀原題，不延伸一般健康安全建議。"
     }
   ],
   "fourth": {
@@ -37,9 +42,8 @@
       "只看黃色不夠，還要用大杯紅色及同濃度。"
     ]
   },
-  "rationale": "實看完整原卷含兩表，獨立用容量比3/4重算，與使用者已確認D一致。用成人比較杯量情境支持同濃度與總量概念，精確數據、界線及題給建議值以HTML呈現，不把題給上限延伸為一般醫療或安全建議。無現有AI解說圖。",
-  "generationMethod": "built-in image_gen",
-  "promptFile": "docs/comics/q-324-prompt.txt",
+  "rationale": "依數學精確圖新規，把原人物版保存before-algebra，改新容量比與區間交集SVG。原卷題幹、兩表、四選項實看，來源相關顏色段落已讀；以Fraction獨立驗3/4推150開下限及兩杯300開400閉，保留使用者已確認D，不重開既有原AI漏條件訂正。每個空實心端點精確符合嚴格不等式，僅採題給數據，不做現行醫療營養指引。",
+  "generationMethod": "programmatic SVG exact volume ratio and open/closed interval intersection",
   "originalMaterialsChecked": true,
   "visualChecked": true,
   "originalMaterials": [
@@ -58,9 +62,10 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "62d05cdb582cb4aa352602fdf21258ff0138e406befe27ceb1c09c0f1ab6231f",
   "createdAt": "2026-10-28T17:01:12.920975+00:00",
-  "checkedAt": "2026-10-28T17:03:12.936807+00:00",
-  "validationFile": "docs/comics/q-324-validation.json",
-  "nativeArt": "assets/comics/q-324-art-62d05cdb58-web.webp"
+  "generatorFile": "docs/comics/q-324-algebra-generate.py",
+  "createdAtUTC": "2026-10-29T01:15:39.729160+00:00",
+  "artSha256": "929dbf597b0dde03442803dfe05e759edd3135aa9ed7af7f4c8dd5eae4d62bcd",
+  "checkedAt": "2026-10-29T01:16:20.801973+00:00",
+  "validationFile": "docs/comics/q-324-preview-validation.json"
 }

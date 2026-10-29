@@ -1,55 +1,70 @@
 {
   "id": "q-136",
   "subject": "Math",
-  "title": "完全平方：三個係數對對看",
-  "art": "docs/comics/art/q-136.png",
+  "title": "比較係數後，別漏掉減去負數",
+  "art": "docs/comics/art/q-136-algebra.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T01:12:38.818943+00:00",
   "panels": [
     {
-      "heading": "① 先展開，別漏中間項",
-      "text": "(ax＋b)²\n＝a²x²＋2abx＋b²\n和 4x²－20x＋m 逐項對照。",
-      "alt": "學生展開整理卡片。"
+      "heading": "① 乘法表展開，兩個abx要相加",
+      "text": "(ax＋b)²＝a²x²＋2abx＋b²。表中兩格都是abx，合起來是2abx；不可以把中間項漏掉。這是乘法表，不把負數當實際邊長。",
+      "alt": "代數乘法表，行列ax和b相乘得四格a²x²/abx/abx/b²；格子大小不表示面積或正負項幾何長度。"
     },
     {
-      "heading": "② 三個位置，各自配對",
-      "text": "a²＝4且a＞0，得a＝2。由2ab＝－20，代入a＝2得b＝－5；最後m＝b²＝25。",
-      "alt": "學生配對不同顏色的卡片。"
+      "heading": "② 同次方的係數，逐項配對",
+      "text": "a²＝4且a＞0，得a＝2。2ab＝−20，代入後4b＝−20，得b＝−5；m＝b²＝25。b是負5，不是正5。",
+      "alt": "相同色欄將x²項係數a²對4、x項係數2ab對−20、常數b²對m，垂直箭頭逐項對應不跨欄。"
     },
     {
-      "heading": "③ 減去負數，變成加",
-      "text": "m＋a－b＝25＋2－(－5)＝25＋2＋5＝32。別把b＝－5看成b＝5。",
-      "alt": "學生核對計算結果。"
+      "heading": "③ 減去b，就是減去負5",
+      "text": "m＋a−b＝25＋2−(−5)＝25＋2＋5＝32。數線先從25加2到27，再加5到32；不是從27往左減5。",
+      "alt": "精確等距數線25至32，第一跳25→27為+2，第二跳27→32為+5，兩箭頭往右且各自可見。"
     }
   ],
-  "takeaway": "答案 C：32｜中間項是 2abx；－b 要看符號。",
-  "note": "配對卡是學習比喻，不是面積模型；公式由程式排版。",
-  "rationale": "用同色配對比喻逐項比較係數，將實際公式與負號另行精確排版。",
-  "promptSummary": "三格無字動漫，學生展開卡片、配對三種色卡、驗算；不以插畫表示數量或面積。",
-  "visualChecked": true,
-  "checkedAt": "2026-10-28T10:02:49.527337+00:00",
-  "answerCheckedAgainst": "正確答案：C。展開比較係數得a＝2、b＝－5、m＝25，所以m＋a－b＝32。",
-  "artSHA256": "c574024039c1322950984f0bb5bf6c55d0c0800c8869f06cb8702eff331f8390",
   "fourth": {
-    "heading": "④ 一眼記住",
-    "answer": "答案 C：32",
+    "heading": "④ 比較係數後，別漏掉減去負數",
+    "answer": "答案 C：m＋a−b＝32",
     "points": [
-      "a＝2，b＝－5，m＝25",
-      "m＋a－b＝25＋2－(－5)＝32",
-      "完全平方中間項是2abx；減負數變加。"
+      "a＝2，b＝−5，m＝25。",
+      "完全平方的中間項是2abx。",
+      "−b＝−(−5)＝+5，減去負數要變成加。"
     ]
   },
-  "layoutVersion": "native-fluid-v6",
-  "layoutSHA256": "09a594bf856c899690fe826a231e82ad6e8ace1f5fc02be8de92b65dbc14757d",
-  "nativeArt": "assets/comics/q-136-art-c574024039-web.webp",
-  "nativeLayout": {
-    "width": "100%",
-    "height": "auto",
-    "artWidth": 180,
-    "fontSize": 14,
-    "equalColumnWidths": true,
-    "equalHeightWithinRow": true,
-    "independentRowHeights": true,
-    "singleColumnNaturalHeight": true,
-    "narrowSingleColumn": true
-  },
-  "layoutUpdatedAt": "2026-10-28T11:57:24.395249+00:00"
+  "protectedWords": [
+    "完全平方",
+    "乘法表",
+    "中間項",
+    "係數",
+    "同次方",
+    "常數",
+    "a²＝4",
+    "a＞0",
+    "a＝2",
+    "b＝−5",
+    "m＝25",
+    "2ab＝−20",
+    "4b＝−20",
+    "m＝b²＝25",
+    "負5",
+    "正5",
+    "2abx",
+    "abx",
+    "25＋2＋5＝32"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-136-source-1056681497.jpg"
+  ],
+  "originalVisualCheck": "重新實看原卷第2題整數條件、a>0、4x²−20x+m=(ax+b)²與A22/B24/C32/D34，原式與既有答案一致。",
+  "answerCheckedAgainst": "展開獨立比較a²=4、2ab=-20、m=b²，a>0得2，b=-5，m25，代入32；並回展(2x−5)²=4x²−20x+25。",
+  "rationale": "依最新數學重作規則以代數乘法表、係數配對、精確數線取代人物卡片。b為負數，刻意不用正面積拼圖假設負邊長，乘法表只是抽象乘積關係。舊人物spec另存歷程。",
+  "artType": "precise native SVG algebra multiplication table and number line",
+  "generationCalls": 0,
+  "supersedesSpec": "docs/comics/q-136-prior-anime-spec.json",
+  "artSHA256": "35f242daeb996e12601edaed2b9ef632806d4e6fc4cbc7f7d1d92a98d10d5e0d",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T01:13:31.456528+00:00",
+  "completedAt": "2026-10-29T01:13:31.456528+00:00",
+  "layoutEvidence": "docs/comics/q-136-preview-validation.json",
+  "visualReview": "實看1440/1120/390新代數乘法表/三係數對應/數線，abx兩格與2ab配−20清楚；數線等尺度兩跳+2、+5箭頭方向正確，不用負邊長面積模型。最後加法整式保護後重看桌手機，無橫溢/保護詞拆行，同列等高手機自然高度。"
 }

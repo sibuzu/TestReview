@@ -2,24 +2,24 @@
   "id": "q-320",
   "subject": "Math",
   "title": "兩項限制，要同時過關",
-  "art": "docs/comics/art/q-320.png",
+  "art": "docs/comics/art/q-320-algebra.svg",
   "startedAt": "2026-10-28T16:56:48.797525+00:00",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
-      "heading": "① 早餐先扣掉",
-      "text": "早餐控肉飯已花70元，熱量495大卡。設午、晚餐合計吃n個肉粽，每個40元、329大卡。兩項限制都要算。",
-      "alt": "萍萍吃一碗控肉飯，先計入早餐的金額與熱量。"
+      "heading": "① 先用金額，求一個上限",
+      "text": "早餐已花70元，每個肉粽40元。70＋40n≤300，得n≤5.75；數量取整數，單看金額最多5個，還不能直接當答案。",
+      "alt": "肉粽數量上限數線，在2到6的整數候選中，金額界線5.75位於5與6之間；僅呈現金額上限，不是完整可行範圍。"
     },
     {
-      "heading": "② 金額最多容許5個",
-      "text": "70＋40n≤300，得n≤5.75。肉粽要整個計算，所以光看金額，最多可買5個；但還得檢查熱量。",
-      "alt": "萍萍查看錢包，準備依剩餘金額安排肉粽。"
+      "heading": "② 再用熱量，得到更緊的上限",
+      "text": "早餐495大卡，每個肉粽329大卡。495＋329n≤1925，得n≤1430／329，約4.35；單看熱量，最多只能4個。",
+      "alt": "相同數線尺度的熱量界線約4.35位於4與5之間；4可、5不可，熱量完全依原題資料。"
     },
     {
-      "heading": "③ 熱量最多容許4個",
-      "text": "495＋329n≤1925，得n≤1430／329，約4.35。因此最多4個。可在午餐、晚餐各安排2個。",
-      "alt": "兩個盤子各放兩顆肉粽，共四顆，對應午晚餐各兩顆。"
+      "heading": "③ 回代，檢查兩項同時符合",
+      "text": "4個連同早餐共230元、1811大卡，都未超過限制。5個雖只花270元，熱量卻達2140大卡，已超過1925大卡，所以最多4個。",
+      "alt": "原題四候選2到5逐列總金額與總熱量，4整列綠底，5的2140紅字；不把金額及熱量相加成一個數。"
     }
   ],
   "fourth": {
@@ -49,16 +49,9 @@
     "495＋329n≤1925",
     "1430／329"
   ],
-  "rationale": "用早餐、錢包與四顆肉粽的具體情境分開兩個上限，再於第4格一起檢查，避免只看300元選5。熱量完全採原題資料，不延伸健康建議。",
-  "promptSummary": "三格無字動漫：早餐控肉飯、查看錢包、兩盤各兩顆共四顆肉粽。",
+  "rationale": "依數學圖優先新規，舊人物版封存before-algebra，改為全新同尺度數線上限及回代選項表。原卷小吃表與題目四選項實看，來源對話僅作背景、不冒稱其中有肉粽完整解法；獨立Fraction計算23/4、1430/329及各選項總額總熱量，C不變。數線限定上限展示，不把0或1個當成午晚餐完整安排；4可分午晚各2。不延伸營養醫療建議。",
   "answerCheckedAgainst": "C，70+40×4=230；495+329×4=1811，五個2140超過1925。",
   "visualChecked": true,
-  "artSHA256": "68a595a4e390096f7ef1d92658d4976c4ecf115954997e850d144ca8679eba1c",
-  "completedAt": "2026-10-28T16:58:30.567258+00:00",
-  "checkedAt": "2026-10-28T16:59:44.758027+00:00",
-  "layoutEvidence": "docs/comics/q-320-preview-validation.json",
-  "visualReview": "實看原卷小吃表與完整選項，運算230元1811大卡與五個2140大卡逐項重算；生成第三格確為兩盤各兩顆共四顆。三尺寸截圖均實看，公式與單位保護，手機單欄自然高度且無溢出。",
-  "nativeArt": "assets/comics/q-320-art-68a595a4e3-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -70,5 +63,15 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "validationFile": "docs/comics/q-320-validation.json"
+  "generationMethod": "programmatic SVG exact integer bounds and joint constraint comparison",
+  "generatorFile": "docs/comics/q-320-algebra-generate.py",
+  "createdAtUTC": "2026-10-29T01:13:44.883437+00:00",
+  "artSha256": "b6023044217c9a19180c4a10ad84c220e96635c775dc5a9fc245c2c6a5fc095b",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-320-source-f1c681a94c.jpg",
+    "site/dist/sources/6ae05187-3f28-83ee-a9e3-89b8168480a3.txt 來源背景，未見本題完整文字解法"
+  ],
+  "checkedAt": "2026-10-29T01:14:11.479544+00:00",
+  "validationFile": "docs/comics/q-320-preview-validation.json"
 }

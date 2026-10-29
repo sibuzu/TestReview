@@ -1,0 +1,74 @@
+{
+  "id": "q-598",
+  "subject": "Geography",
+  "title": "先分族群，再判讀性別比",
+  "art": "docs/comics/art/q-598.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T00:44:38.530532+00:00",
+  "panels": [
+    {
+      "heading": "① 性別比不是男性百分比",
+      "text": "性別比＝男性人數÷女性人數×100。原圖末端總人口為97.07，低於100，表示女性多於男性，不能說整體男多於女。",
+      "alt": "學生與研究者謹慎比較資料，無生成統計曲線或比例；精確97.07由HTML呈現。"
+    },
+    {
+      "heading": "② 高齡女性較多，符合A",
+      "text": "女性平均壽命較長，高齡人口中女性比例通常較高，可合理解釋總人口性別比下降。但這不是單憑三條曲線就證明壽命差異，也不排除遷移影響。",
+      "alt": "社區長者參與活動作老化情境，人物數量不是抽樣或統計證據，不暗示男性不能活到高齡。"
+    },
+    {
+      "heading": "③ 出生性別比不等於死亡率",
+      "text": "出生嬰兒末端為107.46，這是在比較出生男嬰與女嬰人數，不是男嬰死亡率。不能由出生性別比，推定男嬰死亡率持續下降，排除D。",
+      "alt": "教師把新生兒照片與全齡社區照片分開比較，強調分類，不以嬰兒個數表示性別比或死亡率。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先分族群，再判讀性別比",
+    "answer": "答案 A：高齡人口的女性比例偏高",
+    "points": [
+      "原圖是民國113年等歷史資料，不是即時數字。",
+      "B：只考慮女性外流，女性變少，性別比反而上升。",
+      "C：總人口長期走低，並非逐年上升。"
+    ]
+  },
+  "protectedWords": [
+    "性別比",
+    "男性人數",
+    "女性人數",
+    "97.07",
+    "107.46",
+    "總人口",
+    "出生嬰兒",
+    "男嬰",
+    "女嬰",
+    "死亡率",
+    "高齡人口",
+    "平均壽命",
+    "女性外流",
+    "遷移影響",
+    "歷史資料",
+    "民國113年"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-598-source-e3d4e299f1.jpg",
+    "site/dist/assets/questions/q-598-figure-5bc755912f.jpg"
+  ],
+  "originalVisualCheck": "實看第37題完整原卷及三曲線裁圖，末端出生107.46/總人口97.07/原住民93.43、三線分類與四選項均讀取。",
+  "answerCheckedAgainst": "原卷紅筆A、現有核對詳解A；實際開內政部113年性比例PDF，性比定義及總人口97.07、女平均餘命較長與軍人凋零/配偶移入等多因素說明一致，未用圖單獨證明因果。",
+  "references": [
+    {
+      "url": "https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=MS0yLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8yMjc1Ni9mYjVhZWEwYi1lNzI3LTQ0MjQtYTkwNy0yZmU1MGFjNzMxNzIucGRm",
+      "title": "內政部 民國113年性比例",
+      "checked": "實際開7頁PDF，第1頁人口性比定義與三因素說明、第2頁各年齡性比表。採歷史值，不聲稱今日即時值；不沿用原AI正常出生性比105至110說法。"
+    }
+  ],
+  "rationale": "以資料判讀、社區高齡、出生與總人口分類三情境降低概念混淆；精確統計保留HTML與原卷，避免生成失真的曲線或用插畫人數充當統計。第四格補B分母方向與C趨勢。",
+  "promptPath": "docs/comics/q-598-prompt.txt",
+  "generationCalls": 1,
+  "artSHA256": "ca1ad14323055e1a4d44d907b33873f8bf5fc733d83704b04649c26d557f58b6",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T00:46:08.230317+00:00",
+  "completedAt": "2026-10-29T00:46:08.230317+00:00",
+  "layoutEvidence": "docs/comics/q-598-preview-validation.json",
+  "visualReview": "實看新三景與1440/1120/390成品；人口場景僅定性示例，不把人物數當統計，原圖曲線未AI重畫。數值與性別比分母、A合理解釋非圖單獨證因果都完整；手機無橫溢/保護詞拆行，同列等高單欄自然高度。PNG僅本機。"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "q-112",
+  "subject": "Physics-Chemistry",
+  "title": "加酸右移，鉻酸根更容易被消耗",
+  "art": "docs/comics/art/q-112.svg",
+  "protectedWords": [
+    "鉻酸根",
+    "二鉻酸根",
+    "氯化氫",
+    "食鹽水",
+    "碳酸鈉",
+    "平衡右移",
+    "H⁺",
+    "Cl⁻",
+    "CrO₄²⁻",
+    "Cr₂O₇²⁻"
+  ],
+  "panels": [
+    {
+      "heading": "① 先把不安定，換成離子容易轉變",
+      "text": "本題的鉻酸鉀提供CrO₄²⁻。題示反應左側有鉻酸根與H⁺，右側有二鉻酸根與水；若平衡右移，原有鉻酸根就會減少。",
+      "alt": "依原題係數與電荷，兩側2CrO4二負加2H正、Cr2O7二負加水，原子與電荷獨立平衡核對；不把鉀離子當反應焦點。"
+    },
+    {
+      "heading": "② 增加H⁺，促使平衡往消耗它的右方",
+      "text": "氯化氫水溶液提供H⁺，促使反應向右，鉻酸根轉成較多二鉻酸根，因此選A。平衡右移不代表鉻酸根完全消失，也不是反應從此只能向右。",
+      "alt": "黃、橙主色表示鉻酸根與二鉻酸根相對變化，非定量濃度或純物質；平衡向右是增加H正的結果，不是不可逆反應。"
+    },
+    {
+      "heading": "③ HCl和NaCl，重點不在都有氯",
+      "text": "氯化氫水溶液提供H⁺；食鹽水中的Cl⁻不是這個酸性來源。碳酸鈉水溶液偏鹼性，也不能像加酸一樣讓本題平衡右移。",
+      "alt": "氯化氫與食鹽水離子種類對照，前者H正Cl負，後者Na正Cl負；不把氯離子等同氫離子。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：氯化氫水溶液",
+    "points": [
+      "先定位H⁺在反應式左側。",
+      "加酸，平衡往消耗H⁺的方向移動。",
+      "判斷鉻酸根減少，不是判整杯停止反應。"
+    ]
+  },
+  "rationale": "原卷題幹四選項與教用PDF答案A/解析實看，來源對話隨堂第2題完整核對。以全新精確反應流程和離子種類SVG呈現H正增加的因果，比人物更清楚；原子電荷獨立驗平衡。官方大學/RSC核酸化使平衡右移及黃橙色；保留A，不採來源AI圖，不加入自行操作濃酸的實驗步驟，不把右移說成完全反應，也不把酒精一概說成在所有條件都不反應。",
+  "generationMethod": "programmatic SVG exact reaction direction and ionic species comparison",
+  "generatorFile": "docs/comics/q-112-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-112-source-166c0b6a30.jpg",
+    "site/dist/assets/questions/q-112-pdf-source-b0f003368a.jpg",
+    "site/dist/sources/6ae05f2b-7c7c-83e8-9959-f588a97ed563.txt lines 109–134"
+  ],
+  "sources": [
+    {
+      "url": "https://chem.washington.edu/lecture-demos/chromate-dichromate-equilibrium",
+      "note": "華盛頓大學化學系：加酸黃轉橙的鉻酸/二鉻酸平衡。"
+    },
+    {
+      "url": "https://edu.rsc.org/experiments/a-chromate-dichromate-equilibrium/1710.article",
+      "note": "英國皇家化學會搜尋摘要確認加酸右移且兩離子仍共存；正文端點有反機器人驗證，未稱已讀其實驗全文。"
+    }
+  ],
+  "answerCheckedAgainst": "增加H正使題示平衡右移、消耗鉻酸根，A；教用PDF也列A。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:30:21.046082+00:00",
+  "artSha256": "9bbad0477fa21cb1e0c561bd99aa59d259e0d2951f7b8f09f66214e6a8afd1c1",
+  "checkedAt": "2026-10-29T01:31:15.447724+00:00",
+  "validationFile": "docs/comics/q-112-preview-validation.json"
+}

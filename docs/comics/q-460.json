@@ -1,0 +1,79 @@
+{
+  "id": "q-460",
+  "subject": "Physics-Chemistry",
+  "title": "向左移動是過程，新平衡再度等速",
+  "art": "docs/comics/art/q-460.svg",
+  "protectedWords": [
+    "NaOH",
+    "OH⁻",
+    "H⁺",
+    "H₂O",
+    "鉻酸根",
+    "二鉻酸根",
+    "平衡向左",
+    "正反應速率",
+    "逆反應速率",
+    "正＜逆",
+    "正＝逆",
+    "CrO₄²⁻",
+    "Cr₂O₇²⁻"
+  ],
+  "panels": [
+    {
+      "heading": "① 加NaOH，先看H⁺怎麼變",
+      "text": "NaOH提供OH⁻，與H⁺形成水，使H⁺減少。採詳解已配平的淨離子式判斷，H⁺在左側；平衡會往補充H⁺的左方調整。",
+      "alt": "精確酸鹼中和H正加OH負生成水，指出H正減少，不沿用原卷未配平分子式作錯誤原子示意。"
+    },
+    {
+      "heading": "② 左移期間：逆反應較快",
+      "text": "向左調整時，逆反應速率較大，黃色鉻酸根增加。這就是D描述的變化過程；不是正反應較快，也不代表所有二鉻酸根完全消失。",
+      "alt": "二鉻酸根到鉻酸根方向箭頭向左，黃色鉻酸根增加，正反應速率小於逆反應速率；未畫定量濃度、速率數值或0.1公克必定完全轉化。"
+    },
+    {
+      "heading": "③ 到新平衡後，兩速率再次相等",
+      "text": "原平衡與最後的新平衡，都有正反應速率＝逆反應速率。A若指最後重新平衡也有道理；本題標準答案D，著重加鹼引起的移動期間。",
+      "alt": "三個時間點依序原平衡正等逆、移動期間正小逆、新平衡正等逆；等號不表示濃度相等，也不比較不同時間的速率絕對值。"
+    }
+  ],
+  "fourth": {
+    "answer": "標準答案 D：左移期間正＜逆，溶液偏黃",
+    "points": [
+      "先判加鹼使H⁺減少。",
+      "再判平衡左移，黃色鉻酸根增加。",
+      "到新平衡時正＝逆，不把D記成永遠如此。"
+    ]
+  },
+  "rationale": "已實看原卷題幹、原印分子式、教用D及四選項，來源完整解析時點提醒已讀。使用者已確認D、A可描述最後狀態及原式係數訂正，本次全部維持，不重開同項；新製SVG只用已配平淨離子式、H正中和及三時間點流程，不沿用來源AI圖，不畫具體未知速率曲線或轉化量。",
+  "generationMethod": "programmatic SVG exact perturbation pathway and equilibrium time-state comparison",
+  "generatorFile": "docs/comics/q-460-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-460-source-22b9f01117.jpg",
+    "site/dist/sources/6ae05f2b-7c7c-83e8-9959-f588a97ed563.txt lines 661–809",
+    "site/dist/data.json 使用者已確認D和時點/配平提醒"
+  ],
+  "sources": [
+    {
+      "url": "https://chem.washington.edu/lecture-demos/chromate-dichromate-equilibrium",
+      "note": "華盛頓大學化學系：二鉻酸根加NaOH由橙向黃，方向核對。"
+    }
+  ],
+  "answerCheckedAgainst": "已確認D，平衡左移期間正小逆，黃色鉻酸根增加；新平衡恢復正等逆。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:33:16.532572+00:00",
+  "artSha256": "061c0a24c49fea138ad9c9a04b6f23e19821c5bb2266fb9f97cbee5324b8d4a0",
+  "checkedAt": "2026-10-29T01:33:54.023937+00:00",
+  "validationFile": "docs/comics/q-460-preview-validation.json"
+}

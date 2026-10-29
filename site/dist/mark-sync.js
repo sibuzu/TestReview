@@ -5,10 +5,13 @@ export const OUTBOX_KEY = 'test-review:mark-outbox:v1';
 export class MarkSync {
   constructor({storage, getLocal, apply, status, fetcher = globalThis.fetch.bind(globalThis), endpoint = marksEndpointFor(globalThis.location?.href)}) {
     Object.assign(this, {storage, getLocal, apply, status, fetcher, endpoint});
+    this.localOnly=endpoint===null;
+    if(this.localOnly)this.available=false;
     this.pending = new Map();
     this.sequence = 0;
     this.snapshot = [];
     this.etag = '';
+    if(this.localOnly){try{storage.removeItem(OUTBOX_KEY);}catch{}return;}
     try { for (const op of checkedOperations(JSON.parse(storage.getItem(OUTBOX_KEY)||'[]'))) this.pending.set(markKey(op), {...op, seq: ++this.sequence}); } catch {}
   }
   persist() {
@@ -21,6 +24,7 @@ export class MarkSync {
     this.queueAll([{kind,id,on}]);
   }
   queueAll(operations) {
+    if(this.localOnly){this.status('local');return;}
     for (const op of checkedOperations(operations)) this.pending.set(markKey(op), {...op, seq: ++this.sequence});
     this.persist();
     this.status(this.available===false?'local':'pending');
@@ -45,6 +49,7 @@ export class MarkSync {
       [field,[...current.values()].filter(op=>op.kind===kind&&op.on).map(op=>op.id).sort()])));
   }
   refresh() {
+    if(this.localOnly){this.available=false;this.status('local');return Promise.resolve();}
     if (this.busy) {this.again = true; return this.busy;}
     this.busy = this.run().finally(() => {
       this.busy = null;
@@ -53,12 +58,14 @@ export class MarkSync {
     return this.busy;
   }
   async request(options = {}) {
+    if(this.localOnly)throw Error('This site stores marks locally only.');
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 15000);
     try { return await this.fetcher(this.endpoint, {...options,cache:'no-store',signal:controller.signal}); }
     finally {clearTimeout(timeout);}
   }
   async run() {
+    if(this.localOnly){this.available=false;this.status('local');return;}
     this.status('syncing');
     try {
       const response = await this.request({headers:this.etag?{'If-None-Match':this.etag}:{}});

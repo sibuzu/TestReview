@@ -7,8 +7,31 @@ const storage=()=>{const map=new Map();return {getItem:k=>map.get(k)??null,setIt
 const store=()=>{const values=new Map();return {values,list:async()=>({blobs:[...values.keys()].map(key=>({key}))}),get:async k=>structuredClone(values.get(k)??null),setJSON:async(k,v)=>{values.set(k,structuredClone(v));}};};
 const api=db=>async(_url,options={})=>handleMarks(new Request(url,options),db);
 const post=operations=>new Request(url,{method:'POST',headers:{'Content-Type':'application/json','Origin':'https://weirugo.sibuzu.com'},body:JSON.stringify({schemaVersion:1,operations})});
-const device=(db,local={favorites:[],doubts:[]},s=storage(),fetcher=api(db))=>{const states=[];const sync=new MarkSync({storage:s,getLocal:()=>local,apply:next=>{local=next;},status:x=>states.push(x),fetcher});return {sync,storage:s,states,get local(){return local}};};
+const device=(db,local={favorites:[],doubts:[]},s=storage(),fetcher=api(db))=>{const states=[];const sync=new MarkSync({storage:s,getLocal:()=>local,apply:next=>{local=next;},status:x=>states.push(x),fetcher,endpoint:url});return {sync,storage:s,states,get local(){return local}};};
 async function idle(sync){for(let n=0;n<15&&sync.busy;n++)await sync.busy;assert.equal(sync.busy,null);}
+
+test('test domain never reads or writes cloud marks, including refresh and stale outbox',async()=>{
+ const {marksEndpointFor,isLocalOnlySite}=await import('../dist/mark-protocol.js');
+ assert.ok(isLocalOnlySite('https://test.sibuzu.com/index.html'));
+ assert.equal(marksEndpointFor('https://test.sibuzu.com/'),null);
+ assert.equal(isLocalOnlySite('https://weirugo.sibuzu.com.evil.example/'),true);
+ assert.equal(isLocalOnlySite('https://weirugo.sibuzu.com/'),false);
+ const s=storage(),states=[];s.setItem(OUTBOX_KEY,JSON.stringify([{kind:'favorite',id:'q-001',on:true}]));
+ let requests=0,applied=0;
+ const sync=new MarkSync({storage:s,endpoint:null,getLocal:()=>({favorites:['q-001'],doubts:[],answered:[]}),apply:()=>applied++,status:x=>states.push(x),fetcher:async()=>{requests++;throw Error('No cloud traffic allowed');}});
+ await sync.refresh();sync.queue('favorite','q-002',true);sync.queue('doubt','q-002',true);sync.queue('answered','q-002',true);
+ sync.available=null;await sync.refresh();await sync.run();
+ assert.equal(requests,0);assert.equal(applied,0);assert.equal(s.getItem(OUTBOX_KEY),null);assert.equal(sync.available,false);assert.ok(states.every(x=>x==='local'));
+});
+
+test('test domain cannot use either its own or production cloud marks endpoint',async()=>{
+ const db=store();
+ for(const target of ['https://test.sibuzu.com/.netlify/functions/marks',url])for(const method of ['GET','POST','OPTIONS']){
+  const request=new Request(target,{method,headers:{Origin:'https://test.sibuzu.com','Content-Type':'application/json'},...(method==='POST'?{body:JSON.stringify({schemaVersion:1,operations:[{kind:'favorite',id:'q-001',on:true}]})}:{})});
+  const response=await handleMarks(request,db);assert.equal(response.status,403);
+ }
+ const direct=await handleMarks(new Request('https://test.sibuzu.com/.netlify/functions/marks'),db);assert.equal(direct.status,403);assert.equal(db.values.size,0);
+});
 
 test('first sync imports local marks without replacing another device marks',async()=>{
  const db=store();await db.setJSON('v1/favorite/q-002',{on:true});const a=device(db,{favorites:['q-001'],doubts:['q-003']});await a.sync.refresh();assert.deepEqual(a.local,{favorites:['q-001','q-002'],doubts:['q-003'],answered:[]});assert.deepEqual(db.values.get('v1/favorite/q-002'),{on:true});
@@ -33,23 +56,29 @@ test('invalid bulk changes are rejected before any write; cross-origin writes ar
 test('unchanged snapshot supports 304; OFF values remain in the snapshot',async()=>{
  const db=store();await db.setJSON('v1/favorite/q-001',{on:false});const first=await handleMarks(new Request(url),db);const payload=await first.json();assert.deepEqual(payload.marks,[{kind:'favorite',id:'q-001',on:false}]);const second=await handleMarks(new Request(url,{headers:{'If-None-Match':first.headers.get('ETag')}}),db);assert.equal(second.status,304);
 });
-test('a static server without Functions stays local without losing queued changes',async()=>{
+test('an unavailable production Functions endpoint preserves pending local changes',async()=>{
  const a=device(store(),undefined,undefined,async()=>new Response('Not found',{status:404}));await a.sync.refresh();assert.equal(a.states.at(-1),'local');a.sync.queue('doubt','q-001',true);assert.equal(a.states.at(-1),'local');assert.equal(JSON.parse(a.storage.getItem(OUTBOX_KEY))[0].on,true);
 });
 
-test('monitor and Live Server use the same production endpoint, while Netlify uses its own function',async()=>{
+test('only the exact production origin enables cloud sync; all other entries stay local',async()=>{
  const {marksEndpointFor}=await import('../dist/mark-protocol.js');
- for(const origin of ['http://127.0.0.1:8765','http://localhost:5500','https://monitor.sibuzu.com'])assert.equal(marksEndpointFor(origin+'/site/index.html'),'https://weirugo.sibuzu.com/.netlify/functions/marks');
+ for(const origin of ['http://127.0.0.1:8765','http://localhost:5500','https://monitor.sibuzu.com','https://test.sibuzu.com','https://preview--weirugo.netlify.app','https://mytestreview.netlify.app','https://weirugo.sibuzu.com.evil.example'])assert.equal(marksEndpointFor(origin+'/site/index.html'),null);
  assert.equal(marksEndpointFor('https://weirugo.sibuzu.com/'),'/.netlify/functions/marks');
- assert.equal(marksEndpointFor('https://preview--weirugo.netlify.app/'),'/.netlify/functions/marks');
 });
-test('trusted companion origins can preflight, read ETags and write shared marks',async()=>{
- const db=store();const origin='http://127.0.0.1:8765';
+test('production origin can preflight, read ETags and write shared marks',async()=>{
+ const db=store();const origin='https://weirugo.sibuzu.com';
  const preflight=await handleMarks(new Request(url,{method:'OPTIONS',headers:{Origin:origin,'Access-Control-Request-Method':'POST','Access-Control-Request-Headers':'content-type'}}),db);
  assert.equal(preflight.status,204);assert.equal(preflight.headers.get('Access-Control-Allow-Origin'),origin);
  const response=await handleMarks(new Request(url,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({schemaVersion:1,operations:[{kind:'favorite',id:'q-001',on:true}]})}),db);
  assert.equal(response.status,200);assert.equal(response.headers.get('Access-Control-Allow-Origin'),origin);
- const snapshot=await handleMarks(new Request(url,{headers:{Origin:'https://monitor.sibuzu.com'}}),db);assert.equal(snapshot.headers.get('Access-Control-Expose-Headers'),'ETag');assert.equal((await snapshot.json()).marks[0].on,true);
+ const snapshot=await handleMarks(new Request(url,{headers:{Origin:origin}}),db);assert.equal(snapshot.headers.get('Access-Control-Expose-Headers'),'ETag');assert.equal((await snapshot.json()).marks[0].on,true);
+});
+test('monitor, local servers and Netlify aliases cannot access production shared marks',async()=>{
+ const db=store();
+ for(const origin of ['https://monitor.sibuzu.com','http://localhost:5500','http://127.0.0.1:8765','https://mytestreview.netlify.app']){
+  for(const method of ['GET','POST','OPTIONS'])assert.equal((await handleMarks(new Request(url,{method,headers:{Origin:origin,'Content-Type':'application/json'},...(method==='POST'?{body:'{}'}:{})}),db)).status,403);
+ }
+ assert.equal(db.values.size,0);
 });
 
 

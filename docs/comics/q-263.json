@@ -1,0 +1,80 @@
+{
+  "id": "q-263",
+  "subject": "History",
+  "title": "看誰交出統治權，再辨甲乙國名",
+  "art": "docs/comics/art/q-263.svg",
+  "protectedWords": [
+    "中華民國",
+    "清帝國",
+    "中華帝國",
+    "袁世凱",
+    "統治權",
+    "清帝退位",
+    "1912年",
+    "1915～1916年",
+    "保留尊號",
+    "甲方",
+    "乙方"
+  ],
+  "panels": [
+    {
+      "heading": "① 甲承諾撥款與優待：民國一方",
+      "text": "甲方說退位後保留尊號、由我方撥付歲用，並保留侍衛待遇。說話者是在承諾如何對待退位皇室，所以甲是中華民國，不是清廷。",
+      "alt": "藍色中華民國框以撥款優待箭頭連到退位清室，辨認承諾待遇的主體與對象，不臆造實際談判桌或代表肖像。"
+    },
+    {
+      "heading": "② 乙交出皇帝統治權：清廷一方",
+      "text": "乙方說率皇帝將統治權公諸全國，定為共和。這是皇帝所在的清廷交出統治權，所以乙是清帝國；保留尊號，並不等於保留治國權力。",
+      "alt": "清帝國交出統治權、轉定共和的文字關係圖，分清尊號待遇與治理國家的權力。"
+    },
+    {
+      "heading": "③ 有袁世凱，也不等於中華帝國",
+      "text": "本題是1912年清帝退位。中華帝國是袁世凱後來稱帝的名號，並非清朝；題目提袁，是因他參與政權交接，不能只憑人名誤選A。",
+      "alt": "1912清帝退位與1915到1916袁世凱稱帝分期卡；只表年代先後，不把清朝與袁氏帝制混成同一政權。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：甲中華民國，乙清帝國",
+    "points": [
+      "甲承諾優待；乙交出皇帝統治權。",
+      "清帝國與中華帝國，不可混用。",
+      "判斷政體看統治權，不只看尊號。"
+    ]
+  },
+  "rationale": "原卷第4題甲乙全部談判條件、四選項與原對話實讀，C不變。故宮博物院優待條件主文及國父紀念館清帝退位史料核對。全新精確角色流程與年代比較SVG，比虛構談判人物更能指出甲乙辨識線索，不沿用來源AI圖。僅限1912原條件，不混入1924修改後待遇，保留尊號不等於統治權。",
+  "generationMethod": "programmatic SVG new role-action relationship and historical period comparison",
+  "generatorFile": "docs/comics/q-263-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-263-source-b43960cd20.jpg",
+    "site/dist/sources/6ae060b5-29dc-83e8-b329-d1a7781ba070.txt lines 906–999"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dpm.org.cn/lemmas/245278.html",
+      "note": "故宮博物院1912原優待條件主文：民國撥款、尊號和皇室待遇。"
+    },
+    {
+      "url": "https://sunology.yatsen.gov.tw/detail/55c7f83bae9144eaa2889c948f9c2ce9/?seq=1",
+      "note": "國父紀念館清帝退位詔書史料：皇帝將統治權公諸全國，定為共和。"
+    }
+  ],
+  "answerCheckedAgainst": "甲為承諾優待的民國，乙為交出皇帝統治權的清廷，C。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:27:38.955217+00:00",
+  "artSha256": "1e0c951a043f185c452c29d3a4399079b84d38bb3060fb946d717664f2369f06",
+  "checkedAt": "2026-10-29T01:28:14.661276+00:00",
+  "validationFile": "docs/comics/q-263-preview-validation.json"
+}

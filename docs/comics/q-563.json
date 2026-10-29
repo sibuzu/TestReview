@@ -1,0 +1,86 @@
+{
+  "id": "q-563",
+  "subject": "Geography",
+  "title": "列車旅程可跨線，南迴不是從高雄起算",
+  "art": "docs/comics/art/q-563.svg",
+  "protectedWords": [
+    "南迴線",
+    "枋寮",
+    "臺東",
+    "高雄",
+    "臺北",
+    "花蓮",
+    "中央山脈南段",
+    "高雄至臺東",
+    "枋寮至臺東"
+  ],
+  "panels": [
+    {
+      "heading": "① 南迴線正式起訖：枋寮到臺東",
+      "text": "橙線表示南迴線，從屏東枋寮到臺東，連接西南部與東南部，並穿越中央山脈南段。路線的正式起點在枋寮，不是在高雄。",
+      "alt": "兩個端點與橙色連接線的概念示意，不是實際線形或里程比例圖，不增加中途站與隧道數。"
+    },
+    {
+      "heading": "② 高雄到臺東的旅程，可以經過南迴",
+      "text": "列車先由高雄往枋寮，再經南迴線到臺東。藍線是前面的銜接路段，橙線仍是南迴。因此高雄至臺東這個行車區間，可直接受惠於南迴電氣化。",
+      "alt": "同一旅程中藍色高雄到枋寮、橙色枋寮到臺東分開，不把整段都命名南迴，也不造行車分鐘數。"
+    },
+    {
+      "heading": "③ 以會經過哪一段，區分選項",
+      "text": "臺北至花蓮是北側往東部的旅程；花蓮至臺東在東部縱谷；臺北至高雄主要經西部。題目說的南迴電氣化，最直接對應C的高雄至臺東。",
+      "alt": "臺北花蓮臺東枋寮高雄的線路連接示意，北在上、西在左，非按比例真實地圖；只凸顯C經過南迴的關係。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：高雄——臺東",
+    "points": [
+      "先定位南迴線：枋寮——臺東。",
+      "列車旅程可以跨越不同路線。",
+      "不把旅程端點誤當路線正式起點。"
+    ]
+  },
+  "rationale": "已實看原卷第16題完整敘述與四區間，來源追問和resolved correction-q-563-dea00d20e1c6已讀，維持C，不重開工期/雪山公路隧道等已結案訂正。鐵道局官方計畫頁核對南迴枋寮站至臺東站，前銜接路段與南迴區分；全部新製SVG概念網路，不重用來源AI圖，不增加實際分鐘數、真實線形比例或工程排名。",
+  "generationMethod": "programmatic SVG for exact route-versus-trip connection diagrams",
+  "generatorFile": "docs/comics/q-563-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-563-source-3c44b6cc65.jpg",
+    "site/dist/sources/gemini-pQcTqKLjFftX.txt 第16題與南迴追問",
+    "monitor/confirmations.json resolved correction-q-563-dea00d20e1c6"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rb.gov.tw/zh-TW/main/main_28/20250505_152320/20251104_133924/20250505_152859/",
+      "note": "交通部鐵道局南迴線形改善暨雙軌化計畫，核對南迴線枋寮站至臺東站，與屏東線潮州至枋寮段分列。"
+    }
+  ],
+  "answerCheckedAgainst": "正式線枋寮到臺東；C旅程高雄可跨線經枋寮、南迴到臺東，其他選項非該段最直接區間。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T00:53:33.698398+00:00",
+  "artSha256": "c4fdd68d69566ed231f01e1f16a7e995c91dc60a75e68709df11e4eea3eb21d0",
+  "checkedAt": "2026-10-29T01:05:50.886794+00:00",
+  "validationFile": "docs/comics/q-563-validation.json",
+  "nativeArt": "assets/comics/q-563-art-c4fdd68d69.svg",
+  "rootLayoutAdjustment": "正式頁一行含多組雙破折號路段時稍溢出，漫畫文字以至連接地點，路段與語意不變；原題與答案不改。",
+  "rootReview": {
+    "checkedAt": "2026-10-29T01:05:50.884397+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷旅程四選項與南迴語境實看；新SVG將枋寮至臺東正式路線與高雄跨線旅程區分，C不變。正式桌手機實看；雙破折號路段改以至連接解決一行溢出，原題不改。",
+    "sharedNativeAssetVerified": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "q-312",
+  "subject": "Biology",
+  "title": "沒有種子，不代表沒有維管束",
+  "art": "docs/comics/art/q-312.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T01:02:02.656424+00:00",
+  "panels": [
+    {
+      "heading": "① 先看統計的是哪種百分比",
+      "text": "表中是植物物種數量百分比：蘚苔24%、蕨類9%、裸子5%、被子62%，共100%。不是每類植物株數，也不是面積比例。",
+      "alt": "依原表24/9/5/62畫四個同100%全寬基準的比例條，數值可校對，不用植物圖像大小冒充物種數。"
+    },
+    {
+      "heading": "② 無維管束，只算蘚苔24%",
+      "text": "蕨類雖沒有種子，卻有維管束。沒有維管束的只計蘚苔24%，不能把蕨類9%加進來。因此C的33%最不合理。",
+      "alt": "100%基準條只著色蘚苔24%，其餘76%灰色；括號對準24%邊界，另標蕨類有維管束。"
+    },
+    {
+      "heading": "③ 有種子：裸子與被子一起算",
+      "text": "裸子與被子植物都可產生種子，5%＋62%＝67%，D合理。依本題分類，單、雙子葉合計被子62%，A也合理。",
+      "alt": "同100%基準條中先灰蘚苔24%與蕨類9%，後裸子5%加被子62%著色並括住67%，不把維管束與種子條件混用。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 沒有種子，不代表沒有維管束",
+    "answer": "答案 C：無維管束是24%，不是33%",
+    "points": [
+      "蘚苔：無維管束、無種子。",
+      "蕨類：有維管束、無種子，是最容易混淆處。",
+      "B依本題以毬果對應裸子5%；毬果不是真正果實。"
+    ]
+  },
+  "protectedWords": [
+    "百分比",
+    "物種數量",
+    "蘚苔",
+    "蕨類",
+    "裸子",
+    "被子",
+    "維管束",
+    "種子",
+    "24%",
+    "9%",
+    "5%",
+    "62%",
+    "67%",
+    "33%",
+    "100%",
+    "單、雙子葉",
+    "毬果",
+    "果實",
+    "5%＋62%＝67%"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-312-source-77582ea042.jpg"
+  ],
+  "originalVisualCheck": "實看第26題問最不合理、完整四選項及原表24/9/5/62；四數和100，C33%混入蕨類，非問合理選項。",
+  "answerCheckedAgainst": "原表重新計算24+9=33對應無種子而非無維管束；種子5+62=67，C與現有核對一致。實讀OpenStax無種子植物章，蘚苔無維管束、蕨類為無種子維管束植物。",
+  "references": [
+    {
+      "url": "https://openstax.org/books/concepts-biology/pages/14-2-seedless-plants",
+      "title": "OpenStax Concepts of Biology 14.2 Seedless Plants",
+      "checked": "實讀Bryophytes及Seedless Vascular Plants，區分無種子與無維管束，不把原書全球物種估計比例套到本題島嶼。"
+    }
+  ],
+  "rationale": "用精確同比例條顯示各類物種比例、只取蘚苔24%、取種子群67%的不同集合；數值與邊界由程式控制，避免人物或未量化植物畫面干擾，四格直接拆解C的分類錯誤。",
+  "artType": "precise native SVG proportional data bars",
+  "generationCalls": 0,
+  "artSHA256": "0d66af01192a4af0be58d23f57bafde03597c6003119857aa9e12eb2f5bd6311",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T01:03:57.745317+00:00",
+  "completedAt": "2026-10-29T01:03:57.745317+00:00",
+  "layoutEvidence": "docs/comics/q-312-preview-validation.json",
+  "visualReview": "實看1440/1120/390同比例條：四組24/9/5/62、只取24、後兩組67的邊界與括號準確。手機67%算式加入整式保護後重看，無橫溢/保護詞拆行，同列等高與單欄自然高度。"
+}

@@ -5,6 +5,8 @@ import {parseRoute,questionHash,listHash} from './routes.js';
 import {DOUBTS_KEY,loadDoubts,ANSWERED_KEY,loadAnswered,persistMarks} from './marks.js';
 import {MarkSync} from './mark-sync.js';
 import {hasQuestionMark,toggleQuestionMark} from './question-identity.js';
+import {formatDataUpdatedAt} from './data-updated.js';
+import {isLocalOnlySite} from './mark-protocol.js';
 const $=id=>document.getElementById(id);
 let data,filters={subject:'',search:'',volume:'',chapter:'',status:'',answered:'',sort:'newest',starred:false,issue:false,doubt:false},page='questions',layout='list',activeId='',toastTimer,favorites=new Set(),doubts=new Set(),answered=new Set();
 let markSync;
@@ -13,8 +15,10 @@ let markSync;
 let favoriteVisitIds=null;
 function syncStatus(state){
  const labels={syncing:'標記同步中…',synced:'標記已同步雲端',pending:'本機已存，待同步',local:'標記存在此瀏覽器'};
+ const localOnly=isLocalOnlySite(location.href);if(localOnly){state='local';labels.local='標記僅存此瀏覽器';}
  const button=$('sync-status');button.textContent=labels[state]||labels.local;button.dataset.state=state;
  button.title=state==='local'?'本機模式；部署Netlify Functions後可同步。點擊可重試。':state==='pending'?'標記已暫存，連線恢復後自動重試；點擊也可重試。':'單一使用者，共用同一份收藏、疑義與已作標記。點擊可立即同步。';
+ if(localOnly){button.title='此入口的收藏、疑義與已作標記僅存本機，不讀取或更新雲端。';button.disabled=true;}
  document.querySelector('.storage-dot').dataset.state=state;
 }
 function applySyncedMarks(incoming){
@@ -175,12 +179,14 @@ for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',ev
 window.addEventListener('hashchange',()=>{if(data)applyRoute();});
 if('scrollRestoration' in history)history.scrollRestoration='manual';
 async function start(){try{const response=await fetch('data.json');if(!response.ok)throw Error('題庫讀取失敗');data=await response.json();
+ const updated=formatDataUpdatedAt(data.dataUpdatedAt);if(updated){$('data-updated-time').textContent=updated;$('data-updated-time').dateTime=data.dataUpdatedAt;$('data-updated').hidden=false;}
  try{favorites=new Set(loadFavorites(localStorage));}catch{toast('無法讀取本機收藏；題目仍可正常閱讀。');}
  try{doubts=new Set(loadDoubts(localStorage));}catch{toast('無法讀取本機疑義標記；題目仍可正常閱讀。');}
  try{answered=new Set(loadAnswered(localStorage));}catch{toast('無法讀取本機已作標記；題目仍可正常閱讀。');}
  for(const q of data.questions){q.starred=hasQuestionMark(favorites,q.id);q.doubted=hasQuestionMark(doubts,q.id);q.answered=hasQuestionMark(answered,q.id);}
  applyRoute();
  markSync=new MarkSync({storage:localStorage,getLocal:()=>({favorites:[...favorites],doubts:[...doubts],answered:[...answered]}),apply:applySyncedMarks,status:syncStatus});
+ if(markSync.localOnly)syncStatus('local');
  const refresh=()=>{if(document.visibilityState!=='hidden'&&markSync.available!==false)void markSync.refresh();};
  $('sync-status').onclick=()=>{markSync.available=null;void markSync.refresh();};
  window.addEventListener('focus',refresh);window.addEventListener('online',()=>{markSync.available=null;refresh();});document.addEventListener('visibilitychange',refresh);window.addEventListener('storage',event=>{if([FAVORITES_KEY,DOUBTS_KEY,ANSWERED_KEY].includes(event.key))refresh();});setInterval(refresh,60000);refresh();

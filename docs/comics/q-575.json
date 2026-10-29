@@ -1,0 +1,94 @@
+{
+  "id": "q-575",
+  "subject": "Geography",
+  "title": "逆流要比較航向與海流兩支箭頭",
+  "art": "docs/comics/art/q-575.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T00:45:51.519625+00:00",
+  "panels": [
+    {
+      "heading": "① 原圖箭頭代表船的航向",
+      "text": "先看圖例：「代表航行方向」。圖中的甲乙丙丁箭頭不是洋流，不能直接把它當成黑潮流向。",
+      "alt": "單一黑色箭頭旁原圖圖例文字，強調箭頭是船的航行方向，不帶洋流或速度資料。"
+    },
+    {
+      "heading": "② 東側黑潮主流由南往北",
+      "text": "用本題主要洋流概念，臺灣東側黑潮主流向北。這是海流方向，必須再與圖上船的航向比較。",
+      "alt": "東側海域抽象岸線簡圖，左陸右海、北朝上、藍色海流箭頭向北；非精確臺灣外形/流軸/近岸海況圖。"
+    },
+    {
+      "heading": "③ 丙向南，正好對抗北流黑潮",
+      "text": "丙在東側南下，與北流黑潮相反，最符合逆流吃力，選C。丁也在東側卻向北，與主流同向，不如丙符合題意。",
+      "alt": "丙段只比較兩方向：藍色黑潮箭頭向北、棕色船箭頭向南，無速度大小或所有時間海況的含意。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙段逆著黑潮主流南下",
+    "points": [
+      "先辨認圖例，分開航行與海流方向。",
+      "船向南＋黑潮主流向北＝逆流。",
+      "只按題目主要洋流判讀，不補季節、潮汐或即時流速。"
+    ]
+  },
+  "protectedWords": [
+    "黑潮主流",
+    "航行方向",
+    "海流方向",
+    "臺灣東側",
+    "逆流",
+    "即時流速"
+  ],
+  "rationale": "原卷15題全文/四選項與必要原圖實看，丙東側南下、丁東側北上，C不變。原生SVG精確分開圖例/主要洋流/船逆向，抽象岸線不冒充重建地圖，不將東岸任意近岸即時流都說固定北流。",
+  "promptSummary": "原生SVG圖例航向箭頭、東側主流北向簡圖、丙船南行對照黑潮北流；箭長不代表速度。",
+  "answerCheckedAgainst": "原卷圖六圖例代表航行方向、丙南下丁北上；C；海洋國家公園主流北向及國海院近岸時空變異說明。",
+  "officialReferences": [
+    {
+      "url": "https://www.marine.gov.tw/zh_tw/news/seatime/%E5%B1%AC%E6%96%BC%E6%88%91%E5%80%91%E7%9A%84%E8%A5%BF%E6%96%B9%E9%82%8A%E7%95%8C%E6%B5%81-%E9%BB%91%E6%BD%AE-3649931",
+      "finding": "黑潮主流沿臺灣東部海域北上。"
+    },
+    {
+      "url": "https://www.namr.gov.tw/ch/home.jsp?dataserno=202601160001&id=36&mcustomize=news_view.jsp&parentpath=0",
+      "finding": "東部近岸局部短時流向可能變化，不能由主要洋流推全時全域固定北流。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-575-source-bcba0e6190.jpg",
+      "site/dist/assets/questions/q-575-figure-dc8e2aba6f.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "完整日記/四選項與甲乙丙丁航向原圖均核對；不把船箭頭當洋流。"
+  },
+  "artSHA256": "0158c174cfe887df39767283057b5a74d5d81dcb6f017f179eeb99aa57fa2275",
+  "completedAt": "2026-10-29T00:48:10.802860+00:00",
+  "checkedAt": "2026-10-29T01:05:50.929155+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-575-preview-validation.json",
+  "visualReview": "實看原卷/必要圖與原生540×180、1440/390預覽：圖例船箭頭與北流黑潮分開，丙船向南與主流向北相反；抽象東側簡圖左陸右海，箭長不當速度。三寬無溢出，兩欄同列等高與手機自然高度正常。",
+  "nativeArt": "assets/comics/q-575-art-0158c174cf.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-29T01:05:50.927576+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷圖例為航行方向、東側丙南丁北實看，C不變；新SVG分清北流黑潮與船南行的相反方向，不添加流速/全年近岸海況。正式桌手機實看。",
+    "sharedNativeAssetVerified": true
+  },
+  "validationFile": "docs/comics/q-575-validation.json"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "q-334",
+  "subject": "Math",
+  "title": "不超過，包含剛好相等",
+  "art": "docs/comics/art/q-334.png",
+  "protectedWords": [
+    "200−x",
+    "200−x≤30",
+    "200−x＜30",
+    "不超過",
+    "170元",
+    "30元",
+    "200元"
+  ],
+  "panels": [
+    {
+      "heading": "① 先寫剩下的金額",
+      "text": "小歐原有200元，花費記為x；兩者相減，剩餘金額就是200−x。題目限制的是餘額，不是說花費x不超過30。",
+      "alt": "文具購物情境，錢包不露面額與硬幣數，不由插畫決定實際金額。"
+    },
+    {
+      "heading": "② 不超過30元，也可以剛好30元",
+      "text": "「不超過」是小於或等於，所以應列200−x≤30。原來的200−x＜30少了等號，漏掉正好剩30元的情況。",
+      "alt": "整理已買文具與剩餘錢包，精確金額與不等式只在旁邊HTML呈現。"
+    },
+    {
+      "heading": "③ 用花170元驗證邊界",
+      "text": "花170元，就剩30元，符合不超過30元。但30＜30不成立，證明原式不能包含所有符合題意的情況。",
+      "alt": "討論剛好達到上限仍可接受的假設例子，沒有用可見現金冒充30元。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：×；應改為200−x≤30",
+    "points": [
+      "不超過＝小於或等於，不是嚴格小於。",
+      "代入剛好等於上限的例子，最容易檢查漏等號。",
+      "若另考慮不透支及金額非負，花費為170≤x≤200。"
+    ]
+  },
+  "rationale": "已實看是非第5題原卷原式為嚴格小於，紅筆訂×；獨立代入x170得剩30，符合文字而原式不成立。完整花費範圍另註不透支與非負前提，不將其當原題漏印。新圖只作購物/收支/邊界思考情境，不讓模型決定面額、硬幣數或不等式。無既有AI圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-334-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-334-source-ef6a0605b3.jpg"
+  ],
+  "answerCheckedAgainst": "x170時餘30合題意卻不合原＜，應≤，故原敘述錯誤選B。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "f222de4b54169e6bc39718e933950c2d01eb5977e03df172216deba4c04763f3",
+  "createdAt": "2026-10-28T19:58:22.090770+00:00",
+  "checkedAt": "2026-10-28T20:04:51.992950+00:00",
+  "validationFile": "docs/comics/q-334-validation.json",
+  "nativeArt": "assets/comics/q-334-art-f222de4b54-web.webp"
+}

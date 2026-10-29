@@ -1,0 +1,78 @@
+{
+  "id": "q-111",
+  "subject": "Physics-Chemistry",
+  "title": "不再冒泡，不代表鈉與水達到平衡",
+  "art": "docs/comics/art/q-111.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:28:01.939682+00:00",
+  "panels": [
+    {
+      "heading": "① 先分清耗盡與平衡",
+      "text": "0.1公克鈉投入200毫升水，鈉反應完便停止冒泡，生成的氫氣也已逸出。這是反應物耗盡，不能把A的雙向箭號當成平衡證據。",
+      "alt": "開口燒杯中的鈉已耗盡，氫氣向外逸出，液體內沒有持續冒泡。"
+    },
+    {
+      "heading": "② 水的微量解離仍可平衡",
+      "text": "即使溶液呈鹼性，水仍可微量解離，H⁺與OH⁻也可重新結合。動態平衡是兩方向速率相等，不是H⁺和OH⁻濃度相等，因此選B。",
+      "alt": "水與H⁺、OH⁻之間以等長反向箭頭表示解離與結合速率相等，不用粒子數暗示濃度相同。"
+    },
+    {
+      "heading": "③ 再看C、D的必要條件",
+      "text": "本題是開口燒杯，水蒸氣能散失，不取C的液氣平衡；少量生成的NaOH已溶解，沒有剩餘固體，不能形成D所列的固體與離子平衡。",
+      "alt": "開口燒杯有向外的水蒸氣箭頭，溶液內Na⁺和OH⁻為標籤，底部沒有氫氧化鈉固體。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：水的微量解離平衡",
+    "points": [
+      "氣泡停止，先找是否有反應物耗盡。",
+      "動態平衡：正、逆反應速率相等。",
+      "鹼性溶液仍有水的解離平衡，不要求兩種離子濃度相等。"
+    ]
+  },
+  "protectedWords": [
+    "動態平衡",
+    "微量解離",
+    "反應物耗盡",
+    "正、逆反應",
+    "H⁺",
+    "OH⁻",
+    "NaOH"
+  ],
+  "rationale": "核對兩份原卷與燒杯圖，B答不變。用全新原生燒杯/雙向反應箭頭/開口與無固體條件取代來源AI圖，可直接比較耗盡與動態平衡，不加入假粒子數、人物實驗操作或錯誤的等濃度暗示。",
+  "promptSummary": "原生SVG三圖：鈉耗盡且氫氣逸出；水解離與結合的等長反向箭頭；開口水蒸氣散失與無NaOH固體。非比例粒子模型。",
+  "answerCheckedAgainst": "原卷題幹0.1g鈉/200mL水、四選項、教用PDF標B；OpenStax確認各種水溶液均存在水的自解離平衡，密閉容器的液氣平衡條件。",
+  "officialReferences": [
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+      "finding": "水溶液存在水的自解離平衡；加入酸鹼可改變離子濃度，不消滅平衡。"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+      "finding": "所有水溶液中都有氫氧離子和氫離子，濃度受水的離子積約束，鹼性時不必相等。"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+      "finding": "液氣平衡的蒸氣壓以給定溫度的密閉容器說明，與開口散失不同。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-111-source-6e29a3c421.jpg",
+      "site/dist/assets/questions/q-111-pdf-source-c638b17e4f.jpg",
+      "site/dist/assets/questions/q-111-figure-808d2a31a3.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "實看題幹、A至D與開口燒杯，NaOH固體選項與少量鈉條件均保留；H⁺沿原卷國中簡式，不另加超出題目表示法。"
+  },
+  "artSHA256": "9fff17aeed060974446e2bc5f6492c9b869cb090212dfd38fb93f86a42008aa8",
+  "completedAt": "2026-10-29T01:30:02.483040+00:00",
+  "checkedAt": "2026-10-29T01:30:02.483040+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-111-preview-validation.json",
+  "visualReview": "實看原生SVG及最終1440/390：H₂逃逸箭頭與字標分離，水解離/結合箭頭等長反向，無濃度相等粒子暗示；開口與無固體條件清楚。三寬QA無溢出，桌面同行等高、手機自然高度。"
+}

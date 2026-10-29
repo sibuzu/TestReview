@@ -1,0 +1,83 @@
+{
+  "id": "q-286",
+  "subject": "Chinese",
+  "title": "風與人不同，兩個徐都表示緩慢",
+  "art": "docs/comics/art/q-286.png",
+  "protectedWords": [
+    "清風徐來",
+    "徐步而行",
+    "不遺餘力",
+    "遺失物品",
+    "多多益善",
+    "開卷有益",
+    "觀者如堵",
+    "交通堵塞",
+    "緩慢",
+    "留下",
+    "丟失",
+    "更加",
+    "好處",
+    "阻塞"
+  ],
+  "panels": [
+    {
+      "heading": "① 清風徐來：風緩緩吹來",
+      "text": "清風徐來寫的是清涼的風緩緩吹來。把徐換成緩慢，原句意思仍然相符；先找出這個字義，再與後一句比較。",
+      "alt": "全新動漫園景微風輕拂頭髮與枝葉，非暴風或強浪；沒有把徐字誤畫成姓氏人物。"
+    },
+    {
+      "heading": "② 徐步而行：人慢慢走路",
+      "text": "同樣代入緩慢，就是慢慢邁步走路。雖然一個寫風，一個寫人，引號內的徐都表示速度慢，D的字義前後相同。",
+      "alt": "同一女孩安全步道上自然慢步，姿勢放鬆，不畫奔跑速度線、受傷或疾病暗示。"
+    },
+    {
+      "heading": "③ 比字義，不只比整句的感覺",
+      "text": "A的遺是留下／丟失；B的益是更加／好處；C的堵是牆／阻塞。整句可能讓人聯想到相似情境，仍要回到引號中的單字逐一比較。",
+      "alt": "師生比較兩張空白句卡，精確字義與選項在HTML文字列出，不由模型生成中文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：兩個徐都是緩慢",
+    "points": [
+      "先把引號中的字換成白話。",
+      "風緩緩來、人慢慢走，徐義相同。",
+      "不遺餘力的遺，不是遺失的遺。"
+    ]
+  },
+  "rationale": "已實看完整原卷第12題四選項，讀來源全文，D與逐項字義一致。教育部清風徐來及徐條的緩慢義實讀。全新微風、慢步、字義比較情境，避免強風、奔跑或把不遺餘力誤解成不弄丟力量；不沿用來源AI圖，不新增題文或答案訂正。",
+  "generationMethod": "built-in imagegen new wordless contrasting breeze and slow-walking scenes",
+  "promptFile": "docs/comics/q-286-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-286-source-5d4af94d2f.jpg",
+    "site/dist/sources/6ae06173-f304-83e8-9d50-b4c48a5b381a.txt lines 75–134"
+  ],
+  "sources": [
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=102131&la=1&powerMode=0",
+      "note": "教育部清風徐來：緩緩吹來。"
+    },
+    {
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail/?title=徐",
+      "note": "教育部教育百科彙整徐條，小字典、簡編本及重編本緩慢義。"
+    }
+  ],
+  "answerCheckedAgainst": "D兩徐緩慢；A留下/丟失、B更加/好處、C牆/阻塞。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:38:00.942599+00:00",
+  "artSha256": "4a4f5a911ed30cfd86eb7c1a429feadb55a1a2b792b7ba54f3f277324de29139",
+  "checkedAt": "2026-10-29T01:39:06.348538+00:00",
+  "validationFile": "docs/comics/q-286-preview-validation.json"
+}

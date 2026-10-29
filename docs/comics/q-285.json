@@ -1,0 +1,79 @@
+{
+  "id": "q-285",
+  "subject": "Chinese",
+  "title": "用詞語意思記住正確字形",
+  "art": "docs/comics/art/q-285.png",
+  "startedAt": "2026-10-29T01:33:22.554890+00:00",
+  "panels": [
+    {
+      "heading": "① 獨自執意：一意孤行",
+      "text": "不聽別人的勸告，執意照自己的想法做，寫作「一意孤行」。「孤」有獨自的意思，A的「估」應改成「孤」。",
+      "alt": "一名青年固執轉身，兩位朋友在後勸告，用情境記孤行，正字由HTML列出。"
+    },
+    {
+      "heading": "② 一起做壞事：同流合汙",
+      "text": "跟壞人一起做壞事，正寫「同流合汙」。C原卷是「同流河汙」，依已確認版本只把「河」改成「合」，不是改成「同流汙合」。",
+      "alt": "兩名虛構成人在桌前共同策劃不法活動的負面示意，不提供詐騙方法或把犯罪當成合作美德。"
+    },
+    {
+      "heading": "③ 局部推整體：以偏概全",
+      "text": "只看少數例子，就推論全部都一樣，是「以偏概全」。例如只看到一顆紅蘋果，就認定整籃都是紅色；D的「蓋」應改成概括的「概」。",
+      "alt": "女孩用小框看一顆紅蘋果，框外籃內還有綠蘋果，表達局部不能代表全部。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：相持不下，戰況膠著",
+    "points": [
+      "B表示雙方僵持，勝負尚未確定，用字正確。",
+      "A估→孤；C河→合；D蓋→概。",
+      "題目找用字完全正確，不能只看大致讀得通。"
+    ]
+  },
+  "protectedWords": [
+    "一意孤行",
+    "同流合汙",
+    "同流河汙",
+    "同流汙合",
+    "以偏概全",
+    "相持不下",
+    "戰況膠著",
+    "紅蘋果",
+    "綠蘋果"
+  ],
+  "rationale": "實看原卷完整第8題四選項，使用者已確認C河→合、B不變。新情境支援孤行/合汙/概全語義，正字全由HTML列出，不重用來源AI同流汙合錯字，不重問已結案OCR問題。",
+  "promptSummary": "內建imagegen全新三幅無字動漫：固執青年不聽朋友勸告、兩虛構成人共同作惡負例、單顆紅蘋果與混色整籃的局部/整體；字形與答案由HTML。",
+  "answerCheckedAgainst": "原卷第8題全部文句；使用者確認同流河汙→同流合汙與B；教育部成語典/簡編詞頭及釋義。",
+  "officialReferences": [
+    {
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1702&webMd=1",
+      "finding": "同流合汙的詞頭及隨壞人一起行事的意思，非同流汙合。"
+    },
+    {
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=-253&la=0&webMd=1",
+      "finding": "一意孤行表示不管他人意見而照自己心意做。"
+    },
+    {
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=40445&la=0&powerMode=0",
+      "finding": "以偏概全：以少數例證或特殊情形推論整體。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-285-source-c8c856f194.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "實看A估、C河、D蓋與B膠著；C原卷河汙按使用者確認，不沿用河汗OCR或原AI同流汙合。"
+  },
+  "artSHA256": "f44841a3fc955b3da9eeaf5f95f0c1baa4aac1f8864456d5fd04852fb179a369",
+  "generationStartedAt": "2026-10-29T01:34:28.481Z",
+  "generationCompletedAt": "2026-10-29T01:34:50.948Z",
+  "completedAt": "2026-10-29T01:35:49.872031+00:00",
+  "checkedAt": "2026-10-29T01:35:49.872031+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-285-preview-validation.json",
+  "visualReview": "實看2172×724新圖與1440/390成品：固執不聽勸/共同作惡負例/紅蘋果局部對混色整籃，三圖與語義相符，圖內無字。C只改已確認河→合，B不變；三寬無溢出，同列等高與手機自然高度、詞組保護正常。"
+}

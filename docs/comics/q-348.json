@@ -1,0 +1,80 @@
+{
+  "id": "q-348",
+  "subject": "Biology",
+  "title": "仍有感染力，不等於在細胞外自行繁殖",
+  "art": "docs/comics/art/q-348.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T01:05:55.814491+00:00",
+  "panels": [
+    {
+      "heading": "① 有遺傳物質，也可能變異",
+      "text": "病毒具有遺傳物質，複製時可能發生變異，符合B。病毒沒有完整細胞構造，不能因構造簡單，就歸入A的原核生物界。",
+      "alt": "新製病毒粒子概念圖，內部曲線表示遺傳物質，不冒充原子比例、完整構造或每種病毒都有同樣外形。"
+    },
+    {
+      "heading": "② 感染力與自行繁殖，要分開看",
+      "text": "題幹說附在物體上仍有感染力，不是能在表面自行生長、代謝或繁殖。病毒須利用活的宿主細胞才能複製，因此C錯。",
+      "alt": "表面單顆病毒與宿主細胞內複製概念對比，核外多顆粒子只表示利用細胞製造拷貝，不是完整感染時序或真實尺寸。"
+    },
+    {
+      "heading": "③ 空氣中的呼吸道粒子也能傳播",
+      "text": "造成COVID-19的病毒，可隨含病毒的呼吸道粒子在空氣中傳播。D整句說不會傳播並不成立，但也不能反過來把血液、耳部都說成傳染途徑。",
+      "alt": "新製兩人之間呼吸道粒子示意，粒點為放大概念，不把裸病毒當可見飛行物，不發明血液或耳朵傳播途徑。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 仍有感染力，不等於在細胞外自行繁殖",
+    "answer": "答案 B：有遺傳物質，且可能發生變異",
+    "points": [
+      "病毒不具完整細胞構造，不屬原核生物界。",
+      "利用活的宿主細胞複製，不能在物體表面自行繁殖。",
+      "COVID-19是疾病名；病毒名是SARS-CoV-2。"
+    ]
+  },
+  "protectedWords": [
+    "遺傳物質",
+    "變異",
+    "細胞構造",
+    "原核生物界",
+    "感染力",
+    "物體表面",
+    "自行繁殖",
+    "宿主細胞",
+    "呼吸道粒子",
+    "傳播",
+    "COVID-19",
+    "SARS-CoV-2",
+    "疾病名",
+    "病毒名",
+    "血液",
+    "耳部"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-348-source-a830e26491.jpg"
+  ],
+  "originalVisualCheck": "實看原卷31全文與四選項、黑C紅B。保持原題舊俗稱及傳播文字，解說沿用已核對的疾病/病毒名與呼吸道粒子澄清。",
+  "answerCheckedAgainst": "NHGRI Virus全文實讀：核酸DNA或RNA、不能自行複製、需利用細胞。WHO傳播QA全文實讀：呼吸道粒子空氣傳播，不能由D整句否定的錯誤推論血液/耳部均是路徑。維持既有B與既有訂正，不新改答。",
+  "references": [
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Virus",
+      "title": "NHGRI Genetics Glossary Virus",
+      "checked": "實讀核酸與宿主依賴複製定義。"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-how-is-it-transmitted",
+      "title": "WHO COVID-19 How is it transmitted?",
+      "checked": "實讀呼吸道粒子經空氣吸入/接觸眼鼻口，不將該2021QA當目前個人防疫操作建議。"
+    }
+  ],
+  "rationale": "依使用者最新要求撤用來源AI圖，以新製病毒/細胞依賴/呼吸道粒子三原生生物示意表達B與ACD誤區。精確細胞內外位置與核酸由程式控制，非重用來源AI圖。",
+  "artType": "new precise native SVG biological concept diagrams",
+  "generationCalls": 0,
+  "supersedesReview": "docs/comics/q-348-review.json",
+  "supersedesReason": "使用者要求全部來源AI解說圖移除並新製四格；舊existing_ai審查只作歷程。",
+  "artSHA256": "7501303602aec8182cfa5dae6c9b3da20e16f072636d79e425b2038ff43ef0bc",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T01:07:15.914219+00:00",
+  "completedAt": "2026-10-29T01:07:15.914219+00:00",
+  "layoutEvidence": "docs/comics/q-348-preview-validation.json",
+  "visualReview": "實看1440/1120/390新SVG三景，核酸在病毒內、細胞內粒子在胞質不在核內，細胞外未畫自主增殖；空氣粒點與兩人輪廓不增造血液/耳部路徑。沒有採用來源AI圖，無橫溢/保護詞拆行，同列等高及手機自然高度。"
+}

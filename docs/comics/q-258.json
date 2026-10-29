@@ -1,0 +1,91 @@
+{
+  "id": "q-258",
+  "subject": "History",
+  "title": "人物先對上，事件再看年代與名稱",
+  "art": "docs/comics/art/q-258.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:21:26.803927+00:00",
+  "panels": [
+    {
+      "heading": "① 三組經歷合起來是袁世凱",
+      "text": "清廷內閣總理、北洋軍隊，接著第二任臨時大總統、首任正式大總統，最後又企圖稱帝，這些線索都指向袁世凱。",
+      "alt": "原表經歷以三組卡片合併辨人，不捏造袁舉行登基典禮或額外職務，後來帝制與早期共和階段分開。"
+    },
+    {
+      "heading": "② 1915年的部分要求對得上",
+      "text": "袁政府在1915年接受二十一條要求的部分條件，選C。袁1916年去世；A的廣州護法軍政府與B的中國正式參與一戰，都在1917年，晚於袁。",
+      "alt": "1915/1916/1917等年距縱向時間線，C部分要求在世時，A/B在死後；只標年份不混淆月日或把全部21條原樣接受。"
+    },
+    {
+      "heading": "③ D混淆兩份約法",
+      "text": "《臨時約法》限制總統權力；袁後來用《中華民國約法》取代它，才是擴權。D把「臨時約法」與「擴張職權」配在一起，不能成立。",
+      "alt": "1912臨時約法/限制與1914中華民國約法/擴權對照，標準名稱及方向正確，非只因兩名稱相似就當同一份。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：承認二十一條要求部分條件",
+    "points": [
+      "題目人物是袁世凱。",
+      "保留「部分」，不把全部二十一條都說成原樣接受。",
+      "護國反稱帝，護法軍政府則在1917年，兩者別混。"
+    ]
+  },
+  "protectedWords": [
+    "袁世凱",
+    "二十一條要求",
+    "臨時大總統",
+    "正式大總統",
+    "廣州護法軍政府",
+    "臨時約法",
+    "中華民國約法",
+    "1915年",
+    "1916年",
+    "1917年"
+  ],
+  "rationale": "實看原卷8題原表與完整四選項，C不變。全新原生圖以三組經歷/等年距年序/兩約法差異提供可核對的歷史推理，不用重複人物像或來源AI圖，不把原帝制表述變成虛構登基場景。",
+  "promptSummary": "原生歷史關係圖：經歷辨人、1915–1917事件對時、1912/1914約法功能對照。",
+  "answerCheckedAgainst": "原表清廷/民國/帝國與四選項；國資圖1915部分條件、1914新約法、1917護法資料；美國國務院1917宣戰原始外交電文。",
+  "officialReferences": [
+    {
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000087",
+      "finding": "1915年袁政府接受二十一條中的部分要求。"
+    },
+    {
+      "url": "https://edata.nlpi.edu.tw/CNH/event/event.aspx?ID=0000084",
+      "finding": "1914年中華民國約法取代臨時約法。"
+    },
+    {
+      "url": "https://sunology.culture.tw/detail/ba9bafd3db30bb7cd51a6d3c11c67912/?seq=3",
+      "finding": "1917年9月中華民國軍政府組織大綱，以恢復臨時約法為宗旨。"
+    },
+    {
+      "url": "https://history.state.gov/historicaldocuments/frus1917Supp01v01/d653",
+      "finding": "1917年8月14日中國對德奧宣戰的外交原始文書。"
+    },
+    {
+      "url": "https://www.president.gov.tw/Page/49",
+      "finding": "袁世凱1916年去世，1917事件非任內。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-258-source-899b8f2f5d.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "原表三國體/職稱及A至D實看，不用上一題閱讀替代此題原表；不沿原學生A。"
+  },
+  "artSHA256": "e4a39ca5dba62690f5cece66beb4d6b0c4cf378be09627d6f04402518545e2d7",
+  "completedAt": "2026-10-29T01:27:45.444116+00:00",
+  "checkedAt": "2026-10-29T01:27:45.444116+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-258-preview-validation.json",
+  "visualReview": {
+    "desktop1440": "實看四格，三段經歷、1915/1916/1917年代線與兩份約法對照均完整；同列等高、無裁切。",
+    "mobile390": "實看四格單欄，180px情境圖依版型縮小，原生文字自然換行、無水平溢出。",
+    "nativeArt": "實看540×180 SVG，年代與名稱可辨，底部標籤未截斷。"
+  }
+}

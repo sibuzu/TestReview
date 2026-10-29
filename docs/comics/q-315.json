@@ -1,0 +1,82 @@
+{
+  "id": "q-315",
+  "subject": "Biology",
+  "title": "殼硬也可以是軟體動物",
+  "art": "docs/comics/art/q-315.png",
+  "protectedWords": [
+    "文蛤",
+    "軟體動物",
+    "不分節",
+    "柔軟",
+    "刺絲胞",
+    "鱗片",
+    "烏賊",
+    "外套膜",
+    "臺灣文蛤",
+    "中華文蛤",
+    "麗文蛤"
+  ],
+  "panels": [
+    {
+      "heading": "① 看殼內的身體，不只看硬殼",
+      "text": "文蛤有堅硬的貝殼，殼內的身體仍是柔軟、不分節的。題目問歸入軟體動物的重要依據，B最符合。",
+      "alt": "活文蛤略張的雙殼、柔軟足與殼內組織自然觀察示意，非物種鑑定照片，不新增精確器官結構。"
+    },
+    {
+      "heading": "② 行動慢，不能概括所有軟體動物",
+      "text": "烏賊也屬軟體動物，卻能快速運動。因此不能只用有硬殼或行動緩慢，判定這一大類動物；C不是本題的重要分類依據。",
+      "alt": "原創烏賊水中游動示意，不加速度數據，不以烏賊是否有明顯外殼判斷軟體動物身分。"
+    },
+    {
+      "heading": "③ 殼上的紋路，不是魚類的鱗片",
+      "text": "文蛤可以用鰓進行氣體交換，但沒有D所說的鱗片。殼的花紋與生長紋，不是魚鱗，也不是身體分節；不能因半句正確就選D。",
+      "alt": "閉合文蛤殼的平滑輪廓、細生長線自然示意，不畫成重疊魚鱗、分節軀體或牡蠣。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：身體柔軟不分節",
+    "points": [
+      "這題問動物分類，不是三種文蛤的分種。",
+      "貝殼的硬，與殼內身體的軟可以並存。",
+      "選項必須整句符合，不能只看一半。"
+    ]
+  },
+  "rationale": "已實看原文、三種文蛤附圖、第3題完整四選項及來源對話；B答與現在詳解一致。以全新文蛤/烏賊自然素材說明殼與身體區別，不沿用來源AI圖，不把殼花紋作物種鑑定依據。A刺絲胞是錯選項，本圖不渲染不存在的文蛤刺絲胞。",
+  "generationMethod": "built-in imagegen new wordless marine observation scenes plus editable HTML",
+  "promptFile": "docs/comics/q-315-prompt.txt",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-315-reading-255d47fba2.jpg",
+    "site/dist/assets/questions/q-315-source-a21a568b29.jpg",
+    "site/dist/assets/questions/q-315-figure-0bcfac785b.jpg",
+    "site/dist/sources/6ae0de73-5310-83ec-9332-f7f22d61959a.txt 第3題全文"
+  ],
+  "sources": [
+    {
+      "url": "https://www.marine.gov.tw/zh_tw/conservation/EcologyArea/貝類大概有多少分類-92923454",
+      "note": "海管處分類主文：文蛤雙殼、烏賊頭足，外套膜分泌貝殼與頭足類靈活噴射運動。"
+    },
+    {
+      "url": "https://www.tfrin.gov.tw/theme_data.php?id=576&sub_theme=news&theme=news",
+      "note": "水試所臺灣文蛤2023新種公告搜尋摘要核對閱讀背景，正文下載逾時；漫畫不重述種級DNA百分比。"
+    }
+  ],
+  "answerCheckedAgainst": "本題四選一B完整符合；C以緩慢概括不當，D含鱗片不成立，A非文蛤捕食特徵。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T01:04:56.848128+00:00",
+  "artSha256": "32953c02149672ec65f10e0f6468d9298673df48614f6826d4136660a902a35b",
+  "checkedAt": "2026-10-29T01:05:46.465580+00:00",
+  "validationFile": "docs/comics/q-315-preview-validation.json"
+}

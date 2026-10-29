@@ -1,0 +1,74 @@
+{
+  "id": "q-114",
+  "subject": "Physics-Chemistry",
+  "title": "通入CO₂，從OH⁻減少追到逆反應",
+  "art": "docs/comics/art/q-114.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-29T01:30:02.539862+00:00",
+  "panels": [
+    {
+      "heading": "① CO₂先消耗OH⁻",
+      "text": "通入二氧化碳會消耗溶液中的OH⁻，使其濃度降低。先找被改變的物質，不能看到加入氣體就直接判為正反應。",
+      "alt": "二氧化碳向下進入燒杯，OH⁻向下符號表示濃度降低；圖色不代表精確濃度或配比。"
+    },
+    {
+      "heading": "② 題目向左，才是逆反應",
+      "text": "題式把OH⁻放在左側。OH⁻減少後，平衡向左移動，補回部分OH⁻；而題目已指定向左為逆反應，不能套用別張反應式的左右。",
+      "alt": "左側橘紅色二鉻酸根與右側黃色鉻酸根的方向示意，粗箭頭向左表示原題逆反應，不表示反應停止。"
+    },
+    {
+      "heading": "③ 二鉻酸根增加，但不全變完",
+      "text": "向左時，Cr₂O₇²⁻增加，CrO₄²⁻減少，對應D。C雖然方向正確，卻把鉻酸根濃度說成0；新平衡仍有兩種離子，不能判為完全轉化。",
+      "alt": "橘紅二鉻酸根標增加、黃色鉻酸根標減少，兩色圓均保留；僅呈現定性變化，無杜撰數值。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：逆反應，二鉻酸根增加",
+    "points": [
+      "CO₂消耗OH⁻，先判左側物質減少。",
+      "平衡向左，補回部分OH⁻。",
+      "新平衡不是完全反應，鉻酸根不歸零。"
+    ]
+  },
+  "protectedWords": [
+    "二氧化碳",
+    "二鉻酸根",
+    "鉻酸根",
+    "逆反應",
+    "正反應",
+    "OH⁻",
+    "Cr₂O₇²⁻",
+    "CrO₄²⁻"
+  ],
+  "rationale": "實看兩份原卷的方程方向、四選項，D維持。全新原生三圖分開呈現外加CO₂擾動、原題向左的補償、定性離子濃度變化，避免人物操作/誤用酸式反應的左右及把新平衡畫成反應完全。",
+  "promptSummary": "原生SVG：CO₂消耗OH⁻；橘紅二鉻酸根左/黃色鉻酸根右與向左箭頭；兩種離子增加/減少但均非0。無粒子數、濃度或整杯變色程度假定。",
+  "answerCheckedAgainst": "原卷Cr₂O₇²⁻＋2OH⁻⇌2CrO₄²⁻＋H₂O，向左逆反應；RSC及UW原教學實驗確認酸/鹼使鉻酸根二鉻酸根比例改變但兩者共存。",
+  "officialReferences": [
+    {
+      "url": "https://edu.rsc.org/experiments/a-chromate-dichromate-equilibrium/1710.article",
+      "finding": "酸性提高橘色二鉻酸根比例、鹼性提高黃色鉻酸根比例，兩種離子在平衡中都存在。該文以酸式反應書寫，圖文方向另依原題OH⁻式。"
+    },
+    {
+      "url": "https://chem.washington.edu/lecture-demos/chromate-dichromate-equilibrium",
+      "finding": "大學化學示範確認鉻酸根黃色與二鉻酸根橘色，以及酸鹼造成的相互轉變。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-114-source-477509586b.jpg",
+      "site/dist/assets/questions/q-114-pdf-source-6471762301.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "實看完整室溫條件、向右正/向左逆的題式與A至D；不改已確認D、不把C零濃度當新平衡。"
+  },
+  "artSHA256": "7d41b7ba855df9e51ceaf2b94c03a60096d85794018588526869b4daf11514de",
+  "completedAt": "2026-10-29T01:31:45.558700+00:00",
+  "checkedAt": "2026-10-29T01:31:45.558700+00:00",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-114-preview-validation.json",
+  "visualReview": "實看原生540×180、1440與390：橘紅Cr₂O₇²⁻在左、黃色CrO₄²⁻在右，粗箭頭向左；第三格上/下箭號表示定性變化而不捏造數值。字形/上下標完整，桌面同列等高、手機自然高度，三寬無溢出。"
+}

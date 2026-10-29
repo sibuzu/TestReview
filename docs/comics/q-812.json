@@ -1,0 +1,125 @@
+{
+  "id": "q-812",
+  "subject": "Chinese",
+  "title": "分清同義重複、受事重複與動詞搭配",
+  "art": "docs/comics/art/q-812.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-812-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① A：發自內心與由衷，語意重複",
+      "text": "由衷已含出於內心、真誠的意思，再接發自內心，表達重複。可刪一個，寫我由衷感謝父母的照顧，或我發自內心感謝父母的照顧；不必把兩個意思相同的修飾疊用。",
+      "alt": "全新精確SVG把原A發自內心與由衷分兩框，標同樣出於本心、擇一，未變更原選項。"
+    },
+    {
+      "heading": "② B：原題是被挨罵，不能漏掉被字",
+      "text": "挨罵本身就是受責罵，再加被，受事表達重複。原題一定被挨罵，可改成一定挨罵，或一定被責罵。這裡要分析原卷的被挨罵，不能先改成一定被罵，再判原句沒有語病。",
+      "alt": "全新精確SVG保留原B被挨罵為檢查對象，兩可改句一定挨罵/一定被責罵分框，未把被挨罵偷換成被罵。"
+    },
+    {
+      "heading": "③ C：要恢復體力，不是恢復疲勞",
+      "text": "請假是為了消除疲勞、恢復體力；恢復身體疲勞，反而像要讓疲勞再回來。問題在動詞與後面語詞的搭配，可改消除身體疲勞，或恢復體力，不必改動請假的時間。",
+      "alt": "全新精確SVG保留原C恢復身體疲勞，兩改法消除身體疲勞/恢復體力清楚對照，不把疲勞與體力交換含義。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：即使勸說，卻依然明知故犯",
+    "points": [
+      "D 表達讓步轉折，語意完整，四項中沒有 A～C 的搭配錯誤。",
+      "A 檢查同義重複；B 檢查被與挨罵。",
+      "C 檢查恢復或消除，後面接的是體力或疲勞。"
+    ]
+  },
+  "protectedWords": [
+    "發自內心",
+    "由衷",
+    "語意重複",
+    "出於內心",
+    "挨罵",
+    "被挨罵",
+    "被責罵",
+    "受責罵",
+    "一定挨罵",
+    "一定被責罵",
+    "受事表達",
+    "恢復體力",
+    "恢復疲勞",
+    "身體疲勞",
+    "消除",
+    "體力",
+    "疲勞",
+    "明知故犯",
+    "讓步轉折",
+    "苦口婆心"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-812-source-1.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "親見17四項與紅改D；B原印一定被挨罵、C恢復身體疲勞均照原分析。既有來源AI誤判訂正卡不重開，原卷D答案沿用。"
+  },
+  "sourceUrl": "https://gemini.google.com/share/ec6c955b81b3",
+  "answerCheckedAgainst": "原卷四項與紅改D，A同義B受事C動受搭配，D讓步轉折語義完整；沿用既已獨立核定D，不重開來源AI舊誤判。",
+  "references": [
+    {
+      "title": "教育部簡編辭典：由衷",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=41283&la=0&powerMode=0",
+      "supports": "出於本心、真心誠意，核對A同義重複",
+      "access": "官方主文已讀"
+    },
+    {
+      "title": "教育部重編辭典：挨罵",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=147077&la=0&powerMode=0",
+      "supports": "挨罵為受責罵，核對B受事含義",
+      "access": "已讀官方搜尋結果全文釋義，不以被罵替換原題被挨罵"
+    }
+  ],
+  "rationale": "三類語病直接標字與兩種改法，以可核對語義結構替代無助於判句的生活畫面；第四格保留D與讓步語意，不重開既有來源AI訂正卡。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "D",
+    "bOriginalKept": "一定被挨罵",
+    "cOriginalKept": "恢復身體疲勞",
+    "correctionsAreSuggestionsNotOriginalReplacement": true,
+    "dClauseDirection": "即使勸說仍故犯",
+    "newContentDoubt": false
+  },
+  "artSHA256": "f223d37567657d0e3a8bfc551d0cea43eac62bee8241457ebfd05799c58458cc",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T11:04:11.898084+00:00",
+  "previewValidation": "docs/comics/q-812-preview-validation.json",
+  "visualReview": "親見17四項、原印被挨罵與紅改D；新SVG900原尺寸及最終1440/390實看。三類原詞與兩可改法均正確，受責罵保護分詞，原卷A/B/C不被直接替換；原D讓步完整沿用、不重開舊AI訂正。三寬PASS。",
+  "nativeArt": "assets/comics/q-812-art-f223d37567.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:04:11.893409+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原17四項與紅D親見，B被挨罵保留原字、受事雙用兩改法；A發自內心/由衷同義重複，C恢復疲勞動受搭配。新SVG原詞與建議改句不偷改原題，D讓步轉折完整沿既確認；正式1440/390四格實看並通過六項，手機詞組自然、無溢出。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-812-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-812-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-812-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-812-validation.json"
+}

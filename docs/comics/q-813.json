@@ -1,0 +1,124 @@
+{
+  "id": "q-813",
+  "subject": "Chinese",
+  "title": "替農忙百姓代勞，重點是體恤民情",
+  "art": "docs/comics/art/q-813.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T10:56:35.826733+00:00",
+  "panels": [
+    {
+      "heading": "① 方春耕蠶，百姓正忙於生計",
+      "text": "「方春，百姓耕且蠶」交代春季農忙。刺史出遊索民拉船，會打擾耕作、養蠶；要從百姓的處境理解何易于的行動。",
+      "alt": "新生成普通農人春季耕作與養蠶的情境，樸素工作衣而非官服，白蠶在桑葉竹盤中；不把這格畫成官員必須親自與民耕田的B答案。"
+    },
+    {
+      "heading": "② 身引舟，自己代百姓拉船",
+      "text": "「身引舟」是親自拉船。何易于以自己可以代勞，婉轉提醒別讓農忙百姓受擾，不是說政府官員一定要與民並耕。",
+      "alt": "新生成藍衣何易于在岸上拉連到船首繫柱的粗繩，船在右、船首向左，紅衣刺史驚問；兩手拉繩且連接可見，不畫成船上划槳或百姓仍被役使。"
+    },
+    {
+      "heading": "③ 朴愧而去，點出體恤民情",
+      "text": "崔朴聽後慚愧，和賓客離去，顯示他明白這次出遊擾民。文中肯定的是何易于體恤百姓，而不是A所說的與民同樂。",
+      "alt": "新生成何易于向刺史說明農忙、刺史慚愧低頭的反應，沒有捏造百姓先抗議、指定離去交通工具或宣稱後來政績；對照原文朴愧。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 以百姓處境，理解官員代勞的目的",
+    "answer": "答案 C：政府官員必須體恤民情",
+    "points": [
+      "耕且蠶：百姓忙於生計。",
+      "身引舟：何易于替百姓代勞。",
+      "朴愧：知道不應以遊樂擾民。",
+      "不是必須同耕；也沒先寫平息民怨。"
+    ]
+  },
+  "protectedWords": [
+    "何易于",
+    "崔朴",
+    "刺史",
+    "百姓",
+    "方春",
+    "百姓耕且蠶",
+    "耕且蠶",
+    "耕作",
+    "養蠶",
+    "農忙",
+    "生計",
+    "身引舟",
+    "代勞",
+    "拉船",
+    "與民並耕",
+    "與民同樂",
+    "體恤民情",
+    "平息民怨",
+    "擾民",
+    "受擾",
+    "朴愧",
+    "慚愧",
+    "賓客"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-813-source-1.jpg"
+  ],
+  "originalVisualCheck": "實看18題新唐書全文/縴注/四選、黑B紅C，B原卷是與民並耕、C體恤民情；何易于身引舟及百姓耕蠶、朴愧離去核對。原AI B/C顛倒已由使用者resolved，不重開。",
+  "answerCheckedAgainst": "正式C/原卷紅C及resolved correction-q-813-e56581c4ee2c，使用者確認恢復原卷B/C順序與答C。以身引舟代農忙百姓免受擾為核心，不從拉船誤跳官員必須耕田。",
+  "confirmationEvidence": "monitor/confirmations.json#correction-q-813-e56581c4ee2c",
+  "rationale": "新三格用耕蠶背景、官員代拉船、刺史慚愧的因果順序，讓體恤民情直接有文本依據。繩需真連船首、人物衣色分開，不借景畫成與民同樂或政府官員必親耕；不虛構民怨抗議與後續政績。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-813-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-457798a5-6f5e-439d-aaa0-dcf095e1f836.png",
+  "visualChecked": true,
+  "artChecks": {
+    "threeEqualSquareScenes": true,
+    "farmersNotOfficialsInFirstScene": true,
+    "silkwormsOnMulberryLeaves": true,
+    "blueMagistratePersonallyTowsBoat": true,
+    "tautRopeAttachedToBowPost": true,
+    "boatBowTowardPullDirection": true,
+    "redSuperiorSurprisedThenAshamed": true,
+    "inventedProtestOrDepartureTransport": false,
+    "sourceAIReuse": false,
+    "teachingTextBurnedIntoArt": false
+  },
+  "timingEvidence": "docs/comics/q-813-timing.json",
+  "completedAt": "2026-10-29T11:02:15.046786+00:00",
+  "checkedAt": "2026-10-29T11:10:32.938808+00:00",
+  "layoutEvidence": "docs/comics/q-813-preview-validation.json",
+  "visualReview": "實看原卷18全段/縴註/黑B紅C與resolved恢復C卡，新2172x724及1440/1120/390最終版：普通農人耕蠶非官同耕、藍衣岸上雙手拉連到船首柱的繩、紅衣刺史驚問後慚愧。沒有舟上划槳/抗議/指定離去工具；三寬預設收合/圖載入/詞不拆無溢出、桌同列等高手機自然高PASS。",
+  "artSHA256": "063fbcaffe879387b6260d0e874a834af16dfdf361733d5f6dc4f66c3fd9264a",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-813-1440.png",
+    "/tmp/weirugo-comic-previews/q-813-1120.png",
+    "/tmp/weirugo-comic-previews/q-813-390.png"
+  ],
+  "nativeArt": "assets/comics/q-813-art-063fbcaffe-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:10:32.932793+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原18新唐書全文/縴註與四選親見，黑B紅C、B與民並耕/C體恤民情沿使用者已確認。新原圖普通農人耕蠶、藍衣何易于岸上拉連船首的繩、紅衣刺史慚愧，無同耕官員/先抗議/離去交通杜撰；正式1440/390四格實看，18批檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-813-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-813-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-813-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudMarksAborted": true
+  },
+  "validationFile": "docs/comics/q-813-validation.json"
+}

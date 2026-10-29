@@ -1,0 +1,131 @@
+{
+  "id": "q-248",
+  "subject": "Chinese",
+  "title": "固定稱謂中心，甲乙互證樸實詩風",
+  "art": "docs/comics/art/q-248.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-248-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① A 混淆長次子：阿舒不是陶俟",
+      "text": "甲文五子依次為陶儼、陶俟等人；乙詩阿舒為長子，阿宣為次子。對照可知阿舒是陶儼，阿宣才是陶俟。不要只看名字相近，便把長子與次子的對應混在一起。",
+      "alt": "全新精確SVG兩列名次配對，阿舒連陶儼為長子，阿宣連陶俟為次子，不推定五子母系分組。"
+    },
+    {
+      "heading": "② C、D 辨世代：稱謂先固定以誰為中心",
+      "text": "陶淡是陶淵明的叔父，但阿宣是淵明的兒子，對阿宣就應稱陶淡叔祖，不是叔父。孟陋是外祖父孟嘉的弟弟，對淵明屬祖輩；陶淡屬父輩，兩人差一個世代，故 C、D 不對。",
+      "alt": "全新精確SVG以陶淵明為中心，孟陋外叔祖/陶淡叔父/本人/阿宣子輩四條世代帶；沒有把孟陋與陶淡畫成直系父子或替母系命名。"
+    },
+    {
+      "heading": "③ B 由風格與詩句互相印證",
+      "text": "甲文說陶詩語言平靜、自然本色；乙詩直寫孩子不愛紙筆、只找梨栗吃等家常事，語句平實，情感自然。這正能印證樸實的風格，不必靠華麗辭藻，故選 B。",
+      "alt": "全新精確SVG甲語言平靜/自然本色與乙總不好紙筆/但覓梨與栗分組對照，共同指向生活化自然樸實，不為孩子追加心理疾病或歷史評價。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：乙詩顯現陶詩樸實的風格",
+    "points": [
+      "阿舒＝長子陶儼；阿宣＝次子陶俟。",
+      "陶淡對阿宣是叔祖；孟陋與陶淡不同輩。",
+      "甲談自然本色，乙寫日常家事，內容與風格相合。"
+    ]
+  },
+  "protectedWords": [
+    "陶淵明",
+    "淵明",
+    "陶儼",
+    "陶俟",
+    "陶淡",
+    "孟陋",
+    "孟嘉",
+    "阿舒",
+    "阿宣",
+    "叔祖",
+    "叔父",
+    "祖輩",
+    "父輩",
+    "子輩",
+    "外祖父",
+    "長子",
+    "次子",
+    "樸實",
+    "語言平靜",
+    "自然本色",
+    "紙筆",
+    "梨栗",
+    "家常事",
+    "世代",
+    "稱謂"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-247-reading-5301fcbecc.jpg",
+      "site/dist/assets/questions/q-248-source-d92b198983.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "親見甲乙完整文/責子詩與28四項；題目原裁652×84再忠實3倍放大/tmp/q248-source-3x.png核B顯現字樣，未發現新轉錄差異。只用已收入q248，不讓已排除q249母系延伸回流。"
+  },
+  "sourceUrl": "https://share.gemini.google/9R0jjacaceFg",
+  "answerCheckedAgainst": "甲中五子依序、叔父/外叔祖關係與自然本色，乙詩家事語句互證B；按淵明或阿宣切換稱謂，非直接照搬父親的稱謂。",
+  "rationale": "名次表、同一中心的世代帶和文風證據圖，兼顧A/C/D陷阱與B正解。世代帶不是直系樹，不猜哪位母親生哪名孩子、不復活已刪延伸題。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "B",
+    "matching": {
+      "阿舒": "陶儼",
+      "阿宣": "陶俟"
+    },
+    "generationReference": "陶淵明",
+    "generationLevels": {
+      "孟陋": 0,
+      "陶淡": 1,
+      "陶淵明": 2,
+      "阿宣": 3
+    },
+    "taoDanRelativeToAXuan": "叔祖",
+    "mengLouTaoDanSameGeneration": false,
+    "maternalGroupingInferred": false,
+    "removedQ249Revived": false,
+    "generationBandsAreDirectLineage": false
+  },
+  "artSHA256": "6d97358a0ad75c14a5f3e7423c2ff6bd0d30d815f88b4cdcec26d77b251a0403",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T11:22:51.992218+00:00",
+  "previewValidation": "docs/comics/q-248-preview-validation.json",
+  "kinshipValidation": "docs/comics/q-248-kinship-validation.json",
+  "visualReview": "親見甲乙全文與28四項，忠實3倍放大核B顯現文字；新SVG900原尺寸和1440/390最終實看，阿舒陶儼/阿宣陶俟名次正確。獨立按母父兄弟與父兄弟路徑核孟陋-2/陶淡-1/淵明0/阿宣1，實際SVG相符；世代帶非直系樹，無母系分組/已刪q249復活。三寬PASS。",
+  "nativeArt": "assets/comics/q-248-art-6d97358a0a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:22:51.987498+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "甲乙全文已與q247共同原件親見，28四項另忠實3倍放大親見顯現字。新SVG阿舒陶儼/阿宣陶俟對照、以淵明為中心外叔祖孟陋/叔父陶淡/子阿宣世代帶，非直系父子；C對阿宣叔祖、D差一代，B由甲自然本色與乙家常詩互證。正式桌手機圖文實看，六檢PASS，未復活已移除q249。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-248-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-248-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-248-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-248-validation.json"
+}

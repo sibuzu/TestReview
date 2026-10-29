@@ -1,0 +1,21 @@
+from pathlib import Path
+import json,hashlib
+a=Path('docs/comics/art/q-248.svg');p=['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="長次子名次配對、以陶淵明為準的世代對照及樸實詩風證據"><rect width="900" height="300" fill="#faf8ed"/><style>text{font-family:"Noto Sans CJK TC",sans-serif;text-anchor:middle;fill:#294c48}.h{font-size:22px;font-weight:700}.w{font-size:25px;font-weight:700}.s{font-size:19px}</style>']
+p.append('<g id="names"><text x="150" y="32" class="h">長子、次子要對準</text><text x="75" y="74" class="s">乙詩</text><text x="225" y="74" class="s">甲文</text>')
+for i,(left,right,label) in enumerate([('阿舒','陶儼','長子'),('阿宣','陶俟','次子')]):
+ y=95+100*i;p.append(f'<rect x="21" y="{y}" width="258" height="58" rx="12" fill="#e5eddf"/><text x="75" y="{y+37}" class="w">{left}</text><path d="M125 {y+28} H172 M164 {y+22} L173 {y+28} L164 {y+34}" stroke="#81947f" stroke-width="2.5" fill="none"/><text x="225" y="{y+37}" class="w">{right}</text><text x="150" y="{y+82}" class="s">{label}</text>')
+p.append('</g><g id="generations" transform="translate(300 0)"><text x="150" y="32" class="h">以淵明看世代</text>')
+rows=[('祖輩','孟陋：外叔祖','#e7e1ee'),('父輩','陶淡：叔父','#f0e5d5'),('本人','陶淵明','#e4e8e2'),('子輩','阿宣','#dfeadb')]
+for i,(level,name,c) in enumerate(rows):
+ y=55+58*i;p.append(f'<g class="generation-row" data-level="{i}" data-name="{name}"><rect x="18" y="{y}" width="264" height="46" rx="10" fill="{c}"/><text x="54" y="{y+30}" class="s">{level}</text><text x="183" y="{y+30}" class="s">{name}</text></g>')
+p.append('</g><g id="style" transform="translate(600 0)"><text x="150" y="32" class="h">甲乙互證：樸實風格</text><text x="47" y="81" class="w">甲</text><rect x="80" y="55" width="202" height="70" rx="12" fill="#e0eaf0"/><text x="180" y="84" class="s">語言平靜</text><text x="180" y="112" class="s">自然本色</text><text x="47" y="168" class="w">乙</text><rect x="80" y="143" width="202" height="70" rx="12" fill="#eee5d5"/><text x="180" y="172" class="s">總不好紙筆</text><text x="180" y="200" class="s">但覓梨與栗</text><path d="M35 235 H265" stroke="#8c9c88" stroke-width="2"/><text x="150" y="274" class="w">生活化，自然樸實</text></g></svg>');a.write_text(''.join(p))
+d={'id':'q-248','subject':'Chinese','title':'固定稱謂中心，甲乙互證樸實詩風','art':str(a),'artMode':'deterministic-svg','generatorFile':'docs/comics/q-248-generate.py','layoutVersion':'native-fluid-v6',
+'panels':[{'heading':'① A 混淆長次子：阿舒不是陶俟','text':'甲文五子依次為陶儼、陶俟等人；乙詩阿舒為長子，阿宣為次子。對照可知阿舒是陶儼，阿宣才是陶俟。不要只看名字相近，便把長子與次子的對應混在一起。','alt':'全新精確SVG兩列名次配對，阿舒連陶儼為長子，阿宣連陶俟為次子，不推定五子母系分組。'},
+{'heading':'② C、D 辨世代：稱謂先固定以誰為中心','text':'陶淡是陶淵明的叔父，但阿宣是淵明的兒子，對阿宣就應稱陶淡叔祖，不是叔父。孟陋是外祖父孟嘉的弟弟，對淵明屬祖輩；陶淡屬父輩，兩人差一個世代，故 C、D 不對。','alt':'全新精確SVG以陶淵明為中心，孟陋外叔祖/陶淡叔父/本人/阿宣子輩四條世代帶；沒有把孟陋與陶淡畫成直系父子或替母系命名。'},
+{'heading':'③ B 由風格與詩句互相印證','text':'甲文說陶詩語言平靜、自然本色；乙詩直寫孩子不愛紙筆、只找梨栗吃等家常事，語句平實，情感自然。這正能印證樸實的風格，不必靠華麗辭藻，故選 B。','alt':'全新精確SVG甲語言平靜/自然本色與乙總不好紙筆/但覓梨與栗分組對照，共同指向生活化自然樸實，不為孩子追加心理疾病或歷史評價。'}],
+'fourth':{'answer':'答案 B：乙詩顯現陶詩樸實的風格','points':['阿舒＝長子陶儼；阿宣＝次子陶俟。','陶淡對阿宣是叔祖；孟陋與陶淡不同輩。','甲談自然本色，乙寫日常家事，內容與風格相合。']},
+'protectedWords':['陶淵明','淵明','陶儼','陶俟','陶淡','孟陋','孟嘉','阿舒','阿宣','叔祖','叔父','祖輩','父輩','子輩','外祖父','長子','次子','樸實','語言平靜','自然本色','紙筆','梨栗','家常事','世代','稱謂'],
+'originalChecked':{'images':['site/dist/assets/questions/q-247-reading-5301fcbecc.jpg','site/dist/assets/questions/q-248-source-d92b198983.jpg'],'visualChecked':True,'answer':'B','notes':'親見甲乙完整文/責子詩與28四項；題目原裁652×84再忠實3倍放大/tmp/q248-source-3x.png核B顯現字樣，未發現新轉錄差異。只用已收入q248，不讓已排除q249母系延伸回流。'},
+'sourceUrl':'https://share.gemini.google/9R0jjacaceFg','answerCheckedAgainst':'甲中五子依序、叔父/外叔祖關係與自然本色，乙詩家事語句互證B；按淵明或阿宣切換稱謂，非直接照搬父親的稱謂。',
+'rationale':'名次表、同一中心的世代帶和文風證據圖，兼顧A/C/D陷阱與B正解。世代帶不是直系樹，不猜哪位母親生哪名孩子、不復活已刪延伸題。',
+'sourceAIUsed':False,'generationCalls':0,'manualLineBreaks':False,'diagramChecks':{'answer':'B','matching':{'阿舒':'陶儼','阿宣':'陶俟'},'generationReference':'陶淵明','generationLevels':{'孟陋':0,'陶淡':1,'陶淵明':2,'阿宣':3},'taoDanRelativeToAXuan':'叔祖','mengLouTaoDanSameGeneration':False,'maternalGroupingInferred':False,'removedQ249Revived':False,'generationBandsAreDirectLineage':False},'artSHA256':hashlib.sha256(a.read_bytes()).hexdigest()};Path('docs/comics/q-248.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

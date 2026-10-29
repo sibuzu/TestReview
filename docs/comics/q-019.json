@@ -1,0 +1,95 @@
+{
+  "id": "q-019",
+  "subject": "Chinese",
+  "title": "看懂意思之後，還要逐字檢查正字",
+  "art": "docs/comics/art/q-019.png",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T11:20:31.301283+00:00",
+  "panels": [
+    {
+      "heading": "① A夾→浹：汗水浸透了背部",
+      "text": "正確是汗流浹背。浹有浸透的意思，汗水多到溼透背部；要有三點水，不能只因讀音相同就寫成夾。",
+      "alt": "新生成農夫插秧背後衣衫明顯汗濕情境，說明汗流浹背，非夾住背部，不示範熱病或鼓勵流汗後不得休息。"
+    },
+    {
+      "heading": "② C塗→荼：氣氛熱烈、活動興盛",
+      "text": "正確是如火如荼。荼在成語中指茅草的白花；後來用來形容事物興盛或氣氛熱烈。不是塗抹的塗，也不是教室真的失火。",
+      "alt": "新生成班級學生熱烈準備活動、掛彩旗與布置空白板，示意如火如荼的熱烈興盛，不畫真火災、塗泥或實際政治候選活動。"
+    },
+    {
+      "heading": "③ D豪→毫：毫不就是一點也不",
+      "text": "正確是毫不關心。毫可表示極微小；放在否定前，強調一點也不。豪氣的豪不能代替毫，後面的麻木不仁本身沒有錯字。",
+      "alt": "新生成課堂合作中一名學生暫未理會同學的情境，只示意不關心當下事情，不以表情診斷人格、腦病或情感疾病。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 題目問完全正確，逐一排除錯字",
+    "answer": "答案 B：一籌莫展",
+    "points": [
+      "籌指計策；一籌莫展比喻毫無辦法。",
+      "A：汗流浹背，夾要改成浹。",
+      "C：如火如荼，塗要改成荼。",
+      "D：毫不關心，豪要改成毫。"
+    ]
+  },
+  "protectedWords": [
+    "汗流浹背",
+    "三點水",
+    "浸透",
+    "背部",
+    "如火如荼",
+    "茅草",
+    "白花",
+    "氣氛熱烈",
+    "活動興盛",
+    "塗抹",
+    "毫不關心",
+    "一點也不",
+    "豪氣",
+    "麻木不仁",
+    "一籌莫展",
+    "毫無辦法",
+    "計策",
+    "錯字",
+    "夾→浹",
+    "塗→荼",
+    "豪→毫"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-019-source-a58a940857.jpg"
+  ],
+  "originalVisualCheck": "實看原卷14題四句、黑A紅B與紅字A浹/C荼/D毫訂正，正式四句逐字對照。只有B一籌莫展全句無錯字，不把本題誤作意思正確或只問成語主旨。",
+  "answerCheckedAgainst": "原卷紅B/既有B；教育部成語典汗流浹背、如火如荼、一籌莫展三條全文實開，原錯字夾塗豪與正字浹荼毫區分。",
+  "rationale": "三張新情境聚焦三個錯誤詞的正確語義，第四格統整B全句正字；不要求三張圖裝四詞，也不拿無關數學題當圖。正字/錯字用HTML，不讓imagegen生成字形，荼義與熱烈情境分開，不畫火災或僅靠諧音。",
+  "generationCalls": 1,
+  "generationPrompt": "docs/comics/q-019-prompt.txt",
+  "generatedOriginal": "/home/jack/.codex/generated_images/01a1835f-0f3b-70a3-82ec-83ae36961124/exec-e0c9a94f-899e-43b3-b711-59ee09644117.png",
+  "visualChecked": false,
+  "references": [
+    {
+      "title": "教育部成語典：汗流浹背",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=-451&la=0&webMd=2",
+      "checked": "官方全文實開，汗流很多溼透背部與辛勞情境，非只限驚恐"
+    },
+    {
+      "title": "教育部成語典：如火如荼",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=-35&la=0&webMd=1",
+      "checked": "官方全文實開，荼為茅草白花、興盛熱烈引申及現代活動例句"
+    },
+    {
+      "title": "教育部成語典：一籌莫展",
+      "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=153&la=0&webMd=2",
+      "checked": "官方全文實開，籌計策/計謀、比喻毫無辦法"
+    }
+  ],
+  "artChecks": {
+    "threeEqualSquareScenes": true,
+    "visibleSweatDampBack": true,
+    "livelySchoolEventNotRealFire": true,
+    "temporaryIndifferenceNotMedicalClaim": true,
+    "sourceAIReuse": false,
+    "charactersOrAnswersBurnedIntoImage": false,
+    "threeCorrectMeaningsOfWrongOptions": true
+  },
+  "timingEvidence": "docs/comics/q-019-timing.json"
+}

@@ -1,11 +1,11 @@
 {
   "sourceKey": "gemini063",
-  "status": "drafts_complete_with_one_answer_condition_confirmation",
+  "status": "complete_with_skips",
   "createdDate": "2026-08-12",
   "candidateCount": 9,
   "completeCandidates": 8,
   "completeRecordCountAfterGrouping": 8,
-  "awaitingCandidates": 1,
+  "awaitingCandidates": 0,
   "readyCandidates": [
     "gemini063-page01-q02",
     "gemini063-page02-q04",
@@ -16,9 +16,7 @@
     "gemini063-page06-q23",
     "gemini063-page07-q05"
   ],
-  "awaitingContentConfirmationOriginalKeys": [
-    "page08-q11"
-  ],
+  "awaitingContentConfirmationOriginalKeys": [],
   "remainingOriginalKeys": [],
   "groups": [],
   "groupingBasis": "無真共用文章/條件的多個紅訂正小題，不能僅同課主題或同頁合併。",
@@ -32,5 +30,25 @@
     }
   ],
   "acquisitionRecord": "docs/acquisition/new-gemini063.json",
-  "qidAssignment": "Agent1唯一分配"
+  "qidAssignment": "Agent1唯一分配",
+  "sourceCurationComplete": true,
+  "userSkippedOriginalKeys": [
+    "page08-q11"
+  ],
+  "userSkippedCandidates": [
+    {
+      "candidateId": "gemini063-page08-q11",
+      "originalQuestionKey": "page08-q11",
+      "state": "skipped_by_user",
+      "userRequestedSkip": true,
+      "doNotReimport": true,
+      "reason": "使用者明確要求第63來源條件不足的加熱曲線題直接略過、不收入；8題已發布，原圖及既有已確認歧義證據完整保留，不補液體種類、不再詢問或自動重加。",
+      "userInstruction": "第63來源那題條件不足的加熱曲線題直接略過、不收入",
+      "checkedAt": "2026-10-29T11:07:08.524506+00:00",
+      "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+      "originalEvidence": "docs/imports/new-gemini/gemini063/root-confirmed-ambiguity-review.json",
+      "confirmationId": "gemini063-page08-q11-liquid-type-missing"
+    }
+  ],
+  "updatedAt": "2026-10-29T11:07:08.524506+00:00"
 }

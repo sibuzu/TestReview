@@ -2,243 +2,71 @@
   "mode": "two_production_integration_root_dispatch",
   "workerLimit": 2,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T10:26:15.360832+00:00",
+  "updatedAt": "2026-10-29T11:23:20.055883+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": null,
-      "title": "等待下一批整合",
-      "state": "preparing",
-      "startedAt": "2026-10-29T10:09:14.481604+00:00",
+      "questionId": "q-020",
+      "title": "閱讀第25題｜人生階段的上下文",
+      "state": "running",
+      "startedAt": "2026-10-29T11:23:12.951252+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration"
     },
     {
       "lane": 2,
-      "questionId": "q-354",
-      "title": "國文第35題｜勸諫重在運用之術",
-      "state": "idle",
-      "startedAt": "2026-10-29T10:23:19.076837+00:00",
+      "questionId": "q-019",
+      "title": "陋室銘第14題｜成語字形",
+      "state": "running",
+      "startedAt": "2026-10-29T11:20:17.826140+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production"
     },
     {
       "lane": 3,
-      "questionId": "q-492",
-      "title": "國文第2題｜文句用詞與語氣判斷",
+      "questionId": "q-021",
+      "title": "圖表閱讀第3題｜日環食活動資訊",
       "state": "running",
-      "startedAt": "2026-10-29T10:24:26.580447+00:00",
+      "startedAt": "2026-10-29T11:23:20.046469+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production"
     }
   ],
   "ready": [
     {
-      "id": "q-837",
-      "title": "地理第34題｜鮮乳產業的市場指向",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:10:11.083508+00:00",
-      "jobId": "job-6db7995da52642bf84fae5be040b192b",
-      "readyAt": "2026-10-29T10:15:22.986399+00:00",
-      "decision": "complete",
-      "reason": "鮮乳保鮮配送對市場指向D，新圖例瓶流程與D三因素精確SVG，原圖及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-837.json",
-        "docs/comics/q-837-preview-validation.json",
-        "docs/comics/q-837-factor-validation.json"
-      ]
-    },
-    {
-      "id": "q-838",
-      "title": "地理題組｜印尼遷都的座標變化與海水倒灌",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:14:15.048118+00:00",
-      "jobId": "job-4117d7c7a343427bb35fb4d035576952",
-      "readyAt": "2026-10-29T10:18:17.815812+00:00",
-      "decision": "complete",
-      "reason": "共文地圖/41表五與42四選、紅C紅A及resolved內陸可下陷確認核對，新SVG赤道相對位置/原表同構/沿海內陸剖面，兩題皆保留；三寬QA實看完成。",
-      "evidence": [
-        "docs/comics/q-838.json",
-        "docs/comics/q-838-preview-validation.json",
-        "docs/comics/q-838-timing.json"
-      ]
-    },
-    {
-      "id": "q-839",
-      "title": "地理第45題｜新住民來源與越南位置",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:15:23.024805+00:00",
-      "jobId": "job-1c9111a8404a48bcb8c18cf61ac819b9",
-      "readyAt": "2026-10-29T10:20:05.832192+00:00",
-      "decision": "complete",
-      "reason": "東南亞範圍越南19大於印尼6且同分母，再回原圖丁D，新精確範圍與長條SVG三寬實看通過",
-      "evidence": [
-        "docs/comics/q-839.json",
-        "docs/comics/q-839-preview-validation.json",
-        "docs/comics/q-839-data-validation.json"
-      ]
-    },
-    {
-      "id": "q-840",
-      "title": "地理第4題｜新疆棉花產地與區域特徵",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:19:01.113064+00:00",
-      "jobId": "job-6ee98885268c4ce7b505138d6d15db01",
-      "readyAt": "2026-10-29T10:22:44.941570+00:00",
-      "decision": "complete",
-      "reason": "原卷4紅A/含原筆記必要地圖與四選核對，官方乾旱內陸/種棉灌溉資料核實；新SVG西北方位/供水棉株/民族行政分類，不造時事場景或新比例；三寬QA實看完成。",
-      "evidence": [
-        "docs/comics/q-840.json",
-        "docs/comics/q-840-preview-validation.json",
-        "docs/comics/q-840-timing.json"
-      ]
-    },
-    {
-      "id": "q-841",
-      "title": "地理第29題｜與那國島遠眺臺灣山脈",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:20:05.877496+00:00",
-      "jobId": "job-aa572d8277d44675bd484bc9fed9b566",
-      "readyAt": "2026-10-29T10:24:26.524693+00:00",
-      "decision": "complete",
-      "reason": "與那國向西對應蘇澳與中央北段B，新精確方向位置SVG保留原圖筆跡，不絕對判他山不可見，三寬實看通過",
-      "evidence": [
-        "docs/comics/q-841.json",
-        "docs/comics/q-841-preview-validation.json",
-        "docs/comics/q-841-direction-validation.json"
-      ]
-    },
-    {
-      "id": "q-354",
-      "title": "國文第35題｜勸諫重在運用之術",
+      "id": "q-016",
+      "title": "詞語解釋｜絮絮叨叨",
       "subject": "Chinese",
-      "lane": 2,
+      "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T10:23:19.076837+00:00",
-      "jobId": "job-bb0180f9a43a44959ca6f0c8d9065d9e",
-      "readyAt": "2026-10-29T10:26:03.759718+00:00",
+      "startedAt": "2026-10-29T11:19:18.183512+00:00",
+      "jobId": "job-1ebc05d69b104252a9e6241d8bf8d210",
+      "readyAt": "2026-10-29T11:23:19.997781+00:00",
       "decision": "complete",
-      "reason": "35題原卷全篇/四選及使用者resolved B訂正核對，沿用自己新q353論證SVG但重寫本題方式形式/方法策略專屬四格，無來源AI重用；三寬QA實看完成。",
+      "reason": "整詞解釋與瑣鎖精確字形對照，原卷圈鎖已逐字核圖",
       "evidence": [
-        "docs/comics/q-354.json",
-        "docs/comics/q-354-preview-validation.json",
-        "docs/comics/q-354-timing.json"
+        "docs/comics/q-016.json",
+        "docs/comics/q-016-preview-validation.json"
       ]
     }
   ],
-  "integrated": 721,
+  "integrated": 750,
   "blocked": [],
   "waiting": [
     {
-      "id": "q-837",
-      "title": "地理第34題｜鮮乳產業的市場指向",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:10:11.083508+00:00",
-      "jobId": "job-6db7995da52642bf84fae5be040b192b",
-      "readyAt": "2026-10-29T10:15:22.986399+00:00",
-      "decision": "complete",
-      "reason": "鮮乳保鮮配送對市場指向D，新圖例瓶流程與D三因素精確SVG，原圖及三寬實看通過",
-      "evidence": [
-        "docs/comics/q-837.json",
-        "docs/comics/q-837-preview-validation.json",
-        "docs/comics/q-837-factor-validation.json"
-      ]
-    },
-    {
-      "id": "q-838",
-      "title": "地理題組｜印尼遷都的座標變化與海水倒灌",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:14:15.048118+00:00",
-      "jobId": "job-4117d7c7a343427bb35fb4d035576952",
-      "readyAt": "2026-10-29T10:18:17.815812+00:00",
-      "decision": "complete",
-      "reason": "共文地圖/41表五與42四選、紅C紅A及resolved內陸可下陷確認核對，新SVG赤道相對位置/原表同構/沿海內陸剖面，兩題皆保留；三寬QA實看完成。",
-      "evidence": [
-        "docs/comics/q-838.json",
-        "docs/comics/q-838-preview-validation.json",
-        "docs/comics/q-838-timing.json"
-      ]
-    },
-    {
-      "id": "q-839",
-      "title": "地理第45題｜新住民來源與越南位置",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:15:23.024805+00:00",
-      "jobId": "job-1c9111a8404a48bcb8c18cf61ac819b9",
-      "readyAt": "2026-10-29T10:20:05.832192+00:00",
-      "decision": "complete",
-      "reason": "東南亞範圍越南19大於印尼6且同分母，再回原圖丁D，新精確範圍與長條SVG三寬實看通過",
-      "evidence": [
-        "docs/comics/q-839.json",
-        "docs/comics/q-839-preview-validation.json",
-        "docs/comics/q-839-data-validation.json"
-      ]
-    },
-    {
-      "id": "q-840",
-      "title": "地理第4題｜新疆棉花產地與區域特徵",
-      "subject": "Geography",
-      "lane": 2,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:19:01.113064+00:00",
-      "jobId": "job-6ee98885268c4ce7b505138d6d15db01",
-      "readyAt": "2026-10-29T10:22:44.941570+00:00",
-      "decision": "complete",
-      "reason": "原卷4紅A/含原筆記必要地圖與四選核對，官方乾旱內陸/種棉灌溉資料核實；新SVG西北方位/供水棉株/民族行政分類，不造時事場景或新比例；三寬QA實看完成。",
-      "evidence": [
-        "docs/comics/q-840.json",
-        "docs/comics/q-840-preview-validation.json",
-        "docs/comics/q-840-timing.json"
-      ]
-    },
-    {
-      "id": "q-841",
-      "title": "地理第29題｜與那國島遠眺臺灣山脈",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-10-29T10:20:05.877496+00:00",
-      "jobId": "job-aa572d8277d44675bd484bc9fed9b566",
-      "readyAt": "2026-10-29T10:24:26.524693+00:00",
-      "decision": "complete",
-      "reason": "與那國向西對應蘇澳與中央北段B，新精確方向位置SVG保留原圖筆跡，不絕對判他山不可見，三寬實看通過",
-      "evidence": [
-        "docs/comics/q-841.json",
-        "docs/comics/q-841-preview-validation.json",
-        "docs/comics/q-841-direction-validation.json"
-      ]
-    },
-    {
-      "id": "q-354",
-      "title": "國文第35題｜勸諫重在運用之術",
+      "id": "q-016",
+      "title": "詞語解釋｜絮絮叨叨",
       "subject": "Chinese",
-      "lane": 2,
+      "lane": 3,
       "state": "ready",
-      "startedAt": "2026-10-29T10:23:19.076837+00:00",
-      "jobId": "job-bb0180f9a43a44959ca6f0c8d9065d9e",
-      "readyAt": "2026-10-29T10:26:03.759718+00:00",
+      "startedAt": "2026-10-29T11:19:18.183512+00:00",
+      "jobId": "job-1ebc05d69b104252a9e6241d8bf8d210",
+      "readyAt": "2026-10-29T11:23:19.997781+00:00",
       "decision": "complete",
-      "reason": "35題原卷全篇/四選及使用者resolved B訂正核對，沿用自己新q353論證SVG但重寫本題方式形式/方法策略專屬四格，無來源AI重用；三寬QA實看完成。",
+      "reason": "整詞解釋與瑣鎖精確字形對照，原卷圈鎖已逐字核圖",
       "evidence": [
-        "docs/comics/q-354.json",
-        "docs/comics/q-354-preview-validation.json",
-        "docs/comics/q-354-timing.json"
+        "docs/comics/q-016.json",
+        "docs/comics/q-016-preview-validation.json"
       ]
     }
   ],

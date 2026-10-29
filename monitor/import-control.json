@@ -1,14 +1,12 @@
 {
-  "state": "paused",
+  "state": "complete",
   "lastAllowedSourceOrder": 63,
-  "allowedSourceOrders": [
-    63
-  ],
+  "allowedSourceOrders": [],
   "allowNewSources": false,
   "haltAfterCurrentSource": true,
-  "updatedAt": "2026-10-29T08:44:54.666367+00:00",
-  "instruction": "使用者要求 more_gemini #64 起不加入，也從 more_gemini.md 去除；Agent2只完成#63後停止。",
+  "updatedAt": "2026-10-29T11:07:08.524506+00:00",
+  "instruction": "使用者確認本批來源已全部處理，無待新增來源；第63來源加熱曲線條件不足題直接略過、不收入。以後另通知新增來源；第64起取消維持。",
   "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
-  "closeoutEvidence": "docs/imports/new-gemini/gemini063/closeout-validation.json",
-  "detail": "第63來源8題已發布，1加熱曲線題完整證據待使用者核對；Agent2完成交接後暫停，不續64起來源。現有插畫與整合繼續。"
+  "closeoutEvidence": "docs/imports/new-gemini/gemini063/page08-q11-user-skip-addendum.json",
+  "detail": "本批來源已全部處理，無待新增來源。第63來源8題已發布、1題按使用者要求永久略過；原卷與已確認歧義證據保留。Agent2與Agent3繼續插畫，Agent1繼續整合。"
 }

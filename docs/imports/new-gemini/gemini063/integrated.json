@@ -267,15 +267,8 @@
       ]
     }
   ],
-  "deferredCandidates": [
-    {
-      "candidateId": "gemini063-page08-q11",
-      "state": "confirmed_ambiguous_not_published",
-      "confirmationId": "gemini063-page08-q11-liquid-type-missing",
-      "reason": "使用者確認當時保留歧義的處理，不等於補齊物質條件或確認唯一C；不新增題號。"
-    }
-  ],
-  "status": "questions_published_technical_qa_passed",
+  "deferredCandidates": [],
+  "status": "complete_with_skips",
   "updatedAt": "2026-10-29T08:31:59.928711+00:00",
   "questionQaPending": false,
   "questionPageTechnicalQaCompletedAt": "2026-10-29T08:51:20.245850+00:00",
@@ -298,5 +291,22 @@
     "q-847",
     "q-848",
     "q-849"
-  ]
+  ],
+  "sourceCurationComplete": true,
+  "skippedCandidates": [
+    {
+      "candidateId": "gemini063-page08-q11",
+      "originalQuestionKey": "page08-q11",
+      "state": "skipped_by_user",
+      "userRequestedSkip": true,
+      "doNotReimport": true,
+      "reason": "使用者明確要求第63來源條件不足的加熱曲線題直接略過、不收入；8題已發布，原圖及既有已確認歧義證據完整保留，不補液體種類、不再詢問或自動重加。",
+      "userInstruction": "第63來源那題條件不足的加熱曲線題直接略過、不收入",
+      "checkedAt": "2026-10-29T11:07:08.524506+00:00",
+      "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+      "originalEvidence": "docs/imports/new-gemini/gemini063/root-confirmed-ambiguity-review.json",
+      "confirmationId": "gemini063-page08-q11-liquid-type-missing"
+    }
+  ],
+  "sourceClosedAt": "2026-10-29T11:07:08.524506+00:00"
 }

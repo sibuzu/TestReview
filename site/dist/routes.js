@@ -6,6 +6,6 @@ export function parseRoute(hash){
  let path;try{path=decodeURIComponent(String(hash||'').replace(/^#/,''));}catch{return {kind:'questions'};}
  if(path.startsWith('question/'))return {kind:'question',id:canonicalQuestionId(path.slice(9))};
  if(path.startsWith('subject/'))return {kind:'questions',subject:path.slice(8)};
- if(['sources','starred','issues','doubts'].includes(path))return {kind:path};
+ if(['sources','starred','issues','doubts','progress'].includes(path))return {kind:path};
  return {kind:'questions'};
 }

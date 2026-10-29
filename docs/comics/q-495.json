@@ -1,0 +1,114 @@
+{
+  "id": "q-495",
+  "subject": "Chinese",
+  "title": "找準動作，補回看見的是鄭蘇仙",
+  "art": "docs/comics/art/q-495-subject-structure.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T10:32:59.266748+00:00",
+  "panels": [
+    {
+      "heading": "① 夢至、見，承接同一個主語",
+      "text": "開頭先寫「北村鄭蘇仙」，後面的夢至冥府、見閻羅王方錄囚，連續敘述他的夢中所見。省略的主語仍是鄭蘇仙。",
+      "alt": "新製開頭主語與連續兩動作的結構圖：鄭蘇仙→夢至冥府→見，兩個動作承接同一敘事主體；不把夢境畫成歷史事件。"
+    },
+    {
+      "heading": "② 看見的是鄭蘇仙，錄囚另有主語",
+      "text": "補完整就是「鄭蘇仙看見閻羅王正在錄囚」。題目A問的是見的主語，不是錄囚的主語；不能因閻羅王靠得近，就把他當答案。",
+      "alt": "新製兩層主語圖：鄭蘇仙看見的內容為閻羅王方錄囚，下框另有錄囚主語；明標兩個動作主語不同，不使用就近人名誤配。"
+    },
+    {
+      "heading": "③ 假設、比較、責問，各查指涉",
+      "text": "B是在堂上放木偶的假設，不是鄭蘇仙真去放；C拿木偶和官員比較；D則責問那位官員是否辜負百姓，主語都不能一律補成鄭蘇仙。",
+      "alt": "新製B泛指假設/C木偶/D那位官員的語境分類對照，只列各句指涉，不把假設木偶實際立在夢境公堂或增寫劇情。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 先圈出動作，再問誰在做",
+    "answer": "答案 A：見閻羅王方錄囚",
+    "points": [
+      "夢至冥府、看見：鄭蘇仙。",
+      "正在錄囚：閻羅王。",
+      "B是假設放木偶；C比較的是木偶。",
+      "非負民乎責備的是官員，不是旁觀者。"
+    ]
+  },
+  "protectedWords": [
+    "北村鄭蘇仙",
+    "鄭蘇仙",
+    "閻羅王",
+    "夢至冥府",
+    "冥府",
+    "主語",
+    "錄囚",
+    "看見",
+    "木偶",
+    "官員",
+    "指涉",
+    "假設",
+    "比較",
+    "責問",
+    "百姓",
+    "辜負",
+    "非負民乎",
+    "旁觀者"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-495-reading-source-623fb37cd3.jpg",
+    "site/dist/assets/questions/q-495-source-bc059a8e1f.jpg"
+  ],
+  "originalVisualCheck": "實看原卷完整閱微草堂段與39題全四選/手寫A，見與錄囚的不同動作主語核對。B植木偶為閻羅王假設，C木偶比較、D官員被責問，沒有將夢中法庭或假設當現實事件。",
+  "answerCheckedAgainst": "原卷A/正式已核對A與全文敘事連接，不從最近人名選閻羅王。全文批評官員自保的主旨與此題省略主語須分開。",
+  "rationale": "這題需要分清連續主語、嵌入的所見內容、假設與說話指涉，精確原生SVG句法結構比單純畫幽冥人物更能避免主語混淆；所有完整教學句保留HTML，不增鬼神外貌或實際木偶劇情。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "diagramChecks": {
+    "correctOption": "A",
+    "subjectOfSeeing": "鄭蘇仙",
+    "subjectOfRecordingPrisoners": "閻羅王",
+    "B": "泛指假設，不是鄭蘇仙實際立偶",
+    "C": "木偶",
+    "D": "那位官員",
+    "nearestNameHeuristic": false,
+    "dreamOrHypotheticalTreatedAsReal": false,
+    "sourceAIReuse": false
+  },
+  "timingEvidence": "docs/comics/q-495-timing.json",
+  "completedAt": "2026-10-29T10:36:39.012141+00:00",
+  "checkedAt": "2026-10-29T10:53:55.309197+00:00",
+  "layoutEvidence": "docs/comics/q-495-preview-validation.json",
+  "visualReview": "實看原卷全閱微草堂段/39題四選A，1440/1120/390最終版連續動作/內嵌所見/三其他指涉清楚。第四格已精確區分B假設放木偶的對象與C比較主體，沒有把木偶誤當植的主語。預設收合/圖載入/詞不拆無溢出、桌同列等高手機自然高PASS。",
+  "artSHA256": "84a2f4d1ad5de81ad5179bd86b36f7c224542c078fc6fad4f28ce3222ea11626",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-495-1440.png",
+    "/tmp/weirugo-comic-previews/q-495-1120.png",
+    "/tmp/weirugo-comic-previews/q-495-390.png"
+  ],
+  "nativeArt": "assets/comics/q-495-art-84a2f4d1ad.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:53:55.305038+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷閱微草堂整段及39四句、原手寫A親見；見的主語鄭蘇仙、內嵌錄囚主語閻羅王分層正確，B泛指假設而非木偶當植的主語、C木偶比較、D官員被責問。新精確連續主語/內嵌所見/語境分類SVG與正式桌手機完整成品親見。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-495-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-495-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-495-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-495-validation.json"
+}

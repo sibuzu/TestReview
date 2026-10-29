@@ -78,7 +78,7 @@
   },
   "timingEvidence": "docs/comics/q-354-timing.json",
   "completedAt": "2026-10-29T10:26:03.724559+00:00",
-  "checkedAt": "2026-10-29T10:26:03.724559+00:00",
+  "checkedAt": "2026-10-29T10:41:38.110575+00:00",
   "layoutEvidence": "docs/comics/q-354-preview-validation.json",
   "visualReview": "重新實看q354全篇原卷/35題黑C紅D與resolved B卡；新本題文案沿用自己q353論證SVG，在1440/1120/390獨立QA且實看，正確以B為主旨答案，不帶34題選有誤D。方式/方法清楚限本題區分；預設收合、圖載入、詞不拆無溢出、桌同列等高手機自然高PASS。",
   "artSHA256": "2cb1bd9e6ae463695e268b47cc5e1b2a437eeb5caa314806527026e6c504199f",
@@ -86,5 +86,33 @@
     "/tmp/weirugo-comic-previews/q-354-1440.png",
     "/tmp/weirugo-comic-previews/q-354-1120.png",
     "/tmp/weirugo-comic-previews/q-354-390.png"
-  ]
+  ],
+  "nativeArt": "assets/comics/q-354-art-2cb1bd9e6a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:41:38.107232+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原35全題黑C紅D與共文整段親見，沿使用者已確認B方法重於方式，不重開紅筆判答。與q353共用本專案新製論證SVG（不是來源AI圖），伍舉/茅焦結果配對正確；本題專屬文案與第四格明確B主旨、方式形式/方法策略限題內分工，未帶入34題有誤D。桌手機完整四格親見。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-354-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-354-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-354-app-390.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-354-validation.json"
 }

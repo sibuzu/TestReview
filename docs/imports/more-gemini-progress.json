@@ -6139,8 +6139,8 @@
         "https://gemini.google.com/share/5dd9b1d670b1"
       ],
       "title": "理化超會考講義第六單元",
-      "state": "partial",
-      "sourceCurationComplete": false,
+      "state": "complete_with_skips",
+      "sourceCurationComplete": true,
       "questionIds": [
         "q-842",
         "q-843",
@@ -6219,7 +6219,7 @@
         }
       ],
       "errors": [],
-      "reason": "8題已正式發布。第11題缺液體種類而可有A/C不同結果的歧義處理，已由使用者確認；證據保留、未收入完整題庫，不待回覆、不猜唯一C。",
+      "reason": "使用者明確要求第63來源條件不足的加熱曲線題直接略過、不收入；8題已發布，原圖及既有已確認歧義證據完整保留，不補液體種類、不再詢問或自動重加。",
       "assignmentPlan": "docs/imports/new-source-plan-2026-10-29.json",
       "draftDirectory": "docs/imports/new-gemini/gemini063",
       "acquisitionRecord": "docs/acquisition/new-gemini063.json",
@@ -6232,12 +6232,28 @@
       "duplicateQuestionIds": [],
       "duplicateOriginalKeys": [],
       "awaitingCandidateIds": [],
-      "skippedCandidates": [],
+      "skippedCandidates": [
+        {
+          "candidateId": "gemini063-page08-q11",
+          "originalQuestionKey": "page08-q11",
+          "state": "skipped_by_user",
+          "userRequestedSkip": true,
+          "doNotReimport": true,
+          "reason": "使用者明確要求第63來源條件不足的加熱曲線題直接略過、不收入；8題已發布，原圖及既有已確認歧義證據完整保留，不補液體種類、不再詢問或自動重加。",
+          "userInstruction": "第63來源那題條件不足的加熱曲線題直接略過、不收入",
+          "checkedAt": "2026-10-29T11:07:08.524506+00:00",
+          "sourceUrl": "https://share.gemini.google/SBtc8Pxn9RX4",
+          "originalEvidence": "docs/imports/new-gemini/gemini063/root-confirmed-ambiguity-review.json",
+          "confirmationId": "gemini063-page08-q11-liquid-type-missing"
+        }
+      ],
       "pendingConfirmationIds": [],
       "integrationReceipt": "docs/imports/new-gemini/gemini063/integrated.json",
       "confirmedAmbiguousCandidateIds": [
         "gemini063-page08-q11-liquid-type-missing"
-      ]
+      ],
+      "sourceClosedAt": "2026-10-29T11:07:08.524506+00:00",
+      "closeoutEvidence": "docs/imports/new-gemini/gemini063/page08-q11-user-skip-addendum.json"
     }
   ],
   "updatedAt": "2026-10-29T08:42:36.685479+00:00"

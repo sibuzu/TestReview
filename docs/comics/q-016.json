@@ -1,0 +1,92 @@
+{
+  "id": "q-016",
+  "subject": "Chinese",
+  "title": "先解釋整個詞語，再分清瑣與鎖",
+  "art": "docs/comics/art/q-016.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-016-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 絮絮叨叨，是形容怎樣說話",
+      "text": "它形容言語瑣碎、說話囉唆而反覆不停，不只是說字很多或寫得很長。解釋時要抓住說話細碎、反覆不休這兩層意思，回答整個詞語的意思。",
+      "alt": "全新精確SVG詞語與言語細碎/反覆不停兩文字話框，無人物性別年齡刻板描繪，不把詞義限縮為寫作字多。"
+    },
+    {
+      "heading": "② 言語瑣碎的瑣，不寫成金字旁的鎖",
+      "text": "原卷寫言語鎖碎，鎖字被圈出。這裡要用瑣，取細小、零碎的意思；金字旁的鎖，會讓人想到鎖具，不合此處詞義。寫完解釋，還要回頭檢查形近字。",
+      "alt": "全新精確SVG瑣/鎖兩個完整標準中文字、王字旁/金字旁與此處義項對照，不拆造錯誤中文字筆畫或宣稱排除古代其他義項。"
+    },
+    {
+      "heading": "③ 回到原題：完整解釋，不只改一個字",
+      "text": "題目要解釋絮絮叨叨，不是只問瑣字。可答言語瑣碎，說話囉唆而反覆不停；把整詞意思說清楚，再把瑣的字形寫對，兩件事一起完成。",
+      "alt": "全新精確SVG將言語瑣碎加上囉唆反覆不停兩語義段，指出整詞作答，不是僅回單字瑣。"
+    }
+  ],
+  "fourth": {
+    "answer": "參考答案：言語瑣碎，說話囉唆而反覆不停",
+    "points": [
+      "問的是整詞意思，先抓言語細碎、反覆不休。",
+      "此處用瑣碎的瑣，不是鎖具的鎖。",
+      "解釋完整與字形正確，都要檢查。"
+    ]
+  },
+  "protectedWords": [
+    "絮絮叨叨",
+    "言語瑣碎",
+    "言語鎖碎",
+    "囉唆",
+    "瑣碎",
+    "反覆不停",
+    "反覆不休",
+    "細小",
+    "零碎",
+    "金字旁",
+    "王字旁",
+    "鎖具",
+    "整個詞語",
+    "形近字",
+    "字形"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-016-source-1-0016a27508.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "言語瑣碎，說話囉唆而反覆不停",
+    "notes": "親見目前本題專屬原裁：第1絮絮叨叨/學生言語鎖碎鎖被圈，並非早期錯配斯字原圖；沿用正確已修圖，不改題目或學生作答。"
+  },
+  "sourceUrl": "https://share.gemini.google/P5nF20mjzum8",
+  "answerCheckedAgainst": "原題詞語解釋與鎖圈訂正；MOE絮絮叨叨言語瑣碎囉嗦/簡編瑣細小零碎主文核，不只解單字。",
+  "references": [
+    {
+      "title": "教育部重編辭典：絮絮叨叨",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=111608&la=1&powerMode=0",
+      "supports": "形容言語瑣碎囉嗦，整詞非單字",
+      "access": "官方主文已讀"
+    },
+    {
+      "title": "教育部簡編辭典：瑣",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39149&la=0&powerMode=0",
+      "supports": "此處用細小零碎義，並核玉部字形",
+      "access": "官方主文已讀，不作所有古義互斥的斷言"
+    }
+  ],
+  "rationale": "完整詞義、精確中文字形、回題作答三步，以標準字型SVG避免AI造字。王字旁按常見字形稱呼，玉部無另起注音題；不把說話囉唆畫成特定性別年齡的刻板。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answerIsFullWordMeaning": true,
+    "correctContextCharacter": "瑣",
+    "studentWrongContextCharacter": "鎖",
+    "sourceImageIsOwnQuestion": true,
+    "oldMispairedImageReused": false,
+    "allAncientMeaningsMutuallyExclusiveClaim": false
+  },
+  "artSHA256": "39ca8ecd1d4ca46978c534793fc988be844460e2973b548f10ad58302e832ddc",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T11:23:19.958193+00:00",
+  "previewValidation": "docs/comics/q-016-preview-validation.json",
+  "visualReview": "親見本題1絮絮叨叨原裁並忠實5倍放大核言語鎖碎圈鎖，已非舊錯配斯字原圖；新SVG900原尺寸和1440/390最終實看，瑣/鎖標準字形及整詞答案正確。MOE兩詞主文核，三寬PASS。"
+}

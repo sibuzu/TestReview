@@ -1,0 +1,125 @@
+{
+  "id": "q-247",
+  "subject": "Chinese",
+  "title": "先排世代，再分叔父與同父異母",
+  "art": "docs/comics/art/q-247-family-structure.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T11:13:10.481057+00:00",
+  "panels": [
+    {
+      "heading": "① 陶侃到陶潛，世代不能少一層",
+      "text": "依甲文，陶潛就是陶淵明：父親陶逸、祖父陶茂、曾祖陶侃。A卻把陶侃直接接成陶逸的父親，少了陶茂這一代。",
+      "alt": "新製依甲文整理陶侃曾祖→陶茂祖父→陶逸父→陶潛本人的四代結構，不擴張成外部史學定論或補無證支系。"
+    },
+    {
+      "heading": "② 叔父是父親的弟弟，B長幼寫反",
+      "text": "甲文稱陶淡為陶淵明叔父，表示陶淡是陶逸的弟弟。應是陶逸兄、陶淡弟，B圖恰好反過來；錯在長幼，不是說兩人不同父。",
+      "alt": "新製陶茂下接陶逸兄與陶淡弟，陶逸→陶潛親子實線，陶淡到陶潛叔父虛線，明標原B長幼顛倒，不誤說兩人不是陶茂之子。"
+    },
+    {
+      "heading": "③ 父陶逸、母孟氏、子陶潛，C符合",
+      "text": "陶淵明是陶逸獨生子，外祖父為孟嘉；外祖父就是母親的父親。C將陶逸與孟氏接到陶潛，符合甲文的親屬關係。",
+      "alt": "新製孟嘉外祖父→孟氏，陶逸與孟氏夫妻共同下接陶潛，父母子清楚，陶潛＝陶淵明；不將孟嘉誤接父系。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 人物線條要同時符合世代、長幼、父母",
+    "answer": "答案 C：陶逸與孟氏之子為陶潛",
+    "points": [
+      "A漏掉陶茂，父子世代不符。",
+      "B兄弟反了：陶逸兄，陶淡弟。",
+      "C符合父陶逸、母孟氏、子陶潛。",
+      "D五子同父異母，不能全接同一母親。"
+    ]
+  },
+  "protectedWords": [
+    "陶淵明",
+    "陶潛",
+    "陶侃",
+    "陶茂",
+    "陶逸",
+    "陶淡",
+    "孟嘉",
+    "孟氏",
+    "叔父",
+    "父親",
+    "祖父",
+    "外祖父",
+    "曾祖",
+    "獨生子",
+    "同父異母",
+    "長幼",
+    "弟弟",
+    "母親",
+    "父母",
+    "親屬關係"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-247-reading-5301fcbecc.jpg",
+    "site/dist/assets/questions/q-247-source-d1e11df5ab.jpg",
+    "site/dist/assets/questions/q-247-options.svg"
+  ],
+  "originalVisualCheck": "實看甲陶淵明家世/詩評與乙責子詩全材料、27原卷A-D人物線圖及重排SVG，原A劃去紅C。B原圖實為陶淡兄/陶逸弟；D共一某氏母線接五子。甲明說叔父陶淡、外祖孟嘉、五子同父異母。",
+  "answerCheckedAgainst": "正式使用者已確認C及verificationNote，保留B錯因為兄弟長幼，不重開已確認項。A世代少陶茂，C父母子吻合，D不可單一母親共線；不猜五子分屬母系。",
+  "rationale": "親屬線、世代與長幼比人物場景更能直接解此閱讀圖表題，使用新精確SVG三個拆解。保留甲文語境陶侃被認為曾祖，不另作歷史論證；未知各母親不虛構分配，D在第四格說明而不畫假母系。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "diagramChecks": {
+    "correctOption": "C",
+    "userConfirmedAnswerRetained": true,
+    "paternalGenerations": [
+      "陶侃",
+      "陶茂",
+      "陶逸",
+      "陶潛"
+    ],
+    "elderBrother": "陶逸",
+    "youngerBrotherAndUncle": "陶淡",
+    "mother": "孟氏",
+    "maternalGrandfather": "孟嘉",
+    "allFiveSonsSameMother": false,
+    "inventedMaternalGrouping": false,
+    "sourceAIReuse": false
+  },
+  "timingEvidence": "docs/comics/q-247-timing.json",
+  "completedAt": "2026-10-29T11:15:40.738677+00:00",
+  "checkedAt": "2026-10-29T11:20:47.085978+00:00",
+  "layoutEvidence": "docs/comics/q-247-preview-validation.json",
+  "visualReview": "實看甲乙全材料與四人物原圖、180三圖與1440/1120/390最終版：陶侃陶茂陶逸陶潛四代、叔父虛線與兄弟長幼、孟嘉母系及陶逸孟氏夫妻到陶潛均清楚無交錯錯接。手機單欄自然高度，桌機同列等高，文字保護/圖片解碼/預設收合與無溢出QA通過；D不擅畫母系分組。",
+  "artSHA256": "f1215df670c750cc7ce0bd95cf82a1dc27e2d56ea6b173f47595fe0c9403aed3",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-247-1440.png",
+    "/tmp/weirugo-comic-previews/q-247-1120.png",
+    "/tmp/weirugo-comic-previews/q-247-390.png"
+  ],
+  "nativeArt": "assets/comics/q-247-art-f1215df670.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:20:47.080911+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原甲乙全文與27四項人物線親見，C沿使用者確認。新四代父系/叔父虛線/母系孟嘉→孟氏夫婦→陶潛逐線親見，B錯兄弟長幼非不同父；D五子同父異母只排除同一母共線，不造五子母系分組。正式1440/390圖文實看、六檢PASS，原必要選項圖保留。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-247-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-247-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-247-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-247-validation.json"
+}

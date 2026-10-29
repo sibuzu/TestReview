@@ -11,6 +11,8 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
  const browser=await chromium.launch();
  try {
   const page=await browser.newPage(),errors=[],results=[];
+  await page.route('**/.netlify/functions/**',r=>r.abort());
+  await require('./test-session.cjs').installTestSession(page);
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/.netlify/functions/marks**',r=>r.abort());
   for(const id of ids)for(const standalone of [false,true]){
@@ -64,7 +66,15 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
     const spec=JSON.parse(fs.readFileSync(path.join(root,'docs/comics',id+'.json')));
     assert.deepEqual(result.text.map(t=>t.replace(/\s/gu,'')),spec.panels.map(p=>p.text.replace(/\s/gu,'')),id+' must retain all copy');
     const shot=path.join(shotDir,`${id}-${standalone?'standalone':'app'}-${width}.png`);
-    await comic.screenshot({path:shot});results.push({id,standalone,viewport:width,...result,screenshot:shot});
+    // Chromium temporarily expands the viewport for an element taller than the
+    // screen. Fixed page controls can then be painted over that element's clip.
+    // Keep the tested width and fit the whole comic before taking its evidence.
+    const screenshotHeight=Math.max(1000,Math.ceil(result.height)+320);
+    await page.setViewportSize({width,height:screenshotHeight});
+    await comic.scrollIntoViewIfNeeded();
+    await comic.screenshot({path:shot});
+    results.push({id,standalone,viewport:width,...result,screenshot:shot,screenshotViewportHeight:screenshotHeight});
+    await page.setViewportSize({width,height:1000});
    }
   }
   assert.deepEqual(errors,[]);

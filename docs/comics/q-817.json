@@ -1,0 +1,121 @@
+{
+  "id": "q-817",
+  "subject": "Chinese",
+  "title": "兩本古籍解說錦瑟特性，統計與引例要標清範圍",
+  "art": "docs/comics/art/q-817.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-817-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 引《周禮樂器圖》，說外觀與構造",
+      "text": "本文先說美麗高貴，再引雅瑟、頌瑟與繪文如錦的說明。引文的作用，是解說錦瑟的外觀與構造，並非摘錄李商隱本人談創作背景的獨白。",
+      "alt": "全新精確SVG古籍書名、繪文如錦與外觀構造華美高貴的文字關係，未重畫瑟或臆造琴絃數與形制。"
+    },
+    {
+      "heading": "② 引《史記封禪書》，說悲哀意象",
+      "text": "本文又援引鼓瑟而悲的傳說，說明瑟的悲哀象徵；這和前面的華美特性，合成文章所說美麗與哀愁的共同結晶。前後兩處引古籍，都為了說明錦瑟的特性，正扣住 A。",
+      "alt": "全新精確SVG史記封禪書/瑟聲悲意/援引傳說/悲哀象徵關係，沒有神祇砸琴或弦數從五十到二十五的AI重製。"
+    },
+    {
+      "heading": "③ 有統計與引例，選項範圍仍須精準",
+      "text": "依本文統計，《全唐詩》出現十一次，李商隱用了四次，並列舉他的詩句。C 應明確限定《全唐詩》，D 應限定李商隱在《全唐詩》中的引例；不以未列完詩句判錯。",
+      "alt": "全新精確SVG依本文十一圓點、四點著色表示李商隱用例；標本文全唐詩口徑，不宣稱重查整部古典詩歌或讓圓點面積代表文本量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：引用古籍說明錦瑟的特性",
+    "points": [
+      "兩處引古籍，分別解說華美與悲哀特性。",
+      "C 統計限《全唐詩》；D 引例限李商隱在其中的詩句。",
+      "引詩句，不等於引用詩人說明創作背景的獨白。"
+    ]
+  },
+  "protectedWords": [
+    "錦瑟",
+    "李商隱",
+    "全唐詩",
+    "周禮樂器圖",
+    "史記封禪書",
+    "繪文如錦",
+    "外觀",
+    "構造",
+    "悲哀意象",
+    "悲哀象徵",
+    "美麗高貴",
+    "華美",
+    "傳說",
+    "古籍",
+    "統計",
+    "引例",
+    "創作背景",
+    "獨白",
+    "十一次",
+    "四次",
+    "共同結晶",
+    "雅瑟",
+    "頌瑟"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-817-source-1.jpg",
+      "site/dist/assets/questions/q-817-source-2.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見共同長文、三引詩/兩古籍及29四項紅改A。沿用resolved correction-q-817-13b1f1004b24：C限定全唐詩統計、D限定李商隱用例；不重開、原四項不改、不擅加所有後判錯。"
+  },
+  "sourceUrl": "https://gemini.google.com/share/ec6c955b81b3",
+  "answerCheckedAgainst": "原卷引用兩古籍各解華美與悲哀；使用者已確認A，C/D精確範圍沿既有結案，B詩句非詩人創作獨白。",
+  "rationale": "古籍→解說功能與明確統計口徑三圖，不重造器物絃數、不把神話當史實。四/十一僅視覺化本文口徑，未聲稱重新校勘全唐詩；已確認A不重開。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "A",
+    "statisticalCorpus": "依本文《全唐詩》",
+    "occurrences": 11,
+    "liShangyinOccurrences": 4,
+    "examplesScope": "李商隱在全唐詩中的用例",
+    "completenessArgumentUsedToRejectD": false,
+    "allAddedToOriginalOptions": false,
+    "mythTurnedIntoHistory": false,
+    "instrumentAnatomyReconstructed": false
+  },
+  "artSHA256": "251dd7b7f755859a095cd0eccae30a55cabb8895f4c31a6c03e39dce5a1c3a59",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T11:13:30.120159+00:00",
+  "previewValidation": "docs/comics/q-817-preview-validation.json",
+  "statisticsValidation": "docs/comics/q-817-statistics-validation.json",
+  "visualReview": "親見共同全段/三引詩/兩古籍與29四項及紅改A、resolved 817範圍結論；新SVG900原尺寸與最終1440/390實看。11點4色計數/4比11大於三分之一獨立核對，僅依本文統計；不把神話當史實、不以未列完詩句排D。三寬PASS。",
+  "nativeArt": "assets/comics/q-817-art-251dd7b7f7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:13:30.116340+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原29兩張長文三詩例/兩古籍與四項/紅A親見，兩引古籍分外觀華美及悲哀意象，A沿用使用者確認；C統計限定全唐詩，D限定李商隱用例，不擅加所有、不以未列完排D。新SVG實見11點4色、書名與功能、非器物重造或神話當史事；正式1440/390實看完整並通過六項。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-817-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-817-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-817-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-817-validation.json"
+}

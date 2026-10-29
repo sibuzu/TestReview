@@ -1,0 +1,127 @@
+{
+  "id": "q-818",
+  "subject": "Chinese",
+  "title": "畫出世代、出生順序與說話者",
+  "art": "docs/comics/art/q-818-family-structure.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-29T11:09:26.797963+00:00",
+  "panels": [
+    {
+      "heading": "① 從賈代善往下，找寶玉祖母",
+      "text": "賈代善娶史侯家的小姐，生賈政；賈政之子是寶玉。史老太君就是寶玉祖母，B正確。榮公還在賈代善上一代，是寶玉曾祖父。",
+      "alt": "新製原生世系圖：榮國公→賈代善，賈代善與史老太君夫妻共同生賈政，賈政→寶玉。祖父、祖母、父親、曾祖父均按關係標示；不增未提人物。"
+    },
+    {
+      "heading": "② 胎次算女兒，兒子排行另計",
+      "text": "王氏頭胎生賈珠，第二胎是女兒，後來才生寶玉。女兒也算胎次；寶玉是次子，不能直接說成第三個兒子，所以C不選。",
+      "alt": "新製王氏兒女順序對照：頭胎賈珠為長子、第二胎女兒、後來寶玉為次子，區分胎次與兒子排行；不拿賈政其他妻妾支系混入。"
+    },
+    {
+      "heading": "③ 銜玉異事，子興說給雨村聽",
+      "text": "敘述寶玉銜玉出生的是子興，雨村聽後才回答果然奇異。D雖提對故事主角，卻把敘述異事的人說錯，不能只看寶玉就選。",
+      "alt": "新製話語結構：子興敘述寶玉銜玉出生→雨村聽後說果然奇異，區分故事主角、敘述者與聽者；沒有補造人物外貌或戲劇場面。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 每個選項，都對照一條明確關係",
+    "answer": "答案 B：史老太君是賈寶玉祖母",
+    "points": [
+      "A：榮公是曾祖父，祖父是賈代善。",
+      "B：史老太君→賈政→賈寶玉。",
+      "C：寶玉為王氏次子，胎次不等於子序。",
+      "D：異事由子興敘述，雨村聽後回應。"
+    ]
+  },
+  "protectedWords": [
+    "賈代善",
+    "史侯",
+    "賈政",
+    "寶玉",
+    "賈寶玉",
+    "史老太君",
+    "祖母",
+    "榮公",
+    "榮國公",
+    "曾祖父",
+    "祖父",
+    "父親",
+    "王氏",
+    "賈珠",
+    "女兒",
+    "胎次",
+    "次子",
+    "第三個兒子",
+    "子興",
+    "雨村",
+    "銜玉",
+    "果然奇異",
+    "敘述者",
+    "聽者",
+    "子序"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-818-source-1.jpg",
+    "site/dist/assets/questions/q-818-source-2.jpg"
+  ],
+  "originalVisualCheck": "實看原卷甲文全段與32四選，黑D紅B、A祖父紅訂曾祖父、D雨村紅改子興。原文賈代善娶史侯小姐→賈赦/賈政，王氏頭胎賈珠第二胎女兒後生寶玉、子興敘述雨村回答均逐條核對。",
+  "answerCheckedAgainst": "原卷紅B及正式B；不把榮公隔代算錯、不把女兒從胎次刪除，也不把故事主角和敘述者混為一談。原卷用史老太君，保留不用來源AI異名。",
+  "rationale": "本題真正難點是四代親屬、胎次和子序、兩人對話角色，精確原生結構圖比泛畫紅樓人物更直接；三圖保持同一閱讀段落，不另引小說不同版本的年齡或支系。",
+  "generationCalls": 0,
+  "visualChecked": true,
+  "diagramChecks": {
+    "greatGrandfather": "榮國公",
+    "grandfather": "賈代善",
+    "grandmother": "史老太君",
+    "father": "賈政",
+    "birthSequence": [
+      "賈珠",
+      "女兒",
+      "寶玉"
+    ],
+    "baoyuSonOrderWithinWangChildren": "次子",
+    "anecdoteNarrator": "子興",
+    "listenerResponding": "雨村",
+    "sourceAIReuse": false
+  },
+  "timingEvidence": "docs/comics/q-818-timing.json",
+  "completedAt": "2026-10-29T11:12:43.157635+00:00",
+  "checkedAt": "2026-10-29T11:16:39.636545+00:00",
+  "layoutEvidence": "docs/comics/q-818-preview-validation.json",
+  "visualReview": "原卷長文與32四選紅B實看；原生四代世系祖父/祖母/曾祖父、王氏兒女胎次與次子、子興敘述/雨村聽後回應皆逐一實看。1440/1120雙欄同行等高、390單欄自然高度與三圖標籤清楚，不溢出不截字、名詞保護與預設收合/圖片載入PASS。",
+  "artSHA256": "f8284d5c5c4d99f5aa8892d52f453d6d215a5f51c5ace317f1a416a877cc737a",
+  "actuallyViewedScreenshots": [
+    "/tmp/weirugo-comic-previews/q-818-1440.png",
+    "/tmp/weirugo-comic-previews/q-818-1120.png",
+    "/tmp/weirugo-comic-previews/q-818-390.png"
+  ],
+  "nativeArt": "assets/comics/q-818-art-f8284d5c5c.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T11:16:39.632155+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原甲全段與32四項親見，榮公→賈代善夫婦→賈政→寶玉四代，史老太君為祖母B正確。新SVG夫妻共同子線/四代標籤、王氏胎次含女兒與寶玉次子、子興敘述雨村回應皆親自對照；未增小說支系或版本歲數論斷。正式1440/390實看、六檢PASS。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-818-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-818-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-818-app-390.png"
+    ],
+    "isolatedDemoSessionMocked": true,
+    "cloudFunctionsAbortedExceptMockSession": true
+  },
+  "validationFile": "docs/comics/q-818-validation.json"
+}

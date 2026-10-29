@@ -1,0 +1,107 @@
+{
+  "id": "q-494",
+  "subject": "Chinese",
+  "title": "A對應明文，C不能擴張具科學量化的範圍",
+  "art": "docs/comics/art/q-494.svg",
+  "artMode": "deterministic-svg",
+  "generatorFile": "docs/comics/q-494-generate.py",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 獨立發展、適於熱帶亞熱帶，直接對應A",
+      "text": "甲文明寫臺灣系統獨立發展，且適於熱帶與亞熱帶。A把這兩個要點放在一起，兩者都有文字依據。閱讀題先找能直接對應原文的敘述，不先加入自己推測的排名或制度來源。",
+      "alt": "新精確兩條明文加總對應A的關係圖，不用虛構建築取得標章或今日制度。"
+    },
+    {
+      "heading": "② C漏掉具科學量化的比較範圍",
+      "text": "原文第4個實施，限定的是具科學量化的系統；C卻擴成全世界系統實施時間第四長。關鍵是比較範圍被放大，不是先後與多久永遠無關。相同群體、持續實施且同時點比較，兩者可以有關。",
+      "alt": "新精確外框全部系統、內框具科學量化者，原文第4個限內框；框面積不代表數量百分比，不畫錯誤年表。"
+    },
+    {
+      "heading": "③ B的全盤移植、D的全球首套均不合文意",
+      "text": "原文稱獨立發展，B說全盤移植美國，方向相反；甲文已說在英、美、加之後，D說全球首套，也不合。文中29套、目前等資訊仍屬文章情境，不拿來宣稱今天最新制度統計。",
+      "alt": "新兩組原文與選項矛盾對照，獨立對移植、先有三國對首套，未新增實施年份或當前評估規定。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：獨立發展且適用熱帶與亞熱帶",
+    "points": [
+      "兩個條件都能直接在甲文找到。",
+      "C不能省掉具科學量化的範圍限制。",
+      "B、D與明文相反；不拿文章數據當今日現況。"
+    ]
+  },
+  "protectedWords": [
+    "獨立發展",
+    "熱帶",
+    "亞熱帶",
+    "具科學量化",
+    "第4個實施",
+    "實施時間",
+    "第四長",
+    "比較範圍",
+    "全盤移植美國",
+    "全球首套"
+  ],
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-494-reading-source-aac84df9e9.jpg",
+      "site/dist/assets/questions/q-494-source-4ba6ad40d7.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "親見甲乙完整材料與九指標表、27四項；本題僅問甲文。按獨立/適於/具科學量化限定核A；不重開既有C先後與多久關係的解說，也不改乙表或當前技術標準。"
+  },
+  "sourceUrl": "https://share.gemini.google/4TSQakuIUwvo",
+  "answerCheckedAgainst": "原甲文和四項逐句比對，A兩要點明文成立；C的問題限範圍擴張，不錯稱先後與多久一定無關。",
+  "rationale": "用明文加總與集合範圍框清楚呈現閱讀推論，比人物或標章建築示意更能定位C的範圍問題；無新增當前綠建築標準、法律或世界排名。",
+  "sourceAIUsed": false,
+  "generationCalls": 0,
+  "manualLineBreaks": false,
+  "diagramChecks": {
+    "answer": "A",
+    "directSourcePoints": [
+      "獨立發展",
+      "適於熱帶及亞熱帶"
+    ],
+    "fourthRestrictedToQuantitativeSystems": true,
+    "setAreaRepresentsCount": false,
+    "startOrderAlwaysUnrelatedToDuration": false,
+    "todaySystemCountAsserted": false,
+    "newStandardOrCertificationClaim": false
+  },
+  "artSHA256": "864249992463b0f5b9985f6dea1218fe6dd70844661a50a57eb955a78c143c2d",
+  "visualChecked": true,
+  "checkedAt": "2026-10-29T10:46:39.519342+00:00",
+  "previewValidation": "docs/comics/q-494-preview-validation.json",
+  "visualReview": "甲乙全文/九指標原表/27四項親見，本題只問甲；新精確兩明文合成A與集合內外範圍圖，不捏造排名年表、數量比例或現行標準。最終1440/390實看框內標字/詞組與同行等高自然高度正常，三寬PASS，沿A且保留C範圍而非硬說先後無關多久。",
+  "nativeArt": "assets/comics/q-494-art-8642499924.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-10-29T10:46:39.515840+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "親見甲乙全文、九指標原表及27四項，A獨立發展與熱亞熱帶兩要點皆明文。新SVG雙要點與集合範圍框、B/D矛盾對照核對，C依具科學量化範圍限制，不錯說先後與多久必無關，不將原文29套當今日制度統計。正式桌手機完整圖文實看無溢出。 手機另以1600高相同390寬重拍，排除長元素擷取時上方頁面內容被帶入的瀏覽器截圖現象，四格本體與第一格標題再次完整實看。",
+    "sharedWebPOrNativeAssetVerified": true,
+    "formalValidation": "docs/comics/q-494-validation.json",
+    "actuallyViewedScreenshots": [
+      "/tmp/weirugo-comic-checks/q-494-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-494-app-390.png",
+      "/tmp/q-494-final-mobile-recheck.png"
+    ]
+  },
+  "validationFile": "docs/comics/q-494-validation.json"
+}

@@ -72,7 +72,7 @@
   "reviewIssues": [
     "gemini063-page08-q11-liquid-type-missing"
   ],
-  "illustrationStatus": "blocked_awaiting_confirmation",
+  "illustrationStatus": "not_requested_user_skip",
   "illustrationNote": "待專職插畫代理新製四格，不採用來源AI圖。",
   "inclusionEvidence": {
     "sourceImage": "docs/imports/new-gemini/gemini063/assets/page-08.jpg",
@@ -90,5 +90,8 @@
     "qidAssignedByIntegrator": true,
     "checkedAt": "2026-10-29T08:27:27.152723+00:00"
   },
-  "answerVerificationState": "awaiting_liquid_type_confirmation"
+  "answerVerificationState": "closed_user_skip",
+  "userRequestedSkip": true,
+  "doNotReimport": true,
+  "skipReason": "使用者明確要求第63來源條件不足的加熱曲線題直接略過、不收入；8題已發布，原圖及既有已確認歧義證據完整保留，不補液體種類、不再詢問或自動重加。"
 }

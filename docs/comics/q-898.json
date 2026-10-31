@@ -1,0 +1,44 @@
+{
+  "id": "q-898",
+  "subject": "Math",
+  "title": "共邊找因式，總長取兩倍",
+  "art": "docs/comics/art/q-898.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 兩塊共用同一條高",
+      "text": "面積分別為(3x＋1)(2x−5)、(3x＋1)(4x−6)，共邊CD＝3x＋1。",
+      "alt": "左右兩塊共用橘色直邊；本圖以x＝4的13高、3與10寬按比例示意。"
+    },
+    {
+      "heading": "② 沿水平方向加兩段寬",
+      "text": "AD＝2x−5、DE＝4x−6，所以AE＝6x−11。圖用x＝4驗算，兩寬是3及10。",
+      "alt": "共高13、左右寬3與10的精確x＝4示例，非假定一般x固定為4。"
+    },
+    {
+      "heading": "③ 上下兩條大邊相等",
+      "text": "BF＝AE，因此AE＋BF＝2(6x−11)＝12x−22。只算題目問的第(2)小題。",
+      "alt": "以橘色標出大長方形上下兩條等長邊。"
+    }
+  ],
+  "fourth": {
+    "answer": "AE＋BF＝12x−22",
+    "points": [
+      "先分解兩塊面積，找出共邊。",
+      "AE＝AD＋DE，BF＝AE。",
+      "所有邊須為正；幾何範圍x＞5/2。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

@@ -7,8 +7,16 @@ import {createRequire} from 'node:module';
 // Reuse the same WebSocket implementation as the local browser QA tools. A
 // Chrome Allow prompt can outlast the native client's HTTP handshake timeout.
 const {ws: ApprovalWebSocket}=createRequire(import.meta.url)('/home/jack/ai/Chemery/node_modules/playwright-core/lib/utilsBundle.js');
-const [port,route]=fs.readFileSync(path.join(os.homedir(),'.config/google-chrome/DevToolsActivePort'),'utf8').trim().split('\n');
-const socket=new ApprovalWebSocket(`ws://127.0.0.1:${port}${route}`,{handshakeTimeout:15*60*1000});
+let endpoint=process.env.CHROME_DEVTOOLS_WS_URL;
+if(!endpoint){
+  const [port,route]=fs.readFileSync(path.join(os.homedir(),'.config/google-chrome/DevToolsActivePort'),'utf8').trim().split('\n');
+  endpoint=`ws://127.0.0.1:${port}${route}`;
+}
+// A WSL process can use an explicit loopback relay to the authorized Windows
+// Chrome, whose localhost and DevToolsActivePort differ from the Linux profile.
+const endpointUrl=new URL(endpoint);
+if(endpointUrl.protocol!=='ws:'||!['127.0.0.1','localhost','[::1]'].includes(endpointUrl.hostname))throw Error('Chrome bridge requires a loopback WebSocket endpoint');
+const socket=new ApprovalWebSocket(endpointUrl.href,{handshakeTimeout:15*60*1000});
 let seq=0;const pending=new Map();
 function send(method,params={},sessionId){return new Promise((resolve,reject)=>{const id=++seq;pending.set(id,{resolve,reject});socket.send(JSON.stringify({id,method,params,...(sessionId?{sessionId}:{})}));setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error('CDP request timed out'));}},45000).unref();});}
 socket.addEventListener('message',event=>{const m=JSON.parse(event.data);if(!m.id)return;const p=pending.get(m.id);if(!p)return;pending.delete(m.id);if(m.error)p.reject(Error(m.error.message));else p.resolve(m.result);});

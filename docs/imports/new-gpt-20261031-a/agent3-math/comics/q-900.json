@@ -1,0 +1,44 @@
+{
+  "id": "q-900",
+  "subject": "Math",
+  "title": "等差中項就是兩端的平均",
+  "art": "docs/comics/art/q-900.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 第一組：a＋b＝10",
+      "text": "兩端平均5，所以兩端和為10。圖用算出的b＝−2、a＝12驗算，中點正好5。",
+      "alt": "同尺度數線−2到12，中點5，兩半長度相等。"
+    },
+    {
+      "heading": "② 第二組：3a＝36",
+      "text": "(a＋b)＋(2a−b)＝36，b相消，得a＝12；回查10與26的中點是18。",
+      "alt": "數線10到26，中點18，左右各距8。"
+    },
+    {
+      "heading": "③ 求的是差，不是和",
+      "text": "a＝12、b＝−2，a−b＝14。減負數要加回，數線距離也正好14。",
+      "alt": "從−2到12的正向差距14。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：14",
+    "points": [
+      "a＋b＝10。",
+      "3a＝36，得a＝12。",
+      "b＝−2，故a−b＝14。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

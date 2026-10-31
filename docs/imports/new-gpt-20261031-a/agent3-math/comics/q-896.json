@@ -1,0 +1,44 @@
+{
+  "id": "q-896",
+  "subject": "Math",
+  "title": "平方差拆成正整數乘積",
+  "art": "docs/comics/art/q-896.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 外面積減裡面積",
+      "text": "P＝(4x＋3)²−(3x＋5)²＝(x−2)(7x＋8)。圖先用最後x＝3的15與14回查。",
+      "alt": "外邊15、內邊14的精確同心正方形，是x＝3回查示例。"
+    },
+    {
+      "heading": "② 質數要讓小因數等於1",
+      "text": "x＞2，兩因數都為正；7x＋8＞1，所以x−2只能是1，得到x＝3。",
+      "alt": "15×15減14×14的等面積L形重排，保留29個單位格。"
+    },
+    {
+      "heading": "③ 回代後得到29",
+      "text": "x＝3時，225−196＝29＝1×29。細長條正好29格，不把負式值當邊長。",
+      "alt": "29個等寬單位格組成1×29的長條。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：29",
+    "points": [
+      "先用外邊大於內邊，得x＞2。",
+      "兩因數為正整數才用質數條件。",
+      "x＝3時，外邊15、內邊14。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

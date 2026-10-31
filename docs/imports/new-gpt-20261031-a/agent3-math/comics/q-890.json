@@ -1,0 +1,44 @@
+{
+  "id": "q-890",
+  "subject": "Math",
+  "title": "有實數解，先看平方是否非負",
+  "art": "docs/comics/art/q-890.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 將條件化成a²≥40",
+      "text": "判別式為a²−40。有實數解就須非負，等價於a²≥40。",
+      "alt": "平方條件與實數門檻的概念圖，精確式子在HTML。"
+    },
+    {
+      "heading": "② 數線兩側才符合",
+      "text": "允許範圍為a≤−√40或a≥√40，端點可取；整數就是a≤−7或a≥7。",
+      "alt": "以精確±√40為閉端點的數線，6位於不合條件的中央區間。"
+    },
+    {
+      "heading": "③ 代入6，曲線沒有碰到x軸",
+      "text": "a＝6時Δ＝−4。圖畫2x²−6x＋5，其最低值0.5仍高於x軸，沒有實根。",
+      "alt": "精確拋物線2x²−6x＋5在x軸上方，最低點(1.5,0.5)。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：6",
+    "points": [
+      "整數條件：a≤−7或a≥7。",
+      "−9、−7、8均可；6不行。",
+      "有解指本題國中範圍的實數解。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

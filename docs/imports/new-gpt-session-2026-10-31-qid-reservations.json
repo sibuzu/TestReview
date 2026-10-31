@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-10-31T09:30:28.789720+00:00",
+  "baselineMaxId": 873,
+  "policy": "每個原卷原問/子題永久qid，非合組後題面；兩路以交錯偶奇序列避免衝突",
+  "sources": [
+    {
+      "order": 51,
+      "sourceId": "src-more-051",
+      "url": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+      "firstId": 874,
+      "step": 2,
+      "worker": "/root/comic_lane_2",
+      "draftDirectory": "docs/imports/new-gpt-20261031-a"
+    },
+    {
+      "order": 52,
+      "sourceId": "src-more-052",
+      "url": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
+      "firstId": 875,
+      "step": 2,
+      "worker": "/root/comic_lane_3",
+      "draftDirectory": "docs/imports/new-gpt-20261031-b"
+    }
+  ],
+  "doNotRestoreExcludedAIExercises": true,
+  "existingEntries": 716,
+  "existingOriginalCoverage": 780,
+  "priorComicResidual": 9
+}

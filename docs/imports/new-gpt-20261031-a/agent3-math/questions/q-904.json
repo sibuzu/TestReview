@@ -1,0 +1,100 @@
+{
+  "id": "q-904",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第10題｜等差數列的項數間隔",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "已知一等差數列的首項為−1，第6項為(−1)⁶，則第3項為何？\n(A) −1\n(B) −0.2\n(C) 1.2\n(D) 3",
+  "answer": "(B) −0.2",
+  "explanation": "先算第6項給定的數值：(−1)⁶＝1。題目說的是等差數列，不是說每一項都等於(−1)的項數次方。第1項到第6項共有5個公差，所以−1＋5d＝1，得d＝2/5＝0.4。第3項比首項多2個公差，a₃＝−1＋2×0.4＝−0.2，選B。六項依序為−1、−0.6、−0.2、0.2、0.6、1，可直接回查首末兩項。",
+  "trap": "項數6不代表6段；首項至第6項只有5個公差。",
+  "tags": [
+    "等差數列的項數間隔"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "images": [
+    "assets/originals/q-904-original-a-math.webp"
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "sourceLabel": "分享原卷｜第10題",
+  "studentAnswer": "A",
+  "correctOption": "B",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "−1",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "−1是首項，不能把(−1)ⁿ當成這個等差數列的通式。"
+    },
+    {
+      "label": "B",
+      "text": "−0.2",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "5個公差合計2，d＝0.4，第3項為−0.2。"
+    },
+    {
+      "label": "C",
+      "text": "1.2",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "1.2只是3個0.4，既沒對齊間隔也漏掉首項。"
+    },
+    {
+      "label": "D",
+      "text": "3",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "3不符合首項−1、第6項1的等差條件。"
+    }
+  ],
+  "contentStatus": "完整原題",
+  "status": "todo",
+  "starred": false,
+  "notes": "",
+  "teachingComic": {
+    "title": "等差看差值，不看指數表面",
+    "panels": [
+      {
+        "heading": "① 先算第6項等於1",
+        "text": "(−1)⁶＝1，但題目仍是等差數列；不能把每項當成(−1)ⁿ。",
+        "alt": "六個等間隔項次點，兩端標色，非交錯±1序列。"
+      },
+      {
+        "heading": "② 六項之間只有五段",
+        "text": "首項−1到第6項1，合計增加2，平均分成5個公差，d＝0.4。",
+        "alt": "五個等寬區間代表第1至第6項的五次公差。"
+      },
+      {
+        "heading": "③ 第3項只走兩步",
+        "text": "a₃＝−1＋2×0.4＝−0.2。圖中第3點是橘點；六項依序穩定遞增。",
+        "alt": "六項數值−1、−0.6、−0.2、0.2、0.6、1的精確等差折線，第三點高亮。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 B：−0.2",
+      "points": [
+        "第6項給定值是1。",
+        "d＝[1−(−1)]÷5＝0.4。",
+        "第3項＝首項＋2d。"
+      ]
+    },
+    "protectedWords": [
+      "等差數列",
+      "等比數列",
+      "判別式",
+      "因式分解",
+      "整係數"
+    ],
+    "art": "assets/comics/q-904-new-art.svg"
+  }
+}

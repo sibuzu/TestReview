@@ -1,13 +1,20 @@
 {
-  "state": "complete",
+  "state": "active",
   "lastAllowedSourceOrder": 63,
-  "allowedSourceOrders": [],
-  "allowNewSources": false,
-  "haltAfterCurrentSource": true,
-  "updatedAt": "2026-10-29T16:37:17.568657+00:00",
-  "instruction": "本次使用者指定兩個GPT來源已全部處理。無待新增來源，之後另有明確通知才加入；舊Gemini第64起仍取消。",
+  "allowedSourceOrders": [
+    51,
+    52
+  ],
+  "allowNewSources": true,
+  "haltAfterCurrentSource": false,
+  "updatedAt": "2026-10-31T09:30:28.789720+00:00",
+  "instruction": "只處理本次指定GPT51/52，不恢復舊來源或已取消Gemini64起清單。",
   "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
   "closeoutEvidence": "docs/imports/new-gemini/gemini063/page08-q11-user-skip-addendum.json",
-  "detail": "兩來源23原問／21題面／23自製四格、24張原卷已完成；不再自動接其他來源或舊插畫工作。",
-  "allowedSourceUrls": []
+  "detail": "Agent2/3各自先取原圖、核原問與新製圖文；Agent1收到穩定稿即機械加入。",
+  "allowedSourceUrls": [
+    "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+    "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3"
+  ],
+  "batch": "gpt"
 }

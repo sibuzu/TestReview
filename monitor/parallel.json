@@ -1,62 +1,65 @@
 {
-  "mode": "complete",
-  "workerLimit": 0,
+  "mode": "new_sources",
+  "workerLimit": 2,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-29T16:37:17.568657+00:00",
+  "updatedAt": "2026-10-31T09:55:36.197357+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "本批23原問／21題面／23新四格已全數加入，完整性檢查完成",
-      "state": "complete",
-      "startedAt": "2026-10-29T15:06:06.207488+00:00",
+      "title": "本批已加入11原問；等待下一件已核稿",
+      "state": "importing",
+      "startedAt": "2026-10-31T09:30:28.789720+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "activeTask": {
-        "title": "本批23原問／21題面／23新四格已全數加入，完整性檢查完成",
-        "state": "complete",
-        "startedAt": "2026-10-29T15:06:06.207488+00:00",
+        "title": "本批已加入11原問；等待下一件已核稿",
+        "state": "importing",
+        "startedAt": "2026-10-31T09:30:28.789720+00:00",
         "questionId": null
-      }
+      },
+      "claimsPaused": false
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "生物2＋歷史4原問及6份新四格已驗版交付完成",
-      "state": "complete",
-      "startedAt": "2026-10-29T15:06:06.207488+00:00",
+      "title": "新來源原卷取得、逐題核對與候選稿",
+      "state": "importing",
+      "startedAt": "2026-10-31T09:30:28.789720+00:00",
       "agent": "/root/comic_lane_2",
       "role": "import",
       "activeTask": {
-        "title": "生物2＋歷史4原問及6份新四格已驗版交付完成",
-        "state": "complete",
-        "startedAt": "2026-10-29T15:06:06.207488+00:00",
+        "title": "來源51：17張原圖已取回，逐圖核對原問與新製四格",
+        "state": "importing",
+        "startedAt": "2026-10-31T09:30:28.789720+00:00",
         "questionId": null
-      }
+      },
+      "claimsPaused": false
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "第二來源12原問及第一來源英文5原問，17份新四格已驗版交付完成",
-      "state": "complete",
-      "startedAt": "2026-10-29T15:06:06.207488+00:00",
+      "title": "新來源原卷取得、逐題核對與候選稿",
+      "state": "importing",
+      "startedAt": "2026-10-31T09:30:28.789720+00:00",
       "agent": "/root/comic_lane_3",
       "role": "import",
       "activeTask": {
-        "title": "第二來源12原問及第一來源英文5原問，17份新四格已驗版交付完成",
-        "state": "complete",
-        "startedAt": "2026-10-29T15:06:06.207488+00:00",
+        "title": "來源52：11原問已實看核定，逐題製作新四格及自驗",
+        "state": "importing",
+        "startedAt": "2026-10-31T09:30:28.789720+00:00",
         "questionId": null
-      }
+      },
+      "claimsPaused": false
     }
   ],
   "ready": [],
-  "integrated": 789,
+  "integrated": 800,
   "blocked": [],
   "waiting": [],
   "integrating": [],
   "held": [],
   "integrationLimit": 1,
   "roleChangedAt": "2026-10-29T07:01:25.554580+00:00",
-  "importLimit": 1
+  "importLimit": 2
 }

@@ -1,0 +1,44 @@
+{
+  "id": "q-894",
+  "subject": "Math",
+  "title": "把讀對的係數各留一項",
+  "art": "docs/comics/art/q-894.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 甲留下正確常數b",
+      "text": "甲只看錯x項係數。由根−2、3重建(x＋2)(x−3)，可知b＝−6。",
+      "alt": "數線標出甲算出的兩根−2與3，非原方程式的正確根。"
+    },
+    {
+      "heading": "② 乙留下正確一次項a",
+      "text": "乙只看錯常數。根4、−5之和是−1，因此原一次項係數a＝1。",
+      "alt": "數線標出乙算出的兩根−5與4，非原方程式的正確根。"
+    },
+    {
+      "heading": "③ 回到原題要求a−b",
+      "text": "a＝1、b＝−6，故a−b＝1−(−6)＝7。數線由−6到1相差7。",
+      "alt": "同尺度數線從−6到1的向右差距7。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：7",
+    "points": [
+      "甲：根的乘積保住b。",
+      "乙：根的和保住a。",
+      "不要採用各人看錯的那一項。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "q-908",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第15題｜十字方格的等差中項",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "如右圖，橫列有7個方格，直行有4個方格。若在每個方格內填入一個數，使橫列的數由左到右成等差數列，且直行的數由上到下成等差數列，則x＋y之值為何？\n(A) −12\n(B) −10\n(C) −8\n(D) −6",
+  "answer": "(A) −12",
+  "explanation": "先看直行：由上到下4格，首項−10、末項2，共3個公差，故d＝[2−(−10)]/3＝4。交叉格是直行第2格，所以填−10＋4＝−6。再看橫列7格，交叉格恰是第4格，也就是正中央；等差數列對稱兩項的和等於中項的2倍。因此最左x與最右y相加為2×(−6)＝−12，選A。不必知道橫列公差，也不能把直行4格誤算成4個間隔。",
+  "trap": "直行交叉格是第2格；橫列交叉格是7格的正中央第4格。",
+  "tags": [
+    "十字方格的等差中項"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "images": [
+    "assets/originals/q-908-original-a-math.webp"
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/originals/q-908-given-a-math.webp",
+      "alt": "原卷7格橫列與4格直行十字圖，頂格−10、底格2，左右端為x、y；中央及下方手寫−6、−2依使用者規則保留。",
+      "caption": "原卷作答附圖；與必要內容重疊的原筆跡依使用者規則保留。"
+    }
+  ],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "sourceLabel": "分享原卷｜第15題",
+  "studentAnswer": "D",
+  "correctOption": "A",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "−12",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "交叉中項−6，左右兩端和為−12。"
+    },
+    {
+      "label": "B",
+      "text": "−10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "−10是直行首格，並不是橫列兩端和。"
+    },
+    {
+      "label": "C",
+      "text": "−8",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "可能來自將直行間隔數誤算，與題設不合。"
+    },
+    {
+      "label": "D",
+      "text": "−6",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "−6只是交叉格中項；x＋y須再乘2。"
+    }
+  ],
+  "contentStatus": "完整原題",
+  "status": "todo",
+  "starred": false,
+  "notes": "",
+  "teachingComic": {
+    "title": "先解直行，再用橫列對稱",
+    "panels": [
+      {
+        "heading": "① 直行四格有三段",
+        "text": "頂−10、底2，公差為12÷3＝4；交叉格是第2格，值為−6。",
+        "alt": "四格直行，橘色交叉格在由上第2格。"
+      },
+      {
+        "heading": "② 橫列七格，中間是第4格",
+        "text": "交叉格同時是橫列正中央。等差數列左右對稱的兩項，其和等於2倍中項。",
+        "alt": "七格橫列，正中央第4格以橘色標示。"
+      },
+      {
+        "heading": "③ 不用求橫列公差",
+        "text": "最左x與最右y對稱，x＋y＝2×(−6)＝−12；其他兩對也有相同和。",
+        "alt": "七格中的三組左右對稱配對，皆圍繞橘色中格。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 A：−12",
+      "points": [
+        "直行公差4，交叉格−6。",
+        "橫列7格的第4格為中項。",
+        "兩端和＝2倍中項。"
+      ]
+    },
+    "protectedWords": [
+      "等差數列",
+      "等比數列",
+      "判別式",
+      "因式分解",
+      "整係數"
+    ],
+    "art": "assets/comics/q-908-new-art.svg"
+  }
+}

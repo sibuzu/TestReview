@@ -1,0 +1,40 @@
+{
+  "id": "q-910",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學非選第1題｜等差分期付款的總價",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "originalQuestionNumber": 1,
+  "originalSection": "非選擇題",
+  "question": "付爾岱欲購買一棟房屋，簽約時先付80萬元，餘款分36期付清，已知這36期款額成等差數列，若他頭兩期共付84萬元，第三、四期共付80萬元，則此棟房屋的總價為多少萬元？",
+  "answer": "980萬元",
+  "correctOption": "",
+  "studentAnswer": "1132萬元",
+  "explanation": "設第一期款額為a萬元、公差為d萬元。頭兩期是a與a+d，所以2a+d＝84；第三、四期是a+2d與a+3d，所以2a+5d＝80。\n\n兩式相減得4d＝−4，因此d＝−1，每一期比前一期少付1萬元。代回2a−1＝84，得第一期a＝42.5萬元。\n\n第36期比第一期多35個間隔，款額為42.5＋35×(−1)＝7.5萬元。36期款額的總和是36×(42.5＋7.5)÷2＝900萬元。最後加上簽約時已先付的80萬元，房屋總價＝900＋80＝980萬元。\n\n回代前四期：42.5、41.5、40.5、39.5；前兩期合計84、第三四期合計80，都符合題意。原作答把84與80所對應的期數條件互換，才得到正公差；應先改正列式，且分期總和不能漏加簽約款。",
+  "trap": "把每筆合計配回正確期數；36期是餘款，最後還要加回簽約款80萬元。",
+  "tags": [
+    "等差數列",
+    "等差級數",
+    "聯立方程",
+    "分期付款"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實看原件和本題裁圖，原題條件完整；紅筆980與獨立分數算術核對相同。尚待專屬新四格與自身版面QA後才交ready。",
+  "images": [
+    "assets/originals/q-910-original.webp"
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "optionAnalysis": [],
+  "sourceLabel": "分享原卷｜非選擇第1題",
+  "contentStatus": "完整原題",
+  "status": "todo",
+  "starred": false,
+  "notes": ""
+}

@@ -1,0 +1,44 @@
+{
+  "id": "q-902",
+  "subject": "Math",
+  "title": "隔兩項看平方，整列倍乘不改公比",
+  "art": "docs/comics/art/q-902.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 第2到第4項走兩步",
+      "text": "−315÷(−35)＝9＝r²；中間還隔著第3項，不能當成只乘一次r。",
+      "alt": "第2、3、4項的三節點與兩段相同公比弧線。"
+    },
+    {
+      "heading": "② r的正負都可能",
+      "text": "r²＝9，所以r＝3或−3。只給這兩個偶數項，無法排除其中一種符號。",
+      "alt": "數線上的−3與3兩個對稱可行值，標籤由HTML說明。"
+    },
+    {
+      "heading": "③ 每項乘−5會約掉",
+      "text": "新相鄰項比值為[(−5)aₙ₊₁]/[(−5)aₙ]，倍率約掉，仍為原公比r。",
+      "alt": "上下兩條等比節點鏈逐項同倍率對應，連結步數相同。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：±3",
+    "points": [
+      "隔兩項，所以得到r²。",
+      "r＝3與r＝−3都符合。",
+      "非零倍乘改項值，不改相鄰項比。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

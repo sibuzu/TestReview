@@ -1,0 +1,4 @@
+# Verbatim source transcripts retain Markdown's intentional two-space line breaks.
+# Code, JSON, generated question HTML and other text keep the usual whitespace checks.
+docs/imports/**/transcript.txt whitespace=-blank-at-eol
+site/dist/sources/*.txt whitespace=-blank-at-eol

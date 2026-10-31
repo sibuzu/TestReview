@@ -1,0 +1,100 @@
+{
+  "id": "q-906",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第12題｜插入項的數量與總和",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "在−7與31之間插入n個數，使其成為一等差數列。若插入的n個數之總和為96，則n的值為何？\n(A) 8\n(B) 7\n(C) 6\n(D) 5",
+  "answer": "(A) 8",
+  "explanation": "整個等差數列包括兩個端點及插入的n項，共n＋2項。首末兩項的平均為(−7＋31)/2＝12，所以全部項的總和為12(n＋2)。只算插入項時，應扣掉兩端的和−7＋31＝24，因此插入項總和＝12(n＋2)−24＝12n。由12n＝96，得n＝8，選A。回代有10項、9個間隔，公差d＝38/9；插入第1項與最後1項之和仍為24，8項平均12，合計96。",
+  "trap": "插入n項不是總共有n項；兩端不包含在96裡。",
+  "tags": [
+    "插入項的數量與總和"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "images": [
+    "assets/originals/q-906-original-a-math.webp"
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "sourceLabel": "分享原卷｜第12題",
+  "studentAnswer": "C",
+  "correctOption": "A",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "8",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "8項的總和為12×8＝96，符合。"
+    },
+    {
+      "label": "B",
+      "text": "7",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "7項依相同首末端點的平均計算，和為84。"
+    },
+    {
+      "label": "C",
+      "text": "6",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "6項的和為72，不是96。"
+    },
+    {
+      "label": "D",
+      "text": "5",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "5項的和為60，不是96。"
+    }
+  ],
+  "contentStatus": "完整原題",
+  "status": "todo",
+  "starred": false,
+  "notes": "",
+  "teachingComic": {
+    "title": "插入項總和，要扣掉兩端",
+    "panels": [
+      {
+        "heading": "① n項之外還有兩個端點",
+        "text": "全列共n＋2項，首末平均12。圖用最後n＝8的10項回查，兩端另著色。",
+        "alt": "10個等間隔節點，8個插入項與2個端點分色。"
+      },
+      {
+        "heading": "② 插入項也兩兩平均12",
+        "text": "全部和12(n＋2)，扣掉兩端和24，剩下12n；相對的插入項每對和24。",
+        "alt": "8個插入節點形成4組對稱配對，不包括外側兩端。"
+      },
+      {
+        "heading": "③ 96除以12得到項數",
+        "text": "12n＝96，得n＝8；圖有8排，每排12個單位格，共96。",
+        "alt": "精確12欄8列、96個單位格的乘積圖。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 A：8",
+      "points": [
+        "96只算插入的n項。",
+        "全列n＋2項，兩端和24。",
+        "插入項平均12，所以n＝96÷12。"
+      ]
+    },
+    "protectedWords": [
+      "等差數列",
+      "等比數列",
+      "判別式",
+      "因式分解",
+      "整係數"
+    ],
+    "art": "assets/comics/q-906-new-art.svg"
+  }
+}

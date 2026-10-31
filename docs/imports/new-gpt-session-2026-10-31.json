@@ -1,0 +1,39 @@
+{
+  "createdAt": "2026-10-31T09:30:28.789720+00:00",
+  "instruction": "本批僅處理使用者新指定兩個GPT來源51/52；先程式取回原卷及全文，逐題核對真原問與必要材料，只收入原卷錯題，AI延伸練習與來源AI圖不採。兩路自行製作新四格與自驗；Agent1機械去重/完整性檢查/加入，完整原題可先於圖解發布。",
+  "showAgents": true,
+  "sources": [
+    {
+      "key": "gpt051",
+      "batch": "gpt",
+      "lane": 2,
+      "suggestedOrder": 51,
+      "sourceId": "src-more-051",
+      "url": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+      "draftDirectory": "docs/imports/new-gpt-20261031-a",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261031-a.json",
+      "integrationReceipt": "docs/imports/new-gpt-20261031-a/integrated.json",
+      "expectedOriginalQuestions": 19,
+      "expectedQuestionPages": 17,
+      "inventoryBasis": "producer2已實看17張原圖，核定地理8子＋數學11子；28/29/30為真共文組。"
+    },
+    {
+      "key": "gpt052",
+      "batch": "gpt",
+      "lane": 3,
+      "suggestedOrder": 52,
+      "sourceId": "src-more-052",
+      "url": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
+      "draftDirectory": "docs/imports/new-gpt-20261031-b",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261031-b.json",
+      "integrationReceipt": "docs/imports/new-gpt-20261031-b/integrated.json",
+      "expectedOriginalQuestions": 11,
+      "expectedQuestionPages": 11,
+      "inventoryBasis": "producer3已實看11/11原卷，核定11真原問且無共文組；q885獨立法律疑義交root，其餘續作。"
+    }
+  ],
+  "qidReservations": "docs/imports/new-gpt-session-2026-10-31-qid-reservations.json",
+  "intakeContract": "docs/imports/new-gpt-20261031-intake-contract.md",
+  "expectedOriginalQuestions": 30,
+  "expectedQuestionPages": 28
+}

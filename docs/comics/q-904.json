@@ -1,0 +1,44 @@
+{
+  "id": "q-904",
+  "subject": "Math",
+  "title": "等差看差值，不看指數表面",
+  "art": "docs/comics/art/q-904.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先算第6項等於1",
+      "text": "(−1)⁶＝1，但題目仍是等差數列；不能把每項當成(−1)ⁿ。",
+      "alt": "六個等間隔項次點，兩端標色，非交錯±1序列。"
+    },
+    {
+      "heading": "② 六項之間只有五段",
+      "text": "首項−1到第6項1，合計增加2，平均分成5個公差，d＝0.4。",
+      "alt": "五個等寬區間代表第1至第6項的五次公差。"
+    },
+    {
+      "heading": "③ 第3項只走兩步",
+      "text": "a₃＝−1＋2×0.4＝−0.2。圖中第3點是橘點；六項依序穩定遞增。",
+      "alt": "六項數值−1、−0.6、−0.2、0.2、0.6、1的精確等差折線，第三點高亮。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：−0.2",
+    "points": [
+      "第6項給定值是1。",
+      "d＝[1−(−1)]÷5＝0.4。",
+      "第3項＝首項＋2d。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

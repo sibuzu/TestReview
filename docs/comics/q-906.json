@@ -1,0 +1,44 @@
+{
+  "id": "q-906",
+  "subject": "Math",
+  "title": "插入項總和，要扣掉兩端",
+  "art": "docs/comics/art/q-906.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① n項之外還有兩個端點",
+      "text": "全列共n＋2項，首末平均12。圖用最後n＝8的10項回查，兩端另著色。",
+      "alt": "10個等間隔節點，8個插入項與2個端點分色。"
+    },
+    {
+      "heading": "② 插入項也兩兩平均12",
+      "text": "全部和12(n＋2)，扣掉兩端和24，剩下12n；相對的插入項每對和24。",
+      "alt": "8個插入節點形成4組對稱配對，不包括外側兩端。"
+    },
+    {
+      "heading": "③ 96除以12得到項數",
+      "text": "12n＝96，得n＝8；圖有8排，每排12個單位格，共96。",
+      "alt": "精確12欄8列、96個單位格的乘積圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：8",
+    "points": [
+      "96只算插入的n項。",
+      "全列n＋2項，兩端和24。",
+      "插入項平均12，所以n＝96÷12。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

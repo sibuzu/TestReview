@@ -73,11 +73,42 @@ def load_item(manifest_path, item_id=None):
     return document['items'][0]
 
 
+def source_row(source_id):
+    return next(s for s in load(ROOT/'docs/imports/more-gpt-progress.json')['sources']
+                if (s.get('sourceId') or f'src-more-{s["order"]:03d}') == source_id)
+
+
 def source_directory(manifest):
-    order = {'src-more-049': 49, 'src-more-050': 50}[manifest['sourceId']]
-    source = next(s for s in load(ROOT/'docs/imports/more-gpt-progress.json')['sources']
-                  if s['order'] == order)
-    return ROOT/source['draftDirectory']
+    return ROOT/source_row(manifest['sourceId'])['draftDirectory']
+
+
+def refresh_batch_activity():
+    """Report the active intake batch rather than the already-settled old bank."""
+    selector = load(ROOT/'monitor/active-source-plan.json')
+    plan = load(ROOT/selector['path'])
+    data = load(ROOT/'site/dist/data.json')
+    source_ids = {s['sourceId'] for s in plan['sources']}
+    pages = [q for q in data['questions'] if q.get('sourceId') in source_ids]
+    originals = [c for q in pages for c in (q.get('groupQuestions') or [q])]
+    parts = []
+    for item in plan['sources']:
+        count = sum(q.get('sourceId') == item['sourceId'] for q in originals)
+        expected = item.get('expectedOriginalQuestions')
+        parts.append(f'來源{item["suggestedOrder"]}：{count}/'+(str(expected) if expected else '總數待核')+'原問')
+    timestamp = now()
+    with locked(ROOT):
+        save(ROOT/'monitor/activity.json', dict(
+            title=f'本批新來源：已加入{len(originals)}原問／{len(pages)}題面',
+            detail='；'.join(parts)+'。製作路完成原卷與自身版面核對後逐件交付，整合路只機械加入；全庫舊完成數不代表本批Goal已完成。',
+            goalStatus='active', updatedAt=timestamp))
+        parallel = load(ROOT/'monitor/parallel.json')
+        owner = next(lane for lane in parallel['lanes'] if lane['lane'] == 1)
+        waiting = [j for j in load(ROOT/'docs/comics/pipeline.json')['jobs'] if j['state'] == 'ready']
+        title = ('正在機械加入'+ '、'.join(j['id'] for j in waiting)) if waiting else f'本批已加入{len(originals)}原問；等待下一件已核稿'
+        owner.update(title=title, state='integrating' if waiting else 'importing')
+        owner['activeTask'].update(title=title, state=owner['state'])
+        parallel['updatedAt'] = timestamp
+        save(ROOT/'monitor/parallel.json', parallel)
 
 
 def main(manifest_path, item_id=None):
@@ -96,9 +127,15 @@ def main(manifest_path, item_id=None):
     review_path = checked(manifest['qaReport'], manifest['qaReportSHA256'])
     question, spec, review = load(qpath), load(spec_path), load(review_path)
     assert question['id'] == spec['id'] == manifest['id'] == review['id']
-    assert question['sourceId'] == manifest['sourceId'] in ('src-more-049', 'src-more-050')
+    assert question['sourceId'] == manifest['sourceId']
+    selector = load(ROOT/'monitor/active-source-plan.json')
+    plan_path = ROOT/selector['path']
+    plan = load(plan_path)
+    assert question['sourceId'] in {s['sourceId'] for s in plan['sources']}, 'Only the user-authorized active source batch can add new records'
+    reservations = load(ROOT/plan.get('qidReservations', str(plan_path.relative_to(ROOT)).removesuffix('.json')+'-qid-reservations.json'))
+    reservation = next(s for s in reservations['sources'] if s['sourceId'] == question['sourceId'])
     number = int(question['id'].removeprefix('q-'))
-    assert number >= 850 and number % 2 == (question['sourceId'] == 'src-more-050'), 'Reserved permanent qid sequence mismatch'
+    assert number >= reservation['firstId'] and (number-reservation['firstId']) % reservation['step'] == 0, 'Reserved permanent qid sequence mismatch'
     assert review['passed'] and review['actualViewed']
     assert review['completeOriginalAndOptions'] and not review['sourceGeneratedArtUsed']
     for path in review['actualViewed']:
@@ -143,7 +180,7 @@ def main(manifest_path, item_id=None):
     transcript_path = checked(source['transcriptPath'])
     transcript = publish_bytes(transcript_path, f'sources/{source["id"]}.txt')
     source_id = source['id']
-    order = 49 if source_id == 'src-more-049' else 50
+    order = source_row(source_id)['order']
     lane = int(review['reviewerAgent'].rsplit('_', 1)[-1])
     assert lane in (2, 3), 'Record the actual producer, independently of source ownership'
     timestamp = now()
@@ -240,6 +277,7 @@ def finish(manifest_path, item_id=None):
         row = next(r for r in receipt['items'] if r['id'] == manifest['id'])
         row.update(state='integrated', integratedAt=now(), intakeValidation=str(validation.relative_to(ROOT)))
         save(receipt_path, receipt)
+    refresh_batch_activity()
     print(manifest['id'], 'integrated; frozen content preserved, producer QA inherited')
 
 

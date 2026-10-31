@@ -48,3 +48,6 @@ https://chatgpt.com/share/6ae0debc-7450-83ee-9ebd-3b43ef606227
 https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4
 https://chatgpt.com/share/6ae35c92-ac3c-83ee-a1b2-d202f452dd1d
 https://chatgpt.com/share/6ae35d9f-f560-83ee-bbe9-d01ff3be9e33
+
+https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174
+https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3

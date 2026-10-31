@@ -1,0 +1,44 @@
+{
+  "id": "q-892",
+  "subject": "Math",
+  "title": "先配乘積−12，再核對和",
+  "art": "docs/comics/art/q-892.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 12與−1，和為11",
+      "text": "用整數配對，乘積須為−12。綠點代表正1、紅點代表負1，這組留下11。",
+      "alt": "12個綠色正單位與1個紅色負單位相消，剩11正單位。"
+    },
+    {
+      "heading": "② 6與−2，和為4",
+      "text": "(x＋6)(x−2)＝x²＋4x−12，所以4能作k；符號反過來也可得−4。",
+      "alt": "6個正單位與2個負單位相消，剩4正單位。"
+    },
+    {
+      "heading": "③ 3與−4，和為−1",
+      "text": "全部整數配對的和是±11、±4、±1，沒有−7。這是整係數分解的範圍。",
+      "alt": "3個正單位與4個負單位相消，剩1負單位；不是負的幾何長度。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：−7",
+    "points": [
+      "兩常數乘積要等於−12。",
+      "兩常數相加才是k。",
+      "依國中整係數分解的作答慣例判斷。"
+    ]
+  },
+  "protectedWords": [
+    "等差數列",
+    "等比數列",
+    "判別式",
+    "因式分解",
+    "整係數"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+}

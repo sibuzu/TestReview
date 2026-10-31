@@ -1,0 +1,100 @@
+{
+  "id": "q-894",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第10題｜看錯係數後留下的線索",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "甲、乙兩人解同一方程式x²＋ax＋b＝0，甲看錯x項係數，解得x＝−2或3；乙看錯常數項，解得x＝4或−5，則a−b之值為何？\n(A) 7\n(B) −7\n(C) −19\n(D) −21",
+  "answer": "(A) 7",
+  "explanation": "甲只看錯x項係數，所以常數b仍正確。由根−2、3重建(x＋2)(x−3)＝x²−x−6，可知b＝−6。乙只看錯常數項，所以一次項係數a仍正確。由根4、−5重建(x−4)(x＋5)＝x²＋x−20，可知a＝1。因此a−b＝1−(−6)＝7，選A。不要把甲、乙各自看錯部分的數值都拿來當原方程式係數。",
+  "trap": "誰看錯哪一項，就只留下他讀對那一項的資訊。",
+  "tags": [
+    "看錯係數後留下的線索"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "images": [
+    "assets/originals/q-894-original-a-math.webp"
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "sourceLabel": "分享原卷｜第10題",
+  "studentAnswer": "D",
+  "correctOption": "A",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "7",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "a＝1、b＝−6，故a−b＝7。"
+    },
+    {
+      "label": "B",
+      "text": "−7",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "−7是將所求差的方向或符號弄反。"
+    },
+    {
+      "label": "C",
+      "text": "−19",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "−19可由混用乙看錯的常數−20得到，不能用作原b。"
+    },
+    {
+      "label": "D",
+      "text": "−21",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "−21也混入錯誤常數，沒有保留各人讀對的係數。"
+    }
+  ],
+  "contentStatus": "完整原題",
+  "status": "todo",
+  "starred": false,
+  "notes": "",
+  "teachingComic": {
+    "title": "把讀對的係數各留一項",
+    "panels": [
+      {
+        "heading": "① 甲留下正確常數b",
+        "text": "甲只看錯x項係數。由根−2、3重建(x＋2)(x−3)，可知b＝−6。",
+        "alt": "數線標出甲算出的兩根−2與3，非原方程式的正確根。"
+      },
+      {
+        "heading": "② 乙留下正確一次項a",
+        "text": "乙只看錯常數。根4、−5之和是−1，因此原一次項係數a＝1。",
+        "alt": "數線標出乙算出的兩根−5與4，非原方程式的正確根。"
+      },
+      {
+        "heading": "③ 回到原題要求a−b",
+        "text": "a＝1、b＝−6，故a−b＝1−(−6)＝7。數線由−6到1相差7。",
+        "alt": "同尺度數線從−6到1的向右差距7。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 A：7",
+      "points": [
+        "甲：根的乘積保住b。",
+        "乙：根的和保住a。",
+        "不要採用各人看錯的那一項。"
+      ]
+    },
+    "protectedWords": [
+      "等差數列",
+      "等比數列",
+      "判別式",
+      "因式分解",
+      "整係數"
+    ],
+    "art": "assets/comics/q-894-new-art.svg"
+  }
+}

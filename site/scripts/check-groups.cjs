@@ -34,7 +34,7 @@ function measureComic(c){
    assert.ok(q?.groupQuestions?.length>=2,'Expected a complete merged group');const children=q.groupQuestions,expectedComics=children.filter(c=>c.teachingComic).length,rows=[],errors=[];
    const page=await browser.newPage();await page.route('**/.netlify/functions/**',r=>r.abort());await require('./test-session.cjs').installTestSession(page);await page.route('**/.netlify/functions/marks**',r=>r.abort());if(shadow)await shadow.install(page);page.on('pageerror',e=>errors.push(e.message));
    for(const standalone of [false,true]){
-    await page.setViewportSize({width:1440,height:1000});await page.goto('http://127.0.0.1:8765/site/'+(standalone?q.id+'.html':'index.html#question/'+q.id));await page.reload();
+    await page.setViewportSize({width:1440,height:1000});await page.goto('http://127.0.0.1:8912/site/'+(standalone?q.id+'.html':'index.html#question/'+q.id));await page.reload();
     const toggle=page.locator(standalone?'details.review summary':'#answer-toggle');await toggle.waitFor();
     assert.equal(standalone?await page.locator('details.review').getAttribute('open'):await toggle.getAttribute('aria-expanded'),standalone?null:'false');
     assert.deepEqual(await page.locator('[data-group-question]').evaluateAll(nodes=>nodes.map(n=>n.dataset.groupQuestion)),children.map(c=>c.id));

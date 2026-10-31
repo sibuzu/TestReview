@@ -28,7 +28,7 @@ const colors={red:'rgb(239, 8, 8)',blue:'rgb(33, 102, 196)',orange:'rgb(255, 128
   const ids=()=>page.locator('#results [data-open]').evaluateAll(els=>els.map(e=>e.dataset.open));
   const readColor=()=>page.locator('[data-detail-star]').evaluate(e=>getComputedStyle(e).color);
   const openPalette=async()=>{await page.locator('[data-detail-star]').click();assert.equal(await page.locator('#favorite-palette').isVisible(),true);};
-  await page.goto('http://127.0.0.1:8765/site/index.html#questions',{waitUntil:'domcontentloaded'});
+  await page.goto('http://127.0.0.1:8912/site/index.html#questions',{waitUntil:'domcontentloaded'});
   await page.waitForSelector('#results [data-open]');
   assert.equal(await page.locator('#answered-filter').count(),0);
   assert.match(await navAll.innerText(),new RegExp('全部錯題\\s*'+data.questions.length));

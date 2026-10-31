@@ -412,7 +412,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(b'Method not allowed', 'text/plain', 405)
         origin = self.headers.get('Origin')
         if origin and (urlsplit(origin).scheme not in ('http', 'https') or
-                       urlsplit(origin).hostname not in ('localhost', '127.0.0.1', 'monitor.sibuzu.com')):
+                       urlsplit(origin).hostname not in ('localhost', '127.0.0.1', 'monitor-test.sibuzu.com')):
             return self.respond(b'Forbidden origin', 'text/plain', 403)
         if self.headers.get('X-TestReview-Action') != 'confirm':
             return self.respond(b'Explicit confirmation required', 'text/plain', 403)
@@ -449,6 +449,6 @@ class Handler(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', default='0.0.0.0')
-    parser.add_argument('--port', type=int, default=8765)
+    parser.add_argument('--port', type=int, default=8912)
     args = parser.parse_args()
     ThreadingHTTPServer((args.host, args.port), Handler).serve_forever()

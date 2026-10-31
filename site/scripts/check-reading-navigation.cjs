@@ -17,7 +17,7 @@ const fixture={schemaVersion:1,revision:'reading-navigation-qa',dataUpdatedAt:'2
   const navIds=()=>page.locator('#subjects [data-question-nav]').evaluateAll(xs=>xs.map(x=>x.dataset.questionNav));
   const next=()=>page.locator('.question-footer-flags [data-next-question]');
   const current=()=>page.locator('#subjects [aria-current="page"]').getAttribute('data-question-nav');
-  await page.goto('http://127.0.0.1:8765/site/index.html#questions');await page.waitForSelector('#results [data-open]');
+  await page.goto('http://127.0.0.1:8912/site/index.html#questions');await page.waitForSelector('#results [data-open]');
   const dateIds=await listIds();assert.deepEqual(dateIds,['q-900001','q-900002','q-900003','q-900004']);
   await page.locator('#results [data-open]').first().click();assert.deepEqual(await navIds(),dateIds);
   assert.match(await page.locator('#subject-heading').innerText(),/全部錯題\s+4/);
@@ -39,7 +39,7 @@ const fixture={schemaVersion:1,revision:'reading-navigation-qa',dataUpdatedAt:'2
   await page.locator('[data-subject="Chinese"]').click();await page.waitForSelector('#results [data-open]');const chinese=await listIds();
   await page.locator('#results [data-open]').first().click();assert.deepEqual(await navIds(),chinese);assert.match(await page.locator('#subject-heading').innerText(),/國文\s+2/);
   await page.reload();await page.waitForSelector('[data-flag-position="footer"]');assert.deepEqual(await navIds(),chinese,'reload preserves the entered list and its shuffle');
-  await page.goto('http://127.0.0.1:8765/site/index.html#question/q-900001');await page.waitForSelector('[data-flag-position="footer"]');
+  await page.goto('http://127.0.0.1:8912/site/index.html#question/q-900001');await page.waitForSelector('[data-flag-position="footer"]');
   assert.deepEqual(await navIds(),['q-900001'],'a direct question URL keeps the subject fallback');
   await page.screenshot({path:path.join(out,'direct-'+width+'.png'),fullPage:true});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);

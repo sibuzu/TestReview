@@ -12,7 +12,7 @@ const root=path.resolve(__dirname,'../..'),out=path.join(root,'.cache/group-mark
   const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));await shadow.install(page);
   await page.route('**/.netlify/functions/**',async route=>{const req=route.request(),opts={method:req.method(),headers:await req.allHeaders()};if(!['GET','HEAD'].includes(req.method()))opts.body=req.postData();const response=await(req.url().endsWith('/session')?handleSession:handleAccountMarks)(new Request(req.url(),opts),db);await route.fulfill({status:response.status,headers:Object.fromEntries(response.headers),body:Buffer.from(await response.arrayBuffer())});});
-  const base='http://127.0.0.1:8765/site/index.html';await page.goto(base);
+  const base='http://127.0.0.1:8912/site/index.html';await page.goto(base);
   async function synced(){await page.waitForFunction(()=>document.querySelector('#sync-status').dataset.state==='synced');}
   async function login(user){await page.locator('#signin-user').fill(user);await page.locator('#signin-password').fill('1234');await page.locator('#signin-submit').click();await page.waitForSelector('#app-shell:not([hidden])');await synced();}
   async function open(){await page.evaluate(()=>{location.hash='question/q-031';});await page.waitForSelector('[data-flag-position="header"]');}

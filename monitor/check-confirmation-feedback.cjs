@@ -4,7 +4,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const root=path.resolve(__dirname,'..'),out=path.join(root,'.cache/monitor-feedback');
 fs.mkdirSync(out,{recursive:true});
 (async()=>{
- const baseline=await (await fetch('http://127.0.0.1:8765/api/status')).json();
+ const baseline=await (await fetch('http://127.0.0.1:8912/api/status')).json();
  const browser=await chromium.launch(),results=[];
  try{for(const width of [1440,390,320]){
   const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage(),errors=[];
@@ -27,7 +27,7 @@ fs.mkdirSync(out,{recursive:true});
    fixture.resolvedConfirmations.unshift({...current,state:'resolved',resolvedAt:'2026-10-31T10:01:00Z',resolution:'使用者確認 OK',userComments:(current.userComments||[]).map(c=>({...c,state:'addressed'}))});
    return route.fulfill({json:{ok:true,id:payload.id}});
   });
-  await page.goto('http://127.0.0.1:8765/');
+  await page.goto('http://127.0.0.1:8912/');
   const input=()=>page.locator('[data-comment-for="feedback-fixture"]');
   const button=()=>page.locator('[data-confirm="feedback-fixture"]');
   await input().waitFor();

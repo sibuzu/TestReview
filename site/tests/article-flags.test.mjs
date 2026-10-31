@@ -65,8 +65,8 @@ test('sessions have no expiry, survive network outages, and Sign Out revokes onl
  assert.deepEqual(await restoreSession(b.raw,api(db)),b.session);
 });
 test('all entry URLs use cloud APIs and cross-origin preflight allows bearer authorization',async()=>{
- for(const href of ['https://test.sibuzu.com','http://localhost:5500','https://monitor.sibuzu.com','https://mytestreview.netlify.app'])assert.equal(accountEndpoint('marks',href),markURL);
- const db=database();for(const origin of ['https://test.sibuzu.com','http://127.0.0.1:8765']){
+ for(const href of ['https://test.sibuzu.com','http://localhost:5500','https://monitor.sibuzu.com','https://monitor-test.sibuzu.com','http://127.0.0.1:8912','https://mytestreview.netlify.app'])assert.equal(accountEndpoint('marks',href),markURL);
+ const db=database();for(const origin of ['https://test.sibuzu.com','http://127.0.0.1:8765','https://monitor-test.sibuzu.com','http://127.0.0.1:8912']){
   const r=await handleSession(new Request(sessionURL,{method:'OPTIONS',headers:{Origin:origin}}),db);assert.equal(r.status,204);assert.equal(r.headers.get('Access-Control-Allow-Origin'),origin);assert.match(r.headers.get('Access-Control-Allow-Headers'),/Authorization/);
  }
 });

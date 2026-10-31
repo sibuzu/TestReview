@@ -1,9 +1,10 @@
 # WeiRuGo 進度監看
 
-參考 `~/ai/WeiRuGo/monitor/` 的深色監看頁。沿用 Port **8765**，每15秒重新讀取實際檔案。
+參考 `~/ai/WeiRuGo/monitor/` 的深色監看頁。沿用 Port **8912**，每15秒重新讀取實際檔案。
 
-- 頁面：<http://localhost:8765/>
-- 題庫：<http://localhost:8765/site/index.html>
+- 對外頁面：<https://monitor-test.sibuzu.com/>
+- 頁面：<http://localhost:8912/>
+- 題庫：<http://localhost:8912/site/index.html>
 - 健康檢查：`/health`；即時資料：`/api/status`。
 - 進度來源：`docs/imports/todo-progress.json`、`more-gpt-progress.json`、`more-gemini-progress.json`。
 - 題數與待老師確認題目：`site/dist/data.json`。需核對題幹或答案的項目會自動列出，連結直接開啟本機同一服務的完整題目。
@@ -20,7 +21,7 @@ systemctl --user restart testreview-monitor.service
 python3 -m unittest monitor.test_server -v
 ```
 
-使用者已授權停止占用同一Port的舊監看頁；切換前服務狀態存於 `previous-services.json`。只切換監看服務，不停止其他專案的製作工作。若要恢復原MV監看頁：
+WeiRuGo／TestReview 固定使用8912，不再占用8765，也不與其他專案監看服務互斥。`previous-services.json` 保留最早沿用8765時的歷史紀錄。若另需恢復原MV監看頁，可手動執行：
 
 ```bash
 systemctl --user disable --now testreview-monitor.service

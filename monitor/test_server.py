@@ -386,12 +386,13 @@ class MonitorTest(unittest.TestCase):
             try:
                 for invalid, expected in [({'Content-Type': 'application/json'}, 403),
                                           ({**headers, 'Origin': 'https://unrelated.example'}, 403),
+                                          ({**headers, 'Origin': 'https://monitor.sibuzu.com'}, 403),
                                           ({**headers, 'Content-Type': 'text/plain'}, 415)]:
                     with self.assertRaises(urllib.error.HTTPError) as caught:
                         urllib.request.urlopen(urllib.request.Request(base+'/api/confirm', data=body, headers=invalid))
                     self.assertEqual(caught.exception.code, expected)
-                for _ in range(2):
-                    with urllib.request.urlopen(urllib.request.Request(base+'/api/confirm', data=body, headers=headers)) as response:
+                for origin in (base, 'https://monitor-test.sibuzu.com', 'http://127.0.0.1:8912'):
+                    with urllib.request.urlopen(urllib.request.Request(base+'/api/confirm', data=body, headers={**headers, 'Origin':origin})) as response:
                         self.assertEqual(json.load(response), {'ok': True, 'id': 'ask'})
                 self.assertEqual(len(server.read_json(self.root/'monitor/confirmations.json')['resolved']), 1)
             finally:

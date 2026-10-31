@@ -239,7 +239,7 @@ def integrated(root, qid):
             spec.update(visualChecked=True, checkedAt=finished, validationFile=f'docs/comics/{qid}-validation.json')
             save(spec_path, spec)
             entry.update(nativeArt=spec['nativeArt'], layoutVersion=spec['layoutVersion'],
-                         questionUrl=f'https://monitor.sibuzu.com/site/index.html#question/{qid}')
+                         questionUrl=f'https://monitor-test.sibuzu.com/site/index.html#question/{qid}')
         progress['updatedAt'] = finished
         save(root/'docs/comics/progress.json', progress)
         job.update(state='integrated', integratedAt=finished,

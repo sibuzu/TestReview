@@ -17,7 +17,7 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
   await page.route('**/.netlify/functions/marks**',r=>r.abort());
   for(const id of ids)for(const standalone of [false,true]){
    await page.setViewportSize({width:1440,height:1000});
-   await page.goto('http://127.0.0.1:8765/site/'+(standalone?id+'.html':'index.html?comic=check#question/'+id));
+   await page.goto('http://127.0.0.1:8912/site/'+(standalone?id+'.html':'index.html?comic=check#question/'+id));
    const comic=page.locator('.native-comic');
    assert.equal(await comic.isVisible(),false,id+' must start collapsed');
    await page.locator(standalone?'details.review summary':'#answer-toggle').click();

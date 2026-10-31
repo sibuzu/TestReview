@@ -273,7 +273,7 @@ def finish(manifest_path, item_id=None):
     assert actual == expected, 'Curator output differs from the frozen producer item beyond documented asset paths/defaults'
     for path in actual['images'] + [f['src'] for f in actual.get('questionFigures', [])] + [actual['teachingComic']['art']]:
         checked('site/dist/' + path)
-    url = f'http://127.0.0.1:8765/site/{manifest["id"]}.html'
+    url = f'http://127.0.0.1:8912/site/{manifest["id"]}.html'
     response = urllib.request.urlopen(url)
     assert response.status == 200
     validation = directory/'qa'/f'{manifest["id"]}-intake-validation.json'

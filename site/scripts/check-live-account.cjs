@@ -2,7 +2,7 @@
 const {chromium}=require('/home/jack/ai/Chemery/node_modules/playwright');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 (async()=>{
- const entry=process.argv[2]||'http://127.0.0.1:8765/site/index.html';
+ const entry=process.argv[2]||'http://127.0.0.1:8912/site/index.html';
  const browser=await chromium.launch(),context=await browser.newContext(),page=await context.newPage(),responses=[];
  page.on('response',response=>{if(response.url().includes('/.netlify/functions/'))responses.push({path:new URL(response.url()).pathname,method:response.request().method(),status:response.status(),origin:new URL(response.url()).origin});});
  try{

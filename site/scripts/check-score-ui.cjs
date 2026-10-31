@@ -28,7 +28,7 @@ const root=path.resolve(__dirname,'../..'),site=path.join(root,'site/dist'),out=
    const types={'.js':'text/javascript','.html':'text/html','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp'};
    await route.fulfill({path:file,contentType:types[path.extname(file)]||'application/octet-stream'});
   });
-  const base=width===390?'https://test.sibuzu.com/':'http://127.0.0.1:8765/site/';
+  const base=width===390?'https://test.sibuzu.com/':'http://127.0.0.1:8912/site/';
   await page.goto(base+'index.html');await page.waitForSelector('#signin-screen:not([hidden])');
   assert.equal(await page.locator('#app-shell').getAttribute('hidden'),'');
   await page.screenshot({path:path.join(out,`signin-${width}.png`)});

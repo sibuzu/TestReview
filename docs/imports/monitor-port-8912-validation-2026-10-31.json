@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-10-31T10:30:05.950842+00:00",
+  "port": 8912,
+  "publicOrigin": "https://monitor-test.sibuzu.com",
+  "localHealth": "HTTP 200",
+  "installedSystemdUnitMatchesRepository": true,
+  "oldPort8765Released": true,
+  "legacyServiceConflictsRemoved": true,
+  "allQuestionDataUnchangedFromCommit": "83c3d89",
+  "newSources": {
+    "originals": 30,
+    "entries": 28,
+    "ownFourPanels": 30,
+    "images": 28,
+    "pendingConfirmations": 0
+  },
+  "newLocalRouteChecks": [
+    {
+      "id": "q-875",
+      "status": 200
+    },
+    {
+      "id": "q-877",
+      "status": 200
+    },
+    {
+      "id": "q-879",
+      "status": 200
+    },
+    {
+      "id": "q-881",
+      "status": 200
+    },
+    {
+      "id": "q-887",
+      "status": 200
+    },
+    {
+      "id": "q-883",
+      "status": 200
+    },
+    {
+      "id": "q-885",
+      "status": 200
+    },
+    {
+      "id": "q-889",
+      "status": 200
+    },
+    {
+      "id": "q-891",
+      "status": 200
+    },
+    {
+      "id": "q-893",
+      "status": 200
+    },
+    {
+      "id": "q-895",
+      "status": 200
+    },
+    {
+      "id": "q-874",
+      "status": 200
+    },
+    {
+      "id": "q-890",
+      "status": 200
+    },
+    {
+      "id": "q-892",
+      "status": 200
+    },
+    {
+      "id": "q-894",
+      "status": 200
+    },
+    {
+      "id": "q-896",
+      "status": 200
+    },
+    {
+      "id": "q-900",
+      "status": 200
+    },
+    {
+      "id": "q-902",
+      "status": 200
+    },
+    {
+      "id": "q-904",
+      "status": 200
+    },
+    {
+      "id": "q-906",
+      "status": 200
+    },
+    {
+      "id": "q-908",
+      "status": 200
+    },
+    {
+      "id": "q-898",
+      "status": 200
+    },
+    {
+      "id": "q-876",
+      "status": 200
+    },
+    {
+      "id": "q-878",
+      "status": 200
+    },
+    {
+      "id": "q-910",
+      "status": 200
+    },
+    {
+      "id": "q-880",
+      "status": 200
+    },
+    {
+      "id": "q-882",
+      "status": 200
+    },
+    {
+      "id": "q-884",
+      "status": 200
+    },
+    {
+      "id": "q-886",
+      "status": 200,
+      "redirectTarget": "q-884"
+    },
+    {
+      "id": "q-888",
+      "status": 200,
+      "redirectTarget": "q-884"
+    }
+  ],
+  "tests": {
+    "sitePassed": 118,
+    "monitorPassed": 45,
+    "feedbackBrowserWidths": [
+      1440,
+      390,
+      320
+    ],
+    "readingNavigationBrowserWidths": [
+      1440,
+      390,
+      320
+    ]
+  },
+  "externalDNS": {
+    "checkedUsing": "local resolver and Google public DNS",
+    "status": "NXDOMAIN",
+    "externalReachabilityVerified": false
+  },
+  "passed": true,
+  "scope": "Fixed local port, service, current tooling and configured external hostname; DNS record provisioning is not performed by this change."
+}

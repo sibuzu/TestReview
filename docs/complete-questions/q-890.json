@@ -1,0 +1,104 @@
+{
+  "id": "q-890",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第5題｜二次方程式的實根條件",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "若一元二次方程式2x²−ax＋5＝0有解，且a為整數，則下列何者不可能為a的值？\n(A) −9\n(B) −7\n(C) 8\n(D) 6",
+  "answer": "(D) 6",
+  "explanation": "國中此題的「有解」指有實數解。判別式Δ＝(−a)²−4×2×5＝a²−40，因此須a²≥40。因為6²＝36＜40、7²＝49＞40，整數a須a≤−7或a≥7。逐項代入，−9、−7、8的判別式分別為41、9、24，皆非負；6的判別式為−4，沒有實數解，故選D。也可配方成(4x−a)²＝a²−40，左邊平方不能為負，得到相同條件。",
+  "trap": "有實數解須判別式非負；負的a也要平方後判斷。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "二次方程式的實根條件"
+  ],
+  "images": [
+    "assets/originals/q-890-original-a-math-68f6edd3146c.webp"
+  ],
+  "sourceLabel": "分享原卷｜第5題",
+  "studentAnswer": "B",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "−9",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "a＝−9時，Δ＝81−40＝41＞0，有實根。"
+    },
+    {
+      "label": "B",
+      "text": "−7",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "a＝−7時，Δ＝49−40＝9＞0，有實根。"
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "a＝8時，Δ＝64−40＝24＞0，有實根。"
+    },
+    {
+      "label": "D",
+      "text": "6",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "a＝6時，Δ＝36−40＝−4＜0，沒有實數解。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "art": "assets/comics/q-890-new-art-a1a803d565b7.svg",
+    "title": "有實數解，先看平方是否非負",
+    "panels": [
+      {
+        "heading": "① 將條件化成a²≥40",
+        "text": "判別式為a²−40。有實數解就須非負，等價於a²≥40。",
+        "alt": "精確平方曲線a²與高度40的比較，兩側綠色分枝表示a²≥40，標籤與公式在HTML。"
+      },
+      {
+        "heading": "② 數線兩側才符合",
+        "text": "允許範圍為a≤−√40或a≥√40，端點可取；整數就是a≤−7或a≥7。",
+        "alt": "以精確±√40為閉端點的數線，6的紅垂線位於正門檻內側。"
+      },
+      {
+        "heading": "③ 代入6，曲線沒有碰到x軸",
+        "text": "a＝6時Δ＝−4。圖畫2x²−6x＋5，其最低值0.5仍高於x軸，沒有實根。",
+        "alt": "精確拋物線2x²−6x＋5在x軸上方，最低點(1.5,0.5)。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 D：6",
+      "points": [
+        "整數條件：a≤−7或a≥7。",
+        "−9、−7、8均可；6不行。",
+        "有解指本題國中範圍的實數解。"
+      ]
+    },
+    "protectedWords": [
+      "a²≥40",
+      "a≤−√40",
+      "a≥√40",
+      "a≤−7",
+      "a≥7",
+      "Δ＝−4",
+      "2x²−6x＋5",
+      "0.5"
+    ]
+  }
+}

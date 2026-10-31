@@ -1,11 +1,11 @@
 {
-  "state": "active",
+  "state": "complete",
   "lastAllowedSourceOrder": 63,
   "allowedSourceOrders": [
     51,
     52
   ],
-  "allowNewSources": true,
+  "allowNewSources": false,
   "haltAfterCurrentSource": false,
   "updatedAt": "2026-10-31T09:30:28.789720+00:00",
   "instruction": "只處理本次指定GPT51/52，不恢復舊來源或已取消Gemini64起清單。",
@@ -16,5 +16,7 @@
     "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
     "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3"
   ],
-  "batch": "gpt"
+  "batch": "gpt",
+  "completedAt": "2026-10-31T10:19:09.414931+00:00",
+  "reason": "本批兩個GPT來源已全部處理，無其他新來源；只待最終驗證與發布。"
 }

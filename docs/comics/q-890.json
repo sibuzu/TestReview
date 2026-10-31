@@ -8,12 +8,12 @@
     {
       "heading": "① 將條件化成a²≥40",
       "text": "判別式為a²−40。有實數解就須非負，等價於a²≥40。",
-      "alt": "平方條件與實數門檻的概念圖，精確式子在HTML。"
+      "alt": "精確平方曲線a²與高度40的比較，兩側綠色分枝表示a²≥40，標籤與公式在HTML。"
     },
     {
       "heading": "② 數線兩側才符合",
       "text": "允許範圍為a≤−√40或a≥√40，端點可取；整數就是a≤−7或a≥7。",
-      "alt": "以精確±√40為閉端點的數線，6位於不合條件的中央區間。"
+      "alt": "以精確±√40為閉端點的數線，6的紅垂線位於正門檻內側。"
     },
     {
       "heading": "③ 代入6，曲線沒有碰到x軸",
@@ -30,15 +30,35 @@
     ]
   },
   "protectedWords": [
-    "等差數列",
-    "等比數列",
-    "判別式",
-    "因式分解",
-    "整係數"
+    "a²≥40",
+    "a≤−√40",
+    "a≥√40",
+    "a≤−7",
+    "a≥7",
+    "Δ＝−4",
+    "2x²−6x＋5",
+    "0.5"
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
   "originalMaterialsChecked": true,
   "sourceGeneratedArtUsed": false,
   "generationMethod": "new exact native SVG algebra/geometry/number-line diagram, precise labels and formulas remain HTML",
-  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。"
+  "rationale": "原卷與全部選項親見，獨立代數重算；圖逐題繪出平方實根範圍／整數配對／保留係數／平方差／共邊／中點／倍率／間隔／配對或十字拓樸，不使用無關人物圖。",
+  "nativeArt": "assets/comics/q-890-new-art-a1a803d565b7.svg",
+  "rootReview": {
+    "visualChecked": true,
+    "reviewerAgent": "/root/comic_lane_3",
+    "inheritedProducerQA": "docs/imports/new-gpt-20261031-a/agent3-math/qa/q-890-reviewed.json",
+    "mechanicalIntegrator": "/root/comic_lane_1",
+    "actualViewed": [
+      "docs/imports/new-gpt-20261031-a/agent3-math/qa/q-890-app-question-1440.png",
+      "docs/imports/new-gpt-20261031-a/agent3-math/qa/q-890-app-question-390.png",
+      "docs/imports/new-gpt-20261031-a/agent3-math/qa/q-890-app-comic-1440.png",
+      "docs/imports/new-gpt-20261031-a/agent3-math/qa/q-890-app-comic-390.png"
+    ],
+    "checkedAt": "2026-10-31T10:03:32.712334+00:00"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-10-31T10:06:33.337411+00:00",
+  "validationFile": "docs/comics/q-890-validation.json"
 }

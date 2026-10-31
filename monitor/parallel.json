@@ -2,59 +2,56 @@
   "mode": "new_sources",
   "workerLimit": 2,
   "rootRole": "回答使用者、分派與協調",
-  "updatedAt": "2026-10-31T09:55:36.197357+00:00",
+  "updatedAt": "2026-10-31T10:19:09.414931+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "本批已加入11原問；等待下一件已核稿",
-      "state": "importing",
-      "startedAt": "2026-10-31T09:30:28.789720+00:00",
+      "title": "30原問已加入，來源與圖文完成收尾",
+      "state": "completed",
+      "startedAt": "2026-10-31T10:16:07.131795+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "activeTask": {
-        "title": "本批已加入11原問；等待下一件已核稿",
-        "state": "importing",
-        "startedAt": "2026-10-31T09:30:28.789720+00:00",
-        "questionId": null
+        "state": "completed",
+        "title": "30原問已加入，來源與圖文完成收尾",
+        "completedAt": "2026-10-31T10:19:09.414931+00:00"
       },
       "claimsPaused": false
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "新來源原卷取得、逐題核對與候選稿",
-      "state": "importing",
+      "title": "本批指定圖文已全部交稿並整合",
+      "state": "completed",
       "startedAt": "2026-10-31T09:30:28.789720+00:00",
       "agent": "/root/comic_lane_2",
       "role": "import",
       "activeTask": {
-        "title": "來源51：17張原圖已取回，逐圖核對原問與新製四格",
-        "state": "importing",
-        "startedAt": "2026-10-31T09:30:28.789720+00:00",
-        "questionId": null
+        "state": "completed",
+        "title": "本批指定圖文已全部交稿並整合",
+        "completedAt": "2026-10-31T10:19:09.414931+00:00"
       },
       "claimsPaused": false
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "新來源原卷取得、逐題核對與候選稿",
-      "state": "importing",
+      "title": "本批指定圖文已全部交稿並整合",
+      "state": "completed",
       "startedAt": "2026-10-31T09:30:28.789720+00:00",
       "agent": "/root/comic_lane_3",
       "role": "import",
       "activeTask": {
-        "title": "來源52：11原問已實看核定，逐題製作新四格及自驗",
-        "state": "importing",
-        "startedAt": "2026-10-31T09:30:28.789720+00:00",
-        "questionId": null
+        "state": "completed",
+        "title": "本批指定圖文已全部交稿並整合",
+        "completedAt": "2026-10-31T10:19:09.414931+00:00"
       },
       "claimsPaused": false
     }
   ],
   "ready": [],
-  "integrated": 800,
+  "integrated": 819,
   "blocked": [],
   "waiting": [],
   "integrating": [],

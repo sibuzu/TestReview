@@ -289,6 +289,54 @@ class MonitorTest(unittest.TestCase):
             server.resolve_confirmation('ask', token, self.root)
         self.assertEqual(server.read_json(self.root/'monitor/confirmations.json')['resolved'], [])
 
+    def test_comment_stays_pending_and_is_preserved_until_addressed(self):
+        card = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
+        note = '請補原圖，答案先保留 B。'
+        first = server.submit_confirmation_comment('ask', card['confirmationToken'], note, self.root)
+        again = server.submit_confirmation_comment('ask', card['confirmationToken'], note, self.root)
+        self.assertEqual(first, again)
+        records = server.read_json(self.root/'monitor/confirmations.json')
+        self.assertEqual(records['resolved'], [])
+        self.assertEqual(len(records['feedback']), 1)
+        current = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
+        self.assertTrue(current['feedbackPending'])
+        self.assertEqual(current['userComments'][0]['text'], note)
+        self.assertEqual(current['confirmationToken'], card['confirmationToken'])
+        result = server.resolve_confirmation('ask', current['confirmationToken'], self.root,
+                                             resolution='已依意見補齊原圖，保留 B。')
+        self.assertEqual(result['userComments'][0]['text'], note)
+        self.assertEqual(result['userComments'][0]['state'], 'addressed')
+        self.assertEqual(server.read_json(self.root/'monitor/confirmations.json')['feedback'][0]['state'], 'addressed')
+        self.assertNotIn('ask', [c['id'] for c in server.build_status(self.root)['confirmations']])
+
+    def test_comment_on_generated_question_does_not_duplicate_card(self):
+        card = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'q-002')
+        server.submit_confirmation_comment(card['id'], card['confirmationToken'], '補上 C 選項。', self.root)
+        cards = server.build_status(self.root)['confirmations']
+        self.assertEqual(sum(c['id'] == 'q-002' for c in cards), 1)
+        self.assertEqual(next(c for c in cards if c['id'] == 'q-002')['userComments'][0]['text'], '補上 C 選項。')
+
+    def test_late_comment_after_approval_reopens_for_followup(self):
+        card = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
+        server.resolve_confirmation('ask', card['confirmationToken'], self.root)
+        server.submit_confirmation_comment('ask', card['confirmationToken'], '另一頁原圖還缺一張。', self.root)
+        pending = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
+        self.assertTrue(pending['feedbackPending'])
+        self.assertEqual(pending['questions'], card['questions'])
+        self.assertEqual(len(server.read_json(self.root/'monitor/confirmations.json')['resolved']), 1)
+
+    def test_stale_or_invalid_comment_cannot_change_confirmation(self):
+        card = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
+        records = server.read_json(self.root/'monitor/confirmations.json')
+        records['requests'][0]['questions'] = ['新版本的問題']
+        self.write('monitor/confirmations.json', records)
+        with self.assertRaises(server.ConfirmationConflict):
+            server.submit_confirmation_comment('ask', card['confirmationToken'], '舊版本的意見', self.root)
+        for comment in ('', ' ', 'x'*2001, None):
+            with self.assertRaises(ValueError):
+                server.submit_confirmation_comment('ask', card['confirmationToken'], comment, self.root)
+        self.assertFalse(server.read_json(self.root/'monitor/confirmations.json').get('feedback'))
+
     def test_simultaneous_confirmations_do_not_lose_records(self):
         cards = server.build_status(self.root)['confirmations']
         with ThreadPoolExecutor(max_workers=2) as pool:
@@ -346,6 +394,39 @@ class MonitorTest(unittest.TestCase):
                     with urllib.request.urlopen(urllib.request.Request(base+'/api/confirm', data=body, headers=headers)) as response:
                         self.assertEqual(json.load(response), {'ok': True, 'id': 'ask'})
                 self.assertEqual(len(server.read_json(self.root/'monitor/confirmations.json')['resolved']), 1)
+            finally:
+                http.shutdown()
+                http.server_close()
+                thread.join()
+
+    def test_http_comment_is_not_approval_and_blank_comment_is_approval(self):
+        with patch.object(server, 'ROOT', self.root):
+            http = ThreadingHTTPServer(('127.0.0.1', 0), server.Handler)
+            thread = threading.Thread(target=http.serve_forever, daemon=True)
+            thread.start()
+            base = f'http://127.0.0.1:{http.server_port}'
+            card = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
+            payload = {'id':'ask', 'confirmationToken':card['confirmationToken']}
+            headers = {'Content-Type':'application/json', 'X-TestReview-Action':'confirm', 'Origin':base}
+            def post(comment):
+                body = json.dumps(dict(payload, comment=comment), ensure_ascii=False).encode()
+                return urllib.request.urlopen(urllib.request.Request(base+'/api/confirm', data=body, headers=headers))
+            try:
+                for invalid in (None, 12, [], '字'*2001):
+                    with self.assertRaises(urllib.error.HTTPError) as caught:
+                        post(invalid)
+                    self.assertEqual(caught.exception.code, 400)
+                for _ in range(2):
+                    with post('這是意見，請修改選項。') as response:
+                        self.assertEqual(json.load(response), {'ok':True, 'id':'ask', 'state':'feedback_pending'})
+                records = server.read_json(self.root/'monitor/confirmations.json')
+                self.assertEqual(records['resolved'], [])
+                self.assertEqual(len(records['feedback']), 1)
+                with post(' \n ') as response:
+                    self.assertEqual(json.load(response), {'ok':True, 'id':'ask'})
+                records = server.read_json(self.root/'monitor/confirmations.json')
+                self.assertEqual(len(records['resolved']), 1)
+                self.assertEqual(records['feedback'][0]['state'], 'addressed')
             finally:
                 http.shutdown()
                 http.server_close()

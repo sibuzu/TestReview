@@ -244,9 +244,24 @@ def build_status(root=ROOT):
     for request in requests.get('requests', []):
         if request.get('state') == 'pending':
             confirmations.append(request)
+    pending_feedback = {}
+    for item in requests.get('feedback', []):
+        if item.get('state') == 'pending':
+            pending_feedback.setdefault(item['id'], []).append(item)
+    # A comment submitted from another still-open tab also remains actionable
+    # after an earlier approval; retain the exact version that prompted it.
+    for request_id, items in pending_feedback.items():
+        if not any(c['id'] == request_id for c in confirmations):
+            confirmations.append(items[-1]['requestSnapshot'])
     acknowledged = {(r['id'], r.get('confirmationToken')) for r in requests.get('resolved', [])}
     confirmations = [dict(c, confirmationToken=confirmation_token(c)) for c in confirmations
-                     if (c['id'], confirmation_token(c)) not in acknowledged]
+                     if c['id'] in pending_feedback or (c['id'], confirmation_token(c)) not in acknowledged]
+    for card in confirmations:
+        comments = [dict(text=f['text'], submittedAt=f['submittedAt'], state=f['state'],
+                         basedOnPreviousVersion=f['confirmationToken'] != card['confirmationToken'])
+                    for f in requests.get('feedback', []) if f['id'] == card['id']]
+        if comments:
+            card.update(userComments=comments, feedbackPending=card['id'] in pending_feedback)
     if comics:
         waiting_ids = {e['id'] for e in entries if e['state']=='awaiting_confirmation'}
         pipeline_path = root/'docs/comics/pipeline.json'
@@ -311,8 +326,39 @@ def resolve_confirmation(request_id, token, root=ROOT, resolution='使用者在 
             raise ConfirmationConflict('內容已更新，請重新查看後再確認。')
         result = dict(current, state='resolved', resolution=resolution,
                       resolvedAt=datetime.now(timezone.utc).isoformat())
+        for item in records.get('feedback', []):
+            if item['id'] == request_id and item.get('state') == 'pending':
+                item.update(state='addressed', addressedAt=result['resolvedAt'], resolution=resolution)
+        if result.get('userComments'):
+            result['userComments'] = [dict(c, state='addressed') for c in result['userComments']]
         records['requests'] = [r for r in records.get('requests', []) if r['id'] != request_id]
         records.setdefault('resolved', []).append(result)
+        return result
+
+
+def submit_confirmation_comment(request_id, token, comment, root=ROOT):
+    if not isinstance(comment, str) or not comment.strip() or len(comment) > 2000:
+        raise ValueError('意見請填寫1至2000字。')
+    comment = comment.strip()
+    with edit_confirmations(root) as records:
+        current = next((r for r in build_status(root)['confirmations'] if r['id'] == request_id), None)
+        if current is None:
+            current = next((r for r in reversed(records.get('resolved', []))
+                            if r['id'] == request_id and r.get('confirmationToken') == token), None)
+        if current is None:
+            raise KeyError(request_id)
+        if confirmation_token(current) != token:
+            raise ConfirmationConflict('內容已更新，請重新查看後再送出意見。')
+        previous = next((f for f in records.get('feedback', [])
+                         if f['id'] == request_id and f['confirmationToken'] == token
+                         and f['text'] == comment and f.get('state') == 'pending'), None)
+        if previous:
+            return previous
+        result = dict(id=request_id, confirmationToken=token, text=comment, state='pending',
+                      submittedAt=datetime.now(timezone.utc).isoformat(),
+                      requestSnapshot={k:v for k,v in current.items()
+                                       if k not in ('userComments','feedbackPending')})
+        records.setdefault('feedback', []).append(result)
         return result
 
 
@@ -374,14 +420,22 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(b'JSON required', 'text/plain', 415)
         try:
             length = int(self.headers.get('Content-Length', '0'))
-            if not 0 < length <= 8192:
+            if not 0 < length <= 16384:
                 raise ValueError('Invalid body length')
             payload = json.loads(self.rfile.read(length))
-            if (not isinstance(payload, dict) or set(payload) != {'id', 'confirmationToken'} or
-                    not all(isinstance(v, str) and v for v in payload.values())):
+            if (not isinstance(payload, dict) or not {'id', 'confirmationToken'} <= set(payload)
+                    or set(payload) - {'id', 'confirmationToken', 'comment'}
+                    or not all(isinstance(payload[k], str) and payload[k] for k in ('id', 'confirmationToken'))
+                    or not isinstance(payload.get('comment', ''), str)
+                    or len(payload.get('comment', '')) > 2000):
                 raise ValueError('Invalid confirmation')
-            result = resolve_confirmation(payload['id'], payload['confirmationToken'], root=ROOT)
-            return self.respond(json.dumps({'ok': True, 'id': result['id']}).encode(), 'application/json')
+            if payload.get('comment', '').strip():
+                result = submit_confirmation_comment(payload['id'], payload['confirmationToken'], payload['comment'], root=ROOT)
+                response = {'ok': True, 'id': result['id'], 'state': 'feedback_pending'}
+            else:
+                result = resolve_confirmation(payload['id'], payload['confirmationToken'], root=ROOT)
+                response = {'ok': True, 'id': result['id']}
+            return self.respond(json.dumps(response).encode(), 'application/json')
         except ConfirmationConflict as error:
             return self.respond(json.dumps({'error': str(error)}, ensure_ascii=False).encode(), 'application/json', 409)
         except KeyError:

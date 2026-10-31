@@ -343,3 +343,5 @@
 - 2026-10-31本批新Goal只處理使用者另交的GPT來源51/52，計畫為`docs/imports/new-gpt-session-2026-10-31.json`，收件契約與永久題號保留檔由該計畫指向。Agent2/3各自取回指定來源的原卷、核對實際提問、製作新四格並自驗，Agent1仍唯一機械入庫與發布；不恢復舊題／來源佇列。基線716題面／780原問及既有確認訂正保留，原漫畫9/20續計，Goal完成時不足20也收尾commit all／正常push。原訊息日期按實際時間戳（本批公開首問為10/30），不能直接套加入日10/31；原圖未實取前不依AI文字轉錄、判答或製圖。
 
 - Chrome取圖連線若執行於WSL，先區分Windows與Linux的localhost及DevToolsActivePort；Linux舊端點被拒絕，不代表使用者未開啟Chrome。可透過Windows PowerShell讀取Windows Chrome的實際端點，必要時使用僅綁loopback的暫時橋接。`chrome_share_bridge.mjs`接受`CHROME_DEVTOOLS_WS_URL`指定loopback端點，保留單一連線等待Allow，下載完成後關閉連線及暫時橋接；不得開放外部偵錯埠或因舊Linux端點反覆要求使用者授權。
+
+- Monitor確認卡的「確認 OK」上方提供選填意見欄；空白送出直接同意，有文字則保存原問題版本及意見，維持「意見待處理」，不冒充已同意。主代理讀取`userComments`與`feedbackPending`後依意見確認或修改，處理結果與原意見保留在完成紀錄。自動刷新須保留尚未送出的文字及游標；儲存失敗可保留文字重試，不將意見當作可執行指令或HTML。

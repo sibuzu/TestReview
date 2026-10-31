@@ -1,0 +1,101 @@
+{
+  "id": "q-900",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第5題｜兩組等差中項",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "若a與b的等差中項為5，a＋b與2a−b的等差中項為18，則a−b之值為何？\n(A) 10\n(B) 12\n(C) 14\n(D) 16",
+  "answer": "(C) 14",
+  "explanation": "兩數的等差中項是它們的平均。由(a＋b)/2＝5，得到a＋b＝10。第二組由[(a＋b)＋(2a−b)]/2＝18，合併b與−b後為3a/2＝18，所以a＝12。再由a＋b＝10，得b＝−2，因此a−b＝12−(−2)＝14，選C。回代第二組兩端為10與26，平均確為18。",
+  "trap": "等差中項是平均數；求得負的b後，a−b要減去整個負數。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "兩組等差中項"
+  ],
+  "images": [
+    "assets/originals/q-900-original-a-math-79108c321475.webp"
+  ],
+  "sourceLabel": "分享原卷｜第5題",
+  "studentAnswer": "B",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "10是a＋b，不是題目要的a−b。"
+    },
+    {
+      "label": "B",
+      "text": "12",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "12是a，不是a−b。"
+    },
+    {
+      "label": "C",
+      "text": "14",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "a＝12、b＝−2，差為14。"
+    },
+    {
+      "label": "D",
+      "text": "16",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "16不符合兩組等差中項條件。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "art": "assets/comics/q-900-new-art-fb2c5ee98875.svg",
+    "title": "等差中項就是兩端的平均",
+    "panels": [
+      {
+        "heading": "① 第一組：a＋b＝10",
+        "text": "兩端平均5，所以兩端和為10。圖用算出的b＝−2、a＝12驗算，中點正好5。",
+        "alt": "同尺度數線−2到12，中點5，兩半長度相等。"
+      },
+      {
+        "heading": "② 第二組：3a＝36",
+        "text": "(a＋b)＋(2a−b)＝36，b相消，得a＝12；回查10與26的中點是18。",
+        "alt": "數線10到26，中點18，左右各距8。"
+      },
+      {
+        "heading": "③ 求的是差，不是和",
+        "text": "a＝12、b＝−2，a−b＝14。減負數要加回，數線距離也正好14。",
+        "alt": "從−2到12的正向差距14。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：14",
+      "points": [
+        "a＋b＝10。",
+        "3a＝36，得a＝12。",
+        "b＝−2，故a−b＝14。"
+      ]
+    },
+    "protectedWords": [
+      "a＋b＝10",
+      "3a＝36",
+      "a＝12",
+      "b＝−2",
+      "a−b＝14"
+    ]
+  }
+}

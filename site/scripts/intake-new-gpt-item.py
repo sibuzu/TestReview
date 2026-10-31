@@ -182,7 +182,17 @@ def main(manifest_path, item_id=None):
     source_id = source['id']
     order = source_row(source_id)['order']
     lane = int(review['reviewerAgent'].rsplit('_', 1)[-1])
-    assert lane in (2, 3), 'Record the actual producer, independently of source ownership'
+    if lane == 1:
+        # A source owner may explicitly hand a verified question to the idle
+        # integrator for one diagram/self-QA; never misattribute that QA.
+        handoff = load(checked(manifest['handoffPath']))
+        assert handoff['owner'] == '/root/comic_lane_1'
+        assert handoff['id'] == question['id'] and handoff['sourceId'] == source_id
+        checked(handoff['questionPath'], handoff['questionSHA256'])
+        assert review.get('contentHandoff') == manifest['handoffPath']
+        assert review.get('originalContentProducer') in ('/root/comic_lane_2', '/root/comic_lane_3')
+    else:
+        assert lane in (2, 3), 'Record the actual producer, independently of source ownership'
     timestamp = now()
     with locked(ROOT):
         additional = load(ROOT/'docs/additional-questions.json')

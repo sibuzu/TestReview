@@ -1,0 +1,106 @@
+{
+  "id": "q-896",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第20題｜剩餘面積與質數條件",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "如右圖，大銘在一張邊長為4x＋3的正方形紙卡內剪下一邊長為3x＋5的正方形，若x為正整數，且剩下的紙卡部分面積為質數P，則P之值為何？\n(A) 19\n(B) 23\n(C) 29\n(D) 31",
+  "answer": "(C) 29",
+  "explanation": "外正方形邊長必須大於內正方形，故4x＋3＞3x＋5，得x＞2。剩餘面積P＝(4x＋3)²−(3x＋5)²＝[(4x＋3)−(3x＋5)][(4x＋3)＋(3x＋5)]＝(x−2)(7x＋8)。x為正整數且x＞2，兩因數都是正整數，而7x＋8＞1。乘積為質數時，只能讓較小因數x−2＝1，因此x＝3、P＝29。回代外邊15、內邊14，225−196＝29，與選C相符。",
+  "trap": "先保證內邊小於外邊、因數為正，再用質數只有1與自身兩個正因數。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "剩餘面積與質數條件"
+  ],
+  "images": [
+    "assets/originals/q-896-original-a-math-8c926f66d646.webp"
+  ],
+  "sourceLabel": "分享原卷｜第20題",
+  "studentAnswer": "A",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "19",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "質數條件推出x＝3，實際面積不是19。"
+    },
+    {
+      "label": "B",
+      "text": "23",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "回代x＝3所得225−196不是23。"
+    },
+    {
+      "label": "C",
+      "text": "29",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "x＝3時，P＝(3−2)(21＋8)＝29。"
+    },
+    {
+      "label": "D",
+      "text": "31",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "31不是本題幾何及整數條件推出的剩餘面積。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/q-896-given-a-math-3c75a05a42fc.webp",
+      "alt": "原卷外邊4x＋3、內邊3x＋5的兩個正方形。",
+      "caption": "原卷作答附圖；與必要內容重疊的原筆跡依使用者規則保留。"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "art": "assets/comics/q-896-new-art-103ee8a0ee5f.svg",
+    "title": "平方差拆成正整數乘積",
+    "panels": [
+      {
+        "heading": "① 外面積減裡面積",
+        "text": "P＝(4x＋3)²−(3x＋5)²＝(x−2)(7x＋8)。圖先用最後x＝3的15與14回查。",
+        "alt": "外邊15、內邊14的精確同心正方形，是x＝3回查示例。"
+      },
+      {
+        "heading": "② 質數要讓小因數等於1",
+        "text": "x＞2，兩因數都為正；7x＋8＞1，所以x−2只能是1，得到x＝3。",
+        "alt": "15×15減14×14的等面積L形重排，保留29個單位格。"
+      },
+      {
+        "heading": "③ 回代後得到29",
+        "text": "x＝3時，225−196＝29＝1×29。細長條正好29格，不把負式值當邊長。",
+        "alt": "29個等寬單位格組成1×29的長條。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：29",
+      "points": [
+        "先用外邊大於內邊，得x＞2。",
+        "兩因數為正整數才用質數條件。",
+        "x＝3時，外邊15、內邊14。"
+      ]
+    },
+    "protectedWords": [
+      "(x−2)(7x＋8)",
+      "x−2＝1",
+      "x＝3",
+      "225−196＝29"
+    ]
+  }
+}

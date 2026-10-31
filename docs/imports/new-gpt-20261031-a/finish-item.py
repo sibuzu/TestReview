@@ -6,6 +6,8 @@ s.update(completedAt=stamp,endedMonotonicNs=end,durationSeconds=duration if dura
 qp=P/'questions'/f'{qid}.json';q=json.loads(qp.read_text());auto=P/'qa'/f'{qid}-validation.json';assert json.loads(auto.read_text())['passed']
 viewed=[f'docs/imports/new-gpt-20261031-a/qa/{qid}-app-{kind}-{width}.png' for kind in ['question','comic'] for width in [1440,390]]+[f'.cache/new-gpt-20261031-a-publish/{qid}-original.webp']
 review=dict(id=qid,passed=True,reviewerAgent='/root/comic_lane_2',checkedAt=stamp,questionPath=str(qp.relative_to(R)),questionSHA256=sha(qp),automatedValidation=str(auto.relative_to(R)),automatedValidationSHA256=sha(auto),comicPreviewValidation=f'docs/comics/{qid}-preview-validation.json',appAndStandaloneWidths=[1440,1120,390],actualViewed=viewed,actualViewScope='實看原卷裁圖、app完整題目及全部四格1440/390；app/standalone三寬皆程式核對，不冒稱standalone實看。',completeOriginalAndOptions=True,necessaryFiguresVisuallyChecked=True,newComicRawVisuallyChecked=True,answerDefaultCollapsed=True,noOverflow=True,personalCloudRequestsAborted=True,sourceGeneratedArtUsed=False,newSubstantiveIssues=[])
+if qid=='q-882':
+ review['newSubstantiveIssues']=[dict(kind='original_wording_clarification',questionUnchanged=True,answerUnchanged='B',sourceAIAlreadyClarifies=True,rootNotified=True,contentReview='docs/imports/new-gpt-20261031-a/reviews/q-882-content.json')]
 rp=P/'qa'/f'{qid}-reviewed.json';dump(rp,review)
 allAssets=json.loads((P/'asset-map.json').read_text());targets=set(q['images']+[q['teachingComic']['art']]+[f['src'] for f in q.get('questionFigures',[])])
 assets=[a for a in allAssets if a['targetPath'] in targets];assert len(assets)>=2

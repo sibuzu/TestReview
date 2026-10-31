@@ -1,0 +1,101 @@
+{
+  "id": "q-902",
+  "sourceId": "src-more-051",
+  "subject": "Math",
+  "title": "數學第6題｜等比數列的隔項與倍乘",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-10-30",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-10-31",
+  "question": "若將等比數列a₁，−35，a₃，−315，a₅，……，a₇的各項乘上(−5)，則新數列的公比為何？\n(A) ±3\n(B) −3\n(C) ±15\n(D) −15",
+  "answer": "(A) ±3",
+  "explanation": "已知−35是第2項，−315是第4項，兩者相隔2次公比。設原公比r，則(−315)/(−35)＝r²＝9，所以r＝3或−3，不能只留其中一個。每項同乘非零常數−5後，相鄰兩項的新比值為[(−5)aₙ₊₁]/[(−5)aₙ]＝aₙ₊₁/aₙ＝r，公比不變。因此新公比也為±3，選A。乘的是各項，不是把公比再乘−5。",
+  "trap": "相隔2次公比要平方；各項同乘非零數，公比保持不變。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "完整原題、全部選項與必要圖已實看；代數獨立驗算。日期採原始使用者出題日期，不冒稱考試日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "等比數列的隔項與倍乘"
+  ],
+  "images": [
+    "assets/originals/q-902-original-a-math-737e5a2f7ae8.webp"
+  ],
+  "sourceLabel": "分享原卷｜第6題",
+  "studentAnswer": "C",
+  "contentStatus": "完整原題",
+  "correctOption": "A",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "±3",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "隔2項得r²＝9，且整列同乘−5不改公比，故±3。"
+    },
+    {
+      "label": "B",
+      "text": "−3",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "只保留負公比，漏掉r＝3的可能。"
+    },
+    {
+      "label": "C",
+      "text": "±15",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "把各項倍乘錯當成公比倍乘，且倍率處理錯誤。"
+    },
+    {
+      "label": "D",
+      "text": "−15",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "把各項乘−5錯誤套用到公比，並漏掉另一種符號。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "art": "assets/comics/q-902-new-art-e4160caddee2.svg",
+    "title": "隔兩項看平方，整列倍乘不改公比",
+    "panels": [
+      {
+        "heading": "① 第2到第4項走兩步",
+        "text": "−315÷(−35)＝9＝r²；中間還隔著第3項，不能當成只乘一次r。",
+        "alt": "第2、3、4項的三節點與兩段相同公比弧線。"
+      },
+      {
+        "heading": "② r的正負都可能",
+        "text": "r²＝9，所以r＝3或−3。只給這兩個偶數項，無法排除其中一種符號。",
+        "alt": "數線上的−3與3兩個對稱可行值，標籤由HTML說明。"
+      },
+      {
+        "heading": "③ 每項乘−5會約掉",
+        "text": "新相鄰項比值為[(−5)aₙ₊₁]/[(−5)aₙ]，倍率約掉，仍為原公比r。",
+        "alt": "上下兩條等比節點鏈逐項同倍率對應，連結步數相同。"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 A：±3",
+      "points": [
+        "隔兩項，所以得到r²。",
+        "r＝3與r＝−3都符合。",
+        "非零倍乘改項值，不改相鄰項比。"
+      ]
+    },
+    "protectedWords": [
+      "r²＝9",
+      "r＝3",
+      "r＝−3",
+      "±3",
+      "非零"
+    ]
+  }
+}

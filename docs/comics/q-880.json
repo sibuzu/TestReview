@@ -1,0 +1,84 @@
+{
+  "title": "出口受限，買家轉向替代供應",
+  "panels": [
+    {
+      "heading": "① 甲作物是水稻",
+      "text": "印度與泰國的稻米出口，以及題述2023年出口限制，指向水稻。不能只因印度也種小麥就選A。",
+      "alt": "新製動漫稻田場景：成熟下垂稻穗與淺水田，學生觀察農人手中的稻穗；不是小麥田。"
+    },
+    {
+      "heading": "② 可供出口的米減少",
+      "text": "部分稻米出口受限，國際市場短期內可供交易的米減少。這是部分品項的管制，不代表所有稻米都禁運。",
+      "alt": "新製港口情境：部分米袋留在倉庫，另一通道仍有貨物作業；不冒稱所有出口或航運停擺。"
+    },
+    {
+      "heading": "③ 買家轉找泰國等供應國",
+      "text": "買家改向替代供應國採購，短期供給難以立即大增，可能推高泰國米價。不是說全球稻米消費量必然增加。",
+      "alt": "新製泰式稻米市場場景：米袋、白米與採購者；沒有虛構價格數字或歷史現場照片。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：水稻",
+    "points": [
+      "題述作物是稻米，其作物為水稻。",
+      "限制出口會減少短期國際可交易供給。",
+      "替代採購使泰國等供應國的價格受影響。"
+    ]
+  },
+  "protectedWords": [
+    "水稻",
+    "稻米",
+    "印度",
+    "泰國",
+    "2023年",
+    "替代供應國",
+    "國際市場",
+    "出口限制"
+  ],
+  "rationale": "新製稻田、部分出口受限、替代採購三個無字情境，讓水稻與市場傳導有具體視覺線索；因果與部分品項限制用HTML精確說明，插畫不捏造價格或政策比例。",
+  "promptFile": "docs/imports/new-gpt-20261031-a/prompts/q-880.txt",
+  "sources": [
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1941139",
+      "note": "2023-07-20政府原公告：非巴斯馬蒂白米出口限制，其他主要類別並非全部禁止。"
+    }
+  ],
+  "id": "q-880",
+  "subject": "Geography",
+  "art": "docs/comics/art/q-880.png",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new_builtin_imagegen",
+  "generationCalls": 1,
+  "sourceGeneratedArtUsed": false,
+  "sourceOriginalImage": ".cache/new-gpt-20261031-a-originals/user-004.jpg",
+  "sourceOriginalSHA256": "b31e034c1b8d00c852f3ae65d2208bb277bcd079d1aad33c8bbcdbaee5adb221",
+  "sourceQuestionNumber": 21,
+  "startedAt": "2026-10-31T10:15:25.520705+00:00",
+  "startedMonotonicNs": 841946051048611,
+  "timingScope": "本題專屬稿、原生SVG與隔離QA；不含先前來源取得與整批原卷預讀",
+  "completedAt": "2026-10-31T10:17:45.093500+00:00",
+  "endedMonotonicNs": 842082806369859,
+  "durationSeconds": 136.755321248,
+  "timingValid": true,
+  "monotonicClockHost": "same-execution-host",
+  "excludeFromSpeedStatistics": true,
+  "speedStatisticsExclusionReason": "本題草稿至QA時段含工具、協調及同路穿插工作，非純imagegen耗時；如有產圖，另見generationTiming",
+  "visualChecked": true,
+  "nativeArt": "assets/comics/q-880-new-art-4e865d00338b.webp",
+  "rootReview": {
+    "visualChecked": true,
+    "reviewerAgent": "/root/comic_lane_2",
+    "inheritedProducerQA": "docs/imports/new-gpt-20261031-a/qa/q-880-reviewed.json",
+    "mechanicalIntegrator": "/root/comic_lane_1",
+    "actualViewed": [
+      "docs/imports/new-gpt-20261031-a/qa/q-880-app-question-1440.png",
+      "docs/imports/new-gpt-20261031-a/qa/q-880-app-question-390.png",
+      "docs/imports/new-gpt-20261031-a/qa/q-880-app-comic-1440.png",
+      "docs/imports/new-gpt-20261031-a/qa/q-880-app-comic-390.png",
+      ".cache/new-gpt-20261031-a-publish/q-880-original.webp"
+    ],
+    "checkedAt": "2026-10-31T10:17:45.093500+00:00"
+  },
+  "checkedAt": "2026-10-31T10:17:56.317965+00:00",
+  "validationFile": "docs/comics/q-880-validation.json"
+}

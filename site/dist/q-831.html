@@ -31,6 +31,33 @@ Sandy: Maybe she is sick.
 @container (max-width:680px){.native-comic .comic-grid{grid-template-columns:minmax(0,1fr)}}
 @container (max-width:360px){.native-comic .comic-cell{grid-template-columns:115.2px minmax(0,1fr);gap:8px;padding:8px}.native-comic .comic-art{width:115.2px}}
 @container (max-width:280px){.native-comic .comic-cell{grid-template-columns:76.8px minmax(0,1fr)}.native-comic .comic-art{width:76.8px}}
+.native-comic .comic-caption{grid-column:1/-1;color:#335e61;font-weight:600;border-bottom:1px solid #d6e1df;padding-bottom:7px}
+.native-comic .comic-cell.has-diagram{grid-template-columns:minmax(0,1fr);align-content:start}
+.native-comic .comic-diagram{min-width:0;padding:12px;border:1px solid #c8d8d4;border-radius:10px;background:#f7faf9}
+.native-comic .comic-diagram .comic-text{display:block;min-width:0}
+.native-comic .comic-diagram strong.comic-text{font-weight:600}
+.native-comic .comic-diagram .diagram-title{font-weight:600;margin-bottom:10px;color:#335e61}
+.native-comic .tone-blue{--diagram-color:#446f9f;--diagram-soft:#e8f0fa}
+.native-comic .tone-green{--diagram-color:#278574;--diagram-soft:#e0f3eb}
+.native-comic .tone-gold{--diagram-color:#a16d1d;--diagram-soft:#fcf0db}
+.native-comic .tone-purple{--diagram-color:#7d5f9f;--diagram-soft:#f1eaf9}
+.native-comic .diagram-node,.native-comic .diagram-set,.native-comic .diagram-summand{background:var(--diagram-soft);border:1.5px solid var(--diagram-color);border-radius:8px;padding:10px;min-width:0}
+.native-comic .diagram-set>.diagram-set{margin:12px 0 0 12px}
+.native-comic .diagram-inputs{display:grid;gap:8px}
+.native-comic .comic-diagram .diagram-arrow{margin:6px 0;color:#815e29;font-weight:600}
+.native-comic .comic-diagram .diagram-note{margin-top:10px;color:#54665f}
+.native-comic .diagram-detail{margin-top:4px;color:#54665f}
+.native-comic .diagram-bar-row+.diagram-bar-row{margin-top:10px}
+.native-comic .diagram-track{height:16px;background:#e5ecef;border-radius:4px;margin-top:4px;overflow:hidden}
+.native-comic .diagram-fill{height:100%;background:var(--diagram-color);border-radius:4px}
+.native-comic .diagram-sum-segments{display:flex;gap:3px;min-width:0}
+.native-comic .diagram-legend{display:grid;gap:6px;margin-top:8px}
+.native-comic .diagram-summand{flex-basis:0;padding:8px}
+.native-comic .comic-diagram .diagram-equation{margin-top:10px;font-weight:600}
+.native-comic .diagram-change+.diagram-change{margin-top:14px}
+.native-comic .diagram-change-lines{padding:6px 0 0 10px;border-left:2px solid var(--diagram-color)}
+.native-comic .diagram-before{border-bottom:2px dashed var(--diagram-color);padding-bottom:4px}
+.native-comic .diagram-after{border-bottom:3px solid var(--diagram-color);padding-bottom:4px}
 </style><script>const e=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));// Word-aware, measured paragraph wrapping. No character-by-character fallback.
 function wrapComicText(text, maxWidth, measure, protectedWords=[]) {
  const segmenter=new Intl.Segmenter('zh-Hant',{granularity:'word'});

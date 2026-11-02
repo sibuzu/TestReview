@@ -1,0 +1,77 @@
+{
+  "sourceId": "src-more-053",
+  "url": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+  "status": "ready",
+  "producer": "/root/comic_lane_2",
+  "questionPath": "docs/imports/new-gpt-20261103-a/questions.json",
+  "questionSHA256": "7654f584aaa10f7bae2a7f034903306d70f1287ef1c3c484a8fe40ebe45a39cd",
+  "originalQuestionCount": 5,
+  "questionPageCount": 4,
+  "originalQuestionNumbers": [
+    6,
+    12,
+    31,
+    42,
+    43
+  ],
+  "sourceAIImagesAdopted": false,
+  "teachingComicState": "queued_after_intake",
+  "pendingReviews": [],
+  "skips": [
+    {
+      "kind": "unasked_printed_question",
+      "numbers": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        29,
+        30
+      ],
+      "reason": "同張原卷包含其他題，但使用者未問；不因同卷或有紅字就擴張本次範圍。"
+    },
+    {
+      "kind": "ai_generated_extension",
+      "reason": "來源中的cost小測驗及兩題考前自測為AI另編，非原卷錯題，排除。"
+    }
+  ],
+  "visualReview": {
+    "originalsViewed": [
+      "docs/source-pages/chatgpt-6ae8b58d-1.jpg",
+      "docs/source-pages/chatgpt-6ae8b58d-2.jpg",
+      "docs/source-pages/chatgpt-6ae8b58d-3.jpg",
+      "docs/source-pages/chatgpt-6ae8b58d-4.jpg"
+    ],
+    "cropsViewed": [
+      "docs/imports/new-gpt-20261103-a/originals/original-6.png",
+      "docs/imports/new-gpt-20261103-a/originals/original-12.png",
+      "docs/imports/new-gpt-20261103-a/originals/original-31-passage.png",
+      "docs/imports/new-gpt-20261103-a/originals/original-31-question.png",
+      "docs/imports/new-gpt-20261103-a/originals/original-42-43.png"
+    ],
+    "allOriginalsReadable": true,
+    "allCropsComplete": true,
+    "checkedOriginalText": true,
+    "checkedAllOptions": true,
+    "checkedNecessaryMaterials": true,
+    "checkedAnswers": true,
+    "notes": "第6藍筆原選遭覆寫，不猜原作答；紅筆B清楚，題幹與四選項完整。第31完整保留評論與店主回覆，未只摘取AI引用段落。"
+  },
+  "dedupe": {
+    "keywords": [
+      "Mr. Robinson",
+      "those plates",
+      "Lily Pie",
+      "mouth and foot"
+    ],
+    "indexSearchResults": "4組獨特關鍵詞及5個逐題candidates檢索均無任何exact/similar/sharedMaterial候選。",
+    "exactContentChecked": true,
+    "reportPath": "docs/imports/new-gpt-20261103-a/dedupe-candidates.json",
+    "allFiveOriginalsHaveNoCandidates": true
+  },
+  "contentFrozen": true,
+  "originalTypographicNote": "原題／選項／文章保留印刷彎撇號；新編解說使用ASCII撇號。"
+}

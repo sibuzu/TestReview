@@ -1,0 +1,89 @@
+{
+  "id": "q-915",
+  "subject": "English",
+  "title": "想捐款卻受限，改用購買支持",
+  "art": "docs/comics/art/q-915.png",
+  "panels": [
+    {
+      "heading": "① 想捐款，卻沒辦法這麼做",
+      "text": "第43空前說作者想捐款感謝畫家，後面卻說只能透過協會幫助。這個轉折的限制，接著由文章說明。",
+      "alt": "動漫示意：作者想捐款，協會人員溫和婉拒，沒有責備或否定作者的善意。"
+    },
+    {
+      "heading": "② 原因是協會不收捐款",
+      "text": "協會把畫作製成商品販售，不接受直接捐款。讓藝術家靠作品銷售賺錢很有意義，並不是作者沒有錢。",
+      "alt": "動漫示意：協會人員介紹卡片、杯子和提袋等作品商品；角色、用途與限制由HTML明示。"
+    },
+    {
+      "heading": "③ 可以改用購買商品支持",
+      "text": "there was no way to do this的this，指前面的「直接捐款」。仍能購買商品支持，不是完全沒有任何幫助的方法。",
+      "alt": "動漫示意：作者付款購買藝術卡片，店員交付商品，表示交易而非直接捐款。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：but there was no way to do this",
+    "points": [
+      "but連接「想捐款」與「無法直接捐款」的轉折。",
+      "第43空的this＝捐款；和第42空的指代不同。",
+      "後文證據：協會不接受捐款，改以銷售作品商品支持。"
+    ]
+  },
+  "protectedWords": [
+    "第43空",
+    "協會",
+    "直接捐款",
+    "藝術家",
+    "購買商品",
+    "第42空",
+    "no way"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-053-original-42-43-1dce73526e01.png"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "已完整讀取42/43共同文章及43四選項，維持A；第43空this指捐款，不混同42指代。"
+  },
+  "rationale": "全新動漫依捐款婉拒、作品商品、購買交易三情境說明受限的方式。HTML逐格標明行為與角色，精確限定無法直接捐款，不誤說完全不能支持藝術家或作者缺錢。",
+  "generationMethod": "built-in image_gen; fresh text-free anime triptych",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "sourceGeneratedArtUsed": false,
+  "promptFile": "docs/comics/q-915-prompt.txt",
+  "artSHA256": "83124a20f3e183f5018cbf5ec962ab5f19b9f60112bdc86b2abb5b21970759a0",
+  "createdAt": "2026-11-02T17:37:46.546655+00:00",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "producerAgent": "/root/comic_lane_2",
+  "previewValidation": "docs/comics/q-915-preview-validation.json",
+  "visualReview": "實看新無字動漫全圖及1440/390成品：婉拒捐款、作品商品、購買交易情境清楚對應；第43空A與this僅指直接捐款的限制無誤。長英文片語按字詞自然換行，未將整句保護造成窄欄溢出。三寬pass、同行等高與單欄自然高度。",
+  "checkedAt": "2026-11-02T17:39:14.588163+00:00",
+  "nativeArt": "assets/comics/q-915-art-83124a20f3-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-02T17:39:14.556621+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-915-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、解碼與選項答案保持。"
+  },
+  "validationFile": "docs/comics/q-915-validation.json"
+}

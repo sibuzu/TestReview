@@ -2,23 +2,23 @@
   "id": "q-881",
   "subject": "Civics",
   "title": "返還、和解，與追訴分開看",
-  "art": "docs/comics/art/q-881.svg",
+  "art": "docs/comics/art/q-881-polish.png",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 拿走別人遺留的錢",
       "text": "男子把前一位使用者忘記拿走的鈔票收為己用，題目指向侵占案件。",
-      "alt": "提款機內遺留鈔票的示意，不臆造金額。"
+      "alt": "虛構成年男子在提款機前發現前位使用者遺留的鈔票。"
     },
     {
       "heading": "② 返還可以處理財物問題",
       "text": "歸還與賠償和解有助處理被害人的損失，但不等於刑事案件必然消失。",
-      "alt": "鈔票返還失主的箭頭。"
+      "alt": "男子在協調桌前返還財物，協調不表示刑事責任自動消滅。"
     },
     {
       "heading": "③ 刑事責任仍可能存在",
       "text": "本案非告訴乃論，和解後仍可能追訴；告訴由被害人提出，公訴由檢察官提起。",
-      "alt": "上方返還財物，下方刑事程序仍持續的兩條路徑。"
+      "alt": "虛構成年檢察官仍在辦公室審閱案件資料，不預定判決結果。"
     }
   ],
   "fourth": {
@@ -40,24 +40,42 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "使用者指定精緻重製：提款機遺留鈔票、返還協商、檢察官續查三情境，保留告訴與公訴及和解不當然消滅刑責的既有解說。",
+  "generationMethod": "built-in image_gen; new refined colorful anime triptych",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-881-new-art-bf6267bf7731.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-881-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-881-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-881-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-881-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-881-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:48:48.920911+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:51:12.715711+00:00",
+  "styleReferences": [
+    "q-153",
+    "q-154"
+  ],
+  "createdAt": "2026-10-31T17:00:13.250085+00:00",
+  "artSHA256": "08a2f49268319b51b7e4e851d1312d4afcb19094cab8e5ef378ad61e63342b1a",
+  "promptFile": "docs/comics/q-881-polish-prompt.txt",
+  "previewValidation": "docs/comics/q-881-preview-validation.json",
+  "visualReview": "實看新無字三情境原圖與1440/390預覽：提款機留鈔、返還協商、檢察官審卷依序對應，未暗示和解自動終止刑責。答案A、四格文字完整，手機自然排列、無溢出。",
+  "nativeArt": "assets/comics/q-881-art-08a2f49268-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:00:56.958095+00:00",
+    "originalAndFullTextChecked": false,
+    "producerOriginalReviewInherited": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "root實看新三格原PNG與正式app桌手機，沿用已核對原題及答案，保持全部文案；新情境匹配q153/q154，HTML文字與實際解碼WebP圖符合。",
+    "sourceAIReplaced": true,
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "checkedAt": "2026-10-31T17:00:57.037204+00:00",
   "validationFile": "docs/comics/q-881-validation.json"
 }

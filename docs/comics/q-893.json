@@ -2,23 +2,88 @@
   "id": "q-893",
   "subject": "Civics",
   "title": "調解範圍與起訴途徑不要混算",
-  "art": "docs/comics/art/q-893.svg",
+  "art": "docs/comics/art/q-893-polish.svg",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 先分四種事件",
       "text": "原表甲民事32、乙告訴乃論35、丙非告訴乃論18、丁行政訴訟10，四類分開。",
-      "alt": "四色區塊對應原表分類，區塊面積非件數統計。"
+      "alt": "四條由上到下藍綠橙紫長條，按原表甲32、乙35、丙18、丁10的精確比例，數字與類別見HTML。",
+      "diagram": {
+        "kind": "bars",
+        "title": "原表四類案件的件數",
+        "items": [
+          {
+            "label": "甲｜民事案件",
+            "tone": "blue",
+            "value": 32
+          },
+          {
+            "label": "乙｜告訴乃論刑事案件",
+            "tone": "green",
+            "value": 35
+          },
+          {
+            "label": "丙｜非告訴乃論刑事案件",
+            "tone": "gold",
+            "value": 18
+          },
+          {
+            "label": "丁｜行政訴訟案件",
+            "tone": "purple",
+            "value": 10
+          }
+        ],
+        "note": "每條長條的名稱、顏色與件數直接對應；條長依原表數值比例繪製。"
+      }
     },
     {
       "heading": "② 鄉鎮市調解算甲與乙",
       "text": "依本題範圍，32件民事加35件告訴乃論刑事，共67件。",
-      "alt": "32比35的兩段長條連接，精確數字放HTML。"
+      "alt": "藍色32與綠色35組成一條長條，兩段寬度按32比35計算，合計67見HTML。",
+      "diagram": {
+        "kind": "sum",
+        "title": "本題可聲請鄉鎮市調解的範圍",
+        "items": [
+          {
+            "label": "甲｜民事案件",
+            "tone": "blue",
+            "shortLabel": "甲",
+            "value": 32
+          },
+          {
+            "label": "乙｜告訴乃論刑事案件",
+            "tone": "green",
+            "shortLabel": "乙",
+            "value": 35
+          }
+        ],
+        "note": "只加甲與乙；丙、丁不列入本題的67件。"
+      }
     },
     {
       "heading": "③ 公訴不是丙的同義詞",
       "text": "乙在合法告訴後，也可能由檢察官提起公訴；自訴也不能只等同乙35件。",
-      "alt": "一個起訴途徑可以涵蓋兩種刑事類別的概念圖。"
+      "alt": "綠色告訴乃論與橙色非告訴乃論兩種刑事案件皆可通往公訴途徑；是否起訴仍須符合法律要件。",
+      "diagram": {
+        "kind": "paths",
+        "title": "公訴：看誰向法院起訴",
+        "items": [
+          {
+            "label": "乙｜告訴乃論刑事案件",
+            "tone": "green",
+            "detail": "須有合法告訴，才可追訴。"
+          },
+          {
+            "label": "丙｜非告訴乃論刑事案件",
+            "tone": "gold",
+            "detail": "不以被害人告訴為追訴條件。"
+          }
+        ],
+        "arrow": "均可能由檢察官依法偵查、起訴",
+        "target": "法院受理檢察官提起的公訴",
+        "note": "分類看追訴條件；公訴／自訴則看起訴者。乙不等於自訴，丙也不等於公訴。"
+      }
     }
   ],
   "fourth": {
@@ -40,24 +105,44 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "使用者指出無字圖示無法辨識角色與件數，改用直接標中文的可校對圖表區塊；不要求讀者靠顏色或文件圖示猜意義。原題、答案及詳解文字保持。",
+  "generationMethod": "native HTML/CSS diagram blocks with selectable Chinese labels, exact bar ratios and explicit arrows",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-893-new-art-2938a3cc871f.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-893-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-893-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-893-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-893-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-893-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:50:12.019829+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:55:35.980685+00:00",
+  "styleReferenceIds": [
+    "q-153",
+    "q-154"
+  ],
+  "reworkedAt": "2026-10-31T17:01:42.584454+00:00",
+  "diagramReview": {
+    "selectableChineseLabels": true,
+    "noInventedQuestionData": true,
+    "numericBars": "q-893採原表32/35/18/10；q-891原題未給確切數值，只示意減少方向。"
+  },
+  "previewValidation": "docs/comics/q-893-preview-validation.json",
+  "editableDiagramScript": "docs/comics/civics-labels-20261101/prepare-diagrams.py",
+  "nativeArt": "assets/comics/q-893-art-fd92b338bd.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:24:43.442382+00:00",
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+    "chineseLabelsChecked": true,
+    "captionChecked": true
+  },
+  "visualReview": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+  "checkedAt": "2026-10-31T17:24:43.446293+00:00",
   "validationFile": "docs/comics/q-893-validation.json"
 }

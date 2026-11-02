@@ -2,23 +2,23 @@
   "id": "q-879",
   "subject": "Civics",
   "title": "先認出刑罰，再找刑事程序",
-  "art": "docs/comics/art/q-879.svg",
+  "art": "docs/comics/art/q-879-polish.png",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 帶走公投票違反規定",
       "text": "原文列有期徒刑、拘役、罰金，是刑事處罰，不是行政罰鍰。",
-      "alt": "公投票與投票箱的概念示意，無真實選票內容。"
+      "alt": "虛構成年民眾欲持空白公投票離開，選務人員以手勢提醒，未冒充真實選票與事件。"
     },
     {
       "heading": "② 檢察官可能提起公訴",
       "text": "涉及刑事犯罪，檢察官偵查後認為證據足夠，可向法院起訴。",
-      "alt": "資料進入刑事法院的程序箭頭。"
+      "alt": "虛構檢察官在辦公室審閱案卷，示意偵查後依證據判斷是否起訴。"
     },
     {
       "heading": "③ 不由刑罰推出其他條件",
       "text": "題目沒有年齡資料，也沒有說必須同時宣告從刑；不能自行補進去。",
-      "alt": "刑罰示意的欄杆圖，並非宣告本案一定入監。"
+      "alt": "虛構法官獨立查閱法律與案卷，不補畫年齡、必然入監或從刑。"
     }
   ],
   "fourth": {
@@ -40,24 +40,40 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "以q153/q154精美彩色動漫重製公投投票所/檢察官偵查/審慎依法查核三情境，保留B答案及既有文案，無AI字與必然有罪暗示。原卷及全部選項已實看。",
+  "generationMethod": "built-in image_gen, q-153/q-154 style references",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-879-new-art-10600fda252a.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-879-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-879-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-879-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-879-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-879-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:47:56.419731+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:51:12.553668+00:00",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "artSHA256": "82ac12c48fff108b19057d64f3e6a1c3a61500371aac630d2619e39aac694c60",
+  "promptFile": "docs/comics/q-879-polish-prompt.txt",
+  "previewValidation": "docs/comics/q-879-preview-validation.json",
+  "visualReview": "實看原PNG及1440/390預覽：投票所提醒不得攜票外出/檢察官讀案/法官依法查核三情境相符。沒有畫必然定罪或額外年齡刑罰，B維持且與原卷一致。三寬無溢出，桌機田字同行等高，手機自然高度。",
+  "nativeArt": "assets/comics/q-879-art-82ac12c48f-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:04:22.519509+00:00",
+    "producerOriginalReviewInherited": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看新PNG、正式app桌手機。情境精緻彩色動漫，圖文對應無AI文字或額外規則；所有已核對原題、答案及四格文案保持。",
+    "sourceAIReplaced": true,
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "checkedAt": "2026-10-31T17:04:22.524358+00:00",
   "validationFile": "docs/comics/q-879-validation.json"
 }

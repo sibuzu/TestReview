@@ -2,23 +2,23 @@
   "id": "q-877",
   "subject": "Civics",
   "title": "比較的是告訴乃論，不是新聞題材",
-  "art": "docs/comics/art/q-877.svg",
+  "art": "docs/comics/art/q-877-polish.png",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 從撤告線索找分類",
       "text": "題幹討論妨害名譽及是否撤回告訴，屬於告訴乃論刑事案件的辨認。",
-      "alt": "手機訊息與名譽受損的傳播示意，非本案真人。"
+      "alt": "虛構成年女性面對手機與媒體訊息困擾，示意名譽受侵害，並非真實當事人。"
     },
     {
       "heading": "② 不把民事混成刑事",
       "text": "積欠房租主要是民事債務；一般商店竊盜則是非告訴乃論，兩者都不同。",
-      "alt": "案件分類圓示意，分開民事與刑事。"
+      "alt": "成年諮詢者與律師分類不同案卷；案件性質由右側文字精確說明。"
     },
     {
       "heading": "③ 過失傷害最相似",
       "text": "不慎撞傷路人涉及過失傷害，也須告訴乃論；單純超速舉發是行政違規。",
-      "alt": "汽車與路人、過失傷害案件的概念圖。"
+      "alt": "交通事故後成年駕駛查看路旁輕傷行人，警員記錄事實，非故意傷害。"
     }
   ],
   "fourth": {
@@ -40,24 +40,40 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "按使用者要求以q153/q154精美彩色動漫重製人物情境，保留原已核對C及告訴乃論的分類條件，原卷與所有選項已實看。",
+  "generationMethod": "built-in image_gen, q-153/q-154 style references",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-877-new-art-3a4d419094eb.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-877-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-877-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-877-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-877-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-877-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:47:18.772862+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:49:04.813872+00:00",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "artSHA256": "a41a7ccfe2a9f1ffb897bbcf511f1395a9ad74a24c70e8bb6a60beb18e5159e1",
+  "promptFile": "docs/comics/q-877-polish-prompt.txt",
+  "previewValidation": "docs/comics/q-877-preview-validation.json",
+  "visualReview": "實看無字三情境原PNG及1440/390預覽：成年女性名譽困擾、案卷分類、非血腥事故輕傷情境與文案相符，C答案與原卷一致，三寬無溢出，桌機田字等高與手機自然高度正常。",
+  "nativeArt": "assets/comics/q-877-art-a41a7ccfe2-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:04:00.157130+00:00",
+    "producerOriginalReviewInherited": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "新動漫呈現名譽/民事諮詢/意外擦傷，與既有HTML對應，保持C。",
+    "sourceAIReplaced": true,
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "checkedAt": "2026-10-31T17:04:00.160853+00:00",
   "validationFile": "docs/comics/q-877-validation.json"
 }

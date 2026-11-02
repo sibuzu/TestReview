@@ -1,22 +1,22 @@
 {
   "state": "complete",
-  "lastAllowedSourceOrder": 63,
+  "lastAllowedSourceOrder": 54,
   "allowedSourceOrders": [
-    51,
-    52
+    53,
+    54
   ],
   "allowNewSources": false,
   "haltAfterCurrentSource": false,
-  "updatedAt": "2026-10-31T09:30:28.789720+00:00",
-  "instruction": "只處理本次指定GPT51/52，不恢復舊來源或已取消Gemini64起清單。",
+  "updatedAt": "2026-11-02T16:44:45.186845+00:00",
+  "instruction": "只處理使用者2026-11-03新指定的GPT53/54；先取回原圖與完整對話，逐題核對原問、原卷紅字訂正、必要材料、答案及跨來源重複。完整題與解說先入庫，插畫另排待製；來源AI延伸練習與原AI解說圖不採，不恢復舊取消來源。",
   "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
   "closeoutEvidence": "docs/imports/new-gemini/gemini063/page08-q11-user-skip-addendum.json",
   "detail": "Agent2/3各自先取原圖、核原問與新製圖文；Agent1收到穩定稿即機械加入。",
   "allowedSourceUrls": [
-    "https://chatgpt.com/share/6ae5b2dc-89a8-83e8-9d82-7bb25a2a1174",
-    "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3"
+    "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+    "https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2"
   ],
   "batch": "gpt",
-  "completedAt": "2026-10-31T10:19:09.414931+00:00",
-  "reason": "本批兩個GPT來源已全部處理，無其他新來源；只待最終驗證與發布。"
+  "reason": "本批GPT53／54指定原問均核對入庫；未問原卷題與來源AI延伸已記略過，沒有待確認。原題與詳解完成，插畫另排待製，不恢復其他來源。",
+  "completedAt": "2026-11-02T16:44:45.186845+00:00"
 }

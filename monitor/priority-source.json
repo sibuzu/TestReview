@@ -1,61 +1,57 @@
 {
-  "url": "https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4",
+  "kind": "source_comics_batch",
   "state": "complete",
+  "title": "新增GPT53／54：11原問新製四格與發布",
+  "questionIds": [
+    "q-911",
+    "q-912",
+    "q-913",
+    "q-914",
+    "q-915",
+    "q-916",
+    "q-917",
+    "q-918",
+    "q-919",
+    "q-920",
+    "q-921"
+  ],
+  "sourceIds": [
+    "src-more-053",
+    "src-more-054"
+  ],
+  "urls": [
+    "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+    "https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2"
+  ],
   "skipSourceAIFigures": true,
   "generateNewComics": true,
-  "resumePreviousGoalWhenComplete": true,
-  "startedAt": "2026-10-28T17:43:17.050975+00:00",
-  "questionIds": [
-    "q-792",
-    "q-793",
-    "q-794",
-    "q-795",
-    "q-796",
-    "q-797",
-    "q-798",
-    "q-799",
-    "q-800",
-    "q-801",
-    "q-802",
-    "q-803",
-    "q-804",
-    "q-805",
-    "q-806",
-    "q-807",
-    "q-808",
-    "q-809"
-  ],
-  "sourceId": "src-extra-gpt-001",
-  "title": "錯題解析答案判斷",
-  "originalsAvailable": 18,
-  "originalsExpected": 18,
+  "resumePreviousGoalWhenComplete": false,
+  "startedAt": "2026-11-02T17:17:26.991759+00:00",
+  "updatedAt": "2026-11-02T17:17:26.991759+00:00",
+  "originalsAvailable": 10,
+  "originalsExpected": 10,
   "laneAssignments": {
     "1": [
-      "q-792",
-      "q-793",
-      "q-794",
-      "q-795",
-      "q-796",
-      "q-797"
+      "q-912"
     ],
     "2": [
-      "q-798",
-      "q-799",
-      "q-800",
-      "q-801",
-      "q-802",
-      "q-803"
+      "q-911",
+      "q-913",
+      "q-914",
+      "q-915"
     ],
     "3": [
-      "q-804",
-      "q-805",
-      "q-806",
-      "q-807",
-      "q-808",
-      "q-809"
+      "q-916",
+      "q-917",
+      "q-918",
+      "q-919",
+      "q-920",
+      "q-921"
     ]
   },
-  "updatedAt": "2026-10-28T19:00:45.246487+00:00",
-  "completedAt": "2026-10-28T19:00:45.246487+00:00",
-  "validationEvidence": "docs/comics/priority-6ae2305b/completion-validation.json"
+  "instruction": "使用者要求整個做完後commit & push；僅補本批11原問新四格，完整桌手機QA後最終commit all與正常push，不恢復舊來源或漫畫。",
+  "completedAt": "2026-11-02T17:40:13.638248+00:00",
+  "completeOriginals": 11,
+  "completeQuestionPages": 10,
+  "validationEvidence": "docs/comics/new-gpt-20261103/completion-validation.json"
 }

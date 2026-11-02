@@ -44,6 +44,8 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
      docOverflow:document.documentElement.scrollWidth>innerWidth,
      art:[...c.querySelectorAll('.comic-art')].map(x=>x.clientWidth),
      artImages:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.naturalWidth,height:i.naturalHeight,src:i.getAttribute('src')})),
+     diagramTexts:[...c.querySelectorAll('.comic-diagram')].map(el=>el.textContent),
+     captionTexts:[...c.querySelectorAll('.comic-caption')].map(el=>el.textContent),
      text:[...c.querySelectorAll('.comic-copy p')].map(x=>x.textContent),
     };});
     assert.equal(result.wrapErrors,0,id+' wrap');assert.deepEqual(result.overflow,[],id+' overflow');
@@ -60,10 +62,14 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
      assert.ok(one.top<two.top&&two.top<three.top&&three.top<four.top,id+' single-column reading order');
     }
     assert.ok(result.art.every(w=>w<=180));
-    assert.equal(result.artImages.length,3,id+' three loaded illustration panels');
+    const spec=JSON.parse(fs.readFileSync(path.join(root,'docs/comics',id+'.json')));
+    assert.equal(result.artImages.length,spec.panels.filter(p=>!p.diagram).length,id+' illustration panels match the selected visual mode');
+    const diagrams=spec.panels.filter(p=>p.diagram).map(p=>p.diagram);
+    assert.equal(result.diagramTexts.length,diagrams.length,id+' labeled diagram blocks render in both reading views');
+    diagrams.forEach((d,n)=>{for(const item of d.items)assert.ok(result.diagramTexts[n].replace(/\s/gu,'').includes(item.label.replace(/\s/gu,'')),id+' all Chinese diagram labels remain visible');});
+    assert.deepEqual(result.captionTexts.map(t=>t.replace(/\s/gu,'')),spec.panels.filter(p=>p.caption).map(p=>p.caption.replace(/\s/gu,'')),id+' role captions are preserved');
     assert.ok(result.artImages.every(i=>i.loaded&&i.width>0&&i.height>0),id+' image decoding');
     assert.ok(result.artImages.every(i=>i.src&&!i.src.startsWith('data:')),id+' shared assets rather than embedded image copies');
-    const spec=JSON.parse(fs.readFileSync(path.join(root,'docs/comics',id+'.json')));
     assert.deepEqual(result.text.map(t=>t.replace(/\s/gu,'')),spec.panels.map(p=>p.text.replace(/\s/gu,'')),id+' must retain all copy');
     const shot=path.join(shotDir,`${id}-${standalone?'standalone':'app'}-${width}.png`);
     // Chromium temporarily expands the viewport for an element taller than the

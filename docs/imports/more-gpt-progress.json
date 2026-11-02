@@ -1,6 +1,6 @@
 {
-  "totalLinks": 52,
-  "uniqueLinks": 52,
+  "totalLinks": 54,
+  "uniqueLinks": 54,
   "sources": [
     {
       "order": 1,
@@ -5662,10 +5662,190 @@
       "confirmedReviewIds": [
         "correction-q-885-03082deb57f8"
       ]
+    },
+    {
+      "order": 53,
+      "sourceId": "src-more-053",
+      "url": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+      "title": "第6題錯題解析",
+      "state": "complete_with_skips",
+      "questionIds": [
+        "q-911",
+        "q-912",
+        "q-913",
+        "q-914"
+      ],
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b58d-1.jpg",
+          "sha256": "6bf7654fd18749cd3ffdf1d94ed95779d5085e42a2177e23f621a2b46c215f36",
+          "bytes": 399270,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b58d-2.jpg",
+          "sha256": "ff18a75c35ee1287675f687f7ada8e8b94a3af5d7cb0e8ba0c2ef31d211ce8f5",
+          "bytes": 344141,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b58d-3.jpg",
+          "sha256": "9b25d166156553ca4c7d911a587b736324775c8ca6e87c90e1acaae821f52523",
+          "bytes": 426886,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b58d-4.jpg",
+          "sha256": "38821c8b6a84d5b2f701aa72db2870d41e644c3843ff4aa0fa68503ef6fc7325",
+          "bytes": 412045,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "reason": "原卷5問／4題面與5份新四格全部核對完成；同卷未問及來源AI延伸不採。",
+      "draftDirectory": "docs/imports/new-gpt-20261103-a",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261103-a.json",
+      "addedAt": "2026-11-02T16:13:05.649428+00:00",
+      "originalAccessState": "acquired",
+      "sourceCurationComplete": true,
+      "archiveImages": 4,
+      "sourceFirstQuestionDate": "2026-11-02",
+      "contentCurationComplete": true,
+      "originalQuestionIds": [
+        "q-911",
+        "q-912",
+        "q-913",
+        "q-914",
+        "q-915"
+      ],
+      "originalQuestionCount": 5,
+      "questionPageCount": 4,
+      "newIllustrationCount": 5,
+      "teachingComicState": "complete",
+      "completedAt": "2026-11-02T16:42:14.918956+00:00",
+      "skips": [
+        {
+          "kind": "unasked_printed_question",
+          "numbers": [
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            29,
+            30
+          ],
+          "reason": "同張原卷包含其他題，但使用者未問；不因同卷或有紅字就擴張本次範圍。"
+        },
+        {
+          "kind": "ai_generated_extension",
+          "reason": "來源中的cost小測驗及兩題考前自測為AI另編，非原卷錯題，排除。"
+        }
+      ],
+      "producerManifest": "docs/imports/new-gpt-20261103-a/manifest.json",
+      "pendingConfirmationIds": []
+    },
+    {
+      "order": 54,
+      "sourceId": "src-more-054",
+      "url": "https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2",
+      "title": "解析第2題錯題",
+      "state": "complete_with_skips",
+      "questionIds": [
+        "q-916",
+        "q-917",
+        "q-918",
+        "q-919",
+        "q-920",
+        "q-921"
+      ],
+      "downloadedImages": [
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b5b9-1.jpg",
+          "sha256": "b39afd9fd4ebf9713e69831beb044e57f892d839724df0b9e19bae7d05456c65",
+          "bytes": 306299,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b5b9-2.jpg",
+          "sha256": "dda6763cca71722231294e73ba014e3ef66167761307901f44615722bcf400da",
+          "bytes": 281088,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b5b9-3.jpg",
+          "sha256": "04b135bfdeec7bcc7345b133aaea6c1ac332975a687e8fca8832d6b45b5ddbb4",
+          "bytes": 259492,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b5b9-4.jpg",
+          "sha256": "42bd038e01c71b512fce0ca94b8c9aec3a20d7fe56decd7ae79d0eaff4194685",
+          "bytes": 239544,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b5b9-5.jpg",
+          "sha256": "11557acd082337fb379353c5d5abfacde412e61f412ced686fecd9d2a16739c2",
+          "bytes": 382290,
+          "renderedWidth": 0,
+          "renderedHeight": 0
+        },
+        {
+          "path": "docs/source-pages/chatgpt-6ae8b5b9-6.jpg",
+          "sha256": "6593619732b371f0e3f55b008dc57cc57ffbdbbd3dc162c412d2b2d11643bfbc",
+          "bytes": 346367,
+          "renderedWidth": 1080,
+          "renderedHeight": 1440
+        }
+      ],
+      "reason": "原卷6問／6題面與6份新四格全部核對完成；同卷未問及來源AI延伸不採。",
+      "draftDirectory": "docs/imports/new-gpt-20261103-b",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261103-b.json",
+      "addedAt": "2026-11-02T16:13:05.649428+00:00",
+      "originalAccessState": "acquired",
+      "sourceCurationComplete": true,
+      "archiveImages": 6,
+      "sourceFirstQuestionDate": "2026-11-02",
+      "contentCurationComplete": true,
+      "originalQuestionIds": [
+        "q-916",
+        "q-917",
+        "q-918",
+        "q-919",
+        "q-920",
+        "q-921"
+      ],
+      "originalQuestionCount": 6,
+      "questionPageCount": 6,
+      "newIllustrationCount": 6,
+      "teachingComicState": "complete",
+      "completedAt": "2026-11-02T16:42:31.266436+00:00",
+      "skips": [
+        {
+          "kind": "source_unasked_originals",
+          "reason": "同張試卷上的未問或正常題不擴收，僅整理使用者實際指定6個原題。"
+        },
+        {
+          "kind": "ai_outputs_and_operations",
+          "reason": "6張來源AI解說圖、技能操作與自編例句不另建題；to追問作第11題必要補充保留。"
+        }
+      ],
+      "producerManifest": "docs/imports/new-gpt-20261103-b/manifest.json",
+      "pendingConfirmationIds": []
     }
   ],
   "previousDuplicateLinks": [
     "https://chatgpt.com/share/6ae057df-3f50-83ee-930a-caeb6fbc0560"
   ],
-  "updatedAt": "2026-10-31T10:18:29.651193+00:00"
+  "updatedAt": "2026-11-02T17:41:53.972748+00:00"
 }

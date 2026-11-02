@@ -1,0 +1,102 @@
+{
+  "id": "q-277",
+  "subject": "Civics",
+  "title": "看選票種類，分清行政區與資格",
+  "art": "docs/comics/art/q-277-polish.png",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 中央三張票，不是三種公職",
+      "text": "總統、副總統合用一張票；立委候選人票和政黨票，都用來選出立法委員。先分清票數與公職種類。",
+      "alt": "虛構成年選民在投票所看空白票紙，精確票種由右側HTML說明，不冒充原卷選票。"
+    },
+    {
+      "heading": "② 地方三票：市長、議員、里長",
+      "text": "原圖標示臺北市市長，合看三張地方票，對應直轄市長、市議員、里長；一般直轄市區長由任命產生。",
+      "alt": "城市投票所的成年選民與選務人員，示意一般直轄市地方選舉。"
+    },
+    {
+      "heading": "③ 山地原住民區還有兩種選舉",
+      "text": "直轄市山地原住民區另選區長、區民代表，與題目僅三種地方公職不符。重點是行政區種類，不是只看原住民身分。",
+      "alt": "面向山區聚落的虛構投票所，示意特定行政區另有地方自治選舉，不以服飾或族群刻板印象分類。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：不屬直轄市山地原住民區",
+    "points": [
+      "總統、副總統連選得連任一次；不能與立委的限制混用。",
+      "總統票的居住條件不能只套立委的四個月門檻。",
+      "投票與參選資格不同；受監護宣告尚未撤銷者不得登記為候選人。"
+    ]
+  },
+  "protectedWords": [
+    "總統",
+    "副總統",
+    "立法委員",
+    "立委候選人票",
+    "政黨票",
+    "臺北市",
+    "直轄市",
+    "市議員",
+    "山地原住民區",
+    "區民代表",
+    "受監護宣告",
+    "候選人"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae060e0-abe8-83ec-a53c-24f58e59ff50",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-277-source-988ec627bb.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "實看完整原卷第42題與全部選項及中央地方兩組附圖，維持既有核對答案。"
+  },
+  "rationale": "使用者指出缺AI圖解說，補上全新HTML四格與q153/q154風格動漫三情境。票種、區域與資格用HTML精確說明；不把場景當真實選票，也不改既有C答案。",
+  "generationMethod": "built-in image_gen, q-153/q-154 style references",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "sourceGeneratedArtUsed": false,
+  "visualChecked": true,
+  "promptFile": "docs/comics/q-277-polish-prompt.txt",
+  "artSHA256": "461f184c0b96031cca321c67d72baecca97a970f2a9abff4510d90f99f0259c6",
+  "officialReferences": [
+    {
+      "url": "https://web.cec.gov.tw/api/file/b820453f-e308-4c26-80d6-247be846041f.pdf",
+      "finding": "中選會說明直轄市山地原住民區另增加區長、區民代表選票。"
+    },
+    {
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010",
+      "finding": "公職選罷法之選舉人與候選人資格區別；本次只用既有已核對解說補製圖解。"
+    }
+  ],
+  "previewValidation": "docs/comics/q-277-preview-validation.json",
+  "visualReview": "實看完整原卷、無字三情境PNG及1440/390預覽：中央票種/一般直轄市/山地行政區三情境與HTML解說對應，精確票種與資格不交由AI字。C答案沿用原核對，圖不冒充原卷。田字同行等高、手機自然高度、三寬無溢出且受保護詞未跨行。",
+  "nativeArt": "assets/comics/q-277-art-461f184c0b-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:06:26.090233+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "root實看原卷42題、新PNG與正式app桌手機/單題手機，中央三票、一般直轄市三票及山地區域三情境配HTML；維持C與既有資格限制，題幹/四選項/原卷照留。",
+    "sourceAIReplaced": true,
+    "sharedWebPOrNativeAssetVerified": true
+  },
+  "checkedAt": "2026-10-31T17:06:26.095216+00:00",
+  "validationFile": "docs/comics/q-277-validation.json"
+}

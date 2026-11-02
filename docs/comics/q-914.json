@@ -1,0 +1,88 @@
+{
+  "id": "q-914",
+  "subject": "English",
+  "title": "前文的this，找後文原因",
+  "art": "docs/comics/art/q-914.png",
+  "panels": [
+    {
+      "heading": "① 先確認this指的是什麼",
+      "text": "開頭說作者每年寄出數百張口足畫家卡片。第42空的this，指前面「買卡片並寄出」的做法，不是學畫畫。",
+      "alt": "動漫示意：童年的作者欣賞口足畫家作品；圖示只補充認識畫家的背景，不表示作者自己學畫。"
+    },
+    {
+      "heading": "② 父母促使作者改變習慣",
+      "text": "最後一段交代：商品占了太多家中空間，作者與父母爭執後讓步，決定只買卡片並寄出去。這才是習慣改變的原因。",
+      "alt": "動漫示意：成年作者與父母討論擺滿藝術商品的客廳，父母指向擁擠的架子。"
+    },
+    {
+      "heading": "③ 把原因接回第42空",
+      "text": "Thanks to my parents是「多虧我的父母」。接「我開始這麼做」，就能把父母的影響和寄卡片的新習慣連起來。",
+      "alt": "動漫示意：作者在桌前把有繪畫的卡片放進信封，準備寄給朋友；圖中沒有文字或地址。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：I started doing this",
+    "points": [
+      "this＝購買並寄出卡片的做法。",
+      "起因在最後一段：家中商品太占空間。",
+      "不是父母教作者畫畫，也不是沒有錢買卡片。"
+    ]
+  },
+  "protectedWords": [
+    "第42空",
+    "口足畫家",
+    "卡片",
+    "家中空間",
+    "Thanks to my parents",
+    "I started doing this"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-053-original-42-43-1dce73526e01.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "已完整讀取42/43共同文章及42四選項，維持B；漫畫單獨對應42，不混入43的捐款空格。"
+  },
+  "rationale": "以認識藝術背景、父母指出商品占空間、改寄卡片三個新動漫情境串連前後文。this的精確指代與因果由HTML明示，不依顏色或物件讓讀者猜角色。",
+  "generationMethod": "built-in image_gen; fresh text-free anime triptych",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "sourceGeneratedArtUsed": false,
+  "promptFile": "docs/comics/q-914-prompt.txt",
+  "artSHA256": "4b499111326a29b6169e92c305c94dad4fd01de813e030999e2795d91697d664",
+  "createdAt": "2026-11-02T17:35:34.944630+00:00",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "producerAgent": "/root/comic_lane_2",
+  "previewValidation": "docs/comics/q-914-preview-validation.json",
+  "visualReview": "實看全新口足畫家／家中商品占空間／寄卡片三情境及1440/390預覽；圖內無字，讀圖角色與因果以HTML清楚說明。第42空B及this指代精確，未混入43答案。三寬無溢出與保護詞斷字，同行等高、手機自然高度。",
+  "checkedAt": "2026-11-02T17:39:14.561225+00:00",
+  "nativeArt": "assets/comics/q-914-art-4b49911132-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-02T17:39:14.556621+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-914-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、解碼與選項答案保持。"
+  },
+  "validationFile": "docs/comics/q-914-validation.json"
+}

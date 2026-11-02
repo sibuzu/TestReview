@@ -1,0 +1,47 @@
+{
+  "mode": "three_producers_root_integrates",
+  "workerLimit": 3,
+  "rootRole": "monitor與圖解審查、串行整合",
+  "updatedAt": "2026-10-31T17:24:43.462285+00:00",
+  "lanes": [
+    {
+      "lane": 1,
+      "questionId": "q-875",
+      "title": "公民第1題｜兩種提告途徑",
+      "state": "idle",
+      "startedAt": "2026-10-31T17:18:44.929009+00:00",
+      "agent": "/root/comic_lane_1",
+      "role": "production",
+      "claimsPaused": false
+    },
+    {
+      "lane": 2,
+      "questionId": "q-885",
+      "title": "公民第21題｜話劇中的訴訟角色",
+      "state": "idle",
+      "startedAt": "2026-10-31T17:18:44.929009+00:00",
+      "agent": "/root/comic_lane_2",
+      "role": "production",
+      "claimsPaused": false
+    },
+    {
+      "lane": 3,
+      "questionId": "q-887",
+      "title": "公民第24題｜自訴的提出與舉證",
+      "state": "idle",
+      "startedAt": "2026-10-31T17:18:44.929009+00:00",
+      "agent": "/root/comic_lane_3",
+      "role": "production",
+      "claimsPaused": false
+    }
+  ],
+  "ready": [],
+  "integrated": 837,
+  "blocked": [],
+  "waiting": [],
+  "integrating": [],
+  "held": [],
+  "integrationLimit": 1,
+  "roleChangedAt": "2026-10-29T07:01:25.554580+00:00",
+  "importLimit": 2
+}

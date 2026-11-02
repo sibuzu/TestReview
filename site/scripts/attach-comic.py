@@ -24,7 +24,7 @@ def attach(qid):
     asset = optimize_payload({'art': asset})['art']
     comic = {
         'title': spec['title'], 'art': asset,
-        'panels': [{k: p[k] for k in ('heading', 'text', 'alt')} for p in spec['panels']],
+        'panels': [{k: p[k] for k in ('heading', 'text', 'alt', 'caption', 'diagram') if k in p} for p in spec['panels']],
         'fourth': {k: spec['fourth'][k] for k in ('answer', 'points')},
     }
     if spec.get('protectedWords'):

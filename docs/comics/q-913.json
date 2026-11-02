@@ -1,0 +1,91 @@
+{
+  "id": "q-913",
+  "subject": "English",
+  "title": "看整段回覆，判斷主要目的",
+  "art": "docs/comics/art/q-913.png",
+  "panels": [
+    {
+      "heading": "① 顧客先提出不滿",
+      "text": "Zack說電話等很久、店家四點就打烊，派也不新鮮。先分清楚：這些是顧客在評論中提出的說法。",
+      "alt": "動漫示意：顧客在家拿著電話、面前放一塊派，露出不滿表情；不以圖替雙方裁定事實。"
+    },
+    {
+      "heading": "② 店主逐項補充經過",
+      "text": "回覆不只開頭道謝，也解釋來電、提早打烊及事前公告。應看整段在做什麼，不能只抓thank you判主旨。",
+      "alt": "動漫示意：店主在店內用電腦撰寫說明，螢幕無字；回覆內容由HTML精確說明。"
+    },
+    {
+      "heading": "③ 新鮮度也是回覆的一部分",
+      "text": "店主說派是當天早上烤的。這和電話、營業時間的說明合起來，是在補充當天全貌，不是在要求顧客道歉或邀請再買。",
+      "alt": "動漫示意店主所述的早晨烘焙情況，端著剛出爐的派；這是其回覆的說法。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：交代當天完整情況",
+    "points": [
+      "the full picture＝事情的全貌。",
+      "We are sorry是店家致歉，不是要求客人道歉。",
+      "主旨涵蓋整段，不只開頭的一句道謝。"
+    ]
+  },
+  "protectedWords": [
+    "Zack",
+    "店主",
+    "顧客",
+    "thank you",
+    "the full picture",
+    "We are sorry",
+    "新鮮度",
+    "營業時間"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-053-original-31-passage-682aee1df622.png",
+      "site/dist/assets/originals/src-more-053-original-31-question-81ebae1352e0.png"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "已完整讀取兩方原文及四選項，維持D。"
+  },
+  "rationale": "用新動漫把顧客抱怨、店主回覆、烘焙說法分開；HTML明示發言主體，避免把插畫冒充客觀事實，或將禮貌道謝當全文目的。",
+  "generationMethod": "built-in image_gen; fresh text-free anime triptych",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "sourceGeneratedArtUsed": false,
+  "promptFile": "docs/comics/q-913-prompt.txt",
+  "artSHA256": "ba5b75b82eb6c5d25e9be73ac65428bc962690657bb657daa56b3c8708c75ac9",
+  "createdAt": "2026-11-02T17:33:20.254331+00:00",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "producerAgent": "/root/comic_lane_2",
+  "previewValidation": "docs/comics/q-913-preview-validation.json",
+  "visualReview": "實看無字動漫三情境全圖與1440/390隔離成品：顧客說法、店主回覆及店主所述烘焙情境各自對應，未把雙方爭議畫成已裁定事實；D及禮貌道謝與主旨區別正確。三寬無溢出、同行等高與手機自然高度通過。",
+  "checkedAt": "2026-11-02T17:34:34.550278+00:00",
+  "nativeArt": "assets/comics/q-913-art-ba5b75b82e-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-02T17:34:34.544335+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-913-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、解碼與選項答案保持。"
+  },
+  "validationFile": "docs/comics/q-913-validation.json"
+}

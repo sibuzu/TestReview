@@ -12,6 +12,18 @@ export function canonicalURL(value) {
   try { const u=new URL(value.trim()); if(u.protocol!=='https:') return ''; const valid=(u.hostname==='chatgpt.com'&&/^\/share\/[a-zA-Z0-9-]+\/?$/.test(u.pathname))||(['share.gemini.google','gemini.google.com'].includes(u.hostname)&&/^\/(share\/)?[a-zA-Z0-9_-]+\/?$/.test(u.pathname)); return valid?u.origin+u.pathname.replace(/\/$/,''):''; } catch { return ''; }
 }
 export function safeAsset(value) { return typeof value==='string' && /^(assets|sources)\/[a-zA-Z0-9_./-]+$/.test(value) && !value.includes('..') ? value : ''; }
+export function sanitizeComicDiagram(d) {
+  const kinds=['nested','flow','bars','sum','change','paths'];
+  if(!d||!kinds.includes(d.kind)||!Array.isArray(d.items)||!d.items.length||d.items.length>8)return;
+  const clean=v=>typeof v==='string'?v.slice(0,500):'';
+  const tones=['blue','green','gold','purple'];
+  const items=d.items.map(i=>({label:clean(i?.label),...(i?.shortLabel?{shortLabel:clean(i.shortLabel)}:{}),...(i?.detail?{detail:clean(i.detail)}:{}),tone:tones.includes(i?.tone)?i.tone:'blue',...(typeof i?.value==='number'&&Number.isFinite(i.value)&&i.value>=0&&i.value<=1e9?{value:i.value}:{})}));
+  if(items.some(i=>!i.label))return;
+  if(d.kind==='nested'&&items.length!==2)return;
+  if(['bars','sum'].includes(d.kind)&&(items.some(i=>i.value===undefined)||!items.some(i=>i.value>0)))return;
+  if(d.kind==='paths'&&!clean(d.target))return;
+  return {kind:d.kind,title:clean(d.title),items,...(d.note?{note:clean(d.note)}:{}),...(d.arrow?{arrow:clean(d.arrow)}:{}),...(d.target?{target:clean(d.target)}:{})};
+}
 export function fingerprint(q) { return q.subject+':'+q.question.normalize('NFKC').replace(/[\s\p{P}\p{S}]/gu,'').toLowerCase(); }
 export function validDate(value) { return typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value; }
 const stringFields=['id','sourceId','subject','title','chapter','volume','date','dateLabel','addedAt','question','answer','explanation','trap','verification','verificationNote','diagram','notes'];
@@ -29,7 +41,7 @@ export function validateQuestion(q) {
   if(Array.isArray(q.explanationFigures)) out.explanationFigures=q.explanationFigures.filter(f=>safeAsset(f?.src)).slice(0,15).map(f=>({src:safeAsset(f.src),alt:String(f.alt||'解說示意圖').slice(0,1000),caption:String(f.caption||'').slice(0,1000)}));
   if(q.teachingComic && safeAsset(q.teachingComic.art) && Array.isArray(q.teachingComic.panels) && q.teachingComic.panels.length===3 && Array.isArray(q.teachingComic.fourth?.points)) {
     const c=q.teachingComic,clean=v=>typeof v==='string'?v.slice(0,5000):'';
-    out.teachingComic={art:safeAsset(c.art),title:clean(c.title),panels:c.panels.map(p=>({heading:clean(p?.heading),text:clean(p?.text),alt:clean(p?.alt)})),fourth:{answer:clean(c.fourth.answer),points:c.fourth.points.slice(0,5).map(clean)}};
+    out.teachingComic={art:safeAsset(c.art),title:clean(c.title),panels:c.panels.map(p=>({heading:clean(p?.heading),text:clean(p?.text),alt:clean(p?.alt),...(p?.caption?{caption:clean(p.caption)}:{}),...(sanitizeComicDiagram(p?.diagram)?{diagram:sanitizeComicDiagram(p.diagram)}:{})})),fourth:{answer:clean(c.fourth.answer),points:c.fourth.points.slice(0,5).map(clean)}};
     const words=Array.isArray(c.protectedWords)?[...new Set(c.protectedWords.filter(w=>typeof w==='string'&&w.trim().length>=2&&w.length<=40&&!/[\u0000-\u001f]/u.test(w)).map(w=>w.trim()))].slice(0,50):[];
     if(words.length)out.teachingComic.protectedWords=words;
   }

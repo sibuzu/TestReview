@@ -1,0 +1,89 @@
+{
+  "state": "complete",
+  "completedAt": "2026-10-31T17:25:48.684427+00:00",
+  "total": 5,
+  "anime": 3,
+  "ChineseDiagramBlocks": 2,
+  "questionContentUnchanged": true,
+  "revision": "2026-10-27.efa1be3447d3",
+  "items": [
+    {
+      "id": "q-875",
+      "mode": "detailed color anime with Chinese role captions",
+      "originalArt": "docs/comics/art/q-875-polish.png",
+      "publishedArt": "assets/comics/q-875-art-87b30c6f16-web.webp",
+      "generationMethod": "built-in image_gen, q-153/q-154 style references; selectable HTML role captions",
+      "promptOrDesign": "docs/comics/q-875-polish-prompt.txt",
+      "spec": "docs/comics/q-875.json",
+      "layoutValidation": "docs/comics/q-875-validation.json",
+      "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-875"
+    },
+    {
+      "id": "q-885",
+      "mode": "detailed color anime with Chinese role captions",
+      "originalArt": "docs/comics/art/q-885-polish.png",
+      "publishedArt": "assets/comics/q-885-art-20b2b202c8-web.webp",
+      "generationMethod": "built-in image_gen; refined colorful anime triptych generated for this task",
+      "promptOrDesign": "docs/comics/q-885-anime-prompt.txt",
+      "spec": "docs/comics/q-885.json",
+      "layoutValidation": "docs/comics/q-885-validation.json",
+      "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-885"
+    },
+    {
+      "id": "q-887",
+      "mode": "detailed color anime with Chinese role captions",
+      "originalArt": "docs/comics/art/q-887-anime.png",
+      "publishedArt": "assets/comics/q-887-art-9f9e94ff84-web.webp",
+      "generationMethod": "built-in image_gen; q-153 and q-154 style references",
+      "promptOrDesign": "docs/comics/q-887-anime-prompt.txt",
+      "spec": "docs/comics/q-887.json",
+      "layoutValidation": "docs/comics/q-887-validation.json",
+      "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-887"
+    },
+    {
+      "id": "q-891",
+      "mode": "Chinese-labeled HTML diagram blocks",
+      "originalArt": "docs/comics/art/q-891-polish.svg",
+      "publishedArt": "assets/comics/q-891-art-2c8e5c7ba4.svg",
+      "generationMethod": "native HTML/CSS diagram blocks with selectable Chinese labels, exact bar ratios and explicit arrows",
+      "promptOrDesign": "docs/comics/civics-labels-20261101/prepare-diagrams.py",
+      "spec": "docs/comics/q-891.json",
+      "layoutValidation": "docs/comics/q-891-validation.json",
+      "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-891"
+    },
+    {
+      "id": "q-893",
+      "mode": "Chinese-labeled HTML diagram blocks",
+      "originalArt": "docs/comics/art/q-893-polish.svg",
+      "publishedArt": "assets/comics/q-893-art-fd92b338bd.svg",
+      "generationMethod": "native HTML/CSS diagram blocks with selectable Chinese labels, exact bar ratios and explicit arrows",
+      "promptOrDesign": "docs/comics/civics-labels-20261101/prepare-diagrams.py",
+      "spec": "docs/comics/q-893.json",
+      "layoutValidation": "docs/comics/q-893-validation.json",
+      "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-893"
+    }
+  ],
+  "tests": {
+    "site": {
+      "pass": 120,
+      "fail": 0
+    },
+    "monitor": {
+      "pass": 52,
+      "fail": 0
+    },
+    "attachment": {
+      "pass": 3,
+      "fail": 0
+    },
+    "formalBrowserLayoutChecks": 30,
+    "legacyComicLayoutChecks": 12,
+    "referenceIsolatedChecks": 6,
+    "widths": [
+      1440,
+      1120,
+      390
+    ]
+  },
+  "note": "中文角色/動作圖說及圖表文字皆為可選取HTML；q891明示原題未給確切件數，q893按原表32/35/18/10件。q875/q885重用本輪自製精緻動漫，q887以內建imagegen重新產生；原PNG、prompt、QA均保留本機。"
+}

@@ -2,23 +2,26 @@
   "id": "q-875",
   "subject": "Civics",
   "title": "同一被害人，兩條不同刑事途徑",
-  "art": "docs/comics/art/q-875.svg",
+  "art": "docs/comics/art/q-875-polish.png",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 甲直接走向法院",
       "text": "甲委任律師提告，是被害人向法院提起自訴。不是承認自己犯罪的自首。",
-      "alt": "被害人與律師到法院的路徑。"
+      "alt": "虛構成年被害人與律師在法院大廳討論空白案卷，示意委任律師向法院自訴。",
+      "caption": "左：被害人；右：律師。委任律師向法院提起自訴。"
     },
     {
       "heading": "② 乙向檢察官申告",
       "text": "乙是被害人向檢察官提出告訴。提出告訴不等於檢察官已經提起公訴。",
-      "alt": "被害人將申告資料交給檢察機關。"
+      "alt": "虛構成年被害人將空白申告資料交給檢察官，示意告訴途徑。",
+      "caption": "左：被害人；右：檢察官。向檢察官提出告訴。"
     },
     {
       "heading": "③ 看清楚誰在提出訴訟",
       "text": "公訴的提起者是檢察官；自訴的提起者是被害人，且須委任律師。",
-      "alt": "檢察官起訴與法院審理的程序圖。"
+      "alt": "檢察官閱讀案卷準備判斷是否起訴，並未畫成已判有罪。",
+      "caption": "檢察官檢視資料；符合起訴條件時，向法院提起公訴。"
     }
   ],
   "fourth": {
@@ -40,24 +43,42 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "使用者最新指定q875改回細緻彩色動漫情境，恢復本對話內建imagegen自製新圖（不是來源AI圖）。原PNG已再次實看，三格分別被害人與律師諮詢、被害人向檢察官遞件、檢察官閱卷，搭配可選取HTML角色caption區分自訴、告訴與公訴。保留全部原四格文案與答案B，不再轉SVG。",
+  "generationMethod": "built-in image_gen, q-153/q-154 style references; selectable HTML role captions",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-875-new-art-829925b9f37e.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-875-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-875-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-875-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-875-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-875-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:47:18.749677+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:49:04.646041+00:00",
+  "createdAt": "2026-10-31T17:00:15.257590+00:00",
+  "artSHA256": "87b30c6f169d3770268d41b7b20d45c594f44d5c6d46e8860f27457e9312632e",
+  "visualReview": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+  "previewValidation": "docs/comics/q-875-preview-validation.json",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "sourceAIUsed": false,
+  "updatedAt": "2026-10-31T17:18:26.246583+00:00",
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "promptFile": "docs/comics/q-875-polish-prompt.txt",
+  "nativeArt": "assets/comics/q-875-art-87b30c6f16-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:24:43.341170+00:00",
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+    "chineseLabelsChecked": true,
+    "captionChecked": true
+  },
+  "checkedAt": "2026-10-31T17:24:43.348420+00:00",
   "validationFile": "docs/comics/q-875-validation.json"
 }

@@ -1,10 +1,11 @@
 import {escapeHTML as e,safeAsset} from './core.js';
 import {wrapComicText} from './comic-wrap.js';
+import {renderComicDiagram} from './comic-diagram.js';
 
 export function renderTeachingComic(c) {
  if(!c || !safeAsset(c.art))return '';
  const words=Array.isArray(c.protectedWords)?c.protectedWords:[];
- return `<section class="native-comic" aria-label="${e(c.title)}" data-protected-words="${e(JSON.stringify(words))}"><div class="comic-grid">${c.panels.map((p,i)=>`<section class="comic-cell"><div class="comic-art"><img src="${e(c.art)}" alt="${e(p.alt)}" style="--panel:${i}" loading="lazy"></div><div class="comic-copy"><h4 class="comic-text">${e(p.heading)}</h4><p class="comic-text">${e(p.text)}</p></div></section>`).join('')}<section class="comic-cell comic-recap"><h4 class="comic-text">④ ${e(c.title)}</h4><p class="comic-answer comic-text">${e(c.fourth.answer)}</p><ul>${c.fourth.points.map(t=>`<li class="comic-text">${e(t)}</li>`).join('')}</ul></section></div></section>`;
+ return `<section class="native-comic" aria-label="${e(c.title)}" data-protected-words="${e(JSON.stringify(words))}"><div class="comic-grid">${c.panels.map((p,i)=>{const diagram=renderComicDiagram(p.diagram);return `<section class="comic-cell${diagram?' has-diagram':''}">${p.caption?`<p class="comic-caption comic-text">${e(p.caption)}</p>`:''}${diagram||`<div class="comic-art"><img src="${e(c.art)}" alt="${e(p.alt)}" style="--panel:${i}" loading="lazy"></div>`}<div class="comic-copy"><h4 class="comic-text">${e(p.heading)}</h4><p class="comic-text">${e(p.text)}</p></div></section>`}).join('')}<section class="comic-cell comic-recap"><h4 class="comic-text">④ ${e(c.title)}</h4><p class="comic-answer comic-text">${e(c.fourth.answer)}</p><ul>${c.fourth.points.map(t=>`<li class="comic-text">${e(t)}</li>`).join('')}</ul></section></div></section>`;
 }
 
 let comicObserver;

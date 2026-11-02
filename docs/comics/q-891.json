@@ -2,23 +2,73 @@
   "id": "q-891",
   "subject": "Civics",
   "title": "乙是甲的一部分，少一部分兩者都變",
-  "art": "docs/comics/art/q-891.svg",
+  "art": "docs/comics/art/q-891-polish.svg",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 先讀集合關係",
       "text": "甲是刑事判決總數；乙是其中告訴乃論案件的判決數，乙包含在甲裡。",
-      "alt": "藍色總集合內包含綠色子集合，面積不代表原題數值。"
+      "alt": "藍色甲總集合包含綠色乙子集合；文件與框面積只示意包含關係。",
+      "diagram": {
+        "kind": "nested",
+        "title": "甲包含乙：乙是總數的一部分",
+        "items": [
+          {
+            "label": "甲｜全部刑事案件的判決總數",
+            "tone": "blue"
+          },
+          {
+            "label": "乙｜其中告訴乃論刑事案件的判決數",
+            "tone": "green"
+          }
+        ],
+        "note": "外框是甲，內框是乙；框的面積不代表實際件數。"
+      }
     },
     {
       "heading": "② 依題設先調解，乙減少",
       "text": "本題假設部分告訴乃論案件先成功調解、依法處理而不再進入原先判決。",
-      "alt": "子集合縮減的概念示意，不新增實際案件數。"
+      "alt": "保留藍色其他判決，綠色乙子集合減少；虛線顯示比較前範圍，不新增件數。",
+      "diagram": {
+        "kind": "flow",
+        "title": "題設的減少過程",
+        "items": [
+          {
+            "label": "部分告訴乃論案件先調解成功",
+            "tone": "green"
+          },
+          {
+            "label": "依法撤回告訴等程序要件成立",
+            "tone": "gold"
+          },
+          {
+            "label": "這些案件不再進入原先的判決",
+            "tone": "green"
+          }
+        ],
+        "arrow": "符合條件後",
+        "note": "不是任何案件只要私下和解，就必然免除刑事責任。"
+      }
     },
     {
       "heading": "③ 子集合減少，總數也減少",
       "text": "乙中的判決少了，甲總數也跟著少；比較同一題設情境，兩條線都下移。",
-      "alt": "原有兩條水平比較線各向下移，不冒充原卷實際統計。"
+      "alt": "藍色甲與綠色乙的比較前位置用虛線、比較後用實線，兩者皆向下；非原卷實際月份統計。",
+      "diagram": {
+        "kind": "change",
+        "title": "下移表示判決件數減少",
+        "items": [
+          {
+            "label": "甲｜全部刑事案件的判決總數",
+            "tone": "blue"
+          },
+          {
+            "label": "乙｜其中告訴乃論刑事案件的判決數",
+            "tone": "green"
+          }
+        ],
+        "note": "甲、乙各有「原本／減少後」兩個位置。原題未給確切件數，這裡只示意變化方向，不提供虛構數值。"
+      }
     }
   ],
   "fourth": {
@@ -40,24 +90,44 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "使用者指出無字圖示無法辨識角色與件數，改用直接標中文的可校對圖表區塊；不要求讀者靠顏色或文件圖示猜意義。原題、答案及詳解文字保持。",
+  "generationMethod": "native HTML/CSS diagram blocks with selectable Chinese labels, exact bar ratios and explicit arrows",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-891-new-art-3beb2ccb81cd.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-891-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-891-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-891-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-891-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-891-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:50:11.968581+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:55:35.816792+00:00",
+  "styleReferenceIds": [
+    "q-153",
+    "q-154"
+  ],
+  "reworkedAt": "2026-10-31T17:01:42.584076+00:00",
+  "diagramReview": {
+    "selectableChineseLabels": true,
+    "noInventedQuestionData": true,
+    "numericBars": "q-893採原表32/35/18/10；q-891原題未給確切數值，只示意減少方向。"
+  },
+  "previewValidation": "docs/comics/q-891-preview-validation.json",
+  "editableDiagramScript": "docs/comics/civics-labels-20261101/prepare-diagrams.py",
+  "nativeArt": "assets/comics/q-891-art-2c8e5c7ba4.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:24:43.419252+00:00",
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+    "chineseLabelsChecked": true,
+    "captionChecked": true
+  },
+  "visualReview": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+  "checkedAt": "2026-10-31T17:24:43.422324+00:00",
   "validationFile": "docs/comics/q-891-validation.json"
 }

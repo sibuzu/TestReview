@@ -5301,6 +5301,33 @@
       "confirmationToken": "51d8bf189cf85634f9534d7d10da6de75e195eccfc25d1235c58379cc9a30ec9",
       "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
       "resolvedAt": "2026-10-31T10:20:44.220707+00:00"
+    },
+    {
+      "id": "access-new-gpt-20261103-originals",
+      "title": "Chrome 連線允許：取回 GPT53／54 的原卷",
+      "kind": "原圖存取",
+      "state": "resolved",
+      "sourceKey": "gpt053",
+      "sourceUrl": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+      "sourceUrls": [
+        "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+        "https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2"
+      ],
+      "questionText": "兩份完整對話已封存。第53來源預期4張使用者附件，第54來源預期6張，均未完成實際原圖保存及辨讀，因此尚未開始轉錄、判答或製圖。公開原圖下載端點403；Windows Chrome實際端點已找到，這不代表原圖失效或使用者未開Chrome。",
+      "questions": [
+        "請在 Chrome 的遠端偵錯連線提示按「允許／Allow」，讓目前保留的單一連線取得原卷。",
+        "第53來源：https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
+        "第54來源：https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2",
+        "這是取圖權限確認；來源文字可讀不等於已取得原圖，實際保存並檢查後才會更新進度。"
+      ],
+      "createdAt": "2026-11-02T16:14:21.152838+00:00",
+      "evidencePaths": [
+        "docs/acquisition/new-gpt-20261103-a.json",
+        "docs/acquisition/new-gpt-20261103-b.json"
+      ],
+      "resolvedAt": "2026-11-02T16:37:26.574786+00:00",
+      "action": "browser_access_restored",
+      "resolution": "使用者已按Allow；Windows Chrome授權連線成功，兩份完整對話與4＋6張原始使用者附件均實際保存，檔案bytes與封存附件相符。先前公開端點403為存取限制，並非原圖失效；接續逐題辨讀與核對，不將取圖完成冒稱題目已入庫。"
     }
   ]
 }

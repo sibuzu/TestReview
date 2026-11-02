@@ -2,23 +2,26 @@
   "id": "q-885",
   "subject": "Civics",
   "title": "從臺詞辨認職務，也注意C的範圍",
-  "art": "docs/comics/art/q-885.svg",
+  "art": "docs/comics/art/q-885-polish.png",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 檢察官指揮司法警察",
       "text": "小惠在第一線偵查、呈報，是警察；小榮指揮刑罰執行，是檢察官。",
-      "alt": "檢察官與司法警察間的依法指揮箭頭，名稱見HTML。"
+      "alt": "左側成年女性司法警察向右側成年男性檢察官呈報；檢察官依法指揮偵查。",
+      "caption": "左：司法警察；右：檢察官。檢察官依法指揮偵查。"
     },
     {
       "heading": "② 小智是獨立審判的法官",
       "text": "法院依法得依職權調查證據，不能把法官說成一概不能主動調查。",
-      "alt": "法院與證據資料之間的調查路徑。"
+      "alt": "虛構成年法官獨立檢視案卷與證據照片，依法調查證據並審判。",
+      "caption": "黑袍：法官，依法調查證據並獨立審判。"
     },
     {
       "heading": "③ 分清審判與刑罰執行",
       "text": "法官依法審判，檢察官指揮刑事裁判執行；職務不同，但不是完全沒有程序聯繫。",
-      "alt": "刑事裁判到執行的程序示意。"
+      "alt": "前景成年檢察官審閱刑事裁判文書，背景法官獨立離開法庭；不表示檢察官指揮法官判案。",
+      "caption": "後方黑袍：法官依法裁判；前景西裝：檢察官指揮執行。"
     }
   ],
   "fourth": {
@@ -40,24 +43,41 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "依使用者最新指定改採細緻彩色動漫角色情境。重用本輪自製、實看後確認符合文案的三情境：司法警察向檢察官呈報、法官獨立調查案卷、檢察官審閱執行裁判資料。角色中文及程序箭頭放可校對HTML caption，保留B預期與C歧義。",
+  "generationMethod": "built-in image_gen; refined colorful anime triptych generated for this task",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-885-new-art-2bacf7f2a8f2.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-885-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-885-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-885-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-885-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-885-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:51:44.515956+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:55:35.469249+00:00",
+  "styleReferences": [
+    "q-153",
+    "q-154"
+  ],
+  "createdAt": "2026-10-31T17:18:39.024663+00:00",
+  "artSHA256": "20b2b202c81c6e44dcd3043dfac1bc091d7c194f4461420293fc8c755cc4a7e1",
+  "promptFile": "docs/comics/q-885-anime-prompt.txt",
+  "previewValidation": "docs/comics/q-885-preview-validation.json",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artVisualChecked": true,
+  "visualReview": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+  "nativeArt": "assets/comics/q-885-art-20b2b202c8-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:24:43.377698+00:00",
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+    "chineseLabelsChecked": true,
+    "captionChecked": true
+  },
+  "checkedAt": "2026-10-31T17:24:43.381440+00:00",
   "validationFile": "docs/comics/q-885-validation.json"
 }

@@ -2,23 +2,26 @@
   "id": "q-887",
   "subject": "Civics",
   "title": "自訴先看委任律師與舉證者",
-  "art": "docs/comics/art/q-887.svg",
+  "art": "docs/comics/art/q-887-anime.png",
   "layoutVersion": "native-fluid-v6",
   "panels": [
     {
       "heading": "① 題幹明示自訴",
       "text": "被害人選擇自訴，依法應委任律師，再向法院提出自訴狀。",
-      "alt": "被害人、律師及法院的路徑。"
+      "alt": "綠衣自訴人與戴眼鏡西裝律師一起向法院收狀人員遞交自訴文件。",
+      "caption": "綠衣：自訴人｜西裝：律師；一起向法院遞交自訴狀"
     },
     {
       "heading": "② 主要舉證者跟公訴不同",
       "text": "自訴由自訴人及代理律師負擔相應舉證責任，不直接套成檢察官提起公訴。",
-      "alt": "自訴方將證據資料送向法院。"
+      "alt": "自訴人與受任律師在法庭提出證據資料，由黑袍法官審理。",
+      "caption": "自訴人與律師提出證據；黑袍：依法審理的法官"
     },
     {
       "heading": "③ 需要調查，依法向法院聲請",
       "text": "自訴人不能自行指揮司法警察。需要調查證據時，依法向法院聲請。",
-      "alt": "自訴人經法院調查程序，而非自行指揮警察的流程。"
+      "alt": "受任律師與自訴人向法院收狀人員遞交調查聲請，沒有直接命令警察。",
+      "caption": "律師代自訴人遞交調查聲請；櫃台：法院收狀人員"
     }
   ],
   "fourth": {
@@ -40,24 +43,41 @@
   ],
   "sourceUrl": "https://chatgpt.com/share/6ae5b33f-e5a0-83ec-8e02-1b414683bea3",
   "originalMaterialsChecked": true,
-  "rationale": "原卷及完整選項實看，法律程序／分類／責任的關係較人物情境清楚，使用原生可核對向量圖；所有精確規則與名稱保留HTML。",
-  "generationMethod": "new native SVG procedure/set/object diagram; labels and rule text in HTML",
+  "rationale": "依使用者明確指定改用精美彩色動漫；三格呈現自訴人與受任律師向法院遞狀、自訴方舉證、依法向法院聲請調查。中文角色與動作另用可選取HTML caption標示，保持全部既有文案與答案A及D說明。",
+  "generationMethod": "built-in image_gen; q-153 and q-154 style references",
   "sourceGeneratedArtUsed": false,
-  "nativeArt": "assets/comics/q-887-new-art-bc4892ce9fc0.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_3",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261031-b/qa/q-887-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261031-b/qa/q-887-app-question-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-887-app-question-390.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-887-app-comic-1440.png",
-      "docs/imports/new-gpt-20261031-b/qa/q-887-app-comic-390.png"
-    ],
-    "checkedAt": "2026-10-31T09:48:48.942048+00:00"
-  },
   "visualChecked": true,
-  "checkedAt": "2026-10-31T09:51:12.882979+00:00",
+  "styleReferences": [
+    "q-153",
+    "q-154"
+  ],
+  "createdAt": "2026-10-31T17:03:36.886601+00:00",
+  "artSHA256": "9f9e94ff842b4da51b4ca85dce611f9406b0c0ef60f81c1ec10c343359ff6171",
+  "promptFile": "docs/comics/q-887-anime-prompt.txt",
+  "previewValidation": "docs/comics/q-887-preview-validation.json",
+  "visualReview": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "reworkedAt": "2026-10-31T17:19:45.993199+00:00",
+  "nativeArt": "assets/comics/q-887-art-9f9e94ff84-web.webp",
+  "rootReview": {
+    "checkedAt": "2026-10-31T17:24:43.398836+00:00",
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "正式app桌手機與單題頁三寬QA通過，實看全部中文角色caption/圖表標示，標明類別、件數、圖例與方向；三題動漫/兩題HTML圖表依使用者指定，原題與答案及四格文案保持。",
+    "chineseLabelsChecked": true,
+    "captionChecked": true
+  },
+  "checkedAt": "2026-10-31T17:24:43.402227+00:00",
   "validationFile": "docs/comics/q-887-validation.json"
 }

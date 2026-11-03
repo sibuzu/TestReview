@@ -1,0 +1,34 @@
+{
+  "kind": "transcription_correction",
+  "createdAt": "2026-11-03T20:06:06.879843+00:00",
+  "producer": "/root/comic_lane_2",
+  "frozenQuestionSHA256": "0b1bd758268476b35a2bf64349e92334435af742796a30ab3f24f7f372fd492f",
+  "affectedDraftIds": [
+    "gpt055-local-vote-q1",
+    "gpt055-local-vote-q2",
+    "gpt055-local-vote-q3"
+  ],
+  "affectedQuestionIds": [
+    "q-937",
+    "q-938",
+    "q-939"
+  ],
+  "originalCrop": "docs/imports/new-gpt-20261104-a/originals/original-mi154.png",
+  "visualChecked": true,
+  "corrections": [
+    {
+      "label": "C",
+      "before": "直轄市山地原住民區區長",
+      "after": "直轄市山地原住民區長",
+      "fields": [
+        "question choice C",
+        "optionAnalysis[label=C].text",
+        "parent aggregate question shared choice text"
+      ],
+      "reason": "原卷C印「直轄市山地原住民區長」，轉錄時多加一個「區」。照原卷字面校正，三子題答案ABI/ABCDI/EFI不變。"
+    }
+  ],
+  "answerChanged": false,
+  "requiresNewConfirmation": false,
+  "note": "純轉錄字面校正，不改原稿frozen檔；由唯一整合者依addendum套用父題與所有三子及選項。"
+}

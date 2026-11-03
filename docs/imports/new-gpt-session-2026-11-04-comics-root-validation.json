@@ -1,0 +1,358 @@
+{
+  "checkedAt": "2026-11-03T20:36:20.354647+00:00",
+  "reviewer": "/root",
+  "kind": "independent-mechanical-preservation-audit",
+  "passed": true,
+  "scope": "GPT55/56 only",
+  "baselineQuestionPages": 754,
+  "questionPages": 773,
+  "originalQuestions": 845,
+  "newQuestionPages": 19,
+  "newOriginalQuestions": 24,
+  "newComics": 24,
+  "methodCounts": {
+    "builtInImagegenAnime": 8,
+    "nativeHTMLDiagrams": 16
+  },
+  "allSubstantiveOriginalContentPreserved": true,
+  "onlyBaselineDisplayTitleChanges": [
+    "q-920",
+    "q-921"
+  ],
+  "allQuestionFieldsMatchAuditedCanonExceptTeachingComic": true,
+  "documentedCanonicalAdjustments": [
+    "docs/imports/new-gpt-session-2026-11-04-transcription-root-validation.json",
+    "docs/imports/new-gpt-session-2026-11-04-material-root-validation.json"
+  ],
+  "bothGroupsRetainAllSevenChildComics": true,
+  "all24PipelineJobsIntegrated": true,
+  "sourceAIExplanatoryFiguresUsed": false,
+  "noCLIImageGeneration": true,
+  "formalVisualQABy": "/root/comic_lane_1",
+  "pendingExplanationReviewIds": [
+    "correction-q-922-8e8f50628242",
+    "correction-q-941-e6e2efa7f291"
+  ],
+  "noUnknownQuestionConditions": true,
+  "revision": "2026-10-27.66f2c02affdb",
+  "items": [
+    {
+      "id": "q-922",
+      "spec": "docs/comics/q-922.json",
+      "rawArt": "docs/comics/art/q-922.png",
+      "publishedArt": "site/dist/assets/comics/q-922-art-ed7c3ec4c7-web.webp",
+      "publishedSHA256": "4dca5a3f7e11ee5250ebc67388d3b2b8b23ba35d94883e90baf386e6283a834f",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-922-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-923",
+      "spec": "docs/comics/q-923.json",
+      "rawArt": "docs/comics/art/q-923.png",
+      "publishedArt": "site/dist/assets/comics/q-923-art-d719c4379f-web.webp",
+      "publishedSHA256": "27b2b0c27c56628213bf200451d3f06eef92cab7f412b010cfd645d9eb7def52",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-923-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-924",
+      "spec": "docs/comics/q-924.json",
+      "rawArt": "docs/comics/art/q-924.png",
+      "publishedArt": "site/dist/assets/comics/q-924-art-7be84cb9bf-web.webp",
+      "publishedSHA256": "a100a63d291be9254739db50123bece14d7860177f1f6dd96423b82f2449a64c",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-924-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-925",
+      "spec": "docs/comics/q-925.json",
+      "rawArt": "docs/comics/art/q-925-information.svg",
+      "publishedArt": "site/dist/assets/comics/q-925-art-b439322dd7.svg",
+      "publishedSHA256": "b439322dd7f16635a53affb8052e58d203845df98b8357c33f33686570b96f85",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Native selectable HTML information classification and evidence diagrams.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-926",
+      "spec": "docs/comics/q-926.json",
+      "rawArt": "docs/comics/art/q-926.png",
+      "publishedArt": "site/dist/assets/comics/q-926-art-c582d3cf5f-web.webp",
+      "publishedSHA256": "02e250361f914415e5ea8ed793b5fa5e2ec32b003322532a22e3849679b3b410",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-926-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-927",
+      "spec": "docs/comics/q-927.json",
+      "rawArt": "docs/comics/art/q-927.png",
+      "publishedArt": "site/dist/assets/comics/q-927-art-d9bace6148-web.webp",
+      "publishedSHA256": "20aef134600983d98429e55ed08016e56fd97107a1a5fb4037b9dd8f4e5c1a2b",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-927-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-928",
+      "spec": "docs/comics/q-928.json",
+      "rawArt": "docs/comics/art/q-928.png",
+      "publishedArt": "site/dist/assets/comics/q-928-art-2d0e62b319-web.webp",
+      "publishedSHA256": "36b9d7f9b0a5d21621dcf13cd9bb79b4a144994ece5aa3d118d49324f92cf4f7",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-928-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-929",
+      "spec": "docs/comics/q-929.json",
+      "rawArt": "docs/comics/art/q-929-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-929-art-8716e859aa.svg",
+      "publishedSHA256": "8716e859aa2ab29014e60722d2fe9f6b0715fc454fc459bd2b271a76411f2da1",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-930",
+      "spec": "docs/comics/q-930.json",
+      "rawArt": "docs/comics/art/q-930-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-930-art-62673d437a.svg",
+      "publishedSHA256": "62673d437a9ba7d5a30394805fa2582be9d6fe47775b0bfa704582434d2f8c8b",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-931",
+      "spec": "docs/comics/q-931.json",
+      "rawArt": "docs/comics/art/q-931.png",
+      "publishedArt": "site/dist/assets/comics/q-931-art-07b3b5664f-web.webp",
+      "publishedSHA256": "71e50956132309a65d70efa71a86b0fd7c1f740334296474e0e6789ca7e89502",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-931-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-932",
+      "spec": "docs/comics/q-932.json",
+      "rawArt": "docs/comics/art/q-932.svg",
+      "publishedArt": "site/dist/assets/comics/q-932-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-933",
+      "spec": "docs/comics/q-933.json",
+      "rawArt": "docs/comics/art/q-933.svg",
+      "publishedArt": "site/dist/assets/comics/q-933-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-934",
+      "spec": "docs/comics/q-934.json",
+      "rawArt": "docs/comics/art/q-934.svg",
+      "publishedArt": "site/dist/assets/comics/q-934-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-935",
+      "spec": "docs/comics/q-935.json",
+      "rawArt": "docs/comics/art/q-935.svg",
+      "publishedArt": "site/dist/assets/comics/q-935-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-936",
+      "spec": "docs/comics/q-936.json",
+      "rawArt": "docs/comics/art/q-936-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-936-art-212b8c8933.svg",
+      "publishedSHA256": "212b8c8933a8e68ff8a848fe767566dbead4972ca75f29184dd9918efac723a7",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-937",
+      "spec": "docs/comics/q-937.json",
+      "rawArt": "docs/comics/art/q-937.svg",
+      "publishedArt": "site/dist/assets/comics/q-937-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-938",
+      "spec": "docs/comics/q-938.json",
+      "rawArt": "docs/comics/art/q-938.svg",
+      "publishedArt": "site/dist/assets/comics/q-938-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-939",
+      "spec": "docs/comics/q-939.json",
+      "rawArt": "docs/comics/art/q-939.svg",
+      "publishedArt": "site/dist/assets/comics/q-939-art-99e3b23e9a.svg",
+      "publishedSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-940",
+      "spec": "docs/comics/q-940.json",
+      "rawArt": "docs/comics/art/q-940.png",
+      "publishedArt": "site/dist/assets/comics/q-940-art-7140d189ac-web.webp",
+      "publishedSHA256": "0b419c9d9cf4a07773eb338a73a835732dcdbac341ec1459730524d3ac932738",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-940-prompt.txt"
+      ],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-941",
+      "spec": "docs/comics/q-941.json",
+      "rawArt": "docs/comics/art/q-941-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-941-art-326699c4a2.svg",
+      "publishedSHA256": "326699c4a2e1d591cfeeb58aa239bd5b6420b7a51bce59d8085fb674e2e541c2",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-942",
+      "spec": "docs/comics/q-942.json",
+      "rawArt": "docs/comics/art/q-942-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-942-art-1328991861.svg",
+      "publishedSHA256": "1328991861685bd414b6e6c60e4e617cc34967a05aca395ac26e29421a3194e4",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-943",
+      "spec": "docs/comics/q-943.json",
+      "rawArt": "docs/comics/art/q-943-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-943-art-3bea85fae6.svg",
+      "publishedSHA256": "3bea85fae6e2cc0ce39b1eece1c6637ba2de1e2cf2dcaff1e07310f12153bf1e",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-944",
+      "spec": "docs/comics/q-944.json",
+      "rawArt": "docs/comics/art/q-944-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-944-art-d71e132f14.svg",
+      "publishedSHA256": "d71e132f14b88e88c37912ae4cd459495f9d7fd054ce6b059fb9c39655f428c4",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    },
+    {
+      "id": "q-945",
+      "spec": "docs/comics/q-945.json",
+      "rawArt": "docs/comics/art/q-945-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-945-art-e7584889b0.svg",
+      "publishedSHA256": "e7584889b0b0707878ee7c975ee6842aa1bd691e29e742323f87a03439142b72",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": [],
+      "originalAnswerUnchanged": true
+    }
+  ],
+  "initialValidationAt": "2026-11-03T20:32:53.478063+00:00",
+  "emptyOptionalNormalization": {
+    "evidence": "docs/comics/new-gpt-20261104/empty-optionals-normalization.json",
+    "omittedEmptyFieldsVerified": 144,
+    "onlyFields": [
+      "note",
+      "detail"
+    ],
+    "previouslyPublishedComicsSemanticallyUnchanged": [
+      "q-922",
+      "q-923",
+      "q-924",
+      "q-925",
+      "q-926",
+      "q-927",
+      "q-928",
+      "q-929",
+      "q-930",
+      "q-931",
+      "q-932",
+      "q-933",
+      "q-934",
+      "q-935",
+      "q-936",
+      "q-937",
+      "q-938",
+      "q-939",
+      "q-940",
+      "q-941",
+      "q-942"
+    ],
+    "noOriginalQuestionChange": true
+  },
+  "schemaValidation": {
+    "npmTestsPassed": 120,
+    "npmTestsFailed": 0,
+    "all773QuestionRoundtripsPassed": true
+  }
+}

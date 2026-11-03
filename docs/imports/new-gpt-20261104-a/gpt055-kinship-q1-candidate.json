@@ -1,0 +1,120 @@
+{
+  "id": "gpt055-kinship-q1",
+  "sourceId": "src-more-055",
+  "subject": "Civics",
+  "title": "公民第1題｜旁系血親與市民代表",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-03",
+  "dateLabel": "首次出題日期",
+  "question": "小惠在旅行的過程，曾借宿附表中四位親戚家，其中一位旁系血親參選當地的市民代表，因此在借宿的那天晚上，他也參與了掃街拜票。根據上述內容判斷，參選者最可能是表中何者？\n(A) 姨丈\n(B) 舅舅\n(C) 姑姑\n(D) 伯母",
+  "answer": "(B) 舅舅",
+  "explanation": "本題須同時通過「旁系血親」與「參選市民代表」兩項條件。舅舅是母親的兄弟、姑姑是父親的姊妹，都屬旁系血親；姨丈和伯母是血親的配偶，屬姻親，先排除A、D。\n\n再比較地方層級。姑姑所在臺南市是直轄市，地方民意代表為市議員，不是市民代表。舅舅所在花蓮縣內有縣轄市花蓮市，設有市民代表會，和題目條件相容，故最可能選B。\n\n原表只寫舅舅借宿地點是「花蓮縣」，沒有明說住在花蓮市；花蓮市是結合兩條線索後的可能推論，不能冒充原題明載條件。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實看真正上傳原卷及裁切成品，核對完整題幹、全部選項、必要表文與原卷訂正，並於2026-11-04核對官方法規。未確認教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+  "diagram": "",
+  "tags": [
+    "旁系血親",
+    "姻親",
+    "地方層級",
+    "市民代表"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261104-a/originals/original-mi131.png"
+  ],
+  "sourceLabel": "分享原卷｜第1題",
+  "studentAnswer": "C；原卷紅筆訂正B。",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "姨丈",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "姨丈為阿姨的配偶，是姻親，先不符合旁系血親。"
+    },
+    {
+      "label": "B",
+      "text": "舅舅",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "舅舅是旁系血親，花蓮縣內又有縣轄市可選市民代表，最符合兩條件。"
+    },
+    {
+      "label": "C",
+      "text": "姑姑",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "姑姑雖為旁系血親，但臺南市是直轄市，參選名稱應為市議員。"
+    },
+    {
+      "label": "D",
+      "text": "伯母",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "伯母為伯父的配偶，屬姻親，不符合旁系血親。"
+    }
+  ],
+  "tables": [
+    {
+      "caption": "旅行借宿行程",
+      "headers": [
+        "行程",
+        "借宿地點",
+        "親戚稱謂"
+      ],
+      "rows": [
+        [
+          "第一天",
+          "新北市",
+          "姨丈"
+        ],
+        [
+          "第二天",
+          "花蓮縣",
+          "舅舅"
+        ],
+        [
+          "第三天",
+          "臺南市",
+          "姑姑"
+        ],
+        [
+          "第四天",
+          "彰化縣",
+          "伯母"
+        ]
+      ]
+    }
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "originalQuestionNumber": "1",
+  "supportingSources": [
+    {
+      "title": "民法第967、969條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=967"
+    },
+    {
+      "title": "地方制度法第5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=5"
+    }
+  ],
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+    "messageIndex": 131,
+    "messageId": "38b59b3d-4366-41e4-9014-769b68d12984",
+    "firstQuestionTimestamp": 1793717644.864935,
+    "firstQuestionDateTime": "2026-11-03T22:54:04.864935+08:00",
+    "originalImage": "docs/source-pages/chatgpt-6aea190f-10.jpg",
+    "originalImageSHA256": "48fd61225ad95d60525ce7cee5fcef6c88e94494ef092e8a6938cbe10cecff18",
+    "attachmentMatchedBy": "archive size_bytes and fileId, not filename order",
+    "cropHashes": {
+      "docs/imports/new-gpt-20261104-a/originals/original-mi131.png": "8a05a55a5395e4631cbf67154a4b3f624963ca86a78bcc6f47f6d80f940cdcb1"
+    },
+    "inclusionEvidence": "使用者原訊息指定「1@錯題」，且此問原卷有紅筆訂正；已逐題實看。"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "q-925",
+  "subject": "English",
+  "title": "把文章資訊與問題的單位對上",
+  "art": "docs/comics/art/q-925-information.svg",
+  "generationMethod": "Native selectable HTML information classification and evidence diagrams.",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "sourceUrl": "https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80",
+  "rationale": "教學重點是區分人數、票價、表演類型比例與售票張數；三格皆以直接標明類別、數值、單位和核對動作的可選取HTML資訊圖呈現。SVG只作既有資料格式的備援，正式可見的是有精確文字的HTML圖表。",
+  "panels": [
+    {
+      "heading": "① 先圈NOT，逐項找原文線索",
+      "text": "問題問「無法得知」。A、B、D都能找到原文根據，先把這三項排除。",
+      "alt": "三個已知項目各列出原文證據，指向可從文章得知的資訊。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A、B、D：本文有明確線索",
+        "items": [
+          {
+            "label": "A｜有兒童表演",
+            "detail": "文章列出兒童表演，圖表也有5%。",
+            "tone": "blue"
+          },
+          {
+            "label": "B｜每年超過三週",
+            "detail": "問每年持續多久，不是問創辦至今幾年。",
+            "tone": "green"
+          },
+          {
+            "label": "D｜八劇團的後續",
+            "detail": "未受邀後另找場地，演出大受歡迎。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "各有原文證據",
+        "target": "這三項可以由本文得知。"
+      }
+    },
+    {
+      "heading": "② 讀數字時，連同對象與單位",
+      "text": "原文的人數、票價與圓餅圖比例，分別在描述不同資訊。",
+      "alt": "觀眾人數、英鎊票價與表演類型比例三類資訊都有直接標籤，不視為售票張數。",
+      "diagram": {
+        "kind": "paths",
+        "title": "先分類，再對照題目問什麼",
+        "items": [
+          {
+            "label": "約400,000人｜觀眾人數",
+            "detail": "不能假設每位觀眾正好買一張票。",
+            "tone": "blue"
+          },
+          {
+            "label": "約10或35英鎊｜票價",
+            "detail": "多數票價約10英鎊，有些約35英鎊；價格不是張數。",
+            "tone": "green"
+          },
+          {
+            "label": "2016年｜表演類型比例",
+            "detail": "喜劇34%、戲劇27%、音樂15%、兒童5%、其他19%。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依對象與單位分類",
+        "target": "這三類都不是每年售票總張數。"
+      }
+    },
+    {
+      "heading": "③ C要的是幾張票，本文沒有提供",
+      "text": "文中還有免費表演；沒有每人買幾張票等資料，不能把40萬人直接換成40萬張票。",
+      "alt": "所需資料為每年售出票數，核對後標為本文未提供，不以零張或推測數字補缺。",
+      "diagram": {
+        "kind": "flow",
+        "title": "檢查售票總量的資料",
+        "items": [
+          {
+            "label": "問題｜每年售出多少張票？",
+            "detail": "要找的是票的張數。",
+            "tone": "blue"
+          },
+          {
+            "label": "本文｜未提供售票總張數",
+            "detail": "人數、價格與表演比例，都不能直接推出票數。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "核對本文是否提供",
+        "note": "2016年的圓餅圖描述表演類型，不是售票張數分布。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：無法得知每年售票張數",
+    "points": [
+      "A兒童、B每年超過三週、D八劇團後續都有線索。",
+      "400,000人是人數；10或35英鎊是票價。",
+      "表演比例不等於售票總量，缺的數據不猜補。"
+    ]
+  },
+  "protectedWords": [
+    "NOT",
+    "400,000人",
+    "10英鎊",
+    "35英鎊",
+    "售票總量",
+    "售票張數",
+    "表演類型",
+    "八劇團",
+    "兒童表演",
+    "百分比"
+  ],
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-925-1440.png",
+      "/tmp/weirugo-comic-previews/q-925-390.png"
+    ],
+    "checkedAt": "2026-11-03T19:53:31.401613+00:00"
+  },
+  "nativeArt": "assets/comics/q-925-art-b439322dd7.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T19:54:28.173175+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-925-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T19:54:28.178791+00:00",
+  "validationFile": "docs/comics/q-925-validation.json"
+}

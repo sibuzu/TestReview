@@ -1,0 +1,148 @@
+{
+  "id": "q-942",
+  "subject": "Civics",
+  "title": "看事務性質，不只看政府名稱",
+  "art": "docs/comics/art/q-942-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 自行車整合，是地方交通合作",
+      "text": "兩市共同整合租借系統，屬地方交通服務；跨市合作不代表就變成外交或全國修法。",
+      "alt": "臺北市、新北市與自行車租借服務直接標示，箭頭說明合作整合的動作。",
+      "diagram": {
+        "kind": "paths",
+        "title": "C｜跨市自行車租借服務",
+        "items": [
+          {
+            "label": "參與者｜臺北市、新北市",
+            "detail": "兩個地方自治團體。",
+            "tone": "blue"
+          },
+          {
+            "label": "服務｜自行車租借系統",
+            "detail": "地方交通規劃、營運與管理。",
+            "tone": "green"
+          }
+        ],
+        "target": "性質｜地方交通服務合作",
+        "arrow": "共同整合租借服務"
+      }
+    },
+    {
+      "heading": "② 外交與全國修法，屬中央事務",
+      "text": "B是外交，D是修正全國性法律。地方雖也依法執行勞動事務，不能自行修改這部全國法律。",
+      "alt": "B外交、D全國性法律修正兩類事務直接標示中央權責。",
+      "diagram": {
+        "kind": "paths",
+        "title": "B、D：先辨認事務類型",
+        "items": [
+          {
+            "label": "B｜建交、斷交",
+            "detail": "外交事務，由中央處理。",
+            "tone": "gold"
+          },
+          {
+            "label": "D｜修正性別平等工作法",
+            "detail": "全國性法律修正，不是個別地方自行修法。",
+            "tone": "gold"
+          }
+        ],
+        "target": "性質｜中央權責",
+        "arrow": "按全國性質分類"
+      }
+    },
+    {
+      "heading": "③ 退休制度，和個案程序分開",
+      "text": "A依教材全國人事制度語境理解。退休制度統一由中央法制規範，但地方仍依法辦理所屬人員退休程序。",
+      "alt": "中央統一退休制度與地方辦理個案程序分列，避免誤說地方完全不參與。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A｜不要把兩層事情混在一起",
+        "items": [
+          {
+            "label": "制度｜全國統一法制",
+            "detail": "不能由各市自行另訂公務人員退休制度。",
+            "tone": "blue"
+          },
+          {
+            "label": "程序｜服務機關依法辦理",
+            "detail": "地方機關仍處理所屬人員的具體程序。",
+            "tone": "green"
+          }
+        ],
+        "target": "判斷｜不因任職市政府就當作地方自訂制度",
+        "arrow": "區分制度與執行"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：兩市整合自行車租借服務",
+    "points": [
+      "均權制度依事務性質區分中央與地方。",
+      "地方交通合作，不等於中央外交或全國修法。",
+      "退休制度須全國一致，不代表地方完全不辦理個案。"
+    ]
+  },
+  "protectedWords": [
+    "臺北市",
+    "新北市",
+    "自行車",
+    "地方交通",
+    "全國性法律",
+    "退休制度",
+    "個案程序"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi215-stem-db67f59cfb36.png",
+      "site/dist/assets/originals/src-more-055-original-mi215-options-c5e4d3524cbf.png"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "教學重點是交通/外交/全國立法分類與制度/程序兩層關係，以直接中文標名的HTML權責圖比人物情境更精確，保留原題A的制度與執行限制。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:21:06.645992+00:00",
+  "artSHA256": "1328991861685bd414b6e6c60e4e617cc34967a05aca395ac26e29421a3194e4",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:31:34.815231+00:00",
+  "previewValidation": "docs/comics/q-942-preview-validation.json",
+  "visualReview": "實看1440/390精確HTML權責圖；臺北/新北自行車合作、B外交、D全國修法及退休制度/地方執行個案兩層皆直接中文標明。C與原題限制保持；三寬無溢出、保護詞完整、同行等高與單欄自然高度。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-942-1440.png",
+      "/tmp/weirugo-comic-previews/q-942-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-942-art-1328991861.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:31:34.567123+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-942-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-942-validation.json"
+}

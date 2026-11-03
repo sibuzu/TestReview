@@ -15,6 +15,51 @@
       "createdAt": "2026-10-29T15:21:26.511125+00:00",
       "resolvedAt": "2026-10-29T15:24:32.978721+00:00",
       "resolution": "使用者已明確確認對這次新的 Chrome 提示按 Allow；程式接續驗證連線與取回原卷，尚不宣稱圖片已下載。"
+    },
+    {
+      "id": "correction-q-922-8e8f50628242",
+      "state": "pending",
+      "kind": "來源已自行更正的解說確認",
+      "title": "英文第1題｜又來一通電話用another",
+      "questionId": "q-922",
+      "questionText": "Ms. Johnson has been taking phone calls since she entered the office this morning. Just when she thought she could finally leave work, ______ call came in.\n(A) another\n(B) each\n(C) the next\n(D) the other",
+      "questionUrl": "/site/index.html#question/q-922",
+      "url": "/site/index.html#question/q-922",
+      "sourceUrl": "https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80",
+      "questions": [
+        "原對話前段曾誤把another分析成省略call，後段AI已自行更正。這是已核定的解說用語差異供檢視；原題完整、答案A從未改變，不影響繼續製作四格。",
+        "修改前／原AI內容：原AI曾稱another後省略了call。原題的call其實已印在空格後，並未省略。",
+        "目前處理：another直接修飾原題現成的單數可數名詞call，組成another call（又一通電話）；保留答案A、完整原題與選項。原串下一段已自行訂正，這裡一併保留更正紀錄。"
+      ],
+      "before": "原AI曾稱another後省略了call。原題的call其實已印在空格後，並未省略。",
+      "after": "another直接修飾原題現成的單數可數名詞call，組成another call（又一通電話）；保留答案A、完整原題與選項。原串下一段已自行訂正，這裡一併保留更正紀錄。",
+      "createdAt": "2026-11-03T19:48:46.501458+00:00"
+    },
+    {
+      "id": "correction-q-941-e6e2efa7f291",
+      "state": "pending",
+      "kind": "原文數據與推論範圍確認",
+      "title": "公民第6題｜核三公投中的公民權利",
+      "questionId": "q-941",
+      "questionText": "作答材料：\n〈核三重啟公投落幕〉\n\n核三廠最後一部機組在2025年5月停機，臺灣正式進入「非核家園」，但臺灣的能源政策始終是社會爭點。在野黨立委提出核三延役公投案，此公民投票案的開票結果顯示，同意票為434萬多票，不同意票為151萬多票，同意票數約為不同意票的兩倍，比例約占七成，顯示我國多數民意支持核能發展。然而，依公民投票法規定，公投案除了同意票須多於不同意票外，還必須達到投票權人總數四分之一以上，才算通過。本次公投的通過門檻為500萬餘票，但同意票未達門檻，因此結果為不通過。此外，這次公投的投票率不到三成，是2017年修法放寬門檻後，全國性公投中投票率最低的一次。\n\n原卷「跨冊超連結」：\n① 公民投票是對事的投票，可以展現直接民主（單元7）。\n② 民主政治中，舉辦公投是尊重民意的展現，符合民意政治（單元5）。\n③ 公民投票法可以落實憲法的創制權與複決權（單元7）。\n\n文中投票主要是哪一種公民權利的展現？\n(A) 選舉權\n(B) 罷免權\n(C) 創制權\n(D) 複決權",
+      "questionUrl": "/site/index.html#question/q-941",
+      "url": "/site/index.html#question/q-941",
+      "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+      "questions": [
+        "完整保留原題同時避免比值與母群推論誤學，這是實質新增閱讀限制，非單選答案未定。",
+        "修改前／原AI內容：原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
+        "目前處理：原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。"
+      ],
+      "before": "原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
+      "after": "原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。",
+      "createdAt": "2026-11-03T20:00:29.402328+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "D",
+      "reviewPurpose": "已核定答案及完整原題的解說差異檢視；不阻塞其他整理或漫畫。",
+      "primarySources": [
+        "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031165/ch02/type3/gov15/num4/Eg.pdf",
+        "https://info.cec.gov.tw/ref2025/static/file/全國性公民投票案第21案公民投票公報電子書/"
+      ]
     }
   ],
   "resolved": [
@@ -5328,6 +5373,33 @@
       "resolvedAt": "2026-11-02T16:37:26.574786+00:00",
       "action": "browser_access_restored",
       "resolution": "使用者已按Allow；Windows Chrome授權連線成功，兩份完整對話與4＋6張原始使用者附件均實際保存，檔案bytes與封存附件相符。先前公開端點403為存取限制，並非原圖失效；接續逐題辨讀與核對，不將取圖完成冒稱題目已入庫。"
+    },
+    {
+      "id": "access-new-gpt-20261104-originals",
+      "title": "Chrome 連線允許：取回GPT55／56原卷",
+      "kind": "原圖存取",
+      "state": "resolved",
+      "sourceKey": "gpt055",
+      "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+      "sourceUrls": [
+        "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+        "https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80"
+      ],
+      "questionText": "兩份完整對話已封存。第55來源有13個原始使用者圖片附件，第56來源有7個，共20張，尚未下載及辨讀。已確認Windows Chrome仍在運作及實際端點，單一loopback連線正在等待允許；目前未探測本批原圖下載狀態，不判原圖失效。",
+      "questions": [
+        "請在Chrome新出現的遠端偵錯連線提示按Allow／允許，讓現有單一連線取得原卷。",
+        "第55來源：https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+        "第56來源：https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80",
+        "實際原圖取得並辨讀後才開始逐題核對；允許連線不代表題目已入庫。"
+      ],
+      "createdAt": "2026-11-03T19:36:11.272979+00:00",
+      "resolvedAt": "2026-11-03T19:40:55.040288+00:00",
+      "action": "browser_access_restored",
+      "resolution": "使用者已按Allow；授權Windows Chrome連線成功，GPT55的13張與GPT56的7張原始使用者附件均已實際保存，bytes與封存附件全部相符、errors=0。取圖前沒有把未下載判為失效；現接續逐題辨讀核對，不將取資料完成冒稱題目已入庫。",
+      "evidencePaths": [
+        "docs/acquisition/new-gpt-20261104-a.json",
+        "docs/acquisition/new-gpt-20261104-b.json"
+      ]
     }
   ]
 }

@@ -1,0 +1,99 @@
+{
+  "sourceId": "src-more-055",
+  "url": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "status": "ready",
+  "producer": "/root/comic_lane_2",
+  "questionPath": "docs/imports/new-gpt-20261104-a/questions.json",
+  "questionSHA256": "0b1bd758268476b35a2bf64349e92334435af742796a30ab3f24f7f372fd492f",
+  "originalQuestionCount": 18,
+  "questionPageCount": 13,
+  "sourceAIImagesAdopted": false,
+  "teachingComicState": "queued_after_intake",
+  "pendingQuestionConditions": [],
+  "reviews": [
+    {
+      "draftId": "gpt055-referendum-q6",
+      "kind": "原文數據措辭限制",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "D",
+      "before": "原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
+      "after": "原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。",
+      "reason": "完整保留原題同時避免比值與母群推論誤學，這是實質新增閱讀限制，非單選答案未定。",
+      "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+      "primarySources": [
+        "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031165/ch02/type3/gov15/num4/Eg.pdf",
+        "https://info.cec.gov.tw/ref2025/static/file/全國性公民投票案第21案公民投票公報電子書/"
+      ],
+      "verification": "比值由原卷434萬及151萬獨立計算；法律與官方公報案型不依AI。"
+    }
+  ],
+  "skips": [
+    {
+      "kind": "clarification_not_new_question",
+      "messageIndices": [
+        23,
+        81,
+        86
+      ],
+      "reason": "第五題澄清與第19改B/重答均屬既有原問，不另建題。"
+    },
+    {
+      "kind": "unasked_printed_questions",
+      "reason": "原卷同頁未被使用者指定的題目不收入；共用材料必要文字保留。"
+    },
+    {
+      "kind": "source_generated_images",
+      "reason": "來源生成圖不採用；後續只依本批正式qid自製四格。"
+    }
+  ],
+  "legalEvidence": "docs/imports/new-gpt-20261104-a/legal-evidence/index.json",
+  "visualReview": {
+    "originalsViewed": [
+      "docs/source-pages/chatgpt-6aea190f-5.jpg",
+      "docs/source-pages/chatgpt-6aea190f-6.jpg",
+      "docs/source-pages/chatgpt-6aea190f-7.jpg",
+      "docs/source-pages/chatgpt-6aea190f-8.jpg",
+      "docs/source-pages/chatgpt-6aea190f-9.jpg",
+      "docs/source-pages/chatgpt-6aea190f-10.jpg",
+      "docs/source-pages/chatgpt-6aea190f-11.jpg",
+      "docs/source-pages/chatgpt-6aea190f-12.jpg",
+      "docs/source-pages/chatgpt-6aea190f-13.jpg",
+      "docs/source-pages/chatgpt-6aea190f-1.jpg",
+      "docs/source-pages/chatgpt-6aea190f-2.jpg",
+      "docs/source-pages/chatgpt-6aea190f-3.jpg",
+      "docs/source-pages/chatgpt-6aea190f-4.jpg"
+    ],
+    "allOriginalsReadable": true,
+    "cropsViewed": [
+      "docs/imports/new-gpt-20261104-a/originals/original-mi000.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi039.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi065.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi093.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi111.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi131.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi154.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi173.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi195.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi215-stem.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi215-options.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi239.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi266.png",
+      "docs/imports/new-gpt-20261104-a/originals/original-mi287.png"
+    ],
+    "allCropsComplete": true,
+    "checkedAllOriginalQuestions": true,
+    "checkedAllOptions": true,
+    "checkedNecessaryMaterials": true,
+    "notes": "僅以真user原圖核稿，bytes/fileId對應訊息，不依DOM下載檔名先後猜題；13照片已全實看。所有crop亦已開啟核對。"
+  },
+  "contentFrozen": true,
+  "readyAt": "2026-11-03T19:57:21.882595+00:00",
+  "dedupe": {
+    "reportPath": "docs/imports/new-gpt-20261104-a/dedupe-candidates.json",
+    "checkedOriginalQuestions": 18,
+    "allCandidatesEmpty": true,
+    "method": "逐題完整題幹/全部選項candidates與獨特關鍵詞搜尋，無exact/similar/sharedMaterial候選；原圖內容已先實看。"
+  },
+  "titleReview": "全部自訂題名採中性主題，不直接提示正確選項字詞/結論。",
+  "reviewState": "唯一核三閱讀限制卡答案可定，不阻塞其餘題目或已核答案的漫畫。"
+}

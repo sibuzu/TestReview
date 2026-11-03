@@ -1,75 +1,89 @@
 {
-  "mode": "two_producers_one_integrator_scoped_batch",
+  "mode": "two_source_producers_one_integrator_scoped_batch",
   "workerLimit": 3,
-  "rootRole": "回覆、機動與META",
-  "updatedAt": "2026-11-02T17:42:54.287243+00:00",
+  "rootRole": "本批原卷取得、回覆與META",
+  "updatedAt": "2026-11-03T20:34:14.413147+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "本批全部完成並已推送",
-      "state": "complete",
-      "startedAt": null,
+      "title": "24份全完成：最終測試、資產預檢與提交推送",
+      "state": "integrating",
+      "startedAt": "2026-11-03T20:34:14.397326+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": true,
+      "claimsPaused": false,
       "batchQuestionIds": [
-        "q-912"
+        "q-925"
       ],
       "activeTask": {
-        "title": "本批全部完成並已推送",
-        "state": "complete",
-        "completedAt": "2026-11-02T17:42:53.725801+00:00"
+        "title": "24份全完成：最終測試、資產預檢與提交推送",
+        "state": "integrating",
+        "startedAt": "2026-11-03T20:34:14.397326+00:00"
       }
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "指定本批製作完成，不領其他題",
+      "title": "本批已全部交稿，停止領題",
       "state": "complete",
-      "startedAt": null,
+      "startedAt": "2026-11-03T20:34:14.397326+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production",
       "claimsPaused": true,
       "batchQuestionIds": [
-        "q-911",
-        "q-912",
-        "q-913",
-        "q-914",
-        "q-915"
+        "q-928",
+        "q-929",
+        "q-930",
+        "q-931",
+        "q-936",
+        "q-940",
+        "q-941",
+        "q-942",
+        "q-943",
+        "q-944",
+        "q-945"
       ],
       "activeTask": {
-        "title": "指定本批製作完成，不領其他題",
+        "title": "本批已全部交稿，停止領題",
         "state": "complete",
-        "completedAt": "2026-11-02T17:42:53.725801+00:00"
-      }
+        "startedAt": "2026-11-03T20:34:14.397326+00:00"
+      },
+      "pauseReason": "本批完成，不接舊佇列"
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "指定本批製作完成，不領其他題",
+      "title": "本批已全部交稿，停止領題",
       "state": "complete",
-      "startedAt": null,
+      "startedAt": "2026-11-03T20:34:14.397326+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": true,
       "batchQuestionIds": [
-        "q-916",
-        "q-917",
-        "q-918",
-        "q-919",
-        "q-920",
-        "q-921"
+        "q-922",
+        "q-923",
+        "q-924",
+        "q-926",
+        "q-927",
+        "q-932",
+        "q-933",
+        "q-934",
+        "q-935",
+        "q-937",
+        "q-938",
+        "q-939"
       ],
       "activeTask": {
-        "title": "指定本批製作完成，不領其他題",
+        "title": "本批已全部交稿，停止領題",
         "state": "complete",
-        "completedAt": "2026-11-02T17:42:53.725801+00:00"
-      }
+        "startedAt": "2026-11-03T20:34:14.397326+00:00"
+      },
+      "pauseReason": "本批完成，不接舊佇列"
     }
   ],
   "ready": [],
-  "integrated": 848,
+  "integrated": 872,
   "blocked": [],
   "waiting": [],
   "integrating": [],

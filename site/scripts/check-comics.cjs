@@ -66,7 +66,7 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
     assert.equal(result.artImages.length,spec.panels.filter(p=>!p.diagram).length,id+' illustration panels match the selected visual mode');
     const diagrams=spec.panels.filter(p=>p.diagram).map(p=>p.diagram);
     assert.equal(result.diagramTexts.length,diagrams.length,id+' labeled diagram blocks render in both reading views');
-    diagrams.forEach((d,n)=>{for(const item of d.items)assert.ok(result.diagramTexts[n].replace(/\s/gu,'').includes(item.label.replace(/\s/gu,'')),id+' all Chinese diagram labels remain visible');});
+    diagrams.forEach((d,n)=>{const expected=[d.title,d.arrow,d.target,d.note,...d.items.flatMap(item=>[item.label,item.detail,item.shortLabel,item.value===undefined?undefined:String(item.value)])].filter(value=>typeof value==='string'&&value.length);for(const value of expected)assert.ok(result.diagramTexts[n].replace(/\s/gu,'').includes(value.replace(/\s/gu,'')),id+' diagram wording, numbers and units preserved: '+value);});
     assert.deepEqual(result.captionTexts.map(t=>t.replace(/\s/gu,'')),spec.panels.filter(p=>p.caption).map(p=>p.caption.replace(/\s/gu,'')),id+' role captions are preserved');
     assert.ok(result.artImages.every(i=>i.loaded&&i.width>0&&i.height>0),id+' image decoding');
     assert.ok(result.artImages.every(i=>i.src&&!i.src.startsWith('data:')),id+' shared assets rather than embedded image copies');

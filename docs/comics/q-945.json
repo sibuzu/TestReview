@@ -1,0 +1,159 @@
+{
+  "id": "q-945",
+  "subject": "Civics",
+  "title": "年齡門檻與當選名額，兩關都要過",
+  "art": "docs/comics/art/q-945-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 先從35歲回推起點23歲",
+      "text": "依題意，已任三任合計12年，每任4年。以35－12＝23回推，先檢查第一任職位的最低參選年齡。",
+      "alt": "現年35歲、已任12年與起點23歲的減法直接標明單位及計算動作。",
+      "diagram": {
+        "kind": "paths",
+        "title": "依題意回推起始年齡",
+        "items": [
+          {
+            "label": "現年｜剛滿35歲",
+            "detail": "最近一次選舉。",
+            "tone": "blue"
+          },
+          {
+            "label": "已任｜三任共12年",
+            "detail": "按每任4年的題意計算。",
+            "tone": "green"
+          }
+        ],
+        "target": "35歲－12年＝23歲",
+        "arrow": "從現年減去已任年數"
+      }
+    },
+    {
+      "heading": "② B的四階段，都達到年齡門檻",
+      "text": "23歲能選村長；27歲已達鄉長26歲門檻；31歲已達縣長30歲門檻；35歲也能選縣議員。",
+      "alt": "B四個階段直接標明實際年齡、職位與法定最低參選年齡。",
+      "diagram": {
+        "kind": "flow",
+        "title": "B｜每階段增加4年",
+        "items": [
+          {
+            "label": "23歲｜村長",
+            "detail": "最低參選年齡23歲。",
+            "tone": "green"
+          },
+          {
+            "label": "27歲｜鄉長",
+            "detail": "最低參選年齡26歲。",
+            "tone": "green"
+          },
+          {
+            "label": "31歲｜縣長",
+            "detail": "最低參選年齡30歲。",
+            "tone": "green"
+          },
+          {
+            "label": "35歲｜縣議員",
+            "detail": "最低參選年齡23歲。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "經過4年到下一階段"
+      }
+    },
+    {
+      "heading": "③ 第二高票，還要看應選名額",
+      "text": "縣議員在應選多席的選區，第二高票可能當選；縣長只選一人，第二高票不能當選。",
+      "alt": "多席縣議員與一席縣長的當選條件直接比較，不捏造確切票數或名額。",
+      "diagram": {
+        "kind": "paths",
+        "title": "最後一關｜第二高票能否當選？",
+        "items": [
+          {
+            "label": "縣議員｜選區應選多席時",
+            "detail": "第二高票可能當選。",
+            "tone": "green"
+          },
+          {
+            "label": "縣長｜只選一人",
+            "detail": "第二高票不能當選。",
+            "tone": "gold"
+          }
+        ],
+        "target": "B符合｜最近一次為縣議員",
+        "arrow": "比對題目的當選條件"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：村長→鄉長→縣長→縣議員",
+    "points": [
+      "A、C第一任鄉長：23歲未達26歲門檻。",
+      "D最後為縣長：不符第二高票當選。",
+      "先核年齡，再核名額；不是所有第二高票都能當選。"
+    ]
+  },
+  "protectedWords": [
+    "最低參選年齡",
+    "村長",
+    "鄉長",
+    "縣長",
+    "縣議員",
+    "第二高票",
+    "23歲",
+    "27歲",
+    "31歲",
+    "35歲"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi287-ac7c24087243.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "本題重點是依題意的年齡計算、各公職最低年齡與多席/單席當選條件，精確可選取HTML時間軸與名額比較直接標出歲、年及角色，比人物場景更清楚。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:28:33.665503+00:00",
+  "artSHA256": "e7584889b0b0707878ee7c975ee6842aa1bd691e29e742323f87a03439142b72",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:32:11.564643+00:00",
+  "previewValidation": "docs/comics/q-945-preview-validation.json",
+  "visualReview": "實看1440/390精確HTML年齡時間軸，35歲減12年得23歲，B四階段23/27/31/35及最低門檻23/26/30/23皆標明歲與年。第二高票限多席縣議員、單一名額縣長排除正確；B保持，三寬無溢出、同行等高與手機自然高度。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-945-1440.png",
+      "/tmp/weirugo-comic-previews/q-945-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-945-art-e7584889b0.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:32:11.509349+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-945-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-945-validation.json"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "q-936",
+  "subject": "Civics",
+  "title": "親屬與公職，兩個條件都要過",
+  "art": "docs/comics/art/q-936-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 先找旁系血親，留下舅舅和姑姑",
+      "text": "舅舅與姑姑和自己有共同血源；姨丈、伯母是血親的配偶，屬姻親。",
+      "alt": "四個親戚角色以精確中文標示親屬關係，分清血親與姻親。",
+      "diagram": {
+        "kind": "paths",
+        "title": "第一關｜親屬關係",
+        "items": [
+          {
+            "label": "B 舅舅／C 姑姑",
+            "detail": "母親的兄弟／父親的姊妹，都是旁系血親。",
+            "tone": "green"
+          },
+          {
+            "label": "A 姨丈／D 伯母",
+            "detail": "阿姨的配偶／伯父的配偶，屬於姻親。",
+            "tone": "gold"
+          }
+        ],
+        "target": "保留｜B、C",
+        "arrow": "先排除不符血親者"
+      }
+    },
+    {
+      "heading": "② 再看市民代表，不是市議員",
+      "text": "臺南市是直轄市，應參選市議員；花蓮縣內有縣轄市，和市民代表的條件相容。",
+      "alt": "兩名留下的人與借宿地點、公職制度直接配對。",
+      "diagram": {
+        "kind": "paths",
+        "title": "第二關｜地方公職",
+        "items": [
+          {
+            "label": "B 舅舅｜花蓮縣",
+            "detail": "縣內有縣轄市花蓮市，設市民代表會。",
+            "tone": "green"
+          },
+          {
+            "label": "C 姑姑｜臺南市",
+            "detail": "直轄市設市議會，不是市民代表會。",
+            "tone": "gold"
+          }
+        ],
+        "target": "最可能｜B 舅舅",
+        "arrow": "比對公職與所在地"
+      }
+    },
+    {
+      "heading": "③ 原文與推論，記得分開",
+      "text": "原表只寫「花蓮縣」，沒有說舅舅住花蓮市。本題是結合兩條線索選最可能的人，不擅自補地址。",
+      "alt": "原表已知與解題推論分欄，避免把花蓮市冒充題幹已載條件。",
+      "diagram": {
+        "kind": "flow",
+        "title": "別把推論寫成原題",
+        "items": [
+          {
+            "label": "原文明載｜花蓮縣、舅舅",
+            "detail": "附表的已知資訊。",
+            "tone": "blue"
+          },
+          {
+            "label": "結合條件｜最可能符合市民代表",
+            "detail": "不能反說原表已明載花蓮市。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合兩項線索"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：舅舅",
+    "points": [
+      "先找旁系血親，再比對地方公職種類。",
+      "姑姑只通過血親條件，臺南市的機關不符。",
+      "花蓮市是可能推論，不是原表明載地址。"
+    ]
+  },
+  "protectedWords": [
+    "旁系血親",
+    "姻親",
+    "舅舅",
+    "姑姑",
+    "市民代表",
+    "市議員",
+    "花蓮縣",
+    "花蓮市",
+    "臺南市"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi131-8a05a55a5395.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "本題核心為兩條件交集和原文/推論界線，以直接標名角色、親屬關係、地點與公職的HTML比較流程，比虛構人物外觀更精確。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:12:43.353497+00:00",
+  "artSHA256": "212b8c8933a8e68ff8a848fe767566dbead4972ca75f29184dd9918efac723a7",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:31:34.668949+00:00",
+  "previewValidation": "docs/comics/q-936-preview-validation.json",
+  "visualReview": "已實看1440/390中文雙條件圖；血親/姻親、舅舅/姑姑所在地與公職直接標明，明示花蓮市僅可能推論，不擅補原表地址。B與三寬驗證通過、無溢出與保護詞斷字、同行等高及手機自然高度。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-936-1440.png",
+      "/tmp/weirugo-comic-previews/q-936-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-936-art-212b8c8933.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:31:34.567123+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-936-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-936-validation.json"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "gpt055-local-grid-q24",
+  "sourceId": "src-more-055",
+  "subject": "Civics",
+  "title": "公民第24題｜九宮格的地方層級",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-03",
+  "dateLabel": "首次出題日期",
+  "question": "公民課中，老師設計九宮格遊戲，讓學生熟悉地方政府層級。圖中甲、乙、丙依序應填入下列何者，才能使其中連成一直線或一橫線的三個地方政府分屬不同層級？\n(A) 屏東市、高雄市、埔里鎮\n(B) 基隆市、南投縣、彰化市\n(C) 嘉義市、臺南市、臺北市\n(D) 新竹縣、臺中市、苗栗市",
+  "answer": "(C) 嘉義市、臺南市、臺北市",
+  "explanation": "先依教材分為三類：直轄市；縣與市（如嘉義市）；鄉、鎮與縣轄市。臺東市、南投市是縣轄市，和麟洛鄉同一類，不能與臺北市等直轄市混淆。\n\n代入C後，最右直排成為「南投市→花蓮縣→臺北市」，依序為縣轄市、縣、直轄市，三種不同，符合題目。只要有其中一直排或橫排符合即可，不必每排皆不同；也不自行把斜線加入題目未列的條件。\n\n逐項把甲、乙、丙標成類別：A為縣轄市／直轄市／鎮；B為市／縣／縣轄市；C為市／直轄市／直轄市；D為縣／直轄市／縣轄市。對照原格逐列逐行後，只有C能在最右直排集齊三類。這是本題使用的教材地方層級分類，不是說直轄市與縣在所有法律關係中都是上下隸屬。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實看真正上傳原卷及裁切成品，核對完整題幹、全部選項、必要表文與原卷訂正，並於2026-11-04核對官方法規。未確認教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+  "diagram": "",
+  "tags": [
+    "地方層級",
+    "九宮格",
+    "縣轄市",
+    "直轄市"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261104-a/originals/original-mi239.png"
+  ],
+  "sourceLabel": "分享原卷｜第24題",
+  "studentAnswer": "D；原卷紅筆訂正C。",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "屏東市、高雄市、埔里鎮",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "代入後所有直排、橫排都未同時包含三類地方政府。"
+    },
+    {
+      "label": "B",
+      "text": "基隆市、南投縣、彰化市",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "基隆市與縣同類，南投縣也是縣層級，代入原格仍沒有三類齊全的直排或橫排。"
+    },
+    {
+      "label": "C",
+      "text": "嘉義市、臺南市、臺北市",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "最右直排南投市、花蓮縣、臺北市，分別是縣轄市、縣、直轄市，符合題目。"
+    },
+    {
+      "label": "D",
+      "text": "新竹縣、臺中市、苗栗市",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "新竹縣、臺中市、苗栗市代入後，沒有直排或橫排同時包含三類。"
+    }
+  ],
+  "tables": [
+    {
+      "caption": "原卷九宮格（位置依原圖）",
+      "headers": [
+        "左欄",
+        "中欄",
+        "右欄"
+      ],
+      "rows": [
+        [
+          "甲",
+          "臺東市",
+          "南投市"
+        ],
+        [
+          "新北市",
+          "乙",
+          "花蓮縣"
+        ],
+        [
+          "桃園市",
+          "麟洛鄉",
+          "丙"
+        ]
+      ]
+    }
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "originalQuestionNumber": "24",
+  "supportingSources": [
+    {
+      "title": "地方制度法第4、5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=5"
+    }
+  ],
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+    "messageIndex": 239,
+    "messageId": "2c52bd1d-ac95-44df-9d8c-90423a12d7c9",
+    "firstQuestionTimestamp": 1793718531.2834868,
+    "firstQuestionDateTime": "2026-11-03T23:08:51.283487+08:00",
+    "originalImage": "docs/source-pages/chatgpt-6aea190f-2.jpg",
+    "originalImageSHA256": "f3e2e16da8c45f6fe3bc037f8db15b68ee39bda9246e013c0b54a78464e97538",
+    "attachmentMatchedBy": "archive size_bytes and fileId, not filename order",
+    "cropHashes": {
+      "docs/imports/new-gpt-20261104-a/originals/original-mi239.png": "eef83a845712f13019c9686c7fec523a889e5878b340ace4dff37e609ab81bb7"
+    },
+    "inclusionEvidence": "使用者原訊息指定「24@錯題」，且此問原卷有紅筆訂正；已逐題實看。"
+  }
+}

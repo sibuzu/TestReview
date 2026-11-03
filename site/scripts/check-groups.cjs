@@ -24,6 +24,7 @@ function measureComic(c){
   autoRows:getComputedStyle(c.querySelector('.comic-grid')).gridAutoRows,
   art:[...c.querySelectorAll('.comic-art')].map(x=>x.clientWidth),
   decoded:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,src:i.getAttribute('src')})),
+  diagramTexts:[...c.querySelectorAll('.comic-diagram')].map(el=>el.textContent),captionTexts:[...c.querySelectorAll('.comic-caption')].map(el=>el.textContent),
   copy:[...c.querySelectorAll('.comic-copy p')].map(x=>x.textContent),fourth:c.querySelector('.comic-answer')?.textContent};
 }
 
@@ -40,6 +41,8 @@ function measureComic(c){
     assert.deepEqual(await page.locator('[data-group-question]').evaluateAll(nodes=>nodes.map(n=>n.dataset.groupQuestion)),children.map(c=>c.id));
     assert.equal(await page.locator('.native-comic:visible').count(),0);
     if(q.passage)assert.equal(await page.locator('.reading-passage').evaluateAll((nodes,text)=>nodes.filter(n=>n.textContent.includes(text)).length,q.passage),1,'Common passage repeated');
+    const sharedTableTexts=(await page.locator(standalone?'.data-table table':'.question-table table').allTextContents()).map(compact);
+    for(const table of q.tables||[]){const expected=compact([table.caption||'',...(table.headers||[]),...(table.rows||[]).flat()].join(''));assert.equal(sharedTableTexts.filter(text=>text===expected).length,1,q.id+' complete common table/options appear exactly once');}
     for(const child of children){const stem=page.locator(`[data-group-question="${child.id}"] ${standalone?'.question':'.detail-question'}`);assert.equal(compact(await stem.textContent()),compact(child.question),child.id+' incomplete stem/options');}
     await toggle.click();assert.deepEqual(await page.locator('[data-group-answer]').evaluateAll(nodes=>nodes.map(n=>n.dataset.groupAnswer)),children.map(c=>c.id));assert.equal(await page.locator('.native-comic').count(),expectedComics);
     await page.locator('img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();})));
@@ -65,11 +68,11 @@ function measureComic(c){
       const [one,two,three,four]=result.cells,close=(a,b)=>Math.abs(a-b)<1;
       if(close(one.top,two.top)){assert.ok(close(one.width,three.width)&&close(two.width,four.width));assert.ok(close(three.top,four.top)&&close(one.height,two.height)&&close(three.height,four.height));}
       else {assert.ok(result.cells.every(x=>close(x.width,one.width)));assert.ok(one.top<two.top&&two.top<three.top&&three.top<four.top);}
-      assert.ok(result.art.every(w=>w<=180));assert.equal(result.decoded.length,3);assert.ok(result.decoded.every(i=>i.loaded&&!i.src.startsWith('data:')));assert.deepEqual(result.copy.map(compact),child.teachingComic.panels.map(p=>compact(p.text)));assert.equal(compact(result.fourth),compact(child.teachingComic.fourth.answer));
+      assert.ok(result.art.every(w=>w<=180));const panels=child.teachingComic.panels,diagrams=panels.filter(p=>p.diagram).map(p=>p.diagram);assert.equal(result.decoded.length,panels.filter(p=>!p.diagram).length);assert.ok(result.decoded.every(i=>i.loaded&&!i.src.startsWith('data:')));assert.equal(result.diagramTexts.length,diagrams.length);diagrams.forEach((d,n)=>{const expected=[d.title,d.arrow,d.target,d.note,...d.items.flatMap(item=>[item.label,item.detail,item.shortLabel,item.value===undefined?undefined:String(item.value)])].filter(value=>typeof value==='string'&&value.length);for(const value of expected)assert.ok(compact(result.diagramTexts[n]).includes(compact(value)),child.id+' diagram wording, numbers and units preserved: '+value);});assert.deepEqual(result.captionTexts.map(compact),panels.filter(p=>p.caption).map(p=>compact(p.caption)));assert.deepEqual(result.copy.map(compact),panels.map(p=>compact(p.text)));assert.equal(compact(result.fourth),compact(child.teachingComic.fourth.answer));
       let screenshot=null;if(width!==1120){await page.setViewportSize({width,height:Math.max(1000,Math.ceil(result.height)+320)});screenshot=path.join(shots,`${q.id}-${child.id}-${standalone?'standalone':'app'}-${width}.png`);await comic.screenshot({path:screenshot});await page.setViewportSize({width,height:1000});}
       comicChecks.push({id:child.id,...result,screenshot});
      }
-     rows.push({standalone,width,defaultCollapsed:true,childIds:children.map(c=>c.id),expectedComicCount:expectedComics,comics:comicChecks,textOnlyChildren:textOnlyChecks,noDocumentOverflow:true});totalViews++;
+     rows.push({standalone,width,defaultCollapsed:true,commonTablesVerified:(q.tables||[]).length,commonTablesCompleteExactlyOnce:true,childIds:children.map(c=>c.id),expectedComicCount:expectedComics,comics:comicChecks,textOnlyChildren:textOnlyChecks,noDocumentOverflow:true});totalViews++;
     }
    }
    assert.deepEqual(errors,[]);await page.close();totalComics+=expectedComics;

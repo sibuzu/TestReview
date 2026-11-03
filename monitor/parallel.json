@@ -2,32 +2,32 @@
   "mode": "two_source_producers_one_integrator_scoped_batch",
   "workerLimit": 3,
   "rootRole": "本批原卷取得、回覆與META",
-  "updatedAt": "2026-11-03T20:34:14.413147+00:00",
+  "updatedAt": "2026-11-03T20:37:46.887529+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "24份全完成：最終測試、資產預檢與提交推送",
-      "state": "integrating",
-      "startedAt": "2026-11-03T20:34:14.397326+00:00",
+      "title": "本批19面／24原問及24份新四格驗證完成並推送",
+      "state": "complete",
+      "startedAt": "2026-11-03T20:37:46.356849+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": false,
+      "claimsPaused": true,
       "batchQuestionIds": [
         "q-925"
       ],
       "activeTask": {
-        "title": "24份全完成：最終測試、資產預檢與提交推送",
-        "state": "integrating",
-        "startedAt": "2026-11-03T20:34:14.397326+00:00"
+        "title": "本批19面／24原問及24份新四格驗證完成並推送",
+        "state": "complete",
+        "startedAt": "2026-11-03T20:37:46.356849+00:00"
       }
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "本批已全部交稿，停止領題",
+      "title": "本批全部交稿完成，不接舊佇列",
       "state": "complete",
-      "startedAt": "2026-11-03T20:34:14.397326+00:00",
+      "startedAt": "2026-11-03T20:37:46.356849+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production",
       "claimsPaused": true,
@@ -45,18 +45,18 @@
         "q-945"
       ],
       "activeTask": {
-        "title": "本批已全部交稿，停止領題",
+        "title": "本批全部交稿完成，不接舊佇列",
         "state": "complete",
-        "startedAt": "2026-11-03T20:34:14.397326+00:00"
+        "startedAt": "2026-11-03T20:37:46.356849+00:00"
       },
       "pauseReason": "本批完成，不接舊佇列"
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "本批已全部交稿，停止領題",
+      "title": "本批全部交稿完成，不接舊佇列",
       "state": "complete",
-      "startedAt": "2026-11-03T20:34:14.397326+00:00",
+      "startedAt": "2026-11-03T20:37:46.356849+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": true,
@@ -75,9 +75,9 @@
         "q-939"
       ],
       "activeTask": {
-        "title": "本批已全部交稿，停止領題",
+        "title": "本批全部交稿完成，不接舊佇列",
         "state": "complete",
-        "startedAt": "2026-11-03T20:34:14.397326+00:00"
+        "startedAt": "2026-11-03T20:37:46.356849+00:00"
       },
       "pauseReason": "本批完成，不接舊佇列"
     }

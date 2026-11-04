@@ -6,14 +6,15 @@
   ],
   "allowNewSources": false,
   "haltAfterCurrentSource": true,
-  "updatedAt": "2026-11-04T16:04:12.502100+00:00",
+  "updatedAt": "2026-11-04T16:10:55.225835+00:00",
   "instruction": "只處理使用者2026-11-04另交GPT第57來源。完整對話與原卷實取辨讀後才核對題目，逐題查重、完整原題與詳解先入庫，再完成本批所有新四格與正式桌手機QA，全部完成或經核實個別跳過後commit all並正常push；不沿用來源AI圖或收入AI延伸，不恢復舊佇列。",
   "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
   "closeoutEvidence": "docs/comics/new-gpt-20261104-c/completion-validation.json",
-  "detail": "GPT57全部15原問／13題面與15份新四格已完成核對、正式桌手機QA及121項網站測試；正準備本批commit all與正常push。",
+  "detail": "GPT57全部15原問／13題面及15份新四格已完成核對、90個正式版面檢查、桌手機實看與121項測試，內容commit 13f66e0已正常推送。q951保留A／B單選疑義，Monitor另有5項檢視；不恢復舊範圍。",
   "allowedSourceUrls": [
     "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27"
   ],
   "batch": "gpt",
-  "reason": "本批指定GPT57已全部整理驗證，5項檢視與q951單選疑義如實保留；不恢復舊來源或漫畫。"
+  "reason": "本批指定GPT57已全部整理驗證，5項檢視與q951單選疑義如實保留；不恢復舊來源或漫畫。",
+  "contentCommit": "13f66e0694aa42d336adf76f4baa7a9788e99a38"
 }

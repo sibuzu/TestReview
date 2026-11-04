@@ -2,30 +2,30 @@
   "mode": "one_source_producer_one_comic_producer_one_integrator",
   "workerLimit": 3,
   "rootRole": "第57來源完整對話及原卷取得、回覆與META",
-  "updatedAt": "2026-11-04T16:04:12.594379+00:00",
+  "updatedAt": "2026-11-04T16:10:55.759515+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "GPT57全批驗證完成，資產預檢與提交推送",
-      "state": "integrating",
-      "startedAt": "2026-11-04T16:04:12.502100+00:00",
+      "title": "本批GPT57全部完成並推送，不領舊題",
+      "state": "complete",
+      "startedAt": "2026-11-04T16:10:55.225835+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": false,
+      "claimsPaused": true,
       "batchQuestionIds": [],
       "activeTask": {
-        "title": "GPT57全批驗證完成，資產預檢與提交推送",
-        "state": "integrating",
-        "startedAt": "2026-11-04T16:04:12.502100+00:00"
+        "title": "本批GPT57全部完成並推送，不領舊題",
+        "state": "complete",
+        "startedAt": "2026-11-04T16:10:55.225835+00:00"
       }
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "本批新四格全交稿完成，不接舊佇列",
+      "title": "本批GPT57全部完成並推送，不領舊題",
       "state": "complete",
-      "startedAt": "2026-11-04T16:04:12.502100+00:00",
+      "startedAt": "2026-11-04T16:10:55.225835+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production",
       "claimsPaused": true,
@@ -43,17 +43,17 @@
       ],
       "pauseReason": "原卷尚未實取，等待取回後才核稿",
       "activeTask": {
-        "title": "本批新四格全交稿完成，不接舊佇列",
+        "title": "本批GPT57全部完成並推送，不領舊題",
         "state": "complete",
-        "startedAt": "2026-11-04T16:04:12.502100+00:00"
+        "startedAt": "2026-11-04T16:10:55.225835+00:00"
       }
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "本批新四格全交稿完成，不接舊佇列",
+      "title": "本批GPT57全部完成並推送，不領舊題",
       "state": "complete",
-      "startedAt": "2026-11-04T16:04:12.502100+00:00",
+      "startedAt": "2026-11-04T16:10:55.225835+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": true,
@@ -66,9 +66,9 @@
       ],
       "pauseReason": "等待本批完整新題核定，不領舊題",
       "activeTask": {
-        "title": "本批新四格全交稿完成，不接舊佇列",
+        "title": "本批GPT57全部完成並推送，不領舊題",
         "state": "complete",
-        "startedAt": "2026-11-04T16:04:12.502100+00:00"
+        "startedAt": "2026-11-04T16:10:55.225835+00:00"
       }
     }
   ],

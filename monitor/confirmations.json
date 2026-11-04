@@ -17,49 +17,147 @@
       "resolution": "使用者已明確確認對這次新的 Chrome 提示按 Allow；程式接續驗證連線與取回原卷，尚不宣稱圖片已下載。"
     },
     {
-      "id": "correction-q-922-8e8f50628242",
+      "id": "correction-q-946-8b90420fcbf4",
       "state": "pending",
-      "kind": "來源已自行更正的解說確認",
-      "title": "英文第1題｜又來一通電話用another",
-      "questionId": "q-922",
-      "questionText": "Ms. Johnson has been taking phone calls since she entered the office this morning. Just when she thought she could finally leave work, ______ call came in.\n(A) another\n(B) each\n(C) the next\n(D) the other",
-      "questionUrl": "/site/index.html#question/q-922",
-      "url": "/site/index.html#question/q-922",
-      "sourceUrl": "https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80",
+      "kind": "原AI答案標頭矛盾",
+      "title": "公民第8題｜遊樂園門票促銷",
+      "questionId": "q-946",
+      "questionText": "新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n(A) 降低利潤\n(B) 提高生產成本\n(C) 增加銷貨收入\n(D) 提高商品價格",
+      "questionUrl": "/site/index.html#question/q-946",
+      "url": "/site/index.html#question/q-946",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
       "questions": [
-        "原對話前段曾誤把another分析成省略call，後段AI已自行更正。這是已核定的解說用語差異供檢視；原題完整、答案A從未改變，不影響繼續製作四格。",
-        "修改前／原AI內容：原AI曾稱another後省略了call。原題的call其實已印在空格後，並未省略。",
-        "目前處理：another直接修飾原題現成的單數可數名詞call，組成another call（又一通電話）；保留答案A、完整原題與選項。原串下一段已自行訂正，這裡一併保留更正紀錄。"
+        "答案徽章不能與正文矛盾；原題問促銷目的，降低利潤不是廠商主要目的。",
+        "修改前／原AI內容：原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
+        "目前處理：統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。"
       ],
-      "before": "原AI曾稱another後省略了call。原題的call其實已印在空格後，並未省略。",
-      "after": "another直接修飾原題現成的單數可數名詞call，組成another call（又一通電話）；保留答案A、完整原題與選項。原串下一段已自行訂正，這裡一併保留更正紀錄。",
-      "createdAt": "2026-11-03T19:48:46.501458+00:00"
+      "before": "原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
+      "after": "統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。",
+      "createdAt": "2026-11-04T15:32:08.936345+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "C",
+      "sourceMessageIndices": [
+        2,
+        6
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json"
     },
     {
-      "id": "correction-q-941-e6e2efa7f291",
+      "id": "correction-q-947-12cbbb4ff080",
       "state": "pending",
-      "kind": "原文數據與推論範圍確認",
-      "title": "公民第6題｜核三公投中的公民權利",
-      "questionId": "q-941",
-      "questionText": "作答材料：\n〈核三重啟公投落幕〉\n\n核三廠最後一部機組在2025年5月停機，臺灣正式進入「非核家園」，但臺灣的能源政策始終是社會爭點。在野黨立委提出核三延役公投案，此公民投票案的開票結果顯示，同意票為434萬多票，不同意票為151萬多票，同意票數約為不同意票的兩倍，比例約占七成，顯示我國多數民意支持核能發展。然而，依公民投票法規定，公投案除了同意票須多於不同意票外，還必須達到投票權人總數四分之一以上，才算通過。本次公投的通過門檻為500萬餘票，但同意票未達門檻，因此結果為不通過。此外，這次公投的投票率不到三成，是2017年修法放寬門檻後，全國性公投中投票率最低的一次。\n\n原卷「跨冊超連結」：\n① 公民投票是對事的投票，可以展現直接民主（單元7）。\n② 民主政治中，舉辦公投是尊重民意的展現，符合民意政治（單元5）。\n③ 公民投票法可以落實憲法的創制權與複決權（單元7）。\n\n文中投票主要是哪一種公民權利的展現？\n(A) 選舉權\n(B) 罷免權\n(C) 創制權\n(D) 複決權",
-      "questionUrl": "/site/index.html#question/q-941",
-      "url": "/site/index.html#question/q-941",
-      "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+      "kind": "原AI初答誤音（來源後續已更正）",
+      "title": "國文第4題｜看國字寫注音",
+      "questionId": "q-947",
+      "questionText": "「摻」揉：（　）",
+      "questionUrl": "/site/index.html#question/q-947",
+      "url": "/site/index.html#question/q-947",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
       "questions": [
-        "完整保留原題同時避免比值與母群推論誤學，這是實質新增閱讀限制，非單選答案未定。",
-        "修改前／原AI內容：原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
-        "目前處理：原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。"
+        "不能把古義持握的ㄕㄢˇ音套在混合、揉合義。紅筆完整讀音未能確定辨識，不猜教師改音。",
+        "修改前／原AI內容：原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
+        "目前處理：「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。"
       ],
-      "before": "原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
-      "after": "原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。",
-      "createdAt": "2026-11-03T20:00:29.402328+00:00",
+      "before": "原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
+      "after": "「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。",
+      "createdAt": "2026-11-04T15:32:08.977657+00:00",
       "answerCanBeDetermined": true,
-      "expectedAnswer": "D",
-      "reviewPurpose": "已核定答案及完整原題的解說差異檢視；不阻塞其他整理或漫畫。",
+      "expectedAnswer": "ㄔㄢ",
       "primarySources": [
-        "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031165/ch02/type3/gov15/num4/Eg.pdf",
-        "https://info.cec.gov.tw/ref2025/static/file/全國性公民投票案第21案公民投票公報電子書/"
-      ]
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31909&la=0&powerMode=0"
+      ],
+      "sourceMessageIndices": [
+        21,
+        22,
+        31
+      ],
+      "sourceAlreadyCorrected": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json"
+    },
+    {
+      "id": "correction-q-951-e34aa061df23",
+      "state": "pending",
+      "kind": "單選設計疑義",
+      "title": "國文第2題｜詞語中的多音字",
+      "questionId": "q-951",
+      "questionText": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "questionUrl": "/site/index.html#question/q-951",
+      "url": "/site/index.html#question/q-951",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "MOE簡編劃的ㄏㄨㄚˊ包含擦掠及往表面拖拉留下痕跡；題句不足以強制第二劃改讀區分義ㄏㄨㄚˋ。A兩衝均ㄔㄨㄥ確定，疑點是唯一性而非原題缺漏。",
+        "修改前／原AI內容：原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+        "目前處理：保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。"
+      ],
+      "before": "原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+      "after": "保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。",
+      "createdAt": "2026-11-04T15:32:09.014485+00:00",
+      "answerCanBeDetermined": false,
+      "expectedAnswer": "原卷預期A；不指定唯一正解",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161&la=0&powerMode=1",
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33051&la=0&powerMode=0"
+      ],
+      "sourceMessageIndices": [
+        64,
+        83
+      ],
+      "sourceAlreadyIdentifiesAmbiguity": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json"
+    },
+    {
+      "id": "correction-q-956-568704aa01ed",
+      "state": "pending",
+      "kind": "原AI原作答誤讀",
+      "title": "國文題組｜〈採珠行〉閱讀（第1、2題）",
+      "questionId": "q-956",
+      "questionText": "作答材料：\n（甲）採珠行　元稹\n\n海波無底珠沉海，採珠之人判死採。\n萬人判死一得珠，斛量買婢人何在。\n年年採珠珠避人，今年採珠由海神。\n海神採珠珠盡死，死盡明珠空海水。\n珠為海物海屬神，神今自採何況人。\n\n注：①採珠：到水裡採取珍珠。②判死：付出生命作為代價。\n\n有關本詩的主旨，下列敘述何者正確？\n(A) 譴責人們與神明爭採珍珠\n(B) 呼籲重視海洋生態的平衡\n(C) 呼籲從事捕獵應重視安全\n(D) 撻伐買婢的行為忽視人權\n\n從詩意推斷，「斛量買婢」指的是下列何現象？\n(A) 海邊萬人空巷，珍珠被一斛一斛採走\n(B) 大家都跑去採珍珠，導致無人買賣婢女\n(C) 富人揮霍珍珠後，只好賣掉婢女來償債\n(D) 珍珠被採盡之前，富人揮霍珍珠的情景",
+      "questionUrl": "/site/index.html#question/q-956",
+      "url": "/site/index.html#question/q-956",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "原AI將學生原選項誤讀，會造成錯題紀錄不準；不是答案未定。",
+        "修改前／原AI內容：原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
+        "目前處理：原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。"
+      ],
+      "before": "原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
+      "after": "原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。",
+      "createdAt": "2026-11-04T15:38:56.271013+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "evidence": [
+        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-q1.png",
+        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-poem.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json"
+    },
+    {
+      "id": "correction-q-958-51f1f63cbbc1",
+      "state": "pending",
+      "kind": "文言多義詞釐清",
+      "title": "國文第7題｜座頭鯨舉動與名句",
+      "questionId": "q-958",
+      "questionText": "作答材料：\n（丙）解析魚類的情感　網路文章\n\n海洋生物也有情感嗎？在動畫電影海底總動員中，海洋生物角色們各個活靈活現，充滿獨特個性，不僅能夠彼此交流，還能夠表達出和人類一樣的各種喜怒哀樂。根據一些科學研究以及生態觀察顯示，這些情感反應可能並非只存在人類的幻想裡頭，海洋生物不僅會有近似於害羞或焦慮的表現，甚至有可能具有像人類一般的同理心！\n\n澳洲的行為生態學教授布朗在魚類生物學期刊中發表了一篇研究，其研究對象是十七隻來自澳洲東岸的澳洲虎鯊，布朗教授指出，不同的鯊魚即便遇到了相同的情境，仍會表現出不同的反應，顯示出鯊魚的性格存在著個體之間的差異——有些鯊魚遇到陌生環境中的障礙物時，只需短短二秒便能突破，有些卻必須花上長達二十分鐘，表現得比同類更加小心翼翼；而每隻鯊魚從突然離水到重新回到水中並平復下來所花費的時間也大不相同，說明了他們對於環境焦慮的抗壓性存在著差異。\n\n除了鯊魚以外，另外一份關於座頭鯨的觀察報告則指出，座頭鯨會為了拯救其他非自己族類的動物和掠食者搏鬥。2008年時，海洋生物學者彼得曼及其研究團隊記錄下了二隻座頭鯨不斷拍動魚鰭並發出叫聲，只為了幫助海豹脫離殺人鯨捕食的影片，一週後，研究團隊又再度發現，類似的救援行動來自於完全不同的座頭鯨身上，這一次，他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹「抱」在自己的肚子上，帶往安全的地方。這些被拯救的生物當中，有高達90%都是非座頭鯨：海獅、海豹、翻車魚以及灰鯨等都包含在內。\n\n目前，座頭鯨出現「利他行為」的原因還有待進一步研究，但彼得曼在文章中寫道：「人類保護其他動物，我們稱之為同理心，如果今天是發生在座頭鯨身上，我們會稱之為天性，但有時候，這兩者之間的界線是模糊的。」\n\n文中座頭鯨的舉動，下列哪項人類的精神最接近？\n(A) 己所不欲，勿施於人\n(B) 博施於民，而能濟眾\n(C) 願無伐善，無施勞\n(D) 以直報怨，以德報德",
+      "questionUrl": "/site/index.html#question/q-958",
+      "url": "/site/index.html#question/q-958",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "避免將多義詞固定為唯一解；兩義均不如B直接對應廣泛主動救助，原題答案可核。",
+        "修改前／原AI內容：原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
+        "目前處理：教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。"
+      ],
+      "before": "原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
+      "after": "教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。",
+      "createdAt": "2026-11-04T15:38:56.328225+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "primarySources": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=127169&la=0&powerMode=0",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33238&la=0&powerMode=0"
+      ],
+      "evidence": [
+        "docs/imports/new-gpt-20261104-c/lane3/originals/whale-q7.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json"
     }
   ],
   "resolved": [
@@ -5399,6 +5497,82 @@
       "evidencePaths": [
         "docs/acquisition/new-gpt-20261104-a.json",
         "docs/acquisition/new-gpt-20261104-b.json"
+      ]
+    },
+    {
+      "id": "correction-q-922-8e8f50628242",
+      "state": "resolved",
+      "kind": "來源已自行更正的解說確認",
+      "title": "英文第1題｜又來一通電話用another",
+      "questionId": "q-922",
+      "questionText": "Ms. Johnson has been taking phone calls since she entered the office this morning. Just when she thought she could finally leave work, ______ call came in.\n(A) another\n(B) each\n(C) the next\n(D) the other",
+      "questionUrl": "/site/index.html#question/q-922",
+      "url": "/site/index.html#question/q-922",
+      "sourceUrl": "https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80",
+      "questions": [
+        "原對話前段曾誤把another分析成省略call，後段AI已自行更正。這是已核定的解說用語差異供檢視；原題完整、答案A從未改變，不影響繼續製作四格。",
+        "修改前／原AI內容：原AI曾稱another後省略了call。原題的call其實已印在空格後，並未省略。",
+        "目前處理：another直接修飾原題現成的單數可數名詞call，組成another call（又一通電話）；保留答案A、完整原題與選項。原串下一段已自行訂正，這裡一併保留更正紀錄。"
+      ],
+      "before": "原AI曾稱another後省略了call。原題的call其實已印在空格後，並未省略。",
+      "after": "another直接修飾原題現成的單數可數名詞call，組成another call（又一通電話）；保留答案A、完整原題與選項。原串下一段已自行訂正，這裡一併保留更正紀錄。",
+      "createdAt": "2026-11-03T19:48:46.501458+00:00",
+      "confirmationToken": "105b6937ac954bc6b063755b7a2856e729eb22aaf8c6ad8c23b0cd848da34a65",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-04T15:01:49.064687+00:00"
+    },
+    {
+      "id": "correction-q-941-e6e2efa7f291",
+      "state": "resolved",
+      "kind": "原文數據與推論範圍確認",
+      "title": "公民第6題｜核三公投中的公民權利",
+      "questionId": "q-941",
+      "questionText": "作答材料：\n〈核三重啟公投落幕〉\n\n核三廠最後一部機組在2025年5月停機，臺灣正式進入「非核家園」，但臺灣的能源政策始終是社會爭點。在野黨立委提出核三延役公投案，此公民投票案的開票結果顯示，同意票為434萬多票，不同意票為151萬多票，同意票數約為不同意票的兩倍，比例約占七成，顯示我國多數民意支持核能發展。然而，依公民投票法規定，公投案除了同意票須多於不同意票外，還必須達到投票權人總數四分之一以上，才算通過。本次公投的通過門檻為500萬餘票，但同意票未達門檻，因此結果為不通過。此外，這次公投的投票率不到三成，是2017年修法放寬門檻後，全國性公投中投票率最低的一次。\n\n原卷「跨冊超連結」：\n① 公民投票是對事的投票，可以展現直接民主（單元7）。\n② 民主政治中，舉辦公投是尊重民意的展現，符合民意政治（單元5）。\n③ 公民投票法可以落實憲法的創制權與複決權（單元7）。\n\n文中投票主要是哪一種公民權利的展現？\n(A) 選舉權\n(B) 罷免權\n(C) 創制權\n(D) 複決權",
+      "questionUrl": "/site/index.html#question/q-941",
+      "url": "/site/index.html#question/q-941",
+      "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+      "questions": [
+        "完整保留原題同時避免比值與母群推論誤學，這是實質新增閱讀限制，非單選答案未定。",
+        "修改前／原AI內容：原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
+        "目前處理：原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。"
+      ],
+      "before": "原卷及原AI重述：434萬多票約為151萬多票的兩倍，並由約七成推稱我國多數民意支持。",
+      "after": "原文不改；解說補充434/151約2.87倍，較接近三倍；約七成僅為有效投票中的同意比例，不能直接代替全體人民意見。複決權答案D維持。",
+      "createdAt": "2026-11-03T20:00:29.402328+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "D",
+      "reviewPurpose": "已核定答案及完整原題的解說差異檢視；不阻塞其他整理或漫畫。",
+      "primarySources": [
+        "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031165/ch02/type3/gov15/num4/Eg.pdf",
+        "https://info.cec.gov.tw/ref2025/static/file/全國性公民投票案第21案公民投票公報電子書/"
+      ],
+      "confirmationToken": "46b71e3aa47ff913ca0987b4f3bfea7bc1745df82f801fb9884adc5caab5ccc3",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-04T15:01:53.579430+00:00"
+    },
+    {
+      "id": "access-new-gpt-20261104-c-originals",
+      "title": "Chrome連線允許：取回GPT57完整對話與原卷",
+      "kind": "原圖存取",
+      "state": "resolved",
+      "sourceKey": "gpt057",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "sourceUrls": [
+        "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27"
+      ],
+      "questionText": "新指定來源待取回完整對話與真正上傳原卷；公開HTTP200僅有2783bytes分享外殼、舊stream解析未讀到內容，尚未判來源失效。原圖及題數未知，Windows Chrome單一授權連線等待Allow；未轉錄或判題。",
+      "questions": [
+        "請在Chrome遠端偵錯連線提示按Allow／允許，讓現有單一loopback連線讀取完整對話與原始附件。",
+        "第57來源：https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+        "附件與原問題數目前未知；取得原圖前不轉錄、不判題，也不把舊stream解析失敗當作來源失效。"
+      ],
+      "createdAt": "2026-11-04T15:05:29.209078+00:00",
+      "resolvedAt": "2026-11-04T15:14:09.318220+00:00",
+      "action": "browser_access_restored",
+      "resolution": "使用者已按Allow，Chrome單一loopback連線成功取得完整155則對話及15張原始使用者附件，bytes與封存附件15／15全部匹配、errors=0。原先分享外殼與舊stream失敗不視為來源失效；取得完成不冒稱原題已核對或入庫。",
+      "evidencePaths": [
+        "docs/acquisition/new-gpt-20261104-c.json",
+        "docs/acquisition/gpt-057.json"
       ]
     }
   ]

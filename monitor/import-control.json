@@ -1,21 +1,19 @@
 {
   "state": "complete",
-  "lastAllowedSourceOrder": 56,
+  "lastAllowedSourceOrder": 57,
   "allowedSourceOrders": [
-    55,
-    56
+    57
   ],
   "allowNewSources": false,
   "haltAfterCurrentSource": true,
-  "updatedAt": "2026-11-03T20:39:49.753860+00:00",
-  "instruction": "只處理使用者2026-11-04新交GPT55／56。先以已授權Chrome實取原卷及完整對話，逐題核對實際原問、全部選項與必要材料及跨來源重複；原題與詳解先入庫，再製作本批全部新四格並完整驗證，全部完成或個別經查核略過後commit all與正常push。不收入來源AI延伸或沿用來源AI圖，不恢復其他來源／舊漫畫。",
+  "updatedAt": "2026-11-04T16:04:12.502100+00:00",
+  "instruction": "只處理使用者2026-11-04另交GPT第57來源。完整對話與原卷實取辨讀後才核對題目，逐題查重、完整原題與詳解先入庫，再完成本批所有新四格與正式桌手機QA，全部完成或經核實個別跳過後commit all並正常push；不沿用來源AI圖或收入AI延伸，不恢復舊佇列。",
   "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
-  "closeoutEvidence": "docs/comics/new-gpt-20261104/completion-validation.json",
-  "detail": "GPT55／56已完整收入19題面／24原問及24份新四格，正式桌手機QA、120項測試與資產檢查通過並正常提交推送。",
+  "closeoutEvidence": "docs/comics/new-gpt-20261104-c/completion-validation.json",
+  "detail": "GPT57全部15原問／13題面與15份新四格已完成核對、正式桌手機QA及121項網站測試；正準備本批commit all與正常push。",
   "allowedSourceUrls": [
-    "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
-    "https://chatgpt.com/share/6aea1969-2bc0-83ec-8b0d-f21da9cfed80"
+    "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27"
   ],
   "batch": "gpt",
-  "reason": "本批使用者指定的GPT55／56已全完成並推送；保留僅55／56的允許範圍，不恢復舊來源或漫畫佇列，等待使用者另交新來源。"
+  "reason": "本批指定GPT57已全部整理驗證，5項檢視與q951單選疑義如實保留；不恢復舊來源或漫畫。"
 }

@@ -1,0 +1,152 @@
+{
+  "sourceId": "src-more-057",
+  "url": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "archiveTitle": "第8題錯題解析",
+  "status": "ready",
+  "part": "front10",
+  "producer": "/root/comic_lane_2",
+  "questionPath": "docs/imports/new-gpt-20261104-c/questions.json",
+  "questionSHA256": "855dd1710c629a366e03ed4a8e6b5e8b14cd433b7e44f5789eb8fa5ec53050f4",
+  "partOriginalQuestionCount": 10,
+  "partQuestionPageCount": 10,
+  "wholeSourceOriginalQuestionCount": 15,
+  "wholeSourceQuestionPageCount": 13,
+  "sourceCurationComplete": false,
+  "remainingPart": "lane3: message118採珠詩2子、134鯨魚閱讀1、138海鮮閱讀2，共5原問／3題面；稿件另在lane3子目錄。",
+  "sourceAIImagesAdopted": false,
+  "teachingComicState": "queued_after_intake",
+  "pendingQuestionConditions": [
+    {
+      "draftId": "gpt057-homophone-q2",
+      "kind": "單選唯一性疑義，非缺題",
+      "details": "A讀音確定，B亦有同音解讀；不硬指定唯一答案。"
+    }
+  ],
+  "reviews": [
+    {
+      "draftId": "gpt057-market-q8",
+      "kind": "原AI答案標頭矛盾",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "C",
+      "before": "原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
+      "after": "統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。",
+      "reason": "答案徽章不能與正文矛盾；原題問促銷目的，降低利潤不是廠商主要目的。",
+      "sourceMessageIndices": [
+        2,
+        6
+      ],
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "fullQuestion": "新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n(A) 降低利潤\n(B) 提高生產成本\n(C) 增加銷貨收入\n(D) 提高商品價格",
+      "verification": "原圖完整選項＋銷貨收入等於單價乘數量的獨立推理。"
+    },
+    {
+      "draftId": "gpt057-phonetics-q4",
+      "kind": "原AI初答誤音（來源後續已更正）",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "ㄔㄢ",
+      "before": "原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
+      "after": "「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。",
+      "reason": "不能把古義持握的ㄕㄢˇ音套在混合、揉合義。紅筆完整讀音未能確定辨識，不猜教師改音。",
+      "sourceMessageIndices": [
+        21,
+        22,
+        31
+      ],
+      "sourceAlreadyCorrected": true,
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "fullQuestion": "「摻」揉：（　）",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31909&la=0&powerMode=0"
+      ],
+      "verificationDate": "2026-11-04"
+    },
+    {
+      "draftId": "gpt057-homophone-q2",
+      "kind": "單選設計疑義",
+      "answerCanBeDetermined": false,
+      "expectedAnswer": "原卷預期A；不指定唯一正解",
+      "before": "原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+      "after": "保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。",
+      "reason": "MOE簡編劃的ㄏㄨㄚˊ包含擦掠及往表面拖拉留下痕跡；題句不足以強制第二劃改讀區分義ㄏㄨㄚˋ。A兩衝均ㄔㄨㄥ確定，疑點是唯一性而非原題缺漏。",
+      "sourceMessageIndices": [
+        64,
+        83
+      ],
+      "sourceAlreadyIdentifiesAmbiguity": true,
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "fullQuestion": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161&la=0&powerMode=1",
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33051&la=0&powerMode=0"
+      ],
+      "verificationDate": "2026-11-04"
+    }
+  ],
+  "skips": [
+    {
+      "kind": "clarification_not_new_question",
+      "messageIndices": [
+        22
+      ],
+      "reason": "再查摻字注音屬第4題後續更正，不另建題。"
+    },
+    {
+      "kind": "unasked_printed_questions",
+      "reason": "同頁其餘題目未被真正user指定，不收入；未把AI互動延伸練習收入。"
+    },
+    {
+      "kind": "source_generated_images",
+      "reason": "來源AI生成或圖說素材不採用；本批正式qid分配後另作新四格。"
+    }
+  ],
+  "visualReview": {
+    "originalsViewed": [
+      "docs/source-pages/chatgpt-6aeb402e-8.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-9.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-10.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-12.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-11.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-13.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-14.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-15.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-1.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-2.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-3.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-4.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-5.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-6.jpg",
+      "docs/source-pages/chatgpt-6aeb402e-7.jpg"
+    ],
+    "all15OriginalsReadable": true,
+    "cropsViewed": [
+      "docs/imports/new-gpt-20261104-c/originals/question-08.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-09.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-10.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-12.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-11.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-13.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-14.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-15.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-01.png",
+      "docs/imports/new-gpt-20261104-c/originals/question-02.png"
+    ],
+    "allPartCropsComplete": true,
+    "checkedAllPartOriginalQuestions": true,
+    "checkedAllPartOptions": true,
+    "checkedPartNecessaryMaterials": true,
+    "notes": "15真原圖已全實開；front10裁圖已逐張開啟，保留本題完整所有直排欄。狹長注音題僅無損裁切與三倍放大，市場題僅旋轉90度＋裁切。紅筆重疊看不清的原作答明示未能辨識，不採AI臆測。"
+  },
+  "dedupe": {
+    "reportPath": "docs/imports/new-gpt-20261104-c/dedupe-candidates.json",
+    "searchPath": "docs/imports/new-gpt-20261104-c/dedupe-search.json",
+    "checkedPartOriginalQuestions": 10,
+    "allCandidatesEmpty": true,
+    "method": "完整題幹及全部選項candidates十題均無exact/similar/sharedMaterial；十個獨特關鍵詞published搜尋亦均空。已先核真圖，不以新URL當作內容識別。"
+  },
+  "titleReview": "自訂題名只寫主題，不直接包含正確選項或結論。",
+  "contentFrozen": true,
+  "readyAt": "2026-11-04T15:28:05.806498+00:00",
+  "integrationRequirements": {
+    "gpt057-homophone-q2": "需以docs/review-requests.json正式呈現預設可見疑義與原始輸入（curate會重建reviewQuestions），並register_review。完整原題已核，不指定唯一正解；可依已核A/C/D音及B擦掠/區分兩種語境製圖，不阻塞其他題。"
+  }
+}

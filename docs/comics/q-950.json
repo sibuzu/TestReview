@@ -1,0 +1,150 @@
+{
+  "id": "q-950",
+  "subject": "Chinese",
+  "title": "成語配對先比較詞義關係",
+  "art": "docs/comics/art/q-950-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 題幹要找近義關係",
+      "text": "撲朔迷離和錯綜複雜，都可形容事物複雜、難以理清。本題要找另一組意思相近的詞。",
+      "alt": "題幹兩成語與近義關係明確標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "先判題幹關係",
+        "items": [
+          {
+            "label": "撲朔迷離",
+            "tone": "blue",
+            "detail": "複雜、難以辨明。"
+          },
+          {
+            "label": "錯綜複雜",
+            "tone": "blue",
+            "detail": "交錯繁複，不易理清。"
+          }
+        ],
+        "target": "關係｜近義",
+        "arrow": "比較主要意思"
+      }
+    },
+    {
+      "heading": "② B往來不斷；C危險與貧困不同",
+      "text": "B兩詞都可描述往來頻繁的人群。C雖都有釜與魚，釜底游魚是危險，釜中生魚則是貧困斷炊。",
+      "alt": "B近義與C非同義兩組並列精確解釋。",
+      "diagram": {
+        "kind": "paths",
+        "title": "比較最易混淆的兩組",
+        "items": [
+          {
+            "label": "B｜熙來攘往／絡繹不絕",
+            "tone": "green",
+            "detail": "人來人往／接續不斷，近義。"
+          },
+          {
+            "label": "C｜釜底游魚／釜中生魚",
+            "tone": "gold",
+            "detail": "處境危急／窮困斷炊，非同義。"
+          }
+        ],
+        "target": "只有B符合近義配對",
+        "arrow": "核對各詞意思"
+      }
+    },
+    {
+      "heading": "③ A不同重點；D行動方向相對",
+      "text": "泥牛入海是沒有消息，自身難保是難以保全自己；長驅直入是迅速深入，退避三舍是主動退讓。",
+      "alt": "A失訊和自身危險、D進退方向直接用中文標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A、D不符題幹關係",
+        "items": [
+          {
+            "label": "A｜泥牛入海／自身難保",
+            "tone": "blue",
+            "detail": "杳無消息／自身危險。"
+          },
+          {
+            "label": "D｜長驅直入／退避三舍",
+            "tone": "gold",
+            "detail": "快速深入／主動退讓。"
+          }
+        ],
+        "target": "都不是題幹要的近義關係",
+        "arrow": "比較重點與方向"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：熙來攘往／絡繹不絕",
+    "points": [
+      "先判題幹是近義，再找相同關係。",
+      "釜底游魚是危險；釜中生魚是貧困。",
+      "相同意象不代表成語意思相同。"
+    ]
+  },
+  "protectedWords": [
+    "撲朔迷離",
+    "錯綜複雜",
+    "熙來攘往",
+    "絡繹不絕",
+    "釜底游魚",
+    "釜中生魚",
+    "泥牛入海",
+    "自身難保",
+    "長驅直入",
+    "退避三舍"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-057-question-11-abb8372887cc.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看原卷與裁圖，讀完本題、全部選項及必要材料；字音詞義依教育部辭典獨立核對，雙解限制照留。"
+  },
+  "rationale": "此題要比較四組成語的近義/非近義關係，採直接標示詞義的HTML配對圖，讓釜與魚同字不同義可精確核對。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-04T15:42:55.815221+00:00",
+  "artSHA256": "bcd2d0564b1600cb68802d031c4c116a926dd0795d07fb85317f81df0e403a64",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-04T15:51:12.666210+00:00",
+  "previewValidation": "docs/comics/q-950-preview-validation.json",
+  "visualReview": "已實看1440/390成品，題幹近義、B近義/C危急對貧困、A失訊對危險/D進退皆精確標中文；全部原選項關係解釋完整，三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-950-1440.png",
+      "/tmp/weirugo-comic-previews/q-950-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-950-art-bcd2d0564b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-04T15:51:12.561530+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-950-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-950-validation.json"
+}

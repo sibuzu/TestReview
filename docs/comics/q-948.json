@@ -1,0 +1,147 @@
+{
+  "id": "q-948",
+  "subject": "Chinese",
+  "title": "相同詞形，放回語境看意思",
+  "art": "docs/comics/art/q-948-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 側身與理想：前後不同義",
+      "text": "側身先指側轉身體，後指投入行業；理想先是想實現的目標，後指成績令人滿意。",
+      "alt": "兩組多義詞明確對照前後義。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A、B：詞形相同，義不同",
+        "items": [
+          {
+            "label": "A｜側身",
+            "tone": "blue",
+            "detail": "側轉身體／投入行業。"
+          },
+          {
+            "label": "B｜理想",
+            "tone": "gold",
+            "detail": "人生目標／符合期望。"
+          }
+        ],
+        "target": "前後詞義不同",
+        "arrow": "比較兩處用法"
+      }
+    },
+    {
+      "heading": "② 引擎：系統與機械不同",
+      "text": "搜尋引擎是協助檢索資訊的系統；機械引擎是提供動力的裝置。不能只看到同名就判同義。",
+      "alt": "搜尋引擎與機械引擎以文字直接標明類別。",
+      "diagram": {
+        "kind": "paths",
+        "title": "C：不同領域的引擎",
+        "items": [
+          {
+            "label": "搜尋引擎",
+            "tone": "blue",
+            "detail": "網路檢索系統。"
+          },
+          {
+            "label": "機械引擎",
+            "tone": "gold",
+            "detail": "提供動力的機械。"
+          }
+        ],
+        "target": "名稱相同，指涉不同",
+        "arrow": "比較所指事物"
+      }
+    },
+    {
+      "heading": "③ 恍惚：都指神志不清",
+      "text": "D的兩處恍惚都接在徹夜未眠的情境中，描寫神志不清、精神迷糊，前後意思相同。",
+      "alt": "D兩處恍惚共同對應精神迷糊，不添加學生實際想法。",
+      "diagram": {
+        "kind": "paths",
+        "title": "D：兩處義相同",
+        "items": [
+          {
+            "label": "精神極度恍惚",
+            "tone": "green",
+            "detail": "神志不清。"
+          },
+          {
+            "label": "就在恍惚之間",
+            "tone": "green",
+            "detail": "精神迷糊。"
+          }
+        ],
+        "target": "同義｜精神不集中",
+        "arrow": "換成白話比較"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：兩處恍惚意思相同",
+    "points": [
+      "字形相同，不保證詞義相同。",
+      "比較各詞在前後句中所指的意思。",
+      "D兩處均為精神迷糊、神志不清。"
+    ]
+  },
+  "protectedWords": [
+    "側身",
+    "理想",
+    "引擎",
+    "恍惚",
+    "搜尋引擎",
+    "機械引擎",
+    "神志不清"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-057-question-10-f4816c89ac4b.png"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "本代理已逐題實看原卷與裁圖，讀完本題、全部選項及必要材料；字音詞義依教育部辭典獨立核對，雙解限制照留。"
+  },
+  "rationale": "題目比較同詞的前後義項，使用HTML明確配對語境/詞義，比人物場景更能避免憑相同字形誤判。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-04T15:40:38.693260+00:00",
+  "artSHA256": "d0ee6cf41f1c8d5b80e100bb167d7e2622e4262935be9bdf15094841700851e5",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-04T15:51:12.618077+00:00",
+  "previewValidation": "docs/comics/q-948-preview-validation.json",
+  "visualReview": "已實看1440/390成品，側身/理想/引擎不同義與D兩恍惚同義清楚標示，未只憑同詞形判同義；三寬無溢出與字詞斷行問題。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-948-1440.png",
+      "/tmp/weirugo-comic-previews/q-948-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-948-art-d0ee6cf41f.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-04T15:51:12.561530+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-948-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-948-validation.json"
+}

@@ -24,7 +24,14 @@ export function sanitizeComicDiagram(d) {
   if(d.kind==='paths'&&!clean(d.target))return;
   return {kind:d.kind,title:clean(d.title),items,...(d.note?{note:clean(d.note)}:{}),...(d.arrow?{arrow:clean(d.arrow)}:{}),...(d.target?{target:clean(d.target)}:{})};
 }
-export function fingerprint(q) { return q.subject+':'+q.question.normalize('NFKC').replace(/[\s\p{P}\p{S}]/gu,'').toLowerCase(); }
+export function fingerprint(q) {
+  const text=value=>String(value??'').normalize('NFKC').replace(/\s/gu,'').toLowerCase();
+  const material=row=>[row.subject,text(row.question),text(row.passage),
+    (row.tables||[]).map(table=>[text(table.caption),(table.headers||[]).map(text),(table.rows||[]).map(cells=>cells.map(text))]),
+    (row.questionFigures||[]).map(figure=>[figure.src,text(figure.alt),text(figure.caption)]),
+    (row.groupQuestions||[]).map(material)];
+  return JSON.stringify(material(q));
+}
 export function validDate(value) { return typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value; }
 const stringFields=['id','sourceId','subject','title','chapter','volume','date','dateLabel','addedAt','question','answer','explanation','trap','verification','verificationNote','diagram','notes'];
 export function validateQuestion(q) {
@@ -70,9 +77,10 @@ export function mergeData(current,incoming,mode='skip') {
   if(incoming.schemaVersion!==1||!Array.isArray(incoming.questions)||!Array.isArray(incoming.sources))throw Error('檔案格式不符，請匯入 WeiRuGo 匯出的 JSON。');
   if(incoming.questions.length>10000||incoming.sources.length>10000)throw Error('檔案筆數過多。');
   const questions=incoming.questions.map(validateQuestion),sources=incoming.sources.map(validateSource);
-  const result=structuredClone(current), sourceMap=new Map();let added=0,updated=0,skipped=0;
+  const result=structuredClone(current), sourceMap=new Map(), fingerprints=new WeakMap();let added=0,updated=0,skipped=0;
+  const questionKey=q=>{if(!fingerprints.has(q))fingerprints.set(q,fingerprint(q));return fingerprints.get(q);};
   for(const s of sources){const same=result.sources.find(x=>x.url===s.url);if(same){sourceMap.set(s.id,same.id);if(mode==='update')Object.assign(same,{...s,id:same.id});continue;}const id=result.sources.some(x=>x.id===s.id)?crypto.randomUUID():s.id;sourceMap.set(s.id,id);result.sources.push({...s,id});}
-  for(const q of questions){ q.sourceId=sourceMap.get(q.sourceId)||q.sourceId; if(q.sourceId&&!result.sources.some(s=>s.id===q.sourceId))throw Error('題目所引用的來源不存在。');const same=result.questions.find(x=>x.id===q.id||fingerprint(x)===fingerprint(q));if(same){if(mode==='update'){Object.assign(same,{...q,id:same.id,date:same.date<q.date?same.date:q.date});updated++;}else skipped++;}else {result.questions.push(q);added++;}}
+  for(const q of questions){ q.sourceId=sourceMap.get(q.sourceId)||q.sourceId; if(q.sourceId&&!result.sources.some(s=>s.id===q.sourceId))throw Error('題目所引用的來源不存在。');const same=result.questions.find(x=>x.id===q.id||questionKey(x)===questionKey(q));if(same){if(mode==='update'){Object.assign(same,{...q,id:same.id,date:same.date<q.date?same.date:q.date});fingerprints.delete(same);updated++;}else skipped++;}else {result.questions.push(q);added++;}}
   return {data:result,added,updated,skipped};
 }
 export function needsReview(q){return q.contentStatus==='待更新'||['待核對','待補原題'].includes(q.verification);}

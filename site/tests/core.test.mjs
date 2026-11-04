@@ -23,6 +23,20 @@ test('import round-trips every question and source',()=>{const {data}=mergeData(
 test('repeat import skips duplicates without losing progress',()=>{const current=structuredClone(seed);current.questions[0].status='mastered';const result=mergeData(current,seed);assert.equal(result.added,0);assert.equal(result.skipped,seed.questions.length);assert.equal(result.data.questions[0].status,'mastered');});
 test('update duplicate changes content and keeps first appearance date',()=>{const incoming=structuredClone(seed);incoming.questions=[{...seed.questions[0],date:'2026-10-27',answer:'updated'}];const result=mergeData(seed,incoming,'update');assert.equal(result.updated,1);assert.equal(result.data.questions[0].answer,'updated');assert.equal(result.data.questions[0].date,seed.questions[0].date);});
 test('same question with a new ID deduplicates by normalized content',()=>{const incoming={...seed,questions:[{...seed.questions[0],id:'new-id'}]};const result=mergeData(seed,incoming);assert.equal(result.skipped,1);assert.equal(result.data.questions.length,seed.questions.length);});
+test('deduplication preserves different shared readings, child questions and meaningful symbols',()=>{
+ const base={sourceId:seed.sources[0].id,subject:'Chinese',title:'閱讀題',date:'2026-11-04',answer:'A'};
+ const group=(id,passage,second='第二小題：請比較兩者。')=>({...base,id,question:'請閱讀共用文章，回答第1、2題。',passage,groupQuestions:[{...base,id,question:'第一小題：本文主旨為何？'},{...base,id:id+'-2',question:second}]});
+ const payload={schemaVersion:1,sources:[seed.sources[0]],questions:[group('reading-a','閱讀文章甲'),group('reading-b','閱讀文章乙'),group('reading-c','閱讀文章甲','第二小題：請指出不同條件。')]};
+ const saved=mergeData(blank(),payload).data;
+ assert.equal(saved.questions.length,3,'A shared parent prompt cannot erase different material or children');
+ const copied=group('new-reading-id','閱讀文章甲'),corrected=group('changed-answer-id','閱讀文章甲');
+ corrected.answer='B';corrected.explanation='更正解說';corrected.groupQuestions[0].answer='B';
+ const duplicates=mergeData(saved,{...payload,questions:[copied,corrected]});
+ assert.equal(duplicates.skipped,2,'IDs, answers and explanations do not change original-question identity');
+ assert.equal(duplicates.data.questions.length,3);
+ const formulas=['x + 1 = 3','x − 1 = 3','x > 1','x < 1','ㄓㄚˊ','ㄓㄚˋ'];
+ assert.equal(mergeData(blank(),{...payload,questions:formulas.map((question,i)=>({...base,id:'symbol-'+i,question}))}).data.questions.length,formulas.length,'Operators and pronunciation tones remain meaningful');
+});
 test('separate questions from the same source are preserved',()=>{assert.ok(seed.questions.filter(q=>q.sourceId==='src-9').length>10);assert.equal(mergeData(blank(),seed).data.questions.length,seed.questions.length);});
 test('invalid imports are rejected atomically',()=>{const invalid=structuredClone(seed);invalid.questions[1].subject='Unknown';assert.throws(()=>mergeData(seed,invalid));assert.ok(seed.questions.length>=43);const missing={...seed,questions:[{...seed.questions[0],sourceId:'missing'}],sources:[]};assert.throws(()=>mergeData(blank(),missing));assert.throws(()=>mergeData(seed,{questions:[],sources:[]}));});
 test('untrusted text is escaped and unknown fields are dropped',()=>{assert.equal(escapeHTML('<img src=x onerror="alert(1)">'),'&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');assert.equal(validateQuestion({...seed.questions[0],onload:'evil'}).onload,undefined);});

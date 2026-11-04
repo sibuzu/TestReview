@@ -1,0 +1,126 @@
+{
+  "createdAt": "2026-11-04T15:05:29.209078+00:00",
+  "instruction": "只處理使用者2026-11-04另交GPT第57來源。完整對話與原卷實取辨讀後才核對題目，逐題查重、完整原題與詳解先入庫，再完成本批所有新四格與正式桌手機QA，全部完成或經核實個別跳過後commit all並正常push；不沿用來源AI圖或收入AI延伸，不恢復舊佇列。",
+  "showAgents": true,
+  "sources": [
+    {
+      "key": "gpt057",
+      "batch": "gpt",
+      "lane": 2,
+      "suggestedOrder": 57,
+      "sourceId": "src-more-057",
+      "url": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "draftDirectory": "docs/imports/new-gpt-20261104-c",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261104-c.json",
+      "integrationReceipt": "docs/imports/new-gpt-20261104-c/integrated.json",
+      "inventoryBasis": "Agent2已實看全部15真原圖，盤點15原問/13面（1公民14國文），完整API首問msg1為8@錯題；待逐題查重核定。",
+      "expectedOriginalQuestions": 15,
+      "expectedQuestionPages": 13
+    }
+  ],
+  "state": "validated_awaiting_push",
+  "baselineQuestionPages": 773,
+  "baselineOriginalQuestions": 845,
+  "baselineMaxId": 945,
+  "publicationRequested": true,
+  "publicationPolicy": "Complete verified original questions, explanations, all new teaching comics and checks before commit all and normal push.",
+  "originalImagesExpected": 15,
+  "originalImagesAcquired": 15,
+  "originalQuestionCount": 15,
+  "questionPageCount": 13,
+  "scopeQuestionIds": [
+    "q-946",
+    "q-947",
+    "q-948",
+    "q-949",
+    "q-950",
+    "q-951",
+    "q-952",
+    "q-953",
+    "q-954",
+    "q-955",
+    "q-956",
+    "q-957",
+    "q-958",
+    "q-959",
+    "q-960"
+  ],
+  "newIllustrationCount": 15,
+  "illustrationsQueued": 0,
+  "acquiredSources": 1,
+  "acquisitionCompletedAt": "2026-11-04T15:14:09.318220+00:00",
+  "sourceReadEvidence": "docs/acquisition/new-gpt-20261104-c.json",
+  "expectedOriginalQuestions": 15,
+  "expectedQuestionPages": 13,
+  "inventoryEvidence": "Agent2已實看15張真正上傳原卷；兩分稿待逐題核對與跨來源查重。",
+  "sourceFirstQuestionDate": "2026-11-04",
+  "sourceFirstQuestionMessageIndex": 1,
+  "sourceFirstQuestionText": "8@錯題",
+  "parts": [
+    {
+      "key": "front10",
+      "producer": "/root/comic_lane_2",
+      "draftDirectory": "docs/imports/new-gpt-20261104-c",
+      "expectedOriginalQuestions": 10,
+      "expectedQuestionPages": 10,
+      "state": "integrated_original_questions",
+      "integrationReceipt": "docs/imports/new-gpt-20261104-c/integrated-front10.json",
+      "questionIds": [
+        "q-946",
+        "q-947",
+        "q-948",
+        "q-949",
+        "q-950",
+        "q-951",
+        "q-952",
+        "q-953",
+        "q-954",
+        "q-955"
+      ],
+      "originalQuestionIds": [
+        "q-946",
+        "q-947",
+        "q-948",
+        "q-949",
+        "q-950",
+        "q-951",
+        "q-952",
+        "q-953",
+        "q-954",
+        "q-955"
+      ]
+    },
+    {
+      "key": "reading5",
+      "producer": "/root/comic_lane_3",
+      "draftDirectory": "docs/imports/new-gpt-20261104-c/lane3",
+      "expectedOriginalQuestions": 5,
+      "expectedQuestionPages": 3,
+      "state": "integrated_original_questions",
+      "integrationReceipt": "docs/imports/new-gpt-20261104-c/lane3/integrated-reading5.json",
+      "questionIds": [
+        "q-956",
+        "q-958",
+        "q-959"
+      ],
+      "originalQuestionIds": [
+        "q-956",
+        "q-957",
+        "q-958",
+        "q-959",
+        "q-960"
+      ]
+    }
+  ],
+  "questionDatabaseState": "complete",
+  "sourceCurationComplete": true,
+  "pendingConfirmationIds": [
+    "correction-q-946-8b90420fcbf4",
+    "correction-q-947-12cbbb4ff080",
+    "correction-q-951-e34aa061df23",
+    "correction-q-956-568704aa01ed",
+    "correction-q-958-51f1f63cbbc1"
+  ],
+  "comicsState": "complete",
+  "validatedAt": "2026-11-04T16:04:12.502100+00:00"
+}

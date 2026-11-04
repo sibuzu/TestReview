@@ -1,0 +1,136 @@
+{
+  "sourceId": "src-more-057",
+  "part": "front10",
+  "producerManifest": "docs/imports/new-gpt-20261104-c/manifest.json",
+  "questionSHA256": "855dd1710c629a366e03ed4a8e6b5e8b14cd433b7e44f5789eb8fa5ec53050f4",
+  "producer": "/root/comic_lane_2",
+  "integrator": "/root/comic_lane_1",
+  "state": "integrated_original_questions",
+  "addedAt": "2026-11-04T15:31:18.198274+00:00",
+  "idMappings": {
+    "gpt057-market-q8": "q-946",
+    "gpt057-phonetics-q4": "q-947",
+    "gpt057-meaning-q6": "q-948",
+    "gpt057-idiom-q7": "q-949",
+    "gpt057-idiom-relation-q9": "q-950",
+    "gpt057-homophone-q2": "q-951",
+    "gpt057-suffix-q5": "q-952",
+    "gpt057-ocean-literature-q9": "q-953",
+    "gpt057-ocean-riddle-q10": "q-954",
+    "gpt057-ocean-quote-q29": "q-955"
+  },
+  "assetMappings": {
+    "docs/imports/new-gpt-20261104-c/originals/question-08.png": "assets/originals/src-more-057-question-08-ce865c3fea6d.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-09.png": "assets/originals/src-more-057-question-09-3ee640607b20.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-10.png": "assets/originals/src-more-057-question-10-f4816c89ac4b.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-12.png": "assets/originals/src-more-057-question-12-23b101c4e726.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-11.png": "assets/originals/src-more-057-question-11-abb8372887cc.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-13.png": "assets/originals/src-more-057-question-13-0698da60eac7.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-14.png": "assets/originals/src-more-057-question-14-43272775d495.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-15.png": "assets/originals/src-more-057-question-15-087efbd6a4ba.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-01.png": "assets/originals/src-more-057-question-01-d34fe5e51897.png",
+    "docs/imports/new-gpt-20261104-c/originals/question-02.png": "assets/originals/src-more-057-question-02-9d0c80df7582.png"
+  },
+  "questionIds": [
+    "q-946",
+    "q-947",
+    "q-948",
+    "q-949",
+    "q-950",
+    "q-951",
+    "q-952",
+    "q-953",
+    "q-954",
+    "q-955"
+  ],
+  "originalQuestionIds": [
+    "q-946",
+    "q-947",
+    "q-948",
+    "q-949",
+    "q-950",
+    "q-951",
+    "q-952",
+    "q-953",
+    "q-954",
+    "q-955"
+  ],
+  "originalQuestionCount": 10,
+  "questionPageCount": 10,
+  "wholeSourceOriginalQuestionCount": 15,
+  "wholeSourceQuestionPageCount": 13,
+  "frozenProducerContentPreserved": true,
+  "metadataChanges": [
+    "draft IDs mapped to stable qids",
+    "checked crop paths mapped to identical published bytes",
+    "addedAt set to actual publication date",
+    "group membership metadata added",
+    "non-schema sourceEvidence retained in producer draft"
+  ],
+  "illustrationState": "complete",
+  "reviews": [
+    {
+      "draftId": "gpt057-market-q8",
+      "kind": "原AI答案標頭矛盾",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "C",
+      "before": "原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
+      "after": "統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。",
+      "reason": "答案徽章不能與正文矛盾；原題問促銷目的，降低利潤不是廠商主要目的。",
+      "sourceMessageIndices": [
+        2,
+        6
+      ],
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "fullQuestion": "新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n(A) 降低利潤\n(B) 提高生產成本\n(C) 增加銷貨收入\n(D) 提高商品價格",
+      "verification": "原圖完整選項＋銷貨收入等於單價乘數量的獨立推理。"
+    },
+    {
+      "draftId": "gpt057-phonetics-q4",
+      "kind": "原AI初答誤音（來源後續已更正）",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "ㄔㄢ",
+      "before": "原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
+      "after": "「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。",
+      "reason": "不能把古義持握的ㄕㄢˇ音套在混合、揉合義。紅筆完整讀音未能確定辨識，不猜教師改音。",
+      "sourceMessageIndices": [
+        21,
+        22,
+        31
+      ],
+      "sourceAlreadyCorrected": true,
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "fullQuestion": "「摻」揉：（　）",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31909&la=0&powerMode=0"
+      ],
+      "verificationDate": "2026-11-04"
+    },
+    {
+      "draftId": "gpt057-homophone-q2",
+      "kind": "單選設計疑義",
+      "answerCanBeDetermined": false,
+      "expectedAnswer": "原卷預期A；不指定唯一正解",
+      "before": "原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+      "after": "保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。",
+      "reason": "MOE簡編劃的ㄏㄨㄚˊ包含擦掠及往表面拖拉留下痕跡；題句不足以強制第二劃改讀區分義ㄏㄨㄚˋ。A兩衝均ㄔㄨㄥ確定，疑點是唯一性而非原題缺漏。",
+      "sourceMessageIndices": [
+        64,
+        83
+      ],
+      "sourceAlreadyIdentifiesAmbiguity": true,
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "fullQuestion": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161&la=0&powerMode=1",
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33051&la=0&powerMode=0"
+      ],
+      "verificationDate": "2026-11-04"
+    }
+  ],
+  "technicalQAPassed": true,
+  "formalDesktopMobileVisuallyChecked": true,
+  "intakeValidation": "docs/imports/new-gpt-20261104-c/intake-validation.json",
+  "newIllustrationCount": 10,
+  "comicCompletionValidation": "docs/comics/new-gpt-20261104-c/completion-validation.json"
+}

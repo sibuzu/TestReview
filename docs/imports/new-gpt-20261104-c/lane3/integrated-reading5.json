@@ -1,0 +1,94 @@
+{
+  "sourceId": "src-more-057",
+  "part": "reading5",
+  "producerManifest": "docs/imports/new-gpt-20261104-c/lane3/manifest.json",
+  "questionSHA256": "325e7f4658eaa5a14b3b1b9194fb56a9be03465b62ab731816f16fc9e35ff943",
+  "producer": "/root/comic_lane_3",
+  "integrator": "/root/comic_lane_1",
+  "state": "integrated_original_questions",
+  "addedAt": "2026-11-04T15:38:31.992054+00:00",
+  "idMappings": {
+    "gpt057-pearl-q1": "q-956",
+    "gpt057-pearl-q2": "q-957",
+    "gpt057-whale-q7": "q-958",
+    "gpt057-seafood-q1": "q-959",
+    "gpt057-seafood-q2": "q-960"
+  },
+  "assetMappings": {
+    "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-poem.png": "assets/originals/src-more-057-pearl-poem-ce4fbddd6573.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-q1.png": "assets/originals/src-more-057-pearl-q1-b426e5d9a289.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-q2.png": "assets/originals/src-more-057-pearl-q2-cb68e5dc2540.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/whale-passage-1.png": "assets/originals/src-more-057-whale-passage-1-b3c82dad8499.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/whale-passage-2.png": "assets/originals/src-more-057-whale-passage-2-c524b5c82416.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/whale-q7.png": "assets/originals/src-more-057-whale-q7-5fe0fba709a5.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/seafood-passage-1.png": "assets/originals/src-more-057-seafood-passage-1-70f78ed82476.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/seafood-passage-2.png": "assets/originals/src-more-057-seafood-passage-2-a94219bd737e.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/seafood-q1.png": "assets/originals/src-more-057-seafood-q1-09cd54adc2d0.png",
+    "docs/imports/new-gpt-20261104-c/lane3/originals/seafood-q2.png": "assets/originals/src-more-057-seafood-q2-8f65a326c167.png"
+  },
+  "questionIds": [
+    "q-956",
+    "q-958",
+    "q-959"
+  ],
+  "originalQuestionIds": [
+    "q-956",
+    "q-957",
+    "q-958",
+    "q-959",
+    "q-960"
+  ],
+  "originalQuestionCount": 5,
+  "questionPageCount": 3,
+  "wholeSourceOriginalQuestionCount": 15,
+  "wholeSourceQuestionPageCount": 13,
+  "frozenProducerContentPreserved": true,
+  "metadataChanges": [
+    "draft IDs mapped to stable qids",
+    "checked crop paths mapped to identical published bytes",
+    "addedAt set to actual publication date",
+    "group membership metadata added",
+    "non-schema sourceEvidence retained in producer draft"
+  ],
+  "illustrationState": "complete",
+  "reviews": [
+    {
+      "draftId": "gpt057-pearl-q1",
+      "kind": "原AI原作答誤讀",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "before": "原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
+      "after": "原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。",
+      "reason": "原AI將學生原選項誤讀，會造成錯題紀錄不準；不是答案未定。",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questionText": "（甲）採珠行　元稹\n\n海波無底珠沉海，採珠之人判死採。\n萬人判死一得珠，斛量買婢人何在。\n年年採珠珠避人，今年採珠由海神。\n海神採珠珠盡死，死盡明珠空海水。\n珠為海物海屬神，神今自採何況人。\n\n注：①採珠：到水裡採取珍珠。②判死：付出生命作為代價。\n\n有關本詩的主旨，下列敘述何者正確？\n(A) 譴責人們與神明爭採珍珠\n(B) 呼籲重視海洋生態的平衡\n(C) 呼籲從事捕獵應重視安全\n(D) 撻伐買婢的行為忽視人權",
+      "evidence": [
+        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-q1.png",
+        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-poem.png"
+      ]
+    },
+    {
+      "draftId": "gpt057-whale-q7",
+      "kind": "文言多義詞釐清",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "before": "原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
+      "after": "教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。",
+      "reason": "避免將多義詞固定為唯一解；兩義均不如B直接對應廣泛主動救助，原題答案可核。",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questionText": "（丙）解析魚類的情感　網路文章\n\n海洋生物也有情感嗎？在動畫電影海底總動員中，海洋生物角色們各個活靈活現，充滿獨特個性，不僅能夠彼此交流，還能夠表達出和人類一樣的各種喜怒哀樂。根據一些科學研究以及生態觀察顯示，這些情感反應可能並非只存在人類的幻想裡頭，海洋生物不僅會有近似於害羞或焦慮的表現，甚至有可能具有像人類一般的同理心！\n\n澳洲的行為生態學教授布朗在魚類生物學期刊中發表了一篇研究，其研究對象是十七隻來自澳洲東岸的澳洲虎鯊，布朗教授指出，不同的鯊魚即便遇到了相同的情境，仍會表現出不同的反應，顯示出鯊魚的性格存在著個體之間的差異——有些鯊魚遇到陌生環境中的障礙物時，只需短短二秒便能突破，有些卻必須花上長達二十分鐘，表現得比同類更加小心翼翼；而每隻鯊魚從突然離水到重新回到水中並平復下來所花費的時間也大不相同，說明了他們對於環境焦慮的抗壓性存在著差異。\n\n除了鯊魚以外，另外一份關於座頭鯨的觀察報告則指出，座頭鯨會為了拯救其他非自己族類的動物和掠食者搏鬥。2008年時，海洋生物學者彼得曼及其研究團隊記錄下了二隻座頭鯨不斷拍動魚鰭並發出叫聲，只為了幫助海豹脫離殺人鯨捕食的影片，一週後，研究團隊又再度發現，類似的救援行動來自於完全不同的座頭鯨身上，這一次，他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹「抱」在自己的肚子上，帶往安全的地方。這些被拯救的生物當中，有高達90%都是非座頭鯨：海獅、海豹、翻車魚以及灰鯨等都包含在內。\n\n目前，座頭鯨出現「利他行為」的原因還有待進一步研究，但彼得曼在文章中寫道：「人類保護其他動物，我們稱之為同理心，如果今天是發生在座頭鯨身上，我們會稱之為天性，但有時候，這兩者之間的界線是模糊的。」\n\n文中座頭鯨的舉動，下列哪項人類的精神最接近？\n(A) 己所不欲，勿施於人\n(B) 博施於民，而能濟眾\n(C) 願無伐善，無施勞\n(D) 以直報怨，以德報德",
+      "primarySources": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=127169&la=0&powerMode=0",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33238&la=0&powerMode=0"
+      ],
+      "evidence": [
+        "docs/imports/new-gpt-20261104-c/lane3/originals/whale-q7.png"
+      ]
+    }
+  ],
+  "technicalQAPassed": true,
+  "formalDesktopMobileVisuallyChecked": true,
+  "intakeValidation": "docs/imports/new-gpt-20261104-c/lane3/intake-validation.json",
+  "newIllustrationCount": 5,
+  "comicCompletionValidation": "docs/comics/new-gpt-20261104-c/completion-validation.json"
+}

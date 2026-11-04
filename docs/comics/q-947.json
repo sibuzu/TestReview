@@ -1,0 +1,143 @@
+{
+  "id": "q-947",
+  "subject": "Chinese",
+  "title": "摻揉先看字義，再定讀音",
+  "art": "docs/comics/art/q-947-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 混合、揉合，讀ㄔㄢ",
+      "text": "摻揉表示把不同的事物混合、揉合。「摻」取混合、雜入義，讀ㄔㄢ，第一聲。",
+      "alt": "混合義與摻音的中文對照。",
+      "diagram": {
+        "kind": "flow",
+        "title": "本題的字義",
+        "items": [
+          {
+            "label": "摻揉｜混合、揉合",
+            "tone": "blue",
+            "detail": "把不同事物合在一起。"
+          },
+          {
+            "label": "摻｜ㄔㄢ",
+            "tone": "green",
+            "detail": "與摻雜、摻水同屬混合義。"
+          }
+        ],
+        "arrow": "依字義定音"
+      }
+    },
+    {
+      "heading": "② 別把持握的音套進來",
+      "text": "ㄕㄢˇ用於古義持、握住，如摻袂。它與本題的混合義不同，不能只因字形相同就改讀。",
+      "alt": "不同字義分別標示讀音，未將ㄕㄢˇ當摻揉正音。",
+      "diagram": {
+        "kind": "paths",
+        "title": "同字，須分辨義項",
+        "items": [
+          {
+            "label": "混合、雜入",
+            "tone": "green",
+            "detail": "ㄔㄢ｜本題適用。"
+          },
+          {
+            "label": "持、握住",
+            "tone": "gold",
+            "detail": "ㄕㄢˇ｜本題不適用。"
+          }
+        ],
+        "target": "看語境選義項",
+        "arrow": "比較字義"
+      }
+    },
+    {
+      "heading": "③ 題目只填摻的注音",
+      "text": "原題括號要填「摻」，答案寫ㄔㄢ；整詞摻揉讀ㄔㄢ ㄖㄡˊ。第一聲不另加聲調符號。",
+      "alt": "本題單字答案與整詞讀法清楚分開。",
+      "diagram": {
+        "kind": "flow",
+        "title": "填空範圍",
+        "items": [
+          {
+            "label": "題目｜「摻」揉：（　）",
+            "tone": "blue"
+          },
+          {
+            "label": "填入｜ㄔㄢ",
+            "tone": "green",
+            "detail": "整詞：ㄔㄢ ㄖㄡˊ。"
+          }
+        ],
+        "arrow": "確認要填哪個字"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案：ㄔㄢ（第一聲）",
+    "points": [
+      "混合、雜入義的摻讀ㄔㄢ。",
+      "ㄕㄢˇ的持握義不適用摻揉。",
+      "先辨詞義，再選多音字的讀音。"
+    ]
+  },
+  "protectedWords": [
+    "混合",
+    "摻揉",
+    "摻雜",
+    "摻水",
+    "第一聲",
+    "持握"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-057-question-09-3ee640607b20.png"
+    ],
+    "visualChecked": true,
+    "answer": "",
+    "notes": "本代理已逐題實看原卷與裁圖，讀完本題、全部選項及必要材料；字音詞義依教育部辭典獨立核對，雙解限制照留。"
+  },
+  "rationale": "題目是多音字的音義對應，精確注音與義項關係由可選取HTML呈現，比無字人物更能核對ㄔㄢ/ㄕㄢˇ差異。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-04T15:39:52.195127+00:00",
+  "artSHA256": "e1c76a934f35cb6205ce7ab2d39b059145bf0793ba0ee780a4f6a941ac29f7cf",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-04T15:51:12.591934+00:00",
+  "previewValidation": "docs/comics/q-947-preview-validation.json",
+  "visualReview": "已實看1440/390成品，ㄔㄢ第一聲、ㄕㄢˇ持握義、本題填單字與整詞讀音區分皆清楚；三寬HTML無溢出，音義標示無空欄。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-947-1440.png",
+      "/tmp/weirugo-comic-previews/q-947-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-947-art-e1c76a934f.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-04T15:51:12.561530+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-947-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-947-validation.json"
+}

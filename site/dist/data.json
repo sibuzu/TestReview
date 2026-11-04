@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.66f2c02affdb",
+  "revision": "2026-10-27.d17e98142de7",
   "subjects": [
     {
       "id": "Chinese",
@@ -2378,6 +2378,40 @@
         "assets/originals/src-more-056-english-38-question-9c4519bab8eb.png"
       ],
       "transcript": "sources/6aea1969-2bc0-83ec-8b0d-f21da9cfed80.txt"
+    },
+    {
+      "id": "src-more-057",
+      "url": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "status": "read",
+      "title": "第8題錯題解析",
+      "platform": "ChatGPT",
+      "date": "2026-11-04",
+      "addedAt": "2026-11-04",
+      "note": "原卷15問／13題面與15份全新四格已逐題核對並完成正式桌手機QA；同卷未問及AI延伸不採，來源AI圖不沿用。q951保留單選設計疑義與A／B合理讀法。",
+      "content": "[0] system | message_id=93a04b6f-36e2-4925-978e-d542a3289c20 | create_time=1793799687.066964\n\n\n[1] user | message_id=a7098504-240f-4893-af6f-f901b4c09119 | create_time=1793799686.349416\n[原始使用者圖片附件；見同訊息封存及取得報告]\n8@錯題\n\n[2] system | message_id=496d6bbe-193c-4c40-af69-259c21c1e908 | create_time=1793799687.935285\n\n\n[3] system | message_id=64fe5f46-b965-4fef-869c-b2c5067678f7 | create_time=1793799687.93656\n\n\n[4] system | message_id=5f7093cc-ec89-4079-a97f-32ad6a83bd19 | create_time=1793799687.937514\n\n\n[5] system | message_id=aab41d4c-f756-4cd5-ba4d-9cfd8f106678 | create_time=1793799687.938338\n\n\n[7] system | message_id=813fd18b-f558-4edd-9ab0-65d61e07182d | create_time=1793799688.07026\n\n\n[8] system | message_id=bf7312e0-d1e8-4a86-823d-16f86e4c6e0e | create_time=1793799688.183514\n\n\n[9] system | message_id=35f80f02-1228-49bb-ae8e-5a7a98971e59 | create_time=1793799688.285949\n\n\n[10] assistant | message_id=0ad23b05-7667-4a70-b19e-201f6b531c48 | create_time=1793799689.790431\n# 第 8 題｜公民錯題解析\n<badge color=\"success\">正確答案：A 降低利潤</badge>\n\n**考點：廠商促銷策略 × 利潤 × 薄利多銷**\n\n## 一、完整原題與選項\n\n新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n\n- (A) 降低利潤\n- (B) 提高生產成本\n- (C) 增加銷貨收入\n- (D) 提高商品價格\n\n## 二、答案核對\n\n圖片上可以看到 A 選項有作答記號，但尚無法由照片確定是學生原本選 A，還是訂正時標示 A。\n\n**正確答案應為 C「增加銷貨收入」，不是 A。**\n\n理由：遊樂園推出平價優惠，是希望吸引更多遊客購票。雖然單張票的售價可能下降，但如果購票人數增加，整體銷貨收入就有機會提高。\n\n這就是常見的「薄利多銷」經營策略。\n\n\n\n[11] assistant | message_id=0ebeb629-8543-4453-b2e7-e09c0d96df2e | create_time=1793799699.558834\n## 三、逐項選項解析\n\n| 選項 | 判斷 | 原因 |\n|---|---|---|\n| (A) 降低利潤 | <icon name=\"x\" color=\"danger\" inline/> | 降價可能減少每張票的利潤，但不是促銷的主要目的。 |\n| (B) 提高生產成本 | <icon name=\"x\" color=\"danger\" inline/> | 成本提高通常不利於獲利，並非推出優惠的目的。 |\n| (C) 增加銷貨收入 | <icon name=\"check\" color=\"success\" inline/> | 透過平價促銷吸引更多遊客，增加總收入。 |\n| (D) 提高商品價格 | <icon name=\"x\" color=\"danger\" inline/> | 題目強調「平價」，與提高價格方向相反。 |\n\n## 四、精準圖解：為什麼降價反而可能賺更多？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" color=\"secondary\" size=\"xs\">示意情境｜以下數字為教學假設，非原題資料</text>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n        **原價門票**\n        <title size=\"xl\" color=\"default\">500 元</title>\n        100 人購買\n        <divider spacing={1}/>\n        <text weight=\"medium\">銷貨收入</text>\n        <title size=\"lg\" color=\"default\">50,000 元</title>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"rgba(20,148,102,0.08)\" padding={3} radius=\"lg\" gap={1}>\n        **優惠門票**\n        <title size=\"xl\" color=\"success\">400 元</title>\n        200 人購買\n        <divider spacing={1}/>\n        <text weight=\"medium\">銷貨收入</text>\n        <title size=\"lg\" color=\"success\">80,000 元</title>\n      </box>\n    </grid-item>\n  </grid>\n  <box align=\"center\" gap={1} padding={2}>\n    <icon name=\"arrow-down\" color=\"success\" size=\"lg\"/>\n    <title size=\"lg\" color=\"success\">總收入增加 30,000 元</title>\n    <text size=\"sm\" textAlign=\"center\">即使票價降低，只要增加的銷售數量夠多，總收入仍可提高。</text>\n  </box>\n</box>\n\n**重要觀念：銷貨收入不等於利潤。**\n\n\\[\n\\text{銷貨收入}=\\text{售價}\\times\\text{銷售數量}\n\\]\n\n\\[\n\\text{利潤}=\\text{總收入}-\\text{總成本}\n\\]\n\n因此，**收入增加不保證利潤一定增加**，還要考慮成本；但本題問的是「促銷主要目的」，所以選 C。\n\n\n\n[13] tool | message_id=6caa534c-870e-4ec7-b94d-13ef0ce7b353 | create_time=1793799779.456085\n[原始使用者圖片附件；見同訊息封存及取得報告]\n\n[14] assistant | message_id=e6bbb357-df77-48e4-9707-23846c9fc53f | create_time=1793799689.858727\n# 第 8 題｜公民錯題解析\n<badge color=\"success\">正確答案：A 降低利潤</badge>\n\n**考點：廠商促銷策略 × 利潤 × 薄利多銷**\n\n## 一、完整原題與選項\n\n新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n\n- (A) 降低利潤\n- (B) 提高生產成本\n- (C) 增加銷貨收入\n- (D) 提高商品價格\n\n## 二、答案核對\n\n圖片上可以看到 A 選項有作答記號，但尚無法由照片確定是學生原本選 A，還是訂正時標示 A。\n\n**正確答案應為 C「增加銷貨收入」，不是 A。**\n\n理由：遊樂園推出平價優惠，是希望吸引更多遊客購票。雖然單張票的售價可能下降，但如果購票人數增加，整體銷貨收入就有機會提高。\n\n這就是常見的「薄利多銷」經營策略。\n\n## 三、逐項選項解析\n\n| 選項 | 判斷 | 原因 |\n|---|---|---|\n| (A) 降低利潤 | <icon name=\"x\" color=\"danger\" inline/> | 降價可能減少每張票的利潤，但不是促銷的主要目的。 |\n| (B) 提高生產成本 | <icon name=\"x\" color=\"danger\" inline/> | 成本提高通常不利於獲利，並非推出優惠的目的。 |\n| (C) 增加銷貨收入 | <icon name=\"check\" color=\"success\" inline/> | 透過平價促銷吸引更多遊客，增加總收入。 |\n| (D) 提高商品價格 | <icon name=\"x\" color=\"danger\" inline/> | 題目強調「平價」，與提高價格方向相反。 |\n\n## 四、精準圖解：為什麼降價反而可能賺更多？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" color=\"secondary\" size=\"xs\">示意情境｜以下數字為教學假設，非原題資料</text>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n        **原價門票**\n        <title size=\"xl\" color=\"default\">500 元</title>\n        100 人購買\n        <divider spacing={1}/>\n        <text weight=\"medium\">銷貨收入</text>\n        <title size=\"lg\" color=\"default\">50,000 元</title>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"rgba(20,148,102,0.08)\" padding={3} radius=\"lg\" gap={1}>\n        **優惠門票**\n        <title size=\"xl\" color=\"success\">400 元</title>\n        200 人購買\n        <divider spacing={1}/>\n        <text weight=\"medium\">銷貨收入</text>\n        <title size=\"lg\" color=\"success\">80,000 元</title>\n      </box>\n    </grid-item>\n  </grid>\n  <box align=\"center\" gap={1} padding={2}>\n    <icon name=\"arrow-down\" color=\"success\" size=\"lg\"/>\n    <title size=\"lg\" color=\"success\">總收入增加 30,000 元</title>\n    <text size=\"sm\" textAlign=\"center\">即使票價降低，只要增加的銷售數量夠多，總收入仍可提高。</text>\n  </box>\n</box>\n\n**重要觀念：銷貨收入不等於利潤。**\n\n\\[\n\\text{銷貨收入}=\\text{售價}\\times\\text{銷售數量}\n\\]\n\n\\[\n\\text{利潤}=\\text{總收入}-\\text{總成本}\n\\]\n\n因此，**收入增加不保證利潤一定增加**，還要考慮成本；但本題問的是「促銷主要目的」，所以選 C。\n\n## 五、錯題最後總結\n\n- **答案：C 增加銷貨收入**\n- **關鍵線索：** 優惠方案、平價、物超所值。\n- **5 秒判斷：** 優惠促銷 → 吸引更多顧客 → 增加銷售量與收入。\n- **易錯提醒：** 降低售價不等於降低總利潤，也不代表總收入一定增加。\n- **一眼記住：** 薄利多銷，目的是透過增加銷售數量，爭取更高的總收入與獲利。\n\n**校正提醒：** 本次解析最上方的答案標籤誤寫為 A，應以後文及教學圖的 **C「增加銷貨收入」** 為準。\n\n[15] assistant | message_id=90084e89-23e0-4bf0-8e95-b176f1be7b35 | create_time=1793799782.37978\n## 五、錯題最後總結\n\n- **答案：C 增加銷貨收入**\n- **關鍵線索：** 優惠方案、平價、物超所值。\n- **5 秒判斷：** 優惠促銷 → 吸引更多顧客 → 增加銷售量與收入。\n- **易錯提醒：** 降低售價不等於降低總利潤，也不代表總收入一定增加。\n- **一眼記住：** 薄利多銷，目的是透過增加銷售數量，爭取更高的總收入與獲利。\n\n**校正提醒：** 本次解析最上方的答案標籤誤寫為 A，應以後文及教學圖的 **C「增加銷貨收入」** 為準。\n\n[16] user | message_id=30f7ea35-843c-4fde-ab7e-ec64291301fc | create_time=1793800116.9932818\n[原始使用者圖片附件；見同訊息封存及取得報告]\n4@錯題\n\n[17] system | message_id=3f0f55bf-31fb-4188-b37d-7e8b559279ae | create_time=1793800118.96581\n\n\n[19] system | message_id=975a245e-579f-41c2-be5a-4dae5184d21e | create_time=1793800119.188826\n\n\n[21] assistant | message_id=1e55c671-0a9d-4f8c-a57b-4d81694d300f | create_time=1793800122.282038\n# 第 4 題｜國文錯題解析：字音辨正\n\n<badge color=\"success\">正確答案：ㄕㄢˇ（三聲）</badge>\n\n## 一、原題與答案\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" justify=\"between\">\n    <text color=\"secondary\" weight=\"medium\">第 4 題｜看國字寫注音</text>\n    <badge color=\"warning\">訂正題</badge>\n  </row>\n  <title size=\"lg\">「摻」揉：（　）</title>\n  <row align=\"center\" gap={3}>\n    <box background=\"surface-secondary\" padding={3} radius=\"md\" align=\"center\" flex=\"1\" gap={1}>\n      <text color=\"secondary\" size=\"xs\">照片中的作答</text>\n      <title size=\"xl\">ㄔㄢ</title>\n      <caption>依筆跡辨識，應為此音</caption>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\" size=\"lg\"/>\n    <box background=\"rgba(25,155,95,0.08)\" padding={3} radius=\"md\" align=\"center\" flex=\"1\" gap={1}>\n      <text color=\"success\" size=\"xs\">正確注音</text>\n      <title size=\"2xl\" color=\"success\">ㄕㄢˇ</title>\n      <caption color=\"success\">摻揉＝ㄕㄢˇ ㄖㄡˊ</caption>\n    </box>\n  </row>\n</box>\n\n## 二、字義與用法\n\n**摻揉（ㄕㄢˇ ㄖㄡˊ）**：把不同的東西混合、揉合在一起。\n\n例如：這篇文章將歷史故事與神話傳說**摻揉**在一起。\n\n「摻」是多音字，常見的不同讀音要依詞語辨別。\n\n| 讀音 | 詞語 | 意思 |\n|---|---|---|\n| ㄕㄢˇ | 摻揉 | 混合、揉合 |\n| ㄔㄢ | 摻雜 | 混入其他事物 |\n| ㄘㄢ | 摻手 | 牽涉、參與，較少見 |\n\n## 三、易錯陷阱與 5 秒判斷\n\n這題容易把「摻揉」與「摻雜」的讀音混淆。兩者都有混合的意思，但在考試中應依固定詞語的標準讀音判斷。\n\n<box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"lightbulb\" color=\"default\"/>\n    **一眼記住**\n  </row>\n  摻揉 → ㄕㄢˇ ㄖㄡˊ\n\n  摻雜 → ㄔㄢ ㄗㄚˊ\n</box>\n\n## 四、錯題最後總結\n\n- **答案：** ㄕㄢˇ\n- **關鍵線索：** 「摻」後面接「揉」。\n- **5 秒判斷：** 看到「摻揉」，記得讀 ㄕㄢˇ。\n- **易錯提醒：** 不要把「摻雜」的 ㄔㄢ 直接套用到「摻揉」。\n- **一眼記住：** 摻揉讀「閃」的音，摻雜讀「攙」的音。\n\n[22] user | message_id=a4a880b5-e31a-4579-a57c-044aa30c8fd5 | create_time=1793800356.661468\n請再確認摻的正確注音\n\n[24] system | message_id=cf42e18f-fcc7-46a3-82f7-7abdc8c729e7 | create_time=1793800357.974293\n\n\n[25] system | message_id=fb3d6ce0-a4fc-4bd4-9941-de79cdf52219 | create_time=1793800358.652086\n\n\n[26] assistant | message_id=59ada883-8b9f-43ab-a0f2-a766b8bf7287 | create_time=1793800360.741118\n\n\n[27] tool | message_id=eca6ac9b-50cf-42b0-9ae8-d560036384f4 | create_time=1793800362.237339\nThe output of this plugin was redacted.\n\n[28] tool | message_id=7c17ceb9-6b44-4f85-adbd-6e710e643f44 | create_time=1793800365.63465\nThe output of this plugin was redacted.\n\n[31] assistant | message_id=d19c812e-81e7-46bd-9d11-91adc1776776 | create_time=1793800366.339771\n已重新查核**教育部《國語小字典》、《國語辭典簡編本》及《重編國語辭典修訂本》**。\n\n<badge color=\"success\">第 4 題正確注音：ㄔㄢ（第一聲）</badge>\n\n題目「摻揉」的正確注音是：\n\n**摻揉：ㄔㄢ ㄖㄡˊ**\n\n先前回答「ㄕㄢˇ」是錯誤的，抱歉！\n\n### 教育部官方查核結果\n\n| 讀音 | 字義與例詞 |\n|---|---|\n| **ㄔㄢ** | 混合、雜入。例如：摻雜、摻合、摻水 |\n| ㄕㄢˇ | 持、握住。例如：摻袂 |\n| ㄕㄢ | 形容手纖細，例如：摻摻 |\n| ㄘㄢˋ | 用於「漁陽摻撾」 |\n\n資料來源：\n- <Link url=\"https://dict.mini.moe.edu.tw/SearchIndex/word_detail?breadcrumbs=Search_%E6%91%BB_one&dictSearchField=%E6%91%BB&wordID=D0001245\" title=\"教育部《國語小字典》— 摻\"/>\n- <Link url=\"https://dict.revised.moe.edu.tw/dictView.jsp?ID=8371&q=1&word=1\" title=\"教育部《重編國語辭典修訂本》— 摻\"/>\n\n### 第 4 題訂正結論\n\n「摻揉」表示混合、揉合，因此「摻」應讀 **ㄔㄢ**，不是 ㄕㄢˇ。\n\n照片中老師的紅筆訂正可能需要再核對，但依教育部官方字典的字義判斷，這題應以 **ㄔㄢ** 為準。\n\n**之後處理國中字音錯題，遇到多音字，我會優先核對教育部官方辭典，再依詞義判斷讀音，避免類似錯誤。**\n\n[32] user | message_id=109241ca-22f7-494d-aa47-a6903f8bc893 | create_time=1793800461.9328818\n[原始使用者圖片附件；見同訊息封存及取得報告]\n6@錯題\n\n[34] system | message_id=b3566095-f318-44c0-8c3e-e753f0b2db41 | create_time=1793800463.506836\n\n\n[35] assistant | message_id=f1c6d2c4-e662-40b3-a58a-169d44b51289 | create_time=1793800477.907721\n# 第 6 題｜國文錯題解析\n<badge color=\"success\">正確答案：D</badge> <badge color=\"secondary\">字義辨析</badge>\n\n**考點：一詞多義 × 語境判讀 × 相同詞義**\n\n這題的關鍵不是看兩個詞語的字形是否相同，而是判斷它們在句子中的**意思是否一致**。\n\n從照片判讀，學生選擇 **B**，老師以紅筆標示 **D** 為正解。\n\n## 一、完整原題與選項\n\n**6. 下列「　」中的詞語，何者意思前後相同？**\n\n(A) 她曾因在狹小空間「側身」工作而深感不便，促使她後來「側身」室內設計業，致力於優化空間規畫。\n\n(B) 為了實現「理想」，我一定要考出「理想」的成績。\n\n(C) 我打開網路搜尋「引擎」，尋找機械「引擎」的構造。\n\n(D) 徹夜未眠後的精神極度「恍惚」，就在「恍惚」之間，他身形跟踉蹌，連站都站不穩。\n\n<text color=\"secondary\" size=\"xs\">註：D 選項末段照片有些字形不夠清楚；以上按可辨識內容呈現，不影響「恍惚」的字義判斷。</text>\n\n## 二、四個選項逐項解析\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\">A</title>\n      <icon name=\"x\" color=\"danger\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「側身」與「側身」：意思不同**\n\n      - 第一次：將身體轉向側面，以便通過或活動。\n      - 第二次：投入、參與某項事業。\n\n      <text color=\"secondary\" size=\"sm\">身體動作 ≠ 投入行業</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\">B</title>\n      <icon name=\"x\" color=\"danger\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「理想」與「理想」：意思不同**\n\n      - 實現「理想」：希望達成的志向或人生目標，偏向名詞。\n      - 「理想」的成績：符合期待、令人滿意，偏向形容詞。\n\n      <text color=\"secondary\" size=\"sm\">人生志向 ≠ 符合期待的狀態</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\">C</title>\n      <icon name=\"x\" color=\"danger\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「引擎」與「引擎」：意思不同**\n\n      - 搜尋「引擎」：負責搜尋、檢索資訊的軟體系統。\n      - 機械「引擎」：將能量轉換成動力的機械裝置。\n\n      <text color=\"secondary\" size=\"sm\">資訊檢索系統 ≠ 機械動力裝置</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(25,155,95,0.09)\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\" color=\"success\">D</title>\n      <icon name=\"check-circle\" color=\"success\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「恍惚」與「恍惚」：意思相同**\n\n      - 精神極度「恍惚」：神志不清、精神迷糊。\n      - 「恍惚」之間：神志迷糊、意識不清的狀態中。\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">兩者都表示精神迷糊、神志不清。</text>\n    </box>\n  </row>\n</box>\n\n\n\n[38] assistant | message_id=8dd0c515-fcdf-4c14-ad9f-d627e69303e4 | create_time=1793800477.920164\n# 第 6 題｜國文錯題解析\n<badge color=\"success\">正確答案：D</badge> <badge color=\"secondary\">字義辨析</badge>\n\n**考點：一詞多義 × 語境判讀 × 相同詞義**\n\n這題的關鍵不是看兩個詞語的字形是否相同，而是判斷它們在句子中的**意思是否一致**。\n\n從照片判讀，學生選擇 **B**，老師以紅筆標示 **D** 為正解。\n\n## 一、完整原題與選項\n\n**6. 下列「　」中的詞語，何者意思前後相同？**\n\n(A) 她曾因在狹小空間「側身」工作而深感不便，促使她後來「側身」室內設計業，致力於優化空間規畫。\n\n(B) 為了實現「理想」，我一定要考出「理想」的成績。\n\n(C) 我打開網路搜尋「引擎」，尋找機械「引擎」的構造。\n\n(D) 徹夜未眠後的精神極度「恍惚」，就在「恍惚」之間，他身形跟踉蹌，連站都站不穩。\n\n<text color=\"secondary\" size=\"xs\">註：D 選項末段照片有些字形不夠清楚；以上按可辨識內容呈現，不影響「恍惚」的字義判斷。</text>\n\n## 二、四個選項逐項解析\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\">A</title>\n      <icon name=\"x\" color=\"danger\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「側身」與「側身」：意思不同**\n\n      - 第一次：將身體轉向側面，以便通過或活動。\n      - 第二次：投入、參與某項事業。\n\n      <text color=\"secondary\" size=\"sm\">身體動作 ≠ 投入行業</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\">B</title>\n      <icon name=\"x\" color=\"danger\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「理想」與「理想」：意思不同**\n\n      - 實現「理想」：希望達成的志向或人生目標，偏向名詞。\n      - 「理想」的成績：符合期待、令人滿意，偏向形容詞。\n\n      <text color=\"secondary\" size=\"sm\">人生志向 ≠ 符合期待的狀態</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\">C</title>\n      <icon name=\"x\" color=\"danger\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「引擎」與「引擎」：意思不同**\n\n      - 搜尋「引擎」：負責搜尋、檢索資訊的軟體系統。\n      - 機械「引擎」：將能量轉換成動力的機械裝置。\n\n      <text color=\"secondary\" size=\"sm\">資訊檢索系統 ≠ 機械動力裝置</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(25,155,95,0.09)\" radius=\"lg\" padding={2} width=\"48px\" align=\"center\">\n      <title size=\"lg\" color=\"success\">D</title>\n      <icon name=\"check-circle\" color=\"success\" size=\"lg\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **「恍惚」與「恍惚」：意思相同**\n\n      - 精神極度「恍惚」：神志不清、精神迷糊。\n      - 「恍惚」之間：神志迷糊、意識不清的狀態中。\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">兩者都表示精神迷糊、神志不清。</text>\n    </box>\n  </row>\n</box>\n\n## 三、視覺化比較：同一個詞，意思可能不同\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" size=\"sm\" color=\"secondary\">從前後語境判斷詞義</text>\n  <grid columns={2} gap={2}>\n    {#each [{w:\"側身\",a:\"身體側轉\",b:\"投入事業\",same:false},{w:\"理想\",a:\"志向、目標\",b:\"符合期待\",same:false},{w:\"引擎\",a:\"搜尋系統\",b:\"動力機械\",same:false},{w:\"恍惚\",a:\"精神迷糊\",b:\"神志不清\",same:true}] as item}\n      <grid-item>\n        <box background={item.same?\"rgba(22,155,98,0.07)\":\"surface-secondary\"} border={{size:1,color:item.same?\"success\":\"subtle\"}} radius=\"lg\" padding={3} gap={2}>\n          <row align=\"center\" justify=\"between\">\n            **{item.w}**\n            <icon name={item.same?\"check-circle\":\"x-circle\"} color={item.same?\"success\":\"danger\"}/>\n          </row>\n          <box align=\"center\" gap={1}>\n            <text size=\"sm\">{item.a}</text>\n            <icon name={item.same?\"equal\":\"not-equal\"} color={item.same?\"success\":\"danger\"}/>\n            <text size=\"sm\">{item.b}</text>\n          </box>\n          <text textAlign=\"center\" weight=\"medium\" color={item.same?\"success\":\"secondary\"} size=\"xs\">{item.same?\"意思相同\":\"意思不同\"}</text>\n        </box>\n      </grid-item>\n    {/each}\n  </grid>\n</box>\n\n## 四、錯題最後總結\n\n- **答案：D**\n- **關鍵線索：** 前後兩個「恍惚」都表示神志不清。\n- **5 秒判斷：** 把引號中的詞換成白話文，檢查前後意思是否一致。\n- **易錯提醒：** 「實現理想」是達成人生目標；「理想的成績」是令人滿意的成績。\n- **一眼記住：** **字形相同，不代表字義相同；要看語境。**\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"graduation-cap\" color=\"secondary\"/>\n    **會考小測驗**\n  </row>\n  下列哪一組「深」字的意思相同？\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 深夜／深海</radio>\n    <radio value=\"B\">B. 深思／深思熟慮</radio>\n    <radio value=\"C\">C. 深藍／深山</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n      <text color={choice===\"B\"?\"success\":\"danger\"} weight=\"medium\"><icon name={choice===\"B\"?\"check-circle\":\"alert-circle\"} inline/> {choice===\"B\"?\"答對了！\":\"再比較一次兩個詞的意思。\"}</text>\n      正確答案為 B。「深思」與「深思熟慮」中的「深」都表示深入、周密；其他選項分別涉及時間、空間或顏色程度。\n    </box>\n  {/if}\n</box>\n\n[39] assistant | message_id=bd9448f9-c026-4e66-acb8-7eeb182a3d91 | create_time=1793800496.416003\n## 三、視覺化比較：同一個詞，意思可能不同\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" size=\"sm\" color=\"secondary\">從前後語境判斷詞義</text>\n  <grid columns={2} gap={2}>\n    {#each [{w:\"側身\",a:\"身體側轉\",b:\"投入事業\",same:false},{w:\"理想\",a:\"志向、目標\",b:\"符合期待\",same:false},{w:\"引擎\",a:\"搜尋系統\",b:\"動力機械\",same:false},{w:\"恍惚\",a:\"精神迷糊\",b:\"神志不清\",same:true}] as item}\n      <grid-item>\n        <box background={item.same?\"rgba(22,155,98,0.07)\":\"surface-secondary\"} border={{size:1,color:item.same?\"success\":\"subtle\"}} radius=\"lg\" padding={3} gap={2}>\n          <row align=\"center\" justify=\"between\">\n            **{item.w}**\n            <icon name={item.same?\"check-circle\":\"x-circle\"} color={item.same?\"success\":\"danger\"}/>\n          </row>\n          <box align=\"center\" gap={1}>\n            <text size=\"sm\">{item.a}</text>\n            <icon name={item.same?\"equal\":\"not-equal\"} color={item.same?\"success\":\"danger\"}/>\n            <text size=\"sm\">{item.b}</text>\n          </box>\n          <text textAlign=\"center\" weight=\"medium\" color={item.same?\"success\":\"secondary\"} size=\"xs\">{item.same?\"意思相同\":\"意思不同\"}</text>\n        </box>\n      </grid-item>\n    {/each}\n  </grid>\n</box>\n\n## 四、錯題最後總結\n\n- **答案：D**\n- **關鍵線索：** 前後兩個「恍惚」都表示神志不清。\n- **5 秒判斷：** 把引號中的詞換成白話文，檢查前後意思是否一致。\n- **易錯提醒：** 「實現理想」是達成人生目標；「理想的成績」是令人滿意的成績。\n- **一眼記住：** **字形相同，不代表字義相同；要看語境。**\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"graduation-cap\" color=\"secondary\"/>\n    **會考小測驗**\n  </row>\n  下列哪一組「深」字的意思相同？\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 深夜／深海</radio>\n    <radio value=\"B\">B. 深思／深思熟慮</radio>\n    <radio value=\"C\">C. 深藍／深山</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n      <text color={choice===\"B\"?\"success\":\"danger\"} weight=\"medium\"><icon name={choice===\"B\"?\"check-circle\":\"alert-circle\"} inline/> {choice===\"B\"?\"答對了！\":\"再比較一次兩個詞的意思。\"}</text>\n      正確答案為 B。「深思」與「深思熟慮」中的「深」都表示深入、周密；其他選項分別涉及時間、空間或顏色程度。\n    </box>\n  {/if}\n</box>\n\n[40] user | message_id=fec12fe5-6ade-4b93-9b4c-614f58f6afbc | create_time=1793800594.019189\n[原始使用者圖片附件；見同訊息封存及取得報告]\n7@錯題\n\n[42] system | message_id=40e940f6-ece8-4d93-a7d9-e945c4ca0bf1 | create_time=1793800596.640285\n\n\n[43] assistant | message_id=beedd441-dd77-499e-8190-6b1255220ea3 | create_time=1793800604.339854\n\n\n[44] tool | message_id=b68545d0-ff99-4dbc-8d41-46de47143712 | create_time=1793800604.434436\nThe output of this plugin was redacted.\n\n[45] tool | message_id=af1867f2-f44f-4ee9-863f-626fc345986e | create_time=1793800605.376365\nThe output of this plugin was redacted.\n\n[46] assistant | message_id=b4827049-77f6-42fe-b2be-e1fd013f72b6 | create_time=1793800607.371086\n# 第 7 題｜國文錯題解析：成語運用\n\n<badge color=\"success\">正確答案：D 鳶飛魚躍</badge>\n\n**考點：成語語義 × 感情色彩 × 語境判斷**\n\n根據照片，學生原選 **C**，老師以紅筆訂正為 **D**。我已核對教育部《成語典》，D 符合本題語境。\n\n## 一、完整原題與選項\n\n**7. 下列「　」中的成語，何者運用正確？**\n\n(A) 這部科幻電影有「駭人聽聞」的奇幻世界觀，精彩程度令所有觀眾感到瞠目結舌。\n\n(B) 我每天「處心積慮」的學習，就是為了完成自己的人生目標。\n\n(C) 辯論比賽中立場對立的雙方辯士皆「振振有辭」的發表意見。\n\n(D) 春天一到，只見大地百花盛開，「鳶飛魚躍」，一片欣欣向榮的景象。\n\n## 二、四個選項逐項解析\n\n| 選項 | 成語原義 | 判斷 |\n|---|---|---|\n| A 駭人聽聞 | 令人聽了非常震驚、害怕，通常指可怕的事情 | <icon name=\"x\" color=\"danger\" inline/> 不宜形容奇幻世界觀精彩 |\n| B 處心積慮 | 長時間費盡心思謀劃，多帶貶義 | <icon name=\"x\" color=\"danger\" inline/> 不宜形容努力學習 |\n| C 振振有辭 | 說話自以為理由充分，常含強辯意味 | <icon name=\"x\" color=\"danger\" inline/> 不能直接當作正面稱讚辯論表現 |\n| D 鳶飛魚躍 | 鷹飛魚躍，比喻萬物各得其所、自然活動 | <icon name=\"check-circle\" color=\"success\" inline/> 符合春天萬物生機的情境 |\n\n**D 為什麼正確？**\n\n教育部《成語典》指出，「鳶飛魚躍」原指鷹在天空飛翔、魚在水中跳躍，引申為萬物順應天性而活動、各得其所。搭配春天百花盛開、萬物欣欣向榮的景象，語意相符。<Cite ref=\"turn396416search0\"/>\n\n需要特別注意，**「鳶飛魚躍」不只是指生機勃勃，也包含萬物順應天性、各得其所的意思。**\n\n\n\n[47] assistant | message_id=318dc6cb-fcd9-421f-b6cd-6691369f23a3 | create_time=1793800620.383355\n\n\n[48] tool | message_id=1e68c79e-2eb6-4594-b73c-f2d4d4de1c4c | create_time=1793800621.149653\nThe output of this plugin was redacted.\n\n[49] assistant | message_id=6991e755-d9a3-472d-8f2f-bb2c77a3f578 | create_time=1793800622.711808\n## 三、視覺化記憶：四個成語的正確情境\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute colorful educational cartoon shocked person watching frightening breaking news on television illustration\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **A｜駭人聽聞**\n\n      <text color=\"secondary\" size=\"sm\">ㄏㄞˋ ㄖㄣˊ ㄊㄧㄥ ㄨㄣˊ</text>\n\n      適用於令人震驚、驚恐的事件，例如嚴重犯罪或重大災難，不是一般的精彩奇幻電影。<Cite ref=\"turn613977search0\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute colorful cartoon cunning villain secretly plotting at desk with plans educational illustration\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **B｜處心積慮**\n\n      <text color=\"secondary\" size=\"sm\">ㄔㄨˇ ㄒㄧㄣ ㄐㄧ ㄌㄩˋ</text>\n\n      長期費盡心思謀劃，通常含負面語氣。形容認真學習，較適合改成「全力以赴」或「孜孜不倦」。<Cite ref=\"turn396416search7\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute colorful cartoon stubborn debater angrily defending himself with papers classroom educational illustration\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **C｜振振有辭**\n\n      <text color=\"secondary\" size=\"sm\">ㄓㄣˋ ㄓㄣˋ ㄧㄡˇ ㄘˊ</text>\n\n      自認有理而不停辯解，常帶有負面意味。若只是形容辯論雙方發表有力的論點，可改用「據理力爭」。<Cite ref=\"turn613977search4\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"beautiful colorful cute educational illustration eagle soaring over clear river with fish leaping and spring flowers blooming peaceful thriving nature no text\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      <row align=\"center\" gap={2}>\n        **D｜鳶飛魚躍**\n        <icon name=\"check-circle\" color=\"success\"/>\n      </row>\n      <text color=\"secondary\" size=\"sm\">ㄩㄢ ㄈㄟ ㄩˊ ㄩㄝˋ</text>\n\n      鷹在天上自由飛翔，魚在水裡自在跳躍，象徵萬物自然活動、各得其所。<Cite ref=\"turn396416search0\"/>\n    </box>\n  </row>\n</box>\n\n\n\n[52] assistant | message_id=af3f3dd8-dfe5-4428-8c0d-3d592681a2ed | create_time=1793800607.660318\n# 第 7 題｜國文錯題解析：成語運用\n\n<badge color=\"success\">正確答案：D 鳶飛魚躍</badge>\n\n**考點：成語語義 × 感情色彩 × 語境判斷**\n\n根據照片，學生原選 **C**，老師以紅筆訂正為 **D**。我已核對教育部《成語典》，D 符合本題語境。\n\n## 一、完整原題與選項\n\n**7. 下列「　」中的成語，何者運用正確？**\n\n(A) 這部科幻電影有「駭人聽聞」的奇幻世界觀，精彩程度令所有觀眾感到瞠目結舌。\n\n(B) 我每天「處心積慮」的學習，就是為了完成自己的人生目標。\n\n(C) 辯論比賽中立場對立的雙方辯士皆「振振有辭」的發表意見。\n\n(D) 春天一到，只見大地百花盛開，「鳶飛魚躍」，一片欣欣向榮的景象。\n\n## 二、四個選項逐項解析\n\n| 選項 | 成語原義 | 判斷 |\n|---|---|---|\n| A 駭人聽聞 | 令人聽了非常震驚、害怕，通常指可怕的事情 | <icon name=\"x\" color=\"danger\" inline/> 不宜形容奇幻世界觀精彩 |\n| B 處心積慮 | 長時間費盡心思謀劃，多帶貶義 | <icon name=\"x\" color=\"danger\" inline/> 不宜形容努力學習 |\n| C 振振有辭 | 說話自以為理由充分，常含強辯意味 | <icon name=\"x\" color=\"danger\" inline/> 不能直接當作正面稱讚辯論表現 |\n| D 鳶飛魚躍 | 鷹飛魚躍，比喻萬物各得其所、自然活動 | <icon name=\"check-circle\" color=\"success\" inline/> 符合春天萬物生機的情境 |\n\n**D 為什麼正確？**\n\n教育部《成語典》指出，「鳶飛魚躍」原指鷹在天空飛翔、魚在水中跳躍，引申為萬物順應天性而活動、各得其所。搭配春天百花盛開、萬物欣欣向榮的景象，語意相符。<Cite ref=\"turn396416search0\"/>\n\n需要特別注意，**「鳶飛魚躍」不只是指生機勃勃，也包含萬物順應天性、各得其所的意思。**\n\n## 三、視覺化記憶：四個成語的正確情境\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute colorful educational cartoon shocked person watching frightening breaking news on television illustration\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **A｜駭人聽聞**\n\n      <text color=\"secondary\" size=\"sm\">ㄏㄞˋ ㄖㄣˊ ㄊㄧㄥ ㄨㄣˊ</text>\n\n      適用於令人震驚、驚恐的事件，例如嚴重犯罪或重大災難，不是一般的精彩奇幻電影。<Cite ref=\"turn613977search0\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute colorful cartoon cunning villain secretly plotting at desk with plans educational illustration\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **B｜處心積慮**\n\n      <text color=\"secondary\" size=\"sm\">ㄔㄨˇ ㄒㄧㄣ ㄐㄧ ㄌㄩˋ</text>\n\n      長期費盡心思謀劃，通常含負面語氣。形容認真學習，較適合改成「全力以赴」或「孜孜不倦」。<Cite ref=\"turn396416search7\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute colorful cartoon stubborn debater angrily defending himself with papers classroom educational illustration\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **C｜振振有辭**\n\n      <text color=\"secondary\" size=\"sm\">ㄓㄣˋ ㄓㄣˋ ㄧㄡˇ ㄘˊ</text>\n\n      自認有理而不停辯解，常帶有負面意味。若只是形容辯論雙方發表有力的論點，可改用「據理力爭」。<Cite ref=\"turn613977search4\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"beautiful colorful cute educational illustration eagle soaring over clear river with fish leaping and spring flowers blooming peaceful thriving nature no text\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      <row align=\"center\" gap={2}>\n        **D｜鳶飛魚躍**\n        <icon name=\"check-circle\" color=\"success\"/>\n      </row>\n      <text color=\"secondary\" size=\"sm\">ㄩㄢ ㄈㄟ ㄩˊ ㄩㄝˋ</text>\n\n      鷹在天上自由飛翔，魚在水裡自在跳躍，象徵萬物自然活動、各得其所。<Cite ref=\"turn396416search0\"/>\n    </box>\n  </row>\n</box>\n\n## 四、錯題最後總結\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"target\" color=\"success\"/>\n    **答案：D 鳶飛魚躍**\n  </row>\n  **關鍵線索：** 春天、百花盛開、欣欣向榮。\n\n  **5 秒判斷：** 描寫春天萬物自然活動的景象，選「鳶飛魚躍」。\n\n  **易錯提醒：** C「振振有辭」不是單純的「說得很有道理」，而是自認有理、說個不停；但也不能只憑出現辯論情境就一律判錯，還須看語氣。\n\n  **一眼記住：** 鳶飛魚躍＝萬物各得其所；振振有辭＝自認有理、滔滔不絕。\n</box>\n\n這題最值得加強的是**成語的感情色彩與使用情境**。尤其「振振有辭」和「據理力爭」看似相近，實際語氣卻不相同。\n\n[53] assistant | message_id=d5f0afa3-aaea-468c-a6f2-b68003123495 | create_time=1793800635.551139\n## 四、錯題最後總結\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"target\" color=\"success\"/>\n    **答案：D 鳶飛魚躍**\n  </row>\n  **關鍵線索：** 春天、百花盛開、欣欣向榮。\n\n  **5 秒判斷：** 描寫春天萬物自然活動的景象，選「鳶飛魚躍」。\n\n  **易錯提醒：** C「振振有辭」不是單純的「說得很有道理」，而是自認有理、說個不停；但也不能只憑出現辯論情境就一律判錯，還須看語氣。\n\n  **一眼記住：** 鳶飛魚躍＝萬物各得其所；振振有辭＝自認有理、滔滔不絕。\n</box>\n\n這題最值得加強的是**成語的感情色彩與使用情境**。尤其「振振有辭」和「據理力爭」看似相近，實際語氣卻不相同。\n\n[54] user | message_id=d4cc7aa4-887d-4ca7-a7a6-1e8b0681b130 | create_time=1793800670.4933438\n[原始使用者圖片附件；見同訊息封存及取得報告]\n9@錯題\n\n[55] system | message_id=efc465a1-5e53-4f3a-af0e-43ce05a51304 | create_time=1793800672.600125\n\n\n[56] assistant | message_id=71660e32-3079-45e7-ad25-43477f497c2b | create_time=1793800676.698522\n# 第 9 題｜國文錯題解析：成語詞義關係\n\n<badge color=\"success\">正確答案：B</badge>\n\n**考點：近義成語 × 成語辨析 × 詞義關係**\n\n從照片判讀，學生原本選擇 **C**，老師以紅筆訂正為 **B**。\n\n## 一、完整原題與選項\n\n**9.「撲朔迷離」之於「錯綜複雜」的詞義關係，與下列何者相同？**\n\n(A)「泥牛入海」之於「自身難保」\n\n(B)「熙來攘往」之於「絡繹不絕」\n\n(C)「釜底游魚」之於「釜中生魚」\n\n(D)「長驅直入」之於「退避三舍」\n\n## 二、先破解題目：什麼是詞義關係？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"search\" color=\"secondary\"/>\n    **題目給的兩個成語**\n  </row>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n        **撲朔迷離**\n        <text size=\"sm\" textAlign=\"center\">事情錯綜難辨，真相不清</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n        **錯綜複雜**\n        <text size=\"sm\" textAlign=\"center\">頭緒繁多，關係複雜</text>\n      </box>\n    </grid-item>\n  </grid>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <icon name=\"arrow-left-right\" color=\"success\"/>\n    <text color=\"success\" weight=\"medium\">語義相近（近義關係）</text>\n  </row>\n  <text size=\"sm\" color=\"secondary\">兩者並非完全同義，但都能描述事情複雜、難以理清的情況。</text>\n</box>\n\n所以這題不是要找「意思相反」，而是要找出**另一組意思相近的成語**。\n\n\n\n[57] assistant | message_id=11e9de53-a97b-46ca-aa0a-14fe4b48e084 | create_time=1793800685.452442\n\n\n[58] tool | message_id=6c6a3d37-e18f-49d1-9ad0-44f8afa44604 | create_time=1793800685.557647\nThe output of this plugin was redacted.\n\n[59] tool | message_id=17d832ee-b987-4a7f-b8ea-e8ef30d153da | create_time=1793800686.146354\nThe output of this plugin was redacted.\n\n[62] assistant | message_id=d040c803-0f04-49d0-b7b4-2defdae5bff8 | create_time=1793800676.783225\n# 第 9 題｜國文錯題解析：成語詞義關係\n\n<badge color=\"success\">正確答案：B</badge>\n\n**考點：近義成語 × 成語辨析 × 詞義關係**\n\n從照片判讀，學生原本選擇 **C**，老師以紅筆訂正為 **B**。\n\n## 一、完整原題與選項\n\n**9.「撲朔迷離」之於「錯綜複雜」的詞義關係，與下列何者相同？**\n\n(A)「泥牛入海」之於「自身難保」\n\n(B)「熙來攘往」之於「絡繹不絕」\n\n(C)「釜底游魚」之於「釜中生魚」\n\n(D)「長驅直入」之於「退避三舍」\n\n## 二、先破解題目：什麼是詞義關係？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"search\" color=\"secondary\"/>\n    **題目給的兩個成語**\n  </row>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n        **撲朔迷離**\n        <text size=\"sm\" textAlign=\"center\">事情錯綜難辨，真相不清</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n        **錯綜複雜**\n        <text size=\"sm\" textAlign=\"center\">頭緒繁多，關係複雜</text>\n      </box>\n    </grid-item>\n  </grid>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <icon name=\"arrow-left-right\" color=\"success\"/>\n    <text color=\"success\" weight=\"medium\">語義相近（近義關係）</text>\n  </row>\n  <text size=\"sm\" color=\"secondary\">兩者並非完全同義，但都能描述事情複雜、難以理清的情況。</text>\n</box>\n\n所以這題不是要找「意思相反」，而是要找出**另一組意思相近的成語**。\n\n## 三、四個選項逐項解析\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **A**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **泥牛入海 ≠ 自身難保**\n\n      - 泥牛入海：比喻一去不返，杳無音訊。\n      - 自身難保：連自己都無法保全，更無暇顧及別人。\n\n      <text color=\"secondary\" size=\"sm\">前者強調失去消息，後者強調自身處境危險。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(22,155,98,0.08)\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **B**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **熙來攘往 ≈ 絡繹不絕**\n\n      - 熙來攘往：人來人往，熱鬧擁擠。\n      - 絡繹不絕：人、車等接連不斷。\n\n      <text color=\"success\" size=\"sm\" weight=\"medium\">都是形容往來頻繁、接連不斷，屬於近義關係。</text>\n\n      教育部《成語典》也將「熙來攘往」列為「絡繹不絕」的近義成語。<Cite ref=\"turn515864search7\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **C**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **釜底游魚 ≠ 釜中生魚**\n\n      - 釜底游魚：魚在鍋底游動，隨時可能被煮死，比喻處境極其危險、即將滅亡。\n      - 釜中生魚：鍋子長久不用，甚至生出魚蟲，比喻生活極度貧困、斷炊已久。<Cite ref=\"turn515864search10\"/>\n\n      <text color=\"secondary\" size=\"sm\">雖然都有「釜」和「魚」，但一個強調危險，一個強調貧困。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **D**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **長驅直入 ≠ 退避三舍**\n\n      - 長驅直入：軍隊快速深入敵方領域，勢不可擋。\n      - 退避三舍：主動退讓、避免正面衝突。\n\n      <text color=\"secondary\" size=\"sm\">兩者呈現相反的行動方向，偏向反義關係。</text>\n    </box>\n  </row>\n</box>\n\n## 四、精準圖解：最容易混淆的 C 選項\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <AsyncImage query=\"traditional Chinese ancient cooking cauldron with small fish swimming inside above burning fire dramatic danger educational cartoon no text\" aspectRatio=\"4:3\"/>\n    **釜底游魚**\n\n    <text color=\"danger\" weight=\"medium\" size=\"sm\">危在旦夕</text>\n\n    <text size=\"sm\">魚在燒熱的鍋中，生命隨時受到威脅。</text>\n  </grid-item>\n  <grid-item>\n    <AsyncImage query=\"ancient Chinese poor household dusty unused cooking pot with stagnant water tiny fish and cobwebs in empty kitchen cute educational cartoon no text\" aspectRatio=\"4:3\"/>\n    **釜中生魚**\n\n    <text weight=\"medium\" size=\"sm\">窮困斷炊</text>\n\n    <text size=\"sm\">鍋子長久沒有煮飯，象徵家境貧困。</text>\n  </grid-item>\n</grid>\n\n這組特別值得記憶：**相同的意象，不代表相同的意思。**\n\n## 五、錯題最後總結\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  **正確答案：B**\n\n  **關鍵線索：** 「撲朔迷離」與「錯綜複雜」具有近義關係。<Cite ref=\"turn515864search2\"/>\n\n  **5 秒判斷：** 題幹是近義詞 → 找出另一組近義成語 → B。\n\n  **易錯提醒：** 「釜底游魚」是危險；「釜中生魚」是貧困。\n\n  **一眼記住：** 熙來攘往 ≈ 絡繹不絕，兩者都能形容人群往來不斷。\n</box>\n\n## 六、會考互動小測驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  **下列哪一組成語也屬於「近義關係」？**\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 一目了然／撲朔迷離</radio>\n    <radio value=\"B\">B. 車水馬龍／川流不息</radio>\n    <radio value=\"C\">C. 雪中送炭／落井下石</radio>\n    <radio value=\"D\">D. 背道而馳／殊途同歸</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={1}>\n      <text weight=\"medium\" color={answer===\"B\"?\"success\":\"danger\"}><icon name={answer===\"B\"?\"check-circle\":\"info\"} inline/> {answer===\"B\"?\"答對了！\":\"正確答案是 B。\"}</text>\n      「車水馬龍」形容車馬往來繁忙熱鬧；「川流不息」形容事物連續不斷，兩者具有近義關係。其他選項的意思相反或形成對比。\n    </box>\n  {/if}\n</box>\n\n[63] assistant | message_id=37e2d33a-2f2b-4726-a888-5ba5a8e38423 | create_time=1793800688.556788\n## 三、四個選項逐項解析\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **A**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **泥牛入海 ≠ 自身難保**\n\n      - 泥牛入海：比喻一去不返，杳無音訊。\n      - 自身難保：連自己都無法保全，更無暇顧及別人。\n\n      <text color=\"secondary\" size=\"sm\">前者強調失去消息，後者強調自身處境危險。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(22,155,98,0.08)\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **B**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **熙來攘往 ≈ 絡繹不絕**\n\n      - 熙來攘往：人來人往，熱鬧擁擠。\n      - 絡繹不絕：人、車等接連不斷。\n\n      <text color=\"success\" size=\"sm\" weight=\"medium\">都是形容往來頻繁、接連不斷，屬於近義關係。</text>\n\n      教育部《成語典》也將「熙來攘往」列為「絡繹不絕」的近義成語。<Cite ref=\"turn515864search7\"/>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **C**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **釜底游魚 ≠ 釜中生魚**\n\n      - 釜底游魚：魚在鍋底游動，隨時可能被煮死，比喻處境極其危險、即將滅亡。\n      - 釜中生魚：鍋子長久不用，甚至生出魚蟲，比喻生活極度貧困、斷炊已久。<Cite ref=\"turn515864search10\"/>\n\n      <text color=\"secondary\" size=\"sm\">雖然都有「釜」和「魚」，但一個強調危險，一個強調貧困。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **D**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **長驅直入 ≠ 退避三舍**\n\n      - 長驅直入：軍隊快速深入敵方領域，勢不可擋。\n      - 退避三舍：主動退讓、避免正面衝突。\n\n      <text color=\"secondary\" size=\"sm\">兩者呈現相反的行動方向，偏向反義關係。</text>\n    </box>\n  </row>\n</box>\n\n## 四、精準圖解：最容易混淆的 C 選項\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <AsyncImage query=\"traditional Chinese ancient cooking cauldron with small fish swimming inside above burning fire dramatic danger educational cartoon no text\" aspectRatio=\"4:3\"/>\n    **釜底游魚**\n\n    <text color=\"danger\" weight=\"medium\" size=\"sm\">危在旦夕</text>\n\n    <text size=\"sm\">魚在燒熱的鍋中，生命隨時受到威脅。</text>\n  </grid-item>\n  <grid-item>\n    <AsyncImage query=\"ancient Chinese poor household dusty unused cooking pot with stagnant water tiny fish and cobwebs in empty kitchen cute educational cartoon no text\" aspectRatio=\"4:3\"/>\n    **釜中生魚**\n\n    <text weight=\"medium\" size=\"sm\">窮困斷炊</text>\n\n    <text size=\"sm\">鍋子長久沒有煮飯，象徵家境貧困。</text>\n  </grid-item>\n</grid>\n\n這組特別值得記憶：**相同的意象，不代表相同的意思。**\n\n## 五、錯題最後總結\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  **正確答案：B**\n\n  **關鍵線索：** 「撲朔迷離」與「錯綜複雜」具有近義關係。<Cite ref=\"turn515864search2\"/>\n\n  **5 秒判斷：** 題幹是近義詞 → 找出另一組近義成語 → B。\n\n  **易錯提醒：** 「釜底游魚」是危險；「釜中生魚」是貧困。\n\n  **一眼記住：** 熙來攘往 ≈ 絡繹不絕，兩者都能形容人群往來不斷。\n</box>\n\n## 六、會考互動小測驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  **下列哪一組成語也屬於「近義關係」？**\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 一目了然／撲朔迷離</radio>\n    <radio value=\"B\">B. 車水馬龍／川流不息</radio>\n    <radio value=\"C\">C. 雪中送炭／落井下石</radio>\n    <radio value=\"D\">D. 背道而馳／殊途同歸</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={1}>\n      <text weight=\"medium\" color={answer===\"B\"?\"success\":\"danger\"}><icon name={answer===\"B\"?\"check-circle\":\"info\"} inline/> {answer===\"B\"?\"答對了！\":\"正確答案是 B。\"}</text>\n      「車水馬龍」形容車馬往來繁忙熱鬧；「川流不息」形容事物連續不斷，兩者具有近義關係。其他選項的意思相反或形成對比。\n    </box>\n  {/if}\n</box>\n\n[64] user | message_id=8c08d1fa-06ce-4871-bc21-262cb5be05aa | create_time=1793800743.633729\n[原始使用者圖片附件；見同訊息封存及取得報告]\n2@錯題\n\n[65] system | message_id=767f22a3-0d10-4f36-ab17-880d1e3959b4 | create_time=1793800746.799073\n\n\n[66] assistant | message_id=286ec648-40f6-4b79-b739-2c4e1e50a9cf | create_time=1793800764.24323\n\n\n[67] tool | message_id=bbc5f619-d0e5-4901-93e1-1e6e4f516f4d | create_time=1793800764.618371\nThe output of this plugin was redacted.\n\n[68] tool | message_id=ddbfbcc2-8631-4983-bec0-36728d7a6e2e | create_time=1793800766.679464\nThe output of this plugin was redacted.\n\n[72] tool | message_id=80465e25-6c13-4201-b602-5e098c61e887 | create_time=1793800782.937618\nThe output of this plugin was redacted.\n\n[74] assistant | message_id=c033ccc1-4f25-40a1-b950-2d8aa409c3c3 | create_time=1793800790.332249\n\n\n[75] tool | message_id=79aabf61-7c61-4621-92b9-42dc82dc6da2 | create_time=1793800790.439593\nThe output of this plugin was redacted.\n\n[76] tool | message_id=1d2d379d-3adf-4f7d-bfa7-b830fb5d7c9b | create_time=1793800791.050155\nThe output of this plugin was redacted.\n\n[77] assistant | message_id=915fecd9-0bb0-481c-af6b-6cae452802c6 | create_time=1793800795.098064\n# 第 2 題｜國文錯題解析：多音字辨析\n\n<badge color=\"success\">正確答案：A</badge>\n\n**考點：同字異音 × 詞語搭配 × 語境判讀**\n\n從照片判讀，學生原本選 **B**，老師以紅筆訂正為 **A**。\n\n## 一、完整原題與選項\n\n**2. 下列「　」中的字，何者讀音前後相同？**\n\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險。\n\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線。\n\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言。\n\n(D) 我付「度」著該如何拿捏說話的尺「度」才不會傷人。\n\n<text color=\"secondary\" size=\"xs\">註：D 選項依照片實際文字應為「我忖『度』著……」，以下依此解析。</text>\n\n## 二、逐項注音比對\n\n| 選項 | 前一個字 | 後一個字 | 判斷 |\n|---|---|---|---|\n| **A 衝** | 要衝：ㄔㄨㄥ | 橫衝直撞：ㄔㄨㄥ | <icon name=\"check-circle\" color=\"success\" inline/> 相同 |\n| B 劃 | 劃過：ㄏㄨㄚˊ | 劃出：ㄏㄨㄚˊ | 需注意語境，見下方 |\n| C 炸 | 炸子雞：ㄓㄚˊ | 爆炸：ㄓㄚˋ | <icon name=\"x-circle\" color=\"danger\" inline/> 不同 |\n| D 度 | 忖度：ㄉㄨㄛˋ | 尺度：ㄉㄨˋ | <icon name=\"x-circle\" color=\"danger\" inline/> 不同 |\n\n**A 為確定正解：**「交通要衝」指重要交通位置；「橫衝直撞」指胡亂四處衝撞。雖然意思不同，但兩個「衝」都讀第一聲。教育部辭典可核實。<Cite refs={[\"turn125806search1\",\"turn125806search6\"]}/>\n\n\n\n[78] assistant | message_id=ed31628e-b416-4a2a-9293-78aea90e7ac8 | create_time=1793800808.039969\n\n\n[79] tool | message_id=4c94ff00-002b-406e-a6dd-ef766bae136e | create_time=1793800810.661628\nThe output of this plugin was redacted.\n\n[82] assistant | message_id=7f53cad5-cc99-4245-9626-4b5bf764f1dc | create_time=1793800795.110501\n# 第 2 題｜國文錯題解析：多音字辨析\n\n<badge color=\"success\">正確答案：A</badge>\n\n**考點：同字異音 × 詞語搭配 × 語境判讀**\n\n從照片判讀，學生原本選 **B**，老師以紅筆訂正為 **A**。\n\n## 一、完整原題與選項\n\n**2. 下列「　」中的字，何者讀音前後相同？**\n\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險。\n\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線。\n\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言。\n\n(D) 我付「度」著該如何拿捏說話的尺「度」才不會傷人。\n\n<text color=\"secondary\" size=\"xs\">註：D 選項依照片實際文字應為「我忖『度』著……」，以下依此解析。</text>\n\n## 二、逐項注音比對\n\n| 選項 | 前一個字 | 後一個字 | 判斷 |\n|---|---|---|---|\n| **A 衝** | 要衝：ㄔㄨㄥ | 橫衝直撞：ㄔㄨㄥ | <icon name=\"check-circle\" color=\"success\" inline/> 相同 |\n| B 劃 | 劃過：ㄏㄨㄚˊ | 劃出：ㄏㄨㄚˊ | 需注意語境，見下方 |\n| C 炸 | 炸子雞：ㄓㄚˊ | 爆炸：ㄓㄚˋ | <icon name=\"x-circle\" color=\"danger\" inline/> 不同 |\n| D 度 | 忖度：ㄉㄨㄛˋ | 尺度：ㄉㄨˋ | <icon name=\"x-circle\" color=\"danger\" inline/> 不同 |\n\n**A 為確定正解：**「交通要衝」指重要交通位置；「橫衝直撞」指胡亂四處衝撞。雖然意思不同，但兩個「衝」都讀第一聲。教育部辭典可核實。<Cite refs={[\"turn125806search1\",\"turn125806search6\"]}/>\n\n## 三、為什麼 B 容易選錯？\n\n題目中的 B 值得特別檢查：\n\n「快艇『劃』過湖面，在水面『劃』出一條雪白水線。」\n\n教育部《國語辭典簡編本》將「劃」分成兩種讀音：\n\n- **ㄏㄨㄚˊ**：擦掠、從表面經過。\n- **ㄏㄨㄚˋ**：區分、分界、規畫。<Cite refs={[\"turn148078search1\",\"turn148078search2\"]}/>\n\n第一個「劃過湖面」可讀 ㄏㄨㄚˊ。第二個「劃出一條雪白水線」，如果理解為快艇擦掠水面留下痕跡，也有理由讀 ㄏㄨㄚˊ。\n\n**因此，B 的語境有歧義，不能僅憑上述字典釋義就斷定兩字一定不同音。** 這是原題需要留意的命題問題。\n\n## 四、錯題最後總結\n\n- **參考答案：A**（與照片訂正一致）。\n- **關鍵線索：** 交通要衝、橫衝直撞，兩個「衝」都是 ㄔㄨㄥ。\n- **5 秒判斷：** 先找確定同音的詞語，再逐一排除。\n- **易錯提醒：** 「炸子雞」讀 ㄓㄚˊ，「爆炸」讀 ㄓㄚˋ；「忖度」讀 ㄉㄨㄛˋ，「尺度」讀 ㄉㄨˋ。\n- **一眼記住：** 衝＝ㄔㄨㄥ／ㄔㄨㄥˋ；炸＝ㄓㄚˊ／ㄓㄚˋ；度＝ㄉㄨˋ／ㄉㄨㄛˋ。\n\n這題的 A 有明確字典依據，但 B 的措辭不夠嚴謹。訂正時建議同時標示這一點，避免把有歧義的讀法教成絕對錯誤。\n\n[83] assistant | message_id=88dae006-1aa8-438f-8680-bd7fafe10686 | create_time=1793800814.020472\n## 三、為什麼 B 容易選錯？\n\n題目中的 B 值得特別檢查：\n\n「快艇『劃』過湖面，在水面『劃』出一條雪白水線。」\n\n教育部《國語辭典簡編本》將「劃」分成兩種讀音：\n\n- **ㄏㄨㄚˊ**：擦掠、從表面經過。\n- **ㄏㄨㄚˋ**：區分、分界、規畫。<Cite refs={[\"turn148078search1\",\"turn148078search2\"]}/>\n\n第一個「劃過湖面」可讀 ㄏㄨㄚˊ。第二個「劃出一條雪白水線」，如果理解為快艇擦掠水面留下痕跡，也有理由讀 ㄏㄨㄚˊ。\n\n**因此，B 的語境有歧義，不能僅憑上述字典釋義就斷定兩字一定不同音。** 這是原題需要留意的命題問題。\n\n## 四、錯題最後總結\n\n- **參考答案：A**（與照片訂正一致）。\n- **關鍵線索：** 交通要衝、橫衝直撞，兩個「衝」都是 ㄔㄨㄥ。\n- **5 秒判斷：** 先找確定同音的詞語，再逐一排除。\n- **易錯提醒：** 「炸子雞」讀 ㄓㄚˊ，「爆炸」讀 ㄓㄚˋ；「忖度」讀 ㄉㄨㄛˋ，「尺度」讀 ㄉㄨˋ。\n- **一眼記住：** 衝＝ㄔㄨㄥ／ㄔㄨㄥˋ；炸＝ㄓㄚˊ／ㄓㄚˋ；度＝ㄉㄨˋ／ㄉㄨㄛˋ。\n\n這題的 A 有明確字典依據，但 B 的措辭不夠嚴謹。訂正時建議同時標示這一點，避免把有歧義的讀法教成絕對錯誤。\n\n[84] user | message_id=37dd82e0-3c28-4f18-b06c-8403b7542635 | create_time=1793800928.2128692\n[原始使用者圖片附件；見同訊息封存及取得報告]\n5@錯題\n\n[85] system | message_id=7d5361e6-0c15-44cd-9a42-1f8ab4dc7522 | create_time=1793800930.435031\n\n\n[86] assistant | message_id=34b0cf25-8187-4d89-9d44-e5e2fb2bab04 | create_time=1793800936.107418\n\n\n[87] tool | message_id=999ef743-f04b-42ba-be45-a11fdca581f8 | create_time=1793800936.230277\nThe output of this plugin was redacted.\n\n[88] tool | message_id=e315deb3-a8ba-41e8-88ef-3ad78a0ec1ed | create_time=1793800937.227698\nThe output of this plugin was redacted.\n\n[89] assistant | message_id=c7df0af8-4cb3-45eb-bcb0-f061a089af3e | create_time=1793800941.306239\n# 第 5 題｜國文錯題解析：疊字詞與語助詞\n\n<badge color=\"success\">正確答案：D「瘦巴巴」</badge>\n\n**考點：ABB 疊字詞 × 語助詞 × 字義辨析**\n\n從照片判讀，學生原選 **B「熱騰騰」**，老師以紅筆訂正為 **D「瘦巴巴」**。\n\n## 一、完整原題與選項\n\n**5.「直刺刺」一詞中的「刺刺」為補足形容詞的語助詞，本身沒有意義。下列疊字詞，何者也是這種無意義的助詞？**\n\n(A)「直挺挺」的站著\n\n(B)「熱騰騰」的飯菜\n\n(C)「黑漆漆」的天空\n\n(D)「瘦巴巴」的身材\n\n## 二、核心觀念：疊字不一定沒有意義\n\n題目要找的是：**後面兩個字主要用來補足形容詞的形式、加強語氣，而不是直接表達原本的字義。**\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <text color=\"secondary\" weight=\"medium\" size=\"xs\">ABB 疊字詞結構</text>\n  <row justify=\"center\" align=\"center\" gap={2}>\n    <box background=\"rgba(37,99,235,0.09)\" radius=\"lg\" padding={3} align=\"center\" flex=\"1\" gap={1}>\n      <title size=\"2xl\" color=\"info\">瘦</title>\n      <text size=\"xs\">主要意義</text>\n    </box>\n    <icon name=\"plus\" color=\"secondary\"/>\n    <box background=\"rgba(22,155,98,0.09)\" radius=\"lg\" padding={3} align=\"center\" flex=\"1\" gap={1}>\n      <title size=\"2xl\" color=\"success\">巴巴</title>\n      <text size=\"xs\">形容詞後綴</text>\n    </box>\n  </row>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    **瘦巴巴＝很瘦的樣子**\n  </row>\n  <text size=\"sm\" color=\"secondary\">「巴巴」在此主要起構詞、描摹狀態的作用，不是指嘴巴、貼附等字面意思。</text>\n</box>\n\n## 三、四個選項逐項解析\n\n| 選項 | 字詞解釋 | 判斷 |\n|---|---|---|\n| A 直挺挺 | 「挺」有挺直、直立的意義，強調身體直立 | <icon name=\"x\" color=\"danger\" inline/> |\n| B 熱騰騰 | 「騰」與熱氣升騰有關，形容熱氣蒸騰 | <icon name=\"x\" color=\"danger\" inline/> |\n| C 黑漆漆 | 「漆」與漆黑、黑色意象有關，形容十分黑暗 | <icon name=\"x\" color=\"danger\" inline/> |\n| **D 瘦巴巴** | 「巴巴」在此作為形容詞後綴，描寫瘦的樣子 | <icon name=\"check-circle\" color=\"success\" inline/> |\n\n教育部辭典收錄「直挺挺」為身體挺立得很直，「瘦巴巴」為很瘦的樣子，可作為本題詞義判斷的依據。<Cite refs={[\"turn710155search2\",\"turn710155search10\"]}/>\n\n**為什麼 B 不對？**\n\n「熱騰騰」中的「騰」仍可聯想到熱氣往上升的狀態，因此與題目所要求的純粹補足形容詞的後綴不完全相同。\n\n需要注意：這是依本題出題者所採用的構詞分析作答。「巴巴」在其他詞語中也可能具有意義，不能推論所有 ABB 詞語的後兩字都必然無義。<Cite ref=\"turn710155search1\"/>\n\n\n\n[93] assistant | message_id=0e2ac0f9-7fbe-4dbf-84a6-10db4e2da2fc | create_time=1793800941.346822\n# 第 5 題｜國文錯題解析：疊字詞與語助詞\n\n<badge color=\"success\">正確答案：D「瘦巴巴」</badge>\n\n**考點：ABB 疊字詞 × 語助詞 × 字義辨析**\n\n從照片判讀，學生原選 **B「熱騰騰」**，老師以紅筆訂正為 **D「瘦巴巴」**。\n\n## 一、完整原題與選項\n\n**5.「直刺刺」一詞中的「刺刺」為補足形容詞的語助詞，本身沒有意義。下列疊字詞，何者也是這種無意義的助詞？**\n\n(A)「直挺挺」的站著\n\n(B)「熱騰騰」的飯菜\n\n(C)「黑漆漆」的天空\n\n(D)「瘦巴巴」的身材\n\n## 二、核心觀念：疊字不一定沒有意義\n\n題目要找的是：**後面兩個字主要用來補足形容詞的形式、加強語氣，而不是直接表達原本的字義。**\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <text color=\"secondary\" weight=\"medium\" size=\"xs\">ABB 疊字詞結構</text>\n  <row justify=\"center\" align=\"center\" gap={2}>\n    <box background=\"rgba(37,99,235,0.09)\" radius=\"lg\" padding={3} align=\"center\" flex=\"1\" gap={1}>\n      <title size=\"2xl\" color=\"info\">瘦</title>\n      <text size=\"xs\">主要意義</text>\n    </box>\n    <icon name=\"plus\" color=\"secondary\"/>\n    <box background=\"rgba(22,155,98,0.09)\" radius=\"lg\" padding={3} align=\"center\" flex=\"1\" gap={1}>\n      <title size=\"2xl\" color=\"success\">巴巴</title>\n      <text size=\"xs\">形容詞後綴</text>\n    </box>\n  </row>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    **瘦巴巴＝很瘦的樣子**\n  </row>\n  <text size=\"sm\" color=\"secondary\">「巴巴」在此主要起構詞、描摹狀態的作用，不是指嘴巴、貼附等字面意思。</text>\n</box>\n\n## 三、四個選項逐項解析\n\n| 選項 | 字詞解釋 | 判斷 |\n|---|---|---|\n| A 直挺挺 | 「挺」有挺直、直立的意義，強調身體直立 | <icon name=\"x\" color=\"danger\" inline/> |\n| B 熱騰騰 | 「騰」與熱氣升騰有關，形容熱氣蒸騰 | <icon name=\"x\" color=\"danger\" inline/> |\n| C 黑漆漆 | 「漆」與漆黑、黑色意象有關，形容十分黑暗 | <icon name=\"x\" color=\"danger\" inline/> |\n| **D 瘦巴巴** | 「巴巴」在此作為形容詞後綴，描寫瘦的樣子 | <icon name=\"check-circle\" color=\"success\" inline/> |\n\n教育部辭典收錄「直挺挺」為身體挺立得很直，「瘦巴巴」為很瘦的樣子，可作為本題詞義判斷的依據。<Cite refs={[\"turn710155search2\",\"turn710155search10\"]}/>\n\n**為什麼 B 不對？**\n\n「熱騰騰」中的「騰」仍可聯想到熱氣往上升的狀態，因此與題目所要求的純粹補足形容詞的後綴不完全相同。\n\n需要注意：這是依本題出題者所採用的構詞分析作答。「巴巴」在其他詞語中也可能具有意義，不能推論所有 ABB 詞語的後兩字都必然無義。<Cite ref=\"turn710155search1\"/>\n\n## 四、錯題最後總結\n\n- **答案：D 瘦巴巴**\n- **關鍵線索：** 「刺刺」是補足形容詞的語助詞，要找功能相近的後綴。\n- **5 秒判斷：** 比較 ABB 後兩字是否仍有明確的字面意義。\n- **易錯提醒：** 「熱騰騰」的「騰」與熱氣升騰有關，不是本題最佳答案。\n- **一眼記住：** 瘦＋巴巴 → 後綴補足描寫，形容很瘦的樣子。\n\n本題最值得練習的是：**不能只看到 ABB 疊字格式就選答案，還必須分析後兩字在詞語中的作用。**\n\n[94] assistant | message_id=ffde878f-1493-4e3b-b43d-e4b1fcb84c9e | create_time=1793800959.767876\n## 四、錯題最後總結\n\n- **答案：D 瘦巴巴**\n- **關鍵線索：** 「刺刺」是補足形容詞的語助詞，要找功能相近的後綴。\n- **5 秒判斷：** 比較 ABB 後兩字是否仍有明確的字面意義。\n- **易錯提醒：** 「熱騰騰」的「騰」與熱氣升騰有關，不是本題最佳答案。\n- **一眼記住：** 瘦＋巴巴 → 後綴補足描寫，形容很瘦的樣子。\n\n本題最值得練習的是：**不能只看到 ABB 疊字格式就選答案，還必須分析後兩字在詞語中的作用。**\n\n[95] user | message_id=1e46363d-1ee3-4eb1-8779-d84e66e558cb | create_time=1793801014.165574\n[原始使用者圖片附件；見同訊息封存及取得報告]\n9@錯題\n\n[96] system | message_id=3fe82c2d-bc2e-4dbf-87a1-8b25de709b8a | create_time=1793801016.764997\n\n\n[97] assistant | message_id=7717567f-33bd-4bb8-b0a2-840442e63cb9 | create_time=1793801021.130458\n# 第 9 題｜國文錯題解析：海洋文學\n\n<badge color=\"success\">正確答案：C</badge>\n\n**考點：海洋文學 × 文學特色 × 選項辨析**\n\n從照片判讀，學生原選 **A**，老師以紅筆訂正為 **C**。\n\n## 一、完整原題與選項\n\n**9. 關於「海洋文學」的說明，下列敘述何者正確？**\n\n(A) 起源於描繪近海地區人民的生活寫照與拚搏的精神。\n\n(B) 寫作者大多是漁夫或是從事海洋生態研究的學者。\n\n(C) 此類作品經常藉由人與海洋的互動傳達關懷生態的情感。\n\n(D) 此類作品偏重客觀的報導與生態的研究，少有抒情作品。\n\n## 二、關鍵觀念：什麼是海洋文學？\n\n**海洋文學**是以海洋及人與海洋的關係為重要題材的文學創作。\n\n它可以描述海洋生活、航海冒險、漁民文化、自然生態，也能表達作者對海洋的感受與反思。\n\n因此不能把海洋文學限制成只有「漁民生活」或「海洋生態研究」。\n\n\n\n[98] assistant | message_id=8d45c7dc-3c7c-405a-9e72-8e5e4b4c29bf | create_time=1793801026.917698\n\n\n[99] tool | message_id=565c97ff-e89e-464c-af22-837a2de3dc1f | create_time=1793801027.035726\nThe output of this plugin was redacted.\n\n[100] tool | message_id=7598875f-7a8a-43e9-9653-f354063ede3e | create_time=1793801027.836855\nThe output of this plugin was redacted.\n\n[101] assistant | message_id=992d9c2f-e82d-4b5d-91a1-70cd6a5178eb | create_time=1793801032.307168\n## 三、逐項選項解析\n\n| 選項 | 判斷 | 解析 |\n|---|---|---|\n| A | <icon name=\"x-circle\" color=\"danger\" inline/> | 描寫沿海居民生活與奮鬥精神，確實可以是海洋文學的內容，但不能說海洋文學一定「起源於」此。 |\n| B | <icon name=\"x-circle\" color=\"danger\" inline/> | 作者不限定漁夫或海洋研究學者，作家、詩人等也能創作海洋文學。 |\n| **C** | <icon name=\"check-circle\" color=\"success\" inline/> | 人與海洋互動、海洋生態觀察，以及對自然環境的關懷，都是海洋文學的重要題材。 |\n| D | <icon name=\"x-circle\" color=\"danger\" inline/> | 海洋文學不只有客觀報導與科學研究，也包含小說、散文、詩歌等具有抒情性的作品。 |\n\n這個判斷與教育部對海洋文學的定義，以及海洋文學教育研究中對海洋精神、人海互動的說明一致。<Cite refs={[\"turn201914search0\",\"turn201914search23\",\"turn201914search25\"]}/>\n\n## 四、精準圖解：海洋文學的四大題材\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <box align=\"center\" gap={1}>\n    <icon name=\"waves\" color=\"info\" size=\"2xl\"/>\n    <title size=\"lg\">海洋文學</title>\n    <text color=\"secondary\" size=\"xs\">以海洋為背景、題材或重要精神內涵</text>\n  </box>\n  <grid columns={2} gap={2}>\n    {#each [{icon:\"ship\",title:\"海洋生活\",desc:\"航海、漁撈、海上冒險\"},{icon:\"fish\",title:\"生態觀察\",desc:\"鯨豚、魚類、海洋環境\"},{icon:\"heart\",title:\"情感反思\",desc:\"敬畏海洋、生命感悟\"},{icon:\"leaf\",title:\"生態關懷\",desc:\"環境保護、人海共生\"}] as item}\n      <grid-item>\n        <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n          <icon name={item.icon} color=\"secondary\" size=\"lg\"/>\n          **{item.title}**\n          <text size=\"xs\" color=\"secondary\" textAlign=\"center\">{item.desc}</text>\n        </box>\n      </grid-item>\n    {/each}\n  </grid>\n  <text size=\"sm\" textAlign=\"center\" weight=\"medium\" color=\"success\">海洋文學＝海洋題材＋文學表現，不限作者身分，也不限單一主題。</text>\n</box>\n\n## 五、延伸：國中應認識的海洋文學作品\n\n<row align=\"start\" gap={3}>\n  <AsyncImage query=\"老人與海 Ernest Hemingway The Old Man and the Sea book cover\" aspectRatio=\"3:4\" maxWidth=\"108px\"/>\n  <box flex=\"1\" gap={1}>\n    **<Entity category=\"book\" value=\"老人與海\" disambig=\"海明威小說\"/>｜海明威**\n\n    描寫老人與大魚搏鬥的歷程，呈現人與自然的關係、生命韌性和不屈精神。\n  </box>\n</row>\n<row align=\"start\" gap={3}>\n  <AsyncImage query=\"廖鴻基 鯨生鯨世 書籍封面\" aspectRatio=\"3:4\" maxWidth=\"108px\"/>\n  <box flex=\"1\" gap={1}>\n    **<Entity category=\"book\" value=\"鯨生鯨世\" disambig=\"廖鴻基海洋文學作品\"/>｜廖鴻基**\n\n    透過鯨豚觀察、海上經驗及人與海洋生物的互動，傳達對海洋生命的關懷。\n  </box>\n</row>\n\n\n\n[104] assistant | message_id=7f0486ef-3dfa-4303-a485-07eff3126080 | create_time=1793801021.151428\n# 第 9 題｜國文錯題解析：海洋文學\n\n<badge color=\"success\">正確答案：C</badge>\n\n**考點：海洋文學 × 文學特色 × 選項辨析**\n\n從照片判讀，學生原選 **A**，老師以紅筆訂正為 **C**。\n\n## 一、完整原題與選項\n\n**9. 關於「海洋文學」的說明，下列敘述何者正確？**\n\n(A) 起源於描繪近海地區人民的生活寫照與拚搏的精神。\n\n(B) 寫作者大多是漁夫或是從事海洋生態研究的學者。\n\n(C) 此類作品經常藉由人與海洋的互動傳達關懷生態的情感。\n\n(D) 此類作品偏重客觀的報導與生態的研究，少有抒情作品。\n\n## 二、關鍵觀念：什麼是海洋文學？\n\n**海洋文學**是以海洋及人與海洋的關係為重要題材的文學創作。\n\n它可以描述海洋生活、航海冒險、漁民文化、自然生態，也能表達作者對海洋的感受與反思。\n\n因此不能把海洋文學限制成只有「漁民生活」或「海洋生態研究」。\n\n## 三、逐項選項解析\n\n| 選項 | 判斷 | 解析 |\n|---|---|---|\n| A | <icon name=\"x-circle\" color=\"danger\" inline/> | 描寫沿海居民生活與奮鬥精神，確實可以是海洋文學的內容，但不能說海洋文學一定「起源於」此。 |\n| B | <icon name=\"x-circle\" color=\"danger\" inline/> | 作者不限定漁夫或海洋研究學者，作家、詩人等也能創作海洋文學。 |\n| **C** | <icon name=\"check-circle\" color=\"success\" inline/> | 人與海洋互動、海洋生態觀察，以及對自然環境的關懷，都是海洋文學的重要題材。 |\n| D | <icon name=\"x-circle\" color=\"danger\" inline/> | 海洋文學不只有客觀報導與科學研究，也包含小說、散文、詩歌等具有抒情性的作品。 |\n\n這個判斷與教育部對海洋文學的定義，以及海洋文學教育研究中對海洋精神、人海互動的說明一致。<Cite refs={[\"turn201914search0\",\"turn201914search23\",\"turn201914search25\"]}/>\n\n## 四、精準圖解：海洋文學的四大題材\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <box align=\"center\" gap={1}>\n    <icon name=\"waves\" color=\"info\" size=\"2xl\"/>\n    <title size=\"lg\">海洋文學</title>\n    <text color=\"secondary\" size=\"xs\">以海洋為背景、題材或重要精神內涵</text>\n  </box>\n  <grid columns={2} gap={2}>\n    {#each [{icon:\"ship\",title:\"海洋生活\",desc:\"航海、漁撈、海上冒險\"},{icon:\"fish\",title:\"生態觀察\",desc:\"鯨豚、魚類、海洋環境\"},{icon:\"heart\",title:\"情感反思\",desc:\"敬畏海洋、生命感悟\"},{icon:\"leaf\",title:\"生態關懷\",desc:\"環境保護、人海共生\"}] as item}\n      <grid-item>\n        <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n          <icon name={item.icon} color=\"secondary\" size=\"lg\"/>\n          **{item.title}**\n          <text size=\"xs\" color=\"secondary\" textAlign=\"center\">{item.desc}</text>\n        </box>\n      </grid-item>\n    {/each}\n  </grid>\n  <text size=\"sm\" textAlign=\"center\" weight=\"medium\" color=\"success\">海洋文學＝海洋題材＋文學表現，不限作者身分，也不限單一主題。</text>\n</box>\n\n## 五、延伸：國中應認識的海洋文學作品\n\n<row align=\"start\" gap={3}>\n  <AsyncImage query=\"老人與海 Ernest Hemingway The Old Man and the Sea book cover\" aspectRatio=\"3:4\" maxWidth=\"108px\"/>\n  <box flex=\"1\" gap={1}>\n    **<Entity category=\"book\" value=\"老人與海\" disambig=\"海明威小說\"/>｜海明威**\n\n    描寫老人與大魚搏鬥的歷程，呈現人與自然的關係、生命韌性和不屈精神。\n  </box>\n</row>\n<row align=\"start\" gap={3}>\n  <AsyncImage query=\"廖鴻基 鯨生鯨世 書籍封面\" aspectRatio=\"3:4\" maxWidth=\"108px\"/>\n  <box flex=\"1\" gap={1}>\n    **<Entity category=\"book\" value=\"鯨生鯨世\" disambig=\"廖鴻基海洋文學作品\"/>｜廖鴻基**\n\n    透過鯨豚觀察、海上經驗及人與海洋生物的互動，傳達對海洋生命的關懷。\n  </box>\n</row>\n\n## 六、錯題最後總結\n\n<box gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"check-circle\" color=\"success\"/>\n    **答案：C**\n  </row>\n  **關鍵線索：** 人與海洋的互動、生態關懷。\n\n  **5 秒判斷：** 海洋文學不只寫海洋景色，也能表現人海關係與生命情感。\n\n  **易錯提醒：** A 的「描寫沿海居民生活」本身沒有錯，錯在將這項題材說成海洋文學的固定起源。\n\n  **一眼記住：** 海洋文學題材多元，兼具海洋經驗、人文情感與生態關懷。\n</box>\n\n**這題的主要學習重點是避免把「部分特色」誤認為「全部定義」。** 尤其遇到「起源於」「大多是」「少有」等帶有範圍限制的敘述，要確認是否有充分依據，不能只憑某個詞語看起來合理就選擇。\n\n[105] assistant | message_id=1f2067fa-2ebe-4367-9fa1-6f2cd113a350 | create_time=1793801048.287924\n## 六、錯題最後總結\n\n<box gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"check-circle\" color=\"success\"/>\n    **答案：C**\n  </row>\n  **關鍵線索：** 人與海洋的互動、生態關懷。\n\n  **5 秒判斷：** 海洋文學不只寫海洋景色，也能表現人海關係與生命情感。\n\n  **易錯提醒：** A 的「描寫沿海居民生活」本身沒有錯，錯在將這項題材說成海洋文學的固定起源。\n\n  **一眼記住：** 海洋文學題材多元，兼具海洋經驗、人文情感與生態關懷。\n</box>\n\n**這題的主要學習重點是避免把「部分特色」誤認為「全部定義」。** 尤其遇到「起源於」「大多是」「少有」等帶有範圍限制的敘述，要確認是否有充分依據，不能只憑某個詞語看起來合理就選擇。\n\n[106] user | message_id=f3f4579d-4a8b-4abd-ac91-0847c35a000d | create_time=1793801136.264485\n[原始使用者圖片附件；見同訊息封存及取得報告]\n10@錯題\n\n[107] system | message_id=5a43b7c5-7509-4c2b-93bd-1f9b54257d88 | create_time=1793801138.474722\n\n\n[108] assistant | message_id=922e7f8d-67c3-4c83-afd6-ba8a1bdabe1d | create_time=1793801142.966303\n\n\n[109] tool | message_id=1fefe414-2a88-4705-ae8a-ce40a180a9ca | create_time=1793801143.10068\nThe output of this plugin was redacted.\n\n[110] tool | message_id=e20052dd-8622-4c4f-9568-e29bc0c56688 | create_time=1793801143.772125\nThe output of this plugin was redacted.\n\n[113] assistant | message_id=66192876-d777-4df3-b2f7-27385eac49b3 | create_time=1793801147.088968\n# 第 10 題｜國文錯題解析：海的歇後語\n\n<badge color=\"success\">正確答案：A</badge>\n\n**考點：歇後語 × 諧音與比喻 × 語境判斷**\n\n從照片判讀，學生原選 **B**，老師以紅筆訂正為 **A**。\n\n## 一、完整原題與選項\n\n**10. 下列文句皆運用關於「海」的歇後語，何者正確？**\n\n(A) 我只要行得正，縱任他有「太平洋搬家」的本事，又奈我何。\n\n(B) 跟忘恩負義的人講道理，簡直就是「望遠鏡照太平洋」，白費力氣。\n\n(C) 我已是「大海裡撈針」，自身難保了，哪有餘力幫你。\n\n(D) 他會處理自己的事，你就別「大海裡蕩舟」，多管閒事了。\n\n## 二、先理解什麼是「歇後語」\n\n歇後語通常由兩部分構成：\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">前半句｜比喻情境</text>\n        **太平洋搬家**\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"rgba(22,155,98,0.08)\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n        <text color=\"success\" size=\"xs\">後半句｜真正意思</text>\n        **翻江倒海**\n      </box>\n    </grid-item>\n  </grid>\n  <text textAlign=\"center\" size=\"sm\">想像把整個太平洋搬動，必然掀起滔天巨浪，形成翻江倒海之勢。</text>\n</box>\n\n## 三、四個選項逐項解析\n\n| 選項 | 歇後語及真正意思 | 判斷 |\n|---|---|---|\n| **A** | 太平洋搬家 → **翻江倒海**，形容力量或動靜巨大 | <icon name=\"check-circle\" color=\"success\" inline/> |\n| B | 望遠鏡照太平洋 → **一望無涯**，形容遼闊無邊 | <icon name=\"x-circle\" color=\"danger\" inline/> |\n| C | 大海裡撈針 → **難上難**，形容事物難找或事情難以完成 | <icon name=\"x-circle\" color=\"danger\" inline/> |\n| D | 大海裡蕩舟 → **划不來**，利用「划」與「划算」的諧音關係，表示不值得 | <icon name=\"x-circle\" color=\"danger\" inline/> |\n\n以上歇後語可見於相關歇後語資料；其中「大海裡撈針」也有教育部官方辭典釋義。<Cite refs={[\"turn953864search1\",\"turn953864search5\",\"turn953864search0\"]}/>\n\n### 為什麼 A 正確？\n\n「我只要行得正，縱任他有『太平洋搬家』的本事，又奈我何。」\n\n意思是：只要自己行為端正，即使別人有翻江倒海的本事，也不能拿我怎麼樣。\n\n這裡強調的是**對方即使有強大的力量，也無法動搖自己**，語意合理。\n\n### 為什麼 B 容易誤選？\n\n「跟忘恩負義的人講道理，簡直就是『望遠鏡照太平洋』，白費力氣。」\n\n這句話後面的「白費力氣」很容易讓人誤以為歇後語的意思也是白費工夫。\n\n但「望遠鏡照太平洋」的典型後半句其實是「一望無涯」。\n\n因此，**不能只看整句話是否通順，而要先確認歇後語的固定意思。**\n\n## 四、視覺化記憶：四種海洋情境\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cartoon ocean enormous waves and storm churning sea dramatic colorful educational illustration no text\" aspectRatio=\"5:4\" maxWidth=\"116px\"/>\n    <box flex=\"1\" gap={1}>\n      **太平洋搬家 → 翻江倒海**\n\n      <text size=\"sm\">想像海水整個被搬動，掀起巨大波浪。</text>\n      <text color=\"success\" size=\"sm\" weight=\"medium\">本題 A 正確</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute educational cartoon person using telescope looking at endless vast ocean horizon no text\" aspectRatio=\"5:4\" maxWidth=\"116px\"/>\n    <box flex=\"1\" gap={1}>\n      **望遠鏡照太平洋 → 一望無涯**\n\n      <text size=\"sm\">用望遠鏡看海，只看到沒有盡頭的海面。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute educational cartoon tiny sewing needle lost in enormous blue ocean water impossible search no text\" aspectRatio=\"5:4\" maxWidth=\"116px\"/>\n    <box flex=\"1\" gap={1}>\n      **大海裡撈針 → 難上難**\n\n      <text size=\"sm\">一根小針掉進大海，非常難找。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"cute educational cartoon small wooden rowboat person rowing alone in huge sea struggling with waves no text\" aspectRatio=\"5:4\" maxWidth=\"116px\"/>\n    <box flex=\"1\" gap={1}>\n      **大海裡蕩舟 → 划不來**\n\n      <text size=\"sm\">船在大海上難以靠划槳回來，利用諧音表示不划算。</text>\n    </box>\n  </row>\n</box>\n\n## 五、錯題最後總結\n\n<box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"check-circle\" color=\"success\"/>\n    **答案：A 太平洋搬家**\n  </row>\n  **關鍵線索：** 翻江倒海，表示力量或動靜巨大。\n\n  **5 秒判斷：** 先想出歇後語的後半句，再放回原句檢查是否通順。\n\n  **可能陷阱：** 將「望遠鏡照太平洋」誤解為白費力氣；目前只有選項紀錄，不能據此斷定學生的實際思考過程。\n\n  **一眼記住：** 太平洋搬家＝翻江倒海；望遠鏡照太平洋＝一望無涯。\n</box>\n\n## 六、會考互動練習\n\n{@body const [ans,setAns] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  **「大海裡撈針」最適合用在哪個情境？**\n  <radio-group direction=\"col\" value={ans} onChange={setAns}>\n    <radio value=\"A\">A. 他被敵人包圍，已經自身難保。</radio>\n    <radio value=\"B\">B. 要在數萬份無標記文件中找出一張收據，實在非常困難。</radio>\n    <radio value=\"C\">C. 大海風浪很大，船隻不停搖晃。</radio>\n  </radio-group>\n  {#if ans}\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={1}>\n      <text weight=\"medium\" color={ans===\"B\"?\"success\":\"danger\"}><icon name={ans===\"B\"?\"check-circle\":\"info\"} inline/> {ans===\"B\"?\"答對了！\":\"正確答案是 B。\"}</text>\n      大海裡撈針比喻東西難找，或事情極難完成，而非指自身處境危險。\n    </box>\n  {/if}\n</box>\n\n[114] user | message_id=59c0bb84-ca09-43a7-8e3b-0558f2cf3ad5 | create_time=1793801228.387535\n[原始使用者圖片附件；見同訊息封存及取得報告]\n29@錯題\n\n[115] system | message_id=0c347222-2c00-4eed-ac19-c3d3e795d687 | create_time=1793801230.570323\n\n\n[117] assistant | message_id=25fdf0e4-b0e4-458d-95fa-577d7b62b090 | create_time=1793801236.307449\n# 第 29 題｜國文錯題解析：廖鴻基的海洋哲學\n\n<badge color=\"success\">正確答案：C</badge> <badge>文意理解</badge>\n\n**考點：引文理解 × 作者感悟 × 大自然與生命的關係**\n\n從照片判讀，學生原選 **B**，老師以紅筆訂正為 **C**。\n\n## 一、完整原題與選項\n\n廖鴻基：「如果要說海洋教給了我什麼，那應該是它的多變，和容納一切的力量。和海洋相比，人的生命實在太渺小了，接觸這麼龐大的生命體，人的心也自然會被撐大、拓寬。」\n\n這句話的意旨，與下列何者最接近？\n\n(A) 投身海洋事業，錢財自然滾滾來\n\n(B) 執筆寫下海洋文學，心境更開闊\n\n(C) 向大自然的特質學習，更懂包容\n\n(D) 一山還有一山高，不要比較猜忌\n\n## 二、逐句拆解：作者究竟想表達什麼？\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <list marker=\"number\" connector=\"solid\" gap={3}>\n    <list-item>\n      **「海洋教給了我什麼……它的多變，和容納一切的力量。」**\n\n      海洋不斷變化，卻又能容納各種生命和事物。\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">關鍵：從海洋學習包容。</text>\n    </list-item>\n    <list-item>\n      **「和海洋相比，人的生命實在太渺小了。」**\n\n      面對廣闊的大海，作者體會到人類的有限與渺小。\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">關鍵：謙卑地看待自己。</text>\n    </list-item>\n    <list-item>\n      **「接觸這麼龐大的生命體，人的心也自然會被撐大、拓寬。」**\n\n      這裡的「心被撐大」不是身體變化，而是比喻心胸變得寬廣，更能理解、接納不同事物。\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">關鍵：心胸開闊、懂得包容。</text>\n    </list-item>\n  </list>\n</box>\n\n## 三、視覺化理解：從海洋到人生態度\n\n<AsyncImage query=\"beautiful watercolor educational illustration expansive blue sea peaceful horizon tiny person standing on shore contemplating vast ocean sunlight clouds and gentle sea creatures conveying humility openness acceptance no text\" aspectRatio=\"3:2\"/>\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    <icon name=\"waves\" color=\"info\" size=\"xl\"/>\n    **海洋廣闊、多變、容納萬物**\n  </box>\n  <box align=\"center\" gap={1}>\n    <icon name=\"arrow-down\" color=\"secondary\" size=\"lg\"/>\n    <text size=\"sm\">觀察自然、體悟生命</text>\n  </box>\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    <icon name=\"heart\" color=\"success\" size=\"xl\"/>\n    **學習謙卑、拓寬心胸**\n  </box>\n  <box align=\"center\" gap={1}>\n    <icon name=\"arrow-down\" color=\"secondary\" size=\"lg\"/>\n  </box>\n  <box background=\"rgba(22,155,98,0.08)\" border={{size:1,color:\"success\"}} radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    <title size=\"lg\" color=\"success\">C 向大自然的特質學習，更懂包容</title>\n  </box>\n</box>\n\n## 四、四個選項逐項解析\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A 投身海洋事業，錢財自然滾滾來 | <icon name=\"x\" color=\"danger\" inline/> | 原文談生命體悟，沒有提到賺錢。 |\n| B 執筆寫下海洋文學，心境更開闊 | <icon name=\"x\" color=\"danger\" inline/> | 「心境更開闊」符合部分文意，但沒有說是因為寫作。 |\n| **C 向大自然的特質學習，更懂包容** | <icon name=\"check-circle\" color=\"success\" inline/> | 完整對應海洋的包容力量，以及作者從中獲得的體悟。 |\n| D 一山還有一山高，不要比較猜忌 | <icon name=\"x\" color=\"danger\" inline/> | 原文強調謙卑與包容，並非與他人比較高下或猜忌。 |\n\n### 為什麼 B 容易誤選？\n\nB 有兩個容易讓人覺得合理的部分：\n\n- 廖鴻基是海洋文學作家。\n- 原文確實提到「人的心……被撐大、拓寬」。\n\n但問題出在 **「執筆寫下海洋文學」**。\n\n作者說的是「接觸海洋，讓心胸變開闊」，不是「寫海洋文學，讓心胸變開闊」。\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text color=\"secondary\" weight=\"medium\" size=\"xs\">關鍵因果比較</text>\n  <row align=\"center\" gap={2}>\n    <icon name=\"x-circle\" color=\"danger\"/>\n    <text size=\"sm\">B：寫作海洋文學 → 心胸開闊（原文未提）</text>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={2}>\n    <icon name=\"check-circle\" color=\"success\"/>\n    <text size=\"sm\" weight=\"medium\">C：感受海洋的特質 → 學習包容（符合原文）</text>\n  </row>\n</box>\n\n這題的可能陷阱是**把作者的背景知識，誤當成文章實際表達的因果關係**。只有作答選項，尚不能確定學生當時是否如此思考。\n\n## 五、錯題最後總結\n\n<box gap={2}>\n  **答案：C 向大自然的特質學習，更懂包容。**\n\n  **關鍵線索：** 「容納一切的力量」「人的心也自然會被撐大、拓寬」。\n\n  **5 秒判斷：** 海洋的包容 → 啟發人類 → 心胸開闊。\n\n  **易錯提醒：** 不要把文章沒有提到的「寫作」加進原文因果關係。\n\n  **一眼記住：** <text color=\"success\" weight=\"medium\" inline>海洋有多寬廣，心胸就能學得多寬廣。</text>\n</box>\n\n## 六、會考互動小測驗\n\n{@body const [v,setV] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={2}>\n  **閱讀題：「登高望遠，使人深感自身渺小，也明白天地之廣大。」作者最可能體會到什麼？**\n  <radio-group direction=\"col\" value={v} onChange={setV}>\n    <radio value=\"A\">A. 登山可以增進體力</radio>\n    <radio value=\"B\">B. 面對自然應保持謙卑</radio>\n    <radio value=\"C\">C. 站得高才能勝過別人</radio>\n  </radio-group>\n  {#if v}\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={1}>\n      <text color={v===\"B\"?\"success\":\"danger\"} weight=\"medium\">{v===\"B\"?\"答對了！\":\"正確答案是 B。\"}</text>\n      由「自身渺小」及「天地廣大」，推論作者體悟到面對自然應保持謙卑，而不是競爭或體能訓練。\n    </box>\n  {/if}\n</box>\n\n[118] user | message_id=8ffc2439-9aca-4b11-859f-af042bf46a5e | create_time=1793801312.446992\n[原始使用者圖片附件；見同訊息封存及取得報告]\n1、2@錯題\n\n[119] system | message_id=46c5fec8-2dc9-4e61-946d-24d78a229c6d | create_time=1793801314.950695\n\n\n[120] assistant | message_id=797c3300-47f0-4e7e-87d4-c5db73c1e9e4 | create_time=1793801318.479439\n我會先核對《採珠行》的原詩、註解及兩題的選項，再分別解析。這兩題的重點是分清楚「詩中直接描述的事實」與「可以從詩意推論的現象」。\n\n[122] tool | message_id=bf64fd95-e335-4107-97e3-2d45a751c677 | create_time=1793801335.272174\nThe output of this plugin was redacted.\n\n[123] tool | message_id=8bf59282-a084-4fc1-aa5a-b581d9abd5b8 | create_time=1793801342.94235\nThe output of this plugin was redacted.\n\n[125] assistant | message_id=ecf3223f-890f-4441-9e4c-9900bbf1fcf0 | create_time=1793801350.683187\n\n\n[126] tool | message_id=6cfce0be-b5d6-4b75-9f62-0ce8e17f4447 | create_time=1793801350.729902\nThe output of this plugin was redacted.\n\n[127] tool | message_id=4a338fe6-6b4f-4715-9821-01a90b21af6e | create_time=1793801351.448947\nThe output of this plugin was redacted.\n\n[128] assistant | message_id=bbd9a754-4579-4b13-88d0-98e9b213302b | create_time=1793801361.289807\n# 《採珠行》｜第 1、2 題錯題解析\n\n<badge color=\"success\">第 1 題：B</badge>　<badge color=\"success\">第 2 題：D</badge>\n\n**科目：國文｜文言詩閱讀理解**\n\n這組題目出自唐代元稹的《採珠行》，核心是透過採珠人的生命危險，以及人類對珍珠的索取，反思貪欲、生命與自然的關係。\n\n照片中的第 1 題藍筆選 B，與詩意判斷一致；第 2 題藍筆選 C，紅筆訂正應為 D。\n\n## 一、原詩與逐句白話翻譯\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <row align=\"center\" justify=\"between\">\n    **《採珠行》｜唐・元稹**\n    <badge>文言文必讀</badge>\n  </row>\n  <text color=\"secondary\" size=\"xs\">依照片所載詩文，並對照《全唐詩》核對。<Cite ref=\"turn431323search1\"/></text>\n  {#each [\n    [\"海波無底珠沉海，採珠之人判死採。\",\"海水深不可測，珍珠沉在海底，採珠的人必須冒著生命危險才能採取。\"],\n    [\"萬人判死一得珠，斛量買婢人何在。\",\"許多人冒死採珠，才可能得到珍珠；那些曾大量使用珍珠購買婢女的人，如今又在哪裡呢？\"],\n    [\"年年採珠珠避人，今年採珠由海神。\",\"人們年年採珠，珍珠彷彿都躲避人類；今年則由海神來採珠。\"],\n    [\"海神採珠珠盡死，死盡明珠空海水。\",\"海神採珠，連珍珠也全都消失了；珍珠消失殆盡，只剩下空蕩蕩的海水。\"],\n    [\"珠為海物海屬神，神今自採何況人。\",\"珍珠原本就是海中的產物，海洋又歸海神掌管；如今連海神都親自採取，何況是人類呢？\"]\n  ] as pair,i}\n    <box gap={1}>\n      <text color=\"secondary\" weight=\"medium\" size=\"xs\">第 {i+1} 組</text>\n      **{pair[0]}**\n      <text size=\"sm\">{pair[1]}</text>\n    </box>\n    {#if i<4}<divider color=\"subtle\"/>{/if}\n  {/each}\n</box>\n\n**關鍵字詞：**「判死」是拚死、冒死；「斛」是古代容量單位；「婢」指婢女。「海神採珠」則帶有想像與諷喻意味，不應當作實際發生的事件。\n\n## 二、全詩的思考脈絡\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"waves\" color=\"info\" size=\"lg\"/>\n    **海底採珠極為危險**\n\n    <text size=\"sm\">採珠人冒著生命危險取得珍珠</text>\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"gem\" color=\"secondary\" size=\"lg\"/>\n    **珍珠被視為奢侈財物**\n\n    <text size=\"sm\">富貴者以大量珍珠換取婢女</text>\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"fish\" color=\"info\" size=\"lg\"/>\n    **連海神採珠，也使珍珠消失殆盡**\n\n    <text size=\"sm\">想像自然資源遭到過度索取的結果</text>\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"rgba(22,155,98,0.07)\" border={{size:1,color:\"success\"}} padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"leaf\" color=\"success\" size=\"lg\"/>\n    **反思人類貪欲與自然資源的關係**\n\n    <text color=\"success\" weight=\"medium\" size=\"sm\">兼具生命關懷與自然環境反思</text>\n  </box>\n</box>\n\n\n\n[129] assistant | message_id=53a0e868-c910-4f43-944b-1262285c0a5e | create_time=1793801381.240915\n---\n\n## 第 1 題｜判斷詩歌主旨\n\n**原題：有關本詩的主旨，下列敘述何者正確？**\n\n(A) 譴責人們與神明爭採珍珠\n\n(B) 呼籲重視海洋生態的平衡\n\n(C) 呼籲從事捕獵應重視安全\n\n(D) 撻伐買婢的行為忽視人權\n\n<badge color=\"success\">答案：B</badge>\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A | <icon name=\"x\" color=\"danger\" inline/> | 海神是詩中的想像與諷喻手法，不是單純責備人類與神明競爭。 |\n| **B** | <icon name=\"check-circle\" color=\"success\" inline/> | 詩末以珍珠消失、海水空蕩的景象，呼應人類應反思索取自然資源的行為。 |\n| C | <icon name=\"x\" color=\"danger\" inline/> | 採珠確實危險，但詩意並不只是在提醒作業安全。 |\n| D | <icon name=\"x\" color=\"danger\" inline/> | 買婢是詩中批判奢侈、反映社會不公的材料，不是全文唯一主旨。 |\n\n**判斷關鍵：**「海神採珠珠盡死，死盡明珠空海水。」\n\n這兩句描繪珍珠被取盡的景象。四個選項中，B 最能概括詩末對海洋資源與人類行為的反思。\n\n不過，**本詩不只有環境保護的意涵**，也明顯同情冒死採珠的勞動者、批判富貴者的奢侈。B 是本題的最佳選項，不代表其他層面的詩意不存在。\n\n## 第 2 題｜「斛量買婢」的文意推斷\n\n**原題：從詩意推斷，「斛量買婢」指的是下列何現象？**\n\n(A) 海邊萬人空巷，珍珠被一斛一斛採走\n\n(B) 大家都跑去採珍珠，導致無人買賣婢女\n\n(C) 富人揮霍珍珠後，只好賣掉婢女來償債\n\n(D) 珍珠被採盡之前，富人揮霍珍珠的情景\n\n<badge color=\"success\">答案：D</badge>\n\n### 先破解「斛量買婢」\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <grid columns={3} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} align=\"center\" gap={1}>\n        <icon name=\"scale\" color=\"secondary\" size=\"lg\"/>\n        **斛量**\n        <text size=\"xs\" textAlign=\"center\">以古代容量單位計量，強調數量多</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} align=\"center\" gap={1}>\n        <icon name=\"gem\" color=\"secondary\" size=\"lg\"/>\n        **珍珠**\n        <text size=\"xs\" textAlign=\"center\">價值昂貴的財物</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} align=\"center\" gap={1}>\n        <icon name=\"coins\" color=\"secondary\" size=\"lg\"/>\n        **買婢**\n        <text size=\"xs\" textAlign=\"center\">購買婢女的行為</text>\n      </box>\n    </grid-item>\n  </grid>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <text weight=\"medium\" color=\"success\" textAlign=\"center\">以大量珍珠購買婢女，呈現富貴者奢侈耗費財物的情況。</text>\n</box>\n\n### 逐項排除\n\n| 選項 | 判斷 | 解析 |\n|---|---|---|\n| A | <icon name=\"x\" color=\"danger\" inline/> | 「斛量」不是指一斛一斛地採珠，也沒有萬人空巷的描述。 |\n| B | <icon name=\"x\" color=\"danger\" inline/> | 詩中沒有說因採珠而導致婢女無人買賣。 |\n| C | <icon name=\"x\" color=\"danger\" inline/> | 把「買婢」誤解成「賣掉婢女」，也自行加上償債情節。 |\n| **D** | <icon name=\"check-circle\" color=\"success\" inline/> | 符合富貴者以大量珍珠奢侈消費的情境。 |\n\n### 為什麼 C 容易誤選？\n\n這題的主要陷阱是**動作方向顛倒**。\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <row align=\"center\" gap={2}>\n        <icon name=\"x-circle\" color=\"danger\"/>\n        **C 的說法**\n      </row>\n      賣掉婢女 → 償還債務\n      <text color=\"secondary\" size=\"xs\">詩中沒有這個情節</text>\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"rgba(22,155,98,0.08)\" padding={3} radius=\"lg\" gap={2}>\n      <row align=\"center\" gap={2}>\n        <icon name=\"check-circle\" color=\"success\"/>\n        **原詩意思**\n      </row>\n      大量珍珠 → 購買婢女\n      <text color=\"success\" size=\"xs\">符合「斛量買婢」</text>\n    </box>\n  </grid-item>\n</grid>\n\n只要抓住「買」這個字，就能排除 C。\n\n\n\n[132] assistant | message_id=a0cb82d8-b37c-4563-882c-500dd47fbee1 | create_time=1793801361.304285\n# 《採珠行》｜第 1、2 題錯題解析\n\n<badge color=\"success\">第 1 題：B</badge>　<badge color=\"success\">第 2 題：D</badge>\n\n**科目：國文｜文言詩閱讀理解**\n\n這組題目出自唐代元稹的《採珠行》，核心是透過採珠人的生命危險，以及人類對珍珠的索取，反思貪欲、生命與自然的關係。\n\n照片中的第 1 題藍筆選 B，與詩意判斷一致；第 2 題藍筆選 C，紅筆訂正應為 D。\n\n## 一、原詩與逐句白話翻譯\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <row align=\"center\" justify=\"between\">\n    **《採珠行》｜唐・元稹**\n    <badge>文言文必讀</badge>\n  </row>\n  <text color=\"secondary\" size=\"xs\">依照片所載詩文，並對照《全唐詩》核對。<Cite ref=\"turn431323search1\"/></text>\n  {#each [\n    [\"海波無底珠沉海，採珠之人判死採。\",\"海水深不可測，珍珠沉在海底，採珠的人必須冒著生命危險才能採取。\"],\n    [\"萬人判死一得珠，斛量買婢人何在。\",\"許多人冒死採珠，才可能得到珍珠；那些曾大量使用珍珠購買婢女的人，如今又在哪裡呢？\"],\n    [\"年年採珠珠避人，今年採珠由海神。\",\"人們年年採珠，珍珠彷彿都躲避人類；今年則由海神來採珠。\"],\n    [\"海神採珠珠盡死，死盡明珠空海水。\",\"海神採珠，連珍珠也全都消失了；珍珠消失殆盡，只剩下空蕩蕩的海水。\"],\n    [\"珠為海物海屬神，神今自採何況人。\",\"珍珠原本就是海中的產物，海洋又歸海神掌管；如今連海神都親自採取，何況是人類呢？\"]\n  ] as pair,i}\n    <box gap={1}>\n      <text color=\"secondary\" weight=\"medium\" size=\"xs\">第 {i+1} 組</text>\n      **{pair[0]}**\n      <text size=\"sm\">{pair[1]}</text>\n    </box>\n    {#if i<4}<divider color=\"subtle\"/>{/if}\n  {/each}\n</box>\n\n**關鍵字詞：**「判死」是拚死、冒死；「斛」是古代容量單位；「婢」指婢女。「海神採珠」則帶有想像與諷喻意味，不應當作實際發生的事件。\n\n## 二、全詩的思考脈絡\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"waves\" color=\"info\" size=\"lg\"/>\n    **海底採珠極為危險**\n\n    <text size=\"sm\">採珠人冒著生命危險取得珍珠</text>\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"gem\" color=\"secondary\" size=\"lg\"/>\n    **珍珠被視為奢侈財物**\n\n    <text size=\"sm\">富貴者以大量珍珠換取婢女</text>\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"fish\" color=\"info\" size=\"lg\"/>\n    **連海神採珠，也使珍珠消失殆盡**\n\n    <text size=\"sm\">想像自然資源遭到過度索取的結果</text>\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"rgba(22,155,98,0.07)\" border={{size:1,color:\"success\"}} padding={3} radius=\"lg\" align=\"center\" gap={1}>\n    <icon name=\"leaf\" color=\"success\" size=\"lg\"/>\n    **反思人類貪欲與自然資源的關係**\n\n    <text color=\"success\" weight=\"medium\" size=\"sm\">兼具生命關懷與自然環境反思</text>\n  </box>\n</box>\n\n---\n\n## 第 1 題｜判斷詩歌主旨\n\n**原題：有關本詩的主旨，下列敘述何者正確？**\n\n(A) 譴責人們與神明爭採珍珠\n\n(B) 呼籲重視海洋生態的平衡\n\n(C) 呼籲從事捕獵應重視安全\n\n(D) 撻伐買婢的行為忽視人權\n\n<badge color=\"success\">答案：B</badge>\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A | <icon name=\"x\" color=\"danger\" inline/> | 海神是詩中的想像與諷喻手法，不是單純責備人類與神明競爭。 |\n| **B** | <icon name=\"check-circle\" color=\"success\" inline/> | 詩末以珍珠消失、海水空蕩的景象，呼應人類應反思索取自然資源的行為。 |\n| C | <icon name=\"x\" color=\"danger\" inline/> | 採珠確實危險，但詩意並不只是在提醒作業安全。 |\n| D | <icon name=\"x\" color=\"danger\" inline/> | 買婢是詩中批判奢侈、反映社會不公的材料，不是全文唯一主旨。 |\n\n**判斷關鍵：**「海神採珠珠盡死，死盡明珠空海水。」\n\n這兩句描繪珍珠被取盡的景象。四個選項中，B 最能概括詩末對海洋資源與人類行為的反思。\n\n不過，**本詩不只有環境保護的意涵**，也明顯同情冒死採珠的勞動者、批判富貴者的奢侈。B 是本題的最佳選項，不代表其他層面的詩意不存在。\n\n## 第 2 題｜「斛量買婢」的文意推斷\n\n**原題：從詩意推斷，「斛量買婢」指的是下列何現象？**\n\n(A) 海邊萬人空巷，珍珠被一斛一斛採走\n\n(B) 大家都跑去採珍珠，導致無人買賣婢女\n\n(C) 富人揮霍珍珠後，只好賣掉婢女來償債\n\n(D) 珍珠被採盡之前，富人揮霍珍珠的情景\n\n<badge color=\"success\">答案：D</badge>\n\n### 先破解「斛量買婢」\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <grid columns={3} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} align=\"center\" gap={1}>\n        <icon name=\"scale\" color=\"secondary\" size=\"lg\"/>\n        **斛量**\n        <text size=\"xs\" textAlign=\"center\">以古代容量單位計量，強調數量多</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} align=\"center\" gap={1}>\n        <icon name=\"gem\" color=\"secondary\" size=\"lg\"/>\n        **珍珠**\n        <text size=\"xs\" textAlign=\"center\">價值昂貴的財物</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} align=\"center\" gap={1}>\n        <icon name=\"coins\" color=\"secondary\" size=\"lg\"/>\n        **買婢**\n        <text size=\"xs\" textAlign=\"center\">購買婢女的行為</text>\n      </box>\n    </grid-item>\n  </grid>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <text weight=\"medium\" color=\"success\" textAlign=\"center\">以大量珍珠購買婢女，呈現富貴者奢侈耗費財物的情況。</text>\n</box>\n\n### 逐項排除\n\n| 選項 | 判斷 | 解析 |\n|---|---|---|\n| A | <icon name=\"x\" color=\"danger\" inline/> | 「斛量」不是指一斛一斛地採珠，也沒有萬人空巷的描述。 |\n| B | <icon name=\"x\" color=\"danger\" inline/> | 詩中沒有說因採珠而導致婢女無人買賣。 |\n| C | <icon name=\"x\" color=\"danger\" inline/> | 把「買婢」誤解成「賣掉婢女」，也自行加上償債情節。 |\n| **D** | <icon name=\"check-circle\" color=\"success\" inline/> | 符合富貴者以大量珍珠奢侈消費的情境。 |\n\n### 為什麼 C 容易誤選？\n\n這題的主要陷阱是**動作方向顛倒**。\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <row align=\"center\" gap={2}>\n        <icon name=\"x-circle\" color=\"danger\"/>\n        **C 的說法**\n      </row>\n      賣掉婢女 → 償還債務\n      <text color=\"secondary\" size=\"xs\">詩中沒有這個情節</text>\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"rgba(22,155,98,0.08)\" padding={3} radius=\"lg\" gap={2}>\n      <row align=\"center\" gap={2}>\n        <icon name=\"check-circle\" color=\"success\"/>\n        **原詩意思**\n      </row>\n      大量珍珠 → 購買婢女\n      <text color=\"success\" size=\"xs\">符合「斛量買婢」</text>\n    </box>\n  </grid-item>\n</grid>\n\n只要抓住「買」這個字，就能排除 C。\n\n## 三、兩題錯題最後總結\n\n| | 第 1 題 | 第 2 題 |\n|---|---|---|\n| **答案** | B | D |\n| **考點** | 全詩主旨 | 古文詞義推論 |\n| **關鍵證據** | 「死盡明珠空海水」 | 「斛量買婢」 |\n| **5 秒判斷** | 珍珠採盡 → 反思自然資源 | 大量珍珠 → 購買婢女 |\n| **易錯提醒** | 不可只抓某一句當成全文主旨 | 「買婢」不是「賣婢」 |\n\n### 一眼記住\n\n**第 1 題：** 從詩歌結尾回推主旨，注意資源耗竭與生命關懷。\n\n**第 2 題：** 先翻譯「斛量買婢」，再判斷選項有沒有自行加入原文不存在的情節。\n\n原詩可參考：<Link url=\"https://ctext.org/quantangshi/418\" title=\"《全唐詩》卷四百一十八・元稹〈採珠行〉\"/>。\n\n這兩題共同訓練的是**以原文作為證據**：第 1 題要綜合全詩找主旨，第 2 題則要精確理解關鍵詞，不能憑想像補充情節。\n\n[133] assistant | message_id=2921ea43-a904-4241-addb-c2f12a81b955 | create_time=1793801405.465529\n## 三、兩題錯題最後總結\n\n| | 第 1 題 | 第 2 題 |\n|---|---|---|\n| **答案** | B | D |\n| **考點** | 全詩主旨 | 古文詞義推論 |\n| **關鍵證據** | 「死盡明珠空海水」 | 「斛量買婢」 |\n| **5 秒判斷** | 珍珠採盡 → 反思自然資源 | 大量珍珠 → 購買婢女 |\n| **易錯提醒** | 不可只抓某一句當成全文主旨 | 「買婢」不是「賣婢」 |\n\n### 一眼記住\n\n**第 1 題：** 從詩歌結尾回推主旨，注意資源耗竭與生命關懷。\n\n**第 2 題：** 先翻譯「斛量買婢」，再判斷選項有沒有自行加入原文不存在的情節。\n\n原詩可參考：<Link url=\"https://ctext.org/quantangshi/418\" title=\"《全唐詩》卷四百一十八・元稹〈採珠行〉\"/>。\n\n這兩題共同訓練的是**以原文作為證據**：第 1 題要綜合全詩找主旨，第 2 題則要精確理解關鍵詞，不能憑想像補充情節。\n\n[134] user | message_id=8593314c-b123-4cba-bac1-d64fa11468b9 | create_time=1793801483.338193\n[原始使用者圖片附件；見同訊息封存及取得報告]\n7@錯題\n\n[135] system | message_id=21212f45-673e-4819-8e02-9fd3cd97deac | create_time=1793801485.348433\n\n\n[137] assistant | message_id=bc1bceb9-76c3-49d8-b3ba-0f922491d07a | create_time=1793801495.218357\n# 第 7 題｜國文錯題解析：座頭鯨的利他行為\n\n<badge color=\"success\">正確答案：B</badge> <badge>閱讀理解 × 儒家思想</badge>\n\n**考點：文章證據判讀 × 動物行為 × 《論語》名句**\n\n這題的核心是：**座頭鯨不只保護自己，也會冒險幫助其他動物。** 必須找出最符合這種精神的儒家名句。\n\n## 一、完整原題與選項\n\n**7. 文中座頭鯨的舉動，下列哪項人類的精神最接近？**\n\n(A) 己所不欲，勿施於人\n\n(B) 博施於民，而能濟眾\n\n(C) 願無伐善，無施勞\n\n(D) 以直報怨，以德報德\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  **文章最關鍵的證據**\n\n  「他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹『抱』在自己的肚子上，帶往安全的地方。」\n\n  「這些被拯救的生物當中，有高達90%都非座頭鯨。」\n\n  「人類保護其他動物，我們稱之為同理心……」\n\n  <text color=\"secondary\" size=\"xs\">以上節錄自照片中的〈解析魚類的情感〉，保留核心敘述供題目判讀。</text>\n</box>\n\n## 二、原文證據如何推導答案？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" color=\"secondary\" size=\"xs\">證據 → 行為 → 精神 → 答案</text>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"waves\" color=\"info\"/>\n      **原文證據**\n    </row>\n    座頭鯨驅趕殺人鯨，幫助海豹等其他動物脫險。\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"heart-handshake\" color=\"secondary\"/>\n      **行為特徵**\n    </row>\n    不只顧及自身，也幫助其他生命。\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"rgba(24,154,102,0.08)\" border={{size:1,color:\"success\"}} padding={3} radius=\"lg\" gap={1}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"check-circle\" color=\"success\"/>\n      **對應精神：博施於民，而能濟眾**\n    </row>\n    <text color=\"success\" weight=\"medium\">廣泛施予恩惠，幫助眾人。</text>\n  </box>\n</box>\n\n<AsyncImage query=\"educational watercolor natural history illustration humpback whale gently supporting a small seal on its broad head near floating Antarctic ice, orcas swimming in distant water, peaceful realistic marine wildlife no text\" aspectRatio=\"3:2\"/>\n\n<caption>情境示意：座頭鯨協助海豹脫離危險，對應文章所描述的救援行為；圖像並非原研究紀錄。</caption>\n\n## 三、四個選項逐項解析\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **A**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **己所不欲，勿施於人**\n\n      白話：自己不喜歡的事情，不要強加在別人身上。\n\n      <text color=\"secondary\" size=\"sm\">重點是設身處地、不強迫他人，而不是主動救助別人。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(24,154,102,0.08)\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **B**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **博施於民，而能濟眾**\n\n      白話：廣泛地給予人民恩惠，並且能幫助眾人。\n\n      <text color=\"success\" size=\"sm\" weight=\"medium\">對應座頭鯨幫助不同種類動物的利他行為，最符合文意。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **C**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **願無伐善，無施勞**\n\n      白話：希望不誇耀自己的優點，不表彰自己的功勞。\n\n      <text color=\"secondary\" size=\"sm\">重點是謙虛、不居功。文章沒有強調座頭鯨是否炫耀功勞。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={2} width=\"44px\" align=\"center\">\n      **D**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **以直報怨，以德報德**\n\n      白話：以公正正直的態度對待怨恨，以恩德回報恩德。\n\n      <text color=\"secondary\" size=\"sm\">重點是如何回應別人的恩怨，不是無條件救助其他生命。</text>\n    </box>\n  </row>\n</box>\n\n## 四、視覺化比較：四句《論語》名言\n\n| 名句 | 核心精神 | 快速記憶 |\n|---|---|---|\n| 己所不欲，勿施於人 | 尊重、同理 | 不強加於人 |\n| **博施於民，而能濟眾** | **仁愛、助人** | **廣泛幫助他人** |\n| 願無伐善，無施勞 | 謙虛、不居功 | 不誇耀自己 |\n| 以直報怨，以德報德 | 公正、知恩 | 恩怨分明 |\n\n### 易錯觀念：C 為什麼不行？\n\n座頭鯨救助其他動物後，文章沒有描述牠們邀功或炫耀的行為。\n\n但是，**沒有描寫邀功，不代表文章的重點就是「謙虛不居功」**。\n\n原文提供的正面證據是「主動幫助其他生命」，因此 B 比 C 更貼近文章主旨。\n\n此外，文章雖用人類的同理心來類比座頭鯨的行為，但也指出其真正動機尚待研究，不宜直接斷言座頭鯨具有與人類完全相同的道德意識。\n\n## 五、錯題最後總結\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"target\" color=\"success\"/>\n    **答案：B 博施於民，而能濟眾**\n  </row>\n  **關鍵線索：** 座頭鯨保護其他動物，包含不同物種。\n\n  **5 秒判斷：** 救助其他生命 → 利他精神 → 博施濟眾。\n\n  **可能陷阱：** C 強調不誇功，雖然也是正面品德，但不是文章的主要行為證據。\n\n  **一眼記住：** 博施＝廣泛施恩；濟眾＝幫助眾人。\n</box>\n\n## 六、會考互動小測驗\n\n{@body const [answer,setAnswer]=DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  **某位同學經常幫助家境困難的學生，提供文具、課本與生活資源。這種行為最接近哪一種精神？**\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 以直報怨</radio>\n    <radio value=\"B\">B. 博施濟眾</radio>\n    <radio value=\"C\">C. 無伐善，無施勞</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={1}>\n      <text weight=\"medium\" color={answer===\"B\"?\"success\":\"danger\"}><icon name={answer===\"B\"?\"check-circle\":\"info\"} inline/> {answer===\"B\"?\"答對了！\":\"正確答案是 B。\"}</text>\n      「博施濟眾」強調廣泛幫助需要協助的人，和題目中主動提供資源的行為相符。\n    </box>\n  {/if}\n</box>\n\n[138] user | message_id=21fc787e-d96e-459c-85de-f3d66f37a63a | create_time=1793801610.4135818\n[原始使用者圖片附件；見同訊息封存及取得報告]\n1、2@錯題\n\n[139] system | message_id=5d8cd5fa-2f7d-4ef9-a81f-69de9beb176e | create_time=1793801612.693725\n\n\n[140] assistant | message_id=acecaea5-ffd6-4498-860f-9df44ad33793 | create_time=1793801615.717639\n我會依這兩頁的原文，核對第 1 題的「手冊編纂目的」與第 2 題的「海鮮挑選原則」，並逐項對照文章證據。\n\n[142] tool | message_id=52aaa238-a635-449c-a43d-70ed8ec5db95 | create_time=1793801649.072171\nThe output of this plugin was redacted.\n\n[143] tool | message_id=c4e398ed-f19f-45e0-8c28-9cc8f5f09348 | create_time=1793801665.573825\nThe output of this plugin was redacted.\n\n[145] tool | message_id=a1851ad3-b787-4da2-bce0-24b717938aca | create_time=1793801698.133634\nThe output of this plugin was redacted.\n\n[146] tool | message_id=691ea812-5652-4808-9ed7-2182ac6c0dfc | create_time=1793801708.574205\nThe output of this plugin was redacted.\n\n[148] tool | message_id=a70531af-55b5-4493-b7e3-814de343cc3f | create_time=1793801721.622365\nThe output of this plugin was redacted.\n\n[149] assistant | message_id=d9b4eddd-0c5c-40c5-b408-3a3bc0c3b636 | create_time=1793801732.24225\n# 國文《臺灣海鮮選擇指南》｜第 1、2 題錯題解析\n\n<row align=\"center\" gap={2} wrap=\"wrap\">\n  <badge color=\"success\">第 1 題：C</badge>\n  <badge color=\"success\">第 2 題：D</badge>\n</row>\n\n**考點：閱讀理解 × 環境保育 × 資訊擷取 × 選項排除**\n\n這兩題都必須回到原文找證據，尤其要分清楚：\n\n- **第 1 題：** 編寫指南的真正目的。\n- **第 2 題：** 哪些海鮮適合選購，以及背後的理由。\n\n## 一、文章重點整理\n\n文章〈從臺灣海鮮選擇指南看消費者行動（節錄）〉提出：透過消費者選擇合適的海鮮，減少過度捕撈對海洋生態的破壞。\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" color=\"secondary\" size=\"xs\">原文證據 → 消費原則</text>\n  <box gap={1} background=\"surface-secondary\" radius=\"lg\" padding={3}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"check-circle\" color=\"success\"/>\n      **適合優先選擇**\n    </row>\n    <text size=\"sm\">數量較多、生長較快、食物鏈底層的魚類，以及來源相對永續的養殖魚類。</text>\n  </box>\n  <box gap={1} background=\"surface-secondary\" radius=\"lg\" padding={3}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"alert-triangle\" color=\"danger\"/>\n      **應減少或避免選擇**\n    </row>\n    <text size=\"sm\">生長緩慢、數量較少、不易恢復的魚類，以及使用破壞性捕撈方式取得的海鮮。</text>\n  </box>\n</box>\n\n其中最重要的一句是：\n\n> 「為達成永續漁業，鼓勵民眾藉由消費者的力量，來改變過漁（過度撈捕）與濫捕對漁業資源及海洋生態造成的嚴重影響。」\n\n這句話可以直接幫我們判斷第 1 題。\n\n---\n\n## 二、第 1 題｜編纂指南的目的\n\n**原題：** 依文意判斷，「臺灣海鮮選擇指南」手冊編纂的原因最有可能為下列何者？\n\n(A) 研究臺灣近海魚類的生態及其面臨的危機\n\n(B) 探討臺灣魚類產業的經營方向與發展策略\n\n(C) 建議民眾食用合宜的魚類以延續海洋資源\n\n(D) 使民眾了解海洋知識以加速海洋生態研究\n\n<badge color=\"success\">正確答案：C</badge>\n\n### 逐項解析\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A | <icon name=\"x\" color=\"danger\" inline/> | 研究海洋生態危機是相關背景，但不是編纂消費指南的直接目的。 |\n| B | <icon name=\"x\" color=\"danger\" inline/> | 文章重點不是漁業公司的經營與發展。 |\n| **C** | <icon name=\"check-circle\" color=\"success\" inline/> | 指導消費者選擇適合食用的海鮮，減少資源耗竭，符合原文。 |\n| D | <icon name=\"x\" color=\"danger\" inline/> | 指南目的不是加快科學研究，而是改善消費選擇。 |\n\n### 題目推理圖\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    **問題：過度捕撈破壞海洋生態**\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    **方法：提供海鮮選購指南**\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"rgba(22,155,98,0.08)\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    <title size=\"md\" color=\"success\">目的：永續利用海洋資源</title>\n    <text size=\"sm\" textAlign=\"center\">答案 C</text>\n  </box>\n</box>\n\n**可能陷阱：** A 與文章的研究背景有關，但題目問的是「為何編纂手冊」，所以要找出面向消費者的實際目的。\n\n\n\n[150] assistant | message_id=4c3f4eab-f62e-48a8-b987-9d5163e0d5df | create_time=1793801749.664746\n---\n\n## 三、第 2 題｜海鮮挑選原則\n\n**原題：** 依據本文，有關海鮮挑選原則，下列敘述何者正確？\n\n(A) 體型小的魚，肉質鮮嫩且不易受重金屬汙染，宜多選購\n\n(B) 珊瑚礁定棲魚類，體色鮮豔、數量較多，適合多加食用\n\n(C) 避免食用以底拖漁網捕撈的野生海蝦，如：櫻花蝦\n\n(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多\n\n<badge color=\"success\">正確答案：D</badge>\n\n### 逐項解析與原文證據\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **A**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **體型小就一定比較適合食用？**\n\n      原文推薦的是「體型小、生長速度快」等特徵，但沒有說這些魚一定肉質鮮嫩，也不能僅憑體型小就斷定不易受重金屬汙染。\n\n      <text size=\"sm\" color=\"danger\">錯在加入原文沒有支持的理由。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **B**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **珊瑚礁魚類顏色鮮豔，就適合多吃？**\n\n      原文指出珊瑚礁魚類如鸚哥魚、紅石斑等，因數量較少、資源恢復不易，屬於應避免食用的種類。\n\n      <text size=\"sm\" color=\"danger\">與原文的數量及保育判斷相反。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **C**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **把櫻花蝦當成底拖漁網捕撈的例子？**\n\n      原文指出櫻花蝦採用「中層網」，不會接觸海底；因此不能將它直接列為底拖漁網捕撈的例子。\n\n      <text size=\"sm\" color=\"danger\">錯在混淆捕撈方式。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(22,155,98,0.08)\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **D**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **選擇食物鏈底層、數量較多的海鮮**\n\n      原文最後明確提出：「這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用。」\n\n      <text size=\"sm\" color=\"success\" weight=\"medium\">與文章敘述直接相符。</text>\n    </box>\n  </row>\n</box>\n\n## 四、視覺化理解：怎麼選海鮮？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <title size=\"md\">海鮮選購與生態保育</title>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <AsyncImage query=\"realistic educational illustration small silver sardines swimming in large abundant school underwater sunlight no text\" aspectRatio=\"4:3\"/>\n      <box gap={1}>\n        <row align=\"center\" gap={1}>\n          <icon name=\"check-circle\" color=\"success\"/>\n          **數量相對豐富**\n        </row>\n        <text size=\"sm\">生長快、資源較充足的魚類，可依來源及捕撈方式考慮選擇。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <AsyncImage query=\"realistic educational illustration colorful parrotfish swimming over tropical coral reef underwater no text\" aspectRatio=\"4:3\"/>\n      <box gap={1}>\n        <row align=\"center\" gap={1}>\n          <icon name=\"alert-circle\" color=\"danger\"/>\n          **珊瑚礁魚類**\n        </row>\n        <text size=\"sm\">部分族群數量少、資源恢復不易，應依保育建議避免選購。</text>\n      </box>\n    </grid-item>\n  </grid>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\" size=\"sm\">捕撈方式也很重要</text>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} gap={1}>\n        <svg viewBox=\"0 0 160 92\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <rect width=\"160\" height=\"92\" rx=\"8\" fill=\"#DCF2FF\"/>\n          <path d=\"M0 75 Q40 67 80 75 T160 75 V92 H0Z\" fill=\"#DABF92\"/>\n          {#each [20,42,66,97,123] as x}\n            <path d={`M${x} 28 l10 -5 v10 z`} fill=\"#558FA9\"/>\n          {/each}\n          <path d=\"M26 43 Q80 62 134 43 L117 57 Q80 72 43 57Z\" fill=\"#5A91BA\" fillOpacity=\".24\" stroke=\"#427FA1\" strokeWidth=\"2\"/>\n          <path d=\"M26 43L80 14L134 43\" fill=\"none\" stroke=\"#427FA1\" strokeWidth=\"2\"/>\n          <path d=\"M80 14V7\" stroke=\"#427FA1\" strokeWidth=\"2\"/>\n        </svg>\n        **中層網**\n        <text size=\"xs\" color=\"secondary\">漁網不接觸海底，較能避免直接破壞底棲環境。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} gap={1}>\n        <svg viewBox=\"0 0 160 92\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <rect width=\"160\" height=\"92\" rx=\"8\" fill=\"#DCF2FF\"/>\n          <path d=\"M0 75 Q40 67 80 75 T160 75 V92 H0Z\" fill=\"#DABF92\"/>\n          <path d=\"M25 72 Q80 40 135 72 L123 79 Q80 53 37 79Z\" fill=\"#B97970\" fillOpacity=\".3\" stroke=\"#B2594F\" strokeWidth=\"2\"/>\n          <path d=\"M25 72L80 20L135 72\" fill=\"none\" stroke=\"#B2594F\" strokeWidth=\"2\"/>\n          <path d=\"M80 20V9\" stroke=\"#B2594F\" strokeWidth=\"2\"/>\n          {#each [40,65,105,125] as x}\n            <circle cx={x} cy=\"82\" r=\"3\" fill=\"#A07D58\"/>\n          {/each}\n        </svg>\n        **底拖漁網**\n        <text size=\"xs\" color=\"secondary\">漁具接觸海床，可能破壞底棲生態及混獲其他生物。</text>\n      </box>\n    </grid-item>\n  </grid>\n  <caption>示意圖呈現兩種漁網相對於海底的位置，非特定漁業作業規格。實際永續性仍須考慮漁法管理、漁場及資源狀況。</caption>\n</box>\n\n\n\n[153] assistant | message_id=0e016536-f6c2-44f4-928b-dd28878f139f | create_time=1793801732.259587\n# 國文《臺灣海鮮選擇指南》｜第 1、2 題錯題解析\n\n<row align=\"center\" gap={2} wrap=\"wrap\">\n  <badge color=\"success\">第 1 題：C</badge>\n  <badge color=\"success\">第 2 題：D</badge>\n</row>\n\n**考點：閱讀理解 × 環境保育 × 資訊擷取 × 選項排除**\n\n這兩題都必須回到原文找證據，尤其要分清楚：\n\n- **第 1 題：** 編寫指南的真正目的。\n- **第 2 題：** 哪些海鮮適合選購，以及背後的理由。\n\n## 一、文章重點整理\n\n文章〈從臺灣海鮮選擇指南看消費者行動（節錄）〉提出：透過消費者選擇合適的海鮮，減少過度捕撈對海洋生態的破壞。\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <text weight=\"medium\" color=\"secondary\" size=\"xs\">原文證據 → 消費原則</text>\n  <box gap={1} background=\"surface-secondary\" radius=\"lg\" padding={3}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"check-circle\" color=\"success\"/>\n      **適合優先選擇**\n    </row>\n    <text size=\"sm\">數量較多、生長較快、食物鏈底層的魚類，以及來源相對永續的養殖魚類。</text>\n  </box>\n  <box gap={1} background=\"surface-secondary\" radius=\"lg\" padding={3}>\n    <row align=\"center\" gap={2}>\n      <icon name=\"alert-triangle\" color=\"danger\"/>\n      **應減少或避免選擇**\n    </row>\n    <text size=\"sm\">生長緩慢、數量較少、不易恢復的魚類，以及使用破壞性捕撈方式取得的海鮮。</text>\n  </box>\n</box>\n\n其中最重要的一句是：\n\n> 「為達成永續漁業，鼓勵民眾藉由消費者的力量，來改變過漁（過度撈捕）與濫捕對漁業資源及海洋生態造成的嚴重影響。」\n\n這句話可以直接幫我們判斷第 1 題。\n\n---\n\n## 二、第 1 題｜編纂指南的目的\n\n**原題：** 依文意判斷，「臺灣海鮮選擇指南」手冊編纂的原因最有可能為下列何者？\n\n(A) 研究臺灣近海魚類的生態及其面臨的危機\n\n(B) 探討臺灣魚類產業的經營方向與發展策略\n\n(C) 建議民眾食用合宜的魚類以延續海洋資源\n\n(D) 使民眾了解海洋知識以加速海洋生態研究\n\n<badge color=\"success\">正確答案：C</badge>\n\n### 逐項解析\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A | <icon name=\"x\" color=\"danger\" inline/> | 研究海洋生態危機是相關背景，但不是編纂消費指南的直接目的。 |\n| B | <icon name=\"x\" color=\"danger\" inline/> | 文章重點不是漁業公司的經營與發展。 |\n| **C** | <icon name=\"check-circle\" color=\"success\" inline/> | 指導消費者選擇適合食用的海鮮，減少資源耗竭，符合原文。 |\n| D | <icon name=\"x\" color=\"danger\" inline/> | 指南目的不是加快科學研究，而是改善消費選擇。 |\n\n### 題目推理圖\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    **問題：過度捕撈破壞海洋生態**\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    **方法：提供海鮮選購指南**\n  </box>\n  <row justify=\"center\"><icon name=\"arrow-down\" color=\"secondary\"/></row>\n  <box background=\"rgba(22,155,98,0.08)\" radius=\"lg\" padding={3} align=\"center\" gap={1}>\n    <title size=\"md\" color=\"success\">目的：永續利用海洋資源</title>\n    <text size=\"sm\" textAlign=\"center\">答案 C</text>\n  </box>\n</box>\n\n**可能陷阱：** A 與文章的研究背景有關，但題目問的是「為何編纂手冊」，所以要找出面向消費者的實際目的。\n\n---\n\n## 三、第 2 題｜海鮮挑選原則\n\n**原題：** 依據本文，有關海鮮挑選原則，下列敘述何者正確？\n\n(A) 體型小的魚，肉質鮮嫩且不易受重金屬汙染，宜多選購\n\n(B) 珊瑚礁定棲魚類，體色鮮豔、數量較多，適合多加食用\n\n(C) 避免食用以底拖漁網捕撈的野生海蝦，如：櫻花蝦\n\n(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多\n\n<badge color=\"success\">正確答案：D</badge>\n\n### 逐項解析與原文證據\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **A**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **體型小就一定比較適合食用？**\n\n      原文推薦的是「體型小、生長速度快」等特徵，但沒有說這些魚一定肉質鮮嫩，也不能僅憑體型小就斷定不易受重金屬汙染。\n\n      <text size=\"sm\" color=\"danger\">錯在加入原文沒有支持的理由。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **B**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **珊瑚礁魚類顏色鮮豔，就適合多吃？**\n\n      原文指出珊瑚礁魚類如鸚哥魚、紅石斑等，因數量較少、資源恢復不易，屬於應避免食用的種類。\n\n      <text size=\"sm\" color=\"danger\">與原文的數量及保育判斷相反。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"surface-secondary\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **C**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **把櫻花蝦當成底拖漁網捕撈的例子？**\n\n      原文指出櫻花蝦採用「中層網」，不會接觸海底；因此不能將它直接列為底拖漁網捕撈的例子。\n\n      <text size=\"sm\" color=\"danger\">錯在混淆捕撈方式。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <box background=\"rgba(22,155,98,0.08)\" padding={2} radius=\"lg\" width=\"44px\" align=\"center\">\n      **D**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </box>\n    <box flex=\"1\" gap={1}>\n      **選擇食物鏈底層、數量較多的海鮮**\n\n      原文最後明確提出：「這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用。」\n\n      <text size=\"sm\" color=\"success\" weight=\"medium\">與文章敘述直接相符。</text>\n    </box>\n  </row>\n</box>\n\n## 四、視覺化理解：怎麼選海鮮？\n\n<box border radius=\"xl\" padding={3} gap={2}>\n  <title size=\"md\">海鮮選購與生態保育</title>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <AsyncImage query=\"realistic educational illustration small silver sardines swimming in large abundant school underwater sunlight no text\" aspectRatio=\"4:3\"/>\n      <box gap={1}>\n        <row align=\"center\" gap={1}>\n          <icon name=\"check-circle\" color=\"success\"/>\n          **數量相對豐富**\n        </row>\n        <text size=\"sm\">生長快、資源較充足的魚類，可依來源及捕撈方式考慮選擇。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <AsyncImage query=\"realistic educational illustration colorful parrotfish swimming over tropical coral reef underwater no text\" aspectRatio=\"4:3\"/>\n      <box gap={1}>\n        <row align=\"center\" gap={1}>\n          <icon name=\"alert-circle\" color=\"danger\"/>\n          **珊瑚礁魚類**\n        </row>\n        <text size=\"sm\">部分族群數量少、資源恢復不易，應依保育建議避免選購。</text>\n      </box>\n    </grid-item>\n  </grid>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\" size=\"sm\">捕撈方式也很重要</text>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} gap={1}>\n        <svg viewBox=\"0 0 160 92\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <rect width=\"160\" height=\"92\" rx=\"8\" fill=\"#DCF2FF\"/>\n          <path d=\"M0 75 Q40 67 80 75 T160 75 V92 H0Z\" fill=\"#DABF92\"/>\n          {#each [20,42,66,97,123] as x}\n            <path d={`M${x} 28 l10 -5 v10 z`} fill=\"#558FA9\"/>\n          {/each}\n          <path d=\"M26 43 Q80 62 134 43 L117 57 Q80 72 43 57Z\" fill=\"#5A91BA\" fillOpacity=\".24\" stroke=\"#427FA1\" strokeWidth=\"2\"/>\n          <path d=\"M26 43L80 14L134 43\" fill=\"none\" stroke=\"#427FA1\" strokeWidth=\"2\"/>\n          <path d=\"M80 14V7\" stroke=\"#427FA1\" strokeWidth=\"2\"/>\n        </svg>\n        **中層網**\n        <text size=\"xs\" color=\"secondary\">漁網不接觸海底，較能避免直接破壞底棲環境。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={2} gap={1}>\n        <svg viewBox=\"0 0 160 92\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <rect width=\"160\" height=\"92\" rx=\"8\" fill=\"#DCF2FF\"/>\n          <path d=\"M0 75 Q40 67 80 75 T160 75 V92 H0Z\" fill=\"#DABF92\"/>\n          <path d=\"M25 72 Q80 40 135 72 L123 79 Q80 53 37 79Z\" fill=\"#B97970\" fillOpacity=\".3\" stroke=\"#B2594F\" strokeWidth=\"2\"/>\n          <path d=\"M25 72L80 20L135 72\" fill=\"none\" stroke=\"#B2594F\" strokeWidth=\"2\"/>\n          <path d=\"M80 20V9\" stroke=\"#B2594F\" strokeWidth=\"2\"/>\n          {#each [40,65,105,125] as x}\n            <circle cx={x} cy=\"82\" r=\"3\" fill=\"#A07D58\"/>\n          {/each}\n        </svg>\n        **底拖漁網**\n        <text size=\"xs\" color=\"secondary\">漁具接觸海床，可能破壞底棲生態及混獲其他生物。</text>\n      </box>\n    </grid-item>\n  </grid>\n  <caption>示意圖呈現兩種漁網相對於海底的位置，非特定漁業作業規格。實際永續性仍須考慮漁法管理、漁場及資源狀況。</caption>\n</box>\n\n## 五、兩題錯題最後總結\n\n| 判斷重點 | 第 1 題 | 第 2 題 |\n|---|---|---|\n| **答案** | C | D |\n| 關鍵線索 | 消費者力量、永續漁業 | 食物鏈底層、數量較多 |\n| 5 秒判斷 | 指南目的是教人選擇合適海鮮 | 找出與原文選購原則一致的敘述 |\n| 易錯提醒 | 不要把研究背景當作編纂目的 | 不要將櫻花蝦誤認為底拖漁法的例子 |\n\n**一眼記住：**\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"book-open\" color=\"secondary\"/>\n    **第 1 題：為什麼編指南？**\n  </row>\n  讓消費者選對海鮮，協助海洋資源永續利用。\n\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={2}>\n    <icon name=\"fish\" color=\"secondary\"/>\n    **第 2 題：怎麼挑海鮮？**\n  </row>\n  考慮物種數量、生長速度、食物鏈位置及捕撈方式，不能只憑魚的大小或顏色判斷。\n</box>\n\n這組題目特別值得練習的是 **「選項與原文一致性驗證」**：文章提到某個特徵，不代表選項額外添加的理由也一定正確。第 2 題 A、C 都有這類陷阱。\n\n---\n\n如果你願意，我可以：\n\n- 深入解析『摻』字多音多義使用\n- 提供更多成語語境判斷練習\n- 接續解析成語詞義關係選擇題\n\n[154] assistant | message_id=04db8f53-012e-4bd7-9ab9-326049b94312 | create_time=1793801778.263813\n## 五、兩題錯題最後總結\n\n| 判斷重點 | 第 1 題 | 第 2 題 |\n|---|---|---|\n| **答案** | C | D |\n| 關鍵線索 | 消費者力量、永續漁業 | 食物鏈底層、數量較多 |\n| 5 秒判斷 | 指南目的是教人選擇合適海鮮 | 找出與原文選購原則一致的敘述 |\n| 易錯提醒 | 不要把研究背景當作編纂目的 | 不要將櫻花蝦誤認為底拖漁法的例子 |\n\n**一眼記住：**\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={2}>\n    <icon name=\"book-open\" color=\"secondary\"/>\n    **第 1 題：為什麼編指南？**\n  </row>\n  讓消費者選對海鮮，協助海洋資源永續利用。\n\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={2}>\n    <icon name=\"fish\" color=\"secondary\"/>\n    **第 2 題：怎麼挑海鮮？**\n  </row>\n  考慮物種數量、生長速度、食物鏈位置及捕撈方式，不能只憑魚的大小或顏色判斷。\n</box>\n\n這組題目特別值得練習的是 **「選項與原文一致性驗證」**：文章提到某個特徵，不代表選項額外添加的理由也一定正確。第 2 題 A、C 都有這類陷阱。\n",
+      "images": [
+        "assets/originals/src-more-057-question-08-ce865c3fea6d.png",
+        "assets/originals/src-more-057-question-09-3ee640607b20.png",
+        "assets/originals/src-more-057-question-10-f4816c89ac4b.png",
+        "assets/originals/src-more-057-question-12-23b101c4e726.png",
+        "assets/originals/src-more-057-question-11-abb8372887cc.png",
+        "assets/originals/src-more-057-question-13-0698da60eac7.png",
+        "assets/originals/src-more-057-question-14-43272775d495.png",
+        "assets/originals/src-more-057-question-15-087efbd6a4ba.png",
+        "assets/originals/src-more-057-question-01-d34fe5e51897.png",
+        "assets/originals/src-more-057-question-02-9d0c80df7582.png",
+        "assets/originals/src-more-057-pearl-poem-ce4fbddd6573.png",
+        "assets/originals/src-more-057-pearl-q1-b426e5d9a289.png",
+        "assets/originals/src-more-057-pearl-q2-cb68e5dc2540.png",
+        "assets/originals/src-more-057-whale-passage-1-b3c82dad8499.png",
+        "assets/originals/src-more-057-whale-passage-2-c524b5c82416.png",
+        "assets/originals/src-more-057-whale-q7-5fe0fba709a5.png",
+        "assets/originals/src-more-057-seafood-passage-1-70f78ed82476.png",
+        "assets/originals/src-more-057-seafood-passage-2-a94219bd737e.png",
+        "assets/originals/src-more-057-seafood-q1-09cd54adc2d0.png",
+        "assets/originals/src-more-057-seafood-q2-8f65a326c167.png"
+      ],
+      "transcript": "sources/6aeb402e-c158-83ee-b603-6444a590bf27.txt"
     }
   ],
   "questions": [
@@ -100453,7 +100487,2184 @@
           "35歲"
         ]
       }
+    },
+    {
+      "id": "q-946",
+      "sourceId": "src-more-057",
+      "subject": "Civics",
+      "title": "公民第8題｜遊樂園門票促銷",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n(A) 降低利潤\n(B) 提高生產成本\n(C) 增加銷貨收入\n(D) 提高商品價格",
+      "answer": "(C) 增加銷貨收入",
+      "explanation": "遊樂園以平價優惠吸引更多人購票，主要希望透過增加售票量來增加銷貨收入，因此選C。\n\n銷貨收入＝門票單價×售票數量。降價使單價降低，必須有足夠的銷量增加，總收入才會上升；這是廠商希望達到的目的，並非降價後必然發生的結果。利潤還須扣除成本，不能把銷貨收入與利潤當成同一件事。原題沒有數值，不另添假設當成題目條件。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "市場",
+        "促銷",
+        "銷貨收入",
+        "利潤"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-08-ce865c3fea6d.png"
+      ],
+      "sourceLabel": "分享原卷｜第8題",
+      "studentAnswer": "藍筆A，原卷紅筆劃除；未見清楚另寫的訂正選項。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "8",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "降低利潤",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "降價可能減少每張票的利潤，但降低利潤不是促銷的主要目的。"
+        },
+        {
+          "label": "B",
+          "text": "提高生產成本",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "提高生產成本不是推出平價門票希望達到的結果。"
+        },
+        {
+          "label": "C",
+          "text": "增加銷貨收入",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "希望優惠吸引更多遊客，藉售票量增加來增加銷貨收入。"
+        },
+        {
+          "label": "D",
+          "text": "提高商品價格",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "原文強調平價優惠，與提高票價的方向不符。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "平價優惠要達到什麼目的？",
+        "art": "assets/comics/q-946-art-1930e5ab0b-web.webp",
+        "panels": [
+          {
+            "heading": "① 優惠吸引遊客",
+            "text": "門票主打平價、物超所值，希望更多遊客願意購票。降低單張票價是促銷手段。",
+            "alt": "遊樂園票務人員以無字門票歡迎考慮入園的家庭。"
+          },
+          {
+            "heading": "② 銷量增加，才可能增加收入",
+            "text": "銷貨收入＝單價×售票數量。單價降低後，要有足夠的購票人數增加，總收入才會上升。",
+            "alt": "更多家庭走入遊樂園，示意希望售票量增加，不代表題目提供了確切人數。"
+          },
+          {
+            "heading": "③ 收入還不等於利潤",
+            "text": "題目問廠商想達到的目的。增加收入是希望的結果，並非優惠必然成功；利潤還要扣除成本。",
+            "alt": "票務人員比較門票並觀察遊客，表達需評估促銷成效，不畫保證獲利。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：增加銷貨收入",
+          "points": [
+            "平價優惠吸引更多人購票。",
+            "收入看單價與數量；利潤另須扣成本。",
+            "「想達到」不等於必然發生。"
+          ]
+        },
+        "protectedWords": [
+          "銷貨收入",
+          "售票數量",
+          "物超所值",
+          "降低利潤",
+          "生產成本"
+        ]
+      }
+    },
+    {
+      "id": "q-947",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第4題｜看國字寫注音",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "「摻」揉：（　）",
+      "answer": "ㄔㄢ",
+      "explanation": "「摻揉」表示把不同事物混合、揉合。教育部《國語辭典簡編本》把表示混合、雜入的「摻」讀作ㄔㄢ，所以本題只填「摻」的注音ㄔㄢ（第一聲）；整詞讀ㄔㄢ ㄖㄡˊ。\n\nㄕㄢˇ是「持、握住」等古義的讀音，不能因為是多音字便套用在混合的語境。來源AI初答ㄕㄢˇ，把它說成摻揉的固定讀音，後經使用者追問已自行更正為ㄔㄢ；本題再依教育部辭典獨立核對。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "字音",
+        "多音字",
+        "摻揉"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-09-3ee640607b20.png"
+      ],
+      "sourceLabel": "分享原卷｜第4題",
+      "studentAnswer": "藍筆為ㄔㄢ，上有紅筆改寫；紅筆完整讀音未能確定辨識。",
+      "contentStatus": "完整原題",
+      "correctOption": "",
+      "passage": "",
+      "originalQuestionNumber": "4",
+      "optionAnalysis": [],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "摻揉先看字義，再定讀音",
+        "art": "assets/comics/q-947-art-e1c76a934f.svg",
+        "panels": [
+          {
+            "heading": "① 混合、揉合，讀ㄔㄢ",
+            "text": "摻揉表示把不同的事物混合、揉合。「摻」取混合、雜入義，讀ㄔㄢ，第一聲。",
+            "alt": "混合義與摻音的中文對照。",
+            "diagram": {
+              "kind": "flow",
+              "title": "本題的字義",
+              "items": [
+                {
+                  "label": "摻揉｜混合、揉合",
+                  "tone": "blue",
+                  "detail": "把不同事物合在一起。"
+                },
+                {
+                  "label": "摻｜ㄔㄢ",
+                  "tone": "green",
+                  "detail": "與摻雜、摻水同屬混合義。"
+                }
+              ],
+              "arrow": "依字義定音"
+            }
+          },
+          {
+            "heading": "② 別把持握的音套進來",
+            "text": "ㄕㄢˇ用於古義持、握住，如摻袂。它與本題的混合義不同，不能只因字形相同就改讀。",
+            "alt": "不同字義分別標示讀音，未將ㄕㄢˇ當摻揉正音。",
+            "diagram": {
+              "kind": "paths",
+              "title": "同字，須分辨義項",
+              "items": [
+                {
+                  "label": "混合、雜入",
+                  "tone": "green",
+                  "detail": "ㄔㄢ｜本題適用。"
+                },
+                {
+                  "label": "持、握住",
+                  "tone": "gold",
+                  "detail": "ㄕㄢˇ｜本題不適用。"
+                }
+              ],
+              "target": "看語境選義項",
+              "arrow": "比較字義"
+            }
+          },
+          {
+            "heading": "③ 題目只填摻的注音",
+            "text": "原題括號要填「摻」，答案寫ㄔㄢ；整詞摻揉讀ㄔㄢ ㄖㄡˊ。第一聲不另加聲調符號。",
+            "alt": "本題單字答案與整詞讀法清楚分開。",
+            "diagram": {
+              "kind": "flow",
+              "title": "填空範圍",
+              "items": [
+                {
+                  "label": "題目｜「摻」揉：（　）",
+                  "tone": "blue"
+                },
+                {
+                  "label": "填入｜ㄔㄢ",
+                  "tone": "green",
+                  "detail": "整詞：ㄔㄢ ㄖㄡˊ。"
+                }
+              ],
+              "arrow": "確認要填哪個字"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案：ㄔㄢ（第一聲）",
+          "points": [
+            "混合、雜入義的摻讀ㄔㄢ。",
+            "ㄕㄢˇ的持握義不適用摻揉。",
+            "先辨詞義，再選多音字的讀音。"
+          ]
+        },
+        "protectedWords": [
+          "混合",
+          "摻揉",
+          "摻雜",
+          "摻水",
+          "第一聲",
+          "持握"
+        ]
+      }
+    },
+    {
+      "id": "q-948",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第6題｜同詞的語境意義",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "下列「」中的詞語，何者意思前後相同？\n(A) 她曾因在狹小空間「側身」工作而深感不便，促使她後來「側身」室內設計業，致力於優化空間規畫\n(B) 為了實現「理想」，我一定要考出「理想」的成績\n(C) 我打開網路搜尋「引擎」，尋找機械「引擎」的構造\n(D) 徹夜未眠後的精神極度「恍惚」，就在「恍惚」之間，他身形踉蹌，連站都站不穩",
+      "answer": "(D) 徹夜未眠後的精神極度「恍惚」，就在「恍惚」之間，他身形踉蹌，連站都站不穩",
+      "explanation": "把相同詞語分別放回前後語境判讀。D兩個「恍惚」都在描述神志不清、精神不集中的狀態，意思相同。A分別是側轉身體與投入某個行業；B分別是人生目標與令人滿意；C分別是網路檢索系統與提供動力的機械，不能只憑字形相同就判定同義。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "詞義",
+        "語境",
+        "多義詞"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-10-f4816c89ac4b.png"
+      ],
+      "sourceLabel": "分享原卷｜第6題",
+      "studentAnswer": "藍筆B，紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "6",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "她曾因在狹小空間「側身」工作而深感不便，促使她後來「側身」室內設計業，致力於優化空間規畫",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "前者側轉身體，後者投入、參與室內設計業，意思不同。"
+        },
+        {
+          "label": "B",
+          "text": "為了實現「理想」，我一定要考出「理想」的成績",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "前者是希望實現的目標，後者形容成績符合期望，意思不同。"
+        },
+        {
+          "label": "C",
+          "text": "我打開網路搜尋「引擎」，尋找機械「引擎」的構造",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "前者指網路搜尋系統，後者指機械動力裝置，意思不同。"
+        },
+        {
+          "label": "D",
+          "text": "徹夜未眠後的精神極度「恍惚」，就在「恍惚」之間，他身形踉蹌，連站都站不穩",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "兩處均描述徹夜未眠造成的神志不清、精神迷糊，意思相同。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "相同詞形，放回語境看意思",
+        "art": "assets/comics/q-948-art-d0ee6cf41f.svg",
+        "panels": [
+          {
+            "heading": "① 側身與理想：前後不同義",
+            "text": "側身先指側轉身體，後指投入行業；理想先是想實現的目標，後指成績令人滿意。",
+            "alt": "兩組多義詞明確對照前後義。",
+            "diagram": {
+              "kind": "paths",
+              "title": "A、B：詞形相同，義不同",
+              "items": [
+                {
+                  "label": "A｜側身",
+                  "tone": "blue",
+                  "detail": "側轉身體／投入行業。"
+                },
+                {
+                  "label": "B｜理想",
+                  "tone": "gold",
+                  "detail": "人生目標／符合期望。"
+                }
+              ],
+              "target": "前後詞義不同",
+              "arrow": "比較兩處用法"
+            }
+          },
+          {
+            "heading": "② 引擎：系統與機械不同",
+            "text": "搜尋引擎是協助檢索資訊的系統；機械引擎是提供動力的裝置。不能只看到同名就判同義。",
+            "alt": "搜尋引擎與機械引擎以文字直接標明類別。",
+            "diagram": {
+              "kind": "paths",
+              "title": "C：不同領域的引擎",
+              "items": [
+                {
+                  "label": "搜尋引擎",
+                  "tone": "blue",
+                  "detail": "網路檢索系統。"
+                },
+                {
+                  "label": "機械引擎",
+                  "tone": "gold",
+                  "detail": "提供動力的機械。"
+                }
+              ],
+              "target": "名稱相同，指涉不同",
+              "arrow": "比較所指事物"
+            }
+          },
+          {
+            "heading": "③ 恍惚：都指神志不清",
+            "text": "D的兩處恍惚都接在徹夜未眠的情境中，描寫神志不清、精神迷糊，前後意思相同。",
+            "alt": "D兩處恍惚共同對應精神迷糊，不添加學生實際想法。",
+            "diagram": {
+              "kind": "paths",
+              "title": "D：兩處義相同",
+              "items": [
+                {
+                  "label": "精神極度恍惚",
+                  "tone": "green",
+                  "detail": "神志不清。"
+                },
+                {
+                  "label": "就在恍惚之間",
+                  "tone": "green",
+                  "detail": "精神迷糊。"
+                }
+              ],
+              "target": "同義｜精神不集中",
+              "arrow": "換成白話比較"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：兩處恍惚意思相同",
+          "points": [
+            "字形相同，不保證詞義相同。",
+            "比較各詞在前後句中所指的意思。",
+            "D兩處均為精神迷糊、神志不清。"
+          ]
+        },
+        "protectedWords": [
+          "側身",
+          "理想",
+          "引擎",
+          "恍惚",
+          "搜尋引擎",
+          "機械引擎",
+          "神志不清"
+        ]
+      }
+    },
+    {
+      "id": "q-949",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第7題｜成語的使用語境",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "下列「」中的成語，何者運用正確？\n(A) 這部科幻電影有「駭人聽聞」的奇幻世界觀，精彩程度令所有觀眾感到瞠目結舌\n(B) 我每天「處心積慮」的學習，就是為了完成自己的人生目標\n(C) 辯論比賽中立場對立的雙方辯士皆「振振有辭」的發表意見\n(D) 春天一到，只見大地百花盛開，「鳶飛魚躍」，一片欣欣向榮的景象",
+      "answer": "(D) 春天一到，只見大地百花盛開，「鳶飛魚躍」，一片欣欣向榮的景象",
+      "explanation": "D「鳶飛魚躍」本指鷹在天飛、魚在水中躍動，比喻萬物順其天性活動、各得其所，與春天生機盎然的景象相合。\n\n其餘須注意成語的語意與感情色彩：駭人聽聞指事情可怕、令人震驚，不適合單純稱讚電影精彩；處心積慮通常指費盡心思謀算，含貶義；振振有辭是自以為理直氣壯而辯說不停，原句僅說雙方正常發表意見，缺少這層語氣。不是只要出現辯論二字就不能用振振有辭，而是本句沒有交代相應語境。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "成語",
+        "感情色彩",
+        "語境"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-12-23b101c4e726.png"
+      ],
+      "sourceLabel": "分享原卷｜第7題",
+      "studentAnswer": "原作答痕跡重疊，未能確定辨識；紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "7",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "這部科幻電影有「駭人聽聞」的奇幻世界觀，精彩程度令所有觀眾感到瞠目結舌",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "把令人震驚、可怕的意味用來稱讚奇幻世界觀精彩，語意不合。"
+        },
+        {
+          "label": "B",
+          "text": "我每天「處心積慮」的學習，就是為了完成自己的人生目標",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "處心積慮常用於長期費心謀算，含貶義，不適合單純的積極學習。"
+        },
+        {
+          "label": "C",
+          "text": "辯論比賽中立場對立的雙方辯士皆「振振有辭」的發表意見",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "詞語含自以為有理而辯說不止的意味；題句只有中性的發表意見，不相應。"
+        },
+        {
+          "label": "D",
+          "text": "春天一到，只見大地百花盛開，「鳶飛魚躍」，一片欣欣向榮的景象",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "萬物自然活動、各得其所的景象，符合春天百花盛開、欣欣向榮。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "成語要和語境、語氣一起看",
+        "art": "assets/comics/q-949-art-8440f5e969-web.webp",
+        "panels": [
+          {
+            "heading": "① 鳶飛魚躍：生機自然展開",
+            "text": "鳶在天空飛，魚在水中躍，比喻萬物順其天性、各得其所。與春天百花盛開、欣欣向榮的D相合。",
+            "alt": "春天溪邊真鳥飛翔、魚在水邊躍起，花草繁盛，非玩具風箏。"
+          },
+          {
+            "heading": "② 讚美電影、努力學習，別誤用貶義",
+            "text": "A駭人聽聞偏可怕驚人，不適合單純稱讚精彩；B處心積慮偏費心謀算，不適合平常的認真學習。",
+            "alt": "少女在書桌前認真學習，正面情境不等於處心積慮的貶義謀算。"
+          },
+          {
+            "heading": "③ 振振有辭不等於正常發表意見",
+            "text": "振振有辭是自以為有理而辯說不停。C只寫雙方發表意見，缺少這層語氣；不是凡辯論就不能使用。",
+            "alt": "同學中性地輪流討論，配合HTML說明需要自以為有理的語境，未把辯論一律當錯。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：鳶飛魚躍",
+          "points": [
+            "看成語本義、引申義和感情色彩。",
+            "D呼應萬物活動、各得其所的春景。",
+            "C須有相應語氣，不能僅憑辯論二字判斷。"
+          ]
+        },
+        "protectedWords": [
+          "鳶飛魚躍",
+          "各得其所",
+          "欣欣向榮",
+          "駭人聽聞",
+          "處心積慮",
+          "振振有辭",
+          "感情色彩"
+        ]
+      }
+    },
+    {
+      "id": "q-950",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第9題｜成語間的詞義關係",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "「撲朔迷離」之於「錯綜複雜」的詞義關係，與下列何者相同？\n(A) 「泥牛入海」之於「自身難保」\n(B) 「熙來攘往」之於「絡繹不絕」\n(C) 「釜底游魚」之於「釜中生魚」\n(D) 「長驅直入」之於「退避三舍」",
+      "answer": "(B) 「熙來攘往」之於「絡繹不絕」",
+      "explanation": "題幹兩詞都可形容事物複雜、難以理清，屬近義關係。B「熙來攘往」強調人來人往、熱鬧眾多，「絡繹不絕」強調前後接續、不間斷，兩者在形容往來人群時意思相近，教育部成語典亦互列近義。\n\nC不可只因都有鍋與魚就當同義：釜底游魚比喻處境危急；釜中生魚以長久斷炊、鍋中生出魚蟲，形容窮困。A是一去無消息與自身不能保全；D是迅速深入與主動退讓，均非題幹所要的近義關係。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "成語",
+        "近義詞",
+        "詞義比較"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-11-abb8372887cc.png"
+      ],
+      "sourceLabel": "分享原卷｜第9題",
+      "studentAnswer": "作答與紅筆痕跡重疊，原選項未能確定辨識；紅筆B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "9",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "「泥牛入海」之於「自身難保」",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "泥牛入海指一去不返、杳無消息；自身難保指自己也難以保全，意思不同。"
+        },
+        {
+          "label": "B",
+          "text": "「熙來攘往」之於「絡繹不絕」",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "兩者都可描述往來頻繁、接連不斷的人群，屬近義關係。"
+        },
+        {
+          "label": "C",
+          "text": "「釜底游魚」之於「釜中生魚」",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "釜底游魚指處境極危險；釜中生魚指窮困斷炊，意思不同。"
+        },
+        {
+          "label": "D",
+          "text": "「長驅直入」之於「退避三舍」",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "長驅直入是快速深入，退避三舍是主動退讓，行動方向相對。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "成語配對先比較詞義關係",
+        "art": "assets/comics/q-950-art-bcd2d0564b.svg",
+        "panels": [
+          {
+            "heading": "① 題幹要找近義關係",
+            "text": "撲朔迷離和錯綜複雜，都可形容事物複雜、難以理清。本題要找另一組意思相近的詞。",
+            "alt": "題幹兩成語與近義關係明確標示。",
+            "diagram": {
+              "kind": "paths",
+              "title": "先判題幹關係",
+              "items": [
+                {
+                  "label": "撲朔迷離",
+                  "tone": "blue",
+                  "detail": "複雜、難以辨明。"
+                },
+                {
+                  "label": "錯綜複雜",
+                  "tone": "blue",
+                  "detail": "交錯繁複，不易理清。"
+                }
+              ],
+              "target": "關係｜近義",
+              "arrow": "比較主要意思"
+            }
+          },
+          {
+            "heading": "② B往來不斷；C危險與貧困不同",
+            "text": "B兩詞都可描述往來頻繁的人群。C雖都有釜與魚，釜底游魚是危險，釜中生魚則是貧困斷炊。",
+            "alt": "B近義與C非同義兩組並列精確解釋。",
+            "diagram": {
+              "kind": "paths",
+              "title": "比較最易混淆的兩組",
+              "items": [
+                {
+                  "label": "B｜熙來攘往／絡繹不絕",
+                  "tone": "green",
+                  "detail": "人來人往／接續不斷，近義。"
+                },
+                {
+                  "label": "C｜釜底游魚／釜中生魚",
+                  "tone": "gold",
+                  "detail": "處境危急／窮困斷炊，非同義。"
+                }
+              ],
+              "target": "只有B符合近義配對",
+              "arrow": "核對各詞意思"
+            }
+          },
+          {
+            "heading": "③ A不同重點；D行動方向相對",
+            "text": "泥牛入海是沒有消息，自身難保是難以保全自己；長驅直入是迅速深入，退避三舍是主動退讓。",
+            "alt": "A失訊和自身危險、D進退方向直接用中文標示。",
+            "diagram": {
+              "kind": "paths",
+              "title": "A、D不符題幹關係",
+              "items": [
+                {
+                  "label": "A｜泥牛入海／自身難保",
+                  "tone": "blue",
+                  "detail": "杳無消息／自身危險。"
+                },
+                {
+                  "label": "D｜長驅直入／退避三舍",
+                  "tone": "gold",
+                  "detail": "快速深入／主動退讓。"
+                }
+              ],
+              "target": "都不是題幹要的近義關係",
+              "arrow": "比較重點與方向"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：熙來攘往／絡繹不絕",
+          "points": [
+            "先判題幹是近義，再找相同關係。",
+            "釜底游魚是危險；釜中生魚是貧困。",
+            "相同意象不代表成語意思相同。"
+          ]
+        },
+        "protectedWords": [
+          "撲朔迷離",
+          "錯綜複雜",
+          "熙來攘往",
+          "絡繹不絕",
+          "釜底游魚",
+          "釜中生魚",
+          "泥牛入海",
+          "自身難保",
+          "長驅直入",
+          "退避三舍"
+        ]
+      }
+    },
+    {
+      "id": "q-951",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第2題｜詞語中的多音字",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "answer": "原卷預期(A)；(B)亦有同音解讀，單選設計有疑義。",
+      "explanation": "A交通要衝、橫衝直撞的「衝」都讀ㄔㄨㄥ，符合原卷預期答案A。C炸子雞的炸讀ㄓㄚˊ，爆炸讀ㄓㄚˋ；D忖度讀ㄉㄨㄛˋ，尺度讀ㄉㄨˋ，這兩組不同音。\n\n但B不能武斷判成不同音。教育部《國語辭典簡編本》「劃」在擦掠、拖拉過表面並留下痕跡的意思讀ㄏㄨㄚˊ；原句的「劃過湖面」與「劃出一條雪白水線」都可作這種理解。第二個劃若按區分、分界義解作ㄏㄨㄚˋ，才會不同音，題句本身沒有明確限定。因此保留原卷預期A，同時標示B也有同音讀法，不能認定A為唯一可選。來源AI最後亦已提出此限制。",
+      "trap": "",
+      "verification": "待核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。A讀音確定；B的兩讀語境限制列monitor核對，不硬指定唯一答案。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "字音",
+        "多音字",
+        "單選疑義"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-13-0698da60eac7.png"
+      ],
+      "sourceLabel": "分享原卷｜第2題",
+      "studentAnswer": "藍筆B，紅筆訂正A。",
+      "contentStatus": "完整原題",
+      "correctOption": "",
+      "passage": "",
+      "originalQuestionNumber": "2",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "騎著機車在交通要「衝」的路口橫「衝」直撞非常危險",
+          "wordClass": "原卷預期，非唯一",
+          "meaning": "",
+          "explanation": "兩個衝皆讀ㄔㄨㄥ，有明確字典依據。"
+        },
+        {
+          "label": "B",
+          "text": "快艇「劃」過湖面，在水面「劃」出一條雪白水線",
+          "wordClass": "有同音解讀",
+          "meaning": "",
+          "explanation": "兩個劃都可按擦掠、留下痕跡讀ㄏㄨㄚˊ；原句不足以強制第二個讀ㄏㄨㄚˋ，因此有同音解讀。"
+        },
+        {
+          "label": "C",
+          "text": "演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "炸子雞ㄓㄚˊ；爆炸ㄓㄚˋ，不同音。"
+        },
+        {
+          "label": "D",
+          "text": "我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "忖度ㄉㄨㄛˋ；尺度ㄉㄨˋ，不同音。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "多音字要依語境，不硬排除另一讀法",
+        "art": "assets/comics/q-951-art-8197bd3060.svg",
+        "panels": [
+          {
+            "heading": "① A的兩個衝確定同音",
+            "text": "交通要衝指交通重要處，橫衝直撞指猛烈衝撞。這兩個衝都讀ㄔㄨㄥ，符合原卷預期A。",
+            "alt": "兩個衝各有詞語與ㄔㄨㄥ注音標示。",
+            "diagram": {
+              "kind": "paths",
+              "title": "A：同讀ㄔㄨㄥ",
+              "items": [
+                {
+                  "label": "交通要衝",
+                  "tone": "green",
+                  "detail": "ㄔㄨㄥ｜交通重要處。"
+                },
+                {
+                  "label": "橫衝直撞",
+                  "tone": "green",
+                  "detail": "ㄔㄨㄥ｜向前衝撞。"
+                }
+              ],
+              "target": "A同音確定",
+              "arrow": "比較兩詞讀音"
+            }
+          },
+          {
+            "heading": "② B的兩個劃也可同音",
+            "text": "兩處若都指快艇擦掠水面、留下痕跡，就都可讀ㄏㄨㄚˊ。只有採區分、分界義時才讀ㄏㄨㄚˋ，題句未明確限定。",
+            "alt": "擦掠與區分兩種義項各標正確讀音，不把B劃叉。",
+            "diagram": {
+              "kind": "paths",
+              "title": "B：不能強制判不同音",
+              "items": [
+                {
+                  "label": "擦掠、拖過表面留痕",
+                  "tone": "green",
+                  "detail": "劃｜ㄏㄨㄚˊ，兩處均可這樣解。"
+                },
+                {
+                  "label": "區分、分界義",
+                  "tone": "gold",
+                  "detail": "劃｜ㄏㄨㄚˋ，原句未限定此義。"
+                }
+              ],
+              "target": "B亦有同音的語境解讀",
+              "arrow": "按義項選讀音"
+            }
+          },
+          {
+            "heading": "③ C、D則確定不同音",
+            "text": "炸子雞的炸讀ㄓㄚˊ，爆炸讀ㄓㄚˋ；忖度讀ㄉㄨㄛˋ，尺度讀ㄉㄨˋ。兩組都有清楚音差。",
+            "alt": "炸子雞/爆炸與忖度/尺度逐詞標出聲調，不將忖誤作付。",
+            "diagram": {
+              "kind": "paths",
+              "title": "C、D：讀音不同",
+              "items": [
+                {
+                  "label": "C｜炸子雞／爆炸",
+                  "tone": "blue",
+                  "detail": "ㄓㄚˊ／ㄓㄚˋ。"
+                },
+                {
+                  "label": "D｜忖度／尺度",
+                  "tone": "gold",
+                  "detail": "ㄉㄨㄛˋ／ㄉㄨˋ。"
+                }
+              ],
+              "target": "這兩組不同音",
+              "arrow": "逐詞核對聲調"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "原卷預期 A；B亦可同音，單選有疑義",
+          "points": [
+            "A兩衝均讀ㄔㄨㄥ。",
+            "B兩劃可按擦掠義同讀ㄏㄨㄚˊ。",
+            "保留原題，不指定A為唯一正解。"
+          ]
+        },
+        "protectedWords": [
+          "交通要衝",
+          "橫衝直撞",
+          "擦掠",
+          "區分",
+          "分界",
+          "炸子雞",
+          "爆炸",
+          "忖度",
+          "尺度",
+          "單選有疑義"
+        ]
+      },
+      "reviewQuestions": [
+        "原卷預期A；B的兩個「劃」亦可按擦掠讀ㄏㄨㄚˊ，目前保留單選設計疑義、不指定唯一答案。請核對此處理是否可以保留。"
+      ],
+      "reviewExcerpt": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "reviewLabel": "優先核對 1／1",
+      "reviewPreviousId": "",
+      "reviewNextId": ""
+    },
+    {
+      "id": "q-952",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第5題｜疊字在詞中的作用",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "「直刺刺」一詞中的「刺刺」為補足形容詞的語助詞，本身沒有意義。下列疊字詞，何者也是這種無意義的助詞？\n(A) 「直挺挺」的站著\n(B) 「熱騰騰」的飯菜\n(C) 「黑漆漆」的天空\n(D) 「瘦巴巴」的身材",
+      "answer": "(D) 「瘦巴巴」的身材",
+      "explanation": "本題依原卷對形容詞後綴的分類，找的是後兩字不另外提供具體詞義、用來補足描寫語氣的情形。D「瘦巴巴」形容很瘦，「巴巴」在這個詞中作後綴，與題幹「直刺刺」的分析最接近。\n\nA的挺與挺直、直立有關；B的騰可聯想到熱氣升騰；C的漆可聯想到漆黑，均保留可辨識的描寫意義。這裡的「沒有意義」限於本題所談詞內作用，並不是說巴巴在任何詞語中都沒有意義，也不是說所有ABB疊字詞都是無意義助詞。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "詞語結構",
+        "疊字",
+        "形容詞後綴"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-14-43272775d495.png"
+      ],
+      "sourceLabel": "分享原卷｜第5題",
+      "studentAnswer": "藍筆B，紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "5",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "「直挺挺」的站著",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "挺保留挺直、直立的意思。"
+        },
+        {
+          "label": "B",
+          "text": "「熱騰騰」的飯菜",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "騰有熱氣騰起的形象，補充飯菜冒熱氣的狀態。"
+        },
+        {
+          "label": "C",
+          "text": "「黑漆漆」的天空",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "漆與漆黑相關，仍有黑色深濃的描寫意義。"
+        },
+        {
+          "label": "D",
+          "text": "「瘦巴巴」的身材",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "本詞巴巴作形容詞後綴，用以補足語氣、強化很瘦的樣子，符合題幹分類。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "疊字後綴的作用要放回詞內看",
+        "art": "assets/comics/q-952-art-362a2a66f7.svg",
+        "panels": [
+          {
+            "heading": "① 不只看ABB外形",
+            "text": "題幹把直刺刺中的刺刺分析為補足形容詞的後綴。要比的是詞內作用，不能看到疊字就全選。",
+            "alt": "直加刺刺的詞語構成與後綴作用標示。",
+            "diagram": {
+              "kind": "flow",
+              "title": "題幹的結構",
+              "items": [
+                {
+                  "label": "直＋刺刺",
+                  "tone": "blue",
+                  "detail": "直表主要特徵。"
+                },
+                {
+                  "label": "刺刺｜後綴",
+                  "tone": "blue",
+                  "detail": "依本題分類，補足描寫語氣。"
+                }
+              ],
+              "arrow": "辨認後兩字的作用"
+            }
+          },
+          {
+            "heading": "② A、B、C仍有字面聯想",
+            "text": "挺可指挺直；騰可聯想到熱氣升騰；漆可聯想到漆黑。本題把這些視為仍有描寫意義的疊字。",
+            "alt": "三個詞各標語意，沒有只靠顏色區分類別。",
+            "diagram": {
+              "kind": "paths",
+              "title": "A、B、C：仍有描寫意義",
+              "items": [
+                {
+                  "label": "直挺挺｜挺直、直立",
+                  "tone": "blue"
+                },
+                {
+                  "label": "熱騰騰｜熱氣升騰",
+                  "tone": "gold",
+                  "detail": "騰的形象仍可辨識。"
+                },
+                {
+                  "label": "黑漆漆｜漆黑",
+                  "tone": "blue",
+                  "detail": "黑色深濃的描寫。"
+                }
+              ],
+              "target": "不屬本題要找的後綴類",
+              "arrow": "比較後兩字語意"
+            }
+          },
+          {
+            "heading": "③ 瘦巴巴：巴巴補足語氣",
+            "text": "瘦是主要的特徵，巴巴在此作後綴，補足很瘦的樣子。這不表示巴巴在任何詞裡都沒有意義。",
+            "alt": "瘦加巴巴後綴結構及使用範圍明示。",
+            "diagram": {
+              "kind": "flow",
+              "title": "D：與題幹作用相近",
+              "items": [
+                {
+                  "label": "瘦＋巴巴",
+                  "tone": "blue",
+                  "detail": "瘦表主要特徵。"
+                },
+                {
+                  "label": "整詞｜很瘦的樣子",
+                  "tone": "green",
+                  "detail": "巴巴在本詞中作後綴。"
+                }
+              ],
+              "arrow": "結合為形容詞"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：瘦巴巴",
+          "points": [
+            "比較詞內作用，不只比ABB外形。",
+            "巴巴在本詞中作補足描寫的後綴。",
+            "「無意義」限於本題所談的後綴作用。"
+          ]
+        },
+        "protectedWords": [
+          "直刺刺",
+          "刺刺",
+          "直挺挺",
+          "熱騰騰",
+          "黑漆漆",
+          "瘦巴巴",
+          "巴巴",
+          "後綴"
+        ]
+      }
+    },
+    {
+      "id": "q-953",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第9題｜海洋文學的特色",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "關於「海洋文學」的說明，下列敘述何者正確？\n(A) 起源於描繪近海地區人民的生活寫照與拚搏的精神\n(B) 寫作者大多是漁夫或是從事海洋生態研究的學者\n(C) 作品經常藉由人與海洋的互動傳達關懷生態的情感\n(D) 此類作品偏重客觀的報導與生態的研究，少有抒情作品",
+      "answer": "(C) 作品經常藉由人與海洋的互動傳達關懷生態的情感",
+      "explanation": "海洋文學透過海洋經驗、人與海的關係展開書寫，可結合生命感受與生態關懷，C描述其常見特色，最適當。它可以包含散文、小說與報導文學，並不排斥抒情。\n\nA把描寫沿海居民生活這一類題材，直接當作整個文類唯一或固定的起源，過於限縮；B把作者身分限在漁夫、海洋生態學者，缺乏依據；D則把海洋文學窄化為客觀生態研究，忽略文學中的情感與想像。解題是在辨認文類特色，無須將C解釋成所有海洋文學都必須有相同主旨。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "海洋文學",
+        "文學常識",
+        "生態關懷"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-15-087efbd6a4ba.png"
+      ],
+      "sourceLabel": "分享原卷｜第9題",
+      "studentAnswer": "藍筆A，紅筆訂正C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "9",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "起源於描繪近海地區人民的生活寫照與拚搏的精神",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "沿海生活與拚搏可以是題材，但不足以直接概括海洋文學的固定起源。"
+        },
+        {
+          "label": "B",
+          "text": "寫作者大多是漁夫或是從事海洋生態研究的學者",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "海洋文學作者身分多元，不能限定多為漁夫或生態研究學者。"
+        },
+        {
+          "label": "C",
+          "text": "作品經常藉由人與海洋的互動傳達關懷生態的情感",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "人海互動與生態關懷是常見特色，符合題意。"
+        },
+        {
+          "label": "D",
+          "text": "此類作品偏重客觀的報導與生態的研究，少有抒情作品",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "海洋文學有散文、小說等抒情、敘事作品，不只客觀研究或報導。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "海洋文學如何表現人與海",
+        "art": "assets/comics/q-953-art-fff9eabada.svg",
+        "panels": [
+          {
+            "heading": "① 文學連結人與海洋",
+            "text": "海洋文學可從人的海洋經驗出發，書寫人海互動，表達生命感受與生態關懷。這是C說的常見特色。",
+            "alt": "人海互動與生命感受、生態關懷的關係明確標名。",
+            "diagram": {
+              "kind": "flow",
+              "title": "C：常見書寫方向",
+              "items": [
+                {
+                  "label": "人與海洋互動",
+                  "tone": "blue",
+                  "detail": "觀察、生活與接觸海洋的經驗。"
+                },
+                {
+                  "label": "情感與思考",
+                  "tone": "green",
+                  "detail": "生命感受、生態關懷。"
+                }
+              ],
+              "arrow": "透過作品表達"
+            }
+          },
+          {
+            "heading": "② 題材與作者，不能窄化",
+            "text": "沿海生活可以是題材，卻不能直接概括整個文類的起源；作者身分也不只限於漁夫或生態學者。",
+            "alt": "A題材與起源、B作者身分的範圍錯置直接標示。",
+            "diagram": {
+              "kind": "paths",
+              "title": "A、B：範圍說得太窄",
+              "items": [
+                {
+                  "label": "A｜近海居民生活",
+                  "tone": "gold",
+                  "detail": "可以是題材，不能概括固定起源。"
+                },
+                {
+                  "label": "B｜漁夫或生態學者",
+                  "tone": "blue",
+                  "detail": "作者身分並不限這兩類。"
+                }
+              ],
+              "target": "部分特色不能當全部定義",
+              "arrow": "核對敘述範圍"
+            }
+          },
+          {
+            "heading": "③ 文學不只客觀報導",
+            "text": "海洋文學可包含散文、小說、報導文學，也能抒發情感。D把它當成偏重客觀研究而少有抒情，過度限縮。",
+            "alt": "多種文體與抒情可能性用文字列出，不把海洋文學化約成生態報告。",
+            "diagram": {
+              "kind": "paths",
+              "title": "D：忽略文學的多元表達",
+              "items": [
+                {
+                  "label": "文體｜散文、小說、報導文學",
+                  "tone": "blue"
+                },
+                {
+                  "label": "表達｜敘事、抒情、觀察思考",
+                  "tone": "green",
+                  "detail": "不限於客觀生態研究。"
+                }
+              ],
+              "target": "可寫知識，也可表情感",
+              "arrow": "辨識文類特色"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：人海互動與生態關懷",
+          "points": [
+            "C說的是常見特色，不是所有作品唯一主旨。",
+            "作者身分與寫作題材都很多元。",
+            "文學能抒情，不只客觀報導或研究。"
+          ]
+        },
+        "protectedWords": [
+          "海洋文學",
+          "人海互動",
+          "生態關懷",
+          "散文",
+          "小說",
+          "報導文學",
+          "抒情"
+        ]
+      }
+    },
+    {
+      "id": "q-954",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第10題｜海的歇後語與語境",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "下列文句皆運用關於「海」的歇後語，何者正確？\n(A) 我只要行得正，縱任他有「太平洋搬家」的本事，又奈我何\n(B) 跟忘恩負義的人講道理，簡直就是「望遠鏡照太平洋」，白費力氣\n(C) 我已是「大海裡撈針」，自身難保了，哪有餘力幫你\n(D) 他會處理自己的事，你就別「大海裡蕩舟」，多管閒事了",
+      "answer": "(A) 我只要行得正，縱任他有「太平洋搬家」的本事，又奈我何",
+      "explanation": "歇後語要先補出後半意思，再檢查是否符合原句。「太平洋搬家」借整片海洋被翻動的誇張想像，接「翻江倒海」，比喻本領、力量或聲勢巨大。A表示只要自己行得正，就算對方本事很大也無可奈何，語意相合。\n\nB望遠鏡照太平洋接一望無涯，強調視野所見遼闊，不表示白費力氣；C大海裡撈針接難上難，比喻尋物或完成事情極困難，不表示自身難保；D大海裡蕩舟接划不來，利用划船與划算的音義聯想表示不值得，並非多管閒事。不能只看後面的白話解釋通順，就忽略歇後語原意。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "歇後語",
+        "諧音",
+        "語境"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-01-d34fe5e51897.png"
+      ],
+      "sourceLabel": "分享原卷｜第10題",
+      "studentAnswer": "藍筆B，紅筆訂正A。",
+      "contentStatus": "完整原題",
+      "correctOption": "A",
+      "passage": "",
+      "originalQuestionNumber": "10",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "我只要行得正，縱任他有「太平洋搬家」的本事，又奈我何",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "太平洋搬家接翻江倒海，形容本領或聲勢很大，與縱任對方有本事而奈何不了自己相合。"
+        },
+        {
+          "label": "B",
+          "text": "跟忘恩負義的人講道理，簡直就是「望遠鏡照太平洋」，白費力氣",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "一望無涯是遼闊無邊，與白費力氣不相合。"
+        },
+        {
+          "label": "C",
+          "text": "我已是「大海裡撈針」，自身難保了，哪有餘力幫你",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "難上難指事情難以完成或東西難尋，不是自己的安全難保。"
+        },
+        {
+          "label": "D",
+          "text": "他會處理自己的事，你就別「大海裡蕩舟」，多管閒事了",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "划不來是不值得，與多管閒事不同。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先補出歇後語意思，再看語境",
+        "art": "assets/comics/q-954-art-a007bf1127-web.webp",
+        "panels": [
+          {
+            "heading": "① 太平洋搬家：翻江倒海",
+            "text": "借搬動整片海洋的誇張想像，形容本領或聲勢巨大。A說對方縱有這種本事，也奈何不了行得正的自己，語意相合。",
+            "alt": "誇張的巨大海浪象徵翻江倒海的本領，為語文比喻想像而非科學現象。"
+          },
+          {
+            "heading": "② 望遠鏡照太平洋：一望無涯",
+            "text": "這句強調遼闊無邊的景象。B卻接白費力氣，和歇後語原意不符，不能只看後面的解釋像是通順。",
+            "alt": "少女從安全觀景臺用望遠鏡看遼闊海面，表現一望無涯。"
+          },
+          {
+            "heading": "③ 難上難、划不來，各有意思",
+            "text": "C大海裡撈針是難上難，不是自身難保；D大海裡蕩舟接划不來，表示不值得，不是多管閒事。",
+            "alt": "海上小舟以廣闊海面襯出划不來的歇後語想像，C撈針的意思另由精確HTML說明。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：太平洋搬家，翻江倒海",
+          "points": [
+            "A比喻本領、力量或聲勢巨大。",
+            "B一望無涯；C難上難；D划不來。",
+            "先確認固定意思，再放回整句檢查。"
+          ]
+        },
+        "protectedWords": [
+          "太平洋搬家",
+          "翻江倒海",
+          "望遠鏡照太平洋",
+          "一望無涯",
+          "大海裡撈針",
+          "難上難",
+          "自身難保",
+          "大海裡蕩舟",
+          "划不來",
+          "多管閒事"
+        ]
+      }
+    },
+    {
+      "id": "q-955",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第29題｜引文的意旨",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "廖鴻基：「如果要說海洋教給了我什麼，那應該是它的多變，和容納一切的力量。和海洋相比，人的生命實在太渺小了，接觸這麼龐大的生命體，人的心也自然會被撐大、拓寬。」這句話的意旨，與下列何者最接近？\n(A) 投身海洋事業，錢財自然滾滾來\n(B) 執筆寫下海洋文學，心境更開闊\n(C) 向大自然的特質學習，更懂包容\n(D) 一山還有一山高，不要比較猜忌",
+      "answer": "(C) 向大自然的特質學習，更懂包容",
+      "explanation": "引文先說海洋有容納一切的力量，再說人接觸海洋，心也受到啟發而拓寬。它談的是從大自然學習包容、開闊心胸，因此C最貼近。人的心被撐大是比喻心胸改變，不是生理尺寸變大。\n\nB的心境開闊雖呼應部分文字，卻多加了「執筆寫作」作為原因。原文的因果是接觸海洋、感受海洋的特質，並沒有說透過寫作才得到這份體悟。A的獲利、D的比較猜忌也都不是這段話的重點。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷及裁切成品，逐字核對本題題幹、全部選項與必要材料。無可確認的教材對應冊次、章節，歸綜合。日期取原問首次訊息的台灣日期，非實際考試日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "文意理解",
+        "引文",
+        "海洋文學"
+      ],
+      "images": [
+        "assets/originals/src-more-057-question-02-9d0c80df7582.png"
+      ],
+      "sourceLabel": "分享原卷｜第29題",
+      "studentAnswer": "藍筆B，紅筆訂正C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "29",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "投身海洋事業，錢財自然滾滾來",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "引文沒有談海洋事業賺錢。"
+        },
+        {
+          "label": "B",
+          "text": "執筆寫下海洋文學，心境更開闊",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "心境開闊有相近處，但執筆寫作這個原因未見於原文。"
+        },
+        {
+          "label": "C",
+          "text": "向大自然的特質學習，更懂包容",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "海洋容納萬物啟發人學習包容，對應引文主要意旨。"
+        },
+        {
+          "label": "D",
+          "text": "一山還有一山高，不要比較猜忌",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "文意重點是自然帶來的包容與開闊，不是比較高下或猜忌。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從接觸海洋，體會包容與開闊",
+        "art": "assets/comics/q-955-art-90b4147c78-web.webp",
+        "panels": [
+          {
+            "heading": "① 面對大海，體會人的渺小",
+            "text": "作者把人的生命和龐大的海洋相比，藉此看見自身的有限。這段是在談生命體悟，沒有談海洋事業賺錢。",
+            "alt": "少女在安全海岸觀景處面對遼闊海洋，襯出個體與自然尺度的差別。"
+          },
+          {
+            "heading": "② 海洋的包容，啟發人的心胸",
+            "text": "容納一切的力量，讓人接觸後心也被撐大、拓寬。「心被撐大」比喻更開闊、更能包容，不是身體變大。",
+            "alt": "少女安靜接觸觀察海洋，沒有執筆寫作或生理心臟變大。"
+          },
+          {
+            "heading": "③ B多加寫作原因；C貼合原文",
+            "text": "原文是接觸海洋的特質而學習包容，C最接近。B把執筆寫作當原因，超出引文；不是只看到心境開闊就能選。",
+            "alt": "少女傾聽朋友，作學習包容的輔助情境；此互動不是引文新增的題目條件。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：向大自然的特質學習，更懂包容",
+          "points": [
+            "線索：容納一切、人的心被拓寬。",
+            "因接觸海洋而體悟，並非因寫作。",
+            "閱讀只據引文，不加獲利或比較猜忌的意思。"
+          ]
+        },
+        "protectedWords": [
+          "生命體悟",
+          "容納一切",
+          "心被撐大",
+          "接觸海洋",
+          "學習包容",
+          "心境開闊",
+          "執筆寫作"
+        ]
+      }
+    },
+    {
+      "id": "q-956",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文題組｜〈採珠行〉閱讀（第1、2題）",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "請閱讀共用文章，回答第1、2題。",
+      "answer": "【第1題】(B) 呼籲重視海洋生態的平衡\n【第2題】(D) 珍珠被採盡之前，富人揮霍珍珠的情景",
+      "explanation": "【第1題】\n全詩逐句白話\n「海波無底珠沉海，採珠之人判死採」：海水深不可測，珍珠沉在海底；採珠的人冒著生命危險去採取。「判死」指拼死、冒死。\n「萬人判死一得珠，斛量買婢人何在」：許多人冒死，才可能取得珍珠；那些以大量珍珠購買婢女的人，如今又在哪裡？「斛」是古代容量單位，以斛計珠顯出數量多，不是採珠工具。「萬人」與「一得」形成懸殊對比，不是提供可計算的統計採獲率。\n「年年採珠珠避人，今年採珠由海神」：人們年年採珠，珍珠彷彿躲避人類；今年甚至由海神親自採珠。這是詩中的想像、諷喻，不是神明採珠的歷史紀錄。\n「海神採珠珠盡死，死盡明珠空海水」：海神一採，珍珠便被取盡；珍珠消失，只剩空蕩的海水。藉誇張想像凸顯過度索取、資源耗竭。\n「珠為海物海屬神，神今自採何況人」：珍珠本來是海中產物，海洋又屬海神；如今連海神都自行採取，何況是人類呢？以反問延伸對貪取的反思。\n\n第1題詳解\n全詩由冒死採珠寫到「珠盡死」「空海水」，呈現過度索取之下珍珠耗竭的景象。在本題四個選項中，B最能涵蓋詩末對海洋資源及人類行為的反思，依原卷紅筆維持B。\nA把想像中的海神當成真有神、人爭奪的事件，偏離諷喻。C只抓住冒死採珠的危險，不能概括後半資源被採盡的內容。D只抓買婢，並非本詩整體論述。\n本詩也同情冒死勞動者、反映富貴者奢侈與社會不公；選B不表示古詩只有現代環境保護一種意義。作答須比較四項何者最能涵蓋本題所引全詩，不把單一細節當全文主旨。\n\n原AI作答紀錄更正：原AI曾寫本題藍筆選B且已正確；實看放大原卷，藍筆是A、紅筆訂正B。原題與答案B不變，原作答記錄依原圖更正。\n\n原典核對：[《全唐詩》卷418〈採珠行〉](https://zh.wikisource.org/zh-hant/全唐詩/卷418)。詩文用字依原卷保留。\n\n【第2題】\n逐詞判讀\n斛是古代容量單位；斛量表示珍珠多到以容量計量。買婢是購買婢女，動作是「買」，不是「賣」。合起來是在說富貴者以大量珍珠購買婢女、奢侈耗費珍珠的情景，因此選D。\n\nC把買婢反過來說成賣婢，還額外加入償債情節，原詩沒有這個因果。A把斛量誤套為一斛一斛採珠，也添入萬人空巷；B把採珠與無人買賣婢女連成原詩未說的因果，均不合。\n\n全詩逐句白話已列在本組第1題解說。此題把「萬人判死」的艱險取得，與「斛量買婢」的富人奢侈並置；把握動詞及前後對比，不因看到珍珠、婢女就拼出未出現的故事。這是對古代詩句的理解，不把買婢當成值得提倡的行為。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "〈採珠行〉的主旨判讀"
+      ],
+      "images": [
+        "assets/originals/src-more-057-pearl-poem-ce4fbddd6573.png",
+        "assets/originals/src-more-057-pearl-q1-b426e5d9a289.png",
+        "assets/originals/src-more-057-pearl-q2-cb68e5dc2540.png"
+      ],
+      "sourceLabel": "分享原卷｜第1題",
+      "studentAnswer": "【第1題】A；原卷紅筆訂正B。\n【第2題】C；原卷紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "",
+      "passage": "（甲）採珠行　元稹\n\n海波無底珠沉海，採珠之人判死採。\n萬人判死一得珠，斛量買婢人何在。\n年年採珠珠避人，今年採珠由海神。\n海神採珠珠盡死，死盡明珠空海水。\n珠為海物海屬神，神今自採何況人。\n\n注：①採珠：到水裡採取珍珠。②判死：付出生命作為代價。",
+      "originalQuestionNumber": "1、2",
+      "optionAnalysis": [],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "groupQuestions": [
+        {
+          "id": "q-956",
+          "sourceId": "src-more-057",
+          "subject": "Chinese",
+          "title": "國文第1題｜〈採珠行〉的主旨判讀",
+          "chapter": "綜合",
+          "volume": "綜合",
+          "date": "2026-11-04",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-11-04",
+          "question": "有關本詩的主旨，下列敘述何者正確？\n(A) 譴責人們與神明爭採珍珠\n(B) 呼籲重視海洋生態的平衡\n(C) 呼籲從事捕獵應重視安全\n(D) 撻伐買婢的行為忽視人權",
+          "answer": "(B) 呼籲重視海洋生態的平衡",
+          "explanation": "全詩逐句白話\n「海波無底珠沉海，採珠之人判死採」：海水深不可測，珍珠沉在海底；採珠的人冒著生命危險去採取。「判死」指拼死、冒死。\n「萬人判死一得珠，斛量買婢人何在」：許多人冒死，才可能取得珍珠；那些以大量珍珠購買婢女的人，如今又在哪裡？「斛」是古代容量單位，以斛計珠顯出數量多，不是採珠工具。「萬人」與「一得」形成懸殊對比，不是提供可計算的統計採獲率。\n「年年採珠珠避人，今年採珠由海神」：人們年年採珠，珍珠彷彿躲避人類；今年甚至由海神親自採珠。這是詩中的想像、諷喻，不是神明採珠的歷史紀錄。\n「海神採珠珠盡死，死盡明珠空海水」：海神一採，珍珠便被取盡；珍珠消失，只剩空蕩的海水。藉誇張想像凸顯過度索取、資源耗竭。\n「珠為海物海屬神，神今自採何況人」：珍珠本來是海中產物，海洋又屬海神；如今連海神都自行採取，何況是人類呢？以反問延伸對貪取的反思。\n\n第1題詳解\n全詩由冒死採珠寫到「珠盡死」「空海水」，呈現過度索取之下珍珠耗竭的景象。在本題四個選項中，B最能涵蓋詩末對海洋資源及人類行為的反思，依原卷紅筆維持B。\nA把想像中的海神當成真有神、人爭奪的事件，偏離諷喻。C只抓住冒死採珠的危險，不能概括後半資源被採盡的內容。D只抓買婢，並非本詩整體論述。\n本詩也同情冒死勞動者、反映富貴者奢侈與社會不公；選B不表示古詩只有現代環境保護一種意義。作答須比較四項何者最能涵蓋本題所引全詩，不把單一細節當全文主旨。\n\n原AI作答紀錄更正：原AI曾寫本題藍筆選B且已正確；實看放大原卷，藍筆是A、紅筆訂正B。原題與答案B不變，原作答記錄依原圖更正。\n\n原典核對：[《全唐詩》卷418〈採珠行〉](https://zh.wikisource.org/zh-hant/全唐詩/卷418)。詩文用字依原卷保留。",
+          "trap": "",
+          "verification": "原卷逐題核對",
+          "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+          "diagram": "",
+          "notes": "",
+          "status": "todo",
+          "starred": false,
+          "tags": [
+            "〈採珠行〉的主旨判讀"
+          ],
+          "images": [
+            "assets/originals/src-more-057-pearl-poem-ce4fbddd6573.png",
+            "assets/originals/src-more-057-pearl-q1-b426e5d9a289.png"
+          ],
+          "sourceLabel": "分享原卷｜第1題",
+          "studentAnswer": "A；原卷紅筆訂正B。",
+          "contentStatus": "完整原題",
+          "correctOption": "B",
+          "passage": "",
+          "originalQuestionNumber": "1",
+          "optionAnalysis": [
+            {
+              "label": "A",
+              "text": "譴責人們與神明爭採珍珠",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "海神為想像與諷喻，不是單純譴責人與神競爭。"
+            },
+            {
+              "label": "B",
+              "text": "呼籲重視海洋生態的平衡",
+              "wordClass": "應選",
+              "meaning": "",
+              "explanation": "珠盡死、空海水呈現資源被取盡，四項中最能概括本題全詩。"
+            },
+            {
+              "label": "C",
+              "text": "呼籲從事捕獵應重視安全",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "採珠危險是部分內容，不足概括後半的資源耗竭。"
+            },
+            {
+              "label": "D",
+              "text": "撻伐買婢的行為忽視人權",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "買婢是其中材料，不是全詩只談的人權主張。"
+            }
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "從採珠艱辛讀到資源耗竭",
+            "art": "assets/comics/q-956-art-ae581c49b6-web.webp",
+            "panels": [
+              {
+                "heading": "① 先看開頭：冒死採珠",
+                "text": "「判死」是冒著生命危險。開頭寫勞動者取得珍珠的艱辛，也為後文的奢侈消費形成對比。",
+                "alt": "古代成人採珠者手握繩索，在海底伸手接近珠蚌，表現冒險勞動。",
+                "caption": "詩中線索：採珠之人判死採"
+              },
+              {
+                "heading": "② 接著對比：富人揮霍",
+                "text": "「斛量買婢」寫富貴者大量耗用珍珠。這是詩中材料；主旨題仍要連同後半詩一起判斷。",
+                "alt": "古代富貴者在華麗宅邸展示大量珍珠，對比取得珍珠的艱辛。",
+                "caption": "詩中線索：大量珍珠與奢侈消費"
+              },
+              {
+                "heading": "③ 再讀結尾：珠盡海空",
+                "text": "「珠盡死」「空海水」把過度索取推到資源耗竭。四個選項中，B最能涵蓋這條全文線索。海神採珠是諷喻想像。",
+                "alt": "採珠者憂心望向稀疏的珠蚌海床，示意詩中資源被採盡的景象。",
+                "caption": "輔助情境：資源被取盡的反思"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 B：呼籲重視海洋生態的平衡",
+              "points": [
+                "冒死採珠→富人揮霍→珠盡海空，讀完整條脈絡。",
+                "C只談安全，D只抓買婢，均未涵蓋後半詩。",
+                "本詩也含勞動與奢侈批判，不將意義限成單一現代口號。"
+              ]
+            },
+            "protectedWords": [
+              "採珠行",
+              "判死",
+              "冒死採珠",
+              "斛量買婢",
+              "富人揮霍",
+              "資源耗竭",
+              "海洋生態",
+              "珠盡死",
+              "空海水"
+            ]
+          }
+        },
+        {
+          "id": "q-957",
+          "sourceId": "src-more-057",
+          "subject": "Chinese",
+          "title": "國文第2題｜「斛量買婢」的文意",
+          "chapter": "綜合",
+          "volume": "綜合",
+          "date": "2026-11-04",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-11-04",
+          "question": "從詩意推斷，「斛量買婢」指的是下列何現象？\n(A) 海邊萬人空巷，珍珠被一斛一斛採走\n(B) 大家都跑去採珍珠，導致無人買賣婢女\n(C) 富人揮霍珍珠後，只好賣掉婢女來償債\n(D) 珍珠被採盡之前，富人揮霍珍珠的情景",
+          "answer": "(D) 珍珠被採盡之前，富人揮霍珍珠的情景",
+          "explanation": "逐詞判讀\n斛是古代容量單位；斛量表示珍珠多到以容量計量。買婢是購買婢女，動作是「買」，不是「賣」。合起來是在說富貴者以大量珍珠購買婢女、奢侈耗費珍珠的情景，因此選D。\n\nC把買婢反過來說成賣婢，還額外加入償債情節，原詩沒有這個因果。A把斛量誤套為一斛一斛採珠，也添入萬人空巷；B把採珠與無人買賣婢女連成原詩未說的因果，均不合。\n\n全詩逐句白話已列在本組第1題解說。此題把「萬人判死」的艱險取得，與「斛量買婢」的富人奢侈並置；把握動詞及前後對比，不因看到珍珠、婢女就拼出未出現的故事。這是對古代詩句的理解，不把買婢當成值得提倡的行為。",
+          "trap": "",
+          "verification": "原卷逐題核對",
+          "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+          "diagram": "",
+          "notes": "",
+          "status": "todo",
+          "starred": false,
+          "tags": [
+            "「斛量買婢」的文意"
+          ],
+          "images": [
+            "assets/originals/src-more-057-pearl-q2-cb68e5dc2540.png"
+          ],
+          "sourceLabel": "分享原卷｜第2題",
+          "studentAnswer": "C；原卷紅筆訂正D。",
+          "contentStatus": "完整原題",
+          "correctOption": "D",
+          "passage": "",
+          "originalQuestionNumber": "2",
+          "optionAnalysis": [
+            {
+              "label": "A",
+              "text": "海邊萬人空巷，珍珠被一斛一斛採走",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "斛量指以容量計量珍珠，不是詩中描述的採珠方式；萬人空巷亦非原意。"
+            },
+            {
+              "label": "B",
+              "text": "大家都跑去採珍珠，導致無人買賣婢女",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "原詩沒說因採珠而無人買賣婢女。"
+            },
+            {
+              "label": "C",
+              "text": "富人揮霍珍珠後，只好賣掉婢女來償債",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "買與賣方向相反，償債也是原文未有的情節。"
+            },
+            {
+              "label": "D",
+              "text": "珍珠被採盡之前，富人揮霍珍珠的情景",
+              "wordClass": "應選",
+              "meaning": "",
+              "explanation": "符合富貴者以大量珍珠奢侈消費的情景。"
+            }
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "抓準「斛量買婢」的量與動作",
+            "art": "assets/comics/q-957-art-a070ac9755-web.webp",
+            "panels": [
+              {
+                "heading": "① 斛量：珍珠多到以容量計",
+                "text": "「斛」是古代容量單位；「斛量」表現珍珠數量很多。它不是採珠工具，也不能讀成一斛一斛從海裡採走。",
+                "alt": "成人將珍珠倒入木製量器，示意以容量計量大量珍珠。",
+                "caption": "容量計量示意；不指定器形或數值"
+              },
+              {
+                "heading": "② 買婢：用珍珠購買婢女",
+                "text": "句中的動詞是「買」。富貴者耗用大量珍珠，是奢侈消費的描寫；D的富人揮霍最符合這個情景。",
+                "alt": "古代富貴者交付裝滿珍珠的木器，成年家僕立於背景，僅呈現歷史文意。",
+                "caption": "歷史文意：大量珍珠用於買婢"
+              },
+              {
+                "heading": "③ 對照C：不能反向又加情節",
+                "text": "C改成「賣掉婢女來償債」，把買變成賣，還添上原詩未說的債務。讀詞義時先確認動作，再核對前後情節。",
+                "alt": "成人讀者持空白卷軸思考詩意，木器與珍珠放在桌上，沒有償債事件。",
+                "caption": "核對動詞：買；原詩未說償債"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：富人揮霍珍珠的情景",
+              "points": [
+                "斛量＝大量計量；買婢＝購買婢女。",
+                "萬人冒死取得，對比富人奢侈耗用。",
+                "C把買說成賣，又無據加入償債，應排除。"
+              ]
+            },
+            "protectedWords": [
+              "斛量買婢",
+              "容量單位",
+              "大量珍珠",
+              "購買婢女",
+              "富人揮霍",
+              "奢侈消費",
+              "償債"
+            ]
+          }
+        }
+      ],
+      "groupMetadata": {
+        "groupId": "src-more-057-original-1-2",
+        "retainId": "q-956",
+        "reviewReport": "docs/imports/new-gpt-20261104-c/lane3/manifest.json",
+        "originalQuestionIds": [
+          "q-956",
+          "q-957"
+        ],
+        "displayOrder": [
+          "q-956",
+          "q-957"
+        ],
+        "aliasesProposed": [
+          "q-957"
+        ],
+        "commonFigureEquivalentSources": []
+      },
+      "teachingComic": {
+        "title": "從採珠艱辛讀到資源耗竭",
+        "art": "assets/comics/q-956-art-ae581c49b6-web.webp",
+        "panels": [
+          {
+            "heading": "① 先看開頭：冒死採珠",
+            "text": "「判死」是冒著生命危險。開頭寫勞動者取得珍珠的艱辛，也為後文的奢侈消費形成對比。",
+            "alt": "古代成人採珠者手握繩索，在海底伸手接近珠蚌，表現冒險勞動。",
+            "caption": "詩中線索：採珠之人判死採"
+          },
+          {
+            "heading": "② 接著對比：富人揮霍",
+            "text": "「斛量買婢」寫富貴者大量耗用珍珠。這是詩中材料；主旨題仍要連同後半詩一起判斷。",
+            "alt": "古代富貴者在華麗宅邸展示大量珍珠，對比取得珍珠的艱辛。",
+            "caption": "詩中線索：大量珍珠與奢侈消費"
+          },
+          {
+            "heading": "③ 再讀結尾：珠盡海空",
+            "text": "「珠盡死」「空海水」把過度索取推到資源耗竭。四個選項中，B最能涵蓋這條全文線索。海神採珠是諷喻想像。",
+            "alt": "採珠者憂心望向稀疏的珠蚌海床，示意詩中資源被採盡的景象。",
+            "caption": "輔助情境：資源被取盡的反思"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：呼籲重視海洋生態的平衡",
+          "points": [
+            "冒死採珠→富人揮霍→珠盡海空，讀完整條脈絡。",
+            "C只談安全，D只抓買婢，均未涵蓋後半詩。",
+            "本詩也含勞動與奢侈批判，不將意義限成單一現代口號。"
+          ]
+        },
+        "protectedWords": [
+          "採珠行",
+          "判死",
+          "冒死採珠",
+          "斛量買婢",
+          "富人揮霍",
+          "資源耗竭",
+          "海洋生態",
+          "珠盡死",
+          "空海水"
+        ]
+      }
+    },
+    {
+      "id": "q-958",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文第7題｜座頭鯨舉動與名句",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "文中座頭鯨的舉動，下列哪項人類的精神最接近？\n(A) 己所不欲，勿施於人\n(B) 博施於民，而能濟眾\n(C) 願無伐善，無施勞\n(D) 以直報怨，以德報德",
+      "answer": "(B) 博施於民，而能濟眾",
+      "explanation": "先找文章中的具體行為\n座頭鯨不只保護同類，也驅趕掠食者、救助海豹等其他動物。文中還寫將海豹抱在肚子上帶往安全處。這些證據的重點是主動、廣泛幫助其他生命，最接近B，故選B。\n\n四句逐句白話與比較\nA「己所不欲，勿施於人」：自己不願承受的事，不要強加別人；重點在不施加不願承受的事，沒有B直接表達主動救助眾者。\nB「博施於民，而能濟眾」：廣泛施予恩惠，並能幫助眾人。博是廣泛，濟是救助，對應文章救助不同動物的行為。\nC「願無伐善，無施勞」：願不誇耀自己的長處、不把勞苦事推給他人。「伐善」指自誇；教育部辭典在「施勞」第一義直接引本句，釋為把勞事加諸他人。此外「施勞」也有張揚功勞一義，原AI採不表彰功勞的說明屬此另一釋義。兩種解讀均不如B直接切合本題廣泛主動救助的證據，不靠把某一義說成唯一來選答。\nD「以直報怨，以德報德」：以公正態度回應怨恨，以恩德回報恩德；重點在回應恩怨，本文沒有報恩、報怨關係。\n\n閱讀限制\n文章以同理心類比動物行為，但結尾明說利他原因仍待研究，不宜斷言座頭鯨具有和人類完全相同的道德意識。90%是文中這些救援紀錄所述比例，不擴成所有海洋生物、所有救援都必如此。虎鯊研究與座頭鯨救援是不同材料，不能混成同一研究對象。\n\n字義核對：[教育部「博施濟眾」](https://dict.revised.moe.edu.tw/dictView.jsp?ID=13242&la=0&powerMode=0)、[「伐善」](https://dict.revised.moe.edu.tw/dictView.jsp?ID=33238&la=0&powerMode=0)、[「施勞」](https://dict.revised.moe.edu.tw/dictView.jsp?ID=127169&la=0&powerMode=0)。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "座頭鯨舉動與名句"
+      ],
+      "images": [
+        "assets/originals/src-more-057-whale-passage-1-b3c82dad8499.png",
+        "assets/originals/src-more-057-whale-passage-2-c524b5c82416.png",
+        "assets/originals/src-more-057-whale-q7-5fe0fba709a5.png"
+      ],
+      "sourceLabel": "分享原卷｜第7題",
+      "studentAnswer": "A；原卷紅筆訂正B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "（丙）解析魚類的情感　網路文章\n\n海洋生物也有情感嗎？在動畫電影海底總動員中，海洋生物角色們各個活靈活現，充滿獨特個性，不僅能夠彼此交流，還能夠表達出和人類一樣的各種喜怒哀樂。根據一些科學研究以及生態觀察顯示，這些情感反應可能並非只存在人類的幻想裡頭，海洋生物不僅會有近似於害羞或焦慮的表現，甚至有可能具有像人類一般的同理心！\n\n澳洲的行為生態學教授布朗在魚類生物學期刊中發表了一篇研究，其研究對象是十七隻來自澳洲東岸的澳洲虎鯊，布朗教授指出，不同的鯊魚即便遇到了相同的情境，仍會表現出不同的反應，顯示出鯊魚的性格存在著個體之間的差異——有些鯊魚遇到陌生環境中的障礙物時，只需短短二秒便能突破，有些卻必須花上長達二十分鐘，表現得比同類更加小心翼翼；而每隻鯊魚從突然離水到重新回到水中並平復下來所花費的時間也大不相同，說明了他們對於環境焦慮的抗壓性存在著差異。\n\n除了鯊魚以外，另外一份關於座頭鯨的觀察報告則指出，座頭鯨會為了拯救其他非自己族類的動物和掠食者搏鬥。2008年時，海洋生物學者彼得曼及其研究團隊記錄下了二隻座頭鯨不斷拍動魚鰭並發出叫聲，只為了幫助海豹脫離殺人鯨捕食的影片，一週後，研究團隊又再度發現，類似的救援行動來自於完全不同的座頭鯨身上，這一次，他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹「抱」在自己的肚子上，帶往安全的地方。這些被拯救的生物當中，有高達90%都是非座頭鯨：海獅、海豹、翻車魚以及灰鯨等都包含在內。\n\n目前，座頭鯨出現「利他行為」的原因還有待進一步研究，但彼得曼在文章中寫道：「人類保護其他動物，我們稱之為同理心，如果今天是發生在座頭鯨身上，我們會稱之為天性，但有時候，這兩者之間的界線是模糊的。」",
+      "originalQuestionNumber": "7",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "己所不欲，勿施於人",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "自己不想承受的事，不強加別人，未如B直接對應主動廣泛救助。"
+        },
+        {
+          "label": "B",
+          "text": "博施於民，而能濟眾",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "廣施恩惠、救助眾者，最切合救助不同動物的利他行為。"
+        },
+        {
+          "label": "C",
+          "text": "願無伐善，無施勞",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "伐善為誇耀長處；施勞有加勞事於人及誇功兩義，此句不如B直接對應廣泛救助。"
+        },
+        {
+          "label": "D",
+          "text": "以直報怨，以德報德",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "公正回應怨恨、以恩報恩，本文沒有恩怨回報關係。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從救援行為找最貼近的名句",
+        "art": "assets/comics/q-958-art-33f3104a60-web.webp",
+        "panels": [
+          {
+            "heading": "① 找行為：主動救助其他動物",
+            "text": "文章寫座頭鯨驅趕掠食者，救助海豹等其他動物。不是只保護同類，而是把幫助擴及不同生命。",
+            "alt": "座頭鯨擋在海豹與遠方虎鯨之間，表現文章所述的保護行為，無受傷場景。",
+            "caption": "本文救援情境：幫助不同動物"
+          },
+          {
+            "heading": "② 對應B：博施、濟眾",
+            "text": "「博」是廣泛，「濟」是救助；B直接表達廣泛主動幫助。A著重不把不願承受的事加諸他人，較不切合這段救援證據。",
+            "alt": "翻身的座頭鯨以朝上的腹部承托海豹，海豹在肚子上而非頭部。",
+            "caption": "依本文：海豹被抱在肚子上"
+          },
+          {
+            "heading": "③ 類比精神，動機仍待研究",
+            "text": "題目可把行為類比人類德性；文章卻說利他行為原因仍待研究。不能因選B，就斷言已證實座頭鯨具有與人類相同的同理心。",
+            "alt": "成人研究者在觀察船上持望遠鏡、空白筆記本，謹慎記錄遠方的救援行為。",
+            "caption": "區分：可見的行為、待研究的動機"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：博施於民，而能濟眾",
+          "points": [
+            "抓準主動、廣泛救助的共同點。",
+            "A是不強加，C另談自誇與施勞，D著重恩怨回應。",
+            "德性類比不等於利他動機已獲科學證實。"
+          ]
+        },
+        "protectedWords": [
+          "座頭鯨",
+          "海豹",
+          "掠食者",
+          "博施於民",
+          "而能濟眾",
+          "博施",
+          "濟眾",
+          "利他行為",
+          "同理心",
+          "主動救助"
+        ]
+      }
+    },
+    {
+      "id": "q-959",
+      "sourceId": "src-more-057",
+      "subject": "Chinese",
+      "title": "國文題組｜海鮮指南閱讀（第1、2題）",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-04",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-04",
+      "question": "請閱讀共用文章，回答第1、2題。",
+      "answer": "【第1題】(C) 建議民眾食用合宜的魚類以延續海洋資源\n【第2題】(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多",
+      "explanation": "【第1題】\n找出編寫給誰、希望對方做什麼\n開頭明說為達成永續漁業，鼓勵民眾藉消費者力量改變過漁、濫捕的影響，接著整篇提供挑選海鮮原則。因此手冊的直接目的是引導消費者選擇合宜食物，協助海洋資源延續，C最符合。\n\nA的生態危機是相關背景與研究主題，不能直接代替面向消費者的手冊目的。B著重產業經營策略，文中未以業者為主要指導對象。D把目的變成加速科學研究，也不是文中消費者行動的方向。\n\n文章推理是問題（過漁與濫捕損傷資源）→方法（提供選購指南、改變消費）→目的（永續利用海洋資源）。不要只因出現生態、海洋等相同字詞，就忽略誰採取何種行動。\n\n本文的物種、保育現況語句及推薦名單依原卷保留，本題按文意判讀，不把節錄中的「目前」「最近」另當作現今資料更新日期。\n\n【第2題】\n回到原文逐項核對\nD直接對應「這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用」，答案D。\nA雖用體型小這個文章出現的特徵，卻加上肉質鮮嫩、不易受重金屬汙染等原文未提供的理由。文章推薦的原有條件還有生長速度快、野外數量等，不是單憑小就能推定選項全部成立。\nB將原文珊瑚礁定棲魚數量較少、資源恢復不易，反說成數量較多、宜多吃，與本文相反。\nC的避免底拖網野生海蝦原則與文章有關，但把櫻花蝦放進例子就錯了：原文明說櫻花蝦使用中層網，不接觸海底，不能直接當作底拖漁網案例。\n\n選項要整句成立\n讀到前半句相似，不代表後半理由或例子也正確。A是增加無據理由，C是把不同漁法的例子混在一起。D則從對象、數量理由到選擇方向都與原文一致。\n\n這是依本文進行資訊一致性判讀；不從本題另外推論某種魚必然無污染、所有漁法在任何情況均有相同效果。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "海鮮指南的編纂目的"
+      ],
+      "images": [
+        "assets/originals/src-more-057-seafood-passage-1-70f78ed82476.png",
+        "assets/originals/src-more-057-seafood-passage-2-a94219bd737e.png",
+        "assets/originals/src-more-057-seafood-q1-09cd54adc2d0.png",
+        "assets/originals/src-more-057-seafood-q2-8f65a326c167.png"
+      ],
+      "sourceLabel": "分享原卷｜第1題",
+      "studentAnswer": "【第1題】A；原卷紅筆訂正C。\n【第2題】C；原卷紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "",
+      "passage": "從臺灣海鮮選擇指南看消費者行動（節錄）　廖運志\n\n為達成永續漁業，鼓勵民眾藉由消費者的力量，來改變過漁（過度撈捕）與濫捕對漁業資源及海洋生態造成的嚴重影響，「臺灣海鮮選擇指南」手冊所提供的挑選原則與建議如下：\n沙丁魚、竹筴魚及秋刀魚等，屬於體型小、生長速度快，野外數量尚豐富，因此建議食用；反觀過去曾因過度撈捕而禁捕的鯨鯊，以及最近才列入保育類的隆頭鸚哥魚及曲紋唇魚（俗稱蘇眉或龍王鯛）等，因體型大、成長慢，過度利用後資源不易恢復，易瀕危，應避免食用。\n除了沙丁魚、竹筴魚及秋刀魚外，還包含鯖魚、白帶魚及飛魚等體色屬銀白色的中小型魚類，因這些棲息於中表水層之洄游魚類，目前因數量較多、撈捕的方法不會破壞海底環境，屬於建議食用種類；體色鮮豔珊瑚礁魚類如鸚哥魚、紅石斑等，則因為數量較少、定棲性魚類資源恢復較不易，屬於避免食用種類。\n選擇以不易發生混獲的漁法所取得的魚類，如一支釣的鰹魚、鏢旗魚；或對環境干擾較少的漁法所捕撈的海鮮，例如櫻花蝦，因為捕撈櫻花蝦採用中層網，不會接觸到海底；避免選擇以底拖網等方法撈捕的野生海蝦。\n過濾海水的文蛤、牡蠣等，或食藻類的鮑魚、九孔等螺貝類，或以浮游動物、小魚為食物的種類，這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用。鯊魚、鮪魚等大型掠食性魚類，則因位於生態系食物金字塔的頂端，數量較少，許多種類已因過度捕撈大量減少，因此除了瀕危及保育物種已禁止捕撈外，都應盡量避免選擇。\n當許多野生魚類因為過度捕撈、棲地破壞、汙染及外來種入侵等問題已紛紛從餐桌上消失，養殖魚類取而代之。我們又該如何選擇這些養殖魚類呢？\n消費者可以選擇臺灣鯛（吳郭魚）、虱目魚等，因為他們的餌料屬於植物性來源；應避免食用動物性餌料的肉食性養殖魚類，如石斑、鮭魚及養殖蝦等，因為這些餌料的來源多是野生魚類（魚粉），甚至是由底拖網混獲的下雜魚所製成的。",
+      "originalQuestionNumber": "1、2",
+      "optionAnalysis": [],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "groupQuestions": [
+        {
+          "id": "q-959",
+          "sourceId": "src-more-057",
+          "subject": "Chinese",
+          "title": "國文第1題｜海鮮指南的編纂目的",
+          "chapter": "綜合",
+          "volume": "綜合",
+          "date": "2026-11-04",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-11-04",
+          "question": "依文意判斷，「臺灣海鮮選擇指南」手冊編纂的原因最有可能為下列何者？\n(A) 研究臺灣近海魚類的生態及其面臨的危機\n(B) 探討臺灣魚類產業的經營方向與發展策略\n(C) 建議民眾食用合宜的魚類以延續海洋資源\n(D) 使民眾了解海洋知識以加速海洋生態研究",
+          "answer": "(C) 建議民眾食用合宜的魚類以延續海洋資源",
+          "explanation": "找出編寫給誰、希望對方做什麼\n開頭明說為達成永續漁業，鼓勵民眾藉消費者力量改變過漁、濫捕的影響，接著整篇提供挑選海鮮原則。因此手冊的直接目的是引導消費者選擇合宜食物，協助海洋資源延續，C最符合。\n\nA的生態危機是相關背景與研究主題，不能直接代替面向消費者的手冊目的。B著重產業經營策略，文中未以業者為主要指導對象。D把目的變成加速科學研究，也不是文中消費者行動的方向。\n\n文章推理是問題（過漁與濫捕損傷資源）→方法（提供選購指南、改變消費）→目的（永續利用海洋資源）。不要只因出現生態、海洋等相同字詞，就忽略誰採取何種行動。\n\n本文的物種、保育現況語句及推薦名單依原卷保留，本題按文意判讀，不把節錄中的「目前」「最近」另當作現今資料更新日期。",
+          "trap": "",
+          "verification": "原卷逐題核對",
+          "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+          "diagram": "",
+          "notes": "",
+          "status": "todo",
+          "starred": false,
+          "tags": [
+            "海鮮指南的編纂目的"
+          ],
+          "images": [
+            "assets/originals/src-more-057-seafood-passage-1-70f78ed82476.png",
+            "assets/originals/src-more-057-seafood-passage-2-a94219bd737e.png",
+            "assets/originals/src-more-057-seafood-q1-09cd54adc2d0.png"
+          ],
+          "sourceLabel": "分享原卷｜第1題",
+          "studentAnswer": "A；原卷紅筆訂正C。",
+          "contentStatus": "完整原題",
+          "correctOption": "C",
+          "passage": "",
+          "originalQuestionNumber": "1",
+          "optionAnalysis": [
+            {
+              "label": "A",
+              "text": "研究臺灣近海魚類的生態及其面臨的危機",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "相關研究背景不是這份消費者指南的直接目的。"
+            },
+            {
+              "label": "B",
+              "text": "探討臺灣魚類產業的經營方向與發展策略",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "不是以漁業公司經營策略為重點。"
+            },
+            {
+              "label": "C",
+              "text": "建議民眾食用合宜的魚類以延續海洋資源",
+              "wordClass": "應選",
+              "meaning": "",
+              "explanation": "對應引導消費選擇、減輕過漁影響、延續資源的目的。"
+            },
+            {
+              "label": "D",
+              "text": "使民眾了解海洋知識以加速海洋生態研究",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "不是要透過民眾加速科學研究。"
+            }
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "問清楚指南寫給誰、希望做什麼",
+            "art": "assets/comics/q-959-art-7ee21d1e0a-web.webp",
+            "panels": [
+              {
+                "heading": "① 讀者：會挑選海鮮的民眾",
+                "text": "開頭直接說要藉由「消費者的力量」。這份指南面向民眾的日常選購，先抓住讀者與使用情境。",
+                "alt": "成年消費者在海鮮市場閱讀無字指南，思考日常選購。",
+                "caption": "編纂對象：消費者"
+              },
+              {
+                "heading": "② 方法：提供合宜選擇的原則",
+                "text": "全文接著說明挑選原則與建議，要讓民眾改變消費選擇。不是只列海洋知識，也不是教業者擬經營策略。",
+                "alt": "同一成年消費者向魚販詢問挑選，關注銀白色小魚及貝類，沒有價格或物種標字。",
+                "caption": "引導行動：依指南選購"
+              },
+              {
+                "heading": "③ 目的：延續海洋資源",
+                "text": "選購原則是方法，永續漁業是目的。C把「民眾選擇」與「延續資源」連起來，最貼合開頭及全文。",
+                "alt": "消費者望向清澈近海，魚群與海草象徵希望資源能延續的目標。",
+                "caption": "本文目的示意：永續利用資源"
+              }
+            ],
+            "fourth": {
+              "answer": "答案 C：建議合宜食用以延續資源",
+              "points": [
+                "讀者＝民眾；行動＝選擇合宜海鮮。",
+                "指南是方法，延續海洋資源是目的。",
+                "A、D偏向研究，B偏業者策略，均非直接目的。"
+              ]
+            },
+            "protectedWords": [
+              "海鮮指南",
+              "消費者",
+              "消費者的力量",
+              "挑選原則",
+              "經營策略",
+              "永續漁業",
+              "海洋資源",
+              "延續資源"
+            ]
+          }
+        },
+        {
+          "id": "q-960",
+          "sourceId": "src-more-057",
+          "subject": "Chinese",
+          "title": "國文第2題｜海鮮挑選原則的判讀",
+          "chapter": "綜合",
+          "volume": "綜合",
+          "date": "2026-11-04",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-11-04",
+          "question": "依據本文，有關海鮮挑選原則，下列敘述何者正確？\n(A) 體型小的魚，肉質鮮嫩且不易受重金屬汙染，宜多選購\n(B) 珊瑚礁定棲魚類，體色鮮豔、數量較多，適合多加食用\n(C) 避免食用以底拖漁網捕撈的野生海蝦，如：櫻花蝦\n(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多",
+          "answer": "(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多",
+          "explanation": "回到原文逐項核對\nD直接對應「這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用」，答案D。\nA雖用體型小這個文章出現的特徵，卻加上肉質鮮嫩、不易受重金屬汙染等原文未提供的理由。文章推薦的原有條件還有生長速度快、野外數量等，不是單憑小就能推定選項全部成立。\nB將原文珊瑚礁定棲魚數量較少、資源恢復不易，反說成數量較多、宜多吃，與本文相反。\nC的避免底拖網野生海蝦原則與文章有關，但把櫻花蝦放進例子就錯了：原文明說櫻花蝦使用中層網，不接觸海底，不能直接當作底拖漁網案例。\n\n選項要整句成立\n讀到前半句相似，不代表後半理由或例子也正確。A是增加無據理由，C是把不同漁法的例子混在一起。D則從對象、數量理由到選擇方向都與原文一致。\n\n這是依本文進行資訊一致性判讀；不從本題另外推論某種魚必然無污染、所有漁法在任何情況均有相同效果。",
+          "trap": "",
+          "verification": "原卷逐題核對",
+          "verificationNote": "已實看真正上傳原卷與裁圖，核對完整題幹、全部四選項及共用閱讀；日期為原始提問訊息的台灣日期，未提供實際考試日。未確認對應冊次、章節，歸綜合。",
+          "diagram": "",
+          "notes": "",
+          "status": "todo",
+          "starred": false,
+          "tags": [
+            "海鮮挑選原則的判讀"
+          ],
+          "images": [
+            "assets/originals/src-more-057-seafood-q2-8f65a326c167.png"
+          ],
+          "sourceLabel": "分享原卷｜第2題",
+          "studentAnswer": "C；原卷紅筆訂正D。",
+          "contentStatus": "完整原題",
+          "correctOption": "D",
+          "passage": "",
+          "originalQuestionNumber": "2",
+          "optionAnalysis": [
+            {
+              "label": "A",
+              "text": "體型小的魚，肉質鮮嫩且不易受重金屬汙染，宜多選購",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "肉質與重金屬理由未受本文支持，不能只因提到體型小就整句判對。"
+            },
+            {
+              "label": "B",
+              "text": "珊瑚礁定棲魚類，體色鮮豔、數量較多，適合多加食用",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "原文說數量較少、恢復不易，與選項相反。"
+            },
+            {
+              "label": "C",
+              "text": "避免食用以底拖漁網捕撈的野生海蝦，如：櫻花蝦",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "櫻花蝦用中層網不接觸海底，不是此處底拖漁網的例子。"
+            },
+            {
+              "label": "D",
+              "text": "多選擇屬於食物鏈底層的海鮮，因其數量相對較多",
+              "wordClass": "應選",
+              "meaning": "",
+              "explanation": "對應本文食物鏈底層、來源豐富、相對數量多的選擇原則。"
+            }
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "選項要整句有依據，連例子也要核",
+            "art": "assets/comics/q-960-art-81a7a5e958.svg",
+            "panels": [
+              {
+                "heading": "① D：條件、理由、方向都一致",
+                "text": "原文明說，這些食物鏈底層種類的食物來源豐富，數量相對較多，因此建議食用。D的對象、理由與選擇方向都對應本文。",
+                "alt": "中文逐步標出本文食物鏈底層、來源豐富與相對量多、建議食用D。",
+                "diagram": {
+                  "kind": "flow",
+                  "title": "只按本文的推論鏈",
+                  "items": [
+                    {
+                      "label": "本文：食物鏈底層種類",
+                      "tone": "blue",
+                      "detail": "如文蛤、牡蠣、鮑魚、九孔。"
+                    },
+                    {
+                      "label": "食物來源豐富，數量相對多",
+                      "tone": "gold"
+                    },
+                    {
+                      "label": "因此建議食用：對應D",
+                      "tone": "green"
+                    }
+                  ],
+                  "arrow": "本文條件→理由→選擇方向"
+                }
+              },
+              {
+                "heading": "② C：前半相似，例子卻放錯",
+                "text": "本文說櫻花蝦用中層網，不接觸海底。C把它當成底拖漁網的例子，因此整句不能判對；先核漁法再核例子。",
+                "alt": "明標櫻花蝦中層網不接觸海底，與文中避免的底拖網海蝦分開。",
+                "diagram": {
+                  "kind": "paths",
+                  "title": "漁法與例子分開核對",
+                  "items": [
+                    {
+                      "label": "櫻花蝦：中層網",
+                      "tone": "green",
+                      "detail": "本文：不會接觸海底。"
+                    },
+                    {
+                      "label": "本文避免：底拖網海蝦",
+                      "tone": "gold",
+                      "detail": "不能以櫻花蝦作此例。"
+                    }
+                  ],
+                  "target": "C的例子不符本文",
+                  "arrow": "對照漁法及是否接觸海底"
+                }
+              },
+              {
+                "heading": "③ A、B：理由與數量也要核",
+                "text": "A加上肉質鮮嫩、重金屬等本文沒提供的理由；B又把珊瑚礁定棲魚的數量較少反寫為較多。不能只見幾個相同字就選。",
+                "alt": "A無據加入肉質和重金屬，B將數量較少改成較多，兩類錯誤直接中文標示。",
+                "diagram": {
+                  "kind": "paths",
+                  "title": "兩種常見誤讀",
+                  "items": [
+                    {
+                      "label": "A：額外加入理由",
+                      "tone": "gold",
+                      "detail": "肉質、重金屬：本文未提。"
+                    },
+                    {
+                      "label": "B：把數量方向反轉",
+                      "tone": "purple",
+                      "detail": "本文說較少，選項說較多。"
+                    }
+                  ],
+                  "target": "選項整句都要有本文依據",
+                  "arrow": "同時檢查理由與限定條件"
+                }
+              }
+            ],
+            "fourth": {
+              "answer": "答案 D：食物鏈底層，數量相對較多",
+              "points": [
+                "D的對象、理由、選擇方向都符合本文。",
+                "C把櫻花蝦的中層網錯套成底拖網。",
+                "A無據加理由，B反轉數量；相似字詞不等於整句正確。"
+              ]
+            },
+            "protectedWords": [
+              "食物鏈底層",
+              "食物來源",
+              "相對較多",
+              "文蛤",
+              "牡蠣",
+              "鮑魚",
+              "九孔",
+              "櫻花蝦",
+              "中層網",
+              "底拖網",
+              "海底",
+              "珊瑚礁",
+              "定棲魚",
+              "肉質鮮嫩",
+              "重金屬",
+              "限定條件"
+            ]
+          }
+        }
+      ],
+      "groupMetadata": {
+        "groupId": "src-more-057-original-1-2",
+        "retainId": "q-959",
+        "reviewReport": "docs/imports/new-gpt-20261104-c/lane3/manifest.json",
+        "originalQuestionIds": [
+          "q-959",
+          "q-960"
+        ],
+        "displayOrder": [
+          "q-959",
+          "q-960"
+        ],
+        "aliasesProposed": [
+          "q-960"
+        ],
+        "commonFigureEquivalentSources": []
+      },
+      "teachingComic": {
+        "title": "問清楚指南寫給誰、希望做什麼",
+        "art": "assets/comics/q-959-art-7ee21d1e0a-web.webp",
+        "panels": [
+          {
+            "heading": "① 讀者：會挑選海鮮的民眾",
+            "text": "開頭直接說要藉由「消費者的力量」。這份指南面向民眾的日常選購，先抓住讀者與使用情境。",
+            "alt": "成年消費者在海鮮市場閱讀無字指南，思考日常選購。",
+            "caption": "編纂對象：消費者"
+          },
+          {
+            "heading": "② 方法：提供合宜選擇的原則",
+            "text": "全文接著說明挑選原則與建議，要讓民眾改變消費選擇。不是只列海洋知識，也不是教業者擬經營策略。",
+            "alt": "同一成年消費者向魚販詢問挑選，關注銀白色小魚及貝類，沒有價格或物種標字。",
+            "caption": "引導行動：依指南選購"
+          },
+          {
+            "heading": "③ 目的：延續海洋資源",
+            "text": "選購原則是方法，永續漁業是目的。C把「民眾選擇」與「延續資源」連起來，最貼合開頭及全文。",
+            "alt": "消費者望向清澈近海，魚群與海草象徵希望資源能延續的目標。",
+            "caption": "本文目的示意：永續利用資源"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：建議合宜食用以延續資源",
+          "points": [
+            "讀者＝民眾；行動＝選擇合宜海鮮。",
+            "指南是方法，延續海洋資源是目的。",
+            "A、D偏向研究，B偏業者策略，均非直接目的。"
+          ]
+        },
+        "protectedWords": [
+          "海鮮指南",
+          "消費者",
+          "消費者的力量",
+          "挑選原則",
+          "經營策略",
+          "永續漁業",
+          "海洋資源",
+          "延續資源"
+        ]
+      }
     }
   ],
-  "dataUpdatedAt": "2026-11-03T20:35:47+00:00"
+  "dataUpdatedAt": "2026-11-04T16:04:12+00:00"
 }

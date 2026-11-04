@@ -23,7 +23,10 @@ def full_question_text(question):
         lines = [table.get('caption', ''), '｜'.join(table.get('headers', []))]
         lines.extend('｜'.join(row) for row in table.get('rows', []))
         sections.append('\n'.join(line for line in lines if line))
-    sections.append(question['question'])
+    if question.get('groupQuestions'):
+        sections.extend(child['question'] for child in question['groupQuestions'])
+    else:
+        sections.append(question['question'])
     return '\n\n'.join(sections)
 
 

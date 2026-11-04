@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-11-04T16:09:12.840492+00:00",
+  "reviewer": "/root",
+  "kind": "independent-mechanical-preservation-audit",
+  "passed": true,
+  "scope": "GPT57 only",
+  "questionPages": 786,
+  "originalQuestions": 860,
+  "newQuestionPages": 13,
+  "newOriginalQuestions": 15,
+  "newComics": 15,
+  "methodCounts": {
+    "builtInImagegenAnime": 8,
+    "nativeHTMLDiagrams": 7
+  },
+  "all773ExistingQuestionObjectsUnchanged": true,
+  "allOriginalFieldsMatchIntakeCanonExceptTeachingComic": true,
+  "sourceAIExplanatoryArtUsed": false,
+  "noCLIImageGeneration": true,
+  "bothReadingGroupsKeepAllFourChildComics": true,
+  "all15PipelineJobsIntegrated": true,
+  "ambiguousSingleChoice": {
+    "id": "q-951",
+    "printedExpectedAnswer": "A",
+    "otherSupportedReading": "B",
+    "correctOptionIntentionallyEmpty": true,
+    "needsReviewFunctionResult": true,
+    "verificationStillPending": true,
+    "visibleReviewRequiredInBothViews": true
+  },
+  "reviewCardsContainCompleteOriginals": true,
+  "sourceReviewIds": [
+    "correction-q-946-8b90420fcbf4",
+    "correction-q-947-12cbbb4ff080",
+    "correction-q-951-e34aa061df23",
+    "correction-q-956-568704aa01ed",
+    "correction-q-958-51f1f63cbbc1"
+  ],
+  "pendingSourceReviewIds": [
+    "correction-q-946-8b90420fcbf4",
+    "correction-q-947-12cbbb4ff080",
+    "correction-q-951-e34aa061df23",
+    "correction-q-956-568704aa01ed",
+    "correction-q-958-51f1f63cbbc1"
+  ],
+  "resolvedHistoryPrefixPreserved": 241,
+  "formalVisualQABy": "/root/comic_lane_1",
+  "requiredChecks": {
+    "npmTestsPassed": 121,
+    "npmTestsFailed": 0,
+    "formalComicLayoutChecks": 90
+  },
+  "revision": "2026-10-27.d17e98142de7",
+  "items": [
+    {
+      "id": "q-946",
+      "spec": "docs/comics/q-946.json",
+      "rawArt": "docs/comics/art/q-946.png",
+      "publishedArt": "site/dist/assets/comics/q-946-art-1930e5ab0b-web.webp",
+      "publishedSHA256": "cd28bf486b2aaaffa1f9bb0a9cc5796e3af948f8872bfb12f173d5b8a68ff9ae",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-946-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-947",
+      "spec": "docs/comics/q-947.json",
+      "rawArt": "docs/comics/art/q-947-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-947-art-e1c76a934f.svg",
+      "publishedSHA256": "e1c76a934f35cb6205ce7ab2d39b059145bf0793ba0ee780a4f6a941ac29f7cf",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": []
+    },
+    {
+      "id": "q-948",
+      "spec": "docs/comics/q-948.json",
+      "rawArt": "docs/comics/art/q-948-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-948-art-d0ee6cf41f.svg",
+      "publishedSHA256": "d0ee6cf41f1c8d5b80e100bb167d7e2622e4262935be9bdf15094841700851e5",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": []
+    },
+    {
+      "id": "q-949",
+      "spec": "docs/comics/q-949.json",
+      "rawArt": "docs/comics/art/q-949.png",
+      "publishedArt": "site/dist/assets/comics/q-949-art-8440f5e969-web.webp",
+      "publishedSHA256": "469a3f91177f61ca0b94d80eabee42dff039bed0535faf2d13df18d1c4fe31d2",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-949-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-950",
+      "spec": "docs/comics/q-950.json",
+      "rawArt": "docs/comics/art/q-950-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-950-art-bcd2d0564b.svg",
+      "publishedSHA256": "bcd2d0564b1600cb68802d031c4c116a926dd0795d07fb85317f81df0e403a64",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": []
+    },
+    {
+      "id": "q-951",
+      "spec": "docs/comics/q-951.json",
+      "rawArt": "docs/comics/art/q-951-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-951-art-8197bd3060.svg",
+      "publishedSHA256": "8197bd30600cf5dd0e4ab502d115d428c0ebac83cb30ce44cadcc72f4b066aec",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": []
+    },
+    {
+      "id": "q-952",
+      "spec": "docs/comics/q-952.json",
+      "rawArt": "docs/comics/art/q-952-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-952-art-362a2a66f7.svg",
+      "publishedSHA256": "362a2a66f791024ce27c165ed45092ce61b398ad239fa3251e96053f186f23e6",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": []
+    },
+    {
+      "id": "q-953",
+      "spec": "docs/comics/q-953.json",
+      "rawArt": "docs/comics/art/q-953-relationships.svg",
+      "publishedArt": "site/dist/assets/comics/q-953-art-fff9eabada.svg",
+      "publishedSHA256": "fff9eabada3696f6f23119887482bfbc6264475c54fa9cd43d7f869fa0a196d0",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+      "promptFiles": []
+    },
+    {
+      "id": "q-954",
+      "spec": "docs/comics/q-954.json",
+      "rawArt": "docs/comics/art/q-954.png",
+      "publishedArt": "site/dist/assets/comics/q-954-art-a007bf1127-web.webp",
+      "publishedSHA256": "cdcbc360ce01d840655820c5ba881c62460b1463469fe676d21e3988ded7eeb4",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-954-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-955",
+      "spec": "docs/comics/q-955.json",
+      "rawArt": "docs/comics/art/q-955.png",
+      "publishedArt": "site/dist/assets/comics/q-955-art-90b4147c78-web.webp",
+      "publishedSHA256": "76c1ce1092ae80e886a56795ae27e800185acbfbeed697ddefe06d346b8afaa8",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+      "promptFiles": [
+        "docs/comics/q-955-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-956",
+      "spec": "docs/comics/q-956.json",
+      "rawArt": "docs/comics/art/q-956.png",
+      "publishedArt": "site/dist/assets/comics/q-956-art-ae581c49b6-web.webp",
+      "publishedSHA256": "edc18c49581225e5b5fdf365864bffcd8e554d8f01d4a11225c43349d34b5398",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-956-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-957",
+      "spec": "docs/comics/q-957.json",
+      "rawArt": "docs/comics/art/q-957.png",
+      "publishedArt": "site/dist/assets/comics/q-957-art-a070ac9755-web.webp",
+      "publishedSHA256": "3fe2a9f58564b53d09f06b413ee751d3152663cf8c83253e028845397d11aa40",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-957-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-958",
+      "spec": "docs/comics/q-958.json",
+      "rawArt": "docs/comics/art/q-958.png",
+      "publishedArt": "site/dist/assets/comics/q-958-art-33f3104a60-web.webp",
+      "publishedSHA256": "74eee4daa2c28e9f5fbc1fe78d783c7d65c5973d38e153fd59dbf8352872863c",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-958-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-959",
+      "spec": "docs/comics/q-959.json",
+      "rawArt": "docs/comics/art/q-959.png",
+      "publishedArt": "site/dist/assets/comics/q-959-art-7ee21d1e0a-web.webp",
+      "publishedSHA256": "1f4ee30acb103aa9d786375f8f8b423d9c73844a9eb73f2e58fee3e34cc81dc4",
+      "method": "builtInImagegenAnime",
+      "generationMethod": "built-in image_gen; new detailed colorful anime triptych; exact teaching text only in HTML",
+      "promptFiles": [
+        "docs/comics/q-959-prompt.txt"
+      ]
+    },
+    {
+      "id": "q-960",
+      "spec": "docs/comics/q-960.json",
+      "rawArt": "docs/comics/art/q-960.svg",
+      "publishedArt": "site/dist/assets/comics/q-960-art-81a7a5e958.svg",
+      "publishedSHA256": "81a7a5e95865ae6a9f2153e00577db0871d9913616698c695d2e7b64e59abcf7",
+      "method": "nativeHTMLDiagrams",
+      "generationMethod": "new selectable native HTML reading-evidence and fishing-method diagrams with exact Chinese labels; deterministic SVG fallback; imagegenCalls=0",
+      "promptFiles": []
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "q-954",
+  "subject": "Chinese",
+  "title": "先補出歇後語意思，再看語境",
+  "art": "docs/comics/art/q-954.png",
+  "panels": [
+    {
+      "heading": "① 太平洋搬家：翻江倒海",
+      "text": "借搬動整片海洋的誇張想像，形容本領或聲勢巨大。A說對方縱有這種本事，也奈何不了行得正的自己，語意相合。",
+      "alt": "誇張的巨大海浪象徵翻江倒海的本領，為語文比喻想像而非科學現象。"
+    },
+    {
+      "heading": "② 望遠鏡照太平洋：一望無涯",
+      "text": "這句強調遼闊無邊的景象。B卻接白費力氣，和歇後語原意不符，不能只看後面的解釋像是通順。",
+      "alt": "少女從安全觀景臺用望遠鏡看遼闊海面，表現一望無涯。"
+    },
+    {
+      "heading": "③ 難上難、划不來，各有意思",
+      "text": "C大海裡撈針是難上難，不是自身難保；D大海裡蕩舟接划不來，表示不值得，不是多管閒事。",
+      "alt": "海上小舟以廣闊海面襯出划不來的歇後語想像，C撈針的意思另由精確HTML說明。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：太平洋搬家，翻江倒海",
+    "points": [
+      "A比喻本領、力量或聲勢巨大。",
+      "B一望無涯；C難上難；D划不來。",
+      "先確認固定意思，再放回整句檢查。"
+    ]
+  },
+  "protectedWords": [
+    "太平洋搬家",
+    "翻江倒海",
+    "望遠鏡照太平洋",
+    "一望無涯",
+    "大海裡撈針",
+    "難上難",
+    "自身難保",
+    "大海裡蕩舟",
+    "划不來",
+    "多管閒事"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-057-question-01-d34fe5e51897.png"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "本代理已逐題實看原卷與裁圖，讀完本題、全部選項及必要材料；字音詞義依教育部辭典獨立核對，雙解限制照留。"
+  },
+  "rationale": "歇後語以具象海洋場景引出比喻，採新細緻彩色動漫的巨浪/遠望/海上划舟，精確後半句與選項判斷以HTML呈現，不讓生成模型拼文字或把誇張圖像當事實。",
+  "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-04T15:46:13.916905+00:00",
+  "artSHA256": "a007bf112751ad0a8e4a90b36b50b2d6352632bb151c244351684ba996fdcb2d",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "promptFile": "docs/comics/q-954-prompt.txt",
+  "checkedAt": "2026-11-04T15:53:49.300035+00:00",
+  "previewValidation": "docs/comics/q-954-preview-validation.json",
+  "visualReview": "已實看新無字動漫PNG與1440/390成品：巨浪為明示誇張比喻、望遠鏡對一望無涯、小舟對划不來；C撈針難上難不誤作自身難保。圖無字、四歇後語HTML精確，三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-954-1440.png",
+      "/tmp/weirugo-comic-previews/q-954-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-954-art-a007bf1127-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-04T15:53:49.295303+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-954-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-954-validation.json"
+}

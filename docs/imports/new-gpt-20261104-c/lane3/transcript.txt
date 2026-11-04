@@ -1,0 +1,1125 @@
+[118] user
+1、2@錯題
+
+[120] assistant
+我會先核對《採珠行》的原詩、註解及兩題的選項，再分別解析。這兩題的重點是分清楚「詩中直接描述的事實」與「可以從詩意推論的現象」。
+
+[128] assistant
+# 《採珠行》｜第 1、2 題錯題解析
+
+<badge color="success">第 1 題：B</badge>　<badge color="success">第 2 題：D</badge>
+
+**科目：國文｜文言詩閱讀理解**
+
+這組題目出自唐代元稹的《採珠行》，核心是透過採珠人的生命危險，以及人類對珍珠的索取，反思貪欲、生命與自然的關係。
+
+照片中的第 1 題藍筆選 B，與詩意判斷一致；第 2 題藍筆選 C，紅筆訂正應為 D。
+
+## 一、原詩與逐句白話翻譯
+
+<box border radius="xl" padding={3} gap={3}>
+  <row align="center" justify="between">
+    **《採珠行》｜唐・元稹**
+    <badge>文言文必讀</badge>
+  </row>
+  <text color="secondary" size="xs">依照片所載詩文，並對照《全唐詩》核對。<Cite ref="turn431323search1"/></text>
+  {#each [
+    ["海波無底珠沉海，採珠之人判死採。","海水深不可測，珍珠沉在海底，採珠的人必須冒著生命危險才能採取。"],
+    ["萬人判死一得珠，斛量買婢人何在。","許多人冒死採珠，才可能得到珍珠；那些曾大量使用珍珠購買婢女的人，如今又在哪裡呢？"],
+    ["年年採珠珠避人，今年採珠由海神。","人們年年採珠，珍珠彷彿都躲避人類；今年則由海神來採珠。"],
+    ["海神採珠珠盡死，死盡明珠空海水。","海神採珠，連珍珠也全都消失了；珍珠消失殆盡，只剩下空蕩蕩的海水。"],
+    ["珠為海物海屬神，神今自採何況人。","珍珠原本就是海中的產物，海洋又歸海神掌管；如今連海神都親自採取，何況是人類呢？"]
+  ] as pair,i}
+    <box gap={1}>
+      <text color="secondary" weight="medium" size="xs">第 {i+1} 組</text>
+      **{pair[0]}**
+      <text size="sm">{pair[1]}</text>
+    </box>
+    {#if i<4}<divider color="subtle"/>{/if}
+  {/each}
+</box>
+
+**關鍵字詞：**「判死」是拚死、冒死；「斛」是古代容量單位；「婢」指婢女。「海神採珠」則帶有想像與諷喻意味，不應當作實際發生的事件。
+
+## 二、全詩的思考脈絡
+
+<box border radius="xl" padding={3} gap={2}>
+  <box background="surface-secondary" padding={3} radius="lg" align="center" gap={1}>
+    <icon name="waves" color="info" size="lg"/>
+    **海底採珠極為危險**
+
+    <text size="sm">採珠人冒著生命危險取得珍珠</text>
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" padding={3} radius="lg" align="center" gap={1}>
+    <icon name="gem" color="secondary" size="lg"/>
+    **珍珠被視為奢侈財物**
+
+    <text size="sm">富貴者以大量珍珠換取婢女</text>
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" padding={3} radius="lg" align="center" gap={1}>
+    <icon name="fish" color="info" size="lg"/>
+    **連海神採珠，也使珍珠消失殆盡**
+
+    <text size="sm">想像自然資源遭到過度索取的結果</text>
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="rgba(22,155,98,0.07)" border={{size:1,color:"success"}} padding={3} radius="lg" align="center" gap={1}>
+    <icon name="leaf" color="success" size="lg"/>
+    **反思人類貪欲與自然資源的關係**
+
+    <text color="success" weight="medium" size="sm">兼具生命關懷與自然環境反思</text>
+  </box>
+</box>
+
+
+
+[129] assistant
+---
+
+## 第 1 題｜判斷詩歌主旨
+
+**原題：有關本詩的主旨，下列敘述何者正確？**
+
+(A) 譴責人們與神明爭採珍珠
+
+(B) 呼籲重視海洋生態的平衡
+
+(C) 呼籲從事捕獵應重視安全
+
+(D) 撻伐買婢的行為忽視人權
+
+<badge color="success">答案：B</badge>
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A | <icon name="x" color="danger" inline/> | 海神是詩中的想像與諷喻手法，不是單純責備人類與神明競爭。 |
+| **B** | <icon name="check-circle" color="success" inline/> | 詩末以珍珠消失、海水空蕩的景象，呼應人類應反思索取自然資源的行為。 |
+| C | <icon name="x" color="danger" inline/> | 採珠確實危險，但詩意並不只是在提醒作業安全。 |
+| D | <icon name="x" color="danger" inline/> | 買婢是詩中批判奢侈、反映社會不公的材料，不是全文唯一主旨。 |
+
+**判斷關鍵：**「海神採珠珠盡死，死盡明珠空海水。」
+
+這兩句描繪珍珠被取盡的景象。四個選項中，B 最能概括詩末對海洋資源與人類行為的反思。
+
+不過，**本詩不只有環境保護的意涵**，也明顯同情冒死採珠的勞動者、批判富貴者的奢侈。B 是本題的最佳選項，不代表其他層面的詩意不存在。
+
+## 第 2 題｜「斛量買婢」的文意推斷
+
+**原題：從詩意推斷，「斛量買婢」指的是下列何現象？**
+
+(A) 海邊萬人空巷，珍珠被一斛一斛採走
+
+(B) 大家都跑去採珍珠，導致無人買賣婢女
+
+(C) 富人揮霍珍珠後，只好賣掉婢女來償債
+
+(D) 珍珠被採盡之前，富人揮霍珍珠的情景
+
+<badge color="success">答案：D</badge>
+
+### 先破解「斛量買婢」
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={3} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} align="center" gap={1}>
+        <icon name="scale" color="secondary" size="lg"/>
+        **斛量**
+        <text size="xs" textAlign="center">以古代容量單位計量，強調數量多</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} align="center" gap={1}>
+        <icon name="gem" color="secondary" size="lg"/>
+        **珍珠**
+        <text size="xs" textAlign="center">價值昂貴的財物</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} align="center" gap={1}>
+        <icon name="coins" color="secondary" size="lg"/>
+        **買婢**
+        <text size="xs" textAlign="center">購買婢女的行為</text>
+      </box>
+    </grid-item>
+  </grid>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <text weight="medium" color="success" textAlign="center">以大量珍珠購買婢女，呈現富貴者奢侈耗費財物的情況。</text>
+</box>
+
+### 逐項排除
+
+| 選項 | 判斷 | 解析 |
+|---|---|---|
+| A | <icon name="x" color="danger" inline/> | 「斛量」不是指一斛一斛地採珠，也沒有萬人空巷的描述。 |
+| B | <icon name="x" color="danger" inline/> | 詩中沒有說因採珠而導致婢女無人買賣。 |
+| C | <icon name="x" color="danger" inline/> | 把「買婢」誤解成「賣掉婢女」，也自行加上償債情節。 |
+| **D** | <icon name="check-circle" color="success" inline/> | 符合富貴者以大量珍珠奢侈消費的情境。 |
+
+### 為什麼 C 容易誤選？
+
+這題的主要陷阱是**動作方向顛倒**。
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" padding={3} radius="lg" gap={2}>
+      <row align="center" gap={2}>
+        <icon name="x-circle" color="danger"/>
+        **C 的說法**
+      </row>
+      賣掉婢女 → 償還債務
+      <text color="secondary" size="xs">詩中沒有這個情節</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="rgba(22,155,98,0.08)" padding={3} radius="lg" gap={2}>
+      <row align="center" gap={2}>
+        <icon name="check-circle" color="success"/>
+        **原詩意思**
+      </row>
+      大量珍珠 → 購買婢女
+      <text color="success" size="xs">符合「斛量買婢」</text>
+    </box>
+  </grid-item>
+</grid>
+
+只要抓住「買」這個字，就能排除 C。
+
+
+
+[132] assistant
+# 《採珠行》｜第 1、2 題錯題解析
+
+<badge color="success">第 1 題：B</badge>　<badge color="success">第 2 題：D</badge>
+
+**科目：國文｜文言詩閱讀理解**
+
+這組題目出自唐代元稹的《採珠行》，核心是透過採珠人的生命危險，以及人類對珍珠的索取，反思貪欲、生命與自然的關係。
+
+照片中的第 1 題藍筆選 B，與詩意判斷一致；第 2 題藍筆選 C，紅筆訂正應為 D。
+
+## 一、原詩與逐句白話翻譯
+
+<box border radius="xl" padding={3} gap={3}>
+  <row align="center" justify="between">
+    **《採珠行》｜唐・元稹**
+    <badge>文言文必讀</badge>
+  </row>
+  <text color="secondary" size="xs">依照片所載詩文，並對照《全唐詩》核對。<Cite ref="turn431323search1"/></text>
+  {#each [
+    ["海波無底珠沉海，採珠之人判死採。","海水深不可測，珍珠沉在海底，採珠的人必須冒著生命危險才能採取。"],
+    ["萬人判死一得珠，斛量買婢人何在。","許多人冒死採珠，才可能得到珍珠；那些曾大量使用珍珠購買婢女的人，如今又在哪裡呢？"],
+    ["年年採珠珠避人，今年採珠由海神。","人們年年採珠，珍珠彷彿都躲避人類；今年則由海神來採珠。"],
+    ["海神採珠珠盡死，死盡明珠空海水。","海神採珠，連珍珠也全都消失了；珍珠消失殆盡，只剩下空蕩蕩的海水。"],
+    ["珠為海物海屬神，神今自採何況人。","珍珠原本就是海中的產物，海洋又歸海神掌管；如今連海神都親自採取，何況是人類呢？"]
+  ] as pair,i}
+    <box gap={1}>
+      <text color="secondary" weight="medium" size="xs">第 {i+1} 組</text>
+      **{pair[0]}**
+      <text size="sm">{pair[1]}</text>
+    </box>
+    {#if i<4}<divider color="subtle"/>{/if}
+  {/each}
+</box>
+
+**關鍵字詞：**「判死」是拚死、冒死；「斛」是古代容量單位；「婢」指婢女。「海神採珠」則帶有想像與諷喻意味，不應當作實際發生的事件。
+
+## 二、全詩的思考脈絡
+
+<box border radius="xl" padding={3} gap={2}>
+  <box background="surface-secondary" padding={3} radius="lg" align="center" gap={1}>
+    <icon name="waves" color="info" size="lg"/>
+    **海底採珠極為危險**
+
+    <text size="sm">採珠人冒著生命危險取得珍珠</text>
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" padding={3} radius="lg" align="center" gap={1}>
+    <icon name="gem" color="secondary" size="lg"/>
+    **珍珠被視為奢侈財物**
+
+    <text size="sm">富貴者以大量珍珠換取婢女</text>
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" padding={3} radius="lg" align="center" gap={1}>
+    <icon name="fish" color="info" size="lg"/>
+    **連海神採珠，也使珍珠消失殆盡**
+
+    <text size="sm">想像自然資源遭到過度索取的結果</text>
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="rgba(22,155,98,0.07)" border={{size:1,color:"success"}} padding={3} radius="lg" align="center" gap={1}>
+    <icon name="leaf" color="success" size="lg"/>
+    **反思人類貪欲與自然資源的關係**
+
+    <text color="success" weight="medium" size="sm">兼具生命關懷與自然環境反思</text>
+  </box>
+</box>
+
+---
+
+## 第 1 題｜判斷詩歌主旨
+
+**原題：有關本詩的主旨，下列敘述何者正確？**
+
+(A) 譴責人們與神明爭採珍珠
+
+(B) 呼籲重視海洋生態的平衡
+
+(C) 呼籲從事捕獵應重視安全
+
+(D) 撻伐買婢的行為忽視人權
+
+<badge color="success">答案：B</badge>
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A | <icon name="x" color="danger" inline/> | 海神是詩中的想像與諷喻手法，不是單純責備人類與神明競爭。 |
+| **B** | <icon name="check-circle" color="success" inline/> | 詩末以珍珠消失、海水空蕩的景象，呼應人類應反思索取自然資源的行為。 |
+| C | <icon name="x" color="danger" inline/> | 採珠確實危險，但詩意並不只是在提醒作業安全。 |
+| D | <icon name="x" color="danger" inline/> | 買婢是詩中批判奢侈、反映社會不公的材料，不是全文唯一主旨。 |
+
+**判斷關鍵：**「海神採珠珠盡死，死盡明珠空海水。」
+
+這兩句描繪珍珠被取盡的景象。四個選項中，B 最能概括詩末對海洋資源與人類行為的反思。
+
+不過，**本詩不只有環境保護的意涵**，也明顯同情冒死採珠的勞動者、批判富貴者的奢侈。B 是本題的最佳選項，不代表其他層面的詩意不存在。
+
+## 第 2 題｜「斛量買婢」的文意推斷
+
+**原題：從詩意推斷，「斛量買婢」指的是下列何現象？**
+
+(A) 海邊萬人空巷，珍珠被一斛一斛採走
+
+(B) 大家都跑去採珍珠，導致無人買賣婢女
+
+(C) 富人揮霍珍珠後，只好賣掉婢女來償債
+
+(D) 珍珠被採盡之前，富人揮霍珍珠的情景
+
+<badge color="success">答案：D</badge>
+
+### 先破解「斛量買婢」
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={3} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} align="center" gap={1}>
+        <icon name="scale" color="secondary" size="lg"/>
+        **斛量**
+        <text size="xs" textAlign="center">以古代容量單位計量，強調數量多</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} align="center" gap={1}>
+        <icon name="gem" color="secondary" size="lg"/>
+        **珍珠**
+        <text size="xs" textAlign="center">價值昂貴的財物</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} align="center" gap={1}>
+        <icon name="coins" color="secondary" size="lg"/>
+        **買婢**
+        <text size="xs" textAlign="center">購買婢女的行為</text>
+      </box>
+    </grid-item>
+  </grid>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <text weight="medium" color="success" textAlign="center">以大量珍珠購買婢女，呈現富貴者奢侈耗費財物的情況。</text>
+</box>
+
+### 逐項排除
+
+| 選項 | 判斷 | 解析 |
+|---|---|---|
+| A | <icon name="x" color="danger" inline/> | 「斛量」不是指一斛一斛地採珠，也沒有萬人空巷的描述。 |
+| B | <icon name="x" color="danger" inline/> | 詩中沒有說因採珠而導致婢女無人買賣。 |
+| C | <icon name="x" color="danger" inline/> | 把「買婢」誤解成「賣掉婢女」，也自行加上償債情節。 |
+| **D** | <icon name="check-circle" color="success" inline/> | 符合富貴者以大量珍珠奢侈消費的情境。 |
+
+### 為什麼 C 容易誤選？
+
+這題的主要陷阱是**動作方向顛倒**。
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" padding={3} radius="lg" gap={2}>
+      <row align="center" gap={2}>
+        <icon name="x-circle" color="danger"/>
+        **C 的說法**
+      </row>
+      賣掉婢女 → 償還債務
+      <text color="secondary" size="xs">詩中沒有這個情節</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="rgba(22,155,98,0.08)" padding={3} radius="lg" gap={2}>
+      <row align="center" gap={2}>
+        <icon name="check-circle" color="success"/>
+        **原詩意思**
+      </row>
+      大量珍珠 → 購買婢女
+      <text color="success" size="xs">符合「斛量買婢」</text>
+    </box>
+  </grid-item>
+</grid>
+
+只要抓住「買」這個字，就能排除 C。
+
+## 三、兩題錯題最後總結
+
+| | 第 1 題 | 第 2 題 |
+|---|---|---|
+| **答案** | B | D |
+| **考點** | 全詩主旨 | 古文詞義推論 |
+| **關鍵證據** | 「死盡明珠空海水」 | 「斛量買婢」 |
+| **5 秒判斷** | 珍珠採盡 → 反思自然資源 | 大量珍珠 → 購買婢女 |
+| **易錯提醒** | 不可只抓某一句當成全文主旨 | 「買婢」不是「賣婢」 |
+
+### 一眼記住
+
+**第 1 題：** 從詩歌結尾回推主旨，注意資源耗竭與生命關懷。
+
+**第 2 題：** 先翻譯「斛量買婢」，再判斷選項有沒有自行加入原文不存在的情節。
+
+原詩可參考：<Link url="https://ctext.org/quantangshi/418" title="《全唐詩》卷四百一十八・元稹〈採珠行〉"/>。
+
+這兩題共同訓練的是**以原文作為證據**：第 1 題要綜合全詩找主旨，第 2 題則要精確理解關鍵詞，不能憑想像補充情節。
+
+[133] assistant
+## 三、兩題錯題最後總結
+
+| | 第 1 題 | 第 2 題 |
+|---|---|---|
+| **答案** | B | D |
+| **考點** | 全詩主旨 | 古文詞義推論 |
+| **關鍵證據** | 「死盡明珠空海水」 | 「斛量買婢」 |
+| **5 秒判斷** | 珍珠採盡 → 反思自然資源 | 大量珍珠 → 購買婢女 |
+| **易錯提醒** | 不可只抓某一句當成全文主旨 | 「買婢」不是「賣婢」 |
+
+### 一眼記住
+
+**第 1 題：** 從詩歌結尾回推主旨，注意資源耗竭與生命關懷。
+
+**第 2 題：** 先翻譯「斛量買婢」，再判斷選項有沒有自行加入原文不存在的情節。
+
+原詩可參考：<Link url="https://ctext.org/quantangshi/418" title="《全唐詩》卷四百一十八・元稹〈採珠行〉"/>。
+
+這兩題共同訓練的是**以原文作為證據**：第 1 題要綜合全詩找主旨，第 2 題則要精確理解關鍵詞，不能憑想像補充情節。
+
+[134] user
+7@錯題
+
+[137] assistant
+# 第 7 題｜國文錯題解析：座頭鯨的利他行為
+
+<badge color="success">正確答案：B</badge> <badge>閱讀理解 × 儒家思想</badge>
+
+**考點：文章證據判讀 × 動物行為 × 《論語》名句**
+
+這題的核心是：**座頭鯨不只保護自己，也會冒險幫助其他動物。** 必須找出最符合這種精神的儒家名句。
+
+## 一、完整原題與選項
+
+**7. 文中座頭鯨的舉動，下列哪項人類的精神最接近？**
+
+(A) 己所不欲，勿施於人
+
+(B) 博施於民，而能濟眾
+
+(C) 願無伐善，無施勞
+
+(D) 以直報怨，以德報德
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **文章最關鍵的證據**
+
+  「他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹『抱』在自己的肚子上，帶往安全的地方。」
+
+  「這些被拯救的生物當中，有高達90%都非座頭鯨。」
+
+  「人類保護其他動物，我們稱之為同理心……」
+
+  <text color="secondary" size="xs">以上節錄自照片中的〈解析魚類的情感〉，保留核心敘述供題目判讀。</text>
+</box>
+
+## 二、原文證據如何推導答案？
+
+<box border radius="xl" padding={3} gap={2}>
+  <text weight="medium" color="secondary" size="xs">證據 → 行為 → 精神 → 答案</text>
+  <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+    <row align="center" gap={2}>
+      <icon name="waves" color="info"/>
+      **原文證據**
+    </row>
+    座頭鯨驅趕殺人鯨，幫助海豹等其他動物脫險。
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+    <row align="center" gap={2}>
+      <icon name="heart-handshake" color="secondary"/>
+      **行為特徵**
+    </row>
+    不只顧及自身，也幫助其他生命。
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="rgba(24,154,102,0.08)" border={{size:1,color:"success"}} padding={3} radius="lg" gap={1}>
+    <row align="center" gap={2}>
+      <icon name="check-circle" color="success"/>
+      **對應精神：博施於民，而能濟眾**
+    </row>
+    <text color="success" weight="medium">廣泛施予恩惠，幫助眾人。</text>
+  </box>
+</box>
+
+<AsyncImage query="educational watercolor natural history illustration humpback whale gently supporting a small seal on its broad head near floating Antarctic ice, orcas swimming in distant water, peaceful realistic marine wildlife no text" aspectRatio="3:2"/>
+
+<caption>情境示意：座頭鯨協助海豹脫離危險，對應文章所描述的救援行為；圖像並非原研究紀錄。</caption>
+
+## 三、四個選項逐項解析
+
+<box gap={3}>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2} width="44px" align="center">
+      **A**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **己所不欲，勿施於人**
+
+      白話：自己不喜歡的事情，不要強加在別人身上。
+
+      <text color="secondary" size="sm">重點是設身處地、不強迫他人，而不是主動救助別人。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="rgba(24,154,102,0.08)" radius="lg" padding={2} width="44px" align="center">
+      **B**
+      <icon name="check-circle" color="success"/>
+    </box>
+    <box flex="1" gap={1}>
+      **博施於民，而能濟眾**
+
+      白話：廣泛地給予人民恩惠，並且能幫助眾人。
+
+      <text color="success" size="sm" weight="medium">對應座頭鯨幫助不同種類動物的利他行為，最符合文意。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2} width="44px" align="center">
+      **C**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **願無伐善，無施勞**
+
+      白話：希望不誇耀自己的優點，不表彰自己的功勞。
+
+      <text color="secondary" size="sm">重點是謙虛、不居功。文章沒有強調座頭鯨是否炫耀功勞。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2} width="44px" align="center">
+      **D**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **以直報怨，以德報德**
+
+      白話：以公正正直的態度對待怨恨，以恩德回報恩德。
+
+      <text color="secondary" size="sm">重點是如何回應別人的恩怨，不是無條件救助其他生命。</text>
+    </box>
+  </row>
+</box>
+
+## 四、視覺化比較：四句《論語》名言
+
+| 名句 | 核心精神 | 快速記憶 |
+|---|---|---|
+| 己所不欲，勿施於人 | 尊重、同理 | 不強加於人 |
+| **博施於民，而能濟眾** | **仁愛、助人** | **廣泛幫助他人** |
+| 願無伐善，無施勞 | 謙虛、不居功 | 不誇耀自己 |
+| 以直報怨，以德報德 | 公正、知恩 | 恩怨分明 |
+
+### 易錯觀念：C 為什麼不行？
+
+座頭鯨救助其他動物後，文章沒有描述牠們邀功或炫耀的行為。
+
+但是，**沒有描寫邀功，不代表文章的重點就是「謙虛不居功」**。
+
+原文提供的正面證據是「主動幫助其他生命」，因此 B 比 C 更貼近文章主旨。
+
+此外，文章雖用人類的同理心來類比座頭鯨的行為，但也指出其真正動機尚待研究，不宜直接斷言座頭鯨具有與人類完全相同的道德意識。
+
+## 五、錯題最後總結
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" gap={2}>
+    <icon name="target" color="success"/>
+    **答案：B 博施於民，而能濟眾**
+  </row>
+  **關鍵線索：** 座頭鯨保護其他動物，包含不同物種。
+
+  **5 秒判斷：** 救助其他生命 → 利他精神 → 博施濟眾。
+
+  **可能陷阱：** C 強調不誇功，雖然也是正面品德，但不是文章的主要行為證據。
+
+  **一眼記住：** 博施＝廣泛施恩；濟眾＝幫助眾人。
+</box>
+
+## 六、會考互動小測驗
+
+{@body const [answer,setAnswer]=DIL.useState("")}
+<box border radius="xl" padding={3} gap={3}>
+  **某位同學經常幫助家境困難的學生，提供文具、課本與生活資源。這種行為最接近哪一種精神？**
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="A">A. 以直報怨</radio>
+    <radio value="B">B. 博施濟眾</radio>
+    <radio value="C">C. 無伐善，無施勞</radio>
+  </radio-group>
+  {#if answer}
+    <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+      <text weight="medium" color={answer==="B"?"success":"danger"}><icon name={answer==="B"?"check-circle":"info"} inline/> {answer==="B"?"答對了！":"正確答案是 B。"}</text>
+      「博施濟眾」強調廣泛幫助需要協助的人，和題目中主動提供資源的行為相符。
+    </box>
+  {/if}
+</box>
+
+[138] user
+1、2@錯題
+
+[140] assistant
+我會依這兩頁的原文，核對第 1 題的「手冊編纂目的」與第 2 題的「海鮮挑選原則」，並逐項對照文章證據。
+
+[149] assistant
+# 國文《臺灣海鮮選擇指南》｜第 1、2 題錯題解析
+
+<row align="center" gap={2} wrap="wrap">
+  <badge color="success">第 1 題：C</badge>
+  <badge color="success">第 2 題：D</badge>
+</row>
+
+**考點：閱讀理解 × 環境保育 × 資訊擷取 × 選項排除**
+
+這兩題都必須回到原文找證據，尤其要分清楚：
+
+- **第 1 題：** 編寫指南的真正目的。
+- **第 2 題：** 哪些海鮮適合選購，以及背後的理由。
+
+## 一、文章重點整理
+
+文章〈從臺灣海鮮選擇指南看消費者行動（節錄）〉提出：透過消費者選擇合適的海鮮，減少過度捕撈對海洋生態的破壞。
+
+<box border radius="xl" padding={3} gap={2}>
+  <text weight="medium" color="secondary" size="xs">原文證據 → 消費原則</text>
+  <box gap={1} background="surface-secondary" radius="lg" padding={3}>
+    <row align="center" gap={2}>
+      <icon name="check-circle" color="success"/>
+      **適合優先選擇**
+    </row>
+    <text size="sm">數量較多、生長較快、食物鏈底層的魚類，以及來源相對永續的養殖魚類。</text>
+  </box>
+  <box gap={1} background="surface-secondary" radius="lg" padding={3}>
+    <row align="center" gap={2}>
+      <icon name="alert-triangle" color="danger"/>
+      **應減少或避免選擇**
+    </row>
+    <text size="sm">生長緩慢、數量較少、不易恢復的魚類，以及使用破壞性捕撈方式取得的海鮮。</text>
+  </box>
+</box>
+
+其中最重要的一句是：
+
+> 「為達成永續漁業，鼓勵民眾藉由消費者的力量，來改變過漁（過度撈捕）與濫捕對漁業資源及海洋生態造成的嚴重影響。」
+
+這句話可以直接幫我們判斷第 1 題。
+
+---
+
+## 二、第 1 題｜編纂指南的目的
+
+**原題：** 依文意判斷，「臺灣海鮮選擇指南」手冊編纂的原因最有可能為下列何者？
+
+(A) 研究臺灣近海魚類的生態及其面臨的危機
+
+(B) 探討臺灣魚類產業的經營方向與發展策略
+
+(C) 建議民眾食用合宜的魚類以延續海洋資源
+
+(D) 使民眾了解海洋知識以加速海洋生態研究
+
+<badge color="success">正確答案：C</badge>
+
+### 逐項解析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A | <icon name="x" color="danger" inline/> | 研究海洋生態危機是相關背景，但不是編纂消費指南的直接目的。 |
+| B | <icon name="x" color="danger" inline/> | 文章重點不是漁業公司的經營與發展。 |
+| **C** | <icon name="check-circle" color="success" inline/> | 指導消費者選擇適合食用的海鮮，減少資源耗竭，符合原文。 |
+| D | <icon name="x" color="danger" inline/> | 指南目的不是加快科學研究，而是改善消費選擇。 |
+
+### 題目推理圖
+
+<box border radius="lg" padding={3} gap={2}>
+  <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    **問題：過度捕撈破壞海洋生態**
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    **方法：提供海鮮選購指南**
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="rgba(22,155,98,0.08)" radius="lg" padding={3} align="center" gap={1}>
+    <title size="md" color="success">目的：永續利用海洋資源</title>
+    <text size="sm" textAlign="center">答案 C</text>
+  </box>
+</box>
+
+**可能陷阱：** A 與文章的研究背景有關，但題目問的是「為何編纂手冊」，所以要找出面向消費者的實際目的。
+
+
+
+[150] assistant
+---
+
+## 三、第 2 題｜海鮮挑選原則
+
+**原題：** 依據本文，有關海鮮挑選原則，下列敘述何者正確？
+
+(A) 體型小的魚，肉質鮮嫩且不易受重金屬汙染，宜多選購
+
+(B) 珊瑚礁定棲魚類，體色鮮豔、數量較多，適合多加食用
+
+(C) 避免食用以底拖漁網捕撈的野生海蝦，如：櫻花蝦
+
+(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多
+
+<badge color="success">正確答案：D</badge>
+
+### 逐項解析與原文證據
+
+<box gap={3}>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" padding={2} radius="lg" width="44px" align="center">
+      **A**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **體型小就一定比較適合食用？**
+
+      原文推薦的是「體型小、生長速度快」等特徵，但沒有說這些魚一定肉質鮮嫩，也不能僅憑體型小就斷定不易受重金屬汙染。
+
+      <text size="sm" color="danger">錯在加入原文沒有支持的理由。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" padding={2} radius="lg" width="44px" align="center">
+      **B**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **珊瑚礁魚類顏色鮮豔，就適合多吃？**
+
+      原文指出珊瑚礁魚類如鸚哥魚、紅石斑等，因數量較少、資源恢復不易，屬於應避免食用的種類。
+
+      <text size="sm" color="danger">與原文的數量及保育判斷相反。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" padding={2} radius="lg" width="44px" align="center">
+      **C**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **把櫻花蝦當成底拖漁網捕撈的例子？**
+
+      原文指出櫻花蝦採用「中層網」，不會接觸海底；因此不能將它直接列為底拖漁網捕撈的例子。
+
+      <text size="sm" color="danger">錯在混淆捕撈方式。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="rgba(22,155,98,0.08)" padding={2} radius="lg" width="44px" align="center">
+      **D**
+      <icon name="check-circle" color="success"/>
+    </box>
+    <box flex="1" gap={1}>
+      **選擇食物鏈底層、數量較多的海鮮**
+
+      原文最後明確提出：「這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用。」
+
+      <text size="sm" color="success" weight="medium">與文章敘述直接相符。</text>
+    </box>
+  </row>
+</box>
+
+## 四、視覺化理解：怎麼選海鮮？
+
+<box border radius="xl" padding={3} gap={2}>
+  <title size="md">海鮮選購與生態保育</title>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <AsyncImage query="realistic educational illustration small silver sardines swimming in large abundant school underwater sunlight no text" aspectRatio="4:3"/>
+      <box gap={1}>
+        <row align="center" gap={1}>
+          <icon name="check-circle" color="success"/>
+          **數量相對豐富**
+        </row>
+        <text size="sm">生長快、資源較充足的魚類，可依來源及捕撈方式考慮選擇。</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <AsyncImage query="realistic educational illustration colorful parrotfish swimming over tropical coral reef underwater no text" aspectRatio="4:3"/>
+      <box gap={1}>
+        <row align="center" gap={1}>
+          <icon name="alert-circle" color="danger"/>
+          **珊瑚礁魚類**
+        </row>
+        <text size="sm">部分族群數量少、資源恢復不易，應依保育建議避免選購。</text>
+      </box>
+    </grid-item>
+  </grid>
+  <divider color="subtle"/>
+  <text weight="medium" size="sm">捕撈方式也很重要</text>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} gap={1}>
+        <svg viewBox="0 0 160 92" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect width="160" height="92" rx="8" fill="#DCF2FF"/>
+          <path d="M0 75 Q40 67 80 75 T160 75 V92 H0Z" fill="#DABF92"/>
+          {#each [20,42,66,97,123] as x}
+            <path d={`M${x} 28 l10 -5 v10 z`} fill="#558FA9"/>
+          {/each}
+          <path d="M26 43 Q80 62 134 43 L117 57 Q80 72 43 57Z" fill="#5A91BA" fillOpacity=".24" stroke="#427FA1" strokeWidth="2"/>
+          <path d="M26 43L80 14L134 43" fill="none" stroke="#427FA1" strokeWidth="2"/>
+          <path d="M80 14V7" stroke="#427FA1" strokeWidth="2"/>
+        </svg>
+        **中層網**
+        <text size="xs" color="secondary">漁網不接觸海底，較能避免直接破壞底棲環境。</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} gap={1}>
+        <svg viewBox="0 0 160 92" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect width="160" height="92" rx="8" fill="#DCF2FF"/>
+          <path d="M0 75 Q40 67 80 75 T160 75 V92 H0Z" fill="#DABF92"/>
+          <path d="M25 72 Q80 40 135 72 L123 79 Q80 53 37 79Z" fill="#B97970" fillOpacity=".3" stroke="#B2594F" strokeWidth="2"/>
+          <path d="M25 72L80 20L135 72" fill="none" stroke="#B2594F" strokeWidth="2"/>
+          <path d="M80 20V9" stroke="#B2594F" strokeWidth="2"/>
+          {#each [40,65,105,125] as x}
+            <circle cx={x} cy="82" r="3" fill="#A07D58"/>
+          {/each}
+        </svg>
+        **底拖漁網**
+        <text size="xs" color="secondary">漁具接觸海床，可能破壞底棲生態及混獲其他生物。</text>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>示意圖呈現兩種漁網相對於海底的位置，非特定漁業作業規格。實際永續性仍須考慮漁法管理、漁場及資源狀況。</caption>
+</box>
+
+
+
+[153] assistant
+# 國文《臺灣海鮮選擇指南》｜第 1、2 題錯題解析
+
+<row align="center" gap={2} wrap="wrap">
+  <badge color="success">第 1 題：C</badge>
+  <badge color="success">第 2 題：D</badge>
+</row>
+
+**考點：閱讀理解 × 環境保育 × 資訊擷取 × 選項排除**
+
+這兩題都必須回到原文找證據，尤其要分清楚：
+
+- **第 1 題：** 編寫指南的真正目的。
+- **第 2 題：** 哪些海鮮適合選購，以及背後的理由。
+
+## 一、文章重點整理
+
+文章〈從臺灣海鮮選擇指南看消費者行動（節錄）〉提出：透過消費者選擇合適的海鮮，減少過度捕撈對海洋生態的破壞。
+
+<box border radius="xl" padding={3} gap={2}>
+  <text weight="medium" color="secondary" size="xs">原文證據 → 消費原則</text>
+  <box gap={1} background="surface-secondary" radius="lg" padding={3}>
+    <row align="center" gap={2}>
+      <icon name="check-circle" color="success"/>
+      **適合優先選擇**
+    </row>
+    <text size="sm">數量較多、生長較快、食物鏈底層的魚類，以及來源相對永續的養殖魚類。</text>
+  </box>
+  <box gap={1} background="surface-secondary" radius="lg" padding={3}>
+    <row align="center" gap={2}>
+      <icon name="alert-triangle" color="danger"/>
+      **應減少或避免選擇**
+    </row>
+    <text size="sm">生長緩慢、數量較少、不易恢復的魚類，以及使用破壞性捕撈方式取得的海鮮。</text>
+  </box>
+</box>
+
+其中最重要的一句是：
+
+> 「為達成永續漁業，鼓勵民眾藉由消費者的力量，來改變過漁（過度撈捕）與濫捕對漁業資源及海洋生態造成的嚴重影響。」
+
+這句話可以直接幫我們判斷第 1 題。
+
+---
+
+## 二、第 1 題｜編纂指南的目的
+
+**原題：** 依文意判斷，「臺灣海鮮選擇指南」手冊編纂的原因最有可能為下列何者？
+
+(A) 研究臺灣近海魚類的生態及其面臨的危機
+
+(B) 探討臺灣魚類產業的經營方向與發展策略
+
+(C) 建議民眾食用合宜的魚類以延續海洋資源
+
+(D) 使民眾了解海洋知識以加速海洋生態研究
+
+<badge color="success">正確答案：C</badge>
+
+### 逐項解析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A | <icon name="x" color="danger" inline/> | 研究海洋生態危機是相關背景，但不是編纂消費指南的直接目的。 |
+| B | <icon name="x" color="danger" inline/> | 文章重點不是漁業公司的經營與發展。 |
+| **C** | <icon name="check-circle" color="success" inline/> | 指導消費者選擇適合食用的海鮮，減少資源耗竭，符合原文。 |
+| D | <icon name="x" color="danger" inline/> | 指南目的不是加快科學研究，而是改善消費選擇。 |
+
+### 題目推理圖
+
+<box border radius="lg" padding={3} gap={2}>
+  <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    **問題：過度捕撈破壞海洋生態**
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    **方法：提供海鮮選購指南**
+  </box>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <box background="rgba(22,155,98,0.08)" radius="lg" padding={3} align="center" gap={1}>
+    <title size="md" color="success">目的：永續利用海洋資源</title>
+    <text size="sm" textAlign="center">答案 C</text>
+  </box>
+</box>
+
+**可能陷阱：** A 與文章的研究背景有關，但題目問的是「為何編纂手冊」，所以要找出面向消費者的實際目的。
+
+---
+
+## 三、第 2 題｜海鮮挑選原則
+
+**原題：** 依據本文，有關海鮮挑選原則，下列敘述何者正確？
+
+(A) 體型小的魚，肉質鮮嫩且不易受重金屬汙染，宜多選購
+
+(B) 珊瑚礁定棲魚類，體色鮮豔、數量較多，適合多加食用
+
+(C) 避免食用以底拖漁網捕撈的野生海蝦，如：櫻花蝦
+
+(D) 多選擇屬於食物鏈底層的海鮮，因其數量相對較多
+
+<badge color="success">正確答案：D</badge>
+
+### 逐項解析與原文證據
+
+<box gap={3}>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" padding={2} radius="lg" width="44px" align="center">
+      **A**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **體型小就一定比較適合食用？**
+
+      原文推薦的是「體型小、生長速度快」等特徵，但沒有說這些魚一定肉質鮮嫩，也不能僅憑體型小就斷定不易受重金屬汙染。
+
+      <text size="sm" color="danger">錯在加入原文沒有支持的理由。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" padding={2} radius="lg" width="44px" align="center">
+      **B**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **珊瑚礁魚類顏色鮮豔，就適合多吃？**
+
+      原文指出珊瑚礁魚類如鸚哥魚、紅石斑等，因數量較少、資源恢復不易，屬於應避免食用的種類。
+
+      <text size="sm" color="danger">與原文的數量及保育判斷相反。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" padding={2} radius="lg" width="44px" align="center">
+      **C**
+      <icon name="x-circle" color="danger"/>
+    </box>
+    <box flex="1" gap={1}>
+      **把櫻花蝦當成底拖漁網捕撈的例子？**
+
+      原文指出櫻花蝦採用「中層網」，不會接觸海底；因此不能將它直接列為底拖漁網捕撈的例子。
+
+      <text size="sm" color="danger">錯在混淆捕撈方式。</text>
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="rgba(22,155,98,0.08)" padding={2} radius="lg" width="44px" align="center">
+      **D**
+      <icon name="check-circle" color="success"/>
+    </box>
+    <box flex="1" gap={1}>
+      **選擇食物鏈底層、數量較多的海鮮**
+
+      原文最後明確提出：「這些屬於食物鏈底層的種類因食物來源豐富，數量也相對較多，建議食用。」
+
+      <text size="sm" color="success" weight="medium">與文章敘述直接相符。</text>
+    </box>
+  </row>
+</box>
+
+## 四、視覺化理解：怎麼選海鮮？
+
+<box border radius="xl" padding={3} gap={2}>
+  <title size="md">海鮮選購與生態保育</title>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <AsyncImage query="realistic educational illustration small silver sardines swimming in large abundant school underwater sunlight no text" aspectRatio="4:3"/>
+      <box gap={1}>
+        <row align="center" gap={1}>
+          <icon name="check-circle" color="success"/>
+          **數量相對豐富**
+        </row>
+        <text size="sm">生長快、資源較充足的魚類，可依來源及捕撈方式考慮選擇。</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <AsyncImage query="realistic educational illustration colorful parrotfish swimming over tropical coral reef underwater no text" aspectRatio="4:3"/>
+      <box gap={1}>
+        <row align="center" gap={1}>
+          <icon name="alert-circle" color="danger"/>
+          **珊瑚礁魚類**
+        </row>
+        <text size="sm">部分族群數量少、資源恢復不易，應依保育建議避免選購。</text>
+      </box>
+    </grid-item>
+  </grid>
+  <divider color="subtle"/>
+  <text weight="medium" size="sm">捕撈方式也很重要</text>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} gap={1}>
+        <svg viewBox="0 0 160 92" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect width="160" height="92" rx="8" fill="#DCF2FF"/>
+          <path d="M0 75 Q40 67 80 75 T160 75 V92 H0Z" fill="#DABF92"/>
+          {#each [20,42,66,97,123] as x}
+            <path d={`M${x} 28 l10 -5 v10 z`} fill="#558FA9"/>
+          {/each}
+          <path d="M26 43 Q80 62 134 43 L117 57 Q80 72 43 57Z" fill="#5A91BA" fillOpacity=".24" stroke="#427FA1" strokeWidth="2"/>
+          <path d="M26 43L80 14L134 43" fill="none" stroke="#427FA1" strokeWidth="2"/>
+          <path d="M80 14V7" stroke="#427FA1" strokeWidth="2"/>
+        </svg>
+        **中層網**
+        <text size="xs" color="secondary">漁網不接觸海底，較能避免直接破壞底棲環境。</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} gap={1}>
+        <svg viewBox="0 0 160 92" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect width="160" height="92" rx="8" fill="#DCF2FF"/>
+          <path d="M0 75 Q40 67 80 75 T160 75 V92 H0Z" fill="#DABF92"/>
+          <path d="M25 72 Q80 40 135 72 L123 79 Q80 53 37 79Z" fill="#B97970" fillOpacity=".3" stroke="#B2594F" strokeWidth="2"/>
+          <path d="M25 72L80 20L135 72" fill="none" stroke="#B2594F" strokeWidth="2"/>
+          <path d="M80 20V9" stroke="#B2594F" strokeWidth="2"/>
+          {#each [40,65,105,125] as x}
+            <circle cx={x} cy="82" r="3" fill="#A07D58"/>
+          {/each}
+        </svg>
+        **底拖漁網**
+        <text size="xs" color="secondary">漁具接觸海床，可能破壞底棲生態及混獲其他生物。</text>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>示意圖呈現兩種漁網相對於海底的位置，非特定漁業作業規格。實際永續性仍須考慮漁法管理、漁場及資源狀況。</caption>
+</box>
+
+## 五、兩題錯題最後總結
+
+| 判斷重點 | 第 1 題 | 第 2 題 |
+|---|---|---|
+| **答案** | C | D |
+| 關鍵線索 | 消費者力量、永續漁業 | 食物鏈底層、數量較多 |
+| 5 秒判斷 | 指南目的是教人選擇合適海鮮 | 找出與原文選購原則一致的敘述 |
+| 易錯提醒 | 不要把研究背景當作編纂目的 | 不要將櫻花蝦誤認為底拖漁法的例子 |
+
+**一眼記住：**
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" gap={2}>
+    <icon name="book-open" color="secondary"/>
+    **第 1 題：為什麼編指南？**
+  </row>
+  讓消費者選對海鮮，協助海洋資源永續利用。
+
+  <divider color="subtle"/>
+  <row align="center" gap={2}>
+    <icon name="fish" color="secondary"/>
+    **第 2 題：怎麼挑海鮮？**
+  </row>
+  考慮物種數量、生長速度、食物鏈位置及捕撈方式，不能只憑魚的大小或顏色判斷。
+</box>
+
+這組題目特別值得練習的是 **「選項與原文一致性驗證」**：文章提到某個特徵，不代表選項額外添加的理由也一定正確。第 2 題 A、C 都有這類陷阱。
+
+---
+
+如果你願意，我可以：
+
+- 深入解析『摻』字多音多義使用
+- 提供更多成語語境判斷練習
+- 接續解析成語詞義關係選擇題
+
+[154] assistant
+## 五、兩題錯題最後總結
+
+| 判斷重點 | 第 1 題 | 第 2 題 |
+|---|---|---|
+| **答案** | C | D |
+| 關鍵線索 | 消費者力量、永續漁業 | 食物鏈底層、數量較多 |
+| 5 秒判斷 | 指南目的是教人選擇合適海鮮 | 找出與原文選購原則一致的敘述 |
+| 易錯提醒 | 不要把研究背景當作編纂目的 | 不要將櫻花蝦誤認為底拖漁法的例子 |
+
+**一眼記住：**
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" gap={2}>
+    <icon name="book-open" color="secondary"/>
+    **第 1 題：為什麼編指南？**
+  </row>
+  讓消費者選對海鮮，協助海洋資源永續利用。
+
+  <divider color="subtle"/>
+  <row align="center" gap={2}>
+    <icon name="fish" color="secondary"/>
+    **第 2 題：怎麼挑海鮮？**
+  </row>
+  考慮物種數量、生長速度、食物鏈位置及捕撈方式，不能只憑魚的大小或顏色判斷。
+</box>
+
+這組題目特別值得練習的是 **「選項與原文一致性驗證」**：文章提到某個特徵，不代表選項額外添加的理由也一定正確。第 2 題 A、C 都有這類陷阱。

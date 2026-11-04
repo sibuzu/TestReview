@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-04T16:04:12.502100+00:00",
+  "affectedGroups": [
+    "q-956",
+    "q-959"
+  ],
+  "sameParentPrompt": true,
+  "differentSharedPassagesAndChildren": true,
+  "legacyRoundtripCount": 785,
+  "expectedRoundtripCount": 786,
+  "repairedRoundtripCount": 786,
+  "identityFields": [
+    "subject",
+    "original question",
+    "shared passage",
+    "original tables",
+    "necessary question figures",
+    "child original material"
+  ],
+  "excludedFields": [
+    "id",
+    "source URL",
+    "date",
+    "answer",
+    "explanation",
+    "teachingComic"
+  ],
+  "meaningfulSymbolsPreserved": true,
+  "normalization": "NFKC, whitespace, case only",
+  "necessaryRegression": "Different shared material/children stay separate; a whole-original copy changing ID or answer stays duplicate; math operators and pronunciation tones remain distinct.",
+  "siteTestsPassed": 121,
+  "siteTestsFailed": 0
+}

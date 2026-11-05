@@ -1,0 +1,172 @@
+{
+  "id": "q-961",
+  "sourceId": "src-more-059",
+  "subject": "Math",
+  "title": "數學第7題｜函數計算流程",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-05",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-05",
+  "question": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9",
+  "answer": "(C) y＝5x²－20x＋7",
+  "explanation": "依流程保留每一步運算的對象\n輸入x→減2得x－2→平方得（x－2）²→乘以5得5（x－2）²→減13。\n所以y＝5（x－2）²－13＝5（x²－4x＋4）－13＝5x²－20x＋7，選C。\n\n平方的是減2後的整個結果，不是只把2平方。A、B中的2²都只對2平方，沒有依流程把x－2當作整體平方。D也不等於展開式：中間項須是5×（－4x）＝－20x，常數項是20－13＝7。\n\n可用x＝2回代驗算：流程結果是－13；C代入得20－40＋7＝－13。B則為5（2－4）－13＝－23，不符合。\n原AI答案表將學生B判成正確，與原卷流程、選項不符；獨立驗算後訂正C，不因原AI稱答對就漏收此錯題。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "函數計算流程",
+    "函數"
+  ],
+  "images": [
+    "assets/originals/src-more-059-page1-q7-779b2ec31a1e.png"
+  ],
+  "sourceLabel": "分享原卷｜第7題",
+  "studentAnswer": "B；原卷未見紅筆訂正。",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "originalQuestionNumber": "7",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "y＝x－2²×5－13",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "先依通常運算順序只把2平方，沒有將減2後的整體平方。"
+    },
+    {
+      "label": "B",
+      "text": "y＝5（x－2²）－13",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "2²位於括號內，但不是（x－2）²，平方對象錯誤。"
+    },
+    {
+      "label": "C",
+      "text": "y＝5x²－20x＋7",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "正確流程5（x－2）²－13展開即得此式。"
+    },
+    {
+      "label": "D",
+      "text": "y＝5x²－4x－9",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "展開時中間項與常數項皆不符正確式。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/src-more-059-page1-q7-flow-70198f2b51d3.png",
+      "alt": "輸入x→減2→平方→乘以5→減13→輸出y",
+      "caption": "原卷計算流程；運算順序另以文字完整保留。"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "減2後整體平方，再依序運算",
+    "art": "assets/comics/q-961-art-9af7be16ba.svg",
+    "panels": [
+      {
+        "heading": "① 每一步都接續上一步的結果",
+        "text": "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
+        "alt": "中文標示輸入x、減2後x－2、整體平方（x－2）²。",
+        "diagram": {
+          "kind": "flow",
+          "title": "原流程的前半段",
+          "items": [
+            {
+              "label": "輸入：x",
+              "tone": "blue"
+            },
+            {
+              "label": "減2：x－2",
+              "tone": "gold"
+            },
+            {
+              "label": "平方：（x－2）²",
+              "tone": "green"
+            }
+          ],
+          "arrow": "依序處理上一個結果"
+        }
+      },
+      {
+        "heading": "② 再乘5、減13，最後才展開",
+        "text": "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
+        "alt": "精確HTML保留平方範圍、乘5、減13與展開的中間項。",
+        "diagram": {
+          "kind": "flow",
+          "title": "原流程的後半段",
+          "items": [
+            {
+              "label": "乘5：5（x－2）²",
+              "tone": "blue"
+            },
+            {
+              "label": "減13：y＝5（x－2）²－13",
+              "tone": "gold"
+            },
+            {
+              "label": "展開：y＝5x²－20x＋7",
+              "tone": "green"
+            }
+          ],
+          "arrow": "接續運算，再整理代數式"
+        }
+      },
+      {
+        "heading": "③ 用x＝2檢查B的平方範圍",
+        "text": "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。",
+        "alt": "同輸入2時比較B輸出－23與原流程和C輸出－13。",
+        "diagram": {
+          "kind": "paths",
+          "title": "同一個輸入，核對輸出",
+          "items": [
+            {
+              "label": "依流程／選項C：－13",
+              "tone": "green",
+              "detail": "先減2後，整體平方。"
+            },
+            {
+              "label": "選項B：－23",
+              "tone": "gold",
+              "detail": "B只把2平方，範圍不同。"
+            }
+          ],
+          "target": "B不符；C符合原流程",
+          "arrow": "都以x＝2代入比較"
+        }
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：y＝5x²－20x＋7",
+      "points": [
+        "平方的是減2後的整個結果。",
+        "（x－2）²＝x²－4x＋4，再全部乘5。",
+        "B把平方放在2上；不能因有括號就當成同一式。"
+      ]
+    },
+    "protectedWords": [
+      "原流程",
+      "平方範圍",
+      "整體平方",
+      "中間項",
+      "x＝2",
+      "x－2",
+      "（x－2）²",
+      "5（x－2）²",
+      "5x²－20x＋7",
+      "－20x",
+      "－13",
+      "－23"
+    ]
+  }
+}

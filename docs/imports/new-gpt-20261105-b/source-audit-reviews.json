@@ -1,0 +1,56 @@
+[
+  {
+    "originalQuestionNumber": "10",
+    "kind": "來源AI誤改已正確題（不新增錯題）",
+    "before": "原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
+    "after": "原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。",
+    "reason": "將剩餘容量與已裝水量混淆，原題不得改寫成桶內水量。",
+    "expectedAnswer": "D",
+    "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "questionText": "有一容量為9公升的水桶，內部已裝有1.5公升的水，已知有一水管每秒的流量為300毫升，若用此水管開始注水x秒後，水桶的容量剩下y公升，則x與y的關係式為何？\n(A) y＝0.3x＋1.5\n(B) y＝7.5－300x\n(C) y＝－0.3x＋9\n(D) y＝－0.3x＋7.5",
+    "evidence": [
+      "docs/imports/new-gpt-20261105-b/originals/page1-q10.png"
+    ],
+    "scope": "source",
+    "temporarySkip": true,
+    "questionId": null,
+    "monitorLinkPolicy": "No app question URL because not imported. Use fixed source-review confirmation dialog on monitor.",
+    "verification": "逐題實看原卷與裁圖並獨立驗算；本來正確，不新增學生錯題。"
+  },
+  {
+    "kind": "來源AI誤改已正確題（不新增錯題）",
+    "originalQuestionNumber": "5",
+    "before": "原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
+    "after": "原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。",
+    "reason": "原AI擅改函數類型造成錯誤訂正。",
+    "expectedAnswer": "D",
+    "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "questionText": "若（－5，h）、（2，6）、（7，k）三點都在常數函數y＝a的圖形上，則h＋k之值為何？\n(A) 2\n(B) 6\n(C) 10\n(D) 12",
+    "evidence": [
+      "docs/imports/new-gpt-20261105-b/originals/q5-detail.png"
+    ],
+    "scope": "source",
+    "temporarySkip": true,
+    "questionId": null,
+    "monitorLinkPolicy": "No app question URL because not imported. Use fixed source-review confirmation dialog on monitor.",
+    "verification": "逐題實看原卷與裁圖並獨立驗算；本來正確，不新增學生錯題。"
+  },
+  {
+    "kind": "來源AI誤改已正確題（不新增錯題）",
+    "originalQuestionNumber": "非選2(1)",
+    "before": "原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
+    "after": "原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。",
+    "reason": "原AI錯認題目要求的生產階段。",
+    "expectedAnswer": "126公斤",
+    "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "questionText": "有甲、乙兩部機器在生產線上連在一起，若x表示原料重量，甲機器的半成品重量y＝(2/3)x＋6；y表示送進乙機器的半成品重量，而乙機器的產品重量為z＝(5/6)y＋10。試回答下列問題：\n(1) 若將180公斤的原料送進甲機器，則有幾公斤的半成品會進入乙機器？（2分）\n(2) 若最後想要由乙機器得到260公斤的成品，則須送多少原料進甲機器？（4分）",
+    "evidence": [
+      "docs/imports/new-gpt-20261105-b/originals/nonchoice2-detail.png"
+    ],
+    "scope": "source",
+    "temporarySkip": true,
+    "questionId": null,
+    "monitorLinkPolicy": "No app question URL because not imported. Use fixed source-review confirmation dialog on monitor.",
+    "verification": "逐題實看原卷與裁圖並獨立驗算；本來正確，不新增學生錯題。"
+  }
+]

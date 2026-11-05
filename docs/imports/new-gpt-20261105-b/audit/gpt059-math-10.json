@@ -1,0 +1,83 @@
+{
+  "id": "gpt059-math-10",
+  "sourceId": "src-more-059",
+  "subject": "Math",
+  "title": "數學第10題｜水桶注水關係式",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-05",
+  "dateLabel": "首次出題日期",
+  "question": "有一容量為9公升的水桶，內部已裝有1.5公升的水，已知有一水管每秒的流量為300毫升，若用此水管開始注水x秒後，水桶的容量剩下y公升，則x與y的關係式為何？\n(A) y＝0.3x＋1.5\n(B) y＝7.5－300x\n(C) y＝－0.3x＋9\n(D) y＝－0.3x＋7.5",
+  "answer": "(D) y＝－0.3x＋7.5",
+  "explanation": "先辨清楚y代表的是哪個量\n原卷題幹寫「水桶的容量剩下y公升」，是尚可容納水的剩餘容量，不是已裝的水量。\n原有水1.5公升、總容量9公升，因此剛開始的剩餘容量為9－1.5＝7.5公升。每秒流入300毫升＝0.3公升，剩餘容量每秒減少0.3公升。\n所以y＝7.5－0.3x＝－0.3x＋7.5，選D。實際注水至滿的時間為7.5÷0.3＝25秒，這個容量模型適用0≤x≤25。\n\nA是桶中已裝水量的式子，沒有對應本題問的「容量剩下」。B初值7.5雖對，卻把毫升數300直接與公升相減，單位不一致。C使用總容量9當初值，漏扣原本已裝的1.5公升。\n原AI把y解讀成桶內水量而改選A；原卷清楚問剩餘容量，原作答D正確。此題是原AI誤改，保留使用者原問核對範圍與明確原題作為更正證據。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+  "diagram": "",
+  "tags": [
+    "水桶注水關係式",
+    "函數"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261105-b/originals/page1-q10.png"
+  ],
+  "sourceLabel": "分享原卷｜第10題",
+  "studentAnswer": "D；原卷未見紅筆訂正。",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "y＝0.3x＋1.5",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "這是已裝水量，不是本題尚可容納的剩餘容量。"
+    },
+    {
+      "label": "B",
+      "text": "y＝7.5－300x",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "300的單位是毫升，須改成0.3公升才可運算。"
+    },
+    {
+      "label": "C",
+      "text": "y＝－0.3x＋9",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "初值應扣掉已裝1.5公升，為7.5，不是9。"
+    },
+    {
+      "label": "D",
+      "text": "y＝－0.3x＋7.5",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "剩餘容量初值7.5公升，每秒減少0.3公升，符合題意。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "originalQuestionNumber": "10",
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "messageIndex": 1,
+    "messageId": "149a3a62-b064-42e2-aaf2-022f223ba776",
+    "firstQuestionTimestamp": 1793888086.376552,
+    "firstQuestionDateTime": "2026-11-05T22:14:46.376552+08:00",
+    "originals": [
+      {
+        "path": "docs/source-pages/chatgpt-6aec9480-1.jpg",
+        "sha256": "c1262ee89c3d2baf026b90427928b05e972e5233f2b5b7084d139b38a38b2585",
+        "bytes": 416126,
+        "fileId": "sediment://file_000000005d4c82068b903c49353d433e"
+      }
+    ],
+    "attachmentMatchedBy": "archive size_bytes/fileId",
+    "cropHashes": {
+      "docs/imports/new-gpt-20261105-b/originals/page1-q10.png": "7e991723742f143e020ce2e5e1881b5fef49955a31dc657e8580d860ec42dbb5"
+    },
+    "inclusionEvidence": "user訊息1要求核對整份原卷；原AI稱第10學生D錯而改A，但原卷問容量剩下，D其實正確；此為來源AI實質誤改，保留更正原題，不稱學生錯題。"
+  }
+}

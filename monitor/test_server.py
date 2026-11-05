@@ -289,6 +289,25 @@ class MonitorTest(unittest.TestCase):
             server.resolve_confirmation('ask', token, self.root)
         self.assertEqual(server.read_json(self.root/'monitor/confirmations.json')['resolved'], [])
 
+    def test_original_figure_changes_require_review_without_changing_empty_legacy_tokens(self):
+        token = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')['confirmationToken']
+        records = server.read_json(self.root/'monitor/confirmations.json')
+        records['requests'][0]['questionFigures'] = []
+        self.write('monitor/confirmations.json', records)
+        self.assertEqual(next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')['confirmationToken'], token)
+        records['requests'][0]['questionFigures'] = [{'src': 'assets/originals/first.png', 'alt': '原卷附圖'}]
+        self.write('monitor/confirmations.json', records)
+        with self.assertRaises(server.ConfirmationConflict):
+            server.resolve_confirmation('ask', token, self.root)
+        first = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')['confirmationToken']
+        records['requests'][0]['questionFigures'][0]['src'] = 'assets/originals/corrected.png'
+        self.write('monitor/confirmations.json', records)
+        with self.assertRaises(server.ConfirmationConflict):
+            server.resolve_confirmation('ask', first, self.root)
+        current = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')['confirmationToken']
+        server.resolve_confirmation('ask', current, self.root)
+        self.assertEqual(server.read_json(self.root/'monitor/confirmations.json')['resolved'][0]['questionFigures'], records['requests'][0]['questionFigures'])
+
     def test_comment_stays_pending_and_is_preserved_until_addressed(self):
         card = next(c for c in server.build_status(self.root)['confirmations'] if c['id'] == 'ask')
         note = '請補原圖，答案先保留 B。'

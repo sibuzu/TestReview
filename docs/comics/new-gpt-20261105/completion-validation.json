@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "validatedAt": "2026-11-05T15:31:50.803865+00:00",
+  "questionPages": 13,
+  "originalQuestions": 14,
+  "bankQuestionPages": 799,
+  "bankOriginalQuestions": 874,
+  "newComics": 14,
+  "animeComics": 2,
+  "nativeRoleDiagrams": 12,
+  "questionIds": [
+    "q-961",
+    "q-962",
+    "q-963",
+    "q-964",
+    "q-965",
+    "q-966",
+    "q-967",
+    "q-968",
+    "q-969",
+    "q-970",
+    "q-971",
+    "q-972",
+    "q-973",
+    "q-974"
+  ],
+  "originalQuestionContentPreserved": true,
+  "rootQuestionContentAudit": "docs/imports/new-gpt-20261105-root-audit.json",
+  "assetValidation": "docs/comics/new-gpt-20261105/assets-validation.json",
+  "formalLayoutChecks": 84,
+  "formalViewportWidths": [
+    1440,
+    1120,
+    390
+  ],
+  "formalViews": [
+    "app",
+    "standalone"
+  ],
+  "allDesktopMobileActuallyViewed": true,
+  "groupChildComics": [
+    "q-963",
+    "q-964"
+  ],
+  "formalReports": [
+    "docs/comics/q-961-validation.json",
+    "docs/comics/q-962-validation.json",
+    "docs/comics/q-963-validation.json",
+    "docs/comics/q-964-validation.json",
+    "docs/comics/q-965-validation.json",
+    "docs/comics/q-966-validation.json",
+    "docs/comics/q-967-validation.json",
+    "docs/comics/q-968-validation.json",
+    "docs/comics/q-969-validation.json",
+    "docs/comics/q-970-validation.json",
+    "docs/comics/q-971-validation.json",
+    "docs/comics/q-972-validation.json",
+    "docs/comics/q-973-validation.json",
+    "docs/comics/q-974-validation.json"
+  ],
+  "intakeAppStandaloneViews": 52,
+  "monitorSourceDialogQA": "docs/imports/new-gpt-20261105-monitor-root-qa.json",
+  "siteTests": {
+    "command": "npm test --prefix site",
+    "passed": 121,
+    "failed": 0,
+    "logSHA256": "7a1b4cafe9f2bdb28a4d5c8c5d928ae103062a201140f36663d98b717676b7c4"
+  },
+  "monitorTests": {
+    "command": "python3 -m unittest monitor.test_server",
+    "passed": 30,
+    "failed": 0
+  },
+  "sourceAIImagesReused": false,
+  "rawComicPNGPublished": false,
+  "newPendingConfirmationIds": [
+    "correction-q-971-8e66b1b5d7bb",
+    "correction-q-969-aff971d4d572",
+    "correction-q-970-fb864baa14da",
+    "correction-q-972-1d974354949d",
+    "correction-q-961-6f65effc693f",
+    "correction-q-974-077f4dc07062",
+    "source-gpt059-51fd9a9905da",
+    "source-gpt059-cd188d1809ad",
+    "source-gpt059-7e5d8585f78c"
+  ],
+  "newSourceOnlyReviewCount": 3,
+  "priorPendingReviewCount": 5,
+  "priorQuestionAmbiguity": "q-951 retained unchanged",
+  "allNewAnswersVerified": true,
+  "publicationState": "validated_awaiting_push",
+  "unpublishedEventComposition": {
+    "previousVerifiedEvents": 0,
+    "newOriginalComicEvents": 14,
+    "total": 14
+  },
+  "noOldQueueResumed": true,
+  "userPreviousResolvedConfirmationHistoryPreservedExactly": true,
+  "datasetRevision": "2026-10-27.23431a29b399",
+  "schemaRoundtripQuestionPages": 799,
+  "schemaRoundtripSources": 125,
+  "oldQuestionObjectsExactlyUnchanged": 786
+}

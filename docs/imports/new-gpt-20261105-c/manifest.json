@@ -1,0 +1,134 @@
+{
+  "sourceId": "src-more-060",
+  "url": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+  "status": "ready",
+  "producer": "/root",
+  "questionPath": "docs/imports/new-gpt-20261105-c/questions.json",
+  "questionSHA256": "e26647dc95eee5a30a281b9e9fb9a1a45642898f932aa9008d2846e392b59899",
+  "originalQuestionCount": 2,
+  "questionPageCount": 2,
+  "actualStudentMistakeCount": 2,
+  "sourceAICorrectionQuestionCount": 0,
+  "archivePath": "docs/sources/6aec94d2-678c-83ee-8f64-018320680b7a.json",
+  "transcriptPath": "docs/imports/new-gpt-20261105-c/transcript.txt",
+  "sourceAIImagesAdopted": false,
+  "teachingComicState": "queued_after_intake",
+  "pendingQuestionConditions": [],
+  "items": [
+    {
+      "draftId": "gpt060-english-7",
+      "originalQuestionNumber": "7",
+      "date": "2026-11-05",
+      "answerCanBeDetermined": true,
+      "correctOption": "A",
+      "sourceEvidence": {
+        "url": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+        "messageIndex": 1,
+        "messageId": "e1e1911e-4e41-4e68-a0e1-05900abb9674",
+        "firstQuestionTimestamp": 1793889202.124121,
+        "firstQuestionDateTime": "2026-11-05T22:33:22.124121+08:00",
+        "originals": [
+          {
+            "path": "docs/source-pages/chatgpt-6aec94d2-1.jpg",
+            "sha256": "2d40908143f5fba9b94e1be044ba8d600824271f2d6cbace4e4ca0d4c475ae7c",
+            "bytes": 321202,
+            "fileId": "file_000000001fec8206a4062ef000fdfadd"
+          }
+        ],
+        "attachmentMatchedBy": "archive size_bytes/fileId",
+        "cropHashes": {
+          "docs/imports/new-gpt-20261105-c/originals/english-07.png": "4d0e92342158d1e92142b8307bb33ac295e33e4e49376200d5b02ba3e4201f44"
+        },
+        "inclusionEvidence": "user訊息1明示7@錯題；原作答C，獨立依原句與上下文確認應A。"
+      }
+    },
+    {
+      "draftId": "gpt060-english-22",
+      "originalQuestionNumber": "22",
+      "date": "2026-11-05",
+      "answerCanBeDetermined": true,
+      "correctOption": "C",
+      "sourceEvidence": {
+        "url": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+        "messageIndex": 15,
+        "messageId": "92867800-f57c-40ad-93e7-eab7eae9c5fb",
+        "firstQuestionTimestamp": 1793889320.9125009,
+        "firstQuestionDateTime": "2026-11-05T22:35:20.912501+08:00",
+        "originals": [
+          {
+            "path": "docs/source-pages/chatgpt-6aec94d2-2.jpg",
+            "sha256": "db4fad5908d283bb19d99857aec2ca5e7bd9450e11829142f720d76601926e82",
+            "bytes": 365471,
+            "fileId": "file_0000000093ec8206884101afa10b28c7"
+          }
+        ],
+        "attachmentMatchedBy": "archive size_bytes/fileId",
+        "cropHashes": {
+          "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png": "664bb50d9622a1dc39022672119ef00c008e2148edbcd1eb351e3f11bd086708",
+          "docs/imports/new-gpt-20261105-c/originals/english-22-options.png": "7016d82ad4f0933b11fdada276151d2a2d3f9acd8c5f66d1cc86cca7d87eca0e"
+        },
+        "inclusionEvidence": "user訊息15明示22@錯題；原作答A，獨立依原句與上下文確認應C。"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "draftId": "gpt060-english-22",
+      "kind": "原AI數據標示錯誤",
+      "before": "原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
+      "after": "原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。",
+      "reason": "兩比例相減的差距應以百分點表達。兩張生成圖錯標A為原AI封存文字的自述，本次未將該自述冒充實看圖片；正解由真正上傳原卷的閱讀文獨立核對。",
+      "expectedAnswer": "C",
+      "sourceUrl": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+      "questionText": "What does the word family mean to you? An American study shows that people today ____21____. Over 99% of the people in the study agree that a husband, a wife and a child are a family. At the same time, over 90% agree that different combinations of the above are also a family.\n\nThe study finds that ____22____ is very important in the modern thinking on family. 81% think a man and a woman having a child without getting married are a family. But the percentage drops to 40% if the couple don't have one.\n\nFamily types are different in different countries and they change as the time goes by, but a man's family is his home. As the saying goes, “____23____,” remember that east, west, home is best.\n\n依上方第21～23題共同閱讀文章，選出第22格最適合的答案。\n(A) loving each other\n(B) being married\n(C) having a child\n(D) living together",
+      "evidence": [
+        "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png",
+        "docs/imports/new-gpt-20261105-c/originals/english-22-options.png"
+      ]
+    }
+  ],
+  "sharedMaterials": "第22題完整保留21～23共同文章與原卷字彙註解，21與23仍留空；不新增未提問的其他題。",
+  "skips": [
+    {
+      "kind": "unasked_other_original_questions",
+      "reason": "同卷未提問題不另收入；原21與23空格不代填，不永久排除其他真題。"
+    },
+    {
+      "kind": "source_ai_generated",
+      "reason": "來源AI延伸及解說圖不當作原卷；重製新圖。"
+    }
+  ],
+  "visualReview": {
+    "originalsViewed": [
+      "docs/source-pages/chatgpt-6aec94d2-1.jpg",
+      "docs/source-pages/chatgpt-6aec94d2-2.jpg"
+    ],
+    "allOriginalsReadable": true,
+    "cropsViewed": [
+      "docs/imports/new-gpt-20261105-c/originals/english-07.png",
+      "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png",
+      "docs/imports/new-gpt-20261105-c/originals/english-22-options.png"
+    ],
+    "allCropsReadable": true,
+    "reviewer": "/root"
+  },
+  "titleReview": "兩題中性標題不洩漏選答",
+  "contentFrozen": true,
+  "readyAt": "2026-11-05T15:10:51.865392+00:00",
+  "dedupe": [
+    {
+      "draftId": "gpt060-english-7",
+      "exactTextCandidates": [],
+      "similarStems": [],
+      "sharedMaterialNotDuplicate": [],
+      "policy": "Candidates only. Compare complete stem, choices, material and diagrams. Shared passage alone is not a duplicate; a real group keeps every subquestion."
+    },
+    {
+      "draftId": "gpt060-english-22",
+      "exactTextCandidates": [],
+      "similarStems": [],
+      "sharedMaterialNotDuplicate": [],
+      "policy": "Candidates only. Compare complete stem, choices, material and diagrams. Shared passage alone is not a duplicate; a real group keeps every subquestion."
+    }
+  ]
+}

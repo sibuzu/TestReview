@@ -1,0 +1,106 @@
+{
+  "sourceId": "src-more-058",
+  "url": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "status": "ready",
+  "producer": "/root/comic_lane_2",
+  "questionPath": "docs/imports/new-gpt-20261105-a/questions.json",
+  "questionSHA256": "3c960731b525cd799199190365651cc548c9aedcf2cfeaeab6d5a3ec327a9781",
+  "originalQuestionCount": 8,
+  "questionPageCount": 8,
+  "sourceCurationComplete": true,
+  "sourceAIImagesAdopted": false,
+  "teachingComicState": "queued_after_intake",
+  "pendingQuestionConditions": [],
+  "reviews": [
+    {
+      "draftId": "gpt058-camphor-q3",
+      "kind": "原AI輸導組織機制誤述",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "before": "原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
+      "after": "保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。",
+      "reason": "輸水功能不等於細胞仍活著；原AI混同活組織與仍具輸導功能。此為機制訂正，B答案已定，不阻塞圖解。",
+      "sourceMessageIndices": [
+        161
+      ],
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "fullQuestion": "臺東利嘉林道有1棵千年牛樟樹，多年前遭山老鼠「開膛剖肚」盜採「牛樟芝」。牛樟芝是臺灣特有的一種藥用真菌，只生長於牛樟樹腐朽中空的樹幹內。山老鼠為盜採樹幹內的牛樟芝，竟在樹幹挖出1人可進出的貫穿大洞，令人怵目驚心，所幸至今仍挺立在山林裡，是保育山林的活教材。下列敘述何者正確？\n(A) 牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸\n(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活\n(C) 牛樟芝屬於單細胞真菌，缺乏菌絲\n(D) 具藥用功能的牛樟芝在生態上屬於生產者",
+      "primarySources": [
+        "https://ipmb.sinica.edu.tw/file/水稻葉片形態解剖學.pdf"
+      ],
+      "primaryEvidence": "中研院植物暨微生物學研究所《水稻葉片形態解剖學》第14頁，說明導管/假導管為厚細胞壁的死細胞，木質部亦含薄壁細胞。",
+      "verificationDate": "2026-11-05"
+    }
+  ],
+  "skips": [
+    {
+      "kind": "unasked_printed_questions",
+      "reason": "圖7/圖1/圖3邊緣其他未問題不收；圖5共同綠蠵龜文章第6題未被user指定不收，保留完整必要共文及照片供第5題。"
+    },
+    {
+      "kind": "source_generated_images",
+      "reason": "不採用任何來源AI圖，即使來源稱校正版；後續依正式qid自製新四格。"
+    },
+    {
+      "kind": "AI_extension",
+      "reason": "原AI延伸互動題、示意例題與作答推測不另建題。"
+    }
+  ],
+  "transcriptionNotes": [
+    {
+      "draftId": "gpt058-snail-q21",
+      "before": "原AI訊息98把原卷「生吃」轉寫成「食吃」。",
+      "after": "依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。"
+    },
+    {
+      "draftId": "gpt058-rice-duck-q1",
+      "before": "原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
+      "after": "本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。"
+    },
+    {
+      "draftId": "gpt058-marine-q5",
+      "before": "原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
+      "after": "實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。"
+    }
+  ],
+  "visualReview": {
+    "originalsViewed": [
+      "docs/source-pages/chatgpt-6aec944c-6.png",
+      "docs/source-pages/chatgpt-6aec944c-7.png",
+      "docs/source-pages/chatgpt-6aec944c-8.png",
+      "docs/source-pages/chatgpt-6aec944c-1.png",
+      "docs/source-pages/chatgpt-6aec944c-2.png",
+      "docs/source-pages/chatgpt-6aec944c-3.png",
+      "docs/source-pages/chatgpt-6aec944c-4.png",
+      "docs/source-pages/chatgpt-6aec944c-5.png"
+    ],
+    "allOriginalsReadable": true,
+    "cropsViewed": [
+      "docs/imports/new-gpt-20261105-a/originals/question-06.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-07.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-08.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-01.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-02.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-03.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-04.png",
+      "docs/imports/new-gpt-20261105-a/originals/question-05.png",
+      "docs/imports/new-gpt-20261105-a/originals/rice-duck-photo.png",
+      "docs/imports/new-gpt-20261105-a/originals/turtle-photo.png"
+    ],
+    "allCropsComplete": true,
+    "checkedAllOriginalQuestions": true,
+    "checkedAllOptions": true,
+    "checkedNecessaryMaterials": true,
+    "notes": "原圖為8張獨立可辨原卷小圖，bytes與fileId逐一對應訊息，未以DOM檔名順序猜題。裁圖成品全實看；稻鴨D曾發現裁邊不足，已恢復全原圖高度並重新實開，現四選項完整。照片真原卷裁切、非重製。"
+  },
+  "dedupe": {
+    "reportPath": "docs/imports/new-gpt-20261105-a/dedupe-candidates.json",
+    "searchPath": "docs/imports/new-gpt-20261105-a/dedupe-search.json",
+    "checkedOriginalQuestions": 8,
+    "allCandidatesEmpty": true,
+    "method": "八題完整幹/全部選項/共文candidates無exact/similar/sharedMaterial候選，八組獨特詞published搜尋均空；已核原圖條件，不以URL認新題。"
+  },
+  "titleReview": "中性主題題名，不把正確選項或結論直接放題名。",
+  "contentFrozen": true,
+  "readyAt": "2026-11-05T14:58:47.503703+00:00"
+}

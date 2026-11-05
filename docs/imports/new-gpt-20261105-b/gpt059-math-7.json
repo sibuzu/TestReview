@@ -1,0 +1,89 @@
+{
+  "id": "gpt059-math-7",
+  "sourceId": "src-more-059",
+  "subject": "Math",
+  "title": "數學第7題｜函數計算流程",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-05",
+  "dateLabel": "首次出題日期",
+  "question": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9",
+  "answer": "(C) y＝5x²－20x＋7",
+  "explanation": "依流程保留每一步運算的對象\n輸入x→減2得x－2→平方得（x－2）²→乘以5得5（x－2）²→減13。\n所以y＝5（x－2）²－13＝5（x²－4x＋4）－13＝5x²－20x＋7，選C。\n\n平方的是減2後的整個結果，不是只把2平方。A、B中的2²都只對2平方，沒有依流程把x－2當作整體平方。D也不等於展開式：中間項須是5×（－4x）＝－20x，常數項是20－13＝7。\n\n可用x＝2回代驗算：流程結果是－13；C代入得20－40＋7＝－13。B則為5（2－4）－13＝－23，不符合。\n原AI答案表將學生B判成正確，與原卷流程、選項不符；獨立驗算後訂正C，不因原AI稱答對就漏收此錯題。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+  "diagram": "",
+  "tags": [
+    "函數計算流程",
+    "函數"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261105-b/originals/page1-q7.png"
+  ],
+  "sourceLabel": "分享原卷｜第7題",
+  "studentAnswer": "B；原卷未見紅筆訂正。",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "y＝x－2²×5－13",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "先依通常運算順序只把2平方，沒有將減2後的整體平方。"
+    },
+    {
+      "label": "B",
+      "text": "y＝5（x－2²）－13",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "2²位於括號內，但不是（x－2）²，平方對象錯誤。"
+    },
+    {
+      "label": "C",
+      "text": "y＝5x²－20x＋7",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "正確流程5（x－2）²－13展開即得此式。"
+    },
+    {
+      "label": "D",
+      "text": "y＝5x²－4x－9",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "展開時中間項與常數項皆不符正確式。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261105-b/originals/page1-q7-flow.png",
+      "alt": "輸入x→減2→平方→乘以5→減13→輸出y",
+      "caption": "原卷計算流程；運算順序另以文字完整保留。"
+    }
+  ],
+  "explanationFigures": [],
+  "originalQuestionNumber": "7",
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "messageIndex": 1,
+    "messageId": "149a3a62-b064-42e2-aaf2-022f223ba776",
+    "firstQuestionTimestamp": 1793888086.376552,
+    "firstQuestionDateTime": "2026-11-05T22:14:46.376552+08:00",
+    "originals": [
+      {
+        "path": "docs/source-pages/chatgpt-6aec9480-1.jpg",
+        "sha256": "c1262ee89c3d2baf026b90427928b05e972e5233f2b5b7084d139b38a38b2585",
+        "bytes": 416126,
+        "fileId": "sediment://file_000000005d4c82068b903c49353d433e"
+      }
+    ],
+    "attachmentMatchedBy": "archive size_bytes/fileId",
+    "cropHashes": {
+      "docs/imports/new-gpt-20261105-b/originals/page1-q7.png": "779b2ec31a1e6a4ba80fa0e5010f9e0d7e3b7438e798c1e535843ae7006e459b"
+    },
+    "inclusionEvidence": "user訊息1要求核對整份原卷；第7原作答B經流程獨立驗算應C，來源AI誤判B正確，仍屬真錯題。"
+  }
+}

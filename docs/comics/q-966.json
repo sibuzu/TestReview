@@ -1,0 +1,142 @@
+{
+  "id": "q-966",
+  "subject": "Biology",
+  "title": "螳螂的位置，要從植物開始數",
+  "art": "docs/comics/art/q-966-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 蟬吸植物汁液，是初級消費者",
+      "text": "植物自行製造有機養分，是生產者。蟬直接取食植物汁液，所以是初級消費者。",
+      "alt": "植物與蟬標明生產者及初級消費者，箭頭表示食物能量傳遞。",
+      "diagram": {
+        "kind": "flow",
+        "title": "食物鏈的起點",
+        "items": [
+          {
+            "label": "植物｜生產者",
+            "tone": "green",
+            "detail": "製造有機養分。"
+          },
+          {
+            "label": "蟬｜初級消費者",
+            "tone": "blue",
+            "detail": "吸食植物汁液。"
+          }
+        ],
+        "arrow": "食物中的物質與能量傳向取食者"
+      }
+    },
+    {
+      "heading": "② 螳螂吃蟬，是次級消費者",
+      "text": "原文「螳螂方欲食蟬」，螳螂吃的是初級消費者，因此是次級消費者，選C。",
+      "alt": "蟬被螳螂捕食，箭頭由蟬指向螳螂，文字標明級別。",
+      "diagram": {
+        "kind": "flow",
+        "title": "本題所問的角色",
+        "items": [
+          {
+            "label": "蟬｜初級消費者",
+            "tone": "blue"
+          },
+          {
+            "label": "螳螂｜次級消費者",
+            "tone": "green",
+            "detail": "取食初級消費者。"
+          }
+        ],
+        "arrow": "被吃者的能量傳向取食者"
+      }
+    },
+    {
+      "heading": "③ 黃雀在後，才到三級",
+      "text": "黃雀取食螳螂，所以在這條簡化食物鏈中是三級消費者。級別依食物來源判斷，不是依故事的出場順序。",
+      "alt": "螳螂到黃雀的箭頭由食物指向取食者，未反轉。",
+      "diagram": {
+        "kind": "flow",
+        "title": "接續到黃雀",
+        "items": [
+          {
+            "label": "螳螂｜次級消費者",
+            "tone": "blue"
+          },
+          {
+            "label": "黃雀｜三級消費者",
+            "tone": "gold",
+            "detail": "取食次級消費者。"
+          }
+        ],
+        "arrow": "被吃者的能量傳向取食者"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：次級消費者",
+    "points": [
+      "植物→蟬→螳螂→黃雀。",
+      "初級直接吃生產者，次級吃初級。",
+      "箭頭由食物指向取食者，表示能量流向。"
+    ]
+  },
+  "protectedWords": [
+    "初級消費者",
+    "次級消費者",
+    "三級消費者",
+    "生產者",
+    "螳螂",
+    "黃雀",
+    "植物汁液"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-058-question-07-73484b67d7fb.png"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "本代理已逐題實看真原卷、裁圖及必要照片，讀完題幹、全部選項與共同材料，獨立核生物機制及相關官方/研究資料；來源AI圖不採用。"
+  },
+  "rationale": "考點是食物鏈級別與能量箭頭，採精確中文HTML鏈條，把每種生物/角色/箭頭動作直接標出，比動漫捕食場景更能避免數錯階層或反畫箭頭。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-05T15:07:40.407427+00:00",
+  "artSHA256": "8f7f6440755e0771cb10073356b0ef9831668e40a354c58a1218706da7259ef3",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-05T15:30:41.041649+00:00",
+  "previewValidation": "docs/comics/q-966-preview-validation.json",
+  "visualReview": "已實看1440/390成品，植物→蟬→螳螂→黃雀分段箭頭均由食物指向取食者，每物種及營養角色直接中文標示；C次級正確，未按出場順序判階層。三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-966-1440.png",
+      "/tmp/weirugo-comic-previews/q-966-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-966-art-8f7f644075.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-966-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-966-validation.json"
+}

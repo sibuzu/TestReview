@@ -1,0 +1,72 @@
+以可選取HTML把原圖交點、同x高度、交點左右位置直接對應各代數選項；精確數據僅使用原圖P（2，－3），不杜撰兩條線的個別斜率或截距數值。
+原卷：docs/imports/new-gpt-20261105-b/originals/page2-q16.png
+[
+  {
+    "heading": "① 交點：相同x有相同函數值",
+    "text": "P（2，－3）同時在兩線上；把x＝2代入兩個函數，結果都等於－3。因此A的等號正確，不是題目要找的錯誤。",
+    "diagram": {
+      "kind": "flow",
+      "title": "交點的確定條件",
+      "items": [
+        {
+          "label": "P（2，－3）：x＝2",
+          "tone": "blue"
+        },
+        {
+          "label": "L₁：2a＋b＝－3",
+          "tone": "gold",
+          "detail": "L₂：2c＋d＝－3"
+        },
+        {
+          "label": "所以2a＋b＝2c＋d",
+          "tone": "green"
+        }
+      ],
+      "arrow": "同一交點，兩線高度相同"
+    },
+    "alt": "交點P的兩座標與兩線代入式直接中文標明，A等式成立。"
+  },
+  {
+    "heading": "② 交點右側：L₁在上方",
+    "text": "圖中x＝3在交點右側，L₁的函數值較大，應為3a＋b＞3c＋d。B把符號寫成小於，所以B才是錯誤敘述。",
+    "diagram": {
+      "kind": "paths",
+      "title": "固定x＝3，比較兩線",
+      "items": [
+        {
+          "label": "L₁的高度：3a＋b",
+          "tone": "green"
+        },
+        {
+          "label": "L₂的高度：3c＋d",
+          "tone": "gold"
+        }
+      ],
+      "target": "L₁較高：3a＋b＞3c＋d",
+      "arrow": "由原圖右側的上下位置判斷"
+    },
+    "alt": "x＝3時兩線的函數式與L₁在上的大於關係直接標示，不猜個別斜率。"
+  },
+  {
+    "heading": "③ 交點左側：C、D也要核對",
+    "text": "x＝0、x＝－1都小於2，此時L₁在L₂下方。分別代入，可知C、D的小於符號都正確。",
+    "diagram": {
+      "kind": "flow",
+      "title": "左側x＜2：L₁較低",
+      "items": [
+        {
+          "label": "x＝0：b＜d",
+          "tone": "blue",
+          "detail": "對應C：比較兩個y截距。"
+        },
+        {
+          "label": "x＝－1：－a＋b＜－c＋d",
+          "tone": "green",
+          "detail": "對應D：同樣比較左側高度。"
+        }
+      ],
+      "arrow": "代入同一個x，保留高低關係"
+    },
+    "alt": "中文標明左側x＜2、x＝0對應C與x＝－1對應D，兩者L₁較低。"
+  }
+]

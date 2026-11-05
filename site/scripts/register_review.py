@@ -48,6 +48,8 @@ def register(question_id, reason, before, after, source_url=None, kind='題目�
         'questions': [reason, '修改前／原AI內容：'+before, '目前處理：'+after],
         'before': before, 'after': after, 'createdAt': datetime.now(timezone.utc).isoformat(),
     }
+    if question.get('questionFigures'):
+        request['questionFigures'] = question['questionFigures']
     with edit_confirmations(root) as confirmations:
         if not any(item['id'] == request_id for item in confirmations.get('requests', [])+confirmations.get('resolved', [])):
             confirmations.setdefault('requests', []).append(request)

@@ -158,6 +158,262 @@
         "docs/imports/new-gpt-20261104-c/lane3/originals/whale-q7.png"
       ],
       "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json"
+    },
+    {
+      "id": "correction-q-971-8e66b1b5d7bb",
+      "state": "pending",
+      "kind": "原AI輸導組織機制誤述",
+      "title": "生物第3題｜牛樟樹與牛樟芝",
+      "questionId": "q-971",
+      "questionText": "臺東利嘉林道有1棵千年牛樟樹，多年前遭山老鼠「開膛剖肚」盜採「牛樟芝」。牛樟芝是臺灣特有的一種藥用真菌，只生長於牛樟樹腐朽中空的樹幹內。山老鼠為盜採樹幹內的牛樟芝，竟在樹幹挖出1人可進出的貫穿大洞，令人怵目驚心，所幸至今仍挺立在山林裡，是保育山林的活教材。下列敘述何者正確？\n(A) 牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸\n(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活\n(C) 牛樟芝屬於單細胞真菌，缺乏菌絲\n(D) 具藥用功能的牛樟芝在生態上屬於生產者",
+      "questionUrl": "/site/index.html#question/q-971",
+      "url": "/site/index.html#question/q-971",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "輸水功能不等於細胞仍活著；原AI混同活組織與仍具輸導功能。此為機制訂正，B答案已定，不阻塞圖解。",
+        "修改前／原AI內容：原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
+        "目前處理：保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。"
+      ],
+      "before": "原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
+      "after": "保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。",
+      "createdAt": "2026-11-05T15:17:07.375307+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "primarySources": [
+        "https://ipmb.sinica.edu.tw/file/水稻葉片形態解剖學.pdf"
+      ],
+      "sourceMessageIndices": [
+        161
+      ],
+      "primaryEvidence": "中研院植物暨微生物學研究所《水稻葉片形態解剖學》第14頁，說明導管/假導管為厚細胞壁的死細胞，木質部亦含薄壁細胞。",
+      "verificationEvidence": "docs/imports/new-gpt-20261105-a/manifest.json"
+    },
+    {
+      "id": "correction-q-969-aff971d4d572",
+      "state": "pending",
+      "kind": "原AI轉錄用字差異",
+      "title": "生物第21題｜非洲大蝸牛的生態關係",
+      "questionId": "q-969",
+      "questionText": "某知名醬油企業第二代一家人生吃「非洲大蝸牛」，造成5人感染「廣東住血線蟲」死亡。非洲大蝸牛為廣東住血線蟲重要的中間寄主，多在潮溼環境活動。非洲大蝸牛常危害果樹、蔬菜等作物，造成嚴重的農業損失。下列敘述何者正確？\n(A) 非洲大蝸牛適合生活在森林生態系底層\n(B) 非洲大蝸牛與廣東住血線蟲為競爭關係\n(C) 人類與非洲大蝸牛的關係為寄生\n(D) 為控制非洲大蝸牛數量，可從國外引進別種蝸牛與其競爭",
+      "questionUrl": "/site/index.html#question/q-969",
+      "url": "/site/index.html#question/q-969",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
+        "修改前／原AI內容：原AI訊息98把原卷「生吃」轉寫成「食吃」。",
+        "目前處理：依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。"
+      ],
+      "before": "原AI訊息98把原卷「生吃」轉寫成「食吃」。",
+      "after": "依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。",
+      "createdAt": "2026-11-05T15:17:07.417386+00:00"
+    },
+    {
+      "id": "correction-q-970-fb864baa14da",
+      "state": "pending",
+      "kind": "原AI轉錄用字差異",
+      "title": "生物第1題｜稻田養鴨與植物運輸",
+      "questionId": "q-970",
+      "questionText": "「鴨間稻」是一種先民傳承下來的智慧。農夫在稻田養鴨，讓鴨子幫忙照顧稻子。鴨子在水田中啄食害蟲及雜草，節省農夫養鴨和農藥的成本；鴨子的排泄物提供稻子部分養分，在水田中的活動增加水中溶氧量。這種農耕方式，使得稻穀粒粒飽滿，也讓一些久未見的青蛙、蜻蜓、蜥蜴等動物，又出現在田裡。根據上述，下列何者正確？\n(A) 鴨子協助稻田種植，生態上的角色為生產者\n(B) 鴨子排泄物中最主要的含氮廢物是尿素\n(C) 溶在水中的養分由維管束的木質部運輸\n(D) 田裡的水稻、鴨子、青蛙、蜻蜓等所有生物可稱為族群",
+      "questionUrl": "/site/index.html#question/q-970",
+      "url": "/site/index.html#question/q-970",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
+        "修改前／原AI內容：原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
+        "目前處理：本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。"
+      ],
+      "before": "原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
+      "after": "本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。",
+      "createdAt": "2026-11-05T15:17:07.454466+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-058-rice-duck-photo-5058db041719.png",
+          "alt": "原卷稻田養鴨照片，鴨子活動於水稻間的水田。",
+          "caption": "稻鴨共生（原卷照片）"
+        }
+      ]
+    },
+    {
+      "id": "correction-q-972-1d974354949d",
+      "state": "pending",
+      "kind": "原AI轉錄用字差異",
+      "title": "生物第5題｜海洋生物的分類與繁殖",
+      "questionId": "q-972",
+      "questionText": "作答材料：\n科學閱讀題組｜綠蠵龜的生命之旅\n\n綠蠵龜（Chelonia mydas）是海洋中的爬蟲類動物，大部分時間都在海中生活。成熟的綠蠵龜平均2～9年，會從覓食海域洄游到產卵沙灘附近的海域進行交配。交配結束後，公綠蠵龜會返回覓食海域，雌綠蠵龜會游到沙灘上產卵。\n\n2020年9月，澎湖望安鄉綠蠵龜產卵棲息保護區的西安瀨灣仔沙灘上，出現了兩隻白子（白化症）綠蠵龜，但因身體虛弱而不幸死亡，將其製作成標本，作為海洋教育用。根據上文，試回答第5、6題：\n\n除了綠蠵龜，澎湖海域亦可見到鐘形微孔珊瑚、珍珠水母、光手滑面蟹、白鬚龍蝦及土魠魚等多種海洋生物。下列敘述何者錯誤？\n(A) 光手滑面蟹和白鬚龍蝦皆會定期更換外骨骼\n(B) 鐘形微孔珊瑚和珍珠水母皆為刺絲胞動物\n(C) 綠蠵龜和土魠魚皆屬於體外受精的卵生動物\n(D) 澎湖海域內的這些生物屬於同一個群集",
+      "questionUrl": "/site/index.html#question/q-972",
+      "url": "/site/index.html#question/q-972",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
+        "修改前／原AI內容：原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
+        "目前處理：實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。"
+      ],
+      "before": "原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
+      "after": "實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。",
+      "createdAt": "2026-11-05T15:17:07.494566+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-058-turtle-photo-288d232903d2.png",
+          "alt": "原卷綠蠵龜照片，海龜在海中活動。",
+          "caption": "綠蠵龜（原卷照片）"
+        }
+      ]
+    },
+    {
+      "id": "correction-q-961-6f65effc693f",
+      "state": "pending",
+      "kind": "原AI錯誤判答",
+      "title": "數學第7題｜函數計算流程",
+      "questionId": "q-961",
+      "questionText": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9",
+      "questionUrl": "/site/index.html#question/q-961",
+      "url": "/site/index.html#question/q-961",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "questions": [
+        "原AI答案表與原卷平方範圍不符，因而漏列真正錯題。",
+        "修改前／原AI內容：原AI選擇題表將第7學生B列為正確B。",
+        "目前處理：原卷B是5（x－2²）－13，只平方2；依流程應平方整個x－2，展開5x²－20x＋7，正解C，學生B需訂正。"
+      ],
+      "before": "原AI選擇題表將第7學生B列為正確B。",
+      "after": "原卷B是5（x－2²）－13，只平方2；依流程應平方整個x－2，展開5x²－20x＋7，正解C，學生B需訂正。",
+      "createdAt": "2026-11-05T15:17:07.527769+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-page1-q7-flow-70198f2b51d3.png",
+          "alt": "輸入x→減2→平方→乘以5→減13→輸出y",
+          "caption": "原卷計算流程；運算順序另以文字完整保留。"
+        }
+      ],
+      "expectedAnswer": "C",
+      "evidence": [
+        "docs/imports/new-gpt-20261105-b/originals/page1-q7.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/manifest.json"
+    },
+    {
+      "id": "correction-q-974-077f4dc07062",
+      "state": "pending",
+      "kind": "原AI數據標示錯誤",
+      "title": "英文第22題｜家庭研究的閱讀填空",
+      "questionId": "q-974",
+      "questionText": "作答材料：\nWhat does the word family mean to you? An American study shows that people today ____21____. Over 99% of the people in the study agree that a husband, a wife and a child are a family. At the same time, over 90% agree that different combinations of the above are also a family.\n\nThe study finds that ____22____ is very important in the modern thinking on family. 81% think a man and a woman having a child without getting married are a family. But the percentage drops to 40% if the couple don't have one.\n\nFamily types are different in different countries and they change as the time goes by, but a man's family is his home. As the saying goes, “____23____,” remember that east, west, home is best.\n\n單字｜中文\ncombination｜組合\npercentage｜百分比\ncouple｜伴侶\nsaying｜諺語\n\n依上方第21～23題共同閱讀文章，選出第22格最適合的答案。\n(A) loving each other\n(B) being married\n(C) having a child\n(D) living together",
+      "questionUrl": "/site/index.html#question/q-974",
+      "url": "/site/index.html#question/q-974",
+      "sourceUrl": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+      "questions": [
+        "兩比例相減的差距應以百分點表達。兩張生成圖錯標A為原AI封存文字的自述，本次未將該自述冒充實看圖片；正解由真正上傳原卷的閱讀文獨立核對。",
+        "修改前／原AI內容：原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
+        "目前處理：原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。"
+      ],
+      "before": "原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
+      "after": "原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。",
+      "createdAt": "2026-11-05T15:17:07.568980+00:00",
+      "expectedAnswer": "C",
+      "evidence": [
+        "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png",
+        "docs/imports/new-gpt-20261105-c/originals/english-22-options.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261105-c/manifest.json",
+      "sourceGeneratedImagesVisuallyInspected": false
+    },
+    {
+      "id": "source-gpt059-51fd9a9905da",
+      "state": "pending",
+      "reviewScope": "source",
+      "sourceKey": "gpt059",
+      "sourceId": "src-more-059",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "title": "GPT59原卷10｜AI誤改已正確題",
+      "kind": "來源AI誤改已正確題（不新增錯題）",
+      "questionText": "有一容量為9公升的水桶，內部已裝有1.5公升的水，已知有一水管每秒的流量為300毫升，若用此水管開始注水x秒後，水桶的容量剩下y公升，則x與y的關係式為何？\n(A) y＝0.3x＋1.5\n(B) y＝7.5－300x\n(C) y＝－0.3x＋9\n(D) y＝－0.3x＋7.5",
+      "questions": [
+        "將剩餘容量與已裝水量混淆，原題不得改寫成桶內水量。",
+        "修改前／原AI內容：原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
+        "目前處理：原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。"
+      ],
+      "before": "原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
+      "after": "原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。",
+      "createdAt": "2026-11-05T15:17:07.352166+00:00",
+      "url": "/#confirmation=source-gpt059-51fd9a9905da",
+      "questionId": null,
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-review-page1-q10-7e991723742f.png",
+          "alt": "來源第10題原卷裁圖",
+          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
+        }
+      ],
+      "expectedAnswer": "D",
+      "answerCanBeDetermined": true,
+      "temporarySkip": true,
+      "notImportedAsMistake": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json"
+    },
+    {
+      "id": "source-gpt059-cd188d1809ad",
+      "state": "pending",
+      "reviewScope": "source",
+      "sourceKey": "gpt059",
+      "sourceId": "src-more-059",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "title": "GPT59原卷5｜AI誤改已正確題",
+      "kind": "來源AI誤改已正確題（不新增錯題）",
+      "questionText": "若（－5，h）、（2，6）、（7，k）三點都在常數函數y＝a的圖形上，則h＋k之值為何？\n(A) 2\n(B) 6\n(C) 10\n(D) 12",
+      "questions": [
+        "原AI擅改函數類型造成錯誤訂正。",
+        "修改前／原AI內容：原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
+        "目前處理：原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。"
+      ],
+      "before": "原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
+      "after": "原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。",
+      "createdAt": "2026-11-05T15:17:07.352166+00:00",
+      "url": "/#confirmation=source-gpt059-cd188d1809ad",
+      "questionId": null,
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-review-q5-detail-8aa4880ca7d0.png",
+          "alt": "來源第5題原卷裁圖",
+          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
+        }
+      ],
+      "expectedAnswer": "D",
+      "answerCanBeDetermined": true,
+      "temporarySkip": true,
+      "notImportedAsMistake": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json"
+    },
+    {
+      "id": "source-gpt059-7e5d8585f78c",
+      "state": "pending",
+      "reviewScope": "source",
+      "sourceKey": "gpt059",
+      "sourceId": "src-more-059",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "title": "GPT59原卷非選2(1)｜AI誤改已正確題",
+      "kind": "來源AI誤改已正確題（不新增錯題）",
+      "questionText": "有甲、乙兩部機器在生產線上連在一起，若x表示原料重量，甲機器的半成品重量y＝(2/3)x＋6；y表示送進乙機器的半成品重量，而乙機器的產品重量為z＝(5/6)y＋10。試回答下列問題：\n(1) 若將180公斤的原料送進甲機器，則有幾公斤的半成品會進入乙機器？（2分）\n(2) 若最後想要由乙機器得到260公斤的成品，則須送多少原料進甲機器？（4分）",
+      "questions": [
+        "原AI錯認題目要求的生產階段。",
+        "修改前／原AI內容：原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
+        "目前處理：原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。"
+      ],
+      "before": "原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
+      "after": "原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。",
+      "createdAt": "2026-11-05T15:17:07.352166+00:00",
+      "url": "/#confirmation=source-gpt059-7e5d8585f78c",
+      "questionId": null,
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-review-nonchoice2-detail-03299d10df1a.png",
+          "alt": "來源第非選2(1)題原卷裁圖",
+          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
+        }
+      ],
+      "expectedAnswer": "126公斤",
+      "answerCanBeDetermined": true,
+      "temporarySkip": true,
+      "notImportedAsMistake": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json"
     }
   ],
   "resolved": [
@@ -5573,6 +5829,43 @@
       "evidencePaths": [
         "docs/acquisition/new-gpt-20261104-c.json",
         "docs/acquisition/gpt-057.json"
+      ]
+    },
+    {
+      "id": "access-new-gpt-20261105-originals",
+      "title": "Chrome已連線：正取回GPT58／59原卷",
+      "kind": "原圖存取",
+      "state": "resolved",
+      "sourceKey": "gpt058",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "sourceUrls": [
+        "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+        "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2"
+      ],
+      "questionText": "Windows Chrome已實際允許並連線，正在取得GPT58／59完整對話與真正上傳原卷；附件與題數仍未知，實際保存及核對前不開始判題。公開HTTP200分享外殼與舊stream失敗的歷史保留，未判來源失效。",
+      "questions": [
+        "Chrome連線已允許，現正由同一連線讀取兩份完整對話及原始附件。",
+        "取圖完成與bytes／附件核對通過後才結案；目前尚未開始逐題判題。"
+      ],
+      "createdAt": "2026-11-05T14:42:23.532668+00:00",
+      "connectionApprovalHistory": {
+        "originalTitle": "Chrome連線允許：取回GPT58／59完整對話與原卷",
+        "originalQuestionText": "公開分享HTTP200只回2732bytes的Check out this chat外殼，舊stream未讀到完整對話；尚未判來源失效。原附件數與原問題數未知。Windows Chrome單一loopback連線正等待Allow，取得真正原卷前不轉錄或判題。",
+        "originalQuestions": [
+          "請在Chrome遠端偵錯連線提示按Allow／允許，供現有單一loopback連線取回兩份完整對話與原始附件。",
+          "第58來源：https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+          "第59來源：https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+          "附件與題數目前未知；分享外殼不等於來源失效，尚未確認任何403或圖片失效。"
+        ],
+        "observedAt": "2026-11-05T14:43:50.599283+00:00",
+        "evidence": "root reported actual connected Chrome bridge6537; no repeat approval required."
+      },
+      "resolvedAt": "2026-11-05T14:47:39.096644+00:00",
+      "action": "browser_access_restored",
+      "resolution": "Chrome已允許單一連線；GPT58的8張與GPT59的2張真正上傳原卷及完整199／42則對話均已保存，bytes全匹配、errors=0。取資料完成不冒稱逐題整理已完成。後續追加GPT60沿用同一已授權連線取圖中，不需要再次允許。",
+      "evidencePaths": [
+        "docs/acquisition/new-gpt-20261105-a.json",
+        "docs/acquisition/new-gpt-20261105-b.json"
       ]
     }
   ]

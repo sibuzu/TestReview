@@ -1,0 +1,218 @@
+user
+[原卷附圖]
+[原卷附圖]
+核對答案
+
+assistant
+我會依兩頁題目逐題核對，特別檢查圖形判讀、計算題，以及最後兩題非選擇題的算式。
+
+assistant
+# 數學第14單元｜答案核對結果
+
+已核對兩頁共 **20 題選擇題＋2 題非選擇題**，並對照照片中的手寫答案。
+
+<box gap={2}>
+  <grid columns={3} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+        <text color="secondary" size="xs">選擇題答對</text>
+        <title size="2xl" color="success" tabularNums>15/20</title>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+        <text color="secondary" size="xs">選擇題錯誤</text>
+        <title size="2xl" color="danger" tabularNums>5 題</title>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+        <text color="secondary" size="xs">預估總分</text>
+        <title size="2xl" tabularNums>77</title>
+        <caption>滿分 100</caption>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>預估分數依題目配分計算，非選擇題以答案正確性估算，實際仍依教師給分為準。</caption>
+</box>
+
+## 一、選擇題完整核對
+
+<text weight="medium">第 1～13 題（第一頁）</text>
+
+| 題號 | 你的答案 | 正確答案 | 結果 |
+|---|---|---|---|
+| 1 | C | C | <icon name="check-circle" color="success" /> |
+| 2 | A | A | <icon name="check-circle" color="success" /> |
+| 3 | B | B | <icon name="check-circle" color="success" /> |
+| 4 | A | A | <icon name="check-circle" color="success" /> |
+| **5** | D | **B** | <text color="danger" weight="medium">錯誤</text> |
+| 6 | C | C | <icon name="check-circle" color="success" /> |
+| 7 | B | B | <icon name="check-circle" color="success" /> |
+| 8 | D | D | <icon name="check-circle" color="success" /> |
+| 9 | A | A | <icon name="check-circle" color="success" /> |
+| **10** | D | **A** | <text color="danger" weight="medium">錯誤</text> |
+| 11 | C | C | <icon name="check-circle" color="success" /> |
+| 12 | A | A | <icon name="check-circle" color="success" /> |
+| 13 | B | B | <icon name="check-circle" color="success" /> |
+
+<text weight="medium">第 14～20 題（第二頁）</text>
+
+| 題號 | 你的答案 | 正確答案 | 結果 |
+|---|---|---|---|
+| 14 | C | C | <icon name="check-circle" color="success" /> |
+| 15 | D | D | <icon name="check-circle" color="success" /> |
+| **16** | A | **B** | <text color="danger" weight="medium">錯誤</text> |
+| **17** | C | **B** | <text color="danger" weight="medium">錯誤</text> |
+| **18** | C | **D** | <text color="danger" weight="medium">錯誤</text> |
+| 19 | D | D | <icon name="check-circle" color="success" /> |
+| 20 | B | B | <icon name="check-circle" color="success" /> |
+
+## 二、五題錯題快速訂正
+
+<box gap={3}>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2}>
+      <title size="lg">5</title>
+    </box>
+    <box flex="1" gap={1}>
+      **正解 B（6）｜一次函數代入**
+
+      \(y=ax\)，由 \((2,6)\) 得 \(a=3\)。
+
+      \(h=3(-5)=-15\)，\(k=3(7)=21\)。
+
+      所以 \(h+k=\boxed{6}\)。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2}>
+      <title size="lg">10</title>
+    </box>
+    <box flex="1" gap={1}>
+      **正解 A｜水量變化**
+
+      每秒增加 300 毫升＝0.3 公升。
+
+      原有 1.5 公升，因此：
+
+      \(\boxed{y=0.3x+1.5}\)
+
+      **陷阱：** 注水是增加，斜率必須為正。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2}>
+      <title size="lg">16</title>
+    </box>
+    <box flex="1" gap={1}>
+      **正解 B｜兩條直線比較**
+
+      題目問「何者錯誤」。
+
+      兩線交於 \(x=2\)，因此 \(2a+b=2c+d\) 正確。
+
+      當 \(x=3\)，圖上 \(L_1\) 高於 \(L_2\)，所以應是：
+
+      \(3a+b>3c+d\)
+
+      選項 B 的小於符號錯誤。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2}>
+      <title size="lg">17</title>
+    </box>
+    <box flex="1" gap={1}>
+      **正解 B｜距離與時間**
+
+      圖形經過 \((0,10)\)、\((50,0)\)。
+
+      斜率 \(=(0-10)/50=-1/5\)。
+
+      \(\boxed{y=-\frac15x+10}\)
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <box background="surface-secondary" radius="lg" padding={2}>
+      <title size="lg">18</title>
+    </box>
+    <box flex="1" gap={1}>
+      **正解 D（66 公尺）｜追及問題**
+
+      50 秒追上原先相距 10 公尺的乙車。
+
+      追及相對速率 \(=10/50=0.2\) 公尺／秒。
+
+      乙車每秒 2 公尺，甲車每秒 \(2+0.2=2.2\) 公尺。
+
+      30 秒移動 \(2.2\times30=\boxed{66}\) 公尺。
+    </box>
+  </row>
+</box>
+
+## 三、非選擇題核對
+
+| 題目 | 你的答案 | 正確答案 | 結果 |
+|---|---|---|---|
+| 第1題 基本費 | 320 元 | 320 元 | <icon name="check-circle" color="success" /> |
+| 第2題 (1) | 126 公斤 | **115 公斤** | <text color="danger">錯誤</text> |
+| 第2題 (2) | 441 公斤 | 441 公斤 | <icon name="check-circle" color="success" /> |
+
+**第2題 (1) 訂正：**
+
+180 公斤原料進入甲機器：
+
+\[
+y=\frac23(180)+6=126
+\]
+
+126 公斤是甲機器的半成品重量，還不是乙機器的產出。
+
+必須再代入乙機器：
+
+\[
+z=\frac56(126)+10=\boxed{115\text{ 公斤}}
+\]
+
+## 四、分數統計
+
+| 題型 | 得分 | 滿分 |
+|---|---:|---:|
+| 1～8 題 | 35 | 40 |
+| 9～18 題 | 24 | 40 |
+| 19～20 題 | 8 | 8 |
+| 非選擇第1題 | 6 | 6 |
+| 非選擇第2題 | 4 | 6 |
+| **合計** | **77** | **100** |
+
+## 五、建議優先複習
+
+這次錯誤主要集中在三個觀念：**一次函數代入、直線圖形比較，以及速率與多階段函數問題**。
+
+尤其第16～18題連續出錯，值得集中練習。
+
+{@body const [chosen,setChosen] = DIL.useState(["16","17","18"])}
+<box border radius="xl" padding={3} gap={2}>
+  <text weight="medium">選擇要深入解析的錯題</text>
+  <grid columns={3} gap={2}>
+    {#each ["5","10","16","17","18","非選2(1)"] as n}
+      <grid-item>
+        <checkbox checked={chosen.includes(n)} onChange={v=>setChosen(p=>v?[...p,n]:p.filter(x=>x!==n))} lineThrough={false}>第 {n} 題</checkbox>
+      </grid-item>
+    {/each}
+  </grid>
+  <button block disabled={chosen.length===0} onClick={()=>GenUI.issueNewTurn(`請把這份數學複習卷的第 ${chosen.join("、")} 題，依照 @錯題融合模式 v2 詳細解析，保留原題證據、逐項分析，並搭配精準的彩色教學圖解。`)}>用 @錯題 詳細解析所選題目 <icon name="arrow-right" inline/></button>
+</box>
+
+user
+請把這份數學複習卷的第 16、17、18 題，依照 @錯題融合模式 v2 詳細解析，保留原題證據、逐項分析，並搭配精準的彩色教學圖解。
+
+assistant
+
+
+assistant

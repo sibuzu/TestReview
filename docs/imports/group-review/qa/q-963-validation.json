@@ -1,0 +1,703 @@
+{
+  "checkedAt": "2026-11-05T15:21:49.971Z",
+  "questionId": "q-963",
+  "groupId": "q-963",
+  "shadow": false,
+  "manifestInput": null,
+  "childIds": [
+    "q-963",
+    "q-964"
+  ],
+  "expectedComicCount": 2,
+  "isolatedDemo": true,
+  "actualCloudRequestsAborted": true,
+  "desktopMobileActuallyViewed": true,
+  "rows": [
+    {
+      "standalone": false,
+      "width": 1440,
+      "defaultCollapsed": true,
+      "commonTablesVerified": 0,
+      "commonTablesCompleteExactlyOnce": true,
+      "childIds": [
+        "q-963",
+        "q-964"
+      ],
+      "expectedComicCount": 2,
+      "comics": [
+        {
+          "id": "q-963",
+          "height": 834,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 521,
+              "height": 402.859375,
+              "left": 314,
+              "top": 1770.453125
+            },
+            {
+              "width": 521,
+              "height": 402.859375,
+              "left": 847,
+              "top": 1770.453125
+            },
+            {
+              "width": 521,
+              "height": 402.859375,
+              "left": 314,
+              "top": 2185.3125
+            },
+            {
+              "width": 521,
+              "height": 402.859375,
+              "left": 847,
+              "top": 2185.3125
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
+            "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
+            "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
+            "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
+            "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+          ],
+          "fourth": "答案 B：y＝－（1/5）x＋10",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-app-1440.png"
+        },
+        {
+          "id": "q-964",
+          "height": 807,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 521,
+              "height": 402.859375,
+              "left": 314,
+              "top": 2441.90625
+            },
+            {
+              "width": 521,
+              "height": 402.859375,
+              "left": 847,
+              "top": 2441.90625
+            },
+            {
+              "width": 521,
+              "height": 375.765625,
+              "left": 314,
+              "top": 2856.765625
+            },
+            {
+              "width": 521,
+              "height": 375.765625,
+              "left": 847,
+              "top": 2856.765625
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "原共圖提供的追及條件初始間距：10公尺↓ 初始間距÷追上時間追上時間：50秒↓ 初始間距÷追上時間相對速率：10÷50＝0.2公尺／秒這是速率差，不是甲的速率。",
+            "分清兩車與相對速率乙的速率：2公尺／秒甲比乙快：0.2公尺／秒↓ 乙速率＋甲乙速率差甲的速率：2＋0.2＝2.2公尺／秒",
+            "30秒時，以兩種方式核對甲的路程：2.2×30＝66公尺由乙的位置回推：70－4＝66公尺乙位置10＋2×30＝70；間距10－0.2×30＝4。↓ 速率×時間，或位置減間距甲自A點移動66公尺：D"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+            "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+            "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。"
+          ],
+          "fourth": "答案 D：66公尺",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-964-app-1440.png"
+        }
+      ],
+      "textOnlyChildren": [],
+      "noDocumentOverflow": true
+    },
+    {
+      "standalone": false,
+      "width": 1120,
+      "defaultCollapsed": true,
+      "commonTablesVerified": 0,
+      "commonTablesCompleteExactlyOnce": true,
+      "childIds": [
+        "q-963",
+        "q-964"
+      ],
+      "expectedComicCount": 2,
+      "comics": [
+        {
+          "id": "q-963",
+          "height": 834,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 393,
+              "height": 402.859375,
+              "left": 266,
+              "top": -2168.484375
+            },
+            {
+              "width": 393,
+              "height": 402.859375,
+              "left": 671,
+              "top": -2168.484375
+            },
+            {
+              "width": 393,
+              "height": 402.859375,
+              "left": 266,
+              "top": -1753.625
+            },
+            {
+              "width": 393,
+              "height": 402.859375,
+              "left": 671,
+              "top": -1753.625
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
+            "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
+            "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
+            "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
+            "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+          ],
+          "fourth": "答案 B：y＝－（1/5）x＋10",
+          "screenshot": null
+        },
+        {
+          "id": "q-964",
+          "height": 807,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 393,
+              "height": 402.859375,
+              "left": 266,
+              "top": 85.84375
+            },
+            {
+              "width": 393,
+              "height": 402.859375,
+              "left": 671,
+              "top": 85.84375
+            },
+            {
+              "width": 393,
+              "height": 375.765625,
+              "left": 266,
+              "top": 500.703125
+            },
+            {
+              "width": 393,
+              "height": 375.765625,
+              "left": 671,
+              "top": 500.703125
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "原共圖提供的追及條件初始間距：10公尺↓ 初始間距÷追上時間追上時間：50秒↓ 初始間距÷追上時間相對速率：10÷50＝0.2公尺／秒這是速率差，不是甲的速率。",
+            "分清兩車與相對速率乙的速率：2公尺／秒甲比乙快：0.2公尺／秒↓ 乙速率＋甲乙速率差甲的速率：2＋0.2＝2.2公尺／秒",
+            "30秒時，以兩種方式核對甲的路程：2.2×30＝66公尺由乙的位置回推：70－4＝66公尺乙位置10＋2×30＝70；間距10－0.2×30＝4。↓ 速率×時間，或位置減間距甲自A點移動66公尺：D"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+            "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+            "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。"
+          ],
+          "fourth": "答案 D：66公尺",
+          "screenshot": null
+        }
+      ],
+      "textOnlyChildren": [],
+      "noDocumentOverflow": true
+    },
+    {
+      "standalone": false,
+      "width": 390,
+      "defaultCollapsed": true,
+      "commonTablesVerified": 0,
+      "commonTablesCompleteExactlyOnce": true,
+      "childIds": [
+        "q-963",
+        "q-964"
+      ],
+      "expectedComicCount": 2,
+      "comics": [
+        {
+          "id": "q-963",
+          "height": 1456,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 294,
+              "height": 364.859375,
+              "left": 48,
+              "top": -1794.484375
+            },
+            {
+              "width": 294,
+              "height": 417.953125,
+              "left": 48,
+              "top": -1417.625
+            },
+            {
+              "width": 294,
+              "height": 417.953125,
+              "left": 48,
+              "top": -987.671875
+            },
+            {
+              "width": 294,
+              "height": 203.609375,
+              "left": 48,
+              "top": -557.71875
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
+            "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
+            "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
+            "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
+            "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+          ],
+          "fourth": "答案 B：y＝－（1/5）x＋10",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-app-390.png"
+        },
+        {
+          "id": "q-964",
+          "height": 1474,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 294,
+              "height": 417.953125,
+              "left": 48,
+              "top": 3058.75
+            },
+            {
+              "width": 294,
+              "height": 363.765625,
+              "left": 48,
+              "top": 3488.703125
+            },
+            {
+              "width": 294,
+              "height": 413.953125,
+              "left": 48,
+              "top": 3864.46875
+            },
+            {
+              "width": 294,
+              "height": 226.703125,
+              "left": 48,
+              "top": 4290.421875
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "原共圖提供的追及條件初始間距：10公尺↓ 初始間距÷追上時間追上時間：50秒↓ 初始間距÷追上時間相對速率：10÷50＝0.2公尺／秒這是速率差，不是甲的速率。",
+            "分清兩車與相對速率乙的速率：2公尺／秒甲比乙快：0.2公尺／秒↓ 乙速率＋甲乙速率差甲的速率：2＋0.2＝2.2公尺／秒",
+            "30秒時，以兩種方式核對甲的路程：2.2×30＝66公尺由乙的位置回推：70－4＝66公尺乙位置10＋2×30＝70；間距10－0.2×30＝4。↓ 速率×時間，或位置減間距甲自A點移動66公尺：D"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+            "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+            "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。"
+          ],
+          "fourth": "答案 D：66公尺",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-964-app-390.png"
+        }
+      ],
+      "textOnlyChildren": [],
+      "noDocumentOverflow": true
+    },
+    {
+      "standalone": true,
+      "width": 1440,
+      "defaultCollapsed": true,
+      "commonTablesVerified": 0,
+      "commonTablesCompleteExactlyOnce": true,
+      "childIds": [
+        "q-963",
+        "q-964"
+      ],
+      "expectedComicCount": 2,
+      "comics": [
+        {
+          "id": "q-963",
+          "height": 834,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 524,
+              "height": 402.859375,
+              "left": 190,
+              "top": 1988.3125
+            },
+            {
+              "width": 524,
+              "height": 402.859375,
+              "left": 726,
+              "top": 1988.3125
+            },
+            {
+              "width": 524,
+              "height": 402.859375,
+              "left": 190,
+              "top": 2403.171875
+            },
+            {
+              "width": 524,
+              "height": 402.859375,
+              "left": 726,
+              "top": 2403.171875
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
+            "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
+            "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
+            "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
+            "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+          ],
+          "fourth": "答案 B：y＝－（1/5）x＋10",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-standalone-1440.png"
+        },
+        {
+          "id": "q-964",
+          "height": 807,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 524,
+              "height": 402.859375,
+              "left": 190,
+              "top": 2475.65625
+            },
+            {
+              "width": 524,
+              "height": 402.859375,
+              "left": 726,
+              "top": 2475.65625
+            },
+            {
+              "width": 524,
+              "height": 375.765625,
+              "left": 190,
+              "top": 2890.515625
+            },
+            {
+              "width": 524,
+              "height": 375.765625,
+              "left": 726,
+              "top": 2890.515625
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "原共圖提供的追及條件初始間距：10公尺↓ 初始間距÷追上時間追上時間：50秒↓ 初始間距÷追上時間相對速率：10÷50＝0.2公尺／秒這是速率差，不是甲的速率。",
+            "分清兩車與相對速率乙的速率：2公尺／秒甲比乙快：0.2公尺／秒↓ 乙速率＋甲乙速率差甲的速率：2＋0.2＝2.2公尺／秒",
+            "30秒時，以兩種方式核對甲的路程：2.2×30＝66公尺由乙的位置回推：70－4＝66公尺乙位置10＋2×30＝70；間距10－0.2×30＝4。↓ 速率×時間，或位置減間距甲自A點移動66公尺：D"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+            "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+            "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。"
+          ],
+          "fourth": "答案 D：66公尺",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-964-standalone-1440.png"
+        }
+      ],
+      "textOnlyChildren": [],
+      "noDocumentOverflow": true
+    },
+    {
+      "standalone": true,
+      "width": 1120,
+      "defaultCollapsed": true,
+      "commonTablesVerified": 0,
+      "commonTablesCompleteExactlyOnce": true,
+      "childIds": [
+        "q-963",
+        "q-964"
+      ],
+      "expectedComicCount": 2,
+      "comics": [
+        {
+          "id": "q-963",
+          "height": 834,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 484,
+              "height": 402.859375,
+              "left": 70,
+              "top": -2163.65625
+            },
+            {
+              "width": 484,
+              "height": 402.859375,
+              "left": 566,
+              "top": -2163.65625
+            },
+            {
+              "width": 484,
+              "height": 402.859375,
+              "left": 70,
+              "top": -1748.796875
+            },
+            {
+              "width": 484,
+              "height": 402.859375,
+              "left": 566,
+              "top": -1748.796875
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
+            "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
+            "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
+            "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
+            "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+          ],
+          "fourth": "答案 B：y＝－（1/5）x＋10",
+          "screenshot": null
+        },
+        {
+          "id": "q-964",
+          "height": 807,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 484,
+              "height": 402.859375,
+              "left": 70,
+              "top": 169.03125
+            },
+            {
+              "width": 484,
+              "height": 402.859375,
+              "left": 566,
+              "top": 169.03125
+            },
+            {
+              "width": 484,
+              "height": 375.765625,
+              "left": 70,
+              "top": 583.890625
+            },
+            {
+              "width": 484,
+              "height": 375.765625,
+              "left": 566,
+              "top": 583.890625
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "原共圖提供的追及條件初始間距：10公尺↓ 初始間距÷追上時間追上時間：50秒↓ 初始間距÷追上時間相對速率：10÷50＝0.2公尺／秒這是速率差，不是甲的速率。",
+            "分清兩車與相對速率乙的速率：2公尺／秒甲比乙快：0.2公尺／秒↓ 乙速率＋甲乙速率差甲的速率：2＋0.2＝2.2公尺／秒",
+            "30秒時，以兩種方式核對甲的路程：2.2×30＝66公尺由乙的位置回推：70－4＝66公尺乙位置10＋2×30＝70；間距10－0.2×30＝4。↓ 速率×時間，或位置減間距甲自A點移動66公尺：D"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+            "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+            "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。"
+          ],
+          "fourth": "答案 D：66公尺",
+          "screenshot": null
+        }
+      ],
+      "textOnlyChildren": [],
+      "noDocumentOverflow": true
+    },
+    {
+      "standalone": true,
+      "width": 390,
+      "defaultCollapsed": true,
+      "commonTablesVerified": 0,
+      "commonTablesCompleteExactlyOnce": true,
+      "childIds": [
+        "q-963",
+        "q-964"
+      ],
+      "expectedComicCount": 2,
+      "comics": [
+        {
+          "id": "q-963",
+          "height": 1456,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 292,
+              "height": 364.859375,
+              "left": 49,
+              "top": -2176.125
+            },
+            {
+              "width": 292,
+              "height": 417.953125,
+              "left": 49,
+              "top": -1799.265625
+            },
+            {
+              "width": 292,
+              "height": 417.953125,
+              "left": 49,
+              "top": -1369.3125
+            },
+            {
+              "width": 292,
+              "height": 203.609375,
+              "left": 49,
+              "top": -939.359375
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
+            "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
+            "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
+            "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
+            "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+          ],
+          "fourth": "答案 B：y＝－（1/5）x＋10",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-standalone-390.png"
+        },
+        {
+          "id": "q-964",
+          "height": 1474,
+          "wrapErrors": 0,
+          "protectedBreaks": [],
+          "overflow": [],
+          "cells": [
+            {
+              "width": 292,
+              "height": 417.953125,
+              "left": 49,
+              "top": 3271.40625
+            },
+            {
+              "width": 292,
+              "height": 363.765625,
+              "left": 49,
+              "top": 3701.359375
+            },
+            {
+              "width": 292,
+              "height": 413.953125,
+              "left": 49,
+              "top": 4077.125
+            },
+            {
+              "width": 292,
+              "height": 226.703125,
+              "left": 49,
+              "top": 4503.078125
+            }
+          ],
+          "autoRows": "auto",
+          "art": [],
+          "decoded": [],
+          "diagramTexts": [
+            "原共圖提供的追及條件初始間距：10公尺↓ 初始間距÷追上時間追上時間：50秒↓ 初始間距÷追上時間相對速率：10÷50＝0.2公尺／秒這是速率差，不是甲的速率。",
+            "分清兩車與相對速率乙的速率：2公尺／秒甲比乙快：0.2公尺／秒↓ 乙速率＋甲乙速率差甲的速率：2＋0.2＝2.2公尺／秒",
+            "30秒時，以兩種方式核對甲的路程：2.2×30＝66公尺由乙的位置回推：70－4＝66公尺乙位置10＋2×30＝70；間距10－0.2×30＝4。↓ 速率×時間，或位置減間距甲自A點移動66公尺：D"
+          ],
+          "captionTexts": [],
+          "copy": [
+            "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+            "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+            "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。"
+          ],
+          "fourth": "答案 D：66公尺",
+          "screenshot": "/tmp/weirugo-group-checks/q-963-q-964-standalone-390.png"
+        }
+      ],
+      "textOnlyChildren": [],
+      "noDocumentOverflow": true
+    }
+  ],
+  "visualReviewer": "/root and /root/comic_lane_1",
+  "visualReviewEvidence": "Root independently viewed eight q963/q964 app/standalone screenshots at1440/390; integrator viewed four math contact sheets; labels, units, endpoints and all four panels verified."
+}

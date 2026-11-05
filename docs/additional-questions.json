@@ -63555,5 +63555,1165 @@
     "tables": [],
     "questionFigures": [],
     "explanationFigures": []
+  },
+  {
+    "id": "q-961",
+    "sourceId": "src-more-059",
+    "subject": "Math",
+    "title": "數學第7題｜函數計算流程",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9",
+    "answer": "(C) y＝5x²－20x＋7",
+    "explanation": "依流程保留每一步運算的對象\n輸入x→減2得x－2→平方得（x－2）²→乘以5得5（x－2）²→減13。\n所以y＝5（x－2）²－13＝5（x²－4x＋4）－13＝5x²－20x＋7，選C。\n\n平方的是減2後的整個結果，不是只把2平方。A、B中的2²都只對2平方，沒有依流程把x－2當作整體平方。D也不等於展開式：中間項須是5×（－4x）＝－20x，常數項是20－13＝7。\n\n可用x＝2回代驗算：流程結果是－13；C代入得20－40＋7＝－13。B則為5（2－4）－13＝－23，不符合。\n原AI答案表將學生B判成正確，與原卷流程、選項不符；獨立驗算後訂正C，不因原AI稱答對就漏收此錯題。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "函數計算流程",
+      "函數"
+    ],
+    "images": [
+      "assets/originals/src-more-059-page1-q7-779b2ec31a1e.png"
+    ],
+    "sourceLabel": "分享原卷｜第7題",
+    "studentAnswer": "B；原卷未見紅筆訂正。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "7",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "y＝x－2²×5－13",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "先依通常運算順序只把2平方，沒有將減2後的整體平方。"
+      },
+      {
+        "label": "B",
+        "text": "y＝5（x－2²）－13",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "2²位於括號內，但不是（x－2）²，平方對象錯誤。"
+      },
+      {
+        "label": "C",
+        "text": "y＝5x²－20x＋7",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "正確流程5（x－2）²－13展開即得此式。"
+      },
+      {
+        "label": "D",
+        "text": "y＝5x²－4x－9",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "展開時中間項與常數項皆不符正確式。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/src-more-059-page1-q7-flow-70198f2b51d3.png",
+        "alt": "輸入x→減2→平方→乘以5→減13→輸出y",
+        "caption": "原卷計算流程；運算順序另以文字完整保留。"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-962",
+    "sourceId": "src-more-059",
+    "subject": "Math",
+    "title": "數學第16題｜兩直線的函數值比較",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "如右圖，坐標平面上，直線L₁為一次函數y＝ax＋b的圖形，直線L₂為y＝cx＋d的圖形。若L₁與L₂相交於點P（2，－3），則下列敘述何者錯誤？\n(A) 2a＋b＝2c＋d\n(B) 3a＋b＜3c＋d\n(C) b＜d\n(D) －a＋b＜－c＋d",
+    "answer": "(B) 3a＋b＜3c＋d",
+    "explanation": "先把代數式看成同一個x對應的高度\nL₁的函數值為ax＋b，L₂的函數值為cx＋d。比較兩式時，是在相同x的垂直位置比較哪一條線較高。\n交點P（2，－3）表示x＝2時，兩條線的y值同為－3，所以2a＋b＝2c＋d，A正確。\n圖中L₂向右下降比L₁更快；交點右側x＞2，L₁在L₂上方。x＝3時應是3a＋b＞3c＋d，B印成小於，因此題目問錯誤敘述時選B。\n\n交點左側x＜2，L₁在L₂下方。x＝0時比較y截距，b＜d，C正確；x＝－1時得到－a＋b＜－c＋d，D也正確。\n\n也可令兩線差值為（ax＋b）－（cx＋d）＝（a－c）（x－2）。原圖L₁的斜率較大、a－c＞0，因此x－2的正負決定哪條線較高；不須猜出原圖沒有提供的個別斜率數值。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "兩直線的函數值比較",
+      "函數"
+    ],
+    "images": [
+      "assets/originals/src-more-059-page2-q16-7cf605271588.png"
+    ],
+    "sourceLabel": "分享原卷｜第16題",
+    "studentAnswer": "A；原卷未見紅筆訂正。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "16",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "2a＋b＝2c＋d",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "交點的x為2，兩線函數值相等，敘述正確。"
+      },
+      {
+        "label": "B",
+        "text": "3a＋b＜3c＋d",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "x＝3在交點右側，L₁較高，應為大於；此敘述錯誤，符合題目所問。"
+      },
+      {
+        "label": "C",
+        "text": "b＜d",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "x＝0在交點左側，L₁較低，b＜d正確。"
+      },
+      {
+        "label": "D",
+        "text": "－a＋b＜－c＋d",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "x＝－1在交點左側，L₁較低，敘述正確。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/src-more-059-page2-q16-graph-7f9b63a9caa1.png",
+        "alt": "兩條下降直線L₁與L₂交於P（2，－3）；L₂較陡，交點右側L₁較高、左側L₁較低。",
+        "caption": "原卷直線圖；僅提供交點與相對位置，不杜撰個別斜率。"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-963",
+    "sourceId": "src-more-059",
+    "subject": "Math",
+    "title": "數學題組｜兩車追及（第17、18題）",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "請閱讀共用敘述及圖（一）、圖（二），回答第17、18題。",
+    "answer": "【第17題】(B) y＝－（1/5）x＋10\n【第18題】(D) 66",
+    "explanation": "【第17題】\n由圖讀出起點與追上時間\n圖（二）在x＝0時，兩車相距10公尺；50秒時相距0公尺，所以線段經過（0，10）與（50，0）。\n距離每秒的改變量＝（0－10）÷（50－0）＝－1/5公尺／秒。初始距離是10，故y＝－（1/5）x＋10，選B。\n\nA、C斜率為正，表示距離隨時間增加，與圖不符。C、D的截距是－10，等於說剛開始的兩車距離為負數，也與10公尺不符。可再用x＝50檢驗B：y＝－10＋10＝0，正好對應追上。\n\ny是兩車之間的距離，不是甲或乙各自移動的路程。乙速率每秒2公尺不是此距離函數的斜率；－1/5表示兩車間距每秒縮短0.2公尺。圖示只描繪追上前0≤x≤50，不能將負距離當作追上後的實際間距。\n\n【第18題】\n先求每秒縮短多少距離\n由共圖可知，甲原本落後乙10公尺，50秒後追上，因此每秒縮短的間距為10÷50＝0.2公尺。這是甲比乙快的相對速率，不是甲的速率。\n乙每秒走2公尺，所以甲的速率為2＋0.2＝2.2公尺／秒。30秒時甲自A點移動2.2×30＝66公尺，選D。\n\n另一解法：30秒後乙移動2×30＝60公尺，位置在距A點10＋60＝70公尺處。此時兩車距離由第17題的式子得10－0.2×30＝4公尺，所以甲的位置是70－4＝66公尺。\n\n若直接算乙的2×30＝60，或只算間距減少0.2×30＝6，都不是本題問的甲車路程。A、B、C都不符合上述兩種互相驗證的計算。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "兩車距離與時間",
+      "函數"
+    ],
+    "images": [
+      "assets/originals/src-more-059-page2-q17-18-common-d01c96779b0a.png",
+      "assets/originals/src-more-059-page2-q17-7d4811c4ef3c.png",
+      "assets/originals/src-more-059-page2-q18-4809c7f2f59b.png"
+    ],
+    "sourceLabel": "分享原卷｜第17題",
+    "studentAnswer": "【第17題】C\n【第18題】C",
+    "contentStatus": "完整原題",
+    "correctOption": "",
+    "passage": "如圖（一），在同一直線上，甲自A點開始追趕等速率前進的乙車，且圖（二）表示兩車距離與所經時間的線型關係圖。若乙車的速率為每秒2公尺。",
+    "originalQuestionNumber": "17、18",
+    "optionAnalysis": [],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/src-more-059-page2-q17-18-diagrams-b0182241467f.png",
+        "alt": "圖（一）甲在A點，乙在前方10公尺；圖（二）間距從0秒10公尺線性降至50秒0公尺。橫軸時間（秒）、縱軸兩車距離（公尺）。",
+        "caption": "原卷共同圖（一）、圖（二）；起點相距10公尺，50秒追上。"
+      }
+    ],
+    "explanationFigures": [],
+    "groupQuestions": [
+      {
+        "id": "q-963",
+        "sourceId": "src-more-059",
+        "subject": "Math",
+        "title": "數學第17題｜兩車距離與時間",
+        "chapter": "綜合",
+        "volume": "綜合",
+        "date": "2026-11-05",
+        "dateLabel": "首次出題日期",
+        "addedAt": "2026-11-05",
+        "question": "若經過x秒，甲、乙兩車的距離為y公尺，請問x與y的關係式為何？\n(A) y＝（1/5）x＋10\n(B) y＝－（1/5）x＋10\n(C) y＝（1/5）x－10\n(D) y＝－（1/5）x－10",
+        "answer": "(B) y＝－（1/5）x＋10",
+        "explanation": "由圖讀出起點與追上時間\n圖（二）在x＝0時，兩車相距10公尺；50秒時相距0公尺，所以線段經過（0，10）與（50，0）。\n距離每秒的改變量＝（0－10）÷（50－0）＝－1/5公尺／秒。初始距離是10，故y＝－（1/5）x＋10，選B。\n\nA、C斜率為正，表示距離隨時間增加，與圖不符。C、D的截距是－10，等於說剛開始的兩車距離為負數，也與10公尺不符。可再用x＝50檢驗B：y＝－10＋10＝0，正好對應追上。\n\ny是兩車之間的距離，不是甲或乙各自移動的路程。乙速率每秒2公尺不是此距離函數的斜率；－1/5表示兩車間距每秒縮短0.2公尺。圖示只描繪追上前0≤x≤50，不能將負距離當作追上後的實際間距。",
+        "trap": "",
+        "verification": "原卷逐題核對",
+        "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+        "diagram": "",
+        "notes": "",
+        "status": "todo",
+        "starred": false,
+        "tags": [
+          "兩車距離與時間",
+          "函數"
+        ],
+        "images": [
+          "assets/originals/src-more-059-page2-q17-7d4811c4ef3c.png"
+        ],
+        "sourceLabel": "分享原卷｜第17題",
+        "studentAnswer": "C；原卷未見紅筆訂正。",
+        "contentStatus": "完整原題",
+        "correctOption": "B",
+        "passage": "",
+        "originalQuestionNumber": "17",
+        "optionAnalysis": [
+          {
+            "label": "A",
+            "text": "y＝（1/5）x＋10",
+            "wordClass": "不選",
+            "meaning": "",
+            "explanation": "斜率正表示間距增加，與圖中下降不符。"
+          },
+          {
+            "label": "B",
+            "text": "y＝－（1/5）x＋10",
+            "wordClass": "應選",
+            "meaning": "",
+            "explanation": "起始10公尺，50秒降至0，斜率－1/5且截距10，正確。"
+          },
+          {
+            "label": "C",
+            "text": "y＝（1/5）x－10",
+            "wordClass": "不選",
+            "meaning": "",
+            "explanation": "斜率方向與初始值都不符。"
+          },
+          {
+            "label": "D",
+            "text": "y＝－（1/5）x－10",
+            "wordClass": "不選",
+            "meaning": "",
+            "explanation": "雖為負斜率，但初始距離誤為－10公尺。"
+          }
+        ],
+        "tables": [],
+        "questionFigures": [],
+        "explanationFigures": []
+      },
+      {
+        "id": "q-964",
+        "sourceId": "src-more-059",
+        "subject": "Math",
+        "title": "數學第18題｜甲車移動的路程",
+        "chapter": "綜合",
+        "volume": "綜合",
+        "date": "2026-11-05",
+        "dateLabel": "首次出題日期",
+        "addedAt": "2026-11-05",
+        "question": "經過30秒時，甲車自A點移動多少公尺？\n(A) 63\n(B) 64\n(C) 65\n(D) 66",
+        "answer": "(D) 66",
+        "explanation": "先求每秒縮短多少距離\n由共圖可知，甲原本落後乙10公尺，50秒後追上，因此每秒縮短的間距為10÷50＝0.2公尺。這是甲比乙快的相對速率，不是甲的速率。\n乙每秒走2公尺，所以甲的速率為2＋0.2＝2.2公尺／秒。30秒時甲自A點移動2.2×30＝66公尺，選D。\n\n另一解法：30秒後乙移動2×30＝60公尺，位置在距A點10＋60＝70公尺處。此時兩車距離由第17題的式子得10－0.2×30＝4公尺，所以甲的位置是70－4＝66公尺。\n\n若直接算乙的2×30＝60，或只算間距減少0.2×30＝6，都不是本題問的甲車路程。A、B、C都不符合上述兩種互相驗證的計算。",
+        "trap": "",
+        "verification": "原卷逐題核對",
+        "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+        "diagram": "",
+        "notes": "",
+        "status": "todo",
+        "starred": false,
+        "tags": [
+          "甲車移動的路程",
+          "函數"
+        ],
+        "images": [
+          "assets/originals/src-more-059-page2-q18-4809c7f2f59b.png"
+        ],
+        "sourceLabel": "分享原卷｜第18題",
+        "studentAnswer": "C；原卷未見紅筆訂正。",
+        "contentStatus": "完整原題",
+        "correctOption": "D",
+        "passage": "",
+        "originalQuestionNumber": "18",
+        "optionAnalysis": [
+          {
+            "label": "A",
+            "text": "63",
+            "wordClass": "不選",
+            "meaning": "",
+            "explanation": "由追及速率2.2公尺／秒計算，30秒應為66，不是63。"
+          },
+          {
+            "label": "B",
+            "text": "64",
+            "wordClass": "不選",
+            "meaning": "",
+            "explanation": "2.2×30＝66，不是64。"
+          },
+          {
+            "label": "C",
+            "text": "65",
+            "wordClass": "不選",
+            "meaning": "",
+            "explanation": "2.2×30＝66，不是65。"
+          },
+          {
+            "label": "D",
+            "text": "66",
+            "wordClass": "應選",
+            "meaning": "",
+            "explanation": "甲速率2＋10/50＝2.2，乘30秒得66公尺。"
+          }
+        ],
+        "tables": [],
+        "questionFigures": [],
+        "explanationFigures": []
+      }
+    ],
+    "groupMetadata": {
+      "groupId": "src-more-059-original-17-18",
+      "retainId": "q-963",
+      "reviewReport": "docs/imports/new-gpt-20261105-b/manifest.json",
+      "originalQuestionIds": [
+        "q-963",
+        "q-964"
+      ],
+      "displayOrder": [
+        "q-963",
+        "q-964"
+      ],
+      "aliasesProposed": [
+        "q-964"
+      ],
+      "commonFigureEquivalentSources": []
+    }
+  },
+  {
+    "id": "q-964",
+    "sourceId": "src-more-059",
+    "subject": "Math",
+    "title": "數學第18題｜甲車移動的路程",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "經過30秒時，甲車自A點移動多少公尺？\n(A) 63\n(B) 64\n(C) 65\n(D) 66",
+    "answer": "(D) 66",
+    "explanation": "先求每秒縮短多少距離\n由共圖可知，甲原本落後乙10公尺，50秒後追上，因此每秒縮短的間距為10÷50＝0.2公尺。這是甲比乙快的相對速率，不是甲的速率。\n乙每秒走2公尺，所以甲的速率為2＋0.2＝2.2公尺／秒。30秒時甲自A點移動2.2×30＝66公尺，選D。\n\n另一解法：30秒後乙移動2×30＝60公尺，位置在距A點10＋60＝70公尺處。此時兩車距離由第17題的式子得10－0.2×30＝4公尺，所以甲的位置是70－4＝66公尺。\n\n若直接算乙的2×30＝60，或只算間距減少0.2×30＝6，都不是本題問的甲車路程。A、B、C都不符合上述兩種互相驗證的計算。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "甲車移動的路程",
+      "函數"
+    ],
+    "images": [
+      "assets/originals/src-more-059-page2-q18-4809c7f2f59b.png"
+    ],
+    "sourceLabel": "分享原卷｜第18題",
+    "studentAnswer": "C；原卷未見紅筆訂正。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "18",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "63",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "由追及速率2.2公尺／秒計算，30秒應為66，不是63。"
+      },
+      {
+        "label": "B",
+        "text": "64",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "2.2×30＝66，不是64。"
+      },
+      {
+        "label": "C",
+        "text": "65",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "2.2×30＝66，不是65。"
+      },
+      {
+        "label": "D",
+        "text": "66",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "甲速率2＋10/50＝2.2，乘30秒得66公尺。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-965",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第5題｜生態系中的角色",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "根據以下四者在生態系裡的功能敘述，判斷在生態系裡，何者不一定需要存在？\n(A) 生產者、分解者\n(B) 消費者、清除者\n(C) 生產者、消費者\n(D) 分解者、清除者",
+    "answer": "(B) 消費者、清除者",
+    "explanation": "依本題的生態系基本運作模型，生產者製造有機養分、引入能量；分解者把生物遺體等有機物分解，讓無機養分回到環境並可再利用。這兩種功能維持養分來源與物質循環，是本題的基本角色。\n\n消費者取食其他生物，清除者取食或處理遺體、有利分解進行，但沒有這兩者，仍可由生產者與分解者維持基本的物質循環，因此選B。清除者能協助分解，不能因此取代分解者。清除者也是一類消費者；此處按原題四個功能欄來比較，並非四個彼此完全不重疊的分類。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "生態系",
+      "生產者",
+      "消費者",
+      "分解者",
+      "清除者"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-06-c97502986d93.png"
+    ],
+    "sourceLabel": "分享原卷｜第5題",
+    "studentAnswer": "使用者原訊息明示：D--B（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "5",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "生產者、分解者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "包含本題基本角色生產者及分解者，不符不一定需要存在。"
+      },
+      {
+        "label": "B",
+        "text": "消費者、清除者",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "消費者及清除者不是此基本循環一定要另外存在的角色，符合題意。"
+      },
+      {
+        "label": "C",
+        "text": "生產者、消費者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "包含生產者，不能將兩者都列為不一定需要。"
+      },
+      {
+        "label": "D",
+        "text": "分解者、清除者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "包含分解者；清除者雖可協助，並不能取代分解者的物質分解功能。"
+      }
+    ],
+    "tables": [
+      {
+        "caption": "原題：四種角色的功能",
+        "headers": [
+          "生產者",
+          "消費者",
+          "分解者",
+          "清除者"
+        ],
+        "rows": [
+          [
+            "製造養分，將太陽能轉為化學能",
+            "以其他生物為食",
+            "分泌酵素分解生物遺體",
+            "有利分解工作的進行"
+          ]
+        ]
+      }
+    ],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-966",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第6題｜古文中的食物鏈",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "阿宏最近在國文課學到漢朝文學，覺得頗有趣，於是上網搜尋更多相關資訊，其中韓嬰所著《韓詩外傳》裡寫道：「螳螂方欲食蟬，而不知黃雀在後，舉其頸，欲啄而食之也。」請問在此食物鏈中，螳螂扮演何種角色？\n(A) 清除者\n(B) 初級消費者\n(C) 次級消費者\n(D) 三級消費者",
+    "answer": "(C) 次級消費者",
+    "explanation": "依文意，螳螂要吃蟬，黃雀要吃螳螂；蟬吸食植物汁液，是直接從生產者取得養分的初級消費者。螳螂吃初級消費者，所以是次級消費者，選C。\n\n簡化食物鏈為「植物→蟬→螳螂→黃雀」，箭頭表示被吃者的物質與能量傳向取食者。植物是生產者；蟬、螳螂、黃雀依序是初級、次級、三級消費者。「初級」不是指故事裡第一個出場的動物，也不能僅憑會吃其他生物，就認定是初級消費者。本題描述捕食活蟬，並非取食遺體的清除行為。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "食物鏈",
+      "營養階層",
+      "次級消費者",
+      "螳螂捕蟬"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-07-73484b67d7fb.png"
+    ],
+    "sourceLabel": "分享原卷｜第6題",
+    "studentAnswer": "使用者原訊息明示：B--C（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "6",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "清除者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "螳螂正在捕食活的蟬，不是以遺體為食的清除者。"
+      },
+      {
+        "label": "B",
+        "text": "初級消費者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "初級消費者直接取食生產者，本題是蟬。"
+      },
+      {
+        "label": "C",
+        "text": "次級消費者",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "螳螂取食初級消費者蟬，因此是次級消費者。"
+      },
+      {
+        "label": "D",
+        "text": "三級消費者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "本題黃雀取食次級消費者螳螂，黃雀才是這條鏈的三級消費者。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-967",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第9題｜生物關係的比較",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "白蟻以木材為食，但缺乏消化木材的酵素，而腸內的鞭毛蟲具有消化木材的酵素，能將消化後的養分，供本身利用外，也供白蟻所需。由上述可知，白蟻與鞭毛蟲的關係與下列哪一組合的差異最大？\n(A) 附生的蘭花與大樹\n(B) 冬蟲夏草菌與蝙蝠蛾幼蟲\n(C) 石珊瑚與藻類\n(D) 螞蟻與蚜蟲",
+    "answer": "(B) 冬蟲夏草菌與蝙蝠蛾幼蟲",
+    "explanation": "依題幹設定，鞭毛蟲協助白蟻消化木材、提供養分，白蟻也提供鞭毛蟲棲所與食物來源，兩者都受益，屬互利共生（＋／＋）。題目問差異最大，須比較受益、無明顯影響與受害的關係。\n\nA附生蘭花藉樹木支撐而獲利，大樹通常無明顯利害，為片利共生（＋／0）；B真菌由蝙蝠蛾幼蟲獲取養分，使幼蟲受害，為寄生（＋／－），與雙方受益反差最大。C珊瑚與共生藻、D螞蟻與蚜蟲在本題常見的互利模型中，都是雙方受益。A雖也與題幹不同，但沒有一方受害，不能只找到不同就停止比較。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "互利共生",
+      "片利共生",
+      "寄生",
+      "受益與受害"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-08-1d9d9d5bcd6f.png"
+    ],
+    "sourceLabel": "分享原卷｜第9題",
+    "studentAnswer": "使用者原訊息明示：Ａ－Ｂ（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "9",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "附生的蘭花與大樹",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "蘭花獲得支撐，樹木通常無明顯影響，為片利共生；與互利不同，但反差不如寄生。"
+      },
+      {
+        "label": "B",
+        "text": "冬蟲夏草菌與蝙蝠蛾幼蟲",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "真菌受益、幼蟲受害，為寄生，與雙方受益的差異最大。"
+      },
+      {
+        "label": "C",
+        "text": "石珊瑚與藻類",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "共生藻行光合作用提供有機養分；珊瑚提供棲所等，兩者互利。"
+      },
+      {
+        "label": "D",
+        "text": "螞蟻與蚜蟲",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "螞蟻取得蜜露，蚜蟲獲得保護，依本題互利關係判讀。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-968",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第13題｜獼猴搶食與能量",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "高雄壽山猴患嚴重，多次傳出獼猴下山與人類搶食，造成上山的遊客不小驚嚇，政府還訂定罰則，禁止隨意餵食。關於人類與獼猴在生態系中的角色，下列何者正確？\n(A) 人類餵食獼猴時是生產者\n(B) 獼猴食用遊客遺留的食物時是分解者\n(C) 人類和獼猴之間的關係是掠食\n(D) 獼猴只能獲得人類食物部分能量",
+    "answer": "(D) 獼猴只能獲得人類食物部分能量",
+    "explanation": "獼猴吃到人類攜帶的食物，無法把食物中的全部能量都保留在自身；未消化的部分可隨排遺離開，生命活動也會使能量轉換並以熱散失，所以D正確。這裡的能量來源是被吃的食物，不是把人類本身當成獼猴的食物。原題未提供比例，不另套固定百分比。\n\n人類與獼猴都屬消費者，給予食物不會讓人類變成能自行合成有機養分的生產者；猴子吃剩餘食物也不會變成分解者。題目的人猴互動是爭取共同食物資源，而非獼猴捕食人類，因此不能判為人猴間的掠食。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "能量流動",
+      "消費者",
+      "競爭",
+      "掠食"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-01-f4be7329dd7d.png"
+    ],
+    "sourceLabel": "分享原卷｜第13題",
+    "studentAnswer": "使用者原訊息明示：C--D（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "13",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "人類餵食獼猴時是生產者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "生產者須能自行製造有機養分；人類提供食物的行為不改變消費者身分。"
+      },
+      {
+        "label": "B",
+        "text": "獼猴食用遊客遺留的食物時是分解者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "獼猴是攝食的消費者，不是藉體外分解、吸收有機物的分解者。"
+      },
+      {
+        "label": "C",
+        "text": "人類和獼猴之間的關係是掠食",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "本題是人猴爭取食物資源，並非一方捕食另一方。"
+      },
+      {
+        "label": "D",
+        "text": "獼猴只能獲得人類食物部分能量",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "取食後的物質與能量不會全數保留，僅部分可被吸收利用或形成自身生物量。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-969",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第21題｜非洲大蝸牛的生態關係",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "某知名醬油企業第二代一家人生吃「非洲大蝸牛」，造成5人感染「廣東住血線蟲」死亡。非洲大蝸牛為廣東住血線蟲重要的中間寄主，多在潮溼環境活動。非洲大蝸牛常危害果樹、蔬菜等作物，造成嚴重的農業損失。下列敘述何者正確？\n(A) 非洲大蝸牛適合生活在森林生態系底層\n(B) 非洲大蝸牛與廣東住血線蟲為競爭關係\n(C) 人類與非洲大蝸牛的關係為寄生\n(D) 為控制非洲大蝸牛數量，可從國外引進別種蝸牛與其競爭",
+    "answer": "(A) 非洲大蝸牛適合生活在森林生態系底層",
+    "explanation": "題幹指出蝸牛多在潮溼環境活動。森林底層通常較陰暗潮溼，較能減少水分散失，符合蝸牛生活所需，因此選A。\n\n廣東住血線蟲利用蝸牛作為中間寄主，兩者是寄生關係，並非競爭共同資源。題目中人類直接食用蝸牛，指人與蝸牛間的掠食，不能和線蟲寄生的關係混為一談。D也不能只因競爭可能影響數量，就推論引進外來競爭種是妥當措施；外來物種可能造成新的競爭與生態破壞，不能任意引進。此處只比較題幹的生態關係，不把人類誤食感染與蝸牛的中間寄主角色對調。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "棲地",
+      "寄生",
+      "掠食",
+      "外來種"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-02-5c4cb462e88d.png"
+    ],
+    "sourceLabel": "分享原卷｜第21題",
+    "studentAnswer": "使用者原訊息明示：D--A（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "21",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "非洲大蝸牛適合生活在森林生態系底層",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "森林底層通常較陰暗潮溼，與原文蝸牛多在潮溼環境活動相符。"
+      },
+      {
+        "label": "B",
+        "text": "非洲大蝸牛與廣東住血線蟲為競爭關係",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "線蟲寄生於蝸牛，中間寄主不是競爭者。"
+      },
+      {
+        "label": "C",
+        "text": "人類與非洲大蝸牛的關係為寄生",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "此處人類取食蝸牛屬掠食；不是人寄生在蝸牛中。"
+      },
+      {
+        "label": "D",
+        "text": "為控制非洲大蝸牛數量，可從國外引進別種蝸牛與其競爭",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "引進外來蝸牛可能帶來新的入侵競爭與生態危害，不能作為可任意採取的控制方式。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-970",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第1題｜稻田養鴨與植物運輸",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "「鴨間稻」是一種先民傳承下來的智慧。農夫在稻田養鴨，讓鴨子幫忙照顧稻子。鴨子在水田中啄食害蟲及雜草，節省農夫養鴨和農藥的成本；鴨子的排泄物提供稻子部分養分，在水田中的活動增加水中溶氧量。這種農耕方式，使得稻穀粒粒飽滿，也讓一些久未見的青蛙、蜻蜓、蜥蜴等動物，又出現在田裡。根據上述，下列何者正確？\n(A) 鴨子協助稻田種植，生態上的角色為生產者\n(B) 鴨子排泄物中最主要的含氮廢物是尿素\n(C) 溶在水中的養分由維管束的木質部運輸\n(D) 田裡的水稻、鴨子、青蛙、蜻蜓等所有生物可稱為族群",
+    "answer": "(C) 溶在水中的養分由維管束的木質部運輸",
+    "explanation": "C所指的是溶在水中、被根吸收的無機養分，會和水分經木質部向莖、葉等處運輸；光合作用製造的糖類等有機養分則主要由韌皮部運送，因此C正確。鴨子排泄物等有機物須經分解、礦化，不能誤想成糞便原封不動由根吸收、在木質部內移動。\n\n鴨子以其他生物為食，是消費者，幫助稻田不會變成生產者。鳥類主要排出的含氮廢物是尿酸，而非尿素。族群指同一地區同種生物的個體集合；水稻、鴨子、青蛙等是不同物種，合起來應用群集的概念，不是單一族群。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "木質部",
+      "韌皮部",
+      "尿酸",
+      "族群與群集"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-03-329b90c99fca.png"
+    ],
+    "sourceLabel": "分享原卷｜第1題",
+    "studentAnswer": "使用者原訊息明示：B--C（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "1",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "鴨子協助稻田種植，生態上的角色為生產者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "鴨子仍是攝食的消費者，不因幫助農耕便成為生產者。"
+      },
+      {
+        "label": "B",
+        "text": "鴨子排泄物中最主要的含氮廢物是尿素",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "鴨屬鳥類，主要含氮廢物是尿酸，非尿素。"
+      },
+      {
+        "label": "C",
+        "text": "溶在水中的養分由維管束的木質部運輸",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "木質部主要輸送水分和溶於其中的無機養分。"
+      },
+      {
+        "label": "D",
+        "text": "田裡的水稻、鴨子、青蛙、蜻蜓等所有生物可稱為族群",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "不同物種的族群集合為群集，族群限於同種。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/src-more-058-rice-duck-photo-5058db041719.png",
+        "alt": "原卷稻田養鴨照片，鴨子活動於水稻間的水田。",
+        "caption": "稻鴨共生（原卷照片）"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-971",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第3題｜牛樟樹與牛樟芝",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "臺東利嘉林道有1棵千年牛樟樹，多年前遭山老鼠「開膛剖肚」盜採「牛樟芝」。牛樟芝是臺灣特有的一種藥用真菌，只生長於牛樟樹腐朽中空的樹幹內。山老鼠為盜採樹幹內的牛樟芝，竟在樹幹挖出1人可進出的貫穿大洞，令人怵目驚心，所幸至今仍挺立在山林裡，是保育山林的活教材。下列敘述何者正確？\n(A) 牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸\n(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活\n(C) 牛樟芝屬於單細胞真菌，缺乏菌絲\n(D) 具藥用功能的牛樟芝在生態上屬於生產者",
+    "answer": "(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活",
+    "explanation": "老樹中心的心材已不是主要輸水區域；即使中心中空，只要外圍仍有足夠且正常運作的輸導組織，仍可能存活。B所稱「樹幹表層」應理解為靠近樹皮的韌皮部、以及外側仍有輸水功能的木質部邊材，不是整個樹皮或最外層表皮都負責運輸，故依題意選B。\n\n木質部主要輸送水與無機養分，韌皮部主要輸送糖類等有機養分，不能只靠韌皮部取代木質部的功能。此處也不能把輸導組織一概稱為活細胞：木質部主要輸水的成熟導管、假導管是死細胞；木質部另含活薄壁細胞。樹木能存活，關鍵是外圍輸導系統仍能運作，而非每個輸導細胞都活著。\n\n牛樟芝是有菌絲的多細胞真菌，利用木材中的有機物，在此屬分解者，藥用價值不會讓它變成生產者。中心中空仍可存活不代表破壞無害，巨大傷口仍會削弱樹木結構。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "維管束",
+      "木質部",
+      "韌皮部",
+      "真菌",
+      "分解者"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-04-1720d81b8286.png"
+    ],
+    "sourceLabel": "分享原卷｜第3題",
+    "studentAnswer": "使用者原訊息明示：D--B（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "3",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "韌皮部主要輸送有機養分，不能取代木質部主要輸水及無機養分的功能。"
+      },
+      {
+        "label": "B",
+        "text": "有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "中心中空但外圍輸導系統仍完整運作時，樹木可能存活；表層是相對於心材而言。"
+      },
+      {
+        "label": "C",
+        "text": "牛樟芝屬於單細胞真菌，缺乏菌絲",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "牛樟芝有菌絲體及子實體，為多細胞真菌，非缺菌絲的單細胞真菌。"
+      },
+      {
+        "label": "D",
+        "text": "具藥用功能的牛樟芝在生態上屬於生產者",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "牛樟芝分解利用木材中的有機物，屬分解者；是否具藥用功能不影響此分類。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-972",
+    "sourceId": "src-more-058",
+    "subject": "Biology",
+    "title": "生物第5題｜海洋生物的分類與繁殖",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "除了綠蠵龜，澎湖海域亦可見到鐘形微孔珊瑚、珍珠水母、光手滑面蟹、白鬚龍蝦及土魠魚等多種海洋生物。下列敘述何者錯誤？\n(A) 光手滑面蟹和白鬚龍蝦皆會定期更換外骨骼\n(B) 鐘形微孔珊瑚和珍珠水母皆為刺絲胞動物\n(C) 綠蠵龜和土魠魚皆屬於體外受精的卵生動物\n(D) 澎湖海域內的這些生物屬於同一個群集",
+    "answer": "(C) 綠蠵龜和土魠魚皆屬於體外受精的卵生動物",
+    "explanation": "本題要選錯誤敘述。綠蠵龜屬爬蟲類，雌雄交配後在雌體內受精，再到沙灘產卵；土魠魚屬魚類，在水中完成體外受精，兩者雖都卵生，受精方式並不相同。C把兩者都說成體外受精，因此應選C。不能把卵生直接等同體外受精，也不能反過來說所有魚類都體外受精。\n\nA蟹與龍蝦屬甲殼類節肢動物，有外骨骼，成長須蛻殼；B珊瑚與水母屬刺絲胞動物；D在同一海域的不同物種族群，共同組成群集，這三項依題意均正確。族群是同種生物的集合，群集則包含不同物種的族群；白子也不因此成為另一個物種。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實看真正user上傳原圖、逐張裁圖及必要照片，核對完整題幹、全部選項與必要材料，答案獨立推理並核對相關官方/研究資料。無教材冊次及章節證據，歸綜合；日期取原問首次對話台灣日，非實際考試日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "體內受精",
+      "體外受精",
+      "卵生",
+      "節肢動物",
+      "刺絲胞動物",
+      "族群與群集"
+    ],
+    "images": [
+      "assets/originals/src-more-058-question-05-a2d972240ea2.png"
+    ],
+    "sourceLabel": "分享原卷｜第5題",
+    "studentAnswer": "使用者原訊息明示：D--C（原作答→訂正答案）。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "科學閱讀題組｜綠蠵龜的生命之旅\n\n綠蠵龜（Chelonia mydas）是海洋中的爬蟲類動物，大部分時間都在海中生活。成熟的綠蠵龜平均2～9年，會從覓食海域洄游到產卵沙灘附近的海域進行交配。交配結束後，公綠蠵龜會返回覓食海域，雌綠蠵龜會游到沙灘上產卵。\n\n2020年9月，澎湖望安鄉綠蠵龜產卵棲息保護區的西安瀨灣仔沙灘上，出現了兩隻白子（白化症）綠蠵龜，但因身體虛弱而不幸死亡，將其製作成標本，作為海洋教育用。根據上文，試回答第5、6題：",
+    "originalQuestionNumber": "5",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "光手滑面蟹和白鬚龍蝦皆會定期更換外骨骼",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "蟹與龍蝦是具外骨骼的節肢動物，成長時會蛻殼，敘述正確，不選。"
+      },
+      {
+        "label": "B",
+        "text": "鐘形微孔珊瑚和珍珠水母皆為刺絲胞動物",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "珊瑚和水母同屬刺絲胞動物，敘述正確，不選。"
+      },
+      {
+        "label": "C",
+        "text": "綠蠵龜和土魠魚皆屬於體外受精的卵生動物",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "綠蠵龜體內受精、土魠魚體外受精，不能因都卵生就說兩者受精方式相同；此項錯誤，應選。"
+      },
+      {
+        "label": "D",
+        "text": "澎湖海域內的這些生物屬於同一個群集",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "同一海域不同物種的族群共同構成群集，敘述正確，不選。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/src-more-058-turtle-photo-288d232903d2.png",
+        "alt": "原卷綠蠵龜照片，海龜在海中活動。",
+        "caption": "綠蠵龜（原卷照片）"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-973",
+    "sourceId": "src-more-060",
+    "subject": "English",
+    "title": "英文第7題｜讀書句子的填空",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "If we read as ______ books as possible, we can have more knowledge.\n(A) many\n(B) much\n(C) more\n(D) most",
+    "answer": "(A) many",
+    "explanation": "先找句型，再判斷名詞。as＋原級＋as possible表示「盡可能……」；數量詞與名詞一起放入時，本題形成as many books as possible。books是可數名詞複數，選A many。全句意為「如果我們盡可能多讀書，就能獲得更多知識」。\n\nmuch修飾不可數名詞，不能直接修飾books。more是比較級，most是最高級，均不符合本題as ... as possible的原級結構。後半句more knowledge表示「更多知識」，在該處用法正確；不能把後半句的more直接搬到前面的空格。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的兩張原卷及本題裁圖，核對完整題幹、全部選項及必要閱讀文章。實際考試日期未提供，使用首次出題訊息的台灣日期；冊次、教材章節無證據，歸綜合。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "數量詞",
+      "as ... as possible"
+    ],
+    "images": [
+      "assets/originals/src-more-060-english-07-4d0e92342158.png"
+    ],
+    "sourceLabel": "分享原卷｜第7題",
+    "studentAnswer": "C；依原卷手寫作答。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "7",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "many",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "many修飾可數名詞複數books，符合as ... as possible的原級結構。"
+      },
+      {
+        "label": "B",
+        "text": "much",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "much修飾不可數名詞，不能直接修飾books。"
+      },
+      {
+        "label": "C",
+        "text": "more",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "more為比較級，不符合本題as ... as possible的原級結構。"
+      },
+      {
+        "label": "D",
+        "text": "most",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "most為最高級，不符合本題as ... as possible的原級結構。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-974",
+    "sourceId": "src-more-060",
+    "subject": "English",
+    "title": "英文第22題｜家庭研究的閱讀填空",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-05",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-05",
+    "question": "依上方第21～23題共同閱讀文章，選出第22格最適合的答案。\n(A) loving each other\n(B) being married\n(C) having a child\n(D) living together",
+    "answer": "(C) having a child",
+    "explanation": "本題須依文章中的比較找答案。第二段先說81%的受訪者認為「未婚、有孩子」的伴侶是一個家庭，接著說如果這對伴侶沒有孩子，認同比例下降至40%。兩句比較的是有沒有孩子，故第22格填C having a child。\n\ndon't have one的one代替前句a child。空格後的is以整個動名詞片語作主詞；四個選項在形式上都可作主詞，須用上下文選答。loving each other是彼此相愛，being married是已婚，living together是住在一起，都不是這兩句數據直接比較的條件。\n\n81%與40%相差41個百分點，不能直接把差距標成41%。文章是在報告該研究受訪者如何認定家庭，不表示所有家庭都必須有孩子，也不能據此宣稱相愛或同住不重要。第21、23格按原卷保留空格，不以未提問的其他題答案補文。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的兩張原卷及本題裁圖，核對完整題幹、全部選項及必要閱讀文章。實際考試日期未提供，使用首次出題訊息的台灣日期；冊次、教材章節無證據，歸綜合。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "閱讀理解",
+      "數據比較",
+      "代名詞one"
+    ],
+    "images": [
+      "assets/originals/src-more-060-english-22-reading-664bb50d9622.png",
+      "assets/originals/src-more-060-english-22-options-7016d82ad4f0.png"
+    ],
+    "sourceLabel": "分享原卷｜第22題",
+    "studentAnswer": "A；依原卷手寫作答。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "What does the word family mean to you? An American study shows that people today ____21____. Over 99% of the people in the study agree that a husband, a wife and a child are a family. At the same time, over 90% agree that different combinations of the above are also a family.\n\nThe study finds that ____22____ is very important in the modern thinking on family. 81% think a man and a woman having a child without getting married are a family. But the percentage drops to 40% if the couple don't have one.\n\nFamily types are different in different countries and they change as the time goes by, but a man's family is his home. As the saying goes, “____23____,” remember that east, west, home is best.",
+    "originalQuestionNumber": "22",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "loving each other",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "彼此相愛；本文沒有以是否相愛的兩組數據作比較。"
+      },
+      {
+        "label": "B",
+        "text": "being married",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "結婚；兩組都在未婚伴侶的脈絡下，婚姻不是該對比改變的條件。"
+      },
+      {
+        "label": "C",
+        "text": "having a child",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "有孩子；81%與40%的對比直接對應有沒有孩子。"
+      },
+      {
+        "label": "D",
+        "text": "living together",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "住在一起；本文未比較同住與未同住的比例。"
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "單字",
+          "中文"
+        ],
+        "rows": [
+          [
+            "combination",
+            "組合"
+          ],
+          [
+            "percentage",
+            "百分比"
+          ],
+          [
+            "couple",
+            "伴侶"
+          ],
+          [
+            "saying",
+            "諺語"
+          ]
+        ]
+      }
+    ],
+    "questionFigures": [],
+    "explanationFigures": []
   }
 ]

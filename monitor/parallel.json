@@ -1,79 +1,79 @@
 {
-  "mode": "one_source_producer_one_comic_producer_one_integrator",
+  "mode": "two_source_producers_one_integrator_scoped_batch",
   "workerLimit": 3,
-  "rootRole": "第57來源完整對話及原卷取得、回覆與META",
-  "updatedAt": "2026-11-04T16:10:55.759515+00:00",
+  "rootRole": "GPT58／59完整對話與原卷取得、回覆及META",
+  "updatedAt": "2026-11-05T15:31:50.856252+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "本批GPT57全部完成並推送，不領舊題",
+      "title": "本批全數完成，提交推送收尾",
       "state": "complete",
-      "startedAt": "2026-11-04T16:10:55.225835+00:00",
+      "startedAt": "2026-11-05T15:31:50.803865+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "claimsPaused": true,
       "batchQuestionIds": [],
       "activeTask": {
-        "title": "本批GPT57全部完成並推送，不領舊題",
+        "title": "本批全數完成，提交推送收尾",
         "state": "complete",
-        "startedAt": "2026-11-04T16:10:55.225835+00:00"
-      }
+        "startedAt": "2026-11-05T15:31:50.803865+00:00"
+      },
+      "pauseReason": "本批全數完成，不接舊佇列"
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "本批GPT57全部完成並推送，不領舊題",
+      "title": "本批新四格全交稿，不接舊佇列",
       "state": "complete",
-      "startedAt": "2026-11-04T16:10:55.225835+00:00",
+      "startedAt": "2026-11-05T15:31:50.803865+00:00",
       "agent": "/root/comic_lane_2",
       "role": "production",
       "claimsPaused": true,
       "batchQuestionIds": [
-        "q-946",
-        "q-947",
-        "q-948",
-        "q-949",
-        "q-950",
-        "q-951",
-        "q-952",
-        "q-953",
-        "q-954",
-        "q-955"
+        "q-965",
+        "q-966",
+        "q-967",
+        "q-968",
+        "q-969",
+        "q-970",
+        "q-971",
+        "q-972"
       ],
-      "pauseReason": "原卷尚未實取，等待取回後才核稿",
+      "pauseReason": "本批全數完成，不接舊佇列",
       "activeTask": {
-        "title": "本批GPT57全部完成並推送，不領舊題",
+        "title": "本批新四格全交稿，不接舊佇列",
         "state": "complete",
-        "startedAt": "2026-11-04T16:10:55.225835+00:00"
+        "startedAt": "2026-11-05T15:31:50.803865+00:00"
       }
     },
     {
       "lane": 3,
       "questionId": null,
-      "title": "本批GPT57全部完成並推送，不領舊題",
+      "title": "本批新四格全交稿，不接舊佇列",
       "state": "complete",
-      "startedAt": "2026-11-04T16:10:55.225835+00:00",
+      "startedAt": "2026-11-05T15:31:50.803865+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": true,
       "batchQuestionIds": [
-        "q-956",
-        "q-957",
-        "q-958",
-        "q-959",
-        "q-960"
+        "q-961",
+        "q-962",
+        "q-963",
+        "q-964",
+        "q-973",
+        "q-974"
       ],
-      "pauseReason": "等待本批完整新題核定，不領舊題",
+      "pauseReason": "本批全數完成，不接舊佇列",
       "activeTask": {
-        "title": "本批GPT57全部完成並推送，不領舊題",
+        "title": "本批新四格全交稿，不接舊佇列",
         "state": "complete",
-        "startedAt": "2026-11-04T16:10:55.225835+00:00"
+        "startedAt": "2026-11-05T15:31:50.803865+00:00"
       }
     }
   ],
   "ready": [],
-  "integrated": 887,
+  "integrated": 901,
   "blocked": [],
   "waiting": [],
   "integrating": [],

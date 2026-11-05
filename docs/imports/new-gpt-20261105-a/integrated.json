@@ -1,0 +1,87 @@
+{
+  "sourceId": "src-more-058",
+  "producerManifest": "docs/imports/new-gpt-20261105-a/manifest.json",
+  "questionSHA256": "3c960731b525cd799199190365651cc548c9aedcf2cfeaeab6d5a3ec327a9781",
+  "producer": "/root/comic_lane_2",
+  "integrator": "/root/comic_lane_1",
+  "state": "integrated_original_questions",
+  "addedAt": "2026-11-05T15:01:33.364496+00:00",
+  "idMappings": {
+    "gpt058-ecosystem-q5": "q-965",
+    "gpt058-mantis-q6": "q-966",
+    "gpt058-symbiosis-q9": "q-967",
+    "gpt058-macaque-q13": "q-968",
+    "gpt058-snail-q21": "q-969",
+    "gpt058-rice-duck-q1": "q-970",
+    "gpt058-camphor-q3": "q-971",
+    "gpt058-marine-q5": "q-972"
+  },
+  "assetMappings": {
+    "docs/imports/new-gpt-20261105-a/originals/question-06.png": "assets/originals/src-more-058-question-06-c97502986d93.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-07.png": "assets/originals/src-more-058-question-07-73484b67d7fb.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-08.png": "assets/originals/src-more-058-question-08-1d9d9d5bcd6f.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-01.png": "assets/originals/src-more-058-question-01-f4be7329dd7d.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-02.png": "assets/originals/src-more-058-question-02-5c4cb462e88d.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-03.png": "assets/originals/src-more-058-question-03-329b90c99fca.png",
+    "docs/imports/new-gpt-20261105-a/originals/rice-duck-photo.png": "assets/originals/src-more-058-rice-duck-photo-5058db041719.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-04.png": "assets/originals/src-more-058-question-04-1720d81b8286.png",
+    "docs/imports/new-gpt-20261105-a/originals/question-05.png": "assets/originals/src-more-058-question-05-a2d972240ea2.png",
+    "docs/imports/new-gpt-20261105-a/originals/turtle-photo.png": "assets/originals/src-more-058-turtle-photo-288d232903d2.png"
+  },
+  "questionIds": [
+    "q-965",
+    "q-966",
+    "q-967",
+    "q-968",
+    "q-969",
+    "q-970",
+    "q-971",
+    "q-972"
+  ],
+  "originalQuestionIds": [
+    "q-965",
+    "q-966",
+    "q-967",
+    "q-968",
+    "q-969",
+    "q-970",
+    "q-971",
+    "q-972"
+  ],
+  "originalQuestionCount": 8,
+  "questionPageCount": 8,
+  "frozenProducerContentPreserved": true,
+  "metadataChanges": [
+    "draft IDs mapped to stable qids",
+    "checked crop paths mapped to identical published bytes",
+    "addedAt set to publication date",
+    "group membership metadata added",
+    "non-schema sourceEvidence retained in producer draft"
+  ],
+  "illustrationState": "complete",
+  "reviews": [
+    {
+      "draftId": "gpt058-camphor-q3",
+      "kind": "原AI輸導組織機制誤述",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "before": "原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
+      "after": "保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。",
+      "reason": "輸水功能不等於細胞仍活著；原AI混同活組織與仍具輸導功能。此為機制訂正，B答案已定，不阻塞圖解。",
+      "sourceMessageIndices": [
+        161
+      ],
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "fullQuestion": "臺東利嘉林道有1棵千年牛樟樹，多年前遭山老鼠「開膛剖肚」盜採「牛樟芝」。牛樟芝是臺灣特有的一種藥用真菌，只生長於牛樟樹腐朽中空的樹幹內。山老鼠為盜採樹幹內的牛樟芝，竟在樹幹挖出1人可進出的貫穿大洞，令人怵目驚心，所幸至今仍挺立在山林裡，是保育山林的活教材。下列敘述何者正確？\n(A) 牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸\n(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活\n(C) 牛樟芝屬於單細胞真菌，缺乏菌絲\n(D) 具藥用功能的牛樟芝在生態上屬於生產者",
+      "primarySources": [
+        "https://ipmb.sinica.edu.tw/file/水稻葉片形態解剖學.pdf"
+      ],
+      "primaryEvidence": "中研院植物暨微生物學研究所《水稻葉片形態解剖學》第14頁，說明導管/假導管為厚細胞壁的死細胞，木質部亦含薄壁細胞。",
+      "verificationDate": "2026-11-05"
+    }
+  ],
+  "technicalQAPassed": true,
+  "intakeValidation": "docs/imports/new-gpt-20261105-a/intake-validation.json",
+  "newIllustrationCount": 8,
+  "comicCompletionValidation": "docs/comics/new-gpt-20261105/completion-validation.json"
+}

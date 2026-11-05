@@ -1,0 +1,89 @@
+{
+  "id": "gpt059-math-17",
+  "sourceId": "src-more-059",
+  "subject": "Math",
+  "title": "數學第17題｜兩車距離與時間",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-05",
+  "dateLabel": "首次出題日期",
+  "question": "若經過x秒，甲、乙兩車的距離為y公尺，請問x與y的關係式為何？\n(A) y＝（1/5）x＋10\n(B) y＝－（1/5）x＋10\n(C) y＝（1/5）x－10\n(D) y＝－（1/5）x－10",
+  "answer": "(B) y＝－（1/5）x＋10",
+  "explanation": "由圖讀出起點與追上時間\n圖（二）在x＝0時，兩車相距10公尺；50秒時相距0公尺，所以線段經過（0，10）與（50，0）。\n距離每秒的改變量＝（0－10）÷（50－0）＝－1/5公尺／秒。初始距離是10，故y＝－（1/5）x＋10，選B。\n\nA、C斜率為正，表示距離隨時間增加，與圖不符。C、D的截距是－10，等於說剛開始的兩車距離為負數，也與10公尺不符。可再用x＝50檢驗B：y＝－10＋10＝0，正好對應追上。\n\ny是兩車之間的距離，不是甲或乙各自移動的路程。乙速率每秒2公尺不是此距離函數的斜率；－1/5表示兩車間距每秒縮短0.2公尺。圖示只描繪追上前0≤x≤50，不能將負距離當作追上後的實際間距。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+  "diagram": "",
+  "tags": [
+    "兩車距離與時間",
+    "函數"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261105-b/originals/page2-q17.png"
+  ],
+  "sourceLabel": "分享原卷｜第17題",
+  "studentAnswer": "C；原卷未見紅筆訂正。",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "如圖（一），在同一直線上，甲自A點開始追趕等速率前進的乙車，且圖（二）表示兩車距離與所經時間的線型關係圖。若乙車的速率為每秒2公尺。",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "y＝（1/5）x＋10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "斜率正表示間距增加，與圖中下降不符。"
+    },
+    {
+      "label": "B",
+      "text": "y＝－（1/5）x＋10",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "起始10公尺，50秒降至0，斜率－1/5且截距10，正確。"
+    },
+    {
+      "label": "C",
+      "text": "y＝（1/5）x－10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "斜率方向與初始值都不符。"
+    },
+    {
+      "label": "D",
+      "text": "y＝－（1/5）x－10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "雖為負斜率，但初始距離誤為－10公尺。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261105-b/originals/page2-q17-18-diagrams.png",
+      "alt": "圖（一）甲在A點，乙在前方10公尺；圖（二）間距從0秒10公尺線性降至50秒0公尺。橫軸時間（秒）、縱軸兩車距離（公尺）。",
+      "caption": "原卷共同圖（一）、圖（二）；起點相距10公尺，50秒追上。"
+    }
+  ],
+  "explanationFigures": [],
+  "originalQuestionNumber": "17",
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "messageIndex": 1,
+    "messageId": "149a3a62-b064-42e2-aaf2-022f223ba776",
+    "firstQuestionTimestamp": 1793888086.376552,
+    "firstQuestionDateTime": "2026-11-05T22:14:46.376552+08:00",
+    "originals": [
+      {
+        "path": "docs/source-pages/chatgpt-6aec9480-2.jpg",
+        "sha256": "749caa1f24bb691488fc17fd547b472ca98b613492f93fe506db3747d4f0d9e5",
+        "bytes": 384215,
+        "fileId": "sediment://file_00000000ae04820687833ed1ebc1bfdc"
+      }
+    ],
+    "attachmentMatchedBy": "archive size_bytes/fileId",
+    "cropHashes": {
+      "docs/imports/new-gpt-20261105-b/originals/page2-q17.png": "7d4811c4ef3ceccf6531fe67e9ef817a5991acf532da79698ed972d8adf6f5d0"
+    },
+    "inclusionEvidence": "user訊息20明示第16、17、18題@錯題；第17原作答C，依完整共圖獨立驗答B。"
+  }
+}

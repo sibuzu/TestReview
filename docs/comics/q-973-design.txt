@@ -1,0 +1,71 @@
+本題教學重點是成對的as原級框架與books可數複數，精確可選取HTML語法角色/名詞關係對照比人物讀書情境更能解答選項差異；不增原題條件，後半more knowledge照留。
+原卷：docs/imports/new-gpt-20261105-c/originals/english-07.png
+[
+  {
+    "heading": "① as與as possible成對使用",
+    "text": "本句的as ... as possible表示「盡可能……」，中間用原級。先辨清結構，不能把比較級more或最高級most直接放入空格。",
+    "diagram": {
+      "kind": "flow",
+      "title": "本題的句型骨架",
+      "items": [
+        {
+          "label": "as ＋原級＋ ... ＋ as possible",
+          "tone": "blue",
+          "detail": "意思：盡可能……。"
+        },
+        {
+          "label": "as many books as possible",
+          "tone": "green",
+          "detail": "把數量詞與books一起放入句型。"
+        }
+      ],
+      "arrow": "用原級表達盡可能的程度"
+    },
+    "alt": "精確英文as與as possible配對，完整呈現as many books as possible及中文語意。"
+  },
+  {
+    "heading": "② books是可數名詞複數",
+    "text": "book可數，books是複數，要用many。much搭不可數名詞，不能直接修飾本題的books，所以B也不合。",
+    "diagram": {
+      "kind": "paths",
+      "title": "空格後的名詞決定數量詞",
+      "items": [
+        {
+          "label": "books：可數名詞複數",
+          "tone": "blue",
+          "detail": "本題所修飾的名詞。"
+        },
+        {
+          "label": "many：修飾可數名詞複數",
+          "tone": "green"
+        }
+      ],
+      "target": "many books：結構與名詞皆符合",
+      "arrow": "先看名詞，再選數量詞"
+    },
+    "alt": "中文明標books可數複數與many修飾關係，不拿more knowledge替換前半空格。"
+  },
+  {
+    "heading": "③ 後半的more不能直接搬來",
+    "text": "後半more knowledge是「更多知識」，在原句該處正確。前半另有as ... as possible框架，須各依所在位置判斷。",
+    "diagram": {
+      "kind": "paths",
+      "title": "分清同一句中的兩個位置",
+      "items": [
+        {
+          "label": "前半：as many books as possible",
+          "tone": "green",
+          "detail": "盡可能多的書；本空選A。"
+        },
+        {
+          "label": "後半：more knowledge",
+          "tone": "blue",
+          "detail": "更多知識；原句用法正確。"
+        }
+      ],
+      "target": "前半填many，後半保留more",
+      "arrow": "兩處的結構與修飾對象不同"
+    },
+    "alt": "精確對照前半many books與後半more knowledge，中文分別標結構角色。"
+  }
+]

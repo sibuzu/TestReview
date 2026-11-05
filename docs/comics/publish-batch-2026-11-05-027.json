@@ -1,0 +1,55 @@
+{
+  "preparedAt": "2026-11-05T15:32:41.272787+00:00",
+  "batchNumber": 27,
+  "previousHEAD": "d09d4bea87ed9134d3d20a831749281c8e0c5d29",
+  "verifiedComicCount": 14,
+  "questionIds": [
+    "q-961",
+    "q-962",
+    "q-963",
+    "q-964",
+    "q-965",
+    "q-966",
+    "q-967",
+    "q-968",
+    "q-969",
+    "q-970",
+    "q-971",
+    "q-972",
+    "q-973",
+    "q-974"
+  ],
+  "integrationEventIds": [
+    "integration-job-d47e246e81c348739b022cc5d0e66d00",
+    "integration-job-ea70b38abec34882aa2e4d7a328a0c87",
+    "integration-job-549060db8cf445ad93356706be7c4d50",
+    "integration-job-bbfb27ab99ac4ad5ad9e65a44a1984d1",
+    "integration-job-698ef126fa914f80a9e4e83a0b2ee0c4",
+    "integration-job-601176e19cc74a019ba75265f8c0a854",
+    "integration-job-096ee0a4653640808277a0d9025a2dab",
+    "integration-job-b125d73f81924af38b5c1094c57c3e39",
+    "integration-job-ad25c324c1b0489f87a6f9d56182ccd8",
+    "integration-job-a7d29cb39fb54d3287effae65c4aa41a",
+    "integration-job-e3490798617e4cf3b4aea2338fc3980d",
+    "integration-job-c1d9284a519c42779eacb34e160668de",
+    "integration-job-edbea7b5ac7d4082b09e160331a1e392",
+    "integration-job-e983aa6a5385410c82ff4ce0a667f4dc"
+  ],
+  "throughIntegratedAt": "2026-11-05T15:30:41.205244+00:00",
+  "datasetRevision": "2026-10-27.23431a29b399",
+  "checks": {
+    "siteTests": 121,
+    "monitorTests": 30,
+    "formalLayouts": 84,
+    "rawRasterExcludedFromGit": true,
+    "assets": "docs/comics/new-gpt-20261105/assets-validation.json",
+    "rootAudit": "docs/imports/new-gpt-20261105-root-audit.json"
+  },
+  "policy": "User explicitly requests complete this entire scoped batch then commit all and normal push; 14 verified events close this batch below the recurring20 threshold without resuming older work.",
+  "composition": {
+    "previousVerifiedEvents": 0,
+    "newOriginalComicEvents": 14,
+    "animeContaining": 2,
+    "native": 12
+  }
+}

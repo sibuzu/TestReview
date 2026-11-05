@@ -1,0 +1,57 @@
+{
+  "sourceId": "src-more-060",
+  "producerManifest": "docs/imports/new-gpt-20261105-c/manifest.json",
+  "questionSHA256": "e26647dc95eee5a30a281b9e9fb9a1a45642898f932aa9008d2846e392b59899",
+  "producer": "/root",
+  "integrator": "/root/comic_lane_1",
+  "state": "integrated_original_questions",
+  "addedAt": "2026-11-05T15:12:00.033591+00:00",
+  "idMappings": {
+    "gpt060-english-7": "q-973",
+    "gpt060-english-22": "q-974"
+  },
+  "assetMappings": {
+    "docs/imports/new-gpt-20261105-c/originals/english-07.png": "assets/originals/src-more-060-english-07-4d0e92342158.png",
+    "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png": "assets/originals/src-more-060-english-22-reading-664bb50d9622.png",
+    "docs/imports/new-gpt-20261105-c/originals/english-22-options.png": "assets/originals/src-more-060-english-22-options-7016d82ad4f0.png"
+  },
+  "questionIds": [
+    "q-973",
+    "q-974"
+  ],
+  "originalQuestionIds": [
+    "q-973",
+    "q-974"
+  ],
+  "originalQuestionCount": 2,
+  "questionPageCount": 2,
+  "frozenProducerContentPreserved": true,
+  "metadataChanges": [
+    "draft IDs mapped to stable qids",
+    "checked crop paths mapped to identical published bytes",
+    "addedAt set to publication date",
+    "group membership metadata added",
+    "non-schema sourceEvidence retained in producer draft"
+  ],
+  "illustrationState": "complete",
+  "reviews": [
+    {
+      "draftId": "gpt060-english-22",
+      "kind": "原AI數據標示錯誤",
+      "before": "原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
+      "after": "原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。",
+      "reason": "兩比例相減的差距應以百分點表達。兩張生成圖錯標A為原AI封存文字的自述，本次未將該自述冒充實看圖片；正解由真正上傳原卷的閱讀文獨立核對。",
+      "expectedAnswer": "C",
+      "sourceUrl": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+      "questionText": "What does the word family mean to you? An American study shows that people today ____21____. Over 99% of the people in the study agree that a husband, a wife and a child are a family. At the same time, over 90% agree that different combinations of the above are also a family.\n\nThe study finds that ____22____ is very important in the modern thinking on family. 81% think a man and a woman having a child without getting married are a family. But the percentage drops to 40% if the couple don't have one.\n\nFamily types are different in different countries and they change as the time goes by, but a man's family is his home. As the saying goes, “____23____,” remember that east, west, home is best.\n\n依上方第21～23題共同閱讀文章，選出第22格最適合的答案。\n(A) loving each other\n(B) being married\n(C) having a child\n(D) living together",
+      "evidence": [
+        "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png",
+        "docs/imports/new-gpt-20261105-c/originals/english-22-options.png"
+      ]
+    }
+  ],
+  "technicalQAPassed": true,
+  "intakeValidation": "docs/imports/new-gpt-20261105-c/intake-validation.json",
+  "newIllustrationCount": 2,
+  "comicCompletionValidation": "docs/comics/new-gpt-20261105/completion-validation.json"
+}

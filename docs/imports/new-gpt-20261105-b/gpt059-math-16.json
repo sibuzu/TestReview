@@ -1,0 +1,89 @@
+{
+  "id": "gpt059-math-16",
+  "sourceId": "src-more-059",
+  "subject": "Math",
+  "title": "數學第16題｜兩直線的函數值比較",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-05",
+  "dateLabel": "首次出題日期",
+  "question": "如右圖，坐標平面上，直線L₁為一次函數y＝ax＋b的圖形，直線L₂為y＝cx＋d的圖形。若L₁與L₂相交於點P（2，－3），則下列敘述何者錯誤？\n(A) 2a＋b＝2c＋d\n(B) 3a＋b＜3c＋d\n(C) b＜d\n(D) －a＋b＜－c＋d",
+  "answer": "(B) 3a＋b＜3c＋d",
+  "explanation": "先把代數式看成同一個x對應的高度\nL₁的函數值為ax＋b，L₂的函數值為cx＋d。比較兩式時，是在相同x的垂直位置比較哪一條線較高。\n交點P（2，－3）表示x＝2時，兩條線的y值同為－3，所以2a＋b＝2c＋d，A正確。\n圖中L₂向右下降比L₁更快；交點右側x＞2，L₁在L₂上方。x＝3時應是3a＋b＞3c＋d，B印成小於，因此題目問錯誤敘述時選B。\n\n交點左側x＜2，L₁在L₂下方。x＝0時比較y截距，b＜d，C正確；x＝－1時得到－a＋b＜－c＋d，D也正確。\n\n也可令兩線差值為（ax＋b）－（cx＋d）＝（a－c）（x－2）。原圖L₁的斜率較大、a－c＞0，因此x－2的正負決定哪條線較高；不須猜出原圖沒有提供的個別斜率數值。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳的兩頁原卷及裁圖，逐題核對條件、圖形與全部選項。日期為首次原卷核對訊息的台灣日，實際考試日期未提供。未確認冊次或教材章節，歸綜合。",
+  "diagram": "",
+  "tags": [
+    "兩直線的函數值比較",
+    "函數"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261105-b/originals/page2-q16.png"
+  ],
+  "sourceLabel": "分享原卷｜第16題",
+  "studentAnswer": "A；原卷未見紅筆訂正。",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "2a＋b＝2c＋d",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "交點的x為2，兩線函數值相等，敘述正確。"
+    },
+    {
+      "label": "B",
+      "text": "3a＋b＜3c＋d",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "x＝3在交點右側，L₁較高，應為大於；此敘述錯誤，符合題目所問。"
+    },
+    {
+      "label": "C",
+      "text": "b＜d",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "x＝0在交點左側，L₁較低，b＜d正確。"
+    },
+    {
+      "label": "D",
+      "text": "－a＋b＜－c＋d",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "x＝－1在交點左側，L₁較低，敘述正確。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261105-b/originals/page2-q16-graph.png",
+      "alt": "兩條下降直線L₁與L₂交於P（2，－3）；L₂較陡，交點右側L₁較高、左側L₁較低。",
+      "caption": "原卷直線圖；僅提供交點與相對位置，不杜撰個別斜率。"
+    }
+  ],
+  "explanationFigures": [],
+  "originalQuestionNumber": "16",
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+    "messageIndex": 1,
+    "messageId": "149a3a62-b064-42e2-aaf2-022f223ba776",
+    "firstQuestionTimestamp": 1793888086.376552,
+    "firstQuestionDateTime": "2026-11-05T22:14:46.376552+08:00",
+    "originals": [
+      {
+        "path": "docs/source-pages/chatgpt-6aec9480-2.jpg",
+        "sha256": "749caa1f24bb691488fc17fd547b472ca98b613492f93fe506db3747d4f0d9e5",
+        "bytes": 384215,
+        "fileId": "sediment://file_00000000ae04820687833ed1ebc1bfdc"
+      }
+    ],
+    "attachmentMatchedBy": "archive size_bytes/fileId",
+    "cropHashes": {
+      "docs/imports/new-gpt-20261105-b/originals/page2-q16.png": "7cf605271588decd2be372133d97e1179a03174f60449c2460556610d331c894"
+    },
+    "inclusionEvidence": "user訊息20明示第16、17、18題@錯題；第16原作答A，獨立比圖與代數驗答B。"
+  }
+}

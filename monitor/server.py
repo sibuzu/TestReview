@@ -52,6 +52,9 @@ def confirmation_token(request):
     fields = ('id', 'title', 'kind', 'questions', 'questionText', 'questionUrl',
               'url', 'sourceUrl', 'before', 'after', 'questionSnapshot')
     snapshot = {key: request.get(key) for key in fields}
+    # Keep legacy tokens stable; visible original figures belong to new snapshots.
+    if request.get('questionFigures'):
+        snapshot['questionFigures'] = request['questionFigures']
     return hashlib.sha256(json.dumps(snapshot, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 

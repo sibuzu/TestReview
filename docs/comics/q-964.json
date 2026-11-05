@@ -1,0 +1,140 @@
+{
+  "id": "q-964",
+  "subject": "Math",
+  "title": "間距縮短速率，加回乙車速率",
+  "art": "docs/comics/art/q-964.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 50秒追上，先求相對速率",
+      "text": "甲原本落後乙10公尺，經過50秒追上。每秒縮短10÷50＝0.2公尺，表示甲每秒比乙多走0.2公尺。",
+      "diagram": {
+        "kind": "flow",
+        "title": "原共圖提供的追及條件",
+        "items": [
+          {
+            "label": "初始間距：10公尺",
+            "tone": "blue"
+          },
+          {
+            "label": "追上時間：50秒",
+            "tone": "gold"
+          },
+          {
+            "label": "相對速率：10÷50＝0.2公尺／秒",
+            "tone": "green",
+            "detail": "這是速率差，不是甲的速率。"
+          }
+        ],
+        "arrow": "初始間距÷追上時間"
+      },
+      "alt": "中文明標10公尺、50秒及0.2公尺每秒是相對速率差。"
+    },
+    {
+      "heading": "② 乙每秒2公尺，甲要再快0.2",
+      "text": "甲在後面且能追上，速率必須比乙大。將乙的2加上速率差0.2，甲的速率就是2.2公尺／秒。",
+      "diagram": {
+        "kind": "paths",
+        "title": "分清兩車與相對速率",
+        "items": [
+          {
+            "label": "乙的速率：2公尺／秒",
+            "tone": "blue"
+          },
+          {
+            "label": "甲比乙快：0.2公尺／秒",
+            "tone": "gold"
+          }
+        ],
+        "target": "甲的速率：2＋0.2＝2.2公尺／秒",
+        "arrow": "乙速率＋甲乙速率差"
+      },
+      "alt": "乙車2與速率差0.2相加得到甲車2.2，角色、單位、相加動作均明示。"
+    },
+    {
+      "heading": "③ 求甲自A點走的路程",
+      "text": "甲的速率乘30秒，得2.2×30＝66公尺。另可核對：乙在距A點70公尺處，兩車還差4公尺，甲便在70－4＝66公尺處。",
+      "diagram": {
+        "kind": "paths",
+        "title": "30秒時，以兩種方式核對",
+        "items": [
+          {
+            "label": "甲的路程：2.2×30＝66公尺",
+            "tone": "green"
+          },
+          {
+            "label": "由乙的位置回推：70－4＝66公尺",
+            "tone": "blue",
+            "detail": "乙位置10＋2×30＝70；間距10－0.2×30＝4。"
+          }
+        ],
+        "target": "甲自A點移動66公尺：D",
+        "arrow": "速率×時間，或位置減間距"
+      },
+      "alt": "完整標示甲路程66、乙距A點位置70及剩餘間距4，兩種計算互核。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：66公尺",
+    "points": [
+      "0.2是兩車的速率差，不能直接當甲速率。",
+      "甲速率2.2公尺／秒，30秒走66公尺。",
+      "乙移動60公尺與兩車間距4公尺，皆非本題所問。"
+    ]
+  },
+  "protectedWords": [
+    "相對速率",
+    "追上時間",
+    "速率差",
+    "甲的速率",
+    "乙的速率",
+    "甲車路程",
+    "A點",
+    "10公尺",
+    "50秒",
+    "30秒",
+    "0.2公尺／秒",
+    "2.2公尺／秒",
+    "66公尺",
+    "70公尺",
+    "4公尺"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "path": "docs/imports/new-gpt-20261105-b/originals/page2-q17-18-common.png",
+    "visualChecked": true
+  },
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new selectable native HTML mathematics diagrams with exact formulas, Chinese roles, values, units and action arrows; deterministic SVG fallback; imagegenCalls=0",
+  "rationale": "精確中文HTML分出乙速率、甲乙速率差、甲速率與甲路程，全部標單位及加法箭頭；用30秒的乙位置/剩餘間距交叉驗算，避免無標車圖讓讀者猜2與0.2分屬何量。",
+  "designFile": "docs/comics/q-964-design.txt",
+  "artSHA256": "9af7be16bacdc5bb05cded77391d7226483119c4df79a00ec9cf0882d0500a22",
+  "visualChecked": true,
+  "checkedAt": "2026-11-05T15:30:41.000098+00:00",
+  "previewValidation": "docs/comics/q-964-preview-validation.json",
+  "visualReview": "已實看1440/390四格，三寬QA PASS：10÷50得速率差0.2，再加乙2得甲2.2，乘30得66；另一驗算乙位置70減間距4亦66。所有角色/公式/數值/公尺秒單位與箭頭明標，0.2不是甲速率、60不是甲路程清楚，桌手機無溢出、同列等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-964-art-9af7be16ba.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-964-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-964-validation.json"
+}

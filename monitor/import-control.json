@@ -1,24 +1,15 @@
 {
   "state": "complete",
-  "lastAllowedSourceOrder": 60,
-  "allowedSourceOrders": [
-    58,
-    59,
-    60
-  ],
   "allowNewSources": false,
-  "haltAfterCurrentSource": true,
-  "updatedAt": "2026-11-05T15:33:51.980914+00:00",
-  "instruction": "只處理使用者2026-11-05新交三個不同GPT分享來源58／59／60，重複貼上的第59網址只登錄一次。第60來源為使用者後續追加，保留原58／59進度與同一786／860基線。完整對話及真正上傳原卷實取辨讀後才核題，逐題查重、完整原題詳解先上網，再製作本批所有全新四格並正式桌手機QA。全批完成或個別經核實跳過後commit all並正常push；不沿用來源AI圖、不收AI延伸、不恢復舊來源或漫畫。",
-  "cancelledSourcesFile": "docs/imports/new-source-cancellations-2026-10-29.json",
-  "closeoutEvidence": "docs/comics/new-gpt-20261105/completion-validation.json",
-  "detail": "GPT58／59／60共14原問／13題面及14份全新四格全部驗證完成，已commit all並正常push origin/main。",
-  "allowedSourceUrls": [
-    "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
-    "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
-    "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a"
+  "allowedSourceOrders": [
+    61
   ],
-  "batch": "gpt",
-  "reason": "本批三來源全完成及必要跳過均已核實；9新檢視卡、舊5卡與q951疑義保留。不恢復舊來源或漫畫。",
-  "contentCommit": "f3d51875fe13d962a178e53036687a043318eca8"
+  "lastAllowedSourceOrder": 61,
+  "haltAfterCurrentSource": true,
+  "allowedSourceUrls": [
+    "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587"
+  ],
+  "instruction": "只處理使用者新指定6aede186分享，完成真正原卷、題目與全新四格，驗證後commit及push。不恢復舊佇列。",
+  "updatedAt": "2026-11-06T14:41:13.493643+00:00",
+  "reason": "本次唯一指定來源61已完成，不恢復舊佇列。"
 }

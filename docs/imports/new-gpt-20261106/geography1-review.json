@@ -1,0 +1,118 @@
+{
+  "questionId": "q-978",
+  "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+  "sourceArchive": "docs/sources/6aede186-c184-83ee-9f74-2d44b77d6587.json",
+  "originalFile": "docs/source-pages/chatgpt-6aede186-4.jpg",
+  "firstUserMessageId": "4026cb29-bb3f-409b-8ae7-dd13f79a842c",
+  "firstQuestionLocalTime": "2026-11-06T22:10:49.539047+08:00",
+  "originalVisualChecked": true,
+  "cropOperations": [
+    {
+      "output": "site/dist/assets/questions/q-978-source.jpg",
+      "operation": "transpose=2; crop=1400:510:20:180"
+    },
+    {
+      "output": "site/dist/assets/questions/q-978-satellite.jpg",
+      "operation": "transpose=2; crop=400:250:1000:205"
+    },
+    {
+      "output": "site/dist/assets/questions/q-978-options.jpg",
+      "operation": "transpose=2; crop=735:390:105:290"
+    }
+  ],
+  "cropsActuallyOpened": true,
+  "readMarkedHeights": {
+    "A": [
+      "20m",
+      "20"
+    ],
+    "B": [
+      "1200m",
+      "1800",
+      "2400"
+    ],
+    "C": [
+      "2500m",
+      "1500",
+      "500"
+    ],
+    "D": [
+      "100m",
+      "300",
+      "500"
+    ]
+  },
+  "answerIndependent": "C：本題甲在北非撒哈拉地區，教材對應撒哈拉盆地；原圖C由外2500至內500遞減，外高內低。非照抄紅筆或原AI。",
+  "references": [
+    {
+      "title": "臺北市教學資源：非洲地形",
+      "url": "https://tmrc.tiec.tp.edu.tw/HTML/RSR20081120204110AJ2/africa/afr01.htm",
+      "finding": "教材將北部非洲列為撒哈拉盆地；只採本題所需的地形分布，不引用該舊網頁其他人文敘述。"
+    },
+    {
+      "title": "USGS：等高線及凹地製圖規範",
+      "url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-elevation",
+      "finding": "等高線標示地表高程；凹地是低處被周圍較高地勢包圍。此題直接由原印標高2500→1500→500讀出降低，不另加原卷沒有的齒線。"
+    },
+    {
+      "title": "NASA：阿爾及利亞西部地形",
+      "url": "https://science.nasa.gov/earth/earth-observatory/topography-of-western-algeria-7946/",
+      "finding": "北非撒哈拉邊緣包含山脈、盆地及沙丘；沙漠景觀不能直接等同平原。該影像不是本題甲的精確座標證據。"
+    }
+  ],
+  "sourceAIErrors": [
+    {
+      "evidence": "docs/imports/new-gpt-20261106/geography1-source-ai-first.png",
+      "actuallyViewed": true,
+      "before": "圖中明列正確答案A，稱撒哈拉以廣大平原為主；把C描述為由四周向中心升高。重畫C標高出現亂碼與非原卷數值。",
+      "after": "採原卷甲的位置與C原印2500→1500→500，向內降低為盆地，答案C。",
+      "reason": "把沙漠景觀當作平原，並逆讀C的標高；AI重畫衛星圖與選項不能代替原卷。"
+    },
+    {
+      "evidence": "docs/imports/new-gpt-20261106/geography1-source-ai-second.png",
+      "actuallyViewed": true,
+      "before": "圖中明列正確答案B；將原B山地稱地勢較高且起伏緩的丘陵，把C描述成中央最高四周漸低，但重畫圖仍出現內500、外2500。",
+      "after": "B由1200→1800→2400向內升高，不是盆地；C由2500→1500→500向內降低。保持原卷，不用錯重繪圖。",
+      "reason": "把地形方向和選項對應顛倒，標高重畫亦混亂；沙漠不能直接對應高原或丘陵。"
+    }
+  ],
+  "sourceAIRetainedInExplanation": false,
+  "duplicateReview": {
+    "indexCandidatesFile": "docs/imports/new-gpt-20261106/geography1-duplicate-candidates.json",
+    "indexQueries": [
+      "撒哈拉 (Geography)：0筆",
+      "等高線 (Geography)：回傳9筆候選，逐項題幹檢視",
+      "candidates geography1.json：exactTextCandidates、similarStems、sharedMaterialNotDuplicate皆空"
+    ],
+    "closestReviewed": "q-304",
+    "closestOriginalFigureActuallyOpened": "site/dist/assets/questions/q-304-figure-684572d8bb.jpg",
+    "comparison": "q-304題幹是印度邦加羅爾所在德干高原，具共用淹水閱讀材料；四圖雖A20、B1200/1800/2400相似，C是外1100→內700，D1200/1400/1600高原。本題甲在北非、C外2500→內500、D100/300/500，必要衛星圖及條件不同，不能因相似等高線圖合併。",
+    "decision": "new_question",
+    "questionId": "q-978",
+    "otherReviewedStems": {
+      "q-065": "臺14線測站山崩混濁，題幹和選項為測站組合，非北非地形。",
+      "q-074": "草嶺古道埡口判位甲乙丙丁，非區域地形匹配。",
+      "q-338": "虎字碑兩山鞍部判位，非撒哈拉。",
+      "q-341": "石門水庫兩子題水系/採樣位置，非本題。",
+      "q-347": "龜山島砲臺朝蘭陽平原方向判位，非本題。",
+      "q-373": "八卦台地與200/440公尺閱讀條件，非北非及本題2500/1500/500選項。",
+      "q-545": "日本滑雪場最陡雪道，非本題。",
+      "q-649": "桃園古沖積扇抬升的台地辨圖，地點及條件不同。"
+    }
+  },
+  "newComic": {
+    "spec": "docs/comics/q-978.json",
+    "art": "docs/comics/art/q-978-contours.svg",
+    "method": "精確SVG地形/等高線方向配可選取中文HTMLcaption",
+    "sourceAIUsed": false,
+    "isolatedValidation": "docs/comics/q-978-preview-validation.json",
+    "actuallyViewed": [
+      "/tmp/weirugo-comic-previews/q-978-1440.png",
+      "/tmp/weirugo-comic-previews/q-978-390.png"
+    ],
+    "status": "producer_reviewed_ready_for_root_integration"
+  },
+  "originalPreservedAt": "site/dist/assets/originals/src-more-061-original-04-fbc9379d390e.jpg",
+  "producerOriginalPreservedAt": "site/dist/assets/originals/q-978-original-full.jpg",
+  "originalPathNote": "root統一原卷路徑後，未引用的重複檔依SHA256備份再移出；真正原件與docs/source-pages檔均保留。"
+}

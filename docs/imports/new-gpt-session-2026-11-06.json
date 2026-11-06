@@ -1,0 +1,45 @@
+{
+  "title": "GPT61新來源",
+  "state": "complete",
+  "startedAt": "2026-11-06T14:30:32.816956+00:00",
+  "instruction": "只處理使用者新指定6aede186分享，完成真正原卷、題目與全新四格，驗證後commit及push。不恢復舊佇列。",
+  "sources": [
+    {
+      "key": "gpt061",
+      "batch": "gpt",
+      "suggestedOrder": 61,
+      "sourceId": "src-more-061",
+      "url": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+      "draftDirectory": "docs/imports/new-gpt-20261106",
+      "acquisitionRecord": "docs/acquisition/new-gpt-20261106.json",
+      "integrationReceipt": "docs/imports/new-gpt-20261106/integrated.json",
+      "expectedOriginalQuestions": 4,
+      "expectedQuestionPages": 4,
+      "state": "complete_with_skips"
+    }
+  ],
+  "baselineQuestionPages": 799,
+  "baselineOriginalQuestions": 874,
+  "baselineMaxId": 974,
+  "publicationRequested": true,
+  "originalImagesExpected": 4,
+  "originalImagesAcquired": 4,
+  "originalQuestionCount": 4,
+  "questionPageCount": 4,
+  "expectedOriginalQuestions": 4,
+  "expectedQuestionPages": 4,
+  "scopeQuestionIds": [
+    "q-975",
+    "q-976",
+    "q-977",
+    "q-978"
+  ],
+  "newIllustrationCount": 4,
+  "pendingConfirmationIds": [
+    "correction-q-976-471f3c839076",
+    "correction-q-977-182d79b670fb",
+    "correction-q-978-a14525b5a4ee"
+  ],
+  "completedAt": "2026-11-06T14:41:13.493643+00:00",
+  "publicationState": "ready_for_commit"
+}

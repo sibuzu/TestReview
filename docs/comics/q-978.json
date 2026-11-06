@@ -1,0 +1,106 @@
+{
+  "id": "q-978",
+  "subject": "Geography",
+  "title": "沙漠不是平原；向內降低才是盆地",
+  "art": "docs/comics/art/q-978-contours.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先定位，再分清地形",
+      "text": "甲位於大西洋東側、地中海南側的北非撒哈拉地區。本題配合教材的撒哈拉盆地概念；沙漠景觀不能直接當成平原。",
+      "caption": "盆地剖面｜兩側高、中央低；箭頭表示由周圍往內降低。僅為輔助示意。",
+      "alt": "盆地輔助剖面呈兩側高中央低，兩箭頭指向內部較低處；不表示甲的實測海拔。"
+    },
+    {
+      "heading": "② 原圖C：數值向內降低",
+      "text": "C已標示的等高線由外往內是2500、1500、500公尺。高度向內降低，形成周圍高、內部低的盆地。",
+      "caption": "C俯視示意｜最外圈2500公尺、中圈1500公尺、最內圈500公尺；箭頭朝向內部低處。",
+      "alt": "三條C標示高度的概念等高線：外圈2500、中圈1500、內圈500公尺；不重建原卷未標值的其他線。"
+    },
+    {
+      "heading": "③ 比升降，不只比圈數",
+      "text": "B由1200升到2400公尺，是內高外低；C由2500降到500公尺，才是盆地。選項數字並非甲地區的實測高程。",
+      "caption": "上圖B｜往內升高；下圖C｜往內降低。剖面只比較方向，不按實際比例。",
+      "alt": "上方B的山形剖面向中央升高，下方C的盆形剖面向中央降低，箭頭明示向內的升降方向。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：外高內低的盆地",
+    "points": [
+      "C：2500 → 1500 → 500公尺，向內降低。",
+      "A低平；B、D都向內升高。",
+      "最內圈500公尺，不等於盆地最低點恰好500公尺。"
+    ]
+  },
+  "protectedWords": [
+    "撒哈拉地區",
+    "撒哈拉盆地",
+    "大西洋",
+    "地中海",
+    "等高線",
+    "公尺",
+    "盆地",
+    "實測高程",
+    "2500",
+    "1500",
+    "1200",
+    "2400"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "authored exact SVG contour/profile relationships plus selectable Chinese HTML captions",
+  "rationale": "地形高低、等高線標高與升降方向是本題核心，以可校對SVG剖面及三條已標值等高線輔助；每格中文圖說直接標示圈位、值、單位與箭頭意義，不依顏色猜測，不沿用兩張錯AI圖。",
+  "editableDiagramScript": "docs/comics/q-978-diagram.py",
+  "visualChecked": true,
+  "createdAt": "2026-11-06T14:36:54.632976+00:00",
+  "artSHA256": "b3798fd89614d3ef2b8bb80b135718e1db6c0117ae3ab368418f03c37fac747b",
+  "geometryValidation": {
+    "contourDirections": {
+      "B": [
+        1200,
+        1800,
+        2400
+      ],
+      "C": [
+        2500,
+        1500,
+        500
+      ],
+      "D": [
+        100,
+        300,
+        500
+      ]
+    },
+    "unmarkedContourValuesInvented": false,
+    "profilesConceptualNotScale": true,
+    "labelsInSelectableHTML": true,
+    "sourceAIUsed": false
+  },
+  "nativeArt": "assets/comics/q-978-art-b3798fd896.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "previewValidation": "docs/comics/q-978-preview-validation.json",
+  "visualReview": "已實看原卷旋轉成品及三張裁圖，核對甲的位置與4選項原印標高；實看1440/390隔離四格：剖面方向、C外中內三圈、B/C上升下降箭頭相符，中文caption逐項給圈位、標高、公尺與箭頭意義。1440/1120/390 QA通過、預設收合與自然行高無溢出；圖為輔助非實測。",
+  "rootReview": {
+    "checkedAt": "2026-11-06T14:41:13.493643+00:00",
+    "reviewerAgent": "/root",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "root實看真正原卷／必要圖、正式app桌手機四格；保留完整原題、全部選項、中文角色與動作及圖形限制。原AI錯誤分別登錄Monitor；未沿用來源AI解說圖。"
+  },
+  "checkedAt": "2026-11-06T14:41:13.757107+00:00",
+  "validationFile": "docs/comics/q-978-validation.json"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "q-977",
+  "subject": "Biology",
+  "title": "有光，不等於主要生產者是大型藻類",
+  "art": "docs/comics/art/q-977.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new native selectable HTML diagram blocks; original ocean cross-section retained as question figure",
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+  "originalMaterialsChecked": true,
+  "rationale": "本題考海洋分區、縱軸意義與生產者分類，用原卷剖面及可選取中文對比圖塊比人物更清楚。甲乙丙丁、200公尺的方向、光照分組與浮游植物均直接寫出，避免來源AI誤選C。沒有沿用來源AI圖，沒有新增無證據的離岸距離或章節。",
+  "panels": [
+    {
+      "heading": "① 看光照：甲、乙、丁一組",
+      "text": "甲在外海表層，乙在大陸棚淺海，丁是潮間帶，均有可供一般光合作用的光照；丙在較深處，陽光不足。",
+      "alt": "可選取中文標示甲外海表層、乙大陸棚淺海、丁潮間帶屬有光一組，丙深層光照不足一組。",
+      "diagram": {
+        "kind": "paths",
+        "title": "依原圖的光照條件分組",
+        "items": [
+          {
+            "label": "甲、乙、丁｜有足夠光照",
+            "detail": "甲：外海表層；乙：大陸棚淺海；丁：潮間帶。",
+            "tone": "green"
+          },
+          {
+            "label": "丙｜較深處，陽光不足",
+            "detail": "不足以支持一般光合作用。",
+            "tone": "blue"
+          }
+        ],
+        "target": "透光分類：甲、乙、丁／丙",
+        "arrow": "比較一般光合作用所需的光照",
+        "note": "依本題簡化示意分組，不把約200公尺當所有海域完全無光的固定界線。"
+      }
+    },
+    {
+      "heading": "② 看單位：200公尺是水深",
+      "text": "原圖縱軸寫深度，200公尺指從海面向下的水深。沒有提供離岸200公尺的界線，不能拿它當岸邊距離分類。",
+      "alt": "中文依序標示縱軸深度、公尺、垂直水深200公尺，並明示不是水平離岸距離。",
+      "diagram": {
+        "kind": "flow",
+        "title": "B把兩種距離混淆",
+        "items": [
+          {
+            "label": "原圖縱軸：深度（公尺）",
+            "detail": "由海面往下量，方向是垂直。",
+            "tone": "blue"
+          },
+          {
+            "label": "200公尺＝圖上的水深",
+            "detail": "不等於從岸邊向外量200公尺。",
+            "tone": "gold"
+          },
+          {
+            "label": "圖未提供離岸200公尺分界",
+            "detail": "不能據此把甲丙、乙丁分組。",
+            "tone": "purple"
+          }
+        ],
+        "arrow": "讀取軸名、方向與單位"
+      }
+    },
+    {
+      "heading": "③ 看生產者：甲以浮游植物為要角",
+      "text": "甲有光，但重要生產者是浮游植物。乙、丁可有大型藻類，不能把甲、乙、丁都當成以大型藻類為主要生產者。",
+      "alt": "中文比較甲外海表層重要生產者浮游植物與乙丁淺海潮間帶可有大型藻類，箭頭指向有光不等於主要是大型藻類的結論。",
+      "diagram": {
+        "kind": "paths",
+        "title": "C把有光與大型藻類混為一談",
+        "items": [
+          {
+            "label": "甲｜外海表層",
+            "detail": "重要生產者：浮游植物。",
+            "tone": "blue"
+          },
+          {
+            "label": "乙、丁｜淺海與潮間帶",
+            "detail": "可有大型藻類生長。",
+            "tone": "green"
+          }
+        ],
+        "target": "有光 ≠ 主要生產者都是大型藻類",
+        "arrow": "比較生產者，排除C",
+        "note": "D也不成立：丙缺乏足夠陽光，丁潮間帶反而可以有綠藻。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：依是否透光分類",
+    "points": [
+      "甲、乙、丁有可供一般光合作用的光照；丙不足。",
+      "200公尺是水深，不是離岸距離。",
+      "甲的重要生產者為浮游植物，不能用大型藻類把甲、乙、丁全包。"
+    ]
+  },
+  "protectedWords": [
+    "浮游植物",
+    "大型藻類",
+    "光合作用",
+    "潮間帶",
+    "大陸棚",
+    "200公尺",
+    "主要生產者"
+  ],
+  "createdAt": "2026-11-06T14:34:49.235034+00:00",
+  "artSHA256": "711e171c341f32ccc07efa37a077de53e9da3d5113e70ea9324e53a7285386d0",
+  "supportingSources": [
+    {
+      "title": "NOAA：海洋光照與分層",
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/light-distributed/",
+      "finding": "上層約200公尺通常能支持光合生產；200～1000公尺仍可能有微弱光，不說成200公尺以下完全無光。"
+    },
+    {
+      "title": "NOAA：海洋產氧與浮游生物",
+      "url": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+      "finding": "表層海水的光合浮游生物為重要生產者，支持排除甲主要生產者是大型藻類的說法。"
+    }
+  ],
+  "sourceReview": "docs/imports/new-gpt-20261106/biology29-review.json",
+  "visualChecked": true,
+  "checkedAt": "2026-11-06T14:41:13.701336+00:00",
+  "previewValidation": "docs/comics/q-977-preview-validation.json",
+  "visualReview": "實開原卷、共同材料／本題／海洋圖三張裁切及來源錯C漫畫；實看1440與390隔離新四格，全中文標明甲乙丁有光／丙光照不足、200公尺是垂直水深而非離岸距離、甲浮游植物對比乙丁可有大型藻。A正確且未沿用錯C圖。1440/1120/390均無溢出，四格順序、同行高度及手機自然高度正確。",
+  "sourceAIErrorActuallyViewed": true,
+  "nativeArt": "assets/comics/q-977-art-711e171c34.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-06T14:41:13.493643+00:00",
+    "reviewerAgent": "/root",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "root實看真正原卷／必要圖、正式app桌手機四格；保留完整原題、全部選項、中文角色與動作及圖形限制。原AI錯誤分別登錄Monitor；未沿用來源AI解說圖。"
+  },
+  "validationFile": "docs/comics/q-977-validation.json"
+}

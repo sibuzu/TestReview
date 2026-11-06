@@ -15,405 +15,6 @@
       "createdAt": "2026-10-29T15:21:26.511125+00:00",
       "resolvedAt": "2026-10-29T15:24:32.978721+00:00",
       "resolution": "使用者已明確確認對這次新的 Chrome 提示按 Allow；程式接續驗證連線與取回原卷，尚不宣稱圖片已下載。"
-    },
-    {
-      "id": "correction-q-946-8b90420fcbf4",
-      "state": "pending",
-      "kind": "原AI答案標頭矛盾",
-      "title": "公民第8題｜遊樂園門票促銷",
-      "questionId": "q-946",
-      "questionText": "新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n(A) 降低利潤\n(B) 提高生產成本\n(C) 增加銷貨收入\n(D) 提高商品價格",
-      "questionUrl": "/site/index.html#question/q-946",
-      "url": "/site/index.html#question/q-946",
-      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
-      "questions": [
-        "答案徽章不能與正文矛盾；原題問促銷目的，降低利潤不是廠商主要目的。",
-        "修改前／原AI內容：原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
-        "目前處理：統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。"
-      ],
-      "before": "原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
-      "after": "統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。",
-      "createdAt": "2026-11-04T15:32:08.936345+00:00",
-      "answerCanBeDetermined": true,
-      "expectedAnswer": "C",
-      "sourceMessageIndices": [
-        2,
-        6
-      ],
-      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json"
-    },
-    {
-      "id": "correction-q-947-12cbbb4ff080",
-      "state": "pending",
-      "kind": "原AI初答誤音（來源後續已更正）",
-      "title": "國文第4題｜看國字寫注音",
-      "questionId": "q-947",
-      "questionText": "「摻」揉：（　）",
-      "questionUrl": "/site/index.html#question/q-947",
-      "url": "/site/index.html#question/q-947",
-      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
-      "questions": [
-        "不能把古義持握的ㄕㄢˇ音套在混合、揉合義。紅筆完整讀音未能確定辨識，不猜教師改音。",
-        "修改前／原AI內容：原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
-        "目前處理：「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。"
-      ],
-      "before": "原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
-      "after": "「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。",
-      "createdAt": "2026-11-04T15:32:08.977657+00:00",
-      "answerCanBeDetermined": true,
-      "expectedAnswer": "ㄔㄢ",
-      "primarySources": [
-        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31909&la=0&powerMode=0"
-      ],
-      "sourceMessageIndices": [
-        21,
-        22,
-        31
-      ],
-      "sourceAlreadyCorrected": true,
-      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json"
-    },
-    {
-      "id": "correction-q-951-e34aa061df23",
-      "state": "pending",
-      "kind": "單選設計疑義",
-      "title": "國文第2題｜詞語中的多音字",
-      "questionId": "q-951",
-      "questionText": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
-      "questionUrl": "/site/index.html#question/q-951",
-      "url": "/site/index.html#question/q-951",
-      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
-      "questions": [
-        "MOE簡編劃的ㄏㄨㄚˊ包含擦掠及往表面拖拉留下痕跡；題句不足以強制第二劃改讀區分義ㄏㄨㄚˋ。A兩衝均ㄔㄨㄥ確定，疑點是唯一性而非原題缺漏。",
-        "修改前／原AI內容：原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
-        "目前處理：保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。"
-      ],
-      "before": "原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
-      "after": "保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。",
-      "createdAt": "2026-11-04T15:32:09.014485+00:00",
-      "answerCanBeDetermined": false,
-      "expectedAnswer": "原卷預期A；不指定唯一正解",
-      "primarySources": [
-        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161&la=0&powerMode=1",
-        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33051&la=0&powerMode=0"
-      ],
-      "sourceMessageIndices": [
-        64,
-        83
-      ],
-      "sourceAlreadyIdentifiesAmbiguity": true,
-      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json"
-    },
-    {
-      "id": "correction-q-956-568704aa01ed",
-      "state": "pending",
-      "kind": "原AI原作答誤讀",
-      "title": "國文題組｜〈採珠行〉閱讀（第1、2題）",
-      "questionId": "q-956",
-      "questionText": "作答材料：\n（甲）採珠行　元稹\n\n海波無底珠沉海，採珠之人判死採。\n萬人判死一得珠，斛量買婢人何在。\n年年採珠珠避人，今年採珠由海神。\n海神採珠珠盡死，死盡明珠空海水。\n珠為海物海屬神，神今自採何況人。\n\n注：①採珠：到水裡採取珍珠。②判死：付出生命作為代價。\n\n有關本詩的主旨，下列敘述何者正確？\n(A) 譴責人們與神明爭採珍珠\n(B) 呼籲重視海洋生態的平衡\n(C) 呼籲從事捕獵應重視安全\n(D) 撻伐買婢的行為忽視人權\n\n從詩意推斷，「斛量買婢」指的是下列何現象？\n(A) 海邊萬人空巷，珍珠被一斛一斛採走\n(B) 大家都跑去採珍珠，導致無人買賣婢女\n(C) 富人揮霍珍珠後，只好賣掉婢女來償債\n(D) 珍珠被採盡之前，富人揮霍珍珠的情景",
-      "questionUrl": "/site/index.html#question/q-956",
-      "url": "/site/index.html#question/q-956",
-      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
-      "questions": [
-        "原AI將學生原選項誤讀，會造成錯題紀錄不準；不是答案未定。",
-        "修改前／原AI內容：原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
-        "目前處理：原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。"
-      ],
-      "before": "原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
-      "after": "原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。",
-      "createdAt": "2026-11-04T15:38:56.271013+00:00",
-      "answerCanBeDetermined": true,
-      "expectedAnswer": "B",
-      "evidence": [
-        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-q1.png",
-        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-poem.png"
-      ],
-      "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json"
-    },
-    {
-      "id": "correction-q-958-51f1f63cbbc1",
-      "state": "pending",
-      "kind": "文言多義詞釐清",
-      "title": "國文第7題｜座頭鯨舉動與名句",
-      "questionId": "q-958",
-      "questionText": "作答材料：\n（丙）解析魚類的情感　網路文章\n\n海洋生物也有情感嗎？在動畫電影海底總動員中，海洋生物角色們各個活靈活現，充滿獨特個性，不僅能夠彼此交流，還能夠表達出和人類一樣的各種喜怒哀樂。根據一些科學研究以及生態觀察顯示，這些情感反應可能並非只存在人類的幻想裡頭，海洋生物不僅會有近似於害羞或焦慮的表現，甚至有可能具有像人類一般的同理心！\n\n澳洲的行為生態學教授布朗在魚類生物學期刊中發表了一篇研究，其研究對象是十七隻來自澳洲東岸的澳洲虎鯊，布朗教授指出，不同的鯊魚即便遇到了相同的情境，仍會表現出不同的反應，顯示出鯊魚的性格存在著個體之間的差異——有些鯊魚遇到陌生環境中的障礙物時，只需短短二秒便能突破，有些卻必須花上長達二十分鐘，表現得比同類更加小心翼翼；而每隻鯊魚從突然離水到重新回到水中並平復下來所花費的時間也大不相同，說明了他們對於環境焦慮的抗壓性存在著差異。\n\n除了鯊魚以外，另外一份關於座頭鯨的觀察報告則指出，座頭鯨會為了拯救其他非自己族類的動物和掠食者搏鬥。2008年時，海洋生物學者彼得曼及其研究團隊記錄下了二隻座頭鯨不斷拍動魚鰭並發出叫聲，只為了幫助海豹脫離殺人鯨捕食的影片，一週後，研究團隊又再度發現，類似的救援行動來自於完全不同的座頭鯨身上，這一次，他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹「抱」在自己的肚子上，帶往安全的地方。這些被拯救的生物當中，有高達90%都是非座頭鯨：海獅、海豹、翻車魚以及灰鯨等都包含在內。\n\n目前，座頭鯨出現「利他行為」的原因還有待進一步研究，但彼得曼在文章中寫道：「人類保護其他動物，我們稱之為同理心，如果今天是發生在座頭鯨身上，我們會稱之為天性，但有時候，這兩者之間的界線是模糊的。」\n\n文中座頭鯨的舉動，下列哪項人類的精神最接近？\n(A) 己所不欲，勿施於人\n(B) 博施於民，而能濟眾\n(C) 願無伐善，無施勞\n(D) 以直報怨，以德報德",
-      "questionUrl": "/site/index.html#question/q-958",
-      "url": "/site/index.html#question/q-958",
-      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
-      "questions": [
-        "避免將多義詞固定為唯一解；兩義均不如B直接對應廣泛主動救助，原題答案可核。",
-        "修改前／原AI內容：原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
-        "目前處理：教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。"
-      ],
-      "before": "原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
-      "after": "教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。",
-      "createdAt": "2026-11-04T15:38:56.328225+00:00",
-      "answerCanBeDetermined": true,
-      "expectedAnswer": "B",
-      "primarySources": [
-        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=127169&la=0&powerMode=0",
-        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33238&la=0&powerMode=0"
-      ],
-      "evidence": [
-        "docs/imports/new-gpt-20261104-c/lane3/originals/whale-q7.png"
-      ],
-      "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json"
-    },
-    {
-      "id": "correction-q-971-8e66b1b5d7bb",
-      "state": "pending",
-      "kind": "原AI輸導組織機制誤述",
-      "title": "生物第3題｜牛樟樹與牛樟芝",
-      "questionId": "q-971",
-      "questionText": "臺東利嘉林道有1棵千年牛樟樹，多年前遭山老鼠「開膛剖肚」盜採「牛樟芝」。牛樟芝是臺灣特有的一種藥用真菌，只生長於牛樟樹腐朽中空的樹幹內。山老鼠為盜採樹幹內的牛樟芝，竟在樹幹挖出1人可進出的貫穿大洞，令人怵目驚心，所幸至今仍挺立在山林裡，是保育山林的活教材。下列敘述何者正確？\n(A) 牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸\n(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活\n(C) 牛樟芝屬於單細胞真菌，缺乏菌絲\n(D) 具藥用功能的牛樟芝在生態上屬於生產者",
-      "questionUrl": "/site/index.html#question/q-971",
-      "url": "/site/index.html#question/q-971",
-      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
-      "questions": [
-        "輸水功能不等於細胞仍活著；原AI混同活組織與仍具輸導功能。此為機制訂正，B答案已定，不阻塞圖解。",
-        "修改前／原AI內容：原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
-        "目前處理：保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。"
-      ],
-      "before": "原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
-      "after": "保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。",
-      "createdAt": "2026-11-05T15:17:07.375307+00:00",
-      "answerCanBeDetermined": true,
-      "expectedAnswer": "B",
-      "primarySources": [
-        "https://ipmb.sinica.edu.tw/file/水稻葉片形態解剖學.pdf"
-      ],
-      "sourceMessageIndices": [
-        161
-      ],
-      "primaryEvidence": "中研院植物暨微生物學研究所《水稻葉片形態解剖學》第14頁，說明導管/假導管為厚細胞壁的死細胞，木質部亦含薄壁細胞。",
-      "verificationEvidence": "docs/imports/new-gpt-20261105-a/manifest.json"
-    },
-    {
-      "id": "correction-q-969-aff971d4d572",
-      "state": "pending",
-      "kind": "原AI轉錄用字差異",
-      "title": "生物第21題｜非洲大蝸牛的生態關係",
-      "questionId": "q-969",
-      "questionText": "某知名醬油企業第二代一家人生吃「非洲大蝸牛」，造成5人感染「廣東住血線蟲」死亡。非洲大蝸牛為廣東住血線蟲重要的中間寄主，多在潮溼環境活動。非洲大蝸牛常危害果樹、蔬菜等作物，造成嚴重的農業損失。下列敘述何者正確？\n(A) 非洲大蝸牛適合生活在森林生態系底層\n(B) 非洲大蝸牛與廣東住血線蟲為競爭關係\n(C) 人類與非洲大蝸牛的關係為寄生\n(D) 為控制非洲大蝸牛數量，可從國外引進別種蝸牛與其競爭",
-      "questionUrl": "/site/index.html#question/q-969",
-      "url": "/site/index.html#question/q-969",
-      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
-      "questions": [
-        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
-        "修改前／原AI內容：原AI訊息98把原卷「生吃」轉寫成「食吃」。",
-        "目前處理：依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。"
-      ],
-      "before": "原AI訊息98把原卷「生吃」轉寫成「食吃」。",
-      "after": "依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。",
-      "createdAt": "2026-11-05T15:17:07.417386+00:00"
-    },
-    {
-      "id": "correction-q-970-fb864baa14da",
-      "state": "pending",
-      "kind": "原AI轉錄用字差異",
-      "title": "生物第1題｜稻田養鴨與植物運輸",
-      "questionId": "q-970",
-      "questionText": "「鴨間稻」是一種先民傳承下來的智慧。農夫在稻田養鴨，讓鴨子幫忙照顧稻子。鴨子在水田中啄食害蟲及雜草，節省農夫養鴨和農藥的成本；鴨子的排泄物提供稻子部分養分，在水田中的活動增加水中溶氧量。這種農耕方式，使得稻穀粒粒飽滿，也讓一些久未見的青蛙、蜻蜓、蜥蜴等動物，又出現在田裡。根據上述，下列何者正確？\n(A) 鴨子協助稻田種植，生態上的角色為生產者\n(B) 鴨子排泄物中最主要的含氮廢物是尿素\n(C) 溶在水中的養分由維管束的木質部運輸\n(D) 田裡的水稻、鴨子、青蛙、蜻蜓等所有生物可稱為族群",
-      "questionUrl": "/site/index.html#question/q-970",
-      "url": "/site/index.html#question/q-970",
-      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
-      "questions": [
-        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
-        "修改前／原AI內容：原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
-        "目前處理：本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。"
-      ],
-      "before": "原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
-      "after": "本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。",
-      "createdAt": "2026-11-05T15:17:07.454466+00:00",
-      "questionFigures": [
-        {
-          "src": "assets/originals/src-more-058-rice-duck-photo-5058db041719.png",
-          "alt": "原卷稻田養鴨照片，鴨子活動於水稻間的水田。",
-          "caption": "稻鴨共生（原卷照片）"
-        }
-      ]
-    },
-    {
-      "id": "correction-q-972-1d974354949d",
-      "state": "pending",
-      "kind": "原AI轉錄用字差異",
-      "title": "生物第5題｜海洋生物的分類與繁殖",
-      "questionId": "q-972",
-      "questionText": "作答材料：\n科學閱讀題組｜綠蠵龜的生命之旅\n\n綠蠵龜（Chelonia mydas）是海洋中的爬蟲類動物，大部分時間都在海中生活。成熟的綠蠵龜平均2～9年，會從覓食海域洄游到產卵沙灘附近的海域進行交配。交配結束後，公綠蠵龜會返回覓食海域，雌綠蠵龜會游到沙灘上產卵。\n\n2020年9月，澎湖望安鄉綠蠵龜產卵棲息保護區的西安瀨灣仔沙灘上，出現了兩隻白子（白化症）綠蠵龜，但因身體虛弱而不幸死亡，將其製作成標本，作為海洋教育用。根據上文，試回答第5、6題：\n\n除了綠蠵龜，澎湖海域亦可見到鐘形微孔珊瑚、珍珠水母、光手滑面蟹、白鬚龍蝦及土魠魚等多種海洋生物。下列敘述何者錯誤？\n(A) 光手滑面蟹和白鬚龍蝦皆會定期更換外骨骼\n(B) 鐘形微孔珊瑚和珍珠水母皆為刺絲胞動物\n(C) 綠蠵龜和土魠魚皆屬於體外受精的卵生動物\n(D) 澎湖海域內的這些生物屬於同一個群集",
-      "questionUrl": "/site/index.html#question/q-972",
-      "url": "/site/index.html#question/q-972",
-      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
-      "questions": [
-        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
-        "修改前／原AI內容：原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
-        "目前處理：實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。"
-      ],
-      "before": "原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
-      "after": "實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。",
-      "createdAt": "2026-11-05T15:17:07.494566+00:00",
-      "questionFigures": [
-        {
-          "src": "assets/originals/src-more-058-turtle-photo-288d232903d2.png",
-          "alt": "原卷綠蠵龜照片，海龜在海中活動。",
-          "caption": "綠蠵龜（原卷照片）"
-        }
-      ]
-    },
-    {
-      "id": "correction-q-961-6f65effc693f",
-      "state": "pending",
-      "kind": "原AI錯誤判答",
-      "title": "數學第7題｜函數計算流程",
-      "questionId": "q-961",
-      "questionText": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9",
-      "questionUrl": "/site/index.html#question/q-961",
-      "url": "/site/index.html#question/q-961",
-      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
-      "questions": [
-        "原AI答案表與原卷平方範圍不符，因而漏列真正錯題。",
-        "修改前／原AI內容：原AI選擇題表將第7學生B列為正確B。",
-        "目前處理：原卷B是5（x－2²）－13，只平方2；依流程應平方整個x－2，展開5x²－20x＋7，正解C，學生B需訂正。"
-      ],
-      "before": "原AI選擇題表將第7學生B列為正確B。",
-      "after": "原卷B是5（x－2²）－13，只平方2；依流程應平方整個x－2，展開5x²－20x＋7，正解C，學生B需訂正。",
-      "createdAt": "2026-11-05T15:17:07.527769+00:00",
-      "questionFigures": [
-        {
-          "src": "assets/originals/src-more-059-page1-q7-flow-70198f2b51d3.png",
-          "alt": "輸入x→減2→平方→乘以5→減13→輸出y",
-          "caption": "原卷計算流程；運算順序另以文字完整保留。"
-        }
-      ],
-      "expectedAnswer": "C",
-      "evidence": [
-        "docs/imports/new-gpt-20261105-b/originals/page1-q7.png"
-      ],
-      "verificationEvidence": "docs/imports/new-gpt-20261105-b/manifest.json"
-    },
-    {
-      "id": "correction-q-974-077f4dc07062",
-      "state": "pending",
-      "kind": "原AI數據標示錯誤",
-      "title": "英文第22題｜家庭研究的閱讀填空",
-      "questionId": "q-974",
-      "questionText": "作答材料：\nWhat does the word family mean to you? An American study shows that people today ____21____. Over 99% of the people in the study agree that a husband, a wife and a child are a family. At the same time, over 90% agree that different combinations of the above are also a family.\n\nThe study finds that ____22____ is very important in the modern thinking on family. 81% think a man and a woman having a child without getting married are a family. But the percentage drops to 40% if the couple don't have one.\n\nFamily types are different in different countries and they change as the time goes by, but a man's family is his home. As the saying goes, “____23____,” remember that east, west, home is best.\n\n單字｜中文\ncombination｜組合\npercentage｜百分比\ncouple｜伴侶\nsaying｜諺語\n\n依上方第21～23題共同閱讀文章，選出第22格最適合的答案。\n(A) loving each other\n(B) being married\n(C) having a child\n(D) living together",
-      "questionUrl": "/site/index.html#question/q-974",
-      "url": "/site/index.html#question/q-974",
-      "sourceUrl": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
-      "questions": [
-        "兩比例相減的差距應以百分點表達。兩張生成圖錯標A為原AI封存文字的自述，本次未將該自述冒充實看圖片；正解由真正上傳原卷的閱讀文獨立核對。",
-        "修改前／原AI內容：原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
-        "目前處理：原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。"
-      ],
-      "before": "原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
-      "after": "原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。",
-      "createdAt": "2026-11-05T15:17:07.568980+00:00",
-      "expectedAnswer": "C",
-      "evidence": [
-        "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png",
-        "docs/imports/new-gpt-20261105-c/originals/english-22-options.png"
-      ],
-      "verificationEvidence": "docs/imports/new-gpt-20261105-c/manifest.json",
-      "sourceGeneratedImagesVisuallyInspected": false
-    },
-    {
-      "id": "source-gpt059-51fd9a9905da",
-      "state": "pending",
-      "reviewScope": "source",
-      "sourceKey": "gpt059",
-      "sourceId": "src-more-059",
-      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
-      "title": "GPT59原卷10｜AI誤改已正確題",
-      "kind": "來源AI誤改已正確題（不新增錯題）",
-      "questionText": "有一容量為9公升的水桶，內部已裝有1.5公升的水，已知有一水管每秒的流量為300毫升，若用此水管開始注水x秒後，水桶的容量剩下y公升，則x與y的關係式為何？\n(A) y＝0.3x＋1.5\n(B) y＝7.5－300x\n(C) y＝－0.3x＋9\n(D) y＝－0.3x＋7.5",
-      "questions": [
-        "將剩餘容量與已裝水量混淆，原題不得改寫成桶內水量。",
-        "修改前／原AI內容：原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
-        "目前處理：原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。"
-      ],
-      "before": "原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
-      "after": "原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。",
-      "createdAt": "2026-11-05T15:17:07.352166+00:00",
-      "url": "/#confirmation=source-gpt059-51fd9a9905da",
-      "questionId": null,
-      "questionFigures": [
-        {
-          "src": "assets/originals/src-more-059-review-page1-q10-7e991723742f.png",
-          "alt": "來源第10題原卷裁圖",
-          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
-        }
-      ],
-      "expectedAnswer": "D",
-      "answerCanBeDetermined": true,
-      "temporarySkip": true,
-      "notImportedAsMistake": true,
-      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json"
-    },
-    {
-      "id": "source-gpt059-cd188d1809ad",
-      "state": "pending",
-      "reviewScope": "source",
-      "sourceKey": "gpt059",
-      "sourceId": "src-more-059",
-      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
-      "title": "GPT59原卷5｜AI誤改已正確題",
-      "kind": "來源AI誤改已正確題（不新增錯題）",
-      "questionText": "若（－5，h）、（2，6）、（7，k）三點都在常數函數y＝a的圖形上，則h＋k之值為何？\n(A) 2\n(B) 6\n(C) 10\n(D) 12",
-      "questions": [
-        "原AI擅改函數類型造成錯誤訂正。",
-        "修改前／原AI內容：原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
-        "目前處理：原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。"
-      ],
-      "before": "原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
-      "after": "原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。",
-      "createdAt": "2026-11-05T15:17:07.352166+00:00",
-      "url": "/#confirmation=source-gpt059-cd188d1809ad",
-      "questionId": null,
-      "questionFigures": [
-        {
-          "src": "assets/originals/src-more-059-review-q5-detail-8aa4880ca7d0.png",
-          "alt": "來源第5題原卷裁圖",
-          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
-        }
-      ],
-      "expectedAnswer": "D",
-      "answerCanBeDetermined": true,
-      "temporarySkip": true,
-      "notImportedAsMistake": true,
-      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json"
-    },
-    {
-      "id": "source-gpt059-7e5d8585f78c",
-      "state": "pending",
-      "reviewScope": "source",
-      "sourceKey": "gpt059",
-      "sourceId": "src-more-059",
-      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
-      "title": "GPT59原卷非選2(1)｜AI誤改已正確題",
-      "kind": "來源AI誤改已正確題（不新增錯題）",
-      "questionText": "有甲、乙兩部機器在生產線上連在一起，若x表示原料重量，甲機器的半成品重量y＝(2/3)x＋6；y表示送進乙機器的半成品重量，而乙機器的產品重量為z＝(5/6)y＋10。試回答下列問題：\n(1) 若將180公斤的原料送進甲機器，則有幾公斤的半成品會進入乙機器？（2分）\n(2) 若最後想要由乙機器得到260公斤的成品，則須送多少原料進甲機器？（4分）",
-      "questions": [
-        "原AI錯認題目要求的生產階段。",
-        "修改前／原AI內容：原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
-        "目前處理：原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。"
-      ],
-      "before": "原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
-      "after": "原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。",
-      "createdAt": "2026-11-05T15:17:07.352166+00:00",
-      "url": "/#confirmation=source-gpt059-7e5d8585f78c",
-      "questionId": null,
-      "questionFigures": [
-        {
-          "src": "assets/originals/src-more-059-review-nonchoice2-detail-03299d10df1a.png",
-          "alt": "來源第非選2(1)題原卷裁圖",
-          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
-        }
-      ],
-      "expectedAnswer": "126公斤",
-      "answerCanBeDetermined": true,
-      "temporarySkip": true,
-      "notImportedAsMistake": true,
-      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json"
     }
   ],
   "resolved": [
@@ -5867,6 +5468,640 @@
         "docs/acquisition/new-gpt-20261105-a.json",
         "docs/acquisition/new-gpt-20261105-b.json"
       ]
+    },
+    {
+      "id": "q-951",
+      "title": "國文第2題｜詞語中的多音字",
+      "kind": "題目核對",
+      "questions": [
+        "原卷預期A；B的兩個「劃」亦可按擦掠讀ㄏㄨㄚˊ，目前保留單選設計疑義、不指定唯一答案。請核對此處理是否可以保留。"
+      ],
+      "url": "/site/index.html#question/q-951",
+      "questionUrl": "/site/index.html#question/q-951",
+      "questionText": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "questionSnapshot": "62e644a147820f4f007d97329de31f886e6e6c534fcd679c05c61f78f7ee559f",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "confirmationToken": "65cbfd2822fff332a0d10a026d1a382436fc4e966989ba9f5624771eb9191f72",
+      "userComments": [
+        {
+          "text": "國中題目，不用特別解釋疑義。",
+          "submittedAt": "2026-11-05T15:37:52.472763+00:00",
+          "state": "addressed",
+          "basedOnPreviousVersion": false
+        }
+      ],
+      "feedbackPending": true,
+      "state": "resolved",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:37:59.402074+00:00"
+    },
+    {
+      "id": "correction-q-946-8b90420fcbf4",
+      "state": "resolved",
+      "kind": "原AI答案標頭矛盾",
+      "title": "公民第8題｜遊樂園門票促銷",
+      "questionId": "q-946",
+      "questionText": "新聞報導：「暑假即將登場，四大遊樂園紛紛推出優惠方案，門票主打平價、物超所值。」根據上述內容，門票採取「物超所值」策略，最主要是想達到何種目的？\n(A) 降低利潤\n(B) 提高生產成本\n(C) 增加銷貨收入\n(D) 提高商品價格",
+      "questionUrl": "/site/index.html#question/q-946",
+      "url": "/site/index.html#question/q-946",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "答案徽章不能與正文矛盾；原題問促銷目的，降低利潤不是廠商主要目的。",
+        "修改前／原AI內容：原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
+        "目前處理：統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。"
+      ],
+      "before": "原AI首個回覆標頭寫「正確答案：A 降低利潤」，同一則正文卻說正確應為C，後續逐項解析及結論也為C。",
+      "after": "統一為C「增加銷貨收入」；說明廠商希望優惠吸引遊客增加售票收入，降價並不保證總收入或利潤必然上升。",
+      "createdAt": "2026-11-04T15:32:08.936345+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "C",
+      "sourceMessageIndices": [
+        2,
+        6
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json",
+      "confirmationToken": "b87b4017467c019c0a1ed61d3b8870c0ee0bf90f97dcf68a7ec951d38f11e633",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:38:11.529130+00:00"
+    },
+    {
+      "id": "correction-q-947-12cbbb4ff080",
+      "state": "resolved",
+      "kind": "原AI初答誤音（來源後續已更正）",
+      "title": "國文第4題｜看國字寫注音",
+      "questionId": "q-947",
+      "questionText": "「摻」揉：（　）",
+      "questionUrl": "/site/index.html#question/q-947",
+      "url": "/site/index.html#question/q-947",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "不能把古義持握的ㄕㄢˇ音套在混合、揉合義。紅筆完整讀音未能確定辨識，不猜教師改音。",
+        "修改前／原AI內容：原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
+        "目前處理：「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。"
+      ],
+      "before": "原AI訊息21把「摻揉」讀為ㄕㄢˇ ㄖㄡˊ，並教成摻揉與摻雜必須分讀；該表另列ㄘㄢ、摻手，未有本題依據。",
+      "after": "「摻」表示混合、雜入讀ㄔㄢ；本題填ㄔㄢ，整詞ㄔㄢ ㄖㄡˊ。來源使用者訊息22要求再查，原AI訊息31已承認初答錯誤而更正；本站獨立依MOE簡編摻詞條核定，不沿用初答。",
+      "createdAt": "2026-11-04T15:32:08.977657+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "ㄔㄢ",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31909&la=0&powerMode=0"
+      ],
+      "sourceMessageIndices": [
+        21,
+        22,
+        31
+      ],
+      "sourceAlreadyCorrected": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json",
+      "confirmationToken": "34f1a09fe719d9db0a356ef1bd59f53881622c7fd8c11fb57a4f62980fcaf1a6",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:38:20.991745+00:00"
+    },
+    {
+      "id": "correction-q-951-e34aa061df23",
+      "state": "resolved",
+      "kind": "單選設計疑義",
+      "title": "國文第2題｜詞語中的多音字",
+      "questionId": "q-951",
+      "questionText": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+      "questionUrl": "/site/index.html#question/q-951",
+      "url": "/site/index.html#question/q-951",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "MOE簡編劃的ㄏㄨㄚˊ包含擦掠及往表面拖拉留下痕跡；題句不足以強制第二劃改讀區分義ㄏㄨㄚˋ。A兩衝均ㄔㄨㄥ確定，疑點是唯一性而非原題缺漏。",
+        "修改前／原AI內容：原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+        "目前處理：保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。"
+      ],
+      "before": "原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+      "after": "保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。",
+      "createdAt": "2026-11-04T15:32:09.014485+00:00",
+      "answerCanBeDetermined": false,
+      "expectedAnswer": "原卷預期A；不指定唯一正解",
+      "primarySources": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161&la=0&powerMode=1",
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33051&la=0&powerMode=0"
+      ],
+      "sourceMessageIndices": [
+        64,
+        83
+      ],
+      "sourceAlreadyIdentifiesAmbiguity": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json",
+      "confirmationToken": "695249202214267f6ee65aacf1febb0be8a39782bfb14337a8d4508a11074717",
+      "userComments": [
+        {
+          "text": "不用特別解釋疑義",
+          "submittedAt": "2026-11-05T15:38:49.068984+00:00",
+          "state": "addressed",
+          "basedOnPreviousVersion": false
+        }
+      ],
+      "feedbackPending": true,
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:38:52.236711+00:00"
+    },
+    {
+      "id": "correction-q-956-568704aa01ed",
+      "state": "resolved",
+      "kind": "原AI原作答誤讀",
+      "title": "國文題組｜〈採珠行〉閱讀（第1、2題）",
+      "questionId": "q-956",
+      "questionText": "作答材料：\n（甲）採珠行　元稹\n\n海波無底珠沉海，採珠之人判死採。\n萬人判死一得珠，斛量買婢人何在。\n年年採珠珠避人，今年採珠由海神。\n海神採珠珠盡死，死盡明珠空海水。\n珠為海物海屬神，神今自採何況人。\n\n注：①採珠：到水裡採取珍珠。②判死：付出生命作為代價。\n\n有關本詩的主旨，下列敘述何者正確？\n(A) 譴責人們與神明爭採珍珠\n(B) 呼籲重視海洋生態的平衡\n(C) 呼籲從事捕獵應重視安全\n(D) 撻伐買婢的行為忽視人權\n\n從詩意推斷，「斛量買婢」指的是下列何現象？\n(A) 海邊萬人空巷，珍珠被一斛一斛採走\n(B) 大家都跑去採珍珠，導致無人買賣婢女\n(C) 富人揮霍珍珠後，只好賣掉婢女來償債\n(D) 珍珠被採盡之前，富人揮霍珍珠的情景",
+      "questionUrl": "/site/index.html#question/q-956",
+      "url": "/site/index.html#question/q-956",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "原AI將學生原選項誤讀，會造成錯題紀錄不準；不是答案未定。",
+        "修改前／原AI內容：原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
+        "目前處理：原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。"
+      ],
+      "before": "原AI訊息128/132稱第1題藍筆選B且已與詩意一致。",
+      "after": "原卷放大可見藍筆A、紅筆訂正B，原作答記錄A→B；題幹、四選項與答案B不改。",
+      "createdAt": "2026-11-04T15:38:56.271013+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "evidence": [
+        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-q1.png",
+        "docs/imports/new-gpt-20261104-c/lane3/originals/pearl-poem.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json",
+      "confirmationToken": "b8b5268eaae9453a8f88c060ec73b85dc16b5fa75734b9dcc947407ba53c0bb1",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:39:03.090473+00:00"
+    },
+    {
+      "id": "correction-q-958-51f1f63cbbc1",
+      "state": "resolved",
+      "kind": "文言多義詞釐清",
+      "title": "國文第7題｜座頭鯨舉動與名句",
+      "questionId": "q-958",
+      "questionText": "作答材料：\n（丙）解析魚類的情感　網路文章\n\n海洋生物也有情感嗎？在動畫電影海底總動員中，海洋生物角色們各個活靈活現，充滿獨特個性，不僅能夠彼此交流，還能夠表達出和人類一樣的各種喜怒哀樂。根據一些科學研究以及生態觀察顯示，這些情感反應可能並非只存在人類的幻想裡頭，海洋生物不僅會有近似於害羞或焦慮的表現，甚至有可能具有像人類一般的同理心！\n\n澳洲的行為生態學教授布朗在魚類生物學期刊中發表了一篇研究，其研究對象是十七隻來自澳洲東岸的澳洲虎鯊，布朗教授指出，不同的鯊魚即便遇到了相同的情境，仍會表現出不同的反應，顯示出鯊魚的性格存在著個體之間的差異——有些鯊魚遇到陌生環境中的障礙物時，只需短短二秒便能突破，有些卻必須花上長達二十分鐘，表現得比同類更加小心翼翼；而每隻鯊魚從突然離水到重新回到水中並平復下來所花費的時間也大不相同，說明了他們對於環境焦慮的抗壓性存在著差異。\n\n除了鯊魚以外，另外一份關於座頭鯨的觀察報告則指出，座頭鯨會為了拯救其他非自己族類的動物和掠食者搏鬥。2008年時，海洋生物學者彼得曼及其研究團隊記錄下了二隻座頭鯨不斷拍動魚鰭並發出叫聲，只為了幫助海豹脫離殺人鯨捕食的影片，一週後，研究團隊又再度發現，類似的救援行動來自於完全不同的座頭鯨身上，這一次，他們除了奮力趕跑殺人鯨外，甚至還將跌下浮冰的海豹「抱」在自己的肚子上，帶往安全的地方。這些被拯救的生物當中，有高達90%都是非座頭鯨：海獅、海豹、翻車魚以及灰鯨等都包含在內。\n\n目前，座頭鯨出現「利他行為」的原因還有待進一步研究，但彼得曼在文章中寫道：「人類保護其他動物，我們稱之為同理心，如果今天是發生在座頭鯨身上，我們會稱之為天性，但有時候，這兩者之間的界線是模糊的。」\n\n文中座頭鯨的舉動，下列哪項人類的精神最接近？\n(A) 己所不欲，勿施於人\n(B) 博施於民，而能濟眾\n(C) 願無伐善，無施勞\n(D) 以直報怨，以德報德",
+      "questionUrl": "/site/index.html#question/q-958",
+      "url": "/site/index.html#question/q-958",
+      "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+      "questions": [
+        "避免將多義詞固定為唯一解；兩義均不如B直接對應廣泛主動救助，原題答案可核。",
+        "修改前／原AI內容：原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
+        "目前處理：教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。"
+      ],
+      "before": "原AI將C無施勞只釋不表彰功勞，並概括全句僅為謙虛不居功。",
+      "after": "教育部施勞第一義直接引本句，為不將勞事推給他人；第二義另有張揚功勞。解說並列釐清，不把原AI所取第二義判作完全無此義，也不因此改B答案。",
+      "createdAt": "2026-11-04T15:38:56.328225+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "primarySources": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=127169&la=0&powerMode=0",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33238&la=0&powerMode=0"
+      ],
+      "evidence": [
+        "docs/imports/new-gpt-20261104-c/lane3/originals/whale-q7.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261104-c/lane3/manifest.json",
+      "confirmationToken": "56fb4218bf5beda3e024fc210ace8745ee969ee4dc0c24dca2c95d8f53785bc3",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:38:27.423249+00:00"
+    },
+    {
+      "id": "correction-q-970-fb864baa14da",
+      "state": "resolved",
+      "kind": "原AI轉錄用字差異",
+      "title": "生物第1題｜稻田養鴨與植物運輸",
+      "questionId": "q-970",
+      "questionText": "「鴨間稻」是一種先民傳承下來的智慧。農夫在稻田養鴨，讓鴨子幫忙照顧稻子。鴨子在水田中啄食害蟲及雜草，節省農夫養鴨和農藥的成本；鴨子的排泄物提供稻子部分養分，在水田中的活動增加水中溶氧量。這種農耕方式，使得稻穀粒粒飽滿，也讓一些久未見的青蛙、蜻蜓、蜥蜴等動物，又出現在田裡。根據上述，下列何者正確？\n(A) 鴨子協助稻田種植，生態上的角色為生產者\n(B) 鴨子排泄物中最主要的含氮廢物是尿素\n(C) 溶在水中的養分由維管束的木質部運輸\n(D) 田裡的水稻、鴨子、青蛙、蜻蜓等所有生物可稱為族群",
+      "questionUrl": "/site/index.html#question/q-970",
+      "url": "/site/index.html#question/q-970",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
+        "修改前／原AI內容：原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
+        "目前處理：本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。"
+      ],
+      "before": "原AI訊息125的原題摘要以「蚯蚓」代替原卷「蜥蜴」。",
+      "after": "本站完整原題保留原卷「青蛙、蜻蜓、蜥蜴」；不採AI摘要替代原題。C答案不變。",
+      "createdAt": "2026-11-05T15:17:07.454466+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-058-rice-duck-photo-5058db041719.png",
+          "alt": "原卷稻田養鴨照片，鴨子活動於水稻間的水田。",
+          "caption": "稻鴨共生（原卷照片）"
+        }
+      ],
+      "confirmationToken": "7d09e4cbd18bd72f88025618e3eb6541cc53e5ee31f3bb2414e22c1aead12b31",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:39:28.805328+00:00"
+    },
+    {
+      "id": "correction-q-972-1d974354949d",
+      "state": "resolved",
+      "kind": "原AI轉錄用字差異",
+      "title": "生物第5題｜海洋生物的分類與繁殖",
+      "questionId": "q-972",
+      "questionText": "作答材料：\n科學閱讀題組｜綠蠵龜的生命之旅\n\n綠蠵龜（Chelonia mydas）是海洋中的爬蟲類動物，大部分時間都在海中生活。成熟的綠蠵龜平均2～9年，會從覓食海域洄游到產卵沙灘附近的海域進行交配。交配結束後，公綠蠵龜會返回覓食海域，雌綠蠵龜會游到沙灘上產卵。\n\n2020年9月，澎湖望安鄉綠蠵龜產卵棲息保護區的西安瀨灣仔沙灘上，出現了兩隻白子（白化症）綠蠵龜，但因身體虛弱而不幸死亡，將其製作成標本，作為海洋教育用。根據上文，試回答第5、6題：\n\n除了綠蠵龜，澎湖海域亦可見到鐘形微孔珊瑚、珍珠水母、光手滑面蟹、白鬚龍蝦及土魠魚等多種海洋生物。下列敘述何者錯誤？\n(A) 光手滑面蟹和白鬚龍蝦皆會定期更換外骨骼\n(B) 鐘形微孔珊瑚和珍珠水母皆為刺絲胞動物\n(C) 綠蠵龜和土魠魚皆屬於體外受精的卵生動物\n(D) 澎湖海域內的這些生物屬於同一個群集",
+      "questionUrl": "/site/index.html#question/q-972",
+      "url": "/site/index.html#question/q-972",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
+        "修改前／原AI內容：原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
+        "目前處理：實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。"
+      ],
+      "before": "原AI訊息197把共同文章地名寫成「西安濱灣仔沙灘」。",
+      "after": "實際放大真原圖核讀為「西安瀨灣仔沙灘」，完整共文依原卷，C答案不變。",
+      "createdAt": "2026-11-05T15:17:07.494566+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-058-turtle-photo-288d232903d2.png",
+          "alt": "原卷綠蠵龜照片，海龜在海中活動。",
+          "caption": "綠蠵龜（原卷照片）"
+        }
+      ],
+      "confirmationToken": "25475d5470d27964924e76ac6b4f601f2f5c2b9e94209a1ae3f23506252aa8e0",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:39:33.541606+00:00"
+    },
+    {
+      "id": "correction-q-971-8e66b1b5d7bb",
+      "state": "resolved",
+      "kind": "原AI輸導組織機制誤述",
+      "title": "生物第3題｜牛樟樹與牛樟芝",
+      "questionId": "q-971",
+      "questionText": "臺東利嘉林道有1棵千年牛樟樹，多年前遭山老鼠「開膛剖肚」盜採「牛樟芝」。牛樟芝是臺灣特有的一種藥用真菌，只生長於牛樟樹腐朽中空的樹幹內。山老鼠為盜採樹幹內的牛樟芝，竟在樹幹挖出1人可進出的貫穿大洞，令人怵目驚心，所幸至今仍挺立在山林裡，是保育山林的活教材。下列敘述何者正確？\n(A) 牛樟樹仍存活，是因為韌皮部兼具養分與水分的運輸\n(B) 有運輸功能的維管束分布於樹幹表層，故牛樟樹仍可存活\n(C) 牛樟芝屬於單細胞真菌，缺乏菌絲\n(D) 具藥用功能的牛樟芝在生態上屬於生產者",
+      "questionUrl": "/site/index.html#question/q-971",
+      "url": "/site/index.html#question/q-971",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "輸水功能不等於細胞仍活著；原AI混同活組織與仍具輸導功能。此為機制訂正，B答案已定，不阻塞圖解。",
+        "修改前／原AI內容：原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
+        "目前處理：保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。"
+      ],
+      "before": "原AI訊息161開頭：只要外圍仍保有足夠、能正常運作的「木質部、韌皮部等活組織」，樹木仍可能存活。這把木質部也概括說成活組織。",
+      "after": "保留B及原題「樹幹表層」措辭。解說改成外圍仍有正常輸導系統：木質部邊材輸水與無機養分、韌皮部輸有機養分；木質部主要輸水的成熟導管/假導管為死細胞，另含活薄壁細胞，不能將木質部概括為全活或全死。",
+      "createdAt": "2026-11-05T15:17:07.375307+00:00",
+      "answerCanBeDetermined": true,
+      "expectedAnswer": "B",
+      "primarySources": [
+        "https://ipmb.sinica.edu.tw/file/水稻葉片形態解剖學.pdf"
+      ],
+      "sourceMessageIndices": [
+        161
+      ],
+      "primaryEvidence": "中研院植物暨微生物學研究所《水稻葉片形態解剖學》第14頁，說明導管/假導管為厚細胞壁的死細胞，木質部亦含薄壁細胞。",
+      "verificationEvidence": "docs/imports/new-gpt-20261105-a/manifest.json",
+      "confirmationToken": "c140558ac424605c099180b6fb0f4d242ddc1deda5f49c754483279e7719c0bc",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:22.944398+00:00"
+    },
+    {
+      "id": "correction-q-961-6f65effc693f",
+      "state": "resolved",
+      "kind": "原AI錯誤判答",
+      "title": "數學第7題｜函數計算流程",
+      "questionId": "q-961",
+      "questionText": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9",
+      "questionUrl": "/site/index.html#question/q-961",
+      "url": "/site/index.html#question/q-961",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "questions": [
+        "原AI答案表與原卷平方範圍不符，因而漏列真正錯題。",
+        "修改前／原AI內容：原AI選擇題表將第7學生B列為正確B。",
+        "目前處理：原卷B是5（x－2²）－13，只平方2；依流程應平方整個x－2，展開5x²－20x＋7，正解C，學生B需訂正。"
+      ],
+      "before": "原AI選擇題表將第7學生B列為正確B。",
+      "after": "原卷B是5（x－2²）－13，只平方2；依流程應平方整個x－2，展開5x²－20x＋7，正解C，學生B需訂正。",
+      "createdAt": "2026-11-05T15:17:07.527769+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-page1-q7-flow-70198f2b51d3.png",
+          "alt": "輸入x→減2→平方→乘以5→減13→輸出y",
+          "caption": "原卷計算流程；運算順序另以文字完整保留。"
+        }
+      ],
+      "expectedAnswer": "C",
+      "evidence": [
+        "docs/imports/new-gpt-20261105-b/originals/page1-q7.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/manifest.json",
+      "confirmationToken": "6db4fe40bd62396b3a803b92407d26193d98bcec8a93a7d2f410bf7d878e1014",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:31.152295+00:00"
+    },
+    {
+      "id": "correction-q-969-aff971d4d572",
+      "state": "resolved",
+      "kind": "原AI轉錄用字差異",
+      "title": "生物第21題｜非洲大蝸牛的生態關係",
+      "questionId": "q-969",
+      "questionText": "某知名醬油企業第二代一家人生吃「非洲大蝸牛」，造成5人感染「廣東住血線蟲」死亡。非洲大蝸牛為廣東住血線蟲重要的中間寄主，多在潮溼環境活動。非洲大蝸牛常危害果樹、蔬菜等作物，造成嚴重的農業損失。下列敘述何者正確？\n(A) 非洲大蝸牛適合生活在森林生態系底層\n(B) 非洲大蝸牛與廣東住血線蟲為競爭關係\n(C) 人類與非洲大蝸牛的關係為寄生\n(D) 為控制非洲大蝸牛數量，可從國外引進別種蝸牛與其競爭",
+      "questionUrl": "/site/index.html#question/q-969",
+      "url": "/site/index.html#question/q-969",
+      "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+      "questions": [
+        "原AI轉錄與真正原卷用字不符；本站已按原圖保留完整原文，答案不變。",
+        "修改前／原AI內容：原AI訊息98把原卷「生吃」轉寫成「食吃」。",
+        "目前處理：依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。"
+      ],
+      "before": "原AI訊息98把原卷「生吃」轉寫成「食吃」。",
+      "after": "依真原卷保留「生吃」；為純轉錄校正，不更改原題條件或答案。",
+      "createdAt": "2026-11-05T15:17:07.417386+00:00",
+      "confirmationToken": "edf470f5371f57e512532ca2b2d7955376959745da8688321369ad2f33d54951",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:32.745981+00:00"
+    },
+    {
+      "id": "correction-q-974-077f4dc07062",
+      "state": "resolved",
+      "kind": "原AI數據標示錯誤",
+      "title": "英文第22題｜家庭研究的閱讀填空",
+      "questionId": "q-974",
+      "questionText": "作答材料：\nWhat does the word family mean to you? An American study shows that people today ____21____. Over 99% of the people in the study agree that a husband, a wife and a child are a family. At the same time, over 90% agree that different combinations of the above are also a family.\n\nThe study finds that ____22____ is very important in the modern thinking on family. 81% think a man and a woman having a child without getting married are a family. But the percentage drops to 40% if the couple don't have one.\n\nFamily types are different in different countries and they change as the time goes by, but a man's family is his home. As the saying goes, “____23____,” remember that east, west, home is best.\n\n單字｜中文\ncombination｜組合\npercentage｜百分比\ncouple｜伴侶\nsaying｜諺語\n\n依上方第21～23題共同閱讀文章，選出第22格最適合的答案。\n(A) loving each other\n(B) being married\n(C) having a child\n(D) living together",
+      "questionUrl": "/site/index.html#question/q-974",
+      "url": "/site/index.html#question/q-974",
+      "sourceUrl": "https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a",
+      "questions": [
+        "兩比例相減的差距應以百分點表達。兩張生成圖錯標A為原AI封存文字的自述，本次未將該自述冒充實看圖片；正解由真正上傳原卷的閱讀文獨立核對。",
+        "修改前／原AI內容：原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
+        "目前處理：原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。"
+      ],
+      "before": "原AI第22題圖表將81%與40%的差距大字標為41%，旁文卻寫41個百分點；末段另自述兩張AI生成圖把A誤標為正解。",
+      "after": "原文81%與40%照留，差距明確寫41個百分點，答案依原文對比確定C。重新製作圖解，不採來源AI解說圖。",
+      "createdAt": "2026-11-05T15:17:07.568980+00:00",
+      "expectedAnswer": "C",
+      "evidence": [
+        "docs/imports/new-gpt-20261105-c/originals/english-22-reading.png",
+        "docs/imports/new-gpt-20261105-c/originals/english-22-options.png"
+      ],
+      "verificationEvidence": "docs/imports/new-gpt-20261105-c/manifest.json",
+      "sourceGeneratedImagesVisuallyInspected": false,
+      "confirmationToken": "5552205f7401e01eaeefa60a04b5a8a9e1c29d4d2bf581f9d45769a902bf09ed",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:40.064539+00:00"
+    },
+    {
+      "id": "source-gpt059-51fd9a9905da",
+      "state": "resolved",
+      "reviewScope": "source",
+      "sourceKey": "gpt059",
+      "sourceId": "src-more-059",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "title": "GPT59原卷10｜AI誤改已正確題",
+      "kind": "來源AI誤改已正確題（不新增錯題）",
+      "questionText": "有一容量為9公升的水桶，內部已裝有1.5公升的水，已知有一水管每秒的流量為300毫升，若用此水管開始注水x秒後，水桶的容量剩下y公升，則x與y的關係式為何？\n(A) y＝0.3x＋1.5\n(B) y＝7.5－300x\n(C) y＝－0.3x＋9\n(D) y＝－0.3x＋7.5",
+      "questions": [
+        "將剩餘容量與已裝水量混淆，原題不得改寫成桶內水量。",
+        "修改前／原AI內容：原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
+        "目前處理：原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。"
+      ],
+      "before": "原AI稱第10正解A，將學生D判錯，解讀y為桶內水量。",
+      "after": "原卷問水桶容量剩下y公升，剩餘容量7.5－0.3x，正解D；學生D原本正確。",
+      "createdAt": "2026-11-05T15:17:07.352166+00:00",
+      "url": "/#confirmation=source-gpt059-51fd9a9905da",
+      "questionId": null,
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-review-page1-q10-7e991723742f.png",
+          "alt": "來源第10題原卷裁圖",
+          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
+        }
+      ],
+      "expectedAnswer": "D",
+      "answerCanBeDetermined": true,
+      "temporarySkip": true,
+      "notImportedAsMistake": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json",
+      "confirmationToken": "d4b53e1d68a3a533e9bb947cbcf4a1f56f242ba2940f08652fbf8b000596d21e",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:48.355733+00:00"
+    },
+    {
+      "id": "source-gpt059-cd188d1809ad",
+      "state": "resolved",
+      "reviewScope": "source",
+      "sourceKey": "gpt059",
+      "sourceId": "src-more-059",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "title": "GPT59原卷5｜AI誤改已正確題",
+      "kind": "來源AI誤改已正確題（不新增錯題）",
+      "questionText": "若（－5，h）、（2，6）、（7，k）三點都在常數函數y＝a的圖形上，則h＋k之值為何？\n(A) 2\n(B) 6\n(C) 10\n(D) 12",
+      "questions": [
+        "原AI擅改函數類型造成錯誤訂正。",
+        "修改前／原AI內容：原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
+        "目前處理：原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。"
+      ],
+      "before": "原AI把常數函數y=a誤讀成y=ax，算出h+k=6而改B，判學生D錯。",
+      "after": "原卷常數函數y=a通過（2，6），故a=h=k=6，h+k=12選D；學生D原本正確，不新增為學生錯題。",
+      "createdAt": "2026-11-05T15:17:07.352166+00:00",
+      "url": "/#confirmation=source-gpt059-cd188d1809ad",
+      "questionId": null,
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-review-q5-detail-8aa4880ca7d0.png",
+          "alt": "來源第5題原卷裁圖",
+          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
+        }
+      ],
+      "expectedAnswer": "D",
+      "answerCanBeDetermined": true,
+      "temporarySkip": true,
+      "notImportedAsMistake": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json",
+      "confirmationToken": "c3096a0993461a290d711f33ba71c1b33f665fae8d43747a030221e3e7b22665",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:51.478409+00:00"
+    },
+    {
+      "id": "source-gpt059-7e5d8585f78c",
+      "state": "resolved",
+      "reviewScope": "source",
+      "sourceKey": "gpt059",
+      "sourceId": "src-more-059",
+      "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+      "title": "GPT59原卷非選2(1)｜AI誤改已正確題",
+      "kind": "來源AI誤改已正確題（不新增錯題）",
+      "questionText": "有甲、乙兩部機器在生產線上連在一起，若x表示原料重量，甲機器的半成品重量y＝(2/3)x＋6；y表示送進乙機器的半成品重量，而乙機器的產品重量為z＝(5/6)y＋10。試回答下列問題：\n(1) 若將180公斤的原料送進甲機器，則有幾公斤的半成品會進入乙機器？（2分）\n(2) 若最後想要由乙機器得到260公斤的成品，則須送多少原料進甲機器？（4分）",
+      "questions": [
+        "原AI錯認題目要求的生產階段。",
+        "修改前／原AI內容：原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
+        "目前處理：原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。"
+      ],
+      "before": "原AI稱126只是半成品而不是乙產出，將本小題改115，判學生126錯。",
+      "after": "原問正是送入乙機器的半成品；y＝(2/3)×180＋6＝126公斤，學生原答正確。115是乙後續產品z，非第(1)小題所問。第(2)小題原答441亦正確。",
+      "createdAt": "2026-11-05T15:17:07.352166+00:00",
+      "url": "/#confirmation=source-gpt059-7e5d8585f78c",
+      "questionId": null,
+      "questionFigures": [
+        {
+          "src": "assets/originals/src-more-059-review-nonchoice2-detail-03299d10df1a.png",
+          "alt": "來源第非選2(1)題原卷裁圖",
+          "caption": "原本作答正確，僅列來源AI誤改的查核證據，未收入一般錯題。"
+        }
+      ],
+      "expectedAnswer": "126公斤",
+      "answerCanBeDetermined": true,
+      "temporarySkip": true,
+      "notImportedAsMistake": true,
+      "verificationEvidence": "docs/imports/new-gpt-20261105-b/source-audit-reviews.json",
+      "confirmationToken": "f153496f2e0b1bdb3703e21de860316648078527addd95223f4ec6f1bfe5d37d",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-05T15:43:57.236112+00:00"
+    },
+    {
+      "id": "correction-q-976-471f3c839076",
+      "state": "resolved",
+      "kind": "題目訂正確認",
+      "title": "生物第13題｜出生遷入、死亡遷出與族群數量",
+      "questionId": "q-976",
+      "questionText": "右圖為某生物族群在50年內數量變化圖，若比較甲、乙、丙三個時間點，下列敘述何者正確？（實線表示出生＋遷入，虛線表示死亡＋遷出）\n(A) 族群數量：丙＞乙＞甲\n(B) 族群數量：乙＞丙＞甲\n(C) 乙時期，族群達到負荷量\n(D) 丙時期，族群達到負荷量",
+      "questionUrl": "/site/index.html#question/q-976",
+      "url": "/site/index.html#question/q-976",
+      "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+      "questions": [
+        "來源AI教學漫畫誤標D；原圖丙後仍死亡＋遷出較多，不能認定族群總數穩定。最終文字B須保留面積估讀而非精算證明的限制。",
+        "修改前／原AI內容：來源AI漫畫標D；A/B解析誤把甲的增減來源線當族群總數最多，右下畫甲多→乙下降→丙穩定達負荷量，將丙兩線水平誤作兩者相等。封存最終文字雖已改B，但明言B的丙＞甲只可依示意面積估讀。",
+        "目前處理：排除來源AI圖，依原卷預期保留B；明示乙最多可確定，丙＞甲依示意面積估讀，無刻度不補數值；乙相交與丙兩線水平皆不足證明達負荷量。"
+      ],
+      "before": "來源AI漫畫標D；A/B解析誤把甲的增減來源線當族群總數最多，右下畫甲多→乙下降→丙穩定達負荷量，將丙兩線水平誤作兩者相等。封存最終文字雖已改B，但明言B的丙＞甲只可依示意面積估讀。",
+      "after": "排除來源AI圖，依原卷預期保留B；明示乙最多可確定，丙＞甲依示意面積估讀，無刻度不補數值；乙相交與丙兩線水平皆不足證明達負荷量。",
+      "createdAt": "2026-11-06T14:40:25.143941+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-976-biology13-figure-ed1967087ae0.jpg",
+          "alt": "原卷50年內出生＋遷入（實線）與死亡＋遷出（虛線）圖，甲乙丙三時點，乙相交，丙後兩線水平但虛線較高。",
+          "caption": "原題附圖裁切，保留原圖數量／時間軸、兩線圖例與甲乙丙；不是族群總數曲線。"
+        }
+      ],
+      "confirmationToken": "2ff4b7d9bbd4bb654ac9511967a61153c6149d285764e0cd861801653ef267ab",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-06T14:42:08.339913+00:00"
+    },
+    {
+      "id": "correction-q-977-182d79b670fb",
+      "state": "resolved",
+      "kind": "題目訂正確認",
+      "title": "生物第29題｜海洋分區的分類條件",
+      "questionId": "q-977",
+      "questionText": "作答材料：\n右圖為一海洋分區部分示意圖。試回答第28～30題：\n\n若將甲～丁以不同條件分類，下列敘述何者正確？\n(A) 依是否透光，可分為甲、乙、丁一類，丙一類\n(B) 依是否距離岸邊200公尺，可分為甲、丙一類，乙、丁一類\n(C) 依主要生產者是否為大型藻類，可分為甲、乙、丁一類，丙一類\n(D) 依是否具有綠色藻類，可分為甲、乙、丙一類，丁一類",
+      "questionUrl": "/site/index.html#question/q-977",
+      "url": "/site/index.html#question/q-977",
+      "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+      "questions": [
+        "A按透光條件分組本來就完整正確；C把有光或有藻與主要生產者是大型藻類混淆，尤其甲在外海表層，重要生產者是浮游植物。原圖僅以200公尺表示水深，不能作離岸距離。",
+        "修改前／原AI內容：第一張來源AI漫畫底部明標正確答案C。A解析把原本完整的甲乙丁一類、丙一類說成選項分組與敘述不完整而排除；C解析與右側圖把甲乙丁一起視為以大型藻類為主要生產者。",
+        "目前處理：完整原卷與獨立核對答案A；甲外海表層重要生產者為浮游植物。原對話文字A本身正確，後續重製漫畫另列待實看，不把文字記錄冒充已看過原AI圖。"
+      ],
+      "before": "第一張來源AI漫畫底部明標正確答案C。A解析把原本完整的甲乙丁一類、丙一類說成選項分組與敘述不完整而排除；C解析與右側圖把甲乙丁一起視為以大型藻類為主要生產者。",
+      "after": "完整原卷與獨立核對答案A；甲外海表層重要生產者為浮游植物。原對話文字A本身正確，後續重製漫畫另列待實看，不把文字記錄冒充已看過原AI圖。",
+      "createdAt": "2026-11-06T14:40:25.195399+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-977-ocean-original.png",
+          "alt": "原卷海洋剖面圖：甲外海表層、乙大陸棚淺海、丙外海深層、丁潮間帶；縱軸深度單位公尺，保留0、200、500、1000、1500、4000及漲退潮位置。",
+          "caption": "本題共同作答附圖，依真正上傳原卷裁切；非來源AI重製圖。"
+        }
+      ],
+      "confirmationToken": "2b7eec7b76cf35b5d90f897478e1dac915105c345de89644b5e6b534309adc6c",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-06T14:42:15.009143+00:00"
+    },
+    {
+      "id": "correction-q-978-a14525b5a4ee",
+      "state": "resolved",
+      "kind": "題目訂正確認",
+      "title": "地理第1題｜撒哈拉地區與盆地等高線",
+      "questionId": "q-978",
+      "questionText": "原圖已標示的高度（依外側至內側排列，單位：公尺）\n選項｜原印標高\nA｜20m、20（兩處同高）\nB｜1200m → 1800 → 2400\nC｜2500m → 1500 → 500\nD｜100m → 300 → 500\n\n小宣利用 Google Earth 搜尋如右方的衛星影像圖，根據圖中資訊判斷，甲地區的主要地形與下列何者最相符？\n\n(A) 圖（A）\n(B) 圖（B）\n(C) 圖（C）\n(D) 圖（D）",
+      "questionUrl": "/site/index.html#question/q-978",
+      "url": "/site/index.html#question/q-978",
+      "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+      "questions": [
+        "兩張來源AI漫畫分別誤選A、B，並把C等高線由外到內下降逆讀為上升。",
+        "修改前／原AI內容：圖中明列正確答案A，稱撒哈拉以廣大平原為主；把C描述為由四周向中心升高。重畫C標高出現亂碼與非原卷數值。；圖中明列正確答案B；將原B山地稱地勢較高且起伏緩的丘陵，把C描述成中央最高四周漸低，但重畫圖仍出現內500、外2500。",
+        "目前處理：排除兩張AI重繪圖；保留真正原卷甲的位置與全部標高，依2500→1500→500向內降低判定盆地，答案C。選項數值不當作甲地實測高程。"
+      ],
+      "before": "圖中明列正確答案A，稱撒哈拉以廣大平原為主；把C描述為由四周向中心升高。重畫C標高出現亂碼與非原卷數值。；圖中明列正確答案B；將原B山地稱地勢較高且起伏緩的丘陵，把C描述成中央最高四周漸低，但重畫圖仍出現內500、外2500。",
+      "after": "排除兩張AI重繪圖；保留真正原卷甲的位置與全部標高，依2500→1500→500向內降低判定盆地，答案C。選項數值不當作甲地實測高程。",
+      "createdAt": "2026-11-06T14:40:25.255064+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-978-satellite.jpg",
+          "alt": "原卷衛星影像：甲在非洲北部；大西洋標示在西側、地中海標示在北側。",
+          "caption": "原卷衛星圖，僅旋轉與裁切，甲與海洋名稱保持原印位置。"
+        },
+        {
+          "src": "assets/questions/q-978-options.jpg",
+          "alt": "原卷四個等高線選項：A兩處20；B外向內1200、1800、2400；C外向內2500、1500、500；D外向內100、300、500。",
+          "caption": "原卷四圖與完整已印標高；標高單位為公尺。未標示的等高線不另猜數值。"
+        }
+      ],
+      "confirmationToken": "667a6e02256d3484dadb82286de8bd190b0a46566838889f8571afcf5f42962c",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-06T14:42:28.616987+00:00"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "q-951",
+      "confirmationToken": "65cbfd2822fff332a0d10a026d1a382436fc4e966989ba9f5624771eb9191f72",
+      "text": "國中題目，不用特別解釋疑義。",
+      "state": "addressed",
+      "submittedAt": "2026-11-05T15:37:52.472763+00:00",
+      "requestSnapshot": {
+        "id": "q-951",
+        "title": "國文第2題｜詞語中的多音字",
+        "kind": "題目核對",
+        "questions": [
+          "原卷預期A；B的兩個「劃」亦可按擦掠讀ㄏㄨㄚˊ，目前保留單選設計疑義、不指定唯一答案。請核對此處理是否可以保留。"
+        ],
+        "url": "/site/index.html#question/q-951",
+        "questionUrl": "/site/index.html#question/q-951",
+        "questionText": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+        "questionSnapshot": "62e644a147820f4f007d97329de31f886e6e6c534fcd679c05c61f78f7ee559f",
+        "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+        "confirmationToken": "65cbfd2822fff332a0d10a026d1a382436fc4e966989ba9f5624771eb9191f72"
+      },
+      "addressedAt": "2026-11-05T15:37:59.402074+00:00",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。"
+    },
+    {
+      "id": "correction-q-951-e34aa061df23",
+      "confirmationToken": "695249202214267f6ee65aacf1febb0be8a39782bfb14337a8d4508a11074717",
+      "text": "不用特別解釋疑義",
+      "state": "addressed",
+      "submittedAt": "2026-11-05T15:38:49.068984+00:00",
+      "requestSnapshot": {
+        "id": "correction-q-951-e34aa061df23",
+        "state": "pending",
+        "kind": "單選設計疑義",
+        "title": "國文第2題｜詞語中的多音字",
+        "questionId": "q-951",
+        "questionText": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
+        "questionUrl": "/site/index.html#question/q-951",
+        "url": "/site/index.html#question/q-951",
+        "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+        "questions": [
+          "MOE簡編劃的ㄏㄨㄚˊ包含擦掠及往表面拖拉留下痕跡；題句不足以強制第二劃改讀區分義ㄏㄨㄚˋ。A兩衝均ㄔㄨㄥ確定，疑點是唯一性而非原題缺漏。",
+          "修改前／原AI內容：原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+          "目前處理：保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。"
+        ],
+        "before": "原卷紅筆訂正A。來源AI最終回覆83已指出B也可按擦掠讀同音，不應省略這個限制；若只顯示A唯一正解會遺失原對話的必要保留。",
+        "after": "保留完整原題與四選項，答案顯示原卷預期A，但B「劃過湖面／劃出一條雪白水線」亦可同讀ㄏㄨㄚˊ；correctOption留空，不指定唯一選項。",
+        "createdAt": "2026-11-04T15:32:09.014485+00:00",
+        "answerCanBeDetermined": false,
+        "expectedAnswer": "原卷預期A；不指定唯一正解",
+        "primarySources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161&la=0&powerMode=1",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33051&la=0&powerMode=0"
+        ],
+        "sourceMessageIndices": [
+          64,
+          83
+        ],
+        "sourceAlreadyIdentifiesAmbiguity": true,
+        "verificationEvidence": "docs/imports/new-gpt-20261104-c/manifest.json",
+        "confirmationToken": "695249202214267f6ee65aacf1febb0be8a39782bfb14337a8d4508a11074717"
+      },
+      "addressedAt": "2026-11-05T15:38:52.236711+00:00",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。"
     }
   ]
 }

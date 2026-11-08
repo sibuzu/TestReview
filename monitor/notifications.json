@@ -467,5 +467,19 @@
     "topic": "sibuzu_codex",
     "message": "WeiRuGo：本輪新增6題（q786～791），題庫781題；101/105來源已結案。第52兩題及第53原30題已依指示略過。第55排球場缺A～D選項；第56～58分享頁只有AI漫畫、原卷未顯示，已依規則暫停這批新題轉錄並請你確認。\nhttps://monitor.sibuzu.com/",
     "status": 200
+  },
+  {
+    "sentAt": "2026-11-08T11:42:30.157460+00:00",
+    "topic": "sibuzu_codex",
+    "title": "WeiRuGo: original image access needed",
+    "message": "WeiRuGo：11/8三份GPT對話已封存，但原卷下載端點均404，目前0張取得。請在Codex回覆採用啟用已登入Chrome遠端偵錯，或提供原卷圖片。依既有規則先不錄題，更新驗證後再commit及push。詳情：https://monitor-test.sibuzu.com/",
+    "httpStatus": 200
+  },
+  {
+    "sentAt": "2026-11-08T13:03:06.883122+00:00",
+    "topic": "sibuzu_codex",
+    "title": "WeiRuGo original access restored",
+    "message": "WeiRuGo原圖存取已修復：改用已登入Chrome授權CDP，三來源55筆原卷引用全取得，實際36張不同原卷。已解除缺圖確認並繼續逐題核對，網站更新驗證後commit及push。https://monitor-test.sibuzu.com/",
+    "httpStatus": 200
   }
 ]

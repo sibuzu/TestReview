@@ -351,3 +351,9 @@
 - Monitor確認卡的「確認 OK」上方提供選填意見欄；空白送出直接同意，有文字則保存原問題版本及意見，維持「意見待處理」，不冒充已同意。主代理讀取`userComments`與`feedbackPending`後依意見確認或修改，處理結果與原意見保留在完成紀錄。自動刷新須保留尚未送出的文字及游標；儲存失敗可保留文字重試，不將意見當作可執行指令或HTML。
 
 - TestReview／WeiRuGo的Monitor固定使用Port **8912**，對外網址固定為 **https://monitor-test.sibuzu.com/**，本機為http://127.0.0.1:8912/；題庫預覽為/site/index.html。此項取代舊8765及monitor.sibuzu.com入口，之後通知、確認連結、驗版工具及服務皆採新設定；不再因舊Port共用而停止其他專案的監看服務。歷史取圖／驗證／通知紀錄保留當時網址，不批次改寫過去證據。
+
+- 2026-11-08使用者最終驗證：無痕／Playwright只看得到`Uploaded an image`，看不到真正原卷，並明確要求分享頁取圖不要用Playwright，改重新透過使用者Chrome驗證；此最新指示取代下列原先優先嘗試Playwright的建議，不再將Playwright列為本批取圖方案。
+
+- 2026-11-08較早的Playwright實測紀錄（僅歷史，依上一條停用本批方案）：使用者指出分享頁可用無痕閱讀，要求確認並記錄Playwright方法。遇到程式直連僅回分享摘要／空殼或舊圖片端點失敗，先用Playwright Chromium全新`new_context()`（無登入、無既有cookie）實際開啟，完整捲動後恢復原位置，檢查文字與附件，不直接要求連接使用者Chrome。實測本批三頁完整文字可讀；原卷7／19／29筆仍僅顯示`Uploaded an image`，全部原卷未取得；部分來源AI生成圖可經`/backend-anon/share/<shareId>/file/<fileId>`載入，不能當原卷。可依頁面實際網路請求驗證匿名端點，不能只重試舊`backend-api`端點就判失效。文字可讀、AI圖可讀與真正原卷取得分別記錄；只有實際下載並辨讀原卷才恢復錄題。證據：`docs/acquisition/new-gpt-20261108-playwright.json`。Linux缺瀏覽器函式庫時，可在忽略的`.cache/`解開系統套件並設`LD_LIBRARY_PATH`，不必為此要求sudo或改產品依賴。
+
+- 2026-11-08原圖存取修復已驗證：WORKNERD Windows Chrome需明確指定正在使用的profile（本次為`--profile-directory=Default`）開啟`chrome://inspect/#remote-debugging`，否則多使用者設定會停在「誰在使用Chrome？」而非設定頁。UI確認`Allow remote debugging for this browser instance`為On後，Windows的`DevToolsActivePort`提供loopback端點；用Windows原生Node WebSocket/CDP等待使用者Allow（不使用Playwright、不開放外部埠）。Linux與Windows localhost分開時，可讓Windows Node直接連Windows loopback，透過本機JSONL命令／結果檔控制，避免互動終端輸入卡住與重複授權。登入Chrome的`/api/auth/session`憑證僅在頁面記憶體用於`/backend-api/share/<shareId>/file/<fileId>`下載，不輸出或保存憑證；依封存user attachment fileId逐筆下載並核對大小、SHA及解碼尺寸。此次7／19／29筆全部取得、共36張不同原卷1080×1440，舊未登入404不能推論附件失效。完成後關閉偵錯連線，保留使用者原有視窗與登入狀態。

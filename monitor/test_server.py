@@ -129,6 +129,28 @@ class MonitorTest(unittest.TestCase):
         self.assertEqual(status['summary']['questions'],2)
         self.assertEqual(status['comics']['active'][0]['id'],'q-001')
 
+    def test_reshared_source_totals_keep_unique_questions_and_images(self):
+        self.write('monitor/active-source-plan.json', {'path': 'docs/imports/repeated-gpt.json'})
+        self.write('docs/imports/repeated-gpt.json', {
+            'expectedOriginalQuestions': 2,
+            'sources': [dict(key='gpt001', batch='gpt', suggestedOrder=1,
+                sourceId='src-more-001', url='https://example.com/1', expectedOriginalQuestions=1),
+                dict(key='gpt002', batch='gpt', suggestedOrder=2,
+                sourceId='src-more-002', url='https://example.com/2', expectedOriginalQuestions=2)]})
+        self.write('docs/imports/more-gpt-progress.json', {'sources': [
+            self.source(1, 'complete', sourceId='src-more-001', questionIds=['q-001'],
+                archiveImages=1, downloadedImages=[dict(path='a.jpg', sha256='same-original')]),
+            self.source(2, 'complete', sourceId='src-more-002', questionIds=['q-001', 'q-002'],
+                archiveImages=2, downloadedImages=[dict(path='a.jpg', sha256='same-original'),
+                                                   dict(path='b.jpg', sha256='new-original')])]})
+        (self.root/'a.jpg').write_bytes(b'a')
+        (self.root/'b.jpg').write_bytes(b'b')
+        status = server.build_status(self.root)['newSources']
+        self.assertEqual((status['originalsPublished'], status['originalsExpected']), (2, 2))
+        self.assertEqual((status['imagesAvailable'], status['imageReferencesAvailable']), (2, 3))
+        self.assertEqual([row['published'] for row in status['sources']], [1, 2])
+        self.assertEqual((status['settled'], status['total']), (2, 2))
+
     def test_blocked_comic_counts_unresolved_questions_once_and_stops_after_ok(self):
         self.write('docs/comics/progress.json', {'entries': [dict(
             id='q-001', subject='Chinese', title='待核對譯文', date='2026-01-01', state='queued')]})

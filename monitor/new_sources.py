@@ -15,7 +15,7 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
     published = {q['id'] for q in questions}
     by_id = {q['id']: q for q in questions}
     states = {e['id']: e['state'] for e in entries}
-    rows, all_ids, all_original_ids = [], set(), set()
+    rows, all_ids, all_original_ids, all_images = [], set(), set(), set()
     terminal = {'complete', 'complete_with_skips', 'duplicate', 'excluded_no_question',
                 'skipped_not_in_site', 'skipped_missing_images', 'skipped_unavailable',
                 'skipped_invalid_question'}
@@ -36,6 +36,7 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
                 relative = image.get('path')
                 if relative and (root/relative).is_file():
                     images[image.get('sha256') or relative] = relative
+        all_images.update(images)
         expected = max([source.get('archiveImages') or 0] +
                        [r.get('imagesExpected') or r.get('userImagesExpected') or
                         len(r.get('originalImages', [])) for r in reports])
@@ -79,15 +80,22 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
     if plan.get('showAgents') and parallel_path.is_file():
         paths.append(parallel_path)
         agents = json.loads(parallel_path.read_text()).get('lanes', [])
+    # Re-shared conversations may reference the same original questions/images.
+    # The reviewed batch total is unique; per-source rows retain full coverage.
+    expected_originals = plan.get('expectedOriginalQuestions')
+    if not isinstance(expected_originals, int) or isinstance(expected_originals, bool) or expected_originals < 0:
+        counts = [item.get('expectedOriginalQuestions') for item in plan.get('sources', [])]
+        expected_originals = sum(counts) if counts and all(isinstance(n, int) and n >= 0 for n in counts) else 0
     return {'sources': rows, 'total': len(rows), 'settled': settled,
             'agents': agents,
-            'originalsExpected': sum(item.get('expectedOriginalQuestions') or 0 for item in plan.get('sources', [])),
+            'originalsExpected': expected_originals,
             'originalsPublished': len(all_original_ids),
             'originalsGenerated': sum(states.get(qid) == 'complete' for qid in all_original_ids),
             'complete':settled==len(rows) and not pending_ids and comics_settled==len(all_ids),
             'comicsSettled':comics_settled,
             'percent': round(100*settled/len(rows)) if rows else 0,
-            'imagesAvailable': sum(row['imagesAvailable'] for row in rows),
+            'imagesAvailable': len(all_images),
+            'imageReferencesAvailable': sum(row['imagesAvailable'] for row in rows),
             'imagesExpected': sum(row['imagesExpected'] or 0 for row in rows),
             'acquiredSources': sum(row['imagesExpected'] is not None and
                                    row['imagesAvailable'] >= row['imagesExpected'] for row in rows),

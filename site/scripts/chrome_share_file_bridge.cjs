@@ -1,0 +1,17 @@
+// Native Node CDP bridge for the user-authorized Windows Chrome loopback endpoint.
+// Usage: node chrome_share_file_bridge.cjs <ws-loopback-endpoint> <commands-jsonl> <responses-jsonl>
+// Commands/responses stay local; save writes binary data to a caller-supplied local path.
+const fs=require('node:fs'),readline=require('node:readline');
+const endpoint=process.argv[2];if(!/^ws:\/\/127\.0\.0\.1:\d+\/devtools\/browser\//.test(endpoint))throw Error('Loopback browser endpoint required');
+const socket=new WebSocket(endpoint);let seq=0;const pending=new Map(),sessions=new Map();
+function send(method,params={},sessionId){return new Promise((resolve,reject)=>{const id=++seq;pending.set(id,{resolve,reject});socket.send(JSON.stringify({id,method,params,...(sessionId?{sessionId}:{})}));setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error('CDP timeout'));}},60000).unref();});}
+socket.addEventListener('message',event=>{const m=JSON.parse(event.data);if(!m.id)return;const p=pending.get(m.id);if(!p)return;pending.delete(m.id);m.error?p.reject(Error(m.error.message)):p.resolve(m.result);});
+(async()=>{console.log('Waiting for Chrome Allow...');await new Promise((resolve,reject)=>{socket.addEventListener('open',resolve,{once:true});socket.addEventListener('error',reject,{once:true});});console.log('Chrome connected.');
+async function list(){const {targetInfos}=await send('Target.getTargets');return targetInfos.filter(t=>t.type==='page'&&t.url.startsWith('https://chatgpt.com/share/')).map(t=>({id:t.targetId,title:t.title,url:t.url}));}console.log(JSON.stringify({shares:await list()}));
+async function session(id){if(!sessions.has(id))sessions.set(id,(await send('Target.attachToTarget',{targetId:id,flatten:true})).sessionId);return sessions.get(id);}
+const queue=process.argv[3],responses=process.argv[4];let consumed=0,closed=false;while(!closed){const all=fs.existsSync(queue)?fs.readFileSync(queue,'utf8').split('\n').filter(Boolean):[];if(all.length<=consumed){await new Promise(r=>setTimeout(r,200));continue;}const c=JSON.parse(all[consumed++]);try{let result;
+if(c.action==='list')result=await list();else if(c.action==='new'){const u=new URL(c.url);if(u.origin!=='https://chatgpt.com'||!u.pathname.startsWith('/share/'))throw Error('Explicit share URL only');result=await send('Target.createTarget',{url:u.href});}
+else if(c.action==='activate'){result=await send('Target.activateTarget',{targetId:c.targetId});}
+else if(c.action==='evaluate'||c.action==='save'){const s=await session(c.targetId),r=await send('Runtime.evaluate',{expression:c.expression,returnByValue:true,awaitPromise:true,userGesture:true},s);if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));result=r.result.value;if(c.action==='save'){if(!result?.base64)throw Error(JSON.stringify(result));fs.writeFileSync(c.path,Buffer.from(result.base64,'base64'));result={saved:c.path,bytes:fs.statSync(c.path).size,mime:result.mime};}}
+else if(c.action==='close'){socket.close();closed=true;result={closed:true};}else throw Error('Unknown action');const response={id:c.id,ok:true,result};fs.appendFileSync(responses,JSON.stringify(response)+'\n');console.log(JSON.stringify(response));}catch(e){const response={id:c.id,ok:false,error:e.message};fs.appendFileSync(responses,JSON.stringify(response)+'\n');console.log(JSON.stringify(response));}}
+})().catch(e=>{console.error('Chrome connection failed:',e.message);process.exitCode=1;});

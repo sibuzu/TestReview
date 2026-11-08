@@ -1,0 +1,35 @@
+{
+  "id": "q-991",
+  "reviewerAgent": "/root/comic_lane_2",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6af03166-5.jpg",
+    "docs/imports/new-gpt-20261108-a/evidence/q-28-original.png"
+  ],
+  "duplicateReview": {
+    "exactMatch": false,
+    "candidateCount": 0,
+    "candidates": [],
+    "method": "question_index文字候選＋正式題庫/所有groupQuestions題幹及完整選項比對，核對必要原卷，未見同一題；相近主題不併題。"
+  },
+  "inclusionEvidence": "原卷藍筆A、旁有紅色註記，但紅色註記並非可可靠辨識的選項；使用者明確指定28@錯題。本題模式5同班直達條件疑義已交Monitor核對，不聲稱可確認紅筆標準答案。",
+  "sourceUrl": "https://chatgpt.com/share/6af03166-a5b4-83ee-88dc-9d884a87b1c5",
+  "originalQuestionNumber": "28",
+  "checkedAt": "2026-11-08T13:09:24.922891+00:00",
+  "correction": {
+    "reason": "模式5分段表未交代同班508能否跨臺中直達；另原AI誤解8當天加開。",
+    "before": "原AI直接選A，並以D加開不保證當天行駛來排除。",
+    "after": "來源AI預期A但保留模式5直達條件待核對；D確定當天加開，因模式2不停嘉義排除。",
+    "questions": [
+      "原表第2碼5的兩列，是否表示同一班508會連續行駛兩區間，還是分別終到臺中的區間車？"
+    ],
+    "sourceAIMessageIndices": [
+      107,
+      109,
+      110
+    ]
+  },
+  "supersedes": "docs/imports/new-gpt-20261108-a/q-991-review.json"
+}

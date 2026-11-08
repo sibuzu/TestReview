@@ -1,0 +1,94 @@
+{
+  "id": "q-980",
+  "sourceId": "src-more-063",
+  "subject": "Math",
+  "title": "數學第9題｜根式的奇偶次方",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "date": "2026-11-08",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-08",
+  "question": "算式 (－√2)²＋(－√4)³＋(－√6)⁴ 之值為何？\n(A) 16\n(B) 30\n(C) 32\n(D) 46",
+  "answer": "(B) 30",
+  "explanation": "先逐項計算，再相加。負數的偶數次方為正，奇數次方仍為負：\n(－√2)²＝2；(－√4)³＝(－2)³＝－8；(－√6)⁴＝[(－√6)²]²＝6²＝36。\n因此原式＝2－8＋36＝30，選B。\n\n不能把第二項算成＋8，也不能把第四次方只當成平方。括號內的負號與根式是一整個底數，必須一起乘方。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "根式",
+    "指數",
+    "奇偶次方"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261108-b/original-01.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第9題",
+  "studentAnswer": "原卷紅筆B；藍筆有計算痕跡，未依不清楚記號猜學生原選項。",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "originalQuestionNumber": "9",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "16",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "與逐項計算結果30不符。"
+    },
+    {
+      "label": "B",
+      "text": "30",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "2－8＋36＝30。"
+    },
+    {
+      "label": "C",
+      "text": "32",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "偶次方與奇次方的正負號不能忽略；正確和為30。"
+    },
+    {
+      "label": "D",
+      "text": "46",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "若把第二項誤算為＋8，會得到46；但(－2)³＝－8。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "sourceEvidence": {
+    "url": "https://chatgpt.com/share/6af04774-019c-83ee-9f45-5df6edfd1739",
+    "messageId": "760bee73-300f-4fdd-a84e-540a483c0fec",
+    "messageIndex": 1,
+    "firstQuestionTimestamp": 1794127241.7169762,
+    "firstQuestionDateTime": "2026-11-08T16:40:41.716976+08:00",
+    "originals": [
+      {
+        "path": "docs/source-pages/chatgpt-6af05e92-1.jpg",
+        "sha256": "b2d2fcf8cb0770a63d8e6b6d4f27e020f4cd38e36b93fa1bda492db8d59e5ea2",
+        "bytes": 429171,
+        "fileId": "file_0000000001288206a70935ee2ee37373"
+      }
+    ],
+    "inclusionEvidence": "9@錯題；真正原卷有紅筆訂正，見實開裁圖。",
+    "overlapSources": [
+      "https://chatgpt.com/share/6af04774-019c-83ee-9f45-5df6edfd1739",
+      "https://chatgpt.com/share/6af05e92-295c-83e8-adfb-12e134c3492a"
+    ]
+  },
+  "duplicateReview": {
+    "exactOriginalQuestionMatch": false,
+    "candidates": [],
+    "checkedAgainst": "正式題庫全題幹、各groupQuestions、必要文章及全部選項；question_index對1131911、Sommaroey、桃花泣血記、糧食產量等關鍵詞的候選亦逐題區別。來源64相同messageId、fileId、題幹與選項及原卷照片對照，沿用本題不另建。",
+    "overlapSource": "https://chatgpt.com/share/6af05e92-295c-83e8-adfb-12e134c3492a"
+  }
+}

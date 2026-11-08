@@ -1,0 +1,67 @@
+{
+  "id": "q-983",
+  "sourceId": "src-more-063",
+  "subject": "Math",
+  "title": "數學第11題｜平方差與科學記號",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-08",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-08",
+  "question": "已知算式 1131911²－1121911² 之值可以用科學記號表示為 a×10ⁿ，則 n 值為何？\n(A) 10\n(B) 9\n(C) 8\n(D) 7",
+  "answer": "(A) 10",
+  "explanation": "利用平方差公式，不必分別計算兩個大數的平方：\n1131911²－1121911²\n＝(1131911＋1121911)(1131911－1121911)\n＝2253822×10000\n＝22538220000\n＝2.253822×10¹⁰。\n\n科學記號要求1≤a＜10；將小數點移到第一個非零數字2之後，需移10位，所以n＝10，選A。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "平方差",
+    "科學記號"
+  ],
+  "images": [
+    "assets/questions/q-983-original-02-0b68118ecfa4.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第11題",
+  "studentAnswer": "原卷藍筆C，紅筆訂正A。",
+  "contentStatus": "完整原題",
+  "correctOption": "A",
+  "passage": "",
+  "originalQuestionNumber": "11",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "10",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "正確寫成2.253822×10¹⁰，指數是10。"
+    },
+    {
+      "label": "B",
+      "text": "9",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "若寫成22.53822×10⁹，係數大於或等於10，尚未化成標準科學記號。"
+    },
+    {
+      "label": "C",
+      "text": "8",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "原值約為2.25百億，不能以2.25×10⁸表示。"
+    },
+    {
+      "label": "D",
+      "text": "7",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "指數7與原算式的位數不合。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": []
+}

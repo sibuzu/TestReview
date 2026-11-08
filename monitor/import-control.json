@@ -2,17 +2,18 @@
   "state": "complete",
   "allowNewSources": false,
   "allowedSourceOrders": [
-    61
+    62,
+    63,
+    64
   ],
-  "lastAllowedSourceOrder": 61,
+  "lastAllowedSourceOrder": 64,
   "haltAfterCurrentSource": true,
   "allowedSourceUrls": [
-    "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587"
+    "https://chatgpt.com/share/6af03166-a5b4-83ee-88dc-9d884a87b1c5",
+    "https://chatgpt.com/share/6af04774-019c-83ee-9f45-5df6edfd1739",
+    "https://chatgpt.com/share/6af05e92-295c-83e8-adfb-12e134c3492a"
   ],
-  "instruction": "只處理使用者新指定6aede186分享，完成真正原卷、題目與全新四格，驗證後commit及push。不恢復舊佇列。",
-  "updatedAt": "2026-11-06T14:41:13.493643+00:00",
-  "reason": "本次唯一指定來源61已完成，不恢復舊佇列。",
-  "publicationState": "pushed",
-  "contentCommit": "2069b41d2d50b097ed627ee33c74ea894a6f463c",
-  "pushedAt": "2026-11-06T14:45:23.618440+00:00"
+  "instruction": "僅整理使用者本次新指定三個分享；先實取原卷，再逐題核對、跨來源查重與更新網站，完成驗證後commit及正常push。新題可先入庫，插畫另列待製；不恢復取消的舊來源或AI延伸練習。",
+  "updatedAt": "2026-11-08T13:20:31.589399+00:00",
+  "reason": "本次62～64三來源原題均已處理：36不重複原問／35題面；11項訂正與疑義留Monitor，插畫獨立queued。最終QA與本次授權commit/push收尾，不恢復舊來源或漫畫佇列。"
 }

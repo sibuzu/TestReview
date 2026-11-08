@@ -60,3 +60,7 @@ https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5
 https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2
 https://chatgpt.com/share/6aec94d2-678c-83ee-8f64-018320680b7a
 https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587
+
+https://chatgpt.com/share/6af03166-a5b4-83ee-88dc-9d884a87b1c5
+https://chatgpt.com/share/6af04774-019c-83ee-9f45-5df6edfd1739
+https://chatgpt.com/share/6af05e92-295c-83e8-adfb-12e134c3492a

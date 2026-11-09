@@ -1,0 +1,142 @@
+{
+  "id": "q-996",
+  "subject": "Geography",
+  "title": "把六月鋒面與降雨洗除的可能性連起來",
+  "art": "docs/comics/art/q-996-rain-scavenging.svg",
+  "generationMethod": "new native SVG rain-scavenging conceptual mechanism plus selectable HTML evidence and causal-limits flow blocks",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-996-q-32-original-ee789576bad1.png",
+    "site/dist/assets/questions/q-996-q-32-aqi-f4c484f70bfb.png",
+    "site/dist/assets/questions/q-996-q-32-weather-0daf62c956d7.png"
+  ],
+  "answerCheckedAgainst": "實開原卷32及6月7日地面天氣圖/廣州AQI圖，原卷紅A；不由低壓推熱帶低壓增強，不補實際雨量/風速或百分比。",
+  "supportingSources": [
+    {
+      "title": "中央氣象署：梅雨怎麼來？",
+      "url": "https://pweb.cwa.gov.tw/PopularScience/kids/wt/wt_18.html",
+      "finding": "5至6月冷暖空氣交會形成鋒面，可帶來降雨；不將臺灣科普示意當廣州當日觀測。"
+    },
+    {
+      "title": "環境部：降雨洗除作用",
+      "url": "https://airtw.moenv.gov.tw/CHT/Encyclopedia/pedia07/pedia7_1.aspx",
+      "finding": "降雨洗除吸附可降低污染物濃度；降低程度受雨強/延時/風速/排放等影響。"
+    }
+  ],
+  "rationale": "教學重點是天氣圖與AQI的因果推理，用新SVG雨滴洗除概念和HTML證據流程，比單純雨天人物更能呈現機制與觀測界線，不重畫原題曲線或天氣位置。",
+  "panels": [
+    {
+      "heading": "① 時間、地點與鋒面一起看",
+      "text": "本題是6月7日的華南廣州，地面天氣圖有鋒面。把六月雨季與冷暖空氣交會連起來，A最符合圖文，不能只見L就選熱帶低壓增強。",
+      "alt": "可選取HTML整理時間地點和地面圖鋒面線索，沒有新增氣壓數字或重畫鋒面位置。",
+      "diagram": {
+        "kind": "flow",
+        "title": "先合併兩個明確線索",
+        "items": [
+          {
+            "label": "時地：6月7日、廣州",
+            "detail": "華南六月雨季背景。",
+            "tone": "blue"
+          },
+          {
+            "label": "天氣圖：鋒面活動",
+            "detail": "冷暖空氣交會，符合A。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "合併季節與圖示"
+      }
+    },
+    {
+      "heading": "② 降雨可洗除部分空氣污染物",
+      "text": "雨滴下降時，可經洗除、吸附等作用降低空氣中部分污染物濃度；配合空氣流動，能解釋AQI較低的可能原因，不是所有污染都消失。",
+      "caption": "概念機制：藍色雨滴沿箭頭下降，灰點代表污染物；洗除部分污染物，非當日雨量或濃度圖。",
+      "alt": "新製雲、藍色雨滴、向下箭頭及灰色污染物點，示意降雨洗除；仍保留灰點，不表示全部污染消失。"
+    },
+    {
+      "heading": "③ 最可能原因不等於唯一實證",
+      "text": "原圖未給實際雨量、風速或各污染物濃度。雨的影響還與降雨強度、時間及排放有關，不能從AQI曲線單獨證明只有降雨造成下降。",
+      "alt": "可選取HTML分開合理機制與原圖未提供的測量資料，保留最可能限制。",
+      "diagram": {
+        "kind": "flow",
+        "title": "保留資料能支持的範圍",
+        "items": [
+          {
+            "label": "可判讀：A最符合季節與鋒面",
+            "detail": "有合理的降雨洗除機制。",
+            "tone": "green"
+          },
+          {
+            "label": "不能補：精確雨量、風速、降幅",
+            "detail": "也不能宣稱污染已完全清除。",
+            "tone": "blue"
+          }
+        ],
+        "arrow": "避免把推論當成完整觀測"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：冷暖氣團交會，鋒面雨季來臨",
+    "points": [
+      "6月華南＋天氣圖鋒面，是判讀線索。",
+      "降雨與空氣流動可能降低污染物濃度。",
+      "低壓不等於已證明熱帶低壓增強，AQI低也非零污染。"
+    ]
+  },
+  "protectedWords": [
+    "AQI",
+    "6月7日",
+    "廣州",
+    "華南",
+    "鋒面",
+    "熱帶低壓",
+    "污染物",
+    "降雨",
+    "冷暖氣團"
+  ],
+  "producerAgent": "/root/comic_lane_1",
+  "createdAt": "2026-11-09T15:52:37.710218+00:00",
+  "artSHA256": "ad8a1103ac87f1d5ec150ad2e4b6e0a19e8df8dd4ee537ff791c0ed5f864e74e",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-996-preview-validation.json",
+  "visualReview": "原卷/天氣圖/AQI圖與氣象署/環境部原文已實讀；新SVG雨滴灰點箭頭及HTML三寬QA通過，桌手機成品實看清楚。保持A與最可能限制，未補雨風觀測。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-996-1440.png",
+      "/tmp/weirugo-comic-previews/q-996-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-996-art-ad8a1103ac.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:53:48.320956+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-996-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-996-app-390.png",
+      "/tmp/weirugo-comic-checks/q-996-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-996-standalone-390.png"
+    ],
+    "note": "實開原卷32/兩圖，讀CWA梅雨及環境部降雨洗除原文；新SVG雨滴下降/灰污染點與HTML機制可辨，A及可能性限制保留，正式app單頁桌手機四成品實看/六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-996-validation.json",
+  "checkedAt": "2026-11-09T15:53:48.329167+00:00"
+}

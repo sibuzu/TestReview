@@ -1,0 +1,118 @@
+{
+  "id": "q-980",
+  "subject": "Math",
+  "title": "先算三項的正負與大小，最後相加",
+  "art": "docs/comics/art/q-980-sign-pairs.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new precise native SVG sign-factor grouping with selectable HTML radical calculations",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-980-original-01-7f14ca492060.jpg"
+  ],
+  "answerCheckedAgainst": "實開原卷9：(-√2)^2+(-√4)^3+(-√6)^4；獨立重算2+(-8)+36=30，B。括號內負號不可排除，第四次方不縮成平方。",
+  "rationale": "代數題採符號分組與精確HTML逐項計算，不使用人物。SVG用2/3/4個負因數的符號示意奇偶性，真正根式、乘積、冪次與答案全在可選取HTML，不讓生成模型算式。",
+  "panels": [
+    {
+      "heading": "① 第一項：偶數次方為正",
+      "text": "(－√2)²＝(－√2)×(－√2)＝2。兩個負號相乘變正，根式平方也要一起計算。",
+      "caption": "兩個負因數相乘，結果為正；示意的是正負，不是數值大小。",
+      "alt": "新製兩個負號圓片合成一個正號的代數符號示意，沒有把根號數值當成片數。"
+    },
+    {
+      "heading": "② 第二項：三個負因數仍為負",
+      "text": "先算√4＝2，再算(－2)³＝－8。三次方是三個－2相乘，不能只因前面有加號就把這一項改成＋8。",
+      "alt": "先將根號四化成二，再列負二的三次方等於負八的可選取運算流程。",
+      "diagram": {
+        "kind": "flow",
+        "title": "根式化簡與奇次方分兩步",
+        "items": [
+          {
+            "label": "√4＝2，所以底數是－2",
+            "detail": "負號仍在括號內。",
+            "tone": "blue"
+          },
+          {
+            "label": "(－2)×(－2)×(－2)＝－8",
+            "detail": "三個負因數，結果為負。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依指數展開相乘"
+      }
+    },
+    {
+      "heading": "③ 第三項：四次方是平方後再平方",
+      "text": "(－√6)⁴＝[(－√6)²]²＝6²＝36。不能算到6就停止；原題指數是4，不是2。",
+      "alt": "負根號六先平方為六，再平方為三十六的可選取兩階段運算圖。",
+      "diagram": {
+        "kind": "flow",
+        "title": "把四次方拆成兩次平方",
+        "items": [
+          {
+            "label": "(－√6)²＝6",
+            "detail": "這只是先完成一次平方。",
+            "tone": "blue"
+          },
+          {
+            "label": "[(－√6)²]²＝6²＝36",
+            "detail": "平方後還要再平方。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "再平方一次"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：2－8＋36＝30",
+    "points": [
+      "偶次方為正，奇次方保留負號。",
+      "三項分別為2、－8、36。",
+      "先算每一項，再相加；負號與根式都是底數的一部分。"
+    ]
+  },
+  "protectedWords": [
+    "(－√2)²",
+    "(－√4)³",
+    "(－√6)⁴",
+    "(－2)³",
+    "6²＝36",
+    "2－8＋36＝30",
+    "奇次方",
+    "偶次方",
+    "負因數"
+  ],
+  "createdAt": "2026-11-09T15:42:55.580285+00:00",
+  "artSHA256": "bc41e91dc161de6378024595012ec3e114bcb2a620cc451bea7d11c87ecb595a",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:44:54.555028+00:00",
+  "previewValidation": "docs/comics/q-980-preview-validation.json",
+  "visualReview": "原卷9三項/指數/括號與四選項實開核對；新SVG兩負因數×得正及HTML三項計算在1440/1120/390全實看。2、-8、36與總30正確，不把四次方當平方；圖補上明確乘號後重跑三寬PASS，無溢出/保護詞拆行，手機自然高度。",
+  "nativeArt": "assets/comics/q-980-art-bc41e91dc1.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:44:54.547181+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-980-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-980-app-390.png",
+      "/tmp/weirugo-comic-checks/q-980-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-980-standalone-390.png"
+    ],
+    "note": "已對原卷括號負根式與指數2/3/4；桌手機app及單頁四成品實看，乘號/負號/根號清楚，2−8+36=30/B正確，三寬六布局無溢出。"
+  },
+  "validationFile": "docs/comics/q-980-validation.json"
+}

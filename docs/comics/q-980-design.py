@@ -1,0 +1,14 @@
+from pathlib import Path
+import json,hashlib,datetime
+R=Path(__file__).resolve().parents[2];D=R/'docs/comics';art=D/'art/q-980-sign-pairs.svg'
+chunks=['<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="360" viewBox="0 0 1080 360"><rect width="1080" height="360" fill="#f7faf8"/>']
+for j,num in enumerate([2,3,4]):
+ chunks.append(f'<g transform="translate({j*360})">')
+ for k in range(num):
+  x=65+(k%2)*150;y=80+(k//2)*100
+  chunks.append(f'<circle cx="{x}" cy="{y}" r="35" fill="#f2d2c6" stroke="#c5856f" stroke-width="3"/><path d="M{x-16} {y}H{x+16}" stroke="#b45943" stroke-width="6"/>')
+ chunks.append('<path d="M55 264H276M260 250L276 264L260 278" fill="none" stroke="#6f9d8b" stroke-width="5"/>')
+ chunks.append('<circle cx="180" cy="310" r="32" fill="#d5eadc" stroke="#6f9d8b" stroke-width="3"/><path d="M164 310H196'+('M180 294V326' if num%2==0 else '')+'" stroke="#427c62" stroke-width="6"/></g>')
+chunks.append('</svg>');svg=''.join(chunks).replace('<g transform="translate(0)">','<g transform="translate(0)"><path d="M130 70L150 90M130 90L150 70" stroke="#705d4b" stroke-width="5"/>');art.write_text(svg)
+s=dict(id='q-980',subject='Math',title='先算三項的正負與大小，最後相加',art=str(art.relative_to(R)),layoutVersion='native-fluid-v6',generationMethod='new precise native SVG sign-factor grouping with selectable HTML radical calculations',sourceGeneratedArtUsed=False,originalMaterialsChecked=True,originalMaterials=['site/dist/assets/questions/q-980-original-01-7f14ca492060.jpg'],answerCheckedAgainst='實開原卷9：(-√2)^2+(-√4)^3+(-√6)^4；獨立重算2+(-8)+36=30，B。括號內負號不可排除，第四次方不縮成平方。',rationale='代數題採符號分組與精確HTML逐項計算，不使用人物。SVG用2/3/4個負因數的符號示意奇偶性，真正根式、乘積、冪次與答案全在可選取HTML，不讓生成模型算式。',panels=[dict(heading='① 第一項：偶數次方為正',text='(－√2)²＝(－√2)×(－√2)＝2。兩個負號相乘變正，根式平方也要一起計算。',caption='兩個負因數相乘，結果為正；示意的是正負，不是數值大小。',alt='新製兩個負號圓片合成一個正號的代數符號示意，沒有把根號數值當成片數。'),dict(heading='② 第二項：三個負因數仍為負',text='先算√4＝2，再算(－2)³＝－8。三次方是三個－2相乘，不能只因前面有加號就把這一項改成＋8。',alt='先將根號四化成二，再列負二的三次方等於負八的可選取運算流程。',diagram=dict(kind='flow',title='根式化簡與奇次方分兩步',items=[dict(label='√4＝2，所以底數是－2',detail='負號仍在括號內。',tone='blue'),dict(label='(－2)×(－2)×(－2)＝－8',detail='三個負因數，結果為負。',tone='gold')],arrow='依指數展開相乘')),dict(heading='③ 第三項：四次方是平方後再平方',text='(－√6)⁴＝[(－√6)²]²＝6²＝36。不能算到6就停止；原題指數是4，不是2。',alt='負根號六先平方為六，再平方為三十六的可選取兩階段運算圖。',diagram=dict(kind='flow',title='把四次方拆成兩次平方',items=[dict(label='(－√6)²＝6',detail='這只是先完成一次平方。',tone='blue'),dict(label='[(－√6)²]²＝6²＝36',detail='平方後還要再平方。',tone='green')],arrow='再平方一次'))],fourth=dict(answer='答案 B：2－8＋36＝30',points=['偶次方為正，奇次方保留負號。','三項分別為2、－8、36。','先算每一項，再相加；負號與根式都是底數的一部分。']),protectedWords=['(－√2)²','(－√4)³','(－√6)⁴','(－2)³','6²＝36','2－8＋36＝30','奇次方','偶次方','負因數'],createdAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),artSHA256=hashlib.sha256(svg.encode()).hexdigest())
+(D/'q-980.json').write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n')

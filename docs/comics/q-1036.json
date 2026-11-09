@@ -1,0 +1,92 @@
+{
+  "id": "q-1036",
+  "subject": "Chinese",
+  "title": "祝壽先看場合，再看女性長者身分",
+  "art": "docs/comics/art/q-1036.png",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "built-in image_gen; new refined colorful anime grandmother birthday and flower-basket greeting scenes",
+  "promptFile": "docs/comics/q-1036-prompt.txt",
+  "generationTiming": "docs/comics/q-1036-generation-timing.json",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1036-q-1036-original-dc22d4e3a703.jpg"
+  ],
+  "answerCheckedAgainst": "實開原卷7核對金曉奶奶七十大壽、花籃卡片與ABCD四題辭。教育部常用題辭表實讀：松柏長青一般祝壽，壽考宜家女壽；D最切合，不把B誤教為男壽專用或不能祝壽。",
+  "supportingSources": [
+    {
+      "title": "教育部國語辭典簡編本：常用題辭表",
+      "url": "https://dict.concised.moe.edu.tw/appendix.jsp?ID=11&la=0&page=7&powerMode=0",
+      "finding": "祝壽分類把松柏長青列一般祝壽，把壽考宜家列女壽。"
+    }
+  ],
+  "rationale": "以新細緻彩色動漫三個情境呈現在世奶奶祝壽、鄰居斟酌一般長壽祝福與送花；松樹可聯想長青但不畫成男性專用。精確題辭與分類全部由可選取HTML呈現，空白卡片不讓AI造中文字，生日場景只是輔助示意。",
+  "panels": [
+    {
+      "heading": "① 場合是祝壽，對象是奶奶",
+      "text": "金曉奶奶過七十大壽：先抓「在世長者的生日」，再抓「女性長者」。題目問最適合，不能只看到祝福意味就停下來。",
+      "alt": "在世的銀髮奶奶與家人愉快慶生，花籃卡片空白，點明生日與女性長者，非婚禮或哀輓。"
+    },
+    {
+      "heading": "② 松柏長青可祝壽，但較一般",
+      "text": "松柏長青比喻長壽不衰，可作一般祝壽賀辭。因此B不是不能送給奶奶；本題還要比較哪一個更貼合女性壽誕。",
+      "alt": "鄰居在花籃旁思考空白卡片內容，窗外松樹聯想長青；沒有把松柏畫成男性專用或錯誤符號。"
+    },
+    {
+      "heading": "③ 壽考宜家，最切合女壽",
+      "text": "壽考指高壽；D「壽考宜家」是女壽題辭，最貼合奶奶。A「花好月圓」常賀婚嫁；C「懿範長存」屬女性哀輓，兩者場合都不合。",
+      "alt": "鄰居將帶空白卡的花籃送給開心的奶奶，精確壽考宜家題辭由HTML補上，不讓生成字誤導。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：壽考宜家",
+    "points": [
+      "祝壽場合＋女性長者→選女壽題辭。",
+      "B松柏長青可一般祝壽，D在本題更貼切。",
+      "A婚嫁、C哀輓，與在世奶奶生日不合。"
+    ]
+  },
+  "protectedWords": [
+    "金曉奶奶",
+    "七十大壽",
+    "壽考宜家",
+    "松柏長青",
+    "花好月圓",
+    "懿範長存",
+    "女性長者",
+    "一般祝壽",
+    "女壽題辭"
+  ],
+  "createdAt": "2026-11-09T15:57:25.287047+00:00",
+  "artSHA256": "3ba4f827b60210fe0087328e9a6b4eb3beb092961caf924da26af6bd441a011a",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:59:01.545688+00:00",
+  "previewValidation": "docs/comics/q-1036-preview-validation.json",
+  "visualReview": "原卷7及新生成2172×724原圖與1440/1120/390三寬截圖均實開。銀髮女性慶生、鄰居斟酌與送花場景清楚，三卡片皆無可讀文字，松柏連結一般祝壽而非男壽專用；中文題辭及場合可讀、無溢出，原答案D。",
+  "nativeArt": "assets/comics/q-1036-art-3ba4f827b6-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:59:01.537781+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1036-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1036-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1036-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1036-standalone-390.png"
+    ],
+    "note": "原卷7奶奶七十壽/D女壽題辭實看，B可一般祝壽不誤教男性專用；新動漫慶生/思考/送花與HTML一致，正式app單頁桌手機四成品實看，六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1036-validation.json"
+}

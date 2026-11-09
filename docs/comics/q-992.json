@@ -1,0 +1,127 @@
+{
+  "id": "q-992",
+  "subject": "Geography",
+  "title": "增產原因與貨幣產值，不能倒著當因果",
+  "art": "docs/comics/art/q-992-cause-value.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new native SVG overall-trend illustration and selectable HTML cause-versus-value reasoning",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-992-original-05-93e295cc9ef8.jpg",
+    "site/dist/assets/questions/q-992-figure-05-aa7fac207ed0.jpg"
+  ],
+  "sourceReview": "correction-q-992-87ebe346dfbc (resolved)",
+  "answerCheckedAgainst": "實看原卷4與2003-2021糧食量圖、已resolved D，維持D。圖單位萬噸是實物產量；A技術/B規模/C機械有助增產，D貨幣產值本身不是直接原因，不改回原AI B。",
+  "rationale": "本題核心是圖的統計量與原因/結果邏輯，用新SVG概念趨勢和可選取HTML路徑比重畫年度資料或人物稻田更精確。輔助長條非原年值、不表示逐年單調，價格×產量只標單一產品示意，不能把農業總產值等同糧食量。",
+  "panels": [
+    {
+      "heading": "① 圖看的是糧食產量，單位萬噸",
+      "text": "原圖2003至2021年糧食產量整體增加。題目問促成這種變化的原因，先分清量的是產量，不是用金額表示的產值。",
+      "caption": "輔助趨勢示意：q為產量、t為時間；不是原年度數值，也不表示每年都增加。",
+      "alt": "新製整體上升但有一次回落的概念長條，無年度數值；原題真正圖表仍另外保留。"
+    },
+    {
+      "heading": "② 技術、規模、機械化都可能助增產",
+      "text": "改良技術、擴大經營規模與提高機械化程度，都可能提高效率、增加糧食產出。因此不能僅因有小農，就把B說成完全無關。",
+      "alt": "技術、經營規模、機械化三個可選取原因框，箭頭指向生產效率與產量可提高。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A、B、C是可能的生產端原因",
+        "items": [
+          {
+            "label": "A｜生產技術提升",
+            "detail": "改善生產方式與產出。",
+            "tone": "blue"
+          },
+          {
+            "label": "B｜經營規模擴大",
+            "detail": "可改善資源配置與效率。",
+            "tone": "green"
+          },
+          {
+            "label": "C｜機械化程度提高",
+            "detail": "提高作業效率。",
+            "tone": "gold"
+          }
+        ],
+        "target": "都可能促進糧食增產",
+        "arrow": "由生產端作用到產量"
+      }
+    },
+    {
+      "heading": "③ 產值提高，不能直接當成增產原因",
+      "text": "產值以金額計算，價格和產量都會影響它。產值提高可能伴隨產量增加，也可能有價格因素；本題D較不是直接促成增產的原因。",
+      "alt": "價格與產量兩個可選取因素通往單一產品產值，明示總產值還須加總其他產品，避免將產值等同產量。",
+      "diagram": {
+        "kind": "paths",
+        "title": "單一產品產值的概念",
+        "items": [
+          {
+            "label": "價格",
+            "detail": "即使產量不變，價格也可改變產值。",
+            "tone": "gold"
+          },
+          {
+            "label": "產量",
+            "detail": "產品實際生產多少。",
+            "tone": "blue"
+          }
+        ],
+        "target": "單一產品產值＝價格×產量",
+        "arrow": "共同決定金額",
+        "note": "農業總產值還要加總各項產品，不等同圖中的糧食產量。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：農業總產值提升",
+    "points": [
+      "原圖是實物產量，不是金額。",
+      "A、B、C可由生產端促進效率。",
+      "D的產值變化較偏發展結果，不能反過來直接當增產原因。"
+    ]
+  },
+  "protectedWords": [
+    "糧食產量",
+    "農業總產值",
+    "生產技術",
+    "經營規模",
+    "機械化",
+    "價格×產量",
+    "2003至2021年",
+    "生產端"
+  ],
+  "createdAt": "2026-11-09T15:50:37.410589+00:00",
+  "artSHA256": "593afbe7f4df135db838be140c07985a383915894ae64c42ec86aaf658623706",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:53:25.776189+00:00",
+  "previewValidation": "docs/comics/q-992-preview-validation.json",
+  "visualReview": "實開原卷及圖表，核對2003–2021、單位萬噸與四選項；實看1440/1120/390截圖，概念圖清楚標非年度原值，因果與產值兩路徑可辨讀，無溢出，維持已確認D。",
+  "nativeArt": "assets/comics/q-992-art-593afbe7f4.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:53:25.766361+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-992-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-992-app-390.png",
+      "/tmp/weirugo-comic-checks/q-992-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-992-standalone-390.png"
+    ],
+    "note": "實看原卷題4萬噸長條與全選項，保持使用者resolved D；新圖明示趨勢非年度值，生產端原因/產量/產值區分精確，app及單頁桌手機四成品實看，六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-992-validation.json"
+}

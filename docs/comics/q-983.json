@@ -1,0 +1,117 @@
+{
+  "id": "q-983",
+  "subject": "Math",
+  "title": "平方差先拆成和與差，再寫科學記號",
+  "art": "docs/comics/art/q-983-square-difference.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new precise native SVG square-difference area and selectable HTML integer/scientific-notation steps",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-983-original-02-0b68118ecfa4.jpg"
+  ],
+  "answerCheckedAgainst": "實看原卷11兩個7位整數1131911與1121911，獨立整數重算平方差22538220000=(2253822)(10000)=2.253822×10^10，n10，A。",
+  "rationale": "以原生幾何面積輔助平方差公式，精確數字與科學記號均用HTML校對。x/y方形只是公式示意，不按兩大數近乎相等的真比例畫寬L形；不使用人物或讓產圖模型算大數。",
+  "panels": [
+    {
+      "heading": "① 看出平方差，改成和乘差",
+      "text": "設x＝1131911、y＝1121911。x²－y²＝(x＋y)(x－y)，所以不必把兩個大數各自平方後再相減。",
+      "caption": "金色面積為x²－y²，x是大正方形邊長、y是小正方形邊長；示意非實際比例。",
+      "alt": "新製大正方形減小正方形的金色L形面積示意，邊以x、y標示；不聲稱圖寬代表實際大數比例。"
+    },
+    {
+      "heading": "② 先算和、差，再相乘",
+      "text": "兩數和為2253822，差為10000。相乘得到22538220000；差只有10000，不能把位數看錯或漏掉零。",
+      "alt": "兩大數和與差的精確HTML算式，和2253822乘差10000等於22538220000。",
+      "diagram": {
+        "kind": "flow",
+        "title": "平方差的兩個因數",
+        "items": [
+          {
+            "label": "x＋y＝2253822；x－y＝10000",
+            "detail": "先算和、差。",
+            "tone": "blue"
+          },
+          {
+            "label": "2253822×10000＝22538220000",
+            "detail": "乘10000，即乘10⁴。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "將兩個因數相乘"
+      }
+    },
+    {
+      "heading": "③ 係數先化到1以上、10以下",
+      "text": "22538220000＝2.253822×10¹⁰。係數2.253822符合1≤a＜10，所以n＝10；不是看到末尾四個零就把n當4。",
+      "alt": "由完整整數化成係數2.253822與10的十次方，檢查1≤a<10後確定n10的可選取流程。",
+      "diagram": {
+        "kind": "flow",
+        "title": "科學記號要同時檢查兩部分",
+        "items": [
+          {
+            "label": "a＝2.253822，符合1≤a＜10",
+            "detail": "小數點放在第一個非零數字後。",
+            "tone": "gold"
+          },
+          {
+            "label": "原值＝2.253822×10¹⁰",
+            "detail": "小數點共移10位，n＝10。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "再讀10的指數"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：n＝10",
+    "points": [
+      "x²－y²＝(x＋y)(x－y)。",
+      "2253822×10000＝22538220000。",
+      "標準科學記號為2.253822×10¹⁰。"
+    ]
+  },
+  "protectedWords": [
+    "1131911",
+    "1121911",
+    "2253822",
+    "10000",
+    "22538220000",
+    "2.253822",
+    "1≤a＜10",
+    "n＝10"
+  ],
+  "createdAt": "2026-11-09T15:45:12.677410+00:00",
+  "artSHA256": "cc503f10e9ef761f20560c3e1d56187867a599ce4c3af91ee0275c9eba73cd77",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:48:33.391412+00:00",
+  "previewValidation": "docs/comics/q-983-preview-validation.json",
+  "visualReview": "原卷11大數與四選項已實開，Python整數獨立驗算22538220000。新L形面積示意與HTML和差/科學記號在1440/1120/390逐張實看，圖標x/y且明示非實際比例，不錯把末四零當指數。三寬無溢出/保護數字拆行，手機自然高度，A n10。",
+  "nativeArt": "assets/comics/q-983-art-cc503f10e9.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:48:33.383776+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-983-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-983-app-390.png",
+      "/tmp/weirugo-comic-checks/q-983-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-983-standalone-390.png"
+    ],
+    "note": "原卷大數平方差/選項已實看，獨立重算和2253822/差10000/乘積22538220000，n10=A；正式桌手機app/單頁四成品清楚、L形面積非比例標示明確，六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-983-validation.json"
+}

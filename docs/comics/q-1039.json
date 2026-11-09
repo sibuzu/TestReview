@@ -1,0 +1,86 @@
+{
+  "id": "q-1039",
+  "subject": "Chinese",
+  "title": "從寫下到檢視、刪去，看見回望與整理",
+  "art": "docs/comics/art/q-1039.png",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "built-in image_gen; new refined colorful anime imagined poetic speaker at orchard path, night writing and morning revision",
+  "promptFile": "docs/comics/q-1039-prompt.txt",
+  "generationTiming": "docs/comics/q-1039-generation-timing.json",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1039-q-1039-original-9b2620d27b08.jpg"
+  ],
+  "sourceReview": "correction-q-1039-7b314a104114 (resolved)",
+  "answerCheckedAgainst": "實開原卷27全詩與四選項，夜裡寫詩→清晨檢視→慢慢刪去與你有關的字，對應D回望人事。保持已resolved原句與未印篇名，不把慢慢刪去改慢慢畫出，不杜撰詩人職業或情感生平。",
+  "rationale": "本詩以出發/停留與寫詩整理經驗形成內心動作，採新細緻彩色動漫呈現虛構敘述者的路途/夜寫/晨間檢視。畫中人物非席慕蓉肖像，果園非作者實際產業，空白紙只提供情境，精確動詞證據及答案由可選取HTML呈現。",
+  "panels": [
+    {
+      "heading": "① 出發、停留，都是生命經驗",
+      "text": "詩先談出發與停留，也喜歡歲月留下的色彩。這些意象鋪陳對生命的感受，不能直接推論作者經營背包客棧。",
+      "caption": "虛構詩中人物的輔助情境，非作者肖像或真實職業紀錄。",
+      "alt": "虛構女性敘述者行走果園與山間小徑，呼應出發和成長；沒有客棧或商業場景，不把意象當職業證據。"
+    },
+    {
+      "heading": "② 夜裡寫詩，清晨逐行檢視",
+      "text": "末節從夜裡寫一首長詩，到早上逐行逐段檢視，呈現回頭整理內心與經驗的過程。D的「透過寫詩回望」有明確文本支持。",
+      "alt": "虛構人物夜裡在燈下思索寫作，紙面無生成文字；精確詩句由HTML說明，不捏造篇名。"
+    },
+    {
+      "heading": "③ 慢慢刪去，仍是在面對曾經",
+      "text": "原句是「慢慢刪去」，不是畫出。刪去與你有關的字，也表示正在檢視、整理這段經驗；不等於從未回望，更不能說未經歲月的記憶都無價值。",
+      "alt": "清晨同一人物拿起紙張細讀，桌上有橡皮擦、手持鉛筆，輔助檢視修訂；不是畫出人物、摧毀回憶或作者生平重現。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：寫詩回望曾經的人與事",
+    "points": [
+      "寫下→檢視→刪去，形成回望與情感整理。",
+      "A內心純真、B全面否定記憶、C職業身分，都超出文本。",
+      "原卷只署席慕蓉，不補未證實篇名。"
+    ]
+  },
+  "protectedWords": [
+    "逐行逐段",
+    "慢慢刪去",
+    "回望",
+    "情感整理",
+    "背包客棧",
+    "席慕蓉",
+    "生命經驗",
+    "內心純真"
+  ],
+  "createdAt": "2026-11-09T16:01:24.622510+00:00",
+  "artSHA256": "25f874510599d6996fd6fd642e110d8f95e0ddbf9efedb067f9fae20f0ce7601",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T16:02:16.333667+00:00",
+  "previewValidation": "docs/comics/q-1039-preview-validation.json",
+  "visualReview": "原卷27全文/四選項、新生成2172×724原圖與1440/1120/390成品全實開。虛構人物路途/夜寫/晨間檢視清楚，無作者肖像/篇名/職業臆測，原句慢慢刪去未被改成畫出。桌手機文字可讀、無溢出與保護詞拆行，D沿已確認。",
+  "nativeArt": "assets/comics/q-1039-art-25f8745105-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T16:02:16.326002+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1039-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1039-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1039-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1039-standalone-390.png"
+    ],
+    "note": "實看原卷詩全文/選項，慢慢刪去與D文意維持；新動漫為虛構敘述者、未補篇名生平職業，app單頁桌手機四成品實看、六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1039-validation.json"
+}

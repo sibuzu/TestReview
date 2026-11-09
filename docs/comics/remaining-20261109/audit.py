@@ -10,6 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import struct
 
 ROOT = Path(__file__).resolve().parents[3]
 DIRECTORY = Path(__file__).resolve().parent
@@ -31,6 +32,18 @@ def audit():
     outside_document = read(DIRECTORY / 'outside-scope-baseline.json')
     outside_baseline = outside_document['records']
     data = read(ROOT / 'site/dist/data.json')
+    asset_map = read(ROOT / 'site/asset-map.json')
+    def referenced_assets(value):
+        if isinstance(value, str) and value.startswith('assets/'):
+            yield value
+        elif isinstance(value, dict):
+            for child in value.values():
+                yield from referenced_assets(child)
+        elif isinstance(value, list):
+            for child in value:
+                yield from referenced_assets(child)
+    data_assets = set(referenced_assets(data))
+    missing_assets = sorted(p for p in data_assets if not existing('site/dist/' + p))
     all_originals = [c for q in data['questions'] for c in (q.get('groupQuestions') or [q])]
     originals = {c['id']: c for c in all_originals}
     canonical_hash = lambda value: hashlib.sha256(json.dumps(
@@ -110,6 +123,20 @@ def audit():
         if art.is_file() and spec.get('artSHA256'):
             require(hashlib.sha256(art.read_bytes()).hexdigest() == spec['artSHA256'],
                     'editable artwork changed after review')
+        png_size = None
+        if art.is_file() and art.suffix.lower() == '.png':
+            raw = art.read_bytes()
+            require(raw.startswith(b'\x89PNG\r\n\x1a\n'), 'raw raster format is not PNG')
+            if raw.startswith(b'\x89PNG\r\n\x1a\n'):
+                png_size = struct.unpack('>II', raw[16:24])
+            provenance = next((r for r in asset_map.values()
+                               if r.get('web') == comic.get('art')), {})
+            require(provenance.get('originalSHA256') == hashlib.sha256(raw).hexdigest()
+                    and provenance.get('mode') == 'quality88-original-dimensions',
+                    'WebP provenance/quality policy does not match reviewed raw art')
+            require(bool(provenance.get('originalArchive'))
+                    and existing(provenance.get('originalArchive', '')),
+                    'original raster archive missing')
         for field, stage in [('previewValidation', 'isolated'), ('validationFile', 'formal')]:
             evidence = ROOT / spec.get(field, '__missing_' + field + '__')
             require(evidence.is_file(), stage + ' QA evidence missing')
@@ -125,6 +152,11 @@ def audit():
                          for width in (1440, 1120, 390)}.issubset(combinations),
                         'app/standalone three-width coverage missing')
             for result in checked:
+                if stage == 'formal' and png_size:
+                    require(bool(result.get('artImages'))
+                            and all((i.get('width'), i.get('height')) == png_size
+                                    for i in result['artImages']),
+                            'published raster dimensions differ from original')
                 if stage == 'formal' and qid in group_coverage:
                     expected_group = set(group_coverage[qid])
                     covered = False
@@ -173,7 +205,9 @@ def audit():
     report['outsideScopeRecordsPreserved'] = len(outside_baseline) - len(outside_changes)
     report['outsideScopeChanges'] = outside_changes
     report['outsideScopeDerivedNavigationChanges'] = derived_only_changes
-    report['passed'] = report['passed'] and require_counts and not outside_changes
+    report['dataAssetReferences'] = len(data_assets)
+    report['missingDataAssets'] = missing_assets
+    report['passed'] = report['passed'] and require_counts and not outside_changes and not missing_assets
     (DIRECTORY / 'completion-audit.json').write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     return report

@@ -1,0 +1,135 @@
+{
+  "id": "q-1040",
+  "subject": "Chinese",
+  "title": "順著原文：先累積財富，再主動散財",
+  "art": "docs/comics/art/q-1040-assets.svg",
+  "generationMethod": "new native SVG qualitative asset trend and selectable HTML text-evidence timeline/comparison",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1040-q-1040-original-7a2e07b85742.jpg",
+    "site/dist/assets/questions/q-1040-q-1040-options-5ae26002279f.jpg"
+  ],
+  "answerCheckedAgainst": "實看原卷31全文/註釋/原ABCD曲線，D先增後減；圖僅趨勢不補金額/年齡，不把散財誤作經營失敗。",
+  "rationale": "本題要求把文言時序映射資產曲線，原生SVG與HTML引用/箭頭比人物外觀更能精確呈現先增後減；只畫定性變化，保留真正四圖，無任意金額或年齡。",
+  "panels": [
+    {
+      "heading": "① 先從文章找三個時間點",
+      "text": "起初「家用不足」，後來經營田牧而「畜數千頭，穀數萬斛」，接著「乃盡散於親舊」。按這個順序看，資產先增加、後減少。",
+      "alt": "原文家用不足到累積畜穀再散財給親舊的可選取HTML時序證據圖。",
+      "diagram": {
+        "kind": "flow",
+        "title": "原文證據依次排列",
+        "items": [
+          {
+            "label": "少時｜家用不足",
+            "detail": "先交代家庭用度不足。",
+            "tone": "blue"
+          },
+          {
+            "label": "後來｜畜數千頭，穀數萬斛",
+            "detail": "經營後累積財富。",
+            "tone": "gold"
+          },
+          {
+            "label": "接著｜乃盡散於親舊",
+            "detail": "把財產分送親友故舊。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "依文章先後，不倒置"
+      }
+    },
+    {
+      "heading": "② 把時序換成先升、後降的曲線",
+      "text": "橫軸依原圖看年齡向右增加，縱軸看資產多寡。先累積財富使曲線上升，後來散財使曲線下降，對應D的形狀。",
+      "caption": "輔助趨勢圖：右向為年齡增加，上向為資產較多；不表示確切年齡、金額或每年變動。",
+      "alt": "新製資產先增加後減少的定性曲線，未加年齡刻度與金額；完整原卷四圖另外保留。"
+    },
+    {
+      "heading": "③ 下降是主動散財，並非經營失敗",
+      "text": "「貴其能賑施也」說明他認為財產貴在救濟施助，所以主動散財。A漏掉後減，B漏掉先增，C的順序相反；D才兼顧兩段。",
+      "alt": "可選取HTML比較A只升B只降C先降後升與原文不合，再指出D符合時序。",
+      "diagram": {
+        "kind": "flow",
+        "title": "用兩階段檢查四個選項",
+        "items": [
+          {
+            "label": "A只升；B只降",
+            "detail": "各漏掉原文一個階段。",
+            "tone": "blue"
+          },
+          {
+            "label": "C先降後升；D先升後降",
+            "detail": "D符合累積→散財的順序。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "完整比對增減與先後"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：資產先增加、後減少",
+    "points": [
+      "家用不足→經營累積→散於親舊。",
+      "減少出於救濟施助的選擇，不是經營失敗。",
+      "只判趨勢，不從示意曲線推年齡或金額。"
+    ]
+  },
+  "protectedWords": [
+    "馬援",
+    "家用不足",
+    "乃盡散於親舊",
+    "親友故舊",
+    "田牧",
+    "資產",
+    "年齡",
+    "先增加",
+    "後減少",
+    "賑施"
+  ],
+  "producerAgent": "/root/comic_lane_1",
+  "createdAt": "2026-11-09T16:00:50.921305+00:00",
+  "artSHA256": "7610d349ecfcbbaafbfaf5ae307d6c6a3ca6b95d6ee8928b4766a8ad7e35dbd9",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-1040-preview-validation.json",
+  "visualReview": "原卷31全文與原四圖、隔離1440/390成品實看，定性先增後減/D與散財原因清楚；三寬PASS，沒有曲線反推金額/年齡。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-1040-1440.png",
+      "/tmp/weirugo-comic-previews/q-1040-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-1040-art-7610d349ec.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T16:01:46.001915+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1040-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1040-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1040-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1040-standalone-390.png"
+    ],
+    "note": "原卷31全文/註釋/四曲線實看，先家用不足後畜穀累積再盡散親舊，定性先增後減D與主動散財原因正確；app單頁桌手機四成品實看、六布局PASS，不補數值與年齡。"
+  },
+  "validationFile": "docs/comics/q-1040-validation.json",
+  "checkedAt": "2026-11-09T16:01:46.011888+00:00"
+}

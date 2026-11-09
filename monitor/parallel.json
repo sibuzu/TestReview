@@ -2,14 +2,14 @@
   "mode": "one_comic_producer_one_integrator_scoped_goal",
   "workerLimit": 3,
   "rootRole": "持續goal協調、使用者回覆與確認處理",
-  "updatedAt": "2026-11-09T15:34:32.978541+00:00",
+  "updatedAt": "2026-11-09T16:04:19.062687+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
       "title": "等待下一批整合",
       "state": "preparing",
-      "startedAt": "2026-11-09T15:28:16.355405+00:00",
+      "startedAt": "2026-11-09T16:02:28.736314+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "claimsPaused": false,
@@ -30,10 +30,10 @@
     },
     {
       "lane": 3,
-      "questionId": "q-1028",
-      "title": "地理第47題｜人口新聞中的國家判讀",
+      "questionId": "q-1041",
+      "title": "國文第36題｜特殊動物咖啡廳的共同觀點",
       "state": "running",
-      "startedAt": "2026-11-09T15:33:45.959671+00:00",
+      "startedAt": "2026-11-09T16:01:42.651317+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": false,
@@ -41,76 +41,10 @@
       "pauseReason": ""
     }
   ],
-  "ready": [
-    {
-      "id": "q-1010",
-      "title": "地理第31題｜臺灣南部的全年日照",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-09T15:29:08.208525+00:00",
-      "jobId": "job-fa959957d0244b5281ddc1ef12113991",
-      "readyAt": "2026-11-09T15:32:04.730657+00:00",
-      "decision": "complete",
-      "reason": "全新精確SVG能量/季風剖面/月序四格，CWA氣候查核；原卷與三寬成品實看通過，B乙且不猜原數值。",
-      "evidence": [
-        "docs/comics/q-1010.json",
-        "docs/comics/q-1010-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1013",
-      "title": "地理第33題｜區域醫院的分區加總",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-09T15:32:04.792764+00:00",
-      "jobId": "job-924257a156be4adbadebb7c5050454cb",
-      "readyAt": "2026-11-09T15:33:45.897175+00:00",
-      "decision": "complete",
-      "reason": "新精確SVG28:25:22:3長條與HTML分區加總四格，原卷各數/獨立重算及三寬成品實看通過，B且不以現況換原某年資料。",
-      "evidence": [
-        "docs/comics/q-1013.json",
-        "docs/comics/q-1013-preview-validation.json"
-      ]
-    }
-  ],
-  "integrated": 925,
+  "ready": [],
+  "integrated": 945,
   "blocked": [],
-  "waiting": [
-    {
-      "id": "q-1010",
-      "title": "地理第31題｜臺灣南部的全年日照",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-09T15:29:08.208525+00:00",
-      "jobId": "job-fa959957d0244b5281ddc1ef12113991",
-      "readyAt": "2026-11-09T15:32:04.730657+00:00",
-      "decision": "complete",
-      "reason": "全新精確SVG能量/季風剖面/月序四格，CWA氣候查核；原卷與三寬成品實看通過，B乙且不猜原數值。",
-      "evidence": [
-        "docs/comics/q-1010.json",
-        "docs/comics/q-1010-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1013",
-      "title": "地理第33題｜區域醫院的分區加總",
-      "subject": "Geography",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-09T15:32:04.792764+00:00",
-      "jobId": "job-924257a156be4adbadebb7c5050454cb",
-      "readyAt": "2026-11-09T15:33:45.897175+00:00",
-      "decision": "complete",
-      "reason": "新精確SVG28:25:22:3長條與HTML分區加總四格，原卷各數/獨立重算及三寬成品實看通過，B且不以現況換原某年資料。",
-      "evidence": [
-        "docs/comics/q-1013.json",
-        "docs/comics/q-1013-preview-validation.json"
-      ]
-    }
-  ],
+  "waiting": [],
   "integrating": [],
   "held": [],
   "integrationLimit": 1,

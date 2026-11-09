@@ -1,0 +1,105 @@
+{
+  "id": "q-984",
+  "subject": "Geography",
+  "title": "先認金門、澎湖、蘭嶼，再找原圖代號",
+  "art": "docs/comics/art/q-984-island-positions.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new native SVG simplified relative island positions and selectable HTML clue-to-code mapping",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-984-q-16-original-d516e923095b.png",
+    "site/dist/assets/questions/q-984-q-16-map-465d452d72d0.png"
+  ],
+  "answerCheckedAgainst": "實看原卷16三行程、六處代號附圖與四選項，古寧頭/高粱→金門乙，柱狀玄武岩→澎湖丙，達悟拼板舟/大天池→蘭嶼己，C。新圖不改原圖字母。",
+  "supportingSources": [
+    {
+      "title": "金門觀光旅遊網：古寧頭戰史館",
+      "url": "https://kinmen.travel/zh-tw/news/details/3871",
+      "finding": "古寧頭戰史館在金門，確認行程一地區；不引用目前開放狀態作原題資訊。"
+    },
+    {
+      "title": "澎湖國家風景區：觀光遊憩景點中英日譯表",
+      "url": "https://www.penghu-nsa.gov.tw/FileDownLoad/FileUpload/20160922224051254852.pdf",
+      "finding": "澎湖大菓葉與池西柱狀玄武岩為列名景點。"
+    },
+    {
+      "title": "臺東觀光旅遊網：蘭嶼深度旅遊培訓",
+      "url": "https://tour.taitung.gov.tw/zh-tw/news/details/5376",
+      "finding": "達悟拼板舟文化屬蘭嶼在地文化，核對行程三。"
+    }
+  ],
+  "rationale": "本題解答需要地理相對位置與原圖代號，採新簡化SVG方位圖與中文線索映射，優先於容易錯畫特定場館或達悟舟紋樣的生成場景。紅點各自代表本格島嶼，N箭頭和中文caption明示方向；圖為輔助、不替換原卷六字母圖，沒有旅遊即時開放承諾。",
+  "panels": [
+    {
+      "heading": "① 行程一：古寧頭、高粱酒→金門",
+      "text": "古寧頭戰史館與戰地史蹟是最有辨識力的線索，對應金門。回原題地圖，金門的代號是乙，不是馬祖的甲。",
+      "caption": "上北下南；紅點＝金門，位於臺灣本島西側。原圖代號乙。",
+      "alt": "新製臺灣本島輪廓及西側金門紅點的簡化相對位置圖，N向上，不是精確地圖。"
+    },
+    {
+      "heading": "② 行程二：柱狀玄武岩→澎湖",
+      "text": "題文把壯闊柱狀玄武岩與水上活動合在一起，指向澎湖，原圖代號丙。不要只抓水上活動，就誤選其他離島。",
+      "caption": "紅點＝澎湖，在臺灣海峽中。原圖代號丙；相對位置輔助示意。",
+      "alt": "新製臺灣本島與臺灣海峽中澎湖紅點的簡化相對位置圖，不新增原圖代號。"
+    },
+    {
+      "heading": "③ 行程三：達悟拼板舟、大天池→蘭嶼",
+      "text": "達悟族拼板舟與大天池的組合指向蘭嶼，原圖代號己。蘭嶼在臺灣東南方，不是同在東側、但較北的綠島戊。",
+      "caption": "紅點＝蘭嶼，位於臺灣東南外海。原圖代號己；非比例尺地圖。",
+      "alt": "新製臺灣本島與東南外海蘭嶼紅點的簡化相對位置圖，與原題己的位置相符。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：乙→丙→己",
+    "points": [
+      "金門乙→澎湖丙→蘭嶼己。",
+      "先以代表景點、地形、族群辨認島名。",
+      "再對原題六個代號，按行程順序連起來。"
+    ]
+  },
+  "protectedWords": [
+    "古寧頭",
+    "柱狀玄武岩",
+    "達悟族",
+    "拼板舟",
+    "大天池",
+    "金門",
+    "澎湖",
+    "蘭嶼",
+    "綠島",
+    "乙→丙→己"
+  ],
+  "createdAt": "2026-11-09T15:41:08.325060+00:00",
+  "artSHA256": "684a14a377e6829d31766f18609b1517de16409427c7d8c1ad58acf3861e67d9",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:44:25.467606+00:00",
+  "previewValidation": "docs/comics/q-984-preview-validation.json",
+  "visualReview": "完整原卷16三行程與六代號原圖已實開；新SVG金門/澎湖/蘭嶼相對位置三圖在1440/1120/390全實看。N向上、紅點與中文caption一一對應，乙/丙/己完全沿原圖，不自行重編。圖明示簡化非比例尺，沒借生成物猜舟紋樣或場館。三寬無溢出/保護詞拆行，手機自然高度，C。",
+  "nativeArt": "assets/comics/q-984-art-684a14a377.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:44:25.459368+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-984-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-984-app-390.png",
+      "/tmp/weirugo-comic-checks/q-984-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-984-standalone-390.png"
+    ],
+    "note": "原卷行程表/六代號圖已實看；正式app與單頁桌機手機四成品可辨讀，三紅點/N方向及HTML乙丙己相符，C保留；輔助地圖清楚標非比例尺，無溢出。"
+  },
+  "validationFile": "docs/comics/q-984-validation.json"
+}

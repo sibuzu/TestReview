@@ -1,0 +1,124 @@
+{
+  "id": "q-1045",
+  "subject": "Physics-Chemistry",
+  "title": "橫軸排濃度，縱軸排時間倒數",
+  "art": "docs/comics/art/q-1045-concentration.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new selectable HTML dilution and reciprocal-time diagrams plus precise native SVG scatter trend",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1045-q-1045-original-ab202754aa9b.jpg",
+    "site/dist/assets/questions/q-1045-q-1045-figure-c145f92f2b81.jpg"
+  ],
+  "answerCheckedAgainst": "實看第23題原表30/10、20/20、10/30 mL與四圖，三組混合體積40mL，濃度III<II<I；反應速率為固定一瓶氧氣/時間，不是時間；B。原題無時間或速率數字，沒有補造。",
+  "rationale": "實驗圖表教學用可選取中文與原生散點圖，直接標出濃度、反應速率、體積及單位。不採人物圖或原AI重繪，不補造速度數值，不用直線暗示已證實精確正比。",
+  "panels": [
+    {
+      "heading": "① 總體積相同，原液多的濃度高",
+      "text": "三組都由相同35%原液配水，混合體積都是40 mL。I原液最多、III最少，所以濃度由低到高為III、II、I。",
+      "alt": "I用30mL原液和10mL水，II用20加20，III用10加30；可選取文字按濃度III至I排序。",
+      "diagram": {
+        "kind": "paths",
+        "title": "三組原液＋蒸餾水（mL）",
+        "items": [
+          {
+            "label": "I：30＋10＝40 mL",
+            "detail": "原液最多，濃度最高。",
+            "tone": "green"
+          },
+          {
+            "label": "II：20＋20＝40 mL",
+            "detail": "濃度居中。",
+            "tone": "blue"
+          },
+          {
+            "label": "III：10＋30＝40 mL",
+            "detail": "原液最少，濃度最低。",
+            "tone": "gold"
+          }
+        ],
+        "target": "濃度：III＜II＜I",
+        "arrow": "同總體積，依原液多少比較"
+      }
+    },
+    {
+      "heading": "② 時間越短，時間倒數越大",
+      "text": "使用相同規格廣口瓶，收集同樣一瓶氧氣。其他反應條件相同時，濃度越高反應越快，收集時間越短，1/時間反而越大。",
+      "alt": "濃度提高導致收集時間縮短，再由倒數定義得到反應速率增加的可選取流程。",
+      "diagram": {
+        "kind": "flow",
+        "title": "本題縱軸是反應速率",
+        "items": [
+          {
+            "label": "濃度提高 → 收集時間較短",
+            "detail": "比較相同一瓶氧氣。",
+            "tone": "blue"
+          },
+          {
+            "label": "反應速率＝1/收集時間",
+            "detail": "單位：瓶/s；時間短，倒數大。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "把時間換成其倒數"
+      }
+    },
+    {
+      "heading": "③ 兩軸都排對，才會得到B",
+      "text": "圖中c代表濃度，v代表反應速率。由左至右III、II、I，點位由低至高，符合B；D把時間較短誤畫成速率較低。",
+      "alt": "新製散點趨勢圖：橫軸濃度c向右增大，縱軸反應速率v向上增大；III左下、II中間、I右上。無速率刻度，未以線段聲稱精確正比。",
+      "caption": "橫軸c→雙氧水濃度（%）；縱軸v↑反應速率（瓶/s）。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：III、II、I依序上升",
+    "points": [
+      "濃度排序：III＜II＜I。",
+      "時間短不等於速率小；1/時間反而大。",
+      "原表沒給時間或速率數字，只判趨勢，不補造數據。"
+    ]
+  },
+  "protectedWords": [
+    "III＜II＜I",
+    "雙氧水",
+    "反應速率",
+    "收集時間",
+    "蒸餾水",
+    "40 mL",
+    "瓶/s",
+    "1/收集時間"
+  ],
+  "createdAt": "2026-11-09T14:54:52.325375+00:00",
+  "artSHA256": "b86b195b0f5daa7cd0ce7332a42ab4c8a14017f0a652c1de2417140770519237",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T14:57:58.284634+00:00",
+  "previewValidation": "docs/comics/q-1045-preview-validation.json",
+  "visualReview": "實開原卷第23題表格與四散點圖；三寬成品1440/1120/390均實看。濃度III<II<I、圖中III左下/I右上、橫軸c與縱軸v由可選取中文明確標明單位，無速率刻度或偽造時間；HTML流程正確區分時間縮短與倒數變大。三寬無溢出，同行等高/手機自然高度。",
+  "nativeArt": "assets/comics/q-1045-art-b86b195b0f.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T14:57:58.277132+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1045-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1045-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1045-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1045-standalone-390.png"
+    ],
+    "note": "實開原表與全部四圖，正式app/單頁桌手機4張實看：濃度III<II<I、時間倒數與上升散點B一致；未填原表空格或造時間數值，3寬6布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1045-validation.json"
+}

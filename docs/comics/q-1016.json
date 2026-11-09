@@ -1,0 +1,91 @@
+{
+  "id": "q-1016",
+  "subject": "Civics",
+  "title": "誰親自投，和選擇是否保密，是兩個問題",
+  "art": "docs/comics/art/q-1016.png",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "built-in image_gen; fresh detailed colorful anime three-scene strip",
+  "promptFile": "docs/comics/q-1016-prompt.txt",
+  "generationTiming": "docs/comics/q-1016-generation-timing.json",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1016-original-13-5d27149afe03.jpg"
+  ],
+  "answerCheckedAgainst": "原卷第38題及已resolved的correction-q-1016-4fb2d408c391重新讀取：C直接；保留教材本人投票分類和直接選舉嚴格定義之限制，不因背景匿名性改D，不重問已確認內容。",
+  "sourceReview": "correction-q-1016-4fb2d408c391 (resolved)",
+  "rationale": "本人使用電腦、隱藏選擇與課堂辨別兩件事可藉細緻動漫情境直觀區分。新圖不描繪真實愛沙尼亞網站、身分驗證介面或法規程序；精確原則、答案及概念限制全用可選取HTML，不把匿名畫成不確認資格或把身分驗證等同直接選舉。",
+  "panels": [
+    {
+      "heading": "① 題目最後問的是誰在投票",
+      "text": "永樂問「如何確認是由選民本人投票」。重點是選民親自行使投票權，避免由別人代投；依本題教材分類，對應C直接。",
+      "alt": "成年選民親自操作自己的電腦，旁人沒有代為操作，表示本人行使投票權的示意情境。"
+    },
+    {
+      "heading": "② 無記名，保護的是投票選擇",
+      "text": "無記名關心選民投給誰是否保密。可以先確認投票資格，再保護選擇不被他人知道；這與確認本人投票不衝突。",
+      "alt": "同一選民在遮擋視線的隔板後使用電腦，臉並未遮掩，但投票選擇不向旁人公開。"
+    },
+    {
+      "heading": "③ 讀最後疑問，不被匿名性帶走",
+      "text": "簡報的匿名性是背景，最後問的是本人投票。直接選舉嚴格說是選民直接決定當選者、不經另一層代選，不能把任何身分驗證都等同直接選舉。",
+      "alt": "學生與老師比較本人操作電腦和選擇保密兩種概念圖，板上無法規文字或答案。"
+    }
+  ],
+  "fourth": {
+    "answer": "原卷預期 C：直接",
+    "points": [
+      "本人投票：避免別人代投。",
+      "無記名：保密投給誰，不表示免驗資格。",
+      "本題採教材分類，仍保留直接選舉不經代選的核心定義。"
+    ]
+  },
+  "protectedWords": [
+    "本人投票",
+    "無記名",
+    "直接選舉",
+    "匿名性",
+    "身分驗證",
+    "投票資格",
+    "教材分類"
+  ],
+  "createdAt": "2026-11-09T14:59:30.602866+00:00",
+  "artSHA256": "7eeac6d332c60d2dc4cd633f19c370d0b78c3931cbf7910f61a51277f8776c82",
+  "supportingSources": [
+    {
+      "title": "中選會投票須知",
+      "url": "https://web.cec.gov.tw/api/file/4c8d6cd9-8328-435d-b8af-3168699380bc.pdf",
+      "finding": "親自投票，不得委託代投；沿用原題已查核及使用者已確認的教學限制。"
+    }
+  ],
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:04:30.446820+00:00",
+  "previewValidation": "docs/comics/q-1016-preview-validation.json",
+  "visualReview": "原卷第38題及既有resolved確認已實讀；新2172×724無字三格動漫原圖與1440/1120/390隔離成品均實看。本人操作/選擇保密/課堂釐清三情境清楚，無虛構真實愛沙尼亞介面。HTML維持C及嚴格直接選舉定義限制，無溢出、保護詞斷裂，手機自然高度。",
+  "nativeArt": "assets/comics/q-1016-art-7eeac6d332-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:04:30.439580+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1016-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1016-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1016-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1016-standalone-390.png"
+    ],
+    "note": "實開原卷38題與app/單頁1440/390正式四圖；新動漫呈本人操作與保密選擇兩概念，已確認C與直接選舉嚴格定義限制皆照留，無真實介面誤導；三寬6布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1016-validation.json"
+}

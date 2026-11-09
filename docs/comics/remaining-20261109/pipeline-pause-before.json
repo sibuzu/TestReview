@@ -1,0 +1,53 @@
+{
+  "retryHistory": [
+    {
+      "id": "q-467",
+      "title": "理化第19題｜同高度不同質量的自由落體時間",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-10-28T16:47:18.819832+00:00",
+      "readyAt": "2026-10-28T16:48:55.821919+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "原卷第19題為15公克鋁球，題庫誤錄鐵球；答案A不變，但題幹/詳解材料需訂正並登錄確認，暫不製圖",
+      "evidence": [
+        "docs/comics/q-467-review.json"
+      ],
+      "releasedAt": "2026-10-28T19:00:45.246487+00:00",
+      "resolutionId": "correction-q-467-526d07be836b"
+    },
+    {
+      "id": "q-469",
+      "title": "理化第39題｜由x–t圖判斷相對原點的位移",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-10-28T16:48:55.864533+00:00",
+      "readyAt": "2026-10-28T16:49:38.871113+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "原卷問出發點相對原點，題庫誤錄終點；答案B碰巧不變，題幹和詳解參照點需訂正",
+      "evidence": [
+        "docs/comics/q-469-review.json"
+      ],
+      "releasedAt": "2026-10-28T19:00:45.246487+00:00",
+      "resolutionId": "correction-q-469-e16bb4a9b03d"
+    }
+  ],
+  "claimsPaused": true,
+  "pauseRequestedAt": "2026-10-28T23:47:54.096248+00:00",
+  "pauseReason": "GPT58／59／60全14份已完成正式QA整合，不接舊佇列。",
+  "pauseDrainIds": [
+    "q-038",
+    "q-039",
+    "q-040",
+    "q-177",
+    "q-178",
+    "q-179",
+    "q-180",
+    "q-182"
+  ],
+  "pausedAt": "2026-11-05T15:31:50.803865+00:00",
+  "resumedAt": "2026-11-05T15:00:41.175416+00:00",
+  "resumeReason": "GPT59四個核定真錯題已正式入庫，僅lane3製q961–964；其餘來源仍核稿，不領舊題。",
+  "nextIntegrationSequence": 905
+}

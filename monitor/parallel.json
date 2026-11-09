@@ -1,102 +1,116 @@
 {
-  "mode": "two_source_producers_one_integrator_scoped_batch",
+  "mode": "one_comic_producer_one_integrator_scoped_goal",
   "workerLimit": 3,
-  "rootRole": "使用者回覆、原圖存取與本批協調",
-  "updatedAt": "2026-11-08T13:28:23.824529+00:00",
+  "rootRole": "持續goal協調、使用者回覆與確認處理",
+  "updatedAt": "2026-11-09T15:34:32.978541+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "本批35題面／36原問與正式QA已推送；新圖解獨立待製",
-      "state": "complete",
-      "startedAt": "2026-11-08T13:03:44.993460+00:00",
+      "title": "等待下一批整合",
+      "state": "preparing",
+      "startedAt": "2026-11-09T15:28:16.355405+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": true,
-      "batchQuestionIds": [
-        "q-979",
-        "q-980",
-        "q-981",
-        "q-982",
-        "q-983",
-        "q-984",
-        "q-985",
-        "q-986",
-        "q-987",
-        "q-988",
-        "q-989",
-        "q-990",
-        "q-991",
-        "q-992",
-        "q-993",
-        "q-994",
-        "q-995",
-        "q-996",
-        "q-997",
-        "q-998",
-        "q-999",
-        "q-1001",
-        "q-1002",
-        "q-1004",
-        "q-1005",
-        "q-1007",
-        "q-1008",
-        "q-1010",
-        "q-1013",
-        "q-1016",
-        "q-1019",
-        "q-1022",
-        "q-1025",
-        "q-1028",
-        "q-1031",
-        "q-1034"
-      ],
-      "activeTask": {
-        "title": "本批35題面／36原問與正式QA已推送；新圖解獨立待製",
-        "state": "complete",
-        "startedAt": "2026-11-08T13:03:44.993460+00:00"
-      },
-      "pauseReason": "僅處理本次使用者指定來源，不接舊佇列"
+      "claimsPaused": false,
+      "batchQuestionIds": [],
+      "pauseReason": ""
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "本次指定來源已完整交稿；不接舊佇列",
-      "state": "complete",
-      "startedAt": "2026-11-08T13:03:44.993460+00:00",
+      "title": "使用者先前指定Agent2交稿後暫停，本次未另行解除",
+      "state": "paused",
+      "startedAt": null,
       "agent": "/root/comic_lane_2",
-      "role": "import",
+      "role": "production",
       "claimsPaused": true,
       "batchQuestionIds": [],
-      "pauseReason": "僅處理本次使用者指定來源，不接舊佇列",
-      "activeTask": {
-        "title": "本次指定來源已完整交稿；不接舊佇列",
-        "state": "complete",
-        "startedAt": "2026-11-08T13:03:44.993460+00:00"
-      }
+      "pauseReason": "使用者先前指定Agent2交稿後暫停，本次未另行解除"
     },
     {
       "lane": 3,
-      "questionId": null,
-      "title": "本次指定來源已完整交稿；不接舊佇列",
-      "state": "complete",
-      "startedAt": "2026-11-08T13:03:44.993460+00:00",
+      "questionId": "q-1028",
+      "title": "地理第47題｜人口新聞中的國家判讀",
+      "state": "running",
+      "startedAt": "2026-11-09T15:33:45.959671+00:00",
       "agent": "/root/comic_lane_3",
-      "role": "import",
-      "claimsPaused": true,
+      "role": "production",
+      "claimsPaused": false,
       "batchQuestionIds": [],
-      "pauseReason": "僅處理本次使用者指定來源，不接舊佇列",
-      "activeTask": {
-        "title": "本次指定來源已完整交稿；不接舊佇列",
-        "state": "complete",
-        "startedAt": "2026-11-08T13:03:44.993460+00:00"
-      }
+      "pauseReason": ""
     }
   ],
-  "ready": [],
-  "integrated": 905,
+  "ready": [
+    {
+      "id": "q-1010",
+      "title": "地理第31題｜臺灣南部的全年日照",
+      "subject": "Geography",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-09T15:29:08.208525+00:00",
+      "jobId": "job-fa959957d0244b5281ddc1ef12113991",
+      "readyAt": "2026-11-09T15:32:04.730657+00:00",
+      "decision": "complete",
+      "reason": "全新精確SVG能量/季風剖面/月序四格，CWA氣候查核；原卷與三寬成品實看通過，B乙且不猜原數值。",
+      "evidence": [
+        "docs/comics/q-1010.json",
+        "docs/comics/q-1010-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-1013",
+      "title": "地理第33題｜區域醫院的分區加總",
+      "subject": "Geography",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-09T15:32:04.792764+00:00",
+      "jobId": "job-924257a156be4adbadebb7c5050454cb",
+      "readyAt": "2026-11-09T15:33:45.897175+00:00",
+      "decision": "complete",
+      "reason": "新精確SVG28:25:22:3長條與HTML分區加總四格，原卷各數/獨立重算及三寬成品實看通過，B且不以現況換原某年資料。",
+      "evidence": [
+        "docs/comics/q-1013.json",
+        "docs/comics/q-1013-preview-validation.json"
+      ]
+    }
+  ],
+  "integrated": 925,
   "blocked": [],
-  "waiting": [],
+  "waiting": [
+    {
+      "id": "q-1010",
+      "title": "地理第31題｜臺灣南部的全年日照",
+      "subject": "Geography",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-09T15:29:08.208525+00:00",
+      "jobId": "job-fa959957d0244b5281ddc1ef12113991",
+      "readyAt": "2026-11-09T15:32:04.730657+00:00",
+      "decision": "complete",
+      "reason": "全新精確SVG能量/季風剖面/月序四格，CWA氣候查核；原卷與三寬成品實看通過，B乙且不猜原數值。",
+      "evidence": [
+        "docs/comics/q-1010.json",
+        "docs/comics/q-1010-preview-validation.json"
+      ]
+    },
+    {
+      "id": "q-1013",
+      "title": "地理第33題｜區域醫院的分區加總",
+      "subject": "Geography",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-09T15:32:04.792764+00:00",
+      "jobId": "job-924257a156be4adbadebb7c5050454cb",
+      "readyAt": "2026-11-09T15:33:45.897175+00:00",
+      "decision": "complete",
+      "reason": "新精確SVG28:25:22:3長條與HTML分區加總四格，原卷各數/獨立重算及三寬成品實看通過，B且不以現況換原某年資料。",
+      "evidence": [
+        "docs/comics/q-1013.json",
+        "docs/comics/q-1013-preview-validation.json"
+      ]
+    }
+  ],
   "integrating": [],
   "held": [],
   "integrationLimit": 1,

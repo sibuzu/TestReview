@@ -1,0 +1,72 @@
+{
+  "id": "q-1010",
+  "subject": "Geography",
+  "title": "看全年日照量，也要檢查冬季",
+  "art": "docs/comics/art/q-1010-sun-monsoon.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new precise native SVG solar-energy, monsoon cross-section and month-selection diagrams with selectable HTML labels",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1010-original-11-79cd2ce44633.jpg",
+    "site/dist/assets/questions/q-1010-figure-11-0b59fa270313.jpg"
+  ],
+  "answerCheckedAgainst": "原卷31與甲乙丙丁各月圖已實開並放大，預期B乙維持。圖單位為百萬焦耳/平方公尺，非時數；只比較冬季與全年型態，不把模糊柱高估成精確年總量或逐月值。",
+  "supportingSources": [
+    {
+      "title": "中央氣象署：天氣、氣候，傻傻分不清楚",
+      "url": "https://pweb.cwa.gov.tw/PopularScience/wt/wt_4.html",
+      "finding": "冬季北部東北部迎風較多雨，中南部背風面大多晴朗穩定、少雨乾季。"
+    },
+    {
+      "title": "中央氣象署：季節氣候—冬季",
+      "url": "https://climate.cwa.gov.tw/SeasonalClimate?subpage=Winter",
+      "finding": "地形影響冬季雨量，東北部迎風面較中南部多雨。"
+    }
+  ],
+  "rationale": "本題是圖表與季風空間條件判讀，採新原生SVG能量/迎背風示意/月序三圖，比單張晴天照片更能解釋單位及比較方法。精確中文、方向與單位放可選取HTML，SVG不重建原題模糊月數值，山脈僅概念剖面不是臺灣精確地形圖。",
+  "panels": [
+    {
+      "heading": "① 先看軸名：日照量，不是時數",
+      "text": "原圖橫軸是1至12月，縱軸是日照量，單位百萬焦耳／平方公尺。它量的是單位面積收到的能量，不能改讀成幾小時。",
+      "caption": "能量示意：陽光→地面；原圖單位為百萬焦耳／平方公尺。",
+      "alt": "新製太陽光到地表面積的示意，表示日照量是單位面積的能量，不含虛構數字。"
+    },
+    {
+      "heading": "② 南部冬季背風，較乾而多晴日",
+      "text": "冬季東北季風受山脈阻擋，南部較常處在背風側，雨少、較多晴日；因此冬季日照不會像迎風多雨地區那樣明顯偏少。",
+      "caption": "左為迎風側，右為背風側；山脈阻隔的輔助剖面示意。",
+      "alt": "概念剖面左側風吹向山脈、雲雨在迎風側，右側背風少雲晴朗；不是臺灣精確地形原圖。"
+    },
+    {
+      "heading": "③ 看冬季，也比較全年各月分布",
+      "text": "把12、1、2月連同全年一起看，乙的冬季仍維持一定日照，符合本題南部判讀，選B。甲、丁冬季偏低；不能只挑單月最高的一圖。",
+      "caption": "金色標出12、1、2月，提醒檢查冬季；不是日照量數值圖。",
+      "alt": "新製1至12月的月序表，僅12、1、2月以金色強調，未繪製或補造各月日照數值。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：乙",
+    "points": [
+      "縱軸是能量／面積，不是日照時數。",
+      "南部冬季較乾，仍有一定日照。",
+      "比較冬季與全年型態，不只比單月峰值，也不猜年總量。"
+    ]
+  },
+  "protectedWords": [
+    "東北季風",
+    "日照量",
+    "日照時數",
+    "百萬焦耳",
+    "平方公尺",
+    "12、1、2月",
+    "背風側",
+    "迎風側"
+  ],
+  "createdAt": "2026-11-09T15:31:43.463569+00:00",
+  "artSHA256": "6e023dbb44d522db2a45947d3376fbcc7c984065f3a5742f62b1f0e9752a0c86",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:32:04.689242+00:00",
+  "previewValidation": "docs/comics/q-1010-preview-validation.json",
+  "visualReview": "原卷31與四各月圖/放大圖已實看，CWA季風原理解說已查；新SVG能量/迎背風/月份三圖於1440/1120/390全實看。caption明示能量每面積、左迎右背風與冬季金色月份，沒有臆造各月值或年總量。B乙維持，三寬無溢出或保護詞斷裂，手機自然高度。"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "q-1042",
+  "subject": "Physics-Chemistry",
+  "title": "有沉澱，質量也能保持不變",
+  "art": "docs/comics/art/q-1042-system-boundary.svg",
+  "panels": [
+    {
+      "heading": "① 甲：空氣中的氧加入了",
+      "text": "鋼絲絨燃燒時會與空氣中的氧結合。只秤鋼絲絨及留下的燃燒產物，產物多了氧的質量，所以量得的質量增加。",
+      "alt": "甲反應：氧由秤量範圍外加入，固體產物的質量增加。",
+      "diagram": {
+        "kind": "flow",
+        "title": "甲｜比較秤上固體",
+        "items": [
+          {
+            "label": "反應前｜鋼絲絨",
+            "tone": "blue",
+            "detail": "參與反應的氧原本在空氣中。"
+          },
+          {
+            "label": "反應後｜氧化物",
+            "tone": "green",
+            "detail": "留下的產物包含加入的氧，質量增加。"
+          }
+        ],
+        "arrow": "空氣中的氧加入",
+        "note": "完整系統的總質量仍然守恆。"
+      }
+    },
+    {
+      "heading": "② 乙：沉澱仍留在容器內",
+      "text": "兩種溶液反應後有白色沉澱，但物質沒有消失。反應不產生逸出的氣體；依題意不計水蒸發，且沒有濺出等損失時，混合前後的總質量相同。",
+      "alt": "乙反應：兩份溶液變成沉澱和溶液，全部物質仍在容器內。",
+      "diagram": {
+        "kind": "flow",
+        "title": "乙｜比較容器內全部物質",
+        "items": [
+          {
+            "label": "反應前｜碳酸鈉溶液＋氯化鈣溶液",
+            "tone": "blue",
+            "detail": "把兩份溶液的質量合計。"
+          },
+          {
+            "label": "反應後｜碳酸鈣沉澱＋氯化鈉溶液",
+            "tone": "gold",
+            "detail": "沉澱與剩餘溶液都要一起算。"
+          }
+        ],
+        "arrow": "反應生成沉澱，沒有氣體逸出",
+        "note": "沉澱只是析出，仍有質量。"
+      }
+    },
+    {
+      "heading": "③ 判斷物質有沒有進出",
+      "text": "開放不等於質量一定改變。甲有外界氧加入，秤上固體變重；乙沒有物質離開或加入原本的兩份溶液，能量得前後相同，所以僅乙符合。",
+      "alt": "甲氧氣加入使秤量質量增加，乙物質全留下使總質量不變，答案僅乙。",
+      "diagram": {
+        "kind": "paths",
+        "title": "本題問可量得前後相同",
+        "items": [
+          {
+            "label": "甲｜固體加入外界氧",
+            "tone": "blue",
+            "detail": "固體質量增加，不符合。"
+          },
+          {
+            "label": "乙｜沉澱、溶液都留下",
+            "tone": "green",
+            "detail": "內容物總質量不變，符合。"
+          }
+        ],
+        "arrow": "比較秤量範圍中的物質",
+        "target": "僅乙符合｜選B",
+        "note": "密閉有助避免物質進出；本題乙即使開放仍可符合。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：僅乙",
+    "points": [
+      "總質量守恆，要把所有反應物都算入。",
+      "甲有空氣中的氧加入，固體質量增加。",
+      "乙沉澱仍在容器內，不計蒸發且無損失時質量不變。"
+    ]
+  },
+  "protectedWords": [
+    "鋼絲絨",
+    "碳酸鈉",
+    "氯化鈣",
+    "碳酸鈣",
+    "氯化鈉",
+    "質量守恆"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6af1d6de-09f8-83ee-bb43-0897e3964704",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-1042-q-1042-original-9637262ce87f.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "已實開真正原卷本題裁切，逐字核對完整題幹、甲乙反應及ABCD；不改答案，不加入原題未有的測量數值。"
+  },
+  "rationale": "題目關鍵是秤量邊界與物質進出；精確中文流程及對照圖比人物情境更能直接表示氧加入與沉澱留存。",
+  "generationMethod": "全新可選取HTML關係流程圖；SVG保留可編輯系統邊界示意備援。",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_1",
+  "createdAt": "2026-11-09T14:53:16.208949+00:00",
+  "artSHA256": "1299c4e3d09658a25873c4ff444403026faa5dab84f73e335b0acc8ba1a20cb0",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-1042-preview-validation.json",
+  "visualReview": "已實看1440與390隔離四格成品；完整中文流程清楚標氧加入、沉澱留存、秤量邊界，無溢出。三寬自動幾何及換行檢查PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-1042-1440.png",
+      "/tmp/weirugo-comic-previews/q-1042-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-1042-art-1299c4e3d0.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T14:56:54.618582+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1042-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1042-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1042-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1042-standalone-390.png"
+    ],
+    "note": "自行核原卷並製作三組新流程/對照；實看app及單頁1440/390正式四張成品，氧加入、沉澱留存與量測邊界皆清楚，三寬6布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1042-validation.json",
+  "checkedAt": "2026-11-09T14:56:54.625951+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-1004",
+  "subject": "History",
+  "title": "噶瑪蘭就是宜蘭，收入版圖與設廳分兩年",
+  "art": "docs/comics/art/q-1004.png",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "built-in image_gen; fresh refined colorful anime historical auxiliary scenes",
+  "promptFile": "docs/comics/q-1004-prompt.txt",
+  "generationTiming": "docs/comics/q-1004-generation-timing.json",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1004-original-09-118cfc9c55ae.jpg"
+  ],
+  "answerCheckedAgainst": "實看原卷22：原住民語音譯古地名、17世紀西班牙傳教、1810嘉慶十五納版圖，A宜蘭；國臺博典藏噶瑪蘭廳志明載1810入版圖、1812置通判設廳治。",
+  "supportingSources": [
+    {
+      "title": "國立臺灣博物館典藏：噶瑪蘭廳志",
+      "url": "https://collections.culture.tw/ntm_collectionsweb/Collection?GID=M8MYMRMNM2",
+      "finding": "噶瑪蘭今宜蘭；嘉慶十五年1810始入版圖，十七年1812置通判、設廳治。"
+    }
+  ],
+  "rationale": "用蘭陽平原、行政納管與後續設廳的三個細緻動漫情境幫助建立地區與先後印象；年份、地名與答案均以精確HTML呈現，圖不冒充原文獻、精確地圖或特定廳署復原。清代歷史脈絡與兩年分別經官方館藏說明核對。",
+  "panels": [
+    {
+      "heading": "① 古地名噶瑪蘭，指向今日宜蘭",
+      "text": "原住民語音譯的古地名，配合嘉慶年間納入版圖的線索，指向噶瑪蘭，也就是今日宜蘭地區。要把多條線索合起來判斷。",
+      "alt": "新製蘭陽平原概念性的河流、稻田與聚落景觀，不是精確地圖或指定歷史建築。"
+    },
+    {
+      "heading": "② 1810年：先收入清朝版圖",
+      "text": "題幹明說1810年、嘉慶十五年。清廷為治理移墾漢人及海防等考量，把此地納入管轄；這一年不能直接說已正式設廳。",
+      "alt": "清代官員與行政簿冊的輔助情境，象徵納入行政管轄，不把一般辦公情境當成1810年已設廳的證據。"
+    },
+    {
+      "heading": "③ 1812年：再正式設噶瑪蘭廳",
+      "text": "1812年、嘉慶十七年設廳，是後續一步。基隆雖也與西班牙歷史有關，卻不符合1810年收入噶瑪蘭版圖的整組線索。",
+      "alt": "臺灣清代地方行政院落與官民溝通的示意情境，代表較後的設廳階段，不是精確復原廳署。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：宜蘭縣",
+    "points": [
+      "噶瑪蘭對應今日宜蘭。",
+      "1810收入版圖；1812正式設廳。",
+      "不能只看到西班牙就選基隆，要符合全部條件。"
+    ]
+  },
+  "protectedWords": [
+    "噶瑪蘭",
+    "宜蘭",
+    "1810年",
+    "1812年",
+    "嘉慶十五年",
+    "嘉慶十七年",
+    "收入版圖",
+    "正式設廳",
+    "西班牙"
+  ],
+  "createdAt": "2026-11-09T15:08:14.536002+00:00",
+  "artSHA256": "d295ad78285275c8278c2893ff1ee9061c1de7431870bf6aed1347498e902fec",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:09:54.648741+00:00",
+  "previewValidation": "docs/comics/q-1004-preview-validation.json",
+  "visualReview": "實看原卷22與國臺博館藏說明；imagegen新歷史三情境原圖、1440/1120/390三寬成品逐張實看。1810收入版圖與1812設廳在HTML分清，清代情境未畫現代建物/文字地圖，圖不冒充特定廳署復原。三寬無溢出或保護詞拆行，同行等高/手機自然高度，答案A維持。",
+  "nativeArt": "assets/comics/q-1004-art-d295ad7828-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:09:54.641474+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1004-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1004-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1004-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1004-standalone-390.png"
+    ],
+    "note": "實開原卷22題及ABCD，正式app/單頁桌手機4圖實看；新動漫為輔助情境，HTML清楚1810收入版圖/1812設廳，不冒稱廳署精確重建，A維持；三寬6布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1004-validation.json"
+}

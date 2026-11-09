@@ -1,0 +1,69 @@
+{
+  "sourceId": "src-more-065",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-09",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "trap": "",
+  "contentStatus": "完整原題",
+  "questionFigures": [],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "id": "q-1044",
+  "subject": "Biology",
+  "title": "生物第22題｜由長毛子代反推親代基因型",
+  "originalQuestionNumber": "22",
+  "sourceLabel": "分享原卷｜第22題",
+  "question": "有一對豚鼠交配後產下10隻子代，其中8隻為短毛、2隻為長毛，且無突變情形發生。已知短毛為顯性特徵，若以S代表顯性遺傳因子、s代表隱性遺傳因子，則下列何者最可能為親代的基因型組合？\n(A) SS × ss\n(B) SS × Ss\n(C) Ss × ss\n(D) ss × ss",
+  "answer": "(C) Ss × ss",
+  "explanation": "短毛為顯性，因此SS、Ss均呈短毛；長毛必須是ss。既然出現長毛子代，且沒有突變，雙親都必須能提供s。再依四個選項逐一檢查：\n\nA：SS × ss的子代全部是Ss，全部短毛，不會生出長毛。\nB：SS × Ss的子代可能為SS或Ss，仍全部短毛，不會生出長毛。\nC：Ss × ss的子代可能為Ss或ss，可同時出現短毛和長毛，符合觀察。\nD：ss × ss的子代全部是ss，全部長毛，不能出現8隻短毛。\n\n因此四個選項中只有C可能產生題示兩種毛長，選C。\n\nC的理論機率為短毛1/2、長毛1/2，並不保證每一窩剛好各半。10隻只是少量子代，實際8短、2長仍有可能，不能直接把觀察數量當成固定遺傳機率。Ss × Ss也可產生短毛、長毛，但它不在本題選項中，不能自行改選項或只因8：2接近3：1就添加此選項。",
+  "tags": [
+    "孟德爾遺傳",
+    "顯性與隱性",
+    "基因型",
+    "小樣本"
+  ],
+  "studentAnswer": "原卷藍筆A，紅筆訂正C；使用者記錄A→C。",
+  "correctOption": "C",
+  "date": "2026-11-09",
+  "images": [
+    "docs/imports/new-gpt-20261109/lane3/q-1044-original.jpg"
+  ],
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "SS × ss",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "全部子代Ss、短毛，無法產生長毛。"
+    },
+    {
+      "label": "B",
+      "text": "SS × Ss",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "子代SS或Ss，全部短毛。"
+    },
+    {
+      "label": "C",
+      "text": "Ss × ss",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "可產生Ss短毛與ss長毛，符合觀察到兩種毛長。"
+    },
+    {
+      "label": "D",
+      "text": "ss × ss",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "全部子代ss、長毛，無法產生短毛。"
+    }
+  ]
+}

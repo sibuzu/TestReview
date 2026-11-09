@@ -1,0 +1,141 @@
+{
+  "id": "q-1005",
+  "subject": "History",
+  "title": "分戶、直轄、論功，把權力集中到政府",
+  "art": "docs/comics/art/q-1005-centralization.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new selectable HTML policy-causation diagrams with precise native SVG relational backup",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1005-q-46-47-original-cf87ea467878.png"
+  ],
+  "answerCheckedAgainst": "重新實看同原卷46/47共文與第46四選項，本件專對46改革目的：分戶編籍、封地改政府直轄、政績任免與軍功授爵共同強化中央，D。q1008另解47，未混為一題。",
+  "supportingSources": [
+    {
+      "title": "國立故宮博物院：秦‧俑—秦文化與兵馬俑特展",
+      "url": "https://www.npm.gov.tw/Exhibition-Content.aspx?l=1&sno=04007085",
+      "finding": "商鞅變法後貴族制度式微、軍功爵制、削廢封邑創立郡縣與編戶齊民，走向集權體制。"
+    }
+  ],
+  "rationale": "第46問制度改變的共同方向，三項政策到政府控制的因果關係圖，比多個無法識別的古代官員場景更直接；用可選取中文明示措施與對象，不以服飾猜朝代，不添原題未給的改革年代或地圖。",
+  "panels": [
+    {
+      "heading": "① 分戶編籍，政府掌握人口",
+      "text": "大家庭分居成小家庭並登錄戶籍，讓政府更容易掌握人口，擴大稅收、取得兵源；重點是國家管理能力提高。",
+      "alt": "分戶與建立戶籍，通往政府掌握人口稅收兵源的可選取中文流程。",
+      "diagram": {
+        "kind": "flow",
+        "title": "材料第一項的作用",
+        "items": [
+          {
+            "label": "分居小家庭＋建立戶籍",
+            "detail": "人口納入政府登記管理。",
+            "tone": "blue"
+          },
+          {
+            "label": "政府掌握人口、稅收、兵源",
+            "detail": "國家徵稅與動員能力提高。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "政府管理更直接"
+      }
+    },
+    {
+      "heading": "② 封地改直轄，削弱地方世襲",
+      "text": "原本貴族世襲的封地，改成政府直接管轄；地方官由政府依政績任免。地方權力不再只是依血統世襲。",
+      "alt": "原貴族世襲封地，轉為政府直接管轄與地方官依政績任免的文字流程。",
+      "diagram": {
+        "kind": "flow",
+        "title": "材料第二項的地方管理改變",
+        "items": [
+          {
+            "label": "原本：貴族世襲封地",
+            "detail": "地方勢力憑血緣承襲。",
+            "tone": "gold"
+          },
+          {
+            "label": "改革：政府直轄、政績任免",
+            "detail": "官員職位不得世襲。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "權力收向政府"
+      }
+    },
+    {
+      "heading": "③ 軍功授爵，改變世襲特權",
+      "text": "爵位與田宅依軍功封賞，配合官員不世襲，都在削弱只靠血統取得權位的勢力。三項措施共同指向中央集權。",
+      "alt": "政績任免與軍功授爵兩條政策路徑，共同指向削弱世襲特權、加強國家控制。",
+      "diagram": {
+        "kind": "paths",
+        "title": "找三項政策的共同方向",
+        "items": [
+          {
+            "label": "官員依政績任免",
+            "detail": "不是憑世襲保住官職。",
+            "tone": "blue"
+          },
+          {
+            "label": "爵位、田宅依軍功授予",
+            "detail": "不是只憑出身取得封賞。",
+            "tone": "gold"
+          }
+        ],
+        "target": "削弱世襲地方勢力，強化中央",
+        "arrow": "連同戶籍、直轄制度一起判斷"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "第46題答案 D：地方分權→中央集權",
+    "points": [
+      "戶籍掌握人口、稅收與兵源。",
+      "直轄地方，官員依政績任免。",
+      "不是漢化、游牧轉農業，也不是擴大分封。"
+    ]
+  },
+  "protectedWords": [
+    "中央集權",
+    "地方分權",
+    "軍功授爵",
+    "分戶編籍",
+    "政績任免",
+    "政府直轄",
+    "稅收",
+    "兵源"
+  ],
+  "createdAt": "2026-11-09T15:10:01.148698+00:00",
+  "artSHA256": "6666cea52740d162556abf86fc97c39e3606ee061696c44eaae67a931212b58b",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T15:14:26.778032+00:00",
+  "previewValidation": "docs/comics/q-1005-preview-validation.json",
+  "visualReview": "完整共同材料與46/47原卷已實開，本spec只解第46題。三寬1440/1120/390逐張實看三項政策→國家控制的新HTML關係圖：分戶戶籍/直轄政績任免/軍功均指中央集權D。未新增改革年份或錯朝代情境，無溢出/保護詞斷裂，手機自然高度。",
+  "nativeArt": "assets/comics/q-1005-art-6666cea527.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:14:26.770408+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1005-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1005-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1005-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1005-standalone-390.png"
+    ],
+    "note": "實開完整46/47原卷，僅本件第46子題D四格：分戶/直轄/軍功共同導向中央集權。正式app與父題單頁按data-group-answer=q1005定位，桌手機4圖實看、6布局PASS；已同步父groupQuestions。"
+  },
+  "validationFile": "docs/comics/q-1005-validation.json"
+}

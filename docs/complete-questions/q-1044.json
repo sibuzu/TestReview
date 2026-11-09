@@ -1,0 +1,168 @@
+{
+  "id": "q-1044",
+  "sourceId": "src-more-065",
+  "subject": "Biology",
+  "title": "生物第22題｜由長毛子代反推親代基因型",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-09",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-09",
+  "question": "有一對豚鼠交配後產下10隻子代，其中8隻為短毛、2隻為長毛，且無突變情形發生。已知短毛為顯性特徵，若以S代表顯性遺傳因子、s代表隱性遺傳因子，則下列何者最可能為親代的基因型組合？\n(A) SS × ss\n(B) SS × Ss\n(C) Ss × ss\n(D) ss × ss",
+  "answer": "(C) Ss × ss",
+  "explanation": "短毛為顯性，因此SS、Ss均呈短毛；長毛必須是ss。既然出現長毛子代，且沒有突變，雙親都必須能提供s。再依四個選項逐一檢查：\n\nA：SS × ss的子代全部是Ss，全部短毛，不會生出長毛。\nB：SS × Ss的子代可能為SS或Ss，仍全部短毛，不會生出長毛。\nC：Ss × ss的子代可能為Ss或ss，可同時出現短毛和長毛，符合觀察。\nD：ss × ss的子代全部是ss，全部長毛，不能出現8隻短毛。\n\n因此四個選項中只有C可能產生題示兩種毛長，選C。\n\nC的理論機率為短毛1/2、長毛1/2，並不保證每一窩剛好各半。10隻只是少量子代，實際8短、2長仍有可能，不能直接把觀察數量當成固定遺傳機率。Ss × Ss也可產生短毛、長毛，但它不在本題選項中，不能自行改選項或只因8：2接近3：1就添加此選項。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "孟德爾遺傳",
+    "顯性與隱性",
+    "基因型",
+    "小樣本"
+  ],
+  "images": [
+    "assets/questions/q-1044-q-1044-original-5a7926b2ac2d.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第22題",
+  "studentAnswer": "原卷藍筆A，紅筆訂正C；使用者記錄A→C。",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "originalQuestionNumber": "22",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "SS × ss",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "全部子代Ss、短毛，無法產生長毛。"
+    },
+    {
+      "label": "B",
+      "text": "SS × Ss",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "子代SS或Ss，全部短毛。"
+    },
+    {
+      "label": "C",
+      "text": "Ss × ss",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "可產生Ss短毛與ss長毛，符合觀察到兩種毛長。"
+    },
+    {
+      "label": "D",
+      "text": "ss × ss",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "全部子代ss、長毛，無法產生短毛。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "先看能不能生出長毛，再看比例",
+    "art": "assets/comics/q-1044-art-6c96b0ece1.svg",
+    "panels": [
+      {
+        "heading": "① 長毛ss，兩個s從雙親各來一個",
+        "text": "長毛是隱性，基因型一定是ss。沒有突變時，一個s來自父方，另一個來自母方，所以雙親都必須能提供s。",
+        "alt": "雙親各提供s的可選取文字路徑，會合成長毛ss子代。",
+        "diagram": {
+          "kind": "paths",
+          "title": "由長毛子代反推配子",
+          "items": [
+            {
+              "label": "父方提供s",
+              "tone": "blue"
+            },
+            {
+              "label": "母方提供s",
+              "tone": "gold"
+            }
+          ],
+          "target": "子代ss｜長毛",
+          "arrow": "兩個s分別來自雙親",
+          "note": "SS親代只能提供S，不能提供s。"
+        }
+      },
+      {
+        "heading": "② 四個選項中，只有C能有兩種毛長",
+        "text": "A、B都含SS親代，子代一定短毛；D的子代全是長毛。只有C的Ss × ss能生出Ss短毛和ss長毛，同時符合觀察。",
+        "alt": "比較A/B全部短毛、D全部長毛與C兩種皆可能的可選取結果圖。",
+        "diagram": {
+          "kind": "paths",
+          "title": "把各選項能產生的結果列清楚",
+          "items": [
+            {
+              "label": "A、B｜含SS親代",
+              "detail": "子代均短毛，沒有ss。",
+              "tone": "blue"
+            },
+            {
+              "label": "D｜ss × ss",
+              "detail": "子代均長毛，沒有短毛。",
+              "tone": "gold"
+            },
+            {
+              "label": "C｜Ss × ss",
+              "detail": "可生Ss短毛及ss長毛。",
+              "tone": "green"
+            }
+          ],
+          "target": "C可同時出現短毛、長毛",
+          "arrow": "依兩種毛長是否都可能來篩選"
+        }
+      },
+      {
+        "heading": "③ 理論1：1，不保證每窩恰好各半",
+        "text": "C的短毛、長毛理論機率各為1/2；10隻子代是小樣本，實際8短、2長仍可能。不把觀察到的8：2當作固定遺傳機率。",
+        "alt": "理論各一半與本窩八短二長的可選取比較；明示小樣本不必等於理論比例。",
+        "diagram": {
+          "kind": "paths",
+          "title": "理論機率與一窩實際數量",
+          "items": [
+            {
+              "label": "理論：短毛1/2、長毛1/2",
+              "detail": "每隻子代各有這些機率。",
+              "tone": "blue"
+            },
+            {
+              "label": "本窩：8隻短毛、2隻長毛",
+              "detail": "實際結果會有隨機差異。",
+              "tone": "gold"
+            }
+          ],
+          "target": "1：1不表示每10隻必各5隻",
+          "arrow": "區分機率與小樣本結果"
+        }
+      }
+    ],
+    "fourth": {
+      "answer": "答案 C：Ss × ss",
+      "points": [
+        "長毛ss出現，雙親都要能提供s。",
+        "A、B全短毛；D全長毛，均排除。",
+        "C能出現兩種毛長；8：2不要求等於理論1：1。"
+      ]
+    },
+    "protectedWords": [
+      "Ss × ss",
+      "ss × ss",
+      "SS親代",
+      "短毛",
+      "長毛",
+      "理論機率",
+      "小樣本",
+      "1：1",
+      "8：2",
+      "1/2"
+    ]
+  }
+}

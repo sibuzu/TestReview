@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.59daa7fea082",
+  "revision": "2026-10-27.a69f242db227",
   "subjects": [
     {
       "id": "Chinese",
@@ -2593,6 +2593,32 @@
         "assets/originals/chatgpt-6af05e92-29-e67b2cfee542.jpg"
       ],
       "transcript": "sources/6af05e92-295c-83e8-adfb-12e134c3492a.txt"
+    },
+    {
+      "id": "src-more-065",
+      "url": "https://chatgpt.com/share/6af1d6de-09f8-83ee-bb43-0897e3964704",
+      "status": "read",
+      "title": "錯題解析",
+      "platform": "ChatGPT",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "note": "12張原卷已完整取得；11原問逐題核對且跨來源比對後收入；無重複、無缺原題。6項原AI轉錄／解說訂正列監看確認，新插畫11份獨立待製。",
+      "transcript": "sources/6af1d6de-09f8-83ee-bb43-0897e3964704.txt",
+      "images": [
+        "assets/originals/chatgpt-6af1d6de-1-96e6d26e0eb3.jpg",
+        "assets/originals/chatgpt-6af1d6de-2-9f3cc8708177.jpg",
+        "assets/originals/chatgpt-6af1d6de-3-2e8e8a8ba5f9.jpg",
+        "assets/originals/chatgpt-6af1d6de-4-6dd8bb94be9f.jpg",
+        "assets/originals/chatgpt-6af1d6de-5-72b1c23f75de.jpg",
+        "assets/originals/chatgpt-6af1d6de-6-353e05ec07d4.jpg",
+        "assets/originals/chatgpt-6af1d6de-7-9b16e6daf4d7.jpg",
+        "assets/originals/chatgpt-6af1d6de-8-8a8439cbc429.jpg",
+        "assets/originals/chatgpt-6af1d6de-9-595916cb92a8.jpg",
+        "assets/originals/chatgpt-6af1d6de-10-60cee4dda880.jpg",
+        "assets/originals/chatgpt-6af1d6de-11-b45c42f38e3e.jpg",
+        "assets/originals/chatgpt-6af1d6de-12-a75d1c0958cc.jpg"
+      ],
+      "content": "MESSAGE 1 | user | 1794232876.702969\n[attachment sediment://file_0000000092e482068620d7224338401c?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n6@錯題a→ b\n\nMESSAGE 6 | assistant | 1794232878.988828\n\n\nMESSAGE 10 | assistant | 1794232882.99221\n\n\nMESSAGE 11 | assistant | 1794232882.996494\n# 第 6 題｜國文錯題解析\n<badge color=\"success\">正確答案 B</badge>　<text color=\"secondary\" inline>誤選 A → 正解 B｜@錯題融合模式 v2.1</text>\n\n## 一、原題與關鍵判斷\n\n**題目：** 請問下列選項中，何者運用到「互文」修辭？\n\n| 選項 | 原文 | 修辭判斷 |\n|---|---|---|\n| A（誤選） | 軍書十二卷，卷卷有爺名 | **頂真** |\n| B（正解） | 秦時明月漢時關 | **互文** |\n| C | 丞相之機，神鬼莫測 | 誇飾意味 |\n| D | 策勳十二轉，賞賜百千強 | 對偶、數量誇飾意味 |\n\n## 二、二選一決勝：A 為什麼錯？B 為什麼對？\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box flex=\"1\" gap={1}>\n      <text weight=\"medium\">A｜頂真</text>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n        <row align=\"center\" justify=\"center\" gap={1}>\n          <box background=\"surface-tertiary\" radius=\"md\" padding={2}>\n            軍書十二**卷**\n          </box>\n          <icon name=\"arrow-right\" color=\"secondary\"/>\n          <box background=\"surface-tertiary\" radius=\"md\" padding={2}>\n            **卷**卷有爺名\n          </box>\n        </row>\n        <text color=\"secondary\" size=\"xs\" textAlign=\"center\">前句末字「卷」接後句首字「卷」</text>\n      </box>\n      **頂真：前後字詞相接。** 不需要把兩句合起來補充語意。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <box gap={2}>\n    **B｜互文**\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <grid columns={2} gap={2}>\n        <grid-item>\n          <box background=\"surface\" padding={2} radius=\"md\" align=\"center\" gap={1}>\n            <text weight=\"medium\">秦時明月</text>\n            <text color=\"secondary\" size=\"xs\">秦時＋明月</text>\n          </box>\n        </grid-item>\n        <grid-item>\n          <box background=\"surface\" padding={2} radius=\"md\" align=\"center\" gap={1}>\n            <text weight=\"medium\">漢時關</text>\n            <text color=\"secondary\" size=\"xs\">漢時＋關塞</text>\n          </box>\n        </grid-item>\n      </grid>\n      <row justify=\"center\" align=\"center\" gap={2}>\n        <icon name=\"arrow-down-up\" color=\"secondary\"/>\n        <text color=\"secondary\" size=\"xs\">前後語意互相補足</text>\n      </row>\n      <box background=\"rgba(22,163,74,0.07)\" border={{size:1,color:\"rgba(22,163,74,0.25)\"}} radius=\"md\" padding={3} align=\"center\" gap={1}>\n        **秦漢時的明月與關塞**\n        <text size=\"xs\" color=\"secondary\">不是秦朝只有明月、漢朝只有關塞</text>\n      </box>\n    </box>\n    **互文：前後文相互補足，合起來才能理解完整意思。**\n  </box>\n</box>\n\n## 三、考場快速辨別\n\n- **頂真：** 看「字」有沒有首尾相接。\n- **互文：** 看「意思」是否要前後合起來解讀。\n\n記憶口訣：**頂真接文字，互文補意思。**\n\n## 四、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  「將軍百戰死，壯士十年歸」使用什麼修辭？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 頂真</radio>\n    <radio value=\"B\">B. 互文</radio>\n    <radio value=\"C\">C. 排比</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再注意前後兩句的完整意思。\" }**\n      </row>\n      將軍與壯士都經歷多年征戰，有人戰死，有人歸來。兩句互相補充，所以是 **B. 互文**。\n    </box>\n  {/if}\n</box>\n\n## 五、錯因診斷與品質複核\n\n本題誤選 A，顯示需要加強區分「字詞銜接」與「語意互補」。但目前只有選項紀錄，不能直接斷定實際誤判原因。\n\n<text color=\"secondary\" size=\"sm\">複核結果：原題與選項已依照片辨識；B 可由修辭定義獨立確認。未查詢國中教材外掛，因此不標示教材頁碼。未發現 P0 答案問題。</text>\n\n**本題最值得記住的是：互文不是文字重複，而是前後兩句的意思互相補足。**\n\nMESSAGE 12 | user | 1794232944.261363\n[attachment sediment://file_0000000072fc82069b832e422e9790ca?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n7@錯題B → D\n\nMESSAGE 14 | assistant | 1794232947.736982\n\n\nMESSAGE 15 | assistant | 1794232947.741126\n# 第 7 題｜國文錯題解析\n<badge color=\"success\">正確答案 D｜壽考宜家</badge>　<text color=\"secondary\" inline>誤選 B → 正解 D</text>\n\n<text color=\"secondary\" size=\"xs\">@錯題融合模式 v2.1｜題型：題辭應用與語境判斷</text>\n\n## 一、原題確認\n\n金鷹奶奶下週過七十大壽，鄰居云云想送花籃給金鷹奶奶，請問下列哪一個題辭最適合寫在花籃的卡片上？\n\n| 選項 | 題辭 | 適用場合 |\n|---|---|---|\n| A | 花好月圓 | 婚嫁祝賀 |\n| B（誤選） | 松柏長青 | 祝壽、祝福長壽 |\n| C | 懿範長存 | 女性逝世的哀輓 |\n| D（正解） | 壽考宜家 | 祝賀長壽，適合女性長者 |\n\n## 二、二選一決勝：B 與 D 差在哪裡？\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box flex=\"1\" gap={1}>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        **B｜松柏長青**\n        <AsyncImage query=\"green evergreen pine trees cypress tree elegant Chinese watercolor illustration\" aspectRatio=\"5:3\" width=\"100%\"/>\n        松柏四季常青，比喻生命力旺盛、長壽不衰。\n      </box>\n      <text size=\"sm\">這也是祝壽用語，並非意思錯誤，但未特別凸顯女性長者。</text>\n    </box>\n    <box flex=\"1\" gap={1}>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        **D｜壽考宜家**\n        <AsyncImage query=\"warm cute illustration elderly Chinese grandmother celebrating 70th birthday with family flowers birthday cake no text\" aspectRatio=\"5:3\" width=\"100%\"/>\n        「壽考」指高壽，「宜家」有家庭和樂、美滿之意。\n      </box>\n      <text size=\"sm\">更貼近題目指定的女性長輩祝壽情境。</text>\n    </box>\n  </row>\n</box>\n\n**決勝關鍵：** B、D 都具有祝壽意義，但考題要求選出「最適合」，而非「也可以使用」。D 的祝賀對象與語境更明確。\n\n因此這題不能單純把 B 當作完全不適用，而是要辨別題辭的**適切程度**。\n\n## 三、其餘選項快速排除\n\n- **A 花好月圓：** 比喻美好圓滿，常用於新婚祝福，不是本題的首選。\n- **C 懿範長存：** 「懿」為美好德行，「懿範」指女性的美好典範；常見於女性喪事的輓詞。生日不能使用。\n\n## 四、考場快判技巧\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">題辭題：先辨場合，再辨對象</text>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <box background=\"surface\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      **場合**\n\n      <text color=\"secondary\" size=\"xs\">七十大壽</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      **對象**\n\n      <text color=\"secondary\" size=\"xs\">奶奶</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      **答案**\n\n      <text color=\"secondary\" size=\"xs\">D 壽考宜家</text>\n    </box>\n  </row>\n</box>\n\n## 五、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  同學的祖母八十大壽，想在賀卡上寫一句最符合本題命題邏輯的祝賀題辭，應選哪一個？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 懿範長存</radio>\n    <radio value=\"B\">B. 壽考宜家</radio>\n    <radio value=\"C\">C. 花好月圓</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再檢查祝賀的場合與對象。\" }**\n      </row>\n      本題選 B「壽考宜家」，祝賀女性長者高壽與家庭和樂；「懿範長存」是哀輓語。\n    </box>\n  {/if}\n</box>\n\n## 六、錯因與品質檢核\n\n**可能的誤判點：** 看到「長青」就聯想到長壽，選了 B，卻沒有進一步比較 D 是否更符合「奶奶」的身分。這是依選項推測的可能原因，尚不能認定為實際思考過程。\n\n- **P0 答案：** 依題目提供的訂正資訊，正解 D；語意與使用場合可支持 D 為較適切選項。\n- **P1 辨析：** B 也能用於祝壽，須保留這個差異，不能誤教成 B 完全錯誤。\n- **教材查核：** 本次未實際使用國中教材唯讀搜尋，不標示課本頁碼。\n\n**本題記憶重點：題辭選「最適合」時，兩個答案都能祝賀，還要再比較人物身分與使用場合。**\n\nMESSAGE 16 | user | 1794233025.446237\n[attachment sediment://file_000000007c508206970897f818297836?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n21@錯題B → C\n\nMESSAGE 18 | assistant | 1794233029.350353\n\n\nMESSAGE 19 | assistant | 1794233029.354971\n# 第 21 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 C</badge>　誤選 B → 正解 C\n\n<text color=\"secondary\" size=\"xs\">@錯題融合模式 v2.1｜文言文閱讀理解・觀點判斷</text>\n\n## 一、原題證據確認\n\n**原文：**\n\n> 「太銘志之著於世，義近於史，而亦有與史異者。蓋史之於善惡無所不書，而銘者，蓋古之人有功德、材行、志義之美者，懼後世之不知，則必銘而見之。或納於廟，或存於墓，一也。」\n\n**題目：** 關於本文的解讀，下列何者正確？\n\n| 選項 | 內容 | 判斷 |\n|---|---|---|\n| A | 銘誌與史傳內容完全相同而能流傳後世 | 錯 |\n| B（誤選） | 關於人的善惡都會被詳細記錄在碑銘中 | 錯 |\n| C（正解） | 道德高尚者會藉由立碑來彰顯個人功績 | 對 |\n| D | 放置於廟中或埋於墓穴裡的碑銘用意不同 | 錯 |\n\n## 二、二選一決勝：B 為何錯？C 為何對？\n\n這題最關鍵的一句：\n\n> **蓋史之於善惡無所不書，而銘者，蓋古之人有功德、材行、志義之美者……**\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2} align=\"center\">\n        <icon name=\"book-open\" size=\"2xl\" color=\"secondary\"/>\n        **史書**\n        <text size=\"sm\" textAlign=\"center\">善事、惡事</text>\n        <row gap={1} align=\"center\" justify=\"center\">\n          <icon name=\"check-circle\" color=\"success\"/>\n          <icon name=\"check-circle\" color=\"success\"/>\n        </row>\n        <text size=\"xs\" color=\"secondary\" textAlign=\"center\">善惡都記載</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2} align=\"center\">\n        <icon name=\"scroll-text\" size=\"2xl\" color=\"secondary\"/>\n        **碑銘**\n        <text size=\"sm\" textAlign=\"center\">功德、才能、志節</text>\n        <icon name=\"check-circle\" color=\"success\"/>\n        <text size=\"xs\" color=\"secondary\" textAlign=\"center\">重在彰顯美德</text>\n      </box>\n    </grid-item>\n  </grid>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\">B 把「史書」的特徵，錯誤套用到「碑銘」。</text>\n  <text size=\"sm\">原文說「史之於善惡無所不書」，主詞是「史」，不是「銘」。因此 B 錯誤。</text>\n  <text weight=\"medium\">C 抓對了碑銘的核心功能。</text>\n  <text size=\"sm\">古人具有功德、才能與美好志節，後人擔心其事蹟不為後世所知，便以碑銘記錄彰顯。因此 C 最符合文意。</text>\n</box>\n\n## 三、逐項解析\n\n**A｜錯在「完全相同」**\n\n原文明說「義近於史，而亦有與史異者」，意思是碑銘與史書性質相近，卻仍有不同之處。\n\n**B｜錯在記載對象**\n\n記錄善惡的是史書。碑銘在本文中主要用來表彰人物的美好事蹟，而不是全面記錄善惡。\n\n**C｜正確，但須精確理解**\n\n碑銘用來彰顯人物的功德、才能及志義。選項「藉由立碑」可理解為用碑銘表彰其事蹟，並不表示一定由本人親自立碑。\n\n**D｜錯在「用意不同」**\n\n原文「或納於廟，或存於墓，一也」，指出雖然碑銘放置位置不同，但記錄、彰顯美德的用意相同。\n\n## 四、這題真正需要練習的能力\n\n**區分兩個比較對象的不同特徵。**\n\n考場看到「甲與乙相似，但有所不同」，就要立刻整理：\n\n| 比較 | 史書 | 碑銘 |\n|---|---|---|\n| 記載內容 | 善惡皆記 | 功德、美行為主 |\n| 主要特色 | 較全面記載人物事蹟 | 表彰值得傳世的美德 |\n| 題目對應 | B 誤套用 | C 正確 |\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  如果原文說「甲記錄人物的全部功過，乙專門表彰人物美德」，下列何者正確？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 甲與乙都只記錄優點</radio>\n    <radio value=\"B\">B. 甲記錄功過，乙著重美德</radio>\n    <radio value=\"C\">C. 乙比甲記載得更全面</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"請再比較甲、乙各自的記錄範圍。\" }**\n      </row>\n      甲記錄人物的善與惡，乙強調值得表彰的美德，因此答案是 B。\n    </box>\n  {/if}\n</box>\n\n## 六、品質檢核\n\n- **P0｜答案與原文：** 已依照片辨識題目，C 與原文相符。\n- **P1｜精確性：** C 的「藉由立碑」不能誤解成由當事人親自立碑。\n- **教材證據：** 未使用國中教材唯讀搜尋，本次僅依題目照片解析。\n- **錯因判斷：** B → C 顯示可能將「史書記錄善惡」誤套到「碑銘」，但仍需作答思路才能確定。\n\n**考場一句話：史書記善惡，碑銘彰美德。**\n\n這題屬於「比較對象混淆型」錯題。比起背誦整段文言文，更值得訓練的是抓準「史」與「銘」各自對應的特徵。\n\nMESSAGE 20 | user | 1794233135.9254332\n[attachment sediment://file_0000000019d4820680355ae4b50af941?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n26@錯題A → B\n\nMESSAGE 22 | assistant | 1794233138.651346\n\n\nMESSAGE 23 | assistant | 1794233138.656087\n# 第 26 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 B</badge>　誤選 A → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題融合模式 v2.1｜閱讀理解・數學比喻與人生哲理</text>\n\n## 一、原題證據確認\n\n題目：「左圖為老師在黑板寫下的話，他想傳達什麼道理？」\n\n黑板內容：\n\n> 1.1 × 1.1 × ……相乘十次約為 2.85\n>\n> 但 0.9 × 0.9 × ……相乘十次約為 0.35\n\n<text color=\"secondary\" size=\"xs\">照片中的數值為近似值：\\(1.1^{10}\\approx2.59\\)、\\(0.9^{10}\\approx0.35\\)。因此第一個 2.85 與實際計算不符，可能是題目數值有誤；不影響本題意旨。</text>\n\n| 選項 | 原文重點 | 判斷 |\n|---|---|---|\n| A（誤選） | 壞習慣的惡性循環，會使好資質變得無用 | 不符主旨 |\n| B（正解） | 勤奮或懶惰只差一點，持續下去成果卻大不相同 | **符合主旨** |\n| C | 人與人應相互關懷 | 無關 |\n| D | 天生資質不同，每個人都有自己的一片天 | 無關 |\n\n## 二、二選一決勝：A 與 B 的關鍵差異\n\n這題的重點不是「壞習慣」，而是**微小差異經過長期累積，會造成顯著的結果差距**。\n\n<box gap={2}>\n  <text weight=\"medium\">每天多努力 10% 與少努力 10%，持續十次的示意比較</text>\n  <Chart content={{\"chartType\":\"bar\",\"meta\":{\"footer\":\"依黑板的乘法概念示意，非真實學習成效預測\"},\"xKey\":\"case\",\"series\":[{\"dataKey\":\"value\",\"label\":\"累積結果\",\"valueFormat\":\"raw\"}],\"yAxisMin\":0,\"data\":[{\"case\":\"1.1¹⁰\",\"value\":2.5937},{\"case\":\"0.9¹⁰\",\"value\":0.3487}]}}/>\n  <text color=\"secondary\" size=\"xs\">1.1 與 0.9 起初只差 0.2，經過十次連乘，結果約為 2.59 與 0.35。</text>\n</box>\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      **A｜壞習慣與資質**\n      <icon name=\"x-circle\" color=\"danger\" size=\"lg\"/>\n      著重「原本資質好，因壞習慣變得無用」。\n\n      <text color=\"secondary\" size=\"sm\">黑板沒有提到天生資質，也沒有討論好資質被浪費。</text>\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      **B｜持續累積的效果**\n      <icon name=\"check-circle\" color=\"success\" size=\"lg\"/>\n      著重「起初只有一點差距，持續累積後結果差很多」。\n\n      <text color=\"secondary\" size=\"sm\">完全對應 1.1 與 0.9 不斷連乘的變化。</text>\n    </box>\n  </grid-item>\n</grid>\n\n**決勝關鍵：A 多了「天生好資質」這個題目沒有提供的條件；B 同時包含「小差距、持續累積、結果不同」三個重點。**\n\n## 三、考場快速解題法\n\n遇到數學、圖表或故事形式的國文主旨題，先把具體情境轉成抽象概念：\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <box background=\"surface-secondary\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      <text weight=\"medium\">1.1 與 0.9</text>\n      <text color=\"secondary\" size=\"xs\">微小差異</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface-secondary\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      <text weight=\"medium\">連乘十次</text>\n      <text color=\"secondary\" size=\"xs\">不斷累積</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface-secondary\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      <text weight=\"medium\">結果差很大</text>\n      <text color=\"secondary\" size=\"xs\">長期影響</text>\n    </box>\n  </row>\n  <text weight=\"medium\" textAlign=\"center\">小差異 × 長期累積 → 大差距</text>\n</box>\n\n## 四、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  老師說：「每天進步一點點，短時間看不出差別，幾個月後卻可能超越原來的自己。」\n\n  這句話最想強調什麼？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 有天分的人不需要努力</radio>\n    <radio value=\"B\">B. 持續的小進步能累積成顯著成長</radio>\n    <radio value=\"C\">C. 努力一定能讓人成為第一名</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"再抓一次「每天」與「幾個月後」的關係。\" }**\n      </row>\n      答案是 B。文意強調的是日積月累的效果，沒有提到天分，也不保證一定成為第一名。\n    </box>\n  {/if}\n</box>\n\n## 五、錯題診斷與品質複核\n\n**可能的誤判：** A 提到「壞習慣的惡性循環」，看起來與 0.9 反覆連乘有關，但它只解釋了負向的一面，還加入題目沒有的「資質」條件。\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原題與四選項 | 已依照片核對 |\n| 正確答案 | B，符合圖表核心概念 |\n| 數字正確性 | 發現 1.1¹⁰ 實際約 2.59，非 2.85 |\n| 圖文一致性 | 圖表使用重新計算的正確數值 |\n| 教材證據 | 尚未查詢，不宣稱課本出處 |\n\n<text color=\"secondary\" size=\"sm\">數值不一致屬於原題或印刷內容的待核問題，不能將 2.85 當成正確的乘方結果。</text>\n\n**本題必記：選主旨要找最完整對應原文的選項，不要因為某個選項只符合其中一小部分就選它。**\n\nMESSAGE 24 | user | 1794233266.405836\n[attachment sediment://file_000000005c3c8206a53f33ab64651ee5?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n27@錯題A → D\n\nMESSAGE 26 | assistant | 1794233271.396911\n\n\nMESSAGE 27 | assistant | 1794233271.404987\n# 第 27 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 D</badge>　誤選 A → 正解 D\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜現代詩閱讀・寫作內容判讀</text>\n\n## 一、原題與關鍵證據\n\n**題目：** 關於這首詩的解讀，下列說明何者最恰當？\n\n詩作：席慕蓉〈一棵開花的樹〉\n\n題目提供的詩作節錄，重要線索包括：\n\n> 「我喜歡歲月漂洗過後的顏色」\n>\n> 「我喜歡那沒有唱出來的歌」\n>\n> 「我喜歡在夜裡寫一首長詩」\n>\n> 「慢慢畫出每一個與你有著關聯的字」\n\n這幾句是判斷答案的主要依據。\n\n## 二、二選一決勝：A 與 D\n\n<box gap={3}>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        <badge>誤選 A</badge>\n        <AsyncImage query=\"beautiful dreamy watercolor illustration warm romantic flowers and sunset gentle melancholic poetic mood no text\" aspectRatio=\"4:3\"/>\n        **「此詩藉物抒情，作者說明願保有內心的純真」**\n\n        <text size=\"sm\">前半句「藉物抒情」有一定道理，但後半句「保有內心純真」，缺乏足夠的詩句支持。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        <badge color=\"success\">正解 D</badge>\n        <AsyncImage query=\"soft watercolor illustration a poet handwriting a letter at wooden desk at night window moonlight books nostalgic atmosphere no text\" aspectRatio=\"4:3\"/>\n        **「作者透過寫詩回望曾經歷過的人與事」**\n\n        <text size=\"sm\">「歲月漂洗」「夜裡寫一首長詩」「與你有著關聯的字」，共同支持回望過往的意涵。</text>\n      </box>\n    </grid-item>\n  </grid>\n</box>\n\n**最關鍵的差別：**\n\n- A 把詩中的懷舊、情感沉澱，延伸成「保持純真」，屬於沒有直接證據的推論。\n- D 有明確文字依據：歲月、寫詩，以及與「你」相關的記憶。\n\n因此應選 **D**。\n\n## 三、四個選項逐項判斷\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A | 不夠恰當 | 詩中未明確強調保有內心純真 |\n| B | 錯誤 | 詩人說「喜歡歲月漂洗過後的顏色」，並非不值得回憶 |\n| C | 證據不足 | 詩中的「你」未明確限定為背包客棧的經營者 |\n| D | 正確 | 寫詩並描繪與「你」有關的字，呈現對過往人事的回望 |\n\n## 四、考場快速解題：找出抽象選項的證據\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">詩句 → 具體行為 → 抽象主旨</text>\n  <box background=\"surface-secondary\" radius=\"md\" padding={3} align=\"center\" gap={1}>\n    **歲月漂洗過後的顏色**\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    <text size=\"sm\">時間流逝後留下的感受</text>\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    **回望過去**\n  </box>\n  <box background=\"surface-secondary\" radius=\"md\" padding={3} align=\"center\" gap={1}>\n    **夜裡寫長詩、與你有關聯的字**\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    <text size=\"sm\">透過文字記錄與某人的關聯</text>\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    **追憶人與事**\n  </box>\n  <text textAlign=\"center\" weight=\"medium\">兩組證據共同指向 D</text>\n</box>\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  讀到「我把多年以前的信件重新翻閱，將那些熟悉的名字寫進詩裡」，最適合推論何者？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 作者認為童年最純真</radio>\n    <radio value=\"B\">B. 作者透過文字回憶往昔的人事</radio>\n    <radio value=\"C\">C. 作者想成為專業作家</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"請重新比對選項和原文證據。\" }**\n      </row>\n      正解 B。「多年以前」「重新翻閱」「寫進詩裡」共同指向對往昔人事的追憶，而非童年或職業志向。\n    </box>\n  {/if}\n</box>\n\n## 六、錯題診斷與品質複核\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原題與選項 | 已依照片核對主要內容 |\n| 答案 | D，符合詩句的回憶與書寫意涵 |\n| A → D 關鍵差異 | 是否有直接詩句支持 |\n| 實際錯因 | 尚無作答過程，僅能提出可能誤判 |\n| 教材證據 | 未查詢國中教材外掛 |\n\n**本題記憶重點：詩歌主旨題不能只選「感覺很美」的答案，而要選「有詩句能夠證明」的答案。**\n\n尤其當兩個選項都很抽象時，優先找出能與詩句逐一對應的選項，才比較不容易被看似優美、卻缺乏證據的敘述誤導。\n\nMESSAGE 28 | user | 1794233374.3007421\n[attachment sediment://file_000000007e208206830306de660b2b1d?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n31@錯題A → D\n\nMESSAGE 30 | assistant | 1794233379.525492\n\n\nMESSAGE 31 | assistant | 1794233379.529205\n# 第 31 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 D</badge>　誤選 A → 正解 D\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜文言文閱讀 × 圖表判讀</text>\n\n## 一、原題證據確認\n\n題目根據〈馬援少時〉的記述，詢問：\n\n**「關於馬援資產多寡的變化情況，依時間來看的話，下列圖表何者最貼切？」**\n\n原文關鍵：\n\n> 「後有畜數千頭，穀數萬斛。既而嘆曰：『凡殖財產，貴其能賑施也，否則守錢虜耳！』乃盡散於親舊。」\n\n意思是：馬援後來累積了大量牲畜與糧食，但認為財產應用來救濟他人，於是將財產分送給親友故舊。\n\n## 二、二選一決勝：A 為什麼錯？D 為什麼對？\n\n<box gap={2}>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <box border radius=\"lg\" padding={2} gap={2}>\n        <row align=\"center\" justify=\"between\">\n          **A｜誤選**\n          <icon name=\"x-circle\" color=\"danger\"/>\n        </row>\n        <svg viewBox=\"0 0 160 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M24 10 V96 H150\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.8\"/>\n          <path d=\"M30 91 L137 18\" fill=\"none\" stroke=\"#D97757\" strokeWidth=\"3.5\" strokeLinecap=\"round\"/>\n          <text x=\"4\" y=\"15\" fontSize=\"10\" fill=\"currentColor\">資產</text>\n          <text x=\"115\" y=\"113\" fontSize=\"10\" fill=\"currentColor\">年齡</text>\n        </svg>\n        <text size=\"sm\">資產一路增加，沒有下降。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box border radius=\"lg\" padding={2} gap={2}>\n        <row align=\"center\" justify=\"between\">\n          **D｜正解**\n          <icon name=\"check-circle\" color=\"success\"/>\n        </row>\n        <svg viewBox=\"0 0 160 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M24 10 V96 H150\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.8\"/>\n          <path d=\"M30 82 Q75 4 97 28 T138 84\" fill=\"none\" stroke=\"#D97757\" strokeWidth=\"3.5\" strokeLinecap=\"round\"/>\n          <text x=\"4\" y=\"15\" fontSize=\"10\" fill=\"currentColor\">資產</text>\n          <text x=\"115\" y=\"113\" fontSize=\"10\" fill=\"currentColor\">年齡</text>\n        </svg>\n        <text size=\"sm\">資產先增加，之後因散財而下降。</text>\n      </box>\n    </grid-item>\n  </grid>\n</box>\n\n**題目決勝句：「乃盡散於親舊」。**\n\n這句表示馬援把累積的財產分送給親友，所以他的財產不會一直增加。\n\nA 只符合前半段「累積財產」；D 才能同時呈現「累積」與「散財」兩個階段。\n\n## 三、把文言文轉換成圖表\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">馬援的資產變化時間線</text>\n  <row align=\"center\" justify=\"between\" gap={1}>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"sprout\" color=\"secondary\" size=\"lg\"/>\n      **起初**\n      <text color=\"secondary\" size=\"xs\" textAlign=\"center\">經營畜牧</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"tertiary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"coins\" color=\"secondary\" size=\"lg\"/>\n      **後來**\n      <text color=\"secondary\" size=\"xs\" textAlign=\"center\">累積大量財產</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"tertiary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"hand-heart\" color=\"secondary\" size=\"lg\"/>\n      **最後**\n      <text color=\"secondary\" size=\"xs\" textAlign=\"center\">散財救濟親友</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\" textAlign=\"center\">資產上升 → 達到高點 → 資產下降</text>\n</box>\n\n## 四、其他選項排除\n\n| 選項 | 曲線變化 | 是否符合 |\n|---|---|---|\n| A | 持續上升 | ❌ 忽略最後散財 |\n| B | 持續下降 | ❌ 忽略先累積大量財產 |\n| C | 先下降再上升 | ❌ 與故事順序相反 |\n| D | 先上升再下降 | ✅ 符合全文時間順序 |\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  某人先努力存錢，累積到一筆巨額財富，晚年再把大部分財產捐給慈善機構。\n\n  他的資產曲線最可能是哪一種？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 不斷上升</radio>\n    <radio value=\"B\">B. 先下降再上升</radio>\n    <radio value=\"C\">C. 先上升再下降</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"C\"?\"check-circle\":\"info\"} color={choice===\"C\"?\"success\":\"secondary\"}/>\n        **{choice===\"C\"?\"答對了！\":\"再注意最後發生了什麼事。\" }**\n      </row>\n      正解 C。先累積財富，資產增加；後來捐出大部分財產，資產下降。\n    </box>\n  {/if}\n</box>\n\n## 六、錯題診斷與品質複核\n\n**可能誤判原因：** 看到「後有畜數千頭，穀數萬斛」，就選擇資產持續上升的 A，忽略文章後段的轉折。\n\n這只是依誤選選項推測，不能認定孩子的實際思考過程。\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原題與四個圖形 | 已依照片比對 |\n| 正確答案 | D |\n| 文言文證據 | 「後有畜數千頭」及「乃盡散於親舊」 |\n| 圖表一致性 | 先升後降，與 D 相符 |\n| 教材查核 | 尚未使用教材搜尋外掛 |\n\n**本題必記：圖表判讀題不能只看故事前半段，要把整段文字中的「起初、後來、最後」全部轉成變化曲線。**\n\nMESSAGE 32 | user | 1794233551.5191178\n[attachment sediment://file_00000000b70082069870ae77b0a2f65f?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n[attachment sediment://file_0000000060088206b536d85f980086a9?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n36@錯題B → C\n\nMESSAGE 34 | assistant | 1794233561.730844\n\n\nMESSAGE 35 | assistant | 1794233561.756372\n# 第 36 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 C</badge>　誤選 B → 正解 C\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜雙文本比較・共同觀點判斷</text>\n\n## 一、原題確認\n\n**題目：** 根據甲、乙二文，下列何者最符合這兩篇文章對特殊動物咖啡廳的共同看法？\n\n| 選項 | 內容 |\n|---|---|\n| A | 特殊動物咖啡廳中皆有專業人士會盡責照顧所繁養的動物 |\n| B（誤選） | 消費者對特殊動物咖啡廳的興趣來自於對動物的好奇心 |\n| C（正解） | 特殊動物咖啡廳在提供動物觀賞時，可能會忽略動物的福利 |\n| D | 特殊動物咖啡廳中的動物皆進行社會化訓練，讓牠們可以適應這個世界 |\n\n## 二、二選一決勝：B 為什麼錯？C 為什麼對？\n\n本題最重要的不是選出「看起來合理」的敘述，而是找出**甲、乙兩篇文章都有支持的觀點**。\n\n<box gap={3}>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **B｜消費者因為好奇而造訪**\n      <icon name=\"x-circle\" color=\"danger\" size=\"lg\"/>\n    </row>\n    <AsyncImage query=\"cute colorful editorial illustration curious visitors observing an otter in an exotic animal cafe through a glass partition no text\" aspectRatio=\"16:9\" maxHeight={170}/>\n    甲文確實提到人們對親近動物的渴望，但**乙文並未明確指出消費者的興趣來自好奇心**。\n\n    <text color=\"secondary\" size=\"sm\">因此 B 無法構成兩文共同觀點。</text>\n  </box>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **C｜動物觀賞可能忽略動物福利**\n      <icon name=\"check-circle\" color=\"success\" size=\"lg\"/>\n    </row>\n    <AsyncImage query=\"thoughtful educational cartoon illustration small otter in cramped exotic animal cafe environment with too many visitors reaching toward it otter looking stressed colorful expressive no text\" aspectRatio=\"16:9\" maxHeight={170}/>\n    **甲文證據：**\n\n    > 「提供便利的休憩場所，卻可能讓動物承受高強度互動與環境不適的壓力，影響其生存品質。」\n\n    **乙文證據：**\n\n    > 「有客人和離職員工爆料某咖啡店老闆拿球拍毆打和指使牧羊犬去驅趕及咬浣熊等惡行……」\n\n    <text color=\"secondary\" size=\"sm\">兩篇都指出特殊動物咖啡廳可能犧牲動物福利，因此 C 正確。</text>\n  </box>\n</box>\n\n## 三、雙文本共同觀點比較\n\n| 判斷重點 | 甲文 | 乙文 |\n|---|---|---|\n| 人類想接近特殊動物 | 有提到 | 描述咖啡廳現象 |\n| 動物可能受到傷害 | 有，互動與環境壓力 | 有，虐待浣熊事件 |\n| 動物福利可能被忽略 | **有** | **有** |\n| 消費者出於好奇心 | 未明確歸因於好奇心 | 未明確說明 |\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\" textAlign=\"center\">共同觀點＝兩篇文章都能找到證據</text>\n  <svg viewBox=\"0 0 320 135\" width=\"100%\">\n    <circle cx=\"124\" cy=\"65\" r=\"57\" fill=\"#4E9BB4\" fillOpacity=\".20\" stroke=\"#4E9BB4\" strokeWidth=\"1.5\"/>\n    <circle cx=\"196\" cy=\"65\" r=\"57\" fill=\"#D69A50\" fillOpacity=\".20\" stroke=\"#D69A50\" strokeWidth=\"1.5\"/>\n    <text x=\"91\" y=\"43\" fontSize=\"13\" fill=\"currentColor\" fontWeight=\"600\">甲文</text>\n    <text x=\"198\" y=\"43\" fontSize=\"13\" fill=\"currentColor\" fontWeight=\"600\">乙文</text>\n    <text x=\"64\" y=\"68\" fontSize=\"10\" fill=\"currentColor\">互動壓力</text>\n    <text x=\"210\" y=\"68\" fontSize=\"10\" fill=\"currentColor\">虐待事件</text>\n    <text x=\"160\" y=\"62\" fontSize=\"10\" textAnchor=\"middle\" fill=\"currentColor\" fontWeight=\"600\">動物</text>\n    <text x=\"160\" y=\"75\" fontSize=\"10\" textAnchor=\"middle\" fill=\"currentColor\" fontWeight=\"600\">福利</text>\n    <text x=\"160\" y=\"126\" fontSize=\"11\" textAnchor=\"middle\" fill=\"currentColor\">交集就是 C 的核心概念</text>\n  </svg>\n</box>\n\n## 四、其餘選項排除\n\n**A｜錯在「皆有專業人士盡責照顧」。** 甲文指出動物可能承受壓力，乙文甚至出現虐待案例，無法支持所有咖啡廳都有盡責照顧者。\n\n**D｜錯在「皆進行社會化訓練」。** 兩文沒有證據顯示所有動物都經過社會化訓練，而且 D 的「皆」屬於過度肯定的說法。\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  甲文指出：「觀光活動可能使野生動物承受壓力。」\n\n  乙文指出：「部分動物表演場所因不當飼養而受到批評。」\n\n  兩文最可能具有什麼共同觀點？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 遊客都因為好奇而參觀動物</radio>\n    <radio value=\"B\">B. 人類娛樂活動可能影響動物福利</radio>\n    <radio value=\"C\">C. 所有動物表演場所都應立即關閉</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"請檢查兩篇是否都能證明你的選項。\" }**\n      </row>\n      正確答案 B。兩篇都提供動物福利可能受損的證據；其他選項則加入未被充分支持的原因或絕對化主張。\n    </box>\n  {/if}\n</box>\n\n## 六、錯因診斷與品質複核\n\n本題可能的誤判是：把「合理的生活常識」當成「兩篇文章共同提出的觀點」。\n\nB 的說法看似合理，但**合理不等於有文本證據**。\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原文及選項 | 已依兩張照片核對 |\n| 正確答案 | C |\n| 甲文關鍵證據 | 高強度互動、環境不適、生存品質 |\n| 乙文關鍵證據 | 虐待浣熊、負面事件 |\n| 教材外掛 | 尚未查詢 |\n| P0 問題 | 未發現 |\n\n**本題記憶重點：雙文本題必須同時找到甲文與乙文的支持證據；只有一篇符合，或只是生活常識，都不能當成共同觀點。**\n\nMESSAGE 36 | user | 1794233713.821373\n[attachment sediment://file_000000002378820693d584af01f7e259?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n4@錯題D → B\n\nMESSAGE 38 | assistant | 1794233717.52333\n\n\nMESSAGE 39 | assistant | 1794233717.527585\n# 第 4 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 B｜僅乙</badge>　誤選 D → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜化學反應・質量守恆・密閉系統</text>\n\n## 一、原題證據確認\n\n**題目：**\n\n下列甲、乙兩種反應中，若不考慮水的蒸發，則何者反應進行時的環境即使不為「密閉」，也能觀察到「反應前、後質量沒有改變」的現象？\n\n- **甲：** 鋼絲絨在空氣中燃燒。\n- **乙：** 碳酸鈉水溶液與氯化鈣水溶液反應。\n\n| 選項 | 內容 |\n|---|---|\n| A | 僅甲 |\n| B | 僅乙 |\n| C | 甲、乙均可觀察到 |\n| D（誤選） | 甲、乙均無法觀察到 |\n\n## 二、二選一決勝：D 為什麼錯？B 為什麼對？\n\n關鍵不是「化學反應一定要密閉」，而是：\n\n**開放容器中，有沒有物質從外界進入，或從容器逸出？**\n\n<box gap={3}>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    **甲｜鋼絲絨在空氣中燃燒**\n\n    <svg viewBox=\"0 0 340 158\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect x=\"93\" y=\"96\" width=\"153\" height=\"28\" rx=\"8\" fill=\"#B9CED7\" fillOpacity=\".45\" stroke=\"#64748b\" strokeWidth=\"2\"/>\n      <path d=\"M105 88 Q137 110 161 85 Q188 108 230 88 M111 96 L145 81 L177 101 L214 81 L237 99\" fill=\"none\" stroke=\"#8A776D\" strokeWidth=\"4\" strokeLinecap=\"round\"/>\n      {#each [113,153,197,228] as x,i}\n        <path key={i} d={`M${x} 84 Q${x-13} 64 ${x} 49 Q${x+15} 68 ${x} 84`} fill=\"#F4A340\" stroke=\"#D97706\" strokeWidth=\"1.3\"/>\n      {/each}\n      {#each [50,170,297] as x,i}\n        <g key={i}>\n          <circle cx={x} cy=\"29\" r=\"8\" fill=\"#7BA9CE\"/>\n          <circle cx={x+15} cy=\"29\" r=\"8\" fill=\"#7BA9CE\"/>\n          <path d={`M${x+7} 43 L${x+7} 70`} stroke=\"#3986BC\" strokeWidth=\"2.5\" strokeDasharray=\"4 4\"/>\n          <path d={`M${x+2} 63 L${x+7} 72 L${x+12} 63`} fill=\"none\" stroke=\"#3986BC\" strokeWidth=\"2.5\"/>\n        </g>\n      {/each}\n      <text x=\"170\" y=\"145\" fontSize=\"12\" textAnchor=\"middle\" fill=\"currentColor\">空氣中的氧氣進入並參與反應</text>\n    </svg>\n    鋼絲絨中的鐵與空氣中的氧氣結合，生成氧化鐵。\n\n    **鐵＋氧氣 → 氧化鐵**\n\n    若只測量鋼絲絨及其燃燒產物的質量，因為加入了空氣中的氧，燃燒後質量會增加。\n\n    <text color=\"secondary\" size=\"sm\">所以甲不符合題目所說的前後質量不變。</text>\n  </box>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **乙｜碳酸鈉與氯化鈣水溶液反應**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </row>\n    <svg viewBox=\"0 0 340 170\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <g stroke=\"#64748b\" strokeWidth=\"2\" fill=\"none\">\n        <path d=\"M45 38 V113 Q45 125 58 125 H116 Q129 125 129 113 V38\"/>\n        <path d=\"M208 38 V113 Q208 125 221 125 H279 Q292 125 292 113 V38\"/>\n      </g>\n      <path d=\"M47 81 H127 V112 Q127 123 115 123 H59 Q47 123 47 112 Z\" fill=\"#82C4DC\" fillOpacity=\".45\"/>\n      <path d=\"M210 81 H290 V112 Q290 123 278 123 H222 Q210 123 210 112 Z\" fill=\"#82C4DC\" fillOpacity=\".45\"/>\n      {#each [225,242,258,274,232,264] as x,i}\n        <circle key={i} cx={x} cy={99+(i%3)*5} r=\"3.5\" fill=\"#E9E4D5\" stroke=\"#A4A09A\" strokeWidth=\".5\"/>\n      {/each}\n      <path d=\"M149 88 H188 M181 82 L188 88 L181 94\" stroke=\"#64748b\" strokeWidth=\"2\" fill=\"none\" strokeLinecap=\"round\"/>\n      <text x=\"87\" y=\"24\" fontSize=\"12\" fill=\"currentColor\" textAnchor=\"middle\">兩種水溶液</text>\n      <text x=\"250\" y=\"24\" fontSize=\"12\" fill=\"currentColor\" textAnchor=\"middle\">產生白色沉澱</text>\n      <text x=\"87\" y=\"150\" fontSize=\"11\" fill=\"currentColor\" textAnchor=\"middle\">反應前</text>\n      <text x=\"250\" y=\"150\" fontSize=\"11\" fill=\"currentColor\" textAnchor=\"middle\">反應後</text>\n    </svg>\n    反應式：\n\n    \\[\\mathrm{Na_2CO_3+CaCl_2\\rightarrow CaCO_3\\downarrow+2NaCl}\\]\n\n    生成的碳酸鈣是**白色沉澱**，會留在容器中，並沒有氣體逸散。\n\n    題目又排除了水分蒸發，因此容器內的總質量保持不變。\n\n    <text color=\"secondary\" size=\"sm\">所以乙即使在開放容器中，也能觀察到反應前後總質量相等。</text>\n  </box>\n</box>\n\n## 三、甲、乙比較表\n\n| 比較重點 | 甲：燃燒鋼絲絨 | 乙：沉澱反應 |\n|---|---|---|\n| 是否與外界交換反應物 | 氧氣進入 | 不需要 |\n| 是否產生氣體逸出 | 無需產生氣體 | 沒有 |\n| 開放容器內測得質量 | 增加 | 不變 |\n| 符合題目 | 否 | **是** |\n\n注意：**質量守恆定律在甲、乙都成立。** 甲的質量看似增加，是因為氧氣來自容器外。把參與反應的氧氣也計入，反應前後總質量仍然相等。\n\n## 四、考場快速判斷\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">看到「開放容器＋質量守恆」先問：</text>\n  {@body const [gas,setGas] = DIL.useState(\"in\")}\n  <radio-group direction=\"col\" value={gas} onChange={setGas}>\n    <radio value=\"in\">有外界物質進入，例如氧氣參與燃燒</radio>\n    <radio value=\"out\">有氣體從容器逸出，例如產生二氧化碳</radio>\n    <radio value=\"none\">沒有物質進出，例如單純生成沉澱</radio>\n  </radio-group>\n  <box background=\"surface\" radius=\"md\" padding={3}>\n    {#if gas===\"in\"}\n      容器內測得的質量可能**增加**。例如甲的鋼絲絨燃燒。\n    {:else if gas===\"out\"}\n      容器內測得的質量可能**減少**。例如碳酸鹽與酸反應，產生二氧化碳逸出。\n    {:else}\n      在沒有蒸發、濺出等損失的條件下，容器內測得的總質量**不變**。例如乙的沉澱反應。\n    {/if}\n  </box>\n</box>\n\n## 五、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  在開放的燒杯中，將稀鹽酸加入碳酸鈣，產生大量二氧化碳氣泡。若不考慮其他物質散失，燒杯及內容物的總質量會如何變化？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 增加</radio>\n    <radio value=\"B\">B. 減少</radio>\n    <radio value=\"C\">C. 不變</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" padding={3} radius=\"md\" gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再想想二氧化碳跑到哪裡去了。\" }**\n      </row>\n      正確答案 B。二氧化碳逸出開放容器，使燒杯及剩餘內容物的總質量減少；若把逸出的氣體也計入，整體質量仍守恆。\n    </box>\n  {/if}\n</box>\n\n## 六、錯因與品質檢核\n\n**可能的誤判：** 認為「只要容器沒有密閉，就無法測得反應前後質量相等」，因此選 D。\n\n真正要區分的是「反應發生在哪種容器」與「反應時有沒有物質進出測量範圍」。\n\n| 檢核項目 | 結果 |\n|---|---|\n| P0 原題與答案 | B，經化學反應原理複核 |\n| P1 關鍵條件 | 已保留「不考慮水蒸發」 |\n| P1 測量範圍 | 已區分容器內質量與整體反應總質量 |\n| 圖文一致性 | 甲氧氣進入、乙沉澱留在容器內 |\n| 教材查核 | 未使用教材搜尋外掛 |\n\n**本題必記：質量守恆永遠成立，但開放容器中測得的質量不一定不變。關鍵在於有沒有物質進出。**\n\nMESSAGE 40 | user | 1794233824.241374\n[attachment sediment://file_000000004c708206ad49a8d6b8ba4e3c?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n21@錯題A → B\n\nMESSAGE 42 | assistant | 1794233828.286645\n\n\nMESSAGE 43 | assistant | 1794233828.291361\n## 第 21 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 B</badge>　誤選 A → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜化學平衡・勒沙特列原理・顏色判斷</text>\n\n### 一、原題證據確認\n\n題目給定的可逆反應：\n\n\\[\n\\underbrace{3I_2}_{\\text{紅褐色}}+6OH^-\n\\ \\rightleftharpoons\\\n\\underbrace{5I^-+IO_3^-+3H_2O}_{\\text{無色}}\n\\]\n\n正反應向右，逆反應向左。\n\n**題目：** 若在碘水溶液中加入少量 X 物質後，發現水溶液顏色變淡，則下列敘述何者正確？\n\n| 選項 | 反應方向 | X 的可能性 |\n|---|---|---|\n| A（誤選） | 正反應 | 酸性物質 |\n| B（正解） | 正反應 | 鹼性物質 |\n| C | 逆反應 | 酸性物質 |\n| D | 逆反應 | 鹼性物質 |\n\n### 二、二選一決勝：A 為什麼錯？B 為什麼對？\n\nA、B 都認為平衡向正反應移動，因此這題真正要比較的是：**加入酸性物質，還是鹼性物質？**\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <text weight=\"medium\">反應顏色與方向示意</text>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n        <svg viewBox=\"0 0 120 116\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M32 12 L32 24 L20 91 Q20 103 35 103 H85 Q100 103 100 91 L88 24 L88 12\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2.5\" strokeLinecap=\"round\"/>\n          <path d=\"M25 70 H95 L99 91 Q99 102 85 102 H35 Q21 102 21 91 Z\" fill=\"#A84A22\" fillOpacity=\".8\"/>\n          <path d=\"M32 12 H88\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n        </svg>\n        **左側：紅褐色**\n        <text color=\"secondary\" size=\"xs\">碘 I₂ 較多</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n        <svg viewBox=\"0 0 120 116\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M32 12 L32 24 L20 91 Q20 103 35 103 H85 Q100 103 100 91 L88 24 L88 12\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2.5\" strokeLinecap=\"round\"/>\n          <path d=\"M25 70 H95 L99 91 Q99 102 85 102 H35 Q21 102 21 91 Z\" fill=\"#D9E8F1\" fillOpacity=\".65\"/>\n          <path d=\"M32 12 H88\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n        </svg>\n        **右側：無色**\n        <text color=\"secondary\" size=\"xs\">I⁻、IO₃⁻ 較多</text>\n      </box>\n    </grid-item>\n  </grid>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <icon name=\"arrow-right\" color=\"success\"/>\n    **顏色變淡＝碘減少＝正反應增加**\n  </row>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\">要促進正反應，應增加哪一種物質？</text>\n  觀察反應式左側有 \\(OH^-\\)，它是反應物。加入鹼性物質會增加 \\(OH^-\\)，促使反應向右進行，消耗紅褐色的碘。\n</box>\n\n所以：\n\n- **A 錯：** 加酸會消耗 \\(OH^-\\)，不利正反應。\n- **B 對：** 加鹼增加 \\(OH^-\\)，促進正反應，讓碘水顏色變淡。\n\n### 三、把解題過程拆成三步\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <list marker=\"number\" connector=\"solid\" gap={3}>\n    <list-item>\n      **先看顏色**\n\n      紅褐色變淡 → 紅褐色的 \\(I_2\\) 減少。\n    </list-item>\n    <list-item>\n      **再看反應方向**\n\n      \\(I_2\\) 在反應式左側，減少表示正反應（向右）進行較多。\n    </list-item>\n    <list-item>\n      **最後判斷 X**\n\n      \\(OH^-\\) 是左側反應物，加入鹼使其增加，促進正反應。\n\n      因此選 **B**。\n    </list-item>\n  </list>\n</box>\n\n### 四、四個選項完整比較\n\n| 選項 | 加入 X 後的傾向 | 與顏色變淡是否符合 |\n|---|---|---|\n| A 酸性、正反應 | 酸會消耗 OH⁻，傾向左移 | 不符 |\n| B 鹼性、正反應 | OH⁻ 增加，傾向右移 | **符合** |\n| C 酸性、逆反應 | 傾向左移，碘增加 | 不符 |\n| D 鹼性、逆反應 | 鹼使反應傾向右移 | 不符 |\n\n這裡的方向判斷是依照題目給定的反應模型與平衡原理，不代表所有化學反應加入鹼都會向右。\n\n### 五、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  假設反應如下：\n\n  \\[\\text{紅色 A}+OH^-\\rightleftharpoons\\text{無色 B}\\]\n\n  想讓溶液的紅色變淡，應該怎麼做？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 加入酸，使 OH⁻ 減少</radio>\n    <radio value=\"B\">B. 加入鹼，使 OH⁻ 增加</radio>\n    <radio value=\"C\">C. 使反應向左進行</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再想想要如何消耗紅色 A。\" }**\n      </row>\n      正解 B。增加 OH⁻ 使反應向右，消耗紅色 A，溶液便會變淡。\n    </box>\n  {/if}\n</box>\n\n### 六、錯因診斷與品質檢核\n\n**可能的誤判點：** 已經正確找出「正反應」，卻沒有進一步判斷 \\(OH^-\\) 是反應物，以及酸、鹼對 \\(OH^-\\) 的不同影響。因此在最後 A、B 二選一時誤選 A。\n\n但這只是從作答 A 推測的可能原因，不能直接視為孩子的實際思路。\n\n| 檢核 | 結果 |\n|---|---|\n| P0 原題與選項 | 依照片核對 |\n| P0 正確答案 | B，獨立依反應式確認 |\n| P1 顏色方向 | 紅褐色變淡 → 碘減少 → 向右 |\n| P1 酸鹼方向 | 加鹼提高 OH⁻，促進正反應 |\n| 教材查核 | 尚未使用教材搜尋外掛 |\n\n**考場記憶口訣：先看顏色判方向，再看反應物決定加什麼。**\n\n這題的重點不是死背「鹼使碘褪色」，而是學會從反應式找出顏色、反應方向與酸鹼條件的關係。\n\nMESSAGE 44 | user | 1794233890.1603189\n[attachment sediment://file_0000000093488206a07e92e954266548?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n22@錯題A → C\n\nMESSAGE 46 | assistant | 1794233893.220197\n\n\nMESSAGE 47 | assistant | 1794233893.2251\n## 第 22 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 C｜Ss × ss</badge>　誤選 A → 正解 C\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜生物・孟德爾遺傳・基因型判斷</text>\n\n### 一、原題證據確認\n\n題目：\n\n> 有一對豚鼠交配後產下 10 隻子代，其中 8 隻為短毛、2 隻為長毛，且無突變情形發生。已知短毛為顯性特徵，若以 S 代表顯性遺傳因子、s 代表隱性遺傳因子，則下列何者最可能為親代的基因型組合？\n\n| 選項 | 親代基因型 |\n|---|---|\n| A（誤選） | SS × ss |\n| B | SS × Ss |\n| C（正解） | Ss × ss |\n| D | ss × ss |\n\n**先抓住題幹最重要的條件：子代出現 2 隻長毛（ss）。**\n\n### 二、二選一決勝：A 與 C\n\n<box gap={3}>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **A｜SS × ss**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </row>\n    <text color=\"secondary\" size=\"sm\">左側親代只能提供 S，右側親代只能提供 s。</text>\n    <grid columns={3} gap=\"3px\">\n      {#each [\"\",\"S\",\"S\",\"s\",\"Ss\",\"Ss\",\"s\",\"Ss\",\"Ss\"] as cell,i}\n        <grid-item key={i}>\n          <box background={i===0?\"surface-secondary\":i<3||i%3===0?\"rgba(100,116,139,0.12)\":\"rgba(22,163,74,0.09)\"} radius=\"sm\" padding={2} align=\"center\">\n            <text weight=\"medium\" size=\"sm\">{cell||\"×\"}</text>\n          </box>\n        </grid-item>\n      {/each}\n    </grid>\n    <text weight=\"medium\" textAlign=\"center\">100% Ss，全部短毛</text>\n    **問題：** 無法產生任何長毛的 ss 子代，因此 A 必須排除。\n  </box>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **C｜Ss × ss**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </row>\n    <text color=\"secondary\" size=\"sm\">左側親代可提供 S 或 s，右側親代只能提供 s。</text>\n    <grid columns={3} gap=\"3px\">\n      {#each [\"\",\"S\",\"s\",\"s\",\"Ss\",\"ss\",\"s\",\"Ss\",\"ss\"] as cell,i}\n        <grid-item key={i}>\n          <box background={i===0?\"surface-secondary\":i<3||i%3===0?\"rgba(100,116,139,0.12)\":cell===\"Ss\"?\"rgba(22,163,74,0.09)\":\"rgba(245,158,11,0.13)\"} radius=\"sm\" padding={2} align=\"center\">\n            <text weight=\"medium\" size=\"sm\">{cell||\"×\"}</text>\n          </box>\n        </grid-item>\n      {/each}\n    </grid>\n    <row justify=\"around\">\n      <text size=\"sm\" weight=\"medium\" color=\"success\">50% Ss 短毛</text>\n      <text size=\"sm\" weight=\"medium\">50% ss 長毛</text>\n    </row>\n    **關鍵：** C 能同時產生短毛和長毛，符合題目實際觀察到的兩種表現型。\n  </box>\n</box>\n\n### 三、為什麼是 8 隻短毛、2 隻長毛，卻不選 3：1？\n\n這是本題最值得釐清的地方。\n\n雖然觀察結果為 8：2，也就是 4：1，但題目只有 **10 隻子代**，不應把實際數量當作精確的理論比例。\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  **理論機率與實際觀察不同**\n\n  <text color=\"secondary\" size=\"xs\">C 選項 Ss × ss 的理論比例</text>\n  <box height=\"22px\" direction=\"row\" radius=\"sm\" clip>\n    <box background=\"#399A70\" flex=\"1\"/>\n    <box background=\"#DBA04D\" flex=\"1\"/>\n  </box>\n  <row justify=\"between\">\n    <text color=\"secondary\" size=\"xs\">50% 短毛</text>\n    <text color=\"secondary\" size=\"xs\">50% 長毛</text>\n  </row>\n  <text color=\"secondary\" size=\"xs\">題目實際觀察</text>\n  <box height=\"22px\" direction=\"row\" radius=\"sm\" clip>\n    <box background=\"#399A70\" flex=\"4\"/>\n    <box background=\"#DBA04D\" flex=\"1\"/>\n  </box>\n  <row justify=\"between\">\n    <text color=\"secondary\" size=\"xs\">80% 短毛（8 隻）</text>\n    <text color=\"secondary\" size=\"xs\">20% 長毛（2 隻）</text>\n  </row>\n  <text size=\"sm\">生殖與遺傳具有隨機性，小樣本不一定恰好符合預測比例。C 雖然預測 1：1，仍有可能出現 8：2。</text>\n</box>\n\n另外，**Ss × Ss** 的理論表現型比例才是 3：1，但它並不在本題選項中，不能自行增加選項。\n\n### 四、四個選項全部驗證\n\n| 選項 | 短毛機率 | 長毛機率 | 是否可能出現 8 短、2 長 |\n|---|---:|---:|---|\n| A：SS × ss | 100% | 0% | 不可能 |\n| B：SS × Ss | 100% | 0% | 不可能 |\n| C：Ss × ss | 50% | 50% | **可能** |\n| D：ss × ss | 0% | 100% | 不可能 |\n\n因為題目明確表示沒有突變，所以只剩 C 能符合兩種毛長同時出現的觀察結果。\n\n### 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  假設黑毛 B 為顯性、白毛 b 為隱性。一對親代生下 6 隻黑毛、1 隻白毛的小鼠。\n\n  以下哪一組親代**有可能**生出白毛小鼠？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. BB × bb</radio>\n    <radio value=\"B\">B. BB × Bb</radio>\n    <radio value=\"C\">C. Bb × Bb</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"C\"?\"check-circle\":\"info\"} color={choice===\"C\"?\"success\":\"secondary\"}/>\n        **{choice===\"C\"?\"答對了！\":\"再確認哪一組的雙親都能提供 b。\" }**\n      </row>\n      答案 C。白毛必須是 bb，因此雙親都要能提供 b。Bb × Bb 可以產生 bb。\n    </box>\n  {/if}\n</box>\n\n### 六、錯因診斷與品質複核\n\n**可能的誤判：** 將「一方純顯性 SS，一方純隱性 ss」理解成會產生兩種毛長，因而選 A。但實際上 SS × ss 的子代全部是 Ss，都呈現短毛。\n\n| 檢核項目 | 結果 |\n|---|---|\n| P0 原題及選項 | 已依照片核對 |\n| P0 正確答案 | C，經基因型組合獨立驗算 |\n| P1 理論比例與實測 | 已區分 1：1 理論機率與 8：2 實測數量 |\n| P1 圖文一致性 | 兩組棋盤格與子代表現型吻合 |\n| 教材證據 | 尚未查詢教材外掛 |\n\n**本題考場必記：只要子代出現隱性性狀 ss，就代表雙親都必須能提供 s。**\n\n遇到這類題目，先檢查「是否可能產生隱性子代」，再考慮比例，會比直接拿觀察數量去套 3：1 或 1：1 更可靠。\n\nMESSAGE 48 | user | 1794233948.393224\n[attachment sediment://file_00000000cd388206b8500fa0f908d9d7?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n23@錯題D → B\n\nMESSAGE 50 | assistant | 1794233953.450445\n\n\nMESSAGE 51 | assistant | 1794233953.45491\n## 第 23 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 B</badge>　誤選 D → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜自然・實驗數據・濃度與反應速率圖表</text>\n\n### 一、原題證據確認\n\n題目利用 35% 雙氧水與蒸餾水混合成不同濃度的雙氧水，進行氧氣製備實驗，並以收集完整一瓶氧氣所需的時間倒數表示反應速率。\n\n**要選出：反應速率與雙氧水濃度的正確關係圖。**\n\n原題表格：\n\n| 實驗 | 35% 雙氧水 | 蒸餾水 |\n|---|---:|---:|\n| I | 30 mL | 10 mL |\n| II | 20 mL | 20 mL |\n| III | 10 mL | 30 mL |\n\n四個選項的圖表排列：\n\n| 選項 | 濃度由左至右 | 反應速率趨勢 |\n|---|---|---|\n| A | I → II → III | 上升 |\n| B | III → II → I | 上升 |\n| C | I → II → III | 下降 |\n| D（誤選） | III → II → I | 下降 |\n\n### 二、二選一決勝：D 與 B 差在哪裡？\n\n**B、D 的橫軸排序都正確：III → II → I。**\n\n真正要判斷的是：雙氧水濃度越高，反應速率應該越快，還是越慢？\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <text weight=\"medium\">第一步：計算三組雙氧水濃度</text>\n\n  \\[\n  \\text{混合後濃度}=\\frac{35\\%\\times\\text{雙氧水體積}}{\\text{總體積}}\n  \\]\n\n  三組總體積都是 40 mL。\n\n  | 實驗 | 計算 | 混合後濃度 |\n  |---|---|---:|\n  | I | 35% × 30 ÷ 40 | **26.25%** |\n  | II | 35% × 20 ÷ 40 | **17.50%** |\n  | III | 35% × 10 ÷ 40 | **8.75%** |\n\n  <text weight=\"medium\">第二步：確定濃度排序</text>\n\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      <box align=\"center\" flex=\"1\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">III</text>\n        **8.75%**\n      </box>\n      <icon name=\"arrow-right\" color=\"secondary\"/>\n      <box align=\"center\" flex=\"1\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">II</text>\n        **17.50%**\n      </box>\n      <icon name=\"arrow-right\" color=\"secondary\"/>\n      <box align=\"center\" flex=\"1\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">I</text>\n        **26.25%**\n      </box>\n    </row>\n    <box height=\"12px\" direction=\"row\" radius=\"full\" clip>\n      <box flex=\"1\" background=\"#A9D9F4\"/>\n      <box flex=\"1\" background=\"#55ACE4\"/>\n      <box flex=\"1\" background=\"#1778BD\"/>\n    </box>\n    <text size=\"xs\" color=\"secondary\" textAlign=\"center\">濃度由低到高</text>\n  </box>\n\n  <text weight=\"medium\">第三步：判斷反應速率</text>\n\n  在其他條件相同時，雙氧水濃度越高，分解反應通常越快，收集一瓶氧氣所需的時間越短。\n\n  \\[\n  \\text{反應速率}=\\frac{1}{\\text{收集時間}}\n  \\]\n\n  所以濃度越高，時間越短，**時間的倒數越大，反應速率越快**。\n</box>\n\n### 三、B、D 圖形直接比較\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box border radius=\"lg\" padding={2} gap={2}>\n      <row justify=\"between\" align=\"center\">\n        **D｜誤選**\n        <icon name=\"x-circle\" color=\"danger\"/>\n      </row>\n      <svg viewBox=\"0 0 175 150\" width=\"100%\">\n        <path d=\"M32 16 V119 H166\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.6\"/>\n        <path d=\"M28 23 L32 16 L36 23 M159 115 L166 119 L159 123\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.4\"/>\n        <path d=\"M50 44 L92 71 L138 99\" stroke=\"#D97757\" strokeWidth=\"2.5\" strokeDasharray=\"5 4\" fill=\"none\"/>\n        {#each [[50,44,\"III\"],[92,71,\"II\"],[138,99,\"I\"]] as p,i}\n          <g key={i}>\n            <circle cx={p[0]} cy={p[1]} r=\"4.5\" fill=\"#D97757\"/>\n            <text x={p[0]+5} y={p[1]-10} fontSize=\"11\" fill=\"currentColor\">{p[2]}</text>\n          </g>\n        {/each}\n        <text x=\"36\" y=\"11\" fontSize=\"10\" fill=\"currentColor\">反應速率</text>\n        <text x=\"100\" y=\"140\" fontSize=\"10\" fill=\"currentColor\">濃度</text>\n      </svg>\n      <text size=\"sm\">濃度增加，反應速率卻下降，與預期相反。</text>\n    </box>\n  </grid-item>\n  <grid-item>\n    <box border radius=\"lg\" padding={2} gap={2}>\n      <row justify=\"between\" align=\"center\">\n        **B｜正解**\n        <icon name=\"check-circle\" color=\"success\"/>\n      </row>\n      <svg viewBox=\"0 0 175 150\" width=\"100%\">\n        <path d=\"M32 16 V119 H166\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.6\"/>\n        <path d=\"M28 23 L32 16 L36 23 M159 115 L166 119 L159 123\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.4\"/>\n        <path d=\"M50 99 L92 71 L138 44\" stroke=\"#23936B\" strokeWidth=\"2.5\" strokeDasharray=\"5 4\" fill=\"none\"/>\n        {#each [[50,99,\"III\"],[92,71,\"II\"],[138,44,\"I\"]] as p,i}\n          <g key={i}>\n            <circle cx={p[0]} cy={p[1]} r=\"4.5\" fill=\"#23936B\"/>\n            <text x={p[0]+5} y={p[1]-10} fontSize=\"11\" fill=\"currentColor\">{p[2]}</text>\n          </g>\n        {/each}\n        <text x=\"36\" y=\"11\" fontSize=\"10\" fill=\"currentColor\">反應速率</text>\n        <text x=\"100\" y=\"140\" fontSize=\"10\" fill=\"currentColor\">濃度</text>\n      </svg>\n      <text size=\"sm\">濃度增加，反應速率上升，符合預期。</text>\n    </box>\n  </grid-item>\n</grid>\n\n<text color=\"secondary\" size=\"xs\">上圖是依原題趨勢重繪的示意圖，沒有填入題目未提供的反應速率數值。</text>\n\n### 四、真正容易混淆的地方：時間與速率相反\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">同樣收集一瓶氧氣時</text>\n  <row align=\"center\" justify=\"between\">\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"flask-conical\" size=\"xl\" color=\"secondary\"/>\n      **濃度較高**\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"timer\" size=\"xl\" color=\"secondary\"/>\n      **時間較短**\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"gauge\" size=\"xl\" color=\"success\"/>\n      **速率較快**\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  **最重要的關係：**\n\n  \\[\n  \\boxed{\\text{時間越短}\\ \\Rightarrow\\ \\frac{1}{\\text{時間}}\\text{越大}}\n  \\]\n\n  不能把「所需時間減少」誤認為「反應速率減少」。\n</box>\n\n### 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  三組實驗都收集相同體積的氧氣：\n\n  | 實驗 | 所需時間 |\n  |---|---:|\n  | 甲 | 20 秒 |\n  | 乙 | 10 秒 |\n  | 丙 | 5 秒 |\n\n  哪一組反應速率最快？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 甲</radio>\n    <radio value=\"B\">B. 乙</radio>\n    <radio value=\"C\">C. 丙</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"C\"?\"check-circle\":\"info\"} color={choice===\"C\"?\"success\":\"secondary\"}/>\n        **{choice===\"C\"?\"答對了！\":\"注意反應速率是時間的倒數。\" }**\n      </row>\n      正解 C。丙只花 5 秒就收集完整一瓶氧氣，時間最短，反應速率最快。\n    </box>\n  {/if}\n</box>\n\n### 六、錯因診斷與品質複核\n\n本題 D → B 可能是把「濃度增加、反應所需時間減少」誤畫成「濃度增加、反應速率減少」，但目前沒有實際計算過程，因此只能列為可能錯因。\n\n| 檢核項目 | 結果 |\n|---|---|\n| P0 原題與四張圖 | 已依照片核對 |\n| P0 正確答案 | B，符合濃度與速率關係 |\n| P1 濃度計算 | 8.75%、17.50%、26.25% |\n| P1 時間與速率 | 已區分時間縮短與速率增加 |\n| P1 圖文一致性 | B 上升、D 下降，與照片一致 |\n| 教材證據 | 尚未查詢教材搜尋外掛 |\n\n**本題考場必記：濃度越高 → 反應越快 → 收集時間越短 → 時間倒數越大。**\n\n此題的二選一決勝技巧是：當兩張圖的橫軸順序都正確時，不必重新計算全部內容，只要確認縱軸畫的是「時間」還是「反應速率」，就能快速選出 B。\n\n---\n\n如果你願意，我可以：\n\n- 繼續解析黑板乘法的深層哲理\n- 出一題類似的數學比喻閱讀理解題\n- 說明錯選A與正確選項B的差異"
     }
   ],
   "questions": [
@@ -101496,9 +101522,9 @@
         "原卷預期A；B的兩個「劃」亦可按擦掠讀ㄏㄨㄚˊ，目前保留單選設計疑義、不指定唯一答案。請核對此處理是否可以保留。"
       ],
       "reviewExcerpt": "下列「」中的字，何者讀音前後相同？\n(A) 騎著機車在交通要「衝」的路口橫「衝」直撞非常危險\n(B) 快艇「劃」過湖面，在水面「劃」出一條雪白水線\n(C) 演藝界當紅「炸」子雞忽然發出一則爆「炸」性宣言\n(D) 我忖「度」著該如何拿捏說話的尺「度」才不會傷人",
-      "reviewLabel": "優先核對 1／3",
+      "reviewLabel": "優先核對 1／1",
       "reviewPreviousId": "",
-      "reviewNextId": "q-991"
+      "reviewNextId": ""
     },
     {
       "id": "q-952",
@@ -106675,7 +106701,46 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "電影、唱片與百貨，定位日治1930年代",
+        "art": "assets/comics/q-995-art-ca3f50aa31-web.webp",
+        "panels": [
+          {
+            "heading": "① 電影與街名，先定位日治都市生活",
+            "text": "永樂座、京町通、榮町通，以及電影院和百貨公司，合起來呈現日治時期的都市消費文化，不是清領開港或戰後建設景象。",
+            "alt": "1930年代服飾成人與電影院空白海報框的都市情境，無現代手機或真實電影海報重製。"
+          },
+          {
+            "heading": "② 臺語流行歌，也能是日治時期",
+            "text": "桃花泣血記的臺語唱片屬1930年代的重要線索。不能只看到臺語歌，就認定一定是戰後；唱片與流行音樂當時已發展。",
+            "alt": "成人在1930年代唱片店欣賞留聲機播放，黑色蟲膠唱片封套無品牌或歌詞；只是時代輔助情境。"
+          },
+          {
+            "heading": "③ 同一時期，對應內地延長政策",
+            "text": "1930年代落在日治文官總督、內地延長政策的時期，所以選C。淡水開港、行郊商人主要較早；十大建設則是較晚的戰後1970年代。",
+            "alt": "年代性早期現代百貨街景與非文字霓虹燈，沒有當代高樓捷運，不冒充特定百貨建築復原。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：內地延長政策",
+          "points": [
+            "把電影、唱片、街名、百貨等線索合讀。",
+            "1930年代臺語流行歌屬日治時期。",
+            "題目問同時期，不是問哪項政策直接創作歌曲。"
+          ]
+        },
+        "protectedWords": [
+          "桃花泣血記",
+          "內地延長",
+          "1930年代",
+          "日治時期",
+          "文官總督",
+          "京町通",
+          "榮町通",
+          "十大建設"
+        ]
+      }
     },
     {
       "id": "q-998",
@@ -106819,7 +106884,65 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "噴氣看火山背景，崩塌看重力作用",
+        "art": "assets/comics/q-1001-art-29af2559dd.svg",
+        "panels": [
+          {
+            "heading": "① 硫磺熱氣，是火山背景的線索",
+            "text": "題幹說山壁下冒出硫磺熱氣，符合龜山島的火山與地熱背景。乙把它判斷為火山島最有根據，選B；這不等於宣告現在正在噴發。",
+            "alt": "新製概念剖面：地下熱源以橘色示意，向上箭頭表示熱氣排出；不是龜山島實際地層、熱源深度或地形復原。",
+            "caption": "橘色：地下熱源；向上箭頭：熱氣排出。概念示意，非實際剖面。"
+          },
+          {
+            "heading": "② 岩塊崩落，本身是重力等外營力",
+            "text": "山壁岩塊失穩後因重力下落，崩塌本身不能直接當作內營力。即使某次崩塌可能被地震誘發，也不能把誘因和崩塌作用混為一談。",
+            "alt": "新製崩塌示意：岩塊與向下箭頭呈重力下落；未畫地震、河流或指定本次崩塌的原因。",
+            "caption": "向下箭頭：岩塊因重力下落；本題未指定誘因。"
+          },
+          {
+            "heading": "③ C、D沒有題幹證據，不任意補條件",
+            "text": "題目沒有交代河流，也沒有岩塊是珊瑚礁的證據。不能只看到「崩塌」，就補成河水侵蝕或猜成珊瑚礁體。",
+            "alt": "可選取中文證據比較：河水侵蝕與珊瑚礁體均缺條件，不能取代硫磺噴氣的直接線索。",
+            "diagram": {
+              "kind": "paths",
+              "title": "把推論與題示證據配對",
+              "items": [
+                {
+                  "label": "C｜河水侵蝕？",
+                  "detail": "題幹沒有交代河流。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "D｜珊瑚礁體？",
+                  "detail": "題幹沒有提供岩性證據。",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "不猜補題目沒有的條件",
+              "target": "B的硫磺熱氣線索最直接"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：龜山島為火山島",
+          "points": [
+            "噴氣與地熱，支持火山背景。",
+            "崩塌作用本身與可能誘發因素要分開。",
+            "不任猜河流、珊瑚礁或這次崩塌由地震造成。"
+          ]
+        },
+        "protectedWords": [
+          "龜山島",
+          "火山島",
+          "內營力",
+          "外營力",
+          "重力",
+          "珊瑚礁",
+          "硫磺熱氣"
+        ]
+      }
     },
     {
       "id": "q-991",
@@ -106832,11 +106955,11 @@
       "dateLabel": "首次出題日期",
       "addedAt": "2026-11-08",
       "question": "士凱想購買從嘉義前往臺北的車票，在不轉乘的前提下，他可以選擇搭乘下列哪一班確定會於當日行駛的列車？\n(A) 508\n(B) 663\n(C) 1320\n(D) 8258",
-      "answer": "來源AI預期A（0508）；原表未明示模式5同班直達的條件，暫不指定唯一答案。",
-      "explanation": "原AI預期選A（0508），但原表對模式5分列「南港至臺中區間」及「臺中至左營區間」，未明確說明同一班508是否串接兩段。若模式5是全線班次分段列出站停與時間，A可符合；若指兩種分別運行的區間車，就不能保證嘉義至臺北不轉乘。因此本題保留直達條件疑義，暫不宣告唯一答案。\n\n可確定的排除：B末兩碼63是奇數，代表南下，方向不符；C首碼1是非每日行駛，無日期資訊不能保證當日開行；D首碼8原印「當天加開」，所以當日開行沒有問題，但第2碼2的停靠站不含嘉義，仍不能搭乘。\n\n原AI說D「加開不保證當天有車」，與表格的「當天加開」不符；現已修正，並把是否直達與是否當天開行分開。原材料「早上六點至晚上十一點，運行整整十六小時」照原印保留，六時至二十三時實為十七小時，不拿這項時間筆誤推算車次。",
+      "answer": "(C) 1320",
+      "explanation": "依使用者核對，本題選C（1320）。使用者明確確認模式5的兩列代表不同區間班次，不跨臺中行駛；因此A（0508）不能讓旅客由嘉義直達臺北，不能沿用原AI選A的判斷。\n\n1320末兩碼20為偶數，表示北上；第2碼3的模式停靠嘉義、臺北，符合方向、上下車站及不轉乘的條件。首碼1仍照原表表示「非每日行駛」，不能誤教成每天開行。原題又問「確定會於當日行駛」，但沒有提供日期；僅憑編碼不能另行證明該天一定開行。此處依使用者確認採C，並保留原題這項語句限制，不猜補日期或改寫原題。\n\nA：0508屬北上且每日行駛，但模式5為不同區間車，不能跨臺中直達。B：0663的63為奇數，代表南下，方向相反。D：首碼8明示當天加開，當日開行沒有問題；真正不符的是模式2不停嘉義。\n\n原材料「早上六點至晚上十一點，運行整整十六小時」照原印保留，六時至二十三時實為十七小時，不用這項時間筆誤推算車次。",
       "trap": "",
-      "verification": "待核對",
-      "verificationNote": "已實開真正上傳原卷及本題裁圖，逐題核對題幹、全部選項與必要閱讀材料。未提供實際考試日期，日期採首次使用者出題訊息的台灣日期；無教材冊章證據，歸綜合。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁圖，逐題核對題幹、全部選項與必要閱讀材料。未提供實際考試日期，日期採首次使用者出題訊息的台灣日期；無教材冊章證據，歸綜合。 使用者已於monitor確認模式5分段為不同班、不跨臺中，答案C；已依確認處理，保留「確定當日」與非每日的語句限制，不重複要求確認。",
       "diagram": "",
       "notes": "",
       "status": "todo",
@@ -106852,16 +106975,16 @@
       "sourceLabel": "分享原卷｜第28題",
       "studentAnswer": "原卷藍筆A；左側紅筆註記無法可靠辨識，不猜作另一個答案。",
       "contentStatus": "完整原題",
-      "correctOption": "",
+      "correctOption": "C",
       "passage": "高鐵每日從早上六點至晚上十一點，運行整整十六小時，在這些班次中，可區分為七種停靠模式。其中旅客最熟悉的有三種，包含「北高直達車」、「跳站式列車」、「站站停列車」。高鐵車次編排其實有其意義，只要了解，便能迅速分辨。\n\n高鐵的車次編碼共有4碼，編碼邏輯如下：\n◎第1碼若為0，則不會顯示。\n◎末2碼請視為雙位數解讀。\n\n高鐵車站一覽（由北至南）：南港、臺北、板橋、桃園、新竹、苗栗、臺中、彰化、雲林、嘉義、臺南、左營。",
       "originalQuestionNumber": "28",
       "optionAnalysis": [
         {
           "label": "A",
           "text": "508",
-          "wordClass": "待核對",
+          "wordClass": "不選",
           "meaning": "",
-          "explanation": "0508首碼0表示每日行駛、末兩碼08是偶數表示北上。但模式5的原表分成兩段，沒有交代同一班508是否跨臺中行駛，故能否嘉義直達臺北須核對。"
+          "explanation": "使用者已確認模式5為兩種不同區間班次，不跨臺中行駛；0508雖為每日北上，仍不能由嘉義直達臺北。"
         },
         {
           "label": "B",
@@ -106873,9 +106996,9 @@
         {
           "label": "C",
           "text": "1320",
-          "wordClass": "不選",
+          "wordClass": "應選",
           "meaning": "",
-          "explanation": "1320為北上，模式3停嘉義、臺北；但首碼1為非每日行駛，單靠此表不能確定題目當天是否開行。"
+          "explanation": "使用者確認答案C；模式3停嘉義、臺北，20為偶數表示北上。首碼1仍為非每日行駛，題幹當日是否開行缺少日期資訊的語句限制照實說明，不改原表。"
         },
         {
           "label": "D",
@@ -106971,14 +107094,7 @@
         }
       ],
       "questionFigures": [],
-      "explanationFigures": [],
-      "reviewQuestions": [
-        "第2碼5分列南港至臺中、臺中至左營兩段。請核對同一班508是否跨臺中連續行駛，才能確定嘉義至臺北不需轉乘。"
-      ],
-      "reviewExcerpt": "士凱想購買從嘉義前往臺北的車票，在不轉乘的前提下，他可以選擇搭乘下列哪一班確定會於當日行駛的列車？\n(A) 508\n(B) 663\n(C) 1320\n(D) 8258",
-      "reviewLabel": "優先核對 2／3",
-      "reviewPreviousId": "q-951",
-      "reviewNextId": "q-1019"
+      "explanationFigures": []
     },
     {
       "id": "q-994",
@@ -107205,7 +107321,47 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "噶瑪蘭就是宜蘭，收入版圖與設廳分兩年",
+        "art": "assets/comics/q-1004-art-d295ad7828-web.webp",
+        "panels": [
+          {
+            "heading": "① 古地名噶瑪蘭，指向今日宜蘭",
+            "text": "原住民語音譯的古地名，配合嘉慶年間納入版圖的線索，指向噶瑪蘭，也就是今日宜蘭地區。要把多條線索合起來判斷。",
+            "alt": "新製蘭陽平原概念性的河流、稻田與聚落景觀，不是精確地圖或指定歷史建築。"
+          },
+          {
+            "heading": "② 1810年：先收入清朝版圖",
+            "text": "題幹明說1810年、嘉慶十五年。清廷為治理移墾漢人及海防等考量，把此地納入管轄；這一年不能直接說已正式設廳。",
+            "alt": "清代官員與行政簿冊的輔助情境，象徵納入行政管轄，不把一般辦公情境當成1810年已設廳的證據。"
+          },
+          {
+            "heading": "③ 1812年：再正式設噶瑪蘭廳",
+            "text": "1812年、嘉慶十七年設廳，是後續一步。基隆雖也與西班牙歷史有關，卻不符合1810年收入噶瑪蘭版圖的整組線索。",
+            "alt": "臺灣清代地方行政院落與官民溝通的示意情境，代表較後的設廳階段，不是精確復原廳署。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：宜蘭縣",
+          "points": [
+            "噶瑪蘭對應今日宜蘭。",
+            "1810收入版圖；1812正式設廳。",
+            "不能只看到西班牙就選基隆，要符合全部條件。"
+          ]
+        },
+        "protectedWords": [
+          "噶瑪蘭",
+          "宜蘭",
+          "1810年",
+          "1812年",
+          "嘉慶十五年",
+          "嘉慶十七年",
+          "收入版圖",
+          "正式設廳",
+          "西班牙"
+        ]
+      }
     },
     {
       "id": "q-1007",
@@ -107274,7 +107430,48 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "首演當天的宣布，不是翌年的正式建交日",
+        "art": "assets/comics/q-1007-art-b37b5e477b-web.webp",
+        "panels": [
+          {
+            "heading": "① 先抓《薪傳》首演日期",
+            "text": "題幹指1978年12月16日在嘉義的首演。2023年是重新巡演，不能把後來的演出年份當成這題要找的新聞時間。",
+            "alt": "新製一般舞臺群舞情境，輔助理解《薪傳》題材；不是1978首演照片，也不宣稱精確復原原作舞步或服裝。"
+          },
+          {
+            "heading": "② 當天外交消息：美國將與中共建交",
+            "text": "臺灣在首演當天得知美國宣布將與中華人民共和國建交、並與中華民國斷交的消息。因此原卷A的新聞符合1978年底的時點。",
+            "alt": "新製1970年代臺灣家中聽收音機、看無字報紙的情境，不冒充當日報紙或錄影，也沒有真實政治人物。"
+          },
+          {
+            "heading": "③ 宣布日與正式生效日要分清",
+            "text": "臺灣得知消息是1978年12月16日，正式建交為1979年1月1日。B首次總統直選是1996年，C八二三砲戰是1958年，D退出聯合國是1971年，都不合首演日期。",
+            "alt": "師生比較兩張空白日期卡，表示宣布消息與其後正式生效的分別；精確日期只由HTML標示。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：美國宣布將與中共政權建交",
+          "points": [
+            "找的是1978年12月16日首演當天的外交消息。",
+            "宣布消息在1978年底；正式建交於1979年1月1日。",
+            "1958砲戰、1971退出聯合國、1996總統直選均不合題示年份。"
+          ]
+        },
+        "protectedWords": [
+          "《薪傳》",
+          "1978年",
+          "1979年",
+          "12月16日",
+          "1月1日",
+          "中華人民共和國",
+          "中華民國",
+          "八二三砲戰",
+          "聯合國",
+          "總統直選"
+        ]
+      }
     },
     {
       "id": "q-1010",
@@ -107591,7 +107788,45 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "誰親自投，和選擇是否保密，是兩個問題",
+        "art": "assets/comics/q-1016-art-7eeac6d332-web.webp",
+        "panels": [
+          {
+            "heading": "① 題目最後問的是誰在投票",
+            "text": "永樂問「如何確認是由選民本人投票」。重點是選民親自行使投票權，避免由別人代投；依本題教材分類，對應C直接。",
+            "alt": "成年選民親自操作自己的電腦，旁人沒有代為操作，表示本人行使投票權的示意情境。"
+          },
+          {
+            "heading": "② 無記名，保護的是投票選擇",
+            "text": "無記名關心選民投給誰是否保密。可以先確認投票資格，再保護選擇不被他人知道；這與確認本人投票不衝突。",
+            "alt": "同一選民在遮擋視線的隔板後使用電腦，臉並未遮掩，但投票選擇不向旁人公開。"
+          },
+          {
+            "heading": "③ 讀最後疑問，不被匿名性帶走",
+            "text": "簡報的匿名性是背景，最後問的是本人投票。直接選舉嚴格說是選民直接決定當選者、不經另一層代選，不能把任何身分驗證都等同直接選舉。",
+            "alt": "學生與老師比較本人操作電腦和選擇保密兩種概念圖，板上無法規文字或答案。"
+          }
+        ],
+        "fourth": {
+          "answer": "原卷預期 C：直接",
+          "points": [
+            "本人投票：避免別人代投。",
+            "無記名：保密投給誰，不表示免驗資格。",
+            "本題採教材分類，仍保留直接選舉不經代選的核心定義。"
+          ]
+        },
+        "protectedWords": [
+          "本人投票",
+          "無記名",
+          "直接選舉",
+          "匿名性",
+          "身分驗證",
+          "投票資格",
+          "教材分類"
+        ]
+      }
     },
     {
       "id": "q-1019",
@@ -107604,11 +107839,11 @@
       "dateLabel": "首次出題日期",
       "addedAt": "2026-11-08",
       "question": "有民眾在「公共政策網路參與平臺」提案，建議酒駕累犯、性侵及幼童傷害等罪除現有刑責外，還應增加「鞭刑」，短時間內就達到附議門檻，然而法務部次長回應，我國是將聯合國《人權兩公約》國內法化的國家，明定禁止虐待式酷刑，因此我國也必須遵行。請由上文資料內容推論，下列相關敘述何者正確？\n(A) 文中提到的國際公約，其目的是為保障人性尊嚴\n(B) 民眾在平臺的附議結果，顯示公共意見具差異性\n(C) 平臺建置主要目的是擴大政治參與，保障民眾參政權\n(D) 民眾的提案是想將現有的風俗習慣，轉變為正式規範",
-      "answer": "原卷預期(A)；(C)的參政權用語範圍仍有單選疑義。",
-      "explanation": "原卷預期A。《人權兩公約》保障基本人權；《公民與政治權利國際公約》第7條禁止酷刑及殘忍、不人道或有辱人格的待遇或處罰，其目的包含保障人的尊嚴。即使犯罪者仍須受合法制裁，國家也不能任意施以酷刑。\n\nB：短期達附議門檻只顯示有一定數量的人支持，沒有呈現正反或不同立場的分布，不能單憑此推知公共意見的差異性。D：提案是新增刑罰，不是將原有社會習俗法制化。\n\nC的用語有範圍疑義，不能只用「A比較直接」就說C全錯。公共政策平臺確有擴大政策參與的作用；若「參政權」依國中教材及憲法第17條的選舉、罷免、創制、複決作狹義分類，提案及附議不等同直接行使這四權。若採廣義政治參與，C仍有合理性。因此保留完整原選項、原卷預期A及此單選用語限制，列待確認，不擅改C。\n核對：[JOIN平臺關於我們](https://join.gov.tw/aboutus/index)、[憲法第17條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=17)。",
+      "answer": "(A) 文中提到的國際公約，其目的是為保障人性尊嚴",
+      "explanation": "本題選A。《人權兩公約》保障基本人權；《公民與政治權利國際公約》第7條禁止酷刑及殘忍、不人道或有辱人格的待遇或處罰，其目的包含保障人的尊嚴。即使犯罪者仍須受合法制裁，國家也不能任意施以酷刑。\n\nB：短期達附議門檻只顯示有一定數量的人支持，沒有呈現正反或不同立場的分布，不能單憑此推知公共意見的差異性。D：提案是新增刑罰，不是將原有社會習俗法制化。\n\nC須區分「廣義政治參與」與教材狹義的「參政權」，不能只用「A比較直接」就說C全錯。公共政策平臺確有擴大政策參與的作用；若「參政權」依國中教材及憲法第17條的選舉、罷免、創制、複決作狹義分類，提案及附議不等同直接行使這四權。若採廣義政治參與，C仍有合理性。使用者已確認本題採A，並保留上述用語範圍說明；原題及C選項不改，不再列同項待核對。\n核對：[JOIN平臺關於我們](https://join.gov.tw/aboutus/index)、[憲法第17條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0000001&flno=17)。",
       "trap": "",
-      "verification": "待核對",
-      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。本題原題資料齊全；C參政權用語範圍及單選唯一性另列monitor待確認。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。本題原題資料齊全；使用者已確認A及C參政權狹義／廣義用語說明可保留，同項確認已結案，不重問。",
       "diagram": "",
       "notes": "",
       "status": "todo",
@@ -107617,7 +107852,7 @@
         "人權兩公約",
         "人性尊嚴",
         "公共政策參與",
-        "單選疑義"
+        "參政權範圍"
       ],
       "images": [
         "assets/questions/q-1019-original-14-96d16d250d79.jpg"
@@ -107648,7 +107883,7 @@
           "text": "平臺建置主要目的是擴大政治參與，保障民眾參政權",
           "wordClass": "不選",
           "meaning": "",
-          "explanation": "前半擴大政治參與成立；後半參政權若依教材狹義四權分類則不能直接等同。廣義下仍合理，單選用語待確認。"
+          "explanation": "前半擴大政治參與成立；後半參政權依教材狹義選舉、罷免、創制、複決四權分類，不能直接等同。廣義政治參與下仍有合理性，本題依已確認的教材範圍採A。"
         },
         {
           "label": "D",
@@ -107661,13 +107896,45 @@
       "tables": [],
       "questionFigures": [],
       "explanationFigures": [],
-      "reviewQuestions": [
-        "保留原卷預期A；C前半擴大政策參與成立，後半參政權若採教材狹義四權則不等同。此單選用語範圍說明是否可保留？"
-      ],
-      "reviewExcerpt": "40@錯題（原始對話中的使用者提問，未訂正；完整原卷內容列於下方。）",
-      "reviewLabel": "優先核對 3／3",
-      "reviewPreviousId": "q-991",
-      "reviewNextId": ""
+      "teachingComic": {
+        "title": "參與政策討論，也要保障人性尊嚴",
+        "art": "assets/comics/q-1019-art-8042b2e6e3-web.webp",
+        "panels": [
+          {
+            "heading": "① 反對酷刑，是保障人的尊嚴",
+            "text": "人權公約禁止酷刑及殘忍、不人道或有辱人格的待遇。即使犯罪者須受合法制裁，仍有人權與尊嚴，不能任意施以酷刑，因此A符合。",
+            "alt": "情境示意：法律專業者與成人平等、尊重地交談，沒有暴力處罰場景；不代表特定個案。"
+          },
+          {
+            "heading": "② 提案與附議，不會自動變成法律",
+            "text": "民眾可透過平臺提出政策建議、表達支持。但達附議門檻不表示提案已成法律，也沒有直接呈現各種不同意見的分布；不能據此選B。",
+            "alt": "情境示意：成人以筆電提出政策建議，介面只有無字方框，不冒充真實JOIN介面，也沒有提案自動通過的圖示。"
+          },
+          {
+            "heading": "③ 政治參與與狹義參政權要分清",
+            "text": "平臺確有擴大政治參與的功能。C的「參政權」依教材狹義指選舉、罷免、創制、複決，提案及附議不直接等於這四權；廣義政治參與下仍有合理性。本題依已確認的範圍選A。",
+            "alt": "情境示意：成人師生以筆電和空白投票箱釐清政策討論與投票概念；圖不宣稱兩者相同或排除民眾政治參與。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：保障人性尊嚴",
+          "points": [
+            "犯罪者仍有基本人權，合法制裁不能任意使用酷刑。",
+            "提案、附議能參與政策，但不代表提案直接立法。",
+            "C保留廣義政治參與／教材狹義參政權的範圍說明。"
+          ]
+        },
+        "protectedWords": [
+          "人權公約",
+          "人性尊嚴",
+          "政治參與",
+          "參政權",
+          "選舉",
+          "罷免",
+          "創制",
+          "複決"
+        ]
+      }
     },
     {
       "id": "q-1022",
@@ -107762,7 +108029,46 @@
         }
       ],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "條約與冷戰反共防線，指向1950年代",
+        "art": "assets/comics/q-1022-art-bd08005540-web.webp",
+        "panels": [
+          {
+            "heading": "① 先抓制度：表中反覆說條約",
+            "text": "表格提到簽約與國際地位，指向對外防衛合作。A臨時條款是國內憲政安排，C臺灣關係法是美國國內法，都不是這份條約。",
+            "alt": "1950年代服飾的外交代表研究空白協定文件，象徵條約脈絡，不是真實簽約人或原檔案重製。"
+          },
+          {
+            "heading": "② 再抓時代：韓戰後的冷戰防線",
+            "text": "臺灣被放在美國西太平洋反共防線的重要位置，符合韓戰後合作背景。1954年簽訂中美共同防禦條約，B最能合起兩條線索。",
+            "alt": "年代性港口與傳統巡邏船的輔助情境，表示冷戰安全合作，不是精確領域圖或特定部署證據。"
+          },
+          {
+            "heading": "③ 二十多年發展，是原表的時期線索",
+            "text": "表格再提簽約後二十多年經濟發展，與此時期相合；不能據此說經濟發展只有條約一個原因。D是較後的民主化措施，也不合題意。",
+            "alt": "1960至1970年代低樓層工廠、紡織工作與腳踏車的年代性情境，不新增經濟數字或單一因果。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：中美共同防禦條約",
+          "points": [
+            "制度是條約，不是國內法律。",
+            "冷戰、韓戰後與西太平洋防線互相對應。",
+            "原表的概括評述照題判讀，不當作所有史家一致定論。"
+          ]
+        },
+        "protectedWords": [
+          "中美共同防禦條約",
+          "臺灣關係法",
+          "臨時條款",
+          "西太平洋",
+          "反共防線",
+          "1954年",
+          "冷戰",
+          "韓戰"
+        ]
+      }
     },
     {
       "id": "q-1025",
@@ -107867,7 +108173,108 @@
           "caption": "原題架構圖裁切，行銷經理原字為嬸嬸；不重畫或猜改成姑姑、姨。"
         }
       ],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "嬸嬸和姊夫是姻親，不是旁系血親",
+        "art": "assets/comics/q-1025-art-11a43856b1.svg",
+        "panels": [
+          {
+            "heading": "① 直系血親涉及名凱和爸媽三人",
+            "text": "名凱與爸爸、媽媽分別是直系血親。爸爸和媽媽彼此是一組配偶，不是因為同為家人就彼此成為血親。",
+            "alt": "爸爸與名凱、媽媽與名凱分別直系血親的可選取路徑，合計三位名單內人物。",
+            "diagram": {
+              "kind": "paths",
+              "title": "把直系血親配對列出",
+              "items": [
+                {
+                  "label": "爸爸 ↔ 名凱",
+                  "detail": "親子，直系血親。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "媽媽 ↔ 名凱",
+                  "detail": "親子，直系血親。",
+                  "tone": "green"
+                }
+              ],
+              "target": "涉及3人，不是C所說的4人",
+              "arrow": "只計不同的人，不重複算名凱",
+              "note": "名單內配偶只有爸爸、媽媽一組，A也不成立。"
+            }
+          },
+          {
+            "heading": "② 嬸嬸、姊夫都由婚姻連結",
+            "text": "嬸嬸是叔叔的配偶；姊夫是姊姊的配偶。兩者與名凱均是姻親，不能因稱謂帶親屬字，就當成旁系血親。",
+            "alt": "嬸嬸連到叔叔配偶、姊夫連到姊姊配偶，兩者與名凱均由婚姻連結而為姻親。",
+            "diagram": {
+              "kind": "paths",
+              "title": "逐字拆開親屬稱謂",
+              "items": [
+                {
+                  "label": "嬸嬸＝叔叔的配偶",
+                  "detail": "不是爸爸的姊妹。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "姊夫＝姊姊的配偶",
+                  "detail": "不是名凱的親姊姊。",
+                  "tone": "blue"
+                }
+              ],
+              "target": "名凱與兩人均是姻親",
+              "arrow": "從婚姻關係連結",
+              "note": "叔叔、姊姊只用來解釋稱謂，沒有列在五位經理內。"
+            }
+          },
+          {
+            "heading": "③ 五人都可找到姻親配對",
+            "text": "名凱與姊夫、爸媽與姊夫，以及嬸嬸與名凱，都有姻親連結。這涵蓋名單五人，所以D說姻親人數最少也不對。",
+            "alt": "名凱與姊夫、爸媽與姊夫、嬸嬸與名凱三組可選取配對，涵蓋名單全五人。",
+            "diagram": {
+              "kind": "paths",
+              "title": "檢查D，不把姻親只算兩人",
+              "items": [
+                {
+                  "label": "名凱 ↔ 姊夫",
+                  "detail": "血親的配偶。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "爸爸、媽媽 ↔ 姊夫",
+                  "detail": "女兒的配偶。",
+                  "tone": "green"
+                },
+                {
+                  "label": "嬸嬸 ↔ 名凱",
+                  "detail": "配偶的血親。",
+                  "tone": "gold"
+                }
+              ],
+              "target": "五人均可找到姻親配對",
+              "arrow": "同一人可對不同人有不同關係"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：沒有旁系血親配對",
+          "points": [
+            "只比較原圖列出的五位經理。",
+            "爸爸媽媽是一組配偶；名凱和爸媽涉及直系血親三人。",
+            "嬸嬸、姊夫是姻親；不能改成姑姑、姊姊。"
+          ]
+        },
+        "protectedWords": [
+          "名凱",
+          "嬸嬸",
+          "姊夫",
+          "直系血親",
+          "旁系血親",
+          "姻親",
+          "叔叔",
+          "姊姊",
+          "五位經理"
+        ]
+      }
     },
     {
       "id": "q-1028",
@@ -108006,7 +108413,45 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從嚴禁走向局部開放，仍保留管制",
+        "art": "assets/comics/q-1031-art-fa84619c70-web.webp",
+        "panels": [
+          {
+            "heading": "① 從南倭問題，讀到政策轉折",
+            "text": "畫線句接在沿海走私與倭寇問題之後。事件平定，朝廷又面臨財政和國防壓力，所以要找海上貿易政策如何調整。",
+            "alt": "明代沿海商人與官方檢查的輔助情境，木帆船停泊與待運貨物表示管制背景，不是真實查緝事件。"
+          },
+          {
+            "heading": "② 局部開放，讓部分貿易合法進行",
+            "text": "朝廷調整海禁，允許部分合法民間海外貿易，符合D。常見教材稱1567年隆慶開關；不是繼續一律不許船隻入海。",
+            "alt": "明式官員與商人討論簿冊和沿海情勢，象徵政策考量，不仿造特定皇帝、奏摺或史實會議。"
+          },
+          {
+            "heading": "③ 開放部分，不等於取消所有限制",
+            "text": "關鍵字是「局部」。許可與管理仍存在，不能把D擴成完全自由出海，也不能改解為放棄朝貢體系或準備攻打日本。",
+            "alt": "貨物裝上木帆船，港邊官員仍在查驗許可，表示部分合法貿易與持續管制同時存在。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：局部解除海禁",
+          "points": [
+            "看畫線句的財政、國防與沿海貿易脈絡。",
+            "調整後部分海上貿易恢復。",
+            "局部開放≠全面取消限制；不是近代平等外交。"
+          ]
+        },
+        "protectedWords": [
+          "局部解除海禁",
+          "隆慶開關",
+          "1567年",
+          "財政",
+          "國防",
+          "海上貿易",
+          "朝貢體系"
+        ]
+      }
     },
     {
       "id": "q-1034",
@@ -108119,7 +108564,46 @@
         }
       ],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "連署期待的是可執行的法律規範",
+        "art": "assets/comics/q-1034-art-dc2b65b2e7-web.webp",
+        "panels": [
+          {
+            "heading": "① 問連署者期待什麼，不是公開信本身",
+            "text": "連署者呼籲先暫停較先進的AI研發，等待正式規範。題目問的是他們對將來規範的期待，不是說現在的公開信已有法律強制力。",
+            "alt": "研究者聚在一起討論暫停與公開信，作為原文連署期待的示意，沒有真實人物或可讀法律文字。"
+          },
+          {
+            "heading": "② 立法機關建立正式規範",
+            "text": "雙底線特別指出「待立法機關建立正式的AI相關使用協定」。要連同立法、實際執行與監督的語境判讀，指向法律規範。",
+            "alt": "立法討論室中的代表與專家審視空白文件，表示原文希望未來完成正式立法，不表示任何真實法案已通過。"
+          },
+          {
+            "heading": "③ 要能執行監督，重點是外在強制力",
+            "text": "期待規範能實際約束行為，最符合A。B只談輿論譴責，C是內在良知，D是非正式規範，都未對準立法後執行監督的要求。",
+            "alt": "研究場所中人員與監督者共同檢查規範清單，示意期待的外部約束；不是只有研究者內心自律。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：能對行為具強制力",
+          "points": [
+            "抓住雙底線：立法、正式、執行、監督。",
+            "法律可用公權力要求遵守。",
+            "這是對將來規範的期待，不是公開信本身已成法律。"
+          ]
+        },
+        "protectedWords": [
+          "立法機關",
+          "法律規範",
+          "強制力",
+          "公開信",
+          "輿論譴責",
+          "內在良知",
+          "非正式規範",
+          "執行監督"
+        ]
+      }
     },
     {
       "id": "q-981",
@@ -108425,7 +108909,46 @@
           "caption": "原題附圖裁切；保留兩時點分布、10年後箭頭與黑點圖例。"
         }
       ],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先對時代，再看集團移住的政策背景",
+        "art": "assets/comics/q-990-art-af8e1c6b2d-web.webp",
+        "panels": [
+          {
+            "heading": "① 把年代與分布改變一起看",
+            "text": "題幹給「二十世紀前期」，原圖又比較十年後的部落分布。要連同臺灣日治時期的政策背景判斷，不能只見人口移動就選一個事件。",
+            "alt": "師生閱讀無字時間線與書籍的概念情境；圖中沒有捏造年份或原卷地圖。"
+          },
+          {
+            "heading": "② 霧社事件後，集團移住擴大",
+            "text": "日本統治當局為便於控制、管理，強制一些山區部落遷往山腳等地。霧社事件後政策擴大，最符合原圖的整體分布變化，選B。",
+            "alt": "原住民家庭帶日常行囊、在殖民官員監督背景下移動的尊重性輔助情境；不代表特定部落、服裝、建物或真實路線，也不是自願觀光。"
+          },
+          {
+            "heading": "③ 比較整體，別替各點編故事",
+            "text": "原圖沒有各部落名稱，也沒畫逐點遷徙路線，只能判斷整體變化。A屬清治背景，C是戰後清鄉脈絡，D是較晚的原住民族權利運動，都不合本題政策線索。",
+            "alt": "兩人比較空白資料頁，表示查證前後分布；不重畫黑點、不替部落命名，也不把新情境當成原卷證據。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：霧社事件後的原住民政策",
+          "points": [
+            "把時代、地區與分布改變合起來判斷。",
+            "霧社事件後集團移住擴大，目的是便於殖民統治。",
+            "不猜部落名稱、個別路線；也不說集團移住在事件後才首創。"
+          ]
+        },
+        "protectedWords": [
+          "二十世紀前期",
+          "霧社事件",
+          "集團移住",
+          "日治時期",
+          "原住民族",
+          "清治",
+          "清鄉",
+          "十年後"
+        ]
+      }
     },
     {
       "id": "q-993",
@@ -108493,7 +109016,46 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "土地改革帶動內需，對應進口替代",
+        "art": "assets/comics/q-993-art-c537c081e5-web.webp",
+        "panels": [
+          {
+            "heading": "① 耕者有其田，把時期放在戰後",
+            "text": "題文說佃農取得自己的土地，指向戰後土地改革。這與日治時期「工業日本，農業臺灣」的殖民分工不同，先排除D。",
+            "alt": "1950年代臺灣農家在田邊持空白土地紙的輔助情境，非真實地契或政治宣傳。"
+          },
+          {
+            "heading": "② 購買力提高，工業品在國內有市場",
+            "text": "自耕農收入和購買力提高，帶動國內日用品需求。題文重點是國內市場，不是只談把產品大量出口到海外。",
+            "alt": "農家在年代性商店買水壺和布料，表示國內工業品需求，無品牌、價格或現代電器。"
+          },
+          {
+            "heading": "③ 本地生產取代部分進口商品",
+            "text": "部分地主資金轉向工商業，也支持工業發展。這符合1950年代進口替代階段：發展本地生產，供應國內市場，取代部分原需進口的產品。",
+            "alt": "1950年代小型紡織工廠與投資討論情境，表示本地工業成長，不宣稱每位地主都成了工廠主。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：實行進口替代政策",
+          "points": [
+            "戰後土地改革，是年代線索。",
+            "農家內需增加，資金也轉入工商業。",
+            "進口替代是本地生產取代部分進口，不是完全不進口。"
+          ]
+        },
+        "protectedWords": [
+          "耕者有其田",
+          "進口替代",
+          "國內市場",
+          "土地改革",
+          "購買力",
+          "1950年代",
+          "工業日本",
+          "農業臺灣"
+        ]
+      }
     },
     {
       "id": "q-999",
@@ -108561,7 +109123,45 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "清廷用朝貢等級理解來訪，並非平等談判",
+        "art": "assets/comics/q-999-art-dd425b3886-web.webp",
+        "panels": [
+          {
+            "heading": "① 歡迎禮物，不代表接受平等談判",
+            "text": "清廷歡迎祝壽使節、交換禮品，並不表示接受英國所期待的平等外交與通商協商。解題要看雙方如何理解彼此關係。",
+            "alt": "清代官員禮貌接待18世紀英國使節的概念情境，無具名人物、史實儀式或跪拜復原。"
+          },
+          {
+            "heading": "② 題目關鍵是體制，不是使節官階",
+            "text": "英國已有使節提出貿易談判，清廷卻認為不合體制。D再要求高級官員，沒有解決觀念差異；A的平等外交也不合此清廷立場。",
+            "alt": "英國使節指向空白協商文書，清官仍在商量，表示外交期待差異，沒有成功簽約的假情節。"
+          },
+          {
+            "heading": "③ 本題清廷以朝貢的上下關係為前提",
+            "text": "依題幹官方的天朝觀念，外國來往被放進臣服、朝貢的等級框架，所以C最符合。B的天可汗是唐太宗相關稱號，不可套用乾隆。",
+            "alt": "清代朝廷空間的等級配置示意，來訪者站立，不描繪三跪九叩或單膝跪姿；不是特定宮殿復原。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：本題朝貢體制的通商前提",
+          "points": [
+            "禮貌接待不等於接受平等外交談判。",
+            "重點是清廷的天朝、朝貢觀念。",
+            "只解本題的歷史官方立場，不當作現代外交規則。"
+          ]
+        },
+        "protectedWords": [
+          "朝貢體制",
+          "平等外交",
+          "乾隆",
+          "天可汗",
+          "唐太宗",
+          "天朝觀念",
+          "貿易談判"
+        ]
+      }
     },
     {
       "id": "q-1002",
@@ -108635,7 +109235,101 @@
           "caption": "原題統計圖裁切，保留標題、年度、左右縱軸與圖例；不重建模糊的逐年數值。"
         }
       ],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從糾正辨認監察院，再比對職權",
+        "art": "assets/comics/q-1002-art-a27fc317a0.svg",
+        "panels": [
+          {
+            "heading": "① 先讀標題，不必猜柱高",
+            "text": "統計圖標題是「糾正案件數及機關數」。辨認糾正這項職權，就能判斷服務機關是監察院，不必計算各年的模糊柱高。",
+            "alt": "原圖標題糾正案件數及機關數，經由辨認職權，指向監察院的可選取中文流程。",
+            "diagram": {
+              "kind": "flow",
+              "title": "圖中最有用的線索",
+              "items": [
+                {
+                  "label": "圖名：糾正案件數及機關數",
+                  "detail": "題目要求辨認機關。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "糾正 → 監察院",
+                  "detail": "針對行政機關工作、設施的違失。",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "抓住職權關鍵字"
+            }
+          },
+          {
+            "heading": "② 同是監察院：還能依法提案彈劾",
+            "text": "行政院院長屬中央公務人員。對違法或失職的行政院院長依法提案彈劾，也屬監察院職權，因此A符合。",
+            "alt": "糾正行政機關與彈劾違法失職公務人員兩條路徑都歸屬監察院，明示行政院院長在彈劾對象範圍。",
+            "diagram": {
+              "kind": "paths",
+              "title": "兩種行為，辨認同一機關",
+              "items": [
+                {
+                  "label": "糾正行政機關的違失",
+                  "detail": "對應原圖標題。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "彈劾違法、失職的公務人員",
+                  "detail": "包含行政院院長。",
+                  "tone": "green"
+                }
+              ],
+              "target": "均屬監察院職權",
+              "arrow": "比對行為與對象",
+              "note": "提案彈劾不等於監察院直接定罪或判刑。"
+            }
+          },
+          {
+            "heading": "③ B、C、D屬其他機關",
+            "text": "正副總統罷免案由立法院提出；審議年度總預算也是立法院職權。政黨違憲解散案則由司法院憲法法庭審理。",
+            "alt": "B總統副總統罷免案與C審預算歸立法院，D政黨違憲解散歸司法院憲法法庭的可選取比較。",
+            "diagram": {
+              "kind": "paths",
+              "title": "把另外三項放回正確機關",
+              "items": [
+                {
+                  "label": "B、C｜立法院",
+                  "detail": "提出正副總統罷免案；審議總預算。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "D｜司法院憲法法庭",
+                  "detail": "審理政黨違憲解散案。",
+                  "tone": "purple"
+                }
+              ],
+              "target": "均不是圖示的監察院",
+              "arrow": "依機關職權排除"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：依法彈劾違法失職的行政院長",
+          "points": [
+            "糾正是辨認監察院的關鍵字。",
+            "監察院可依法彈劾違法、失職公務人員。",
+            "立法院審預算；憲法法庭審政黨違憲解散。"
+          ]
+        },
+        "protectedWords": [
+          "監察院",
+          "立法院",
+          "行政院院長",
+          "憲法法庭",
+          "糾正",
+          "彈劾",
+          "總預算",
+          "正副總統",
+          "違法、失職"
+        ]
+      }
     },
     {
       "id": "q-1005",
@@ -108742,7 +109436,98 @@
           ],
           "tables": [],
           "questionFigures": [],
-          "explanationFigures": []
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "分戶、直轄、論功，把權力集中到政府",
+            "art": "assets/comics/q-1005-art-6666cea527.svg",
+            "panels": [
+              {
+                "heading": "① 分戶編籍，政府掌握人口",
+                "text": "大家庭分居成小家庭並登錄戶籍，讓政府更容易掌握人口，擴大稅收、取得兵源；重點是國家管理能力提高。",
+                "alt": "分戶與建立戶籍，通往政府掌握人口稅收兵源的可選取中文流程。",
+                "diagram": {
+                  "kind": "flow",
+                  "title": "材料第一項的作用",
+                  "items": [
+                    {
+                      "label": "分居小家庭＋建立戶籍",
+                      "detail": "人口納入政府登記管理。",
+                      "tone": "blue"
+                    },
+                    {
+                      "label": "政府掌握人口、稅收、兵源",
+                      "detail": "國家徵稅與動員能力提高。",
+                      "tone": "green"
+                    }
+                  ],
+                  "arrow": "政府管理更直接"
+                }
+              },
+              {
+                "heading": "② 封地改直轄，削弱地方世襲",
+                "text": "原本貴族世襲的封地，改成政府直接管轄；地方官由政府依政績任免。地方權力不再只是依血統世襲。",
+                "alt": "原貴族世襲封地，轉為政府直接管轄與地方官依政績任免的文字流程。",
+                "diagram": {
+                  "kind": "flow",
+                  "title": "材料第二項的地方管理改變",
+                  "items": [
+                    {
+                      "label": "原本：貴族世襲封地",
+                      "detail": "地方勢力憑血緣承襲。",
+                      "tone": "gold"
+                    },
+                    {
+                      "label": "改革：政府直轄、政績任免",
+                      "detail": "官員職位不得世襲。",
+                      "tone": "green"
+                    }
+                  ],
+                  "arrow": "權力收向政府"
+                }
+              },
+              {
+                "heading": "③ 軍功授爵，改變世襲特權",
+                "text": "爵位與田宅依軍功封賞，配合官員不世襲，都在削弱只靠血統取得權位的勢力。三項措施共同指向中央集權。",
+                "alt": "政績任免與軍功授爵兩條政策路徑，共同指向削弱世襲特權、加強國家控制。",
+                "diagram": {
+                  "kind": "paths",
+                  "title": "找三項政策的共同方向",
+                  "items": [
+                    {
+                      "label": "官員依政績任免",
+                      "detail": "不是憑世襲保住官職。",
+                      "tone": "blue"
+                    },
+                    {
+                      "label": "爵位、田宅依軍功授予",
+                      "detail": "不是只憑出身取得封賞。",
+                      "tone": "gold"
+                    }
+                  ],
+                  "target": "削弱世襲地方勢力，強化中央",
+                  "arrow": "連同戶籍、直轄制度一起判斷"
+                }
+              }
+            ],
+            "fourth": {
+              "answer": "第46題答案 D：地方分權→中央集權",
+              "points": [
+                "戶籍掌握人口、稅收與兵源。",
+                "直轄地方，官員依政績任免。",
+                "不是漢化、游牧轉農業，也不是擴大分封。"
+              ]
+            },
+            "protectedWords": [
+              "中央集權",
+              "地方分權",
+              "軍功授爵",
+              "分戶編籍",
+              "政績任免",
+              "政府直轄",
+              "稅收",
+              "兵源"
+            ]
+          }
         },
         {
           "id": "q-1008",
@@ -108810,7 +109595,45 @@
           ],
           "tables": [],
           "questionFigures": [],
-          "explanationFigures": []
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "秦國變法富強，後來陸續統一六國",
+            "art": "assets/comics/q-1008-art-1b0980f8f3-web.webp",
+            "panels": [
+              {
+                "heading": "① 先辨認材料：秦國商鞅變法",
+                "text": "分戶編籍、官員依政績任免與軍功授爵，指向戰國秦國的改革。不是只看到古代改革，就任選一個強盛時代。",
+                "alt": "戰國秦國農業與登記簿冊的輔助情境，人物束髮、竹簡與樸實屋舍，不是特定歷史事件重建。"
+              },
+              {
+                "heading": "② 改革增強農業與軍事能力",
+                "text": "掌握人口、擴大稅收與兵源，再以軍功激勵，幫助秦國富國強兵。這些措施為後來的發展提供條件，不是說一次改革就立即統一。",
+                "alt": "古代秦式甲士有組織地訓練，示意軍事動員能力提升；沒有戰役、傷亡或征服日期的臆造。"
+              },
+              {
+                "heading": "③ 後來秦滅六國，最符合發展線索",
+                "text": "秦國在後來陸續滅六國、完成統一，符合D。蒙古西征時代晚得多，周王室不是這次改革強化的主體，材料也未強調對外文化交流。",
+                "alt": "古代行政文書集中處理的教學情境，象徵後來統一行政，不冒充某次真實會議、特定皇帝或精確地圖。"
+              }
+            ],
+            "fourth": {
+              "answer": "第47題答案 D：秦國陸續滅六國",
+              "points": [
+                "材料屬戰國秦國變法。",
+                "改革富國強兵，是後來發展的條件。",
+                "變法在先、秦統一在後，不是商鞅本人完成統一。"
+              ]
+            },
+            "protectedWords": [
+              "商鞅變法",
+              "戰國秦國",
+              "富國強兵",
+              "軍功授爵",
+              "滅六國",
+              "周王室",
+              "蒙古西征"
+            ]
+          }
         }
       ],
       "groupMetadata": {
@@ -108911,7 +109734,1010 @@
         }
       ],
       "explanationFigures": []
+    },
+    {
+      "id": "q-1041",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第36題｜特殊動物咖啡廳的共同觀點",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "根據甲、乙二文，下列何者最符合這兩篇文章對特殊動物咖啡廳的共同看法？\n(A) 特殊動物咖啡廳中皆有專業人士會盡責照顧所豢養的動物\n(B) 消費者對特殊動物咖啡廳的興趣來自於對動物的好奇心\n(C) 特殊動物咖啡廳在提供動物觀賞時，可能會忽略動物的福利\n(D) 特殊動物咖啡廳中的動物皆進行社會化訓練，讓牠們可以適應這個世界",
+      "answer": "(C) 特殊動物咖啡廳在提供動物觀賞時，可能會忽略動物的福利",
+      "explanation": "本題要找甲、乙兩文都有支持的看法，不能只憑生活經驗，或只找到其中一文的證據。\n\n甲文指出，近距離互動與不適合的環境可能使動物承受壓力、影響生存品質；乙文則以浣熊遭不當對待，以及野生動物飼養困難的事件說明風險。兩篇共同關切的是：在滿足消費者觀賞、互動需求時，動物福利可能被忽略，因此選C。C使用「可能」，也符合甲文的條件語氣，並未斷言所有店家都虐待動物。\n\nA的「皆有專業人士會盡責照顧」無法由兩文成立，乙文更呈現缺乏飼養經驗及不當對待的案例。B雖看似合理，甲文也提到親近動物的渴望，但兩文未共同把消費者興趣的原因歸結為「好奇心」，不能當作共同看法。D加入兩文沒有提出的「皆進行社會化訓練」，也不能成立。\n\n閱讀文章中的法規、事件現況均按原卷材料保留，作為本題文本；本題只要求比較兩文觀點。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "雙文本比較",
+        "共同觀點",
+        "動物福利",
+        "文本證據"
+      ],
+      "images": [
+        "assets/questions/q-1041-q-1041-passage-7f667d55c393.jpg",
+        "assets/questions/q-1041-q-1041-original-022957c8d8fa.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第36題",
+      "studentAnswer": "原卷藍筆B，紅筆訂正C；使用者記錄B→C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "【甲】\n近年來犬貓咖啡店日漸普及，更吹起特殊動物咖啡風，日本不少商家紛紛以貓頭鷹、水獺、刺蝟、蜜袋鼯、狐獴、浣熊為亮點，臺灣也陸續出現飼養浣熊、刺蝟、小鱷魚等動物的咖啡廳。\n這類近距離觀賞與「體驗活動」讓消費者在無須承擔飼養責任的情況下，滿足親近動物的渴望，因此比租借動物更接近「零成本」。零成本並非指無須付費，而是指消費者能輕鬆享受與動物互動的樂趣。然而，任何商業行為都會影響動物福利，特殊動物咖啡廳雖提供便利的休憩場所，卻可能讓動物承受高強度互動與環境不適的壓力，影響其生存品質。\n這類咖啡廳的盛行，反映了都市人對動物互動的需求，也顯示出人們對自然接觸的渴望。其模式類似動物園的「可愛動物區」，但更強調直接接觸，並限縮在少數受歡迎或罕見的物種，以更高效率滿足消費者的心理需求。\n（改寫自黃宗潔〈動物咖啡廳的療癒假象：寵物是家人，還是可取代的物品？〉）\n\n【乙】\n特殊寵物餐廳自2011年起在東亞如雨後春筍般出現。不只臺灣，中國、日本和韓國都有此現象，而駐店動物更是從浣熊、刺蝟到鵝、羊駝、貓頭鷹、水獺和蜥蜴等應有盡有。\n在臺灣，依照野生動物保育法，只要不是保育類動物，或是沒被列入野保法第55條「適用野生動物保育法之人工飼養、繁殖野生動物種類」名錄中的動物，在經由合法途徑取得後，便可以飼養。甚至是國外的物種，只要有管道，想入手也並非難事。但野生動物畢竟不比貓狗或其他家禽家畜早已被人類馴化，人為飼養更有一定的難度。\n更有引發輿論的事件發生：有客人和離職員工爆料某咖啡店老闆拿球拍毆打和指使牧羊犬去驅趕及咬浣熊等惡行，引發大眾抨擊。事件後咖啡廳老闆發出道歉聲明，而浣熊目前也已由臺北市動保處收容照顧。老闆表示一切都是因為沒有飼養浣熊的經驗、不熟悉浣熊習性而造成的誤會，並且未來不會再飼養浣熊。\n（改寫自「窩窩」網站〈當野生動物成為吸睛道具——寵物咖啡廳的浣熊悲劇〉）",
+      "originalQuestionNumber": "36",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "特殊動物咖啡廳中皆有專業人士會盡責照顧所豢養的動物",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "兩文並未支持所有店家都有專業人員盡責照顧；乙文有反例。"
+        },
+        {
+          "label": "B",
+          "text": "消費者對特殊動物咖啡廳的興趣來自於對動物的好奇心",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "好奇心未成為甲、乙共同明確支持的興趣來源。"
+        },
+        {
+          "label": "C",
+          "text": "特殊動物咖啡廳在提供動物觀賞時，可能會忽略動物的福利",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "甲文談互動壓力，乙文談不當飼養，均指出動物福利可能受忽略。"
+        },
+        {
+          "label": "D",
+          "text": "特殊動物咖啡廳中的動物皆進行社會化訓練，讓牠們可以適應這個世界",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "兩文未說所有動物都接受社會化訓練。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": []
+    },
+    {
+      "id": "q-1042",
+      "sourceId": "src-more-065",
+      "subject": "Physics-Chemistry",
+      "title": "理化第4題｜開放環境下的反應質量",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "下列甲、乙兩種反應中，若不考慮水的蒸發，則何者反應進行時的環境即使不為「密閉」，也能觀察到「反應前、後質量沒有改變」的現象？\n甲．鋼絲絨在空氣中燃燒\n乙．碳酸鈉水溶液與氯化鈣水溶液反應\n(A) 僅甲\n(B) 僅乙\n(C) 甲、乙均可觀察到\n(D) 甲、乙均無法觀察到",
+      "answer": "(B) 僅乙",
+      "explanation": "先分清楚「整個反應的總質量守恆」與「秤上所量範圍內的質量不變」。開放環境若有物質進出量測範圍，秤得的質量就可能改變。\n\n甲：鋼絲絨中的鐵在空氣中燃燒，會與外界氧氣結合生成氧化物。若比較鋼絲絨及留下的燃燒產物，產物多了由空氣加入的氧，量得的質量增加，不符合題目。這並不違反質量守恆；把參與反應的氧氣也列入反應前總質量，前後仍相等。\n\n乙：碳酸鈉與氯化鈣水溶液反應，產生留在容器內的碳酸鈣白色沉澱及氯化鈉水溶液：\nNa₂CO₃(aq)＋CaCl₂(aq) → CaCO₃(s)↓＋2NaCl(aq)\n沉澱只是從溶液中析出，並沒有憑空消失，也沒有反應氣體逸出；題目又排除水的蒸發，所以在無濺出等損失時，兩份溶液混合前的總質量等於反應後內容物總質量。乙即使未密閉，也能觀察到質量不變。\n\n因此僅乙符合，選B；A誤納甲，C把兩者都納入，D則誤以為不密閉必定無法量得前後質量相同。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "質量守恆",
+        "開放系統",
+        "沉澱反應",
+        "氧化"
+      ],
+      "images": [
+        "assets/questions/q-1042-q-1042-original-9637262ce87f.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第4題",
+      "studentAnswer": "原卷藍筆D，紅筆訂正B；使用者記錄D→B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "4",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "僅甲",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "甲有外界氧氣進入並與鐵結合，量得質量增加。"
+        },
+        {
+          "label": "B",
+          "text": "僅乙",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "乙只形成留在容器中的沉澱，在排除蒸發等損失時總質量不變。"
+        },
+        {
+          "label": "C",
+          "text": "甲、乙均可觀察到",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "甲不符合，不能兩者都選。"
+        },
+        {
+          "label": "D",
+          "text": "甲、乙均無法觀察到",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "乙在開放環境仍可測得前後總質量相同。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "有沉澱，質量也能保持不變",
+        "art": "assets/comics/q-1042-art-1299c4e3d0.svg",
+        "panels": [
+          {
+            "heading": "① 甲：空氣中的氧加入了",
+            "text": "鋼絲絨燃燒時會與空氣中的氧結合。只秤鋼絲絨及留下的燃燒產物，產物多了氧的質量，所以量得的質量增加。",
+            "alt": "甲反應：氧由秤量範圍外加入，固體產物的質量增加。",
+            "diagram": {
+              "kind": "flow",
+              "title": "甲｜比較秤上固體",
+              "items": [
+                {
+                  "label": "反應前｜鋼絲絨",
+                  "tone": "blue",
+                  "detail": "參與反應的氧原本在空氣中。"
+                },
+                {
+                  "label": "反應後｜氧化物",
+                  "tone": "green",
+                  "detail": "留下的產物包含加入的氧，質量增加。"
+                }
+              ],
+              "arrow": "空氣中的氧加入",
+              "note": "完整系統的總質量仍然守恆。"
+            }
+          },
+          {
+            "heading": "② 乙：沉澱仍留在容器內",
+            "text": "兩種溶液反應後有白色沉澱，但物質沒有消失。反應不產生逸出的氣體；依題意不計水蒸發，且沒有濺出等損失時，混合前後的總質量相同。",
+            "alt": "乙反應：兩份溶液變成沉澱和溶液，全部物質仍在容器內。",
+            "diagram": {
+              "kind": "flow",
+              "title": "乙｜比較容器內全部物質",
+              "items": [
+                {
+                  "label": "反應前｜碳酸鈉溶液＋氯化鈣溶液",
+                  "tone": "blue",
+                  "detail": "把兩份溶液的質量合計。"
+                },
+                {
+                  "label": "反應後｜碳酸鈣沉澱＋氯化鈉溶液",
+                  "tone": "gold",
+                  "detail": "沉澱與剩餘溶液都要一起算。"
+                }
+              ],
+              "arrow": "反應生成沉澱，沒有氣體逸出",
+              "note": "沉澱只是析出，仍有質量。"
+            }
+          },
+          {
+            "heading": "③ 判斷物質有沒有進出",
+            "text": "開放不等於質量一定改變。甲有外界氧加入，秤上固體變重；乙沒有物質離開或加入原本的兩份溶液，能量得前後相同，所以僅乙符合。",
+            "alt": "甲氧氣加入使秤量質量增加，乙物質全留下使總質量不變，答案僅乙。",
+            "diagram": {
+              "kind": "paths",
+              "title": "本題問可量得前後相同",
+              "items": [
+                {
+                  "label": "甲｜固體加入外界氧",
+                  "tone": "blue",
+                  "detail": "固體質量增加，不符合。"
+                },
+                {
+                  "label": "乙｜沉澱、溶液都留下",
+                  "tone": "green",
+                  "detail": "內容物總質量不變，符合。"
+                }
+              ],
+              "arrow": "比較秤量範圍中的物質",
+              "target": "僅乙符合｜選B",
+              "note": "密閉有助避免物質進出；本題乙即使開放仍可符合。"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：僅乙",
+          "points": [
+            "總質量守恆，要把所有反應物都算入。",
+            "甲有空氣中的氧加入，固體質量增加。",
+            "乙沉澱仍在容器內，不計蒸發且無損失時質量不變。"
+          ]
+        },
+        "protectedWords": [
+          "鋼絲絨",
+          "碳酸鈉",
+          "氯化鈣",
+          "碳酸鈣",
+          "氯化鈉",
+          "質量守恆"
+        ]
+      }
+    },
+    {
+      "id": "q-1043",
+      "sourceId": "src-more-065",
+      "subject": "Physics-Chemistry",
+      "title": "理化第21題｜碘水顏色與酸鹼平衡",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "碘水溶液在不同酸鹼性環境下的可逆反應如下：\n3I₂（紅褐色）＋6OH⁻ ⇌ 5I⁻（無色）＋IO₃⁻（無色）＋3H₂O\n向右為正反應，向左為逆反應。\n若在碘水溶液中加入少量X物質後，發現水溶液顏色變淡，則下列敘述何者正確？\n(A) 加入X可使平衡向正反應方向進行，故可能為酸性物質\n(B) 加入X可使平衡向正反應方向進行，故可能為鹼性物質\n(C) 加入X可使平衡向逆反應方向進行，故可能為酸性物質\n(D) 加入X可使平衡向逆反應方向進行，故可能為鹼性物質",
+      "answer": "(B) 加入X可使平衡向正反應方向進行，故可能為鹼性物質",
+      "explanation": "依原題的反應模型，左側I₂呈紅褐色，右側I⁻與IO₃⁻為無色。顏色變淡表示有色的I₂減少，對應平衡往右、正反應方向移動。\n\n再看左側反應物含有OH⁻。加入鹼性物質可使OH⁻增加，平衡傾向往消耗OH⁻的正反應方向移動，同時消耗I₂，因此顏色變淡。兩個條件同時符合B。\n\nA雖寫對正反應方向，卻把X判成酸性物質；加入酸會消耗OH⁻，依題示模型反而傾向逆反應方向，使I₂增加。C的酸性物質與逆反應方向可以互相對應，但其結果應使有色I₂增加，與題幹顏色變淡不符。D把加鹼與逆反應方向配在一起，與OH⁻為左側反應物的條件不合。\n\n解題順序是先用有色物質所在側判斷移動方向，再檢查酸、鹼對OH⁻的影響；不能把「加鹼使反應向右」當作所有反應通用的口訣。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "可逆反應",
+        "化學平衡",
+        "酸鹼",
+        "顏色判讀"
+      ],
+      "images": [
+        "assets/questions/q-1043-q-1043-original-1576e9199aeb.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第21題",
+      "studentAnswer": "原卷藍筆A，紅筆訂正B；使用者記錄A→B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "21",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "加入X可使平衡向正反應方向進行，故可能為酸性物質",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "酸會消耗OH⁻，依題示反應傾向逆反應，與顏色變淡不合。"
+        },
+        {
+          "label": "B",
+          "text": "加入X可使平衡向正反應方向進行，故可能為鹼性物質",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "加鹼增加OH⁻，促使正反應消耗紅褐色I₂。"
+        },
+        {
+          "label": "C",
+          "text": "加入X可使平衡向逆反應方向進行，故可能為酸性物質",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "加酸可傾向逆反應，但I₂增加會使顏色加深，不合題幹。"
+        },
+        {
+          "label": "D",
+          "text": "加入X可使平衡向逆反應方向進行，故可能為鹼性物質",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "加鹼傾向正反應，不能配逆反應。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先看碘的顏色，再判斷加酸或加鹼",
+        "art": "assets/comics/q-1043-art-cc95b1a3ac.svg",
+        "panels": [
+          {
+            "heading": "① 顏色變淡，先找哪種物質減少",
+            "text": "紅褐色來自左側的I₂，右側I⁻、IO₃⁻均無色。依題示反應，I₂減少對應平衡向右、正反應方向移動。",
+            "alt": "原反應左右有色與無色物種的可選取中文比較，箭頭標明I₂減少對應正反應。",
+            "diagram": {
+              "kind": "paths",
+              "title": "依原反應式辨認顏色",
+              "items": [
+                {
+                  "label": "左側：I₂｜紅褐色",
+                  "detail": "與6OH⁻共同列為反應物。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "右側：I⁻、IO₃⁻｜無色",
+                  "detail": "與水共同列為生成物。",
+                  "tone": "blue"
+                }
+              ],
+              "target": "I₂減少 → 紅褐色變淡",
+              "arrow": "本題顏色變淡對應向右正反應"
+            }
+          },
+          {
+            "heading": "② 加鹼增加OH⁻，促進正反應",
+            "text": "OH⁻在反應式左側。加入鹼性物質使OH⁻增加，平衡傾向往消耗OH⁻的右側移動，同時消耗I₂，使紅褐色變淡。",
+            "alt": "加入鹼、OH⁻增加、向右消耗OH⁻與I₂，最後顏色變淡的三步文字流程。",
+            "diagram": {
+              "kind": "flow",
+              "title": "鹼性X符合題幹現象",
+              "items": [
+                {
+                  "label": "加入鹼性物質",
+                  "detail": "OH⁻增加。",
+                  "tone": "green"
+                },
+                {
+                  "label": "平衡傾向正反應方向",
+                  "detail": "向右消耗OH⁻，也消耗I₂。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "I₂減少，顏色變淡",
+                  "detail": "方向與物質性質都符合B。",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依題示反應推論"
+            }
+          },
+          {
+            "heading": "③ 加酸會消耗OH⁻，不符變淡",
+            "text": "加酸會消耗OH⁻，依同一反應式傾向向左，使I₂增加。C雖配對酸與逆反應，卻不符合顏色變淡；A、D的酸鹼與方向配錯。",
+            "alt": "加酸消耗OH⁻，逆反應使I₂增加、顏色加深的可選取對照。",
+            "diagram": {
+              "kind": "flow",
+              "title": "用加酸的相反結果檢查",
+              "items": [
+                {
+                  "label": "加入酸性物質",
+                  "detail": "OH⁻被消耗。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "平衡傾向逆反應方向",
+                  "detail": "向左補充OH⁻，同時形成I₂。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "I₂增加，顏色較深",
+                  "detail": "與題幹顏色變淡不符。",
+                  "tone": "purple"
+                }
+              ],
+              "arrow": "依題示反應推論"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：正反應，X可能為鹼",
+          "points": [
+            "有色I₂在左；變淡表示I₂減少。",
+            "加鹼增加OH⁻，促使平衡向右。",
+            "先讀本題反應式，不能把加鹼向右當成通則。"
+          ]
+        },
+        "protectedWords": [
+          "I₂",
+          "OH⁻",
+          "IO₃⁻",
+          "正反應",
+          "逆反應",
+          "酸性物質",
+          "鹼性物質",
+          "紅褐色"
+        ]
+      }
+    },
+    {
+      "id": "q-1044",
+      "sourceId": "src-more-065",
+      "subject": "Biology",
+      "title": "生物第22題｜由長毛子代反推親代基因型",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "有一對豚鼠交配後產下10隻子代，其中8隻為短毛、2隻為長毛，且無突變情形發生。已知短毛為顯性特徵，若以S代表顯性遺傳因子、s代表隱性遺傳因子，則下列何者最可能為親代的基因型組合？\n(A) SS × ss\n(B) SS × Ss\n(C) Ss × ss\n(D) ss × ss",
+      "answer": "(C) Ss × ss",
+      "explanation": "短毛為顯性，因此SS、Ss均呈短毛；長毛必須是ss。既然出現長毛子代，且沒有突變，雙親都必須能提供s。再依四個選項逐一檢查：\n\nA：SS × ss的子代全部是Ss，全部短毛，不會生出長毛。\nB：SS × Ss的子代可能為SS或Ss，仍全部短毛，不會生出長毛。\nC：Ss × ss的子代可能為Ss或ss，可同時出現短毛和長毛，符合觀察。\nD：ss × ss的子代全部是ss，全部長毛，不能出現8隻短毛。\n\n因此四個選項中只有C可能產生題示兩種毛長，選C。\n\nC的理論機率為短毛1/2、長毛1/2，並不保證每一窩剛好各半。10隻只是少量子代，實際8短、2長仍有可能，不能直接把觀察數量當成固定遺傳機率。Ss × Ss也可產生短毛、長毛，但它不在本題選項中，不能自行改選項或只因8：2接近3：1就添加此選項。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "孟德爾遺傳",
+        "顯性與隱性",
+        "基因型",
+        "小樣本"
+      ],
+      "images": [
+        "assets/questions/q-1044-q-1044-original-5a7926b2ac2d.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第22題",
+      "studentAnswer": "原卷藍筆A，紅筆訂正C；使用者記錄A→C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "22",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "SS × ss",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "全部子代Ss、短毛，無法產生長毛。"
+        },
+        {
+          "label": "B",
+          "text": "SS × Ss",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "子代SS或Ss，全部短毛。"
+        },
+        {
+          "label": "C",
+          "text": "Ss × ss",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "可產生Ss短毛與ss長毛，符合觀察到兩種毛長。"
+        },
+        {
+          "label": "D",
+          "text": "ss × ss",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "全部子代ss、長毛，無法產生短毛。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "先看能不能生出長毛，再看比例",
+        "art": "assets/comics/q-1044-art-6c96b0ece1.svg",
+        "panels": [
+          {
+            "heading": "① 長毛ss，兩個s從雙親各來一個",
+            "text": "長毛是隱性，基因型一定是ss。沒有突變時，一個s來自父方，另一個來自母方，所以雙親都必須能提供s。",
+            "alt": "雙親各提供s的可選取文字路徑，會合成長毛ss子代。",
+            "diagram": {
+              "kind": "paths",
+              "title": "由長毛子代反推配子",
+              "items": [
+                {
+                  "label": "父方提供s",
+                  "tone": "blue"
+                },
+                {
+                  "label": "母方提供s",
+                  "tone": "gold"
+                }
+              ],
+              "target": "子代ss｜長毛",
+              "arrow": "兩個s分別來自雙親",
+              "note": "SS親代只能提供S，不能提供s。"
+            }
+          },
+          {
+            "heading": "② 四個選項中，只有C能有兩種毛長",
+            "text": "A、B都含SS親代，子代一定短毛；D的子代全是長毛。只有C的Ss × ss能生出Ss短毛和ss長毛，同時符合觀察。",
+            "alt": "比較A/B全部短毛、D全部長毛與C兩種皆可能的可選取結果圖。",
+            "diagram": {
+              "kind": "paths",
+              "title": "把各選項能產生的結果列清楚",
+              "items": [
+                {
+                  "label": "A、B｜含SS親代",
+                  "detail": "子代均短毛，沒有ss。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "D｜ss × ss",
+                  "detail": "子代均長毛，沒有短毛。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "C｜Ss × ss",
+                  "detail": "可生Ss短毛及ss長毛。",
+                  "tone": "green"
+                }
+              ],
+              "target": "C可同時出現短毛、長毛",
+              "arrow": "依兩種毛長是否都可能來篩選"
+            }
+          },
+          {
+            "heading": "③ 理論1：1，不保證每窩恰好各半",
+            "text": "C的短毛、長毛理論機率各為1/2；10隻子代是小樣本，實際8短、2長仍可能。不把觀察到的8：2當作固定遺傳機率。",
+            "alt": "理論各一半與本窩八短二長的可選取比較；明示小樣本不必等於理論比例。",
+            "diagram": {
+              "kind": "paths",
+              "title": "理論機率與一窩實際數量",
+              "items": [
+                {
+                  "label": "理論：短毛1/2、長毛1/2",
+                  "detail": "每隻子代各有這些機率。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "本窩：8隻短毛、2隻長毛",
+                  "detail": "實際結果會有隨機差異。",
+                  "tone": "gold"
+                }
+              ],
+              "target": "1：1不表示每10隻必各5隻",
+              "arrow": "區分機率與小樣本結果"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：Ss × ss",
+          "points": [
+            "長毛ss出現，雙親都要能提供s。",
+            "A、B全短毛；D全長毛，均排除。",
+            "C能出現兩種毛長；8：2不要求等於理論1：1。"
+          ]
+        },
+        "protectedWords": [
+          "Ss × ss",
+          "ss × ss",
+          "SS親代",
+          "短毛",
+          "長毛",
+          "理論機率",
+          "小樣本",
+          "1：1",
+          "8：2",
+          "1/2"
+        ]
+      }
+    },
+    {
+      "id": "q-1045",
+      "sourceId": "src-more-065",
+      "subject": "Physics-Chemistry",
+      "title": "理化第23題｜雙氧水濃度與反應速率圖",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "大介取35%雙氧水和蒸餾水以不同體積混合，得到不同濃度的雙氧水進行氧氣製備實驗，且使用相同規格的廣口瓶，記錄收集完整一瓶氧氣所需的時間，再以此時間的倒數判定反應速率，實驗表格如表（四）所示。若要將實驗結果繪製成反應速率與雙氧水濃度的關係圖，則下列何者正確？\n四圖的橫軸均為雙氧水濃度（%），縱軸均為反應速率（瓶/s）；圖形見下方原題附圖。\n(A) 由左至右為I、II、III，點位依序上升\n(B) 由左至右為III、II、I，點位依序上升\n(C) 由左至右為I、II、III，點位依序下降\n(D) 由左至右為III、II、I，點位依序下降",
+      "answer": "(B) 原圖B：III、II、I由左至右，反應速率依序增加",
+      "explanation": "先排橫軸濃度，再排縱軸反應速率，兩者都要與實驗編號相符。\n\n三組都使用相同濃度的雙氧水原液，且雙氧水與蒸餾水的混合體積均為40 mL。I加入原液最多、加水最少，濃度最高；III加入原液最少、加水最多，濃度最低。因此濃度由低到高為III＜II＜I，橫軸由左至右應標III、II、I。A、C的橫軸編號先排錯，可以排除。\n\n在其他反應條件相同的本題比較下，雙氧水濃度越高，反應越快，收集相同一瓶氧氣所需的時間越短。原題縱軸畫的是「反應速率」，不是「所需時間」；依題意，反應速率＝1/收集時間，單位為瓶/s。時間越短，其倒數越大，所以反應速率由小到大也為III＜II＜I，符合B。\n\nD雖把濃度編號排對，卻把濃度越高畫成速率越慢，混淆了時間與時間倒數的方向。原表沒有提供各組收集時間，故保留空白，不能填入虛構時間或速率數值；也不能只憑這張示意圖斷言速率與濃度成精確正比。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "反應速率",
+        "濃度",
+        "實驗圖表",
+        "時間倒數"
+      ],
+      "images": [
+        "assets/questions/q-1045-q-1045-original-ab202754aa9b.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第23題",
+      "studentAnswer": "原卷藍筆D，紅筆訂正B；使用者記錄D→B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "23",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "由左至右為I、II、III，點位依序上升",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "濃度編號由左至右I、II、III不符濃度由低到高。"
+        },
+        {
+          "label": "B",
+          "text": "由左至右為III、II、I，點位依序上升",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "濃度與速率都按III、II、I遞增。"
+        },
+        {
+          "label": "C",
+          "text": "由左至右為I、II、III，點位依序下降",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "濃度編號由左至右I、II、III先排錯。"
+        },
+        {
+          "label": "D",
+          "text": "由左至右為III、II、I，點位依序下降",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "濃度編號正確，但將濃度增加畫成速率下降。"
+        }
+      ],
+      "tables": [
+        {
+          "caption": "表（四）原題實驗紀錄（原印空白格照留）",
+          "headers": [
+            "實驗",
+            "35%雙氧水體積（mL）",
+            "蒸餾水體積（mL）",
+            "混合後雙氧水濃度（%）",
+            "收集完整一瓶氧氣所需的時間（s）",
+            "反應速率（瓶/s）"
+          ],
+          "rows": [
+            [
+              "I",
+              "30",
+              "10",
+              "",
+              "",
+              ""
+            ],
+            [
+              "II",
+              "20",
+              "20",
+              "",
+              "",
+              ""
+            ],
+            [
+              "III",
+              "10",
+              "30",
+              "",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1045-q-1045-figure-c145f92f2b81.jpg",
+          "alt": "第23題四個原印散點圖選項，橫軸為雙氧水濃度，縱軸為反應速率",
+          "caption": "原題四個圖形選項；依原卷裁切，沒有補造數據。"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "橫軸排濃度，縱軸排時間倒數",
+        "art": "assets/comics/q-1045-art-b86b195b0f.svg",
+        "panels": [
+          {
+            "heading": "① 總體積相同，原液多的濃度高",
+            "text": "三組都由相同35%原液配水，混合體積都是40 mL。I原液最多、III最少，所以濃度由低到高為III、II、I。",
+            "alt": "I用30mL原液和10mL水，II用20加20，III用10加30；可選取文字按濃度III至I排序。",
+            "diagram": {
+              "kind": "paths",
+              "title": "三組原液＋蒸餾水（mL）",
+              "items": [
+                {
+                  "label": "I：30＋10＝40 mL",
+                  "detail": "原液最多，濃度最高。",
+                  "tone": "green"
+                },
+                {
+                  "label": "II：20＋20＝40 mL",
+                  "detail": "濃度居中。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "III：10＋30＝40 mL",
+                  "detail": "原液最少，濃度最低。",
+                  "tone": "gold"
+                }
+              ],
+              "target": "濃度：III＜II＜I",
+              "arrow": "同總體積，依原液多少比較"
+            }
+          },
+          {
+            "heading": "② 時間越短，時間倒數越大",
+            "text": "使用相同規格廣口瓶，收集同樣一瓶氧氣。其他反應條件相同時，濃度越高反應越快，收集時間越短，1/時間反而越大。",
+            "alt": "濃度提高導致收集時間縮短，再由倒數定義得到反應速率增加的可選取流程。",
+            "diagram": {
+              "kind": "flow",
+              "title": "本題縱軸是反應速率",
+              "items": [
+                {
+                  "label": "濃度提高 → 收集時間較短",
+                  "detail": "比較相同一瓶氧氣。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "反應速率＝1/收集時間",
+                  "detail": "單位：瓶/s；時間短，倒數大。",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "把時間換成其倒數"
+            }
+          },
+          {
+            "heading": "③ 兩軸都排對，才會得到B",
+            "text": "圖中c代表濃度，v代表反應速率。由左至右III、II、I，點位由低至高，符合B；D把時間較短誤畫成速率較低。",
+            "alt": "新製散點趨勢圖：橫軸濃度c向右增大，縱軸反應速率v向上增大；III左下、II中間、I右上。無速率刻度，未以線段聲稱精確正比。",
+            "caption": "橫軸c→雙氧水濃度（%）；縱軸v↑反應速率（瓶/s）。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：III、II、I依序上升",
+          "points": [
+            "濃度排序：III＜II＜I。",
+            "時間短不等於速率小；1/時間反而大。",
+            "原表沒給時間或速率數字，只判趨勢，不補造數據。"
+          ]
+        },
+        "protectedWords": [
+          "III＜II＜I",
+          "雙氧水",
+          "反應速率",
+          "收集時間",
+          "蒸餾水",
+          "40 mL",
+          "瓶/s",
+          "1/收集時間"
+        ]
+      }
+    },
+    {
+      "id": "q-1035",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第6題｜互文與頂真",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "請問下列選項中，何者運用到互文修辭？\n(A) 軍書十二卷，卷卷有爺名\n(B) 秦時明月漢時關\n(C) 丞相玄機，神鬼莫測\n(D) 策勳十二轉，賞賜百千強",
+      "answer": "(B) 秦時明月漢時關",
+      "explanation": "互文是把原本完整的意思分置於前後文，閱讀時須相互補足。「秦時明月漢時關」應合起來理解為秦漢以來的明月與關塞，並不是秦朝只有明月、漢朝只有關塞，所以選B。\n\nA前句末尾的「卷」接到後句開頭的「卷」，以相同字詞銜接，重點是頂真。C「神鬼莫測」強調連神鬼也難以測度其玄機，帶有誇飾意味，不須把前後分置的內容交互補足。D以「十二轉」「百千強」強調記功、賞賜之多，含數量誇飾及對偶意味，不是互文。\n\n辨別時，先問是否須把前後文合起來補全語意；不要因為句子有重複字或排列整齊，就判為互文。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "修辭",
+        "互文",
+        "頂真"
+      ],
+      "images": [
+        "assets/questions/q-1035-q-1035-original-41a07042c50f.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第6題",
+      "studentAnswer": "原卷黑筆A，紅筆訂正B；原始提問記錄A→B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "6",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": []
+    },
+    {
+      "id": "q-1036",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第7題｜女性長者的祝壽題辭",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "金曉奶奶下週過七十大壽，鄰居云云想送花籃給金曉奶奶，請問下列哪一個題辭最適合寫在花籃的卡片上？\n(A) 花好月圓\n(B) 松柏長青\n(C) 懿範長存\n(D) 壽考宜家",
+      "answer": "(D) 壽考宜家",
+      "explanation": "這題須同時判斷「祝壽」的場合與「奶奶」的身分。「壽考」指高壽，「壽考宜家」是祝賀女性壽誕的題辭，最切合女性長者七十大壽，選D。\n\nA「花好月圓」常用於婚嫁祝賀，不符合本題生日場合。B「松柏長青」比喻如松柏長久青翠，可用於一般祝壽，本身並不是錯誤的祝福；但題目問「最適合」，D明確對應女壽，因此較貼切。C「懿範長存」是追念女性美好德範的哀輓題辭，用於在世長輩的壽誕不合適。\n\n教育部《國語辭典簡編本》的常用題辭表把「松柏長青」列於一般祝壽，把「壽考宜家」列於女壽。因此不應把B誤教成不能祝壽。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "應用文",
+        "題辭",
+        "祝壽"
+      ],
+      "images": [
+        "assets/questions/q-1036-q-1036-original-dc22d4e3a703.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第7題",
+      "studentAnswer": "原卷黑筆B，紅筆訂正D；原始提問記錄B→D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "7",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": []
+    },
+    {
+      "id": "q-1037",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第21題｜銘志與史書的異同",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "關於本文的解讀，下列何者正確？\n(A) 銘志與史傳內容完全相同而能流傳後世\n(B) 關於人的善惡都會被詳細記錄在碑銘中\n(C) 道德高尚者會藉由立碑來彰顯個人功績\n(D) 放置於廟中或墓穴裡的碑銘用意不同",
+      "answer": "(C) 道德高尚者會藉由立碑來彰顯個人功績",
+      "explanation": "本文先說銘志的意義與史書相近，接著指出兩者不同：史書「於善惡無所不書」，而銘志著重表彰人的功德、才能品行與志節義行，希望美好的事蹟不被後世遺忘，因此選C。\n\nC的「藉由立碑」是在說以碑銘彰顯值得傳世的德行功績，不必解讀為當事人一定親自替自己立碑。原文所說「懼後世之不知，則必銘而見之」，強調的是使後人知曉美行的功能。\n\nA把「義近於史」誤解成「內容完全相同」，忽略緊接的「亦有與史異者」。B把史書的「善惡無所不書」錯套到碑銘。D與「或納於廟，或存於墓，一也」相反：放置地點雖不同，表彰美德、使事蹟傳世的用意相同。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "文言文",
+        "比較閱讀",
+        "銘志",
+        "史書"
+      ],
+      "images": [
+        "assets/questions/q-1037-q-1037-original-fa33dbb9f2a9.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第21題",
+      "studentAnswer": "原卷黑筆B，紅筆訂正C；原始提問記錄B→C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "曾鞏寄歐陽舍人書：「夫銘志之著於世，義近於史，而亦有與史異者。蓋史之於善惡無所不書，而銘者，蓋古之人有功德、材行、志義之美者，懼後世之不知，則必銘而見之。或納於廟，或存於墓，一也。」",
+      "originalQuestionNumber": "21",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": []
+    },
+    {
+      "id": "q-1038",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第26題｜微小差異的持續累積",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "左圖為老師在黑板寫下的話，他想傳達什麼道理？\n(A) 在壞習慣的惡性循環之下，即使有再好的資質也將毫無用處\n(B) 勤奮或懶惰只差一點，但持續下去，最終的成果將大大不同\n(C) 我為人人，人人為我，每個人都無法離群索居，要懂得相互關懷\n(D) 雖天生資質不同，但天生我材必有用，總會找到屬於自己的一片天",
+      "answer": "(B) 勤奮或懶惰只差一點，但持續下去，最終的成果將大大不同",
+      "explanation": "黑板把略大於1的1.1與略小於1的0.9反覆連乘作比較：起初數字相差不大，持續累積後卻一個增加、一個減少，成果逐漸拉開。B同時包含「只差一點」「持續下去」「成果大大不同」，最符合圖意。\n\nA只談壞習慣使好資質失去作用，沒有呈現勤奮與懶惰兩種方向的比較，且額外加入圖中未談的天生資質。C談人際互助，D談不同資質各有發展，均不對應反覆連乘的累積效果。\n\n數值核對：原卷黑板確實寫2.85與0.31，不是0.35。若從一個1.1開始再乘1.1十次，共有11個因數，1.1¹¹≈2.8531；同理0.9¹¹≈0.3138，正好分別約為2.85與0.31。若把「相乘十次」理解為10個相同因數，才會算得1.1¹⁰≈2.5937與0.9¹⁰≈0.3487。原卷的數值可按「做十次乘法」理解，不應直接判為計算錯誤。無論此語句的計次方式，圖所表達的小差異長期累積主旨皆指向B。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "圖文閱讀",
+        "主旨判斷",
+        "累積效果"
+      ],
+      "images": [
+        "assets/questions/q-1038-q-1038-original-07303dff9090.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第26題",
+      "studentAnswer": "原卷黑筆A，紅筆訂正B；原始提問記錄A→B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "黑板文字（照原卷）：\n1.1×1.1……相乘十次約為2.85\n但0.9×0.9……相乘十次約為0.31",
+      "originalQuestionNumber": "26",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1038-q-1038-board-3fae24854163.jpg",
+          "alt": "題目附圖",
+          "caption": "題目黑板原圖，文字與數值照原卷保留。"
+        }
+      ],
+      "explanationFigures": []
+    },
+    {
+      "id": "q-1039",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第27題｜詩中的回望與情感整理",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "關於這首詩的解讀，下列說明何者最恰當？\n(A) 此詩藉物抒情，作者說明願保有內心的純真\n(B) 作者直言未經歲月洗鍊的記憶不值得回憶\n(C) 從詩中可知作者為背包客棧的經營者\n(D) 作者透過寫詩回望曾經歷過的人與事",
+      "answer": "(D) 作者透過寫詩回望曾經歷過的人與事",
+      "explanation": "詩中從喜歡出發、停留與歲月留下的色彩，寫到夜裡作詩、清晨逐行逐段檢視，再「慢慢刪去／每一個與你有著關聯的字」。寫下、檢視與刪去，都呈現作者回望並整理曾經歷過的人事與情感，因此D最恰當。刪去相關文字，仍表示她正在面對這段經驗，不等於從未回望。\n\nA的「願保有內心的純真」沒有足夠詩句支持，不能只因出現果樹、風雨等意象就加入這個結論。B把「喜歡歲月漂洗過後的顏色」過度推成未經歲月洗鍊的記憶都不值得回憶，原文沒有這樣否定。C把喜歡出發、離開、停留直接推為經營背包客棧的職業身分，缺乏依據。\n\n原卷只署名席慕蓉，未標詩篇名稱；保留原卷節錄，不加上未經原卷證實的篇名。末節是「逐行逐段地檢視」「慢慢刪去」，不能誤讀為「慢慢畫出」。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "新詩",
+        "閱讀理解",
+        "席慕蓉"
+      ],
+      "images": [
+        "assets/questions/q-1039-q-1039-original-9b2620d27b08.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第27題",
+      "studentAnswer": "原卷黑筆A，紅筆訂正D；原始提問記錄A→D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "（一）\n我喜歡出發　喜歡離開／喜歡一生中都能有新的夢想／千山萬水　隨意行去／不管星辰指引的是什麼方向\n\n我喜歡停留　喜歡長久／喜歡在園裡種下千棵果樹／靜待冬雷夏雨　春華秋實／喜歡生命裡只有單純的盼望／只有一種安定和緩慢的成長\n\n我喜歡歲月漂洗過後的顏色／喜歡那沒有唱出來的歌\n\n我喜歡在夜裡寫一首長詩／然後再來在這清涼的早上／逐行逐段地檢視／慢慢刪去／每一個與你有著關聯的字\n（席慕蓉）",
+      "originalQuestionNumber": "27",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": []
+    },
+    {
+      "id": "q-1040",
+      "sourceId": "src-more-065",
+      "subject": "Chinese",
+      "title": "國文第31題｜馬援資產變化的圖表判讀",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-09",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-09",
+      "question": "根據本文，關於馬援資產多寡的變化情況，依時間來看的話，下列圖表何者最貼切？\n(A) 圖表A\n(B) 圖表B\n(C) 圖表C\n(D) 圖表D",
+      "answer": "(D) 圖表D（資產先增加、後減少）",
+      "explanation": "依文章的時間順序，把「家用不足」→「後有畜數千頭，穀數萬斛」→「乃盡散於親舊」連起來：起初資產少，後來經營田牧累積大量財產，接著把財產分送親友故舊，所以資產應先增加、後減少，對應D。\n\n「凡殖財產，貴其能賑施也，否則守錢虜耳」是散財的原因：馬援認為增殖財產，貴在能用來救濟施助，否則只是守著錢的奴僕。資產的下降來自他主動散財，不宜誤說成經營失敗。\n\nA是一路增加，漏掉散財後的減少。B是一路減少，漏掉先累積財富。C是先減少再增加，順序與原文相反。D才能兼顧前後兩階段。圖是變化趨勢示意，文章未提供確切年齡、各時點金額，也不能由曲線自行推算。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切成品，核對完整題幹、全部選項、必要材料與解說。未提供實際考試日期，日期取本題首次使用者訊息（台灣時間）；無冊次或課次證據，歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "文言文",
+        "圖表判讀",
+        "馬援"
+      ],
+      "images": [
+        "assets/questions/q-1040-q-1040-original-7a2e07b85742.jpg"
+      ],
+      "sourceLabel": "分享原卷｜第31題",
+      "studentAnswer": "原卷黑筆A，紅筆訂正D；原始提問記錄A→D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "（三）馬援少時，以家用不足辭其兄況，欲就邊郡田牧。況曰：「汝大才當晚成，良工不示人以朴①，且從所好。」遂之北地田牧。常謂賓客曰：「丈夫為志，窮當益堅，老當益壯。」後有畜數千頭，穀數萬斛。既而嘆曰：「凡殖②財產，貴其能賑施也，否則守錢虜③耳！」乃盡散於親舊。聞隗囂好士，往從之。囂甚敬重，與決籌策。（節錄自資治通鑑）\n\n註①朴：樹木的外皮，此指未加工的木材。②殖：生財牟利。③虜：奴隸、僕人。",
+      "originalQuestionNumber": "31",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1040-q-1040-options-5ae26002279f.jpg",
+          "alt": "題目附圖",
+          "caption": "原卷A～D四個圖表選項；縱軸為資產，橫軸為年齡。"
+        }
+      ],
+      "explanationFigures": []
     }
   ],
-  "dataUpdatedAt": "2026-11-08T13:21:29+00:00"
+  "dataUpdatedAt": "2026-11-09T15:33:07+00:00"
 }

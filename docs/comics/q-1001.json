@@ -1,0 +1,124 @@
+{
+  "id": "q-1001",
+  "subject": "Geography",
+  "title": "噴氣看火山背景，崩塌看重力作用",
+  "art": "docs/comics/art/q-1001-heat-gravity.svg",
+  "panels": [
+    {
+      "heading": "① 硫磺熱氣，是火山背景的線索",
+      "text": "題幹說山壁下冒出硫磺熱氣，符合龜山島的火山與地熱背景。乙把它判斷為火山島最有根據，選B；這不等於宣告現在正在噴發。",
+      "alt": "新製概念剖面：地下熱源以橘色示意，向上箭頭表示熱氣排出；不是龜山島實際地層、熱源深度或地形復原。",
+      "caption": "橘色：地下熱源；向上箭頭：熱氣排出。概念示意，非實際剖面。"
+    },
+    {
+      "heading": "② 岩塊崩落，本身是重力等外營力",
+      "text": "山壁岩塊失穩後因重力下落，崩塌本身不能直接當作內營力。即使某次崩塌可能被地震誘發，也不能把誘因和崩塌作用混為一談。",
+      "alt": "新製崩塌示意：岩塊與向下箭頭呈重力下落；未畫地震、河流或指定本次崩塌的原因。",
+      "caption": "向下箭頭：岩塊因重力下落；本題未指定誘因。"
+    },
+    {
+      "heading": "③ C、D沒有題幹證據，不任意補條件",
+      "text": "題目沒有交代河流，也沒有岩塊是珊瑚礁的證據。不能只看到「崩塌」，就補成河水侵蝕或猜成珊瑚礁體。",
+      "alt": "可選取中文證據比較：河水侵蝕與珊瑚礁體均缺條件，不能取代硫磺噴氣的直接線索。",
+      "diagram": {
+        "kind": "paths",
+        "title": "把推論與題示證據配對",
+        "items": [
+          {
+            "label": "C｜河水侵蝕？",
+            "detail": "題幹沒有交代河流。",
+            "tone": "blue"
+          },
+          {
+            "label": "D｜珊瑚礁體？",
+            "detail": "題幹沒有提供岩性證據。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "不猜補題目沒有的條件",
+        "target": "B的硫磺熱氣線索最直接"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：龜山島為火山島",
+    "points": [
+      "噴氣與地熱，支持火山背景。",
+      "崩塌作用本身與可能誘發因素要分開。",
+      "不任猜河流、珊瑚礁或這次崩塌由地震造成。"
+    ]
+  },
+  "protectedWords": [
+    "龜山島",
+    "火山島",
+    "內營力",
+    "外營力",
+    "重力",
+    "珊瑚礁",
+    "硫磺熱氣"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6af04774-019c-83ee-9f45-5df6edfd1739",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1001-original-08-8493907c0ef0.jpg"
+  ],
+  "answerCheckedAgainst": "實開原卷20題完整題幹/ABCD，藍A紅B；沒有改寫這次崩塌的誘因，也沒有把虛構剖面冒充真實觀測。",
+  "rationale": "題目在區分地熱線索、重力崩塌與不當推論，精確原生SVG概念剖面及重力箭頭配HTML證據圖比人物場景更能清楚區分作用；原圖沒有真實地層，故明標概念示意且不提供深度或點位。",
+  "generationMethod": "New authored SVG heat/gravity illustrations plus selectable HTML evidence paths",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_1",
+  "createdAt": "2026-11-09T15:30:32.339797+00:00",
+  "artSHA256": "29af2559dd014f94862eaeaac03cc41cba9738187c87e2f6a737ab7a38da38f4",
+  "supportingSources": [
+    {
+      "title": "宜蘭縣政府：宜蘭好山水",
+      "url": "https://www.e-land.gov.tw/cp.aspx?n=14744",
+      "support": "龜山島為火山作用形成、具有硫氣孔與噴氣孔。"
+    },
+    {
+      "title": "蘭陽博物館：龜山島海域地質",
+      "url": "https://www.lym.gov.tw/ch/collection/epaper/epaper-detail/138041f0-1180-11ea-8482-2760f1289ae7/",
+      "support": "火山碎屑岩結構及熱液影響可與崩塌背景相關；不將本題未指明的某次崩塌誘因補入。"
+    }
+  ],
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-1001-preview-validation.json",
+  "visualReview": "已實開原卷20題及1440/390隔離成品，原生SVG地熱概念與重力下落箭頭清楚；HTML中文圖例、非實際剖面與未指定誘因標示完整。官方地質說明核對B，三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-1001-1440.png",
+      "/tmp/weirugo-comic-previews/q-1001-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-1001-art-29af2559dd.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T15:34:32.935026+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1001-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1001-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1001-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1001-standalone-390.png"
+    ],
+    "note": "自行核原卷20題與地質primary，原生SVG概念地熱/重力箭頭＋HTML證據比較；正式app/單頁桌手機4圖實看，明標非實際剖面、不造崩塌誘因，B維持，三寬6布局PASS。"
+  },
+  "validationFile": "docs/comics/q-1001-validation.json",
+  "checkedAt": "2026-11-09T15:34:32.942791+00:00"
+}

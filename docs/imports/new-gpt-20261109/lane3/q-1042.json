@@ -1,0 +1,69 @@
+{
+  "sourceId": "src-more-065",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-09",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷與本題裁切成品，核對完整題幹、全部選項、必要材料及解說。未提供實際考試日期，日期採本題首次使用者訊息（台灣時間）；無可確認冊次、章節證據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "trap": "",
+  "contentStatus": "完整原題",
+  "questionFigures": [],
+  "explanationFigures": [],
+  "tables": [],
+  "passage": "",
+  "id": "q-1042",
+  "subject": "Physics-Chemistry",
+  "title": "理化第4題｜開放環境下的反應質量",
+  "originalQuestionNumber": "4",
+  "sourceLabel": "分享原卷｜第4題",
+  "question": "下列甲、乙兩種反應中，若不考慮水的蒸發，則何者反應進行時的環境即使不為「密閉」，也能觀察到「反應前、後質量沒有改變」的現象？\n甲．鋼絲絨在空氣中燃燒\n乙．碳酸鈉水溶液與氯化鈣水溶液反應\n(A) 僅甲\n(B) 僅乙\n(C) 甲、乙均可觀察到\n(D) 甲、乙均無法觀察到",
+  "answer": "(B) 僅乙",
+  "explanation": "先分清楚「整個反應的總質量守恆」與「秤上所量範圍內的質量不變」。開放環境若有物質進出量測範圍，秤得的質量就可能改變。\n\n甲：鋼絲絨中的鐵在空氣中燃燒，會與外界氧氣結合生成氧化物。若比較鋼絲絨及留下的燃燒產物，產物多了由空氣加入的氧，量得的質量增加，不符合題目。這並不違反質量守恆；把參與反應的氧氣也列入反應前總質量，前後仍相等。\n\n乙：碳酸鈉與氯化鈣水溶液反應，產生留在容器內的碳酸鈣白色沉澱及氯化鈉水溶液：\nNa₂CO₃(aq)＋CaCl₂(aq) → CaCO₃(s)↓＋2NaCl(aq)\n沉澱只是從溶液中析出，並沒有憑空消失，也沒有反應氣體逸出；題目又排除水的蒸發，所以在無濺出等損失時，兩份溶液混合前的總質量等於反應後內容物總質量。乙即使未密閉，也能觀察到質量不變。\n\n因此僅乙符合，選B；A誤納甲，C把兩者都納入，D則誤以為不密閉必定無法量得前後質量相同。",
+  "tags": [
+    "質量守恆",
+    "開放系統",
+    "沉澱反應",
+    "氧化"
+  ],
+  "studentAnswer": "原卷藍筆D，紅筆訂正B；使用者記錄D→B。",
+  "correctOption": "B",
+  "date": "2026-11-09",
+  "images": [
+    "docs/imports/new-gpt-20261109/lane3/q-1042-original.jpg"
+  ],
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "僅甲",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "甲有外界氧氣進入並與鐵結合，量得質量增加。"
+    },
+    {
+      "label": "B",
+      "text": "僅乙",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "乙只形成留在容器中的沉澱，在排除蒸發等損失時總質量不變。"
+    },
+    {
+      "label": "C",
+      "text": "甲、乙均可觀察到",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "甲不符合，不能兩者都選。"
+    },
+    {
+      "label": "D",
+      "text": "甲、乙均無法觀察到",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "乙在開放環境仍可測得前後總質量相同。"
+    }
+  ]
+}

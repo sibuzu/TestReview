@@ -1,0 +1,81 @@
+{
+  "mode": "two_source_producers_one_integrator_scoped_batch",
+  "workerLimit": 3,
+  "rootRole": "使用者回覆、Chrome原圖存取、確認卡與本批協調",
+  "updatedAt": "2026-11-09T14:36:28.687464+00:00",
+  "lanes": [
+    {
+      "lane": 1,
+      "questionId": null,
+      "title": "GPT65共11題技術入庫與44組正式布局檢查完成；未提交",
+      "state": "complete",
+      "startedAt": "2026-11-09T14:27:50.959372+00:00",
+      "agent": "/root/comic_lane_1",
+      "role": "integration",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "activeTask": {
+        "title": "GPT65共11題技術入庫與44組正式布局檢查完成；未提交",
+        "state": "complete",
+        "startedAt": "2026-11-09T14:27:50.959372+00:00"
+      },
+      "pauseReason": "僅本批來源內容整理；插畫獨立待製，不重啟舊佇列"
+    },
+    {
+      "lane": 2,
+      "questionId": null,
+      "title": "GPT65前6題核對稿已收入；不接舊佇列",
+      "state": "complete",
+      "startedAt": "2026-11-09T14:27:50.959372+00:00",
+      "agent": "/root/comic_lane_2",
+      "role": "import",
+      "claimsPaused": true,
+      "batchQuestionIds": [
+        "q-1035",
+        "q-1036",
+        "q-1037",
+        "q-1038",
+        "q-1039",
+        "q-1040"
+      ],
+      "pauseReason": "僅本批來源內容整理；插畫獨立待製，不重啟舊佇列",
+      "activeTask": {
+        "title": "GPT65前6題核對稿已收入；不接舊佇列",
+        "state": "complete",
+        "startedAt": "2026-11-09T14:27:50.959372+00:00"
+      }
+    },
+    {
+      "lane": 3,
+      "questionId": null,
+      "title": "GPT65後5題核對稿已收入；不接舊佇列",
+      "state": "complete",
+      "startedAt": "2026-11-09T14:27:50.959372+00:00",
+      "agent": "/root/comic_lane_3",
+      "role": "import",
+      "claimsPaused": true,
+      "batchQuestionIds": [
+        "q-1041",
+        "q-1042",
+        "q-1043",
+        "q-1044",
+        "q-1045"
+      ],
+      "pauseReason": "僅本批來源內容整理；插畫獨立待製，不重啟舊佇列",
+      "activeTask": {
+        "title": "GPT65後5題核對稿已收入；不接舊佇列",
+        "state": "complete",
+        "startedAt": "2026-11-09T14:27:50.959372+00:00"
+      }
+    }
+  ],
+  "ready": [],
+  "integrated": 905,
+  "blocked": [],
+  "waiting": [],
+  "integrating": [],
+  "held": [],
+  "integrationLimit": 1,
+  "roleChangedAt": "2026-10-29T07:01:25.554580+00:00",
+  "importLimit": 2
+}

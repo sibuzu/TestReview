@@ -1,0 +1,83 @@
+{
+  "id": "q-1052",
+  "subject": "Math",
+  "title": "方格路徑與三角不等式",
+  "art": "docs/comics/art/q-1052-geometry.svg",
+  "generationMethod": "new precise native SVG grid geometry plus selectable HTML inequalities",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261110/q-1052-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、從每格1公分讀出線段\n以A為(0,0)，原圖可讀B(5,5)、C(1,3)、D(2,4)、E(1,1)、F(3,4)、G(4,2)。座標是由原圖格線核讀的解題輔助，不是額外已知。\n\n二、快速判斷C\nDB與GB的水平、垂直位移分別為(3,1)及(1,3)，由畢氏定理可得DB＝GB＝√10。D、F、B不共線，三角形兩邊和大於第三邊，所以DF＋FB＞DB＝GB。C卻寫小於，故C錯誤，是本題答案。也可直接驗算DF＋FB＝1＋√5，約3.236，大於√10，約3.162。\n\n三、驗算A與B\nA：ED的位移為(1,3)，GB的位移為(1,3)，所以ED＝GB＝√10，正確。\nB：AC＋CD＝√10＋√2，AG＝√20＝2√5。因(√10＋√2)²＝12＋4√5＞20，兩者皆正，因此AC＋CD＞AG，B正確。此處是不同終點的線段比較，不能直接把它當成同一三角形的兩邊和。\n\n四、確認D的最長路徑\nR₁＝AC＋CD＋DB＝2√10＋√2，約7.739公分。R₂＝AE＋ED＋DF＋FB＝√2＋√10＋1＋√5，約7.813公分。R₃＝AG＋GB＝2√5＋√10，約7.634公分。\nR₂比R₁多DF＋FB−DB，因三角不等式為正；又因√10＋√2＞2√5，所以R₁＞R₃。故R₂＞R₁＞R₃，D正確。先看題目問錯誤，再找反向不等號，不必把「最短」當作題目要選的答案。",
+  "rationale": "數學以核對原圖格點的幾何分步圖輔助，不用人物或生成模型決定精確關係。",
+  "panels": [
+    {
+      "heading": "① 先認出兩條等長線段",
+      "text": "由方格可得DB與GB的位移分別是3、1及1、3，因此長度同為√10。",
+      "alt": "ED、DB、GB在原格點位置的精確比較圖；ED及GB位移均為1與3，DB位移為3與1。",
+      "caption": "新製輔助圖｜ED橘、DB藍虛線、GB綠；每格1公分。"
+    },
+    {
+      "heading": "② 折線一定比直線長",
+      "text": "D、F、B不共線，所以DF＋FB＞DB。代入DB＝GB，即得DF＋FB＞GB，C的反向小於錯誤。",
+      "alt": "D、F、B形成非退化三角形，DB為藍虛線，D至F至B為橘紅折線，GB以綠色對照。",
+      "caption": "新製輔助圖｜DF＋FB橘紅折線、DB藍虛線、GB綠。"
+    },
+    {
+      "heading": "③ 最長與最短也核對",
+      "text": "R₂比R₁多繞過F的距離；R₁又大於R₃。D說R₂最長正確，不能因題目談最短就選最短路徑。",
+      "alt": "三條原路徑以橘實線、藍虛線、綠實線呈現，格點與原卷一致。",
+      "caption": "新製輔助圖｜R₁橘實線、R₂藍虛線、R₃綠實線。"
+    }
+  ],
+  "fourth": {
+    "answer": "(C) DF＋FB＜GB 是錯誤的結論",
+    "points": [
+      "DB＝GB＝√10，D、F、B不共線。",
+      "三角不等式給出DF＋FB＞DB＝GB。",
+      "R₂＞R₁＞R₃；C的小於才是錯誤結論。"
+    ]
+  },
+  "protectedWords": [
+    "DF＋FB",
+    "DB＝GB",
+    "√10",
+    "三角不等式"
+  ],
+  "nativeArt": "assets/comics/q-1052-art-e09a5a3a17.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-10T14:20:26.509801+00:00",
+  "validationFile": "docs/comics/q-1052-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261110/qa/q-1052-app-1440.png",
+      "docs/imports/new-gpt-20261110/qa/q-1052-app-390.png",
+      "docs/imports/new-gpt-20261110/qa/q-1052-standalone-1440.png",
+      "docs/imports/new-gpt-20261110/qa/q-1052-standalone-390.png"
+    ],
+    "comicViews": [
+      "/tmp/weirugo-comic-checks/q-1052-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1052-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1052-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1052-standalone-390.png"
+    ],
+    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.8f073729dd07",
+  "revision": "2026-10-27.b67fbd88a497",
   "subjects": [
     {
       "id": "Chinese",
@@ -2619,6 +2619,27 @@
         "assets/originals/chatgpt-6af1d6de-12-a75d1c0958cc.jpg"
       ],
       "content": "MESSAGE 1 | user | 1794232876.702969\n[attachment sediment://file_0000000092e482068620d7224338401c?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n6@錯題a→ b\n\nMESSAGE 6 | assistant | 1794232878.988828\n\n\nMESSAGE 10 | assistant | 1794232882.99221\n\n\nMESSAGE 11 | assistant | 1794232882.996494\n# 第 6 題｜國文錯題解析\n<badge color=\"success\">正確答案 B</badge>　<text color=\"secondary\" inline>誤選 A → 正解 B｜@錯題融合模式 v2.1</text>\n\n## 一、原題與關鍵判斷\n\n**題目：** 請問下列選項中，何者運用到「互文」修辭？\n\n| 選項 | 原文 | 修辭判斷 |\n|---|---|---|\n| A（誤選） | 軍書十二卷，卷卷有爺名 | **頂真** |\n| B（正解） | 秦時明月漢時關 | **互文** |\n| C | 丞相之機，神鬼莫測 | 誇飾意味 |\n| D | 策勳十二轉，賞賜百千強 | 對偶、數量誇飾意味 |\n\n## 二、二選一決勝：A 為什麼錯？B 為什麼對？\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box flex=\"1\" gap={1}>\n      <text weight=\"medium\">A｜頂真</text>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n        <row align=\"center\" justify=\"center\" gap={1}>\n          <box background=\"surface-tertiary\" radius=\"md\" padding={2}>\n            軍書十二**卷**\n          </box>\n          <icon name=\"arrow-right\" color=\"secondary\"/>\n          <box background=\"surface-tertiary\" radius=\"md\" padding={2}>\n            **卷**卷有爺名\n          </box>\n        </row>\n        <text color=\"secondary\" size=\"xs\" textAlign=\"center\">前句末字「卷」接後句首字「卷」</text>\n      </box>\n      **頂真：前後字詞相接。** 不需要把兩句合起來補充語意。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <box gap={2}>\n    **B｜互文**\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <grid columns={2} gap={2}>\n        <grid-item>\n          <box background=\"surface\" padding={2} radius=\"md\" align=\"center\" gap={1}>\n            <text weight=\"medium\">秦時明月</text>\n            <text color=\"secondary\" size=\"xs\">秦時＋明月</text>\n          </box>\n        </grid-item>\n        <grid-item>\n          <box background=\"surface\" padding={2} radius=\"md\" align=\"center\" gap={1}>\n            <text weight=\"medium\">漢時關</text>\n            <text color=\"secondary\" size=\"xs\">漢時＋關塞</text>\n          </box>\n        </grid-item>\n      </grid>\n      <row justify=\"center\" align=\"center\" gap={2}>\n        <icon name=\"arrow-down-up\" color=\"secondary\"/>\n        <text color=\"secondary\" size=\"xs\">前後語意互相補足</text>\n      </row>\n      <box background=\"rgba(22,163,74,0.07)\" border={{size:1,color:\"rgba(22,163,74,0.25)\"}} radius=\"md\" padding={3} align=\"center\" gap={1}>\n        **秦漢時的明月與關塞**\n        <text size=\"xs\" color=\"secondary\">不是秦朝只有明月、漢朝只有關塞</text>\n      </box>\n    </box>\n    **互文：前後文相互補足，合起來才能理解完整意思。**\n  </box>\n</box>\n\n## 三、考場快速辨別\n\n- **頂真：** 看「字」有沒有首尾相接。\n- **互文：** 看「意思」是否要前後合起來解讀。\n\n記憶口訣：**頂真接文字，互文補意思。**\n\n## 四、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  「將軍百戰死，壯士十年歸」使用什麼修辭？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 頂真</radio>\n    <radio value=\"B\">B. 互文</radio>\n    <radio value=\"C\">C. 排比</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再注意前後兩句的完整意思。\" }**\n      </row>\n      將軍與壯士都經歷多年征戰，有人戰死，有人歸來。兩句互相補充，所以是 **B. 互文**。\n    </box>\n  {/if}\n</box>\n\n## 五、錯因診斷與品質複核\n\n本題誤選 A，顯示需要加強區分「字詞銜接」與「語意互補」。但目前只有選項紀錄，不能直接斷定實際誤判原因。\n\n<text color=\"secondary\" size=\"sm\">複核結果：原題與選項已依照片辨識；B 可由修辭定義獨立確認。未查詢國中教材外掛，因此不標示教材頁碼。未發現 P0 答案問題。</text>\n\n**本題最值得記住的是：互文不是文字重複，而是前後兩句的意思互相補足。**\n\nMESSAGE 12 | user | 1794232944.261363\n[attachment sediment://file_0000000072fc82069b832e422e9790ca?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n7@錯題B → D\n\nMESSAGE 14 | assistant | 1794232947.736982\n\n\nMESSAGE 15 | assistant | 1794232947.741126\n# 第 7 題｜國文錯題解析\n<badge color=\"success\">正確答案 D｜壽考宜家</badge>　<text color=\"secondary\" inline>誤選 B → 正解 D</text>\n\n<text color=\"secondary\" size=\"xs\">@錯題融合模式 v2.1｜題型：題辭應用與語境判斷</text>\n\n## 一、原題確認\n\n金鷹奶奶下週過七十大壽，鄰居云云想送花籃給金鷹奶奶，請問下列哪一個題辭最適合寫在花籃的卡片上？\n\n| 選項 | 題辭 | 適用場合 |\n|---|---|---|\n| A | 花好月圓 | 婚嫁祝賀 |\n| B（誤選） | 松柏長青 | 祝壽、祝福長壽 |\n| C | 懿範長存 | 女性逝世的哀輓 |\n| D（正解） | 壽考宜家 | 祝賀長壽，適合女性長者 |\n\n## 二、二選一決勝：B 與 D 差在哪裡？\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <box flex=\"1\" gap={1}>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        **B｜松柏長青**\n        <AsyncImage query=\"green evergreen pine trees cypress tree elegant Chinese watercolor illustration\" aspectRatio=\"5:3\" width=\"100%\"/>\n        松柏四季常青，比喻生命力旺盛、長壽不衰。\n      </box>\n      <text size=\"sm\">這也是祝壽用語，並非意思錯誤，但未特別凸顯女性長者。</text>\n    </box>\n    <box flex=\"1\" gap={1}>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        **D｜壽考宜家**\n        <AsyncImage query=\"warm cute illustration elderly Chinese grandmother celebrating 70th birthday with family flowers birthday cake no text\" aspectRatio=\"5:3\" width=\"100%\"/>\n        「壽考」指高壽，「宜家」有家庭和樂、美滿之意。\n      </box>\n      <text size=\"sm\">更貼近題目指定的女性長輩祝壽情境。</text>\n    </box>\n  </row>\n</box>\n\n**決勝關鍵：** B、D 都具有祝壽意義，但考題要求選出「最適合」，而非「也可以使用」。D 的祝賀對象與語境更明確。\n\n因此這題不能單純把 B 當作完全不適用，而是要辨別題辭的**適切程度**。\n\n## 三、其餘選項快速排除\n\n- **A 花好月圓：** 比喻美好圓滿，常用於新婚祝福，不是本題的首選。\n- **C 懿範長存：** 「懿」為美好德行，「懿範」指女性的美好典範；常見於女性喪事的輓詞。生日不能使用。\n\n## 四、考場快判技巧\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">題辭題：先辨場合，再辨對象</text>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <box background=\"surface\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      **場合**\n\n      <text color=\"secondary\" size=\"xs\">七十大壽</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      **對象**\n\n      <text color=\"secondary\" size=\"xs\">奶奶</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      **答案**\n\n      <text color=\"secondary\" size=\"xs\">D 壽考宜家</text>\n    </box>\n  </row>\n</box>\n\n## 五、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  同學的祖母八十大壽，想在賀卡上寫一句最符合本題命題邏輯的祝賀題辭，應選哪一個？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 懿範長存</radio>\n    <radio value=\"B\">B. 壽考宜家</radio>\n    <radio value=\"C\">C. 花好月圓</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再檢查祝賀的場合與對象。\" }**\n      </row>\n      本題選 B「壽考宜家」，祝賀女性長者高壽與家庭和樂；「懿範長存」是哀輓語。\n    </box>\n  {/if}\n</box>\n\n## 六、錯因與品質檢核\n\n**可能的誤判點：** 看到「長青」就聯想到長壽，選了 B，卻沒有進一步比較 D 是否更符合「奶奶」的身分。這是依選項推測的可能原因，尚不能認定為實際思考過程。\n\n- **P0 答案：** 依題目提供的訂正資訊，正解 D；語意與使用場合可支持 D 為較適切選項。\n- **P1 辨析：** B 也能用於祝壽，須保留這個差異，不能誤教成 B 完全錯誤。\n- **教材查核：** 本次未實際使用國中教材唯讀搜尋，不標示課本頁碼。\n\n**本題記憶重點：題辭選「最適合」時，兩個答案都能祝賀，還要再比較人物身分與使用場合。**\n\nMESSAGE 16 | user | 1794233025.446237\n[attachment sediment://file_000000007c508206970897f818297836?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n21@錯題B → C\n\nMESSAGE 18 | assistant | 1794233029.350353\n\n\nMESSAGE 19 | assistant | 1794233029.354971\n# 第 21 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 C</badge>　誤選 B → 正解 C\n\n<text color=\"secondary\" size=\"xs\">@錯題融合模式 v2.1｜文言文閱讀理解・觀點判斷</text>\n\n## 一、原題證據確認\n\n**原文：**\n\n> 「太銘志之著於世，義近於史，而亦有與史異者。蓋史之於善惡無所不書，而銘者，蓋古之人有功德、材行、志義之美者，懼後世之不知，則必銘而見之。或納於廟，或存於墓，一也。」\n\n**題目：** 關於本文的解讀，下列何者正確？\n\n| 選項 | 內容 | 判斷 |\n|---|---|---|\n| A | 銘誌與史傳內容完全相同而能流傳後世 | 錯 |\n| B（誤選） | 關於人的善惡都會被詳細記錄在碑銘中 | 錯 |\n| C（正解） | 道德高尚者會藉由立碑來彰顯個人功績 | 對 |\n| D | 放置於廟中或埋於墓穴裡的碑銘用意不同 | 錯 |\n\n## 二、二選一決勝：B 為何錯？C 為何對？\n\n這題最關鍵的一句：\n\n> **蓋史之於善惡無所不書，而銘者，蓋古之人有功德、材行、志義之美者……**\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2} align=\"center\">\n        <icon name=\"book-open\" size=\"2xl\" color=\"secondary\"/>\n        **史書**\n        <text size=\"sm\" textAlign=\"center\">善事、惡事</text>\n        <row gap={1} align=\"center\" justify=\"center\">\n          <icon name=\"check-circle\" color=\"success\"/>\n          <icon name=\"check-circle\" color=\"success\"/>\n        </row>\n        <text size=\"xs\" color=\"secondary\" textAlign=\"center\">善惡都記載</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2} align=\"center\">\n        <icon name=\"scroll-text\" size=\"2xl\" color=\"secondary\"/>\n        **碑銘**\n        <text size=\"sm\" textAlign=\"center\">功德、才能、志節</text>\n        <icon name=\"check-circle\" color=\"success\"/>\n        <text size=\"xs\" color=\"secondary\" textAlign=\"center\">重在彰顯美德</text>\n      </box>\n    </grid-item>\n  </grid>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\">B 把「史書」的特徵，錯誤套用到「碑銘」。</text>\n  <text size=\"sm\">原文說「史之於善惡無所不書」，主詞是「史」，不是「銘」。因此 B 錯誤。</text>\n  <text weight=\"medium\">C 抓對了碑銘的核心功能。</text>\n  <text size=\"sm\">古人具有功德、才能與美好志節，後人擔心其事蹟不為後世所知，便以碑銘記錄彰顯。因此 C 最符合文意。</text>\n</box>\n\n## 三、逐項解析\n\n**A｜錯在「完全相同」**\n\n原文明說「義近於史，而亦有與史異者」，意思是碑銘與史書性質相近，卻仍有不同之處。\n\n**B｜錯在記載對象**\n\n記錄善惡的是史書。碑銘在本文中主要用來表彰人物的美好事蹟，而不是全面記錄善惡。\n\n**C｜正確，但須精確理解**\n\n碑銘用來彰顯人物的功德、才能及志義。選項「藉由立碑」可理解為用碑銘表彰其事蹟，並不表示一定由本人親自立碑。\n\n**D｜錯在「用意不同」**\n\n原文「或納於廟，或存於墓，一也」，指出雖然碑銘放置位置不同，但記錄、彰顯美德的用意相同。\n\n## 四、這題真正需要練習的能力\n\n**區分兩個比較對象的不同特徵。**\n\n考場看到「甲與乙相似，但有所不同」，就要立刻整理：\n\n| 比較 | 史書 | 碑銘 |\n|---|---|---|\n| 記載內容 | 善惡皆記 | 功德、美行為主 |\n| 主要特色 | 較全面記載人物事蹟 | 表彰值得傳世的美德 |\n| 題目對應 | B 誤套用 | C 正確 |\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  如果原文說「甲記錄人物的全部功過，乙專門表彰人物美德」，下列何者正確？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 甲與乙都只記錄優點</radio>\n    <radio value=\"B\">B. 甲記錄功過，乙著重美德</radio>\n    <radio value=\"C\">C. 乙比甲記載得更全面</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"請再比較甲、乙各自的記錄範圍。\" }**\n      </row>\n      甲記錄人物的善與惡，乙強調值得表彰的美德，因此答案是 B。\n    </box>\n  {/if}\n</box>\n\n## 六、品質檢核\n\n- **P0｜答案與原文：** 已依照片辨識題目，C 與原文相符。\n- **P1｜精確性：** C 的「藉由立碑」不能誤解成由當事人親自立碑。\n- **教材證據：** 未使用國中教材唯讀搜尋，本次僅依題目照片解析。\n- **錯因判斷：** B → C 顯示可能將「史書記錄善惡」誤套到「碑銘」，但仍需作答思路才能確定。\n\n**考場一句話：史書記善惡，碑銘彰美德。**\n\n這題屬於「比較對象混淆型」錯題。比起背誦整段文言文，更值得訓練的是抓準「史」與「銘」各自對應的特徵。\n\nMESSAGE 20 | user | 1794233135.9254332\n[attachment sediment://file_0000000019d4820680355ae4b50af941?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n26@錯題A → B\n\nMESSAGE 22 | assistant | 1794233138.651346\n\n\nMESSAGE 23 | assistant | 1794233138.656087\n# 第 26 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 B</badge>　誤選 A → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題融合模式 v2.1｜閱讀理解・數學比喻與人生哲理</text>\n\n## 一、原題證據確認\n\n題目：「左圖為老師在黑板寫下的話，他想傳達什麼道理？」\n\n黑板內容：\n\n> 1.1 × 1.1 × ……相乘十次約為 2.85\n>\n> 但 0.9 × 0.9 × ……相乘十次約為 0.35\n\n<text color=\"secondary\" size=\"xs\">照片中的數值為近似值：\\(1.1^{10}\\approx2.59\\)、\\(0.9^{10}\\approx0.35\\)。因此第一個 2.85 與實際計算不符，可能是題目數值有誤；不影響本題意旨。</text>\n\n| 選項 | 原文重點 | 判斷 |\n|---|---|---|\n| A（誤選） | 壞習慣的惡性循環，會使好資質變得無用 | 不符主旨 |\n| B（正解） | 勤奮或懶惰只差一點，持續下去成果卻大不相同 | **符合主旨** |\n| C | 人與人應相互關懷 | 無關 |\n| D | 天生資質不同，每個人都有自己的一片天 | 無關 |\n\n## 二、二選一決勝：A 與 B 的關鍵差異\n\n這題的重點不是「壞習慣」，而是**微小差異經過長期累積，會造成顯著的結果差距**。\n\n<box gap={2}>\n  <text weight=\"medium\">每天多努力 10% 與少努力 10%，持續十次的示意比較</text>\n  <Chart content={{\"chartType\":\"bar\",\"meta\":{\"footer\":\"依黑板的乘法概念示意，非真實學習成效預測\"},\"xKey\":\"case\",\"series\":[{\"dataKey\":\"value\",\"label\":\"累積結果\",\"valueFormat\":\"raw\"}],\"yAxisMin\":0,\"data\":[{\"case\":\"1.1¹⁰\",\"value\":2.5937},{\"case\":\"0.9¹⁰\",\"value\":0.3487}]}}/>\n  <text color=\"secondary\" size=\"xs\">1.1 與 0.9 起初只差 0.2，經過十次連乘，結果約為 2.59 與 0.35。</text>\n</box>\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      **A｜壞習慣與資質**\n      <icon name=\"x-circle\" color=\"danger\" size=\"lg\"/>\n      著重「原本資質好，因壞習慣變得無用」。\n\n      <text color=\"secondary\" size=\"sm\">黑板沒有提到天生資質，也沒有討論好資質被浪費。</text>\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      **B｜持續累積的效果**\n      <icon name=\"check-circle\" color=\"success\" size=\"lg\"/>\n      著重「起初只有一點差距，持續累積後結果差很多」。\n\n      <text color=\"secondary\" size=\"sm\">完全對應 1.1 與 0.9 不斷連乘的變化。</text>\n    </box>\n  </grid-item>\n</grid>\n\n**決勝關鍵：A 多了「天生好資質」這個題目沒有提供的條件；B 同時包含「小差距、持續累積、結果不同」三個重點。**\n\n## 三、考場快速解題法\n\n遇到數學、圖表或故事形式的國文主旨題，先把具體情境轉成抽象概念：\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <box background=\"surface-secondary\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      <text weight=\"medium\">1.1 與 0.9</text>\n      <text color=\"secondary\" size=\"xs\">微小差異</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface-secondary\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      <text weight=\"medium\">連乘十次</text>\n      <text color=\"secondary\" size=\"xs\">不斷累積</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box background=\"surface-secondary\" radius=\"md\" padding={2} flex=\"1\" align=\"center\">\n      <text weight=\"medium\">結果差很大</text>\n      <text color=\"secondary\" size=\"xs\">長期影響</text>\n    </box>\n  </row>\n  <text weight=\"medium\" textAlign=\"center\">小差異 × 長期累積 → 大差距</text>\n</box>\n\n## 四、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  老師說：「每天進步一點點，短時間看不出差別，幾個月後卻可能超越原來的自己。」\n\n  這句話最想強調什麼？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 有天分的人不需要努力</radio>\n    <radio value=\"B\">B. 持續的小進步能累積成顯著成長</radio>\n    <radio value=\"C\">C. 努力一定能讓人成為第一名</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"再抓一次「每天」與「幾個月後」的關係。\" }**\n      </row>\n      答案是 B。文意強調的是日積月累的效果，沒有提到天分，也不保證一定成為第一名。\n    </box>\n  {/if}\n</box>\n\n## 五、錯題診斷與品質複核\n\n**可能的誤判：** A 提到「壞習慣的惡性循環」，看起來與 0.9 反覆連乘有關，但它只解釋了負向的一面，還加入題目沒有的「資質」條件。\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原題與四選項 | 已依照片核對 |\n| 正確答案 | B，符合圖表核心概念 |\n| 數字正確性 | 發現 1.1¹⁰ 實際約 2.59，非 2.85 |\n| 圖文一致性 | 圖表使用重新計算的正確數值 |\n| 教材證據 | 尚未查詢，不宣稱課本出處 |\n\n<text color=\"secondary\" size=\"sm\">數值不一致屬於原題或印刷內容的待核問題，不能將 2.85 當成正確的乘方結果。</text>\n\n**本題必記：選主旨要找最完整對應原文的選項，不要因為某個選項只符合其中一小部分就選它。**\n\nMESSAGE 24 | user | 1794233266.405836\n[attachment sediment://file_000000005c3c8206a53f33ab64651ee5?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n27@錯題A → D\n\nMESSAGE 26 | assistant | 1794233271.396911\n\n\nMESSAGE 27 | assistant | 1794233271.404987\n# 第 27 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 D</badge>　誤選 A → 正解 D\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜現代詩閱讀・寫作內容判讀</text>\n\n## 一、原題與關鍵證據\n\n**題目：** 關於這首詩的解讀，下列說明何者最恰當？\n\n詩作：席慕蓉〈一棵開花的樹〉\n\n題目提供的詩作節錄，重要線索包括：\n\n> 「我喜歡歲月漂洗過後的顏色」\n>\n> 「我喜歡那沒有唱出來的歌」\n>\n> 「我喜歡在夜裡寫一首長詩」\n>\n> 「慢慢畫出每一個與你有著關聯的字」\n\n這幾句是判斷答案的主要依據。\n\n## 二、二選一決勝：A 與 D\n\n<box gap={3}>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        <badge>誤選 A</badge>\n        <AsyncImage query=\"beautiful dreamy watercolor illustration warm romantic flowers and sunset gentle melancholic poetic mood no text\" aspectRatio=\"4:3\"/>\n        **「此詩藉物抒情，作者說明願保有內心的純真」**\n\n        <text size=\"sm\">前半句「藉物抒情」有一定道理，但後半句「保有內心純真」，缺乏足夠的詩句支持。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n        <badge color=\"success\">正解 D</badge>\n        <AsyncImage query=\"soft watercolor illustration a poet handwriting a letter at wooden desk at night window moonlight books nostalgic atmosphere no text\" aspectRatio=\"4:3\"/>\n        **「作者透過寫詩回望曾經歷過的人與事」**\n\n        <text size=\"sm\">「歲月漂洗」「夜裡寫一首長詩」「與你有著關聯的字」，共同支持回望過往的意涵。</text>\n      </box>\n    </grid-item>\n  </grid>\n</box>\n\n**最關鍵的差別：**\n\n- A 把詩中的懷舊、情感沉澱，延伸成「保持純真」，屬於沒有直接證據的推論。\n- D 有明確文字依據：歲月、寫詩，以及與「你」相關的記憶。\n\n因此應選 **D**。\n\n## 三、四個選項逐項判斷\n\n| 選項 | 判斷 | 理由 |\n|---|---|---|\n| A | 不夠恰當 | 詩中未明確強調保有內心純真 |\n| B | 錯誤 | 詩人說「喜歡歲月漂洗過後的顏色」，並非不值得回憶 |\n| C | 證據不足 | 詩中的「你」未明確限定為背包客棧的經營者 |\n| D | 正確 | 寫詩並描繪與「你」有關的字，呈現對過往人事的回望 |\n\n## 四、考場快速解題：找出抽象選項的證據\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">詩句 → 具體行為 → 抽象主旨</text>\n  <box background=\"surface-secondary\" radius=\"md\" padding={3} align=\"center\" gap={1}>\n    **歲月漂洗過後的顏色**\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    <text size=\"sm\">時間流逝後留下的感受</text>\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    **回望過去**\n  </box>\n  <box background=\"surface-secondary\" radius=\"md\" padding={3} align=\"center\" gap={1}>\n    **夜裡寫長詩、與你有關聯的字**\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    <text size=\"sm\">透過文字記錄與某人的關聯</text>\n    <icon name=\"arrow-down\" color=\"secondary\"/>\n    **追憶人與事**\n  </box>\n  <text textAlign=\"center\" weight=\"medium\">兩組證據共同指向 D</text>\n</box>\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  讀到「我把多年以前的信件重新翻閱，將那些熟悉的名字寫進詩裡」，最適合推論何者？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 作者認為童年最純真</radio>\n    <radio value=\"B\">B. 作者透過文字回憶往昔的人事</radio>\n    <radio value=\"C\">C. 作者想成為專業作家</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"請重新比對選項和原文證據。\" }**\n      </row>\n      正解 B。「多年以前」「重新翻閱」「寫進詩裡」共同指向對往昔人事的追憶，而非童年或職業志向。\n    </box>\n  {/if}\n</box>\n\n## 六、錯題診斷與品質複核\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原題與選項 | 已依照片核對主要內容 |\n| 答案 | D，符合詩句的回憶與書寫意涵 |\n| A → D 關鍵差異 | 是否有直接詩句支持 |\n| 實際錯因 | 尚無作答過程，僅能提出可能誤判 |\n| 教材證據 | 未查詢國中教材外掛 |\n\n**本題記憶重點：詩歌主旨題不能只選「感覺很美」的答案，而要選「有詩句能夠證明」的答案。**\n\n尤其當兩個選項都很抽象時，優先找出能與詩句逐一對應的選項，才比較不容易被看似優美、卻缺乏證據的敘述誤導。\n\nMESSAGE 28 | user | 1794233374.3007421\n[attachment sediment://file_000000007e208206830306de660b2b1d?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n31@錯題A → D\n\nMESSAGE 30 | assistant | 1794233379.525492\n\n\nMESSAGE 31 | assistant | 1794233379.529205\n# 第 31 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 D</badge>　誤選 A → 正解 D\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜文言文閱讀 × 圖表判讀</text>\n\n## 一、原題證據確認\n\n題目根據〈馬援少時〉的記述，詢問：\n\n**「關於馬援資產多寡的變化情況，依時間來看的話，下列圖表何者最貼切？」**\n\n原文關鍵：\n\n> 「後有畜數千頭，穀數萬斛。既而嘆曰：『凡殖財產，貴其能賑施也，否則守錢虜耳！』乃盡散於親舊。」\n\n意思是：馬援後來累積了大量牲畜與糧食，但認為財產應用來救濟他人，於是將財產分送給親友故舊。\n\n## 二、二選一決勝：A 為什麼錯？D 為什麼對？\n\n<box gap={2}>\n  <grid columns={2} gap={3}>\n    <grid-item>\n      <box border radius=\"lg\" padding={2} gap={2}>\n        <row align=\"center\" justify=\"between\">\n          **A｜誤選**\n          <icon name=\"x-circle\" color=\"danger\"/>\n        </row>\n        <svg viewBox=\"0 0 160 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M24 10 V96 H150\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.8\"/>\n          <path d=\"M30 91 L137 18\" fill=\"none\" stroke=\"#D97757\" strokeWidth=\"3.5\" strokeLinecap=\"round\"/>\n          <text x=\"4\" y=\"15\" fontSize=\"10\" fill=\"currentColor\">資產</text>\n          <text x=\"115\" y=\"113\" fontSize=\"10\" fill=\"currentColor\">年齡</text>\n        </svg>\n        <text size=\"sm\">資產一路增加，沒有下降。</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box border radius=\"lg\" padding={2} gap={2}>\n        <row align=\"center\" justify=\"between\">\n          **D｜正解**\n          <icon name=\"check-circle\" color=\"success\"/>\n        </row>\n        <svg viewBox=\"0 0 160 120\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M24 10 V96 H150\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.8\"/>\n          <path d=\"M30 82 Q75 4 97 28 T138 84\" fill=\"none\" stroke=\"#D97757\" strokeWidth=\"3.5\" strokeLinecap=\"round\"/>\n          <text x=\"4\" y=\"15\" fontSize=\"10\" fill=\"currentColor\">資產</text>\n          <text x=\"115\" y=\"113\" fontSize=\"10\" fill=\"currentColor\">年齡</text>\n        </svg>\n        <text size=\"sm\">資產先增加，之後因散財而下降。</text>\n      </box>\n    </grid-item>\n  </grid>\n</box>\n\n**題目決勝句：「乃盡散於親舊」。**\n\n這句表示馬援把累積的財產分送給親友，所以他的財產不會一直增加。\n\nA 只符合前半段「累積財產」；D 才能同時呈現「累積」與「散財」兩個階段。\n\n## 三、把文言文轉換成圖表\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">馬援的資產變化時間線</text>\n  <row align=\"center\" justify=\"between\" gap={1}>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"sprout\" color=\"secondary\" size=\"lg\"/>\n      **起初**\n      <text color=\"secondary\" size=\"xs\" textAlign=\"center\">經營畜牧</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"tertiary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"coins\" color=\"secondary\" size=\"lg\"/>\n      **後來**\n      <text color=\"secondary\" size=\"xs\" textAlign=\"center\">累積大量財產</text>\n    </box>\n    <icon name=\"arrow-right\" color=\"tertiary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"hand-heart\" color=\"secondary\" size=\"lg\"/>\n      **最後**\n      <text color=\"secondary\" size=\"xs\" textAlign=\"center\">散財救濟親友</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\" textAlign=\"center\">資產上升 → 達到高點 → 資產下降</text>\n</box>\n\n## 四、其他選項排除\n\n| 選項 | 曲線變化 | 是否符合 |\n|---|---|---|\n| A | 持續上升 | ❌ 忽略最後散財 |\n| B | 持續下降 | ❌ 忽略先累積大量財產 |\n| C | 先下降再上升 | ❌ 與故事順序相反 |\n| D | 先上升再下降 | ✅ 符合全文時間順序 |\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  某人先努力存錢，累積到一筆巨額財富，晚年再把大部分財產捐給慈善機構。\n\n  他的資產曲線最可能是哪一種？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 不斷上升</radio>\n    <radio value=\"B\">B. 先下降再上升</radio>\n    <radio value=\"C\">C. 先上升再下降</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"C\"?\"check-circle\":\"info\"} color={choice===\"C\"?\"success\":\"secondary\"}/>\n        **{choice===\"C\"?\"答對了！\":\"再注意最後發生了什麼事。\" }**\n      </row>\n      正解 C。先累積財富，資產增加；後來捐出大部分財產，資產下降。\n    </box>\n  {/if}\n</box>\n\n## 六、錯題診斷與品質複核\n\n**可能誤判原因：** 看到「後有畜數千頭，穀數萬斛」，就選擇資產持續上升的 A，忽略文章後段的轉折。\n\n這只是依誤選選項推測，不能認定孩子的實際思考過程。\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原題與四個圖形 | 已依照片比對 |\n| 正確答案 | D |\n| 文言文證據 | 「後有畜數千頭」及「乃盡散於親舊」 |\n| 圖表一致性 | 先升後降，與 D 相符 |\n| 教材查核 | 尚未使用教材搜尋外掛 |\n\n**本題必記：圖表判讀題不能只看故事前半段，要把整段文字中的「起初、後來、最後」全部轉成變化曲線。**\n\nMESSAGE 32 | user | 1794233551.5191178\n[attachment sediment://file_00000000b70082069870ae77b0a2f65f?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n[attachment sediment://file_0000000060088206b536d85f980086a9?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n36@錯題B → C\n\nMESSAGE 34 | assistant | 1794233561.730844\n\n\nMESSAGE 35 | assistant | 1794233561.756372\n# 第 36 題｜國文錯題解析\n\n<badge color=\"success\">正確答案 C</badge>　誤選 B → 正解 C\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜雙文本比較・共同觀點判斷</text>\n\n## 一、原題確認\n\n**題目：** 根據甲、乙二文，下列何者最符合這兩篇文章對特殊動物咖啡廳的共同看法？\n\n| 選項 | 內容 |\n|---|---|\n| A | 特殊動物咖啡廳中皆有專業人士會盡責照顧所繁養的動物 |\n| B（誤選） | 消費者對特殊動物咖啡廳的興趣來自於對動物的好奇心 |\n| C（正解） | 特殊動物咖啡廳在提供動物觀賞時，可能會忽略動物的福利 |\n| D | 特殊動物咖啡廳中的動物皆進行社會化訓練，讓牠們可以適應這個世界 |\n\n## 二、二選一決勝：B 為什麼錯？C 為什麼對？\n\n本題最重要的不是選出「看起來合理」的敘述，而是找出**甲、乙兩篇文章都有支持的觀點**。\n\n<box gap={3}>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **B｜消費者因為好奇而造訪**\n      <icon name=\"x-circle\" color=\"danger\" size=\"lg\"/>\n    </row>\n    <AsyncImage query=\"cute colorful editorial illustration curious visitors observing an otter in an exotic animal cafe through a glass partition no text\" aspectRatio=\"16:9\" maxHeight={170}/>\n    甲文確實提到人們對親近動物的渴望，但**乙文並未明確指出消費者的興趣來自好奇心**。\n\n    <text color=\"secondary\" size=\"sm\">因此 B 無法構成兩文共同觀點。</text>\n  </box>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **C｜動物觀賞可能忽略動物福利**\n      <icon name=\"check-circle\" color=\"success\" size=\"lg\"/>\n    </row>\n    <AsyncImage query=\"thoughtful educational cartoon illustration small otter in cramped exotic animal cafe environment with too many visitors reaching toward it otter looking stressed colorful expressive no text\" aspectRatio=\"16:9\" maxHeight={170}/>\n    **甲文證據：**\n\n    > 「提供便利的休憩場所，卻可能讓動物承受高強度互動與環境不適的壓力，影響其生存品質。」\n\n    **乙文證據：**\n\n    > 「有客人和離職員工爆料某咖啡店老闆拿球拍毆打和指使牧羊犬去驅趕及咬浣熊等惡行……」\n\n    <text color=\"secondary\" size=\"sm\">兩篇都指出特殊動物咖啡廳可能犧牲動物福利，因此 C 正確。</text>\n  </box>\n</box>\n\n## 三、雙文本共同觀點比較\n\n| 判斷重點 | 甲文 | 乙文 |\n|---|---|---|\n| 人類想接近特殊動物 | 有提到 | 描述咖啡廳現象 |\n| 動物可能受到傷害 | 有，互動與環境壓力 | 有，虐待浣熊事件 |\n| 動物福利可能被忽略 | **有** | **有** |\n| 消費者出於好奇心 | 未明確歸因於好奇心 | 未明確說明 |\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\" textAlign=\"center\">共同觀點＝兩篇文章都能找到證據</text>\n  <svg viewBox=\"0 0 320 135\" width=\"100%\">\n    <circle cx=\"124\" cy=\"65\" r=\"57\" fill=\"#4E9BB4\" fillOpacity=\".20\" stroke=\"#4E9BB4\" strokeWidth=\"1.5\"/>\n    <circle cx=\"196\" cy=\"65\" r=\"57\" fill=\"#D69A50\" fillOpacity=\".20\" stroke=\"#D69A50\" strokeWidth=\"1.5\"/>\n    <text x=\"91\" y=\"43\" fontSize=\"13\" fill=\"currentColor\" fontWeight=\"600\">甲文</text>\n    <text x=\"198\" y=\"43\" fontSize=\"13\" fill=\"currentColor\" fontWeight=\"600\">乙文</text>\n    <text x=\"64\" y=\"68\" fontSize=\"10\" fill=\"currentColor\">互動壓力</text>\n    <text x=\"210\" y=\"68\" fontSize=\"10\" fill=\"currentColor\">虐待事件</text>\n    <text x=\"160\" y=\"62\" fontSize=\"10\" textAnchor=\"middle\" fill=\"currentColor\" fontWeight=\"600\">動物</text>\n    <text x=\"160\" y=\"75\" fontSize=\"10\" textAnchor=\"middle\" fill=\"currentColor\" fontWeight=\"600\">福利</text>\n    <text x=\"160\" y=\"126\" fontSize=\"11\" textAnchor=\"middle\" fill=\"currentColor\">交集就是 C 的核心概念</text>\n  </svg>\n</box>\n\n## 四、其餘選項排除\n\n**A｜錯在「皆有專業人士盡責照顧」。** 甲文指出動物可能承受壓力，乙文甚至出現虐待案例，無法支持所有咖啡廳都有盡責照顧者。\n\n**D｜錯在「皆進行社會化訓練」。** 兩文沒有證據顯示所有動物都經過社會化訓練，而且 D 的「皆」屬於過度肯定的說法。\n\n## 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  甲文指出：「觀光活動可能使野生動物承受壓力。」\n\n  乙文指出：「部分動物表演場所因不當飼養而受到批評。」\n\n  兩文最可能具有什麼共同觀點？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 遊客都因為好奇而參觀動物</radio>\n    <radio value=\"B\">B. 人類娛樂活動可能影響動物福利</radio>\n    <radio value=\"C\">C. 所有動物表演場所都應立即關閉</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"B\"?\"check-circle\":\"info\"} color={choice===\"B\"?\"success\":\"secondary\"}/>\n        **{choice===\"B\"?\"答對了！\":\"請檢查兩篇是否都能證明你的選項。\" }**\n      </row>\n      正確答案 B。兩篇都提供動物福利可能受損的證據；其他選項則加入未被充分支持的原因或絕對化主張。\n    </box>\n  {/if}\n</box>\n\n## 六、錯因診斷與品質複核\n\n本題可能的誤判是：把「合理的生活常識」當成「兩篇文章共同提出的觀點」。\n\nB 的說法看似合理，但**合理不等於有文本證據**。\n\n| 檢核項目 | 結果 |\n|---|---|\n| 原文及選項 | 已依兩張照片核對 |\n| 正確答案 | C |\n| 甲文關鍵證據 | 高強度互動、環境不適、生存品質 |\n| 乙文關鍵證據 | 虐待浣熊、負面事件 |\n| 教材外掛 | 尚未查詢 |\n| P0 問題 | 未發現 |\n\n**本題記憶重點：雙文本題必須同時找到甲文與乙文的支持證據；只有一篇符合，或只是生活常識，都不能當成共同觀點。**\n\nMESSAGE 36 | user | 1794233713.821373\n[attachment sediment://file_000000002378820693d584af01f7e259?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n4@錯題D → B\n\nMESSAGE 38 | assistant | 1794233717.52333\n\n\nMESSAGE 39 | assistant | 1794233717.527585\n# 第 4 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 B｜僅乙</badge>　誤選 D → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜化學反應・質量守恆・密閉系統</text>\n\n## 一、原題證據確認\n\n**題目：**\n\n下列甲、乙兩種反應中，若不考慮水的蒸發，則何者反應進行時的環境即使不為「密閉」，也能觀察到「反應前、後質量沒有改變」的現象？\n\n- **甲：** 鋼絲絨在空氣中燃燒。\n- **乙：** 碳酸鈉水溶液與氯化鈣水溶液反應。\n\n| 選項 | 內容 |\n|---|---|\n| A | 僅甲 |\n| B | 僅乙 |\n| C | 甲、乙均可觀察到 |\n| D（誤選） | 甲、乙均無法觀察到 |\n\n## 二、二選一決勝：D 為什麼錯？B 為什麼對？\n\n關鍵不是「化學反應一定要密閉」，而是：\n\n**開放容器中，有沒有物質從外界進入，或從容器逸出？**\n\n<box gap={3}>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    **甲｜鋼絲絨在空氣中燃燒**\n\n    <svg viewBox=\"0 0 340 158\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect x=\"93\" y=\"96\" width=\"153\" height=\"28\" rx=\"8\" fill=\"#B9CED7\" fillOpacity=\".45\" stroke=\"#64748b\" strokeWidth=\"2\"/>\n      <path d=\"M105 88 Q137 110 161 85 Q188 108 230 88 M111 96 L145 81 L177 101 L214 81 L237 99\" fill=\"none\" stroke=\"#8A776D\" strokeWidth=\"4\" strokeLinecap=\"round\"/>\n      {#each [113,153,197,228] as x,i}\n        <path key={i} d={`M${x} 84 Q${x-13} 64 ${x} 49 Q${x+15} 68 ${x} 84`} fill=\"#F4A340\" stroke=\"#D97706\" strokeWidth=\"1.3\"/>\n      {/each}\n      {#each [50,170,297] as x,i}\n        <g key={i}>\n          <circle cx={x} cy=\"29\" r=\"8\" fill=\"#7BA9CE\"/>\n          <circle cx={x+15} cy=\"29\" r=\"8\" fill=\"#7BA9CE\"/>\n          <path d={`M${x+7} 43 L${x+7} 70`} stroke=\"#3986BC\" strokeWidth=\"2.5\" strokeDasharray=\"4 4\"/>\n          <path d={`M${x+2} 63 L${x+7} 72 L${x+12} 63`} fill=\"none\" stroke=\"#3986BC\" strokeWidth=\"2.5\"/>\n        </g>\n      {/each}\n      <text x=\"170\" y=\"145\" fontSize=\"12\" textAnchor=\"middle\" fill=\"currentColor\">空氣中的氧氣進入並參與反應</text>\n    </svg>\n    鋼絲絨中的鐵與空氣中的氧氣結合，生成氧化鐵。\n\n    **鐵＋氧氣 → 氧化鐵**\n\n    若只測量鋼絲絨及其燃燒產物的質量，因為加入了空氣中的氧，燃燒後質量會增加。\n\n    <text color=\"secondary\" size=\"sm\">所以甲不符合題目所說的前後質量不變。</text>\n  </box>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **乙｜碳酸鈉與氯化鈣水溶液反應**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </row>\n    <svg viewBox=\"0 0 340 170\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <g stroke=\"#64748b\" strokeWidth=\"2\" fill=\"none\">\n        <path d=\"M45 38 V113 Q45 125 58 125 H116 Q129 125 129 113 V38\"/>\n        <path d=\"M208 38 V113 Q208 125 221 125 H279 Q292 125 292 113 V38\"/>\n      </g>\n      <path d=\"M47 81 H127 V112 Q127 123 115 123 H59 Q47 123 47 112 Z\" fill=\"#82C4DC\" fillOpacity=\".45\"/>\n      <path d=\"M210 81 H290 V112 Q290 123 278 123 H222 Q210 123 210 112 Z\" fill=\"#82C4DC\" fillOpacity=\".45\"/>\n      {#each [225,242,258,274,232,264] as x,i}\n        <circle key={i} cx={x} cy={99+(i%3)*5} r=\"3.5\" fill=\"#E9E4D5\" stroke=\"#A4A09A\" strokeWidth=\".5\"/>\n      {/each}\n      <path d=\"M149 88 H188 M181 82 L188 88 L181 94\" stroke=\"#64748b\" strokeWidth=\"2\" fill=\"none\" strokeLinecap=\"round\"/>\n      <text x=\"87\" y=\"24\" fontSize=\"12\" fill=\"currentColor\" textAnchor=\"middle\">兩種水溶液</text>\n      <text x=\"250\" y=\"24\" fontSize=\"12\" fill=\"currentColor\" textAnchor=\"middle\">產生白色沉澱</text>\n      <text x=\"87\" y=\"150\" fontSize=\"11\" fill=\"currentColor\" textAnchor=\"middle\">反應前</text>\n      <text x=\"250\" y=\"150\" fontSize=\"11\" fill=\"currentColor\" textAnchor=\"middle\">反應後</text>\n    </svg>\n    反應式：\n\n    \\[\\mathrm{Na_2CO_3+CaCl_2\\rightarrow CaCO_3\\downarrow+2NaCl}\\]\n\n    生成的碳酸鈣是**白色沉澱**，會留在容器中，並沒有氣體逸散。\n\n    題目又排除了水分蒸發，因此容器內的總質量保持不變。\n\n    <text color=\"secondary\" size=\"sm\">所以乙即使在開放容器中，也能觀察到反應前後總質量相等。</text>\n  </box>\n</box>\n\n## 三、甲、乙比較表\n\n| 比較重點 | 甲：燃燒鋼絲絨 | 乙：沉澱反應 |\n|---|---|---|\n| 是否與外界交換反應物 | 氧氣進入 | 不需要 |\n| 是否產生氣體逸出 | 無需產生氣體 | 沒有 |\n| 開放容器內測得質量 | 增加 | 不變 |\n| 符合題目 | 否 | **是** |\n\n注意：**質量守恆定律在甲、乙都成立。** 甲的質量看似增加，是因為氧氣來自容器外。把參與反應的氧氣也計入，反應前後總質量仍然相等。\n\n## 四、考場快速判斷\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">看到「開放容器＋質量守恆」先問：</text>\n  {@body const [gas,setGas] = DIL.useState(\"in\")}\n  <radio-group direction=\"col\" value={gas} onChange={setGas}>\n    <radio value=\"in\">有外界物質進入，例如氧氣參與燃燒</radio>\n    <radio value=\"out\">有氣體從容器逸出，例如產生二氧化碳</radio>\n    <radio value=\"none\">沒有物質進出，例如單純生成沉澱</radio>\n  </radio-group>\n  <box background=\"surface\" radius=\"md\" padding={3}>\n    {#if gas===\"in\"}\n      容器內測得的質量可能**增加**。例如甲的鋼絲絨燃燒。\n    {:else if gas===\"out\"}\n      容器內測得的質量可能**減少**。例如碳酸鹽與酸反應，產生二氧化碳逸出。\n    {:else}\n      在沒有蒸發、濺出等損失的條件下，容器內測得的總質量**不變**。例如乙的沉澱反應。\n    {/if}\n  </box>\n</box>\n\n## 五、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  在開放的燒杯中，將稀鹽酸加入碳酸鈣，產生大量二氧化碳氣泡。若不考慮其他物質散失，燒杯及內容物的總質量會如何變化？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 增加</radio>\n    <radio value=\"B\">B. 減少</radio>\n    <radio value=\"C\">C. 不變</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" padding={3} radius=\"md\" gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再想想二氧化碳跑到哪裡去了。\" }**\n      </row>\n      正確答案 B。二氧化碳逸出開放容器，使燒杯及剩餘內容物的總質量減少；若把逸出的氣體也計入，整體質量仍守恆。\n    </box>\n  {/if}\n</box>\n\n## 六、錯因與品質檢核\n\n**可能的誤判：** 認為「只要容器沒有密閉，就無法測得反應前後質量相等」，因此選 D。\n\n真正要區分的是「反應發生在哪種容器」與「反應時有沒有物質進出測量範圍」。\n\n| 檢核項目 | 結果 |\n|---|---|\n| P0 原題與答案 | B，經化學反應原理複核 |\n| P1 關鍵條件 | 已保留「不考慮水蒸發」 |\n| P1 測量範圍 | 已區分容器內質量與整體反應總質量 |\n| 圖文一致性 | 甲氧氣進入、乙沉澱留在容器內 |\n| 教材查核 | 未使用教材搜尋外掛 |\n\n**本題必記：質量守恆永遠成立，但開放容器中測得的質量不一定不變。關鍵在於有沒有物質進出。**\n\nMESSAGE 40 | user | 1794233824.241374\n[attachment sediment://file_000000004c708206ad49a8d6b8ba4e3c?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n21@錯題A → B\n\nMESSAGE 42 | assistant | 1794233828.286645\n\n\nMESSAGE 43 | assistant | 1794233828.291361\n## 第 21 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 B</badge>　誤選 A → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜化學平衡・勒沙特列原理・顏色判斷</text>\n\n### 一、原題證據確認\n\n題目給定的可逆反應：\n\n\\[\n\\underbrace{3I_2}_{\\text{紅褐色}}+6OH^-\n\\ \\rightleftharpoons\\\n\\underbrace{5I^-+IO_3^-+3H_2O}_{\\text{無色}}\n\\]\n\n正反應向右，逆反應向左。\n\n**題目：** 若在碘水溶液中加入少量 X 物質後，發現水溶液顏色變淡，則下列敘述何者正確？\n\n| 選項 | 反應方向 | X 的可能性 |\n|---|---|---|\n| A（誤選） | 正反應 | 酸性物質 |\n| B（正解） | 正反應 | 鹼性物質 |\n| C | 逆反應 | 酸性物質 |\n| D | 逆反應 | 鹼性物質 |\n\n### 二、二選一決勝：A 為什麼錯？B 為什麼對？\n\nA、B 都認為平衡向正反應移動，因此這題真正要比較的是：**加入酸性物質，還是鹼性物質？**\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <text weight=\"medium\">反應顏色與方向示意</text>\n  <grid columns={2} gap={2}>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n        <svg viewBox=\"0 0 120 116\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M32 12 L32 24 L20 91 Q20 103 35 103 H85 Q100 103 100 91 L88 24 L88 12\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2.5\" strokeLinecap=\"round\"/>\n          <path d=\"M25 70 H95 L99 91 Q99 102 85 102 H35 Q21 102 21 91 Z\" fill=\"#A84A22\" fillOpacity=\".8\"/>\n          <path d=\"M32 12 H88\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n        </svg>\n        **左側：紅褐色**\n        <text color=\"secondary\" size=\"xs\">碘 I₂ 較多</text>\n      </box>\n    </grid-item>\n    <grid-item>\n      <box background=\"surface-secondary\" radius=\"lg\" padding={3} align=\"center\" gap={2}>\n        <svg viewBox=\"0 0 120 116\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M32 12 L32 24 L20 91 Q20 103 35 103 H85 Q100 103 100 91 L88 24 L88 12\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2.5\" strokeLinecap=\"round\"/>\n          <path d=\"M25 70 H95 L99 91 Q99 102 85 102 H35 Q21 102 21 91 Z\" fill=\"#D9E8F1\" fillOpacity=\".65\"/>\n          <path d=\"M32 12 H88\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n        </svg>\n        **右側：無色**\n        <text color=\"secondary\" size=\"xs\">I⁻、IO₃⁻ 較多</text>\n      </box>\n    </grid-item>\n  </grid>\n  <row align=\"center\" justify=\"center\" gap={2}>\n    <icon name=\"arrow-right\" color=\"success\"/>\n    **顏色變淡＝碘減少＝正反應增加**\n  </row>\n  <divider color=\"subtle\"/>\n  <text weight=\"medium\">要促進正反應，應增加哪一種物質？</text>\n  觀察反應式左側有 \\(OH^-\\)，它是反應物。加入鹼性物質會增加 \\(OH^-\\)，促使反應向右進行，消耗紅褐色的碘。\n</box>\n\n所以：\n\n- **A 錯：** 加酸會消耗 \\(OH^-\\)，不利正反應。\n- **B 對：** 加鹼增加 \\(OH^-\\)，促進正反應，讓碘水顏色變淡。\n\n### 三、把解題過程拆成三步\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <list marker=\"number\" connector=\"solid\" gap={3}>\n    <list-item>\n      **先看顏色**\n\n      紅褐色變淡 → 紅褐色的 \\(I_2\\) 減少。\n    </list-item>\n    <list-item>\n      **再看反應方向**\n\n      \\(I_2\\) 在反應式左側，減少表示正反應（向右）進行較多。\n    </list-item>\n    <list-item>\n      **最後判斷 X**\n\n      \\(OH^-\\) 是左側反應物，加入鹼使其增加，促進正反應。\n\n      因此選 **B**。\n    </list-item>\n  </list>\n</box>\n\n### 四、四個選項完整比較\n\n| 選項 | 加入 X 後的傾向 | 與顏色變淡是否符合 |\n|---|---|---|\n| A 酸性、正反應 | 酸會消耗 OH⁻，傾向左移 | 不符 |\n| B 鹼性、正反應 | OH⁻ 增加，傾向右移 | **符合** |\n| C 酸性、逆反應 | 傾向左移，碘增加 | 不符 |\n| D 鹼性、逆反應 | 鹼使反應傾向右移 | 不符 |\n\n這裡的方向判斷是依照題目給定的反應模型與平衡原理，不代表所有化學反應加入鹼都會向右。\n\n### 五、立即檢驗\n\n{@body const [answer,setAnswer] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  假設反應如下：\n\n  \\[\\text{紅色 A}+OH^-\\rightleftharpoons\\text{無色 B}\\]\n\n  想讓溶液的紅色變淡，應該怎麼做？\n\n  <radio-group direction=\"col\" value={answer} onChange={setAnswer}>\n    <radio value=\"A\">A. 加入酸，使 OH⁻ 減少</radio>\n    <radio value=\"B\">B. 加入鹼，使 OH⁻ 增加</radio>\n    <radio value=\"C\">C. 使反應向左進行</radio>\n  </radio-group>\n  {#if answer}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={answer===\"B\"?\"check-circle\":\"info\"} color={answer===\"B\"?\"success\":\"secondary\"}/>\n        **{answer===\"B\"?\"答對了！\":\"再想想要如何消耗紅色 A。\" }**\n      </row>\n      正解 B。增加 OH⁻ 使反應向右，消耗紅色 A，溶液便會變淡。\n    </box>\n  {/if}\n</box>\n\n### 六、錯因診斷與品質檢核\n\n**可能的誤判點：** 已經正確找出「正反應」，卻沒有進一步判斷 \\(OH^-\\) 是反應物，以及酸、鹼對 \\(OH^-\\) 的不同影響。因此在最後 A、B 二選一時誤選 A。\n\n但這只是從作答 A 推測的可能原因，不能直接視為孩子的實際思路。\n\n| 檢核 | 結果 |\n|---|---|\n| P0 原題與選項 | 依照片核對 |\n| P0 正確答案 | B，獨立依反應式確認 |\n| P1 顏色方向 | 紅褐色變淡 → 碘減少 → 向右 |\n| P1 酸鹼方向 | 加鹼提高 OH⁻，促進正反應 |\n| 教材查核 | 尚未使用教材搜尋外掛 |\n\n**考場記憶口訣：先看顏色判方向，再看反應物決定加什麼。**\n\n這題的重點不是死背「鹼使碘褪色」，而是學會從反應式找出顏色、反應方向與酸鹼條件的關係。\n\nMESSAGE 44 | user | 1794233890.1603189\n[attachment sediment://file_0000000093488206a07e92e954266548?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n22@錯題A → C\n\nMESSAGE 46 | assistant | 1794233893.220197\n\n\nMESSAGE 47 | assistant | 1794233893.2251\n## 第 22 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 C｜Ss × ss</badge>　誤選 A → 正解 C\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜生物・孟德爾遺傳・基因型判斷</text>\n\n### 一、原題證據確認\n\n題目：\n\n> 有一對豚鼠交配後產下 10 隻子代，其中 8 隻為短毛、2 隻為長毛，且無突變情形發生。已知短毛為顯性特徵，若以 S 代表顯性遺傳因子、s 代表隱性遺傳因子，則下列何者最可能為親代的基因型組合？\n\n| 選項 | 親代基因型 |\n|---|---|\n| A（誤選） | SS × ss |\n| B | SS × Ss |\n| C（正解） | Ss × ss |\n| D | ss × ss |\n\n**先抓住題幹最重要的條件：子代出現 2 隻長毛（ss）。**\n\n### 二、二選一決勝：A 與 C\n\n<box gap={3}>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **A｜SS × ss**\n      <icon name=\"x-circle\" color=\"danger\"/>\n    </row>\n    <text color=\"secondary\" size=\"sm\">左側親代只能提供 S，右側親代只能提供 s。</text>\n    <grid columns={3} gap=\"3px\">\n      {#each [\"\",\"S\",\"S\",\"s\",\"Ss\",\"Ss\",\"s\",\"Ss\",\"Ss\"] as cell,i}\n        <grid-item key={i}>\n          <box background={i===0?\"surface-secondary\":i<3||i%3===0?\"rgba(100,116,139,0.12)\":\"rgba(22,163,74,0.09)\"} radius=\"sm\" padding={2} align=\"center\">\n            <text weight=\"medium\" size=\"sm\">{cell||\"×\"}</text>\n          </box>\n        </grid-item>\n      {/each}\n    </grid>\n    <text weight=\"medium\" textAlign=\"center\">100% Ss，全部短毛</text>\n    **問題：** 無法產生任何長毛的 ss 子代，因此 A 必須排除。\n  </box>\n  <box border radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      **C｜Ss × ss**\n      <icon name=\"check-circle\" color=\"success\"/>\n    </row>\n    <text color=\"secondary\" size=\"sm\">左側親代可提供 S 或 s，右側親代只能提供 s。</text>\n    <grid columns={3} gap=\"3px\">\n      {#each [\"\",\"S\",\"s\",\"s\",\"Ss\",\"ss\",\"s\",\"Ss\",\"ss\"] as cell,i}\n        <grid-item key={i}>\n          <box background={i===0?\"surface-secondary\":i<3||i%3===0?\"rgba(100,116,139,0.12)\":cell===\"Ss\"?\"rgba(22,163,74,0.09)\":\"rgba(245,158,11,0.13)\"} radius=\"sm\" padding={2} align=\"center\">\n            <text weight=\"medium\" size=\"sm\">{cell||\"×\"}</text>\n          </box>\n        </grid-item>\n      {/each}\n    </grid>\n    <row justify=\"around\">\n      <text size=\"sm\" weight=\"medium\" color=\"success\">50% Ss 短毛</text>\n      <text size=\"sm\" weight=\"medium\">50% ss 長毛</text>\n    </row>\n    **關鍵：** C 能同時產生短毛和長毛，符合題目實際觀察到的兩種表現型。\n  </box>\n</box>\n\n### 三、為什麼是 8 隻短毛、2 隻長毛，卻不選 3：1？\n\n這是本題最值得釐清的地方。\n\n雖然觀察結果為 8：2，也就是 4：1，但題目只有 **10 隻子代**，不應把實際數量當作精確的理論比例。\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  **理論機率與實際觀察不同**\n\n  <text color=\"secondary\" size=\"xs\">C 選項 Ss × ss 的理論比例</text>\n  <box height=\"22px\" direction=\"row\" radius=\"sm\" clip>\n    <box background=\"#399A70\" flex=\"1\"/>\n    <box background=\"#DBA04D\" flex=\"1\"/>\n  </box>\n  <row justify=\"between\">\n    <text color=\"secondary\" size=\"xs\">50% 短毛</text>\n    <text color=\"secondary\" size=\"xs\">50% 長毛</text>\n  </row>\n  <text color=\"secondary\" size=\"xs\">題目實際觀察</text>\n  <box height=\"22px\" direction=\"row\" radius=\"sm\" clip>\n    <box background=\"#399A70\" flex=\"4\"/>\n    <box background=\"#DBA04D\" flex=\"1\"/>\n  </box>\n  <row justify=\"between\">\n    <text color=\"secondary\" size=\"xs\">80% 短毛（8 隻）</text>\n    <text color=\"secondary\" size=\"xs\">20% 長毛（2 隻）</text>\n  </row>\n  <text size=\"sm\">生殖與遺傳具有隨機性，小樣本不一定恰好符合預測比例。C 雖然預測 1：1，仍有可能出現 8：2。</text>\n</box>\n\n另外，**Ss × Ss** 的理論表現型比例才是 3：1，但它並不在本題選項中，不能自行增加選項。\n\n### 四、四個選項全部驗證\n\n| 選項 | 短毛機率 | 長毛機率 | 是否可能出現 8 短、2 長 |\n|---|---:|---:|---|\n| A：SS × ss | 100% | 0% | 不可能 |\n| B：SS × Ss | 100% | 0% | 不可能 |\n| C：Ss × ss | 50% | 50% | **可能** |\n| D：ss × ss | 0% | 100% | 不可能 |\n\n因為題目明確表示沒有突變，所以只剩 C 能符合兩種毛長同時出現的觀察結果。\n\n### 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  假設黑毛 B 為顯性、白毛 b 為隱性。一對親代生下 6 隻黑毛、1 隻白毛的小鼠。\n\n  以下哪一組親代**有可能**生出白毛小鼠？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. BB × bb</radio>\n    <radio value=\"B\">B. BB × Bb</radio>\n    <radio value=\"C\">C. Bb × Bb</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"C\"?\"check-circle\":\"info\"} color={choice===\"C\"?\"success\":\"secondary\"}/>\n        **{choice===\"C\"?\"答對了！\":\"再確認哪一組的雙親都能提供 b。\" }**\n      </row>\n      答案 C。白毛必須是 bb，因此雙親都要能提供 b。Bb × Bb 可以產生 bb。\n    </box>\n  {/if}\n</box>\n\n### 六、錯因診斷與品質複核\n\n**可能的誤判：** 將「一方純顯性 SS，一方純隱性 ss」理解成會產生兩種毛長，因而選 A。但實際上 SS × ss 的子代全部是 Ss，都呈現短毛。\n\n| 檢核項目 | 結果 |\n|---|---|\n| P0 原題及選項 | 已依照片核對 |\n| P0 正確答案 | C，經基因型組合獨立驗算 |\n| P1 理論比例與實測 | 已區分 1：1 理論機率與 8：2 實測數量 |\n| P1 圖文一致性 | 兩組棋盤格與子代表現型吻合 |\n| 教材證據 | 尚未查詢教材外掛 |\n\n**本題考場必記：只要子代出現隱性性狀 ss，就代表雙親都必須能提供 s。**\n\n遇到這類題目，先檢查「是否可能產生隱性子代」，再考慮比例，會比直接拿觀察數量去套 3：1 或 1：1 更可靠。\n\nMESSAGE 48 | user | 1794233948.393224\n[attachment sediment://file_00000000cd388206b8500fa0f908d9d7?shared_conversation_id=6af1d6de-09f8-83ee-bb43-0897e3964704]\n23@錯題D → B\n\nMESSAGE 50 | assistant | 1794233953.450445\n\n\nMESSAGE 51 | assistant | 1794233953.45491\n## 第 23 題｜自然科錯題解析\n\n<badge color=\"success\">正確答案 B</badge>　誤選 D → 正解 B\n\n<text color=\"secondary\" size=\"xs\">@錯題｜融合模式 v2.1｜自然・實驗數據・濃度與反應速率圖表</text>\n\n### 一、原題證據確認\n\n題目利用 35% 雙氧水與蒸餾水混合成不同濃度的雙氧水，進行氧氣製備實驗，並以收集完整一瓶氧氣所需的時間倒數表示反應速率。\n\n**要選出：反應速率與雙氧水濃度的正確關係圖。**\n\n原題表格：\n\n| 實驗 | 35% 雙氧水 | 蒸餾水 |\n|---|---:|---:|\n| I | 30 mL | 10 mL |\n| II | 20 mL | 20 mL |\n| III | 10 mL | 30 mL |\n\n四個選項的圖表排列：\n\n| 選項 | 濃度由左至右 | 反應速率趨勢 |\n|---|---|---|\n| A | I → II → III | 上升 |\n| B | III → II → I | 上升 |\n| C | I → II → III | 下降 |\n| D（誤選） | III → II → I | 下降 |\n\n### 二、二選一決勝：D 與 B 差在哪裡？\n\n**B、D 的橫軸排序都正確：III → II → I。**\n\n真正要判斷的是：雙氧水濃度越高，反應速率應該越快，還是越慢？\n\n<box border radius=\"xl\" padding={3} gap={3}>\n  <text weight=\"medium\">第一步：計算三組雙氧水濃度</text>\n\n  \\[\n  \\text{混合後濃度}=\\frac{35\\%\\times\\text{雙氧水體積}}{\\text{總體積}}\n  \\]\n\n  三組總體積都是 40 mL。\n\n  | 實驗 | 計算 | 混合後濃度 |\n  |---|---|---:|\n  | I | 35% × 30 ÷ 40 | **26.25%** |\n  | II | 35% × 20 ÷ 40 | **17.50%** |\n  | III | 35% × 10 ÷ 40 | **8.75%** |\n\n  <text weight=\"medium\">第二步：確定濃度排序</text>\n\n  <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n    <row align=\"center\" justify=\"between\">\n      <box align=\"center\" flex=\"1\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">III</text>\n        **8.75%**\n      </box>\n      <icon name=\"arrow-right\" color=\"secondary\"/>\n      <box align=\"center\" flex=\"1\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">II</text>\n        **17.50%**\n      </box>\n      <icon name=\"arrow-right\" color=\"secondary\"/>\n      <box align=\"center\" flex=\"1\" gap={1}>\n        <text color=\"secondary\" size=\"xs\">I</text>\n        **26.25%**\n      </box>\n    </row>\n    <box height=\"12px\" direction=\"row\" radius=\"full\" clip>\n      <box flex=\"1\" background=\"#A9D9F4\"/>\n      <box flex=\"1\" background=\"#55ACE4\"/>\n      <box flex=\"1\" background=\"#1778BD\"/>\n    </box>\n    <text size=\"xs\" color=\"secondary\" textAlign=\"center\">濃度由低到高</text>\n  </box>\n\n  <text weight=\"medium\">第三步：判斷反應速率</text>\n\n  在其他條件相同時，雙氧水濃度越高，分解反應通常越快，收集一瓶氧氣所需的時間越短。\n\n  \\[\n  \\text{反應速率}=\\frac{1}{\\text{收集時間}}\n  \\]\n\n  所以濃度越高，時間越短，**時間的倒數越大，反應速率越快**。\n</box>\n\n### 三、B、D 圖形直接比較\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box border radius=\"lg\" padding={2} gap={2}>\n      <row justify=\"between\" align=\"center\">\n        **D｜誤選**\n        <icon name=\"x-circle\" color=\"danger\"/>\n      </row>\n      <svg viewBox=\"0 0 175 150\" width=\"100%\">\n        <path d=\"M32 16 V119 H166\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.6\"/>\n        <path d=\"M28 23 L32 16 L36 23 M159 115 L166 119 L159 123\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.4\"/>\n        <path d=\"M50 44 L92 71 L138 99\" stroke=\"#D97757\" strokeWidth=\"2.5\" strokeDasharray=\"5 4\" fill=\"none\"/>\n        {#each [[50,44,\"III\"],[92,71,\"II\"],[138,99,\"I\"]] as p,i}\n          <g key={i}>\n            <circle cx={p[0]} cy={p[1]} r=\"4.5\" fill=\"#D97757\"/>\n            <text x={p[0]+5} y={p[1]-10} fontSize=\"11\" fill=\"currentColor\">{p[2]}</text>\n          </g>\n        {/each}\n        <text x=\"36\" y=\"11\" fontSize=\"10\" fill=\"currentColor\">反應速率</text>\n        <text x=\"100\" y=\"140\" fontSize=\"10\" fill=\"currentColor\">濃度</text>\n      </svg>\n      <text size=\"sm\">濃度增加，反應速率卻下降，與預期相反。</text>\n    </box>\n  </grid-item>\n  <grid-item>\n    <box border radius=\"lg\" padding={2} gap={2}>\n      <row justify=\"between\" align=\"center\">\n        **B｜正解**\n        <icon name=\"check-circle\" color=\"success\"/>\n      </row>\n      <svg viewBox=\"0 0 175 150\" width=\"100%\">\n        <path d=\"M32 16 V119 H166\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.6\"/>\n        <path d=\"M28 23 L32 16 L36 23 M159 115 L166 119 L159 123\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1.4\"/>\n        <path d=\"M50 99 L92 71 L138 44\" stroke=\"#23936B\" strokeWidth=\"2.5\" strokeDasharray=\"5 4\" fill=\"none\"/>\n        {#each [[50,99,\"III\"],[92,71,\"II\"],[138,44,\"I\"]] as p,i}\n          <g key={i}>\n            <circle cx={p[0]} cy={p[1]} r=\"4.5\" fill=\"#23936B\"/>\n            <text x={p[0]+5} y={p[1]-10} fontSize=\"11\" fill=\"currentColor\">{p[2]}</text>\n          </g>\n        {/each}\n        <text x=\"36\" y=\"11\" fontSize=\"10\" fill=\"currentColor\">反應速率</text>\n        <text x=\"100\" y=\"140\" fontSize=\"10\" fill=\"currentColor\">濃度</text>\n      </svg>\n      <text size=\"sm\">濃度增加，反應速率上升，符合預期。</text>\n    </box>\n  </grid-item>\n</grid>\n\n<text color=\"secondary\" size=\"xs\">上圖是依原題趨勢重繪的示意圖，沒有填入題目未提供的反應速率數值。</text>\n\n### 四、真正容易混淆的地方：時間與速率相反\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">同樣收集一瓶氧氣時</text>\n  <row align=\"center\" justify=\"between\">\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"flask-conical\" size=\"xl\" color=\"secondary\"/>\n      **濃度較高**\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"timer\" size=\"xl\" color=\"secondary\"/>\n      **時間較短**\n    </box>\n    <icon name=\"arrow-right\" color=\"secondary\"/>\n    <box flex=\"1\" align=\"center\" gap={1}>\n      <icon name=\"gauge\" size=\"xl\" color=\"success\"/>\n      **速率較快**\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  **最重要的關係：**\n\n  \\[\n  \\boxed{\\text{時間越短}\\ \\Rightarrow\\ \\frac{1}{\\text{時間}}\\text{越大}}\n  \\]\n\n  不能把「所需時間減少」誤認為「反應速率減少」。\n</box>\n\n### 五、立即檢驗\n\n{@body const [choice,setChoice] = DIL.useState(\"\")}\n<box border radius=\"xl\" padding={3} gap={3}>\n  三組實驗都收集相同體積的氧氣：\n\n  | 實驗 | 所需時間 |\n  |---|---:|\n  | 甲 | 20 秒 |\n  | 乙 | 10 秒 |\n  | 丙 | 5 秒 |\n\n  哪一組反應速率最快？\n\n  <radio-group direction=\"col\" value={choice} onChange={setChoice}>\n    <radio value=\"A\">A. 甲</radio>\n    <radio value=\"B\">B. 乙</radio>\n    <radio value=\"C\">C. 丙</radio>\n  </radio-group>\n  {#if choice}\n    <box background=\"surface-secondary\" radius=\"md\" padding={3} gap={1}>\n      <row align=\"center\" gap={2}>\n        <icon name={choice===\"C\"?\"check-circle\":\"info\"} color={choice===\"C\"?\"success\":\"secondary\"}/>\n        **{choice===\"C\"?\"答對了！\":\"注意反應速率是時間的倒數。\" }**\n      </row>\n      正解 C。丙只花 5 秒就收集完整一瓶氧氣，時間最短，反應速率最快。\n    </box>\n  {/if}\n</box>\n\n### 六、錯因診斷與品質複核\n\n本題 D → B 可能是把「濃度增加、反應所需時間減少」誤畫成「濃度增加、反應速率減少」，但目前沒有實際計算過程，因此只能列為可能錯因。\n\n| 檢核項目 | 結果 |\n|---|---|\n| P0 原題與四張圖 | 已依照片核對 |\n| P0 正確答案 | B，符合濃度與速率關係 |\n| P1 濃度計算 | 8.75%、17.50%、26.25% |\n| P1 時間與速率 | 已區分時間縮短與速率增加 |\n| P1 圖文一致性 | B 上升、D 下降，與照片一致 |\n| 教材證據 | 尚未查詢教材搜尋外掛 |\n\n**本題考場必記：濃度越高 → 反應越快 → 收集時間越短 → 時間倒數越大。**\n\n此題的二選一決勝技巧是：當兩張圖的橫軸順序都正確時，不必重新計算全部內容，只要確認縱軸畫的是「時間」還是「反應速率」，就能快速選出 B。\n\n---\n\n如果你願意，我可以：\n\n- 繼續解析黑板乘法的深層哲理\n- 出一題類似的數學比喻閱讀理解題\n- 說明錯選A與正確選項B的差異"
+    },
+    {
+      "id": "src-more-066",
+      "url": "https://chatgpt.com/share/6af323e8-1274-83ee-9f9a-7c355b64bdf3",
+      "status": "read",
+      "title": "錯題解析 皂化反應",
+      "platform": "ChatGPT",
+      "date": "2026-11-10",
+      "addedAt": "2026-11-10",
+      "note": "7張真正原卷完整取得；7次指定錯題核對後收入，跨來源未發現重複。原AI矛盾與轉錄訂正另列Monitor；不收入未提問同頁題或自編延伸。",
+      "transcript": "sources/6af323e8-1274-83ee-9f9a-7c355b64bdf3.txt",
+      "images": [
+        "assets/originals/chatgpt-6af323e8-1-17c030205c53.jpg",
+        "assets/originals/chatgpt-6af323e8-2-37f370bb9d08.jpg",
+        "assets/originals/chatgpt-6af323e8-3-3fd2a844a482.jpg",
+        "assets/originals/chatgpt-6af323e8-4-8f52b060d281.jpg",
+        "assets/originals/chatgpt-6af323e8-5-fd0e854d2d7e.jpg",
+        "assets/originals/chatgpt-6af323e8-6-2066c29be19a.jpg",
+        "assets/originals/chatgpt-6af323e8-7-7ec190471936.jpg"
+      ],
+      "content": "user\n[原始附件 sediment://file_00000000cf5c8206b2c63bf5a14e2be9?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n27@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第27題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：B</badge>　<text color=\"secondary\" inline>國中自然｜化學｜皂化反應</text>\n\n從照片可見，原先選擇 **D**，紅筆訂正為 **B**。\n\n## 一、原題判讀\n\n題目：「圖（七）為小葉進行皂化實驗的部分步驟，則關於圖中蒸發皿內的物質，下列敘述何者正確？」\n\n圖中加入：\n\n- 椰子油\n- 乙醇\n- 氫氧化鈉\n- 水\n\n操作為玻璃棒攪拌，再加熱並持續攪拌。\n\n## 二、核心觀念：誰是反應物？\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <svg viewBox=\"0 0 340 198\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n    {#each [{x:8,c:\"#FCE7C5\",t:\"椰子油\",sub:\"反應物\"},{x:180,c:\"#DBEAFE\",t:\"氫氧化鈉\",sub:\"反應物\"}] as a}\n      <rect x={a.x} y=\"8\" width=\"152\" height=\"53\" rx=\"9\" fill={a.c}/>\n      <text x={a.x+76} y=\"30\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\" fill=\"#1F2937\">{a.t}</text>\n      <text x={a.x+76} y=\"49\" fontSize=\"12\" textAnchor=\"middle\" fill=\"#334155\">{a.sub}</text>\n    {/each}\n    <path d=\"M83 66 L83 81 L170 93 M256 66 L256 81 L170 93\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <path d=\"M163 87 L170 95 L177 87\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <rect x=\"72\" y=\"98\" width=\"196\" height=\"39\" rx=\"9\" fill=\"#D6F5E8\"/>\n    <text x=\"170\" y=\"123\" fontSize=\"17\" fontWeight=\"bold\" fill=\"#166534\" textAnchor=\"middle\">皂化反應</text>\n    <path d=\"M170 139 V154\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <path d=\"M164 150 L170 157 L176 150\" stroke=\"currentColor\" fill=\"none\" strokeWidth=\"2\"/>\n    <rect x=\"38\" y=\"161\" width=\"264\" height=\"29\" rx=\"7\" fill=\"#F3E8FF\"/>\n    <text x=\"170\" y=\"181\" fontSize=\"14\" fontWeight=\"bold\" fill=\"#6B21A8\" textAnchor=\"middle\">肥皂（脂肪酸鈉）＋ 甘油</text>\n  </svg>\n  <row justify=\"center\" align=\"center\" gap={2}>\n    <icon name=\"info\" color=\"info\"/>\n    <text size=\"sm\">乙醇：幫助油與鹼液混合，不是主要皂化反應物。</text>\n  </row>\n</box>\n\n**皂化反應：油脂＋強鹼 → 肥皂＋甘油**\n\n乙醇在實驗中主要作為共溶劑，讓油脂和氫氧化鈉水溶液較容易混合，提高反應效率。\n\n## 三、四個選項逐項解析\n\n| 選項 | 原題敘述 | 判斷 |\n|---|---|---|\n| A | 椰子油、乙醇為反應物，氫氧化鈉能幫助反應物混合 | <text color=\"danger\" weight=\"medium\">錯</text>：乙醇與氫氧化鈉角色顛倒 |\n| **B** | 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合 | <text color=\"success\" weight=\"medium\">正確</text> |\n| C | 乙醇、氫氧化鈉為反應物，椰子油能幫助反應物混合 | <text color=\"danger\" weight=\"medium\">錯</text>：椰子油本身就是反應物 |\n| D | 椰子油、乙醇、氫氧化鈉三者均是反應物 | <text color=\"danger\" weight=\"medium\">錯</text>：乙醇不是主要反應物 |\n\n## 四、D → B 二選一決勝辨析\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"danger\" weight=\"medium\">D｜原先誤選</text>\n      **三者都是反應物**\n\n      椰子油 ✓\n\n      氫氧化鈉 ✓\n\n      乙醇 ✕\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"success\" weight=\"medium\">B｜正確答案</text>\n      **兩個反應物＋一個助劑**\n\n      椰子油 ✓\n\n      氫氧化鈉 ✓\n\n      乙醇：幫助混合\n    </box>\n  </grid-item>\n</grid>\n\n**決定性差異：加入實驗的物質，不一定全部都是反應物。**\n\n考場快速判斷：\n\n> 先找「誰真正參與化學反應」，再區分「誰只是幫助反應進行」。\n\n## 五、本題 v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題、選項與答案核對 | 通過，答案 B |\n| P1 化學概念與選項辨析 | 通過 |\n| P1 教材原文查核 | 尚未使用教材搜尋，未聲稱課本頁碼 |\n| P2 圖文一致性 | 通過基本概念核對 |\n| 實際誤選原因 | 資料不足，不能確定 |\n\n本題可確認 **D → B** 的訂正，但不能只憑選項斷定學生當時一定認為「所有加入的物質都是反應物」。\n\n**本題一句話記憶：皂化靠「油＋鹼」，酒精幫忙混合，不是三者一起反應。**\n\nuser\n[原始附件 sediment://file_0000000015c482068ef1aa5c70385fb7?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n29@錯題\n\nassistant\n\n\nassistant\n# 第29題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：C（僅丙）</badge>\n\n<text color=\"secondary\" size=\"sm\">國中自然｜生物｜植物分類與花粉管</text>\n\n從照片判讀：**原選 A → 訂正 C**。\n\n## 一、原題關鍵\n\n題目：「表（六）為甲～丙三種不同植物的介紹，則由表中資訊判斷，哪些植物大多具有花粉管？」\n\n| 植物 | 原題提供的特徵 | 分類 |\n|---|---|---|\n| 甲 | 網狀葉脈、花瓣為5的倍數、以種子繁殖 | 雙子葉植物 |\n| 乙 | 地下莖、羽狀複葉、葉背有孢子囊堆 | 蕨類植物 |\n| 丙 | 針狀葉、種子裸露、有些種子具翅 | 裸子植物 |\n\n## 二、先釐清：甲也有花粉管！\n\n這題最重要的是避免把「裸子植物有花粉管」誤記成「只有裸子植物有花粉管」。\n\n<box border radius=\"lg\" padding={3} gap={3}>\n  <title size=\"md\">植物與花粉管的關係</title>\n  <grid columns={3} gap={2}>\n    <grid-item>\n      <AsyncImage query=\"flowering angiosperm five petal wildflower botanical close up\" aspectRatio=\"5:4\"/>\n      <text weight=\"medium\" textAlign=\"center\">甲｜被子植物</text>\n      <text color=\"success\" textAlign=\"center\" size=\"sm\">有花粉管 ✓</text>\n    </grid-item>\n    <grid-item>\n      <AsyncImage query=\"fern leaf underside sori spores macro photograph\" aspectRatio=\"5:4\"/>\n      <text weight=\"medium\" textAlign=\"center\">乙｜蕨類</text>\n      <text color=\"danger\" textAlign=\"center\" size=\"sm\">沒有花粉管 ✕</text>\n    </grid-item>\n    <grid-item>\n      <AsyncImage query=\"pine branch needle leaves pine cones close up\" aspectRatio=\"5:4\"/>\n      <text weight=\"medium\" textAlign=\"center\">丙｜裸子植物</text>\n      <text color=\"success\" textAlign=\"center\" size=\"sm\">有花粉管 ✓</text>\n    </grid-item>\n  </grid>\n</box>\n\n一般國中生物分類中：\n\n**種子植物（裸子植物、被子植物）通常具有花粉管；蕨類植物不具有花粉管。**\n\n因此應選 **甲、丙**，也就是 **D**。\n\n## 三、逐項檢查選項\n\n| 選項 | 內容 | 判斷 |\n|---|---|---|\n| A | 僅甲 | 錯，漏掉丙 |\n| B | 僅乙 | 錯，蕨類沒有花粉管 |\n| C | 僅丙 | 錯，漏掉甲 |\n| **D** | **僅甲、丙** | **正確** |\n\n## 四、這題的真正決勝點\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">考場快速辨識</text>\n  **看到「種子繁殖」** → 想到種子植物 → 通常有花粉管。\n\n  **看到「孢子囊堆」** → 想到蕨類 → 沒有花粉管。\n\n  **看到「種子裸露」** → 想到裸子植物 → 通常有花粉管。\n</box>\n\n所以本題不是 C，而是 **D**。\n\n## 五、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題與選項 | 已核對照片 |\n| P0 答案 | **D（獨立判斷）** |\n| P1 甲、乙、丙分類 | 通過 |\n| P1 教材證據 | 尚未查核課本 |\n| 實際錯因 | 未提供作答思路，無法確定 |\n\n**特別提醒：**照片中的紅筆似乎將 A 訂正為 D；本題應以 D 為正確答案。上方一開始標示 C 是錯誤，已在解析中更正。\n\n**一句話記憶：有種子，通常有花粉管；靠孢子繁殖的蕨類，沒有花粉管。**\n\nuser\n[原始附件 sediment://file_0000000084148206879ef34feb58199a?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n38@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第38題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：A</badge>　<text color=\"secondary\" inline>國中自然｜化學｜酯化反應</text>\n\n照片顯示：**原選 B → 紅筆訂正 A**，與獨立判斷一致。\n\n## 一、原題與關鍵條件\n\n題目指出：\n\n「脂肪的主要成分為三酸甘油酯，三酸甘油酯為一個甘油（丙三醇）分子與三個脂肪酸分子經 X 反應所生成。」\n\n問：下列關於此化學反應的敘述何者正確？\n\n**決定性條件：甘油＋脂肪酸 → 三酸甘油酯＋水**\n\n這是**酯化反應**，不是酸鹼中和反應。\n\n## 二、核心觀念：酯化反應如何發生？\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <svg viewBox=\"0 0 340 190\" width=\"100%\">\n    <rect x=\"8\" y=\"10\" width=\"125\" height=\"52\" rx=\"9\" fill=\"#DBEAFE\"/>\n    <text x=\"70\" y=\"31\" fill=\"#1E40AF\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\">甘油</text>\n    <text x=\"70\" y=\"49\" fill=\"#1E40AF\" fontSize=\"12\" textAnchor=\"middle\">1 個分子</text>\n    <text x=\"151\" y=\"25\" fill=\"currentColor\" fontSize=\"23\">＋</text>\n    <rect x=\"188\" y=\"10\" width=\"144\" height=\"52\" rx=\"9\" fill=\"#FEF3C7\"/>\n    <text x=\"260\" y=\"31\" fill=\"#92400E\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\">脂肪酸</text>\n    <text x=\"260\" y=\"49\" fill=\"#92400E\" fontSize=\"12\" textAnchor=\"middle\">3 個分子</text>\n    <path d=\"M170 70 V98\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <path d=\"M163 92 L170 100 L177 92\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <text x=\"185\" y=\"86\" fill=\"currentColor\" fontSize=\"12\">酯化反應</text>\n    <rect x=\"8\" y=\"110\" width=\"174\" height=\"62\" rx=\"9\" fill=\"#DCFCE7\"/>\n    <text x=\"95\" y=\"135\" fill=\"#166534\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\">三酸甘油酯</text>\n    <text x=\"95\" y=\"154\" fill=\"#166534\" fontSize=\"12\" textAnchor=\"middle\">脂肪的主要成分</text>\n    <text x=\"192\" y=\"145\" fontSize=\"21\" fill=\"currentColor\">＋</text>\n    <rect x=\"225\" y=\"110\" width=\"107\" height=\"62\" rx=\"9\" fill=\"#F3E8FF\"/>\n    <text x=\"278\" y=\"135\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\" fill=\"#6B21A8\">3H₂O</text>\n    <text x=\"278\" y=\"154\" fontSize=\"12\" textAnchor=\"middle\" fill=\"#6B21A8\">水</text>\n  </svg>\n</box>\n\n生成一個三酸甘油酯分子時，形成三個酯鍵，並產生三個水分子。\n\n## 三、四個選項逐項解析\n\n| 選項 | 原題描述 | 判斷 |\n|---|---|---|\n| **A** | 與乙醇＋醋酸生成乙酸乙酯及水的反應類似，均屬酯化反應 | <text color=\"success\" weight=\"medium\">正確</text> |\n| B | 與乙醇＋醋酸的反應類似，均屬酸鹼中和反應 | <text color=\"danger\" weight=\"medium\">錯</text> |\n| C | 與氫氧化鈉＋醋酸的反應類似，均屬酯化反應 | <text color=\"danger\" weight=\"medium\">錯</text> |\n| D | 與氫氧化鈉＋醋酸的反應類似，均屬酸鹼中和反應 | <text color=\"danger\" weight=\"medium\">錯</text> |\n\n乙醇＋醋酸：\n\n\\[\n\\mathrm{C_2H_5OH+CH_3COOH}\n\\]\n\n\\[\n\\mathrm{\\rightleftharpoons CH_3COOC_2H_5+H_2O}\n\\]\n\n這是酯化反應。\n\n氫氧化鈉＋醋酸：\n\n\\[\n\\mathrm{NaOH+CH_3COOH}\n\\]\n\n\\[\n\\mathrm{\\rightarrow CH_3COONa+H_2O}\n\\]\n\n這是酸鹼中和反應。\n\n## 四、B → A 二選一決勝辨析\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"danger\" weight=\"medium\">B｜原先誤選</text>\n      **酸鹼中和**\n\n      酸＋鹼\n\n      產生鹽和水\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"success\" weight=\"medium\">A｜正確答案</text>\n      **酯化反應**\n\n      醇＋羧酸\n\n      產生酯和水\n    </box>\n  </grid-item>\n</grid>\n\n最容易混淆的地方是：**兩種反應都可能產生水，但反應類型不同。**\n\n考場不要只看「有沒有產生水」，而要先比較反應物與生成物。\n\n## 五、考場快速判斷\n\n| 看到的關鍵組合 | 優先判斷 |\n|---|---|\n| 醇＋羧酸 → 酯＋水 | 酯化 |\n| 酸＋鹼 → 鹽＋水 | 酸鹼中和 |\n| 油脂＋強鹼 → 肥皂＋甘油 | 皂化 |\n\n## 六、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題與四個選項 | 已核對 |\n| P0 正確答案 | A，獨立判斷 |\n| P1 B與A關鍵差異 | 已辨析 |\n| P1 教材證據 | 尚未查核課本 |\n| P2 反應圖與方程式 | 已核對 |\n| 實際誤選原因 | 作答過程不足，不能確定 |\n\n**本題一句話記憶：醇＋酸生成酯，是酯化；酸＋鹼生成鹽，是中和。**\n\n這題與前面的第27題皂化反應可以建立概念連結：**酯化是在形成酯，皂化則是油脂在強鹼作用下生成肥皂和甘油。**\n\nuser\n[原始附件 sediment://file_000000003b808206b3a3123fa3fc4b53?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n39@錯題\n\nassistant\n\n\nassistant\n# 第39題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：D（綠蠵龜）</badge>\n\n<text color=\"secondary\" size=\"sm\">國中自然｜生物｜動物分類與生殖方式</text>\n\n照片判讀：原選 **A（山椒魚）→ 紅筆訂正 D（綠蠵龜）**。獨立判斷也是 D。\n\n## 一、鎖定原題三個條件\n\n康康手中的卡牌有三項特徵：\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={3}>\n    <icon name=\"waves\" color=\"info\" size=\"lg\"/>\n    <box flex=\"1\" gap=0>\n      **成體生存環境**\n\n      主要為水域\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <icon name=\"egg\" color=\"secondary\" size=\"lg\"/>\n    <box flex=\"1\" gap=0>\n      **胚胎發育方式**\n\n      卵生\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <icon name=\"heart\" color=\"danger\" size=\"lg\"/>\n    <box flex=\"1\" gap=0>\n      **受精方式**\n\n      體內受精\n    </box>\n  </row>\n</box>\n\n**三個條件必須同時符合，不能只符合其中兩項。**\n\n## 二、逐項核對四個選項\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"salamander amphibian underwater natural habitat close up\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **A｜兩生類的山椒魚**\n\n      - 成體：可生活於陸域或水域，依種類不同\n      - 卵生：✓\n      - 受精：依物種不同，許多山椒魚為體內受精\n\n      <text color=\"danger\" weight=\"medium\" size=\"sm\">不能僅憑兩生類身分就判定不符合；主要水域生活並非所有山椒魚的共同特徵。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"mosquito insect macro photo\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **B｜節肢動物門的蚊子**\n\n      - 成體主要生活於陸域及空中\n      - 卵生：✓\n      - 體內受精：✓\n\n      <text color=\"danger\" weight=\"medium\" size=\"sm\">不符合「成體主要生活於水域」。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"clownfish orange white anemonefish swimming underwater coral reef\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **C｜魚類的小丑魚**\n\n      - 成體主要生活於水域：✓\n      - 卵生：✓\n      - 通常為體外受精：✕\n\n      <text color=\"danger\" weight=\"medium\" size=\"sm\">關鍵不符合條件是「體內受精」。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"green sea turtle Chelonia mydas swimming underwater ocean\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **D｜爬蟲類的綠蠵龜**\n\n      - 成體主要生活於水域：✓\n      - 在陸地產卵，屬卵生：✓\n      - 體內受精：✓\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">三項完全符合，正確答案 D。</text>\n    </box>\n  </row>\n</box>\n\n## 三、A → D 決勝辨析\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"danger\" weight=\"medium\">A｜山椒魚</text>\n      <AsyncImage query=\"salamander on damp moss in woodland macro photography\" aspectRatio=\"5:3\"/>\n      **兩生類**\n\n      生殖方式及成體棲地隨種類不同，不能概括成全部水生、全部體外受精。\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"success\" weight=\"medium\">D｜綠蠵龜</text>\n      <AsyncImage query=\"green sea turtle swimming clear blue underwater marine photograph\" aspectRatio=\"5:3\"/>\n      **爬蟲類**\n\n      海中生活、陸地產卵、體內受精，三條件直接成立。\n    </box>\n  </grid-item>\n</grid>\n\n**本題最重要的觀念：生活在水中，不代表一定在水中受精。**\n\n綠蠵龜雖然大部分時間生活在海中，卻是在體內完成受精，再上岸產卵。\n\n## 四、會考快速檢核\n\n| 生物 | 受精方式（常見代表） |\n|---|---|\n| 多數硬骨魚類 | 體外受精 |\n| 多數蛙類 | 體外受精 |\n| 爬蟲類 | 體內受精 |\n| 鳥類 | 體內受精 |\n| 哺乳類 | 體內受精 |\n\n注意：兩生類不能一概視為體外受精，山椒魚即有許多體內受精的種類。\n\n## 五、v2.1 品質驗收\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題三條件 | 通過 |\n| P0 四選項 | 通過 |\n| P0 正確答案 | D，獨立判斷 |\n| P1 A／D 辨析 | 已說明物種差異 |\n| P1 教材證據 | 尚未查核教材 |\n| P2 圖文一致性 | 圖片僅為物種示意 |\n| 實際錯因 | 無完整作答過程，不能判定 |\n\n**一句話記憶：海龜「海裡生活、體內受精、陸上產卵」；判斷動物生殖方式，不能只看牠住在哪裡。**\n\nuser\n[原始附件 sediment://file_00000000fc808206b2f22db866cfb2f4?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n6@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第6題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：D</badge>　<text color=\"secondary\" inline>國中國文｜字音辨析</text>\n\n照片顯示原選 **A → 紅筆訂正 D**，經逐項判讀，答案為 **D**。\n\n## 一、原題與四個選項\n\n題目：「下列文句『　』中的字，何者讀音正確？」\n\n| 選項 | 字詞 | 正確注音 | 判斷 |\n|---|---|---|---|\n| A | 「瞭」望臺 | ㄌㄧㄠˋ | <text color=\"danger\" weight=\"medium\">錯</text> |\n| B | 一「幢」老屋 | ㄉㄨㄥˋ | <text color=\"danger\" weight=\"medium\">錯</text> |\n| C | 占「卜」愛情運勢 | ㄅㄨˇ | <text color=\"danger\" weight=\"medium\">錯</text> |\n| **D** | **輕「佻」的態度** | **ㄊㄧㄠˊ** | <text color=\"success\" weight=\"medium\">正確</text> |\n\n照片上的手寫注音有些筆畫不夠清楚，以上以字詞的標準讀音核對，並依題目訂正標記判斷 D。\n\n## 二、A → D 關鍵辨析\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"danger\" weight=\"medium\">A｜瞭望</text>\n      <AsyncImage query=\"observation watchtower overlooking distant landscape\" aspectRatio=\"5:3\"/>\n      **瞭：ㄌㄧㄠˋ**\n\n      意思：從高處向遠方觀察。\n\n      與「了解」的「了」讀音不同。\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"success\" weight=\"medium\">D｜輕佻</text>\n      <AsyncImage query=\"cartoon illustration person with flippant smug expression shrugging shoulders\" aspectRatio=\"5:3\"/>\n      **佻：ㄊㄧㄠˊ**\n\n      意思：言語、舉止不夠莊重。\n\n      與「挑選」的「挑」不同字。\n    </box>\n  </grid-item>\n</grid>\n\n## 三、容易混淆的字音\n\n| 字詞 | 注音 | 記憶重點 |\n|---|---|---|\n| 瞭望 | ㄌㄧㄠˋ ㄨㄤˋ | 向遠處觀察 |\n| 一幢房屋 | ㄧ ㄉㄨㄥˋ ㄈㄤˊ ㄨ | 幢作房屋量詞 |\n| 占卜 | ㄓㄢ ㄅㄨˇ | 預測吉凶 |\n| 輕佻 | ㄑㄧㄥ ㄊㄧㄠˊ | 言行不莊重 |\n\n## 四、會考二選一決勝技巧\n\n這題不適合只用字形猜讀音，應優先判斷**字在詞語中的意思與讀音**。\n\n例如「幢」用來計算房屋時，讀 ㄉㄨㄥˋ；不能把其他義項的讀音直接套進來。\n\n考場可用一句話檢核：\n\n**「這個字放進這個詞，讀音是否仍然相同？」**\n\n## 五、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題及四個選項 | 已核對 |\n| P0 正確答案 | D |\n| P1 字音辨析 | 已完成 |\n| P1 教材原文證據 | 尚未查核 |\n| 實際誤選原因 | 作答過程不足，無法確認 |\n\n**本題重點：瞭望 ㄌㄧㄠˋ、房屋一幢 ㄉㄨㄥˋ、占卜 ㄅㄨˇ、輕佻 ㄊㄧㄠˊ。**\n\nuser\n[原始附件 sediment://file_00000000024c820694b66d659b5c8328?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n14@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第14題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：C</badge>　<text color=\"secondary\" inline>國中國文｜錯別字辨析</text>\n\n照片判讀：**原選 D → 紅筆訂正 C**。經重新放大原題、逐字核對，獨立判斷答案也是 **C**。\n\n## 一、原題四選項核對\n\n題目：「下列文句，何者用字完全正確？」\n\n| 選項 | 原題關鍵文字 | 判斷與訂正 |\n|---|---|---|\n| A | 文學「造音」很高 | <text color=\"danger\" weight=\"medium\">錯</text>：「造音」→「造詣」 |\n| B | 「擔誤」了我們上午的既定行程 | <text color=\"danger\" weight=\"medium\">錯</text>：「擔誤」→「耽誤」 |\n| **C** | **這件案子的「紕漏」** | <text color=\"success\" weight=\"medium\">正確，沒有錯字</text> |\n| D | 在「走頭無路」的絕境中 | <text color=\"danger\" weight=\"medium\">錯</text>：「走頭無路」→「走投無路」 |\n\n## 二、D → C 決勝辨析\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"danger\" weight=\"medium\">D｜原先誤選</text>\n      <title size=\"lg\" color=\"danger\">走頭無路 ✕</title>\n      正確是：\n\n      **走投無路**\n\n      「投」有投奔、尋求出路的意思。\n\n      形容無路可走，陷入絕境。\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"success\" weight=\"medium\">C｜正確選項</text>\n      <title size=\"lg\" color=\"success\">紕漏 ✓</title>\n      注音：ㄆㄧ ㄌㄡˋ\n\n      意思：疏失、差錯、漏洞。\n\n      例：工作出現紕漏，造成公司損失。\n    </box>\n  </grid-item>\n</grid>\n\n## 三、四組易錯字一次記住\n\n<box gap={2}>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"traditional Chinese scholar reading and writing books at wooden desk illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **造詣**（ㄗㄠˋ ㄧˋ）\n\n      學問、技藝達到的程度。記住是「詣」，不是「音」。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"heavy rain people waiting with umbrellas delayed travel illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **耽誤**（ㄉㄢ ㄨˋ）\n\n      因故延遲、拖延。記住是「耽」，不是「擔」。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"office worker discovering missing document error paperwork cartoon illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **紕漏**（ㄆㄧ ㄌㄡˋ）\n\n      做事出現疏失、漏洞。「紕」是糸部。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"person standing at dead end of narrow alley brick wall illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **走投無路**（ㄗㄡˇ ㄊㄡˊ ㄨˊ ㄌㄨˋ）\n\n      無處投奔、沒有出路。記住是「投」，不是「頭」。\n    </box>\n  </row>\n</box>\n\n## 四、考場快速檢核\n\n這類「用字完全正確」的題目，要注意：**常用詞看起來順眼，不代表每個字都正確。**\n\n本題只要抓住「走投無路」中的「投」，就能排除原先誤選的 D；再確認 C 的「紕漏」是正確詞語，即可選 C。\n\n## 五、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題及四選項 | 已放大逐字核對 |\n| P0 正確答案 | C，獨立判斷 |\n| P1 D／C 關鍵差異 | 已完成 |\n| P1 教材原文查核 | 尚未查核 |\n| P2 圖文一致性 | 插畫為概念示意，不作文字證據 |\n| 實際錯因 | 尚無作答思路，不能確定 |\n\n**一句話記憶：學問有「造詣」、行程會「耽誤」、事情有「紕漏」、困境是「走投無路」。**\n\nuser\n[原始附件 sediment://file_00000000f1d08206a4962d5cfb599bb8?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n24@錯題\n\nassistant\n\n\nassistant\n我先核對方格交點與三條路徑，尤其第 24 題的 C、D 選項，避免把圖上看似相連的線段誤當成同一直線。\n\nassistant\n\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第24題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：C</badge>　<text color=\"secondary\" inline>國中數學｜畢氏定理、三角不等式</text>\n\n照片判讀：原選 **B**，紅筆標記需要訂正。獨立驗算結果為 **C**。\n\n這題問的是「哪一個推論**錯誤**」，不是哪條路徑最短。\n\n## 一、原圖證據與座標確認\n\n<AsyncImage query=\"five by five square coordinate grid geometry mathematics textbook diagram simple\" aspectRatio=\"16:9\" fallback={<text color=\"secondary\">以下以原題照片中的方格圖為準。</text>}/>\n\n以 A 為原點，每格 1 公分，從原圖讀得：\n\n| 點 | 座標 | 點 | 座標 |\n|---|---|---|---|\n| A | (0,0) | E | (1,1) |\n| B | (5,5) | F | (3,4) |\n| C | (1,3) | G | (4,2) |\n| D | (2,4) | | |\n\n注意：**D → F 是水平線段，F → B 是斜線段，兩段並不共線。**\n\n## 二、四個選項逐項驗算\n\n**(A) ED＝GB：正確**\n\n\\[\nED=\\sqrt{1^2+3^2}=\\sqrt{10}\n\\]\n\n\\[\nGB=\\sqrt{1^2+3^2}=\\sqrt{10}\n\\]\n\n兩者相等。\n\n**(B) AC＋CD ＞ AG：正確**\n\n\\[\nAC+CD=\\sqrt{10}+\\sqrt2\\approx4.576\n\\]\n\n\\[\nAG=\\sqrt{4^2+2^2}=\\sqrt{20}\\approx4.472\n\\]\n\n因此 AC＋CD ＞ AG。\n\n**(C) DF＋FB ＜ GB：錯誤**\n\n\\[\nDF=1,\\qquad FB=\\sqrt{2^2+1^2}=\\sqrt5\n\\]\n\n\\[\nDF+FB=1+\\sqrt5\\approx3.236\n\\]\n\n\\[\nGB=\\sqrt{10}\\approx3.162\n\\]\n\n所以真正的關係是：\n\n\\[\n\\boxed{DF+FB>GB}\n\\]\n\n不是小於。**因此 C 是本題答案。**\n\n**(D) R₂ 最長：正確**\n\n三條路徑的實際長度：\n\n| 路徑 | 長度（公分） | 約值 |\n|---|---|---:|\n| R₁ | \\(2\\sqrt{10}+\\sqrt2\\) | 7.739 |\n| **R₂** | \\(\\sqrt2+\\sqrt{10}+1+\\sqrt5\\) | **7.813** |\n| R₃ | \\(2\\sqrt5+\\sqrt{10}\\) | 7.634 |\n\n因此 R₂ 確實最長。\n\n## 三、B → C 決勝辨析\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <svg viewBox=\"0 0 340 183\" width=\"100%\">\n    <path d=\"M58 139 L58 37 L274 37\" stroke=\"currentColor\" strokeWidth=\"1\" opacity=\".2\" fill=\"none\"/>\n    <path d=\"M58 139 L274 37\" stroke=\"#16A34A\" strokeWidth=\"3\" strokeDasharray=\"6 5\" fill=\"none\"/>\n    <path d=\"M58 139 L127 37 L274 37\" stroke=\"#2563EB\" strokeWidth=\"4\" fill=\"none\"/>\n    <circle cx=\"58\" cy=\"139\" r=\"5\" fill=\"#2563EB\"/>\n    <circle cx=\"127\" cy=\"37\" r=\"5\" fill=\"#2563EB\"/>\n    <circle cx=\"274\" cy=\"37\" r=\"5\" fill=\"#2563EB\"/>\n    <text x=\"41\" y=\"157\" fontSize=\"14\" fill=\"currentColor\">D</text>\n    <text x=\"122\" y=\"22\" fontSize=\"14\" fill=\"currentColor\">F</text>\n    <text x=\"277\" y=\"30\" fontSize=\"14\" fill=\"currentColor\">B</text>\n    <text x=\"175\" y=\"73\" fontSize=\"12\" fill=\"#16A34A\">DB 直線較短</text>\n    <text x=\"163\" y=\"27\" fontSize=\"12\" fill=\"#2563EB\">繞經 F 較長</text>\n  </svg>\n  <text color=\"secondary\" size=\"xs\">概念示意圖，非原題比例圖。</text>\n  **三角形兩邊和大於第三邊：**\n\n  \\[\n  DF+FB>DB\n  \\]\n\n  而原圖中 \\(DB=GB=\\sqrt{10}\\)，所以：\n\n  \\[\n  \\boxed{DF+FB>GB}\n  \\]\n</box>\n\n這是本題最快的判斷法：**不需要算出所有根號，先用三角不等式就能排除 C。**\n\n## 四、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原圖交點核對 | 通過 |\n| P0 正確答案 | C，獨立驗算 |\n| P1 四選項數學驗證 | 通過 |\n| P1 B／C 差異 | 已辨析 |\n| P2 示意圖與推論 | 已標示為概念圖 |\n| 實際誤選原因 | 未見完整作答過程，無法確定 |\n\n**一句話記住：兩點之間直線最短；繞過第三點的折線一定更長（第三點不在線段上時）。**\n\n這題的關鍵不是根號計算，而是先辨認 **D、F、B 不在同一直線上**。\n\n---\n\n如果你願意，我可以：\n\n- 繼續分析第29題植物分類錯誤原因\n- 探討第38題酯化反應詳細機制\n- 分析第39題動物分類錯誤判斷要點"
     }
   ],
   "questions": [
@@ -106239,7 +106260,105 @@
         }
       ],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "由比分順序確定主詞，再檢查標點",
+        "art": "assets/comics/q-982-art-5ea4107fe1.svg",
+        "panels": [
+          {
+            "heading": "① 按表逐球累計，A先領先卻落敗",
+            "text": "A在上半場先進一球，B在下半場進兩球。比分從A領先1比0，變成1比1，再到1比2；遭逆轉而落敗的是A隊。",
+            "alt": "可選取HTML依上半場A進球、下半場B兩次進球，精確計算A比B的1:0到1:1到1:2。",
+            "diagram": {
+              "kind": "flow",
+              "title": "下列比分一律寫A隊：B隊",
+              "items": [
+                {
+                  "label": "上半場19分46秒｜1：0",
+                  "detail": "A隊9號進球，A先領先。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "下半場37分20秒｜1：1",
+                  "detail": "B隊9號進球，追平。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "下半場42分53秒｜1：2",
+                  "detail": "B隊7號進球，B逆轉獲勝。",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "每次只替進球隊加一球"
+            }
+          },
+          {
+            "heading": "② 「首戰B隊」要連著讀",
+            "text": "「A隊資格賽首戰B隊」是說A隊第一戰的對手為B隊。逗號放在B隊之後，後面仍承接A隊，才不會誤把B隊當成先領先又落敗的一方。",
+            "alt": "HTML分開主詞A隊與第一戰對手B隊，再連接A隊被逆轉1比2落敗的語意。",
+            "diagram": {
+              "kind": "flow",
+              "title": "B的語意由A隊連貫下去",
+              "items": [
+                {
+                  "label": "A隊資格賽【首戰B隊】，",
+                  "detail": "主詞A隊；B隊是對手。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "無法守住領先，下半場遭逆轉",
+                  "detail": "後面仍在描述A隊。",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "同一主詞持續承接"
+            }
+          },
+          {
+            "heading": "③ 「守住領先」也不能用頓號拆",
+            "text": "領先是要守住的優勢，不是與守住並列的另一件事。D的「守住、領先」破壞語意；A、C則把首戰與對手切開，都不如B恰當。",
+            "alt": "HTML對比原D錯誤頓號與正確守住領先完整詞組，精確標出不可拆語意。",
+            "diagram": {
+              "kind": "flow",
+              "title": "D的問題不只是停頓長短",
+              "items": [
+                {
+                  "label": "原D：無法守住、領先",
+                  "detail": "頓號誤當並列，拆散語意。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "正確：無法【守住領先】",
+                  "detail": "守住什麼？守住領先優勢。",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "按語意關係用標點"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：主詞、比數與斷句一致",
+          "points": [
+            "A先1比0，最終1比2被逆轉。",
+            "首戰B隊：A是主詞，B是對手。",
+            "守住領先是完整語意，不能當並列拆開。"
+          ]
+        },
+        "protectedWords": [
+          "A隊",
+          "B隊",
+          "守住領先",
+          "首戰B隊",
+          "1：0",
+          "1：1",
+          "1：2",
+          "頓號",
+          "19分46秒",
+          "37分20秒",
+          "42分53秒"
+        ]
+      }
     },
     {
       "id": "q-985",
@@ -106306,7 +106425,46 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "成語要核對詞義、褒貶與上下文",
+        "art": "assets/comics/q-985-art-e37404ddae-web.webp",
+        "panels": [
+          {
+            "heading": "① 目空一切：高傲、看不起別人",
+            "text": "B提醒不要在朋友面前誇耀，免得顯得高傲自大；正好符合「目空一切」的貶義。要讀態度與語境，不是把它解成眼前空無一物。",
+            "alt": "一名少年抬高下巴自誇，兩名朋友感到不被傾聽；輔助說明高傲自大，無文字或霸凌暴力。"
+          },
+          {
+            "heading": "② 眼高手低：要求高，實際能力未及",
+            "text": "C把「眼高手低」說成值得達到的境界，褒貶不合。A的「胸無城府」則是坦率無心機，也不是用來指投資危機。",
+            "alt": "陶藝學習者比較精緻範本與自己尚未完成的粗糙習作，呈現要求和當下能力落差；不是天生無能或值得追求的成就。"
+          },
+          {
+            "heading": "③ 口吐珠璣：言語優美、有文采",
+            "text": "D把「口吐珠璣」放進爭執時應降低的壞現象，詞義相反。它稱讚說話有文采，不能用來代替惡言相向。",
+            "alt": "少女在讀書會從容發言，聽眾欣賞傾聽，象徵言語有文采；不從嘴中生成真珠或把它畫成爭吵。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：勿誇耀，以免目空一切",
+          "points": [
+            "詞義、褒貶、上下文三者都要合。",
+            "A胸無城府是坦率；C眼高手低是能力未及要求。",
+            "D口吐珠璣是稱讚文采，與傷人爭執不同。"
+          ]
+        },
+        "protectedWords": [
+          "目空一切",
+          "眼高手低",
+          "口吐珠璣",
+          "胸無城府",
+          "高傲自大",
+          "坦率無心機",
+          "惡言相向",
+          "褒貶"
+        ]
+      }
     },
     {
       "id": "q-988",
@@ -106374,7 +106532,49 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "把字投入丹爐：先辨比喻，再核整項選項",
+        "art": "assets/comics/q-988-art-bc0e63627c-web.webp",
+        "panels": [
+          {
+            "heading": "① 鉛字、丹爐，把寫詩比作煉丹",
+            "text": "文字被想像為投入丹爐的材料，「七七四十九日」表現反覆鍛鍊所需的時間與心力。A正確抓到寫詩如煉丹的比喻，符合原詩。",
+            "alt": "現代成年寫作者在桌邊推敲，想像背景有丹爐與空白字粒；不提供製程，也不讓圖生成詩句。",
+            "caption": "虛構詩意蒙太奇：寫作＋想像丹爐，非作者肖像或實際製程。"
+          },
+          {
+            "heading": "② 斤兩兜售與高價落槌形成反差",
+            "text": "耗費心力的文字被按斤兩賣，撿到的畫卻高價成交。這是市場評價的反差，不足以推出B的雅俗共賞，也不因此就構成C所說的倒反手法。",
+            "alt": "虛構市場以秤與紙疊呈現斤兩兜售的詩意情境，不補市價、統計或實際交易證據。"
+          },
+          {
+            "heading": "③ 全選項都要符合：撿畫不等於作畫",
+            "text": "原詩是「撿到一幅畫」，沒有描寫作畫的過程，所以D的素材創作說法超出文本。高價落槌是所寫情節，不能僅因價差就認作以相反語意表肯定。",
+            "alt": "泛用拍賣廳展示原創風景畫與木槌，無價格、貨幣或品牌，不宣稱文學與繪畫的普遍市場高低。",
+            "caption": "一般拍賣場輔助情境；畫作為新製虛構風景，非原詩中的真實畫作或特定公司現場。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 A：寫詩比喻為煉丹，耗時費力",
+          "points": [
+            "鉛字→煉丹材料；四十九日→時間與心力。",
+            "市場反差不等於雅俗共賞或倒反。",
+            "撿到畫不等於創作畫；每個選項須整項成立。"
+          ]
+        },
+        "protectedWords": [
+          "鉛字",
+          "丹爐",
+          "七七四十九日",
+          "雅俗共賞",
+          "倒反",
+          "撿到一幅畫",
+          "作畫",
+          "落槌",
+          "煉丹"
+        ]
+      }
     },
     {
       "id": "q-980",
@@ -107603,7 +107803,92 @@
         }
       ],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "拆車次、查直達，也保留當日開行限制",
+        "art": "assets/comics/q-991-art-4ba3234524.svg",
+        "panels": [
+          {
+            "heading": "① 1320拆成1｜3｜20，三段各有意義",
+            "text": "首碼1＝非每日；第2碼3＝模式3的停靠站；末兩碼20為偶數＝北上。這三項要分開查，不能把北上直接等同每天行駛。",
+            "alt": "新製數字1、3、20三個等高色塊，清楚表示1320編碼分段，不把末兩碼拆成兩種用途。",
+            "caption": "色塊由左至右：首碼1／模式碼3／末兩碼20；依原題編碼表解讀。"
+          },
+          {
+            "heading": "② 嘉義→臺北，要北上且同班停兩站",
+            "text": "模式3停嘉義、臺北，20又表示北上，符合兩站與方向條件。模式5兩列是不同區間班次，使用者已確認不跨臺中，不能選A直達。",
+            "alt": "可選取HTML精確比較C模式3涵蓋兩站、A模式5兩區間不同班，避免把共用臺中誤當同一列車。",
+            "diagram": {
+              "kind": "paths",
+              "title": "不轉乘：確認是否同一班車",
+              "items": [
+                {
+                  "label": "C｜1320，模式3",
+                  "detail": "嘉義、臺北都停，且20為北上。",
+                  "tone": "green"
+                },
+                {
+                  "label": "A｜0508，模式5",
+                  "detail": "南港—臺中／臺中—左營為不同班；無法跨臺中直達。",
+                  "tone": "gold"
+                }
+              ],
+              "target": "兩站、北上、同班直達：C符合",
+              "arrow": "依原表與已確認分段判讀"
+            }
+          },
+          {
+            "heading": "③ 仍要分清「當日」與「非每日」",
+            "text": "依使用者確認選C，但首碼1仍是非每日；題目未給日期，不能另證當天一定開行。B的63是南下；D雖首碼8為當天加開，卻因模式2不停嘉義而排除。",
+            "alt": "HTML分別核對B方向、D停站及C非每日限制，不誤說加開不保證當天、不改C為每日。",
+            "diagram": {
+              "kind": "paths",
+              "title": "逐項核對，避免排除理由用錯",
+              "items": [
+                {
+                  "label": "B｜0663：方向不合",
+                  "detail": "63奇數→南下，與嘉義往臺北相反。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "D｜8258：嘉義不停",
+                  "detail": "8是當天加開；不合的是模式2。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "C｜1320：非每日限制照留",
+                  "detail": "1不能改成每日；沒有日期可另證當日開行。",
+                  "tone": "purple"
+                }
+              ],
+              "target": "沿使用者確認採C，保留題目語句限制",
+              "arrow": "各查自己的條件，不混用"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "依使用者確認：C，1320",
+          "points": [
+            "模式3停兩站、20偶數北上。",
+            "模式5不同區間班次，A不能跨臺中直達。",
+            "C首碼1仍非每日；原題未給日期，不另造當日必開的證明。"
+          ]
+        },
+        "protectedWords": [
+          "1320",
+          "0508",
+          "0663",
+          "8258",
+          "嘉義",
+          "臺北",
+          "臺中",
+          "非每日",
+          "當天加開",
+          "模式3",
+          "模式5",
+          "不轉乘"
+        ]
+      }
     },
     {
       "id": "q-994",
@@ -107671,7 +107956,49 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "居民與船員要分清，找沒有文本證據的一項",
+        "art": "assets/comics/q-994-art-fffa8be5d7-web.webp",
+        "panels": [
+          {
+            "heading": "① 不願遷居、準備重建→A有證據",
+            "text": "居民仍不願搬到別處，打算重建家園，支持對故土的依戀。文中習慣震動、面對餘震的反應，也可支持C所說災難融入生活的態度。",
+            "alt": "1830年代衣著的當地家庭在損壞低屋前考慮重建，手持屋瓦，無現代器材或外來救援團，不重演逃難。",
+            "caption": "震後重建的輔助情境，非真實人物或當下震動現場。"
+          },
+          {
+            "heading": "② 富人、窮人善待彼此→D有證據",
+            "text": "原文明說富人窮人同樣失去財物，更願意善待彼此。這支持打破階級隔閡；對象是當地貧富居民，不是外來者。",
+            "alt": "同一地方的兩名居民以較精緻/樸素的當時衣著區分原有財富，互相分享物品，沒有外國訪客迎接儀式。"
+          },
+          {
+            "heading": "③ 船員心情轉好≠居民善待外來者",
+            "text": "末段轉為開朗、慶幸好運的是小獵犬號船員。B卻說當地居民由封閉變得善待外來者，換了人物與情節，原文沒有這項證據。",
+            "alt": "木帆船甲板上的三名一般船員鬆一口氣、心情轉好；與岸上居民分開，無居民歡迎外國人的新增情節。",
+            "caption": "船上一般船員的輔助示意；不指認為達爾文或費茲羅。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：居民善待外來者，文中無據",
+          "points": [
+            "題目問「最不可能」，要選缺乏文本支持者。",
+            "A眷土、C習慣災難、D貧富相待，均可對應文章。",
+            "船員的心情，不能換成居民對外人的態度。"
+          ]
+        },
+        "protectedWords": [
+          "小獵犬號",
+          "外來者",
+          "貧富居民",
+          "階級隔閡",
+          "船員",
+          "達爾文",
+          "費茲羅",
+          "最不可能",
+          "文本證據"
+        ]
+      }
     },
     {
       "id": "q-997",
@@ -107761,7 +108088,109 @@
         }
       ],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "按原表分清三團體方法與角色",
+        "art": "assets/comics/q-997-art-5f3710363b.svg",
+        "panels": [
+          {
+            "heading": "① Cofacts：志工查核，機器人找既有回應",
+            "text": "民眾回報可疑訊息，由志工查核寫回應；之後相似提問才由機器人查資料庫。A把這個流程說成隨時志工諮詢，超出原表。",
+            "alt": "可選取HTML將民眾回報、志工查核回應、機器人資料庫回覆三角色分開，非服務現況保證。",
+            "diagram": {
+              "kind": "flow",
+              "title": "原表角色與先後不可混用",
+              "items": [
+                {
+                  "label": "民眾｜回報可疑訊息",
+                  "detail": "先提供待查核的內容。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "編輯志工｜查核、撰寫回應",
+                  "detail": "回應進入可供查詢的資料。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "機器人｜找資料庫相關回應",
+                  "detail": "之後遇相似問題，供民眾參考。",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "依原表先後與分工"
+            }
+          },
+          {
+            "heading": "② 假新聞清潔劑：宣講與案例分享",
+            "text": "原表說到廟口、菜市場等地宣講，詢問受騙經驗，再分享案例。B加上「帶領長輩實際查核」，原文並沒有寫這個工作。",
+            "alt": "可選取HTML先後列街頭宣講詢問經驗，再分享案例與辨別重要性，不新增長輩查核實作。",
+            "diagram": {
+              "kind": "flow",
+              "title": "先核文字有沒有說到",
+              "items": [
+                {
+                  "label": "詢問｜是否收到詐騙訊息",
+                  "detail": "街頭宣講的切入點。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "分享｜受騙案例",
+                  "detail": "提醒辨別訊息真假的重要。",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "宣講不自動等於查核實作"
+            }
+          },
+          {
+            "heading": "③ MyGoPen：沿轉傳習慣散播闢謠資訊",
+            "text": "原表明說製作澄清圖文，吸引長輩像發早安圖一樣轉到群組，正好支持C。三團體方法各不同，D的「皆」概括成相同活動也不成立。",
+            "alt": "可選取HTML將製作澄清圖文、長輩依熟悉轉傳方式、群組收到闢謠資訊連起，直接對應C。",
+            "diagram": {
+              "kind": "flow",
+              "title": "C有直接文本證據",
+              "items": [
+                {
+                  "label": "MyGoPen｜製作謠言澄清圖文",
+                  "detail": "內容是破除謠言的資訊。",
+                  "tone": "blue"
+                },
+                {
+                  "label": "長輩｜像發早安圖一樣轉傳",
+                  "detail": "運用熟悉的圖文轉發習慣。",
+                  "tone": "gold"
+                },
+                {
+                  "label": "群組｜讓更多人接觸闢謠資訊",
+                  "detail": "與選項C的說法吻合。",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "由澄清圖文到群組傳播"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：利用轉發圖文習慣傳播闢謠資訊",
+          "points": [
+            "C直接對應MyGoPen原表內容。",
+            "A混淆志工查核與機器人資料庫查詢。",
+            "B加了未寫的實際查核；D把不同方法誤稱皆相同。"
+          ]
+        },
+        "protectedWords": [
+          "Cofacts",
+          "MyGoPen",
+          "假新聞清潔劑",
+          "志工",
+          "機器人",
+          "資料庫",
+          "早安圖",
+          "闢謠",
+          "查核",
+          "澄清圖文"
+        ]
+      }
     },
     {
       "id": "q-1004",
@@ -110708,7 +111137,49 @@
       ],
       "tables": [],
       "questionFigures": [],
-      "explanationFigures": []
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "兩文找共同證據：觀賞需求，也要看動物福利",
+        "art": "assets/comics/q-1041-art-f8f9e5080a-web.webp",
+        "panels": [
+          {
+            "heading": "① 甲文：親近需求，也可能帶來壓力",
+            "text": "甲文先談消費者想親近動物，再指出高強度互動、環境不適，可能影響動物生存品質。不能只看到人的樂趣，就漏掉動物的需求。",
+            "alt": "咖啡廳顧客觀察貓頭鷹，畫面無接觸或傷害；提醒評估觀賞互動與動物休息的需求，不是虐待現場證明。",
+            "caption": "輔助情境：人們觀賞動物；不能單靠畫中姿態判定動物是否承受壓力。"
+          },
+          {
+            "heading": "② 乙文：飼養困難與不當對待案例",
+            "text": "乙文說野生動物飼養有難度，並記述浣熊遭不當對待、後來被收容照顧的事件。這些材料提醒讀者：照顧知識與動物福利不可忽略。",
+            "alt": "浣熊在可退避的休息屋中，成人在外觀察；無傷口、毆打、球拍或犬隻，並非真實事件重演或照護規格指南。",
+            "caption": "浣熊休息與照顧的輔助示意，非真實收容現場，也不新增事件現況。"
+          },
+          {
+            "heading": "③ 共同觀點，要在兩文都找得到",
+            "text": "甲的互動壓力、乙的不當照顧，都支持C「可能忽略動物福利」。B把興趣歸因好奇心，並非兩文共同論點；A、D的「皆」也缺乏文本支持。",
+            "alt": "兩名學生對照兩份空白文章紙張，示意同時比對甲乙證據；沒有以生活常識取代共同文本依據。"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：可能忽略動物福利",
+          "points": [
+            "甲：互動與環境可能造成壓力。",
+            "乙：飼養困難及不當對待案例。",
+            "保留「可能」，不誇成所有店家都虐待動物；B好奇心不是共同論點。"
+          ]
+        },
+        "protectedWords": [
+          "動物福利",
+          "高強度互動",
+          "生存品質",
+          "不當對待",
+          "飼養困難",
+          "共同觀點",
+          "好奇心",
+          "文本支持",
+          "可能"
+        ]
+      }
     },
     {
       "id": "q-1042",
@@ -112003,7 +112474,911 @@
           "賑施"
         ]
       }
+    },
+    {
+      "id": "q-1046",
+      "sourceId": "src-more-066",
+      "subject": "Physics-Chemistry",
+      "title": "理化第27題｜皂化反應物與乙醇的作用",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "圖（七）為小琪進行皂化實驗的部分步驟，則關於圖中蒸發皿內的物質，下列敘述何者正確？\n(A) 椰子油、乙醇為反應物，氫氧化鈉能幫助反應物混合\n(B) 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合\n(C) 乙醇、氫氧化鈉為反應物，椰子油能幫助反應物混合\n(D) 椰子油、乙醇、氫氧化鈉三者均是反應物",
+      "answer": "(B) 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合",
+      "explanation": "一、先分清反應物與幫助混合的物質\n皂化是油脂與強鹼反應，生成脂肪酸鹽（肥皂）和甘油。本題的椰子油提供油脂，氫氧化鈉提供強鹼，因此兩者是主要反應物。\n\n二、乙醇的作用\n油脂與氫氧化鈉水溶液不容易均勻混合。加入乙醇有助兩者接觸；圖中先以玻璃棒攪拌，再邊加熱邊攪拌，也有助反應進行。不能因乙醇有加入蒸發皿，就把它與油脂、氫氧化鈉並列為此皂化反應的主要反應物。\n\n三、逐項判斷\nA將乙醇與氫氧化鈉的角色顛倒。B正確。C漏掉真正的反應物椰子油，卻把它當成幫助混合的物質。D把三者全部視為反應物，也不正確。\n\n四、與酯化區分\n油脂＋氫氧化鈉 → 脂肪酸鈉＋甘油，是皂化；醇與羧酸生成酯和水，才是酯化。先判斷反應物及產物，不只看有無酒精或加熱。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。",
+      "tags": [
+        "皂化",
+        "反應物",
+        "共溶劑"
+      ],
+      "images": [
+        "assets/originals/q-1046-original-c24fd1ed54bd.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1046-figure-95bbc3706dab.jpg",
+          "alt": "圖（七）：加入椰子油、乙醇、氫氧化鈉與水，以玻璃棒攪拌後邊加熱邊攪拌。",
+          "caption": "原卷必要附圖裁切，保留原印內容。"
+        }
+      ],
+      "explanationFigures": [],
+      "originalQuestionNumber": "27",
+      "sourceLabel": "分享原卷｜第27題",
+      "studentAnswer": "原卷藍筆D，紅筆訂正B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "teachingComic": {
+        "title": "皂化反應物與乙醇的作用",
+        "art": "assets/comics/q-1046-art-193059545b.svg",
+        "panels": [
+          {
+            "heading": "① 油脂與強鹼才是反應物",
+            "text": "皂化由椰子油和氫氧化鈉反應，生成脂肪酸鈉和甘油。",
+            "alt": "皂化反應物",
+            "diagram": {
+              "kind": "paths",
+              "title": "皂化反應物",
+              "items": [
+                {
+                  "label": "椰子油",
+                  "detail": "提供油脂",
+                  "tone": "blue"
+                },
+                {
+                  "label": "氫氧化鈉",
+                  "detail": "提供強鹼",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "肥皂＋甘油"
+            }
+          },
+          {
+            "heading": "② 乙醇負責幫助混合",
+            "text": "油脂與鹼液不易混合，乙醇幫助接觸。加入的物質不一定全部是反應物。",
+            "alt": "角色不能顛倒",
+            "diagram": {
+              "kind": "flow",
+              "title": "角色不能顛倒",
+              "items": [
+                {
+                  "label": "乙醇",
+                  "detail": "幫助油脂與鹼液混合",
+                  "tone": "blue"
+                },
+                {
+                  "label": "攪拌、加熱",
+                  "detail": "促使反應順利進行",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "③ 對照四個選項",
+            "text": "A顛倒角色，C把油脂當助劑，D把乙醇也列為反應物；只有B把兩種角色分清。",
+            "alt": "由角色找答案",
+            "diagram": {
+              "kind": "paths",
+              "title": "由角色找答案",
+              "items": [
+                {
+                  "label": "反應物",
+                  "detail": "椰子油、氫氧化鈉",
+                  "tone": "blue"
+                },
+                {
+                  "label": "幫助混合",
+                  "detail": "乙醇",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "B"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合",
+          "points": [
+            "反應物是椰子油與氫氧化鈉。",
+            "乙醇幫助混合，不是此皂化反應的主要反應物。",
+            "油脂＋強鹼 → 肥皂＋甘油。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1047",
+      "sourceId": "src-more-066",
+      "subject": "Biology",
+      "title": "生物第29題｜哪些植物具有花粉管？",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "表（六）為甲～丙三種不同植物的介紹，則由表中資訊判斷，哪些植物大多具有花粉管？\n(A) 僅甲\n(B) 僅乙\n(C) 僅丙\n(D) 僅甲、丙",
+      "answer": "(D) 僅甲、丙",
+      "explanation": "一、由繁殖構造判斷分類\n甲有網狀葉脈、花瓣為5的倍數，並以種子繁殖，屬被子植物中的雙子葉植物。乙具有地下莖、羽狀複葉，葉背有孢子囊堆，屬蕨類。丙多為針狀葉，種子裸露，屬裸子植物。\n\n二、花粉管並非裸子植物專有\n裸子植物和被子植物都是種子植物，會產生花粉。花粉萌發形成花粉管，使精細胞能到達胚珠內完成受精。甲與丙都符合，選D。蕨類靠孢子繁殖，不以花粉管輸送精細胞，因此乙不符合。\n\n三、逐項排除\nA只選甲，漏掉丙；B選到無花粉管的乙；C只選丙，漏掉甲；D同時包含甲、丙，正確。\n\n四、原AI的矛盾\n原回覆開頭寫C（僅丙），後文又正確推導成D。現依原表及完整選項統一為D，不把「只有裸子植物有花粉管」當作規則。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。",
+      "tags": [
+        "植物分類",
+        "被子植物",
+        "裸子植物",
+        "花粉管"
+      ],
+      "images": [
+        "assets/originals/q-1047-original-52f2b44656de.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1047-figure-54b52c477693.jpg",
+          "alt": "表（六）三種植物的原印外觀及特徵。",
+          "caption": "原卷必要附圖裁切，保留原印內容。"
+        }
+      ],
+      "explanationFigures": [],
+      "originalQuestionNumber": "29",
+      "sourceLabel": "分享原卷｜第29題",
+      "studentAnswer": "原卷藍筆A，紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "tables": [
+        {
+          "caption": "表（六）原題特徵；植物外觀見原題附圖",
+          "headers": [
+            "植物",
+            "特徵"
+          ],
+          "rows": [
+            [
+              "甲",
+              "具有網狀葉脈，花瓣為5的倍數，以種子進行繁殖。"
+            ],
+            [
+              "乙",
+              "具有地下莖和羽狀複葉，葉背有一排排褐色的孢子囊堆。"
+            ],
+            [
+              "丙",
+              "多為針狀葉，種子裸露，且有些種子具有翅可隨風傳播。"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "哪些植物具有花粉管？",
+        "art": "assets/comics/q-1047-art-193059545b.svg",
+        "panels": [
+          {
+            "heading": "① 甲有種子，也有花粉",
+            "text": "甲有網狀葉脈、五倍數花瓣並以種子繁殖，是被子植物。花粉萌發可形成花粉管。",
+            "alt": "甲的線索",
+            "diagram": {
+              "kind": "flow",
+              "title": "甲的線索",
+              "items": [
+                {
+                  "label": "網狀葉脈、五倍數花瓣",
+                  "detail": "被子植物",
+                  "tone": "blue"
+                },
+                {
+                  "label": "以種子繁殖",
+                  "detail": "具有花粉、花粉管",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "② 乙是蕨類，丙是裸子植物",
+            "text": "乙的孢子囊堆顯示靠孢子繁殖，沒有花粉管；丙種子裸露，是有花粉管的裸子植物。",
+            "alt": "乙與丙分開判斷",
+            "diagram": {
+              "kind": "flow",
+              "title": "乙與丙分開判斷",
+              "items": [
+                {
+                  "label": "乙｜蕨類",
+                  "detail": "孢子囊堆 → 無花粉管",
+                  "tone": "blue"
+                },
+                {
+                  "label": "丙｜裸子植物",
+                  "detail": "種子裸露 → 有花粉管",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "③ 種子植物不只有裸子植物",
+            "text": "甲、丙都屬種子植物，兩者都有花粉管。只選丙會漏掉甲，故選D。",
+            "alt": "集合比對",
+            "diagram": {
+              "kind": "paths",
+              "title": "集合比對",
+              "items": [
+                {
+                  "label": "甲｜被子植物",
+                  "detail": "符合",
+                  "tone": "blue"
+                },
+                {
+                  "label": "丙｜裸子植物",
+                  "detail": "符合",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "D｜僅甲、丙"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 僅甲、丙",
+          "points": [
+            "甲是被子植物，丙是裸子植物，兩者都有花粉管。",
+            "乙是蕨類，靠孢子繁殖，沒有花粉管。",
+            "不能只選裸子植物而漏掉被子植物。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1048",
+      "sourceId": "src-more-066",
+      "subject": "Physics-Chemistry",
+      "title": "理化第38題｜三酸甘油酯的生成反應",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "脂肪的主要成分為三酸甘油酯，三酸甘油酯為一個甘油（丙三醇）分子與三個脂肪酸分子經X反應生成，則下列關於此化學反應的敘述何者正確？\n(A) 與「C₂H₅OH＋CH₃COOH → CH₃COOC₂H₅＋H₂O」類似，均屬於酯化反應\n(B) 與「C₂H₅OH＋CH₃COOH → CH₃COOC₂H₅＋H₂O」類似，均屬於酸鹼中和反應\n(C) 與「NaOH＋CH₃COOH → CH₃COONa＋H₂O」類似，均屬於酯化反應\n(D) 與「NaOH＋CH₃COOH → CH₃COONa＋H₂O」類似，均屬於酸鹼中和反應",
+      "answer": "(A) 與乙醇和醋酸生成酯及水的反應類似，均為酯化反應",
+      "explanation": "一、辨認X反應\n甘油是含有三個羥基的醇，脂肪酸含有羧基。甘油與脂肪酸反應形成酯鍵，生成三酸甘油酯，屬酯化反應；一個甘油與三個脂肪酸形成一個三酸甘油酯時，同時生成三個水分子。\n\n二、比較兩組反應式\n乙醇C₂H₅OH與醋酸CH₃COOH反應，生成乙酸乙酯CH₃COOC₂H₅及水，是酯化，與X同類，因此選A。原題以單向箭頭表示反應，照留原式；一般酯化可逆，解說時可寫乙醇＋醋酸 ⇌ 乙酸乙酯＋水。\n\n氫氧化鈉與醋酸反應，生成醋酸鈉CH₃COONa及水，是酸鹼中和。它雖也生成水，卻不是形成酯，因此不與X同類。\n\n三、逐項判斷\nA的反應式與分類均正確。B的反應式確與X同類，但把酯化誤稱中和。C將中和式誤稱酯化。D對所列NaOH與醋酸的分類本身正確，但它與題幹X不類似，因此整項仍不正確。\n\n判題要同時檢查「反應是否類似」及「類型名稱是否正確」，不能只看到D寫中和就選它。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。",
+      "tags": [
+        "酯化",
+        "中和",
+        "油脂"
+      ],
+      "images": [
+        "assets/originals/q-1048-original-50a28a71633f.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "originalQuestionNumber": "38",
+      "sourceLabel": "分享原卷｜第38題",
+      "studentAnswer": "原卷藍筆B，紅筆訂正A。",
+      "contentStatus": "完整原題",
+      "correctOption": "A",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "teachingComic": {
+        "title": "三酸甘油酯的生成反應",
+        "art": "assets/comics/q-1048-art-193059545b.svg",
+        "panels": [
+          {
+            "heading": "① 醇與脂肪酸形成酯",
+            "text": "甘油有三個羥基，與三個脂肪酸形成三個酯鍵；這是酯化。",
+            "alt": "題幹X的類型",
+            "diagram": {
+              "kind": "flow",
+              "title": "題幹X的類型",
+              "items": [
+                {
+                  "label": "甘油＋三個脂肪酸",
+                  "detail": "原料",
+                  "tone": "blue"
+                },
+                {
+                  "label": "三酸甘油酯＋三個水",
+                  "detail": "生成物",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "② 同樣生成水，類型仍不同",
+            "text": "乙醇與醋酸生成酯是酯化；NaOH與醋酸生成鹽和水是中和。不能只看水。",
+            "alt": "兩組反應分流",
+            "diagram": {
+              "kind": "flow",
+              "title": "兩組反應分流",
+              "items": [
+                {
+                  "label": "乙醇＋醋酸",
+                  "detail": "酯＋水 → 酯化",
+                  "tone": "blue"
+                },
+                {
+                  "label": "NaOH＋醋酸",
+                  "detail": "醋酸鈉＋水 → 中和",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "③ 兩句都正確才可選",
+            "text": "A既和X類似，又正確稱為酯化。D雖把中和式分類正確，卻與X不同類，仍不能選。",
+            "alt": "整項判斷",
+            "diagram": {
+              "kind": "paths",
+              "title": "整項判斷",
+              "items": [
+                {
+                  "label": "是否與X類似？",
+                  "detail": "需同為酯化",
+                  "tone": "blue"
+                },
+                {
+                  "label": "分類名稱是否正確？",
+                  "detail": "也需寫酯化",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "A"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(A) 與乙醇和醋酸生成酯及水的反應類似，均為酯化反應",
+          "points": [
+            "甘油與脂肪酸形成酯鍵，屬酯化。",
+            "乙醇＋醋酸生成酯和水；NaOH＋醋酸屬中和。",
+            "D所列反應雖是中和，卻與題幹X不同類。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1049",
+      "sourceId": "src-more-066",
+      "subject": "Biology",
+      "title": "生物第39題｜海中生活、卵生與體內受精",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "康康與同學進行生物猜猜樂的卡牌遊戲，所抽出的每一張牌皆清楚描述生物的某一項特徵，圖（十七）為康康手中的牌，則符合牌面上所有條件的生物最可能為下列何者？\n(A) 兩生類的山椒魚\n(B) 節肢動物門的蚊子\n(C) 魚類的小丑魚\n(D) 爬蟲類的綠蠵龜",
+      "answer": "(D) 爬蟲類的綠蠵龜",
+      "explanation": "一、三張牌必須同時符合\n本題條件是成體主要生活於水域、卵生、體內受精。綠蠵龜屬爬蟲類，大部分時間生活在海中，體內受精後上岸產卵，符合全部條件，因此選D。卵生描述胚胎發育方式，並不代表一定在體外受精。\n\n二、逐項排除\nA山椒魚不能因名稱有「魚」就當成魚類。國中常見臺灣山椒魚的成體棲於潮濕陸地、溪流附近，繁殖時在水中產卵、體外受精，不符合這組條件。國家公園資料亦明確記錄阿里山山椒魚是體外受精；不能把其他有尾兩生類的體內受精方式概括套給本題山椒魚。\n\nB蚊子雖卵生且體內受精，成體主要活動於陸域及空中；水中生活的是幼生孑孓，不符合「成體主要為水域」。\n\nC小丑魚在水中生活、卵生，但雌魚排卵後雄魚在卵上排精，屬體外受精，不符合第三張牌。\n\nD三項均符合。不要把生存環境、受精位置、產卵地點混成同一個條件，也不要把所有魚類或所有兩生類的生殖方式一概而論。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。",
+      "tags": [
+        "生物分類",
+        "受精方式",
+        "卵生",
+        "綠蠵龜"
+      ],
+      "images": [
+        "assets/originals/q-1049-original-bad02a08710f.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "originalQuestionNumber": "39",
+      "sourceLabel": "分享原卷｜第39題",
+      "studentAnswer": "原卷藍筆A，紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "tables": [
+        {
+          "caption": "圖（十七）三張卡牌的原印條件",
+          "headers": [
+            "成體生存環境",
+            "胚胎發育方式",
+            "受精方式"
+          ],
+          "rows": [
+            [
+              "主要為水域",
+              "卵生",
+              "體內受精"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "海中生活、卵生與體內受精",
+        "art": "assets/comics/q-1049-art-193059545b.svg",
+        "panels": [
+          {
+            "heading": "① 先把三張牌分開",
+            "text": "題目限定成體環境、卵生及體內受精；三者必須同時符合。卵生不等於體外受精。",
+            "alt": "三個獨立條件",
+            "diagram": {
+              "kind": "flow",
+              "title": "三個獨立條件",
+              "items": [
+                {
+                  "label": "成體環境",
+                  "detail": "主要為水域",
+                  "tone": "blue"
+                },
+                {
+                  "label": "胚胎發育",
+                  "detail": "卵生",
+                  "tone": "gold"
+                },
+                {
+                  "label": "受精位置",
+                  "detail": "體內",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "② 別用幼生代替成體",
+            "text": "蚊子水中生活的是幼生，成體不符合；小丑魚雖水生卵生，卻是體外受精。",
+            "alt": "排除B、C",
+            "diagram": {
+              "kind": "flow",
+              "title": "排除B、C",
+              "items": [
+                {
+                  "label": "B｜蚊子",
+                  "detail": "成體主要在陸域、空中",
+                  "tone": "blue"
+                },
+                {
+                  "label": "C｜小丑魚",
+                  "detail": "體外受精",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "③ 綠蠵龜三項都符合",
+            "text": "綠蠵龜主要海中生活、體內受精後上岸產卵。山椒魚不以名稱判類，也不套用其他有尾兩生類的受精方式。",
+            "alt": "D逐條核對",
+            "diagram": {
+              "kind": "paths",
+              "title": "D逐條核對",
+              "items": [
+                {
+                  "label": "海中生活",
+                  "detail": "符合水域",
+                  "tone": "blue"
+                },
+                {
+                  "label": "上岸產卵",
+                  "detail": "符合卵生",
+                  "tone": "gold"
+                },
+                {
+                  "label": "體內受精",
+                  "detail": "符合受精方式",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "D"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 爬蟲類的綠蠵龜",
+          "points": [
+            "綠蠵龜主要在海中生活，體內受精後上岸產卵。",
+            "蚊子要看成體；小丑魚不符合體內受精。",
+            "卵生與受精位置是兩個不同條件。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1050",
+      "sourceId": "src-more-066",
+      "subject": "Chinese",
+      "title": "國文第6題｜瞭、幢、卜、佻的字音",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "下列文句「　」中的字，何者讀音正確？\n(A) 山頂有一座「瞭」望臺，可以眺望城市美景：ㄌㄧㄠˊ\n(B) 森林深處的那「幢」老屋，看起來十分陰森：ㄔㄨㄥˊ\n(C) 最近年輕人流行用塔羅牌來占「卜」愛情運勢：ㄆㄨˇ\n(D) 他那輕「佻」的態度和語氣，讓我感到不舒服：ㄊㄧㄠˊ",
+      "answer": "(D) 輕「佻」：ㄊㄧㄠˊ",
+      "explanation": "一、保留原題的錯誤注音，再逐項訂正\nA原印ㄌㄧㄠˊ（二聲），「瞭望」的瞭應讀ㄌㄧㄠˋ（四聲），故不選。瞭在瞭解等詞可讀ㄌㄧㄠˇ，仍不能把那個讀音套到瞭望。\n\nB原印ㄔㄨㄥˊ，房屋量詞「幢」在臺灣教育部國語辭典讀ㄔㄨㄤˊ；韻母ㄥ應改成ㄤ，故不選。不能將普通話另用的ㄉㄨㄥˋ當作本題教材正音。\n\nC原印ㄆㄨˇ，「占卜」的卜應讀ㄅㄨˇ，聲母ㄆ應改ㄅ，故不選。\n\nD輕佻的佻讀ㄊㄧㄠˊ，形容態度或言語不莊重，原題所列讀音正確，因此選D。\n\n二、原AI的問題\n原回覆表格把A、C的原印錯音換成正確讀音，卻仍標錯，造成自相矛盾；又將幢的正音寫成ㄉㄨㄥˋ。現依原卷與教育部字典，區分「原印選項」及「訂正讀音」，不改動題目的錯音。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。",
+      "tags": [
+        "字音",
+        "注音辨析"
+      ],
+      "images": [
+        "assets/originals/q-1050-original-562a6552ed6a.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1050-figure-000cde351f7d.jpg",
+          "alt": "原卷四選項注音依序為ㄌㄧㄠˊ、ㄔㄨㄥˊ、ㄆㄨˇ、ㄊㄧㄠˊ；未訂正。",
+          "caption": "原卷必要附圖裁切，保留原印內容。"
+        }
+      ],
+      "explanationFigures": [],
+      "originalQuestionNumber": "6",
+      "sourceLabel": "分享原卷｜第6題",
+      "studentAnswer": "原卷黑筆A，紅筆訂正D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "teachingComic": {
+        "title": "瞭、幢、卜、佻的字音",
+        "art": "assets/comics/q-1050-art-193059545b.svg",
+        "panels": [
+          {
+            "heading": "① 瞭望要讀四聲",
+            "text": "A原印二聲ㄌㄧㄠˊ；瞭望的瞭應讀ㄌㄧㄠˋ。讀音要和詞義一起判斷。",
+            "alt": "A的聲調差別",
+            "diagram": {
+              "kind": "flow",
+              "title": "A的聲調差別",
+              "items": [
+                {
+                  "label": "原印｜ㄌㄧㄠˊ",
+                  "detail": "二聲，照留原題",
+                  "tone": "blue"
+                },
+                {
+                  "label": "正音｜ㄌㄧㄠˋ",
+                  "detail": "四聲，表示遠望",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "② 分清韻母與聲母",
+            "text": "B的ㄥ應改ㄤ；C的ㄆ應改ㄅ。不要把訂正後的讀音放回原選項又標錯。",
+            "alt": "B、C各錯在哪裡",
+            "diagram": {
+              "kind": "flow",
+              "title": "B、C各錯在哪裡",
+              "items": [
+                {
+                  "label": "幢｜ㄔㄨㄥˊ → ㄔㄨㄤˊ",
+                  "detail": "改韻母",
+                  "tone": "blue"
+                },
+                {
+                  "label": "卜｜ㄆㄨˇ → ㄅㄨˇ",
+                  "detail": "改聲母",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "③ 輕佻的佻讀二聲",
+            "text": "D原印ㄊㄧㄠˊ，與教育部字典一致。輕佻指態度或言語不莊重，因此D正確。",
+            "alt": "D的詞音對照",
+            "diagram": {
+              "kind": "paths",
+              "title": "D的詞音對照",
+              "items": [
+                {
+                  "label": "輕佻",
+                  "detail": "言語或舉止不莊重",
+                  "tone": "blue"
+                },
+                {
+                  "label": "佻｜ㄊㄧㄠˊ",
+                  "detail": "二聲",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "D"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 輕「佻」：ㄊㄧㄠˊ",
+          "points": [
+            "原印A二聲，瞭望的瞭應讀四聲ㄌㄧㄠˋ。",
+            "幢應讀ㄔㄨㄤˊ，卜應讀ㄅㄨˇ。",
+            "輕佻的佻讀ㄊㄧㄠˊ，原印D正確。"
+          ]
+        },
+        "protectedWords": [
+          "ㄌㄧㄠˊ",
+          "ㄌㄧㄠˋ",
+          "ㄔㄨㄥˊ",
+          "ㄔㄨㄤˊ",
+          "ㄆㄨˇ",
+          "ㄅㄨˇ",
+          "ㄊㄧㄠˊ",
+          "輕佻",
+          "瞭望"
+        ]
+      }
+    },
+    {
+      "id": "q-1051",
+      "sourceId": "src-more-066",
+      "subject": "Chinese",
+      "title": "國文第14題｜造意、擔誤與走頭無路",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "下列文句，何者用字完全正確？\n(A) 曾教授的文學造意很高，是多年努力累積的成果\n(B) 一場突如其來的大雨，擔誤了我們上午的既定行程\n(C) 沒想到這件案子的紕漏，會讓公司蒙受如此大的損失\n(D) 這部電影描述主角在走頭無路的絕境中，仍奮起反擊的故事",
+      "answer": "(C) 沒想到這件案子的紕漏，會讓公司蒙受如此大的損失",
+      "explanation": "一、逐項核對詞語的字形與語意\nA原卷印「造意」，不是原AI轉錄的「造音」。表示學問、技藝達到的程度，應寫「造詣」；此處應把意改成詣。\n\nB原印「擔誤」，表示延遲、耽擱應寫「耽誤」，應把擔改成耽。\n\nC「紕漏」指疏漏、差錯，寫法正確。句意是案子的疏失造成公司損失，整句用字正確，選C。\n\nD「走頭無路」應為「走投無路」；投有投奔之意，形容無處投奔、陷入絕境。應把頭改成投。\n\n二、讀音與記憶\n造詣讀ㄗㄠˋ ㄧˋ，耽誤讀ㄉㄢ ㄨˋ，紕漏讀ㄆㄧ ㄌㄡˋ，走投無路讀ㄗㄡˇ ㄊㄡˊ ㄨˊ ㄌㄨˋ。判斷完全正確的選項，要逐字檢查所有選項；不能只憑整句通順就選。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。",
+      "tags": [
+        "字形",
+        "錯別字",
+        "詞語"
+      ],
+      "images": [
+        "assets/originals/q-1051-original-0ba6b610559d.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "originalQuestionNumber": "14",
+      "sourceLabel": "分享原卷｜第14題",
+      "studentAnswer": "原卷黑筆D，紅筆訂正C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "teachingComic": {
+        "title": "造意、擔誤與走頭無路",
+        "art": "assets/comics/q-1051-art-193059545b.svg",
+        "panels": [
+          {
+            "heading": "① 學問程度叫造詣",
+            "text": "A原印造意，應改為造詣；不是原AI說的造音。保留原字再指出應改哪一字。",
+            "alt": "A逐字核對",
+            "diagram": {
+              "kind": "flow",
+              "title": "A逐字核對",
+              "items": [
+                {
+                  "label": "原印｜造意",
+                  "detail": "意字照留題目",
+                  "tone": "blue"
+                },
+                {
+                  "label": "正寫｜造詣",
+                  "detail": "意 → 詣",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "② 由意思辨別同音字",
+            "text": "耽誤是耽擱延遲；走投無路是無處投奔。B、D各有一個錯字。",
+            "alt": "B、D訂正",
+            "diagram": {
+              "kind": "flow",
+              "title": "B、D訂正",
+              "items": [
+                {
+                  "label": "擔誤 → 耽誤",
+                  "detail": "擔 → 耽",
+                  "tone": "blue"
+                },
+                {
+                  "label": "走頭無路 → 走投無路",
+                  "detail": "頭 → 投",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "核對概念"
+            }
+          },
+          {
+            "heading": "③ 紕漏表示疏漏錯誤",
+            "text": "C的紕漏用字正確，放在案子造成損失的語境也合適，故選C。",
+            "alt": "C詞義核對",
+            "diagram": {
+              "kind": "paths",
+              "title": "C詞義核對",
+              "items": [
+                {
+                  "label": "紕漏",
+                  "detail": "疏漏、差錯",
+                  "tone": "blue"
+                },
+                {
+                  "label": "原句語境",
+                  "detail": "案子的疏失造成損失",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依條件判斷",
+              "target": "C"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 沒想到這件案子的紕漏，會讓公司蒙受如此大的損失",
+          "points": [
+            "造意 → 造詣；擔誤 → 耽誤。",
+            "走頭無路 → 走投無路。",
+            "C的紕漏用字與語意皆正確。"
+          ]
+        },
+        "protectedWords": [
+          "造詣",
+          "紕漏",
+          "耽誤",
+          "造意",
+          "擔誤",
+          "走頭無路",
+          "走投無路"
+        ]
+      }
+    },
+    {
+      "id": "q-1052",
+      "sourceId": "src-more-066",
+      "subject": "Math",
+      "title": "數學第24題｜方格路徑與三角不等式",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-10",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-10",
+      "question": "阿嘎在無法使用任何工具測量的條件下，欲判斷R₁、R₂、R₃中最長與最短的路徑，下列各選項是阿嘎在推論過程中得到的結論，則哪一個是錯誤的？\n(A) ED＝GB\n(B) AC＋CD＞AG\n(C) DF＋FB＜GB\n(D) R₂最長",
+      "answer": "(C) DF＋FB＜GB 是錯誤的結論",
+      "explanation": "一、從每格1公分讀出線段\n以A為(0,0)，原圖可讀B(5,5)、C(1,3)、D(2,4)、E(1,1)、F(3,4)、G(4,2)。座標是由原圖格線核讀的解題輔助，不是額外已知。\n\n二、快速判斷C\nDB與GB的水平、垂直位移分別為(3,1)及(1,3)，由畢氏定理可得DB＝GB＝√10。D、F、B不共線，三角形兩邊和大於第三邊，所以DF＋FB＞DB＝GB。C卻寫小於，故C錯誤，是本題答案。也可直接驗算DF＋FB＝1＋√5，約3.236，大於√10，約3.162。\n\n三、驗算A與B\nA：ED的位移為(1,3)，GB的位移為(1,3)，所以ED＝GB＝√10，正確。\nB：AC＋CD＝√10＋√2，AG＝√20＝2√5。因(√10＋√2)²＝12＋4√5＞20，兩者皆正，因此AC＋CD＞AG，B正確。此處是不同終點的線段比較，不能直接把它當成同一三角形的兩邊和。\n\n四、確認D的最長路徑\nR₁＝AC＋CD＋DB＝2√10＋√2，約7.739公分。R₂＝AE＋ED＋DF＋FB＝√2＋√10＋1＋√5，約7.813公分。R₃＝AG＋GB＝2√5＋√10，約7.634公分。\nR₂比R₁多DF＋FB−DB，因三角不等式為正；又因√10＋√2＞2√5，所以R₁＞R₃。故R₂＞R₁＞R₃，D正確。先看題目問錯誤，再找反向不等號，不必把「最短」當作題目要選的答案。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、選項與必要圖表。日期採本題首次對話（台灣時間），未提供實際考試日期；冊次及課次無證據，歸綜合。 本題原圖核對證據拼接共同材料與第24題裁切，中間空白分隔；未收入非提問的第23題。",
+      "tags": [
+        "畢氏定理",
+        "三角不等式",
+        "方格路徑"
+      ],
+      "images": [
+        "assets/originals/q-1052-original-39c129e09631.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1052-figure-4650800fe8fe.jpg",
+          "alt": "原題方格圖與三條路徑表，未重繪、未加入解答。",
+          "caption": "原卷必要附圖裁切，保留原印內容。"
+        }
+      ],
+      "explanationFigures": [],
+      "originalQuestionNumber": "24",
+      "sourceLabel": "分享原卷｜第24題",
+      "studentAnswer": "原卷黑筆B；紅筆圈訂正記號與原AI驗算均指向C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "passage": "請閱讀下列敘述後，回答23～24題\n阿嘎參加機器人設計活動，需操控機器人在5×5的方格棋盤上從A點行走至B點，且每個小方格皆是邊長為1公分的正方形。主辦單位規定了三條行走路徑R₁、R₂、R₃，其行經位置如下圖表所示，其中A、B、C、D、E、F、G七點皆落在格線的交點上，且兩點之間的路徑皆為直線。",
+      "tables": [
+        {
+          "caption": "原題三條路徑",
+          "headers": [
+            "路徑",
+            "編號",
+            "圖例",
+            "行經位置"
+          ],
+          "rows": [
+            [
+              "第一條路徑",
+              "R₁",
+              "橘色實線",
+              "A → C → D → B"
+            ],
+            [
+              "第二條路徑",
+              "R₂",
+              "藍色虛線",
+              "A → E → D → F → B"
+            ],
+            [
+              "第三條路徑",
+              "R₃",
+              "綠色實線",
+              "A → G → B"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "方格路徑與三角不等式",
+        "art": "assets/comics/q-1052-art-e09a5a3a17.svg",
+        "panels": [
+          {
+            "heading": "① 先認出兩條等長線段",
+            "text": "由方格可得DB與GB的位移分別是3、1及1、3，因此長度同為√10。",
+            "alt": "ED、DB、GB在原格點位置的精確比較圖；ED及GB位移均為1與3，DB位移為3與1。",
+            "caption": "新製輔助圖｜ED橘、DB藍虛線、GB綠；每格1公分。"
+          },
+          {
+            "heading": "② 折線一定比直線長",
+            "text": "D、F、B不共線，所以DF＋FB＞DB。代入DB＝GB，即得DF＋FB＞GB，C的反向小於錯誤。",
+            "alt": "D、F、B形成非退化三角形，DB為藍虛線，D至F至B為橘紅折線，GB以綠色對照。",
+            "caption": "新製輔助圖｜DF＋FB橘紅折線、DB藍虛線、GB綠。"
+          },
+          {
+            "heading": "③ 最長與最短也核對",
+            "text": "R₂比R₁多繞過F的距離；R₁又大於R₃。D說R₂最長正確，不能因題目談最短就選最短路徑。",
+            "alt": "三條原路徑以橘實線、藍虛線、綠實線呈現，格點與原卷一致。",
+            "caption": "新製輔助圖｜R₁橘實線、R₂藍虛線、R₃綠實線。"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) DF＋FB＜GB 是錯誤的結論",
+          "points": [
+            "DB＝GB＝√10，D、F、B不共線。",
+            "三角不等式給出DF＋FB＞DB＝GB。",
+            "R₂＞R₁＞R₃；C的小於才是錯誤結論。"
+          ]
+        },
+        "protectedWords": [
+          "DF＋FB",
+          "DB＝GB",
+          "√10",
+          "三角不等式"
+        ]
+      }
     }
   ],
-  "dataUpdatedAt": "2026-11-09T16:03:56+00:00"
+  "dataUpdatedAt": "2026-11-10T14:18:01+00:00"
 }

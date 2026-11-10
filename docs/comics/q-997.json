@@ -1,0 +1,155 @@
+{
+  "id": "q-997",
+  "subject": "Chinese",
+  "title": "按原表分清三團體方法與角色",
+  "art": "docs/comics/art/q-997-roles.svg",
+  "generationMethod": "new native selectable HTML actor/process diagrams for three source-table organizations with SVG flow fallback",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-997-q-34-original-afa8e9f0c712.png"
+  ],
+  "answerCheckedAgainst": "原卷完整閱讀文、三團體表格與第34四選項實看，C與MyGoPen轉發闢謠圖文直接對應；A混志工/機器人，B宣講非實作，D皆字泛化。",
+  "rationale": "核心是來源表格的不同角色與流程，以新HTML三團體流程圖精確連起志工/資料庫機器人、宣講/案例、製圖/轉傳；不以現代服務實況或模擬介面取代原文，不讓品牌圖標/人像遮蓋角色。",
+  "panels": [
+    {
+      "heading": "① Cofacts：志工查核，機器人找既有回應",
+      "text": "民眾回報可疑訊息，由志工查核寫回應；之後相似提問才由機器人查資料庫。A把這個流程說成隨時志工諮詢，超出原表。",
+      "alt": "可選取HTML將民眾回報、志工查核回應、機器人資料庫回覆三角色分開，非服務現況保證。",
+      "diagram": {
+        "kind": "flow",
+        "title": "原表角色與先後不可混用",
+        "items": [
+          {
+            "label": "民眾｜回報可疑訊息",
+            "detail": "先提供待查核的內容。",
+            "tone": "blue"
+          },
+          {
+            "label": "編輯志工｜查核、撰寫回應",
+            "detail": "回應進入可供查詢的資料。",
+            "tone": "gold"
+          },
+          {
+            "label": "機器人｜找資料庫相關回應",
+            "detail": "之後遇相似問題，供民眾參考。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "依原表先後與分工"
+      }
+    },
+    {
+      "heading": "② 假新聞清潔劑：宣講與案例分享",
+      "text": "原表說到廟口、菜市場等地宣講，詢問受騙經驗，再分享案例。B加上「帶領長輩實際查核」，原文並沒有寫這個工作。",
+      "alt": "可選取HTML先後列街頭宣講詢問經驗，再分享案例與辨別重要性，不新增長輩查核實作。",
+      "diagram": {
+        "kind": "flow",
+        "title": "先核文字有沒有說到",
+        "items": [
+          {
+            "label": "詢問｜是否收到詐騙訊息",
+            "detail": "街頭宣講的切入點。",
+            "tone": "blue"
+          },
+          {
+            "label": "分享｜受騙案例",
+            "detail": "提醒辨別訊息真假的重要。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "宣講不自動等於查核實作"
+      }
+    },
+    {
+      "heading": "③ MyGoPen：沿轉傳習慣散播闢謠資訊",
+      "text": "原表明說製作澄清圖文，吸引長輩像發早安圖一樣轉到群組，正好支持C。三團體方法各不同，D的「皆」概括成相同活動也不成立。",
+      "alt": "可選取HTML將製作澄清圖文、長輩依熟悉轉傳方式、群組收到闢謠資訊連起，直接對應C。",
+      "diagram": {
+        "kind": "flow",
+        "title": "C有直接文本證據",
+        "items": [
+          {
+            "label": "MyGoPen｜製作謠言澄清圖文",
+            "detail": "內容是破除謠言的資訊。",
+            "tone": "blue"
+          },
+          {
+            "label": "長輩｜像發早安圖一樣轉傳",
+            "detail": "運用熟悉的圖文轉發習慣。",
+            "tone": "gold"
+          },
+          {
+            "label": "群組｜讓更多人接觸闢謠資訊",
+            "detail": "與選項C的說法吻合。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "由澄清圖文到群組傳播"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：利用轉發圖文習慣傳播闢謠資訊",
+    "points": [
+      "C直接對應MyGoPen原表內容。",
+      "A混淆志工查核與機器人資料庫查詢。",
+      "B加了未寫的實際查核；D把不同方法誤稱皆相同。"
+    ]
+  },
+  "protectedWords": [
+    "Cofacts",
+    "MyGoPen",
+    "假新聞清潔劑",
+    "志工",
+    "機器人",
+    "資料庫",
+    "早安圖",
+    "闢謠",
+    "查核",
+    "澄清圖文"
+  ],
+  "producerAgent": "/root/comic_lane_1",
+  "createdAt": "2026-11-09T16:13:33.805686+00:00",
+  "artSHA256": "5f3710363b62bc2ffb70b71b6a2ba74fa701ae77863311b428b820981cc60be0",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-997-preview-validation.json",
+  "visualReview": "原卷全文/三團體表/34選項實看，新HTML角色流程於隔離桌手機成品實看、三寬PASS，C直接證據保留；志工/機器人、宣講/實作未混，不補現今服務功能。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-997-1440.png",
+      "/tmp/weirugo-comic-previews/q-997-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-997-art-5f3710363b.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T16:14:20.772590+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-997-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-997-app-390.png",
+      "/tmp/weirugo-comic-checks/q-997-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-997-standalone-390.png"
+    ],
+    "note": "原卷全文/三團體表與34選項實看，新HTML分清志工查核/機器人查庫、宣講/實作、製圖/轉傳，C有直接依據；正式app單頁桌手機四成品實看、六布局PASS，不補現行服務功能。"
+  },
+  "validationFile": "docs/comics/q-997-validation.json",
+  "checkedAt": "2026-11-09T16:14:20.780508+00:00"
+}

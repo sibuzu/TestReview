@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-11-09T16:18:30.610560+00:00",
+  "passed": true,
+  "scopeCount": 47,
+  "formallyIntegrated": 47,
+  "bankOriginals": 925,
+  "bankPages": 849,
+  "revision": "2026-10-27.0001487897bd",
+  "newAnime": 22,
+  "nativeDiagram": 25,
+  "finalFormalLayoutResults": 282,
+  "finalIsolatedLayoutResults": 141,
+  "actualIntegratorDesktopMobileScreenshotsReviewed": 188,
+  "iterationQA": "各題最終六正式/三隔離布局各計一次；修改後的重試不另算完成件。",
+  "scopeAudit": "docs/comics/remaining-20261109/completion-audit.json",
+  "standaloneOriginalUrlsChecked": 925,
+  "missingStandaloneUrls": [],
+  "legacyAliasBrowserQA": "docs/comics/remaining-20261109/alias-validation.json",
+  "contentIntegrity": "全47 immutable原題/選項/閱讀文/表圖/日期及expected answer/studentAnswer/explanation逐欄PASS；878非scope內容保留，僅q951已允許衍生導覽變化。",
+  "dataAssets": {
+    "references": 2879,
+    "missing": 0
+  },
+  "siteTests": {
+    "command": "npm test --prefix site",
+    "pass": 121,
+    "fail": 0,
+    "log": ".cache/intake-20261109/final-site-tests.log"
+  },
+  "monitorTests": {
+    "command": "python3 -m unittest monitor.test_comic_pipeline monitor.test_comic_publish monitor.test_comic_queue monitor.test_parallel_timing monitor.test_group_queue monitor.test_source_progress monitor.test_server",
+    "pass": 73,
+    "fail": 0,
+    "log": ".cache/intake-20261109/final-monitor-tests-modules.log",
+    "launcherAttempts": [
+      {
+        "log": ".cache/intake-20261109/final-monitor-tests.log",
+        "result": "discovery以裸模組載入造成4項相對匯入錯誤；改明確monitor.*模組後73全過。"
+      },
+      {
+        "log": ".cache/intake-20261109/final-monitor-tests-package.log",
+        "result": "namespace目錄不支援此discovery入口；無產品變更。"
+      }
+    ]
+  },
+  "publicationBatches": [
+    {
+      "verifiedEvents": 20,
+      "commit": "fca1d8b7b720c468f640a296e050c7d98e07c5ec",
+      "ledgerBatch": 29,
+      "receipt": "docs/comics/remaining-20261109/batch-1-publication.json"
+    },
+    {
+      "verifiedEvents": 20,
+      "commit": "506036b50745fd92f2251cf0832a847f900b01a6",
+      "ledgerBatch": 30,
+      "receipt": "docs/comics/remaining-20261109/batch-2-publication.json"
+    }
+  ],
+  "latestRemoteCommit": "506036b50745fd92f2251cf0832a847f900b01a6",
+  "pendingPublication": {
+    "readyToPublish": false,
+    "verifiedComicCount": 7,
+    "questionIds": [
+      "q-1041",
+      "q-982",
+      "q-985",
+      "q-991",
+      "q-988",
+      "q-997",
+      "q-994"
+    ]
+  },
+  "limitations": [
+    "最後7件未達20事件門檻，本機已完成但未commit/push，pending7保留。",
+    "未Netlify或Sites部署；原始PNG與QA點陣只留本機，發布使用SVG/WebP。"
+  ],
+  "gitDiffCheck": "passed",
+  "workingTreeStatusEntries": 69,
+  "localHEAD": "506036b50745fd92f2251cf0832a847f900b01a6",
+  "rootMonitorCompletionQA": "docs/comics/remaining-20261109/monitor-final-validation.json",
+  "rootReviewedAt": "2026-11-09T16:26:25.253606+00:00",
+  "completionState": "all47_formally_integrated_and_root_verified"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "illustration_completion",
-  "state": "active",
+  "state": "complete",
   "title": "完成目前剩餘47道原題的新四格圖解",
   "startedAt": "2026-11-09T14:49:10.994778+00:00",
   "questionIds": [
@@ -62,6 +62,9 @@
   "completionRule": "正式核驗整合才計完成；真正阻礙另列可查核確認，不用queued或skip冒稱完成",
   "completedQuestionIds": [
     "q-979",
+    "q-982",
+    "q-985",
+    "q-988",
     "q-980",
     "q-983",
     "q-986",
@@ -70,6 +73,9 @@
     "q-995",
     "q-998",
     "q-1001",
+    "q-991",
+    "q-994",
+    "q-997",
     "q-1004",
     "q-1007",
     "q-1010",
@@ -91,6 +97,7 @@
     "q-1005",
     "q-1008",
     "q-996",
+    "q-1041",
     "q-1042",
     "q-1043",
     "q-1044",
@@ -102,16 +109,33 @@
     "q-1039",
     "q-1040"
   ],
-  "completedCount": 40,
-  "updatedAt": "2026-11-09T16:04:19.070902+00:00",
+  "completedCount": 47,
+  "updatedAt": "2026-11-09T16:21:10.823397+00:00",
   "publicationBatches": [
     {
       "verifiedEvents": 20,
       "commit": "fca1d8b7b720c468f640a296e050c7d98e07c5ec",
       "ledgerBatch": 29,
       "receipt": "docs/comics/remaining-20261109/batch-1-publication.json"
+    },
+    {
+      "verifiedEvents": 20,
+      "commit": "506036b50745fd92f2251cf0832a847f900b01a6",
+      "ledgerBatch": 30,
+      "receipt": "docs/comics/remaining-20261109/batch-2-publication.json"
     }
   ],
-  "latestPublication": "fca1d8b7b720c468f640a296e050c7d98e07c5ec",
-  "pendingPublicationEvents": 0
+  "latestPublication": "506036b50745fd92f2251cf0832a847f900b01a6",
+  "pendingPublicationEvents": 7,
+  "completedAt": "2026-11-09T16:21:10.823397+00:00",
+  "pendingPublicationQuestionIds": [
+    "q-1041",
+    "q-982",
+    "q-985",
+    "q-991",
+    "q-988",
+    "q-997",
+    "q-994"
+  ],
+  "publicationNote": "依每20件門檻已正常push40件；最後7件本機完成，保留pending7，未額外commit/push或部署。"
 }

@@ -1,0 +1,100 @@
+{
+  "id": "q-994",
+  "subject": "Chinese",
+  "title": "居民與船員要分清，找沒有文本證據的一項",
+  "art": "docs/comics/art/q-994.png",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "built-in image_gen; new refined colorful anime early-19th-century residents/rebuilding, local neighbors and sailing-ship crew scenes",
+  "promptFile": "docs/comics/q-994-prompt.txt",
+  "generationTiming": "docs/comics/q-994-generation-timing.json",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-994-q-32-original-4f5bb6b96ed3.png"
+  ],
+  "sourceReview": "correction-q-994-66b4b0e58f7c (resolved)",
+  "answerCheckedAgainst": "實看原卷32全文/雙線句/四選項，A不願遷居重建、C習慣震動及餘震反應、D富窮善待均有據。船員陰鬱轉開朗不等於居民善待外人，B最不可能，沿已resolved確認，不改回原AI A。",
+  "supportingSources": [
+    {
+      "title": "Darwin Correspondence Project：to Henslow, March1835",
+      "url": "https://www.darwinproject.ac.uk/view/letters/DCP-LETT-272.html",
+      "finding": "達爾文當時書信提從Concepcion離開與2月20日地震，僅核對插畫年代脈絡。"
+    },
+    {
+      "title": "智利國家圖書館Memoria Chilena：1822及1835地震",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-93307.html",
+      "finding": "1835年Concepcion與Talcahuano受震、Darwin記述，輔助檢查插畫時期；不改題目首次出題日期。"
+    }
+  ],
+  "rationale": "用新細緻動漫分開岸上居民眷土/貧富相待與船上船員心情，讓人物主體不可互換。按1830年代南美低屋/衣著/木帆船作教學示意，不假稱人物是達爾文或費茲羅肖像、不是特定現場還原；不加善待外來者情節或把文本反應當防災操作教學。",
+  "panels": [
+    {
+      "heading": "① 不願遷居、準備重建→A有證據",
+      "text": "居民仍不願搬到別處，打算重建家園，支持對故土的依戀。文中習慣震動、面對餘震的反應，也可支持C所說災難融入生活的態度。",
+      "caption": "震後重建的輔助情境，非真實人物或當下震動現場。",
+      "alt": "1830年代衣著的當地家庭在損壞低屋前考慮重建，手持屋瓦，無現代器材或外來救援團，不重演逃難。"
+    },
+    {
+      "heading": "② 富人、窮人善待彼此→D有證據",
+      "text": "原文明說富人窮人同樣失去財物，更願意善待彼此。這支持打破階級隔閡；對象是當地貧富居民，不是外來者。",
+      "alt": "同一地方的兩名居民以較精緻/樸素的當時衣著區分原有財富，互相分享物品，沒有外國訪客迎接儀式。"
+    },
+    {
+      "heading": "③ 船員心情轉好≠居民善待外來者",
+      "text": "末段轉為開朗、慶幸好運的是小獵犬號船員。B卻說當地居民由封閉變得善待外來者，換了人物與情節，原文沒有這項證據。",
+      "caption": "船上一般船員的輔助示意；不指認為達爾文或費茲羅。",
+      "alt": "木帆船甲板上的三名一般船員鬆一口氣、心情轉好；與岸上居民分開，無居民歡迎外國人的新增情節。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：居民善待外來者，文中無據",
+    "points": [
+      "題目問「最不可能」，要選缺乏文本支持者。",
+      "A眷土、C習慣災難、D貧富相待，均可對應文章。",
+      "船員的心情，不能換成居民對外人的態度。"
+    ]
+  },
+  "protectedWords": [
+    "小獵犬號",
+    "外來者",
+    "貧富居民",
+    "階級隔閡",
+    "船員",
+    "達爾文",
+    "費茲羅",
+    "最不可能",
+    "文本證據"
+  ],
+  "createdAt": "2026-11-09T16:14:00.025187+00:00",
+  "artSHA256": "fffa8be5d7bc6ce9536e34d3e9a3cba800fb9bc5a5c2941c6a77aa0a62821d26",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T16:15:00.726469+00:00",
+  "previewValidation": "docs/comics/q-994-preview-validation.json",
+  "visualReview": "實看原卷32全文/雙線句/ABCD、新2172×724動漫及1440/1120/390成品。衣物/低屋/木帆船無現代明顯道具；居民眷土/當地貧富互助與一般船員分三景，不繪外人受歡迎。文字明示輔助非真實人物，B缺文本證據沿已resolved；全寬無溢出/保護詞拆行。",
+  "nativeArt": "assets/comics/q-994-art-fffa8be5d7-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T16:15:00.718020+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-994-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-994-app-390.png",
+      "/tmp/weirugo-comic-checks/q-994-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-994-standalone-390.png"
+    ],
+    "note": "實看原卷全文/雙線/四選項，B居民善待外人缺證據，A眷土/D貧富互助與船員心情分清；新動漫為輔助非事件重建，app單頁桌手機四成品實看、六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-994-validation.json"
+}

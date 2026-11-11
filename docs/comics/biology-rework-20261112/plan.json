@@ -1,10 +1,10 @@
 {
   "kind": "four_image_biology_and_missing_rework",
-  "state": "active",
+  "state": "paused",
   "createdAt": "2026-11-11T16:27:16.335709+00:00",
-  "updatedAt": "2026-11-11T20:13:01.550475+00:00",
+  "updatedAt": "2026-11-11T20:37:11.415269+00:00",
   "worknerdTaskId": "t_a87b51180cc247a88d16",
-  "goalActive": true,
+  "goalActive": false,
   "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
   "qualityReference": "todo/image.png",
   "qualityReferenceSHA256": "ca36f77021425921001aef133996e8e1fd1085aefe28adc7f3a748312ab0910d",
@@ -17,7 +17,7 @@
   "questionPageCount": 130,
   "originalQuestionCount": 140,
   "requiredImageCount": 560,
-  "completedQuestionPages": 57,
+  "completedQuestionPages": 62,
   "questionIds": [
     "q-046",
     "q-044",
@@ -1472,13 +1472,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-608"
+      ],
       "assignedTo": "/root",
       "startedAt": "2026-11-11T19:24:32.348475+00:00",
-      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間",
+      "completedAt": "2026-11-11T20:29:48.990158+00:00",
+      "validationFiles": [
+        "docs/comics/q-608-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-612",
@@ -1490,13 +1497,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-612"
+      ],
       "assignedTo": "/root",
       "startedAt": "2026-11-11T19:24:32.348475+00:00",
-      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間",
+      "completedAt": "2026-11-11T20:30:43.972930+00:00",
+      "validationFiles": [
+        "docs/comics/q-612-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-711",
@@ -1796,13 +1810,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-762"
+      ],
       "assignedTo": "/root/comic_lane_3",
       "startedAt": "2026-11-11T19:24:32.348475+00:00",
-      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間",
+      "completedAt": "2026-11-11T20:32:36.892719+00:00",
+      "validationFiles": [
+        "docs/comics/q-762-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-763",
@@ -1814,13 +1835,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-763"
+      ],
       "assignedTo": "/root/comic_lane_3",
       "startedAt": "2026-11-11T19:24:32.348475+00:00",
-      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間",
+      "completedAt": "2026-11-11T20:35:35.903086+00:00",
+      "validationFiles": [
+        "docs/comics/q-763-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-774",
@@ -1832,13 +1860,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-774"
+      ],
       "assignedTo": "/root",
       "startedAt": "2026-11-11T19:24:32.348475+00:00",
-      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間",
+      "completedAt": "2026-11-11T20:25:36.372709+00:00",
+      "validationFiles": [
+        "docs/comics/q-774-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-912",
@@ -2903,8 +2938,8 @@
   ],
   "textOnlyAdditionalQuestionPageCount": 53,
   "initialFieldAuditQuestionPages": 77,
-  "completedOriginalQuestions": 60,
-  "completedImages": 240,
+  "completedOriginalQuestions": 65,
+  "completedImages": 260,
   "publishedBatches": [
     {
       "batchNumber": 33,
@@ -3000,7 +3035,7 @@
   "executionControl": {
     "changedAt": "2026-11-11T18:57:46.761749+00:00",
     "mode": "missing_only",
-    "missingIllustration": "active",
+    "missingIllustration": "completed",
     "biologyQualityUpgrade": "paused",
     "textOnlyReplacement": "paused",
     "userInstruction": "只繼續原本完全缺圖；文字框重製與生物品質升級暫停。保留已正式完成新圖及未整合草稿。",
@@ -3111,6 +3146,12 @@
       "q-982",
       "q-997"
     ],
-    "snapshot": "docs/comics/biology-rework-20261112/scope-change-completion-snapshot.json"
-  }
+    "snapshot": "docs/comics/biology-rework-20261112/scope-change-completion-snapshot.json",
+    "missingCompletedAt": "2026-11-11T20:37:11.415261+00:00",
+    "missingCompletedQuestionPages": 20,
+    "missingCompletedOriginalQuestions": 22,
+    "missingCompletedImages": 88,
+    "remainingActiveOriginalQuestions": 0
+  },
+  "pauseReason": "本次22原問完全缺圖補作完成；其他75原問重製依使用者指示保持暫停，不宣稱歷史140全部完成。"
 }

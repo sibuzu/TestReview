@@ -1,33 +1,10 @@
 {
   "kind": "rework",
-  "state": "active",
-  "title": "補作原本完全缺圖（重製暫停）",
+  "state": "paused",
+  "title": "缺圖22原問已補完；其餘重製暫停",
   "startedAt": "2026-11-11T16:28:12.223244+00:00",
-  "updatedAt": "2026-11-11T19:43:45.738986+00:00",
-  "questionIds": [
-    "q-067",
-    "q-096",
-    "q-143",
-    "q-437",
-    "q-555",
-    "q-569",
-    "q-573",
-    "q-581",
-    "q-582",
-    "q-583",
-    "q-591",
-    "q-601",
-    "q-608",
-    "q-612",
-    "q-750",
-    "q-751",
-    "q-752",
-    "q-758",
-    "q-760",
-    "q-762",
-    "q-763",
-    "q-774"
-  ],
+  "updatedAt": "2026-11-11T20:37:11.417613+00:00",
+  "questionIds": [],
   "questionPageIds": [
     "q-569",
     "q-067",
@@ -53,8 +30,8 @@
   "questionPageCount": 130,
   "totalOriginalQuestions": 140,
   "requiredImageCount": 560,
-  "completed": 60,
-  "completedQuestionPages": 57,
+  "completed": 65,
+  "completedQuestionPages": 62,
   "worknerdTaskId": "t_a87b51180cc247a88d16",
   "goalCreated": true,
   "plan": "docs/comics/biology-rework-20261112/plan.json",
@@ -62,18 +39,13 @@
   "laneAssignments": {
     "1": [],
     "2": [],
-    "3": [
-      "q-555",
-      "q-573",
-      "q-762",
-      "q-763"
-    ]
+    "3": []
   },
   "execution": "只補作原本完全缺圖；生物品質升級與文字框重製暫停，草稿保留。Agent2維持暫停。",
   "executionControl": {
     "changedAt": "2026-11-11T18:57:46.761749+00:00",
     "mode": "missing_only",
-    "missingIllustration": "active",
+    "missingIllustration": "completed",
     "biologyQualityUpgrade": "paused",
     "textOnlyReplacement": "paused",
     "userInstruction": "只繼續原本完全缺圖；文字框重製與生物品質升級暫停。保留已正式完成新圖及未整合草稿。",
@@ -184,6 +156,11 @@
       "q-982",
       "q-997"
     ],
-    "snapshot": "docs/comics/biology-rework-20261112/scope-change-completion-snapshot.json"
+    "snapshot": "docs/comics/biology-rework-20261112/scope-change-completion-snapshot.json",
+    "missingCompletedAt": "2026-11-11T20:37:11.415261+00:00",
+    "missingCompletedQuestionPages": 20,
+    "missingCompletedOriginalQuestions": 22,
+    "missingCompletedImages": 88,
+    "remainingActiveOriginalQuestions": 0
   }
 }

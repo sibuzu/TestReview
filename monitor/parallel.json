@@ -1,26 +1,21 @@
 {
   "mode": "biology_four_image_goal",
   "workerLimit": 3,
-  "rootRole": "缺圖補作q437/q601後，q774/q608/q612；全部重製保持暫停",
-  "updatedAt": "2026-11-11T19:43:44.861211+00:00",
+  "rootRole": "全部缺圖補作已交付並正式驗收；不續領重製",
+  "updatedAt": "2026-11-11T20:37:11.442947+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "切換補作缺圖；更新生物新舊圖標示",
-      "state": "integrating",
-      "startedAt": "2026-11-11T18:57:46.761749+00:00",
+      "title": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "state": "paused",
+      "startedAt": null,
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": false,
+      "claimsPaused": true,
       "batchQuestionIds": [],
-      "pauseReason": "",
-      "activeTask": {
-        "title": "切換補作缺圖；更新生物新舊圖標示",
-        "state": "integrating",
-        "questionId": null,
-        "startedAt": "2026-11-11T18:57:46.761749+00:00"
-      }
+      "pauseReason": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "activeTask": null
     },
     {
       "lane": 2,
@@ -36,25 +31,20 @@
     },
     {
       "lane": 3,
-      "questionId": "q-762",
-      "title": "歷史第13題｜乾隆疆域與朝貢關係",
-      "state": "running",
-      "startedAt": "2026-11-11T19:24:32.348475+00:00",
+      "questionId": null,
+      "title": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "state": "paused",
+      "startedAt": null,
       "agent": "/root/comic_lane_3",
       "role": "production",
-      "claimsPaused": false,
-      "batchQuestionIds": [
-        "q-555",
-        "q-573",
-        "q-762",
-        "q-763"
-      ],
-      "pauseReason": "",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "pauseReason": "缺圖補作已完成，其餘重製依使用者指示暫停",
       "activeTask": null
     }
   ],
   "ready": [],
-  "integrated": 1037,
+  "integrated": 1042,
   "blocked": [],
   "waiting": [],
   "integrating": [],

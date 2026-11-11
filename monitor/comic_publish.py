@@ -143,13 +143,31 @@ def _finish_push(state_path, state, pending, remote):
     save(state_path, state)
 
 
-def publish():
+def missing_scope_finished(root, jobs):
+    """Allow the expressly authorized last partial batch only after all missing work."""
+    path=root/'docs/comics/biology-rework-20261112/plan.json'
+    if not path.exists() or not jobs:
+        return False
+    plan=load(path)
+    control=plan.get('executionControl', {})
+    ids=set(control.get('activeOriginalQuestionIds', []))
+    missing=[e for e in plan.get('entries', []) if set(e.get('originalQuestionIds', [])) & ids]
+    return (control.get('mode')=='missing_only' and control.get('missingIllustration')=='completed'
+            and bool(ids) and all(e['state']=='complete' for e in missing)
+            and ids=={qid for e in missing for qid in e['originalQuestionIds']}
+            and all(j['id'] in ids for j in jobs)
+            and control.get('biologyQualityUpgrade')=='paused'
+            and control.get('textOnlyReplacement')=='paused')
+
+
+def publish(finish_active_missing=False):
     with (ROOT/'.cache/comic-publish.lock').open('a') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
         policy, state_path, state, jobs = _pending_batch()
         assert policy['enabled'] and not policy.get('allowForcePush')
         if not state.get('pendingPush'):
-            assert len(jobs) >= policy['batchSize'], 'Fewer than 20 verified, integrated comics.'
+            final_partial = finish_active_missing and missing_scope_finished(ROOT, jobs)
+            assert len(jobs) >= policy['batchSize'] or final_partial, 'Fewer than 20 verified comics; active missing-only scope is not complete.'
             jobs = jobs[:policy['batchSize']]
             checks = subprocess.run(['npm', 'test', '--prefix', 'site'], cwd=ROOT, capture_output=True, text=True)
             (ROOT/'.cache/comic-publish-site-tests.log').write_text(checks.stdout+checks.stderr)
@@ -168,7 +186,7 @@ def publish():
                           throughIntegratedAt=jobs[-1]['integratedAt'],
                           datasetRevision=load(ROOT/'site/dist/data.json')['revision'],
                           checks=dict(siteTests=int(passed[1]), entryViewportCheckReport='docs/site-checks/entry-modes-2026-10-29.json', rawRasterExcludedFromGit=True),
-                          policy='User authorized commit all and push each 20 verified work events; UTC is only a label.')
+                          policy=('User authorized the final partial batch after completing the active missing-only scope; other reworks remain paused.' if final_partial else 'User authorized commit all and push each 20 verified work events; UTC is only a label.'))
             save(ROOT/'docs/comics'/f'publish-batch-2026-10-29-{batch_number:03d}.json', record)
             with locked(ROOT):
                 subprocess.run(['git', 'add', '-A'], cwd=ROOT, check=True)
@@ -190,9 +208,10 @@ def publish():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--publish', action='store_true')
+    parser.add_argument('--finish-active-missing', action='store_true', help='Publish the expressly authorized final partial missing-only batch; requires completed scope and paused reworks.')
     args = parser.parse_args()
     if args.publish:
-        print(__import__('json').dumps(publish(), ensure_ascii=False))
+        print(__import__('json').dumps(publish(args.finish_active_missing), ensure_ascii=False))
     else:
         policy, _, state, jobs = pending_batch()
         print(__import__('json').dumps(dict(readyToPublish=bool(state.get('pendingPush')) or len(jobs) >= policy['batchSize'],

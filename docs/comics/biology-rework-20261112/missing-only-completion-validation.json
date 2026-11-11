@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-11T20:39:58.231276+00:00",
+  "activeMissingOriginalIds": [
+    "q-067",
+    "q-096",
+    "q-143",
+    "q-437",
+    "q-555",
+    "q-569",
+    "q-573",
+    "q-581",
+    "q-582",
+    "q-583",
+    "q-591",
+    "q-601",
+    "q-608",
+    "q-612",
+    "q-750",
+    "q-751",
+    "q-752",
+    "q-758",
+    "q-760",
+    "q-762",
+    "q-763",
+    "q-774"
+  ],
+  "activeMissingQuestionPages": 20,
+  "activeMissingOriginals": 22,
+  "activeMissingImages": 88,
+  "formalLayouts": 132,
+  "isolatedLayouts": 66,
+  "finalBatchFormalLayouts": 30,
+  "finalBatchOriginalIds": [
+    "q-774",
+    "q-608",
+    "q-612",
+    "q-762",
+    "q-763"
+  ],
+  "actualVisualReview": "唯一整合者逐題實開原卷及必要圖、四張新圖、正式app/單頁1440與390；1120另自動排版驗證。",
+  "historicalScope": {
+    "questionPages": 130,
+    "originalQuestions": 140,
+    "requiredImages": 560
+  },
+  "historicalAccepted": {
+    "questionPages": 62,
+    "originalQuestions": 65,
+    "images": 260
+  },
+  "paused": {
+    "questionPages": 68,
+    "originalQuestions": 75,
+    "artworkMatchesOriginalBaseline": true
+  },
+  "originalContentAndAnswersUnchanged": true,
+  "referencedAssets": 3202,
+  "missingAssets": [],
+  "biologyFine": 17,
+  "biologyLegacy": 29,
+  "siteTests": {
+    "actualCommand": "npm test --prefix site",
+    "passed": 123,
+    "failed": 0,
+    "evidence": ".cache/root-missing-only-final-tests.log",
+    "independentReviewer": "/root"
+  },
+  "rootIndependentSpotCheck": [
+    "q612-app-390",
+    "q774-standalone-1440"
+  ],
+  "partialPublicationGate": "only explicit final flag, completed active missing scope, jobs inside active IDs, both rework categories paused",
+  "usageTokens": null,
+  "usageNote": "內建imagegen未提供usage；不估算、不填0。",
+  "status": "missing-only completed; broader rework paused",
+  "worknerdTaskId": "t_a87b51180cc247a88d16",
+  "monitorTests": {
+    "actualCommand": "python3 -m unittest monitor.test_comic_pipeline monitor.test_comic_publish monitor.test_parallel_timing monitor.test_source_progress monitor.test_comic_queue monitor.test_group_queue monitor.test_server monitor.test_comic_execution",
+    "passed": 76,
+    "failed": 0,
+    "evidence": ".cache/final-monitor-tests.log"
+  },
+  "monitorLiveStatus": {
+    "scope": "missing completed",
+    "goalStatus": "paused",
+    "allLanesPaused": true,
+    "integrating": 0
+  }
+}

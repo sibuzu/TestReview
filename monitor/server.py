@@ -156,12 +156,13 @@ def build_status(root=ROOT):
                 plan = read_json(plan_path)
                 paths.extend([rework_path, plan_path])
                 control = plan.get('executionControl', {})
+                missing_done = control.get('missingIllustration') == 'completed'
                 quality_path = root/'site/dist/biology-illustration-status.json'
                 quality = read_json(quality_path) if quality_path.exists() else {}
                 if quality_path.exists(): paths.append(quality_path)
                 activity = dict(activity, comicRework={
                     'title': priority.get('title', '四張實際圖解重作'),
-                    'description': (f'只補作原本完全缺圖：{control.get("activeQuestionPageCount")}題面／{control.get("activeOriginalQuestionCount")}原問；生物舊圖與文字框重製暫停。已完成新圖保留，草稿待驗收不計完成。生物恢復口令：{control.get("biologyResumePhrase")}。此口令不恢復非生物文字框。' if control else f'共{plan.get("questionPageCount", 0)}題面、{plan.get("originalQuestionCount", 0)}原問，需{plan.get("requiredImageCount", 0)}張實際圖解；生物採高品質類真實科學圖。正式桌機、手機驗證並整合後才計完成。'),
+                    'description': ((f'原本完全缺圖補作已完成：{control.get("missingCompletedQuestionPages")}題面／{control.get("missingCompletedOriginalQuestions")}原問／{control.get("missingCompletedImages")}張圖；其他75原問重製保持暫停。' if missing_done else f'只補作原本完全缺圖：{control.get("activeQuestionPageCount")}題面／{control.get("activeOriginalQuestionCount")}原問；生物舊圖與文字框重製暫停。') + f'已完成新圖保留，草稿待驗收不計完成。生物恢復口令：{control.get("biologyResumePhrase")}。此口令不恢復非生物文字框。' if control else f'共{plan.get("questionPageCount", 0)}題面、{plan.get("originalQuestionCount", 0)}原問，需{plan.get("requiredImageCount", 0)}張實際圖解；生物採高品質類真實科學圖。正式桌機、手機驗證並整合後才計完成。'),
                     'executionControl': control,
                     'biologyQuality': [dict(id=e['id'], title=e['title'], **quality.get(e['id'], {})) for e in plan.get('entries', []) if e.get('subject')=='Biology'],
                     'items': [dict(id=e['id'], title=e['title'],

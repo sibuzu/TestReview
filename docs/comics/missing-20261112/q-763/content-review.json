@@ -1,0 +1,113 @@
+{
+  "questionId": "q-763",
+  "checkedAt": "2026-11-11T20:12:23.451504+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "productionScope": "missing_illustration_only",
+  "originalQuestionOptionsAndFigureActuallyViewed": true,
+  "answerUnchanged": "C（教材預期，既有限制保持）",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=122928&la=0&powerMode=0",
+      "access": "full_page_opened",
+      "finding": "教育部澶淵之盟詞條說明宋與契丹所建遼議和。"
+    },
+    {
+      "url": "https://www1.ihp.sinica.edu.tw/jp/Publications/Bulletin/973/Article/449",
+      "access": "official research page opened",
+      "finding": "史語所柳立言宋遼澶淵之盟研究，作宋遼關係參照；未據此虛構原漫畫線索。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "對坐議和與原漫畫呼應，不增原卷條件",
+        "無清代辮髮/幻想盔甲，不憑服裝判國別"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "傳遞文書情境，不把胡人固定一族",
+        "年代與事件而非外表才為教材判斷依據"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "銀與絹物品，不把件數當歲幣數值",
+        "無現代貨幣、未把禮物場景當精確史料"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "兩份紙本研究情境是第四實圖",
+        "生成筆畫無可辨識盟約文句，不冒充原文",
+        "原C及北宋另有海上之盟的既有限制保持"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "expectedClassroomTreaty": "澶淵之盟",
+    "parties": [
+      "北宋",
+      "遼"
+    ],
+    "liaoFoundedBy": "契丹",
+    "answer": "C",
+    "originalComicExplicitTreatyName": false,
+    "anotherSongJinAllianceExists": "海上之盟"
+  },
+  "generationUsageTokens": null,
+  "generationUsageNote": "內建imagegen結果只有image_url/output_hint，未提供usage，不估算、不填0。",
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-763-missing-panel-1.png",
+      "sha256": "bad5b0f2fba0ea0596d468d15710c2628a80f44fa824b1163b2a333d7cd96742",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-763-missing-panel-2.png",
+      "sha256": "934f623d6bf6ad6b80a8384819b74f5dcc4299dc2556d551891b210b374862e9",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-763-missing-panel-3.png",
+      "sha256": "0ab302f6c226e3ecaf76ff7e9ace8df1754011c807bd9e762e0c126b72a563f1",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-763-missing-panel-4.png",
+      "sha256": "42855a5c31e16e6311857319f7adbc117984028221af6543ffff64a5f7d579a4",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原題、選項、答案與既有教材/史料限制皆保持；只補四張缺圖，不重開既有確認。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-763-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  },
+  "generationMetadata": "docs/comics/missing-20261112/q-763/generation-metadata.json"
+}

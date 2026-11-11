@@ -9,6 +9,16 @@ from .comic_pipeline import save, load
 
 
 class PublishCountingTests(unittest.TestCase):
+    def test_final_partial_batch_requires_completed_missing_scope_and_excludes_paused_rework(self):
+        with TemporaryDirectory() as directory:
+            root=Path(directory);path=root/'docs/comics/biology-rework-20261112/plan.json';path.parent.mkdir(parents=True)
+            plan=dict(executionControl=dict(mode='missing_only',missingIllustration='completed',activeOriginalQuestionIds=['q-1','q-2'],biologyQualityUpgrade='paused',textOnlyReplacement='paused'),entries=[dict(id='q-1',state='complete',originalQuestionIds=['q-1','q-2']),dict(id='q-3',state='paused',originalQuestionIds=['q-3'])])
+            save(path,plan)
+            self.assertTrue(comic_publish.missing_scope_finished(root,[{'id':'q-2'}]))
+            self.assertFalse(comic_publish.missing_scope_finished(root,[{'id':'q-3'}]))
+            plan['entries'][0]['state']='ready';save(path,plan)
+            self.assertFalse(comic_publish.missing_scope_finished(root,[{'id':'q-2'}]))
+
     def setup_root(self, directory, jobs=()):
         root = Path(directory)
         for path in ['docs/comics', '.cache', 'monitor', 'site/dist/assets']:

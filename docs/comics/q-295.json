@@ -1,0 +1,102 @@
+{
+  "id": "q-295",
+  "subject": "Physics-Chemistry",
+  "title": "看入射光，也看魚能反射的光",
+  "art": "docs/comics/art/q-295-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 紅光下紅，表示能反射紅",
+      "text": "左上R是入射紅光；魚將紅光反射進眼睛，所以看到紅色。物體顏色不能只看燈光，還要看反射能力。",
+      "alt": "紅光照來，紅色反射光朝觀察者眼睛，魚呈紅色",
+      "caption": "R＝紅光，箭頭分別表示入射及朝眼睛反射。",
+      "image": "docs/comics/art/q-295-four-image-v2-panel-1.svg"
+    },
+    {
+      "heading": "② 藍光下黑，表示藍反射很弱",
+      "text": "B是入射藍光，朝眼睛的灰虛線表示反射接近零。這只能判斷藍光反射弱，不能順便推出綠光也一定不反射。",
+      "alt": "藍光照來，朝眼睛的反射極弱，以灰虛線表示近零，魚暗黑",
+      "caption": "B＝藍光；灰虛線為極弱反射，不代表黑色光。",
+      "image": "docs/comics/art/q-295-four-image-v2-panel-2.svg"
+    },
+    {
+      "heading": "③ 原卷採紅色物體模型選A",
+      "text": "紅綠同照時，仍有魚能反射的紅光。依已確認的原卷預期模型，若主要反射紅、吸收綠，便呈紅色，選A。",
+      "alt": "額外採紅色物體模型時，紅綠同照仍主要反射紅，綠不畫成已知必然反射",
+      "caption": "R＝紅，G＝綠；本格另採紅色物體模型，並非新增原題已知。",
+      "image": "docs/comics/art/q-295-four-image-v2-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "原卷預期答案 A：紅色（已確認）",
+    "points": [
+      "第四圖左是主要反射紅的模型，符合原卷預期A。",
+      "右是另一可能：若也反射適當比例綠光，可能出現黃色等色調。",
+      "原題沒有給綠光單獨照射結果；保留這項已確認的條件限制，不重問。"
+    ],
+    "image": "docs/comics/art/q-295-four-image-v2-panel-4.svg",
+    "alt": "第四圖條件比較：左主要反射紅可紅色；右若能以適當比例反射紅與綠可呈黃，不能由原題斷定綠光反射"
+  },
+  "protectedWords": [
+    "紅光",
+    "藍光",
+    "綠光",
+    "反射",
+    "紅色物體",
+    "原卷預期",
+    "入射光"
+  ],
+  "generationMethod": "four authored native SVG additive-light/reflectance ray diagrams",
+  "generatorFile": "docs/comics/biology-rework-20261112/q-295/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-295-source-fd1e0446c7.jpg",
+    "site/dist/assets/questions/q-295-figure-91b4605c71.jpg"
+  ],
+  "answerCheckedAgainst": "圖（二十五）是帥葛去炫光水族館參觀時觀察到有一隻魚，在狹長透明的水族箱前進時，經過紅光探照燈照射時呈現紅色，經過藍光探照燈照射時呈現黑色，試推斷：當牠經過紅光及綠光探照燈同時照射的區域時，最可能呈現何種顏色？\n\n(A) 紅色\n(B) 藍色\n(C) 綠色\n(D) 黑色\n原卷預期答案：A（紅色）。魚對綠光的反射情形未交代，詳見下方說明。\n看見物體的顏色，要同時考慮「有哪些光照過來」與「物體能反射哪些光」。紅光照射時呈紅色，表示魚能反射紅光；藍光照射時呈黑色，表示它幾乎不反射藍光。\n\n到了紅光＋綠光區，魚能反射的紅光仍然存在，所以不能延用上一區的黑色。依原卷紅筆及課堂將它當成紅色物體的預設模型，預期選A。\n\n原題條件的限制：題目沒有測試綠光單獨照射，也沒有明說魚會吸收綠光。「能反射紅光」不等於「一定不能反射綠光」。若魚也能反射綠光，就可能因紅、綠光的反射比例而呈黃色等色調。因此此題保留預期A，但不把吸收綠光教成由已知條件必然推出的結論，此項已列入確認清單。\n\n紅光與綠光混合可形成黃光，也不表示任何物體受照後都呈黃色；還要看物體是否把兩種光以適當比例反射進眼睛。作答時先找仍能反射的光，再判斷是否需要額外條件。",
+  "rationale": "原卷與附圖實開核對，保留使用者已確認A與綠光未交代限制。四張精確色光/光路示意分別表示紅反射、藍弱反射、教材預期模型、條件比較；不把紅綠燈混合必呈黃誤套到所有物體，也不將綠光吸收視為原題已知。",
+  "createdAt": "2026-11-11T16:56:44.367697+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "checks": [
+      "紅色入射/紅色反射分清，箭頭由光源至物體至眼睛",
+      "藍反射弱以灰虛線，不畫黑色光束",
+      "第三格將綠吸收明示額外模型",
+      "第四格黃為另一條件下可能結果，不改原卷A或重開確認"
+    ]
+  },
+  "nativeArt": "assets/comics/q-295-art-486d8c8694.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:59:59.763809+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-295-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-295-app-390.png",
+      "/tmp/weirugo-comic-checks/q-295-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-295-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T16:59:59.772509+00:00",
+  "validationFile": "docs/comics/q-295-validation.json"
+}

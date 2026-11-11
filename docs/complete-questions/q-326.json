@@ -1,0 +1,47 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "正整數解逐一數，只有六個",
+    "art": "assets/comics/q-326-art-e3ead9f5e8.svg",
+    "panels": [
+      {
+        "heading": "① 先限定正整數",
+        "text": "正整數從1開始，是1、2、3、……；0和負整數都不在題目允許的範圍。",
+        "alt": "正整數從1向右的離散實心點；不是整條連續線。",
+        "caption": "新製精確數線／計數圖；數值與條件見本格文字。",
+        "image": "assets/comics/q-326-art-e3ead9f5e8.svg"
+      },
+      {
+        "heading": "② 再看小於7",
+        "text": "x＜7不包含7，數線在7畫空心端點，範圍向左。但此時還必須套回正整數條件。",
+        "alt": "7空心端點，藍色線段與箭頭向左，只表示小於7的範圍。",
+        "caption": "新製精確數線／計數圖；數值與條件見本格文字。",
+        "image": "assets/comics/q-326-panel-2-art-093c9398e7.svg"
+      },
+      {
+        "heading": "③ 取兩條件的交集",
+        "text": "同時是正整數又小於7，只剩1、2、3、4、5、6。不要把左方所有負數也算進來。",
+        "alt": "數線上只有1至6六個綠色解點，7空心且不屬於解。",
+        "caption": "新製精確數線／計數圖；數值與條件見本格文字。",
+        "image": "assets/comics/q-326-panel-3-art-9b532e4b30.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 B：×（原敘述錯誤）",
+      "points": [
+        "六個解：1、2、3、4、5、6。",
+        "所以解的個數有限，應打×。",
+        "數域為正整數，不能混入0、負數或所有實數。"
+      ],
+      "image": "assets/comics/q-326-panel-4-art-a3a02d8f4b.svg",
+      "alt": "由本題實際條件總結答案的第四張獨立圖。"
+    },
+    "protectedWords": [
+      "正整數",
+      "不等號",
+      "a＜0",
+      "a＞0",
+      "x＜7"
+    ]
+  }
+}

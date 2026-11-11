@@ -1,0 +1,98 @@
+{
+  "id": "q-332",
+  "subject": "Math",
+  "title": "未知係數先查正負，再判不等號",
+  "art": "docs/comics/art/q-332-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 正數倍才保持次序",
+      "text": "正數倍不會反轉大小次序。例如a＝2，x＝1、y＝0，原來x＞y，乘後ax＞ay。",
+      "alt": "兩條數線顯示乘以正數2，橘色x/ax都在藍色y/ay右側。",
+      "image": "docs/comics/art/q-332-four-image-v2-panel-1.svg",
+      "caption": "新製精確數線／計數圖；數值與條件見本格文字。"
+    },
+    {
+      "heading": "② 負數倍會反轉次序",
+      "text": "取a＝−1，x＝0、y＝1，原來x＜y；乘後ax＝0，ay＝−1，反而有ax＞ay。",
+      "alt": "上數線x在y左側，下數線ax在ay右側；乘負數次序反轉。",
+      "image": "docs/comics/art/q-332-four-image-v2-panel-2.svg",
+      "caption": "新製精確數線／計數圖；數值與條件見本格文字。"
+    },
+    {
+      "heading": "③ 零不能滿足嚴格不等式",
+      "text": "若a＝0，兩個乘積都變成0，只能相等；0＞0不成立，不能拿a＝0當滿足前提的例子。",
+      "alt": "兩個不同位置乘零後都落到0，兩點重合，沒有嚴格大於。",
+      "image": "docs/comics/art/q-332-four-image-v2-panel-3.svg",
+      "caption": "新製精確數線／計數圖；數值與條件見本格文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：×（原敘述錯誤）",
+    "points": [
+      "反例：a＝−1、x＝0、y＝1。",
+      "ax＝0＞−1＝ay成立，但x＞y不成立。",
+      "題目未限a＞0，原敘述不能保證，應打×。"
+    ],
+    "image": "docs/comics/art/q-332-four-image-v2-panel-4.svg",
+    "alt": "由本題實際條件總結答案的第四張獨立圖。"
+  },
+  "protectedWords": [
+    "正整數",
+    "不等號",
+    "a＜0",
+    "a＞0",
+    "x＜7",
+    "0＞0",
+    "a＝0",
+    "ax＞ay",
+    "x＞y",
+    "x＜y"
+  ],
+  "generationMethod": "authored SVG: four exact order-preserving/reflection/zero/counterexample number-line diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-332-source-d7d1fe611b.jpg"
+  ],
+  "answerCheckedAgainst": "判斷是非，對的畫「○」，錯的打「×」。\n若 ax＞ay，則 x＞y。\n\n(A) ○（對）\n(B) ×（錯）\n正確答案：B。應打×，原敘述錯誤。a的正負沒有指定，不能直接消去a後保留不等號。\na的正負沒有指定，不能直接消去a後保留不等號。若a＞0，可得x＞y；若a＜0，則同除以a須反向，得到x＜y。a＝0會使前提變成0＞0，無法成立。\n反例：取a＝−1、x＝0、y＝1，則ax＝0＞−1＝ay，但x＝0並沒有大於y＝1。原敘述錯誤，打×。",
+  "rationale": "實看完整原卷並逐步重算，原題與既有B答案不變；四張不同教學目的的精確數線/計數圖，不用文字流程框或空白圖充數。",
+  "createdAt": "2026-11-11T16:33:17.200707+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checkedAt": "2026-11-11T16:33:17.200707+00:00",
+    "sourceQuestionUnchanged": true
+  },
+  "nativeArt": "assets/comics/q-332-art-ddb35defcb.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:40:41.150318+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-332-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-332-app-390.png",
+      "/tmp/weirugo-comic-checks/q-332-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-332-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T16:40:41.158689+00:00",
+  "validationFile": "docs/comics/q-332-validation.json"
+}

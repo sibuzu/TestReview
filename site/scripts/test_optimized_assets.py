@@ -27,6 +27,33 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(published['teachingComic']['art'], 'assets/comics/art-web.webp')
             self.assertEqual(original['teachingComic']['art'], 'assets/comics/art.png')
 
+    def test_pillow_fallback_preserves_full_dimensions_alpha_and_original_archive(self):
+        try:
+            from PIL import Image
+        except ImportError:
+            self.skipTest('Pillow conversion is tested in the image tooling environment')
+        import random
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            relative = 'assets/comics/q-1-panel-1-art-test.png'
+            image_path = root/relative
+            image_path.parent.mkdir(parents=True)
+            image = Image.new('RGBA', (128, 96))
+            rng = random.Random(17)
+            image.putdata([(rng.randrange(256), rng.randrange(256), rng.randrange(256), 128 if i%3 else 255) for i in range(128*96)])
+            image.save(image_path)
+            original = image_path.read_bytes()
+            with patch.object(assets.shutil, 'which', return_value=None), patch.object(assets, 'ARCHIVE', root/'archive'):
+                record = assets.convert(root, relative)
+            self.assertIsNotNone(record)
+            self.assertEqual(record['mode'], 'quality88-original-dimensions')
+            self.assertEqual(Path(record['originalArchive']).read_bytes(), original)
+            with Image.open(root/record['web']) as decoded:
+                self.assertEqual(decoded.size, (128, 96))
+                self.assertEqual(decoded.mode, 'RGBA')
+                self.assertEqual(decoded.getpixel((0, 0))[3], 255)
+                self.assertEqual(decoded.getpixel((1, 0))[3], 128)
+
     def test_cleanup_keeps_data_style_and_svg_references_and_archives_unused_bytes(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder) / 'dist'

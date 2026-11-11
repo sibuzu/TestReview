@@ -1,0 +1,148 @@
+{
+  "id": "q-944",
+  "subject": "Civics",
+  "title": "先辨一般區，再看任用與監督",
+  "art": "docs/comics/art/q-944-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 從調離職務，看一般區任用制度",
+      "text": "題目說市政府已調離區長職務，指向一般區的任用關係；區長由市長依法任用。",
+      "alt": "市政府調離區長與市長依法任用的任用關係以中文流程標示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "本題線索｜調離區長職務",
+        "items": [
+          {
+            "label": "市長｜依法任用一般區長",
+            "detail": "不能不受法律限制地任意任用。",
+            "tone": "blue"
+          },
+          {
+            "label": "一般區長｜承市長之命綜理區政",
+            "detail": "不是本題自行選出的自治首長。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "依法任用與指揮監督"
+      }
+    },
+    {
+      "heading": "② 一般區，和山地原住民區不同",
+      "text": "一般區本身不是地方自治團體；直轄市山地原住民區則具自治地位，區長與區民代表由民選。",
+      "alt": "兩種區的自治地位、首長產生方式與機關直接標明，不只靠地形或族群圖示判斷。",
+      "diagram": {
+        "kind": "paths",
+        "title": "區的種類不能混用",
+        "items": [
+          {
+            "label": "一般行政區｜本題",
+            "detail": "區長依法任用；區公所為市政府派出機關。",
+            "tone": "blue"
+          },
+          {
+            "label": "山地原住民區｜特別自治制度",
+            "detail": "具自治團體地位，區長、區民代表由民選。",
+            "tone": "gold"
+          }
+        ],
+        "target": "判斷｜本題符合一般區",
+        "arrow": "比對產生方式與自治地位"
+      }
+    },
+    {
+      "heading": "③ 市議員可以監督，不能依法彈劾區長",
+      "text": "市議員可受理陳情並監督市政；對違法失職公務人員的彈劾，是監察院職權。",
+      "alt": "市議員監督與監察院彈劾分別標明主體及動作，避免混成同一種權限。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A混淆的兩個機關",
+        "items": [
+          {
+            "label": "市議員｜陳情、監督市政",
+            "detail": "不是提出憲法制度彈劾的機關。",
+            "tone": "green"
+          },
+          {
+            "label": "監察院｜對違法失職公務員彈劾",
+            "detail": "不能把此職權套給市議員。",
+            "tone": "gold"
+          }
+        ],
+        "target": "結論｜A不符，B符合",
+        "arrow": "逐項對照法定職權"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：一般區長由市長依法任用",
+    "points": [
+      "原選項「指派」按依法任用理解，不是任意指派。",
+      "一般區不具地方自治團體地位。",
+      "山地原住民區與一般區的首長產生方式不可混用。"
+    ]
+  },
+  "protectedWords": [
+    "一般區",
+    "區長",
+    "市長",
+    "依法任用",
+    "地方自治團體",
+    "山地原住民區",
+    "市議員",
+    "監察院",
+    "彈劾"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi266-13115668b7bb.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "題目須區分任用/民選、一般區/山地原住民區，以及市議員監督/監察院彈劾三組權責，用可選取HTML直接標名主體與動作，避免角色外觀或未標顏色造成誤會。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:26:42.025507+00:00",
+  "artSHA256": "d71e132f14b88e88c37912ae4cd459495f9d7fd054ce6b059fb9c39655f428c4",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:32:11.542476+00:00",
+  "previewValidation": "docs/comics/q-944-preview-validation.json",
+  "visualReview": "實看1440/390精確HTML任用及權責圖，明標市長/區長、一般區/山地原住民區、市議員監督/監察院彈劾各主體動作。B及依法任用的限制保持，三寬無溢出、同行等高與單欄自然高度通過。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-944-1440.png",
+      "/tmp/weirugo-comic-previews/q-944-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-944-art-d71e132f14.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:32:11.509349+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-944-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-944-validation.json"
+}

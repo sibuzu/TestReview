@@ -34,6 +34,8 @@ def apply_groups(records, root, dest):
             if member not in by_id or member in redirects:
                 raise ValueError('Missing or overlapping original member: '+member)
             redirects[member]=parent
+        if by_id[parent].get('teachingComic', 'missing') is None:
+            by_id[parent].pop('teachingComic', None)
         # A later correction of an old child must not silently leave an older
         # embedded copy visible through its redirected bookmark.
         original_fields=('sourceId','subject','title','date','dateLabel','addedAt','question','answer','explanation','correctOption','optionAnalysis','studentAnswer','passage','tables','questionFigures','images','teachingComic','trap','explanationFigures','verificationNote','verification','contentStatus')

@@ -1,35 +1,42 @@
 {
   "id": "q-048",
   "subject": "Biology",
-  "title": "先看軸名，再判斷主要熱源",
-  "art": "docs/comics/art/q-048.png",
-  "layoutVersion": "native-fluid-v6",
+  "title": "看清代謝軸，再分內溫與外溫",
+  "art": "docs/comics/art/q-048-biology-v2-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
   "startedAt": "2026-10-28T23:10:35.901391+00:00",
   "panels": [
     {
-      "heading": "① 本題甲：對應內溫動物",
-      "text": "甲在圖示範圍近乎水平；依本題簡化模型，對應內溫動物。猴子是例子，體溫主要靠體內代謝產熱維持，符合C。",
-      "alt": "猴子在森林吃水果作內溫動物例子，不以進食判斷是否內溫、不畫體內火焰或所有溫度下固定代謝。"
+      "heading": "① 先讀軸：甲對應內溫動物",
+      "text": "原圖縱軸是代謝速率，不是體溫。依本題簡化模型，甲對應內溫動物；猴子是例子，主要靠體內代謝產熱維持體溫。",
+      "alt": "新製類真實自然史教學插畫：有細緻毛皮的猴子自然坐在林蔭樹枝上，四肢與單一尾巴完整，作為哺乳類內溫動物例子。",
+      "caption": "猴子｜內溫例子，並非靠外形直接讀曲線。",
+      "image": "docs/comics/art/q-048-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 本題乙：對應外溫動物",
-      "text": "乙的代謝速率隨圖示環境溫度上升而增加，對應外溫動物，如鱷魚。牠也有代謝，只是體溫主要受外界熱源影響。",
-      "alt": "鱷魚在日照河岸休息，表示外界熱源重要，不表示沒有代謝、體溫永遠低或只能靠曬太陽。"
+      "heading": "② 乙對應外溫動物",
+      "text": "乙在圖示範圍隨環境溫度上升而代謝加快，對應外溫動物，如鱷魚。牠也有代謝，只是體溫主要受外界熱源影響。",
+      "alt": "新製類真實自然史教學插畫：鱷魚在有日照的河岸休息，鱗片、四肢與單一尾巴自然，作為外溫動物依靠環境熱源的例子。",
+      "caption": "鱷魚｜外界熱源重要，不代表沒有代謝。",
+      "image": "docs/comics/art/q-048-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 橫軸環境溫度，縱軸代謝速率",
-      "text": "原圖不是直接畫體溫！這是有限範圍的簡化關係；實際內溫動物的代謝也會受保溫、散熱、活動等因素影響，並非永遠固定。",
-      "alt": "師生比較猴子/鱷魚無字圖卡，精確曲線和軸名依原卷與HTML，不生成可能錯誤的新圖表。"
+      "heading": "③ 真實調節：不是永遠固定",
+      "text": "以人類皮膚為例，汗腺、血管可參與散熱調節。內溫動物會調整產熱與散熱，不能把甲的水平線推廣到所有溫度與活動情況。",
+      "alt": "新製類真實人類皮膚教學剖面：表皮在上、真皮有血管和盤曲汗腺，汗管通向皮膚表面；表皮內沒有血管。",
+      "caption": "皮膚散熱例子｜汗腺在深部，汗管通表面。",
+      "image": "docs/comics/art/q-048-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "heading": "④ 先看軸名，再判斷主要熱源",
-    "answer": "答案 C：甲主要由體內代謝產熱",
+    "answer": "答案 C：依本題模型，甲主要靠體內代謝產熱",
     "points": [
-      "按本題模型：甲內溫、乙外溫。",
-      "猴子屬內溫；鱷魚屬外溫。",
-      "圖中是代謝速率，不是體溫曲線。"
-    ]
+      "第四圖左猴子＝內溫；右鱷魚＝外溫。",
+      "甲、乙依原卷有限範圍模型判讀，不是體溫曲線。",
+      "A、B把動物分類對調；D把主要熱源配給乙。"
+    ],
+    "image": "docs/comics/art/q-048-biology-v2-panel-4.png",
+    "alt": "新製類真實自然史對照：左邊林蔭猴子，右邊日照河岸鱷魚，分別對應內溫、外溫的例子；並非兩動物等比例大小比較。"
   },
   "protectedWords": [
     "簡化模型",
@@ -38,35 +45,26 @@
     "體內代謝產熱",
     "代謝速率",
     "環境溫度",
-    "圖示範圍",
     "猴子",
     "鱷魚",
     "體溫",
-    "外界熱源",
-    "有限範圍"
+    "外界熱源"
   ],
   "originalAssets": [
     "site/dist/assets/questions/q-048-source-ef9a677c42.jpg",
     "site/dist/assets/questions/q-048-figure-3b2a205ec7.jpg"
   ],
   "originalVisualCheck": "實看原卷50題四選項與圖二十一，縱軸代謝速率、橫軸環境溫度，甲近水平/乙上升。C與既有核對一致，原圖未改為體溫曲線。",
-  "answerCheckedAgainst": "按題目簡化模型保留C，OpenStax Homeostasis原站實讀內/外溫主要熱源與保溫散熱調節，避免把內溫代謝說成所有溫度恆定。",
+  "answerCheckedAgainst": "原卷50題與甲水平/乙上升圖：縱軸代謝速率、橫軸環境溫度。依本題模型甲內溫、乙外溫，C成立；猴子內溫、鱷魚外溫。",
   "references": [
     {
-      "title": "OpenStax Biology 2e 33.3: Homeostasis（Endotherms and Ectotherms）",
-      "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis"
+      "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+      "support": "教科書原站：內溫主要依內部熱源、外溫主要受環境熱源影響；內溫可透過毛皮、循環與汗液等調節保溫與散熱。"
     }
   ],
-  "rationale": "原圖精確坐標仍供作答，新增猴子/鱷魚/師生對照情境作分類記憶，正文明示甲乙只是本題有限範圍簡化模型與軸名，防止體溫/代謝率混同及外溫無代謝誤解。",
-  "promptPath": "docs/comics/q-048-prompt.txt",
-  "generationCalls": 1,
+  "rationale": "依使用者2026-11-12要求重作四張獨立類真實生物圖。猴子、鱷魚、皮膚散熱構造及兩生物對照，輔助讀原圖甲乙的內外溫熱源差異。原題精確曲線仍由原卷附圖保留，不讓模型生成圖表或標籤。保留原C與有限範圍簡化模型限制，不說內溫代謝永遠恆定或外溫沒有代謝。",
   "visualChecked": true,
-  "artSHA256": "1b7272d67b2620f0ef2e4e8f235212fb6312be4ffdd59b80ea98e892a262481a",
-  "checkedAt": "2026-10-28T23:13:46.723249+00:00",
-  "completedAt": "2026-10-28T23:12:43.413151+00:00",
   "layoutEvidence": "docs/comics/q-048-preview-validation.json",
-  "visualReview": "實看新猴子/鱷魚/師生圖卡，沒有火焰或假溫度/代謝曲線。1440/1120/390三寬正文保留代謝軸名與有限範圍模型、不把外溫說成無代謝，C一致，無橫溢/保護詞斷裂、同行等高/單欄自然高度。",
-  "nativeArt": "assets/comics/q-048-art-1b7272d67b-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -78,13 +76,36 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
+  "generationMethod": "built-in image_gen; four independently generated near-realistic biological and tissue illustrations",
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-048-source-ef9a677c42.jpg",
+    "site/dist/assets/questions/q-048-figure-3b2a205ec7.jpg"
+  ],
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T16:47:58.135988+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-048/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-048/scientific-review.json",
+  "nativeArt": "assets/comics/q-048-art-2be87858e8-web.webp",
   "rootReview": {
-    "checkedAt": "2026-10-28T23:13:46.695829+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:52:08.800172+00:00",
     "visualChecked": true,
-    "decision": "complete",
-    "note": "實看原卷50題完整四選項及甲乙原圖，縱軸為代謝速率。猴子/鱷魚圖與內外溫分類一致，正文保留有限範圍與非永遠固定的限制，維持C；桌手機無溢出。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-048-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-048-app-390.png",
+      "/tmp/weirugo-comic-checks/q-048-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-048-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
+  "checkedAt": "2026-11-11T16:52:08.808469+00:00",
   "validationFile": "docs/comics/q-048-validation.json"
 }

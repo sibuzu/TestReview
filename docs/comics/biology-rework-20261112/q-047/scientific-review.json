@@ -1,0 +1,98 @@
+{
+  "questionId": "q-047",
+  "checkedAt": "2026-11-11T16:40:38.814751+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "D",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "右肺在畫面左，水平裂與斜裂區分3葉",
+        "左肺在畫面右，僅一條斜裂區分2葉，內側心切跡清楚",
+        "氣管分兩支進入肺、橫膈仍位於肺下",
+        "經Agent1指出首稿葉數不易辨讀後，內建imagegen精修左/右肺形；不靠圖說掩飾"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "中央氣腔、周圍毛細血管分開",
+        "紅血球限於血管內，沒有進入氣腔",
+        "圖不以紅藍色代替氣體方向圖例；方向由HTML寫清楚"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "細胞內可見粒線體與核",
+        "粒線體外膜內有摺疊內膜",
+        "明示含粒線體細胞的例子，不作全稱",
+        "前景粒線體為放大教學強調，無比例或數量推算"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "雙凹成熟紅血球",
+        "局部剖面無核、無粒線體",
+        "圖不將能量無中生有或將紅血球畫成無代謝"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.nhlbi.nih.gov/health/lungs/breathing-benefits",
+      "support": "NHLBI官方肺功能說明：通氣與氧/二氧化碳跨肺泡、血液的交換分開。"
+    },
+    {
+      "url": "https://biolincc.nhlbi.nih.gov/publications/597b6438d5e94ee18d6328382adb8876/",
+      "support": "官方論文摘要明確指出成熟紅血球無粒線體，靠糖解產ATP。"
+    }
+  ],
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-047-biology-v2-panel-1.png",
+      "sha256": "8aa80356da016974c4fa53dc27962c0e0c31e5fee98cc5f4de461d7c7fdacecc",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-047-biology-v2-panel-2.png",
+      "sha256": "a017924dd9f33deebaaf886e9d5c38ba71e67a91b91d8b080949e27ae922662f",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-047-biology-v2-panel-3.png",
+      "sha256": "0c9447153a44d97beb1e1caeb6c16167cdbdae2c19493ed34d9b331c982211f1",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-047-biology-v2-panel-4.png",
+      "sha256": "2fd9cb0756190302952e9dbb190524ceeb485427627a0b3d0aeeb216183edf71",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原題、D答案與既有國中廣義用語及紅血球補充照留，本次只升級美術與四圖，不重問相同確認。",
+  "isolatedPreview": {
+    "passed": true,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "actualViewed": [
+      "/tmp/weirugo-comic-previews/q-047-1440.png",
+      "/tmp/weirugo-comic-previews/q-047-390.png"
+    ],
+    "images": 4,
+    "noDocumentOverflow": true,
+    "noTextLoss": true
+  },
+  "revisionNote": "第一張原稿的左肺葉裂／心切跡不夠明確，整合前退回並用內建imagegen精修；修正版已實看，正式引用只用修正版。其餘三張與D原題不變。"
+}

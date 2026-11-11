@@ -1,0 +1,99 @@
+{
+  "questionId": "q-046",
+  "checkedAt": "2026-11-11T16:31:04.659186+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "A",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-046-biology-v2-panel-1.png",
+      "sha256": "bf3beb629a1bcdbd240eee01b933c9b770b46c846e2b87e53d72950bc4ae1a15",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-046-biology-v2-panel-2.png",
+      "sha256": "f8045cde6ca24a481d7d9ae709eea67c741105aedbe58c62bb9ab170f615ff22",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-046-biology-v2-panel-3.png",
+      "sha256": "7115969b6de9c0a5fe0dbb9f5e1459e59a4f1fcf4ae307f9925b24b363e66f3f",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-046-biology-v2-panel-4.png",
+      "sha256": "40f0a2908cfba759fde837a0680983e87b03ecf3113984a4a2643713036b84a2",
+      "actualImageViewed": true
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "薄壁靜脈而非厚壁動脈",
+        "左右薄瓣附於壁側，遊離緣向上／回心端",
+        "開放期留中央通道；無雙向箭頭"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "上心房、下心室",
+        "兩片房室瓣",
+        "腱索由瓣葉至心室乳突肌；無腱索接心房"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "下心室、上主動脈出口",
+        "左右及後方三片袋狀半月瓣",
+        "半月瓣無腱索；開放期留中央通道"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "厚肌肉層動脈壁",
+        "完整平滑管腔沒有瓣葉",
+        "小手掌僅位置提示；首稿不確切血管走向已移除重作"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "checked": "2026-11-12",
+      "support": "瓣膜防逆流，二尖瓣位左心房與左心室間；主動脈瓣位左心室與主動脈間。"
+    },
+    {
+      "url": "https://medicalmuseum.health.mil/index.cfm/visit/exhibits/past/visiblyhuman/page_01",
+      "checked": "2026-11-12",
+      "support": "四肢靜脈單向瓣協助回心；動脈是厚壁管，與心室出口瓣分開。"
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "本次為美術與四圖交付升級，原題與已確認A答案均不變；新生成草稿調整不重開原題確認。",
+  "limitations": "這是新製教學解剖插畫，不是原卷、顯微實拍或定量組織切片；紅細胞及組織尺度用於辨識，不作測量依據。",
+  "isolatedPreview": {
+    "passed": true,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "actualViewed": [
+      "/tmp/weirugo-comic-previews/q-046-1440.png",
+      "/tmp/weirugo-comic-previews/q-046-390.png"
+    ],
+    "images": 4,
+    "sameRowHeights": true,
+    "noDocumentOverflow": true,
+    "noTextLoss": true
+  }
+}

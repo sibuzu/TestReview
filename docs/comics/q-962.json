@@ -1,119 +1,72 @@
 {
   "id": "q-962",
   "subject": "Math",
-  "title": "同一個x看高度，先辨交點左右",
-  "art": "docs/comics/art/q-962.svg",
-  "layoutVersion": "native-fluid-v6",
+  "title": "固定同一個x，分清交點左右",
+  "art": "docs/comics/art/q-962-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 交點：相同x有相同函數值",
-      "text": "P（2，－3）同時在兩線上；把x＝2代入兩個函數，結果都等於－3。因此A的等號正確，不是題目要找的錯誤。",
-      "diagram": {
-        "kind": "flow",
-        "title": "交點的確定條件",
-        "items": [
-          {
-            "label": "P（2，－3）：x＝2",
-            "tone": "blue"
-          },
-          {
-            "label": "L₁：2a＋b＝－3",
-            "tone": "gold",
-            "detail": "L₂：2c＋d＝－3"
-          },
-          {
-            "label": "所以2a＋b＝2c＋d",
-            "tone": "green"
-          }
-        ],
-        "arrow": "同一交點，兩線高度相同"
-      },
-      "alt": "交點P的兩座標與兩線代入式直接中文標明，A等式成立。"
+      "heading": "① 同一交點代表兩式相等",
+      "text": "P（2，－3）在兩線上，所以2a＋b＝2c＋d＝－3。A正確，不是本題要找的錯誤。",
+      "alt": "兩下降線交於P，L2較陡，斜率數值未作原題條件",
+      "image": "docs/comics/art/q-962-four-image-v2-panel-1.svg",
+      "caption": "新製相對位置示意｜僅交點與高低關係，不據此讀個別斜率。"
     },
     {
-      "heading": "② 交點右側：L₁在上方",
-      "text": "圖中x＝3在交點右側，L₁的函數值較大，應為3a＋b＞3c＋d。B把符號寫成小於，所以B才是錯誤敘述。",
-      "diagram": {
-        "kind": "paths",
-        "title": "固定x＝3，比較兩線",
-        "items": [
-          {
-            "label": "L₁的高度：3a＋b",
-            "tone": "green"
-          },
-          {
-            "label": "L₂的高度：3c＋d",
-            "tone": "gold"
-          }
-        ],
-        "target": "L₁較高：3a＋b＞3c＋d",
-        "arrow": "由原圖右側的上下位置判斷"
-      },
-      "alt": "x＝3時兩線的函數式與L₁在上的大於關係直接標示，不猜個別斜率。"
+      "heading": "② x＝3在右側，L₁較高",
+      "text": "同一條x＝3垂線上，L₁在L₂上方，應為3a＋b＞3c＋d。B卻印小於，所以選B。",
+      "alt": "x為3的垂線上，綠色L1點在藍色L2點上方",
+      "image": "docs/comics/art/q-962-four-image-v2-panel-2.svg",
+      "caption": "新製相對位置示意｜僅交點與高低關係，不據此讀個別斜率。"
     },
     {
-      "heading": "③ 交點左側：C、D也要核對",
-      "text": "x＝0、x＝－1都小於2，此時L₁在L₂下方。分別代入，可知C、D的小於符號都正確。",
-      "diagram": {
-        "kind": "flow",
-        "title": "左側x＜2：L₁較低",
-        "items": [
-          {
-            "label": "x＝0：b＜d",
-            "tone": "blue",
-            "detail": "對應C：比較兩個y截距。"
-          },
-          {
-            "label": "x＝－1：－a＋b＜－c＋d",
-            "tone": "green",
-            "detail": "對應D：同樣比較左側高度。"
-          }
-        ],
-        "arrow": "代入同一個x，保留高低關係"
-      },
-      "alt": "中文標明左側x＜2、x＝0對應C與x＝－1對應D，兩者L₁較低。"
+      "heading": "③ 左側的C、D都成立",
+      "text": "x＝0與x＝－1都小於交點的2，此時L₁較低，故b＜d與－a＋b＜－c＋d都正確。",
+      "alt": "x為負1與0的垂線上，綠色L1均在藍色L2下方",
+      "image": "docs/comics/art/q-962-four-image-v2-panel-3.svg",
+      "caption": "新製相對位置示意｜僅交點與高低關係，不據此讀個別斜率。"
     }
   ],
   "fourth": {
     "answer": "答案 B：x＝3時應為大於",
     "points": [
-      "交點x＝2：兩線相等，A正確。",
-      "交點右側：L₁較高；左側：L₁較低。",
-      "題目問錯誤敘述，B的小於符號不符圖形。"
-    ]
+      "交點x＝2相等；右側L₁高，左側L₁低。",
+      "第四圖以差值正負整合左右關係，不新增斜率數值。",
+      "原題要找錯誤敘述，B的＜與圖形不符。"
+    ],
+    "image": "docs/comics/art/q-962-four-image-v2-panel-4.svg",
+    "alt": "第四圖表示兩線差值在交點左為負、右為正，僅示符號不指定斜率"
   },
   "protectedWords": [
-    "函數值",
-    "交點右側",
-    "交點左側",
-    "y截距",
     "P（2，－3）",
-    "x＝2",
-    "x＝3",
-    "x＝0",
-    "x＝－1",
     "L₁",
     "L₂",
-    "2a＋b＝2c＋d",
     "3a＋b＞3c＋d",
     "－a＋b＜－c＋d"
   ],
-  "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+  "generationMethod": "four authored SVG function/coordinate/road diagrams with computed geometry",
   "originalMaterialsChecked": true,
-  "originalChecked": {
-    "path": "docs/imports/new-gpt-20261105-b/originals/page2-q16.png",
-    "visualChecked": true
-  },
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-059-page2-q16-7cf605271588.png"
+  ],
   "sourceGeneratedArtUsed": false,
-  "generationMethod": "new selectable native HTML mathematics diagrams with exact formulas, Chinese roles, values, units and action arrows; deterministic SVG fallback; imagegenCalls=0",
-  "rationale": "以可選取HTML把原圖交點、同x高度、交點左右位置直接對應各代數選項；精確數據僅使用原圖P（2，－3），不杜撰兩條線的個別斜率或截距數值。",
-  "designFile": "docs/comics/q-962-design.txt",
-  "artSHA256": "9af7be16bacdc5bb05cded77391d7226483119c4df79a00ec9cf0882d0500a22",
+  "answerCheckedAgainst": "如右圖，坐標平面上，直線L₁為一次函數y＝ax＋b的圖形，直線L₂為y＝cx＋d的圖形。若L₁與L₂相交於點P（2，－3），則下列敘述何者錯誤？\n(A) 2a＋b＝2c＋d\n(B) 3a＋b＜3c＋d\n(C) b＜d\n(D) －a＋b＜－c＋d\n(B) 3a＋b＜3c＋d\n先把代數式看成同一個x對應的高度\nL₁的函數值為ax＋b，L₂的函數值為cx＋d。比較兩式時，是在相同x的垂直位置比較哪一條線較高。\n交點P（2，－3）表示x＝2時，兩條線的y值同為－3，所以2a＋b＝2c＋d，A正確。\n圖中L₂向右下降比L₁更快；交點右側x＞2，L₁在L₂上方。x＝3時應是3a＋b＞3c＋d，B印成小於，因此題目問錯誤敘述時選B。\n\n交點左側x＜2，L₁在L₂下方。x＝0時比較y截距，b＜d，C正確；x＝－1時得到－a＋b＜－c＋d，D也正確。\n\n也可令兩線差值為（ax＋b）－（cx＋d）＝（a－c）（x－2）。原圖L₁的斜率較大、a－c＞0，因此x－2的正負決定哪條線較高；不須猜出原圖沒有提供的個別斜率數值。",
+  "rationale": "實看真正原卷與共同附圖，重算全部推導，保持原題/答案；四張實際函數/座標/距離圖配HTML精確條件，不使用文字流程框替代。",
+  "createdAt": "2026-11-11T16:40:51.742383+00:00",
   "visualChecked": true,
-  "checkedAt": "2026-11-05T15:30:40.957033+00:00",
-  "previewValidation": "docs/comics/q-962-preview-validation.json",
-  "visualReview": "已實看1440/390四格，三寬QA PASS：交點P（2，－3）兩線等值、右側x＝3為L₁較高，B小於應大於；左側x＝0及－1對應C/D小於均真。所有L₁/L₂及x、公式中文箭頭明標，未捏造個別斜率；桌手機等寬/同列等高/自然單欄且無溢出。",
-  "nativeArt": "assets/comics/q-962-art-9af7be16ba.svg",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checkedAt": "2026-11-11T16:40:51.742383+00:00",
+    "checks": [
+      "保持原圖L1/L2都負斜率、L2較陡、交P2−3",
+      "輔助角度只表相對關係，未把選用角度當個別斜率數據",
+      "左x0/−1與右x3不等號逐一驗證"
+    ],
+    "sourceQuestionUnchanged": true
+  },
+  "nativeArt": "assets/comics/q-962-art-8149312391.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -126,14 +79,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
     "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:49:42.094704+00:00",
     "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "decision": "complete",
-    "formalAppAndStandaloneQA": true,
-    "previewQAInherited": "docs/comics/q-962-preview-validation.json",
-    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-962-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-962-app-390.png",
+      "/tmp/weirugo-comic-checks/q-962-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-962-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
+  "checkedAt": "2026-11-11T16:49:42.101634+00:00",
   "validationFile": "docs/comics/q-962-validation.json"
 }

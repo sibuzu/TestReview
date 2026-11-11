@@ -1,0 +1,127 @@
+{
+  "id": "q-1048",
+  "subject": "Physics-Chemistry",
+  "title": "三酸甘油酯的生成反應",
+  "art": "docs/comics/art/q-1048-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261110/q-1048-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、辨認X反應\n甘油是含有三個羥基的醇，脂肪酸含有羧基。甘油與脂肪酸反應形成酯鍵，生成三酸甘油酯，屬酯化反應；一個甘油與三個脂肪酸形成一個三酸甘油酯時，同時生成三個水分子。\n\n二、比較兩組反應式\n乙醇C₂H₅OH與醋酸CH₃COOH反應，生成乙酸乙酯CH₃COOC₂H₅及水，是酯化，與X同類，因此選A。原題以單向箭頭表示反應，照留原式；一般酯化可逆，解說時可寫乙醇＋醋酸 ⇌ 乙酸乙酯＋水。\n\n氫氧化鈉與醋酸反應，生成醋酸鈉CH₃COONa及水，是酸鹼中和。它雖也生成水，卻不是形成酯，因此不與X同類。\n\n三、逐項判斷\nA的反應式與分類均正確。B的反應式確與X同類，但把酯化誤稱中和。C將中和式誤稱酯化。D對所列NaOH與醋酸的分類本身正確，但它與題幹X不類似，因此整項仍不正確。\n\n判題要同時檢查「反應是否類似」及「類型名稱是否正確」，不能只看到D寫中和就選它。",
+  "rationale": "本題教學重點是反應角色、分類、文字聲韻或精確不等式，以可選取HTML條件圖明示原值、正誤與推理，不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 醇與脂肪酸形成酯",
+      "text": "甘油有三個羥基，與三個脂肪酸形成三個酯鍵；這是酯化。",
+      "alt": "題幹X的類型",
+      "diagram": {
+        "kind": "flow",
+        "title": "題幹X的類型",
+        "items": [
+          {
+            "label": "甘油＋三個脂肪酸",
+            "detail": "原料",
+            "tone": "blue"
+          },
+          {
+            "label": "三酸甘油酯＋三個水",
+            "detail": "生成物",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "核對概念"
+      }
+    },
+    {
+      "heading": "② 同樣生成水，類型仍不同",
+      "text": "乙醇與醋酸生成酯是酯化；NaOH與醋酸生成鹽和水是中和。不能只看水。",
+      "alt": "兩組反應分流",
+      "diagram": {
+        "kind": "flow",
+        "title": "兩組反應分流",
+        "items": [
+          {
+            "label": "乙醇＋醋酸",
+            "detail": "酯＋水 → 酯化",
+            "tone": "blue"
+          },
+          {
+            "label": "NaOH＋醋酸",
+            "detail": "醋酸鈉＋水 → 中和",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "核對概念"
+      }
+    },
+    {
+      "heading": "③ 兩句都正確才可選",
+      "text": "A既和X類似，又正確稱為酯化。D雖把中和式分類正確，卻與X不同類，仍不能選。",
+      "alt": "整項判斷",
+      "diagram": {
+        "kind": "paths",
+        "title": "整項判斷",
+        "items": [
+          {
+            "label": "是否與X類似？",
+            "detail": "需同為酯化",
+            "tone": "blue"
+          },
+          {
+            "label": "分類名稱是否正確？",
+            "detail": "也需寫酯化",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依條件判斷",
+        "target": "A"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(A) 與乙醇和醋酸生成酯及水的反應類似，均為酯化反應",
+    "points": [
+      "甘油與脂肪酸形成酯鍵，屬酯化。",
+      "乙醇＋醋酸生成酯和水；NaOH＋醋酸屬中和。",
+      "D所列反應雖是中和，卻與題幹X不同類。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1048-art-193059545b.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-10T14:20:26.344602+00:00",
+  "validationFile": "docs/comics/q-1048-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261110/qa/q-1048-app-1440.png",
+      "docs/imports/new-gpt-20261110/qa/q-1048-app-390.png",
+      "docs/imports/new-gpt-20261110/qa/q-1048-standalone-1440.png",
+      "docs/imports/new-gpt-20261110/qa/q-1048-standalone-390.png"
+    ],
+    "comicViews": [
+      "/tmp/weirugo-comic-checks/q-1048-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1048-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1048-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1048-standalone-390.png"
+    ],
+    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
+  }
+}

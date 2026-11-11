@@ -1,120 +1,73 @@
 {
   "id": "q-961",
   "subject": "Math",
-  "title": "減2後整體平方，再依序運算",
-  "art": "docs/comics/art/q-961.svg",
-  "layoutVersion": "native-fluid-v6",
+  "title": "整體平方後乘5，最後才減13",
+  "art": "docs/comics/art/q-961-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 每一步都接續上一步的結果",
-      "text": "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-      "diagram": {
-        "kind": "flow",
-        "title": "原流程的前半段",
-        "items": [
-          {
-            "label": "輸入：x",
-            "tone": "blue"
-          },
-          {
-            "label": "減2：x－2",
-            "tone": "gold"
-          },
-          {
-            "label": "平方：（x－2）²",
-            "tone": "green"
-          }
-        ],
-        "arrow": "依序處理上一個結果"
-      },
-      "alt": "中文標示輸入x、減2後x－2、整體平方（x－2）²。"
+      "heading": "① 平方的是整個x－2",
+      "text": "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+      "alt": "減2後整體平方的函數圖，x為2時平方結果為0",
+      "image": "docs/comics/art/q-961-four-image-v2-panel-1.svg",
+      "caption": "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
     },
     {
-      "heading": "② 再乘5、減13，最後才展開",
-      "text": "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-      "diagram": {
-        "kind": "flow",
-        "title": "原流程的後半段",
-        "items": [
-          {
-            "label": "乘5：5（x－2）²",
-            "tone": "blue"
-          },
-          {
-            "label": "減13：y＝5（x－2）²－13",
-            "tone": "gold"
-          },
-          {
-            "label": "展開：y＝5x²－20x＋7",
-            "tone": "green"
-          }
-        ],
-        "arrow": "接續運算，再整理代數式"
-      },
-      "alt": "精確HTML保留平方範圍、乘5、減13與展開的中間項。"
+      "heading": "② 上一步的整體再乘5",
+      "text": "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+      "alt": "乘5後的綠色函數圖與原平方虛線比較；不是只將2平方",
+      "image": "docs/comics/art/q-961-four-image-v2-panel-2.svg",
+      "caption": "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
     },
     {
-      "heading": "③ 用x＝2檢查B的平方範圍",
-      "text": "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。",
-      "diagram": {
-        "kind": "paths",
-        "title": "同一個輸入，核對輸出",
-        "items": [
-          {
-            "label": "依流程／選項C：－13",
-            "tone": "green",
-            "detail": "先減2後，整體平方。"
-          },
-          {
-            "label": "選項B：－23",
-            "tone": "gold",
-            "detail": "B只把2平方，範圍不同。"
-          }
-        ],
-        "target": "B不符；C符合原流程",
-        "arrow": "都以x＝2代入比較"
-      },
-      "alt": "同輸入2時比較B輸出－23與原流程和C輸出－13。"
+      "heading": "③ 最後減13，再展開",
+      "text": "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。",
+      "alt": "乘5後再減13，整個輸出降低13，x為2輸出負13",
+      "image": "docs/comics/art/q-961-four-image-v2-panel-3.svg",
+      "caption": "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
     }
   ],
   "fourth": {
     "answer": "答案 C：y＝5x²－20x＋7",
     "points": [
-      "平方的是減2後的整個結果。",
-      "（x－2）²＝x²－4x＋4，再全部乘5。",
-      "B把平方放在2上；不能因有括號就當成同一式。"
-    ]
+      "同輸入x＝2，原流程與C都輸出－13。",
+      "B只把2平方，x＝2時卻輸出－23。",
+      "圖是依流程計算的輔助函數圖，原卷流程與選項仍保留。"
+    ],
+    "image": "docs/comics/art/q-961-four-image-v2-panel-4.svg",
+    "alt": "第四圖比較C正確拋物線與B錯誤直線，同輸入2分別負13和負23"
   },
   "protectedWords": [
-    "原流程",
-    "平方範圍",
-    "整體平方",
-    "中間項",
-    "x＝2",
-    "x－2",
     "（x－2）²",
     "5（x－2）²",
     "5x²－20x＋7",
-    "－20x",
+    "x＝2",
     "－13",
     "－23"
   ],
-  "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+  "generationMethod": "four authored SVG function/coordinate/road diagrams with computed geometry",
   "originalMaterialsChecked": true,
-  "originalChecked": {
-    "path": "docs/imports/new-gpt-20261105-b/originals/page1-q7.png",
-    "visualChecked": true
-  },
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-059-page1-q7-779b2ec31a1e.png"
+  ],
   "sourceGeneratedArtUsed": false,
-  "generationMethod": "new selectable native HTML mathematics diagrams with exact formulas, Chinese roles, values, units and action arrows; deterministic SVG fallback; imagegenCalls=0",
-  "rationale": "本題正是運算流程與代數範圍辨認，以可選取中文步驟和精確公式呈現整體平方/乘法分配/同值檢查，比人物裝飾或生成公式清楚；原題B指數在2上如實保留。",
-  "designFile": "docs/comics/q-961-design.txt",
-  "artSHA256": "9af7be16bacdc5bb05cded77391d7226483119c4df79a00ec9cf0882d0500a22",
+  "answerCheckedAgainst": "下圖為某函數的計算流程，若輸入一個x值，輸出的值為y，則此函數可表示為下列何者？\n(A) y＝x－2²×5－13\n(B) y＝5（x－2²）－13\n(C) y＝5x²－20x＋7\n(D) y＝5x²－4x－9\n(C) y＝5x²－20x＋7\n依流程保留每一步運算的對象\n輸入x→減2得x－2→平方得（x－2）²→乘以5得5（x－2）²→減13。\n所以y＝5（x－2）²－13＝5（x²－4x＋4）－13＝5x²－20x＋7，選C。\n\n平方的是減2後的整個結果，不是只把2平方。A、B中的2²都只對2平方，沒有依流程把x－2當作整體平方。D也不等於展開式：中間項須是5×（－4x）＝－20x，常數項是20－13＝7。\n\n可用x＝2回代驗算：流程結果是－13；C代入得20－40＋7＝－13。B則為5（2－4）－13＝－23，不符合。\n原AI答案表將學生B判成正確，與原卷流程、選項不符；獨立驗算後訂正C，不因原AI稱答對就漏收此錯題。",
+  "rationale": "實看真正原卷與共同附圖，重算全部推導，保持原題/答案；四張實際函數/座標/距離圖配HTML精確條件，不使用文字流程框替代。",
+  "createdAt": "2026-11-11T16:40:51.742383+00:00",
   "visualChecked": true,
-  "checkedAt": "2026-11-05T15:30:40.929887+00:00",
-  "previewValidation": "docs/comics/q-961-preview-validation.json",
-  "visualReview": "已實看1440桌機與390手機四格，三寬PASS：整個x－2平方、再乘5減13、展開中間項－20x與常數7均正確；x＝2流程/C為－13、B為－23。HTML精確公式和步驟/箭頭完整，沒有來源AI沿用；同列等高、單欄自然高度且無溢出。",
-  "nativeArt": "assets/comics/q-961-art-9af7be16ba.svg",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checkedAt": "2026-11-11T16:40:51.742383+00:00",
+    "checks": [
+      "4圖曲線依對應函數逐點算出，回代x2驗證C−13/B−23",
+      "不是把輔助圖當原卷新增條件",
+      "不改原AI先前已訂正與確認紀錄"
+    ],
+    "sourceQuestionUnchanged": true
+  },
+  "nativeArt": "assets/comics/q-961-art-6f146ddce3.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -127,14 +80,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
     "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:49:42.045129+00:00",
     "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "decision": "complete",
-    "formalAppAndStandaloneQA": true,
-    "previewQAInherited": "docs/comics/q-961-preview-validation.json",
-    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-961-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-961-app-390.png",
+      "/tmp/weirugo-comic-checks/q-961-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-961-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
+  "checkedAt": "2026-11-11T16:49:42.053932+00:00",
   "validationFile": "docs/comics/q-961-validation.json"
 }

@@ -1,0 +1,159 @@
+{
+  "id": "q-979",
+  "subject": "Chinese",
+  "title": "先讀原印字形，再用詞義查正字",
+  "art": "docs/comics/art/q-979-word-check.svg",
+  "generationMethod": "new native selectable HTML orthographic before/after and meaning-comparison blocks with SVG fallback",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-979-q-4-original-e6cee9a3f45a.png"
+  ],
+  "answerCheckedAgainst": "實看原卷4題，A貧瘠原字正確、B原印狡許、C泊來品、D末路；保留原錯字選項，不先改成正字再選。",
+  "supportingSources": [
+    {
+      "title": "教育部《國語辭典簡編本》：貧瘠",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3228&la=0&powerMode=0",
+      "finding": "土地不肥沃。"
+    },
+    {
+      "title": "教育部《國語辭典簡編本》：舶來品",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=176&la=0&powerMode=0",
+      "finding": "外國進口貨物，正字舶。"
+    }
+  ],
+  "rationale": "本題辨字必須精確對照許/詐、泊/舶、末/陌，原生HTML可選取字形和意義比人物插圖清楚，避免生成文字或把原錯字偷偷修正後誤選；不需要情境圖冒充字形證據。",
+  "panels": [
+    {
+      "heading": "① A本來正確；B要保留原錯字再判",
+      "text": "A的貧瘠、面黃肌瘦用字正確。B原印「狡許」，應寫「狡詐」；不能把許先讀成詐，再誤判B完全正確。",
+      "alt": "HTML直接對照A正字貧瘠與B原錯狡許改狡詐，字形不由圖片生成。",
+      "diagram": {
+        "kind": "flow",
+        "title": "先按原卷字形逐字看",
+        "items": [
+          {
+            "label": "A｜貧瘠、面黃肌瘦",
+            "detail": "用字正確；貧瘠指土地不肥沃。",
+            "tone": "green"
+          },
+          {
+            "label": "B｜狡【許】→狡【詐】",
+            "detail": "狡詐指狡猾奸詐，原許字有誤。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "判原句，不是判改過的句子"
+      }
+    },
+    {
+      "heading": "② C進口貨物，要寫舶來品",
+      "text": "舶來品是由外國進口的貨物，要用舟部的「舶」。原卷的「泊來品」用了水部的泊，不是正確詞形。",
+      "alt": "可選取HTML將泊來品的泊改成舶，另標舟部與外國進口貨物的詞義。",
+      "diagram": {
+        "kind": "flow",
+        "title": "C｜原印字→正確詞",
+        "items": [
+          {
+            "label": "原印：泊來品",
+            "detail": "泊是水部，原句用字有誤。",
+            "tone": "gold"
+          },
+          {
+            "label": "正確：舶來品",
+            "detail": "舶是舟部；詞義是外國進口貨物。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "依完整詞義核對正字"
+      }
+    },
+    {
+      "heading": "③ D如同陌生人，不是走到末路",
+      "text": "昔日戀人如今當作不相識的人，應作「視同陌路」。陌路可指不相識的人；末路指路的盡頭或窮困處境，與句意不同。",
+      "alt": "可選取HTML依不相識的人之意，將視同末路改為視同陌路，對比末與陌。",
+      "diagram": {
+        "kind": "flow",
+        "title": "D｜依上下文辨末、陌",
+        "items": [
+          {
+            "label": "原印：視同【末】路",
+            "detail": "末路不合本句人際關係的意思。",
+            "tone": "gold"
+          },
+          {
+            "label": "正確：視同【陌】路",
+            "detail": "把對方當作不相識的人。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "由句意選正確詞形"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：用字完全正確",
+    "points": [
+      "A貧瘠、面黃肌瘦均正確。",
+      "B狡許→狡詐；C泊來品→舶來品。",
+      "D視同末路→視同陌路；原題錯字要照留。"
+    ]
+  },
+  "protectedWords": [
+    "貧瘠",
+    "面黃肌瘦",
+    "狡許",
+    "狡詐",
+    "泊來品",
+    "舶來品",
+    "視同末路",
+    "視同陌路",
+    "末路",
+    "陌路",
+    "水部",
+    "舟部"
+  ],
+  "producerAgent": "/root/comic_lane_1",
+  "createdAt": "2026-11-09T16:03:26.512055+00:00",
+  "artSHA256": "9b870ddd70bb27a48a2f58fbdc5a776a8d9bcf54db947c544a29fe001b6c474c",
+  "visualChecked": true,
+  "previewValidation": "docs/comics/q-979-preview-validation.json",
+  "visualReview": "原卷4與教育部貧瘠/舶來品詞條核對；全新HTML正誤字形/詞義三圖塊，桌手機隔離成品實看、三寬PASS；A不改，原錯字不先訂正後判。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-979-1440.png",
+      "/tmp/weirugo-comic-previews/q-979-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-979-art-9b870ddd70.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T16:04:19.007351+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-979-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-979-app-390.png",
+      "/tmp/weirugo-comic-checks/q-979-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-979-standalone-390.png"
+    ],
+    "note": "原卷4貧瘠/許/泊/末與教育部貧瘠舶來品詞條核對，A維持，原錯字照留；新HTML字形/詞義三圖塊於app單頁桌手機四成品實看，六布局PASS。"
+  },
+  "validationFile": "docs/comics/q-979-validation.json",
+  "checkedAt": "2026-11-09T16:04:19.019783+00:00"
+}

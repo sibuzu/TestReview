@@ -1,8 +1,8 @@
 {
   "id": "q-050",
   "subject": "Biology",
-  "title": "依文章找證據，再分清遺傳與染色體分類",
-  "art": "docs/comics/art/q-050.png",
+  "title": "腦屬中樞神經；遺傳、染色體與檢測分清",
+  "art": "docs/comics/art/q-050-biology-v2-panel-1.png",
   "protectedWords": [
     "中樞神經",
     "體染色體",
@@ -10,52 +10,60 @@
     "基因檢測",
     "46條",
     "44條",
-    "2條"
+    "2條",
+    "染色質"
   ],
   "panels": [
     {
-      "heading": "① 文中腦部傷害，支持A",
-      "text": "文章明說腦部傷害，而腦和脊髓構成中樞神經系統。因此依本文判斷，A有明確依據，不用從其他細節自行猜測。",
-      "alt": "正常腦模型用來理解腦屬中樞神經，不把患者外觀或每個病例都畫成相同傷害。"
+      "heading": "① 文中腦部傷害，直接支持A",
+      "text": "腦與脊髓構成中樞神經系統。文章明說腦部傷害，所以依本文推論，A有明確證據；不必猜患者外觀。",
+      "alt": "新製類真實正常中樞神經教學模型：上方完整腦，下方腦幹連續接脊髓，沒有患者傷害或疾病外觀刻板印象。",
+      "caption": "正常解剖模型｜腦與下方脊髓屬中樞神經。",
+      "image": "docs/comics/art/q-050-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 遺傳，不等於接觸傳染",
-      "text": "題幹說的是體染色體隱性遺傳疾病，基因可由親代傳給子代。不能改寫成經一般接觸就把疾病傳給旁人，B把兩者混淆。",
-      "alt": "日常家庭相處，不畫病菌接觸傳播，也不以特殊膚髮色標記患者。"
+      "heading": "② 基因遺傳，不是接觸傳染",
+      "text": "DNA是遺傳物質。題文的疾病可經基因由親代遺傳給子代，不能把這件事改寫成經一般接觸傳染給旁人，所以B不對。",
+      "alt": "新製類真實DNA雙股螺旋分子教學模型：兩條纏繞骨架由內部成對橫桿連結，不畫病菌、人際傳染箭頭或特定基因序列。",
+      "caption": "DNA構造模型｜遺傳物質，不是病菌。",
+      "image": "docs/comics/art/q-050-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 46條是全部，不是全為體染色體",
-      "text": "一般人體神經細胞共有46條染色體，其中44條是體染色體，另有2條性染色體。C漏看了體染色體這個限定。",
-      "alt": "分類資訊的教學情境，46/44/2的精確數字由HTML表示，不讓AI畫錯染色體數量。"
+      "heading": "③ 46是全部，不是全為體染色體",
+      "text": "細胞核內的遺傳物質形成染色質。一般人體神經細胞共有46條染色體：44條體染色體＋2條性染色體。C的限定詞錯了。",
+      "alt": "新製類真實細胞核剖面：雙層核膜、少量核孔、內部鬆散染色質與核仁；不畫神經細胞分裂或錯誤全套染色體數量。",
+      "caption": "細胞核放大模型｜數量分類依本格文字。",
+      "image": "docs/comics/art/q-050-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "answer": "答案 A：腦屬中樞神經，符合文意",
+    "answer": "答案 A：腦屬中樞神經，符合本文",
     "points": [
-      "先用本文明示的腦部傷害支持A。",
-      "46條全部染色體＝44條體染色體＋2條性染色體。",
-      "基因檢測能提供資訊，不等於檢測本身治癒疾病。"
-    ]
+      "第四圖以細胞樣本檢查為例：檢測提供資訊，不等於治癒，D不對。",
+      "46條全部＝44條體染色體＋2條性染色體。",
+      "依文章明示的腦部傷害支持A；不把每位患者都畫成同一症狀。"
+    ],
+    "image": "docs/comics/art/q-050-biology-v2-panel-4.png",
+    "alt": "新製類真實細胞樣本放大教學模型：有核動物細胞在檢體容器中，背景有觀察儀器；沒有穿刺操作、藥物或治癒效果，不代表細胞的實際可見尺寸。"
   },
-  "rationale": "已實看第46題完整原卷文章與四項，核A依腦部傷害文字成立。查MedlinePlus PKU與NHGRI體染色體定義，核遺傳非一般接觸傳染、44+2=46；依本文推論而非無條件宣稱每位患者必有相同症狀，不提供診療建議或羊膜穿刺操作。新圖只有正常模型/家庭/分類，沒有AI細胞與染色體數量、疾病外觀刻板印象或檢測=治癒。無既有AI解說圖。",
+  "rationale": "依使用者2026-11-12要求製作腦/脊髓、DNA、細胞核染色質、細胞樣本四張獨立類真實圖，解釋依題文選A與排除B/C/D。完整原題、文章、A答案與通常名稱註記保留。精確染色體44+2=46由HTML呈現，不讓生成圖猜46個凝縮X或把神經細胞畫成正在分裂；不以患者皮髮外觀表示疾病，也不畫檢測使疾病痊癒。",
   "sources": [
     {
-      "title": "MedlinePlus Genetics：Phenylketonuria",
-      "url": "https://medlineplus.gov/genetics/condition/phenylketonuria/"
+      "url": "https://medlineplus.gov/genetics/condition/phenylketonuria/",
+      "support": "官方遺傳疾病資料：PKU為體染色體隱性遺傳，特定情況可造成腦傷；嚴重程度不同，不把文中表述推廣為人人症狀相同。"
     },
     {
-      "title": "NHGRI：Autosome",
-      "url": "https://www.genome.gov/genetics-glossary/Autosome"
+      "url": "https://www.genome.gov/genetics-glossary/Autosome",
+      "support": "NHGRI官方：22對體染色體＋1對性染色體；一般體細胞總共23對/46條。"
     }
   ],
-  "generationMethod": "built-in image_gen",
-  "promptFile": "docs/comics/q-050-prompt.txt",
+  "generationMethod": "built-in image_gen; four independently generated near-realistic anatomical and cellular illustrations",
   "originalMaterialsChecked": true,
-  "visualChecked": true,
+  "visualChecked": false,
   "originalMaterials": [
     "site/dist/assets/questions/q-050-source-3e6420860a.jpg"
   ],
-  "answerCheckedAgainst": "文章已言腦部傷害，腦為中樞神經，A；遺傳非傳染、體染色體44不是46、檢測非治療。",
+  "answerCheckedAgainst": "實看原卷46題完整文章與四選項，文章明言腦部傷害，腦/脊髓屬中樞，A成立；B遺傳非一般接觸傳染，C體染色體44非46，D檢測非治癒。",
   "layoutVersion": "native-fluid-v6",
   "nativeLayout": {
     "width": "100%",
@@ -68,9 +76,13 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "84f173c3262e8cc28b1492ef2272f8d4280cdf9bcfb24146cc2603e8ea154f53",
   "createdAt": "2026-10-28T20:50:46.693532+00:00",
-  "checkedAt": "2026-10-28T20:53:02.972532+00:00",
-  "validationFile": "docs/comics/q-050-validation.json",
-  "nativeArt": "assets/comics/q-050-art-84f173c326-web.webp"
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T16:59:31.054044+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-050/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-050/scientific-review.json"
 }

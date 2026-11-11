@@ -2,9 +2,8 @@
   "id": "q-1002",
   "subject": "Civics",
   "title": "從糾正辨認監察院，再比對職權",
-  "art": "docs/comics/art/q-1002-authority.svg",
-  "layoutVersion": "native-fluid-v6",
-  "generationMethod": "new native selectable HTML authority paths and constitutional comparison blocks",
+  "art": "docs/comics/art/q-1002-four-image-v2-panel-1.png",
+  "generationMethod": "built-in image_gen: four original detailed coloured anime civics teaching scenes with explicit HTML institution labels",
   "sourceGeneratedArtUsed": false,
   "originalMaterialsChecked": true,
   "originalMaterials": [
@@ -24,104 +23,79 @@
       "finding": "第2條總統副總統罷免案由立法院提出；第5條政黨違憲解散由憲法法庭審理；第7條監察院行使彈劾權。"
     }
   ],
-  "rationale": "本題雖給統計圖，考點並非計算柱高，而是糾正與彈劾的機關歸屬。採全新可選取中文職權關係塊，直接標明行為與對象；不把模糊統計重畫成虛構數字，不以無字人物圖示讓讀者猜機關。",
+  "rationale": "原卷統計標題與選項完整核對；不猜模糊逐年數字。四張全新情境圖配明確HTML機關/行為/對象：文書查核、設施糾正、不同院職權對照、彈劾提案。維持A與既有法規說明，不以無字人物讓讀者猜機關。",
   "panels": [
     {
-      "heading": "① 先讀標題，不必猜柱高",
-      "text": "統計圖標題是「糾正案件數及機關數」。辨認糾正這項職權，就能判斷服務機關是監察院，不必計算各年的模糊柱高。",
-      "alt": "原圖標題糾正案件數及機關數，經由辨認職權，指向監察院的可選取中文流程。",
-      "diagram": {
-        "kind": "flow",
-        "title": "圖中最有用的線索",
-        "items": [
-          {
-            "label": "圖名：糾正案件數及機關數",
-            "detail": "題目要求辨認機關。",
-            "tone": "gold"
-          },
-          {
-            "label": "糾正 → 監察院",
-            "detail": "針對行政機關工作、設施的違失。",
-            "tone": "green"
-          }
-        ],
-        "arrow": "抓住職權關鍵字"
-      }
+      "heading": "① 糾正這個字比柱高重要",
+      "text": "原圖標題是「糾正案件數及機關數」。糾正行政機關工作或設施的違失，對應監察院；不用猜原圖模糊柱高。",
+      "caption": "監察院：核查行政工作（情境插畫，非原卷統計）。",
+      "alt": "兩位行政監督工作者核查文件，未畫虛構統計或數字。",
+      "image": "docs/comics/art/q-1002-four-image-v2-panel-1.png"
     },
     {
-      "heading": "② 同是監察院：還能依法提案彈劾",
-      "text": "行政院院長屬中央公務人員。對違法或失職的行政院院長依法提案彈劾，也屬監察院職權，因此A符合。",
-      "alt": "糾正行政機關與彈劾違法失職公務人員兩條路徑都歸屬監察院，明示行政院院長在彈劾對象範圍。",
-      "diagram": {
-        "kind": "paths",
-        "title": "兩種行為，辨認同一機關",
-        "items": [
-          {
-            "label": "糾正行政機關的違失",
-            "detail": "對應原圖標題。",
-            "tone": "blue"
-          },
-          {
-            "label": "彈劾違法、失職的公務人員",
-            "detail": "包含行政院院長。",
-            "tone": "green"
-          }
-        ],
-        "target": "均屬監察院職權",
-        "arrow": "比對行為與對象",
-        "note": "提案彈劾不等於監察院直接定罪或判刑。"
-      }
+      "heading": "② 監察院可依法提出糾正",
+      "text": "公共設施或行政工作有違失，可以依法提出糾正，促使機關檢討改進。圖是設施查核情境，不是監察院自行修繕。",
+      "caption": "監察院：針對行政工作、設施違失提出糾正。",
+      "alt": "監督人員查核破損公共設施並記錄，行政管理人員參與，沒有逮捕或判刑。",
+      "image": "docs/comics/art/q-1002-four-image-v2-panel-2.png"
     },
     {
-      "heading": "③ B、C、D屬其他機關",
-      "text": "正副總統罷免案由立法院提出；審議年度總預算也是立法院職權。政黨違憲解散案則由司法院憲法法庭審理。",
-      "alt": "B總統副總統罷免案與C審預算歸立法院，D政黨違憲解散歸司法院憲法法庭的可選取比較。",
-      "diagram": {
-        "kind": "paths",
-        "title": "把另外三項放回正確機關",
-        "items": [
-          {
-            "label": "B、C｜立法院",
-            "detail": "提出正副總統罷免案；審議總預算。",
-            "tone": "gold"
-          },
-          {
-            "label": "D｜司法院憲法法庭",
-            "detail": "審理政黨違憲解散案。",
-            "tone": "purple"
-          }
-        ],
-        "target": "均不是圖示的監察院",
-        "arrow": "依機關職權排除"
-      }
+      "heading": "③ 預算、罷免與違憲解散另有機關",
+      "text": "左圖立法院對應總預算審議及正副總統罷免案；右圖司法院憲法法庭對應政黨違憲解散。B、C、D都不是本題機關職權。",
+      "caption": "左：立法院（B、C）；右：司法院憲法法庭（D）。",
+      "alt": "同一圖清楚分開立法議事場景與憲法審判場景，由中文圖說直接標角色。",
+      "image": "docs/comics/art/q-1002-four-image-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "answer": "答案 A：依法彈劾違法失職的行政院長",
+    "answer": "答案 A：提案彈劾違法失職的行政院院長",
     "points": [
-      "糾正是辨認監察院的關鍵字。",
-      "監察院可依法彈劾違法、失職公務人員。",
-      "立法院審預算；憲法法庭審政黨違憲解散。"
-    ]
+      "先由糾正統計圖辨認監察院。",
+      "監察院可依法對違法、失職公務員提案彈劾，行政院院長在其範圍。",
+      "提案彈劾是監督程序，不等於圖中人物已被判刑。"
+    ],
+    "image": "docs/comics/art/q-1002-four-image-v2-panel-4.png",
+    "alt": "監督委員會共同審查並提出針對匿名高階行政官員的案件，沒有刑事判決或逮捕場景。"
   },
   "protectedWords": [
     "監察院",
     "立法院",
-    "行政院院長",
+    "司法院",
     "憲法法庭",
-    "糾正",
-    "彈劾",
+    "行政院院長",
+    "提案彈劾",
     "總預算",
-    "正副總統",
-    "違法、失職"
+    "正副總統"
   ],
   "createdAt": "2026-11-09T14:56:35.973661+00:00",
-  "artSHA256": "a27fc317a08bd1db2132d6e2ffe894053fced71227b98281b50bcba639920c87",
   "visualChecked": true,
-  "checkedAt": "2026-11-09T14:58:53.356112+00:00",
-  "previewValidation": "docs/comics/q-1002-preview-validation.json",
-  "visualReview": "原卷第42題與圖19已實開，三寬1440/1120/390成品逐張實看：糾正→監察院、依法彈劾公務人員含行政院長→A，B/C立法院及D憲法法庭分工清楚。不重畫或猜逐年件數。無溢出/保護詞拆行，同行等高，手機自然高度。",
-  "nativeArt": "assets/comics/q-1002-art-a27fc317a0.svg",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "checks": [
+      "實開原卷和統計裁圖，只辨糾正標題，不杜撰柱高",
+      "四圖各自生成，並以HTML直接標監察院、立法院、憲法法庭及職權",
+      "無逮捕/判刑/刑事法槌，未把彈劾等同有罪裁判",
+      "第四圖匿名行政官員，不指涉真實人物或個案"
+    ],
+    "checkedAt": "2026-11-11T16:57:41.384214+00:00",
+    "sources": [
+      {
+        "url": "https://www.cy.gov.tw/cp.aspx?n=91&s=247",
+        "finding": "中央及地方公務人員違法/失職可依法提彈劾，非監察院直接判刑。"
+      },
+      {
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002",
+        "finding": "增修第2條罷免案由立法院提出，第5條政黨違憲解散由憲法法庭審理，第7條監察院彈劾。"
+      }
+    ]
+  },
+  "updatedAt": "2026-11-11T16:57:41.384214+00:00",
+  "nativeArt": "assets/comics/q-1002-art-9b3f659a90-web.webp",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -134,17 +108,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
     "reviewerAgent": "/root/comic_lane_1",
-    "checkedAt": "2026-11-09T14:58:53.348010+00:00",
-    "screenshots": [
+    "checkedAt": "2026-11-11T16:59:59.813684+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
       "/tmp/weirugo-comic-checks/q-1002-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1002-app-390.png",
       "/tmp/weirugo-comic-checks/q-1002-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1002-standalone-390.png"
     ],
-    "note": "已實開原卷圖19及ABCD；正式app/單頁桌手機4圖實看，糾正→監察院→彈劾以及B/C/D所屬機關清楚，不造柱高，A維持；三寬6布局PASS。"
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
+  "checkedAt": "2026-11-11T16:59:59.821226+00:00",
   "validationFile": "docs/comics/q-1002-validation.json"
 }

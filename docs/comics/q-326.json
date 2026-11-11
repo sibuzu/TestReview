@@ -1,0 +1,93 @@
+{
+  "id": "q-326",
+  "subject": "Math",
+  "title": "正整數解逐一數，只有六個",
+  "art": "docs/comics/art/q-326-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 先限定正整數",
+      "text": "正整數從1開始，是1、2、3、……；0和負整數都不在題目允許的範圍。",
+      "alt": "正整數從1向右的離散實心點；不是整條連續線。",
+      "image": "docs/comics/art/q-326-four-image-v2-panel-1.svg",
+      "caption": "新製精確數線／計數圖；數值與條件見本格文字。"
+    },
+    {
+      "heading": "② 再看小於7",
+      "text": "x＜7不包含7，數線在7畫空心端點，範圍向左。但此時還必須套回正整數條件。",
+      "alt": "7空心端點，藍色線段與箭頭向左，只表示小於7的範圍。",
+      "image": "docs/comics/art/q-326-four-image-v2-panel-2.svg",
+      "caption": "新製精確數線／計數圖；數值與條件見本格文字。"
+    },
+    {
+      "heading": "③ 取兩條件的交集",
+      "text": "同時是正整數又小於7，只剩1、2、3、4、5、6。不要把左方所有負數也算進來。",
+      "alt": "數線上只有1至6六個綠色解點，7空心且不屬於解。",
+      "image": "docs/comics/art/q-326-four-image-v2-panel-3.svg",
+      "caption": "新製精確數線／計數圖；數值與條件見本格文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：×（原敘述錯誤）",
+    "points": [
+      "六個解：1、2、3、4、5、6。",
+      "所以解的個數有限，應打×。",
+      "數域為正整數，不能混入0、負數或所有實數。"
+    ],
+    "image": "docs/comics/art/q-326-four-image-v2-panel-4.svg",
+    "alt": "由本題實際條件總結答案的第四張獨立圖。"
+  },
+  "protectedWords": [
+    "正整數",
+    "不等號",
+    "a＜0",
+    "a＞0",
+    "x＜7"
+  ],
+  "generationMethod": "authored SVG: four exact number-line/domain/intersection/count diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-326-source-37aa00a7ee.jpg"
+  ],
+  "answerCheckedAgainst": "判斷是非，對的畫「○」，錯的打「×」。\n若 x 為正整數，則不等式 x＜7 的解有無限多個。\n\n(A) ○（對）\n(B) ×（錯）\n正確答案：B。應打×，原敘述錯誤。正整數是1、2、3、…。\n正整數是1、2、3、…。同時滿足x＜7的只有1、2、3、4、5、6，共6個，所以「無限多個」是錯的，應打×。\n如果未限定正整數，實數解確實有無限多個；即使限定為整數，但允許負整數，也有無限多個。解的個數必須連同題目的數域判斷。",
+  "rationale": "實看完整原卷並逐步重算，原題與既有B答案不變；四張不同教學目的的精確數線/計數圖，不用文字流程框或空白圖充數。",
+  "createdAt": "2026-11-11T16:33:17.200707+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checkedAt": "2026-11-11T16:33:17.200707+00:00",
+    "sourceQuestionUnchanged": true
+  },
+  "nativeArt": "assets/comics/q-326-art-e3ead9f5e8.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:38:25.550579+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-326-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-326-app-390.png",
+      "/tmp/weirugo-comic-checks/q-326-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-326-standalone-390.png"
+    ],
+    "note": "實看原卷、四張新圖及正式桌手機兩閱讀版；神經形態/訊息與症狀病因分別核對，正整數解依原題逐一驗算；原題答案保留。"
+  },
+  "checkedAt": "2026-11-11T16:38:25.558071+00:00",
+  "validationFile": "docs/comics/q-326-validation.json"
+}

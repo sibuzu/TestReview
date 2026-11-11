@@ -2,34 +2,41 @@
   "id": "q-045",
   "subject": "Biology",
   "title": "追蹤誰不變、誰結合，就能判酵素與合成",
-  "art": "docs/comics/art/q-045.svg",
+  "art": "docs/comics/art/q-045-biology-v2-panel-1.png",
   "startedAt": "2026-10-28T21:40:18.208885+00:00",
-  "layoutVersion": "native-fluid-v6",
+  "layoutVersion": "native-four-images-v7",
   "panels": [
     {
-      "heading": "① 先找反應前後保留的甲",
-      "text": "原圖的甲在反應前後都保留，乙、丙則結合成丁。甲是參與反應的酵素，不是被組成產物的受質。",
-      "alt": "綠色有凹槽的酵素與藍圓、橘方兩種受質分開，為形狀配合概念示意，不冒充原題符號比例或真實分子外形。"
+      "heading": "① 分清酵素與兩個受質",
+      "text": "綠色酵素對應原圖甲，藍、橘兩個受質對應乙、丙。反應前分開，反應後甲仍保留，不能把甲當受質。",
+      "alt": "綠色酵素的空作用部位朝右，藍、橘受質在外分開。",
+      "image": "docs/comics/art/q-045-biology-v2-panel-1.png",
+      "caption": "新製分子概念插畫｜綠：酵素甲；藍：受質乙；橘：受質丙。"
     },
     {
-      "heading": "② 看配合形狀，理解專一性",
-      "text": "用綠色酵素、橘色受質丙作示意：作用部位與受質形狀相配。原圖甲與丙的結合具有專一性，所以D正確。",
-      "alt": "藍圓與橘方受質分別配入酵素對應凹槽，連線示意在作用部位合成產物，不是細胞吞食。"
+      "heading": "② 作用部位與受質相配",
+      "text": "藍色乙、橘色丙與綠色甲的作用部位配合。原題甲與丙結合具有專一性，因此選D，不是任何形狀都能隨意結合。",
+      "alt": "藍與橘受質貼合在綠色酵素作用部位，顯示形狀配合。",
+      "image": "docs/comics/art/q-045-biology-v2-panel-2.png",
+      "caption": "新製分子概念插畫｜綠：酵素甲；藍：受質乙；橘：受質丙。"
     },
     {
-      "heading": "③ 兩部分結合成丁，是合成作用",
-      "text": "乙與丙由分開變成結合的丁，並非把大分子拆開。產物離開後，酵素甲仍在，不要把反應方向判成分解。",
-      "alt": "相同綠色酵素保留，藍橘相連的產物離開，對應合成而非分解；顏色由HTML解說，不生成文字。"
+      "heading": "③ 產物離開，酵素仍保留",
+      "text": "乙、丙結合成藍橘相連的產物丁，屬合成作用。產物離開後，綠色酵素仍在，可再次參與反應，不是分解作用。",
+      "alt": "綠色酵素空作用部位與藍橘相連產物分開，沒有把酵素併入產物。",
+      "image": "docs/comics/art/q-045-biology-v2-panel-3.png",
+      "caption": "新製分子概念插畫｜綠：酵素甲；藍：受質乙；橘：受質丙。"
     }
   ],
   "fourth": {
-    "heading": "④ 形狀、方向、反應前後一起看",
-    "answer": "答案 D：甲與丙結合具有專一性",
+    "answer": "答案 D：甲與丙的結合具有專一性",
     "points": [
-      "甲是酵素；乙、丙是受質；丁是產物。",
-      "乙、丙結合成丁，屬合成作用。",
-      "甲不被此反應消耗，可再次參與。"
-    ]
+      "左至右：受質分開、進入作用部位、結合產物離開。",
+      "綠色甲是酵素；藍色乙與橘色丙是受質，兩者組成丁。",
+      "合成後酵素保留；圖像是分子概念插畫，不表示特定蛋白原子結構。"
+    ],
+    "image": "docs/comics/art/q-045-biology-v2-panel-4.png",
+    "alt": "完整三步反應的第四張總覽圖：各步一個完整綠色酵素；藍與橘由分開、結合至單一產物，甲保留。"
   },
   "protectedWords": [
     "酵素",
@@ -53,17 +60,13 @@
       "supports": "酵素催化細胞化學反應，形成分子或分解分子，作為催化劑不消耗。"
     }
   ],
-  "rationale": "原卷與完整三階段附圖實看，甲不變、乙丙結合為丁，D正確、C方向反。為免imagegen畫錯分子結合與反應前後，原生無字SVG畫兩形狀對位與合成，甲乙丙丁及答案留HTML；僅概念比例非原題附圖重製。",
-  "promptSummary": "原生無字SVG：綠色酵素兩凹槽、分開受質、對位結合、相同酵素與相連產物離開。",
+  "rationale": "依實開原卷保留D與合成方向；四張新製類真實蛋白表面教材插畫，分別呈現酵素/受質、專一性、產物釋出、完整反應總覽；色彩對應有HTML文字圖例，不把生成圖視為特定分子真實結構。",
   "generationCalls": 0,
-  "answerCheckedAgainst": "原卷三階段圖與四選項、題庫D，獨立追蹤甲未改變及乙丙合成丁；官方酵素功能核對。",
-  "artSHA256": "fa4e73172d4c09ce49f4c59d7e6279bc60690062d23313c5cb57c2b42f784d99",
+  "answerCheckedAgainst": "原卷第12題完整四選項與三步原圖：甲反應前後保留，乙/丙組成丁；D專一性，非C分解。",
   "visualChecked": true,
-  "checkedAt": "2026-10-28T21:45:21.029354+00:00",
   "completedAt": "2026-10-28T21:41:47.112421+00:00",
   "layoutEvidence": "docs/comics/q-045-preview-validation.json",
   "visualReview": "原卷與三階段原圖實看，D與乙丙合成丁方向一致；原生SVG綠色甲形狀前後完全保留，藍圓橘方分開/配位/相連產物脫離，各圖形大小一致，無字。三寬1440/1120/390實看，詞組完整、無橫溢，同欄同列與手機自然高度通過。",
-  "nativeArt": "assets/comics/q-045-art-fa4e73172d.svg",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -75,5 +78,52 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
+  "generationMethod": "built-in image_gen: four independent semi-realistic molecular biology educational illustrations",
+  "qualityReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-045-source-ea630e7c29.jpg",
+    "site/dist/assets/questions/q-045-figure-e791d39982.jpg"
+  ],
+  "createdAt": "2026-11-11T16:31:23.449141+00:00",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T16:31:23.449141+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "imageCount": 4,
+    "scientificChecks": [
+      "甲與產物分離，酵素未消耗",
+      "乙與丙起初分開，之後組成單一雙葉產物丁",
+      "作用部位與受質接觸形狀配合，未畫成細胞吞噬",
+      "綠/藍/橘角色跨圖一致，圖例由HTML說明",
+      "未聲稱特定蛋白原子結構或套入臨床診斷"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26838/",
+        "note": "Molecular Biology of the Cell：作用部位結合受質、生成產物後釋出、酵素可再次使用。"
+      }
+    ]
+  },
+  "nativeArt": "assets/comics/q-045-art-4c122b785f-web.webp",
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:36:03.455066+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "biologyQualityReference": "todo/image.png",
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-045-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-045-app-390.png",
+      "/tmp/weirugo-comic-checks/q-045-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-045-standalone-390.png"
+    ],
+    "note": "實看原卷、四張類真實科學原圖與正式桌手機雙閱讀版；瓣膜位置與開放方向、酵素合成反應角色核對，原答案和原題完整保留。第四格實際有新圖，非純文字摘要。"
+  },
+  "checkedAt": "2026-11-11T16:36:03.463622+00:00",
   "validationFile": "docs/comics/q-045-validation.json"
 }

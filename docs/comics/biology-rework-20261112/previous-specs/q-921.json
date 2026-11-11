@@ -1,0 +1,132 @@
+{
+  "id": "q-921",
+  "subject": "English",
+  "title": "去哪裡與去做什麼分開看",
+  "art": "docs/comics/art/q-921.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① to the bank：交代目的地",
+      "text": "to the bank中的to是介系詞，後接地點名詞bank，回答「去哪裡」。這裡先完成去銀行的動作，還沒交代目的。",
+      "alt": "精確HTML以箭頭標明go到to the bank的目的地方向。",
+      "diagram": {
+        "kind": "flow",
+        "title": "地點：去哪裡？",
+        "items": [
+          {
+            "label": "go",
+            "detail": "動作：去",
+            "tone": "blue"
+          },
+          {
+            "label": "to the bank",
+            "detail": "介系詞＋地點：去銀行",
+            "tone": "green"
+          }
+        ],
+        "arrow": "去的方向／目的地",
+        "note": "bank是地點名詞。"
+      }
+    },
+    {
+      "heading": "② to change：交代去的目的",
+      "text": "接著問「去銀行做什麼？」為了換錢，用to＋原形動詞表示目的，所以填to change。不能直接在bank後接change或changing。",
+      "alt": "精確HTML標明去銀行的目的為換錢，不定詞to後接原形change。",
+      "diagram": {
+        "kind": "flow",
+        "title": "目的：去做什麼？",
+        "items": [
+          {
+            "label": "go to the bank",
+            "detail": "去銀行",
+            "tone": "blue"
+          },
+          {
+            "label": "to change some money",
+            "detail": "不定詞：為了換錢",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "說明去銀行的目的",
+        "note": "to＋原形動詞change。"
+      }
+    },
+    {
+      "heading": "③ 比較D：動詞形式也要一致",
+      "text": "若把動作並列並共用has to，應是go…and change，不能寫and changes。原題用to change表目的最恰當，選C。",
+      "alt": "HTML對照共用has to的go和change，說明不能用changes。",
+      "diagram": {
+        "kind": "flow",
+        "title": "排除and changes",
+        "items": [
+          {
+            "label": "has to go",
+            "detail": "has to後接原形go",
+            "tone": "blue"
+          },
+          {
+            "label": "and change",
+            "detail": "若共用has to，也要用原形change",
+            "tone": "green"
+          }
+        ],
+        "arrow": "若並列並共用has to",
+        "note": "D印的是and changes，形式不合。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：to change",
+    "points": [
+      "to the bank：去哪裡。",
+      "to change：為了做什麼。",
+      "has to＋原形；共用時change不加s。"
+    ]
+  },
+  "protectedWords": [
+    "to the bank",
+    "to change",
+    "some money",
+    "has to go",
+    "and change",
+    "and changes",
+    "changing",
+    "change",
+    "目的地",
+    "原形動詞",
+    "不定詞"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2",
+  "originalMaterialsChecked": true,
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new selectable HTML grammar relation diagrams; deterministic SVG fallback; imagegenCalls=0",
+  "rationale": "本題核心是to的兩種語法角色與動詞形式，精確HTML以中文角色及箭頭標明去的目的地/目的，比人物換錢場景更直接。原卷無逗號，不另造逗號文法比較。",
+  "visualChecked": true,
+  "artSHA256": "44b785597e29d1b262cc2de4b7b5f33123a66999ce3adc7ed3578350f8e7b1b9",
+  "checkedAt": "2026-11-02T17:33:21.166636+00:00",
+  "previewValidation": "docs/comics/q-921-preview-validation.json",
+  "visualReview": "已實看1440與390隔離成品：三組HTML箭頭與中文角色，目的地/目的/共用has to的原形清楚；無新增逗號或改原題，桌面同行等高、手機自然高度且全文可選取無溢出。",
+  "nativeArt": "assets/comics/q-921-art-44b785597e.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-02T17:33:21.161708+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-921-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、解碼與選項答案保持。"
+  },
+  "validationFile": "docs/comics/q-921-validation.json"
+}

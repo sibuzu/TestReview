@@ -1,0 +1,34 @@
+{
+  "scope": "四張獨立圖資及生物品質GOAL的顯示、入庫與監看支援",
+  "schema": "前三panels[].image、fourth.image及fourth.alt；既有art strip保持相容",
+  "siteTests": {
+    "passed": 123,
+    "failed": 0
+  },
+  "attachAndStandaloneTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "webpFallbackTests": {
+    "passed": 3,
+    "failed": 0,
+    "environment": ".cache/intake-20261110/venv/bin/python; ffmpeg缺少時以Pillow保留原尺寸、quality88與alpha，原PNG雜湊封存"
+  },
+  "monitorTests": {
+    "passed": 69,
+    "failed": 0
+  },
+  "legacyComicRegression": {
+    "questionId": "q-271",
+    "formalLayouts": 6,
+    "passed": true
+  },
+  "independentImageDisplay": "每張完整contain顯示，圖片寬度等於自身圖框，不套舊strip的300%放大；第四圖與答案摘要共同收合",
+  "monitor": "本機user testreview-monitor.service重啟後驗證API與桌手機，重作卡依active plan而非舊complete計數；Agent2維持paused",
+  "publication": "未滿20正式整合事件，尚未commit/push；依既有批次授權累計",
+  "groupTests": {
+    "passed": 7,
+    "failed": 0,
+    "meaning": "題組各子原問同步獨立四圖、父不再重複lesson，舊網址與完整原題保留"
+  }
+}

@@ -1,7 +1,7 @@
 // Worker-local QA: never attach/curate or mutate another worker's artifacts.
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {execFileSync}=require('node:child_process');
-const {chromium}=require('/home/jack/ai/Chemery/node_modules/playwright');
+const {chromium}=require(require.resolve('playwright',{paths:[require('node:path').resolve(__dirname,'../../.cache/qa-tools/node_modules'),'/home/jack/ai/Chemery/node_modules']}));
 const root=path.resolve(__dirname,'../..'),id=process.argv[2];
 if(!/^q-\d+$/.test(id))throw Error('Pass one q-NNN identifier');
 const html=execFileSync('python',[path.join(__dirname,'preview-comic.py'),id],{encoding:'utf8'}).trim();
@@ -20,10 +20,12 @@ const spec=JSON.parse(fs.readFileSync(path.join(root,'docs/comics',id+'.json')))
    return {width:c.clientWidth,wrapErrors:c.querySelectorAll('[data-wrap-error]').length,protectedBreaks,
     overflow:[...c.querySelectorAll('.comic-line')].filter(l=>l.scrollWidth>l.clientWidth+1).map(l=>l.textContent),docOverflow:document.documentElement.scrollWidth>innerWidth,
     cells:[...c.querySelectorAll('.comic-cell')].map(l=>{const r=l.getBoundingClientRect();return {width:r.width,height:r.height,top:r.top}}),
-    art:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.parentElement.clientWidth})),
+    art:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.parentElement.clientWidth,single:i.parentElement.classList.contains('comic-art-single'),paintWidth:i.getBoundingClientRect().width})),
     text:[...c.querySelectorAll('.comic-copy p')].map(p=>p.textContent)};
   });
   assert.equal(r.wrapErrors,0);assert.deepEqual(r.protectedBreaks,[]);assert.deepEqual(r.overflow,[]);assert.equal(r.docOverflow,false);assert.ok(r.art.every(i=>i.loaded&&i.width<=180));
+  assert.equal(r.art.length,spec.panels.filter(p=>p.image||!p.diagram).length+(spec.fourth.image?1:0));
+  assert.ok(r.art.filter(i=>i.single).every(i=>Math.abs(i.paintWidth-i.width)<1));
   assert.deepEqual(r.text.map(t=>t.replace(/\s/gu,'')),spec.panels.map(p=>p.text.replace(/\s/gu,'')));
   const close=(a,b)=>Math.abs(a-b)<1,[a,b,c,d]=r.cells;
   assert.ok(close(a.width,c.width)&&close(b.width,d.width));

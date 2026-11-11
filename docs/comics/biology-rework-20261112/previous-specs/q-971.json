@@ -1,0 +1,154 @@
+{
+  "id": "q-971",
+  "subject": "Biology",
+  "title": "中心中空，外圍輸導系統仍可能運作",
+  "art": "docs/comics/art/q-971-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 中空不等於所有輸導都消失",
+      "text": "本題B的表層，指相對於中心心材而言的外圍輸導區；不是說最外層樹皮都負責運輸。",
+      "alt": "由外向內的位置順序明示，箭頭不是運輸方向。",
+      "diagram": {
+        "kind": "flow",
+        "title": "樹幹外圍到中心｜位置示意",
+        "items": [
+          {
+            "label": "韌皮部｜靠近樹皮內側",
+            "tone": "blue",
+            "detail": "主要輸送有機養分。"
+          },
+          {
+            "label": "木質部邊材｜較靠外的木質部",
+            "tone": "green",
+            "detail": "仍可輸水與無機養分。"
+          },
+          {
+            "label": "中心心材｜本題已中空",
+            "tone": "gold",
+            "detail": "不是主要輸水區。"
+          }
+        ],
+        "arrow": "向樹幹中心比較位置",
+        "note": "這是位置順序，非水或糖的運輸箭頭。"
+      }
+    },
+    {
+      "heading": "② 能輸導，不等於細胞都活著",
+      "text": "木質部主要輸水的成熟導管、假導管是死細胞；木質部也有活薄壁細胞。不能把木質部一概說成全活或全死。",
+      "alt": "成熟導管/假導管死細胞與活薄壁細胞有清楚中文標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "木質部中的不同細胞",
+        "items": [
+          {
+            "label": "成熟導管、假導管｜死細胞",
+            "tone": "blue",
+            "detail": "主要負責水分輸導。"
+          },
+          {
+            "label": "薄壁細胞｜活細胞",
+            "tone": "green",
+            "detail": "具儲存等功能。"
+          }
+        ],
+        "target": "是否活著，與輸導功能須分辨",
+        "arrow": "比較組成細胞"
+      }
+    },
+    {
+      "heading": "③ 牛樟芝是真菌，不是生產者",
+      "text": "牛樟芝有菌絲，屬多細胞真菌，可分解利用木材中的有機物。藥用價值不會讓它成為生產者。",
+      "alt": "牛樟芝的多細胞/菌絲/分解者角色明確標示，不將表層全稱活組織。",
+      "diagram": {
+        "kind": "flow",
+        "title": "C、D：真菌的分類與角色",
+        "items": [
+          {
+            "label": "牛樟芝｜具菌絲的多細胞真菌",
+            "tone": "blue"
+          },
+          {
+            "label": "利用木材有機物｜分解者",
+            "tone": "gold",
+            "detail": "不是自行製造有機養分的生產者。"
+          }
+        ],
+        "arrow": "依取養方式判生態角色"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：外圍仍有輸導組織，可維持存活",
+    "points": [
+      "外側邊材輸水，韌皮部主要運有機養分。",
+      "成熟導管/假導管是死細胞，木質部另有活薄壁細胞。",
+      "中空仍可能存活，不表示破壞樹幹無害。"
+    ]
+  },
+  "protectedWords": [
+    "輸導組織",
+    "木質部",
+    "韌皮部",
+    "有機養分",
+    "無機養分",
+    "成熟導管",
+    "假導管",
+    "死細胞",
+    "活薄壁細胞",
+    "牛樟芝",
+    "多細胞真菌"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-058-question-04-1720d81b8286.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看真原卷、裁圖及必要照片，讀完題幹、全部選項與共同材料，獨立核生物機制及相關官方/研究資料；來源AI圖不採用。"
+  },
+  "rationale": "本題核心是樹幹層次/輸導功能與活死細胞限制，採精確中文HTML位置流程及細胞比較，不讓生圖猜解剖層序。每個箭頭說明是向內位置或功能判斷，與實際輸水方向分開。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-05T15:15:44.231490+00:00",
+  "artSHA256": "78a22ca0e9f55e778295f69065b908aa81ff6f6750a7a11258b27678f1f03728",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-05T15:30:41.145109+00:00",
+  "previewValidation": "docs/comics/q-971-preview-validation.json",
+  "visualReview": "已實看1440/390成品，韌皮部/邊材/中心心材由外向內示意清楚，箭頭明示位置非輸送方向；成熟導管/假導管死細胞、木質部含活薄壁細胞均直接標中文，B保持。三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-971-1440.png",
+      "/tmp/weirugo-comic-previews/q-971-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-971-art-78a22ca0e9.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-971-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-971-validation.json"
+}

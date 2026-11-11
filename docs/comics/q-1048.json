@@ -1,96 +1,87 @@
 {
   "id": "q-1048",
   "subject": "Physics-Chemistry",
-  "title": "三酸甘油酯的生成反應",
-  "art": "docs/comics/art/q-1048-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261110/q-1048-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、辨認X反應\n甘油是含有三個羥基的醇，脂肪酸含有羧基。甘油與脂肪酸反應形成酯鍵，生成三酸甘油酯，屬酯化反應；一個甘油與三個脂肪酸形成一個三酸甘油酯時，同時生成三個水分子。\n\n二、比較兩組反應式\n乙醇C₂H₅OH與醋酸CH₃COOH反應，生成乙酸乙酯CH₃COOC₂H₅及水，是酯化，與X同類，因此選A。原題以單向箭頭表示反應，照留原式；一般酯化可逆，解說時可寫乙醇＋醋酸 ⇌ 乙酸乙酯＋水。\n\n氫氧化鈉與醋酸反應，生成醋酸鈉CH₃COONa及水，是酸鹼中和。它雖也生成水，卻不是形成酯，因此不與X同類。\n\n三、逐項判斷\nA的反應式與分類均正確。B的反應式確與X同類，但把酯化誤稱中和。C將中和式誤稱酯化。D對所列NaOH與醋酸的分類本身正確，但它與題幹X不類似，因此整項仍不正確。\n\n判題要同時檢查「反應是否類似」及「類型名稱是否正確」，不能只看到D寫中和就選它。",
-  "rationale": "本題教學重點是反應角色、分類、文字聲韻或精確不等式，以可選取HTML條件圖明示原值、正誤與推理，不沿用來源AI圖。",
+  "title": "反應是否同類，分類名稱也要正確",
+  "art": "docs/comics/art/q-1048-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 醇與脂肪酸形成酯",
-      "text": "甘油有三個羥基，與三個脂肪酸形成三個酯鍵；這是酯化。",
-      "alt": "題幹X的類型",
-      "diagram": {
-        "kind": "flow",
-        "title": "題幹X的類型",
-        "items": [
-          {
-            "label": "甘油＋三個脂肪酸",
-            "detail": "原料",
-            "tone": "blue"
-          },
-          {
-            "label": "三酸甘油酯＋三個水",
-            "detail": "生成物",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "① 甘油是含三個OH的醇",
+      "text": "甘油的三個羥基可分別與脂肪酸的羧基形成酯鍵。先辨認醇與羧酸的反應，不只看到產生水就選中和。",
+      "alt": "甘油三個碳骨架連三個OH，以藍圈標三個羥基",
+      "caption": "新製官能基結構圖｜R代表烴基，非原題指定脂肪酸種類。",
+      "image": "docs/comics/art/q-1048-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 同樣生成水，類型仍不同",
-      "text": "乙醇與醋酸生成酯是酯化；NaOH與醋酸生成鹽和水是中和。不能只看水。",
-      "alt": "兩組反應分流",
-      "diagram": {
-        "kind": "flow",
-        "title": "兩組反應分流",
-        "items": [
-          {
-            "label": "乙醇＋醋酸",
-            "detail": "酯＋水 → 酯化",
-            "tone": "blue"
-          },
-          {
-            "label": "NaOH＋醋酸",
-            "detail": "醋酸鈉＋水 → 中和",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "② 三個酯鍵並生成三個水",
+      "text": "一個甘油與三個脂肪酸生成一個三酸甘油酯，也生成三個水分子。圖中三條鏈分別有O—C(＝O)—R酯結構。",
+      "alt": "三酸甘油酯三組O—C=O—R酯鍵與旁邊三個水分子；R代表各脂肪酸烴基",
+      "caption": "新製官能基結構圖｜R代表烴基，非原題指定脂肪酸種類。",
+      "image": "docs/comics/art/q-1048-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 兩句都正確才可選",
-      "text": "A既和X類似，又正確稱為酯化。D雖把中和式分類正確，卻與X不同類，仍不能選。",
-      "alt": "整項判斷",
-      "diagram": {
-        "kind": "paths",
-        "title": "整項判斷",
-        "items": [
-          {
-            "label": "是否與X類似？",
-            "detail": "需同為酯化",
-            "tone": "blue"
-          },
-          {
-            "label": "分類名稱是否正確？",
-            "detail": "也需寫酯化",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依條件判斷",
-        "target": "A"
-      }
+      "heading": "③ 乙醇與醋酸也是酯化",
+      "text": "A所列反應產生乙酸乙酯與水，產物含酯結構，與題幹X同屬酯化，因此選A；原卷的反應式照留。",
+      "alt": "乙酸乙酯的C(=O)—O—C酯結構被圈出，下方水分子；氧橋接乙基，不是Na鹽",
+      "caption": "新製官能基結構圖｜R代表烴基，非原題指定脂肪酸種類。",
+      "image": "docs/comics/art/q-1048-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(A) 與乙醇和醋酸生成酯及水的反應類似，均為酯化反應",
+    "answer": "答案 A：與乙醇、醋酸的酯化反應同類",
     "points": [
-      "甘油與脂肪酸形成酯鍵，屬酯化。",
-      "乙醇＋醋酸生成酯和水；NaOH＋醋酸屬中和。",
-      "D所列反應雖是中和，卻與題幹X不同類。"
-    ]
+      "第四圖是中和所得醋酸鈉，不是酯，雖然也生成水。",
+      "B把酯化誤稱中和，C把中和誤稱酯化。",
+      "D所列式本身是中和，但與X不同類，所以不能選D。"
+    ],
+    "image": "docs/comics/art/q-1048-four-image-v2-panel-4.svg",
+    "alt": "第四圖醋酸鈉羧酸根與Na正離子分開示離子關係，沒有酯的O—C乙基連接"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1048-art-193059545b.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "OH⁻",
+    "I₂",
+    "IO₃⁻",
+    "NaOH",
+    "CaCO₃",
+    "三酸甘油酯",
+    "乙醇",
+    "酯化反應",
+    "氫氧化鈉",
+    "O—C(＝O)—R",
+    "酯結構"
+  ],
+  "generationMethod": "four authored native SVG apparatus/material/structural-formula diagrams",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-chemistry/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1048-original-50a28a71633f.jpg"
+  ],
+  "answerCheckedAgainst": "脂肪的主要成分為三酸甘油酯，三酸甘油酯為一個甘油（丙三醇）分子與三個脂肪酸分子經X反應生成，則下列關於此化學反應的敘述何者正確？\n(A) 與「C₂H₅OH＋CH₃COOH → CH₃COOC₂H₅＋H₂O」類似，均屬於酯化反應\n(B) 與「C₂H₅OH＋CH₃COOH → CH₃COOC₂H₅＋H₂O」類似，均屬於酸鹼中和反應\n(C) 與「NaOH＋CH₃COOH → CH₃COONa＋H₂O」類似，均屬於酯化反應\n(D) 與「NaOH＋CH₃COOH → CH₃COONa＋H₂O」類似，均屬於酸鹼中和反應\n(A) 與乙醇和醋酸生成酯及水的反應類似，均為酯化反應\n一、辨認X反應\n甘油是含有三個羥基的醇，脂肪酸含有羧基。甘油與脂肪酸反應形成酯鍵，生成三酸甘油酯，屬酯化反應；一個甘油與三個脂肪酸形成一個三酸甘油酯時，同時生成三個水分子。\n\n二、比較兩組反應式\n乙醇C₂H₅OH與醋酸CH₃COOH反應，生成乙酸乙酯CH₃COOC₂H₅及水，是酯化，與X同類，因此選A。原題以單向箭頭表示反應，照留原式；一般酯化可逆，解說時可寫乙醇＋醋酸 ⇌ 乙酸乙酯＋水。\n\n氫氧化鈉與醋酸反應，生成醋酸鈉CH₃COONa及水，是酸鹼中和。它雖也生成水，卻不是形成酯，因此不與X同類。\n\n三、逐項判斷\nA的反應式與分類均正確。B的反應式確與X同類，但把酯化誤稱中和。C將中和式誤稱酯化。D對所列NaOH與醋酸的分類本身正確，但它與題幹X不類似，因此整項仍不正確。\n\n判題要同時檢查「反應是否類似」及「類型名稱是否正確」，不能只看到D寫中和就選它。",
+  "rationale": "對照實開原卷與必要附圖保留全部原題及既有答案。每格是新的實際器材/物質/結構圖，不以純文字流程框取代，不杜撰原卷數值；四圖各有不同教學作用。",
+  "createdAt": "2026-11-11T16:49:10.346810+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T16:49:10.346810+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checks": [
+      "甘油CH2—CH—CH2與3OH價數正確",
+      "三酯鍵每個O連甘油/酰基，C=O與R連接正確，3水逐一畫出",
+      "乙酸乙酯CH3COOCH2CH3連接正確",
+      "醋酸根與Na為離子表示，未誤畫O—Na為酯鍵",
+      "未把R1/2/3當成固定脂肪酸種類"
+    ],
+    "sources": [
+      {
+        "url": "https://goldbook.iupac.org/terms/view/E02219/pdf",
+        "note": "IUPAC酯定義：酸與醇形式上脫水連接的結構。"
+      }
+    ],
+    "sourceQuestionUnchanged": true
+  },
+  "nativeArt": "assets/comics/q-1048-art-fa13b762f2.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -102,26 +93,21 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-10T14:20:26.344602+00:00",
-  "validationFile": "docs/comics/q-1048-validation.json",
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:52:46.663844+00:00",
+    "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
     "actualViewed": [
-      "docs/imports/new-gpt-20261110/qa/q-1048-app-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1048-app-390.png",
-      "docs/imports/new-gpt-20261110/qa/q-1048-standalone-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1048-standalone-390.png"
-    ],
-    "comicViews": [
       "/tmp/weirugo-comic-checks/q-1048-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1048-app-390.png",
       "/tmp/weirugo-comic-checks/q-1048-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1048-standalone-390.png"
     ],
-    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
-  }
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T16:52:46.670915+00:00",
+  "validationFile": "docs/comics/q-1048-validation.json"
 }

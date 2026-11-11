@@ -1,0 +1,142 @@
+{
+  "id": "q-1044",
+  "subject": "Biology",
+  "title": "先看能不能生出長毛，再看比例",
+  "art": "docs/comics/art/q-1044-genetics.svg",
+  "layoutVersion": "native-fluid-v6",
+  "generationMethod": "new native selectable HTML genotype paths with authored SVG Punnett fallback",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1044-q-1044-original-5a7926b2ac2d.jpg"
+  ],
+  "answerCheckedAgainst": "重新實看原卷第22題：A=SS×ss、B=SS×Ss、C=Ss×ss、D=ss×ss。無突變且同時有短毛長毛，四選項僅C；小樣本8:2不強制符合1:1。",
+  "rationale": "本題推理核心為基因型組合與有限樣本，不需要讓動物外觀決定基因或以不同毛色冒充毛長。全新可選取HTML直接標明雙親供應s、四選項結果與理論/實際區別；精確英文S/s與比例保留為文字，中文圖示均可選取。SVG是原生可編輯的配子/棋盤/十個樣本備援，不沿用原AI圖。",
+  "panels": [
+    {
+      "heading": "① 長毛ss，兩個s從雙親各來一個",
+      "text": "長毛是隱性，基因型一定是ss。沒有突變時，一個s來自父方，另一個來自母方，所以雙親都必須能提供s。",
+      "alt": "雙親各提供s的可選取文字路徑，會合成長毛ss子代。",
+      "diagram": {
+        "kind": "paths",
+        "title": "由長毛子代反推配子",
+        "items": [
+          {
+            "label": "父方提供s",
+            "tone": "blue"
+          },
+          {
+            "label": "母方提供s",
+            "tone": "gold"
+          }
+        ],
+        "target": "子代ss｜長毛",
+        "arrow": "兩個s分別來自雙親",
+        "note": "SS親代只能提供S，不能提供s。"
+      }
+    },
+    {
+      "heading": "② 四個選項中，只有C能有兩種毛長",
+      "text": "A、B都含SS親代，子代一定短毛；D的子代全是長毛。只有C的Ss × ss能生出Ss短毛和ss長毛，同時符合觀察。",
+      "alt": "比較A/B全部短毛、D全部長毛與C兩種皆可能的可選取結果圖。",
+      "diagram": {
+        "kind": "paths",
+        "title": "把各選項能產生的結果列清楚",
+        "items": [
+          {
+            "label": "A、B｜含SS親代",
+            "detail": "子代均短毛，沒有ss。",
+            "tone": "blue"
+          },
+          {
+            "label": "D｜ss × ss",
+            "detail": "子代均長毛，沒有短毛。",
+            "tone": "gold"
+          },
+          {
+            "label": "C｜Ss × ss",
+            "detail": "可生Ss短毛及ss長毛。",
+            "tone": "green"
+          }
+        ],
+        "target": "C可同時出現短毛、長毛",
+        "arrow": "依兩種毛長是否都可能來篩選"
+      }
+    },
+    {
+      "heading": "③ 理論1：1，不保證每窩恰好各半",
+      "text": "C的短毛、長毛理論機率各為1/2；10隻子代是小樣本，實際8短、2長仍可能。不把觀察到的8：2當作固定遺傳機率。",
+      "alt": "理論各一半與本窩八短二長的可選取比較；明示小樣本不必等於理論比例。",
+      "diagram": {
+        "kind": "paths",
+        "title": "理論機率與一窩實際數量",
+        "items": [
+          {
+            "label": "理論：短毛1/2、長毛1/2",
+            "detail": "每隻子代各有這些機率。",
+            "tone": "blue"
+          },
+          {
+            "label": "本窩：8隻短毛、2隻長毛",
+            "detail": "實際結果會有隨機差異。",
+            "tone": "gold"
+          }
+        ],
+        "target": "1：1不表示每10隻必各5隻",
+        "arrow": "區分機率與小樣本結果"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：Ss × ss",
+    "points": [
+      "長毛ss出現，雙親都要能提供s。",
+      "A、B全短毛；D全長毛，均排除。",
+      "C能出現兩種毛長；8：2不要求等於理論1：1。"
+    ]
+  },
+  "protectedWords": [
+    "Ss × ss",
+    "ss × ss",
+    "SS親代",
+    "短毛",
+    "長毛",
+    "理論機率",
+    "小樣本",
+    "1：1",
+    "8：2",
+    "1/2"
+  ],
+  "createdAt": "2026-11-09T14:51:35.117353+00:00",
+  "artSHA256": "6c96b0ece14717b9d36407998cdc8e4ea240ebc7ce19e22591a8526c8c2ef190",
+  "visualChecked": true,
+  "checkedAt": "2026-11-09T14:55:13.309624+00:00",
+  "previewValidation": "docs/comics/q-1044-preview-validation.json",
+  "visualReview": "實開完整原卷第22題與1440/1120/390三張隔離成品；HTML明示雙親各給s、A/B全短毛、D全長毛、C可有兩種毛長，區分理論1:1與實際8:2。同行等高、兩列獨立、手機自然高度，無橫向溢出或保護詞跨行。答案C與原題/既有解說一致。",
+  "nativeArt": "assets/comics/q-1044-art-6c96b0ece1.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-09T14:55:13.301822+00:00",
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1044-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1044-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1044-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1044-standalone-390.png"
+    ],
+    "note": "已實開原卷第22題，並實看app及單頁1440/390四張正式圖；雙親各供s、A/B全短/D全長排除及理論1:1與8:2差異均清楚，無溢出，原題C不變。"
+  },
+  "validationFile": "docs/comics/q-1044-validation.json"
+}

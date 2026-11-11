@@ -71,99 +71,45 @@
   ],
   "explanationFigures": [],
   "teachingComic": {
-    "title": "同一個x看高度，先辨交點左右",
-    "art": "assets/comics/q-962-art-9af7be16ba.svg",
+    "title": "固定同一個x，分清交點左右",
+    "art": "assets/comics/q-962-art-8149312391.svg",
     "panels": [
       {
-        "heading": "① 交點：相同x有相同函數值",
-        "text": "P（2，－3）同時在兩線上；把x＝2代入兩個函數，結果都等於－3。因此A的等號正確，不是題目要找的錯誤。",
-        "alt": "交點P的兩座標與兩線代入式直接中文標明，A等式成立。",
-        "diagram": {
-          "kind": "flow",
-          "title": "交點的確定條件",
-          "items": [
-            {
-              "label": "P（2，－3）：x＝2",
-              "tone": "blue"
-            },
-            {
-              "label": "L₁：2a＋b＝－3",
-              "tone": "gold",
-              "detail": "L₂：2c＋d＝－3"
-            },
-            {
-              "label": "所以2a＋b＝2c＋d",
-              "tone": "green"
-            }
-          ],
-          "arrow": "同一交點，兩線高度相同"
-        }
+        "heading": "① 同一交點代表兩式相等",
+        "text": "P（2，－3）在兩線上，所以2a＋b＝2c＋d＝－3。A正確，不是本題要找的錯誤。",
+        "alt": "兩下降線交於P，L2較陡，斜率數值未作原題條件",
+        "caption": "新製相對位置示意｜僅交點與高低關係，不據此讀個別斜率。",
+        "image": "assets/comics/q-962-art-8149312391.svg"
       },
       {
-        "heading": "② 交點右側：L₁在上方",
-        "text": "圖中x＝3在交點右側，L₁的函數值較大，應為3a＋b＞3c＋d。B把符號寫成小於，所以B才是錯誤敘述。",
-        "alt": "x＝3時兩線的函數式與L₁在上的大於關係直接標示，不猜個別斜率。",
-        "diagram": {
-          "kind": "paths",
-          "title": "固定x＝3，比較兩線",
-          "items": [
-            {
-              "label": "L₁的高度：3a＋b",
-              "tone": "green"
-            },
-            {
-              "label": "L₂的高度：3c＋d",
-              "tone": "gold"
-            }
-          ],
-          "target": "L₁較高：3a＋b＞3c＋d",
-          "arrow": "由原圖右側的上下位置判斷"
-        }
+        "heading": "② x＝3在右側，L₁較高",
+        "text": "同一條x＝3垂線上，L₁在L₂上方，應為3a＋b＞3c＋d。B卻印小於，所以選B。",
+        "alt": "x為3的垂線上，綠色L1點在藍色L2點上方",
+        "caption": "新製相對位置示意｜僅交點與高低關係，不據此讀個別斜率。",
+        "image": "assets/comics/q-962-panel-2-art-639b0cdf71.svg"
       },
       {
-        "heading": "③ 交點左側：C、D也要核對",
-        "text": "x＝0、x＝－1都小於2，此時L₁在L₂下方。分別代入，可知C、D的小於符號都正確。",
-        "alt": "中文標明左側x＜2、x＝0對應C與x＝－1對應D，兩者L₁較低。",
-        "diagram": {
-          "kind": "flow",
-          "title": "左側x＜2：L₁較低",
-          "items": [
-            {
-              "label": "x＝0：b＜d",
-              "tone": "blue",
-              "detail": "對應C：比較兩個y截距。"
-            },
-            {
-              "label": "x＝－1：－a＋b＜－c＋d",
-              "tone": "green",
-              "detail": "對應D：同樣比較左側高度。"
-            }
-          ],
-          "arrow": "代入同一個x，保留高低關係"
-        }
+        "heading": "③ 左側的C、D都成立",
+        "text": "x＝0與x＝－1都小於交點的2，此時L₁較低，故b＜d與－a＋b＜－c＋d都正確。",
+        "alt": "x為負1與0的垂線上，綠色L1均在藍色L2下方",
+        "caption": "新製相對位置示意｜僅交點與高低關係，不據此讀個別斜率。",
+        "image": "assets/comics/q-962-panel-3-art-9de41e3dea.svg"
       }
     ],
     "fourth": {
       "answer": "答案 B：x＝3時應為大於",
       "points": [
-        "交點x＝2：兩線相等，A正確。",
-        "交點右側：L₁較高；左側：L₁較低。",
-        "題目問錯誤敘述，B的小於符號不符圖形。"
-      ]
+        "交點x＝2相等；右側L₁高，左側L₁低。",
+        "第四圖以差值正負整合左右關係，不新增斜率數值。",
+        "原題要找錯誤敘述，B的＜與圖形不符。"
+      ],
+      "image": "assets/comics/q-962-panel-4-art-f889d90fc4.svg",
+      "alt": "第四圖表示兩線差值在交點左為負、右為正，僅示符號不指定斜率"
     },
     "protectedWords": [
-      "函數值",
-      "交點右側",
-      "交點左側",
-      "y截距",
       "P（2，－3）",
-      "x＝2",
-      "x＝3",
-      "x＝0",
-      "x＝－1",
       "L₁",
       "L₂",
-      "2a＋b＝2c＋d",
       "3a＋b＞3c＋d",
       "－a＋b＜－c＋d"
     ]

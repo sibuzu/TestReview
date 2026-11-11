@@ -63,6 +63,13 @@ Sally 在臺東看見許多新事物，
 .native-comic .diagram-change-lines{padding:6px 0 0 10px;border-left:2px solid var(--diagram-color)}
 .native-comic .diagram-before{border-bottom:2px dashed var(--diagram-color);padding-bottom:4px}
 .native-comic .diagram-after{border-bottom:3px solid var(--diagram-color);padding-bottom:4px}
+
+/* Four independent illustrations retain their complete square instead of a strip crop. */
+.native-comic .comic-art-single img{position:static;width:100%;height:100%;left:auto;object-fit:contain}
+.native-comic .comic-recap.has-image{display:grid;grid-template-columns:180px minmax(0,1fr);gap:12px;padding:10px}
+.native-comic .comic-recap-copy{min-width:0}
+@container (max-width:360px){.native-comic .comic-recap.has-image{grid-template-columns:115.2px minmax(0,1fr);gap:8px;padding:8px}}
+@container (max-width:280px){.native-comic .comic-recap.has-image{grid-template-columns:76.8px minmax(0,1fr)}}
 </style><script>const e=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));// Word-aware, measured paragraph wrapping. No character-by-character fallback.
 function wrapComicText(text, maxWidth, measure, protectedWords=[]) {
  const segmenter=new Intl.Segmenter('zh-Hant',{granularity:'word'});

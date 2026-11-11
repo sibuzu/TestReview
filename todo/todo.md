@@ -35,3 +35,4 @@ https://share.gemini.google/4y9jAamQ8xdh
 6. 先這些，之後會陸續給你新的 LINK，你再加上
 
 
+![alt text](image.png)

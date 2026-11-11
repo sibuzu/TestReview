@@ -1,0 +1,2320 @@
+{
+  "kind": "four_image_biology_and_missing_rework",
+  "state": "active",
+  "createdAt": "2026-11-11T16:27:16.335709+00:00",
+  "updatedAt": "2026-11-11T17:01:13.721081+00:00",
+  "worknerdTaskId": "t_a87b51180cc247a88d16",
+  "goalActive": true,
+  "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
+  "qualityReference": "todo/image.png",
+  "qualityReferenceSHA256": "ca36f77021425921001aef133996e8e1fd1085aefe28adc7f3a748312ab0910d",
+  "biologyQuestionPageCount": 46,
+  "missingQuestionPageCount": 33,
+  "overlapQuestionPageIds": [
+    "q-290",
+    "q-569"
+  ],
+  "questionPageCount": 130,
+  "originalQuestionCount": 140,
+  "requiredImageCount": 560,
+  "completedQuestionPages": 19,
+  "questionIds": [
+    "q-046",
+    "q-044",
+    "q-045",
+    "q-047",
+    "q-048",
+    "q-049",
+    "q-050",
+    "q-101",
+    "q-102",
+    "q-103",
+    "q-104",
+    "q-280",
+    "q-290",
+    "q-291",
+    "q-305",
+    "q-306",
+    "q-307",
+    "q-308",
+    "q-309",
+    "q-310",
+    "q-311",
+    "q-312",
+    "q-313",
+    "q-314",
+    "q-315",
+    "q-348",
+    "q-349",
+    "q-559",
+    "q-560",
+    "q-569",
+    "q-850",
+    "q-852",
+    "q-965",
+    "q-966",
+    "q-967",
+    "q-968",
+    "q-969",
+    "q-970",
+    "q-971",
+    "q-972",
+    "q-975",
+    "q-976",
+    "q-977",
+    "q-1044",
+    "q-1047",
+    "q-1049",
+    "q-067",
+    "q-096",
+    "q-143",
+    "q-293",
+    "q-295",
+    "q-326",
+    "q-332",
+    "q-350",
+    "q-437",
+    "q-555",
+    "q-573",
+    "q-581",
+    "q-591",
+    "q-601",
+    "q-608",
+    "q-612",
+    "q-711",
+    "q-729",
+    "q-734",
+    "q-737",
+    "q-738",
+    "q-744",
+    "q-748",
+    "q-750",
+    "q-751",
+    "q-752",
+    "q-758",
+    "q-760",
+    "q-762",
+    "q-763",
+    "q-774",
+    "q-912",
+    "q-921",
+    "q-925",
+    "q-929",
+    "q-930",
+    "q-932",
+    "q-936",
+    "q-937",
+    "q-941",
+    "q-942",
+    "q-943",
+    "q-944",
+    "q-945",
+    "q-947",
+    "q-948",
+    "q-950",
+    "q-951",
+    "q-952",
+    "q-953",
+    "q-959",
+    "q-961",
+    "q-962",
+    "q-963",
+    "q-973",
+    "q-974",
+    "q-979",
+    "q-982",
+    "q-997",
+    "q-1025",
+    "q-1002",
+    "q-1005",
+    "q-1042",
+    "q-1043",
+    "q-1035",
+    "q-1046",
+    "q-1048",
+    "q-1050",
+    "q-1051",
+    "q-1053",
+    "q-1054",
+    "q-1055",
+    "q-1056",
+    "q-1057",
+    "q-1058",
+    "q-1059",
+    "q-1060",
+    "q-1061",
+    "q-1062",
+    "q-1063",
+    "q-1064",
+    "q-1065",
+    "q-1066",
+    "q-1067"
+  ],
+  "completionRule": "每原問4張實際有教學內容的新圖；生物類真實品質；核對原卷與科學正確性、正式桌手機QA、唯一整合者integrated後才complete。舊not_suitable不自動豁免；真正缺資料另記不可猜補。",
+  "execution": "Agent1唯一題庫整合與renderer；Agent3逐題生物四圖製作，root維護技能/範圍與機動製作；Agent2維持使用者指定暫停。",
+  "publishRule": "沿用20個正式整合事件commit/push；不足20不擅自宣稱已推送，全部GOAL完成時依當時授權收尾。",
+  "entries": [
+    {
+      "id": "q-046",
+      "subject": "Biology",
+      "title": "生物第27題｜循環系統的單向構造",
+      "originalQuestionIds": [
+        "q-046"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:28:12.223244+00:00",
+      "completedAt": "2026-11-11T16:36:03.510187+00:00",
+      "validationFile": "docs/comics/q-046-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-046"
+      ],
+      "validationFiles": [
+        "docs/comics/q-046-validation.json"
+      ]
+    },
+    {
+      "id": "q-044",
+      "subject": "Biology",
+      "title": "生物第4題｜從傳導物質判斷細胞",
+      "originalQuestionIds": [
+        "q-044"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:32:00.641424+00:00",
+      "completedAt": "2026-11-11T16:38:25.510945+00:00",
+      "validationFile": "docs/comics/q-044-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-044"
+      ],
+      "validationFiles": [
+        "docs/comics/q-044-validation.json"
+      ]
+    },
+    {
+      "id": "q-045",
+      "subject": "Biology",
+      "title": "生物第12題｜酵素與受質",
+      "originalQuestionIds": [
+        "q-045"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T16:32:51.457871+00:00",
+      "completedAt": "2026-11-11T16:36:03.463622+00:00",
+      "validationFile": "docs/comics/q-045-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-045"
+      ],
+      "validationFiles": [
+        "docs/comics/q-045-validation.json"
+      ]
+    },
+    {
+      "id": "q-047",
+      "subject": "Biology",
+      "title": "生物第44題｜呼吸作用與呼吸運動",
+      "originalQuestionIds": [
+        "q-047"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:36:30.679090+00:00",
+      "completedOriginalIds": [
+        "q-047"
+      ],
+      "completedAt": "2026-11-11T16:49:42.244695+00:00",
+      "validationFiles": [
+        "docs/comics/q-047-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-048",
+      "subject": "Biology",
+      "title": "生物第50題｜由圖表判斷體溫來源",
+      "originalQuestionIds": [
+        "q-048"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:41:25.761769+00:00",
+      "completedOriginalIds": [
+        "q-048"
+      ],
+      "completedAt": "2026-11-11T16:52:08.808469+00:00",
+      "validationFiles": [
+        "docs/comics/q-048-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-049",
+      "subject": "Biology",
+      "title": "生物第44題｜依分類圖判斷植物",
+      "originalQuestionIds": [
+        "q-049"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-049"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:50:29.261463+00:00",
+      "completedAt": "2026-11-11T16:56:29.574392+00:00",
+      "validationFiles": [
+        "docs/comics/q-049-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-050",
+      "subject": "Biology",
+      "title": "生物第46題｜從遺傳疾病文章判斷",
+      "originalQuestionIds": [
+        "q-050"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "ready",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:55:16.484732+00:00"
+    },
+    {
+      "id": "q-101",
+      "subject": "Biology",
+      "title": "生物第15題｜育種需要改變遺傳特性",
+      "originalQuestionIds": [
+        "q-101"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "production",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:01:13.721052+00:00"
+    },
+    {
+      "id": "q-102",
+      "subject": "Biology",
+      "title": "生物第18題｜第21組多一條的染色體圖",
+      "originalQuestionIds": [
+        "q-102"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-103",
+      "subject": "Biology",
+      "title": "生物第19題｜蘭花花粉的染色體組合",
+      "originalQuestionIds": [
+        "q-103"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-104",
+      "subject": "Biology",
+      "title": "生物第24題｜少量子代與理論遺傳比例",
+      "originalQuestionIds": [
+        "q-104"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-280",
+      "subject": "Biology",
+      "title": "生物第48題｜從浮游動物計算鯨魚族群能量",
+      "originalQuestionIds": [
+        "q-280"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-290",
+      "subject": "Biology",
+      "title": "生物第13題｜運動神經與漸凍症的圖示判讀",
+      "originalQuestionIds": [
+        "q-290"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-291",
+      "subject": "Biology",
+      "title": "生物第22題｜捉放法估算鱘龍魚數量",
+      "originalQuestionIds": [
+        "q-291"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-305",
+      "subject": "Biology",
+      "title": "生物第7題｜蘇鐵有種子但沒有真正的花",
+      "originalQuestionIds": [
+        "q-305"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-306",
+      "subject": "Biology",
+      "title": "生物第6題｜五界分類圖與單、多細胞生物",
+      "originalQuestionIds": [
+        "q-306"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-307",
+      "subject": "Biology",
+      "title": "生物第9題｜石花菜的五界分類",
+      "originalQuestionIds": [
+        "q-307"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-308",
+      "subject": "Biology",
+      "title": "生物第11題｜眼蟲與植物共有的特徵",
+      "originalQuestionIds": [
+        "q-308"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-309",
+      "subject": "Biology",
+      "title": "生物第13題｜裸子植物的花粉、胚珠與松子",
+      "originalQuestionIds": [
+        "q-309"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-310",
+      "subject": "Biology",
+      "title": "生物第16題｜松果的鱗片構造",
+      "originalQuestionIds": [
+        "q-310"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-311",
+      "subject": "Biology",
+      "title": "生物第17題｜海螺與海參的分類差異",
+      "originalQuestionIds": [
+        "q-311"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-312",
+      "subject": "Biology",
+      "title": "生物第26題｜維管束、種子與物種百分比",
+      "originalQuestionIds": [
+        "q-312"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-313",
+      "subject": "Biology",
+      "title": "生物第1題｜複製蛙的細胞核來源與體色",
+      "originalQuestionIds": [
+        "q-313"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-314",
+      "subject": "Biology",
+      "title": "生物第1題｜鹽度實驗與病媒蚊幼蟲存活",
+      "originalQuestionIds": [
+        "q-314"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-315",
+      "subject": "Biology",
+      "title": "生物第3題｜文蛤歸為軟體動物的依據",
+      "originalQuestionIds": [
+        "q-315"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-348",
+      "subject": "Biology",
+      "title": "生物第31題｜病毒的遺傳物質與細胞外活動",
+      "originalQuestionIds": [
+        "q-348"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-349",
+      "subject": "Biology",
+      "title": "生物第36題｜果蠅受精卵發育與染色體套數",
+      "originalQuestionIds": [
+        "q-349"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-559",
+      "subject": "Biology",
+      "title": "生物第32題｜蜂毒與患部血流比較",
+      "originalQuestionIds": [
+        "q-559"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-560",
+      "subject": "Biology",
+      "title": "生物第33題｜淋巴結中的免疫細胞",
+      "originalQuestionIds": [
+        "q-560"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-569",
+      "subject": "Biology",
+      "title": "生物第49題｜鍋燒烏龍麵的熱量與單位",
+      "originalQuestionIds": [
+        "q-569"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-850",
+      "subject": "Biology",
+      "title": "生物第11題｜髮菜的分類階層判斷",
+      "originalQuestionIds": [
+        "q-850"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-852",
+      "subject": "Biology",
+      "title": "生物第28題｜塵蟎分類與過敏原判讀",
+      "originalQuestionIds": [
+        "q-852"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-965",
+      "subject": "Biology",
+      "title": "生物第5題｜生態系中的角色",
+      "originalQuestionIds": [
+        "q-965"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-966",
+      "subject": "Biology",
+      "title": "生物第6題｜古文中的食物鏈",
+      "originalQuestionIds": [
+        "q-966"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-967",
+      "subject": "Biology",
+      "title": "生物第9題｜生物關係的比較",
+      "originalQuestionIds": [
+        "q-967"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-968",
+      "subject": "Biology",
+      "title": "生物第13題｜獼猴搶食與能量",
+      "originalQuestionIds": [
+        "q-968"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-969",
+      "subject": "Biology",
+      "title": "生物第21題｜非洲大蝸牛的生態關係",
+      "originalQuestionIds": [
+        "q-969"
+      ],
+      "reasons": [
+        "biology_quality_upgrade"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-970",
+      "subject": "Biology",
+      "title": "生物第1題｜稻田養鴨與植物運輸",
+      "originalQuestionIds": [
+        "q-970"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-971",
+      "subject": "Biology",
+      "title": "生物第3題｜牛樟樹與牛樟芝",
+      "originalQuestionIds": [
+        "q-971"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-972",
+      "subject": "Biology",
+      "title": "生物第5題｜海洋生物的分類與繁殖",
+      "originalQuestionIds": [
+        "q-972"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-975",
+      "subject": "Biology",
+      "title": "生物第11題｜物質與能量的傳遞",
+      "originalQuestionIds": [
+        "q-975"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-976",
+      "subject": "Biology",
+      "title": "生物第13題｜出生遷入、死亡遷出與族群數量",
+      "originalQuestionIds": [
+        "q-976"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-977",
+      "subject": "Biology",
+      "title": "生物第29題｜海洋分區的分類條件",
+      "originalQuestionIds": [
+        "q-977"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1044",
+      "subject": "Biology",
+      "title": "生物第22題｜由長毛子代反推親代基因型",
+      "originalQuestionIds": [
+        "q-1044"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1047",
+      "subject": "Biology",
+      "title": "生物第29題｜哪些植物具有花粉管？",
+      "originalQuestionIds": [
+        "q-1047"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1049",
+      "subject": "Biology",
+      "title": "生物第39題｜海中生活、卵生與體內受精",
+      "originalQuestionIds": [
+        "q-1049"
+      ],
+      "reasons": [
+        "biology_quality_upgrade",
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-067",
+      "subject": "Chinese",
+      "title": "國文第1題｜同音字的正確字形",
+      "originalQuestionIds": [
+        "q-067"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-096",
+      "subject": "Geography",
+      "title": "地理第26題｜絲綢之路經濟帶的起點",
+      "originalQuestionIds": [
+        "q-096"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-143",
+      "subject": "Geography",
+      "title": "地理第1題｜石川縣地震與日本海沿岸位置",
+      "originalQuestionIds": [
+        "q-143"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-293",
+      "subject": "Physics-Chemistry",
+      "title": "理化第37題｜由質量數與原子序核對粒子數",
+      "originalQuestionIds": [
+        "q-293"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:35:32.601851+00:00",
+      "completedAt": "2026-11-11T16:40:41.204728+00:00",
+      "validationFile": "docs/comics/q-293-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-293"
+      ],
+      "validationFiles": [
+        "docs/comics/q-293-validation.json"
+      ]
+    },
+    {
+      "id": "q-295",
+      "subject": "Physics-Chemistry",
+      "title": "理化第44題｜紅藍光下的魚與混合光照射",
+      "originalQuestionIds": [
+        "q-295"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-295"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:51:23.093093+00:00",
+      "completedAt": "2026-11-11T16:59:59.772509+00:00",
+      "validationFiles": [
+        "docs/comics/q-295-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-326",
+      "subject": "Math",
+      "title": "數學是非第1題｜正整數解不是無限多",
+      "originalQuestionIds": [
+        "q-326"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:32:51.457885+00:00",
+      "completedAt": "2026-11-11T16:38:25.558071+00:00",
+      "validationFile": "docs/comics/q-326-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-326"
+      ],
+      "validationFiles": [
+        "docs/comics/q-326-validation.json"
+      ]
+    },
+    {
+      "id": "q-332",
+      "subject": "Math",
+      "title": "數學是非第3題｜未知係數不能直接約掉",
+      "originalQuestionIds": [
+        "q-332"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:32:51.457888+00:00",
+      "completedAt": "2026-11-11T16:40:41.158689+00:00",
+      "validationFile": "docs/comics/q-332-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-332"
+      ],
+      "validationFiles": [
+        "docs/comics/q-332-validation.json"
+      ]
+    },
+    {
+      "id": "q-350",
+      "subject": "Physics-Chemistry",
+      "title": "理化第23題｜從粒子圖判斷元素與化合物",
+      "originalQuestionIds": [
+        "q-350"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:35:32.601864+00:00",
+      "completedAt": "2026-11-11T16:40:41.251399+00:00",
+      "validationFile": "docs/comics/q-350-validation.json",
+      "reviewerAgent": "/root/comic_lane_1",
+      "completedOriginalIds": [
+        "q-350"
+      ],
+      "validationFiles": [
+        "docs/comics/q-350-validation.json"
+      ]
+    },
+    {
+      "id": "q-437",
+      "subject": "Chinese",
+      "title": "國文第18題｜三國論評論劉備的抑揚順序",
+      "originalQuestionIds": [
+        "q-437"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-555",
+      "subject": "English",
+      "title": "英文單字練習｜爆米花的常用拼法",
+      "originalQuestionIds": [
+        "q-555"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-573",
+      "subject": "Civics",
+      "title": "公民第11題｜數位性犯罪與人性尊嚴",
+      "originalQuestionIds": [
+        "q-573"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-581",
+      "subject": "Geography",
+      "title": "地理跨科題組｜北海岸風箏節與人文行程（第44～46題）",
+      "originalQuestionIds": [
+        "q-581",
+        "q-582",
+        "q-583"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-591",
+      "subject": "Chinese",
+      "title": "國文第3題｜轉捩點、追溯、粗獷與公帑的讀音",
+      "originalQuestionIds": [
+        "q-591"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-601",
+      "subject": "Chinese",
+      "title": "國文第5題｜宦者傳論的比較主旨",
+      "originalQuestionIds": [
+        "q-601"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-608",
+      "subject": "History",
+      "title": "歷史第2題｜生番在日治時期的稱呼",
+      "originalQuestionIds": [
+        "q-608"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-612",
+      "subject": "History",
+      "title": "歷史第14題｜臺南成為漢人政權首府的起點",
+      "originalQuestionIds": [
+        "q-612"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-711",
+      "subject": "English",
+      "title": "英文第21題｜never been to與造訪經驗",
+      "originalQuestionIds": [
+        "q-711"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-729",
+      "subject": "English",
+      "title": "英文第7回第18題｜完成式與明確過去時間",
+      "originalQuestionIds": [
+        "q-729"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-734",
+      "subject": "English",
+      "title": "英文第7回第24題｜通話至今的時長",
+      "originalQuestionIds": [
+        "q-734"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-737",
+      "subject": "English",
+      "title": "英文第2回第2題｜doesn’t後的原形",
+      "originalQuestionIds": [
+        "q-737"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-738",
+      "subject": "English",
+      "title": "英文第2回第3題｜Ella每天做功課",
+      "originalQuestionIds": [
+        "q-738"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-744",
+      "subject": "English",
+      "title": "英文第2回第9題｜will問句的簡答",
+      "originalQuestionIds": [
+        "q-744"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-748",
+      "subject": "English",
+      "title": "英文第2回第13題｜read的過去式拼法",
+      "originalQuestionIds": [
+        "q-748"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-750",
+      "subject": "English",
+      "title": "英文第2回第15題｜did與過去活動",
+      "originalQuestionIds": [
+        "q-750"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-751",
+      "subject": "English",
+      "title": "英文第2回第16題｜sang的過去時間線索",
+      "originalQuestionIds": [
+        "q-751"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-752",
+      "subject": "English",
+      "title": "英文第2回第17題｜昨晚有沒有去看電影",
+      "originalQuestionIds": [
+        "q-752"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-758",
+      "subject": "English",
+      "title": "英文第2回第23題｜當時正在找資料",
+      "originalQuestionIds": [
+        "q-758"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-760",
+      "subject": "English",
+      "title": "英文第2回第25題｜who問句不由複數回答強制改are",
+      "originalQuestionIds": [
+        "q-760"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-762",
+      "subject": "History",
+      "title": "歷史第13題｜乾隆疆域與朝貢關係",
+      "originalQuestionIds": [
+        "q-762"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-763",
+      "subject": "History",
+      "title": "歷史第14題｜漫畫中的北宋盟約",
+      "originalQuestionIds": [
+        "q-763"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-774",
+      "subject": "Chinese",
+      "title": "國文第10題｜連讀與合音字的分析",
+      "originalQuestionIds": [
+        "q-774"
+      ],
+      "reasons": [
+        "missing_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-912",
+      "subject": "English",
+      "title": "英文第12題｜花費動詞的主詞與受詞",
+      "originalQuestionIds": [
+        "q-912"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-921",
+      "subject": "English",
+      "title": "英文第11題｜去銀行的目的表達",
+      "originalQuestionIds": [
+        "q-921"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-925",
+      "subject": "English",
+      "title": "英文第25題｜藝穗節的資訊判讀",
+      "originalQuestionIds": [
+        "q-925"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-929",
+      "subject": "Civics",
+      "title": "公民第11題｜成年、監護與日常交易",
+      "originalQuestionIds": [
+        "q-929"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-930",
+      "subject": "Civics",
+      "title": "公民第19題｜房屋糾紛的調解與訴訟",
+      "originalQuestionIds": [
+        "q-930"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-932",
+      "subject": "Civics",
+      "title": "公民題組｜竹北市、花蓮市的機關（第3、4、9、10題）",
+      "originalQuestionIds": [
+        "q-932",
+        "q-933",
+        "q-934",
+        "q-935"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-936",
+      "subject": "Civics",
+      "title": "公民第1題｜親屬關係與地方公職",
+      "originalQuestionIds": [
+        "q-936"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-937",
+      "subject": "Civics",
+      "title": "公民題組｜三地選民可選的地方公職（第1～3題）",
+      "originalQuestionIds": [
+        "q-937",
+        "q-938",
+        "q-939"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-941",
+      "subject": "Civics",
+      "title": "公民第6題｜核三公投中的公民權利",
+      "originalQuestionIds": [
+        "q-941"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-942",
+      "subject": "Civics",
+      "title": "公民第3題｜依事務性質區分中央與地方",
+      "originalQuestionIds": [
+        "q-942"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-943",
+      "subject": "Civics",
+      "title": "公民第24題｜九宮格的地方層級",
+      "originalQuestionIds": [
+        "q-943"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-944",
+      "subject": "Civics",
+      "title": "公民第25題｜一般區長的產生方式",
+      "originalQuestionIds": [
+        "q-944"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-945",
+      "subject": "Civics",
+      "title": "公民第28題｜年齡與公職經歷",
+      "originalQuestionIds": [
+        "q-945"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-947",
+      "subject": "Chinese",
+      "title": "國文第4題｜看國字寫注音",
+      "originalQuestionIds": [
+        "q-947"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-948",
+      "subject": "Chinese",
+      "title": "國文第6題｜同詞的語境意義",
+      "originalQuestionIds": [
+        "q-948"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-950",
+      "subject": "Chinese",
+      "title": "國文第9題｜成語間的詞義關係",
+      "originalQuestionIds": [
+        "q-950"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-951",
+      "subject": "Chinese",
+      "title": "國文第2題｜詞語中的多音字",
+      "originalQuestionIds": [
+        "q-951"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-952",
+      "subject": "Chinese",
+      "title": "國文第5題｜疊字在詞中的作用",
+      "originalQuestionIds": [
+        "q-952"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-953",
+      "subject": "Chinese",
+      "title": "國文第9題｜海洋文學的特色",
+      "originalQuestionIds": [
+        "q-953"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-959",
+      "subject": "Chinese",
+      "title": "國文題組｜海鮮指南閱讀（第1、2題）",
+      "originalQuestionIds": [
+        "q-959",
+        "q-960"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-961",
+      "subject": "Math",
+      "title": "數學第7題｜函數計算流程",
+      "originalQuestionIds": [
+        "q-961"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:38:25.597542+00:00",
+      "completedOriginalIds": [
+        "q-961"
+      ],
+      "completedAt": "2026-11-11T16:49:42.053932+00:00",
+      "validationFiles": [
+        "docs/comics/q-961-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-962",
+      "subject": "Math",
+      "title": "數學第16題｜兩直線的函數值比較",
+      "originalQuestionIds": [
+        "q-962"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:38:25.597551+00:00",
+      "completedOriginalIds": [
+        "q-962"
+      ],
+      "completedAt": "2026-11-11T16:49:42.101634+00:00",
+      "validationFiles": [
+        "docs/comics/q-962-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-963",
+      "subject": "Math",
+      "title": "數學題組｜兩車追及（第17、18題）",
+      "originalQuestionIds": [
+        "q-963",
+        "q-964"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 8,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:38:25.597556+00:00",
+      "completedOriginalIds": [
+        "q-963",
+        "q-964"
+      ],
+      "completedAt": "2026-11-11T16:49:42.193900+00:00",
+      "validationFiles": [
+        "docs/comics/q-963-validation.json",
+        "docs/comics/q-964-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-973",
+      "subject": "English",
+      "title": "英文第7題｜讀書句子的填空",
+      "originalQuestionIds": [
+        "q-973"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-974",
+      "subject": "English",
+      "title": "英文第22題｜家庭研究的閱讀填空",
+      "originalQuestionIds": [
+        "q-974"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-979",
+      "subject": "Chinese",
+      "title": "國文第4題｜用字辨正：貧瘠、狡詐與舶來品",
+      "originalQuestionIds": [
+        "q-979"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-982",
+      "subject": "Chinese",
+      "title": "國文第6題｜進球紀錄與標點斷句",
+      "originalQuestionIds": [
+        "q-982"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-997",
+      "subject": "Chinese",
+      "title": "國文第34題｜長輩圖與公民團體查核資訊",
+      "originalQuestionIds": [
+        "q-997"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1025",
+      "subject": "Civics",
+      "title": "公民第46題｜家族企業中的血親與姻親",
+      "originalQuestionIds": [
+        "q-1025"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1002",
+      "subject": "Civics",
+      "title": "公民第42題｜由糾正統計辨認中央政府職權",
+      "originalQuestionIds": [
+        "q-1002"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1002"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:51:23.093105+00:00",
+      "completedAt": "2026-11-11T16:59:59.821226+00:00",
+      "validationFiles": [
+        "docs/comics/q-1002-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-1005",
+      "subject": "History",
+      "title": "歷史題組｜商鞅變法的目的與秦統一（第46、47題）",
+      "originalQuestionIds": [
+        "q-1005",
+        "q-1008"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1042",
+      "subject": "Physics-Chemistry",
+      "title": "理化第4題｜開放環境下的反應質量",
+      "originalQuestionIds": [
+        "q-1042"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:46:17.289782+00:00",
+      "completedOriginalIds": [
+        "q-1042"
+      ],
+      "completedAt": "2026-11-11T16:52:46.535061+00:00",
+      "validationFiles": [
+        "docs/comics/q-1042-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-1043",
+      "subject": "Physics-Chemistry",
+      "title": "理化第21題｜碘水顏色與酸鹼平衡",
+      "originalQuestionIds": [
+        "q-1043"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:46:17.289788+00:00",
+      "completedOriginalIds": [
+        "q-1043"
+      ],
+      "completedAt": "2026-11-11T16:52:46.580508+00:00",
+      "validationFiles": [
+        "docs/comics/q-1043-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-1035",
+      "subject": "Chinese",
+      "title": "國文第6題｜互文與頂真",
+      "originalQuestionIds": [
+        "q-1035"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1046",
+      "subject": "Physics-Chemistry",
+      "title": "理化第27題｜皂化反應物與乙醇的作用",
+      "originalQuestionIds": [
+        "q-1046"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:46:17.289792+00:00",
+      "completedOriginalIds": [
+        "q-1046"
+      ],
+      "completedAt": "2026-11-11T16:52:46.625356+00:00",
+      "validationFiles": [
+        "docs/comics/q-1046-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-1048",
+      "subject": "Physics-Chemistry",
+      "title": "理化第38題｜三酸甘油酯的生成反應",
+      "originalQuestionIds": [
+        "q-1048"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "complete",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 4,
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T16:46:17.289794+00:00",
+      "completedOriginalIds": [
+        "q-1048"
+      ],
+      "completedAt": "2026-11-11T16:52:46.670915+00:00",
+      "validationFiles": [
+        "docs/comics/q-1048-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
+    },
+    {
+      "id": "q-1050",
+      "subject": "Chinese",
+      "title": "國文第6題｜瞭、幢、卜、佻的字音",
+      "originalQuestionIds": [
+        "q-1050"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1051",
+      "subject": "Chinese",
+      "title": "國文第14題｜造意、擔誤與走頭無路",
+      "originalQuestionIds": [
+        "q-1051"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1053",
+      "subject": "History",
+      "title": "歷史第2題｜北京兵變與袁世凱北方就職",
+      "originalQuestionIds": [
+        "q-1053"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1054",
+      "subject": "History",
+      "title": "歷史第18題｜從學堂與通儒院判斷年代",
+      "originalQuestionIds": [
+        "q-1054"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1055",
+      "subject": "History",
+      "title": "歷史第21題｜以任期判斷上海發生的事件",
+      "originalQuestionIds": [
+        "q-1055"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1056",
+      "subject": "Chinese",
+      "title": "國文第19題｜依報導規則判讀輪胎日期",
+      "originalQuestionIds": [
+        "q-1056"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1057",
+      "subject": "Geography",
+      "title": "地理第3題｜台地埤塘與桃園的產業轉型",
+      "originalQuestionIds": [
+        "q-1057"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1058",
+      "subject": "Geography",
+      "title": "地理第4題｜從日出與斷崖定位龜山島",
+      "originalQuestionIds": [
+        "q-1058"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1059",
+      "subject": "History",
+      "title": "歷史第8題｜由自治與緩派軍隊訴求辨認二二八",
+      "originalQuestionIds": [
+        "q-1059"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1060",
+      "subject": "Geography",
+      "title": "地理第17題｜日本海側冬季大雪",
+      "originalQuestionIds": [
+        "q-1060"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1061",
+      "subject": "Geography",
+      "title": "地理第19題｜馬格里布與地中海型生活",
+      "originalQuestionIds": [
+        "q-1061"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1062",
+      "subject": "Geography",
+      "title": "地理第7題｜由開羅氣候圖判讀熱帶沙漠",
+      "originalQuestionIds": [
+        "q-1062"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1063",
+      "subject": "Geography",
+      "title": "地理第8題｜馬利帝國與撒哈拉商路",
+      "originalQuestionIds": [
+        "q-1063"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1064",
+      "subject": "Geography",
+      "title": "地理第13題｜亞特拉斯山脈與摩洛哥氣候",
+      "originalQuestionIds": [
+        "q-1064"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1065",
+      "subject": "Geography",
+      "title": "地理第16題｜西風帶與北非山地降水",
+      "originalQuestionIds": [
+        "q-1065"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1066",
+      "subject": "English",
+      "title": "英文第2題｜金額加short表示還差多少",
+      "originalQuestionIds": [
+        "q-1066"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    },
+    {
+      "id": "q-1067",
+      "subject": "English",
+      "title": "英文第29題｜由影評配對正確電影海報",
+      "originalQuestionIds": [
+        "q-1067"
+      ],
+      "reasons": [
+        "text_only_diagram_without_actual_illustration"
+      ],
+      "state": "queued",
+      "requiredImagesPerOriginal": 4,
+      "completedImages": 0,
+      "completedOriginalIds": []
+    }
+  ],
+  "textOnlyAdditionalQuestionPageCount": 53,
+  "initialFieldAuditQuestionPages": 77,
+  "completedOriginalQuestions": 20,
+  "completedImages": 80
+}

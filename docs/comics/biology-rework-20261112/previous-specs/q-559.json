@@ -1,0 +1,83 @@
+{
+  "id": "q-559",
+  "subject": "Biology",
+  "title": "先看血流方向，再比較患部物質",
+  "art": "docs/comics/art/q-559.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T20:43:29.045389+00:00",
+  "panels": [
+    {
+      "heading": "① 甲流入，經乙，再由丙流出",
+      "text": "依箭頭，甲分支到乙的微血管網，再匯入丙。甲是動脈側，丙是靜脈側，不是按紙面上下猜。",
+      "alt": "箭頭由甲經乙微血管網到丙，流入流出標示清楚"
+    },
+    {
+      "heading": "② 患部蜂毒進入局部血流",
+      "text": "依題目的局部交換模型，蜂毒從患部組織進入乙，再由丙側血液帶走。B把甲的毒液量寫得比丙多，方向相反。",
+      "alt": "蜂毒由患部組織沿紫色箭頭進入乙微血管，隨向下血流至丙側；粒子僅表位置不代表定量"
+    },
+    {
+      "heading": "③ 葡萄糖送出，二氧化碳收回",
+      "text": "組織利用葡萄糖，並產生二氧化碳。因此A的甲＞丙、C的甲＜丙符合題目模型；乙是交換場所，D也合理。",
+      "alt": "葡萄糖由乙血管送往組織細胞，二氧化碳由細胞進入乙血管"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：蜂的毒液量甲＞丙，最不合理",
+    "points": [
+      "問最不合理，要找反向敘述。",
+      "本題比較流入、流出同一患部的血液。",
+      "這是局部模型，不概括全身所有時刻的毒液量。"
+    ]
+  },
+  "protectedWords": [
+    "微血管",
+    "動脈側",
+    "靜脈側",
+    "葡萄糖",
+    "二氧化碳",
+    "甲＞丙",
+    "甲＜丙",
+    "最不合理"
+  ],
+  "rationale": "原卷與必要血管附圖實看，精確箭頭及物質交換是關鍵，用可程式校核SVG比情境人物更有教學價值。三圖依次說明血流拓撲、局部蜂毒交換、葡萄糖與二氧化碳方向。SVG粒子不表示定量比例，說明限制在題目的局部模型；維持已確認B。",
+  "promptSummary": "原生SVG三格：甲→乙→丙、患部蜂毒進入乙並向丙、葡萄糖/CO₂相反交換方向。",
+  "answerCheckedAgainst": "原卷完整題幹四選項及附圖、已確認B；NIH NCI SEER血液循環教材核對微血管為血液與組織細胞交換氣體營養和代謝廢物之場所。",
+  "officialReferences": [
+    {
+      "url": "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/physiology.html",
+      "finding": "微血管銜接動靜脈且負責血液和組織的物質交換。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-559-source-d664f2ea95.jpg",
+      "site/dist/assets/questions/q-559-blood-flow-7776ef72e6.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "按原圖拓撲重排為橫向甲→乙→丙，非靠紙面上下判別血管；原圖也有無流入局部的旁支，漫畫僅抽取此患部交換路徑。"
+  },
+  "completedAt": "2026-10-28T20:45:07.349933+00:00",
+  "checkedAt": "2026-10-28T20:46:25.007696+00:00",
+  "visualChecked": true,
+  "artSHA256": "34c65cd89a141fbad5b168e8ed06879667244e371e84e4ac112aaeb312b401ce",
+  "previewValidation": "docs/comics/q-559-preview-validation.json",
+  "visualReview": "實看540×180原生圖、1440/390獨立預覽：甲→乙→丙箭頭向右，蜂毒從左側患部向右進入血管後隨向下血流離開；葡萄糖向細胞、CO₂反向回血液，標示不重疊。新製SVG只繪患部交換抽象路徑，粒子非濃度定量。桌機每列等高，手機自然高度、無裁切橫溢；1120自動QA亦通過。",
+  "nativeArt": "assets/comics/q-559-art-34c65cd89a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-559-validation.json"
+}

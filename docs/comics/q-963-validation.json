@@ -1,328 +1,575 @@
 {
-  "checkedAt": "2026-11-05T15:21:49.971Z",
-  "groupReport": "docs/imports/group-review/qa/q-963-validation.json",
+  "checkedAt": "2026-11-11T16:46:33.111Z",
   "results": [
     {
       "id": "q-963",
-      "height": 834,
-      "wrapErrors": 0,
-      "protectedBreaks": [],
-      "overflow": [],
-      "cells": [
-        {
-          "width": 521,
-          "height": 402.859375,
-          "left": 314,
-          "top": 1770.453125
-        },
-        {
-          "width": 521,
-          "height": 402.859375,
-          "left": 847,
-          "top": 1770.453125
-        },
-        {
-          "width": 521,
-          "height": 402.859375,
-          "left": 314,
-          "top": 2185.3125
-        },
-        {
-          "width": 521,
-          "height": 402.859375,
-          "left": 847,
-          "top": 2185.3125
-        }
-      ],
-      "autoRows": "auto",
-      "art": [],
-      "decoded": [],
-      "diagramTexts": [
-        "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
-        "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
-        "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
-      ],
-      "captionTexts": [],
-      "copy": [
-        "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-        "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-        "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
-      ],
-      "fourth": "答案 B：y＝－（1/5）x＋10",
-      "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-app-1440.png",
+      "standalone": false,
       "viewport": 1440,
-      "standalone": false,
-      "docOverflow": false
-    },
-    {
-      "id": "q-963",
-      "height": 834,
+      "width": 1070,
+      "height": 522,
       "wrapErrors": 0,
       "protectedBreaks": [],
-      "overflow": [],
       "cells": [
         {
-          "width": 393,
-          "height": 402.859375,
-          "left": 266,
-          "top": -2168.484375
+          "width": 521,
+          "height": 247.09375,
+          "left": 314,
+          "top": 246.453125
         },
         {
-          "width": 393,
-          "height": 402.859375,
-          "left": 671,
-          "top": -2168.484375
+          "width": 521,
+          "height": 247.09375,
+          "left": 847,
+          "top": 246.453125
         },
         {
-          "width": 393,
-          "height": 402.859375,
-          "left": 266,
-          "top": -1753.625
+          "width": 521,
+          "height": 247.09375,
+          "left": 314,
+          "top": 505.546875
         },
         {
-          "width": 393,
-          "height": 402.859375,
-          "left": 671,
-          "top": -1753.625
+          "width": 521,
+          "height": 247.09375,
+          "left": 847,
+          "top": 505.546875
         }
       ],
       "autoRows": "auto",
-      "art": [],
-      "decoded": [],
-      "diagramTexts": [
-        "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
-        "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
-        "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+      "overflow": [],
+      "docOverflow": false,
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
-      "copy": [
-        "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-        "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-        "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-art-f26f70a463.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-2-art-6508d169d3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-3-art-d88f270110.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-4-art-30f22a8c52.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
       ],
-      "fourth": "答案 B：y＝－（1/5）x＋10",
-      "screenshot": null,
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
+      ],
+      "text": [
+        "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+        "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+        "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。"
+      ],
+      "screenshot": "/tmp/weirugo-comic-checks/q-963-app-1440.png",
+      "screenshotViewportHeight": 1000
+    },
+    {
+      "id": "q-963",
+      "standalone": false,
       "viewport": 1120,
-      "standalone": false,
-      "docOverflow": false
-    },
-    {
-      "id": "q-963",
-      "height": 1456,
+      "width": 814,
+      "height": 587,
       "wrapErrors": 0,
       "protectedBreaks": [],
-      "overflow": [],
       "cells": [
         {
-          "width": 294,
-          "height": 364.859375,
-          "left": 48,
-          "top": -1794.484375
+          "width": 393,
+          "height": 247.09375,
+          "left": 266,
+          "top": 183.515625
         },
         {
-          "width": 294,
-          "height": 417.953125,
-          "left": 48,
-          "top": -1417.625
+          "width": 393,
+          "height": 247.09375,
+          "left": 671,
+          "top": 183.515625
         },
         {
-          "width": 294,
-          "height": 417.953125,
-          "left": 48,
-          "top": -987.671875
+          "width": 393,
+          "height": 312.125,
+          "left": 266,
+          "top": 442.609375
         },
         {
-          "width": 294,
-          "height": 203.609375,
-          "left": 48,
-          "top": -557.71875
+          "width": 393,
+          "height": 312.125,
+          "left": 671,
+          "top": 442.609375
         }
       ],
       "autoRows": "auto",
-      "art": [],
-      "decoded": [],
-      "diagramTexts": [
-        "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
-        "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
-        "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+      "overflow": [],
+      "docOverflow": false,
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
-      "copy": [
-        "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-        "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-        "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-art-f26f70a463.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-2-art-6508d169d3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-3-art-d88f270110.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-4-art-30f22a8c52.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
       ],
-      "fourth": "答案 B：y＝－（1/5）x＋10",
-      "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-app-390.png",
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
+      ],
+      "text": [
+        "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+        "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+        "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。"
+      ],
+      "screenshot": "/tmp/weirugo-comic-checks/q-963-app-1120.png",
+      "screenshotViewportHeight": 1000
+    },
+    {
+      "id": "q-963",
+      "standalone": false,
       "viewport": 390,
-      "standalone": false,
-      "docOverflow": false
-    },
-    {
-      "id": "q-963",
-      "height": 834,
+      "width": 310,
+      "height": 1015,
       "wrapErrors": 0,
       "protectedBreaks": [],
-      "overflow": [],
       "cells": [
         {
-          "width": 524,
-          "height": 402.859375,
-          "left": 190,
-          "top": 1988.3125
+          "width": 294,
+          "height": 203.578125,
+          "left": 48,
+          "top": 649.515625
         },
         {
-          "width": 524,
-          "height": 402.859375,
-          "left": 726,
-          "top": 1988.3125
+          "width": 294,
+          "height": 203.578125,
+          "left": 48,
+          "top": 865.09375
         },
         {
-          "width": 524,
-          "height": 402.859375,
-          "left": 190,
-          "top": 2403.171875
+          "width": 294,
+          "height": 224.59375,
+          "left": 48,
+          "top": 1080.671875
         },
         {
-          "width": 524,
-          "height": 402.859375,
-          "left": 726,
-          "top": 2403.171875
+          "width": 294,
+          "height": 331.21875,
+          "left": 48,
+          "top": 1317.265625
         }
       ],
       "autoRows": "auto",
-      "art": [],
-      "decoded": [],
-      "diagramTexts": [
-        "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
-        "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
-        "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+      "overflow": [],
+      "docOverflow": false,
+      "art": [
+        115,
+        115,
+        115,
+        115
       ],
-      "captionTexts": [],
-      "copy": [
-        "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-        "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-        "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-art-f26f70a463.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-2-art-6508d169d3.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-3-art-d88f270110.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-4-art-30f22a8c52.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        }
       ],
-      "fourth": "答案 B：y＝－（1/5）x＋10",
-      "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-standalone-1440.png",
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
+      ],
+      "text": [
+        "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+        "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+        "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。"
+      ],
+      "screenshot": "/tmp/weirugo-comic-checks/q-963-app-390.png",
+      "screenshotViewportHeight": 1335
+    },
+    {
+      "id": "q-963",
+      "standalone": true,
       "viewport": 1440,
-      "standalone": true,
-      "docOverflow": false
-    },
-    {
-      "id": "q-963",
-      "height": 834,
+      "width": 1076,
+      "height": 522,
       "wrapErrors": 0,
       "protectedBreaks": [],
-      "overflow": [],
       "cells": [
         {
-          "width": 484,
-          "height": 402.859375,
-          "left": 70,
-          "top": -2163.65625
+          "width": 524,
+          "height": 247.09375,
+          "left": 190,
+          "top": 247.3125
         },
         {
-          "width": 484,
-          "height": 402.859375,
-          "left": 566,
-          "top": -2163.65625
+          "width": 524,
+          "height": 247.09375,
+          "left": 726,
+          "top": 247.3125
         },
         {
-          "width": 484,
-          "height": 402.859375,
-          "left": 70,
-          "top": -1748.796875
+          "width": 524,
+          "height": 247.09375,
+          "left": 190,
+          "top": 506.40625
         },
         {
-          "width": 484,
-          "height": 402.859375,
-          "left": 566,
-          "top": -1748.796875
+          "width": 524,
+          "height": 247.09375,
+          "left": 726,
+          "top": 506.40625
         }
       ],
       "autoRows": "auto",
-      "art": [],
-      "decoded": [],
-      "diagramTexts": [
-        "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
-        "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
-        "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+      "overflow": [],
+      "docOverflow": false,
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
-      "copy": [
-        "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-        "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-        "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-art-f26f70a463.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-2-art-6508d169d3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-3-art-d88f270110.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-4-art-30f22a8c52.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
       ],
-      "fourth": "答案 B：y＝－（1/5）x＋10",
-      "screenshot": null,
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
+      ],
+      "text": [
+        "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+        "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+        "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。"
+      ],
+      "screenshot": "/tmp/weirugo-comic-checks/q-963-standalone-1440.png",
+      "screenshotViewportHeight": 1000
+    },
+    {
+      "id": "q-963",
+      "standalone": true,
       "viewport": 1120,
-      "standalone": true,
-      "docOverflow": false
-    },
-    {
-      "id": "q-963",
-      "height": 1456,
+      "width": 996,
+      "height": 522,
       "wrapErrors": 0,
       "protectedBreaks": [],
-      "overflow": [],
       "cells": [
         {
-          "width": 292,
-          "height": 364.859375,
-          "left": 49,
-          "top": -2176.125
+          "width": 484,
+          "height": 247.09375,
+          "left": 70,
+          "top": 247.34375
         },
         {
-          "width": 292,
-          "height": 417.953125,
-          "left": 49,
-          "top": -1799.265625
+          "width": 484,
+          "height": 247.09375,
+          "left": 566,
+          "top": 247.34375
         },
         {
-          "width": 292,
-          "height": 417.953125,
-          "left": 49,
-          "top": -1369.3125
+          "width": 484,
+          "height": 247.09375,
+          "left": 70,
+          "top": 506.4375
         },
         {
-          "width": 292,
-          "height": 203.609375,
-          "left": 49,
-          "top": -939.359375
+          "width": 484,
+          "height": 247.09375,
+          "left": 566,
+          "top": 506.4375
         }
       ],
       "autoRows": "auto",
-      "art": [],
-      "decoded": [],
-      "diagramTexts": [
-        "共圖的兩個確定點x＝0秒：y＝10公尺座標（0，10）。↓ 時間經過50秒，間距縮至0x＝50秒：y＝0公尺座標（50，0）：追上。",
-        "斜率＝間距變化÷時間變化間距變化：0－10＝－10公尺↓ 計算同一段時間的變化率時間變化：50－0＝50秒↓ 計算同一段時間的變化率斜率：－10÷50＝－1/5單位：公尺／秒。",
-        "回代驗證Bx＝0：y＝10對應一開始相距10公尺。x＝50：y＝0對應50秒追上。↓ 初值與追上時刻都要符合B：y＝－（1/5）x＋10"
+      "overflow": [],
+      "docOverflow": false,
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
-      "copy": [
-        "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-        "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-        "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。"
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-art-f26f70a463.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-2-art-6508d169d3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-3-art-d88f270110.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-4-art-30f22a8c52.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
       ],
-      "fourth": "答案 B：y＝－（1/5）x＋10",
-      "screenshot": "/tmp/weirugo-group-checks/q-963-q-963-standalone-390.png",
-      "viewport": 390,
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
+      ],
+      "text": [
+        "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+        "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+        "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。"
+      ],
+      "screenshot": "/tmp/weirugo-comic-checks/q-963-standalone-1120.png",
+      "screenshotViewportHeight": 1000
+    },
+    {
+      "id": "q-963",
       "standalone": true,
-      "docOverflow": false
+      "viewport": 390,
+      "width": 308,
+      "height": 1061,
+      "wrapErrors": 0,
+      "protectedBreaks": [],
+      "cells": [
+        {
+          "width": 292,
+          "height": 226.671875,
+          "left": 49,
+          "top": 367.25
+        },
+        {
+          "width": 292,
+          "height": 203.578125,
+          "left": 49,
+          "top": 605.921875
+        },
+        {
+          "width": 292,
+          "height": 224.59375,
+          "left": 49,
+          "top": 821.5
+        },
+        {
+          "width": 292,
+          "height": 354.3125,
+          "left": 49,
+          "top": 1058.09375
+        }
+      ],
+      "autoRows": "auto",
+      "overflow": [],
+      "docOverflow": false,
+      "art": [
+        115,
+        115,
+        115,
+        115
+      ],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-art-f26f70a463.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-2-art-6508d169d3.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-3-art-d88f270110.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-963-panel-4-art-30f22a8c52.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。",
+        "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
+      ],
+      "text": [
+        "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+        "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+        "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。"
+      ],
+      "screenshot": "/tmp/weirugo-comic-checks/q-963-standalone-390.png",
+      "screenshotViewportHeight": 1381
     }
-  ],
-  "desktopMobileActuallyViewed": true,
-  "visualReviewer": "/root/comic_lane_1",
-  "visualReviewWidths": [
-    1440,
-    390
-  ],
-  "visualReviewViews": [
-    "app",
-    "standalone"
   ]
 }

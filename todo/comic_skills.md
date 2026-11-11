@@ -10,3 +10,10 @@
 - 維持減量：網站發布原尺寸WebP（無字quality88，含字必要素材無損）；SVG維持向量。原始PNG及點陣QA留本機、不進Git；單題HTML共用assets，不內嵌圖片。先備份再移出無引用資產；用既有attach/curate/optimized_assets流程。
 - 原題看不清或答案未確認，先列Monitor確認，不猜補。排程依各科已完成數平方／總題數取最小，三路製作、root整合；成果與確認更新Monitor。
 - 細節以AGENTS.md、weirugo-teaching-comics SKILL.md及使用者最新指示為準。
+
+2026-11-12最新：收題包含四張實際圖解
+
+- 「add／加入題庫」包含四張實際圖像、四格圖文與驗證，不把第4格純文字摘要算作第4張圖；不使用空白素材、同圖重複或純文字流程框湊數。
+- 生物採 `todo/image.png` 參考等級的高品質類真實教材插畫：細膩器官、組織、細胞、植物或生態細節，清楚剖面與微觀放大，依題目主題製作。此項取代生物可用簡筆SVG／可愛動漫的舊風格。
+- 精確中文、公式、數量與方向標示另用可校對HTML／原生圖層；圖片逐張核對科學關係，不能以『示意』掩蓋構造錯誤。數學等精確圖仍可用四張原生SVG。
+- 完整可重用技能：`.codex/skills/weirugo-teaching-comics/SKILL.md`。本次缺圖與生物重作範圍見 `docs/comics/biology-rework-20261112/plan.json`，只有四張成品與正式桌手機QA完成才計數。

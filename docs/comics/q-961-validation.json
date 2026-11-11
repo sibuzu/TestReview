@@ -1,333 +1,575 @@
 {
-  "checkedAt": "2026-11-05T15:22:23.727Z",
+  "checkedAt": "2026-11-11T16:46:33.111Z",
   "results": [
     {
       "id": "q-961",
       "standalone": false,
       "viewport": 1440,
       "width": 1070,
-      "height": 807,
+      "height": 522,
       "wrapErrors": 0,
       "protectedBreaks": [],
       "cells": [
         {
           "width": 521,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 314,
-          "top": 104.59375
+          "top": 246.59375
         },
         {
           "width": 521,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 847,
-          "top": 104.59375
+          "top": 246.59375
         },
         {
           "width": 521,
-          "height": 402.859375,
+          "height": 247.09375,
           "left": 314,
-          "top": 492.359375
+          "top": 505.6875
         },
         {
           "width": 521,
-          "height": 402.859375,
+          "height": 247.09375,
           "left": 847,
-          "top": 492.359375
+          "top": 505.6875
         }
       ],
       "autoRows": "auto",
       "overflow": [],
       "docOverflow": false,
-      "art": [],
-      "artImages": [],
-      "diagramTexts": [
-        "原流程的前半段輸入：x↓ 依序處理上一個結果減2：x－2↓ 依序處理上一個結果平方：（x－2）²",
-        "原流程的後半段乘5：5（x－2）²↓ 接續運算，再整理代數式減13：y＝5（x－2）²－13↓ 接續運算，再整理代數式展開：y＝5x²－20x＋7",
-        "同一個輸入，核對輸出依流程／選項C：－13先減2後，整體平方。選項B：－23B只把2平方，範圍不同。↓ 都以x＝2代入比較B不符；C符合原流程"
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-art-6f146ddce3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-2-art-458ae322ba.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-3-art-af1c66f6d5.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-4-art-1407f08981.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
+      ],
       "text": [
-        "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-        "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-        "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。"
+        "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+        "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+        "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。"
       ],
       "screenshot": "/tmp/weirugo-comic-checks/q-961-app-1440.png",
-      "screenshotViewportHeight": 1127
+      "screenshotViewportHeight": 1000
     },
     {
       "id": "q-961",
       "standalone": false,
       "viewport": 1120,
       "width": 814,
-      "height": 807,
+      "height": 587,
       "wrapErrors": 0,
       "protectedBreaks": [],
       "cells": [
         {
           "width": 393,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 266,
-          "top": 66.859375
+          "top": 208.859375
         },
         {
           "width": 393,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 671,
-          "top": 66.859375
+          "top": 208.859375
         },
         {
           "width": 393,
-          "height": 402.859375,
+          "height": 312.125,
           "left": 266,
-          "top": 454.625
+          "top": 467.953125
         },
         {
           "width": 393,
-          "height": 402.859375,
+          "height": 312.125,
           "left": 671,
-          "top": 454.625
+          "top": 467.953125
         }
       ],
       "autoRows": "auto",
       "overflow": [],
       "docOverflow": false,
-      "art": [],
-      "artImages": [],
-      "diagramTexts": [
-        "原流程的前半段輸入：x↓ 依序處理上一個結果減2：x－2↓ 依序處理上一個結果平方：（x－2）²",
-        "原流程的後半段乘5：5（x－2）²↓ 接續運算，再整理代數式減13：y＝5（x－2）²－13↓ 接續運算，再整理代數式展開：y＝5x²－20x＋7",
-        "同一個輸入，核對輸出依流程／選項C：－13先減2後，整體平方。選項B：－23B只把2平方，範圍不同。↓ 都以x＝2代入比較B不符；C符合原流程"
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-art-6f146ddce3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-2-art-458ae322ba.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-3-art-af1c66f6d5.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-4-art-1407f08981.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
+      ],
       "text": [
-        "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-        "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-        "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。"
+        "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+        "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+        "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。"
       ],
       "screenshot": "/tmp/weirugo-comic-checks/q-961-app-1120.png",
-      "screenshotViewportHeight": 1127
+      "screenshotViewportHeight": 1000
     },
     {
       "id": "q-961",
       "standalone": false,
       "viewport": 390,
       "width": 310,
-      "height": 1432,
+      "height": 994,
       "wrapErrors": 0,
       "protectedBreaks": [],
       "cells": [
         {
           "width": 294,
-          "height": 367.765625,
+          "height": 203.578125,
           "left": 48,
-          "top": 594.09375
+          "top": 736.09375
         },
         {
           "width": 294,
-          "height": 390.859375,
+          "height": 203.578125,
           "left": 48,
-          "top": 973.859375
+          "top": 951.671875
         },
         {
           "width": 294,
-          "height": 417.953125,
+          "height": 226.671875,
           "left": 48,
-          "top": 1376.71875
+          "top": 1167.25
         },
         {
           "width": 294,
-          "height": 203.609375,
+          "height": 308.125,
           "left": 48,
-          "top": 1806.671875
+          "top": 1405.921875
         }
       ],
       "autoRows": "auto",
       "overflow": [],
       "docOverflow": false,
-      "art": [],
-      "artImages": [],
-      "diagramTexts": [
-        "原流程的前半段輸入：x↓ 依序處理上一個結果減2：x－2↓ 依序處理上一個結果平方：（x－2）²",
-        "原流程的後半段乘5：5（x－2）²↓ 接續運算，再整理代數式減13：y＝5（x－2）²－13↓ 接續運算，再整理代數式展開：y＝5x²－20x＋7",
-        "同一個輸入，核對輸出依流程／選項C：－13先減2後，整體平方。選項B：－23B只把2平方，範圍不同。↓ 都以x＝2代入比較B不符；C符合原流程"
+      "art": [
+        115,
+        115,
+        115,
+        115
       ],
-      "captionTexts": [],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-art-6f146ddce3.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-2-art-458ae322ba.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-3-art-af1c66f6d5.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-4-art-1407f08981.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
+      ],
       "text": [
-        "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-        "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-        "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。"
+        "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+        "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+        "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。"
       ],
       "screenshot": "/tmp/weirugo-comic-checks/q-961-app-390.png",
-      "screenshotViewportHeight": 1752
+      "screenshotViewportHeight": 1314
     },
     {
       "id": "q-961",
       "standalone": true,
       "viewport": 1440,
       "width": 776,
-      "height": 807,
+      "height": 587,
       "wrapErrors": 0,
       "protectedBreaks": [],
       "cells": [
         {
           "width": 374,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 340,
-          "top": 104.59375
+          "top": 214.59375
         },
         {
           "width": 374,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 726,
-          "top": 104.59375
+          "top": 214.59375
         },
         {
           "width": 374,
-          "height": 402.859375,
+          "height": 312.125,
           "left": 340,
-          "top": 492.359375
+          "top": 473.6875
         },
         {
           "width": 374,
-          "height": 402.859375,
+          "height": 312.125,
           "left": 726,
-          "top": 492.359375
+          "top": 473.6875
         }
       ],
       "autoRows": "auto",
       "overflow": [],
       "docOverflow": false,
-      "art": [],
-      "artImages": [],
-      "diagramTexts": [
-        "原流程的前半段輸入：x↓ 依序處理上一個結果減2：x－2↓ 依序處理上一個結果平方：（x－2）²",
-        "原流程的後半段乘5：5（x－2）²↓ 接續運算，再整理代數式減13：y＝5（x－2）²－13↓ 接續運算，再整理代數式展開：y＝5x²－20x＋7",
-        "同一個輸入，核對輸出依流程／選項C：－13先減2後，整體平方。選項B：－23B只把2平方，範圍不同。↓ 都以x＝2代入比較B不符；C符合原流程"
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-art-6f146ddce3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-2-art-458ae322ba.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-3-art-af1c66f6d5.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-4-art-1407f08981.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
+      ],
       "text": [
-        "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-        "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-        "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。"
+        "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+        "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+        "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。"
       ],
       "screenshot": "/tmp/weirugo-comic-checks/q-961-standalone-1440.png",
-      "screenshotViewportHeight": 1127
+      "screenshotViewportHeight": 1000
     },
     {
       "id": "q-961",
       "standalone": true,
       "viewport": 1120,
       "width": 776,
-      "height": 807,
+      "height": 587,
       "wrapErrors": 0,
       "protectedBreaks": [],
       "cells": [
         {
           "width": 374,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 180,
-          "top": 104.59375
+          "top": 214.59375
         },
         {
           "width": 374,
-          "height": 375.765625,
+          "height": 247.09375,
           "left": 566,
-          "top": 104.59375
+          "top": 214.59375
         },
         {
           "width": 374,
-          "height": 402.859375,
+          "height": 312.125,
           "left": 180,
-          "top": 492.359375
+          "top": 473.6875
         },
         {
           "width": 374,
-          "height": 402.859375,
+          "height": 312.125,
           "left": 566,
-          "top": 492.359375
+          "top": 473.6875
         }
       ],
       "autoRows": "auto",
       "overflow": [],
       "docOverflow": false,
-      "art": [],
-      "artImages": [],
-      "diagramTexts": [
-        "原流程的前半段輸入：x↓ 依序處理上一個結果減2：x－2↓ 依序處理上一個結果平方：（x－2）²",
-        "原流程的後半段乘5：5（x－2）²↓ 接續運算，再整理代數式減13：y＝5（x－2）²－13↓ 接續運算，再整理代數式展開：y＝5x²－20x＋7",
-        "同一個輸入，核對輸出依流程／選項C：－13先減2後，整體平方。選項B：－23B只把2平方，範圍不同。↓ 都以x＝2代入比較B不符；C符合原流程"
+      "art": [
+        180,
+        180,
+        180,
+        180
       ],
-      "captionTexts": [],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-art-6f146ddce3.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-2-art-458ae322ba.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-3-art-af1c66f6d5.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-4-art-1407f08981.svg",
+          "single": true,
+          "paintWidth": 180,
+          "boxWidth": 180
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
+      ],
       "text": [
-        "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-        "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-        "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。"
+        "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+        "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+        "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。"
       ],
       "screenshot": "/tmp/weirugo-comic-checks/q-961-standalone-1120.png",
-      "screenshotViewportHeight": 1127
+      "screenshotViewportHeight": 1000
     },
     {
       "id": "q-961",
       "standalone": true,
       "viewport": 390,
       "width": 308,
-      "height": 1432,
+      "height": 1017,
       "wrapErrors": 0,
       "protectedBreaks": [],
       "cells": [
         {
           "width": 292,
-          "height": 367.765625,
+          "height": 226.671875,
           "left": 49,
-          "top": 217.890625
+          "top": 327.890625
         },
         {
           "width": 292,
-          "height": 390.859375,
+          "height": 203.578125,
           "left": 49,
-          "top": 597.65625
+          "top": 566.5625
         },
         {
           "width": 292,
-          "height": 417.953125,
+          "height": 226.671875,
           "left": 49,
-          "top": 1000.515625
+          "top": 782.140625
         },
         {
           "width": 292,
-          "height": 203.609375,
+          "height": 308.125,
           "left": 49,
-          "top": 1430.46875
+          "top": 1020.8125
         }
       ],
       "autoRows": "auto",
       "overflow": [],
       "docOverflow": false,
-      "art": [],
-      "artImages": [],
-      "diagramTexts": [
-        "原流程的前半段輸入：x↓ 依序處理上一個結果減2：x－2↓ 依序處理上一個結果平方：（x－2）²",
-        "原流程的後半段乘5：5（x－2）²↓ 接續運算，再整理代數式減13：y＝5（x－2）²－13↓ 接續運算，再整理代數式展開：y＝5x²－20x＋7",
-        "同一個輸入，核對輸出依流程／選項C：－13先減2後，整體平方。選項B：－23B只把2平方，範圍不同。↓ 都以x＝2代入比較B不符；C符合原流程"
+      "art": [
+        115,
+        115,
+        115,
+        115
       ],
-      "captionTexts": [],
+      "artImages": [
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-art-6f146ddce3.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-2-art-458ae322ba.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-3-art-af1c66f6d5.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        },
+        {
+          "loaded": true,
+          "width": 240,
+          "height": 240,
+          "src": "assets/comics/q-961-panel-4-art-1407f08981.svg",
+          "single": true,
+          "paintWidth": 115.1875,
+          "boxWidth": 115.1875
+        }
+      ],
+      "diagramTexts": [],
+      "captionTexts": [
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。",
+        "新製驗算函數圖｜由原流程計算，不是原卷附圖。"
+      ],
       "text": [
-        "減2後得到x－2，下一步的平方要作用在整個x－2，須加括號；不是只將2平方。",
-        "平方後乘5，再減13，得y＝5（x－2）²－13。展開時5要乘括號內每一項，中間項是－20x。",
-        "輸入2時，流程先得到0，最後輸出－13。B是5（x－2²）－13，代入卻是－23；C才與流程相符。"
+        "先減2，再把整個結果平方，得到（x－2）²。圖中輸入2時平方結果為0；不是只計算2²。",
+        "平方後的值全部乘5，得5（x－2）²。圖中綠線用每個輸出乘5，灰虛線保留乘前的比較。",
+        "所有輸出再減13，得y＝5（x－2）²－13＝5x²－20x＋7，所以選C。圖只用來核對運算順序。"
       ],
       "screenshot": "/tmp/weirugo-comic-checks/q-961-standalone-390.png",
-      "screenshotViewportHeight": 1752
+      "screenshotViewportHeight": 1337
     }
-  ],
-  "desktopMobileActuallyViewed": true,
-  "visualReviewer": "/root/comic_lane_1",
-  "visualReviewWidths": [
-    1440,
-    390
-  ],
-  "visualReviewViews": [
-    "app",
-    "standalone"
   ]
 }

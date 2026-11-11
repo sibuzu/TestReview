@@ -1,0 +1,150 @@
+{
+  "id": "q-951",
+  "subject": "Chinese",
+  "title": "多音字要依語境，不硬排除另一讀法",
+  "art": "docs/comics/art/q-951-relationships.svg",
+  "panels": [
+    {
+      "heading": "① A的兩個衝確定同音",
+      "text": "交通要衝指交通重要處，橫衝直撞指猛烈衝撞。這兩個衝都讀ㄔㄨㄥ，符合原卷預期A。",
+      "alt": "兩個衝各有詞語與ㄔㄨㄥ注音標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A：同讀ㄔㄨㄥ",
+        "items": [
+          {
+            "label": "交通要衝",
+            "tone": "green",
+            "detail": "ㄔㄨㄥ｜交通重要處。"
+          },
+          {
+            "label": "橫衝直撞",
+            "tone": "green",
+            "detail": "ㄔㄨㄥ｜向前衝撞。"
+          }
+        ],
+        "target": "A同音確定",
+        "arrow": "比較兩詞讀音"
+      }
+    },
+    {
+      "heading": "② B的兩個劃也可同音",
+      "text": "兩處若都指快艇擦掠水面、留下痕跡，就都可讀ㄏㄨㄚˊ。只有採區分、分界義時才讀ㄏㄨㄚˋ，題句未明確限定。",
+      "alt": "擦掠與區分兩種義項各標正確讀音，不把B劃叉。",
+      "diagram": {
+        "kind": "paths",
+        "title": "B：不能強制判不同音",
+        "items": [
+          {
+            "label": "擦掠、拖過表面留痕",
+            "tone": "green",
+            "detail": "劃｜ㄏㄨㄚˊ，兩處均可這樣解。"
+          },
+          {
+            "label": "區分、分界義",
+            "tone": "gold",
+            "detail": "劃｜ㄏㄨㄚˋ，原句未限定此義。"
+          }
+        ],
+        "target": "B亦有同音的語境解讀",
+        "arrow": "按義項選讀音"
+      }
+    },
+    {
+      "heading": "③ C、D則確定不同音",
+      "text": "炸子雞的炸讀ㄓㄚˊ，爆炸讀ㄓㄚˋ；忖度讀ㄉㄨㄛˋ，尺度讀ㄉㄨˋ。兩組都有清楚音差。",
+      "alt": "炸子雞/爆炸與忖度/尺度逐詞標出聲調，不將忖誤作付。",
+      "diagram": {
+        "kind": "paths",
+        "title": "C、D：讀音不同",
+        "items": [
+          {
+            "label": "C｜炸子雞／爆炸",
+            "tone": "blue",
+            "detail": "ㄓㄚˊ／ㄓㄚˋ。"
+          },
+          {
+            "label": "D｜忖度／尺度",
+            "tone": "gold",
+            "detail": "ㄉㄨㄛˋ／ㄉㄨˋ。"
+          }
+        ],
+        "target": "這兩組不同音",
+        "arrow": "逐詞核對聲調"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "原卷預期 A；B亦可同音，單選有疑義",
+    "points": [
+      "A兩衝均讀ㄔㄨㄥ。",
+      "B兩劃可按擦掠義同讀ㄏㄨㄚˊ。",
+      "保留原題，不指定A為唯一正解。"
+    ]
+  },
+  "protectedWords": [
+    "交通要衝",
+    "橫衝直撞",
+    "擦掠",
+    "區分",
+    "分界",
+    "炸子雞",
+    "爆炸",
+    "忖度",
+    "尺度",
+    "單選有疑義"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-057-question-13-0698da60eac7.png"
+    ],
+    "visualChecked": true,
+    "answer": "",
+    "notes": "本代理已逐題實看原卷與裁圖，讀完本題、全部選項及必要材料；字音詞義依教育部辭典獨立核對，雙解限制照留。"
+  },
+  "rationale": "此題的教學核心是精確注音/義項與單選限制，採可選取HTML比較。A確同、B亦可同音、C-D異音均明示，圖解不猜命題者意思、不把B畫錯。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-04T15:43:15.463714+00:00",
+  "artSHA256": "8197bd30600cf5dd0e4ab502d115d428c0ebac83cb30ce44cadcc72f4b066aec",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-04T15:51:12.692044+00:00",
+  "previewValidation": "docs/comics/q-951-preview-validation.json",
+  "visualReview": "已實看1440/390精確音義圖：A兩衝ㄔㄨㄥ、B擦掠ㄏㄨㄚˊ/區分ㄏㄨㄚˋ、C炸不同調、D忖度尺度不同音完整；不把B判錯，第4格原卷預期A＋B可同音/單選疑義。三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-951-1440.png",
+      "/tmp/weirugo-comic-previews/q-951-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-951-art-8197bd3060.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-04T15:51:12.561530+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-951-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-951-validation.json"
+}

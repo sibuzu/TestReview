@@ -1,0 +1,137 @@
+{
+  "id": "q-1050",
+  "subject": "Chinese",
+  "title": "瞭、幢、卜、佻的字音",
+  "art": "docs/comics/art/q-1050-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261110/q-1050-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、保留原題的錯誤注音，再逐項訂正\nA原印ㄌㄧㄠˊ（二聲），「瞭望」的瞭應讀ㄌㄧㄠˋ（四聲），故不選。瞭在瞭解等詞可讀ㄌㄧㄠˇ，仍不能把那個讀音套到瞭望。\n\nB原印ㄔㄨㄥˊ，房屋量詞「幢」在臺灣教育部國語辭典讀ㄔㄨㄤˊ；韻母ㄥ應改成ㄤ，故不選。不能將普通話另用的ㄉㄨㄥˋ當作本題教材正音。\n\nC原印ㄆㄨˇ，「占卜」的卜應讀ㄅㄨˇ，聲母ㄆ應改ㄅ，故不選。\n\nD輕佻的佻讀ㄊㄧㄠˊ，形容態度或言語不莊重，原題所列讀音正確，因此選D。\n\n二、原AI的問題\n原回覆表格把A、C的原印錯音換成正確讀音，卻仍標錯，造成自相矛盾；又將幢的正音寫成ㄉㄨㄥˋ。現依原卷與教育部字典，區分「原印選項」及「訂正讀音」，不改動題目的錯音。",
+  "rationale": "本題教學重點是反應角色、分類、文字聲韻或精確不等式，以可選取HTML條件圖明示原值、正誤與推理，不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 瞭望要讀四聲",
+      "text": "A原印二聲ㄌㄧㄠˊ；瞭望的瞭應讀ㄌㄧㄠˋ。讀音要和詞義一起判斷。",
+      "alt": "A的聲調差別",
+      "diagram": {
+        "kind": "flow",
+        "title": "A的聲調差別",
+        "items": [
+          {
+            "label": "原印｜ㄌㄧㄠˊ",
+            "detail": "二聲，照留原題",
+            "tone": "blue"
+          },
+          {
+            "label": "正音｜ㄌㄧㄠˋ",
+            "detail": "四聲，表示遠望",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "核對概念"
+      }
+    },
+    {
+      "heading": "② 分清韻母與聲母",
+      "text": "B的ㄥ應改ㄤ；C的ㄆ應改ㄅ。不要把訂正後的讀音放回原選項又標錯。",
+      "alt": "B、C各錯在哪裡",
+      "diagram": {
+        "kind": "flow",
+        "title": "B、C各錯在哪裡",
+        "items": [
+          {
+            "label": "幢｜ㄔㄨㄥˊ → ㄔㄨㄤˊ",
+            "detail": "改韻母",
+            "tone": "blue"
+          },
+          {
+            "label": "卜｜ㄆㄨˇ → ㄅㄨˇ",
+            "detail": "改聲母",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "核對概念"
+      }
+    },
+    {
+      "heading": "③ 輕佻的佻讀二聲",
+      "text": "D原印ㄊㄧㄠˊ，與教育部字典一致。輕佻指態度或言語不莊重，因此D正確。",
+      "alt": "D的詞音對照",
+      "diagram": {
+        "kind": "paths",
+        "title": "D的詞音對照",
+        "items": [
+          {
+            "label": "輕佻",
+            "detail": "言語或舉止不莊重",
+            "tone": "blue"
+          },
+          {
+            "label": "佻｜ㄊㄧㄠˊ",
+            "detail": "二聲",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依條件判斷",
+        "target": "D"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(D) 輕「佻」：ㄊㄧㄠˊ",
+    "points": [
+      "原印A二聲，瞭望的瞭應讀四聲ㄌㄧㄠˋ。",
+      "幢應讀ㄔㄨㄤˊ，卜應讀ㄅㄨˇ。",
+      "輕佻的佻讀ㄊㄧㄠˊ，原印D正確。"
+    ]
+  },
+  "protectedWords": [
+    "ㄌㄧㄠˊ",
+    "ㄌㄧㄠˋ",
+    "ㄔㄨㄥˊ",
+    "ㄔㄨㄤˊ",
+    "ㄆㄨˇ",
+    "ㄅㄨˇ",
+    "ㄊㄧㄠˊ",
+    "輕佻",
+    "瞭望"
+  ],
+  "nativeArt": "assets/comics/q-1050-art-193059545b.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-10T14:20:26.428154+00:00",
+  "validationFile": "docs/comics/q-1050-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261110/qa/q-1050-app-1440.png",
+      "docs/imports/new-gpt-20261110/qa/q-1050-app-390.png",
+      "docs/imports/new-gpt-20261110/qa/q-1050-standalone-1440.png",
+      "docs/imports/new-gpt-20261110/qa/q-1050-standalone-390.png"
+    ],
+    "comicViews": [
+      "/tmp/weirugo-comic-checks/q-1050-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1050-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1050-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1050-standalone-390.png"
+    ],
+    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
+  }
+}

@@ -2,10 +2,23 @@ import {escapeHTML as e,safeAsset} from './core.js';
 import {wrapComicText} from './comic-wrap.js';
 import {renderComicDiagram} from './comic-diagram.js';
 
+function renderPanelImage(src,alt,index) {
+ const single=index===undefined;
+ return `<div class="comic-art${single?' comic-art-single':''}"><img src="${e(src)}" alt="${e(alt)}"${single?'':` style="--panel:${index}"`} loading="lazy"></div>`;
+}
+
 export function renderTeachingComic(c) {
  if(!c || !safeAsset(c.art))return '';
  const words=Array.isArray(c.protectedWords)?c.protectedWords:[];
- return `<section class="native-comic" aria-label="${e(c.title)}" data-protected-words="${e(JSON.stringify(words))}"><div class="comic-grid">${c.panels.map((p,i)=>{const diagram=renderComicDiagram(p.diagram);return `<section class="comic-cell${diagram?' has-diagram':''}">${p.caption?`<p class="comic-caption comic-text">${e(p.caption)}</p>`:''}${diagram||`<div class="comic-art"><img src="${e(c.art)}" alt="${e(p.alt)}" style="--panel:${i}" loading="lazy"></div>`}<div class="comic-copy"><h4 class="comic-text">${e(p.heading)}</h4><p class="comic-text">${e(p.text)}</p></div></section>`}).join('')}<section class="comic-cell comic-recap"><h4 class="comic-text">④ ${e(c.title)}</h4><p class="comic-answer comic-text">${e(c.fourth.answer)}</p><ul>${c.fourth.points.map(t=>`<li class="comic-text">${e(t)}</li>`).join('')}</ul></section></div></section>`;
+ const cells=c.panels.map((p,i)=>{
+  const image=safeAsset(p.image),diagram=image?'':renderComicDiagram(p.diagram);
+  const visual=image?renderPanelImage(image,p.alt):diagram||renderPanelImage(c.art,p.alt,i);
+  return `<section class="comic-cell${diagram?' has-diagram':''}">${p.caption?`<p class="comic-caption comic-text">${e(p.caption)}</p>`:''}${visual}<div class="comic-copy"><h4 class="comic-text">${e(p.heading)}</h4><p class="comic-text">${e(p.text)}</p></div></section>`;
+ });
+ const recapImage=safeAsset(c.fourth.image);
+ const recap=`<h4 class="comic-text">④ ${e(c.title)}</h4><p class="comic-answer comic-text">${e(c.fourth.answer)}</p><ul>${c.fourth.points.map(t=>`<li class="comic-text">${e(t)}</li>`).join('')}</ul>`;
+ cells.push(`<section class="comic-cell comic-recap${recapImage?' has-image':''}">${recapImage?renderPanelImage(recapImage,c.fourth.alt)+`<div class="comic-recap-copy">${recap}</div>`:recap}</section>`);
+ return `<section class="native-comic" aria-label="${e(c.title)}" data-protected-words="${e(JSON.stringify(words))}"><div class="comic-grid">${cells.join('')}</div></section>`;
 }
 
 let comicObserver;

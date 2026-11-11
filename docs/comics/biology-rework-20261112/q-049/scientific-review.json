@@ -1,0 +1,96 @@
+{
+  "questionId": "q-049",
+  "checkedAt": "2026-11-11T16:54:01.118009+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "D",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "長帶狀褐藻藻體、短柄及小型固著器",
+        "首稿葉脈狀紋路會誤導維管判斷，整合前已用imagegen修正",
+        "修正版表面只有自然微皺，無陸生網狀葉脈/花種子"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "低矮扁平葉狀體、二叉分枝",
+        "芽杯連在表面，有芽體而非花朵",
+        "沒有維管莖或高立蘑菇狀生殖體"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "細黑葉柄、扇形小葉",
+        "褐色孢子囊群只在前景葉緣內捲處",
+        "無花種子，沒有把孢子畫在葉中脈上"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "高大單莖、明顯葉痕與細分羽狀葉",
+        "捲曲幼葉而非棕櫚花序",
+        "無花果、毬果或種子",
+        "不因畫得高就判為種子植物"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://tpbg.tfri.gov.tw/ParkMapContent2a7e.html?ID=46",
+      "support": "林試所植物園：蕨類不開花結果、以孢子繁殖，幼葉多捲旋，葉背孢子囊群為辨識重點。"
+    },
+    {
+      "url": "https://fushan.tfri.gov.tw/tw/FushanplantsContent.aspx?id=261&spid=39",
+      "support": "林試所福山植物園筆筒樹資料，列在蕨類，描述圓形孢子囊群。"
+    }
+  ],
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-049-biology-v2-panel-1.png",
+      "sha256": "b4dd434ada7efdc3f73704ea224d3fb0ed74883ff2880731a46179436f22f3b2",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-049-biology-v2-panel-2.png",
+      "sha256": "da6795f57c05a8adf3e52e187cc2cdba259f4542650953208954106c4f7d3dbb",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-049-biology-v2-panel-3.png",
+      "sha256": "ccd57872b0b59c0aadff0440e30f05738a36c4865f7991f93301db5d14a7488f",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-049-biology-v2-panel-4.png",
+      "sha256": "dc0cf70a4136a5bcf71308adb88d6745b5b32cc4434428932e62519ad542077d",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原D與原題不變，只升級圖解；新生成草稿的葉脈誤導於正式整合前修正，不重開已確認原題。",
+  "isolatedPreview": {
+    "passed": true,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "actualViewed": [
+      "/tmp/weirugo-comic-previews/q-049-1440.png",
+      "/tmp/weirugo-comic-previews/q-049-390.png"
+    ],
+    "images": 4,
+    "noDocumentOverflow": true,
+    "noTextLoss": true
+  }
+}

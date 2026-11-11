@@ -58,11 +58,18 @@ def convert(dist, relative):
     dest = source.with_name(source.stem + '-web.webp')
     temporary = dest.with_suffix('.tmp.webp')
     lossless = '-art-' not in source.name
-    subprocess.run(['ffmpeg', '-nostdin', '-hide_banner', '-loglevel', 'error',
-                    '-y', '-i', str(source), '-c:v', 'libwebp',
-                    '-lossless', '1' if lossless else '0', '-quality', '88',
-                    '-compression_level', '6', '-threads', '1',
-                    str(temporary)], check=True)
+    if shutil.which('ffmpeg'):
+        subprocess.run(['ffmpeg', '-nostdin', '-hide_banner', '-loglevel', 'error',
+                        '-y', '-i', str(source), '-c:v', 'libwebp',
+                        '-lossless', '1' if lossless else '0', '-quality', '88',
+                        '-compression_level', '6', '-threads', '1',
+                        str(temporary)], check=True)
+    else:
+        # Local tool environments can provide Pillow without system ffmpeg.
+        # Both encoders preserve original dimensions and the same quality policy.
+        from PIL import Image
+        with Image.open(source) as image:
+            image.save(temporary, format='WEBP', lossless=lossless, quality=88, method=6)
     if temporary.stat().st_size >= source.stat().st_size * .95:
         temporary.unlink()
         return None

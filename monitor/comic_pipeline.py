@@ -257,7 +257,7 @@ def integrated(root, qid):
             scope = set(priority['questionIds'])
             completed = sum(e['id'] in scope and e['state']=='complete' for e in progress['entries'])
             save(root/'monitor/activity.json', {
-                'title': f'54題重作優先：{completed}／{len(scope)}已整合（全題庫{settled}／{len(progress["entries"])}）',
+                'title': f'{priority.get("title", "圖解重作")}：{completed}／{len(scope)}原問已整合（全題庫{settled}／{len(progress["entries"])}）',
                 'detail': f'剛整合{qid}；製作線只領重作清單，其他已製作項目暫存。全新四格依教學效果選用幾何／結構或情境圖，維持WebP與共用資產減量。',
                 'goalStatus': 'active', 'updatedAt': finished})
             return job

@@ -48,7 +48,7 @@ export function validateQuestion(q) {
   if(Array.isArray(q.explanationFigures)) out.explanationFigures=q.explanationFigures.filter(f=>safeAsset(f?.src)).slice(0,15).map(f=>({src:safeAsset(f.src),alt:String(f.alt||'解說示意圖').slice(0,1000),caption:String(f.caption||'').slice(0,1000)}));
   if(q.teachingComic && safeAsset(q.teachingComic.art) && Array.isArray(q.teachingComic.panels) && q.teachingComic.panels.length===3 && Array.isArray(q.teachingComic.fourth?.points)) {
     const c=q.teachingComic,clean=v=>typeof v==='string'?v.slice(0,5000):'';
-    out.teachingComic={art:safeAsset(c.art),title:clean(c.title),panels:c.panels.map(p=>({heading:clean(p?.heading),text:clean(p?.text),alt:clean(p?.alt),...(p?.caption?{caption:clean(p.caption)}:{}),...(sanitizeComicDiagram(p?.diagram)?{diagram:sanitizeComicDiagram(p.diagram)}:{})})),fourth:{answer:clean(c.fourth.answer),points:c.fourth.points.slice(0,5).map(clean)}};
+    out.teachingComic={art:safeAsset(c.art),title:clean(c.title),panels:c.panels.map(p=>({heading:clean(p?.heading),text:clean(p?.text),alt:clean(p?.alt),...(safeAsset(p?.image)?{image:safeAsset(p.image)}:{}),...(p?.caption?{caption:clean(p.caption)}:{}),...(sanitizeComicDiagram(p?.diagram)?{diagram:sanitizeComicDiagram(p.diagram)}:{})})),fourth:{answer:clean(c.fourth.answer),points:c.fourth.points.slice(0,5).map(clean),...(safeAsset(c.fourth.image)?{image:safeAsset(c.fourth.image),alt:clean(c.fourth.alt)}:{})}};
     const words=Array.isArray(c.protectedWords)?[...new Set(c.protectedWords.filter(w=>typeof w==='string'&&w.trim().length>=2&&w.length<=40&&!/[\u0000-\u001f]/u.test(w)).map(w=>w.trim()))].slice(0,50):[];
     if(words.length)out.teachingComic.protectedWords=words;
   }

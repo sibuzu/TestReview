@@ -110,3 +110,41 @@ test('per-comic vocabulary survives validation and protects every name without c
  assert.ok(!html.includes('<img src=x'));
  assert.ok(html.includes('&lt;img'));
 });
+
+test('four independent illustrations survive import and render in every cell',()=>{
+ const data=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url)));
+ const q=structuredClone(data.questions.find(q=>q.teachingComic));
+ q.teachingComic.panels.forEach((panel,index)=>{
+  delete panel.diagram;panel.image=`assets/comics/independent-${index+1}.webp`;
+ });
+ q.teachingComic.fourth.image='assets/comics/independent-4.webp';
+ q.teachingComic.fourth.alt='原題結論的解剖圖';
+ const clean=validateQuestion(q).teachingComic;
+ assert.deepEqual(clean,q.teachingComic);
+ const html=renderTeachingComic(clean);
+ assert.equal((html.match(/comic-art-single/g)||[]).length,4);
+ assert.equal((html.match(/<img /g)||[]).length,4);
+ for(let n=1;n<=4;n++)assert.ok(html.includes(`src="assets/comics/independent-${n}.webp"`));
+ assert.ok(!html.includes('--panel:'));
+ assert.ok(html.includes('comic-recap has-image'));
+ assert.ok(html.includes(q.teachingComic.fourth.answer));
+ assert.ok(html.includes(q.teachingComic.fourth.points[0]));
+});
+
+test('untrusted independent image paths cannot reach comic markup',()=>{
+ const data=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url)));
+ const q=structuredClone(data.questions.find(q=>q.teachingComic));
+ q.teachingComic.panels[0].image='https://evil.test/image.png';
+ q.teachingComic.fourth.image='assets/../private.png';
+ q.teachingComic.fourth.alt='"><img src=x onerror=alert(1)>';
+ const clean=validateQuestion(q).teachingComic;
+ assert.equal(clean.panels[0].image,undefined);
+ assert.equal(clean.fourth.image,undefined);
+ const html=renderTeachingComic(clean);
+ assert.ok(!html.includes('evil.test'));
+ assert.ok(!html.includes('private.png'));
+ assert.ok(!html.includes('onerror'));
+ const direct=renderTeachingComic(q.teachingComic);
+ assert.ok(!direct.includes('evil.test'));
+ assert.ok(!direct.includes('private.png'));
+});

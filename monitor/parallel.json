@@ -1,24 +1,24 @@
 {
-  "mode": "one_comic_producer_one_integrator_scoped_goal",
+  "mode": "biology_four_image_goal",
   "workerLimit": 3,
-  "rootRole": "本次新來源67：18題及18套圖解已核對整合，準備依明確指示commit/push；未重啟已暫停製作線。",
-  "updatedAt": "2026-11-11T15:42:17.766637+00:00",
+  "rootRole": "維護四圖skills、範圍與機動製作q-045；77題面GOAL持續",
+  "updatedAt": "2026-11-11T17:01:13.723522+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "依使用者指示已推送全部14件待發布圖解，發布計數歸零",
-      "state": "complete",
-      "startedAt": null,
+      "title": "首批20原問／80張圖已核驗，發布前檢查與正常push",
+      "state": "publishing",
+      "startedAt": "2026-11-11T17:01:13.722744+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": true,
+      "claimsPaused": false,
       "batchQuestionIds": [],
-      "pauseReason": "本次47題指定範圍已全部完成",
+      "pauseReason": "",
       "activeTask": {
-        "title": "依使用者指示已推送全部14件待發布圖解，發布計數歸零",
-        "state": "complete",
-        "completedAt": "2026-11-10T16:18:37.891281+00:00"
+        "title": "首批20原問／80張圖已核驗，發布前檢查與正常push",
+        "state": "publishing",
+        "startedAt": "2026-11-11T17:01:13.722744+00:00"
       }
     },
     {
@@ -35,26 +35,62 @@
     },
     {
       "lane": 3,
-      "questionId": null,
-      "title": "本範圍全部交稿與整合完成，不再領題",
-      "state": "complete",
-      "startedAt": null,
+      "questionId": "q-101",
+      "title": "生物第15題｜育種需要改變遺傳特性",
+      "state": "running",
+      "startedAt": "2026-11-11T17:01:13.703017+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
-      "claimsPaused": true,
+      "claimsPaused": false,
       "batchQuestionIds": [],
-      "pauseReason": "本次47題指定範圍已全部完成",
-      "activeTask": {
-        "title": "本範圍全部交稿與整合完成，不再領題",
-        "state": "complete",
-        "completedAt": "2026-11-09T16:21:10.823397+00:00"
-      }
+      "pauseReason": "",
+      "activeTask": null
     }
   ],
-  "ready": [],
-  "integrated": 977,
+  "ready": [
+    {
+      "id": "q-050",
+      "title": "生物第46題｜從遺傳疾病文章判斷",
+      "subject": "Biology",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-11T16:55:16.467452+00:00",
+      "owner": "/root/comic_lane_3",
+      "reworkPlan": "docs/comics/biology-rework-20261112/plan.json",
+      "jobId": "job-69199dcf1dff4f0b88f6c6f757d9678a",
+      "readyAt": "2026-11-11T16:59:44.815702+00:00",
+      "decision": "complete",
+      "reason": "四張類真實生物圖為腦/脊髓、DNA、細胞核染色質、樣本檢測；原文章/A答案/44+2=46說明保留，不讓模型猜染色體數目或以患者外觀表徵疾病。科學核對與隔離三寬通過，實看桌手機。",
+      "evidence": [
+        "docs/comics/q-050.json",
+        "docs/comics/q-050-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-050/scientific-review.json"
+      ]
+    }
+  ],
+  "integrated": 997,
   "blocked": [],
-  "waiting": [],
+  "waiting": [
+    {
+      "id": "q-050",
+      "title": "生物第46題｜從遺傳疾病文章判斷",
+      "subject": "Biology",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-11T16:55:16.467452+00:00",
+      "owner": "/root/comic_lane_3",
+      "reworkPlan": "docs/comics/biology-rework-20261112/plan.json",
+      "jobId": "job-69199dcf1dff4f0b88f6c6f757d9678a",
+      "readyAt": "2026-11-11T16:59:44.815702+00:00",
+      "decision": "complete",
+      "reason": "四張類真實生物圖為腦/脊髓、DNA、細胞核染色質、樣本檢測；原文章/A答案/44+2=46說明保留，不讓模型猜染色體數目或以患者外觀表徵疾病。科學核對與隔離三寬通過，實看桌手機。",
+      "evidence": [
+        "docs/comics/q-050.json",
+        "docs/comics/q-050-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-050/scientific-review.json"
+      ]
+    }
+  ],
   "integrating": [],
   "held": [],
   "integrationLimit": 1,

@@ -1,5 +1,5 @@
 // Browser checks for an explicitly selected, visually reviewed comic batch.
-const {chromium}=require('/home/jack/ai/Chemery/node_modules/playwright');
+const {chromium}=require(require.resolve('playwright',{paths:[require('node:path').resolve(__dirname,'../../.cache/qa-tools/node_modules'),'/home/jack/ai/Chemery/node_modules']}));
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
@@ -15,14 +15,18 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
   await require('./test-session.cjs').installTestSession(page);
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/.netlify/functions/marks**',r=>r.abort());
+  const data=JSON.parse(fs.readFileSync(path.join(root,'site/dist/data.json')));
   for(const id of ids)for(const standalone of [false,true]){
+   const parent=data.questions.find(q=>q.id===id||q.groupQuestions?.some(c=>c.id===id));
+   assert.ok(parent,id+' published original or group member');
+   const comicSelector=parent.groupQuestions?`.group-answer[data-group-answer="${id}"] .native-comic`:'.native-comic';
    await page.setViewportSize({width:1440,height:1000});
-   await page.goto('http://127.0.0.1:8912/site/'+(standalone?id+'.html':'index.html?comic=check#question/'+id));
-   const comic=page.locator('.native-comic');
+   await page.goto('http://127.0.0.1:8912/site/'+(standalone?parent.id+'.html':'index.html?comic=check#question/'+id));
+   const comic=page.locator(comicSelector);
    assert.equal(await comic.isVisible(),false,id+' must start collapsed');
    await page.locator(standalone?'details.review summary':'#answer-toggle').click();
    await comic.scrollIntoViewIfNeeded();
-   await page.waitForFunction(()=>[...document.querySelectorAll('.native-comic .comic-art img')].every(i=>i.complete&&i.naturalWidth>0));
+   await page.waitForFunction(selector=>[...document.querySelectorAll(selector+' .comic-art img')].every(i=>i.complete&&i.naturalWidth>0),comicSelector);
    for(const width of [1440,1120,390]){
     await page.setViewportSize({width,height:1000});
     await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(150);
@@ -43,7 +47,7 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
      overflow:[...c.querySelectorAll('.comic-line')].filter(x=>x.scrollWidth>x.clientWidth+1).map(x=>x.textContent),
      docOverflow:document.documentElement.scrollWidth>innerWidth,
      art:[...c.querySelectorAll('.comic-art')].map(x=>x.clientWidth),
-     artImages:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.naturalWidth,height:i.naturalHeight,src:i.getAttribute('src')})),
+     artImages:[...c.querySelectorAll('.comic-art img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,width:i.naturalWidth,height:i.naturalHeight,src:i.getAttribute('src'),single:i.parentElement.classList.contains('comic-art-single'),paintWidth:i.getBoundingClientRect().width,boxWidth:i.parentElement.getBoundingClientRect().width})),
      diagramTexts:[...c.querySelectorAll('.comic-diagram')].map(el=>el.textContent),
      captionTexts:[...c.querySelectorAll('.comic-caption')].map(el=>el.textContent),
      text:[...c.querySelectorAll('.comic-copy p')].map(x=>x.textContent),
@@ -63,12 +67,14 @@ const shotDir='/tmp/weirugo-comic-checks';fs.mkdirSync(shotDir,{recursive:true})
     }
     assert.ok(result.art.every(w=>w<=180));
     const spec=JSON.parse(fs.readFileSync(path.join(root,'docs/comics',id+'.json')));
-    assert.equal(result.artImages.length,spec.panels.filter(p=>!p.diagram).length,id+' illustration panels match the selected visual mode');
-    const diagrams=spec.panels.filter(p=>p.diagram).map(p=>p.diagram);
+    assert.equal(result.artImages.length,spec.panels.filter(p=>p.image||!p.diagram).length+(spec.fourth.image?1:0),id+' illustration panels match the selected visual mode');
+    const diagrams=spec.panels.filter(p=>p.diagram&&!p.image).map(p=>p.diagram);
     assert.equal(result.diagramTexts.length,diagrams.length,id+' labeled diagram blocks render in both reading views');
     diagrams.forEach((d,n)=>{const expected=[d.title,d.arrow,d.target,d.note,...d.items.flatMap(item=>[item.label,item.detail,item.shortLabel,item.value===undefined?undefined:String(item.value)])].filter(value=>typeof value==='string'&&value.length);for(const value of expected)assert.ok(result.diagramTexts[n].replace(/\s/gu,'').includes(value.replace(/\s/gu,'')),id+' diagram wording, numbers and units preserved: '+value);});
     assert.deepEqual(result.captionTexts.map(t=>t.replace(/\s/gu,'')),spec.panels.filter(p=>p.caption).map(p=>p.caption.replace(/\s/gu,'')),id+' role captions are preserved');
     assert.ok(result.artImages.every(i=>i.loaded&&i.width>0&&i.height>0),id+' image decoding');
+    assert.ok(result.artImages.filter(i=>i.single).every(i=>Math.abs(i.paintWidth-i.boxWidth)<1),id+' independent images remain whole without strip enlargement');
+    if(spec.fourth.image)assert.equal(result.artImages.filter(i=>i.single).length,4,id+' all four actual illustrations are displayed');
     assert.ok(result.artImages.every(i=>i.src&&!i.src.startsWith('data:')),id+' shared assets rather than embedded image copies');
     assert.deepEqual(result.text.map(t=>t.replace(/\s/gu,'')),spec.panels.map(p=>p.text.replace(/\s/gu,'')),id+' must retain all copy');
     const shot=path.join(shotDir,`${id}-${standalone?'standalone':'app'}-${width}.png`);

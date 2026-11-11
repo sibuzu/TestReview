@@ -1,0 +1,122 @@
+{
+  "id": "q-1060",
+  "subject": "Geography",
+  "title": "日本海側冬季大雪",
+  "art": "docs/comics/art/q-1060-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1060-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先找迎風面\n冬季來自亞洲大陸的寒冷季風吹向日本，經過日本海時取得水氣，遇本州山地抬升，在日本海側形成豐富降雪。本題圖（九）丙位於本州的日本海側，選C。\n\n二、不是只比緯度高低\n甲在北海道，雖也有雪，但題目要比較圖中地點的冬季經常性大雪與季風、地形組合；丙的日本海迎風側最具代表。乙位於本州太平洋側，越過山脈的氣流較乾；丁在較南的九州地區，都不如丙符合。\n\n三、完整因果順序\n大陸冷空氣 → 經日本海增添水氣 → 迎風坡抬升冷卻 → 日本海側降雪。不能說冬季大陸季風一開始就暖濕，也不把所有日本沿海都視為相同迎風面。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 冷空氣先經過海面",
+      "text": "冬季大陸寒冷季風通過日本海，從海面取得水氣。",
+      "alt": "冷空氣先經過海面",
+      "diagram": {
+        "kind": "flow",
+        "title": "冷空氣先經過海面",
+        "items": [
+          {
+            "label": "亞洲大陸",
+            "detail": "寒冷氣流",
+            "tone": "blue"
+          },
+          {
+            "label": "日本海",
+            "detail": "增添水氣",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 迎風坡抬升降雪",
+      "text": "濕冷空氣遇本州山地抬升，冷卻後在日本海側形成豐富降雪。",
+      "alt": "迎風坡抬升降雪",
+      "diagram": {
+        "kind": "flow",
+        "title": "迎風坡抬升降雪",
+        "items": [
+          {
+            "label": "日本海側",
+            "detail": "迎風坡抬升",
+            "tone": "blue"
+          },
+          {
+            "label": "山地降雪",
+            "detail": "形成厚積雪",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 核對丙的位置",
+      "text": "丙位於本州日本海側；乙在太平洋側，丁較南。甲雖也有雪，本題選代表性迎風側。",
+      "alt": "核對丙的位置",
+      "diagram": {
+        "kind": "paths",
+        "title": "核對丙的位置",
+        "items": [
+          {
+            "label": "本州日本海側",
+            "detail": "丙",
+            "tone": "blue"
+          },
+          {
+            "label": "太平洋側",
+            "detail": "越山後較乾",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "C 丙"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 丙",
+    "points": [
+      "大陸冷氣流經日本海取得水氣。",
+      "遇山抬升，在日本海側降雪。",
+      "原圖丙最符合，選C。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1060-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1059-1060.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1060-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.091051+00:00",
+  "validationFile": "docs/comics/q-1060-validation.json"
+}

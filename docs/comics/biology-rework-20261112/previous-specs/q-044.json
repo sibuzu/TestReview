@@ -1,0 +1,87 @@
+{
+  "id": "q-044",
+  "subject": "Biology",
+  "title": "用傳導物質找原因，不被運動症狀帶走",
+  "art": "docs/comics/art/q-044.svg",
+  "artMode": "deterministic-svg",
+  "startedAt": "2026-10-28T21:36:58.758218+00:00",
+  "panels": [
+    {
+      "heading": "① 圖A：細胞體與長短突起",
+      "text": "原圖A有細胞體、分枝及長突起，是神經細胞的典型示意。這些外形特徵對應神經訊息傳遞的功能。",
+      "alt": "原生示意神經細胞，具細胞體與長突起和分枝，標圖A；非巴金森特定細胞亞型顯微圖"
+    },
+    {
+      "heading": "② 題幹線索：多巴胺、傳達指令",
+      "text": "題目明說細胞退化後，無法分泌傳導物質，影響大腦指令傳遞。要找的是與神經訊息傳遞相關的細胞。",
+      "alt": "通用化學傳遞示意，釋出端粒子穿過間隙到接收端，非定量或所有神經元皆釋多巴胺的主張"
+    },
+    {
+      "heading": "③ 肌力減退是症狀，不等於肌肉細胞退化",
+      "text": "C的梭形細胞是肌肉細胞。雖然題目提到肌力減退，但問題要依文章明示的病因判斷，不能只看症狀就選C。",
+      "alt": "原圖C式梭形肌肉細胞，與A的長突起作對照，不畫患者或醫療診斷"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：神經細胞",
+    "points": [
+      "文章給的原因：傳導物質與指令傳遞。",
+      "外形核對A的細胞體與長短突起。",
+      "B是血球；C是肌肉；D的多角形細胞也不合線索。"
+    ]
+  },
+  "protectedWords": [
+    "神經細胞",
+    "神經訊息",
+    "細胞體",
+    "傳導物質",
+    "多巴胺",
+    "肌力減退",
+    "肌肉細胞",
+    "多角形細胞"
+  ],
+  "rationale": "原卷完整病因敘述與四細胞圖實看，維持A。核心是細胞形態辨識、神經物質訊息與症狀/原因分開，以可校核原生SVG神經細胞/通用化學傳遞/梭形肌肉比較，不讓AI畫錯微觀構造。僅教本題推論，不把病理敘述擴為臨床診斷或宣稱所有神經元釋多巴胺。",
+  "promptSummary": "原生SVG三格：細胞體長突起神經細胞A、通用化學訊息傳遞、梭形肌肉C的症狀對照。",
+  "answerCheckedAgainst": "原卷4題及四選項必要附圖；A神經細胞與既有確認A；教育雲神經傳導物質、國家實研院神經細胞構造核對基本概念。",
+  "officialReferences": [
+    {
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%A5%9E%E7%B6%93%E5%82%B3%E5%B0%8E%E7%89%A9%E8%B3%AA",
+      "finding": "化學突觸前神經元釋出傳導物質，由後端受體接收。"
+    },
+    {
+      "url": "https://www.niar.org.tw/xcscience/cont?sid=0J193509885517004464&xsmsid=0I148638629329404252",
+      "finding": "神經細胞有細胞體、樹突與軸突等基本結構。"
+    }
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-fluid-v6",
+  "sourceAIUsed": false,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-044-source-e18dc44ca5.jpg",
+      "site/dist/assets/questions/q-044-figure-04a89b9645.jpg"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "原卷A神經、B血球、C梭形肌肉、D多角形細胞核對；題目是依文推論，不在新圖文擴張疾病臨床表現。"
+  },
+  "completedAt": "2026-10-28T21:39:58.219155+00:00",
+  "checkedAt": "2026-10-28T21:43:53.066853+00:00",
+  "visualChecked": true,
+  "artSHA256": "0a36578a23379b76649176c8b6825624d7fbfe7b073faf270d635a473ac5a5b3",
+  "previewValidation": "docs/comics/q-044-preview-validation.json",
+  "visualReview": "實看原生540×180 SVG及1440/390預覽：A有細胞體、分枝與長突起，C為三個梭形細胞；通用化學傳遞釋出至接收端箭頭方向正確，粒子非定量。未畫所有神經元均分泌多巴胺或把題幹症狀推廣成臨床診斷。桌機同列等高、手機自然高，無裁切橫溢；1120亦通過。",
+  "nativeArt": "assets/comics/q-044-art-0a36578a23.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-044-validation.json"
+}

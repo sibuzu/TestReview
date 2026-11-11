@@ -260,6 +260,25 @@ class MonitorTest(unittest.TestCase):
         recent = server.build_status(self.root)['comics']['recent']
         self.assertEqual([e['id'] for e in recent], [f'q-{n:03}' for n in range(1, 6)])
 
+    def test_active_rework_card_uses_new_plan_instead_of_legacy_completions(self):
+        self.write('monitor/rework-priority.json', {'state':'active', 'title':'生物四圖重作',
+            'plan':'docs/comics/rework/plan.json'})
+        self.write('docs/comics/rework/plan.json', {'questionPageCount':2, 'originalQuestionCount':3,
+            'requiredImageCount':12, 'entries':[
+                {'id':'q-001','title':'新規格未完成','subject':'Biology','state':'production'},
+                {'id':'q-002','title':'新規格已驗證','subject':'Math','state':'complete'}]})
+        self.write('docs/comics/progress.json', {'entries':[
+            {'id':'q-001','title':'舊稿已完成','subject':'Biology','date':'2026-10-01','state':'complete'},
+            {'id':'q-002','title':'舊稿已完成','subject':'Math','date':'2026-10-01','state':'complete'}]})
+        card = server.build_status(self.root)['activity']['comicRework']
+        self.assertEqual(card['title'], '生物四圖重作')
+        self.assertEqual([e['state'] for e in card['items']], ['claimed', 'complete'])
+        self.assertEqual(card['items'][0]['mode'], 'biology')
+        self.assertIn('12張', card['description'])
+        self.write('monitor/rework-priority.json', {'state':'complete',
+            'plan':'docs/comics/rework/plan.json'})
+        self.assertNotIn('comicRework', server.build_status(self.root)['activity'])
+
     def test_comic_status_reports_squared_completion_priority(self):
         entries = [dict(id=f'q-{n:03}', subject='Chinese', title=str(n),
                         date='2026-10-01', state='complete' if n < 10 else 'queued') for n in range(100)]

@@ -47,4 +47,12 @@ class GroupMetadataTest(unittest.TestCase):
   self.records[0]['groupQuestions']=[self.children[0],dict(self.records[1])]
   apply_groups(self.records,self.root,self.dest)
 
+ def test_explicitly_removed_parent_lesson_does_not_hide_children(self):
+  self.records[0]['teachingComic']=None
+  for c in self.children:c['teachingComic']={'art':'assets/'+c['id']+'.svg'}
+  self.write({'q-001':self.group});result=apply_groups(self.records,self.root,self.dest)
+  self.assertNotIn('teachingComic',result[0])
+  self.assertEqual(len(result[0]['groupQuestions']),2)
+  self.assertTrue(all(c['teachingComic'] for c in result[0]['groupQuestions']))
+
 if __name__=='__main__':unittest.main()

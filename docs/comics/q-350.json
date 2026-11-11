@@ -1,0 +1,105 @@
+{
+  "id": "q-350",
+  "subject": "Physics-Chemistry",
+  "title": "先數原子種類，不替未知物質加條件",
+  "art": "docs/comics/art/q-350-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 乙含兩種原子",
+      "text": "乙的粒子是○●○，同時有黑、白兩種原子，因此是化合物。不能因三顆原子連在一起，就忽略它有幾種原子。",
+      "alt": "乙○●○，中央黑原子連兩顆白原子。",
+      "image": "docs/comics/art/q-350-four-image-v2-panel-1.svg",
+      "caption": "新製粒子類型圖｜黑與白代表不同原子，不猜元素名稱。"
+    },
+    {
+      "heading": "② 丙只含同一種原子",
+      "text": "丙是○○，雖然兩顆原子連成一個粒子，卻都是同一種原子，仍屬元素，所以D可以確定。",
+      "alt": "丙由兩個相同白原子組成；圖中的1代表原子種類數。",
+      "image": "docs/comics/art/q-350-four-image-v2-panel-2.svg",
+      "caption": "新製粒子類型圖｜判準是種類，不是每粒子只能有一顆。"
+    },
+    {
+      "heading": "③ 甲的組成仍然未知",
+      "text": "原圖只把甲畫成未知物質方框，沒有說是純物質。不能自行加上甲必為純物質，再推甲必為化合物。",
+      "alt": "未分類的物質容器內畫問號，對應原圖未知的甲，未猜其粒子排列。",
+      "image": "docs/comics/art/q-350-four-image-v2-panel-3.svg",
+      "caption": "新製未知物質示意｜容器不表示原題有燒杯或其他新條件。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：丙必為元素",
+    "points": [
+      "乙含兩種原子，是化合物；丙只有一種原子，是元素。",
+      "每個分子有兩顆相同原子，仍然可以是元素。",
+      "甲未說是純物質，A與B的「必」都不能推出。"
+    ],
+    "image": "docs/comics/art/q-350-four-image-v2-panel-4.svg",
+    "alt": "本題關鍵粒子與判準比較的第四張獨立圖。"
+  },
+  "protectedWords": [
+    "質子",
+    "中子",
+    "電子",
+    "原子序",
+    "質量數",
+    "化合物",
+    "原子種類",
+    "元素",
+    "○●○",
+    "○○"
+  ],
+  "generationMethod": "four authored native SVG particle illustrations with count/identity checks",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-350-source-4dd2c68ee0.jpg",
+    "site/dist/assets/questions/q-350-figure-7b20efad29.jpg"
+  ],
+  "answerCheckedAgainst": "甲物質加熱產生乙和丙二種物質，反應如圖(十四)所示，下列推論何者正確？\n（●和○分別代表乙和丙的組成原子。）\n\n(A) 甲必為化合物\n(B) 甲必為混合物\n(C) 乙必為元素\n(D) 丙必為元素\n正確答案：D。丙的粒子只含同一種原子，故丙是元素。\n一、先讀粒子，不先替甲加條件\n圖中乙為○●○，一個粒子含兩種原子，是化合物；丙為○○，雖然每個粒子有兩個原子，但都是同一種原子，所以仍是元素。元素的判準是原子種類，不是每個分子只能有一個原子。因此D可以確定，C不正確。\n\n二、為什麼不能選「甲必為化合物」\n甲只畫成未知物質的方框，題目沒有說它是單一純物質。若甲是可分解的純物質，當然可能是化合物；但它也可能原本就是含有可分解成分的混合物，加熱後得到乙與丙。因此甲可能是化合物，也可能是混合物，A、B的「必」都推不出。\n\n三、與原AI說明的差異\n原AI先加上甲為純物質的前提，選A並認為A、D可能同時成立；這項前提不在題目中。原卷可見黑筆A、紅筆D，本頁依真正的粒子圖與已知條件訂為D，不沿用原AI的額外假設。",
+  "rationale": "實開原卷和四圖形選項/粒子反應，保留原題與已確認答案；四張實際粒子/物質圖，每張教學重點不同，不以文字流程框充數。",
+  "createdAt": "2026-11-11T16:36:28.019013+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T16:36:28.019013+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "checks": [
+      "原卷乙白黑白與丙白白逐一核對",
+      "圖內數字2/1只代表原子種類數，由HTML圖說明確對應",
+      "甲未知不繪造額外粒子反應或偷偷假設純物質",
+      "維持既有D與原AI額外假設的已記錄處理，不重開同項確認"
+    ]
+  },
+  "nativeArt": "assets/comics/q-350-art-61ef7237b0.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:40:41.244321+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-350-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-350-app-390.png",
+      "/tmp/weirugo-comic-checks/q-350-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-350-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T16:40:41.251399+00:00",
+  "validationFile": "docs/comics/q-350-validation.json"
+}

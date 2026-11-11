@@ -1,0 +1,79 @@
+{
+  "id": "q-046",
+  "subject": "Biology",
+  "title": "有方向限制的瓣膜，要看清位置",
+  "art": "docs/comics/art/q-046.svg",
+  "protectedWords": [
+    "瓣膜",
+    "房室瓣",
+    "半月瓣",
+    "手部動脈",
+    "腿部靜脈",
+    "心房",
+    "心室",
+    "大動脈"
+  ],
+  "panels": [
+    {
+      "heading": "① 類比單向通行：瓣膜防止逆流",
+      "text": "本格用腿部靜脈的縱切功能示意，箭頭朝回心方向；瓣膜像單向閘門，幫助防止血液倒流。因此B是有這類構造的位置。",
+      "alt": "精確功能SVG：靜脈瓣尖端朝向回心端，開口容許正向血流，不是血管的完整解剖或尺寸。"
+    },
+    {
+      "heading": "② 心臟裡，要分清兩個交界",
+      "text": "本格由上到下示意心房、心室、大動脈的流向順序。房室瓣在心房與心室間，半月瓣在心室通往大動脈的出口；D、C都有瓣膜。這是功能流程，不是解剖位置圖。",
+      "alt": "程式畫三個分隔區與兩道功能閘，僅表示心房至心室至動脈的流向，非同時瓣膜開閉的時間圖。"
+    },
+    {
+      "heading": "③ 手部動脈本身沒有這種瓣膜",
+      "text": "本格動脈管段內沒有瓣膜，所以A符合沒有的問法。不能把動脈管段與心室出口混為一談：C問的出口正有半月瓣。",
+      "alt": "手部動脈管段功能示意：厚壁管腔通暢，沒有靜脈瓣；箭頭是血流方向，不是因為沒有瓣膜就任意雙向流動。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：手部動脈本身沒有瓣膜",
+    "points": [
+      "先圈題目問沒有，找例外。",
+      "腿部靜脈、房室交界、心室出口都有。",
+      "動脈管段與動脈連接心室的出口不同。"
+    ]
+  },
+  "rationale": "實看第27題原卷及單向阻車柵照片，對照完整四選項維持A。NHLBI核對心臟瓣膜交界，國立醫學博物館核對靜脈瓣回心方向。用精確SVG呈現靜脈瓣、兩心臟交界功能流程及無瓣手部動脈管段；不讓imagegen猜瓣數位置，不替瓣膜關閉期畫成持續通流。第二格僅功能流程，HTML明示不是解剖位置或同時相位；不把動脈無瓣概括至心臟出口。無合適既有AI圖。",
+  "generationMethod": "programmatic SVG for exact valve function schematics",
+  "generatorFile": "docs/comics/q-046-generate.py",
+  "promptSummary": "左腿靜脈瓣向上回心，中房-室-大動脈功能順序有兩交界，右動脈管段無瓣。箭頭/幾何均程式控制，不模擬精確解剖或瓣膜相位。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-046-source-4e0b0e6daa.jpg",
+    "site/dist/assets/questions/q-046-figure-f718e79a8f.jpg"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "note": "心臟瓣膜控制正向，房室與心室至動脈的交界位置。"
+    },
+    {
+      "url": "https://medicalmuseum.health.mil/index.cfm/visit/exhibits/past/visiblyhuman/page_01",
+      "note": "靜脈單向瓣協助血液朝心臟。"
+    }
+  ],
+  "answerCheckedAgainst": "A手部動脈管段無瓣，B腿靜脈瓣，C半月瓣，D房室瓣；不要以動脈無瓣否定其心室出口交界。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T21:40:56.421935+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "3a1ec9984e8c6d350835998f32ecf435038837fe9f35f3039ab6b1a39ee8ef8d",
+  "checkedAt": "2026-10-28T21:45:21.067946+00:00",
+  "validationFile": "docs/comics/q-046-validation.json",
+  "nativeArt": "assets/comics/q-046-art-3a1ec9984e.svg"
+}

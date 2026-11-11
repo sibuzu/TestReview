@@ -16,17 +16,30 @@ def attach(qid):
     spec_path = ROOT / 'docs/comics' / (qid + '.json')
     spec = json.loads(spec_path.read_text())
     assert spec['id'] == qid and len(spec['panels']) == 3
-    art_path = ROOT / spec['art']
-    art = art_path.read_bytes()
-    assert art_path.suffix.lower() in ('.png', '.svg'), 'Use a PNG illustration or an authored SVG diagram.'
-    asset = f'assets/comics/{qid}-art-{hashlib.sha256(art).hexdigest()[:10]}{art_path.suffix.lower()}'
-    (ROOT / 'site/dist' / asset).write_bytes(art)
-    asset = optimize_payload({'art': asset})['art']
-    comic = {
-        'title': spec['title'], 'art': asset,
-        'panels': [{k: p[k] for k in ('heading', 'text', 'alt', 'caption', 'diagram') if k in p} for p in spec['panels']],
-        'fourth': {k: spec['fourth'][k] for k in ('answer', 'points')},
-    }
+    published = {}
+    def publish_image(relative, label):
+        if relative in published:
+            return published[relative]
+        art_path = ROOT / relative
+        art = art_path.read_bytes()
+        suffix = art_path.suffix.lower()
+        assert suffix in ('.png', '.svg', '.webp', '.jpg', '.jpeg'), 'Use a raster illustration or an authored SVG diagram.'
+        asset = f'assets/comics/{qid}-{label}-{hashlib.sha256(art).hexdigest()[:10]}{suffix}'
+        (ROOT / 'site/dist' / asset).write_bytes(art)
+        published[relative] = optimize_payload({'art': asset})['art']
+        return published[relative]
+    asset = publish_image(spec['art'], 'art')
+    panels = []
+    for index, panel in enumerate(spec['panels'], 1):
+        item = {k: panel[k] for k in ('heading', 'text', 'alt', 'caption', 'diagram') if k in panel}
+        if panel.get('image'):
+            item['image'] = publish_image(panel['image'], f'panel-{index}-art')
+        panels.append(item)
+    fourth = {k: spec['fourth'][k] for k in ('answer', 'points')}
+    if spec['fourth'].get('image'):
+        fourth.update(image=publish_image(spec['fourth']['image'], 'panel-4-art'),
+                      alt=spec['fourth'].get('alt', '本題結論圖解'))
+    comic = {'title': spec['title'], 'art': asset, 'panels': panels, 'fourth': fourth}
     if spec.get('protectedWords'):
         comic['protectedWords'] = spec['protectedWords']
     override_path = ROOT / 'docs/complete-questions' / (qid + '.json')
@@ -38,9 +51,26 @@ def attach(qid):
         baseline = next((q.get('explanationFigures', []) or []
                          for q in data['questions'] if q['id'] == qid), [])
     override['explanationFigures'] = retained_figures(qid, override, baseline)
-    override['teachingComic'] = comic
+    if override.get('groupQuestions'):
+        child = next(child for child in override['groupQuestions'] if child['id'] == qid)
+        child['teachingComic'] = comic
+        # A group renders one lesson per original, never another parent lesson.
+        override['teachingComic'] = None
+    else:
+        override['teachingComic'] = comic
     override_path.write_text(json.dumps(override, ensure_ascii=False, indent=2) + '\n')
-    spec.update(nativeArt=asset, layoutVersion='native-fluid-v6',
+    groups_path = ROOT/'docs/question-groups.json'
+    groups = json.loads(groups_path.read_text()) if groups_path.exists() else {}
+    parent_id = next((parent for parent, group in groups.items()
+                      if parent != qid and qid in group['members']), None)
+    if parent_id:
+        parent_path = ROOT/'docs/complete-questions'/(parent_id+'.json')
+        parent = json.loads(parent_path.read_text())
+        child = next(child for child in parent['groupQuestions'] if child['id'] == qid)
+        child['teachingComic'] = comic
+        parent['teachingComic'] = None
+        parent_path.write_text(json.dumps(parent, ensure_ascii=False, indent=2) + '\n')
+    spec.update(nativeArt=asset, layoutVersion='native-four-images-v7' if all(p.get('image') for p in panels) and fourth.get('image') else 'native-fluid-v6',
                 nativeLayout={'width': '100%', 'height': 'auto', 'artWidth': 180,
                               'fontSize': 14, 'equalColumnWidths': True, 'equalHeightWithinRow': True,
                               'independentRowHeights': True, 'singleColumnNaturalHeight': True,

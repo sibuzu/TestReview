@@ -1,0 +1,150 @@
+{
+  "id": "q-952",
+  "subject": "Chinese",
+  "title": "疊字後綴的作用要放回詞內看",
+  "art": "docs/comics/art/q-952-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 不只看ABB外形",
+      "text": "題幹把直刺刺中的刺刺分析為補足形容詞的後綴。要比的是詞內作用，不能看到疊字就全選。",
+      "alt": "直加刺刺的詞語構成與後綴作用標示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "題幹的結構",
+        "items": [
+          {
+            "label": "直＋刺刺",
+            "tone": "blue",
+            "detail": "直表主要特徵。"
+          },
+          {
+            "label": "刺刺｜後綴",
+            "tone": "blue",
+            "detail": "依本題分類，補足描寫語氣。"
+          }
+        ],
+        "arrow": "辨認後兩字的作用"
+      }
+    },
+    {
+      "heading": "② A、B、C仍有字面聯想",
+      "text": "挺可指挺直；騰可聯想到熱氣升騰；漆可聯想到漆黑。本題把這些視為仍有描寫意義的疊字。",
+      "alt": "三個詞各標語意，沒有只靠顏色區分類別。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A、B、C：仍有描寫意義",
+        "items": [
+          {
+            "label": "直挺挺｜挺直、直立",
+            "tone": "blue"
+          },
+          {
+            "label": "熱騰騰｜熱氣升騰",
+            "tone": "gold",
+            "detail": "騰的形象仍可辨識。"
+          },
+          {
+            "label": "黑漆漆｜漆黑",
+            "tone": "blue",
+            "detail": "黑色深濃的描寫。"
+          }
+        ],
+        "target": "不屬本題要找的後綴類",
+        "arrow": "比較後兩字語意"
+      }
+    },
+    {
+      "heading": "③ 瘦巴巴：巴巴補足語氣",
+      "text": "瘦是主要的特徵，巴巴在此作後綴，補足很瘦的樣子。這不表示巴巴在任何詞裡都沒有意義。",
+      "alt": "瘦加巴巴後綴結構及使用範圍明示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "D：與題幹作用相近",
+        "items": [
+          {
+            "label": "瘦＋巴巴",
+            "tone": "blue",
+            "detail": "瘦表主要特徵。"
+          },
+          {
+            "label": "整詞｜很瘦的樣子",
+            "tone": "green",
+            "detail": "巴巴在本詞中作後綴。"
+          }
+        ],
+        "arrow": "結合為形容詞"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：瘦巴巴",
+    "points": [
+      "比較詞內作用，不只比ABB外形。",
+      "巴巴在本詞中作補足描寫的後綴。",
+      "「無意義」限於本題所談的後綴作用。"
+    ]
+  },
+  "protectedWords": [
+    "直刺刺",
+    "刺刺",
+    "直挺挺",
+    "熱騰騰",
+    "黑漆漆",
+    "瘦巴巴",
+    "巴巴",
+    "後綴"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aeb402e-c158-83ee-b603-6444a590bf27",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-057-question-14-43272775d495.png"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "本代理已逐題實看原卷與裁圖，讀完本題、全部選項及必要材料；字音詞義依教育部辭典獨立核對，雙解限制照留。"
+  },
+  "rationale": "題目要辨詞素/後綴的結構作用，使用可選取HTML拆解ABB與義項，比人物身材插畫更能避免把外形當作判準。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-04T15:43:35.991436+00:00",
+  "artSHA256": "362a2a66f791024ce27c165ed45092ce61b398ad239fa3251e96053f186f23e6",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-04T15:51:12.718721+00:00",
+  "previewValidation": "docs/comics/q-952-preview-validation.json",
+  "visualReview": "已實看1440/390成品，ABB後綴拆解和A-C語義聯想直接標示，巴巴無義限定本題詞內作用，D答案正確；三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-952-1440.png",
+      "/tmp/weirugo-comic-previews/q-952-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-952-art-362a2a66f7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-04T15:51:12.561530+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-952-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-952-validation.json"
+}

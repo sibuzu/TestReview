@@ -1,0 +1,122 @@
+{
+  "id": "q-1061",
+  "subject": "Geography",
+  "title": "馬格里布與地中海型生活",
+  "art": "docs/comics/art/q-1061-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1061-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、依題圖定位西北非沿海\n圖（十）的亞特拉斯山脈位於非洲西北部，題幹指其以西的馬格里布。國中區域地理在這裡主要連結北非沿海的地中海型氣候，特徵是夏乾冬雨，選A。\n\n二、氣候的季節變化\n夏季受副熱帶高氣壓影響，較炎熱乾燥；冬半年西風帶影響增強，較易帶來降水。A用生活描述呈現乾燥夏季之後進入較多雨的半年，符合題意；不是說冬季每天必定下雨。\n\n三、排除其餘選項\nB的夏季相當涼爽不符題目的主要區域特徵。C是以牲畜隨乾溼季遷徙的描述，較接近草原遊牧或牧業的季節移動，並非本題最直接的氣候辨識。D每日午後雷陣雨不是本區夏季乾燥特徵。區域內仍有山地與乾燥內陸差異，不能把選項A當作所有柏柏爾居住地完全一致的實況。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 馬格里布在西北非",
+      "text": "題圖的亞特拉斯山脈定位非洲西北部，題幹連結其以西地區。",
+      "alt": "馬格里布在西北非",
+      "diagram": {
+        "kind": "flow",
+        "title": "馬格里布在西北非",
+        "items": [
+          {
+            "label": "亞特拉斯山脈",
+            "detail": "非洲西北部",
+            "tone": "blue"
+          },
+          {
+            "label": "馬格里布",
+            "detail": "地中海沿海區域線索",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 夏乾冬雨配生活",
+      "text": "夏季副熱帶高壓較強，炎熱乾燥；冬半年西風帶帶來較多降雨。",
+      "alt": "夏乾冬雨配生活",
+      "diagram": {
+        "kind": "flow",
+        "title": "夏乾冬雨配生活",
+        "items": [
+          {
+            "label": "夏半年",
+            "detail": "炎熱乾燥",
+            "tone": "blue"
+          },
+          {
+            "label": "冬半年",
+            "detail": "較多陰雨",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 不是天天午後雷雨",
+      "text": "午後常見雷陣雨不符此地的地中海型季節分配；原題最佳描述是A。",
+      "alt": "不是天天午後雷雨",
+      "diagram": {
+        "kind": "paths",
+        "title": "不是天天午後雷雨",
+        "items": [
+          {
+            "label": "判斷重點",
+            "detail": "雨季在冬半年",
+            "tone": "blue"
+          },
+          {
+            "label": "原題A",
+            "detail": "夏乾、之後陰雨半年",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "A 夏乾冬雨"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(A) 夏季炎熱乾燥，但之後就會進入陰雨的半年",
+    "points": [
+      "先定位西北非亞特拉斯一帶。",
+      "地中海型夏乾冬雨。",
+      "選A，不是每天午後雷雨。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1061-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1061-1062.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1061-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.135003+00:00",
+  "validationFile": "docs/comics/q-1061-validation.json"
+}

@@ -1,97 +1,84 @@
 {
   "id": "q-1046",
   "subject": "Physics-Chemistry",
-  "title": "皂化反應物與乙醇的作用",
-  "art": "docs/comics/art/q-1046-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261110/q-1046-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、先分清反應物與幫助混合的物質\n皂化是油脂與強鹼反應，生成脂肪酸鹽（肥皂）和甘油。本題的椰子油提供油脂，氫氧化鈉提供強鹼，因此兩者是主要反應物。\n\n二、乙醇的作用\n油脂與氫氧化鈉水溶液不容易均勻混合。加入乙醇有助兩者接觸；圖中先以玻璃棒攪拌，再邊加熱邊攪拌，也有助反應進行。不能因乙醇有加入蒸發皿，就把它與油脂、氫氧化鈉並列為此皂化反應的主要反應物。\n\n三、逐項判斷\nA將乙醇與氫氧化鈉的角色顛倒。B正確。C漏掉真正的反應物椰子油，卻把它當成幫助混合的物質。D把三者全部視為反應物，也不正確。\n\n四、與酯化區分\n油脂＋氫氧化鈉 → 脂肪酸鈉＋甘油，是皂化；醇與羧酸生成酯和水，才是酯化。先判斷反應物及產物，不只看有無酒精或加熱。",
-  "rationale": "本題教學重點是反應角色、分類、文字聲韻或精確不等式，以可選取HTML條件圖明示原值、正誤與推理，不沿用來源AI圖。",
+  "title": "皂化反應物與幫助混合者要分開",
+  "art": "docs/comics/art/q-1046-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 油脂與強鹼才是反應物",
-      "text": "皂化由椰子油和氫氧化鈉反應，生成脂肪酸鈉和甘油。",
-      "alt": "皂化反應物",
-      "diagram": {
-        "kind": "paths",
-        "title": "皂化反應物",
-        "items": [
-          {
-            "label": "椰子油",
-            "detail": "提供油脂",
-            "tone": "blue"
-          },
-          {
-            "label": "氫氧化鈉",
-            "detail": "提供強鹼",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依條件判斷",
-        "target": "肥皂＋甘油"
-      }
+      "heading": "① 兩種主要反應物",
+      "text": "椰子油提供油脂，氫氧化鈉提供強鹼，兩者發生皂化反應；不能因三種都加入，就說三者都是主要反應物。",
+      "alt": "椰子油及氫氧化鈉兩反應物，乙醇另列；每瓶是bulk物質不代表分子係數",
+      "caption": "新製物質角色示意｜配色辨角色，非原卷用量、液色或操作步驟。",
+      "image": "docs/comics/art/q-1046-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 乙醇負責幫助混合",
-      "text": "油脂與鹼液不易混合，乙醇幫助接觸。加入的物質不一定全部是反應物。",
-      "alt": "角色不能顛倒",
-      "diagram": {
-        "kind": "flow",
-        "title": "角色不能顛倒",
-        "items": [
-          {
-            "label": "乙醇",
-            "detail": "幫助油脂與鹼液混合",
-            "tone": "blue"
-          },
-          {
-            "label": "攪拌、加熱",
-            "detail": "促使反應順利進行",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "② 乙醇幫助接觸混合",
+      "text": "油脂與氫氧化鈉水溶液不容易混合。乙醇幫助兩者接觸，攪拌也有助混合；角色與提供強鹼的NaOH不同。",
+      "alt": "原先油與鹼液分層，乙醇配合攪拌幫助接觸；配色示角色不當作真實液色",
+      "caption": "新製物質角色示意｜配色辨角色，非原卷用量、液色或操作步驟。",
+      "image": "docs/comics/art/q-1046-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 對照四個選項",
-      "text": "A顛倒角色，C把油脂當助劑，D把乙醇也列為反應物；只有B把兩種角色分清。",
-      "alt": "由角色找答案",
-      "diagram": {
-        "kind": "paths",
-        "title": "由角色找答案",
-        "items": [
-          {
-            "label": "反應物",
-            "detail": "椰子油、氫氧化鈉",
-            "tone": "blue"
-          },
-          {
-            "label": "幫助混合",
-            "detail": "乙醇",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依條件判斷",
-        "target": "B"
-      }
+      "heading": "③ 看真正反應與產物",
+      "text": "油脂與強鹼反應後，生成脂肪酸鈉等肥皂成分和甘油。乙醇負責幫助混合，不能替換椰子油或NaOH的角色。",
+      "alt": "油脂三酯鍵在強鹼反應中轉成甘油與脂肪酸鹽；不將乙醇併列主要反應物",
+      "caption": "新製物質角色示意｜配色辨角色，非原卷用量、液色或操作步驟。",
+      "image": "docs/comics/art/q-1046-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(B) 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合",
+    "answer": "答案 B：椰子油、NaOH反應；乙醇幫助混合",
     "points": [
-      "反應物是椰子油與氫氧化鈉。",
-      "乙醇幫助混合，不是此皂化反應的主要反應物。",
-      "油脂＋強鹼 → 肥皂＋甘油。"
-    ]
+      "油脂＋強鹼生成肥皂及甘油。",
+      "下方乙醇是幫助混合，與上方主反應分開。",
+      "A、C顛倒角色，D誤把乙醇也列為主要反應物。"
+    ],
+    "image": "docs/comics/art/q-1046-four-image-v2-panel-4.svg",
+    "alt": "第四圖油與NaOH的主反應箭頭指向肥皂甘油，乙醇在下方作接觸輔助，不併入產物"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1046-art-193059545b.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "OH⁻",
+    "I₂",
+    "IO₃⁻",
+    "NaOH",
+    "CaCO₃",
+    "三酸甘油酯",
+    "乙醇",
+    "酯化反應",
+    "氫氧化鈉"
+  ],
+  "generationMethod": "four authored native SVG apparatus/material/structural-formula diagrams",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-chemistry/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1046-original-c24fd1ed54bd.jpg",
+    "site/dist/assets/questions/q-1046-figure-95bbc3706dab.jpg"
+  ],
+  "answerCheckedAgainst": "圖（七）為小琪進行皂化實驗的部分步驟，則關於圖中蒸發皿內的物質，下列敘述何者正確？\n(A) 椰子油、乙醇為反應物，氫氧化鈉能幫助反應物混合\n(B) 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合\n(C) 乙醇、氫氧化鈉為反應物，椰子油能幫助反應物混合\n(D) 椰子油、乙醇、氫氧化鈉三者均是反應物\n(B) 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合\n一、先分清反應物與幫助混合的物質\n皂化是油脂與強鹼反應，生成脂肪酸鹽（肥皂）和甘油。本題的椰子油提供油脂，氫氧化鈉提供強鹼，因此兩者是主要反應物。\n\n二、乙醇的作用\n油脂與氫氧化鈉水溶液不容易均勻混合。加入乙醇有助兩者接觸；圖中先以玻璃棒攪拌，再邊加熱邊攪拌，也有助反應進行。不能因乙醇有加入蒸發皿，就把它與油脂、氫氧化鈉並列為此皂化反應的主要反應物。\n\n三、逐項判斷\nA將乙醇與氫氧化鈉的角色顛倒。B正確。C漏掉真正的反應物椰子油，卻把它當成幫助混合的物質。D把三者全部視為反應物，也不正確。\n\n四、與酯化區分\n油脂＋氫氧化鈉 → 脂肪酸鈉＋甘油，是皂化；醇與羧酸生成酯和水，才是酯化。先判斷反應物及產物，不只看有無酒精或加熱。",
+  "rationale": "對照實開原卷與必要附圖保留全部原題及既有答案。每格是新的實際器材/物質/結構圖，不以純文字流程框取代，不杜撰原卷數值；四圖各有不同教學作用。",
+  "createdAt": "2026-11-11T16:49:10.346810+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T16:49:10.346810+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checks": [
+      "三酸甘油酯畫3個酯基，氧連接為甘油—O—C(=O)—R",
+      "未將混合幫助誤畫成酯化/乙醇被皂化消耗",
+      "不新增比例、濃度、火源等操作條件"
+    ],
+    "sources": [
+      {
+        "url": "https://www.rsc.org/suppdata/c7/rp/c7rp00133a/c7rp00133a2.pdf",
+        "note": "RSC教學實驗：鹼水解三酸甘油酯生成羧酸鹽與甘油。"
+      }
+    ],
+    "sourceQuestionUnchanged": true
+  },
+  "nativeArt": "assets/comics/q-1046-art-d56f9eec7b.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -103,26 +90,21 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-10T14:20:26.256749+00:00",
-  "validationFile": "docs/comics/q-1046-validation.json",
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:52:46.618084+00:00",
+    "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
     "actualViewed": [
-      "docs/imports/new-gpt-20261110/qa/q-1046-app-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1046-app-390.png",
-      "docs/imports/new-gpt-20261110/qa/q-1046-standalone-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1046-standalone-390.png"
-    ],
-    "comicViews": [
       "/tmp/weirugo-comic-checks/q-1046-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1046-app-390.png",
       "/tmp/weirugo-comic-checks/q-1046-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1046-standalone-390.png"
     ],
-    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
-  }
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T16:52:46.625356+00:00",
+  "validationFile": "docs/comics/q-1046-validation.json"
 }

@@ -1,0 +1,52 @@
+{
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "未知係數先查正負，再判不等號",
+    "art": "assets/comics/q-332-art-ddb35defcb.svg",
+    "panels": [
+      {
+        "heading": "① 正數倍才保持次序",
+        "text": "正數倍不會反轉大小次序。例如a＝2，x＝1、y＝0，原來x＞y，乘後ax＞ay。",
+        "alt": "兩條數線顯示乘以正數2，橘色x/ax都在藍色y/ay右側。",
+        "caption": "新製精確數線／計數圖；數值與條件見本格文字。",
+        "image": "assets/comics/q-332-art-ddb35defcb.svg"
+      },
+      {
+        "heading": "② 負數倍會反轉次序",
+        "text": "取a＝−1，x＝0、y＝1，原來x＜y；乘後ax＝0，ay＝−1，反而有ax＞ay。",
+        "alt": "上數線x在y左側，下數線ax在ay右側；乘負數次序反轉。",
+        "caption": "新製精確數線／計數圖；數值與條件見本格文字。",
+        "image": "assets/comics/q-332-panel-2-art-3c41af8f26.svg"
+      },
+      {
+        "heading": "③ 零不能滿足嚴格不等式",
+        "text": "若a＝0，兩個乘積都變成0，只能相等；0＞0不成立，不能拿a＝0當滿足前提的例子。",
+        "alt": "兩個不同位置乘零後都落到0，兩點重合，沒有嚴格大於。",
+        "caption": "新製精確數線／計數圖；數值與條件見本格文字。",
+        "image": "assets/comics/q-332-panel-3-art-0c4a0e73e3.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 B：×（原敘述錯誤）",
+      "points": [
+        "反例：a＝−1、x＝0、y＝1。",
+        "ax＝0＞−1＝ay成立，但x＞y不成立。",
+        "題目未限a＞0，原敘述不能保證，應打×。"
+      ],
+      "image": "assets/comics/q-332-panel-4-art-fa8de7a09a.svg",
+      "alt": "由本題實際條件總結答案的第四張獨立圖。"
+    },
+    "protectedWords": [
+      "正整數",
+      "不等號",
+      "a＜0",
+      "a＞0",
+      "x＜7",
+      "0＞0",
+      "a＝0",
+      "ax＞ay",
+      "x＞y",
+      "x＜y"
+    ]
+  }
+}

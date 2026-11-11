@@ -146,6 +146,22 @@ def build_status(root=ROOT):
             if priority.get('state') not in ('complete', 'cancelled'):
                 comics['next'] = next_entry([dict(e, state='reserved') if e['id'] in reserved else e
                                              for e in entries if e['id'] in priority_ids])
+    rework_path = root/'monitor/rework-priority.json'
+    if rework_path.exists():
+        priority = read_json(rework_path)
+        relative = Path(priority.get('plan', ''))
+        if priority.get('state') not in ('complete', 'cancelled') and relative.is_relative_to('docs/comics') and '..' not in relative.parts:
+            plan_path = root/relative
+            if plan_path.is_file():
+                plan = read_json(plan_path)
+                paths.extend([rework_path, plan_path])
+                activity = dict(activity, comicRework={
+                    'title': priority.get('title', '四張實際圖解重作'),
+                    'description': f'共{plan.get("questionPageCount", 0)}題面、{plan.get("originalQuestionCount", 0)}原問，需{plan.get("requiredImageCount", 0)}張實際圖解；生物採高品質類真實科學圖。正式桌機、手機驗證並整合後才計完成。',
+                    'items': [dict(id=e['id'], title=e['title'],
+                        state={'production':'claimed', 'validation':'integrating'}.get(e['state'], e['state']),
+                        mode='biology' if e.get('subject')=='Biology' else 'fourImages')
+                        for e in plan.get('entries', [])]})
     questions = data['questions']
     by_id = {q['id']: q for q in questions}
     for parent in questions:

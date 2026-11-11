@@ -1,0 +1,102 @@
+{
+  "id": "q-293",
+  "subject": "Physics-Chemistry",
+  "title": "核內外分開數，鎖定6、7、6",
+  "art": "docs/comics/art/q-293-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 核素符號分上下讀",
+      "text": "左上13是質量數，左下6是原子序。原子序等於質子數；質量數是質子數加中子數。",
+      "alt": "核素X左上13、左下6，以位置區分兩種數字。",
+      "image": "docs/comics/art/q-293-four-image-v2-panel-1.svg",
+      "caption": "新製核素符號圖｜上方質量數13；下方原子序6。"
+    },
+    {
+      "heading": "② 核內兩種粒子分開數",
+      "text": "質子有6個；中子數＝13−6＝7。下方把兩種粒子分列，避免只數核內總數13就以為符合。",
+      "alt": "核內6個有＋的質子及7個無記號中子，下方同樣各列6與7個核對。",
+      "image": "docs/comics/art/q-293-four-image-v2-panel-2.svg",
+      "caption": "新製粒子計數圖｜有＋為質子，無記號○為中子。"
+    },
+    {
+      "heading": "③ 中性原子還有6個電子",
+      "text": "本題未標離子電荷，按中性原子處理，所以電子數也為6。圖中核外六個⊖只示數量，不表示電子層分布。",
+      "alt": "核內6質子7中子、核外6電子；沒有畫電子軌道。",
+      "image": "docs/comics/art/q-293-four-image-v2-panel-3.svg",
+      "caption": "新製原子計數圖｜⊖為電子；位置不作電子層模型。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：質子6、中子7、電子6",
+    "points": [
+      "A與D核內總數同為13，不能只看總數。",
+      "左下原子序6，必須有6個⊕。",
+      "D同時滿足6質子、7中子、6電子。"
+    ],
+    "image": "docs/comics/art/q-293-four-image-v2-panel-4.svg",
+    "alt": "本題關鍵粒子與判準比較的第四張獨立圖。"
+  },
+  "protectedWords": [
+    "質子",
+    "中子",
+    "電子",
+    "原子序",
+    "質量數",
+    "化合物",
+    "原子種類",
+    "元素"
+  ],
+  "generationMethod": "four authored native SVG particle illustrations with count/identity checks",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-293-source-94db3523ae.jpg",
+    "site/dist/assets/questions/q-293-figure-f8ff05af2a.jpg"
+  ],
+  "answerCheckedAgainst": "某元素X的表示法為¹³₆X，若分別以○、⊖、⊕代表中子、電子、質子，則下列何者為X原子的示意圖？（四個圖形選項如附圖。）\n\n(A) 圖（A）\n(B) 圖（B）\n(C) 圖（C）\n(D) 圖（D）\n正確答案：D。核內質子6、中子7，核外電子6；原子序6、質量數13且電中性，皆符合。\n元素符號左下角的6是原子序，代表質子數；左上角的13是質量數，等於質子數加中子數。題目問原子，未標離子電荷，按中性原子處理。\n\n先算三種粒子：質子數＝6；中子數＝13－6＝7；電子數＝質子數＝6。所求組合是質子6、中子7、電子6。\n\n再逐一數原圖，⊕才是質子、無記號○是中子、核外⊖是電子。A為7、6、6；B為7、6、7；C為6、6、7；D為6、7、6，所以選D。\n\nA與D的核內總粒子數都是13，電子數也都是6，只數總數或核外電子無法分辨！必須進一步數出核內的「＋」。左下角6不是中子數，切勿把質子與中子交換。\n\n只有中性原子才能直接用電子數＝質子數；若有離子電荷，還要依失去或得到的電子數另算。",
+  "rationale": "實開原卷和四圖形選項/粒子反應，保留原題與已確認答案；四張實際粒子/物質圖，每張教學重點不同，不以文字流程框充數。",
+  "createdAt": "2026-11-11T16:36:28.019013+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T16:36:28.019013+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "checks": [
+      "程式各圖逐一生成核內6p/7n和核外6e",
+      "A反例7p/6n/6e與D6p/7n/6e差異保留",
+      "未畫電子層或將核外位置當真實軌道"
+    ]
+  },
+  "nativeArt": "assets/comics/q-293-art-1770255250.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:40:41.197824+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-293-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-293-app-390.png",
+      "/tmp/weirugo-comic-checks/q-293-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-293-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T16:40:41.204728+00:00",
+  "validationFile": "docs/comics/q-293-validation.json"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "q-938",
+  "subject": "Civics",
+  "title": "和平區：自治區公職與里長都要列",
+  "art": "docs/comics/art/q-938.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 和平區是山地原住民區",
+      "text": "阿承在臺中市和平區平等里。和平區具有自治地位，與一般行政區的區長任用制度不同。",
+      "diagram": {
+        "kind": "flow",
+        "title": "阿承的戶籍層級",
+        "items": [
+          {
+            "label": "臺中市：直轄市",
+            "tone": "blue"
+          },
+          {
+            "label": "和平區：山地原住民區",
+            "tone": "gold"
+          },
+          {
+            "label": "平等里",
+            "tone": "green"
+          }
+        ],
+        "arrow": "由上往下判斷制度"
+      },
+      "alt": "臺中市、和平區、平等里層級及山地原住民區明標。"
+    },
+    {
+      "heading": "② 市與自治區：A、B、C、D",
+      "text": "先有臺中市長A、市議員B；和平區還能選區長C、區民代表D。依戶籍制度判斷，不是只看個人有無原住民身分。",
+      "diagram": {
+        "kind": "paths",
+        "title": "市與自治區的公職",
+        "items": [
+          {
+            "label": "市層級：A市長、B市議員",
+            "tone": "blue"
+          },
+          {
+            "label": "自治區：C區長、D區民代表",
+            "tone": "purple"
+          }
+        ],
+        "target": "先列出4類地方公職",
+        "arrow": "兩層制度分別適用"
+      },
+      "alt": "中文標示市A/B、自治區C/D，各2類合計4類。"
+    },
+    {
+      "heading": "③ 平等里長I也要選",
+      "text": "別漏平等里的里長I，總共A、B、C、D、I五類。C已是本地區長，不能再把鄉鎮市長G重複加進來。",
+      "diagram": {
+        "kind": "flow",
+        "title": "最後補上里長",
+        "items": [
+          {
+            "label": "A、B、C、D：4類",
+            "tone": "blue"
+          },
+          {
+            "label": "加I：平等里長，合計5類",
+            "tone": "green"
+          }
+        ],
+        "arrow": "把里長加入完整清單"
+      },
+      "alt": "以中文及數字4類加里長I成5類，不使用件數或未標圖示。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A、B、C、D、I：共5類",
+    "points": [
+      "臺中市層級A、B。",
+      "和平自治區層級C、D。",
+      "平等里長I，不重複加G、H。"
+    ]
+  },
+  "protectedWords": [
+    "阿承",
+    "臺中市",
+    "和平區",
+    "平等里",
+    "山地原住民區",
+    "一般行政區",
+    "區民代表",
+    "地方公職",
+    "原住民身分",
+    "依法任用"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "path": "site/dist/assets/originals/src-more-055-original-mi154-9ac8a53a50c4.png",
+    "visualChecked": true
+  },
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+  "rationale": "精確HTML區分市/山地原住民自治區/里三層制度及5類代號，保留只看戶籍制度不只看個人身分的限制，不把C/G或D/H重複算。",
+  "designFile": "docs/comics/q-938-design.txt",
+  "officialReferences": [
+    {
+      "title": "地方制度法第5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=5"
+    },
+    {
+      "title": "地方制度法第58條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=58"
+    },
+    {
+      "title": "地方制度法第59條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=59"
+    },
+    {
+      "title": "地方制度法第83-2條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=83-2"
+    },
+    {
+      "title": "內政部我國地方制度概況",
+      "url": "https://www.moi.gov.tw/cp.aspx?n=674"
+    }
+  ],
+  "legalCheckedAt": "2026-11-04",
+  "artSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:31:34.721964+00:00",
+  "previewValidation": "docs/comics/q-938-preview-validation.json",
+  "visualReview": "已實看原卷與1440/390四格：臺中市/和平山地自治區/平等里逐層明示，A/B與C/D先4類加I成5類，不把G/H重複算；戶籍制度與個人身分分清，角色/箭頭/類數可讀，三寬無溢出、同行等高及手機自然高度。",
+  "nativeArt": "assets/comics/q-938-art-99e3b23e9a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:31:34.567123+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-938-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-938-validation.json"
+}

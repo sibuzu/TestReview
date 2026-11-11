@@ -1,118 +1,74 @@
 {
   "id": "q-963",
   "subject": "Math",
-  "title": "由起始間距與追上時間寫函數",
-  "art": "docs/comics/art/q-963.svg",
-  "layoutVersion": "native-fluid-v6",
+  "title": "追上前的間距由10降到0",
+  "art": "docs/comics/art/q-963-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 先讀軸：y是兩車間距",
-      "text": "橫軸x是時間，單位秒；縱軸y是兩車間距，單位公尺。剛開始相距10公尺，50秒時距離為0，表示甲追上乙。",
-      "diagram": {
-        "kind": "flow",
-        "title": "共圖的兩個確定點",
-        "items": [
-          {
-            "label": "x＝0秒：y＝10公尺",
-            "tone": "blue",
-            "detail": "座標（0，10）。"
-          },
-          {
-            "label": "x＝50秒：y＝0公尺",
-            "tone": "green",
-            "detail": "座標（50，0）：追上。"
-          }
-        ],
-        "arrow": "時間經過50秒，間距縮至0"
-      },
-      "alt": "橫軸秒與縱軸公尺直接標示起始點（0，10）及追上點（50，0）。"
+      "heading": "① 看清y是兩車間距",
+      "text": "共圖經過（0，10）與（50，0）：一開始相距10公尺，50秒時追上。y不是甲或乙的路程。",
+      "alt": "兩車間距圖的原始兩端點0秒10m與50秒0m",
+      "image": "docs/comics/art/q-963-four-image-v2-panel-1.svg",
+      "caption": "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
     },
     {
-      "heading": "② 每秒的間距變化是負的",
-      "text": "50秒內間距由10降到0，改變量為－10公尺。除以50秒，得到每秒－0.2公尺，也就是斜率－1/5。",
-      "diagram": {
-        "kind": "flow",
-        "title": "斜率＝間距變化÷時間變化",
-        "items": [
-          {
-            "label": "間距變化：0－10＝－10公尺",
-            "tone": "blue"
-          },
-          {
-            "label": "時間變化：50－0＝50秒",
-            "tone": "gold"
-          },
-          {
-            "label": "斜率：－10÷50＝－1/5",
-            "tone": "green",
-            "detail": "單位：公尺／秒。"
-          }
-        ],
-        "arrow": "計算同一段時間的變化率"
-      },
-      "alt": "精確列出縱向變化－10公尺、時間50秒及負斜率－1/5公尺每秒。"
+      "heading": "② 間距每秒少0.2公尺",
+      "text": "斜率＝（0−10）÷（50−0）＝−1/5。50秒少10公尺，所以斜率必須是負的。",
+      "alt": "50秒間距減少10m，斜率負0.2m每秒",
+      "image": "docs/comics/art/q-963-four-image-v2-panel-2.svg",
+      "caption": "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
     },
     {
-      "heading": "③ 初值10，加上每秒變化",
-      "text": "截距是開始時的10，故y＝－（1/5）x＋10。再把0秒、50秒代回，兩個端點都吻合，所以選B。",
-      "diagram": {
-        "kind": "paths",
-        "title": "回代驗證B",
-        "items": [
-          {
-            "label": "x＝0：y＝10",
-            "tone": "blue",
-            "detail": "對應一開始相距10公尺。"
-          },
-          {
-            "label": "x＝50：y＝0",
-            "tone": "green",
-            "detail": "對應50秒追上。"
-          }
-        ],
-        "target": "B：y＝－（1/5）x＋10",
-        "arrow": "初值與追上時刻都要符合"
-      },
-      "alt": "B函數代入兩個已知時刻，逐一核對初始間距與追上時刻。"
+      "heading": "③ 用初值加上每秒變化",
+      "text": "初值10，故y＝−（1/5）x＋10，選B。例：30秒時y＝4；50秒時y＝0，都符合。",
+      "alt": "函數30秒時輸出4m間距，確實在下降線段上",
+      "image": "docs/comics/art/q-963-four-image-v2-panel-3.svg",
+      "caption": "新製距離圖｜橫軸秒、縱軸公尺；綠甲、藍乙。"
     }
   ],
   "fourth": {
-    "answer": "答案 B：y＝－（1/5）x＋10",
+    "answer": "答案 B：y＝−（1/5）x＋10",
     "points": [
-      "間距逐漸縮短，所以斜率為負。",
-      "一開始相距10公尺，所以截距為正10。",
-      "此圖描述追上前0至50秒，y不是任何一車的路程。"
-    ]
+      "綠車代表甲、藍車代表乙；第四圖顯示起始間距10公尺。",
+      "斜率−1/5是間距縮短率，不是乙速率2。",
+      "圖只描述0～50秒追上前，不延伸成負距離。"
+    ],
+    "image": "docs/comics/art/q-963-four-image-v2-panel-4.svg",
+    "alt": "第四圖回到起始道路位置，甲在0乙在10，兩者差10m，不是任何一車的路程"
   },
   "protectedWords": [
-    "兩車間距",
-    "追上時間",
-    "變化率",
-    "橫軸",
-    "縱軸",
-    "初始間距",
-    "公尺／秒",
+    "（1/5）",
+    "0～50",
+    "−1/5",
     "（0，10）",
-    "（50，0）",
-    "－1/5",
-    "y＝－（1/5）x＋10"
+    "（50，0）"
   ],
-  "sourceUrl": "https://chatgpt.com/share/6aec9480-acd4-83ec-93b8-0728550cb2a2",
+  "generationMethod": "four authored SVG function/coordinate/road diagrams with computed geometry",
   "originalMaterialsChecked": true,
-  "originalChecked": {
-    "path": "docs/imports/new-gpt-20261105-b/originals/page2-q17-18-common.png",
-    "visualChecked": true
-  },
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-059-page2-q17-7d4811c4ef3c.png",
+    "site/dist/assets/originals/src-more-059-page2-q17-18-diagrams-b0182241467f.png"
+  ],
   "sourceGeneratedArtUsed": false,
-  "generationMethod": "new selectable native HTML mathematics diagrams with exact formulas, Chinese roles, values, units and action arrows; deterministic SVG fallback; imagegenCalls=0",
-  "rationale": "以精確中文HTML標示原共圖的兩軸單位、兩個端點和斜率/截距，逐步形成負斜率函數並代回驗證；不把乙車速率2當間距斜率，不延伸成追上後負距離。",
-  "designFile": "docs/comics/q-963-design.txt",
-  "artSHA256": "9af7be16bacdc5bb05cded77391d7226483119c4df79a00ec9cf0882d0500a22",
+  "answerCheckedAgainst": "若經過x秒，甲、乙兩車的距離為y公尺，請問x與y的關係式為何？\n(A) y＝（1/5）x＋10\n(B) y＝－（1/5）x＋10\n(C) y＝（1/5）x－10\n(D) y＝－（1/5）x－10\n(B) y＝－（1/5）x＋10\n由圖讀出起點與追上時間\n圖（二）在x＝0時，兩車相距10公尺；50秒時相距0公尺，所以線段經過（0，10）與（50，0）。\n距離每秒的改變量＝（0－10）÷（50－0）＝－1/5公尺／秒。初始距離是10，故y＝－（1/5）x＋10，選B。\n\nA、C斜率為正，表示距離隨時間增加，與圖不符。C、D的截距是－10，等於說剛開始的兩車距離為負數，也與10公尺不符。可再用x＝50檢驗B：y＝－10＋10＝0，正好對應追上。\n\ny是兩車之間的距離，不是甲或乙各自移動的路程。乙速率每秒2公尺不是此距離函數的斜率；－1/5表示兩車間距每秒縮短0.2公尺。圖示只描繪追上前0≤x≤50，不能將負距離當作追上後的實際間距。",
+  "rationale": "實看真正原卷與共同附圖，重算全部推導，保持原題/答案；四張實際函數/座標/距離圖配HTML精確條件，不使用文字流程框替代。",
+  "createdAt": "2026-11-11T16:40:51.742383+00:00",
   "visualChecked": true,
-  "checkedAt": "2026-11-05T15:30:40.978736+00:00",
-  "previewValidation": "docs/comics/q-963-preview-validation.json",
-  "visualReview": "已實看1440/390四格，三寬PASS：橫時間秒/縱間距公尺、端點（0，10）（50，0）、斜率－1/5公尺每秒、截距10及B回代皆正確；追上前0至50秒限制保留，未混成甲乙各自路程或乙速率2。HTML標籤/公式/單位/箭頭清楚，桌手機無溢出且同列等高/自然單欄。",
-  "nativeArt": "assets/comics/q-963-art-9af7be16ba.svg",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checkedAt": "2026-11-11T16:40:51.742383+00:00",
+    "checks": [
+      "每個圖的距離/時間/單位保留",
+      "函數圖只畫0≤t≤50，無負距離延伸",
+      "甲乙起點0和10、30秒間距4重算"
+    ],
+    "sourceQuestionUnchanged": true,
+    "commonMaterialsVisualChecked": true
+  },
+  "nativeArt": "assets/comics/q-963-art-f26f70a463.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -125,14 +81,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
     "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:49:42.140544+00:00",
     "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "decision": "complete",
-    "formalAppAndStandaloneQA": true,
-    "previewQAInherited": "docs/comics/q-963-preview-validation.json",
-    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-963-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-963-app-390.png",
+      "/tmp/weirugo-comic-checks/q-963-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-963-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
+  "checkedAt": "2026-11-11T16:49:42.147761+00:00",
   "validationFile": "docs/comics/q-963-validation.json"
 }

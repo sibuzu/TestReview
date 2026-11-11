@@ -11,8 +11,8 @@ root = Path(__file__).resolve().parents[2]
 qid = sys.argv[1]
 assert re.fullmatch(r'q-\d+', qid)
 spec = json.loads((root/'docs/comics'/f'{qid}.json').read_text())
-def image_url(_):
-    path = root/spec['art']
+def image_url(relative):
+    path = root/relative
     return 'data:'+mimetypes.guess_type(path.name)[0]+';base64,'+base64.b64encode(path.read_bytes()).decode()
 dest = Path('/tmp/weirugo-comic-previews')
 dest.mkdir(exist_ok=True)

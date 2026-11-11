@@ -393,3 +393,12 @@ wn report --project PROJECT_ID --title '專案狀態通報' \
 - 2026-11-08較早的Playwright實測紀錄（僅歷史，依上一條停用本批方案）：使用者指出分享頁可用無痕閱讀，要求確認並記錄Playwright方法。遇到程式直連僅回分享摘要／空殼或舊圖片端點失敗，先用Playwright Chromium全新`new_context()`（無登入、無既有cookie）實際開啟，完整捲動後恢復原位置，檢查文字與附件，不直接要求連接使用者Chrome。實測本批三頁完整文字可讀；原卷7／19／29筆仍僅顯示`Uploaded an image`，全部原卷未取得；部分來源AI生成圖可經`/backend-anon/share/<shareId>/file/<fileId>`載入，不能當原卷。可依頁面實際網路請求驗證匿名端點，不能只重試舊`backend-api`端點就判失效。文字可讀、AI圖可讀與真正原卷取得分別記錄；只有實際下載並辨讀原卷才恢復錄題。證據：`docs/acquisition/new-gpt-20261108-playwright.json`。Linux缺瀏覽器函式庫時，可在忽略的`.cache/`解開系統套件並設`LD_LIBRARY_PATH`，不必為此要求sudo或改產品依賴。
 
 - 2026-11-08原圖存取修復已驗證：WORKNERD Windows Chrome需明確指定正在使用的profile（本次為`--profile-directory=Default`）開啟`chrome://inspect/#remote-debugging`，否則多使用者設定會停在「誰在使用Chrome？」而非設定頁。UI確認`Allow remote debugging for this browser instance`為On後，Windows的`DevToolsActivePort`提供loopback端點；用Windows原生Node WebSocket/CDP等待使用者Allow（不使用Playwright、不開放外部埠）。Linux與Windows localhost分開時，可讓Windows Node直接連Windows loopback，透過本機JSONL命令／結果檔控制，避免互動終端輸入卡住與重複授權。登入Chrome的`/api/auth/session`憑證僅在頁面記憶體用於`/backend-api/share/<shareId>/file/<fileId>`下載，不輸出或保存憑證；依封存user attachment fileId逐筆下載並核對大小、SHA及解碼尺寸。此次7／19／29筆全部取得、共36張不同原卷1080×1440，舊未登入404不能推論附件失效。完成後關閉偵錯連線，保留使用者原有視窗與登入狀態。
+
+## 2026-11-12最新收題與生物圖解規則
+
+- 使用者說「add／加入題庫」即包括每題產生**四張實際圖解圖**；第4格不能只有答案文字，四張不能是空白、重複素材或純文字流程框。原題可先上架並註明插畫待製，四張完成及驗證前不把整個收題任務宣稱完成。
+- 生物圖解必須採高品質類真實科學／生物教材插畫，品質參考使用者的 `todo/image.png`：細緻器官／組織材質、立體層次、清晰解剖／剖面與放大結構；不以可愛人物、簡筆線框或文字框代替。依各題選擇合適的生物體、細胞、植物或生態主題，不一律畫肺。
+- 科學正確性與原題條件優先於畫面效果；核對構造連接、瓣膜位置、流向、物種、染色體與數量。中文、數據與精確標示以可校對HTML／原生圖層呈現，生成圖不猜中文；新製插畫不能冒充原卷或實驗實拍。
+- 本次GOAL先盤點所有缺圖題與生物題並重作，每題四圖、完整圖說、原題核對及桌手機QA都完成後才結案。既有略過圖解的理由不自動視為本輪永久豁免；真正缺原題／答案疑義仍保留證據，不猜補。已確認答案不因美術升級重問。
+- 技能真實來源為 `.codex/skills/weirugo-teaching-comics/SKILL.md`，安裝路徑 `/home/jack/.codex/skills/weirugo-teaching-comics` 指向本repo技能；此節取代先前只有前三格圖像、第4格只有文字的要求。數學等非生物精確圖形仍可四張原生SVG，不硬套類真實器官風格。
+- 本輪缺圖須檢查實際呈現，不能只看`teachingComic`存在或舊complete。三格全是文字流程／關係框、沒有實際圖像的舊題也納入；深查後範圍為130題面／140原問／560張圖，詳見本輪plan及text-only-visual-audit.json。這是生物＋缺圖的重作範圍，並非將全題庫所有其他有效舊三圖無條件重做。

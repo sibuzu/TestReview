@@ -1,0 +1,79 @@
+{
+  "id": "q-045",
+  "subject": "Biology",
+  "title": "追蹤誰不變、誰結合，就能判酵素與合成",
+  "art": "docs/comics/art/q-045.svg",
+  "startedAt": "2026-10-28T21:40:18.208885+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先找反應前後保留的甲",
+      "text": "原圖的甲在反應前後都保留，乙、丙則結合成丁。甲是參與反應的酵素，不是被組成產物的受質。",
+      "alt": "綠色有凹槽的酵素與藍圓、橘方兩種受質分開，為形狀配合概念示意，不冒充原題符號比例或真實分子外形。"
+    },
+    {
+      "heading": "② 看配合形狀，理解專一性",
+      "text": "用綠色酵素、橘色受質丙作示意：作用部位與受質形狀相配。原圖甲與丙的結合具有專一性，所以D正確。",
+      "alt": "藍圓與橘方受質分別配入酵素對應凹槽，連線示意在作用部位合成產物，不是細胞吞食。"
+    },
+    {
+      "heading": "③ 兩部分結合成丁，是合成作用",
+      "text": "乙與丙由分開變成結合的丁，並非把大分子拆開。產物離開後，酵素甲仍在，不要把反應方向判成分解。",
+      "alt": "相同綠色酵素保留，藍橘相連的產物離開，對應合成而非分解；顏色由HTML解說，不生成文字。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 形狀、方向、反應前後一起看",
+    "answer": "答案 D：甲與丙結合具有專一性",
+    "points": [
+      "甲是酵素；乙、丙是受質；丁是產物。",
+      "乙、丙結合成丁，屬合成作用。",
+      "甲不被此反應消耗，可再次參與。"
+    ]
+  },
+  "protectedWords": [
+    "酵素",
+    "受質",
+    "產物",
+    "專一性",
+    "合成作用",
+    "分解",
+    "作用部位",
+    "反應方向"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-045-source-ea630e7c29.jpg",
+    "site/dist/assets/questions/q-045-figure-e791d39982.jpg"
+  ],
+  "references": [
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Enzyme",
+      "title": "NHGRI Genetics Glossary：Enzyme",
+      "checkedAt": "2026-10-28T21:40:18.208885+00:00",
+      "supports": "酵素催化細胞化學反應，形成分子或分解分子，作為催化劑不消耗。"
+    }
+  ],
+  "rationale": "原卷與完整三階段附圖實看，甲不變、乙丙結合為丁，D正確、C方向反。為免imagegen畫錯分子結合與反應前後，原生無字SVG畫兩形狀對位與合成，甲乙丙丁及答案留HTML；僅概念比例非原題附圖重製。",
+  "promptSummary": "原生無字SVG：綠色酵素兩凹槽、分開受質、對位結合、相同酵素與相連產物離開。",
+  "generationCalls": 0,
+  "answerCheckedAgainst": "原卷三階段圖與四選項、題庫D，獨立追蹤甲未改變及乙丙合成丁；官方酵素功能核對。",
+  "artSHA256": "fa4e73172d4c09ce49f4c59d7e6279bc60690062d23313c5cb57c2b42f784d99",
+  "visualChecked": true,
+  "checkedAt": "2026-10-28T21:45:21.029354+00:00",
+  "completedAt": "2026-10-28T21:41:47.112421+00:00",
+  "layoutEvidence": "docs/comics/q-045-preview-validation.json",
+  "visualReview": "原卷與三階段原圖實看，D與乙丙合成丁方向一致；原生SVG綠色甲形狀前後完全保留，藍圓橘方分開/配位/相連產物脫離，各圖形大小一致，無字。三寬1440/1120/390實看，詞組完整、無橫溢，同欄同列與手機自然高度通過。",
+  "nativeArt": "assets/comics/q-045-art-fa4e73172d.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-045-validation.json"
+}

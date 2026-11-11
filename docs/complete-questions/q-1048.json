@@ -34,84 +34,53 @@
   "starred": false,
   "diagram": "",
   "teachingComic": {
-    "title": "三酸甘油酯的生成反應",
-    "art": "assets/comics/q-1048-art-193059545b.svg",
+    "title": "反應是否同類，分類名稱也要正確",
+    "art": "assets/comics/q-1048-art-fa13b762f2.svg",
     "panels": [
       {
-        "heading": "① 醇與脂肪酸形成酯",
-        "text": "甘油有三個羥基，與三個脂肪酸形成三個酯鍵；這是酯化。",
-        "alt": "題幹X的類型",
-        "diagram": {
-          "kind": "flow",
-          "title": "題幹X的類型",
-          "items": [
-            {
-              "label": "甘油＋三個脂肪酸",
-              "detail": "原料",
-              "tone": "blue"
-            },
-            {
-              "label": "三酸甘油酯＋三個水",
-              "detail": "生成物",
-              "tone": "gold"
-            }
-          ],
-          "arrow": "核對概念"
-        }
+        "heading": "① 甘油是含三個OH的醇",
+        "text": "甘油的三個羥基可分別與脂肪酸的羧基形成酯鍵。先辨認醇與羧酸的反應，不只看到產生水就選中和。",
+        "alt": "甘油三個碳骨架連三個OH，以藍圈標三個羥基",
+        "caption": "新製官能基結構圖｜R代表烴基，非原題指定脂肪酸種類。",
+        "image": "assets/comics/q-1048-art-fa13b762f2.svg"
       },
       {
-        "heading": "② 同樣生成水，類型仍不同",
-        "text": "乙醇與醋酸生成酯是酯化；NaOH與醋酸生成鹽和水是中和。不能只看水。",
-        "alt": "兩組反應分流",
-        "diagram": {
-          "kind": "flow",
-          "title": "兩組反應分流",
-          "items": [
-            {
-              "label": "乙醇＋醋酸",
-              "detail": "酯＋水 → 酯化",
-              "tone": "blue"
-            },
-            {
-              "label": "NaOH＋醋酸",
-              "detail": "醋酸鈉＋水 → 中和",
-              "tone": "gold"
-            }
-          ],
-          "arrow": "核對概念"
-        }
+        "heading": "② 三個酯鍵並生成三個水",
+        "text": "一個甘油與三個脂肪酸生成一個三酸甘油酯，也生成三個水分子。圖中三條鏈分別有O—C(＝O)—R酯結構。",
+        "alt": "三酸甘油酯三組O—C=O—R酯鍵與旁邊三個水分子；R代表各脂肪酸烴基",
+        "caption": "新製官能基結構圖｜R代表烴基，非原題指定脂肪酸種類。",
+        "image": "assets/comics/q-1048-panel-2-art-0a04e342e4.svg"
       },
       {
-        "heading": "③ 兩句都正確才可選",
-        "text": "A既和X類似，又正確稱為酯化。D雖把中和式分類正確，卻與X不同類，仍不能選。",
-        "alt": "整項判斷",
-        "diagram": {
-          "kind": "paths",
-          "title": "整項判斷",
-          "items": [
-            {
-              "label": "是否與X類似？",
-              "detail": "需同為酯化",
-              "tone": "blue"
-            },
-            {
-              "label": "分類名稱是否正確？",
-              "detail": "也需寫酯化",
-              "tone": "gold"
-            }
-          ],
-          "arrow": "依條件判斷",
-          "target": "A"
-        }
+        "heading": "③ 乙醇與醋酸也是酯化",
+        "text": "A所列反應產生乙酸乙酯與水，產物含酯結構，與題幹X同屬酯化，因此選A；原卷的反應式照留。",
+        "alt": "乙酸乙酯的C(=O)—O—C酯結構被圈出，下方水分子；氧橋接乙基，不是Na鹽",
+        "caption": "新製官能基結構圖｜R代表烴基，非原題指定脂肪酸種類。",
+        "image": "assets/comics/q-1048-panel-3-art-2127f24398.svg"
       }
     ],
     "fourth": {
-      "answer": "(A) 與乙醇和醋酸生成酯及水的反應類似，均為酯化反應",
+      "answer": "答案 A：與乙醇、醋酸的酯化反應同類",
       "points": [
-        "甘油與脂肪酸形成酯鍵，屬酯化。",
-        "乙醇＋醋酸生成酯和水；NaOH＋醋酸屬中和。",
-        "D所列反應雖是中和，卻與題幹X不同類。"
-      ]
-    }
+        "第四圖是中和所得醋酸鈉，不是酯，雖然也生成水。",
+        "B把酯化誤稱中和，C把中和誤稱酯化。",
+        "D所列式本身是中和，但與X不同類，所以不能選D。"
+      ],
+      "image": "assets/comics/q-1048-panel-4-art-cf7363d872.svg",
+      "alt": "第四圖醋酸鈉羧酸根與Na正離子分開示離子關係，沒有酯的O—C乙基連接"
+    },
+    "protectedWords": [
+      "OH⁻",
+      "I₂",
+      "IO₃⁻",
+      "NaOH",
+      "CaCO₃",
+      "三酸甘油酯",
+      "乙醇",
+      "酯化反應",
+      "氫氧化鈉",
+      "O—C(＝O)—R",
+      "酯結構"
+    ]
   }
 }

@@ -1,47 +1,54 @@
 {
   "id": "q-046",
   "subject": "Biology",
-  "title": "有方向限制的瓣膜，要看清位置",
-  "art": "docs/comics/art/q-046.svg",
+  "title": "瓣膜三處有，手部動脈管段沒有",
+  "art": "docs/comics/art/q-046-biology-v2-panel-1.png",
   "protectedWords": [
-    "瓣膜",
+    "腿部靜脈",
+    "手部動脈",
     "房室瓣",
     "半月瓣",
-    "手部動脈",
-    "腿部靜脈",
+    "瓣膜",
     "心房",
     "心室",
-    "大動脈"
+    "二尖瓣",
+    "主動脈瓣"
   ],
   "panels": [
     {
-      "heading": "① 類比單向通行：瓣膜防止逆流",
-      "text": "本格用腿部靜脈的縱切功能示意，箭頭朝回心方向；瓣膜像單向閘門，幫助防止血液倒流。因此B是有這類構造的位置。",
-      "alt": "精確功能SVG：靜脈瓣尖端朝向回心端，開口容許正向血流，不是血管的完整解剖或尺寸。"
+      "heading": "① 腿部靜脈：有靜脈瓣",
+      "text": "圖中左右兩片薄瓣向回心端開放，容許血液向上回心；瓣膜閉合時限制反向倒流。因此B有這種單向構造。",
+      "alt": "新製類真實解剖教學插畫：腿部靜脈縱切，薄壁內一對向上開放的靜脈瓣，中央保持通道；上方是回心端。",
+      "caption": "腿部靜脈｜上方朝心臟；圖示開放期。",
+      "image": "docs/comics/art/q-046-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 心臟裡，要分清兩個交界",
-      "text": "本格由上到下示意心房、心室、大動脈的流向順序。房室瓣在心房與心室間，半月瓣在心室通往大動脈的出口；D、C都有瓣膜。這是功能流程，不是解剖位置圖。",
-      "alt": "程式畫三個分隔區與兩道功能閘，僅表示心房至心室至動脈的流向，非同時瓣膜開閉的時間圖。"
+      "heading": "② 心房、心室間：有房室瓣",
+      "text": "上方心房、下方心室的交界有房室瓣。此圖以左心二尖瓣為例，腱索連到心室內乳突肌；D有瓣膜，不能選。",
+      "alt": "新製類真實解剖教學插畫：左心房在上、左心室在下，交界兩片二尖瓣開放，腱索連至下方心室乳突肌。",
+      "caption": "房室交界｜二尖瓣局部；心房→心室。",
+      "image": "docs/comics/art/q-046-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 手部動脈本身沒有這種瓣膜",
-      "text": "本格動脈管段內沒有瓣膜，所以A符合沒有的問法。不能把動脈管段與心室出口混為一談：C問的出口正有半月瓣。",
-      "alt": "手部動脈管段功能示意：厚壁管腔通暢，沒有靜脈瓣；箭頭是血流方向，不是因為沒有瓣膜就任意雙向流動。"
+      "heading": "③ 心室出口：有半月瓣",
+      "text": "心室通往動脈的出口有半月瓣。此圖以主動脈瓣為例，三片瓣葉附於出口，沒有房室瓣的腱索；C也有瓣膜。",
+      "alt": "新製類真實解剖教學插畫：下方左心室接上方主動脈，出口的三片袋狀半月瓣向壁側開放，沒有腱索。",
+      "caption": "心室出口｜主動脈瓣局部；心室→動脈。",
+      "image": "docs/comics/art/q-046-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "answer": "答案 A：手部動脈本身沒有瓣膜",
+    "answer": "答案 A：手部動脈管段沒有瓣膜",
     "points": [
-      "先圈題目問沒有，找例外。",
-      "腿部靜脈、房室交界、心室出口都有。",
-      "動脈管段與動脈連接心室的出口不同。"
-    ]
+      "第四圖的動脈管腔平滑連通，沒有瓣葉。",
+      "B靜脈瓣、D房室瓣、C半月瓣都有單向功能。",
+      "A是周邊動脈本身；C是心室出口，位置不同。"
+    ],
+    "image": "docs/comics/art/q-046-biology-v2-panel-4.png",
+    "alt": "新製類真實解剖教學插畫：手部位置提示旁，厚壁動脈縱切的平滑管腔沒有瓣葉；手掌只提示部位，不畫血管地圖。"
   },
-  "rationale": "實看第27題原卷及單向阻車柵照片，對照完整四選項維持A。NHLBI核對心臟瓣膜交界，國立醫學博物館核對靜脈瓣回心方向。用精確SVG呈現靜脈瓣、兩心臟交界功能流程及無瓣手部動脈管段；不讓imagegen猜瓣數位置，不替瓣膜關閉期畫成持續通流。第二格僅功能流程，HTML明示不是解剖位置或同時相位；不把動脈無瓣概括至心臟出口。無合適既有AI圖。",
-  "generationMethod": "programmatic SVG for exact valve function schematics",
-  "generatorFile": "docs/comics/q-046-generate.py",
-  "promptSummary": "左腿靜脈瓣向上回心，中房-室-大動脈功能順序有兩交界，右動脈管段無瓣。箭頭/幾何均程式控制，不模擬精確解剖或瓣膜相位。",
+  "rationale": "依使用者2026-11-12四張實際圖與生物類真實品質要求重作。四張新製解剖教學插畫分別呈現腿部靜脈瓣、房室瓣、心室出口半月瓣、手部動脈管段；精確名稱及方向以HTML說明。圖2局部選二尖瓣，圖3局部選主動脈瓣，作為兩種交界的代表。原題、全部選項、A答案及原作答D均保留。",
+  "generationMethod": "built-in image_gen; four independently generated near-realistic biological anatomy illustrations",
   "originalMaterialsChecked": true,
   "originalMaterials": [
     "site/dist/assets/questions/q-046-source-4e0b0e6daa.jpg",
@@ -57,10 +64,10 @@
       "note": "靜脈單向瓣協助血液朝心臟。"
     }
   ],
-  "answerCheckedAgainst": "A手部動脈管段無瓣，B腿靜脈瓣，C半月瓣，D房室瓣；不要以動脈無瓣否定其心室出口交界。",
+  "answerCheckedAgainst": "完整原卷第27題問沒有；A手部動脈管段沒有瓣膜，B腿部靜脈有靜脈瓣，C心室出口有半月瓣，D心房與心室有房室瓣。對照NHLBI與NMHM官方解剖資料。",
   "visualChecked": true,
   "createdAt": "2026-10-28T21:40:56.421935+00:00",
-  "layoutVersion": "native-fluid-v6",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -72,8 +79,31 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "3a1ec9984e8c6d350835998f32ecf435038837fe9f35f3039ab6b1a39ee8ef8d",
-  "checkedAt": "2026-10-28T21:45:21.067946+00:00",
-  "validationFile": "docs/comics/q-046-validation.json",
-  "nativeArt": "assets/comics/q-046-art-3a1ec9984e.svg"
+  "sourceGeneratedArtUsed": false,
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T16:31:04.659186+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-046/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-046/scientific-review.json",
+  "nativeArt": "assets/comics/q-046-art-bf3beb629a-web.webp",
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T16:36:03.502920+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "biologyQualityReference": "todo/image.png",
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-046-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-046-app-390.png",
+      "/tmp/weirugo-comic-checks/q-046-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-046-standalone-390.png"
+    ],
+    "note": "實看原卷、四張類真實科學原圖與正式桌手機雙閱讀版；瓣膜位置與開放方向、酵素合成反應角色核對，原答案和原題完整保留。第四格實際有新圖，非純文字摘要。"
+  },
+  "checkedAt": "2026-11-11T16:36:03.510187+00:00",
+  "validationFile": "docs/comics/q-046-validation.json"
 }

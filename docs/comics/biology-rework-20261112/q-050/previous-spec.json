@@ -1,0 +1,76 @@
+{
+  "id": "q-050",
+  "subject": "Biology",
+  "title": "依文章找證據，再分清遺傳與染色體分類",
+  "art": "docs/comics/art/q-050.png",
+  "protectedWords": [
+    "中樞神經",
+    "體染色體",
+    "性染色體",
+    "基因檢測",
+    "46條",
+    "44條",
+    "2條"
+  ],
+  "panels": [
+    {
+      "heading": "① 文中腦部傷害，支持A",
+      "text": "文章明說腦部傷害，而腦和脊髓構成中樞神經系統。因此依本文判斷，A有明確依據，不用從其他細節自行猜測。",
+      "alt": "正常腦模型用來理解腦屬中樞神經，不把患者外觀或每個病例都畫成相同傷害。"
+    },
+    {
+      "heading": "② 遺傳，不等於接觸傳染",
+      "text": "題幹說的是體染色體隱性遺傳疾病，基因可由親代傳給子代。不能改寫成經一般接觸就把疾病傳給旁人，B把兩者混淆。",
+      "alt": "日常家庭相處，不畫病菌接觸傳播，也不以特殊膚髮色標記患者。"
+    },
+    {
+      "heading": "③ 46條是全部，不是全為體染色體",
+      "text": "一般人體神經細胞共有46條染色體，其中44條是體染色體，另有2條性染色體。C漏看了體染色體這個限定。",
+      "alt": "分類資訊的教學情境，46/44/2的精確數字由HTML表示，不讓AI畫錯染色體數量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：腦屬中樞神經，符合文意",
+    "points": [
+      "先用本文明示的腦部傷害支持A。",
+      "46條全部染色體＝44條體染色體＋2條性染色體。",
+      "基因檢測能提供資訊，不等於檢測本身治癒疾病。"
+    ]
+  },
+  "rationale": "已實看第46題完整原卷文章與四項，核A依腦部傷害文字成立。查MedlinePlus PKU與NHGRI體染色體定義，核遺傳非一般接觸傳染、44+2=46；依本文推論而非無條件宣稱每位患者必有相同症狀，不提供診療建議或羊膜穿刺操作。新圖只有正常模型/家庭/分類，沒有AI細胞與染色體數量、疾病外觀刻板印象或檢測=治癒。無既有AI解說圖。",
+  "sources": [
+    {
+      "title": "MedlinePlus Genetics：Phenylketonuria",
+      "url": "https://medlineplus.gov/genetics/condition/phenylketonuria/"
+    },
+    {
+      "title": "NHGRI：Autosome",
+      "url": "https://www.genome.gov/genetics-glossary/Autosome"
+    }
+  ],
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-050-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-050-source-3e6420860a.jpg"
+  ],
+  "answerCheckedAgainst": "文章已言腦部傷害，腦為中樞神經，A；遺傳非傳染、體染色體44不是46、檢測非治療。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "84f173c3262e8cc28b1492ef2272f8d4280cdf9bcfb24146cc2603e8ea154f53",
+  "createdAt": "2026-10-28T20:50:46.693532+00:00",
+  "checkedAt": "2026-10-28T20:53:02.972532+00:00",
+  "validationFile": "docs/comics/q-050-validation.json",
+  "nativeArt": "assets/comics/q-050-art-84f173c326-web.webp"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "q-941",
+  "subject": "Civics",
+  "title": "對事作決定，分清複決與數據",
+  "art": "docs/comics/art/q-941-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 先分投票對象：是人，還是事",
+      "text": "本題投的是核三運轉政策，不是選出或罷免一位公職人員。",
+      "alt": "核三運轉政策作為投票對象，與公職人員去留的不同直接用中文標示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "本題｜重大政策交付投票",
+        "items": [
+          {
+            "label": "對象｜核三運轉政策",
+            "detail": "這是一項公共事務，不是一個候選人。",
+            "tone": "blue"
+          },
+          {
+            "label": "行為｜表達同意或不同意",
+            "detail": "就交付的政策作出決定。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "由公民投票決定"
+      }
+    },
+    {
+      "heading": "② 創制與複決，不能只看提出兩字",
+      "text": "本案官方分類為重大政策複決。公投不一定只有複決，也不能見到有人提案就把投票都叫創制。",
+      "alt": "創制/複決的動作分別標明，結論限於本題第21案。",
+      "diagram": {
+        "kind": "paths",
+        "title": "分清兩種動作",
+        "items": [
+          {
+            "label": "創制｜提出新的立法原則或政策",
+            "detail": "重點在提出新內容。",
+            "tone": "gold"
+          },
+          {
+            "label": "複決｜對交付事項作決定",
+            "detail": "本題問已交付政策的投票。",
+            "tone": "green"
+          }
+        ],
+        "target": "本題｜複決權D",
+        "arrow": "對照問題所問行為"
+      }
+    },
+    {
+      "heading": "③ 原文保留，數據限制另外釐清",
+      "text": "約434萬票對約151萬票，比值約2.87倍；約七成是有效投票中的同意比例，不能代替全體人民的意見。",
+      "alt": "兩組票數直接標明萬票及比值倍數，另說明母群限制。",
+      "diagram": {
+        "kind": "paths",
+        "title": "原文數值：先看單位與比較對象",
+        "items": [
+          {
+            "label": "同意票｜約434萬票",
+            "detail": "原文為434萬多票。",
+            "tone": "green"
+          },
+          {
+            "label": "不同意票｜約151萬票",
+            "detail": "原文為151萬多票。",
+            "tone": "gold"
+          }
+        ],
+        "target": "434÷151≈2.87倍",
+        "arrow": "計算同意／不同意的比值",
+        "note": "這是同意與不同意的票數比，不能當作全體人民的支持率。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：複決權",
+    "points": [
+      "本題是對政策作決定，不是對人去留投票。",
+      "核三第21案官方列為重大政策複決。",
+      "原文不改；比值與投票母群限制不影響本題D。"
+    ]
+  },
+  "protectedWords": [
+    "複決權",
+    "創制",
+    "複決",
+    "重大政策",
+    "核三",
+    "萬票",
+    "2.87倍",
+    "全體人民"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi195-18dd0e994582.png"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "本題核心是對人/對事、創制/複決行為分類，以及原文比值和母群的精確限制；採全中文標名的HTML流程與數量關係圖，單位明列萬票/倍，避免件數bar或人物場景掩蓋概念。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:19:02.088125+00:00",
+  "artSHA256": "326699c4a2e1d591cfeeb58aa239bd5b6420b7a51bce59d8085fb674e2e541c2",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:31:34.791638+00:00",
+  "previewValidation": "docs/comics/q-941-preview-validation.json",
+  "visualReview": "實看1440/390精確HTML：對人/對事、創制/複決分類，以及434萬票/151萬票/2.87倍皆直接標名，無誤用件數單位；母群限制清楚且原文不改、D保持。三寬無溢出、同行等高及手機自然高度通過。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-941-1440.png",
+      "/tmp/weirugo-comic-previews/q-941-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-941-art-326699c4a2.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:31:34.567123+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-941-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-941-validation.json"
+}

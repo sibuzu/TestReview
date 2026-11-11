@@ -1,126 +1,78 @@
 {
   "id": "q-1042",
   "subject": "Physics-Chemistry",
-  "title": "有沉澱，質量也能保持不變",
-  "art": "docs/comics/art/q-1042-system-boundary.svg",
+  "title": "先看物質有沒有進出量測範圍",
+  "art": "docs/comics/art/q-1042-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 甲：空氣中的氧加入了",
-      "text": "鋼絲絨燃燒時會與空氣中的氧結合。只秤鋼絲絨及留下的燃燒產物，產物多了氧的質量，所以量得的質量增加。",
-      "alt": "甲反應：氧由秤量範圍外加入，固體產物的質量增加。",
-      "diagram": {
-        "kind": "flow",
-        "title": "甲｜比較秤上固體",
-        "items": [
-          {
-            "label": "反應前｜鋼絲絨",
-            "tone": "blue",
-            "detail": "參與反應的氧原本在空氣中。"
-          },
-          {
-            "label": "反應後｜氧化物",
-            "tone": "green",
-            "detail": "留下的產物包含加入的氧，質量增加。"
-          }
-        ],
-        "arrow": "空氣中的氧加入",
-        "note": "完整系統的總質量仍然守恆。"
-      }
+      "heading": "① 甲有外界的氧加入",
+      "text": "甲是鋼絲絨與氧反應。只秤鋼絲絨與留下的氧化物，反應後多了氧的質量，量得會增加。",
+      "alt": "氧分子由藍虛線秤量邊界外加入鋼絲絨，秤上物質增加",
+      "caption": "新製秤量範圍示意｜未指定器材、質量數值或容器大小。",
+      "image": "docs/comics/art/q-1042-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 乙：沉澱仍留在容器內",
-      "text": "兩種溶液反應後有白色沉澱，但物質沒有消失。反應不產生逸出的氣體；依題意不計水蒸發，且沒有濺出等損失時，混合前後的總質量相同。",
-      "alt": "乙反應：兩份溶液變成沉澱和溶液，全部物質仍在容器內。",
-      "diagram": {
-        "kind": "flow",
-        "title": "乙｜比較容器內全部物質",
-        "items": [
-          {
-            "label": "反應前｜碳酸鈉溶液＋氯化鈣溶液",
-            "tone": "blue",
-            "detail": "把兩份溶液的質量合計。"
-          },
-          {
-            "label": "反應後｜碳酸鈣沉澱＋氯化鈉溶液",
-            "tone": "gold",
-            "detail": "沉澱與剩餘溶液都要一起算。"
-          }
-        ],
-        "arrow": "反應生成沉澱，沒有氣體逸出",
-        "note": "沉澱只是析出，仍有質量。"
-      }
+      "heading": "② 乙的沉澱沒有離開",
+      "text": "乙反應產生碳酸鈣白色沉澱與氯化鈉溶液。沉澱仍在容器內，沒有反應氣體逸出，不能把析出當作質量消失。",
+      "alt": "兩份溶液混合後產生仍留在容器內的碳酸鈣白色沉澱，未畫氣體逸出",
+      "caption": "新製秤量範圍示意｜未指定器材、質量數值或容器大小。",
+      "image": "docs/comics/art/q-1042-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 判斷物質有沒有進出",
-      "text": "開放不等於質量一定改變。甲有外界氧加入，秤上固體變重；乙沒有物質離開或加入原本的兩份溶液，能量得前後相同，所以僅乙符合。",
-      "alt": "甲氧氣加入使秤量質量增加，乙物質全留下使總質量不變，答案僅乙。",
-      "diagram": {
-        "kind": "paths",
-        "title": "本題問可量得前後相同",
-        "items": [
-          {
-            "label": "甲｜固體加入外界氧",
-            "tone": "blue",
-            "detail": "固體質量增加，不符合。"
-          },
-          {
-            "label": "乙｜沉澱、溶液都留下",
-            "tone": "green",
-            "detail": "內容物總質量不變，符合。"
-          }
-        ],
-        "arrow": "比較秤量範圍中的物質",
-        "target": "僅乙符合｜選B",
-        "note": "密閉有助避免物質進出；本題乙即使開放仍可符合。"
-      }
+      "heading": "③ 比較前後全部內容物",
+      "text": "題目不計水蒸發，且無濺出等損失時，兩份溶液混合前的總質量，等於反應後溶液加沉澱的總質量。",
+      "alt": "混合前的全部溶液與混合後含沉澱內容物，用平衡秤表示總質量相同",
+      "caption": "新製秤量範圍示意｜未指定器材、質量數值或容器大小。",
+      "image": "docs/comics/art/q-1042-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
     "answer": "答案 B：僅乙",
     "points": [
-      "總質量守恆，要把所有反應物都算入。",
-      "甲有空氣中的氧加入，固體質量增加。",
-      "乙沉澱仍在容器內，不計蒸發且無損失時質量不變。"
-    ]
+      "第四圖上方甲增重，下方乙不變。",
+      "密閉與否不是唯一判準，要看量測範圍的物質進出。",
+      "包含外界參與氧氣的完整反應仍遵守質量守恆。"
+    ],
+    "image": "docs/comics/art/q-1042-four-image-v2-panel-4.svg",
+    "alt": "第四圖並列：上方鋼絲絨因氧加入而增重，下方沉澱反應質量相同"
   },
   "protectedWords": [
-    "鋼絲絨",
-    "碳酸鈉",
-    "氯化鈣",
-    "碳酸鈣",
-    "氯化鈉",
-    "質量守恆"
+    "OH⁻",
+    "I₂",
+    "IO₃⁻",
+    "NaOH",
+    "CaCO₃",
+    "三酸甘油酯",
+    "乙醇",
+    "酯化反應",
+    "氫氧化鈉"
   ],
-  "sourceUrl": "https://chatgpt.com/share/6af1d6de-09f8-83ee-bb43-0897e3964704",
-  "originalMaterialsChecked": true,
-  "originalChecked": {
-    "images": [
-      "site/dist/assets/questions/q-1042-q-1042-original-9637262ce87f.jpg"
-    ],
-    "visualChecked": true,
-    "answer": "B",
-    "notes": "已實開真正原卷本題裁切，逐字核對完整題幹、甲乙反應及ABCD；不改答案，不加入原題未有的測量數值。"
-  },
-  "rationale": "題目關鍵是秤量邊界與物質進出；精確中文流程及對照圖比人物情境更能直接表示氧加入與沉澱留存。",
-  "generationMethod": "全新可選取HTML關係流程圖；SVG保留可編輯系統邊界示意備援。",
+  "generationMethod": "four authored native SVG apparatus/material/structural-formula diagrams",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-chemistry/generate.py",
   "sourceGeneratedArtUsed": false,
-  "producerAgent": "/root/comic_lane_1",
-  "createdAt": "2026-11-09T14:53:16.208949+00:00",
-  "artSHA256": "1299c4e3d09658a25873c4ff444403026faa5dab84f73e335b0acc8ba1a20cb0",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-1042-q-1042-original-9637262ce87f.jpg"
+  ],
+  "answerCheckedAgainst": "下列甲、乙兩種反應中，若不考慮水的蒸發，則何者反應進行時的環境即使不為「密閉」，也能觀察到「反應前、後質量沒有改變」的現象？\n甲．鋼絲絨在空氣中燃燒\n乙．碳酸鈉水溶液與氯化鈣水溶液反應\n(A) 僅甲\n(B) 僅乙\n(C) 甲、乙均可觀察到\n(D) 甲、乙均無法觀察到\n(B) 僅乙\n先分清楚「整個反應的總質量守恆」與「秤上所量範圍內的質量不變」。開放環境若有物質進出量測範圍，秤得的質量就可能改變。\n\n甲：鋼絲絨中的鐵在空氣中燃燒，會與外界氧氣結合生成氧化物。若比較鋼絲絨及留下的燃燒產物，產物多了由空氣加入的氧，量得的質量增加，不符合題目。這並不違反質量守恆；把參與反應的氧氣也列入反應前總質量，前後仍相等。\n\n乙：碳酸鈉與氯化鈣水溶液反應，產生留在容器內的碳酸鈣白色沉澱及氯化鈉水溶液：\nNa₂CO₃(aq)＋CaCl₂(aq) → CaCO₃(s)↓＋2NaCl(aq)\n沉澱只是從溶液中析出，並沒有憑空消失，也沒有反應氣體逸出；題目又排除水的蒸發，所以在無濺出等損失時，兩份溶液混合前的總質量等於反應後內容物總質量。乙即使未密閉，也能觀察到質量不變。\n\n因此僅乙符合，選B；A誤納甲，C把兩者都納入，D則誤以為不密閉必定無法量得前後質量相同。",
+  "rationale": "對照實開原卷與必要附圖保留全部原題及既有答案。每格是新的實際器材/物質/結構圖，不以純文字流程框取代，不杜撰原卷數值；四圖各有不同教學作用。",
+  "createdAt": "2026-11-11T16:49:10.346810+00:00",
   "visualChecked": true,
-  "previewValidation": "docs/comics/q-1042-preview-validation.json",
-  "visualReview": "已實看1440與390隔離四格成品；完整中文流程清楚標氧加入、沉澱留存、秤量邊界，無溢出。三寬自動幾何及換行檢查PASS。",
-  "producerReview": {
-    "reviewerAgent": "/root/comic_lane_1",
-    "originalCropsActuallyViewed": true,
-    "desktopMobileActuallyViewed": true,
-    "screenshots": [
-      "/tmp/weirugo-comic-previews/q-1042-1440.png",
-      "/tmp/weirugo-comic-previews/q-1042-390.png"
-    ]
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T16:49:10.346810+00:00",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "checks": [
+      "氧氣跨入秤量邊界，未指定鋼絲絨氧化物為某固定化學式",
+      "乙CaCO3沉澱留存，沒有畫泡泡/逸氣",
+      "圖無虛構質量與實驗器材已知條件，秤為觀念圖"
+    ],
+    "sources": [],
+    "sourceQuestionUnchanged": true
   },
-  "nativeArt": "assets/comics/q-1042-art-1299c4e3d0.svg",
-  "layoutVersion": "native-fluid-v6",
+  "nativeArt": "assets/comics/q-1042-art-4a865e1207.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -133,18 +85,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
     "reviewerAgent": "/root/comic_lane_1",
-    "checkedAt": "2026-11-09T14:56:54.618582+00:00",
-    "screenshots": [
+    "checkedAt": "2026-11-11T16:52:46.527211+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
       "/tmp/weirugo-comic-checks/q-1042-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1042-app-390.png",
       "/tmp/weirugo-comic-checks/q-1042-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1042-standalone-390.png"
     ],
-    "note": "自行核原卷並製作三組新流程/對照；實看app及單頁1440/390正式四張成品，氧加入、沉澱留存與量測邊界皆清楚，三寬6布局PASS。"
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
-  "validationFile": "docs/comics/q-1042-validation.json",
-  "checkedAt": "2026-11-09T14:56:54.625951+00:00"
+  "checkedAt": "2026-11-11T16:52:46.535061+00:00",
+  "validationFile": "docs/comics/q-1042-validation.json"
 }

@@ -1,0 +1,165 @@
+{
+  "id": "q-943",
+  "subject": "Civics",
+  "title": "先標類別，再沿原格找一條線",
+  "art": "docs/comics/art/q-943-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 本題採教材的三種類別",
+      "text": "南投市、臺東市是縣轄市；嘉義市與縣同類。不能只看名稱都有「市」就判成同一類。",
+      "alt": "三類地方政府直接標出名稱與本題例子，不只用顏色代號。",
+      "diagram": {
+        "kind": "paths",
+        "title": "每一類都有名稱",
+        "items": [
+          {
+            "label": "① 直轄市",
+            "detail": "例：新北市、桃園市、臺北市。",
+            "tone": "blue"
+          },
+          {
+            "label": "② 縣、市",
+            "detail": "例：花蓮縣、嘉義市。",
+            "tone": "green"
+          },
+          {
+            "label": "③ 鄉、鎮、縣轄市",
+            "detail": "例：麟洛鄉、臺東市、南投市。",
+            "tone": "gold"
+          }
+        ],
+        "target": "作法｜先把原格各地標成①②③",
+        "arrow": "按行政區種類分類"
+      }
+    },
+    {
+      "heading": "② 最右直排，三類剛好不同",
+      "text": "丙填臺北市後，最右直排從上到下就是縣轄市、縣、直轄市，符合題目要求。",
+      "alt": "最右直排的右上、右中、右下位置與三類標記一一對應。",
+      "diagram": {
+        "kind": "flow",
+        "title": "C的最右直排｜由上往下讀",
+        "items": [
+          {
+            "label": "右上｜南投市③",
+            "detail": "縣轄市。",
+            "tone": "gold"
+          },
+          {
+            "label": "右中｜花蓮縣②",
+            "detail": "縣。",
+            "tone": "green"
+          },
+          {
+            "label": "右下｜臺北市①",
+            "detail": "丙填入的直轄市。",
+            "tone": "blue"
+          }
+        ],
+        "arrow": "同一直排向下",
+        "note": "③、②、①三種都不同。"
+      }
+    },
+    {
+      "heading": "③ 核對C的三個填入值",
+      "text": "C依序填嘉義市、臺南市、臺北市。只要其中一直排或橫排符合，不必每排都不同，也不自行加入斜線。",
+      "alt": "甲、乙、丙的原位置與C填入地名直接標明，連回符合條件的直排。",
+      "diagram": {
+        "kind": "paths",
+        "title": "C｜甲、乙、丙依序填入",
+        "items": [
+          {
+            "label": "甲｜嘉義市②",
+            "detail": "原格左上。",
+            "tone": "green"
+          },
+          {
+            "label": "乙｜臺南市①",
+            "detail": "原格正中央。",
+            "tone": "blue"
+          },
+          {
+            "label": "丙｜臺北市①",
+            "detail": "原格右下，完成最右直排。",
+            "tone": "blue"
+          }
+        ],
+        "target": "檢查｜最右直排③②①符合",
+        "arrow": "回到原格位置核對"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：嘉義市、臺南市、臺北市",
+    "points": [
+      "南投市是縣轄市，不是南投縣。",
+      "C讓最右直排集齊三類，不要求每條線都不同。",
+      "這是教材類別，不是把直轄市與縣視為上下隸屬。"
+    ]
+  },
+  "protectedWords": [
+    "南投市",
+    "臺東市",
+    "嘉義市",
+    "花蓮縣",
+    "臺北市",
+    "臺南市",
+    "麟洛鄉",
+    "最右直排",
+    "縣轄市",
+    "直轄市"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi239-eef83a845712.png"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "核心是原格位置與行政區類別，採可選取HTML分類及具右上/右中/右下標示的精確直排圖；不以動漫人物或未標示色塊替代必要位置關係。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:24:51.114972+00:00",
+  "artSHA256": "3bea85fae6e2cc0ce39b1eece1c6637ba2de1e2cf2dcaff1e07310f12153bf1e",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:32:11.515189+00:00",
+  "previewValidation": "docs/comics/q-943-preview-validation.json",
+  "visualReview": "實看1440/390精確中文分類及定位圖，最右直排右上南投市③/右中花蓮縣②/右下臺北市①及甲乙丙位置皆對原圖，不用未標色塊推測。C、教材分類與不加斜線條件保持；三寬無溢出、同行等高與手機自然高度。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-943-1440.png",
+      "/tmp/weirugo-comic-previews/q-943-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-943-art-3bea85fae6.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:32:11.509349+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-943-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-943-validation.json"
+}

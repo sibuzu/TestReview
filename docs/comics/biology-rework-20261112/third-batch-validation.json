@@ -55,7 +55,12 @@
   ],
   "groupCompatibility": "q581三child各4張新圖、父無重複comic；q582/q583舊網址與標記ID保留。",
   "rawRasterPolicy": "生成原PNG與raster QA留本機/備份且排除Git；部署只引用WebP/SVG；使用者todo/image.png是品質參考另保留。",
-  "publication": "prepared for authorized twenty-event normal commit/push",
+  "publication": {
+    "commit": "495dacbc22620f8f0d59098f8225edbd461df7f1",
+    "remoteVerified": true,
+    "batchNumber": 35,
+    "formalOriginalQuestions": 20
+  },
   "executionControl": {
     "changedAt": "2026-11-11T18:57:46.761749+00:00",
     "mode": "missing_only",
@@ -197,5 +202,11 @@
       "q-1066-art-62f6de3cdc.svg"
     ],
     "afterCurateAndPruneMissing": 0
-  }
+  },
+  "cumulative": {
+    "questionPages": 57,
+    "originalQuestions": 60,
+    "images": 240
+  },
+  "remainingActiveMissingOriginals": 5
 }

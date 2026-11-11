@@ -1,0 +1,102 @@
+{
+  "id": "q-729",
+  "subject": "English",
+  "title": "分清過去時間點與延伸至今的範圍",
+  "art": "docs/comics/art/q-729-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 先看原題有has finished",
+      "text": "原題確實保留has。in 2015是特定且已結束的過去時間；若要說2015年完成，通常改用finished，不擅刪原題has。",
+      "caption": "新製時間圖｜2015是原選項，不替原題指定完成日期。",
+      "alt": "日曆2015與現在分開，in2015標在已結束的過去一點，不把它當現在完成式的自然搭配",
+      "image": "docs/comics/art/q-729-four-image-v2-panel-1.svg"
+    },
+    {
+      "heading": "② two years ago也是過去時間點",
+      "text": "two years ago指距現在兩年前，通常搭過去式。for two years ago又把期間for與ago時間點混在一起，不合本題。",
+      "caption": "新製時間圖｜Now只表示說話當下，沒有套入今年年份。",
+      "alt": "距現在兩年前是特定過去時間，兩年長度只來自原選項two years ago",
+      "image": "docs/comics/art/q-729-four-image-v2-panel-2.svg"
+    },
+    {
+      "heading": "③ since 2008給的是至今範圍",
+      "text": "四項依教材時間搭配預期C，但has finished原句不自然。只能理解為2008以來範圍內已完成，不能說一直持續完成。",
+      "caption": "星號只示一個已完成事件，不代表已知發生年，也非連續完成。",
+      "alt": "since2008表示2008以來到現在的範圍，星號只示已完成事件，不示確切年份或持續完成",
+      "image": "docs/comics/art/q-729-four-image-v2-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "本題預期 C：since 2008",
+    "points": [
+      "A、B是明確過去時間，D的for…ago不合此句。",
+      "三條圖各自比較時間點或範圍，不據此比較A、B的遠近。",
+      "finish是完成事件，不能誤教成從2008一直進行完成。"
+    ],
+    "image": "docs/comics/art/q-729-four-image-v2-panel-4.svg",
+    "alt": "第四圖區分A與B特定過去時間點與C至今範圍；已完成事件不是從2008一直不停完成"
+  },
+  "protectedWords": [
+    "has finished",
+    "since 2008",
+    "in 2015",
+    "two years ago",
+    "for two years ago",
+    "完成事件",
+    "原句不自然"
+  ],
+  "generationMethod": "four authored SVG calendar/time-point/interval/event diagrams",
+  "generatorFile": "docs/comics/biology-rework-20261112/q-729/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-729-source-4a8a10f3a8.jpg"
+  ],
+  "answerCheckedAgainst": "Jack has finished his study ________.\n\n(A) in 2015\n(B) two years ago\n(C) since 2008\n(D) for two years ago\n本題預期：(C) since 2008。\n原AI判A正確並宣稱整卷全對，但原文確實有has finished。明確過去時間in 2015、two years ago不宜直接接此現在完成式；若要表在2015完成，應寫Jack finished his study in 2015。題幹照留，不擅刪has。\n\n本題四項依完成式時間搭配預期C。不過原句不算自然，finish是完成事件；since 2008只能理解為2008以來的範圍內已完成，不能誤譯成從2008一直持續「完成」學業。原題用語及AI誤答另列核對。",
+  "rationale": "實開原卷保留has finished和四選項、既有教材C及原句不自然的限制。四張時間圖實際區分年份日曆、距今過去點、至今區間與單一已完成事件，不用純文字流程框，不把finish誤畫成多年持續動作。既有核對卡已結案不重問。",
+  "createdAt": "2026-11-11T17:26:22.434558+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "checks": [
+      "實開原卷可見has finished，沒有擅刪has",
+      "只用原選項2008、2015、two years，不加確切完成日",
+      "星號是已完成事件概念例、無對應數值日期，不畫多年連續完成",
+      "A與B用分開時間線，只示過去時間點，不捏造兩者相對遠近",
+      "既有correction-q-729-0f59d056e4c5 resolved，保留現有C與措辭限制，不重開同項確認"
+    ]
+  },
+  "nativeArt": "assets/comics/q-729-art-35aea4213b.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:34:19.807066+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-729-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-729-app-390.png",
+      "/tmp/weirugo-comic-checks/q-729-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-729-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T17:34:19.814887+00:00",
+  "validationFile": "docs/comics/q-729-validation.json"
+}

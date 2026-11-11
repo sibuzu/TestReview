@@ -1,0 +1,80 @@
+{
+  "id": "q-750",
+  "subject": "English",
+  "title": "過去問句用did，後面do維持原形",
+  "art": "docs/comics/art/q-750-four-image-v2-panel-1.png",
+  "panels": [
+    {
+      "heading": "① 問的是上週六",
+      "text": "last Saturday表示上週六，Jessie詢問Gloria那時做了什麼，不是現在習慣或此刻正在做的事。",
+      "caption": "Jessie與Adam回想Gloria上週六的活動。",
+      "alt": "Jessie詢問Adam，上方回憶泡泡呈現不同人物Gloria游泳。",
+      "image": "docs/comics/art/q-750-four-image-v2-panel-1.png"
+    },
+    {
+      "heading": "② went也指向過去",
+      "text": "Adam回答She went swimming.，went是go的過去式，和last Saturday的過去時間一致。",
+      "caption": "游泳動作是回想中的過去活動，不是未來安排。",
+      "alt": "Gloria獨自在泳池泳道游泳，與對話場景分開呈現，沒有比賽或時刻。",
+      "image": "docs/comics/art/q-750-four-image-v2-panel-2.png"
+    },
+    {
+      "heading": "③ did後用原形do",
+      "text": "過去式的一般動作問句用did＋主詞＋原形動詞。題幹已有do，所以空格填did，不能用was直接接do。",
+      "caption": "空白行事曆幫助回想過去，沒有新增實際日期。",
+      "alt": "Adam指向空白行事曆回答，回憶中Gloria在泳池旁拿毛巾；只有兩名對話者在現場。",
+      "image": "docs/comics/art/q-750-four-image-v2-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：did",
+    "points": [
+      "What did Gloria do last Saturday?",
+      "She went swimming.",
+      "問句did承擔過去式；後面的do保留原形。does表現在，is或was不能直接構成本題do問句。"
+    ],
+    "image": "docs/comics/art/q-750-four-image-v2-panel-4.png",
+    "alt": "回想中的Gloria拿著毛巾離開泳池畔，總結上週六去游泳的活動；不新增時間或地點條件。"
+  },
+  "protectedWords": [
+    "last Saturday",
+    "went swimming",
+    "did",
+    "do"
+  ],
+  "generationMethod": "built-in image_gen: four independent detailed colour anime teaching scenes",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-750-source-d62449d73e.jpg"
+  ],
+  "answerCheckedAgainst": "Jessie: What ________ Gloria do last Saturday?\nAdam: She went swimming.\n\n(A) is\n(B) does\n(C) did\n(D) was\n本題預期：(C) did。\nlast Saturday搭過去時間，且回答went也在過去。用did發問，後面的do維持原形。",
+  "rationale": "實開原卷核對完整題目，維持教材預期與已說明的語境限制。四張不同情境圖用來辨識主詞、動作與時間，不增加原題條件。",
+  "createdAt": "2026-11-11T17:49:40.194022+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T17:49:40.194022+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-750/contact.png",
+      "docs/comics/art/q-750-four-image-v2-panel-2.png"
+    ],
+    "checks": [
+      "實開原卷核對C did與全部四選項",
+      "last Saturday與回答went雙重過去線索保持",
+      "不將did後do改成過去式",
+      "第2圖首稿過度重複對話拼圖，已重製成單獨游泳場景並實看",
+      "泳池環境與毛巾為輔助情境，不推論精確日曆日期或比賽"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-750-1440.png",
+      "/tmp/weirugo-comic-previews/q-750-390.png"
+    ]
+  }
+}

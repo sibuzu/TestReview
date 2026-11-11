@@ -1,0 +1,117 @@
+{
+  "questionId": "q-104",
+  "checkedAt": "2026-11-11T17:28:40.234967+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "D",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "兩隻黑毛親代，不畫黑×白",
+        "豚鼠短耳、無長尾，非倉鼠/兔",
+        "Bb由兩黑生白推理，不只看外觀"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "實點數1黑+3白=4隻",
+        "符合原文小樣本25%",
+        "不把25%當固定理論"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "實點數3黑+1白=4個表現型模型",
+        "位置上左BB/上右Bb/下左Bb/下右bb由HTML對應",
+        "明示四等機會模型，非每窩實測保證"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "多於4隻黑白混合豚鼠，清潔寬敞環境",
+        "只作更多觀察情境，不新增題目數據",
+        "不畫假曲線、每隻必黑或單調上升"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "parentGenotypes": [
+      "Bb",
+      "Bb"
+    ],
+    "equallyLikelyAllelePairs": [
+      "BB",
+      "Bb",
+      "bB",
+      "bb"
+    ],
+    "canonicalGenotypes": [
+      "BB",
+      "Bb",
+      "Bb",
+      "bb"
+    ],
+    "blackCombinations": 3,
+    "totalCombinations": 4,
+    "theoryBlackProbability": 0.75,
+    "initialObservedBlack": 1,
+    "initialObservedTotal": 4,
+    "initialObservedFraction": 0.25
+  },
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-104-biology-v2-panel-1.png",
+      "sha256": "baecc96c10a22301fee3cc27d35594d6e798dd97e28f3d02976f04f12cf618de",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-104-biology-v2-panel-2.png",
+      "sha256": "b947941300138419046f034323116a44913f1a19cba0b2d8620bf98f48975a38",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-104-biology-v2-panel-3.png",
+      "sha256": "5e7377db7599e2e79fefaa1aebba7115d5ed4ba9154abb7452c69e5ef85a64a7",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-104-biology-v2-panel-4.png",
+      "sha256": "54c471da6eccb8ef4f48edfceff42069bb4ad7cdcad0a7e338221ba046432b47",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原D/Bb×Bb/小樣本與長期機率範圍保持，只升級四圖，不重問既有確認。",
+  "isolatedPreview": {
+    "passed": true,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "actualViewed": [
+      "/tmp/weirugo-comic-previews/q-104-1440.png",
+      "/tmp/weirugo-comic-previews/q-104-390.png"
+    ],
+    "images": 4,
+    "noDocumentOverflow": true,
+    "noTextLoss": true,
+    "initialCount": [
+      1,
+      3
+    ],
+    "theoryModelCount": [
+      3,
+      1
+    ]
+  }
+}

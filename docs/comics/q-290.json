@@ -1,0 +1,109 @@
+{
+  "id": "q-290",
+  "subject": "Biology",
+  "title": "運動神經與肌肉：分清原卷圖示與疾病",
+  "art": "docs/comics/art/q-290-biology-v2-panel-1.png",
+  "startedAt": "2026-11-11T17:43:09.943528+00:00",
+  "generationMethod": "built-in image_gen; four independently generated near-realistic neuroanatomy teaching illustrations",
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-290-source-6882cccd70.jpg",
+    "site/dist/assets/questions/q-290-figure-9472fdaecf.jpg"
+  ],
+  "rationale": "四張獨立類真實圖分清中樞、運動神經肌接點、肌肉萎縮與整合。原卷預期D與使用者已確認的科學限制皆保持；不以插畫把ALS說成只有丁或所有周圍神經受影響，不重新翻案。",
+  "answerCheckedAgainst": "原卷13題與圖十實看：甲大腦、乙小腦、丙脊髓、丁周圍神經。依已確認原卷預期D；疾病涉及腦及脊髓運動神經元，肌肉失神經支配而萎縮。",
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T17:43:09.943528+00:00",
+  "visualChecked": true,
+  "promptSet": "docs/comics/biology-rework-20261112/q-290/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-290/scientific-review.json",
+  "protectedWords": [
+    "運動神經元",
+    "腦與脊髓",
+    "骨骼肌",
+    "周圍神經",
+    "D（丁）"
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-four-images-v7",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-290-source-6882cccd70.jpg",
+    "visualChecked": true
+  },
+  "panels": [
+    {
+      "heading": "① 先辨認中樞：腦與脊髓",
+      "text": "第一圖側面可見上方大腦、後下方小腦，以及腦幹向下接續的脊髓上段。原卷甲、乙、丙分別指大腦、小腦、脊髓；不能因本題選丁，就說腦與脊髓完全不受影響。",
+      "caption": "中樞辨認｜大腦、小腦、腦幹與脊髓上段。",
+      "alt": "新製類真實腦側面插畫：大腦居上、小腦在後下方，腦幹向下連接脊髓上段；非病人檢查影像。",
+      "image": "docs/comics/art/q-290-biology-v2-panel-1.png"
+    },
+    {
+      "heading": "② 運動神經把訊息送到骨骼肌",
+      "text": "第二圖左側為運動神經元，軸突向右延伸並分支，末端與骨骼肌表面形成神經肌接點。神經末端與肌細胞仍是不同構造，不是神經直接變成肌肉。",
+      "caption": "神經肌接點｜左神經元，右有橫紋的骨骼肌。",
+      "alt": "新製類真實運動神經元至骨骼肌放大插畫：左胞體及樹突、中央單一有髓軸突與節間、右側分支末端在肌纖維表面；神經與肌肉未融合。",
+      "image": "docs/comics/art/q-290-biology-v2-panel-2.png"
+    },
+    {
+      "heading": "③ 神經退化，肌肉失去支配而萎縮",
+      "text": "漸凍症涉及腦與脊髓的運動神經元退化，肌肉失去正常神經訊息，逐漸無力、萎縮。第三圖以左較粗、右較細的肌束比較萎縮概念，不是個別病人的前後照片或診斷比例。",
+      "caption": "肌肉比較｜左正常較粗，右萎縮較細。",
+      "alt": "新製類真實肌束質性比較：左側較粗且肌纖維較厚，右側較細且纖維較薄；平行纖維及斜切面可辨，無感染或壞死，不是實測數據。",
+      "image": "docs/comics/art/q-290-biology-v2-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "原卷預期答案 D（丁）",
+    "points": [
+      "第四圖由左至右：腦與脊髓、周圍神經、骨骼肌，分別放大辨認。",
+      "丁是原卷指向周圍神經的標記，依本題簡化分類選D。",
+      "真正概念：腦與脊髓中的運動神經元退化，造成肌肉無力、萎縮；不能說只有丁或全部周圍神經都退化。"
+    ],
+    "image": "docs/comics/art/q-290-biology-v2-panel-4.png",
+    "alt": "新製類真實整合辨認圖：左腦與脊髓，中奶黃色周圍神經束及多束纖維切面，右紅粉骨骼肌束；三者分開放大，不以連線錯接或將其冒充原卷甲乙丙丁位置。"
+  },
+  "independentDerivation": {
+    "originalLabels": {
+      "甲": "大腦",
+      "乙": "小腦",
+      "丙": "脊髓",
+      "丁": "周圍神經"
+    },
+    "expectedOriginalAnswer": "D",
+    "confirmedScope": "ALS影響腦與脊髓的運動神經元，並造成骨骼肌失神經支配萎縮；非只有丁或所有周圍神經。"
+  },
+  "nativeArt": "assets/comics/q-290-art-3d272b2f21-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T18:04:05.390754+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-290-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-290-app-390.png",
+      "/tmp/weirugo-comic-checks/q-290-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-290-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T18:04:05.401168+00:00",
+  "validationFile": "docs/comics/q-290-validation.json"
+}

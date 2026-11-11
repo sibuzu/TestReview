@@ -1,35 +1,42 @@
 {
   "id": "q-103",
   "subject": "Biology",
-  "title": "每對只取一條，花粉組合是AB或aB",
-  "art": "docs/comics/art/q-103.svg",
+  "title": "每對各取一條，可能組合AB或aB",
+  "art": "docs/comics/art/q-103-biology-v2-panel-1.png",
   "startedAt": "2026-10-28T19:37:51.853119+00:00",
-  "layoutVersion": "native-fluid-v6",
+  "layoutVersion": "native-four-images-v7",
   "panels": [
     {
       "heading": "① 葉片兩對染色體：AaBB",
-      "text": "圖（四）長的一對帶A、a，短的一對都是B。左圖以藍長條示意A、橘長條示意a，兩根綠短條都代表B，合起來是AaBB。",
-      "alt": "一個示意細胞含兩根等長長條A/a及兩根等長短條B/B，以顏色區分等位基因，無生成文字。"
+      "text": "第一圖藍長條對應A、橘長條對應a，兩根綠短條都是B。依原圖（四），長的一對Aa、短的一對BB，合起來是AaBB。",
+      "alt": "新製類真實染色質組合模型：左藍長條A、橘長條a，右兩綠短條BB；完整單條模型共4，沒有多畫X形複製染色體。",
+      "caption": "組合模型｜藍A、橘a、綠B；顏色用於追蹤。",
+      "image": "docs/comics/art/q-103-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 減數分裂：每對取一條",
-      "text": "A、a這一對取其一；B、B這一對只能取到B。兩種可能組合因此是AB與aB，對應原圖（八）、（九）。",
-      "alt": "兩種可能配子的概念示意：左為A長條加B短條，右為a長條加B短條；非一次減數分裂全部四細胞。"
+      "heading": "② 減數分裂，每對取一條",
+      "text": "A、a擇一，B、B只能提供B。第二圖左組是藍A＋綠B，右組是橘a＋綠B，所以可能組合為AB、aB，對應圖（八）、（九）。",
+      "alt": "新製類真實兩種單套組合模型：左1藍長A與1綠短B，右1橘長a與1綠短B，每組2條；不是一次減數分裂全部產物。",
+      "caption": "兩種可能單套組合｜左AB，右aB。",
+      "image": "docs/comics/art/q-103-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 一般分裂，不改成Aabb",
-      "text": "組織培養及一般細胞分裂主要保留AaBB。母株配子也一定帶B，所以種子繁殖的子代不能得到只有bb、沒有B的圖（七）。",
-      "alt": "兩個示意體細胞各保留A/a/B/B四根條，表示一般細胞分裂或組織培養保留原有組合。"
+      "heading": "③ 一般分裂保留原有組合",
+      "text": "第三圖左右都保留AaBB，說明組織培養及一般細胞分裂的方向。母株配子也必帶B，所以種子子代不會只有bb、沒有B。",
+      "alt": "新製類真實兩個相同雙套組合模型：左右每組各有藍長A、橘長a、兩綠短BB，各4條，總8條；沒有改成Aabb。",
+      "caption": "原有組合保留｜左右各AaBB，不是Aabb。",
+      "image": "docs/comics/art/q-103-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "heading": "④ 花粉的染色體每對各取一條",
-    "answer": "答案 C：圖（八）、（九）",
+    "answer": "答案 C：圖（八）AB、圖（九）aB",
     "points": [
-      "葉片AaBB→可能配子AB、aB。",
-      "組織培養不會自然改成AABB或aaBB。",
-      "色條只作概念，不代表染色體真實顏色。"
-    ]
+      "第四圖上方AaBB，下方左AB、右aB；顏色僅追蹤基因，不是真實染色體顏色。",
+      "每對各取一條，兩種可能組合不是一次減數分裂所有細胞。",
+      "組織培養保留原組合；沒有來源讓本題母株配子產生b。"
+    ],
+    "image": "docs/comics/art/q-103-biology-v2-panel-4.png",
+    "alt": "新製類真實組合總結模型：上方一藍長一橘長兩綠短共4條；下左藍長+綠短2條，下右橘長+綠短2條；4/2/2三組，共8條，非完整分裂時間圖或整顆花粉。"
   },
   "protectedWords": [
     "染色體",
@@ -53,16 +60,10 @@
     "site/dist/assets/questions/q-103-source-f063f87743.jpg",
     "site/dist/assets/questions/q-103-figure-7eab69a296.jpg"
   ],
-  "rationale": "本題核心為兩對染色體的精確條數、相對長度及基因組合；已實看原卷與七組附圖。使用可校對無字原生SVG畫4條→兩種各2條→體細胞仍4條，避免生成模型畫錯染色體或標字；字母/原圖號/答案全部HTML，不加無關蘭花裝飾。",
-  "promptSummary": "原生SVG三個無字圖：AaBB兩對條、AB與aB兩種配子、兩個AaBB體細胞。",
-  "answerCheckedAgainst": "原卷19題、題庫C；原圖四AaBB、七Aabb、八AB、九aB逐一實看。",
-  "artSHA256": "e15b7c975baa0a02d7af225c69d0b7b01b569b50c5dc199c62441a71d2d3b31e",
+  "rationale": "依2026-11-12要求以四張新製近真實染色質構造圖取代舊線條。精確點數第一圖2長2短共4，第二左右各1長1短，第三兩組各4，第四原組合4/下兩種各2；藍A、橘a、綠B由HTML說明，非真實染色體顏色。不把兩種可能配子畫成一次減數分裂僅兩個產物，不畫所有花粉只有一細胞或固定細胞核數；圖是組合模型。原卷C/AaBB→AB或aB不變。",
+  "answerCheckedAgainst": "原卷19題及七圖逐一實看：四AaBB，七Aabb，八AB，九aB。A/a擇一、BB只能提供B，C成立；組培/一般分裂保留AaBB，不得到Aabb。",
   "visualChecked": true,
-  "checkedAt": "2026-10-28T19:41:03.798258+00:00",
-  "completedAt": "2026-10-28T19:38:29.322891+00:00",
   "layoutEvidence": "docs/comics/q-103-preview-validation.json",
-  "visualReview": "實看原卷及必要附圖，並以瀏覽器實看SVG在1440/1120/390三寬渲染：第一格2長2短，第二格兩種各1長1短，第三格兩細胞各2長2短，字母由HTML對應正確。無X形複製階段混淆，色條非真實顏色；無橫溢，字母及原圖號完整。",
-  "nativeArt": "assets/comics/q-103-art-e15b7c975b.svg",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -74,5 +75,42 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
+  "generationMethod": "built-in image_gen; four independently generated near-realistic chromatin combination models",
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-103-source-f063f87743.jpg",
+    "site/dist/assets/questions/q-103-figure-7eab69a296.jpg"
+  ],
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T17:18:16.242640+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-103/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-103/scientific-review.json",
+  "officialReferences": [
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Meiosis",
+      "support": "NHGRI科普：減數分裂使配子染色體由雙套到單套；完整分裂有四個單套產物，本題圖只列組合可能性。"
+    }
+  ],
+  "nativeArt": "assets/comics/q-103-art-7f7bfa6cb7-web.webp",
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:21:44.800193+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-103-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-103-app-390.png",
+      "/tmp/weirugo-comic-checks/q-103-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-103-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T17:21:44.807392+00:00",
   "validationFile": "docs/comics/q-103-validation.json"
 }

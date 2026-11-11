@@ -1,0 +1,71 @@
+{
+  "id": "q-291",
+  "subject": "Biology",
+  "title": "捉放法：用標記比例估計總量",
+  "art": "docs/comics/art/q-291.png",
+  "startedAt": "2026-10-28T17:10:49.010851+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 標記50隻，再放回",
+      "text": "第一次捉50隻，全部標記後放回池中。設全池共N隻，全池標記魚所占比例就是50／N。插畫只示意部分魚。",
+      "alt": "科學家在淺水槽中確認鱘龍魚的小橘色標記，非畫出全部50隻。"
+    },
+    {
+      "heading": "② 充分混合，才可比較",
+      "text": "讓標記魚與其他魚充分混合。標記不能輕易脫落，也不應影響被捕機率；期間全池魚數沒有大幅增減。",
+      "alt": "帶標記與未標記的鱘龍魚在池中分散混合，科學家放回魚隻。"
+    },
+    {
+      "heading": "③ 再捕樣本，估計全池",
+      "text": "第二次捉200隻，其中7隻有標記。50／N≈7／200，得N≈10000／7，約1429隻。比例來自抽樣，不是精確清點。",
+      "alt": "科學家檢查再捕樣本中的小橘色標記，示意部分樣本魚。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 從選項找最接近的估計",
+    "answer": "答案 C：1500隻最接近1429隻",
+    "points": [
+      "1500是四個選項中最近的值，不是四捨五入到百位。",
+      "7隻已包含在200隻裡，不是207隻。",
+      "第一次50隻已放回全池，不要另加到估計總量。"
+    ]
+  },
+  "protectedWords": [
+    "捉放法",
+    "標記魚",
+    "鱘龍魚",
+    "50隻",
+    "200隻",
+    "7隻",
+    "207隻",
+    "1429隻",
+    "1500隻",
+    "50／N≈7／200",
+    "7／200",
+    "1428.57",
+    "10000／7"
+  ],
+  "rationale": "標記、放回混合、再捕辨識三個步驟最適合情境圖；精確50/200/7數量與比例全用HTML，避免圖片假數量教錯。強調最近選項不是錯誤四捨五入，並保留估計前提。",
+  "promptSummary": "三格無字動漫：標記鱘龍魚、放回充分混合、再捕查看橘色標記。",
+  "answerCheckedAgainst": "原卷C；50/N≈7/200，N≈1428.57，選最接近1500。",
+  "visualChecked": true,
+  "artSHA256": "ee7018c74ce19c4a6c93decef8d1d2ffdf4bbf6f57c7938764cc4a32a4bf0908",
+  "completedAt": "2026-10-28T17:13:20.484697+00:00",
+  "checkedAt": "2026-10-28T17:15:49.374435+00:00",
+  "layoutEvidence": "docs/comics/q-291-preview-validation.json",
+  "visualReview": "原卷C、50/200/7已實看重算；生成鱘龍魚有長吻、觸鬚與骨板，三格為標記、放回混合、再捕辨識，明示只畫部分魚不誤當實際數量。1440/1120/390預覽全部實看，圖文對應、比例公式可讀，無溢出。",
+  "nativeArt": "assets/comics/q-291-art-ee7018c74c-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-291-validation.json"
+}

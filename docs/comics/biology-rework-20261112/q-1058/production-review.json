@@ -1,0 +1,45 @@
+{
+  "reviewerAgent": "/root/comic_lane_1",
+  "checkedAt": "2026-11-11T17:49:01.438290+00:00",
+  "originalVisualChecked": true,
+  "allFourSVGsViewedInPreview": true,
+  "views": [
+    "/tmp/weirugo-comic-previews/q-1058-1440.png",
+    "/tmp/weirugo-comic-previews/q-1058-390.png"
+  ],
+  "answerPreserved": "A",
+  "sourceQuestionUnchanged": true,
+  "sources": [
+    {
+      "url": "https://media.taiwan.net.tw/zh-tw/portal/travel/details/attraction_a15011300h_010073",
+      "support": "觀光署開放資料：龜山島由東北角及宜蘭海岸管理處提供，相關頭城/烏石港與太平洋島嶼位置資料。"
+    },
+    {
+      "url": "https://www.necoast-nsa.gov.tw/Articles.aspx?a=2656&l=1",
+      "support": "搜尋結果可讀：龜山島在頭城海岸以東；直開遇redirect loop，未宣稱讀到完整頁。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "Natural Earth公開領域50m海陸幾何。"
+    }
+  ],
+  "mapData": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+    "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "projection": "regional equirectangular with common degree scale",
+    "originalIslandShapesReconstructed": false
+  },
+  "checks": [
+    "完整4題與四幅原島圖逐座標實看",
+    "A經緯格位置121.95E/24.84N與其餘三原座標定位精確",
+    "日出只是東方一帶線索，未指定海上活動站位/航線",
+    "NE50m海岸為概略底圖，未重繪小島輪廓、未量距",
+    "A在宜蘭外海，B金門、C馬祖、D小琉球方位關係正確"
+  ],
+  "svgSHA256": {
+    "docs/comics/art/q-1058-four-image-v2-panel-1.svg": "90c9f235c6acd7be6f498371b4b9e1e6637280d2760f1e06c556a927dc62aeec",
+    "docs/comics/art/q-1058-four-image-v2-panel-2.svg": "53102d60a3d23508027e10c3f8d214c06b3e82928b7e2703189e2bdee4adfa93",
+    "docs/comics/art/q-1058-four-image-v2-panel-3.svg": "dacdd765e3636b9dac8fcbaed394cd4de92e3e01d026c43fb1e97b844abb13c3",
+    "docs/comics/art/q-1058-four-image-v2-panel-4.svg": "ca009076b6a49354274264b3f630680e0341cc13fdc493ef8248e2c42250abeb"
+  }
+}

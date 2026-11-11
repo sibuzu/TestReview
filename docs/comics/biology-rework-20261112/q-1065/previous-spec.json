@@ -1,0 +1,122 @@
+{
+  "id": "q-1065",
+  "subject": "Geography",
+  "title": "西風帶與北非山地降水",
+  "art": "docs/comics/art/q-1065-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1065-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先分清盛行風帶與亞洲季風\n北非地中海沿岸冬半年受中緯度西風帶影響，可從海上帶入水氣。濕空氣遇亞特拉斯山地抬升冷卻，形成地形降水，故選D盛行西風。\n\n二、為何不是西南季風\n西南季風是臺灣、南亞及東亞夏季常見的季風線索，不能只因風吹自海上、帶有水氣，就把所有地方都套成西南季風。此題位置在西北非及地中海沿岸，應先判區域與緯度風帶。\n\n三、四選項的差別\nA、B、C是季風名稱；D是中緯度行星風帶。亞特拉斯山地可以截留部分水氣，並不表示題幹所列國家的所有地點都多雨。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 先看區域與季節",
+      "text": "北非地中海沿岸冬半年受中緯度西風帶影響，海上水氣隨風移入。",
+      "alt": "先看區域與季節",
+      "diagram": {
+        "kind": "flow",
+        "title": "先看區域與季節",
+        "items": [
+          {
+            "label": "冬半年",
+            "detail": "西風帶影響",
+            "tone": "blue"
+          },
+          {
+            "label": "海上氣流",
+            "detail": "帶來水氣",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 濕氣遇山抬升",
+      "text": "亞特拉斯山地攔截部分濕氣，氣流抬升冷卻，形成降水。",
+      "alt": "濕氣遇山抬升",
+      "diagram": {
+        "kind": "flow",
+        "title": "濕氣遇山抬升",
+        "items": [
+          {
+            "label": "帶水氣的西風",
+            "detail": "遇到山地",
+            "tone": "blue"
+          },
+          {
+            "label": "抬升冷卻",
+            "detail": "地形降水",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 不直接套亞洲季風",
+      "text": "東北、西南、西北季風都不是本題要找的中緯度盛行風帶名稱。",
+      "alt": "不直接套亞洲季風",
+      "diagram": {
+        "kind": "paths",
+        "title": "不直接套亞洲季風",
+        "items": [
+          {
+            "label": "地點",
+            "detail": "北非地中海沿岸",
+            "tone": "blue"
+          },
+          {
+            "label": "風帶",
+            "detail": "盛行西風",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "D 盛行西風"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(D) 盛行西風",
+    "points": [
+      "北非冬半年受西風帶影響。",
+      "海上水氣遇山抬升降水。",
+      "選盛行西風，不套亞洲季風。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1065-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1065-1066.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1065-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.312178+00:00",
+  "validationFile": "docs/comics/q-1065-validation.json"
+}

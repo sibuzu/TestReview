@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d5edfa"/><stop offset="1" stop-color="#fff8e9"/></linearGradient>
+<linearGradient id="sea" x2="0" y2="1"><stop stop-color="#6dc6df"/><stop offset="1" stop-color="#267896"/></linearGradient>
+<linearGradient id="slope"><stop stop-color="#61956a"/><stop offset=".55" stop-color="#a9b184"/><stop offset="1" stop-color="#c6a470"/></linearGradient>
+<marker id="blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#187697"/></marker>
+<marker id="gold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b77530"/></marker>
+</defs><rect width="600" height="600" rx="22" fill="url(#sky)"/>
+<g font-family="Noto Sans CJK TC, sans-serif" font-size="30" fill="#23434c" text-anchor="middle"><text x="300" y="48" font-weight="bold">山地兩側，雨量可有差異</text><path d="M0 480H135L220 352L296 266L347 212L395 306L455 354L520 440L600 465V600H0Z" fill="url(#slope)"/><path d="M135 480L220 352L296 266L347 212L395 306L455 354L520 440" fill="none" stroke="#516d56" stroke-width="5"/><path d="M347 212L327 287L359 269L395 306" fill="#dbd9bd" opacity=".8"/><g transform="translate(240 155) scale(0.8)" fill="#f6fcff" stroke="#91afbd" stroke-width="3"><path d="M-75 35C-120 35-122-17-80-22C-85-65-28-80-9-47C20-90 84-57 70-18C122-12 115 40 70 40H-75Z"/></g><path d="M178 197l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M197 197l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M216 197l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M235 197l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M254 197l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M273 197l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/>
+<path d="M25 310C104 303 150 257 179 216" fill="none" stroke="#187697" stroke-width="12" marker-end="url(#blue)"/>
+<path d="M365 175C418 200 476 287 548 308" fill="none" stroke="#b77530" stroke-width="11" marker-end="url(#gold)"/>
+<path d="M454 355L520 440L600 465V600H417Z" fill="#d7b881" opacity=".65"/>
+<text x="126" y="423" font-weight="bold">迎風側</text><text x="492" y="423" font-weight="bold">背風側</text>
+<text x="142" y="535" font-size="26">降水較有利</text><text x="463" y="535" font-size="26">水氣已減少</text>
+<text x="300" y="577" font-size="23">不代表每個國家、每個地點都多雨</text></g></svg>

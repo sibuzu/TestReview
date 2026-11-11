@@ -1,96 +1,87 @@
 {
   "id": "q-1061",
   "subject": "Geography",
-  "title": "馬格里布與地中海型生活",
-  "art": "docs/comics/art/q-1061-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261111/q-1061-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、依題圖定位西北非沿海\n圖（十）的亞特拉斯山脈位於非洲西北部，題幹指其以西的馬格里布。國中區域地理在這裡主要連結北非沿海的地中海型氣候，特徵是夏乾冬雨，選A。\n\n二、氣候的季節變化\n夏季受副熱帶高氣壓影響，較炎熱乾燥；冬半年西風帶影響增強，較易帶來降水。A用生活描述呈現乾燥夏季之後進入較多雨的半年，符合題意；不是說冬季每天必定下雨。\n\n三、排除其餘選項\nB的夏季相當涼爽不符題目的主要區域特徵。C是以牲畜隨乾溼季遷徙的描述，較接近草原遊牧或牧業的季節移動，並非本題最直接的氣候辨識。D每日午後雷陣雨不是本區夏季乾燥特徵。區域內仍有山地與乾燥內陸差異，不能把選項A當作所有柏柏爾居住地完全一致的實況。",
-  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "title": "沿海地中海型氣候：夏乾、冬雨",
+  "art": "docs/comics/art/q-1061-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 馬格里布在西北非",
-      "text": "題圖的亞特拉斯山脈定位非洲西北部，題幹連結其以西地區。",
-      "alt": "馬格里布在西北非",
-      "diagram": {
-        "kind": "flow",
-        "title": "馬格里布在西北非",
-        "items": [
-          {
-            "label": "亞特拉斯山脈",
-            "detail": "非洲西北部",
-            "tone": "blue"
-          },
-          {
-            "label": "馬格里布",
-            "detail": "地中海沿海區域線索",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "① 先用山脈位置定位沿海",
+      "text": "第一圖以亞特拉斯山脈概略位置，指出題目討論的西北非沿海。依這個位置判讀氣候，不以民族名稱推定每個人的生活都相同。",
+      "caption": "新製定位圖｜圈示討論位置，不畫整個馬格里布界線。",
+      "alt": "西北非海陸輪廓、亞特拉斯概略山脈線與其西側沿海位置圓圈；內陸另標較乾燥區域。",
+      "image": "docs/comics/art/q-1061-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 夏乾冬雨配生活",
-      "text": "夏季副熱帶高壓較強，炎熱乾燥；冬半年西風帶帶來較多降雨。",
-      "alt": "夏乾冬雨配生活",
-      "diagram": {
-        "kind": "flow",
-        "title": "夏乾冬雨配生活",
-        "items": [
-          {
-            "label": "夏半年",
-            "detail": "炎熱乾燥",
-            "tone": "blue"
-          },
-          {
-            "label": "冬半年",
-            "detail": "較多陰雨",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "② 夏季受副熱帶高氣壓影響",
+      "text": "第二圖用下沉氣流與晴朗地表，表示夏季較炎熱乾燥、較不易成雨。這符合A的前半句，不是D所說的每天午後雷陣雨。",
+      "caption": "新製夏季機制示意｜不對應某個日期或指定降雨量。",
+      "alt": "副熱帶高氣壓下的下沉氣流箭頭、太陽及乾燥地表，沒有每日午後雷雨。",
+      "image": "docs/comics/art/q-1061-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 不是天天午後雷雨",
-      "text": "午後常見雷陣雨不符此地的地中海型季節分配；原題最佳描述是A。",
-      "alt": "不是天天午後雷雨",
-      "diagram": {
-        "kind": "paths",
-        "title": "不是天天午後雷雨",
-        "items": [
-          {
-            "label": "判斷重點",
-            "detail": "雨季在冬半年",
-            "tone": "blue"
-          },
-          {
-            "label": "原題A",
-            "detail": "夏乾、之後陰雨半年",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "A 夏乾冬雨"
-      }
+      "heading": "③ 之後冬半年，西風帶來水氣",
+      "text": "第三圖表示冬半年西風較易把海上水氣帶入，形成較多雨的季節。A所說的陰雨半年是季節特徵，不是每一天都一定下雨。",
+      "caption": "新製冬雨機制示意｜海上水氣隨西風移入沿海。",
+      "alt": "西風從海洋往沿海移動，帶入水氣，沿海上方雲層及雨線示冬半年較多雨。",
+      "image": "docs/comics/art/q-1061-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(A) 夏季炎熱乾燥，但之後就會進入陰雨的半年",
+    "answer": "答案 A：夏季炎熱乾燥，之後較多雨",
     "points": [
-      "先定位西北非亞特拉斯一帶。",
-      "地中海型夏乾冬雨。",
-      "選A，不是每天午後雷雨。"
-    ]
+      "第四圖以季節柱高總結夏乾冬雨；沒有新增測站數值。",
+      "題目最直接對應地中海型氣候，不以遷徙或午後雷雨取代判讀。",
+      "區域內仍有山地與內陸差異，不把A當成所有居住地一致的實況。"
+    ],
+    "image": "docs/comics/art/q-1061-four-image-v2-panel-4.svg",
+    "alt": "春夏秋冬四根無數值概念雨柱，夏較低、冬較高，強調地中海型氣候的季節差異。"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1061-art-62f6de3cdc.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "副熱帶高氣壓",
+    "亞特拉斯山脈",
+    "地中海型",
+    "馬格里布",
+    "夏乾冬雨",
+    "冬半年",
+    "西北非"
+  ],
+  "generationMethod": "four authored native SVG coastal map, summer subsidence, winter maritime airflow and qualitative seasonal rainfall comparison",
+  "generatorFile": "docs/comics/biology-rework-20261112/q-1061/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1061-original-57322028e564.jpg",
+    "site/dist/assets/questions/q-1061-figure-211d3ab8b6c9.jpg"
+  ],
+  "answerCheckedAgainst": "完整原卷19題及圖十實看，山脈在非洲西北部；A夏乾冬雨不變，保留不概括全部居住地及非天天雨限制。",
+  "rationale": "四張實際地理/氣流/季節圖替換舊文字框。沿海位置以點圈概示不猜族群完整居住界，季節雨量只有概念形狀不捏造數據；不畫族群服飾與刻板生活形象。",
+  "producerAgent": "/root/comic_lane_1",
+  "visualChecked": true,
+  "sources": [
+    {
+      "url": "https://www.fao.org/4/T0122E/t0122e03.htm",
+      "support": "FAO：乾燥下沉氣流與副熱帶反氣旋；摩洛哥Rabat例夏乾、冬雨，季節差異明確。"
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones",
+      "support": "Met Office：地中海型為夏乾、冬季溫和較濕。"
+    },
+    {
+      "url": "https://eol.jsc.nasa.gov/Collections/EarthObservatory/articles/WetAndDryMorocco.htm",
+      "support": "NASA/JSC：Atlas分隔較濕海岸及乾燥內陸；地域差異不能抹平。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "Natural Earth公開領域海陸幾何。"
+    }
+  ],
+  "mapData": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "projection": "regional equirectangular with common degree scale"
+  },
+  "nativeArt": "assets/comics/q-1061-art-ea516713ae.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -102,21 +93,23 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
+  "producerVisualChecked": true,
+  "productionReviewFile": "docs/comics/biology-rework-20261112/q-1061/production-review.json",
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:38:56.505654+00:00",
     "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
     "actualViewed": [
-      "docs/imports/new-gpt-20261111/qa/comics-1061-1062.jpg"
+      "/tmp/weirugo-comic-checks/q-1061-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1061-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1061-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1061-standalone-390.png"
     ],
-    "originalViewed": [
-      "docs/imports/new-gpt-20261111/q-1061-original.jpg"
-    ],
-    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-11T15:42:18.135003+00:00",
+  "checkedAt": "2026-11-11T17:38:56.514408+00:00",
   "validationFile": "docs/comics/q-1061-validation.json"
 }

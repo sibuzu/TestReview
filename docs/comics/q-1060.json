@@ -1,96 +1,86 @@
 {
   "id": "q-1060",
   "subject": "Geography",
-  "title": "日本海側冬季大雪",
-  "art": "docs/comics/art/q-1060-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261111/q-1060-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、先找迎風面\n冬季來自亞洲大陸的寒冷季風吹向日本，經過日本海時取得水氣，遇本州山地抬升，在日本海側形成豐富降雪。本題圖（九）丙位於本州的日本海側，選C。\n\n二、不是只比緯度高低\n甲在北海道，雖也有雪，但題目要比較圖中地點的冬季經常性大雪與季風、地形組合；丙的日本海迎風側最具代表。乙位於本州太平洋側，越過山脈的氣流較乾；丁在較南的九州地區，都不如丙符合。\n\n三、完整因果順序\n大陸冷空氣 → 經日本海增添水氣 → 迎風坡抬升冷卻 → 日本海側降雪。不能說冬季大陸季風一開始就暖濕，也不把所有日本沿海都視為相同迎風面。",
-  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "title": "大陸冷氣流過海增濕，迎風側遇山降雪",
+  "art": "docs/comics/art/q-1060-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 冷空氣先經過海面",
-      "text": "冬季大陸寒冷季風通過日本海，從海面取得水氣。",
-      "alt": "冷空氣先經過海面",
-      "diagram": {
-        "kind": "flow",
-        "title": "冷空氣先經過海面",
-        "items": [
-          {
-            "label": "亞洲大陸",
-            "detail": "寒冷氣流",
-            "tone": "blue"
-          },
-          {
-            "label": "日本海",
-            "detail": "增添水氣",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "① 先看冬季風的來向",
+      "text": "第一圖以大陸、日本海及日本的地理位置，表示冬季西北風從大陸吹向日本。起初是寒冷、較乾的氣流，不是一開始就暖濕。",
+      "caption": "新製風向定位圖｜海陸依Natural Earth，不重繪原卷四點。",
+      "alt": "東亞海陸與日本輪廓，藍箭頭由西北大陸經日本海吹向日本。",
+      "image": "docs/comics/art/q-1060-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 迎風坡抬升降雪",
-      "text": "濕冷空氣遇本州山地抬升，冷卻後在日本海側形成豐富降雪。",
-      "alt": "迎風坡抬升降雪",
-      "diagram": {
-        "kind": "flow",
-        "title": "迎風坡抬升降雪",
-        "items": [
-          {
-            "label": "日本海側",
-            "detail": "迎風坡抬升",
-            "tone": "blue"
-          },
-          {
-            "label": "山地降雪",
-            "detail": "形成厚積雪",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "② 水氣主要在過海時補充",
+      "text": "第二圖把海面放大：氣流通過日本海，從海面取得水氣。向上的細箭頭表示海面供應水氣，之後濕冷氣流再移向本州。",
+      "caption": "新製海氣交換示意｜向上為海面供應水氣，向右為氣流。",
+      "alt": "冷氣流水平通過日本海，三支向上曲箭頭表示海面向空氣補充水氣。",
+      "image": "docs/comics/art/q-1060-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 核對丙的位置",
-      "text": "丙位於本州日本海側；乙在太平洋側，丁較南。甲雖也有雪，本題選代表性迎風側。",
-      "alt": "核對丙的位置",
-      "diagram": {
-        "kind": "paths",
-        "title": "核對丙的位置",
-        "items": [
-          {
-            "label": "本州日本海側",
-            "detail": "丙",
-            "tone": "blue"
-          },
-          {
-            "label": "太平洋側",
-            "detail": "越山後較乾",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "C 丙"
-      }
+      "heading": "③ 日本海側迎風，遇山抬升降雪",
+      "text": "第三圖以本州山地剖面比較兩側：日本海側濕冷氣流被抬升、冷卻降雪；越過山脈後水氣減少，太平洋側常較乾晴。不是日本所有海岸都一樣。",
+      "caption": "新製機制剖面｜非特定山峰、積雪量或當日天氣圖。",
+      "alt": "左日本海側有氣流抬升、雲與雪花；中間本州山地，右太平洋側氣流越山後較乾晴。",
+      "image": "docs/comics/art/q-1060-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(C) 丙",
+    "answer": "答案 C：原圖的丙",
     "points": [
-      "大陸冷氣流經日本海取得水氣。",
-      "遇山抬升，在日本海側降雪。",
-      "原圖丙最符合，選C。"
-    ]
+      "第四圖只強調本州日本海側的地理關係，精確四點保留在原卷附圖。",
+      "丙的海側、季風與山地組合符合本題；不是單純比較緯度。",
+      "甲北海道也會下雪；不能把選丙誤說成甲沒有雪。"
+    ],
+    "image": "docs/comics/art/q-1060-four-image-v2-panel-4.svg",
+    "alt": "日本海側以粗色帶概示本州海側區域，冷空氣箭頭從日本海移入；不把色帶當實測雪區或原卷丙的精確座標。"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1060-art-62f6de3cdc.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "日本海側",
+    "太平洋側",
+    "本州",
+    "北海道",
+    "西北風",
+    "迎風坡",
+    "冷氣流"
+  ],
+  "generationMethod": "four authored native SVG geographic wind map, sea-air moisture transfer, snowfall cross-section and regional summary",
+  "generatorFile": "docs/comics/biology-rework-20261112/q-1060/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1060-original-2c0fc728797e.jpg",
+    "site/dist/assets/questions/q-1060-figure-a6e4f48c62dc.jpg"
+  ],
+  "answerCheckedAgainst": "實看完整17題與圖九甲乙丙丁：甲北海道、丙本州日本海側、乙太平洋側、丁九州；原C及原A改C記錄保持。",
+  "rationale": "四張真實風向與物理關係圖取代舊文字框；冬季大陸冷氣流經日本海補水氣、迎風抬升形成降雪。保留原卷點位，不將粗色帶冒稱精確原點或雪區，不說北海道無雪。",
+  "producerAgent": "/root/comic_lane_1",
+  "visualChecked": true,
+  "sources": [
+    {
+      "url": "https://www.data.jma.go.jp/cpd/longfcst/en/tourist_japan.html",
+      "support": "JMA日本氣候：冬季西北風使日本海側迎風降雪、太平洋側下風較晴。"
+    },
+    {
+      "url": "https://www.jamstec.go.jp/jdb/ronbun/Ks00039171.pdf",
+      "support": "JAMSTEC保存的JMSJ原論文引言：大陸寒冷乾燥季風過日本海，海面供給水氣並使氣團改變。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "Natural Earth公開領域海陸幾何，未標國界。"
+    }
+  ],
+  "mapData": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "projection": "regional equirectangular with common degree scale",
+    "originalPointMapReconstructed": false
+  },
+  "producerVisualChecked": true,
+  "productionReviewFile": "docs/comics/biology-rework-20261112/q-1060/production-review.json",
+  "nativeArt": "assets/comics/q-1060-art-9ca3c30920.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -103,20 +93,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:34:19.702098+00:00",
     "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
     "actualViewed": [
-      "docs/imports/new-gpt-20261111/qa/comics-1059-1060.jpg"
+      "/tmp/weirugo-comic-checks/q-1060-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1060-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1060-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1060-standalone-390.png"
     ],
-    "originalViewed": [
-      "docs/imports/new-gpt-20261111/q-1060-original.jpg"
-    ],
-    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-11T15:42:18.091051+00:00",
+  "checkedAt": "2026-11-11T17:34:19.711301+00:00",
   "validationFile": "docs/comics/q-1060-validation.json"
 }

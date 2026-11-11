@@ -1,0 +1,123 @@
+{
+  "id": "q-1062",
+  "subject": "Geography",
+  "title": "由開羅氣候圖判讀熱帶沙漠",
+  "art": "docs/comics/art/q-1062-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1062-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先讀數據\n原圖年均溫21.4°C、年降水量僅26 mm，月降水柱全年都很低，顯示最突出的特徵是極乾燥。本題位置指向開羅，教材分類選B熱帶沙漠氣候。\n\n二、地點有河流，不代表當地多雨\n開羅靠尼羅河獲取水源，但河水可來自上游降雨，不能因位於河流三角洲頂點，就把當地氣候判成多雨。氣候類型仍應依當地氣溫與降水判讀。\n\n三、排除A、C、D\n高地氣候需有高海拔的降溫等條件，原圖不支持。溫帶季風與地中海型都不會像原圖全年總雨量只有26 mm；地中海型尤其應有明顯冬雨。本題熱帶沙漠是教材區域分類名稱，並非聲稱每個月均溫都超過18°C。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 先讀全年總雨量",
+      "text": "原圖年均溫21.4°C、年雨量26 mm，最突出的是全年極乾燥。",
+      "alt": "先讀全年總雨量",
+      "diagram": {
+        "kind": "paths",
+        "title": "先讀全年總雨量",
+        "items": [
+          {
+            "label": "年均溫",
+            "detail": "21.4°C",
+            "tone": "blue"
+          },
+          {
+            "label": "年降水量",
+            "detail": "僅26 mm",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "全年少雨"
+      }
+    },
+    {
+      "heading": "② 有河不等於當地多雨",
+      "text": "開羅靠尼羅河取得水源；上游流來的河水不能代替當地氣候數據。",
+      "alt": "有河不等於當地多雨",
+      "diagram": {
+        "kind": "flow",
+        "title": "有河不等於當地多雨",
+        "items": [
+          {
+            "label": "尼羅河水",
+            "detail": "可來自上游",
+            "tone": "blue"
+          },
+          {
+            "label": "當地氣候",
+            "detail": "仍依當地雨量判斷",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 排除應有雨季的類型",
+      "text": "溫帶季風與地中海型都有較明顯雨季；圖中全年少雨符合教材熱帶沙漠類型。",
+      "alt": "排除應有雨季的類型",
+      "diagram": {
+        "kind": "paths",
+        "title": "排除應有雨季的類型",
+        "items": [
+          {
+            "label": "原圖全年",
+            "detail": "月雨量都很低",
+            "tone": "blue"
+          },
+          {
+            "label": "教材分類",
+            "detail": "熱帶沙漠氣候",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "B 熱帶沙漠"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 熱帶沙漠氣候",
+    "points": [
+      "年雨量僅26 mm，全年極乾燥。",
+      "河水不代表當地降雨多。",
+      "教材分類選B熱帶沙漠。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1062-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1061-1062.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1062-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.180262+00:00",
+  "validationFile": "docs/comics/q-1062-validation.json"
+}

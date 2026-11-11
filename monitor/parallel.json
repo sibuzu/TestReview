@@ -1,24 +1,25 @@
 {
   "mode": "biology_four_image_goal",
   "workerLimit": 3,
-  "rootRole": "維護四圖skills、範圍與機動製作q-045；77題面GOAL持續",
-  "updatedAt": "2026-11-11T17:01:13.723522+00:00",
+  "rootRole": "回應與協調、機動製作q760/q912；q750/q751/q752/q758 ready待下批整合",
+  "updatedAt": "2026-11-11T18:04:05.580981+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": null,
-      "title": "首批20原問／80張圖已核驗，發布前檢查與正常push",
-      "state": "publishing",
-      "startedAt": "2026-11-11T17:01:13.722744+00:00",
+      "questionId": "q-1058",
+      "title": "第二批門檻：正式整合q1058/q290/q744/q748",
+      "state": "integrating",
+      "startedAt": "2026-11-11T17:49:01.496671+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "claimsPaused": false,
       "batchQuestionIds": [],
       "pauseReason": "",
       "activeTask": {
-        "title": "首批20原問／80張圖已核驗，發布前檢查與正常push",
-        "state": "publishing",
-        "startedAt": "2026-11-11T17:01:13.722744+00:00"
+        "title": "第二批門檻：正式整合q1058/q290/q744/q748",
+        "state": "integrating",
+        "questionId": "q-1058",
+        "startedAt": "2026-11-11T17:49:01.496671+00:00"
       }
     },
     {
@@ -35,10 +36,10 @@
     },
     {
       "lane": 3,
-      "questionId": "q-101",
-      "title": "生物第15題｜育種需要改變遺傳特性",
-      "state": "running",
-      "startedAt": "2026-11-11T17:01:13.703017+00:00",
+      "questionId": "q-305",
+      "title": "生物第7題｜蘇鐵有種子但沒有真正的花",
+      "state": "idle",
+      "startedAt": "2026-11-11T17:53:58.821992+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": false,
@@ -49,45 +50,83 @@
   ],
   "ready": [
     {
-      "id": "q-050",
-      "title": "生物第46題｜從遺傳疾病文章判斷",
+      "id": "q-291",
+      "title": "生物第22題｜捉放法估算鱘龍魚數量",
       "subject": "Biology",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-11-11T16:55:16.467452+00:00",
+      "startedAt": "2026-11-11T17:44:26.739474+00:00",
       "owner": "/root/comic_lane_3",
-      "reworkPlan": "docs/comics/biology-rework-20261112/plan.json",
-      "jobId": "job-69199dcf1dff4f0b88f6c6f757d9678a",
-      "readyAt": "2026-11-11T16:59:44.815702+00:00",
+      "reworkPlan": "biology-rework-20261112",
+      "jobId": "job-f779b662c72143199bb80631d1e656a4",
+      "readyAt": "2026-11-11T17:51:12.142682+00:00",
       "decision": "complete",
-      "reason": "四張類真實生物圖為腦/脊髓、DNA、細胞核染色質、樣本檢測；原文章/A答案/44+2=46說明保留，不讓模型猜染色體數目或以患者外觀表徵疾病。科學核對與隔離三寬通過，實看桌手機。",
+      "reason": "四張獨立類真實捉放圖完成；第三圖雙背鰭草稿已重作核對，原C與50/200/7比例保持；隔離三寬PASS及桌手機實看",
       "evidence": [
-        "docs/comics/q-050.json",
-        "docs/comics/q-050-preview-validation.json",
-        "docs/comics/biology-rework-20261112/q-050/scientific-review.json"
+        "docs/comics/q-291.json",
+        "docs/comics/q-291-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-291/scientific-review.json"
+      ]
+    },
+    {
+      "id": "q-305",
+      "title": "生物第7題｜蘇鐵有種子但沒有真正的花",
+      "subject": "Biology",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-11T17:53:58.821992+00:00",
+      "owner": "/root/comic_lane_3",
+      "reworkPlan": "biology-rework-20261112",
+      "jobId": "job-40e75effe0de47cca22aa74d173dea1c",
+      "readyAt": "2026-11-11T18:00:45.460696+00:00",
+      "decision": "complete",
+      "reason": "四張獨立類真實蘇鐵圖完成；雄毬/雌大孢子葉與裸露種子逐圖核對，原A保持；隔離三寬PASS及桌手機實看",
+      "evidence": [
+        "docs/comics/q-305.json",
+        "docs/comics/q-305-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-305/scientific-review.json"
       ]
     }
   ],
-  "integrated": 997,
+  "integrated": 1017,
   "blocked": [],
   "waiting": [
     {
-      "id": "q-050",
-      "title": "生物第46題｜從遺傳疾病文章判斷",
+      "id": "q-291",
+      "title": "生物第22題｜捉放法估算鱘龍魚數量",
       "subject": "Biology",
       "lane": 3,
       "state": "ready",
-      "startedAt": "2026-11-11T16:55:16.467452+00:00",
+      "startedAt": "2026-11-11T17:44:26.739474+00:00",
       "owner": "/root/comic_lane_3",
-      "reworkPlan": "docs/comics/biology-rework-20261112/plan.json",
-      "jobId": "job-69199dcf1dff4f0b88f6c6f757d9678a",
-      "readyAt": "2026-11-11T16:59:44.815702+00:00",
+      "reworkPlan": "biology-rework-20261112",
+      "jobId": "job-f779b662c72143199bb80631d1e656a4",
+      "readyAt": "2026-11-11T17:51:12.142682+00:00",
       "decision": "complete",
-      "reason": "四張類真實生物圖為腦/脊髓、DNA、細胞核染色質、樣本檢測；原文章/A答案/44+2=46說明保留，不讓模型猜染色體數目或以患者外觀表徵疾病。科學核對與隔離三寬通過，實看桌手機。",
+      "reason": "四張獨立類真實捉放圖完成；第三圖雙背鰭草稿已重作核對，原C與50/200/7比例保持；隔離三寬PASS及桌手機實看",
       "evidence": [
-        "docs/comics/q-050.json",
-        "docs/comics/q-050-preview-validation.json",
-        "docs/comics/biology-rework-20261112/q-050/scientific-review.json"
+        "docs/comics/q-291.json",
+        "docs/comics/q-291-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-291/scientific-review.json"
+      ]
+    },
+    {
+      "id": "q-305",
+      "title": "生物第7題｜蘇鐵有種子但沒有真正的花",
+      "subject": "Biology",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-11T17:53:58.821992+00:00",
+      "owner": "/root/comic_lane_3",
+      "reworkPlan": "biology-rework-20261112",
+      "jobId": "job-40e75effe0de47cca22aa74d173dea1c",
+      "readyAt": "2026-11-11T18:00:45.460696+00:00",
+      "decision": "complete",
+      "reason": "四張獨立類真實蘇鐵圖完成；雄毬/雌大孢子葉與裸露種子逐圖核對，原A保持；隔離三寬PASS及桌手機實看",
+      "evidence": [
+        "docs/comics/q-305.json",
+        "docs/comics/q-305-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-305/scientific-review.json"
       ]
     }
   ],

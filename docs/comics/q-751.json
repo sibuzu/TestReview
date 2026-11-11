@@ -1,0 +1,80 @@
+{
+  "id": "q-751",
+  "subject": "English",
+  "title": "sang已是過去，配今天早上已發生的活動",
+  "art": "docs/comics/art/q-751-four-image-v2-panel-1.png",
+  "panels": [
+    {
+      "heading": "① sang是sing的過去式",
+      "text": "Henry sang some English songs in class. 已把唱歌動作用過去式敘述，選項的時間要配合這個語意。",
+      "caption": "教室唱歌是輔助情境，沒有新增歌曲名稱。",
+      "alt": "Henry在教室前唱歌，同學坐著聆聽，書本沒有可讀歌詞。",
+      "image": "docs/comics/art/q-751-four-image-v2-panel-1.png"
+    },
+    {
+      "heading": "② 今天早上也可以是過去",
+      "text": "this morning可指今天早上已經發生的事。例如稍晚回想早上的課堂，就能用sang描述。稍晚是理解用的例子，不是原題額外條件。",
+      "caption": "同一天稍晚回想早上，是說明用的可能情境。",
+      "alt": "Henry坐在教室座位回想早上唱歌，同一人物只在回憶泡泡中再次出現，非兩名Henry。",
+      "image": "docs/comics/art/q-751-four-image-v2-panel-2.png"
+    },
+    {
+      "heading": "③ 比較其他時間詞",
+      "text": "now通常指現在，next Monday指未來；都不合本題已發生的sang情境。every weekend可配過去習慣，但本題沒有另給那種背景。",
+      "caption": "唱歌後的教室情境；不把週末習慣說成只能用現在式。",
+      "alt": "課堂唱歌後同學交談，前景空白活動卡和麥克風，無日期或鐘點。",
+      "image": "docs/comics/art/q-751-four-image-v2-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "教材預期 C：this morning",
+    "points": [
+      "Henry sang some English songs in class this morning.",
+      "sang與已經過去的今天早上相配。",
+      "若另有過去習慣背景，every weekend也能搭過去式；保留這項限制，不說D永遠不合法。"
+    ],
+    "image": "docs/comics/art/q-751-four-image-v2-panel-4.png",
+    "alt": "Henry和同學交談，上方泡泡回想今天早上的課堂唱歌，用同日稍晚作理解範例，不新增原題事實。"
+  },
+  "protectedWords": [
+    "this morning",
+    "every weekend",
+    "next Monday",
+    "sang",
+    "sing"
+  ],
+  "generationMethod": "built-in image_gen: four independent detailed colour anime teaching scenes",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-751-source-887394d843.jpg"
+  ],
+  "answerCheckedAgainst": "Henry sang some English songs in class ________.\n\n(A) now\n(B) next Monday\n(C) this morning\n(D) every weekend\n本題預期：(C) this morning。\nsang是sing的過去式，四項中this morning最直接提供本題預期的過去時間。every weekend不是任何時候都只能用現在式，過去習慣也可以用過去式；此處不另添過去習慣背景。",
+  "rationale": "實開原卷核對完整題目，維持教材預期與已說明的語境限制。四張不同情境圖用來辨識主詞、動作與時間，不增加原題條件。",
+  "createdAt": "2026-11-11T17:49:40.194022+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T17:49:40.194022+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-751/contact.png"
+    ],
+    "checks": [
+      "實開原卷核對教材預期C與四選項",
+      "sang與sing不規則變化核對",
+      "稍晚回想是示例，不把原題未明時間新增成題幹事實",
+      "保留every weekend可搭過去習慣，不誤教一律現在式",
+      "四圖不同構圖，沒有虛構歌曲名/確切鐘點"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-751-1440.png",
+      "/tmp/weirugo-comic-previews/q-751-390.png"
+    ]
+  }
+}

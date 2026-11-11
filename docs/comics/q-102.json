@@ -1,33 +1,41 @@
 {
   "id": "q-102",
   "subject": "Biology",
-  "title": "體染色體45條，再加XY兩條",
-  "art": "docs/comics/art/q-102.svg",
+  "title": "第21組多一條，體染色體45條、總數47條",
+  "art": "docs/comics/art/q-102-biology-v2-panel-1.png",
   "startedAt": "2026-10-28T19:35:49.326082+00:00",
   "panels": [
     {
-      "heading": "① 真正多一條的是第21組",
-      "text": "先逐組看原圖。第21組有三條染色體，比通常的兩條多一條；不能只看第23組被圈起來，就認為多出來的是性染色體。",
-      "alt": "程式SVG第21組明確畫三個橘色染色體圖示，每個圖示算一條；示意形狀不代表精確顯微構造。"
+      "heading": "① 第21組：三條，比通常多一條",
+      "text": "第一圖只放大第21組，三個完整單位各算一條染色體。原核型第21組有三條，比通常兩條多一條，不能只看第23組被圈起。",
+      "alt": "新製類真實染色體放大模型：三條分離且近端著絲點的21號染色體，各有相連姊妹染色分體，完整單位總共3條，不是6條。",
+      "caption": "局部放大第21組｜3條，不是全套核型。",
+      "image": "docs/comics/art/q-102-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 第23組是XY，共兩條",
-      "text": "原圖標示XY，是一條X與一條Y，不是XXY。1到23是組別編號，不能把23當成總條數，再加上XY。",
-      "alt": "第23組以兩個藍色圖示分別標X與Y，只有兩條；字母是染色體類型標籤，不是外形規則。"
+      "heading": "② 第23組：一條X、一條Y",
+      "text": "第二圖左邊是X、右邊較小的是Y，完整單位共兩條。原圖標XY，不是XXY；23是組別編號，不代表23條再加XY。",
+      "alt": "新製類真實第23組放大模型：左一條較大的X染色體，右一條較小的Y染色體，共2條，Y不是直接畫成字母Y。",
+      "caption": "局部放大第23組｜左X、右Y，共2條。",
+      "image": "docs/comics/art/q-102-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 體染色體與總數分開算",
-      "text": "通常體染色體有44條；本圖第21組多一條，所以是45條，選B。再加XY兩條性染色體，總數才是47條，不能把兩種數目混在一起。",
-      "alt": "程式精確排列45個橘色體染色體計數圖示，旁邊另有2個藍色性染色體圖示，表示分類計數而非完整核型排列。"
+      "heading": "③ 分類計數：45條體染色體",
+      "text": "體染色體與性染色體都屬細胞核的遺傳物質。通常22組體染色體有44條；本圖第21組多1條，所以體染色體為45條，選B。",
+      "alt": "新製類真實有核動物細胞模型：同一細胞核內有鬆散染色質，未以不正確的生成X數量假冒全套47條；計數依原卷與文字。",
+      "caption": "細胞核模型｜分類數量依原卷與本格文字。",
+      "image": "docs/comics/art/q-102-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "answer": "答案 B：45條體染色體",
+    "answer": "答案 B：45條體染色體；總數47條",
     "points": [
-      "第21組：三條，比通常多一條。",
-      "體染色體：44加1，得45條。",
-      "總染色體：45加XY兩條，得47條。"
-    ]
+      "第四圖僅並排放大兩組：左第21組3條、右XY2條，局部5條不是全套。",
+      "體染色體44＋1＝45條；再加XY兩條，總共47條。",
+      "組別編號不等於條數；第21組異常，不能選正常的C。"
+    ],
+    "image": "docs/comics/art/q-102-biology-v2-panel-4.png",
+    "alt": "新製類真實兩組局部放大：左三條粉紅21號染色體，右兩條紫色性染色體X/Y，總共可逐物驗算5條，只是原核型兩組的局部，不是全套47條。"
   },
   "protectedWords": [
     "第21組",
@@ -41,25 +49,18 @@
     "47條",
     "44條"
   ],
-  "rationale": "本題的關鍵是第21組三條、第23組XY兩條及體/性分類。以程式SVG確保圖示數量3、2、45、2可驗算，比人物情境或生成模型畫染色體更直接且不易誤數；不畫帶疾病標籤的兒童或外貌刻板印象。精確運算與解釋全用HTML，SVG僅留21/23/X/Y圖形標籤。",
-  "promptSummary": "不使用imagegen生成精確染色體。程式SVG三格：第21組三條橘色、第23組兩條藍色XY、45橘色加2藍色分類計數。圖形示意，不做診斷或外貌推定。",
-  "answerCheckedAgainst": "實看原卷完整核型圖與所有選項，21確有三條、23標XY兩條；維持B=45條體染色體，總47。NHGRI染色體事實資料核對22對體染色體及21三體概念。",
+  "rationale": "依2026-11-12要求重作四張類真實圖：21組三條、XY兩條、細胞核染色質、所選兩組局部對照。局部物件可逐條驗算3/2/5，不讓模型猜全套47。原卷完整核型及45體+2性=47運算保留，原答案B及先前XXY誤述更正照留；不以患者或兒童外貌標籤代替染色體解釋。",
+  "answerCheckedAgainst": "實看完整原卷/核型：21組確有三條，23組XY兩條非XXY；通常44體，本圖多1=45體，再加XY2=47，原B正確。",
   "manualLineBreaks": false,
-  "layoutVersion": "native-fluid-v6",
+  "layoutVersion": "native-four-images-v7",
   "sourceAIUsed": false,
-  "artMode": "deterministic-svg",
   "originalChecked": {
     "src": "site/dist/assets/questions/q-102-source-ade479de7d.jpg",
     "figure": "site/dist/assets/questions/q-102-figure-cb591e4d3f.jpg",
     "visualChecked": true
   },
-  "completedAt": "2026-10-28T19:39:03.968094+00:00",
-  "checkedAt": "2026-10-28T19:41:03.789791+00:00",
   "visualChecked": true,
-  "artSHA256": "3615880d2049c1644db0d9441fd5b0cbbd9110b2f6e64c796d289d339fb6aef0",
   "previewValidation": "docs/comics/q-102-preview-validation.json",
-  "visualReview": "原核型圖第21組三條及第23組XY兩條已逐一實看。SVG原始渲染及1440/390成品實看，程式ID數目驗算3/2/45/2正確，未使用X外形代表性染色體或把分裂染色單體各算一條；僅概念計數圖。精確文字HTML，三寬QA通過且手機可辨分類。",
-  "nativeArt": "assets/comics/q-102-art-3615880d20.svg",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -71,5 +72,46 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
+  "generationMethod": "built-in image_gen; four independently generated near-realistic chromosome and cellular illustrations",
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-102-source-ade479de7d.jpg",
+    "site/dist/assets/questions/q-102-figure-cb591e4d3f.jpg"
+  ],
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T17:09:25.523156+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-102/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-102/scientific-review.json",
+  "officialReferences": [
+    {
+      "url": "https://medlineplus.gov/genetics/chromosome/21/",
+      "support": "MedlinePlus官方：通常有兩條21號染色體；21三體為三條。"
+    },
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Autosome",
+      "support": "NHGRI：通常22對體染色體加一對性染色體，分類計數不可混淆。"
+    }
+  ],
+  "nativeArt": "assets/comics/q-102-art-754de5077a-web.webp",
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:10:48.865771+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-102-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-102-app-390.png",
+      "/tmp/weirugo-comic-checks/q-102-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-102-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T17:10:48.874139+00:00",
   "validationFile": "docs/comics/q-102-validation.json"
 }

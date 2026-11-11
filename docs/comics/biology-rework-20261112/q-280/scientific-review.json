@@ -1,0 +1,107 @@
+{
+  "questionId": "q-280",
+  "checkedAt": "2026-11-11T17:38:34.962947+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "A",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://www.noaa.gov/education/resource-collections/marine-life/aquatic-food-webs",
+      "finding": "食物鏈箭頭表示能量由被食者流向取食者。"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/facts/plankton.html",
+      "finding": "橈足類為浮游動物例子，浮游生物不是全為植物。"
+    },
+    {
+      "url": "https://sanctuaries.noaa.gov/news/features/1007_krill.html",
+      "finding": "磷蝦為蝦狀甲殼類，可將能量傳給鯨等較大型動物；本題食物鏈採原卷指定模型，不宣稱海中只有此一路徑。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "透明分節軀體、中央眼、左右長觸角與尾端分叉",
+        "明確為動物例子，不畫葉綠體或藻類",
+        "10,000屬整個族群，由HTML精確表示"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "成對柄眼、長觸角、分節腹部與尾扇",
+        "蝦類外形，無龍蝦巨螯",
+        "完整個體，第一次10%為HTML"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "兩片長胸鰭、喉褶與水平尾鰭",
+        "無魚鰓或水下噴氣柱",
+        "不以體型倒推族群總能量"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "左橈足類、中蝦、右鯨，三個不同生物完整分開",
+        "不把圖像大小當能量比例",
+        "從已知起點只算兩次，10,000→1,000→100"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "start": "浮游動物",
+    "startEnergy": 10000,
+    "transfers": 2,
+    "approximateFractionPerTransfer": 0.1,
+    "result": 100,
+    "excludedPriorTransfer": "浮游植物→浮游動物"
+  },
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-280-biology-v2-panel-1.png",
+      "sha256": "8bf7e36c648972806a476d98de7549793026f6529bf3d511ff1e883c754e1b2e",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-280-biology-v2-panel-2.png",
+      "sha256": "7707eb585f020514b0a3131d9eb9cd6201ae2eec45d73545ba4ec036072d8517",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-280-biology-v2-panel-3.png",
+      "sha256": "f595c68169fbfb6f745adeb39322928fdf3f93879dfe7510e33ba7f9adc770d8",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-280-biology-v2-panel-4.png",
+      "sha256": "f281f33c9fd31d6b3a808e84a54c2e4ff4887788ec2c1f9f492f2a29e4f2ad78",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原A與既有兩次10%估算範圍保持，只升級四圖，不新增原題修正或重問確認。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-280-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

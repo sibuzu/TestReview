@@ -1,0 +1,44 @@
+{
+  "reviewerAgent": "/root/comic_lane_1",
+  "checkedAt": "2026-11-11T17:31:26.442259+00:00",
+  "originalVisualChecked": true,
+  "allFourSVGsViewedInPreview": true,
+  "views": [
+    "/tmp/weirugo-comic-previews/q-1060-1440.png",
+    "/tmp/weirugo-comic-previews/q-1060-390.png"
+  ],
+  "answerPreserved": "C",
+  "sourceQuestionUnchanged": true,
+  "sources": [
+    {
+      "url": "https://www.data.jma.go.jp/cpd/longfcst/en/tourist_japan.html",
+      "support": "JMA日本氣候：冬季西北風使日本海側迎風降雪、太平洋側下風較晴。"
+    },
+    {
+      "url": "https://www.jamstec.go.jp/jdb/ronbun/Ks00039171.pdf",
+      "support": "JAMSTEC保存的JMSJ原論文引言：大陸寒冷乾燥季風過日本海，海面供給水氣並使氣團改變。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "Natural Earth公開領域海陸幾何，未標國界。"
+    }
+  ],
+  "mapData": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "projection": "regional equirectangular with common degree scale",
+    "originalPointMapReconstructed": false
+  },
+  "checks": [
+    "完整17題與圖九四點實看，丙在本州日本海側",
+    "冷西北氣流由大陸經日本海，海面上箭頭補水氣",
+    "本州迎風坡降雪，太平洋側越山後較乾晴，JMA官方核查",
+    "不將北海道說成無雪，不造原卷精確點位或實測雪區"
+  ],
+  "svgSHA256": {
+    "docs/comics/art/q-1060-four-image-v2-panel-1.svg": "9ca3c309201928175c4e54a0a733a541ad449682f96cbb2dd9b4428913a6cb1c",
+    "docs/comics/art/q-1060-four-image-v2-panel-2.svg": "dff6687790d864a18e9e1b8ad2c342d97e6af50e1aedbfc34307382e0645d170",
+    "docs/comics/art/q-1060-four-image-v2-panel-3.svg": "e23e57592baa044f80b02275a63aa25156b82e24be49dbd51b6f34e5f0e86ece",
+    "docs/comics/art/q-1060-four-image-v2-panel-4.svg": "2fb15a0cc5d943b94afe5eac431786929fa6a7240cf611cc9327cd3773070a0b"
+  }
+}

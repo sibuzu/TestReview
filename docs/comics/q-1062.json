@@ -1,97 +1,84 @@
 {
   "id": "q-1062",
   "subject": "Geography",
-  "title": "由開羅氣候圖判讀熱帶沙漠",
-  "art": "docs/comics/art/q-1062-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261111/q-1062-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、先讀數據\n原圖年均溫21.4°C、年降水量僅26 mm，月降水柱全年都很低，顯示最突出的特徵是極乾燥。本題位置指向開羅，教材分類選B熱帶沙漠氣候。\n\n二、地點有河流，不代表當地多雨\n開羅靠尼羅河獲取水源，但河水可來自上游降雨，不能因位於河流三角洲頂點，就把當地氣候判成多雨。氣候類型仍應依當地氣溫與降水判讀。\n\n三、排除A、C、D\n高地氣候需有高海拔的降溫等條件，原圖不支持。溫帶季風與地中海型都不會像原圖全年總雨量只有26 mm；地中海型尤其應有明顯冬雨。本題熱帶沙漠是教材區域分類名稱，並非聲稱每個月均溫都超過18°C。",
-  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "title": "全年僅26mm，河水不能代替當地雨量",
+  "art": "docs/comics/art/q-1062-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 先讀全年總雨量",
-      "text": "原圖年均溫21.4°C、年雨量26 mm，最突出的是全年極乾燥。",
-      "alt": "先讀全年總雨量",
-      "diagram": {
-        "kind": "paths",
-        "title": "先讀全年總雨量",
-        "items": [
-          {
-            "label": "年均溫",
-            "detail": "21.4°C",
-            "tone": "blue"
-          },
-          {
-            "label": "年降水量",
-            "detail": "僅26 mm",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "全年少雨"
-      }
+      "heading": "① 年降水量只有26 mm",
+      "text": "原圖明印年降水量26 mm，月降水柱全年都很低。第一圖將全年總量畫在量尺上；不是猜補各月雨量。極乾燥是本題最重要的線索。",
+      "caption": "新製量尺圖｜0～100 mm為顯示刻度，不是氣候分類門檻。",
+      "alt": "年總雨量26 mm在0至100 mm量尺上以藍色水面精確標在26的位置。",
+      "image": "docs/comics/art/q-1062-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 有河不等於當地多雨",
-      "text": "開羅靠尼羅河取得水源；上游流來的河水不能代替當地氣候數據。",
-      "alt": "有河不等於當地多雨",
-      "diagram": {
-        "kind": "flow",
-        "title": "有河不等於當地多雨",
-        "items": [
-          {
-            "label": "尼羅河水",
-            "detail": "可來自上游",
-            "tone": "blue"
-          },
-          {
-            "label": "當地氣候",
-            "detail": "仍依當地雨量判斷",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "② 有尼羅河，不等於當地多雨",
+      "text": "第二圖分開畫上游降雨與流向開羅的河水。河流可把上游水帶到乾燥地區；看到尼羅河，不能直接推論開羅當地降水豐富。",
+      "caption": "新製河水來源示意｜不是地圖、實際河道或降雨位置圖。",
+      "alt": "下方上游降雨匯入河水，藍色河流由上游流向下游開羅，開羅位於分流前；周圍為乾燥地區。",
+      "image": "docs/comics/art/q-1062-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 排除應有雨季的類型",
-      "text": "溫帶季風與地中海型都有較明顯雨季；圖中全年少雨符合教材熱帶沙漠類型。",
-      "alt": "排除應有雨季的類型",
-      "diagram": {
-        "kind": "paths",
-        "title": "排除應有雨季的類型",
-        "items": [
-          {
-            "label": "原圖全年",
-            "detail": "月雨量都很低",
-            "tone": "blue"
-          },
-          {
-            "label": "教材分類",
-            "detail": "熱帶沙漠氣候",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "B 熱帶沙漠"
-      }
+      "heading": "③ 全年少雨，不能只憑冬季選地中海型",
+      "text": "第三圖只比較雨季形狀：溫帶季風常見較明顯夏雨，地中海型有冬雨、夏乾。本題全年總共僅26 mm，不能只因冬季有一點雨就選D。",
+      "caption": "新製概念比較｜柱高沒有數值，不冒充原卷月資料或真實測站。",
+      "alt": "三列分別為全年雨柱都低、夏季雨柱較高、冬季雨柱較高的概念圖，標明冬春夏秋。",
+      "image": "docs/comics/art/q-1062-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(B) 熱帶沙漠氣候",
+    "answer": "答案 B：教材的熱帶沙漠氣候",
     "points": [
-      "年雨量僅26 mm，全年極乾燥。",
-      "河水不代表當地降雨多。",
-      "教材分類選B熱帶沙漠。"
-    ]
+      "第四圖只畫原卷兩個全年數字：21.4°C、26 mm。",
+      "最突出的判讀線索是極乾燥，依本題教材分類選B。",
+      "保留原說明：熱帶沙漠名稱不代表每個月均溫都高於18°C。"
+    ],
+    "image": "docs/comics/art/q-1062-four-image-v2-panel-4.svg",
+    "alt": "以年均溫為橫軸、年降水量為縱軸，只標原卷21.4°C與26 mm的單一點；未新增其他城市或分類界線。"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1062-art-62f6de3cdc.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "26 mm",
+    "21.4°C",
+    "熱帶沙漠氣候",
+    "地中海型",
+    "尼羅河",
+    "開羅",
+    "18°C"
+  ],
+  "generationMethod": "four authored native SVG quantitative annual gauge, river-source diagram, qualitative seasonal comparison, and two-variable annual plot",
+  "generatorFile": "docs/comics/biology-rework-20261112/q-1062/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1062-original-b71eecfe94ce.jpg",
+    "site/dist/assets/questions/q-1062-figure-35fee275dca5.jpg"
+  ],
+  "answerCheckedAgainst": "完整原卷第7題及氣候附圖實看：年均溫21.4°C、年降水26 mm；原B不變，四選項保持。",
+  "rationale": "四張分開表示年雨量、河水來源、雨季概念差異與全年溫雨資料。只引用原卷可確讀的兩個年數字，不杜撰月雨量/溫度；圖3是無數值概念比較而非新氣候資料。",
+  "producerAgent": "/root/comic_lane_1",
+  "visualChecked": true,
+  "sources": [
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/cairo-egypt-2813/",
+      "support": "NASA：開羅在尼羅河沿岸，河流綠帶外為乾旱撒哈拉，不能以河流代表多雨。"
+    },
+    {
+      "url": "https://nileresearch.org/about-the-nile-basin/climate_and_hydrometeorology/",
+      "support": "ENRUC流域研究資料：尼羅流域上游與下游雨量不同，下游受上游來水影響。"
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones",
+      "support": "Met Office：沙漠極乾燥，地中海型夏乾冬雨。"
+    },
+    {
+      "url": "https://soilhealth.ucdavis.edu/climatic-zones/mediterranean",
+      "support": "UC Davis：地中海型雨季在冬季、夏乾；用作無數值概念比較，不移用外站數據。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "productionReviewFile": "docs/comics/biology-rework-20261112/q-1062/production-review.json",
+  "nativeArt": "assets/comics/q-1062-art-f419661565.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -104,20 +91,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:21:44.746376+00:00",
     "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
     "actualViewed": [
-      "docs/imports/new-gpt-20261111/qa/comics-1061-1062.jpg"
+      "/tmp/weirugo-comic-checks/q-1062-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1062-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1062-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1062-standalone-390.png"
     ],
-    "originalViewed": [
-      "docs/imports/new-gpt-20261111/q-1062-original.jpg"
-    ],
-    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-11T15:42:18.180262+00:00",
+  "checkedAt": "2026-11-11T17:21:44.755102+00:00",
   "validationFile": "docs/comics/q-1062-validation.json"
 }

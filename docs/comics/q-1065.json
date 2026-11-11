@@ -1,96 +1,84 @@
 {
   "id": "q-1065",
   "subject": "Geography",
-  "title": "西風帶與北非山地降水",
-  "art": "docs/comics/art/q-1065-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261111/q-1065-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、先分清盛行風帶與亞洲季風\n北非地中海沿岸冬半年受中緯度西風帶影響，可從海上帶入水氣。濕空氣遇亞特拉斯山地抬升冷卻，形成地形降水，故選D盛行西風。\n\n二、為何不是西南季風\n西南季風是臺灣、南亞及東亞夏季常見的季風線索，不能只因風吹自海上、帶有水氣，就把所有地方都套成西南季風。此題位置在西北非及地中海沿岸，應先判區域與緯度風帶。\n\n三、四選項的差別\nA、B、C是季風名稱；D是中緯度行星風帶。亞特拉斯山地可以截留部分水氣，並不表示題幹所列國家的所有地點都多雨。",
-  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "title": "西風送來海上水氣，山地抬升形成降水",
+  "art": "docs/comics/art/q-1065-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 先看區域與季節",
-      "text": "北非地中海沿岸冬半年受中緯度西風帶影響，海上水氣隨風移入。",
-      "alt": "先看區域與季節",
-      "diagram": {
-        "kind": "flow",
-        "title": "先看區域與季節",
-        "items": [
-          {
-            "label": "冬半年",
-            "detail": "西風帶影響",
-            "tone": "blue"
-          },
-          {
-            "label": "海上氣流",
-            "detail": "帶來水氣",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "① 西風是從西側吹來的風",
+      "text": "第一圖以風向箭頭和北半球中緯度風帶示意盛行西風。題目位置是北非地中海沿岸，冬半年可受西風帶影響。",
+      "caption": "新製風帶概念圖｜箭頭表示來向，不是實際地圖或當日預報。",
+      "alt": "球面中緯度帶與由西側吹向東側的箭頭，左右標明西與東。",
+      "image": "docs/comics/art/q-1065-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 濕氣遇山抬升",
-      "text": "亞特拉斯山地攔截部分濕氣，氣流抬升冷卻，形成降水。",
-      "alt": "濕氣遇山抬升",
-      "diagram": {
-        "kind": "flow",
-        "title": "濕氣遇山抬升",
-        "items": [
-          {
-            "label": "帶水氣的西風",
-            "detail": "遇到山地",
-            "tone": "blue"
-          },
-          {
-            "label": "抬升冷卻",
-            "detail": "地形降水",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "② 海上濕氣遇山抬升、冷卻",
+      "text": "第二圖畫海洋與山地剖面：帶水氣的氣流被地形迫使上升，冷卻後可凝結成雲、形成降水。這是亞特拉斯山地截留部分水氣的機制。",
+      "caption": "新製機制剖面｜箭頭由海洋移入並沿迎風坡抬升。",
+      "alt": "藍色氣流從海洋向山地抬升，迎風坡上方有雲和雨線；山地非實際剖面比例。",
+      "image": "docs/comics/art/q-1065-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 不直接套亞洲季風",
-      "text": "東北、西南、西北季風都不是本題要找的中緯度盛行風帶名稱。",
-      "alt": "不直接套亞洲季風",
-      "diagram": {
-        "kind": "paths",
-        "title": "不直接套亞洲季風",
-        "items": [
-          {
-            "label": "地點",
-            "detail": "北非地中海沿岸",
-            "tone": "blue"
-          },
-          {
-            "label": "風帶",
-            "detail": "盛行西風",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "D 盛行西風"
-      }
+      "heading": "③ 有地形雨，不代表全國都多雨",
+      "text": "第三圖比較迎風與背風：迎風側較有利於降水，越過山地後水氣可能減少。不能把題幹的寶貴水源，理解成突尼西亞、阿爾及利亞所有地點都很濕潤。",
+      "caption": "新製兩側比較｜只示地形效應，不給虛構雨量數值。",
+      "alt": "迎風側以藍色氣流、雲雨表示較有利降水；背風側為水氣減少的氣流及較乾燥山坡。",
+      "image": "docs/comics/art/q-1065-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(D) 盛行西風",
+    "answer": "答案 D：盛行西風",
     "points": [
-      "北非冬半年受西風帶影響。",
-      "海上水氣遇山抬升降水。",
-      "選盛行西風，不套亞洲季風。"
-    ]
+      "第四圖以降水沿山坡匯成溪流，連結題幹的寶貴水源。",
+      "選項A、B、C是季風名稱；本題要辨認中緯度盛行風帶。",
+      "先判位置與風帶，不能只因來自海上，就套成亞洲西南季風。"
+    ],
+    "image": "docs/comics/art/q-1065-four-image-v2-panel-4.svg",
+    "alt": "西風從海洋帶來濕氣，山坡降水沿分支匯為溪流；河道為新製教學示意。"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1065-art-62f6de3cdc.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "盛行西風",
+    "西風帶",
+    "亞特拉斯山地",
+    "阿爾及利亞",
+    "突尼西亞",
+    "地形雨",
+    "迎風側",
+    "背風側"
+  ],
+  "generationMethod": "four authored native SVG wind-belt, mountain-airflow, rain-shadow and catchment diagrams",
+  "generatorFile": "docs/comics/biology-rework-20261112/q-1065/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1065-original-cad68550fbab.jpg"
+  ],
+  "answerCheckedAgainst": "已實看完整原卷第16題及四選項；北非亞特拉斯山地攔截海上濕氣，原答案D盛行西風保持。",
+  "rationale": "原先為文字流程框；四張新製實際概念圖分別表示風帶來向、地形抬升、迎背風差異與降水匯流。不畫未查證國界、特定河川或量測數據，不新增原題條件。",
+  "producerAgent": "/root/comic_lane_1",
+  "visualChecked": true,
+  "sources": [
+    {
+      "url": "https://eol.jsc.nasa.gov/Collections/EarthObservatory/articles/WetAndDryMorocco.htm",
+      "support": "NASA/JSC：大西洋西風帶來水氣，Atlas隔開較濕沿岸與撒哈拉；山地有雨影效應。"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/faq/what-effect-do-mountainous-orographic-regions-have-measuring-precipitation",
+      "support": "NASA GPM：氣流被地形迫升、冷卻，可增強降水。"
+    },
+    {
+      "url": "https://www.adaptation-undp.org/explore/arab-states/tunisia",
+      "support": "UNDP：突尼西亞北部地中海氣候冬季較有雨，其他區域為半乾旱或沙漠；不能概括全國多雨。"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/facts/horse-latitudes.html",
+      "support": "NOAA：副熱帶向高緯度的氣流為盛行西風；圖示風帶是概念而非固定天氣。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "productionReviewFile": "docs/comics/biology-rework-20261112/q-1065/production-review.json",
+  "nativeArt": "assets/comics/q-1065-art-236a462387.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -103,20 +91,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:16:45.492935+00:00",
     "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
     "actualViewed": [
-      "docs/imports/new-gpt-20261111/qa/comics-1065-1066.jpg"
+      "/tmp/weirugo-comic-checks/q-1065-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1065-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1065-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1065-standalone-390.png"
     ],
-    "originalViewed": [
-      "docs/imports/new-gpt-20261111/q-1065-original.jpg"
-    ],
-    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-11T15:42:18.312178+00:00",
+  "checkedAt": "2026-11-11T17:16:45.501050+00:00",
   "validationFile": "docs/comics/q-1065-validation.json"
 }

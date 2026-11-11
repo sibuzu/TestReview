@@ -1,0 +1,110 @@
+{
+  "questionId": "q-102",
+  "checkedAt": "2026-11-11T17:09:25.523156+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "B",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "逐物點數3個完整染色體單位",
+        "各單位兩姊妹分體在一處著絲點連接，不各當1條",
+        "三條相似短染色體，著絲點近端，上臂短於下臂"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "逐物點數2單位，左X較大、右Y較小",
+        "無第三條，不畫XXY",
+        "Y非字母Y三叉，仍兩分體連在著絲點"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "有核動物細胞，核內鬆散染色質",
+        "不畫假完整47條排列",
+        "體/性分類屬同核遺傳物質，精確計數以原卷/HTML驗算"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "逐物點數左3、右2、局部共5完整單位",
+        "粉紅為左21組，紫色右X/Y，對應HTML左右文字",
+        "明確說局部5條不是全套47，避免數目誤導"
+      ]
+    }
+  ],
+  "explicitCounts": {
+    "panel1": 3,
+    "panel2": 2,
+    "panel4Left": 3,
+    "panel4Right": 2,
+    "panel4SubsetTotal": 5,
+    "originalAutosomes": 45,
+    "originalSexChromosomes": 2,
+    "originalTotal": 47
+  },
+  "references": [
+    {
+      "url": "https://medlineplus.gov/genetics/chromosome/21/",
+      "support": "MedlinePlus官方：通常有兩條21號染色體；21三體為三條。"
+    },
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Autosome",
+      "support": "NHGRI：通常22對體染色體加一對性染色體，分類計數不可混淆。"
+    }
+  ],
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-102-biology-v2-panel-1.png",
+      "sha256": "754de5077a3b2e7b15945d70061c6baba1e0714869ba1af2f02931d1442230d2",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-102-biology-v2-panel-2.png",
+      "sha256": "9434b2c18411a0638c3585d574c7a5306e53d1421f7dab6f890d692e8618ca8e",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-102-biology-v2-panel-3.png",
+      "sha256": "529a11027020bbd7fd26962bcc3f3ce66610620808830dd377be9c6a31ee431c",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-102-biology-v2-panel-4.png",
+      "sha256": "3e6f028f492a76345b7b0e4d66fb6fe9dff4d5e83e8e47ee7337420b867c9278",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原B與先前21組/XY核型更正保留，僅替換四圖，不重開已確認同項。",
+  "isolatedPreview": {
+    "passed": true,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "actualViewed": [
+      "/tmp/weirugo-comic-previews/q-102-1440.png",
+      "/tmp/weirugo-comic-previews/q-102-390.png"
+    ],
+    "images": 4,
+    "noDocumentOverflow": true,
+    "noTextLoss": true,
+    "countsVisuallyRechecked": [
+      3,
+      2,
+      5
+    ]
+  }
+}

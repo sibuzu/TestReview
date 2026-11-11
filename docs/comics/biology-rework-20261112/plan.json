@@ -2,7 +2,7 @@
   "kind": "four_image_biology_and_missing_rework",
   "state": "active",
   "createdAt": "2026-11-11T16:27:16.335709+00:00",
-  "updatedAt": "2026-11-11T17:03:27.320579+00:00",
+  "updatedAt": "2026-11-11T18:04:06.634125+00:00",
   "worknerdTaskId": "t_a87b51180cc247a88d16",
   "goalActive": true,
   "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
@@ -17,7 +17,7 @@
   "questionPageCount": 130,
   "originalQuestionCount": 140,
   "requiredImageCount": 560,
-  "completedQuestionPages": 19,
+  "completedQuestionPages": 39,
   "questionIds": [
     "q-046",
     "q-044",
@@ -311,12 +311,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-050"
+      ],
       "assignedTo": "/root/comic_lane_1",
-      "startedAt": "2026-11-11T16:55:16.484732+00:00"
+      "startedAt": "2026-11-11T16:55:16.484732+00:00",
+      "completedAt": "2026-11-11T17:08:43.948659+00:00",
+      "validationFiles": [
+        "docs/comics/q-050-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-101",
@@ -328,12 +335,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
-      "assignedTo": "/root/comic_lane_3",
-      "startedAt": "2026-11-11T17:01:13.721052+00:00"
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-101"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:01:13.721052+00:00",
+      "completedAt": "2026-11-11T17:08:43.996114+00:00",
+      "validationFiles": [
+        "docs/comics/q-101-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-102",
@@ -345,10 +359,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-102"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:05:30.581525+00:00",
+      "completedAt": "2026-11-11T17:10:48.874139+00:00",
+      "validationFiles": [
+        "docs/comics/q-102-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-103",
@@ -360,10 +383,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-103"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:10:14.460932+00:00",
+      "completedAt": "2026-11-11T17:21:44.807392+00:00",
+      "validationFiles": [
+        "docs/comics/q-103-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-104",
@@ -375,10 +407,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-104"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:20:24.783451+00:00",
+      "completedAt": "2026-11-11T17:34:19.763702+00:00",
+      "validationFiles": [
+        "docs/comics/q-104-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-280",
@@ -390,10 +431,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-280"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:30:40.889141+00:00",
+      "completedAt": "2026-11-11T17:40:12.476275+00:00",
+      "validationFiles": [
+        "docs/comics/q-280-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-290",
@@ -406,10 +456,19 @@
         "biology_quality_upgrade",
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-290"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:39:24.483432+00:00",
+      "completedAt": "2026-11-11T18:04:05.401168+00:00",
+      "validationFiles": [
+        "docs/comics/q-290-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-291",
@@ -421,10 +480,12 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:44:26.739474+00:00"
     },
     {
       "id": "q-305",
@@ -436,10 +497,12 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T17:53:58.821992+00:00"
     },
     {
       "id": "q-306",
@@ -1220,10 +1283,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-711"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:09:19.956300+00:00",
+      "completedAt": "2026-11-11T17:12:07.096965+00:00",
+      "validationFiles": [
+        "docs/comics/q-711-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-729",
@@ -1235,10 +1307,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-729"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:15:49.119196+00:00",
+      "completedAt": "2026-11-11T17:34:19.814887+00:00",
+      "validationFiles": [
+        "docs/comics/q-729-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-734",
@@ -1250,10 +1331,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-734"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:15:49.119209+00:00",
+      "completedAt": "2026-11-11T17:34:19.868973+00:00",
+      "validationFiles": [
+        "docs/comics/q-734-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-737",
@@ -1265,10 +1355,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-737"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:15:49.119214+00:00",
+      "completedAt": "2026-11-11T17:34:19.921955+00:00",
+      "validationFiles": [
+        "docs/comics/q-737-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-738",
@@ -1280,10 +1379,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-738"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:15:49.119218+00:00",
+      "completedAt": "2026-11-11T17:34:19.972713+00:00",
+      "validationFiles": [
+        "docs/comics/q-738-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-744",
@@ -1295,10 +1403,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-744"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:32:08.449114+00:00",
+      "completedAt": "2026-11-11T18:04:05.471717+00:00",
+      "validationFiles": [
+        "docs/comics/q-744-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-748",
@@ -1310,10 +1427,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-748"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:32:08.449127+00:00",
+      "completedAt": "2026-11-11T18:04:05.535565+00:00",
+      "validationFiles": [
+        "docs/comics/q-748-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-750",
@@ -1325,10 +1451,12 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:43:57.794454+00:00"
     },
     {
       "id": "q-751",
@@ -1340,10 +1468,12 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:43:57.794469+00:00"
     },
     {
       "id": "q-752",
@@ -1355,10 +1485,12 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:51:20.375318+00:00"
     },
     {
       "id": "q-758",
@@ -1370,10 +1502,12 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T17:51:20.375331+00:00"
     },
     {
       "id": "q-760",
@@ -1385,10 +1519,12 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:00:09.341529+00:00"
     },
     {
       "id": "q-762",
@@ -1445,10 +1581,12 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:00:09.341553+00:00"
     },
     {
       "id": "q-921",
@@ -2172,10 +2310,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1058"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:41:20.965801+00:00",
+      "completedAt": "2026-11-11T18:04:05.318596+00:00",
+      "validationFiles": [
+        "docs/comics/q-1058-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-1059",
@@ -2202,10 +2349,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1060"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:28:29.322739+00:00",
+      "completedAt": "2026-11-11T17:34:19.711301+00:00",
+      "validationFiles": [
+        "docs/comics/q-1060-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-1061",
@@ -2217,10 +2373,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1061"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:35:43.206157+00:00",
+      "completedAt": "2026-11-11T17:38:56.514408+00:00",
+      "validationFiles": [
+        "docs/comics/q-1061-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-1062",
@@ -2232,10 +2397,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1062"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:18:36.262277+00:00",
+      "completedAt": "2026-11-11T17:21:44.755102+00:00",
+      "validationFiles": [
+        "docs/comics/q-1062-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-1063",
@@ -2262,10 +2436,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1064"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:24:28.406989+00:00",
+      "completedAt": "2026-11-11T17:27:16.170820+00:00",
+      "validationFiles": [
+        "docs/comics/q-1064-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-1065",
@@ -2277,10 +2460,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1065"
+      ],
+      "assignedTo": "/root/comic_lane_1",
+      "startedAt": "2026-11-11T17:13:14.998849+00:00",
+      "completedAt": "2026-11-11T17:16:45.501050+00:00",
+      "validationFiles": [
+        "docs/comics/q-1065-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-1066",
@@ -2315,8 +2507,8 @@
   ],
   "textOnlyAdditionalQuestionPageCount": 53,
   "initialFieldAuditQuestionPages": 77,
-  "completedOriginalQuestions": 20,
-  "completedImages": 80,
+  "completedOriginalQuestions": 40,
+  "completedImages": 160,
   "publishedBatches": [
     {
       "batchNumber": 33,

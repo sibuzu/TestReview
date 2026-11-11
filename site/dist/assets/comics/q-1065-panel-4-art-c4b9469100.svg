@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d5edfa"/><stop offset="1" stop-color="#fff8e9"/></linearGradient>
+<linearGradient id="sea" x2="0" y2="1"><stop stop-color="#6dc6df"/><stop offset="1" stop-color="#267896"/></linearGradient>
+<linearGradient id="slope"><stop stop-color="#61956a"/><stop offset=".55" stop-color="#a9b184"/><stop offset="1" stop-color="#c6a470"/></linearGradient>
+<marker id="blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#187697"/></marker>
+<marker id="gold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b77530"/></marker>
+</defs><rect width="600" height="600" rx="22" fill="url(#sky)"/>
+<g font-family="Noto Sans CJK TC, sans-serif" font-size="30" fill="#23434c" text-anchor="middle"><text x="300" y="48" font-weight="bold">部分降水匯集成水源</text><path d="M0 480H135L220 352L296 266L347 212L395 306L455 354L520 440L600 465V600H0Z" fill="url(#slope)"/><path d="M135 480L220 352L296 266L347 212L395 306L455 354L520 440" fill="none" stroke="#516d56" stroke-width="5"/><path d="M347 212L327 287L359 269L395 306" fill="#dbd9bd" opacity=".8"/><g transform="translate(285 132) scale(0.75)" fill="#f6fcff" stroke="#91afbd" stroke-width="3"><path d="M-75 35C-120 35-122-17-80-22C-85-65-28-80-9-47C20-90 84-57 70-18C122-12 115 40 70 40H-75Z"/></g><path d="M213 175l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M232 175l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M251 175l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M270 175l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M289 175l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/><path d="M308 175l-12 30" stroke="#2589b0" stroke-width="7" stroke-linecap="round"/>
+<path d="M277 299Q252 337 243 365Q228 386 212 415Q191 441 183 475Q168 504 191 526Q222 559 277 600" fill="none" stroke="#307fac" stroke-width="15" stroke-linecap="round"/>
+<path d="M205 366Q218 404 212 415M282 388Q260 423 207 447M131 465Q150 485 177 490" fill="none" stroke="#53a7c4" stroke-width="7" stroke-linecap="round"/>
+<path d="M0 480H110V600H0Z" fill="url(#sea)"/>
+<path d="M38 333C123 326 179 258 212 213" fill="none" stroke="#187697" stroke-width="10" marker-end="url(#blue)"/>
+<text x="90" y="290" font-size="25">西風帶來水氣</text>
+<text x="435" y="491" font-size="28">溪流、水源</text>
+<path d="M382 481L230 507" stroke="#23434c" stroke-width="3"/>
+<text x="398" y="559" font-size="23">新製匯流示意，非實際河道</text></g></svg>

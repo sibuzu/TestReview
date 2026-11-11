@@ -1,0 +1,122 @@
+{
+  "id": "q-1064",
+  "subject": "Geography",
+  "title": "亞特拉斯山脈與摩洛哥氣候",
+  "art": "docs/comics/art/q-1064-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1064-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先定位摩洛哥\n摩洛哥在非洲西北部，南方、東南方接近撒哈拉沙漠。穿越摩洛哥等西北非國家的亞特拉斯山脈，是本題描述的地形屏障，因此選C。\n\n二、山脈如何影響氣候\n山地會改變氣流移動，迎風坡可攔截海上水氣，較高海拔也有降溫作用；在本題教材的區域比較中，山脈並有助減弱南方沙漠熱乾空氣對北部的影響。這不是一堵完全封閉的牆，不能說沙漠空氣絕對無法越過，也不能用單一因素解釋全國所有地點的氣候。\n\n三、逐項排除\n阿拉伯高原、安納托力亞高原位於西亞；東非大裂谷位於非洲東部，都不在摩洛哥南側的題述位置。由摩洛哥→西北非→亞特拉斯山脈的定位順序，比只記熱或冷更可靠。\n\n四、來源圖片的處理\n原對話另有圖解未載入的介面截圖，它不是原卷。本題保留真正原卷，另製可直接讀取的地形與氣流關係圖，不沿用空白來源圖。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 摩洛哥定位西北非",
+      "text": "先找到非洲西北角的摩洛哥，南方與東南方靠近撒哈拉。",
+      "alt": "摩洛哥定位西北非",
+      "diagram": {
+        "kind": "flow",
+        "title": "摩洛哥定位西北非",
+        "items": [
+          {
+            "label": "摩洛哥",
+            "detail": "非洲西北部",
+            "tone": "blue"
+          },
+          {
+            "label": "撒哈拉",
+            "detail": "在其南方、東南方",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 山脈改變氣流與高度",
+      "text": "亞特拉斯山脈可攔截水氣，海拔也能降溫，並減弱部分熱乾氣流影響。",
+      "alt": "山脈改變氣流與高度",
+      "diagram": {
+        "kind": "flow",
+        "title": "山脈改變氣流與高度",
+        "items": [
+          {
+            "label": "海上濕氣",
+            "detail": "遇山抬升",
+            "tone": "blue"
+          },
+          {
+            "label": "山地屏障",
+            "detail": "影響氣流與溫度",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 區域比熱冷字眼可靠",
+      "text": "阿拉伯、安納托力亞在西亞，東非裂谷在非洲東部；只有亞特拉斯位置相符。",
+      "alt": "區域比熱冷字眼可靠",
+      "diagram": {
+        "kind": "paths",
+        "title": "區域比熱冷字眼可靠",
+        "items": [
+          {
+            "label": "題幹地點",
+            "detail": "西北非摩洛哥",
+            "tone": "blue"
+          },
+          {
+            "label": "符合山脈",
+            "detail": "亞特拉斯",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "C 亞特拉斯山脈"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 亞特拉斯山脈",
+    "points": [
+      "摩洛哥位於非洲西北部。",
+      "亞特拉斯影響氣流、水氣與高度。",
+      "屏障不是完全阻絕空氣的牆。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1064-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1063-1064.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1064-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.268506+00:00",
+  "validationFile": "docs/comics/q-1064-validation.json"
+}

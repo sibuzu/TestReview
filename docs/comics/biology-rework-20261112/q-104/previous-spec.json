@@ -1,0 +1,64 @@
+{
+  "id": "q-104",
+  "subject": "Biology",
+  "title": "少量觀察不等於理論機率",
+  "art": "docs/comics/art/q-104.png",
+  "protectedWords": [
+    "Bb×Bb",
+    "BB、Bb、Bb、bb",
+    "75%",
+    "25%",
+    "理論比例"
+  ],
+  "panels": [
+    {
+      "heading": "① 白毛子代反推雙親都有b",
+      "text": "白毛是bb，父母必各提供b；題目又說雙親都是黑毛，所以各為Bb。不能把其中一隻改成白毛的bb。",
+      "alt": "黑毛親代的觀察情境，不由插畫決定完整家族數量或基因型。"
+    },
+    {
+      "heading": "② 理論黑毛比例是75%",
+      "text": "Bb×Bb的等機會組合為BB、Bb、Bb、bb。前三種組合表現黑毛，理論機率為3／4＝75%。不是每四隻必定3黑1白。",
+      "alt": "整理遺傳關係的學習情境；精確四組合與比例均由旁邊文字列出。"
+    },
+    {
+      "heading": "③ 四隻的25%不是固定機率",
+      "text": "目前1黑3白，黑毛占25%，只是小樣本結果。子代增加，觀察比例較可能接近75%；不保證每多一隻都上升。",
+      "alt": "累積更多觀察紀錄，不用畫出固定黑白比或保證平滑上升的實測圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：由25%趨近75%",
+    "points": [
+      "兩隻黑毛能生白毛：雙親皆Bb。",
+      "理論3／4，和目前觀察1／4是不同概念。",
+      "原選項畫長期趨勢；實際過程可能上下波動。"
+    ]
+  },
+  "rationale": "已實看第24題完整原卷含四張曲線，獨立枚舉雙親B/b配子得到BB/Bb/Bb/bb，確認黑毛3/4。初始1/4並非親代Bb×bb證據；原手寫錯式不沿用。新圖只呈現觀察與累積紀錄，精確遺傳型、組合與趨勢由HTML/原卷圖表示，不讓AI決定動物數量比例或平滑曲線。無既有AI圖。",
+  "generationMethod": "built-in image_gen",
+  "promptFile": "docs/comics/q-104-prompt.txt",
+  "originalMaterialsChecked": true,
+  "visualChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-104-source-d19e880b84.jpg"
+  ],
+  "answerCheckedAgainst": "雙親黑毛且生白毛，皆Bb；四等機會配子組合黑毛3/4，D表75%長期趨勢。",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "d99d772ed04e8dd35e1e9e3d73d0af998d63c9b3aab20d2a667ae3d330132085",
+  "createdAt": "2026-10-28T19:39:16.596427+00:00",
+  "checkedAt": "2026-10-28T19:43:53.284145+00:00",
+  "validationFile": "docs/comics/q-104-validation.json",
+  "nativeArt": "assets/comics/q-104-art-d99d772ed0-web.webp"
+}

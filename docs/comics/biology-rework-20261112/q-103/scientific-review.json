@@ -1,0 +1,125 @@
+{
+  "questionId": "q-103",
+  "checkedAt": "2026-11-11T17:18:16.242640+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "C",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "單一組合4條：1藍長、1橘長、2綠短",
+        "兩長等長、兩短等長",
+        "不把一根畫成兩條分體或多出片段"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "左AB2條、右aB2條，共4",
+        "每組只1長1短，BB均只取B",
+        "透明輪廓僅組合模型，不當整顆單細胞花粉或減數分裂全部產物"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "左右各4，總8條",
+        "每組各1藍長/1橘長/2綠短",
+        "基因組合兩組均AaBB，非Aabb"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "上4，下左2，下右2，總8",
+        "各組顏色/長短與前三圖對應",
+        "沒有箭頭把2種可能誤作一次分裂只產2細胞"
+      ]
+    }
+  ],
+  "explicitCounts": {
+    "panel1": 4,
+    "panel2Groups": [
+      2,
+      2
+    ],
+    "panel3Groups": [
+      4,
+      4
+    ],
+    "panel4Groups": [
+      4,
+      2,
+      2
+    ]
+  },
+  "references": [
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Meiosis",
+      "support": "NHGRI科普：減數分裂使配子染色體由雙套到單套；完整分裂有四個單套產物，本題圖只列組合可能性。"
+    }
+  ],
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-103-biology-v2-panel-1.png",
+      "sha256": "7f7bfa6cb7cbe50b5d48cb8fd0e024e71271e25ae3bcefd932ea4e2ed13b0615",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-103-biology-v2-panel-2.png",
+      "sha256": "dc014b75f32c329a444b4d8a4b5c0e8310f984fc0ea9411f8854fa1552da9e4b",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-103-biology-v2-panel-3.png",
+      "sha256": "682570738560c109e381b0895e3eae74c005696db820fa05f9df92abfa9aab96",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-103-biology-v2-panel-4.png",
+      "sha256": "dd8bb08a7ebfa6add57c318a78f8cd886e0c273166e27f2d5b50488e59006a95",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原C及AaBB/AB/aB/圖七Aabb條件全保留，僅美術與四圖升級，不重開既有內容確認。",
+  "isolatedPreview": {
+    "passed": true,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "actualViewed": [
+      "/tmp/weirugo-comic-previews/q-103-1440.png",
+      "/tmp/weirugo-comic-previews/q-103-390.png"
+    ],
+    "images": 4,
+    "noDocumentOverflow": true,
+    "noTextLoss": true,
+    "countsVisuallyRechecked": [
+      [
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        2,
+        2
+      ]
+    ]
+  }
+}

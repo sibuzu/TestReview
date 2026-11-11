@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.b1dfc4bc9949",
+  "revision": "2026-10-27.2d14ddb1d263",
   "subjects": [
     {
       "id": "Chinese",
@@ -7856,32 +7856,40 @@
       "questionFigures": [],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "依文章找證據，再分清遺傳與染色體分類",
-        "art": "assets/comics/q-050-art-84f173c326-web.webp",
+        "title": "腦屬中樞神經；遺傳、染色體與檢測分清",
+        "art": "assets/comics/q-050-art-f61d567376-web.webp",
         "panels": [
           {
-            "heading": "① 文中腦部傷害，支持A",
-            "text": "文章明說腦部傷害，而腦和脊髓構成中樞神經系統。因此依本文判斷，A有明確依據，不用從其他細節自行猜測。",
-            "alt": "正常腦模型用來理解腦屬中樞神經，不把患者外觀或每個病例都畫成相同傷害。"
+            "heading": "① 文中腦部傷害，直接支持A",
+            "text": "腦與脊髓構成中樞神經系統。文章明說腦部傷害，所以依本文推論，A有明確證據；不必猜患者外觀。",
+            "alt": "新製類真實正常中樞神經教學模型：上方完整腦，下方腦幹連續接脊髓，沒有患者傷害或疾病外觀刻板印象。",
+            "caption": "正常解剖模型｜腦與下方脊髓屬中樞神經。",
+            "image": "assets/comics/q-050-art-f61d567376-web.webp"
           },
           {
-            "heading": "② 遺傳，不等於接觸傳染",
-            "text": "題幹說的是體染色體隱性遺傳疾病，基因可由親代傳給子代。不能改寫成經一般接觸就把疾病傳給旁人，B把兩者混淆。",
-            "alt": "日常家庭相處，不畫病菌接觸傳播，也不以特殊膚髮色標記患者。"
+            "heading": "② 基因遺傳，不是接觸傳染",
+            "text": "DNA是遺傳物質。題文的疾病可經基因由親代遺傳給子代，不能把這件事改寫成經一般接觸傳染給旁人，所以B不對。",
+            "alt": "新製類真實DNA雙股螺旋分子教學模型：兩條纏繞骨架由內部成對橫桿連結，不畫病菌、人際傳染箭頭或特定基因序列。",
+            "caption": "DNA構造模型｜遺傳物質，不是病菌。",
+            "image": "assets/comics/q-050-panel-2-art-d3876169ce-web.webp"
           },
           {
-            "heading": "③ 46條是全部，不是全為體染色體",
-            "text": "一般人體神經細胞共有46條染色體，其中44條是體染色體，另有2條性染色體。C漏看了體染色體這個限定。",
-            "alt": "分類資訊的教學情境，46/44/2的精確數字由HTML表示，不讓AI畫錯染色體數量。"
+            "heading": "③ 46是全部，不是全為體染色體",
+            "text": "細胞核內的遺傳物質形成染色質。一般人體神經細胞共有46條染色體：44條體染色體＋2條性染色體。C的限定詞錯了。",
+            "alt": "新製類真實細胞核剖面：雙層核膜、少量核孔、內部鬆散染色質與核仁；不畫神經細胞分裂或錯誤全套染色體數量。",
+            "caption": "細胞核放大模型｜數量分類依本格文字。",
+            "image": "assets/comics/q-050-panel-3-art-dd00a79d46-web.webp"
           }
         ],
         "fourth": {
-          "answer": "答案 A：腦屬中樞神經，符合文意",
+          "answer": "答案 A：腦屬中樞神經，符合本文",
           "points": [
-            "先用本文明示的腦部傷害支持A。",
-            "46條全部染色體＝44條體染色體＋2條性染色體。",
-            "基因檢測能提供資訊，不等於檢測本身治癒疾病。"
-          ]
+            "第四圖以細胞樣本檢查為例：檢測提供資訊，不等於治癒，D不對。",
+            "46條全部＝44條體染色體＋2條性染色體。",
+            "依文章明示的腦部傷害支持A；不把每位患者都畫成同一症狀。"
+          ],
+          "image": "assets/comics/q-050-panel-4-art-427115c238-web.webp",
+          "alt": "新製類真實細胞樣本放大教學模型：有核動物細胞在檢體容器中，背景有觀察儀器；沒有穿刺操作、藥物或治癒效果，不代表細胞的實際可見尺寸。"
         },
         "protectedWords": [
           "中樞神經",
@@ -7890,7 +7898,8 @@
           "基因檢測",
           "46條",
           "44條",
-          "2條"
+          "2條",
+          "染色質"
         ]
       }
     },
@@ -14662,32 +14671,40 @@
       "questionFigures": [],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "分清產生新遺傳特性，與增加數量",
-        "art": "assets/comics/q-101-art-9627c332af-web.webp",
+        "title": "育種看新遺傳特性，不只增加數量",
+        "art": "assets/comics/q-101-art-bf2b1492dc-web.webp",
         "panels": [
           {
-            "heading": "① 本題要有可供選擇的變異",
-            "text": "題幹先產生變異，再選適合的子代。解題要找能改變遺傳特性的方法，不是只把原來的植物多種幾株。",
-            "alt": "育種人員觀察試驗植物；外形只是觀察情境，不當成已證明遺傳差異。"
+            "heading": "① 育種要有可供選擇的變異",
+            "text": "題幹先產生變異，再選適合的子代。圖中植株差異只提示觀察與挑選；要解決本題，重點是能產生新的遺傳特性。",
+            "alt": "新製類真實植物教學插畫：四株同類番茄幼苗在相似盆中，株高及分枝略不同，提示可觀察變異，但不以外觀直接證明差異可遺傳。",
+            "caption": "觀察植株差異｜遺傳性質仍需確認。",
+            "image": "assets/comics/q-101-art-bf2b1492dc-web.webp"
           },
           {
-            "heading": "② A、B、D主要保留既有特性",
-            "text": "組織培養、複製、營養器官繁殖，主要用來延續既有特性、增加個體數量。本題不是在問哪種方法繁殖得多。",
-            "alt": "母株與扦插小苗呈現增加植株數量，不用外觀或棵數判斷基因。"
+            "heading": "② 組織培養主要增加既有植株",
+            "text": "組織培養可由植物材料培育出許多小苗，主要延續既有特性。不能把「數量增加」直接當成「引入新的遺傳特性」。",
+            "alt": "新製類真實組織培養教學插畫：三個有蓋透明培養瓶中，各有綠色小苗與連到透明培養基的根，沒有穿出瓶蓋的植物。",
+            "caption": "組織培養例子｜小苗在培養瓶內生長。",
+            "image": "assets/comics/q-101-panel-2-art-ba519eb372-web.webp"
           },
           {
-            "heading": "③ C能引入新的遺傳特性",
-            "text": "基因轉殖能把外源基因轉入植物細胞，提供新遺傳特性。在這四項中，C最符合題幹需要變異的方向。",
-            "alt": "概念性的植物研究環境，沒有把成熟植株瞬間變色當成基因轉殖實作。"
+            "heading": "③ 扦插也主要延續原有特性",
+            "text": "圖中母株與生根插穗示範營養器官繁殖，主要延續原有遺傳特性。複製生物也是保留既有特性的方向，不是本題找新變異的重點。",
+            "alt": "新製類真實扦插教學插畫：左側母株與右側同類莖插穗，白根從浸水下部莖節長出，葉在水面上，沒有憑空根或新奇果實。",
+            "caption": "營養器官繁殖例子｜插穗莖節長根。",
+            "image": "assets/comics/q-101-panel-3-art-e2be686ea8-web.webp"
           }
         ],
         "fourth": {
-          "answer": "答案 C：基因轉殖",
+          "answer": "答案 C：基因轉殖可引入新的遺傳特性",
           "points": [
-            "增加數量，不等於產生新遺傳特性。",
-            "誘發突變與基因轉殖是不同技術，不是同義詞。",
-            "比較本題主要用途，不說組織培養永遠不能用於育種。"
-          ]
+            "第四圖以植物細胞、DNA模型連結遺傳物質，非轉殖操作流程。",
+            "引入外源基因可提供新特性；繁殖變多不等於產生新變異。",
+            "誘發突變與基因轉殖是不同方法，不能當同義詞。"
+          ],
+          "image": "assets/comics/q-101-panel-4-art-78a928c0b4-web.webp",
+          "alt": "新製類真實植物細胞與DNA概念模型：細胞壁內有細胞膜、大液泡、核與葉綠體；左上獨立放大雙股DNA，不畫成直接穿入細胞的巨管或即時變色。"
         },
         "protectedWords": [
           "基因轉殖",
@@ -14770,32 +14787,40 @@
       ],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "體染色體45條，再加XY兩條",
-        "art": "assets/comics/q-102-art-3615880d20.svg",
+        "title": "第21組多一條，體染色體45條、總數47條",
+        "art": "assets/comics/q-102-art-754de5077a-web.webp",
         "panels": [
           {
-            "heading": "① 真正多一條的是第21組",
-            "text": "先逐組看原圖。第21組有三條染色體，比通常的兩條多一條；不能只看第23組被圈起來，就認為多出來的是性染色體。",
-            "alt": "程式SVG第21組明確畫三個橘色染色體圖示，每個圖示算一條；示意形狀不代表精確顯微構造。"
+            "heading": "① 第21組：三條，比通常多一條",
+            "text": "第一圖只放大第21組，三個完整單位各算一條染色體。原核型第21組有三條，比通常兩條多一條，不能只看第23組被圈起。",
+            "alt": "新製類真實染色體放大模型：三條分離且近端著絲點的21號染色體，各有相連姊妹染色分體，完整單位總共3條，不是6條。",
+            "caption": "局部放大第21組｜3條，不是全套核型。",
+            "image": "assets/comics/q-102-art-754de5077a-web.webp"
           },
           {
-            "heading": "② 第23組是XY，共兩條",
-            "text": "原圖標示XY，是一條X與一條Y，不是XXY。1到23是組別編號，不能把23當成總條數，再加上XY。",
-            "alt": "第23組以兩個藍色圖示分別標X與Y，只有兩條；字母是染色體類型標籤，不是外形規則。"
+            "heading": "② 第23組：一條X、一條Y",
+            "text": "第二圖左邊是X、右邊較小的是Y，完整單位共兩條。原圖標XY，不是XXY；23是組別編號，不代表23條再加XY。",
+            "alt": "新製類真實第23組放大模型：左一條較大的X染色體，右一條較小的Y染色體，共2條，Y不是直接畫成字母Y。",
+            "caption": "局部放大第23組｜左X、右Y，共2條。",
+            "image": "assets/comics/q-102-panel-2-art-9434b2c184-web.webp"
           },
           {
-            "heading": "③ 體染色體與總數分開算",
-            "text": "通常體染色體有44條；本圖第21組多一條，所以是45條，選B。再加XY兩條性染色體，總數才是47條，不能把兩種數目混在一起。",
-            "alt": "程式精確排列45個橘色體染色體計數圖示，旁邊另有2個藍色性染色體圖示，表示分類計數而非完整核型排列。"
+            "heading": "③ 分類計數：45條體染色體",
+            "text": "體染色體與性染色體都屬細胞核的遺傳物質。通常22組體染色體有44條；本圖第21組多1條，所以體染色體為45條，選B。",
+            "alt": "新製類真實有核動物細胞模型：同一細胞核內有鬆散染色質，未以不正確的生成X數量假冒全套47條；計數依原卷與文字。",
+            "caption": "細胞核模型｜分類數量依原卷與本格文字。",
+            "image": "assets/comics/q-102-panel-3-art-529a110270-web.webp"
           }
         ],
         "fourth": {
-          "answer": "答案 B：45條體染色體",
+          "answer": "答案 B：45條體染色體；總數47條",
           "points": [
-            "第21組：三條，比通常多一條。",
-            "體染色體：44加1，得45條。",
-            "總染色體：45加XY兩條，得47條。"
-          ]
+            "第四圖僅並排放大兩組：左第21組3條、右XY2條，局部5條不是全套。",
+            "體染色體44＋1＝45條；再加XY兩條，總共47條。",
+            "組別編號不等於條數；第21組異常，不能選正常的C。"
+          ],
+          "image": "assets/comics/q-102-panel-4-art-3e6f028f49-web.webp",
+          "alt": "新製類真實兩組局部放大：左三條粉紅21號染色體，右兩條紫色性染色體X/Y，總共可逐物驗算5條，只是原核型兩組的局部，不是全套47條。"
         },
         "protectedWords": [
           "第21組",
@@ -14921,32 +14946,40 @@
       ],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "每對只取一條，花粉組合是AB或aB",
-        "art": "assets/comics/q-103-art-e15b7c975b.svg",
+        "title": "每對各取一條，可能組合AB或aB",
+        "art": "assets/comics/q-103-art-7f7bfa6cb7-web.webp",
         "panels": [
           {
             "heading": "① 葉片兩對染色體：AaBB",
-            "text": "圖（四）長的一對帶A、a，短的一對都是B。左圖以藍長條示意A、橘長條示意a，兩根綠短條都代表B，合起來是AaBB。",
-            "alt": "一個示意細胞含兩根等長長條A/a及兩根等長短條B/B，以顏色區分等位基因，無生成文字。"
+            "text": "第一圖藍長條對應A、橘長條對應a，兩根綠短條都是B。依原圖（四），長的一對Aa、短的一對BB，合起來是AaBB。",
+            "alt": "新製類真實染色質組合模型：左藍長條A、橘長條a，右兩綠短條BB；完整單條模型共4，沒有多畫X形複製染色體。",
+            "caption": "組合模型｜藍A、橘a、綠B；顏色用於追蹤。",
+            "image": "assets/comics/q-103-art-7f7bfa6cb7-web.webp"
           },
           {
-            "heading": "② 減數分裂：每對取一條",
-            "text": "A、a這一對取其一；B、B這一對只能取到B。兩種可能組合因此是AB與aB，對應原圖（八）、（九）。",
-            "alt": "兩種可能配子的概念示意：左為A長條加B短條，右為a長條加B短條；非一次減數分裂全部四細胞。"
+            "heading": "② 減數分裂，每對取一條",
+            "text": "A、a擇一，B、B只能提供B。第二圖左組是藍A＋綠B，右組是橘a＋綠B，所以可能組合為AB、aB，對應圖（八）、（九）。",
+            "alt": "新製類真實兩種單套組合模型：左1藍長A與1綠短B，右1橘長a與1綠短B，每組2條；不是一次減數分裂全部產物。",
+            "caption": "兩種可能單套組合｜左AB，右aB。",
+            "image": "assets/comics/q-103-panel-2-art-dc014b75f3-web.webp"
           },
           {
-            "heading": "③ 一般分裂，不改成Aabb",
-            "text": "組織培養及一般細胞分裂主要保留AaBB。母株配子也一定帶B，所以種子繁殖的子代不能得到只有bb、沒有B的圖（七）。",
-            "alt": "兩個示意體細胞各保留A/a/B/B四根條，表示一般細胞分裂或組織培養保留原有組合。"
+            "heading": "③ 一般分裂保留原有組合",
+            "text": "第三圖左右都保留AaBB，說明組織培養及一般細胞分裂的方向。母株配子也必帶B，所以種子子代不會只有bb、沒有B。",
+            "alt": "新製類真實兩個相同雙套組合模型：左右每組各有藍長A、橘長a、兩綠短BB，各4條，總8條；沒有改成Aabb。",
+            "caption": "原有組合保留｜左右各AaBB，不是Aabb。",
+            "image": "assets/comics/q-103-panel-3-art-6825707385-web.webp"
           }
         ],
         "fourth": {
-          "answer": "答案 C：圖（八）、（九）",
+          "answer": "答案 C：圖（八）AB、圖（九）aB",
           "points": [
-            "葉片AaBB→可能配子AB、aB。",
-            "組織培養不會自然改成AABB或aaBB。",
-            "色條只作概念，不代表染色體真實顏色。"
-          ]
+            "第四圖上方AaBB，下方左AB、右aB；顏色僅追蹤基因，不是真實染色體顏色。",
+            "每對各取一條，兩種可能組合不是一次減數分裂所有細胞。",
+            "組織培養保留原組合；沒有來源讓本題母株配子產生b。"
+          ],
+          "image": "assets/comics/q-103-panel-4-art-dd8bb08a7e-web.webp",
+          "alt": "新製類真實組合總結模型：上方一藍長一橘長兩綠短共4條；下左藍長+綠短2條，下右橘長+綠短2條；4/2/2三組，共8條，非完整分裂時間圖或整顆花粉。"
         },
         "protectedWords": [
           "染色體",
@@ -15040,32 +15073,40 @@
       ],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "少量觀察不等於理論機率",
-        "art": "assets/comics/q-104-art-d99d772ed0-web.webp",
+        "title": "小樣本25%，理論機率75%",
+        "art": "assets/comics/q-104-art-baecc96c10-web.webp",
         "panels": [
           {
-            "heading": "① 白毛子代反推雙親都有b",
-            "text": "白毛是bb，父母必各提供b；題目又說雙親都是黑毛，所以各為Bb。不能把其中一隻改成白毛的bb。",
-            "alt": "黑毛親代的觀察情境，不由插畫決定完整家族數量或基因型。"
+            "heading": "① 兩隻黑毛親代，都必須帶b",
+            "text": "白毛子代是bb，表示父母各提供b；雙親又都是黑毛，所以各為Bb。第一圖兩隻親代皆黑毛，不能把一隻擅改成bb白毛。",
+            "alt": "新製類真實豚鼠教學插畫：兩隻不同姿態的健康黑毛成體，無白毛親代、無可見長尾或兔耳；基因型依題文推理，不由外觀直接判。",
+            "caption": "親代情境｜兩黑毛，依白毛子代反推Bb×Bb。",
+            "image": "assets/comics/q-104-art-baecc96c10-web.webp"
           },
           {
-            "heading": "② 理論黑毛比例是75%",
-            "text": "Bb×Bb的等機會組合為BB、Bb、Bb、bb。前三種組合表現黑毛，理論機率為3／4＝75%。不是每四隻必定3黑1白。",
-            "alt": "整理遺傳關係的學習情境；精確四組合與比例均由旁邊文字列出。"
+            "heading": "② 原文四隻：1黑3白，只是25%",
+            "text": "第二圖照題文呈現左1黑、右3白。黑毛1／4＝25%，只是目前四隻的觀察結果，不能直接當成固定遺傳機率。",
+            "alt": "新製類真實小樣本豚鼠模型：左1黑毛幼豚鼠，右3白毛幼豚鼠，完整個體共4隻，對應原文初始觀察而不是理論比例。",
+            "caption": "初始小樣本｜1黑3白，共4隻。",
+            "image": "assets/comics/q-104-panel-2-art-b947941300-web.webp"
           },
           {
-            "heading": "③ 四隻的25%不是固定機率",
-            "text": "目前1黑3白，黑毛占25%，只是小樣本結果。子代增加，觀察比例較可能接近75%；不保證每多一隻都上升。",
-            "alt": "累積更多觀察紀錄，不用畫出固定黑白比或保證平滑上升的實測圖。"
+            "heading": "③ 四等機會組合：黑毛占3／4",
+            "text": "Bb×Bb列出BB、Bb、Bb、bb。第三圖以三黑一白表示這四個等機會表現型，黑毛理論機率75%；不代表每四隻必定3黑1白。",
+            "alt": "新製類真實四等機會表現型模型：上左、上右、下左為黑毛，下右白毛，對應BB、Bb、Bb、bb的表現型；不是一窩實際紀錄。",
+            "caption": "理論模型｜3黑1白，不是每窩必然結果。",
+            "image": "assets/comics/q-104-panel-3-art-5e7377db75-web.webp"
           }
         ],
         "fourth": {
-          "answer": "答案 D：由25%趨近75%",
+          "answer": "答案 D：黑毛比例長期趨近75%",
           "points": [
-            "兩隻黑毛能生白毛：雙親皆Bb。",
-            "理論3／4，和目前觀察1／4是不同概念。",
-            "原選項畫長期趨勢；實際過程可能上下波動。"
-          ]
+            "第四圖表示累積更多觀察，不是額外實測數據或逐胎保證。",
+            "目前1／4＝25%，與理論3／4＝75%不同。",
+            "樣本變多較可能接近75%，過程仍可能上下波動。"
+          ],
+          "image": "assets/comics/q-104-panel-4-art-54c471da6e-web.webp",
+          "alt": "新製類真實更多觀察情境：多於4隻的黑白豚鼠在清潔寬敞環境中，旁有空白記錄本；不將圖中群體冒充題目新增數據或固定每窩比例。"
         },
         "protectedWords": [
           "Bb×Bb",
@@ -33691,32 +33732,40 @@
       "questionFigures": [],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "從已知起點，沿兩個箭頭傳能量",
-        "art": "assets/comics/q-280-art-842545b22f-web.webp",
+        "title": "從浮游動物起算，傳兩次得100",
+        "art": "assets/comics/q-280-art-8bf7e36c64-web.webp",
         "panels": [
           {
-            "heading": "① 已知的是浮游動物",
-            "text": "先圈出浮游動物的10,000能量單位。不是從浮游植物開始算，起點之前的箭頭不用再算一次。",
-            "alt": "學生在海洋研究教室使用顯微鏡觀察水樣，示意先確認題目給定的浮游動物起點；不重畫微生物結構。"
+            "heading": "① 已知浮游動物：10,000",
+            "text": "第一圖放大橈足類，作為浮游動物的例子。題目給的是浮游動物族群10,000能量單位；雖然前面還有浮游植物，不能再把起點之前的傳遞算一次。",
+            "alt": "新製類真實橈足類插畫：透明分節軀體、一枚中央眼、左右長觸角及尾端分叉細毛，完整放大個體；不冒充顯微實拍或原卷物種鑑定。",
+            "caption": "浮游動物例子｜放大橈足類，不是浮游植物。",
+            "image": "assets/comics/q-280-art-8bf7e36c64-web.webp"
           },
           {
-            "heading": "② 到蝦：第一次傳遞",
-            "text": "依每階層約保留10%的常用估算，浮游動物10,000→蝦1,000。能量往後減少，不是變成十倍。",
-            "alt": "水下蝦類與海洋環境，對應食物鏈中接在浮游動物之後的蝦。"
+            "heading": "② 傳到蝦：第一次約10%",
+            "text": "依本題常用估算，浮游動物10,000×10%＝蝦1,000。第二圖為蝦類外形，重點是沿原卷箭頭往下一階層，能量減少，不是放大十倍。",
+            "alt": "新製類真實海洋蝦類教學插畫：左右柄眼、長觸角、頭胸甲、分節腹部與尾扇；不以此單一個體大小代表族群能量。",
+            "caption": "第一次｜浮游動物10,000 → 蝦1,000。",
+            "image": "assets/comics/q-280-panel-2-art-7707eb585f-web.webp"
           },
           {
-            "heading": "③ 到鯨魚：第二次傳遞",
-            "text": "蝦1,000→鯨魚100。從已知起點到鯨魚共兩個箭頭，所以10,000 × 10% × 10%＝100。",
-            "alt": "海中游動的鯨魚，對應本題食物鏈末端；鯨魚體型不表示族群能量多寡。"
+            "heading": "③ 傳到鯨魚：第二次約10%",
+            "text": "蝦1,000×10%＝鯨魚100。第三圖以鬚鯨類的座頭鯨呈現題目的鯨魚；計算的是族群總能量，不能因單隻鯨魚體型大，就倒算成較多能量。",
+            "alt": "新製類真實座頭鯨插畫：閉口、喉褶、兩片長胸鰭及水平尾鰭，全身完整，無魚鰓或水下噴氣柱。",
+            "caption": "第二次｜蝦1,000 → 鯨魚100。",
+            "image": "assets/comics/q-280-panel-3-art-f595c68169-web.webp"
           }
         ],
         "fourth": {
           "answer": "答案 A：100能量單位",
           "points": [
-            "先找已知起點，再數往後的箭頭。",
-            "本題用每次約10%作概略估算。",
-            "比較的是族群總能量，不是單隻生物的大小。"
-          ]
+            "第四圖由左至右：橈足類、蝦類、鯨魚，分別放大供辨認。",
+            "浮游動物10,000 → 蝦1,000 → 鯨魚100，共兩次傳遞。",
+            "10,000×10%×10%＝100；約10%為本題估算，不是所有生態系固定值。"
+          ],
+          "image": "assets/comics/q-280-panel-4-art-f281f33c9f-web.webp",
+          "alt": "新製類真實三階層辨認圖：左橈足類、中蝦類、右座頭鯨，三者完整分開放大，精確方向與能量數字在HTML；圖中大小不代表真實相對尺寸或族群能量。"
         },
         "protectedWords": [
           "浮游動物",
@@ -34878,7 +34927,52 @@
           "alt": "原題第 13 題附圖",
           "caption": "依原卷裁切的作答附圖"
         }
-      ]
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "運動神經與肌肉：分清原卷圖示與疾病",
+        "art": "assets/comics/q-290-art-3d272b2f21-web.webp",
+        "panels": [
+          {
+            "heading": "① 先辨認中樞：腦與脊髓",
+            "text": "第一圖側面可見上方大腦、後下方小腦，以及腦幹向下接續的脊髓上段。原卷甲、乙、丙分別指大腦、小腦、脊髓；不能因本題選丁，就說腦與脊髓完全不受影響。",
+            "alt": "新製類真實腦側面插畫：大腦居上、小腦在後下方，腦幹向下連接脊髓上段；非病人檢查影像。",
+            "caption": "中樞辨認｜大腦、小腦、腦幹與脊髓上段。",
+            "image": "assets/comics/q-290-art-3d272b2f21-web.webp"
+          },
+          {
+            "heading": "② 運動神經把訊息送到骨骼肌",
+            "text": "第二圖左側為運動神經元，軸突向右延伸並分支，末端與骨骼肌表面形成神經肌接點。神經末端與肌細胞仍是不同構造，不是神經直接變成肌肉。",
+            "alt": "新製類真實運動神經元至骨骼肌放大插畫：左胞體及樹突、中央單一有髓軸突與節間、右側分支末端在肌纖維表面；神經與肌肉未融合。",
+            "caption": "神經肌接點｜左神經元，右有橫紋的骨骼肌。",
+            "image": "assets/comics/q-290-panel-2-art-e26d0849e6-web.webp"
+          },
+          {
+            "heading": "③ 神經退化，肌肉失去支配而萎縮",
+            "text": "漸凍症涉及腦與脊髓的運動神經元退化，肌肉失去正常神經訊息，逐漸無力、萎縮。第三圖以左較粗、右較細的肌束比較萎縮概念，不是個別病人的前後照片或診斷比例。",
+            "alt": "新製類真實肌束質性比較：左側較粗且肌纖維較厚，右側較細且纖維較薄；平行纖維及斜切面可辨，無感染或壞死，不是實測數據。",
+            "caption": "肌肉比較｜左正常較粗，右萎縮較細。",
+            "image": "assets/comics/q-290-panel-3-art-fa71b19f5a-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "原卷預期答案 D（丁）",
+          "points": [
+            "第四圖由左至右：腦與脊髓、周圍神經、骨骼肌，分別放大辨認。",
+            "丁是原卷指向周圍神經的標記，依本題簡化分類選D。",
+            "真正概念：腦與脊髓中的運動神經元退化，造成肌肉無力、萎縮；不能說只有丁或全部周圍神經都退化。"
+          ],
+          "image": "assets/comics/q-290-panel-4-art-9e90d85ac9-web.webp",
+          "alt": "新製類真實整合辨認圖：左腦與脊髓，中奶黃色周圍神經束及多束纖維切面，右紅粉骨骼肌束；三者分開放大，不以連線錯接或將其冒充原卷甲乙丙丁位置。"
+        },
+        "protectedWords": [
+          "運動神經元",
+          "腦與脊髓",
+          "骨骼肌",
+          "周圍神經",
+          "D（丁）"
+        ]
+      }
     },
     {
       "id": "q-291",
@@ -74787,7 +74881,54 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "未曾去過的經驗，用been to搭配",
+        "art": "assets/comics/q-711-art-2906396b11-web.webp",
+        "panels": [
+          {
+            "heading": "① 從未去過，談的是造訪經驗",
+            "text": "Ken說I've never…，Ann又約some day去，前後在談至今沒有造訪經驗。教材常用have been to＋地點，所以選been。",
+            "alt": "男生在家看海洋主題簡介、空白旅遊記錄，想像圖表示願望，不是已到公園。",
+            "caption": "Ken在家看介紹，想像未來參觀；不是已去過的回憶。",
+            "image": "assets/comics/q-711-art-2906396b11-web.webp"
+          },
+          {
+            "heading": "② Me, either表示自己也沒去過",
+            "text": "Ann用Me, either回應否定句，表示自己也沒去過。圖用遠距通話示意：正在對話不代表兩人一定面對面，也不能作排除gone的理由。",
+            "alt": "女生在咖啡店通話並看簡介，表示附和對方的否定經驗；不表示已入園。",
+            "caption": "Ann也沒有造訪經驗；通話只是對話情境例，不是原題新增條件。",
+            "image": "assets/comics/q-711-panel-2-art-e8c5ad66ee-web.webp"
+          },
+          {
+            "heading": "③ visit直接接地點，不再加to",
+            "text": "visit後可直接接地點。B代入原句卻成visited to，不合本句；若改用visited，要另改整句，原題保留不改。",
+            "alt": "不同外觀的匿名遊客走入通用海洋公園，是visit加地點的獨立概念例。",
+            "caption": "此圖為另一名遊客的visit用法示例，不是Ken或Ann已參觀。",
+            "image": "assets/comics/q-711-panel-3-art-2a6f412f4e-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "教材預期 C：been",
+          "points": [
+            "I've never been to＋地點：至今從未去過。",
+            "some day是改天想去的提議，不是已經參觀的證據。",
+            "保留原解說範圍：never gone to並非所有情況都不成句；本題按教材經驗搭配選C。"
+          ],
+          "image": "assets/comics/q-711-panel-4-art-3ed44327e4-web.webp",
+          "alt": "Ken與Ann仍在圖書館看簡介和空白日曆，討論改天參觀；沒有具體日期或已完成旅行。"
+        },
+        "protectedWords": [
+          "I've never been to",
+          "been to",
+          "never gone to",
+          "visited to",
+          "Me, either",
+          "some day",
+          "造訪經驗"
+        ]
+      }
     },
     {
       "id": "q-712",
@@ -76560,7 +76701,54 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "分清過去時間點與延伸至今的範圍",
+        "art": "assets/comics/q-729-art-35aea4213b.svg",
+        "panels": [
+          {
+            "heading": "① 先看原題有has finished",
+            "text": "原題確實保留has。in 2015是特定且已結束的過去時間；若要說2015年完成，通常改用finished，不擅刪原題has。",
+            "alt": "日曆2015與現在分開，in2015標在已結束的過去一點，不把它當現在完成式的自然搭配",
+            "caption": "新製時間圖｜2015是原選項，不替原題指定完成日期。",
+            "image": "assets/comics/q-729-art-35aea4213b.svg"
+          },
+          {
+            "heading": "② two years ago也是過去時間點",
+            "text": "two years ago指距現在兩年前，通常搭過去式。for two years ago又把期間for與ago時間點混在一起，不合本題。",
+            "alt": "距現在兩年前是特定過去時間，兩年長度只來自原選項two years ago",
+            "caption": "新製時間圖｜Now只表示說話當下，沒有套入今年年份。",
+            "image": "assets/comics/q-729-panel-2-art-25a318fbf2.svg"
+          },
+          {
+            "heading": "③ since 2008給的是至今範圍",
+            "text": "四項依教材時間搭配預期C，但has finished原句不自然。只能理解為2008以來範圍內已完成，不能說一直持續完成。",
+            "alt": "since2008表示2008以來到現在的範圍，星號只示已完成事件，不示確切年份或持續完成",
+            "caption": "星號只示一個已完成事件，不代表已知發生年，也非連續完成。",
+            "image": "assets/comics/q-729-panel-3-art-4dce2f90d7.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "本題預期 C：since 2008",
+          "points": [
+            "A、B是明確過去時間，D的for…ago不合此句。",
+            "三條圖各自比較時間點或範圍，不據此比較A、B的遠近。",
+            "finish是完成事件，不能誤教成從2008一直進行完成。"
+          ],
+          "image": "assets/comics/q-729-panel-4-art-7a22262b97.svg",
+          "alt": "第四圖區分A與B特定過去時間點與C至今範圍；已完成事件不是從2008一直不停完成"
+        },
+        "protectedWords": [
+          "has finished",
+          "since 2008",
+          "in 2015",
+          "two years ago",
+          "for two years ago",
+          "完成事件",
+          "原句不自然"
+        ]
+      }
     },
     {
       "id": "q-730",
@@ -77045,7 +77233,58 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從現在回看，通話已持續多久",
+        "art": "assets/comics/q-734-art-eb42f09c78-web.webp",
+        "panels": [
+          {
+            "heading": "① How long問通話時長",
+            "text": "問句要問通話持續多久。從起初打電話到現在的長度，符合本題教材現在完成式的情境。",
+            "alt": "匿名通話者仍在講手機，旁有不標數值的時鐘，沒有掛斷或昨日日期。",
+            "caption": "通話持續至今的情境圖；鐘面不代表原題給了分鐘或時刻。",
+            "image": "assets/comics/q-734-art-eb42f09c78-web.webp"
+          },
+          {
+            "heading": "② 不渴嗎，把情境連回現在",
+            "text": "Aren't you thirsty?問現在是否口渴，因此教材預期將通話理解為持續到現在，選have you talked。",
+            "alt": "朋友拿水杯示意，通話者仍在電話中且顯得口渴，沒有病痛或緊急狀況。",
+            "caption": "水杯呼應現在不渴嗎；圖中人物、物品不是原題額外條件。",
+            "image": "assets/comics/q-734-panel-2-art-380f5a484c-web.webp"
+          },
+          {
+            "heading": "③ 直接問句需要have you",
+            "text": "How long之後用have you的問句語序，不用B的陳述語序you've talked。提問的是多久，不是單問過去哪個時刻。",
+            "alt": "朋友以手勢發問並指向時鐘，電話使用者在右側；圖中沒有錯誤生成的問句文字。",
+            "caption": "提問情境示例｜問句語序：have you＋動詞過去分詞。",
+            "image": "assets/comics/q-734-panel-3-art-9a9e8a3bfb-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "教材預期 C：have you talked",
+          "points": [
+            "How long＋have you talked：本題問至今的通話時長。",
+            "B的you've talked是陳述語序，不能直接接在這個問句位置。",
+            "A、D是過去情境形式，與本題現在不渴嗎的教材預期不同。"
+          ],
+          "image": "assets/comics/q-734-panel-4-art-a8254fc543-web.webp",
+          "alt": "前景電話仍在進行，背景淡色小景只示通話起初；沒有顯示固定分鐘或已結束過去時段。"
+        },
+        "protectedWords": [
+          "How long",
+          "you've talked",
+          "doesn't",
+          "goes",
+          "to go",
+          "her daughter",
+          "Ella",
+          "after dinner",
+          "every day",
+          "have you",
+          "talked"
+        ]
+      }
     },
     {
       "id": "q-735",
@@ -77328,7 +77567,57 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "doesn't已變化，後面的go用原形",
+        "art": "assets/comics/q-737-art-f935fd5aa5-web.webp",
+        "panels": [
+          {
+            "heading": "① 原句說週六不去工作",
+            "text": "Miss Lin doesn't…on Saturdays，談的是週六的習慣。主詞是一位人物，但否定句的助動詞doesn't已承擔人稱與時態變化。",
+            "alt": "一位成人女性在家休息，工作包放架上，沒有出門上班。",
+            "caption": "原題週六不去工作；居家活動只是教學情境例，不新增職業或行程。",
+            "image": "assets/comics/q-737-art-f935fd5aa5-web.webp"
+          },
+          {
+            "heading": "② 肯定句goes只作比較",
+            "text": "若作肯定句，可說Miss Lin goes to work；換成doesn't的否定形式，後面回到原形go。此圖是肯定句對比例，不是說原題週六有上班。",
+            "alt": "同一成人女性拿工作包走向普通辦公室，是另作比較的假設肯定句情境。",
+            "caption": "假設肯定句的上班情境對比例，並非新增Miss Lin的實際出勤條件。",
+            "image": "assets/comics/q-737-panel-2-art-aaab336361-web.webp"
+          },
+          {
+            "heading": "③ 習慣否定仍是doesn't＋go",
+            "text": "on Saturdays表示週六的習慣，不能因主詞Miss Lin是單數，又把go改成goes。going及to go也不放在本題doesn't後面。",
+            "alt": "同一女性回到居家閱讀、工作包仍放置架上，週曆不標具體日子。",
+            "caption": "回到原句的週六不去工作；週曆只示習慣，不含指定日期。",
+            "image": "assets/comics/q-737-panel-3-art-59307ae0e6-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 C：go",
+          "points": [
+            "Miss Lin doesn't go to work on Saturdays.",
+            "doesn't已承擔變化，後面接原形go。",
+            "A的goes重複變化；B、D也不是此處所需原形。"
+          ],
+          "image": "assets/comics/q-737-panel-4-art-8209c33235-web.webp",
+          "alt": "單一女性在家放置工作包、選擇室內拖鞋的週末情境；不描繪實際去過公司。"
+        },
+        "protectedWords": [
+          "How long",
+          "have you talked",
+          "you've talked",
+          "doesn't",
+          "goes",
+          "to go",
+          "her daughter",
+          "Ella",
+          "after dinner",
+          "every day"
+        ]
+      }
     },
     {
       "id": "q-738",
@@ -77393,7 +77682,57 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "Ella是一人，每日習慣用does",
+        "art": "assets/comics/q-738-art-c0f7415ee7-web.webp",
+        "panels": [
+          {
+            "heading": "① her daughter與Ella是同一人",
+            "text": "逗號中的Ella是her daughter的同位語，兩者指同一個女兒，不是兩個主詞相加，所以主詞仍是第三人稱單數。",
+            "alt": "一位女孩坐在書桌前，突出單一主詞人物，不畫成雙胞胎或兩名女兒。",
+            "caption": "一位女兒就是Ella；圖中只有一位主角，不是女兒加Ella兩人。",
+            "image": "assets/comics/q-738-art-c0f7415ee7-web.webp"
+          },
+          {
+            "heading": "② after dinner先後關係",
+            "text": "題幹說晚餐後做功課。圖由餐桌走向書桌，只幫助理解after dinner，不替原題指定晚上幾點。",
+            "alt": "同一女孩飯後拿筆記本走向書桌，前景餐具已用完，沒有重複兩個女孩。",
+            "caption": "餐後到書桌的情境圖；無原題未提供的時間數值。",
+            "image": "assets/comics/q-738-panel-2-art-76a2951fc1-web.webp"
+          },
+          {
+            "heading": "③ every day指每日習慣",
+            "text": "every day表示反覆發生的習慣，用一般現在式。多日小景是同一個Ella，不是三個女兒，也不是只描述此刻正在做。",
+            "alt": "同一女孩在三個晚上做功課，空白週曆與變化場景表示重複習慣，不含日期。",
+            "caption": "三個小景代表同一人的不同日常晚上，不是三人或實際日期。",
+            "image": "assets/comics/q-738-panel-3-art-7fe5929864-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 B：does",
+          "points": [
+            "Her daughter, Ella, does her homework after dinner every day.",
+            "Ella是單數；every day是一般現在式習慣線索。",
+            "A、C是進行式形式，D的do未配合單數主詞。"
+          ],
+          "image": "assets/comics/q-738-panel-4-art-0ad2a6d7f0-web.webp",
+          "alt": "單一Ella晚餐後在書桌做功課，總結每天的習慣；不是新增僅此刻的條件。"
+        },
+        "protectedWords": [
+          "How long",
+          "have you talked",
+          "you've talked",
+          "doesn't",
+          "goes",
+          "to go",
+          "her daughter",
+          "Ella",
+          "after dinner",
+          "every day"
+        ]
+      }
     },
     {
       "id": "q-739",
@@ -77986,7 +78325,51 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "Joe和Sue用they，will問句保留will",
+        "art": "assets/comics/q-744-art-1fed5ab86d-web.webp",
+        "panels": [
+          {
+            "heading": "① 先看未來的邀約",
+            "text": "Ellen問Joe和Sue會不會來potluck。Will開頭詢問未來，後句It'll也延續尚未發生的聚會情境。",
+            "alt": "Ellen和Brian拿空白邀請卡討論，想像泡泡中出現未來聚會的Joe與Sue。",
+            "caption": "想像中的聚會是未來計畫，並非客人已經到場。",
+            "image": "assets/comics/q-744-art-1fed5ab86d-web.webp"
+          },
+          {
+            "heading": "② 兩人合稱they",
+            "text": "Joe and Sue是兩個人，簡答用複數代名詞they代替，不用重複兩個名字。圖中的備餐只幫助認出這一對人物。",
+            "alt": "戴眼鏡穿鏽紅衣的Joe與穿紫衣的Sue一起準備分享餐點，和對話者明確區分。",
+            "caption": "Joe與Sue一起準備餐點；兩人合稱they。",
+            "image": "assets/comics/q-744-panel-2-art-748b268d03-web.webp"
+          },
+          {
+            "heading": "③ Yes後仍保留will",
+            "text": "問句是Will Joe and Sue come...?，肯定簡答保留助動詞will：Yes, they will. 不能任意換成are、do或can。",
+            "alt": "Brian對Ellen比出肯定手勢，指向空白邀請卡；背景沒有Joe或Sue。",
+            "caption": "Brian肯定回應未來計畫；現場只有兩名對話者。",
+            "image": "assets/comics/q-744-panel-3-art-23dcbf43e3-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "答案 D：they will",
+          "points": [
+            "Joe and Sue → they；Will問句 → 保留will。",
+            "Yes, they will. 表示他們會來。",
+            "can會改成能力或可能性的語意，無法直接保留原問句的will。"
+          ],
+          "image": "assets/comics/q-744-panel-4-art-b0c478e7fd-web.webp",
+          "alt": "Ellen和Brian討論未來邀約，上方想像泡泡呈現四人在未來聚會相見，不是已發生事件。"
+        },
+        "protectedWords": [
+          "Joe and Sue",
+          "they will",
+          "It'll",
+          "potluck"
+        ]
+      }
     },
     {
       "id": "q-745",
@@ -78368,7 +78751,52 @@
       ],
       "passage": "",
       "tables": [],
-      "questionFigures": []
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "昨晚的動作，read過去式拼法不變",
+        "art": "assets/comics/q-748-art-9f8ce81804-web.webp",
+        "panels": [
+          {
+            "heading": "① last night定位在過去",
+            "text": "Wendy問What did your brother do last night?，是詢問哥哥昨晚做了什麼。did與last night一起提示過去時間。",
+            "alt": "Wendy詢問Bobby，回想泡泡呈現哥哥夜間看漫畫；不畫精確鐘點。",
+            "caption": "對話中的回想畫面指昨晚，沒有指定幾點。",
+            "image": "assets/comics/q-748-art-9f8ce81804-web.webp"
+          },
+          {
+            "heading": "② 回答做了什麼",
+            "text": "He read some comic books. 用一般過去式直接敘述昨晚的動作，符合本題中性的問答。",
+            "alt": "戴眼鏡穿深藍衣的哥哥在夜間燈下看漫畫，窗外是夜色。",
+            "caption": "哥哥在夜間閱讀漫畫，呈現過去做過的動作。",
+            "image": "assets/comics/q-748-panel-2-art-0c230f5666-web.webp"
+          },
+          {
+            "heading": "③ read拼法一樣，讀音不同",
+            "text": "read的原形與過去式都寫read；過去式讀音像red。reads是現在式第三人稱單數，不能配合本題last night。",
+            "alt": "近看哥哥翻閱的漫畫與手部，圖中無可讀書名或自行指定的時刻。",
+            "caption": "閱讀畫面相同，時態仍須靠句中時間與動詞形式判斷。",
+            "image": "assets/comics/q-748-panel-3-art-afeddd2b90-web.webp"
+          }
+        ],
+        "fourth": {
+          "answer": "教材預期 A：read",
+          "points": [
+            "He read some comic books.",
+            "did read可表強調或反駁，並非所有語境都不合法；此處不需特別強調。",
+            "was reading強調當時正在看；本題中性詢問做了什麼，預期用A直接回答。"
+          ],
+          "image": "assets/comics/q-748-panel-4-art-1d8f894cf3-web.webp",
+          "alt": "Bobby回答Wendy，上方回想泡泡呈現哥哥昨晚看漫畫，總結教材預期一般過去式read。"
+        },
+        "protectedWords": [
+          "last night",
+          "did read",
+          "was reading",
+          "read",
+          "reads"
+        ]
+      }
     },
     {
       "id": "q-749",
@@ -113876,86 +114304,50 @@
       "diagram": "",
       "contentStatus": "完整原題",
       "teachingComic": {
-        "title": "從日出與斷崖定位龜山島",
-        "art": "assets/comics/q-1058-art-62f6de3cdc.svg",
+        "title": "合看東岸景觀與座標，選宜蘭外海龜山島",
+        "art": "assets/comics/q-1058-art-90c9f235c6.svg",
         "panels": [
           {
-            "heading": "① 景觀先定位海域",
-            "text": "日出、中央山脈起點與斷崖，合在一起指向東北部至東部海岸。",
-            "alt": "景觀先定位海域",
-            "diagram": {
-              "kind": "flow",
-              "title": "景觀先定位海域",
-              "items": [
-                {
-                  "label": "日出與斷崖",
-                  "detail": "東向海岸線索",
-                  "tone": "blue"
-                },
-                {
-                  "label": "中央山脈起點",
-                  "detail": "臺灣東北一帶",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "① 日出與山脈、斷崖合看",
+            "text": "第一圖將日出、山脈與海邊斷崖分別表示，幫助連結臺灣東北至東岸的景觀線索。單靠日出不能指定海域；還要與山脈、斷崖及選項位置核對。",
+            "alt": "東方海面日出，陸側有山脈及臨海斷崖的概念剖面，不重建某處實景。",
+            "caption": "新製方位概念圖｜不新增觀察者站位、航線或指定活動點。",
+            "image": "assets/comics/q-1058-art-90c9f235c6.svg"
           },
           {
-            "heading": "② 座標交叉檢查",
-            "text": "A約24.84°N、121.95°E，在宜蘭外海，符合龜山島。",
-            "alt": "座標交叉檢查",
-            "diagram": {
-              "kind": "paths",
-              "title": "座標交叉檢查",
-              "items": [
-                {
-                  "label": "北緯24.84°",
-                  "detail": "宜蘭附近緯度",
-                  "tone": "blue"
-                },
-                {
-                  "label": "東經121.95°",
-                  "detail": "臺灣東北外海",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "A 龜山島"
-            }
+            "heading": "② 讀A的兩個座標",
+            "text": "第二圖把原卷A的24.84°N、121.95°E，定位到經緯格交會處。先分清北緯與東經，不能把兩個數字顛倒。",
+            "alt": "經緯網中A精確在東經121.95度、北緯24.84度交會處，兩軸及輔助虛線明示。",
+            "caption": "新製座標定位圖｜只用原卷數字，不推算活動地點。",
+            "image": "assets/comics/q-1058-panel-2-art-53102d60a3.svg"
           },
           {
-            "heading": "③ 別把西南離島混入",
-            "text": "B為金門、C為馬祖，D為小琉球；D在臺灣西南側，與題述海岸不合。",
-            "alt": "別把西南離島混入",
-            "diagram": {
-              "kind": "paths",
-              "title": "別把西南離島混入",
-              "items": [
-                {
-                  "label": "B／C",
-                  "detail": "金門／馬祖",
-                  "tone": "blue"
-                },
-                {
-                  "label": "D",
-                  "detail": "西南側小琉球",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "東北外海選A"
-            }
+            "heading": "③ B、C、D與A位在不同海域",
+            "text": "第三圖用四組原座標比較：A宜蘭外海、B金門、C馬祖、D小琉球。D在臺灣西南側，不能因為也是離島就符合本題東北、東岸山海線索。",
+            "alt": "臺灣周邊海陸底圖上，四個字母中心均依原卷經緯度，A東北外海、B西側金門、C西北馬祖、D西南小琉球。",
+            "caption": "新製位置比較圖｜字母按原座標，不重繪四幅原島形。",
+            "image": "assets/comics/q-1058-panel-3-art-dacdd765e3.svg"
           }
         ],
         "fourth": {
-          "answer": "(A) 原圖A（龜山島）",
+          "answer": "答案 A：龜山島",
           "points": [
-            "景觀指向東北、東部海岸。",
-            "A座標在宜蘭外海龜山島。",
-            "小琉球在西南側，不合題意。"
-          ]
-        }
+            "第四圖放大A與宜蘭海岸的地理關係，A是龜山島。",
+            "景觀方向與原座標相互支持，不能只憑島名或單一日出線索。",
+            "四幅原島圖與座標保留，不以新製概略底圖代替必要原圖。"
+          ],
+          "image": "assets/comics/q-1058-panel-4-art-ca009076b6.svg",
+          "alt": "宜蘭一帶與太平洋的概略海岸底圖，A依原卷座標點示龜山島在宜蘭外海；不描新島形或活動航線。"
+        },
+        "protectedWords": [
+          "24.84°N",
+          "121.95°E",
+          "龜山島",
+          "小琉球",
+          "經緯度",
+          "東北",
+          "宜蘭外海"
+        ]
       }
     },
     {
@@ -114133,85 +114525,50 @@
       "diagram": "",
       "contentStatus": "完整原題",
       "teachingComic": {
-        "title": "日本海側冬季大雪",
-        "art": "assets/comics/q-1060-art-62f6de3cdc.svg",
+        "title": "大陸冷氣流過海增濕，迎風側遇山降雪",
+        "art": "assets/comics/q-1060-art-9ca3c30920.svg",
         "panels": [
           {
-            "heading": "① 冷空氣先經過海面",
-            "text": "冬季大陸寒冷季風通過日本海，從海面取得水氣。",
-            "alt": "冷空氣先經過海面",
-            "diagram": {
-              "kind": "flow",
-              "title": "冷空氣先經過海面",
-              "items": [
-                {
-                  "label": "亞洲大陸",
-                  "detail": "寒冷氣流",
-                  "tone": "blue"
-                },
-                {
-                  "label": "日本海",
-                  "detail": "增添水氣",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "① 先看冬季風的來向",
+            "text": "第一圖以大陸、日本海及日本的地理位置，表示冬季西北風從大陸吹向日本。起初是寒冷、較乾的氣流，不是一開始就暖濕。",
+            "alt": "東亞海陸與日本輪廓，藍箭頭由西北大陸經日本海吹向日本。",
+            "caption": "新製風向定位圖｜海陸依Natural Earth，不重繪原卷四點。",
+            "image": "assets/comics/q-1060-art-9ca3c30920.svg"
           },
           {
-            "heading": "② 迎風坡抬升降雪",
-            "text": "濕冷空氣遇本州山地抬升，冷卻後在日本海側形成豐富降雪。",
-            "alt": "迎風坡抬升降雪",
-            "diagram": {
-              "kind": "flow",
-              "title": "迎風坡抬升降雪",
-              "items": [
-                {
-                  "label": "日本海側",
-                  "detail": "迎風坡抬升",
-                  "tone": "blue"
-                },
-                {
-                  "label": "山地降雪",
-                  "detail": "形成厚積雪",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "② 水氣主要在過海時補充",
+            "text": "第二圖把海面放大：氣流通過日本海，從海面取得水氣。向上的細箭頭表示海面供應水氣，之後濕冷氣流再移向本州。",
+            "alt": "冷氣流水平通過日本海，三支向上曲箭頭表示海面向空氣補充水氣。",
+            "caption": "新製海氣交換示意｜向上為海面供應水氣，向右為氣流。",
+            "image": "assets/comics/q-1060-panel-2-art-dff6687790.svg"
           },
           {
-            "heading": "③ 核對丙的位置",
-            "text": "丙位於本州日本海側；乙在太平洋側，丁較南。甲雖也有雪，本題選代表性迎風側。",
-            "alt": "核對丙的位置",
-            "diagram": {
-              "kind": "paths",
-              "title": "核對丙的位置",
-              "items": [
-                {
-                  "label": "本州日本海側",
-                  "detail": "丙",
-                  "tone": "blue"
-                },
-                {
-                  "label": "太平洋側",
-                  "detail": "越山後較乾",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "C 丙"
-            }
+            "heading": "③ 日本海側迎風，遇山抬升降雪",
+            "text": "第三圖以本州山地剖面比較兩側：日本海側濕冷氣流被抬升、冷卻降雪；越過山脈後水氣減少，太平洋側常較乾晴。不是日本所有海岸都一樣。",
+            "alt": "左日本海側有氣流抬升、雲與雪花；中間本州山地，右太平洋側氣流越山後較乾晴。",
+            "caption": "新製機制剖面｜非特定山峰、積雪量或當日天氣圖。",
+            "image": "assets/comics/q-1060-panel-3-art-e23e57592b.svg"
           }
         ],
         "fourth": {
-          "answer": "(C) 丙",
+          "answer": "答案 C：原圖的丙",
           "points": [
-            "大陸冷氣流經日本海取得水氣。",
-            "遇山抬升，在日本海側降雪。",
-            "原圖丙最符合，選C。"
-          ]
-        }
+            "第四圖只強調本州日本海側的地理關係，精確四點保留在原卷附圖。",
+            "丙的海側、季風與山地組合符合本題；不是單純比較緯度。",
+            "甲北海道也會下雪；不能把選丙誤說成甲沒有雪。"
+          ],
+          "image": "assets/comics/q-1060-panel-4-art-2fb15a0cc5.svg",
+          "alt": "日本海側以粗色帶概示本州海側區域，冷空氣箭頭從日本海移入；不把色帶當實測雪區或原卷丙的精確座標。"
+        },
+        "protectedWords": [
+          "日本海側",
+          "太平洋側",
+          "本州",
+          "北海道",
+          "西北風",
+          "迎風坡",
+          "冷氣流"
+        ]
       }
     },
     {
@@ -114256,85 +114613,50 @@
       "diagram": "",
       "contentStatus": "完整原題",
       "teachingComic": {
-        "title": "馬格里布與地中海型生活",
-        "art": "assets/comics/q-1061-art-62f6de3cdc.svg",
+        "title": "沿海地中海型氣候：夏乾、冬雨",
+        "art": "assets/comics/q-1061-art-ea516713ae.svg",
         "panels": [
           {
-            "heading": "① 馬格里布在西北非",
-            "text": "題圖的亞特拉斯山脈定位非洲西北部，題幹連結其以西地區。",
-            "alt": "馬格里布在西北非",
-            "diagram": {
-              "kind": "flow",
-              "title": "馬格里布在西北非",
-              "items": [
-                {
-                  "label": "亞特拉斯山脈",
-                  "detail": "非洲西北部",
-                  "tone": "blue"
-                },
-                {
-                  "label": "馬格里布",
-                  "detail": "地中海沿海區域線索",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "① 先用山脈位置定位沿海",
+            "text": "第一圖以亞特拉斯山脈概略位置，指出題目討論的西北非沿海。依這個位置判讀氣候，不以民族名稱推定每個人的生活都相同。",
+            "alt": "西北非海陸輪廓、亞特拉斯概略山脈線與其西側沿海位置圓圈；內陸另標較乾燥區域。",
+            "caption": "新製定位圖｜圈示討論位置，不畫整個馬格里布界線。",
+            "image": "assets/comics/q-1061-art-ea516713ae.svg"
           },
           {
-            "heading": "② 夏乾冬雨配生活",
-            "text": "夏季副熱帶高壓較強，炎熱乾燥；冬半年西風帶帶來較多降雨。",
-            "alt": "夏乾冬雨配生活",
-            "diagram": {
-              "kind": "flow",
-              "title": "夏乾冬雨配生活",
-              "items": [
-                {
-                  "label": "夏半年",
-                  "detail": "炎熱乾燥",
-                  "tone": "blue"
-                },
-                {
-                  "label": "冬半年",
-                  "detail": "較多陰雨",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "② 夏季受副熱帶高氣壓影響",
+            "text": "第二圖用下沉氣流與晴朗地表，表示夏季較炎熱乾燥、較不易成雨。這符合A的前半句，不是D所說的每天午後雷陣雨。",
+            "alt": "副熱帶高氣壓下的下沉氣流箭頭、太陽及乾燥地表，沒有每日午後雷雨。",
+            "caption": "新製夏季機制示意｜不對應某個日期或指定降雨量。",
+            "image": "assets/comics/q-1061-panel-2-art-790737f50b.svg"
           },
           {
-            "heading": "③ 不是天天午後雷雨",
-            "text": "午後常見雷陣雨不符此地的地中海型季節分配；原題最佳描述是A。",
-            "alt": "不是天天午後雷雨",
-            "diagram": {
-              "kind": "paths",
-              "title": "不是天天午後雷雨",
-              "items": [
-                {
-                  "label": "判斷重點",
-                  "detail": "雨季在冬半年",
-                  "tone": "blue"
-                },
-                {
-                  "label": "原題A",
-                  "detail": "夏乾、之後陰雨半年",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "A 夏乾冬雨"
-            }
+            "heading": "③ 之後冬半年，西風帶來水氣",
+            "text": "第三圖表示冬半年西風較易把海上水氣帶入，形成較多雨的季節。A所說的陰雨半年是季節特徵，不是每一天都一定下雨。",
+            "alt": "西風從海洋往沿海移動，帶入水氣，沿海上方雲層及雨線示冬半年較多雨。",
+            "caption": "新製冬雨機制示意｜海上水氣隨西風移入沿海。",
+            "image": "assets/comics/q-1061-panel-3-art-c941fefc63.svg"
           }
         ],
         "fourth": {
-          "answer": "(A) 夏季炎熱乾燥，但之後就會進入陰雨的半年",
+          "answer": "答案 A：夏季炎熱乾燥，之後較多雨",
           "points": [
-            "先定位西北非亞特拉斯一帶。",
-            "地中海型夏乾冬雨。",
-            "選A，不是每天午後雷雨。"
-          ]
-        }
+            "第四圖以季節柱高總結夏乾冬雨；沒有新增測站數值。",
+            "題目最直接對應地中海型氣候，不以遷徙或午後雷雨取代判讀。",
+            "區域內仍有山地與內陸差異，不把A當成所有居住地一致的實況。"
+          ],
+          "image": "assets/comics/q-1061-panel-4-art-937e2b77b0.svg",
+          "alt": "春夏秋冬四根無數值概念雨柱，夏較低、冬較高，強調地中海型氣候的季節差異。"
+        },
+        "protectedWords": [
+          "副熱帶高氣壓",
+          "亞特拉斯山脈",
+          "地中海型",
+          "馬格里布",
+          "夏乾冬雨",
+          "冬半年",
+          "西北非"
+        ]
       }
     },
     {
@@ -114379,86 +114701,50 @@
       "diagram": "",
       "contentStatus": "完整原題",
       "teachingComic": {
-        "title": "由開羅氣候圖判讀熱帶沙漠",
-        "art": "assets/comics/q-1062-art-62f6de3cdc.svg",
+        "title": "全年僅26mm，河水不能代替當地雨量",
+        "art": "assets/comics/q-1062-art-f419661565.svg",
         "panels": [
           {
-            "heading": "① 先讀全年總雨量",
-            "text": "原圖年均溫21.4°C、年雨量26 mm，最突出的是全年極乾燥。",
-            "alt": "先讀全年總雨量",
-            "diagram": {
-              "kind": "paths",
-              "title": "先讀全年總雨量",
-              "items": [
-                {
-                  "label": "年均溫",
-                  "detail": "21.4°C",
-                  "tone": "blue"
-                },
-                {
-                  "label": "年降水量",
-                  "detail": "僅26 mm",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "全年少雨"
-            }
+            "heading": "① 年降水量只有26 mm",
+            "text": "原圖明印年降水量26 mm，月降水柱全年都很低。第一圖將全年總量畫在量尺上；不是猜補各月雨量。極乾燥是本題最重要的線索。",
+            "alt": "年總雨量26 mm在0至100 mm量尺上以藍色水面精確標在26的位置。",
+            "caption": "新製量尺圖｜0～100 mm為顯示刻度，不是氣候分類門檻。",
+            "image": "assets/comics/q-1062-art-f419661565.svg"
           },
           {
-            "heading": "② 有河不等於當地多雨",
-            "text": "開羅靠尼羅河取得水源；上游流來的河水不能代替當地氣候數據。",
-            "alt": "有河不等於當地多雨",
-            "diagram": {
-              "kind": "flow",
-              "title": "有河不等於當地多雨",
-              "items": [
-                {
-                  "label": "尼羅河水",
-                  "detail": "可來自上游",
-                  "tone": "blue"
-                },
-                {
-                  "label": "當地氣候",
-                  "detail": "仍依當地雨量判斷",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "② 有尼羅河，不等於當地多雨",
+            "text": "第二圖分開畫上游降雨與流向開羅的河水。河流可把上游水帶到乾燥地區；看到尼羅河，不能直接推論開羅當地降水豐富。",
+            "alt": "下方上游降雨匯入河水，藍色河流由上游流向下游開羅，開羅位於分流前；周圍為乾燥地區。",
+            "caption": "新製河水來源示意｜不是地圖、實際河道或降雨位置圖。",
+            "image": "assets/comics/q-1062-panel-2-art-ce8484d1b4.svg"
           },
           {
-            "heading": "③ 排除應有雨季的類型",
-            "text": "溫帶季風與地中海型都有較明顯雨季；圖中全年少雨符合教材熱帶沙漠類型。",
-            "alt": "排除應有雨季的類型",
-            "diagram": {
-              "kind": "paths",
-              "title": "排除應有雨季的類型",
-              "items": [
-                {
-                  "label": "原圖全年",
-                  "detail": "月雨量都很低",
-                  "tone": "blue"
-                },
-                {
-                  "label": "教材分類",
-                  "detail": "熱帶沙漠氣候",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "B 熱帶沙漠"
-            }
+            "heading": "③ 全年少雨，不能只憑冬季選地中海型",
+            "text": "第三圖只比較雨季形狀：溫帶季風常見較明顯夏雨，地中海型有冬雨、夏乾。本題全年總共僅26 mm，不能只因冬季有一點雨就選D。",
+            "alt": "三列分別為全年雨柱都低、夏季雨柱較高、冬季雨柱較高的概念圖，標明冬春夏秋。",
+            "caption": "新製概念比較｜柱高沒有數值，不冒充原卷月資料或真實測站。",
+            "image": "assets/comics/q-1062-panel-3-art-5e770c20b4.svg"
           }
         ],
         "fourth": {
-          "answer": "(B) 熱帶沙漠氣候",
+          "answer": "答案 B：教材的熱帶沙漠氣候",
           "points": [
-            "年雨量僅26 mm，全年極乾燥。",
-            "河水不代表當地降雨多。",
-            "教材分類選B熱帶沙漠。"
-          ]
-        }
+            "第四圖只畫原卷兩個全年數字：21.4°C、26 mm。",
+            "最突出的判讀線索是極乾燥，依本題教材分類選B。",
+            "保留原說明：熱帶沙漠名稱不代表每個月均溫都高於18°C。"
+          ],
+          "image": "assets/comics/q-1062-panel-4-art-a4f01ac2fa.svg",
+          "alt": "以年均溫為橫軸、年降水量為縱軸，只標原卷21.4°C與26 mm的單一點；未新增其他城市或分類界線。"
+        },
+        "protectedWords": [
+          "26 mm",
+          "21.4°C",
+          "熱帶沙漠氣候",
+          "地中海型",
+          "尼羅河",
+          "開羅",
+          "18°C"
+        ]
       }
     },
     {
@@ -114614,85 +114900,50 @@
       "diagram": "",
       "contentStatus": "完整原題",
       "teachingComic": {
-        "title": "亞特拉斯山脈與摩洛哥氣候",
-        "art": "assets/comics/q-1064-art-62f6de3cdc.svg",
+        "title": "先定位西北非，再理解山地氣候影響",
+        "art": "assets/comics/q-1064-art-94aac6535e.svg",
         "panels": [
           {
-            "heading": "① 摩洛哥定位西北非",
-            "text": "先找到非洲西北角的摩洛哥，南方與東南方靠近撒哈拉。",
-            "alt": "摩洛哥定位西北非",
-            "diagram": {
-              "kind": "flow",
-              "title": "摩洛哥定位西北非",
-              "items": [
-                {
-                  "label": "摩洛哥",
-                  "detail": "非洲西北部",
-                  "tone": "blue"
-                },
-                {
-                  "label": "撒哈拉",
-                  "detail": "在其南方、東南方",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "① 找到摩洛哥與亞特拉斯山脈",
+            "text": "第一圖標出摩洛哥在非洲西北部；亞特拉斯山脈穿越西北非，南側與東南側接近撒哈拉。題目的甲地應先從這個位置找。",
+            "alt": "西北非海陸定位圖，摩洛哥以點標出，山脈帶概略從西南往東北延伸，撒哈拉在南側。",
+            "caption": "新製定位圖｜海陸依Natural Earth；山脈為概略走向，非國界。",
+            "image": "assets/comics/q-1064-art-94aac6535e.svg"
           },
           {
-            "heading": "② 山脈改變氣流與高度",
-            "text": "亞特拉斯山脈可攔截水氣，海拔也能降溫，並減弱部分熱乾氣流影響。",
-            "alt": "山脈改變氣流與高度",
-            "diagram": {
-              "kind": "flow",
-              "title": "山脈改變氣流與高度",
-              "items": [
-                {
-                  "label": "海上濕氣",
-                  "detail": "遇山抬升",
-                  "tone": "blue"
-                },
-                {
-                  "label": "山地屏障",
-                  "detail": "影響氣流與溫度",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "② 屏障會影響氣流，但不完全阻絕",
+            "text": "第二圖以山地剖面表示海上濕氣與南側熱乾氣流。地形會改變氣流路徑，減弱部分熱乾影響；細虛線保留氣流仍可能越山的情形，不把山畫成密閉牆。",
+            "alt": "藍色濕氣沿海側抬升，橘色南側熱乾氣流遇山改變方向，細虛線仍可越山，不是完全阻隔。",
+            "caption": "新製氣流機制圖｜不對應特定天氣、風速或精確剖面。",
+            "image": "assets/comics/q-1064-panel-2-art-8dbc82f476.svg"
           },
           {
-            "heading": "③ 區域比熱冷字眼可靠",
-            "text": "阿拉伯、安納托力亞在西亞，東非裂谷在非洲東部；只有亞特拉斯位置相符。",
-            "alt": "區域比熱冷字眼可靠",
-            "diagram": {
-              "kind": "paths",
-              "title": "區域比熱冷字眼可靠",
-              "items": [
-                {
-                  "label": "題幹地點",
-                  "detail": "西北非摩洛哥",
-                  "tone": "blue"
-                },
-                {
-                  "label": "符合山脈",
-                  "detail": "亞特拉斯",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "C 亞特拉斯山脈"
-            }
+            "heading": "③ 其他三個選項位置不符",
+            "text": "第三圖C在西北非，A阿拉伯高原與D安納托力亞高原在西亞，B東非大裂谷在非洲東部。題目指向摩洛哥，因此C最符合。",
+            "alt": "非洲及鄰近西亞輪廓，C位於西北非，A阿拉伯半島，D安納托力亞，B東非。",
+            "caption": "新製區域定位圖｜字母對應原選項，標記不代表整個地形範圍。",
+            "image": "assets/comics/q-1064-panel-3-art-89d35b0b47.svg"
           }
         ],
         "fourth": {
-          "answer": "(C) 亞特拉斯山脈",
+          "answer": "答案 C：亞特拉斯山脈",
           "points": [
-            "摩洛哥位於非洲西北部。",
-            "亞特拉斯影響氣流、水氣與高度。",
-            "屏障不是完全阻絕空氣的牆。"
-          ]
-        }
+            "第四圖以不同高度的溫度計示海拔影響；未給虛構溫度數字。",
+            "位置、緯度、海洋與山地共同影響氣候，不能用單一因素概括全國。",
+            "山脈是地形屏障，不代表沙漠空氣絕對無法越過。"
+          ],
+          "image": "assets/comics/q-1064-panel-4-art-649ce0cfd3.svg",
+          "alt": "同一概念山坡較低處及較高處各一支無數值溫度計，高處表示通常較涼；非實測溫差。"
+        },
+        "protectedWords": [
+          "亞特拉斯山脈",
+          "阿拉伯高原",
+          "安納托力亞高原",
+          "東非大裂谷",
+          "摩洛哥",
+          "撒哈拉",
+          "西北非"
+        ]
       }
     },
     {
@@ -114731,85 +114982,51 @@
       "diagram": "",
       "contentStatus": "完整原題",
       "teachingComic": {
-        "title": "西風帶與北非山地降水",
-        "art": "assets/comics/q-1065-art-62f6de3cdc.svg",
+        "title": "西風送來海上水氣，山地抬升形成降水",
+        "art": "assets/comics/q-1065-art-236a462387.svg",
         "panels": [
           {
-            "heading": "① 先看區域與季節",
-            "text": "北非地中海沿岸冬半年受中緯度西風帶影響，海上水氣隨風移入。",
-            "alt": "先看區域與季節",
-            "diagram": {
-              "kind": "flow",
-              "title": "先看區域與季節",
-              "items": [
-                {
-                  "label": "冬半年",
-                  "detail": "西風帶影響",
-                  "tone": "blue"
-                },
-                {
-                  "label": "海上氣流",
-                  "detail": "帶來水氣",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "① 西風是從西側吹來的風",
+            "text": "第一圖以風向箭頭和北半球中緯度風帶示意盛行西風。題目位置是北非地中海沿岸，冬半年可受西風帶影響。",
+            "alt": "球面中緯度帶與由西側吹向東側的箭頭，左右標明西與東。",
+            "caption": "新製風帶概念圖｜箭頭表示來向，不是實際地圖或當日預報。",
+            "image": "assets/comics/q-1065-art-236a462387.svg"
           },
           {
-            "heading": "② 濕氣遇山抬升",
-            "text": "亞特拉斯山地攔截部分濕氣，氣流抬升冷卻，形成降水。",
-            "alt": "濕氣遇山抬升",
-            "diagram": {
-              "kind": "flow",
-              "title": "濕氣遇山抬升",
-              "items": [
-                {
-                  "label": "帶水氣的西風",
-                  "detail": "遇到山地",
-                  "tone": "blue"
-                },
-                {
-                  "label": "抬升冷卻",
-                  "detail": "地形降水",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "依序判讀"
-            }
+            "heading": "② 海上濕氣遇山抬升、冷卻",
+            "text": "第二圖畫海洋與山地剖面：帶水氣的氣流被地形迫使上升，冷卻後可凝結成雲、形成降水。這是亞特拉斯山地截留部分水氣的機制。",
+            "alt": "藍色氣流從海洋向山地抬升，迎風坡上方有雲和雨線；山地非實際剖面比例。",
+            "caption": "新製機制剖面｜箭頭由海洋移入並沿迎風坡抬升。",
+            "image": "assets/comics/q-1065-panel-2-art-d8a14da12b.svg"
           },
           {
-            "heading": "③ 不直接套亞洲季風",
-            "text": "東北、西南、西北季風都不是本題要找的中緯度盛行風帶名稱。",
-            "alt": "不直接套亞洲季風",
-            "diagram": {
-              "kind": "paths",
-              "title": "不直接套亞洲季風",
-              "items": [
-                {
-                  "label": "地點",
-                  "detail": "北非地中海沿岸",
-                  "tone": "blue"
-                },
-                {
-                  "label": "風帶",
-                  "detail": "盛行西風",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合線索",
-              "target": "D 盛行西風"
-            }
+            "heading": "③ 有地形雨，不代表全國都多雨",
+            "text": "第三圖比較迎風與背風：迎風側較有利於降水，越過山地後水氣可能減少。不能把題幹的寶貴水源，理解成突尼西亞、阿爾及利亞所有地點都很濕潤。",
+            "alt": "迎風側以藍色氣流、雲雨表示較有利降水；背風側為水氣減少的氣流及較乾燥山坡。",
+            "caption": "新製兩側比較｜只示地形效應，不給虛構雨量數值。",
+            "image": "assets/comics/q-1065-panel-3-art-ed98979fb6.svg"
           }
         ],
         "fourth": {
-          "answer": "(D) 盛行西風",
+          "answer": "答案 D：盛行西風",
           "points": [
-            "北非冬半年受西風帶影響。",
-            "海上水氣遇山抬升降水。",
-            "選盛行西風，不套亞洲季風。"
-          ]
-        }
+            "第四圖以降水沿山坡匯成溪流，連結題幹的寶貴水源。",
+            "選項A、B、C是季風名稱；本題要辨認中緯度盛行風帶。",
+            "先判位置與風帶，不能只因來自海上，就套成亞洲西南季風。"
+          ],
+          "image": "assets/comics/q-1065-panel-4-art-c4b9469100.svg",
+          "alt": "西風從海洋帶來濕氣，山坡降水沿分支匯為溪流；河道為新製教學示意。"
+        },
+        "protectedWords": [
+          "盛行西風",
+          "西風帶",
+          "亞特拉斯山地",
+          "阿爾及利亞",
+          "突尼西亞",
+          "地形雨",
+          "迎風側",
+          "背風側"
+        ]
       }
     },
     {
@@ -115309,5 +115526,5 @@
       }
     }
   ],
-  "dataUpdatedAt": "2026-11-11T16:58:51+00:00"
+  "dataUpdatedAt": "2026-11-11T17:49:06+00:00"
 }

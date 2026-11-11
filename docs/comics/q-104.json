@@ -1,8 +1,8 @@
 {
   "id": "q-104",
   "subject": "Biology",
-  "title": "少量觀察不等於理論機率",
-  "art": "docs/comics/art/q-104.png",
+  "title": "小樣本25%，理論機率75%",
+  "art": "docs/comics/art/q-104-biology-v2-panel-1.png",
   "protectedWords": [
     "Bb×Bb",
     "BB、Bb、Bb、bb",
@@ -12,39 +12,47 @@
   ],
   "panels": [
     {
-      "heading": "① 白毛子代反推雙親都有b",
-      "text": "白毛是bb，父母必各提供b；題目又說雙親都是黑毛，所以各為Bb。不能把其中一隻改成白毛的bb。",
-      "alt": "黑毛親代的觀察情境，不由插畫決定完整家族數量或基因型。"
+      "heading": "① 兩隻黑毛親代，都必須帶b",
+      "text": "白毛子代是bb，表示父母各提供b；雙親又都是黑毛，所以各為Bb。第一圖兩隻親代皆黑毛，不能把一隻擅改成bb白毛。",
+      "alt": "新製類真實豚鼠教學插畫：兩隻不同姿態的健康黑毛成體，無白毛親代、無可見長尾或兔耳；基因型依題文推理，不由外觀直接判。",
+      "caption": "親代情境｜兩黑毛，依白毛子代反推Bb×Bb。",
+      "image": "docs/comics/art/q-104-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 理論黑毛比例是75%",
-      "text": "Bb×Bb的等機會組合為BB、Bb、Bb、bb。前三種組合表現黑毛，理論機率為3／4＝75%。不是每四隻必定3黑1白。",
-      "alt": "整理遺傳關係的學習情境；精確四組合與比例均由旁邊文字列出。"
+      "heading": "② 原文四隻：1黑3白，只是25%",
+      "text": "第二圖照題文呈現左1黑、右3白。黑毛1／4＝25%，只是目前四隻的觀察結果，不能直接當成固定遺傳機率。",
+      "alt": "新製類真實小樣本豚鼠模型：左1黑毛幼豚鼠，右3白毛幼豚鼠，完整個體共4隻，對應原文初始觀察而不是理論比例。",
+      "caption": "初始小樣本｜1黑3白，共4隻。",
+      "image": "docs/comics/art/q-104-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 四隻的25%不是固定機率",
-      "text": "目前1黑3白，黑毛占25%，只是小樣本結果。子代增加，觀察比例較可能接近75%；不保證每多一隻都上升。",
-      "alt": "累積更多觀察紀錄，不用畫出固定黑白比或保證平滑上升的實測圖。"
+      "heading": "③ 四等機會組合：黑毛占3／4",
+      "text": "Bb×Bb列出BB、Bb、Bb、bb。第三圖以三黑一白表示這四個等機會表現型，黑毛理論機率75%；不代表每四隻必定3黑1白。",
+      "alt": "新製類真實四等機會表現型模型：上左、上右、下左為黑毛，下右白毛，對應BB、Bb、Bb、bb的表現型；不是一窩實際紀錄。",
+      "caption": "理論模型｜3黑1白，不是每窩必然結果。",
+      "image": "docs/comics/art/q-104-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "answer": "答案 D：由25%趨近75%",
+    "answer": "答案 D：黑毛比例長期趨近75%",
     "points": [
-      "兩隻黑毛能生白毛：雙親皆Bb。",
-      "理論3／4，和目前觀察1／4是不同概念。",
-      "原選項畫長期趨勢；實際過程可能上下波動。"
-    ]
+      "第四圖表示累積更多觀察，不是額外實測數據或逐胎保證。",
+      "目前1／4＝25%，與理論3／4＝75%不同。",
+      "樣本變多較可能接近75%，過程仍可能上下波動。"
+    ],
+    "image": "docs/comics/art/q-104-biology-v2-panel-4.png",
+    "alt": "新製類真實更多觀察情境：多於4隻的黑白豚鼠在清潔寬敞環境中，旁有空白記錄本；不將圖中群體冒充題目新增數據或固定每窩比例。"
   },
-  "rationale": "已實看第24題完整原卷含四張曲線，獨立枚舉雙親B/b配子得到BB/Bb/Bb/bb，確認黑毛3/4。初始1/4並非親代Bb×bb證據；原手寫錯式不沿用。新圖只呈現觀察與累積紀錄，精確遺傳型、組合與趨勢由HTML/原卷圖表示，不讓AI決定動物數量比例或平滑曲線。無既有AI圖。",
-  "generationMethod": "built-in image_gen",
-  "promptFile": "docs/comics/q-104-prompt.txt",
+  "rationale": "依2026-11-12要求製作四張獨立類真實生物圖：兩黑毛親代、原文1黑3白觀察、四等機會表現型模型3黑1白、更多子代觀察情境。原卷曲線仍作答必備且未改，原D/Bb×Bb→75%保留。不將理論四格模型當每窩必然數量，不用群體示意當新實驗數據或平滑單調實測曲線。",
+  "generationMethod": "built-in image_gen; four independently generated near-realistic guinea-pig genetics teaching illustrations",
   "originalMaterialsChecked": true,
   "visualChecked": true,
   "originalMaterials": [
-    "site/dist/assets/questions/q-104-source-d19e880b84.jpg"
+    "site/dist/assets/questions/q-104-source-d19e880b84.jpg",
+    "site/dist/assets/questions/q-104-figure-839786efd3.jpg"
   ],
-  "answerCheckedAgainst": "雙親黑毛且生白毛，皆Bb；四等機會配子組合黑毛3/4，D表75%長期趨勢。",
-  "layoutVersion": "native-fluid-v6",
+  "answerCheckedAgainst": "原卷24題與四曲線實看，兩黑毛親代生bb，所以皆Bb。獨立枚舉B/b配子：BB、Bb、bB、bb；規範基因型BB、Bb、Bb、bb，黑3/4=75%，原D。",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -56,9 +64,55 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "d99d772ed04e8dd35e1e9e3d73d0af998d63c9b3aab20d2a667ae3d330132085",
   "createdAt": "2026-10-28T19:39:16.596427+00:00",
-  "checkedAt": "2026-10-28T19:43:53.284145+00:00",
-  "validationFile": "docs/comics/q-104-validation.json",
-  "nativeArt": "assets/comics/q-104-art-d99d772ed0-web.webp"
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T17:28:40.234967+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-104/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-104/scientific-review.json",
+  "independentDerivation": {
+    "parentGenotypes": [
+      "Bb",
+      "Bb"
+    ],
+    "equallyLikelyAllelePairs": [
+      "BB",
+      "Bb",
+      "bB",
+      "bb"
+    ],
+    "canonicalGenotypes": [
+      "BB",
+      "Bb",
+      "Bb",
+      "bb"
+    ],
+    "blackCombinations": 3,
+    "totalCombinations": 4,
+    "theoryBlackProbability": 0.75,
+    "initialObservedBlack": 1,
+    "initialObservedTotal": 4,
+    "initialObservedFraction": 0.25
+  },
+  "nativeArt": "assets/comics/q-104-art-baecc96c10-web.webp",
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T17:34:19.755966+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-104-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-104-app-390.png",
+      "/tmp/weirugo-comic-checks/q-104-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-104-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T17:34:19.763702+00:00",
+  "validationFile": "docs/comics/q-104-validation.json"
 }

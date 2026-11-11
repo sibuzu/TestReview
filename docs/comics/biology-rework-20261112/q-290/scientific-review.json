@@ -1,0 +1,105 @@
+{
+  "questionId": "q-290",
+  "checkedAt": "2026-11-11T17:43:09.943528+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "D（原卷預期，既有確認限制保持）",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://www.ninds.nih.gov/sites/default/files/2025-05/NINDS_ALS_Booklet_Digital-508c.pdf",
+      "finding": "ALS影響腦與脊髓中的運動神經元；退化後停止向肌肉傳訊，導致無力與萎縮。"
+    },
+    {
+      "url": "https://www.ninds.nih.gov/sites/default/files/migrate-documents/ALS_FactSheet-E_508C.pdf",
+      "finding": "上運動神經元在腦，訊息傳至脊髓或腦幹的下運動神經元，再送到特定肌肉；不能簡化為只有所有周圍神經退化。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "側面大腦居上、小腦後下方",
+        "腦幹連接脊髓上段，不把小腦接成末端",
+        "不宣稱ALS不影響中樞"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "單一軸突、有髓節段與末端分支",
+        "末端在有橫紋骨骼肌表面，未穿入或融合",
+        "多條肌纖維受同運動神經元支配為放大模型"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "左粗右細的肌束與肌纖維質性比較",
+        "無假數值、個人診斷或病人前後影像",
+        "肌肉萎縮為失神經支配後果"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "左中樞、中周圍神經束、右肌束",
+        "神經有多束纖維切面，未畫成血管腔",
+        "保持原卷預期D與疾病涉及中樞運動神經元的已確認限制"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "originalLabels": {
+      "甲": "大腦",
+      "乙": "小腦",
+      "丙": "脊髓",
+      "丁": "周圍神經"
+    },
+    "expectedOriginalAnswer": "D",
+    "confirmedScope": "ALS影響腦與脊髓的運動神經元，並造成骨骼肌失神經支配萎縮；非只有丁或所有周圍神經。"
+  },
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-290-biology-v2-panel-1.png",
+      "sha256": "3d272b2f211e6947b12eb2409ef95fff3a9d3dceb686c925b5ef116be4b558b8",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-290-biology-v2-panel-2.png",
+      "sha256": "e26d0849e67ca728a8ae4e370bb32d1bf0bf11c430db29533f001af1f6f32449",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-290-biology-v2-panel-3.png",
+      "sha256": "fa71b19f5ae46b5b4952cc8623ddab60ed442dfafc7bd5ec8f55b6074a5b89d8",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-290-biology-v2-panel-4.png",
+      "sha256": "9e90d85ac96b326a36aa3383658a0f92962586ceba3f3d73766e87b7b44af165",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "使用者已確認q290原卷D與圖示/措辭限制。本次只新增四圖，不重開同項確認；既有原題與詳解不改。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-290-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

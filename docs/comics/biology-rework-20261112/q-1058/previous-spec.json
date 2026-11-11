@@ -1,0 +1,123 @@
+{
+  "id": "q-1058",
+  "subject": "Geography",
+  "title": "從日出與斷崖定位龜山島",
+  "art": "docs/comics/art/q-1058-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1058-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先用景觀定位海域\n題幹把日出、中央山脈起點、斷崖峭壁合在一起，指向臺灣東北部至東部海岸的海景情境，不能只憑海上活動就選任何離島。宜蘭外海的龜山島最符合，選A。\n\n二、用經緯度交叉核對\nA約24.84°N、121.95°E，在宜蘭外海，島形也符合龜山島。B約24.45°N、118.37°E，在金門；C約26.15°N、119.91°E，在馬祖；D約22.33°N、120.36°E，在屏東外海小琉球。\n\n三、排除原選D\n小琉球位於臺灣西南側，與題幹東北、東岸的山脈及斷崖線索不符。A除了島形，也與座標、海岸位置一致；原題四幅圖及座標完整保留，不用輔助示意取代原圖。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 景觀先定位海域",
+      "text": "日出、中央山脈起點與斷崖，合在一起指向東北部至東部海岸。",
+      "alt": "景觀先定位海域",
+      "diagram": {
+        "kind": "flow",
+        "title": "景觀先定位海域",
+        "items": [
+          {
+            "label": "日出與斷崖",
+            "detail": "東向海岸線索",
+            "tone": "blue"
+          },
+          {
+            "label": "中央山脈起點",
+            "detail": "臺灣東北一帶",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 座標交叉檢查",
+      "text": "A約24.84°N、121.95°E，在宜蘭外海，符合龜山島。",
+      "alt": "座標交叉檢查",
+      "diagram": {
+        "kind": "paths",
+        "title": "座標交叉檢查",
+        "items": [
+          {
+            "label": "北緯24.84°",
+            "detail": "宜蘭附近緯度",
+            "tone": "blue"
+          },
+          {
+            "label": "東經121.95°",
+            "detail": "臺灣東北外海",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "A 龜山島"
+      }
+    },
+    {
+      "heading": "③ 別把西南離島混入",
+      "text": "B為金門、C為馬祖，D為小琉球；D在臺灣西南側，與題述海岸不合。",
+      "alt": "別把西南離島混入",
+      "diagram": {
+        "kind": "paths",
+        "title": "別把西南離島混入",
+        "items": [
+          {
+            "label": "B／C",
+            "detail": "金門／馬祖",
+            "tone": "blue"
+          },
+          {
+            "label": "D",
+            "detail": "西南側小琉球",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "東北外海選A"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(A) 原圖A（龜山島）",
+    "points": [
+      "景觀指向東北、東部海岸。",
+      "A座標在宜蘭外海龜山島。",
+      "小琉球在西南側，不合題意。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1058-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1057-1058.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1058-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.003705+00:00",
+  "validationFile": "docs/comics/q-1058-validation.json"
+}

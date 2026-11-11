@@ -1,0 +1,114 @@
+{
+  "questionId": "q-291",
+  "checkedAt": "2026-11-11T17:50:29.370328+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "C",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-sturgeon",
+      "finding": "鱘魚具骨板列、吻下四觸鬚及上葉較長的歪尾；只作科級外形查核，不以插畫斷定題目鱘魚種。"
+    },
+    {
+      "url": "https://www.fws.gov/sites/default/files/documents/2024-04/1508.pdf",
+      "finding": "捉放估計用標記與再捕比例及相應抽樣前提。原題採基礎比例，不自行改統計估計式。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "一隻局部標記情境，不假裝50隻",
+        "長吻、四短觸鬚、骨板列、歪尾",
+        "魚體受托住，無傷口"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "有標記與未標記在同一池混合",
+        "只呈現部分魚，精確比例以HTML說明",
+        "可辨鱘魚外形與單一後位背鰭"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "有標記魚在樣本內，不當額外7隻",
+        "初稿上魚錯有雙背鰭，已imagegen移除中央假背鰭",
+        "修正版兩魚各只有一片後位背鰭，橘標移至上魚後背"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "網內樣本來自同一池，網外仍有魚",
+        "網內外各有標記例子，但不把圖像魚數當統計",
+        "全池魚數N未知，比例估計與最接近選項由HTML"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "initialMarked": 50,
+    "secondSample": 200,
+    "recapturedMarked": 7,
+    "estimate": 1428.5714285714287,
+    "nearestOption": 1500,
+    "nearestOptionLabel": "C",
+    "secondSampleIncludesMarked": true
+  },
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-291-biology-v2-panel-1.png",
+      "sha256": "a7fb413a1deb6666e4816562ea58c4563aec988b8052ca60f8960bc72bad5aa0",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-291-biology-v2-panel-2.png",
+      "sha256": "28e5348ac5ff1b8e372fda2f990cf0b20b0d494c5b536754d18174dd10369dca",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-291-biology-v2-panel-3.png",
+      "sha256": "6bbccc9faaa8800e7fd57f25f2c4b4fc15619986497c7e314630591e43a54a36",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-291-biology-v2-panel-4.png",
+      "sha256": "46426573826ebba3263fb13fa3e6f48994a648fc85273580a221308e272f0119",
+      "actualImageViewed": true
+    }
+  ],
+  "generationDraftCorrections": [
+    {
+      "panel": 3,
+      "reason": "初稿上魚兩片背鰭不符鱘魚",
+      "method": "built-in imagegen edit",
+      "prompt": "panel-3-edit-prompt.txt",
+      "finalGeneratedPath": "/home/jack/.codex/generated_images/01a1cb6d-59b1-7671-b44c-21b26191dd38/exec-9f48324c-01de-4751-b14d-1477dab25708.png",
+      "rechecked": "已實看，中央假背鰭移除，保留近尾單一背鰭。"
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原C、50/200/7與最近選項1500保持；未發布生成草稿已修正，不新增原題勘誤。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-291-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

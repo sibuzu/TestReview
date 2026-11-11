@@ -2,7 +2,7 @@
   "kind": "four_image_biology_and_missing_rework",
   "state": "active",
   "createdAt": "2026-11-11T16:27:16.335709+00:00",
-  "updatedAt": "2026-11-11T18:04:06.634125+00:00",
+  "updatedAt": "2026-11-11T18:24:16.729702+00:00",
   "worknerdTaskId": "t_a87b51180cc247a88d16",
   "goalActive": true,
   "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
@@ -480,7 +480,7 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -497,7 +497,7 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -514,10 +514,12 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T18:15:20.549182+00:00"
     },
     {
       "id": "q-307",
@@ -1451,7 +1453,7 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -1468,7 +1470,7 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -1485,7 +1487,7 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -1502,7 +1504,7 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -1519,7 +1521,7 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -1581,7 +1583,7 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "production",
+      "state": "ready",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
@@ -1598,10 +1600,12 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:15:20.566797+00:00"
     },
     {
       "id": "q-925",
@@ -2484,10 +2488,12 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:15:20.566820+00:00"
     },
     {
       "id": "q-1067",
@@ -2539,6 +2545,36 @@
       "questionPages": 19,
       "images": 80,
       "pushedAt": "2026-11-11T17:03:27.320571+00:00"
+    },
+    {
+      "batchNumber": 34,
+      "commit": "b606cfbfaf67d3488d413156428b05015656dca5",
+      "originalQuestionIds": [
+        "q-050",
+        "q-101",
+        "q-102",
+        "q-711",
+        "q-1065",
+        "q-1062",
+        "q-103",
+        "q-1064",
+        "q-1060",
+        "q-104",
+        "q-729",
+        "q-734",
+        "q-737",
+        "q-738",
+        "q-1061",
+        "q-280",
+        "q-1058",
+        "q-290",
+        "q-744",
+        "q-748"
+      ],
+      "originalQuestions": 20,
+      "questionPages": 20,
+      "images": 80,
+      "pushedAt": "2026-11-11T18:24:16.729687+00:00"
     }
   ]
 }

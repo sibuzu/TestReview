@@ -2,24 +2,24 @@
   "mode": "biology_four_image_goal",
   "workerLimit": 3,
   "rootRole": "回應與協調、機動製作q760/q912；q750/q751/q752/q758 ready待下批整合",
-  "updatedAt": "2026-11-11T18:04:05.580981+00:00",
+  "updatedAt": "2026-11-11T18:24:16.759817+00:00",
   "lanes": [
     {
       "lane": 1,
-      "questionId": "q-1058",
-      "title": "第二批門檻：正式整合q1058/q290/q744/q748",
-      "state": "integrating",
-      "startedAt": "2026-11-11T17:49:01.496671+00:00",
+      "questionId": null,
+      "title": "第二批20已推送，保存回執並接8題ready稿",
+      "state": "publication_receipt",
+      "startedAt": "2026-11-11T18:24:16.759105+00:00",
       "agent": "/root/comic_lane_1",
       "role": "integration",
       "claimsPaused": false,
       "batchQuestionIds": [],
       "pauseReason": "",
       "activeTask": {
-        "title": "第二批門檻：正式整合q1058/q290/q744/q748",
-        "state": "integrating",
-        "questionId": "q-1058",
-        "startedAt": "2026-11-11T17:49:01.496671+00:00"
+        "title": "第二批20已推送，保存回執並接8題ready稿",
+        "state": "publication_receipt",
+        "questionId": null,
+        "startedAt": "2026-11-11T18:24:16.759105+00:00"
       }
     },
     {
@@ -36,10 +36,10 @@
     },
     {
       "lane": 3,
-      "questionId": "q-305",
-      "title": "生物第7題｜蘇鐵有種子但沒有真正的花",
+      "questionId": "q-306",
+      "title": "生物第6題｜五界分類圖與單、多細胞生物",
       "state": "idle",
-      "startedAt": "2026-11-11T17:53:58.821992+00:00",
+      "startedAt": "2026-11-11T18:15:20.549182+00:00",
       "agent": "/root/comic_lane_3",
       "role": "production",
       "claimsPaused": false,
@@ -86,6 +86,151 @@
         "docs/comics/q-305-preview-validation.json",
         "docs/comics/biology-rework-20261112/q-305/scientific-review.json"
       ]
+    },
+    {
+      "id": "q-306",
+      "title": "生物第6題｜五界分類圖與單、多細胞生物",
+      "subject": "Biology",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-11T18:15:20.549182+00:00",
+      "owner": "/root/comic_lane_3",
+      "reworkPlan": "biology-rework-20261112",
+      "jobId": "job-889afe280edd4c76b413694c3869c8ca",
+      "readyAt": "2026-11-11T18:23:10.582970+00:00",
+      "decision": "complete",
+      "reason": "四張獨立類真實草履蟲/海帶/酵母蕈類/四例整合完成；原B與傳統五界範圍保持，隔離三寬PASS及桌手機實看",
+      "evidence": [
+        "docs/comics/q-306.json",
+        "docs/comics/q-306-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-306/scientific-review.json"
+      ]
+    },
+    {
+      "id": "q-750",
+      "title": "英文第2回第15題｜did與過去活動",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:43:57.794454+00:00",
+      "readyAt": "2026-11-11T18:24:16.740381+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-750.json",
+        "docs/comics/q-750-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-61e0ce649d8941c7842b69f6dfaea403"
+    },
+    {
+      "id": "q-751",
+      "title": "英文第2回第16題｜sang的過去時間線索",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:43:57.794469+00:00",
+      "readyAt": "2026-11-11T18:24:16.740465+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-751.json",
+        "docs/comics/q-751-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-881d33eef1fb413b8d8c785af730d999"
+    },
+    {
+      "id": "q-752",
+      "title": "英文第2回第17題｜昨晚有沒有去看電影",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:51:20.375318+00:00",
+      "readyAt": "2026-11-11T18:24:16.740521+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-752.json",
+        "docs/comics/q-752-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-9ab56177e07a4ffbbac59817e4b36cc9"
+    },
+    {
+      "id": "q-758",
+      "title": "英文第2回第23題｜當時正在找資料",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:51:20.375331+00:00",
+      "readyAt": "2026-11-11T18:24:16.740570+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-758.json",
+        "docs/comics/q-758-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-96c037c884da4f4882035f67edceaa79"
+    },
+    {
+      "id": "q-760",
+      "title": "英文第2回第25題｜who問句不由複數回答強制改are",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T18:00:09.341529+00:00",
+      "readyAt": "2026-11-11T18:24:16.740621+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-760.json",
+        "docs/comics/q-760-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-2b560ce70ed346959f27f6c6c1645536"
+    },
+    {
+      "id": "q-912",
+      "title": "英文第12題｜花費動詞的主詞與受詞",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T18:00:09.341553+00:00",
+      "readyAt": "2026-11-11T18:24:16.740671+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-912.json",
+        "docs/comics/q-912-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-6ee17eae284f4c2ebe676147f6bee3bd"
     }
   ],
   "integrated": 1017,
@@ -128,6 +273,151 @@
         "docs/comics/q-305-preview-validation.json",
         "docs/comics/biology-rework-20261112/q-305/scientific-review.json"
       ]
+    },
+    {
+      "id": "q-306",
+      "title": "生物第6題｜五界分類圖與單、多細胞生物",
+      "subject": "Biology",
+      "lane": 3,
+      "state": "ready",
+      "startedAt": "2026-11-11T18:15:20.549182+00:00",
+      "owner": "/root/comic_lane_3",
+      "reworkPlan": "biology-rework-20261112",
+      "jobId": "job-889afe280edd4c76b413694c3869c8ca",
+      "readyAt": "2026-11-11T18:23:10.582970+00:00",
+      "decision": "complete",
+      "reason": "四張獨立類真實草履蟲/海帶/酵母蕈類/四例整合完成；原B與傳統五界範圍保持，隔離三寬PASS及桌手機實看",
+      "evidence": [
+        "docs/comics/q-306.json",
+        "docs/comics/q-306-preview-validation.json",
+        "docs/comics/biology-rework-20261112/q-306/scientific-review.json"
+      ]
+    },
+    {
+      "id": "q-750",
+      "title": "英文第2回第15題｜did與過去活動",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:43:57.794454+00:00",
+      "readyAt": "2026-11-11T18:24:16.740381+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-750.json",
+        "docs/comics/q-750-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-61e0ce649d8941c7842b69f6dfaea403"
+    },
+    {
+      "id": "q-751",
+      "title": "英文第2回第16題｜sang的過去時間線索",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:43:57.794469+00:00",
+      "readyAt": "2026-11-11T18:24:16.740465+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-751.json",
+        "docs/comics/q-751-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-881d33eef1fb413b8d8c785af730d999"
+    },
+    {
+      "id": "q-752",
+      "title": "英文第2回第17題｜昨晚有沒有去看電影",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:51:20.375318+00:00",
+      "readyAt": "2026-11-11T18:24:16.740521+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-752.json",
+        "docs/comics/q-752-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-9ab56177e07a4ffbbac59817e4b36cc9"
+    },
+    {
+      "id": "q-758",
+      "title": "英文第2回第23題｜當時正在找資料",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T17:51:20.375331+00:00",
+      "readyAt": "2026-11-11T18:24:16.740570+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-758.json",
+        "docs/comics/q-758-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-96c037c884da4f4882035f67edceaa79"
+    },
+    {
+      "id": "q-760",
+      "title": "英文第2回第25題｜who問句不由複數回答強制改are",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T18:00:09.341529+00:00",
+      "readyAt": "2026-11-11T18:24:16.740621+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-760.json",
+        "docs/comics/q-760-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-2b560ce70ed346959f27f6c6c1645536"
+    },
+    {
+      "id": "q-912",
+      "title": "英文第12題｜花費動詞的主詞與受詞",
+      "subject": "English",
+      "lane": 1,
+      "owner": "/root",
+      "generatorAgent": "/root",
+      "state": "ready",
+      "decision": "complete",
+      "startedAt": "2026-11-11T18:00:09.341553+00:00",
+      "readyAt": "2026-11-11T18:24:16.740671+00:00",
+      "reason": "root四張英文教學圖已完整交稿，原卷與隔離三寬/桌手機核查通過；待Agent1正式QA，不計完成。",
+      "evidence": [
+        "docs/comics/q-912.json",
+        "docs/comics/q-912-preview-validation.json"
+      ],
+      "durationSeconds": null,
+      "timingValid": false,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-6ee17eae284f4c2ebe676147f6bee3bd"
     }
   ],
   "integrating": [],

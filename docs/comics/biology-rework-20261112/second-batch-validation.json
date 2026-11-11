@@ -35,8 +35,8 @@
   "totalOriginalQuestions": 950,
   "referencedAssets": 3107,
   "missingAssets": [],
-  "siteTests": "publisher will run npm test before commit",
-  "monitorTests": 69,
+  "siteTests": 123,
+  "monitorTests": 74,
   "attachTests": 5,
   "groupTests": 7,
   "webpTests": 3,
@@ -49,5 +49,12 @@
   ],
   "groupCompatibility": "q963兩child各4張新圖、父無重複comic；q964舊網址/成員revision/標記ID保留",
   "rawRasterPolicy": "生成原PNG與raster QA留本機/備份且排除Git；部署只引用WebP/SVG；使用者todo/image.png是品質參考另保留。",
-  "publication": "prepared for authorized twenty-event normal commit/push"
+  "publication": {
+    "batchNumber": 34,
+    "commit": "b606cfbfaf67d3488d413156428b05015656dca5",
+    "pushed": true,
+    "remoteVerified": true
+  },
+  "testInvocationNote": "monitor最初discover呼叫缺package context，4個import error；改用7個完整monitor.test_* module後74測試全過。",
+  "monitorTestLog": ".cache/four-images-monitor-second-final.log"
 }

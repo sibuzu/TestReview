@@ -1,120 +1,86 @@
 {
   "id": "q-912",
   "subject": "English",
-  "title": "先看主詞，再看金額與句型",
-  "art": "docs/comics/art/q-912-roles.svg",
-  "generationMethod": "Selectable native HTML/CSS syntax role diagrams; no generated bitmap is needed.",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "sourceUrl": "https://chatgpt.com/share/6ae8b58d-7da4-83ee-a45e-4046864af26f",
-  "rationale": "本題考主詞、人的受詞與金額位置；直接標示句型角色與對照單位，比人物情境更清楚。三格均呈現可選取HTML圖表，SVG僅為既有資料格式的備援資產，不顯示成無標示的教學圖。",
+  "title": "It作主詞，cost接人與金額",
+  "art": "docs/comics/art/q-912-four-image-v2-panel-1.png",
   "panels": [
     {
-      "heading": "① 把原句的三個線索對上",
-      "text": "It作形式主詞，後面依序是人me與金額20 dollars，符合cost句型。",
-      "alt": "主詞It、人me與金額20 dollars三個已標名的句型線索，對應完整cost句。",
-      "diagram": {
-        "kind": "paths",
-        "title": "原題：主詞＋動詞＋人＋金額＋to V",
-        "items": [
-          {
-            "label": "主詞｜It",
-            "detail": "形式主詞，真正的事情在後面to buy those plates。",
-            "tone": "blue"
-          },
-          {
-            "label": "人｜me",
-            "detail": "這件事花了誰的錢。",
-            "tone": "green"
-          },
-          {
-            "label": "金額｜20 dollars",
-            "detail": "題目給的是20元，不是時間。",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依角色與排列配對",
-        "target": "It cost me 20 dollars to buy those plates."
-      }
+      "heading": "① 先看It、me與金額",
+      "text": "It作形式主詞，真正的事情是後面的to buy those plates。中間接me與20 dollars，符合It cost＋人＋金錢＋to V。",
+      "caption": "買盤子的事情花了多少錢，不是只看中文「花費」。",
+      "alt": "盤子近景與購買情境，價籤空白，沒有偽造面額或價格。",
+      "image": "docs/comics/art/q-912-four-image-v2-panel-1.png"
     },
     {
-      "heading": "② 換成人作主詞，要整句改寫",
-      "text": "spent、paid可表達花錢，但要以人作主詞，後面的結構也要改。",
-      "alt": "兩個同義改寫句分別標示spend加on與pay加for，不把它們直接塞回原句。",
-      "diagram": {
-        "kind": "flow",
-        "title": "同件事的兩種改寫",
-        "items": [
-          {
-            "label": "I spent 20 dollars on those plates.",
-            "detail": "人＋spend＋錢＋on＋物",
-            "tone": "green"
-          },
-          {
-            "label": "I paid 20 dollars for those plates.",
-            "detail": "人＋pay＋錢＋for＋物",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "另一種同義寫法",
-        "note": "本題保留It＋空格＋me＋金額，不能直接填spent或paid。"
-      }
+      "heading": "② 換成人，要改整句",
+      "text": "可以說I spent 20 dollars on those plates，或I paid 20 dollars for those plates。這些是人作主詞的改寫，不能只把spent或paid塞回原句。",
+      "caption": "付款者可用I作主詞，spent搭on、paid搭for。",
+      "alt": "購買者把無面額的紙鈔交給店員，盤子在櫃台上，未把圖中紙鈔當金額證據。",
+      "image": "docs/comics/art/q-912-four-image-v2-panel-2.png"
     },
     {
-      "heading": "③ 排除took，看的是單位",
-      "text": "國中常見It took句型接人與時間；本題是20 dollars，選cost。",
-      "alt": "take的時間句型與原題金額對照，清楚區分花多久和花多少錢。",
-      "diagram": {
-        "kind": "flow",
-        "title": "比較空格後的單位",
-        "items": [
-          {
-            "label": "It took＋人＋時間＋to V",
-            "detail": "常見用法：做一件事花多久。",
-            "tone": "blue"
-          },
-          {
-            "label": "本題是20 dollars（金額）",
-            "detail": "本題要用cost：做這件事花多少錢。",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "對照本題金額"
-      }
+      "heading": "③ 分清金錢與時間",
+      "text": "國中常見It took＋人＋時間＋to V用來問花多久。本題給20 dollars，是金額；保留It、me與原句排列，選cost。",
+      "caption": "沙漏表示時間，錢包表示金錢，不表示特定時長或面額。",
+      "alt": "獨立桌面靜物，左方沙漏、右方錢包和無字金屬圓幣，清楚區分時間與金錢。",
+      "image": "docs/comics/art/q-912-four-image-v2-panel-3.png"
     }
   ],
   "fourth": {
     "answer": "答案 A：cost",
     "points": [
-      "先看It作主詞，再看me與20 dollars的排列。",
-      "後句were提示過去；cost的過去式與原形同形。",
-      "our old ones中的ones代替複數plates。"
-    ]
+      "It only cost me 20 dollars to buy those plates.",
+      "後句were提示過去；cost過去式和原形拼法相同。",
+      "our old ones的ones代替複數plates；新盤子較不昂貴，舊盤子的實際價格未給。"
+    ],
+    "image": "docs/comics/art/q-912-four-image-v2-panel-4.png",
+    "alt": "上方購買盤子、下方回家拆包並與原有盤子對照；新舊價格差只按原句理解，不新增舊盤子金額。"
   },
   "protectedWords": [
-    "形式主詞",
     "20 dollars",
     "those plates",
-    "過去式",
     "cost",
-    "spend",
-    "pay",
-    "took",
     "spent",
-    "paid"
+    "paid",
+    "took",
+    "ones"
   ],
-  "producerReview": {
-    "reviewer": "/root/comic_lane_1",
-    "originalCropActuallyViewed": true,
-    "desktopMobileActuallyViewed": true,
-    "screenshots": [
+  "generationMethod": "built-in image_gen: four independent detailed colour anime teaching scenes",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-053-original-12-6a4d54fd4160.png"
+  ],
+  "answerCheckedAgainst": "It only _____ me 20 dollars to buy those plates. They were not as expensive as our old ones.\n(A) cost\n(B) took\n(C) spent\n(D) paid\n(A) cost\n句意是「買那些盤子只花了我20元。它們沒有我們舊的盤子那麼貴」。本句用It作形式主詞，真正的事情是後面的to buy those plates；中間依序接人me與金額20 dollars，符合It cost＋人＋金錢＋to V，因此選A。\n\n後句were表示談過去的情況。cost的原形、過去式、過去分詞同形，這裡的cost是過去式，不能因為結尾沒有-ed就排除。\n\n比較國中常用句型：物／It＋cost＋人＋錢；It＋take＋人＋時間＋to V；人＋spend＋錢／時間＋on名詞或V-ing；人＋pay＋錢＋for物。這一題不是只看「花錢」的中文，而是同時看主詞It、受詞me和金額的排列。\n\n後句not as expensive as意為「不如……昂貴」；our old ones中的ones代替前面複數的plates，指我們原來的那些盤子。",
+  "rationale": "實開完整原卷並維持已確認教材答案與其他語境限制。四幅獨立圖分開呈現人物/事物/動作，精確句型與數量用可核對文字。",
+  "createdAt": "2026-11-11T18:10:08.326510+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:10:08.326510+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-912/contact.png"
+    ],
+    "checks": [
+      "實開原卷核對A cost、It/me/20 dollars排列、were與原卷藍D紅A作答證據保持",
+      "不把花費動詞都當可直接代換，spend/pay人主詞與on/for核對",
+      "took以國中常見時間句型比較，不宣稱任何語境絕不能接金錢",
+      "精確20 dollars在文字，畫中無數字價籤/可讀面額/虛構舊價；沙漏不指定時長",
+      "第3首稿混入購買場景已imagegen重製成獨立靜物且實看"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
       "/tmp/weirugo-comic-previews/q-912-1440.png",
       "/tmp/weirugo-comic-previews/q-912-390.png"
-    ],
-    "checkedAt": "2026-11-02T17:31:05.264677+00:00"
+    ]
   },
-  "nativeArt": "assets/comics/q-912-art-b6b430dd56.svg",
-  "layoutVersion": "native-fluid-v6",
+  "nativeArt": "assets/comics/q-912-art-d8bd791713-web.webp",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -125,18 +91,5 @@
     "independentRowHeights": true,
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
-  },
-  "rootReview": {
-    "checkedAt": "2026-11-02T17:32:30.052063+00:00",
-    "reviewerAgent": "/root/comic_lane_1",
-    "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "decision": "complete",
-    "formalAppAndStandaloneQA": true,
-    "previewQAInherited": "docs/comics/q-912-preview-validation.json",
-    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、解碼與選項答案保持。"
-  },
-  "visualChecked": true,
-  "checkedAt": "2026-11-02T17:32:30.057612+00:00",
-  "validationFile": "docs/comics/q-912-validation.json"
+  }
 }

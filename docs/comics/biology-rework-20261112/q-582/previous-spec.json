@@ -1,0 +1,90 @@
+{
+  "id": "q-582",
+  "subject": "Geography",
+  "title": "風名看來向，逆風跑向東南",
+  "art": "docs/comics/art/q-582.svg",
+  "layoutVersion": "native-fluid-v6",
+  "startedAt": "2026-10-28T23:16:53.662008+00:00",
+  "panels": [
+    {
+      "heading": "① 東南風：從東南吹來",
+      "text": "風向名稱說的是來向。東南風從東南方吹向西北方；圖中藍箭頭表示空氣移動，箭尾在東南，箭頭朝西北。",
+      "alt": "北上東右羅盤，藍箭尾在右下東南、箭頭在左上西北，原生SVG精確表示東南風，不把風去向稱東南。"
+    },
+    {
+      "heading": "② 逆風：朝來風方向前進",
+      "text": "題文指定逆風向前跑。藍色風往西北吹，橘色跑動箭頭就往相反的東南方，迎向來風，選A。",
+      "alt": "同一北上羅盤，藍風箭頭向西北、橘跑箭頭向東南，兩支分開精確相反，沒有把順風跑混作逆風。"
+    },
+    {
+      "heading": "③ 風往西北，人往東南",
+      "text": "放風箏的情境要和方位合起來看。此題依現場給的東南風作答，不能看到北海岸或活動月份，就改用另一種常見季風。",
+      "alt": "北上概念配置：風箏在人物西北側、提線連到手部，藍風往西北、橘跑箭頭往東南。此為方向示意，非場地原圖或升力測量。"
+    }
+  ],
+  "fourth": {
+    "heading": "④ 風名看來向，逆風跑向東南",
+    "answer": "答案 A：東南方",
+    "points": [
+      "東南風：東南 → 西北。",
+      "逆風跑：迎向東南方來風。",
+      "先用題文風向，不猜季節盛行風。"
+    ]
+  },
+  "protectedWords": [
+    "東南風",
+    "東南方",
+    "西北方",
+    "逆風",
+    "藍箭頭",
+    "橘色",
+    "箭尾",
+    "北海岸",
+    "現場",
+    "來向",
+    "風向名稱"
+  ],
+  "originalAssets": [
+    "site/dist/assets/questions/q-582-source-9db8e5d852.jpg",
+    "site/dist/assets/questions/q-582-source-material-91b866b433.jpg"
+  ],
+  "originalVisualCheck": "實看風箏節共同材料：當天東南風、逆風跑；45題A東南/B西南/C東北/D西北完整。解此題不依賴材料提及的圖九場地配置。",
+  "answerCheckedAgainst": "題文現場東南風與逆風條件，風SE至NW、人反向至SE，A；中央氣象署原站風向來向定義與風向袋去向區別再查核。",
+  "references": [
+    {
+      "title": "中央氣象署農業氣象觀測網：觀測項目說明－風向",
+      "url": "https://agr.cwa.gov.tw/NAGR/"
+    }
+  ],
+  "rationale": "精確原生羅盤箭頭最能避免東南風來向/去向與逆風跑方向混淆，三格逐步風向、反向、風箏情境。原卷未給升力數據，不延伸畫空氣力學或捏造場地圖。",
+  "generationCalls": 0,
+  "artType": "precise native SVG",
+  "artSHA256": "544a19e1e79525463261f38c876c723f9539b3f9ac745f1f9aa9e1a4655931b3",
+  "visualChecked": true,
+  "referenceAccessNote": "氣象署科普wt7網址本次timeout；改開氣象署農業網觀測項目說明，實讀風向為風吹來方向之定義。",
+  "checkedAt": "2026-10-28T23:18:50.203450+00:00",
+  "completedAt": "2026-10-28T23:17:32.045426+00:00",
+  "layoutEvidence": "docs/comics/q-582-preview-validation.json",
+  "visualReview": "實看1440/1120/390：羅盤北上東右、藍箭由右下東南至左上西北、橘跑箭反向往東南，第三格風箏在下風西北側且提線接手。箭頭均單獨path且可見不被遮，A與文字一致，無橫溢/保護詞斷裂、同行等高/單欄自然高度。",
+  "nativeArt": "assets/comics/q-582-art-544a19e1e7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-10-28T23:18:50.172764+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "實看45題四方位選項與風箏共同材料，當天東南風/逆風條件清楚。最終SVG北上東右，藍風自東南往西北，橘跑向東南，風箏在人物下風側，維持A；桌手機無溢出。"
+  },
+  "validationFile": "docs/comics/q-582-validation.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Natural Earth v5.1.2, pinned author repository",
+  "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "license": "public domain",
+  "licenseURL": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "projection": "regional equirectangular, x corrected by cos(mid-latitude), no distance measurement claimed",
+  "geometryOptimization": "Visible-view clipping, RDP max perpendicular tolerance 0.25 native pixels; raw source SHA retained",
+  "dataFiles": [
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_0_countries.geojson",
+      "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_1_states_provinces.geojson",
+      "sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_populated_places.geojson",
+      "sha256": "9b8e3de09048ef00dfc70357dbb9fa324493f214b5e0ae4daf1aa79a8d10116b"
+    }
+  ],
+  "cities": {
+    "Xian": [
+      108.89305,
+      34.276971
+    ],
+    "Beijing": [
+      116.394201,
+      39.90172
+    ],
+    "Shanghai": [
+      121.434559,
+      31.218398
+    ]
+  },
+  "q143Markers": "Relative approximations from the original map, not instrumentally measured epicenters; Noto circle denotes region."
+}

@@ -1,0 +1,120 @@
+{
+  "questionId": "q-569",
+  "checkedAt": "2026-11-11T19:07:05.985233+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "productionScope": "missing_illustration_only",
+  "originalQuestionAndOptionsViewed": true,
+  "originalSharedPassageAndTableViewed": true,
+  "answerUnchanged": "A",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f639057139719594572&type=2",
+      "finding": "食品熱量常用換算：蛋白質每公克4大卡、脂肪9大卡、碳水化合物4大卡。本題依題目資料採此基準，不自行加入未提供的膳食纖維等修正。"
+    },
+    {
+      "url": "https://www.nal.usda.gov/programs/fnic",
+      "finding": "USDA食品營養資訊中心列蛋白質/碳水化合物每公克4營養卡、脂肪9，作獨立比對；本題中文單位依原題分清大卡與卡。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "整碗烏龍麵與原共同題文主要食材對應",
+        "不按生成食材的數量/重量判營養素",
+        "原表欄名誤印限制保留，鈉不供這三項能量"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "熟肉/蛋/蛤蜊只作含蛋白質例子",
+        "不把各食材當20公克或純蛋白質",
+        "蛋白質20×4＝80"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "油脂質感及液滴可辨",
+        "只是脂肪來源例子，不追加原題用油或實測量",
+        "脂肪10×9＝90"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "粗白烏龍麵為碳水來源例子",
+        "碳水60×4＝240，合計410大卡",
+        "再乘1000＝410000卡，A保持"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "proteinGrams": 20.0,
+    "proteinKcalPerGram": 4,
+    "proteinKcal": 80,
+    "fatGrams": 10.0,
+    "fatKcalPerGram": 9,
+    "fatKcal": 90,
+    "carbohydrateGrams": 60.0,
+    "carbohydrateKcalPerGram": 4,
+    "carbohydrateKcal": 240,
+    "totalKcal": 410,
+    "calPerKcal": 1000,
+    "totalCal": 410000,
+    "sodiumMg": 201.6,
+    "sodiumIncludedInEnergy": false,
+    "choice": "A"
+  },
+  "generationUsageTokens": null,
+  "generationUsageNote": "內建imagegen result只有image_url/output_hint，沒有usage。不估算、不填0。",
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-569-missing-panel-1.png",
+      "sha256": "b44968e62a5dacb06e44aa66a4e5667d17c856723a0c787c6cbdd496a34a66b4",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-569-missing-panel-2.png",
+      "sha256": "f5675ee18351eb96a10afc78901485ca59a0dc6f0e248276a5cea639ab8a0051",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-569-missing-panel-3.png",
+      "sha256": "b16488e78a4468cedc9a7fb80ecb3fe6b9203c8cefb766f6e0a91f2abbc30c3c",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-569-missing-panel-4.png",
+      "sha256": "43674614e6299ab323d93a7ad08b7fdd0313f95266b5513cd7e60323e188ac54",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原A、原表誤印欄名範圍及鈉不供能限制皆維持。本題原本缺圖，僅補四圖，不改原題或重啟生物重作類。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-569-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

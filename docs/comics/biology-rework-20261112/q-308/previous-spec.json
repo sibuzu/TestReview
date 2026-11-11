@@ -1,0 +1,92 @@
+{
+  "id": "q-308",
+  "subject": "Biology",
+  "title": "找共同特徵，要同時核對兩邊",
+  "art": "docs/comics/art/q-308.svg",
+  "protectedWords": [
+    "眼蟲",
+    "綠色植物",
+    "光合作用",
+    "葉綠體",
+    "細胞壁",
+    "表膜",
+    "鞭毛",
+    "眼點",
+    "原生生物界",
+    "植物界",
+    "葉肉細胞"
+  ],
+  "panels": [
+    {
+      "heading": "① 共同點：葉綠體與光合作用",
+      "text": "本題的眼蟲有葉綠體，能利用光製造養分；綠色植物的葉肉細胞也有葉綠體。可行光合作用，正是A要比較的共同特徵。",
+      "alt": "原創簡化眼蟲與葉肉細胞結構，綠色橢圓表示葉綠體，日光箭頭指向兩者；非實際大小或葉綠體數量比例。"
+    },
+    {
+      "heading": "② 植物有細胞壁，眼蟲卻沒有",
+      "text": "B不能只看植物那一半。眼蟲的體表有表膜，並不是植物的細胞壁；圖中分別標出兩者的外層，避免把外形輪廓都當成細胞壁。",
+      "alt": "同樣兩個細胞分別標示眼蟲表膜與葉肉細胞厚細胞壁；簡化結構不畫眼蟲具有植物式細胞壁。"
+    },
+    {
+      "heading": "③ 眼蟲有的，不一定是共同點",
+      "text": "眼蟲會用鞭毛運動，眼點與對光的反應有關。但C、D說的是眼蟲的特徵，並非它與一般綠色植物共有的特徵。",
+      "alt": "眼蟲前端長鞭毛與紅色眼點示意，眼點不是視物的眼睛；不把鞭毛或眼點標成葉綠體。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：可行光合作用",
+    "points": [
+      "相似特徵，要在比較的兩邊都成立。",
+      "眼蟲沒有植物的細胞壁。",
+      "有植物相似特徵，不等於歸入植物界。"
+    ]
+  },
+  "rationale": "已實看第11題完整原卷、全部選項及作答附圖，讀取來源原對話相應段落；A與詳細解說一致。以全新程式結構SVG直接比較葉綠體、表膜/細胞壁和鞭毛眼點，比人物更能釐清B陷阱；不沿用來源AI圖。限本題具葉綠體眼蟲，不推成所有眼蟲皆能光合作用；五界歸屬採講義不改現代分類。",
+  "generationMethod": "original programmatic SVG simplified biological cell comparison",
+  "generatorFile": "docs/comics/q-308-generate.py",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-308-source-2f53cb0d72.jpg",
+    "site/dist/assets/questions/q-308-figure-bf1b99b1e6.jpg",
+    "site/dist/sources/6ae0de73-5310-83ec-9332-f7f22d61959a.txt lines 228–295"
+  ],
+  "sources": [
+    {
+      "url": "https://milnepublishing.geneseo.edu/botany/chapter/euglena/",
+      "note": "SUNY Geneseo botany text, structure and energy sections; photosynthetic forms chloroplasts, flexible pellicle, some forms lack chloroplasts."
+    },
+    {
+      "url": "https://botit.botany.wisc.edu/botany_130/diversity/euglena-old/Euglena.html",
+      "note": "University of Wisconsin botany, pellicle not cell wall, one emerged flagellum, eyespot near anterior."
+    }
+  ],
+  "answerCheckedAgainst": "原卷四選項：A共同光合作用成立；B缺細胞壁，C/D非一般植物共有特徵。",
+  "visualChecked": true,
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "createdAtUTC": "2026-10-29T00:59:09.495866+00:00",
+  "artSha256": "ec7c3ba678f2618bb5f87ee85dbdd2c1d3541b83a00f169bcff843fca3e2a619",
+  "checkedAt": "2026-10-29T01:13:51.355407+00:00",
+  "validationFile": "docs/comics/q-308-validation.json",
+  "nativeArt": "assets/comics/q-308-art-ec7c3ba678.svg",
+  "rootReview": {
+    "checkedAt": "2026-10-29T01:13:51.353025+00:00",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "原卷眼蟲形態與全四選項實看，A光合作用不變。新結構SVG比較葉綠體、眼蟲表膜及植物細胞壁，區分眼點/鞭毛，未把相似特徵當植物界；正式桌手機實看。",
+    "sourceAIReplaced": true,
+    "sharedNativeAssetVerified": true
+  }
+}

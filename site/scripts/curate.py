@@ -125,6 +125,8 @@ from comic_policy import apply_comic_policy
 apply_comic_policy(records, ROOT)
 from question_groups import apply_groups
 records=apply_groups(records, ROOT, DEST)
+from illustration_quality import write_quality
+write_quality(ROOT)
 # Curated diagrams are accessible, code-native SVGs, independent of missing source photos.
 revision='2026-10-27.'+hashlib.sha256(json.dumps([sources, records],ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
 payload=dict(schemaVersion=1,revision=revision,subjects=[dict(id=i,name=n,publisher=p,icon=ic) for i,n,p,ic in subjects],sources=sources,questions=records)

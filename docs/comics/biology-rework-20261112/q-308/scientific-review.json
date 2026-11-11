@@ -1,0 +1,110 @@
+{
+  "questionId": "q-308",
+  "checkedAt": "2026-11-11T18:38:35.799326+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "A",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://www.nies.go.jp/chiiki1/protoz/morpho/flagella/euglena.htm",
+      "finding": "日本國立環境研究所形態資料：眼蟲長梭/柱形、表膜具縱或螺旋紋、眼點前位，葉綠體可為多枚盤狀。",
+      "access": "full_page_opened"
+    },
+    {
+      "url": "https://fmp.conncoll.edu/Silicasecchidisk/LucidKeys3.5/Keys_v3.5/Carolina35_Key/Media/Html/Euglena_Main.html",
+      "finding": "前端圓、後端較尖；一條長鞭毛外露，另短鞭毛通常不可見。表膜為蛋白質帶狀結構，不是植物細胞壁。",
+      "access": "search_excerpt_read; full-page 403 Forbidden; not claimed as full-page read"
+    },
+    {
+      "url": "https://www.landcareresearch.co.nz/tools-and-resources/identification/freshwater-algae/description-of-major-groups/euglenoids",
+      "finding": "表膜可彎曲，眼點常在前端；鞭毛由近眼點的儲蓄泡經管道向外伸出。",
+      "access": "full_page_opened"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "單一梭形胞體、前圓後尖",
+        "前端僅一條外露長鞭毛",
+        "核、葉綠體、眼點分開，無厚細胞壁"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "細胞中段局部放大而非另一完整生物",
+        "綠色葉綠體在胞質內，中央核分明",
+        "薄表膜條紋，不是假厚植物壁"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "前端儲蓄泡/管道與一條外露鞭毛",
+        "紅橙顆粒眼點與綠葉綠體分開",
+        "眼點非眼球，無瞳孔或感覺神經"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "左放大眼蟲與右綠葉幼苗完整分開",
+        "共同光合作用由HTML精確說明",
+        "A保持，不改歸植物界或推所有眼蟲皆可光合"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "questionSpecificEuglenaHasChloroplasts": true,
+    "sharesPhotosynthesisWithGreenPlants": true,
+    "hasPlantCellWall": false,
+    "externallyVisibleLongFlagellaShown": 1,
+    "choice": "A",
+    "classificationPreserved": "原生生物界，非因光合歸植物界"
+  },
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-308-biology-v2-panel-1.png",
+      "sha256": "55231e3d0772fe5a8bc13c9f60e6fbb0858cba2987330c82f34551e221f3f9e7",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-308-biology-v2-panel-2.png",
+      "sha256": "0bd59e81ceafa3612051b57f0a2084172f57cdd40f39ab4be62be6ce315de7c2",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-308-biology-v2-panel-3.png",
+      "sha256": "03a41eb2ce69f208a3841c15c7f6016c638f0201c50bd39b17459b6a97017cd9",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-308-biology-v2-panel-4.png",
+      "sha256": "15c3c82b752943968ba9686a871c9cb8b21735515ded6d4790f9ac1591b9b38d",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原A及本題具葉綠體眼蟲的既有範圍保持，只升級四圖，不新增原題勘誤。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-308-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

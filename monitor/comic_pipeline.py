@@ -11,6 +11,7 @@ import time
 import uuid
 from pathlib import Path
 from .comic_queue import SETTLED, next_entry
+from .comic_execution import assert_work_allowed
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -70,7 +71,11 @@ def update_display(root, pipeline):
     display = load(root/'monitor/parallel.json')
     for lane in display['lanes']:
         jobs = [j for j in pipeline['jobs'] if j['lane'] == lane['lane']]
-        current = next((j for j in reversed(jobs) if j['state'] == 'claimed'), None)
+        batch_order = lane.get('batchQuestionIds', [])
+        current = next((j for qid in batch_order for j in reversed(jobs)
+                        if j['id'] == qid and j['state'] == 'claimed'), None)
+        if current is None:
+            current = next((j for j in reversed(jobs) if j['state'] == 'claimed'), None)
         if current:
             lane.update(questionId=current['id'], title=current['title'], state='running', startedAt=current['startedAt'])
         elif (lane.get('activeTask') or {}).get('state') == 'complete':
@@ -188,6 +193,7 @@ def claim(root, lane):
 
 
 def stage(root, qid, decision, reason, evidence):
+    assert_work_allowed(root, qid)
     assert decision in SETTLED | {'awaiting_confirmation'}
     assert evidence and all((root/p).is_file() and Path(p).is_relative_to('docs/comics') for p in evidence)
     with locked(root):
@@ -209,6 +215,7 @@ def stage(root, qid, decision, reason, evidence):
 
 def integrated(root, qid):
     """The single integration owner, after artifact review and formal QA."""
+    assert_work_allowed(root, qid)
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
         job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)
@@ -269,6 +276,7 @@ def integrated(root, qid):
 
 
 def begin(root, qid):
+    assert_work_allowed(root, qid)
     with locked(root):
         pipeline = load(root/'docs/comics/pipeline.json')
         job = next((j for j in reversed(pipeline['jobs']) if j['id'] == qid and j['state'] == 'ready'), None)

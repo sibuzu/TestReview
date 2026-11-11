@@ -1,72 +1,98 @@
 {
   "id": "q-582",
   "subject": "Geography",
-  "title": "風名看來向，逆風跑向東南",
-  "art": "docs/comics/art/q-582.svg",
-  "layoutVersion": "native-fluid-v6",
-  "startedAt": "2026-10-28T23:16:53.662008+00:00",
+  "title": "東南風往西北，逆風跑向東南",
+  "art": "docs/comics/art/q-582-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 東南風：從東南吹來",
-      "text": "風向名稱說的是來向。東南風從東南方吹向西北方；圖中藍箭頭表示空氣移動，箭尾在東南，箭頭朝西北。",
-      "alt": "北上東右羅盤，藍箭尾在右下東南、箭頭在左上西北，原生SVG精確表示東南風，不把風去向稱東南。"
+      "heading": "① 風名看風吹來的方向",
+      "text": "共同題文給東南風，表示從東南吹向西北。第一圖藍箭尾在東南，箭頭朝西北；不要把吹去的方向當風名。",
+      "caption": "北上東右；藍箭頭表示空氣移動，不表示人跑動。",
+      "alt": "北上羅盤中，藍色空氣箭頭從右下東南指向左上西北，箭頭尖端正確。",
+      "image": "docs/comics/art/q-582-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 逆風：朝來風方向前進",
-      "text": "題文指定逆風向前跑。藍色風往西北吹，橘色跑動箭頭就往相反的東南方，迎向來風，選A。",
-      "alt": "同一北上羅盤，藍風箭頭向西北、橘跑箭頭向東南，兩支分開精確相反，沒有把順風跑混作逆風。"
+      "heading": "② 逆風跑，方向與風相反",
+      "text": "題文要求逆風向前跑。藍風往西北，橘色人的跑動便朝相反的東南，迎向來風，所以選A。",
+      "caption": "藍風與橘色跑動箭頭分開，兩者精確反向。",
+      "alt": "同一北上羅盤，藍箭朝西北、橘箭朝東南，平行分置避免重疊，分別標風與人。",
+      "image": "docs/comics/art/q-582-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 風往西北，人往東南",
-      "text": "放風箏的情境要和方位合起來看。此題依現場給的東南風作答，不能看到北海岸或活動月份，就改用另一種常見季風。",
-      "alt": "北上概念配置：風箏在人物西北側、提線連到手部，藍風往西北、橘跑箭頭往東南。此為方向示意，非場地原圖或升力測量。"
+      "heading": "③ 方位圖不是高度或風速圖",
+      "text": "俯視圖把風箏畫在人物西北側，提線接到手邊，人朝東南跑。畫面只說明方位，不用北海岸或活動月份另猜季風。",
+      "caption": "俯視方位示意，不是升力、風速或高度測量。",
+      "alt": "俯視羅盤上風箏在人物西北側，提線連手，藍風往西北、橘跑動朝東南；沒有機械升力數據。",
+      "image": "docs/comics/art/q-582-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "heading": "④ 風名看來向，逆風跑向東南",
     "answer": "答案 A：東南方",
     "points": [
       "東南風：東南 → 西北。",
-      "逆風跑：迎向東南方來風。",
-      "先用題文風向，不猜季節盛行風。"
-    ]
+      "逆風跑：迎向東南來風。",
+      "依題文現場風向，不把西北吹去方向選成迎風跑方向。"
+    ],
+    "image": "docs/comics/art/q-582-four-image-v2-panel-4.svg",
+    "alt": "北上羅盤標示原題四個方向選項，藍風朝西北、橘跑動朝東南，A東南以紅色標明。"
   },
   "protectedWords": [
     "東南風",
     "東南方",
     "西北方",
     "逆風",
+    "來風",
     "藍箭頭",
-    "橘色",
-    "箭尾",
-    "北海岸",
-    "現場",
-    "來向",
-    "風向名稱"
+    "北海岸"
   ],
-  "originalAssets": [
+  "generationMethod": "four independent authored native SVG teaching illustrations with exact direction/locator relationships",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-kite-group/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
     "site/dist/assets/questions/q-582-source-9db8e5d852.jpg",
     "site/dist/assets/questions/q-582-source-material-91b866b433.jpg"
   ],
-  "originalVisualCheck": "實看風箏節共同材料：當天東南風、逆風跑；45題A東南/B西南/C東北/D西北完整。解此題不依賴材料提及的圖九場地配置。",
-  "answerCheckedAgainst": "題文現場東南風與逆風條件，風SE至NW、人反向至SE，A；中央氣象署原站風向來向定義與風向袋去向區別再查核。",
-  "references": [
+  "answerCheckedAgainst": "2025北海岸國際風箏節9月20日在新北市石門區舉辦，石門地處沿海四季都有海風吹送，是一處適合放風箏的優質地點，因而有臺灣「風箏故鄉」之稱。主辦單位邀請國內外專業風箏團隊參與盛會，展示各種造型風箏、特技風箏。想要讓手中的風箏翱翔天際，最好在放風箏前確認風向，選擇風力充足的時候，手拿風箏提線並逆風向前跑動，直到感覺風箏有拉力並向上爬升，再慢慢放線，活動當天現場測得風向為「東南風」。圖（九）是此場節慶的場地規劃圖。\n依照放風箏的正確方式，民眾於活動當天應朝下列哪一個方向跑動，最有利於風箏升空？\n\n(A) 東南方\n(B) 西南方\n(C) 東北方\n(D) 西北方\n正確答案：A，東南方。\n【風向是風吹來的方向】\n題文給的是東南風，表示風從東南方吹向西北方。\n\n【逆風就是朝風來的方向前進】\n題文要求手拿提線、逆風向前跑動，因此人應朝東南方跑，迎向來風，選A。\n不要把風吹去的西北方當成風向名稱，也不要選順風跑的方向。",
+  "rationale": "屬原本缺圖補作的同一題組，每個原問各四張獨立新圖；配置/風向/地理區位需要精確可校對位置，採原生SVG，完整原題、共同題文、原圖及已確認答案均保持。",
+  "sources": [
     {
-      "title": "中央氣象署農業氣象觀測網：觀測項目說明－風向",
-      "url": "https://agr.cwa.gov.tw/NAGR/"
+      "url": "https://agr.cwa.gov.tw/",
+      "support": "氣象署農業氣象觀測網說明風向為風吹來的方向；已查原頁。"
     }
   ],
-  "rationale": "精確原生羅盤箭頭最能避免東南風來向/去向與逆風跑方向混淆，三格逐步風向、反向、風箏情境。原卷未給升力數據，不延伸畫空氣力學或捏造場地圖。",
-  "generationCalls": 0,
-  "artType": "precise native SVG",
-  "artSHA256": "544a19e1e79525463261f38c876c723f9539b3f9ac745f1f9aa9e1a4655931b3",
+  "mapDataProvenance": "docs/comics/biology-rework-20261112/root-kite-group/provenance.json",
+  "createdAt": "2026-11-11T19:03:14.660448+00:00",
   "visualChecked": true,
-  "referenceAccessNote": "氣象署科普wt7網址本次timeout；改開氣象署農業網觀測項目說明，實讀風向為風吹來方向之定義。",
-  "checkedAt": "2026-10-28T23:18:50.203450+00:00",
-  "completedAt": "2026-10-28T23:17:32.045426+00:00",
-  "layoutEvidence": "docs/comics/q-582-preview-validation.json",
-  "visualReview": "實看1440/1120/390：羅盤北上東右、藍箭由右下東南至左上西北、橘跑箭反向往東南，第三格風箏在下風西北側且提線接手。箭頭均單獨path且可見不被遮，A與文字一致，無橫溢/保護詞斷裂、同行等高/單欄自然高度。",
-  "nativeArt": "assets/comics/q-582-art-544a19e1e7.svg",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T19:03:14.660448+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-582/panel-1.png",
+      "docs/comics/biology-rework-20261112/q-582/panel-2.png",
+      "docs/comics/biology-rework-20261112/q-582/panel-3.png",
+      "docs/comics/biology-rework-20261112/q-582/panel-4.png"
+    ],
+    "checks": [
+      "實開第45題/全選項與共同題文，保持已核對A及原B紅A筆跡",
+      "四圖北上東右，藍風SE→NW，橘跑動NW→SE，箭尾和箭頭逐張核對",
+      "不是把東南風解成吹向東南，也不選順風跑",
+      "第3圖提線接手、風箏在下風NW，明示俯視而非高度/升力測量",
+      "保留現場東南風，不由北海岸季節猜新風向"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-582-1440.png",
+      "/tmp/weirugo-comic-previews/q-582-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-582-art-06cb99de27.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -79,12 +105,20 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "checkedAt": "2026-10-28T23:18:50.172764+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T19:19:59.624724+00:00",
     "visualChecked": true,
-    "decision": "complete",
-    "note": "實看45題四方位選項與風箏共同材料，當天東南風/逆風條件清楚。最終SVG北上東右，藍風自東南往西北，橘跑向東南，風箏在人物下風側，維持A；桌手機無溢出。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-582-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-582-app-390.png",
+      "/tmp/weirugo-comic-checks/q-582-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-582-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
   },
+  "checkedAt": "2026-11-11T19:19:59.633791+00:00",
   "validationFile": "docs/comics/q-582-validation.json"
 }

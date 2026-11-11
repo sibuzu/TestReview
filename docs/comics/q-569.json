@@ -1,0 +1,128 @@
+{
+  "id": "q-569",
+  "subject": "Biology",
+  "title": "先算410大卡，再換成410000卡",
+  "art": "docs/comics/art/q-569-missing-panel-1.png",
+  "startedAt": "2026-11-11T19:07:05.985233+00:00",
+  "generationMethod": "built-in image_gen; four independently generated near-realistic food and nutrition teaching illustrations",
+  "biologyIllustrationStyle": "near-realistic-natural-science-v1",
+  "styleReference": "todo/image.png",
+  "productionScope": "missing_illustration_only; not resuming old biology artwork rework",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-569-source-cae7372a8f.jpg",
+    "site/dist/assets/questions/q-569-source-material-c89d237e9b.jpg",
+    "site/dist/assets/questions/q-569-passage-893b48ee84.jpg"
+  ],
+  "rationale": "本題原本完全缺圖，依最新只補缺圖指示製作四張類真實營養教學圖：一份鍋燒烏龍麵、含蛋白質食材例子、油脂例子、麵類碳水例子及總和整合。圖像不假稱食材重量等於營養素克數，精確20/10/60與4/9/4皆HTML。原A、原表誤印欄名限制及鈉不計供能保持；不是重啟舊生物圖升級。",
+  "answerCheckedAgainst": "完整第49題、表八及共同題文實看；20.0×4＝80，10.0×9＝90，60.0×4＝240，和410大卡＝410000卡，A。鈉201.6毫克不納入三大供能；原欄名大卡照留。",
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T19:07:05.985233+00:00",
+  "visualChecked": true,
+  "promptSet": "docs/comics/biology-rework-20261112/q-569/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-569/scientific-review.json",
+  "protectedWords": [
+    "鍋燒烏龍麵",
+    "蛋白質",
+    "脂肪",
+    "碳水化合物",
+    "20.0公克",
+    "10.0公克",
+    "60.0公克",
+    "201.6毫克",
+    "410大卡",
+    "410000卡",
+    "1大卡＝1000卡"
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-four-images-v7",
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/questions/q-569-source-cae7372a8f.jpg",
+      "site/dist/assets/questions/q-569-source-material-c89d237e9b.jpg",
+      "site/dist/assets/questions/q-569-passage-893b48ee84.jpg"
+    ],
+    "visualChecked": true
+  },
+  "panels": [
+    {
+      "heading": "① 讀營養標示，算整份熱量",
+      "text": "第一圖為鍋燒烏龍麵情境。表中蛋白質20.0公克、脂肪10.0公克、碳水化合物60.0公克，都是整份營養素含量。原欄名雖印「大卡」，仍依各列重量單位計算；鈉201.6毫克不計入三大營養素供能。",
+      "caption": "整份餐點情境｜計算依原表，不從照片猜重量。",
+      "alt": "新製類真實鍋燒烏龍麵插畫：深色碗內有粗白麵條、青江菜、肉片、蛋與蛤蜊，對應共同題文食物；非原餐點照片或秤重紀錄。",
+      "image": "docs/comics/art/q-569-missing-panel-1.png"
+    },
+    {
+      "heading": "② 蛋白質：20.0×4＝80大卡",
+      "text": "第二圖以肉、蛋、蛤蜊作含蛋白質食材的例子。計算用全份蛋白質20.0公克×每公克4大卡＝80大卡，不是把每種食材各算20公克；這些食物也含其他營養素。",
+      "caption": "蛋白質來源例子｜用原表營養素克數計算。",
+      "alt": "新製類真實食物教學圖：熟肉片、剖半熟蛋及打開的熟蛤蜊置於白盤，食材表面細節可辨，沒有用秤、數字或份量假稱20公克純蛋白質。",
+      "image": "docs/comics/art/q-569-missing-panel-2.png"
+    },
+    {
+      "heading": "③ 脂肪：10.0×9＝90大卡",
+      "text": "第三圖用油脂呈現脂肪來源的例子。全份脂肪10.0公克×每公克9大卡＝90大卡。每公克脂肪的供能數值不同於蛋白質與碳水化合物，不能三項都乘4。",
+      "caption": "脂肪來源例子｜原表10.0公克脂肪，乘9。",
+      "alt": "新製類真實油脂教學圖：玻璃小碗中金黃色油脂、金屬匙上的油滴與光澤可辨；僅作脂肪來源例子，不是原題額外加油或10公克實測照片。",
+      "image": "docs/comics/art/q-569-missing-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：410000卡",
+    "points": [
+      "第四圖麵類是碳水化合物來源例子；原表全份60.0公克×4＝240大卡。",
+      "80＋90＋240＝410大卡；1大卡＝1000卡，所以410大卡＝410000卡。",
+      "食材圖只幫助理解營養來源，重量以原表為準；C的410卡少1000倍。"
+    ],
+    "image": "docs/comics/art/q-569-missing-panel-4.png",
+    "alt": "新製類真實碳水化合物來源教學圖：白盤中粗白烏龍麵與一雙筷子，麵條質地可辨；不是60公克碳水化合物或麵重的秤重紀錄，精確總熱量和換算在HTML。"
+  },
+  "independentDerivation": {
+    "proteinGrams": 20.0,
+    "proteinKcalPerGram": 4,
+    "proteinKcal": 80,
+    "fatGrams": 10.0,
+    "fatKcalPerGram": 9,
+    "fatKcal": 90,
+    "carbohydrateGrams": 60.0,
+    "carbohydrateKcalPerGram": 4,
+    "carbohydrateKcal": 240,
+    "totalKcal": 410,
+    "calPerKcal": 1000,
+    "totalCal": 410000,
+    "sodiumMg": 201.6,
+    "sodiumIncludedInEnergy": false,
+    "choice": "A"
+  },
+  "nativeArt": "assets/comics/q-569-art-b44968e62a-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T19:22:12.488197+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-569-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-569-app-390.png",
+      "/tmp/weirugo-comic-checks/q-569-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-569-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T19:22:12.497955+00:00",
+  "validationFile": "docs/comics/q-569-validation.json"
+}

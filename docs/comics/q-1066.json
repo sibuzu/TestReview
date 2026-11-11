@@ -1,97 +1,87 @@
 {
   "id": "q-1066",
   "subject": "English",
-  "title": "金額加short表示還差多少",
-  "art": "docs/comics/art/q-1066-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261111/q-1066-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、從借錢的下文判斷\n說話者想買生日禮物，接著請對方借錢，表示手上的錢還不夠。be＋金額＋short表示還差該金額，所以fifty dollars short是還差五十元，選A。\n\n二、short在此不是形容身高\nshort除了短、矮，也可形容數量不足。金額fifty dollars放在short前面，說明差額；不必把原句擅改成只有short of才正確。全句意思是：我想買禮物給媽媽過生日，但還差五十元，你能借我一些錢嗎？\n\n三、排除其他選項\nenough表示足夠，與後句借錢的語意不合，原位置也不是本題的自然用法。convenient是方便的，real是真實的，都不能表達差五十元。",
-  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "title": "fifty dollars short：還差五十元",
+  "art": "docs/comics/art/q-1066-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 借錢透露錢還不夠",
-      "text": "想買媽媽的生日禮物，接著請人借錢，表示有差額。",
-      "alt": "借錢透露錢還不夠",
-      "diagram": {
-        "kind": "flow",
-        "title": "借錢透露錢還不夠",
-        "items": [
-          {
-            "label": "想買禮物",
-            "detail": "需要足夠金額",
-            "tone": "blue"
-          },
-          {
-            "label": "Can you lend me…",
-            "detail": "目前還缺錢",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "① 想買禮物，錢卻還不夠",
+      "text": "說話者想買媽媽的生日禮物，接著請對方借錢。這兩句連起來，表示目前的金額仍有缺口。",
+      "caption": "錢包與禮物表示已有金額和想買的東西，虛線表示不足。",
+      "alt": "禮物放在櫃台，前景錢包上方有虛線金額符號，呈現想買但尚缺錢。",
+      "image": "docs/comics/art/q-1066-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 金額放在short前",
-      "text": "be fifty dollars short表示還差五十元；short在此是數量不足。",
-      "alt": "金額放在short前",
-      "diagram": {
-        "kind": "paths",
-        "title": "金額放在short前",
-        "items": [
-          {
-            "label": "fifty dollars",
-            "detail": "差額五十元",
-            "tone": "blue"
-          },
-          {
-            "label": "short",
-            "detail": "不足",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "還差五十元"
-      }
+      "heading": "② fifty dollars說明差額",
+      "text": "上條代表禮物所需金額，下條代表手上已有金額，右端虛線缺口是50元。金額放在short前面：fifty dollars short。",
+      "caption": "長度只表示有缺口，不按實際金額比例；總價與已有金額未提供。",
+      "alt": "上方完整所需金額條、下方較短的已有金額條，右端虛線缺口與括線相連，沒有偽造總價。",
+      "image": "docs/comics/art/q-1066-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 用語意排除其他字",
-      "text": "enough是足夠，convenient是方便，real是真實；都不合原句與借錢語境。",
-      "alt": "用語意排除其他字",
-      "diagram": {
-        "kind": "paths",
-        "title": "用語意排除其他字",
-        "items": [
-          {
-            "label": "原句位置",
-            "detail": "金額＋short",
-            "tone": "blue"
-          },
-          {
-            "label": "後句語境",
-            "detail": "請人借錢",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "A short"
-      }
+      "heading": "③ lend me是請求，尚未借到",
+      "text": "Can you lend me some money?是請對方借一些錢。這個語境支持short的不足之意，enough的足夠則不合。",
+      "caption": "伸手請求借款；虛線表示金額尚待補足。",
+      "alt": "伸出的空手掌與虛線金額符號及向下虛線箭頭，表示請求借款，不表示已經收到錢。",
+      "image": "docs/comics/art/q-1066-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(A) short",
+    "answer": "答案 A：short",
     "points": [
-      "後句借錢，表示金額不足。",
-      "be＋金額＋short表示還差多少。",
-      "fifty dollars short＝還差五十元。"
+      "I am still fifty dollars short.",
+      "金額＋short說明還差多少；本題差額50元。",
+      "convenient是方便的，real是真實的，都不能表達原句的缺款。"
+    ],
+    "image": "docs/comics/art/q-1066-four-image-v2-panel-4.svg",
+    "alt": "錢包指向禮物，下方金額線保留右端虛線缺口與括線，總結還差50元；不依長度計算未知總價。"
+  },
+  "protectedWords": [
+    "fifty dollars",
+    "short",
+    "enough",
+    "lend me",
+    "convenient"
+  ],
+  "generationMethod": "native SVG: four independent vector illustrations and qualitative shortfall diagrams; precise fifty-dollar difference remains selectable HTML",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1066-original-62f8f8f29798.jpg"
+  ],
+  "answerCheckedAgainst": "I want to buy a gift for my mother’s birthday, but I am still fifty dollars ______. Can you lend me some money?\n(A) short\n(B) enough\n(C) convenient\n(D) real\n(A) short\n一、從借錢的下文判斷\n說話者想買生日禮物，接著請對方借錢，表示手上的錢還不夠。be＋金額＋short表示還差該金額，所以fifty dollars short是還差五十元，選A。\n\n二、short在此不是形容身高\nshort除了短、矮，也可形容數量不足。金額fifty dollars放在short前面，說明差額；不必把原句擅改成只有short of才正確。全句意思是：我想買禮物給媽媽過生日，但還差五十元，你能借我一些錢嗎？\n\n三、排除其他選項\nenough表示足夠，與後句借錢的語意不合，原位置也不是本題的自然用法。convenient是方便的，real是真實的，都不能表達差五十元。",
+  "rationale": "本題重點為差額與借款語意，四張原生SVG以禮物/錢包、金額條、借款手掌和缺口關係圖表達，不繪無關人物、不讓生成圖猜面額；科目仍英文，原題不改。",
+  "createdAt": "2026-11-11T18:21:14.022691+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:21:14.022691+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-1066/panel-1.png",
+      "docs/comics/biology-rework-20261112/q-1066/panel-2.png",
+      "docs/comics/biology-rework-20261112/q-1066/panel-3.png",
+      "docs/comics/biology-rework-20261112/q-1066/panel-4.png"
+    ],
+    "checks": [
+      "實開完整原卷保留原A與四選項及藍B紅A筆跡",
+      "be＋金額＋short表還差，50元是差額而非總價",
+      "未補禮物總價/現有金額/已借到的金額，金額條無實際比例",
+      "四張含禮物/錢包/金額缺口/借款手勢實際圖像，不是文字關係框",
+      "fourth實際缺口圖仍有未補足區，未畫成已完成購買或已借到款"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-1066-1440.png",
+      "/tmp/weirugo-comic-previews/q-1066-390.png"
     ]
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1066-art-62f6de3cdc.svg",
-  "layoutVersion": "native-fluid-v6",
+  "nativeArt": "assets/comics/q-1066-art-271231515a.svg",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -102,22 +92,5 @@
     "independentRowHeights": true,
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
-  },
-  "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
-    "visualChecked": true,
-    "originalVisualChecked": true,
-    "answerAndExplanationChecked": true,
-    "actualViewed": [
-      "docs/imports/new-gpt-20261111/qa/comics-1065-1066.jpg"
-    ],
-    "originalViewed": [
-      "docs/imports/new-gpt-20261111/q-1066-original.jpg"
-    ],
-    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
-  },
-  "visualChecked": true,
-  "checkedAt": "2026-11-11T15:42:18.356074+00:00",
-  "validationFile": "docs/comics/q-1066-validation.json"
+  }
 }

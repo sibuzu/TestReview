@@ -1,0 +1,12 @@
+from pathlib import Path
+import json
+p=Path(__file__).parent
+common='Use case: illustration-story. Create ONE square independent richly detailed coloured editorial anime teaching illustration, sophisticated soft daylight, warm paper and teal accents, natural adult faces and anatomy, carefully painted material textures, uncluttered focal composition. NO text, glyphs, letters, digits, labels, captions, logos, watermarks, speech writing or invented document contents. All exact Chinese words and conclusions are supplied separately as selectable HTML. Illustrative word meaning only, not an actual event from a source question. '
+scenes=[
+'A contemporary fully clothed adult asking another adult a gentle question in a quiet study, one open palm, eyebrows slightly lifted in puzzled curiosity; listener attentive, no angry argument. A blank small notepad on the table. Meaning of asking what, not a refusal or judgment. One unified full scene, no question-mark symbols or speech bubbles.',
+'A fully clothed adult at a doorway already carrying a closed umbrella, gently declining a second spare umbrella offered by another adult with a calm open hand and friendly face. Both umbrellas visible and clearly separate, neither used as a weapon. Expresses no need for the extra umbrella, NOT prohibited, dangerous or illegal. Soft rainy light outside the door; no signs or text.',
+'A fully clothed attentive adult at a tidy desk already begins a familiar sorting task with blank loose papers and blank folders, while another adult nearby starts to offer instructions but sees the task already understood. Relaxed friendly interaction, work in progress, neither angry nor commanding. Expresses why need further instruction, not disobedience or refusal to work. No marked paper, no writing, no artificial gestures or badges.',
+'A thoughtful adult language reader in a library comparing a thick open blank dictionary with two separate blank paper slips side by side, magnifying glass resting beside them, careful neutral expression. The two slips remain present and unmarked, representing careful checking of two supported readings rather than forcing one away. No checkmarks, crossed-out cards, answer letters, scales, text or invented numerical ranking. Full integrated illustration, distinct from the other scenes.'
+]
+payload={'method':'built-in image_gen','prompts':[{'id':'q-774','panel':i,'prompt':common+s} for i,s in enumerate(scenes,1)]}
+(p/'prompts.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')

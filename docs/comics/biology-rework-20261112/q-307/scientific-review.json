@@ -1,0 +1,106 @@
+{
+  "questionId": "q-307",
+  "checkedAt": "2026-11-11T18:32:36.513272+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "originalQuestionAndOptionsViewed": true,
+  "answerUnchanged": "C",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://fae.moa.gov.tw/map/food_item.php?id=368&type=AS01",
+      "finding": "石花菜為Gelidium屬紅藻，鮮品紫紅、反覆洗曬才變米黃色，羽狀分枝。"
+    },
+    {
+      "url": "https://fishery.ntpc.gov.tw/cht/index.php?article_id=1607&code=list&flag=detail&ids=20&keyword=%E8%B2%A2%E5%AF%AE%E9%AE%91",
+      "finding": "藻體紫紅或棕紅、扁平直立叢生成羽狀分枝，分枝末端尖狀。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "鮮紫紅/褐紅藻體與反覆羽狀窄枝",
+        "無花、種子、真正葉片或網脈",
+        "非米白乾貨或寬帶海帶"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "單一連續胞體與多個圓鈍偽足",
+        "一核與食物泡，不是多細胞觸手生物",
+        "無壁、葉綠體或纖毛"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "左上藍菌簡單串珠細胞鏈，無核膜核/葉綠體",
+        "右上高麗菜、下香菇一一對應選項",
+        "三者分開，非相對尺寸模型"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "左石花菜右變形蟲清楚對應",
+        "不以圖形相似或大小判同界",
+        "原C與使用者確認國中五界範圍保持"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "confirmedClassroomModel": "國中五界分類",
+    "target": "石花菜（紅藻）：原生生物界",
+    "options": {
+      "A": "藍菌：原核生物界",
+      "B": "高麗菜：植物界",
+      "C": "變形蟲：原生生物界",
+      "D": "香菇：真菌界"
+    },
+    "choice": "C"
+  },
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-307-biology-v2-panel-1.png",
+      "sha256": "12d3527f04b434d6a4310a4a0e5090ddc707610693bfbd5a6f24f92be37d6071",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-307-biology-v2-panel-2.png",
+      "sha256": "65d4ea281f9f3c52d86434aa747fb2c8ac585d4d96a8d3d019d9491e52e8847a",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-307-biology-v2-panel-3.png",
+      "sha256": "c13c736051c1b6a4e865f0fbb78e670619655938adc74d4b49781ff2d2b88411",
+      "actualImageViewed": true
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-307-biology-v2-panel-4.png",
+      "sha256": "0b9e45de42f4fae4d5de28f249ab08af5a4ae79b1f87e051b8f0585452be56e2",
+      "actualImageViewed": true
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "使用者已確認q307採國中五界C；本次純升級四圖，不重開相同進階分類確認。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-307-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

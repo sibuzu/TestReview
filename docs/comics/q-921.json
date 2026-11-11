@@ -1,112 +1,86 @@
 {
   "id": "q-921",
   "subject": "English",
-  "title": "去哪裡與去做什麼分開看",
-  "art": "docs/comics/art/q-921.svg",
-  "layoutVersion": "native-fluid-v6",
+  "title": "去哪裡，與為了做什麼",
+  "art": "docs/comics/art/q-921-four-image-v2-panel-1.png",
   "panels": [
     {
-      "heading": "① to the bank：交代目的地",
-      "text": "to the bank中的to是介系詞，後接地點名詞bank，回答「去哪裡」。這裡先完成去銀行的動作，還沒交代目的。",
-      "alt": "精確HTML以箭頭標明go到to the bank的目的地方向。",
-      "diagram": {
-        "kind": "flow",
-        "title": "地點：去哪裡？",
-        "items": [
-          {
-            "label": "go",
-            "detail": "動作：去",
-            "tone": "blue"
-          },
-          {
-            "label": "to the bank",
-            "detail": "介系詞＋地點：去銀行",
-            "tone": "green"
-          }
-        ],
-        "arrow": "去的方向／目的地",
-        "note": "bank是地點名詞。"
-      }
+      "heading": "① 未來旅行，需要先換錢",
+      "text": "John即將去美國旅行。先看原句的目的鏈：為了準備旅行，他必須去銀行換些錢；旅行仍是計畫，不是已經完成。",
+      "caption": "在家準備行李是旅行計畫的輔助情境，沒有出發日期。",
+      "alt": "John在家看空白旅行資料與打開的行李箱，旁有地球儀和模型飛機，沒有已完成旅行或金額。",
+      "image": "docs/comics/art/q-921-four-image-v2-panel-1.png"
     },
     {
-      "heading": "② to change：交代去的目的",
-      "text": "接著問「去銀行做什麼？」為了換錢，用to＋原形動詞表示目的，所以填to change。不能直接在bank後接change或changing。",
-      "alt": "精確HTML標明去銀行的目的為換錢，不定詞to後接原形change。",
-      "diagram": {
-        "kind": "flow",
-        "title": "目的：去做什麼？",
-        "items": [
-          {
-            "label": "go to the bank",
-            "detail": "去銀行",
-            "tone": "blue"
-          },
-          {
-            "label": "to change some money",
-            "detail": "不定詞：為了換錢",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "說明去銀行的目的",
-        "note": "to＋原形動詞change。"
-      }
+      "heading": "② to the bank交代去哪裡",
+      "text": "go to the bank表示去銀行。這個to是介系詞，後接地點名詞the bank，回答去哪裡，尚未交代去做什麼。",
+      "caption": "走向銀行的畫面對應目的地，不是換錢目的本身。",
+      "alt": "John沿人行道走向無字銀行建築，尚未到兌換櫃台，沒有地名或匯率。",
+      "image": "docs/comics/art/q-921-four-image-v2-panel-2.png"
     },
     {
-      "heading": "③ 比較D：動詞形式也要一致",
-      "text": "若把動作並列並共用has to，應是go…and change，不能寫and changes。原題用to change表目的最恰當，選C。",
-      "alt": "HTML對照共用has to的go和change，說明不能用changes。",
-      "diagram": {
-        "kind": "flow",
-        "title": "排除and changes",
-        "items": [
-          {
-            "label": "has to go",
-            "detail": "has to後接原形go",
-            "tone": "blue"
-          },
-          {
-            "label": "and change",
-            "detail": "若共用has to，也要用原形change",
-            "tone": "green"
-          }
-        ],
-        "arrow": "若並列並共用has to",
-        "note": "D印的是and changes，形式不合。"
-      }
+      "heading": "③ to change交代去的目的",
+      "text": "去銀行做什麼？為了換錢，用to＋原形動詞：to change some money。原題bank後不能直接接change或changing來表這個目的。",
+      "caption": "換錢是去銀行的目的；紙鈔無面額，不表示實際換匯數字。",
+      "alt": "John與銀行服務人員討論換錢，兩色無字紙鈔分置櫃台兩側，無匯率或已完成交易數據。",
+      "image": "docs/comics/art/q-921-four-image-v2-panel-3.png"
     }
   ],
   "fourth": {
     "answer": "答案 C：to change",
     "points": [
-      "to the bank：去哪裡。",
-      "to change：為了做什麼。",
-      "has to＋原形；共用時change不加s。"
-    ]
+      "He has to go to the bank to change some money.",
+      "to the bank是目的地；to change是為了換錢。",
+      "共用has to並列動作時，go與change都用原形，不能填and changes。"
+    ],
+    "image": "docs/comics/art/q-921-four-image-v2-panel-4.png",
+    "alt": "John拿錢包與銀行人員討論換匯，無字紙鈔與模型飛機鑰匙圈連結未來旅行計畫和換錢目的。"
   },
   "protectedWords": [
     "to the bank",
     "to change",
     "some money",
     "has to go",
-    "and change",
     "and changes",
-    "changing",
-    "change",
-    "目的地",
-    "原形動詞",
-    "不定詞"
+    "changing"
   ],
-  "sourceUrl": "https://chatgpt.com/share/6ae8b5b9-d8d8-83ee-991b-3fffcf6219e2",
-  "originalMaterialsChecked": true,
+  "generationMethod": "built-in image_gen: four independent detailed colour anime teaching illustrations",
   "sourceGeneratedArtUsed": false,
-  "generationMethod": "new selectable HTML grammar relation diagrams; deterministic SVG fallback; imagegenCalls=0",
-  "rationale": "本題核心是to的兩種語法角色與動詞形式，精確HTML以中文角色及箭頭標明去的目的地/目的，比人物換錢場景更直接。原卷無逗號，不另造逗號文法比較。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-054-english-11-350661fe5928.webp"
+  ],
+  "answerCheckedAgainst": "John is going to take a trip to the USA. He has to go to the bank ______ some money.\n(A) change\n(B) changing\n(C) to change\n(D) and changes\n(C) to change\n逐句翻譯\nJohn is going to take a trip to the USA.：約翰即將去美國旅行。\nHe has to go to the bank to change some money.：他必須去銀行換些錢。\n\n詳解\n先問去銀行做什麼：為了換錢。英文用to＋原形動詞表示目的，因此在go to the bank後接to change some money，答案C。\nA直接接change，缺少引出目的的to。B changing不構成本句所需的目的用法，不能只看到go就選V-ing。D若共用has to，應並列為has to go…and change…，不能接第三人稱單數changes。\n\n三個to分清楚\nhas to go：has to＋原形動詞，表示必須去。\nto the bank：介系詞to＋地點名詞，交代目的地。\nto change some money：不定詞to＋原形動詞，交代去銀行的目的。\n\n原對話的to用法追問補充\nto＋原形動詞也可出現在want to sleep（想睡覺）、happy to see you（很高興見到你）、homework to do（要做的作業），不全都翻成為了。介系詞to可表示方向、接收對象、範圍，例如go to school、give it to me、from Monday to Friday。固定搭配look forward to seeing you、be used to getting up early中的to是介系詞，後接動作時用V-ing；不可見到to就一律接原形。\n\n快速判斷：go to the bank後問目的→為了換錢→to change。",
+  "rationale": "四張獨立情境圖依序分開未來旅行、銀行目的地、換錢目的及整句整合；精確句型用文字，不在插畫補金額或時程。保留原題與既有to追問完整解說。",
+  "createdAt": "2026-11-11T18:23:55.097472+00:00",
   "visualChecked": true,
-  "artSHA256": "44b785597e29d1b262cc2de4b7b5f33123a66999ce3adc7ed3578350f8e7b1b9",
-  "checkedAt": "2026-11-02T17:33:21.166636+00:00",
-  "previewValidation": "docs/comics/q-921-preview-validation.json",
-  "visualReview": "已實看1440與390隔離成品：三組HTML箭頭與中文角色，目的地/目的/共用has to的原形清楚；無新增逗號或改原題，桌面同行等高、手機自然高度且全文可選取無溢出。",
-  "nativeArt": "assets/comics/q-921-art-44b785597e.svg",
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:23:55.097472+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-921/contact.png",
+      "docs/comics/art/q-921-four-image-v2-panel-1.png"
+    ],
+    "checks": [
+      "實開原卷核對原C to change及全部選項與藍B紅C筆跡",
+      "三個to分別has to go、to the bank、to change不混淆，不把to一律當目的",
+      "並列共用has to時用go...and change，非and changes",
+      "第一圖首稿冒出旅遊拼貼與具體美鈔面額，已imagegen移除整個泡泡並實看",
+      "不補出發日/換匯額/匯率/旅行城市；銀行情境解釋意圖，並非證明已完成交易"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-921-1440.png",
+      "/tmp/weirugo-comic-previews/q-921-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-921-art-2df436ae25-web.webp",
+  "layoutVersion": "native-four-images-v7",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -117,16 +91,5 @@
     "independentRowHeights": true,
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
-  },
-  "rootReview": {
-    "checkedAt": "2026-11-02T17:33:21.161708+00:00",
-    "reviewerAgent": "/root/comic_lane_1",
-    "visualChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "decision": "complete",
-    "formalAppAndStandaloneQA": true,
-    "previewQAInherited": "docs/comics/q-921-preview-validation.json",
-    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、解碼與選項答案保持。"
-  },
-  "validationFile": "docs/comics/q-921-validation.json"
+  }
 }

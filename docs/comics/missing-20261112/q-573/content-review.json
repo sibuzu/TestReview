@@ -1,0 +1,120 @@
+{
+  "questionId": "q-573",
+  "checkedAt": "2026-11-11T19:32:56.797088+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "productionScope": "missing_illustration_only",
+  "originalQuestionAndOptionsViewed": true,
+  "originalPercentagesVerified": {
+    "dailyLifeAffected": 74,
+    "comfortCausingSecondaryHarm": 88
+  },
+  "originalSha256": "d53ac7d09d01e6cd82cca3985e17fe976f8eeb6cc604a0a8cecf0f8e26fca0b8",
+  "answerUnchanged": "B",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://documents.un.org/access.nsf/get?DS=A%2FHRC%2F38%2F47&Lang=E&Open=",
+      "access": "official UN report search excerpt read",
+      "finding": "未經同意散布私密影像涉及隱私、尊嚴與免於暴力的人權。只查核概念，不當成原題報告百分比的來源。"
+    },
+    {
+      "url": "https://www.un.org/zh/about-us/universal-declaration-of-human-rights",
+      "access": "403 Forbidden; not claimed as full-page read",
+      "finding": "未冒稱已讀全文或另添法律條文。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "成人自主界線與手機隱私，螢幕內容未公開",
+        "沒有暗示受害者有責"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "平視傾聽、保留選擇，無逼問指責",
+        "不把所有慰問都說成必然有害"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "正式協助過程尊重，無假法律文字/程序",
+        "法律改革與實際人性尊嚴落實一併理解"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "平等成人互動為實際第四張圖",
+        "無文化高低歧視或勞動權益誤導"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "sourcePercentages": {
+      "dailyLifeAffected": 74,
+      "comfortCausingSecondaryHarm": 88
+    },
+    "coreConcepts": [
+      "個人意願",
+      "隱私",
+      "人格",
+      "避免二次傷害"
+    ],
+    "choice": "B",
+    "noNewLegalClaim": true,
+    "percentageCorrectionNeeded": false
+  },
+  "generationUsageTokens": null,
+  "generationUsageNote": "內建工具未提供usage，沒有估算或填0。",
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-573-missing-panel-1.png",
+      "sha256": "fe85aba02a9ff142ea6318a902d98907bd2ac2e9d6ebfa044b97a47338666986",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-573-missing-panel-2.png",
+      "sha256": "61782fa3d4a5234ee0c099d86ee7ae47fa968b71b3dd77a840315f50b19ba065",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-573-missing-panel-3.png",
+      "sha256": "c1ed5b01ec5e223493997954ce86cacacdb3e98c5c4709d434535db57c6a5eb0",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-573-missing-panel-4.png",
+      "sha256": "524b3b15bddae1189e210d000ff184b95fbe40d96ef37479d32566da0e5786da",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原B及74/88原文均保持。root與Agent1也獨立確認比例相符，未改原題、未登錄勘誤。只補四張缺圖。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-573-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "questionId": "q-309",
+  "state": "paused_by_explicit_user_scope_change",
+  "reason": "使用者改為只補22題完全缺圖；58題也暫停，生物舊圖品質升級停止。",
+  "resumeOnlyOnExplicitUserInstruction": "將生物的舊解說圖改為精美解說圖",
+  "actualGeneratedImageCount": 4,
+  "imagesSaved": [
+    "docs/comics/art/q-309-biology-v2-panel-1.png",
+    "docs/comics/art/q-309-biology-v2-panel-2.png",
+    "docs/comics/art/q-309-biology-v2-panel-3.png",
+    "docs/comics/art/q-309-biology-v2-panel-4.png"
+  ],
+  "imageToolResultKeysObserved": ["image_url", "output_hint"],
+  "generationUsageTokens": null,
+  "generationUsageNote": "內建工具未提供usage；未估算、不填0。",
+  "liveToolCell": null,
+  "scienceReviewComplete": false,
+  "isolatedPreviewQaComplete": false,
+  "formalQaComplete": false,
+  "productionSpecReplaced": false,
+  "stagedReady": false,
+  "countAsCompleted": false,
+  "priorPublishedIllustrationPreserved": true,
+  "pendingWorkIfExplicitlyResumed": "重新核對四張草稿的科學關係；若合格再更新spec、隔離桌手機QA並交唯一整合者。不得由GOAL自動啟動。",
+  "lastReadOnlySourceResultSaved": {
+    "url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-seed/tree-seed-publications/anatomymorphology.pdf",
+    "localDownload": "/tmp/conifer-seed-anatomy.pdf",
+    "access": "web timeout；curl下載成功，以本機pypdf讀取相關段落，未稱實看全部PDF圖版。",
+    "relevantPdfPagesRead": [10, 18, 19, 59, 60, 61],
+    "finding": "多數針葉樹種鱗近中軸處有兩胚珠；珠孔為胚珠包被上的小開口，與花粉管進入關係相符。此為來源查核結果，不表示本題四張QA完成。"
+  }
+}

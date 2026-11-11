@@ -1,0 +1,108 @@
+{
+  "questionId": "q-555",
+  "checkedAt": "2026-11-11T19:23:18.762496+00:00",
+  "reviewerAgent": "/root/comic_lane_3",
+  "productionScope": "missing_illustration_only",
+  "originalQuestionAndStudentAnswerViewed": true,
+  "answerUnchanged": "popcorn",
+  "sourceGeneratedArtUsed": false,
+  "requiredActualImages": 4,
+  "sources": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/popcorn",
+      "access": "full_page_opened",
+      "finding": "常用字典詞條連寫為popcorn，指加熱爆開的玉米粒/爆米花。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/popcorn",
+      "access": "403 Forbidden; not claimed as full-page read",
+      "finding": "未以此失敗頁作全文查核依據。"
+    }
+  ],
+  "findings": [
+    {
+      "panel": 1,
+      "checked": [
+        "爆米花食物可辨，無生成拼字"
+      ]
+    },
+    {
+      "panel": 2,
+      "checked": [
+        "玉米粒爆開過程作聯想，不以詞根決定空格",
+        "鍋蓋/內容/廚房透視合理"
+      ]
+    },
+    {
+      "panel": 3,
+      "checked": [
+        "看電影分享爆米花，對應原例句",
+        "不是要求popcorns或一粒粒可數分類"
+      ]
+    },
+    {
+      "panel": 4,
+      "checked": [
+        "學生練習情境為第四張實圖，非純文字格",
+        "手、筆、筆記與食物對應，無可讀錯英文"
+      ]
+    }
+  ],
+  "independentDerivation": {
+    "targetMeaning": "爆米花",
+    "standardAmericanSpelling": "popcorn",
+    "wordCount": 1,
+    "originalStudentSpelling": "pop corn",
+    "foodUseExample": "some popcorn",
+    "teacherDeductionNotInvented": true
+  },
+  "generationUsageTokens": null,
+  "generationUsageNote": "內建工具未提供usage，沒有估算或填0。",
+  "images": [
+    {
+      "panel": 1,
+      "path": "docs/comics/art/q-555-missing-panel-1.png",
+      "sha256": "2eb107e4f165b5420e9d3213c3b5a14cdae4454dffb8dde28d7c4b710a68dcc9",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 2,
+      "path": "docs/comics/art/q-555-missing-panel-2.png",
+      "sha256": "4e74916d02b6fc8358715fddc2ec1c3f2f0c5e2c51b076d035a322fc9e9d5532",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 3,
+      "path": "docs/comics/art/q-555-missing-panel-3.png",
+      "sha256": "f11c57e778e2314b5932d5c1e3a956655323f66cf3aa889d3f2f2d5036012a2e",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    },
+    {
+      "panel": 4,
+      "path": "docs/comics/art/q-555-missing-panel-4.png",
+      "sha256": "4c8170ee576161b3490aa28716db518ac7e0bae1e448c96d24765e2da6681bb8",
+      "actualImageViewed": true,
+      "generationUsageTokens": null
+    }
+  ],
+  "noNewQuestionCorrectionRequired": "原本已核對popcorn與常用拼法範圍保持，只補四張缺圖，不新增原題訂正。",
+  "isolatedPreview": {
+    "validation": "docs/comics/q-555-preview-validation.json",
+    "widthsPassed": [
+      1440,
+      1120,
+      390
+    ],
+    "actualScreenshotsViewed": [
+      1440,
+      390
+    ],
+    "fourIndependentImages": true,
+    "noOverflow": true,
+    "fullImagesContained": true,
+    "layoutAdjustment": "完整例句保留，僅逐單字防拆；不把整句設成手機無法換行的保護詞。"
+  }
+}

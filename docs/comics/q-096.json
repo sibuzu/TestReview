@@ -1,0 +1,139 @@
+{
+  "id": "q-096",
+  "subject": "Geography",
+  "title": "找出西安，再判斷西部經濟帶",
+  "art": "docs/comics/art/q-096-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 先找陸上經濟帶起點",
+      "text": "先區分陸上的一帶與海上的一路。本題問陸上經濟帶起點，原圖甲對應西安；新圖箭頭只示陸上向西的方向，不畫完整路線。",
+      "caption": "新製定位圖：箭頭表示陸上方向，不是完整路線或行程。",
+      "alt": "歐亞大陸地圖標出內陸西安，紅箭頭向西延伸在陸地上，下方另標海洋。",
+      "image": "docs/comics/art/q-096-four-image-v2-panel-1.svg"
+    },
+    {
+      "heading": "② 西安位在陝西",
+      "text": "把範圍縮到中國，金色區域是陝西，紅點是西安。依本題經濟區域分類，陝西屬西部地區，因此起點城市符合B。",
+      "caption": "金色只標陝西，不把它誤當成整個西部地區。",
+      "alt": "中國及周邊定位圖中標示陝西輪廓與西安位置，沒有塗出未核對的完整經濟帶邊界。",
+      "image": "docs/comics/art/q-096-four-image-v2-panel-2.svg"
+    },
+    {
+      "heading": "③ 內陸城市，不是沿海港口",
+      "text": "第三圖分開西安、北京與上海的位置。西安在內陸；首都北京與沿海的上海不是同一座城市，不能把其他城市的特色移到西安。",
+      "caption": "比較城市位置，不推論港口最新排名。",
+      "alt": "地圖以紅點西安、綠點北京與藍點上海表示相對位置，西安在內陸而上海臨海。",
+      "image": "docs/comics/art/q-096-four-image-v2-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：位於西部經濟帶",
+    "points": [
+      "西安在陝西，陝西歸西部地區。",
+      "北京是首都；西安是內陸城市，不是沿海港口，也不在熱帶。",
+      "原卷閱讀材料的合作情形照留，本題依起點城市與位置判斷。"
+    ],
+    "image": "docs/comics/art/q-096-four-image-v2-panel-4.svg",
+    "alt": "放大陝西輪廓，西安紅點位於其中，總結西安隸屬陝西並屬西部地區，不把陝西當成整個西部。"
+  },
+  "protectedWords": [
+    "西部經濟帶",
+    "西安",
+    "陝西",
+    "日本海",
+    "太平洋",
+    "本州中部",
+    "能登半島",
+    "石川縣"
+  ],
+  "generationMethod": "four authored native SVG locator maps based on pinned Natural Earth data",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-geography/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-096-source-23bb03f16e.jpg",
+    "site/dist/assets/questions/q-096-reading-af3acb6e36.jpg",
+    "site/dist/assets/questions/q-096-figure-8afd38c389.jpg"
+  ],
+  "answerCheckedAgainst": "下列何者為中國「絲綢之路經濟帶」起點城市的特色？\n\n(A) 中國目前的首都\n(B) 位於西部經濟帶\n(C) 熱帶高地氣候區\n(D) 中國最大的港口\n正確答案：B。西安位於陝西，屬中國西部經濟帶，符合B。\n一、先區分一帶與一路\n「一帶」是陸上絲路經濟帶；「一路」是海上絲路。不要因名稱有「路」，就把陸上與海上顛倒。\n\n二、定位起點城市\n題圖陸上起點為西安，位於陝西，對應西部經濟帶，因此選B。北京是首都，上海則是重要沿海港口，兩者不是西安。\n\n三、保留題組時點\n原題閱讀材料的國際合作與退出情形是原卷所列背景，本題判斷依據是起點城市與位置，不以該段新聞資訊取代地圖定位。",
+  "rationale": "四張實際地圖從廣域、海陸/省份、區域到答案定位分步呈現。原題與必要原地圖保留，新增圖明示輔助，不讓imagegen猜海岸/路線/城市位置。",
+  "sources": [
+    {
+      "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953711.html",
+      "support": "官方統計區域分類將陝西列為西部地區；全文實讀。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "公開領域底圖，固定版本資料與SHA見map-data-provenance.json。"
+    }
+  ],
+  "mapDataProvenance": "docs/comics/biology-rework-20261112/root-geography/map-data-provenance.json",
+  "createdAt": "2026-11-11T18:31:24.729002+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:44:00.417716+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-096/panel-1.png",
+      "docs/comics/biology-rework-20261112/q-096/panel-2.png",
+      "docs/comics/biology-rework-20261112/q-096/panel-3.png",
+      "docs/comics/biology-rework-20261112/q-096/panel-4.png"
+    ],
+    "checks": [
+      "實開完整題幹/四選項、閱讀裁圖與原附圖，原B保持",
+      "第一圖陸上箭頭只表示概略向西，不另造完整絲路或海路端點",
+      "陝西實際輪廓與西安/北京/上海點位使用固定版本Natural Earth資料，來源及SHA保存",
+      "只標陝西，未將陝西當作全西部邊界；未推論港口最新排名",
+      "保持原卷合作情形的歷史時點，不改正式題幹/答案/閱讀材料"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-096-1440.png",
+      "/tmp/weirugo-comic-previews/q-096-390.png"
+    ],
+    "vectorCompaction": {
+      "toleranceAt640NativePixels": 0.25,
+      "beforeBytes": 4448697,
+      "afterBytes": 488661,
+      "threeWidthsRerunPassed": true,
+      "desktopMobileReViewed": true,
+      "validationFile": "docs/comics/biology-rework-20261112/root-geography/svg-compaction-validation.json",
+      "note": "裁去畫框外座標與四分之一原圖像素容差簡化，仍為SVG；文字與點位不變，必要海岸及原圖對應實看。"
+    }
+  },
+  "nativeArt": "assets/comics/q-096-art-7c540d00d7.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T19:16:03.215412+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-096-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-096-app-390.png",
+      "/tmp/weirugo-comic-checks/q-096-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-096-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T19:16:03.224544+00:00",
+  "validationFile": "docs/comics/q-096-validation.json"
+}

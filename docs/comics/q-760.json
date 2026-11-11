@@ -1,0 +1,108 @@
+{
+  "id": "q-760",
+  "subject": "English",
+  "title": "Who詢問身分，不由複數回答倒推問句",
+  "art": "docs/comics/art/q-760-four-image-v2-panel-1.png",
+  "panels": [
+    {
+      "heading": "① Who問正在跑的是誰",
+      "text": "Who在本題作主詞，詢問那邊正在跑的是誰。一般不預設人數時，可用Who is running over there?，不先因後來的回答改判它錯。",
+      "caption": "先問身分，再辨認人物；插畫不是額外的人數條件。",
+      "alt": "Alex與Bruce看向遠處跑步者，詢問人物身分；沒有賽事或成績。",
+      "image": "docs/comics/art/q-760-four-image-v2-panel-1.png"
+    },
+    {
+      "heading": "② 回答可以列出多人",
+      "text": "Ben and his friends是複數主詞，所以回答用are。Ben and his friends are.省略了前文已提過的running。",
+      "caption": "Ben與朋友們正在跑；朋友的實際人數不由插畫指定。",
+      "alt": "Ben穿綠色跑步衣與朋友慢跑，僅呈現被辨認者，沒有問話者在此近景。",
+      "image": "docs/comics/art/q-760-four-image-v2-panel-2.png"
+    },
+    {
+      "heading": "③ 問句和簡答分別判斷",
+      "text": "問句的主詞是Who；簡答的主詞是Ben and his friends。不能只看到簡答are，就說原問句一定要用are或把is判錯。",
+      "caption": "近看兩人的問答，被辨認者在畫面之外。",
+      "alt": "Alex提出問題、Bruce指向畫面外回答，背景空步道，和跑者近景分開。",
+      "image": "docs/comics/art/q-760-four-image-v2-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "教材預期 A：is running",
+    "points": [
+      "Who is running over there? → Ben and his friends are.",
+      "若事先已知要問的是多人，Who are running...?也可能成立。",
+      "不把Who一概教成只能單數，也不把問句強制改成跟回答人數一致。"
+    ],
+    "image": "docs/comics/art/q-760-four-image-v2-panel-4.png",
+    "alt": "Bruce向Alex指出正在跑步的Ben與朋友們，總結一般Who問句可以得到複數人物回答。"
+  },
+  "protectedWords": [
+    "is running",
+    "are running",
+    "Who",
+    "running"
+  ],
+  "generationMethod": "built-in image_gen: four independent detailed colour anime teaching scenes",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-760-source-c7133d0581.jpg"
+  ],
+  "answerCheckedAgainst": "Alex: Who ________ over there?\nBruce: Ben and his friends are.\n\n(A) is running\n(B) run\n(C) are running\n(D) runs\n本題預期：(A) is running。\nWho is running over there?可詢問那邊正在跑的是誰，回答Ben and his friends are並不會讓原問句失效。who作主詞時，未知人數常用單數；若事先知道是多人，也可以用複數。\n\n因此原AI以回答為複數就把A改判C，理由不足。本題一般問法保留A，並註明C在已知複數的情境亦可能成立；不把who一概教成只能單數或一定跟答案複數一致。原題不擅改。",
+  "rationale": "實開完整原卷並維持已確認教材答案與其他語境限制。四幅獨立圖分開呈現人物/事物/動作，精確句型與數量用可核對文字。",
+  "createdAt": "2026-11-11T18:10:08.326510+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:10:08.326510+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-760/contact.png"
+    ],
+    "checks": [
+      "實開原卷核對教材預期A及全部四選項",
+      "保持已知複數時C可成立的限制，不重開相同原AI訂正",
+      "不因Ben and his friends are回答複數就倒推A不合法",
+      "插畫朋友數僅示意，不增添原題人數；第2與3圖已imagegen修訂成跑者與對話者獨立近景並實看"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-760-1440.png",
+      "/tmp/weirugo-comic-previews/q-760-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-760-art-30537d030f-web.webp",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T19:05:46.135222+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-760-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-760-app-390.png",
+      "/tmp/weirugo-comic-checks/q-760-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-760-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T19:05:46.145214+00:00",
+  "validationFile": "docs/comics/q-760-validation.json"
+}

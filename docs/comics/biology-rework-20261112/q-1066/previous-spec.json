@@ -1,0 +1,123 @@
+{
+  "id": "q-1066",
+  "subject": "English",
+  "title": "金額加short表示還差多少",
+  "art": "docs/comics/art/q-1066-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1066-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、從借錢的下文判斷\n說話者想買生日禮物，接著請對方借錢，表示手上的錢還不夠。be＋金額＋short表示還差該金額，所以fifty dollars short是還差五十元，選A。\n\n二、short在此不是形容身高\nshort除了短、矮，也可形容數量不足。金額fifty dollars放在short前面，說明差額；不必把原句擅改成只有short of才正確。全句意思是：我想買禮物給媽媽過生日，但還差五十元，你能借我一些錢嗎？\n\n三、排除其他選項\nenough表示足夠，與後句借錢的語意不合，原位置也不是本題的自然用法。convenient是方便的，real是真實的，都不能表達差五十元。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 借錢透露錢還不夠",
+      "text": "想買媽媽的生日禮物，接著請人借錢，表示有差額。",
+      "alt": "借錢透露錢還不夠",
+      "diagram": {
+        "kind": "flow",
+        "title": "借錢透露錢還不夠",
+        "items": [
+          {
+            "label": "想買禮物",
+            "detail": "需要足夠金額",
+            "tone": "blue"
+          },
+          {
+            "label": "Can you lend me…",
+            "detail": "目前還缺錢",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 金額放在short前",
+      "text": "be fifty dollars short表示還差五十元；short在此是數量不足。",
+      "alt": "金額放在short前",
+      "diagram": {
+        "kind": "paths",
+        "title": "金額放在short前",
+        "items": [
+          {
+            "label": "fifty dollars",
+            "detail": "差額五十元",
+            "tone": "blue"
+          },
+          {
+            "label": "short",
+            "detail": "不足",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "還差五十元"
+      }
+    },
+    {
+      "heading": "③ 用語意排除其他字",
+      "text": "enough是足夠，convenient是方便，real是真實；都不合原句與借錢語境。",
+      "alt": "用語意排除其他字",
+      "diagram": {
+        "kind": "paths",
+        "title": "用語意排除其他字",
+        "items": [
+          {
+            "label": "原句位置",
+            "detail": "金額＋short",
+            "tone": "blue"
+          },
+          {
+            "label": "後句語境",
+            "detail": "請人借錢",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "A short"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(A) short",
+    "points": [
+      "後句借錢，表示金額不足。",
+      "be＋金額＋short表示還差多少。",
+      "fifty dollars short＝還差五十元。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1066-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1065-1066.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1066-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.356074+00:00",
+  "validationFile": "docs/comics/q-1066-validation.json"
+}

@@ -1,34 +1,41 @@
 {
   "id": "q-307",
   "subject": "Biology",
-  "title": "先找石花菜的界，再比對選項",
-  "art": "docs/comics/art/q-307.svg",
-  "artMode": "deterministic-svg",
+  "title": "石花菜與變形蟲：依國中五界找同界",
+  "art": "docs/comics/art/q-307-biology-v2-panel-1.png",
   "startedAt": "2026-10-29T00:56:52.411715+00:00",
   "panels": [
     {
-      "heading": "① 石花菜是紅藻，不按名稱分類",
-      "text": "題目由石花凍帶出石花菜。石花菜是紅藻，不能因名稱有「菜」、可以吃，或會光合作用，就直接選高麗菜。",
-      "alt": "紅藻分枝外觀概念圖，不畫成有真正根莖葉的高麗菜，不以此簡圖作石花菜物種鑑定。"
+      "heading": "① 石花菜是紅藻，不按菜字分類",
+      "text": "第一圖呈現鮮石花菜的紫紅、羽狀分枝藻體。石花凍的原料是這類紅藻；不能因名字有「菜」、可食用或能行光合作用，就直接把它當高麗菜那樣的植物。",
+      "caption": "鮮石花菜｜紫紅色分枝藻體，附著礁石。",
+      "alt": "新製類真實石花菜屬紅藻代表：紫紅至褐紅色藻體附著岩石，細窄扁平枝條反覆羽狀分枝，無真正根莖葉、葉脈、花或種子；非來源物種鑑定照。",
+      "image": "docs/comics/art/q-307-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 依本題五界，找同界的變形蟲",
-      "text": "按已確認的國中五界分類，紅藻歸原生生物界；變形蟲也屬原生生物界。因此本題選C。先辨石花菜的分類，再配對同界選項。",
-      "alt": "在標明國中五界的原生生物界框中放石花菜與變形蟲概念圖，僅表同界、非大小比例或精細演化樹。"
+      "heading": "② 變形蟲：本題與石花菜同界",
+      "text": "第二圖是一個變形蟲細胞，外形可因偽足而改變。依已確認的國中五界分類，變形蟲和石花菜都歸原生生物界，因此本題選C；圖像不以外形相像作為分類依據。",
+      "caption": "單細胞變形蟲｜一個細胞伸出多個偽足。",
+      "alt": "新製類真實變形蟲放大：不規則透明單細胞連續伸出圓鈍偽足，胞質顆粒、細胞核與食物泡可辨，無細胞壁、葉綠體、纖毛或動物眼睛。",
+      "image": "docs/comics/art/q-307-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 其他三個選項分屬不同界",
-      "text": "藍菌屬原核生物界；高麗菜屬植物界；香菇屬真菌界。能不能吃、外觀像不像，都不能取代這題的分類依據。",
-      "alt": "三張選項與界的配對卡，A原核/B植物/D真菌；沒有把藍菌畫成真核藻細胞。"
+      "heading": "③ 三個其他選項，分屬不同界",
+      "text": "第三圖左上藍菌屬原核生物界，右上高麗菜屬植物界，下方香菇屬真菌界。三者與本題石花菜所屬界不同；能不能吃、能否光合作用，都不能代替這題的分類依據。",
+      "caption": "其他選項｜左上藍菌、右上高麗菜、下香菇。",
+      "alt": "新製類真實三例：左上簡單藍綠色串珠狀藍菌細胞鏈，未畫有核膜的核或葉綠體；右上綠色高麗菜葉球，下方棕色香菇及菌褶菌柄，三者分開放大。",
+      "image": "docs/comics/art/q-307-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
     "answer": "答案 C：變形蟲",
     "points": [
-      "石花菜 → 紅藻 → 原生生物界。",
-      "變形蟲與石花菜在本題五界中同界。",
-      "「菜」、可食用或光合作用，都不是直接選高麗菜的依據。"
-    ]
+      "第四圖左石花菜、右變形蟲；本題按國中五界分類，兩者同屬原生生物界。",
+      "石花菜 → 紅藻 → 原生生物界，再配對同界的選項。",
+      "「菜」、可食用、會光合作用，都不是直接選高麗菜的依據。"
+    ],
+    "image": "docs/comics/art/q-307-biology-v2-panel-4.png",
+    "alt": "新製類真實整合圖：左紫紅羽狀分枝石花菜附石，右透明單細胞變形蟲具圓鈍偽足；分開放大辨認，只對應本題已確認同界，未生成進階演化樹。"
   },
   "protectedWords": [
     "石花菜",
@@ -43,9 +50,8 @@
     "藍菌",
     "國中五界分類"
   ],
-  "rationale": "原卷9題全文/四選項實看；沿使用者已確認國中五界簡化與C，不重開現代系統分類疑義。全新SVG外觀示意/同界分組/選項分類配對，無來源AI圖；不把不同尺寸生物畫同大當比例或把同界框當精細演化樹。",
-  "promptSummary": "原生SVG紅藻概念分枝、國中五界原生生物同框、三個錯誤選項的界配對；無來源AI圖。",
-  "answerCheckedAgainst": "原卷A藍菌/B高麗菜/C變形蟲/D香菇；使用者指定國中五界C已結案；官方石花菜紅藻資料/學校五界教學材料。",
+  "rationale": "四張類真實圖分別呈現鮮石花菜紅藻、單一變形蟲、三個其他選項生物、石花菜與變形蟲整合。使用者確認本題按國中五界同界選C保持，不新增現代系統分類討論。不按菜字、可食用或光合作用直接判同界。",
+  "answerCheckedAgainst": "原卷9題及A藍菌/B高麗菜/C變形蟲/D香菇實看；使用者已確認國中五界範圍，石花菜紅藻與變形蟲同屬原生生物界，C不變。",
   "officialReferences": [
     {
       "url": "https://fae.moa.gov.tw/map/food_item.php?id=368&type=AS01",
@@ -67,13 +73,8 @@
     "answer": "C",
     "notes": "最接近題意按國中五界分類使用者已確認，原A筆跡不沿用，無來源AI圖重用。"
   },
-  "artSHA256": "a0a05d066c6f406a8fe3c48b4d862a9f89a327c900745708d5490df1ba6d3eeb",
-  "completedAt": "2026-10-29T00:59:25.228912+00:00",
-  "checkedAt": "2026-10-29T01:13:51.338972+00:00",
-  "visualChecked": true,
+  "visualChecked": false,
   "previewValidation": "docs/comics/q-307-preview-validation.json",
-  "visualReview": "實看原卷全題/四選項、原生540×180與1440/390成品：紅藻與變形蟲放本題國中五界原生生物同框，A原核/B植物/D真菌配對正確；非大小比例或演化樹，C不變。不重開已確認分類簡化事項，三寬無溢出/版型問題。",
-  "nativeArt": "assets/comics/q-307-art-a0a05d066c.svg",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -85,15 +86,28 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "rootReview": {
-    "checkedAt": "2026-10-29T01:13:51.337360+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "visualChecked": true,
-    "decision": "complete",
-    "note": "原卷石花菜與四選項實看，沿使用者已確認國中五界C，不重開現代分類。新SVG示意紅藻與變形蟲同界，未將名稱可食用光合直接當同界依據；正式桌手機實看。",
-    "sourceAIReplaced": true,
-    "sharedNativeAssetVerified": true
-  },
-  "validationFile": "docs/comics/q-307-validation.json"
+  "generationMethod": "built-in image_gen; four independently generated near-realistic red algae and amoeba teaching illustrations",
+  "biologyIllustrationStyle": "near-realistic-medical-atlas-v1",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-307-source-c7f3e067c3.jpg"
+  ],
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T18:32:36.513272+00:00",
+  "promptSet": "docs/comics/biology-rework-20261112/q-307/",
+  "scientificReview": "docs/comics/biology-rework-20261112/q-307/scientific-review.json",
+  "independentDerivation": {
+    "confirmedClassroomModel": "國中五界分類",
+    "target": "石花菜（紅藻）：原生生物界",
+    "options": {
+      "A": "藍菌：原核生物界",
+      "B": "高麗菜：植物界",
+      "C": "變形蟲：原生生物界",
+      "D": "香菇：真菌界"
+    },
+    "choice": "C"
+  }
 }

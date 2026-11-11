@@ -1,0 +1,143 @@
+{
+  "id": "q-143",
+  "subject": "Geography",
+  "title": "本州中部日本海側，定位石川縣",
+  "art": "docs/comics/art/q-143-four-image-v2-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 先找本州",
+      "text": "題幹指定本州島。第一圖將本州以金色標出，與北海道、四國和九州分開，所以九州附近的甲不合。",
+      "caption": "本州用金色，其他島嶼保留淡色，先縮小大範圍。",
+      "alt": "日本主要島嶼輪廓圖，本州金色，北海道、四國與九州各有位置標示。",
+      "image": "docs/comics/art/q-143-four-image-v2-panel-1.svg"
+    },
+    {
+      "heading": "② 再分日本海與太平洋側",
+      "text": "日本海位在日本列島面向亞洲大陸的一側。本題說臨日本海，應找本州日本海側，不能只看同在本州就選太平洋側的丁。",
+      "caption": "先辨海域兩側；圈只指向後續討論地區。",
+      "alt": "日本海在本州面向亞洲大陸一側，太平洋在另一側，圈出本州中部日本海側。",
+      "image": "docs/comics/art/q-143-four-image-v2-panel-2.svg"
+    },
+    {
+      "heading": "③ 放大石川縣與能登半島",
+      "text": "石川縣位於本州中部日本海沿岸，能登半島向日本海突出。把題幹三個定位線索合起來，可對照原圖丙。",
+      "caption": "圈是能登地區定位，不是精測震央；石川縣以引線指向沿岸。",
+      "alt": "能登半島海岸線放大圖，能登地區用圓圈定位，石川縣文字以引線連到沿岸，非完整縣界或震央測量圖。",
+      "image": "docs/comics/art/q-143-four-image-v2-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：丙",
+    "points": [
+      "本州中部＋日本海側＋石川縣，對應丙。",
+      "甲在九州附近，乙不在題述石川縣能登位置，丁在太平洋側。",
+      "四點依原圖作相對位置示意；年份與規模依原題保留，不新增精測震央座標。"
+    ],
+    "image": "docs/comics/art/q-143-four-image-v2-panel-4.svg",
+    "alt": "日本地圖四點甲乙丙丁的相對位置比較，丙以紅點和圈標在本州中部日本海側；四點不是精測震央座標。"
+  },
+  "protectedWords": [
+    "西部經濟帶",
+    "西安",
+    "陝西",
+    "日本海",
+    "太平洋",
+    "本州中部",
+    "能登半島",
+    "石川縣"
+  ],
+  "generationMethod": "four authored native SVG locator maps based on pinned Natural Earth data",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-geography/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-143-source-5545676764.jpg",
+    "site/dist/assets/questions/q-143-map-0387fc45ab.jpg"
+  ],
+  "answerCheckedAgainst": "2024年日本本州島石川縣發生芮氏規模7.6的地震，由於其震央臨日本海，引發了海嘯襲擊近海區域。上述的震央應位於附圖中何處？\n\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 丁\n正確答案：C。丙在本州中部日本海側，符合石川縣、能登半島的位置。\n一、先用大範圍位置排除\n題目指定本州，不能選九州附近的甲。再看「臨日本海」，需選日本列島面向亞洲大陸的一側，而不是太平洋側。\n\n二、定位石川縣與能登半島\n石川縣位於本州中部日本海沿岸，能登半島向日本海突出，附圖對應丙，所以選C。\n\n三、分清楚海嘯成因與定位線索\n本題最後問位置，最直接的線索是本州、石川縣、日本海。不能只因丁位在本州，或印象中日本東岸常有地震，就忽略題幹所指地點。\n\n快速判斷：本州中部＋日本海側＝丙。事件年份與規模依原題敘述保留。",
+  "rationale": "四張實際地圖從廣域、海陸/省份、區域到答案定位分步呈現。原題與必要原地圖保留，新增圖明示輔助，不讓imagegen猜海岸/路線/城市位置。",
+  "sources": [
+    {
+      "url": "https://www.jma.go.jp/jma/kishou/books/hakusho/2024/index2.html",
+      "support": "日本氣象廳記載2024年能登地區M7.6事件與日本海側海嘯；全文實讀。"
+    },
+    {
+      "url": "https://www.jishin.go.jp/main/chousa/24feb_noto/index-e.htm",
+      "support": "地震本部公開能登石川地區地震評估，未採為新圖精確震央點位。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "公開領域底圖，固定版本資料與SHA見map-data-provenance.json。"
+    }
+  ],
+  "mapDataProvenance": "docs/comics/biology-rework-20261112/root-geography/map-data-provenance.json",
+  "createdAt": "2026-11-11T18:31:24.729002+00:00",
+  "visualChecked": true,
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:44:00.417716+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-143/panel-1.png",
+      "docs/comics/biology-rework-20261112/q-143/panel-2.png",
+      "docs/comics/biology-rework-20261112/q-143/panel-3.png",
+      "docs/comics/biology-rework-20261112/q-143/panel-4.png"
+    ],
+    "checks": [
+      "實開完整原卷與日本四點附圖，保留已核對C、原學生D與全選項",
+      "金色本州實際幾何與北海道/四國/九州區分正確",
+      "日本海朝向亞洲大陸，太平洋在另一側，未畫成東西倒置",
+      "能登海岸10m底圖實看；石川縣標籤補引線，避免看成鄰縣或精確縣界",
+      "四點是原圖相對位置的概略比照，乙修至本州西部附近，不作精測震央",
+      "原題芮氏用語/2024/7.6照留，本次純圖解美術升級不重開同一答案"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-143-1440.png",
+      "/tmp/weirugo-comic-previews/q-143-390.png"
+    ],
+    "vectorCompaction": {
+      "toleranceAt640NativePixels": 0.25,
+      "beforeBytes": 2231791,
+      "afterBytes": 258426,
+      "threeWidthsRerunPassed": true,
+      "desktopMobileReViewed": true,
+      "validationFile": "docs/comics/biology-rework-20261112/root-geography/svg-compaction-validation.json",
+      "note": "裁去畫框外座標與四分之一原圖像素容差簡化，仍為SVG；文字與點位不變，必要海岸及原圖對應實看。"
+    }
+  },
+  "nativeArt": "assets/comics/q-143-art-0c01b3c8fd.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T19:16:31.178373+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-143-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-143-app-390.png",
+      "/tmp/weirugo-comic-checks/q-143-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-143-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T19:16:31.187396+00:00",
+  "validationFile": "docs/comics/q-143-validation.json"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "q-555",
+  "subject": "English",
+  "title": "爆米花寫popcorn，連成一個字",
+  "art": "docs/comics/art/q-555-missing-panel-1.png",
+  "startedAt": "2026-11-11T19:23:18.762496+00:00",
+  "generationMethod": "built-in image_gen; four independently generated detailed colorful anime teaching illustrations",
+  "productionScope": "missing_illustration_only",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-555-source-a48a328b6e.jpg"
+  ],
+  "rationale": "四張不同情境實圖：爆米花辨物、玉米爆開的聯想、看電影例句、練習常用拼法。精確英文由HTML呈現，不讓模型猜文字，不以拆解詞根當空格規則；既有popcorn常用美式拼法及不判教師扣分範圍保持。",
+  "answerCheckedAgainst": "原卷爆米花單格及學生pop corn實看；Merriam-Webster詞條popcorn連寫，參考答案不變。",
+  "producerAgent": "/root/comic_lane_3",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-11T19:23:18.762496+00:00",
+  "visualChecked": true,
+  "promptSet": "docs/comics/missing-20261112/q-555/",
+  "contentReview": "docs/comics/missing-20261112/q-555/content-review.json",
+  "protectedWords": [
+    "爆米花",
+    "popcorn",
+    "pop corn",
+    "some popcorn",
+    "movies"
+  ],
+  "manualLineBreaks": false,
+  "layoutVersion": "native-four-images-v7",
+  "originalChecked": {
+    "src": "site/dist/assets/questions/q-555-source-a48a328b6e.jpg",
+    "visualChecked": true
+  },
+  "panels": [
+    {
+      "heading": "① 看圖辨物：爆米花",
+      "text": "第一圖是一碗爆米花。本題Food & Drinks單字練習，中文給「爆米花」，要填常用英文popcorn。它和玉米粒爆開後的食物對應，不是另一種飲料或點心。",
+      "caption": "辨認食物｜爆米花 → popcorn。",
+      "alt": "新製細緻彩色動漫食物圖：白色碗中蓬鬆爆米花及桌上幾粒，無包裝文字或假拼字。",
+      "image": "docs/comics/art/q-555-missing-panel-1.png"
+    },
+    {
+      "heading": "② 可用pop、corn聯想，拼法仍連寫",
+      "text": "第二圖玉米粒在鍋中爆開，可幫助聯想pop和corn；但標準詞條是popcorn，連成一個字。不能因看得出兩個部分，就直接在中間加空格寫pop corn。",
+      "caption": "聯想不等於拼字規則｜popcorn連寫。",
+      "alt": "新製細緻彩色動漫廚房圖：有透明蓋的鍋中白色爆米花與黃色玉米粒可辨，旁有玉米粒；沒有用圖中符號決定英文空格。",
+      "image": "docs/comics/art/q-555-missing-panel-2.png"
+    },
+    {
+      "heading": "③ 放進句子：看電影吃爆米花",
+      "text": "第三圖朋友看電影分享爆米花，可搭配例句We eat popcorn at the movies.。一般指這種食物時常作不可數名詞，可說some popcorn，本題不用在字尾另加s。",
+      "caption": "例句情境｜We eat popcorn at the movies.",
+      "alt": "新製細緻彩色動漫情境：兩位朋友坐在紅色影廳座位，分享一碗爆米花並看向畫面外螢幕，沒有可讀電影內容、商標或例句模型字。",
+      "image": "docs/comics/art/q-555-missing-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "參考答案：popcorn",
+    "points": [
+      "第四圖把食物和單字練習連起來：popcorn連成一個字。",
+      "原卷pop corn可依本次常用拼法訂正；不從其他複合名詞推成任意分寫。",
+      "本題記常用拼法，不在缺少教師評分規準時判定扣幾分。"
+    ],
+    "image": "docs/comics/art/q-555-missing-panel-4.png",
+    "alt": "新製細緻彩色動漫複習情境：學生在明亮書桌前拿筆練習，桌旁一小碗爆米花與字典；筆記無可讀生成字，正確拼法由HTML提供。"
+  },
+  "independentDerivation": {
+    "targetMeaning": "爆米花",
+    "standardAmericanSpelling": "popcorn",
+    "wordCount": 1,
+    "originalStudentSpelling": "pop corn",
+    "foodUseExample": "some popcorn",
+    "teacherDeductionNotInvented": true
+  },
+  "nativeArt": "assets/comics/q-555-art-2eb107e4f1-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "checkedAt": "2026-11-11T19:31:28.773171+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-555-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-555-app-390.png",
+      "/tmp/weirugo-comic-checks/q-555-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-555-standalone-390.png"
+    ],
+    "note": "唯一整合者實看原卷與四張新圖、正式app及單頁桌機/手機；比對全部條件/選項/答案，原題與已確認解說維持。正式三寬六布局及隔離三寬通過；公式和粒子記號完整，第四格也有實際新圖。"
+  },
+  "checkedAt": "2026-11-11T19:31:28.782295+00:00",
+  "validationFile": "docs/comics/q-555-validation.json"
+}

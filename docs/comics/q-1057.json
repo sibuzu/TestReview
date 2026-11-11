@@ -1,123 +1,112 @@
 {
   "id": "q-1057",
   "subject": "Geography",
-  "title": "台地埤塘與桃園的產業轉型",
-  "art": "docs/comics/art/q-1057-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
-  "sourceGeneratedArtUsed": false,
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "docs/imports/new-gpt-20261111/q-1057-original.jpg"
-  ],
-  "answerCheckedAgainst": "一、從地形與水利辨識地區\n原文結合地勢稍高而平坦、農業灌溉埤塘，以及工業與都市發展，是桃園台地的代表線索。依圖（二）的點位，丁在臺灣西北部桃園一帶，選D。\n\n二、埤塘的功能與變遷\n台地表面不易直接取得穩定地表水，農民挖埤塘儲水供灌溉。後來人口、工業與都市用地增加，部分埤塘被填平；文中又談光電利用與鳥類、池塘生態的取捨。不能只看到太陽能或工業，就忽略題幹一開始的台地與埤塘。\n\n三、逐點排除\n甲位於西南部，乙在西部中段，丙在丁的南方一帶；依原圖桃園台地所對應的是丁。判斷以本題標點為準，不把同一張臺灣圖上別題的甲乙丙丁位置套進來。",
-  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "title": "台地與埤塘合看，再定位桃園",
+  "art": "docs/comics/art/q-1057-four-image-v2-panel-1.svg",
   "panels": [
     {
-      "heading": "① 台地加埤塘",
-      "text": "地勢稍高而平坦、挖埤塘儲水，是桃園台地的辨識組合。",
-      "alt": "台地加埤塘",
-      "diagram": {
-        "kind": "paths",
-        "title": "台地加埤塘",
-        "items": [
-          {
-            "label": "台地",
-            "detail": "較高而平坦",
-            "tone": "blue"
-          },
-          {
-            "label": "埤塘",
-            "detail": "蓄水供農業灌溉",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "桃園台地"
-      }
+      "heading": "① 地形與灌溉一起看",
+      "text": "題文說地勢稍高而表面平坦，又有蓄水灌溉的埤塘。這組線索對應桃園台地，不能只抓工業或太陽能一個詞。",
+      "caption": "台地、埤塘與農田為概念示意，不是特定地點剖面或地下水位圖。",
+      "alt": "較高而平坦的台地立體地塊，埤塘儲水透過藍色水路箭頭送向農田，未畫地下水層或水位。",
+      "image": "docs/comics/art/q-1057-four-image-v2-panel-1.svg"
     },
     {
-      "heading": "② 再核對產業變化",
-      "text": "工業、人口與都市用地增加，使部分埤塘填平；光電又帶來生態取捨。",
-      "alt": "再核對產業變化",
-      "diagram": {
-        "kind": "flow",
-        "title": "再核對產業變化",
-        "items": [
-          {
-            "label": "原有農業用水",
-            "detail": "埤塘儲水",
-            "tone": "blue"
-          },
-          {
-            "label": "都市與工業發展",
-            "detail": "用地及生態改變",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依序判讀"
-      }
+      "heading": "② 部分埤塘改成都市工業用地",
+      "text": "產業轉型、人口移入，使都市與工業用地需求增加，文中提到部分埤塘被填平。兩幅小景用來理解土地利用的轉變。",
+      "caption": "前後場景只示變化方向；不是埤塘實際數量或面積統計。",
+      "alt": "左側農業景觀有埤塘與田地，右側部分埤塘位置改為道路和建築，保留另一處水面，未畫污染煙霧。",
+      "image": "docs/comics/art/q-1057-four-image-v2-panel-2.svg"
     },
     {
-      "heading": "③ 最後對照原圖",
-      "text": "原圖丁在臺灣西北部桃園一帶；不能只因看到工業，就忽略台地與埤塘。",
-      "alt": "最後對照原圖",
-      "diagram": {
-        "kind": "paths",
-        "title": "最後對照原圖",
-        "items": [
-          {
-            "label": "地形與水利",
-            "detail": "桃園台地",
-            "tone": "blue"
-          },
-          {
-            "label": "圖中位置",
-            "detail": "丁",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "結合線索",
-        "target": "D 丁"
-      }
+      "heading": "③ 光電利用也要看生態",
+      "text": "題文再談埤塘加設太陽能板，以及池塘、鳥類生態的取捨。圖把發電與棲地並置，提醒回到整段地形、水利與產業的線索。",
+      "caption": "發電與棲地示意；不表示覆蓋率、鳥數或每座埤塘都受同程度影響。",
+      "alt": "有部分太陽能板的池塘，仍留水面與岸邊植物，鳥形符號與發電閃電符號並列，沒有鳥類死亡或調查數據。",
+      "image": "docs/comics/art/q-1057-four-image-v2-panel-3.svg"
     }
   ],
   "fourth": {
-    "answer": "(D) 丁",
+    "answer": "答案 D：丁",
     "points": [
-      "台地與埤塘合看，定位桃園。",
-      "再核對工業、都市與生態轉變。",
-      "依原圖選丁，不套其他圖標點。"
-    ]
-  },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1057-art-62f6de3cdc.svg",
-  "layoutVersion": "native-fluid-v6",
-  "nativeLayout": {
-    "width": "100%",
-    "height": "auto",
-    "artWidth": 180,
-    "fontSize": 14,
-    "equalColumnWidths": true,
-    "equalHeightWithinRow": true,
-    "independentRowHeights": true,
-    "singleColumnNaturalHeight": true,
-    "narrowSingleColumn": true
-  },
-  "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
-    "visualChecked": true,
-    "originalVisualChecked": true,
-    "answerAndExplanationChecked": true,
-    "actualViewed": [
-      "docs/imports/new-gpt-20261111/qa/comics-1057-1058.jpg"
+      "桃園台地＋埤塘灌溉，是本題辨識組合。",
+      "再核對都市、工業與光電利用的轉變。",
+      "按本題原圖，桃園在臺灣西北部的丁；不套其他臺灣圖的標點。"
     ],
-    "originalViewed": [
-      "docs/imports/new-gpt-20261111/q-1057-original.jpg"
-    ],
-    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+    "image": "docs/comics/art/q-1057-four-image-v2-panel-4.svg",
+    "alt": "臺灣主島輪廓上依本題原圖標出甲乙丙丁相對位置，丁在西北部桃園一帶以紅圈及引線指出。"
   },
+  "protectedWords": [
+    "桃園台地",
+    "埤塘",
+    "太陽能",
+    "撒哈拉",
+    "西非馬利",
+    "伊斯蘭",
+    "安納托力亞",
+    "阿拉伯半島"
+  ],
+  "generationMethod": "four authored native SVG geography illustrations and locator maps",
+  "generatorFile": "docs/comics/biology-rework-20261112/root-geography-2/generate.py",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-1057-original-e749bdd2b1c3.jpg",
+    "site/dist/assets/questions/q-1057-figure-6e9df387f24a.jpg"
+  ],
+  "answerCheckedAgainst": "「此地因地勢稍高且表面平坦導致地下水偏少，自清代就有農民為求灌溉水源穩定而廣挖埤塘蓄水，今日因產業轉型發展工業帶動人口移入，許多埤塘被填土作為都市與工業用地，甚至在發展綠能風潮下，現有許多埤塘加蓋太陽能發電板，卻影響池塘與鳥類生態，這是經濟與綠能發展vs生態保護兩難的問題。」上述報導應是圖（二）中哪個地區的現象？\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 丁\n(D) 丁\n一、從地形與水利辨識地區\n原文結合地勢稍高而平坦、農業灌溉埤塘，以及工業與都市發展，是桃園台地的代表線索。依圖（二）的點位，丁在臺灣西北部桃園一帶，選D。\n\n二、埤塘的功能與變遷\n台地表面不易直接取得穩定地表水，農民挖埤塘儲水供灌溉。後來人口、工業與都市用地增加，部分埤塘被填平；文中又談光電利用與鳥類、池塘生態的取捨。不能只看到太陽能或工業，就忽略題幹一開始的台地與埤塘。\n\n三、逐點排除\n甲位於西南部，乙在西部中段，丙在丁的南方一帶；依原圖桃園台地所對應的是丁。判斷以本題標點為準，不把同一張臺灣圖上別題的甲乙丙丁位置套進來。",
+  "rationale": "四張實際地形/地景/地圖分步說明地理判讀，原卷與已核對答案維持，不以imagegen猜精確地圖，不從插畫新增原題數據。",
+  "sources": [
+    {
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=35",
+      "support": "桃園市官方土地介紹：西北部台地與農業灌溉人工埤塘；原頁實讀。"
+    },
+    {
+      "url": "https://www.ia.gov.tw/zh-TW/media/StoryContent?a=109&id=479&listid=109&p=1",
+      "support": "農田水利署桃園灌區埤塘發展史：台地坡降、較高處蓄水與下接灌溉，以及工業都市化變遷；原頁實讀。"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "support": "公開領域海陸資料，固定版本與SHA見map-data-provenance.json。"
+    }
+  ],
+  "mapDataProvenance": "docs/comics/biology-rework-20261112/root-geography-2/map-data-provenance.json",
+  "createdAt": "2026-11-11T18:39:52.776533+00:00",
   "visualChecked": true,
-  "checkedAt": "2026-11-11T15:42:17.958008+00:00",
-  "validationFile": "docs/comics/q-1057-validation.json"
+  "productionReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T18:44:00.417716+00:00",
+    "originalVisualChecked": true,
+    "fourGeneratedImagesVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "sourceQuestionUnchanged": true,
+    "actualViewed": [
+      "docs/comics/biology-rework-20261112/q-1057/panel-1.png",
+      "docs/comics/biology-rework-20261112/q-1057/panel-2.png",
+      "docs/comics/biology-rework-20261112/q-1057/panel-3.png",
+      "docs/comics/biology-rework-20261112/q-1057/panel-4.png"
+    ],
+    "checks": [
+      "實開完整原題與必要臺灣四點圖，原D與藍c紅D作答記錄不動",
+      "四張是地形/土地利用/光電棲地/定位實際圖像，不是舊文字流程框",
+      "不把地勢高直接畫成地下水必少的科學定律，不加未提供水位/岩層/時程",
+      "前後埤塘數與覆蓋面積僅情境，不當歷年統計；不推論全部光電相同生態影響",
+      "甲乙丙丁按本題原圖相對位置，丁在西北桃園；不套其他題標點、不當精測座標"
+    ],
+    "isolatedThreeWidthsPassed": true,
+    "isolatedDesktopMobileVisualChecked": true,
+    "isolatedActualViewed": [
+      "/tmp/weirugo-comic-previews/q-1057-1440.png",
+      "/tmp/weirugo-comic-previews/q-1057-390.png"
+    ],
+    "vectorCompaction": {
+      "toleranceAt640NativePixels": 0.25,
+      "beforeBytes": 16018,
+      "afterBytes": 14338,
+      "threeWidthsRerunPassed": true,
+      "desktopMobileReViewed": true,
+      "validationFile": "docs/comics/biology-rework-20261112/root-geography/svg-compaction-validation.json",
+      "note": "裁去畫框外座標與四分之一原圖像素容差簡化，仍為SVG；文字與點位不變，必要海岸及原圖對應實看。"
+    }
+  }
 }

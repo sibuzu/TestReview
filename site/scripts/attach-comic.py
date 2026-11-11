@@ -2,10 +2,14 @@
 import argparse
 import hashlib
 import json
+import re
+import sys
 from pathlib import Path
 from optimized_assets import optimize_payload
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+from monitor.comic_execution import assert_work_allowed
 
 def retained_figures(qid, override, baseline):
     """A new comic must not erase official reference material in the base row."""
@@ -13,6 +17,7 @@ def retained_figures(qid, override, baseline):
     return [figure for figure in figures if figure['src'] != f'assets/comics/{qid}.png']
 
 def attach(qid):
+    assert_work_allowed(ROOT, qid)
     spec_path = ROOT / 'docs/comics' / (qid + '.json')
     spec = json.loads(spec_path.read_text())
     assert spec['id'] == qid and len(spec['panels']) == 3
@@ -40,8 +45,12 @@ def attach(qid):
         fourth.update(image=publish_image(spec['fourth']['image'], 'panel-4-art'),
                       alt=spec['fourth'].get('alt', '本題結論圖解'))
     comic = {'title': spec['title'], 'art': asset, 'panels': panels, 'fourth': fourth}
-    if spec.get('protectedWords'):
-        comic['protectedWords'] = spec['protectedWords']
+    # Match the browser import schema: a single character cannot wrap inside.
+    words = list(dict.fromkeys(word.strip() for word in spec.get('protectedWords', [])
+        if isinstance(word, str) and len(word.strip()) >= 2 and len(word) <= 40
+        and not re.search(r'[\x00-\x1f]', word)))[:50]
+    if words:
+        comic['protectedWords'] = words
     override_path = ROOT / 'docs/complete-questions' / (qid + '.json')
     override = json.loads(override_path.read_text()) if override_path.exists() else {}
     # A question without an override can still have official explanation figures.

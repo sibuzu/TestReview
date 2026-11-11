@@ -38,6 +38,7 @@ class IndependentImageTests(unittest.TestCase):
                 (root/relative).write_text(f'<svg xmlns="http://www.w3.org/2000/svg"><title>image {index}</title></svg>')
                 images.append(relative)
             spec = dict(id='q-1', title='生物測試', art=images[0],
+                        protectedWords=['鈉', '蛋白質', ' 蛋白質 ', '10.0公克', '\n錯誤'],
                         panels=[dict(heading=f'第{i+1}圖', text=f'解說{i+1}', alt=f'構造{i+1}', image=images[i]) for i in range(3)],
                         fourth=dict(answer='A：完整答案', points=['完整重點'], image=images[3], alt='總結構造'))
             (root/'docs/comics/q-1.json').write_text(json.dumps(spec))
@@ -49,6 +50,7 @@ class IndependentImageTests(unittest.TestCase):
             self.assertEqual(len(set(paths)), 4)
             self.assertTrue(all((root/'site/dist'/path).exists() for path in paths))
             self.assertEqual(comic['fourth']['alt'], '總結構造')
+            self.assertEqual(comic['protectedWords'], ['蛋白質', '10.0公克'])
             html = render_comic(comic, lambda path:path)
             self.assertEqual(html.count('<img '), 4)
             self.assertEqual(html.count('comic-art-single'), 4)

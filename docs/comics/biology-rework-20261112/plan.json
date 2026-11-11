@@ -2,7 +2,7 @@
   "kind": "four_image_biology_and_missing_rework",
   "state": "active",
   "createdAt": "2026-11-11T16:27:16.335709+00:00",
-  "updatedAt": "2026-11-11T18:24:16.729702+00:00",
+  "updatedAt": "2026-11-11T19:43:45.736679+00:00",
   "worknerdTaskId": "t_a87b51180cc247a88d16",
   "goalActive": true,
   "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
@@ -17,7 +17,7 @@
   "questionPageCount": 130,
   "originalQuestionCount": 140,
   "requiredImageCount": 560,
-  "completedQuestionPages": 39,
+  "completedQuestionPages": 57,
   "questionIds": [
     "q-046",
     "q-044",
@@ -480,12 +480,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-291"
+      ],
       "assignedTo": "/root/comic_lane_3",
-      "startedAt": "2026-11-11T17:44:26.739474+00:00"
+      "startedAt": "2026-11-11T17:44:26.739474+00:00",
+      "completedAt": "2026-11-11T18:36:50.460721+00:00",
+      "validationFiles": [
+        "docs/comics/q-291-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-305",
@@ -497,12 +504,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-305"
+      ],
       "assignedTo": "/root/comic_lane_3",
-      "startedAt": "2026-11-11T17:53:58.821992+00:00"
+      "startedAt": "2026-11-11T17:53:58.821992+00:00",
+      "completedAt": "2026-11-11T18:40:06.270021+00:00",
+      "validationFiles": [
+        "docs/comics/q-305-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-306",
@@ -514,12 +528,19 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "production",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-306"
+      ],
       "assignedTo": "/root/comic_lane_3",
-      "startedAt": "2026-11-11T18:15:20.549182+00:00"
+      "startedAt": "2026-11-11T18:15:20.549182+00:00",
+      "completedAt": "2026-11-11T18:48:09.193634+00:00",
+      "validationFiles": [
+        "docs/comics/q-306-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-307",
@@ -531,10 +552,15 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T18:26:04.916301+00:00",
+      "stateBeforePause": "production",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-308",
@@ -546,10 +572,16 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T18:27:39.784208+00:00",
+      "batchReservation": true,
+      "stateBeforePause": "production",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-309",
@@ -561,10 +593,16 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T18:44:12.854898+00:00",
+      "batchReservation": true,
+      "stateBeforePause": "production",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-310",
@@ -576,10 +614,16 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T18:44:12.854861+00:00",
+      "batchReservation": true,
+      "stateBeforePause": "production",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-311",
@@ -591,10 +635,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-312",
@@ -606,10 +653,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-313",
@@ -621,10 +671,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-314",
@@ -636,10 +689,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-315",
@@ -651,10 +707,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-348",
@@ -666,10 +725,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-349",
@@ -681,10 +743,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-559",
@@ -696,10 +761,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-560",
@@ -711,10 +779,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-569",
@@ -727,10 +798,19 @@
         "biology_quality_upgrade",
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-569"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T18:59:49.279677+00:00",
+      "completedAt": "2026-11-11T19:22:12.497955+00:00",
+      "validationFiles": [
+        "docs/comics/q-569-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-850",
@@ -742,10 +822,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-852",
@@ -757,10 +840,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-965",
@@ -773,10 +859,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-966",
@@ -789,10 +878,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-967",
@@ -805,10 +897,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-968",
@@ -820,10 +915,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-969",
@@ -835,10 +933,13 @@
       "reasons": [
         "biology_quality_upgrade"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-970",
@@ -851,10 +952,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-971",
@@ -867,10 +971,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-972",
@@ -883,10 +990,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-975",
@@ -899,10 +1009,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-976",
@@ -915,10 +1028,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-977",
@@ -931,10 +1047,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1044",
@@ -947,10 +1066,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1047",
@@ -963,10 +1085,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1049",
@@ -979,10 +1104,13 @@
         "biology_quality_upgrade",
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-067",
@@ -994,10 +1122,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-067"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:09:10.054374+00:00",
+      "productionNote": "缺圖補作批次保留，時間為指派而非產圖起點",
+      "completedAt": "2026-11-11T19:28:54.302042+00:00",
+      "validationFiles": [
+        "docs/comics/q-067-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-096",
@@ -1009,10 +1147,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-096"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:26:04.916339+00:00",
+      "completedAt": "2026-11-11T19:16:03.224544+00:00",
+      "validationFiles": [
+        "docs/comics/q-096-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-143",
@@ -1024,10 +1171,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-143"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:26:04.916344+00:00",
+      "completedAt": "2026-11-11T19:16:31.187396+00:00",
+      "validationFiles": [
+        "docs/comics/q-143-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-293",
@@ -1163,10 +1319,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-437"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:18:51.957685+00:00",
+      "completedAt": "2026-11-11T19:39:05.301300+00:00",
+      "validationFiles": [
+        "docs/comics/q-437-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-555",
@@ -1178,10 +1343,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-555"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T19:09:10.054374+00:00",
+      "productionNote": "缺圖補作批次保留，時間為指派而非產圖起點",
+      "completedAt": "2026-11-11T19:31:28.782295+00:00",
+      "validationFiles": [
+        "docs/comics/q-555-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-573",
@@ -1193,10 +1368,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-573"
+      ],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T19:09:10.054374+00:00",
+      "productionNote": "缺圖補作批次保留，時間為指派而非產圖起點",
+      "completedAt": "2026-11-11T19:43:44.822831+00:00",
+      "validationFiles": [
+        "docs/comics/q-573-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-581",
@@ -1210,10 +1395,23 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 12,
+      "completedOriginalIds": [
+        "q-581",
+        "q-582",
+        "q-583"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:48:09.096706+00:00",
+      "completedAt": "2026-11-11T19:20:47.538770+00:00",
+      "validationFiles": [
+        "docs/comics/q-581-validation.json",
+        "docs/comics/q-582-validation.json",
+        "docs/comics/q-583-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-591",
@@ -1225,10 +1423,20 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-591"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:09:10.054374+00:00",
+      "productionNote": "缺圖補作批次保留，時間為指派而非產圖起點",
+      "completedAt": "2026-11-11T19:29:30.549229+00:00",
+      "validationFiles": [
+        "docs/comics/q-591-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-601",
@@ -1240,10 +1448,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": []
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-601"
+      ],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:18:51.957697+00:00",
+      "completedAt": "2026-11-11T19:40:06.693917+00:00",
+      "validationFiles": [
+        "docs/comics/q-601-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-608",
@@ -1255,10 +1472,13 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:24:32.348475+00:00",
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
     },
     {
       "id": "q-612",
@@ -1270,10 +1490,13 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:24:32.348475+00:00",
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
     },
     {
       "id": "q-711",
@@ -1453,12 +1676,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-750"
+      ],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T17:43:57.794454+00:00"
+      "startedAt": "2026-11-11T17:43:57.794454+00:00",
+      "completedAt": "2026-11-11T19:03:17.758093+00:00",
+      "validationFiles": [
+        "docs/comics/q-750-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-751",
@@ -1470,12 +1700,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-751"
+      ],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T17:43:57.794469+00:00"
+      "startedAt": "2026-11-11T17:43:57.794469+00:00",
+      "completedAt": "2026-11-11T19:03:17.811345+00:00",
+      "validationFiles": [
+        "docs/comics/q-751-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-752",
@@ -1487,12 +1724,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-752"
+      ],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T17:51:20.375318+00:00"
+      "startedAt": "2026-11-11T17:51:20.375318+00:00",
+      "completedAt": "2026-11-11T19:04:18.867905+00:00",
+      "validationFiles": [
+        "docs/comics/q-752-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-758",
@@ -1504,12 +1748,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-758"
+      ],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T17:51:20.375331+00:00"
+      "startedAt": "2026-11-11T17:51:20.375331+00:00",
+      "completedAt": "2026-11-11T19:05:00.108637+00:00",
+      "validationFiles": [
+        "docs/comics/q-758-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-760",
@@ -1521,12 +1772,19 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "ready",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-760"
+      ],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T18:00:09.341529+00:00"
+      "startedAt": "2026-11-11T18:00:09.341529+00:00",
+      "completedAt": "2026-11-11T19:05:46.145214+00:00",
+      "validationFiles": [
+        "docs/comics/q-760-validation.json"
+      ],
+      "reviewerAgent": "/root/comic_lane_1"
     },
     {
       "id": "q-762",
@@ -1538,10 +1796,13 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T19:24:32.348475+00:00",
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
     },
     {
       "id": "q-763",
@@ -1553,10 +1814,13 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root/comic_lane_3",
+      "startedAt": "2026-11-11T19:24:32.348475+00:00",
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
     },
     {
       "id": "q-774",
@@ -1568,10 +1832,13 @@
       "reasons": [
         "missing_illustration"
       ],
-      "state": "queued",
+      "state": "production",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T19:24:32.348475+00:00",
+      "productionNote": "僅缺圖補作批次預留，非實際產圖開始時間"
     },
     {
       "id": "q-912",
@@ -1583,12 +1850,15 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "ready",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T18:00:09.341553+00:00"
+      "startedAt": "2026-11-11T18:00:09.341553+00:00",
+      "stateBeforePause": "validation",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-921",
@@ -1600,12 +1870,15 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "production",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T18:15:20.566797+00:00"
+      "startedAt": "2026-11-11T18:15:20.566797+00:00",
+      "stateBeforePause": "validation",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-925",
@@ -1617,10 +1890,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-929",
@@ -1632,10 +1908,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-930",
@@ -1647,10 +1926,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-932",
@@ -1665,10 +1947,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-936",
@@ -1680,10 +1965,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-937",
@@ -1697,10 +1985,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-941",
@@ -1712,10 +2003,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-942",
@@ -1727,10 +2021,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-943",
@@ -1742,10 +2039,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-944",
@@ -1757,10 +2057,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-945",
@@ -1772,10 +2075,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-947",
@@ -1787,10 +2093,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-948",
@@ -1802,10 +2111,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-950",
@@ -1817,10 +2129,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-951",
@@ -1832,10 +2147,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-952",
@@ -1847,10 +2165,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-953",
@@ -1862,10 +2183,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-959",
@@ -1878,10 +2202,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-961",
@@ -1968,10 +2295,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-974",
@@ -1983,10 +2313,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-979",
@@ -1998,10 +2331,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-982",
@@ -2013,10 +2349,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-997",
@@ -2028,10 +2367,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1025",
@@ -2043,10 +2385,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1002",
@@ -2083,10 +2428,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1042",
@@ -2146,10 +2494,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1046",
@@ -2209,10 +2560,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1051",
@@ -2224,10 +2578,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1053",
@@ -2239,10 +2596,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1054",
@@ -2254,10 +2614,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1055",
@@ -2269,10 +2632,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1056",
@@ -2284,10 +2650,15 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:48:09.096723+00:00",
+      "stateBeforePause": "production",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1057",
@@ -2299,10 +2670,15 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:35:02.936704+00:00",
+      "stateBeforePause": "ready",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1058",
@@ -2338,10 +2714,13 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1060",
@@ -2425,10 +2804,15 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "assignedTo": "/root",
+      "startedAt": "2026-11-11T18:35:02.936720+00:00",
+      "stateBeforePause": "ready",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1064",
@@ -2488,12 +2872,15 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "production",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
       "completedOriginalIds": [],
       "assignedTo": "/root",
-      "startedAt": "2026-11-11T18:15:20.566820+00:00"
+      "startedAt": "2026-11-11T18:15:20.566820+00:00",
+      "stateBeforePause": "validation",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     },
     {
       "id": "q-1067",
@@ -2505,16 +2892,19 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "queued",
+      "state": "paused",
       "requiredImagesPerOriginal": 4,
       "completedImages": 0,
-      "completedOriginalIds": []
+      "completedOriginalIds": [],
+      "stateBeforePause": "queued",
+      "pausedAt": "2026-11-11T18:57:46.761749+00:00",
+      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
     }
   ],
   "textOnlyAdditionalQuestionPageCount": 53,
   "initialFieldAuditQuestionPages": 77,
-  "completedOriginalQuestions": 40,
-  "completedImages": 160,
+  "completedOriginalQuestions": 60,
+  "completedImages": 240,
   "publishedBatches": [
     {
       "batchNumber": 33,
@@ -2576,5 +2966,121 @@
       "images": 80,
       "pushedAt": "2026-11-11T18:24:16.729687+00:00"
     }
-  ]
+  ],
+  "executionControl": {
+    "changedAt": "2026-11-11T18:57:46.761749+00:00",
+    "mode": "missing_only",
+    "missingIllustration": "active",
+    "biologyQualityUpgrade": "paused",
+    "textOnlyReplacement": "paused",
+    "userInstruction": "只繼續原本完全缺圖；文字框重製與生物品質升級暫停。保留已正式完成新圖及未整合草稿。",
+    "biologyResumePhrase": "將生物的舊解說圖改為精美解說圖",
+    "activeQuestionPageCount": 20,
+    "activeOriginalQuestionCount": 22,
+    "activeRequiredImages": 88,
+    "activeOriginalQuestionIds": [
+      "q-067",
+      "q-096",
+      "q-143",
+      "q-437",
+      "q-555",
+      "q-569",
+      "q-573",
+      "q-581",
+      "q-582",
+      "q-583",
+      "q-591",
+      "q-601",
+      "q-608",
+      "q-612",
+      "q-750",
+      "q-751",
+      "q-752",
+      "q-758",
+      "q-760",
+      "q-762",
+      "q-763",
+      "q-774"
+    ],
+    "pausedQuestionPageCount": 68,
+    "pausedOriginalQuestionCount": 75,
+    "pausedOriginalQuestionIds": [
+      "q-1005",
+      "q-1008",
+      "q-1025",
+      "q-1035",
+      "q-1044",
+      "q-1047",
+      "q-1049",
+      "q-1050",
+      "q-1051",
+      "q-1053",
+      "q-1054",
+      "q-1055",
+      "q-1056",
+      "q-1057",
+      "q-1059",
+      "q-1063",
+      "q-1066",
+      "q-1067",
+      "q-307",
+      "q-308",
+      "q-309",
+      "q-310",
+      "q-311",
+      "q-312",
+      "q-313",
+      "q-314",
+      "q-315",
+      "q-348",
+      "q-349",
+      "q-559",
+      "q-560",
+      "q-850",
+      "q-852",
+      "q-912",
+      "q-921",
+      "q-925",
+      "q-929",
+      "q-930",
+      "q-932",
+      "q-933",
+      "q-934",
+      "q-935",
+      "q-936",
+      "q-937",
+      "q-938",
+      "q-939",
+      "q-941",
+      "q-942",
+      "q-943",
+      "q-944",
+      "q-945",
+      "q-947",
+      "q-948",
+      "q-950",
+      "q-951",
+      "q-952",
+      "q-953",
+      "q-959",
+      "q-960",
+      "q-965",
+      "q-966",
+      "q-967",
+      "q-968",
+      "q-969",
+      "q-970",
+      "q-971",
+      "q-972",
+      "q-973",
+      "q-974",
+      "q-975",
+      "q-976",
+      "q-977",
+      "q-979",
+      "q-982",
+      "q-997"
+    ],
+    "snapshot": "docs/comics/biology-rework-20261112/scope-change-completion-snapshot.json"
+  }
 }

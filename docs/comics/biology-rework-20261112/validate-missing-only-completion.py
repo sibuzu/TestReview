@@ -45,5 +45,11 @@ log=(ROOT/'.cache/root-missing-only-final-tests.log').read_text();assert re.sear
 _,_,_,jobs=pending_batch()
 assert not jobs or missing_scope_finished(ROOT,jobs)
 report=dict(checkedAt=now(),activeMissingOriginalIds=sorted(ids),activeMissingQuestionPages=20,activeMissingOriginals=22,activeMissingImages=88,formalLayouts=132,isolatedLayouts=66,finalBatchFormalLayouts=30,finalBatchOriginalIds=['q-774','q-608','q-612','q-762','q-763'],actualVisualReview='唯一整合者逐題實開原卷及必要圖、四張新圖、正式app/單頁1440與390；1120另自動排版驗證。',historicalScope=dict(questionPages=130,originalQuestions=140,requiredImages=560),historicalAccepted=dict(questionPages=62,originalQuestions=65,images=260),paused=dict(questionPages=68,originalQuestions=75,artworkMatchesOriginalBaseline=True),originalContentAndAnswersUnchanged=True,referencedAssets=len(refs),missingAssets=missing,biologyFine=17,biologyLegacy=29,siteTests=dict(actualCommand='npm test --prefix site',passed=123,failed=0,evidence='.cache/root-missing-only-final-tests.log',independentReviewer='/root'),rootIndependentSpotCheck=['q612-app-390','q774-standalone-1440'],partialPublicationGate='only explicit final flag, completed active missing scope, jobs inside active IDs, both rework categories paused',usageTokens=None,usageNote='內建imagegen未提供usage；不估算、不填0。',status='missing-only completed; broader rework paused',worknerdTaskId='t_a87b51180cc247a88d16')
-save(D/'missing-only-completion-validation.json',report)
+monitor_log=(ROOT/'.cache/final-monitor-tests.log').read_text();assert 'Ran 76 tests' in monitor_log and monitor_log.rstrip().endswith('OK')
+report['monitorTests']=dict(actualCommand='python3 -m unittest monitor.test_comic_pipeline monitor.test_comic_publish monitor.test_parallel_timing monitor.test_source_progress monitor.test_comic_queue monitor.test_group_queue monitor.test_server monitor.test_comic_execution',passed=76,failed=0,evidence='.cache/final-monitor-tests.log')
+existing=D/'missing-only-completion-validation.json'
+previous=json.loads(existing.read_text()) if existing.exists() else {}
+for key in ['publication','monitorLiveStatus']:
+ if key in previous:report[key]=previous[key]
+save(existing,report)
 print(json.dumps(dict(result='PASS',missingOnly='22/22',historical='65/140',paused='75',referencedAssets=len(refs),missingAssets=missing),ensure_ascii=False))

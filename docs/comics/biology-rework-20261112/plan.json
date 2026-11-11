@@ -2,7 +2,7 @@
   "kind": "four_image_biology_and_missing_rework",
   "state": "paused",
   "createdAt": "2026-11-11T16:27:16.335709+00:00",
-  "updatedAt": "2026-11-11T20:37:11.415269+00:00",
+  "updatedAt": "2026-11-11T20:46:16.780438+00:00",
   "worknerdTaskId": "t_a87b51180cc247a88d16",
   "goalActive": false,
   "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
@@ -3030,6 +3030,22 @@
       "questionPages": 18,
       "images": 80,
       "pushedAt": "2026-11-11T20:13:01.549453+00:00"
+    },
+    {
+      "batchNumber": 36,
+      "commit": "85a3fac556a8706a336fc961691f47d2bd4add5f",
+      "originalQuestionIds": [
+        "q-774",
+        "q-608",
+        "q-612",
+        "q-762",
+        "q-763"
+      ],
+      "originalQuestions": 5,
+      "questionPages": 5,
+      "images": 20,
+      "pushedAt": "2026-11-11T20:46:16.779353+00:00",
+      "reason": "使用者授權完成22原問缺圖後發布不足20的尾批；其他75重製仍暫停。"
     }
   ],
   "executionControl": {
@@ -3151,7 +3167,11 @@
     "missingCompletedQuestionPages": 20,
     "missingCompletedOriginalQuestions": 22,
     "missingCompletedImages": 88,
-    "remainingActiveOriginalQuestions": 0
+    "remainingActiveOriginalQuestions": 0,
+    "finishPublication": {
+      "commit": "85a3fac556a8706a336fc961691f47d2bd4add5f",
+      "remoteVerified": true
+    }
   },
   "pauseReason": "本次22原問完全缺圖補作完成；其他75原問重製依使用者指示保持暫停，不宣稱歷史140全部完成。"
 }

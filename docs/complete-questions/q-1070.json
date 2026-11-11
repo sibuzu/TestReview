@@ -1,0 +1,74 @@
+{
+  "id": "q-1070",
+  "sourceId": "src-more-067",
+  "subject": "Math",
+  "title": "數學第11題｜垂直平分線轉換小三角形周長",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-11",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-11",
+  "question": "如右圖，△ABC中，AB＝AC，直線DE為AB的垂直平分線。若△BCE的周長為25，BC＝10，則△ABC的周長為何？\n(A) 35\n(B) 40\n(C) 45\n(D) 50",
+  "answer": "(B) 40",
+  "correctOption": "B",
+  "explanation": "一、先用垂直平分線找等距\nE在AB的垂直平分線上，所以EA＝EB。原圖E在AC上，因此AC＝AE＋EC＝BE＋EC。\n\n二、把小三角形周長換成大三角形的一邊\n△BCE周長＝BE＋EC＋BC＝25，而BC＝10，所以BE＋EC＝15。由上一段知AC＝15，又AB＝AC，所以AB＝15。\n\n三、求大三角形周長\nAB＋AC＋BC＝15＋15＋10＝40，選B。A、C、D分別為35、45、50，均不符合推導的兩腰15、底邊10。\n\n四、圖示關係也要正確\nD必須是AB中點，DE必須垂直AB，E必須在AC上，且AE＝BE。原AI示意圖的D位置與線段方向並未同時滿足這些條件，不能因標非比例就接受錯誤關係；本題另製滿足全部幾何條件的精確圖。原卷學生的手寫數字保留，但不將其當成新的已知條件。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+  "tags": [
+    "垂直平分線",
+    "等距",
+    "周長"
+  ],
+  "originalQuestionNumber": "11",
+  "sourceLabel": "分享原卷｜第11題",
+  "studentAnswer": "使用者原始紀錄：11@錯題D → B；原筆跡保留於下方原卷。",
+  "images": [
+    "assets/originals/q-1070-original-68d535e60cdf.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-1070-figure-fc222cddba3a.jpg",
+      "alt": "原卷第11題的必要圖形或圖形選項。",
+      "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+    }
+  ],
+  "explanationFigures": [],
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "teachingComic": {
+    "title": "垂直平分線轉換小三角形周長",
+    "art": "assets/comics/q-1070-art-9935506009.svg",
+    "panels": [
+      {
+        "heading": "① 垂直平分線給等距",
+        "text": "E在AB的垂直平分線上，所以EA＝EB；D是AB中點，DE垂直AB。",
+        "alt": "垂直平分線給等距",
+        "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+      },
+      {
+        "heading": "② 將折線換成一條腰",
+        "text": "E在AC上，所以AC＝AE＋EC＝BE＋EC；小三角形周長25扣BC的10，得到AC＝15。",
+        "alt": "將折線換成一條腰",
+        "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+      },
+      {
+        "heading": "③ 兩腰各15再加底",
+        "text": "AB＝AC＝15，因此大三角形周長15＋15＋10＝40。不能把學生手寫數字當已知。",
+        "alt": "兩腰各15再加底",
+        "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+      }
+    ],
+    "fourth": {
+      "answer": "(B) 40",
+      "points": [
+        "垂直平分線給EA＝EB。",
+        "AC＝BE＋EC＝25−10＝15。",
+        "兩腰15、底10，周長40。"
+      ]
+    }
+  }
+}

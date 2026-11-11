@@ -1,0 +1,127 @@
+{
+  "id": "q-1055",
+  "subject": "History",
+  "title": "以任期判斷上海發生的事件",
+  "art": "docs/comics/art/q-1055-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1055-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先從表格畫出時間範圍\n依原表，何豐林於1920年7月就職，下一任張允明於1924年10月14日就職。本題用表中前後任日期，判斷落在約1920～1924年間的事件；原印日期照留，不拿其他履歷版本改寫原表。\n\n二、把四件事放入年代\n宋教仁遇刺在1913年，中國宣布參加第一次世界大戰在1917年；袁世凱推動恢復帝制輿論主要在1915年，均早於表中任期。中國共產黨於1921年成立，第一次全國代表大會在上海召開，落在任期內，所以選C。\n\n三、讀表時的陷阱\n單看上海這個地名還不夠，宋教仁也在上海遇刺；必須同時檢查事件的年份。就職日提供的是判斷區間，不是要把事件日期猜成與就職同一天。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 從任期畫出區間",
+      "text": "依原表何豐林1920年7月就職，下任於1924年10月就職。",
+      "alt": "從任期畫出區間",
+      "diagram": {
+        "kind": "flow",
+        "title": "從任期畫出區間",
+        "items": [
+          {
+            "label": "1920/07",
+            "detail": "何豐林就職",
+            "tone": "blue"
+          },
+          {
+            "label": "1924/10/14",
+            "detail": "下一任就職",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 將事件放入時間軸",
+      "text": "中共於1921年成立，落在1920～1924年間，且最初大會在上海召開。",
+      "alt": "將事件放入時間軸",
+      "diagram": {
+        "kind": "flow",
+        "title": "將事件放入時間軸",
+        "items": [
+          {
+            "label": "任期起點",
+            "detail": "1920年",
+            "tone": "blue"
+          },
+          {
+            "label": "中共成立",
+            "detail": "1921年",
+            "tone": "gold"
+          },
+          {
+            "label": "任期終點",
+            "detail": "1924年",
+            "tone": "green"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 地點相同還要查時間",
+      "text": "宋教仁遇刺在1913年，參加一戰在1917年，袁世凱帝制宣傳在1915年前後。",
+      "alt": "地點相同還要查時間",
+      "diagram": {
+        "kind": "paths",
+        "title": "地點相同還要查時間",
+        "items": [
+          {
+            "label": "1913／1915／1917",
+            "detail": "早於何豐林任期",
+            "tone": "blue"
+          },
+          {
+            "label": "1921",
+            "detail": "落在任期內",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "C 中共成立"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 中國共產黨的成立",
+    "points": [
+      "依原表任期約1920～1924年。",
+      "1921年中共成立落在區間內。",
+      "不能只看同在上海，還要核年份。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1055-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1055-1056.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1055-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:17.865772+00:00",
+  "validationFile": "docs/comics/q-1055-validation.json"
+}

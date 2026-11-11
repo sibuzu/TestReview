@@ -1,0 +1,73 @@
+{
+  "id": "q-1068",
+  "subject": "Math",
+  "title": "跨兩個三角形比較最短邊",
+  "art": "docs/comics/art/q-1068-geometry.svg",
+  "generationMethod": "new mathematically constructed SVG plus selectable HTML reasoning",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1068-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、沿共同邊AC分成兩個三角形\n在△ABC中，∠A＝180°−59°−60°＝61°。大角對大邊，所以AC（對59°）＜AB（對60°）＜BC（對61°）。\n\n二、在△ACD再比較一次\n∠ACD＝180°−61°−60°＝59°，因此AD（對59°）＜CD（對60°）＜AC（對61°）。\n\n三、用共同邊串接\n把兩串不等式接起來：AD＜CD＜AC＜AB＜BC。題目只問四邊形的邊，AC是輔助比較用的對角線；四條邊中最短是AD，選D。\n\n四、避免跨三角形直接比角\n不能只看B點59°，就把它對面的線段當成整個四邊形最短邊。大角對大邊需在同一個三角形內使用，再藉共同邊AC連接兩次比較。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 先在ABC比邊",
+      "text": "∠A＝61°，所以AC對59°、AB對60°、BC對61°，得AC＜AB＜BC。",
+      "alt": "先在ABC比邊",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    },
+    {
+      "heading": "② 再在ACD比邊",
+      "text": "∠C＝59°，所以AD對59°、CD對60°、AC對61°，得AD＜CD＜AC。",
+      "alt": "再在ACD比邊",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    },
+    {
+      "heading": "③ 用共同邊串接",
+      "text": "兩次都在同一個三角形內比邊，再以共同邊AC接起來：AD＜CD＜AC＜AB＜BC。",
+      "alt": "用共同邊串接",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "(D) AD",
+    "points": [
+      "△ABC：AC＜AB＜BC。",
+      "△ACD：AD＜CD＜AC。",
+      "串接得AD最短，選D。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1068-art-0046eb2ae3.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1067-1068.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1068-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.455637+00:00",
+  "validationFile": "docs/comics/q-1068-validation.json"
+}

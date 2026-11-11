@@ -1,0 +1,124 @@
+{
+  "id": "q-1062",
+  "sourceId": "src-more-067",
+  "subject": "Geography",
+  "title": "地理第7題｜由開羅氣候圖判讀熱帶沙漠",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-11",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-11",
+  "question": "某地位於尼羅河三角洲頂點，是伊斯蘭世界最大的都市。附圖為此地的氣候圖，依圖中內容判斷，其氣候類型為何？\n(A) 高地氣候\n(B) 熱帶沙漠氣候\n(C) 溫帶季風氣候\n(D) 溫帶地中海型氣候",
+  "answer": "(B) 熱帶沙漠氣候",
+  "correctOption": "B",
+  "explanation": "一、先讀數據\n原圖年均溫21.4°C、年降水量僅26 mm，月降水柱全年都很低，顯示最突出的特徵是極乾燥。本題位置指向開羅，教材分類選B熱帶沙漠氣候。\n\n二、地點有河流，不代表當地多雨\n開羅靠尼羅河獲取水源，但河水可來自上游降雨，不能因位於河流三角洲頂點，就把當地氣候判成多雨。氣候類型仍應依當地氣溫與降水判讀。\n\n三、排除A、C、D\n高地氣候需有高海拔的降溫等條件，原圖不支持。溫帶季風與地中海型都不會像原圖全年總雨量只有26 mm；地中海型尤其應有明顯冬雨。本題熱帶沙漠是教材區域分類名稱，並非聲稱每個月均溫都超過18°C。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+  "tags": [
+    "氣候圖",
+    "開羅",
+    "沙漠氣候"
+  ],
+  "originalQuestionNumber": "7",
+  "sourceLabel": "分享原卷｜第7題",
+  "studentAnswer": "使用者原始紀錄：7@錯題c→ B；原筆跡保留於下方原卷。",
+  "images": [
+    "assets/originals/q-1062-original-b71eecfe94ce.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-1062-figure-35fee275dca5.jpg",
+      "alt": "原卷第7題的必要圖形或圖形選項。",
+      "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+    }
+  ],
+  "explanationFigures": [],
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "teachingComic": {
+    "title": "由開羅氣候圖判讀熱帶沙漠",
+    "art": "assets/comics/q-1062-art-62f6de3cdc.svg",
+    "panels": [
+      {
+        "heading": "① 先讀全年總雨量",
+        "text": "原圖年均溫21.4°C、年雨量26 mm，最突出的是全年極乾燥。",
+        "alt": "先讀全年總雨量",
+        "diagram": {
+          "kind": "paths",
+          "title": "先讀全年總雨量",
+          "items": [
+            {
+              "label": "年均溫",
+              "detail": "21.4°C",
+              "tone": "blue"
+            },
+            {
+              "label": "年降水量",
+              "detail": "僅26 mm",
+              "tone": "gold"
+            }
+          ],
+          "arrow": "結合線索",
+          "target": "全年少雨"
+        }
+      },
+      {
+        "heading": "② 有河不等於當地多雨",
+        "text": "開羅靠尼羅河取得水源；上游流來的河水不能代替當地氣候數據。",
+        "alt": "有河不等於當地多雨",
+        "diagram": {
+          "kind": "flow",
+          "title": "有河不等於當地多雨",
+          "items": [
+            {
+              "label": "尼羅河水",
+              "detail": "可來自上游",
+              "tone": "blue"
+            },
+            {
+              "label": "當地氣候",
+              "detail": "仍依當地雨量判斷",
+              "tone": "gold"
+            }
+          ],
+          "arrow": "依序判讀"
+        }
+      },
+      {
+        "heading": "③ 排除應有雨季的類型",
+        "text": "溫帶季風與地中海型都有較明顯雨季；圖中全年少雨符合教材熱帶沙漠類型。",
+        "alt": "排除應有雨季的類型",
+        "diagram": {
+          "kind": "paths",
+          "title": "排除應有雨季的類型",
+          "items": [
+            {
+              "label": "原圖全年",
+              "detail": "月雨量都很低",
+              "tone": "blue"
+            },
+            {
+              "label": "教材分類",
+              "detail": "熱帶沙漠氣候",
+              "tone": "gold"
+            }
+          ],
+          "arrow": "結合線索",
+          "target": "B 熱帶沙漠"
+        }
+      }
+    ],
+    "fourth": {
+      "answer": "(B) 熱帶沙漠氣候",
+      "points": [
+        "年雨量僅26 mm，全年極乾燥。",
+        "河水不代表當地降雨多。",
+        "教材分類選B熱帶沙漠。"
+      ]
+    }
+  }
+}

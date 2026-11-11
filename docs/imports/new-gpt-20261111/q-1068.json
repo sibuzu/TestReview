@@ -1,0 +1,48 @@
+{
+  "id": "q-1068",
+  "sourceId": "src-more-067",
+  "subject": "Math",
+  "title": "數學第2題｜跨兩個三角形比較最短邊",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-11",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-11",
+  "question": "如右圖，四邊形ABCD中，∠B＝59°，∠D＝61°，∠ACB＝∠CAD＝60°，則四邊形ABCD中哪一條邊最短？\n(A) AB\n(B) BC\n(C) CD\n(D) AD",
+  "answer": "(D) AD",
+  "correctOption": "D",
+  "explanation": "一、沿共同邊AC分成兩個三角形\n在△ABC中，∠A＝180°−59°−60°＝61°。大角對大邊，所以AC（對59°）＜AB（對60°）＜BC（對61°）。\n\n二、在△ACD再比較一次\n∠ACD＝180°−61°−60°＝59°，因此AD（對59°）＜CD（對60°）＜AC（對61°）。\n\n三、用共同邊串接\n把兩串不等式接起來：AD＜CD＜AC＜AB＜BC。題目只問四邊形的邊，AC是輔助比較用的對角線；四條邊中最短是AD，選D。\n\n四、避免跨三角形直接比角\n不能只看B點59°，就把它對面的線段當成整個四邊形最短邊。大角對大邊需在同一個三角形內使用，再藉共同邊AC連接兩次比較。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+  "tags": [
+    "三角形邊角關係",
+    "共同邊",
+    "不等式"
+  ],
+  "originalQuestionNumber": "2",
+  "sourceLabel": "分享原卷｜第2題",
+  "studentAnswer": "使用者原始紀錄：2@錯題A → D；原筆跡保留於下方原卷。",
+  "images": [
+    "assets/originals/q-1068-original-61f768370504.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/questions/q-1068-figure-320d3a3c2497.jpg",
+      "alt": "原卷第2題的必要圖形或圖形選項。",
+      "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+    }
+  ],
+  "explanationFigures": [],
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "sourceEvidence": {
+    "attachmentIndices": [
+      24
+    ],
+    "messageId": "3307a30a-5752-43e3-a5ea-c800170a6ebb"
+  }
+}

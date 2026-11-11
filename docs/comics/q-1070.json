@@ -1,0 +1,73 @@
+{
+  "id": "q-1070",
+  "subject": "Math",
+  "title": "垂直平分線轉換小三角形周長",
+  "art": "docs/comics/art/q-1070-geometry.svg",
+  "generationMethod": "new mathematically constructed SVG plus selectable HTML reasoning",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1070-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先用垂直平分線找等距\nE在AB的垂直平分線上，所以EA＝EB。原圖E在AC上，因此AC＝AE＋EC＝BE＋EC。\n\n二、把小三角形周長換成大三角形的一邊\n△BCE周長＝BE＋EC＋BC＝25，而BC＝10，所以BE＋EC＝15。由上一段知AC＝15，又AB＝AC，所以AB＝15。\n\n三、求大三角形周長\nAB＋AC＋BC＝15＋15＋10＝40，選B。A、C、D分別為35、45、50，均不符合推導的兩腰15、底邊10。\n\n四、圖示關係也要正確\nD必須是AB中點，DE必須垂直AB，E必須在AC上，且AE＝BE。原AI示意圖的D位置與線段方向並未同時滿足這些條件，不能因標非比例就接受錯誤關係；本題另製滿足全部幾何條件的精確圖。原卷學生的手寫數字保留，但不將其當成新的已知條件。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 垂直平分線給等距",
+      "text": "E在AB的垂直平分線上，所以EA＝EB；D是AB中點，DE垂直AB。",
+      "alt": "垂直平分線給等距",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    },
+    {
+      "heading": "② 將折線換成一條腰",
+      "text": "E在AC上，所以AC＝AE＋EC＝BE＋EC；小三角形周長25扣BC的10，得到AC＝15。",
+      "alt": "將折線換成一條腰",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    },
+    {
+      "heading": "③ 兩腰各15再加底",
+      "text": "AB＝AC＝15，因此大三角形周長15＋15＋10＝40。不能把學生手寫數字當已知。",
+      "alt": "兩腰各15再加底",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 40",
+    "points": [
+      "垂直平分線給EA＝EB。",
+      "AC＝BE＋EC＝25−10＝15。",
+      "兩腰15、底10，周長40。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1070-art-9935506009.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1069-1070.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1070-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.544135+00:00",
+  "validationFile": "docs/comics/q-1070-validation.json"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "q-1056",
+  "subject": "Chinese",
+  "title": "依報導規則判讀輪胎日期",
+  "art": "docs/comics/art/q-1056-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1056-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、以本文明訂規則解碼\n這是閱讀題，原文規定四碼的前兩碼為製造年份後兩數，後兩碼為當年第幾週。因此8638是1986年第38週，8849是1988年第49週，8350是1983年第50週，9001是1990年第1週。\n\n二、比較照片年份與五年保存期限\n拍照年是1990年。A約3～4年、B約1～2年、D不足1年，都未超過文中五年期限。C在1983年底製造，到1990年已超過6年，確定超過五年，因此選C。1990−5＝1985可作快速比較，但若製造年恰為1985，仍需看週數；本題只有1983年的C明確超過期限。\n\n三、避免反向選擇\n題目問已過期，應找較早製造者；D的9001數值大，表示本文規則下的1990年，不是最舊。\n\n四、閱讀規則與現實制度分開\n原文將四碼解釋成年份在前、週數在後，屬本題給定規則。解題照文意，不把這套編排或1997年的示例當作所有實際輪胎的DOT日期碼標準。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 照文章規則拆碼",
+      "text": "本文規定前兩碼是年份、後兩碼是週數；8350就是1983年第50週。",
+      "alt": "照文章規則拆碼",
+      "diagram": {
+        "kind": "paths",
+        "title": "照文章規則拆碼",
+        "items": [
+          {
+            "label": "83",
+            "detail": "1983年",
+            "tone": "blue"
+          },
+          {
+            "label": "50",
+            "detail": "當年第50週",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "8350：1983年第50週"
+      }
+    },
+    {
+      "heading": "② 與照片年份比較",
+      "text": "照片拍於1990年，1983年底製造的輪胎已超過六年，超過文中五年期限。",
+      "alt": "與照片年份比較",
+      "diagram": {
+        "kind": "flow",
+        "title": "與照片年份比較",
+        "items": [
+          {
+            "label": "1983年底",
+            "detail": "C輪胎製造",
+            "tone": "blue"
+          },
+          {
+            "label": "1990年",
+            "detail": "照片拍攝",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 逐項核對而非比大小",
+      "text": "A是1986年、B是1988年、D是1990年；只有C的1983年明確超過期限。",
+      "alt": "逐項核對而非比大小",
+      "diagram": {
+        "kind": "paths",
+        "title": "逐項核對而非比大小",
+        "items": [
+          {
+            "label": "A／B／D",
+            "detail": "未超過五年",
+            "tone": "blue"
+          },
+          {
+            "label": "C：1983年",
+            "detail": "已超過五年",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "C 8350"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 8350",
+    "points": [
+      "依本文規則，8350是1983年第50週。",
+      "到1990年已超過文中五年期限。",
+      "現實DOT編碼與本題規則須分清。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1056-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1055-1056.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1056-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:17.911622+00:00",
+  "validationFile": "docs/comics/q-1056-validation.json"
+}

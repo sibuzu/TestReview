@@ -1,0 +1,122 @@
+{
+  "id": "q-1053",
+  "subject": "History",
+  "title": "北京兵變與袁世凱北方就職",
+  "art": "docs/comics/art/q-1053-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1053-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、先定位政權交替\n題幹說清帝退位、袁世凱準備就任大總統，背景是1912年的政權交接。袁世凱希望留在自己掌握軍政勢力的北京，而不願到南京就職。\n\n二、兵變如何成為藉口\n曹錕所部在北京發生兵變，袁世凱以北方局勢不穩、需要留守維持秩序為由，拒絕南下，最後在北京就職。因此選B。這裡要找的是題幹所述兵變，不是後來稱帝的事件。\n\n三、排除其餘選項\nA二次革命發生於1913年，是反袁武裝行動，時間較晚。C洪憲帝制是袁世凱1915年底推動、1916年實施的帝制，不能與1912年就職混同。D武昌起事發生於1911年，推動清朝覆亡，發生在題幹清帝退位之前。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 政權交替的時間",
+      "text": "清帝已退位，袁世凱準備就任大總統，先鎖定1912年。",
+      "alt": "政權交替的時間",
+      "diagram": {
+        "kind": "flow",
+        "title": "政權交替的時間",
+        "items": [
+          {
+            "label": "1911",
+            "detail": "武昌起事",
+            "tone": "blue"
+          },
+          {
+            "label": "1912",
+            "detail": "清帝退位、民國建立",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 兵變成為留京藉口",
+      "text": "曹錕部隊在北京兵變，袁世凱以北方局勢不穩為由留在北京就職。",
+      "alt": "兵變成為留京藉口",
+      "diagram": {
+        "kind": "flow",
+        "title": "兵變成為留京藉口",
+        "items": [
+          {
+            "label": "北京兵變",
+            "detail": "北方局勢不穩",
+            "tone": "blue"
+          },
+          {
+            "label": "拒赴南京",
+            "detail": "最後留京就職",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 排除較晚的事件",
+      "text": "二次革命在1913年，洪憲帝制在1915年底至1916年；都不是1912年的兵變。",
+      "alt": "排除較晚的事件",
+      "diagram": {
+        "kind": "paths",
+        "title": "排除較晚的事件",
+        "items": [
+          {
+            "label": "二次革命",
+            "detail": "1913年",
+            "tone": "blue"
+          },
+          {
+            "label": "洪憲帝制",
+            "detail": "1915～1916年",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "B 北京兵變"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 北京兵變",
+    "points": [
+      "1912年就職背景，選北京兵變。",
+      "武昌起事在前，二次革命與帝制在後。",
+      "時間與事件一起比對。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1053-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1053-1054.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1053-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:17.774805+00:00",
+  "validationFile": "docs/comics/q-1053-validation.json"
+}

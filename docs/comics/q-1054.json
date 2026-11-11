@@ -1,0 +1,122 @@
+{
+  "id": "q-1054",
+  "subject": "History",
+  "title": "從學堂與通儒院判斷年代",
+  "art": "docs/comics/art/q-1054-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1054-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、用機構名稱辨認時期\n原表同時出現蒙養院、初等小學堂、高等小學堂、中學堂、大學堂及通儒院，是清末新式學制的用語，對應1900年代，選B。\n\n二、與清末教育改革連結\n清末學制改革參考近代學校制度，1904年頒行的癸卯學制把各級學堂接成系統；通儒院置於高等教育體系。不能因看到大學或小學，就把表格當成1950年後的現代學制。農曆癸卯年與西元公布年份跨年，判本題只須掌握清末1900年代，不必以年號名稱硬套西元1903年。\n\n三、逐項排除\n1850年代早於這套清末新學制；1950、2000年代的學校制度及名稱都不會整體沿用表中這些學堂名稱。B符合。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 先讀機構名稱",
+      "text": "蒙養院、學堂、通儒院，是清末新學制的重要辨識線索。",
+      "alt": "先讀機構名稱",
+      "diagram": {
+        "kind": "flow",
+        "title": "先讀機構名稱",
+        "items": [
+          {
+            "label": "初等教育",
+            "detail": "蒙養院、初等與高等小學堂",
+            "tone": "blue"
+          },
+          {
+            "label": "高等教育",
+            "detail": "大學堂、通儒院",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 定位清末改革",
+      "text": "癸卯學制於1904年頒行，屬1900年代；農曆年名與西元公布年可能跨年。",
+      "alt": "定位清末改革",
+      "diagram": {
+        "kind": "flow",
+        "title": "定位清末改革",
+        "items": [
+          {
+            "label": "清末教育改革",
+            "detail": "建立近代學制",
+            "tone": "blue"
+          },
+          {
+            "label": "1904年",
+            "detail": "頒行癸卯學制",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 用年代排除",
+      "text": "1850年代太早，1950與2000年代不會整體沿用原表的清末學堂名稱。",
+      "alt": "用年代排除",
+      "diagram": {
+        "kind": "paths",
+        "title": "用年代排除",
+        "items": [
+          {
+            "label": "原表名稱",
+            "detail": "學堂、通儒院",
+            "tone": "blue"
+          },
+          {
+            "label": "時代背景",
+            "detail": "清末",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "B 1900年代"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 1900年代",
+    "points": [
+      "蒙養院、學堂、通儒院屬清末。",
+      "1904年頒行癸卯學制。",
+      "對應1900年代，選B。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1054-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1053-1054.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1054-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:17.820323+00:00",
+  "validationFile": "docs/comics/q-1054-validation.json"
+}

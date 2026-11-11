@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.b67fbd88a497",
+  "revision": "2026-10-27.fc8d18400d2c",
   "subjects": [
     {
       "id": "Chinese",
@@ -2640,6 +2640,45 @@
         "assets/originals/chatgpt-6af323e8-7-7ec190471936.jpg"
       ],
       "content": "user\n[原始附件 sediment://file_00000000cf5c8206b2c63bf5a14e2be9?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n27@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第27題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：B</badge>　<text color=\"secondary\" inline>國中自然｜化學｜皂化反應</text>\n\n從照片可見，原先選擇 **D**，紅筆訂正為 **B**。\n\n## 一、原題判讀\n\n題目：「圖（七）為小葉進行皂化實驗的部分步驟，則關於圖中蒸發皿內的物質，下列敘述何者正確？」\n\n圖中加入：\n\n- 椰子油\n- 乙醇\n- 氫氧化鈉\n- 水\n\n操作為玻璃棒攪拌，再加熱並持續攪拌。\n\n## 二、核心觀念：誰是反應物？\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <svg viewBox=\"0 0 340 198\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n    {#each [{x:8,c:\"#FCE7C5\",t:\"椰子油\",sub:\"反應物\"},{x:180,c:\"#DBEAFE\",t:\"氫氧化鈉\",sub:\"反應物\"}] as a}\n      <rect x={a.x} y=\"8\" width=\"152\" height=\"53\" rx=\"9\" fill={a.c}/>\n      <text x={a.x+76} y=\"30\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\" fill=\"#1F2937\">{a.t}</text>\n      <text x={a.x+76} y=\"49\" fontSize=\"12\" textAnchor=\"middle\" fill=\"#334155\">{a.sub}</text>\n    {/each}\n    <path d=\"M83 66 L83 81 L170 93 M256 66 L256 81 L170 93\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <path d=\"M163 87 L170 95 L177 87\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <rect x=\"72\" y=\"98\" width=\"196\" height=\"39\" rx=\"9\" fill=\"#D6F5E8\"/>\n    <text x=\"170\" y=\"123\" fontSize=\"17\" fontWeight=\"bold\" fill=\"#166534\" textAnchor=\"middle\">皂化反應</text>\n    <path d=\"M170 139 V154\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <path d=\"M164 150 L170 157 L176 150\" stroke=\"currentColor\" fill=\"none\" strokeWidth=\"2\"/>\n    <rect x=\"38\" y=\"161\" width=\"264\" height=\"29\" rx=\"7\" fill=\"#F3E8FF\"/>\n    <text x=\"170\" y=\"181\" fontSize=\"14\" fontWeight=\"bold\" fill=\"#6B21A8\" textAnchor=\"middle\">肥皂（脂肪酸鈉）＋ 甘油</text>\n  </svg>\n  <row justify=\"center\" align=\"center\" gap={2}>\n    <icon name=\"info\" color=\"info\"/>\n    <text size=\"sm\">乙醇：幫助油與鹼液混合，不是主要皂化反應物。</text>\n  </row>\n</box>\n\n**皂化反應：油脂＋強鹼 → 肥皂＋甘油**\n\n乙醇在實驗中主要作為共溶劑，讓油脂和氫氧化鈉水溶液較容易混合，提高反應效率。\n\n## 三、四個選項逐項解析\n\n| 選項 | 原題敘述 | 判斷 |\n|---|---|---|\n| A | 椰子油、乙醇為反應物，氫氧化鈉能幫助反應物混合 | <text color=\"danger\" weight=\"medium\">錯</text>：乙醇與氫氧化鈉角色顛倒 |\n| **B** | 椰子油、氫氧化鈉為反應物，乙醇能幫助反應物混合 | <text color=\"success\" weight=\"medium\">正確</text> |\n| C | 乙醇、氫氧化鈉為反應物，椰子油能幫助反應物混合 | <text color=\"danger\" weight=\"medium\">錯</text>：椰子油本身就是反應物 |\n| D | 椰子油、乙醇、氫氧化鈉三者均是反應物 | <text color=\"danger\" weight=\"medium\">錯</text>：乙醇不是主要反應物 |\n\n## 四、D → B 二選一決勝辨析\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"danger\" weight=\"medium\">D｜原先誤選</text>\n      **三者都是反應物**\n\n      椰子油 ✓\n\n      氫氧化鈉 ✓\n\n      乙醇 ✕\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"success\" weight=\"medium\">B｜正確答案</text>\n      **兩個反應物＋一個助劑**\n\n      椰子油 ✓\n\n      氫氧化鈉 ✓\n\n      乙醇：幫助混合\n    </box>\n  </grid-item>\n</grid>\n\n**決定性差異：加入實驗的物質，不一定全部都是反應物。**\n\n考場快速判斷：\n\n> 先找「誰真正參與化學反應」，再區分「誰只是幫助反應進行」。\n\n## 五、本題 v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題、選項與答案核對 | 通過，答案 B |\n| P1 化學概念與選項辨析 | 通過 |\n| P1 教材原文查核 | 尚未使用教材搜尋，未聲稱課本頁碼 |\n| P2 圖文一致性 | 通過基本概念核對 |\n| 實際誤選原因 | 資料不足，不能確定 |\n\n本題可確認 **D → B** 的訂正，但不能只憑選項斷定學生當時一定認為「所有加入的物質都是反應物」。\n\n**本題一句話記憶：皂化靠「油＋鹼」，酒精幫忙混合，不是三者一起反應。**\n\nuser\n[原始附件 sediment://file_0000000015c482068ef1aa5c70385fb7?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n29@錯題\n\nassistant\n\n\nassistant\n# 第29題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：C（僅丙）</badge>\n\n<text color=\"secondary\" size=\"sm\">國中自然｜生物｜植物分類與花粉管</text>\n\n從照片判讀：**原選 A → 訂正 C**。\n\n## 一、原題關鍵\n\n題目：「表（六）為甲～丙三種不同植物的介紹，則由表中資訊判斷，哪些植物大多具有花粉管？」\n\n| 植物 | 原題提供的特徵 | 分類 |\n|---|---|---|\n| 甲 | 網狀葉脈、花瓣為5的倍數、以種子繁殖 | 雙子葉植物 |\n| 乙 | 地下莖、羽狀複葉、葉背有孢子囊堆 | 蕨類植物 |\n| 丙 | 針狀葉、種子裸露、有些種子具翅 | 裸子植物 |\n\n## 二、先釐清：甲也有花粉管！\n\n這題最重要的是避免把「裸子植物有花粉管」誤記成「只有裸子植物有花粉管」。\n\n<box border radius=\"lg\" padding={3} gap={3}>\n  <title size=\"md\">植物與花粉管的關係</title>\n  <grid columns={3} gap={2}>\n    <grid-item>\n      <AsyncImage query=\"flowering angiosperm five petal wildflower botanical close up\" aspectRatio=\"5:4\"/>\n      <text weight=\"medium\" textAlign=\"center\">甲｜被子植物</text>\n      <text color=\"success\" textAlign=\"center\" size=\"sm\">有花粉管 ✓</text>\n    </grid-item>\n    <grid-item>\n      <AsyncImage query=\"fern leaf underside sori spores macro photograph\" aspectRatio=\"5:4\"/>\n      <text weight=\"medium\" textAlign=\"center\">乙｜蕨類</text>\n      <text color=\"danger\" textAlign=\"center\" size=\"sm\">沒有花粉管 ✕</text>\n    </grid-item>\n    <grid-item>\n      <AsyncImage query=\"pine branch needle leaves pine cones close up\" aspectRatio=\"5:4\"/>\n      <text weight=\"medium\" textAlign=\"center\">丙｜裸子植物</text>\n      <text color=\"success\" textAlign=\"center\" size=\"sm\">有花粉管 ✓</text>\n    </grid-item>\n  </grid>\n</box>\n\n一般國中生物分類中：\n\n**種子植物（裸子植物、被子植物）通常具有花粉管；蕨類植物不具有花粉管。**\n\n因此應選 **甲、丙**，也就是 **D**。\n\n## 三、逐項檢查選項\n\n| 選項 | 內容 | 判斷 |\n|---|---|---|\n| A | 僅甲 | 錯，漏掉丙 |\n| B | 僅乙 | 錯，蕨類沒有花粉管 |\n| C | 僅丙 | 錯，漏掉甲 |\n| **D** | **僅甲、丙** | **正確** |\n\n## 四、這題的真正決勝點\n\n<box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n  <text weight=\"medium\">考場快速辨識</text>\n  **看到「種子繁殖」** → 想到種子植物 → 通常有花粉管。\n\n  **看到「孢子囊堆」** → 想到蕨類 → 沒有花粉管。\n\n  **看到「種子裸露」** → 想到裸子植物 → 通常有花粉管。\n</box>\n\n所以本題不是 C，而是 **D**。\n\n## 五、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題與選項 | 已核對照片 |\n| P0 答案 | **D（獨立判斷）** |\n| P1 甲、乙、丙分類 | 通過 |\n| P1 教材證據 | 尚未查核課本 |\n| 實際錯因 | 未提供作答思路，無法確定 |\n\n**特別提醒：**照片中的紅筆似乎將 A 訂正為 D；本題應以 D 為正確答案。上方一開始標示 C 是錯誤，已在解析中更正。\n\n**一句話記憶：有種子，通常有花粉管；靠孢子繁殖的蕨類，沒有花粉管。**\n\nuser\n[原始附件 sediment://file_0000000084148206879ef34feb58199a?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n38@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第38題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：A</badge>　<text color=\"secondary\" inline>國中自然｜化學｜酯化反應</text>\n\n照片顯示：**原選 B → 紅筆訂正 A**，與獨立判斷一致。\n\n## 一、原題與關鍵條件\n\n題目指出：\n\n「脂肪的主要成分為三酸甘油酯，三酸甘油酯為一個甘油（丙三醇）分子與三個脂肪酸分子經 X 反應所生成。」\n\n問：下列關於此化學反應的敘述何者正確？\n\n**決定性條件：甘油＋脂肪酸 → 三酸甘油酯＋水**\n\n這是**酯化反應**，不是酸鹼中和反應。\n\n## 二、核心觀念：酯化反應如何發生？\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <svg viewBox=\"0 0 340 190\" width=\"100%\">\n    <rect x=\"8\" y=\"10\" width=\"125\" height=\"52\" rx=\"9\" fill=\"#DBEAFE\"/>\n    <text x=\"70\" y=\"31\" fill=\"#1E40AF\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\">甘油</text>\n    <text x=\"70\" y=\"49\" fill=\"#1E40AF\" fontSize=\"12\" textAnchor=\"middle\">1 個分子</text>\n    <text x=\"151\" y=\"25\" fill=\"currentColor\" fontSize=\"23\">＋</text>\n    <rect x=\"188\" y=\"10\" width=\"144\" height=\"52\" rx=\"9\" fill=\"#FEF3C7\"/>\n    <text x=\"260\" y=\"31\" fill=\"#92400E\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\">脂肪酸</text>\n    <text x=\"260\" y=\"49\" fill=\"#92400E\" fontSize=\"12\" textAnchor=\"middle\">3 個分子</text>\n    <path d=\"M170 70 V98\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <path d=\"M163 92 L170 100 L177 92\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\"/>\n    <text x=\"185\" y=\"86\" fill=\"currentColor\" fontSize=\"12\">酯化反應</text>\n    <rect x=\"8\" y=\"110\" width=\"174\" height=\"62\" rx=\"9\" fill=\"#DCFCE7\"/>\n    <text x=\"95\" y=\"135\" fill=\"#166534\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\">三酸甘油酯</text>\n    <text x=\"95\" y=\"154\" fill=\"#166534\" fontSize=\"12\" textAnchor=\"middle\">脂肪的主要成分</text>\n    <text x=\"192\" y=\"145\" fontSize=\"21\" fill=\"currentColor\">＋</text>\n    <rect x=\"225\" y=\"110\" width=\"107\" height=\"62\" rx=\"9\" fill=\"#F3E8FF\"/>\n    <text x=\"278\" y=\"135\" fontSize=\"16\" fontWeight=\"bold\" textAnchor=\"middle\" fill=\"#6B21A8\">3H₂O</text>\n    <text x=\"278\" y=\"154\" fontSize=\"12\" textAnchor=\"middle\" fill=\"#6B21A8\">水</text>\n  </svg>\n</box>\n\n生成一個三酸甘油酯分子時，形成三個酯鍵，並產生三個水分子。\n\n## 三、四個選項逐項解析\n\n| 選項 | 原題描述 | 判斷 |\n|---|---|---|\n| **A** | 與乙醇＋醋酸生成乙酸乙酯及水的反應類似，均屬酯化反應 | <text color=\"success\" weight=\"medium\">正確</text> |\n| B | 與乙醇＋醋酸的反應類似，均屬酸鹼中和反應 | <text color=\"danger\" weight=\"medium\">錯</text> |\n| C | 與氫氧化鈉＋醋酸的反應類似，均屬酯化反應 | <text color=\"danger\" weight=\"medium\">錯</text> |\n| D | 與氫氧化鈉＋醋酸的反應類似，均屬酸鹼中和反應 | <text color=\"danger\" weight=\"medium\">錯</text> |\n\n乙醇＋醋酸：\n\n\\[\n\\mathrm{C_2H_5OH+CH_3COOH}\n\\]\n\n\\[\n\\mathrm{\\rightleftharpoons CH_3COOC_2H_5+H_2O}\n\\]\n\n這是酯化反應。\n\n氫氧化鈉＋醋酸：\n\n\\[\n\\mathrm{NaOH+CH_3COOH}\n\\]\n\n\\[\n\\mathrm{\\rightarrow CH_3COONa+H_2O}\n\\]\n\n這是酸鹼中和反應。\n\n## 四、B → A 二選一決勝辨析\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"danger\" weight=\"medium\">B｜原先誤選</text>\n      **酸鹼中和**\n\n      酸＋鹼\n\n      產生鹽和水\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"success\" weight=\"medium\">A｜正確答案</text>\n      **酯化反應**\n\n      醇＋羧酸\n\n      產生酯和水\n    </box>\n  </grid-item>\n</grid>\n\n最容易混淆的地方是：**兩種反應都可能產生水，但反應類型不同。**\n\n考場不要只看「有沒有產生水」，而要先比較反應物與生成物。\n\n## 五、考場快速判斷\n\n| 看到的關鍵組合 | 優先判斷 |\n|---|---|\n| 醇＋羧酸 → 酯＋水 | 酯化 |\n| 酸＋鹼 → 鹽＋水 | 酸鹼中和 |\n| 油脂＋強鹼 → 肥皂＋甘油 | 皂化 |\n\n## 六、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題與四個選項 | 已核對 |\n| P0 正確答案 | A，獨立判斷 |\n| P1 B與A關鍵差異 | 已辨析 |\n| P1 教材證據 | 尚未查核課本 |\n| P2 反應圖與方程式 | 已核對 |\n| 實際誤選原因 | 作答過程不足，不能確定 |\n\n**本題一句話記憶：醇＋酸生成酯，是酯化；酸＋鹼生成鹽，是中和。**\n\n這題與前面的第27題皂化反應可以建立概念連結：**酯化是在形成酯，皂化則是油脂在強鹼作用下生成肥皂和甘油。**\n\nuser\n[原始附件 sediment://file_000000003b808206b3a3123fa3fc4b53?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n39@錯題\n\nassistant\n\n\nassistant\n# 第39題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：D（綠蠵龜）</badge>\n\n<text color=\"secondary\" size=\"sm\">國中自然｜生物｜動物分類與生殖方式</text>\n\n照片判讀：原選 **A（山椒魚）→ 紅筆訂正 D（綠蠵龜）**。獨立判斷也是 D。\n\n## 一、鎖定原題三個條件\n\n康康手中的卡牌有三項特徵：\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <row align=\"center\" gap={3}>\n    <icon name=\"waves\" color=\"info\" size=\"lg\"/>\n    <box flex=\"1\" gap=0>\n      **成體生存環境**\n\n      主要為水域\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <icon name=\"egg\" color=\"secondary\" size=\"lg\"/>\n    <box flex=\"1\" gap=0>\n      **胚胎發育方式**\n\n      卵生\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <icon name=\"heart\" color=\"danger\" size=\"lg\"/>\n    <box flex=\"1\" gap=0>\n      **受精方式**\n\n      體內受精\n    </box>\n  </row>\n</box>\n\n**三個條件必須同時符合，不能只符合其中兩項。**\n\n## 二、逐項核對四個選項\n\n<box gap={3}>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"salamander amphibian underwater natural habitat close up\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **A｜兩生類的山椒魚**\n\n      - 成體：可生活於陸域或水域，依種類不同\n      - 卵生：✓\n      - 受精：依物種不同，許多山椒魚為體內受精\n\n      <text color=\"danger\" weight=\"medium\" size=\"sm\">不能僅憑兩生類身分就判定不符合；主要水域生活並非所有山椒魚的共同特徵。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"mosquito insect macro photo\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **B｜節肢動物門的蚊子**\n\n      - 成體主要生活於陸域及空中\n      - 卵生：✓\n      - 體內受精：✓\n\n      <text color=\"danger\" weight=\"medium\" size=\"sm\">不符合「成體主要生活於水域」。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"clownfish orange white anemonefish swimming underwater coral reef\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **C｜魚類的小丑魚**\n\n      - 成體主要生活於水域：✓\n      - 卵生：✓\n      - 通常為體外受精：✕\n\n      <text color=\"danger\" weight=\"medium\" size=\"sm\">關鍵不符合條件是「體內受精」。</text>\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"start\" gap={3}>\n    <AsyncImage query=\"green sea turtle Chelonia mydas swimming underwater ocean\" aspectRatio=\"1:1\" maxWidth=\"124px\"/>\n    <box flex=\"1\" gap={1}>\n      **D｜爬蟲類的綠蠵龜**\n\n      - 成體主要生活於水域：✓\n      - 在陸地產卵，屬卵生：✓\n      - 體內受精：✓\n\n      <text color=\"success\" weight=\"medium\" size=\"sm\">三項完全符合，正確答案 D。</text>\n    </box>\n  </row>\n</box>\n\n## 三、A → D 決勝辨析\n\n<grid columns={2} gap={2}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"danger\" weight=\"medium\">A｜山椒魚</text>\n      <AsyncImage query=\"salamander on damp moss in woodland macro photography\" aspectRatio=\"5:3\"/>\n      **兩生類**\n\n      生殖方式及成體棲地隨種類不同，不能概括成全部水生、全部體外受精。\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"success\" weight=\"medium\">D｜綠蠵龜</text>\n      <AsyncImage query=\"green sea turtle swimming clear blue underwater marine photograph\" aspectRatio=\"5:3\"/>\n      **爬蟲類**\n\n      海中生活、陸地產卵、體內受精，三條件直接成立。\n    </box>\n  </grid-item>\n</grid>\n\n**本題最重要的觀念：生活在水中，不代表一定在水中受精。**\n\n綠蠵龜雖然大部分時間生活在海中，卻是在體內完成受精，再上岸產卵。\n\n## 四、會考快速檢核\n\n| 生物 | 受精方式（常見代表） |\n|---|---|\n| 多數硬骨魚類 | 體外受精 |\n| 多數蛙類 | 體外受精 |\n| 爬蟲類 | 體內受精 |\n| 鳥類 | 體內受精 |\n| 哺乳類 | 體內受精 |\n\n注意：兩生類不能一概視為體外受精，山椒魚即有許多體內受精的種類。\n\n## 五、v2.1 品質驗收\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題三條件 | 通過 |\n| P0 四選項 | 通過 |\n| P0 正確答案 | D，獨立判斷 |\n| P1 A／D 辨析 | 已說明物種差異 |\n| P1 教材證據 | 尚未查核教材 |\n| P2 圖文一致性 | 圖片僅為物種示意 |\n| 實際錯因 | 無完整作答過程，不能判定 |\n\n**一句話記憶：海龜「海裡生活、體內受精、陸上產卵」；判斷動物生殖方式，不能只看牠住在哪裡。**\n\nuser\n[原始附件 sediment://file_00000000fc808206b2f22db866cfb2f4?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n6@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第6題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：D</badge>　<text color=\"secondary\" inline>國中國文｜字音辨析</text>\n\n照片顯示原選 **A → 紅筆訂正 D**，經逐項判讀，答案為 **D**。\n\n## 一、原題與四個選項\n\n題目：「下列文句『　』中的字，何者讀音正確？」\n\n| 選項 | 字詞 | 正確注音 | 判斷 |\n|---|---|---|---|\n| A | 「瞭」望臺 | ㄌㄧㄠˋ | <text color=\"danger\" weight=\"medium\">錯</text> |\n| B | 一「幢」老屋 | ㄉㄨㄥˋ | <text color=\"danger\" weight=\"medium\">錯</text> |\n| C | 占「卜」愛情運勢 | ㄅㄨˇ | <text color=\"danger\" weight=\"medium\">錯</text> |\n| **D** | **輕「佻」的態度** | **ㄊㄧㄠˊ** | <text color=\"success\" weight=\"medium\">正確</text> |\n\n照片上的手寫注音有些筆畫不夠清楚，以上以字詞的標準讀音核對，並依題目訂正標記判斷 D。\n\n## 二、A → D 關鍵辨析\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"danger\" weight=\"medium\">A｜瞭望</text>\n      <AsyncImage query=\"observation watchtower overlooking distant landscape\" aspectRatio=\"5:3\"/>\n      **瞭：ㄌㄧㄠˋ**\n\n      意思：從高處向遠方觀察。\n\n      與「了解」的「了」讀音不同。\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" radius=\"lg\" padding={3} gap={2}>\n      <text color=\"success\" weight=\"medium\">D｜輕佻</text>\n      <AsyncImage query=\"cartoon illustration person with flippant smug expression shrugging shoulders\" aspectRatio=\"5:3\"/>\n      **佻：ㄊㄧㄠˊ**\n\n      意思：言語、舉止不夠莊重。\n\n      與「挑選」的「挑」不同字。\n    </box>\n  </grid-item>\n</grid>\n\n## 三、容易混淆的字音\n\n| 字詞 | 注音 | 記憶重點 |\n|---|---|---|\n| 瞭望 | ㄌㄧㄠˋ ㄨㄤˋ | 向遠處觀察 |\n| 一幢房屋 | ㄧ ㄉㄨㄥˋ ㄈㄤˊ ㄨ | 幢作房屋量詞 |\n| 占卜 | ㄓㄢ ㄅㄨˇ | 預測吉凶 |\n| 輕佻 | ㄑㄧㄥ ㄊㄧㄠˊ | 言行不莊重 |\n\n## 四、會考二選一決勝技巧\n\n這題不適合只用字形猜讀音，應優先判斷**字在詞語中的意思與讀音**。\n\n例如「幢」用來計算房屋時，讀 ㄉㄨㄥˋ；不能把其他義項的讀音直接套進來。\n\n考場可用一句話檢核：\n\n**「這個字放進這個詞，讀音是否仍然相同？」**\n\n## 五、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題及四個選項 | 已核對 |\n| P0 正確答案 | D |\n| P1 字音辨析 | 已完成 |\n| P1 教材原文證據 | 尚未查核 |\n| 實際誤選原因 | 作答過程不足，無法確認 |\n\n**本題重點：瞭望 ㄌㄧㄠˋ、房屋一幢 ㄉㄨㄥˋ、占卜 ㄅㄨˇ、輕佻 ㄊㄧㄠˊ。**\n\nuser\n[原始附件 sediment://file_00000000024c820694b66d659b5c8328?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n14@錯題\n\nassistant\n\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第14題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：C</badge>　<text color=\"secondary\" inline>國中國文｜錯別字辨析</text>\n\n照片判讀：**原選 D → 紅筆訂正 C**。經重新放大原題、逐字核對，獨立判斷答案也是 **C**。\n\n## 一、原題四選項核對\n\n題目：「下列文句，何者用字完全正確？」\n\n| 選項 | 原題關鍵文字 | 判斷與訂正 |\n|---|---|---|\n| A | 文學「造音」很高 | <text color=\"danger\" weight=\"medium\">錯</text>：「造音」→「造詣」 |\n| B | 「擔誤」了我們上午的既定行程 | <text color=\"danger\" weight=\"medium\">錯</text>：「擔誤」→「耽誤」 |\n| **C** | **這件案子的「紕漏」** | <text color=\"success\" weight=\"medium\">正確，沒有錯字</text> |\n| D | 在「走頭無路」的絕境中 | <text color=\"danger\" weight=\"medium\">錯</text>：「走頭無路」→「走投無路」 |\n\n## 二、D → C 決勝辨析\n\n<grid columns={2} gap={3}>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"danger\" weight=\"medium\">D｜原先誤選</text>\n      <title size=\"lg\" color=\"danger\">走頭無路 ✕</title>\n      正確是：\n\n      **走投無路**\n\n      「投」有投奔、尋求出路的意思。\n\n      形容無路可走，陷入絕境。\n    </box>\n  </grid-item>\n  <grid-item>\n    <box background=\"surface-secondary\" padding={3} radius=\"lg\" gap={2}>\n      <text color=\"success\" weight=\"medium\">C｜正確選項</text>\n      <title size=\"lg\" color=\"success\">紕漏 ✓</title>\n      注音：ㄆㄧ ㄌㄡˋ\n\n      意思：疏失、差錯、漏洞。\n\n      例：工作出現紕漏，造成公司損失。\n    </box>\n  </grid-item>\n</grid>\n\n## 三、四組易錯字一次記住\n\n<box gap={2}>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"traditional Chinese scholar reading and writing books at wooden desk illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **造詣**（ㄗㄠˋ ㄧˋ）\n\n      學問、技藝達到的程度。記住是「詣」，不是「音」。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"heavy rain people waiting with umbrellas delayed travel illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **耽誤**（ㄉㄢ ㄨˋ）\n\n      因故延遲、拖延。記住是「耽」，不是「擔」。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"office worker discovering missing document error paperwork cartoon illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **紕漏**（ㄆㄧ ㄌㄡˋ）\n\n      做事出現疏失、漏洞。「紕」是糸部。\n    </box>\n  </row>\n  <divider color=\"subtle\"/>\n  <row align=\"center\" gap={3}>\n    <AsyncImage query=\"person standing at dead end of narrow alley brick wall illustration\" aspectRatio=\"1:1\" maxWidth=\"88px\"/>\n    <box flex=\"1\" gap={1}>\n      **走投無路**（ㄗㄡˇ ㄊㄡˊ ㄨˊ ㄌㄨˋ）\n\n      無處投奔、沒有出路。記住是「投」，不是「頭」。\n    </box>\n  </row>\n</box>\n\n## 四、考場快速檢核\n\n這類「用字完全正確」的題目，要注意：**常用詞看起來順眼，不代表每個字都正確。**\n\n本題只要抓住「走投無路」中的「投」，就能排除原先誤選的 D；再確認 C 的「紕漏」是正確詞語，即可選 C。\n\n## 五、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原題及四選項 | 已放大逐字核對 |\n| P0 正確答案 | C，獨立判斷 |\n| P1 D／C 關鍵差異 | 已完成 |\n| P1 教材原文查核 | 尚未查核 |\n| P2 圖文一致性 | 插畫為概念示意，不作文字證據 |\n| 實際錯因 | 尚無作答思路，不能確定 |\n\n**一句話記憶：學問有「造詣」、行程會「耽誤」、事情有「紕漏」、困境是「走投無路」。**\n\nuser\n[原始附件 sediment://file_00000000f1d08206a4962d5cfb599bb8?shared_conversation_id=6af323e8-1274-83ee-9f9a-7c355b64bdf3]\n24@錯題\n\nassistant\n\n\nassistant\n我先核對方格交點與三條路徑，尤其第 24 題的 C、D 選項，避免把圖上看似相連的線段誤當成同一直線。\n\nassistant\n\n\nassistant\n\n\nassistant\n\n\nassistant\n# 第24題｜@錯題 融合模式 v2.1\n\n<badge color=\"success\">正確答案：C</badge>　<text color=\"secondary\" inline>國中數學｜畢氏定理、三角不等式</text>\n\n照片判讀：原選 **B**，紅筆標記需要訂正。獨立驗算結果為 **C**。\n\n這題問的是「哪一個推論**錯誤**」，不是哪條路徑最短。\n\n## 一、原圖證據與座標確認\n\n<AsyncImage query=\"five by five square coordinate grid geometry mathematics textbook diagram simple\" aspectRatio=\"16:9\" fallback={<text color=\"secondary\">以下以原題照片中的方格圖為準。</text>}/>\n\n以 A 為原點，每格 1 公分，從原圖讀得：\n\n| 點 | 座標 | 點 | 座標 |\n|---|---|---|---|\n| A | (0,0) | E | (1,1) |\n| B | (5,5) | F | (3,4) |\n| C | (1,3) | G | (4,2) |\n| D | (2,4) | | |\n\n注意：**D → F 是水平線段，F → B 是斜線段，兩段並不共線。**\n\n## 二、四個選項逐項驗算\n\n**(A) ED＝GB：正確**\n\n\\[\nED=\\sqrt{1^2+3^2}=\\sqrt{10}\n\\]\n\n\\[\nGB=\\sqrt{1^2+3^2}=\\sqrt{10}\n\\]\n\n兩者相等。\n\n**(B) AC＋CD ＞ AG：正確**\n\n\\[\nAC+CD=\\sqrt{10}+\\sqrt2\\approx4.576\n\\]\n\n\\[\nAG=\\sqrt{4^2+2^2}=\\sqrt{20}\\approx4.472\n\\]\n\n因此 AC＋CD ＞ AG。\n\n**(C) DF＋FB ＜ GB：錯誤**\n\n\\[\nDF=1,\\qquad FB=\\sqrt{2^2+1^2}=\\sqrt5\n\\]\n\n\\[\nDF+FB=1+\\sqrt5\\approx3.236\n\\]\n\n\\[\nGB=\\sqrt{10}\\approx3.162\n\\]\n\n所以真正的關係是：\n\n\\[\n\\boxed{DF+FB>GB}\n\\]\n\n不是小於。**因此 C 是本題答案。**\n\n**(D) R₂ 最長：正確**\n\n三條路徑的實際長度：\n\n| 路徑 | 長度（公分） | 約值 |\n|---|---|---:|\n| R₁ | \\(2\\sqrt{10}+\\sqrt2\\) | 7.739 |\n| **R₂** | \\(\\sqrt2+\\sqrt{10}+1+\\sqrt5\\) | **7.813** |\n| R₃ | \\(2\\sqrt5+\\sqrt{10}\\) | 7.634 |\n\n因此 R₂ 確實最長。\n\n## 三、B → C 決勝辨析\n\n<box border radius=\"lg\" padding={3} gap={2}>\n  <svg viewBox=\"0 0 340 183\" width=\"100%\">\n    <path d=\"M58 139 L58 37 L274 37\" stroke=\"currentColor\" strokeWidth=\"1\" opacity=\".2\" fill=\"none\"/>\n    <path d=\"M58 139 L274 37\" stroke=\"#16A34A\" strokeWidth=\"3\" strokeDasharray=\"6 5\" fill=\"none\"/>\n    <path d=\"M58 139 L127 37 L274 37\" stroke=\"#2563EB\" strokeWidth=\"4\" fill=\"none\"/>\n    <circle cx=\"58\" cy=\"139\" r=\"5\" fill=\"#2563EB\"/>\n    <circle cx=\"127\" cy=\"37\" r=\"5\" fill=\"#2563EB\"/>\n    <circle cx=\"274\" cy=\"37\" r=\"5\" fill=\"#2563EB\"/>\n    <text x=\"41\" y=\"157\" fontSize=\"14\" fill=\"currentColor\">D</text>\n    <text x=\"122\" y=\"22\" fontSize=\"14\" fill=\"currentColor\">F</text>\n    <text x=\"277\" y=\"30\" fontSize=\"14\" fill=\"currentColor\">B</text>\n    <text x=\"175\" y=\"73\" fontSize=\"12\" fill=\"#16A34A\">DB 直線較短</text>\n    <text x=\"163\" y=\"27\" fontSize=\"12\" fill=\"#2563EB\">繞經 F 較長</text>\n  </svg>\n  <text color=\"secondary\" size=\"xs\">概念示意圖，非原題比例圖。</text>\n  **三角形兩邊和大於第三邊：**\n\n  \\[\n  DF+FB>DB\n  \\]\n\n  而原圖中 \\(DB=GB=\\sqrt{10}\\)，所以：\n\n  \\[\n  \\boxed{DF+FB>GB}\n  \\]\n</box>\n\n這是本題最快的判斷法：**不需要算出所有根號，先用三角不等式就能排除 C。**\n\n## 四、v2.1 品質檢核\n\n| 項目 | 結果 |\n|---|---|\n| P0 原圖交點核對 | 通過 |\n| P0 正確答案 | C，獨立驗算 |\n| P1 四選項數學驗證 | 通過 |\n| P1 B／C 差異 | 已辨析 |\n| P2 示意圖與推論 | 已標示為概念圖 |\n| 實際誤選原因 | 未見完整作答過程，無法確定 |\n\n**一句話記住：兩點之間直線最短；繞過第三點的折線一定更長（第三點不在線段上時）。**\n\n這題的關鍵不是根號計算，而是先辨認 **D、F、B 不在同一直線上**。\n\n---\n\n如果你願意，我可以：\n\n- 繼續分析第29題植物分類錯誤原因\n- 探討第38題酯化反應詳細機制\n- 分析第39題動物分類錯誤判斷要點"
+    },
+    {
+      "id": "src-more-067",
+      "url": "https://chatgpt.com/share/6af486d9-3a1c-83e8-92b6-5fdcd05923e3",
+      "status": "read",
+      "title": "錯題解析",
+      "platform": "ChatGPT",
+      "date": "2026-11-11",
+      "addedAt": "2026-11-11",
+      "note": "26筆真正使用者附件全部取得：25張原卷、1張圖解未顯示的介面截圖。25道指定原問逐題核對；新增18題、7題重複沿用既有ID與最早日期，不收入未提問題或AI自編內容。",
+      "transcript": "sources/6af486d9-3a1c-83e8-92b6-5fdcd05923e3.txt",
+      "images": [
+        "assets/originals/chatgpt-6af486d9-1-af4f4a81b59d.jpg",
+        "assets/originals/chatgpt-6af486d9-2-c0cb2832d179.jpg",
+        "assets/originals/chatgpt-6af486d9-3-3f313df4b03d.jpg",
+        "assets/originals/chatgpt-6af486d9-4-545ea0ef6d7f.jpg",
+        "assets/originals/chatgpt-6af486d9-5-4da2ad6f9e78.jpg",
+        "assets/originals/chatgpt-6af486d9-6-21b33907fd18.jpg",
+        "assets/originals/chatgpt-6af486d9-7-6e2ce104dd62.jpg",
+        "assets/originals/chatgpt-6af486d9-8-f1d670e02ca0.jpg",
+        "assets/originals/chatgpt-6af486d9-9-908bf05f4717.jpg",
+        "assets/originals/chatgpt-6af486d9-10-226260f17fb5.jpg",
+        "assets/originals/chatgpt-6af486d9-11-20bbedb656d6.jpg",
+        "assets/originals/chatgpt-6af486d9-12-537ae716f3a7.jpg",
+        "assets/originals/chatgpt-6af486d9-13-a986ca08c240.jpg",
+        "assets/originals/chatgpt-6af486d9-14-fdcbb900287e.jpg",
+        "assets/originals/chatgpt-6af486d9-16-3b580563c46b.jpg",
+        "assets/originals/chatgpt-6af486d9-17-ca1fb3f6e95e.jpg",
+        "assets/originals/chatgpt-6af486d9-18-6c5d7067a604.jpg",
+        "assets/originals/chatgpt-6af486d9-19-8dc461e71381.jpg",
+        "assets/originals/chatgpt-6af486d9-20-a5a457151b6b.jpg",
+        "assets/originals/chatgpt-6af486d9-21-4f463708d56c.jpg",
+        "assets/originals/chatgpt-6af486d9-22-aa8bce153583.jpg",
+        "assets/originals/chatgpt-6af486d9-23-96216fed68d6.jpg",
+        "assets/originals/chatgpt-6af486d9-24-81e2e77dbf9a.jpg",
+        "assets/originals/chatgpt-6af486d9-25-a5f60ae5fd95.jpg",
+        "assets/originals/chatgpt-6af486d9-26-0b0351eae4fd.jpg"
+      ],
+      "content": "完整211則對話及原AI程式碼已保存於transcript；本來源25道原問經查重新增18題，其餘7題沿用原題號。"
     }
   ],
   "questions": [
@@ -113378,7 +113417,2130 @@
           "三角不等式"
         ]
       }
+    },
+    {
+      "id": "q-1053",
+      "sourceId": "src-more-067",
+      "subject": "History",
+      "title": "歷史第2題｜北京兵變與袁世凱北方就職",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "曹錕出身貧窮家庭，日後投身軍旅，1895年轉奔袁世凱陣營受到提拔；辛亥革命之際，曾奉命率部隊進攻山西革命軍。隨著宣統皇帝退位，曹錕成為中華民國陸軍第三師師長，卻縱兵發動哪一事件，成為袁世凱拒絕赴南京就任大總統的藉口？\n(A) 二次革命\n(B) 北京兵變\n(C) 洪憲帝制\n(D) 武昌起事",
+      "answer": "(B) 北京兵變",
+      "correctOption": "B",
+      "explanation": "一、先定位政權交替\n題幹說清帝退位、袁世凱準備就任大總統，背景是1912年的政權交接。袁世凱希望留在自己掌握軍政勢力的北京，而不願到南京就職。\n\n二、兵變如何成為藉口\n曹錕所部在北京發生兵變，袁世凱以北方局勢不穩、需要留守維持秩序為由，拒絕南下，最後在北京就職。因此選B。這裡要找的是題幹所述兵變，不是後來稱帝的事件。\n\n三、排除其餘選項\nA二次革命發生於1913年，是反袁武裝行動，時間較晚。C洪憲帝制是袁世凱1915年底推動、1916年實施的帝制，不能與1912年就職混同。D武昌起事發生於1911年，推動清朝覆亡，發生在題幹清帝退位之前。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "民國建立",
+        "事件時序",
+        "北京兵變"
+      ],
+      "originalQuestionNumber": "2",
+      "sourceLabel": "分享原卷｜第2題",
+      "studentAnswer": "使用者原始紀錄：2@錯題A → B；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1053-original-c63c2aaa7150.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "北京兵變與袁世凱北方就職",
+        "art": "assets/comics/q-1053-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 政權交替的時間",
+            "text": "清帝已退位，袁世凱準備就任大總統，先鎖定1912年。",
+            "alt": "政權交替的時間",
+            "diagram": {
+              "kind": "flow",
+              "title": "政權交替的時間",
+              "items": [
+                {
+                  "label": "1911",
+                  "detail": "武昌起事",
+                  "tone": "blue"
+                },
+                {
+                  "label": "1912",
+                  "detail": "清帝退位、民國建立",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 兵變成為留京藉口",
+            "text": "曹錕部隊在北京兵變，袁世凱以北方局勢不穩為由留在北京就職。",
+            "alt": "兵變成為留京藉口",
+            "diagram": {
+              "kind": "flow",
+              "title": "兵變成為留京藉口",
+              "items": [
+                {
+                  "label": "北京兵變",
+                  "detail": "北方局勢不穩",
+                  "tone": "blue"
+                },
+                {
+                  "label": "拒赴南京",
+                  "detail": "最後留京就職",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 排除較晚的事件",
+            "text": "二次革命在1913年，洪憲帝制在1915年底至1916年；都不是1912年的兵變。",
+            "alt": "排除較晚的事件",
+            "diagram": {
+              "kind": "paths",
+              "title": "排除較晚的事件",
+              "items": [
+                {
+                  "label": "二次革命",
+                  "detail": "1913年",
+                  "tone": "blue"
+                },
+                {
+                  "label": "洪憲帝制",
+                  "detail": "1915～1916年",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "B 北京兵變"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 北京兵變",
+          "points": [
+            "1912年就職背景，選北京兵變。",
+            "武昌起事在前，二次革命與帝制在後。",
+            "時間與事件一起比對。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1054",
+      "sourceId": "src-more-067",
+      "subject": "History",
+      "title": "歷史第18題｜從學堂與通儒院判斷年代",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "附表是中國某時期的學制系統，根據表格內容判斷，應是哪一時期的教育制度？\n(A) 1850年代\n(B) 1900年代\n(C) 1950年代\n(D) 2000年代",
+      "answer": "(B) 1900年代",
+      "correctOption": "B",
+      "explanation": "一、用機構名稱辨認時期\n原表同時出現蒙養院、初等小學堂、高等小學堂、中學堂、大學堂及通儒院，是清末新式學制的用語，對應1900年代，選B。\n\n二、與清末教育改革連結\n清末學制改革參考近代學校制度，1904年頒行的癸卯學制把各級學堂接成系統；通儒院置於高等教育體系。不能因看到大學或小學，就把表格當成1950年後的現代學制。農曆癸卯年與西元公布年份跨年，判本題只須掌握清末1900年代，不必以年號名稱硬套西元1903年。\n\n三、逐項排除\n1850年代早於這套清末新學制；1950、2000年代的學校制度及名稱都不會整體沿用表中這些學堂名稱。B符合。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "清末教育",
+        "學制",
+        "讀表"
+      ],
+      "originalQuestionNumber": "18",
+      "sourceLabel": "分享原卷｜第18題",
+      "studentAnswer": "使用者原始紀錄：18@錯題c→b；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1054-original-870a35cbf935.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "tables": [
+        {
+          "caption": "原題學制系統",
+          "headers": [
+            "教育階段",
+            "教育機構"
+          ],
+          "rows": [
+            [
+              "初等教育",
+              "蒙養院、初等小學堂、高等小學堂"
+            ],
+            [
+              "中等教育",
+              "中學堂"
+            ],
+            [
+              "高等教育",
+              "高等學堂／大學預科、大學堂、通儒院"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "從學堂與通儒院判斷年代",
+        "art": "assets/comics/q-1054-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 先讀機構名稱",
+            "text": "蒙養院、學堂、通儒院，是清末新學制的重要辨識線索。",
+            "alt": "先讀機構名稱",
+            "diagram": {
+              "kind": "flow",
+              "title": "先讀機構名稱",
+              "items": [
+                {
+                  "label": "初等教育",
+                  "detail": "蒙養院、初等與高等小學堂",
+                  "tone": "blue"
+                },
+                {
+                  "label": "高等教育",
+                  "detail": "大學堂、通儒院",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 定位清末改革",
+            "text": "癸卯學制於1904年頒行，屬1900年代；農曆年名與西元公布年可能跨年。",
+            "alt": "定位清末改革",
+            "diagram": {
+              "kind": "flow",
+              "title": "定位清末改革",
+              "items": [
+                {
+                  "label": "清末教育改革",
+                  "detail": "建立近代學制",
+                  "tone": "blue"
+                },
+                {
+                  "label": "1904年",
+                  "detail": "頒行癸卯學制",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 用年代排除",
+            "text": "1850年代太早，1950與2000年代不會整體沿用原表的清末學堂名稱。",
+            "alt": "用年代排除",
+            "diagram": {
+              "kind": "paths",
+              "title": "用年代排除",
+              "items": [
+                {
+                  "label": "原表名稱",
+                  "detail": "學堂、通儒院",
+                  "tone": "blue"
+                },
+                {
+                  "label": "時代背景",
+                  "detail": "清末",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "B 1900年代"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 1900年代",
+          "points": [
+            "蒙養院、學堂、通儒院屬清末。",
+            "1904年頒行癸卯學制。",
+            "對應1900年代，選B。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1055",
+      "sourceId": "src-more-067",
+      "subject": "History",
+      "title": "歷史第21題｜以任期判斷上海發生的事件",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "附表是歷任淞滬護軍使名單，是負責上海、松江一帶以軍事為主兼管民政的地方長官，此時的上海各方勢力錯綜複雜，此一職位存續時間不長，不久就因軍閥派系鬥爭而裁撤。表中何豐林治理上海期間，曾遭逢下列哪一史事？\n(A) 宋教仁被刺殺身亡\n(B) 宣布參與第一次世界大戰\n(C) 中國共產黨的成立\n(D) 袁世凱營造恢復帝制輿論",
+      "answer": "(C) 中國共產黨的成立",
+      "correctOption": "C",
+      "explanation": "一、先從表格畫出時間範圍\n依原表，何豐林於1920年7月就職，下一任張允明於1924年10月14日就職。本題用表中前後任日期，判斷落在約1920～1924年間的事件；原印日期照留，不拿其他履歷版本改寫原表。\n\n二、把四件事放入年代\n宋教仁遇刺在1913年，中國宣布參加第一次世界大戰在1917年；袁世凱推動恢復帝制輿論主要在1915年，均早於表中任期。中國共產黨於1921年成立，第一次全國代表大會在上海召開，落在任期內，所以選C。\n\n三、讀表時的陷阱\n單看上海這個地名還不夠，宋教仁也在上海遇刺；必須同時檢查事件的年份。就職日提供的是判斷區間，不是要把事件日期猜成與就職同一天。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "時間軸",
+        "民國史",
+        "讀表"
+      ],
+      "originalQuestionNumber": "21",
+      "sourceLabel": "分享原卷｜第21題",
+      "studentAnswer": "使用者原始紀錄：21@錯題D→ C；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1055-original-dadbc287133b.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "tables": [
+        {
+          "caption": "歷任淞滬護軍使（依原表就職日照錄）",
+          "headers": [
+            "姓名",
+            "就職日"
+          ],
+          "rows": [
+            [
+              "楊善德",
+              "1915/11/11"
+            ],
+            [
+              "盧永祥",
+              "1917/01/01"
+            ],
+            [
+              "何豐林",
+              "1920/07"
+            ],
+            [
+              "張允明",
+              "1924/10/14"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "以任期判斷上海發生的事件",
+        "art": "assets/comics/q-1055-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 從任期畫出區間",
+            "text": "依原表何豐林1920年7月就職，下任於1924年10月就職。",
+            "alt": "從任期畫出區間",
+            "diagram": {
+              "kind": "flow",
+              "title": "從任期畫出區間",
+              "items": [
+                {
+                  "label": "1920/07",
+                  "detail": "何豐林就職",
+                  "tone": "blue"
+                },
+                {
+                  "label": "1924/10/14",
+                  "detail": "下一任就職",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 將事件放入時間軸",
+            "text": "中共於1921年成立，落在1920～1924年間，且最初大會在上海召開。",
+            "alt": "將事件放入時間軸",
+            "diagram": {
+              "kind": "flow",
+              "title": "將事件放入時間軸",
+              "items": [
+                {
+                  "label": "任期起點",
+                  "detail": "1920年",
+                  "tone": "blue"
+                },
+                {
+                  "label": "中共成立",
+                  "detail": "1921年",
+                  "tone": "gold"
+                },
+                {
+                  "label": "任期終點",
+                  "detail": "1924年",
+                  "tone": "green"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 地點相同還要查時間",
+            "text": "宋教仁遇刺在1913年，參加一戰在1917年，袁世凱帝制宣傳在1915年前後。",
+            "alt": "地點相同還要查時間",
+            "diagram": {
+              "kind": "paths",
+              "title": "地點相同還要查時間",
+              "items": [
+                {
+                  "label": "1913／1915／1917",
+                  "detail": "早於何豐林任期",
+                  "tone": "blue"
+                },
+                {
+                  "label": "1921",
+                  "detail": "落在任期內",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "C 中共成立"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 中國共產黨的成立",
+          "points": [
+            "依原表任期約1920～1924年。",
+            "1921年中共成立落在區間內。",
+            "不能只看同在上海，還要核年份。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1056",
+      "sourceId": "src-more-067",
+      "subject": "Chinese",
+      "title": "國文第19題｜依報導規則判讀輪胎日期",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "根據這則報導，小諾看到爸爸在1990年拍攝的照片，照片中車子四個輪胎上的「DOT」字樣後的號碼如下，當時哪一個輪胎已經過期？\n(A) 8638\n(B) 8849\n(C) 8350\n(D) 9001",
+      "answer": "(C) 8350",
+      "correctOption": "C",
+      "explanation": "一、以本文明訂規則解碼\n這是閱讀題，原文規定四碼的前兩碼為製造年份後兩數，後兩碼為當年第幾週。因此8638是1986年第38週，8849是1988年第49週，8350是1983年第50週，9001是1990年第1週。\n\n二、比較照片年份與五年保存期限\n拍照年是1990年。A約3～4年、B約1～2年、D不足1年，都未超過文中五年期限。C在1983年底製造，到1990年已超過6年，確定超過五年，因此選C。1990−5＝1985可作快速比較，但若製造年恰為1985，仍需看週數；本題只有1983年的C明確超過期限。\n\n三、避免反向選擇\n題目問已過期，應找較早製造者；D的9001數值大，表示本文規則下的1990年，不是最舊。\n\n四、閱讀規則與現實制度分開\n原文將四碼解釋成年份在前、週數在後，屬本題給定規則。解題照文意，不把這套編排或1997年的示例當作所有實際輪胎的DOT日期碼標準。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "閱讀理解",
+        "編碼",
+        "時間判讀"
+      ],
+      "originalQuestionNumber": "19",
+      "sourceLabel": "分享原卷｜第19題",
+      "studentAnswer": "使用者原始紀錄：19@錯題D→ C；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1056-original-766600df3d14.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "passage": "一般輪胎的保存期限約五年，過了此期限，即使輪胎未使用，表面也會有龜裂產生的危險。而很多店家都會用快過期的舊輪胎來促銷，消費者雖省了鈔票，卻賠上了安全，不可不慎重選擇！輪胎製造日期要如何辨別呢？輪胎的製造日期通常都標示在「DOT」字樣的後方，通常是：西元年（後兩位數）＋第幾週（兩位數），以9742為例，即表示在1997年的第42週所製（一年約52週）。所以，買便宜的輪胎也要在保存期限內才安全！",
+      "teachingComic": {
+        "title": "依報導規則判讀輪胎日期",
+        "art": "assets/comics/q-1056-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 照文章規則拆碼",
+            "text": "本文規定前兩碼是年份、後兩碼是週數；8350就是1983年第50週。",
+            "alt": "照文章規則拆碼",
+            "diagram": {
+              "kind": "paths",
+              "title": "照文章規則拆碼",
+              "items": [
+                {
+                  "label": "83",
+                  "detail": "1983年",
+                  "tone": "blue"
+                },
+                {
+                  "label": "50",
+                  "detail": "當年第50週",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "8350：1983年第50週"
+            }
+          },
+          {
+            "heading": "② 與照片年份比較",
+            "text": "照片拍於1990年，1983年底製造的輪胎已超過六年，超過文中五年期限。",
+            "alt": "與照片年份比較",
+            "diagram": {
+              "kind": "flow",
+              "title": "與照片年份比較",
+              "items": [
+                {
+                  "label": "1983年底",
+                  "detail": "C輪胎製造",
+                  "tone": "blue"
+                },
+                {
+                  "label": "1990年",
+                  "detail": "照片拍攝",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 逐項核對而非比大小",
+            "text": "A是1986年、B是1988年、D是1990年；只有C的1983年明確超過期限。",
+            "alt": "逐項核對而非比大小",
+            "diagram": {
+              "kind": "paths",
+              "title": "逐項核對而非比大小",
+              "items": [
+                {
+                  "label": "A／B／D",
+                  "detail": "未超過五年",
+                  "tone": "blue"
+                },
+                {
+                  "label": "C：1983年",
+                  "detail": "已超過五年",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "C 8350"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 8350",
+          "points": [
+            "依本文規則，8350是1983年第50週。",
+            "到1990年已超過文中五年期限。",
+            "現實DOT編碼與本題規則須分清。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1057",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第3題｜台地埤塘與桃園的產業轉型",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "「此地因地勢稍高且表面平坦導致地下水偏少，自清代就有農民為求灌溉水源穩定而廣挖埤塘蓄水，今日因產業轉型發展工業帶動人口移入，許多埤塘被填土作為都市與工業用地，甚至在發展綠能風潮下，現有許多埤塘加蓋太陽能發電板，卻影響池塘與鳥類生態，這是經濟與綠能發展vs生態保護兩難的問題。」上述報導應是圖（二）中哪個地區的現象？\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 丁",
+      "answer": "(D) 丁",
+      "correctOption": "D",
+      "explanation": "一、從地形與水利辨識地區\n原文結合地勢稍高而平坦、農業灌溉埤塘，以及工業與都市發展，是桃園台地的代表線索。依圖（二）的點位，丁在臺灣西北部桃園一帶，選D。\n\n二、埤塘的功能與變遷\n台地表面不易直接取得穩定地表水，農民挖埤塘儲水供灌溉。後來人口、工業與都市用地增加，部分埤塘被填平；文中又談光電利用與鳥類、池塘生態的取捨。不能只看到太陽能或工業，就忽略題幹一開始的台地與埤塘。\n\n三、逐點排除\n甲位於西南部，乙在西部中段，丙在丁的南方一帶；依原圖桃園台地所對應的是丁。判斷以本題標點為準，不把同一張臺灣圖上別題的甲乙丙丁位置套進來。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "臺灣地形",
+        "台地",
+        "埤塘"
+      ],
+      "originalQuestionNumber": "3",
+      "sourceLabel": "分享原卷｜第3題",
+      "studentAnswer": "使用者原始紀錄：3@錯題c→ D；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1057-original-e749bdd2b1c3.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1057-figure-6e9df387f24a.jpg",
+          "alt": "原卷第3題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "台地埤塘與桃園的產業轉型",
+        "art": "assets/comics/q-1057-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 台地加埤塘",
+            "text": "地勢稍高而平坦、挖埤塘儲水，是桃園台地的辨識組合。",
+            "alt": "台地加埤塘",
+            "diagram": {
+              "kind": "paths",
+              "title": "台地加埤塘",
+              "items": [
+                {
+                  "label": "台地",
+                  "detail": "較高而平坦",
+                  "tone": "blue"
+                },
+                {
+                  "label": "埤塘",
+                  "detail": "蓄水供農業灌溉",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "桃園台地"
+            }
+          },
+          {
+            "heading": "② 再核對產業變化",
+            "text": "工業、人口與都市用地增加，使部分埤塘填平；光電又帶來生態取捨。",
+            "alt": "再核對產業變化",
+            "diagram": {
+              "kind": "flow",
+              "title": "再核對產業變化",
+              "items": [
+                {
+                  "label": "原有農業用水",
+                  "detail": "埤塘儲水",
+                  "tone": "blue"
+                },
+                {
+                  "label": "都市與工業發展",
+                  "detail": "用地及生態改變",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 最後對照原圖",
+            "text": "原圖丁在臺灣西北部桃園一帶；不能只因看到工業，就忽略台地與埤塘。",
+            "alt": "最後對照原圖",
+            "diagram": {
+              "kind": "paths",
+              "title": "最後對照原圖",
+              "items": [
+                {
+                  "label": "地形與水利",
+                  "detail": "桃園台地",
+                  "tone": "blue"
+                },
+                {
+                  "label": "圖中位置",
+                  "detail": "丁",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "D 丁"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 丁",
+          "points": [
+            "台地與埤塘合看，定位桃園。",
+            "再核對工業、都市與生態轉變。",
+            "依原圖選丁，不套其他圖標點。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1058",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第4題｜從日出與斷崖定位龜山島",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "立槳（sup）為近期海上熱門活動，臺灣海域也成為活動的熱門場域。婉萱在體驗完立槳後於生活日誌中記錄：「從海上一邊看著日出，一邊看著中央山脈的起點，以及斷崖峭壁的壯麗海景，感受臺灣野性之美。」婉萱從事活動的海域還可能看見哪一座島嶼景觀？\n(A) 原圖A：24.84°N，121.95°E\n(B) 原圖B：24.45°N，118.37°E\n(C) 原圖C：26.15°N，119.91°E\n(D) 原圖D：22.33°N，120.36°E",
+      "answer": "(A) 原圖A（龜山島）",
+      "correctOption": "A",
+      "explanation": "一、先用景觀定位海域\n題幹把日出、中央山脈起點、斷崖峭壁合在一起，指向臺灣東北部至東部海岸的海景情境，不能只憑海上活動就選任何離島。宜蘭外海的龜山島最符合，選A。\n\n二、用經緯度交叉核對\nA約24.84°N、121.95°E，在宜蘭外海，島形也符合龜山島。B約24.45°N、118.37°E，在金門；C約26.15°N、119.91°E，在馬祖；D約22.33°N、120.36°E，在屏東外海小琉球。\n\n三、排除原選D\n小琉球位於臺灣西南側，與題幹東北、東岸的山脈及斷崖線索不符。A除了島形，也與座標、海岸位置一致；原題四幅圖及座標完整保留，不用輔助示意取代原圖。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "經緯度",
+        "臺灣離島",
+        "海岸景觀"
+      ],
+      "originalQuestionNumber": "4",
+      "sourceLabel": "分享原卷｜第4題",
+      "studentAnswer": "使用者原始紀錄：4@錯題D→ A；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1058-original-4d53b5877037.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1058-figure-bd0cf30f8df5.jpg",
+          "alt": "原卷第4題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "從日出與斷崖定位龜山島",
+        "art": "assets/comics/q-1058-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 景觀先定位海域",
+            "text": "日出、中央山脈起點與斷崖，合在一起指向東北部至東部海岸。",
+            "alt": "景觀先定位海域",
+            "diagram": {
+              "kind": "flow",
+              "title": "景觀先定位海域",
+              "items": [
+                {
+                  "label": "日出與斷崖",
+                  "detail": "東向海岸線索",
+                  "tone": "blue"
+                },
+                {
+                  "label": "中央山脈起點",
+                  "detail": "臺灣東北一帶",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 座標交叉檢查",
+            "text": "A約24.84°N、121.95°E，在宜蘭外海，符合龜山島。",
+            "alt": "座標交叉檢查",
+            "diagram": {
+              "kind": "paths",
+              "title": "座標交叉檢查",
+              "items": [
+                {
+                  "label": "北緯24.84°",
+                  "detail": "宜蘭附近緯度",
+                  "tone": "blue"
+                },
+                {
+                  "label": "東經121.95°",
+                  "detail": "臺灣東北外海",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "A 龜山島"
+            }
+          },
+          {
+            "heading": "③ 別把西南離島混入",
+            "text": "B為金門、C為馬祖，D為小琉球；D在臺灣西南側，與題述海岸不合。",
+            "alt": "別把西南離島混入",
+            "diagram": {
+              "kind": "paths",
+              "title": "別把西南離島混入",
+              "items": [
+                {
+                  "label": "B／C",
+                  "detail": "金門／馬祖",
+                  "tone": "blue"
+                },
+                {
+                  "label": "D",
+                  "detail": "西南側小琉球",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "東北外海選A"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(A) 原圖A（龜山島）",
+          "points": [
+            "景觀指向東北、東部海岸。",
+            "A座標在宜蘭外海龜山島。",
+            "小琉球在西南側，不合題意。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1059",
+      "sourceId": "src-more-067",
+      "subject": "History",
+      "title": "歷史第8題｜由自治與緩派軍隊訴求辨認二二八",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "表（一）是兩份報刊中針對某事提出的處理建議，依據兩份報刊的內容判斷，這應該是針對下列何事提出的建議？\n(A) 臺灣議會設置處理方針\n(B) 二二八事件的社會衝突\n(C) 打破白色恐怖政治禁忌\n(D) 爭取自由的美麗島事件",
+      "answer": "(B) 二二八事件的社會衝突",
+      "correctOption": "B",
+      "explanation": "一、兩份報刊共同的要求\n原表提到請中央緩派軍隊、依憲法實施省自治、廢除長官公署、提升臺人參政及改革專賣制度。這些線索對應1947年二二八事件中，地方代表處理衝突及要求政治改革的背景，選B。\n\n二、長官公署是關鍵時代線索\n戰後初期臺灣由行政長官公署治理。二二八事件期間，處理委員會與地方人士提出自治、人事及專賣制度等改革要求；表中的軍隊與改革訴求須合併判讀。\n\n三、逐項排除\nA臺灣議會設置運動屬日治時期，與戰後長官公署的背景不同。C白色恐怖政治禁忌與D美麗島事件涉及後來威權統治、民主化及人權議題，不能取代1947年當下的處理建議。不要因表中出現自治，就忽略其餘軍事與行政制度線索。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "戰後臺灣",
+        "二二八",
+        "史料判讀"
+      ],
+      "originalQuestionNumber": "8",
+      "sourceLabel": "分享原卷｜第8題",
+      "studentAnswer": "使用者原始紀錄：8@錯題A → B；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1059-original-2b1a66971257.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "tables": [
+        {
+          "caption": "表（一）兩份報刊的處理建議",
+          "headers": [
+            "報刊一",
+            "報刊二"
+          ],
+          "rows": [
+            [
+              "1. 請中樞緩派軍隊\n2. 根據憲法臺灣立即實施省自治",
+              "1. 廢除長官公署\n2. 實施省自治\n3. 提升臺人參政\n4. 改革專賣制度"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "由自治與緩派軍隊訴求辨認二二八",
+        "art": "assets/comics/q-1059-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 先抓制度名稱",
+            "text": "原表出現長官公署、專賣制度及臺人參政，先定位戰後初期臺灣。",
+            "alt": "先抓制度名稱",
+            "diagram": {
+              "kind": "flow",
+              "title": "先抓制度名稱",
+              "items": [
+                {
+                  "label": "長官公署",
+                  "detail": "戰後初期行政制度",
+                  "tone": "blue"
+                },
+                {
+                  "label": "專賣與參政",
+                  "detail": "政治改革要求",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 把軍事與自治合看",
+            "text": "緩派軍隊、省自治與改革公署等要求，對應1947年二二八事件的處理建議。",
+            "alt": "把軍事與自治合看",
+            "diagram": {
+              "kind": "paths",
+              "title": "把軍事與自治合看",
+              "items": [
+                {
+                  "label": "緩派軍隊",
+                  "detail": "處理當時衝突",
+                  "tone": "blue"
+                },
+                {
+                  "label": "省自治、改革公署",
+                  "detail": "政治改革訴求",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "1947年 二二八事件"
+            }
+          },
+          {
+            "heading": "③ 按時代排除",
+            "text": "議會設置運動在日治時期；白色恐怖與美麗島事件屬後來不同政治脈絡。",
+            "alt": "按時代排除",
+            "diagram": {
+              "kind": "paths",
+              "title": "按時代排除",
+              "items": [
+                {
+                  "label": "日治時期",
+                  "detail": "議會設置運動",
+                  "tone": "blue"
+                },
+                {
+                  "label": "戰後初期",
+                  "detail": "二二八事件",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "B 二二八事件"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 二二八事件的社會衝突",
+          "points": [
+            "長官公署定位戰後初期。",
+            "緩派軍隊與自治訴求合看。",
+            "1947年二二八事件，選B。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1060",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第17題｜日本海側冬季大雪",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "NHK電視新聞報導：日本某地因連日大雪，積雪竟然將民宅壓垮、鐵路軌道埋沒，長達數公里的車輛陷入積雪動彈不得超過40小時，甚至被形容為「立往生」（進退不得，無法動彈之意）。報導中冬季經常降下大雪的地點，位於圖（九）中何處？\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 丁",
+      "answer": "(C) 丙",
+      "correctOption": "C",
+      "explanation": "一、先找迎風面\n冬季來自亞洲大陸的寒冷季風吹向日本，經過日本海時取得水氣，遇本州山地抬升，在日本海側形成豐富降雪。本題圖（九）丙位於本州的日本海側，選C。\n\n二、不是只比緯度高低\n甲在北海道，雖也有雪，但題目要比較圖中地點的冬季經常性大雪與季風、地形組合；丙的日本海迎風側最具代表。乙位於本州太平洋側，越過山脈的氣流較乾；丁在較南的九州地區，都不如丙符合。\n\n三、完整因果順序\n大陸冷空氣 → 經日本海增添水氣 → 迎風坡抬升冷卻 → 日本海側降雪。不能說冬季大陸季風一開始就暖濕，也不把所有日本沿海都視為相同迎風面。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "日本",
+        "冬季季風",
+        "迎風坡"
+      ],
+      "originalQuestionNumber": "17",
+      "sourceLabel": "分享原卷｜第17題",
+      "studentAnswer": "使用者原始紀錄：17@錯題A→ C；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1060-original-2c0fc728797e.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1060-figure-a6e4f48c62dc.jpg",
+          "alt": "原卷第17題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "日本海側冬季大雪",
+        "art": "assets/comics/q-1060-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 冷空氣先經過海面",
+            "text": "冬季大陸寒冷季風通過日本海，從海面取得水氣。",
+            "alt": "冷空氣先經過海面",
+            "diagram": {
+              "kind": "flow",
+              "title": "冷空氣先經過海面",
+              "items": [
+                {
+                  "label": "亞洲大陸",
+                  "detail": "寒冷氣流",
+                  "tone": "blue"
+                },
+                {
+                  "label": "日本海",
+                  "detail": "增添水氣",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 迎風坡抬升降雪",
+            "text": "濕冷空氣遇本州山地抬升，冷卻後在日本海側形成豐富降雪。",
+            "alt": "迎風坡抬升降雪",
+            "diagram": {
+              "kind": "flow",
+              "title": "迎風坡抬升降雪",
+              "items": [
+                {
+                  "label": "日本海側",
+                  "detail": "迎風坡抬升",
+                  "tone": "blue"
+                },
+                {
+                  "label": "山地降雪",
+                  "detail": "形成厚積雪",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 核對丙的位置",
+            "text": "丙位於本州日本海側；乙在太平洋側，丁較南。甲雖也有雪，本題選代表性迎風側。",
+            "alt": "核對丙的位置",
+            "diagram": {
+              "kind": "paths",
+              "title": "核對丙的位置",
+              "items": [
+                {
+                  "label": "本州日本海側",
+                  "detail": "丙",
+                  "tone": "blue"
+                },
+                {
+                  "label": "太平洋側",
+                  "detail": "越山後較乾",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "C 丙"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 丙",
+          "points": [
+            "大陸冷氣流經日本海取得水氣。",
+            "遇山抬升，在日本海側降雪。",
+            "原圖丙最符合，選C。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1061",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第19題｜馬格里布與地中海型生活",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "馬格里布（Maghreb），阿拉伯語意為「日落之地」或「西方之島」，古代原指亞特拉斯山脈以西的地區，柏柏爾人是當地主要的民族。根據圖（十）的山脈位置判斷，下列何者最有可能是聚居在此的柏柏爾人之生活寫照？\n(A) 夏季炎熱乾燥，但之後就會進入陰雨的半年\n(B) 夏季太陽輻射強烈，但是氣候卻是相當涼爽\n(C) 隨著乾溼季節出現牛、羊牲畜的季節性遷徙\n(D) 每天下午下完雷陣雨就是一天最舒適的時候",
+      "answer": "(A) 夏季炎熱乾燥，但之後就會進入陰雨的半年",
+      "correctOption": "A",
+      "explanation": "一、依題圖定位西北非沿海\n圖（十）的亞特拉斯山脈位於非洲西北部，題幹指其以西的馬格里布。國中區域地理在這裡主要連結北非沿海的地中海型氣候，特徵是夏乾冬雨，選A。\n\n二、氣候的季節變化\n夏季受副熱帶高氣壓影響，較炎熱乾燥；冬半年西風帶影響增強，較易帶來降水。A用生活描述呈現乾燥夏季之後進入較多雨的半年，符合題意；不是說冬季每天必定下雨。\n\n三、排除其餘選項\nB的夏季相當涼爽不符題目的主要區域特徵。C是以牲畜隨乾溼季遷徙的描述，較接近草原遊牧或牧業的季節移動，並非本題最直接的氣候辨識。D每日午後雷陣雨不是本區夏季乾燥特徵。區域內仍有山地與乾燥內陸差異，不能把選項A當作所有柏柏爾居住地完全一致的實況。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "北非",
+        "地中海型氣候",
+        "夏乾冬雨"
+      ],
+      "originalQuestionNumber": "19",
+      "sourceLabel": "分享原卷｜第19題",
+      "studentAnswer": "使用者原始紀錄：19@錯題c→ A；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1061-original-57322028e564.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1061-figure-211d3ab8b6c9.jpg",
+          "alt": "原卷第19題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "馬格里布與地中海型生活",
+        "art": "assets/comics/q-1061-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 馬格里布在西北非",
+            "text": "題圖的亞特拉斯山脈定位非洲西北部，題幹連結其以西地區。",
+            "alt": "馬格里布在西北非",
+            "diagram": {
+              "kind": "flow",
+              "title": "馬格里布在西北非",
+              "items": [
+                {
+                  "label": "亞特拉斯山脈",
+                  "detail": "非洲西北部",
+                  "tone": "blue"
+                },
+                {
+                  "label": "馬格里布",
+                  "detail": "地中海沿海區域線索",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 夏乾冬雨配生活",
+            "text": "夏季副熱帶高壓較強，炎熱乾燥；冬半年西風帶帶來較多降雨。",
+            "alt": "夏乾冬雨配生活",
+            "diagram": {
+              "kind": "flow",
+              "title": "夏乾冬雨配生活",
+              "items": [
+                {
+                  "label": "夏半年",
+                  "detail": "炎熱乾燥",
+                  "tone": "blue"
+                },
+                {
+                  "label": "冬半年",
+                  "detail": "較多陰雨",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 不是天天午後雷雨",
+            "text": "午後常見雷陣雨不符此地的地中海型季節分配；原題最佳描述是A。",
+            "alt": "不是天天午後雷雨",
+            "diagram": {
+              "kind": "paths",
+              "title": "不是天天午後雷雨",
+              "items": [
+                {
+                  "label": "判斷重點",
+                  "detail": "雨季在冬半年",
+                  "tone": "blue"
+                },
+                {
+                  "label": "原題A",
+                  "detail": "夏乾、之後陰雨半年",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "A 夏乾冬雨"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(A) 夏季炎熱乾燥，但之後就會進入陰雨的半年",
+          "points": [
+            "先定位西北非亞特拉斯一帶。",
+            "地中海型夏乾冬雨。",
+            "選A，不是每天午後雷雨。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1062",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第7題｜由開羅氣候圖判讀熱帶沙漠",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "某地位於尼羅河三角洲頂點，是伊斯蘭世界最大的都市。附圖為此地的氣候圖，依圖中內容判斷，其氣候類型為何？\n(A) 高地氣候\n(B) 熱帶沙漠氣候\n(C) 溫帶季風氣候\n(D) 溫帶地中海型氣候",
+      "answer": "(B) 熱帶沙漠氣候",
+      "correctOption": "B",
+      "explanation": "一、先讀數據\n原圖年均溫21.4°C、年降水量僅26 mm，月降水柱全年都很低，顯示最突出的特徵是極乾燥。本題位置指向開羅，教材分類選B熱帶沙漠氣候。\n\n二、地點有河流，不代表當地多雨\n開羅靠尼羅河獲取水源，但河水可來自上游降雨，不能因位於河流三角洲頂點，就把當地氣候判成多雨。氣候類型仍應依當地氣溫與降水判讀。\n\n三、排除A、C、D\n高地氣候需有高海拔的降溫等條件，原圖不支持。溫帶季風與地中海型都不會像原圖全年總雨量只有26 mm；地中海型尤其應有明顯冬雨。本題熱帶沙漠是教材區域分類名稱，並非聲稱每個月均溫都超過18°C。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "氣候圖",
+        "開羅",
+        "沙漠氣候"
+      ],
+      "originalQuestionNumber": "7",
+      "sourceLabel": "分享原卷｜第7題",
+      "studentAnswer": "使用者原始紀錄：7@錯題c→ B；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1062-original-b71eecfe94ce.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1062-figure-35fee275dca5.jpg",
+          "alt": "原卷第7題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "由開羅氣候圖判讀熱帶沙漠",
+        "art": "assets/comics/q-1062-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 先讀全年總雨量",
+            "text": "原圖年均溫21.4°C、年雨量26 mm，最突出的是全年極乾燥。",
+            "alt": "先讀全年總雨量",
+            "diagram": {
+              "kind": "paths",
+              "title": "先讀全年總雨量",
+              "items": [
+                {
+                  "label": "年均溫",
+                  "detail": "21.4°C",
+                  "tone": "blue"
+                },
+                {
+                  "label": "年降水量",
+                  "detail": "僅26 mm",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "全年少雨"
+            }
+          },
+          {
+            "heading": "② 有河不等於當地多雨",
+            "text": "開羅靠尼羅河取得水源；上游流來的河水不能代替當地氣候數據。",
+            "alt": "有河不等於當地多雨",
+            "diagram": {
+              "kind": "flow",
+              "title": "有河不等於當地多雨",
+              "items": [
+                {
+                  "label": "尼羅河水",
+                  "detail": "可來自上游",
+                  "tone": "blue"
+                },
+                {
+                  "label": "當地氣候",
+                  "detail": "仍依當地雨量判斷",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 排除應有雨季的類型",
+            "text": "溫帶季風與地中海型都有較明顯雨季；圖中全年少雨符合教材熱帶沙漠類型。",
+            "alt": "排除應有雨季的類型",
+            "diagram": {
+              "kind": "paths",
+              "title": "排除應有雨季的類型",
+              "items": [
+                {
+                  "label": "原圖全年",
+                  "detail": "月雨量都很低",
+                  "tone": "blue"
+                },
+                {
+                  "label": "教材分類",
+                  "detail": "熱帶沙漠氣候",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "B 熱帶沙漠"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 熱帶沙漠氣候",
+          "points": [
+            "年雨量僅26 mm，全年極乾燥。",
+            "河水不代表當地降雨多。",
+            "教材分類選B熱帶沙漠。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1063",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第8題｜馬利帝國與撒哈拉商路",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "13至17世紀在「甲地」西方曾建立馬利帝國，是古代重要的伊斯蘭文化與經濟中心，設有泥土建造的清真寺與學校。馬利帝國因控制沙漠的商路而強盛，內陸的黃金、西側緊臨大西洋生產的食鹽、自南方掠奪的黑人奴隸是主要的貿易商品。上述的甲地是何處？\n(A) 伊朗高原\n(B) 阿拉伯半島\n(C) 撒哈拉沙漠\n(D) 安納托力亞高原",
+      "answer": "(C) 撒哈拉沙漠",
+      "correctOption": "C",
+      "explanation": "一、找馬利與跨沙漠貿易\n題幹最具辨識力的線索是西非馬利帝國、沙漠商路，以及黃金和食鹽的交換。馬利位於撒哈拉沙漠南緣的西非區域，與跨撒哈拉貿易關係密切，因此甲地選C撒哈拉沙漠。\n\n二、文化與商品合併判讀\n清真寺、學校及伊斯蘭文化不只出現在阿拉伯半島，也傳到北非與西非，不能只看到伊斯蘭就選B。原題對貿易商品及年代的表述照留；本題的核心是以區域和商路定位。\n\n三、逐項排除\n伊朗高原、阿拉伯半島、安納托力亞高原都位於西亞一帶，不符合馬利帝國與西非跨沙漠商路。C可把地名、宗教文化與貿易網絡連在一起。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "西非",
+        "馬利帝國",
+        "跨撒哈拉貿易"
+      ],
+      "originalQuestionNumber": "8",
+      "sourceLabel": "分享原卷｜第8題",
+      "studentAnswer": "使用者原始紀錄：8@錯題b→ C；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1063-original-e925ee9303c4.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "馬利帝國與撒哈拉商路",
+        "art": "assets/comics/q-1063-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 馬利先定位西非",
+            "text": "馬利帝國、沙漠商路與黃金食鹽貿易，合起來指向西非。",
+            "alt": "馬利先定位西非",
+            "diagram": {
+              "kind": "flow",
+              "title": "馬利先定位西非",
+              "items": [
+                {
+                  "label": "馬利帝國",
+                  "detail": "西非區域",
+                  "tone": "blue"
+                },
+                {
+                  "label": "黃金與食鹽",
+                  "detail": "跨沙漠貿易",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 串起撒哈拉商路",
+            "text": "馬利位於撒哈拉南緣，與穿越撒哈拉的商業網絡密切相關。",
+            "alt": "串起撒哈拉商路",
+            "diagram": {
+              "kind": "flow",
+              "title": "串起撒哈拉商路",
+              "items": [
+                {
+                  "label": "北非",
+                  "detail": "跨撒哈拉商路",
+                  "tone": "blue"
+                },
+                {
+                  "label": "西非馬利",
+                  "detail": "沙漠南緣經濟中心",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 伊斯蘭不只在西亞",
+            "text": "清真寺不能單獨推出阿拉伯半島；其餘三選項皆在西亞，與馬利區域不符。",
+            "alt": "伊斯蘭不只在西亞",
+            "diagram": {
+              "kind": "paths",
+              "title": "伊斯蘭不只在西亞",
+              "items": [
+                {
+                  "label": "A／B／D",
+                  "detail": "西亞地區",
+                  "tone": "blue"
+                },
+                {
+                  "label": "C 撒哈拉",
+                  "detail": "對應西非商路",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "C 撒哈拉沙漠"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 撒哈拉沙漠",
+          "points": [
+            "馬利是西非帝國。",
+            "商業網絡穿越撒哈拉。",
+            "伊斯蘭文化不能單推阿拉伯半島。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1064",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第13題｜亞特拉斯山脈與摩洛哥氣候",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "位在非洲西北部的摩洛哥有「北非花園」、「烈日下的清涼國土」的別稱，該國擁有較北方溫暖、較南方涼爽的氣候，而此特徵的產生除了緯度較歐洲低，還與甲地阻隔南方沙漠熱浪的侵襲有關。上述的「甲地」為何處？\n(A) 阿拉伯高原\n(B) 東非大裂谷\n(C) 亞特拉斯山脈\n(D) 安納托力亞高原",
+      "answer": "(C) 亞特拉斯山脈",
+      "correctOption": "C",
+      "explanation": "一、先定位摩洛哥\n摩洛哥在非洲西北部，南方、東南方接近撒哈拉沙漠。穿越摩洛哥等西北非國家的亞特拉斯山脈，是本題描述的地形屏障，因此選C。\n\n二、山脈如何影響氣候\n山地會改變氣流移動，迎風坡可攔截海上水氣，較高海拔也有降溫作用；在本題教材的區域比較中，山脈並有助減弱南方沙漠熱乾空氣對北部的影響。這不是一堵完全封閉的牆，不能說沙漠空氣絕對無法越過，也不能用單一因素解釋全國所有地點的氣候。\n\n三、逐項排除\n阿拉伯高原、安納托力亞高原位於西亞；東非大裂谷位於非洲東部，都不在摩洛哥南側的題述位置。由摩洛哥→西北非→亞特拉斯山脈的定位順序，比只記熱或冷更可靠。\n\n四、來源圖片的處理\n原對話另有圖解未載入的介面截圖，它不是原卷。本題保留真正原卷，另製可直接讀取的地形與氣流關係圖，不沿用空白來源圖。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "摩洛哥",
+        "亞特拉斯山脈",
+        "地形與氣候"
+      ],
+      "originalQuestionNumber": "13",
+      "sourceLabel": "分享原卷｜第13題",
+      "studentAnswer": "使用者原始紀錄：13@錯題D → C；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1064-original-a706c080ed6d.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "亞特拉斯山脈與摩洛哥氣候",
+        "art": "assets/comics/q-1064-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 摩洛哥定位西北非",
+            "text": "先找到非洲西北角的摩洛哥，南方與東南方靠近撒哈拉。",
+            "alt": "摩洛哥定位西北非",
+            "diagram": {
+              "kind": "flow",
+              "title": "摩洛哥定位西北非",
+              "items": [
+                {
+                  "label": "摩洛哥",
+                  "detail": "非洲西北部",
+                  "tone": "blue"
+                },
+                {
+                  "label": "撒哈拉",
+                  "detail": "在其南方、東南方",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 山脈改變氣流與高度",
+            "text": "亞特拉斯山脈可攔截水氣，海拔也能降溫，並減弱部分熱乾氣流影響。",
+            "alt": "山脈改變氣流與高度",
+            "diagram": {
+              "kind": "flow",
+              "title": "山脈改變氣流與高度",
+              "items": [
+                {
+                  "label": "海上濕氣",
+                  "detail": "遇山抬升",
+                  "tone": "blue"
+                },
+                {
+                  "label": "山地屏障",
+                  "detail": "影響氣流與溫度",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 區域比熱冷字眼可靠",
+            "text": "阿拉伯、安納托力亞在西亞，東非裂谷在非洲東部；只有亞特拉斯位置相符。",
+            "alt": "區域比熱冷字眼可靠",
+            "diagram": {
+              "kind": "paths",
+              "title": "區域比熱冷字眼可靠",
+              "items": [
+                {
+                  "label": "題幹地點",
+                  "detail": "西北非摩洛哥",
+                  "tone": "blue"
+                },
+                {
+                  "label": "符合山脈",
+                  "detail": "亞特拉斯",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "C 亞特拉斯山脈"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 亞特拉斯山脈",
+          "points": [
+            "摩洛哥位於非洲西北部。",
+            "亞特拉斯影響氣流、水氣與高度。",
+            "屏障不是完全阻絕空氣的牆。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1065",
+      "sourceId": "src-more-067",
+      "subject": "Geography",
+      "title": "地理第16題｜西風帶與北非山地降水",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "亞特拉斯山攔截「盛行風」自海上帶來的水氣，為氣候乾燥的突尼西亞、阿爾及利亞等國提供寶貴的水源。上述的「盛行風」應為下列何者？\n(A) 東北季風\n(B) 西南季風\n(C) 西北季風\n(D) 盛行西風",
+      "answer": "(D) 盛行西風",
+      "correctOption": "D",
+      "explanation": "一、先分清盛行風帶與亞洲季風\n北非地中海沿岸冬半年受中緯度西風帶影響，可從海上帶入水氣。濕空氣遇亞特拉斯山地抬升冷卻，形成地形降水，故選D盛行西風。\n\n二、為何不是西南季風\n西南季風是臺灣、南亞及東亞夏季常見的季風線索，不能只因風吹自海上、帶有水氣，就把所有地方都套成西南季風。此題位置在西北非及地中海沿岸，應先判區域與緯度風帶。\n\n三、四選項的差別\nA、B、C是季風名稱；D是中緯度行星風帶。亞特拉斯山地可以截留部分水氣，並不表示題幹所列國家的所有地點都多雨。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "北非",
+        "盛行西風",
+        "地形雨"
+      ],
+      "originalQuestionNumber": "16",
+      "sourceLabel": "分享原卷｜第16題",
+      "studentAnswer": "使用者原始紀錄：16@錯題B → D；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1065-original-cad68550fbab.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "西風帶與北非山地降水",
+        "art": "assets/comics/q-1065-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 先看區域與季節",
+            "text": "北非地中海沿岸冬半年受中緯度西風帶影響，海上水氣隨風移入。",
+            "alt": "先看區域與季節",
+            "diagram": {
+              "kind": "flow",
+              "title": "先看區域與季節",
+              "items": [
+                {
+                  "label": "冬半年",
+                  "detail": "西風帶影響",
+                  "tone": "blue"
+                },
+                {
+                  "label": "海上氣流",
+                  "detail": "帶來水氣",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 濕氣遇山抬升",
+            "text": "亞特拉斯山地攔截部分濕氣，氣流抬升冷卻，形成降水。",
+            "alt": "濕氣遇山抬升",
+            "diagram": {
+              "kind": "flow",
+              "title": "濕氣遇山抬升",
+              "items": [
+                {
+                  "label": "帶水氣的西風",
+                  "detail": "遇到山地",
+                  "tone": "blue"
+                },
+                {
+                  "label": "抬升冷卻",
+                  "detail": "地形降水",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "③ 不直接套亞洲季風",
+            "text": "東北、西南、西北季風都不是本題要找的中緯度盛行風帶名稱。",
+            "alt": "不直接套亞洲季風",
+            "diagram": {
+              "kind": "paths",
+              "title": "不直接套亞洲季風",
+              "items": [
+                {
+                  "label": "地點",
+                  "detail": "北非地中海沿岸",
+                  "tone": "blue"
+                },
+                {
+                  "label": "風帶",
+                  "detail": "盛行西風",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "D 盛行西風"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 盛行西風",
+          "points": [
+            "北非冬半年受西風帶影響。",
+            "海上水氣遇山抬升降水。",
+            "選盛行西風，不套亞洲季風。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1066",
+      "sourceId": "src-more-067",
+      "subject": "English",
+      "title": "英文第2題｜金額加short表示還差多少",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "I want to buy a gift for my mother’s birthday, but I am still fifty dollars ______. Can you lend me some money?\n(A) short\n(B) enough\n(C) convenient\n(D) real",
+      "answer": "(A) short",
+      "correctOption": "A",
+      "explanation": "一、從借錢的下文判斷\n說話者想買生日禮物，接著請對方借錢，表示手上的錢還不夠。be＋金額＋short表示還差該金額，所以fifty dollars short是還差五十元，選A。\n\n二、short在此不是形容身高\nshort除了短、矮，也可形容數量不足。金額fifty dollars放在short前面，說明差額；不必把原句擅改成只有short of才正確。全句意思是：我想買禮物給媽媽過生日，但還差五十元，你能借我一些錢嗎？\n\n三、排除其他選項\nenough表示足夠，與後句借錢的語意不合，原位置也不是本題的自然用法。convenient是方便的，real是真實的，都不能表達差五十元。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "形容詞",
+        "short",
+        "語境判斷"
+      ],
+      "originalQuestionNumber": "2",
+      "sourceLabel": "分享原卷｜第2題",
+      "studentAnswer": "使用者原始紀錄：2@錯題B→ A；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1066-original-62f8f8f29798.jpg"
+      ],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "金額加short表示還差多少",
+        "art": "assets/comics/q-1066-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 借錢透露錢還不夠",
+            "text": "想買媽媽的生日禮物，接著請人借錢，表示有差額。",
+            "alt": "借錢透露錢還不夠",
+            "diagram": {
+              "kind": "flow",
+              "title": "借錢透露錢還不夠",
+              "items": [
+                {
+                  "label": "想買禮物",
+                  "detail": "需要足夠金額",
+                  "tone": "blue"
+                },
+                {
+                  "label": "Can you lend me…",
+                  "detail": "目前還缺錢",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 金額放在short前",
+            "text": "be fifty dollars short表示還差五十元；short在此是數量不足。",
+            "alt": "金額放在short前",
+            "diagram": {
+              "kind": "paths",
+              "title": "金額放在short前",
+              "items": [
+                {
+                  "label": "fifty dollars",
+                  "detail": "差額五十元",
+                  "tone": "blue"
+                },
+                {
+                  "label": "short",
+                  "detail": "不足",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "還差五十元"
+            }
+          },
+          {
+            "heading": "③ 用語意排除其他字",
+            "text": "enough是足夠，convenient是方便，real是真實；都不合原句與借錢語境。",
+            "alt": "用語意排除其他字",
+            "diagram": {
+              "kind": "paths",
+              "title": "用語意排除其他字",
+              "items": [
+                {
+                  "label": "原句位置",
+                  "detail": "金額＋short",
+                  "tone": "blue"
+                },
+                {
+                  "label": "後句語境",
+                  "detail": "請人借錢",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "A short"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(A) short",
+          "points": [
+            "後句借錢，表示金額不足。",
+            "be＋金額＋short表示還差多少。",
+            "fifty dollars short＝還差五十元。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1067",
+      "sourceId": "src-more-067",
+      "subject": "English",
+      "title": "英文第29題｜由影評配對正確電影海報",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "Which picture is right?\n(A) 原圖A：The Aliens（飛碟中的外星角色）\n(B) 原圖B：Robot Crazy（抱著地球、神情嚴肅的機器人）\n(C) 原圖C：Robot Crazy（開心活動的機器人）\n(D) 原圖D：The Shy Boy（機器人旁有愛心）",
+      "answer": "(C) 原圖C：Robot Crazy（開心活動的機器人）",
+      "correctOption": "C",
+      "explanation": "一、將片名、內容與影評一起核對\nThe Aliens的外星訪客不友善，影評說很可怕，是帶有驚嚇氣氛的科幻片。The Shy Boy寫Roxy暗戀好友Rosa，屬愛情故事。Robot Crazy寫未來城市中的機器人Zax行為古怪、鬧出麻煩，並以Laugh out loud與I laughed so much強調喜劇、歡笑。\n\n二、比較原題四張海報\nC的Robot Crazy片名與歡樂、活潑機器人形象，最符合文中的喜劇線索，因此選C。A把The Aliens畫成可愛、輕鬆的飛碟角色，未呼應不友善與驚嚇的主調。B雖片名正確，但嚴肅地抱著地球的形象不如C直接呈現喜劇感。D的片名是人類暗戀故事The Shy Boy，卻配機器人，與內容不符。\n\n三、這是最佳配對，不是從單一圖示猜故事\n原文沒有說The Aliens會以任何特定外形出現，也沒有說Robot Crazy不能有其他情節。本題依已提供的四幅海報比較，以片名及主要情緒共同判斷；不自行補上機器人拯救或毀滅地球的劇情。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。 原卷核對證據依序拼接三篇完整影評、單字註解與第29題四海報；中間白邊分隔，不收入未提問的第28、30題。",
+      "tags": [
+        "閱讀理解",
+        "影評",
+        "圖文配對"
+      ],
+      "originalQuestionNumber": "29",
+      "sourceLabel": "分享原卷｜第29題",
+      "studentAnswer": "使用者原始紀錄：29@錯題A → C；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1067-original-0ea2aaf9ea9d.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1067-figure-a0a39d64b9b3.jpg",
+          "alt": "原卷第29題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "passage": "The Aliens\nMany years ago, there were some alien visitors to the planet Earth. Now the aliens are coming back, and they aren’t very friendly! Don’t see this movie by yourself if you get scared easily.\nThe critics say, “The special effects were great. I was so scared!” “A wonderful science fiction film!”\n\nThe Shy Boy\nRoxy is in love with his best friend, Rosa. But Rosa doesn’t know it because Roxy is shy, and doesn’t tell her. This movie is for fans of romance... and a happy ending!\nThe critics say, “The movie was happy and sad. The ending was great.” “The story wasn’t very good, but the acting was great.”\n\nRobot Crazy\nIn the city of Future, robots live with people. But one robot, Zax, turns strange and starts making a mess. Can the people stop Zax before it is too late? Laugh out loud with this robot!\nThe critics say, “I laughed so much. The story was exciting.” “Even if you are not a fan of robot stories, you are sure to love this one.”",
+      "tables": [
+        {
+          "caption": "原卷單字註解",
+          "headers": [
+            "單字／片語",
+            "中文"
+          ],
+          "rows": [
+            [
+              "alien",
+              "外星人"
+            ],
+            [
+              "effect",
+              "效果"
+            ],
+            [
+              "science fiction film",
+              "科幻片"
+            ],
+            [
+              "romance",
+              "浪漫"
+            ],
+            [
+              "mess",
+              "混亂"
+            ]
+          ]
+        }
+      ],
+      "teachingComic": {
+        "title": "由影評配對正確電影海報",
+        "art": "assets/comics/q-1067-art-62f6de3cdc.svg",
+        "panels": [
+          {
+            "heading": "① 片名先與故事配對",
+            "text": "The Aliens有不友善訪客；The Shy Boy是Roxy暗戀Rosa，不是機器人戀愛。",
+            "alt": "片名先與故事配對",
+            "diagram": {
+              "kind": "flow",
+              "title": "片名先與故事配對",
+              "items": [
+                {
+                  "label": "The Aliens",
+                  "detail": "驚嚇、科幻",
+                  "tone": "blue"
+                },
+                {
+                  "label": "The Shy Boy",
+                  "detail": "人類暗戀、愛情",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "依序判讀"
+            }
+          },
+          {
+            "heading": "② 喜劇線索最直接",
+            "text": "Robot Crazy的故事與影評出現Laugh out loud和I laughed so much，強調歡笑。",
+            "alt": "喜劇線索最直接",
+            "diagram": {
+              "kind": "paths",
+              "title": "喜劇線索最直接",
+              "items": [
+                {
+                  "label": "Robot Crazy",
+                  "detail": "機器人鬧出麻煩",
+                  "tone": "blue"
+                },
+                {
+                  "label": "影評關鍵",
+                  "detail": "I laughed so much",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "喜劇與歡樂感"
+            }
+          },
+          {
+            "heading": "③ 四圖取最佳配對",
+            "text": "C的片名和歡樂機器人最吻合；B嚴肅、D片名與機器人角色不符，A主調不合。",
+            "alt": "四圖取最佳配對",
+            "diagram": {
+              "kind": "paths",
+              "title": "四圖取最佳配對",
+              "items": [
+                {
+                  "label": "片名",
+                  "detail": "Robot Crazy",
+                  "tone": "blue"
+                },
+                {
+                  "label": "畫面情緒",
+                  "detail": "歡樂、活潑",
+                  "tone": "gold"
+                }
+              ],
+              "arrow": "結合線索",
+              "target": "C 最吻合"
+            }
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 原圖C：Robot Crazy（開心活動的機器人）",
+          "points": [
+            "故事與影評共同判讀。",
+            "Robot Crazy強調喜劇與歡笑。",
+            "C片名、角色及情緒最吻合。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1068",
+      "sourceId": "src-more-067",
+      "subject": "Math",
+      "title": "數學第2題｜跨兩個三角形比較最短邊",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "如右圖，四邊形ABCD中，∠B＝59°，∠D＝61°，∠ACB＝∠CAD＝60°，則四邊形ABCD中哪一條邊最短？\n(A) AB\n(B) BC\n(C) CD\n(D) AD",
+      "answer": "(D) AD",
+      "correctOption": "D",
+      "explanation": "一、沿共同邊AC分成兩個三角形\n在△ABC中，∠A＝180°−59°−60°＝61°。大角對大邊，所以AC（對59°）＜AB（對60°）＜BC（對61°）。\n\n二、在△ACD再比較一次\n∠ACD＝180°−61°−60°＝59°，因此AD（對59°）＜CD（對60°）＜AC（對61°）。\n\n三、用共同邊串接\n把兩串不等式接起來：AD＜CD＜AC＜AB＜BC。題目只問四邊形的邊，AC是輔助比較用的對角線；四條邊中最短是AD，選D。\n\n四、避免跨三角形直接比角\n不能只看B點59°，就把它對面的線段當成整個四邊形最短邊。大角對大邊需在同一個三角形內使用，再藉共同邊AC連接兩次比較。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "三角形邊角關係",
+        "共同邊",
+        "不等式"
+      ],
+      "originalQuestionNumber": "2",
+      "sourceLabel": "分享原卷｜第2題",
+      "studentAnswer": "使用者原始紀錄：2@錯題A → D；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1068-original-61f768370504.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1068-figure-320d3a3c2497.jpg",
+          "alt": "原卷第2題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "跨兩個三角形比較最短邊",
+        "art": "assets/comics/q-1068-art-0046eb2ae3.svg",
+        "panels": [
+          {
+            "heading": "① 先在ABC比邊",
+            "text": "∠A＝61°，所以AC對59°、AB對60°、BC對61°，得AC＜AB＜BC。",
+            "alt": "先在ABC比邊",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          },
+          {
+            "heading": "② 再在ACD比邊",
+            "text": "∠C＝59°，所以AD對59°、CD對60°、AC對61°，得AD＜CD＜AC。",
+            "alt": "再在ACD比邊",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          },
+          {
+            "heading": "③ 用共同邊串接",
+            "text": "兩次都在同一個三角形內比邊，再以共同邊AC接起來：AD＜CD＜AC＜AB＜BC。",
+            "alt": "用共同邊串接",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) AD",
+          "points": [
+            "△ABC：AC＜AB＜BC。",
+            "△ACD：AD＜CD＜AC。",
+            "串接得AD最短，選D。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1069",
+      "sourceId": "src-more-067",
+      "subject": "Math",
+      "title": "數學第3題｜角平分線作圖的SSS依據",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "如右圖，小安利用尺規作∠AOB角平分線的完成圖。若連接CE、DE，則由他的作圖過程知△OCE≅△ODE，判斷這是根據哪一個全等性質？\n(A) SSS\n(B) SAS\n(C) ASA\n(D) RHS",
+      "answer": "(A) SSS",
+      "correctOption": "A",
+      "explanation": "一、由尺規作圖取得兩組等長\n以O為圓心、同一半徑畫弧，分別交兩射線於C、D，因此OC＝OD。再以C、D為圓心、同一半徑畫弧交於E，因此CE＝DE。\n\n二、第三組是共用邊\n△OCE與△ODE共用OE，故OE＝OE。三組對應邊皆相等：OC＝OD、CE＝DE、OE＝OE，所以由SSS判定全等，選A。\n\n三、不把結論當前提\nSAS需要夾角相等，但∠COE＝∠EOD正是由全等得到的角平分結論，不能先假設它成立再用來證明。ASA同樣沒有足夠的已知角，RHS則需先有直角三角形，本題並未給直角。\n\n四、證明方向\n同半徑作圖 → 三組邊等長 → SSS全等 → 對應角相等 → OE為角平分線。依此順序才沒有循環論證。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "尺規作圖",
+        "SSS",
+        "角平分線"
+      ],
+      "originalQuestionNumber": "3",
+      "sourceLabel": "分享原卷｜第3題",
+      "studentAnswer": "使用者原始紀錄：3@錯題B→ A；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1069-original-7df8575f9a42.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1069-figure-d70e58de8f42.jpg",
+          "alt": "原卷第3題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "角平分線作圖的SSS依據",
+        "art": "assets/comics/q-1069-art-57a636f32c.svg",
+        "panels": [
+          {
+            "heading": "① 同半徑得第一組邊",
+            "text": "以O為圓心用同一半徑作弧，交兩射線於C、D，所以OC＝OD。",
+            "alt": "同半徑得第一組邊",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          },
+          {
+            "heading": "② 第二組加共用邊",
+            "text": "以C、D為圓心同半徑作弧交E，所以CE＝DE；又OE是共用邊。",
+            "alt": "第二組加共用邊",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          },
+          {
+            "heading": "③ 三邊相等才推出角等",
+            "text": "OC＝OD、CE＝DE、OE＝OE，由SSS全等才得到角平分，不能先假設夾角相等。",
+            "alt": "三邊相等才推出角等",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          }
+        ],
+        "fourth": {
+          "answer": "(A) SSS",
+          "points": [
+            "同半徑作弧：OC＝OD、CE＝DE。",
+            "共用邊OE＝OE，三邊相等。",
+            "先SSS全等，再推出角平分。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-1070",
+      "sourceId": "src-more-067",
+      "subject": "Math",
+      "title": "數學第11題｜垂直平分線轉換小三角形周長",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-11",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-11",
+      "question": "如右圖，△ABC中，AB＝AC，直線DE為AB的垂直平分線。若△BCE的周長為25，BC＝10，則△ABC的周長為何？\n(A) 35\n(B) 40\n(C) 45\n(D) 50",
+      "answer": "(B) 40",
+      "correctOption": "B",
+      "explanation": "一、先用垂直平分線找等距\nE在AB的垂直平分線上，所以EA＝EB。原圖E在AC上，因此AC＝AE＋EC＝BE＋EC。\n\n二、把小三角形周長換成大三角形的一邊\n△BCE周長＝BE＋EC＋BC＝25，而BC＝10，所以BE＋EC＝15。由上一段知AC＝15，又AB＝AC，所以AB＝15。\n\n三、求大三角形周長\nAB＋AC＋BC＝15＋15＋10＝40，選B。A、C、D分別為35、45、50，均不符合推導的兩腰15、底邊10。\n\n四、圖示關係也要正確\nD必須是AB中點，DE必須垂直AB，E必須在AC上，且AE＝BE。原AI示意圖的D位置與線段方向並未同時滿足這些條件，不能因標非比例就接受錯誤關係；本題另製滿足全部幾何條件的精確圖。原卷學生的手寫數字保留，但不將其當成新的已知條件。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已實開真正上傳原卷及本題裁切，核對完整題幹、四選項與必要閱讀文／圖表。未提供實際考試日期，採本題首次對話台灣日期；無可確認冊次、教材課次證據，歸綜合。",
+      "tags": [
+        "垂直平分線",
+        "等距",
+        "周長"
+      ],
+      "originalQuestionNumber": "11",
+      "sourceLabel": "分享原卷｜第11題",
+      "studentAnswer": "使用者原始紀錄：11@錯題D → B；原筆跡保留於下方原卷。",
+      "images": [
+        "assets/originals/q-1070-original-68d535e60cdf.jpg"
+      ],
+      "questionFigures": [
+        {
+          "src": "assets/questions/q-1070-figure-fc222cddba3a.jpg",
+          "alt": "原卷第11題的必要圖形或圖形選項。",
+          "caption": "原卷作答附圖裁切；未重繪、未補入解答。"
+        }
+      ],
+      "explanationFigures": [],
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "diagram": "",
+      "contentStatus": "完整原題",
+      "teachingComic": {
+        "title": "垂直平分線轉換小三角形周長",
+        "art": "assets/comics/q-1070-art-9935506009.svg",
+        "panels": [
+          {
+            "heading": "① 垂直平分線給等距",
+            "text": "E在AB的垂直平分線上，所以EA＝EB；D是AB中點，DE垂直AB。",
+            "alt": "垂直平分線給等距",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          },
+          {
+            "heading": "② 將折線換成一條腰",
+            "text": "E在AC上，所以AC＝AE＋EC＝BE＋EC；小三角形周長25扣BC的10，得到AC＝15。",
+            "alt": "將折線換成一條腰",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          },
+          {
+            "heading": "③ 兩腰各15再加底",
+            "text": "AB＝AC＝15，因此大三角形周長15＋15＋10＝40。不能把學生手寫數字當已知。",
+            "alt": "兩腰各15再加底",
+            "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 40",
+          "points": [
+            "垂直平分線給EA＝EB。",
+            "AC＝BE＋EC＝25−10＝15。",
+            "兩腰15、底10，周長40。"
+          ]
+        }
+      }
     }
   ],
-  "dataUpdatedAt": "2026-11-10T14:18:01+00:00"
+  "dataUpdatedAt": "2026-11-11T15:40:33+00:00"
 }

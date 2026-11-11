@@ -1,0 +1,123 @@
+{
+  "id": "q-1059",
+  "subject": "History",
+  "title": "由自治與緩派軍隊訴求辨認二二八",
+  "art": "docs/comics/art/q-1059-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1059-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、兩份報刊共同的要求\n原表提到請中央緩派軍隊、依憲法實施省自治、廢除長官公署、提升臺人參政及改革專賣制度。這些線索對應1947年二二八事件中，地方代表處理衝突及要求政治改革的背景，選B。\n\n二、長官公署是關鍵時代線索\n戰後初期臺灣由行政長官公署治理。二二八事件期間，處理委員會與地方人士提出自治、人事及專賣制度等改革要求；表中的軍隊與改革訴求須合併判讀。\n\n三、逐項排除\nA臺灣議會設置運動屬日治時期，與戰後長官公署的背景不同。C白色恐怖政治禁忌與D美麗島事件涉及後來威權統治、民主化及人權議題，不能取代1947年當下的處理建議。不要因表中出現自治，就忽略其餘軍事與行政制度線索。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 先抓制度名稱",
+      "text": "原表出現長官公署、專賣制度及臺人參政，先定位戰後初期臺灣。",
+      "alt": "先抓制度名稱",
+      "diagram": {
+        "kind": "flow",
+        "title": "先抓制度名稱",
+        "items": [
+          {
+            "label": "長官公署",
+            "detail": "戰後初期行政制度",
+            "tone": "blue"
+          },
+          {
+            "label": "專賣與參政",
+            "detail": "政治改革要求",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 把軍事與自治合看",
+      "text": "緩派軍隊、省自治與改革公署等要求，對應1947年二二八事件的處理建議。",
+      "alt": "把軍事與自治合看",
+      "diagram": {
+        "kind": "paths",
+        "title": "把軍事與自治合看",
+        "items": [
+          {
+            "label": "緩派軍隊",
+            "detail": "處理當時衝突",
+            "tone": "blue"
+          },
+          {
+            "label": "省自治、改革公署",
+            "detail": "政治改革訴求",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "1947年 二二八事件"
+      }
+    },
+    {
+      "heading": "③ 按時代排除",
+      "text": "議會設置運動在日治時期；白色恐怖與美麗島事件屬後來不同政治脈絡。",
+      "alt": "按時代排除",
+      "diagram": {
+        "kind": "paths",
+        "title": "按時代排除",
+        "items": [
+          {
+            "label": "日治時期",
+            "detail": "議會設置運動",
+            "tone": "blue"
+          },
+          {
+            "label": "戰後初期",
+            "detail": "二二八事件",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "B 二二八事件"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 二二八事件的社會衝突",
+    "points": [
+      "長官公署定位戰後初期。",
+      "緩派軍隊與自治訴求合看。",
+      "1947年二二八事件，選B。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1059-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1059-1060.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1059-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.047169+00:00",
+  "validationFile": "docs/comics/q-1059-validation.json"
+}

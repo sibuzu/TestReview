@@ -1,0 +1,73 @@
+{
+  "id": "q-1069",
+  "subject": "Math",
+  "title": "角平分線作圖的SSS依據",
+  "art": "docs/comics/art/q-1069-geometry.svg",
+  "generationMethod": "new mathematically constructed SVG plus selectable HTML reasoning",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1069-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、由尺規作圖取得兩組等長\n以O為圓心、同一半徑畫弧，分別交兩射線於C、D，因此OC＝OD。再以C、D為圓心、同一半徑畫弧交於E，因此CE＝DE。\n\n二、第三組是共用邊\n△OCE與△ODE共用OE，故OE＝OE。三組對應邊皆相等：OC＝OD、CE＝DE、OE＝OE，所以由SSS判定全等，選A。\n\n三、不把結論當前提\nSAS需要夾角相等，但∠COE＝∠EOD正是由全等得到的角平分結論，不能先假設它成立再用來證明。ASA同樣沒有足夠的已知角，RHS則需先有直角三角形，本題並未給直角。\n\n四、證明方向\n同半徑作圖 → 三組邊等長 → SSS全等 → 對應角相等 → OE為角平分線。依此順序才沒有循環論證。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 同半徑得第一組邊",
+      "text": "以O為圓心用同一半徑作弧，交兩射線於C、D，所以OC＝OD。",
+      "alt": "同半徑得第一組邊",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    },
+    {
+      "heading": "② 第二組加共用邊",
+      "text": "以C、D為圓心同半徑作弧交E，所以CE＝DE；又OE是共用邊。",
+      "alt": "第二組加共用邊",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    },
+    {
+      "heading": "③ 三邊相等才推出角等",
+      "text": "OC＝OD、CE＝DE、OE＝OE，由SSS全等才得到角平分，不能先假設夾角相等。",
+      "alt": "三邊相等才推出角等",
+      "caption": "新製精確幾何輔助圖；數值與推導見本格文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "(A) SSS",
+    "points": [
+      "同半徑作弧：OC＝OD、CE＝DE。",
+      "共用邊OE＝OE，三邊相等。",
+      "先SSS全等，再推出角平分。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1069-art-57a636f32c.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1069-1070.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1069-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.500205+00:00",
+  "validationFile": "docs/comics/q-1069-validation.json"
+}

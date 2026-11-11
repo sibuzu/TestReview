@@ -1,0 +1,122 @@
+{
+  "id": "q-1063",
+  "subject": "Geography",
+  "title": "馬利帝國與撒哈拉商路",
+  "art": "docs/comics/art/q-1063-reasoning.svg",
+  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261111/q-1063-original.jpg"
+  ],
+  "answerCheckedAgainst": "一、找馬利與跨沙漠貿易\n題幹最具辨識力的線索是西非馬利帝國、沙漠商路，以及黃金和食鹽的交換。馬利位於撒哈拉沙漠南緣的西非區域，與跨撒哈拉貿易關係密切，因此甲地選C撒哈拉沙漠。\n\n二、文化與商品合併判讀\n清真寺、學校及伊斯蘭文化不只出現在阿拉伯半島，也傳到北非與西非，不能只看到伊斯蘭就選B。原題對貿易商品及年代的表述照留；本題的核心是以區域和商路定位。\n\n三、逐項排除\n伊朗高原、阿拉伯半島、安納托力亞高原都位於西亞一帶，不符合馬利帝國與西非跨沙漠商路。C可把地名、宗教文化與貿易網絡連在一起。",
+  "rationale": "依原題的時間、區域、語境或幾何條件設計三步教學圖，第四格保留完整結論；不沿用來源AI圖。",
+  "panels": [
+    {
+      "heading": "① 馬利先定位西非",
+      "text": "馬利帝國、沙漠商路與黃金食鹽貿易，合起來指向西非。",
+      "alt": "馬利先定位西非",
+      "diagram": {
+        "kind": "flow",
+        "title": "馬利先定位西非",
+        "items": [
+          {
+            "label": "馬利帝國",
+            "detail": "西非區域",
+            "tone": "blue"
+          },
+          {
+            "label": "黃金與食鹽",
+            "detail": "跨沙漠貿易",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "② 串起撒哈拉商路",
+      "text": "馬利位於撒哈拉南緣，與穿越撒哈拉的商業網絡密切相關。",
+      "alt": "串起撒哈拉商路",
+      "diagram": {
+        "kind": "flow",
+        "title": "串起撒哈拉商路",
+        "items": [
+          {
+            "label": "北非",
+            "detail": "跨撒哈拉商路",
+            "tone": "blue"
+          },
+          {
+            "label": "西非馬利",
+            "detail": "沙漠南緣經濟中心",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "依序判讀"
+      }
+    },
+    {
+      "heading": "③ 伊斯蘭不只在西亞",
+      "text": "清真寺不能單獨推出阿拉伯半島；其餘三選項皆在西亞，與馬利區域不符。",
+      "alt": "伊斯蘭不只在西亞",
+      "diagram": {
+        "kind": "paths",
+        "title": "伊斯蘭不只在西亞",
+        "items": [
+          {
+            "label": "A／B／D",
+            "detail": "西亞地區",
+            "tone": "blue"
+          },
+          {
+            "label": "C 撒哈拉",
+            "detail": "對應西非商路",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "結合線索",
+        "target": "C 撒哈拉沙漠"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 撒哈拉沙漠",
+    "points": [
+      "馬利是西非帝國。",
+      "商業網絡穿越撒哈拉。",
+      "伊斯蘭文化不能單推阿拉伯半島。"
+    ]
+  },
+  "protectedWords": [],
+  "nativeArt": "assets/comics/q-1063-art-62f6de3cdc.svg",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-11T15:42:17.766637+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261111/qa/comics-1063-1064.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261111/q-1063-original.jpg"
+    ],
+    "note": "實看正式app與單頁閱讀版的桌機/手機四格成品，逐題核對原卷完整裁切、題幹選項及推導。另實看長篇影評手機全頁及幾何桌機全頁；文字完整性與全部圖資解碼由72布局自動檢查。隔離3寬及正式6布局通過。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-11T15:42:18.224624+00:00",
+  "validationFile": "docs/comics/q-1063-validation.json"
+}

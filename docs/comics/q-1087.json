@@ -1,0 +1,79 @@
+{
+  "id": "q-1087",
+  "subject": "English",
+  "title": "從全文主旨選閱讀標題",
+  "art": "docs/comics/art/q-1087-panel-1.png",
+  "generationMethod": "built-in image_gen; four independent detailed color anime scenes",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261112/q-1087-original.jpg"
+  ],
+  "rationale": "依各題重點製作四張可獨立引用的實際圖：受力／比例／年代／路網／字義；精確文字與推導另用HTML。不是純文字流程框或重複素材。",
+  "answerCheckedAgainst": "一、標題要涵蓋全文\n文章雖先提移居與人口，主體介紹阿米希人的交通、媒體使用、農耕與簡單生活，最後也回到healthy, happy, and simple way of life，故B「阿米希人及其不同的生活方式」最完整。\n\n二、排除只涵蓋局部的標題\nA只強調歷史，不能涵蓋大量當代生活敘述；C問為何過簡單生活，但文章以描述生活為主，沒有完整解釋形成原因；D只談種食物，範圍太窄。\n\n三、作答方法\n先把各段縮成主題：背景與人口、交通與媒體、農耕、生活總結，再找能包住所有重點的標題。原文為教材概括，不據此斷言所有阿米希社群對科技的規範完全相同。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 交通呈現生活差異",
+      "text": "文章以馬匹交通對比我們熟悉的汽機車，顯示生活方式不同；圖為新製情境，不是原卷照片。",
+      "image": "docs/comics/art/q-1087-panel-1.png",
+      "alt": "交通呈現生活差異；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "2 農耕也是全文一部分",
+      "text": "以手工種植食物是另一生活面向。標題若只談農耕，就漏掉交通、媒體與其他段落。",
+      "image": "docs/comics/art/q-1087-panel-2.png",
+      "alt": "農耕也是全文一部分；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "3 媒體使用擴大生活主題",
+      "text": "原報告提到多數家庭沒有電視、收音機或電腦，也不用手機與網路，並非單純歷史介紹。",
+      "image": "docs/comics/art/q-1087-panel-3.png",
+      "alt": "媒體使用擴大生活主題；新製教學圖，與右側圖說對應。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：不同的生活方式",
+    "points": [
+      "四張場景合看交通、農耕、媒體與健康快樂的簡單生活，B最能涵蓋全文。圖是教材情境，不概括所有阿米希社群。"
+    ],
+    "image": "docs/comics/art/q-1087-panel-4.png",
+    "alt": "答案B：不同的生活方式；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1087-art-6a97c99a78-web.webp",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "promptSet": "docs/imports/new-gpt-20261112/imagegen-prompts.json",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-12T15:14:56.243982+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-12T15:14:56.243982+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261112/qa/comics-1087-1088.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261112/q-1087-original.jpg"
+    ],
+    "note": "實看四張圖資及正式app／單頁桌機手機四格，逐題核對完整原卷、原圖、閱讀文與所有選項。63隔離／126正式圖解布局及84題目布局檢查通過；q-1075新圖與q-1081完整氣候附圖、q-1085原年表連線在最後複核時另驗收。5項原卷/原AI訂正另列monitor待使用者確認；本批新圖已核對，不把既有暫停圖重製計入。"
+  },
+  "checkedAt": "2026-11-12T15:14:57.084167+00:00",
+  "validationFile": "docs/comics/q-1087-validation.json"
+}

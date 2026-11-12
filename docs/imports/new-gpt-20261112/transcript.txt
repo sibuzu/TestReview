@@ -1,0 +1,3748 @@
+user
+[原始附件 sediment://file_000000008af8820699618d7c787300ce?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+4@錯題A → B
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第4題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 B</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 B</text>
+</row>
+
+**本題核心：物體靜止，不代表沒有受力，而是所受合力為 0。**
+
+### 一、原題判讀
+
+甲、乙兩條彈簧都處於靜止狀態，左端固定於牆壁，右端分別受到向右的拉力：
+
+- 甲：20 gw
+- 乙：30 gw
+
+題目問：甲、乙兩彈簧所受「合力大小」如何比較？
+
+正確答案：**(B) 甲＝乙**
+
+### 二、精準受力圖解
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 210" width="100%" xmlns="http://www.w3.org/2000/svg">
+    {#each [{y:62,t:"甲",f:"20 gw"},{y:155,t:"乙",f:"30 gw"}] as s}
+      <rect x="18" y={s.y-31} width="15" height="62" fill="#89929d"/>
+      {#each Array.from({length:6},(_,i)=>i) as i}
+        <path d={`M18 ${s.y-30+i*10} l15 -10`} stroke="#555f69" strokeWidth="1"/>
+      {/each}
+      <path d={`M33 ${s.y} H65`} stroke="currentColor" strokeWidth="2"/>
+      <path d={Array.from({length:24},(_,i)=>`${i===0?"M":"L"}${65+i*8} ${s.y+(i%2===0?-9:9)}`).join(" ")} stroke="#64748b" strokeWidth="2" fill="none"/>
+      <path d={`M249 ${s.y} H265`} stroke="currentColor" strokeWidth="2"/>
+      <path d={`M265 ${s.y-15} H311`} stroke="#16a34a" strokeWidth="3"/>
+      <path d={`M311 ${s.y-15} l-10 -6 v12 Z`} fill="#16a34a"/>
+      <path d={`M65 ${s.y+16} H38`} stroke="#2563eb" strokeWidth="3"/>
+      <path d={`M38 ${s.y+16} l10 -6 v12 Z`} fill="#2563eb"/>
+      <text x="169" y={s.y-19} fontSize="14" textAnchor="middle" fill="currentColor">{s.t}</text>
+      <text x="288" y={s.y-26} fontSize="12" textAnchor="middle" fill="#16a34a">{s.f}</text>
+      <text x="86" y={s.y+36} fontSize="12" fill="#2563eb">牆壁作用力：{s.f}</text>
+    {/each}
+  </svg>
+  <caption>藍色代表牆壁經由固定端施加的向左作用力；綠色代表向右拉力。兩條彈簧各自左右受力平衡。示意圖不按比例。</caption>
+</box>
+
+甲彈簧：
+
+\[
+F_{\text{合}}=20-20=0\text{ gw}
+\]
+
+乙彈簧：
+
+\[
+F_{\text{合}}=30-30=0\text{ gw}
+\]
+
+因此：
+
+\[
+\boxed{F_{\text{甲合}}=F_{\text{乙合}}=0}
+\]
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| (A) 甲＜乙 | <text color="danger" weight="medium">錯誤</text> | 比較的是外加拉力，不是合力 |
+| (B) 甲＝乙 | <text color="success" weight="medium">正確</text> | 兩者靜止且受力平衡，合力均為 0 |
+| (C) 甲＞乙 | 錯誤 | 甲、乙合力並無大小差異 |
+| (D) 無法判斷 | 錯誤 | 已知兩者靜止且受力平衡，可判斷 |
+
+### 四、二選一決勝：A vs B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium">原選 A</text>
+      <title size="lg" color="danger">20 ＜ 30</title>
+      <text size="xs">比較外加拉力</text>
+      <text size="xs" color="danger">不是題目要問的合力</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium">正解 B</text>
+      <title size="lg" color="success">0 ＝ 0</title>
+      <text size="xs">比較兩彈簧的合力</text>
+      <text size="xs" color="success">符合題目要求</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝關鍵：**
+
+看到「靜止」與「合力」兩個關鍵詞，先判斷是否受力平衡，而不是直接比較題目給的 20 gw 和 30 gw。
+
+### 五、錯題診斷與快速檢核
+
+本題的**可能誤選原因**是把「拉力大小」當成「合力大小」。但目前只有 A → B 的訂正資訊，沒有完整作答過程，因此尚不能確定實際錯因。
+
+記住一句話：
+
+**拉力可以不同，但只要物體靜止且受力平衡，合力就都是 0。**
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <text weight="medium">30 秒觀念檢核</text>
+  {@body const [answer,setAnswer] = DIL.useState("")}
+  <text size="sm">若乙彈簧的向右拉力增為 40 gw，但彈簧仍保持靜止，則合力是多少？</text>
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="a">40 gw</radio>
+    <radio value="b">10 gw</radio>
+    <radio value="c">0 gw</radio>
+  </radio-group>
+  {#if answer}
+    <text color={answer==="c"?"success":"danger"} size="sm">{answer==="c"?"正確！靜止且受力平衡，合力仍為 0。":"再看一次關鍵條件：彈簧仍保持靜止，所以左右受力平衡。"}</text>
+  {/if}
+</box>
+
+**v2.1 品質檢核：** 原題、四個選項與題圖已核對；受力圖左右方向與數值一致。教材外掛尚未查核。本題無需額外教材才能判定答案。
+
+user
+[原始附件 sediment://file_000000000e448206b1f515d94f10355b?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+11@錯題B → C
+
+assistant
+
+
+assistant
+## 第11題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 C</text>
+</row>
+
+**本題核心：彈簧秤測到的是「視重量」，不是鐵球真正的重量。浸入水中後，必須把浮力加回去。**
+
+### 一、原題證據與條件
+
+題目給定：
+
+- 彈簧秤掛 **10 克重**的物體，伸長 **2 公分**。
+- 改掛體積 **5 cm³** 的鐵球，浸入水中。
+- 彈簧伸長 **6 公分**，且未超過彈性限度。
+- 求鐵球的密度（g/cm³）。
+
+| 選項 | 密度 |
+|---|---|
+| (A) | 4 g/cm³ |
+| (B) 原選 | 6 g/cm³ |
+| (C) 正解 | **7 g/cm³** |
+| (D) | 6.4 g/cm³ |
+
+### 二、精準圖解｜鐵球浸水後的三個力
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 270" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="77" y="90" width="186" height="164" rx="5" fill="#38bdf8" fillOpacity=".12"/>
+    <path d="M77 90 H263" stroke="#0284c7" strokeWidth="2" strokeDasharray="5 4"/>
+    <path d="M77 86 V254 H263 V86" stroke="#64748b" strokeWidth="3" fill="none"/>
+    <rect x="156" y="13" width="28" height="8" rx="2" fill="#64748b"/>
+    <path d="M170 21 L170 34" stroke="currentColor" strokeWidth="2"/>
+    <path d={Array.from({length:19},(_,i)=>`${i===0?"M":"L"}${170+(i%2===0?-9:9)} ${34+i*5}`).join(" ")} stroke="#64748b" fill="none" strokeWidth="2"/>
+    <path d="M170 124 V158" stroke="currentColor" strokeWidth="2"/>
+    <circle cx="170" cy="192" r="33" fill="#94a3b8" stroke="#475569" strokeWidth="2"/>
+    <path d="M170 181 V141" stroke="#16a34a" strokeWidth="3.5" />
+    <path d="M170 138 l-8 12 h16 Z" fill="#16a34a"/>
+    <path d="M192 196 V234" stroke="#dc2626" strokeWidth="3.5"/>
+    <path d="M192 239 l-8 -12 h16 Z" fill="#dc2626"/>
+    <path d="M148 199 V165" stroke="#2563eb" strokeWidth="3.5"/>
+    <path d="M148 161 l-8 12 h16 Z" fill="#2563eb"/>
+    <text x="196" y="145" fontSize="12" fill="#16a34a">拉力 30 gw</text>
+    <text x="13" y="171" fontSize="12" fill="#2563eb">浮力 5 gw</text>
+    <text x="203" y="252" fontSize="12" fill="#dc2626">重力 35 gw</text>
+    <text x="272" y="102" fontSize="12" fill="#0284c7">水面</text>
+    <text x="190" y="35" fontSize="12" fill="currentColor">彈簧</text>
+  </svg>
+  <caption>依題目數值計算的受力示意圖，箭頭長度不代表實際比例。鐵球靜止時，向上拉力與浮力之和等於向下重力。</caption>
+</box>
+
+### 三、逐步計算
+
+**步驟 1：求彈簧秤拉力**
+
+伸長 2 公分，代表拉力 10 gw。
+
+伸長 6 公分：
+
+\[
+T=10\times\frac{6}{2}=\boxed{30\text{ gw}}
+\]
+
+注意：30 gw 是鐵球浸水後，彈簧秤所承受的拉力，並非鐵球真正的重量。
+
+**步驟 2：求浮力**
+
+鐵球完全浸入水中，排開水的體積為 5 cm³。
+
+水的密度為 1 g/cm³：
+
+\[
+F_b=1\times5=\boxed{5\text{ gw}}
+\]
+
+**步驟 3：求真正的重量**
+
+因為鐵球靜止，受力平衡：
+
+\[
+W=T+F_b
+\]
+
+\[
+W=30+5=\boxed{35\text{ gw}}
+\]
+
+所以鐵球質量為 35 g。
+
+**步驟 4：求密度**
+
+\[
+\rho=\frac{m}{V}=\frac{35}{5}
+\]
+
+\[
+\boxed{\rho=7\text{ g/cm}^3}
+\]
+
+因此選 **(C)**。
+
+### 四、四選項逐項辨析
+
+| 選項 | 判斷 | 說明 |
+|---|---|---|
+| (A) 4 | 錯誤 | 與正確受力計算不符 |
+| (B) 6 | <text color="danger" weight="medium">原選</text> | 30 ÷ 5＝6，漏加浮力 |
+| (C) 7 | <text color="success" weight="medium">正確</text> | (30＋5) ÷ 5＝7 |
+| (D) 6.4 | 錯誤 | 與題目受力及密度計算不符 |
+
+### 五、二選一決勝｜B vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">B｜6 g/cm³</text>
+      \[
+      \frac{30}{5}=6
+      \]
+      <text size="sm">只使用彈簧拉力，忽略水提供的浮力。</text>
+      <text color="danger" weight="medium" size="xs">少算 5 gw</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">C｜7 g/cm³</text>
+      \[
+      \frac{30+5}{5}=7
+      \]
+      <text size="sm">先還原真正重量，再除以鐵球體積。</text>
+      <text color="success" weight="medium" size="xs">符合受力平衡</text>
+    </box>
+  </grid-item>
+</grid>
+
+**決勝關鍵：題目出現「浸入水中」時，彈簧秤測得的拉力會受到浮力影響。**
+
+### 六、錯題診斷與考場自我檢核
+
+B 的計算恰好對應「漏加浮力」，因此是高度相關的誤選機制，但缺乏原始計算過程，尚不能認定孩子實際就是這樣算錯。
+
+考場只要記住：
+
+\[
+\boxed{\text{真正重量}=\text{彈簧拉力}+\text{浮力}}
+\]
+
+這也與前一道第4題的觀念相連：**物體靜止代表合力為零，但不代表只有一個力。** 第4題是左右受力平衡，第11題則是上下三力平衡。
+
+<box background="surface-secondary" radius="lg" padding={3} gap={1}>
+  **v2.1 品質檢核**
+
+  - P0：原題數值、選項及獨立計算一致。
+  - P1：受力圖已核對方向、力的名稱與大小。
+  - 教材證據：尚未使用國中教材唯讀搜尋，未宣稱課本頁碼。
+  - 錯因判定：僅能確認 B 對應的可能陷阱，不能確認實際作答歷程。
+</box>
+
+**本題最值得帶走的觀念：在水中用彈簧秤量物體，秤出的力較小，是因為水幫忙向上托住物體。**
+
+user
+[原始附件 sediment://file_00000000ec148206a237eb1b764a02f3?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+16@錯題B → A
+
+assistant
+
+
+assistant
+## 第16題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 A</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 A</text>
+</row>
+
+**本題核心：要比較「浮力與浸入體積」的關係，必須控制液體種類相同，只改變浸入體積。**
+
+### 一、原題條件判讀
+
+題目問：從哪些實驗的結果，可以推論浮力與浸入液體中的體積有關？
+
+| 實驗 | 彈簧秤讀數 | 液體 | 浸入情況 |
+|---|---:|---|---|
+| 甲 | 160 gw | 水 | 部分浸入 |
+| 乙 | 120 gw | 水 | 浸入較多 |
+| 丙 | 100 gw | 水 | 完全浸入 |
+| 丁 | 104 gw | 鹽水 | 完全浸入 |
+
+由圖可知：甲、乙都在水中，但浸入體積不同。
+
+因此答案是 **(A) 甲乙**。
+
+### 二、精準圖解｜甲乙實驗比較
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 208" width="100%" xmlns="http://www.w3.org/2000/svg">
+    {#each [{x:85,name:"甲",reading:"160 gw",surface:133},{x:248,name:"乙",reading:"120 gw",surface:111}] as v}
+      <text x={v.x} y="16" fontSize="17" textAnchor="middle" fontWeight="600" fill="currentColor">{v.name}</text>
+      <rect x={v.x-17} y="27" width="34" height="42" rx="3" fill="#e2e8f0" stroke="#64748b" strokeWidth="1.5"/>
+      <path d={`M${v.x} 69 V91`} stroke="#64748b" strokeWidth="2"/>
+      <text x={v.x+23} y="51" fontSize="12" fill="currentColor">{v.reading}</text>
+      <path d={`M${v.x-49} 99 V182 H${v.x+49} V99`} stroke="#64748b" strokeWidth="2.5" fill="none"/>
+      <rect x={v.x-47} y={v.surface} width="94" height={181-v.surface} fill="#7dd3fc" fillOpacity=".32"/>
+      <path d={`M${v.x-47} ${v.surface} H${v.x+47}`} stroke="#0284c7" strokeWidth="2"/>
+      <rect x={v.x-20} y="104" width="40" height="58" rx="2" fill="#94a3b8" stroke="#475569" strokeWidth="1.5"/>
+      <path d={`M${v.x} 91 V104`} stroke="#64748b" strokeWidth="2"/>
+      <text x={v.x} y="200" fontSize="12" textAnchor="middle" fill="currentColor">水</text>
+    {/each}
+  </svg>
+  <caption>同一物體、相同液體（水）；乙比甲浸入更多，彈簧秤讀數較小。示意圖依原題關係重繪。</caption>
+</box>
+
+由於是同一物體，重量不變：
+
+\[
+F_{\text{浮}}=W-T
+\]
+
+- 甲：\(F_{\text{浮甲}}=W-160\)
+- 乙：\(F_{\text{浮乙}}=W-120\)
+
+因此：
+
+\[
+F_{\text{浮乙}}-F_{\text{浮甲}}=40\text{ gw}
+\]
+
+**乙浸入體積較大，浮力也比甲大 40 gw。**
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| (A) 甲乙 | <text color="success" weight="medium">正確</text> | 同為水，浸入體積不同 |
+| (B) 甲丁 | <text color="danger" weight="medium">原選</text> | 液體種類與浸入體積都不同 |
+| (C) 乙丁 | 錯誤 | 液體種類與浸入體積都不同 |
+| (D) 丙丁 | 錯誤 | 浸入體積相同，液體種類不同 |
+
+### 四、二選一決勝｜B vs A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">B｜甲丁</text>
+      <text size="sm">水 vs 鹽水</text>
+      <text size="sm">浸入體積也不同</text>
+      <divider spacing={1}/>
+      <text color="danger" size="sm" weight="medium">同時改變兩個條件，無法單獨判斷體積影響。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">A｜甲乙</text>
+      <text size="sm">水 vs 水</text>
+      <text size="sm">只有浸入體積不同</text>
+      <divider spacing={1}/>
+      <text color="success" size="sm" weight="medium">符合控制變因法，可判斷體積的影響。</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、考場必記｜浮力公式
+
+\[
+\boxed{F_{\text{浮}}=\rho_{\text{液體}}V_{\text{排開}}g}
+\]
+
+浮力主要取決於：
+
+1. 液體密度
+2. 排開液體的體積
+
+其中「排開液體的體積」就是物體浸入液體中的體積。
+
+要研究哪一個因素，就只改變那個因素，其他因素保持相同。
+
+### 六、錯題診斷
+
+本題原選 B，可能是看到甲、丁的彈簧秤讀數不同，就直接認為能證明浸入體積影響浮力。然而，沒有作答過程，不能確認這就是實際錯因。
+
+**最值得改善的判斷習慣：**
+
+看見「探討某因素與結果的關係」，先問自己：
+
+> 這兩組實驗，是否只有我要研究的因素不同？
+
+這個問題能用在自然科的浮力、溫度、光合作用、溶解速率等控制變因題型。
+
+---
+
+**v2.1 品質檢核**
+
+- P0：原題、四選項與甲乙丙丁的讀數已核對。
+- P1：比較圖保留液體種類、浸入深度及讀數的關鍵差異。
+- 教材證據：尚未使用國中教材唯讀搜尋。
+- 錯因：僅提出可能的誤選機制，未認定實際錯因。
+
+**一句話記憶：研究浮力與體積的關係，要選「同液體、不同浸入體積」，所以選 A（甲乙）。**
+
+user
+[原始附件 sediment://file_00000000789082069c55b58c5f7d1897?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+1@錯題D → C
+
+assistant
+
+
+assistant
+## 第1題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C</badge>
+  <text color="secondary" weight="medium">原選 D（蒙古）→ 正解 C（女真）</text>
+</row>
+
+**本題核心：北宋亡於女真建立的金朝；南宋才是亡於蒙古建立的元朝。**
+
+### 一、原題證據判讀
+
+題目提到《<Entity category="book" value="東京夢華錄"/>》，並提供三個關鍵線索：
+
+- 記錄當時首都「汴京」的繁華生活。
+- 書籍完成時，汴京已遭外族入侵而衰敗。
+- 詢問造成汴京淪陷的是哪個外族。
+
+四個選項：
+
+| 選項 | 民族 | 判斷 |
+|---|---|---|
+| (A) 契丹 | 建立遼朝 | 錯誤 |
+| (B) 匈奴 | 主要活躍於秦漢時期 | 錯誤 |
+| (C) 女真 | 建立金朝，攻陷汴京 | <text color="success" weight="medium">正確</text> |
+| (D) 蒙古 | 建立元朝，滅南宋 | <text color="danger" weight="medium">原選</text> |
+
+### 二、精準圖解｜北宋、南宋滅亡順序
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 202" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="8" y="12" width="324" height="83" rx="9" fill="#f59e0b" fillOpacity=".11"/>
+    <rect x="8" y="107" width="324" height="83" rx="9" fill="#3b82f6" fillOpacity=".09"/>
+    <text x="20" y="32" fontSize="12" fill="currentColor">1127年｜靖康之變</text>
+    <rect x="20" y="42" width="89" height="35" rx="6" fill="#b45309"/>
+    <text x="64" y="64" textAnchor="middle" fontSize="15" fill="white" fontWeight="600">女真・金</text>
+    <path d="M116 59 H150" stroke="#b45309" strokeWidth="2.5"/>
+    <path d="M157 59 l-9 -5 v10 Z" fill="#b45309"/>
+    <rect x="161" y="42" width="157" height="35" rx="6" fill="#fde68a"/>
+    <text x="239" y="57" textAnchor="middle" fontSize="13" fill="#78350f">攻陷汴京</text>
+    <text x="239" y="71" textAnchor="middle" fontSize="11" fill="#78350f">北宋滅亡</text>
+    <text x="20" y="128" fontSize="12" fill="currentColor">1279年｜崖山之戰</text>
+    <rect x="20" y="137" width="89" height="35" rx="6" fill="#1d4ed8"/>
+    <text x="64" y="159" textAnchor="middle" fontSize="15" fill="white" fontWeight="600">蒙古・元</text>
+    <path d="M116 154 H150" stroke="#2563eb" strokeWidth="2.5"/>
+    <path d="M157 154 l-9 -5 v10 Z" fill="#2563eb"/>
+    <rect x="161" y="137" width="157" height="35" rx="6" fill="#bfdbfe"/>
+    <text x="239" y="152" textAnchor="middle" fontSize="13" fill="#1e3a8a">南宋最後抵抗失敗</text>
+    <text x="239" y="166" textAnchor="middle" fontSize="11" fill="#1e3a8a">南宋滅亡</text>
+  </svg>
+  <caption>兩個不同的歷史事件：1127年金軍攻陷北宋汴京；1279年元朝完成滅南宋。</caption>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) 契丹：錯誤**
+
+契丹建立遼朝，曾與北宋對峙，並簽訂「澶淵之盟」，但不是造成靖康之變、攻陷汴京的民族。
+
+**(B) 匈奴：錯誤**
+
+匈奴主要在秦漢時期與中原王朝互動，時間早於宋代許多。
+
+**(C) 女真：正確**
+
+女真建立金朝，在1127年攻陷北宋首都汴京，擄走宋徽宗、宋欽宗等人，史稱「靖康之變」，北宋因此滅亡。
+
+**(D) 蒙古：錯誤**
+
+蒙古建立元朝，後來滅掉的是南宋，而非1127年的北宋汴京。
+
+### 四、二選一決勝｜D 蒙古 vs C 女真
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">D｜蒙古</text>
+      <title size="lg">1279年</title>
+      <text size="sm">元朝滅南宋</text>
+      <text size="xs" color="danger">不符合汴京淪陷事件</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">C｜女真</text>
+      <title size="lg">1127年</title>
+      <text size="sm">金朝滅北宋</text>
+      <text size="xs" color="success">符合題幹汴京線索</text>
+    </box>
+  </grid-item>
+</grid>
+
+考場只需抓住一個關鍵詞：**汴京**。
+
+看到汴京淪陷，先聯想到「靖康之變」，接著想到「金朝」，就能選出女真。
+
+### 五、補強觀念｜宋代首都與滅亡事件
+
+| 朝代 | 首都 | 滅亡關鍵 |
+|---|---|---|
+| 北宋 | 汴京（開封） | 1127年，女真金朝攻陷 |
+| 南宋 | 臨安（杭州） | 1276年臨安降元；1279年南宋最後抵抗結束 |
+
+### 六、錯題診斷與快速檢核
+
+本題原選蒙古，可能將「蒙古滅南宋」和「女真滅北宋」兩個事件混淆。目前缺乏作答過程，因此這是可能誤選機制，尚不能確認為實際錯因。
+
+{@body const [ans,setAns] = DIL.useState("")}
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **10 秒觀念檢核**
+
+  如果題幹改成「南宋首都臨安被攻陷」，應聯想到哪個民族？
+
+  <radio-group direction="col" value={ans} onChange={setAns}>
+    <radio value="a">女真</radio>
+    <radio value="b">蒙古</radio>
+    <radio value="c">契丹</radio>
+  </radio-group>
+  {#if ans}
+    <text color={ans==="b"?"success":"danger"} size="sm">{ans==="b"?"正確！蒙古建立元朝，1276年元軍進入臨安。":"再比較兩個事件：女真金朝攻陷北宋汴京；蒙古元朝攻陷南宋臨安。"}</text>
+  {/if}
+</box>
+
+**v2.1 品質檢核**
+
+- P0：原題選項及歷史事件已獨立核對，正解 C。
+- P1：時間線區分北宋汴京與南宋臨安，避免混為同一事件。
+- 教材證據：尚未使用國中教材唯讀搜尋，無課本頁碼宣稱。
+- 錯因：只標記可能的北宋、南宋滅亡事件混淆，不推定實際作答思路。
+
+**一句話記憶：女真滅北宋，蒙古滅南宋；汴京找女真，臨安找蒙古。**
+
+user
+[原始附件 sediment://file_0000000073408206b1d07f9b6b80458a?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+13@錯題B → D
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第13題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D｜明代</badge>
+  <text color="secondary" weight="medium">原選 B（北宋）→ 正解 D（明代）</text>
+</row>
+
+**本題核心：不只看「蒙古、女真」兩個外患，還要看「首都位置、流民問題、人民攻陷首都」這三個決定性線索。**
+
+### 一、原題證據判讀
+
+題目提供某政權的外患演變：
+
+| 時期 | 外患 |
+|---|---|
+| 初期 | 蒙古 |
+| 中期 | 蒙古、倭寇 |
+| 末期 | 倭寇、女真 |
+
+題幹還指出：
+
+- 首都鄰近國境，容易受到外患威脅。
+- 未妥善處理境內流民問題。
+- 最後首都遭人民攻陷，政權滅亡。
+
+問：上述政權是哪個朝代？
+
+選項：(A) 唐代、(B) 北宋、(C) 南宋、(D) 明代。
+
+答案為 **(D) 明代**。
+
+### 二、精準圖解｜明朝如何走向滅亡？
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 245" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="9" y="8" width="322" height="49" rx="8" fill="#dbeafe"/>
+    <text x="170" y="28" fontSize="14" fontWeight="600" textAnchor="middle" fill="#1e40af">明朝初期</text>
+    <text x="170" y="46" fontSize="12" textAnchor="middle" fill="#1e3a8a">北方蒙古勢力威脅</text>
+    <path d="M170 57 V75" stroke="#64748b" strokeWidth="2.5"/>
+    <path d="M170 80 l-6 -9 h12 Z" fill="#64748b"/>
+    <rect x="9" y="82" width="322" height="49" rx="8" fill="#fef3c7"/>
+    <text x="170" y="102" fontSize="14" fontWeight="600" textAnchor="middle" fill="#92400e">明朝中期</text>
+    <text x="170" y="120" fontSize="12" textAnchor="middle" fill="#78350f">北方蒙古＋東南沿海倭寇</text>
+    <path d="M170 131 V149" stroke="#64748b" strokeWidth="2.5"/>
+    <path d="M170 154 l-6 -9 h12 Z" fill="#64748b"/>
+    <rect x="9" y="156" width="322" height="49" rx="8" fill="#fee2e2"/>
+    <text x="170" y="176" fontSize="14" fontWeight="600" textAnchor="middle" fill="#991b1b">明朝末期</text>
+    <text x="170" y="194" fontSize="12" textAnchor="middle" fill="#7f1d1d">東北女真崛起＋內部民變</text>
+    <path d="M170 205 V218" stroke="#64748b" strokeWidth="2.5"/>
+    <path d="M170 222 l-6 -8 h12 Z" fill="#64748b"/>
+    <text x="170" y="240" fontSize="13" fontWeight="600" textAnchor="middle" fill="currentColor">1644年 李自成攻入北京</text>
+  </svg>
+  <caption>歷史階段重點示意；各種外患的活動時間可能重疊，不能理解為某時期只有圖中列出的威脅。</caption>
+</box>
+
+**補充關鍵史實：**
+
+明成祖朱棣於1421年正式遷都北京，北京靠近北方邊防地區。1644年，李自成率領的起義軍攻入北京，崇禎皇帝自縊，明朝在北京的中央政權滅亡。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| (A) 唐代 | 錯誤 | 唐朝主要面對突厥、吐蕃等勢力，末期與黃巢之亂相關 |
+| (B) 北宋 | <text color="danger" weight="medium">原選</text> | 北宋面對遼、西夏、金，1127年遭女真金朝滅亡 |
+| (C) 南宋 | 錯誤 | 南宋最後遭蒙古建立的元朝滅亡 |
+| (D) 明代 | <text color="success" weight="medium">正確</text> | 蒙古、倭寇、女真，加上李自成攻入北京，符合題幹 |
+
+### 四、二選一決勝｜B 北宋 vs D 明代
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">B｜北宋</text>
+      <text size="sm">首都：汴京</text>
+      <text size="sm">滅亡：1127年</text>
+      <text size="sm">女真金軍攻陷首都</text>
+      <divider spacing={1}/>
+      <text color="danger" size="sm" weight="medium">不是人民起義軍攻陷首都</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">D｜明代</text>
+      <text size="sm">首都：北京（遷都後）</text>
+      <text size="sm">滅亡：1644年</text>
+      <text size="sm">李自成起義軍攻入北京</text>
+      <divider spacing={1}/>
+      <text color="success" size="sm" weight="medium">符合人民攻陷首都的線索</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝：**
+
+- 北宋：**外族金軍**攻陷汴京。
+- 明朝：**內部李自成起義軍**攻陷北京。
+
+不能只看題幹出現「女真」就選北宋，必須進一步確認政權如何滅亡。
+
+### 五、與上一題建立歷史連結
+
+這一題很適合和剛才第1題一起比較：
+
+| 事件 | 朝代 | 攻陷首都者 |
+|---|---|---|
+| 靖康之變 | 北宋 | 女真建立的金朝 |
+| 北京陷落 | 明朝 | 李自成率領的起義軍 |
+
+兩題都有外部威脅，但**真正決定答案的是朝代與滅亡事件的對應**。
+
+### 六、錯題診斷與自我檢核
+
+原選 B 可能表示辨識到「女真」與北宋有關，卻忽略了明朝末期也受到女真威脅，以及「人民攻陷首都」這項關鍵條件。這只是可能的誤選機制，尚無作答過程可以確認實際錯因。
+
+考場可直接使用這個判斷順序：
+
+1. 先看外患組合：蒙古＋倭寇＋女真。
+2. 再看首都：北京。
+3. 最後用滅亡事件確認：李自成攻陷北京。
+
+---
+
+**v2.1 品質檢核**
+
+- **P0**：原題表格、四選項及正解 D 已核對。
+- **P1**：時間流程與明朝歷史事件一致。
+- **教材證據**：尚未使用國中教材唯讀搜尋，未標示課本頁碼。
+- **錯因判定**：僅提出可能的北宋、明朝混淆，未視為已確認的錯因。
+
+**一句話記憶：北宋亡於女真金軍，明朝北京陷於李自成起義軍；看到「蒙古＋倭寇＋女真」，優先想到明朝。**
+
+user
+[原始附件 sediment://file_00000000d42482068d9f10bd9e48edf2?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+15@錯題c→ D
+
+assistant
+## 第15題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D｜清代</badge>
+  <text color="secondary" weight="medium">原選 C（明代）→ 正解 D（清代）</text>
+</row>
+
+**本題核心：蒙古地區正式納入中國版圖，與清朝對蒙古的統治和行政管理密切相關。不能把「明朝曾與蒙古交戰」誤認為「明朝將蒙古納入版圖」。**
+
+### 一、原題證據判讀
+
+題目提供2020年的新聞，內容提到：
+
+- 地區：中國內蒙古自治區。
+- 政策：要求學校使用國家統一編製教材，並加強漢語授課。
+- 結果：引起當地民眾反彈與抗議。
+
+題目問：
+
+**「附圖報導中提及的地區，在下列何時納入中國版圖？」**
+
+| 選項 | 朝代 | 判斷 |
+|---|---|---|
+| (A) | 唐代 | 錯誤 |
+| (B) | 宋代 | 錯誤 |
+| (C) | 明代 | <text color="danger" weight="medium">原選</text> |
+| (D) | 清代 | <text color="success" weight="medium">正確</text> |
+
+這道題目主要考的是**清朝的疆域擴張與邊疆治理**，不是要求判斷新聞事件本身的對錯。
+
+
+
+assistant
+
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第15題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D｜清代</badge>
+  <text color="secondary" weight="medium">原選 C（明代）→ 正解 D（清代）</text>
+</row>
+
+**本題核心：蒙古地區正式納入中國版圖，與清朝對蒙古的統治和行政管理密切相關。不能把「明朝曾與蒙古交戰」誤認為「明朝將蒙古納入版圖」。**
+
+### 一、原題證據判讀
+
+題目提供2020年的新聞，內容提到：
+
+- 地區：中國內蒙古自治區。
+- 政策：要求學校使用國家統一編製教材，並加強漢語授課。
+- 結果：引起當地民眾反彈與抗議。
+
+題目問：
+
+**「附圖報導中提及的地區，在下列何時納入中國版圖？」**
+
+| 選項 | 朝代 | 判斷 |
+|---|---|---|
+| (A) | 唐代 | 錯誤 |
+| (B) | 宋代 | 錯誤 |
+| (C) | 明代 | <text color="danger" weight="medium">原選</text> |
+| (D) | 清代 | <text color="success" weight="medium">正確</text> |
+
+這道題目主要考的是**清朝的疆域擴張與邊疆治理**，不是要求判斷新聞事件本身的對錯。
+
+### 二、精準圖解｜明朝與清朝對蒙古的關係
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 158" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="7" y="10" width="153" height="111" rx="9" fill="#f59e0b" fillOpacity=".12"/>
+    <rect x="180" y="10" width="153" height="111" rx="9" fill="#16a34a" fillOpacity=".10"/>
+    <text x="83" y="35" fill="currentColor" fontSize="19" fontWeight="600" textAnchor="middle">明朝</text>
+    <text x="83" y="60" fill="currentColor" fontSize="13" textAnchor="middle">蒙古勢力在北方</text>
+    <text x="83" y="82" fill="currentColor" fontSize="13" textAnchor="middle">長期對峙</text>
+    <text x="83" y="103" fontSize="12" fill="#b45309" textAnchor="middle">修築、強化長城防禦</text>
+    <path d="M162 66 H178" stroke="currentColor" strokeWidth="2"/>
+    <path d="M177 66 l-6 -4 v8 Z" fill="currentColor"/>
+    <text x="256" y="35" fill="currentColor" fontSize="19" fontWeight="600" textAnchor="middle">清朝</text>
+    <text x="256" y="60" fill="currentColor" fontSize="13" textAnchor="middle">逐步控制蒙古地區</text>
+    <text x="256" y="82" fill="currentColor" fontSize="13" textAnchor="middle">設置盟旗制度</text>
+    <text x="256" y="103" fontSize="12" fill="#15803d" textAnchor="middle">納入帝國統治體系</text>
+    <text x="170" y="144" fill="currentColor" fontSize="13" textAnchor="middle" fontWeight="600">決勝差異：對峙 ≠ 納入統治</text>
+  </svg>
+  <caption>明、清與蒙古關係的考試重點比較，並非實際疆界地圖。</caption>
+</box>
+
+歷史上，滿洲政權在1630年代已逐步取得漠南蒙古（今內蒙古一帶）的控制，清朝建立後繼續以盟旗等制度管理蒙古地區。因此，國中歷史題目通常將其歸入清朝疆域與邊疆治理的內容。<Cite refs={["turn488137search0","turn488137search14"]}/>
+
+### 三、四選項逐項辨析
+
+**(A) 唐代：錯誤。** 唐朝曾對突厥等草原民族建立軍事與羈縻治理關係，但不是本題所指近代內蒙古納入清朝統治體系的歷史背景。
+
+**(B) 宋代：錯誤。** 宋朝與遼、西夏、金等政權並存，並未將題目所指內蒙古地區納入其統一治理。
+
+**(C) 明代：原選。** 明朝與蒙古勢力長期對峙，並透過長城等防禦措施應對北方威脅，但不能因此認為明朝已將整個蒙古地區納入版圖。
+
+**(D) 清代：正確。** 清朝逐步控制蒙古地區，並建立相應行政制度。
+
+### 四、二選一決勝｜C 明代 vs D 清代
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">C｜明代</text>
+      <text size="sm">關鍵關係：對峙、防禦</text>
+      <text size="sm">長城防範蒙古勢力</text>
+      <text color="danger" size="xs">不符合本題納入版圖的線索</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">D｜清代</text>
+      <text size="sm">關鍵關係：控制、治理</text>
+      <text size="sm">透過盟旗等制度管理蒙古</text>
+      <text color="success" size="xs">符合本題歷史背景</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、錯題診斷與考場檢核
+
+這題最可能的判斷陷阱是把「與蒙古有密切軍事關係」等同「將蒙古納入統治」。但目前只有 C → D 的記錄，不能確定實際錯因。
+
+考場看到「內蒙古、疆域、納入版圖」，應先回想清朝的蒙古治理，而不是只憑蒙古曾與哪個朝代交戰來判斷。
+
+**一句話記憶：明朝防蒙古，清朝治蒙古。**
+
+---
+
+**v2.1 品質檢核：** 原題與四個選項核對完成；正解 D 有歷史研究支持。圖解未加入未經核實的疆界。教材唯讀搜尋尚未查核，因此不宣稱課本頁碼。
+
+另外，歷史上漠南蒙古歸附滿洲政權的過程始於清朝正式建國前後，不能簡化成1644年清軍入關後才開始控制內蒙古。這不影響本題以清代為正解。
+
+assistant
+### 二、精準圖解｜明朝與清朝對蒙古的關係
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 158" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="7" y="10" width="153" height="111" rx="9" fill="#f59e0b" fillOpacity=".12"/>
+    <rect x="180" y="10" width="153" height="111" rx="9" fill="#16a34a" fillOpacity=".10"/>
+    <text x="83" y="35" fill="currentColor" fontSize="19" fontWeight="600" textAnchor="middle">明朝</text>
+    <text x="83" y="60" fill="currentColor" fontSize="13" textAnchor="middle">蒙古勢力在北方</text>
+    <text x="83" y="82" fill="currentColor" fontSize="13" textAnchor="middle">長期對峙</text>
+    <text x="83" y="103" fontSize="12" fill="#b45309" textAnchor="middle">修築、強化長城防禦</text>
+    <path d="M162 66 H178" stroke="currentColor" strokeWidth="2"/>
+    <path d="M177 66 l-6 -4 v8 Z" fill="currentColor"/>
+    <text x="256" y="35" fill="currentColor" fontSize="19" fontWeight="600" textAnchor="middle">清朝</text>
+    <text x="256" y="60" fill="currentColor" fontSize="13" textAnchor="middle">逐步控制蒙古地區</text>
+    <text x="256" y="82" fill="currentColor" fontSize="13" textAnchor="middle">設置盟旗制度</text>
+    <text x="256" y="103" fontSize="12" fill="#15803d" textAnchor="middle">納入帝國統治體系</text>
+    <text x="170" y="144" fill="currentColor" fontSize="13" textAnchor="middle" fontWeight="600">決勝差異：對峙 ≠ 納入統治</text>
+  </svg>
+  <caption>明、清與蒙古關係的考試重點比較，並非實際疆界地圖。</caption>
+</box>
+
+歷史上，滿洲政權在1630年代已逐步取得漠南蒙古（今內蒙古一帶）的控制，清朝建立後繼續以盟旗等制度管理蒙古地區。因此，國中歷史題目通常將其歸入清朝疆域與邊疆治理的內容。<Cite refs={["turn488137search0","turn488137search14"]}/>
+
+### 三、四選項逐項辨析
+
+**(A) 唐代：錯誤。** 唐朝曾對突厥等草原民族建立軍事與羈縻治理關係，但不是本題所指近代內蒙古納入清朝統治體系的歷史背景。
+
+**(B) 宋代：錯誤。** 宋朝與遼、西夏、金等政權並存，並未將題目所指內蒙古地區納入其統一治理。
+
+**(C) 明代：原選。** 明朝與蒙古勢力長期對峙，並透過長城等防禦措施應對北方威脅，但不能因此認為明朝已將整個蒙古地區納入版圖。
+
+**(D) 清代：正確。** 清朝逐步控制蒙古地區，並建立相應行政制度。
+
+### 四、二選一決勝｜C 明代 vs D 清代
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">C｜明代</text>
+      <text size="sm">關鍵關係：對峙、防禦</text>
+      <text size="sm">長城防範蒙古勢力</text>
+      <text color="danger" size="xs">不符合本題納入版圖的線索</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">D｜清代</text>
+      <text size="sm">關鍵關係：控制、治理</text>
+      <text size="sm">透過盟旗等制度管理蒙古</text>
+      <text color="success" size="xs">符合本題歷史背景</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、錯題診斷與考場檢核
+
+這題最可能的判斷陷阱是把「與蒙古有密切軍事關係」等同「將蒙古納入統治」。但目前只有 C → D 的記錄，不能確定實際錯因。
+
+考場看到「內蒙古、疆域、納入版圖」，應先回想清朝的蒙古治理，而不是只憑蒙古曾與哪個朝代交戰來判斷。
+
+**一句話記憶：明朝防蒙古，清朝治蒙古。**
+
+---
+
+**v2.1 品質檢核：** 原題與四個選項核對完成；正解 D 有歷史研究支持。圖解未加入未經核實的疆界。教材唯讀搜尋尚未查核，因此不宣稱課本頁碼。
+
+另外，歷史上漠南蒙古歸附滿洲政權的過程始於清朝正式建國前後，不能簡化成1644年清軍入關後才開始控制內蒙古。這不影響本題以清代為正解。
+
+user
+[原始附件 sediment://file_00000000faa08206beccdb1a173e01bd?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+22@錯題D → C
+
+assistant
+## 第22題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜女真</badge>
+  <text color="secondary" weight="medium">原選 D（蒙古）→ 正解 C（女真）</text>
+</row>
+
+**本題核心：清朝統治者是滿洲人，其先民為女真族；「剃髮易服、圈地、投充、逃人」是清初的重要歷史線索。**
+
+### 一、原題證據判讀
+
+題目描述一個由「異族」入主中原建立的政權，並指出：
+
+- 採取保障特定民族優越地位的政策。
+- 利用政策鞏固統治基礎。
+- 實施「易服、薙髮、圈地、投充、逃人」五項政令。
+- 政策初期引發民間劇烈反彈，甚至有人以生命抵抗。
+
+題目問：這個「異族」是誰？
+
+| 選項 | 民族 | 判斷 |
+|---|---|---|
+| (A) | 鮮卑 | 錯誤 |
+| (B) | 契丹 | 錯誤 |
+| (C) | 女真 | <text color="success" weight="medium">正確</text> |
+| (D) | 蒙古 | <text color="danger" weight="medium">原選</text> |
+
+### 二、關鍵歷史觀念
+
+清朝由滿洲統治者建立，其統治集團源自女真族。努爾哈赤建立後金，皇太極於1635年將族稱改為「滿洲」，1636年改國號為「大清」。
+
+清軍入關後，為鞏固統治，推動了一系列政策，其中：
+
+- **薙髮、易服**：要求男性依清廷規定改變髮式與服裝。
+- **圈地**：圈占土地，供八旗等使用。
+- **投充**：涉及民人投身旗人或權貴之家，成為依附人口。
+- **逃人**：清初針對逃離旗人控制者的追捕與管制政策。
+
+這些政策影響人民生活與權益，其中剃髮政策引發強烈反抗。
+
+
+
+assistant
+
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第22題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜女真</badge>
+  <text color="secondary" weight="medium">原選 D（蒙古）→ 正解 C（女真）</text>
+</row>
+
+**本題核心：清朝統治者是滿洲人，其先民為女真族；「剃髮易服、圈地、投充、逃人」是清初的重要歷史線索。**
+
+### 一、原題證據判讀
+
+題目描述一個由「異族」入主中原建立的政權，並指出：
+
+- 採取保障特定民族優越地位的政策。
+- 利用政策鞏固統治基礎。
+- 實施「易服、薙髮、圈地、投充、逃人」五項政令。
+- 政策初期引發民間劇烈反彈，甚至有人以生命抵抗。
+
+題目問：這個「異族」是誰？
+
+| 選項 | 民族 | 判斷 |
+|---|---|---|
+| (A) | 鮮卑 | 錯誤 |
+| (B) | 契丹 | 錯誤 |
+| (C) | 女真 | <text color="success" weight="medium">正確</text> |
+| (D) | 蒙古 | <text color="danger" weight="medium">原選</text> |
+
+### 二、關鍵歷史觀念
+
+清朝由滿洲統治者建立，其統治集團源自女真族。努爾哈赤建立後金，皇太極於1635年將族稱改為「滿洲」，1636年改國號為「大清」。
+
+清軍入關後，為鞏固統治，推動了一系列政策，其中：
+
+- **薙髮、易服**：要求男性依清廷規定改變髮式與服裝。
+- **圈地**：圈占土地，供八旗等使用。
+- **投充**：涉及民人投身旗人或權貴之家，成為依附人口。
+- **逃人**：清初針對逃離旗人控制者的追捕與管制政策。
+
+這些政策影響人民生活與權益，其中剃髮政策引發強烈反抗。
+
+### 三、精準圖解｜四個民族與建立的朝代
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={2} gap={2}>
+    {#each [{n:"鮮卑",dyn:"北魏",date:"386年建立",active:false},{n:"契丹",dyn:"遼朝",date:"916年建立",active:false},{n:"女真",dyn:"金朝、清朝",date:"清朝統治者源自女真",active:true},{n:"蒙古",dyn:"元朝",date:"1271年建立",active:false}] as v}
+      <grid-item>
+        <box background="surface-secondary" radius="md" padding={3} gap={1} border={v.active?{size:2,color:"success"}:false}>
+          <text color={v.active?"success":"default"} weight="medium">{v.n}</text>
+          <title size="md">{v.dyn}</title>
+          <text size="xs" color="secondary">{v.date}</text>
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <caption>女真建立金朝；後來女真各部逐漸整合，形成滿洲統治集團並建立清朝。並非金朝直接改名為清朝。</caption>
+</box>
+
+### 四、四選項逐項辨析
+
+| 選項 | 判斷 | 關鍵差異 |
+|---|---|---|
+| A 鮮卑 | 錯誤 | 建立北魏，與孝文帝改革有關 |
+| B 契丹 | 錯誤 | 建立遼朝，與北宋簽訂澶淵之盟 |
+| C 女真 | <text color="success" weight="medium">正確</text> | 清朝滿洲統治集團的族源 |
+| D 蒙古 | <text color="danger" weight="medium">原選</text> | 建立元朝，不是清初五項政策的推行者 |
+
+### 五、二選一決勝｜D 蒙古 vs C 女真
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D｜蒙古</text>
+      <title size="lg">元朝</title>
+      <text size="sm">忽必烈建立元朝，實施族群差別待遇等統治措施。</text>
+      <text size="xs" color="danger">但題目的五項政策不是元朝的典型政策。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">C｜女真</text>
+      <title size="lg">清朝</title>
+      <text size="sm">源自女真的滿洲統治集團推行剃髮易服等政策。</text>
+      <text size="xs" color="success">符合題幹所有主要線索。</text>
+    </box>
+  </grid-item>
+</grid>
+
+兩個民族都曾建立統治中原的王朝，也都出現過族群差別待遇，但**「剃髮易服」是這題最有辨識力的線索**。故宮博物院對清初剃髮政策的研究，也記載了清廷推行政策及引發反抗的歷史。<Cite refs={["turn611868search2","turn611868search1"]}/>
+
+### 六、與前面錯題的關聯
+
+目前這批歷史錯題有三道與女真、蒙古及朝代判斷有關：
+
+| 題號 | 原選 → 正解 | 決勝線索 |
+|---|---|---|
+| 第1題 | 蒙古 → 女真 | 金軍攻陷北宋汴京 |
+| 第13題 | 北宋 → 明代 | 李自成攻入北京 |
+| 第22題 | 蒙古 → 女真 | 清初剃髮易服等政策 |
+
+這顯示**「民族—朝代—歷史事件」的對應**值得優先留意，但還不能據此判定三題出錯的實際原因相同。
+
+考場可用這個簡短判斷：
+
+**女真 → 金、清的統治集團族源；蒙古 → 元。**
+
+---
+
+**v2.1 品質檢核：** P0 原題與選項、答案 C 已核對；P1 民族與朝代的對應已區分，並補充女真與滿洲名稱的歷史差異。清初政策已查核外部史學資料，但國中教材唯讀搜尋尚未查核，故不標示教材頁碼。實際誤選原因仍待作答過程證實。
+
+assistant
+### 三、精準圖解｜四個民族與建立的朝代
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={2} gap={2}>
+    {#each [{n:"鮮卑",dyn:"北魏",date:"386年建立",active:false},{n:"契丹",dyn:"遼朝",date:"916年建立",active:false},{n:"女真",dyn:"金朝、清朝",date:"清朝統治者源自女真",active:true},{n:"蒙古",dyn:"元朝",date:"1271年建立",active:false}] as v}
+      <grid-item>
+        <box background="surface-secondary" radius="md" padding={3} gap={1} border={v.active?{size:2,color:"success"}:false}>
+          <text color={v.active?"success":"default"} weight="medium">{v.n}</text>
+          <title size="md">{v.dyn}</title>
+          <text size="xs" color="secondary">{v.date}</text>
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <caption>女真建立金朝；後來女真各部逐漸整合，形成滿洲統治集團並建立清朝。並非金朝直接改名為清朝。</caption>
+</box>
+
+### 四、四選項逐項辨析
+
+| 選項 | 判斷 | 關鍵差異 |
+|---|---|---|
+| A 鮮卑 | 錯誤 | 建立北魏，與孝文帝改革有關 |
+| B 契丹 | 錯誤 | 建立遼朝，與北宋簽訂澶淵之盟 |
+| C 女真 | <text color="success" weight="medium">正確</text> | 清朝滿洲統治集團的族源 |
+| D 蒙古 | <text color="danger" weight="medium">原選</text> | 建立元朝，不是清初五項政策的推行者 |
+
+### 五、二選一決勝｜D 蒙古 vs C 女真
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D｜蒙古</text>
+      <title size="lg">元朝</title>
+      <text size="sm">忽必烈建立元朝，實施族群差別待遇等統治措施。</text>
+      <text size="xs" color="danger">但題目的五項政策不是元朝的典型政策。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">C｜女真</text>
+      <title size="lg">清朝</title>
+      <text size="sm">源自女真的滿洲統治集團推行剃髮易服等政策。</text>
+      <text size="xs" color="success">符合題幹所有主要線索。</text>
+    </box>
+  </grid-item>
+</grid>
+
+兩個民族都曾建立統治中原的王朝，也都出現過族群差別待遇，但**「剃髮易服」是這題最有辨識力的線索**。故宮博物院對清初剃髮政策的研究，也記載了清廷推行政策及引發反抗的歷史。<Cite refs={["turn611868search2","turn611868search1"]}/>
+
+### 六、與前面錯題的關聯
+
+目前這批歷史錯題有三道與女真、蒙古及朝代判斷有關：
+
+| 題號 | 原選 → 正解 | 決勝線索 |
+|---|---|---|
+| 第1題 | 蒙古 → 女真 | 金軍攻陷北宋汴京 |
+| 第13題 | 北宋 → 明代 | 李自成攻入北京 |
+| 第22題 | 蒙古 → 女真 | 清初剃髮易服等政策 |
+
+這顯示**「民族—朝代—歷史事件」的對應**值得優先留意，但還不能據此判定三題出錯的實際原因相同。
+
+考場可用這個簡短判斷：
+
+**女真 → 金、清的統治集團族源；蒙古 → 元。**
+
+---
+
+**v2.1 品質檢核：** P0 原題與選項、答案 C 已核對；P1 民族與朝代的對應已區分，並補充女真與滿洲名稱的歷史差異。清初政策已查核外部史學資料，但國中教材唯讀搜尋尚未查核，故不標示教材頁碼。實際誤選原因仍待作答過程證實。
+
+user
+[原始附件 sediment://file_0000000048cc8206bd691148fe7674a7?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+26@錯題D → C
+
+assistant
+## 第26題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜明代、蒙古</badge>
+  <text color="secondary" weight="medium">原選 D（金國、南宋）→ 正解 C（明代、蒙古）</text>
+</row>
+
+**本題核心：辨認地圖上的「大都、應天、上都」與軍隊移動方向，判斷這是元末明初的政權更替，而不是金與南宋的戰爭。**
+
+### 一、原題證據判讀
+
+題目提供兩方政權的軍隊行進路線，要求判斷甲、乙所代表的政權。
+
+四個選項：
+
+| 選項 | 甲 | 乙 | 判斷 |
+|---|---|---|---|
+| (A) | 漢代 | 匈奴 | 錯誤 |
+| (B) | 唐代 | 突厥 | 錯誤 |
+| (C) | 明代 | 蒙古 | <text color="success" weight="medium">正確</text> |
+| (D) | 金國 | 南宋 | <text color="danger" weight="medium">原選</text> |
+
+**地圖最重要的三個地名：**
+
+- **應天**：明太祖朱元璋建立明朝時的首都，即今南京。
+- **大都**：元朝首都，即今北京。
+- **上都**：元朝的重要都城之一，位於大都以北。
+
+從這些地名，以及圖中向北進軍、撤往北方的路線，可辨識出元末明初的戰爭背景。
+
+
+
+assistant
+
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第26題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜明代、蒙古</badge>
+  <text color="secondary" weight="medium">原選 D（金國、南宋）→ 正解 C（明代、蒙古）</text>
+</row>
+
+**本題核心：辨認地圖上的「大都、應天、上都」與軍隊移動方向，判斷這是元末明初的政權更替，而不是金與南宋的戰爭。**
+
+### 一、原題證據判讀
+
+題目提供兩方政權的軍隊行進路線，要求判斷甲、乙所代表的政權。
+
+四個選項：
+
+| 選項 | 甲 | 乙 | 判斷 |
+|---|---|---|---|
+| (A) | 漢代 | 匈奴 | 錯誤 |
+| (B) | 唐代 | 突厥 | 錯誤 |
+| (C) | 明代 | 蒙古 | <text color="success" weight="medium">正確</text> |
+| (D) | 金國 | 南宋 | <text color="danger" weight="medium">原選</text> |
+
+**地圖最重要的三個地名：**
+
+- **應天**：明太祖朱元璋建立明朝時的首都，即今南京。
+- **大都**：元朝首都，即今北京。
+- **上都**：元朝的重要都城之一，位於大都以北。
+
+從這些地名，以及圖中向北進軍、撤往北方的路線，可辨識出元末明初的戰爭背景。
+
+### 二、精準圖解｜明軍北伐與蒙古撤退
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 235" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="320" height="215" rx="10" fill="#94a3b8" fillOpacity=".07"/>
+    <text x="170" y="30" textAnchor="middle" fill="currentColor" fontSize="14" fontWeight="600">1368年｜元末明初</text>
+    <path d="M106 181 C80 154 114 125 164 112 S190 72 206 66" stroke="#16a34a" strokeWidth="4" fill="none" strokeLinecap="round"/>
+    <path d="M206 66 l-13 4 8 10 Z" fill="#16a34a"/>
+    <path d="M223 57 Q251 40 260 18" stroke="#dc2626" strokeWidth="4" strokeDasharray="6 5" fill="none" strokeLinecap="round"/>
+    <path d="M260 18 l-12 6 11 7 Z" fill="#dc2626"/>
+    <circle cx="106" cy="181" r="5" fill="#16a34a"/>
+    <circle cx="164" cy="112" r="5" fill="#16a34a"/>
+    <circle cx="223" cy="57" r="5" fill="#475569"/>
+    <circle cx="261" cy="18" r="5" fill="#dc2626"/>
+    <text x="73" y="199" fontSize="13" fill="currentColor">應天</text>
+    <text x="133" y="132" fontSize="13" fill="currentColor">中原</text>
+    <text x="180" y="49" fontSize="13" fill="currentColor">大都</text>
+    <text x="275" y="20" fontSize="13" fill="currentColor">上都</text>
+    <rect x="14" y="52" width="112" height="44" rx="6" fill="#dcfce7"/>
+    <text x="70" y="70" textAnchor="middle" fontSize="13" fill="#166534" fontWeight="600">甲：明軍</text>
+    <text x="70" y="86" textAnchor="middle" fontSize="12" fill="#166534">向北征伐</text>
+    <rect x="211" y="135" width="111" height="47" rx="6" fill="#fee2e2"/>
+    <text x="266" y="153" textAnchor="middle" fontSize="13" fill="#991b1b" fontWeight="600">乙：蒙古</text>
+    <text x="266" y="170" textAnchor="middle" fontSize="12" fill="#991b1b">向北撤退</text>
+    <text x="170" y="216" textAnchor="middle" fontSize="11" fill="currentColor">概念位置示意，非精確地圖或原圖路徑重製</text>
+  </svg>
+</box>
+
+1367年，朱元璋派徐達率軍北伐。1368年，明軍攻取大都，元順帝撤往上都，元朝在中原的統治結束。<Cite refs={["turn553609search0","turn553609search10"]}/>
+
+這就是題圖中的歷史背景。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 關鍵原因 |
+|---|---|---|
+| (A) 漢代、匈奴 | 錯誤 | 漢匈戰爭早於圖中大都作為元朝首都的時期 |
+| (B) 唐代、突厥 | 錯誤 | 唐突戰爭也早於元末明初 |
+| (C) 明代、蒙古 | <text color="success" weight="medium">正確</text> | 明軍北伐，蒙古元廷撤離大都 |
+| (D) 金國、南宋 | <text color="danger" weight="medium">原選</text> | 金、南宋對峙時期不符合大都、上都的路線背景 |
+
+### 四、二選一決勝｜D vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D｜金國、南宋</text>
+      <text size="sm">金國曾統治北方</text>
+      <text size="sm">南宋主要以臨安為首都</text>
+      <text color="danger" weight="medium" size="xs">無法解釋元大都與上都的撤退路線</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">C｜明代、蒙古</text>
+      <text size="sm">明軍從南方向北推進</text>
+      <text size="sm">蒙古元廷由大都撤往上都</text>
+      <text color="success" weight="medium" size="xs">地點與移動方向均符合</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝技巧：先認地名，再看箭頭，最後判斷政權。**
+
+這題只要認出「大都＝元朝首都」，再確認明軍向北進攻，就能排除 D。
+
+### 五、和前面錯題的連結
+
+| 題號 | 關鍵事件 | 判斷重點 |
+|---|---|---|
+| 第1題 | 1127年金滅北宋 | 女真攻陷汴京 |
+| 第13題 | 1644年明朝北京陷落 | 李自成起義軍 |
+| 第26題 | 1368年明軍攻取元大都 | 明朝取代元朝在中原的統治 |
+
+這三題共同提醒：**同樣是都城陷落，要分清楚時代、攻擊者和被攻擊的政權。**
+
+### 六、錯題診斷與品質檢核
+
+原選 D 可能是將北方政權和南方政權的對峙，與元末明初的軍事行動混淆。但沒有原始判斷過程，不能認定實際錯因。
+
+- **P0：** 原題四個選項、正解 C 與史實已核對。
+- **P1：** 圖解呈現明軍北進、蒙古元廷北撤；原題其他支線行軍路徑未完整重繪。
+- **教材查核：** 尚未使用國中教材唯讀搜尋；另以故宮及史學資料核對史實。
+
+**一句話記憶：明軍從南往北攻元大都，蒙古元廷從大都往北退上都。**
+
+assistant
+### 二、精準圖解｜明軍北伐與蒙古撤退
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 235" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="320" height="215" rx="10" fill="#94a3b8" fillOpacity=".07"/>
+    <text x="170" y="30" textAnchor="middle" fill="currentColor" fontSize="14" fontWeight="600">1368年｜元末明初</text>
+    <path d="M106 181 C80 154 114 125 164 112 S190 72 206 66" stroke="#16a34a" strokeWidth="4" fill="none" strokeLinecap="round"/>
+    <path d="M206 66 l-13 4 8 10 Z" fill="#16a34a"/>
+    <path d="M223 57 Q251 40 260 18" stroke="#dc2626" strokeWidth="4" strokeDasharray="6 5" fill="none" strokeLinecap="round"/>
+    <path d="M260 18 l-12 6 11 7 Z" fill="#dc2626"/>
+    <circle cx="106" cy="181" r="5" fill="#16a34a"/>
+    <circle cx="164" cy="112" r="5" fill="#16a34a"/>
+    <circle cx="223" cy="57" r="5" fill="#475569"/>
+    <circle cx="261" cy="18" r="5" fill="#dc2626"/>
+    <text x="73" y="199" fontSize="13" fill="currentColor">應天</text>
+    <text x="133" y="132" fontSize="13" fill="currentColor">中原</text>
+    <text x="180" y="49" fontSize="13" fill="currentColor">大都</text>
+    <text x="275" y="20" fontSize="13" fill="currentColor">上都</text>
+    <rect x="14" y="52" width="112" height="44" rx="6" fill="#dcfce7"/>
+    <text x="70" y="70" textAnchor="middle" fontSize="13" fill="#166534" fontWeight="600">甲：明軍</text>
+    <text x="70" y="86" textAnchor="middle" fontSize="12" fill="#166534">向北征伐</text>
+    <rect x="211" y="135" width="111" height="47" rx="6" fill="#fee2e2"/>
+    <text x="266" y="153" textAnchor="middle" fontSize="13" fill="#991b1b" fontWeight="600">乙：蒙古</text>
+    <text x="266" y="170" textAnchor="middle" fontSize="12" fill="#991b1b">向北撤退</text>
+    <text x="170" y="216" textAnchor="middle" fontSize="11" fill="currentColor">概念位置示意，非精確地圖或原圖路徑重製</text>
+  </svg>
+</box>
+
+1367年，朱元璋派徐達率軍北伐。1368年，明軍攻取大都，元順帝撤往上都，元朝在中原的統治結束。<Cite refs={["turn553609search0","turn553609search10"]}/>
+
+這就是題圖中的歷史背景。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 關鍵原因 |
+|---|---|---|
+| (A) 漢代、匈奴 | 錯誤 | 漢匈戰爭早於圖中大都作為元朝首都的時期 |
+| (B) 唐代、突厥 | 錯誤 | 唐突戰爭也早於元末明初 |
+| (C) 明代、蒙古 | <text color="success" weight="medium">正確</text> | 明軍北伐，蒙古元廷撤離大都 |
+| (D) 金國、南宋 | <text color="danger" weight="medium">原選</text> | 金、南宋對峙時期不符合大都、上都的路線背景 |
+
+### 四、二選一決勝｜D vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D｜金國、南宋</text>
+      <text size="sm">金國曾統治北方</text>
+      <text size="sm">南宋主要以臨安為首都</text>
+      <text color="danger" weight="medium" size="xs">無法解釋元大都與上都的撤退路線</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">C｜明代、蒙古</text>
+      <text size="sm">明軍從南方向北推進</text>
+      <text size="sm">蒙古元廷由大都撤往上都</text>
+      <text color="success" weight="medium" size="xs">地點與移動方向均符合</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝技巧：先認地名，再看箭頭，最後判斷政權。**
+
+這題只要認出「大都＝元朝首都」，再確認明軍向北進攻，就能排除 D。
+
+### 五、和前面錯題的連結
+
+| 題號 | 關鍵事件 | 判斷重點 |
+|---|---|---|
+| 第1題 | 1127年金滅北宋 | 女真攻陷汴京 |
+| 第13題 | 1644年明朝北京陷落 | 李自成起義軍 |
+| 第26題 | 1368年明軍攻取元大都 | 明朝取代元朝在中原的統治 |
+
+這三題共同提醒：**同樣是都城陷落，要分清楚時代、攻擊者和被攻擊的政權。**
+
+### 六、錯題診斷與品質檢核
+
+原選 D 可能是將北方政權和南方政權的對峙，與元末明初的軍事行動混淆。但沒有原始判斷過程，不能認定實際錯因。
+
+- **P0：** 原題四個選項、正解 C 與史實已核對。
+- **P1：** 圖解呈現明軍北進、蒙古元廷北撤；原題其他支線行軍路徑未完整重繪。
+- **教材查核：** 尚未使用國中教材唯讀搜尋；另以故宮及史學資料核對史實。
+
+**一句話記憶：明軍從南往北攻元大都，蒙古元廷從大都往北退上都。**
+
+user
+[原始附件 sediment://file_0000000057288206be1813194d5381f9?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+30@錯題D → C
+
+assistant
+## 第30題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜明代</badge>
+  <text color="secondary" weight="medium">原選 D（清代）→ 正解 C（明代）</text>
+</row>
+
+**本題核心：利瑪竇是在明朝萬曆年間來中國傳教，不是清朝。**
+
+這題容易混淆，因為西方傳教士在明、清兩朝都有活動，但題目問的是「開始在中國傳教」的時代。
+
+### 一、原題證據判讀
+
+第28～30題共用同一段文章，提供以下線索：
+
+- 人物自稱「西儒」，奉行儒家風範。
+- 以儒家經典解釋天主教教義。
+- 認為祭祖、祭孔屬於中國傳統，而非宗教活動。
+- 主張基督徒也能參與祭祖、祭孔。
+
+這些特徵指向義大利耶穌會傳教士 **<Entity category="people" value="利瑪竇" disambig="明代來華耶穌會傳教士"/>**。
+
+第30題問：
+
+「上文中這位人物於何時開始在中國傳教？」
+
+| 選項 | 朝代 | 判斷 |
+|---|---|---|
+| (A) | 宋代 | 錯誤 |
+| (B) | 元代 | 錯誤 |
+| (C) | 明代 | <text color="success" weight="medium">正確</text> |
+| (D) | 清代 | <text color="danger" weight="medium">原選</text> |
+
+
+
+assistant
+
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第30題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜明代</badge>
+  <text color="secondary" weight="medium">原選 D（清代）→ 正解 C（明代）</text>
+</row>
+
+**本題核心：利瑪竇是在明朝萬曆年間來中國傳教，不是清朝。**
+
+這題容易混淆，因為西方傳教士在明、清兩朝都有活動，但題目問的是「開始在中國傳教」的時代。
+
+### 一、原題證據判讀
+
+第28～30題共用同一段文章，提供以下線索：
+
+- 人物自稱「西儒」，奉行儒家風範。
+- 以儒家經典解釋天主教教義。
+- 認為祭祖、祭孔屬於中國傳統，而非宗教活動。
+- 主張基督徒也能參與祭祖、祭孔。
+
+這些特徵指向義大利耶穌會傳教士 **<Entity category="people" value="利瑪竇" disambig="明代來華耶穌會傳教士"/>**。
+
+第30題問：
+
+「上文中這位人物於何時開始在中國傳教？」
+
+| 選項 | 朝代 | 判斷 |
+|---|---|---|
+| (A) | 宋代 | 錯誤 |
+| (B) | 元代 | 錯誤 |
+| (C) | 明代 | <text color="success" weight="medium">正確</text> |
+| (D) | 清代 | <text color="danger" weight="medium">原選</text> |
+
+### 二、精準時間線｜利瑪竇何時來華？
+
+<box border radius="lg" padding={3} gap={2}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      **1582年｜明朝萬曆年間**
+
+      利瑪竇抵達澳門，開始準備進入中國內地傳教。
+    </list-item>
+    <list-item>
+      **1583年｜進入肇慶**
+
+      利瑪竇與羅明堅在肇慶建立傳教據點，展開傳教活動。
+    </list-item>
+    <list-item>
+      **1601年｜進入北京**
+
+      利瑪竇進入北京，推動中西文化、宗教與科學交流。
+    </list-item>
+    <list-item>
+      **1610年｜逝世**
+
+      利瑪竇在北京逝世，當時仍是明朝。
+    </list-item>
+    <list-item>
+      **1644年｜清軍入關**
+
+      已經是利瑪竇逝世34年之後。
+    </list-item>
+  </list>
+  <caption>1582至1583年來華傳教的時間，已由澳門歷史研究資料核實。<Cite refs={["turn727028search2","turn727028search3"]}/></caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| (A) 宋代 | 錯誤 | 早於利瑪竇來華 |
+| (B) 元代 | 錯誤 | 元代雖有基督宗教傳入，但不是利瑪竇的時代 |
+| (C) 明代 | <text color="success" weight="medium">正確</text> | 1583年利瑪竇於明朝萬曆年間展開傳教 |
+| (D) 清代 | <text color="danger" weight="medium">原選</text> | 清代發生重要的中國禮儀之爭，但利瑪竇早已在明朝來華 |
+
+### 四、二選一決勝｜D 清代 vs C 明代
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D｜清代</text>
+      <title size="lg">1644年</title>
+      <text size="sm">清軍入關</text>
+      <text size="xs" color="danger">利瑪竇已逝世34年</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">C｜明代</text>
+      <title size="lg">1583年</title>
+      <text size="sm">利瑪竇進入肇慶傳教</text>
+      <text size="xs" color="success">符合題目詢問的開始時間</text>
+    </box>
+  </grid-item>
+</grid>
+
+本題容易出現的混淆是：利瑪竇對祭祖、祭孔的態度，後來引發的「中國禮儀之爭」延續到清朝，尤其康熙年間。但**爭議在清朝延續，不等於利瑪竇在清朝才來華。** <Cite refs={["turn727028search25","turn727028search4"]}/>
+
+### 五、與第28、29題連結
+
+這三題共用同一段文章，可整理成：
+
+| 題號 | 關鍵知識 | 答案 |
+|---|---|---|
+| 28 | 尊重儒家祭祖祭孔文化的傳教士 | 利瑪竇 |
+| 29 | 將西方數學著作介紹至中國 | 《幾何原本》 |
+| 30 | 利瑪竇開始在中國傳教的朝代 | 明代 |
+
+### 六、錯題診斷與品質檢核
+
+本題原選 D，可能把明末利瑪竇來華與清代禮儀之爭混為同一時期。不過，目前沒有原始作答思路，不能確認實際錯因。
+
+- **P0：** 原題選項及正解 C 已核對，1582、1583年時間證據一致。
+- **P1：** 明清時間線與傳教歷程一致。
+- **教材證據：** 已核實外部歷史資料，國中教材唯讀搜尋尚未查核。
+- **二選一決勝：** 明朝開始傳教，清朝延續相關爭議。
+
+**一句話記憶：明末利瑪竇來華，清代禮儀之爭延續。**
+
+這題與前面的第13、15、22、26題一樣，都值得在作答時先確認「事件發生的時間」，再決定朝代，而不是只憑熟悉的人物或民族名稱選答案。
+
+assistant
+### 二、精準時間線｜利瑪竇何時來華？
+
+<box border radius="lg" padding={3} gap={2}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      **1582年｜明朝萬曆年間**
+
+      利瑪竇抵達澳門，開始準備進入中國內地傳教。
+    </list-item>
+    <list-item>
+      **1583年｜進入肇慶**
+
+      利瑪竇與羅明堅在肇慶建立傳教據點，展開傳教活動。
+    </list-item>
+    <list-item>
+      **1601年｜進入北京**
+
+      利瑪竇進入北京，推動中西文化、宗教與科學交流。
+    </list-item>
+    <list-item>
+      **1610年｜逝世**
+
+      利瑪竇在北京逝世，當時仍是明朝。
+    </list-item>
+    <list-item>
+      **1644年｜清軍入關**
+
+      已經是利瑪竇逝世34年之後。
+    </list-item>
+  </list>
+  <caption>1582至1583年來華傳教的時間，已由澳門歷史研究資料核實。<Cite refs={["turn727028search2","turn727028search3"]}/></caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| (A) 宋代 | 錯誤 | 早於利瑪竇來華 |
+| (B) 元代 | 錯誤 | 元代雖有基督宗教傳入，但不是利瑪竇的時代 |
+| (C) 明代 | <text color="success" weight="medium">正確</text> | 1583年利瑪竇於明朝萬曆年間展開傳教 |
+| (D) 清代 | <text color="danger" weight="medium">原選</text> | 清代發生重要的中國禮儀之爭，但利瑪竇早已在明朝來華 |
+
+### 四、二選一決勝｜D 清代 vs C 明代
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D｜清代</text>
+      <title size="lg">1644年</title>
+      <text size="sm">清軍入關</text>
+      <text size="xs" color="danger">利瑪竇已逝世34年</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">C｜明代</text>
+      <title size="lg">1583年</title>
+      <text size="sm">利瑪竇進入肇慶傳教</text>
+      <text size="xs" color="success">符合題目詢問的開始時間</text>
+    </box>
+  </grid-item>
+</grid>
+
+本題容易出現的混淆是：利瑪竇對祭祖、祭孔的態度，後來引發的「中國禮儀之爭」延續到清朝，尤其康熙年間。但**爭議在清朝延續，不等於利瑪竇在清朝才來華。** <Cite refs={["turn727028search25","turn727028search4"]}/>
+
+### 五、與第28、29題連結
+
+這三題共用同一段文章，可整理成：
+
+| 題號 | 關鍵知識 | 答案 |
+|---|---|---|
+| 28 | 尊重儒家祭祖祭孔文化的傳教士 | 利瑪竇 |
+| 29 | 將西方數學著作介紹至中國 | 《幾何原本》 |
+| 30 | 利瑪竇開始在中國傳教的朝代 | 明代 |
+
+### 六、錯題診斷與品質檢核
+
+本題原選 D，可能把明末利瑪竇來華與清代禮儀之爭混為同一時期。不過，目前沒有原始作答思路，不能確認實際錯因。
+
+- **P0：** 原題選項及正解 C 已核對，1582、1583年時間證據一致。
+- **P1：** 明清時間線與傳教歷程一致。
+- **教材證據：** 已核實外部歷史資料，國中教材唯讀搜尋尚未查核。
+- **二選一決勝：** 明朝開始傳教，清朝延續相關爭議。
+
+**一句話記憶：明末利瑪竇來華，清代禮儀之爭延續。**
+
+這題與前面的第13、15、22、26題一樣，都值得在作答時先確認「事件發生的時間」，再決定朝代，而不是只憑熟悉的人物或民族名稱選答案。
+
+user
+[原始附件 sediment://file_00000000e7e08206b023f7fab4c26e37?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+27@錯題D → C
+
+assistant
+
+
+assistant
+## 第27題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C</badge>
+  <text color="secondary" weight="medium">原選 D → 正解 C</text>
+</row>
+
+**本題核心：區分「行政責任」與「公司未依法投保的責任」，並判斷誰才是法律上的處罰對象。**
+
+### 一、原題證據判讀
+
+題目描述美食外送平台招募外送員，條件包括：
+
+1. 年滿19歲。
+2. 持有合法機車。
+3. 持有效機車駕照、行照。
+4. 投保強制險、營業用第三人責任險（特定區域要求）。
+
+問：哪一位年輕人的說法正確？
+
+| 選項 | 主要說法 | 判斷 |
+|---|---|---|
+| (A) | 車禍屬於負刑事責任的行為 | 錯誤，不能一概而論 |
+| (B) | 未成年童工也能擔任外送員 | 錯誤，不符合題目招募條件 |
+| (C) | 無照駕駛應自行承擔行政責任 | <text color="success" weight="medium">正確</text> |
+| (D) | 未依公司規定投保，會受到公權力懲罰 | <text color="danger" weight="medium">原選</text> |
+
+
+
+assistant
+
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第27題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C</badge>
+  <text color="secondary" weight="medium">原選 D → 正解 C</text>
+</row>
+
+**本題核心：區分「行政責任」與「公司未依法投保的責任」，並判斷誰才是法律上的處罰對象。**
+
+### 一、原題證據判讀
+
+題目描述美食外送平台招募外送員，條件包括：
+
+1. 年滿19歲。
+2. 持有合法機車。
+3. 持有效機車駕照、行照。
+4. 投保強制險、營業用第三人責任險（特定區域要求）。
+
+問：哪一位年輕人的說法正確？
+
+| 選項 | 主要說法 | 判斷 |
+|---|---|---|
+| (A) | 車禍屬於負刑事責任的行為 | 錯誤，不能一概而論 |
+| (B) | 未成年童工也能擔任外送員 | 錯誤，不符合題目招募條件 |
+| (C) | 無照駕駛應自行承擔行政責任 | <text color="success" weight="medium">正確</text> |
+| (D) | 未依公司規定投保，會受到公權力懲罰 | <text color="danger" weight="medium">原選</text> |
+
+### 二、精準圖解｜公權力處罰 vs 公司規定
+
+<box border radius="lg" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={2}>
+        <icon name="scale" size="2xl" color="success"/>
+        **無照駕駛**
+        <text size="sm" textAlign="center">違反交通法規</text>
+        <icon name="arrow-down" color="secondary"/>
+        <text weight="medium" color="success">政府依法裁罰</text>
+        <text size="xs" textAlign="center" color="secondary">行政責任</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={2}>
+        <icon name="file-text" size="2xl"/>
+        **違反公司要求**
+        <text size="sm" textAlign="center">不一定違反法律</text>
+        <icon name="arrow-down" color="secondary"/>
+        <text weight="medium">可能影響契約</text>
+        <text size="xs" textAlign="center" color="secondary">不當然由政府處罰</text>
+      </box>
+    </grid-item>
+  </grid>
+  <text size="xs" color="secondary">注意：如果違反的同時也是法律義務，仍可能產生公法責任。必須看具體法規與處罰對象。</text>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) 車禍是刑事責任：錯誤**
+
+發生車禍不一定構成犯罪，要看是否涉及過失傷害、過失致死等犯罪要件。也可能涉及民事賠償與行政責任。
+
+**(B) 未成年童工可以擔任外送員：錯誤**
+
+題目招募條件明定年滿19歲，因此不符合。另須注意，未滿18歲不等於一律不能工作，而是受到勞動法規特殊保護與限制。
+
+**(C) 無照駕駛應承擔行政責任：正確**
+
+無照駕駛違反《道路交通管理處罰條例》，可受到罰鍰等行政處罰，因此本題選 C。<Cite refs={["turn145819search7"]}/>
+
+**(D) 未依公司規定投保會受到公權力懲罰：本題錯誤**
+
+本選項把「不遵守公司要求」直接等同「受到政府處罰」，推論不夠嚴謹。
+
+不過這裡有一項重要法律補充：2026年7月21日施行的《外送員權益保障及外送平臺管理法》，已明定外送平台業者的相關投保義務。若違反法定義務，可能受到行政處罰，但不代表外送員只要不符合公司的投保要求，就必然由政府處罰外送員。<Cite refs={["turn145819search1","turn145819search6"]}/>
+
+因此要區分**公司要求、法律義務與受處罰者**，不能直接畫上等號。
+
+### 四、二選一決勝｜D vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+      <text color="danger" weight="medium">原選 D</text>
+      **公司規定 ≠ 法律規定**
+      <text size="sm">違反公司規定，不一定構成行政違法。</text>
+      <text color="danger" size="xs">缺少明確的法律與處罰對象判斷</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+      <text color="success" weight="medium">正解 C</text>
+      **無照駕駛 → 行政違法**
+      <text size="sm">交通法規直接規範無照駕駛行為。</text>
+      <text color="success" size="xs">法律依據明確</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、錯題診斷與考場檢核
+
+本題可能的誤選機制是將「違反公司規定」和「違反國家法律」混為一談。但目前只有 D → C，未提供完整作答過程，不能確定實際原因。
+
+**考場三秒判斷：誰訂規則？誰有權處罰？違反的是法律還是契約？**
+
+這比單純背誦各種責任名稱，更有助於處理公民科情境題。
+
+---
+
+**v2.1 品質檢核**
+
+- **P0：** 原題四個選項與正解 C 核對完成。
+- **P1：** 區分法律、公司契約與行政處罰；已補充2026年相關法規變動，避免過度簡化 D。
+- **教材證據：** 已查核現行官方法規，國中教材唯讀搜尋尚未查核。
+- **錯因：** 尚無完整作答過程，未判定為已確認錯因。
+
+**一句話記憶：無照駕駛有法律處罰依據；違反公司規定，則要再確認是否同時違反法律。**
+
+assistant
+### 二、精準圖解｜公權力處罰 vs 公司規定
+
+<box border radius="lg" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={2}>
+        <icon name="scale" size="2xl" color="success"/>
+        **無照駕駛**
+        <text size="sm" textAlign="center">違反交通法規</text>
+        <icon name="arrow-down" color="secondary"/>
+        <text weight="medium" color="success">政府依法裁罰</text>
+        <text size="xs" textAlign="center" color="secondary">行政責任</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={2}>
+        <icon name="file-text" size="2xl"/>
+        **違反公司要求**
+        <text size="sm" textAlign="center">不一定違反法律</text>
+        <icon name="arrow-down" color="secondary"/>
+        <text weight="medium">可能影響契約</text>
+        <text size="xs" textAlign="center" color="secondary">不當然由政府處罰</text>
+      </box>
+    </grid-item>
+  </grid>
+  <text size="xs" color="secondary">注意：如果違反的同時也是法律義務，仍可能產生公法責任。必須看具體法規與處罰對象。</text>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) 車禍是刑事責任：錯誤**
+
+發生車禍不一定構成犯罪，要看是否涉及過失傷害、過失致死等犯罪要件。也可能涉及民事賠償與行政責任。
+
+**(B) 未成年童工可以擔任外送員：錯誤**
+
+題目招募條件明定年滿19歲，因此不符合。另須注意，未滿18歲不等於一律不能工作，而是受到勞動法規特殊保護與限制。
+
+**(C) 無照駕駛應承擔行政責任：正確**
+
+無照駕駛違反《道路交通管理處罰條例》，可受到罰鍰等行政處罰，因此本題選 C。<Cite refs={["turn145819search7"]}/>
+
+**(D) 未依公司規定投保會受到公權力懲罰：本題錯誤**
+
+本選項把「不遵守公司要求」直接等同「受到政府處罰」，推論不夠嚴謹。
+
+不過這裡有一項重要法律補充：2026年7月21日施行的《外送員權益保障及外送平臺管理法》，已明定外送平台業者的相關投保義務。若違反法定義務，可能受到行政處罰，但不代表外送員只要不符合公司的投保要求，就必然由政府處罰外送員。<Cite refs={["turn145819search1","turn145819search6"]}/>
+
+因此要區分**公司要求、法律義務與受處罰者**，不能直接畫上等號。
+
+### 四、二選一決勝｜D vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+      <text color="danger" weight="medium">原選 D</text>
+      **公司規定 ≠ 法律規定**
+      <text size="sm">違反公司規定，不一定構成行政違法。</text>
+      <text color="danger" size="xs">缺少明確的法律與處罰對象判斷</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" padding={3} radius="lg" gap={1}>
+      <text color="success" weight="medium">正解 C</text>
+      **無照駕駛 → 行政違法**
+      <text size="sm">交通法規直接規範無照駕駛行為。</text>
+      <text color="success" size="xs">法律依據明確</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、錯題診斷與考場檢核
+
+本題可能的誤選機制是將「違反公司規定」和「違反國家法律」混為一談。但目前只有 D → C，未提供完整作答過程，不能確定實際原因。
+
+**考場三秒判斷：誰訂規則？誰有權處罰？違反的是法律還是契約？**
+
+這比單純背誦各種責任名稱，更有助於處理公民科情境題。
+
+---
+
+**v2.1 品質檢核**
+
+- **P0：** 原題四個選項與正解 C 核對完成。
+- **P1：** 區分法律、公司契約與行政處罰；已補充2026年相關法規變動，避免過度簡化 D。
+- **教材證據：** 已查核現行官方法規，國中教材唯讀搜尋尚未查核。
+- **錯因：** 尚無完整作答過程，未判定為已確認錯因。
+
+**一句話記憶：無照駕駛有法律處罰依據；違反公司規定，則要再確認是否同時違反法律。**
+
+user
+[原始附件 sediment://file_0000000007ec82069745f000654a7d2d?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+44@錯題A → D
+
+assistant
+
+
+assistant
+## 第44題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 D</text>
+</row>
+
+**本題核心：判讀氣候圖時，不能只看「冬天很冷」，還必須結合「全年降水量」與「雨量集中季節」。**
+
+### 一、原題證據判讀
+
+文章提供2024年1月尼泊爾日喀則附近發生地震的背景，並指出震央位於：
+
+- 海拔約4,000公尺的高地。
+- 白天氣溫約 −7°C。
+- 夜間降至 −18°C。
+- 屬於高海拔、寒冷的氣候環境。
+
+題目問：**哪一張氣候圖最能呈現地震發生地區的氣候變化？**
+
+依照原圖，四個選項的主要資料如下：
+
+| 選項 | 年均溫 | 年降水量 | 氣候特徵 |
+|---|---:|---:|---|
+| A 原選 | 4.3°C | 524 mm | 冬季很冷，夏季較暖，雨量夏季集中 |
+| B | 12.5°C | 36 mm | 非常乾燥，全年降水極少 |
+| C | 16.6°C | 1,184 mm | 氣溫較高，雨量較多 |
+| D 正解 | 8°C | 427 mm | 冬冷夏涼，雨量集中於夏季 |
+
+注意：氣候圖的「年均溫」是全年平均，文章的 −7°C、−18°C 是地震期間的短期氣溫，兩者不能直接當作同一項數據比較。
+
+
+
+assistant
+
+
+assistant
+## 第44題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 D</text>
+</row>
+
+**本題核心：判讀氣候圖時，不能只看「冬天很冷」，還必須結合「全年降水量」與「雨量集中季節」。**
+
+### 一、原題證據判讀
+
+文章提供2024年1月尼泊爾日喀則附近發生地震的背景，並指出震央位於：
+
+- 海拔約4,000公尺的高地。
+- 白天氣溫約 −7°C。
+- 夜間降至 −18°C。
+- 屬於高海拔、寒冷的氣候環境。
+
+題目問：**哪一張氣候圖最能呈現地震發生地區的氣候變化？**
+
+依照原圖，四個選項的主要資料如下：
+
+| 選項 | 年均溫 | 年降水量 | 氣候特徵 |
+|---|---:|---:|---|
+| A 原選 | 4.3°C | 524 mm | 冬季很冷，夏季較暖，雨量夏季集中 |
+| B | 12.5°C | 36 mm | 非常乾燥，全年降水極少 |
+| C | 16.6°C | 1,184 mm | 氣溫較高，雨量較多 |
+| D 正解 | 8°C | 427 mm | 冬冷夏涼，雨量集中於夏季 |
+
+注意：氣候圖的「年均溫」是全年平均，文章的 −7°C、−18°C 是地震期間的短期氣溫，兩者不能直接當作同一項數據比較。
+
+### 二、精準圖解｜A 與 D 的關鍵差異
+
+<box border radius="lg" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box gap={1}>
+        <text weight="medium" color="danger">A｜冬季過冷、夏季過熱</text>
+        <Chart content={{"chartType":"line","meta":{"footer":"依原題曲線約略讀值，非逐月精確數據"},"xKey":"month","series":[{"dataKey":"temp","label":"氣溫","valueSuffix":"°C"}],"yAxisMin":-25,"yAxisMax":30,"data":[{"month":"1月","temp":-18},{"month":"3月","temp":-5},{"month":"5月","temp":13},{"month":"7月","temp":24},{"month":"9月","temp":17},{"month":"11月","temp":-7},{"month":"12月","temp":-15}]}}/>
+        <text size="sm">年均溫較低，但夏季最高溫約25°C，年溫差非常大。</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box gap={1}>
+        <text weight="medium" color="success">D｜冬冷、夏季較涼</text>
+        <Chart content={{"chartType":"line","meta":{"footer":"依原題曲線約略讀值，非逐月精確數據"},"xKey":"month","series":[{"dataKey":"temp","label":"氣溫","valueSuffix":"°C"}],"yAxisMin":-25,"yAxisMax":30,"data":[{"month":"1月","temp":-5},{"month":"3月","temp":2},{"month":"5月","temp":10},{"month":"7月","temp":16},{"month":"9月","temp":13},{"month":"11月","temp":2},{"month":"12月","temp":-5}]}}/>
+        <text size="sm">夏季溫度較低，較符合青藏高原高海拔地區的氣候特徵。</text>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>以上是依原圖估讀的示意折線，判斷仍以題目照片中的原始氣候圖為準。</caption>
+</box>
+
+**關鍵不是「哪張圖冬天最低溫更低」，而是「哪張圖整體更符合高海拔高原氣候」。**
+
+### 三、四選項逐項辨析
+
+**(A) 錯誤｜原選**
+
+冬季嚴寒，看起來符合題幹的負溫，但夏季升溫到約25°C，年溫差過大，較像冬冷夏熱的大陸性氣候。
+
+**(B) 錯誤**
+
+全年降水量只有36 mm，極端乾燥；而氣溫曲線的冬夏特徵也不如 D 符合。
+
+**(C) 錯誤**
+
+年均溫較高、全年雨量超過1,000 mm，與題目描述的寒冷高地不符。
+
+**(D) 正確**
+
+冬冷夏涼、降水量不多且集中在夏季，與日喀則高海拔地區的氣候特徵最接近。
+
+### 四、二選一決勝｜A vs D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 A</text>
+      <title size="lg">冬天極冷</title>
+      <text size="sm">容易被負溫吸引</text>
+      <text color="danger" size="xs">忽略夏季氣溫偏高</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 D</text>
+      <title size="lg">夏季涼爽</title>
+      <text size="sm">冬冷、夏涼、夏雨集中</text>
+      <text color="success" size="xs">整體符合高原氣候</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、考場快速檢核
+
+這類氣候圖題目，依序判斷：
+
+1. **地形高度**：高海拔通常氣溫較低。
+2. **全年氣溫曲線**：高原地區常見夏季較涼的特徵。
+3. **降水量及季節**：確認全年雨量與雨季是否符合所在地區。
+
+不要只挑選某個月最接近題幹溫度的圖。
+
+### 六、錯題診斷與品質檢核
+
+原選 A，可能是過度重視冬季負溫，忽略夏季氣溫與整體氣候型態。但沒有作答過程，不能確認實際錯因。
+
+- **P0：** 四選項與 A → D 訂正已核對。
+- **P1：** 使用原圖的年均溫、降水量，重新比較冬夏特徵；示意折線的月溫屬約略估讀。
+- **教材證據：** 尚未使用國中教材唯讀搜尋。
+
+另有一項原題背景需要注意：日喀則位於中國西藏，不是尼泊爾；題目照片寫的是「中國日喀則」。
+
+**一句話記憶：高海拔氣候，不只冬天冷，夏天通常也比較涼。**
+
+這題最值得改善的是「從單一線索選答案」轉向「用完整氣候特徵檢查最後兩個選項」，不需要增加額外練習題。
+
+assistant
+### 二、精準圖解｜A 與 D 的關鍵差異
+
+<box border radius="lg" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box gap={1}>
+        <text weight="medium" color="danger">A｜冬季過冷、夏季過熱</text>
+        <Chart content={{"chartType":"line","meta":{"footer":"依原題曲線約略讀值，非逐月精確數據"},"xKey":"month","series":[{"dataKey":"temp","label":"氣溫","valueSuffix":"°C"}],"yAxisMin":-25,"yAxisMax":30,"data":[{"month":"1月","temp":-18},{"month":"3月","temp":-5},{"month":"5月","temp":13},{"month":"7月","temp":24},{"month":"9月","temp":17},{"month":"11月","temp":-7},{"month":"12月","temp":-15}]}}/>
+        <text size="sm">年均溫較低，但夏季最高溫約25°C，年溫差非常大。</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box gap={1}>
+        <text weight="medium" color="success">D｜冬冷、夏季較涼</text>
+        <Chart content={{"chartType":"line","meta":{"footer":"依原題曲線約略讀值，非逐月精確數據"},"xKey":"month","series":[{"dataKey":"temp","label":"氣溫","valueSuffix":"°C"}],"yAxisMin":-25,"yAxisMax":30,"data":[{"month":"1月","temp":-5},{"month":"3月","temp":2},{"month":"5月","temp":10},{"month":"7月","temp":16},{"month":"9月","temp":13},{"month":"11月","temp":2},{"month":"12月","temp":-5}]}}/>
+        <text size="sm">夏季溫度較低，較符合青藏高原高海拔地區的氣候特徵。</text>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>以上是依原圖估讀的示意折線，判斷仍以題目照片中的原始氣候圖為準。</caption>
+</box>
+
+**關鍵不是「哪張圖冬天最低溫更低」，而是「哪張圖整體更符合高海拔高原氣候」。**
+
+### 三、四選項逐項辨析
+
+**(A) 錯誤｜原選**
+
+冬季嚴寒，看起來符合題幹的負溫，但夏季升溫到約25°C，年溫差過大，較像冬冷夏熱的大陸性氣候。
+
+**(B) 錯誤**
+
+全年降水量只有36 mm，極端乾燥；而氣溫曲線的冬夏特徵也不如 D 符合。
+
+**(C) 錯誤**
+
+年均溫較高、全年雨量超過1,000 mm，與題目描述的寒冷高地不符。
+
+**(D) 正確**
+
+冬冷夏涼、降水量不多且集中在夏季，與日喀則高海拔地區的氣候特徵最接近。
+
+### 四、二選一決勝｜A vs D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 A</text>
+      <title size="lg">冬天極冷</title>
+      <text size="sm">容易被負溫吸引</text>
+      <text color="danger" size="xs">忽略夏季氣溫偏高</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 D</text>
+      <title size="lg">夏季涼爽</title>
+      <text size="sm">冬冷、夏涼、夏雨集中</text>
+      <text color="success" size="xs">整體符合高原氣候</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、考場快速檢核
+
+這類氣候圖題目，依序判斷：
+
+1. **地形高度**：高海拔通常氣溫較低。
+2. **全年氣溫曲線**：高原地區常見夏季較涼的特徵。
+3. **降水量及季節**：確認全年雨量與雨季是否符合所在地區。
+
+不要只挑選某個月最接近題幹溫度的圖。
+
+### 六、錯題診斷與品質檢核
+
+原選 A，可能是過度重視冬季負溫，忽略夏季氣溫與整體氣候型態。但沒有作答過程，不能確認實際錯因。
+
+- **P0：** 四選項與 A → D 訂正已核對。
+- **P1：** 使用原圖的年均溫、降水量，重新比較冬夏特徵；示意折線的月溫屬約略估讀。
+- **教材證據：** 尚未使用國中教材唯讀搜尋。
+
+另有一項原題背景需要注意：日喀則位於中國西藏，不是尼泊爾；題目照片寫的是「中國日喀則」。
+
+**一句話記憶：高海拔氣候，不只冬天冷，夏天通常也比較涼。**
+
+這題最值得改善的是「從單一線索選答案」轉向「用完整氣候特徵檢查最後兩個選項」，不需要增加額外練習題。
+
+user
+[原始附件 sediment://file_0000000018988206ac413f17b6803ec9?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+51@錯題B → A
+
+assistant
+## 第51題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 A｜伊斯蘭藥方傳入中國</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 A</text>
+</row>
+
+**本題核心：蒙古西征促進東西文化交流，但要分清楚文化與技術傳播的「方向」及「歷史時代」。**
+
+### 一、原題證據判讀
+
+第49～51題共用文章，描述蒙古西征帶來的影響：
+
+- 蒙古帝國勢力擴張至波斯灣地區。
+- 中國與中亞、西亞、歐洲間的交通更加暢通。
+- 驛站制度與商旅保護促進東西方交流。
+- 中亞、波斯、阿拉伯商人與技術進入中國。
+
+題目問：
+
+**「文中這場軍事征伐行動帶動了東西文化的交流，有關交流情況的說明何者正確？」**
+
+| 選項 | 內容 | 判斷 |
+|---|---|---|
+| (A) | 伊斯蘭藥方傳入中國 | <text color="success" weight="medium">正確</text> |
+| (B) | 造紙術因此傳往歐洲 | <text color="danger" weight="medium">原選</text> |
+| (C) | 西方的指南針傳入中國 | 錯誤 |
+| (D) | 西域文物首度傳入中國 | 錯誤 |
+
+### 二、精準圖解｜蒙古時代的文化交流
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="25" width="126" height="91" rx="10" fill="#dbeafe"/>
+    <rect x="204" y="25" width="126" height="91" rx="10" fill="#dcfce7"/>
+    <text x="73" y="49" fontSize="16" fontWeight="600" textAnchor="middle" fill="#1e40af">西亞、中亞</text>
+    <text x="73" y="72" fontSize="13" textAnchor="middle" fill="#1e3a8a">伊斯蘭醫學</text>
+    <text x="73" y="91" fontSize="13" textAnchor="middle" fill="#1e3a8a">藥方與知識</text>
+    <text x="267" y="49" fontSize="16" fontWeight="600" textAnchor="middle" fill="#166534">中國</text>
+    <text x="267" y="73" fontSize="13" textAnchor="middle" fill="#166534">吸收外來醫學</text>
+    <text x="267" y="92" fontSize="13" textAnchor="middle" fill="#166534">與藥物知識</text>
+    <path d="M140 63 H198" stroke="#16a34a" strokeWidth="4" strokeLinecap="round"/>
+    <path d="M198 63 l-12 -7 v14 Z" fill="#16a34a"/>
+    <text x="170" y="48" fontSize="12" textAnchor="middle" fill="#166534">傳入</text>
+    <path d="M198 102 H140" stroke="#2563eb" strokeWidth="3" strokeLinecap="round"/>
+    <path d="M140 102 l10 -6 v12 Z" fill="#2563eb"/>
+    <text x="170" y="123" fontSize="11" textAnchor="middle" fill="#2563eb">中國技術也向西交流</text>
+    <text x="170" y="150" fontSize="13" fontWeight="600" fill="currentColor" textAnchor="middle">蒙古帝國的交通網絡促進雙向交流</text>
+    <text x="170" y="170" fontSize="11" fill="currentColor" textAnchor="middle">本題正確實例：伊斯蘭藥方 → 中國</text>
+  </svg>
+  <caption>概念示意：箭頭代表知識交流方向，不是實際商隊路線。</caption>
+</box>
+
+
+
+assistant
+
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第51題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 A｜伊斯蘭藥方傳入中國</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 A</text>
+</row>
+
+**本題核心：蒙古西征促進東西文化交流，但要分清楚文化與技術傳播的「方向」及「歷史時代」。**
+
+### 一、原題證據判讀
+
+第49～51題共用文章，描述蒙古西征帶來的影響：
+
+- 蒙古帝國勢力擴張至波斯灣地區。
+- 中國與中亞、西亞、歐洲間的交通更加暢通。
+- 驛站制度與商旅保護促進東西方交流。
+- 中亞、波斯、阿拉伯商人與技術進入中國。
+
+題目問：
+
+**「文中這場軍事征伐行動帶動了東西文化的交流，有關交流情況的說明何者正確？」**
+
+| 選項 | 內容 | 判斷 |
+|---|---|---|
+| (A) | 伊斯蘭藥方傳入中國 | <text color="success" weight="medium">正確</text> |
+| (B) | 造紙術因此傳往歐洲 | <text color="danger" weight="medium">原選</text> |
+| (C) | 西方的指南針傳入中國 | 錯誤 |
+| (D) | 西域文物首度傳入中國 | 錯誤 |
+
+### 二、精準圖解｜蒙古時代的文化交流
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="25" width="126" height="91" rx="10" fill="#dbeafe"/>
+    <rect x="204" y="25" width="126" height="91" rx="10" fill="#dcfce7"/>
+    <text x="73" y="49" fontSize="16" fontWeight="600" textAnchor="middle" fill="#1e40af">西亞、中亞</text>
+    <text x="73" y="72" fontSize="13" textAnchor="middle" fill="#1e3a8a">伊斯蘭醫學</text>
+    <text x="73" y="91" fontSize="13" textAnchor="middle" fill="#1e3a8a">藥方與知識</text>
+    <text x="267" y="49" fontSize="16" fontWeight="600" textAnchor="middle" fill="#166534">中國</text>
+    <text x="267" y="73" fontSize="13" textAnchor="middle" fill="#166534">吸收外來醫學</text>
+    <text x="267" y="92" fontSize="13" textAnchor="middle" fill="#166534">與藥物知識</text>
+    <path d="M140 63 H198" stroke="#16a34a" strokeWidth="4" strokeLinecap="round"/>
+    <path d="M198 63 l-12 -7 v14 Z" fill="#16a34a"/>
+    <text x="170" y="48" fontSize="12" textAnchor="middle" fill="#166534">傳入</text>
+    <path d="M198 102 H140" stroke="#2563eb" strokeWidth="3" strokeLinecap="round"/>
+    <path d="M140 102 l10 -6 v12 Z" fill="#2563eb"/>
+    <text x="170" y="123" fontSize="11" textAnchor="middle" fill="#2563eb">中國技術也向西交流</text>
+    <text x="170" y="150" fontSize="13" fontWeight="600" fill="currentColor" textAnchor="middle">蒙古帝國的交通網絡促進雙向交流</text>
+    <text x="170" y="170" fontSize="11" fill="currentColor" textAnchor="middle">本題正確實例：伊斯蘭藥方 → 中國</text>
+  </svg>
+  <caption>概念示意：箭頭代表知識交流方向，不是實際商隊路線。</caption>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) 伊斯蘭藥方傳入中國｜正確**
+
+蒙古帝國建立橫跨歐亞的交通網絡，促進伊斯蘭醫學、藥物與醫療知識傳入中國。
+
+元代的《回回藥方》就是重要證據，內容保存大量來自阿拉伯、波斯醫學傳統的藥物與處方。<Cite refs={["turn305474search0","turn305474search6"]}/>
+
+**(B) 造紙術因此傳往歐洲｜原選，錯誤**
+
+造紙術確實源自中國，後來傳到歐洲，但關鍵是時間！
+
+造紙術經由中亞、伊斯蘭世界向西傳播，在12世紀已經傳入歐洲部分地區，比13世紀蒙古西征更早。
+
+所以錯在「**因此**」兩個字，不能把造紙術傳入歐洲歸因於蒙古西征。<Cite refs={["turn305474search4","turn305474search10"]}/>
+
+**(C) 西方的指南針傳入中國｜錯誤**
+
+指南針源自中國，後來向西傳播。題目把傳播方向顛倒了。
+
+**(D) 西域文物首度傳入中國｜錯誤**
+
+漢代張騫通西域後，東西方已有文化與物產交流。蒙古西征並不是西域文物第一次進入中國的契機。
+
+### 四、二選一決勝｜B vs A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">原選 B</text>
+      **造紙術傳往歐洲**
+      <text size="sm">史實本身正確</text>
+      <text size="sm">但早於蒙古西征</text>
+      <text color="danger" weight="medium" size="xs">錯在歷史因果關係</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">正解 A</text>
+      **伊斯蘭藥方傳入中國**
+      <text size="sm">方向正確</text>
+      <text size="sm">時代符合元代交流</text>
+      <text color="success" weight="medium" size="xs">時間與事件均吻合</text>
+    </box>
+  </grid-item>
+</grid>
+
+這是很典型的會考陷阱：**選項敘述的事情是真的，但不代表它發生在題目指定的時代，或由指定事件造成。**
+
+### 五、錯題診斷與考場檢核
+
+本題原選 B，可能是記得中國造紙術傳往西方，卻沒有再檢查它是否由蒙古西征促成。由於沒有原始作答過程，目前只能列為可能誤選機制。
+
+考場只需要檢查三件事：
+
+1. **方向對嗎？** 是中國傳西方，還是西方傳中國？
+2. **時間對嗎？** 是否發生在蒙古西征時期？
+3. **因果對嗎？** 是否真的由這場軍事行動促成？
+
+### 六、v2.1 品質檢核
+
+- **P0：** 原題、四選項與正解 A 核對完成。
+- **P1：** 已區分文化傳播方向、時間及因果關係。
+- **教材證據：** 已以歷史研究與大學資料核對；國中教材唯讀搜尋尚未查核。
+- **錯因：** 未取得作答過程，因此不推定實際錯因。
+
+**一句話記憶：蒙古西征促進伊斯蘭醫學東傳，但造紙術西傳早於蒙古西征。**
+
+這題與前面的第26題都涉及蒙古帝國，但第26題考「政權更替與地圖」，第51題考「文化傳播的時序與因果」，判斷方法並不相同。
+
+assistant
+### 三、四選項逐項辨析
+
+**(A) 伊斯蘭藥方傳入中國｜正確**
+
+蒙古帝國建立橫跨歐亞的交通網絡，促進伊斯蘭醫學、藥物與醫療知識傳入中國。
+
+元代的《回回藥方》就是重要證據，內容保存大量來自阿拉伯、波斯醫學傳統的藥物與處方。<Cite refs={["turn305474search0","turn305474search6"]}/>
+
+**(B) 造紙術因此傳往歐洲｜原選，錯誤**
+
+造紙術確實源自中國，後來傳到歐洲，但關鍵是時間！
+
+造紙術經由中亞、伊斯蘭世界向西傳播，在12世紀已經傳入歐洲部分地區，比13世紀蒙古西征更早。
+
+所以錯在「**因此**」兩個字，不能把造紙術傳入歐洲歸因於蒙古西征。<Cite refs={["turn305474search4","turn305474search10"]}/>
+
+**(C) 西方的指南針傳入中國｜錯誤**
+
+指南針源自中國，後來向西傳播。題目把傳播方向顛倒了。
+
+**(D) 西域文物首度傳入中國｜錯誤**
+
+漢代張騫通西域後，東西方已有文化與物產交流。蒙古西征並不是西域文物第一次進入中國的契機。
+
+### 四、二選一決勝｜B vs A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">原選 B</text>
+      **造紙術傳往歐洲**
+      <text size="sm">史實本身正確</text>
+      <text size="sm">但早於蒙古西征</text>
+      <text color="danger" weight="medium" size="xs">錯在歷史因果關係</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">正解 A</text>
+      **伊斯蘭藥方傳入中國**
+      <text size="sm">方向正確</text>
+      <text size="sm">時代符合元代交流</text>
+      <text color="success" weight="medium" size="xs">時間與事件均吻合</text>
+    </box>
+  </grid-item>
+</grid>
+
+這是很典型的會考陷阱：**選項敘述的事情是真的，但不代表它發生在題目指定的時代，或由指定事件造成。**
+
+### 五、錯題診斷與考場檢核
+
+本題原選 B，可能是記得中國造紙術傳往西方，卻沒有再檢查它是否由蒙古西征促成。由於沒有原始作答過程，目前只能列為可能誤選機制。
+
+考場只需要檢查三件事：
+
+1. **方向對嗎？** 是中國傳西方，還是西方傳中國？
+2. **時間對嗎？** 是否發生在蒙古西征時期？
+3. **因果對嗎？** 是否真的由這場軍事行動促成？
+
+### 六、v2.1 品質檢核
+
+- **P0：** 原題、四選項與正解 A 核對完成。
+- **P1：** 已區分文化傳播方向、時間及因果關係。
+- **教材證據：** 已以歷史研究與大學資料核對；國中教材唯讀搜尋尚未查核。
+- **錯因：** 未取得作答過程，因此不推定實際錯因。
+
+**一句話記憶：蒙古西征促進伊斯蘭醫學東傳，但造紙術西傳早於蒙古西征。**
+
+這題與前面的第26題都涉及蒙古帝國，但第26題考「政權更替與地圖」，第51題考「文化傳播的時序與因果」，判斷方法並不相同。
+
+user
+[原始附件 sediment://file_0000000048988206a84e9b53cce3383c?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+11@錯題A → D
+
+assistant
+
+
+assistant
+## 第11題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D｜reach</badge>
+  <text color="secondary" weight="medium">原選 A（arrive）→ 正解 D（reach）</text>
+</row>
+
+**本題核心：arrive、get、reach 都能表示「到達」，但後面接地點時，文法不同。**
+
+### 一、原題與中文翻譯
+
+> When you ______ the airport, please call me. I'll walk there to pick you up and show you around.
+
+**中文：** 當你抵達機場時，請打電話給我。我會走過去接你，並帶你四處參觀。
+
+| 選項 | 單字 | 判斷 |
+|---|---|---|
+| (A) | arrive | <text color="danger" weight="medium">原選，錯誤</text> |
+| (B) | get | 錯誤 |
+| (C) | travel | 錯誤 |
+| (D) | reach | <text color="success" weight="medium">正確</text> |
+
+正確句子：
+
+**When you reach the airport, please call me.**
+
+### 二、精準圖解｜三種「到達」的用法
+
+<box border radius="lg" padding={3} gap={2}>
+  <box background="surface-secondary" radius="md" padding={3} gap={1}>
+    <row align="center" justify="between">
+      **reach + 地點**
+      <icon name="check-circle" color="success"/>
+    </row>
+    <text color="success" weight="medium">reach the airport ✓</text>
+    <text size="sm">reach 是及物動詞，後面直接接地點。</text>
+  </box>
+  <box background="surface-secondary" radius="md" padding={3} gap={1}>
+    <row align="center" justify="between">
+      **arrive at + 小地點**
+      <icon name="check-circle" color="success"/>
+    </row>
+    <text weight="medium">arrive at the airport ✓</text>
+    <text size="sm">arrive 是不及物動詞，通常需要介系詞。</text>
+  </box>
+  <box background="surface-secondary" radius="md" padding={3} gap={1}>
+    <row align="center" justify="between">
+      **get to + 地點**
+      <icon name="check-circle" color="success"/>
+    </row>
+    <text weight="medium">get to the airport ✓</text>
+    <text size="sm">get 表示抵達時，通常需要加 to。</text>
+  </box>
+  <text color="danger" size="sm" weight="medium">常見錯誤：arrive the airport ✗ / get the airport ✗</text>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) arrive：錯誤**
+
+arrive 通常不能直接加地點名詞。
+
+- arrive **at** the airport（抵達機場）
+- arrive **in** Taipei（抵達臺北）
+
+本題空格後面直接接 the airport，沒有 at，因此不能選 arrive。
+
+**(B) get：錯誤**
+
+表示到達某個地點時，要使用 get to。
+
+- get **to** the airport ✓
+- get the airport ✗（不能用來表示抵達機場）
+
+**(C) travel：錯誤**
+
+travel 表示旅行、移動，不符合本題「抵達機場」的意思，也不能直接用 travel the airport 表示抵達機場。
+
+**(D) reach：正確**
+
+reach 是及物動詞，可以直接接地點。
+
+- reach the airport ✓
+- reach Taipei ✓
+- reach home ✓
+
+### 四、二選一決勝｜A arrive vs D reach
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 A</text>
+      <title size="md">arrive</title>
+      <text size="sm">arrive <text color="danger" inline weight="medium">the airport ✗</text></text>
+      <text size="sm">少了 at</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 D</text>
+      <title size="md">reach</title>
+      <text size="sm">reach <text color="success" inline weight="medium">the airport ✓</text></text>
+      <text size="sm">直接接地點</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝：看到空格後面直接出現地點名詞，先檢查動詞是否需要介系詞。**
+
+### 五、延伸｜arrive at 與 arrive in
+
+| 用法 | 例句 |
+|---|---|
+| arrive at + 具體地點 | arrive at the station |
+| arrive in + 城市、國家 | arrive in Japan |
+| get to + 地點 | get to school |
+| reach + 地點 | reach school |
+
+特別注意：**arrive home、get home、reach home** 都可以，不需要加 at 或 to。
+
+### 六、錯題診斷與快速檢核
+
+本題原選 A，可能是知道 arrive 表示「抵達」，但忽略它後面需要 at。由於沒有完整作答過程，尚不能確認實際錯因。
+
+{@body const [selected,setSelected] = DIL.useState("")}
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **10 秒觀念檢核**
+
+  We arrived ______ the train station at 8 a.m.
+
+  <radio-group direction="col" value={selected} onChange={setSelected}>
+    <radio value="at">at</radio>
+    <radio value="in">in</radio>
+    <radio value="to">to</radio>
+  </radio-group>
+  {#if selected}
+    <text size="sm" color={selected==="at"?"success":"danger"}>{selected==="at"?"正確！arrive at the train station。":"再想想：車站是具體地點，arrive 後面通常接 at。"}</text>
+  {/if}
+</box>
+
+---
+
+**v2.1 品質檢核：** P0 原題、四選項與答案 D 已核對；P1 arrive、get、reach 的句型已比較；教材尚未查核，無課本頁碼宣稱；實際錯因仍待作答歷程確認。
+
+**一句話記憶：arrive at、get to、reach + 地點。**
+
+user
+[原始附件 sediment://file_000000006a1482068c8329adffd03560?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+15@錯題B → C
+
+assistant
+
+
+assistant
+## 第15題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜not to give</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 C</text>
+</row>
+
+**本題核心：tell + 人 + not to + 原形動詞，表示「告訴某人不要做某事」。**
+
+### 一、原題與中文翻譯
+
+> Our teacher told us ______ our real names or phone numbers to strangers on the Internet.
+
+**中文：** 我們的老師告訴我們，不要在網路上把真實姓名或電話號碼提供給陌生人。
+
+| 選項 | 答案 | 判斷 |
+|---|---|---|
+| (A) | don't give | 錯誤 |
+| (B) | not give | <text color="danger" weight="medium">原選</text> |
+| (C) | not to give | <text color="success" weight="medium">正確</text> |
+| (D) | not giving | 錯誤 |
+
+完整正確句子：
+
+**Our teacher told us not to give our real names or phone numbers to strangers on the Internet.**
+
+### 二、精準句型圖解
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium">肯定句：告訴某人「要做」</text>
+  <grid columns={4} gap={1}>
+    {#each [{s:"told",t:"告訴"},{s:"us",t:"我們"},{s:"to",t:"不定詞"},{s:"give",t:"原形動詞"}] as x}
+      <grid-item>
+        <box background="surface-secondary" padding={2} radius="md" align="center" gap={1}>
+          <text weight="medium">{x.s}</text>
+          <text color="secondary" size="3xs">{x.t}</text>
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <divider spacing={1}/>
+  <text weight="medium">否定句：告訴某人「不要做」</text>
+  <grid columns={4} gap={1}>
+    {#each [{s:"told",t:"告訴"},{s:"us",t:"我們"},{s:"not to",t:"否定不定詞"},{s:"give",t:"原形動詞"}] as x}
+      <grid-item>
+        <box background="surface-secondary" padding={2} radius="md" align="center" gap={1}>
+          <text weight="medium" color={x.s==="not to"?"success":"default"}>{x.s}</text>
+          <text color="secondary" size="3xs">{x.t}</text>
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <text color="success" weight="medium" size="sm">否定詞 not 要放在 to 的前面。</text>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) don't give：錯誤**
+
+`Don't give ...` 可以作為直接命令句，但不能直接放在這題 `told us` 後面當受詞補語。
+
+**(B) not give：原選，錯誤**
+
+雖然有 not 和原形動詞 give，但缺少不定詞標記 **to**。
+
+- told us not give ✗
+- told us not to give ✓
+
+**(C) not to give：正確**
+
+符合：
+
+\[
+\boxed{\text{tell + 人 + not to + V}}
+\]
+
+**(D) not giving：錯誤**
+
+`told us not giving` 不符合此處 tell 表示要求或提醒某人不要做事的句型。
+
+### 四、二選一決勝｜B vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 B</text>
+      <title size="lg">not give</title>
+      <text size="sm">缺少 to</text>
+      <text color="danger" size="xs">不能接在 told us 後面</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 C</text>
+      <title size="lg">not to give</title>
+      <text size="sm">否定不定詞結構完整</text>
+      <text color="success" size="xs">符合 told us not to V</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、延伸｜會考常見同類句型
+
+| 動詞 | 肯定句型 | 否定句型 |
+|---|---|---|
+| tell | tell me to go | tell me not to go |
+| ask | ask him to wait | ask him not to wait |
+| want | want her to come | want her not to come |
+| advise | advise us to study | advise us not to worry |
+
+注意：`make`、`let` 等使役動詞有不同的接續規則，不能把所有動詞都套用 `to V`。
+
+### 六、錯題診斷與快速檢核
+
+本題原選 B，可能已辨認出否定形式需要 not，卻漏掉了 to。但目前沒有作答過程，不能確定實際錯因。
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **10 秒觀念檢核**
+
+  Mom asked me ______ late.
+
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="a">not be</radio>
+    <radio value="b">not to be</radio>
+    <radio value="c">don't be</radio>
+  </radio-group>
+  {#if answer}
+    <text color={answer==="b"?"success":"danger"} size="sm">{answer==="b"?"正確！ask + 人 + not to + 原形動詞。":"再確認句型：asked me not to be late。"}</text>
+  {/if}
+</box>
+
+---
+
+**v2.1 品質檢核**
+
+- **P0：** 原題、四選項與正解 C 核對完成。
+- **P1：** 已精確比較 B 與 C 的語法差異。
+- **教材證據：** 尚未使用國中教材唯讀搜尋。
+- **錯因：** 僅列出可能誤選機制，不認定實際錯因。
+
+**一句話記憶：tell / ask + 人 + not to V，否定時不要漏掉 to。**
+
+user
+[原始附件 sediment://file_00000000ebb4820688719a3dda5d4ebe?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+23@錯題D → A
+
+assistant
+
+
+assistant
+## 第23題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 A</badge>
+  <text color="secondary" weight="medium">原選 D → 正解 A</text>
+</row>
+
+**本題核心：英文閱讀的 NOT 題，要區分「文章沒有提到」和「文章有提到，但換句話說」。**
+
+### 一、原題與中文翻譯
+
+**Which is NOT talked about in Alice's report about Elizabeth Blackwell?**
+
+中文：關於伊莉莎白・布萊克威爾，Alice 的報告中**沒有提到**下列哪件事？
+
+| 選項 | 中文意思 |
+|---|---|
+| (A) | 她為什麼想成為醫生 |
+| (B) | 她在日內瓦醫學院的表現如何 |
+| (C) | 她晚年在倫敦做了什麼 |
+| (D) | 她17歲時如何謀生 |
+
+答案是 **(A)**，因為文章介紹她成為醫生的經歷與堅持，卻沒有交代她最初想當醫生的原因。
+
+### 二、精準圖解｜閱讀證據定位
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium">文章時間線與證據對照</text>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      **1838年｜17歲**
+
+      父親過世，她在家中開辦學校，與姊妹一起幫忙維持家計。
+
+      <text color="success" size="sm">對應 D：文章有提到</text>
+    </list-item>
+    <list-item>
+      **1847～1849年｜醫學院期間**
+
+      她受到同學不友善對待，但仍努力學習，並以全班第一名的成績畢業。
+
+      <text color="success" size="sm">對應 B：文章有提到</text>
+    </list-item>
+    <list-item>
+      **1874年｜倫敦**
+
+      她與南丁格爾合作，在英國開辦女子醫學院。
+
+      <text color="success" size="sm">對應 C：文章有提到</text>
+    </list-item>
+  </list>
+  <divider/>
+  <row align="center" gap={2}>
+    <icon name="search-x" color="danger" size="lg"/>
+    <box flex="1" gap={1}>
+      **A｜為什麼想當醫生？**
+      <text color="danger" size="sm">文章沒有提供她當初產生這個志向的原因。</text>
+    </box>
+  </row>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) Why she wanted to become a doctor. — 正確**
+
+文章說：
+
+> However, she never gave up on her dream to become a doctor.
+
+意思是：然而，她從未放棄成為醫生的夢想。
+
+這句只說明她**堅持夢想**，並沒有解釋她**為何產生這個夢想**。
+
+因此 A 是未提及的內容。
+
+**(B) How she did at Geneva Medical College. — 錯誤**
+
+文章說：
+
+> She graduated from college at the top of her class.
+
+她以全班第一名的成績畢業。
+
+另外也提到她在學校遭受不公平待遇，所以報告確實描述了她在醫學院的經歷與表現。
+
+**(C) What she did in London in her late years. — 錯誤**
+
+時間線記載1874年她與 Florence Nightingale 在英國開辦女子醫學院。
+
+文章確實提到她晚年在英國的活動。
+
+**(D) How she made a living when she was 17 years old. — 原選，錯誤**
+
+這是本題最重要的誤選干擾項。
+
+時間線記載：
+
+> She started a school at her home with her sisters to help support their family.
+
+意思是：她與姊妹在家中開辦學校，幫忙維持家庭生計。
+
+她出生於1821年，1838年時約17歲。
+
+所以文章已經交代她當時如何謀生。
+
+### 四、二選一決勝｜D vs A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 D</text>
+      **How she made a living**
+      <text size="sm">如何謀生？</text>
+      <divider spacing={1}/>
+      <text size="sm">started a school</text>
+      <text size="sm">help support their family</text>
+      <text color="danger" weight="medium" size="xs">有明確文章證據，不能選</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 A</text>
+      **Why she wanted to become a doctor**
+      <text size="sm">為何想當醫生？</text>
+      <divider spacing={1}/>
+      <text size="sm">文章只提到她堅持夢想。</text>
+      <text size="sm">未說明夢想形成的原因。</text>
+      <text color="success" weight="medium" size="xs">沒有直接或合理推得的證據</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、考場必學｜三組關鍵英文
+
+| 英文 | 中文 | 閱讀判斷 |
+|---|---|---|
+| make a living | 謀生、維持生計 | 可對應 support their family |
+| how she did | 她表現如何 | 可由成績或經歷判斷 |
+| why she wanted to | 她為何想要 | 必須找到原因，而非只有結果 |
+
+特別注意：
+
+**want to become a doctor ≠ why she wanted to become a doctor**
+
+「想成為醫生」與「為什麼想成為醫生」是兩個不同的問題。
+
+### 六、錯題診斷與快速檢核
+
+本題原選 D，可能是未將 *made a living* 與 *help support their family* 聯想到相同概念，因此沒發現文章其實有提供 D 的證據。但目前沒有完整作答過程，不能確定這就是實際錯因。
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **10 秒閱讀觀念檢核**
+
+  文章說：「Tom studied hard and became a doctor.」
+
+  能否因此知道 Tom **為什麼**想成為醫生？
+
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="yes">可以，因為他努力讀書</radio>
+    <radio value="no">不可以，文章沒有說明動機</radio>
+  </radio-group>
+  {#if answer}
+    <text color={answer==="no"?"success":"danger"} size="sm">{answer==="no"?"正確！努力讀書是行為，並不等於想當醫生的原因。":"再想想：文章只說他努力讀書，沒有解釋他為何決定當醫生。"}</text>
+  {/if}
+</box>
+
+---
+
+### 七、v2.1 品質檢核
+
+- **P0：** 原題、四選項及文章證據已核對，答案 A。
+- **P1：** 已逐項定位原文，並將 D 的 *made a living* 與 *support their family* 對應。
+- **教材證據：** 已使用上傳原題，未另外查詢教材外掛。
+- **錯因：** 僅提出可能的字義轉換陷阱，不推定實際作答原因。
+
+**一句話記憶：NOT 題不是找「看起來沒寫到的句子」，而是找「全文找不到對應意思的選項」。**
+
+這類題目最值得養成的習慣是：先排除能找到證據的三個選項，最後留下真正沒有提及的答案。
+
+user
+[原始附件 sediment://file_00000000a6d08206a625c94f6d38367d?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+26@錯題A → C
+
+assistant
+
+
+assistant
+## 第26題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 C｜To become smaller</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 C</text>
+</row>
+
+**本題核心：利用前後文的相反詞，推測不熟悉的英文單字。**
+
+`shrink` 的意思是「縮小、收縮」，不是「變虛弱」。
+
+### 一、原題證據判讀
+
+題目：
+
+> What does **shrink** mean?
+
+中文：**shrink 是什麼意思？**
+
+文章第2點：
+
+> A woman's heart is about 230–280g, and a man's 280–340g. With age, men's hearts grow bigger, but women's shrink.
+
+中文：
+
+女性的心臟約重230～280公克，男性的約重280～340公克。隨著年齡增長，男性的心臟會變大，但女性的心臟會縮小。
+
+<text color="secondary" size="xs">以上是原文翻譯，並非對所有人的醫學變化做普遍斷言。</text>
+
+### 二、精準圖解｜從 but 找出相反意思
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={2}>
+        <text weight="medium">grow bigger</text>
+        <svg viewBox="0 0 140 88" width="100%">
+          <circle cx="37" cy="45" r="12" fill="#60a5fa"/>
+          <path d="M59 45 H83 M77 39 L84 45 L77 51" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round"/>
+          <circle cx="109" cy="45" r="23" fill="#60a5fa"/>
+        </svg>
+        <text color="secondary" size="sm">變大</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={3} align="center" gap={2}>
+        <text weight="medium" color="success">shrink</text>
+        <svg viewBox="0 0 140 88" width="100%">
+          <circle cx="31" cy="45" r="23" fill="#f59e0b"/>
+          <path d="M60 45 H84 M78 39 L85 45 L78 51" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round"/>
+          <circle cx="110" cy="45" r="12" fill="#f59e0b"/>
+        </svg>
+        <text color="success" size="sm" weight="medium">縮小</text>
+      </box>
+    </grid-item>
+  </grid>
+  <row justify="center" align="center" gap={2}>
+    <icon name="arrow-left-right" color="secondary"/>
+    **but 表示轉折、對比**
+  </row>
+</box>
+
+從句子結構判斷：
+
+- men's hearts **grow bigger**：男性的心臟變大。
+- **but**：但是，表示對比。
+- women's **shrink**：女性的心臟縮小。
+
+所以即使不認識 shrink，也能利用 **bigger + but** 推得相反意思。
+
+### 三、四選項逐項辨析
+
+| 選項 | 英文 | 中文 | 判斷 |
+|---|---|---|---|
+| A | To become weaker | 變虛弱 | <text color="danger" weight="medium">原選，錯誤</text> |
+| B | To get darker | 顏色變深 | 錯誤 |
+| C | To become smaller | 變小、縮小 | <text color="success" weight="medium">正確</text> |
+| D | To get stronger | 變強壯 | 錯誤 |
+
+**A 為什麼不能選？**
+
+`weaker` 是 weak（虛弱的）的比較級，表示力量或功能變弱。
+
+`smaller` 是 small（小的）的比較級，表示大小或體積變小。
+
+**變小不等於變虛弱。** 這題前文談的是心臟大小的變化，而不是心臟功能強弱。
+
+### 四、二選一決勝｜A vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="danger">原選 A</text>
+      <title size="lg">weaker</title>
+      <text size="sm">功能或力量變弱</text>
+      <text color="danger" size="xs">與 bigger 的大小對比不吻合</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text weight="medium" color="success">正解 C</text>
+      <title size="lg">smaller</title>
+      <text size="sm">大小或體積變小</text>
+      <text color="success" size="xs">正好與 bigger 相反</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、會考實用技巧｜猜字義先找線索
+
+| 線索 | 功能 | 例句 |
+|---|---|---|
+| but | 對比、轉折 | big, but small |
+| however | 然而 | happy; however, tired |
+| unlike | 不像、與……不同 | Unlike his brother, Tom is quiet. |
+| because | 原因 | stayed home because he was sick |
+
+遇到不會的單字，先看前後文是否有「相反」、「原因」或「舉例」的提示，不必立刻逐字翻譯。
+
+### 六、錯題診斷
+
+本題原選 A，可能將心臟「縮小」聯想到心臟「變虛弱」，而忽略了前文 `grow bigger` 的大小對比。
+
+但目前沒有完整作答過程，因此這只是可能的誤選機制，並非已確認的實際錯因。
+
+**考場快速檢核：**
+
+看到 `but` → 找前面描述的特徵 → 推測後面是否為相反意思。
+
+---
+
+**v2.1 品質檢核**
+
+- **P0：** 原題、四選項及正解 C 已核對。
+- **P1：** 圖解清楚區分「大小變化」與「功能強弱」。
+- **教材證據：** 已使用上傳的第214頁原題，未另外查詢教材外掛。
+- **錯因判定：** 僅提出可能的語意混淆，未判定實際錯因。
+
+**一句話記憶：grow bigger（變大）↔ shrink（縮小）；用 but 找反義線索。**
+
+user
+[原始附件 sediment://file_0000000072388206b33dbba2a8224ca8?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+29@錯題A → B 31@錯題A→ D
+
+assistant
+
+
+assistant
+# @錯題｜融合模式 v2.1
+第29、31題｜英文閱讀理解
+
+<box gap={2}>
+  <row align="center" gap={2}>
+    <badge color="success">第29題：B</badge>
+    <text color="secondary" size="sm">原選 A → 正解 B</text>
+  </row>
+  <row align="center" gap={2}>
+    <badge color="success">第31題：D</badge>
+    <text color="secondary" size="sm">原選 A → 正解 D</text>
+  </row>
+</box>
+
+這兩題使用同一篇介紹阿米希人（Amish）的文章，但考查的能力不同：
+
+- **第29題：主旨判斷**——選出能涵蓋全文的標題。
+- **第31題：數據推論**——利用文章中的人口數字，判斷哪個敘述有證據支持。
+
+---
+
+## 第29題｜選出最適合的文章標題
+
+### 一、原題與四個選項
+
+**What is the best title for the reading?**
+
+這篇閱讀最適合的標題是什麼？
+
+| 選項 | 中文翻譯 | 判斷 |
+|---|---|---|
+| (A) The History of the Amish | 阿米希人的歷史 | <text color="danger" weight="medium">原選</text> |
+| (B) The Amish and Their Different Way of Living | 阿米希人與他們不同的生活方式 | <text color="success" weight="medium">正確</text> |
+| (C) Why Do the Amish Live a Simple Life? | 阿米希人為何過簡樸生活？ | 錯誤 |
+| (D) How Do the Amish Grow Their Healthy Food? | 阿米希人如何種植健康食物？ | 錯誤 |
+
+### 二、精準圖解｜文章四段在講什麼？
+
+<box border radius="lg" padding={3} gap={2}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      **第一段：背景與起源**
+
+      約300年前來到美國，從事農業，生活方式延續至今。
+    </list-item>
+    <list-item>
+      **第二段：人口變化**
+
+      1920年約5,000人，2020年約346,600人。
+    </list-item>
+    <list-item>
+      **第三段：特殊生活方式**
+
+      不開汽車、少用現代電子設備、以傳統方式耕作。
+    </list-item>
+    <list-item>
+      **第四段：生活態度**
+
+      珍惜健康、快樂且簡樸的生活方式。
+    </list-item>
+  </list>
+  <divider/>
+  <row align="center" justify="center" gap={2}>
+    <icon name="arrow-down" color="secondary"/>
+    <text weight="medium">共同主題</text>
+  </row>
+  <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    <text color="success" weight="medium">B｜The Amish and Their Different Way of Living</text>
+    <text size="sm">阿米希人獨特的生活方式</text>
+  </box>
+</box>
+
+### 三、四選項辨析
+
+**(A) 阿米希人的歷史——原選，錯誤**
+
+文章確實提到阿米希人約300年前來到美國，也提供1920、1984、2020年的人口資料。
+
+但這些只是背景資訊，不是全文最主要的內容。
+
+**(B) 阿米希人與他們不同的生活方式——正確**
+
+能涵蓋他們的交通方式、科技使用、農業、飲食與生活理念，是最完整的標題。
+
+**(C) 為何過簡樸生活——錯誤**
+
+文章提到他們希望保持簡樸，但沒有深入解釋形成這種生活方式的原因。
+
+**(D) 如何種植健康食物——錯誤**
+
+農業只是第三段的一部分，涵蓋範圍太小。
+
+### 四、二選一決勝｜A vs B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">A｜History</text>
+      <icon name="calendar-days" size="lg" color="secondary"/>
+      <text size="sm">主要涵蓋來美時間與人口變化</text>
+      <text color="danger" size="xs">無法完整概括全文</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B｜Way of Living</text>
+      <icon name="house" size="lg" color="success"/>
+      <text size="sm">涵蓋生活背景、交通、科技、農業與理念</text>
+      <text color="success" size="xs">最符合全文主旨</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝：標題題要找「能涵蓋最多段落的共同主題」，不能只選文章確實提到的某個細節。**
+
+---
+
+## 第31題｜人口成長的數據推論
+
+### 一、原題與四選項
+
+**What can we learn from the reading?**
+
+從這篇文章中，我們可以得知什麼？
+
+| 選項 | 中文意思 | 判斷 |
+|---|---|---|
+| (A) | 阿米希人擁有大家庭 | <text color="danger" weight="medium">原選</text> |
+| (B) | 賓州與俄亥俄州的阿米希人口一樣多 | 錯誤 |
+| (C) | 阿米希人的生活正逐漸現代化 | 錯誤 |
+| (D) | 阿米希人口約為100年前的70倍 | <text color="success" weight="medium">正確</text> |
+
+### 二、精準圖解｜1920年與2020年人口比較
+
+原文寫道：
+
+> In 1920, there were about 5,000 Amish people in the USA ... and in 2020, about 346,600.
+
+<Chart content={{"chartType":"bar","meta":{"title":"阿米希人在美國的人口變化","description":"原文提供的人口數字"},"xKey":"year","series":[{"dataKey":"population","label":"人口","valueFormat":"integer"}],"yAxisMin":0,"data":[{"year":"1920年","population":5000},{"year":"1984年","population":84000},{"year":"2020年","population":346600}]}}/>
+
+計算100年間增加到原來的幾倍：
+
+\[
+\frac{346,600}{5,000}=69.32
+\]
+
+所以：
+
+\[
+\boxed{\text{約為原來的70倍}}
+\]
+
+答案是 **(D)**。
+
+注意：這裡的「70倍」指2020年的人口約為1920年的70倍，不是增加了70倍。
+
+### 三、四選項逐項辨析
+
+**(A) The Amish have large families.——原選，錯誤**
+
+中文：阿米希人擁有大家庭。
+
+文章顯示人口大幅增加，但沒有提供每個家庭有多少成員的資料。
+
+人口增加可能與出生、死亡、遷移等多種因素有關，不能單憑人口成長，就認定他們有大家庭。
+
+**(B) There are as many Amish people in Pennsylvania as in Ohio.——錯誤**
+
+原文數據：
+
+- Pennsylvania：81,500人
+- Ohio：78,280人
+
+兩州人口不相等。
+
+**(C) The Amish's life is getting more modern like other Americans.——錯誤**
+
+文章說：
+
+> their way of living now is about the same as before.
+
+意思是：他們現在的生活方式與以前大致相同。
+
+這與選項所說的「愈來愈現代化」不符。
+
+**(D) The Amish population is about seventy times of that the past one hundred years ago.——正確**
+
+雖然原選項的英文表達不夠自然，但其想表達的意思是阿米希人口約為100年前的70倍。
+
+有明確數字支持：
+
+\[
+346,600\div5,000\approx69.3
+\]
+
+因此是四個選項中有充分證據的答案。
+
+### 四、二選一決勝｜A vs D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">A｜大家庭</text>
+      <text size="sm">人口增加很多</text>
+      <icon name="arrow-down" color="secondary"/>
+      <text size="sm">推測家庭人數多</text>
+      <text color="danger" weight="medium" size="xs">沒有家庭規模證據</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">D｜約70倍</text>
+      <text size="sm">1920年：5,000人</text>
+      <text size="sm">2020年：346,600人</text>
+      <icon name="arrow-down" color="secondary"/>
+      <text color="success" weight="medium" size="xs">可直接計算驗證</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場決勝：有具體數據支持的選項，通常比合理但沒有證據的猜測更可靠。**
+
+---
+
+## 兩題共同的閱讀陷阱
+
+| 題號 | 原選 | 正解 | 最重要的判斷 |
+|---|---|---|---|
+| 29 | A | B | 部分內容 ≠ 全文主旨 |
+| 31 | A | D | 合理推測 ≠ 文章證據 |
+
+這兩題表面上不同，但都在考驗同一個能力：
+
+**選答案時，必須確認證據是否足以支持整個選項，而不是只看選項是否合理。**
+
+### 五、10秒自我檢核
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <text weight="medium">文章說：「某城市人口從1萬人成長到5萬人。」</text>
+  <text size="sm">下面哪一個結論一定可以成立？</text>
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="a">這個城市的家庭都變大了</radio>
+    <radio value="b">人口變成原來的5倍</radio>
+    <radio value="c">這個城市有更多人結婚</radio>
+  </radio-group>
+  {#if answer}
+    <text size="sm" color={answer==="b"?"success":"danger"}>{answer==="b"?"正確！50,000 ÷ 10,000＝5，有直接數據證據。":"題目只給人口數字，無法確認家庭大小或結婚情況。"}</text>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+- **P0：** 第29、31題原文、選項、數據與答案已核對。
+- **P1：** 第29題依段落分析主旨；第31題獨立驗算69.32倍。
+- **教材證據：** 直接使用本次上傳的第215頁原題，未另行查詢教材外掛。
+- **錯因判定：** 尚無作答過程，不能斷定孩子實際如何思考。
+
+**本批最值得優先改善的一個策略：選定答案前，回到文章找出一項足以支持整個選項的證據。** 這同時適用於主旨題、推論題與 NOT 題，不必額外增加練習負擔。
+
+user
+[原始附件 sediment://file_000000009800820692bfe4ecd13bfc1e?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+33@錯題C → D
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第33題｜@錯題 融合模式 v2.1
+
+<row align="center" gap={2}>
+  <badge color="success">正解 D</badge>
+  <text color="secondary" weight="medium">原選 C → 正解 D</text>
+</row>
+
+**本題核心：分清楚 last year（去年）、this year（今年）與 next year（明年），再從路線圖刪除尚未開通的航線。**
+
+### 一、原題與關鍵證據
+
+**What might be the flight routes last year?**
+
+中文：去年的航班路線可能是哪一張圖？
+
+文章提供兩項關鍵時間資訊：
+
+> The flight between Northern Daisy Island and Lily Island started in March this year.
+
+北黛西島與百合島之間的航線，是**今年3月**才開始的。
+
+> There will be two more flight routes next year.
+
+**明年**將再增加兩條航線，分別連接百合島與玫瑰島，以及南黛西島與玫瑰島。
+
+所以去年的航線圖不能包含今年或明年才開通的路線。
+
+### 二、精準圖解｜航線依時間增加
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 218" width="100%" xmlns="http://www.w3.org/2000/svg">
+    {#each [{x:8,label:"去年",more:0},{x:121,label:"今年",more:1},{x:234,label:"明年",more:3}] as p}
+      <rect x={p.x} y="10" width="107" height="169" rx="8" stroke="currentColor" strokeOpacity=".17" fill="none"/>
+      <text x={p.x+53} y="30" textAnchor="middle" fontSize="14" fontWeight="600" fill="currentColor">{p.label}</text>
+      <ellipse cx={p.x+40} cy="98" rx="20" ry="47" fill="#a3b18a" fillOpacity=".48"/>
+      <circle cx={p.x+40} cy="61" r="4" fill="#dc2626"/>
+      <circle cx={p.x+40} cy="137" r="4" fill="#dc2626"/>
+      <circle cx={p.x+87} cy="61" r="4" fill="#dc2626"/>
+      <circle cx={p.x+87} cy="137" r="4" fill="#dc2626"/>
+      <path d={`M${p.x+40} 61 L${p.x+40} 137`} stroke="#c2410c" strokeWidth="2.5" strokeDasharray="4 3"/>
+      <path d={`M${p.x+40} 61 L${p.x+87} 137`} stroke="#c2410c" strokeWidth="2.5" strokeDasharray="4 3"/>
+      {#if p.more>=1}
+        <path d={`M${p.x+40} 61 L${p.x+87} 61`} stroke="#2563eb" strokeWidth="2.5"/>
+      {/if}
+      {#if p.more>=3}
+        <path d={`M${p.x+87} 61 L${p.x+87} 137`} stroke="#16a34a" strokeWidth="2.5"/>
+        <path d={`M${p.x+40} 137 L${p.x+87} 137`} stroke="#16a34a" strokeWidth="2.5"/>
+      {/if}
+      <text x={p.x+53} y="162" textAnchor="middle" fontSize="11" fill="currentColor">{p.more===0?"2條":p.more===1?"3條":"5條"}</text>
+    {/each}
+    <text x="170" y="201" textAnchor="middle" fontSize="12" fill="currentColor">去年 2 條 → 今年 3 條 → 明年 5 條</text>
+  </svg>
+  <caption>依文章與路線圖重建航線數量；兩個黛西島端點分別代表北島與南島，線條為航線示意。</caption>
+</box>
+
+去年的航線只留下：
+
+- 北黛西島 ↔ 南黛西島
+- 北黛西島 ↔ 玫瑰島
+
+這正是 **(D)** 的圖形。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 原因 |
+|---|---|---|
+| (A) | 錯誤 | 包含今年或明年新增的航線 |
+| (B) | 錯誤 | 包含南黛西島至玫瑰島這條明年才開通的航線 |
+| (C) | <text color="danger" weight="medium">原選</text> | 多了北黛西島至百合島的航線 |
+| (D) | <text color="success" weight="medium">正確</text> | 只保留去年已存在的兩條航線 |
+
+### 四、二選一決勝｜C vs D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">C｜原選</text>
+      <text size="sm">有北黛西島 ↔ 百合島</text>
+      <text size="sm">但這條航線今年3月才開始</text>
+      <text color="danger" size="xs" weight="medium">不可能出現在去年</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">D｜正解</text>
+      <text size="sm">沒有今年才新增的航線</text>
+      <text size="sm">也沒有明年預定新增的航線</text>
+      <text color="success" size="xs" weight="medium">符合去年航線狀況</text>
+    </box>
+  </grid-item>
+</grid>
+
+**真正決勝的是文章中的 started in March this year。** 只要看到這句，就必須把「北黛西島—百合島」從去年的航線圖移除。
+
+### 五、考場快速檢核
+
+英文圖表題遇到時間資訊，特別留意：
+
+| 英文 | 中文 | 判斷 |
+|---|---|---|
+| last year | 去年 | 問過去已存在的路線 |
+| started this year | 今年開始 | 去年還不存在 |
+| next year | 明年 | 尚未開通 |
+| two more | 再增加兩個 | 原本已有，再額外增加 |
+
+本題最有效的方法是**先確認時間，再選圖**，而不是直接比較哪張圖和文章最像。
+
+### 六、錯題診斷與品質檢核
+
+第33題原選 C，可能是看見文章提及北黛西島與百合島的航線，就把它算入去年，忽略 `this year` 的時間限制。但未提供作答過程，不能確認實際錯因。
+
+- **P0：** 原題、四張選項圖及正解 D 已核對。
+- **P1：** 已依去年、今年、明年的時間條件重建航線。
+- **教材證據：** 使用上傳原題，未額外查詢教材外掛。
+- **錯因：** 僅標示可能的時間判讀陷阱。
+
+**一句話記憶：問 last year，就把 started this year 和 next year 的新增路線全部排除。**
+
+這題與前面的第23題 NOT 題、第29題主旨題及第31題數據題，都在訓練同一項重要能力：**選項必須符合題目指定的完整條件，而不是只符合文章中的某一部分。**
+
+user
+[原始附件 sediment://file_000000008d888206a76399075c8b5b80?shared_conversation_id=6af5d024-8900-83e8-a143-006fad11e223]
+35@錯題A → C 36@錯題C → A
+
+assistant
+
+
+assistant
+# @錯題｜融合模式 v2.1
+第35、36題｜英文閱讀理解
+
+<box gap={2}>
+  <row align="center" gap={2}>
+    <badge color="success">第35題：C</badge>
+    <text color="secondary" weight="medium">原選 A → 正解 C</text>
+  </row>
+  <row align="center" gap={2}>
+    <badge color="success">第36題：A</badge>
+    <text color="secondary" weight="medium">原選 C → 正解 A</text>
+  </row>
+</box>
+
+這兩題都來自介紹宜蘭龜山島的文章，但考查兩種不同的閱讀能力：
+
+- **第35題：同義轉換**——能否看出選項與原文意思相同？
+- **第36題：NOT 題與動作辨析**——分清楚「觀賞植物」與「採集植物」。
+
+## 第35題｜龜山島的正確敘述
+
+### 一、原題與四選項
+
+**Which of the following is true about Turtle Island?**
+
+關於龜山島，哪一項敘述正確？
+
+| 選項 | 中文意思 | 判斷 |
+|---|---|---|
+| (A) | 龜山島不受颱風侵襲 | <text color="danger" weight="medium">原選</text> |
+| (B) | 從來沒有人住過龜山島 | 錯誤 |
+| (C) | 牛奶海使龜山島聞名 | <text color="success" weight="medium">正確</text> |
+| (D) | 遊客全年都能參觀龜山島 | 錯誤 |
+
+### 二、精準圖解｜文章中的牛奶海
+
+<AsyncImageGroup query={["宜蘭龜山島 牛奶海 空拍 海水 顏色 對比","宜蘭龜山島 全島 海上 火山島"]} aspectRatio="5:3" layout="carousel"/>
+
+文章第二段提到：
+
+> And the Milk Sea around Turtle Island was so famous that many people all over the world couldn't wait to visit this place.
+
+中文：
+
+龜山島周圍的牛奶海非常有名，以至於世界各地許多人都迫不及待想來參觀。
+
+這正好對應：
+
+**(C) The Milk Sea puts the island on the map.**
+
+這裡的 *puts ... on the map* 是英文慣用語，意思是「使某地聞名」，不是把島嶼畫在地圖上。
+
+### 三、四選項逐項辨析
+
+**(A) 龜山島不受颱風侵襲——原選，錯誤**
+
+原文：
+
+> ... every time when typhoons hit.
+
+表示颱風會侵襲龜山島，甚至影響船隻運送物資。
+
+所以 *free from typhoons*（不受颱風影響）與原文相反。
+
+**(B) 從沒有人居住——錯誤**
+
+原文：
+
+> Around 700 people lived on Turtle Island back in the early 1970s.
+
+1970年代初期，約有700人住在島上。
+
+**(C) 牛奶海使龜山島聞名——正確**
+
+原文 *was so famous* 與選項 *puts the island on the map* 意思相符。
+
+**(D) 全年開放觀光——錯誤**
+
+原文：
+
+> from every December to February, the island will be closed
+
+文章明確指出每年12月至隔年2月會關閉。
+
+### 四、二選一決勝｜A vs C
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 A</text>
+      **free from typhoons**
+      <text size="sm">不受颱風影響</text>
+      <divider spacing={1}/>
+      <text size="sm">原文說颱風會侵襲</text>
+      <text color="danger" size="xs">與文章直接矛盾</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 C</text>
+      **puts ... on the map**
+      <text size="sm">使某地聞名</text>
+      <divider spacing={1}/>
+      <text size="sm">原文：was so famous</text>
+      <text color="success" size="xs">同義轉換，符合原文</text>
+    </box>
+  </grid-item>
+</grid>
+
+**本題要記住：put a place on the map = make a place famous（使某地出名）。**
+
+---
+
+## 第36題｜遊客不能在龜山島做什麼？
+
+### 一、原題與四選項
+
+**Which of the following can the visitors NOT do on Turtle Island?**
+
+遊客不能在龜山島做下列哪件事？
+
+| 選項 | 中文意思 | 判斷 |
+|---|---|---|
+| (A) | 採集特殊植物 | <text color="success" weight="medium">正確</text> |
+| (B) | 在山中散步 | 可以 |
+| (C) | 欣賞美麗景色 | <text color="danger" weight="medium">原選</text> |
+| (D) | 欣賞或接觸水中的動物 | 依題意可參與相關活動 |
+
+### 二、精準圖解｜觀賞 ≠ 採集
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="nature tourist hiking trail looking at rare wild plants without touching them" aspectRatio="4:3"/>
+    <text weight="medium" color="success">watch plants</text>
+    <text size="sm">觀察植物</text>
+    <text size="xs" color="secondary">文章有提到</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="hand picking wild protected plants from forest floor close up educational nature conservation" aspectRatio="4:3"/>
+    <text weight="medium" color="danger">collect plants</text>
+    <text size="sm">採集植物</text>
+    <text size="xs" color="secondary">文章沒有允許此行為</text>
+  </grid-item>
+</grid>
+
+原文第三段：
+
+> ... go hiking in the mountains to enjoy the fresh air and watch special plants and animals.
+
+中文：
+
+遊客可以到山中健行，享受新鮮空氣，並觀賞特殊的植物與動物。
+
+關鍵字是 **watch（觀看）**，不是 **collect（採集）**。
+
+文章也提到冬季休島，讓島上的生物得到休養，符合保護自然生態的理念。
+
+### 三、四選項逐項辨析
+
+**(A) Collecting the special plants——正確答案**
+
+collect 指採集、收集。
+
+文章允許觀賞特殊植物，但沒有提到遊客可以採集。結合文章保護島上生態的主旨，A 是最符合 NOT 題意的選項。
+
+**(B) Taking a walk in the mountains——錯誤**
+
+原文 *go hiking in the mountains*，可以對應在山中健行。
+
+**(C) Taking a look at the beautiful sights——原選，錯誤**
+
+原文：
+
+> ... visitors can watch more beautiful sights ...
+
+文章直接提到遊客可以欣賞美麗景色。
+
+因此不能選 C。
+
+**(D) Having fun with the animals under the water——錯誤**
+
+文章提到遊客有機會在水中看見海豚和鯨魚。題目將其概括為水中動物相關活動。
+
+需要注意：**看見或賞鯨不等於可以與野生動物近距離互動、觸碰或追逐。** 這裡依題目的閱讀情境判斷，並非表示所有水中互動行為都被允許。
+
+### 四、二選一決勝｜C vs A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 C</text>
+      **Taking a look**
+      <text size="sm">觀看、欣賞</text>
+      <divider spacing={1}/>
+      <text size="sm">原文：watch beautiful sights</text>
+      <text color="danger" size="xs">明確可以做</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 A</text>
+      **Collecting**
+      <text size="sm">收集、採集</text>
+      <divider spacing={1}/>
+      <text size="sm">原文僅說 watch plants</text>
+      <text color="success" size="xs">不等於允許採集</text>
+    </box>
+  </grid-item>
+</grid>
+
+---
+
+## 兩題共同的閱讀陷阱
+
+| 題號 | 原選 → 正解 | 決勝關鍵 |
+|---|---|---|
+| 35 | A → C | free from 與 typhoons hit 相矛盾；famous 對應 put on the map |
+| 36 | C → A | watch / take a look 與 collect 的動作不同 |
+
+這兩題共同考驗的是：**不能只看到相同的地點或名詞，就認定選項正確；還要檢查動詞、否定詞及整句意思。**
+
+### 五、快速觀念檢核
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **10秒閱讀檢核**
+
+  文章說：Visitors can watch the birds in the forest.
+
+  哪個選項符合原文？
+
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="a">Visitors can collect birds.</radio>
+    <radio value="b">Visitors can look at birds.</radio>
+    <radio value="c">Visitors can take birds home.</radio>
+  </radio-group>
+  {#if answer}
+    <text size="sm" color={answer==="b"?"success":"danger"}>{answer==="b"?"正確！watch = look at，都是觀看。":"注意：watch 只表示觀看，不能推論可以捕捉或帶走。"}</text>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+- **P0：** 兩題原題、四選項及答案 C、A 均已核對。
+- **P1：** 第35題核對否定與同義片語；第36題核對動作差異及文章證據。
+- **教材證據：** 使用上傳原文，未使用國中教材唯讀搜尋。
+- **錯因：** 只能提出可能的語意判讀陷阱，尚無足夠作答過程確認實際錯因。
+
+**這批英文閱讀題最值得強化的策略：先圈出選項中的關鍵動詞或否定詞，再回原文核對意思是否完全一致。** 不必增加新練習，直接在現有學校作業中使用即可。

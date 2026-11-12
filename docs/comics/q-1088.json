@@ -1,0 +1,78 @@
+{
+  "id": "q-1088",
+  "subject": "English",
+  "title": "用人口資料檢驗閱讀推論",
+  "art": "docs/comics/art/q-1088-panel-1.svg",
+  "generationMethod": "four independent authored native SVG teaching diagrams; no source AI artwork",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261112/q-1088-original.jpg"
+  ],
+  "rationale": "依各題重點製作四張可獨立引用的實際圖：受力／比例／年代／路網／字義；精確文字與推導另用HTML。不是純文字流程框或重複素材。",
+  "answerCheckedAgainst": "一、先算百年人口倍數\n1920年約5,000人，2020年約346,600人，346,600÷5,000＝69.32，約為70倍，D符合原文。這是2020人口約為1920的70倍，不是精確增加70倍。\n\n二、逐項比對\nA大家庭大小沒有直接資料，人口成長不能單獨證明每戶人口；B賓州81,500、俄亥俄州78,280，並不相等；C與原文保留傳統、對未來是否改變尚不確定的說法不合。\n\n三、保留原卷英文\nD原印that the past one hundred years ago的句法不自然，較自然可寫about seventy times what it was a hundred years ago。原題四選項照留；依數據仍能判D，不因語病擅自改印。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 先讀1920與2020人口",
+      "text": "原文1920年5,000人、2020年346,600人，兩端相隔100年，這是D的計算依據。",
+      "image": "docs/comics/art/q-1088-panel-1.svg",
+      "alt": "先讀1920與2020人口；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "2 用比例算約70倍",
+      "text": "346,600÷5,000＝69.32，約70倍。是2020約為1920的70倍，不是精確增加70倍。",
+      "image": "docs/comics/art/q-1088-panel-2.svg",
+      "alt": "用比例算約70倍；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "3 州人口不相等",
+      "text": "賓州81,500、俄亥俄州78,280，賓州較多，B的as many as不符。人口多也不能直接證明每戶大家庭。",
+      "image": "docs/comics/art/q-1088-panel-3.svg",
+      "alt": "州人口不相等；新製教學圖，與右側圖說對應。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案D：百年約70倍",
+    "points": [
+      "用同一比例尺比較5,000與346,600可見差距。原卷D語句不自然，數據判讀仍指向D。"
+    ],
+    "image": "docs/comics/art/q-1088-panel-4.svg",
+    "alt": "答案D：百年約70倍；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1088-art-ae8e5c771a.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-12T15:14:56.243982+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-12T15:14:56.243982+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261112/qa/comics-1087-1088.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261112/q-1088-original.jpg"
+    ],
+    "note": "實看四張圖資及正式app／單頁桌機手機四格，逐題核對完整原卷、原圖、閱讀文與所有選項。63隔離／126正式圖解布局及84題目布局檢查通過；q-1075新圖與q-1081完整氣候附圖、q-1085原年表連線在最後複核時另驗收。5項原卷/原AI訂正另列monitor待使用者確認；本批新圖已核對，不把既有暫停圖重製計入。"
+  },
+  "checkedAt": "2026-11-12T15:14:57.134622+00:00",
+  "validationFile": "docs/comics/q-1088-validation.json"
+}

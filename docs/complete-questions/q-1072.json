@@ -1,0 +1,66 @@
+{
+  "id": "q-1072",
+  "sourceId": "src-more-068",
+  "subject": "Physics-Chemistry",
+  "title": "理化第11題｜彈簧秤讀數與物體密度",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-12",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-12",
+  "question": "一彈簧秤掛10克重的物體時，彈簧伸長2公分，今用此彈簧掛一體積5立方公分的鐵球，並將其沒入水中，發現彈簧伸長6公分（未超過彈性限度），則鐵的密度為多少g/cm³？\n(A) 4\n(B) 6\n(C) 7\n(D) 6.4",
+  "answer": "(C) 7",
+  "correctOption": "C",
+  "explanation": "一、先校正彈簧秤\n10gw使彈簧伸長2cm，彈性限度內拉力與伸長量成正比，故每伸長1cm對應5gw。伸長6cm表示秤的拉力T＝30gw。\n\n二、秤的讀數是視重量\n鐵球完全沒入水，排水體積5cm³。水密度取1g/cm³，浮力為5gw。鐵球靜止，向上的拉力與浮力共同平衡重量，所以W＝T＋浮力＝30＋5＝35gw。\n\n三、由質量求密度\n在本題重力環境，35gw對應35g質量，ρ＝35÷5＝7g/cm³，選C。B的6是直接用30÷5，漏加浮力；A、D不符合已知彈簧比例與排水體積。不能把水中的秤讀數當成真實重量。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷及本題裁切，逐項核對完整題幹、四選項與必要閱讀文章／圖表。未提供實際考試日期，採本題首次對話的台灣日期。無可靠冊次或課次證據，歸綜合。",
+  "tags": [
+    "力與浮力"
+  ],
+  "originalQuestionNumber": "11",
+  "sourceLabel": "分享原卷｜第11題",
+  "studentAnswer": "使用者原始紀錄：11@錯題B → C；原筆跡保留於下方原卷。",
+  "images": [
+    "assets/originals/q-1072-original-c0cf68cab7c7.jpg"
+  ],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "teachingComic": {
+    "title": "浮力加回彈簧秤的視重量",
+    "art": "assets/comics/q-1072-art-a88aa80b27.svg",
+    "panels": [
+      {
+        "heading": "1 校正彈簧的比例",
+        "text": "10gw伸長2cm，所以6cm對應30gw。這是水中彈簧提供的拉力。",
+        "alt": "校正彈簧的比例；新製教學圖，與右側圖說對應。",
+        "image": "assets/comics/q-1072-art-a88aa80b27.svg"
+      },
+      {
+        "heading": "2 辨認水中視重量",
+        "text": "鐵球完全沒入水，體積5cm³。秤讀30gw只代表視重量，還有水的浮力向上支撐。",
+        "alt": "辨認水中視重量；新製教學圖，與右側圖說對應。",
+        "image": "assets/comics/q-1072-panel-2-art-f612cf196c.svg"
+      },
+      {
+        "heading": "3 加回5gw浮力",
+        "text": "排開5cm³水，浮力5gw；重量＝30＋5＝35gw，對應質量35g。",
+        "alt": "加回5gw浮力；新製教學圖，與右側圖說對應。",
+        "image": "assets/comics/q-1072-panel-3-art-9c8a58eb3f.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案C：7g/cm³",
+      "points": [
+        "密度＝35g÷5cm³＝7g/cm³。不能直接以30除以5，否則漏掉浮力。"
+      ],
+      "image": "assets/comics/q-1072-panel-4-art-a7cdf5b580.svg",
+      "alt": "答案C：7g/cm³；新製整合圖。"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "q-1089",
+  "subject": "English",
+  "title": "依去年今年明年還原航線",
+  "art": "docs/comics/art/q-1089-panel-1.svg",
+  "generationMethod": "four independent authored native SVG teaching diagrams; no source AI artwork",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261112/q-1089-original.jpg"
+  ],
+  "rationale": "依各題重點製作四張可獨立引用的實際圖：受力／比例／年代／路網／字義；精確文字與推導另用HTML。不是純文字流程框或重複素材。",
+  "answerCheckedAgainst": "一、先分清三個時間\n北Daisy—Lily在「今年3月」才開航，因此去年不能有這條線。明年再新增Lily—Rose、南Daisy—Rose兩條線，去年也不能有它們。\n\n二、由原圖倒推\n先從未來路網去掉今年新增的北Daisy—Lily，再去掉明年兩條標New航線。留下去年既有的北Daisy—南Daisy、北Daisy—Rose，對應圖D。\n\n三、排除其餘路網\nA仍含北Daisy—Lily等較晚開通航線；B保留Lily連線與南Daisy—Rose，不合去年；C同樣保留今年才開的北Daisy—Lily。D的Lily沒有航線連接，才與開航時間一致。不能把題幹last year看成this year或next year。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 去年只有既有的兩條線",
+      "text": "把時間退回去年，Lily尚未開航；原有北Daisy—南Daisy及北Daisy—Rose。",
+      "image": "docs/comics/art/q-1089-panel-1.svg",
+      "alt": "去年只有既有的兩條線；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "2 今年3月才連到Lily",
+      "text": "文章說this year March新增北Daisy—Lily，因此去年不能保留這條。",
+      "image": "docs/comics/art/q-1089-panel-2.svg",
+      "alt": "今年3月才連到Lily；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "3 明年再加兩條新線",
+      "text": "next year才增加Lily—Rose與南Daisy—Rose，兩條都不屬去年路網。",
+      "image": "docs/comics/art/q-1089-panel-3.svg",
+      "alt": "明年再加兩條新線；新製教學圖，與右側圖說對應。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案D：Lily沒有航線",
+    "points": [
+      "從未來路網刪去今年與明年的新線，留下D。新製概念路網保留連接關係，不冒充原地形圖。"
+    ],
+    "image": "docs/comics/art/q-1089-panel-4.svg",
+    "alt": "答案D：Lily沒有航線；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1089-art-4a38fee383.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-12T15:14:56.243982+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-12T15:14:56.243982+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261112/qa/comics-1089-1090.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261112/q-1089-original.jpg"
+    ],
+    "note": "實看四張圖資及正式app／單頁桌機手機四格，逐題核對完整原卷、原圖、閱讀文與所有選項。63隔離／126正式圖解布局及84題目布局檢查通過；q-1075新圖與q-1081完整氣候附圖、q-1085原年表連線在最後複核時另驗收。5項原卷/原AI訂正另列monitor待使用者確認；本批新圖已核對，不把既有暫停圖重製計入。"
+  },
+  "checkedAt": "2026-11-12T15:14:57.184933+00:00",
+  "validationFile": "docs/comics/q-1089-validation.json"
+}

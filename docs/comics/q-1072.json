@@ -1,0 +1,78 @@
+{
+  "id": "q-1072",
+  "subject": "Physics-Chemistry",
+  "title": "浮力加回彈簧秤的視重量",
+  "art": "docs/comics/art/q-1072-panel-1.svg",
+  "generationMethod": "four independent authored native SVG teaching diagrams; no source AI artwork",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261112/q-1072-original.jpg"
+  ],
+  "rationale": "依各題重點製作四張可獨立引用的實際圖：受力／比例／年代／路網／字義；精確文字與推導另用HTML。不是純文字流程框或重複素材。",
+  "answerCheckedAgainst": "一、先校正彈簧秤\n10gw使彈簧伸長2cm，彈性限度內拉力與伸長量成正比，故每伸長1cm對應5gw。伸長6cm表示秤的拉力T＝30gw。\n\n二、秤的讀數是視重量\n鐵球完全沒入水，排水體積5cm³。水密度取1g/cm³，浮力為5gw。鐵球靜止，向上的拉力與浮力共同平衡重量，所以W＝T＋浮力＝30＋5＝35gw。\n\n三、由質量求密度\n在本題重力環境，35gw對應35g質量，ρ＝35÷5＝7g/cm³，選C。B的6是直接用30÷5，漏加浮力；A、D不符合已知彈簧比例與排水體積。不能把水中的秤讀數當成真實重量。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 校正彈簧的比例",
+      "text": "10gw伸長2cm，所以6cm對應30gw。這是水中彈簧提供的拉力。",
+      "image": "docs/comics/art/q-1072-panel-1.svg",
+      "alt": "校正彈簧的比例；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "2 辨認水中視重量",
+      "text": "鐵球完全沒入水，體積5cm³。秤讀30gw只代表視重量，還有水的浮力向上支撐。",
+      "image": "docs/comics/art/q-1072-panel-2.svg",
+      "alt": "辨認水中視重量；新製教學圖，與右側圖說對應。"
+    },
+    {
+      "heading": "3 加回5gw浮力",
+      "text": "排開5cm³水，浮力5gw；重量＝30＋5＝35gw，對應質量35g。",
+      "image": "docs/comics/art/q-1072-panel-3.svg",
+      "alt": "加回5gw浮力；新製教學圖，與右側圖說對應。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案C：7g/cm³",
+    "points": [
+      "密度＝35g÷5cm³＝7g/cm³。不能直接以30除以5，否則漏掉浮力。"
+    ],
+    "image": "docs/comics/art/q-1072-panel-4.svg",
+    "alt": "答案C：7g/cm³；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1072-art-a88aa80b27.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-12T15:14:56.243982+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-12T15:14:56.243982+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261112/qa/comics-1071-1072.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261112/q-1072-original.jpg"
+    ],
+    "note": "實看四張圖資及正式app／單頁桌機手機四格，逐題核對完整原卷、原圖、閱讀文與所有選項。63隔離／126正式圖解布局及84題目布局檢查通過；q-1075新圖與q-1081完整氣候附圖、q-1085原年表連線在最後複核時另驗收。5項原卷/原AI訂正另列monitor待使用者確認；本批新圖已核對，不把既有暫停圖重製計入。"
+  },
+  "checkedAt": "2026-11-12T15:14:56.303734+00:00",
+  "validationFile": "docs/comics/q-1072-validation.json"
+}

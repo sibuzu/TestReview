@@ -70544,5 +70544,341 @@
     "diagram": "",
     "contentStatus": "完整原題",
     "passage": "An Island That Looks Like a Turtle\n\nLike a giant turtle out from the sea, Guishan Island, also named Turtle Island, stands just 10 kilometers across Toucheng in Yilan, Taiwan. Under the waves of Turtle Island lies a world full of hot gas and boiling water. Around 700 people lived on Turtle Island back in the early 1970s. However, in 1976, those people had no boats coming from Taiwan every time when typhoons hit. The people on the island couldn't get the food, so the government decided to close Turtle Island and send people back to the island of Taiwan.\n\nLike Taiwan, the mountains meet the sea around Turtle Island. And the Milk Sea around Turtle Island was so famous that many people all over the world couldn't wait to visit this place. When Turtle Island was open again in 2000, visitors could finally come back to see the beautiful island.\n\nAfter the reopening of Turtle Island, people also have the chance to see dolphins and whales in the water or go hiking in the mountains to enjoy the fresh air and watch special plants and animals. However, from every December to February, the island will be closed for all the living things to take some rest. This way, visitors can watch more beautiful sights and animals next time they go back to Turtle Island.\n\n原卷詞註：government 政府；reopening 重新開張；dolphin 海豚；whale 鯨魚。"
+  },
+  {
+    "id": "q-1092",
+    "sourceId": "src-more-069",
+    "subject": "Biology",
+    "title": "生物第21題｜由五天再捕資料估算族群",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-14",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "潘達想估算社區中鴿子數量，他先捕捉10隻鴿子，作記號後將鴿子放走，之後連續5天再隨機捕捉數隻鴿子，計算其中有記號的數目，如表（二）所示。則潘達社區中的鴿子約有幾隻？\n(A) 105\n(B) 110\n(C) 115\n(D) 120",
+    "answer": "(C) 115",
+    "correctOption": "C",
+    "explanation": "一、每一天都能先估計一次\n原先標記10隻。若再捕樣本有n隻，其中m隻有記號，以「全體的標記比例約等於樣本標記比例」估計：10／N≈m／n，所以N≈10n／m。這是樣本估計，不是逐隻點清的真實數量。\n\n二、逐日估計，再取五天平均\n第一天：10×20÷2＝100隻；第二天：10×19÷2＝95隻；第三天：10×25÷2＝125隻；第四天：10×15÷1＝150隻；第五天：10×21÷2＝105隻。五天估計平均為（100＋95＋125＋150＋105）÷5＝115隻，符合原卷紅筆與使用者提供的C。A的105只取第五天，D的120也不符這個平均。\n\n三、為什麼原AI算出B？\n原AI把五天資料合併：再捕總數100隻次、其中有記號9隻次，因此10×100÷9≈111.1，最接近B的110。這套「合併後取比值」與「各日比值的平均」不是同一估計方法；111.1也不能四捨五入成115。\n\n四、保留原題的限制\n原題未明寫應採哪一種多日整合方法，也未交代後續每次捕捉的放回細節。因此本頁依原卷C解釋逐日平均法，同時保留B由合併樣本法得到的理由，列監看頁請核對。不能只做合併法就宣稱C算錯，也不把兩種估計混成同一條算式。標記不影響存活與再捕機會、族群大致封閉、標記個體混合均勻，都是此類估計的假設。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "由五天再捕資料估算族群"
+    ],
+    "originalQuestionNumber": "21",
+    "sourceLabel": "分享原卷｜第21題",
+    "studentAnswer": "使用者原始紀錄：21@錯題A → C；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1092-original-548e975130f4.jpg"
+    ],
+    "questionFigures": [],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題",
+    "tables": [
+      {
+        "caption": "表（二）",
+        "headers": [
+          "項目",
+          "第一天",
+          "第二天",
+          "第三天",
+          "第四天",
+          "第五天"
+        ],
+        "rows": [
+          [
+            "捕捉鴿子數（隻）",
+            "20",
+            "19",
+            "25",
+            "15",
+            "21"
+          ],
+          [
+            "有記號的鴿子數（隻）",
+            "2",
+            "2",
+            "2",
+            "1",
+            "2"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q-1093",
+    "sourceId": "src-more-069",
+    "subject": "Biology",
+    "title": "生物第29題｜從小白菜紀錄辨認生命現象",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-14",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "振宇在自家農場種植小白菜，並將小白菜的成長紀錄整理成表（四），根據此表，小白菜的成長過程中並未記錄到下列何種生命現象？\n(A) 繁殖\n(B) 代謝\n(C) 感應與運動\n(D) 生長與發育",
+    "answer": "(C) 感應與運動",
+    "correctOption": "C",
+    "explanation": "一、找表格實際提供的證據\n芽冒出、長高與長出更多葉子，呈現生長與發育；開花、結果莢，呈現繁殖相關階段。A、D都有紀錄依據。\n\n二、代謝與紀錄層級\n植物生長需要製造及利用物質、轉換能量，必有光合作用、呼吸作用等代謝活動，因此本題依生命現象的整體推論，不以B為預期答案。但表格沒有直接量測光合作用速率或呼吸數據，不能說它直接測到了代謝。\n\n三、C缺少刺激與反應的紀錄\n感應與運動須能指出刺激和相應反應，例如單側光照與朝光生長。表格只列晴雨陰天及生長階段，沒有記錄光源方向、莖彎向何處或觸碰後反應，因此選C。這是「未記錄」，不是小白菜沒有感應能力；長高本身也不能直接等同向光運動。\n\n四、原圖與新圖分工\n表格的四幅黑白小圖保持原樣，包含3月22日「有4片葉子」；新製彩色植物圖僅輔助理解生長階段，不冒充當時觀察照片，也不把同日天氣當作已證明生長原因的實驗。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "從小白菜紀錄辨認生命現象"
+    ],
+    "originalQuestionNumber": "29",
+    "sourceLabel": "分享原卷｜第29題",
+    "studentAnswer": "使用者原始紀錄：29@錯題B → C；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1093-original-49c60a2baecd.jpg"
+    ],
+    "questionFigures": [
+      {
+        "src": "assets/questions/q-1093-figure-aba9281d0b74.jpg",
+        "alt": "原卷第29題必要作答圖表",
+        "caption": "原卷作答附圖；僅裁切，非AI重繪。"
+      }
+    ],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題",
+    "tables": [
+      {
+        "caption": "表（四）",
+        "headers": [
+          "觀察日期",
+          "3月10日",
+          "3月22日",
+          "4月10日",
+          "4月18日"
+        ],
+        "rows": [
+          [
+            "天氣狀況",
+            "晴天",
+            "雨天",
+            "陰天",
+            "晴天"
+          ],
+          [
+            "生長紀錄",
+            "芽冒出土壤約0.5公分高",
+            "有4片葉子",
+            "長高了，也長出更多葉子",
+            "開花、結果莢"
+          ],
+          [
+            "圖片",
+            "原卷附圖由左至右第1幅",
+            "原卷附圖由左至右第2幅",
+            "原卷附圖由左至右第3幅",
+            "原卷附圖由左至右第4幅"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q-1094",
+    "sourceId": "src-more-069",
+    "subject": "Physics-Chemistry",
+    "title": "理化第46題｜由原子圖判讀化合物組成",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-14",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "若以○表示鎂原子，以●表示氧原子，則下列何者可用來表示「氧化鎂」的結構？\n(A) 圖A（1個○、1個●）\n(B) 圖B（1個○、2個●）\n(C) 圖C（2個○、1個●）\n(D) 圖D（2個○、4個●）",
+    "answer": "(A) 圖A（1個○、1個●）",
+    "correctOption": "A",
+    "explanation": "一、先寫出化學式\n氧化鎂為MgO，表示鎂與氧的最簡數量比是1：1。原題○代表鎂、●代表氧；A各1個符合，所以選A。選項括號中的數量是本頁為方便閱讀加入的原圖轉述，四幅原圖仍完整保留。\n\n二、逐圖數清楚\nB為1：2；C為2：1；D為2：4，約分仍是1：2，皆不符合1：1。不要因為氧氣是O₂，就以為氧化鎂必須保留兩個氧。\n\n三、離子與比例\n氧化鎂為離子化合物，以Mg²⁺與O²⁻的1：1比例達到電中性：（＋2）＋（－2）＝0。固體實際是延伸的離子晶格，原題圓圈相接是組成比例的簡化表達，並不是獨立的兩原子MgO分子。\n\n四、名稱與圖式不要混淆\nMgO₂不是本題的氧化鎂MgO；不把B的圖只因含氧就選為正確。新製圖中的晶格只取一小塊二維投影，沒有宣稱它是完整三維晶體或原子的真實大小比例。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "由原子圖判讀化合物組成"
+    ],
+    "originalQuestionNumber": "46",
+    "sourceLabel": "分享原卷｜第46題",
+    "studentAnswer": "使用者原始紀錄：46@錯題B → A；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1094-original-d4178bed8f37.jpg"
+    ],
+    "questionFigures": [
+      {
+        "src": "assets/questions/q-1094-figure-3cf97bd3501f.jpg",
+        "alt": "原卷第46題必要作答圖表",
+        "caption": "原卷作答附圖；僅裁切，非AI重繪。"
+      }
+    ],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題"
+  },
+  {
+    "id": "q-1095",
+    "sourceId": "src-more-069",
+    "subject": "Biology",
+    "title": "生物第48題｜餐後運動與血糖變化",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-14",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "根據上圖，餐後進行第二次超慢跑30分鐘，阿晃體內所分泌的物質與變化最可能為下列何者？\n(A) 分泌升糖素，使血糖變肝糖\n(B) 分泌腎上腺素，使血糖變肝糖\n(C) 分泌升糖素，使肝糖變血糖\n(D) 分泌腎上腺素，使肝糖變血糖",
+    "answer": "(D) 分泌腎上腺素，使肝糖變血糖",
+    "correctOption": "D",
+    "explanation": "一、依原卷預期選D\n原圖比較正常餐後與餐後超慢跑的血糖變化，第二次運動約從150分鐘開始，虛線後段呈上升。依原卷紅筆與使用者提供的答案，D表示腎上腺素可促進肝醣分解，釋出葡萄糖進入血液，協助運動時供能。\n\n二、先排除作用方向相反的A、B\n題中「肝糖」指肝臟儲存的肝醣；「血糖」主要指血液中的葡萄糖。A、B把兩種升血糖激素的作用寫成血糖變肝糖，方向不合。相對地，胰島素有促進葡萄糖利用及儲存、降低血糖的作用，不能把它與升糖素混為同一物質。\n\n三、不能把C教成生理作用錯誤\n升糖素由胰臟的胰島分泌，也能促進肝醣分解及肝臟供糖；腎上腺素由腎上腺髓質分泌，亦可參與供能調節。運動不代表只有腎上腺素，尤其題文強調低強度運動，不能僅憑「運動」排除升糖素。\n\n四、單靠此圖不能辨認激素\n原圖只量血糖，未量激素濃度、未做激素阻斷或其他對照，且圖的0基準不是血糖濃度為零。故曲線無法證明D是唯一機制，也無法在生理上排除C。保留原卷預期D，將C／D的單選限制列監看頁核對，不擅改原題或捏造激素實驗。本頁為題目解說，不把此個案曲線當成所有人的運動反應。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "餐後運動與血糖變化"
+    ],
+    "originalQuestionNumber": "48",
+    "sourceLabel": "分享原卷｜第48題",
+    "studentAnswer": "使用者原始紀錄：48@錯題C→D；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1095-original-7a969ff699bb.jpg"
+    ],
+    "questionFigures": [
+      {
+        "src": "assets/questions/q-1095-figure-42e44967b453.jpg",
+        "alt": "原卷第48題必要作答圖表",
+        "caption": "原卷作答附圖；僅裁切，非AI重繪。"
+      }
+    ],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題",
+    "passage": "超慢跑是一種低強度的有氧運動，不同於一般跑步，它強調以較慢的速度和正確的姿勢來達到最佳燃脂效果。某醫學中心利用儀器測量阿晃餐後進行超慢跑30分鐘，與正常餐後血糖濃度的變化數據如圖（二十）。"
+  },
+  {
+    "id": "q-1096",
+    "sourceId": "src-more-069",
+    "subject": "Biology",
+    "title": "生物第49題｜沿檢索表配對六種生物",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-14",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "下列生物與代號A～F的配對，何者正確？\n(A) A——草履蟲\n(B) C——新月藻\n(C) D——變形蟲\n(D) F——藍菌",
+    "answer": "(D) F——藍菌",
+    "correctOption": "D",
+    "explanation": "一、先走檢索表第一層\n藍菌為原核生物，沒有核膜包圍的細胞核，沿「無細胞核」直接到F，因此D的F——藍菌正確。沒有細胞核不表示沒有遺傳物質；藍菌也不是因為顏色綠就有葉綠體。\n\n二、其餘五種的完整位置\n新月藻有細胞核、有葉綠體，對應A；木耳有細胞核、無葉綠體、為多細胞，對應B；酵母菌有細胞核、無葉綠體、單細胞、有細胞壁，對應C；草履蟲有細胞核、無葉綠體、單細胞、無細胞壁、有纖毛，對應D；變形蟲相同前段但不具纖毛，對應E，主要靠偽足移動與攝食。\n\n三、逐項排除\n選項A把草履蟲放到有葉綠體的A，錯；B把新月藻放到C，錯；C把變形蟲配到具有纖毛的D，錯。檢索表的代號D與答案選項D是不同層次：代號D是草履蟲，正確選項D則是F——藍菌。\n\n四、依題目指定六種生物判讀\n這張檢索表是為題目列出的生物設計，不能把其中每個條件都推廣成所有微生物的普遍分類法。新圖為微觀結構的教材插畫，不冒充原卷或實際顯微照片。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "沿檢索表配對六種生物"
+    ],
+    "originalQuestionNumber": "49",
+    "sourceLabel": "分享原卷｜第49題",
+    "studentAnswer": "使用者原始紀錄：49@錯題c→ D；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1096-original-063c7e1d78c2.jpg"
+    ],
+    "questionFigures": [
+      {
+        "src": "assets/questions/q-1096-figure-c66cd8b8bec6.jpg",
+        "alt": "原卷第49題必要作答圖表",
+        "caption": "原卷作答附圖；僅裁切，非AI重繪。"
+      }
+    ],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題",
+    "passage": "莉莉自戶外採集了六種生物，並將這些生物以二分法製成圖（二十一）的檢索表，並將分類結果以A～F表示。\n六種生物：木耳、藍菌、酵母菌、變形蟲、草履蟲、新月藻。"
+  },
+  {
+    "id": "q-1097",
+    "sourceId": "src-more-069",
+    "subject": "Geography",
+    "title": "地理第5題｜由聖羅倫斯河定位海域",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-15",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "每年的5月至10月，是加拿大魁北克、安大略的賞鯨季，乘遊船來到聖羅倫斯河，超大的巨鯨可能就在你乘坐的船邊嬉戲，如果是秋季來到當地，更能一次享受賞鯨、賞楓兩種視覺饗宴。依據上述判斷，文中提及賞鯨魚的地點應瀕臨下列哪一海域？\n(A) 太平洋\n(B) 大西洋\n(C) 北極海\n(D) 墨西哥灣",
+    "answer": "(B) 大西洋",
+    "correctOption": "B",
+    "explanation": "一、先定位聖羅倫斯河\n聖羅倫斯河水系由五大湖向加拿大東部流去，經聖羅倫斯河口灣、聖羅倫斯灣通往大西洋。文中的海域因此選B。\n\n二、逐一比較方位\n太平洋位於加拿大西側；北極海在北方；墨西哥灣在北美洲南部，都不是聖羅倫斯河口所連接的海域。不能只因加拿大同時接觸三大洋就略過河流的具體位置。\n\n三、原題地名的精確範圍\n原卷確實寫「魁北克、安大略」，但聖羅倫斯河賞鯨主要指魁北克下游河口灣及海灣的海水／半鹹水環境，不能由原句推論安大略境內的五大湖或上游河段都有海洋鯨類。本頁保留原句，另列地名範圍訂正供核對；不影響大西洋的選答。\n\n四、圖資用途\n新製地圖用可校核的海岸／湖泊資料作概念定位，河流以簡化路線表示，非航海圖，也不是即時賞鯨季節或旅行建議。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "由聖羅倫斯河定位海域"
+    ],
+    "originalQuestionNumber": "5",
+    "sourceLabel": "分享原卷｜第5題",
+    "studentAnswer": "使用者原始紀錄：5@錯題A→ B；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1097-original-10ec63e527fd.jpg"
+    ],
+    "questionFigures": [],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題"
+  },
+  {
+    "id": "q-1098",
+    "sourceId": "src-more-069",
+    "subject": "Geography",
+    "title": "地理第6題｜等高線與北美洲東部地形",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-15",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-15",
+    "question": "北美洲東部的地形主體不包括下列哪張等高線地形圖所代表的地形？\n(A) 圖A\n(B) 圖B\n(C) 圖C\n(D) 圖D",
+    "answer": "(B) 圖B",
+    "correctOption": "B",
+    "explanation": "一、題目問地形主體\n依國中常用的北美洲地形分區，東部主體為古老高地、阿帕拉契山地與丘陵，與中部廣大低平地形區分。本題依原卷訂正選B，不能讀成東部每一處都沒有平原。\n\n二、對照原圖的高度與起伏\nA外側約1000公尺、內部標1400公尺，中央高地面積大，代表高原／高地型；B只見約20公尺的低地輪廓，呈低平地形；C約100～400公尺，呈丘陵起伏；D約900～1300公尺，等高線較密、中央隆起，呈山地型。看高原不能只看到海拔高就直接叫作山地，也要看頂面與周邊坡度。\n\n三、C與B的差別\nC雖然比A、D低，仍有多層等高線顯示起伏，符合低緩丘陵；B的問題是低平，不是單純海拔比較低。古老山地長期受侵蝕而較低緩，仍可保有山稜、丘陵與切割高原。\n\n四、保留地理範圍的限制\n北美洲東部實際也有大西洋沿岸平原，不能說B地形絕對不存在於東部。原AI把A一概叫山地並不精確；本頁補上高原／高地及主體分區限制，列監看頁核對。本題四幅原等高線仍完整保留；新圖只示範判讀，不冒充原圖的精密測繪。",
+    "trap": "",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已實開真正上傳的原卷及本題裁切，核對完整題幹、全部選項與必要圖表。日期採本題首次使用者對話的台灣日期，非考試日期；無冊次或課次證據，歸綜合。",
+    "tags": [
+      "等高線與北美洲東部地形"
+    ],
+    "originalQuestionNumber": "6",
+    "sourceLabel": "分享原卷｜第6題",
+    "studentAnswer": "使用者原始紀錄：6@錯題c→ B；原作答與紅筆訂正均保留於本題原卷。",
+    "images": [
+      "assets/originals/q-1098-original-c85874ec12e9.jpg"
+    ],
+    "questionFigures": [
+      {
+        "src": "assets/questions/q-1098-figure-223e8766c30c.jpg",
+        "alt": "原卷第6題必要作答圖表",
+        "caption": "原卷作答附圖；僅裁切，非AI重繪。"
+      }
+    ],
+    "explanationFigures": [],
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "diagram": "",
+    "contentStatus": "完整原題"
   }
 ]

@@ -1,0 +1,83 @@
+{
+  "id": "q-1094",
+  "subject": "Physics-Chemistry",
+  "title": "由原子圖判讀化合物組成",
+  "art": "docs/comics/art/q-1094-panel-1.svg",
+  "generationMethod": "four independent native SVG scientific/geographical diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261115/q-1094-original.jpg"
+  ],
+  "rationale": "四幅新圖依條件、關係、推導與整合分工；生物採精細類真實教材圖，精確文字公式由HTML呈現。原卷附圖另保留。",
+  "answerCheckedAgainst": "一、先寫出化學式\n氧化鎂為MgO，表示鎂與氧的最簡數量比是1：1。原題○代表鎂、●代表氧；A各1個符合，所以選A。選項括號中的數量是本頁為方便閱讀加入的原圖轉述，四幅原圖仍完整保留。\n\n二、逐圖數清楚\nB為1：2；C為2：1；D為2：4，約分仍是1：2，皆不符合1：1。不要因為氧氣是O₂，就以為氧化鎂必須保留兩個氧。\n\n三、離子與比例\n氧化鎂為離子化合物，以Mg²⁺與O²⁻的1：1比例達到電中性：（＋2）＋（－2）＝0。固體實際是延伸的離子晶格，原題圓圈相接是組成比例的簡化表達，並不是獨立的兩原子MgO分子。\n\n四、名稱與圖式不要混淆\nMgO₂不是本題的氧化鎂MgO；不把B的圖只因含氧就選為正確。新製圖中的晶格只取一小塊二維投影，沒有宣稱它是完整三維晶體或原子的真實大小比例。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 先認圓圈代表什麼",
+      "text": "○是鎂、●是氧。氧化鎂MgO先讀成鎂與氧最簡比1：1，不能直接套氧氣O₂。",
+      "image": "docs/comics/art/q-1094-panel-1.svg",
+      "alt": "先認圓圈代表什麼；新製教學插畫／示意，非原卷。"
+    },
+    {
+      "heading": "2 一正二配一負二",
+      "text": "Mg²⁺與O²⁻以1：1配對，總電荷為0。這是數量比，並非兩個原子組成獨立分子。",
+      "image": "docs/comics/art/q-1094-panel-2.svg",
+      "alt": "一正二配一負二；新製教學插畫／示意，非原卷。"
+    },
+    {
+      "heading": "3 逐圖數，不靠外觀猜",
+      "text": "A為1：1；B為1：2；C為2：1；D為2：4，約分為1：2。因此只有A符合。",
+      "image": "docs/comics/art/q-1094-panel-3.svg",
+      "alt": "逐圖數，不靠外觀猜；新製教學插畫／示意，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案A：MgO的1：1",
+    "points": [
+      "固體為延伸離子晶格。圖示一小塊二維投影，不是完整三維模型；原圖相接圓圈只用來判組成比。"
+    ],
+    "image": "docs/comics/art/q-1094-panel-4.svg",
+    "alt": "答案A：MgO的1：1；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1094-art-da91193886.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-14T16:45:11.059636+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-14T16:45:11.059636+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261115/qa/comics-1094-1095.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261115/q-1094-original.jpg"
+    ],
+    "questionViewed": [
+      "docs/imports/new-gpt-20261115/qa/q-1094-collapsed-1440.png",
+      "docs/imports/new-gpt-20261115/qa/q-1094-collapsed-390.png"
+    ],
+    "scienceChecks": "docs/imports/new-gpt-20261115/science-checks.md",
+    "note": "實看本題四幅圖與正式app／單頁桌機手機圖文；全部原圖、裁切與必要作答圖已核對。全批21隔離、42正式圖解布局及28題目布局通過；q-1097最後裁切另重跑4布局。生物16張獨立內建產圖，理化地理12張原生精確圖。原卷預期與生理／方法限制如實說明，4題訂正與2題原題條件核對未代替使用者確認；未恢復舊圖重製。"
+  },
+  "checkedAt": "2026-11-14T16:45:11.181336+00:00",
+  "validationFile": "docs/comics/q-1094-validation.json"
+}

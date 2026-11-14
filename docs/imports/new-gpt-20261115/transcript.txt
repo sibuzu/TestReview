@@ -1,0 +1,1038 @@
+user
+[原始附件 sediment://file_000000002fcc8206ac55669d06f17b14?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+21@錯題A → C
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第21題｜鴿子族群數量估算
+
+<row align="center" gap={2}>
+  <badge color="secondary">生物／生態學</badge>
+  <text color="secondary" size="xs">＠錯題｜融合模式 v2.1</text>
+</row>
+
+<row align="center" gap={3}>
+  <box flex="1" background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    <text color="secondary" size="xs">原選答案</text>
+    <title size="xl" color="danger">A｜105 隻</title>
+  </box>
+  <icon name="arrow-right" color="secondary" size="lg"/>
+  <box flex="1" background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    <text color="secondary" size="xs">正確答案</text>
+    <title size="xl" color="success">C｜115 隻</title>
+  </box>
+</row>
+
+**核心觀念：標記再捕法（捉放法）**
+
+題目中的關鍵條件：
+
+- 第一次捕捉並標記：10 隻。
+- 連續五天捕捉數量：20、19、25、15、21 隻。
+- 五天捕到的有記號鴿子：2、2、2、1、2 隻。
+
+### 一、精準圖解｜為什麼可以估算整個族群？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 186" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="5" y="8" width="330" height="170" rx="12" fill="#EFF6FF"/>
+    <text x="170" y="28" textAnchor="middle" fontSize="13" fontWeight="700" fill="#1E40AF">標記比例 ≈ 再捕時的標記比例</text>
+    {#each Array.from({length:10},(_,i)=>i) as i}
+      <circle cx={34+(i%5)*29} cy={55+Math.floor(i/5)*29} r="10" fill="#F59E0B" stroke="#B45309" strokeWidth="1.4"/>
+      <text x={34+(i%5)*29} y={59+Math.floor(i/5)*29} textAnchor="middle" fontSize="11" fill="#fff">✓</text>
+    {/each}
+    <text x="91" y="126" textAnchor="middle" fontSize="12" fill="#334155">第一次標記 10 隻</text>
+    {#each Array.from({length:20},(_,i)=>i) as i}
+      <circle cx={206+(i%5)*27} cy={46+Math.floor(i/5)*25} r="8.5" fill={i<2?"#F59E0B":"#93C5FD"} stroke={i<2?"#B45309":"#3B82F6"} strokeWidth="1"/>
+      {#if i<2}
+        <text x={206+(i%5)*27} y={49+Math.floor(i/5)*25} textAnchor="middle" fontSize="9" fill="#fff">✓</text>
+      {/if}
+    {/each}
+    <text x="260" y="159" textAnchor="middle" fontSize="11" fill="#334155">例：第一天 20 隻中有 2 隻標記</text>
+    <text x="170" y="175" textAnchor="middle" fontSize="10" fill="#64748B">橘色＝有記號　藍色＝無記號</text>
+  </svg>
+  <caption>示意圖以第一天為例，顯示再捕樣本中有記號鴿子的比例。</caption>
+</box>
+
+公式：
+
+\[
+\frac{\text{第一次標記數}}{\text{族群總數}}
+\approx
+\frac{\text{再捕有記號數}}{\text{再捕總數}}
+\]
+
+### 二、依照題目計算
+
+先加總五天的資料：
+
+| 項目 | 計算 | 結果 |
+|---|---|---:|
+| 捕捉總數 | 20＋19＋25＋15＋21 | 100 |
+| 有記號總數 | 2＋2＋2＋1＋2 | 9 |
+
+因此：
+
+\[
+\frac{10}{N}\approx\frac{9}{100}
+\]
+
+\[
+N\approx\frac{10\times100}{9}
+=111.1
+\]
+
+估計約 111 隻，四個選項中以 **(B) 110 隻** 最接近。
+
+### 三、重要複核｜題目答案出現疑點
+
+使用照片中的數字獨立驗算，得到約 111 隻，因此**與你提供的 C（115 隻）不一致**。
+
+| 選項 | 與估算值 111.1 的差距 | 判斷 |
+|---|---:|---|
+| (A) 105 | 6.1 | 不選 |
+| (B) 110 | 1.1 | 最接近 |
+| (C) 115 | 3.9 | 不是最接近 |
+| (D) 120 | 8.9 | 不選 |
+
+不過，本題還有一個需要注意的條件：第一次標記的 10 隻被放回族群中，後續捕捉後是否再次放回，以及不同日期是否可能重複捕到同一隻，會影響資料的解讀。
+
+依照一般國中標記再捕法、將五天資料合併估算的方式，**獨立計算結果應選 B，而不是 C**。目前不能把 C 當作已驗證的正解。
+
+### 四、A vs B｜二選一決勝
+
+若誤選 A（105），本題最值得掌握的是：
+
+**不是用捕捉總數直接代表整個族群，而是用「有記號的比例」反推族群數量。**
+
+考場快速檢核：
+
+\[
+9\div100=9\%
+\]
+
+已標記的 10 隻約占全部的 9%，因此族群總數應略大於 110 隻。
+
+這可以快速排除 105，並選擇最接近的 110。
+
+---
+
+### v2.1 品質檢查
+
+- **P0 原題數據：** 已核對照片中的五天捕捉數與標記數。
+- **P0 答案正確性：** 發現 C 與獨立計算不符，暫不確認 C。
+- **P1 教材證據：** 本次未查詢國中教材唯讀搜尋，沒有引用課本頁碼。
+- **P2 圖解：** 已提供第一天的比例示意，數量與原表一致。
+
+**本題訂正建議：** 先將第21題標記為「答案待複核」，不要直接把 C 記成正解。若解答本標示 C，應再確認是否有其他計算規則或題目附加條件。
+
+user
+[原始附件 sediment://file_00000000d8548206becd95d7e1b2f810?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+29@錯題B → C
+
+assistant
+
+
+assistant
+## 第29題｜小白菜的生命現象
+
+<row align="center" gap={2}>
+  <badge>生物｜植物生理</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">B｜代謝</title>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">C｜感應與運動</title>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+題目觀察小白菜四個不同日期的生長紀錄：
+
+| 日期 | 觀察現象 |
+|---|---|
+| 3月10日 | 芽冒出土壤約0.5公分高 |
+| 3月22日 | 有4片葉子 |
+| 4月10日 | 長高了，也長出更多葉子 |
+| 4月18日 | 開花、結果莢 |
+
+題目問的是：**「小白菜的成長過程中並未記錄到下列何種生命現象？」**
+
+關鍵不是小白菜具有哪些生命現象，而是表格中**哪些現象有被記錄到**。
+
+### 二、精準圖解｜生長紀錄 vs 沒有記錄的現象
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 156" width="100%">
+    <rect x="2" y="2" width="336" height="152" rx="12" fill="#F0FDF4"/>
+    <path d="M18 103 H322" stroke="#98765A" strokeWidth="2"/>
+    {#each [{x:42,s:0},{x:120,s:1},{x:202,s:2},{x:286,s:3}] as p}
+      <g transform={`translate(${p.x},100)`}>
+        <path d={`M0 0 Q${p.s%2?5:-5} -${20+p.s*14} 0 -${30+p.s*18}`} fill="none" stroke="#39864B" strokeWidth={2+p.s}/>
+        {#each Array.from({length:p.s===0?1:p.s+2},(_,i)=>i) as i}
+          <ellipse cx={i%2===0?-9:9} cy={-16-i*10} rx={7+p.s} ry={4+p.s} transform={`rotate(${i%2===0?-25:25} ${i%2===0?-9:9} ${-16-i*10})`} fill="#65AD65"/>
+        {/each}
+        {#if p.s===3}
+          <circle cx="0" cy="-75" r="8" fill="#F2C94C"/>
+          <circle cx="-10" cy="-62" r="6" fill="#FDE68A"/>
+          <circle cx="11" cy="-56" r="6" fill="#FDE68A"/>
+        {/if}
+      </g>
+    {/each}
+    {#each [{x:42,t:"3/10"},{x:120,t:"3/22"},{x:202,t:"4/10"},{x:286,t:"4/18"}] as p}
+      <text x={p.x} y="121" fontSize="12" textAnchor="middle" fill="#36543C">{p.t}</text>
+    {/each}
+    <text x="170" y="143" textAnchor="middle" fontSize="12" fill="#166534" fontWeight="600">發芽 → 長葉 → 長高 → 開花結果</text>
+  </svg>
+  <caption>依原題生長階段繪製的概念示意圖，非原題植物照片。</caption>
+</box>
+
+這些紀錄可以直接看出植物的**生長與發育、繁殖**，但沒有直接記錄到植物受到刺激後產生的反應或運動。
+
+### 三、四選項逐項辨析
+
+| 選項 | 生命現象 | 判斷 |
+|---|---|---|
+| (A) 繁殖 | 開花、結果莢與繁殖有關 | 有記錄 |
+| (B) 代謝 | 生長過程需要物質與能量的轉換，屬於間接推知 | 可推知 |
+| (C) 感應與運動 | 沒記錄到刺激及相對應的反應 | **正解** |
+| (D) 生長與發育 | 發芽、長高、長出更多葉子 | 有記錄 |
+
+特別注意：表格也沒有直接測量光合作用或呼吸作用，因此 B 的證據屬於**間接推知**，而不是直接觀察到的代謝數據。這是本題需要區分的地方。
+
+### 四、B vs C｜最後二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={3}>
+    <AsyncImage query="green plant leaf sunlight photosynthesis natural close up" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **B 代謝**
+
+      植物進行光合作用、呼吸作用等物質與能量轉換。小白菜生長期間必然需要代謝活動，但表格沒有直接測量。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="plant phototropism seedling bending toward sunlight window science example" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **C 感應與運動**
+
+      例如植物朝光源彎曲、含羞草受觸碰後閉合。必須有刺激與反應的線索，原題沒有。
+    </box>
+  </row>
+</box>
+
+**考場決勝句：**
+
+> 長高、長葉不等於感應與運動；要判斷感應，先找「受到什麼刺激」以及「產生什麼反應」。
+
+### 五、快速自我檢核
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **小白菜受到單側光照，莖逐漸朝光源彎曲。這屬於哪種生命現象？**
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="A">A. 繁殖</radio>
+    <radio value="B">B. 代謝</radio>
+    <radio value="C">C. 感應與運動</radio>
+    <radio value="D">D. 排泄</radio>
+  </radio-group>
+  {#if answer}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={answer==="C"?"check-circle":"info"} color={answer==="C"?"success":"secondary"}/>
+        **{answer==="C"?"答對了！":"再看一下刺激與反應。" }**
+      </row>
+      因為光線是刺激，莖朝光源彎曲是反應，所以選 C。
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+- **P0：** 原題與四選項已核對；C 可由題意判定為正解。
+- **P1：** 本次尚未使用國中教材唯讀搜尋，不標示課本頁碼。
+- **P2：** 圖解用於表示生長階段與向光性，未將示意圖當作原題證據。
+
+**本題最值得記住的差異：** 「生長」是植物變大、變成熟；「感應與運動」則需要能辨認出刺激和反應。
+
+目前只能確認原選 B、正解 C；沒有當時的作答思路，不能直接判定誤選 B 的實際原因。
+
+user
+[原始附件 sediment://file_000000009fbc820687c4568ba660edc9?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+46@錯題B → A
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第46題｜氧化鎂的化學式與粒子模型
+
+<row align="center" gap={2}>
+  <badge>自然｜理化</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">B</title>
+      <text size="xs">1 鎂＋2 氧</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">A</title>
+      <text size="xs">1 鎂＋1 氧</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題確認
+
+題目：若以 ○ 表示鎂原子，以 ● 表示氧原子，則下列何者可用來表示「氧化鎂」的結構？
+
+題目四個選項的原子數量：
+
+| 選項 | 鎂 ○ | 氧 ● | 比例 |
+|---|---:|---:|---|
+| A | 1 | 1 | 1：1 |
+| B | 1 | 2 | 1：2 |
+| C | 2 | 1 | 2：1 |
+| D | 2 | 4 | 1：2 |
+
+**答案：A。** 氧化鎂的化學式是 MgO，鎂與氧的最簡整數比例為 1：1。
+
+### 二、精準圖解｜A 與 B 差在哪裡？
+
+<box border radius="xl" padding={3} gap={3}>
+  <row align="center" justify="center" gap={3}>
+    <svg viewBox="0 0 250 72" width="100%">
+      <circle cx="31" cy="35" r="19" fill="#FFFFFF" stroke="#64748B" strokeWidth="2.5"/>
+      <circle cx="75" cy="35" r="19" fill="#334155"/>
+      <text x="31" y="40" fontSize="13" fontWeight="700" textAnchor="middle" fill="#334155">Mg</text>
+      <text x="75" y="40" fontSize="12" textAnchor="middle" fill="white">O</text>
+      <text x="146" y="30" fontSize="17" fontWeight="700" fill="#15803D">A｜MgO</text>
+      <text x="146" y="51" fontSize="12" fill="#166534">1：1 ✓</text>
+    </svg>
+  </row>
+  <divider color="subtle"/>
+  <row align="center" justify="center" gap={3}>
+    <svg viewBox="0 0 250 80" width="100%">
+      <circle cx="52" cy="22" r="17" fill="#FFFFFF" stroke="#64748B" strokeWidth="2.5"/>
+      <circle cx="29" cy="60" r="17" fill="#334155"/>
+      <circle cx="75" cy="60" r="17" fill="#334155"/>
+      <text x="52" y="27" fontSize="12" fontWeight="700" textAnchor="middle" fill="#334155">Mg</text>
+      <text x="29" y="64" fontSize="12" textAnchor="middle" fill="white">O</text>
+      <text x="75" y="64" fontSize="12" textAnchor="middle" fill="white">O</text>
+      <text x="146" y="32" fontSize="17" fontWeight="700" fill="#B91C1C">B｜MgO₂</text>
+      <text x="146" y="53" fontSize="12" fill="#B91C1C">1：2 ✗</text>
+    </svg>
+  </row>
+  <caption>白色代表鎂，深色代表氧；圖示用來比較原子數量比，不代表氧化鎂真正由獨立的 MgO 分子組成。</caption>
+</box>
+
+氧化鎂是**離子化合物**，由 Mg²⁺ 與 O²⁻ 組成離子晶格。因為電荷總和必須為零：
+
+\[
+(+2)+(-2)=0
+\]
+
+所以 Mg²⁺ 與 O²⁻ 的數量比為 1：1。
+
+### 三、四選項逐項解析
+
+- **A 正確：** 1 個鎂、1 個氧，符合 MgO。
+- **B 錯誤：** 1 個鎂、2 個氧，比例為 1：2。
+- **C 錯誤：** 2 個鎂、1 個氧，比例為 2：1。
+- **D 錯誤：** 2 個鎂、4 個氧，約成最簡整數比仍是 1：2。
+
+這題有一個特別容易混淆的地方：
+
+\[
+\boxed{\mathrm{MgO}\neq\mathrm{MgO_2}}
+\]
+
+**氧化鎂不是二氧化鎂。** 看到「氧化鎂」，要先想到化學式 MgO，而不是以氧原子一定有兩個來判斷。
+
+### 四、B vs A｜最後二選一決勝
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **考場三秒判斷**
+
+  <row align="center" gap={2}>
+    <icon name="check-circle" color="success"/>
+    化學式 MgO → 鎂：氧＝1：1
+  </row>
+  <row align="center" gap={2}>
+    <icon name="check-circle" color="success"/>
+    選 A，排除 B
+  </row>
+</box>
+
+另一個重要觀念：**氧氣 O₂ 與氧化鎂 MgO 不一樣。**
+
+氧氣是由氧原子構成的分子；氧化鎂則是鎂離子與氧離子依固定比例構成的離子化合物。不能因為氧氣的化學式是 O₂，就認為氧化鎂也一定有兩個氧。
+
+### 五、原題快速自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **若化合物化學式為 CaO，鈣與氧的最簡數量比為多少？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 1：1</radio>
+    <radio value="B">B. 1：2</radio>
+    <radio value="C">C. 2：1</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <box flex="1">
+        **{choice==="A"?"答對！":"正確是 A。"}** CaO 中的鈣與氧數量比是 1：1，與 MgO 的判讀方式相同。
+      </box>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 通過，已核對照片 |
+| P0 正確答案 | 通過，獨立確認 A |
+| P1 教材證據 | 尚未查核課本 |
+| P2 精準圖解 | 通過，圖示比例與文字一致 |
+
+**本題訂正重點：** 選 B 可能是將氧化鎂與含兩個氧原子的化學式混淆，但目前沒有原始作答思路，實際誤選原因仍屬待確認。
+
+下次遇到粒子模型選擇題，先寫出化學式，再數各種原子的比例，會比單憑圖形外觀更可靠。
+
+user
+[原始附件 sediment://file_00000000830c820692ee7b12f0e9f9df?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+48@錯題C→D
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第48題｜超慢跑與血糖調節
+
+<row align="center" gap={2}>
+  <badge>自然｜生物</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">升糖素，使肝糖變血糖</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">D</title>
+      <text size="xs">腎上腺素，使肝糖變血糖</text>
+    </box>
+  </grid-item>
+</grid>
+
+**本題最重要的差異：C、D 都能使肝糖分解，真正要比較的是「運動情境下，哪種激素更符合題意」。**
+
+### 一、原題證據：先讀懂血糖曲線
+
+題目比較飯後正常活動與飯後超慢跑 30 分鐘的血糖變化。
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 348 200" width="100%">
+    <rect x="37" y="15" width="293" height="146" rx="3" fill="#F8FAFC"/>
+    {#each [-25,0,25,50,75] as v}
+      <line x1="39" x2="328" y1={148-(v/75)*117} y2={148-(v/75)*117} stroke="#CBD5E1" strokeWidth="0.8"/>
+      <text x="32" y={152-(v/75)*117} textAnchor="end" fontSize="11" fill="currentColor">{v>0?`+${v}`:v}</text>
+    {/each}
+    {#each [0,30,60,90,120,150,180] as v}
+      <line x1={41+v*1.55} x2={41+v*1.55} y1="17" y2="160" stroke="#CBD5E1" strokeWidth="0.8"/>
+      <text x={41+v*1.55} y="176" textAnchor="middle" fontSize="10" fill="currentColor">{v}</text>
+    {/each}
+    <path d="M41 148 C68 147 78 109 103 81 S134 31 157 38 S194 94 213 106 S258 116 275 138 S309 150 320 140" fill="none" stroke="#2563EB" strokeWidth="3" strokeLinecap="round"/>
+    <path d="M41 148 C69 147 86 110 111 79 S147 89 171 112 S204 117 226 119 S262 140 284 138 S308 124 320 115" fill="none" stroke="#D97706" strokeWidth="3" strokeDasharray="6 4" strokeLinecap="round"/>
+    <text x="42" y="10" fontSize="10" fill="currentColor">血糖變化（mg/dL）</text>
+    <text x="326" y="191" textAnchor="end" fontSize="10" fill="currentColor">時間（分鐘）</text>
+  </svg>
+  <row gap={3} justify="center" wrap="wrap">
+    <row align="center" gap={1}>
+      <box background="#2563EB" width="18px" height="3px"/>
+      <text size="xs">正常餐後（實線）</text>
+    </row>
+    <row align="center" gap={1}>
+      <box background="#D97706" width="18px" height="3px"/>
+      <text size="xs">餐後超慢跑（虛線）</text>
+    </row>
+  </row>
+  <caption>依原題趨勢重繪的示意圖，並非原始數據的精確數位化。</caption>
+</box>
+
+注意圖形後段：超慢跑的血糖曲線在約 150～180 分鐘時逐漸上升，題目要判斷可能參與血糖調節的激素。
+
+### 二、精準圖解｜運動時如何補充血糖？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 168" width="100%">
+    <rect x="90" y="6" width="160" height="37" rx="9" fill="#DBEAFE" stroke="#60A5FA"/>
+    <text x="170" y="29" textAnchor="middle" fontSize="14" fontWeight="600" fill="#1E40AF">運動時需要能量</text>
+    <path d="M170 44 V62" stroke="currentColor" strokeWidth="1.5"/>
+    <path d="M165 57 L170 64 L175 57" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <rect x="82" y="66" width="176" height="37" rx="9" fill="#FEF3C7" stroke="#F59E0B"/>
+    <text x="170" y="89" textAnchor="middle" fontSize="14" fontWeight="600" fill="#92400E">腎上腺素分泌增加</text>
+    <path d="M170 104 V120" stroke="currentColor" strokeWidth="1.5"/>
+    <path d="M165 115 L170 122 L175 115" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <rect x="17" y="127" width="137" height="35" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="85" y="148" textAnchor="middle" fontSize="13" fill="#166534">肝糖分解</text>
+    <path d="M155 144 H181" stroke="#16A34A" strokeWidth="2"/>
+    <path d="M175 139 L182 144 L175 149" stroke="#16A34A" strokeWidth="2" fill="none"/>
+    <rect x="184" y="127" width="139" height="35" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="253" y="148" textAnchor="middle" fontSize="13" fill="#166534">釋出葡萄糖入血</text>
+  </svg>
+  <caption>這是腎上腺素參與血糖調節的簡化路徑，不代表題目直接測得腎上腺素濃度。</caption>
+</box>
+
+運動時交感神經系統活躍，腎上腺素可以促進肝醣分解，協助提供葡萄糖。
+
+### 三、四選項逐項辨析
+
+| 選項 | 激素與作用 | 判斷 |
+|---|---|---|
+| A | 升糖素，使血糖變肝糖 | 錯，升糖素主要促進血糖上升 |
+| B | 腎上腺素，使血糖變肝糖 | 錯，方向相反 |
+| C | 升糖素，使肝糖變血糖 | 生理作用正確，但不是本題預設的運動情境答案 |
+| D | 腎上腺素，使肝糖變血糖 | **符合題目預期** |
+
+### 四、C vs D｜二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={2}>
+    <icon name="circle-help" color="secondary" size="lg"/>
+    <box flex="1" gap={1}>
+      **C 升糖素**
+
+      主要由胰臟分泌，尤其在血糖偏低、空腹或需要維持血糖時發揮作用，能促使肝醣分解。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={2}>
+    <icon name="check-circle" color="success" size="lg"/>
+    <box flex="1" gap={1}>
+      **D 腎上腺素**
+
+      由腎上腺髓質分泌，與交感神經活化、運動及緊急反應有關，也能促進肝醣分解。
+    </box>
+  </row>
+</box>
+
+**考場判斷口訣：**
+
+- 空腹、低血糖 → 優先想到升糖素。
+- 運動、緊張、緊急反應 → 優先想到腎上腺素。
+
+但這個口訣是考試判斷線索，**不能解釋成運動時只有腎上腺素、沒有升糖素**。實際運動時兩者都可能參與調節。
+
+因此本題有一項值得特別標註的科學限制：如果僅根據血糖曲線和運動情境，並不能排除升糖素的參與，也不能單靠曲線證明腎上腺素是唯一原因。D 是依題目設計與國中常見的激素功能分類所選出的預期答案。
+
+### 五、快速自我檢核
+
+{@body const [ans,setAns] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **運動時肝醣分解成葡萄糖，這個過程對血糖有什麼作用？**
+
+  <radio-group direction="col" value={ans} onChange={setAns}>
+    <radio value="A">A. 幫助血糖上升或維持</radio>
+    <radio value="B">B. 一定使血糖下降</radio>
+    <radio value="C">C. 完全不影響血糖</radio>
+  </radio-group>
+  {#if ans}
+    <row align="start" gap={2}>
+      <icon name={ans==="A"?"check-circle":"info"} color={ans==="A"?"success":"secondary"}/>
+      <text size="sm">{ans==="A"?"答對！":"正確是 A。"}肝醣分解後，肝臟可將葡萄糖釋放至血液，協助維持血糖供應。</text>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題、選項 | 已依照片核對 |
+| P0 預期答案 | D，符合題目標示 |
+| P1 科學嚴謹性 | C 也有合理生理依據，需保留區別 |
+| P1 教材證據 | 尚未使用國中教材唯讀搜尋 |
+| P2 圖文一致性 | 圖解為機制示意，未冒充實驗測量結果 |
+
+**本題最重要的學習成果：** C 並不是「升糖素功能記錯」，而是題目以運動情境要求選擇腎上腺素。這是兩個都具有升血糖作用的激素之間的情境辨析題；目前仍不能斷定當初選 C 的實際原因。
+
+user
+[原始附件 sediment://file_0000000005248206a1dfc0bfd3d8cb26?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+49@錯題c→ D
+
+assistant
+
+
+assistant
+## 第49題｜生物分類檢索表
+
+<row align="center" gap={2}>
+  <badge>自然｜生物分類</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">D — 變形蟲</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">D</title>
+      <text size="xs">F — 藍菌</text>
+    </box>
+  </grid-item>
+</grid>
+
+**核心觀念：分類檢索表必須依條件一層一層判斷，不能跳過前面的分類條件。**
+
+### 一、原題證據：六種生物
+
+題目提供木耳、藍菌、酵母菌、變形蟲、草履蟲、新月藻，依細胞構造建立檢索表。
+
+根據照片，分類結果如下：
+
+| 代號 | 分類條件 | 對應生物 |
+|---|---|---|
+| A | 有細胞核、有葉綠體 | 新月藻 |
+| B | 有細胞核、無葉綠體、多細胞 | 木耳 |
+| C | 有細胞核、無葉綠體、單細胞、有細胞壁 | 酵母菌 |
+| D | 有細胞核、無細胞壁、具有纖毛 | 草履蟲 |
+| E | 有細胞核、無細胞壁、不具纖毛 | 變形蟲 |
+| F | 無細胞核 | **藍菌** |
+
+### 二、精準圖解｜如何找到 F？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 197" width="100%">
+    <rect x="101" y="5" width="138" height="36" rx="8" fill="#E2E8F0" stroke="#94A3B8"/>
+    <text x="170" y="28" textAnchor="middle" fontSize="14" fill="#334155" fontWeight="600">是否有細胞核？</text>
+    <path d="M150 41 L80 84 M190 41 L260 84" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <text x="85" y="56" textAnchor="middle" fontSize="12" fill="#64748B">有</text>
+    <text x="256" y="56" textAnchor="middle" fontSize="12" fill="#64748B">無</text>
+    <rect x="10" y="85" width="140" height="36" rx="8" fill="#DBEAFE" stroke="#60A5FA"/>
+    <text x="80" y="107" textAnchor="middle" fontSize="13" fill="#1E40AF">真核生物</text>
+    <rect x="190" y="85" width="140" height="36" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="260" y="107" textAnchor="middle" fontSize="13" fill="#166534" fontWeight="600">原核生物</text>
+    <path d="M80 121 V145 M260 121 V145" stroke="currentColor" strokeWidth="1.5"/>
+    <rect x="10" y="145" width="140" height="42" rx="8" fill="#EFF6FF" stroke="#93C5FD"/>
+    <text x="80" y="162" fontSize="12" textAnchor="middle" fill="#1E40AF">木耳、酵母菌</text>
+    <text x="80" y="178" fontSize="12" textAnchor="middle" fill="#1E40AF">變形蟲等</text>
+    <rect x="190" y="145" width="140" height="42" rx="8" fill="#DCFCE7" stroke="#16A34A" strokeWidth="2"/>
+    <text x="260" y="171" fontSize="15" fontWeight="700" textAnchor="middle" fill="#166534">F＝藍菌 ✓</text>
+  </svg>
+  <caption>依原題第一層分類條件繪製。藍菌沒有細胞核，直接歸入 F。</caption>
+</box>
+
+### 三、四個選項逐項辨析
+
+| 選項 | 題目配對 | 判斷 |
+|---|---|---|
+| A | A—草履蟲 | 錯，草履蟲沒有葉綠體 |
+| B | C—新月藻 | 錯，新月藻有葉綠體，應為 A |
+| C | D—變形蟲 | 錯，D 應具有纖毛，對應草履蟲 |
+| D | F—藍菌 | **正確，藍菌沒有細胞核** |
+
+### 四、C vs D｜最後二選一決勝
+
+<box gap={3}>
+  <row align="start" gap={3}>
+    <AsyncImage query="Paramecium microscope cilia protozoan scientific photomicrograph" aspectRatio="1:1" maxWidth="116px"/>
+    <box flex="1" gap={1}>
+      **草履蟲：有纖毛 → D**
+
+      草履蟲身體表面具有許多短纖毛，藉由纖毛擺動移動。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="Amoeba proteus microscope pseudopodia scientific photomicrograph" aspectRatio="1:1" maxWidth="116px"/>
+    <box flex="1" gap={1}>
+      **變形蟲：無纖毛 → E**
+
+      變形蟲主要藉由伸出偽足來移動、攝食，不是靠纖毛。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="cyanobacteria Anabaena microscope filament cyanobacteria photomicrograph" aspectRatio="1:1" maxWidth="116px"/>
+    <box flex="1" gap={1}>
+      **藍菌：無細胞核 → F**
+
+      藍菌是原核生物，沒有由核膜包圍的細胞核，因此一開始就分入無細胞核的分支。
+    </box>
+  </row>
+</box>
+
+**最值得記住的三個判斷：**
+
+- 草履蟲靠纖毛。
+- 變形蟲靠偽足。
+- 藍菌是原核生物，沒有細胞核。
+
+### 五、考場快速自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **在原題的分類檢索表中，變形蟲應落在哪個代號？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="C">C. 有細胞壁</radio>
+    <radio value="D">D. 具有纖毛</radio>
+    <radio value="E">E. 不具纖毛</radio>
+    <radio value="F">F. 無細胞核</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="E"?"check-circle":"info"} color={choice==="E"?"success":"secondary"}/>
+        **{choice==="E"?"答對！":"正確答案是 E。"}**
+      </row>
+      變形蟲具有細胞核、沒有細胞壁，也沒有纖毛，主要靠偽足移動，所以應分到 E。
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已依照片核對 |
+| P0 答案 | D，與檢索表一致 |
+| P1 教材證據 | 尚未查詢國中教材唯讀搜尋 |
+| P2 圖解 | 已核對有核、無核的分類方向 |
+
+**本題訂正重點：** 原選 C（D—變形蟲），正解 D（F—藍菌）。最值得注意的是「草履蟲有纖毛、變形蟲沒有纖毛」以及「藍菌沒有細胞核」兩個差異。
+
+目前只能確認選項誤選，尚不能判定當時是混淆纖毛與偽足，還是漏看細胞核條件。
+
+user
+[原始附件 sediment://file_000000008df482069776021f8e9faa72?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+5@錯題A→ B
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第5題｜北美洲賞鯨海域判斷
+
+<row align="center" gap={2}>
+  <badge>地理｜北美洲</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">A｜太平洋</title>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B｜大西洋</title>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+題目提到：
+
+> 每年的5月至10月，是加拿大魁北克、安大略的賞鯨季，乘遊船來到聖羅倫斯河，超大的巨鯨可能就在你乘坐的船邊嬉戲……文中提及賞鯨魚的地點應瀕臨下列哪一海域？
+
+四個選項：
+
+- (A) 太平洋
+- (B) 大西洋
+- (C) 北極海
+- (D) 墨西哥灣
+
+決定性線索是 **「聖羅倫斯河」**，而不是單看加拿大的位置。
+
+### 二、精準地理圖解｜聖羅倫斯河通往哪裡？
+
+<AsyncImageGroup query={["map St Lawrence River Gulf of St Lawrence Atlantic Ocean Quebec Canada Great Lakes geographic","physical geography map North America Pacific Atlantic Arctic oceans labeled"]} aspectRatio="5:3" layout="carousel"/>
+
+聖羅倫斯河位於加拿大東部，連接五大湖水系與聖羅倫斯灣，最後通往大西洋。
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 330 84" width="100%">
+    {#each [{x:3,w:90,t:"五大湖"},{x:119,w:91,t:"聖羅倫斯河"},{x:236,w:91,t:"大西洋"}] as p}
+      <rect x={p.x} y="18" width={p.w} height="46" rx="8" fill={p.x===236?"#DCFCE7":"#DBEAFE"} stroke={p.x===236?"#16A34A":"#60A5FA"}/>
+      <text x={p.x+p.w/2} y="46" textAnchor="middle" fontSize="13" fontWeight="600" fill={p.x===236?"#166534":"#1E40AF"}>{p.t}</text>
+    {/each}
+    <path d="M95 41 H115 M107 35 L115 41 L107 47 M212 41 H232 M224 35 L232 41 L224 47" fill="none" stroke="currentColor" strokeWidth="1.8"/>
+  </svg>
+  <caption>簡化水系方向示意；完整路徑經聖羅倫斯灣通往大西洋。</caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 位置判斷 | 結果 |
+|---|---|---|
+| A 太平洋 | 加拿大西岸，如溫哥華附近 | 排除 |
+| B 大西洋 | 加拿大東部，聖羅倫斯河通往此海域 | **正確** |
+| C 北極海 | 加拿大北部 | 排除 |
+| D 墨西哥灣 | 北美洲南側，美國南部及墨西哥東側 | 排除 |
+
+### 四、A vs B｜最後二選一決勝
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="Vancouver British Columbia Pacific coast Canada geographic map" aspectRatio="4:3"/>
+    **A｜太平洋**
+
+    <text size="sm">加拿大西部，代表地點是溫哥華。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Quebec Saint Lawrence River Gulf Atlantic coast Canada map" aspectRatio="4:3"/>
+    **B｜大西洋**
+
+    <text size="sm">加拿大東部，代表地點是魁北克、聖羅倫斯河口。</text>
+  </grid-item>
+</grid>
+
+**會考快速判斷：**
+
+加拿大西部 → 太平洋。
+
+加拿大東部、聖羅倫斯河 → 大西洋。
+
+特別注意：加拿大同時瀕臨三大洋，所以「加拿大賞鯨」本身不能決定答案，必須進一步找到河川、城市或省分。
+
+### 五、用原題概念自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **題目若改成「遊客在加拿大溫哥華沿岸賞鯨」，應選哪個海洋？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 太平洋</radio>
+    <radio value="B">B. 大西洋</radio>
+    <radio value="C">C. 北極海</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <text size="sm">{choice==="A"?"答對！":"正確是 A。"}溫哥華在加拿大西岸，面向太平洋。</text>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已核對照片 |
+| P0 正確答案 | B，地理位置判斷一致 |
+| P1 教材證據 | 尚未查核課本，未標示教材頁碼 |
+| P2 圖解 | 河川流向與海域關係一致 |
+
+**本題最值得改善的判斷動作：看到國家名稱後，不要立刻選海洋；先圈出「聖羅倫斯河」這類能精確定位的地理線索。**
+
+本題已確認 A → B，但缺少作答時的思考過程，尚不能判定是東西岸混淆，或忽略了聖羅倫斯河這個關鍵條件。
+
+user
+[原始附件 sediment://file_00000000c0108206aaaecdd541c8dc98?shared_conversation_id=6af88770-de10-83ec-a2c8-a484d56becdd]
+6@錯題c→ B
+
+assistant
+
+
+assistant
+## 第6題｜北美洲東部的地形判斷
+
+<row align="center" gap={2}>
+  <badge>地理｜北美洲地形</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">低緩丘陵地形</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B</title>
+      <text size="xs">平坦低地地形</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+第6題：「北美洲東部的地形主體**不包括**下列哪張等高線地形圖所代表的地形？」
+
+這題的兩個關鍵字：
+
+- **東部**：不是整個北美洲。
+- **不包括**：要找出不符合東部主要地形特徵的選項。
+
+### 二、精準圖解｜四張等高線圖代表什麼？
+
+<box border radius="xl" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    {#each [{k:"A",name:"較高山地",levels:5,peak:1400},{k:"B",name:"平坦低地",levels:1,peak:20},{k:"C",name:"低緩丘陵",levels:4,peak:400},{k:"D",name:"山地丘陵",levels:6,peak:1300}] as item}
+      <grid-item>
+        <box background="surface-secondary" padding={2} radius="md" gap={1}>
+          <svg viewBox="0 0 150 92" width="100%">
+            <rect width="150" height="92" rx="5" fill="#E8F2DD"/>
+            {#each Array.from({length:item.levels},(_,i)=>i) as i}
+              <ellipse cx="75" cy="45" rx={68-i*9} ry={40-i*6} fill={["#9BCB71","#C1D56B","#E0D46A","#EAC078","#DBA25A","#B96D42"][i]} stroke="#708E53" strokeWidth="0.9"/>
+            {/each}
+            <text x="75" y="50" textAnchor="middle" fontSize="12" fontWeight="700" fill="#4A422F">{item.peak}</text>
+          </svg>
+          <text weight="semibold" size="sm">{item.k}｜{item.name}</text>
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <caption>依原題各選項高程概念繪製的比較示意，非原題等高線的精確重製。</caption>
+</box>
+
+原題四選項的地形判讀：
+
+| 選項 | 等高線特徵 | 地形判斷 |
+|---|---|---|
+| A | 高度可達約 1,400 公尺 | 山地 |
+| B | 幾乎整片皆為 20 公尺低地 | 平坦低地 |
+| C | 高度約 100～400 公尺 | 丘陵 |
+| D | 高度約 900～1,300 公尺 | 山地 |
+
+### 三、為什麼答案是 B？
+
+北美洲東部具有古老的阿帕拉契山脈，長期受到侵蝕，地形較西部的洛磯山脈低緩，但仍有山地、丘陵與起伏地形。
+
+<AsyncImageGroup query={["Appalachian Mountains rolling ridges eastern United States landscape","Appalachian Mountains eastern North America physical relief map"]} aspectRatio="5:3" layout="carousel"/>
+
+在這份題目的分類邏輯下：
+
+- A：山地，可以出現在東部。
+- C：丘陵，可以出現在東部。
+- D：山地，可以出現在東部。
+- B：大片、接近 20 公尺的平坦低地，**不是題目所強調的東部山地地形主體**。
+
+所以依題目預期答案選 **B**。
+
+不過，這裡必須補充一項地理上的嚴謹性：**北美洲東部確實也有大西洋沿岸平原等低平地區**。因此，不能把 B 解釋成「北美洲東部完全不存在平坦低地」。若題目將整個東部都納入，這樣的問法並不十分精確；B 是按照本題將東部地形主體視為阿帕拉契山地的出題脈絡判斷。
+
+### 四、C vs B｜最後二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={3}>
+    <AsyncImage query="Appalachian foothills rolling green low hills landscape" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **C｜低緩丘陵**
+
+      有明顯地勢起伏。符合東部古老山地經侵蝕後形成的部分地形。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="very flat lowland grass plain level horizon landscape" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **B｜平坦低地**
+
+      高度接近 20 公尺、地勢幾乎沒有起伏，不符合題目所鎖定的山地丘陵主體。
+    </box>
+  </row>
+</box>
+
+**考場決勝句：**
+
+> 阿帕拉契山脈雖然古老、低緩，但「低緩」不代表「完全平坦」。
+
+### 五、回到原題的快速檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **古老山脈長期受到侵蝕後，地勢通常有什麼變化？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 山勢較低緩，仍可能保有起伏</radio>
+    <radio value="B">B. 所有山地都變成海拔 20 公尺的平原</radio>
+    <radio value="C">C. 山勢必然越來越高聳陡峭</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <text size="sm">{choice==="A"?"答對！":"正確是 A。"}長期侵蝕使山勢趨於低緩，但不代表完全失去地勢起伏。</text>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已核對照片 |
+| P0 預期答案 | B，與提供訂正一致 |
+| P1 地理嚴謹性 | 已註明東部仍有沿岸平原，題意有簡化 |
+| P1 教材證據 | 尚未使用國中教材唯讀搜尋 |
+| P2 圖解 | 概念比較示意，未冒充原題精確等高線 |
+
+**本題最值得改善的動作：** 先將等高線轉譯成「平地、丘陵或山地」，再對照區域地形特徵，而不是只看山的海拔高低。
+
+這題 C → B 已確認，但尚無作答過程，因此不能直接判定當時是否將「古老山脈低緩」誤認為「不屬於山地」。
+
+---
+
+如果你願意，我可以：
+
+- 繼續講解標記再捕法的進階應用
+- 分析小白菜生命現象考題後續討論
+- 說明氧化鎂化學式考題的相關離子概念

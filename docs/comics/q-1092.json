@@ -1,0 +1,83 @@
+{
+  "id": "q-1092",
+  "subject": "Biology",
+  "title": "由五天再捕資料估算族群",
+  "art": "docs/comics/art/q-1092-panel-1.png",
+  "generationMethod": "four separate built-in imagegen scientific illustrations",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261115/q-1092-original.jpg"
+  ],
+  "rationale": "四幅新圖依條件、關係、推導與整合分工；生物採精細類真實教材圖，精確文字公式由HTML呈現。原卷附圖另保留。",
+  "answerCheckedAgainst": "一、每一天都能先估計一次\n原先標記10隻。若再捕樣本有n隻，其中m隻有記號，以「全體的標記比例約等於樣本標記比例」估計：10／N≈m／n，所以N≈10n／m。這是樣本估計，不是逐隻點清的真實數量。\n\n二、逐日估計，再取五天平均\n第一天：10×20÷2＝100隻；第二天：10×19÷2＝95隻；第三天：10×25÷2＝125隻；第四天：10×15÷1＝150隻；第五天：10×21÷2＝105隻。五天估計平均為（100＋95＋125＋150＋105）÷5＝115隻，符合原卷紅筆與使用者提供的C。A的105只取第五天，D的120也不符這個平均。\n\n三、為什麼原AI算出B？\n原AI把五天資料合併：再捕總數100隻次、其中有記號9隻次，因此10×100÷9≈111.1，最接近B的110。這套「合併後取比值」與「各日比值的平均」不是同一估計方法；111.1也不能四捨五入成115。\n\n四、保留原題的限制\n原題未明寫應採哪一種多日整合方法，也未交代後續每次捕捉的放回細節。因此本頁依原卷C解釋逐日平均法，同時保留B由合併樣本法得到的理由，列監看頁請核對。不能只做合併法就宣稱C算錯，也不把兩種估計混成同一條算式。標記不影響存活與再捕機會、族群大致封閉、標記個體混合均勻，都是此類估計的假設。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 標記的是樣本，不是全體",
+      "text": "原先10隻作記號後放回。圖中橘色腳環只示範無害標記，不以插畫中的鳥數代替原表。",
+      "image": "docs/comics/art/q-1092-panel-1.png",
+      "alt": "標記的是樣本，不是全體；新製教學插畫／示意，非原卷。"
+    },
+    {
+      "heading": "2 混合後再捕看比例",
+      "text": "以10／N≈m／n，得N≈10n／m。標記個體須混合，圖中的局部鳥群不是族群總數。",
+      "image": "docs/comics/art/q-1092-panel-2.png",
+      "alt": "混合後再捕看比例；新製教學插畫／示意，非原卷。"
+    },
+    {
+      "heading": "3 五天各自估一次",
+      "text": "各日依序100、95、125、150、105隻。用原表逐日資料，不把第五天105當作五天結論。",
+      "image": "docs/comics/art/q-1092-panel-3.png",
+      "alt": "五天各自估一次；新製教學插畫／示意，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "原卷C：逐日平均115隻",
+    "points": [
+      "（100＋95＋125＋150＋105）÷5＝115。合併樣本法則約111.1接近B；原題未指定方法，兩者差異已列核對。"
+    ],
+    "image": "docs/comics/art/q-1092-panel-4.png",
+    "alt": "原卷C：逐日平均115隻；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1092-art-4b1f2d50e9-web.webp",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-14T16:45:11.059636+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-14T16:45:11.059636+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261115/qa/comics-1092-1093.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261115/q-1092-original.jpg"
+    ],
+    "questionViewed": [
+      "docs/imports/new-gpt-20261115/qa/q-1092-collapsed-1440.png",
+      "docs/imports/new-gpt-20261115/qa/q-1092-collapsed-390.png"
+    ],
+    "scienceChecks": "docs/imports/new-gpt-20261115/science-checks.md",
+    "note": "實看本題四幅圖與正式app／單頁桌機手機圖文；全部原圖、裁切與必要作答圖已核對。全批21隔離、42正式圖解布局及28題目布局通過；q-1097最後裁切另重跑4布局。生物16張獨立內建產圖，理化地理12張原生精確圖。原卷預期與生理／方法限制如實說明，4題訂正與2題原題條件核對未代替使用者確認；未恢復舊圖重製。"
+  },
+  "checkedAt": "2026-11-14T16:45:11.070698+00:00",
+  "validationFile": "docs/comics/q-1092-validation.json"
+}

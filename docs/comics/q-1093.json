@@ -1,0 +1,83 @@
+{
+  "id": "q-1093",
+  "subject": "Biology",
+  "title": "從小白菜紀錄辨認生命現象",
+  "art": "docs/comics/art/q-1093-panel-1.png",
+  "generationMethod": "four separate built-in imagegen scientific illustrations",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261115/q-1093-original.jpg"
+  ],
+  "rationale": "四幅新圖依條件、關係、推導與整合分工；生物採精細類真實教材圖，精確文字公式由HTML呈現。原卷附圖另保留。",
+  "answerCheckedAgainst": "一、找表格實際提供的證據\n芽冒出、長高與長出更多葉子，呈現生長與發育；開花、結果莢，呈現繁殖相關階段。A、D都有紀錄依據。\n\n二、代謝與紀錄層級\n植物生長需要製造及利用物質、轉換能量，必有光合作用、呼吸作用等代謝活動，因此本題依生命現象的整體推論，不以B為預期答案。但表格沒有直接量測光合作用速率或呼吸數據，不能說它直接測到了代謝。\n\n三、C缺少刺激與反應的紀錄\n感應與運動須能指出刺激和相應反應，例如單側光照與朝光生長。表格只列晴雨陰天及生長階段，沒有記錄光源方向、莖彎向何處或觸碰後反應，因此選C。這是「未記錄」，不是小白菜沒有感應能力；長高本身也不能直接等同向光運動。\n\n四、原圖與新圖分工\n表格的四幅黑白小圖保持原樣，包含3月22日「有4片葉子」；新製彩色植物圖僅輔助理解生長階段，不冒充當時觀察照片，也不把同日天氣當作已證明生長原因的實驗。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 發芽是生長階段",
+      "text": "3月10日原紀錄為冒土約0.5公分。新圖示範幼苗及根部，不是當時原株的等比例照片。",
+      "image": "docs/comics/art/q-1093-panel-1.png",
+      "alt": "發芽是生長階段；新製教學插畫／示意，非原卷。"
+    },
+    {
+      "heading": "2 長出葉片仍是生長",
+      "text": "3月22日記錄4片葉子。新圖清楚畫出2片子葉與2片真葉，只輔助理解葉數，原卷黑白圖另保留。",
+      "image": "docs/comics/art/q-1093-panel-2.png",
+      "alt": "長出葉片仍是生長；新製教學插畫／示意，非原卷。"
+    },
+    {
+      "heading": "3 代謝可由生長推知",
+      "text": "4月10日長高又長葉，必有物質與能量轉換；這是間接推論，表格沒有直接量代謝速率。",
+      "image": "docs/comics/art/q-1093-panel-3.png",
+      "alt": "代謝可由生長推知；新製教學插畫／示意，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案C：未記錄刺激反應",
+    "points": [
+      "開花、結果莢呈現繁殖階段；表格卻沒記錄刺激與相應運動。未記錄感應，不代表植物沒有感應。"
+    ],
+    "image": "docs/comics/art/q-1093-panel-4.png",
+    "alt": "答案C：未記錄刺激反應；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1093-art-d417061c24-web.webp",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-14T16:45:11.059636+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-14T16:45:11.059636+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261115/qa/comics-1092-1093.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261115/q-1093-original.jpg"
+    ],
+    "questionViewed": [
+      "docs/imports/new-gpt-20261115/qa/q-1093-collapsed-1440.png",
+      "docs/imports/new-gpt-20261115/qa/q-1093-collapsed-390.png"
+    ],
+    "scienceChecks": "docs/imports/new-gpt-20261115/science-checks.md",
+    "note": "實看本題四幅圖與正式app／單頁桌機手機圖文；全部原圖、裁切與必要作答圖已核對。全批21隔離、42正式圖解布局及28題目布局通過；q-1097最後裁切另重跑4布局。生物16張獨立內建產圖，理化地理12張原生精確圖。原卷預期與生理／方法限制如實說明，4題訂正與2題原題條件核對未代替使用者確認；未恢復舊圖重製。"
+  },
+  "checkedAt": "2026-11-14T16:45:11.126860+00:00",
+  "validationFile": "docs/comics/q-1093-validation.json"
+}

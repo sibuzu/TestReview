@@ -1,0 +1,83 @@
+{
+  "id": "q-1103",
+  "subject": "Physics-Chemistry",
+  "title": "鋼絲絨裝置的氣體與水位",
+  "art": "docs/comics/art/q-1103-panel-1.svg",
+  "generationMethod": "four independent native SVG structure/apparatus/data diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261115-b/q-1103-original.jpg"
+  ],
+  "rationale": "依條件、關係、推導與整合逐幅製作；精確字詞、化學式與數字另用可校對HTML及原生圖，原AI圖不採用。",
+  "answerCheckedAgainst": "一、先找封閉的氣體與反應物\n鋼絲絨置於中空玻璃管上方，塞住軟木塞，下端浸在水中；起初調整管內外水面等高。鋼絲絨中的鐵在潮濕環境與管內氧氣反應形成鐵鏽，移除部分氣態氧。\n\n二、壓差使水進入玻璃管\n反應使管內氣體壓力有降低的趨勢，外界大氣壓力把水推入管內，管內水面上升；最後由內外氣壓及水柱壓力差達到平衡，選B。不是水自己往上跑，也不是鐵直接把水吸上去。\n\n三、逐項排除\nA雖提到氧約占空氣體積五分之一，水位方向卻寫下降，錯；也不應在未交代校正條件時宣稱任何裝置都剛好量到五分之一。C漏掉「兩側水面上方壓力相同」的前提；水相通不保證水面一定等高。D把水蒸氣當成使水面下降的主因，不符合本題耗氧、生鏽與水面上升的觀察。\n\n四、核對裝置\n原圖註明在室溫放置一星期，並未加熱或燃燒。新圖保留上端軟木塞、內部鋼絲絨、下端浸水開口與較高的管內水面，不把它畫成敞口玻璃管或密封底部。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 先確認原裝置的封閉氣體",
+      "text": "上方軟木塞封口，鋼絲絨在管內；下端開口浸水。起初水面等高，記號線保留原位置。",
+      "image": "docs/comics/art/q-1103-panel-1.svg",
+      "alt": "先確認原裝置的封閉氣體；新製教學圖，非原卷。"
+    },
+    {
+      "heading": "2 氧氣參與生鏽反應",
+      "text": "鐵在潮濕環境與氧反應形成鐵鏽，部分氣態氧離開氣相；不是將所有空氣都消耗掉。",
+      "image": "docs/comics/art/q-1103-panel-2.svg",
+      "alt": "氧氣參與生鏽反應；新製教學圖，非原卷。"
+    },
+    {
+      "heading": "3 外壓把水推進管內",
+      "text": "管內氣壓下降，外界大氣壓力推水入管，水面上升。連通的水若兩側氣壓不同，不一定等高。",
+      "image": "docs/comics/art/q-1103-panel-3.svg",
+      "alt": "外壓把水推進管內；新製教學圖，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：耗氧後水面上升",
+    "points": [
+      "室溫放置一星期後，管內水面較高。新圖僅示方向，不拿未校正示意圖精量成恰好五分之一，也不畫成加熱或燃燒。"
+    ],
+    "image": "docs/comics/art/q-1103-panel-4.svg",
+    "alt": "答案B：耗氧後水面上升；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1103-art-5875a57552.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-15T16:29:41.769137+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-15T16:29:41.769137+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261115-b/qa/comics-1103-1104.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261115-b/q-1103-original.jpg"
+    ],
+    "questionViewed": [
+      "docs/imports/new-gpt-20261115-b/qa/q-1103-collapsed-1440.png",
+      "docs/imports/new-gpt-20261115-b/qa/q-1103-collapsed-390.png"
+    ],
+    "scienceChecks": "docs/imports/new-gpt-20261115-b/science-checks.md",
+    "note": "已實看完整原卷、本題裁切與必要文章／圖表，核對全部選項。四幅圖分別檢查，隔離預覽及正式app／單頁桌機手機已驗證並實看。全批21隔離、42正式圖解布局、28題目布局通過；q-1101文章提示、q-1104數據標籤、q-1105熱源標籤微調後另通過12題目布局及12正式圖解布局。英文12張獨立內建產圖，理化16張原生精確圖。前7原問維持既有內容與四圖，未恢復舊圖重製。"
+  },
+  "checkedAt": "2026-11-15T16:29:42.206940+00:00",
+  "validationFile": "docs/comics/q-1103-validation.json"
+}

@@ -1,0 +1,2293 @@
+user
+[原始附件 sediment://file_000000002fcc8206ac55669d06f17b14?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+21@錯題A → C
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第21題｜鴿子族群數量估算
+
+<row align="center" gap={2}>
+  <badge color="secondary">生物／生態學</badge>
+  <text color="secondary" size="xs">＠錯題｜融合模式 v2.1</text>
+</row>
+
+<row align="center" gap={3}>
+  <box flex="1" background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    <text color="secondary" size="xs">原選答案</text>
+    <title size="xl" color="danger">A｜105 隻</title>
+  </box>
+  <icon name="arrow-right" color="secondary" size="lg"/>
+  <box flex="1" background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+    <text color="secondary" size="xs">正確答案</text>
+    <title size="xl" color="success">C｜115 隻</title>
+  </box>
+</row>
+
+**核心觀念：標記再捕法（捉放法）**
+
+題目中的關鍵條件：
+
+- 第一次捕捉並標記：10 隻。
+- 連續五天捕捉數量：20、19、25、15、21 隻。
+- 五天捕到的有記號鴿子：2、2、2、1、2 隻。
+
+### 一、精準圖解｜為什麼可以估算整個族群？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 186" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="5" y="8" width="330" height="170" rx="12" fill="#EFF6FF"/>
+    <text x="170" y="28" textAnchor="middle" fontSize="13" fontWeight="700" fill="#1E40AF">標記比例 ≈ 再捕時的標記比例</text>
+    {#each Array.from({length:10},(_,i)=>i) as i}
+      <circle cx={34+(i%5)*29} cy={55+Math.floor(i/5)*29} r="10" fill="#F59E0B" stroke="#B45309" strokeWidth="1.4"/>
+      <text x={34+(i%5)*29} y={59+Math.floor(i/5)*29} textAnchor="middle" fontSize="11" fill="#fff">✓</text>
+    {/each}
+    <text x="91" y="126" textAnchor="middle" fontSize="12" fill="#334155">第一次標記 10 隻</text>
+    {#each Array.from({length:20},(_,i)=>i) as i}
+      <circle cx={206+(i%5)*27} cy={46+Math.floor(i/5)*25} r="8.5" fill={i<2?"#F59E0B":"#93C5FD"} stroke={i<2?"#B45309":"#3B82F6"} strokeWidth="1"/>
+      {#if i<2}
+        <text x={206+(i%5)*27} y={49+Math.floor(i/5)*25} textAnchor="middle" fontSize="9" fill="#fff">✓</text>
+      {/if}
+    {/each}
+    <text x="260" y="159" textAnchor="middle" fontSize="11" fill="#334155">例：第一天 20 隻中有 2 隻標記</text>
+    <text x="170" y="175" textAnchor="middle" fontSize="10" fill="#64748B">橘色＝有記號　藍色＝無記號</text>
+  </svg>
+  <caption>示意圖以第一天為例，顯示再捕樣本中有記號鴿子的比例。</caption>
+</box>
+
+公式：
+
+\[
+\frac{\text{第一次標記數}}{\text{族群總數}}
+\approx
+\frac{\text{再捕有記號數}}{\text{再捕總數}}
+\]
+
+### 二、依照題目計算
+
+先加總五天的資料：
+
+| 項目 | 計算 | 結果 |
+|---|---|---:|
+| 捕捉總數 | 20＋19＋25＋15＋21 | 100 |
+| 有記號總數 | 2＋2＋2＋1＋2 | 9 |
+
+因此：
+
+\[
+\frac{10}{N}\approx\frac{9}{100}
+\]
+
+\[
+N\approx\frac{10\times100}{9}
+=111.1
+\]
+
+估計約 111 隻，四個選項中以 **(B) 110 隻** 最接近。
+
+### 三、重要複核｜題目答案出現疑點
+
+使用照片中的數字獨立驗算，得到約 111 隻，因此**與你提供的 C（115 隻）不一致**。
+
+| 選項 | 與估算值 111.1 的差距 | 判斷 |
+|---|---:|---|
+| (A) 105 | 6.1 | 不選 |
+| (B) 110 | 1.1 | 最接近 |
+| (C) 115 | 3.9 | 不是最接近 |
+| (D) 120 | 8.9 | 不選 |
+
+不過，本題還有一個需要注意的條件：第一次標記的 10 隻被放回族群中，後續捕捉後是否再次放回，以及不同日期是否可能重複捕到同一隻，會影響資料的解讀。
+
+依照一般國中標記再捕法、將五天資料合併估算的方式，**獨立計算結果應選 B，而不是 C**。目前不能把 C 當作已驗證的正解。
+
+### 四、A vs B｜二選一決勝
+
+若誤選 A（105），本題最值得掌握的是：
+
+**不是用捕捉總數直接代表整個族群，而是用「有記號的比例」反推族群數量。**
+
+考場快速檢核：
+
+\[
+9\div100=9\%
+\]
+
+已標記的 10 隻約占全部的 9%，因此族群總數應略大於 110 隻。
+
+這可以快速排除 105，並選擇最接近的 110。
+
+---
+
+### v2.1 品質檢查
+
+- **P0 原題數據：** 已核對照片中的五天捕捉數與標記數。
+- **P0 答案正確性：** 發現 C 與獨立計算不符，暫不確認 C。
+- **P1 教材證據：** 本次未查詢國中教材唯讀搜尋，沒有引用課本頁碼。
+- **P2 圖解：** 已提供第一天的比例示意，數量與原表一致。
+
+**本題訂正建議：** 先將第21題標記為「答案待複核」，不要直接把 C 記成正解。若解答本標示 C，應再確認是否有其他計算規則或題目附加條件。
+
+user
+[原始附件 sediment://file_00000000d8548206becd95d7e1b2f810?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+29@錯題B → C
+
+assistant
+
+
+assistant
+## 第29題｜小白菜的生命現象
+
+<row align="center" gap={2}>
+  <badge>生物｜植物生理</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">B｜代謝</title>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">C｜感應與運動</title>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+題目觀察小白菜四個不同日期的生長紀錄：
+
+| 日期 | 觀察現象 |
+|---|---|
+| 3月10日 | 芽冒出土壤約0.5公分高 |
+| 3月22日 | 有4片葉子 |
+| 4月10日 | 長高了，也長出更多葉子 |
+| 4月18日 | 開花、結果莢 |
+
+題目問的是：**「小白菜的成長過程中並未記錄到下列何種生命現象？」**
+
+關鍵不是小白菜具有哪些生命現象，而是表格中**哪些現象有被記錄到**。
+
+### 二、精準圖解｜生長紀錄 vs 沒有記錄的現象
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 156" width="100%">
+    <rect x="2" y="2" width="336" height="152" rx="12" fill="#F0FDF4"/>
+    <path d="M18 103 H322" stroke="#98765A" strokeWidth="2"/>
+    {#each [{x:42,s:0},{x:120,s:1},{x:202,s:2},{x:286,s:3}] as p}
+      <g transform={`translate(${p.x},100)`}>
+        <path d={`M0 0 Q${p.s%2?5:-5} -${20+p.s*14} 0 -${30+p.s*18}`} fill="none" stroke="#39864B" strokeWidth={2+p.s}/>
+        {#each Array.from({length:p.s===0?1:p.s+2},(_,i)=>i) as i}
+          <ellipse cx={i%2===0?-9:9} cy={-16-i*10} rx={7+p.s} ry={4+p.s} transform={`rotate(${i%2===0?-25:25} ${i%2===0?-9:9} ${-16-i*10})`} fill="#65AD65"/>
+        {/each}
+        {#if p.s===3}
+          <circle cx="0" cy="-75" r="8" fill="#F2C94C"/>
+          <circle cx="-10" cy="-62" r="6" fill="#FDE68A"/>
+          <circle cx="11" cy="-56" r="6" fill="#FDE68A"/>
+        {/if}
+      </g>
+    {/each}
+    {#each [{x:42,t:"3/10"},{x:120,t:"3/22"},{x:202,t:"4/10"},{x:286,t:"4/18"}] as p}
+      <text x={p.x} y="121" fontSize="12" textAnchor="middle" fill="#36543C">{p.t}</text>
+    {/each}
+    <text x="170" y="143" textAnchor="middle" fontSize="12" fill="#166534" fontWeight="600">發芽 → 長葉 → 長高 → 開花結果</text>
+  </svg>
+  <caption>依原題生長階段繪製的概念示意圖，非原題植物照片。</caption>
+</box>
+
+這些紀錄可以直接看出植物的**生長與發育、繁殖**，但沒有直接記錄到植物受到刺激後產生的反應或運動。
+
+### 三、四選項逐項辨析
+
+| 選項 | 生命現象 | 判斷 |
+|---|---|---|
+| (A) 繁殖 | 開花、結果莢與繁殖有關 | 有記錄 |
+| (B) 代謝 | 生長過程需要物質與能量的轉換，屬於間接推知 | 可推知 |
+| (C) 感應與運動 | 沒記錄到刺激及相對應的反應 | **正解** |
+| (D) 生長與發育 | 發芽、長高、長出更多葉子 | 有記錄 |
+
+特別注意：表格也沒有直接測量光合作用或呼吸作用，因此 B 的證據屬於**間接推知**，而不是直接觀察到的代謝數據。這是本題需要區分的地方。
+
+### 四、B vs C｜最後二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={3}>
+    <AsyncImage query="green plant leaf sunlight photosynthesis natural close up" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **B 代謝**
+
+      植物進行光合作用、呼吸作用等物質與能量轉換。小白菜生長期間必然需要代謝活動，但表格沒有直接測量。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="plant phototropism seedling bending toward sunlight window science example" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **C 感應與運動**
+
+      例如植物朝光源彎曲、含羞草受觸碰後閉合。必須有刺激與反應的線索，原題沒有。
+    </box>
+  </row>
+</box>
+
+**考場決勝句：**
+
+> 長高、長葉不等於感應與運動；要判斷感應，先找「受到什麼刺激」以及「產生什麼反應」。
+
+### 五、快速自我檢核
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **小白菜受到單側光照，莖逐漸朝光源彎曲。這屬於哪種生命現象？**
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="A">A. 繁殖</radio>
+    <radio value="B">B. 代謝</radio>
+    <radio value="C">C. 感應與運動</radio>
+    <radio value="D">D. 排泄</radio>
+  </radio-group>
+  {#if answer}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={answer==="C"?"check-circle":"info"} color={answer==="C"?"success":"secondary"}/>
+        **{answer==="C"?"答對了！":"再看一下刺激與反應。" }**
+      </row>
+      因為光線是刺激，莖朝光源彎曲是反應，所以選 C。
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+- **P0：** 原題與四選項已核對；C 可由題意判定為正解。
+- **P1：** 本次尚未使用國中教材唯讀搜尋，不標示課本頁碼。
+- **P2：** 圖解用於表示生長階段與向光性，未將示意圖當作原題證據。
+
+**本題最值得記住的差異：** 「生長」是植物變大、變成熟；「感應與運動」則需要能辨認出刺激和反應。
+
+目前只能確認原選 B、正解 C；沒有當時的作答思路，不能直接判定誤選 B 的實際原因。
+
+user
+[原始附件 sediment://file_000000009fbc820687c4568ba660edc9?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+46@錯題B → A
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第46題｜氧化鎂的化學式與粒子模型
+
+<row align="center" gap={2}>
+  <badge>自然｜理化</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">B</title>
+      <text size="xs">1 鎂＋2 氧</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">A</title>
+      <text size="xs">1 鎂＋1 氧</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題確認
+
+題目：若以 ○ 表示鎂原子，以 ● 表示氧原子，則下列何者可用來表示「氧化鎂」的結構？
+
+題目四個選項的原子數量：
+
+| 選項 | 鎂 ○ | 氧 ● | 比例 |
+|---|---:|---:|---|
+| A | 1 | 1 | 1：1 |
+| B | 1 | 2 | 1：2 |
+| C | 2 | 1 | 2：1 |
+| D | 2 | 4 | 1：2 |
+
+**答案：A。** 氧化鎂的化學式是 MgO，鎂與氧的最簡整數比例為 1：1。
+
+### 二、精準圖解｜A 與 B 差在哪裡？
+
+<box border radius="xl" padding={3} gap={3}>
+  <row align="center" justify="center" gap={3}>
+    <svg viewBox="0 0 250 72" width="100%">
+      <circle cx="31" cy="35" r="19" fill="#FFFFFF" stroke="#64748B" strokeWidth="2.5"/>
+      <circle cx="75" cy="35" r="19" fill="#334155"/>
+      <text x="31" y="40" fontSize="13" fontWeight="700" textAnchor="middle" fill="#334155">Mg</text>
+      <text x="75" y="40" fontSize="12" textAnchor="middle" fill="white">O</text>
+      <text x="146" y="30" fontSize="17" fontWeight="700" fill="#15803D">A｜MgO</text>
+      <text x="146" y="51" fontSize="12" fill="#166534">1：1 ✓</text>
+    </svg>
+  </row>
+  <divider color="subtle"/>
+  <row align="center" justify="center" gap={3}>
+    <svg viewBox="0 0 250 80" width="100%">
+      <circle cx="52" cy="22" r="17" fill="#FFFFFF" stroke="#64748B" strokeWidth="2.5"/>
+      <circle cx="29" cy="60" r="17" fill="#334155"/>
+      <circle cx="75" cy="60" r="17" fill="#334155"/>
+      <text x="52" y="27" fontSize="12" fontWeight="700" textAnchor="middle" fill="#334155">Mg</text>
+      <text x="29" y="64" fontSize="12" textAnchor="middle" fill="white">O</text>
+      <text x="75" y="64" fontSize="12" textAnchor="middle" fill="white">O</text>
+      <text x="146" y="32" fontSize="17" fontWeight="700" fill="#B91C1C">B｜MgO₂</text>
+      <text x="146" y="53" fontSize="12" fill="#B91C1C">1：2 ✗</text>
+    </svg>
+  </row>
+  <caption>白色代表鎂，深色代表氧；圖示用來比較原子數量比，不代表氧化鎂真正由獨立的 MgO 分子組成。</caption>
+</box>
+
+氧化鎂是**離子化合物**，由 Mg²⁺ 與 O²⁻ 組成離子晶格。因為電荷總和必須為零：
+
+\[
+(+2)+(-2)=0
+\]
+
+所以 Mg²⁺ 與 O²⁻ 的數量比為 1：1。
+
+### 三、四選項逐項解析
+
+- **A 正確：** 1 個鎂、1 個氧，符合 MgO。
+- **B 錯誤：** 1 個鎂、2 個氧，比例為 1：2。
+- **C 錯誤：** 2 個鎂、1 個氧，比例為 2：1。
+- **D 錯誤：** 2 個鎂、4 個氧，約成最簡整數比仍是 1：2。
+
+這題有一個特別容易混淆的地方：
+
+\[
+\boxed{\mathrm{MgO}\neq\mathrm{MgO_2}}
+\]
+
+**氧化鎂不是二氧化鎂。** 看到「氧化鎂」，要先想到化學式 MgO，而不是以氧原子一定有兩個來判斷。
+
+### 四、B vs A｜最後二選一決勝
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **考場三秒判斷**
+
+  <row align="center" gap={2}>
+    <icon name="check-circle" color="success"/>
+    化學式 MgO → 鎂：氧＝1：1
+  </row>
+  <row align="center" gap={2}>
+    <icon name="check-circle" color="success"/>
+    選 A，排除 B
+  </row>
+</box>
+
+另一個重要觀念：**氧氣 O₂ 與氧化鎂 MgO 不一樣。**
+
+氧氣是由氧原子構成的分子；氧化鎂則是鎂離子與氧離子依固定比例構成的離子化合物。不能因為氧氣的化學式是 O₂，就認為氧化鎂也一定有兩個氧。
+
+### 五、原題快速自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **若化合物化學式為 CaO，鈣與氧的最簡數量比為多少？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 1：1</radio>
+    <radio value="B">B. 1：2</radio>
+    <radio value="C">C. 2：1</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <box flex="1">
+        **{choice==="A"?"答對！":"正確是 A。"}** CaO 中的鈣與氧數量比是 1：1，與 MgO 的判讀方式相同。
+      </box>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 通過，已核對照片 |
+| P0 正確答案 | 通過，獨立確認 A |
+| P1 教材證據 | 尚未查核課本 |
+| P2 精準圖解 | 通過，圖示比例與文字一致 |
+
+**本題訂正重點：** 選 B 可能是將氧化鎂與含兩個氧原子的化學式混淆，但目前沒有原始作答思路，實際誤選原因仍屬待確認。
+
+下次遇到粒子模型選擇題，先寫出化學式，再數各種原子的比例，會比單憑圖形外觀更可靠。
+
+user
+[原始附件 sediment://file_00000000830c820692ee7b12f0e9f9df?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+48@錯題C→D
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第48題｜超慢跑與血糖調節
+
+<row align="center" gap={2}>
+  <badge>自然｜生物</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">升糖素，使肝糖變血糖</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">D</title>
+      <text size="xs">腎上腺素，使肝糖變血糖</text>
+    </box>
+  </grid-item>
+</grid>
+
+**本題最重要的差異：C、D 都能使肝糖分解，真正要比較的是「運動情境下，哪種激素更符合題意」。**
+
+### 一、原題證據：先讀懂血糖曲線
+
+題目比較飯後正常活動與飯後超慢跑 30 分鐘的血糖變化。
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 348 200" width="100%">
+    <rect x="37" y="15" width="293" height="146" rx="3" fill="#F8FAFC"/>
+    {#each [-25,0,25,50,75] as v}
+      <line x1="39" x2="328" y1={148-(v/75)*117} y2={148-(v/75)*117} stroke="#CBD5E1" strokeWidth="0.8"/>
+      <text x="32" y={152-(v/75)*117} textAnchor="end" fontSize="11" fill="currentColor">{v>0?`+${v}`:v}</text>
+    {/each}
+    {#each [0,30,60,90,120,150,180] as v}
+      <line x1={41+v*1.55} x2={41+v*1.55} y1="17" y2="160" stroke="#CBD5E1" strokeWidth="0.8"/>
+      <text x={41+v*1.55} y="176" textAnchor="middle" fontSize="10" fill="currentColor">{v}</text>
+    {/each}
+    <path d="M41 148 C68 147 78 109 103 81 S134 31 157 38 S194 94 213 106 S258 116 275 138 S309 150 320 140" fill="none" stroke="#2563EB" strokeWidth="3" strokeLinecap="round"/>
+    <path d="M41 148 C69 147 86 110 111 79 S147 89 171 112 S204 117 226 119 S262 140 284 138 S308 124 320 115" fill="none" stroke="#D97706" strokeWidth="3" strokeDasharray="6 4" strokeLinecap="round"/>
+    <text x="42" y="10" fontSize="10" fill="currentColor">血糖變化（mg/dL）</text>
+    <text x="326" y="191" textAnchor="end" fontSize="10" fill="currentColor">時間（分鐘）</text>
+  </svg>
+  <row gap={3} justify="center" wrap="wrap">
+    <row align="center" gap={1}>
+      <box background="#2563EB" width="18px" height="3px"/>
+      <text size="xs">正常餐後（實線）</text>
+    </row>
+    <row align="center" gap={1}>
+      <box background="#D97706" width="18px" height="3px"/>
+      <text size="xs">餐後超慢跑（虛線）</text>
+    </row>
+  </row>
+  <caption>依原題趨勢重繪的示意圖，並非原始數據的精確數位化。</caption>
+</box>
+
+注意圖形後段：超慢跑的血糖曲線在約 150～180 分鐘時逐漸上升，題目要判斷可能參與血糖調節的激素。
+
+### 二、精準圖解｜運動時如何補充血糖？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 168" width="100%">
+    <rect x="90" y="6" width="160" height="37" rx="9" fill="#DBEAFE" stroke="#60A5FA"/>
+    <text x="170" y="29" textAnchor="middle" fontSize="14" fontWeight="600" fill="#1E40AF">運動時需要能量</text>
+    <path d="M170 44 V62" stroke="currentColor" strokeWidth="1.5"/>
+    <path d="M165 57 L170 64 L175 57" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <rect x="82" y="66" width="176" height="37" rx="9" fill="#FEF3C7" stroke="#F59E0B"/>
+    <text x="170" y="89" textAnchor="middle" fontSize="14" fontWeight="600" fill="#92400E">腎上腺素分泌增加</text>
+    <path d="M170 104 V120" stroke="currentColor" strokeWidth="1.5"/>
+    <path d="M165 115 L170 122 L175 115" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <rect x="17" y="127" width="137" height="35" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="85" y="148" textAnchor="middle" fontSize="13" fill="#166534">肝糖分解</text>
+    <path d="M155 144 H181" stroke="#16A34A" strokeWidth="2"/>
+    <path d="M175 139 L182 144 L175 149" stroke="#16A34A" strokeWidth="2" fill="none"/>
+    <rect x="184" y="127" width="139" height="35" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="253" y="148" textAnchor="middle" fontSize="13" fill="#166534">釋出葡萄糖入血</text>
+  </svg>
+  <caption>這是腎上腺素參與血糖調節的簡化路徑，不代表題目直接測得腎上腺素濃度。</caption>
+</box>
+
+運動時交感神經系統活躍，腎上腺素可以促進肝醣分解，協助提供葡萄糖。
+
+### 三、四選項逐項辨析
+
+| 選項 | 激素與作用 | 判斷 |
+|---|---|---|
+| A | 升糖素，使血糖變肝糖 | 錯，升糖素主要促進血糖上升 |
+| B | 腎上腺素，使血糖變肝糖 | 錯，方向相反 |
+| C | 升糖素，使肝糖變血糖 | 生理作用正確，但不是本題預設的運動情境答案 |
+| D | 腎上腺素，使肝糖變血糖 | **符合題目預期** |
+
+### 四、C vs D｜二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={2}>
+    <icon name="circle-help" color="secondary" size="lg"/>
+    <box flex="1" gap={1}>
+      **C 升糖素**
+
+      主要由胰臟分泌，尤其在血糖偏低、空腹或需要維持血糖時發揮作用，能促使肝醣分解。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={2}>
+    <icon name="check-circle" color="success" size="lg"/>
+    <box flex="1" gap={1}>
+      **D 腎上腺素**
+
+      由腎上腺髓質分泌，與交感神經活化、運動及緊急反應有關，也能促進肝醣分解。
+    </box>
+  </row>
+</box>
+
+**考場判斷口訣：**
+
+- 空腹、低血糖 → 優先想到升糖素。
+- 運動、緊張、緊急反應 → 優先想到腎上腺素。
+
+但這個口訣是考試判斷線索，**不能解釋成運動時只有腎上腺素、沒有升糖素**。實際運動時兩者都可能參與調節。
+
+因此本題有一項值得特別標註的科學限制：如果僅根據血糖曲線和運動情境，並不能排除升糖素的參與，也不能單靠曲線證明腎上腺素是唯一原因。D 是依題目設計與國中常見的激素功能分類所選出的預期答案。
+
+### 五、快速自我檢核
+
+{@body const [ans,setAns] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **運動時肝醣分解成葡萄糖，這個過程對血糖有什麼作用？**
+
+  <radio-group direction="col" value={ans} onChange={setAns}>
+    <radio value="A">A. 幫助血糖上升或維持</radio>
+    <radio value="B">B. 一定使血糖下降</radio>
+    <radio value="C">C. 完全不影響血糖</radio>
+  </radio-group>
+  {#if ans}
+    <row align="start" gap={2}>
+      <icon name={ans==="A"?"check-circle":"info"} color={ans==="A"?"success":"secondary"}/>
+      <text size="sm">{ans==="A"?"答對！":"正確是 A。"}肝醣分解後，肝臟可將葡萄糖釋放至血液，協助維持血糖供應。</text>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題、選項 | 已依照片核對 |
+| P0 預期答案 | D，符合題目標示 |
+| P1 科學嚴謹性 | C 也有合理生理依據，需保留區別 |
+| P1 教材證據 | 尚未使用國中教材唯讀搜尋 |
+| P2 圖文一致性 | 圖解為機制示意，未冒充實驗測量結果 |
+
+**本題最重要的學習成果：** C 並不是「升糖素功能記錯」，而是題目以運動情境要求選擇腎上腺素。這是兩個都具有升血糖作用的激素之間的情境辨析題；目前仍不能斷定當初選 C 的實際原因。
+
+user
+[原始附件 sediment://file_0000000005248206a1dfc0bfd3d8cb26?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+49@錯題c→ D
+
+assistant
+
+
+assistant
+## 第49題｜生物分類檢索表
+
+<row align="center" gap={2}>
+  <badge>自然｜生物分類</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">D — 變形蟲</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">D</title>
+      <text size="xs">F — 藍菌</text>
+    </box>
+  </grid-item>
+</grid>
+
+**核心觀念：分類檢索表必須依條件一層一層判斷，不能跳過前面的分類條件。**
+
+### 一、原題證據：六種生物
+
+題目提供木耳、藍菌、酵母菌、變形蟲、草履蟲、新月藻，依細胞構造建立檢索表。
+
+根據照片，分類結果如下：
+
+| 代號 | 分類條件 | 對應生物 |
+|---|---|---|
+| A | 有細胞核、有葉綠體 | 新月藻 |
+| B | 有細胞核、無葉綠體、多細胞 | 木耳 |
+| C | 有細胞核、無葉綠體、單細胞、有細胞壁 | 酵母菌 |
+| D | 有細胞核、無細胞壁、具有纖毛 | 草履蟲 |
+| E | 有細胞核、無細胞壁、不具纖毛 | 變形蟲 |
+| F | 無細胞核 | **藍菌** |
+
+### 二、精準圖解｜如何找到 F？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 197" width="100%">
+    <rect x="101" y="5" width="138" height="36" rx="8" fill="#E2E8F0" stroke="#94A3B8"/>
+    <text x="170" y="28" textAnchor="middle" fontSize="14" fill="#334155" fontWeight="600">是否有細胞核？</text>
+    <path d="M150 41 L80 84 M190 41 L260 84" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <text x="85" y="56" textAnchor="middle" fontSize="12" fill="#64748B">有</text>
+    <text x="256" y="56" textAnchor="middle" fontSize="12" fill="#64748B">無</text>
+    <rect x="10" y="85" width="140" height="36" rx="8" fill="#DBEAFE" stroke="#60A5FA"/>
+    <text x="80" y="107" textAnchor="middle" fontSize="13" fill="#1E40AF">真核生物</text>
+    <rect x="190" y="85" width="140" height="36" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="260" y="107" textAnchor="middle" fontSize="13" fill="#166534" fontWeight="600">原核生物</text>
+    <path d="M80 121 V145 M260 121 V145" stroke="currentColor" strokeWidth="1.5"/>
+    <rect x="10" y="145" width="140" height="42" rx="8" fill="#EFF6FF" stroke="#93C5FD"/>
+    <text x="80" y="162" fontSize="12" textAnchor="middle" fill="#1E40AF">木耳、酵母菌</text>
+    <text x="80" y="178" fontSize="12" textAnchor="middle" fill="#1E40AF">變形蟲等</text>
+    <rect x="190" y="145" width="140" height="42" rx="8" fill="#DCFCE7" stroke="#16A34A" strokeWidth="2"/>
+    <text x="260" y="171" fontSize="15" fontWeight="700" textAnchor="middle" fill="#166534">F＝藍菌 ✓</text>
+  </svg>
+  <caption>依原題第一層分類條件繪製。藍菌沒有細胞核，直接歸入 F。</caption>
+</box>
+
+### 三、四個選項逐項辨析
+
+| 選項 | 題目配對 | 判斷 |
+|---|---|---|
+| A | A—草履蟲 | 錯，草履蟲沒有葉綠體 |
+| B | C—新月藻 | 錯，新月藻有葉綠體，應為 A |
+| C | D—變形蟲 | 錯，D 應具有纖毛，對應草履蟲 |
+| D | F—藍菌 | **正確，藍菌沒有細胞核** |
+
+### 四、C vs D｜最後二選一決勝
+
+<box gap={3}>
+  <row align="start" gap={3}>
+    <AsyncImage query="Paramecium microscope cilia protozoan scientific photomicrograph" aspectRatio="1:1" maxWidth="116px"/>
+    <box flex="1" gap={1}>
+      **草履蟲：有纖毛 → D**
+
+      草履蟲身體表面具有許多短纖毛，藉由纖毛擺動移動。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="Amoeba proteus microscope pseudopodia scientific photomicrograph" aspectRatio="1:1" maxWidth="116px"/>
+    <box flex="1" gap={1}>
+      **變形蟲：無纖毛 → E**
+
+      變形蟲主要藉由伸出偽足來移動、攝食，不是靠纖毛。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="cyanobacteria Anabaena microscope filament cyanobacteria photomicrograph" aspectRatio="1:1" maxWidth="116px"/>
+    <box flex="1" gap={1}>
+      **藍菌：無細胞核 → F**
+
+      藍菌是原核生物，沒有由核膜包圍的細胞核，因此一開始就分入無細胞核的分支。
+    </box>
+  </row>
+</box>
+
+**最值得記住的三個判斷：**
+
+- 草履蟲靠纖毛。
+- 變形蟲靠偽足。
+- 藍菌是原核生物，沒有細胞核。
+
+### 五、考場快速自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **在原題的分類檢索表中，變形蟲應落在哪個代號？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="C">C. 有細胞壁</radio>
+    <radio value="D">D. 具有纖毛</radio>
+    <radio value="E">E. 不具纖毛</radio>
+    <radio value="F">F. 無細胞核</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="E"?"check-circle":"info"} color={choice==="E"?"success":"secondary"}/>
+        **{choice==="E"?"答對！":"正確答案是 E。"}**
+      </row>
+      變形蟲具有細胞核、沒有細胞壁，也沒有纖毛，主要靠偽足移動，所以應分到 E。
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已依照片核對 |
+| P0 答案 | D，與檢索表一致 |
+| P1 教材證據 | 尚未查詢國中教材唯讀搜尋 |
+| P2 圖解 | 已核對有核、無核的分類方向 |
+
+**本題訂正重點：** 原選 C（D—變形蟲），正解 D（F—藍菌）。最值得注意的是「草履蟲有纖毛、變形蟲沒有纖毛」以及「藍菌沒有細胞核」兩個差異。
+
+目前只能確認選項誤選，尚不能判定當時是混淆纖毛與偽足，還是漏看細胞核條件。
+
+user
+[原始附件 sediment://file_000000008df482069776021f8e9faa72?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+5@錯題A→ B
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第5題｜北美洲賞鯨海域判斷
+
+<row align="center" gap={2}>
+  <badge>地理｜北美洲</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">A｜太平洋</title>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B｜大西洋</title>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+題目提到：
+
+> 每年的5月至10月，是加拿大魁北克、安大略的賞鯨季，乘遊船來到聖羅倫斯河，超大的巨鯨可能就在你乘坐的船邊嬉戲……文中提及賞鯨魚的地點應瀕臨下列哪一海域？
+
+四個選項：
+
+- (A) 太平洋
+- (B) 大西洋
+- (C) 北極海
+- (D) 墨西哥灣
+
+決定性線索是 **「聖羅倫斯河」**，而不是單看加拿大的位置。
+
+### 二、精準地理圖解｜聖羅倫斯河通往哪裡？
+
+<AsyncImageGroup query={["map St Lawrence River Gulf of St Lawrence Atlantic Ocean Quebec Canada Great Lakes geographic","physical geography map North America Pacific Atlantic Arctic oceans labeled"]} aspectRatio="5:3" layout="carousel"/>
+
+聖羅倫斯河位於加拿大東部，連接五大湖水系與聖羅倫斯灣，最後通往大西洋。
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 330 84" width="100%">
+    {#each [{x:3,w:90,t:"五大湖"},{x:119,w:91,t:"聖羅倫斯河"},{x:236,w:91,t:"大西洋"}] as p}
+      <rect x={p.x} y="18" width={p.w} height="46" rx="8" fill={p.x===236?"#DCFCE7":"#DBEAFE"} stroke={p.x===236?"#16A34A":"#60A5FA"}/>
+      <text x={p.x+p.w/2} y="46" textAnchor="middle" fontSize="13" fontWeight="600" fill={p.x===236?"#166534":"#1E40AF"}>{p.t}</text>
+    {/each}
+    <path d="M95 41 H115 M107 35 L115 41 L107 47 M212 41 H232 M224 35 L232 41 L224 47" fill="none" stroke="currentColor" strokeWidth="1.8"/>
+  </svg>
+  <caption>簡化水系方向示意；完整路徑經聖羅倫斯灣通往大西洋。</caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 位置判斷 | 結果 |
+|---|---|---|
+| A 太平洋 | 加拿大西岸，如溫哥華附近 | 排除 |
+| B 大西洋 | 加拿大東部，聖羅倫斯河通往此海域 | **正確** |
+| C 北極海 | 加拿大北部 | 排除 |
+| D 墨西哥灣 | 北美洲南側，美國南部及墨西哥東側 | 排除 |
+
+### 四、A vs B｜最後二選一決勝
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="Vancouver British Columbia Pacific coast Canada geographic map" aspectRatio="4:3"/>
+    **A｜太平洋**
+
+    <text size="sm">加拿大西部，代表地點是溫哥華。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Quebec Saint Lawrence River Gulf Atlantic coast Canada map" aspectRatio="4:3"/>
+    **B｜大西洋**
+
+    <text size="sm">加拿大東部，代表地點是魁北克、聖羅倫斯河口。</text>
+  </grid-item>
+</grid>
+
+**會考快速判斷：**
+
+加拿大西部 → 太平洋。
+
+加拿大東部、聖羅倫斯河 → 大西洋。
+
+特別注意：加拿大同時瀕臨三大洋，所以「加拿大賞鯨」本身不能決定答案，必須進一步找到河川、城市或省分。
+
+### 五、用原題概念自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **題目若改成「遊客在加拿大溫哥華沿岸賞鯨」，應選哪個海洋？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 太平洋</radio>
+    <radio value="B">B. 大西洋</radio>
+    <radio value="C">C. 北極海</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <text size="sm">{choice==="A"?"答對！":"正確是 A。"}溫哥華在加拿大西岸，面向太平洋。</text>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已核對照片 |
+| P0 正確答案 | B，地理位置判斷一致 |
+| P1 教材證據 | 尚未查核課本，未標示教材頁碼 |
+| P2 圖解 | 河川流向與海域關係一致 |
+
+**本題最值得改善的判斷動作：看到國家名稱後，不要立刻選海洋；先圈出「聖羅倫斯河」這類能精確定位的地理線索。**
+
+本題已確認 A → B，但缺少作答時的思考過程，尚不能判定是東西岸混淆，或忽略了聖羅倫斯河這個關鍵條件。
+
+user
+[原始附件 sediment://file_00000000c0108206aaaecdd541c8dc98?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+6@錯題c→ B
+
+assistant
+
+
+assistant
+## 第6題｜北美洲東部的地形判斷
+
+<row align="center" gap={2}>
+  <badge>地理｜北美洲地形</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">低緩丘陵地形</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B</title>
+      <text size="xs">平坦低地地形</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+第6題：「北美洲東部的地形主體**不包括**下列哪張等高線地形圖所代表的地形？」
+
+這題的兩個關鍵字：
+
+- **東部**：不是整個北美洲。
+- **不包括**：要找出不符合東部主要地形特徵的選項。
+
+### 二、精準圖解｜四張等高線圖代表什麼？
+
+<box border radius="xl" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    {#each [{k:"A",name:"較高山地",levels:5,peak:1400},{k:"B",name:"平坦低地",levels:1,peak:20},{k:"C",name:"低緩丘陵",levels:4,peak:400},{k:"D",name:"山地丘陵",levels:6,peak:1300}] as item}
+      <grid-item>
+        <box background="surface-secondary" padding={2} radius="md" gap={1}>
+          <svg viewBox="0 0 150 92" width="100%">
+            <rect width="150" height="92" rx="5" fill="#E8F2DD"/>
+            {#each Array.from({length:item.levels},(_,i)=>i) as i}
+              <ellipse cx="75" cy="45" rx={68-i*9} ry={40-i*6} fill={["#9BCB71","#C1D56B","#E0D46A","#EAC078","#DBA25A","#B96D42"][i]} stroke="#708E53" strokeWidth="0.9"/>
+            {/each}
+            <text x="75" y="50" textAnchor="middle" fontSize="12" fontWeight="700" fill="#4A422F">{item.peak}</text>
+          </svg>
+          <text weight="semibold" size="sm">{item.k}｜{item.name}</text>
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <caption>依原題各選項高程概念繪製的比較示意，非原題等高線的精確重製。</caption>
+</box>
+
+原題四選項的地形判讀：
+
+| 選項 | 等高線特徵 | 地形判斷 |
+|---|---|---|
+| A | 高度可達約 1,400 公尺 | 山地 |
+| B | 幾乎整片皆為 20 公尺低地 | 平坦低地 |
+| C | 高度約 100～400 公尺 | 丘陵 |
+| D | 高度約 900～1,300 公尺 | 山地 |
+
+### 三、為什麼答案是 B？
+
+北美洲東部具有古老的阿帕拉契山脈，長期受到侵蝕，地形較西部的洛磯山脈低緩，但仍有山地、丘陵與起伏地形。
+
+<AsyncImageGroup query={["Appalachian Mountains rolling ridges eastern United States landscape","Appalachian Mountains eastern North America physical relief map"]} aspectRatio="5:3" layout="carousel"/>
+
+在這份題目的分類邏輯下：
+
+- A：山地，可以出現在東部。
+- C：丘陵，可以出現在東部。
+- D：山地，可以出現在東部。
+- B：大片、接近 20 公尺的平坦低地，**不是題目所強調的東部山地地形主體**。
+
+所以依題目預期答案選 **B**。
+
+不過，這裡必須補充一項地理上的嚴謹性：**北美洲東部確實也有大西洋沿岸平原等低平地區**。因此，不能把 B 解釋成「北美洲東部完全不存在平坦低地」。若題目將整個東部都納入，這樣的問法並不十分精確；B 是按照本題將東部地形主體視為阿帕拉契山地的出題脈絡判斷。
+
+### 四、C vs B｜最後二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={3}>
+    <AsyncImage query="Appalachian foothills rolling green low hills landscape" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **C｜低緩丘陵**
+
+      有明顯地勢起伏。符合東部古老山地經侵蝕後形成的部分地形。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={3}>
+    <AsyncImage query="very flat lowland grass plain level horizon landscape" aspectRatio="1:1" maxWidth="120px"/>
+    <box flex="1" gap={1}>
+      **B｜平坦低地**
+
+      高度接近 20 公尺、地勢幾乎沒有起伏，不符合題目所鎖定的山地丘陵主體。
+    </box>
+  </row>
+</box>
+
+**考場決勝句：**
+
+> 阿帕拉契山脈雖然古老、低緩，但「低緩」不代表「完全平坦」。
+
+### 五、回到原題的快速檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **古老山脈長期受到侵蝕後，地勢通常有什麼變化？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 山勢較低緩，仍可能保有起伏</radio>
+    <radio value="B">B. 所有山地都變成海拔 20 公尺的平原</radio>
+    <radio value="C">C. 山勢必然越來越高聳陡峭</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <text size="sm">{choice==="A"?"答對！":"正確是 A。"}長期侵蝕使山勢趨於低緩，但不代表完全失去地勢起伏。</text>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已核對照片 |
+| P0 預期答案 | B，與提供訂正一致 |
+| P1 地理嚴謹性 | 已註明東部仍有沿岸平原，題意有簡化 |
+| P1 教材證據 | 尚未使用國中教材唯讀搜尋 |
+| P2 圖解 | 概念比較示意，未冒充原題精確等高線 |
+
+**本題最值得改善的動作：** 先將等高線轉譯成「平地、丘陵或山地」，再對照區域地形特徵，而不是只看山的海拔高低。
+
+這題 C → B 已確認，但尚無作答過程，因此不能直接判定當時是否將「古老山脈低緩」誤認為「不屬於山地」。
+
+user
+[原始附件 sediment://file_00000000d4088206b652ed5ef2078365?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+5@錯題B→ A
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第5題｜英文單字辨析：cap vs cover
+
+<row align="center" gap={2}>
+  <badge>英文｜字彙與情境判斷</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">B｜cover</title>
+      <text size="xs">蓋子、覆蓋物</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">A｜cap</title>
+      <text size="xs">瓶蓋</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題與中文翻譯
+
+> I lost the ______ of my bottle. There is still a lot of water in it. How can I keep it in my bag?
+
+**中文：** 我把水瓶的＿＿弄丟了。裡面還有很多水，我該怎麼把它放在背包裡呢？
+
+| 選項 | 中文意思 |
+|---|---|
+| (A) cap | 瓶蓋、帽子 |
+| (B) cover | 覆蓋物、封套、蓋子 |
+| (C) side | 側面 |
+| (D) bottom | 底部 |
+
+本題答案是 **A. cap**。
+
+### 二、精準圖解｜cap 和 cover 有什麼不同？
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="reusable water bottle with screw cap removed placed beside the bottle isolated white background product photography" aspectRatio="4:3"/>
+    **cap｜瓶蓋**
+
+    <text size="sm">通常是瓶口上用來旋緊或扣緊的小蓋子，幫助防止液體漏出。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="protective fabric cover sleeve for reusable water bottle bottle carrier sleeve product photo" aspectRatio="4:3"/>
+    **cover｜保護套、覆蓋物**
+
+    <text size="sm">較廣義的覆蓋物，可以是保護套、外罩，也可以指其他物品的蓋子。</text>
+  </grid-item>
+</grid>
+
+要注意：**cover 也可以表示「蓋子」**，並不是所有情況都不能使用。只是英文通常把水瓶的瓶蓋稱為 *bottle cap*，比 *bottle cover* 更精確、更自然。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 原因 |
+|---|---|---|
+| A. cap | <icon name="check-circle" color="success" inline/> 正確 | bottle cap 是常見搭配 |
+| B. cover | 不選 | 太廣泛，不是此處最自然的水瓶瓶口名稱 |
+| C. side | 錯誤 | 指瓶子的側面 |
+| D. bottom | 錯誤 | 指瓶底，不是瓶口的蓋子 |
+
+### 四、B vs A｜最後二選一決勝
+
+這一題真正有鑑別力的是後面兩句：
+
+**There is still a lot of water in it.**
+
+瓶子裡還有很多水。
+
+**How can I keep it in my bag?**
+
+要怎樣放進背包才不會漏水？
+
+所以空格需要的是能夠**封住瓶口**的物品。
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" gap={2}>
+    <icon name="check-circle" color="success"/>
+    **bottle cap** = 水瓶瓶蓋
+  </row>
+  <row align="center" gap={2}>
+    <icon name="info" color="secondary"/>
+    **bottle cover** = 常指水瓶外罩、保護套
+  </row>
+  <divider color="subtle"/>
+  **考場決勝句：** 不只翻譯單字，也要看「名詞的固定搭配＋後文用途」。
+</box>
+
+### 五、快速自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **請選出正確的英文：**
+
+  Please put the ______ back on the water bottle so it won't leak.
+
+  <text color="secondary" size="sm">請把瓶蓋蓋回水瓶上，這樣才不會漏水。</text>
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. cap</radio>
+    <radio value="B">B. side</radio>
+    <radio value="C">C. bottom</radio>
+  </radio-group>
+  {#if choice}
+    <row align="start" gap={2}>
+      <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+      <box flex="1">
+        <text size="sm">{choice==="A"?"答對！":"正確答案是 A。"} *Put the cap back on* 表示「把蓋子蓋回去」。</text>
+      </box>
+    </row>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與四選項 | 通過，已依照片核對 |
+| P0 正確答案 | A，語意與常見搭配一致 |
+| P1 教材證據 | 尚未查核課本 |
+| P2 圖文一致性 | 圖片僅輔助辨識物品，非原題圖片 |
+| 實際誤選原因 | 資料不足，不能直接判定 |
+
+**這題最值得記住的不是單獨背 cap＝瓶蓋，而是記住 `bottle cap` 這個搭配。**
+
+下次遇到英文四選一，尤其兩個選項中文意思相近時，先檢查哪個英文單字與前後文搭配得最自然，就能提高選對的機會。
+
+user
+[原始附件 sediment://file_00000000ba1c8206ad579fdba543afe8?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+21@錯題D → A
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第21題｜it was vs there was：英文句型辨析
+
+<row align="center" gap={2}>
+  <badge>英文｜國中會考文法</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1} align="center">
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">D｜there was</title>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} gap={1} align="center">
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">A｜it was</title>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題核對與翻譯
+
+> Kevin couldn’t get on the bus this morning because ______ full of people. So he was late again.
+
+中文翻譯：Kevin 今天早上無法搭上公車，因為車上擠滿了人，所以他又遲到了。
+
+原題四個選項：
+
+| 選項 | 內容 |
+|---|---|
+| (A) | it was |
+| (B) | there are |
+| (C) | they were |
+| (D) | there was |
+
+正確句子：
+
+**Kevin couldn’t get on the bus this morning because it was full of people.**
+
+這裡的 **it = the bus**，也就是前面提過的那輛公車。
+
+### 二、精準圖解｜為什麼是 it was？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 168" width="100%">
+    <rect x="2" y="2" width="336" height="164" rx="12" fill="#EFF6FF"/>
+    <rect x="40" y="32" width="260" height="90" rx="16" fill="#F9C74F" stroke="#9A6700" strokeWidth="2"/>
+    <rect x="57" y="47" width="174" height="49" rx="5" fill="#BFDBFE" stroke="#2563EB" strokeWidth="1.5"/>
+    {#each [78,115,152,189,222] as x}
+      <circle cx={x} cy="64" r="10" fill="#F3B68A" stroke="#9A5B3E"/>
+      <path d={`M${x-12} 92 Q${x-12} 75 ${x} 77 Q${x+12} 75 ${x+12} 92`} fill="#4887B6"/>
+    {/each}
+    <rect x="244" y="47" width="40" height="49" rx="4" fill="#DBEAFE" stroke="#2563EB"/>
+    <circle cx="87" cy="124" r="19" fill="#334155"/>
+    <circle cx="253" cy="124" r="19" fill="#334155"/>
+    <circle cx="87" cy="124" r="8" fill="#CBD5E1"/>
+    <circle cx="253" cy="124" r="8" fill="#CBD5E1"/>
+    <rect x="12" y="8" width="108" height="23" rx="8" fill="#FFFFFF"/>
+    <text x="66" y="24" fontSize="12" textAnchor="middle" fill="#1D4ED8" fontWeight="600">the bus = it</text>
+    <text x="170" y="155" textAnchor="middle" fontSize="13" fontWeight="600" fill="#1E40AF">It was full of people.</text>
+  </svg>
+  <caption>公車是已提過的單數事物，因此用 it 指代；full of people 描述公車的狀態。</caption>
+</box>
+
+文法結構：
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" justify="center" gap={1}>
+    <box background="rgba(59,130,246,0.12)" padding={2} radius="md">
+      <text color="default" weight="semibold">It</text>
+    </box>
+    <box background="rgba(22,163,74,0.12)" padding={2} radius="md">
+      <text weight="semibold">was</text>
+    </box>
+    <box background="rgba(234,179,8,0.12)" padding={2} radius="md">
+      <text weight="semibold">full of people</text>
+    </box>
+  </row>
+  <grid columns={3} gap={1}>
+    <grid-item><text size="xs" textAlign="center">主詞：公車</text></grid-item>
+    <grid-item><text size="xs" textAlign="center">過去式 be 動詞</text></grid-item>
+    <grid-item><text size="xs" textAlign="center">形容詞片語</text></grid-item>
+  </grid>
+</box>
+
+### 三、四選項逐項解析
+
+| 選項 | 判斷 | 原因 |
+|---|---|---|
+| **A. it was** | <icon name="check-circle" color="success" inline/> 正確 | it 指公車，was 符合過去時間 |
+| B. there are | 錯誤 | 現在式，且不能直接接 full |
+| C. they were | 錯誤 | they 是複數，不符合單數的 bus |
+| D. there was | 錯誤 | there was 後通常需接名詞片語，不能直接接 full of people |
+
+### 四、D vs A｜最後二選一決勝
+
+這是本題最重要的部分。
+
+<box gap={3}>
+  <box gap={1}>
+    <row align="center" gap={2}>
+      <icon name="check-circle" color="success"/>
+      **A｜It was full of people.**
+    </row>
+    <text color="secondary" size="sm">它（公車）擠滿了人。</text>
+    `It + was + 形容詞片語`：描述某個事物的狀態。
+  </box>
+  <divider color="subtle"/>
+  <box gap={1}>
+    <row align="center" gap={2}>
+      <icon name="x-circle" color="danger"/>
+      **D｜There was full of people.**
+    </row>
+    <text color="secondary" size="sm">句型錯誤。</text>
+    `There was + 名詞片語`：表示某處有某人或某物。
+  </box>
+</box>
+
+對照兩個正確句子：
+
+- **The bus was full of people.** 公車擠滿了人。
+- **There were many people on the bus.** 公車上有很多人。
+
+意思接近，但句型不同。
+
+| 比較 | It was | There was / were |
+|---|---|---|
+| 功能 | 描述事物狀態 | 表示某處存在人或物 |
+| 後面通常接 | 形容詞、名詞等補語 | 名詞片語 |
+| 本題 full of people | 可以 | 不可以直接接 |
+
+**考場三秒判斷：**
+
+看到 `______ full of people`，先認出 **full 是形容詞**，就應想到 `主詞 + be + full of...`。
+
+### 五、用原題概念自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **哪一句英文正確表達「教室裡有很多學生」？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. There was full of students.</radio>
+    <radio value="B">B. The classroom was full of students.</radio>
+    <radio value="C">C. There were full of students.</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="B"?"check-circle":"info"} color={choice==="B"?"success":"secondary"}/>
+        **{choice==="B"?"答對！":"正確答案是 B。"}**
+      </row>
+      <text size="sm">The classroom was full of students. 使用「主詞＋be＋full of」描述教室擠滿學生；也可以改說 There were many students in the classroom.</text>
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題及四選項 | 已依照片核對 |
+| P0 答案 | A，獨立文法複核通過 |
+| P1 教材證據 | 尚未查核國中教材 |
+| P2 圖文一致性 | 圖解與句型一致 |
+| 實際錯因 | 沒有作答思路，尚不能確認 |
+
+**本題最值得記住的一句話：**
+
+> **It was full of people.** 描述公車擠滿人；**There were many people.** 表示有很多人。
+
+兩種句型不要混用。這是比單純記住第21題選 A 更有用的判斷能力。
+
+user
+[原始附件 sediment://file_0000000017ac820686b4c328033e5a9e?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+41@錯題D → B
+
+assistant
+
+
+assistant
+## 第41題｜英文克漏字：研究過程與上下文推論
+
+<row align="center" gap={2}>
+  <badge>英文｜閱讀理解</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">D</title>
+      <text size="xs">想了解更多健康資訊</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B</title>
+      <text size="xs">持續記錄他們的生活</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據與中文翻譯
+
+第41題所在段落：
+
+> Some researchers wanted to know the keys to having a good life, so they tracked down more than 700 people over 75 years. They talked to them every year and ______.
+
+**逐句翻譯：**
+
+研究人員想知道擁有美好人生的關鍵，因此他們在長達75年的期間裡，持續追蹤超過700人。
+
+他們每年都與這些人談話，並且＿＿＿＿。
+
+四個選項：
+
+| 選項 | 英文 | 中文意思 |
+|---|---|---|
+| A | cared about their jobs | 關心他們的工作 |
+| B | kept recording their lives | 持續記錄他們的生活 |
+| C | gave them a lot of money | 給他們很多錢 |
+| D | wanted to know more about their health | 想進一步了解他們的健康 |
+
+**正確答案：B。**
+
+### 二、精準圖解｜找出研究的時間線索
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 152" width="100%">
+    <rect x="3" y="3" width="334" height="146" rx="12" fill="#F0F7FF"/>
+    <text x="170" y="23" fontSize="13" fontWeight="700" textAnchor="middle" fill="#1E40AF">研究持續 75 年</text>
+    <line x1="35" y1="65" x2="305" y2="65" stroke="#2563EB" strokeWidth="3" strokeLinecap="round"/>
+    {#each [{x:40,t:"第1年"},{x:105,t:"每年"},{x:170,t:"每年"},{x:235,t:"每年"},{x:300,t:"第75年"}] as p}
+      <circle cx={p.x} cy="65" r="7" fill="#60A5FA" stroke="#1D4ED8" strokeWidth="2"/>
+      <text x={p.x} y="49" fontSize="11" textAnchor="middle" fill="#1E40AF">{p.t}</text>
+    {/each}
+    <rect x="38" y="87" width="264" height="37" rx="8" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="170" y="102" textAnchor="middle" fontSize="12" fill="#166534">Talked to them every year</text>
+    <text x="170" y="117" textAnchor="middle" fontSize="12" fontWeight="600" fill="#166534">＋ Kept recording their lives</text>
+    <text x="170" y="140" textAnchor="middle" fontSize="11" fill="#475569">定期訪談 → 持續記錄 → 累積長期研究資料</text>
+  </svg>
+  <caption>圖解根據原文的「75 years」與「every year」整理研究流程。</caption>
+</box>
+
+原文提供三個關鍵訊息：
+
+- **tracked down**：追蹤、尋找研究對象。
+- **over 75 years**：研究期間長達75年。
+- **every year**：每年定期進行訪談。
+
+因此，空格應接續描述研究人員如何長期蒐集資料。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 原因 |
+|---|---|---|
+| A 關心工作 | 不選 | 工作不是本句強調的研究行動 |
+| B 持續記錄生活 | **正確** | 與每年訪談、長期追蹤直接呼應 |
+| C 給很多錢 | 錯誤 | 原文沒有提供發錢的依據 |
+| D 想了解健康 | 不選 | 雖然與研究主題有關，但沒有直接描述每年訪談後做什麼 |
+
+### 四、D vs B｜最後二選一決勝
+
+這題最容易混淆的是：**選項符合文章主題，不代表符合空格所在句子的邏輯。**
+
+<box gap={3}>
+  <row align="start" gap={2}>
+    <icon name="x-circle" color="danger" size="lg"/>
+    <box flex="1" gap={1}>
+      **D｜wanted to know more about their health**
+
+      想了解健康狀況確實與文章研究有關，但這是研究目的或想知道的內容，不是最直接的長期研究方法。
+
+      而且前一句已經使用 *wanted to know* 描述研究目的。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={2}>
+    <icon name="check-circle" color="success" size="lg"/>
+    <box flex="1" gap={1}>
+      **B｜kept recording their lives**
+
+      研究人員每年訪問受試者，持續記錄生活情況，才能分析75年間的變化。
+
+      與 *tracked down*、*every year* 的語意連貫性最強。
+    </box>
+  </row>
+</box>
+
+### 五、關鍵文法｜keep + V-ing
+
+\[
+\text{keep + V-ing}=\text{持續做某事}
+\]
+
+原文：
+
+**They kept recording their lives.**
+
+他們持續記錄研究對象的生活。
+
+其他常用搭配：
+
+| 英文 | 中文 |
+|---|---|
+| keep studying | 持續讀書 |
+| keep practicing | 持續練習 |
+| keep trying | 不斷嘗試 |
+| keep recording | 持續記錄 |
+
+此處 *kept* 是 *keep* 的過去式，與前面的 *talked* 時態一致。
+
+### 六、原題快速檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **原文哪個線索最直接支持選 B？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. from rich families</radio>
+    <radio value="B">B. every year</radio>
+    <radio value="C">C. money doesn't make people happy</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="B"?"check-circle":"info"} color={choice==="B"?"success":"secondary"}/>
+        **{choice==="B"?"答對！":"正確是 B。"}**
+      </row>
+      <text size="sm">Every year 強調定期、持續進行的研究行為，最能支持 kept recording their lives。</text>
+    </box>
+  {/if}
+</box>
+
+### 七、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原文、四選項 | 已依照片核對 |
+| P0 正確答案 | B，語意與上下文一致 |
+| P1 教材查核 | 尚未使用國中教材唯讀搜尋 |
+| P2 圖解 | 時間線與原文75年、每年訪談一致 |
+| 實際誤選原因 | 作答思路不足，尚待確認 |
+
+**本題最值得改善的策略：**
+
+閱讀克漏字時，除了判斷哪個選項符合「文章主題」，還要確認哪個選項最能接續**空格前後的句子**。
+
+這題可以記成：
+
+**研究目的（wanted to know）→ 研究方法（talked every year and kept recording）→ 研究發現（good relationships）。**
+
+這樣能更清楚區分 D 和 B，也能運用在其他會考閱讀克漏字。
+
+user
+[原始附件 sediment://file_0000000002ec82068429ac1bef3b2bc2?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+30@錯題c→ B
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第30題｜化學式判斷：乙醇、醋酸與氫氧化鈉
+
+<row align="center" gap={2}>
+  <badge>自然｜理化</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">水、雙氧水、二氧化錳</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B</title>
+      <text size="xs">乙醇、醋酸、氫氧化鈉</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據與條件
+
+題目給出兩項資訊：
+
+1. **甲與乙由相同種類的原子組成，但化學式不同。**
+2. **乙與丙容易發生反應，且生成物溶於水後呈鹼性。**
+
+要找出同時符合這兩項條件的組合。
+
+| 選項 | 甲 | 乙 | 丙 |
+|---|---|---|---|
+| A | C₆H₁₂O₆ | C₂H₅OH | NaCl |
+| B | C₂H₅OH | CH₃COOH | NaOH |
+| C | H₂O | H₂O₂ | MnO₂ |
+| D | H₂O₂ | H₂O₂ | Cu |
+
+### 二、精準比較｜先判斷第一個條件
+
+<box border radius="xl" padding={3} gap={2}>
+  <title size="md">條件① 相同元素種類，化學式不同</title>
+  <table>
+    <table-row><table-cell width="18%">A</table-cell><table-cell>葡萄糖、乙醇</table-cell><table-cell><icon name="check" color="success" inline/> 都有 C、H、O</table-cell></table-row>
+    <table-row><table-cell>B</table-cell><table-cell>乙醇、醋酸</table-cell><table-cell><icon name="check" color="success" inline/> 都有 C、H、O</table-cell></table-row>
+    <table-row><table-cell>C</table-cell><table-cell>水、雙氧水</table-cell><table-cell><icon name="check" color="success" inline/> 都有 H、O</table-cell></table-row>
+    <table-row><table-cell>D</table-cell><table-cell>雙氧水、雙氧水</table-cell><table-cell><icon name="x" color="danger" inline/> 化學式相同</table-cell></table-row>
+  </table>
+  <text color="secondary" size="xs">第一關只能排除 D，A、B、C 都必須繼續檢查。</text>
+</box>
+
+### 三、第二個條件才是真正的決勝點
+
+<box border radius="xl" padding={3} gap={2}>
+  <title size="md">B｜醋酸與氫氧化鈉的中和反應</title>
+  <svg viewBox="0 0 340 155" width="100%">
+    <rect width="340" height="155" rx="10" fill="#F8FAFC"/>
+    <rect x="8" y="12" width="126" height="48" rx="9" fill="#FEE2E2" stroke="#F87171"/>
+    <text x="71" y="32" textAnchor="middle" fontSize="13" fontWeight="600" fill="#991B1B">醋酸</text>
+    <text x="71" y="48" textAnchor="middle" fontSize="12" fill="#991B1B">CH₃COOH</text>
+    <text x="170" y="42" fontSize="24" textAnchor="middle" fill="#475569">+</text>
+    <rect x="206" y="12" width="126" height="48" rx="9" fill="#DBEAFE" stroke="#60A5FA"/>
+    <text x="269" y="32" textAnchor="middle" fontSize="13" fontWeight="600" fill="#1E40AF">氫氧化鈉</text>
+    <text x="269" y="48" textAnchor="middle" fontSize="12" fill="#1E40AF">NaOH</text>
+    <path d="M170 62 V89" stroke="#64748B" strokeWidth="2"/>
+    <path d="M164 82 L170 90 L176 82" fill="none" stroke="#64748B" strokeWidth="2"/>
+    <rect x="28" y="96" width="284" height="46" rx="9" fill="#DCFCE7" stroke="#4ADE80"/>
+    <text x="170" y="115" textAnchor="middle" fontSize="14" fontWeight="600" fill="#166534">醋酸鈉 ＋ 水</text>
+    <text x="170" y="132" textAnchor="middle" fontSize="12" fill="#166534">CH₃COONa ＋ H₂O</text>
+  </svg>
+  <text size="sm">反應式：</text>
+  \[
+  \mathrm{CH_3COOH+NaOH\rightarrow CH_3COONa+H_2O}
+  \]
+  醋酸鈉溶於水後，因醋酸根離子與水反應，溶液呈弱鹼性。
+</box>
+
+所以 B 完全符合題目兩個條件。
+
+### 四、C vs B｜最後二選一決勝
+
+<box gap={3}>
+  <row align="start" gap={2}>
+    <icon name="x-circle" color="danger" size="lg"/>
+    <box flex="1" gap={1}>
+      **C｜H₂O₂ ＋ MnO₂**
+
+      二氧化錳可催化雙氧水分解：
+
+      \[
+      2H_2O_2\xrightarrow{MnO_2}2H_2O+O_2
+      \]
+
+      生成的是水和氧氣，**不是題目要求的溶於水後呈鹼性的生成物**。
+
+      二氧化錳在此主要是催化劑，不是被消耗而產生鹼性物質的反應物。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={2}>
+    <icon name="check-circle" color="success" size="lg"/>
+    <box flex="1" gap={1}>
+      **B｜CH₃COOH ＋ NaOH**
+
+      發生酸鹼中和反應，生成醋酸鈉與水。醋酸鈉是強鹼與弱酸形成的鹽，其水溶液呈弱鹼性。
+
+      因此 B 符合第二條件。
+    </box>
+  </row>
+</box>
+
+### 五、其他選項為什麼不對？
+
+**A｜葡萄糖、乙醇、氯化鈉**
+
+甲與乙都有 C、H、O，第一條件符合；但乙醇與氯化鈉在一般條件下不會發生題述那種反應，因此排除。
+
+**D｜雙氧水、雙氧水、銅**
+
+甲、乙都是 H₂O₂，直接違反「化學式不同」，不必再判斷第二條件。
+
+### 六、考場快速檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **原題 C 選項無法成立的最關鍵原因是？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 水與雙氧水使用不同元素組成</radio>
+    <radio value="B">B. 雙氧水分解不會生成題目要求的鹼性物質</radio>
+    <radio value="C">C. 二氧化錳與雙氧水完全沒有作用</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" radius="md" padding={3} gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="B"?"check-circle":"info"} color={choice==="B"?"success":"secondary"}/>
+        **{choice==="B"?"答對！":"正確是 B。"}**
+      </row>
+      <text size="sm">MnO₂ 會催化 H₂O₂ 分解，但產物是水與氧氣，無法滿足「生成物溶於水呈鹼性」的條件。</text>
+    </box>
+  {/if}
+</box>
+
+### 七、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題及全部選項 | 已依照片核對 |
+| P0 化學式、反應式 | 已獨立核對，B 正確 |
+| P1 教材證據 | 尚未使用國中教材唯讀搜尋 |
+| P2 圖解 | 中和反應產物與化學式一致 |
+| 誤選原因 | 作答過程不足，不能確認實際錯因 |
+
+**本題最值得記住的判斷方法：**
+
+先檢查「元素種類與化學式」，再檢查「生成物的酸鹼性」。
+
+**B 與 C 都通過第一關，但只有 B 通過第二關。** 這也是會考複合條件選擇題最重要的排除技巧。
+
+user
+[原始附件 sediment://file_0000000022bc8206bf22c7a6bd42e21e?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+34@錯題c→ B
+
+assistant
+
+
+assistant
+
+
+assistant
+## 第34題｜密閉容器中的氧氣消耗與水位變化
+
+<row align="center" gap={2}>
+  <badge>自然｜理化・氣體與壓力</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">內外水位等高</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">B</title>
+      <text size="xs">氧氣消耗、水位上升</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+題目利用鋼絲絨在倒置玻璃管內的反應，探討空氣的組成。
+
+實驗步驟：
+1. 將沾有水的細鋼絲絨放在玻璃管上方。
+2. 用軟木塞封住玻璃管上端。
+3. 將玻璃管倒置在水中，並標記最初水位。
+4. 在室溫下放置一星期，觀察結果。
+
+**決定性條件：玻璃管上端封閉，鋼絲絨與管內氧氣反應，而管口下端浸在水中。**
+
+### 二、精準圖解｜反應前後發生什麼事？
+
+<box border radius="xl" padding={3} gap={2}>
+  <svg viewBox="0 0 340 216" width="100%">
+    <rect x="3" y="3" width="334" height="210" rx="12" fill="#F0F7FF"/>
+    {#each [{x:82,before:true},{x:258,before:false}] as p}
+      <g>
+        <text x={p.x} y="23" textAnchor="middle" fontSize="13" fontWeight="600" fill="#1E40AF">{p.before?"反應前":"一星期後"}</text>
+        <rect x={p.x-50} y="102" width="100" height="78" rx="8" fill="none" stroke="#64748B" strokeWidth="2"/>
+        <rect x={p.x-48} y="115" width="96" height="63" fill="#93C5FD" opacity="0.65"/>
+        <rect x={p.x-18} y="42" width="36" height="122" rx="4" fill="#FFFFFF" fillOpacity=".7" stroke="#475569" strokeWidth="2"/>
+        <rect x={p.x-20} y="38" width="40" height="10" rx="3" fill="#A16207"/>
+        <path d={`M${p.x-13} 58 l8 10 l8 -10 l8 10 M${p.x-12} 70 l9 -6 l8 7 l8 -7`} fill="none" stroke={p.before?"#6B7280":"#B45309"} strokeWidth="2"/>
+        <rect x={p.x-16} y={p.before?115:88} width="32" height={p.before?47:74} fill="#93C5FD" opacity=".78"/>
+        <path d={`M${p.x-16} 115 H${p.x+16}`} stroke="#2563EB" strokeWidth="1.5" strokeDasharray="4 3"/>
+        {#if !p.before}
+          <path d={`M${p.x+28} 113 V90 M${p.x+23} 96 L${p.x+28} 89 L${p.x+33} 96`} stroke="#16A34A" strokeWidth="2" fill="none"/>
+        {/if}
+        <text x={p.x} y="197" textAnchor="middle" fontSize="11" fill="#334155">{p.before?"管內水位＝外部":"管內水位高於外部"}</text>
+      </g>
+    {/each}
+    <path d="M145 82 H192 M184 75 L192 82 L184 89" fill="none" stroke="#334155" strokeWidth="2"/>
+  </svg>
+  <caption>示意圖依照原題裝置重繪；水位高度是概念示意，並非實際量測值。</caption>
+</box>
+
+反應過程：
+
+<box gap={2}>
+  <row align="center" gap={2}>
+    <box background="surface-secondary" radius="md" padding={2}>
+      <icon name="wind" size="lg"/>
+    </box>
+    <box flex="1">
+      **① 鋼絲絨中的鐵與氧氣反應**
+
+      潮濕鋼絲絨中的鐵逐漸氧化，生成鐵鏽。
+    </box>
+  </row>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <row align="center" gap={2}>
+    <box background="surface-secondary" radius="md" padding={2}>
+      <icon name="gauge" size="lg"/>
+    </box>
+    <box flex="1">
+      **② 玻璃管內氣體壓力降低**
+
+      氧氣被消耗，密閉空間內氣體分子總數減少。
+    </box>
+  </row>
+  <row justify="center"><icon name="arrow-down" color="secondary"/></row>
+  <row align="center" gap={2}>
+    <box background="surface-secondary" radius="md" padding={2}>
+      <icon name="arrow-up-from-line" size="lg"/>
+    </box>
+    <box flex="1">
+      **③ 外界大氣壓力將水推入玻璃管**
+
+      管內水面上升，直到水柱壓力差與氣壓差平衡。
+    </box>
+  </row>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 原因 |
+|---|---|---|
+| A | 錯誤 | 氧氣約占空氣體積的五分之一，但被消耗後水位應上升，不是下降 |
+| B | **正確** | 鐵與氧氣反應產生鐵鏽，使管內氣體壓力下降，水位上升 |
+| C | 錯誤 | 雖然玻璃管下端與燒杯的水相通，但上端封閉，兩側氣壓不同，水位不必相同 |
+| D | 錯誤 | 本題的主要作用不是水蒸氣壓力使水位下降；實際預期為水位上升 |
+
+### 四、C vs B｜最後二選一決勝
+
+<box gap={3}>
+  <box gap={1}>
+    <row align="center" gap={2}>
+      <icon name="x-circle" color="danger"/>
+      **C｜因為水相通，所以內外水位相同？**
+    </row>
+    這個結論少了一個前提：兩側水面上方的壓力也必須相同。
+
+    在本題中，管內氧氣被消耗，管內氣壓降低，因此即使水相通，仍可能有水位差。
+  </box>
+  <divider color="subtle"/>
+  <box gap={1}>
+    <row align="center" gap={2}>
+      <icon name="check-circle" color="success"/>
+      **B｜氧氣消耗，管內水位上升**
+    </row>
+    空氣中的氧氣與鐵反應，使管內氣體壓力降低；外界大氣壓力較高，因而把水推入玻璃管。
+  </box>
+</box>
+
+**考場決勝句：**
+
+> 連通的水不一定等高；如果兩端氣壓不同，就可能形成水位差。
+
+### 五、快速自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **若玻璃管內氧氣被鋼絲絨消耗，為什麼水會上升？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 管內氣壓降低，外界大氣壓力將水推入</radio>
+    <radio value="B">B. 水會自動往密閉容器的上方流動</radio>
+    <radio value="C">C. 鋼絲絨反應後會直接產生更多水</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="A"?"check-circle":"info"} color={choice==="A"?"success":"secondary"}/>
+        **{choice==="A"?"答對！":"正確答案是 A。"}**
+      </row>
+      <text size="sm">玻璃管內氣壓降低，外部較大的大氣壓力把水推進管內，使水位上升。</text>
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與選項 | 已依照片核對 |
+| P0 正確答案 | B，物理化學機制一致 |
+| P1 教材證據 | 尚未查核課本原文 |
+| P2 精準圖解 | 已呈現管內水位上升與氣壓差 |
+| 實際誤選原因 | 缺乏原作答思路，尚不能直接判定 |
+
+**本題最值得記住的核心：** 先判斷「管內氣壓是否改變」，再決定水位方向。不要僅憑水相通就判斷水面一定等高。
+
+這個觀念也能用在會考常見的倒置試管、氣體消耗與液面升降題型。
+
+user
+[原始附件 sediment://file_00000000c0488206a111343cdb5f1bd1?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+39@錯題D → C
+
+assistant
+
+
+assistant
+## 第39題｜食鹽水的重量百分率濃度與溶解度
+
+<row align="center" gap={2}>
+  <badge>自然｜理化・溶液濃度</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">D</title>
+      <text size="xs">四杯濃度都相同</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">C</title>
+      <text size="xs">丁杯的溶解度最大</text>
+    </box>
+  </grid-item>
+</grid>
+
+這題問的是「**何者錯誤？**」，所以選 C。
+
+### 一、原題證據與數據核對
+
+題目給定：在 **25°C、1 atm** 時，100 公克水最多可溶解約 36 公克食鹽。
+
+根據表（五）：
+
+| 杯別 | 水的質量 | 食鹽＋水的總質量 | 加入食鹽 |
+|---|---:|---:|---:|
+| 甲 | 25 g | 34 g | 9 g |
+| 乙 | 25 g | 36 g | 11 g |
+| 丙 | 50 g | 68 g | 18 g |
+| 丁 | 100 g | 136 g | 36 g |
+
+加入食鹽量＝總質量－水的質量。
+
+這裡要特別小心：**加入多少食鹽，不代表全部都溶解了。**
+
+### 二、精準圖解｜哪杯已達飽和？
+
+<box border radius="xl" padding={3} gap={2}>
+  <text weight="medium" size="sm">25°C 時，食鹽的最大可溶解量</text>
+  <grid columns={4} gap={2}>
+    {#each [{n:"甲",max:9,added:9},{n:"乙",max:9,added:11},{n:"丙",max:18,added:18},{n:"丁",max:36,added:36}] as d}
+      <grid-item>
+        <box align="center" gap={1}>
+          <svg viewBox="0 0 74 110" width="100%">
+            <path d="M9 9 V97 Q37 110 65 97 V9" fill="none" stroke="#64748B" strokeWidth="2.5"/>
+            <path d="M12 48 H62 V96 Q37 106 12 96 Z" fill="#BAE6FD" opacity=".85"/>
+            {#each Array.from({length:12},(_,i)=>i) as i}
+              <circle cx={21+(i%4)*10} cy={63+Math.floor(i/4)*10} r="2.5" fill="#0EA5E9"/>
+            {/each}
+            {#if d.n==="乙"}
+              {#each [0,1,2,3,4,5] as i}
+                <circle cx={24+(i%3)*12} cy={96-Math.floor(i/3)*4} r="3" fill="#D97706"/>
+              {/each}
+            {/if}
+          </svg>
+          <text weight="semibold">{d.n}</text>
+          <text size="2xs" color="secondary">溶解 {d.max}g</text>
+          {#if d.n==="乙"}
+            <text size="2xs" color="danger">剩 2g</text>
+          {:else}
+            <text size="2xs" color="success">恰好飽和</text>
+          {/if}
+        </box>
+      </grid-item>
+    {/each}
+  </grid>
+  <caption>藍色點表示已溶解的食鹽，乙杯底部棕色點表示未溶解的食鹽；示意圖非依比例繪製。</caption>
+</box>
+
+計算各杯最多可溶解多少食鹽：
+
+\[
+\text{最多可溶解量}=\text{水的質量}\times\frac{36}{100}
+\]
+
+- 甲：25 × 0.36＝9 g，恰好飽和。
+- 乙：25 × 0.36＝9 g，加入11 g，還有2 g不溶解。
+- 丙：50 × 0.36＝18 g，恰好飽和。
+- 丁：100 × 0.36＝36 g，恰好飽和。
+
+因此，四杯的**液態溶液都達到飽和**。
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷 | 解析 |
+|---|---|---|
+| A 甲杯的溶質質量與乙杯相同 | 正確 | 兩杯均溶解9 g |
+| B 丙杯已達飽和程度 | 正確 | 50 g水最多溶解18 g |
+| C 丁杯的溶解度最大 | **錯誤，正解** | 同一溶質、同一溫度下，溶解度相同 |
+| D 四杯溶液的重量百分率濃度都相同 | 正確 | 四杯都是飽和食鹽水，液態溶液濃度相同 |
+
+### 四、D vs C｜最後二選一決勝
+
+<box gap={2}>
+  **D｜為什麼四杯濃度相同？**
+
+  重量百分率濃度公式：
+
+  \[
+  \frac{\text{已溶解的溶質質量}}{\text{溶液質量}}\times100\%
+  \]
+
+  以甲杯為例：
+
+  \[
+  \frac{9}{25+9}\times100\%\approx26.47\%
+  \]
+
+  乙杯雖然加入11 g食鹽，但只有9 g溶解，因此：
+
+  \[
+  \frac{9}{25+9}\times100\%\approx26.47\%
+  \]
+
+  丙、丁也同樣約為26.47%。
+
+  <divider color="subtle"/>
+
+  **C｜為什麼「丁杯溶解度最大」是錯的？**
+
+  溶解度是指在特定溫度下，一定量溶劑最多能溶解多少溶質，常以每100 g水可溶解的溶質公克數表示。
+
+  題目四杯都是25°C的食鹽水，因此溶解度都是：
+
+  \[
+  \boxed{36\text{ g食鹽／100 g水}}
+  \]
+
+  丁杯雖然能溶解最多的食鹽總量，但**溶解度並沒有比較大**。
+</box>
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium">溶解度 vs 可溶解總量</text>
+  <Chart content={{"chartType":"bar","meta":{"footer":"同溫度下，每100 g水的食鹽溶解度皆為36 g；圖中比較的是各杯實際最多可溶解的總量。"},"xKey":"cup","series":[{"dataKey":"amount","label":"各杯最多可溶解食鹽（g）"}],"yAxisMin":0,"data":[{"cup":"甲","amount":9},{"cup":"乙","amount":9},{"cup":"丙","amount":18},{"cup":"丁","amount":36}]}}/>
+  <text color="secondary" size="xs">上圖比較的是不同水量下可溶解的食鹽總量，不是溶解度的差異。</text>
+</box>
+
+### 五、考場快速判斷
+
+這題最有用的兩個檢查動作：
+
+1. **看到「溶解度」：** 先檢查是否為同一溫度、同一溶質與溶劑。
+2. **看到「重量百分率濃度」：** 先確認加入的食鹽是否全部溶解，未溶解部分不計入溶液質量。
+
+{@body const [answer,setAnswer] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **原題觀念檢核：乙杯加入11 g食鹽，為什麼濃度不能直接用11÷36計算？**
+
+  <radio-group direction="col" value={answer} onChange={setAnswer}>
+    <radio value="A">A. 因為有2 g食鹽沒有溶解</radio>
+    <radio value="B">B. 因為水的質量會自動增加</radio>
+    <radio value="C">C. 因為乙杯的溶解度比較小</radio>
+  </radio-group>
+  {#if answer}
+    <box background="surface-secondary" radius="md" padding={3} gap={1}>
+      <row align="center" gap={2}>
+        <icon name={answer==="A"?"check-circle":"info"} color={answer==="A"?"success":"secondary"}/>
+        **{answer==="A"?"答對！":"正確答案是 A。"}**
+      </row>
+      <text size="sm">乙杯只有9 g食鹽溶解，2 g殘留，因此液態溶液的質量是25＋9＝34 g。</text>
+    </box>
+  {/if}
+</box>
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題數據與選項 | 已核對 |
+| P0 答案與獨立計算 | C，通過 |
+| P1 教材證據 | 尚未查核課本 |
+| P2 數據圖解 | 已區分加入量、溶解量及未溶解量 |
+| 實際誤選原因 | 沒有當時作答過程，不能確定 |
+
+**本題最值得記住的差異：**
+
+**水越多，可以溶解的食鹽總量越多，但不代表溶解度越大。**
+
+因此 D 是正確敘述，C 才是題目要找的錯誤敘述。
+
+user
+[原始附件 sediment://file_000000005fc08206b6e3547044752f07?shared_conversation_id=6af9d35c-ee88-83ee-bc60-bfdc27855613]
+ 40@錯題c→ D
+
+assistant
+
+
+assistant
+## 第40題｜加熱水的質量與溫度變化關係
+
+<row align="center" gap={2}>
+  <badge>自然｜理化・熱量與比熱</badge>
+  <text color="secondary" size="xs">@錯題｜融合模式 v2.1</text>
+</row>
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">原選答案</text>
+      <title size="xl" color="danger">C</title>
+      <text size="xs">正比直線</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+      <text color="secondary" size="xs">正確答案</text>
+      <title size="xl" color="success">D</title>
+      <text size="xs">反比曲線</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 一、原題證據
+
+題目：
+
+> 在不改變物質狀態的情況下，加熱物質所需的熱量會與物質的質量、比熱及上升的溫度差成正比。現在加熱不同質量的水，若熱源的加熱時間相同，則水的溫度變化（ΔT）與質量（M）的關係圖形，應為下列何者？
+
+題目的三個重要條件：
+
+- 加熱的物質都是**水**，所以比熱相同。
+- 使用相同熱源、加熱時間相同，理想情況下可視為吸收熱量相同。
+- 水沒有發生物態變化。
+
+### 二、公式推導｜為什麼是反比？
+
+熱量公式：
+
+\[
+\boxed{Q=Mc\Delta T}
+\]
+
+| 符號 | 意義 | 本題狀態 |
+|---|---|---|
+| \(Q\) | 吸收的熱量 | 固定 |
+| \(M\) | 水的質量 | 改變 |
+| \(c\) | 水的比熱 | 固定 |
+| \(\Delta T\) | 溫度變化 | 要求的量 |
+
+移項：
+
+\[
+\Delta T=\frac{Q}{Mc}
+\]
+
+因為 \(Q\) 與 \(c\) 不變：
+
+\[
+\boxed{\Delta T\propto\frac{1}{M}}
+\]
+
+**結論：水的質量越大，溫度上升越少。**
+
+### 三、精準圖解｜質量增加，升溫減少
+
+<box border radius="xl" padding={3} gap={2}>
+  <Chart content={{"chartType":"line","meta":{"footer":"假設相同加熱量下，100 g 水升高 20°C；數值僅為比例示例，並非原題實測資料。"},"xKey":"mass","series":[{"dataKey":"temp","label":"溫度上升 ΔT","valueSuffix":"°C"}],"xAxisLabel":"水的質量 M（g）","data":[{"mass":100,"temp":20},{"mass":200,"temp":10},{"mass":300,"temp":6.67},{"mass":400,"temp":5},{"mass":500,"temp":4},{"mass":600,"temp":3.33}]}}/>
+  <caption>相同熱量下，水量增加，升溫幅度下降，呈反比趨勢。</caption>
+</box>
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <text weight="medium">用數字看反比關係</text>
+  <table>
+    <table-row>
+      <table-cell>水的質量</table-cell>
+      <table-cell>100 g</table-cell>
+      <table-cell>200 g</table-cell>
+      <table-cell>400 g</table-cell>
+    </table-row>
+    <table-row>
+      <table-cell>升溫</table-cell>
+      <table-cell>20°C</table-cell>
+      <table-cell>10°C</table-cell>
+      <table-cell>5°C</table-cell>
+    </table-row>
+  </table>
+  <text size="sm">水量變成 2 倍，升溫變成 1/2；水量變成 4 倍，升溫變成 1/4。</text>
+</box>
+
+### 四、四選項逐項辨析
+
+<grid columns={2} gap={3}>
+  {#each [{k:"A",desc:"質量越大，升溫越快增加",type:0},{k:"B",desc:"質量越大，升溫增加但趨緩",type:1},{k:"C",desc:"質量與升溫成正比",type:2},{k:"D",desc:"質量與升溫成反比",type:3}] as o}
+    <grid-item>
+      <box border radius="lg" padding={2} gap={1}>
+        <svg viewBox="0 0 150 108" width="100%">
+          <path d="M24 12 V90 H138" stroke="currentColor" strokeWidth="1.7" fill="none"/>
+          <text x="13" y="14" fontSize="11" fill="currentColor">ΔT</text>
+          <text x="139" y="103" fontSize="11" fill="currentColor">M</text>
+          <path d={["M25 88 Q95 85 104 18","M25 88 Q32 22 117 18","M25 88 L110 18","M30 16 C36 70 60 84 135 86"][o.type]} stroke={o.type===3?"#16A34A":"#64748B"} strokeWidth="3" fill="none" strokeLinecap="round"/>
+        </svg>
+        <row align="center" gap={1}>
+          <text weight="semibold">{o.k}</text>
+          {#if o.type===3}<icon name="check-circle" color="success"/>{:else}<icon name="x-circle" color="secondary"/>{/if}
+        </row>
+        <text size="xs" color="secondary">{o.desc}</text>
+      </box>
+    </grid-item>
+  {/each}
+</grid>
+
+**只有 D** 符合質量增加、溫度變化減少，而且呈現反比曲線。
+
+### 五、C vs D｜最後二選一決勝
+
+<box gap={2}>
+  <row align="start" gap={2}>
+    <icon name="x-circle" color="danger"/>
+    <box flex="1" gap={1}>
+      **C：ΔT 與 M 成正比**
+
+      意味著水量越多，升溫越高。
+
+      但同樣熱量分給更多水，升溫應該更少，因此 C 不合理。
+    </box>
+  </row>
+  <divider color="subtle"/>
+  <row align="start" gap={2}>
+    <icon name="check-circle" color="success"/>
+    <box flex="1" gap={1}>
+      **D：ΔT 與 M 成反比**
+
+      相同熱量下，質量越大，單位質量能分配到的熱量越少，因此升溫幅度降低。
+    </box>
+  </row>
+</box>
+
+**考場決勝技巧：**
+
+> 先看誰固定，再決定正比或反比。
+
+原公式 \(Q=Mc\Delta T\) 雖然是乘法，但不能直接認為 M 與 ΔT 成正比，因為本題固定的是 Q 與 c。
+
+### 六、原題觀念自我檢核
+
+{@body const [choice,setChoice] = DIL.useState("")}
+<box border radius="lg" padding={3} gap={3}>
+  **若100 g水吸收固定熱量後升溫20°C，改成200 g水吸收相同熱量，升溫為多少？**
+
+  <radio-group direction="col" value={choice} onChange={setChoice}>
+    <radio value="A">A. 40°C</radio>
+    <radio value="B">B. 20°C</radio>
+    <radio value="C">C. 10°C</radio>
+  </radio-group>
+  {#if choice}
+    <box background="surface-secondary" padding={3} radius="md" gap={1}>
+      <row align="center" gap={2}>
+        <icon name={choice==="C"?"check-circle":"info"} color={choice==="C"?"success":"secondary"}/>
+        **{choice==="C"?"答對！":"正確是 C。"}**
+      </row>
+      <text size="sm">質量變2倍，溫度變化變成一半：20÷2＝10°C。</text>
+    </box>
+  {/if}
+</box>
+
+### 七、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題及四選項 | 已核對照片 |
+| P0 正確答案 | D，公式與圖形一致 |
+| P1 教材證據 | 尚未查核課本 |
+| P2 圖文一致性 | 反比曲線、示例數值已核對 |
+| 實際誤選原因 | 作答思路不足，無法確認 |
+
+**本題最值得記住：**
+
+\[
+\boxed{\text{同熱量、同物質}\Rightarrow M\uparrow,\ \Delta T\downarrow}
+\]
+
+看到熱量公式時，不要只背正比、反比；先圈出題目中「保持不變」的量，才能選對圖形。
+
+---
+
+如果你願意，我可以：
+
+- 繼續分析答案差異與錯誤原因
+- 提供相關化學概念解說
+- 擴展相關練習問題與解析

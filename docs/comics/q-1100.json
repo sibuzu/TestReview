@@ -1,0 +1,89 @@
+{
+  "id": "q-1100",
+  "subject": "English",
+  "title": "公車狀態與代名詞句型",
+  "art": "docs/comics/art/q-1100-panel-1.png",
+  "generationMethod": "four independent built-in imagegen contextual illustrations",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261115-b/q-1100-original.jpg"
+  ],
+  "rationale": "依條件、關係、推導與整合逐幅製作；精確字詞、化學式與數字另用可校對HTML及原生圖，原AI圖不採用。",
+  "answerCheckedAgainst": "一、找full前面的主詞與be動詞\nfull是形容詞，be full of people表示擠滿了人。空格描述前面已提到的單數the bus，代名詞用it；又由couldn’t、was late可知是過去敘事，所以填it was，選A。\n\n二、there be不能直接接full當存在的名詞\nThere were many people on the bus.是「公車上有很多人」，there be後面接存在的人或物。原題後面直接是形容詞片語full of people，不能填there was或there are，否則少了存在的名詞主詞。\n\n三、逐項排除\nB there are既是現在式，又不能直接接full；C they were的they為複數，不能代替本句單數公車；D there was混淆存在句與描述狀態的句型。不能因people是複數就把描述整輛公車的主詞改成they。\n\n四、完整句意\n「Kevin今天早上上不了公車，因為車上擠滿了人，所以他又遲到了。」this morning本身不在所有情況都強制用過去式；這題由couldn’t與was的完整上下文明確判斷過去。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [
+    "it was",
+    "full of people",
+    "the bus",
+    "there be",
+    "this morning"
+  ],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 先找描述的是哪個物品",
+      "text": "Kevin上不了前面提到的the bus。這是單數公車，不是以後面的people來決定主詞。",
+      "image": "docs/comics/art/q-1100-panel-1.png",
+      "alt": "先找描述的是哪個物品；新製教學圖，非原卷。"
+    },
+    {
+      "heading": "2 full of people描述狀態",
+      "text": "公車擠滿人，用主詞＋be＋形容詞片語。it代替the bus，full不是存在句所需的名詞。",
+      "image": "docs/comics/art/q-1100-panel-2.png",
+      "alt": "full of people描述狀態；新製教學圖，非原卷。"
+    },
+    {
+      "heading": "3 一輛公車用it",
+      "text": "there be後須有名詞主詞；they不能代替本句單數公車。意思接近的There were many people on the bus.句型不同。",
+      "image": "docs/comics/art/q-1100-panel-3.png",
+      "alt": "一輛公車用it；新製教學圖，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案A：it was",
+    "points": [
+      "由couldn’t與was late判斷過去敘事：because it was full of people。圖呈現上不了車而遲到的結果，不把this morning一概當過去式規則。"
+    ],
+    "image": "docs/comics/art/q-1100-panel-4.png",
+    "alt": "答案A：it was；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1100-art-545c08c85a-web.webp",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-15T16:29:41.769137+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-15T16:29:41.769137+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "docs/imports/new-gpt-20261115-b/qa/comics-1099-1100.jpg"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261115-b/q-1100-original.jpg"
+    ],
+    "questionViewed": [
+      "docs/imports/new-gpt-20261115-b/qa/q-1100-collapsed-1440.png",
+      "docs/imports/new-gpt-20261115-b/qa/q-1100-collapsed-390.png"
+    ],
+    "scienceChecks": "docs/imports/new-gpt-20261115-b/science-checks.md",
+    "note": "已實看完整原卷、本題裁切與必要文章／圖表，核對全部選項。四幅圖分別檢查，隔離預覽及正式app／單頁桌機手機已驗證並實看。全批21隔離、42正式圖解布局、28題目布局通過；q-1101文章提示、q-1104數據標籤、q-1105熱源標籤微調後另通過12題目布局及12正式圖解布局。英文12張獨立內建產圖，理化16張原生精確圖。前7原問維持既有內容與四圖，未恢復舊圖重製。"
+  },
+  "checkedAt": "2026-11-15T16:29:42.067805+00:00",
+  "validationFile": "docs/comics/q-1100-validation.json"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "q-1105",
+  "subject": "Physics-Chemistry",
+  "title": "同熱量下質量與升溫圖形",
+  "art": "docs/comics/art/q-1105-panel-1.svg",
+  "generationMethod": "four independent native SVG structure/apparatus/data diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261115-b/q-1105-original.jpg"
+  ],
+  "rationale": "依條件、關係、推導與整合逐幅製作；精確字詞、化學式與數字另用可校對HTML及原生圖，原AI圖不採用。",
+  "answerCheckedAgainst": "一、把固定量與變動量分開\nQ＝McΔT。這裡都加熱水，比熱c相同；依本題同一功率熱源、相同加熱時間且忽略散熱等差異的理想模型，供給並由水吸收的熱量Q相同。\n\n二、移項看反比\nΔT＝Q／（Mc）。Q與c固定，質量M越大，溫度變化ΔT越小；M變2倍時，ΔT成為一半。因此選D的下降反比曲線。\n\n三、逐圖比較\nA是向上且愈來愈陡；B是向上且逐漸平緩；C是通過原點的上升直線，代表正比；三者都把質量增加畫成升溫增加。D才符合M增大、ΔT減少。原圖橫軸是M、縱軸是ΔT，不能把兩軸意義交換。\n\n四、圖形的範圍\n反比式只用在M＞0，不能把M＝0代入，曲線也不經過原點。水保持同一狀態且比熱近似不變，才用本題模型；現實中若熱源功率、容器吸熱或散熱不同，相同加熱時間不一定代表相同水吸熱量。原題照留，模型條件在解說中說明。",
+  "producerAgent": "/root",
+  "visualChecked": true,
+  "protectedWords": [
+    "ΔT"
+  ],
+  "manualLineBreaks": false,
+  "panels": [
+    {
+      "heading": "1 先圈出固定的量",
+      "text": "同為水，比熱c相同；題設以同功率、同時間且忽略散熱差異，視為吸收同樣熱量Q。",
+      "image": "docs/comics/art/q-1105-panel-1.svg",
+      "alt": "先圈出固定的量；新製教學圖，非原卷。"
+    },
+    {
+      "heading": "2 質量2倍，升溫成一半",
+      "text": "相同Q分給更多水，每單位質量得到的能量較少。圖用M與2M說明倍數，不是原題另給的實測數字。",
+      "image": "docs/comics/art/q-1105-panel-2.svg",
+      "alt": "質量2倍，升溫成一半；新製教學圖，非原卷。"
+    },
+    {
+      "heading": "3 移項看見反比關係",
+      "text": "ΔT＝Q／（Mc），Q、c固定，M越大，ΔT越小。質量須M＞0，曲線不經過原點。",
+      "image": "docs/comics/art/q-1105-panel-3.svg",
+      "alt": "移項看見反比關係；新製教學圖，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案D：下降反比曲線",
+    "points": [
+      "A、B、C都往上，只有D符合質量增加、升溫減少。橫軸M、縱軸ΔT；相同時間須配合理想吸熱條件才對應同Q。"
+    ],
+    "image": "docs/comics/art/q-1105-panel-4.svg",
+    "alt": "答案D：下降反比曲線；新製整合圖。"
+  },
+  "nativeArt": "assets/comics/q-1105-art-b9046f5cf7.svg",
+  "layoutVersion": "native-four-images-v7",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-15T16:29:41.769137+00:00",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "checkedAt": "2026-11-15T16:29:41.769137+00:00",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "actualViewed": [
+      "/tmp/weirugo-comic-checks/q-1105-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1105-standalone-1440.png"
+    ],
+    "originalViewed": [
+      "docs/imports/new-gpt-20261115-b/q-1105-original.jpg"
+    ],
+    "questionViewed": [
+      "docs/imports/new-gpt-20261115-b/qa/q-1105-collapsed-1440.png",
+      "docs/imports/new-gpt-20261115-b/qa/q-1105-collapsed-390.png"
+    ],
+    "scienceChecks": "docs/imports/new-gpt-20261115-b/science-checks.md",
+    "note": "已實看完整原卷、本題裁切與必要文章／圖表，核對全部選項。四幅圖分別檢查，隔離預覽及正式app／單頁桌機手機已驗證並實看。全批21隔離、42正式圖解布局、28題目布局通過；q-1101文章提示、q-1104數據標籤、q-1105熱源標籤微調後另通過12題目布局及12正式圖解布局。英文12張獨立內建產圖，理化16張原生精確圖。前7原問維持既有內容與四圖，未恢復舊圖重製。"
+  },
+  "checkedAt": "2026-11-15T16:29:42.306640+00:00",
+  "validationFile": "docs/comics/q-1105-validation.json"
+}

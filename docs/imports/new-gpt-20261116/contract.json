@@ -1,0 +1,29 @@
+{
+  "sourceId": "src-more-071",
+  "paths": {
+    "rootDrafts": "docs/imports/new-gpt-20261116/root/",
+    "scienceDrafts": "docs/imports/new-gpt-20261116/lane3/",
+    "geographyDrafts": "docs/imports/new-gpt-20261116/geography/"
+  },
+  "questionSchema": "完整獨立question object：id/sourceId/subject/title/chapter/volume/date/dateLabel/addedAt/question/answer/correctOption/explanation/verification/verificationNote/contentStatus/studentAnswer/images/questionFigures/explanationFigures/passage/tables/optionAnalysis（如適用）；歸綜合，不猜冊章。",
+  "candidateFields": "draft使用docs內真實素材路徑，由唯一整合者publish_asset轉為assets；不直接改asset-map/題庫。",
+  "manifestSchema": {
+    "items": [
+      {
+        "candidateId": "q-NNN",
+        "disposition": "new|duplicate|skip|awaiting_confirmation",
+        "draftPath": "本路q-NNN.json",
+        "draftSHA256": "凍結稿SHA256",
+        "originalImageIndices": [],
+        "duplicateQuestionId": null,
+        "specPath": "docs/comics/q-NNN.json（新題四圖完成時）",
+        "previewValidation": "docs/comics/q-NNN-preview-validation.json",
+        "reviewPath": "本路review檔"
+      }
+    ]
+  },
+  "fourImageRule": "每新原問四張不同實際圖，各自panels[].image/第四fourth.image+alt；不是文字框/空白/重複。點陣逐張imagegen，科學/地理精確圖可原生SVG；原題原卷先核。",
+  "reviews": "原AI錯誤/實質訂正完整before/after/原因另存reviews.json，由root register_review；已確認事項不重問。",
+  "writes": "製作人只寫各題/本路稿與素材/spec/隔離QA；Agent1唯一共享整合。",
+  "publication": "本次使用者明確commit/push；本來源完整四圖/QA/root final review後才能推，不恢復舊佇列。"
+}

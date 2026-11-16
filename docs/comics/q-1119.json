@@ -1,0 +1,106 @@
+{
+  "id": "q-1119",
+  "subject": "Physics-Chemistry",
+  "title": "先看組成，再分清產物種類與數量",
+  "art": "docs/comics/art/q-1119-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new independent native SVG scientific structure/apparatus/relationship diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1119-original.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1119-figure.jpg"
+  ],
+  "answerCheckedAgainst": "丙烯C₃H₆及乙酸CH₃COOH在氧充足、完全燃燒的條件下，主要產物均是二氧化碳與水，因此C正確。「產物相同」是指種類相同，不表示相同莫耳數的反應物生成同樣數量的產物。配平可寫：2C₃H₆＋9O₂→6CO₂＋6H₂O；CH₃COOH＋2O₂→2CO₂＋2H₂O。\n\nA的烴類只含碳與氫，丙烯是烴，乙醇另含氧，不是烴。B的丙烯、甲烷在水中溶解度都低，不能說易溶。D以碳原子守恆判斷：每莫耳丙烯可生成3莫耳CO₂，每莫耳乙烷C₂H₆可生成2莫耳CO₂。生成同種CO₂的莫耳數比及質量比均為3：2，不是1：1。",
+  "rationale": "四張分別是丙烯結構、烴/非烴比較、產物分子、碳數追蹤；化學式與莫耳比逐一核對，不用純文字反應框代替圖像。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 丙烯只含碳氫，具有雙鍵",
+      "text": "C₃H₆可寫成CH₃－CH＝CH₂。圖逐一核對3碳6氫、碳四價；丙烯是烴類，但不是所有有機物都是烴。",
+      "image": "docs/comics/art/q-1119-panel-1.svg",
+      "alt": "新製丙烯完整3C6H結構，單雙鍵及每個H均可核。"
+    },
+    {
+      "heading": "② A把乙醇也當烴，錯在有氧",
+      "text": "乙醇含O，不能列入只含C、H的烴類。B也錯：丙烯與甲烷在水中溶解度低，不能說易溶。",
+      "image": "docs/comics/art/q-1119-panel-2.svg",
+      "alt": "新製丙烯與乙醇兩種分子作組成比較，紅氧原子明確表示乙醇非烴。"
+    },
+    {
+      "heading": "③ 完全燃燒，產物都是CO₂和水",
+      "text": "丙烯及乙酸在氧充足、完全燃燒下，產物種類都為CO₂與H₂O，因此C成立。產物種類相同，不等於產物數量相同。",
+      "image": "docs/comics/art/q-1119-panel-3.svg",
+      "alt": "新製兩原料完全燃燒通往CO2與水分子，只比較產物種類，未把種類當產量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案C；D的CO₂質量比應為3：2",
+    "points": [
+      "每1mol丙烯、乙烷各含3mol與2mol碳，形成同種CO₂的量比及質量比均3：2，不是1：1。"
+    ],
+    "image": "docs/comics/art/q-1119-panel-4.svg",
+    "alt": "新製每1mol丙烯3molCO2、每1mol乙烷2molCO2的碳追蹤分子圖，明示省略O2/H2O非完整反應式。"
+  },
+  "protectedWords": [
+    "C₃H₆",
+    "CH₃－CH＝CH₂",
+    "C₂H₆",
+    "CO₂",
+    "H₂O",
+    "1mol",
+    "3：2",
+    "3mol",
+    "2mol",
+    "3碳",
+    "6氫",
+    "CH₃COOH"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:35:04.976842+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1119-panel-1.svg": "f2e08e03568bb5a200183e8078b2ed7e7df1da7061d7d53de5b689c2a7ff0948",
+    "docs/comics/art/q-1119-panel-2.svg": "65a941ff1484110e7872f3ae56bdc61753e50e0977697e7fba094edb08c0d63c",
+    "docs/comics/art/q-1119-panel-3.svg": "8a9ee51e1e8e55fe9bf9f518864d03024d51120e8b98284be870cb2cddc802c9",
+    "docs/comics/art/q-1119-panel-4.svg": "47ad7db7c33a3e313995f38309dfab9d8fe692af56210201e85e21459694c01e"
+  },
+  "supportingSources": [
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Propylene",
+      "finding": "丙烯為H2C=CHCH3，水中溶解度低。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:37:22.192011+00:00",
+  "checkedAt": "2026-11-16T15:42:27.053738+00:00",
+  "previewValidation": "docs/comics/q-1119-preview-validation.json",
+  "visualReview": "四張新製獨立SVG與1440/1120/390隔離成品逐張實看，原卷與正式題條件/四選項核對；四圖皆實際載入且完整，繁中公式數值與方向核對，無橫向溢出、保護詞拆行或文字遺漏，答案預設收合。",
+  "nativeArt": "assets/comics/q-1119-art-f2e08e0356.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1119-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1119-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1119-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1119-standalone-390.png"
+    ],
+    "note": "已實看正式app/單頁1440及390四張：丙烯3C6H雙鍵及碳四價、乙醇氧原子、CO₂水產物種類、3對2碳追蹤各獨立實圖；省略O₂及水有標示，非未配平完整式。",
+    "checkedAt": "2026-11-16T15:42:27.035452+00:00"
+  },
+  "validationFile": "docs/comics/q-1119-validation.json"
+}

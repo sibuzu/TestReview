@@ -1,0 +1,41 @@
+[
+  {
+    "questionId": "q-1118",
+    "kind": "原AI圖表判讀訂正",
+    "questionText": "在「冰的熔化」實驗中，絕熱杯內裝入25°C純水與甲溫度計，再將裝有0°C碎冰與乙溫度計的試管，置於絕熱杯內，如右圖所示，則甲、乙兩溫度計所測得實際溫度與時間的關係曲線，應該像下列哪一圖示？\n(A) 原卷圖A\n(B) 原卷圖B\n(C) 原卷圖C\n(D) 原卷圖D",
+    "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-1118",
+    "sourceUrl": "https://chatgpt.com/share/6afb1a9c-4f5c-83e8-becb-a35cb4110073",
+    "reason": "原AI把B圖乙線的立即升溫誤讀為持續0°C，並誤說末段不同溫；也把A的升溫線錯指甲。",
+    "before": "原AI說B「甲逐漸下降，乙維持0°C，最後停在不同溫度」，A「甲下降後又上升，乙始終接近0°C」。",
+    "after": "B乙原圖由0°C立即升溫，最後與甲同溫；缺少冰熔化的初期恆溫段。A甲降至近0°C而乙升至較高溫；不是甲回升。答案C維持。另保留原題未給質量、C依全熔命題預設的條件限制，不杜撰質量。",
+    "questionFigures": [
+      {
+        "src": "assets/originals/q-1118-q-1118-device-4c74ed48bbb6.jpg",
+        "alt": "絕熱杯中試管、甲乙溫度計",
+        "caption": "原卷裝置，甲測杯水、乙測試管碎冰。"
+      },
+      {
+        "src": "assets/originals/q-1118-q-1118-options-965edf4e3cbe.jpg",
+        "alt": "四選項溫度時間曲線，A-D與甲乙線標完整保留",
+        "caption": "原卷四選項，依圖判讀，不以原AI圖或文字摘要替代。"
+      }
+    ],
+    "images": [
+      "assets/originals/q-1118-q-1118-original-473c00bc5189.jpg"
+    ]
+  },
+  {
+    "questionId": "q-1115",
+    "kind": "原題語句限制",
+    "questionText": "次氯酸化學式為HClO，是一種不穩定的弱酸，當純淨的氯氣通入水中時，會形成鹽酸和次氯酸。其反應式為：Cl₂＋H₂O ⇌ HCl＋HClO，次氯酸溶解於水中後，具有很強的消毒性能，且無毒。美國環境保護署已將其鑑定為對COVID-19有效的消毒劑，具有穿透病原體膜的能力，也被用作商業除臭劑。使用次氯酸水不能與下列何種溶液混合，避免產生有毒的氯氣？\n(A) 食鹽水\n(B) 鹽酸\n(C) 氫氧化鈉\n(D) 氨水",
+    "questionUrl": "https://monitor-test.sibuzu.com/site/index.html#question/q-1115",
+    "sourceUrl": "https://chatgpt.com/share/6afb1a9c-4f5c-83e8-becb-a35cb4110073",
+    "reason": "原題「且無毒」不能當無條件安全保證；原AI未釐清此句。保留印刷材料，詳解須限制濃度、途徑與混用風險。",
+    "before": "原卷前言稱「次氯酸溶解於水中後，具有很強的消毒性能，且無毒」。",
+    "after": "原印照留；詳解明示並非任意濃度/用途/接觸皆安全或當前產品防疫效力保證；按產品標示、不自行混用。答案B不變，氨水也不可混用。",
+    "questionFigures": [],
+    "images": [
+      "assets/originals/q-1115-q-1115-original-bef5e7bd1a4a.jpg"
+    ]
+  }
+]

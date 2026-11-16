@@ -1,0 +1,117 @@
+{
+  "id": "q-1125",
+  "subject": "Geography",
+  "title": "先定位墨西哥，再選北回歸線",
+  "art": "docs/comics/art/q-1125-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent new native SVG maps/physical-geography diagrams; Natural Earth boundaries and city points",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/chatgpt-6afb1a9c-21.jpg",
+    "site/dist/assets/originals/q-1125-q-1125-original-8fbb58413d7d.jpg",
+    "site/dist/assets/originals/q-1125-q-1125-figure-2eee1b134a1c.jpg"
+  ],
+  "answerCheckedAgainst": "原圖甲為北極圈66.5°N、乙為北回歸線23.5°N、丙為南回歸線23.5°S、丁為南極圈66.5°S。墨西哥在北半球，北回歸線穿過其國土，故選B乙。\n\n題幹以副熱帶高壓、乾燥與仙人掌等線索提示北回歸線附近的乾燥區。判圖時先分北半球，再分回歸線與極圈，不能看到熱帶就選南回歸線。\n\n原文對墨西哥北部氣候有概括簡化：當地海拔與地形差異大，並非全北部都終年高溫或都是同一種熱帶沙漠。北回歸線穿過墨西哥也不代表整個國家恰落在一條緯線上。圖解用緯線位置協助作答，不把原文概括擴大成全國單一氣候。",
+  "rationale": "四張為球面緯線幾何、局部真墨西哥、環流物理剖面、美洲半球整合；不是四個近似同圖換色，不擅改原卷緯度或全國氣候。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 四緯線先按N、S分半球",
+      "text": "甲66.5°N是北極圈、乙23.5°N是北回歸線；丙23.5°S、丁66.5°S在南半球。緯度依原題近似值保留。",
+      "image": "docs/comics/art/q-1125-panel-1.svg",
+      "alt": "新製正視球面四緯線弦長依Rcosφ、南北位置依Rsinφ繪，保留原甲乙丙丁和66.5/23.5度。"
+    },
+    {
+      "heading": "② 北回歸線確實穿過墨西哥",
+      "text": "真實國界圖上23.5°N穿過墨西哥。國家有南北範圍，不能說整個國家都落在一條緯線上。",
+      "image": "docs/comics/art/q-1125-panel-2.svg",
+      "alt": "新製墨西哥真國界與23.5N緯線，顯示線穿國土而非全國在單一緯度。"
+    },
+    {
+      "heading": "③ 乾燥線索是輔助，不是全國氣候",
+      "text": "副熱帶高壓常見於約30°附近，下沉空氣不利雲雨。題文可輔助聯想北回歸線附近，但海拔、地形、海流仍影響當地氣候。",
+      "image": "docs/comics/art/q-1125-panel-3.svg",
+      "alt": "新製赤道上升/約30N下沉的南北垂直環流剖面，省略地轉偏向，不作精確氣候分界。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：乙，北回歸線",
+    "points": [
+      "墨西哥在北半球；不把原文概括擴大成全國終年高溫、同一種沙漠氣候。"
+    ],
+    "image": "docs/comics/art/q-1125-panel-4.svg",
+    "alt": "新製美洲局部真國界、赤道及北回歸線，把墨西哥放回北半球背景後對乙。"
+  },
+  "protectedWords": [
+    "66.5°N",
+    "23.5°N",
+    "23.5°S",
+    "66.5°S",
+    "北回歸線",
+    "約30°",
+    "墨西哥"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:51:23.264430+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1125-panel-1.svg": "6571cbf2fa124597b2f54192b58fe2eab4c5a8608e32a097e0437416748f492c",
+    "docs/comics/art/q-1125-panel-2.svg": "51ce0c06ec5b4589a233a28a9defd6d7f69bf66cafa72759230685ccfcbf6c87",
+    "docs/comics/art/q-1125-panel-3.svg": "b4eda29e051ef89a03910c5e5c2d9f93271f9812ab206d2ff8326cc579aa4b49",
+    "docs/comics/art/q-1125-panel-4.svg": "36e4b2756b38ead90461bb0c1f2e82bd760a6a3d5621b8b4014366f3912b844a"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+      "finding": "赤道附近上升、約30度高壓下沉，為Hadley環流概念。"
+    },
+    {
+      "url": "https://cuentame.inegi.org.mx/explora/geografia/ubicacion/",
+      "finding": "INEGI地理教育：北回歸線穿越墨西哥。"
+    },
+    {
+      "url": "https://cuentame.inegi.gob.mx/explora/geografia/climas/",
+      "finding": "墨西哥氣候多樣，北回歸線分主要氣候區域，不能全國視單一氣候。"
+    }
+  ],
+  "mapData": {
+    "boundaries": ".cache/four-image-maps/ne_10m_admin_0_countries.geojson",
+    "cities": ".cache/four-image-maps/ne_10m_populated_places.geojson",
+    "projection": "north-up equirectangular with standard parallel at view midpoint; aspect preserved in that projection",
+    "simplification": "Sutherland-Hodgman clipping and Douglas-Peucker ≤0.22 native pixel perpendicular error",
+    "borderSHA256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:52:35.603953+00:00",
+  "checkedAt": "2026-11-16T15:54:07.234893+00:00",
+  "previewValidation": "docs/comics/q-1125-preview-validation.json",
+  "visualReview": "真正原卷及已發布本題裁切/必要附圖全部實開；四張不同SVG與1440/1120/390最終成品全部實看。NE真國界/城市點、投影方位、緯線或機制方向逐一核，沒有捏造城市/震央位置或虛構量測資料。四圖實載且單圖完整顯示，繁中/公式/縮寫無保護詞拆行、無溢出。答案預設收合。",
+  "nativeArt": "assets/comics/q-1125-art-6571cbf2fa.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1125-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1125-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1125-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1125-standalone-390.png"
+    ],
+    "note": "已實看正式app/單頁1440與390四成品：甲乙丙丁N/S緯線球幾何正確，北回歸線穿墨西哥，約30度下沉環流與地表可辨；不把23.5線當全國位置或30度精確界。",
+    "checkedAt": "2026-11-16T15:54:07.216241+00:00"
+  },
+  "validationFile": "docs/comics/q-1125-validation.json"
+}

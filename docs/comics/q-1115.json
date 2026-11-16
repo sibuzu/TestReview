@@ -1,0 +1,102 @@
+{
+  "id": "q-1115",
+  "subject": "Physics-Chemistry",
+  "title": "指定產物是Cl₂，酸化平衡選鹽酸",
+  "art": "docs/comics/art/q-1115-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new independent native SVG scientific structure/apparatus/relationship diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1115-original.jpg"
+  ],
+  "answerCheckedAgainst": "依題目給的可逆反應Cl₂＋H₂O ⇌ HCl＋HClO判斷：加入鹽酸提供酸性環境及氯離子，促進左側氯氣形成，符合題目明確指定的Cl₂，選B。也可寫成HClO＋H⁺＋Cl⁻ ⇌ Cl₂＋H₂O，左右原子及電荷守恆。這是原理說明，不是操作實驗步驟。\n\nA的一般食鹽水不提供同樣的酸化條件；C氫氧化鈉呈鹼性，不是本題的酸化產氯機制。D氨水與含氯消毒劑混合也危險，可能生成有毒氯胺，不能因為不選D就說可安全混合。本題只是在辨別指定產物「氯氣」與反應式的關係。\n\n原題「且無毒」及防疫背景按原印保留，不視為無條件的安全保證或現行產品效力認證。含氯消毒產品的濃度、用途與接觸途徑都影響風險，應依產品標示使用，不自行與酸、氨或其他清潔劑混用。",
+  "rationale": "四張為守恆分子、平衡促進、氯氣/氯胺結構、分開儲用容器，非純文字框。原題無毒語句限制及原AI未釐清處另review交root。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 用原反應辨認左右兩側",
+      "text": "Cl₂與水形成HCl及HClO，是可逆平衡。圖只用分子表達原子守恆；不要把反應式當成混合清潔劑的操作指示。",
+      "image": "docs/comics/art/q-1115-panel-1.svg",
+      "alt": "新製Cl2及水與HCl及HOCl的可逆分子示意，各側2H2Cl1O守恆。"
+    },
+    {
+      "heading": "② 鹽酸促進氯氣形成",
+      "text": "鹽酸提供H⁺及Cl⁻，可促進HClO＋H⁺＋Cl⁻形成Cl₂與水，對應原反應往左，故選B。",
+      "image": "docs/comics/art/q-1115-panel-2.svg",
+      "alt": "新製HOCl、H+、Cl-與產物Cl2水的粒子示意，酸化方向明確，不含操作濃度。"
+    },
+    {
+      "heading": "③ 氨水的風險，不能忽略",
+      "text": "D也不能混用，可能產生氯胺。氯氣與氯胺是不同物質；題目指定Cl₂，並不表示其他選項可安全混合。",
+      "image": "docs/comics/art/q-1115-panel-3.svg",
+      "alt": "新製Cl2雙原子分子與NH2Cl氯胺分子，N三鍵連兩H一Cl。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：鹽酸",
+    "points": [
+      "原印「且無毒」照留，解說不作任意濃度或接觸皆安全的保證；依產品標示，不自行混用。"
+    ],
+    "image": "docs/comics/art/q-1115-panel-4.svg",
+    "alt": "新製三瓶分開直立的含氯劑/鹽酸/氨水及不混合符號，為使用風險整合圖。"
+  },
+  "protectedWords": [
+    "HClO",
+    "Cl₂",
+    "H⁺",
+    "Cl⁻",
+    "氯胺"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:29:33.242042+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1115-panel-1.svg": "67dc5b7f3219bed6d4f0d3f16221b465c31a52b7685981c2b78c077edd32b938",
+    "docs/comics/art/q-1115-panel-2.svg": "2919544aa0002cee8cab55dec0d02a4831a0ca8da9045dc8836fdd4c922fdde1",
+    "docs/comics/art/q-1115-panel-3.svg": "0a583093ac9866dc3b2039e6397ebcd860371fe0513489c06e2a7c97f1eed599",
+    "docs/comics/art/q-1115-panel-4.svg": "05e3e2f4c70a05ed60c8675d7d45cb156a214e7a06a81e71f008bd4687ce119a"
+  },
+  "supportingSources": [
+    {
+      "url": "https://doh.wa.gov/community-and-environment/contaminants/bleach-mixing-dangers",
+      "finding": "含氯漂白劑與酸產氯氣，與氨可產氯胺，兩者都不可混用。"
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750024.html",
+      "finding": "氯氣在水中形成鹽酸及次氯酸並有危害。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:31:27.532879+00:00",
+  "checkedAt": "2026-11-16T15:39:55.725531+00:00",
+  "previewValidation": "docs/comics/q-1115-preview-validation.json",
+  "visualReview": "四張新製獨立SVG與1440/1120/390隔離成品逐張實看，原卷與正式題條件/四選項核對；四圖皆實際載入且完整，繁中公式數值與方向核對，無橫向溢出、保護詞拆行或文字遺漏，答案預設收合。",
+  "nativeArt": "assets/comics/q-1115-art-67dc5b7f32.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1115-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1115-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1115-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1115-standalone-390.png"
+    ],
+    "note": "已實看app/單頁1440與390共4張；分子原子守恆、酸化向左、Cl₂與NH₂Cl圖形不同，第四獨立分瓶圖不作混用指引；無毒原句限制在詳解保留。",
+    "checkedAt": "2026-11-16T15:39:55.707779+00:00"
+  },
+  "validationFile": "docs/comics/q-1115-validation.json"
+}

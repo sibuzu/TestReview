@@ -1,0 +1,101 @@
+{
+  "id": "q-1112",
+  "subject": "Physics-Chemistry",
+  "title": "60個原子，仍只有一種元素",
+  "art": "docs/comics/art/q-1112-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new independent native SVG scientific structure/apparatus/relationship diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1112-original.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1112-figure.jpg"
+  ],
+  "answerCheckedAgainst": "物質分類先看所含元素種類，不是只看原子數。C₆₀的一個分子雖有60個原子，卻全是碳原子，因此是由單一元素組成的純物質，按國中分類選A「元素」。更精確地說，它是碳元素的一種單質，並非一個碳原子。\n\nB化合物須含兩種以上元素，C₆₀只有碳，不符合。C混合物須有不同物質混在一起，本題描述的是富勒烯本身，不是富勒烯與其他物質的混合。D聚合物通常由大量重複結構單元連接形成；不能因為C₆₀含60個原子，就把這個固定大小的封閉分子認作聚合物。球形、中空或原子很多，都不是區分元素與化合物的依據。",
+  "rationale": "四張分別是精確C60閉籠、局部同元素、水分子比較、碳同素異形結構；均為真正分子/晶格幾何，不以文字框分類湊四圖。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 先看C₆₀的籠狀結構",
+      "text": "一個分子含60個碳原子，但每個頂點都是碳。圖依截斷二十面體精確構成60頂點、90邊，不是把原子數當元素種類。",
+      "image": "docs/comics/art/q-1112-panel-1.svg",
+      "alt": "新製精確C60閉籠，60碳頂點90鍵邊；線只表連接未指定鍵級。"
+    },
+    {
+      "heading": "② 多個原子，不等於多種元素",
+      "text": "局部放大仍全是C。依國中物質分類，單一元素組成的純物質屬元素物質；不能因分子很大就改判化合物或聚合物。",
+      "image": "docs/comics/art/q-1112-panel-2.svg",
+      "alt": "新製C60局部六環及第三連接短線，只顯示部分結構，C標籤明示全碳。"
+    },
+    {
+      "heading": "③ 用水分子對照化合物",
+      "text": "水H₂O同時含氫、氧兩種元素，才是化合物。C₆₀沒有第二種元素，也沒有不同物質混合的條件。",
+      "image": "docs/comics/art/q-1112-panel-3.svg",
+      "alt": "新製水的一氧二氫彎曲分子，用元素種類差異作比較，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案A：元素",
+    "points": [
+      "富勒烯、石墨與鑽石結構不同，仍都只含碳；不要按外形或原子多寡分類。"
+    ],
+    "image": "docs/comics/art/q-1112-panel-4.svg",
+    "alt": "新製石墨相連六環局部與鑽石四配位局部，皆標C，整合單一元素概念。"
+  },
+  "protectedWords": [
+    "C₆₀",
+    "60個碳原子",
+    "化合物"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:25:14.792778+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1112-panel-1.svg": "831987e9d70932c0af847b02f07ff9d4db398a383d491c009fba0ed1df7070a7",
+    "docs/comics/art/q-1112-panel-2.svg": "64d889105dcb6f213dfd26f64555b8e29243f0bc74521a2d3b1044ac790e0712",
+    "docs/comics/art/q-1112-panel-3.svg": "bb071d5460c11847ca8a5551750abf898aedf6c2a46db501fdb35bb94631cee3",
+    "docs/comics/art/q-1112-panel-4.svg": "001c3bf1fa3797642e1fbbedd5d554703de4a97b4c792dc0a93f70bcf6f69c02"
+  },
+  "supportingSources": [
+    {
+      "url": "https://iupac.qmul.ac.uk/fullerene/",
+      "finding": "C60為閉籠全碳三配位結構。"
+    },
+    {
+      "url": "https://edu.rsc.org/feature/symmetry-of-buckminsterfullerene/2020237.article",
+      "finding": "截斷二十面體60頂點、12五邊形、20六邊形。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:26:33.180359+00:00",
+  "checkedAt": "2026-11-16T15:29:49.915123+00:00",
+  "previewValidation": "docs/comics/q-1112-preview-validation.json",
+  "visualReview": "四張新製獨立SVG與1440/1120/390隔離成品逐張實看，原卷與正式題條件/四選項核對；四圖皆實際載入且完整，繁中公式數值與方向核對，無橫向溢出、保護詞拆行或文字遺漏，答案預設收合。",
+  "nativeArt": "assets/comics/q-1112-art-831987e9d7.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1112-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1112-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1112-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1112-standalone-390.png"
+    ],
+    "note": "原卷/裁切/C60圖與全ABCD已實看，A單一碳元素分類正確；正式app單頁桌手機4成品已實看，閉籠/局部全C/水/石墨鑽石4張獨立實結構圖清楚，6布局PASS，非文字框。",
+    "checkedAt": "2026-11-16T15:30:08.512909+00:00"
+  },
+  "validationFile": "docs/comics/q-1112-validation.json"
+}

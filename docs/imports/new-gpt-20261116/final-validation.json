@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-11-16T16:01:04.413484+00:00",
+  "passed": true,
+  "siteTests": {
+    "command": "npm test --prefix site",
+    "passed": 123,
+    "failed": 0,
+    "exitCode": 0,
+    "checkedAt": "2026-11-16T16:00:34.484739+00:00",
+    "afterPendingOriginalPageSupport": true
+  },
+  "monitorTests": {
+    "command": "python3 -m unittest monitor.test_comic_execution monitor.test_comic_pipeline monitor.test_comic_publish monitor.test_comic_queue monitor.test_group_queue monitor.test_parallel_timing monitor.test_rework_status monitor.test_server monitor.test_source_progress",
+    "testsRun": 80,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "comicVerification": {
+    "currentProducerPreviewLayouts": 81,
+    "currentFormalLayouts": 162,
+    "formalViews": [
+      "app",
+      "standalone"
+    ],
+    "formalWidths": [
+      1440,
+      1120,
+      390
+    ],
+    "all27FormalDesktopMobileActuallyViewed": true,
+    "completeIntegrationEvents": 26,
+    "pendingAnswerFourImageVerified": [
+      "q-1122"
+    ],
+    "fourActualImages": 108,
+    "currentFormatCounts": {
+      "svg": 84,
+      "webp": 24
+    }
+  },
+  "fullQuestionPages": {
+    "passed": true,
+    "layouts": 108,
+    "questionIds": [
+      "q-1106",
+      "q-1107",
+      "q-1108",
+      "q-1109",
+      "q-1110",
+      "q-1111",
+      "q-1112",
+      "q-1113",
+      "q-1114",
+      "q-1115",
+      "q-1116",
+      "q-1117",
+      "q-1118",
+      "q-1119",
+      "q-1120",
+      "q-1121",
+      "q-1122",
+      "q-1123",
+      "q-1124",
+      "q-1125",
+      "q-1126",
+      "q-1127",
+      "q-1128",
+      "q-1129",
+      "q-1130",
+      "q-1131",
+      "q-1132"
+    ],
+    "views": [
+      "app",
+      "standalone"
+    ],
+    "widths": [
+      1440,
+      390
+    ],
+    "completeStemAllOptionsAndPassages": true,
+    "answerInitiallyCollapsedAndToggles": true,
+    "allOriginalAndTeachingImagesDecoded": true,
+    "noPageOverflowOrJsErrors": true,
+    "automaticReport": "docs/imports/new-gpt-20261116/qa/validation-q-1106-q-1107-q-1108-q-1109-q-1110-q-1111-q-1112-q-1113-q-1114-q-1115-q-1116-q-1117-q-1118-q-1119-q-1120-q-1121-q-1122-q-1123-q-1124-q-1125-q-1126-q-1127-q-1128-q-1129-q-1130-q-1131-q-1132.json",
+    "additionalActuallyViewed": [
+      "q-1107 app1440 standalone390 full page, visible unresolved words and main figure",
+      "q-1122 app1440 standalone390 full page, visible route ambiguity"
+    ]
+  },
+  "preservationAudit": "docs/imports/new-gpt-20261116/completion-audit.json",
+  "qaIncidents": "docs/imports/new-gpt-20261116/qa-incidents.json",
+  "limits": [
+    "q-1107原題局部轉錄未完成，contentStatus待更新，未冒稱完整原題；四圖complete獨立保留",
+    "q-1107原印二字尚待核對",
+    "q-1122航路單選尚待核對，無complete事件",
+    "7張原AI/原卷訂正卡待確認",
+    "來源維持partial待核，未新設全域terminal",
+    "舊重製及Agent2已恢復原先paused控制",
+    "工作宅node未運行，report待送",
+    "未部署網站，待root final review後依授權normal commit/push"
+  ],
+  "incompleteOriginalTranscription": [
+    "q-1107"
+  ],
+  "pendingAnswerWithCompleteTranscription": [
+    "q-1122"
+  ],
+  "pendingOriginalPageRendering": {
+    "change": "Pending exercises with reviewQuestions now rebuild their standalone pages with 待核對原題 labels instead of leaving stale 完整原題 pages.",
+    "scope": "q-1107 only in current data; all pre-existing question pages unchanged except known derived navigation.",
+    "recheckReport": "docs/imports/new-gpt-20261116/qa/validation-q-1107.json",
+    "recheckedLayouts": 4,
+    "allFourActuallyViewed": true,
+    "appShowsPendingUpdate": true,
+    "standaloneShowsPendingOriginal": true,
+    "staleCompleteLabelAbsent": true,
+    "noAnswerLeakCheck": {
+      "report": "docs/imports/new-gpt-20261116/qa/q-1107-no-answer-leak.json",
+      "layouts": 4,
+      "passed": true,
+      "allFourActuallyViewed": true,
+      "note": "主區僅說本次指定改錯答案不受字形影響，不列兩個訂正答案；完整before/after仍保留確認卡。"
+    }
+  }
+}

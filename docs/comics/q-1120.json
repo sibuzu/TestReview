@@ -1,0 +1,98 @@
+{
+  "id": "q-1120",
+  "subject": "Physics-Chemistry",
+  "title": "主要原料看70%，聚合物看長鏈",
+  "art": "docs/comics/art/q-1120-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new independent native SVG scientific structure/apparatus/relationship diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1120-passage.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1120-original.jpg"
+  ],
+  "answerCheckedAgainst": "聚丙烯由丙烯單體聚合，形成含大量重複單元－CH₂－CH（CH₃）－的長鏈，是鏈狀聚合物，因此B正確。鏈上可以有側基，本例CH₃是甲基側基，不表示主鏈變成網狀交聯。\n\nA先找主要原料：文章說稻殼占70%，聚丙烯占30%，不能把主要原料誤認成塑膠。稻殼為植物材料，含可被生物分解的有機成分，不可斷言完全無法分解；但也不能反過來宣稱含PP的整支複合筷可完全快速分解。C的PP是熱塑性聚合物，受熱可能軟化、變形，不能不看製品耐熱標示就說可直接在高溫中使用。D不符合材料來源：本題用農業副產物稻殼，並不需為了取得稻殼而砍伐樹木。\n\n文章關於回收與環保的敘述按材料照留；複合製品的實際回收條件，仍與單一PP材料能否再加工不同，本題答案只要求辨認PP的聚合物結構。",
+  "rationale": "四張以精確組成圖、化學重複結構、受熱形變、原料到實物筷子整合教學；不是四個文字流程框，也不延伸為產品安全或回收承諾。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 稻殼才是文章的主要原料",
+      "text": "稻殼占70%，食品級聚丙烯PP占30%。A把主要原料說成生物完全無法分解，忽略稻殼的植物來源有機成分。",
+      "image": "docs/comics/art/q-1120-panel-1.svg",
+      "alt": "新製70:30精確圓餅面積圖，配稻殼形狀及PP顆粒圖例，數值完全來自原文。"
+    },
+    {
+      "heading": "② PP的重複單元接成主鏈",
+      "text": "PP可表示為［－CH₂－CH（CH₃）－］ₙ。CH₃是甲基側基，主鏈仍延伸，屬鏈狀聚合物，選B；有側基不等於網狀交聯。",
+      "image": "docs/comics/art/q-1120-panel-2.svg",
+      "alt": "新製PP單一重複單元結構及n括號，CH2/CH主鏈、CH3側基鍵數正確。"
+    },
+    {
+      "heading": "③ 熱塑性不等於任意高溫可用",
+      "text": "PP受熱可能軟化變形，C不能不看製品耐熱規格就說可直接高溫使用。D也不合原文：取得稻殼不需為此砍伐樹木。",
+      "image": "docs/comics/art/q-1120-panel-3.svg",
+      "alt": "新製同一塑膠棒受熱前直形、受熱後彎形的裝置材料比較，未杜撰耐熱數值。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：聚丙烯屬鏈狀聚合物",
+    "points": [
+      "稻殼可再利用，但含PP的整支複合筷，不等於可以快速完全生物分解；實際回收亦須看製品條件。"
+    ],
+    "image": "docs/comics/art/q-1120-panel-4.svg",
+    "alt": "新製稻殼與PP顆粒結合為兩支複合筷的物質來源整合，不宣稱整支可完全分解。"
+  },
+  "protectedWords": [
+    "70%",
+    "30%",
+    "聚丙烯",
+    "CH₃",
+    "CH₂",
+    "甲基側基",
+    "鏈狀聚合物",
+    "PP",
+    "CH（CH₃）"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:35:04.977801+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1120-panel-1.svg": "ce0ecb737ad3c4b45356cad09e4b21132e6cf4100676dd6344983774391b7029",
+    "docs/comics/art/q-1120-panel-2.svg": "e32b0a9296b88b1e3d9e3d1d177f0694608283350e76b19a4c69b0734af2dd35",
+    "docs/comics/art/q-1120-panel-3.svg": "62533eae9b72e6f92779d399855a2c573f2a455638b4a0b3f68edb729fa1aeb4",
+    "docs/comics/art/q-1120-panel-4.svg": "f9f5a35c7c0c884be2eb1f2086c43822a5f98a41e1b3e26b08152bb5b19e5d8d"
+  },
+  "supportingSources": [],
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:37:22.192011+00:00",
+  "checkedAt": "2026-11-16T15:42:27.153290+00:00",
+  "previewValidation": "docs/comics/q-1120-preview-validation.json",
+  "visualReview": "四張新製獨立SVG與1440/1120/390隔離成品逐張實看，原卷與正式題條件/四選項核對；四圖皆實際載入且完整，繁中公式數值與方向核對，無橫向溢出、保護詞拆行或文字遺漏，答案預設收合。",
+  "nativeArt": "assets/comics/q-1120-art-ce0ecb737a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1120-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1120-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1120-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1120-standalone-390.png"
+    ],
+    "note": "已實看正式app/單頁1440及390四張：70:30圓餅比例、PP重複單元及甲基側基、受熱彎曲材料、兩支複合筷整合圖；不宣稱整支完全分解或任意高溫可用。",
+    "checkedAt": "2026-11-16T15:42:27.135340+00:00"
+  },
+  "validationFile": "docs/comics/q-1120-validation.json"
+}

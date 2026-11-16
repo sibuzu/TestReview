@@ -15,12 +15,14 @@ try:
     from .parallel_timing import measure
     from .new_sources import current_sources
     from .group_queue import summary as group_summary
+    from .rework_status import build_rework_status
 except ImportError:  # Also support running python monitor/server.py.
     from confirmation_store import edit_confirmations
     from comic_queue import subject_stats, next_entry
     from parallel_timing import measure
     from new_sources import current_sources
     from group_queue import summary as group_summary
+    from rework_status import build_rework_status
 
 ROOT = Path(__file__).resolve().parents[1]
 TERMINAL = {
@@ -150,7 +152,7 @@ def build_status(root=ROOT):
     if rework_path.exists():
         priority = read_json(rework_path)
         relative = Path(priority.get('plan', ''))
-        if priority.get('state') not in ('complete', 'cancelled') and relative.is_relative_to('docs/comics') and '..' not in relative.parts:
+        if priority.get('state') not in ('complete', 'cancelled', 'paused') and relative.is_relative_to('docs/comics') and '..' not in relative.parts:
             plan_path = root/relative
             if plan_path.is_file():
                 plan = read_json(plan_path)
@@ -320,6 +322,9 @@ def build_status(root=ROOT):
     missing = [dict(batch=b['title'], **s) for b in batches for s in b['sources']
                if not s['settled'] and (s['skippedQuestions'] or s['state'] == 'awaiting_image_retry'
                    or s['imagesExpected'] and s['imagesAvailable'] < s['imagesExpected'])]
+    illustration_rework = build_rework_status(root, data, comic_data if comic_path.exists() else {})
+    if illustration_rework:
+        paths.append(root/illustration_rework['plan'])
     return {
         'project': 'WeiRuGo', 'title': '錯題整理進度', 'generatedAt': iso_time(datetime.now().timestamp()),
         'dataUpdatedAt': iso_time(max(p.stat().st_mtime for p in paths)),
@@ -331,6 +336,7 @@ def build_status(root=ROOT):
                     'percent': round(settled/total*100, 1) if total else 100},
         'batches': batches, 'confirmations': confirmations, 'imageRetries': missing,
         'newSources': new_sources, 'importControl': import_control, 'groupReview': group_review,
+        'illustrationRework': illustration_rework,
         'resolvedConfirmations': requests.get('resolved', []),
     }
 

@@ -1,0 +1,103 @@
+{
+  "id": "q-1114",
+  "subject": "Physics-Chemistry",
+  "title": "乙醇含羥基，不等於溶液呈鹼性",
+  "art": "docs/comics/art/q-1114-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new independent native SVG scientific structure/apparatus/relationship diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1114-original.jpg"
+  ],
+  "answerCheckedAgainst": "本題的酒精指乙醇，結構可寫成CH₃－CH₂－OH，含有羥基－OH，因此A正確。這裡的－OH是共價連結的原子團，不是游離的氫氧根離子OH⁻，不能因式中有OH就認為溶液呈鹼性。\n\nB的化學式正確，但乙醇水溶液依本題教材分類近中性，「呈鹼性」錯。C原印為「燃料與溶質」，須照留：乙醇可以當燃料，實驗室用來溶解其他物質時常作溶劑；不能把「溶質」當成這項常用溶解用途。乙醇在大量水中也能扮演溶質，故不是說乙醇永遠不可能當溶質。D把濃度愈高等同效果愈好；就一般酒精殺菌用途，水有助蛋白質變性，適當濃度的酒精水溶液可比無水乙醇有效，不能說純酒精一定更好。\n\n原題的自製防蚊液敘述作為閱讀背景照錄；本題只判斷乙醇性質，這些材料並未驗證自製配方的防蚊或防登革熱效力。",
+  "rationale": "精確分子與溶液角色圖優於人物操作圖；四圖獨立描繪結構、離子差異、溶液情境、結構與性質整合，不提供防蚊配方效力背書。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 從結構找共價羥基",
+      "text": "乙醇可寫成CH₃－CH₂－OH，確實含－OH原子團，所以A成立。圖逐一核對2碳、6氫、1氧的連接。",
+      "image": "docs/comics/art/q-1114-panel-1.svg",
+      "alt": "新製乙醇完整球棍結構，2C6H1O、C均四價，羥基圈示。"
+    },
+    {
+      "heading": "② 羥基不是游離氫氧根",
+      "text": "乙醇分子的－OH以共價鍵連接；不同於NaOH水中的OH⁻。不能只因化學式有OH，就把乙醇水溶液判成鹼性。",
+      "image": "docs/comics/art/q-1114-panel-2.svg",
+      "alt": "新製乙醇共價羥基與NaOH水中Na+及OH-比較，未混為同一分子。"
+    },
+    {
+      "heading": "③ 常用來溶解別物時，是溶劑",
+      "text": "C原印「溶質」照留。碘溶於乙醇時，乙醇是溶劑；加入大量水時乙醇可作溶質。D也錯，酒精殺菌並非濃度愈高必愈好。",
+      "image": "docs/comics/art/q-1114-panel-3.svg",
+      "alt": "新製兩個溶液情境：碘/乙醇與乙醇/大量水，瓶內僅概念分布不是濃度測量。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案A：含有－OH原子團",
+    "points": [
+      "乙醇水溶液依教材近中性；自製防蚊液的背景不等同效力驗證。"
+    ],
+    "image": "docs/comics/art/q-1114-panel-4.svg",
+    "alt": "新製乙醇結構加近中性的定性位置圖，整合羥基與酸鹼性不同。"
+  },
+  "protectedWords": [
+    "－OH",
+    "OH⁻",
+    "乙醇",
+    "溶劑",
+    "溶質",
+    "CH₃－CH₂－OH",
+    "2碳",
+    "6氫",
+    "1氧",
+    "NaOH"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:26:12.461856+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1114-panel-1.svg": "3d430d72053bba8eeaf66e291a068491234e64804fd267065c9657a803bcddee",
+    "docs/comics/art/q-1114-panel-2.svg": "c707c6ad06444a082fe21ed097dd0ab5c088e2fbfd1290b78b02e278cb71b503",
+    "docs/comics/art/q-1114-panel-3.svg": "bcb615c727498243e72a9515da24f9f38deff5449bc14a85f8719d7b83a961b9",
+    "docs/comics/art/q-1114-panel-4.svg": "bfb8c894504d7e08cfe665cb517aa0530f7cf756fce5432177e2710e0e51b7c2"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html",
+      "finding": "一般酒精殺菌以適當含水濃度有效，無水乙醇不必然較佳；不延伸成所有消毒用途。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:31:27.532879+00:00",
+  "checkedAt": "2026-11-16T15:39:55.625824+00:00",
+  "previewValidation": "docs/comics/q-1114-preview-validation.json",
+  "visualReview": "四張新製獨立SVG與1440/1120/390隔離成品逐張實看，原卷與正式題條件/四選項核對；四圖皆實際載入且完整，繁中公式數值與方向核對，無橫向溢出、保護詞拆行或文字遺漏，答案預設收合。",
+  "nativeArt": "assets/comics/q-1114-art-3d430d7205.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1114-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1114-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1114-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1114-standalone-390.png"
+    ],
+    "note": "已實看app/單頁1440與390共4張；NaOH在手機完整保護，−OH與OH⁻區分、兩碳六氫一氧分子與溶質溶劑圖一致，第四圖真正分子及酸鹼位置圖。",
+    "checkedAt": "2026-11-16T15:39:55.608071+00:00"
+  },
+  "validationFile": "docs/comics/q-1114-validation.json"
+}

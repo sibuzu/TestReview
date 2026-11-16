@@ -1,0 +1,111 @@
+{
+  "id": "q-1123",
+  "subject": "Geography",
+  "title": "看清沿海到內陸，理解遷都目的",
+  "art": "docs/comics/art/q-1123-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent new native SVG maps/physical-geography diagrams; Natural Earth boundaries and city points",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/chatgpt-6afb1a9c-19.jpg",
+    "site/dist/assets/originals/q-1123-q-1123-original-9126327419a2.jpg",
+    "site/dist/assets/originals/q-1123-q-1123-figure-663814ba0776.jpg"
+  ],
+  "answerCheckedAgainst": "原圖標示原首都里約熱內盧與新首都巴西利亞，辨認出國家是巴西。里約熱內盧位於東南沿海，巴西利亞位於中部內陸，遷都方向是由沿海向內陸。\n\n巴西將政治中心移到內陸，目的在帶動內陸國土開發，改善人口與經濟過度集中沿海的情形，選A均衡區域發展。這是政策目的，不表示遷都後所有區域差距立刻消失。\n\nB避開沿海災害不是這次遷都的主要目的；C即使巴西有礦產，也不能直接當作遷都主因；D內陸不是因更溼潤而被選為首都。題目問主要原因，要把地圖上的沿海到內陸方向與區域發展背景相連。",
+  "rationale": "四張採南美國家辨認、沿海城市近景、內陸新都近景、全國前後比較，城市取資料點、不同尺度不杜撰位置或經濟統計。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 地圖的兩座城市，都在巴西",
+      "text": "原卷標示里約熱內盧與巴西利亞，可辨國家是巴西。先確認國家與位置，再連結政策原因。",
+      "image": "docs/comics/art/q-1123-panel-1.svg",
+      "alt": "新製南美洲國界圖突出巴西，辨認兩城所屬國家。"
+    },
+    {
+      "heading": "② 里約熱內盧是東南沿海舊都",
+      "text": "城市靠近大西洋沿岸。圖中只按真實國界、州界與城市點說明位置，不以自畫人口密度推論集中程度。",
+      "image": "docs/comics/art/q-1123-panel-2.svg",
+      "alt": "新製巴西東南沿海局部真海岸及里約州界，城市點取NaturalEarth Rio de Janeiro坐標。"
+    },
+    {
+      "heading": "③ 巴西利亞把政治中心移向內陸",
+      "text": "新都位於中部內陸。遷都希望帶動內陸開發、促進國土整合，最符合A均衡區域發展，而非只避災、找礦或找濕潤氣候。",
+      "image": "docs/comics/art/q-1123-panel-3.svg",
+      "alt": "新製中部內陸局部圖與聯邦區真界，巴西利亞點依NaturalEarth坐標。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案A：均衡區域發展",
+    "points": [
+      "箭頭表示政治中心由里約移向巴西利亞；不表示全體人口移動，或區域差距立即消失。"
+    ],
+    "image": "docs/comics/art/q-1123-panel-4.svg",
+    "alt": "新製巴西全圖兩城市真點位及遷都方向箭頭，非人口遷移或交通路線。"
+  },
+  "protectedWords": [
+    "里約熱內盧",
+    "巴西利亞",
+    "均衡區域發展",
+    "大西洋",
+    "內陸"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:51:22.620890+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1123-panel-1.svg": "2147a9a6e40ea22c138ed5e990a533a0d162bdabb5c9ada0634b2458610d7807",
+    "docs/comics/art/q-1123-panel-2.svg": "3e52e4a3168b7fa47a782dfd6f3e0b974bad76294d5d3752e76282215e355208",
+    "docs/comics/art/q-1123-panel-3.svg": "b7657df0d1a7be7853e1e6cde662613e7b01c25a02efd9bc18821fc374858834",
+    "docs/comics/art/q-1123-panel-4.svg": "4b19f5309318804bdc1e0e6fae8e1cba51462574f5cbbd9a420c683d01944d48"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.gov.br/sudeco/pt-br/assuntos/ride-df",
+      "finding": "遷都與中西部內陸人口/生產活動開發、國土整合相關。"
+    },
+    {
+      "url": "https://www.camara.leg.br/noticias/139678-transferencia-da-capital-para-o-interior-foi-proposta-em-1821",
+      "finding": "1960移至Brasilia，面對原先發展/人口主要沿海的國土情況。"
+    }
+  ],
+  "mapData": {
+    "boundaries": ".cache/four-image-maps/ne_10m_admin_0_countries.geojson",
+    "cities": ".cache/four-image-maps/ne_10m_populated_places.geojson",
+    "projection": "north-up equirectangular with standard parallel at view midpoint; aspect preserved in that projection",
+    "simplification": "Sutherland-Hodgman clipping and Douglas-Peucker ≤0.22 native pixel perpendicular error",
+    "borderSHA256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:52:35.603953+00:00",
+  "checkedAt": "2026-11-16T15:54:07.115756+00:00",
+  "previewValidation": "docs/comics/q-1123-preview-validation.json",
+  "visualReview": "真正原卷及已發布本題裁切/必要附圖全部實開；四張不同SVG與1440/1120/390最終成品全部實看。NE真國界/城市點、投影方位、緯線或機制方向逐一核，沒有捏造城市/震央位置或虛構量測資料。四圖實載且單圖完整顯示，繁中/公式/縮寫無保護詞拆行、無溢出。答案預設收合。",
+  "nativeArt": "assets/comics/q-1123-art-2147a9a6e4.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1123-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1123-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1123-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1123-standalone-390.png"
+    ],
+    "note": "已實看正式app/單頁1440與390四成品：巴西國界、里約沿海、巴西利亞內陸真城點及州界、遷都方向；A區域均衡，不把箭頭作全體人口移動。",
+    "checkedAt": "2026-11-16T15:54:07.094674+00:00"
+  },
+  "validationFile": "docs/comics/q-1123-validation.json"
+}

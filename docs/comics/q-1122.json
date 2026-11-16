@@ -1,0 +1,106 @@
+{
+  "id": "q-1122",
+  "subject": "Geography",
+  "title": "航路須看船型，不能只憑最短連線",
+  "art": "docs/comics/art/q-1122-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new distinct native teaching maps from pinned Natural Earth geometry",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/geography/crops/q-1122-original.jpg"
+  ],
+  "answerCheckedAgainst": "先定位巴西在南美洲東部、出口港面向大西洋，中國位於東亞。原卷藍筆D、紅筆B均保存，不把來源AI或紅筆直接當成不可質疑的標準答案。\n\n若教材只按巴拿馬運河連接大西洋與太平洋的簡化路線比較，會把B印度洋當作預期排除項。但這不是巴西到中國唯一、也不是所有大型礦砂船實際採行的航路。Vale官方物流資料以海岬型船的命名背景說明部分大型礦砂船因運河尺寸限制而繞好望角或合恩角；好望角路線會進入印度洋，因此不能教成印度洋不可能經過。\n\n若限定受運河尺寸或吃水限制的大型礦砂船與主要實際航線，D巴拿馬運河有排除依據；原題沒有給船型、出發港或唯一航線，不能自行補上大型船條件後聲稱D無條件唯一正確。題幹「中國是該國最大的鐵礦出口國」也有主受詞用語不精確，依上下文應指中國為出口目的地；原文照留。\n\n本題保留教材預期B、原作答D及實務限制，列入待確認，不用新圖把爭議答案畫成已定論。",
+  "rationale": "真實海岸國界支援逐步位置/條件推理；四張不同內容地圖不是文字流程框，原卷作答圖仍在題幹。",
+  "producerAgent": "/root/comic_lane_1",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "1 先定位巴西與中國",
+      "text": "巴西面向大西洋，中國位於東亞。原題未指定出發港、船型、吃水或唯一通道，不先把某條路線當必然。",
+      "image": "docs/comics/art/q-1122-panel-1.svg",
+      "alt": "巴西與中國在真實國界底圖中的相對位置。"
+    },
+    {
+      "heading": "2 繞好望角，會進印度洋",
+      "text": "大型礦砂船有繞非洲南端的實際航路；圖僅示方向，不是航跡。不能把印度洋教成不可能經過。",
+      "image": "docs/comics/art/q-1122-panel-2.svg",
+      "alt": "新製繞好望角、穿印度洋至東亞的方向示意。"
+    },
+    {
+      "heading": "3 巴拿馬連接兩洋，但有尺寸限制",
+      "text": "運河在中美洲，能連接大西洋與太平洋；是否能通航還取決於船寬、船長與吃水，不能省略船型條件。",
+      "image": "docs/comics/art/q-1122-panel-3.svg",
+      "alt": "巴拿馬運河與兩側海域的真實位置圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "原卷B；航路與船型條件待核",
+    "points": [
+      "原作答D、紅筆B照留。未擅定新唯一標準；請確認教材採用的路線假設。"
+    ],
+    "image": "docs/comics/art/q-1122-panel-4.svg",
+    "alt": "含條件提示與好望角可行方向的整體海域圖。"
+  },
+  "protectedWords": [
+    "巴拿馬",
+    "哥倫比亞",
+    "印度洋",
+    "大西洋",
+    "明尼蘇達",
+    "百慕達",
+    "酪農帶",
+    "加拿大",
+    "聖羅倫斯河",
+    "8°N",
+    "50州",
+    "20州"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:49:53.995041+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1122-panel-1.svg": "72590d7b63ee27001b8176badbe5a931228456fb85f55545955ab66df2543200",
+    "docs/comics/art/q-1122-panel-2.svg": "18282e182067885d951683d76680c9b1d39c5a51ba378ee77ccacd88fdbcdbac",
+    "docs/comics/art/q-1122-panel-3.svg": "4893cd5299d8f8e03384a50e7d24d066e68810e14b67b414069af13a668f0f1f",
+    "docs/comics/art/q-1122-panel-4.svg": "b6f5502f8a9eddad800dd5d6ac9167c02bb422f4cebfa8876461ddc1a9059789"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.vale.com/en/logistics",
+      "finding": "海岬型船命名及繞好望角背景；不把舊命名推為所有現代船舶無法通航。"
+    }
+  ],
+  "mapProvenance": "docs/imports/new-gpt-20261116/geography/map-data-provenance.json",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:50:33.029887+00:00",
+  "previewValidation": "docs/comics/q-1122-preview-validation.json",
+  "visualReview": "已實看1440/1120/390隔離成品；實際海岸國界位置與原卷比對、四圖不同且清楚，湖泊沿用NE圖資；未造精確航跡/人口數/公路或農業帶邊界。",
+  "nativeArt": "assets/comics/q-1122-art-72590d7b63.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "validationFile": "docs/comics/q-1122-validation.json",
+  "questionAnswerPending": true,
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1122-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1122-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1122-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1122-standalone-390.png"
+    ],
+    "note": "四正式成品已實看：巴西/中國位置、好望角可行方向、巴拿馬真位置與通航條件、待核整體圖；不把印度洋不可能或D新唯一標準畫成定論。唯一答案待確認，所以不計complete整合事件。",
+    "checkedAt": "2026-11-16T15:52:37.216494+00:00"
+  }
+}

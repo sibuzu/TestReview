@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "6 geography formal comic QA",
+    "result": "process exit143 after attach/curate without assertion output",
+    "response": "Preserve artifacts, retry checker only; no regeneration or duplicate completion."
+  },
+  {
+    "stage": "monitor unittest invocation",
+    "result": "discover -s monitor imported relative-import modules as top-level; 5 import errors",
+    "response": "Run all monitor.test_* modules explicitly as namespace package."
+  },
+  {
+    "stage": "monitor unittest discovery retry",
+    "result": "discover -s monitor -t . rejects namespace folder without __init__.py",
+    "response": "Do not alter product/package for test invocation; explicit module collection covers all tests."
+  }
+]

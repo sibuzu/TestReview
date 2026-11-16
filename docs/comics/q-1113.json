@@ -1,0 +1,96 @@
+{
+  "id": "q-1113",
+  "subject": "Physics-Chemistry",
+  "title": "對外部真空，熱仍能以輻射傳播",
+  "art": "docs/comics/art/q-1113-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four new independent native SVG scientific structure/apparatus/relationship diagrams",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261116/lane3/crops/q-1113-original.jpg"
+  ],
+  "answerCheckedAgainst": "本題限定太空艙外近似真空的環境。傳導須藉物質粒子間的作用傳熱；對流須有氣體或液體的整體流動。對周圍真空散熱，這兩種方式缺乏足夠媒介。熱輻射則以電磁波傳播，不必有物質媒介，所以仍可把能量傳向外界，選B。\n\nA、C及D都把主要散熱方式認成需物質媒介的途徑，不符題目環境。這不表示太空衣內部、與工具接觸處完全沒有傳導或對流；只是在比較與外部真空交換熱能的方式。太空人也可能吸收太陽等來源的輻射而過熱，太空衣的隔熱與溫控兼顧得熱、散熱，不是只有保暖。",
+  "rationale": "四張以輻射、粒子傳導、流體對流、多層隔熱的真實機制幾何比較，避免人體漫畫代替物理條件。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 沒有空氣，仍會發出紅外線",
+      "text": "熱輻射以電磁波傳播，不需物質媒介。太空艙外近似真空，人體與太空衣仍可向外發出輻射。",
+      "image": "docs/comics/art/q-1113-panel-1.svg",
+      "alt": "新製熱源/太空衣截面與向外紅外線箭頭，外側標真空。"
+    },
+    {
+      "heading": "② 傳導要有物質作媒介",
+      "text": "固體粒子可逐步傳熱，但真空間隙沒有這種連續媒介。與工具接觸處仍可能傳導，不能說整套太空衣完全沒有傳導。",
+      "image": "docs/comics/art/q-1113-panel-2.svg",
+      "alt": "新製固體粒子連接與真空間隙對比，真空處打叉只指缺乏傳導介質。"
+    },
+    {
+      "heading": "③ 對流要有流體移動",
+      "text": "對流是氣體或液體的整體流動；周圍真空無空氣對流。因此A、C、D不是題目對外散熱的主要途徑。",
+      "image": "docs/comics/art/q-1113-panel-3.svg",
+      "alt": "新製液體容器中暖升冷降循環，箭頭表示流體而非輻射。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：輻射",
+    "points": [
+      "隔熱層減少輻射交換；太空衣也要防過熱並調節人體產熱，不是只防冷。"
+    ],
+    "image": "docs/comics/art/q-1113-panel-4.svg",
+    "alt": "新製多層隔熱剖面，向外發射與向內吸收波箭頭分別標示。"
+  },
+  "protectedWords": [
+    "熱輻射",
+    "太空衣",
+    "真空"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:25:14.794033+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1113-panel-1.svg": "4404741f327b4043e6a44eef2d53c0f82aed1cdb52a4feeb25b76078a5ae36cf",
+    "docs/comics/art/q-1113-panel-2.svg": "2864a735f6f6053cb6c10ffdd55317cc610155725638af860a24b0b2cefbf7eb",
+    "docs/comics/art/q-1113-panel-3.svg": "ec669aa2350493469d34c4991de6566fceb193d55fef15034a5607cf951d895a",
+    "docs/comics/art/q-1113-panel-4.svg": "1ac835a560a77691ce409442e0fcb087b526ad920bb659680b17591e44d9321f"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/",
+      "finding": "真空無對流；接觸物體可傳導，輻射仍可傳播。"
+    }
+  ],
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:26:33.180359+00:00",
+  "checkedAt": "2026-11-16T15:30:08.600537+00:00",
+  "previewValidation": "docs/comics/q-1113-preview-validation.json",
+  "visualReview": "四張新製獨立SVG與1440/1120/390隔離成品逐張實看，原卷與正式題條件/四選項核對；四圖皆實際載入且完整，繁中公式數值與方向核對，無橫向溢出、保護詞拆行或文字遺漏，答案預設收合。",
+  "nativeArt": "assets/comics/q-1113-art-4404741f32.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1113-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1113-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1113-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1113-standalone-390.png"
+    ],
+    "note": "原卷9四選項已實看，B真空對外輻射正確；4張熱源波/粒子與間隙/流體循環/隔熱層實圖各有目的，不將衣內或接觸處傳導否定。正式app單頁桌手機4成品實看/6布局PASS。",
+    "checkedAt": "2026-11-16T15:30:08.575351+00:00"
+  },
+  "validationFile": "docs/comics/q-1113-validation.json"
+}

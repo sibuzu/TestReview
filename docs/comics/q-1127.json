@@ -1,0 +1,115 @@
+{
+  "id": "q-1127",
+  "subject": "Geography",
+  "title": "南美洲西側、銅礦線索，辨認智利",
+  "art": "docs/comics/art/q-1127-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent new native SVG maps/physical-geography diagrams; Natural Earth boundaries and city points",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/chatgpt-6afb1a9c-23.jpg",
+    "site/dist/assets/originals/q-1127-q-1127-original-465afd6d23e0.jpg"
+  ],
+  "answerCheckedAgainst": "智利位於南美洲西側、安地斯山地區，銅礦資源與開採產業著名，題文所述地下銅礦事故對應智利，選C。\n\nA古巴與D墨西哥不在南美洲，先用題幹洲別即可排除。B巴西雖在南美洲，但其區域與礦業線索不如智利的地下銅礦吻合。\n\n原題的新聞日期、規模、深度與傷亡文字照留，解說不從中推造事故震央、礦坑精確位置或把所有礦災歸因於自然板塊地震。新圖只負責國家位置與安地斯銅礦背景，非事故現場重建。",
+  "rationale": "四圖為四國區位比較、智利近景、板塊物理構造、全南美洲銅礦線索整合；沒有虛構精確礦坑/震央，也不以自然隱沒解釋本次礦場事件。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 南美洲條件，先排兩個選項",
+      "text": "古巴在加勒比海、墨西哥在北美，均不符合題文南美洲。巴西與智利都在南美洲，還要比較礦業與區位線索。",
+      "image": "docs/comics/art/q-1127-panel-1.svg",
+      "alt": "新製美洲真國界圖同時定位墨西哥、古巴、巴西、智利，依洲別排除。"
+    },
+    {
+      "heading": "② 狹長智利沿太平洋東岸延伸",
+      "text": "智利位於南美洲西側，東側鄰安地斯山區，銅礦產業著名。原題地下銅礦事件對應智利，選C。",
+      "image": "docs/comics/art/q-1127-panel-2.svg",
+      "alt": "新製智利狹長國土近景及太平洋方位，無礦坑或震央點。"
+    },
+    {
+      "heading": "③ 板塊圖只解釋長期區域背景",
+      "text": "納茲卡海洋板塊向東隱沒至南美洲板塊下方，是長期地體背景。這不能直接證明本次礦災成因，也不能由題文推造震央。",
+      "image": "docs/comics/art/q-1127-panel-3.svg",
+      "alt": "新製太平洋東緣板塊隱沒剖面，納茲卡往東向下、安地斯在大陸側，明示非本次事故成因。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案C：智利",
+    "points": [
+      "位置與銅礦線索共同判讀；原題新聞文字照留，圖不重建救援或傷亡現場。"
+    ],
+    "image": "docs/comics/art/q-1127-panel-4.svg",
+    "alt": "新製南美洲全圖智利位置及Cu銅元素圖例，Cu不代表特定礦坑或礦石外觀。"
+  },
+  "protectedWords": [
+    "納茲卡",
+    "南美洲",
+    "太平洋",
+    "安地斯山",
+    "墨西哥",
+    "智利"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:51:24.019384+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1127-panel-1.svg": "40b457ad17f27b1b6ed57bbcd06b1510e6e06de99414726b192804ecbcec1d70",
+    "docs/comics/art/q-1127-panel-2.svg": "4b4a14e216cce146d324b71a3d3fc4e490cd9581dc966df74bc58ab265b17bd0",
+    "docs/comics/art/q-1127-panel-3.svg": "4bca11ce4c23ca835074735dda8639349dff92d1cd27a815709be4c9ab2699cb",
+    "docs/comics/art/q-1127-panel-4.svg": "32229cc697c12e3557bc180ad8918555adb512f1239d6c35bb50454aa2b2ace2"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.codelco.com/prensa/2025/sernageomin-autoriza-reinicio-parcial-y-progresivo-de-operaciones",
+      "finding": "Codelco確認ElTeniente在2025/7/31發生事故，國家為智利；不據此推原因。"
+    },
+    {
+      "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/08/03/44215-B/01/2681587.pdf",
+      "finding": "智利官方公報確認7/31 ElTeniente礦災及罹難者。"
+    },
+    {
+      "url": "https://pubs.usgs.gov/publication/ofr20151031E",
+      "finding": "USGS南美地體摘要：納茲卡相對南美向東略偏北移動，長期隱沒背景；網頁直讀403但官方搜尋摘要可核。"
+    }
+  ],
+  "mapData": {
+    "boundaries": ".cache/four-image-maps/ne_10m_admin_0_countries.geojson",
+    "cities": ".cache/four-image-maps/ne_10m_populated_places.geojson",
+    "projection": "north-up equirectangular with standard parallel at view midpoint; aspect preserved in that projection",
+    "simplification": "Sutherland-Hodgman clipping and Douglas-Peucker ≤0.22 native pixel perpendicular error",
+    "borderSHA256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:52:35.603953+00:00",
+  "checkedAt": "2026-11-16T15:54:07.358749+00:00",
+  "previewValidation": "docs/comics/q-1127-preview-validation.json",
+  "visualReview": "真正原卷及已發布本題裁切/必要附圖全部實開；四張不同SVG與1440/1120/390最終成品全部實看。NE真國界/城市點、投影方位、緯線或機制方向逐一核，沒有捏造城市/震央位置或虛構量測資料。四圖實載且單圖完整顯示，繁中/公式/縮寫無保護詞拆行、無溢出。答案預設收合。",
+  "nativeArt": "assets/comics/q-1127-art-40b457ad17.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1127-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1127-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1127-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1127-standalone-390.png"
+    ],
+    "note": "已實看正式app/單頁1440與390四成品：南美選項區位、狹長智利、納茲卡向東隱沒概念與Cu整合圖；明示長期背景不能證本次礦災成因，不造震央或現場。",
+    "checkedAt": "2026-11-16T15:54:07.340429+00:00"
+  },
+  "validationFile": "docs/comics/q-1127-validation.json"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "q-1121",
+  "subject": "Geography",
+  "title": "用三國位置，記住USMCA完整名稱",
+  "art": "docs/comics/art/q-1121-panel-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent new native SVG maps/physical-geography diagrams; Natural Earth boundaries and city points",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/source-pages/chatgpt-6afb1a9c-17.jpg",
+    "site/dist/assets/originals/q-1121-q-1121-original-ee424a4aebb1.jpg"
+  ],
+  "answerCheckedAgainst": "新協定的英文簡稱是USMCA，指United States–Mexico–Canada Agreement，即美國—墨西哥—加拿大協定。依原卷紅筆與使用者訂正，本題填USMCA。\n\nUS代表United States，M代表Mexico，C代表Canada，A代表Agreement；可用三個締約國的位置記憶，但不要漏掉Agreement的A。美墨加是常用的中文簡稱，不是完全不知道參與國家；但本題原卷與訂正所要求的答案形式為USMCA。題幹原文只寫「簡稱」，沒有「英文」二字，不能把它擅加進原題。\n\n原題提及1992及2018都是簽署年。舊NAFTA於1994年生效；USMCA於2020年7月1日生效。簽署與正式生效不同，不把2018教成取代生效的年份。",
+  "rationale": "四張各自不同視野/國界組合定位美、墨、加及三國整體；非同一底圖只換色。國界與海岸取真GeoJSON，文字依使用者明確USMCA訂正；原題未加英文二字。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① US：美國 United States",
+      "text": "先認美國本土在北美的位置。本格只畫本土48州及鄰區；整體圖另可見阿拉斯加，不能把本土圖當成全部領土。",
+      "image": "docs/comics/art/q-1121-panel-1.svg",
+      "alt": "新製美國本土48州/加拿大南緣/墨西哥北緣的真國界局部圖，美國本土單獨定位。"
+    },
+    {
+      "heading": "② M：墨西哥 Mexico",
+      "text": "墨西哥位於美國以南，國土向中美地峽延伸。原作答「美墨加」已知道三個國家，但本題訂正要求USMCA這個形式。",
+      "image": "docs/comics/art/q-1121-panel-2.svg",
+      "alt": "新製墨西哥本土區位圖，含下加利福尼亞半島和相鄰國界，不是第一圖只改色。"
+    },
+    {
+      "heading": "③ C：加拿大 Canada",
+      "text": "加拿大位於美國本土以北，含北方群島。完整名稱為United States–Mexico–Canada Agreement，末尾A代表Agreement。",
+      "image": "docs/comics/art/q-1121-panel-3.svg",
+      "alt": "新製加拿大完整主體與北方群島圖，含鄰近阿拉斯加/格陵蘭灰色背景。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案：USMCA",
+    "points": [
+      "2018是新協定簽署年；2020年7月1日才生效。三國位置與縮寫對照，不把兩種年份混為一談。"
+    ],
+    "image": "docs/comics/art/q-1121-panel-4.svg",
+    "alt": "新製北美三締約國整體圖，含阿拉斯加及夏威夷範圍；US/M/C及A Agreement完整整合。"
+  },
+  "protectedWords": [
+    "48州",
+    "USMCA",
+    "United States",
+    "Mexico",
+    "Canada",
+    "Agreement",
+    "2020年7月1日"
+  ],
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-16T15:51:21.976879+00:00",
+  "artHashes": {
+    "docs/comics/art/q-1121-panel-1.svg": "437b2d5cf816802b2dc128ed7826ddbce87fd2893af2a0f3b31666485c68ef3e",
+    "docs/comics/art/q-1121-panel-2.svg": "a0d8eb26e1619822f1531bbf6481151b3131ac2f00a49909986871e93de6cf8f",
+    "docs/comics/art/q-1121-panel-3.svg": "92959595daefb7e612b07e31778f861651514c54e3f016029c13b5fa8a3a5af5",
+    "docs/comics/art/q-1121-panel-4.svg": "dbb2c33593ce7d04d62b1bb4f6d562446cc8bf6428961c7e960a09090fa418af"
+  },
+  "supportingSources": [
+    {
+      "url": "https://ustr.gov/issue-areas/industry-manufacturing/industrial-tariffs/free-trade-agreements",
+      "finding": "USMCA2018/11/30簽署，2020/7/1生效；NAFTA1994生效。"
+    },
+    {
+      "url": "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+      "finding": "全名United States-Mexico-Canada Agreement。"
+    }
+  ],
+  "mapData": {
+    "boundaries": ".cache/four-image-maps/ne_10m_admin_0_countries.geojson",
+    "cities": ".cache/four-image-maps/ne_10m_populated_places.geojson",
+    "projection": "north-up equirectangular with standard parallel at view midpoint; aspect preserved in that projection",
+    "simplification": "Sutherland-Hodgman clipping and Douglas-Peucker ≤0.22 native pixel perpendicular error",
+    "borderSHA256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255"
+  },
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-16T15:52:35.603953+00:00",
+  "checkedAt": "2026-11-16T15:54:07.006281+00:00",
+  "previewValidation": "docs/comics/q-1121-preview-validation.json",
+  "visualReview": "真正原卷及已發布本題裁切/必要附圖全部實開；四張不同SVG與1440/1120/390最終成品全部實看。NE真國界/城市點、投影方位、緯線或機制方向逐一核，沒有捏造城市/震央位置或虛構量測資料。四圖實載且單圖完整顯示，繁中/公式/縮寫無保護詞拆行、無溢出。答案預設收合。",
+  "nativeArt": "assets/comics/q-1121-art-437b2d5cf8.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "fourIndependentImagesActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1121-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1121-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1121-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1121-standalone-390.png"
+    ],
+    "note": "已實看正式app/單頁1440與390四成品：US美國本土48州範圍、M墨西哥、C加拿大、三國整合皆不同實界地圖；A Agreement與2018簽/2020生效正確。",
+    "checkedAt": "2026-11-16T15:54:06.986647+00:00"
+  },
+  "validationFile": "docs/comics/q-1121-validation.json"
+}

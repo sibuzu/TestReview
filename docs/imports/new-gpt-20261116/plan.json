@@ -1,7 +1,7 @@
 {
   "kind": "new_source_intake",
-  "state": "awaiting_review",
-  "stage": "authorized_normal_publication",
+  "state": "awaiting_confirmation",
+  "stage": "published_with_pending_review",
   "sourceId": "src-more-071",
   "order": 71,
   "url": "https://chatgpt.com/share/6afb1a9c-4f5c-83e8-becb-a35cb4110073",
@@ -103,9 +103,23 @@
   "acquisition": "docs/acquisition/new-gpt-20261116-71.json",
   "scope": "僅本次第71來源，完整原題/查重/每新原問四張實圖/桌手機QA，root最終審閱後commit與正常push；Agent2/舊重製保持暫停。",
   "worknerd": {
-    "delivered": false,
+    "machine": "worknerd",
+    "projectId": "p_4a0f78c7549748e292dd",
+    "dedupe": "testreview-add-6afb1a9c-20261116",
+    "taskId": "t_dd3192cfec7747108266",
+    "delivered": true,
+    "status": "running",
+    "deliveredAtUnix": 1794845093.918185,
+    "replayedOriginalReport": true,
+    "initialFailure": "service node is not running; original pending report preserved in ignored intake cache",
+    "evidenceOwner": "/root checked actual CLI status delivery after replay",
+    "initialDeliveryState": {
+      "delivered": false,
+      "pendingRecord": ".cache/intake-20261116/pending-worknerd-report.json",
+      "reason": "service node is not running"
+    },
     "pendingRecord": ".cache/intake-20261116/pending-worknerd-report.json",
-    "reason": "service node is not running"
+    "nextReport": "Root will append final review status on this same task after closing push; two original question reviews remain."
   },
   "candidateQuestionIds": [
     "q-1106",
@@ -171,7 +185,7 @@
       "q-1132"
     ]
   },
-  "updatedAt": "2026-11-16T16:03:02.519899+00:00",
+  "updatedAt": "2026-11-16T16:04:35.461880+00:00",
   "fourImageValidatedPendingQuestionIds": [
     "q-1122"
   ],
@@ -179,7 +193,7 @@
     "q-1107",
     "q-1122"
   ],
-  "deliveryState": "complete_with_pending_review",
+  "deliveryState": "published_with_pending_review",
   "validatedFourImageQuestionIds": [
     "q-1106",
     "q-1107",
@@ -229,8 +243,20 @@
   ],
   "newConfirmationCount": 7,
   "publication": {
-    "state": "authorized_pending_root_final_review",
-    "authorization": "User expressly requested this source add plus commit and push; includes current monitor UI change; no deployment."
+    "state": "published",
+    "contentCommit": "448463340fb840f14569b936d83791de2d89324e",
+    "remoteContentCommitVerified": "448463340fb840f14569b936d83791de2d89324e",
+    "acknowledgementBatch": 37,
+    "pendingCompleteEvents": 0,
+    "previouslyCommittedEventsReconciled": 35,
+    "newCompleteEventsAcknowledged": 26,
+    "awaitingWithoutEvent": [
+      "q-1122"
+    ],
+    "receipt": "docs/imports/new-gpt-20261116/publication-reconciliation/acknowledgement.json",
+    "method": "explicitly authorized normal git commit all and push; stable event reconciliation, not an automatic20 batch",
+    "closingMetadataCommit": "This receipt and ledger are committed in the following normal metadata commit.",
+    "verifiedAt": "2026-11-16T16:04:35.461880+00:00"
   },
   "incompleteOriginalTranscription": [
     "q-1107"

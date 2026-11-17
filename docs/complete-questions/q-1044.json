@@ -67,102 +67,46 @@
   "questionFigures": [],
   "explanationFigures": [],
   "teachingComic": {
-    "title": "先看能不能生出長毛，再看比例",
-    "art": "assets/comics/q-1044-art-6c96b0ece1.svg",
+    "title": "長毛子代讓雙親都必須能提供s",
+    "art": "assets/comics/q-1044-art-b06b345dab-web.webp",
     "panels": [
       {
-        "heading": "① 長毛ss，兩個s從雙親各來一個",
-        "text": "長毛是隱性，基因型一定是ss。沒有突變時，一個s來自父方，另一個來自母方，所以雙親都必須能提供s。",
-        "alt": "雙親各提供s的可選取文字路徑，會合成長毛ss子代。",
-        "diagram": {
-          "kind": "paths",
-          "title": "由長毛子代反推配子",
-          "items": [
-            {
-              "label": "父方提供s",
-              "tone": "blue"
-            },
-            {
-              "label": "母方提供s",
-              "tone": "gold"
-            }
-          ],
-          "target": "子代ss｜長毛",
-          "arrow": "兩個s分別來自雙親",
-          "note": "SS親代只能提供S，不能提供s。"
-        }
+        "heading": "① 長毛ss，雙親各提供一個s",
+        "text": "依本題設定，短毛為顯性；長毛豚鼠一定是ss。沒有突變仍出現長毛，雙親都必須能提供s；SS親代無法做到。",
+        "alt": "題設長毛隱性表型：一隻細膩長毛豚鼠插畫，不用毛色表示等位基因。",
+        "caption": "新製科學教材插畫，非原卷或實拍。",
+        "image": "assets/comics/q-1044-art-b06b345dab-web.webp"
       },
       {
-        "heading": "② 四個選項中，只有C能有兩種毛長",
-        "text": "A、B都含SS親代，子代一定短毛；D的子代全是長毛。只有C的Ss × ss能生出Ss短毛和ss長毛，同時符合觀察。",
-        "alt": "比較A/B全部短毛、D全部長毛與C兩種皆可能的可選取結果圖。",
-        "diagram": {
-          "kind": "paths",
-          "title": "把各選項能產生的結果列清楚",
-          "items": [
-            {
-              "label": "A、B｜含SS親代",
-              "detail": "子代均短毛，沒有ss。",
-              "tone": "blue"
-            },
-            {
-              "label": "D｜ss × ss",
-              "detail": "子代均長毛，沒有短毛。",
-              "tone": "gold"
-            },
-            {
-              "label": "C｜Ss × ss",
-              "detail": "可生Ss短毛及ss長毛。",
-              "tone": "green"
-            }
-          ],
-          "target": "C可同時出現短毛、長毛",
-          "arrow": "依兩種毛長是否都可能來篩選"
-        }
+        "heading": "② 選項中，只有C能出現兩種毛長",
+        "text": "C為Ss × ss：可生Ss短毛、ss長毛。圖左短、右長為此組合示意；單看短毛外觀，仍可能是SS或Ss，不能直接斷定。",
+        "alt": "左短毛、右長毛的兩隻親代豚鼠示意；基因型由題目反推而非外觀唯一決定。",
+        "image": "assets/comics/q-1044-panel-2-art-9e3b774413-web.webp"
       },
       {
-        "heading": "③ 理論1：1，不保證每窩恰好各半",
-        "text": "C的短毛、長毛理論機率各為1/2；10隻子代是小樣本，實際8短、2長仍可能。不把觀察到的8：2當作固定遺傳機率。",
-        "alt": "理論各一半與本窩八短二長的可選取比較；明示小樣本不必等於理論比例。",
-        "diagram": {
-          "kind": "paths",
-          "title": "理論機率與一窩實際數量",
-          "items": [
-            {
-              "label": "理論：短毛1/2、長毛1/2",
-              "detail": "每隻子代各有這些機率。",
-              "tone": "blue"
-            },
-            {
-              "label": "本窩：8隻短毛、2隻長毛",
-              "detail": "實際結果會有隨機差異。",
-              "tone": "gold"
-            }
-          ],
-          "target": "1：1不表示每10隻必各5隻",
-          "arrow": "區分機率與小樣本結果"
-        }
+        "heading": "③ 八短二長，是小樣本的實際數量",
+        "text": "新圖前兩排共8隻短毛，末排2隻長毛。C的兩種毛長理論機率各1/2，並不保證10隻必各5隻；實際8：2仍可能。",
+        "alt": "總共十隻豚鼠：第一排四短毛、第二排四短毛、第三排兩長毛，實際逐隻核對。",
+        "image": "assets/comics/q-1044-panel-3-art-d600708367-web.webp"
       }
     ],
     "fourth": {
-      "answer": "答案 C：Ss × ss",
+      "answer": "答案C：Ss × ss",
       "points": [
-        "長毛ss出現，雙親都要能提供s。",
-        "A、B全短毛；D全長毛，均排除。",
-        "C能出現兩種毛長；8：2不要求等於理論1：1。"
-      ]
+        "受精卵示意圖用兩個原核表示雙親各一份遺傳貢獻，顏色為教學區分。長毛ss的兩個s分別來自雙親。",
+        "A、B子代全短毛；D全長毛。只有C能出現兩種毛長；不把8：2當固定遺傳機率。"
+      ],
+      "image": "assets/comics/q-1044-panel-4-art-7a2e33b687-web.webp",
+      "alt": "單一未分裂哺乳類受精卵的兩原核階段示意，兩色區分雙親遺傳來源，非染色體數量圖。"
     },
     "protectedWords": [
       "Ss × ss",
-      "ss × ss",
-      "SS親代",
-      "短毛",
-      "長毛",
-      "理論機率",
-      "小樣本",
-      "1：1",
-      "8：2",
-      "1/2"
+      "SS或Ss",
+      "Ss短毛",
+      "ss長毛",
+      "長毛ss",
+      "1/2",
+      "8：2"
     ]
   }
 }

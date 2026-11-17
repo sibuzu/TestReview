@@ -1,0 +1,99 @@
+{
+  "id": "q-968",
+  "subject": "Biology",
+  "title": "搶食與掠食不同，能量也不全保留",
+  "art": "docs/comics/art/q-968.png",
+  "panels": [
+    {
+      "heading": "① 搶同一份食物，是資源競爭",
+      "text": "題目描述人與獼猴爭奪食物資源，不是獼猴把人當食物。因此人猴間不能判為掠食。",
+      "alt": "壽山森林步道中獼猴伸向遊客的水果，示意競爭食物，沒有捕食人或主動餵食。"
+    },
+    {
+      "heading": "② 人與獼猴仍是消費者",
+      "text": "人給出食物，不會變生產者；獼猴吃剩食，也不會變分解者。圖中能量來源是猴子吃的食物，不是人類本身。",
+      "alt": "獼猴在岩石上吃蘋果，食物是能量來源，人類未被當作獵物。"
+    },
+    {
+      "heading": "③ 食物能量只有部分保留下來",
+      "text": "食物中的能量不會全部變成獼猴的生物量；未消化部分可隨排遺離開，生命活動也使能量轉換並散熱。原題沒有固定比例。",
+      "alt": "獼猴攀樹活動，示意生命活動會利用能量；不以圖示杜撰熱量或固定比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：只能獲得食物部分能量",
+    "points": [
+      "爭取同一食物資源，不等於人猴彼此掠食。",
+      "給食物、吃剩食，不改變消費者角色。",
+      "能量來源是食物，並非人→猴的捕食鏈。"
+    ]
+  },
+  "protectedWords": [
+    "獼猴",
+    "資源競爭",
+    "掠食",
+    "生產者",
+    "消費者",
+    "分解者",
+    "生物量",
+    "固定比例"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-058-question-01-f4be7329dd7d.png"
+    ],
+    "visualChecked": true,
+    "answer": "D",
+    "notes": "本代理已逐題實看真原卷、裁圖及必要照片，讀完題幹、全部選項與共同材料，獨立核生物機制及相關官方/研究資料；來源AI圖不採用。"
+  },
+  "rationale": "本題是人與獼猴爭食及取食後能量利用的情境，新細緻彩色動漫呈現爭同一食物、吃水果、活動；精確角色與能量限制由HTML明示，不把人畫成猴子的獵物、不憑空畫10%比例。",
+  "generationMethod": "built-in image_gen; new text-free detailed anime triptych",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-05T15:11:00.295917+00:00",
+  "artSHA256": "b6d61a0d3156fe479905b44bd0a4976e4bfb3833313048a8174e0d8e05949d2d",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "styleReferences": [
+    "docs/comics/art/q-153.png",
+    "docs/comics/art/q-154.png"
+  ],
+  "promptFile": "docs/comics/q-968-prompt.txt",
+  "checkedAt": "2026-11-05T15:30:41.082422+00:00",
+  "previewValidation": "docs/comics/q-968-preview-validation.json",
+  "visualReview": "已實看新無字動漫原PNG及1440/390四格，搶遊客水果是競爭，能量源為蘋果不是人；消費者、能量部分保留與排遺/散熱限制都對應。三寬PASS，無百分比杜撰。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-968-1440.png",
+      "/tmp/weirugo-comic-previews/q-968-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-968-art-b6d61a0d31-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-968-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-968-validation.json"
+}

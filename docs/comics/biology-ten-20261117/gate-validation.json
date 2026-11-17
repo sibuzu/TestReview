@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-17T03:38:27.145431+00:00",
+  "command": "python3 -m unittest monitor.test_comic_execution monitor.test_comic_pipeline",
+  "passed": 24,
+  "failed": 0,
+  "newBoundaryCoverage": [
+    "exact 10 unique frozen ids and matching active control",
+    "completed ids cannot restart",
+    "ten completed closes even if active flags stale",
+    "paused/finished batches refuse stage/begin/integrated",
+    "missing/mismatched/inflated whitelist fails closed",
+    "claimed handle cannot resume after completion",
+    "wrong priority cannot claim eleventh"
+  ],
+  "initialConfirmationsSHA256": "e50390013ad3350e15343fa4c499687712f29d5b1a6ea3a799bf1973b8ceff60"
+}

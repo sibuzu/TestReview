@@ -1,0 +1,52 @@
+{
+  "id": "q-1144",
+  "candidateId": "q-1144",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-12.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-12-original.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 135,
+    "messageId": "b60c74d5-dc83-44e4-8bd0-5c9b8c5e5ced",
+    "firstQuestionTimestamp": 1794927663.525258,
+    "userText": "23@錯題b→ A",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-12.jpg",
+    "originalSHA256": "d21b173778974c122ecab17f44e0e7e6af72a87769eeb25ca3347437ba100266",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-12.txt",
+    "cropSourceImageIndex": 12,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-12-original.jpg",
+    "cropSHA256": "30c899755eaee6f34cc6e0be51a92d301768e2bc3055da6cab9c3690c3fd7c32",
+    "firstUserTaipei": "2026-11-17T23:01:03.525258+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "new",
+    "basis": "無META exact/similar候選；獨特片語與完整全庫比對未見同題。",
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "30c899755eaee6f34cc6e0be51a92d301768e2bc3055da6cab9c3690c3fd7c32",
+  "scientificHistoricalReview": "馬歇爾、政治協商會議、三人小組都指抗戰勝利後的國共和談。1946年初雖一度達成停戰與部分協議，後來未能維持和平，衝突擴大，四選項以A最符合。A不是說歷次會議從未有任何協議，而是最終調停失敗。B西安事變在1936年，早於馬歇爾來華；C聯俄容共與第一次國共合作在1920年代；D共同抗日屬抗戰開始前後的合作，不能移到抗戰勝利後。引文帶有當時作者的政治立場；照錄用語，不把評價性指控直接當作中立事實。",
+  "supportingSources": [
+    {
+      "title": "Truman Library：Marshall Mission to China 1945-1947（檔案選編）",
+      "url": "https://www.trumanlibrary.gov/library/online-collections/marshall-china",
+      "supports": "調停階段與原始外交檔案。"
+    },
+    {
+      "title": "FRUS 1946v10：調停、初步協議與停戰失敗原始文件集",
+      "url": "https://history.state.gov/historicaldocuments/frus1946v10/comp1",
+      "supports": "曾有協商與停戰但後續失敗，不把A誤教成從未有任何協議。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

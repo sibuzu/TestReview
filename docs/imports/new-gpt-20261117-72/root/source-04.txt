@@ -1,0 +1,115 @@
+user
+29@錯題A→ B
+
+assistant
+## 第29題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 A → 正解 B</badge>
+
+**核心觀念：少年法院負責先行調查；符合刑事追訴條件時，再移送檢察官偵查。**
+
+### 一、原題證據核對
+
+題目描述兩名17歲高中生持折疊刀闖入夾娃娃機店，強迫老闆交出15萬元及手機，涉嫌強盜罪。
+
+關鍵原文：
+
+> 警方依強盜罪移送法辦，經「甲」調查後移送地檢署，「乙」於近日偵查結束並依強盜罪起訴兩位少年。
+
+題目問：「甲」和「乙」分別為何者？
+
+| 選項 | 甲 | 乙 | 判斷 |
+|---|---|---|---|
+| (A) | 少年法庭 | 法官 | <icon name="x" color="danger" inline/> 誤選 |
+| **(B)** | **少年法庭** | **檢察官** | <icon name="check" color="success" inline/> 正確 |
+| (C) | 少年輔導委員會 | 法官 | <icon name="x" color="danger" inline/> |
+| (D) | 少年輔導委員會 | 檢察官 | <icon name="x" color="danger" inline/> |
+
+### 二、精準圖解｜少年刑事案件處理流程
+
+<box border radius="lg" padding={3} gap={1} align="center">
+  <box background="surface-secondary" radius="md" padding={3} width="100%" align="center" gap={1}>
+    <icon name="shield-alert" size="lg"/>
+    **警方**
+    <text size="sm">調查案件、移送少年法院（庭）</text>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(50,110,220,0.09)" radius="md" padding={3} width="100%" align="center" gap={1}>
+    <text weight="medium" color="info">甲：少年法庭</text>
+    <text size="sm">先行調查，符合條件時裁定移送檢察官</text>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(30,145,100,0.09)" radius="md" padding={3} width="100%" align="center" gap={1}>
+    <text weight="medium" color="success">乙：檢察官</text>
+    <text size="sm">偵查犯罪、決定是否起訴</text>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="surface-secondary" radius="md" padding={3} width="100%" align="center" gap={1}>
+    **少年法庭**
+    <text size="sm">受理起訴、審理並依法判決</text>
+  </box>
+</box>
+
+依據《少年事件處理法》第27條及司法院說明，少年法院（庭）對符合條件的少年犯罪案件，裁定移送檢察官偵查；若檢察官提起公訴，案件仍由少年法庭審理。<Cite refs={["turn151275search0","turn151275search2"]}/>
+
+### 三、四選項逐項辨析
+
+**(A) 少年法庭；法官 — 錯誤**
+
+前半段正確，但題目說乙「偵查結束並起訴」。起訴是檢察官的職權，不是法官的職權。
+
+**(B) 少年法庭；檢察官 — 正確**
+
+甲進行少年事件的先行調查，乙負責刑事偵查與起訴，完全符合題目。
+
+**(C) 少年輔導委員會；法官 — 錯誤**
+
+少輔會不是本題負責裁定移送檢察官的司法機關，而且法官不負責起訴。
+
+**(D) 少年輔導委員會；檢察官 — 錯誤**
+
+乙是檢察官沒錯，但甲應是少年法庭，而非少輔會。
+
+### 四、二選一決勝｜A vs. B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" color="danger">A 法官 ✕</text>
+      <icon name="gavel" size="xl" color="secondary"/>
+      **審判者**
+
+      審理案件、作成判決
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" color="success">B 檢察官 ✓</text>
+      <icon name="file-search" size="xl" color="success"/>
+      **偵查及起訴者**
+
+      偵查犯罪、依法提起公訴
+    </box>
+  </grid-item>
+</grid>
+
+**考場10秒判斷法：**
+
+- 看到「偵查結束、提起公訴」→ **檢察官**
+- 看到「審理、判決」→ **法官**
+
+這題不必先背完全部少年事件處理流程，只要抓到「起訴」兩字，就可以直接排除 A、C。
+
+### 五、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與答案 | <icon name="check-circle" color="success" inline/> 已核對，正解 B |
+| P1 四選項辨析 | <icon name="check-circle" color="success" inline/> 完成 |
+| P1 二選一決勝 | <icon name="check-circle" color="success" inline/> A 法官 vs. B 檢察官 |
+| P2 精準圖解 | <icon name="check-circle" color="success" inline/> 流程圖完成 |
+| 法律資料 | 已查核《少年事件處理法》及司法院說明 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 尚無作答過程，無法確定 |
+
+**本題最重要的學習成果：不要把「檢察官起訴」與「法官判決」混為一談。** 這個區別也能應用在一般刑事案件及國中公民的司法制度題。

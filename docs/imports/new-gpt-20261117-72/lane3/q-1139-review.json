@@ -1,0 +1,52 @@
+{
+  "id": "q-1139",
+  "candidateId": "q-1139",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-7.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-07-original.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 75,
+    "messageId": "5605864c-b04d-4fd8-9db0-8470d262204e",
+    "firstQuestionTimestamp": 1794927302.482641,
+    "userText": "4@錯題D→ A",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-7.jpg",
+    "originalSHA256": "1868574efcaf3c9d436e9d799c81eca1996a87699bf25609b034f96de3ecd413",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-07.txt",
+    "cropSourceImageIndex": 7,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-07-original.jpg",
+    "cropSHA256": "4aaa366b095593311c7634444ce897298f81f00cf5b81bffc00ab6eee36386e8",
+    "firstUserTaipei": "2026-11-17T22:55:02.482641+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "new",
+    "basis": "無META exact/similar候選；獨特片語與完整全庫比對未見同題。",
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "4aaa366b095593311c7634444ce897298f81f00cf5b81bffc00ab6eee36386e8",
+  "scientificHistoricalReview": "南滿鐵路柳條湖、瀋陽、東北軍是1931年9月18日九一八事變的明確線索，選A。B為1941年日本攻擊夏威夷珍珠港；C為1932年日本扶植滿洲國，是九一八後的發展；D為1937年7月7日北平附近盧溝橋衝突、全面抗戰開端。原題對不抵抗政策的敘述照錄；解題以可核實的時間、地點與事件辨識，不用單一句話概括當時複雜的指揮責任。",
+  "supportingSources": [
+    {
+      "title": "美國國務院：The Mukden Incident of 1931",
+      "url": "https://history.state.gov/milestones/1921-1936/mukden-incident",
+      "supports": "1931-09-18瀋陽鐵路事件及日本占領滿洲的時間地點。"
+    },
+    {
+      "title": "FRUS：1931-09-19當時電報",
+      "url": "https://history.state.gov/historicaldocuments/frus1931-41v01/d1",
+      "supports": "9月18夜瀋陽附近攻擊的 contemporaneous 史料；不以任一方敘事取代全部責任判斷。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

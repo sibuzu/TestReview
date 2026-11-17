@@ -1,0 +1,142 @@
+{
+  "id": "q-976",
+  "subject": "Biology",
+  "title": "先看增減差，再比較累積總數",
+  "art": "docs/comics/art/q-976.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 兩線是增減來源，不是總數",
+      "text": "實線出生＋遷入使族群增加；虛線死亡＋遷出使族群減少。比較兩者，才知道族群總數正在增加或減少。",
+      "alt": "中文圖表明示出生遷入增加、死亡遷出減少與淨變化，沒有虛構數值。",
+      "diagram": {
+        "kind": "flow",
+        "title": "族群數量的收支",
+        "items": [
+          {
+            "label": "增加項：出生＋遷入",
+            "tone": "green"
+          },
+          {
+            "label": "減少項：死亡＋遷出",
+            "tone": "gold"
+          },
+          {
+            "label": "淨變化＝增加項－減少項",
+            "tone": "blue"
+          }
+        ],
+        "note": "原圖縱軸未給數值、刻度；不自行填入個體數。",
+        "arrow": "合看兩項的差"
+      }
+    },
+    {
+      "heading": "② 甲到乙增加，乙到丙減少",
+      "text": "甲到乙實線較高，族群增加；乙之後虛線較高，族群減少。因此乙最多。丙是否比甲多，需比較先增加、後減少的累積量。",
+      "alt": "甲到乙增加、乙為高峰、乙到丙減少的中文流程，註明B依示意面積估讀。",
+      "diagram": {
+        "kind": "flow",
+        "title": "依時間比較累積變化",
+        "items": [
+          {
+            "label": "甲 → 乙：出生＋遷入較多",
+            "tone": "green",
+            "detail": "族群增加"
+          },
+          {
+            "label": "乙：兩線相交",
+            "tone": "blue",
+            "detail": "三時點中，乙的族群數量最高"
+          },
+          {
+            "label": "乙 → 丙：死亡＋遷出較多",
+            "tone": "gold",
+            "detail": "族群減少"
+          }
+        ],
+        "note": "原卷預期B：乙＞丙＞甲；丙＞甲依示意面積估讀，不能精算。",
+        "arrow": "沿時間往後"
+      }
+    },
+    {
+      "heading": "③ 丙後兩線水平，族群仍減少",
+      "text": "丙後虛線仍高於實線，族群持續減少。乙短暫相交也不足證明達環境負荷量。不能把增減來源趨平，誤讀成總數穩定。",
+      "alt": "中文明示丙之後死亡遷出仍較多，淨變化為負，不能判定達負荷量。",
+      "diagram": {
+        "kind": "flow",
+        "title": "水平的是兩項來源",
+        "items": [
+          {
+            "label": "丙後：死亡＋遷出 ＞ 出生＋遷入",
+            "tone": "gold"
+          },
+          {
+            "label": "淨變化＜0 → 族群總數下降",
+            "tone": "blue"
+          }
+        ],
+        "note": "無確切個體數；環境負荷量須看長期可支持的數量，不能只憑一次交會或兩線趨平。",
+        "arrow": "相減後的結果"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "原卷預期 B：乙＞丙＞甲",
+    "points": [
+      "直接可確定：乙＞甲、乙＞丙。",
+      "丙＞甲依示意面積估讀，不補數值、不假稱精算。",
+      "乙相交、丙兩線水平，都不足以判定達負荷量。"
+    ]
+  },
+  "protectedWords": [
+    "出生＋遷入",
+    "死亡＋遷出",
+    "族群總數",
+    "淨變化",
+    "環境負荷量",
+    "示意面積",
+    "族群數量"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "path": "docs/imports/new-gpt-20261106/biology13-original.jpg",
+    "visualChecked": true
+  },
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "authored native selectable HTML diagrams with Chinese roles, inequalities and action arrows; text-free deterministic SVG fallback; imagegenCalls=0",
+  "rationale": "兩條增減來源線與總數的區別適合精確HTML圖表。保留50年原題及B的面積估讀限制，源AI錯D圖排除。不沿用AI人物圖、不把短暫相等或線水平當環境負荷量。",
+  "supportingSources": [
+    {
+      "title": "OpenStax Biology 2e 45.3 Environmental Limits to Population Growth",
+      "url": "https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth"
+    }
+  ],
+  "artSHA256": "1a96c8dadc3ab29169cf350e2223db01052828396ab24892e6d96ee63a1b38af",
+  "visualChecked": true,
+  "checkedAt": "2026-11-06T14:41:13.607842+00:00",
+  "previewValidation": "docs/comics/q-976-preview-validation.json",
+  "visualReview": "實開兩張原卷及完整裁圖/必要附圖、來源錯D漫畫與自製1440/390圖解；1440/1120/390隔離QA PASS。中文收支、甲乙丙增減、乙最大、丙後仍減少標示清楚，B丙＞甲保留面積估讀限制，不補數值或判達負荷量。全HTML文字可選取，桌機同列等高，手機自然高度，無溢出與受保護詞拆行。",
+  "nativeArt": "assets/comics/q-976-art-1a96c8dadc.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-06T14:41:13.493643+00:00",
+    "reviewerAgent": "/root",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "root實看真正原卷／必要圖、正式app桌手機四格；保留完整原題、全部選項、中文角色與動作及圖形限制。原AI錯誤分別登錄Monitor；未沿用來源AI解說圖。"
+  },
+  "validationFile": "docs/comics/q-976-validation.json"
+}

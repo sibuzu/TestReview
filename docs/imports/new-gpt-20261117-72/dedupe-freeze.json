@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-11-17T16:12:38.135103+00:00",
+  "candidateCount": 24,
+  "newCount": 21,
+  "newQuestionIds": [
+    "q-1133",
+    "q-1134",
+    "q-1135",
+    "q-1136",
+    "q-1137",
+    "q-1138",
+    "q-1139",
+    "q-1140",
+    "q-1142",
+    "q-1144",
+    "q-1145",
+    "q-1146",
+    "q-1148",
+    "q-1149",
+    "q-1150",
+    "q-1151",
+    "q-1152",
+    "q-1153",
+    "q-1154",
+    "q-1155",
+    "q-1156"
+  ],
+  "duplicateMapping": {
+    "q-1141": "q-795",
+    "q-1143": "q-798",
+    "q-1147": "q-804"
+  },
+  "pendingOriginalMaterialQuestionIds": [
+    "q-1153",
+    "q-1154"
+  ],
+  "pendingAnswerQuestionIds": [
+    "q-1135"
+  ],
+  "evidence": [
+    {
+      "path": "docs/imports/new-gpt-20261117-72/root/duplicate-review.json",
+      "sha256": "af37f9ba86798575eea4eb452944b0760e508c5dd22d40dc6cfeb4957d212dde"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261117-72/lane3/manifest.json",
+      "sha256": "975e1d6ef38d6db222104751571828fa3eb9fc84e5412b58e905aa6d30c4826e"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261117-72/lane3/q-795-option-permutation-review.json",
+      "sha256": "6207ff0e9f55e1bf485f6e12b07a9f3b513f0b3032b6e06517e76cd2c8a25502"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261117-72/integrator-original-review.json",
+      "sha256": "5904efdb1600934cc173058698c808722009b4b0724f1530837b3792b0bb868b"
+    }
+  ],
+  "approved": "root explicitly confirmed3 duplicates; integrator independently compared all24 originals and the4 old original materials",
+  "unresolvedMaterialCompletenessDoesNotGrantCompleteEvent": true
+}

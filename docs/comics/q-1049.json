@@ -1,106 +1,87 @@
 {
   "id": "q-1049",
   "subject": "Biology",
-  "title": "海中生活、卵生與體內受精",
-  "art": "docs/comics/art/q-1049-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "title": "三張卡要同時符合：綠蠵龜",
+  "art": "docs/comics/art/q-1049-bio20261117-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent built-in imagegen calls; newly generated high-detail near-realistic science textbook illustrations",
   "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
   "originalMaterialsChecked": true,
   "originalMaterials": [
-    "docs/imports/new-gpt-20261110/q-1049-original.jpg"
+    "site/dist/assets/originals/q-1049-original-bad02a08710f.jpg"
   ],
   "answerCheckedAgainst": "一、三張牌必須同時符合\n本題條件是成體主要生活於水域、卵生、體內受精。綠蠵龜屬爬蟲類，大部分時間生活在海中，體內受精後上岸產卵，符合全部條件，因此選D。卵生描述胚胎發育方式，並不代表一定在體外受精。\n\n二、逐項排除\nA山椒魚不能因名稱有「魚」就當成魚類。國中常見臺灣山椒魚的成體棲於潮濕陸地、溪流附近，繁殖時在水中產卵、體外受精，不符合這組條件。國家公園資料亦明確記錄阿里山山椒魚是體外受精；不能把其他有尾兩生類的體內受精方式概括套給本題山椒魚。\n\nB蚊子雖卵生且體內受精，成體主要活動於陸域及空中；水中生活的是幼生孑孓，不符合「成體主要為水域」。\n\nC小丑魚在水中生活、卵生，但雌魚排卵後雄魚在卵上排精，屬體外受精，不符合第三張牌。\n\nD三項均符合。不要把生存環境、受精位置、產卵地點混成同一個條件，也不要把所有魚類或所有兩生類的生殖方式一概而論。",
-  "rationale": "本題教學重點是反應角色、分類、文字聲韻或精確不等式，以可選取HTML條件圖明示原值、正誤與推理，不沿用來源AI圖。",
+  "rationale": "逐字核對原卷三卡條件、A山椒魚/B蚊子/C小丑魚/D綠蠵龜與已確認D。新圖1核綠蠵龜硬殼/四鰭肢與海草海域；圖2核蚊子成體在水上、幼蟲以呼吸管懸於水面，非把孑孓當成體；圖3核小丑魚附著卵，不把卵生當體內受精；圖4核陸地沙巢圓卵，明示剖面教學圖，體內受精位置由HTML說明，不用畫面臆造。A依既有已核臺灣山椒魚範圍排除，不概括所有有尾兩生類。四張不同獨立新作，皆實看，維持原答案D與題幹。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
   "panels": [
     {
-      "heading": "① 先把三張牌分開",
-      "text": "題目限定成體環境、卵生及體內受精；三者必須同時符合。卵生不等於體外受精。",
-      "alt": "三個獨立條件",
-      "diagram": {
-        "kind": "flow",
-        "title": "三個獨立條件",
-        "items": [
-          {
-            "label": "成體環境",
-            "detail": "主要為水域",
-            "tone": "blue"
-          },
-          {
-            "label": "胚胎發育",
-            "detail": "卵生",
-            "tone": "gold"
-          },
-          {
-            "label": "受精位置",
-            "detail": "體內",
-            "tone": "green"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "① 先看成體：綠蠵龜主要在海中",
+      "text": "原卡限定成體環境。綠蠵龜是海生爬蟲類；山椒魚不因名稱有魚就屬魚類，題示山椒魚也不符合三項。",
+      "image": "docs/comics/art/q-1049-bio20261117-1.png",
+      "alt": "綠蠵龜游於海草床上，四鰭肢與硬殼的細膩科學插畫。",
+      "caption": "新製科學教材插畫，非原卷或實拍。"
     },
     {
-      "heading": "② 別用幼生代替成體",
-      "text": "蚊子水中生活的是幼生，成體不符合；小丑魚雖水生卵生，卻是體外受精。",
-      "alt": "排除B、C",
-      "diagram": {
-        "kind": "flow",
-        "title": "排除B、C",
-        "items": [
-          {
-            "label": "B｜蚊子",
-            "detail": "成體主要在陸域、空中",
-            "tone": "blue"
-          },
-          {
-            "label": "C｜小丑魚",
-            "detail": "體外受精",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "② 蚊子的水生階段是幼蟲",
+      "text": "圖上成蚊停在水面上方，水中的是孑孓。蚊子雖卵生、體內受精，成體卻不符合主要在水域，排除B。",
+      "image": "docs/comics/art/q-1049-bio20261117-2.png",
+      "alt": "成蚊停於水上草莖、兩隻孑孓懸於水面的生態剖面圖，放大示意非同尺度。"
     },
     {
-      "heading": "③ 綠蠵龜三項都符合",
-      "text": "綠蠵龜主要海中生活、體內受精後上岸產卵。山椒魚不以名稱判類，也不套用其他有尾兩生類的受精方式。",
-      "alt": "D逐條核對",
-      "diagram": {
-        "kind": "paths",
-        "title": "D逐條核對",
-        "items": [
-          {
-            "label": "海中生活",
-            "detail": "符合水域",
-            "tone": "blue"
-          },
-          {
-            "label": "上岸產卵",
-            "detail": "符合卵生",
-            "tone": "gold"
-          },
-          {
-            "label": "體內受精",
-            "detail": "符合受精方式",
-            "tone": "green"
-          }
-        ],
-        "arrow": "依條件判斷",
-        "target": "D"
-      }
+      "heading": "③ 小丑魚卵生，但體外受精",
+      "text": "雌小丑魚把卵附著在岩面，雄魚再排精使卵受精。水生與卵生都符合，體內受精這張牌不符，排除C。",
+      "image": "docs/comics/art/q-1049-bio20261117-3.png",
+      "alt": "兩隻小丑魚與附著於岩面的細小卵粒；體外受精由文字解釋。"
     }
   ],
   "fourth": {
-    "answer": "(D) 爬蟲類的綠蠵龜",
+    "answer": "答案D：爬蟲類的綠蠵龜",
     "points": [
-      "綠蠵龜主要在海中生活，體內受精後上岸產卵。",
-      "蚊子要看成體；小丑魚不符合體內受精。",
-      "卵生與受精位置是兩個不同條件。"
-    ]
+      "綠蠵龜主要海中生活、體內受精後上岸產卵，三項均符合。新圖為沙巢剖面教學示意。",
+      "卵生說的是胚胎發育方式，不代表體外受精；產卵地點也不等於受精位置。"
+    ],
+    "image": "docs/comics/art/q-1049-bio20261117-4.png",
+    "alt": "母綠蠵龜在沙灘築巢，沙層剖面示地下圓形卵；非實拍。"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1049-art-193059545b.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "綠蠵龜",
+    "體內受精",
+    "體外受精",
+    "小丑魚",
+    "孑孓"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-ten-20261117/lane3/q-1049-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261117/lane3/q-1049-generation.json",
+  "artHashes": {
+    "docs/comics/art/q-1049-bio20261117-1.png": "d650a9df0d6e57ef317ec662f0cd4af96f3bca6abc0c94c808d48da6e9d2dfea",
+    "docs/comics/art/q-1049-bio20261117-2.png": "6619503c26de5d6b2d2e2da9d8c4a2a27c554d62b7abf37398bc4c623fb99080",
+    "docs/comics/art/q-1049-bio20261117-3.png": "531d85df236e5a7eba84847d1ff3b186a3364c010139110453eb6de348ca7b42",
+    "docs/comics/art/q-1049-bio20261117-4.png": "117ad36315fe59c5b425b684d1fecfef5fe3c70644d85d9488e913c9dbfbe270"
+  },
+  "supportingSources": [
+    {
+      "title": "NOAA Fisheries：Green Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/green-turtle/management"
+    },
+    {
+      "title": "Texas Parks & Wildlife：Green Sea Turtle",
+      "url": "https://tpwd.texas.gov/huntwild/wild/species/greentur/"
+    },
+    {
+      "title": "NOAA proposed rule：orange clownfish eggs externally fertilized",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2015-08-24/pdf/2015-20754.pdf"
+    }
+  ],
+  "createdAt": "2026-11-17T03:48:31.086504+00:00",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-17T03:49:27.559923+00:00",
+  "checkedAt": "2026-11-17T03:51:19.143341+00:00",
+  "previewValidation": "docs/comics/q-1049-preview-validation.json",
+  "visualReview": "Producer actually viewed the original materials, all four new full-size PNGs, and 1440/1120/390 isolated screenshots; distinct scientific illustrations and all explanatory text readable; no clipping or overflow.",
+  "nativeArt": "assets/comics/q-1049-art-d650a9df0d-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -112,26 +93,24 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-10T14:20:26.386715+00:00",
-  "validationFile": "docs/comics/q-1049-validation.json",
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
-    "actualViewed": [
-      "docs/imports/new-gpt-20261110/qa/q-1049-app-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1049-app-390.png",
-      "docs/imports/new-gpt-20261110/qa/q-1049-standalone-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1049-standalone-390.png"
-    ],
-    "comicViews": [
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
       "/tmp/weirugo-comic-checks/q-1049-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1049-app-390.png",
       "/tmp/weirugo-comic-checks/q-1049-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1049-standalone-390.png"
     ],
-    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
-  }
+    "originalMaterials": [
+      "/home/jack/codex-git/TestReview/site/dist/assets/originals/q-1049-original-bad02a08710f.jpg"
+    ],
+    "note": "已核原卷三卡/全部選項/原D與臺灣山椒魚限定。獨立實看4張原尺寸新圖及正式app/單頁桌手機：綠蠵龜硬殼四鰭海草床、成蚊在水上而孑孓呼吸管懸水面、小丑魚岩面附著卵、綠蠵龜上岸沙巢剖面。自然質感與構造可辨，放大及剖面明示非實拍；卵生/體內受精/產卵地分清，不把幼蟲當成體或畫成全部魚內受精，未重開既有確認。",
+    "checkedAt": "2026-11-17T03:51:19.123775+00:00"
+  },
+  "validationFile": "docs/comics/q-1049-validation.json"
 }

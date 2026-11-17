@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-11-17T16:29:41.140386+00:00",
+  "site": {
+    "command": "npm test --prefix site",
+    "passed": 123,
+    "failed": 0
+  },
+  "monitor": {
+    "command": "python3 -m unittest monitor.test_comic_execution monitor.test_comic_pipeline monitor.test_comic_publish monitor.test_comic_queue monitor.test_group_queue monitor.test_new_source_execution monitor.test_parallel_timing monitor.test_rework_status monitor.test_server monitor.test_source_progress",
+    "passed": 95,
+    "failed": 0,
+    "modules": [
+      "monitor.test_comic_execution",
+      "monitor.test_comic_pipeline",
+      "monitor.test_comic_publish",
+      "monitor.test_comic_queue",
+      "monitor.test_group_queue",
+      "monitor.test_new_source_execution",
+      "monitor.test_parallel_timing",
+      "monitor.test_rework_status",
+      "monitor.test_server",
+      "monitor.test_source_progress"
+    ]
+  },
+  "sourceGateAndPipeline": {
+    "command": "python3 -m unittest monitor.test_new_source_execution monitor.test_comic_execution monitor.test_comic_pipeline",
+    "passed": 31,
+    "failed": 0
+  },
+  "qaInitialPendingPages": {
+    "ids": [
+      "q-1135",
+      "q-1153",
+      "q-1154"
+    ],
+    "layoutChecks": 12,
+    "passed": true,
+    "actualWholePageVisuals": [
+      "q-1135-app-390",
+      "q-1153-app-390",
+      "q-1154-app-390"
+    ],
+    "newComicsWereNotYetAttached": true
+  },
+  "initialTestHarnessIncident": "unittest discover -s monitor -t . rejected namespace package (no __init__). Actual explicit module run all10 modules passed95. No product/test fix needed."
+}

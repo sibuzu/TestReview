@@ -1,0 +1,113 @@
+user
+33@錯題D → A
+
+assistant
+## 第33題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 D → 正解 A</badge>
+
+**核心觀念：罷免投票與公民投票的資格規定不完全相同。尤其要注意「受監護宣告者」的投票資格。**
+
+### 一、原題證據核對
+
+題目：
+
+「安安在此次投票日，他領到新北市的罷免票，卻無法領取公投票，最可能的原因為何？」
+
+| 選項 | 原題內容 | 判斷 |
+|---|---|---|
+| **(A)** | **安安是受監護宣告者** | **正確 ✓** |
+| (B) | 安安已滿18歲，未滿20歲 | 錯誤 |
+| (C) | 安安受褫奪公權宣告，尚未復權 | 錯誤 |
+| (D) | 從高雄市遷戶籍到新北市，未滿6個月 | 原選，錯誤 |
+
+### 二、最重要的法律差異
+
+依現行法律：
+
+- **公職人員罷免投票：** 年滿20歲，符合選舉區等資格者，即使受監護宣告，也不因此失去投票權。2023年修法已刪除受監護宣告者不得投票的限制。<Cite refs={["turn649913search1","turn649913search28"]}/>
+- **公民投票：** 年滿18歲，但《公民投票法》第7條仍規定須「未受監護宣告」。<Cite refs={["turn649913search0","turn649913search2"]}/>
+
+### 三、精準圖解｜為什麼可以領罷免票，卻不能領公投票？
+
+<box border radius="lg" padding={3} gap={2}>
+  <box background="surface-secondary" radius="md" padding={3} align="center" gap={1}>
+    **安安：已符合罷免投票資格，但受到監護宣告**
+    <icon name="arrow-down" color="secondary" size="lg"/>
+  </box>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box background="rgba(25,140,95,0.08)" radius="md" padding={3} gap={2} align="center" height="100%">
+        <icon name="vote" color="success" size="2xl"/>
+        **罷免票**
+        <text color="success" weight="medium">可以領取 ✓</text>
+        <text size="xs" color="secondary" textAlign="center">受監護宣告不再是剝奪投票權的原因</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="rgba(200,75,60,0.08)" radius="md" padding={3} gap={2} align="center" height="100%">
+        <icon name="vote" color="danger" size="2xl"/>
+        **公投票**
+        <text color="danger" weight="medium">不能領取 ✕</text>
+        <text size="xs" color="secondary" textAlign="center">現行公投法仍排除受監護宣告者</text>
+      </box>
+    </grid-item>
+  </grid>
+</box>
+
+### 四、二選一決勝｜D 與 A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D 遷戶籍未滿6個月 ✕</text>
+      <text size="sm">新北市罷免投票也有選舉區居住期間的資格限制。</text>
+      <text size="sm">不能單憑遷入未滿6個月，就解釋為何能領罷免票卻不能領公投票。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">A 受監護宣告 ✓</text>
+      <text size="sm">現行罷免投票未因監護宣告而排除投票權。</text>
+      <text size="sm">公民投票仍有「未受監護宣告」的資格要求。</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、其餘選項為什麼不對？
+
+**B：已滿18歲、未滿20歲**
+
+可以符合公投年齡資格，但尚未符合一般公職人員罷免投票的20歲門檻，與題目情況相反。
+
+**C：受褫奪公權宣告**
+
+褫奪公權不等同於監護宣告。現行《刑法》第36條的褫奪公權主要涉及擔任公務員及公職候選人的資格，不能直接套用舊制，認定失去投票權。
+
+### 六、考場快速判斷
+
+<box border radius="lg" padding={3} gap={2}>
+  **罷免投票：20歲以上**
+
+  **公民投票：18歲以上，且未受監護宣告**
+
+  <divider color="subtle"/>
+  <text color="success" weight="medium">受監護宣告 → 仍可能領罷免票，但不能領公投票 → A</text>
+</box>
+
+這題的陷阱是：兩種投票制度都由人民投票決定，但**資格不能直接視為相同**。
+
+### 七、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與四選項 | 已依照片核對 |
+| P0 正確答案 | A，已查核現行法規 |
+| P1 四選項辨析 | 完成 |
+| P1 二選一決勝 | D 遷戶籍 vs. A 監護宣告 |
+| P2 精準圖解 | 已完成 |
+| 法規證據 | 中央選舉委員會、全國法規資料庫 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 無作答過程，不能確定 |
+
+**本題最值得記住：2023年修法後，受監護宣告者已有公職選舉、罷免投票權，但《公民投票法》仍有不同規定。** 這種法律修正前後的差異，不能只依舊課本印象作答。

@@ -2,88 +2,34 @@
   "id": "q-977",
   "subject": "Biology",
   "title": "有光，不等於主要生產者是大型藻類",
-  "art": "docs/comics/art/q-977.svg",
-  "layoutVersion": "native-fluid-v6",
-  "generationMethod": "new native selectable HTML diagram blocks; original ocean cross-section retained as question figure",
+  "art": "docs/comics/art/q-977-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "Four independent built-in image_gen calls; high-quality realistic scientific educational illustrations; exact Chinese in selectable HTML",
   "sourceGeneratedArtUsed": false,
   "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
   "originalMaterialsChecked": true,
-  "rationale": "本題考海洋分區、縱軸意義與生產者分類，用原卷剖面及可選取中文對比圖塊比人物更清楚。甲乙丙丁、200公尺的方向、光照分組與浮游植物均直接寫出，避免來源AI誤選C。沒有沿用來源AI圖，沒有新增無證據的離岸距離或章節。",
+  "rationale": "依原題保留已核答案與解說，將舊圖升級為四張細膩類真實生物教材插畫。科學構造與物種關係逐圖核對，精確標示另置HTML，不將插畫當原卷或實拍。",
   "panels": [
     {
       "heading": "① 看光照：甲、乙、丁一組",
       "text": "甲在外海表層，乙在大陸棚淺海，丁是潮間帶，均有可供一般光合作用的光照；丙在較深處，陽光不足。",
-      "alt": "可選取中文標示甲外海表層、乙大陸棚淺海、丁潮間帶屬有光一組，丙深層光照不足一組。",
-      "diagram": {
-        "kind": "paths",
-        "title": "依原圖的光照條件分組",
-        "items": [
-          {
-            "label": "甲、乙、丁｜有足夠光照",
-            "detail": "甲：外海表層；乙：大陸棚淺海；丁：潮間帶。",
-            "tone": "green"
-          },
-          {
-            "label": "丙｜較深處，陽光不足",
-            "detail": "不足以支持一般光合作用。",
-            "tone": "blue"
-          }
-        ],
-        "target": "透光分類：甲、乙、丁／丙",
-        "arrow": "比較一般光合作用所需的光照",
-        "note": "依本題簡化示意分組，不把約200公尺當所有海域完全無光的固定界線。"
-      }
+      "alt": "明亮海面、淺海與潮間帶及深藍海洋深處的類真實剖面",
+      "image": "docs/comics/art/q-977-panel-1.png",
+      "caption": "新製海洋剖面：左上甲外海表層、右側乙淺海與丁潮間帶有光；左下丙較深處光照不足。生物及深度不按比例。"
     },
     {
       "heading": "② 看單位：200公尺是水深",
       "text": "原圖縱軸寫深度，200公尺指從海面向下的水深。沒有提供離岸200公尺的界線，不能拿它當岸邊距離分類。",
-      "alt": "中文依序標示縱軸深度、公尺、垂直水深200公尺，並明示不是水平離岸距離。",
-      "diagram": {
-        "kind": "flow",
-        "title": "B把兩種距離混淆",
-        "items": [
-          {
-            "label": "原圖縱軸：深度（公尺）",
-            "detail": "由海面往下量，方向是垂直。",
-            "tone": "blue"
-          },
-          {
-            "label": "200公尺＝圖上的水深",
-            "detail": "不等於從岸邊向外量200公尺。",
-            "tone": "gold"
-          },
-          {
-            "label": "圖未提供離岸200公尺分界",
-            "detail": "不能據此把甲丙、乙丁分組。",
-            "tone": "purple"
-          }
-        ],
-        "arrow": "讀取軸名、方向與單位"
-      }
+      "alt": "垂直白色水深箭頭與海岸剖面",
+      "image": "docs/comics/art/q-977-panel-2.png",
+      "caption": "白色雙向箭頭由海面向下表示垂直水深；本題200公尺不是水平離岸距離。新製圖無精確比例，數值以原卷為準。"
     },
     {
       "heading": "③ 看生產者：甲以浮游植物為要角",
       "text": "甲有光，但重要生產者是浮游植物。乙、丁可有大型藻類，不能把甲、乙、丁都當成以大型藻類為主要生產者。",
-      "alt": "中文比較甲外海表層重要生產者浮游植物與乙丁淺海潮間帶可有大型藻類，箭頭指向有光不等於主要是大型藻類的結論。",
-      "diagram": {
-        "kind": "paths",
-        "title": "C把有光與大型藻類混為一談",
-        "items": [
-          {
-            "label": "甲｜外海表層",
-            "detail": "重要生產者：浮游植物。",
-            "tone": "blue"
-          },
-          {
-            "label": "乙、丁｜淺海與潮間帶",
-            "detail": "可有大型藻類生長。",
-            "tone": "green"
-          }
-        ],
-        "target": "有光 ≠ 主要生產者都是大型藻類",
-        "arrow": "比較生產者，排除C",
-        "note": "D也不成立：丙缺乏足夠陽光，丁潮間帶反而可以有綠藻。"
-      }
+      "alt": "細膩矽藻及甲藻放大圖對比淺海附著大型藻",
+      "image": "docs/comics/art/q-977-panel-3.png",
+      "caption": "主圖為放大的浮游植物；右下另示附著淺海岩石的大型藻類。放大尺寸不代表兩者實際大小。"
     }
   ],
   "fourth": {
@@ -91,8 +37,12 @@
     "points": [
       "甲、乙、丁有可供一般光合作用的光照；丙不足。",
       "200公尺是水深，不是離岸距離。",
-      "甲的重要生產者為浮游植物，不能用大型藻類把甲、乙、丁全包。"
-    ]
+      "甲的重要生產者為浮游植物，不能用大型藻類把甲、乙、丁全包。",
+      "新製潮間帶綠藻與潮池；外海浮游植物另以放大框表示。有光與主要生產者種類須分別判斷。"
+    ],
+    "image": "docs/comics/art/q-977-panel-4.png",
+    "alt": "潮間帶綠藻、潮池及浮游植物放大框",
+    "caption": "新製潮間帶綠藻與潮池；外海浮游植物另以放大框表示。有光與主要生產者種類須分別判斷。"
   },
   "protectedWords": [
     "浮游植物",
@@ -104,7 +54,7 @@
     "主要生產者"
   ],
   "createdAt": "2026-11-06T14:34:49.235034+00:00",
-  "artSHA256": "711e171c341f32ccc07efa37a077de53e9da3d5113e70ea9324e53a7285386d0",
+  "artSHA256": "fff5b3f18d8cb77df01ff9aedb0ef8c4ad5bcd4059e53e99be0994bb7189865d",
   "supportingSources": [
     {
       "title": "NOAA：海洋光照與分層",
@@ -119,11 +69,26 @@
   ],
   "sourceReview": "docs/imports/new-gpt-20261106/biology29-review.json",
   "visualChecked": true,
-  "checkedAt": "2026-11-06T14:41:13.701336+00:00",
   "previewValidation": "docs/comics/q-977-preview-validation.json",
-  "visualReview": "實開原卷、共同材料／本題／海洋圖三張裁切及來源錯C漫畫；實看1440與390隔離新四格，全中文標明甲乙丁有光／丙光照不足、200公尺是垂直水深而非離岸距離、甲浮游植物對比乙丁可有大型藻。A正確且未沿用錯C圖。1440/1120/390均無溢出，四格順序、同行高度及手機自然高度正確。",
   "sourceAIErrorActuallyViewed": true,
-  "nativeArt": "assets/comics/q-977-art-711e171c34.svg",
+  "producerAgent": "/root",
+  "scientificArtwork": true,
+  "artworkIsNewTeachingIllustration": true,
+  "artworkGenerationBatch": "docs/comics/biology-ten-20261117/root-imagegen-records.json",
+  "reworkedAt": "2026-11-17T03:41:07.692128+00:00",
+  "checkedAt": "2026-11-17T03:44:44.364691+00:00",
+  "visualReview": "Root實開原卷海洋剖面/完整四選項、品質參考與4張新圖；海岸右/外海左、甲表層乙淺海丁潮間帶有光與丙深處缺光、白箭頭垂直水深、浮游植物放大與附著大型藻區別正確。實看隔離1440/390，4獨立圖無裁掉關鍵構造、文字完整、桌機同列等高與手機自然高度。原A與完整原題照留，未沿用舊AI圖。",
+  "producerReview": {
+    "reviewerAgent": "/root",
+    "originalCropsActuallyViewed": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-977-1440.png",
+      "/tmp/weirugo-comic-previews/q-977-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-977-art-fff5b3f18d-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -136,13 +101,25 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "checkedAt": "2026-11-06T14:41:13.493643+00:00",
-    "reviewerAgent": "/root",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
     "visualChecked": true,
-    "decision": "complete",
-    "note": "root實看真正原卷／必要圖、正式app桌手機四格；保留完整原題、全部選項、中文角色與動作及圖形限制。原AI錯誤分別登錄Monitor；未沿用來源AI解說圖。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-977-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-977-app-390.png",
+      "/tmp/weirugo-comic-checks/q-977-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-977-standalone-390.png"
+    ],
+    "originalMaterials": [
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-977-common-original.png",
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-977-question-original.png",
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-977-ocean-original.png"
+    ],
+    "note": "已實開共同原卷/剖面/四選項，獨立實看4張原尺寸新圖及正式app/單頁1440/390。甲外海表層/乙淺海/丁潮間帶可透光，丙較深處光不足；垂直箭頭非離岸距離、浮游植物放大與附著大型藻不同，無光不等於無生物。四圖細緻類真實，中文caption對應，非原卷或實拍；保留A與200公尺教材近似限制。",
+    "checkedAt": "2026-11-17T03:44:44.345227+00:00"
   },
   "validationFile": "docs/comics/q-977-validation.json"
 }

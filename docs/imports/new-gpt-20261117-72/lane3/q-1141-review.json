@@ -1,0 +1,64 @@
+{
+  "id": "q-1141",
+  "candidateId": "q-1141",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-9.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-09-original.jpg",
+    "site/dist/assets/questions/q-795-original.png",
+    "site/dist/assets/questions/q-795-figure-original.png"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 99,
+    "messageId": "67a0318c-607a-4966-93f1-7b35b5d081f8",
+    "firstQuestionTimestamp": 1794927441.970937,
+    "userText": "15@錯題D→ B",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-9.jpg",
+    "originalSHA256": "a9786defec5d1c45e176293e0b3ceeb6a2f961bb6ba267d96f89d57ba32aaf69",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-09.txt",
+    "cropSourceImageIndex": 9,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-09-original.jpg",
+    "cropSHA256": "9785b8092ff018aa4202698165f740ee26277e9f92646c5c2c07894ba3468432",
+    "firstUserTaipei": "2026-11-17T22:57:21.970937+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "duplicate",
+    "basis": "題幹、四選項集合與三段條約材料相同；只有B/C調序，人工對照保留原題q795的C，不新增。",
+    "existingId": "q-795",
+    "earliestDate": "2026-10-29",
+    "newSource": "https://chatgpt.com/share/6afc7636-b8dc-83ec-a9de-c3ac330e5d27",
+    "oldSource": "https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4",
+    "fullComparison": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/q-795-option-permutation-review.json",
+    "newToExistingOptionMapping": {
+      "A": "A",
+      "B": "C",
+      "C": "B",
+      "D": "D"
+    },
+    "oldOriginals": [
+      "site/dist/assets/questions/q-795-original.png",
+      "site/dist/assets/questions/q-795-figure-original.png"
+    ],
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "9785b8092ff018aa4202698165f740ee26277e9f92646c5c2c07894ba3468432",
+  "scientificHistoricalReview": "節錄三次提到英王放棄在中國通商口岸、上海廈門公共租界特別法院及海關總稅務司任用方面的條約特權，符合1943年1月11日簽訂的中英平等新約及換文，選B。中國在1941年12月9日已正式對日宣戰，時間早於新約，所以D的先簽約換宣戰因果不合。A1842年南京條約是戰後的不平等條約，與本題放棄特權方向相反；C開羅會議在1943年11月，並非本項雙邊條約。原圖『公共租借特別法院』字樣照錄，官方文本作『公共租界』，在說明中釐清不擅改原卷。",
+  "supportingSources": [
+    {
+      "title": "全國法規資料庫：1943中英新約換文",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=Y0030029",
+      "supports": "1943-01-11簽換、05-20生效；原段三項放棄條約特權及官方租界用字。"
+    }
+  ],
+  "materialNote": "原印公共租借（借字）；官方條約換文為公共租界，需保留原字並在解說釐清。",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

@@ -20,6 +20,10 @@ def build_rework_status(root, data, progress):
     if not path.is_file():
         return None
     plan = json.loads(path.read_text(encoding='utf-8'))
+    control = plan.get('executionControl', {})
+    batch_path = root / control.get('limitedBatch', 'missing-batch.json')
+    batch = json.loads(batch_path.read_text()) if batch_path.is_file() else {}
+    active_ids = set(batch.get('questionIds', [])) if batch.get('state') == 'active' else set()
     questions, parents = {}, {}
     for page in data.get('questions', []):
         for question in page.get('groupQuestions') or [page]:
@@ -39,7 +43,7 @@ def build_rework_status(root, data, progress):
             row['completed' if complete else 'pending'] += 1
             items.append(dict(id=qid, title=question.get('title', entry.get('title', qid)),
                               subject=subject, subjectName=SUBJECTS.get(subject, subject),
-                              state='complete' if complete else 'paused',
+                              state='complete' if complete else 'active' if qid in active_ids else 'paused',
                               url='/site/index.html#question/' + parents.get(qid, entry['id'])))
     reassess = []
     for entry in progress.get('entries', []):
@@ -62,9 +66,16 @@ def build_rework_status(root, data, progress):
                 completed=completed, pending=pending, reassess=len(reassess),
                 total=completed + pending, unit='原問', subjects=rows,
                 biologyPending=biology['pending'], otherPending=pending - biology['pending'],
+                activeBatch=dict(limit=batch.get('limit'),
+                                 completed=len(batch.get('completedQuestionIds', [])),
+                                 state=batch.get('state'),
+                                 remaining=sum(q['state'] == 'active' for q in items)) if batch else None,
                 biologyResumeCommand=plan.get('executionControl', {}).get('biologyResumePhrase')
                     or '將生物的舊解說圖改為精美解說圖',
                 otherResumeCommand='繼續非生物圖解重製，只處理監看頁的待重製清單',
                 reassessCommand='重新檢視並補製 ' + '、'.join(r['id'] for r in reassess) + ' 的四張圖解',
                 items=items, reassessItems=reassess, plan=PLAN,
-                note='按原問計數，題組內每一小題各算一題；草稿與待驗收圖不計已完成。新來源製圖另列，不會恢復這份暫停清單。')
+                note='按原問計數，題組內每一小題各算一題；草稿與待驗收圖不計已完成。'
+                     + (' 本批生物10題、40張圖已完成驗收並停止；其餘重製維持暫停。' if batch.get('state') == 'complete'
+                        else ' 本批只恢復生物10題，每題4圖，完成10題即停；其餘重製維持暫停。' if batch
+                        else '新來源製圖另列，不會恢復這份暫停清單。'))

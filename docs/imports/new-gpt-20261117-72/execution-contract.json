@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "gate": "monitor/new-source-authorization.json",
+  "frozenScope": "docs/imports/new-gpt-20261117-72/execution-scope.json",
+  "mutableCompletion": "docs/imports/new-gpt-20261117-72/execution-progress.json",
+  "initialState": "blocked",
+  "initialNewQuestionIds": [],
+  "activationRequirements": [
+    "root original download and actual visual verification completed",
+    "all downloadedImages present; expected count/bytes/SHA/dimensions/decoded/archiveSizeMatched verified",
+    "cross-source duplicate review completed",
+    "freeze only genuinely new permanent IDs larger than baseline max, disjoint from all old rework IDs",
+    "set acquisitionSHA256 to final acquisition file digest; scopeSHA256 to final frozen scope digest",
+    "set execution-progress state active and pointer state active only after above",
+    "Acquisition may be docs/acquisition or inside this same frozen intake directory; sibling/source paths denied."
+  ],
+  "completionProtocol": "After actual verified integrated success append qid once to completedQuestionIds; at source finish close pointer and execution-progress. Completed qid cannot be re-integrated by this exception.",
+  "oldBiologyControl": "untouched; biology_limited remains completed and paused",
+  "oldScopeStillPaused": {
+    "biology": 19,
+    "nonBiology": 46,
+    "agent2": true
+  },
+  "baselinePendingPublicationEvents": 10,
+  "publicationThreshold": 20,
+  "tests": {
+    "command": "python3 -m unittest monitor.test_new_source_execution monitor.test_comic_execution monitor.test_comic_pipeline",
+    "passed": 31,
+    "failed": 0
+  },
+  "noNewOriginalContentInspected": true,
+  "queuePriority": "paused rework priorities are ignored; only current active priority-source whitelist is claimable through guard"
+}

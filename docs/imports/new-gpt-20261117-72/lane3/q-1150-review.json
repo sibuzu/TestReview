@@ -1,0 +1,52 @@
+{
+  "id": "q-1150",
+  "candidateId": "q-1150",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-18.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-18-original.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 207,
+    "messageId": "844fc713-434f-4022-a844-48dbad0695dd",
+    "firstQuestionTimestamp": 1794928118.787582,
+    "userText": "6@錯題A → B",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-18.jpg",
+    "originalSHA256": "008d0adfda1a74419b2cc0aeb76c28875c6937fef5d2bfbe10bf3a39d81c40c6",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-18.txt",
+    "cropSourceImageIndex": 18,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-18-original.jpg",
+    "cropSHA256": "58b6acd633be99ba8d7923f1341692f7c55feadc9743dff4d266f5c32a14fa74",
+    "firstUserTaipei": "2026-11-17T23:08:38.787582+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "new",
+    "basis": "無META exact/similar候選；獨特片語與完整全庫比對未見同題。",
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "58b6acd633be99ba8d7923f1341692f7c55feadc9743dff4d266f5c32a14fa74",
+  "scientificHistoricalReview": "1969、尼克森及盟國更多自行承擔地面防衛責任，指尼克森主義與越戰越南化，選B。美國逐步撤減地面兵力、由南越承擔更多戰鬥，同時提供支援。A韓戰主要1950至1953，C戰後國共內戰主要1946至1949，D六四1989，都不符合1969政策背景。原題「不再派遣」照錄為教材概括；不能擴大解釋成1969立即停止一切海外軍事介入或當時立刻撤完，尼克森任內仍有空襲及跨境軍事行動。",
+  "supportingSources": [
+    {
+      "title": "FRUS：1969-07-25關島尼克森主義說明",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v01/d29",
+      "supports": "關島談話日期與政策內容。"
+    },
+    {
+      "title": "美國陸軍：Nixon Doctrine and Vietnamization",
+      "url": "https://www.army.mil/article-amp/3867/nixon_doctrine_and_vietnamization",
+      "supports": "越戰中南越更多承擔地面軍力、美軍撤減與訓練援助。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

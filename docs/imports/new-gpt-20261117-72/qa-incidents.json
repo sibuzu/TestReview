@@ -1,0 +1,8 @@
+[
+  {
+    "stage": "source72 pending art QA preparation",
+    "failure": "Task-local job lookup used direct jobId access on historical legacy jobs lacking that optional field. It stopped before attachment or mutation.",
+    "response": "Use get(jobId) for targeted lookup; retain legacy job records unchanged. Re-run source72 pending art preparation only.",
+    "questionId": "q-1135"
+  }
+]

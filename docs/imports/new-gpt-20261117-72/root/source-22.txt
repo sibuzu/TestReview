@@ -1,0 +1,120 @@
+user
+35@錯題B → A
+
+assistant
+## 第35題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 B → 正解 A</badge>
+
+**核心觀念：區域立法委員可以被選民依法罷免，但全國不分區立法委員不適用罷免制度。**
+
+### 一、原題證據核對
+
+題目：
+
+「上文中，被提案罷免的中央民意代表最有可能是下列何者？」
+
+| 選項 | 原題內容 | 判斷 |
+|---|---|---|
+| **(A)** | **區域立委** | <icon name="check-circle" color="success" inline/> 正確 |
+| (B) | 全國不分區立委 | <icon name="x-circle" color="danger" inline/> 原選 |
+| (C) | 直轄市市議員 | <icon name="x-circle" color="danger" inline/> |
+| (D) | 經由政黨票選舉產生的立委 | <icon name="x-circle" color="danger" inline/> |
+
+題目有兩個關鍵條件：
+
+1. **中央民意代表**：指向立法委員。
+2. **被提案罷免**：必須是依法可以罷免的立委類型。
+
+因此選 **A 區域立委**。
+
+### 二、精準圖解｜立委種類與罷免資格
+
+<box border radius="lg" padding={3} gap={2}>
+  <box background="surface-secondary" radius="md" padding={3} align="center" gap={1}>
+    **中央民意代表：立法委員**
+    <icon name="git-fork" color="secondary" size="lg"/>
+  </box>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box border={{size:1,color:"rgba(30,140,90,0.4)"}} background="rgba(30,140,90,0.07)" radius="md" padding={3} gap={2} align="center" height="100%">
+        <icon name="vote" color="success" size="xl"/>
+        **區域立委**
+        <text color="success" weight="medium" size="sm">可以依法罷免 ✓</text>
+        <text size="xs" textAlign="center">由選舉區選民選出，也由符合資格的原選舉區選民依法罷免</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box border radius="md" background="surface-secondary" padding={3} gap={2} align="center" height="100%">
+        <icon name="list" color="secondary" size="xl"/>
+        **不分區立委**
+        <text color="danger" weight="medium" size="sm">不適用罷免 ✕</text>
+        <text size="xs" textAlign="center">由政黨票依得票比例分配席次，不適用個人罷免制度</text>
+      </box>
+    </grid-item>
+  </grid>
+</box>
+
+《公職人員選舉罷免法》第75條明定，全國不分區及僑居國外國民立法委員的當選人，不適用罷免規定。<Cite refs={["turn630859search2","turn630859search4"]}/>
+
+### 三、四選項逐項辨析
+
+**(A) 區域立委 — 正確**
+
+區域立委是中央民意代表，也屬於依法可以被選民提出罷免的公職人員。
+
+**(B) 全國不分區立委 — 錯誤**
+
+雖然同樣是中央民意代表，但法律明定不分區立委不適用罷免制度。
+
+**(C) 直轄市市議員 — 錯誤**
+
+市議員屬於地方民意代表，雖然可以依法罷免，但不符合題目的「中央民意代表」。
+
+**(D) 經由政黨票選舉產生的立委 — 錯誤**
+
+指的就是不分區立委，因此與 B 一樣，不適用罷免。
+
+### 四、二選一決勝｜B 與 A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">B 不分區立委 ✕</text>
+      **政黨票選出**
+
+      <text size="sm">符合中央民意代表，但不符合可被罷免的條件。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">A 區域立委 ✓</text>
+      **選區選民選出**
+
+      <text size="sm">同時符合中央民意代表、可以被依法罷免兩項條件。</text>
+    </box>
+  </grid-item>
+</grid>
+
+### 五、考場10秒判斷
+
+**中央民意代表＋可以罷免 → 區域立委（A）。**
+
+不要只看到「立委」就認為所有類型的立委都可以罷免。
+
+這題可以沿用第33題的判斷方式：**先確認是哪一種政治制度，再查核適用資格**，不能把不同制度混在一起。
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與四選項 | 已依照片核對 |
+| P0 答案 | A，現行法律支持 |
+| P1 四選項辨析 | 完成 |
+| P1 二選一決勝 | B 不分區 vs. A 區域 |
+| P2 精準比較圖 | 完成 |
+| 法律證據 | 已查核《公職人員選舉罷免法》 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 缺少作答思路，無法確定 |
+
+**這題最值得記住：區域立委與不分區立委都是中央民意代表，但只有前者適用罷免制度。**

@@ -1,0 +1,153 @@
+{
+  "id": "q-967",
+  "subject": "Biology",
+  "title": "比受益、受害，找差異最大的關係",
+  "art": "docs/comics/art/q-967-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 題幹：白蟻與鞭毛蟲都受益",
+      "text": "依題幹設定，鞭毛蟲協助消化木材、提供養分；白蟻提供棲所與食物來源。雙方受益，是互利共生。",
+      "alt": "白蟻與鞭毛蟲各自得到的利益及＋／＋明確標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "題幹｜互利共生（＋／＋）",
+        "items": [
+          {
+            "label": "白蟻｜受益＋",
+            "tone": "green",
+            "detail": "獲得可利用的養分。"
+          },
+          {
+            "label": "鞭毛蟲｜受益＋",
+            "tone": "green",
+            "detail": "獲得棲所與食物來源。"
+          }
+        ],
+        "target": "雙方受益",
+        "arrow": "合併雙方結果"
+      }
+    },
+    {
+      "heading": "② B寄生：一方受益、一方受害",
+      "text": "冬蟲夏草菌從蝙蝠蛾幼蟲取得養分，幼蟲受害。這是寄生，和雙方受益的反差最大。",
+      "alt": "真菌受益＋、幼蟲受害－及寄生關係直接標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "B｜寄生（＋／－）",
+        "items": [
+          {
+            "label": "冬蟲夏草菌｜受益＋",
+            "tone": "blue",
+            "detail": "由幼蟲取得養分。"
+          },
+          {
+            "label": "蝙蝠蛾幼蟲｜受害－",
+            "tone": "gold",
+            "detail": "受感染、被利用養分。"
+          }
+        ],
+        "target": "與互利共生的差異最大",
+        "arrow": "比較利害方向"
+      }
+    },
+    {
+      "heading": "③ A不同但非最大；C、D仍互利",
+      "text": "附生蘭花受益，大樹通常無明顯影響，是片利共生。珊瑚與藻類、螞蟻與蚜蟲，在本題都依互利模型判斷。",
+      "alt": "A片利＋／0、C-D互利＋／＋以文字列出，符號有圖例。",
+      "diagram": {
+        "kind": "paths",
+        "title": "其餘三個選項",
+        "items": [
+          {
+            "label": "A｜蘭花＋／大樹0",
+            "tone": "blue",
+            "detail": "片利共生：一方受益，另一方無明顯影響。"
+          },
+          {
+            "label": "C｜石珊瑚＋／藻類＋",
+            "tone": "green",
+            "detail": "共生藻提供養分，珊瑚提供棲所等。"
+          },
+          {
+            "label": "D｜螞蟻＋／蚜蟲＋",
+            "tone": "green",
+            "detail": "螞蟻取得蜜露，蚜蟲獲得保護。"
+          }
+        ],
+        "target": "不是只找不同，要比差異最大",
+        "arrow": "與題幹利害關係比較"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：冬蟲夏草菌與蝙蝠蛾幼蟲",
+    "points": [
+      "＋受益；－受害；0無明顯影響。",
+      "題幹互利＋／＋，B寄生＋／－反差最大。",
+      "A雖非互利，但反差不如一方受害。"
+    ]
+  },
+  "protectedWords": [
+    "白蟻",
+    "鞭毛蟲",
+    "互利共生",
+    "片利共生",
+    "冬蟲夏草菌",
+    "蝙蝠蛾幼蟲",
+    "螞蟻與蚜蟲",
+    "差異最大"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-058-question-08-1d9d9d5bcd6f.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看真原卷、裁圖及必要照片，讀完題幹、全部選項與共同材料，獨立核生物機制及相關官方/研究資料；來源AI圖不採用。"
+  },
+  "rationale": "本題比較物種間的＋／＋、＋／0、＋／－，採有中文角色與符號圖例的HTML關係圖，讓受益/受害精確可核，不由生圖猜白蟻腸內機制。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-05T15:08:38.621821+00:00",
+  "artSHA256": "3d82e61fb188c3693e890d6caf6152f4432ec8845b228777877b6112a6806ba4",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-05T15:30:41.062068+00:00",
+  "previewValidation": "docs/comics/q-967-preview-validation.json",
+  "visualReview": "已實看最終1440/390成品，白蟻/鞭毛蟲、菌/幼蟲、蘭花/樹、珊瑚/藻、螞蟻/蚜蟲均有中文利害標示與＋－0圖例；B反差最大不誤把A完全相同。三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-967-1440.png",
+      "/tmp/weirugo-comic-previews/q-967-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-967-art-3d82e61fb1.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-967-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-967-validation.json"
+}

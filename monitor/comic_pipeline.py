@@ -62,7 +62,7 @@ def active_priority(root):
         path = root/'monitor'/filename
         if path.exists():
             priority = load(path)
-            if priority.get('state') not in ('complete', 'cancelled'):
+            if priority.get('state') not in ('complete', 'cancelled', 'paused'):
                 return priority
     return None
 
@@ -156,6 +156,10 @@ def claim(root, lane):
         pipeline = load(root/'docs/comics/pipeline.json')
         existing = next((j for j in pipeline['jobs'] if j['lane'] == lane and j['state'] == 'claimed'), None)
         if existing:
+            try:
+                assert_work_allowed(root, existing['id'])
+            except ValueError:
+                return None
             return existing
         configuration = load(root/'monitor/parallel.json')
         lane_configuration = next((item for item in configuration.get('lanes', []) if item['lane'] == lane), {})
@@ -182,6 +186,10 @@ def claim(root, lane):
             entries = [dict(e, state='reserved') if e['id'] not in allowed and e['state']=='queued' else e for e in entries]
         candidate = next_entry([dict(e, state='reserved') if e['id'] in reserved else e for e in entries])
         if not candidate:
+            return None
+        try:
+            assert_work_allowed(root, candidate['id'])
+        except ValueError:
             return None
         job = dict(id=candidate['id'], title=candidate['title'], subject=candidate['subject'], lane=lane,
                    state='claimed', startedAt=now())

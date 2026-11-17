@@ -1,0 +1,57 @@
+{
+  "id": "q-1149",
+  "candidateId": "q-1149",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-17.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-17-original.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 195,
+    "messageId": "16aedce9-ba25-43d2-ab58-1004732183fd",
+    "firstQuestionTimestamp": 1794928036.353722,
+    "userText": "5@錯題A → B",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-17.jpg",
+    "originalSHA256": "feabf259595f05d2c6c8c24a6bf0530cb3dc771b9194f673856d242e5c8edc95",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-17.txt",
+    "cropSourceImageIndex": 17,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-17-original.jpg",
+    "cropSHA256": "a19c6af4136e99be144310ea7a1cb691eeb74c6395fe017b1c4036d940ef1d33",
+    "firstUserTaipei": "2026-11-17T23:07:16.353722+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "new",
+    "basis": "無META exact/similar候選；獨特片語與完整全庫比對未見同題。",
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "a19c6af4136e99be144310ea7a1cb691eeb74c6395fe017b1c4036d940ef1d33",
+  "scientificHistoricalReview": "丙列參議院、臨時大總統、國務院、法院及責任內閣制，是1912年《中華民國臨時約法》；甲三民主義、五權憲法、國民黨以黨治國與民主訓練，是1931年《訓政時期約法》；乙主權在民、人民權利義務、中央地方及基本國策，是1946年制定、1947年公布施行的《中華民國憲法》。故先後為丙→甲→乙，選B。A將丙放最後、C把憲法放訓政之前、D把1912放1931後，都與實際年代不合。",
+  "supportingSources": [
+    {
+      "title": "國史館：1912臨時約法與1914新約法沿革",
+      "url": "https://ahdas.drnh.gov.tw/docs/zong/024.pdf",
+      "supports": "1912-03-11臨時約法與責任內閣制度年代。"
+    },
+    {
+      "title": "訓政約法原件國寶指定公告",
+      "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg022077/ch05/type3/gov46/num17/OEg.pdf",
+      "supports": "1931訓政約法。"
+    },
+    {
+      "title": "總統府：憲法本文",
+      "url": "https://www.president.gov.tw/Page/94",
+      "supports": "1946-12-25制定、1947-01-01公布、1947-12-25施行。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

@@ -1,0 +1,134 @@
+[message 65, user]
+3@錯題B→ D
+
+[message 66, system]
+
+
+[message 67, system]
+
+
+[message 68, system]
+
+
+[message 69, assistant]
+
+
+[message 70, tool]
+The output of this plugin was redacted.
+
+[message 71, tool]
+The output of this plugin was redacted.
+
+[message 72, assistant]
+
+
+[message 73, assistant]
+
+
+[message 74, assistant]
+## 第3題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 B → 正解 D</badge>
+
+**核心觀念：1931年（民國20年）是國民政府的「訓政時期」，當時實施以國民黨為政治領導核心的訓政體制。**
+
+### 一、原題核對
+
+題目：「附表為民國20年5月國民政府制定的某部法律特色介紹。根據表中內容判斷，該法律應為下列何者？」
+
+附表有三個關鍵：
+
+- 政權：國民黨全國代表大會行使統治權。
+- 組閣權：中國國民黨中央執行委員會選任國府委員。
+- 釋法權：國民黨中央執行委員會解釋約法。
+
+| 選項 | 法律名稱 | 判斷 |
+|---|---|---|
+| (A) | 《中華民國約法》 | 錯誤 |
+| (B) | 《中華民國臨時約法》 | 原選，錯誤 |
+| (C) | 《中華民國憲法草案》 | 錯誤 |
+| **(D)** | **《中華民國訓政時期約法》** | **正確** |
+
+國史館記載，《中華民國訓政時期約法》於1931年5月12日制定，同年6月1日公布施行，與題目的時間吻合。<Cite ref="turn398141search3"/>
+
+### 二、精準時間軸｜四種憲政文件
+
+<box border radius="lg" padding={3} gap={3}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      **1912年｜《中華民國臨時約法》**
+
+      <text color="secondary" size="sm">民國初年，確立共和與責任內閣制等制度設計。</text>
+    </list-item>
+    <list-item>
+      **1914年｜《中華民國約法》**
+
+      <text color="secondary" size="sm">袁世凱時期，加強總統權力。</text>
+    </list-item>
+    <list-item>
+      <box background="rgba(20,145,100,0.08)" padding={2} radius="md" gap={1}>
+        **1931年｜《訓政時期約法》 ✓**
+        <text size="sm">國民黨主導訓政體制，符合本題附表。</text>
+      </box>
+    </list-item>
+    <list-item>
+      **1936年｜《中華民國憲法草案》（五五憲草）**
+
+      <text color="secondary" size="sm">為日後正式制定憲法的草案。</text>
+    </list-item>
+    <list-item>
+      **1946～1947年｜《中華民國憲法》**
+
+      <text color="secondary" size="sm">1946年制定，1947年施行。</text>
+    </list-item>
+  </list>
+</box>
+
+### 三、二選一決勝｜B 與 D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">B 臨時約法 ✕</text>
+      <title size="lg" color="default" tabularNums>1912</title>
+      <text size="sm">民國元年</text>
+      <text color="secondary" size="xs">中華民國成立初期，與題目的國民黨訓政體制不符。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">D 訓政時期約法 ✓</text>
+      <title size="lg" color="default" tabularNums>1931</title>
+      <text size="sm">民國20年</text>
+      <text color="secondary" size="xs">國民黨行使中央統治權，完全符合附表。</text>
+    </box>
+  </grid-item>
+</grid>
+
+考場只要抓住兩個證據：
+
+**民國20年＋國民黨行使統治權 → 訓政時期約法（D）。**
+
+### 四、為什麼不是其他選項？
+
+(A)《中華民國約法》是1914年袁世凱時期的文件，與國民黨訓政無關。
+
+(B)《中華民國臨時約法》制定於1912年，屬民國初年的制度。
+
+(C)《中華民國憲法草案》並不是1931年的訓政時期約法；常考的五五憲草公布於1936年。
+
+(D)《中華民國訓政時期約法》正確，並可由1931年日期與附表的國民黨權力安排雙重確認。<Cite refs={["turn398141search3","turn398141search11"]}/>
+
+### 五、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與答案 | 已核對，D |
+| P1 四選項辨析 | 完成 |
+| P1 二選一決勝 | B（1912）與 D（1931） |
+| P2 精準圖解 | 已提供時間軸 |
+| 外部史料 | 已查核國史館、司法院資料 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 無作答過程，無法確定 |
+
+**這題最重要的考場技巧：歷史制度題不要只看「約法」兩字，要同時比對「年代」與「權力掌握在誰手中」。**

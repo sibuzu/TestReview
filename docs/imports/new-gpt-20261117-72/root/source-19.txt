@@ -1,0 +1,277 @@
+user
+13@錯題D → B
+
+assistant
+## 第13題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 D → 正解 B</badge>
+
+**核心觀念：非洲的自然環境決定傳統農牧業的分布，其中最重要的因素是「雨量多寡」。**
+
+### 一、原題證據核對
+
+題目：
+
+「非洲大陸的傳統農牧業和自然環境的關係相當大，各地主要的生活型態分布如圖（九）所示。造成其差異的最主要因素為下列何者？」
+
+| 選項 | 內容 | 判斷 |
+|---|---|---|
+| (A) | 氣溫高低 | 錯誤 |
+| **(B)** | **雨量多寡** | **正確** |
+| (C) | 溫差大小 | 錯誤 |
+| (D) | 降雨類型 | 原選，錯誤 |
+
+從原圖可以看到：
+
+- 撒哈拉沙漠：以游牧為主。
+- 熱帶莽原：以游耕、游牧、採集等活動為主。
+- 剛果盆地附近的熱帶雨林：以游耕、採集、漁獵等活動為主。
+- 地中海型氣候區：發展地中海型農業。
+
+這些活動的分布，主要受不同地區**降水量與乾濕程度**影響。
+
+
+
+assistant
+## 第13題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 D → 正解 B</badge>
+
+**核心觀念：非洲的自然環境決定傳統農牧業的分布，其中最重要的因素是「雨量多寡」。**
+
+### 一、原題證據核對
+
+題目：
+
+「非洲大陸的傳統農牧業和自然環境的關係相當大，各地主要的生活型態分布如圖（九）所示。造成其差異的最主要因素為下列何者？」
+
+| 選項 | 內容 | 判斷 |
+|---|---|---|
+| (A) | 氣溫高低 | 錯誤 |
+| **(B)** | **雨量多寡** | **正確** |
+| (C) | 溫差大小 | 錯誤 |
+| (D) | 降雨類型 | 原選，錯誤 |
+
+從原圖可以看到：
+
+- 撒哈拉沙漠：以游牧為主。
+- 熱帶莽原：以游耕、游牧、採集等活動為主。
+- 剛果盆地附近的熱帶雨林：以游耕、採集、漁獵等活動為主。
+- 地中海型氣候區：發展地中海型農業。
+
+這些活動的分布，主要受不同地區**降水量與乾濕程度**影響。
+
+### 二、精準圖解｜雨量如何影響生活型態？
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium" textAlign="center">非洲降雨量與傳統農牧業的關係</text>
+  <grid columns={3} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={2} gap={1} align="center" height="100%">
+        <icon name="sun" color="secondary" size="xl"/>
+        **雨量少**
+        <text size="xs" textAlign="center">沙漠、乾燥草原</text>
+        <text size="sm" weight="medium" textAlign="center">游牧、綠洲農業</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="rgba(204,151,46,0.09)" radius="md" padding={2} gap={1} align="center" height="100%">
+        <icon name="cloud-sun" color="secondary" size="xl"/>
+        **雨量中等**
+        <text size="xs" textAlign="center">熱帶莽原</text>
+        <text size="sm" weight="medium" textAlign="center">農牧混合、游耕</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="rgba(25,145,95,0.09)" radius="md" padding={2} gap={1} align="center" height="100%">
+        <icon name="cloud-rain" color="success" size="xl"/>
+        **雨量多**
+        <text size="xs" textAlign="center">熱帶雨林</text>
+        <text size="sm" weight="medium" textAlign="center">游耕、採集等</text>
+      </box>
+    </grid-item>
+  </grid>
+  <row align="center" justify="between">
+    <text color="secondary" size="xs">乾燥</text>
+    <box flex="1" padding={{x:2}}>
+      <svg viewBox="0 0 280 18" width="100%" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="rain13" x1="0" x2="1">
+            <stop offset="0%" stopColor="#d5a45b"/>
+            <stop offset="50%" stopColor="#8cc49c"/>
+            <stop offset="100%" stopColor="#258768"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="5" width="270" height="8" rx="4" fill="url(#rain13)"/>
+        <path d="M265 1 L279 9 L265 17 Z" fill="#258768"/>
+      </svg>
+    </box>
+    <text color="secondary" size="xs">濕潤</text>
+  </row>
+  <caption>此圖為概念比較，並非固定雨量門檻；實際農牧業仍受雨季長短、土壤及地形等因素影響。<Cite refs={["turn176015search0","turn176015search11"]}/></caption>
+</box>
+
+### 三、四個選項逐項辨析
+
+**(A) 氣溫高低 — 錯誤**
+
+非洲大部分地區位於熱帶，雖有高山及南北溫度差異，但題圖呈現的農牧活動分布，主要不能以氣溫解釋。
+
+**(B) 雨量多寡 — 正確**
+
+不同降雨量影響植被、水源和耕作條件，進而影響農耕、放牧及採集活動。<Cite refs={["turn176015search1","turn176015search2"]}/>
+
+**(C) 溫差大小 — 錯誤**
+
+溫差會影響生活環境，但不是此圖傳統農牧業分布差異的主要因素。
+
+**(D) 降雨類型 — 錯誤**
+
+降雨類型可指對流雨、地形雨等降水形成方式，或不同的季節分布特徵；但本題比較的是各地水分充足程度如何影響生活型態，因此應選 B。
+
+### 四、二選一決勝｜D vs. B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D 降雨類型 ✕</text>
+      <icon name="cloud-lightning" color="secondary" size="xl"/>
+      <text size="sm">重點是「雨怎麼形成、何時下」。</text>
+      <text color="secondary" size="xs">不能直接解釋圖中主要的乾濕分布差異。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B 雨量多寡 ✓</text>
+      <icon name="cloud-rain" color="success" size="xl"/>
+      <text size="sm">重點是「水夠不夠」。</text>
+      <text color="secondary" size="xs">影響草木生長、農業與牲畜放牧條件。</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場10秒判斷：**
+
+看到「沙漠游牧、莽原農牧、雨林游耕」，先比較水源與植被條件 → **雨量多寡（B）**。
+
+### 五、v2.1 品質檢核
+
+| 項目 | 狀態 |
+|---|---|
+| P0 原題及四選項 | 已依照片核對 |
+| P0 正確答案 | B，與地理原理一致 |
+| P1 二選一決勝 | D 降雨類型 vs. B 雨量多寡 |
+| P2 精準圖解 | 已提供乾濕梯度比較 |
+| 外部證據 | 已查核聯合國糧農組織資料 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 未提供作答過程，不能確定 |
+
+**本題最值得記住：非洲傳統農牧業的分布，優先看「水有多少」，而不是只看「雨怎麼下」。**
+
+assistant
+### 二、精準圖解｜雨量如何影響生活型態？
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium" textAlign="center">非洲降雨量與傳統農牧業的關係</text>
+  <grid columns={3} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={2} gap={1} align="center" height="100%">
+        <icon name="sun" color="secondary" size="xl"/>
+        **雨量少**
+        <text size="xs" textAlign="center">沙漠、乾燥草原</text>
+        <text size="sm" weight="medium" textAlign="center">游牧、綠洲農業</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="rgba(204,151,46,0.09)" radius="md" padding={2} gap={1} align="center" height="100%">
+        <icon name="cloud-sun" color="secondary" size="xl"/>
+        **雨量中等**
+        <text size="xs" textAlign="center">熱帶莽原</text>
+        <text size="sm" weight="medium" textAlign="center">農牧混合、游耕</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="rgba(25,145,95,0.09)" radius="md" padding={2} gap={1} align="center" height="100%">
+        <icon name="cloud-rain" color="success" size="xl"/>
+        **雨量多**
+        <text size="xs" textAlign="center">熱帶雨林</text>
+        <text size="sm" weight="medium" textAlign="center">游耕、採集等</text>
+      </box>
+    </grid-item>
+  </grid>
+  <row align="center" justify="between">
+    <text color="secondary" size="xs">乾燥</text>
+    <box flex="1" padding={{x:2}}>
+      <svg viewBox="0 0 280 18" width="100%" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="rain13" x1="0" x2="1">
+            <stop offset="0%" stopColor="#d5a45b"/>
+            <stop offset="50%" stopColor="#8cc49c"/>
+            <stop offset="100%" stopColor="#258768"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="5" width="270" height="8" rx="4" fill="url(#rain13)"/>
+        <path d="M265 1 L279 9 L265 17 Z" fill="#258768"/>
+      </svg>
+    </box>
+    <text color="secondary" size="xs">濕潤</text>
+  </row>
+  <caption>此圖為概念比較，並非固定雨量門檻；實際農牧業仍受雨季長短、土壤及地形等因素影響。<Cite refs={["turn176015search0","turn176015search11"]}/></caption>
+</box>
+
+### 三、四個選項逐項辨析
+
+**(A) 氣溫高低 — 錯誤**
+
+非洲大部分地區位於熱帶，雖有高山及南北溫度差異，但題圖呈現的農牧活動分布，主要不能以氣溫解釋。
+
+**(B) 雨量多寡 — 正確**
+
+不同降雨量影響植被、水源和耕作條件，進而影響農耕、放牧及採集活動。<Cite refs={["turn176015search1","turn176015search2"]}/>
+
+**(C) 溫差大小 — 錯誤**
+
+溫差會影響生活環境，但不是此圖傳統農牧業分布差異的主要因素。
+
+**(D) 降雨類型 — 錯誤**
+
+降雨類型可指對流雨、地形雨等降水形成方式，或不同的季節分布特徵；但本題比較的是各地水分充足程度如何影響生活型態，因此應選 B。
+
+### 四、二選一決勝｜D vs. B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">D 降雨類型 ✕</text>
+      <icon name="cloud-lightning" color="secondary" size="xl"/>
+      <text size="sm">重點是「雨怎麼形成、何時下」。</text>
+      <text color="secondary" size="xs">不能直接解釋圖中主要的乾濕分布差異。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B 雨量多寡 ✓</text>
+      <icon name="cloud-rain" color="success" size="xl"/>
+      <text size="sm">重點是「水夠不夠」。</text>
+      <text color="secondary" size="xs">影響草木生長、農業與牲畜放牧條件。</text>
+    </box>
+  </grid-item>
+</grid>
+
+**考場10秒判斷：**
+
+看到「沙漠游牧、莽原農牧、雨林游耕」，先比較水源與植被條件 → **雨量多寡（B）**。
+
+### 五、v2.1 品質檢核
+
+| 項目 | 狀態 |
+|---|---|
+| P0 原題及四選項 | 已依照片核對 |
+| P0 正確答案 | B，與地理原理一致 |
+| P1 二選一決勝 | D 降雨類型 vs. B 雨量多寡 |
+| P2 精準圖解 | 已提供乾濕梯度比較 |
+| 外部證據 | 已查核聯合國糧農組織資料 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 未提供作答過程，不能確定 |
+
+**本題最值得記住：非洲傳統農牧業的分布，優先看「水有多少」，而不是只看「雨怎麼下」。**

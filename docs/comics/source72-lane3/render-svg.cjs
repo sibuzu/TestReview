@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path'),{chromium}=require(path.resolve(__dirname,'../../../.cache/qa-tools/node_modules/playwright'));
+const root=path.resolve(__dirname,'../../..');
+(async()=>{const b=await chromium.launch();try{let p=await b.newPage({viewport:{width:640,height:640}});for(const f of process.argv.slice(2)){await p.goto('file://'+path.resolve(root,f));await p.evaluate(()=>document.fonts.ready);let out=path.join(root,'.cache/source72-lane3-svg',path.basename(f)+'.png');fs.mkdirSync(path.dirname(out),{recursive:true});await p.screenshot({path:out});console.log(out);}}finally{await b.close()}})();

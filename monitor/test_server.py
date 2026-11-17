@@ -87,6 +87,23 @@ class MonitorTest(unittest.TestCase):
     def test_current_new_sources_absent_without_assignment_plan(self):
         self.assertIsNone(server.build_status(self.root)['newSources'])
 
+    def test_reshared_source_counts_only_assigned_new_questions_for_artwork(self):
+        self.write('monitor/active-source-plan.json', {'path': 'docs/imports/reshare.json'})
+        self.write('docs/imports/reshare.json', {'expectedOriginalQuestions': 1, 'sources': [
+            {'key': 'reshare', 'batch': 'gpt', 'suggestedOrder': 3,
+             'url': 'https://example.com/3', 'expectedOriginalQuestions': 1,
+             'questionIds': ['q-002']}]})
+        self.write('docs/imports/more-gpt-progress.json', {'sources': [
+            self.source(3, 'partial', questionIds=['q-001', 'q-002'], archiveImages=2)]})
+        result = server.build_status(self.root)['newSources']
+        self.assertEqual(result['published'], 1)
+        self.assertEqual(result['originalsPublished'], 1)
+        self.assertEqual(result['originalsExpected'], 1)
+        self.assertEqual(result['sources'][0]['questionIds'], ['q-002'])
+        self.assertEqual(result['imagesExpected'], 2)
+        self.assertEqual(result['awaitingConfirmation'], 1)
+        self.assertFalse(result['complete'])
+
     def test_active_gpt_assignment_does_not_read_same_order_gemini(self):
         self.write('monitor/active-source-plan.json', {'path': 'docs/imports/current-gpt.json'})
         self.write('docs/imports/current-gpt.json', {'sources': [

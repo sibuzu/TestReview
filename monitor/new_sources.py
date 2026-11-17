@@ -43,6 +43,10 @@ def current_sources(root, source_rows, questions, entries, confirmations, paths,
         source_id = source.get('sourceId') or item.get('sourceId') or f'src-gemini-more-{item["suggestedOrder"]:03d}'
         ids = (set(source.get('questionIds', [])) |
                {q['id'] for q in questions if q.get('sourceId') == source_id}) & published
+        # A re-shared source can cover canonical old questions as well as new
+        # ones. Only its explicitly assigned new questions need new artwork.
+        if isinstance(item.get('questionIds'), list):
+            ids.intersection_update(item['questionIds'])
         all_ids.update(ids)
         original_ids = {child['id'] for qid in ids
                         for child in (by_id[qid].get('groupQuestions') or [by_id[qid]])}

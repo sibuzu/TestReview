@@ -1,0 +1,253 @@
+[message 195, user]
+5@錯題A → B
+
+[message 196, system]
+
+
+[message 197, system]
+
+
+[message 198, system]
+
+
+[message 199, assistant]
+## 第5題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 A → 正解 B</badge>
+
+**核心觀念：中華民國憲政發展的順序是「臨時約法 → 訓政時期約法 → 中華民國憲法」。**
+
+### 一、原題證據核對
+
+題目提供三部法令的內容簡介，要求判斷它們出現的先後順序。
+
+| 法令 | 題目中的關鍵線索 | 對應時期 |
+|---|---|---|
+| 甲 | 三民主義、五權憲法、暫由國民黨以黨治國 | 1931年訓政時期約法 |
+| 乙 | 主權在民、人民權利義務、中央與地方權力區分 | 1946年制定的中華民國憲法 |
+| 丙 | 參議院、臨時大總統、國務院、法院、責任內閣制 | 1912年中華民國臨時約法 |
+
+因此正確順序是：
+
+**丙 → 甲 → 乙**
+
+| 選項 | 排列 | 判斷 |
+|---|---|---|
+| (A) | 甲乙丙 | <icon name="x" color="danger" inline/> 原選 |
+| **(B)** | **丙甲乙** | <icon name="check" color="success" inline/> **正確** |
+| (C) | 丙乙甲 | <icon name="x" color="danger" inline/> |
+| (D) | 甲丙乙 | <icon name="x" color="danger" inline/> |
+
+
+
+[message 200, assistant]
+
+
+[message 201, tool]
+The output of this plugin was redacted.
+
+[message 202, tool]
+The output of this plugin was redacted.
+
+[message 203, assistant]
+
+
+[message 204, assistant]
+
+
+[message 205, assistant]
+## 第5題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 A → 正解 B</badge>
+
+**核心觀念：中華民國憲政發展的順序是「臨時約法 → 訓政時期約法 → 中華民國憲法」。**
+
+### 一、原題證據核對
+
+題目提供三部法令的內容簡介，要求判斷它們出現的先後順序。
+
+| 法令 | 題目中的關鍵線索 | 對應時期 |
+|---|---|---|
+| 甲 | 三民主義、五權憲法、暫由國民黨以黨治國 | 1931年訓政時期約法 |
+| 乙 | 主權在民、人民權利義務、中央與地方權力區分 | 1946年制定的中華民國憲法 |
+| 丙 | 參議院、臨時大總統、國務院、法院、責任內閣制 | 1912年中華民國臨時約法 |
+
+因此正確順序是：
+
+**丙 → 甲 → 乙**
+
+| 選項 | 排列 | 判斷 |
+|---|---|---|
+| (A) | 甲乙丙 | <icon name="x" color="danger" inline/> 原選 |
+| **(B)** | **丙甲乙** | <icon name="check" color="success" inline/> **正確** |
+| (C) | 丙乙甲 | <icon name="x" color="danger" inline/> |
+| (D) | 甲丙乙 | <icon name="x" color="danger" inline/> |
+
+### 二、精準時間軸｜三部法令的先後順序
+
+<box border radius="lg" padding={3} gap={2}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      <box background="rgba(40,110,200,0.08)" radius="md" padding={3} gap={1}>
+        <row justify="between" align="center">
+          **丙｜1912年**
+          <badge>最早</badge>
+        </row>
+        **《中華民國臨時約法》**
+
+        <text size="sm">民國初期，採責任內閣制，限制總統權力。</text>
+      </box>
+    </list-item>
+    <list-item>
+      <box background="rgba(210,145,45,0.08)" radius="md" padding={3} gap={1}>
+        **甲｜1931年**
+
+        **《中華民國訓政時期約法》**
+
+        <text size="sm">國民黨主導訓政，以黨治國，準備逐步走向憲政。</text>
+      </box>
+    </list-item>
+    <list-item>
+      <box background="rgba(25,140,95,0.08)" radius="md" padding={3} gap={1}>
+        **乙｜1946～1947年**
+
+        **《中華民國憲法》**
+
+        <text size="sm">1946年制定，1947年施行，規範人民權利義務及中央、地方政府組織。</text>
+      </box>
+    </list-item>
+  </list>
+  <text color="success" weight="medium" textAlign="center">丙 → 甲 → 乙 = B</text>
+</box>
+
+以上年代與內容可由立法院憲政史料、國史館及總統府資料交叉核對。<Cite refs={["turn905028search13","turn905028search6","turn905028search3"]}/>
+
+### 三、二選一決勝｜A 與 B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">A 甲乙丙 ✕</text>
+      <text size="sm" weight="medium">1931 → 1946 → 1912</text>
+      <text size="sm">把最早的臨時約法放到最後，年代順序錯誤。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B 丙甲乙 ✓</text>
+      <text size="sm" weight="medium">1912 → 1931 → 1946</text>
+      <text size="sm">符合民國初期、訓政、憲政的發展順序。</text>
+    </box>
+  </grid-item>
+</grid>
+
+其餘兩個選項也可排除：C 把1946年的憲法放在1931年的訓政時期約法之前；D 把1931年的訓政時期約法放在1912年的臨時約法之前。
+
+### 四、考場快速判斷
+
+只要辨識三個最重要的關鍵詞：
+
+- **臨時大總統＋責任內閣** → 丙，1912年。
+- **國民黨以黨治國** → 甲，1931年。
+- **主權在民＋人民權利義務** → 乙，1946年制定的憲法。
+
+**先找最早的「丙」，就能直接排除 A、D；再確認甲早於乙，就能從 B、C 選出 B。**
+
+### 五、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與答案 | 通過，正解 B |
+| P1 四選項辨析 | 完成 |
+| P1 A、B 決勝 | 完成 |
+| P2 時間軸 | 完成 |
+| 官方史料 | 已查核 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 未提供作答過程，無法判定 |
+
+**本題與前面「民國20年訓政時期約法」的第3題是相同概念的延伸。** 這次只需要把已學過的1931年定位在1912年與1946年之間，就能選對，不必額外背一整套憲政史。
+
+[message 206, assistant]
+### 二、精準時間軸｜三部法令的先後順序
+
+<box border radius="lg" padding={3} gap={2}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      <box background="rgba(40,110,200,0.08)" radius="md" padding={3} gap={1}>
+        <row justify="between" align="center">
+          **丙｜1912年**
+          <badge>最早</badge>
+        </row>
+        **《中華民國臨時約法》**
+
+        <text size="sm">民國初期，採責任內閣制，限制總統權力。</text>
+      </box>
+    </list-item>
+    <list-item>
+      <box background="rgba(210,145,45,0.08)" radius="md" padding={3} gap={1}>
+        **甲｜1931年**
+
+        **《中華民國訓政時期約法》**
+
+        <text size="sm">國民黨主導訓政，以黨治國，準備逐步走向憲政。</text>
+      </box>
+    </list-item>
+    <list-item>
+      <box background="rgba(25,140,95,0.08)" radius="md" padding={3} gap={1}>
+        **乙｜1946～1947年**
+
+        **《中華民國憲法》**
+
+        <text size="sm">1946年制定，1947年施行，規範人民權利義務及中央、地方政府組織。</text>
+      </box>
+    </list-item>
+  </list>
+  <text color="success" weight="medium" textAlign="center">丙 → 甲 → 乙 = B</text>
+</box>
+
+以上年代與內容可由立法院憲政史料、國史館及總統府資料交叉核對。<Cite refs={["turn905028search13","turn905028search6","turn905028search3"]}/>
+
+### 三、二選一決勝｜A 與 B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">A 甲乙丙 ✕</text>
+      <text size="sm" weight="medium">1931 → 1946 → 1912</text>
+      <text size="sm">把最早的臨時約法放到最後，年代順序錯誤。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B 丙甲乙 ✓</text>
+      <text size="sm" weight="medium">1912 → 1931 → 1946</text>
+      <text size="sm">符合民國初期、訓政、憲政的發展順序。</text>
+    </box>
+  </grid-item>
+</grid>
+
+其餘兩個選項也可排除：C 把1946年的憲法放在1931年的訓政時期約法之前；D 把1931年的訓政時期約法放在1912年的臨時約法之前。
+
+### 四、考場快速判斷
+
+只要辨識三個最重要的關鍵詞：
+
+- **臨時大總統＋責任內閣** → 丙，1912年。
+- **國民黨以黨治國** → 甲，1931年。
+- **主權在民＋人民權利義務** → 乙，1946年制定的憲法。
+
+**先找最早的「丙」，就能直接排除 A、D；再確認甲早於乙，就能從 B、C 選出 B。**
+
+### 五、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與答案 | 通過，正解 B |
+| P1 四選項辨析 | 完成 |
+| P1 A、B 決勝 | 完成 |
+| P2 時間軸 | 完成 |
+| 官方史料 | 已查核 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 未提供作答過程，無法判定 |
+
+**本題與前面「民國20年訓政時期約法」的第3題是相同概念的延伸。** 這次只需要把已學過的1931年定位在1912年與1946年之間，就能選對，不必額外背一整套憲政史。

@@ -1,0 +1,149 @@
+{
+  "id": "q-965",
+  "subject": "Biology",
+  "title": "基本循環中，哪些角色不一定另有？",
+  "art": "docs/comics/art/q-965-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 生產者：提供有機養分",
+      "text": "依本題模型，生產者將太陽能轉為化學能，製造有機養分，是食物來源的基礎。",
+      "alt": "太陽能輸入、生產者製造有機養分，角色與動作均有中文。",
+      "diagram": {
+        "kind": "flow",
+        "title": "養分與能量的來源",
+        "items": [
+          {
+            "label": "太陽能",
+            "tone": "gold",
+            "detail": "本題生產者利用的能量來源。"
+          },
+          {
+            "label": "生產者",
+            "tone": "green",
+            "detail": "製造有機養分，儲存化學能。"
+          }
+        ],
+        "arrow": "生產者轉換能量"
+      }
+    },
+    {
+      "heading": "② 分解者：讓物質可再利用",
+      "text": "分解者分解遺體等有機物，使無機養分回到環境，能再供生產者利用。清除者的協助不能取代這個功能。",
+      "alt": "生物遺體經分解者轉成無機養分、供生產者再利用的流程。",
+      "diagram": {
+        "kind": "flow",
+        "title": "物質循環的重要步驟",
+        "items": [
+          {
+            "label": "生物遺體等有機物",
+            "tone": "blue"
+          },
+          {
+            "label": "分解者",
+            "tone": "blue",
+            "detail": "分泌酵素分解、吸收利用。"
+          },
+          {
+            "label": "無機養分",
+            "tone": "green",
+            "detail": "回到環境，再供生產者吸收。"
+          }
+        ],
+        "arrow": "分解與回收物質"
+      }
+    },
+    {
+      "heading": "③ 消費者與清除者，不一定另有",
+      "text": "在這個基本循環中，不一定另需取食其他生物的消費者或協助處理遺體的清除者，因此選B。",
+      "alt": "消費者與清除者的功能及本題必要性直接標示，未把清除者當分解者。",
+      "diagram": {
+        "kind": "paths",
+        "title": "B的兩個角色",
+        "items": [
+          {
+            "label": "消費者",
+            "tone": "blue",
+            "detail": "取食其他生物。"
+          },
+          {
+            "label": "清除者",
+            "tone": "gold",
+            "detail": "取食或處理遺體，協助分解。"
+          }
+        ],
+        "target": "基本循環不一定另需這兩類",
+        "arrow": "對照生產與分解功能"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：消費者、清除者",
+    "points": [
+      "本題基本功能：製造養分＋分解回收。",
+      "清除者協助分解，不能取代分解者。",
+      "清除者也是一類消費者，四欄功能非全互斥。"
+    ]
+  },
+  "protectedWords": [
+    "生產者",
+    "消費者",
+    "分解者",
+    "清除者",
+    "有機養分",
+    "無機養分",
+    "物質循環"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-058-question-06-c97502986d93.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看真原卷、裁圖及必要照片，讀完題幹、全部選項與共同材料，獨立核生物機制及相關官方/研究資料；來源AI圖不採用。"
+  },
+  "rationale": "本題要辨四種功能及基本物質循環，採可選取中文HTML角色/物質/作用流程，直接看見能量來源與物質回收，避免生圖猜分類或只用顏色代表角色。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-05T15:07:12.603769+00:00",
+  "artSHA256": "eb53cbb0e3ded725647b49c0286cceeedacb1437acaace9d2553a42bdc8d32bb",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-05T15:30:41.021526+00:00",
+  "previewValidation": "docs/comics/q-965-preview-validation.json",
+  "visualReview": "已實看1440/390成品；太陽能輸入、生產者/分解者與有機/無機物質回收角色直接標示。第四格B消費者清除者、不把清除者當分解者，四欄非全互斥限制清楚。三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-965-1440.png",
+      "/tmp/weirugo-comic-previews/q-965-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-965-art-eb53cbb0e3.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-965-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-965-validation.json"
+}

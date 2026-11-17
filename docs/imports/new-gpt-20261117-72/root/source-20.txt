@@ -1,0 +1,225 @@
+user
+15@錯題C → B
+
+assistant
+## 第15題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 C → 正解 B</badge>
+
+**核心觀念：ISIS（伊斯蘭國）曾占領伊拉克北部地區；當地難民往歐洲逃難時，土耳其是重要的通道。**
+
+### 一、原題與地圖核對
+
+題目指出，ISIS 曾在西亞部分地區：
+
+- 掠奪 **X 國北部的石油資源**。
+- 破壞兩河流域的古文明遺跡。
+- 迫使大量居民逃離，希望經由 **Y 國進入歐洲**。
+
+題目問：X 國與 Y 國分別是地圖中的何者？
+
+依照片中的圖（十一）：
+
+| 地圖標示 | 國家 |
+|---|---|
+| 甲 | 伊朗 |
+| **乙** | **伊拉克（X）** |
+| **丙** | **土耳其（Y）** |
+| 丁 | 沙烏地阿拉伯 |
+
+因此答案為 **(B) 乙、丙**。
+
+
+
+assistant
+## 第15題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 C → 正解 B</badge>
+
+**核心觀念：ISIS（伊斯蘭國）曾占領伊拉克北部地區；當地難民往歐洲逃難時，土耳其是重要的通道。**
+
+### 一、原題與地圖核對
+
+題目指出，ISIS 曾在西亞部分地區：
+
+- 掠奪 **X 國北部的石油資源**。
+- 破壞兩河流域的古文明遺跡。
+- 迫使大量居民逃離，希望經由 **Y 國進入歐洲**。
+
+題目問：X 國與 Y 國分別是地圖中的何者？
+
+依照片中的圖（十一）：
+
+| 地圖標示 | 國家 |
+|---|---|
+| 甲 | 伊朗 |
+| **乙** | **伊拉克（X）** |
+| **丙** | **土耳其（Y）** |
+| 丁 | 沙烏地阿拉伯 |
+
+因此答案為 **(B) 乙、丙**。
+
+### 二、精準圖解｜西亞國家位置與逃難方向
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="7" y="7" width="326" height="186" rx="12" fill="#eaf2f6"/>
+    <path d="M30 39 L96 23 L169 42 L194 65 L162 79 L120 72 L72 79 L38 63 Z" fill="#68bca0" stroke="#407f72" strokeWidth="1.5"/>
+    <path d="M151 80 L195 77 L220 99 L207 143 L169 135 L139 109 Z" fill="#e8b65d" stroke="#987338" strokeWidth="1.5"/>
+    <path d="M218 79 L282 68 L315 100 L301 154 L250 147 L208 143 L220 99 Z" fill="#b7bfc8" stroke="#87939e" strokeWidth="1.5"/>
+    <path d="M135 129 L170 147 L193 177 L168 182 L135 157 Z" fill="#d9b78b" stroke="#a78a65"/>
+    <g fontSize="12" fontWeight="600" fill="#243447" textAnchor="middle">
+      <text x="99" y="45">丙・土耳其</text>
+      <text x="176" y="104">乙</text>
+      <text x="176" y="121">伊拉克</text>
+      <text x="269" y="109">甲・伊朗</text>
+      <text x="175" y="167" fontSize="10">丁・沙烏地阿拉伯</text>
+    </g>
+    <path d="M151 92 Q119 84 92 67 Q63 53 25 54" fill="none" stroke="#147f65" strokeWidth="3.5" strokeDasharray="7 5" strokeLinecap="round"/>
+    <path d="M26 54 l13 -6 l-1 12 z" fill="#147f65"/>
+    <text x="31" y="100" fontSize="11" fill="#147f65" fontWeight="600">往歐洲方向</text>
+    <circle cx="176" cy="85" r="5" fill="#ad5425"/>
+    <text x="202" y="64" fill="#8e4528" fontSize="10">伊拉克北部</text>
+  </svg>
+  <caption>位置關係示意圖，非精確國界。箭頭表示經土耳其往歐洲的概念方向。</caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | X 國 | Y 國 | 判斷 |
+|---|---|---|---|
+| A | 甲：伊朗 | 乙：伊拉克 | <icon name="x" color="danger" inline/> |
+| **B** | **乙：伊拉克** | **丙：土耳其** | <icon name="check" color="success" inline/> |
+| C | 甲：伊朗 | 丙：土耳其 | <icon name="x" color="danger" inline/> 原選 |
+| D | 丁：沙烏地阿拉伯 | 甲：伊朗 | <icon name="x" color="danger" inline/> |
+
+ISIS 在2014年占領伊拉克北部摩蘇爾及周邊地區，並控制部分石油設施；聯合國難民署亦記錄當時有伊拉克難民前往土耳其。<Cite refs={["turn843345search15","turn843345search4"]}/>
+
+### 四、二選一決勝｜C vs. B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">C：甲、丙 ✕</text>
+      **伊朗 → 土耳其**
+
+      Y 國土耳其正確，但 X 國伊朗錯誤。
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B：乙、丙 ✓</text>
+      **伊拉克 → 土耳其**
+
+      兩個國家都符合題目條件。
+    </box>
+  </grid-item>
+</grid>
+
+這題 B 與 C 的第二個國家都是丙（土耳其），**真正決勝的是第一個國家：乙伊拉克，不是甲伊朗。**
+
+### 五、考場快速判斷
+
+記住兩個地理線索：
+
+- **兩河流域、古巴比倫、ISIS占領摩蘇爾** → 伊拉克。
+- **橫跨亞洲與歐洲、難民進入歐洲的重要通道** → 土耳其。
+
+先確定 X 是伊拉克（乙），即可排除 A、C、D，直接選 B。
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與答案 | 已核對，B |
+| P1 四選項辨析 | 完成 |
+| P1 二選一決勝 | C、B 差在伊朗與伊拉克 |
+| P2 地理圖解 | 已提供位置示意 |
+| 外部證據 | 已核對聯合國與相關歷史資料 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 無作答過程，不能確定 |
+
+**這題最值得改善的是西亞地圖的國家定位：伊拉克在伊朗西方，土耳其在伊拉克北方。** 不必額外做題，遇到下一題西亞地圖時，先用這個位置關係核對即可。
+
+assistant
+### 二、精準圖解｜西亞國家位置與逃難方向
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect x="7" y="7" width="326" height="186" rx="12" fill="#eaf2f6"/>
+    <path d="M30 39 L96 23 L169 42 L194 65 L162 79 L120 72 L72 79 L38 63 Z" fill="#68bca0" stroke="#407f72" strokeWidth="1.5"/>
+    <path d="M151 80 L195 77 L220 99 L207 143 L169 135 L139 109 Z" fill="#e8b65d" stroke="#987338" strokeWidth="1.5"/>
+    <path d="M218 79 L282 68 L315 100 L301 154 L250 147 L208 143 L220 99 Z" fill="#b7bfc8" stroke="#87939e" strokeWidth="1.5"/>
+    <path d="M135 129 L170 147 L193 177 L168 182 L135 157 Z" fill="#d9b78b" stroke="#a78a65"/>
+    <g fontSize="12" fontWeight="600" fill="#243447" textAnchor="middle">
+      <text x="99" y="45">丙・土耳其</text>
+      <text x="176" y="104">乙</text>
+      <text x="176" y="121">伊拉克</text>
+      <text x="269" y="109">甲・伊朗</text>
+      <text x="175" y="167" fontSize="10">丁・沙烏地阿拉伯</text>
+    </g>
+    <path d="M151 92 Q119 84 92 67 Q63 53 25 54" fill="none" stroke="#147f65" strokeWidth="3.5" strokeDasharray="7 5" strokeLinecap="round"/>
+    <path d="M26 54 l13 -6 l-1 12 z" fill="#147f65"/>
+    <text x="31" y="100" fontSize="11" fill="#147f65" fontWeight="600">往歐洲方向</text>
+    <circle cx="176" cy="85" r="5" fill="#ad5425"/>
+    <text x="202" y="64" fill="#8e4528" fontSize="10">伊拉克北部</text>
+  </svg>
+  <caption>位置關係示意圖，非精確國界。箭頭表示經土耳其往歐洲的概念方向。</caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | X 國 | Y 國 | 判斷 |
+|---|---|---|---|
+| A | 甲：伊朗 | 乙：伊拉克 | <icon name="x" color="danger" inline/> |
+| **B** | **乙：伊拉克** | **丙：土耳其** | <icon name="check" color="success" inline/> |
+| C | 甲：伊朗 | 丙：土耳其 | <icon name="x" color="danger" inline/> 原選 |
+| D | 丁：沙烏地阿拉伯 | 甲：伊朗 | <icon name="x" color="danger" inline/> |
+
+ISIS 在2014年占領伊拉克北部摩蘇爾及周邊地區，並控制部分石油設施；聯合國難民署亦記錄當時有伊拉克難民前往土耳其。<Cite refs={["turn843345search15","turn843345search4"]}/>
+
+### 四、二選一決勝｜C vs. B
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">C：甲、丙 ✕</text>
+      **伊朗 → 土耳其**
+
+      Y 國土耳其正確，但 X 國伊朗錯誤。
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">B：乙、丙 ✓</text>
+      **伊拉克 → 土耳其**
+
+      兩個國家都符合題目條件。
+    </box>
+  </grid-item>
+</grid>
+
+這題 B 與 C 的第二個國家都是丙（土耳其），**真正決勝的是第一個國家：乙伊拉克，不是甲伊朗。**
+
+### 五、考場快速判斷
+
+記住兩個地理線索：
+
+- **兩河流域、古巴比倫、ISIS占領摩蘇爾** → 伊拉克。
+- **橫跨亞洲與歐洲、難民進入歐洲的重要通道** → 土耳其。
+
+先確定 X 是伊拉克（乙），即可排除 A、C、D，直接選 B。
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與答案 | 已核對，B |
+| P1 四選項辨析 | 完成 |
+| P1 二選一決勝 | C、B 差在伊朗與伊拉克 |
+| P2 地理圖解 | 已提供位置示意 |
+| 外部證據 | 已核對聯合國與相關歷史資料 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際錯因 | 無作答過程，不能確定 |
+
+**這題最值得改善的是西亞地圖的國家定位：伊拉克在伊朗西方，土耳其在伊拉克北方。** 不必額外做題，遇到下一題西亞地圖時，先用這個位置關係核對即可。

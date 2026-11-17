@@ -1,0 +1,55 @@
+{
+  "id": "q-1147",
+  "candidateId": "q-1147",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-15.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-15-original.jpg",
+    "site/dist/assets/questions/q-804-source.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 171,
+    "messageId": "82767539-0690-4f03-86d6-107bc4be7cf8",
+    "firstQuestionTimestamp": 1794927871.3617911,
+    "userText": "3@錯題D → B",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-15.jpg",
+    "originalSHA256": "72227fc4754492a0a1b7b8882461e636d4219bdc86ab678e5ad95f8e73b9d987",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-15.txt",
+    "cropSourceImageIndex": 15,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-15-original.jpg",
+    "cropSHA256": "d45a586540d92974a0eab3f958ce10d6e186d013171045d92cff75ddb12d87c5",
+    "firstUserTaipei": "2026-11-17T23:04:31.361791+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "duplicate",
+    "basis": "完整值百抽五/各國均霑引文與四選項相同，僅標點斷行；已實看兩原卷。",
+    "existingId": "q-804",
+    "earliestDate": "2026-10-29",
+    "newSource": "https://chatgpt.com/share/6afc7636-b8dc-83ec-a9de-c3ac330e5d27",
+    "oldSource": "https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4",
+    "oldOriginals": [
+      "site/dist/assets/questions/q-804-source.jpg"
+    ],
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "d45a586540d92974a0eab3f958ce10d6e186d013171045d92cff75ddb12d87c5",
+  "scientificHistoricalReview": "抽稅需經英國允許、值百抽五，指關稅自主權受到條約限制；不是1943年主要處理治外法權的新約。B指北伐完成、東北易幟後的南京國民政府階段。精確時序是中英關稅條約1928年12月20日簽訂、東北易幟12月29日、條約1929年1月10日互換批准生效，因此可依生效在易幟後理解B，不能說易幟後才開始談判或簽訂。A1937、D1941都較晚；C1924聯俄容共則較早。保持原四選項與B，不把來源AI圖的簡化時段當精確日序。",
+  "supportingSources": [
+    {
+      "title": "全國法規資料庫：中英關稅條約",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=Y0040049",
+      "supports": "1928-12-20簽約、1929-01-10生效；精確拆開簽訂/易幟/生效。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

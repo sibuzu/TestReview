@@ -1,0 +1,127 @@
+{
+  "id": "q-975",
+  "subject": "Biology",
+  "title": "同樣能傳遞，循環方式卻不同",
+  "art": "docs/comics/art/q-975.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 攝食同時傳遞物質與能量",
+      "text": "植物被草食動物取食，再傳到其他消費者。食物中的物質及化學能都能沿食物鏈傳遞。",
+      "alt": "中文食物鏈標出物質和化學能隨攝食傳遞，沒有虛構效率百分比。",
+      "diagram": {
+        "kind": "flow",
+        "title": "食物鏈：兩者都能傳遞",
+        "items": [
+          {
+            "label": "植物｜食物含物質與化學能",
+            "tone": "green"
+          },
+          {
+            "label": "草食動物｜取得食物中的物質與能量",
+            "tone": "blue"
+          },
+          {
+            "label": "其他消費者｜再經攝食取得食物",
+            "tone": "blue"
+          }
+        ],
+        "arrow": "攝食，傳遞物質與能量"
+      }
+    },
+    {
+      "heading": "② 物質循環，能量單向流動",
+      "text": "物質經生物與環境循環；能量逐漸轉為熱而散失，不像物質那樣循環供食物鏈利用。",
+      "alt": "直接以中文分列物質可循環和能量單向轉為熱。",
+      "diagram": {
+        "kind": "paths",
+        "title": "傳遞相同，最後去向不同",
+        "items": [
+          {
+            "label": "物質：生物 → 環境 → 再回生物",
+            "tone": "green",
+            "detail": "可循環再利用。"
+          },
+          {
+            "label": "能量：食物鏈 → 逐漸散失為熱",
+            "tone": "gold",
+            "detail": "能量仍守恆，但不能像物質一樣循環利用。"
+          }
+        ],
+        "arrow": "比較循環方式",
+        "target": "C的「兩者都能循環」不正確"
+      }
+    },
+    {
+      "heading": "③ 生產者轉換能量，不創造能量",
+      "text": "光合作用可製造有機養分，將光能轉成化學能。製造食物不等於憑空製造能量。",
+      "alt": "光能到有機物化學能的轉換及D的錯誤用語有清楚中文標示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "生產者的能量轉換",
+        "items": [
+          {
+            "label": "太陽光能",
+            "tone": "gold"
+          },
+          {
+            "label": "生產者進行光合作用",
+            "tone": "green"
+          },
+          {
+            "label": "有機物儲存化學能",
+            "tone": "blue"
+          }
+        ],
+        "arrow": "轉換能量",
+        "note": "D把能量轉換誤說成「自製能量」。"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：兩者都可沿食物鏈傳遞",
+    "points": [
+      "攝食可一起轉移物質與食物中的化學能。",
+      "物質可循環；能量主要單向流動並散失為熱。",
+      "生產者可製造養分，不能憑空創造能量。"
+    ]
+  },
+  "protectedWords": [
+    "食物鏈",
+    "生產者",
+    "消費者",
+    "化學能",
+    "光合作用",
+    "草食動物"
+  ],
+  "generationMethod": "new native HTML/CSS diagram blocks; authored SVG fallback; selectable Chinese labels",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
+  "rationale": "比較物質循環與能量單向流動，精確中文流程圖比人物情境更直接；不沿用來源AI圖，也不增加來源AI自編延伸題。",
+  "editableDiagramScript": "docs/imports/new-gpt-20261106/prepare-biology11.py",
+  "nativeArt": "assets/comics/q-975-art-4190c091b1.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-06T14:41:13.493643+00:00",
+    "reviewerAgent": "/root",
+    "originalAndFullTextChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "visualChecked": true,
+    "decision": "complete",
+    "note": "root實看真正原卷／必要圖、正式app桌手機四格；保留完整原題、全部選項、中文角色與動作及圖形限制。原AI錯誤分別登錄Monitor；未沿用來源AI解說圖。"
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-06T14:41:13.534694+00:00",
+  "validationFile": "docs/comics/q-975-validation.json"
+}

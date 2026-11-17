@@ -1,0 +1,101 @@
+{
+  "id": "q-1149",
+  "subject": "History",
+  "title": "先辨認三部法令，再依年代排序",
+  "art": "docs/comics/art/q-1149-source72-1.svg",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "new independent built-in imagegen historical scenes plus precise original native SVG geography/chronology/institutional illustrations",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-17-original.jpg"
+  ],
+  "answerCheckedAgainst": "丙列參議院、臨時大總統、國務院、法院及責任內閣制，是1912年《中華民國臨時約法》；甲三民主義、五權憲法、國民黨以黨治國與民主訓練，是1931年《訓政時期約法》；乙主權在民、人民權利義務、中央地方及基本國策，是1946年制定、1947年公布施行的《中華民國憲法》。故先後為丙→甲→乙，選B。A將丙放最後、C把憲法放訓政之前、D把1912放1931後，都與實際年代不合。",
+  "rationale": "Read complete original question, four options and required materials; source72 intake review and official primary evidence retained. Historical scenes explicitly generic teaching reconstructions, not records of a specific event. Native maps use Natural Earth modern locator geometry, no invented historical borders. Four distinct teaching images, including answer synthesis.",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 丙：臨時約法的責任內閣線索",
+      "text": "參議院、臨時大總統、責任內閣制等線索，對應1912年《中華民國臨時約法》。不是後來1931年的黨治訓政。",
+      "image": "docs/comics/art/q-1149-source72-1.svg",
+      "alt": "① 丙：臨時約法的責任內閣線索；新製精確原生圖，詳見可選取文字。",
+      "caption": "新製教學圖，情境非歷史照片。"
+    },
+    {
+      "heading": "② 甲：訓政時期，國民黨以黨治國",
+      "text": "甲明說三民主義、五權憲法，暫由國民黨以黨治國並實行民主訓練，對應1931年《訓政時期約法》。文書圖只作教學情境。",
+      "image": "docs/comics/art/q-1149-source72-2.png",
+      "alt": "② 甲：訓政時期，國民黨以黨治國；新製歷史情境示意，非真實照片。"
+    },
+    {
+      "heading": "③ 乙：主權在民與憲法基本國策",
+      "text": "人民權利義務、機構職能、中央地方權力及基本國策，對應《中華民國憲法》。1946年制定，1947年公布及施行。",
+      "image": "docs/comics/art/q-1149-source72-3.svg",
+      "alt": "③ 乙：主權在民與憲法基本國策；新製精確原生圖，詳見可選取文字。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案B：丙 → 甲 → 乙",
+    "points": [
+      "1912臨時約法 → 1931訓政約法 → 1946至1947憲法制頒施行。",
+      "用制度線索搭配年代，別把較早的丙放到最後。"
+    ],
+    "image": "docs/comics/art/q-1149-source72-4.svg",
+    "alt": "第四張不同新圖：原生年代／位置整合圖。"
+  },
+  "protectedWords": [
+    "臨時約法",
+    "1912年",
+    "1931年",
+    "1946年",
+    "1947年",
+    "主權在民",
+    "丙 → 甲 → 乙"
+  ],
+  "manualLineBreaks": false,
+  "artHashes": {
+    "docs/comics/art/q-1149-source72-1.svg": "55bc105302d95ef5568f12ebf068c0771a4e0a12239736d91af13be4582ea6b2",
+    "docs/comics/art/q-1149-source72-2.png": "df3c609f0566d3c51e64ec996cd02be3f7d67b540f335e60b12c33f356609137",
+    "docs/comics/art/q-1149-source72-3.svg": "cdeb7382bb0831cf5ac6d21e2b5b0f296e12cc1e20eb7a3c58bbc1619ca58303",
+    "docs/comics/art/q-1149-source72-4.svg": "6cc80d2bf1142a9077dea54f7b6c29b1f0e765140cb2dc245903837eeae7f964"
+  },
+  "supportingSources": [
+    {
+      "title": "國史館：1912臨時約法與1914新約法沿革",
+      "url": "https://ahdas.drnh.gov.tw/docs/zong/024.pdf",
+      "supports": "1912-03-11臨時約法與責任內閣制度年代。"
+    },
+    {
+      "title": "訓政約法原件國寶指定公告",
+      "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg022077/ch05/type3/gov46/num17/OEg.pdf",
+      "supports": "1931訓政約法。"
+    },
+    {
+      "title": "總統府：憲法本文",
+      "url": "https://www.president.gov.tw/Page/94",
+      "supports": "1946-12-25制定、1947-01-01公布、1947-12-25施行。"
+    }
+  ],
+  "intakeReview": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/q-1149-review.json",
+  "generationEvidence": [
+    {
+      "id": "q-1149",
+      "panel": 2,
+      "prompt": "Create ONE square standalone detailed color historical educational anime illustration for a Traditional Chinese middle-school history explanation. Refined realistic proportions, sophisticated painted textures, clear expressive adult faces, rich cinematic color and soft natural lighting, carefully researched period props, professional polished anime background art. Not chibi, not flat icons, not a poster or a collage, no comic panels. No text, Chinese characters, letters, numbers, labels, arrows, logos, watermark, legible writing, contemporary electronics, modern weapons, modern clothing. This is an openly generic teaching reconstruction, not an actual historical photograph or a claim of a particular witnessed event. Keep all main objects comfortably inside square with a modest margin. Favor clearly drawn anime faces and delicate illustrative linework, with rich detailed painted backgrounds. A 1931 Chinese institutional archive scene: two adult archivists in period dark Chinese tunic suits carefully compare THREE different physical paper-bound legal booklets laid separately on a broad wooden desk, all pages unlettered, one thin early stitched booklet, one medium official bound volume, and one newer thick document folder, with fountain pen, ink pad and brush. Distinct legal documents arranged from older to newer by physical position only; actual titles and dates supplied later in HTML, no dates or writing in image. Warm library light, detailed paper, binding, shelving. No flags, named leaders, modern computers, no exact artifact forgery. A generic educational scene illustrating comparison of constitutional documents, not a real historical meeting.",
+      "tool": "built-in image_gen.imagegen",
+      "selectedSource": "/home/jack/.codex/generated_images/01a1c0b4-de44-7fa3-ad47-de46c7732eb2/exec-8cb1f8ca-92a2-4fc6-ab68-b80773bb185e.png",
+      "destination": "docs/comics/art/q-1149-source72-2.png",
+      "sha256": "df3c609f0566d3c51e64ec996cd02be3f7d67b540f335e60b12c33f356609137"
+    }
+  ],
+  "nativeGenerator": "docs/comics/source72-lane3/native.py",
+  "mapProvenance": "docs/comics/source72-lane3/map-provenance.json",
+  "createdAt": "2026-11-17T16:42:55.383268+00:00",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-17T16:49:13.317457+00:00",
+  "checkedAt": "2026-11-17T16:49:13.317457+00:00",
+  "previewValidation": "docs/comics/q-1149-preview-validation.json",
+  "visualReview": "Actually viewed original materials, all four new native/raster art works at original rendering size, and 1440/1120/390 preview screenshots. Historical contexts and precise relations checked; no missing text, clipping or overflow; original answer/date preserved."
+}

@@ -1,0 +1,81 @@
+{
+  "mode": "biology_four_image_goal",
+  "workerLimit": 3,
+  "rootRole": "來源71已推送27題及108張新圖，2題原題待核/7張核對卡；舊生物與其他重製維持暫停。",
+  "updatedAt": "2026-11-16T16:04:35.461880+00:00",
+  "lanes": [
+    {
+      "lane": 1,
+      "questionId": null,
+      "title": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "state": "paused",
+      "startedAt": null,
+      "agent": "/root/comic_lane_1",
+      "role": "integration",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "pauseReason": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "activeTask": null
+    },
+    {
+      "lane": 2,
+      "questionId": null,
+      "title": "使用者先前指定Agent2交稿後暫停，本次未另行解除",
+      "state": "paused",
+      "startedAt": null,
+      "agent": "/root/comic_lane_2",
+      "role": "production",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "pauseReason": "使用者先前指定Agent2交稿後暫停，本次未另行解除"
+    },
+    {
+      "lane": 3,
+      "questionId": null,
+      "title": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "state": "paused",
+      "startedAt": null,
+      "agent": "/root/comic_lane_3",
+      "role": "production",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "pauseReason": "缺圖補作已完成，其餘重製依使用者指示暫停",
+      "activeTask": null
+    }
+  ],
+  "ready": [],
+  "integrated": 1103,
+  "blocked": [
+    {
+      "id": "q-1122",
+      "title": "地理第3題｜巴西鐵礦砂航線的教材與實務差異",
+      "subject": "Geography",
+      "lane": 1,
+      "state": "blocked",
+      "startedAt": "2026-11-16T15:49:02.485890+00:00",
+      "assignmentMethod": "source71 fixed qid reservation; no broad queue claim",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-7685dc33c7054e738fbf45f699a5ac21",
+      "readyAt": "2026-11-16T15:50:33.048276+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "四圖及隔離/正式QA均通過；原題航路/船型條件待確認，不計complete事件。",
+      "evidence": [
+        "docs/comics/q-1122.json",
+        "docs/comics/q-1122-preview-validation.json"
+      ],
+      "integrationStartedAt": "2026-11-16T15:50:33.309702+00:00",
+      "integrationMonotonicStartNs": 4710430999603,
+      "integrationTimingHost": "WorkNerd",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "formalArtValidatedAt": "2026-11-16T15:52:37.225727+00:00",
+      "formalValidation": "docs/comics/q-1122-validation.json"
+    }
+  ],
+  "waiting": [],
+  "integrating": [],
+  "held": [],
+  "integrationLimit": 1,
+  "roleChangedAt": "2026-10-29T07:01:25.554580+00:00",
+  "importLimit": 2
+}

@@ -61,6 +61,23 @@ class ReworkStatusTest(unittest.TestCase):
         self.assertIn('q-081', status['reassessCommand'])
         self.assertEqual(json.dumps(progress), before)
 
+    def test_limited_batch_does_not_resume_the_rest_of_the_backlog(self):
+        self.plan([dict(id='q-001', state='queued'), dict(id='q-002', state='paused')])
+        path = self.root / PLAN
+        plan = json.loads(path.read_text())
+        plan['executionControl']['limitedBatch'] = 'batch.json'
+        path.write_text(json.dumps(plan))
+        batch_path = self.root / 'batch.json'
+        batch = dict(state='active', limit=10, questionIds=['q-001'], completedQuestionIds=[])
+        batch_path.write_text(json.dumps(batch))
+        data = {'questions': [dict(id='q-001', subject='Biology'), dict(id='q-002', subject='Biology')]}
+        status = build_rework_status(self.root, data, {})
+        self.assertEqual([q['state'] for q in status['items']], ['active', 'paused'])
+        self.assertEqual(status['activeBatch']['remaining'], 1)
+        batch['state'] = 'complete'
+        batch_path.write_text(json.dumps(batch))
+        self.assertTrue(all(q['state'] == 'paused' for q in build_rework_status(self.root, data, {})['items']))
+
 
 if __name__ == '__main__':
     unittest.main()

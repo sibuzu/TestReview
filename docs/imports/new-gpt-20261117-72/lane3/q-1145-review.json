@@ -1,0 +1,52 @@
+{
+  "id": "q-1145",
+  "candidateId": "q-1145",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-13.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-13-original.jpg",
+    "docs/imports/new-gpt-20261117-72/lane3/crops/q-1145-figure-original.jpg",
+    "docs/source-pages/chatgpt-6afc7636-12.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 147,
+    "messageId": "7db1e939-b0ec-418c-a0b3-ee5aa8c465f4",
+    "firstQuestionTimestamp": 1794927732.1332521,
+    "userText": "24@錯題B→ C",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-13.jpg",
+    "originalSHA256": "f0790bd056ac072da307ad3995ef15e7b7a5bc85da9cf0946eac63cc47c251e4",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-13.txt",
+    "cropSourceImageIndex": 13,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-13-original.jpg",
+    "cropSHA256": "7ae74bbdfa7e76de64ddd1a9d368a9795dcd7b103aefc6521d855bbe24bbc958",
+    "figureSourceImageIndex": 12,
+    "figureSHA256": "9ed7f799cf3fa8ad0309af8eeee8091fff4fc09a20d8be27108c21b93526ee5d",
+    "firstUserTaipei": "2026-11-17T23:02:12.133252+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "new",
+    "basis": "無META exact/similar候選；獨特片語與完整全庫比對未見同題。",
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "7ae74bbdfa7e76de64ddd1a9d368a9795dcd7b103aefc6521d855bbe24bbc958",
+  "scientificHistoricalReview": "海報可見滿洲國、國境等標示與滿洲國旗，是日本扶植滿洲國後的宣傳。滿洲國存在於1932至1945年，控制東北；瀋陽位於東北，所以C在時間與地點均符合。A、B早於1932成立，D晚於1945終結且地點不合。這裡判讀的是海報的政權宣傳背景，不採納其宣傳內容為真實描述。",
+  "supportingSources": [
+    {
+      "title": "國史館臺灣文獻館：滿洲國存續年代註解",
+      "url": "https://www.th.gov.tw/Epaper_Content/241/8823/",
+      "supports": "1932-03-01至1945-08-18存在的日本傀儡政權。"
+    }
+  ],
+  "materialNote": "原照片最右裝飾邊緣未拍入；滿洲國、中華民國、國境、旗與人物等本題必要判讀線索均可見，保留原可見圖，不重建未拍入部分。root已獨立實開覆核必要材料足夠。",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00",
+  "rootEssentialMaterialApproval": true
+}

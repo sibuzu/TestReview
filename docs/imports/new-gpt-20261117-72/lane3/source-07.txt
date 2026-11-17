@@ -1,0 +1,245 @@
+[message 75, user]
+4@錯題D→ A
+
+[message 76, system]
+
+
+[message 77, system]
+
+
+[message 78, system]
+
+
+[message 79, assistant]
+## 第4題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 D → 正解 A</badge>
+
+**核心觀念：九一八事變是日本侵占中國東北的開端；盧溝橋事變則發生在1937年，標誌全面抗戰的開始。**
+
+### 一、原題證據核對
+
+題目描述：
+
+> 日本自行炸毀南滿鐵路柳條湖附近的一段鐵軌，並嫁禍於中國的東北軍。
+
+接著提到張學良遵循「先安內再攘外」政策，不作抵抗，瀋陽及東北陸續遭日軍占領。
+
+題目問：上述日軍的攻擊，是指哪一事件？
+
+| 選項 | 歷史事件 | 判斷 |
+|---|---|---|
+| **(A)** | **九一八事變** | **正確** |
+| (B) | 珍珠港事件 | 錯誤 |
+| (C) | 滿洲國成立 | 錯誤 |
+| (D) | 盧溝橋事變 | 原選，錯誤 |
+
+**決定性證據是「南滿鐵路柳條湖」和「張學良、東北軍」。** 這些都是1931年九一八事變的重要線索。
+
+
+
+[message 80, assistant]
+
+
+[message 81, tool]
+The output of this plugin was redacted.
+
+[message 82, tool]
+The output of this plugin was redacted.
+
+[message 83, assistant]
+
+
+[message 84, assistant]
+
+
+[message 85, assistant]
+## 第4題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 D → 正解 A</badge>
+
+**核心觀念：九一八事變是日本侵占中國東北的開端；盧溝橋事變則發生在1937年，標誌全面抗戰的開始。**
+
+### 一、原題證據核對
+
+題目描述：
+
+> 日本自行炸毀南滿鐵路柳條湖附近的一段鐵軌，並嫁禍於中國的東北軍。
+
+接著提到張學良遵循「先安內再攘外」政策，不作抵抗，瀋陽及東北陸續遭日軍占領。
+
+題目問：上述日軍的攻擊，是指哪一事件？
+
+| 選項 | 歷史事件 | 判斷 |
+|---|---|---|
+| **(A)** | **九一八事變** | **正確** |
+| (B) | 珍珠港事件 | 錯誤 |
+| (C) | 滿洲國成立 | 錯誤 |
+| (D) | 盧溝橋事變 | 原選，錯誤 |
+
+**決定性證據是「南滿鐵路柳條湖」和「張學良、東北軍」。** 這些都是1931年九一八事變的重要線索。
+
+### 二、精準時間軸｜四個歷史事件
+
+<box border radius="lg" padding={3} gap={3}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      <box background="rgba(25,145,100,0.09)" radius="md" padding={2} gap={1}>
+        **1931年9月18日｜九一八事變 ✓**
+
+        日軍在柳條湖製造鐵路爆炸事件，藉此進攻瀋陽，進一步侵占中國東北。
+      </box>
+    </list-item>
+    <list-item>
+      **1932年｜滿洲國成立**
+
+      日本扶植溥儀建立滿洲國，是九一八事變後的發展。
+    </list-item>
+    <list-item>
+      **1937年7月7日｜盧溝橋事變**
+
+      發生在北平附近的盧溝橋，成為中國全面抗戰的開端。<Cite ref="turn819787search8"/>
+    </list-item>
+    <list-item>
+      **1941年12月7日（夏威夷當地時間）｜珍珠港事件**
+
+      日本攻擊美國太平洋艦隊基地，美國隨後投入第二次世界大戰。
+    </list-item>
+  </list>
+</box>
+
+### 三、二選一決勝｜D 與 A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" color="danger">D 盧溝橋事變 ✕</text>
+      <AsyncImage query="1937 Marco Polo Bridge Lugou Bridge historical photograph" aspectRatio="5:3"/>
+      <text weight="medium" size="sm">1937年・北平附近</text>
+      <text size="xs" color="secondary">關鍵字：盧溝橋、七七事變、全面抗戰</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" color="success">A 九一八事變 ✓</text>
+      <AsyncImage query="1931 Mukden incident Liutiaohu South Manchuria railway historical photograph" aspectRatio="5:3"/>
+      <text weight="medium" size="sm">1931年・瀋陽附近</text>
+      <text size="xs" color="secondary">關鍵字：柳條湖、南滿鐵路、東北軍</text>
+    </box>
+  </grid-item>
+</grid>
+
+兩者都與日本侵略中國有關，但**發生時間相差將近6年，地點也不同**。
+
+### 四、四個選項為什麼只有 A 正確？
+
+- **A 九一八事變：** 正確，與柳條湖鐵路事件完全吻合。
+- **B 珍珠港事件：** 發生在1941年，攻擊對象是美國。
+- **C 滿洲國成立：** 是1932年日本扶植傀儡政權的結果，不是題目所描述的攻擊事件。
+- **D 盧溝橋事變：** 發生於1937年北平附近，並非南滿鐵路柳條湖事件。
+
+### 五、考場10秒判斷
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **柳條湖炸鐵路 → 九一八事變（1931）**
+
+  **盧溝橋發生衝突 → 七七事變（1937）**
+
+  **日本扶植溥儀 → 滿洲國成立（1932）**
+</box>
+
+### 六、v2.1 品質檢核
+
+| 檢核項目 | 結果 |
+|---|---|
+| P0 原題、四選項、正解 | <icon name="check-circle" color="success" inline/> 已核對 A |
+| P1 誤選 D 與正解 A | <icon name="check-circle" color="success" inline/> 已完成 |
+| P2 歷史時間軸 | <icon name="check-circle" color="success" inline/> 已完成 |
+| 外部史料 | 國史館、國家檔案資訊已查核 <Cite refs={["turn819787search1","turn819787search8"]}/> |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 尚無作答過程，不能確定 |
+
+**本題最值得優先改善的判斷習慣：先圈出地點「柳條湖」，再對應事件名稱。** 不必只靠背誦年份，就能區分九一八事變與盧溝橋事變。
+
+[message 86, assistant]
+### 二、精準時間軸｜四個歷史事件
+
+<box border radius="lg" padding={3} gap={3}>
+  <list connector="solid" marker="number" gap={3}>
+    <list-item>
+      <box background="rgba(25,145,100,0.09)" radius="md" padding={2} gap={1}>
+        **1931年9月18日｜九一八事變 ✓**
+
+        日軍在柳條湖製造鐵路爆炸事件，藉此進攻瀋陽，進一步侵占中國東北。
+      </box>
+    </list-item>
+    <list-item>
+      **1932年｜滿洲國成立**
+
+      日本扶植溥儀建立滿洲國，是九一八事變後的發展。
+    </list-item>
+    <list-item>
+      **1937年7月7日｜盧溝橋事變**
+
+      發生在北平附近的盧溝橋，成為中國全面抗戰的開端。<Cite ref="turn819787search8"/>
+    </list-item>
+    <list-item>
+      **1941年12月7日（夏威夷當地時間）｜珍珠港事件**
+
+      日本攻擊美國太平洋艦隊基地，美國隨後投入第二次世界大戰。
+    </list-item>
+  </list>
+</box>
+
+### 三、二選一決勝｜D 與 A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" color="danger">D 盧溝橋事變 ✕</text>
+      <AsyncImage query="1937 Marco Polo Bridge Lugou Bridge historical photograph" aspectRatio="5:3"/>
+      <text weight="medium" size="sm">1937年・北平附近</text>
+      <text size="xs" color="secondary">關鍵字：盧溝橋、七七事變、全面抗戰</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" color="success">A 九一八事變 ✓</text>
+      <AsyncImage query="1931 Mukden incident Liutiaohu South Manchuria railway historical photograph" aspectRatio="5:3"/>
+      <text weight="medium" size="sm">1931年・瀋陽附近</text>
+      <text size="xs" color="secondary">關鍵字：柳條湖、南滿鐵路、東北軍</text>
+    </box>
+  </grid-item>
+</grid>
+
+兩者都與日本侵略中國有關，但**發生時間相差將近6年，地點也不同**。
+
+### 四、四個選項為什麼只有 A 正確？
+
+- **A 九一八事變：** 正確，與柳條湖鐵路事件完全吻合。
+- **B 珍珠港事件：** 發生在1941年，攻擊對象是美國。
+- **C 滿洲國成立：** 是1932年日本扶植傀儡政權的結果，不是題目所描述的攻擊事件。
+- **D 盧溝橋事變：** 發生於1937年北平附近，並非南滿鐵路柳條湖事件。
+
+### 五、考場10秒判斷
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  **柳條湖炸鐵路 → 九一八事變（1931）**
+
+  **盧溝橋發生衝突 → 七七事變（1937）**
+
+  **日本扶植溥儀 → 滿洲國成立（1932）**
+</box>
+
+### 六、v2.1 品質檢核
+
+| 檢核項目 | 結果 |
+|---|---|
+| P0 原題、四選項、正解 | <icon name="check-circle" color="success" inline/> 已核對 A |
+| P1 誤選 D 與正解 A | <icon name="check-circle" color="success" inline/> 已完成 |
+| P2 歷史時間軸 | <icon name="check-circle" color="success" inline/> 已完成 |
+| 外部史料 | 國史館、國家檔案資訊已查核 <Cite refs={["turn819787search1","turn819787search8"]}/> |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 尚無作答過程，不能確定 |
+
+**本題最值得優先改善的判斷習慣：先圈出地點「柳條湖」，再對應事件名稱。** 不必只靠背誦年份，就能區分九一八事變與盧溝橋事變。

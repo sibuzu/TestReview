@@ -1,0 +1,251 @@
+user
+5@錯題B → D
+
+assistant
+## 第5題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 B → 正解 D</badge>
+
+**核心觀念：臺南市是「直轄市」，選民可以投票選出直轄市長、市議員、里長，但不能投票選區長或區民代表。**
+
+### 一、原題證據核對
+
+題目指出：
+
+> 家住臺南市西港區的沛恩在2026年將成為首投族，在此次地方性選舉中，若依據附表，「✓」代表可領取該項選舉選票，她可以領到的選票最可能是哪一種組合？
+
+原題的四個選項：
+
+| 選項 | 可領取的選票 | 判斷 |
+|---|---|---|
+| (A) 甲 | 總統、副總統、區域立委、政黨票 | 錯誤 |
+| (B) 乙 | 直轄市長、市議員、區長、區民代表、里長 | 原選，錯誤 |
+| (C) 丙 | 縣（市）長、縣（市）議員、里長 | 錯誤 |
+| **(D) 丁** | **直轄市長、市議員、里長** | **正確** |
+
+本題只要抓住 **「臺南市西港區」＋「地方性選舉」**，就可以判斷。
+
+
+
+assistant
+## 第5題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 B → 正解 D</badge>
+
+**核心觀念：臺南市是「直轄市」，選民可以投票選出直轄市長、市議員、里長，但不能投票選區長或區民代表。**
+
+### 一、原題證據核對
+
+題目指出：
+
+> 家住臺南市西港區的沛恩在2026年將成為首投族，在此次地方性選舉中，若依據附表，「✓」代表可領取該項選舉選票，她可以領到的選票最可能是哪一種組合？
+
+原題的四個選項：
+
+| 選項 | 可領取的選票 | 判斷 |
+|---|---|---|
+| (A) 甲 | 總統、副總統、區域立委、政黨票 | 錯誤 |
+| (B) 乙 | 直轄市長、市議員、區長、區民代表、里長 | 原選，錯誤 |
+| (C) 丙 | 縣（市）長、縣（市）議員、里長 | 錯誤 |
+| **(D) 丁** | **直轄市長、市議員、里長** | **正確** |
+
+本題只要抓住 **「臺南市西港區」＋「地方性選舉」**，就可以判斷。
+
+### 二、精準圖解｜臺南市西港區的選舉制度
+
+<box border radius="lg" padding={3} gap={2} align="center">
+  <box background="surface-secondary" radius="md" padding={3} width="100%" gap={1} align="center">
+    **臺南市（直轄市）**
+    <text size="sm" color="secondary">市民投票選出</text>
+    <grid columns={2} gap={2}>
+      {#each ["直轄市長","直轄市議員"] as t}
+        <grid-item>
+          <box border radius="md" padding={2} gap={1} align="center">
+            <icon name="check-circle" color="success"/>
+            <text size="sm" weight="medium">{t}</text>
+          </box>
+        </grid-item>
+      {/each}
+    </grid>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(210,140,40,0.08)" radius="md" padding={3} width="100%" gap={1} align="center">
+    **西港區（一般行政區）**
+    <text size="sm">區長由市長依法任用，不由選民選舉</text>
+    <text color="danger" weight="medium" size="sm">沒有區長、區民代表選票</text>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(30,145,95,0.08)" radius="md" padding={3} width="100%" gap={1} align="center">
+    **西港區各里**
+    <icon name="check-circle" color="success" size="lg"/>
+    **選民投票選里長**
+  </box>
+</box>
+
+注意，直轄市的**山地原住民區**有不同的自治制度，可以選區長及區民代表；但臺南市西港區不是山地原住民區。<Cite refs={["turn856737search0","turn856737search1"]}/>
+
+### 三、二選一決勝｜B vs. D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">B 乙 ✕</text>
+      包含：
+      - 直轄市長 ✓
+      - 市議員 ✓
+      - 區長 ✕
+      - 區民代表 ✕
+      - 里長 ✓
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">D 丁 ✓</text>
+      包含：
+      - 直轄市長 ✓
+      - 市議員 ✓
+      - 里長 ✓
+
+      **三種都正確，沒有多選。**
+    </box>
+  </grid-item>
+</grid>
+
+**最後二選一的決勝點：B 比 D 多了「區長、區民代表」，但西港區不選這兩種公職。**
+
+### 四、其餘選項為何不對？
+
+(A) 甲：總統、副總統、區域立委及政黨票，屬中央層級選舉，不符合2026年地方性選舉。
+
+(C) 丙：縣（市）長、縣（市）議員適用於縣及非直轄市的市，例如屏東縣、嘉義市；臺南市則是直轄市。
+
+### 五、考場快速檢核
+
+| 地區 | 選舉組合 |
+|---|---|
+| 臺南市西港區 | 直轄市長、市議員、里長 |
+| 屏東縣屏東市 | 縣長、縣議員、縣轄市長、市民代表、里長 |
+| 高雄市桃源區 | 直轄市長、市議員、原住民區長、區民代表、里長 |
+
+**記憶口訣：一般直轄市的「區長用任命，里長用選舉」。**
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與表格 | 已核對 |
+| P0 正解 | D |
+| P1 四選項解析 | 完成 |
+| P1 B、D 決勝 | 區長、區民代表是否民選 |
+| P2 精準圖解 | 完成 |
+| 法規證據 | 已核對行政院與中選會資料 <Cite refs={["turn856737search0","turn856737search1"]}/> |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 無作答思路，不能確定 |
+
+**這題與前面的「屏東市地方民意代表」第1題考的是同一核心能力：先確認行政區的層級，再決定有哪些民選公職。**
+
+遇到「市」或「區」時，不能單憑名稱判斷，必須先分清直轄市、縣轄市及一般行政區。
+
+---
+
+如果你願意，我可以：
+
+- 繼續深入解析少年刑事責任劃分
+- 擴展探討政府行政行為與立法行為差異
+- 補充少年案件中少年法院與檢察官職責
+
+assistant
+### 二、精準圖解｜臺南市西港區的選舉制度
+
+<box border radius="lg" padding={3} gap={2} align="center">
+  <box background="surface-secondary" radius="md" padding={3} width="100%" gap={1} align="center">
+    **臺南市（直轄市）**
+    <text size="sm" color="secondary">市民投票選出</text>
+    <grid columns={2} gap={2}>
+      {#each ["直轄市長","直轄市議員"] as t}
+        <grid-item>
+          <box border radius="md" padding={2} gap={1} align="center">
+            <icon name="check-circle" color="success"/>
+            <text size="sm" weight="medium">{t}</text>
+          </box>
+        </grid-item>
+      {/each}
+    </grid>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(210,140,40,0.08)" radius="md" padding={3} width="100%" gap={1} align="center">
+    **西港區（一般行政區）**
+    <text size="sm">區長由市長依法任用，不由選民選舉</text>
+    <text color="danger" weight="medium" size="sm">沒有區長、區民代表選票</text>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(30,145,95,0.08)" radius="md" padding={3} width="100%" gap={1} align="center">
+    **西港區各里**
+    <icon name="check-circle" color="success" size="lg"/>
+    **選民投票選里長**
+  </box>
+</box>
+
+注意，直轄市的**山地原住民區**有不同的自治制度，可以選區長及區民代表；但臺南市西港區不是山地原住民區。<Cite refs={["turn856737search0","turn856737search1"]}/>
+
+### 三、二選一決勝｜B vs. D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">B 乙 ✕</text>
+      包含：
+      - 直轄市長 ✓
+      - 市議員 ✓
+      - 區長 ✕
+      - 區民代表 ✕
+      - 里長 ✓
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">D 丁 ✓</text>
+      包含：
+      - 直轄市長 ✓
+      - 市議員 ✓
+      - 里長 ✓
+
+      **三種都正確，沒有多選。**
+    </box>
+  </grid-item>
+</grid>
+
+**最後二選一的決勝點：B 比 D 多了「區長、區民代表」，但西港區不選這兩種公職。**
+
+### 四、其餘選項為何不對？
+
+(A) 甲：總統、副總統、區域立委及政黨票，屬中央層級選舉，不符合2026年地方性選舉。
+
+(C) 丙：縣（市）長、縣（市）議員適用於縣及非直轄市的市，例如屏東縣、嘉義市；臺南市則是直轄市。
+
+### 五、考場快速檢核
+
+| 地區 | 選舉組合 |
+|---|---|
+| 臺南市西港區 | 直轄市長、市議員、里長 |
+| 屏東縣屏東市 | 縣長、縣議員、縣轄市長、市民代表、里長 |
+| 高雄市桃源區 | 直轄市長、市議員、原住民區長、區民代表、里長 |
+
+**記憶口訣：一般直轄市的「區長用任命，里長用選舉」。**
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與表格 | 已核對 |
+| P0 正解 | D |
+| P1 四選項解析 | 完成 |
+| P1 B、D 決勝 | 區長、區民代表是否民選 |
+| P2 精準圖解 | 完成 |
+| 法規證據 | 已核對行政院與中選會資料 <Cite refs={["turn856737search0","turn856737search1"]}/> |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 無作答思路，不能確定 |
+
+**這題與前面的「屏東市地方民意代表」第1題考的是同一核心能力：先確認行政區的層級，再決定有哪些民選公職。**
+
+遇到「市」或「區」時，不能單憑名稱判斷，必須先分清直轄市、縣轄市及一般行政區。

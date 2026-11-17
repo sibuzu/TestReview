@@ -1,0 +1,29 @@
+{
+  "registeredAt": "2026-11-17T16:22:01.468239+00:00",
+  "items": [
+    {
+      "id": "q-1135",
+      "kind": "原題單選條件確認",
+      "reason": "原卷只給未成年且判處有期徒刑，未限定應移送的重大犯罪。少事法27條第2項亦容許其他情節重大案件裁量移送，A17歲偷錢不能由題幹排除為絕無可能；請核對是否依教材C並保留此限制。",
+      "before": "User記錄27@錯題A→C，原AI以C為唯一正解，但同一解說承認A若情節重大仍可能進入刑事程序；題幹未給重大犯罪或應移送的限定。",
+      "after": "保留完整原卷、ABCD及原卷預期C；correctOption暫空。主區列單選條件疑義，解說分清應移送、得裁量移送與最後判刑，A不誤教成一概只有保護處分。四圖可驗版，確認前不計complete事件。法條依據：https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011",
+      "confirmationId": "correction-q-1135-dbb2272b4b03"
+    },
+    {
+      "id": "q-1153",
+      "kind": "原題共同閱讀缺漏",
+      "reason": "第33題所指此次投票日的共同前文未出現在24張User原卷中，需補完整共同閱讀原文/原圖，不能用來源AI依推測補成原題。",
+      "before": "User原卷可讀第33題題幹與ABCD、原卷訂正A；照片從第33題開始，未提供第33～35題上方共同閱讀，無法核對前文日期與投票條件。",
+      "after": "可讀題幹、ABCD與原卷均保存；contentStatus待更新、verification待核對、主區請補共同文，correctOption空。原卷預期A與現行法規條件解說留收合區；不猜補前文、不因圖片完成而把原題標完整或新增complete事件。",
+      "confirmationId": "correction-q-1153-2f471957a0fb"
+    },
+    {
+      "id": "q-1154",
+      "kind": "原題共同閱讀缺漏",
+      "reason": "第35題明指上文中的被提案罷免者，但24張User原卷未包含共同前文，需補閱讀原文/原圖以核對人物與條件。",
+      "before": "User原卷可讀第35題題幹與ABCD、原卷訂正A；原幹有上文中，卻未保存該組共同閱讀前文，不能把一般法規推論當作完整原文。",
+      "after": "完整保留可讀原題與四選項；contentStatus待更新、verification待核對、主區列缺文，correctOption空。原卷預期A與法規分類補充留收合區，待補共同文前不冒稱原題完整、不新增complete事件。",
+      "confirmationId": "correction-q-1154-922e511e6ae2"
+    }
+  ]
+}

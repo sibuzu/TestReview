@@ -1,96 +1,83 @@
 {
   "id": "q-1047",
   "subject": "Biology",
-  "title": "哪些植物具有花粉管？",
-  "art": "docs/comics/art/q-1047-reasoning.svg",
-  "generationMethod": "new native selectable HTML reasoning diagrams",
+  "title": "花粉管不是裸子植物專有",
+  "art": "docs/comics/art/q-1047-bio20261117-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent built-in imagegen calls; newly generated high-detail near-realistic science textbook illustrations",
   "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
   "originalMaterialsChecked": true,
   "originalMaterials": [
-    "docs/imports/new-gpt-20261110/q-1047-original.jpg"
+    "site/dist/assets/originals/q-1047-original-52f2b44656de.jpg",
+    "site/dist/assets/questions/q-1047-figure-54b52c477693.jpg"
   ],
   "answerCheckedAgainst": "一、由繁殖構造判斷分類\n甲有網狀葉脈、花瓣為5的倍數，並以種子繁殖，屬被子植物中的雙子葉植物。乙具有地下莖、羽狀複葉，葉背有孢子囊堆，屬蕨類。丙多為針狀葉，種子裸露，屬裸子植物。\n\n二、花粉管並非裸子植物專有\n裸子植物和被子植物都是種子植物，會產生花粉。花粉萌發形成花粉管，使精細胞能到達胚珠內完成受精。甲與丙都符合，選D。蕨類靠孢子繁殖，不以花粉管輸送精細胞，因此乙不符合。\n\n三、逐項排除\nA只選甲，漏掉丙；B選到無花粉管的乙；C只選丙，漏掉甲；D同時包含甲、丙，正確。\n\n四、原AI的矛盾\n原回覆開頭寫C（僅丙），後文又正確推導成D。現依原表及完整選項統一為D，不把「只有裸子植物有花粉管」當作規則。",
-  "rationale": "本題教學重點是反應角色、分類、文字聲韻或精確不等式，以可選取HTML條件圖明示原值、正誤與推理，不沿用來源AI圖。",
+  "rationale": "四次獨立內建產圖，新細膩植物器官/繁殖構造與微觀萌發圖；不沿用原AI或舊草稿。維持已核D，原AI先C後D已既有處理，不重問。",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
   "panels": [
     {
-      "heading": "① 甲有種子，也有花粉",
-      "text": "甲有網狀葉脈、五倍數花瓣並以種子繁殖，是被子植物。花粉萌發可形成花粉管。",
-      "alt": "甲的線索",
-      "diagram": {
-        "kind": "flow",
-        "title": "甲的線索",
-        "items": [
-          {
-            "label": "網狀葉脈、五倍數花瓣",
-            "detail": "被子植物",
-            "tone": "blue"
-          },
-          {
-            "label": "以種子繁殖",
-            "detail": "具有花粉、花粉管",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "① 甲：花與網狀葉脈指向被子植物",
+      "text": "原表甲有網狀葉脈、五倍數花瓣且以種子繁殖，屬被子植物。花粉萌發可形成花粉管，不能漏掉甲。",
+      "image": "docs/comics/art/q-1047-bio20261117-1.png",
+      "alt": "新製類真實五瓣花、網狀葉脈及小果實的被子植物示例，不指認原表精確物種。",
+      "caption": "新製科學教材插畫，非原卷或實拍。"
     },
     {
-      "heading": "② 乙是蕨類，丙是裸子植物",
-      "text": "乙的孢子囊堆顯示靠孢子繁殖，沒有花粉管；丙種子裸露，是有花粉管的裸子植物。",
-      "alt": "乙與丙分開判斷",
-      "diagram": {
-        "kind": "flow",
-        "title": "乙與丙分開判斷",
-        "items": [
-          {
-            "label": "乙｜蕨類",
-            "detail": "孢子囊堆 → 無花粉管",
-            "tone": "blue"
-          },
-          {
-            "label": "丙｜裸子植物",
-            "detail": "種子裸露 → 有花粉管",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "核對概念"
-      }
+      "heading": "② 乙：葉背孢子囊堆指向蕨類",
+      "text": "新圖示葉背成列的褐色孢子囊堆與地下莖。乙靠孢子繁殖，不以花粉管輸送精細胞；不能把孢子囊堆當花粉。",
+      "image": "docs/comics/art/q-1047-bio20261117-2.png",
+      "alt": "新製蕨葉背褐色孢子囊堆、地下莖與孢子囊放大，無花粉或花。"
     },
     {
-      "heading": "③ 種子植物不只有裸子植物",
-      "text": "甲、丙都屬種子植物，兩者都有花粉管。只選丙會漏掉甲，故選D。",
-      "alt": "集合比對",
-      "diagram": {
-        "kind": "paths",
-        "title": "集合比對",
-        "items": [
-          {
-            "label": "甲｜被子植物",
-            "detail": "符合",
-            "tone": "blue"
-          },
-          {
-            "label": "丙｜裸子植物",
-            "detail": "符合",
-            "tone": "gold"
-          }
-        ],
-        "arrow": "依條件判斷",
-        "target": "D｜僅甲、丙"
-      }
+      "heading": "③ 丙：針葉、裸露種子指向裸子植物",
+      "text": "圖以松類球果、翅種子作分類示例。裸子植物也是種子植物，具有花粉與花粉管，因此丙也符合。",
+      "image": "docs/comics/art/q-1047-bio20261117-3.png",
+      "alt": "新製松類針葉、開放球果及帶兩枚翅種子的鱗片，種子無果實包覆。"
     }
   ],
   "fourth": {
-    "answer": "(D) 僅甲、丙",
+    "answer": "答案D：僅甲、丙",
     "points": [
-      "甲是被子植物，丙是裸子植物，兩者都有花粉管。",
-      "乙是蕨類，靠孢子繁殖，沒有花粉管。",
-      "不能只選裸子植物而漏掉被子植物。"
-    ]
+      "花粉萌發形成管的概念適用於種子植物；甲與丙皆符合，乙蕨類不符合。圖為花粉萌發教學放大示意。"
+    ],
+    "image": "docs/comics/art/q-1047-bio20261117-4.png",
+    "alt": "新製單一花粉粒萌發，連續金色花粉管由孔口伸入透明組織，非種子發根或顯微實拍。"
   },
-  "protectedWords": [],
-  "nativeArt": "assets/comics/q-1047-art-193059545b.svg",
-  "layoutVersion": "native-fluid-v6",
+  "protectedWords": [
+    "花粉管",
+    "被子植物",
+    "裸子植物",
+    "孢子囊堆",
+    "甲、丙"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-ten-20261117/lane3/q-1047-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261117/lane3/q-1047-generation.json",
+  "artHashes": {
+    "docs/comics/art/q-1047-bio20261117-1.png": "156a0a60bea4768fb91c4aceb8ad6a5a67ea85e783530d2350c382578c3a78da",
+    "docs/comics/art/q-1047-bio20261117-2.png": "ac2760be24f4579f5f8400b1f07b7636e81c8f8921aa362d1fdf9bf640dad610",
+    "docs/comics/art/q-1047-bio20261117-3.png": "972b984f3b145fb24251fb17e85038cdfbea2a99d9f8cdc475c8761553e20e1c",
+    "docs/comics/art/q-1047-bio20261117-4.png": "6066bd5d0e3436feeef83255e3b60c3a502a22f57997950efa8822ef177b94c1"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.fs.usda.gov/nsl/Wpsm/Chapter1.pdf",
+      "finding": "針葉樹種子植物受精時有花粉管進入胚珠。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4746263/",
+      "finding": "種子植物花粉管途徑含被子及裸子植物；不將花粉管誤為裸子植物專有。"
+    }
+  ],
+  "createdAt": "2026-11-17T03:41:51.499209+00:00",
+  "producerVisualChecked": true,
+  "producerCheckedAt": "2026-11-17T03:44:22.385729+00:00",
+  "checkedAt": "2026-11-17T03:48:46.313138+00:00",
+  "previewValidation": "docs/comics/q-1047-preview-validation.json",
+  "visualReview": "Producer actually viewed the original materials, all four new full-size PNGs, and 1440/1120/390 isolated screenshots; distinct scientific illustrations and all explanatory text readable; no clipping or overflow.",
+  "nativeArt": "assets/comics/q-1047-art-156a0a60be-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -102,26 +89,25 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-10T14:20:26.302303+00:00",
-  "validationFile": "docs/comics/q-1047-validation.json",
   "rootReview": {
-    "reviewerAgent": "/root",
-    "checkedAt": "2026-11-10T14:20:26.249652+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
     "originalVisualChecked": true,
     "answerAndExplanationChecked": true,
-    "actualViewed": [
-      "docs/imports/new-gpt-20261110/qa/q-1047-app-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1047-app-390.png",
-      "docs/imports/new-gpt-20261110/qa/q-1047-standalone-1440.png",
-      "docs/imports/new-gpt-20261110/qa/q-1047-standalone-390.png"
-    ],
-    "comicViews": [
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
       "/tmp/weirugo-comic-checks/q-1047-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1047-app-390.png",
       "/tmp/weirugo-comic-checks/q-1047-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1047-standalone-390.png"
     ],
-    "note": "實看桌機與手機的正式題目、原卷裁切及四格；字音原印與正音分開、無截斷重點句、幾何格點及折線關係核對。三寬正式六布局、隔離三布局均通過。"
-  }
+    "originalMaterials": [
+      "/home/jack/codex-git/TestReview/site/dist/assets/originals/q-1047-original-52f2b44656de.jpg",
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-1047-figure-54b52c477693.jpg"
+    ],
+    "note": "已獨立實開原卷完整植物表與選項，實看4張原尺寸植物/花粉管圖及正式app/單頁桌手機4成品。五花瓣網脈被子植物、葉背孢子囊堆與地下莖蕨類、針葉球果裸露翅種子、花粉由孔口萌管皆可辨，非種子發根。原D甲丙保留，不把花粉管說成裸子專有；圖像精細、無AI中文。",
+    "checkedAt": "2026-11-17T03:48:46.293221+00:00"
+  },
+  "validationFile": "docs/comics/q-1047-validation.json"
 }

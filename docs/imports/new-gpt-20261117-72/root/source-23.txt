@@ -1,0 +1,135 @@
+user
+1@錯題c →D
+
+assistant
+## 第1題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 C → 正解 D</badge>
+
+**核心觀念：屏東市是「縣轄市」，不是「直轄市」。因此，屏東市居民的地方民意代表包括「縣議員」與「市民代表」，而不是市議員。**
+
+### 一、原題證據核對
+
+題目敘述：
+
+> 屏東市在颱風襲擊後，許多公園遭受重創，路樹倒塌的情況嚴重，地方民意代表前往勘災，並表示會要求地方政府重視市民安全。
+
+問：上述地方民意代表應為哪一組合？
+
+| 選項 | 民意代表組合 | 判斷 |
+|---|---|---|
+| (A) | 市議員、區域立委 | <icon name="x" color="danger" inline/> |
+| (B) | 縣議員、區域立委 | <icon name="x" color="danger" inline/> |
+| (C) | 市議員、市民代表 | <icon name="x" color="danger" inline/> 原選 |
+| **(D)** | **縣議員、市民代表** | <icon name="check" color="success" inline/> 正確 |
+
+### 二、精準圖解｜屏東市的地方自治層級
+
+<box border radius="lg" padding={3} gap={2} align="center">
+  <box background="rgba(40,110,200,0.08)" radius="md" padding={3} width="100%" gap={1} align="center">
+    <text weight="medium" color="info">屏東縣</text>
+    <grid columns={2} gap={2}>
+      <grid-item>
+        <box background="surface" radius="md" padding={2} align="center" gap={1}>
+          <icon name="landmark" color="secondary"/>
+          <text weight="medium" size="sm">屏東縣政府</text>
+          <text color="secondary" size="xs">行政機關</text>
+        </box>
+      </grid-item>
+      <grid-item>
+        <box background="surface" radius="md" padding={2} align="center" gap={1}>
+          <icon name="users" color="success"/>
+          <text weight="medium" size="sm">屏東縣議會</text>
+          <text color="success" size="xs">縣議員 ✓</text>
+        </box>
+      </grid-item>
+    </grid>
+  </box>
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  <box background="rgba(25,145,100,0.08)" radius="md" padding={3} width="100%" gap={1} align="center">
+    <text weight="medium" color="success">屏東市（縣轄市）</text>
+    <grid columns={2} gap={2}>
+      <grid-item>
+        <box background="surface" radius="md" padding={2} align="center" gap={1}>
+          <icon name="building-2" color="secondary"/>
+          <text weight="medium" size="sm">屏東市公所</text>
+          <text color="secondary" size="xs">行政機關</text>
+        </box>
+      </grid-item>
+      <grid-item>
+        <box background="surface" radius="md" padding={2} align="center" gap={1}>
+          <icon name="users" color="success"/>
+          <text weight="medium" size="sm">屏東市民代表會</text>
+          <text color="success" size="xs">市民代表 ✓</text>
+        </box>
+      </grid-item>
+    </grid>
+  </box>
+  <text color="success" weight="medium" textAlign="center">縣議員＋市民代表 → D</text>
+</box>
+
+### 三、四選項逐項辨析
+
+**(A) 市議員、區域立委 — 錯誤**
+
+屏東市不是直轄市，因此沒有直轄市市議員；區域立委則是中央民意代表。
+
+**(B) 縣議員、區域立委 — 錯誤**
+
+縣議員正確，但區域立委屬中央民意代表，不是地方民意代表。
+
+**(C) 市議員、市民代表 — 錯誤**
+
+屏東市有市民代表，但沒有市議員。這是本題最容易混淆的地方。
+
+**(D) 縣議員、市民代表 — 正確**
+
+屏東縣設縣議會，屏東市設市民代表會，兩者都是與屏東市有關的地方民意機關。
+
+### 四、二選一決勝｜C vs. D
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">C 市議員＋市民代表 ✕</text>
+      **市議員**
+
+      <text size="sm">屏東市是縣轄市，沒有市議員。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">D 縣議員＋市民代表 ✓</text>
+      **縣議員**
+
+      <text size="sm">屏東市隸屬屏東縣，因此有縣議員及市民代表。</text>
+    </box>
+  </grid-item>
+</grid>
+
+兩個選項都有「市民代表」，所以**最後二選一只需判斷：屏東市的上層行政區是屏東縣，應選縣議員。**
+
+### 五、考場快速判斷
+
+| 地方行政區 | 地方民意代表 |
+|---|---|
+| 直轄市（如新北市） | 直轄市議員 |
+| 縣（如屏東縣） | 縣議員 |
+| 縣轄市（如屏東市） | 市民代表 |
+| 鄉、鎮 | 鄉民代表、鎮民代表 |
+
+**記憶口訣：直轄市有市議員，縣轄市有市民代表。**
+
+### 六、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題與四選項 | <icon name="check-circle" color="success" inline/> 已依照片核對 |
+| P0 正確答案 | D，符合地方自治制度 |
+| P1 四選項辨析 | 完成 |
+| P1 二選一決勝 | C 市議員 vs. D 縣議員 |
+| P2 精準圖解 | 已完成行政層級圖 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 未提供作答過程，不能確定 |
+
+**本題最值得優先改善的判斷習慣：看到「○○市」，先確認它是直轄市還是縣轄市，不要只憑名稱有「市」就選市議員。**

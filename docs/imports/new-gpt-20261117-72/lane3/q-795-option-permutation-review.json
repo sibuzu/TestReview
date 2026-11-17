@@ -1,0 +1,39 @@
+{
+  "newCandidateId": "s72-history-09",
+  "proposedExistingId": "q-795",
+  "earliestDate": "2026-10-29",
+  "oldQuestion": "附圖為中國歷史上與英國簽訂某種官方文件的部分內容，根據圖中內容判斷，當時雙方簽訂此文件的主要目的最可能為下列何者？\n\n(A) 鴉片戰爭過後，簽約結束戰爭狀態\n(B) 於開羅舉行會議，討論亞洲的事務\n(C) 中國對日宣戰後，與盟國平等往來\n(D) 英國犧牲利益，換取中國對日宣戰",
+  "newQuestion": "附圖為中國歷史上與英國簽訂某種官方文件的部分內容，根據圖中內容判斷，當時雙方簽訂此文件的主要目的最可能為下列何者？\n(A) 鴉片戰爭過後，簽約結束戰爭狀態\n(B) 中國對日宣戰後，與盟國平等往來\n(C) 於開羅舉行會議，討論亞洲的事務\n(D) 英國犧牲利益，換取中國對日宣戰",
+  "oldPassage": "【原卷所附文件節錄】\n英王陛下放棄關於在中國通商口岸制度之一切現行條約權利。\n英王陛下放棄關於上海及廈門公共租借特別法院一切之現行條約權利。\n英王陛下放棄要求任用英籍臣民為中國海關總稅務司之任何權利。",
+  "newPassage": "英王陛下放棄關於在中國通商口岸制度之一切現行條約權利。\n英王陛下放棄關於上海及廈門公共租借特別法院一切之現行條約權利。\n英王陛下放棄要求任用英籍臣民為中國海關總稅務司之任何權利。",
+  "newToExistingOptionMapping": {
+    "A": "A",
+    "B": "C",
+    "C": "B",
+    "D": "D"
+  },
+  "answerContent": "中國對日宣戰後，與盟國平等往來",
+  "existingAnswerLabel": "C",
+  "newAnswerLabel": "B",
+  "originalsActuallyViewed": [
+    "site/dist/assets/questions/q-795-original.png",
+    "site/dist/assets/questions/q-795-figure-original.png",
+    "docs/source-pages/chatgpt-6afc7636-9.jpg",
+    "docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-09-original.jpg"
+  ],
+  "materialComparison": "條約三段逐字相同，兩原卷均印公共租借特別法院；官方用字租界差異已在q795解說保留。",
+  "decision": "manual duplicate: option permutation only; preserve existing q795 full options/answerC/date; archive new B mapping and full source without changing formal question",
+  "diff": [
+    "--- existing-q795\n",
+    "+++ new-source72-index9\n",
+    "@@ -1,6 +1,5 @@\n",
+    " 附圖為中國歷史上與英國簽訂某種官方文件的部分內容，根據圖中內容判斷，當時雙方簽訂此文件的主要目的最可能為下列何者？",
+    "-",
+    " (A) 鴉片戰爭過後，簽約結束戰爭狀態",
+    "-(B) 於開羅舉行會議，討論亞洲的事務",
+    "-(C) 中國對日宣戰後，與盟國平等往來",
+    "+(B) 中國對日宣戰後，與盟國平等往來",
+    "+(C) 於開羅舉行會議，討論亞洲的事務",
+    " (D) 英國犧牲利益，換取中國對日宣戰"
+  ]
+}

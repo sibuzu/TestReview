@@ -1,0 +1,8 @@
+from pathlib import Path
+import json,hashlib,datetime,sys
+R=Path(__file__).resolve().parents[4];P=Path(__file__).parent
+qid=sys.argv[1];c=json.load(open(P/f'{qid}-content.json'));q=json.load(open(R/f'docs/complete-questions/{qid}.json'));g=json.load(open(P/f'{qid}-generation.json'));imgs=[x['destination'] for x in g]
+assert len(imgs)==4 and len(set(hashlib.sha256((R/x).read_bytes()).hexdigest() for x in imgs))==4
+s=dict(id=qid,subject='Biology',title=c['title'],art=imgs[0],layoutVersion='native-four-images-v7',generationMethod='four independent built-in imagegen calls; newly generated high-detail near-realistic science textbook illustrations',sourceGeneratedArtUsed=False,reusedOldGeneratedArt=False,originalMaterialsChecked=True,originalMaterials=['site/dist/'+x for x in q['images']]+['site/dist/'+x['src'] for x in q['questionFigures']],answerCheckedAgainst=q['explanation'],rationale=c['rationale'],producerAgent='/root/comic_lane_3',visualChecked=False,panels=[dict(heading=h,text=t,image=imgs[i],alt=c['alts'][i]) for i,(h,t) in enumerate(c['panels'])],fourth=dict(answer=c['answer'],points=c['points'],image=imgs[3],alt=c['alts'][3]),protectedWords=c['protectedWords'],manualLineBreaks=False,promptFile=str((P/f'{qid}-prompts.json').relative_to(R)),generationEvidence=str((P/f'{qid}-generation.json').relative_to(R)),artHashes={x:hashlib.sha256((R/x).read_bytes()).hexdigest() for x in imgs},supportingSources=c.get('sources',[]),createdAt=datetime.datetime.now(datetime.timezone.utc).isoformat())
+s['panels'][0]['caption']='新製科學教材插畫，非原卷或實拍。'
+(R/f'docs/comics/{qid}.json').write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n')

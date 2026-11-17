@@ -1,0 +1,245 @@
+[message 111, user]
+19@錯題B → A
+
+[message 112, system]
+
+
+[message 113, system]
+
+
+[message 114, system]
+
+
+[message 115, assistant]
+## 第19題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 B → 正解 A</badge>
+
+**核心觀念：1928年張作霖遭日本關東軍炸死，稱為「皇姑屯事件」，發生於國民革命軍北伐末期。**
+
+### 一、原題證據核對
+
+題目描述張作霖於1928年搭乘火車時，遭日本關東軍以預先埋設的炸彈攻擊，後來不治身亡。
+
+題目問：這件事發生在哪一個時期？
+
+| 選項 | 歷史時期 | 判斷 |
+|---|---|---|
+| **(A)** | **北伐期間** | **正確 ✓** |
+| (B) | 十年建設期間 | 原選，錯誤 |
+| (C) | 八年抗戰期間 | 錯誤 |
+| (D) | 國共內戰期間 | 錯誤 |
+
+**題幹的決定性線索是「1928年＋張作霖＋日本關東軍炸火車」。**
+
+這是1928年6月4日的皇姑屯事件，不能與1931年的九一八事變混淆。
+
+
+
+[message 116, assistant]
+
+
+[message 117, tool]
+The output of this plugin was redacted.
+
+[message 118, tool]
+The output of this plugin was redacted.
+
+[message 119, assistant]
+
+
+[message 120, assistant]
+
+
+[message 121, assistant]
+## 第19題｜@錯題 融合模式 v2.1
+
+<badge color="success">原選 B → 正解 A</badge>
+
+**核心觀念：1928年張作霖遭日本關東軍炸死，稱為「皇姑屯事件」，發生於國民革命軍北伐末期。**
+
+### 一、原題證據核對
+
+題目描述張作霖於1928年搭乘火車時，遭日本關東軍以預先埋設的炸彈攻擊，後來不治身亡。
+
+題目問：這件事發生在哪一個時期？
+
+| 選項 | 歷史時期 | 判斷 |
+|---|---|---|
+| **(A)** | **北伐期間** | **正確 ✓** |
+| (B) | 十年建設期間 | 原選，錯誤 |
+| (C) | 八年抗戰期間 | 錯誤 |
+| (D) | 國共內戰期間 | 錯誤 |
+
+**題幹的決定性線索是「1928年＋張作霖＋日本關東軍炸火車」。**
+
+這是1928年6月4日的皇姑屯事件，不能與1931年的九一八事變混淆。
+
+### 二、精準時間軸｜為何1928年要選北伐？
+
+<box border radius="lg" padding={3} gap={2}>
+  <list marker="number" connector="solid" gap={3}>
+    <list-item>
+      **1926年｜北伐開始**
+
+      國民革命軍出師北伐，目標是打倒軍閥、統一中國。
+    </list-item>
+    <list-item>
+      <box background="rgba(24,140,95,0.09)" padding={3} radius="md" gap={1}>
+        **1928年6月4日｜皇姑屯事件**
+
+        北伐軍逼近北京，張作霖撤回東北途中遭日本關東軍炸死。
+
+        <text color="success" weight="medium" size="sm">本題：A 北伐期間 ✓</text>
+      </box>
+    </list-item>
+    <list-item>
+      **1928年12月｜東北易幟**
+
+      張學良宣布服從南京國民政府，象徵北伐完成、全國大致統一。
+    </list-item>
+    <list-item>
+      **1928～1937年｜十年建設**
+
+      通常指南京國民政府相對穩定推動各項建設的時期，與1928年的北伐尾聲有年代重疊。
+    </list-item>
+  </list>
+  <caption>史實參考：國立公共資訊圖書館、國史館及中國文化研究院。<Cite refs={["turn550815search6","turn550815search1","turn550815search12"]}/></caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷理由 |
+|---|---|
+| **A 北伐期間 ✓** | 1928年6月北伐軍正向北京推進，張作霖撤退途中遇害。 |
+| B 十年建設期間 | 兩個時期在1928年有重疊，但事件直接發生於北伐戰事背景中，因此 A 更精確。 |
+| C 八年抗戰期間 | 通常指1937～1945年，晚於皇姑屯事件。 |
+| D 國共內戰期間 | 指國共軍事衝突，並非此事件所屬的主要歷史背景。 |
+
+### 四、二選一決勝｜B vs. A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">B 十年建設</text>
+      <text color="secondary" size="xs">1928～1937年</text>
+      <icon name="building-2" size="2xl" color="secondary"/>
+      <text size="sm">國民政府在相對統一的局勢下推動政治、經濟及交通等建設。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">A 北伐期間 ✓</text>
+      <text color="secondary" size="xs">1926～1928年</text>
+      <icon name="flag" size="2xl" color="success"/>
+      <text size="sm">國民革命軍北伐，張作霖撤回東北途中發生皇姑屯事件。</text>
+    </box>
+  </grid-item>
+</grid>
+
+**最重要的細節：1928年同時出現在兩個歷史階段的年代範圍內。**
+
+因此不能只用「1928」選答案，還要看事件背景：
+
+- 張作霖、軍閥撤退、北伐軍逼近北京 → **北伐**
+- 國民政府推動經濟、交通、財政等建設 → **十年建設**
+
+### 五、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題、選項、正解 | 已核對，A |
+| P1 誤選與正解辨析 | 已完成，特別指出1928年的年代重疊 |
+| P2 精準時間圖解 | 已完成 |
+| 外部史料 | 已核對北伐與皇姑屯事件的時間及背景 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 尚無作答過程，不能確定 |
+
+**本題考場決勝一句話：歷史時期重疊時，不能只比年份，要以事件發生的直接背景決定答案。**
+
+這也正是本題 A 比 B 更適合的原因。
+
+[message 122, assistant]
+### 二、精準時間軸｜為何1928年要選北伐？
+
+<box border radius="lg" padding={3} gap={2}>
+  <list marker="number" connector="solid" gap={3}>
+    <list-item>
+      **1926年｜北伐開始**
+
+      國民革命軍出師北伐，目標是打倒軍閥、統一中國。
+    </list-item>
+    <list-item>
+      <box background="rgba(24,140,95,0.09)" padding={3} radius="md" gap={1}>
+        **1928年6月4日｜皇姑屯事件**
+
+        北伐軍逼近北京，張作霖撤回東北途中遭日本關東軍炸死。
+
+        <text color="success" weight="medium" size="sm">本題：A 北伐期間 ✓</text>
+      </box>
+    </list-item>
+    <list-item>
+      **1928年12月｜東北易幟**
+
+      張學良宣布服從南京國民政府，象徵北伐完成、全國大致統一。
+    </list-item>
+    <list-item>
+      **1928～1937年｜十年建設**
+
+      通常指南京國民政府相對穩定推動各項建設的時期，與1928年的北伐尾聲有年代重疊。
+    </list-item>
+  </list>
+  <caption>史實參考：國立公共資訊圖書館、國史館及中國文化研究院。<Cite refs={["turn550815search6","turn550815search1","turn550815search12"]}/></caption>
+</box>
+
+### 三、四選項逐項辨析
+
+| 選項 | 判斷理由 |
+|---|---|
+| **A 北伐期間 ✓** | 1928年6月北伐軍正向北京推進，張作霖撤退途中遇害。 |
+| B 十年建設期間 | 兩個時期在1928年有重疊，但事件直接發生於北伐戰事背景中，因此 A 更精確。 |
+| C 八年抗戰期間 | 通常指1937～1945年，晚於皇姑屯事件。 |
+| D 國共內戰期間 | 指國共軍事衝突，並非此事件所屬的主要歷史背景。 |
+
+### 四、二選一決勝｜B vs. A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">B 十年建設</text>
+      <text color="secondary" size="xs">1928～1937年</text>
+      <icon name="building-2" size="2xl" color="secondary"/>
+      <text size="sm">國民政府在相對統一的局勢下推動政治、經濟及交通等建設。</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">A 北伐期間 ✓</text>
+      <text color="secondary" size="xs">1926～1928年</text>
+      <icon name="flag" size="2xl" color="success"/>
+      <text size="sm">國民革命軍北伐，張作霖撤回東北途中發生皇姑屯事件。</text>
+    </box>
+  </grid-item>
+</grid>
+
+**最重要的細節：1928年同時出現在兩個歷史階段的年代範圍內。**
+
+因此不能只用「1928」選答案，還要看事件背景：
+
+- 張作霖、軍閥撤退、北伐軍逼近北京 → **北伐**
+- 國民政府推動經濟、交通、財政等建設 → **十年建設**
+
+### 五、v2.1 品質檢核
+
+| 項目 | 結果 |
+|---|---|
+| P0 原題、選項、正解 | 已核對，A |
+| P1 誤選與正解辨析 | 已完成，特別指出1928年的年代重疊 |
+| P2 精準時間圖解 | 已完成 |
+| 外部史料 | 已核對北伐與皇姑屯事件的時間及背景 |
+| 國中教材唯讀搜尋 | 尚未查核 |
+| 實際誤選原因 | 尚無作答過程，不能確定 |
+
+**本題考場決勝一句話：歷史時期重疊時，不能只比年份，要以事件發生的直接背景決定答案。**
+
+這也正是本題 A 比 B 更適合的原因。

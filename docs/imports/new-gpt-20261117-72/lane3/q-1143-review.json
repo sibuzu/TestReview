@@ -1,0 +1,61 @@
+{
+  "id": "q-1143",
+  "candidateId": "q-1143",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-11.jpg",
+    "docs/source-pages/chatgpt-6afc7636-12.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-11-original.jpg",
+    "site/dist/assets/questions/q-798-source.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 123,
+    "messageId": "b9131731-c7ba-4ea6-a001-dfcfa28985f3",
+    "firstQuestionTimestamp": 1794927593.356493,
+    "userText": "22@錯題B → D",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-11.jpg",
+    "originalSHA256": "8d579dab8c065af13d474664b1dc5a946cf2d354e0cf3fdad1b8ee79ef04a1e6",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-11.txt",
+    "cropSourceImageIndex": 12,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-11-original.jpg",
+    "cropSHA256": "58b1875a463d56ab27371578207238957dcd788f9536d37d4a2183854eed2c2b",
+    "firstUserTaipei": "2026-11-17T22:59:53.356493+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "duplicate",
+    "basis": "題幹與四選項相同；1937/1948-6/1948-8各米麵油九格值與單位均同；已實看兩原卷。",
+    "existingId": "q-798",
+    "earliestDate": "2026-10-29",
+    "newSource": "https://chatgpt.com/share/6afc7636-b8dc-83ec-a9de-c3ac330e5d27",
+    "oldSource": "https://chatgpt.com/share/6ae2305b-4b44-83ee-997b-6938a4f8d7e4",
+    "oldOriginals": [
+      "site/dist/assets/questions/q-798-source.jpg"
+    ],
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "58b1875a463d56ab27371578207238957dcd788f9536d37d4a2183854eed2c2b",
+  "scientificHistoricalReview": "原表1937與1948年6、8月三項民生物資價位均急升，指向抗戰及戰後國共內戰長期財政壓力、貨幣發行擴大與未解決的通膨，選D。B時間不符：1948年在中央政府1949年遷臺之前；A十年建設屬1930年代的另一階段；C大躍進始於1958年，更晚。原表只寫元，並非今天新臺幣；不可把萬或月份漏掉，也不把各項物資的不同價格互相比成同一單位。",
+  "supportingSources": [
+    {
+      "title": "檔案管理局：金圓券沿革",
+      "url": "https://aa.archives.gov.tw/ELK/NAAMaterialDetail?DID=2155",
+      "supports": "1948年8月幣制改革及通膨危機未解決。"
+    },
+    {
+      "title": "檔案管理局：中央銀行史料",
+      "url": "https://www.archives.gov.tw/wSite/public/Attachment/0/f1717662462440.pdf",
+      "supports": "37年8月國共戰爭緊張引發通膨及發行金圓券。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

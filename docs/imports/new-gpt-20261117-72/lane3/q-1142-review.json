@@ -1,0 +1,47 @@
+{
+  "id": "q-1142",
+  "candidateId": "q-1142",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "essentialMaterialReadable": true,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6afc7636-10.jpg",
+    "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-10-original.jpg"
+  ],
+  "inclusionEvidence": {
+    "messageIndex": 111,
+    "messageId": "d7a41062-ca99-4ce3-9705-e18570d598af",
+    "firstQuestionTimestamp": 1794927518.864881,
+    "userText": "19@錯題B → A",
+    "originalPath": "docs/source-pages/chatgpt-6afc7636-10.jpg",
+    "originalSHA256": "c96daf436c848efe2186f107a397a348802453678da8788abbc159869771e231",
+    "sourceTurnExtract": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/source-10.txt",
+    "cropSourceImageIndex": 10,
+    "cropPath": "/home/jack/codex-git/TestReview/docs/imports/new-gpt-20261117-72/lane3/crops/s72-history-10-original.jpg",
+    "cropSHA256": "5ca65589f7381a1cd6b0be544c4e905c37d41cd7fe2b69add9124c53e83fd7c1",
+    "firstUserTaipei": "2026-11-17T22:58:38.864881+08:00"
+  },
+  "duplicateReview": {
+    "source": "原始24 User附件，已排除來源AI圖與同頁非指定題",
+    "indexCandidates": "docs/imports/new-gpt-20261117-72/lane3/duplicate-candidates.json",
+    "phraseSearch": "docs/imports/new-gpt-20261117-72/lane3/duplicate-phrase-search.json",
+    "method": "META candidates + distinctive full-bank phrase search + full question/options/materials + original-image visual comparison; URL/hash/title alone not identity",
+    "decision": "new",
+    "basis": "無META exact/similar候選；獨特片語與完整全庫比對未見同題。",
+    "relatedComparisonFile": "docs/imports/new-gpt-20261117-72/lane3/related-not-duplicates.json"
+  },
+  "cropping": "Native rectangular crop only; red/blue handwriting retained; tiny adjoining lines may remain due oblique source, and never become extra questions. No de-red, inpainting or reconstruction.",
+  "cropSHA256": "5ca65589f7381a1cd6b0be544c4e905c37d41cd7fe2b69add9124c53e83fd7c1",
+  "scientificHistoricalReview": "張作霖遭炸是1928年6月4日皇姑屯事件，發生於北伐末期，選A。張作霖從北京撤返東北途中遭關東軍炸擊，不是1931年九一八。十年建設常概括1928至1937，但題目要依皇姑屯發生在北伐尚未結束的具體時點判斷；1928年12月東北易幟後才象徵全國名義統一。C全面抗戰為1937至1945；D題設戰後國共內戰為1946至1949，都較晚。",
+  "supportingSources": [
+    {
+      "title": "中華郵政：陸海軍大元帥就任紀念郵票史料",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index_en.jsp?ID=2807&file_name=B007&keyword=%25&stamp_cat_standard=%25&stamp_subcat_name=%25&stamp_year=%25&type=2808",
+      "supports": "1928年6月北伐軍逼近北京、張作霖撤返途中皇姑屯遭炸的同一時期背景。"
+    }
+  ],
+  "materialNote": "",
+  "passed": true,
+  "checkedAt": "2026-11-17T16:05:07.878626+00:00"
+}

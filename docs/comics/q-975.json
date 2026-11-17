@@ -2,80 +2,29 @@
   "id": "q-975",
   "subject": "Biology",
   "title": "同樣能傳遞，循環方式卻不同",
-  "art": "docs/comics/art/q-975.svg",
-  "layoutVersion": "native-fluid-v6",
+  "art": "docs/comics/art/q-975-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
   "panels": [
     {
       "heading": "① 攝食同時傳遞物質與能量",
       "text": "植物被草食動物取食，再傳到其他消費者。食物中的物質及化學能都能沿食物鏈傳遞。",
-      "alt": "中文食物鏈標出物質和化學能隨攝食傳遞，沒有虛構效率百分比。",
-      "diagram": {
-        "kind": "flow",
-        "title": "食物鏈：兩者都能傳遞",
-        "items": [
-          {
-            "label": "植物｜食物含物質與化學能",
-            "tone": "green"
-          },
-          {
-            "label": "草食動物｜取得食物中的物質與能量",
-            "tone": "blue"
-          },
-          {
-            "label": "其他消費者｜再經攝食取得食物",
-            "tone": "blue"
-          }
-        ],
-        "arrow": "攝食，傳遞物質與能量"
-      }
+      "alt": "草、取食草的兔與遠處狐狸的類真實食物鏈情境",
+      "image": "docs/comics/art/q-975-panel-1.png",
+      "caption": "新製草→兔→狐的概念情境：攝食同時傳遞食物物質與化學能，物種是輔助例子，不是原題新增條件。"
     },
     {
       "heading": "② 物質循環，能量單向流動",
       "text": "物質經生物與環境循環；能量逐漸轉為熱而散失，不像物質那樣循環供食物鏈利用。",
-      "alt": "直接以中文分列物質可循環和能量單向轉為熱。",
-      "diagram": {
-        "kind": "paths",
-        "title": "傳遞相同，最後去向不同",
-        "items": [
-          {
-            "label": "物質：生物 → 環境 → 再回生物",
-            "tone": "green",
-            "detail": "可循環再利用。"
-          },
-          {
-            "label": "能量：食物鏈 → 逐漸散失為熱",
-            "tone": "gold",
-            "detail": "能量仍守恆，但不能像物質一樣循環利用。"
-          }
-        ],
-        "arrow": "比較循環方式",
-        "target": "C的「兩者都能循環」不正確"
-      }
+      "alt": "植物根系與落葉菌絲的分解回收教材圖",
+      "image": "docs/comics/art/q-975-panel-2.png",
+      "caption": "落葉經真菌分解、養分回到土壤供植物吸收，示意物質可循環；不表示散失的熱能也循環回植物。"
     },
     {
       "heading": "③ 生產者轉換能量，不創造能量",
       "text": "光合作用可製造有機養分，將光能轉成化學能。製造食物不等於憑空製造能量。",
-      "alt": "光能到有機物化學能的轉換及D的錯誤用語有清楚中文標示。",
-      "diagram": {
-        "kind": "flow",
-        "title": "生產者的能量轉換",
-        "items": [
-          {
-            "label": "太陽光能",
-            "tone": "gold"
-          },
-          {
-            "label": "生產者進行光合作用",
-            "tone": "green"
-          },
-          {
-            "label": "有機物儲存化學能",
-            "tone": "blue"
-          }
-        ],
-        "arrow": "轉換能量",
-        "note": "D把能量轉換誤說成「自製能量」。"
-      }
+      "alt": "日照葉片、葉肉與葉綠體放大的科學插畫",
+      "image": "docs/comics/art/q-975-panel-3.png",
+      "caption": "葉片與葉綠體放大圖：光能轉換成有機物中的化學能；生產者不能憑空創造能量。"
     }
   ],
   "fourth": {
@@ -83,8 +32,12 @@
     "points": [
       "攝食可一起轉移物質與食物中的化學能。",
       "物質可循環；能量主要單向流動並散失為熱。",
-      "生產者可製造養分，不能憑空創造能量。"
-    ]
+      "生產者可製造養分，不能憑空創造能量。",
+      "草、兔、狐及落葉分解者分開呈現；攝食傳遞物質與能量，物質回收與能量散熱須分別看待。"
+    ],
+    "image": "docs/comics/art/q-975-panel-4.png",
+    "alt": "草、兔、狐與落葉分解者分開的自然史標本圖",
+    "caption": "草、兔、狐及落葉分解者分開呈現；攝食傳遞物質與能量，物質回收與能量散熱須分別看待。"
   },
   "protectedWords": [
     "食物鏈",
@@ -94,13 +47,34 @@
     "光合作用",
     "草食動物"
   ],
-  "generationMethod": "new native HTML/CSS diagram blocks; authored SVG fallback; selectable Chinese labels",
+  "generationMethod": "Four independent built-in image_gen calls; high-quality realistic scientific educational illustrations; exact Chinese in selectable HTML",
   "sourceGeneratedArtUsed": false,
   "originalMaterialsChecked": true,
   "sourceUrl": "https://chatgpt.com/share/6aede186-c184-83ee-9f74-2d44b77d6587",
-  "rationale": "比較物質循環與能量單向流動，精確中文流程圖比人物情境更直接；不沿用來源AI圖，也不增加來源AI自編延伸題。",
+  "rationale": "依原題保留已核答案與解說，將舊圖升級為四張細膩類真實生物教材插畫。科學構造與物種關係逐圖核對，精確標示另置HTML，不將插畫當原卷或實拍。",
   "editableDiagramScript": "docs/imports/new-gpt-20261106/prepare-biology11.py",
-  "nativeArt": "assets/comics/q-975-art-4190c091b1.svg",
+  "visualChecked": true,
+  "producerAgent": "/root",
+  "scientificArtwork": true,
+  "artworkIsNewTeachingIllustration": true,
+  "artworkGenerationBatch": "docs/comics/biology-ten-20261117/root-imagegen-records.json",
+  "reworkedAt": "2026-11-17T03:51:23.012464+00:00",
+  "artSHA256": "f627bec972ea951caaf3dc0924e7fc41c30d438e3d76f12b0f9dc37605feb5cb",
+  "checkedAt": "2026-11-17T03:53:26.538260+00:00",
+  "visualReview": "Root實開真正原卷及完整四選項/原B詳解，OpenStax重查，4新圖與1440/390隔離成品實看。草兔狐食物鏈、葉綠體放大、落葉真菌與植物根系回收、4標本分列；物質與能量均攝食傳遞、物質循環/熱散失分清，無能量憑空創造/百分比。3布局PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root",
+    "originalCropsActuallyViewed": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "artContact": ".cache/biology-ten-20261117/q-975-art-contact.png",
+    "previewContact": ".cache/biology-ten-20261117/q-975-preview-contact.png",
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-975-1440.png",
+      "/tmp/weirugo-comic-previews/q-975-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-975-art-f627bec972-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -113,15 +87,23 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
-    "checkedAt": "2026-11-06T14:41:13.493643+00:00",
-    "reviewerAgent": "/root",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
+    "reviewerAgent": "/root/comic_lane_1",
     "visualChecked": true,
-    "decision": "complete",
-    "note": "root實看真正原卷／必要圖、正式app桌手機四格；保留完整原題、全部選項、中文角色與動作及圖形限制。原AI錯誤分別登錄Monitor；未沿用來源AI解說圖。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-975-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-975-app-390.png",
+      "/tmp/weirugo-comic-checks/q-975-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-975-standalone-390.png"
+    ],
+    "originalMaterials": [
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-975-biology11-original-9c1d8c05b785.png"
+    ],
+    "note": "已核原卷完整四選項與B及物質/能量條件。獨立實看4張細膩新圖contact及正式app/單頁桌手機4成品：兔吃草與狐、落葉菌絲及植物根系、葉肉/葉綠體、四標本總覽。攝食可一起傳物質和化學能；回收物質不等於熱能回收，光合轉換非憑空創能，微觀/根系剖面明示教學非實拍，不造固定比例。",
+    "checkedAt": "2026-11-17T03:53:26.517444+00:00"
   },
-  "visualChecked": true,
-  "checkedAt": "2026-11-06T14:41:13.534694+00:00",
   "validationFile": "docs/comics/q-975-validation.json"
 }

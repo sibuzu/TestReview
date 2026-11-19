@@ -1,6 +1,6 @@
 {
   "kind": "explicit_new_source",
-  "state": "curation",
+  "state": "complete",
   "sourceId": "src-more-072",
   "order": 72,
   "url": "https://chatgpt.com/share/6afc7636-b8dc-83ec-a9de-c3ac330e5d27",
@@ -130,7 +130,18 @@
     "q-1144",
     "q-1145",
     "q-1146",
-    "q-1148"
+    "q-1148",
+    "q-1133",
+    "q-1136",
+    "q-1149",
+    "q-1150",
+    "q-1151",
+    "q-1152",
+    "q-1155",
+    "q-1156",
+    "q-1153",
+    "q-1154",
+    "q-1135"
   ],
   "validatedFourImageQuestionIds": [
     "q-1137",
@@ -143,7 +154,17 @@
     "q-1144",
     "q-1145",
     "q-1146",
-    "q-1148"
+    "q-1148",
+    "q-1133",
+    "q-1136",
+    "q-1149",
+    "q-1150",
+    "q-1151",
+    "q-1152",
+    "q-1153",
+    "q-1154",
+    "q-1155",
+    "q-1156"
   ],
   "duplicateQuestionIds": [
     "q-795",
@@ -155,20 +176,15 @@
     "q-1143",
     "q-1147"
   ],
-  "pendingOriginalMaterialQuestionIds": [
-    "q-1153",
-    "q-1154"
-  ],
+  "pendingOriginalMaterialQuestionIds": [],
   "date": "2026-11-17",
   "title": "錯題解析感化教育",
-  "updatedAt": "2026-11-17T16:52:25.343483+00:00",
-  "stage": "questions_published_four_images_in_production",
+  "updatedAt": "2026-11-19T15:35:51.231015+00:00",
+  "stage": "four_images_published_with_pending_review",
   "newOriginalQuestionCount": 21,
   "duplicateOriginalQuestionCount": 3,
   "requiredIllustrationCount": 84,
-  "pendingAnswerQuestionIds": [
-    "q-1135"
-  ],
+  "pendingAnswerQuestionIds": [],
   "publishedQuestionPageCount": 21,
   "integrationEvents": [
     {
@@ -220,9 +236,78 @@
       "id": "q-1148",
       "integrationEventId": "integration-job-7fbe265d862d48f2ac4f8884e7a92f2c",
       "integratedAt": "2026-11-17T16:52:25.300361+00:00"
+    },
+    {
+      "id": "q-1133",
+      "integrationEventId": "integration-job-01af4382aac8497696ed9af9cf532655",
+      "integratedAt": "2026-11-17T17:02:19.544235+00:00"
+    },
+    {
+      "id": "q-1136",
+      "integrationEventId": "integration-job-b516fe0fdc9d4cbabe3895b42cb51850",
+      "integratedAt": "2026-11-17T17:03:38.842903+00:00"
+    },
+    {
+      "id": "q-1149",
+      "integrationEventId": "integration-job-895ecac3d4e74c83851559db75bb25b6",
+      "integratedAt": "2026-11-17T17:06:53.510086+00:00"
+    },
+    {
+      "id": "q-1150",
+      "integrationEventId": "integration-job-6288a9966ff44fcb883d15b00f738238",
+      "integratedAt": "2026-11-17T17:09:10.116347+00:00"
+    },
+    {
+      "id": "q-1151",
+      "integrationEventId": "integration-job-8d986d9b466e46b6a7889d8ecfad7111",
+      "integratedAt": "2026-11-17T17:10:49.913414+00:00"
+    },
+    {
+      "id": "q-1152",
+      "integrationEventId": "integration-job-0a1bd314a33e4f3ebdd53dbe68946fdf",
+      "integratedAt": "2026-11-17T17:12:48.999167+00:00"
+    },
+    {
+      "id": "q-1155",
+      "integrationEventId": "integration-job-3d682af139bc46479c0546b32d9cc5bb",
+      "integratedAt": "2026-11-17T17:29:40.506804+00:00"
+    },
+    {
+      "id": "q-1156",
+      "integrationEventId": "integration-job-c92822993da54e1094b05fd40cfbab2a",
+      "integratedAt": "2026-11-17T17:31:21.413742+00:00"
+    },
+    {
+      "id": "q-1153",
+      "integrationEventId": "integration-job-dc06fb0961b64abe898869fed2d62f01",
+      "integratedAt": "2026-11-19T15:29:46.660122+00:00"
+    },
+    {
+      "id": "q-1154",
+      "integrationEventId": "integration-job-efbbabb17dbd436899d723f5bd7151ae",
+      "integratedAt": "2026-11-19T15:29:46.798777+00:00"
+    },
+    {
+      "id": "q-1135",
+      "integrationEventId": "integration-job-c64b747e26ad4004b79eab2a18f84e20",
+      "integratedAt": "2026-11-19T15:35:51.120889+00:00"
     }
   ],
-  "validatedIllustrationCount": 44,
-  "completedOriginalQuestionCount": 10,
-  "illustrationsOutstanding": 40
+  "validatedIllustrationCount": 84,
+  "completedOriginalQuestionCount": 21,
+  "illustrationsOutstanding": 0,
+  "publicationBatches": [
+    {
+      "batchNumber": 38,
+      "commit": "d8c2f1360e13a688ce75588ed285b2c5563b9540",
+      "verifiedEventCount": 20,
+      "priorBiologyCount": 10,
+      "thisSourceCount": 10
+    }
+  ],
+  "latestPushedCommit": "d8c2f1360e13a688ce75588ed285b2c5563b9540",
+  "pendingPublicationEvents": 23,
+  "productionStopped": true,
+  "pendingContentQuestionIds": [],
+  "lastMaterialOrConfirmationUpdate": "docs/imports/monitor-confirmation-sync-20261119/q-1135"
 }

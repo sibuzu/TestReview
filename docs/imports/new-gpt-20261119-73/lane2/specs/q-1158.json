@@ -1,0 +1,84 @@
+{
+  "id": "q-1158",
+  "subject": "Physics-Chemistry",
+  "title": "反應係數與平衡存量不能混用",
+  "art": "docs/imports/new-gpt-20261119-73/lane2/art/q-1158-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 係數說的是反應比例",
+      "text": "N₂＋3H₂ ⇌ 2NH₃；每消耗1 mol N₂與3 mol H₂，會生成2 mol NH₃。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1158-panel-1.svg",
+      "alt": "第1張新製科學示意：係數說的是反應比例",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    },
+    {
+      "heading": "② 平衡是動態的",
+      "text": "平衡時正反應與逆反應速率相等，各物質存量維持不變；不是反應停止。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1158-panel-2.svg",
+      "alt": "第2張新製科學示意：平衡是動態的",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    },
+    {
+      "heading": "③ 加入H₂可增加NH₃",
+      "text": "在其餘條件適當且不變時，系統向消耗H₂、生成NH₃的方向調整。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1158-panel-3.svg",
+      "alt": "第3張新製科學示意：加入H₂可增加NH₃",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D",
+    "points": [
+      "D錯：係數比不是平衡存量比。",
+      "第四圖只是守恆計算例，非指定平衡組成。",
+      "原卷200 atm、500°C、Fe₂O₃照留。"
+    ],
+    "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1158-panel-4.svg",
+    "alt": "第4張新製圖解：反應係數與平衡存量不能混用"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261119-73/lane2/crops/q-1158-original.png"
+  ],
+  "answerCheckedAgainst": "答案D。反應式N₂＋3H₂ ⇌ 2NH₃中的1：3：2，表示反應進行時各物質「消耗或生成的莫耳數比例」，不代表達到平衡時容器內各物質「剩餘的莫耳數比例」。例如在定容、定溫的密閉系統中，原有N₂為2 mol、H₂為6 mol，若某時已淨消耗N₂ 0.5 mol，則H₂淨消耗1.5 mol、NH₃淨生成1 mol；此時N₂與NH₃的量為1.5：1，並非1：2。這只是守恆計算例，不宣稱該組數字一定就是指定條件的平衡組成。真正平衡量仍取決於起始量與反應條件。\n\nA：雙向箭頭表示可逆反應；平衡時正、逆反應仍持續，速率相同，並非反應停止。B：在其他條件適當且不變時，加入H₂會使系統向消耗H₂、生成NH₃的方向調整。C：此反應氣體反應係數總和由左側4變右側2，改變體積造成的壓力變化可影響平衡；溫度也會改變平衡組成。D把反應比例誤當平衡存量，所以是錯誤敘述。\n\n原卷反應條件照錄200 atm、500°C及Fe₂O₃；本題判斷重點是反應係數與平衡量，不需藉更動原卷催化劑標示來作答。",
+  "rationale": "原卷完整題幹/全部選項及必要圖文逐項核對，四張新圖分別讀條件、辨關係、推導與整合；不使用來源AI圖。",
+  "generationMethod": "four newly authored exact native SVG scientific diagrams",
+  "producerAgent": "/root/comic_lane_2",
+  "layoutVersion": "native-four-images-v7",
+  "createdAt": "2026-11-19T14:32:39.777414+00:00",
+  "protectedWords": [
+    "二氧化碳",
+    "碳酸氫鈉",
+    "乙酸乙酯",
+    "濃硫酸",
+    "氫氧化鈉",
+    "牛頓第二運動定律",
+    "加速度",
+    "摩擦力",
+    "CH₃COOC₂H₅",
+    "CH₃COOH",
+    "C₂H₅OH",
+    "NaHCO₃",
+    "HCO₃⁻",
+    "Ba(OH)₂",
+    "BaSO₄"
+  ],
+  "visualChecked": true,
+  "producerVisualChecked": true,
+  "checkedAt": "2026-11-19T14:33:32.951693+00:00",
+  "artSHA256": "6965d5876577d164a341223d46ab0241c97e90c65aa27030b80da8c8a67a34fb",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      ".cache/intake-20261119-73-lane2/q-1158-preview-1440.png",
+      ".cache/intake-20261119-73-lane2/q-1158-preview-390.png"
+    ],
+    "artContactSheet": ".cache/intake-20261119-73-lane2/q-1158-art-contact.png",
+    "validationFile": "docs/imports/new-gpt-20261119-73/lane2/qa/q-1158-validation.json"
+  }
+}

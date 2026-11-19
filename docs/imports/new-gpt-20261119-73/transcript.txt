@@ -1,0 +1,1706 @@
+user
+[原始附件 sediment://file_000000005c948206b3f9edfd4f85ac00?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+9@錯題D→ B
+
+assistant
+
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜自然科第9題
+
+<text color="secondary" size="sm">主題：化學反應與二氧化碳的產生</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 B</badge>
+  <text color="secondary" weight="medium">原選 D → 正解 B</text>
+</row>
+
+### 一、原題與關鍵判斷
+
+**題目：** 下列哪一組物質反應後，會產生二氧化碳氣體？
+
+| 選項 | 反應物 | 判斷 |
+|---|---|---|
+| A | 鎂和稀硫酸 | 產生氫氣 |
+| **B** | **碳酸氫鈉和稀硫酸** | **產生二氧化碳 ✓** |
+| C | 雙氧水和二氧化錳 | 產生氧氣 |
+| D | 醋酸和氫氧化鈉 | 酸鹼中和，不產生 CO₂ |
+
+**決勝關鍵：要產生 CO₂，優先檢查反應物有沒有碳酸鹽或碳酸氫鹽。**
+
+### 二、精準比較圖解
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={3} gap={2}>
+        <text weight="medium" color="success" textAlign="center">B｜碳酸氫鈉＋稀硫酸</text>
+        <svg viewBox="0 0 160 130" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 42 L40 108 Q40 116 50 116 L110 116 Q120 116 120 108 L120 42" fill="none" stroke="currentColor" strokeWidth="2.5"/>
+          <path d="M43 78 L117 78 L117 107 Q117 113 108 113 L52 113 Q43 113 43 107 Z" fill="#93C5FD" opacity=".6"/>
+          {#each [[64,72,4],[85,62,6],[99,86,3],[70,95,5],[91,46,4],[82,24,5],[105,18,3]] as b,i}
+            <circle key={i} cx={b[0]} cy={b[1]} r={b[2]} stroke="#15803D" strokeWidth="1.6" fill="#BBF7D0"/>
+          {/each}
+          <path d="M82 6 L82 13 M82 13 L78 9 M82 13 L86 9" stroke="#15803D" strokeWidth="1.5" fill="none"/>
+        </svg>
+        <text textAlign="center" size="sm" weight="medium">產生 CO₂ 氣泡</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={3} gap={2}>
+        <text weight="medium" textAlign="center">D｜醋酸＋氫氧化鈉</text>
+        <svg viewBox="0 0 160 130" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 42 L40 108 Q40 116 50 116 L110 116 Q120 116 120 108 L120 42" fill="none" stroke="currentColor" strokeWidth="2.5"/>
+          <path d="M43 78 L117 78 L117 107 Q117 113 108 113 L52 113 Q43 113 43 107 Z" fill="#93C5FD" opacity=".6"/>
+          <g fill="#64748B">
+            <circle cx="61" cy="95" r="2"/><circle cx="78" cy="85" r="2"/><circle cx="101" cy="97" r="2"/><circle cx="93" cy="108" r="2"/>
+          </g>
+          <path d="M65 25 L95 55 M95 25 L65 55" stroke="#DC2626" strokeWidth="4" strokeLinecap="round"/>
+        </svg>
+        <text textAlign="center" size="sm" weight="medium">中和反應，無 CO₂</text>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>概念示意：B 有氣體生成；D 主要形成醋酸鈉和水。圖中氣泡不是實際數量或大小比例。</caption>
+</box>
+
+### 三、為什麼 D 錯、B 對？
+
+**你選 D：醋酸＋氫氧化鈉**
+
+這是典型酸鹼中和反應：
+
+\[
+\mathrm{CH_3COOH+NaOH}
+\]
+\[
+\mathrm{\rightarrow CH_3COONa+H_2O}
+\]
+
+產物是醋酸鈉和水，沒有二氧化碳。
+
+**正解 B：碳酸氫鈉＋稀硫酸**
+
+碳酸氫鈉遇酸，會產生二氧化碳：
+
+\[
+\mathrm{2NaHCO_3+H_2SO_4}
+\]
+\[
+\mathrm{\rightarrow Na_2SO_4+2CO_2+2H_2O}
+\]
+
+產生的 CO₂ 會以氣泡形式逸出。
+
+### 四、會考最後二選一決勝
+
+| 比較 | B（正解） | D（原選） |
+|---|---|---|
+| 有酸參與 | ✓ | ✓ |
+| 含碳酸氫根 | ✓ | ✗ |
+| 產生 CO₂ | ✓ | ✗ |
+| 核心反應 | 酸＋碳酸氫鹽 | 酸＋鹼 |
+
+**考場 5 秒判斷法：**
+
+看到「產生二氧化碳」，立刻找：
+
+- 碳酸鹽：例如 CaCO₃
+- 碳酸氫鹽：例如 NaHCO₃
+
+它們遇到酸，通常會產生 CO₂。
+
+但要注意：**不是所有含碳的物質遇酸都會產生 CO₂。** 醋酸本身雖然含碳，與氫氧化鈉中和也不會產生 CO₂。
+
+### 五、這題的誤選診斷
+
+<text weight="medium">可能的判斷陷阱：把「酸鹼中和」和「酸與碳酸氫鹽反應」混淆。</text>
+
+目前只能確認原選 D、正解 B；沒有原始作答思路，不能斷定孩子實際為何選 D。
+
+**一句話記住：**
+
+> 酸遇碳酸（氫）鹽，常產生 CO₂；酸遇一般鹼，主要是中和反應。
+
+<divider color="subtle"/>
+
+<text color="secondary" size="xs">品質檢核：P0 原題四選項已依上傳照片確認，答案 B 經化學反應式獨立核對；P1 圖解與反應概念一致；教材狀態：本題尚未使用國中教材唯讀搜尋，不宣稱已核對課本頁碼。</text>
+
+user
+[原始附件 sediment://file_00000000df5882068fa7dfba81b57e97?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+19@錯題c→ D
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜自然科第19題
+
+<text color="secondary" size="sm">主題：哈伯法、化學平衡與反應係數</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 D</badge>
+  <text color="secondary" weight="medium">原選 C → 正解 D</text>
+</row>
+
+### 一、原題與關鍵判斷
+
+題目：下列關於此反應的敘述，何者**錯誤**？
+
+哈伯法製氨：
+
+\[
+\mathrm{N_2+3H_2\rightleftharpoons 2NH_3}
+\]
+
+反應條件：200 atm、500°C，題圖標示 Fe₂O₃。
+
+| 選項 | 敘述 | 判斷 |
+|---|---|---|
+| A | 為可逆反應 | 正確，雙向箭頭 |
+| B | 大量加入 H₂，可增加 NH₃ 產量 | 正確，平衡向右移動 |
+| C | 改變壓力或溫度，會影響平衡狀態 | 正確 |
+| **D** | **達平衡時，N₂ 與 NH₃ 的莫耳數比為 1：2** | **錯誤 ✓** |
+
+### 二、精準圖解：反應係數不等於平衡莫耳數
+
+<box border radius="lg" padding={3} gap={3}>
+  <text weight="medium" textAlign="center">化學反應式代表的反應比例</text>
+  <grid columns={3} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={2} align="center" gap={2}>
+        <svg viewBox="0 0 100 65" width="100%">
+          <circle cx="35" cy="32" r="15" fill="#60A5FA" stroke="#2563EB" strokeWidth="1.5"/>
+          <circle cx="65" cy="32" r="15" fill="#60A5FA" stroke="#2563EB" strokeWidth="1.5"/>
+          <text x="35" y="36" fill="#172554" textAnchor="middle" fontSize="11" fontWeight="bold">N</text>
+          <text x="65" y="36" fill="#172554" textAnchor="middle" fontSize="11" fontWeight="bold">N</text>
+        </svg>
+        <text weight="medium">1 N₂</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={2} align="center" gap={2}>
+        <svg viewBox="0 0 100 65" width="100%">
+          {#each [17,50,83] as x}
+            <g>
+              <circle cx={x-6} cy="32" r="7" fill="#86EFAC" stroke="#15803D"/>
+              <circle cx={x+6} cy="32" r="7" fill="#86EFAC" stroke="#15803D"/>
+            </g>
+          {/each}
+        </svg>
+        <text weight="medium">3 H₂</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={2} align="center" gap={2}>
+        <svg viewBox="0 0 100 65" width="100%">
+          {#each [28,72] as x}
+            <g>
+              <circle cx={x} cy="24" r="11" fill="#60A5FA" stroke="#2563EB"/>
+              <circle cx={x-12} cy="39" r="6" fill="#86EFAC" stroke="#15803D"/>
+              <circle cx={x+12} cy="39" r="6" fill="#86EFAC" stroke="#15803D"/>
+              <circle cx={x} cy="46" r="6" fill="#86EFAC" stroke="#15803D"/>
+            </g>
+          {/each}
+        </svg>
+        <text weight="medium">2 NH₃</text>
+      </box>
+    </grid-item>
+  </grid>
+  <text size="sm" textAlign="center">這是反應時的消耗與生成比例，不是平衡時容器內的總量比例。</text>
+  <divider color="subtle"/>
+  <text weight="medium" textAlign="center">平衡時的示例（假設值）</text>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box background="surface" border radius="md" padding={3} align="center" gap={1}>
+        <title size="xl" color="default" tabularNums>1 mol</title>
+        <text color="secondary" size="xs">剩餘 N₂</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface" border radius="md" padding={3} align="center" gap={1}>
+        <title size="xl" color="default" tabularNums>3 mol</title>
+        <text color="secondary" size="xs">已有 NH₃</text>
+      </box>
+    </grid-item>
+  </grid>
+  <text size="xs" color="secondary">示意數值僅用來說明平衡組成不必為 1：2，並非本題實測資料。</text>
+</box>
+
+### 三、C 與 D：最後二選一決勝
+
+**你原選 C：改變壓力或溫度，會影響平衡狀態。**
+
+這是正確敘述。
+
+- 增加壓力：平衡傾向氣體莫耳數較少的一側，也就是 NH₃ 生成方向。
+- 改變溫度：會改變平衡組成；製氨正反應為放熱反應，升溫通常不利於 NH₃ 的平衡產率。
+
+**正解 D：達平衡時，N₂ 與 NH₃ 的莫耳數比為 1：2。**
+
+錯在把**反應係數比**誤當成**平衡時實際存在的莫耳數比**。
+
+\[
+\underbrace{1:2}_{\text{N₂ 消耗量：NH₃ 生成量}}
+\neq
+\underbrace{\text{平衡時 N₂：NH₃}}_{\text{不能直接由係數判定}}
+\]
+
+平衡時正、逆反應速率相等，三種氣體仍然共存，各自含量由反應條件與初始組成決定。
+
+### 四、會考快速判斷法
+
+看到「化學平衡＋反應係數」，先問自己：
+
+**題目是在問「反應了多少」，還是「平衡時剩多少」？**
+
+- 問消耗量、生成量比例 → 可以使用反應係數。
+- 問平衡時各物質的實際莫耳數比例 → 不能只看係數。
+
+### 五、本題誤選診斷
+
+可能是對「改變溫度、壓力會使平衡移動」的概念尚未完全掌握，或未注意到 D 把係數比當成平衡組成比。
+
+但目前沒有原始作答過程，**不能直接斷定真正錯因**。
+
+**一句話記住：**
+
+> 化學係數告訴我們反應的數量比例，不保證平衡時各物質的剩餘比例。
+
+<divider color="subtle"/>
+
+<text color="secondary" size="xs">品質檢核：P0 已核對照片中的題幹、反應式與四個選項，獨立確認 D 為錯誤敘述；P1 圖解為概念示意，未冒充實測比例；教材證據：尚未使用國中教材唯讀搜尋。</text>
+
+user
+[原始附件 sediment://file_0000000093c88206b04736a511d427dd?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+3@錯題D→ A
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜自然科第3題
+
+<text color="secondary" size="sm">主題：酯化反應｜乙酸乙酯的製備</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 A</badge>
+  <text color="secondary" weight="medium">原選 D → 正解 A</text>
+</row>
+
+### 一、原題與關鍵判斷
+
+**題目：** 利用酯化反應製造乙酸乙酯時，最不需使用下列何種試劑？
+
+| 選項 | 試劑 | 用途與判斷 |
+|---|---|---|
+| **A** | **NaCl（氯化鈉）** | **不是酯化反應必要試劑 ✓** |
+| B | CH₃COOH（乙酸） | 反應物，需要 |
+| C | C₂H₅OH（乙醇） | 反應物，需要 |
+| D | H₂SO₄（硫酸） | 常用濃硫酸作催化劑，需要 |
+
+題目問「最不需」，因此選 **A**。
+
+### 二、精準圖解：三種試劑的角色
+
+<box border radius="lg" padding={3} gap={2}>
+  <box background="surface-secondary" padding={3} radius="md" align="center" gap={1}>
+    <text weight="medium">乙酸 ＋ 乙醇</text>
+    <text color="secondary" size="xs">CH₃COOH ＋ C₂H₅OH</text>
+  </box>
+  <row align="center" justify="center" gap={2}>
+    <icon name="arrow-down" color="secondary" size="lg"/>
+    <box border radius="md" padding={2} gap={1} align="center">
+      <text color="default" weight="medium" size="sm">濃硫酸 H₂SO₄</text>
+      <text color="secondary" size="xs">催化、幫助脫水</text>
+    </box>
+  </row>
+  <box background="rgba(22,163,74,0.07)" border={{size:1,color:"rgba(22,163,74,0.25)"}} padding={3} radius="md" align="center" gap={1}>
+    <text weight="medium">乙酸乙酯 ＋ 水</text>
+    <text color="secondary" size="xs">CH₃COOC₂H₅ ＋ H₂O</text>
+  </box>
+  <row justify="center" align="center" gap={2}>
+    <icon name="x-circle" color="danger"/>
+    <text weight="medium" size="sm">NaCl 不參與上述酯化反應</text>
+  </row>
+</box>
+
+化學反應式：
+
+\[
+\mathrm{CH_3COOH+C_2H_5OH}
+\]
+
+\[
+\underset{\text{濃硫酸、加熱}}{\rightleftharpoons}
+\]
+
+\[
+\mathrm{CH_3COOC_2H_5+H_2O}
+\]
+
+### 三、D 與 A：最後二選一決勝
+
+**原選 D：硫酸（H₂SO₄）**
+
+容易誤選的原因是：硫酸沒有寫在反應式的主要反應物中，因此可能認為不需要。
+
+但事實上：
+
+- 濃硫酸能催化酯化反應，加快反應速率。
+- 濃硫酸也具有脫水作用，有利於酯的生成。
+- 催化劑不會在反應中被淨消耗，**不代表不需要使用**。
+
+**正解 A：氯化鈉（NaCl）**
+
+氯化鈉不是製造乙酸乙酯的必要反應試劑。雖然某些實驗後處理可能使用食鹽水協助分離，但不是本題酯化反應所需的主要試劑。
+
+| 決勝問題 | A 氯化鈉 | D 硫酸 |
+|---|---|---|
+| 是主要反應物？ | 否 | 否 |
+| 具有催化作用？ | 否 | 是 |
+| 製備酯時通常需要？ | 否 | 是 |
+| 本題應選？ | ✓ | ✗ |
+
+### 四、會考快速判斷法
+
+看到「製造酯類」，立即想起：
+
+**羧酸＋醇，在濃硫酸催化下，生成酯＋水。**
+
+考場只需辨認三個角色：羧酸、醇、濃硫酸。其他試劑再依題目判斷是否必要。
+
+### 五、本題誤選診斷
+
+本題可能的判斷陷阱是：**把「沒有出現在反應物一側」誤認為「製備時不需要」。**
+
+不過目前只有 D → A 的作答紀錄，沒有原始判斷過程，因此這仍是待確認的可能錯因。
+
+**一句話記住：**
+
+> 酯化需要羧酸和醇，常使用濃硫酸催化；催化劑不被淨消耗，但仍然有重要作用。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片核對題幹、四個化學式與正解 A；P1 已區分反應物、催化劑與非必要試劑；教材證據：尚未查核國中教材原頁，以上為依題目及化學原理的獨立解析。</text>
+
+user
+[原始附件 sediment://file_000000008200820693ade286f5d3b89d?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+7@錯題D→ B
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜自然科第7題
+
+<text color="secondary" size="sm">主題：酸鹼中和｜離子反應與導電性</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 B</badge>
+  <text color="secondary" weight="medium">原選 D → 正解 B</text>
+</row>
+
+### 一、原題與四選項解析
+
+**題目：** 酸鹼中和是化學上重要的反應，關於酸鹼中和的敘述，下列何者**錯誤**？
+
+| 選項 | 原題敘述重點 | 判斷 |
+|---|---|---|
+| A | 酸＋鹼 → 鹽＋水 | 正確，常見中和反應 |
+| **B** | **主要反應物是酸的陰離子與鹼的陽離子** | **錯誤 ✓** |
+| C | 酸鹼中和是一種放熱反應 | 正確，常見強酸強鹼中和會放熱 |
+| D | 酸、鹼各自的水溶液導電性雖佳，中和後可能很差 | 正確，特定情況可能發生 |
+
+### 二、精準圖解：真正參與中和的是誰？
+
+以鹽酸（HCl）和氫氧化鈉（NaOH）為例：
+
+<box border radius="lg" padding={3} gap={3}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box background="rgba(59,130,246,0.07)" radius="lg" padding={3} gap={2} align="center">
+        <text weight="medium">酸性水溶液</text>
+        <svg viewBox="0 0 150 100" width="100%">
+          <circle cx="43" cy="39" r="23" fill="#FCA5A5" stroke="#DC2626" strokeWidth="1.5"/>
+          <text x="43" y="44" fontSize="17" fill="#7F1D1D" textAnchor="middle" fontWeight="bold">H⁺</text>
+          <circle cx="110" cy="62" r="23" fill="#CBD5E1" stroke="#64748B" strokeWidth="1.5"/>
+          <text x="110" y="67" fontSize="15" fill="#334155" textAnchor="middle">Cl⁻</text>
+        </svg>
+        <text size="sm" weight="medium">H⁺ 是中和主角</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="rgba(59,130,246,0.07)" radius="lg" padding={3} gap={2} align="center">
+        <text weight="medium">鹼性水溶液</text>
+        <svg viewBox="0 0 150 100" width="100%">
+          <circle cx="43" cy="39" r="23" fill="#CBD5E1" stroke="#64748B" strokeWidth="1.5"/>
+          <text x="43" y="44" fontSize="15" fill="#334155" textAnchor="middle">Na⁺</text>
+          <circle cx="110" cy="62" r="23" fill="#86EFAC" stroke="#16A34A" strokeWidth="1.5"/>
+          <text x="110" y="67" fontSize="15" fill="#14532D" textAnchor="middle" fontWeight="bold">OH⁻</text>
+        </svg>
+        <text size="sm" weight="medium">OH⁻ 是中和主角</text>
+      </box>
+    </grid-item>
+  </grid>
+  <row justify="center" align="center" gap={2}>
+    <icon name="arrow-down" color="secondary" size="lg"/>
+  </row>
+  <box background="rgba(22,163,74,0.07)" radius="lg" padding={3} gap={1} align="center">
+    <title size="lg">H⁺ ＋ OH⁻ → H₂O</title>
+    <text size="sm">氫離子與氫氧根離子結合形成水</text>
+  </box>
+  <text color="secondary" size="xs">圖中以水合氫離子的簡化寫法 H⁺ 表示；Na⁺ 和 Cl⁻ 在此反應中屬旁觀離子。</text>
+</box>
+
+所以 B 的錯誤非常明確：
+
+- B 說的是「酸的陰離子＋鹼的陽離子」。
+- 正確應是「酸提供的 H⁺＋鹼提供的 OH⁻」。
+
+### 三、D 與 B：最後二選一決勝
+
+**原選 D：中和後的水溶液導電性可能很差。**
+
+這個敘述是正確的，關鍵在於題目使用「**可能**」，並沒有說所有酸鹼中和後都不導電。
+
+水溶液導電主要依靠能移動的離子。中和過程中 H⁺ 和 OH⁻ 結合成水，若剩餘可移動離子很少，導電性就可能很差。
+
+例如稀氫氧化鋇溶液與稀硫酸恰好完全反應：
+
+\[
+\mathrm{Ba(OH)_2+H_2SO_4}
+\]
+\[
+\mathrm{\rightarrow BaSO_4\downarrow+2H_2O}
+\]
+
+生成難溶的硫酸鋇沉澱，使溶液中離子濃度大幅降低，導電性可能變得很差。
+
+但如果是鹽酸與氫氧化鈉中和，產生的 NaCl 仍溶於水，因此溶液通常還能導電。
+
+**正解 B：把中和的主要反應離子完全搞反了。**
+
+| 比較關鍵 | B（正解） | D（原選） |
+|---|---|---|
+| 敘述是否正確 | 錯誤 | 正確 |
+| 決定性線索 | 酸陰離子、鹼陽離子 | 「可能」很差 |
+| 考場檢查 | 中和主角是 H⁺、OH⁻ | 依剩餘離子判斷 |
+
+### 四、會考快速判斷法
+
+遇到酸鹼中和題，先記住：
+
+\[
+\boxed{\mathrm{H^++OH^-\rightarrow H_2O}}
+\]
+
+再檢查題目是否把離子正負寫反。
+
+導電性則看「**中和後還有多少可移動的離子**」，不能認為生成鹽就一定導電，也不能認為生成水就完全不導電。
+
+### 五、本題誤選診斷
+
+<text weight="medium">可能的判斷陷阱：</text> 把「中和後導電性可能變差」誤認為錯誤敘述，或尚未牢固掌握中和反應的主要離子。
+
+目前只有 D → B 的紀錄，無法確定實際作答原因。
+
+**一句話記住：**
+
+> 酸的 H⁺ 遇上鹼的 OH⁻ 形成水；中和後能否導電，還要看溶液中剩下哪些離子。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片核對原題及四選項，獨立確認答案 B；P1 圖解與離子反應一致，D 的「可能」已用具體反例驗證；教材證據：尚未使用國中教材唯讀搜尋，未宣稱核對課本頁碼。</text>
+
+user
+[原始附件 sediment://file_0000000049b48206877e03a8daaf2239?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+8@錯題A→ B
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第8題
+
+<text color="secondary" size="sm">主題：牛頓第二運動定律｜合力、質量與加速度</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 B</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 B</text>
+</row>
+
+### 一、原題與關鍵條件
+
+題目：質量 \(m_1\) 的甲物體受合力 \(F\) 作用下，加速度為 \(a_1\)；質量 \(m_2\) 的乙物體受合力 \(F\) 作用下，加速度為 \(a_2\)。若將甲、乙兩物體綁在一起，並受合力 \(3F\) 的作用，則其加速度為何？
+
+| 選項 | 算式 |
+|---|---|
+| A（原選） | \(3a_1a_2\) |
+| **B（正解）** | \(\displaystyle\frac{3a_1a_2}{a_1+a_2}\) |
+| C | \(\displaystyle\frac{a_1+a_2}{a_1a_2}\) |
+| D | \(a_1a_2\) |
+
+### 二、精準圖解：兩個物體綁在一起
+
+<box border radius="lg" padding={3} gap={3}>
+  <svg viewBox="0 0 330 184" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <text x="12" y="18" fontSize="13" fill="currentColor" fontWeight="600">原本：相同合力 F，分別作用</text>
+    <rect x="35" y="32" width="65" height="38" rx="5" fill="#93C5FD" stroke="#2563EB" strokeWidth="1.5"/>
+    <text x="67" y="56" textAnchor="middle" fontSize="14" fill="#1E3A8A">m₁</text>
+    <path d="M104 51 H155" stroke="#2563EB" strokeWidth="3" fill="none"/>
+    <path d="M155 51 l-9 -5 v10 Z" fill="#2563EB"/>
+    <text x="130" y="40" fontSize="12" fill="#2563EB" textAnchor="middle">F</text>
+    <rect x="204" y="32" width="65" height="38" rx="5" fill="#FCD34D" stroke="#B45309" strokeWidth="1.5"/>
+    <text x="236" y="56" textAnchor="middle" fontSize="14" fill="#78350F">m₂</text>
+    <path d="M273 51 H321" stroke="#B45309" strokeWidth="3"/>
+    <path d="M321 51 l-9 -5 v10 Z" fill="#B45309"/>
+    <text x="297" y="40" fontSize="12" fill="#B45309" textAnchor="middle">F</text>
+    <path d="M10 89 H320" stroke="currentColor" strokeOpacity=".2" strokeDasharray="4 4"/>
+    <text x="12" y="109" fontSize="13" fill="currentColor" fontWeight="600">綁在一起：總質量 m₁＋m₂，合力 3F</text>
+    <rect x="45" y="125" width="76" height="43" rx="5" fill="#93C5FD" stroke="#2563EB" strokeWidth="1.5"/>
+    <rect x="121" y="125" width="76" height="43" rx="5" fill="#FCD34D" stroke="#B45309" strokeWidth="1.5"/>
+    <text x="83" y="151" fontSize="15" textAnchor="middle" fill="#1E3A8A">m₁</text>
+    <text x="159" y="151" fontSize="15" textAnchor="middle" fill="#78350F">m₂</text>
+    <path d="M202 146 H304" stroke="#16A34A" strokeWidth="4"/>
+    <path d="M304 146 l-11 -6 v12 Z" fill="#16A34A"/>
+    <text x="250" y="134" fontSize="14" fontWeight="bold" textAnchor="middle" fill="#15803D">3F</text>
+  </svg>
+  <text size="sm" color="secondary" textAlign="center">示意圖：物體綁在一起後，質量必須相加，再用合力計算共同加速度。</text>
+</box>
+
+### 三、逐步計算
+
+**第一步：利用 \(F=ma\) 求出兩個質量。**
+
+甲：
+
+\[
+F=m_1a_1\quad\Rightarrow\quad m_1=\frac{F}{a_1}
+\]
+
+乙：
+
+\[
+F=m_2a_2\quad\Rightarrow\quad m_2=\frac{F}{a_2}
+\]
+
+**第二步：兩物體綁在一起，質量相加。**
+
+\[
+m_1+m_2=\frac{F}{a_1}+\frac{F}{a_2}
+\]
+
+通分：
+
+\[
+m_1+m_2=\frac{F(a_1+a_2)}{a_1a_2}
+\]
+
+**第三步：合力變成 \(3F\)，計算共同加速度。**
+
+\[
+a=\frac{3F}{m_1+m_2}
+\]
+
+代入總質量：
+
+\[
+a=\frac{3F}{\dfrac{F(a_1+a_2)}{a_1a_2}}
+\]
+
+約去 \(F\)，得到：
+
+\[
+\boxed{a=\frac{3a_1a_2}{a_1+a_2}}
+\]
+
+所以答案是 **B**。
+
+### 四、A 與 B：最後二選一決勝
+
+| 比較 | A（原選） | B（正解） |
+|---|---|---|
+| 算式 | \(3a_1a_2\) | \(\dfrac{3a_1a_2}{a_1+a_2}\) |
+| 有考慮總質量？ | 沒有完整反映 | 有 |
+| 單位是否為加速度？ | 不符合 | 符合 |
+
+還可以用**單位檢查法**，不用重新計算就能排除 A。
+
+- A：加速度 × 加速度，單位是 \(\mathrm{m^2/s^4}\)，不是加速度。
+- B：兩個加速度相乘，再除以加速度，單位是 \(\mathrm{m/s^2}\)，正確。
+
+因此考場即使通分不熟，也能快速辨認 A 有問題。
+
+### 五、四選項逐項辨析
+
+- **A：錯誤。** 只有 \(3a_1a_2\)，少了分母，且單位不符。
+- **B：正確。** 同時考慮兩物體總質量及三倍合力。
+- **C：錯誤。** 是將正確式子的分子、分母顛倒後，又缺少係數 3。
+- **D：錯誤。** 未考慮新的合力 \(3F\)，單位也不符。
+
+### 六、本題誤選診斷
+
+目前只能確認原選 A，不能直接認定當時漏掉分母的原因。
+
+可能的判斷陷阱是：看到合力變成三倍，就直接將兩個加速度相乘再乘三，沒有先回到牛頓第二運動定律。
+
+**考場最值得記住的一句話：**
+
+> 物體綁在一起，先加質量，再用總合力除以總質量；不可以直接把加速度相乘。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片核對題幹與四選項，並獨立驗算正解 B；P1 圖解的合力與質量關係已核對；教材證據：尚未使用國中教材唯讀搜尋，未宣稱已查核課本原頁。</text>
+
+user
+[原始附件 sediment://file_0000000017c882068dc45143f9767a4d?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+10@錯題B→ D
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第10題
+
+<text color="secondary" size="sm">主題：牛頓第二運動定律｜速度－時間圖與摩擦力</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 D</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 D</text>
+</row>
+
+### 一、原題與關鍵條件
+
+題目：C 羅用力一踢，質量 0.3 kg 的足球在草地上直線前進，測速器測得速度與時間關係如右圖，求草地的**平均摩擦力大小**。
+
+根據原圖：
+
+- 足球質量：0.3 kg
+- 初速度：15 m/s
+- 10 秒後速度降為 0 m/s
+- 足球在草地上減速至停止
+
+### 二、精準圖解：速度－時間圖
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 218" width="100%">
+    <line x1="48" y1="181" x2="315" y2="181" stroke="currentColor" strokeWidth="1.6"/>
+    <path d="M308 176 L318 181 L308 186" stroke="currentColor" strokeWidth="1.6" fill="none"/>
+    <line x1="48" y1="181" x2="48" y2="21" stroke="currentColor" strokeWidth="1.6"/>
+    <path d="M43 28 L48 17 L53 28" stroke="currentColor" strokeWidth="1.6" fill="none"/>
+    <line x1="48" y1="41" x2="178" y2="181" stroke="#2563EB" strokeWidth="3.5"/>
+    <line x1="178" y1="181" x2="290" y2="181" stroke="#2563EB" strokeWidth="3.5"/>
+    <line x1="48" y1="41" x2="178" y2="41" stroke="currentColor" strokeDasharray="4 5" opacity=".28"/>
+    <line x1="178" y1="41" x2="178" y2="181" stroke="currentColor" strokeDasharray="4 5" opacity=".28"/>
+    <text x="36" y="45" textAnchor="end" fontSize="13" fill="currentColor">15</text>
+    <text x="178" y="200" textAnchor="middle" fontSize="13" fill="currentColor">10</text>
+    <text x="289" y="200" textAnchor="middle" fontSize="13" fill="currentColor">20</text>
+    <text x="35" y="185" fontSize="12" fill="currentColor">0</text>
+    <text x="10" y="13" fontSize="12" fill="currentColor">速度 (m/s)</text>
+    <text x="315" y="212" fontSize="12" textAnchor="end" fill="currentColor">時間 (s)</text>
+    <text x="155" y="76" fontSize="13" fill="#2563EB" fontWeight="600">減速</text>
+    <text x="223" y="163" fontSize="12" fill="currentColor">靜止</text>
+  </svg>
+  <caption>依原題數值重繪：0～10 秒速度由 15 m/s 降至 0，10 秒後保持靜止。</caption>
+</box>
+
+### 三、逐步計算
+
+**第一步：先由圖求加速度。**
+
+速度－時間圖的斜率就是加速度。
+
+\[
+a=\frac{v-v_0}{t}
+\]
+
+\[
+a=\frac{0-15}{10}=-1.5\ \mathrm{m/s^2}
+\]
+
+負號代表加速度方向與原本運動方向相反。
+
+**第二步：用牛頓第二運動定律。**
+
+\[
+F=ma
+\]
+
+\[
+F=0.3\times(-1.5)=-0.45\ \mathrm N
+\]
+
+題目問的是摩擦力「大小」，所以取絕對值：
+
+\[
+\boxed{|F|=0.45\ \mathrm N}
+\]
+
+**答案：D（0.45 N）**
+
+### 四、B 與 D：最後二選一決勝
+
+| 比較 | B（原選） | D（正解） |
+|---|---|---|
+| 摩擦力 | 4.5 N | 0.45 N |
+| 對應加速度大小 | 15 m/s² | 1.5 m/s² |
+| 是否符合圖形斜率 | ✗ | ✓ |
+
+B 的 4.5 N，是正確答案的 10 倍。
+
+可能的計算陷阱是直接把 \(0.3\times15=4.5\) 當成力，**忘記速度變化量還要除以時間 10 秒**。
+
+不過目前沒有作答計算過程，不能確定這就是實際錯因。
+
+### 五、四選項逐項辨析
+
+- A（45 N）：錯誤，比正解大 100 倍。
+- B（4.5 N）：錯誤，比正解大 10 倍。
+- C（450 N）：錯誤，比正解大 1000 倍。
+- **D（0.45 N）：正確。** 由圖形斜率求加速度，再乘上質量。
+
+### 六、會考快速判斷法
+
+遇到速度－時間圖求力，固定使用這兩步：
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2} align="center">
+  <title size="lg">先求斜率，再求力</title>
+  \[
+  a=\frac{\Delta v}{\Delta t}
+  \]
+  <icon name="arrow-down" color="secondary" size="lg"/>
+  \[
+  F=ma
+  \]
+</box>
+
+**考場 5 秒自我檢查：** 15 m/s 是「速度」，不是「加速度」。必須先除以 10 秒，得到 1.5 m/s²，才能乘質量。
+
+> 本題記住：速度變化要除以時間，求摩擦力大小再取絕對值。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已核對照片中的題幹、圖形數值與四選項，獨立驗算答案 D；P1 重繪圖形與原題一致；物理條件：以足球離腳後在水平草地減速、摩擦力為主要水平合力的題目模型計算；教材證據：尚未使用國中教材唯讀搜尋。</text>
+
+user
+[原始附件 sediment://file_0000000095e48206ac1aad767bee9842?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+18@錯題c→ A
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第18題
+
+<text color="secondary" size="sm">主題：牛頓第二運動定律｜質量與加速度的反比關係</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 A</badge>
+  <text color="secondary" weight="medium">原選 C → 正解 A</text>
+</row>
+
+### 一、原題與關鍵判斷
+
+**題目：** 若實驗中施加固定的外力於不同質量的物體上，則物體獲得的加速度（a）與質量（m）的關係圖，最可能為下列何者？
+
+關鍵是題目中的 **「固定的外力」**。
+
+根據牛頓第二運動定律：
+
+\[
+F=ma
+\]
+
+因為外力 \(F\) 固定，所以：
+
+\[
+\boxed{a=\frac{F}{m}}
+\]
+
+因此加速度與質量**成反比**。
+
+### 二、精準圖解：反比不是直線
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium">A｜正確的質量－加速度關係</text>
+  <svg viewBox="0 0 340 230" width="100%">
+    <line x1="47" y1="196" x2="322" y2="196" stroke="currentColor" strokeWidth="1.8"/>
+    <path d="M315 191 L324 196 L315 201" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <line x1="47" y1="196" x2="47" y2="13" stroke="currentColor" strokeWidth="1.8"/>
+    <path d="M42 22 L47 11 L52 22" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+    <text x="30" y="19" fontSize="13" fill="currentColor">a</text>
+    <text x="319" y="218" fontSize="13" fill="currentColor">m</text>
+    <text x="34" y="211" fontSize="12" fill="currentColor">0</text>
+    {#each [0,1,2,3] as i}
+      <line x1={47+(i+1)*60} y1="21" x2={47+(i+1)*60} y2="196" stroke="currentColor" strokeOpacity=".09"/>
+      <line x1="47" y1={49+i*42} x2="315" y2={49+i*42} stroke="currentColor" strokeOpacity=".09"/>
+    {/each}
+    <path d={"M "+Array.from({length:120},(_,i)=>{const m=0.38+i*0.036;return `${47+m*53},${196-67/m}`}).join(" L ")} fill="none" stroke="#2563EB" strokeWidth="3.4" strokeLinecap="round"/>
+    <circle cx="100" cy="129" r="4.5" fill="#2563EB"/>
+    <circle cx="153" cy="162.5" r="4.5" fill="#2563EB"/>
+    <circle cx="259" cy="179.3" r="4.5" fill="#2563EB"/>
+    <text x="166" y="83" fill="#2563EB" fontSize="14" fontWeight="600">a = F / m</text>
+    <text x="166" y="103" fill="currentColor" fontSize="12">質量越大，加速度越小</text>
+  </svg>
+  <caption>概念示意：固定合力下，加速度隨質量增加而下降，曲線逐漸平緩，不是直線下降。</caption>
+</box>
+
+用數字驗證最清楚。假設外力固定為 12 N：
+
+| 質量 m | 加速度 a＝12÷m |
+|---|---|
+| 1 kg | 12 m/s² |
+| 2 kg | 6 m/s² |
+| 3 kg | 4 m/s² |
+| 4 kg | 3 m/s² |
+
+可看到質量變成 2 倍，加速度變成一半；質量變成 4 倍，加速度變成四分之一。
+
+### 三、C 與 A：最後二選一決勝
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={2} gap={1}>
+      <text weight="medium" textAlign="center">C｜原選</text>
+      <svg viewBox="0 0 150 118" width="100%">
+        <path d="M17 9 V100 H142" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+        <path d="M17 17 L131 100" stroke="#DC2626" strokeWidth="3" fill="none"/>
+        <text x="7" y="15" fill="currentColor" fontSize="12">a</text>
+        <text x="139" y="115" fill="currentColor" fontSize="12">m</text>
+      </svg>
+      <text size="sm" textAlign="center" color="danger" weight="medium">直線下降 ✗</text>
+      <text size="xs" color="secondary" textAlign="center">代表加速度隨質量線性減少</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2} gap={1}>
+      <text weight="medium" textAlign="center">A｜正解</text>
+      <svg viewBox="0 0 150 118" width="100%">
+        <path d="M17 9 V100 H142" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+        <path d={"M "+Array.from({length:70},(_,i)=>{const x=24+i*1.65;return `${x},${100-620/(x-15)}`}).join(" L ")} stroke="#16A34A" strokeWidth="3" fill="none"/>
+        <text x="7" y="15" fill="currentColor" fontSize="12">a</text>
+        <text x="139" y="115" fill="currentColor" fontSize="12">m</text>
+      </svg>
+      <text size="sm" textAlign="center" color="success" weight="medium">反比曲線 ✓</text>
+      <text size="xs" color="secondary" textAlign="center">先下降較快，後來逐漸平緩</text>
+    </box>
+  </grid-item>
+</grid>
+
+C 看起來也符合「質量增加，加速度下降」，但真正要分辨的是：
+
+- **C：** 每增加相同的質量，加速度減少相同的量。
+- **A：** 質量增加為幾倍，加速度就變成幾分之一。
+
+所以不能只看圖線是否往下降，還要判斷是**直線關係還是反比關係**。
+
+### 四、四選項逐項辨析
+
+| 選項 | 圖形特徵 | 判斷 |
+|---|---|---|
+| **A** | 反比曲線，逐漸平緩 | **正確** |
+| B | 向上彎曲，越來越快上升 | 錯誤 |
+| C | 隨質量增加而直線下降 | 錯誤 |
+| D | 隨質量增加而直線上升 | 錯誤 |
+
+### 五、會考快速判斷法
+
+遇到「固定外力，質量與加速度的關係」，直接套：
+
+\[
+\boxed{F固定\quad\Rightarrow\quad a=\frac{F}{m}}
+\]
+
+<box background="surface-secondary" radius="lg" padding={3} align="center" gap={1}>
+  <text weight="medium">質量 × 2 → 加速度 ÷ 2</text>
+  <text weight="medium">質量 × 3 → 加速度 ÷ 3</text>
+  <text weight="medium">質量 × 4 → 加速度 ÷ 4</text>
+</box>
+
+**看到反比，就找向右下降、逐漸平緩的曲線。**
+
+### 六、本題誤選診斷
+
+這題值得優先注意的可能陷阱是：
+
+**知道質量越大，加速度越小，卻沒有進一步分辨「直線下降」和「反比下降」。**
+
+原選 C 與正解 A 都是下降圖形，代表這題適合練習最後二選一的圖形辨析。不過尚無實際作答思路，不能確定孩子是否因為這個原因誤選。
+
+**一句話記住：**
+
+> 固定合力時，質量與加速度成反比；不是所有下降的圖線都代表反比。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已核對照片第18題題幹、四個圖形與 A 正解，並以 F＝ma 獨立驗證；P1 圖形為依數學關係重繪的示意，非原圖影像；教材證據：尚未使用國中教材唯讀搜尋。</text>
+
+user
+[原始附件 sediment://file_000000009e84820697bb49be0bc55ab9?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+21@錯題A → D
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第21題
+
+<text color="secondary" size="sm">主題：牛頓第二運動定律｜慣性與最大靜摩擦力</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 D</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 D</text>
+</row>
+
+### 一、原題關鍵判斷
+
+阿忠與小志想移動地上的書櫃，發現書櫃裝滿書時無法推動，把書拿掉後就能輕鬆推動。
+
+兩人的解釋是：
+
+- **阿忠：** 書櫃裝滿書時，質量較大，根據 \(F=ma\)，需要較大的力，因此推不動。
+- **小志：** 書櫃裝滿書時，對地面的正向作用力較大，最大靜摩擦力也較大，因此推不動。
+
+題目問：兩人的解釋是否合理？
+
+**答案 D：只有小志合理。**
+
+### 二、精準圖解：為什麼裝滿書比較難推？
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} gap={1}>
+        <text weight="medium" textAlign="center" size="sm">裝滿書的書櫃</text>
+        <svg viewBox="0 0 160 148" width="100%">
+          <rect x="37" y="24" width="85" height="91" rx="3" fill="#C58C5A" stroke="#8B5E34" strokeWidth="2"/>
+          {#each [0,1,2] as j}
+            {#each [0,1,2,3] as i}
+              <rect key={`${j}-${i}`} x={45+i*17} y={32+j*25} width="13" height="20" rx="1" fill={["#60A5FA","#FCA5A5","#86EFAC","#FDE68A"][i]} stroke="#6B7280" strokeWidth=".6"/>
+            {/each}
+          {/each}
+          <path d="M20 116 H141" stroke="currentColor" strokeWidth="2"/>
+          <path d="M80 116 V144 M80 144 l-6 -9 M80 144 l6 -9" stroke="#DC2626" strokeWidth="3" fill="none"/>
+          <path d="M35 81 H9 M9 81 l9 -5 M9 81 l9 5" stroke="#EA580C" strokeWidth="2.5" fill="none"/>
+          <path d="M124 81 H151 M151 81 l-9 -5 M151 81 l-9 5" stroke="#2563EB" strokeWidth="2.5" fill="none"/>
+        </svg>
+        <text size="xs" textAlign="center">重量大 → 正向力大</text>
+        <text size="sm" textAlign="center" weight="medium">較難開始移動</text>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="lg" padding={2} gap={1}>
+        <text weight="medium" textAlign="center" size="sm">拿掉書的書櫃</text>
+        <svg viewBox="0 0 160 148" width="100%">
+          <rect x="37" y="24" width="85" height="91" rx="3" fill="#C58C5A" stroke="#8B5E34" strokeWidth="2"/>
+          {#each [0,1,2] as j}
+            <path key={j} d={`M40 ${55+j*25} H119`} stroke="#8B5E34" strokeWidth="2"/>
+          {/each}
+          <path d="M20 116 H141" stroke="currentColor" strokeWidth="2"/>
+          <path d="M80 116 V130 M80 130 l-5 -7 M80 130 l5 -7" stroke="#DC2626" strokeWidth="2.5" fill="none"/>
+          <path d="M35 81 H20 M20 81 l8 -4 M20 81 l8 4" stroke="#EA580C" strokeWidth="2" fill="none"/>
+          <path d="M124 81 H151 M151 81 l-9 -5 M151 81 l-9 5" stroke="#2563EB" strokeWidth="2.5" fill="none"/>
+        </svg>
+        <text size="xs" textAlign="center">重量小 → 正向力小</text>
+        <text size="sm" textAlign="center" weight="medium">較容易開始移動</text>
+      </box>
+    </grid-item>
+  </grid>
+  <caption>示意圖：紅色箭頭代表重量、橘色代表摩擦力、藍色代表推力；箭頭不按實際比例繪製。</caption>
+</box>
+
+在水平地面上，沒有其他垂直方向外力時：
+
+\[
+N=mg
+\]
+
+最大靜摩擦力：
+
+\[
+\boxed{f_{s,\max}=\mu_sN}
+\]
+
+因此：
+
+質量增加 → 重量增加 → 正向力增加 → 最大靜摩擦力增加 → 更難推動。
+
+### 三、A 與 D：最後二選一決勝
+
+**原選 A：兩人均合理。**
+
+這個選項的陷阱是：阿忠提到的「質量越大，要產生相同加速度需要越大的合力」本身沒有錯，但不能直接用來解釋這題的**書櫃為什麼無法開始移動**。
+
+牛頓第二定律：
+
+\[
+\boxed{F_{\text{合}}=ma}
+\]
+
+注意：這裡的 \(F\) 是**合力**，不是單指人施加的推力。
+
+書櫃靜止時：
+
+\[
+F_{\text{推}}=f_s
+\]
+
+水平方向合力為零，所以加速度為零。
+
+**正解 D：只有小志合理。**
+
+小志指出真正的關鍵：書櫃裝滿書，最大靜摩擦力較大，人的推力可能不足以克服它。
+
+<box border radius="lg" padding={3} gap={2}>
+  <text weight="medium">兩個容易混淆的問題</text>
+  <grid columns={2} gap={2}>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={3} gap={1}>
+        <text weight="medium">為什麼推不動？</text>
+        <text size="sm">推力尚未超過最大靜摩擦力</text>
+        <icon name="check-circle" color="success"/>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={3} gap={1}>
+        <text weight="medium">推動後加速多快？</text>
+        <text size="sm">由合力與質量共同決定</text>
+        <icon name="check-circle" color="success"/>
+      </box>
+    </grid-item>
+  </grid>
+</box>
+
+### 四、四選項逐項辨析
+
+| 選項 | 說法 | 判斷 |
+|---|---|---|
+| A | 兩人均合理 | 錯，阿忠的解釋不完整 |
+| B | 兩人均不合理 | 錯，小志合理 |
+| C | 只有阿忠合理 | 錯，阿忠未考慮摩擦力 |
+| **D** | **只有小志合理** | **正確** |
+
+### 五、會考快速判斷法
+
+看到「**靜止的重物推不動**」，第一個應該想的是：
+
+**推力是否超過最大靜摩擦力？**
+
+看到「**物體已經在加速**」，才進一步使用：
+
+\[
+F_{\text{合}}=ma
+\]
+
+兩者並不衝突，而是處理不同的判斷重點。
+
+### 六、本題誤選診斷
+
+這題可能的陷阱是：認為 \(F=ma\) 的推論正確，就接受阿忠的整段解釋，卻沒有檢查他是否真正解釋了「無法推動」。
+
+目前僅有 A → D 的紀錄，尚不能確認孩子當時的實際想法。
+
+**一句話記住：**
+
+> 重物推不動，先看最大靜摩擦力；物體加速多少，再看合力與質量。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依上傳照片核對題幹、兩人的解釋與四選項，獨立確認正解 D；P1 圖解與力學概念一致；教材證據：尚未使用國中教材唯讀搜尋，未宣稱已查核課本原頁。</text>
+
+user
+[原始附件 sediment://file_000000000e0c820693f533a05deeae96?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+6@ 錯題（1）F1 → F 3 (2)F3 → F5(4) F3.F4 → F3，F5
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第6題
+
+<text color="secondary" size="sm">主題：牛頓第三運動定律｜作用力與反作用力、受力平衡</text>
+
+<badge color="success">答案已核對</badge>
+
+本題共有三個訂正重點：
+
+- **(1)** 原答 F₁ → 正解 **F₃**
+- **(2)** 原答 F₃ → 正解 **F₅**
+- **(4)** 原答 F₃、F₄ → 正解 **F₃、F₅**
+
+這三個錯誤的共同關鍵是：**要分清楚「誰施力、誰受力」，以及「作用力與反作用力」和「平衡力」的不同。**
+
+### 一、先鎖定原題五個力
+
+根據照片，第6題是天花板下以細繩懸吊木塊，細繩質量忽略不計，木塊及細繩皆靜止。
+
+| 力 | 原題定義 | 受力物體 |
+|---|---|---|
+| F₁ | 地球吸引木塊的力 | 木塊 |
+| F₂ | 細繩拉木塊的力 | 木塊 |
+| F₃ | 木塊拉細繩的力 | 細繩 |
+| F₄ | 細繩拉天花板的力 | 天花板 |
+| F₅ | 天花板拉細繩的力 | 細繩 |
+
+### 二、精準圖解：五個力各作用在哪裡？
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 310" width="100%">
+    <rect x="104" y="14" width="132" height="19" rx="2" fill="#94A3B8"/>
+    {#each Array.from({length:9},(_,i)=>i) as i}
+      <path key={i} d={`M${107+i*15} 14 l9 -9`} stroke="#64748B" strokeWidth="1.2"/>
+    {/each}
+    <text x="246" y="26" fill="currentColor" fontSize="12">天花板</text>
+    <line x1="170" y1="33" x2="170" y2="148" stroke="#64748B" strokeWidth="3"/>
+    <rect x="121" y="149" width="98" height="68" rx="4" fill="#93C5FD" stroke="#2563EB" strokeWidth="2"/>
+    <text x="170" y="185" fontSize="16" fontWeight="600" textAnchor="middle" fill="#1E3A8A">木塊</text>
+    <g strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M153 160 V101 M153 101 l-6 10 M153 101 l6 10" stroke="#16A34A"/>
+      <path d="M188 204 V273 M188 273 l-6 -10 M188 273 l6 -10" stroke="#DC2626"/>
+      <path d="M188 39 V89 M188 89 l-6 -10 M188 89 l6 -10" stroke="#EA580C"/>
+      <path d="M153 105 V45 M153 45 l-6 10 M153 45 l6 10" stroke="#7C3AED"/>
+      <path d="M170 36 V77 M170 77 l-6 -10 M170 77 l6 -10" stroke="#64748B"/>
+    </g>
+    <g fill="currentColor" fontSize="13" fontWeight="600">
+      <text x="105" y="127" fill="#16A34A">F₂ ↑</text>
+      <text x="200" y="256" fill="#DC2626">F₁ ↓</text>
+      <text x="201" y="86" fill="#EA580C">F₃ ↓</text>
+      <text x="104" y="48" fill="#7C3AED">F₅ ↑</text>
+      <text x="195" y="43" fill="#64748B">F₄ ↓</text>
+    </g>
+    <text x="170" y="299" fill="currentColor" textAnchor="middle" fontSize="11">箭頭依受力物體示意，不代表實際長度比例</text>
+  </svg>
+  <caption>注意：F₁ 與 F₂ 作用在木塊上；F₃ 與 F₅ 作用在細繩上；F₄ 作用在天花板上。相近位置的箭頭代表不同受力物體，不能只憑方向判斷作用力與反作用力。</caption>
+</box>
+
+### 三、逐小題解析
+
+**(1) F₂ 的反作用力為何？**
+
+原答 F₁ → 正解 **F₃**
+
+- F₂：細繩拉木塊，向上。
+- F₃：木塊拉細繩，向下。
+
+它們的施力者與受力者互換，符合牛頓第三運動定律。
+
+\[
+\boxed{F_2\leftrightarrow F_3}
+\]
+
+F₁ 是地球拉木塊的重力，不是 F₂ 的反作用力。
+
+**(2) F₄ 的反作用力為何？**
+
+原答 F₃ → 正解 **F₅**
+
+- F₄：細繩拉天花板，向下。
+- F₅：天花板拉細繩，向上。
+
+\[
+\boxed{F_4\leftrightarrow F_5}
+\]
+
+F₃ 雖然也是向下的力，但它是木塊對細繩的拉力，不符合兩物體互相施力的配對。
+
+**(4) 使細繩靜止不動的兩力為何？**
+
+原答 F₃、F₄ → 正解 **F₃、F₅**
+
+要找「細繩」受的力：
+
+- F₃：木塊向下拉細繩。
+- F₅：天花板向上拉細繩。
+
+因為細繩靜止：
+
+\[
+\boxed{F_3=F_5}
+\]
+
+這是一組作用在**同一物體**、方向相反、合力為零的平衡力。
+
+F₄ 是細繩施加在天花板上的力，不是細繩受到的力。
+
+### 四、最後二選一決勝：反作用力 vs. 平衡力
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" textAlign="center">作用力與反作用力</text>
+      <svg viewBox="0 0 130 108" width="100%">
+        <rect x="30" y="18" width="70" height="27" rx="4" fill="#CBD5E1"/>
+        <rect x="30" y="72" width="70" height="27" rx="4" fill="#93C5FD"/>
+        <text x="65" y="36" textAnchor="middle" fontSize="12" fill="#334155">物體甲</text>
+        <text x="65" y="90" textAnchor="middle" fontSize="12" fill="#1E3A8A">物體乙</text>
+        <path d="M48 47 V69 l-5 -8 M48 69 l5 -8" stroke="#DC2626" strokeWidth="2.5" fill="none"/>
+        <path d="M82 70 V48 l-5 8 M82 48 l5 8" stroke="#16A34A" strokeWidth="2.5" fill="none"/>
+      </svg>
+      <text size="sm" weight="medium" textAlign="center">不同物體</text>
+      <text color="secondary" size="xs" textAlign="center">施力者、受力者互換</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text weight="medium" textAlign="center">平衡力</text>
+      <svg viewBox="0 0 130 108" width="100%">
+        <rect x="37" y="42" width="56" height="28" rx="4" fill="#93C5FD"/>
+        <text x="65" y="60" textAnchor="middle" fontSize="12" fill="#1E3A8A">同一物體</text>
+        <path d="M65 39 V8 l-5 8 M65 8 l5 8" stroke="#16A34A" strokeWidth="2.5" fill="none"/>
+        <path d="M65 73 V104 l-5 -8 M65 104 l5 -8" stroke="#DC2626" strokeWidth="2.5" fill="none"/>
+      </svg>
+      <text size="sm" weight="medium" textAlign="center">同一物體</text>
+      <text color="secondary" size="xs" textAlign="center">方向相反、合力為零</text>
+    </box>
+  </grid-item>
+</grid>
+
+| 比較 | 作用力與反作用力 | 平衡力 |
+|---|---|---|
+| 受力物體 | 不同 | 相同 |
+| 力的大小 | 相等 | 合力為零時大小相等 |
+| 力的方向 | 相反 | 相反（本題兩力情況） |
+| 本題例子 | F₂、F₃ | F₃、F₅ |
+
+### 五、會考快速判斷法
+
+這三小題只要依序問兩句話：
+
+**第一句：「這個力是誰對誰施力？」**
+
+求反作用力，就把施力者和受力者對調。
+
+**第二句：「題目指定哪個物體保持平衡？」**
+
+找出所有作用在那個物體上的力，不要把它施加給其他物體的力混進來。
+
+### 六、本題誤選診斷
+
+這三個訂正具有共同概念，值得一起觀察：孩子可能已能辨認部分力的方向，但對**施力物體與受力物體的歸屬**尚不穩定。
+
+不過，沒有原始解題思路，不能判定真正錯因，也不能只憑這一題認定存在跨題的重複錯誤。
+
+**一句話記住：**
+
+> 反作用力找「互相施力的兩個物體」；平衡力找「作用在同一物體上的力」。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片核對 F₁ 至 F₅ 定義及第 (1)、(2)、(4) 小題答案；P1 圖解依原題物體與作用方向製作；教材狀態：已核對上傳照片中的課本第53頁，尚未使用國中教材唯讀搜尋查核 PDF 原頁。</text>
+
+user
+[原始附件 sediment://file_0000000003a882069967a29f785754e8?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+7@錯題（1）FI. F4 & F3.F2 → F3，F4（2）等於→ F1大於F 4等於F3大於F2
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第7題
+
+<text color="secondary" size="sm">主題：牛頓第三運動定律｜作用力與反作用力、合力與等加速度運動</text>
+
+<row align="center" gap={2}>
+  <badge color="success">答案核對正確</badge>
+  <text color="secondary" weight="medium">兩小題訂正</text>
+</row>
+
+**本題最重要的觀念：作用力與反作用力大小一定相等，但物體受到的合力不一定為零。**
+
+### 一、原題與四個力
+
+題目指出：甲、乙兩物體在光滑水平面上，同時向右做等加速度運動。
+
+- F₁：外力向右推甲。
+- F₂：外力向左推乙。
+- F₃：甲對乙的作用力。
+- F₄：乙對甲的作用力。
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 185" width="100%">
+    <rect x="89" y="52" width="78" height="57" rx="3" fill="#FDE68A" stroke="#B45309" strokeWidth="1.5"/>
+    <rect x="167" y="52" width="78" height="57" rx="3" fill="#93C5FD" stroke="#2563EB" strokeWidth="1.5"/>
+    <text x="128" y="84" fontSize="19" textAnchor="middle" fill="#78350F" fontWeight="600">甲</text>
+    <text x="206" y="84" fontSize="19" textAnchor="middle" fill="#1E3A8A" fontWeight="600">乙</text>
+    <path d="M20 78 H85" stroke="#16A34A" strokeWidth="3.5"/>
+    <path d="M85 78 l-10 -6 v12 Z" fill="#16A34A"/>
+    <text x="40" y="67" fill="#15803D" fontSize="14" fontWeight="600">F₁</text>
+    <path d="M320 78 H249" stroke="#DC2626" strokeWidth="2.5"/>
+    <path d="M249 78 l10 -6 v12 Z" fill="#DC2626"/>
+    <text x="287" y="66" fill="#DC2626" fontSize="14" fontWeight="600">F₂</text>
+    <path d="M171 48 H217" stroke="#2563EB" strokeWidth="2.5"/>
+    <path d="M217 48 l-8 -5 v10 Z" fill="#2563EB"/>
+    <text x="191" y="37" fill="#2563EB" fontSize="13">F₃</text>
+    <path d="M163 115 H117" stroke="#B45309" strokeWidth="2.5"/>
+    <path d="M117 115 l8 -5 v10 Z" fill="#B45309"/>
+    <text x="133" y="130" fill="#B45309" fontSize="13">F₄</text>
+    <path d="M14 144 H326" stroke="currentColor" strokeWidth="2"/>
+    {#each Array.from({length:16},(_,i)=>i) as i}
+      <path key={i} d={`M${17+i*20} 144 l-8 9`} stroke="currentColor" strokeOpacity=".25"/>
+    {/each}
+    <path d="M145 166 H221" stroke="#16A34A" strokeWidth="3"/>
+    <path d="M221 166 l-10 -6 v12 Z" fill="#16A34A"/>
+    <text x="241" y="171" fill="#15803D" fontSize="13" fontWeight="600">加速度 a</text>
+  </svg>
+  <caption>依原題方向重繪。F₃、F₄ 為接觸面上的一對作用力與反作用力；箭頭長度僅供辨識，非精確比例。</caption>
+</box>
+
+### 二、第 (1) 小題：哪些力互為作用力與反作用力？
+
+<text color="secondary" size="sm">原答：F₁、F₄ 與 F₃、F₂ → 正解：F₃、F₄</text>
+
+正確配對：
+
+\[
+\boxed{F_3\leftrightarrow F_4}
+\]
+
+因為：
+
+- F₃ 是甲推乙。
+- F₄ 是乙推甲。
+
+它們是兩個物體互相施力，大小相等、方向相反。
+
+**為什麼 F₁ 與 F₄ 不是一對？**
+
+F₁ 是外界推甲，F₄ 是乙推甲。兩個力都作用在甲身上，因此不能互為作用力與反作用力。
+
+同理，F₂ 與 F₃ 都作用在乙身上，也不是一對。
+
+### 三、第 (2) 小題：四個力的大小比較
+
+<text color="secondary" size="sm">原答：相等 → 正解：F₁ ＞ F₄＝F₃ ＞ F₂</text>
+
+本題的決定性條件是：**甲、乙都向右加速**。
+
+<box border radius="lg" padding={3} gap={3}>
+  <text weight="medium">甲、乙各自受到的水平力</text>
+  <grid columns={2} gap={3}>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={3} gap={2}>
+        <text weight="medium" textAlign="center">甲：向右加速</text>
+        <row justify="center" align="center" gap={2}>
+          <icon name="arrow-right" color="success"/>
+          <text color="success" weight="medium">F₁</text>
+          <text size="xs">＞</text>
+          <text color="secondary" weight="medium">F₄</text>
+          <icon name="arrow-left" color="secondary"/>
+        </row>
+        \[
+        F_1-F_4=m_{\text{甲}}a
+        \]
+      </box>
+    </grid-item>
+    <grid-item>
+      <box background="surface-secondary" radius="md" padding={3} gap={2}>
+        <text weight="medium" textAlign="center">乙：向右加速</text>
+        <row justify="center" align="center" gap={2}>
+          <icon name="arrow-right" color="success"/>
+          <text color="success" weight="medium">F₃</text>
+          <text size="xs">＞</text>
+          <text color="secondary" weight="medium">F₂</text>
+          <icon name="arrow-left" color="secondary"/>
+        </row>
+        \[
+        F_3-F_2=m_{\text{乙}}a
+        \]
+      </box>
+    </grid-item>
+  </grid>
+  <text weight="medium">再根據牛頓第三運動定律：</text>
+  \[
+  F_3=F_4
+  \]
+  <divider color="subtle"/>
+  <text textAlign="center" weight="medium">綜合三個關係：</text>
+  \[
+  \boxed{F_1>F_4=F_3>F_2}
+  \]
+</box>
+
+注意：F₃ 與 F₄ 大小相等，不代表甲、乙所受的合力為零，因為這兩個力作用在不同物體上。
+
+### 四、兩小題共同的判斷陷阱
+
+| 判斷問題 | 第 (1) 小題 | 第 (2) 小題 |
+|---|---|---|
+| 核心觀念 | 作用力與反作用力 | 牛頓第二、第三定律 |
+| 必看條件 | 施力者與受力者 | 各物體的加速度方向 |
+| 決勝關鍵 | 不同物體互相施力 | 向右加速代表向右合力較大 |
+
+這次的兩個誤選可能與「將互相作用的力和同一物體上的力混淆」有關，但還沒有孩子原始的判斷過程，不能直接確定錯因。
+
+### 五、會考快速自我檢查
+
+本題只需記住兩句話：
+
+**找反作用力：** 誰推誰？把施力者與受力者交換。
+
+**比較力的大小：** 先畫出每個物體受到的力，再依加速度方向比較合力。
+
+這也能銜接上一題第6題的懸吊木塊觀念：**反作用力作用在不同物體，平衡力則作用在同一物體。**
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片核對第7題題幹、圖示、F₁～F₄ 定義及訂正答案；P1 受力方向與等加速度條件已獨立驗算。教材證據：已核對本次上傳的課本照片，尚未使用國中教材唯讀搜尋查核 PDF 原頁。</text>
+
+user
+[原始附件 sediment://file_00000000a5708206a17b20c85649a28e?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+8@錯題A → D
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第8題
+
+<text color="secondary" size="sm">主題：牛頓第三運動定律｜火箭推進與作用力、反作用力</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 D</badge>
+  <text color="secondary" weight="medium">原選 A → 正解 D</text>
+</row>
+
+### 一、原題與關鍵判斷
+
+**題目：** 太空中火箭能夠向前推進，主要的原因為何？
+
+| 選項 | 原題敘述 | 判斷 |
+|---|---|---|
+| A | 噴出氣體施力於空氣，空氣給火箭反作用力 | 錯誤 |
+| B | 高速氣流會減少空氣的阻力使火箭向前推進 | 錯誤 |
+| C | 因為火箭受空氣的浮力作用而產生向上推力 | 錯誤 |
+| **D** | **燃燒燃料噴出的氣體給火箭反作用力使火箭向前推進** | **正確 ✓** |
+
+**關鍵條件：題目特別強調「太空中」。**
+
+太空近乎真空，火箭不需要依靠外界空氣，就能向前推進。
+
+### 二、精準圖解：火箭究竟推誰？
+
+<box border radius="lg" padding={3} gap={2}>
+  <svg viewBox="0 0 340 190" width="100%">
+    <g transform="translate(0,0)">
+      <path d="M240 68 L294 95 L240 122 L172 122 L172 68 Z" fill="#CBD5E1" stroke="#475569" strokeWidth="2"/>
+      <path d="M240 68 L294 95 L240 122 Z" fill="#60A5FA" stroke="#2563EB" strokeWidth="2"/>
+      <path d="M190 68 L161 48 L202 68 M190 122 L161 142 L202 122" fill="#94A3B8" stroke="#475569" strokeWidth="1.5"/>
+      <rect x="167" y="80" width="14" height="30" fill="#64748B"/>
+      <path d="M169 85 Q127 67 98 84 Q112 94 81 102 Q124 120 169 104 Z" fill="#FB923C"/>
+      <path d="M167 89 Q127 80 116 95 Q131 103 167 100 Z" fill="#FDE68A"/>
+      <g fill="#FDBA74" opacity=".85">
+        <circle cx="69" cy="81" r="5"/>
+        <circle cx="53" cy="106" r="4"/>
+        <circle cx="90" cy="126" r="3"/>
+      </g>
+    </g>
+    <path d="M170 155 H62" stroke="#EA580C" strokeWidth="3.5"/>
+    <path d="M62 155 l12 -7 v14 Z" fill="#EA580C"/>
+    <text x="114" y="178" fill="#C2410C" fontSize="13" textAnchor="middle" fontWeight="600">火箭推氣體向後</text>
+    <path d="M221 36 H321" stroke="#16A34A" strokeWidth="3.5"/>
+    <path d="M321 36 l-12 -7 v14 Z" fill="#16A34A"/>
+    <text x="260" y="23" fill="#15803D" fontSize="13" textAnchor="middle" fontWeight="600">氣體推火箭向前</text>
+  </svg>
+  <caption>火箭向後噴出高速氣體，氣體同時對火箭施加向前的反作用力。此圖為方向示意，非實際比例。</caption>
+</box>
+
+依據牛頓第三運動定律：
+
+**作用力：** 火箭對噴出的氣體施加向後的力。
+
+**反作用力：** 氣體對火箭施加大小相等、方向相反的向前推力。
+
+\[
+\boxed{F_{\text{火箭對氣體}}=-F_{\text{氣體對火箭}}}
+\]
+
+兩個力分別作用在不同物體上，因此不會互相抵銷。
+
+### 三、A 與 D：最後二選一決勝
+
+你原選 A，這題最值得分辨的就是「反作用力由誰提供」。
+
+| 比較 | A（原選） | D（正解） |
+|---|---|---|
+| 推進是否依靠外界空氣 | 是 | 否 |
+| 火箭向後推動誰 | 說成外界空氣 | 噴出的氣體 |
+| 誰給火箭反作用力 | 外界空氣 | 噴出的氣體 |
+| 在太空近真空環境是否成立 | ✗ | ✓ |
+
+**A 的錯誤：** 把火箭推進想成必須先推動周圍空氣，才能得到推力。
+
+**D 的正確觀念：** 火箭攜帶燃料及氧化劑，能在太空中燃燒並排出高速氣體，靠噴出氣體產生的反作用力推進。
+
+### 四、其他兩個選項為什麼錯？
+
+**B：高速氣流減少空氣阻力。**
+
+減少阻力不等於產生推進力，而且太空中沒有足夠的外界空氣供此機制運作。
+
+**C：空氣浮力使火箭向上。**
+
+浮力不是太空中火箭推進的主要原因；火箭即使在近真空環境中，也能改變運動狀態。
+
+### 五、與前兩題的概念連結
+
+你剛剛的第6、7題也在辨認作用力與反作用力。
+
+| 題目 | 作用力與反作用力配對 |
+|---|---|
+| 第6題：木塊與細繩 | 細繩拉木塊 ↔ 木塊拉細繩 |
+| 第7題：甲、乙木塊 | 甲推乙 ↔ 乙推甲 |
+| **第8題：火箭** | **火箭推氣體 ↔ 氣體推火箭** |
+
+三題其實都可以用同一個方法解決：
+
+**先找出互相施力的兩個物體，再把施力者與受力者交換。**
+
+### 六、會考快速判斷法
+
+看到火箭、游泳、划船、氣球噴氣等題目，先問：
+
+「物體向後推了什麼？什麼東西反過來推它？」
+
+本題答案就是：
+
+> 火箭向後噴氣，氣體反過來推火箭向前。不需要外界空氣。
+
+### 七、本題誤選診斷
+
+本題 A → D，可能反映出對「作用力與反作用力是否需要透過外界介質」仍有疑惑。
+
+結合前面第6、7題的訂正，**「判斷施力者與受力者」已連續出現在這批題目中，值得優先關注**。不過，目前仍缺少孩子當時的作答思路，不能直接認定各題的實際錯因相同。
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片核對第8題題幹及四選項，獨立確認正解 D；P1 圖解符合牛頓第三運動定律，明確區分火箭與噴出氣體的受力方向；教材證據：本次依上傳題目照片解析，尚未使用國中教材唯讀搜尋查核 PDF 原頁。</text>
+
+user
+[原始附件 sediment://file_000000009e1c82068b2964144c5c982a?shared_conversation_id=6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5]
+10@錯題B → D
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第10題
+
+<text color="secondary" size="sm">主題：牛頓第三運動定律｜反作用力與慣性</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 D</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 D</text>
+</row>
+
+### 一、原題與四選項核對
+
+**題目：** 小寶穿著溜冰鞋推牆壁，若小寶對牆壁施加向左 50 kgw 的力，下列敘述何者**錯誤**？
+
+| 選項 | 敘述重點 | 判斷 |
+|---|---|---|
+| A | 牆反推小寶 50 kgw | 正確 |
+| B | 接觸牆壁期間，小寶有向右的加速度 | 正確 |
+| C | 小寶體重愈輕，產生的加速度愈大 | 正確（相同合力下） |
+| **D** | **手離開牆壁後，不計地板摩擦力，小寶速度愈來愈大** | **錯誤 ✓** |
+
+### 二、精準圖解：接觸牆壁與離開牆壁
+
+<box border radius="lg" padding={3} gap={3}>
+  <text weight="medium">階段 1｜手正在推牆壁</text>
+  <svg viewBox="0 0 330 140" width="100%">
+    <rect x="68" y="35" width="26" height="75" rx="4" fill="#93C5FD" stroke="#2563EB" strokeWidth="1.5"/>
+    <circle cx="81" cy="21" r="14" fill="#FCD7B0" stroke="#A16207" strokeWidth="1.2"/>
+    <path d="M68 53 L48 75 M94 53 L113 75 M76 110 L64 127 M87 110 L99 127" stroke="#475569" strokeWidth="5" strokeLinecap="round"/>
+    <rect x="225" y="8" width="17" height="119" fill="#CBD5E1" stroke="#64748B" strokeWidth="1.5"/>
+    {#each [0,1,2,3,4,5,6] as i}
+      <path key={i} d={`M225 ${13+i*17} l17 -10`} stroke="#94A3B8" strokeWidth="1"/>
+    {/each}
+    <path d="M112 70 H222" stroke="#DC2626" strokeWidth="3.5"/>
+    <path d="M222 70 l-11 -6 v12 Z" fill="#DC2626"/>
+    <text x="166" y="60" textAnchor="middle" fontSize="12" fill="#DC2626">小寶推牆（向左）</text>
+    <path d="M222 100 H109" stroke="#16A34A" strokeWidth="3.5"/>
+    <path d="M109 100 l11 -6 v12 Z" fill="#16A34A"/>
+    <text x="166" y="119" textAnchor="middle" fontSize="12" fill="#15803D">牆推小寶（向右）</text>
+    <text x="165" y="136" textAnchor="middle" fontSize="10" fill="currentColor" opacity=".7">左右以原題向左推牆、向右退開為準；示意物件不按實際方位</text>
+  </svg>
+  <divider color="subtle"/>
+  <text weight="medium">階段 2｜手離開牆壁，忽略摩擦力</text>
+  <svg viewBox="0 0 330 91" width="100%">
+    <rect x="17" y="26" width="47" height="36" rx="6" fill="#93C5FD" stroke="#2563EB"/>
+    <path d="M69 44 H270" stroke="#2563EB" strokeWidth="3"/>
+    <path d="M270 44 l-12 -7 v14 Z" fill="#2563EB"/>
+    <text x="169" y="25" textAnchor="middle" fill="#2563EB" fontSize="13" fontWeight="600">向右等速度滑行</text>
+    <text x="165" y="81" textAnchor="middle" fill="currentColor" fontSize="12">水平合力 0 → 加速度 0</text>
+  </svg>
+</box>
+
+依題意，離開牆壁後，沒有牆的推力，也忽略地板摩擦力，因此水平方向合力為零。
+
+\[
+\boxed{F_{\text{合}}=0\ \Rightarrow\ a=0}
+\]
+
+加速度為零，不代表速度為零，而是**速度保持不變**。
+
+### 三、B 與 D：最後二選一決勝
+
+**原選 B：與牆接觸期間，小寶有向右的加速度。**
+
+正確。小寶向左推牆，牆便給小寶向右的反作用力。若水平其他力可忽略，小寶受到向右的合力，因而向右加速。
+
+**正解 D：手離開牆壁後，速度愈來愈大。**
+
+錯誤。手離開牆壁後，不再受到牆壁的推力。如果沒有水平摩擦力，速度不會繼續增加，而是保持離開瞬間的速度。
+
+| 決勝條件 | B（原選） | D（正解） |
+|---|---|---|
+| 是否接觸牆壁 | 是 | 否 |
+| 牆是否施加推力 | 是 | 否 |
+| 水平加速度 | 向右 | 零 |
+| 運動情形 | 向右加速 | 向右等速度 |
+
+### 四、會考快速判斷法
+
+看到「推牆後滑行」這種題目，要先分成兩個階段：
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" justify="between">
+    <text weight="medium">正在推牆</text>
+    <text weight="medium" color="success">有反作用力 → 加速</text>
+  </row>
+  <divider color="subtle"/>
+  <row align="center" justify="between">
+    <text weight="medium">離開牆壁</text>
+    <text weight="medium">無水平合力 → 等速度</text>
+  </row>
+</box>
+
+**別把「持續運動」誤認成「持續加速」。**
+
+### 五、本題誤選診斷
+
+可能的判斷陷阱是：認為推牆時作用力、反作用力會相互抵銷，因此懷疑 B 的加速度敘述。
+
+但 B 的作用力與反作用力是作用在不同物體上，不能互相抵銷。
+
+目前僅有 B → D 的紀錄，尚無孩子原始作答思路，所以這只是可能錯因。
+
+這題也延伸前幾題的核心觀念：**第三運動定律判斷力的配對，第一、第二運動定律判斷物體的運動狀態。**
+
+> **一句話記住：推牆時會加速；離開牆後若無水平合力，就等速度運動。**
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片確認題幹與四選項並獨立核對答案 D；P1 運動階段與受力概念已核對。圖解為概念示意，非原圖等比例重製；教材證據：依本次上傳的第55頁照片解析，尚未透過國中教材唯讀搜尋查核 PDF 原頁。</text>
+
+---
+
+如果你願意，我可以：
+
+- 請解釋為何酸鹼中和時主要是氫離子和氫氧根離子反應？
+- 請提供酸鹼中和反應的離子方程式範例
+- 說明酸鹼中和反應放熱的原因與實際觀察

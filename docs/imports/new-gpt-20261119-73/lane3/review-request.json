@@ -1,0 +1,14 @@
+{
+  "questionId": "q-1168",
+  "title": "理化第10題｜原AI推牆SVG的左右方向矛盾",
+  "kind": "原AI解說圖錯誤",
+  "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+  "questionUrl": "/site/index.html#question/q-1168",
+  "questionText": "小寶穿著溜冰鞋推牆壁，如右圖所示，若小寶對著牆壁施加向左 50 kgw 的力，下列敘述何者錯誤？\n(A) 牆反推小寶 50 kgw 之力\n(B) 與牆接觸期間，小寶有一向右的加速度\n(C) 小寶的體重愈輕，產生的加速度愈大\n(D) 手離開牆後，若不計地板摩擦力，則小寶的速度愈來愈大",
+  "reason": "原AI SVG把牆畫在人右側，但箭頭及標示的左右相反；原卷明確是牆左、人右。文字答案D仍正確，錯誤在來源AI圖示的幾何方向。",
+  "before": "原AI第74索引後assistant SVG：人物x68..94，牆x225..242；紅箭M112 H222實際朝右，卻標「小寶推牆（向左）」；綠箭M222 H109實際朝左，卻標「牆推小寶（向右）」。其後宣稱不按實際方位，不能消除圖中箭頭與左右文字矛盾。",
+  "after": "原題與四選項完整保留、答案維持D。排除來源AI圖，重新依原卷畫牆左人右：小寶對牆的力向左50kgw，牆對小寶的反作用力向右50kgw；接觸時小寶右向加速，離牆後忽略水平阻力則等速度。",
+  "sourceEvidence": "docs/imports/new-gpt-20261119-73/root/source-ai-message-74.txt",
+  "originalEvidence": "docs/source-pages/chatgpt-6aff02c8-12.jpg",
+  "answerChange": false
+}

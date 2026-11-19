@@ -57,7 +57,9 @@ image(1136,3,paper(60,155,'起訴',1.35)+bench(310,190,.9,'判決')+text(300,90,
 image(1136,4,building(30,90,.74,'少年法庭')+building(345,290,.68,'檢察署')+arrow(245,230,392,330)+paper(90,345,'卷宗',.65)+text(300,63,'B：少年法庭 → 檢察官',31)+text(230,561,'裁定移送後，偵查及起訴',29))
 
 # Voting eligibility: two physical ballot papers, age line and residence graph.
-image(1153,1,ballot(75,130,'罷免',1.2)+ballot(345,130,'公投',1.2)+text(300,65,'同一天，不同資格規定',35))
+def ineligible_ballot(x,y,label,s=1):
+ return f'<g transform="translate({x} {y}) scale({s})">'+paper(0,0,label,1)+'<circle cx="72" cy="144" r="20" fill="none" stroke="#b8554e" stroke-width="5"/><path d="M60 132L84 156M84 132L60 156" fill="none" stroke="#b8554e" stroke-width="6"/></g>'
+image(1153,1,ballot(75,130,'罷免',1.2)+ineligible_ballot(345,130,'公投',1.2)+text(300,65,'同一天，不同資格規定',35))
 age='<path d="M65 290H545" stroke="#476f82" stroke-width="8"/>'
 for ageval,x in [(14,85),(18,245),(20,325),(24,485)]:age+=f'<path d="M{x} 275V305" stroke="#476f82" stroke-width="5"/>'+text(x,345,str(ageval),35)
 age+=arrow(245,234,535,234)+arrow(325,405,535,405)+text(355,194,'公投：18歲起',35)+text(405,459,'公職選罷：20歲起',30)

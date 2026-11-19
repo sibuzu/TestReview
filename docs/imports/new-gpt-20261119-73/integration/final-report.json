@@ -1,0 +1,101 @@
+{
+  "completedAt": "2026-11-19T14:38:44.718311+00:00",
+  "sourceId": "src-more-073",
+  "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+  "state": "review",
+  "sourceProductionStopped": true,
+  "newQuestionIds": [
+    "q-1157",
+    "q-1158",
+    "q-1159",
+    "q-1160",
+    "q-1161",
+    "q-1162",
+    "q-1163",
+    "q-1164",
+    "q-1165",
+    "q-1166",
+    "q-1167",
+    "q-1168"
+  ],
+  "newQuestionPages": 12,
+  "newOriginalQuestions": 12,
+  "originalFiles": 12,
+  "archiveMessages": 80,
+  "newIllustrations": 48,
+  "existingQuestionPagesPreserved": 957,
+  "totalQuestionPages": 969,
+  "completeIntegrationEvents": 11,
+  "pendingReviewQuestionIds": [
+    "q-1168"
+  ],
+  "confirmationReceipts": [
+    {
+      "id": "correction-q-1168-cbcb504cd143",
+      "questionId": "q-1168",
+      "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+      "questionUrl": "/site/index.html#question/q-1168"
+    }
+  ],
+  "publication": {
+    "pendingCompleteEvents": 19,
+    "readyToPublish": false,
+    "committed": false,
+    "pushed": false,
+    "headUnchanged": "d8c2f1360e13a688ce75588ed285b2c5563b9540",
+    "reason": "8 previous events +11 current complete events =19. Pending correction is excluded; no below20 publication authorization."
+  },
+  "tests": {
+    "checkedAt": "2026-11-19T14:38:44.718311+00:00",
+    "passed": true,
+    "siteTests": 123,
+    "monitorTests": 96,
+    "formalLayoutChecks": 72,
+    "formalAppStandaloneWidths": [
+      1440,
+      1120,
+      390
+    ],
+    "formalDesktopMobileActuallyViewed": 48,
+    "gitDiffCheck": true,
+    "logs": {
+      "site": ".cache/intake-20261119-6aff02c8/site-tests.log",
+      "monitor": ".cache/intake-20261119-6aff02c8/monitor-tests-final.log"
+    },
+    "initialHarnessErrors": {
+      "directDiscovery": {
+        "command": "python -m unittest discover -s monitor -p 'test_*.py'",
+        "result": "wrong namespace: 6 relative import errors; not product failures",
+        "log": ".cache/intake-20261119-6aff02c8/monitor-tests.log"
+      },
+      "topLevelDiscovery": {
+        "result": "namespace package has no __init__.py; discovery root not importable",
+        "log": ".cache/intake-20261119-6aff02c8/monitor-tests-package.log"
+      },
+      "correctedInvocation": "unittest.defaultTestLoader.loadTestsFromNames on monitor.test_* namespace modules; all 96 passed"
+    },
+    "notRun": [
+      "Netlify deployment and production mark writes (not part of this intake)",
+      "commit/push (19 pending complete events; threshold is20)"
+    ]
+  },
+  "evidence": {
+    "intake": "docs/imports/new-gpt-20261119-73/acquisition.json",
+    "dedupe": "docs/imports/new-gpt-20261119-73/dedupe-freeze.json",
+    "formalVisualReview": "docs/imports/new-gpt-20261119-73/integration/formal-visual-review.json",
+    "technicalAudit": "docs/imports/new-gpt-20261119-73/integration/final-audit.json",
+    "rootIndependentAudit": "docs/imports/new-gpt-20261119-73/root/integrity-audit.json"
+  },
+  "links": {
+    "firstQuestion": "https://monitor-test.sibuzu.com/site/index.html#question/q-1157",
+    "lastQuestion": "https://monitor-test.sibuzu.com/site/index.html#question/q-1168",
+    "firstStandalone": "https://monitor-test.sibuzu.com/site/q-1157.html",
+    "pendingCorrection": "https://monitor-test.sibuzu.com/site/index.html#question/q-1168",
+    "monitor": "https://monitor-test.sibuzu.com/"
+  },
+  "limits": [
+    "q-1168 source AI diagram has contradictory left/right arrows; original answerD unchanged and all new diagrams corrected. Confirmation pending; not counted complete.",
+    "Existing working-tree changes preserved. No old source/rework queues resumed.",
+    "No Netlify deployment performed."
+  ]
+}

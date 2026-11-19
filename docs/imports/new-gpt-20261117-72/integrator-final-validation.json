@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-11-17T17:37:53.313562+00:00",
+  "passed": true,
+  "candidateOriginals": 24,
+  "newOriginals": 21,
+  "duplicateCanonicalIds": [
+    "q-795",
+    "q-798",
+    "q-804"
+  ],
+  "allNewDates": "2026-11-17",
+  "retainedCanonicalDates": "2026-10-29",
+  "newActualImages": 84,
+  "completeEvents": 18,
+  "artAcceptedButAwaitingWithoutAnyIntegrationEvent": [
+    "q-1135",
+    "q-1153",
+    "q-1154"
+  ],
+  "pendingOriginalMaterial": [
+    "q-1153",
+    "q-1154"
+  ],
+  "pendingSingleAnswerCondition": [
+    "q-1135"
+  ],
+  "finalFormalComicLayouts": 126,
+  "formalDesktopMobileActuallyOpened": 84,
+  "finalIsolatedLayouts": 63,
+  "finalFullPageLayouts": 84,
+  "fullPageCoverageRecords": [
+    "docs/imports/new-gpt-20261117-72/qa/validation-q-1133-q-1136-q-1149-q-1150-q-1151-q-1152-q-1153-q-1154-q-1155-q-1156.json",
+    "docs/imports/new-gpt-20261117-72/qa/validation-q-1137-q-1138-q-1134-q-1139-q-1140-q-1142-q-1144-q-1145-q-1146-q-1148-q-1135.json"
+  ],
+  "extraTargetedRepeat": {
+    "id": "q-1153",
+    "isolated": 3,
+    "formal": 6,
+    "reason": "Unaccepted draft eligibility checkmark changed to cross; generator kept in sync, original question unchanged"
+  },
+  "siteTests": 123,
+  "monitorTests": 96,
+  "questionPagesBefore": 936,
+  "questionPagesAfter": 957,
+  "originalQuestionsBefore": 1012,
+  "originalQuestionsAfter": 1033,
+  "oldUrlsPreserved": 1012,
+  "oldQuestionContentDatesAnswersPreserved": true,
+  "oldDerivedReviewNavigationOnlyChanged": 5,
+  "assetReferencesAllPresent": 4421,
+  "rawOriginalsBytesSHAPreserved": 24,
+  "productionStopped": true,
+  "gateClosed": true,
+  "allLanesClaimsPaused": true,
+  "oldBiology19Other46Paused": true,
+  "publication": {
+    "batch": 38,
+    "publishedEvents": 20,
+    "commitAndRemote": "d8c2f1360e13a688ce75588ed285b2c5563b9540",
+    "normalPush": true,
+    "currentPendingEvents": 8,
+    "laterPartialBatchNotPushed": true,
+    "postPushLedgerReceiptLocalUncommitted": true
+  },
+  "evidence": [
+    "completion-audit.json",
+    "final-tests.json",
+    "stop-gate-validation.json",
+    "root/final-audit.json",
+    "integration-visual-corrections.json",
+    "registered-reviews.json"
+  ]
+}

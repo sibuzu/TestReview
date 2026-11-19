@@ -1,0 +1,73 @@
+{
+  "id": "q-1162",
+  "sourceId": "src-more-073",
+  "subject": "Physics-Chemistry",
+  "title": "理化第10題｜由速度時間圖求平均摩擦力",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-19",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-19",
+  "question": "C羅用力一踢，質量0.3 kg的足球在草地上直線前進，場地旁邊的測速器測得其速度對時間關係如右圖所示，由此可以推算出草地的摩擦力大小平均為多少N？\n(A) 45\n(B) 4.5\n(C) 450\n(D) 0.45",
+  "answer": "(D) 0.45",
+  "explanation": "答案D，平均摩擦力大小為0.45 N。原圖顯示足球在t＝0時的速度為15 m/s，至t＝10 s降為0；t＝10～20 s則保持停止。求使球減速的草地平均摩擦力，應使用球仍在前進、受摩擦減速的0～10 s，不能把已停止的10～20 s一起當作減速時間。\n\n以前進方向為正，平均加速度a＝(0－15)／10＝－1.5 m/s²。水平方向造成減速的平均合力依題意視為草地摩擦力，F＝ma＝0.3×(－1.5)＝－0.45 N。負號表示摩擦力與前進方向相反；題目問大小，回答0.45 N。\n\nA的45、B的4.5、C的450都不符合0.3×15／10的結果。質量已用kg，無須再乘g；N與kgw也不能混用。球停止後若沒有其他水平推力，沒有必須維持0.45 N的動摩擦力；原圖水平段不是仍在以同一加速度減速。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正User原卷、完整題幹及全部選項；日期取首次提問台灣日，非實際考試日。冊次章節無證據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "速度時間圖",
+    "摩擦力"
+  ],
+  "images": [
+    "docs/imports/new-gpt-20261119-73/lane2/crops/q-1162-original.png"
+  ],
+  "sourceLabel": "分享原卷｜第10題",
+  "studentAnswer": "10@錯題B→ D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "10",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "45",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "比0.45 N大100倍，計算量級不符。"
+    },
+    {
+      "label": "B",
+      "text": "4.5",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "比0.45 N大10倍；需將速度變化除以10 s。"
+    },
+    {
+      "label": "C",
+      "text": "450",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "比0.45 N大1000倍，kg不必再轉成g代入。"
+    },
+    {
+      "label": "D",
+      "text": "0.45",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "0.3×(15／10)＝0.45 N。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261119-73/lane2/crops/q-1162-vt-original.png",
+      "alt": "原卷速度時間圖：0秒15 m/s，10秒降至0，20秒仍為0",
+      "caption": "原卷作答必要速度時間圖，保留原始筆跡，非AI重製。"
+    }
+  ],
+  "explanationFigures": []
+}

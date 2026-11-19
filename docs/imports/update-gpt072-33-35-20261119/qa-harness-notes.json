@@ -1,0 +1,29 @@
+{
+  "initialHarnessFailures": [
+    {
+      "message": "true !== false in initial collapsed assertion",
+      "reason": "same-URL navigation reused the expanded app document between viewport cases",
+      "fix": "reload the same-origin page before each independent initial-state check"
+    },
+    {
+      "message": "localStorage access denied on about:blank",
+      "reason": "test-session init script ran on an opaque-origin harness page",
+      "fix": "use reload on the actual same-origin page instead of about:blank"
+    }
+  ],
+  "productChangesForHarnessFailures": false,
+  "finalFullPageChecks": 8,
+  "finalValidation": ".cache/update-gpt072-33-35/full/validation-q-1153-q-1154.json",
+  "initialPublicationSiteTests": {
+    "passed": 121,
+    "failed": 2,
+    "tests": [
+      "dataset retains the original subjects and archives alongside new questions",
+      "import round-trips every question and source"
+    ],
+    "reason": "Internal confirmation/source provenance was placed in strict front-end records; validators correctly removed unsupported fields.",
+    "fix": "Keep confirmation evidence in persistent scope audit files and existing verificationNote; store source aliases/supplements in META-supported more-gpt-progress rather than expanding front-end schemas.",
+    "failureLog": ".cache/update-gpt072-33-35/site-tests-first-failure.log",
+    "publisherStoppedBeforeCommit": true
+  }
+}

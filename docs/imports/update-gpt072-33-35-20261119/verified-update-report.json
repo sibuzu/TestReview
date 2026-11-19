@@ -1,0 +1,74 @@
+{
+  "preparedAt": "2026-11-19T15:39:32.096815+00:00",
+  "state": "verified_ready_for_authorized_batch_publication",
+  "questionIds": [
+    "q-1153",
+    "q-1154",
+    "q-1122",
+    "q-1135",
+    "q-1168"
+  ],
+  "answers": {
+    "q-1153": "A",
+    "q-1154": "A",
+    "q-1122": "D",
+    "q-1135": "C",
+    "q-1168": "D"
+  },
+  "originalQuestionCountUnchanged": 969,
+  "noQuestion34Added": true,
+  "noNewSource74": true,
+  "supplementIsExistingSource": "src-more-072",
+  "newShareIndexedAsExistingSource": true,
+  "commonReadingCharacters": 335,
+  "existingQuestionDatesSourcesStudentResponsesPreserved": true,
+  "existingIllustrationsRetained": 20,
+  "newIllustrationGenerationCalls": 0,
+  "changedExistingSvgLabels": [
+    "q-1153-panel-4.svg",
+    "q-1154-panel-4.svg",
+    "q-1122-panel-4.svg"
+  ],
+  "newGuardTests": 6,
+  "monitorTests": 102,
+  "monitorTestsPassed": true,
+  "siteTestRunByPublisherBeforeCommit": true,
+  "formalUpdatedLayoutCases": 24,
+  "completeReadingDesktopMobileCases": 8,
+  "unchangedApprovedValidationReused": [
+    "q-1168"
+  ],
+  "newCompleteEvents": 5,
+  "pendingEventsBeforePublication": 24,
+  "authorizedPublicationBatchSize": 20,
+  "expectedPendingAfterPublication": 4,
+  "sourceStates": {
+    "71": {
+      "state": "partial",
+      "remaining": [
+        "q-1107"
+      ]
+    },
+    "72": {
+      "state": "complete"
+    },
+    "73": {
+      "state": "complete"
+    }
+  },
+  "allQuestionUpdateScopesClosed": true,
+  "oldQueuesRemainPaused": true,
+  "evidence": {
+    "twoQuestionAcceptance": "docs/imports/update-gpt072-33-35-20261119/acceptance.json",
+    "monitorDecisionScopes": "docs/imports/monitor-confirmation-sync-20261119",
+    "rootIntegrityAudit": "docs/imports/update-gpt072-33-35-20261119/root/final-integrity-audit.json",
+    "rootPublicCheck": "docs/imports/update-gpt072-33-35-20261119/root/public-reading-check.json",
+    "harnessFailuresAndFixes": "docs/imports/update-gpt072-33-35-20261119/qa-harness-notes.json",
+    "monitorTestsLog": ".cache/update-gpt072-33-35/monitor-tests-final.log"
+  },
+  "limits": [
+    "q-1107原印二字未明認，保持原樣待核，不由OK猜補。",
+    "q-1122依使用者指定採D與大型礦砂船情境；保留原B可能誤改及原題未限定船型的限制，不用單一噸位當所有船型通行門檻。",
+    "不更動DNS/Netlify設定或另行部署；按既有每20驗證事件commit all及正常push。"
+  ]
+}

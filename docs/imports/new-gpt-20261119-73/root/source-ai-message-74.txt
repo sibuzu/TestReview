@@ -1,0 +1,133 @@
+user
+10@錯題B → D
+
+system
+
+
+system
+
+
+system
+
+
+assistant
+
+
+assistant
+## @錯題｜融合模式 v2.1｜理化第10題
+
+<text color="secondary" size="sm">主題：牛頓第三運動定律｜反作用力與慣性</text>
+
+<row align="center" gap={2}>
+  <badge color="success">正確答案 D</badge>
+  <text color="secondary" weight="medium">原選 B → 正解 D</text>
+</row>
+
+### 一、原題與四選項核對
+
+**題目：** 小寶穿著溜冰鞋推牆壁，若小寶對牆壁施加向左 50 kgw 的力，下列敘述何者**錯誤**？
+
+| 選項 | 敘述重點 | 判斷 |
+|---|---|---|
+| A | 牆反推小寶 50 kgw | 正確 |
+| B | 接觸牆壁期間，小寶有向右的加速度 | 正確 |
+| C | 小寶體重愈輕，產生的加速度愈大 | 正確（相同合力下） |
+| **D** | **手離開牆壁後，不計地板摩擦力，小寶速度愈來愈大** | **錯誤 ✓** |
+
+### 二、精準圖解：接觸牆壁與離開牆壁
+
+<box border radius="lg" padding={3} gap={3}>
+  <text weight="medium">階段 1｜手正在推牆壁</text>
+  <svg viewBox="0 0 330 140" width="100%">
+    <rect x="68" y="35" width="26" height="75" rx="4" fill="#93C5FD" stroke="#2563EB" strokeWidth="1.5"/>
+    <circle cx="81" cy="21" r="14" fill="#FCD7B0" stroke="#A16207" strokeWidth="1.2"/>
+    <path d="M68 53 L48 75 M94 53 L113 75 M76 110 L64 127 M87 110 L99 127" stroke="#475569" strokeWidth="5" strokeLinecap="round"/>
+    <rect x="225" y="8" width="17" height="119" fill="#CBD5E1" stroke="#64748B" strokeWidth="1.5"/>
+    {#each [0,1,2,3,4,5,6] as i}
+      <path key={i} d={`M225 ${13+i*17} l17 -10`} stroke="#94A3B8" strokeWidth="1"/>
+    {/each}
+    <path d="M112 70 H222" stroke="#DC2626" strokeWidth="3.5"/>
+    <path d="M222 70 l-11 -6 v12 Z" fill="#DC2626"/>
+    <text x="166" y="60" textAnchor="middle" fontSize="12" fill="#DC2626">小寶推牆（向左）</text>
+    <path d="M222 100 H109" stroke="#16A34A" strokeWidth="3.5"/>
+    <path d="M109 100 l11 -6 v12 Z" fill="#16A34A"/>
+    <text x="166" y="119" textAnchor="middle" fontSize="12" fill="#15803D">牆推小寶（向右）</text>
+    <text x="165" y="136" textAnchor="middle" fontSize="10" fill="currentColor" opacity=".7">左右以原題向左推牆、向右退開為準；示意物件不按實際方位</text>
+  </svg>
+  <divider color="subtle"/>
+  <text weight="medium">階段 2｜手離開牆壁，忽略摩擦力</text>
+  <svg viewBox="0 0 330 91" width="100%">
+    <rect x="17" y="26" width="47" height="36" rx="6" fill="#93C5FD" stroke="#2563EB"/>
+    <path d="M69 44 H270" stroke="#2563EB" strokeWidth="3"/>
+    <path d="M270 44 l-12 -7 v14 Z" fill="#2563EB"/>
+    <text x="169" y="25" textAnchor="middle" fill="#2563EB" fontSize="13" fontWeight="600">向右等速度滑行</text>
+    <text x="165" y="81" textAnchor="middle" fill="currentColor" fontSize="12">水平合力 0 → 加速度 0</text>
+  </svg>
+</box>
+
+依題意，離開牆壁後，沒有牆的推力，也忽略地板摩擦力，因此水平方向合力為零。
+
+\[
+\boxed{F_{\text{合}}=0\ \Rightarrow\ a=0}
+\]
+
+加速度為零，不代表速度為零，而是**速度保持不變**。
+
+### 三、B 與 D：最後二選一決勝
+
+**原選 B：與牆接觸期間，小寶有向右的加速度。**
+
+正確。小寶向左推牆，牆便給小寶向右的反作用力。若水平其他力可忽略，小寶受到向右的合力，因而向右加速。
+
+**正解 D：手離開牆壁後，速度愈來愈大。**
+
+錯誤。手離開牆壁後，不再受到牆壁的推力。如果沒有水平摩擦力，速度不會繼續增加，而是保持離開瞬間的速度。
+
+| 決勝條件 | B（原選） | D（正解） |
+|---|---|---|
+| 是否接觸牆壁 | 是 | 否 |
+| 牆是否施加推力 | 是 | 否 |
+| 水平加速度 | 向右 | 零 |
+| 運動情形 | 向右加速 | 向右等速度 |
+
+### 四、會考快速判斷法
+
+看到「推牆後滑行」這種題目，要先分成兩個階段：
+
+<box background="surface-secondary" radius="lg" padding={3} gap={2}>
+  <row align="center" justify="between">
+    <text weight="medium">正在推牆</text>
+    <text weight="medium" color="success">有反作用力 → 加速</text>
+  </row>
+  <divider color="subtle"/>
+  <row align="center" justify="between">
+    <text weight="medium">離開牆壁</text>
+    <text weight="medium">無水平合力 → 等速度</text>
+  </row>
+</box>
+
+**別把「持續運動」誤認成「持續加速」。**
+
+### 五、本題誤選診斷
+
+可能的判斷陷阱是：認為推牆時作用力、反作用力會相互抵銷，因此懷疑 B 的加速度敘述。
+
+但 B 的作用力與反作用力是作用在不同物體上，不能互相抵銷。
+
+目前僅有 B → D 的紀錄，尚無孩子原始作答思路，所以這只是可能錯因。
+
+這題也延伸前幾題的核心觀念：**第三運動定律判斷力的配對，第一、第二運動定律判斷物體的運動狀態。**
+
+> **一句話記住：推牆時會加速；離開牆後若無水平合力，就等速度運動。**
+
+---
+
+<text color="secondary" size="xs">品質檢核：P0 已依照片確認題幹與四選項並獨立核對答案 D；P1 運動階段與受力概念已核對。圖解為概念示意，非原圖等比例重製；教材證據：依本次上傳的第55頁照片解析，尚未透過國中教材唯讀搜尋查核 PDF 原頁。</text>
+
+---
+
+如果你願意，我可以：
+
+- 請解釋為何酸鹼中和時主要是氫離子和氫氧根離子反應？
+- 請提供酸鹼中和反應的離子方程式範例
+- 說明酸鹼中和反應放熱的原因與實際觀察

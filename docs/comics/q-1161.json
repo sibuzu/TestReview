@@ -1,0 +1,117 @@
+{
+  "id": "q-1161",
+  "subject": "Physics-Chemistry",
+  "title": "綁合後以總質量及新合力計算",
+  "art": "docs/imports/new-gpt-20261119-73/lane2/art/q-1161-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 分別列F＝ma",
+      "text": "同一合力F作用下，m₁＝F/a₁、m₂＝F/a₂。不能直接相加或相乘原加速度。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1161-panel-1.svg",
+      "alt": "第1張新製科學示意：分別列F＝ma",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    },
+    {
+      "heading": "② 綁合後總質量相加",
+      "text": "兩物體一起加速，總質量是m₁＋m₂；題目新給的合力是3F。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1161-panel-2.svg",
+      "alt": "第2張新製科學示意：綁合後總質量相加",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    },
+    {
+      "heading": "③ 代入並約去F",
+      "text": "a＝3F/(F/a₁＋F/a₂)＝3a₁a₂/(a₁＋a₂)。質量與加速度的關係要先代清楚。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1161-panel-3.svg",
+      "alt": "第3張新製科學示意：代入並約去F",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B",
+    "points": [
+      "B：3a₁a₂/(a₁＋a₂)。",
+      "相同質量特例會得到1.5倍原加速度。",
+      "合力變3倍，總質量也變大，不能只乘3。"
+    ],
+    "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1161-panel-4.svg",
+    "alt": "第4張新製圖解：綁合後以總質量及新合力計算"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261119-73/lane2/crops/q-1161-original.png"
+  ],
+  "answerCheckedAgainst": "答案B，a＝3a₁a₂／(a₁＋a₂)。先分別使用F＝ma：甲有m₁＝F／a₁，乙有m₂＝F／a₂。綁在一起時相加的是質量，不是原來兩個加速度；總質量m₁＋m₂＝F／a₁＋F／a₂。\n\n新合力已明確給成3F，因此a＝3F／(m₁＋m₂)＝3F／(F／a₁＋F／a₂)＝3／(1／a₁＋1／a₂)＝3a₁a₂／(a₁＋a₂)。F在分子、分母約掉，不必知道其數值。\n\nA漏掉分母a₁＋a₂；C是a₁、a₂倒數的和，不是本題加速度，也漏掉3；D只是兩加速度的乘積。還可檢查特例：若a₁＝a₂＝a₀，代表兩物體質量相同，綁合後質量變2倍、合力變3倍，故加速度應為1.5a₀，只有B符合。",
+  "rationale": "原卷完整題幹/全部選項及必要圖文逐項核對，四張新圖分別讀條件、辨關係、推導與整合；不使用來源AI圖。",
+  "generationMethod": "four newly authored exact native SVG scientific diagrams",
+  "producerAgent": "/root/comic_lane_2",
+  "layoutVersion": "native-four-images-v7",
+  "createdAt": "2026-11-19T14:32:39.780610+00:00",
+  "protectedWords": [
+    "二氧化碳",
+    "碳酸氫鈉",
+    "乙酸乙酯",
+    "濃硫酸",
+    "氫氧化鈉",
+    "牛頓第二運動定律",
+    "加速度",
+    "摩擦力",
+    "CH₃COOC₂H₅",
+    "CH₃COOH",
+    "C₂H₅OH",
+    "NaHCO₃",
+    "HCO₃⁻",
+    "Ba(OH)₂",
+    "BaSO₄"
+  ],
+  "visualChecked": true,
+  "producerVisualChecked": true,
+  "checkedAt": "2026-11-19T14:37:05.025329+00:00",
+  "artSHA256": "9adfbe718b42bf3315e986f5b05161e21088147954a2d7407ded95744c8b6732",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      ".cache/intake-20261119-73-lane2/q-1161-preview-1440.png",
+      ".cache/intake-20261119-73-lane2/q-1161-preview-390.png"
+    ],
+    "artContactSheet": ".cache/intake-20261119-73-lane2/q-1161-art-contact.png",
+    "validationFile": "docs/imports/new-gpt-20261119-73/lane2/qa/q-1161-validation.json"
+  },
+  "producerReviewPath": "docs/comics/q-1161-production-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261119-73/integration/finalized-manifest-lanes2.json",
+  "nativeArt": "assets/comics/q-1161-art-9adfbe718b.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "technicalIntegrationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1161-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1161-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1161-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1161-standalone-390.png"
+    ],
+    "inheritedProducerOriginalAndAnswerReview": "docs/comics/q-1161-production-review.json",
+    "inheritedWithoutRepeatedOriginalReview": true,
+    "note": "製作代理已完整核對原題、答案與四圖並自驗；整合者依最新分工做完整性、去重、引用與正式桌手機版面驗收，不冒稱重做題解。",
+    "checkedAt": "2026-11-19T14:37:05.012142+00:00",
+    "answerOrRequiredMaterialPending": false
+  },
+  "validationFile": "docs/comics/q-1161-validation.json"
+}

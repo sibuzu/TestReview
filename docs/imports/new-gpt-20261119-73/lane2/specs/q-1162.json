@@ -1,0 +1,84 @@
+{
+  "id": "q-1162",
+  "subject": "Physics-Chemistry",
+  "title": "從v–t圖的斜率求摩擦力",
+  "art": "docs/imports/new-gpt-20261119-73/lane2/art/q-1162-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 讀出減速的兩端",
+      "text": "0秒速度15 m/s，10秒降為0。10～20秒保持停止，不能當成仍在減速。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1162-panel-1.svg",
+      "alt": "第1張新製科學示意：讀出減速的兩端",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    },
+    {
+      "heading": "② 求平均加速度",
+      "text": "以前進為正：a＝(0−15)/10＝−1.5 m/s²。負號表示加速度向後。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1162-panel-2.svg",
+      "alt": "第2張新製科學示意：求平均加速度",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    },
+    {
+      "heading": "③ 用質量乘加速度",
+      "text": "F＝0.3×(−1.5)＝−0.45 N；摩擦力與前進方向相反，大小取0.45 N。",
+      "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1162-panel-3.svg",
+      "alt": "第3張新製科學示意：用質量乘加速度",
+      "caption": "新製精確科學／力學輔助圖，非原卷。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D",
+    "points": [
+      "D：0.45 N。",
+      "用0～10 s減速期間計算。",
+      "已停止的水平圖線代表速度不再下降。"
+    ],
+    "image": "docs/imports/new-gpt-20261119-73/lane2/art/q-1162-panel-4.svg",
+    "alt": "第4張新製圖解：從v–t圖的斜率求摩擦力"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261119-73/lane2/crops/q-1162-original.png"
+  ],
+  "answerCheckedAgainst": "答案D，平均摩擦力大小為0.45 N。原圖顯示足球在t＝0時的速度為15 m/s，至t＝10 s降為0；t＝10～20 s則保持停止。求使球減速的草地平均摩擦力，應使用球仍在前進、受摩擦減速的0～10 s，不能把已停止的10～20 s一起當作減速時間。\n\n以前進方向為正，平均加速度a＝(0－15)／10＝－1.5 m/s²。水平方向造成減速的平均合力依題意視為草地摩擦力，F＝ma＝0.3×(－1.5)＝－0.45 N。負號表示摩擦力與前進方向相反；題目問大小，回答0.45 N。\n\nA的45、B的4.5、C的450都不符合0.3×15／10的結果。質量已用kg，無須再乘g；N與kgw也不能混用。球停止後若沒有其他水平推力，沒有必須維持0.45 N的動摩擦力；原圖水平段不是仍在以同一加速度減速。",
+  "rationale": "原卷完整題幹/全部選項及必要圖文逐項核對，四張新圖分別讀條件、辨關係、推導與整合；不使用來源AI圖。",
+  "generationMethod": "four newly authored exact native SVG scientific diagrams",
+  "producerAgent": "/root/comic_lane_2",
+  "layoutVersion": "native-four-images-v7",
+  "createdAt": "2026-11-19T14:32:39.781508+00:00",
+  "protectedWords": [
+    "二氧化碳",
+    "碳酸氫鈉",
+    "乙酸乙酯",
+    "濃硫酸",
+    "氫氧化鈉",
+    "牛頓第二運動定律",
+    "加速度",
+    "摩擦力",
+    "CH₃COOC₂H₅",
+    "CH₃COOH",
+    "C₂H₅OH",
+    "NaHCO₃",
+    "HCO₃⁻",
+    "Ba(OH)₂",
+    "BaSO₄"
+  ],
+  "visualChecked": true,
+  "producerVisualChecked": true,
+  "checkedAt": "2026-11-19T14:33:32.951693+00:00",
+  "artSHA256": "48742fa4cb5a31a55900c9557503d84eb0cccef3a7df931341839782ac87acb4",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      ".cache/intake-20261119-73-lane2/q-1162-preview-1440.png",
+      ".cache/intake-20261119-73-lane2/q-1162-preview-390.png"
+    ],
+    "artContactSheet": ".cache/intake-20261119-73-lane2/q-1162-art-contact.png",
+    "validationFile": "docs/imports/new-gpt-20261119-73/lane2/qa/q-1162-validation.json"
+  }
+}

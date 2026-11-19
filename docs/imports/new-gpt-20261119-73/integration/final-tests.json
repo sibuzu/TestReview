@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-19T14:38:44.718311+00:00",
+  "passed": true,
+  "siteTests": 123,
+  "monitorTests": 96,
+  "formalLayoutChecks": 72,
+  "formalAppStandaloneWidths": [
+    1440,
+    1120,
+    390
+  ],
+  "formalDesktopMobileActuallyViewed": 48,
+  "gitDiffCheck": true,
+  "logs": {
+    "site": ".cache/intake-20261119-6aff02c8/site-tests.log",
+    "monitor": ".cache/intake-20261119-6aff02c8/monitor-tests-final.log"
+  },
+  "initialHarnessErrors": {
+    "directDiscovery": {
+      "command": "python -m unittest discover -s monitor -p 'test_*.py'",
+      "result": "wrong namespace: 6 relative import errors; not product failures",
+      "log": ".cache/intake-20261119-6aff02c8/monitor-tests.log"
+    },
+    "topLevelDiscovery": {
+      "result": "namespace package has no __init__.py; discovery root not importable",
+      "log": ".cache/intake-20261119-6aff02c8/monitor-tests-package.log"
+    },
+    "correctedInvocation": "unittest.defaultTestLoader.loadTestsFromNames on monitor.test_* namespace modules; all 96 passed"
+  },
+  "notRun": [
+    "Netlify deployment and production mark writes (not part of this intake)",
+    "commit/push (19 pending complete events; threshold is20)"
+  ]
+}

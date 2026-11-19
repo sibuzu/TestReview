@@ -1,483 +1,53 @@
 {
   "mode": "biology_four_image_goal",
   "workerLimit": 3,
-  "rootRole": "第72來源：Root核原卷與固定10題製作；Agent1唯一共享題庫/正式圖解整合，Agent3製作11新歷史題。Agent2與舊19生物+46其他重製持續暫停。",
-  "updatedAt": "2026-11-17T16:52:25.340911+00:00",
+  "rootRole": "只更新q-1153/q-1154共同原卷；其他舊工作維持暫停。",
+  "updatedAt": "2026-11-19T15:36:17.444637+00:00",
   "lanes": [
     {
       "lane": 1,
       "questionId": null,
-      "title": "第72來源完整原題與四張圖製作/整合",
-      "state": "integrating",
-      "startedAt": "2026-11-17T16:12:38.135103+00:00",
+      "title": "本次狹義更新完成；其他舊佇列維持暫停。",
+      "state": "paused",
+      "startedAt": null,
       "agent": "/root/comic_lane_1",
       "role": "integration",
-      "claimsPaused": false,
-      "batchQuestionIds": [
-        "q-1133",
-        "q-1134",
-        "q-1135",
-        "q-1136",
-        "q-1151",
-        "q-1152",
-        "q-1153",
-        "q-1154",
-        "q-1155",
-        "q-1156"
-      ],
-      "pauseReason": "本批10題已驗收完成即停，其餘19生物與46非生物仍暫停。",
-      "activeTask": {
-        "title": "第72來源完整原題與四張圖製作/整合",
-        "state": "integrating",
-        "sourceId": "src-more-072",
-        "startedAt": "2026-11-17T16:12:38.135103+00:00"
-      }
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "activeTask": null,
+      "pauseReason": "本次狹義更新完成；其他舊佇列維持暫停。"
     },
     {
       "lane": 2,
       "questionId": null,
-      "title": "使用者先前指定Agent2交稿後暫停，本次未另行解除",
+      "title": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。",
       "state": "paused",
       "startedAt": null,
       "agent": "/root/comic_lane_2",
       "role": "production",
       "claimsPaused": true,
       "batchQuestionIds": [],
-      "pauseReason": "使用者先前指定Agent2交稿後暫停，本次未另行解除",
-      "activeTask": null
+      "activeTask": null,
+      "pauseReason": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。"
     },
     {
       "lane": 3,
-      "questionId": "q-1150",
-      "title": "歷史第6題｜尼克森主義與越戰",
-      "state": "idle",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
+      "questionId": null,
+      "title": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。",
+      "state": "paused",
+      "startedAt": null,
       "agent": "/root/comic_lane_3",
       "role": "production",
-      "claimsPaused": false,
-      "batchQuestionIds": [
-        "q-1137",
-        "q-1138",
-        "q-1139",
-        "q-1140",
-        "q-1142",
-        "q-1144",
-        "q-1145",
-        "q-1146",
-        "q-1148",
-        "q-1149",
-        "q-1150"
-      ],
-      "pauseReason": "本批10題已驗收完成即停，其餘19生物與46非生物仍暫停。",
-      "activeTask": {
-        "title": "第72來源完整原題與四張圖製作/整合",
-        "state": "producing",
-        "sourceId": "src-more-072",
-        "startedAt": "2026-11-17T16:12:38.135103+00:00"
-      }
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "activeTask": null,
+      "pauseReason": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。"
     }
   ],
-  "ready": [
-    {
-      "id": "q-1133",
-      "title": "公民第12題｜敦品中學與感化教育",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-01af4382aac8497696ed9af9cf532655",
-      "readyAt": "2026-11-17T16:48:49.037035+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1133.json",
-        "docs/comics/q-1133-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1136",
-      "title": "公民第29題｜少年法庭與檢察官的分工",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-b516fe0fdc9d4cbabe3895b42cb51850",
-      "readyAt": "2026-11-17T16:48:49.115765+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1136.json",
-        "docs/comics/q-1136-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1149",
-      "title": "歷史第5題｜三部憲政法令的先後",
-      "subject": "History",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-895ecac3d4e74c83851559db75bb25b6",
-      "readyAt": "2026-11-17T16:49:13.374656+00:00",
-      "decision": "complete",
-      "reason": "四不同新圖：1912權責、內建法令校讀、五權實物制度圖、三法典比例年代軸；原表/4選項/三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-1149.json",
-        "docs/comics/q-1149-preview-validation.json",
-        "docs/comics/source72-lane3/q-1149-review.json"
-      ]
-    },
-    {
-      "id": "q-1150",
-      "title": "歷史第6題｜尼克森主義與越戰",
-      "subject": "History",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-6288a9966ff44fcb883d15b00f738238",
-      "readyAt": "2026-11-17T16:49:13.474691+00:00",
-      "decision": "complete",
-      "reason": "四不同新圖：越南朝鮮位置、2內建越戰撤減/援助情境、比例年代軸；四圖原尺寸與三寬實看PASS，保留B。",
-      "evidence": [
-        "docs/comics/q-1150.json",
-        "docs/comics/q-1150-preview-validation.json",
-        "docs/comics/source72-lane3/q-1150-review.json"
-      ]
-    },
-    {
-      "id": "q-1151",
-      "title": "地理第13題｜非洲傳統農牧業與雨量",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-8d986d9b466e46b6a7889d8ecfad7111",
-      "readyAt": "2026-11-17T16:48:49.220645+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1151.json",
-        "docs/comics/q-1151-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1152",
-      "title": "地理第15題｜從西亞地圖辨認伊拉克與土耳其",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-0a1bd314a33e4f3ebdd53dbe68946fdf",
-      "readyAt": "2026-11-17T16:48:49.319538+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1152.json",
-        "docs/comics/q-1152-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1155",
-      "title": "公民第1題｜屏東市的地方民意代表",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-3d682af139bc46479c0546b32d9cc5bb",
-      "readyAt": "2026-11-17T16:48:49.560081+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1155.json",
-        "docs/comics/q-1155-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1156",
-      "title": "公民第5題｜臺南西港區的地方選舉選票",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-c92822993da54e1094b05fd40cfbab2a",
-      "readyAt": "2026-11-17T16:48:49.637117+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1156.json",
-        "docs/comics/q-1156-preview-validation.json"
-      ]
-    }
-  ],
-  "integrated": 1123,
-  "blocked": [
-    {
-      "id": "q-1122",
-      "title": "地理第3題｜巴西鐵礦砂航線的教材與實務差異",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "blocked",
-      "startedAt": "2026-11-16T15:49:02.485890+00:00",
-      "assignmentMethod": "source71 fixed qid reservation; no broad queue claim",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-7685dc33c7054e738fbf45f699a5ac21",
-      "readyAt": "2026-11-16T15:50:33.048276+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "四圖及隔離/正式QA均通過；原題航路/船型條件待確認，不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1122.json",
-        "docs/comics/q-1122-preview-validation.json"
-      ],
-      "integrationStartedAt": "2026-11-16T15:50:33.309702+00:00",
-      "integrationMonotonicStartNs": 4710430999603,
-      "integrationTimingHost": "WorkNerd",
-      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
-      "formalArtValidatedAt": "2026-11-16T15:52:37.225727+00:00",
-      "formalValidation": "docs/comics/q-1122-validation.json"
-    },
-    {
-      "id": "q-1135",
-      "title": "公民第27題｜少年犯罪與刑事程序",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "blocked",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-c64b747e26ad4004b79eab2a18f84e20",
-      "readyAt": "2026-11-17T16:40:35.211934+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "4新圖及原卷/法規/隔離3寬與桌手機實看PASS；原卷教材C與A裁量刑事可能性單選條件待核，交純藝術正式QA，不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1135.json",
-        "docs/comics/q-1135-preview-validation.json"
-      ],
-      "artQAStartedAt": "2026-11-17T16:42:03.732839+00:00",
-      "artQAOnly": true,
-      "formalArtValidatedAt": "2026-11-17T16:44:25.156221+00:00",
-      "formalValidation": "docs/comics/q-1135-validation.json"
-    },
-    {
-      "id": "q-1153",
-      "title": "公民第33題｜罷免票與公投票的資格差異",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "blocked",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-dc06fb0961b64abe898869fed2d62f01",
-      "readyAt": "2026-11-17T16:48:49.405730+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1153.json",
-        "docs/comics/q-1153-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1154",
-      "title": "公民第35題｜可被罷免的中央民意代表",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "blocked",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-efbbabb17dbd436899d723f5bd7151ae",
-      "readyAt": "2026-11-17T16:48:49.483382+00:00",
-      "decision": "awaiting_confirmation",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1154.json",
-        "docs/comics/q-1154-preview-validation.json"
-      ]
-    }
-  ],
-  "waiting": [
-    {
-      "id": "q-1133",
-      "title": "公民第12題｜敦品中學與感化教育",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-01af4382aac8497696ed9af9cf532655",
-      "readyAt": "2026-11-17T16:48:49.037035+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1133.json",
-        "docs/comics/q-1133-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1136",
-      "title": "公民第29題｜少年法庭與檢察官的分工",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-b516fe0fdc9d4cbabe3895b42cb51850",
-      "readyAt": "2026-11-17T16:48:49.115765+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1136.json",
-        "docs/comics/q-1136-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1149",
-      "title": "歷史第5題｜三部憲政法令的先後",
-      "subject": "History",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-895ecac3d4e74c83851559db75bb25b6",
-      "readyAt": "2026-11-17T16:49:13.374656+00:00",
-      "decision": "complete",
-      "reason": "四不同新圖：1912權責、內建法令校讀、五權實物制度圖、三法典比例年代軸；原表/4選項/三寬實看PASS。",
-      "evidence": [
-        "docs/comics/q-1149.json",
-        "docs/comics/q-1149-preview-validation.json",
-        "docs/comics/source72-lane3/q-1149-review.json"
-      ]
-    },
-    {
-      "id": "q-1150",
-      "title": "歷史第6題｜尼克森主義與越戰",
-      "subject": "History",
-      "lane": 3,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-6288a9966ff44fcb883d15b00f738238",
-      "readyAt": "2026-11-17T16:49:13.474691+00:00",
-      "decision": "complete",
-      "reason": "四不同新圖：越南朝鮮位置、2內建越戰撤減/援助情境、比例年代軸；四圖原尺寸與三寬實看PASS，保留B。",
-      "evidence": [
-        "docs/comics/q-1150.json",
-        "docs/comics/q-1150-preview-validation.json",
-        "docs/comics/source72-lane3/q-1150-review.json"
-      ]
-    },
-    {
-      "id": "q-1151",
-      "title": "地理第13題｜非洲傳統農牧業與雨量",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-8d986d9b466e46b6a7889d8ecfad7111",
-      "readyAt": "2026-11-17T16:48:49.220645+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1151.json",
-        "docs/comics/q-1151-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1152",
-      "title": "地理第15題｜從西亞地圖辨認伊拉克與土耳其",
-      "subject": "Geography",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-0a1bd314a33e4f3ebdd53dbe68946fdf",
-      "readyAt": "2026-11-17T16:48:49.319538+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1152.json",
-        "docs/comics/q-1152-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1155",
-      "title": "公民第1題｜屏東市的地方民意代表",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-3d682af139bc46479c0546b32d9cc5bb",
-      "readyAt": "2026-11-17T16:48:49.560081+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1155.json",
-        "docs/comics/q-1155-preview-validation.json"
-      ]
-    },
-    {
-      "id": "q-1156",
-      "title": "公民第5題｜臺南西港區的地方選舉選票",
-      "subject": "Civics",
-      "lane": 1,
-      "state": "ready",
-      "startedAt": "2026-11-17T16:21:21.751225+00:00",
-      "assignmentMethod": "source72 fixed permanent qid reservation; only21 confirmed new originals",
-      "productionTimingIncomplete": true,
-      "excludeFromSpeedStatistics": true,
-      "jobId": "job-c92822993da54e1094b05fd40cfbab2a",
-      "readyAt": "2026-11-17T16:48:49.637117+00:00",
-      "decision": "complete",
-      "reason": "四張獨立新圖及原卷/三寬隔離QA實看完成；缺共同前文者保持待核且不計complete事件。",
-      "evidence": [
-        "docs/comics/q-1156.json",
-        "docs/comics/q-1156-preview-validation.json"
-      ]
-    }
-  ],
+  "ready": [],
+  "integrated": 1147,
+  "blocked": [],
+  "waiting": [],
   "integrating": [],
   "held": [],
   "integrationLimit": 1,

@@ -95,7 +95,8 @@
     "q-1129",
     "q-1130",
     "q-1131",
-    "q-1132"
+    "q-1132",
+    "q-1122"
   ],
   "qidReservations": "docs/imports/new-gpt-20261116/qid-reservations.json",
   "contract": "docs/imports/new-gpt-20261116/contract.json",
@@ -185,13 +186,10 @@
       "q-1132"
     ]
   },
-  "updatedAt": "2026-11-16T16:04:35.461880+00:00",
-  "fourImageValidatedPendingQuestionIds": [
-    "q-1122"
-  ],
+  "updatedAt": "2026-11-19T15:34:02.212478+00:00",
+  "fourImageValidatedPendingQuestionIds": [],
   "pendingQuestionReviewIds": [
-    "q-1107",
-    "q-1122"
+    "q-1107"
   ],
   "deliveryState": "published_with_pending_review",
   "validatedFourImageQuestionIds": [
@@ -227,20 +225,11 @@
   "newQuestionPageCount": 27,
   "newIllustrationCount": 108,
   "illustrationsOutstanding": 0,
-  "verifiedCompleteIntegrationCount": 26,
+  "verifiedCompleteIntegrationCount": 27,
   "questionReviewsPending": [
-    "q-1107",
-    "q-1122"
+    "q-1107"
   ],
-  "pendingConfirmationIds": [
-    "correction-q-1106-d4e5a941f092",
-    "correction-q-1107-41c531cefd07",
-    "correction-q-1111-2777d5276ac6",
-    "correction-q-1118-d81491875c9c",
-    "correction-q-1115-2b004f91cc56",
-    "correction-q-1122-f7c63de8e5a0",
-    "correction-q-1131-81d4be2f74dc"
-  ],
+  "pendingConfirmationIds": [],
   "newConfirmationCount": 7,
   "publication": {
     "state": "published",
@@ -267,5 +256,20 @@
     "scope": "原題/108圖/各QA與preservation audit、待核主區及monitor新獨立重製卡",
     "lastRequestedChange": "q1107主區去除已知兩組改錯答案，4布局已檢查通過",
     "authorization": "root confirmed user explicit source71 add and commit/push, including current monitor UI and necessary pending single-page renderer fix."
-  }
+  },
+  "integrationEvents": [
+    {
+      "id": "q-1122",
+      "integrationEventId": "integration-job-7685dc33c7054e738fbf45f699a5ac21",
+      "integratedAt": "2026-11-19T15:34:02.100931+00:00"
+    }
+  ],
+  "productionStopped": true,
+  "completedOriginalQuestionCount": 27,
+  "pendingContentQuestionIds": [
+    "q-1107"
+  ],
+  "pendingPublicationEvents": 22,
+  "lastMaterialOrConfirmationUpdate": "docs/imports/monitor-confirmation-sync-20261119/q-1122",
+  "pendingConfirmationCount": 0
 }

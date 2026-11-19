@@ -5,6 +5,7 @@ import argparse, json, subprocess, sys
 R=Path(__file__).resolve().parents[3];D=Path(__file__).parent;sys.path.insert(0,str(R))
 from monitor.comic_pipeline import integrated, locked, load, save, update_display, now
 from monitor.comic_execution import assert_work_allowed
+from monitor.comic_publish import pending_batch
 
 p=argparse.ArgumentParser(description=__doc__);p.add_argument('id');p.add_argument('--note',required=True)
 p.add_argument('--awaiting-confirmation',action='store_true');a=p.parse_args();qid=a.id
@@ -38,6 +39,7 @@ if a.awaiting_confirmation:
 else:
  job=latest if latest['state']=='integrated' else integrated(R,qid)
 
+_,_,_,publication_pending=pending_batch()
 with locked(R):
  execution=load(D/'execution-progress.json');key='awaitingConfirmationQuestionIds' if a.awaiting_confirmation else 'completedQuestionIds'
  assert qid not in execution.get(key,[]);execution.setdefault(key,[]).append(qid)
@@ -47,7 +49,7 @@ with locked(R):
  if not a.awaiting_confirmation:
   plan.setdefault('integrationEvents',[]).append({'id':qid,'integrationEventId':job['integrationEventId'],'integratedAt':job['integratedAt']})
  complete=len(execution['completedQuestionIds']);awaiting=len(execution['awaitingConfirmationQuestionIds']);checked=len(validated);total=len(scope['newQuestionIds'])
- plan.update(validatedIllustrationCount=4*checked,completedOriginalQuestionCount=complete,illustrationsOutstanding=4*(total-checked),updatedAt=now())
+ plan.update(validatedIllustrationCount=4*checked,completedOriginalQuestionCount=complete,illustrationsOutstanding=4*(total-checked),pendingPublicationEvents=len(publication_pending),updatedAt=now())
  gp=load(R/'docs/imports/more-gpt-progress.json');source=next(s for s in gp['sources'] if s.get('sourceId')==scope['sourceId'])
  source.update(state='partial',contentCurationComplete=False,validatedFourImageQuestionIds=validated[:],fourImageQuestionIds=execution['completedQuestionIds'][:],newIllustrationCount=4*checked,requiredIllustrationCount=4*total,illustrationsOutstanding=4*(total-checked),pendingFourImageQuestionIds=execution['awaitingConfirmationQuestionIds'][:],teachingComicState='partial')
  if checked==total:

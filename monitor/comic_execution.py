@@ -84,6 +84,81 @@ def authorized_new_source(root, qid):
         raise ValueError('新來源授權證據不完整；維持停止。') from error
 
 
+def authorized_question_update(root, qid):
+    """A user update unlocks only its existing questions, without resuming a queue."""
+    pointer = root/'monitor/question-update-authorization.json'
+    if not pointer.exists():
+        return False
+    try:
+        config = json.loads(pointer.read_text())
+        if config.get('state') != 'active':
+            return False
+        scope_path = _local_file(root, config['scopePath'], 'docs/imports')
+        if hashlib.sha256(scope_path.read_bytes()).hexdigest() != config['scopeSHA256']:
+            raise ValueError('題目更新白名單雜湊不符。')
+        scope = json.loads(scope_path.read_text())
+        ids = scope['questionIds']
+        if (not 1 <= len(ids) <= 2 or len(ids) != len(set(ids))
+                or any(not re.fullmatch(r'q-[0-9]+', q) for q in ids)
+                or scope.get('kind') != 'explicit_question_update'
+                or scope.get('authorizedBy') not in ('user_update', 'monitor_confirmation')
+                or scope.get('sourceId') != config.get('sourceId')
+                or scope.get('url') != config.get('url')
+                or not re.fullmatch(r'https://chatgpt.com/share/[0-9a-f-]{36}', scope['url'])
+                or scope.get('originalsVisualChecked') is not True
+                or scope.get('existingQuestionIdentityChecked') is not True
+                or scope.get('noNewQuestions') is not True):
+            raise ValueError('題目更新僅限已核對的至多兩題，不得恢復舊佇列。')
+        if qid not in ids:
+            return False
+        baseline = scope['baselineQuestions']
+        questions = json.loads((root/'site/dist/data.json').read_text())['questions']
+        existing = {q['id']: q for parent in questions for q in (parent.get('groupQuestions') or [parent])}
+        if (set(baseline) != set(ids) or any(q not in existing for q in ids)
+                or any(baseline[q] != {k: existing[q][k] for k in ('id', 'sourceId', 'date')}
+                       or baseline[q]['sourceId'] != scope['sourceId'] for q in ids)):
+            raise ValueError('題目更新不得新增題號或改變既有來源、日期。')
+        if scope['authorizedBy'] == 'monitor_confirmation':
+            evidence = scope['confirmationEvidence']
+            resolved = json.loads((root/'monitor/confirmations.json').read_text()).get('resolved', [])
+            if len(evidence) != len(ids) or {e['questionId'] for e in evidence} != set(ids):
+                raise ValueError('監看確認更新須逐題具備原確認紀錄。')
+            for item in evidence:
+                record = next((r for r in resolved if r['id'] == item['requestId']), None)
+                if (not record or record.get('state') != 'resolved'
+                        or (record.get('questionId') or record['id']) != item['questionId']
+                        or hashlib.sha256(json.dumps(record, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+                        != item['snapshotSHA256']):
+                    raise ValueError('監看確認紀錄缺漏或已變更，維持停止。')
+        progress = json.loads(_local_file(root, config['progressPath'], str(scope_path.parent.relative_to(root))).read_text())
+        completed = progress['completedQuestionIds']
+        if (progress.get('state') != 'active' or progress.get('sourceId') != scope['sourceId']
+                or len(completed) != len(set(completed)) or not set(completed) <= set(ids)
+                or qid in completed or len(completed) == len(ids)):
+            raise ValueError('題目更新本題已完成或授權已停止。')
+        acquisition_path = _local_file(root, scope['acquisitionPath'], str(scope_path.parent.relative_to(root)))
+        if hashlib.sha256(acquisition_path.read_bytes()).hexdigest() != scope['acquisitionSHA256']:
+            raise ValueError('題目更新原卷紀錄雜湊不符。')
+        acquisition = json.loads(acquisition_path.read_text())
+        images = acquisition['downloadedImages']
+        if (acquisition.get('state') != 'acquired' or acquisition.get('sourceId') != scope['sourceId']
+                or acquisition.get('url') != scope['url'] or not images
+                or len(images) != acquisition['imagesExpected']
+                or len(images) != scope['expectedOriginalImages']
+                or len({i['path'] for i in images}) != len(images)):
+            raise ValueError('題目更新原卷尚未完整取得。')
+        for image in images:
+            path = _local_file(root, image['path'], 'docs/source-pages')
+            if (image.get('decoded') is not True or image.get('archiveSizeMatched') is not True
+                    or min(image.get('width', 0), image.get('height', 0)) <= 0
+                    or path.stat().st_size != image['bytes']
+                    or hashlib.sha256(path.read_bytes()).hexdigest() != image['sha256']):
+                raise ValueError('題目更新原圖缺漏或驗證不符。')
+        return True
+    except (KeyError, TypeError, OSError, json.JSONDecodeError) as error:
+        raise ValueError('題目更新授權證據不完整；維持停止。') from error
+
+
 def assert_limited_biology_allowed(root, control, qid):
     """The frozen batch, rather than a general biology flag, grants permission."""
     relative = Path(control.get('limitedBatch', ''))
@@ -108,6 +183,8 @@ def assert_limited_biology_allowed(root, control, qid):
 
 
 def assert_work_allowed(root, qid):
+    if authorized_question_update(root, qid):
+        return
     if authorized_new_source(root, qid):
         return
     path = root/'docs/comics/biology-rework-20261112/plan.json'

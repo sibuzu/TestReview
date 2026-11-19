@@ -1,0 +1,84 @@
+{
+  "id": "q-1166",
+  "subject": "Physics-Chemistry",
+  "title": "兩木塊加速時的作用力大小",
+  "art": "docs/imports/new-gpt-20261119-73/lane3/art/q-1166-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 接觸處的一對力",
+      "text": "甲推乙的 F₃ 向右，乙推甲的 F₄ 向左；兩力大小相等、作用在不同物體。",
+      "image": "docs/imports/new-gpt-20261119-73/lane3/art/q-1166-panel-1.svg",
+      "caption": "新製精確力學教學示意，非原卷；原生SVG標示可核對。",
+      "alt": "① 接觸處的一對力：甲推乙的 F₃ 向右，乙推甲的 F₄ 向左；兩力大小相等、作用在不同物體。"
+    },
+    {
+      "heading": "② 單看甲：右推大於左推",
+      "text": "甲向右加速，水平合力必須向右，所以 F₁－F₄＞0，得到 F₁＞F₄。",
+      "image": "docs/imports/new-gpt-20261119-73/lane3/art/q-1166-panel-2.svg",
+      "caption": "新製精確力學教學示意，非原卷；原生SVG標示可核對。",
+      "alt": "② 單看甲：右推大於左推：甲向右加速，水平合力必須向右，所以 F₁－F₄＞0，得到 F₁＞F₄。"
+    },
+    {
+      "heading": "③ 單看乙：接觸力勝過外推",
+      "text": "乙同樣向右加速，F₃－F₂＞0，因此 F₃＞F₂。不能把等大反作用力當成合力為0。",
+      "image": "docs/imports/new-gpt-20261119-73/lane3/art/q-1166-panel-3.svg",
+      "caption": "新製精確力學教學示意，非原卷；原生SVG標示可核對。",
+      "alt": "③ 單看乙：接觸力勝過外推：乙同樣向右加速，F₃－F₂＞0，因此 F₃＞F₂。不能把等大反作用力當成合力為0。"
+    }
+  ],
+  "fourth": {
+    "answer": "(1) F₃、F₄；(2) F₁＞F₄＝F₃＞F₂",
+    "points": [
+      "一對反作用力為 F₃、F₄。",
+      "甲：F₁＞F₄；乙：F₃＞F₂。",
+      "合併 F₁＞F₄＝F₃＞F₂。"
+    ],
+    "image": "docs/imports/new-gpt-20261119-73/lane3/art/q-1166-panel-4.svg",
+    "alt": "第4張新製圖：兩木塊加速時的作用力大小的整合判斷"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6aff02c8-3e8c-83ec-ba50-ab1ab4a030a5",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261119-73/lane3/crops/q-1166-original.png",
+    "docs/imports/new-gpt-20261119-73/lane3/crops/q-1166-figure.png"
+  ],
+  "answerCheckedAgainst": "(1) F₃ 是甲推乙，F₄ 是乙推甲；施力與受力物體互換，兩者是作用力與反作用力，因此 F₃＝F₄，但方向相反、作用在不同物體。F₁ 與 F₂ 是外界分別施加在甲、乙上的力，不能因方向相反就把它們配為第三定律的一對。\n\n(2) 向右為正。甲受到向右 F₁、向左 F₄，因甲向右加速，所以 F₁－F₄＝m甲a＞0，得 F₁＞F₄。乙受到向右 F₃、向左 F₂，因乙也向右加速，所以 F₃－F₂＝m乙a＞0，得 F₃＞F₂。再用 F₃＝F₄，合併得 F₁＞F₄＝F₃＞F₂。\n\n甲、乙的接觸力雖然相等，仍不妨礙各自受合力而向右加速；同時也不能只依原圖箭頭長短判斷，因原題已註明未按力的實際比例畫。",
+  "rationale": "逐題依原卷核對受力物體、方向、圖形關係與全部選項，四張各自新製圖分別讀條件、辨關係、推導和整合，不使用原AI圖。",
+  "generationMethod": "four independently authored native SVG force/graph diagrams",
+  "producerAgent": "/root/comic_lane_3",
+  "visualChecked": true,
+  "layoutVersion": "native-four-images-v7",
+  "createdAt": "2026-11-19T14:31:54.474339+00:00",
+  "protectedWords": [
+    "作用力",
+    "反作用力",
+    "靜摩擦力",
+    "牛頓第二運動定律",
+    "牛頓第三運動定律",
+    "天花板",
+    "等速度",
+    "加速度"
+  ],
+  "artSHA256": "c6edfeb7e791e58f47d122f90f7aba7c4d2af051e91ef9476944d48f24f58d66",
+  "producerVisualChecked": true,
+  "checkedAt": "2026-11-19T14:35:13.882956+00:00",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_3",
+    "originalCropsActuallyViewed": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "docs/imports/new-gpt-20261119-73/lane3/qa/q-1166-1440.png",
+      "docs/imports/new-gpt-20261119-73/lane3/qa/q-1166-390.png",
+      "docs/imports/new-gpt-20261119-73/lane3/qa/q-1166-full-1440.png",
+      "docs/imports/new-gpt-20261119-73/lane3/qa/q-1166-full-390.png",
+      "docs/imports/new-gpt-20261119-73/lane3/qa/q-1166-art.png"
+    ],
+    "originalMaterials": [
+      "docs/imports/new-gpt-20261119-73/lane3/crops/q-1166-original.png",
+      "docs/imports/new-gpt-20261119-73/lane3/crops/q-1166-figure.png"
+    ]
+  },
+  "visualReview": "已逐題實開真正User原卷、必要附圖與本題裁切，逐張實看四張新SVG成品的400px原尺寸圖與桌手機完整預覽；核對受力物體/施力物體、方向、等大/不等式、反比圖形及等速條件。1440/1120/390三寬程式檢查通過，1440與390完整成品已實看。"
+}

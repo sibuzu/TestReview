@@ -1,10 +1,132 @@
 import json
+import hashlib
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
 from .comic_execution import assert_work_allowed
 from .comic_pipeline import claim, stage, begin, integrated
+
+
+class ExplicitQuestionUpdateTests(unittest.TestCase):
+    def fixture(self, directory):
+        root = Path(directory)
+        def write(relative, value):
+            path = root/relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(value))
+            return path
+        batch_ids = [f'q-{n}' for n in range(1, 11)]
+        write('docs/comics/limited/manifest.json', dict(state='complete', limit=10,
+              questionIds=batch_ids, completedQuestionIds=batch_ids))
+        write('docs/comics/biology-rework-20261112/plan.json', dict(executionControl=dict(
+              mode='biology_limited', biologyQualityUpgrade='paused', activeOriginalQuestionIds=batch_ids,
+              remainingActiveOriginalQuestions=0, limitedBatch='docs/comics/limited/manifest.json')))
+        questions = [dict(id=q, sourceId='src-more-072', date='2026-11-17')
+                     for q in ['q-1153', 'q-1154', 'q-1155']]
+        data = write('site/dist/data.json', dict(questions=questions))
+        image = root/'docs/source-pages/supplement.jpg'
+        image.parent.mkdir(parents=True)
+        image.write_bytes(b'original image evidence')
+        url = 'https://chatgpt.com/share/6aff112c-c79c-83e8-affb-e6e4a4a40848'
+        acquisition = write('docs/imports/update/acquisition.json', dict(state='acquired',
+            sourceId='src-more-072', url=url, imagesExpected=1, downloadedImages=[dict(
+                path='docs/source-pages/supplement.jpg', bytes=image.stat().st_size,
+                sha256=hashlib.sha256(image.read_bytes()).hexdigest(), decoded=True,
+                archiveSizeMatched=True, width=1080, height=1440)]))
+        scope = write('docs/imports/update/scope.json', dict(kind='explicit_question_update',
+            authorizedBy='user_update', sourceId='src-more-072', url=url,
+            questionIds=['q-1153', 'q-1154'], noNewQuestions=True,
+            baselineQuestions={q['id']: q for q in questions[:2]}, originalsVisualChecked=True,
+            existingQuestionIdentityChecked=True, expectedOriginalImages=1,
+            acquisitionPath='docs/imports/update/acquisition.json',
+            acquisitionSHA256=hashlib.sha256(acquisition.read_bytes()).hexdigest()))
+        progress = write('docs/imports/update/progress.json', dict(state='active',
+            sourceId='src-more-072', completedQuestionIds=[]))
+        pointer = write('monitor/question-update-authorization.json', dict(state='active',
+            sourceId='src-more-072', url=url, scopePath='docs/imports/update/scope.json',
+            scopeSHA256=hashlib.sha256(scope.read_bytes()).hexdigest(),
+            progressPath='docs/imports/update/progress.json'))
+        return root, scope, progress, pointer, acquisition, image, data
+
+    def test_only_two_named_existing_questions_override_the_paused_queue(self):
+        with tempfile.TemporaryDirectory() as d:
+            root, *_ = self.fixture(d)
+            for qid in ['q-1153', 'q-1154']:
+                assert_work_allowed(root, qid)
+            for qid in ['q-1155', 'q-1168', 'q-1']:
+                with self.assertRaisesRegex(ValueError, '已停止'):
+                    assert_work_allowed(root, qid)
+
+    def test_completed_question_and_closed_update_cannot_be_reentered(self):
+        with tempfile.TemporaryDirectory() as d:
+            root, _, progress, pointer, *_ = self.fixture(d)
+            state = json.loads(progress.read_text())
+            state['completedQuestionIds'] = ['q-1153']
+            progress.write_text(json.dumps(state))
+            assert_work_allowed(root, 'q-1154')
+            for action, args in [(assert_work_allowed, ()), (begin, ()),
+                                 (integrated, ()), (stage, ('complete', 'ready before closure', []))]:
+                with self.assertRaisesRegex(ValueError, '已完成'):
+                    action(root, 'q-1153', *args)
+            config = json.loads(pointer.read_text()); config['state'] = 'closed'
+            pointer.write_text(json.dumps(config))
+            with self.assertRaisesRegex(ValueError, '已停止'):
+                assert_work_allowed(root, 'q-1154')
+
+    def test_tampered_scope_acquisition_or_original_fails_closed(self):
+        for target in ('scope', 'acquisition', 'image'):
+            with self.subTest(target=target), tempfile.TemporaryDirectory() as d:
+                root, scope, _, _, acquisition, image, _ = self.fixture(d)
+                path = {'scope': scope, 'acquisition': acquisition, 'image': image}[target]
+                path.write_bytes(path.read_bytes()+b'changed')
+                with self.assertRaises(ValueError):
+                    assert_work_allowed(root, 'q-1153')
+
+    def test_existing_source_and_date_cannot_change_and_new_id_is_rejected(self):
+        for change in ('date', 'sourceId', 'id'):
+            with self.subTest(change=change), tempfile.TemporaryDirectory() as d:
+                root, _, _, _, _, _, data = self.fixture(d)
+                bank = json.loads(data.read_text()); bank['questions'][0][change] = 'different'
+                data.write_text(json.dumps(bank))
+                with self.assertRaisesRegex(ValueError, '不得新增題號或改變'):
+                    assert_work_allowed(root, 'q-1153')
+
+    def test_path_escape_and_missing_original_review_do_not_unlock_update(self):
+        for change in ('scopePath', 'originalsVisualChecked'):
+            with self.subTest(change=change), tempfile.TemporaryDirectory() as d:
+                root, scope, _, pointer, *_ = self.fixture(d)
+                config = json.loads(pointer.read_text())
+                if change == 'scopePath':
+                    config['scopePath'] = '../scope.json'
+                else:
+                    manifest = json.loads(scope.read_text()); manifest['originalsVisualChecked'] = False
+                    scope.write_text(json.dumps(manifest))
+                    config['scopeSHA256'] = hashlib.sha256(scope.read_bytes()).hexdigest()
+                pointer.write_text(json.dumps(config))
+                with self.assertRaises(ValueError):
+                    assert_work_allowed(root, 'q-1153')
+
+    def test_monitor_confirmation_requires_unchanged_resolved_record_for_each_question(self):
+        with tempfile.TemporaryDirectory() as d:
+            root, scope, _, pointer, *_ = self.fixture(d)
+            records = [dict(id='correction-'+qid, questionId=qid, state='resolved',
+                            resolution='使用者確認OK', resolvedAt='2026-11-19T00:00:00Z')
+                       for qid in ['q-1153', 'q-1154']]
+            confirmations = root/'monitor/confirmations.json'
+            confirmations.write_text(json.dumps(dict(resolved=records)))
+            manifest = json.loads(scope.read_text()); manifest['authorizedBy'] = 'monitor_confirmation'
+            manifest['confirmationEvidence'] = [dict(questionId=r['questionId'], requestId=r['id'],
+                snapshotSHA256=hashlib.sha256(json.dumps(r, ensure_ascii=False, sort_keys=True).encode()).hexdigest())
+                for r in records]
+            scope.write_text(json.dumps(manifest)); config = json.loads(pointer.read_text())
+            config['scopeSHA256'] = hashlib.sha256(scope.read_bytes()).hexdigest()
+            pointer.write_text(json.dumps(config))
+            assert_work_allowed(root, 'q-1153')
+            records[0]['resolution'] = 'changed content after scope froze'
+            confirmations.write_text(json.dumps(dict(resolved=records)))
+            with self.assertRaisesRegex(ValueError, '已變更'):
+                assert_work_allowed(root, 'q-1153')
 
 
 class ExecutionControlTests(unittest.TestCase):

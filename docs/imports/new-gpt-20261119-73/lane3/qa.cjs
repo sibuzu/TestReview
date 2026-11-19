@@ -1,0 +1,11 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const {chromium}=require(process.cwd()+'/.cache/qa-tools/node_modules/playwright');
+const B=path.resolve('docs/imports/new-gpt-20261119-73/lane3');
+(async()=>{const browser=await chromium.launch();try{const page=await browser.newPage();let errors=[];page.on('pageerror',e=>errors.push(e.message));for(let n=1163;n<=1168;n++){
+ const q='q-'+n,results=[];
+ await page.setViewportSize({width:1440,height:1000});await page.goto('file://'+B+'/qa/'+q+'-art.html');await page.evaluate(()=>document.fonts.ready);await page.locator('.gallery').screenshot({path:B+'/qa/'+q+'-art.png'});
+ await page.goto('file://'+B+'/qa/'+q+'-preview.html');assert.equal(await page.locator('.native-comic').isVisible(),false);await page.locator('summary').click();
+ for(const width of [1440,1120,390]){await page.setViewportSize({width,height:1000});await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(150);const result=await page.locator('.native-comic').evaluate(c=>({wrapErrors:c.querySelectorAll('[data-wrap-error]').length,overflow:[...c.querySelectorAll('.comic-line')].filter(l=>l.scrollWidth>l.clientWidth+1).map(l=>l.textContent),documentOverflow:document.documentElement.scrollWidth>innerWidth,images:[...c.querySelectorAll('img')].map(i=>({loaded:i.complete&&i.naturalWidth>0,src:i.src.slice(0,30)})),cells:[...c.querySelectorAll('.comic-cell')].map(c=>{const r=c.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}})}));assert.equal(result.wrapErrors,0);assert.deepEqual(result.overflow,[]);assert.equal(result.documentOverflow,false);assert.equal(result.images.length,4);assert.ok(result.images.every(i=>i.loaded));const screenshot=B+'/qa/'+q+'-'+width+'.png';await page.locator('.native-comic').screenshot({path:screenshot});if(width!==1120){await page.screenshot({path:B+'/qa/'+q+'-full-'+width+'.png',fullPage:true});assert.ok(await page.locator('img').evaluateAll(images=>images.every(i=>i.complete&&i.naturalWidth>0)));}results.push({width,...result,screenshot});}
+ fs.writeFileSync(B+'/qa/'+q+'-layout-validation.json',JSON.stringify({id:q,passed:true,defaultCollapsed:true,results,errors},null,2)+'\n');console.log('PASS',q);}
+ assert.deepEqual(errors,[]);
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

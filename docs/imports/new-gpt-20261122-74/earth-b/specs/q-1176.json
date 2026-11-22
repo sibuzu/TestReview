@@ -1,0 +1,61 @@
+{
+  "id": "q-1176",
+  "subject": "Earth",
+  "title": "地震深度與板塊交界形式",
+  "art": "docs/imports/new-gpt-20261122-74/earth-b/art/q-1176-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 核對圖例",
+      "text": "黑實心圓是深源、空心圓是中源、點線是淺源；X處呈現東淺西深的排列。",
+      "image": "docs/imports/new-gpt-20261122-74/earth-b/art/q-1176-panel-1.svg",
+      "alt": "新製地科圖解1：核對圖例",
+      "caption": "新製地科構造輔助圖，非原卷、非比例。"
+    },
+    {
+      "heading": "② 從震源推隱沒",
+      "text": "震源沿傾斜板塊向深處延伸，支持向西側下方隱沒的A。",
+      "image": "docs/imports/new-gpt-20261122-74/earth-b/art/q-1176-panel-2.svg",
+      "alt": "新製地科圖解2：從震源推隱沒",
+      "caption": "新製地科構造輔助圖，非原卷、非比例。"
+    },
+    {
+      "heading": "③ 依箭頭排除",
+      "text": "B箭頭向外，是張裂；C、D是水平錯動，不能解釋本題的中、深源震源帶。",
+      "image": "docs/imports/new-gpt-20261122-74/earth-b/art/q-1176-panel-3.svg",
+      "alt": "新製地科圖解3：依箭頭排除",
+      "caption": "新製地科構造輔助圖，非原卷、非比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A",
+    "points": [
+      "淺、中、深源排列支持隱沒。",
+      "B為張裂，C與D為水平錯動。"
+    ],
+    "image": "docs/imports/new-gpt-20261122-74/earth-b/art/q-1176-panel-4.svg",
+    "alt": "第4張新製圖解：地震深度與板塊交界形式"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b01da76-e42c-83ec-921a-80ff392862c1",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261122-74/earth-b/crops/q-1176-original.png"
+  ],
+  "answerCheckedAgainst": "答案A。先對照原圖圖例：黑實心圓是深源地震，空心圓是中源地震，點線表示淺源地震。X框內的震源由東側較淺，向西側逐漸加深，表示板塊向西側下方隱沒；A的隱沒構造符合這種分布。\n\nB的表面箭頭是向兩側分離，表示張裂型板塊邊界，不是「聚合但沒有畫出隱沒」。C、D的板塊在交界兩側近乎平行水平錯移。張裂與水平錯動邊界主要發生淺源地震，不能用來解釋本題同時具有中源、深源地震的傾斜隱沒帶。\n\n關鍵是震源深度與空間排列，不能只看地震很多就認定某種板塊交界；也不能把「有深源地震」擴張成所有聚合邊界都必有深源地震。",
+  "rationale": "以新製精確板塊剖面、地殼年齡帶及震源排列呈現推理，不用人物或純文字流程框。",
+  "generationMethod": "four newly authored exact native SVG geological diagrams",
+  "producerAgent": "/root/source74_earth_b",
+  "layoutVersion": "native-four-images-v7",
+  "createdAt": "2026-11-22T01:48:47.927731+00:00",
+  "protectedWords": [
+    "中洋脊",
+    "海洋地殼",
+    "板塊交界",
+    "深源地震",
+    "中源地震",
+    "淺源地震",
+    "太平洋",
+    "較老—較新",
+    "較新—較老"
+  ]
+}

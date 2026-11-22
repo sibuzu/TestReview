@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-11-22T01:54:05.747953+00:00",
+  "website": {
+    "command": "npm test --prefix site",
+    "passed": 123,
+    "failed": 0
+  },
+  "monitor": {
+    "command": "python -m unittest monitor.test_new_source_execution monitor.test_comic_execution monitor.test_source_progress",
+    "passed": 24,
+    "failed": 0
+  },
+  "formalComics": {
+    "command": "node site/scripts/check-comics.cjs q-1169 ... q-1178",
+    "passed": 60,
+    "widths": [
+      1440,
+      1120,
+      390
+    ],
+    "views": [
+      "app",
+      "standalone"
+    ]
+  },
+  "fullQuestionPages": {
+    "passed": 40,
+    "widths": [
+      1440,
+      390
+    ],
+    "views": [
+      "app",
+      "standalone"
+    ]
+  },
+  "gitDiffCheckPassed": true
+}

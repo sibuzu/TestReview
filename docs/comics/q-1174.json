@@ -1,0 +1,91 @@
+{
+  "id": "q-1174",
+  "subject": "Earth",
+  "title": "甲乙丙海洋地殼的形成先後",
+  "art": "docs/imports/new-gpt-20261122-74/earth-a/art/q-1174-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 核對原圖相對位置",
+      "text": "原卷中洋脊在左，甲最近、乙居中、丙最遠且靠近右側海溝；先看清楚三者的位置。",
+      "image": "docs/imports/new-gpt-20261122-74/earth-a/art/q-1174-panel-1.svg",
+      "alt": "新製地質概念圖：核對原圖相對位置",
+      "caption": "新製地科輔助示意，非原卷；相對位置依題意，非實際比例。"
+    },
+    {
+      "heading": "② 由距離推相對年齡",
+      "text": "中洋脊持續形成新地殼；向外移動愈遠，通常形成得愈早。因此年齡是丙＞乙＞甲。",
+      "image": "docs/imports/new-gpt-20261122-74/earth-a/art/q-1174-panel-2.svg",
+      "alt": "新製地質概念圖：由距離推相對年齡",
+      "caption": "新製地科輔助示意，非原卷；相對位置依題意，非實際比例。"
+    },
+    {
+      "heading": "③ 比較先後三個時刻",
+      "text": "先形成的丙已移到較遠處，再形成乙，最後形成最靠近中洋脊的甲。圖示不是三者同時形成。",
+      "image": "docs/imports/new-gpt-20261122-74/earth-a/art/q-1174-panel-3.svg",
+      "alt": "新製地質概念圖：比較先後三個時刻",
+      "caption": "新製地科輔助示意，非原卷；相對位置依題意，非實際比例。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D",
+    "points": [
+      "最老等於最早形成，最年輕等於最晚形成。答案D；沒有距離與速率，不推算實際年數。"
+    ],
+    "image": "docs/imports/new-gpt-20261122-74/earth-a/art/q-1174-panel-4.svg",
+    "alt": "新製整合圖：把年齡轉成形成先後"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b01da76-e42c-83ec-921a-80ff392862c1",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261122-74/earth-a/crops/q-1174-original.png"
+  ],
+  "answerCheckedAgainst": "答案D：丙最早，乙次之，甲最晚。先對照原圖：左側是中洋脊，海洋地殼上的甲、乙、丙由左向右依序排列，丙最靠近右側海溝。中洋脊是新海洋地殼形成的位置，所以甲離中洋脊最近、形成最晚；乙次之；丙離中洋脊最遠、形成最早。\n\n把兩種說法分開：若問「形成時間由早到晚」，答案是丙→乙→甲；若問「地殼年齡由老到新」，也依序是丙、乙、甲。不能把從中洋脊向外移動的空間方向，直接當成由早到晚的形成順序。\n\nA錯在把三處當作同時形成。B把早晚顛倒。C不但誤認甲最早，也把位置不同的乙、丙當成同時形成。D符合本題中洋脊持續產生新地殼並向外擴張的模型。題目沒有提供擴張速率或距離，因此只判相對先後，不推算實際年數。",
+  "rationale": "依原卷條件新製四張地質剖面及相對年齡圖；精確箭頭、地殼與地函關係逐張核對，四張各有教學目的。",
+  "generationMethod": "four newly authored exact native SVG geological diagrams",
+  "producerAgent": "/root/source74_earth_a",
+  "layoutVersion": "native-four-images-v7",
+  "protectedWords": [
+    "中洋脊",
+    "海洋地殼",
+    "大陸板塊",
+    "海洋板塊",
+    "岩石圈",
+    "軟流圈",
+    "海底擴張",
+    "甲乙丙"
+  ],
+  "producerReviewPath": "docs/comics/q-1174-production-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261122-74/earth-a/manifest.json",
+  "nativeArt": "assets/comics/q-1174-art-8ff0060ec3.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-22T01:51:40.154226+00:00",
+  "validationFile": "docs/comics/q-1174-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "technicalIntegrationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-1174-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-1174-app-390.png",
+      "/tmp/weirugo-comic-checks/q-1174-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-1174-standalone-390.png"
+    ],
+    "originalsAlsoViewed": true,
+    "substantiveExplanationReviewPending": false,
+    "checkedAt": "2026-11-22T01:51:40.138762+00:00"
+  }
+}

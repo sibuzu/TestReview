@@ -1,0 +1,57 @@
+{
+  "kind": "explicit_new_source",
+  "showAgents": false,
+  "expectedOriginalQuestions": 10,
+  "duplicateQuestionIds": [],
+  "sources": [
+    {
+      "key": "gpt074",
+      "batch": "gpt",
+      "suggestedOrder": 74,
+      "sourceId": "src-more-074",
+      "url": "https://chatgpt.com/share/6b01da76-e42c-83ec-921a-80ff392862c1",
+      "questionIds": [
+        "q-1169",
+        "q-1170",
+        "q-1171",
+        "q-1172",
+        "q-1173",
+        "q-1174",
+        "q-1175",
+        "q-1176",
+        "q-1177",
+        "q-1178"
+      ],
+      "expectedOriginalQuestions": 10,
+      "acquisitionRecord": "docs/imports/new-gpt-20261122-74/acquisition.json"
+    }
+  ],
+  "note": "只處理本次新連結10個指定錯題，原圖已全部取得並實開，四圖製作與完整題核對分工進行。root唯一共享整合者；舊暫停佇列維持。",
+  "activeProducers": [
+    {
+      "agent": "/root/source74_history",
+      "questionIds": [
+        "q-1169",
+        "q-1170",
+        "q-1171"
+      ]
+    },
+    {
+      "agent": "/root/source74_earth_a",
+      "questionIds": [
+        "q-1172",
+        "q-1173",
+        "q-1174"
+      ]
+    },
+    {
+      "agent": "/root/source74_earth_b",
+      "questionIds": [
+        "q-1175",
+        "q-1176",
+        "q-1177",
+        "q-1178"
+      ]
+    }
+  ]
+}

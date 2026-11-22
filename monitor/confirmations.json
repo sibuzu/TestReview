@@ -7280,6 +7280,69 @@
       "confirmationToken": "6fe0bca16792a578827a7a38ebd288b2c83595dce2a143f98c1446054de2965c",
       "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
       "resolvedAt": "2026-11-19T15:18:09.339385+00:00"
+    },
+    {
+      "id": "correction-q-1176-c85f25691e67",
+      "state": "resolved",
+      "kind": "原AI解說訂正確認",
+      "title": "地科第17題｜地震深度與板塊交界形式",
+      "questionId": "q-1176",
+      "questionText": "右圖為南太平洋海域的地震分布狀態，下列何者最可能是圖中X方框處的板塊交界形式？\n（以下文字為圖示選項的輔助辨讀，選項以原卷附圖為準。）\n(A) 如原圖A：兩板塊靠近，其中一板塊向下隱沒\n(B) 如原圖B：兩板塊向兩側分離\n(C) 如原圖C：兩板塊沿交界水平錯移\n(D) 如原圖D：兩板塊沿交界水平錯移（方向配置見原圖）",
+      "questionUrl": "/site/index.html#question/q-1176",
+      "url": "/site/index.html#question/q-1176",
+      "sourceUrl": "https://chatgpt.com/share/6b01da76-e42c-83ec-921a-80ff392862c1",
+      "questions": [
+        "原AI沒有依原卷的實際箭頭辨認板塊相對運動。",
+        "修改前／原AI內容：原AI將B稱為聚合型、未明確呈現隱沒，並把D稱為張裂型。",
+        "目前處理：依原卷箭頭，B為張裂型，C與D均為水平錯動圖示；A為向下隱沒的聚合型，答案仍A。"
+      ],
+      "before": "原AI將B稱為聚合型、未明確呈現隱沒，並把D稱為張裂型。",
+      "after": "依原卷箭頭，B為張裂型，C與D均為水平錯動圖示；A為向下隱沒的聚合型，答案仍A。",
+      "createdAt": "2026-11-22T01:46:32.429449+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/q-1176-q-1176-earthquakes-dfd195c452a0.png",
+          "alt": "原題南太平洋地震分布與圖例，保留X方框及北向。",
+          "caption": "原題南太平洋地震分布與圖例，保留X方框及北向。"
+        },
+        {
+          "src": "assets/originals/q-1176-q-1176-options-b4ae5c86e539.png",
+          "alt": "原題四個板塊交界圖示A～D，保留各圖北向與運動箭頭；選項以此原圖為準。",
+          "caption": "原題四個板塊交界圖示A～D，保留各圖北向與運動箭頭；選項以此原圖為準。"
+        }
+      ],
+      "confirmationToken": "d47b362694ec2df4934d8b728e949621fa2febfb0ca27fc1851fd2adbd470094",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-22T01:52:40.159813+00:00"
+    },
+    {
+      "id": "correction-q-1178-10e2211d6e0d",
+      "state": "resolved",
+      "kind": "原AI解說訂正確認",
+      "title": "地科第23題｜中洋脊兩側的移動與地殼年齡",
+      "questionId": "q-1178",
+      "questionText": "四個原圖選項的貼紙內容（各側年齡文字均由左至右讀）\n選項｜左側箭頭｜右側箭頭｜左側年齡｜右側年齡\nA｜→｜←｜較新—較老｜較老—較新\nB｜←｜→｜較新—較老｜較老—較新\nC｜→｜←｜較老—較新｜較新—較老\nD｜←｜→｜較老—較新｜較新—較老\n\n老師在課堂上以一張海報來讓學生分組上臺說明某一類型板塊交界的各項特徵，如右圖（一）所示。右圖（二）為老師提供學生使用的貼紙，並告訴學生這些貼紙上的箭頭或文字的用途，是用來說明兩板塊相對運動方向與海洋地殼年齡的關係，若要正確呈現這類型板塊交界的特徵，下列哪一種黏貼方式最為合理？\n(A) 左側→、較新—較老；右側←、較老—較新\n(B) 左側←、較新—較老；右側→、較老—較新\n(C) 左側→、較老—較新；右側←、較新—較老\n(D) 左側←、較老—較新；右側→、較新—較老",
+      "questionUrl": "/site/index.html#question/q-1178",
+      "url": "/site/index.html#question/q-1178",
+      "sourceUrl": "https://chatgpt.com/share/6b01da76-e42c-83ec-921a-80ff392862c1",
+      "questions": [
+        "逐讀原圖：A左較新—較老／右較老—較新，D左較老—較新／右較新—較老；原AI的比較與原卷相反。",
+        "修改前／原AI內容：原AI稱A與D的年齡排列完全相同，A年齡正確但箭頭錯；表中也把A判為年齡對、C判為年齡錯。",
+        "目前處理：A的方向與年齡都錯；B方向對但年齡錯；C年齡對但方向錯；D兩項都對。年齡排列相同的是C與D，答案仍D。"
+      ],
+      "before": "原AI稱A與D的年齡排列完全相同，A年齡正確但箭頭錯；表中也把A判為年齡對、C判為年齡錯。",
+      "after": "A的方向與年齡都錯；B方向對但年齡錯；C年齡對但方向錯；D兩項都對。年齡排列相同的是C與D，答案仍D。",
+      "createdAt": "2026-11-22T01:46:32.505291+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/q-1178-q-1178-materials-c125b6a5d29c.png",
+          "alt": "原題圖（一）海報剖面與圖（二）貼紙；海報下兩列留白供黏貼。",
+          "caption": "原題圖（一）海報剖面與圖（二）貼紙；海報下兩列留白供黏貼。"
+        }
+      ],
+      "confirmationToken": "879b4b7253633fc738f661713e1bdb5c9b6538330faacc9e99bc45cb2b4d5614",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-22T01:52:48.271245+00:00"
     }
   ],
   "feedback": [

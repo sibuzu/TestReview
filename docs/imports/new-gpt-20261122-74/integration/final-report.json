@@ -34,10 +34,12 @@
   "fullQuestionPageChecksPassed": 40,
   "formalDesktopMobileActuallyViewed": true,
   "pendingReviewDoesNotCountAsCompleted": true,
-  "publicationState": "validated_ready_to_commit",
+  "publicationState": "pushed",
   "notes": [
     "本次10題/40張新圖已收入；2項原AI解說訂正待monitor確認，不計complete事件。",
     "完整題目頁額外QA的初版harness錯把預設收合的lazy原圖當成可見圖片；改用checkVisibility後40項檢查通過，產品本身未為此修改。",
     "原始PNG與點陣QA依專案政策留本機；發布原卷與SVG共用資產保留於site/dist。"
-  ]
+  ],
+  "contentCommit": "3ce8c4e65092382fe904c23e3a0d39c4aaa187c0",
+  "remoteCommitVerified": "3ce8c4e65092382fe904c23e3a0d39c4aaa187c0"
 }

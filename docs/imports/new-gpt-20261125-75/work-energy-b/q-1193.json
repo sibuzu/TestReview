@@ -1,0 +1,76 @@
+{
+  "id": "q-1193",
+  "title": "理化第21題｜擺錘與木塊的碰撞速率",
+  "originalQuestionNumber": "21",
+  "question": "關於擺錘撞擊木塊時的速度 V₁ 及木塊啟動時的速度 V₂ 比較，下列何者正確？\n\n(A) V₁ ＞ V₂\n(B) V₁ ＝ V₂\n(C) V₁ ＜ V₂\n(D) 無法得知",
+  "answer": "(A) V₁ ＞ V₂",
+  "correctOption": "A",
+  "explanation": "碰撞的短時間內，若忽略桌面摩擦在這一瞬間的水平衝量，碰撞前擺錘有向前的動量，木塊靜止；碰撞後擺錘停下，木塊帶走水平動量。故 1×V₁≈2×V₂，亦即 V₁ 約為 V₂ 的兩倍，足以判斷大小。\n\n也可用不依賴速比的檢查：碰撞沒有給木塊額外能量來源。若 2 kg 木塊的 V₂ 與 1 kg 擺錘的 V₁ 一樣大或更大，木塊的動能會大過擺錘碰前的動能，與題設不符。碰撞可能使部分動能轉成形變、熱與聲，因此不可直接把碰撞前後的兩個動能相等當成已知。原題只問大小，不要求精確速比。\n\n(A) 質量較大的木塊接續運動，V₂ 小於 V₁。\n(B) 同速將使較重木塊取得較大的動能，題目沒有外加能量。\n(C) 若木塊更重又更快，所需動能更大。\n(D) 題目提供了足夠的質量和前後運動狀態。",
+  "tags": [
+    "擺錘",
+    "碰撞",
+    "動量",
+    "動能"
+  ],
+  "studentAnswer": "21@錯題B → A",
+  "passage": "如右圖所示，將質量 1 公斤的擺錘自高處釋放，撞擊桌面上 2 公斤的木塊後，擺錘立即靜止，木塊向前移動 5 公尺後也靜止，不計空氣阻力，試回答下列 20.～22. 題：",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "trap": "碰撞前後的動能未必相等。按短時間水平動量近似守恆，或用能量上限，比較速度。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已逐字核對真正的使用者原卷與紅筆訂正。日期採首次提問的台灣日期。冊次與章節沒有足夠的原卷標示，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "images": [
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-common.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-original.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第21題",
+  "contentStatus": "完整原題",
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261125-75/work-energy-b/crops/pendulum-common.jpg",
+      "alt": "擺錘從 A 處放開，A 比碰撞處高 50 公分；甲為擺下，乙為碰撞，丙為木塊向前滑動 5 m。",
+      "caption": "原卷第 20～22 題共用圖"
+    }
+  ],
+  "explanationFigures": [],
+  "tables": [],
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "V₁ ＞ V₂",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "質量較大的木塊接續運動，V₂ 小於 V₁。"
+    },
+    {
+      "label": "B",
+      "text": "V₁ ＝ V₂",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "同速將使較重木塊取得較大的動能，題目沒有外加能量。"
+    },
+    {
+      "label": "C",
+      "text": "V₁ ＜ V₂",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "若木塊更重又更快，所需動能更大。"
+    },
+    {
+      "label": "D",
+      "text": "無法得知",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "題目提供了足夠的質量和前後運動狀態。"
+    }
+  ]
+}

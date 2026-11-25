@@ -1,0 +1,49 @@
+{
+  "id": "q-1207",
+  "subject": "Math",
+  "title": "從圓外一點求圓的切點坐標",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1207-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 找圓外點與切點",
+      "text": "P 在 x 軸上，距圓心 2；Q 在單位圓上。原圖指定上方的切線。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1207-panel-1.svg",
+      "alt": "坐標軸上的單位圓、外點 P 與原圖所畫的上方切點 Q。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 找到 30°—60°—90°",
+      "text": "OQ 垂直 PQ。△OQP 中，短直角邊 OQ＝1，斜邊 OP＝2，因此 P 角 30°、O 角 60°。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1207-panel-2.svg",
+      "alt": "從坐標圖抽出直角三角形 OPQ，標示斜邊 2 與半徑 1。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 將 Q 投影到 x 軸",
+      "text": "設 H 是垂足。△OQH 的斜邊為 1，O 角 60°，故 OH＝1／2、QH＝√3／2。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1207-panel-3.svg",
+      "alt": "放大 Q 到橫軸的投影三角形，畫出橫坐標的一半與縱坐標根號三除二。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "答案（1／2，√3／2）",
+    "points": [
+      "依原圖選第一象限的 Q。",
+      "另一個切點與 Q 的橫坐標相同、縱坐標相反。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1207-panel-4.svg",
+    "alt": "上方切點 Q 的坐標為二分之一與根號三除二；下方切點是 x 軸的鏡射。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1207-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1207-figure.png"
+  ],
+  "answerCheckedAgainst": "（1／2，√3／2）",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7"
+}

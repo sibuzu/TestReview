@@ -1,0 +1,77 @@
+{
+  "id": "q-1193",
+  "sourceId": "src-more-075",
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "disposition": "new",
+  "originalImageIndex": 15,
+  "originalImageSHA256": "1b3fffbc19048c078189d8464b9204aa98108acb4d267001ec882323c50d70b8",
+  "sourceMessageIndex": 79,
+  "sourceMessageId": "dac5d895-c83f-4a99-afd4-02f09a67b5ef",
+  "firstQuestionTimestamp": 1795615403.9456239,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6b06f11f-15.jpg",
+    "docs/source-pages/chatgpt-6b06f11f-16.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-common.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-original.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/pendulum-common.jpg"
+  ],
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "requiredMaterialMissing": false,
+  "sourceGeneratedArtUsed": false,
+  "inclusionEvidence": "附件15原卷第21題原選 B、紅改 A。附件16是同頁另一張完整照片，保存第21題與完整共用圖；未訂正的第20題不收入。",
+  "duplicateReview": {
+    "queryKeywords": [
+      "木塊啟動時",
+      "擺錘立即靜止",
+      "擺錘撞擊木塊"
+    ],
+    "officialOrGroupedContentCompared": true,
+    "questionBankOriginalsChecked": 94,
+    "bankHits": [],
+    "completeOverrideCandidates": [],
+    "conclusion": "比對題幹、選項、必要附圖／共用材料及同批題號，無既有相同完整題目。",
+    "previousOriginalAssetsCompared": 197,
+    "attachmentSHA256PreviouslyPresent": false,
+    "sourceIdExcludedFromSearch": "src-more-075",
+    "fuzzyTitles": [
+      {
+        "id": "q-1071",
+        "title": "理化第4題｜靜止彈簧的合力",
+        "score": 0.234,
+        "longestRun": 9
+      },
+      {
+        "id": "q-1161",
+        "title": "理化第8題｜兩物體綁合後的加速度",
+        "score": 0.21,
+        "longestRun": 2
+      },
+      {
+        "id": "q-292",
+        "title": "理化第36題｜排水量與等質量物體的密度",
+        "score": 0.187,
+        "longestRun": 7
+      }
+    ]
+  },
+  "answerCheckedAgainst": "(A) V₁ ＞ V₂",
+  "correction": {
+    "title": "碰撞速率比較不能直接假設動能相等",
+    "reason": "原AI用完全傳遞動能算出 V₁＝√2 V₂，這一假設與擺錘停下及短時間水平動量傳遞的模型不能同時成立。",
+    "before": "原AI假設碰前擺錘動能等於碰後木塊動能，示範得 √2 速率比。",
+    "after": "維持答案 A。若碰撞中可忽略桌面摩擦衝量，則 V₁≈2V₂；或由木塊取得動能不能高於碰前擺錘的動能，判斷 V₁＞V₂。題目未問精確比值。",
+    "request": "已保留原卷答案A，移除等動能的推導並補上條件。請核對這項訂正。"
+  },
+  "groupRecommendation": {
+    "canonicalId": "q-1193",
+    "memberIds": [
+      "q-1193",
+      "q-1194"
+    ],
+    "printedRange": "第20～22題（只收第21、22紅筆訂正題）",
+    "commonPassage": "如右圖所示，將質量 1 公斤的擺錘自高處釋放，撞擊桌面上 2 公斤的木塊後，擺錘立即靜止，木塊向前移動 5 公尺後也靜止，不計空氣阻力，試回答下列 20.～22. 題：",
+    "commonFigurePath": "docs/imports/new-gpt-20261125-75/work-energy-b/crops/pendulum-common.jpg",
+    "evidence": "附件15、16同一原卷頁，第21、22題都紅訂，第20題未訂正；附件16完整保留上方共用材料和原圖的 50 公分、5 m、甲乙丙。"
+  }
+}

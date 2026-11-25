@@ -1,0 +1,72 @@
+{
+  "id": "q-1185",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第5題｜去回各推十公尺的平均功率",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "阿松施5 N的力推動3 kgw的物體，在一粗糙水平面上等速前進了10 m，再沿同路線將物體等速推回，共花了4秒，則阿松作功的功率為多少 W？\n\n(A) 0\n(B) 12.5\n(C) 25\n(D) 100",
+  "answer": "(C) 25 W",
+  "explanation": "去程施力與位移同向，阿松作正功 5×10＝50 J。回程推的方向反過來，位移方向也同時反過來，阿松再作正功50 J。兩段共100 J，花4秒，平均功率是100÷4＝25 W。\n\n(A) 把回到起點的總位移零，錯當成阿松作功為零。推力在兩段改變方向，須分段算。(B) 只算單程的功。(D) 是總功的數字，未除以秒數。物體重量3 kgw與水平推力的功無直接關係。",
+  "trap": "去程與回程的推力各自沿當段位移，兩份正功相加。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已直接核對真正原卷與紅筆。日期取本題首次提問的臺灣日期；缺乏可確認的考試日期及教材冊次對照。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "作功",
+    "平均功率",
+    "往返運動"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1185-original-6f3f039b5db7.png"
+  ],
+  "sourceLabel": "分享原卷｜第5題",
+  "studentAnswer": "5@錯題A → C",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "originalQuestionNumber": "5",
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "去回兩段的平均功率",
+    "art": "assets/comics/q-1185-art-292be892a0.svg",
+    "panels": [
+      {
+        "heading": "先分出兩段路程",
+        "text": "起點到折返處為10 m，沿同路回來也是10 m。",
+        "alt": "起點到折返處為10 m，沿同路回來也是10 m。",
+        "image": "assets/comics/q-1185-art-292be892a0.svg"
+      },
+      {
+        "heading": "每段推力跟著位移轉向",
+        "text": "去程推向右、回程推向左，兩段的推力和各段位移都同向。",
+        "alt": "去程推向右、回程推向左，兩段的推力和各段位移都同向。",
+        "image": "assets/comics/q-1185-panel-2-art-1457c36e0e.svg"
+      },
+      {
+        "heading": "兩段正功相加",
+        "text": "每一段皆是 5×10＝50 J，共100 J。圖的橫軸累計的是兩段路程。",
+        "alt": "每一段皆是 5×10＝50 J，共100 J。圖的橫軸累計的是兩段路程。",
+        "image": "assets/comics/q-1185-panel-3-art-b3e34f9373.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(C) 25 W",
+      "points": [
+        "去、回各作50 J 的正功。",
+        "總功100 J。",
+        "平均功率 100 J ÷ 4 s＝25 W。"
+      ],
+      "image": "assets/comics/q-1185-panel-4-art-19701a7705.svg",
+      "alt": "100 J 除以全部的4 s。圖上的斜虛線表示起終兩點間的平均作功率。"
+    }
+  }
+}

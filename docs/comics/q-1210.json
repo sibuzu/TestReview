@@ -1,0 +1,82 @@
+{
+  "id": "q-1210",
+  "subject": "Math",
+  "title": "等腰梯形內切圓半徑與 △AOB 面積",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1210-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 用切線段等長求腰",
+      "text": "有內切圓的四邊形兩組對邊長和相等，故 AB＋CD＝4＋14＝18。兩腰等長，各為 9。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1210-panel-1.svg",
+      "alt": "等腰梯形，上底 4，下底 14，內切圓與各邊相切。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 由 9 和 5 求梯形高",
+      "text": "上下底差 10，由等腰性左右各分 5。直角三角形以腰 9 為斜邊，梯形高為 2√14。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1210-panel-2.svg",
+      "alt": "由梯形左右各截出底長 5、斜邊 9 的等大直角三角形。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 小題 (1) 找出半徑",
+      "text": "兩條平行底邊都和圓相切，中間的垂直距離是直徑。故半徑 √14。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1210-panel-3.svg",
+      "alt": "放大夾在兩條水平切線間的圓，直徑 2 根號 14 垂直連接切點。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "(1) √14　(2) 9√14／2",
+    "points": [
+      "梯形高為直徑 2√14，小題 (1) 半徑 √14。",
+      "小題 (2) 用腰 AB＝9 作底，半徑是高，面積 9√14／2。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1210-panel-4.svg",
+    "alt": "把 AB 旋為水平底邊，切點 T 位在距 B 為 7、距 A 為 2，O 垂到 AB 的高是根號 14。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-figure.png"
+  ],
+  "answerCheckedAgainst": "(1) √14\n(2) 9√14／2",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7",
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/circle-a/q-1210-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/circle-a/manifest.json",
+  "nativeArt": "assets/comics/q-1210-art-c7cd593478.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:23.712301+00:00",
+  "validationFile": "docs/comics/q-1210-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": true,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

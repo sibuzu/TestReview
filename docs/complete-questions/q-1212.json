@@ -1,0 +1,78 @@
+{
+  "id": "q-1212",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學填充第6題｜圓切線、斜邊上的高與弦 BC",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，圓 O 中，B、C 兩點在圓上，OA⊥BC 於 D 點，且 AB 切圓 O 於 B 點，若 OD＝4，AD＝9，則 BC＝＿＿＿＿。",
+  "answer": "12",
+  "explanation": "因 AB 是圓在 B 處的切線，OB⊥AB，因此 △OBA 是直角三角形。D 在斜邊 OA 上，且 BD⊥OA，所以 BD 是斜邊上的高。兩個小直角三角形 △OBD 與 △BAD 依兩角相等而相似，對應邊得到 OD／BD＝BD／AD，故 BD²＝OD×AD＝4×9＝36，BD＝6。\n\nOA 通過圓心且垂直弦 BC，垂足 D 平分弦，所以 DC 也等於 6。BC＝BD＋DC＝12。",
+  "trap": "先認出斜邊上的高 BD，得到單側弦長後還要乘二。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "半徑與切線",
+    "相似三角形",
+    "垂徑定理"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1212-original-39aca939e875.png"
+  ],
+  "studentAnswer": "5",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "6",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1212-figure-e2c71e2ca2cc.png",
+      "alt": "垂直弦 BC 的 OA 與切線 AB 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "圓切線、斜邊上的高與弦 BC",
+    "art": "assets/comics/q-1212-art-649f0d9665.svg",
+    "panels": [
+      {
+        "heading": "① 連接切點與圓心",
+        "text": "半徑 OB 垂直切線 AB，所以 △OBA 在 B 處成直角。D 是 OA 與弦 BC 的交點。",
+        "alt": "原圖構形，圓在 B 處與 AB 相切，OA 通過圓心、D 和弦 BC。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1212-art-649f0d9665.svg"
+      },
+      {
+        "heading": "② 把斜邊 OA 轉為水平",
+        "text": "BD 是斜邊 OA 上的高，左右兩段 OD、DA 分別為 4、9。兩個小直角三角形有相等的對應角。",
+        "alt": "將斜邊 OA 旋為水平，BD 垂直 OA，兩個小三角形底邊為 4 與 9。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1212-panel-2-art-bfc2618dd3.svg"
+      },
+      {
+        "heading": "③ 由相似求半弦",
+        "text": "△OBD 與 △BAD 相似。OD／BD＝BD／AD，所以 BD²＝4×9，BD＝6。",
+        "alt": "兩個不同角度的相似直角三角形，標出 BD 對應到 4 和 9，形成連比。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1212-panel-3-art-0b88b77deb.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 12",
+      "points": [
+        "由相似三角形求得 BD＝6。",
+        "垂徑定理給出 DC＝BD＝6，所以 BC＝12。"
+      ],
+      "image": "assets/comics/q-1212-panel-4-art-d8b99333e7.svg",
+      "alt": "通過圓心的垂線平分弦 BC，D 兩側各 6，合計 12。"
+    }
+  }
+}

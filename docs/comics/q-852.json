@@ -1,78 +1,147 @@
 {
-  "title": "八腳、附肢分節：塵蟎不是昆蟲",
+  "id": "q-852",
+  "subject": "Biology",
+  "title": "從分節附肢辨認塵蟎",
+  "art": "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
   "panels": [
     {
-      "heading": "① 分節的附肢，指向節肢動物",
-      "text": "小張觀察到塵蟎具有分節的附肢。塵蟎屬動物界、節肢動物門，這正是B的敘述。",
-      "alt": "動物界到節肢動物門再到塵蟎的分類範圍示意。"
+      "heading": "① 先看成體的分節附肢",
+      "text": "放大圖中，塵蟎成體有四對、共8隻分節的腳。這是動物的附肢，支持把它歸入動物界、節肢動物門。",
+      "image": "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-1.png",
+      "alt": "新製塵蟎成體背面科學插畫，四對分節步足清楚分離；非顯微實拍。",
+      "caption": "新製生物教材插畫，非原卷或實拍；微觀與比較圖不按比例。"
     },
     {
-      "heading": "② 八腳不等於六腳昆蟲",
-      "text": "本文塵蟎有8隻腳，與昆蟲成體的6隻腳不同。塵蟎屬蛛形類；與蒼蠅、蟑螂、蚊子同為節肢動物，仍不是同一類昆蟲。",
-      "alt": "八條分節肢體的塵蟎成體與六條腳均連在胸部的昆蟲成體比較，非等比例。"
+      "heading": "② 八腳塵蟎不是六腳昆蟲",
+      "text": "左側塵蟎成體有8隻腳，右側蒼蠅成體有6隻腳。兩者同為節肢動物，但塵蟎屬蛛形類，不是昆蟲；圖中大小不按比例。",
+      "image": "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-2.png",
+      "alt": "新製塵蟎成體八腳與蒼蠅成體六腳比較，非等比例。"
     },
     {
-      "heading": "③ 原文也能排除D的保證",
-      "text": "原文明說屍體、排泄物、蟲卵也會引起小張過敏。即使殺死塵蟎，也不能保證把這些過敏原全部移除。",
-      "alt": "殺死塵蟎不等於過敏原全部消失，並列原文明說的三種過敏原。"
+      "heading": "③ 活體死亡，過敏原不一定消失",
+      "text": "原文指出塵蟎屍體、排泄物與蟲卵也會讓小張過敏。圖示這些材料仍留在纖維間，因此殺死活體不等於全部清除。",
+      "image": "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-3.png",
+      "alt": "新製寢具纖維間的塵蟎死體、糞粒與蟲卵放大示意，三者對應原文。"
     }
   ],
   "fourth": {
     "answer": "答案 B：動物界、節肢動物門",
     "points": [
-      "用分節附肢判斷大類。",
-      "成體八腳，不能說是六腳昆蟲。",
-      "殺死活體，不等於清除全部過敏原。"
-    ]
+      "依本文的分節附肢判斷分類，成體腳數須與昆蟲分開。",
+      "圖中單腳關節放大，呼應節肢動物的特徵。",
+      "保留原文過敏原條件，不把殺死塵蟎說成保證避免過敏。"
+    ],
+    "image": "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-4.png",
+    "alt": "新製枕頭纖維上的成體塵蟎與一隻步足關節放大，放大框不是多出一隻腳。"
   },
   "protectedWords": [
     "塵蟎",
-    "節肢動物",
-    "動物界",
     "節肢動物門",
+    "分節附肢",
+    "動物界",
     "昆蟲",
-    "成體",
+    "蛛形類",
     "過敏原",
     "排泄物",
     "蟲卵"
   ],
-  "rationale": "腳數和分節肢體比較需要精確數量，原生SVG比人物情境更能避免錯認成昆蟲；第三格直接回到題文邏輯。",
-  "id": "q-852",
-  "subject": "Biology",
-  "art": "docs/comics/art/q-852.svg",
-  "layoutVersion": "native-fluid-v6",
-  "generationMethod": "precise_native_svg",
-  "generationCalls": 0,
   "sourceGeneratedArtUsed": false,
-  "sourceOriginalImage": ".cache/new-gpt-20261029-a-originals/user-002.jpg",
-  "sourceOriginalSHA256": "3a7c81f336e357e114f8a3420d5a65bb2ae1e16394ecf2d30b19b4165e5da916",
-  "sourceQuestionNumber": 28,
-  "startedAt": "2026-10-29T15:59:21.949343+00:00",
-  "startedMonotonicNs": 695016725065862,
-  "timingScope": "本題專屬稿、原生SVG與隔離QA；不含先前來源取得與整批原卷預讀",
-  "completedAt": "2026-10-29T16:00:51.364090+00:00",
-  "endedMonotonicNs": 695100034183278,
-  "durationSeconds": 83.309117416,
-  "timingValid": true,
-  "monotonicClockHost": "same-execution-host",
-  "excludeFromSpeedStatistics": true,
-  "speedStatisticsExclusionReason": "原生SVG，非imagegen生成樣本",
+  "reusedOldGeneratedArt": false,
+  "generationMethod": "four independent built-in image_gen calls; newly generated high-detail near-realistic biology textbook illustrations",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/q-852-original-ba7b821ef356.webp"
+  ],
+  "answerCheckedAgainst": "本文提供「8隻分節的附肢」這個重要線索。塵蟎是動物，具有節肢動物的分節附肢，屬動物界、節肢動物門，因此B正確。\n\n塵蟎屬蛛形類而不是昆蟲。成體的塵蟎有8隻腳，昆蟲成體則有6隻腳；蒼蠅、蟑螂、蚊子是昆蟲，不代表住在家中的塵蟎也是昆蟲。比較腳數以成體為準，不能一概套到所有發育階段。\n\nD也不對：題文已說屍體、排泄物、蟲卵都會讓小張產生過敏反應，因此即使殺死活塵蟎，仍不能等同於過敏原全部消失。",
+  "producerAgent": "/root/bio_b",
   "visualChecked": true,
-  "nativeArt": "assets/comics/q-852-new-art-9eddf59b8f84.svg",
-  "rootReview": {
-    "visualChecked": true,
-    "reviewerAgent": "/root/comic_lane_2",
-    "inheritedProducerQA": "docs/imports/new-gpt-20261029-a/qa/q-852-reviewed.json",
-    "mechanicalIntegrator": "/root/comic_lane_1",
-    "actualViewed": [
-      "docs/imports/new-gpt-20261029-a/qa/q-852-app-question-1440.png",
-      "docs/imports/new-gpt-20261029-a/qa/q-852-app-question-390.png",
-      "docs/imports/new-gpt-20261029-a/qa/q-852-app-comic-1440.png",
-      "docs/imports/new-gpt-20261029-a/qa/q-852-app-comic-390.png",
-      ".cache/new-gpt-20261029-a-publish/q-852-original.webp"
+  "rationale": "依完整原卷與已確認答案重製四張生物教材插畫，不改原問或日期；逐圖核對數量、結構及圖文。",
+  "supportingSources": [
+    {
+      "url": "https://www.niehs.nih.gov/health/topics/agents/allergens/dustmites",
+      "finding": "NIH說明塵蟎取食皮屑及其過敏原；本題過敏原種類仍依原文。"
+    }
+  ],
+  "scientificChecks": [
+    "第1、2、4圖的主體塵蟎皆四對步足；第2圖蒼蠅三對步足。",
+    "體型大小非比例，口器不計入步足；未把塵蟎畫成昆蟲。",
+    "第3圖是原文過敏原材料示意，不作治療或預防保證。"
+  ],
+  "promptFile": "docs/comics/biology-ten-20261122/bio_b/q-852-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261122/bio_b/q-852-generation.json",
+  "createdAt": "2026-11-22T02:03:55.197129+00:00",
+  "producerVisualChecked": true,
+  "producerReview": {
+    "id": "q-852",
+    "passed": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "completeOriginalAndOptions": true,
+    "sourceGeneratedArtUsed": false,
+    "oldArtReused": false,
+    "scientificChecks": [
+      "第1、2、4圖的主體塵蟎皆四對步足；第2圖蒼蠅三對步足。",
+      "體型大小非比例，口器不計入步足；未把塵蟎畫成昆蟲。",
+      "第3圖是原文過敏原材料示意，不作治療或預防保證。"
     ],
-    "checkedAt": "2026-10-29T16:00:51.364090+00:00"
+    "originalMaterials": [
+      "site/dist/assets/originals/q-852-original-ba7b821ef356.webp"
+    ],
+    "actualViewed": [
+      "site/dist/assets/originals/q-852-original-ba7b821ef356.webp",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-1.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-2.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-3.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-852-panel-4.png",
+      ".cache/biology-ten-20261122/bio_b/q-852-1440.png",
+      ".cache/biology-ten-20261122/bio_b/q-852-390.png"
+    ],
+    "isolatedQA": "docs/comics/biology-ten-20261122/bio_b/q-852-isolated-qa.json",
+    "sources": [
+      {
+        "url": "https://www.niehs.nih.gov/health/topics/agents/allergens/dustmites",
+        "finding": "NIH說明塵蟎取食皮屑及其過敏原；本題過敏原種類仍依原文。"
+      }
+    ],
+    "substantiveOriginalOrAnswerChange": false,
+    "checkedAt": "2026-11-22T02:06:05.535355+00:00"
   },
-  "checkedAt": "2026-10-29T16:01:36.176355+00:00",
+  "producerReviewPath": "docs/comics/q-852-biology-20261122-production-review.json",
+  "producerManifest": "docs/comics/biology-ten-20261122/bio_b/q-852-handoff.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-852-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-852-app-390.png",
+      "/tmp/weirugo-comic-checks/q-852-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-852-standalone-390.png"
+    ],
+    "originalMaterials": [
+      "/home/jack/codex-git/TestReview/site/dist/assets/originals/q-852-original-ba7b821ef356.webp"
+    ],
+    "note": "root已實開原卷全文/第28題並保留B；逐張核對成體塵蟎四對八腳、對照蒼蠅三對六腳、死體/排泄物/卵及分節關節。四圖不同且非實拍，正式app/單頁桌手機四格均實看通過。",
+    "checkedAt": "2026-11-22T02:07:15.887984+00:00"
+  },
+  "nativeArt": "assets/comics/q-852-art-cc1b0c6e8e-web.webp",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "checkedAt": "2026-11-22T02:07:15.910902+00:00",
   "validationFile": "docs/comics/q-852-validation.json"
 }

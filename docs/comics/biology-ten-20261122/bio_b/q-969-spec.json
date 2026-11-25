@@ -1,0 +1,122 @@
+{
+  "id": "q-969",
+  "subject": "Biology",
+  "title": "以棲地與作用分辨蝸牛的生態關係",
+  "art": "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "panels": [
+    {
+      "heading": "① 由潮溼線索判斷棲地",
+      "text": "題幹說非洲大蝸牛多在潮溼環境活動。森林底層通常較陰暗潮溼，較能減少水分散失，符合A的描述。",
+      "image": "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-1.png",
+      "alt": "新製非洲大蝸牛在陰濕森林落葉層、苔蘚與腐木旁活動的生態插畫。",
+      "caption": "新製生物教材插畫，非原卷或實拍；微觀與比較圖不按比例。"
+    },
+    {
+      "heading": "② 蝸牛是線蟲的中間寄主",
+      "text": "廣東住血線蟲的幼蟲可在蝸牛中發育，蝸牛是中間寄主；這是寄生關係，不是兩者爭同一資源。旁圖為幼蟲教學放大，非實際檢驗。",
+      "image": "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-2.png",
+      "alt": "新製尖長殼非洲大蝸牛與其軟組織內線蟲幼蟲放大示意；不是成蟲住在殼中，也非實際檢驗。"
+    },
+    {
+      "heading": "③ 有競爭，不代表可以任意引種",
+      "text": "兩種蝸牛利用同一植物資源，是競爭情境示意；右側蝸牛未指定實際物種。引進外來競爭種可能造成新危害，不能因此認為D是妥當措施。",
+      "image": "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-3.png",
+      "alt": "新製兩種不同陸生蝸牛共享植物食物的假設競爭情境，並非引種建議或新增原題物種。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：適合潮溼的森林底層",
+    "points": [
+      "第4圖以濕潤落葉層中的蝸牛取食，呼應原文棲地線索。",
+      "線蟲與蝸牛是寄生；本題人類吃蝸牛則屬掠食。",
+      "有競爭效果，也不能推出任意引進外來蝸牛是妥當作法。"
+    ],
+    "image": "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-4.png",
+    "alt": "新製非洲大蝸牛在濕潤林底取食葉片的近觀，上觸角有眼、下觸角沒有眼點。"
+  },
+  "protectedWords": [
+    "非洲大蝸牛",
+    "森林底層",
+    "潮溼",
+    "廣東住血線蟲",
+    "中間寄主",
+    "寄生",
+    "競爭",
+    "掠食",
+    "外來種"
+  ],
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "generationMethod": "four independent built-in image_gen calls; newly generated high-detail near-realistic biology textbook illustrations",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-058-question-02-5c4cb462e88d.png"
+  ],
+  "answerCheckedAgainst": "題幹指出蝸牛多在潮溼環境活動。森林底層通常較陰暗潮溼，較能減少水分散失，符合蝸牛生活所需，因此選A。\n\n廣東住血線蟲利用蝸牛作為中間寄主，兩者是寄生關係，並非競爭共同資源。題目中人類直接食用蝸牛，指人與蝸牛間的掠食，不能和線蟲寄生的關係混為一談。D也不能只因競爭可能影響數量，就推論引進外來競爭種是妥當措施；外來物種可能造成新的競爭與生態破壞，不能任意引進。此處只比較題幹的生態關係，不把人類誤食感染與蝸牛的中間寄主角色對調。",
+  "producerAgent": "/root/bio_b",
+  "visualChecked": false,
+  "rationale": "依完整原卷與已確認答案重製四張生物教材插畫，不改原問或日期；逐圖核對數量、結構及圖文。",
+  "supportingSources": [
+    {
+      "url": "https://www.cdc.gov/dpdx/angiostrongyliasis_can/index.html",
+      "finding": "CDC生活史說明螺及蛞蝓為中間寄主，含第三期幼蟲；僅作生態角色與圖像階段查核。"
+    },
+    {
+      "url": "https://www.invasivespeciesinfo.gov/terrestrial/invertebrates/giant-african-snail",
+      "finding": "USDA列非洲大蝸牛為具農業危害的入侵種，支持不任意引進外來物種的風險說明。"
+    }
+  ],
+  "scientificChecks": [
+    "尖長錐形褐紋陸生蝸牛，非水棲螺；四張主體皆為連續柔軟足，非分節腿。",
+    "僅上方長觸角末端有眼，下方短觸角不畫眼點；第4張初稿因此重製，未採用舊稿。",
+    "幼蟲放大位於軟組織中，不畫成熟蟲在螺殼內生活；保留中間寄主角色。",
+    "競爭第二種蝸牛是概念示例，不指定原題不存在的實際物種。"
+  ],
+  "promptFile": "docs/comics/biology-ten-20261122/bio_b/q-969-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261122/bio_b/q-969-generation.json",
+  "createdAt": "2026-11-22T02:18:11.387060+00:00",
+  "producerVisualChecked": true,
+  "producerReview": {
+    "id": "q-969",
+    "passed": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "completeOriginalAndOptions": true,
+    "sourceGeneratedArtUsed": false,
+    "oldArtReused": false,
+    "scientificChecks": [
+      "尖長錐形褐紋陸生蝸牛，非水棲螺；四張主體皆為連續柔軟足，非分節腿。",
+      "僅上方長觸角末端有眼，下方短觸角不畫眼點；第4張初稿因此重製，未採用舊稿。",
+      "幼蟲放大位於軟組織中，不畫成熟蟲在螺殼內生活；保留中間寄主角色。",
+      "競爭第二種蝸牛是概念示例，不指定原題不存在的實際物種。"
+    ],
+    "originalMaterials": [
+      "site/dist/assets/originals/src-more-058-question-02-5c4cb462e88d.png"
+    ],
+    "actualViewed": [
+      "site/dist/assets/originals/src-more-058-question-02-5c4cb462e88d.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-1.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-2.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-3.png",
+      "docs/comics/biology-ten-20261122/bio_b/art/q-969-panel-4.png",
+      ".cache/biology-ten-20261122/bio_b/q-969-1440.png",
+      ".cache/biology-ten-20261122/bio_b/q-969-390.png"
+    ],
+    "isolatedQA": "docs/comics/biology-ten-20261122/bio_b/q-969-isolated-qa.json",
+    "sources": [
+      {
+        "url": "https://www.cdc.gov/dpdx/angiostrongyliasis_can/index.html",
+        "finding": "CDC生活史說明螺及蛞蝓為中間寄主，含第三期幼蟲；僅作生態角色與圖像階段查核。"
+      },
+      {
+        "url": "https://www.invasivespeciesinfo.gov/terrestrial/invertebrates/giant-african-snail",
+        "finding": "USDA列非洲大蝸牛為具農業危害的入侵種，支持不任意引進外來物種的風險說明。"
+      }
+    ],
+    "substantiveOriginalOrAnswerChange": false,
+    "checkedAt": "2026-11-22T02:18:30.886033+00:00"
+  }
+}

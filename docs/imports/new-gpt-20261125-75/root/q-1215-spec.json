@@ -1,0 +1,49 @@
+{
+  "id": "q-1215",
+  "subject": "Math",
+  "title": "兩條切線與四邊形面積",
+  "art": "docs/imports/new-gpt-20261125-75/root/art/q-1215-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 作兩條對角線",
+      "text": "兩條切線段等長，兩條半徑也等長，所以 OP 是 QR 的垂直平分線。",
+      "image": "docs/imports/new-gpt-20261125-75/root/art/q-1215-panel-1.svg",
+      "alt": "① 作兩條對角線的新製圖解",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "② 求圓心至弦的距離",
+      "text": "直角三角形 OMQ 的斜邊為 15，半弦 QM＝12，故 OM＝9。",
+      "image": "docs/imports/new-gpt-20261125-75/root/art/q-1215-panel-2.svg",
+      "alt": "② 求圓心至弦的距離的新製圖解",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "③ 從相似求出整條 OP",
+      "text": "在直角三角形 OQP 中，M 是斜邊上的垂足。OM·MP＝QM²，所以 MP＝16。",
+      "image": "docs/imports/new-gpt-20261125-75/root/art/q-1215-panel-3.svg",
+      "alt": "③ 從相似求出整條 OP的新製圖解",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "300",
+    "points": [
+      "兩條垂直對角線是 25 和 24。",
+      "四邊形面積＝25×24÷2＝300。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/root/art/q-1215-panel-4.svg",
+    "alt": "④ 將對角線相乘取一半的新製圖解"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/root/q-1215-original.png",
+    "docs/imports/new-gpt-20261125-75/root/q-1215-figure.png"
+  ],
+  "answerCheckedAgainst": "300",
+  "layoutVersion": "native-four-images-v7",
+  "rationale": "用可校對的原生向量圖呈現本題的空間、物件、過程或幾何關係，每格各有單獨配圖及圖說。",
+  "producerAgent": "/root"
+}

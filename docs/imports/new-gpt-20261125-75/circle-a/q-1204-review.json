@@ -1,0 +1,55 @@
+{
+  "id": "q-1204",
+  "disposition": "new",
+  "originalIndex": 26,
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "originalFileId": "file_00000000c2188206a818ce702a4dac16",
+  "originalSHA256": "aedd98f46a9c58572311a041d1b6675bff39e62f024ef1a84af8dd94c9b3980b",
+  "originalMessageId": "f4820a67-4a89-4fbe-aad4-4b35f588a1ab",
+  "firstQuestionTimestamp": 1795616193.036794,
+  "actualViewed": [
+    ".cache/intake-20261125-6b06f11f/original-26.jpg",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1204-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1204-figure.png"
+  ],
+  "cropBoxes": {
+    "fullQuestion": [
+      13,
+      546,
+      844,
+      939
+    ],
+    "necessaryFigure": [
+      632,
+      545,
+      827,
+      759
+    ]
+  },
+  "crops": [
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1204-original.png",
+      "sha256": "baf90bee1d330fdd40a9837384d34c6346ee8d39b5232c7ba96e8ace0877bb00"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1204-figure.png",
+      "sha256": "eca22a1a91615fce7932822484393d89f00c923db8a4f8b118bb792578c76721"
+    }
+  ],
+  "inclusionEvidence": "紅筆劃去選 C，題號左方紅筆寫 B。",
+  "duplicateReview": "以完整題幹及選項查正式題庫、題組小題與草稿索引，沒有相同題幹或相似度達 0.60 的候選；另以題目辨識字句回查舊來源檔及跨來源原卷 SHA，未見相同原題。",
+  "independentAnswer": "(B) 15／2（依原圖）",
+  "printedSubquestionCount": 1,
+  "substantiveCorrections": [
+    {
+      "kind": "answerAssumption",
+      "before": "來源 AI 直接由 BC 切圓 O 於 M 推進到 AM 為直徑，未區分圖上 A、O、M 對齊與文字條件本身。",
+      "after": "保留原印題與 B。先明示按原圖 A、O、M 共線求解；若只列原印文字，仍可以有水平位移不同的圓，弦心距不唯一。",
+      "reason": "核對原卷圖文與來源 AI 輔助解說後，明確保留原題並更正推導條件或幾何圖。"
+    }
+  ],
+  "dedupeCandidates": []
+}

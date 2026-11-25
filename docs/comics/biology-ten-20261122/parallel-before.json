@@ -1,0 +1,99 @@
+{
+  "mode": "biology_four_image_goal",
+  "workerLimit": 3,
+  "rootRole": "第74來源10完整原題/40張新圖已發布；2項解說訂正待monitor確認，舊暫停角色不恢復。",
+  "updatedAt": "2026-11-22T01:51:40.518994+00:00",
+  "lanes": [
+    {
+      "lane": 1,
+      "questionId": null,
+      "title": "本次狹義更新完成；其他舊佇列維持暫停。",
+      "state": "paused",
+      "startedAt": null,
+      "agent": "/root/comic_lane_1",
+      "role": "integration",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "activeTask": null,
+      "pauseReason": "本次狹義更新完成；其他舊佇列維持暫停。"
+    },
+    {
+      "lane": 2,
+      "questionId": null,
+      "title": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。",
+      "state": "paused",
+      "startedAt": null,
+      "agent": "/root/comic_lane_2",
+      "role": "production",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "activeTask": null,
+      "pauseReason": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。"
+    },
+    {
+      "lane": 3,
+      "questionId": null,
+      "title": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。",
+      "state": "paused",
+      "startedAt": null,
+      "agent": "/root/comic_lane_3",
+      "role": "production",
+      "claimsPaused": true,
+      "batchQuestionIds": [],
+      "activeTask": null,
+      "pauseReason": "第73來源製作已收尾；待確認不計complete，舊來源與重製持續暫停。"
+    }
+  ],
+  "ready": [],
+  "integrated": 1155,
+  "blocked": [
+    {
+      "id": "q-1176",
+      "title": "地科第17題｜地震深度與板塊交界形式",
+      "subject": "Earth",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-11-22T01:48:47.927731+00:00",
+      "readyAt": "2026-11-22T01:50:21.104764+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "完整原題、四張新圖與正式app/單頁桌手機QA通過；原AI選項解說訂正待monitor確認，答案不變，待確認不計complete事件。",
+      "evidence": [
+        "docs/comics/q-1176.json",
+        "docs/comics/q-1176-production-review.json"
+      ],
+      "assignmentMethod": "source74 explicit finalized producer manifest; root sole integrator",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-63a824529278418ebbf941e2568be859",
+      "formalArtValidatedAt": "2026-11-22T01:51:40.281748+00:00",
+      "formalValidation": "docs/comics/q-1176-validation.json"
+    },
+    {
+      "id": "q-1178",
+      "title": "地科第23題｜中洋脊兩側的移動與地殼年齡",
+      "subject": "Earth",
+      "lane": 3,
+      "state": "blocked",
+      "startedAt": "2026-11-22T01:48:47.928151+00:00",
+      "readyAt": "2026-11-22T01:50:21.523549+00:00",
+      "decision": "awaiting_confirmation",
+      "reason": "完整原題、四張新圖與正式app/單頁桌手機QA通過；原AI選項解說訂正待monitor確認，答案不變，待確認不計complete事件。",
+      "evidence": [
+        "docs/comics/q-1178.json",
+        "docs/comics/q-1178-production-review.json"
+      ],
+      "assignmentMethod": "source74 explicit finalized producer manifest; root sole integrator",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "jobId": "job-b8cb7deef5c4425abc583ddb8205f58e",
+      "formalArtValidatedAt": "2026-11-22T01:51:40.402125+00:00",
+      "formalValidation": "docs/comics/q-1178-validation.json"
+    }
+  ],
+  "waiting": [],
+  "integrating": [],
+  "held": [],
+  "integrationLimit": 1,
+  "roleChangedAt": "2026-10-29T07:01:25.554580+00:00",
+  "importLimit": 2
+}

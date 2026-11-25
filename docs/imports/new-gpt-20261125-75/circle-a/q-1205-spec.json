@@ -1,0 +1,49 @@
+{
+  "id": "q-1205",
+  "subject": "Math",
+  "title": "半圓的弦心距與弓形面積",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1205-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 讀出著色的弓形",
+      "text": "半圓半徑 6，弦 CD 上方是所求弓形。由 O 向 CD 作垂線，垂足 H 到圓心的距離為 3。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1205-panel-1.svg",
+      "alt": "在半圓上保留原題的弦 CD、圓心 O，著色區是弦上方的弓形。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 求半弦與兩個角",
+      "text": "垂線平分 CD，所以 CH＝HD＝3√3，CD＝6√3。直角三角形中 OH 是斜邊 OC 的一半，所以兩個圓心小角各是 60°。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1205-panel-2.svg",
+      "alt": "圓心與弦端組成等腰三角形，弦心距把它分為兩個相同的直角三角形。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 求扇形面積",
+      "text": "兩個 60° 合成圓心角 120°。扇形 COD 占整圓三分之一，面積是 12π。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1205-panel-3.svg",
+      "alt": "填色扇形 COD 對應 120 度，弦線用虛線分開上方弓形與下方三角形。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 (B) 12π－9√3",
+    "points": [
+      "三角形 COD 的面積＝6√3×3÷2＝9√3。",
+      "扇形扣掉三角形，剩下著色弓形。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1205-panel-4.svg",
+    "alt": "三個並列的圖依序展示扇形、扣除的三角形與剩下的著色弓形。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1205-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1205-figure.png"
+  ],
+  "answerCheckedAgainst": "(B) 12π－9√3",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7"
+}

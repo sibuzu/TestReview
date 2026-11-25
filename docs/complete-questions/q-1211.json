@@ -1,0 +1,79 @@
+{
+  "id": "q-1211",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學第10題｜圓弧拱門的通行高度與半徑",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "史考特帶友人參觀中國傳統建築，途中經過一個圓弧造型的拱門，如右圖。此拱門通行高度為 200 公分、底部 AB 寬 120 公分，則此圓的半徑為多少公分？\n\n(A) 100\n(B) 104\n(C) 109\n(D) 116",
+  "answer": "(C) 109 公分",
+  "explanation": "令圓心為 O，拱門頂點為 T，弦 AB 的中點為 H。圓心到弦的垂線通過 H 並平分 AB，因此 HB＝60 公分。依原圖，T、O、H 由上到下排列；拱門通行高度 TH＝200，TO 是半徑 r，所以 OH＝200－r。\n\n在 H 處直角的 △OHB 中，OB＝r。由畢氏定理，(200－r)²＋60²＝r²。展開得 40000－400r＋3600＝0，因此 r＝109 公分，選 (C)。\n\n代回 109 可核對弦心距為 91，且 91²＋60²＝109²。其餘數值 100、104、116 分別對應的弦心距 100、96、84 均無法通過半弦 60 的同一條等式。",
+  "trap": "高度由拱頂量到地面的弦，分成拱頂到圓心的半徑與弦心距。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "拱門",
+    "弦心距",
+    "畢氏定理"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1211-original-2706fc0916fa.png"
+  ],
+  "studentAnswer": "B（104 公分）",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "originalQuestionNumber": "10",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1211-figure-fec815cb4c59.png",
+      "alt": "圓弧拱門與地面弦 AB 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "圓弧拱門的通行高度與半徑",
+    "art": "assets/comics/q-1211-art-4f192e6228.svg",
+    "panels": [
+      {
+        "heading": "① 看拱頂與地面的量法",
+        "text": "拱門從最高點 T 量到地面的弦 AB，高 200 公分。弦 AB 寬 120 公分。",
+        "alt": "圓形拱門和磚牆側面，兩個括線分別標通行高度 200、底寬 120 公分。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1211-art-4f192e6228.svg"
+      },
+      {
+        "heading": "② 把高度分為兩段",
+        "text": "作圓心 O 到底弦的垂線，垂足 H 平分 AB，HB＝60。拱頂到 O 是 r，O 到 H 是 200－r。",
+        "alt": "把拱門補全成圓，分出垂直半徑 OT、垂直弦心距 OH 和水平半弦 HB。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1211-panel-2-art-40b6264724.svg"
+      },
+      {
+        "heading": "③ 用半徑當斜邊",
+        "text": "△OHB 是直角三角形。由 (200－r)²＋60²＝r²，展開得到 400r＝43600。",
+        "alt": "只取出直角三角形 OHB，兩股 200 減 r、60，斜邊是半徑 r。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1211-panel-3-art-d547493e05.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (C) 109 公分",
+      "points": [
+        "半徑 109 對應弦心距 91。",
+        "91²＋60²＝109²，通過原條件驗算。"
+      ],
+      "image": "assets/comics/q-1211-panel-4-art-f6c6a2d366.svg",
+      "alt": "在拱門內放回實際尺寸的直角三角形，兩股 91 和 60，斜邊為半徑 109。"
+    }
+  }
+}

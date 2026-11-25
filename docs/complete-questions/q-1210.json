@@ -1,0 +1,78 @@
+{
+  "id": "q-1210",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學計算第3題｜等腰梯形內切圓半徑與 △AOB 面積",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，等腰梯形 ABCD 中，AD∥BC，圓 O 為內切圓，已知 AD＝4，BC＝14，則：\n(1) 圓 O 的半徑為何？（6 分）\n(2) △AOB 面積為何？（2 分）",
+  "answer": "(1) √14\n(2) 9√14／2",
+  "explanation": "(1) 同一圓外點的兩切線段等長，所以有內切圓的四邊形滿足 AB＋CD＝AD＋BC＝18。等腰梯形的兩腰等長，得到 AB＝CD＝9。從 A 向 BC 作垂線，垂足為 H，等腰性給出 BH＝(14－4)÷2＝5。由畢氏定理，AH＝√(9²－5²)＝2√14。圓同時切到兩條平行底邊，梯形高就是直徑，故半徑為 √14。\n\n(2) 以 AB＝9 作 △AOB 的底，從 O 向 AB 的垂直距離就是內切圓半徑 √14。因此 △AOB 面積＝9×√14÷2＝9√14／2。",
+  "trap": "5 是兩底長度差的一半；高是 2√14，半徑是 √14。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "等腰梯形",
+    "內切圓",
+    "三角形面積"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1210-original-879d79577875.png"
+  ],
+  "studentAnswer": "(1) 5\n(2) 45／2",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "3",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1210-figure-e2e161cf495b.png",
+      "alt": "等腰梯形 ABCD、內切圓 O、線段 AO 與 BO 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "等腰梯形內切圓半徑與 △AOB 面積",
+    "art": "assets/comics/q-1210-art-c7cd593478.svg",
+    "panels": [
+      {
+        "heading": "① 用切線段等長求腰",
+        "text": "有內切圓的四邊形兩組對邊長和相等，故 AB＋CD＝4＋14＝18。兩腰等長，各為 9。",
+        "alt": "等腰梯形，上底 4，下底 14，內切圓與各邊相切。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1210-art-c7cd593478.svg"
+      },
+      {
+        "heading": "② 由 9 和 5 求梯形高",
+        "text": "上下底差 10，由等腰性左右各分 5。直角三角形以腰 9 為斜邊，梯形高為 2√14。",
+        "alt": "由梯形左右各截出底長 5、斜邊 9 的等大直角三角形。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1210-panel-2-art-af44a98c4f.svg"
+      },
+      {
+        "heading": "③ 小題 (1) 找出半徑",
+        "text": "兩條平行底邊都和圓相切，中間的垂直距離是直徑。故半徑 √14。",
+        "alt": "放大夾在兩條水平切線間的圓，直徑 2 根號 14 垂直連接切點。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1210-panel-3-art-6423128cd0.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(1) √14　(2) 9√14／2",
+      "points": [
+        "梯形高為直徑 2√14，小題 (1) 半徑 √14。",
+        "小題 (2) 用腰 AB＝9 作底，半徑是高，面積 9√14／2。"
+      ],
+      "image": "assets/comics/q-1210-panel-4-art-5c74d9ccf5.svg",
+      "alt": "把 AB 旋為水平底邊，切點 T 位在距 B 為 7、距 A 為 2，O 垂到 AB 的高是根號 14。"
+    }
+  }
+}

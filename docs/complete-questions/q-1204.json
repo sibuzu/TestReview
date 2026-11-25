@@ -1,0 +1,79 @@
+{
+  "id": "q-1204",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學第9題｜正三角形與弦 AD 的弦心距",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，正三角形 ABC 中，A 點在圓 O 上，BC 切圓 O 於 M 點，AB 交圓 O 於 D 點。若△ABC 的邊長為 20√3，則 AD 的弦心距為何？\n\n(A) 15√3／4\n(B) 15／2\n(C) 15√3／2\n(D) 15",
+  "answer": "(B) 15／2（依原圖）",
+  "explanation": "依原圖中 A、O、M 沿同一直線的位置，AM 垂直 BC，是正三角形的高。用邊長 20√3 得 AM＝20√3×√3／2＝30。因 A、M 是這條過圓心直線的兩個圓周交點，AM 為直徑，OA＝15。\n\n由 O 向弦 AD 作垂線，垂足為 H。正三角形的高也平分 A 角，所以 ∠OAH＝30°。直角△AOH 的斜邊 OA＝15，30° 對邊 OH＝15／2，即為弦心距，選 (B)。AH＝15√3／2 是半弦，對應 (C)。 (A) 15√3／4 只是半弦再除以 2；(D) 15 是半徑。\n\n原印題幹未明列 A、O、M 共線。若不按原圖的對齊關係，圓仍可沿 BC 改變切點並通過 A，弦心距便會改變。這裡按原圖構形及紅筆訂正採 (B)。",
+  "trap": "弦心距是從圓心到弦的垂直距離，半弦沿著弦。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "正三角形",
+    "弦心距",
+    "30°直角三角形"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1204-original-baf90bee1d33.png"
+  ],
+  "studentAnswer": "C（15√3／2）",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "originalQuestionNumber": "9",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1204-figure-eca22a1a9161.png",
+      "alt": "正三角形 ABC、圓 O、弦 AD 與切點 M 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "正三角形與弦 AD 的弦心距",
+    "art": "assets/comics/q-1204-art-cd37f10fa4.svg",
+    "panels": [
+      {
+        "heading": "① 看原圖的對齊",
+        "text": "依原圖，A、O、M 位於同一直線。BC 切圓於 M，所以 AM 垂直 BC。",
+        "alt": "正三角形與相切圓，虛線 AM 照原圖通過圓心 O，D 位於弦 AD 端點。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1204-art-cd37f10fa4.svg"
+      },
+      {
+        "heading": "② 高也是直徑",
+        "text": "正三角形以 AM 作高，邊長 20√3 給出 AM＝30。AM 通過 O 且端點都在圓上，所以 OA＝15。",
+        "alt": "沿垂直的 AM 切出原三角形的一半，顯示 30°、高 30 及上下兩段半徑。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1204-panel-2-art-42d75fbb68.svg"
+      },
+      {
+        "heading": "③ 對弦作垂線",
+        "text": "從 O 向 AD 作垂線，垂足 H。∠OAH＝30°，所以 OH 為斜邊 OA 的一半，等於 15／2。",
+        "alt": "放大的直角三角形 AOH 標出 30°，半徑 OA 為 15，垂直距離 OH 為 15 除 2。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1204-panel-3-art-be61560eb7.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (B) 15／2",
+      "points": [
+        "答案採用原圖 A、O、M 的共線構形。",
+        "弦心距是 OH；沿著弦的 AH 是半弦。"
+      ],
+      "image": "assets/comics/q-1204-panel-4-art-5fbcee7a1a.svg",
+      "alt": "圓上弦 AD 與圓心到弦的垂線 OH，分清楚垂距與半弦。"
+    }
+  }
+}

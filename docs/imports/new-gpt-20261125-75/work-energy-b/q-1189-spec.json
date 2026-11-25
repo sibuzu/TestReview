@@ -1,0 +1,53 @@
+{
+  "id": "q-1189",
+  "subject": "Physics-Chemistry",
+  "title": "光滑斜面到粗糙面的能量守恆",
+  "art": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1189-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 分清兩段",
+      "text": "A→B 是光滑斜面。B→C 是粗糙水平面，小球滑到 C 時停下。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1189-panel-1.svg",
+      "alt": "A、B、C 三點和兩段路面的幾何圖。"
+    },
+    {
+      "heading": "② 看光滑斜面",
+      "text": "重力位能下降，動能等量增加。兩者的總和，也就是力學能，保持不變。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1189-panel-2.svg",
+      "alt": "A 點重力位能和 B 點動能等高。"
+    },
+    {
+      "heading": "③ 看粗糙地面",
+      "text": "高度不變，摩擦力與位移反向。小球的動能減少，部分能量以熱等形式留在整體系統內。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1189-panel-3.svg",
+      "alt": "水平段位移朝右、摩擦朝左，並用熱波線表示能量轉換。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 (D) 力學能只在 A→B 守恆；兩段總能量都守恆",
+    "points": [
+      "A→B：力學能○、能量○。",
+      "B→C：力學能×、能量○。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1189-panel-4.svg",
+    "alt": "三個位置的總能量柱等高，B 到 C 的動能則轉成熱能等。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1189-common.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1189-original.jpg"
+  ],
+  "answerCheckedAgainst": "(D) 力學能只在 A→B 守恆；兩段總能量都守恆",
+  "rationale": "使用四張獨立精確 SVG，把本題的路徑、受力、量值關係及答案依據逐步圖示。",
+  "generationMethod": "four independently authored SVG physics diagrams",
+  "producerAgent": "/root/source75_work_b",
+  "layoutVersion": "native-four-images-v7",
+  "protectedWords": [
+    "重力位能",
+    "力學能",
+    "A→B",
+    "B→C"
+  ]
+}

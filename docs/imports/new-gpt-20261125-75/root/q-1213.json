@@ -1,0 +1,43 @@
+{
+  "id": "q-1213",
+  "title": "數學第7題｜互補的弧與內接四邊形",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "date": "2026-11-25",
+  "addedAt": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "originalQuestionNumber": "7",
+  "question": "如右圖，四邊形 ABCD 為圓 O 的內接四邊形，線段 AB＝7，線段 BC＝15，線段 AD＝20。裕哲利用鐵絲從 A 點將圓 O 繞一圈，再依 A、B、C、D 四點將鐵絲剪成四段後，發現弧 AB＋弧 CD＝弧 BC＋弧 AD＝180°，則線段 CD 的長度為＿＿＿。",
+  "answer": "24",
+  "explanation": "把一段弧平移成圓周上等長的弧，可視為把弧繞圓心旋轉，對應的弦也保持等長。任何兩段弧的度數相加為 180°，便可把它們接在同一個半圓上。連接兩端得到直徑，中間接點形成直角，兩段弧的弦恰為兩股。\n\n弧 BC 與弧 AD 互補，其弦長是 15、20。設直徑 d，則 d²＝15²＋20²＝625，d＝25。弧 AB 與弧 CD 也互補，所以 7²＋CD²＝25²，得 CD＝√576＝24。\n\n原作答把弧度數的關係直接換成了弦長的加減。弧的度數可相加，對應弦要透過這兩個直角三角形比較。",
+  "tags": [
+    "圓內接四邊形",
+    "弧與弦",
+    "半圓所對圓周角"
+  ],
+  "studentAnswer": "7@錯題28 → 24",
+  "passage": "",
+  "images": [
+    "docs/imports/new-gpt-20261125-75/root/q-1213-original.png"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261125-75/root/q-1213-figure.png",
+      "alt": "原卷附圖｜圓 O 及內接四邊形 ABCD",
+      "caption": "原卷附圖｜圓 O 及內接四邊形 ABCD"
+    }
+  ],
+  "explanationFigures": [],
+  "tables": [],
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "verification": "原卷逐題核對",
+  "verificationNote": "逐項核對上傳原卷。日期取首次提問的臺灣日期，實際測驗日期未確認。原題冊次或課次缺可靠依據，歸綜合。",
+  "trap": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "sourceLabel": "分享原卷｜第7題"
+}

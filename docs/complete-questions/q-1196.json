@@ -1,0 +1,118 @@
+{
+  "id": "q-1196",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第28題｜推力、距離與木塊獲得的動能",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，在無摩擦力的水平面靜置一個質量為 M 的木塊，今以水平外力 F 推動此木塊，使其沿力的方向移動 S 的距離，外力對木塊所作的功完全轉換為木塊的動能。小明與小華想要讓木塊獲得的動能變為原本的 2 倍，他們分別提出以下策略：\n\n小明：改用質量為原來 2 倍的木塊，其餘條件不變，因為質量愈大的物體動能愈大。\n小華：改用質量為原來 ½ 倍的木塊，其餘條件不變，因為質量愈小的物體加速愈快，速度愈大的物體動能愈大。\n\n兩人的策略是否合理？\n\n(A) 兩人皆合理\n(B) 只有小明合理\n(C) 只有小華合理\n(D) 兩人皆不合理",
+  "answer": "(D) 兩人皆不合理",
+  "explanation": "木塊都由靜止出發。推力和位移同方向，功 W＝FS。題目指定沒有摩擦，這些功都成為木塊的動能，所以三次的末動能都等於 FS。質量不同使最後速度不同，但 ½mv² 中的 m 和 v² 同時改變，結果仍相同。要讓末動能成為原來的兩倍，須使 FS 成為兩倍。\n\n(A) 兩種策略只改質量，沒有讓功增加。\n(B) 小明忽略質量較大時，在相同的力與距離下末速也會較小。\n(C) 小華雖然讓末速增加，質量也成為原來的一半，所得動能仍是 FS。\n(D) 兩種策略的推力、位移都維持不變，所以末動能維持 FS。",
+  "trap": "先看力與距離是否改變，再用作功判斷動能。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已逐字核對真正的使用者原卷與紅筆訂正。日期採首次提問的台灣日期。冊次與章節沒有足夠的原卷標示，歸綜合。原卷選錄標示為 113 年教育會考；對照官方自然科第 38 題。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "作功",
+    "動能",
+    "質量",
+    "113年教育會考"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1196-original-d3227db4ca7c.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第28題",
+  "studentAnswer": "28@錯題C → D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "28",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "兩人皆合理",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "兩種策略只改質量，沒有讓功增加。"
+    },
+    {
+      "label": "B",
+      "text": "只有小明合理",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "小明忽略質量較大時，在相同的力與距離下末速也會較小。"
+    },
+    {
+      "label": "C",
+      "text": "只有小華合理",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "小華雖然讓末速增加，質量也成為原來的一半，所得動能仍是 FS。"
+    },
+    {
+      "label": "D",
+      "text": "兩人皆不合理",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "兩種策略的推力、位移都維持不變，所以末動能維持 FS。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1196-setup-19f949cf605f.jpg",
+      "alt": "水平力 F 推動質量 M 的木塊，沿力方向移動 S。",
+      "caption": "原卷作答附圖"
+    },
+    {
+      "src": "assets/originals/gpt075-q-1196-strategies-52440ed8d334.jpg",
+      "alt": "小明將木塊改為 2M，小華改為 ½M；兩圖的水平外力仍為 F，位移仍為 S。",
+      "caption": "原卷比較圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "推力、距離與木塊獲得的動能",
+    "art": "assets/comics/q-1196-art-235508d8fe.svg",
+    "panels": [
+      {
+        "heading": "① 找出固定條件",
+        "text": "木塊從靜止出發，平面沒有摩擦。水平推力 F 讓它沿力的方向移動 S。",
+        "alt": "標示木塊 M、推力 F 與水平位移 S。",
+        "image": "assets/comics/q-1196-art-235508d8fe.svg"
+      },
+      {
+        "heading": "② 比較兩人改了什麼",
+        "text": "小明只把質量改為 2M，小華只改為 ½M。兩人的推力與位移仍是 F、S。",
+        "alt": "三排木塊質量不同，推力和位移相同。",
+        "image": "assets/comics/q-1196-panel-2-art-f249e342d0.svg"
+      },
+      {
+        "heading": "③ 用作功算動能",
+        "text": "力與位移同向，所作的功是 FS。木塊由靜止出發，所得動能就是 FS。",
+        "alt": "定力的力－位移圖，長方形面積是 FS。",
+        "image": "assets/comics/q-1196-panel-3-art-dd9f8d5126.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (D) 兩人皆不合理",
+      "points": [
+        "質量改變可以改變末速，所得動能仍是 FS。",
+        "要使動能翻倍，需要使 F×S 翻倍。"
+      ],
+      "image": "assets/comics/q-1196-panel-4-art-fb64783f96.svg",
+      "alt": "三根動能長條同長且皆達 FS，都低於 2FS 的目標線。"
+    },
+    "protectedWords": [
+      "無摩擦",
+      "末速",
+      "F×S"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "q-1211",
+  "subject": "Math",
+  "title": "圓弧拱門的通行高度與半徑",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1211-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 看拱頂與地面的量法",
+      "text": "拱門從最高點 T 量到地面的弦 AB，高 200 公分。弦 AB 寬 120 公分。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1211-panel-1.svg",
+      "alt": "圓形拱門和磚牆側面，兩個括線分別標通行高度 200、底寬 120 公分。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 把高度分為兩段",
+      "text": "作圓心 O 到底弦的垂線，垂足 H 平分 AB，HB＝60。拱頂到 O 是 r，O 到 H 是 200－r。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1211-panel-2.svg",
+      "alt": "把拱門補全成圓，分出垂直半徑 OT、垂直弦心距 OH 和水平半弦 HB。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 用半徑當斜邊",
+      "text": "△OHB 是直角三角形。由 (200－r)²＋60²＝r²，展開得到 400r＝43600。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1211-panel-3.svg",
+      "alt": "只取出直角三角形 OHB，兩股 200 減 r、60，斜邊是半徑 r。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 (C) 109 公分",
+    "points": [
+      "半徑 109 對應弦心距 91。",
+      "91²＋60²＝109²，通過原條件驗算。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1211-panel-4.svg",
+    "alt": "在拱門內放回實際尺寸的直角三角形，兩股 91 和 60，斜邊為半徑 109。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1211-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1211-figure.png"
+  ],
+  "answerCheckedAgainst": "(C) 109 公分",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7",
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/circle-a/q-1211-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/circle-a/manifest.json",
+  "nativeArt": "assets/comics/q-1211-art-4f192e6228.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:25.321399+00:00",
+  "validationFile": "docs/comics/q-1211-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

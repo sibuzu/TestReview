@@ -1,0 +1,82 @@
+{
+  "id": "q-1212",
+  "subject": "Math",
+  "title": "圓切線、斜邊上的高與弦 BC",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1212-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 連接切點與圓心",
+      "text": "半徑 OB 垂直切線 AB，所以 △OBA 在 B 處成直角。D 是 OA 與弦 BC 的交點。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1212-panel-1.svg",
+      "alt": "原圖構形，圓在 B 處與 AB 相切，OA 通過圓心、D 和弦 BC。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 把斜邊 OA 轉為水平",
+      "text": "BD 是斜邊 OA 上的高，左右兩段 OD、DA 分別為 4、9。兩個小直角三角形有相等的對應角。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1212-panel-2.svg",
+      "alt": "將斜邊 OA 旋為水平，BD 垂直 OA，兩個小三角形底邊為 4 與 9。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 由相似求半弦",
+      "text": "△OBD 與 △BAD 相似。OD／BD＝BD／AD，所以 BD²＝4×9，BD＝6。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1212-panel-3.svg",
+      "alt": "兩個不同角度的相似直角三角形，標出 BD 對應到 4 和 9，形成連比。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 12",
+    "points": [
+      "由相似三角形求得 BD＝6。",
+      "垂徑定理給出 DC＝BD＝6，所以 BC＝12。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1212-panel-4.svg",
+    "alt": "通過圓心的垂線平分弦 BC，D 兩側各 6，合計 12。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1212-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1212-figure.png"
+  ],
+  "answerCheckedAgainst": "12",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7",
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/circle-a/q-1212-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/circle-a/manifest.json",
+  "nativeArt": "assets/comics/q-1212-art-649f0d9665.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:25.393505+00:00",
+  "validationFile": "docs/comics/q-1212-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

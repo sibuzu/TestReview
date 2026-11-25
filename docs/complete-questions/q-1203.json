@@ -1,0 +1,79 @@
+{
+  "id": "q-1203",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學第7題｜內切圓的切線段與面積比",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，△ABC 中，AB、BC、AC 分別與圓 O 相切於 D、E、F 三點，已知△AOD 面積為 8，△BOE 面積為 16，△COF 面積為 6。若△ABC 周長為 60，則 AB 的長度為何？\n\n(A) 16\n(B) 24\n(C) 36\n(D) 48",
+  "answer": "(B) 24（原卷預期；數據相互矛盾）",
+  "explanation": "從 O 到三邊的垂直距離都是內切圓半徑 r。以 AD、BE、CF 為底的 △AOD、△BOE、△COF 有共同的高 r，所以 AD：BE：CF＝8：16：6＝4：8：3。\n\n從同一圓外點所引的兩切線段等長，故 AD＝AF、BD＝BE、CE＝CF。設這三對線段的長度依次為 4k、8k、3k。三邊長 AB＝12k、BC＝11k、AC＝7k，周長 30k＝60，得到 k＝2。AB＝12×2＝24，得到紅筆訂正所採的 (B)。\n\n(A) 16 是 BD 長，(C) 36 是其他兩邊 BC＋AC，(D) 48 為 AB 的兩倍。也可用三角形不等式驗算：周長為 60 時，任一邊必須小於 30。\n\n若把三個面積視為精確數值，題目條件無法同時成立。六個小三角形兩兩等面積，所以 △ABC 總面積是 2×(8＋16＋6)＝60；周長 60 則半周長為 30，依「面積＝內切圓半徑×半周長」會得到 r＝2。然而上述三邊 24、22、14 由海龍公式得到的面積是 √(30×6×8×16)＝48√10，約 151.79，與 60 不合。因此 (B) 是只按題給面積比例與周長推出的原卷預期選項。",
+  "trap": "同一個外點的兩個切線段等長，並且三角形使用內切圓半徑作高時可直接比底。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "內切圓",
+    "切線段等長",
+    "等高三角形"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1203-original-6ee1c6800ade.png"
+  ],
+  "studentAnswer": "C（36）",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "originalQuestionNumber": "7",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1203-figure-07696d3bf22c.png",
+      "alt": "內切圓 O 與三角形 ABC 相切於 D、E、F 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "內切圓的切線段與面積比",
+    "art": "assets/comics/q-1203-art-46fbe1b4da.svg",
+    "panels": [
+      {
+        "heading": "① 三個小三角形共高",
+        "text": "圓心到三條邊的垂直距離都是內切圓半徑。三個面積的比，等於 AD、BE、CF 的長度比。",
+        "alt": "由比例解出的三角形描繪六個小三角形及內切圓，保留 4 比 8 比 3 的相對比例。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1203-art-46fbe1b4da.svg"
+      },
+      {
+        "heading": "② 把同一個外點的切線段配對",
+        "text": "AD＝AF、BD＝BE、CE＝CF。三組切線段長可記為 4k、8k、3k。把 AB 攤平可看出 AD 與 DB 的共同高。",
+        "alt": "把 AB 攤平的 △AOD 和 △BOD 分別擁有 4k 與 8k 的底，共用高 r。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1203-panel-2-art-6939ed0a47.svg"
+      },
+      {
+        "heading": "③ 依周長求 AB",
+        "text": "三邊分別為 12k、11k、7k。若以題給的比例和周長 60 作答，k＝2，AB＝24。",
+        "alt": "三條按同一比例繪製、分成等切線段的長度條，對應 AB、BC、AC。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1203-panel-3-art-0673723086.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "原卷預期 (B) 24",
+      "points": [
+        "面積比與周長推出 AB＝24。",
+        "三個面積與周長若都視為精確數據，無法同時成立。"
+      ],
+      "image": "assets/comics/q-1203-panel-4-art-9858c9c21f.svg",
+      "alt": "外三角形按比例解出的邊長繪製。實際內切圓半徑約 5.06，虛線圈表示由題給面積推出的半徑 2，兩者互相矛盾。"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "q-1194",
+  "subject": "Physics-Chemistry",
+  "title": "擺錘撞木塊實驗中的兩種守恆",
+  "art": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1194-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 定位實驗各段",
+      "text": "擺錘擺向木塊並撞擊，木塊之後在桌面滑行到停止。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1194-panel-1.svg",
+      "alt": "甲段擺下、乙處碰撞、丙段木塊滑動並停止。"
+    },
+    {
+      "heading": "② 看擺錘擺下",
+      "text": "擺錘還沒有撞上木塊時忽略阻力，下降的重力位能轉成動能，力學能守恆。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1194-panel-2.svg",
+      "alt": "擺錘沿弧線向最低點下降，最低點的水平速度朝右。"
+    },
+    {
+      "heading": "③ 看木塊滑動",
+      "text": "摩擦力對木塊作負功，木塊不改變高度而動能降低，力學能逐步轉成熱等。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1194-panel-3.svg",
+      "alt": "木塊位移向右、摩擦力向左，接觸處有熱的示意。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 (C) 木塊移動時遵守力學能守恆定律",
+    "points": [
+      "木塊在滑動段的力學能不守恆，故 C 有誤。",
+      "把熱等一併納入，完整系統仍符合能量守恆。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1194-panel-4.svg",
+    "alt": "完整系統的初末能量柱等高，能量由位能轉為動能，再轉為熱等。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-common.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1194-original.jpg"
+  ],
+  "answerCheckedAgainst": "(C) 木塊移動時遵守力學能守恆定律",
+  "rationale": "使用四張獨立精確 SVG，把本題的路徑、受力、量值關係及答案依據逐步圖示。",
+  "generationMethod": "four independently authored SVG physics diagrams",
+  "producerAgent": "/root/source75_work_b",
+  "layoutVersion": "native-four-images-v7",
+  "protectedWords": [
+    "重力位能",
+    "力學能",
+    "能量守恆"
+  ],
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/work-energy-b/q-1194-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/work-energy-b/manifest.json",
+  "nativeArt": "assets/comics/q-1194-art-ef1a7e00f6.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:24.572033+00:00",
+  "validationFile": "docs/comics/q-1194-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

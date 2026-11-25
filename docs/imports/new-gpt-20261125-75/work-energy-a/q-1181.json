@@ -1,0 +1,48 @@
+{
+  "id": "q-1181",
+  "title": "理化第7題｜三種拋球的重力功率",
+  "originalQuestionNumber": "7",
+  "question": "如圖所示，有一顆球分別以甲（鉛直向上）、乙（水平）、丙（鉛直向下）三種不同的方式，由同一高度、相同速度（V）拋出，若不計空氣阻力，則球落地時，重力對球所作的功率，下列何者正確？\n\n(A) 甲＞乙＞丙\n(B) 甲＜乙＜丙\n(C) 甲＝乙＝丙\n(D) 甲＝丙＞乙",
+  "answer": "依「球落地時」的瞬時功率選 (D) 甲＝丙＞乙。原卷紅筆 (B) 甲＜乙＜丙，對應全程平均功率。",
+  "correctOption": "D",
+  "explanation": "把「球落地時」理解為剛觸地前一刻，重力的瞬時功率 P＝mgvᵧ，vᵧ 是向下的速度分量。乙的水平方向速度與重力垂直，對重力功率沒有貢獻。\n\n設拋出位置離地 h，重力加速度為 g，鉛直方向取向下為正。甲、乙、丙的初始鉛直速度分別為 −V、0、＋V。由 vᵧ²＝vᵧ₀²＋2gh，觸地前都向下。甲、丙的向下速度分量同為 √(V²＋2gh)，乙只有 √(2gh)，故瞬時功率為甲＝丙＞乙，選D。雖然三球落地速率相同，乙的總速度仍有水平分量。\n\n如果改問「從拋出到落地的平均功率」，三者重力總功皆 mgh，但甲先上升，最晚抵地；丙一開始就向下，最快抵地；乙居中。因此 W/t 得甲＜乙＜丙，選B，這與原卷紅筆一致。C 對應三者的總功相同。A 不符合上述兩種功率比較。",
+  "tags": [
+    "重力作功",
+    "瞬時功率",
+    "平均功率",
+    "拋體運動"
+  ],
+  "studentAnswer": "7@錯題C → B",
+  "passage": "",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "trap": "落地前一刻用 P＝mgvᵧ，全程平均才用 W/t。",
+  "verification": "原卷已核對，功率解讀待核對",
+  "verificationNote": "已直接核對真正原卷與紅筆。日期取本題首次提問的臺灣日期；缺乏可確認的考試日期及教材冊次對照。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "images": [
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1181-original.png"
+  ],
+  "sourceLabel": "分享原卷｜第7題",
+  "contentStatus": "完整原題",
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1181-figure.png",
+      "alt": "三球在同一高度拋出。甲鉛直向上、乙水平、丙鉛直向下，起始速率均為 V。",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "tables": [],
+  "reviewQuestions": [
+    "題幹寫「球落地時」，依瞬時功率得到D；原卷紅筆B符合從拋出到落地的平均功率。請核對原卷預期的時間範圍。"
+  ]
+}

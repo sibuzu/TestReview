@@ -1,0 +1,66 @@
+{
+  "id": "q-1181",
+  "disposition": "new",
+  "attachmentIndex": 3,
+  "originalQuestionNumber": "7",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "requiredMaterialMissing": false,
+  "sourceGeneratedArtUsed": false,
+  "actualViewed": [
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1181-original.png",
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1181-figure.png"
+  ],
+  "originalAttachment": {
+    "fileId": "file_00000000373882068242905dbf95b50d",
+    "sha256": "a873536e601164f5c3079874e8e588cf6fb4c57671dfe40f11aa6c419b97f4d3",
+    "messageIndex": 19,
+    "messageId": "b56253d9-7dcb-4d43-adc4-1c15d5638f75",
+    "date": "2026-11-25"
+  },
+  "cropSHA256": "1960ecf80b123078961a247f2860b9e3820fed001b2b281bedb91dd2c82a5504",
+  "inclusionEvidence": "使用者指定 7@錯題C → B。原卷此題左側實際見紅筆註記，另核對原選圈選字母。",
+  "duplicateReview": {
+    "method": "以正式題庫（展開真題組）與全部補充題及覆寫中的題幹做同科文字三連字比對，覆核最高相似的題意及條件，並查特殊原文詞組。",
+    "excludedHistoryCandidates": [],
+    "candidates": [
+      {
+        "score": 0.058,
+        "id": "q-470",
+        "title": "理化第40題｜向上拋球的速度時間圖"
+      },
+      {
+        "score": 0.057,
+        "id": "q-1119",
+        "title": "理化第21題｜丙烯的烴類判讀與完全燃燒"
+      },
+      {
+        "score": 0.053,
+        "id": "q-1120",
+        "title": "理化第25題｜稻殼筷與聚丙烯長鏈"
+      },
+      {
+        "score": 0.052,
+        "id": "q-1071",
+        "title": "理化第4題｜靜止彈簧的合力"
+      },
+      {
+        "score": 0.037,
+        "id": "q-464",
+        "title": "理化第27題｜等速度運動的v–t圖"
+      },
+      {
+        "score": 0.033,
+        "id": "q-1116",
+        "title": "理化第13題｜調味品的酸鹼性與酯化命名"
+      }
+    ],
+    "result": "未見同一題幹、選項及條件的既有題。"
+  },
+  "answerChecked": "依「球落地時」的瞬時功率選 (D) 甲＝丙＞乙。原卷紅筆 (B) 甲＜乙＜丙，對應全程平均功率。",
+  "aiCorrection": {
+    "before": "原AI把全程平均功率的 B 放在主答案與逐項辨析，並依飛行時間解釋；同一回覆後段也補充，若依「球落地時」求瞬時功率，應選 D。",
+    "after": "原題與紅筆 B 均保留。詳解先依原題「球落地時」算瞬時功率 P＝mgvᵧ，甲、丙向下分量相同且大於乙，選 D。B 限於從拋出到落地的平均功率。",
+    "reason": "時間窗口不同會改變選項。瞬時功率取重力方向速度分量，不能用整段總功除以飛行時間代替。"
+  }
+}

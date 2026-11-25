@@ -1,0 +1,78 @@
+{
+  "id": "q-1209",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學計算第2題｜切線、弦心距與外部割線 AB",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，直線 AD 與圓 O 切於 D 點，直線 AC 與圓 O 相交於 B、C 兩點，已知直線 AC 與圓心 O 距離為 3，直線 AD 與圓心 O 距離為 5，若 AD＝8，則 AB 的長度為何？",
+  "answer": "4√5－4",
+  "explanation": "從 O 向切線 AD 的垂線恰為半徑 OD，因此 OD＝5，且 OD⊥AD。直角△ODA 中，OA²＝5²＋8²＝89。\n\n從 O 向割線 AC 作垂線，垂足 H 到圓心的距離 OH＝3。在直角△OHA 中，AH＝√(89－9)＝4√5。圓心到弦的垂線平分弦 BC；直角△OHB 的斜邊 OB＝5，故 HB＝√(25－9)＝4。\n\n依原圖 A、B、H、C 的順序，AB＝AH－HB＝4√5－4。AH 到的是弦中點，AB 到的是先遇到的圓周交點。",
+  "trap": "先求從 A 到弦中點的距離，再依 A、B、H、C 的次序扣掉半弦。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "切線與割線",
+    "弦心距",
+    "畢氏定理"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1209-original-1faa3385a0e9.png"
+  ],
+  "studentAnswer": "2√5",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "2",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1209-figure-2662eb9553c9.png",
+      "alt": "圓 O 的切線 AD 與割線 AC 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "切線、弦心距與外部割線 AB",
+    "art": "assets/comics/q-1209-art-024d9c5e12.svg",
+    "panels": [
+      {
+        "heading": "① 分辨切線和割線",
+        "text": "AD 切圓，OD 是半徑 5。另從 O 向割線作垂線，垂足 H 與 O 距離 3。",
+        "alt": "一條圓的水平切線與斜向割線，A 在外，割線上 C、H、B、A 共線，標有兩條垂距。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1209-art-024d9c5e12.svg"
+      },
+      {
+        "heading": "② 由切線找到 OA",
+        "text": "△ODA 在 D 處為直角。已知 OD＝5、DA＝8，故 OA²＝25＋64＝89。",
+        "alt": "獨立繪出切線和半徑構成的直角三角形 ODA，以及斜邊根號 89。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1209-panel-2-art-bf8f54d42e.svg"
+      },
+      {
+        "heading": "③ 把弦中點 H 作為共同基準",
+        "text": "用 OA、OH 得 AH＝4√5，用 OB、OH 得 HB＝4。兩個直角三角形使用同一垂距 3。",
+        "alt": "重疊的兩個直角三角形共用高 OH＝3，內側斜邊 OB＝5，外側斜邊 OA＝根號 89。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1209-panel-3-art-17aa3ab652.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 4√5－4",
+      "points": [
+        "A 到弦中點 H 為 4√5。",
+        "由 A 向圓移動時先到 B，再到 H，所以 AB＝AH－HB。"
+      ],
+      "image": "assets/comics/q-1209-panel-4-art-a35ef3c831.svg",
+      "alt": "C、H、B、A 的共線長度圖，其中 HB 為 4，HA 為 4 根號 5，綠色為兩者差 AB。"
+    }
+  }
+}

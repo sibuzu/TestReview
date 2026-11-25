@@ -1,0 +1,79 @@
+{
+  "id": "q-1205",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學第12題｜半圓的弦心距與弓形面積",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，半徑為 6 的半圓 O 中，AB 為直徑，CD 為一弦。若 CD 的弦心距為 3，則著色部分面積為何？\n\n(A) 12π－12\n(B) 12π－9√3\n(C) 12π－9\n(D) 12π－6√3",
+  "answer": "(B) 12π－9√3",
+  "explanation": "設 H 為 O 到弦 CD 的垂足。垂線平分弦，CH＝HD；直角△OHC 中 OC＝6、OH＝3，故 CH＝√(6²－3²)＝3√3，CD＝6√3。\n\nOH 是斜邊的一半，因此 ∠OCH＝30°、∠COH＝60°，∠COD＝120°。扇形 COD 面積為 π×6²×120／360＝12π。△COD 以 CD 為底、OH 為高，面積＝6√3×3÷2＝9√3。著色弓形面積為兩者相減，即 12π－9√3，選 (B)。\n\n(A)、(C)、(D) 雖用相同扇形面積，但分別扣去 12、9、6√3，均不等於三角形面積。",
+  "trap": "著色區是弓形，先核對半弦與整條弦，再扣掉圓心到兩端所圍出的三角形。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "半圓",
+    "扇形",
+    "弓形"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1205-original-0242632dc4b3.png"
+  ],
+  "studentAnswer": "C（12π－9）",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "originalQuestionNumber": "12",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1205-figure-9126e3e41b11.png",
+      "alt": "半圓 O 上的弦 CD 與著色弓形的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "半圓的弦心距與弓形面積",
+    "art": "assets/comics/q-1205-art-96d5d0f620.svg",
+    "panels": [
+      {
+        "heading": "① 讀出著色的弓形",
+        "text": "半圓半徑 6，弦 CD 上方是所求弓形。由 O 向 CD 作垂線，垂足 H 到圓心的距離為 3。",
+        "alt": "在半圓上保留原題的弦 CD、圓心 O，著色區是弦上方的弓形。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1205-art-96d5d0f620.svg"
+      },
+      {
+        "heading": "② 求半弦與兩個角",
+        "text": "垂線平分 CD，所以 CH＝HD＝3√3，CD＝6√3。直角三角形中 OH 是斜邊 OC 的一半，所以兩個圓心小角各是 60°。",
+        "alt": "圓心與弦端組成等腰三角形，弦心距把它分為兩個相同的直角三角形。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1205-panel-2-art-d8706a9b9e.svg"
+      },
+      {
+        "heading": "③ 求扇形面積",
+        "text": "兩個 60° 合成圓心角 120°。扇形 COD 占整圓三分之一，面積是 12π。",
+        "alt": "填色扇形 COD 對應 120 度，弦線用虛線分開上方弓形與下方三角形。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1205-panel-3-art-f2495df022.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (B) 12π－9√3",
+      "points": [
+        "三角形 COD 的面積＝6√3×3÷2＝9√3。",
+        "扇形扣掉三角形，剩下著色弓形。"
+      ],
+      "image": "assets/comics/q-1205-panel-4-art-ecc6fdc0f6.svg",
+      "alt": "三個並列的圖依序展示扇形、扣除的三角形與剩下的著色弓形。"
+    }
+  }
+}

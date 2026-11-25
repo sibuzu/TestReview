@@ -1,0 +1,55 @@
+{
+  "id": "q-1208",
+  "disposition": "new",
+  "originalIndex": 30,
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "originalFileId": "file_000000004eb48206b74b749f7ca205d6",
+  "originalSHA256": "0450974280730bc7a83e1996a6c9d8293001042c9425cc085c636a31cb44bff3",
+  "originalMessageId": "c7f47a7d-7528-4113-8042-fbd8bfc44b9e",
+  "firstQuestionTimestamp": 1795616481.593456,
+  "actualViewed": [
+    ".cache/intake-20261125-6b06f11f/original-30.jpg",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1208-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1208-figure.png"
+  ],
+  "cropBoxes": {
+    "fullQuestion": [
+      61,
+      810,
+      1035,
+      1081
+    ],
+    "necessaryFigure": [
+      725,
+      800,
+      1035,
+      1075
+    ]
+  },
+  "crops": [
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1208-original.png",
+      "sha256": "3b930a94686ac0bf6231e08a175f0c54bfc5a6a784555b7e7e03e4bc78cb9e75"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1208-figure.png",
+      "sha256": "75819be4d9d4febced682fbf6310f99cddf6c0cd64f58b668e16620bc52fd08a"
+    }
+  ],
+  "inclusionEvidence": "填充欄無原答，紅筆填 3√5。",
+  "duplicateReview": "以完整題幹及選項查正式題庫、題組小題與草稿索引，沒有相同題幹或相似度達 0.60 的候選；另以題目辨識字句回查舊來源檔及跨來源原卷 SHA，未見相同原題。",
+  "independentAnswer": "3√5",
+  "printedSubquestionCount": 1,
+  "substantiveCorrections": [
+    {
+      "kind": "sourceArtwork",
+      "before": "來源 AI 的主圖同時繪製多組 AD、AE 線，O 圓與標為 D、E、F 的點未一致對齊。按其旋轉群組坐標，D 在圓上，但 E、F 到圓心的距離分別約為 109.5、97.4，均不等於 SVG 指定半徑 100；因此不能讀成題示三條直線同切一圓。",
+      "after": "答案維持 3√5。新圖採 3–4–5 三角形及 A 對面的旁切圓，令每一切點到圓心的距離相同，完整標出 B–F–C 與 A–C–E 的順序。",
+      "reason": "核對原卷圖文與來源 AI 輔助解說後，明確保留原題並更正推導條件或幾何圖。"
+    }
+  ],
+  "dedupeCandidates": []
+}

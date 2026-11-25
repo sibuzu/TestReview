@@ -1,0 +1,79 @@
+{
+  "id": "q-1215",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學第3題｜兩條切線與四邊形面積",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，圓 O 與△PQR 相交於 Q、R 兩點且 PQ、PR 為切線，已知圓 O 半徑為 15，QR＝24，求四邊形 OQPR 面積為何？",
+  "answer": "300",
+  "explanation": "設 M 為 OP 與 QR 的交點。OQ＝OR，PQ＝PR，故 O、P 都在 QR 的垂直平分線上，QM＝MR＝12。由直角三角形 OMQ，OM＝√(15²－12²)＝9。\n\n半徑 OQ 和切線 PQ 垂直，△OQP 是直角三角形，QM 是斜邊 OP 上的高。△OMQ 與 △QMP 相似，所以 OM·MP＝QM²。由此 MP＝144÷9＝16，OP＝9＋16＝25。\n\n四邊形的兩條對角線 OP、QR 互相垂直，面積為 25×24÷2＝300。也可由 △OQP 的直角邊 15、20 算出 150，再將上下兩個全等三角形相加。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "逐項核對上傳原卷。日期取首次提問的臺灣日期，實際測驗日期未確認。原題冊次或課次缺可靠依據，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "圓切線",
+    "直角三角形相似",
+    "垂直對角線"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1215-original-f6bc86338a24.png"
+  ],
+  "sourceLabel": "分享原卷｜第3題",
+  "studentAnswer": "3@錯題396 → 300",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "3",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1215-figure-c621b3dc0412.png",
+      "alt": "原卷附圖｜圓 O、切點 Q／R 與外點 P",
+      "caption": "原卷附圖｜圓 O、切點 Q／R 與外點 P"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "兩條切線與四邊形面積",
+    "art": "assets/comics/q-1215-art-b310b41c17.svg",
+    "panels": [
+      {
+        "heading": "① 作兩條對角線",
+        "text": "兩條切線段等長，兩條半徑也等長，所以 OP 是 QR 的垂直平分線。",
+        "alt": "① 作兩條對角線的新製圖解",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1215-art-b310b41c17.svg"
+      },
+      {
+        "heading": "② 求圓心至弦的距離",
+        "text": "直角三角形 OMQ 的斜邊為 15，半弦 QM＝12，故 OM＝9。",
+        "alt": "② 求圓心至弦的距離的新製圖解",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1215-panel-2-art-d04018533d.svg"
+      },
+      {
+        "heading": "③ 從相似求出整條 OP",
+        "text": "在直角三角形 OQP 中，M 是斜邊上的垂足。OM·MP＝QM²，所以 MP＝16。",
+        "alt": "③ 從相似求出整條 OP的新製圖解",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1215-panel-3-art-91d1022052.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "300",
+      "points": [
+        "兩條垂直對角線是 25 和 24。",
+        "四邊形面積＝25×24÷2＝300。"
+      ],
+      "image": "assets/comics/q-1215-panel-4-art-8f1bc1d13c.svg",
+      "alt": "④ 將對角線相乘取一半的新製圖解"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "q-1203",
+  "disposition": "new",
+  "originalIndex": 25,
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "originalFileId": "file_0000000034e082068c685a31434e0acc",
+  "originalSHA256": "21e1dbf8d4fdb8ed68c9da9f78399aa5b96048ffd26bf618a27764c8eff1dbb7",
+  "originalMessageId": "5946332e-e0f7-4b93-acf3-6bcbfaa3404e",
+  "firstQuestionTimestamp": 1795616130.519568,
+  "actualViewed": [
+    ".cache/intake-20261125-6b06f11f/original-25.jpg",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1203-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1203-figure.png"
+  ],
+  "cropBoxes": {
+    "fullQuestion": [
+      49,
+      462,
+      967,
+      1007
+    ],
+    "necessaryFigure": [
+      668,
+      464,
+      957,
+      693
+    ]
+  },
+  "crops": [
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1203-original.png",
+      "sha256": "6ee1c6800ade1f4b6e61e32f5cf5a1b2c6d5b3b368941381a612e8e038b2a900"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1203-figure.png",
+      "sha256": "07696d3bf22cb72b657a4b63c0da1912e46a8f1694eff02e80bd379ff7452fff"
+    }
+  ],
+  "inclusionEvidence": "紅筆劃去選 C，題號左方紅筆寫 B。",
+  "duplicateReview": "以完整題幹及選項查正式題庫、題組小題與草稿索引，沒有相同題幹或相似度達 0.60 的候選；另以題目辨識字句回查舊來源檔及跨來源原卷 SHA，未見相同原題。",
+  "independentAnswer": "(B) 24 為原卷預期；只用面積比和周長能定出 24，三個精確面積與周長不相容。",
+  "printedSubquestionCount": 1,
+  "substantiveCorrections": [
+    {
+      "kind": "inconsistentOriginalData",
+      "before": "來源 AI 直接給 B＝24，視三個絕對面積與周長皆可成立，未驗證所得三邊的實際面積。",
+      "after": "B 為紅筆與按比例所得的預期答案。給定面積總和要求面積 60，三邊 24、22、14 的實際海龍面積為 48√10；嚴格讀原題條件無解。補上矛盾證明，原題保留。",
+      "reason": "需要區分教學上的比例解與精確幾何資料的相容性。"
+    },
+    {
+      "kind": "sourceArtwork",
+      "before": "來源圖在反覆標示 D、F 與連線時，切點、圓周、外切邊未按同一幾何結構對齊。例如圓 O 到 AB 直線的距離約 92（來源 SVG 單位），設計半徑卻為 53；圓沒有與 AB 相切。",
+      "after": "答案頁保留原卷預期 B。新圖由比例解得到的三邊 24、22、14 計算頂點與內心，再投影得三切點。此圖按邊長與面積比例繪製，不將矛盾的絕對面積標成圖中的實際面積。",
+      "reason": "核對原卷圖文與來源 AI 輔助解說後，明確保留原題並更正推導條件或幾何圖。"
+    }
+  ],
+  "dedupeCandidates": []
+}

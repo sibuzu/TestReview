@@ -1,0 +1,155 @@
+{
+  "id": "q-1189",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第3（3）題｜光滑斜面到粗糙面的能量守恆",
+  "chapter": "第3章 功與機械應用",
+  "volume": "第五冊",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "在 A→B 及 B→C 兩階段的守恆情形，下列何者正確？（打○表示守恆，打×表示不守恆）\n\n(A) 力學能守恆：A→B ○、B→C ○；能量守恆：A→B ○、B→C ○\n(B) 力學能守恆：A→B ×、B→C ×；能量守恆：A→B ○、B→C ○\n(C) 力學能守恆：A→B ○、B→C ×；能量守恆：A→B ○、B→C ×\n(D) 力學能守恆：A→B ○、B→C ×；能量守恆：A→B ○、B→C ○",
+  "answer": "(D) 力學能只在 A→B 守恆；兩段總能量都守恆",
+  "explanation": "A→B 是光滑斜面，摩擦可忽略。重力位能下降、動能增加，兩者總和維持不變。B→C 的高度相同，摩擦力對小球作負功，小球最後停下，動能減少、重力位能不變，因此力學能減少。將小球、地面與周遭的熱等能量形式一併計入，總能量在兩段都守恆。\n\n(A) 誤判 B→C 的力學能也守恆。\n(B) 誤判 A→B 的力學能不守恆。\n(C) 誤判 B→C 的總能量不守恆。\n(D) 光滑段力學能守恆、粗糙段力學能不守恆，且兩段總能量都守恆。",
+  "trap": "題目分開問力學能（動能＋位能）與所有形式的總能量。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已逐字核對真正的使用者原卷與紅筆訂正。日期採首次提問的台灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "能量守恆",
+    "力學能",
+    "摩擦力"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1189-common-e53fbd54dfaf.jpg",
+    "assets/originals/gpt075-q-1189-original-1d728bacb7a0.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第3（3）題",
+  "studentAnswer": "3（3）@錯題A → D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "如右圖，一小球自 A 點沿光滑斜面自由滑下至 B 點時，在 BC 粗糙的水平面受到摩擦力作用，滑行 10 公尺後停止於 C 點。試回答下列(1)～(3)題：",
+  "originalQuestionNumber": "3（3）",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "力學能守恆：A→B ○、B→C ○；能量守恆：A→B ○、B→C ○",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "誤判 B→C 的力學能也守恆。"
+    },
+    {
+      "label": "B",
+      "text": "力學能守恆：A→B ×、B→C ×；能量守恆：A→B ○、B→C ○",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "誤判 A→B 的力學能不守恆。"
+    },
+    {
+      "label": "C",
+      "text": "力學能守恆：A→B ○、B→C ×；能量守恆：A→B ○、B→C ×",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "誤判 B→C 的總能量不守恆。"
+    },
+    {
+      "label": "D",
+      "text": "力學能守恆：A→B ○、B→C ×；能量守恆：A→B ○、B→C ○",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "光滑段力學能守恆、粗糙段力學能不守恆，且兩段總能量都守恆。"
+    }
+  ],
+  "tables": [
+    {
+      "caption": "原卷四個選項的表格內容",
+      "headers": [
+        "選項",
+        "力學能 A→B",
+        "力學能 B→C",
+        "能量 A→B",
+        "能量 B→C"
+      ],
+      "rows": [
+        [
+          "(A)",
+          "○",
+          "○",
+          "○",
+          "○"
+        ],
+        [
+          "(B)",
+          "×",
+          "×",
+          "○",
+          "○"
+        ],
+        [
+          "(C)",
+          "○",
+          "×",
+          "○",
+          "×"
+        ],
+        [
+          "(D)",
+          "○",
+          "×",
+          "○",
+          "○"
+        ]
+      ]
+    }
+  ],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1189-figure-e9b91f1cb72b.jpg",
+      "alt": "A 到 B 是長 10 m、傾角 30° 的光滑斜面，B 到 C 是長 10 m 的粗糙水平面。",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "光滑斜面到粗糙面的能量守恆",
+    "art": "assets/comics/q-1189-art-fb5b7e68dc.svg",
+    "panels": [
+      {
+        "heading": "① 分清兩段",
+        "text": "A→B 是光滑斜面。B→C 是粗糙水平面，小球滑到 C 時停下。",
+        "alt": "A、B、C 三點和兩段路面的幾何圖。",
+        "image": "assets/comics/q-1189-art-fb5b7e68dc.svg"
+      },
+      {
+        "heading": "② 看光滑斜面",
+        "text": "重力位能下降，動能等量增加。兩者的總和，也就是力學能，保持不變。",
+        "alt": "A 點重力位能和 B 點動能等高。",
+        "image": "assets/comics/q-1189-panel-2-art-b3d4a2d5f4.svg"
+      },
+      {
+        "heading": "③ 看粗糙地面",
+        "text": "高度不變，摩擦力與位移反向。小球的動能減少，部分能量以熱等形式留在整體系統內。",
+        "alt": "水平段位移朝右、摩擦朝左，並用熱波線表示能量轉換。",
+        "image": "assets/comics/q-1189-panel-3-art-5ff4cb0894.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (D) 力學能只在 A→B 守恆；兩段總能量都守恆",
+      "points": [
+        "A→B：力學能○、能量○。",
+        "B→C：力學能×、能量○。"
+      ],
+      "image": "assets/comics/q-1189-panel-4-art-767320b350.svg",
+      "alt": "三個位置的總能量柱等高，B 到 C 的動能則轉成熱能等。"
+    },
+    "protectedWords": [
+      "重力位能",
+      "力學能",
+      "A→B",
+      "B→C"
+    ]
+  }
+}

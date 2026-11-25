@@ -1,0 +1,113 @@
+{
+  "id": "q-1188",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第2題｜光滑斜面與到達地面的速率",
+  "chapter": "第3章 功與機械應用",
+  "volume": "第五冊",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，甲、乙、丙皆為光滑斜面，一物體由斜面頂自由滑下，則物體由哪一斜面滑至地面時的速率會最大？\n\n(A) 甲\n(B) 乙\n(C) 丙\n(D) 都相同",
+  "answer": "(D) 都相同",
+  "explanation": "三個斜面頂端等高、底端都在地面，物體由靜止滑下。光滑代表可忽略摩擦，下降的重力位能 mgh 轉成動能 ½mv²。由 v＝√(2gh) 可知，相同的鉛直落差 h 給出相同的末速。\n\n(A) 甲的斜長較大，但下降高度和其他兩路相同。\n(B) 乙在中間，末速與其他兩路相同。\n(C) 丙較陡，沿斜面的加速度較大，末速仍相同。\n(D) 三路起點和終點的鉛直落差相同，末速相同。",
+  "trap": "坡度會影響沿斜面的加速度與所需時間。末速應看降了多高。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已逐字核對真正的使用者原卷與紅筆訂正。日期採首次提問的台灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "光滑斜面",
+    "力學能守恆",
+    "重力位能"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1188-original-35a426552c39.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第2題",
+  "studentAnswer": "2@錯題C → D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "2",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "甲",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "甲的斜長較大，但下降高度和其他兩路相同。"
+    },
+    {
+      "label": "B",
+      "text": "乙",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "乙在中間，末速與其他兩路相同。"
+    },
+    {
+      "label": "C",
+      "text": "丙",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "丙較陡，沿斜面的加速度較大，末速仍相同。"
+    },
+    {
+      "label": "D",
+      "text": "都相同",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "三路起點和終點的鉛直落差相同，末速相同。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1188-figure-0e0f19cd1981.jpg",
+      "alt": "甲、乙、丙三個光滑斜面共用同一高點，末端在同一地面。",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "光滑斜面與到達地面的速率",
+    "art": "assets/comics/q-1188-art-0decce412b.svg",
+    "panels": [
+      {
+        "heading": "① 對照三條路",
+        "text": "甲乙丙共用同一高點，也都抵達同一地面。斜面光滑，摩擦可忽略。",
+        "alt": "三路從相同高點滑到同一地面。",
+        "image": "assets/comics/q-1188-art-0decce412b.svg"
+      },
+      {
+        "heading": "② 量的是鉛直落差",
+        "text": "沿斜面走的距離不一樣。真正決定重力位能減少量的是圖中的鉛直高度 h。",
+        "alt": "用垂直標尺表示起點至地面的落差 h。",
+        "image": "assets/comics/q-1188-panel-2-art-2b92c098d8.svg"
+      },
+      {
+        "heading": "③ 以能量求速率",
+        "text": "三路都由靜止出發，減少的重力位能 mgh 轉成相同的末動能 ½mv²。",
+        "alt": "同高值的兩根能量柱，重力位能 mgh 轉為動能 ½mv²。",
+        "image": "assets/comics/q-1188-panel-3-art-9931c77bf2.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (D) 都相同",
+      "points": [
+        "v＝√(2gh)，三路的 h 相同。",
+        "坡度會影響加速度與滑行時間。"
+      ],
+      "image": "assets/comics/q-1188-panel-4-art-76ff135819.svg",
+      "alt": "三條路的三根末速向量等長。"
+    },
+    "protectedWords": [
+      "重力位能",
+      "鉛直落差",
+      "½mv²",
+      "v＝√(2gh)"
+    ]
+  }
+}

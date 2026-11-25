@@ -1,0 +1,53 @@
+{
+  "id": "q-1193",
+  "subject": "Physics-Chemistry",
+  "title": "擺錘與木塊的碰撞速率",
+  "art": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1193-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 讀碰撞條件",
+      "text": "擺錘質量 1 kg，木塊質量 2 kg。木塊碰前靜止，擺錘碰後立即停下。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1193-panel-1.svg",
+      "alt": "一公斤擺錘從高處擺向桌上兩公斤木塊。"
+    },
+    {
+      "heading": "② 分辨兩個速度",
+      "text": "V₁ 是擺錘碰前速度，V₂ 是木塊剛啟動時的速度。兩者由不同物體取得。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1193-panel-2.svg",
+      "alt": "碰撞前僅擺錘有速度，碰撞後僅木塊有速度。"
+    },
+    {
+      "heading": "③ 比碰前後的動量",
+      "text": "碰撞期間若可忽略桌面摩擦衝量，水平動量近似守恆，1×V₁≈2×V₂，所以 V₁＞V₂。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1193-panel-3.svg",
+      "alt": "動量長條等長，擺錘的一倍速度約等於木塊的兩倍速度。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 (A) V₁ ＞ V₂",
+    "points": [
+      "較重的木塊不可能取得足以和擺錘同速的動能。",
+      "碰撞中機械能可轉為形變、熱或聲。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1193-panel-4.svg",
+    "alt": "碰前能量柱和碰後能量柱等高，但碰後的木塊動能只佔其中一部分。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-common.jpg",
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1193-original.jpg"
+  ],
+  "answerCheckedAgainst": "(A) V₁ ＞ V₂",
+  "rationale": "使用四張獨立精確 SVG，把本題的路徑、受力、量值關係及答案依據逐步圖示。",
+  "generationMethod": "four independently authored SVG physics diagrams",
+  "producerAgent": "/root/source75_work_b",
+  "layoutVersion": "native-four-images-v7",
+  "protectedWords": [
+    "1×V₁≈2×V₂",
+    "V₁＞V₂",
+    "水平動量",
+    "摩擦衝量"
+  ]
+}

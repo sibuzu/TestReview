@@ -2,73 +2,105 @@
   "id": "q-313",
   "subject": "Biology",
   "title": "沿細胞核來源，推回甲蛙體色",
-  "art": "docs/comics/art/q-313.svg",
-  "artMode": "deterministic-svg",
-  "startedAt": "2026-10-29T01:02:04.725241+00:00",
+  "art": "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent built-in image_gen calls; newly generated high-detail near-realistic science textbook illustrations",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-313-source-4ee3ef3205.jpg",
+    "site/dist/assets/questions/q-313-figure-9483cf3c60.jpg"
+  ],
+  "answerCheckedAgainst": "先沿原圖追蹤細胞核：從甲蛙蝌蚪的體細胞取核，將乙蛙卵細胞去核，再把甲的細胞核注入乙的去核卵細胞，經電刺激等方式活化，發育成胚胎、蝌蚪及丙蛙。\n\n依本題核內遺傳控制體色的模型，丙的核內遺傳資訊來自甲，丙呈白色，可推甲也有本題的白色體色，因此選D。乙提供的是去核卵細胞，不能直接以它原先的細胞核來推丙的體色。\n\nC是常見陷阱：是否有性生殖，要看有沒有精卵結合，不是只看有沒有使用卵細胞。這裡是體細胞核移植，沒有精卵結合。\n\nA的薄溼皮膚有利氣體交換，卻不防失水；B則把一般蛙類的體外受精寫成體內受精。判斷複合選項時，兩半都要確認。",
+  "rationale": "已逐張實開甲蝌蚪取核/乙卵去核/甲核注入/丙蛙原圖。四張新圖核的位置與來源由HTML標明，去核圖無留核、注核圖僅一顆甲來源核；無精子或雙核融合。白色結果限原題已核模型，維持D。首版綠褐蝌蚪可能干擾白色模型已不採用、重製白色。",
+  "producerAgent": "/root/bio_c",
+  "visualChecked": true,
   "panels": [
     {
-      "heading": "① 甲提供蝌蚪體細胞的細胞核",
-      "text": "沿原圖先找核的來源：甲蛙蝌蚪的體細胞取出細胞核。圖中金色是追蹤核來源的標記，不代表細胞或青蛙真的呈金色。",
-      "alt": "甲蝌蚪體細胞的金色核被取出，金色為來源追蹤，不把體細胞與卵細胞或精子混用。"
+      "heading": "① 甲提供蝌蚪體細胞的核",
+      "text": "原圖先從甲蛙蝌蚪的體細胞取出細胞核。這是體細胞的核，不是精子；下方是細胞放大示意，不能把放大比例當作實際大小。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-1.png",
+      "alt": "新製白色蝌蚪及體細胞取核放大示意；一顆已取出的核在吸管尖端，細胞內不再有核。",
+      "caption": "新製類真實生物教材插畫，非原卷或顯微實拍。"
     },
     {
-      "heading": "② 乙提供去核卵，再移入甲核",
-      "text": "乙的卵細胞先移除原核，再放入甲的核並活化發育。沒有精卵結合，所以C不能只因使用卵細胞，就判成有性生殖。",
-      "alt": "乙卵內保留甲來源金色核，原卵灰核在外被叉掉；無兩個細胞核融合或精子加入。"
+      "heading": "② 乙提供卵，先移除原核",
+      "text": "乙的卵細胞要先去核，保留卵的細胞質等成分。圖中紫色原卵核已在玻璃吸管外移，卵內不再保留乙的原核。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-2.png",
+      "alt": "新製蛙卵去核教材剖面，原卵核在細胞外吸管內，保留細胞質；非實驗照片。"
     },
     {
-      "heading": "③ 丙白色，依本題推甲也白色",
-      "text": "依題目體色受核內遺傳控制的模型，丙的核內資訊來自甲。已知丙為白色，可推甲也是白色，選D；不能改追已被移除的乙核。",
-      "alt": "丙蛙白色外觀概念圖與核來源推論，不把核金色當體色，不推所有性狀或細胞全部成分都由甲提供。"
+      "heading": "③ 把甲核移入去核卵",
+      "text": "把甲提供的核注入乙的去核卵，再活化發育；沒有精卵結合，因此使用卵細胞也不是有性生殖。琥珀色核為來源標示，不是蛙的體色。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-3.png",
+      "alt": "新製體細胞核移植剖面，去核卵內僅有甲來源琥珀色標示核，不畫精子或雙核融合。"
     }
   ],
   "fourth": {
-    "answer": "答案 D：甲蛙體色也是白色",
+    "answer": "答案 D：依本題模型，甲蛙也白色",
     "points": [
-      "核來源是甲；去核卵來源是乙。",
-      "使用卵細胞，不等於發生精卵結合。",
-      "只依本題體色模型推論，不把卵的其他成分說成不存在。"
-    ]
+      "丙的核內遺傳資訊來自甲；依本題體色受核內遺傳控制的模型，由丙白色推甲也白色。",
+      "核來源是甲，去核卵來源是乙；不能追已移除的乙核。",
+      "本題僅按指定體色模型推論，不把複製說成所有性狀或全部細胞成分都只來自甲。"
+    ],
+    "image": "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-4.png",
+    "alt": "新製完整白色成年蛙，對應原題丙蛙白色的表現，不指認原卷的實際物種。"
   },
   "protectedWords": [
     "細胞核",
     "體細胞",
-    "甲蛙",
-    "乙核",
-    "丙蛙",
     "去核卵",
     "精卵結合",
     "有性生殖",
+    "甲蛙",
+    "丙蛙",
     "核內遺傳"
   ],
-  "rationale": "實看原卷1題完整敘事/四選項及核移植附圖，D不變。全新SVG用一致金色只追蹤甲核，乙灰核移除，不畫精卵融合；白色丙按已確認核內體色模型反推甲，不擴張所有性狀/全部遺傳成分。",
-  "promptSummary": "原生SVG甲蝌蚪體細胞取核、乙去核卵內甲核、白色丙及來源推論；非實驗操作比例圖。",
-  "answerCheckedAgainst": "原圖腸細胞甲取核/乙卵去核/電刺激活化/丙白色，D；Nobel官方核移植研究說明。",
-  "officialReferences": [
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-ten-20261122/bio_c/q-313-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261122/bio_c/q-313-generation.json",
+  "artHashes": {
+    "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-1.png": "900a65c7dea2fd02fa92cbbcfb2a26a45449699e00b02d60e3cbbbd11b4efeb9",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-2.png": "218a8cf7c77e70ae0f39ccdaed904bd0c2888501739844afab029e064360af01",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-3.png": "35ef42e2eda756295ced7f966bc6ee850d4e53b54548fee82922bf0bead43153",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-313-panel-4.png": "4a390c54ac4b3a5f0efa16a5d9696e144df40862eb3342a3240be3bed553f00b"
+  },
+  "supportingSources": [
     {
-      "url": "https://www.nobelprize.org/prizes/medicine/2012/press-release/",
-      "finding": "Gurdon以蝌蚪體細胞核置換蛙卵核，可發育為蝌蚪，核內資訊未隨分化消失。"
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+      "finding": "體細胞核可移入已去除自身核的卵；克隆個體外觀不能一概視為所有性狀必然完全相同，原題採核控體色模型。"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/2012/advanced-information/",
+      "finding": "蛙核移植研究核對：分化體細胞核轉入去核卵，檢驗細胞核的發育潛力。"
     }
   ],
-  "manualLineBreaks": false,
-  "layoutVersion": "native-fluid-v6",
-  "sourceAIUsed": false,
-  "originalChecked": {
-    "images": [
-      "site/dist/assets/questions/q-313-source-4ee3ef3205.jpg",
-      "site/dist/assets/questions/q-313-figure-9483cf3c60.jpg"
-    ],
+  "createdAt": "2026-11-22T02:08:14.611598+00:00",
+  "producerReviewPath": "docs/comics/q-313-biology-20261122-production-review.json",
+  "producerManifest": "docs/comics/biology-ten-20261122/bio_c/q-313-handoff.json",
+  "producerVisualChecked": true,
+  "rootReview": {
+    "reviewerAgent": "/root",
     "visualChecked": true,
-    "answer": "D",
-    "notes": "全部敘事/四選項/取核去核注入與發育原圖實看，未把兩卵或精卵融合畫進新圖。"
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-313-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-313-app-390.png",
+      "/tmp/weirugo-comic-checks/q-313-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-313-standalone-390.png"
+    ],
+    "originalMaterials": [
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-313-source-4ee3ef3205.jpg",
+      "/home/jack/codex-git/TestReview/site/dist/assets/questions/q-313-figure-9483cf3c60.jpg"
+    ],
+    "note": "root實開原核移植附圖，核來自甲蝌蚪體細胞，乙卵先去核後只有一個注入核；沒有精卵融合。四張新圖已獨立實看，依原題核控體色模型保留D與白色丙蛙，沒有把細胞質來源改成甲；正式app/單頁桌手機通過。",
+    "checkedAt": "2026-11-22T02:09:56.036368+00:00"
   },
-  "artSHA256": "418537898e4d91b94dff7178269f609434de9dfed2984a1f4a5699d0510e345d",
-  "completedAt": "2026-10-29T01:05:30.467639+00:00",
-  "checkedAt": "2026-10-29T02:06:15.491575+00:00",
-  "visualChecked": true,
-  "previewValidation": "docs/comics/q-313-preview-validation.json",
-  "visualReview": "實看原卷/必要核移植圖及最終原生540×180、1440/390預覽：金色一致標甲核非蛙體色，乙灰核在卵外刪除，卵內只甲核；無精卵結合，白丙依題內模型推甲白、D不變。底部模型註記上移後重跑QA並實看三寬，無溢出/版型問題。",
-  "nativeArt": "assets/comics/q-313-art-418537898e.svg",
+  "nativeArt": "assets/comics/q-313-art-900a65c7de-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -80,15 +112,6 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "rootReview": {
-    "checkedAt": "2026-10-29T02:06:15.490275+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "visualChecked": true,
-    "decision": "complete",
-    "note": "實看原核移植圖；甲蝌蚪體核→乙去核卵→白丙，核標色不當體色，不畫精卵融合。正式1440/390實看、三寬6項QA通過。",
-    "sourceAIReplaced": true,
-    "sharedWebPOrNativeAssetVerified": true
-  },
+  "checkedAt": "2026-11-22T02:09:56.056827+00:00",
   "validationFile": "docs/comics/q-313-validation.json"
 }

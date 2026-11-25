@@ -1,0 +1,43 @@
+{
+  "id": "q-1210",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學計算第3題｜等腰梯形內切圓半徑與 △AOB 面積",
+  "originalQuestionNumber": "3",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，等腰梯形 ABCD 中，AD∥BC，圓 O 為內切圓，已知 AD＝4，BC＝14，則：\n(1) 圓 O 的半徑為何？（6 分）\n(2) △AOB 面積為何？（2 分）",
+  "answer": "(1) √14\n(2) 9√14／2",
+  "explanation": "(1) 同一圓外點的兩切線段等長，所以有內切圓的四邊形滿足 AB＋CD＝AD＋BC＝18。等腰梯形的兩腰等長，得到 AB＝CD＝9。從 A 向 BC 作垂線，垂足為 H，等腰性給出 BH＝(14－4)÷2＝5。由畢氏定理，AH＝√(9²－5²)＝2√14。圓同時切到兩條平行底邊，梯形高就是直徑，故半徑為 √14。\n\n(2) 以 AB＝9 作 △AOB 的底，從 O 向 AB 的垂直距離就是內切圓半徑 √14。因此 △AOB 面積＝9×√14÷2＝9√14／2。",
+  "studentAnswer": "(1) 5\n(2) 45／2",
+  "trap": "5 是兩底長度差的一半；高是 2√14，半徑是 √14。",
+  "tags": [
+    "等腰梯形",
+    "內切圓",
+    "三角形面積"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "passage": "",
+  "tables": [],
+  "images": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-original.png"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-figure.png",
+      "alt": "等腰梯形 ABCD、內切圓 O、線段 AO 與 BO 的原卷題圖",
+      "caption": "原卷作答附圖",
+      "kind": "original"
+    }
+  ],
+  "explanationFigures": [],
+  "contentStatus": "完整原題"
+}

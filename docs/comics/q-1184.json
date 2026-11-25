@@ -1,0 +1,81 @@
+{
+  "id": "q-1184",
+  "subject": "Physics-Chemistry",
+  "title": "斜向推車的作功",
+  "art": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1184-panel-1.svg",
+  "panels": [
+    {
+      "heading": "看車沿哪個方向移動",
+      "text": "推力斜向左下，車往左水平前進10 m。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1184-panel-1.svg",
+      "alt": "推力斜向左下，車往左水平前進10 m。"
+    },
+    {
+      "heading": "用 3：4：5 拆成分力",
+      "text": "依原圖格數，水平4、鉛直3、斜邊5。50公斤重的水平分力為40公斤重。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1184-panel-2.svg",
+      "alt": "依原圖格數，水平4、鉛直3、斜邊5。50公斤重的水平分力為40公斤重。"
+    },
+    {
+      "heading": "只留下與位移同向的分力",
+      "text": "40公斤重換成392 N。鉛直分力與水平位移正交，對這段位移作功為零。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1184-panel-3.svg",
+      "alt": "40公斤重換成392 N。鉛直分力與水平位移正交，對這段位移作功為零。"
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 3920 J",
+    "points": [
+      "水平分力 50×4/5＝40公斤重。",
+      "40公斤重＝392 N。",
+      "W＝392×10＝3920 J。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1184-panel-4.svg",
+    "alt": "水平分力不變，力—位移面積為392×10＝3920 J。等速運動的合力功為零，工人仍作正功。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1184-original.png",
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1184-figure.png"
+  ],
+  "answerCheckedAgainst": "(C) 3920 焦耳",
+  "generationMethod": "Four native SVG educational figures",
+  "rationale": "以原生向量圖分步呈現原題條件、物理關係、推導與答案。",
+  "producerAgent": "/root/source75_work_a",
+  "layoutVersion": "native-four-images-v7",
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/work-energy-a/q-1184-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/work-energy-a/manifest.json",
+  "nativeArt": "assets/comics/q-1184-art-022a7301dd.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:24.035085+00:00",
+  "validationFile": "docs/comics/q-1184-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

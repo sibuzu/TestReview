@@ -1,0 +1,72 @@
+{
+  "id": "q-1180",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第1題｜太空船物體的加速度",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "在太空船內，有一個質量為100 g的物體，如果太空人用10 N的力量推它，則此物體所獲得的加速度為多少m/s²？\n\n(A) 0.1\n(B) 1\n(C) 10\n(D) 100",
+  "answer": "(D) 100 m/s²",
+  "explanation": "由牛頓第二運動定律 ΣF＝ma，沿推力方向以題給10 N為合力。1 kg＝1000 g，所以100 g＝0.1 kg。a＝ΣF/m＝10÷0.1＝100 m/s²，方向與推力一致。\n\n(A) 的數值來自把100 g當作100 kg。(B) 把10與0.1相乘，將 a＝F/m 用錯。(C) 只抄10 N的數字，力和加速度的單位不同。(D) 是正確換算後的結果。",
+  "trap": "將質量改用公斤，再用合力除以質量。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已直接核對真正原卷與紅筆。日期取本題首次提問的臺灣日期；缺乏可確認的考試日期及教材冊次對照。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "牛頓第二運動定律",
+    "加速度",
+    "單位換算"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1180-original-e9c169d6bd69.png"
+  ],
+  "sourceLabel": "分享原卷｜第1題",
+  "studentAnswer": "1@錯題B → D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "1",
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "太空船內的加速度",
+    "art": "assets/comics/q-1180-art-d0878a0248.svg",
+    "panels": [
+      {
+        "heading": "把 10 N 當作合力",
+        "text": "看太空人的推力方向。題目給的10 N是沿該方向計算加速度的合力。",
+        "alt": "看太空人的推力方向。題目給的10 N是沿該方向計算加速度的合力。",
+        "image": "assets/comics/q-1180-art-d0878a0248.svg"
+      },
+      {
+        "heading": "將公克換成公斤",
+        "text": "1公斤分成10份，每份100 g，也就是0.1 kg。",
+        "alt": "1公斤分成10份，每份100 g，也就是0.1 kg。",
+        "image": "assets/comics/q-1180-panel-2-art-7efb3dc4b8.svg"
+      },
+      {
+        "heading": "同質量時 a 隨 F 增加",
+        "text": "質量固定為0.1 kg，比值 F/m 決定加速度。圖上10 N對到100 m/s²。",
+        "alt": "質量固定為0.1 kg，比值 F/m 決定加速度。圖上10 N對到100 m/s²。",
+        "image": "assets/comics/q-1180-panel-3-art-09e68de698.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(D) 100 m/s²",
+      "points": [
+        "100 g＝0.1 kg。",
+        "F＝ma，故 a＝10÷0.1。",
+        "加速度與合力同向。"
+      ],
+      "image": "assets/comics/q-1180-panel-4-art-cbc3555ea9.svg",
+      "alt": "以10 N除以0.1 kg，得100 m/s²，加速度和合力同向。"
+    }
+  }
+}

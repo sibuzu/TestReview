@@ -1,0 +1,107 @@
+{
+  "id": "q-1190",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第6題｜水平道路加速與重力作功",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "一輛跑車在水平道路上往前愈開愈快，則下列敘述何者錯誤？\n\n(A) 汽車的動能在增加\n(B) 汽車所受地球引力在增加\n(C) 地球引力不對汽車作功\n(D) 汽車所受合力向前",
+  "answer": "(B) 汽車所受地球引力在增加",
+  "explanation": "跑車的質量沒有改變，且在同一高度附近，重力加速度可視為固定。因此汽車受到的重力 mg 不變。速率增加讓動能 ½mv² 增加，並表示汽車的加速度及合力向前。重力向下、位移水平，兩個方向垂直，重力所作的功為零。\n\n(A) 速率增加，動能確實增加。\n(B) 同一高度、質量不變時，地球引力近似不變。本題要選錯誤敘述。\n(C) 重力方向與水平位移垂直，重力作功為零。\n(D) 跑車直線往前加速，沿行車方向的合力向前。",
+  "trap": "速率增加只代表動能增加，重力大小仍由質量及重力加速度決定。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已逐字核對真正的使用者原卷與紅筆訂正。日期採首次提問的台灣日期。冊次與章節沒有足夠的原卷標示，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "動能",
+    "重力",
+    "合力",
+    "作功"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1190-original-59f410f13cd8.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第6題",
+  "studentAnswer": "6@錯題C → B",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "originalQuestionNumber": "6",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "汽車的動能在增加",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "速率增加，動能確實增加。"
+    },
+    {
+      "label": "B",
+      "text": "汽車所受地球引力在增加",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "同一高度、質量不變時，地球引力近似不變。本題要選錯誤敘述。"
+    },
+    {
+      "label": "C",
+      "text": "地球引力不對汽車作功",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "重力方向與水平位移垂直，重力作功為零。"
+    },
+    {
+      "label": "D",
+      "text": "汽車所受合力向前",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "跑車直線往前加速，沿行車方向的合力向前。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "水平道路加速與重力作功",
+    "art": "assets/comics/q-1190-art-4f376f33f3.svg",
+    "panels": [
+      {
+        "heading": "① 讀速度變化",
+        "text": "同一輛跑車沿水平路面向前加速，動能 ½mv² 隨速率而增加。",
+        "alt": "三輛同車時序示意圖，向右的速度箭依次加長。",
+        "image": "assets/comics/q-1190-art-4f376f33f3.svg"
+      },
+      {
+        "heading": "② 分受力方向",
+        "text": "前進加速表示水平合力向前；垂直向下的重力是 mg，質量與當地 g 都不變。",
+        "alt": "跑車向上有支持力、向下有重力，沿前方有水平合力。",
+        "image": "assets/comics/q-1190-panel-2-art-8cd07df945.svg"
+      },
+      {
+        "heading": "③ 檢查重力作功",
+        "text": "重力垂直於水平位移，夾角 90°，所以重力作功為零。",
+        "alt": "表示位移與重力方向的直角箭頭圖。",
+        "image": "assets/comics/q-1190-panel-3-art-f8ca449400.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (B) 汽車所受地球引力在增加",
+      "points": [
+        "動能增加，但重力 mg 不變。",
+        "題目要選錯誤敘述，故選 B。"
+      ],
+      "image": "assets/comics/q-1190-panel-4-art-36ebb97e5c.svg",
+      "alt": "定性曲線分別顯示動能增加及重力不變。"
+    },
+    "protectedWords": [
+      "½mv²",
+      "重力作功",
+      "水平位移"
+    ]
+  }
+}

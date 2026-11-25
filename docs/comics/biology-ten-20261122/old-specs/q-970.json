@@ -1,0 +1,153 @@
+{
+  "id": "q-970",
+  "subject": "Biology",
+  "title": "稻田中的物質，經哪個組織運送？",
+  "art": "docs/comics/art/q-970-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 鴨子幫農耕，仍是消費者",
+      "text": "鴨子吃害蟲與雜草，不會自行製造有機養分；主要排出的含氮廢物是尿酸，不是尿素。",
+      "alt": "鴨的攝食角色、鳥類含氮廢物兩事分開標示。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A、B：分清角色與排泄",
+        "items": [
+          {
+            "label": "鴨子｜消費者",
+            "tone": "blue",
+            "detail": "以其他生物為食，非生產者。"
+          },
+          {
+            "label": "鳥類主要含氮廢物｜尿酸",
+            "tone": "gold",
+            "detail": "不是尿素。"
+          }
+        ],
+        "target": "幫助稻田，不改變基本生理角色",
+        "arrow": "核對原題兩項敘述"
+      }
+    },
+    {
+      "heading": "② 水與無機養分，經木質部",
+      "text": "根吸收水及溶在水中的無機養分後，經木質部送往莖、葉。糞便等有機物須先經分解，不能原封不動進入木質部。",
+      "alt": "根吸收、木質部輸導、莖葉接收的方向與物質直接標示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "C：水與無機養分的運輸",
+        "items": [
+          {
+            "label": "根｜吸收水與無機養分",
+            "tone": "blue"
+          },
+          {
+            "label": "木質部｜向上輸導",
+            "tone": "green",
+            "detail": "運送至莖、葉。"
+          },
+          {
+            "label": "莖、葉｜獲得所需物質",
+            "tone": "blue"
+          }
+        ],
+        "arrow": "水與無機養分往上運送"
+      }
+    },
+    {
+      "heading": "③ 韌皮部運有機養分；多物種是群集",
+      "text": "糖類等有機養分主要由韌皮部運送。田裡有水稻、鴨、青蛙等不同物種，應稱群集，不是單一族群。",
+      "alt": "韌皮部運糖及同種族群/多種群集分別中文標明。",
+      "diagram": {
+        "kind": "paths",
+        "title": "再分清兩組概念",
+        "items": [
+          {
+            "label": "韌皮部｜主要運送有機養分",
+            "tone": "blue",
+            "detail": "不同於木質部的主要輸送物質。"
+          },
+          {
+            "label": "同種｜族群；不同種族群合起來｜群集",
+            "tone": "gold",
+            "detail": "本題多種生物屬群集。"
+          }
+        ],
+        "target": "原題只有C敘述正確",
+        "arrow": "逐項比較"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：由木質部運輸",
+    "points": [
+      "木質部主要運水和無機養分。",
+      "鴨是消費者，主要含氮廢物為尿酸。",
+      "多種生物的族群集合為群集。"
+    ]
+  },
+  "protectedWords": [
+    "消費者",
+    "生產者",
+    "含氮廢物",
+    "尿酸",
+    "尿素",
+    "木質部",
+    "韌皮部",
+    "無機養分",
+    "有機養分",
+    "族群",
+    "群集"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aec944c-d800-83ee-8d81-4cb19c0194b5",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-058-question-03-329b90c99fca.png"
+    ],
+    "visualChecked": true,
+    "answer": "C",
+    "notes": "本代理已逐題實看真原卷、裁圖及必要照片，讀完題幹、全部選項與共同材料，獨立核生物機制及相關官方/研究資料；來源AI圖不採用。"
+  },
+  "rationale": "此題橫跨攝食角色、含氮廢物、維管束與群集，精確中文HTML把物質/組織/方向明示，比泛稻田動漫更直接呈現C的運輸機制與其他選項差異。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-05T15:15:02.462054+00:00",
+  "artSHA256": "7b1f92ab5c0857cff3bf696eab6bc7bfdcc6c5092cd8d32672c30c01e76a1373",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-05T15:30:41.121748+00:00",
+  "previewValidation": "docs/comics/q-970-preview-validation.json",
+  "visualReview": "已實看1440/390成品，根→木質部→莖葉明示水與無機養分方向，未畫糞便直接吸收；尿酸/尿素、木質部/韌皮部、族群/群集均正確。三寬PASS。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-970-1440.png",
+      "/tmp/weirugo-comic-previews/q-970-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-970-art-7b1f92ab5c.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-05T15:30:40.923853+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-970-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-970-validation.json"
+}

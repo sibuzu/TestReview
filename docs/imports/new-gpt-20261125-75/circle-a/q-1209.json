@@ -1,0 +1,43 @@
+{
+  "id": "q-1209",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學計算第2題｜切線、弦心距與外部割線 AB",
+  "originalQuestionNumber": "2",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，直線 AD 與圓 O 切於 D 點，直線 AC 與圓 O 相交於 B、C 兩點，已知直線 AC 與圓心 O 距離為 3，直線 AD 與圓心 O 距離為 5，若 AD＝8，則 AB 的長度為何？",
+  "answer": "4√5－4",
+  "explanation": "從 O 向切線 AD 的垂線恰為半徑 OD，因此 OD＝5，且 OD⊥AD。直角△ODA 中，OA²＝5²＋8²＝89。\n\n從 O 向割線 AC 作垂線，垂足 H 到圓心的距離 OH＝3。在直角△OHA 中，AH＝√(89－9)＝4√5。圓心到弦的垂線平分弦 BC；直角△OHB 的斜邊 OB＝5，故 HB＝√(25－9)＝4。\n\n依原圖 A、B、H、C 的順序，AB＝AH－HB＝4√5－4。AH 到的是弦中點，AB 到的是先遇到的圓周交點。",
+  "studentAnswer": "2√5",
+  "trap": "先求從 A 到弦中點的距離，再依 A、B、H、C 的次序扣掉半弦。",
+  "tags": [
+    "切線與割線",
+    "弦心距",
+    "畢氏定理"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "passage": "",
+  "tables": [],
+  "images": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1209-original.png"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1209-figure.png",
+      "alt": "圓 O 的切線 AD 與割線 AC 的原卷題圖",
+      "caption": "原卷作答附圖",
+      "kind": "original"
+    }
+  ],
+  "explanationFigures": [],
+  "contentStatus": "完整原題"
+}

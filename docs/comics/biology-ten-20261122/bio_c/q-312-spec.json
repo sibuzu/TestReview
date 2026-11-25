@@ -1,0 +1,88 @@
+{
+  "id": "q-312",
+  "subject": "Biology",
+  "title": "沒有種子，不等於沒有維管束",
+  "art": "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent built-in image_gen calls; newly generated high-detail near-realistic science textbook illustrations",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-312-source-77582ea042.jpg"
+  ],
+  "answerCheckedAgainst": "這題問「最不合理」，要找錯的計算分類。先區分兩種性質：蘚苔植物沒有維管束、沒有種子；蕨類植物有維管束、沒有種子；裸子與被子植物都有維管束，也會產生種子。\n\n沒有維管束的只計蘚苔植物，因此是24%，不是24%＋9%＝33%。C把沒有種子的蕨類錯當成沒有維管束，故應選C。\n\n再檢查其他選項：單、雙子葉為本題被子植物的分類，合計62%；裸子植物為5%；可產生種子的合計5%＋62%＝67%。\n\n表格統計的是物種數量百分比，不是每類植物的株數或覆蓋面積。\n\n複習關鍵：蕨類有維管束，但沒有種子。把兩個問題分開問，才不會誤將蕨類與蘚苔加在一起。",
+  "rationale": "原表蘚苔24/蕨9/裸子5/被子62逐項核對。四張新製真實植物形態及繁殖構造：蘚苔細絲假根不當維管根；蕨葉背孢子囊堆不作種子；松鱗片兩翅種子無果實；番茄花果內種子屬同種植物示例。圖像不表示島嶼實際物種或株數百分比；維持C。",
+  "producerAgent": "/root/bio_c",
+  "visualChecked": false,
+  "panels": [
+    {
+      "heading": "① 無維管束：只計蘚苔24%",
+      "text": "蘚苔植物沒有維管束，也沒有種子，常見孢子囊位於細長柄端。原表蘚苔占24%；圖為植物構造示例，植株多少不代表物種百分比。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-1.png",
+      "alt": "新製蘚苔植株、細柄孢子囊與細絲假根的類真實植物插畫，無花果種子；不是原島物種照片。",
+      "caption": "新製類真實生物教材插畫，非原卷或顯微實拍。"
+    },
+    {
+      "heading": "② 蕨類有維管束，卻沒有種子",
+      "text": "蕨類占9%，葉背可見孢子囊堆，以孢子繁殖。它有維管束，不能因為沒有種子，就把9%加進「沒有維管束」而算成33%；C不合理。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-2.png",
+      "alt": "新製蕨類葉背孢子囊堆與根莖，含葉背構造放大；不把孢子囊堆當種子。"
+    },
+    {
+      "heading": "③ 裸子植物有種子，毬果非果實",
+      "text": "以松類為例：有維管束，種子位於毬果鱗片上，沒有果實包覆。原表裸子植物占5%，B依題目以毬果對應此類；不把翅種子當成果實。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-3.png",
+      "alt": "新製松針、成熟毬果及一片鱗片上兩枚帶翅種子，示意種子不被果實包住。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：無維管束是24%，不是33%",
+    "points": [
+      "被子植物以番茄花、果實與果內種子作示例；原表被子占62%，依題意單、雙子葉合計62%。",
+      "能產生種子：裸子5%＋被子62%＝67%，所以D合理。",
+      "蘚苔無維管束；蕨類有維管束但無種子。百分比是物種數量，不是株數或覆蓋面積。"
+    ],
+    "image": "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-4.png",
+    "alt": "新製番茄植株花、果實及切開果實內種子的被子植物示例，不依圖中數量計算物種百分比。"
+  },
+  "protectedWords": [
+    "維管束",
+    "蘚苔",
+    "蕨類",
+    "裸子植物",
+    "被子植物",
+    "孢子囊堆",
+    "物種百分比",
+    "24%",
+    "9%",
+    "5%",
+    "62%",
+    "67%",
+    "33%"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-ten-20261122/bio_c/q-312-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261122/bio_c/q-312-generation.json",
+  "artHashes": {
+    "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-1.png": "a0100076005e005dfeaafcb7433c5c8cee04e9465b45f70dc153ed171a1d7315",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-2.png": "f4ae423a63c91db9d50f47df961fe6791829eec82d35a693464e58746c87f97b",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-3.png": "8a3de918cbde79478171ef1efd75d85400a6c6303d479869855ce37cf4f27111",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-312-panel-4.png": "18e474fd8e3b85bc97019500d3f0d534ffcd337e4bf70008a0064a5df57a630a"
+  },
+  "supportingSources": [
+    {
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/mosses",
+      "finding": "蘚苔無維管構造、無花與種子，孢子在柄端孢子囊形成。"
+    },
+    {
+      "url": "https://www.nps.gov/muwo/learn/nature/ferns.htm",
+      "finding": "蕨類是維管束植物，以孢子繁殖，沒有花與種子，葉背有孢子囊堆。"
+    },
+    {
+      "url": "https://www.usbg.gov/sites/default/files/images/--how_plants_work-_student_discovery_journal-teachers_edition.pdf",
+      "finding": "美國植物園教材四組植物比較：蘚苔無維管束；蕨類有維管束、孢子；裸子/被子屬種子植物。"
+    }
+  ],
+  "createdAt": "2026-11-22T02:13:44.527626+00:00"
+}

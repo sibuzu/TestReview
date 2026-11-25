@@ -1,0 +1,78 @@
+{
+  "id": "q-1208",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學填充第7題｜三條切線與 3、4、5 直角三角形",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，直線 AD、AE、BC 分別切圓 O 於 D、E、F 三點，AB＝3，AC＝4，BC＝5，則 BE＝＿＿＿＿。",
+  "answer": "3√5",
+  "explanation": "AB²＋AC²＝3²＋4²＝5²＝BC²，由畢氏定理逆定理得 ∠BAC＝90°。從圓外的 B 引兩個切線段，BD＝BF；從 C 引兩個切線段，CE＝CF。設 BF＝x、CF＝y，由 B、F、C 的順序得 x＋y＝5。\n\n從 A 引出的 AD 與 AE 也等長。依 A–B–D、A–C–E 的順序，AD＝3＋x，AE＝4＋y，所以 x－y＝1。得 x＝3、y＝2、AE＝4＋2＝6。\n\n因 A、C、E 共線，△BAE 在 A 處為直角，故 BE＝√(AB²＋AE²)＝√(3²＋6²)＝3√5。",
+  "trap": "先看原圖中切點在三角形邊的延長線上，再用同外點兩切線段等長。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "圓切線",
+    "切線段等長",
+    "畢氏定理"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1208-original-3b930a94686a.png"
+  ],
+  "studentAnswer": "未填答",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "7",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1208-figure-75819be4d9d4.png",
+      "alt": "圓 O 與直線 AD、AE、BC 的三個切點的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "三條切線與 3、4、5 直角三角形",
+    "art": "assets/comics/q-1208-art-e368a7ea2c.svg",
+    "panels": [
+      {
+        "heading": "① 辨出直角頂點",
+        "text": "AB＝3、AC＝4、BC＝5。因 3²＋4²＝5²，∠BAC＝90°。沿著 AB、AC 的延長線可找到 D、E。",
+        "alt": "依 3、4、5 三角形重建的三條外切線，B、F、C 共線，D、E 分別在 AB、AC 延長處。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1208-art-e368a7ea2c.svg"
+      },
+      {
+        "heading": "② 由同一外點配對",
+        "text": "B 出發的 BD、BF 等長；C 出發的 CE、CF 等長。F 介於 B、C，所以兩段 BF、CF 合為 5。",
+        "alt": "放大三角形及延長線，清楚標出兩組對應等切線段和 F 的位置。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1208-panel-2-art-602fe3cf7b.svg"
+      },
+      {
+        "heading": "③ 用 AD 等於 AE 求兩段",
+        "text": "設 BF＝x、CF＝y。AD＝3＋x，AE＝4＋y，且 AD＝AE、x＋y＝5。解得 x＝3、y＝2，因此 AE＝6。",
+        "alt": "依比例排列 AD、AE 與 BC 的分段長條。AD、AE 兩條長度均為 6。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1208-panel-3-art-c51cc0ebeb.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 3√5",
+      "points": [
+        "△ABE 的直角在 A，AB＝3、AE＝6。",
+        "勾股計算 BE＝√(3²＋6²)＝3√5。"
+      ],
+      "image": "assets/comics/q-1208-panel-4-art-1f1ff11d14.svg",
+      "alt": "獨立的直角三角形 ABE，直角在 A，兩腿分別為 3 和 6，斜邊 BE 為 3 根號 5。"
+    }
+  }
+}

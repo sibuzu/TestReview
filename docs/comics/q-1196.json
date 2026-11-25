@@ -1,0 +1,84 @@
+{
+  "id": "q-1196",
+  "subject": "Physics-Chemistry",
+  "title": "推力、距離與木塊獲得的動能",
+  "art": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1196-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 找出固定條件",
+      "text": "木塊從靜止出發，平面沒有摩擦。水平推力 F 讓它沿力的方向移動 S。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1196-panel-1.svg",
+      "alt": "標示木塊 M、推力 F 與水平位移 S。"
+    },
+    {
+      "heading": "② 比較兩人改了什麼",
+      "text": "小明只把質量改為 2M，小華只改為 ½M。兩人的推力與位移仍是 F、S。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1196-panel-2.svg",
+      "alt": "三排木塊質量不同，推力和位移相同。"
+    },
+    {
+      "heading": "③ 用作功算動能",
+      "text": "力與位移同向，所作的功是 FS。木塊由靜止出發，所得動能就是 FS。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1196-panel-3.svg",
+      "alt": "定力的力－位移圖，長方形面積是 FS。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 (D) 兩人皆不合理",
+    "points": [
+      "質量改變可以改變末速，所得動能仍是 FS。",
+      "要使動能翻倍，需要使 F×S 翻倍。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/work-energy-b/art/q-1196-panel-4.svg",
+    "alt": "三根動能長條同長且皆達 FS，都低於 2FS 的目標線。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/work-energy-b/crops/q-1196-original.jpg"
+  ],
+  "answerCheckedAgainst": "(D) 兩人皆不合理",
+  "rationale": "使用四張獨立精確 SVG，把本題的路徑、受力、量值關係及答案依據逐步圖示。",
+  "generationMethod": "four independently authored SVG physics diagrams",
+  "producerAgent": "/root/source75_work_b",
+  "layoutVersion": "native-four-images-v7",
+  "protectedWords": [
+    "無摩擦",
+    "末速",
+    "F×S"
+  ],
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/work-energy-b/q-1196-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/work-energy-b/manifest.json",
+  "nativeArt": "assets/comics/q-1196-art-235508d8fe.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:24.705220+00:00",
+  "validationFile": "docs/comics/q-1196-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

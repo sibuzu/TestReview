@@ -1,0 +1,49 @@
+{
+  "id": "q-1206",
+  "subject": "Math",
+  "title": "硬幣沿正三角形掃過的面積",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1206-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 看硬幣的哪一段在掃過",
+      "text": "硬幣直徑 2 公分。貼著直邊滾動時，從三角形邊到硬幣最外緣的距離是 2 公分。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1206-panel-1.svg",
+      "alt": "三個硬幣位置分別貼住正三角形三邊，一邊長 6 公分。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 三條邊掃出長方形",
+      "text": "每個直邊外的掃過區是長 6、寬 2 的長方形，三條邊合計 36 平方公分。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1206-panel-2.svg",
+      "alt": "硬幣沿水平的長方形滑過，移動起點和終點共用寬度 2。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 三個頂點掃出扇形",
+      "text": "每個正三角形的外角是 120°。硬幣繞頂點時，頂點到最外側是直徑 2，所以扇形半徑為 2。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1206-panel-3.svg",
+      "alt": "在一個頂點上放大外角扇形，硬幣最外緣恰好碰到半徑 2 的外圓弧。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 36＋4π 平方公分",
+    "points": [
+      "三個 120° 扇形合起來是半徑 2 的整圓。",
+      "三個長方形面積 36，加上整圓面積 4π。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1206-panel-4.svg",
+    "alt": "三個三角形外側長方形與三個相鄰轉角扇形正好填滿硬幣掃過的區域，中間正三角形留白。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1206-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1206-figure.png"
+  ],
+  "answerCheckedAgainst": "36＋4π 平方公分",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "q-1191",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第9題｜物體上拋與重力位能",
+  "chapter": "第3章 功與機械應用",
+  "volume": "第五冊",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "物體上拋時，重力位能會增加的原因為何？\n\n(A) 空氣阻力對物體作功，使得物體的位能逐漸增加\n(B) 物體所受重力變小，因此高度增加，位能增加\n(C) 物體的動能減少轉變為重力位能\n(D) 物體有一向上的加速度，高度增加，位能增加",
+  "answer": "(C) 物體的動能減少轉變為重力位能",
+  "explanation": "物體離手後仍有向上的速度，所受重力向下，因而一邊上升一邊減速。高度 h 增加使重力位能 mgh 增加，速率降低使動能減少。忽略空氣阻力時，重力位能增加量就是動能減少量。\n\n(A) 空氣阻力逆著上升方向作負功，會使部分力學能轉成熱等，無法解釋重力位能增加。\n(B) 國中近地模型可將重力視為固定。物體因仍有向上的速度而上升。\n(C) 上升時高度增加、速率減少。從能量轉換看，動能減少、重力位能增加。\n(D) 速度朝上，加速度卻朝下。因此物體上升但減速。",
+  "trap": "上升描述速度方向；向下的重力給的是加速度方向。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已逐字核對真正的使用者原卷與紅筆訂正。日期採首次提問的台灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "上拋",
+    "動能",
+    "重力位能"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1191-original-93e71124659f.jpg"
+  ],
+  "sourceLabel": "分享原卷｜第9題",
+  "studentAnswer": "9@錯題D → C",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "originalQuestionNumber": "9",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "空氣阻力對物體作功，使得物體的位能逐漸增加",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "空氣阻力逆著上升方向作負功，會使部分力學能轉成熱等，無法解釋重力位能增加。"
+    },
+    {
+      "label": "B",
+      "text": "物體所受重力變小，因此高度增加，位能增加",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "國中近地模型可將重力視為固定。物體因仍有向上的速度而上升。"
+    },
+    {
+      "label": "C",
+      "text": "物體的動能減少轉變為重力位能",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "上升時高度增加、速率減少。從能量轉換看，動能減少、重力位能增加。"
+    },
+    {
+      "label": "D",
+      "text": "物體有一向上的加速度，高度增加，位能增加",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "速度朝上，加速度卻朝下。因此物體上升但減速。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "物體上拋與重力位能",
+    "art": "assets/comics/q-1191-art-2e7ee5bc30.svg",
+    "panels": [
+      {
+        "heading": "① 看上升速度",
+        "text": "物體離手後仍向上，越接近最高點，向上的速率越小。",
+        "alt": "三個高度的速度箭頭逐步縮短，最高點速度為零。",
+        "image": "assets/comics/q-1191-art-2e7ee5bc30.svg"
+      },
+      {
+        "heading": "② 分開速度和加速度",
+        "text": "上升時速度朝上。重力和加速度朝下，使向上的速率變小。",
+        "alt": "同一球的位置旁，速度箭朝上，重力箭朝下。",
+        "image": "assets/comics/q-1191-panel-2-art-13c57835e1.svg"
+      },
+      {
+        "heading": "③ 比較能量分配",
+        "text": "忽略空氣阻力，減少的動能轉為增加的重力位能，總力學能不變。",
+        "alt": "離手、途中、最高點的三個堆疊能量柱等高。",
+        "image": "assets/comics/q-1191-panel-3-art-7feb83b5e1.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 (C) 物體的動能減少轉變為重力位能",
+      "points": [
+        "高度升高，重力位能 mgh 增加。",
+        "近地上拋的加速度朝下。"
+      ],
+      "image": "assets/comics/q-1191-panel-4-art-6620f763c4.svg",
+      "alt": "以拋出點為高度零點，動能隨高度下降，重力位能隨高度增加。"
+    },
+    "protectedWords": [
+      "重力位能",
+      "空氣阻力"
+    ]
+  }
+}

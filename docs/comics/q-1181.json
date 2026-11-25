@@ -1,0 +1,81 @@
+{
+  "id": "q-1181",
+  "subject": "Physics-Chemistry",
+  "title": "瞬時與全程平均功率",
+  "art": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1181-panel-1.svg",
+  "panels": [
+    {
+      "heading": "先讀三種拋出方向",
+      "text": "甲向上、乙水平、丙向下。三球起點高度相同，初始速率都是 V。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1181-panel-1.svg",
+      "alt": "甲向上、乙水平、丙向下。三球起點高度相同，初始速率都是 V。"
+    },
+    {
+      "heading": "同一高度差的重力總功",
+      "text": "三球的質量和起終高度相同，所以重力從拋出到落地的總功皆為 mgh。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1181-panel-2.svg",
+      "alt": "三球的質量和起終高度相同，所以重力從拋出到落地的總功皆為 mgh。"
+    },
+    {
+      "heading": "落地前看向下速度分量",
+      "text": "落地前甲、丙的向下分量同為 √(V²＋2gh)，乙只有 √(2gh)。乘上 mg，瞬時功率選D。",
+      "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1181-panel-3.svg",
+      "alt": "落地前甲、丙的向下分量同為 √(V²＋2gh)，乙只有 √(2gh)。乘上 mg，瞬時功率選D。"
+    }
+  ],
+  "fourth": {
+    "answer": "落地瞬時選 D；全程平均選 B",
+    "points": [
+      "原題「球落地時」依瞬時值為甲＝丙＞乙。",
+      "紅筆 B 對應從拋出到落地的平均值。",
+      "兩者的時間範圍不同。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/work-energy-a/art/q-1181-panel-4.svg",
+    "alt": "全程總功一樣。甲飛最久、丙最快落地、乙居中，用 W/t 算平均功率得到B。圖上橫條表示相對大小。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1181-original.png",
+    "docs/imports/new-gpt-20261125-75/work-energy-a/crops/q-1181-figure.png"
+  ],
+  "answerCheckedAgainst": "依「球落地時」的瞬時功率選 (D) 甲＝丙＞乙。原卷紅筆 (B) 甲＜乙＜丙，對應全程平均功率。",
+  "generationMethod": "Four native SVG educational figures",
+  "rationale": "以原生向量圖分步呈現原題條件、物理關係、推導與答案。",
+  "producerAgent": "/root/source75_work_a",
+  "layoutVersion": "native-four-images-v7",
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/work-energy-a/q-1181-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/work-energy-a/manifest.json",
+  "nativeArt": "assets/comics/q-1181-art-82bc701bad.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:23.712301+00:00",
+  "validationFile": "docs/comics/q-1181-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": true,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

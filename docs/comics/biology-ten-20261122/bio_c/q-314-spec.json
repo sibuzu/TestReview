@@ -1,0 +1,81 @@
+{
+  "id": "q-314",
+  "subject": "Biology",
+  "title": "先看存活數，再判斷鹽度抑制",
+  "art": "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four independent built-in image_gen calls; newly generated high-detail near-realistic science textbook illustrations",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-314-source-7c11ff056a.jpg"
+  ],
+  "answerCheckedAgainst": "【D：從鹽度的抑制效果理解】\n「水中的鹽度不夠，可能會助長病媒蚊的孳生」，可理解為「鹽度足夠時，可能抑制孳生」的反面說法。當鹽度不足，抑制效果可能不夠，仍有幼蟲存活，便可能繼續發育，因此選D。\n這裡保留「可能」：不是說鹽度不足就必然大量孳生，也不是說加少量鹽一定比完全不加鹽更能促進繁殖。\n\n【用表格確認】\n甲、乙、丙、丁的濃度分別為0%、0.7%、1.5%、3.5%，兩種幼蟲各起始30隻。兩天後，較低鹽度仍有幼蟲存活；丁杯3.5%時，兩種幼蟲的存活數都是0，支持本題以鹽度抑制幼蟲存活的判讀。\n\n【其他選項】\nA：登革熱病毒也能感染人，不能說只能在病媒蚊體內存活。\nB：蚊是昆蟲，幼蟲成長需要蛻皮，外骨骼會脫落。\nC：1.5%時，埃及斑蚊存活17隻，白線斑蚊只有2隻，不能說白線斑蚊耐鹽較強。\n\n【圖像處理】\n原題是甲、乙、丙、丁四杯。來源AI漫畫畫成五杯且未正確對照數據，因此仍不採用該圖，以原卷實驗表為準。",
+  "rationale": "原題四杯與濃度/17對2/丁皆0逐項對照；D已由使用者確認，不重問。杯圖恰四杯、不繪假數；蛻皮圖區分活幼蟲與空皮，生命期不冒充兩天實驗結果。",
+  "producerAgent": "/root/bio_c",
+  "visualChecked": false,
+  "panels": [
+    {
+      "heading": "① 辨認實驗中的蚊幼蟲",
+      "text": "原題比較兩種斑蚊幼蟲；甲、乙、丙、丁四杯中，兩種幼蟲各起始30隻，兩天後記錄存活數。放大圖只示幼蟲構造，不代表實際隻數。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-1.png",
+      "alt": "新製蚊幼蟲側面放大圖，顯示頭胸腹與水面呼吸構造；非顯微實拍。",
+      "caption": "新製類真實生物教材插畫，非原卷或顯微實拍。"
+    },
+    {
+      "heading": "② 四杯濃度與存活數分開讀",
+      "text": "四杯濃度依序為0%、0.7%、1.5%、3.5%。丙杯1.5%時，埃及斑蚊存活17隻、白線斑蚊2隻，不支持C所說白線斑蚊較強。器材圖不繪存活隻數。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-2.png",
+      "alt": "新製四只同型透明玻璃杯及清水，恰為四杯；不以圖中生物數量替代原表。"
+    },
+    {
+      "heading": "③ 幼蟲成長也會蛻皮",
+      "text": "蚊是昆蟲，幼蟲成長需要蛻去舊外骨骼。圖中實體幼蟲與透明空蛻皮分開，不能因為幼蟲不像成蟲，就認為不會蛻皮；B不對。",
+      "image": "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-3.png",
+      "alt": "新製蚊幼蟲蛻皮放大，實體幼蟲旁為透明空蛻皮，示意幼蟲會蛻皮。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：鹽度不足，抑制可能不夠",
+    "points": [
+      "丁杯3.5%時，兩種幼蟲都存活0隻；較低鹽度仍可有存活者。",
+      "保留「可能」：存活幼蟲才可能繼續發育，不表示加少量鹽比純水更促生。",
+      "生命期圖是後續發育的概念，不是兩天實驗已量得的成蟲結果。"
+    ],
+    "image": "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-4.png",
+    "alt": "新製蚊幼蟲、蛹與成蟲的生物形態，示意存活者可能繼續發育，非原實驗兩天結果。"
+  },
+  "protectedWords": [
+    "斑蚊幼蟲",
+    "白線斑蚊",
+    "埃及斑蚊",
+    "3.5%",
+    "1.5%",
+    "0.7%",
+    "外骨骼",
+    "17隻",
+    "30隻",
+    "存活數"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-ten-20261122/bio_c/q-314-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261122/bio_c/q-314-generation.json",
+  "artHashes": {
+    "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-1.png": "0e1e06d4b64be897043fc63db06c6da70c9a11260afb2778f282dc7fcbdec2fc",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-2.png": "d5bbff219bc7f0810ebf87d1d2296e12ba815e8a7c001aeb8f1f9d92ff3fa37a",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-3.png": "35a62cfacbc92b216ed04fa37b7d802abb59af28a5754a4fbfec9550325b12c0",
+    "docs/comics/biology-ten-20261122/bio_c/art/q-314-panel-4.png": "a71d30d34bf3393b16f2ddd7c3d29bf445ae1de3e65fc197c1b096398eff887c"
+  },
+  "supportingSources": [
+    {
+      "url": "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html",
+      "finding": "Aedes蚊有卵、幼蟲、蛹與成蟲階段，幼蟲在水中生活。"
+    },
+    {
+      "url": "https://www.epa.gov/mosquitocontrol/mosquito-life-cycle",
+      "finding": "幼蟲階段會蛻皮成長，多數種類會到水面呼吸。"
+    }
+  ],
+  "createdAt": "2026-11-22T02:02:28.207860+00:00"
+}

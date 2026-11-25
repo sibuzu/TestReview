@@ -1,0 +1,125 @@
+{
+  "state": "complete",
+  "startedAt": "2026-11-22T01:57:44.466296+00:00",
+  "limit": 10,
+  "questionIds": [
+    "q-972",
+    "q-971",
+    "q-970",
+    "q-969",
+    "q-852",
+    "q-850",
+    "q-315",
+    "q-314",
+    "q-313",
+    "q-312"
+  ],
+  "requiredImages": 40,
+  "worknerdTaskId": "t_5aba7e7b534c43dcad17",
+  "instruction": "將生物的舊解說圖改為精美解說圖 再作10題",
+  "completedQuestionIds": [
+    "q-314",
+    "q-852",
+    "q-972",
+    "q-313",
+    "q-850",
+    "q-971",
+    "q-315",
+    "q-312",
+    "q-970",
+    "q-969"
+  ],
+  "resumePolicy": "只執行本批10題，完成即停；剩餘9生物舊版及非生物重製維持暫停；原Agent2不恢復。",
+  "baselineCommit": "a1f1ff74bcb47b07da8acbb1087250bc51593be8",
+  "baselineQualityCounts": {
+    "fine": 27,
+    "legacy": 19
+  },
+  "expectedQualityCountsAfter": {
+    "fine": 37,
+    "legacy": 9
+  },
+  "selection": "目前舊版生物原問依日期新到舊，同日按題號新到舊；不選已精美者。",
+  "producerAssignments": {
+    "bio_a": [
+      "q-972",
+      "q-971",
+      "q-970"
+    ],
+    "bio_b": [
+      "q-852",
+      "q-850",
+      "q-315",
+      "q-969"
+    ],
+    "bio_c": [
+      "q-314",
+      "q-313",
+      "q-312"
+    ]
+  },
+  "integrationEvents": [
+    {
+      "id": "q-314",
+      "integrationEventId": "integration-job-0bd4b6af2e244bcb86fecbd3c43b7ed1",
+      "integratedAt": "2026-11-22T02:06:03.072574+00:00"
+    },
+    {
+      "id": "q-852",
+      "integrationEventId": "integration-job-8dc06f985c984ced9dce6db0d0ce4536",
+      "integratedAt": "2026-11-22T02:07:15.910902+00:00"
+    },
+    {
+      "id": "q-972",
+      "integrationEventId": "integration-job-4e6c94745775479e91bed83855f60ff5",
+      "integratedAt": "2026-11-22T02:08:02.401389+00:00"
+    },
+    {
+      "id": "q-313",
+      "integrationEventId": "integration-job-f64a5ee56d99415f8da4be39a3696efe",
+      "integratedAt": "2026-11-22T02:09:56.056827+00:00"
+    },
+    {
+      "id": "q-850",
+      "integrationEventId": "integration-job-5347b59cad8c4f79bd4a88de5159cba4",
+      "integratedAt": "2026-11-22T02:11:39.564506+00:00"
+    },
+    {
+      "id": "q-971",
+      "integrationEventId": "integration-job-33ce2d6b560f4836b48ac32fc60fd5a2",
+      "integratedAt": "2026-11-22T02:12:52.292583+00:00"
+    },
+    {
+      "id": "q-315",
+      "integrationEventId": "integration-job-be4f3fd31ff94b87a52de84bf7f15cb8",
+      "integratedAt": "2026-11-22T02:13:48.981044+00:00"
+    },
+    {
+      "id": "q-312",
+      "integrationEventId": "integration-job-df3338836b634868992d6d9255c12bf2",
+      "integratedAt": "2026-11-22T02:16:29.818129+00:00"
+    },
+    {
+      "id": "q-970",
+      "integrationEventId": "integration-job-7838cfed1859453797cce6e5e86f54c3",
+      "integratedAt": "2026-11-22T02:17:33.411146+00:00"
+    },
+    {
+      "id": "q-969",
+      "integrationEventId": "integration-job-66e0c535cc5e44799c1484affc788bcb",
+      "integratedAt": "2026-11-22T02:19:50.932330+00:00"
+    }
+  ],
+  "completedImages": 40,
+  "remaining": 0,
+  "updatedAt": "2026-11-22T02:19:50.976614+00:00",
+  "assignmentNote": "q969在未產圖前由bio_a交給bio_b，以平衡q972/q971品質退稿的額外工作；題號白名單與10題限額不變。",
+  "completedAt": "2026-11-22T02:19:50.977299+00:00",
+  "stopGateClosed": true,
+  "deliverables": "docs/comics/biology-ten-20261122/final-assets.json",
+  "finalValidation": "docs/comics/biology-ten-20261122/final-validation.json",
+  "remainingLegacyBiology": 9,
+  "websiteTestsPassed": 123,
+  "monitorTestsPassed": 35,
+  "pendingPublicationEvents": 10
+}

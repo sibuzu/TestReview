@@ -1,0 +1,72 @@
+{
+  "id": "q-1187",
+  "sourceId": "src-more-075",
+  "subject": "Physics-Chemistry",
+  "title": "理化第4題｜方向相反的兩物體動能比較",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "質量相同的甲、乙兩物體，各以相等速率做等速度運動，僅運動方向相反，則兩者的動能有何關係？\n\n(A) 甲＝乙\n(B) 甲＞乙\n(C) 甲＜乙\n(D) 甲＋乙＝0",
+  "answer": "(A) 甲＝乙",
+  "explanation": "動能 Eₖ＝½mv²，取決於質量 m 和速率 v 的平方。甲乙質量相同、速率相同，因此動能相同，選A。即使把向右記為＋v，向左記為−v，兩個速度分量平方仍相同。\n\n(B)、(C) 都聲稱其中一個動能較大，但條件沒有這種差別。(D) 混用速度的方向正負與動能的大小。物體有非零速率時，兩份正動能相加會大於零。",
+  "trap": "速率的平方不會因所取方向的正負而變。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已直接核對真正原卷與紅筆。日期取本題首次提問的臺灣日期；缺乏可確認的考試日期及教材冊次對照。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "動能",
+    "速率",
+    "純量"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1187-original-c9fae34a16ae.png"
+  ],
+  "sourceLabel": "分享原卷｜第4題",
+  "studentAnswer": "4@錯題D → A",
+  "contentStatus": "完整原題",
+  "correctOption": "A",
+  "passage": "",
+  "originalQuestionNumber": "4",
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "反向運動的動能",
+    "art": "assets/comics/q-1187-art-38147fd145.svg",
+    "panels": [
+      {
+        "heading": "只改變行進方向",
+        "text": "甲、乙質量相同，速率相等。兩支速度箭頭一樣長、方向相反。",
+        "alt": "甲、乙質量相同，速率相等。兩支速度箭頭一樣長、方向相反。",
+        "image": "assets/comics/q-1187-art-38147fd145.svg"
+      },
+      {
+        "heading": "速度有正負，速率看大小",
+        "text": "取右為正，甲是＋v，乙是−v。兩者離零點的距離都等於 v。",
+        "alt": "取右為正，甲是＋v，乙是−v。兩者離零點的距離都等於 v。",
+        "image": "assets/comics/q-1187-panel-2-art-d058549f83.svg"
+      },
+      {
+        "heading": "在動能曲線上比較高度",
+        "text": "Eₖ＝½mv²，質量相同時，＋v、−v 對應在曲線同一高度。",
+        "alt": "Eₖ＝½mv²，質量相同時，＋v、−v 對應在曲線同一高度。",
+        "image": "assets/comics/q-1187-panel-3-art-3ee78f4916.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(A) 甲＝乙",
+      "points": [
+        "兩物體都以非零相同速率運動。",
+        "動能是純量，依 ½mv² 計算。",
+        "兩個動能不會因方向相反而相消。"
+      ],
+      "image": "assets/comics/q-1187-panel-4-art-fc80eab411.svg",
+      "alt": "相同質量與速率得到相同的正動能。改變方向不會讓動能變負。"
+    }
+  }
+}

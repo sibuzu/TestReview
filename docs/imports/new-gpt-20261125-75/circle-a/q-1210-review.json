@@ -1,0 +1,55 @@
+{
+  "id": "q-1210",
+  "disposition": "new",
+  "originalIndex": 32,
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "originalFileId": "file_0000000030e482068fde360813ee355b",
+  "originalSHA256": "338e83c6fd9c03c34af3f53d59f0ab282751d512a36079c6ef6831afe3a848e8",
+  "originalMessageId": "fbbc2afa-9fe9-405d-af33-7b8bb66c837a",
+  "firstQuestionTimestamp": 1795616722.175117,
+  "actualViewed": [
+    ".cache/intake-20261125-6b06f11f/original-32.jpg",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-figure.png"
+  ],
+  "cropBoxes": {
+    "fullQuestion": [
+      24,
+      303,
+      844,
+      1152
+    ],
+    "necessaryFigure": [
+      586,
+      330,
+      842,
+      553
+    ]
+  },
+  "crops": [
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-original.png",
+      "sha256": "879d79577875e2db3693f8904e390b1ec91d024439e738f3fb0b9592f8ee06ec"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1210-figure.png",
+      "sha256": "e2e161cf495b4a75dcc952d46e31b2a3ce20583f9ebeece5e979419c80a952b1"
+    }
+  ],
+  "inclusionEvidence": "兩小題下方分別有紅筆 √14、9√14／2，相鄰原答為 5、45／2。",
+  "duplicateReview": "以完整題幹及選項查正式題庫、題組小題與草稿索引，沒有相同題幹或相似度達 0.60 的候選；另以題目辨識字句回查舊來源檔及跨來源原卷 SHA，未見相同原題。",
+  "independentAnswer": "(1) √14\n(2) 9√14／2",
+  "printedSubquestionCount": 2,
+  "substantiveCorrections": [
+    {
+      "kind": "sourceArtwork",
+      "before": "來源 AI 用 AB 作底的旋轉小圖，標點 T 的投影與原幾何不合。圖的水平坐標 B=50、A=266、T=194，故 BT：TA＝144：72；原條件下兩段應為 BT：TA＝7：2。大圖及文字半徑與面積計算正確。",
+      "after": "維持兩個訂正值。新圖用原梯形實際投影求切點，或將 AB 水平化後嚴格標成 BT＝7、TA＝2。",
+      "reason": "核對原卷圖文與來源 AI 輔助解說後，明確保留原題並更正推導條件或幾何圖。"
+    }
+  ],
+  "dedupeCandidates": []
+}

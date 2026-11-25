@@ -1,0 +1,82 @@
+{
+  "id": "q-1208",
+  "subject": "Math",
+  "title": "三條切線與 3、4、5 直角三角形",
+  "art": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1208-panel-1.svg",
+  "panels": [
+    {
+      "heading": "① 辨出直角頂點",
+      "text": "AB＝3、AC＝4、BC＝5。因 3²＋4²＝5²，∠BAC＝90°。沿著 AB、AC 的延長線可找到 D、E。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1208-panel-1.svg",
+      "alt": "依 3、4、5 三角形重建的三條外切線，B、F、C 共線，D、E 分別在 AB、AC 延長處。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "② 由同一外點配對",
+      "text": "B 出發的 BD、BF 等長；C 出發的 CE、CF 等長。F 介於 B、C，所以兩段 BF、CF 合為 5。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1208-panel-2.svg",
+      "alt": "放大三角形及延長線，清楚標出兩組對應等切線段和 F 的位置。",
+      "caption": "新製幾何圖解"
+    },
+    {
+      "heading": "③ 用 AD 等於 AE 求兩段",
+      "text": "設 BF＝x、CF＝y。AD＝3＋x，AE＝4＋y，且 AD＝AE、x＋y＝5。解得 x＝3、y＝2，因此 AE＝6。",
+      "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1208-panel-3.svg",
+      "alt": "依比例排列 AD、AE 與 BC 的分段長條。AD、AE 兩條長度均為 6。",
+      "caption": "新製幾何圖解"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 3√5",
+    "points": [
+      "△ABE 的直角在 A，AB＝3、AE＝6。",
+      "勾股計算 BE＝√(3²＋6²)＝3√5。"
+    ],
+    "image": "docs/imports/new-gpt-20261125-75/circle-a/art/q-1208-panel-4.svg",
+    "alt": "獨立的直角三角形 ABE，直角在 A，兩腿分別為 3 和 6，斜邊 BE 為 3 根號 5。"
+  },
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1208-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1208-figure.png"
+  ],
+  "answerCheckedAgainst": "3√5",
+  "producerAgent": "/root/source75_circle_a",
+  "generationMethod": "Four independently composed native SVG constructions from the geometry checked against the original worksheet.",
+  "layoutVersion": "native-four-images-v7",
+  "producerReviewPath": "docs/imports/new-gpt-20261125-75/circle-a/q-1208-review.json",
+  "producerManifest": "docs/imports/new-gpt-20261125-75/circle-a/manifest.json",
+  "nativeArt": "assets/comics/q-1208-art-e368a7ea2c.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-25T14:58:23.712301+00:00",
+  "validationFile": "docs/comics/q-1208-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": true,
+    "basis": "原卷與正式題庫關聯檢查。桌面及手機正式畫面以截圖實看；圖資、字流、收合與版型經瀏覽器驗證。"
+  }
+}

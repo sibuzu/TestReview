@@ -1,0 +1,78 @@
+{
+  "id": "q-1206",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學填充第1題｜硬幣沿正三角形掃過的面積",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，一個直徑 2 公分的圓形硬幣緊沿著一個邊長為 6 公分的正三角形繞一周，則其所掃過的區域面積為＿＿＿＿平方公分。",
+  "answer": "36＋4π 平方公分",
+  "explanation": "沿三角形邊直行時，硬幣從邊到最外側的距離是硬幣直徑 2 公分，掃出長 6、寬 2 的長方形。三個長方形總面積為 3×6×2＝36 平方公分。\n\n繞過每個頂點時，頂點到硬幣最外側的距離仍是 2 公分，所以外角部分填滿半徑 2 的扇形。正三角形每個外角是 180°－60°＝120°。三個扇形的圓心角合計 360°，總面積等於半徑 2 的整圓面積 4π。\n\n合計面積為 36＋4π 平方公分。硬幣半徑 1 是頂點到硬幣圓心的距離，扇形外緣還須再加上一個硬幣半徑。",
+  "trap": "掃過的是整枚硬幣蓋到的區域。用三個直邊長方形與三個轉角扇形分割。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "面積掃掠",
+    "圓形硬幣",
+    "外角與扇形"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1206-original-378a6f944c34.png"
+  ],
+  "studentAnswer": "36＋π 平方公分",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "1",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1206-figure-1d6466d8033b.png",
+      "alt": "圓硬幣沿正三角形移動與掃過邊界的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "硬幣沿正三角形掃過的面積",
+    "art": "assets/comics/q-1206-art-1b6bf3439c.svg",
+    "panels": [
+      {
+        "heading": "① 看硬幣的哪一段在掃過",
+        "text": "硬幣直徑 2 公分。貼著直邊滾動時，從三角形邊到硬幣最外緣的距離是 2 公分。",
+        "alt": "三個硬幣位置分別貼住正三角形三邊，一邊長 6 公分。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1206-art-1b6bf3439c.svg"
+      },
+      {
+        "heading": "② 三條邊掃出長方形",
+        "text": "每個直邊外的掃過區是長 6、寬 2 的長方形，三條邊合計 36 平方公分。",
+        "alt": "硬幣沿水平的長方形滑過，移動起點和終點共用寬度 2。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1206-panel-2-art-a3cdddf553.svg"
+      },
+      {
+        "heading": "③ 三個頂點掃出扇形",
+        "text": "每個正三角形的外角是 120°。硬幣繞頂點時，頂點到最外側是直徑 2，所以扇形半徑為 2。",
+        "alt": "在一個頂點上放大外角扇形，硬幣最外緣恰好碰到半徑 2 的外圓弧。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1206-panel-3-art-3727e08923.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案 36＋4π 平方公分",
+      "points": [
+        "三個 120° 扇形合起來是半徑 2 的整圓。",
+        "三個長方形面積 36，加上整圓面積 4π。"
+      ],
+      "image": "assets/comics/q-1206-panel-4-art-3c744a9d2a.svg",
+      "alt": "三個三角形外側長方形與三個相鄰轉角扇形正好填滿硬幣掃過的區域，中間正三角形留白。"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "q-1207",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學填充第6題｜從圓外一點求圓的切點坐標",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，圓心為原點 O（0，0），圓半徑為 1，若 P（2，0），PQ 為圓 O 之一切線段，則 Q 點坐標為＿＿＿＿。",
+  "answer": "（1／2，√3／2）",
+  "explanation": "連接 OQ。切點半徑 OQ 垂直切線 PQ，所以 △OQP 在 Q 處是直角。OP＝2、OQ＝1，故 ∠OPQ＝30°、∠QOP＝60°。\n\n過 Q 向 x 軸作垂線，垂足為 H。直角△OQH 中，斜邊 OQ＝1，∠QOH＝60°，因此 OH＝1／2、QH＝√3／2。原圖 Q 位於 x 軸上方，故 Q＝（1／2，√3／2）。如果取 x 軸下方的另一切點，坐標為（1／2，－√3／2）。",
+  "trap": "兩個切點互為 x 軸的鏡射，原圖指定上方的 Q。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "座標幾何",
+    "圓切線",
+    "30°直角三角形"
+  ],
+  "images": [
+    "assets/originals/gpt075-q-1207-original-9f7110dc8c21.png"
+  ],
+  "studentAnswer": "未填答",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "6",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt075-q-1207-figure-1c4c2b24d892.png",
+      "alt": "單位圓、座標軸、圓外點 P 與上方切點 Q 的原卷題圖",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "從圓外一點求圓的切點坐標",
+    "art": "assets/comics/q-1207-art-5ccbac6b50.svg",
+    "panels": [
+      {
+        "heading": "① 找圓外點與切點",
+        "text": "P 在 x 軸上，距圓心 2；Q 在單位圓上。原圖指定上方的切線。",
+        "alt": "坐標軸上的單位圓、外點 P 與原圖所畫的上方切點 Q。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1207-art-5ccbac6b50.svg"
+      },
+      {
+        "heading": "② 找到兩個特殊角",
+        "text": "OQ 垂直 PQ。△OQP 中，短直角邊 OQ＝1，斜邊 OP＝2，因此 P 角 30°、O 角 60°。",
+        "alt": "從坐標圖抽出直角三角形 OPQ，標示斜邊 2 與半徑 1。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1207-panel-2-art-647ffd088e.svg"
+      },
+      {
+        "heading": "③ 將 Q 投影到 x 軸",
+        "text": "設 H 是垂足。△OQH 的斜邊為 1，O 角 60°，故 OH＝1／2、QH＝√3／2。",
+        "alt": "放大 Q 到橫軸的投影三角形，畫出橫坐標的一半與縱坐標根號三除二。",
+        "caption": "新製幾何圖解",
+        "image": "assets/comics/q-1207-panel-3-art-d81e9b2d79.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "答案（1／2，√3／2）",
+      "points": [
+        "依原圖選第一象限的 Q。",
+        "另一個切點與 Q 的橫坐標相同、縱坐標相反。"
+      ],
+      "image": "assets/comics/q-1207-panel-4-art-c91d573f39.svg",
+      "alt": "上方切點 Q 的坐標為二分之一與根號三除二；下方切點是 x 軸的鏡射。"
+    }
+  }
+}

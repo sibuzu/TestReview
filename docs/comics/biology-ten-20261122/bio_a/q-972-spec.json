@@ -1,0 +1,121 @@
+{
+  "id": "q-972",
+  "subject": "Biology",
+  "title": "卵生與受精位置分開判斷",
+  "art": "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four separate built-in image_gen calls; new near-realistic high-quality biology textbook illustrations",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/originals/src-more-058-question-05-a2d972240ea2.png",
+    "site/dist/assets/originals/src-more-058-turtle-photo-288d232903d2.png"
+  ],
+  "answerCheckedAgainst": "本題要選錯誤敘述。綠蠵龜屬爬蟲類，雌雄交配後在雌體內受精，再到沙灘產卵；土魠魚屬魚類，在水中完成體外受精，兩者雖都卵生，受精方式並不相同。C把兩者都說成體外受精，因此應選C。不能把卵生直接等同體外受精，也不能反過來說所有魚類都體外受精。\n\nA蟹與龍蝦屬甲殼類節肢動物，有外骨骼，成長須蛻殼；B珊瑚與水母屬刺絲胞動物；D在同一海域的不同物種族群，共同組成群集，這三項依題意均正確。族群是同種生物的集合，群集則包含不同物種的族群；白子也不因此成為另一個物種。",
+  "rationale": "以海龜產卵、魚卵外部精卵結合、甲殼類蛻殼及海洋群集四張不同自然科學圖，分別理解C錯誤及A/B/D成立；不以卵生推受精位置。",
+  "producerAgent": "/root/bio_a",
+  "visualChecked": false,
+  "panels": [
+    {
+      "heading": "① 綠蠵龜先受精，再上岸產卵",
+      "text": "綠蠵龜屬爬蟲類，體內受精後到沙灘產卵。圖中是產卵情境，不能因卵在體外，就說受精也在體外。",
+      "image": "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-1.png",
+      "alt": "綠蠵龜在沙灘產卵，剖面見沙中卵室；不表示在沙中受精。",
+      "caption": "新製科學教材插畫，非原卷或實拍；圖中文字說明以本頁為準。"
+    },
+    {
+      "heading": "② 土魠魚在水中體外受精",
+      "text": "土魠魚屬本題的體外受精、卵生魚類。放大圖示意水中的精卵結合；與海龜同樣卵生，受精位置仍不同。",
+      "image": "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-2.png",
+      "alt": "土魠魚的近真實體態，水中精卵結合另作放大示意。"
+    },
+    {
+      "heading": "③ 外骨骼限制長大，成長須蛻殼",
+      "text": "蟹與龍蝦是節肢動物，成長需要更換外骨骼。圖中活蟹旁為空的舊殼，不是另一隻活蟹。A正確，不選。",
+      "image": "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-3.png",
+      "alt": "一隻新蛻殼活蟹與一個分開的空舊外骨骼。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C：海龜不是體外受精",
+    "points": [
+      "C把綠蠵龜誤說成體外受精。",
+      "珊瑚、水母都是刺絲胞動物。",
+      "同海域不同物種的族群可組成群集。"
+    ],
+    "image": "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-4.png",
+    "alt": "以團塊半球、細小密孔的鐘形微孔珊瑚為前景，與水母、蟹、海龜共同示意海洋群集。"
+  },
+  "protectedWords": [
+    "綠蠵龜",
+    "土魠魚",
+    "體內受精",
+    "體外受精",
+    "卵生",
+    "節肢動物",
+    "刺絲胞動物",
+    "外骨骼",
+    "群集"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-ten-20261122/bio_a/q-972-prompts.json",
+  "generationEvidence": "docs/comics/biology-ten-20261122/bio_a/q-972-generation.json",
+  "artHashes": {
+    "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-1.png": "6c91bfca5f54eef0395b3c8e0f9479e71ad9ad37bf868806c8661b5fa28f003e",
+    "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-2.png": "a17bd0b0feb53c7e91a6767159e17aae61ec5e9436a648d44b9802e85b036864",
+    "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-3.png": "313da558d751c8e3fad1071b818e787d98d830af78fc40bb6a0453372053bd91",
+    "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-4.png": "66076d5571a1cdbf116b2b9bbca476237525195336bc09191845792dadf2a44f"
+  },
+  "supportingSources": [
+    "https://www.fisheries.noaa.gov/species/green-turtle",
+    "https://dar.hawaii.gov/learn-explore/species/sea-turtles/green-sea-turtle/",
+    "https://www.marine.gov.tw/zh_tw/conservation/biolist/%E9%90%98%E5%BD%A2%E5%BE%AE%E5%AD%94%E7%8F%8A%E7%91%9A-89439732"
+  ],
+  "createdAt": "2026-11-22T02:06:27.585602+00:00",
+  "producerVisualChecked": true,
+  "producerReview": {
+    "id": "q-972",
+    "passed": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "allFourNewImagesActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "sourceGeneratedArtUsed": false,
+    "originalMaterials": [
+      "site/dist/assets/originals/src-more-058-question-05-a2d972240ea2.png",
+      "site/dist/assets/originals/src-more-058-turtle-photo-288d232903d2.png"
+    ],
+    "fourIndependentCalls": true,
+    "independentImages": [
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-1.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-2.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-3.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-4.png"
+    ],
+    "actualViewed": [
+      "/home/jack/codex-git/TestReview/.cache/biology-ten-20261122/bio_a/q-972-preview-1440.png",
+      "/home/jack/codex-git/TestReview/.cache/biology-ten-20261122/bio_a/q-972-preview-390.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-1.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-2.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-3.png",
+      "docs/comics/biology-ten-20261122/bio_a/art/q-972-bio20261122-4.png"
+    ],
+    "previewValidation": "docs/comics/biology-ten-20261122/bio_a/q-972-preview-validation.json",
+    "scienceChecks": [
+      "海龜產卵與沙中卵室位置合理，圖不把體外產卵誤作體外受精。",
+      "土魠魚外形為狹身尖吻、叉尾及窄斑條型；精卵放大在水中，不在魚身內。",
+      "蟹圖重製排除多重殼歧義：一活蟹、一個分離空舊殼；數量與蛻殼概念吻合。",
+      "第四圖經root校對後重製，採鐘形微孔珊瑚Porites lutea的團塊半球與密細孔，排除長觸手大花狀珊瑚。水母、蟹、海龜構成多物種群集。",
+      "四圖均獨立生成且有不同教學目的，原題C不變。"
+    ],
+    "scientificSources": [
+      "https://www.fisheries.noaa.gov/species/green-turtle",
+      "https://dar.hawaii.gov/learn-explore/species/sea-turtles/green-sea-turtle/",
+      "https://www.marine.gov.tw/zh_tw/conservation/biolist/%E9%90%98%E5%BD%A2%E5%BE%AE%E5%AD%94%E7%8F%8A%E7%91%9A-89439732"
+    ],
+    "contentChanges": false,
+    "confirmedAnswerPreserved": "C",
+    "checkedAt": "2026-11-22T02:07:07.577217+00:00"
+  }
+}

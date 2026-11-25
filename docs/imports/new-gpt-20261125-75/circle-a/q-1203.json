@@ -1,0 +1,44 @@
+{
+  "id": "q-1203",
+  "sourceId": "src-more-075",
+  "subject": "Math",
+  "title": "數學第7題｜內切圓的切線段與面積比",
+  "originalQuestionNumber": "7",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-25",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-25",
+  "question": "如右圖，△ABC 中，AB、BC、AC 分別與圓 O 相切於 D、E、F 三點，已知△AOD 面積為 8，△BOE 面積為 16，△COF 面積為 6。若△ABC 周長為 60，則 AB 的長度為何？\n\n(A) 16\n(B) 24\n(C) 36\n(D) 48",
+  "answer": "(B) 24（原卷預期；數據相互矛盾）",
+  "explanation": "從 O 到三邊的垂直距離都是內切圓半徑 r。以 AD、BE、CF 為底的 △AOD、△BOE、△COF 有共同的高 r，所以 AD：BE：CF＝8：16：6＝4：8：3。\n\n從同一圓外點所引的兩切線段等長，故 AD＝AF、BD＝BE、CE＝CF。設這三對線段的長度依次為 4k、8k、3k。三邊長 AB＝12k、BC＝11k、AC＝7k，周長 30k＝60，得到 k＝2。AB＝12×2＝24，得到紅筆訂正所採的 (B)。\n\n(A) 16 是 BD 長，(C) 36 是其他兩邊 BC＋AC，(D) 48 為 AB 的兩倍。也可用三角形不等式驗算：周長為 60 時，任一邊必須小於 30。\n\n若把三個面積視為精確數值，題目條件無法同時成立。六個小三角形兩兩等面積，所以 △ABC 總面積是 2×(8＋16＋6)＝60；周長 60 則半周長為 30，依「面積＝內切圓半徑×半周長」會得到 r＝2。然而上述三邊 24、22、14 由海龍公式得到的面積是 √(30×6×8×16)＝48√10，約 151.79，與 60 不合。因此 (B) 是只按題給面積比例與周長推出的原卷預期選項。",
+  "studentAnswer": "C（36）",
+  "trap": "同一個外點的兩個切線段等長，並且三角形使用內切圓半徑作高時可直接比底。",
+  "tags": [
+    "內切圓",
+    "切線段等長",
+    "等高三角形"
+  ],
+  "verification": "原卷逐題核對",
+  "verificationNote": "已實開真正上傳原卷，核對題幹、作答必要圖與紅筆訂正。實際考試日期未確認，日期取首次提問的臺灣日期。冊次與對應教材章節無獨立確認，歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "passage": "",
+  "tables": [],
+  "images": [
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1203-original.png"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1203-figure.png",
+      "alt": "內切圓 O 與三角形 ABC 相切於 D、E、F 的原卷題圖",
+      "caption": "原卷作答附圖",
+      "kind": "original"
+    }
+  ],
+  "explanationFigures": [],
+  "contentStatus": "完整原題",
+  "correctOption": "B"
+}

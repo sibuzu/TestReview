@@ -1,0 +1,55 @@
+{
+  "id": "q-1209",
+  "disposition": "new",
+  "originalIndex": 31,
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b06f11f-fbd8-83e8-bdf4-b552e70c9426",
+  "originalFileId": "file_00000000165482068d1e2377776b2c87",
+  "originalSHA256": "95d1f969c2d9b9dce64c0683127adf29076c1e3799423daa55600f6bf7d35544",
+  "originalMessageId": "75997a5a-7489-4f6a-bf8c-4523e800e794",
+  "firstQuestionTimestamp": 1795616600.0940928,
+  "actualViewed": [
+    ".cache/intake-20261125-6b06f11f/original-31.jpg",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1209-original.png",
+    "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1209-figure.png"
+  ],
+  "cropBoxes": {
+    "fullQuestion": [
+      52,
+      515,
+      900,
+      1204
+    ],
+    "necessaryFigure": [
+      638,
+      512,
+      895,
+      745
+    ]
+  },
+  "crops": [
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1209-original.png",
+      "sha256": "1faa3385a0e9aa7e70f2121584b72a2731863f6103d1134502b24ede20752bed"
+    },
+    {
+      "path": "docs/imports/new-gpt-20261125-75/circle-a/crops/q-1209-figure.png",
+      "sha256": "2662eb9553c9c945c3869ef851b2e93f96752f4397cf11c8a354c1da7596f716"
+    }
+  ],
+  "inclusionEvidence": "原卷底部原答 2√5，有清楚紅筆訂正 4√5－4；附件 32 上方也拍到同一訂正。",
+  "duplicateReview": "以完整題幹及選項查正式題庫、題組小題與草稿索引，沒有相同題幹或相似度達 0.60 的候選；另以題目辨識字句回查舊來源檔及跨來源原卷 SHA，未見相同原題。",
+  "independentAnswer": "4√5－4",
+  "printedSubquestionCount": 1,
+  "substantiveCorrections": [
+    {
+      "kind": "sourceArtwork",
+      "before": "來源 AI 主圖所標 B 不在所畫割線上。例如 SVG 割線在 y＝147.98 時 x 約為 198.5，繪線與所標 B=(191.84,147.98) 分開。",
+      "after": "答案維持 4√5－4。新圖計算弦兩端及 H 的共線坐標，並將 AB 單獨標出。",
+      "reason": "核對原卷圖文與來源 AI 輔助解說後，明確保留原題並更正推導條件或幾何圖。"
+    }
+  ],
+  "dedupeCandidates": []
+}

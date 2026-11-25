@@ -1,0 +1,84 @@
+{
+  "id": "q-307",
+  "subject": "Biology",
+  "title": "石花菜與變形蟲的五界分類",
+  "art": "docs/comics/art/q-307-biology-v2-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "Four separately generated built-in image_gen drafts from the paused biology upgrade; revalidated for the final batch.",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-307-source-c7f3e067c3.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：C，變形蟲。本題依國中五界分類判斷。",
+  "visualChecked": false,
+  "producerAgent": "/root/final9_classification",
+  "createdAt": "2026-11-25T15:27:36.167035+00:00",
+  "biologyIllustrationStyle": "near-realistic high-quality biology textbook illustration",
+  "styleReference": "todo/image.png",
+  "rationale": "分格對應原卷條件、構造關係與選項判讀。學習文字獨立於插畫，方便閱讀原題與圖說。",
+  "panels": [
+    {
+      "heading": "① 辨認石花凍的原料",
+      "text": "石花菜是紅藻。圖中紫紅色藻體附著在岩石上，細小枝條反覆分枝。依本題的國中五界分類，石花菜歸入原生生物界。",
+      "caption": "石花菜屬紅藻的代表形態。新製科學教材插畫。",
+      "alt": "紫紅色石花菜由岩石上的固著處長出，藻體反覆分枝。",
+      "image": "docs/comics/art/q-307-biology-v2-panel-1.png"
+    },
+    {
+      "heading": "② 看變形蟲的偽足",
+      "text": "一個變形蟲細胞伸出數個圓鈍偽足。五界分類把變形蟲也放在原生生物界。",
+      "caption": "變形蟲放大",
+      "alt": "一個透明的變形蟲細胞伸出偽足，可見胞質顆粒、細胞核及食物泡。",
+      "image": "docs/comics/art/q-307-biology-v2-panel-2.png"
+    },
+    {
+      "heading": "③ 核對其他三個選項",
+      "text": "左上藍菌屬於原核生物界，右上高麗菜屬於植物界，下方香菇屬於真菌界。",
+      "caption": "藍菌、高麗菜、香菇分別放大",
+      "alt": "左上可見珠鏈狀藍菌，右上是高麗菜葉球，下方是具菌褶和菌柄的香菇。",
+      "image": "docs/comics/art/q-307-biology-v2-panel-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 C　變形蟲",
+    "points": [
+      "左邊的石花菜是紅藻，右邊是單細胞變形蟲。",
+      "本題依國中五界分類比較，兩者同屬原生生物界。"
+    ],
+    "image": "docs/comics/art/q-307-biology-v2-panel-4.png",
+    "alt": "石花菜和變形蟲分開放大對照。左為紫紅色的分枝藻體，右為透明、具偽足的變形蟲。"
+  },
+  "protectedWords": [
+    "石花菜",
+    "石花凍",
+    "紅藻",
+    "變形蟲",
+    "原生生物界",
+    "原核生物界",
+    "植物界",
+    "真菌界",
+    "高麗菜",
+    "藍菌",
+    "國中五界分類"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-final9-20261125/classification/q-307-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/classification/q-307-generation.json",
+  "artHashes": {
+    "docs/comics/art/q-307-biology-v2-panel-1.png": "12d3527f04b434d6a4310a4a0e5090ddc707610693bfbd5a6f24f92be37d6071",
+    "docs/comics/art/q-307-biology-v2-panel-2.png": "65d4ea281f9f3c52d86434aa747fb2c8ac585d4d96a8d3d019d9491e52e8847a",
+    "docs/comics/art/q-307-biology-v2-panel-3.png": "c13c736051c1b6a4e865f0fbb78e670619655938adc74d4b49781ff2d2b88411",
+    "docs/comics/art/q-307-biology-v2-panel-4.png": "0b9e45de42f4fae4d5de28f249ab08af5a4ae79b1f87e051b8f0585452be56e2"
+  },
+  "supportingSources": [
+    {
+      "url": "https://fae.moa.gov.tw/map/food_item.php?id=368&type=AS01",
+      "finding": "石花凍原料與石花菜屬紅藻的形態。"
+    },
+    {
+      "url": "https://www.fa.gov.tw/book/fishlibrary/files/assets/basic-html/page-48.html",
+      "finding": "臺灣水產生物圖鑑收錄石花菜屬。"
+    }
+  ]
+}

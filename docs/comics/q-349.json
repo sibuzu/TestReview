@@ -1,73 +1,102 @@
 {
   "id": "q-349",
   "subject": "Biology",
-  "title": "複製增加DNA，不把雙套變成單套",
-  "art": "docs/comics/art/q-349.svg",
-  "protectedWords": [
-    "有絲分裂",
-    "減數分裂",
-    "染色分體",
-    "2n＝8",
-    "n＝4",
-    "單套",
-    "雙套",
-    "DNA",
-    "4條",
-    "8條",
-    "4對"
-  ],
-  "panels": [
-    {
-      "heading": "① 生長主軸：雙套的有絲分裂",
-      "text": "果蠅普通體細胞有4對、共8條染色體，記成2n＝8。受精卵發育時，普通體細胞以有絲分裂維持雙套，不是用減數分裂製造配子。",
-      "alt": "程式畫8條染色體，分為4組各2條；藍橘只區分兩份，不表示不同基因或精確果蠅核型。"
-    },
-    {
-      "heading": "② 像X仍算一條，不等於兩套",
-      "text": "本格有8條已複製的染色體，仍是2n＝8。每條各含兩條姐妹染色分體；複製增加的是DNA，不是把同源染色體套數減半或加倍。",
-      "alt": "程式畫8個已複製染色體單位，每個交叉中心相連並有單一中心點；不把兩條姐妹算成兩套。"
-    },
-    {
-      "heading": "③ 乙、丁各4條，才是單套",
-      "text": "本格左圓示意乙、右圓示意丁：兩者都只有4條，即n＝4。丁只是已複製，不是此刻才開始複製。原卷丙有8條，不能因不像X就判成單套。",
-      "alt": "兩個小圓各4條，左未複製、右已複製，對應乙/丁套數差異；非連續有絲分裂時序圖。"
-    }
-  ],
-  "fourth": {
-    "answer": "答案 B：不會出現乙、丁",
-    "points": [
-      "判套數看成套的染色體，不只看X形。",
-      "甲、丙為雙套；乙、丁為單套。",
-      "DNA複製在分裂前完成，已複製不等於正在複製。"
-    ]
-  },
-  "rationale": "實看第36題全部原卷與五個細胞作答圖，逐一數甲8、乙4、丙8、丁4，維持已核對B。既有三張錯誤AI圖已排除，不再採用或重開同項。精確染色體條數/套數用程式SVG，四類以長度簡化，8/8/4/4與中心相連數由程式檢查；不是完整核型或細胞週期時序，也不畫一般圖像模型可能錯數的染色體。NHGRI與ASU正文核對有絲分裂維持與DNA複製先於分裂。",
-  "generationMethod": "programmatic SVG for exact chromosome counts",
-  "generatorFile": "docs/comics/q-349-generate.py",
-  "promptSummary": "三格：4對8單條、4對8已複製X、兩小圓各4單套（未複製/已複製）。只畫確切可計數單位，精確數值和套數用HTML。",
+  "title": "果蠅發育時維持雙套",
+  "art": "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "Four independent built-in image_gen calls for the accepted panels",
+  "biologyIllustrationStyle": "近真實自然史與生物科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
   "originalMaterialsChecked": true,
   "originalMaterials": [
     "site/dist/assets/questions/q-349-source-c25c8e601f.jpg",
     "site/dist/assets/questions/q-349-figure-3dd6458fe4.jpg"
   ],
-  "sources": [
+  "answerCheckedAgainst": "正確答案：B。乙、丁為單套n＝4；受精卵發育成體的普通體細胞分裂維持雙套，故不會出現。",
+  "rationale": "教學圖展示組織生長、單條複製染色體及細胞分裂和果蠅發育；確切染色體數量列於圖說，並以原卷核對。",
+  "producerAgent": "/root/final9_plant_animal",
+  "visualChecked": true,
+  "panels": [
     {
-      "url": "https://www.genome.gov/genetics-glossary/Mitosis",
-      "note": "有絲分裂分配複製的染色體至兩個子細胞。"
+      "heading": "① 先分清題目問的是發育",
+      "text": "果蠅由受精卵發育時，增加體細胞數靠有絲分裂。原卷圖（十）的起始細胞是4對染色體，共8條，記為 2n＝8。",
+      "alt": "果蠅胚胎的組織示意，每個完整細胞核內的染色質分散，數目需讀原卷。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-1.png",
+      "caption": "新製科學教材插畫，原卷附圖另列。"
     },
     {
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26869/",
-      "note": "搜索摘要可讀，正文recaptcha，未宣稱已讀該正文。"
+      "heading": "② 看套數也要看複製",
+      "text": "圖中示意一條已複製的染色體，兩條姐妹染色分體仍連在一起。原卷甲的染色體已複製，但是套數仍為雙套。",
+      "alt": "一條複製後的染色體近觀，兩條姐妹染色分體在中央連接。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-2.png"
     },
     {
-      "url": "https://askabiologist.asu.edu/cell-division",
-      "note": "ASU生命科學院正文：分裂前間期複製DNA、有絲分裂子細胞維持染色體。"
+      "heading": "③ 回原圖判斷乙、丁",
+      "text": "乙和丁各有4條，都只有單套，記為 n＝4。原卷丙仍有8條。體細胞分裂完成後，兩個子細胞各保有雙套。",
+      "alt": "果蠅胚胎組織細胞末期分裂的概念圖，兩側各有一個逐漸完整的細胞核。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-3.png"
     }
   ],
-  "answerCheckedAgainst": "甲/丙2n8、乙/丁n4；複製染色體的姐妹染色分體仍屬一條相連染色體，不改套數。原題針對生長的普通體細胞有絲分裂，不含形成配子。",
-  "visualChecked": true,
-  "createdAt": "2026-10-28T21:37:39.823339+00:00",
-  "layoutVersion": "native-fluid-v6",
+  "fourth": {
+    "answer": "B　不會出現乙、丁",
+    "points": [
+      "甲、丙是雙套（2n＝8）。",
+      "乙、丁是單套（n＝4）。",
+      "DNA 複製在分裂前完成。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-4.png",
+    "alt": "果蠅的卵、幼蟲和成蟲並列，示意發育的不同階段，非等比例。"
+  },
+  "protectedWords": [
+    "有絲分裂",
+    "體細胞",
+    "染色體",
+    "染色分體",
+    "原卷圖",
+    "2n＝8",
+    "n＝4",
+    "子細胞"
+  ],
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-final9-20261125/plant-animal/q-349-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/plant-animal/q-349-generation.json",
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-1.png": "3292e5a7ac283e7724667782e11bf72b0f52c888784285323a6dd438f0b81f5d",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-2.png": "b3dc152d46569c84c0a45ed2731d975d4c4b417b8865993e0fd50163d303dfea",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-3.png": "7f06ce65d8a488b68db41b8164423138aae0f30020a33d28430de21769aee459",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-349-biology-20261125-4.png": "15aa4d659c7ebadb4b22e98ee5f17e3e740caf3d4c9895843e54f1028475771b"
+  },
+  "supportingSources": [
+    "https://flybase.org/flybase/associated_files/Experiments_with_Drosophila_for_Biology_Courses.pdf",
+    "https://www.genome.gov/genetics-glossary/Mitosis"
+  ],
+  "createdAt": "2026-11-25T15:39:54.346651+00:00",
+  "producerReviewPath": "docs/comics/biology-final9-20261125/plant-animal/q-349-review.json",
+  "producerManifest": "docs/comics/biology-final9-20261125/plant-animal/q-349-handoff.json",
+  "producerVisualChecked": true,
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "originalMaterials": [
+      "site/dist/assets/questions/q-349-source-c25c8e601f.jpg",
+      "site/dist/assets/questions/q-349-figure-3dd6458fe4.jpg"
+    ],
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-349-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-349-app-390.png",
+      "/tmp/weirugo-comic-checks/q-349-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-349-standalone-390.png"
+    ],
+    "note": "實看圖（十），甲與丙各8條，乙與丁各4條，原卷紅筆B。四圖分別是有核動物細胞、同一著絲點連接兩姐妹染色分體、分裂末期兩子核與果蠅發育。圖說用原卷直接核對精確套數，示意圖不另外捏造核型。正式 app 與單頁桌手機畫面實看，四圖完整。",
+    "checkedAt": "2026-11-25T15:41:18.485070+00:00"
+  },
+  "nativeArt": "assets/comics/q-349-art-3292e5a7ac-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -79,8 +108,6 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "artSHA256": "17442cb6f280a9e7dd851695f64fef427afbf561bf6c5442292029a93acd96cb",
-  "checkedAt": "2026-10-28T21:41:17.153153+00:00",
-  "validationFile": "docs/comics/q-349-validation.json",
-  "nativeArt": "assets/comics/q-349-art-17442cb6f2.svg"
+  "checkedAt": "2026-11-25T15:41:18.496049+00:00",
+  "validationFile": "docs/comics/q-349-validation.json"
 }

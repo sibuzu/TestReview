@@ -1,0 +1,116 @@
+{
+  "state": "complete",
+  "startedAt": "2026-11-25T15:27:06.104678+00:00",
+  "limit": 9,
+  "questionIds": [
+    "q-307",
+    "q-308",
+    "q-309",
+    "q-310",
+    "q-311",
+    "q-348",
+    "q-349",
+    "q-559",
+    "q-560"
+  ],
+  "requiredImages": 36,
+  "worknerdTaskId": "t_82ad7a4e2c8f488db673",
+  "instruction": "將生物的舊解說圖改為精美解說圖 9 題作完， COMMIT PUSH",
+  "completedQuestionIds": [
+    "q-307",
+    "q-308",
+    "q-309",
+    "q-348",
+    "q-559",
+    "q-560",
+    "q-310",
+    "q-311",
+    "q-349"
+  ],
+  "baselineCommit": "b4eb891596c4cc0530442cf9737c3f384ff2069d",
+  "baselineQualityCounts": {
+    "fine": 37,
+    "legacy": 9
+  },
+  "expectedQualityCountsAfter": {
+    "fine": 46,
+    "legacy": 0
+  },
+  "styleReference": "todo/image.png",
+  "styleReferenceSHA256": "ca36f77021425921001aef133996e8e1fd1085aefe28adc7f3a748312ab0910d",
+  "producerAssignments": {
+    "classification": [
+      "q-307",
+      "q-308",
+      "q-309"
+    ],
+    "plant-animal": [
+      "q-310",
+      "q-311",
+      "q-349"
+    ],
+    "cells-health": [
+      "q-348",
+      "q-559",
+      "q-560"
+    ]
+  },
+  "integrationEvents": [
+    {
+      "id": "q-307",
+      "integrationEventId": "integration-job-a5260c3ae89a44a7b8155b3b1e8ea839",
+      "integratedAt": "2026-11-25T15:30:57.168031+00:00"
+    },
+    {
+      "id": "q-308",
+      "integrationEventId": "integration-job-efb589ebec4d42358d7dab1e0c1022ee",
+      "integratedAt": "2026-11-25T15:30:57.226094+00:00"
+    },
+    {
+      "id": "q-309",
+      "integrationEventId": "integration-job-578265b4220040339d1bf9aa11f82be1",
+      "integratedAt": "2026-11-25T15:30:57.284050+00:00"
+    },
+    {
+      "id": "q-348",
+      "integrationEventId": "integration-job-9b7077f076c2447d977a5d49baabb28a",
+      "integratedAt": "2026-11-25T15:32:02.702480+00:00"
+    },
+    {
+      "id": "q-559",
+      "integrationEventId": "integration-job-d59adfdaf9b74d9eb949991acb5ee9ed",
+      "integratedAt": "2026-11-25T15:36:30.724279+00:00"
+    },
+    {
+      "id": "q-560",
+      "integrationEventId": "integration-job-aea6f4c9a9124996ace2cd75e5bc8937",
+      "integratedAt": "2026-11-25T15:37:34.632486+00:00"
+    },
+    {
+      "id": "q-310",
+      "integrationEventId": "integration-job-8610345ae4924cf18313134be94569b3",
+      "integratedAt": "2026-11-25T15:39:13.558705+00:00"
+    },
+    {
+      "id": "q-311",
+      "integrationEventId": "integration-job-194af1b967ff4a51bc96c6b90cd41457",
+      "integratedAt": "2026-11-25T15:39:53.131337+00:00"
+    },
+    {
+      "id": "q-349",
+      "integrationEventId": "integration-job-49cee40d6f374662abdf2e068156db68",
+      "integratedAt": "2026-11-25T15:41:18.496049+00:00"
+    }
+  ],
+  "completedImages": 36,
+  "remaining": 0,
+  "updatedAt": "2026-11-25T15:41:18.545153+00:00",
+  "completedAt": "2026-11-25T15:41:18.545153+00:00",
+  "stopGateClosed": true,
+  "remainingLegacyBiology": 0,
+  "finalValidation": "docs/comics/biology-final9-20261125/final-validation.json",
+  "deliverables": "docs/comics/biology-final9-20261125/final-assets.json",
+  "websiteTestsPassed": 123,
+  "monitorTestsPassed": 103,
+  "publicationReceipt": "docs/comics/biology-final9-20261125/publication-receipt.json"
+}

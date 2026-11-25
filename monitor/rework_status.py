@@ -24,6 +24,14 @@ def build_rework_status(root, data, progress):
     batch_path = root / control.get('limitedBatch', 'missing-batch.json')
     batch = json.loads(batch_path.read_text()) if batch_path.is_file() else {}
     active_ids = set(batch.get('questionIds', [])) if batch.get('state') == 'active' else set()
+    limit = batch.get('limit', 0)
+    if batch.get('state') == 'complete':
+        image_count = batch.get('completedImages', limit * 4)
+        batch_note = f' 本批生物{limit}題、{image_count}張圖已完成驗收。其餘重製維持暫停。'
+    elif batch:
+        batch_note = f' 本批生物{limit}題，每題4圖，完成本批後停止。其餘重製維持暫停。'
+    else:
+        batch_note = '新來源製圖另列，不會恢復這份暫停清單。'
     questions, parents = {}, {}
     for page in data.get('questions', []):
         for question in page.get('groupQuestions') or [page]:
@@ -75,7 +83,4 @@ def build_rework_status(root, data, progress):
                 otherResumeCommand='繼續非生物圖解重製，只處理監看頁的待重製清單',
                 reassessCommand='重新檢視並補製 ' + '、'.join(r['id'] for r in reassess) + ' 的四張圖解',
                 items=items, reassessItems=reassess, plan=PLAN,
-                note='按原問計數，題組內每一小題各算一題；草稿與待驗收圖不計已完成。'
-                     + (' 本批生物10題、40張圖已完成驗收並停止；其餘重製維持暫停。' if batch.get('state') == 'complete'
-                        else ' 本批只恢復生物10題，每題4圖，完成10題即停；其餘重製維持暫停。' if batch
-                        else '新來源製圖另列，不會恢復這份暫停清單。'))
+                note='按原問計數，題組內每一小題各算一題；草稿與待驗收圖不計已完成。' + batch_note)

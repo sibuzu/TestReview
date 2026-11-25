@@ -1,73 +1,98 @@
 {
   "id": "q-311",
   "subject": "Biology",
-  "title": "商品叫代鮑，分類要看海螺本身",
-  "art": "docs/comics/art/q-311-v2.png",
+  "title": "海螺、海參分屬不同門",
+  "art": "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "Four independent built-in image_gen calls for the accepted panels",
+  "biologyIllustrationStyle": "近真實自然史與生物科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-311-source-cca831b72f.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：D。海參屬棘皮動物，與海螺不同門，四者中最符合關係最遠。",
+  "rationale": "代表性海生無脊椎動物外形對照，依門的層級判斷，插畫不指定代鮑物種。",
+  "producerAgent": "/root/final9_plant_animal",
+  "visualChecked": true,
+  "panels": [
+    {
+      "heading": "① 由題幹確認是海螺肉",
+      "text": "題目已說「代鮑」是海螺的螺肉。分類時以海螺本身為準。海螺屬於軟體動物。",
+      "alt": "海底沙地上一隻代表性海螺，螺旋殼與伸出的腹足可辨。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-1.png",
+      "caption": "新製科學教材插畫，原卷附圖另列。"
+    },
+    {
+      "heading": "② 辨認三種軟體動物",
+      "text": "左上是腹足類的鮑魚，右上是頭足類的烏賊，下方是雙殼類的牡蠣。三者都和海螺同屬軟體動物門。",
+      "alt": "左上鮑魚有單片耳形殼與殼孔，右上烏賊有側鰭和臂，下方牡蠣具有兩枚粗糙的殼瓣。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-2.png"
+    },
+    {
+      "heading": "③ 依身體構造辨認海參",
+      "text": "前景的海參有可見的管足，和背景的海星、海膽同屬棘皮動物。海參摸起來柔軟，分類仍屬棘皮動物。",
+      "alt": "有細小管足的海參爬在礁岩上，其後有海星和海膽。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "D　海參",
+    "points": [
+      "與海螺同門：鮑魚、烏賊、牡蠣。",
+      "海參屬棘皮動物，與海螺分屬不同門。",
+      "分類要比較構造及類群。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-4.png",
+    "alt": "同一潮池中並列海螺與海參，左方海螺有螺旋殼，右方海參有細小管足。圖示非等比例。"
+  },
   "protectedWords": [
-    "代鮑",
-    "海螺",
-    "鮑魚",
-    "烏賊",
-    "牡蠣",
-    "海參",
     "軟體動物",
     "棘皮動物",
     "腹足類",
     "頭足類",
-    "雙殼類",
-    "海星",
-    "海膽"
+    "雙殼類"
   ],
-  "panels": [
-    {
-      "heading": "① 先找題幹已給的身分",
-      "text": "題目說代鮑是一種海螺肉，所以分類的比較對象是海螺。海螺屬軟體動物，不能只依商品名稱中的鮑字判斷。",
-      "alt": "全新自然情境海螺插畫，可辨螺旋殼及爬行足；非指定代鮑物種，不以插畫猜品種。"
-    },
-    {
-      "heading": "② A、B、C都還在軟體動物中",
-      "text": "鮑魚與海螺是腹足類；烏賊是頭足類；牡蠣是雙殼類。外形和殼的形式不同，卻都屬軟體動物，與海螺同門。",
-      "alt": "分開的鮑魚、烏賊及牡蠣自然示意；外形與大小非比例，不是祖先後代演化圖。"
-    },
-    {
-      "heading": "③ 海參柔軟，卻屬棘皮動物",
-      "text": "海參與海星、海膽同屬棘皮動物，和海螺不同門。這組選項中，D的分類關係最遠；不能把身體軟直接等同於軟體動物。",
-      "alt": "海參、海星、海膽的海底觀察情境，不畫外殼或魚鰭，不把海參當植物或蠕蟲。"
-    }
-  ],
-  "fourth": {
-    "answer": "答案 D：海參",
-    "points": [
-      "先由題幹確定：代鮑是海螺。",
-      "A、B、C與海螺同門。",
-      "D是不同門，符合本題關係最遠。"
-    ]
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-final9-20261125/plant-animal/q-311-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/plant-animal/q-311-generation.json",
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-1.png": "8d0a18faa040a1942fb800911e9ccae5eaaca822a984eec32efe9a11be5d00b8",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-2.png": "2e4863c16feaab9ea1f4ad811bd56fa5e091f525c57d378f98236f24071e1f95",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-3.png": "7bf33851e555717b943c52471fbc2923a132dd42720d0f9959d95d845016c99f",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-311-biology-20261125-4.png": "8027a50d15fa1f571f7e9752eeab397d4333535c1c500509daea6514ea13d0c5"
   },
-  "rationale": "完整原卷第17題和四選項及來源原對話實讀，D與目前詳解一致；全新自然生物素材配HTML分類比較，不採用來源AI圖。僅比較本題三個同門一個不同門，不以外形柔軟或外殼有無分類，也不把同門說成毫無差別。",
-  "generationMethod": "built-in imagegen new wordless marine natural-history scenes plus editable HTML",
-  "promptFile": "docs/comics/q-311-prompt.txt",
-  "originalMaterialsChecked": true,
-  "originalMaterials": [
-    "site/dist/assets/questions/q-311-source-cca831b72f.jpg",
-    "site/dist/sources/6ae0de73-5310-83ec-9332-f7f22d61959a.txt lines 440–510"
+  "supportingSources": [
+    "https://www.fisheries.noaa.gov/national/outreach-and-education/fun-facts-about-intriguing-invertebrates",
+    "https://ocean.si.edu/ocean-life/invertebrates/sea-stars-urchins-and-relatives",
+    "https://oceanservice.noaa.gov/facts/seacuke.html"
   ],
-  "sources": [
-    {
-      "url": "https://www.nmmba.gov.tw/publication/News_Content.aspx?n=D2D358AF79CF63AB&s=02AC2520E058EC0A&sms=51E132D99F254E3B",
-      "note": "國立海生館棘皮動物圖鑑簡介，正文確認海參與海膽屬棘皮動物。"
-    },
-    {
-      "url": "https://www.tfrin.gov.tw/theme_data.php?id=253&sub_theme=fishery&theme=qa",
-      "note": "農業部水試所漁業問答搜尋結果確認烏賊軟體動物門頭足綱；正文端點一度逾時。"
-    },
-    {
-      "url": "https://www.marine.gov.tw/zh_tw/conservation/EcologyArea/貝類大概有多少分類-92923454",
-      "note": "海洋國家公園管理處分類介紹：軟體動物各綱與牡蠣雙殼、烏賊頭足。"
-    }
-  ],
-  "answerCheckedAgainst": "題幹給海螺，A腹足B頭足C雙殼皆軟體，D海參棘皮與之不同門。",
-  "visualChecked": true,
-  "layoutVersion": "native-fluid-v6",
+  "createdAt": "2026-11-25T15:38:39.038411+00:00",
+  "producerReviewPath": "docs/comics/biology-final9-20261125/plant-animal/q-311-review.json",
+  "producerManifest": "docs/comics/biology-final9-20261125/plant-animal/q-311-handoff.json",
+  "producerVisualChecked": true,
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "originalMaterials": [
+      "site/dist/assets/questions/q-311-source-cca831b72f.jpg"
+    ],
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-311-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-311-app-390.png",
+      "/tmp/weirugo-comic-checks/q-311-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-311-standalone-390.png"
+    ],
+    "note": "原卷指出代鮑是海螺肉，選 D。圖1為海生鳳凰螺代表，圖2依順序對照有呼吸孔的鮑、帶鰭烏賊與雙瓣牡蠣，圖3以管足和海星、海膽同場示意棘皮類，圖4海生馬蹄螺與海參並列。正式 app 與單頁桌手機畫面實看，四圖完整。",
+    "checkedAt": "2026-11-25T15:39:53.119864+00:00"
+  },
+  "nativeArt": "assets/comics/q-311-art-8d0a18faa0-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -79,21 +104,6 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "createdAtUTC": "2026-10-29T01:01:09.644629+00:00",
-  "artSha256": "36b6abbffa0c6a5e5dc00cbe9c49c815bd0b676078299f5bd1ec7d4d3554a9c9",
-  "editPromptFile": "docs/comics/q-311-edit-prompt.txt",
-  "artReview": "初版左格像陸生蝸牛，已內建imagegen編修為海螺，保留原始版本供核對；只用v2。",
-  "checkedAt": "2026-10-29T02:06:15.456916+00:00",
-  "validationFile": "docs/comics/q-311-validation.json",
-  "nativeArt": "assets/comics/q-311-art-36b6abbffa-web.webp",
-  "rootReview": {
-    "checkedAt": "2026-10-29T02:06:15.454340+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "visualChecked": true,
-    "decision": "complete",
-    "note": "原卷17題全部選項核對；海螺為海生非陸蝸牛，鮑/烏賊/牡蠣三種可辨，海參/海星/海膽棘皮動物不混軟體。正式1440/390實看、三寬6項QA通過。",
-    "sourceAIReplaced": true,
-    "sharedWebPOrNativeAssetVerified": true
-  }
+  "checkedAt": "2026-11-25T15:39:53.131337+00:00",
+  "validationFile": "docs/comics/q-311-validation.json"
 }

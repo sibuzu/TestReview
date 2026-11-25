@@ -1,0 +1,78 @@
+{
+  "id": "q-560",
+  "subject": "Biology",
+  "title": "淋巴結容納參與免疫的淋巴球",
+  "art": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four separate built-in image_gen calls",
+  "biologyIllustrationStyle": "近真實科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-560-source-3decd965ab.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：A，淋巴球聚集以對抗病原體。",
+  "rationale": "先定位頸部淋巴結，再以剖面與血球形態比較定位淋巴球，最後放大顯示淋巴組織中免疫細胞聚集。",
+  "producerAgent": "/root/final9_cells_health",
+  "producerVisualChecked": true,
+  "visualChecked": false,
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-25T15:35:47.889570+00:00",
+  "promptFile": "docs/comics/biology-final9-20261125/cells-health/q-560-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/cells-health/q-560-generation.json",
+  "supportingSources": [
+    "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-node",
+    "https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html",
+    "https://www.nhlbi.nih.gov/health/blood-tests"
+  ],
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-1.png": "c0fefcacf95d8f6afe45442302d297b0f5a1ea8a3241a5fc303c672f4c0dd74f",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-2.png": "b7e81e6f6a3c5fa35a46a78ed0bd57d4b75850d3dc4e1756c76e14c32a04ad97",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-3.png": "c8d00f9da35b03b75ebe71b9b5f4b6ae66b47ff50d019c79c15df45f91cd9482",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-4.png": "1dc45890d2fda4173eb1afc3128852b3526c7cc9ba42ecf44eb6ec9703f710d1"
+  },
+  "protectedWords": [
+    "淋巴結",
+    "淋巴球",
+    "淋巴管",
+    "紅血球",
+    "血小板",
+    "免疫細胞",
+    "細胞碎片",
+    "病原體",
+    "鼠蹊部"
+  ],
+  "panels": [
+    {
+      "heading": "① 在頸部找到淋巴結",
+      "text": "頸部、腋下和鼠蹊部都有淋巴結群。圖中是一串由淋巴管連接的頸部淋巴結。",
+      "alt": "側頸可見數個沿淋巴管成串的小型豆形淋巴結。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-1.png",
+      "caption": "新製科學教材插畫｜非原卷或實拍"
+    },
+    {
+      "heading": "② 看淋巴結內的免疫組織",
+      "text": "淋巴結內有淋巴球等免疫細胞。受到抗原刺激時，相關細胞可活化、增殖與聚集，淋巴結也可能因此腫大。",
+      "alt": "豆形淋巴結剖面，可見外囊、密集的外圍免疫組織與中央組織。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-2.png"
+    },
+    {
+      "heading": "③ 認清三者的主要工作",
+      "text": "圖中有細胞核的是淋巴球，可參與免疫。紅色凹盤狀的紅血球主要運氧，小型血小板是參與止血的細胞碎片。",
+      "alt": "紫色圓核淋巴球、中央凹陷的紅血球、尺寸較小的血小板並列。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "A　淋巴球聚集以對抗病原體",
+    "points": [
+      "淋巴球參與免疫，是白血球的一類。",
+      "紅血球主要運氧，血小板主要止血。",
+      "淋巴結腫大是可能的免疫反應。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-4.png",
+    "alt": "淋巴組織內多顆具大圓核的淋巴球聚集，為顯微概念插畫。"
+  }
+}

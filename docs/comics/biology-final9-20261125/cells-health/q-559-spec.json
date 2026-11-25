@@ -1,0 +1,78 @@
+{
+  "id": "q-559",
+  "subject": "Biology",
+  "title": "患部血液先流入，再經微血管流出",
+  "art": "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four separate built-in image_gen calls",
+  "biologyIllustrationStyle": "近真實科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-559-source-d664f2ea95.jpg",
+    "site/dist/assets/questions/q-559-blood-flow-7776ef72e6.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：B，蜂的毒液量：甲＞丙，最不合理。",
+  "rationale": "由組織血管網總覽、微血管壁、附近組織細胞到下游合流，讓學生沿原卷血流箭頭比較同一患部的進出。",
+  "producerAgent": "/root/final9_cells_health",
+  "producerVisualChecked": true,
+  "visualChecked": false,
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-25T15:34:58.555928+00:00",
+  "promptFile": "docs/comics/biology-final9-20261125/cells-health/q-559-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/cells-health/q-559-generation.json",
+  "supportingSources": [
+    "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/classification.html",
+    "https://training.seer.cancer.gov/anatomy/cardiovascular/blood/physiology.html"
+  ],
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-1.png": "86944c5886e83e8219ce284e712448d586b34f6c0af0414e915560a75b5c8b93",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-2.png": "5b570ef69171b9a2bfeefc585e39460ec941f5f73f93077b97d8e1eda61d7afc",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-3.png": "04bb89bf525201f929289ee1e054f0e5b3e57a20473d6a05a9b005983af00d17",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-4.png": "27560bd25723f5bdd3f5dbfc7fc1546a4815887849a3c295c872c50293de0853"
+  },
+  "protectedWords": [
+    "原卷箭頭",
+    "患部組織",
+    "微血管",
+    "動脈側",
+    "靜脈側",
+    "葡萄糖",
+    "二氧化碳",
+    "甲＞丙",
+    "甲＜丙"
+  ],
+  "panels": [
+    {
+      "heading": "① 按原卷箭頭判斷流向",
+      "text": "甲是動脈側入口，乙是微血管網，丙是靜脈側出口。圖中流向由上往下，可讀作甲 → 乙 → 丙。",
+      "alt": "局部微血管網由上方入口分支，向下匯聚至同一個出口。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-1.png",
+      "caption": "新製科學教材插畫｜非原卷或實拍"
+    },
+    {
+      "heading": "② 乙是組織交換的部位",
+      "text": "微血管內是血液，壁外是患部組織。依原題簡化模型，已由患部進入乙血液的蜂毒會隨血流移向丙。",
+      "alt": "單條微血管剖面嵌於組織間隙，紅血球位於管腔裡。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-2.png"
+    },
+    {
+      "heading": "③ 比較流入與流出",
+      "text": "組織利用葡萄糖，並把代謝產生的二氧化碳送入血液。原題比較患部兩側，葡萄糖甲＞丙，二氧化碳甲＜丙。",
+      "alt": "有細胞核及粒線體的組織細胞在微血管旁，紅血球仍位於管腔。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "B　蜂的毒液量甲＞丙，最不合理",
+    "points": [
+      "比較同一患部的入口與出口。",
+      "已進入局部血液的蜂毒隨丙側血流帶走。",
+      "大小關係適用於題目的局部交換模型。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/cells-health/art/q-559-bio20261125-4.png",
+    "alt": "從多條微血管匯入同一條較粗的下游小靜脈。"
+  }
+}

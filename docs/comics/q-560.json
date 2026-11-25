@@ -1,83 +1,102 @@
 {
   "id": "q-560",
   "subject": "Biology",
-  "title": "辨認免疫細胞，不把三類功能混在一起",
-  "art": "docs/comics/art/q-560.png",
-  "startedAt": "2026-10-28T20:46:48.286256+00:00",
-  "layoutVersion": "native-fluid-v6",
-  "panels": [
-    {
-      "heading": "① 淋巴球：參與免疫反應",
-      "text": "淋巴結內有淋巴球等免疫細胞。受到刺激後，相關細胞可活化、增殖及聚集，使淋巴結可能腫大；淋巴球屬白血球的一類。",
-      "alt": "淋巴球防禦團隊的擬人概念，示意參與免疫，不代表真實形態比例，也不畫成全部淋巴球都吞噬病菌。"
-    },
-    {
-      "heading": "② 紅血球：主要運送氧氣",
-      "text": "紅血球的主要工作是運送氧氣，不是題目所問在淋巴結內聚集對抗病原體的免疫角色，因此B不選。",
-      "alt": "紅血球在血管內作運輸員的擬人概念，藍色貨物象徵氧氣，不畫在淋巴結中打病菌。"
-    },
-    {
-      "heading": "③ 血小板：主要參與止血",
-      "text": "血小板主要協助止血、凝血。它和紅血球、淋巴球的主要作用不同，不能因都與血液有關，就選三者一起對抗病原體。",
-      "alt": "血小板小碎片修補血管破口的擬人概念，象徵止血凝血，非實際組織比例或醫療操作。"
-    }
+  "title": "淋巴結容納參與免疫的淋巴球",
+  "art": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four separate built-in image_gen calls",
+  "biologyIllustrationStyle": "近真實科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-560-source-3decd965ab.jpg"
   ],
-  "fourth": {
-    "heading": "④ 題目問淋巴結的免疫反應",
-    "answer": "答案 A：淋巴球聚集抗病原體",
-    "points": [
-      "淋巴球：免疫；紅血球：運氧。",
-      "血小板：止血、凝血，不等同淋巴球。",
-      "腫大是可能的反應，不憑腫大判定特定病原。"
-    ]
+  "answerCheckedAgainst": "正確答案：A，淋巴球聚集以對抗病原體。",
+  "rationale": "先定位頸部淋巴結，再以剖面與血球形態比較定位淋巴球，最後放大顯示淋巴組織中免疫細胞聚集。",
+  "producerAgent": "/root/final9_cells_health",
+  "producerVisualChecked": true,
+  "visualChecked": true,
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-25T15:35:47.889570+00:00",
+  "promptFile": "docs/comics/biology-final9-20261125/cells-health/q-560-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/cells-health/q-560-generation.json",
+  "supportingSources": [
+    "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-node",
+    "https://training.seer.cancer.gov/anatomy/lymphatic/components/nodes.html",
+    "https://www.nhlbi.nih.gov/health/blood-tests"
+  ],
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-1.png": "c0fefcacf95d8f6afe45442302d297b0f5a1ea8a3241a5fc303c672f4c0dd74f",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-2.png": "b7e81e6f6a3c5fa35a46a78ed0bd57d4b75850d3dc4e1756c76e14c32a04ad97",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-3.png": "c8d00f9da35b03b75ebe71b9b5f4b6ae66b47ff50d019c79c15df45f91cd9482",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-4.png": "1dc45890d2fda4173eb1afc3128852b3526c7cc9ba42ecf44eb6ec9703f710d1"
   },
   "protectedWords": [
     "淋巴結",
     "淋巴球",
-    "免疫細胞",
-    "免疫反應",
-    "白血球",
+    "淋巴管",
     "紅血球",
     "血小板",
+    "免疫細胞",
+    "細胞碎片",
     "病原體",
-    "止血",
-    "凝血",
-    "氧氣",
-    "活化",
-    "增殖"
+    "鼠蹊部"
   ],
-  "originalAssets": [
-    "site/dist/assets/questions/q-560-source-3decd965ab.jpg"
-  ],
-  "references": [
+  "panels": [
     {
-      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-node",
-      "title": "NCI: lymph node",
-      "checkedAt": "2026-10-28T20:46:48.286256+00:00",
-      "supports": "淋巴結含淋巴球等白血球、參與防禦感染。"
+      "heading": "① 在頸部找到淋巴結",
+      "text": "頸部、腋下和鼠蹊部都有淋巴結群。圖中是一串由淋巴管連接的頸部淋巴結。",
+      "alt": "側頸可見數個沿淋巴管成串的小型豆形淋巴結。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-1.png",
+      "caption": "新製科學教材插畫｜非原卷或實拍"
     },
     {
-      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymphocyte",
-      "title": "NCI: lymphocyte",
-      "checkedAt": "2026-10-28T20:46:48.286256+00:00",
-      "supports": "淋巴球為免疫細胞/白血球一類，不概括為全部吞噬細胞。"
+      "heading": "② 看淋巴結內的免疫組織",
+      "text": "淋巴結內有淋巴球等免疫細胞。受到抗原刺激時，相關細胞可活化、增殖與聚集，淋巴結也可能因此腫大。",
+      "alt": "豆形淋巴結剖面，可見外囊、密集的外圍免疫組織與中央組織。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-2.png"
     },
     {
-      "url": "https://www.nhlbi.nih.gov/health/blood-tests",
-      "title": "NHLBI: blood tests — blood cell functions",
-      "checkedAt": "2026-10-28T20:46:48.286256+00:00",
-      "supports": "紅血球血紅素攜氧、血小板碎片協助止血凝血。"
+      "heading": "③ 認清三者的主要工作",
+      "text": "圖中有細胞核的是淋巴球，可參與免疫。紅色凹盤狀的紅血球主要運氧，小型血小板是參與止血的細胞碎片。",
+      "alt": "紫色圓核淋巴球、中央凹陷的紅血球、尺寸較小的血小板並列。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-3.png"
     }
   ],
-  "rationale": "實看原卷33題A與四選項，NCI/NHLBI官方基本細胞功能查核一致。新製淋巴球防禦/紅血球運輸/血小板修補三角色，圖明示擬人概念，不當病理切片、不畫淋巴球皆吞噬或以淋巴結腫大診斷疾病。",
-  "answerCheckedAgainst": "原卷A與題庫A；免疫/運氧/止血三功能獨立區分。",
-  "visualChecked": true,
-  "artSHA256": "d22fa66621deadbcdc119dbc6cd99500f49f4865f726462625101e86a822e441",
-  "checkedAt": "2026-10-28T20:50:48.814616+00:00",
-  "completedAt": "2026-10-28T20:49:00.939941+00:00",
-  "layoutEvidence": "docs/comics/q-560-preview-validation.json",
-  "visualReview": "實看原卷33題A與NCI/NHLBI基本功能資料；新三格淋巴球防禦/紅血球搬運/血小板修補皆為擬人概念，未畫淋巴球吞噬、紅血球在淋巴結打病菌或用腫大診斷。1440/1120/390實看圖文功能對應，無圖內教學字、無溢出，同列等高及手機自然高度通過。",
-  "nativeArt": "assets/comics/q-560-art-d22fa66621-web.webp",
+  "fourth": {
+    "answer": "A　淋巴球聚集以對抗病原體",
+    "points": [
+      "淋巴球參與免疫，是白血球的一類。",
+      "紅血球主要運氧，血小板主要止血。",
+      "淋巴結腫大是可能的免疫反應。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/cells-health/art/q-560-bio20261125-4.png",
+    "alt": "淋巴組織內多顆具大圓核的淋巴球聚集，為顯微概念插畫。"
+  },
+  "producerReviewPath": "docs/comics/biology-final9-20261125/cells-health/q-560-review.json",
+  "producerManifest": "docs/comics/biology-final9-20261125/cells-health/q-560-handoff.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "originalMaterials": [
+      "site/dist/assets/questions/q-560-source-3decd965ab.jpg"
+    ],
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-560-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-560-app-390.png",
+      "/tmp/weirugo-comic-checks/q-560-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-560-standalone-390.png"
+    ],
+    "note": "原卷選 A，腫大淋巴結可有淋巴球活化與聚集。圖1頸側淋巴結串位置合理，圖2凸側輸入、凹側門輸出與周邊濾泡可辨，圖3淋巴球有核、紅血球雙凹、血小板是小細胞片段；圖4呈現淋巴組織中的免疫細胞。正式 app 與單頁桌手機畫面實看，四圖完整。",
+    "checkedAt": "2026-11-25T15:37:34.621574+00:00"
+  },
+  "nativeArt": "assets/comics/q-560-art-c0fefcacf9-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -89,5 +108,6 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
+  "checkedAt": "2026-11-25T15:37:34.632486+00:00",
   "validationFile": "docs/comics/q-560-validation.json"
 }

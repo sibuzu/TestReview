@@ -75,7 +75,7 @@ function renderSources(){if(!data)return;const batch=$('batch-filter').value,sta
 function renderIllustrationRework(r){
  const section=$('illustration-rework');section.hidden=!r;if(!r)return;
  $('illustration-rework-heading').textContent=r.title;
- $('illustration-rework-state').textContent=r.activeBatch?.state==='active'?`生物限額 ${r.activeBatch.completed}／${r.activeBatch.limit} 題` :r.activeBatch?.state==='complete'?'本批10題已完成，已停止':r.state==='paused'?'目前暫停':r.pending?'依目前工作狀態':'已完成';
+ $('illustration-rework-state').textContent=r.activeBatch?.state==='active'?`生物限額 ${r.activeBatch.completed}／${r.activeBatch.limit} 題` :r.activeBatch?.state==='complete'?`本批 ${r.activeBatch.limit} 題已完成`:r.state==='paused'?'目前暫停':r.pending?'依目前工作狀態':'已完成';
  $('illustration-rework-counts').innerHTML=`<span>已驗收 <strong>${esc(r.completed)}</strong> 原問</span><span>待重製 <strong>${esc(r.pending)}</strong> 原問</span><span>舊免製待重審 <strong>${esc(r.reassess)}</strong> 原問</span>`;
  $('illustration-rework-subjects').innerHTML=r.subjects.map(s=>`<tr><th scope="row">${esc(s.name)}</th><td>${esc(s.completed)}</td><td>${esc(s.pending)}</td><td>${esc(s.reassess)}</td></tr>`).join('');
  $('illustration-rework-note').textContent=r.note;
@@ -85,7 +85,7 @@ function renderIllustrationRework(r){
   r.reassess?`<p>重審舊免製 ${esc(r.reassess)} 題：<code>${esc(r.reassessCommand)}</code></p>`:''
  ].join('');
  $('illustration-rework-pending-title').textContent=`待重製題目（${r.pending} 原問）`;
- $('illustration-rework-pending').innerHTML=r.items.filter(q=>q.state!=='complete').map(q=>`<article class="source">${link(q.url,q.id+' · '+q.title)}<small>${esc(q.subjectName)} · ${q.state==='active'?'本批10題範圍內，完成驗收才計數':'暫停；草稿不計完成'}</small></article>`).join('')||'<p class="muted">沒有待重製題目。</p>';
+ $('illustration-rework-pending').innerHTML=r.items.filter(q=>q.state!=='complete').map(q=>`<article class="source">${link(q.url,q.id+' · '+q.title)}<small>${esc(q.subjectName)} · ${q.state==='active'?'本批驗收中':'暫停；草稿不計完成'}</small></article>`).join('')||'<p class="muted">沒有待重製題目。</p>';
  $('illustration-rework-reassess').hidden=!r.reassess;
  $('illustration-rework-reassess-items').innerHTML=r.reassessItems.map(q=>`<article class="source">${link(q.url,q.id+' · '+q.title)}<p class="muted note">舊判定：${esc(q.reason)}</p><p class="note">此項尚無自己的四張圖，另列待重審，不計入上方已驗收數。</p></article>`).join('');
 }

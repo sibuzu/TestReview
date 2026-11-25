@@ -177,6 +177,28 @@ class ExecutionControlTests(unittest.TestCase):
             for action,args in [(stage,('complete','old ready draft',[])),(begin,()),(integrated,())]:
                 with self.assertRaisesRegex(ValueError,'已停止'):action(root,ids[-1],*args)
 
+    def test_smaller_batch_requires_matching_authorized_count_and_stops_at_limit(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            manifest, plan, ids = self.limited_fixture(root)
+            batch = json.loads(manifest.read_text())
+            batch.update(limit=9, questionIds=ids[:9])
+            manifest.write_text(json.dumps(batch))
+            config = json.loads(plan.read_text())
+            config['executionControl'].update(activeOriginalQuestionIds=ids[:9])
+            plan.write_text(json.dumps(config))
+            with self.assertRaisesRegex(ValueError, '不一致'):
+                assert_work_allowed(root, ids[0])
+            config['executionControl'].update(activeOriginalQuestionCount=9, remainingActiveOriginalQuestions=9)
+            plan.write_text(json.dumps(config))
+            assert_work_allowed(root, ids[0])
+            with self.assertRaisesRegex(ValueError, '白名單'):
+                assert_work_allowed(root, ids[-1])
+            batch['completedQuestionIds'] = ids[:9]
+            manifest.write_text(json.dumps(batch))
+            with self.assertRaisesRegex(ValueError, '已停止'):
+                assert_work_allowed(root, ids[0])
+
     def test_limited_missing_or_mismatched_manifest_fails_closed(self):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d);manifest,plan,ids=self.limited_fixture(root)

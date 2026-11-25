@@ -1,35 +1,54 @@
 {
   "id": "q-309",
   "subject": "Biology",
-  "title": "裸子植物有種子，沒有真正的果實",
-  "art": "docs/comics/art/q-309.svg",
-  "layoutVersion": "native-fluid-v6",
-  "startedAt": "2026-10-29T00:59:54.701505+00:00",
+  "title": "雲杉的傳粉與花粉管",
+  "art": "docs/comics/art/q-309-biology-v2-panel-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "Four separately generated built-in image_gen drafts from the paused biology upgrade; revalidated for the final batch.",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-309-source-727683f283.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：C。雄球果產生花粉，經風傳播到雌球果的胚珠處，花粉萌發形成花粉管，符合C。",
+  "visualChecked": true,
+  "producerAgent": "/root/final9_classification",
+  "createdAt": "2026-11-25T15:27:36.167035+00:00",
+  "biologyIllustrationStyle": "near-realistic high-quality biology textbook illustration",
+  "styleReference": "todo/image.png",
+  "rationale": "分格對應原卷條件、構造關係與選項判讀。學習文字獨立於插畫，方便閱讀原題與圖說。",
   "panels": [
     {
-      "heading": "① 雄球果產花粉，雌球果有胚珠",
-      "text": "雄球果產生花粉，風把花粉帶到雌球果的胚珠處。松樹常見的成熟木質大松果是雌球果，雄球果通常較小；D說反了。",
-      "alt": "松樹雄球果和成熟雌球果簡化形態對照，非固定倍率或所有發育時期/裸子物種的大小定律。"
+      "heading": "① 雄球果釋放花粉",
+      "text": "雲杉的雄球果會把花粉釋放到空氣中，風將花粉帶往雌球果。枝條上的細長綠色構造是針葉。",
+      "caption": "雲杉雄球果放出淡黃色花粉。新製科學教材插畫。",
+      "alt": "針葉間的數個雲杉雄球果釋出淡黃色花粉。",
+      "image": "docs/comics/art/q-309-biology-v2-panel-1.png"
     },
     {
-      "heading": "② 花粉萌發，才形成花粉管",
-      "text": "花粉到達胚珠處後，萌發形成花粉管，符合C。花粉落上去是傳粉的一環，還要經後續過程才能受精，不能把兩者當同一件事。",
-      "alt": "裸露胚珠局部剖面與花粉萌發管示意，花粉管從花粉向胚珠內生長，沒有加上子房、柱頭或把花粉當卵。"
+      "heading": "② 胚珠長在雌球果的種鱗上",
+      "text": "觀察露出的種鱗內側，可見淡綠色胚珠。雲杉的胚珠直接長在種鱗上，花粉可隨風到達胚珠的珠孔附近。",
+      "caption": "雲杉雌球果局部掀開，露出種鱗上的胚珠",
+      "alt": "帶針葉的雲杉枝條上，粉紅及綠色鱗片層疊的雌球果露出種鱗內側兩枚淡綠色胚珠。",
+      "image": "docs/comics/art/q-309-biology-v2-panel-2.png"
     },
     {
-      "heading": "③ 松子是種子，不是果實",
-      "text": "裸子植物的胚珠沒有子房包覆，因此不形成真正的果實。松子是種子；松果雖然有「果」字，也不是由子房發育來的果實，排除B。",
-      "alt": "帶種皮松子與簡化種子剖面，種皮內有胚及養分組織，外面不另畫成子房形成的果肉。"
+      "heading": "③ 花粉萌發形成花粉管",
+      "text": "胚珠上方的開口是珠孔。花粉到達珠孔附近後萌發，花粉管由花粉粒向胚珠內部生長。受精發生在後續階段。",
+      "caption": "胚珠縱剖，花粉粒向內長出花粉管",
+      "alt": "放大的雲杉胚珠縱剖。頂端珠孔附近有一粒淡黃帶氣囊的花粉，細長的花粉管向內延伸。",
+      "image": "docs/comics/art/q-309-biology-v2-panel-3.png"
     }
   ],
   "fourth": {
-    "heading": "④ 裸子植物有種子，沒有真正的果實",
-    "answer": "答案 C：花粉經風傳播，再萌發花粉管",
+    "answer": "答案 C　雲杉花粉隨風傳播",
     "points": [
-      "雄球果產生花粉；雌球果具有胚珠。",
-      "種子有種皮保護；「裸露」不是沒有種皮。",
-      "A的鐵樹開花是俗稱，蘇鐵沒有植物學上的真正花。"
-    ]
+      "花粉抵達雌球果的胚珠後萌發成花粉管。",
+      "另以松樹為例，成熟雌球果通常較大。",
+      "右下的松子是種子；右上的小球果為松樹雄球果。"
+    ],
+    "image": "docs/comics/art/q-309-biology-v2-panel-4.png",
+    "alt": "松樹構造的放大對照。左邊是成熟木質雌球果，右上是針葉和一簇較小的雄球果，右下是松子及去殼後的種仁。"
   },
   "protectedWords": [
     "裸子植物",
@@ -51,28 +70,52 @@
     "鐵樹開花",
     "蘇鐵"
   ],
-  "originalAssets": [
-    "site/dist/assets/questions/q-309-source-727683f283.jpg"
-  ],
-  "originalVisualCheck": "實看原卷13完整四選項，C雲杉花粉與胚珠花粉管、D松樹雄球果較大，物種分開表述，沒有把松樹大小示例當雲杉精密解剖。",
-  "answerCheckedAgainst": "原題C與既有核對一致；實讀OpenStax種子植物裸子章松類傳粉/管萌發/後續受精及種皮由胚珠組織形成，不把裸子解釋成沒有種皮。",
-  "references": [
+  "manualLineBreaks": false,
+  "promptFile": "docs/comics/biology-final9-20261125/classification/q-309-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/classification/q-309-generation.json",
+  "artHashes": {
+    "docs/comics/art/q-309-biology-v2-panel-1.png": "b7310078c39e8fdb96477b44dd35dd2b1b8798b4c3e6eed6d27e357df6387b95",
+    "docs/comics/art/q-309-biology-v2-panel-2.png": "45506b7896cc8b3342490f687819974d186d23607e7095b3c4b737ab49409992",
+    "docs/comics/art/q-309-biology-v2-panel-3.png": "a6979eb15872b2305b5b7beed40b532cda2516cfd43a81a897008a7a9118eb2a",
+    "docs/comics/art/q-309-biology-v2-panel-4.png": "3ad4d39cf4757a721bc8800c171eda27cc29fe47c611552f10fdf3b00431477f"
+  },
+  "supportingSources": [
     {
-      "url": "https://openstax.org/books/concepts-biology/pages/14-3-seed-plants-gymnosperms",
-      "title": "OpenStax Concepts of Biology 14.3 Gymnosperms",
-      "checked": "實讀Life Cycle of a Conifer，花粉傳播、萌發管及受精不同時、種皮/胚/養分組織；不沿用該舊書對現代系統學的枝外敘述。"
+      "url": "https://botit.botany.wisc.edu/botany_130/diversity/plants/Vascular_Plants/Coniferophyta/Coniferophyta.html",
+      "finding": "針葉樹雄球果產花粉、風媒傳粉、胚珠位於種鱗上與花粉管運送。"
+    },
+    {
+      "url": "https://labs.plb.ucdavis.edu/courses/bis/1c/text/Chapter24nf.pdf",
+      "finding": "針葉樹與松樹教材的胚珠切面、珠孔、花粉管向胚珠內生長及成熟木質雌球果。"
+    },
+    {
+      "url": "https://naturewalk.yale.edu/trees/pinaceae-pine/picea-abies/norway-spruce-305",
+      "finding": "雲杉的雌、雄球果和花粉管生長階段。"
     }
   ],
-  "rationale": "三張原生植物構造圖直接說明球果功能、花粉管方向、種子非果實；精確管線與結構不交imagegen猜造，HTML承載答案與概念。只畫必要局部，不將裸子種子誤示無種皮，也不將全部裸子植物傳粉都說成只有風。",
-  "artType": "precise native SVG botanical structures",
-  "generationCalls": 0,
-  "artSHA256": "45d2753483e075b3fccffdd645cbf22ddd4aed24ce00a91698b8ccd0a2266299",
-  "visualChecked": true,
-  "checkedAt": "2026-10-29T01:20:21.958324+00:00",
-  "completedAt": "2026-10-29T01:01:15.300789+00:00",
-  "layoutEvidence": "docs/comics/q-309-preview-validation.json",
-  "visualReview": "實看1440/1120/390新植物構造SVG：雄小/成熟雌大、胚珠開口與花粉萌發管可見且無子房/柱頭、松子有種皮內含胚。精確結構非照片倍率，管線未被後景遮住，無橫溢/保護詞拆行，手機自然高度、雙欄同列等高。",
-  "nativeArt": "assets/comics/q-309-art-45d2753483.svg",
+  "producerReviewPath": "docs/comics/biology-final9-20261125/classification/q-309-review.json",
+  "producerManifest": "docs/comics/biology-final9-20261125/classification/q-309-handoff.json",
+  "producerVisualChecked": true,
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "originalMaterials": [
+      "site/dist/assets/questions/q-309-source-727683f283.jpg"
+    ],
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-309-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-309-app-390.png",
+      "/tmp/weirugo-comic-checks/q-309-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-309-standalone-390.png"
+    ],
+    "note": "原卷為 C。雲杉雄球果散粉、雌球果種鱗上的胚珠及珠孔處花粉管分別明確可辨，結論圖標明改以松樹、雌雄球果及松子比較，不把松子或松果當成果實。正式 app 與單頁桌手機畫面實看，四圖完整。",
+    "checkedAt": "2026-11-25T15:30:57.274092+00:00"
+  },
+  "nativeArt": "assets/comics/q-309-art-b7310078c3-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -84,15 +127,6 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "rootReview": {
-    "checkedAt": "2026-10-29T01:20:21.955971+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "visualChecked": true,
-    "decision": "complete",
-    "note": "原卷13題裸子四選項實看，C不變；新SVG比較雄/成熟雌球果、花粉萌發管及帶種皮松子，無子房/柱頭，不把傳粉等同受精，松子非果實。正式桌手機圖文實看與6項QA通過，來源AI圖已移除。",
-    "sourceAIReplaced": true,
-    "sharedNativeAssetVerified": true
-  },
+  "checkedAt": "2026-11-25T15:30:57.284050+00:00",
   "validationFile": "docs/comics/q-309-validation.json"
 }

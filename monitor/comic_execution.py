@@ -170,16 +170,18 @@ def assert_limited_biology_allowed(root, control, qid):
     ids = batch.get('questionIds', [])
     active = control.get('activeOriginalQuestionIds', [])
     completed = batch.get('completedQuestionIds', [])
-    if (batch.get('limit') != 10 or len(ids) != 10 or len(set(ids)) != 10
-            or set(active) != set(ids) or len(active) != 10
+    limit = control.get('activeOriginalQuestionCount', 10)
+    if (type(limit) is not int or limit <= 0 or batch.get('limit') != limit
+            or len(ids) != limit or len(set(ids)) != limit
+            or set(active) != set(ids) or len(active) != limit
             or len(completed) != len(set(completed)) or not set(completed) <= set(ids)):
-        raise ValueError('生物限量批次白名單不一致；只授權凍結的10題。')
+        raise ValueError('生物限量批次白名單不一致；只授權已凍結的題目。')
     if (batch.get('state') != 'active' or control.get('biologyQualityUpgrade') != 'active'
-            or len(completed) >= batch['limit']
-            or control.get('remainingActiveOriginalQuestions', 10) <= 0):
-        raise ValueError('生物限量批次已停止；不得續作第11題或重新整合。')
+            or len(completed) >= limit
+            or control.get('remainingActiveOriginalQuestions', limit) <= 0):
+        raise ValueError('生物限量批次已停止；本批驗收已結束。')
     if qid not in ids or qid in completed:
-        raise ValueError(f'{qid}: 不在本批尚未完成的10題白名單；其他重製維持暫停。')
+        raise ValueError(f'{qid}: 不在本批尚未完成的白名單；其他重製維持暫停。')
 
 
 def assert_work_allowed(root, qid):

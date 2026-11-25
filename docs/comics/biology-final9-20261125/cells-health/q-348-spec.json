@@ -1,0 +1,76 @@
+{
+  "id": "q-348",
+  "subject": "Biology",
+  "title": "病毒有遺傳物質，但缺少完整細胞構造",
+  "art": "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "four separate built-in image_gen calls",
+  "biologyIllustrationStyle": "近真實科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-348-source-a830e26491.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：B。病毒具有遺傳物質，複製時可發生變異。",
+  "rationale": "由粒子剖面、細胞外粒子與細胞的比較、細菌剖面到結論，一步步區分有遺傳物質、細胞結構和自行繁殖三個概念。",
+  "producerAgent": "/root/final9_cells_health",
+  "producerVisualChecked": true,
+  "visualChecked": false,
+  "manualLineBreaks": false,
+  "createdAt": "2026-11-25T15:29:51.591311+00:00",
+  "promptFile": "docs/comics/biology-final9-20261125/cells-health/q-348-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/cells-health/q-348-generation.json",
+  "supportingSources": [
+    "https://www.genome.gov/genetics-glossary/Virus",
+    "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-how-is-it-transmitted"
+  ],
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-1.png": "de551e95e39a589974b013160ed34f4244fbbf227d4d7b5329a1dc5cbeea471d",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-2.png": "47eb8de0a76ee9fdd721c8f9d758921cf6262849cd4a0773cae058227a563bdd",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-3.png": "dab03fc845e890d12f13272092faf29185077eaac58c5541d36afd2b2514e041",
+    "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-4.png": "7b9327d2b79913e180f8498284271ab73d5b95b4445582bae17f9e2e27149e0f"
+  },
+  "protectedWords": [
+    "遺傳物質",
+    "病毒粒子",
+    "細胞構造",
+    "原核生物",
+    "感染力",
+    "宿主細胞",
+    "COVID-19",
+    "SARS-CoV-2"
+  ],
+  "panels": [
+    {
+      "heading": "① 看病毒粒子的內部",
+      "text": "剖面內的細線代表遺傳物質，外側是包覆構造。病毒沒有完整的細胞構造。",
+      "alt": "有外層與內部遺傳物質的通用病毒粒子剖面放大圖。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-1.png",
+      "caption": "新製科學教材插畫｜非原卷或實拍"
+    },
+    {
+      "heading": "② 有感染力與能繁殖是兩回事",
+      "text": "物體表面上的病毒粒子無法自行生長、代謝或繁殖。病毒只有利用活的宿主細胞才能增加拷貝。",
+      "alt": "左側為靜置的病毒粒子，右側為有細胞核的動物細胞；兩側放大倍率不同，粒子與細胞未接觸。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-2.png"
+    },
+    {
+      "heading": "③ 用細菌核對原核生物",
+      "text": "細菌雖然沒有細胞核，仍有完整的細胞構造。病毒和原核生物的細菌屬不同類型。",
+      "alt": "一個普通細菌的剖面，外圍為細胞構造，內部遺傳物質沒有核膜包圍。",
+      "image": "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-3.png"
+    }
+  ],
+  "fourth": {
+    "answer": "B　具有遺傳物質，且可能發生變異",
+    "points": [
+      "病毒的遺傳物質可發生變異。",
+      "細胞外的粒子無法自行複製。",
+      "造成 COVID-19 的病毒稱 SARS-CoV-2。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/cells-health/art/q-348-bio20261125-4.png",
+    "alt": "外觀與剖面兩種通用病毒粒子模型，放大凸顯內部遺傳物質。"
+  }
+}

@@ -1,79 +1,99 @@
 {
   "id": "q-310",
   "subject": "Biology",
-  "title": "松果有鱗片，名稱有果不等於果實",
-  "art": "docs/comics/art/q-310.svg",
-  "artMode": "deterministic-svg",
-  "startedAt": "2026-10-29T00:59:25.286798+00:00",
+  "title": "松果的木質鱗片",
+  "art": "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-1.png",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "Four independent built-in image_gen calls for the accepted panels",
+  "biologyIllustrationStyle": "近真實自然史與生物科學教材插畫",
+  "styleReference": "todo/image.png",
+  "sourceGeneratedArtUsed": false,
+  "reusedOldGeneratedArt": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-310-source-c162e5bc4f.jpg",
+    "site/dist/assets/questions/q-310-figure-a3da11e0f7.jpg"
+  ],
+  "answerCheckedAgainst": "正確答案：D。圖中松果表面一片片重疊的構造為鱗片，D符合。",
+  "rationale": "由松枝外觀、毬果鱗片特寫、雄毬果釋粉及雌毬果與種子標本區分生殖構造。",
+  "producerAgent": "/root/final9_plant_animal",
+  "visualChecked": true,
   "panels": [
     {
-      "heading": "① 針狀葉與毬果，判斷松樹",
-      "text": "先看原題照片中的針狀葉與毬果。松樹是裸子植物；毬果是生殖構造，但不是真正的花，也不是真正的果實。",
-      "alt": "松枝針葉束與成熟毬果外觀簡圖，只支援原圖辨識，不畫某松種精確葉束數或毬果解剖。"
+      "heading": "① 從針葉與毬果辨認松樹",
+      "text": "原卷照片中可看到細長針葉和松果。松樹屬裸子植物，毬果是它的生殖構造。",
+      "alt": "松枝上垂掛一顆成熟木質毬果，周圍有細長針葉。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-1.png",
+      "caption": "新製科學教材插畫，原卷附圖另列。"
     },
     {
-      "heading": "② 表面重疊的構造叫鱗片",
-      "text": "圖中松果由一片片鱗片構成，所以D正確。種子可受鱗片遮護，但不是包在由子房形成的真正果實裡，因此B不成立。",
-      "alt": "概念性毬果表面重疊鱗片，單片以金色標出並引線標鱗片；未將鱗片誤當成果皮或宣稱裸子種子全無遮護。"
+      "heading": "② 近看松果的鱗片",
+      "text": "一片片鱗片沿著毬果中軸排列，外層彼此重疊。仔細看原圖下方棕色的松果，也能看見這種排列。",
+      "alt": "成熟松果的木質片層相互重疊，外露的鱗片尖端有清楚的質地和陰影。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-2.png"
     },
     {
-      "heading": "③ 松樹主要靠風傳播花粉",
-      "text": "C要針對本圖松樹判斷，主要是風傳粉。A雖說對了生殖構造，前面的「具有花」仍錯，不能只看到選項一半正確就選。",
-      "alt": "風線與花粉符號表示風傳粉，不從成熟棕色毬果畫出花粉，也不把大顆種子傳播與傳粉混用。"
+      "heading": "③ 松樹主要靠風傳粉",
+      "text": "松樹的雄毬果釋出細小花粉，隨風飄散；成熟木質毬果則是雌毬果發育後的樣子。",
+      "alt": "松樹雄毬果簇在針葉間釋出細小的花粉，圖中淡黃色粉塵表示風傳粉。",
+      "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-3.png"
     }
   ],
   "fourth": {
-    "answer": "答案 D：圖中構造由鱗片組成",
+    "answer": "D　圖中構造由鱗片組成",
     "points": [
-      "毬果不是真正的花與果實。",
-      "鱗片不是果皮，種子不是包在真正果實內。",
-      "題目指松樹，不把所有裸子植物傳粉方式一概而論。"
-    ]
+      "鱗片構成松果，可遮護種子。",
+      "種子沒有被子房發育成的果實包住。",
+      "依圖中松樹的特性判斷傳粉。"
+    ],
+    "image": "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-4.png",
+    "alt": "張開的松果、拆下一片木質鱗片及兩枚帶薄翼的種子，顯示三種可區分的構造。"
   },
   "protectedWords": [
-    "針狀葉",
-    "毬果",
-    "松樹",
+    "木質鱗片",
+    "雄毬果",
+    "雌毬果",
     "裸子植物",
-    "生殖構造",
-    "鱗片",
-    "真正果實",
-    "風傳粉",
-    "果皮",
-    "花粉"
-  ],
-  "rationale": "原卷16題/必要松枝照片/全部四選項實看，D不變。全新SVG松枝外觀/高亮鱗片/風傳花粉符號，避免生成錯誤雌雄解剖；不把成熟種子毬果當花粉來源，不將所有裸子植物概括風媒。",
-  "promptSummary": "原生SVG松枝針葉與毬果簡圖、重疊鱗片高亮、風線與花粉符號；不採來源AI圖。",
-  "answerCheckedAgainst": "原圖針葉毬果/四選項，D；臺北市教學資源裸子植物雌毬果鱗片、國立臺灣博物館花園風媒傳粉資料。",
-  "officialReferences": [
-    {
-      "url": "https://tmrc.tiec.tp.edu.tw/HTML/RSR20081126124501AL9/%E8%A3%B8%E5%AD%90%E6%A4%8D%E7%89%A9.htm",
-      "finding": "裸子植物教學資源列松雌毬果鱗片與種子、雄雌毬果對照。"
-    },
-    {
-      "url": "https://file.moc.gov.tw/Download.ashx?n=6Iqx5ZyS6KOh55qE6KqY5oOR6IiH5qmf5b%2BDLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL250bWhpc3RvcnkvZTY4ZjhiZDUtYTQ3Ny00OWY1LWI2Y2QtYzM4MzY0NjQzMThlLnBkZg%3D",
-      "finding": "臺灣博物館自然科學資料說明松樹花粉風傳與雌毬花鱗片攔截花粉。"
-    }
+    "風傳粉"
   ],
   "manualLineBreaks": false,
-  "layoutVersion": "native-fluid-v6",
-  "sourceAIUsed": false,
-  "originalChecked": {
-    "images": [
+  "promptFile": "docs/comics/biology-final9-20261125/plant-animal/q-310-prompts.json",
+  "generationEvidence": "docs/comics/biology-final9-20261125/plant-animal/q-310-generation.json",
+  "artHashes": {
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-1.png": "aeaf209b68cc4bc581b71976504fae48b5d17eed85313a84251d0cdc18b2e325",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-2.png": "9dbf681cc1e9a5a5c4ae594b8761146ead749d530028bff0b167f78b93efb706",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-3.png": "17c0bc7988a0022a979d63aad846dff466396cb0bd96c01b8ed7df45fdd26a6c",
+    "docs/comics/biology-final9-20261125/plant-animal/art/q-310-biology-20261125-4.png": "2e2093a90c6af9a9510c2ba84e97e7a594308fec87df948e67ac769a265bb756"
+  },
+  "supportingSources": [
+    "https://research.fs.usda.gov/treesearch/download/32852.pdf",
+    "https://research.fs.usda.gov/download/treesearch/808.pdf"
+  ],
+  "createdAt": "2026-11-25T15:37:56.716064+00:00",
+  "producerReviewPath": "docs/comics/biology-final9-20261125/plant-animal/q-310-review.json",
+  "producerManifest": "docs/comics/biology-final9-20261125/plant-animal/q-310-handoff.json",
+  "producerVisualChecked": true,
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalVisualChecked": true,
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "desktopMobileActuallyViewed": true,
+    "originalMaterials": [
       "site/dist/assets/questions/q-310-source-c162e5bc4f.jpg",
       "site/dist/assets/questions/q-310-figure-a3da11e0f7.jpg"
     ],
-    "visualChecked": true,
-    "answer": "D",
-    "notes": "完整四選項及松針毬果照片實看，原A筆跡不沿用；新圖不複製來源AI圖。"
+    "screenshots": [
+      "/tmp/weirugo-comic-checks/q-310-app-1440.png",
+      "/tmp/weirugo-comic-checks/q-310-app-390.png",
+      "/tmp/weirugo-comic-checks/q-310-standalone-1440.png",
+      "/tmp/weirugo-comic-checks/q-310-standalone-390.png"
+    ],
+    "note": "原卷所示針葉、上方小球果與下方木質毬果清楚，答案 D。圖1辨識針葉與雌毬果，圖2放大重疊木質鱗片，圖3另示雄毬果散粉，圖4標出獨立鱗片與帶翅種子；圖說區分裸露種子與果實。正式 app 與單頁桌手機畫面實看，四圖完整。",
+    "checkedAt": "2026-11-25T15:39:13.547870+00:00"
   },
-  "artSHA256": "9cd14d90c94c4eefef5cb912d770bcfd03818de6ff9d629b3d997829e7468f26",
-  "completedAt": "2026-10-29T01:02:04.669774+00:00",
-  "checkedAt": "2026-10-29T01:13:51.369250+00:00",
-  "visualChecked": true,
-  "previewValidation": "docs/comics/q-310-preview-validation.json",
-  "visualReview": "實看原卷/必要照片與原生540×180、1440/390成品；針葉毬果、單片鱗片高亮與引線正確，未把鱗片當果皮；風線花粉獨立示意，未從成熟種子毬果畫出花粉。D不變，全新不採來源AI圖，三寬無溢出/版型問題。",
-  "nativeArt": "assets/comics/q-310-art-9cd14d90c9.svg",
+  "nativeArt": "assets/comics/q-310-art-aeaf209b68-web.webp",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -85,15 +105,6 @@
     "singleColumnNaturalHeight": true,
     "narrowSingleColumn": true
   },
-  "rootReview": {
-    "checkedAt": "2026-10-29T01:13:51.367642+00:00",
-    "originalAndFullTextChecked": true,
-    "desktopMobileActuallyViewed": true,
-    "visualChecked": true,
-    "decision": "complete",
-    "note": "原卷針葉/毬果照片與四選項實看，D鱗片不變。新SVG外觀/片狀高亮/風傳粉無誤把成熟種子毬果當花粉來源，無將所有裸子傳粉方式一概而論；正式桌手機實看。",
-    "sourceAIReplaced": true,
-    "sharedNativeAssetVerified": true
-  },
+  "checkedAt": "2026-11-25T15:39:13.558705+00:00",
   "validationFile": "docs/comics/q-310-validation.json"
 }

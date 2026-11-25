@@ -1,0 +1,86 @@
+{
+  "id": "q-349",
+  "subject": "Biology",
+  "title": "複製增加DNA，不把雙套變成單套",
+  "art": "docs/comics/art/q-349.svg",
+  "protectedWords": [
+    "有絲分裂",
+    "減數分裂",
+    "染色分體",
+    "2n＝8",
+    "n＝4",
+    "單套",
+    "雙套",
+    "DNA",
+    "4條",
+    "8條",
+    "4對"
+  ],
+  "panels": [
+    {
+      "heading": "① 生長主軸：雙套的有絲分裂",
+      "text": "果蠅普通體細胞有4對、共8條染色體，記成2n＝8。受精卵發育時，普通體細胞以有絲分裂維持雙套，不是用減數分裂製造配子。",
+      "alt": "程式畫8條染色體，分為4組各2條；藍橘只區分兩份，不表示不同基因或精確果蠅核型。"
+    },
+    {
+      "heading": "② 像X仍算一條，不等於兩套",
+      "text": "本格有8條已複製的染色體，仍是2n＝8。每條各含兩條姐妹染色分體；複製增加的是DNA，不是把同源染色體套數減半或加倍。",
+      "alt": "程式畫8個已複製染色體單位，每個交叉中心相連並有單一中心點；不把兩條姐妹算成兩套。"
+    },
+    {
+      "heading": "③ 乙、丁各4條，才是單套",
+      "text": "本格左圓示意乙、右圓示意丁：兩者都只有4條，即n＝4。丁只是已複製，不是此刻才開始複製。原卷丙有8條，不能因不像X就判成單套。",
+      "alt": "兩個小圓各4條，左未複製、右已複製，對應乙/丁套數差異；非連續有絲分裂時序圖。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：不會出現乙、丁",
+    "points": [
+      "判套數看成套的染色體，不只看X形。",
+      "甲、丙為雙套；乙、丁為單套。",
+      "DNA複製在分裂前完成，已複製不等於正在複製。"
+    ]
+  },
+  "rationale": "實看第36題全部原卷與五個細胞作答圖，逐一數甲8、乙4、丙8、丁4，維持已核對B。既有三張錯誤AI圖已排除，不再採用或重開同項。精確染色體條數/套數用程式SVG，四類以長度簡化，8/8/4/4與中心相連數由程式檢查；不是完整核型或細胞週期時序，也不畫一般圖像模型可能錯數的染色體。NHGRI與ASU正文核對有絲分裂維持與DNA複製先於分裂。",
+  "generationMethod": "programmatic SVG for exact chromosome counts",
+  "generatorFile": "docs/comics/q-349-generate.py",
+  "promptSummary": "三格：4對8單條、4對8已複製X、兩小圓各4單套（未複製/已複製）。只畫確切可計數單位，精確數值和套數用HTML。",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "site/dist/assets/questions/q-349-source-c25c8e601f.jpg",
+    "site/dist/assets/questions/q-349-figure-3dd6458fe4.jpg"
+  ],
+  "sources": [
+    {
+      "url": "https://www.genome.gov/genetics-glossary/Mitosis",
+      "note": "有絲分裂分配複製的染色體至兩個子細胞。"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26869/",
+      "note": "搜索摘要可讀，正文recaptcha，未宣稱已讀該正文。"
+    },
+    {
+      "url": "https://askabiologist.asu.edu/cell-division",
+      "note": "ASU生命科學院正文：分裂前間期複製DNA、有絲分裂子細胞維持染色體。"
+    }
+  ],
+  "answerCheckedAgainst": "甲/丙2n8、乙/丁n4；複製染色體的姐妹染色分體仍屬一條相連染色體，不改套數。原題針對生長的普通體細胞有絲分裂，不含形成配子。",
+  "visualChecked": true,
+  "createdAt": "2026-10-28T21:37:39.823339+00:00",
+  "layoutVersion": "native-fluid-v6",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "artSHA256": "17442cb6f280a9e7dd851695f64fef427afbf561bf6c5442292029a93acd96cb",
+  "checkedAt": "2026-10-28T21:41:17.153153+00:00",
+  "validationFile": "docs/comics/q-349-validation.json",
+  "nativeArt": "assets/comics/q-349-art-17442cb6f2.svg"
+}

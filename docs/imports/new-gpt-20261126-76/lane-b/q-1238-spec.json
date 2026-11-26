@@ -1,0 +1,48 @@
+{
+  "id": "q-1238",
+  "subject": "English",
+  "title": "能不能進入房子的對話",
+  "panels": [
+    {
+      "heading": "辨認 Leo 在問什麼",
+      "text": "Leo 用 if … or not 問能不能進屋。原卷沒有指定門鎖。",
+      "image": "docs/imports/new-gpt-20261126-76/lane-b/art/q-1238-panel-1.svg",
+      "alt": "提問者望向房子和入口，並未指定開門工具。"
+    },
+    {
+      "heading": "看懂 B 的 if",
+      "text": "B 的 if 表示條件。按對按鈕後，就可以進屋。",
+      "image": "docs/imports/new-gpt-20261126-76/lane-b/art/q-1238-panel-2.svg",
+      "alt": "按鈕、房子和敞門沿箭頭呈現 B 所說的條件。"
+    },
+    {
+      "heading": "檢查另外兩種情境",
+      "text": "C 可指出目前沒帶鑰匙；D 在不用鑰匙時可以直接回答。",
+      "image": "docs/imports/new-gpt-20261126-76/lane-b/art/q-1238-panel-3.svg",
+      "alt": "鑰匙和敞門並排，表示題目未指定需要哪一種。"
+    }
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6b084496-9718-83ee-a6d0-7b6874629045",
+  "sourceGeneratedArtUsed": false,
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261126-76/lane-b/crops/q-1238-original.jpg"
+  ],
+  "answerCheckedAgainst": "(B) We sure can if we push the right button.",
+  "rationale": "用原生情境插圖、圖像對照與語序箭頭呈現英文構造；依題意手工配置四個互不重複的情境或語法標示。",
+  "generationMethod": "four independently directed native SVG grammar and reading diagrams with custom vector illustrations",
+  "producerAgent": "/root/source76_b",
+  "layoutVersion": "native-four-images-v7",
+  "art": "docs/imports/new-gpt-20261126-76/lane-b/art/q-1238-panel-1.svg",
+  "fourth": {
+    "answer": "(B) We sure can if we push the right button.",
+    "points": [
+      "保留教師訂正 B。若沒有門鎖的補充情境，C、D 也有成立條件。"
+    ],
+    "image": "docs/imports/new-gpt-20261126-76/lane-b/art/q-1238-panel-4.svg",
+    "alt": "按鈕置中，左右保留鑰匙與敞門兩個仍可能的情境線索。"
+  },
+  "protectedWords": [
+    "or not"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "q-1305",
+  "subject": "Physics-Chemistry",
+  "title": "4公斤物體的動能",
+  "art": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1305-panel-1.svg",
+  "panels": [
+    {
+      "heading": "找質量與速率",
+      "text": "物體質量 4 kg，速率 3 m/s。m/sec 與 m/s 是同一種速率單位。",
+      "alt": "質量 4 kg 的運動物體配向右 3 m/s 速度箭頭。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1305-panel-1.svg"
+    },
+    {
+      "heading": "先把速率平方",
+      "text": "動能用 v²。3²＝9，可看成每排 3 格、共 3 排。",
+      "alt": "三乘三正方格標出邊長 3，顯示速率平方得到 9。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1305-panel-2.svg"
+    },
+    {
+      "heading": "質量乘一半",
+      "text": "公式 K＝½mv²，先算 ½ × 4＝2。用 2 再乘 9。",
+      "alt": "四個各 1 kg 的方塊有兩個被括起，代表取質量的一半。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1305-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "(D) 18 J",
+    "points": [
+      "½ × 4 × 3²＝18 J。K 對速率是平方關係。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1305-panel-4.svg",
+    "alt": "定質量的動能和速率曲線，標出 3 m/s 對應 18 J。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+  "protectedWords": [
+    "4 kg",
+    "3 m/s",
+    "m/sec",
+    "18 J",
+    "½mv²",
+    "m/s"
+  ],
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-77/lane-b/q-1305-original.jpg"
+  ],
+  "answerCheckedAgainst": "(D) 18 J",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source77_b",
+  "rationale": "依該題物理條件自製四張獨立向量圖，圖像與圖說分別處理原題條件、物理關係、推導及結論。",
+  "producerReviewPath": "docs/imports/new-gpt-20261127-77/lane-b/q-1305-review.json",
+  "nativeArt": "assets/comics/q-1305-art-399cb5440a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:00:14.786718+00:00",
+  "validationFile": "docs/comics/q-1305-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "q-1327",
+  "sourceId": "src-more-077",
+  "subject": "Physics-Chemistry",
+  "title": "理化第40題｜半圓軌道的動能與位能",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "如圖所示，為一半徑 20 公分的光滑半圓形軌道固定在水平桌面上，將質量為 0.1 公斤的小球，由半圓形軌道 A 點處自由釋放，滑行到 D 點，A、D 兩點位在同一水平面上，B 點為軌道最低點（設 B 點的重力位能為零），B、C 兩點高度相差 15 公分。若忽略小球半徑，有關此球從 A 點到 D 點過程的敘述，下列何者錯誤？（重力加速度＝10 公尺／秒²）\n(A) 小球滾到 B 點時的動能 0.2 J\n(B) 小球滾到 C 點時的速率為 1 m/s\n(C) 小球滾到 D 點時的力學能為何 0.2 J\n(D) 前半程（A 點→B 點）重力位能變大，後半程（B 點→D 點）重力位能變小",
+  "answer": "(D) 下降段位能變小，上升段位能變大",
+  "explanation": "以 B 為高度零點。A、D 高 0.20 m，C 高 0.15 m。A 靜止釋放，力學能為 0.1×10×0.20＝0.2 J，光滑軌道上維持不變。\n\nB 點位能為零，動能為 0.2 J。C 點位能為 0.15 J，動能為 0.05 J，代入 K＝½mv² 得 v＝1 m/s。D 的力學能仍為 0.2 J。A→B 下降時位能變小，B→D 上升時變大，因此 D 將兩個方向顛倒。原卷 C 的「為何」照錄，按敘述值 0.2 J 判讀。",
+  "trap": "C 的速度由 A 到 C 的高度差 5 公分決定。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "力學能守恆",
+    "力學"
+  ],
+  "images": [
+    "assets/originals/gpt077-q-1327-original-26d4438aa2ba.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第40題",
+  "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 D。",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "40",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt077-q-1327-figure-ed0452714812.jpg",
+      "alt": "半圓形軌道的 A、B、C、D 點。C 比最低點 B 高 15 公分",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "半圓軌道的動能與位能",
+    "art": "assets/comics/q-1327-art-66a39479ff.svg",
+    "panels": [
+      {
+        "heading": "辨認各點高度",
+        "text": "A、D 高 20 cm，C 高 15 cm，B 的位能設為零。",
+        "alt": "半圓軌道包含 A、B、C、D。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1327-art-66a39479ff.svg"
+      },
+      {
+        "heading": "最低點動能最大",
+        "text": "A 點釋放時力學能 0.2 J，B 點位能為零。",
+        "alt": "球位於軌道最低點 B。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1327-panel-2-art-5c832e2af1.svg"
+      },
+      {
+        "heading": "C 點高度比起點低 5 cm",
+        "text": "C 的位能為 0.15 J、動能為 0.05 J，速率 1 m/s。",
+        "alt": "C 點動能與位能的兩根比較柱。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1327-panel-3-art-dff0fa703a.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(D) 下降段位能變小，上升段位能變大",
+      "points": [
+        "A→B 位能減少，B→D 位能增加，所以 D 錯。"
+      ],
+      "image": "assets/comics/q-1327-panel-4-art-e74aa06f34.svg",
+      "alt": "箭頭指示先下到 B，再上到 D。"
+    },
+    "protectedWords": [
+      "20 cm",
+      "15 cm",
+      "5 cm",
+      "0.2 J",
+      "0.15 J",
+      "0.05 J",
+      "1 m/s"
+    ]
+  }
+}

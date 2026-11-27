@@ -1,0 +1,108 @@
+{
+  "id": "q-1305",
+  "sourceId": "src-more-077",
+  "subject": "Physics-Chemistry",
+  "title": "理化第23題｜4公斤物體的動能",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "某物體質量為 4 kg，正以 3 m/sec 的速率運動，則該物體的動能為\n\n(A) 12 J\n(B) 24 J\n(C) 7 J\n(D) 18 J",
+  "answer": "(D) 18 J",
+  "explanation": "動能 K＝½mv²。把質量 4 kg 及速率 3 m/s 代入，先算 3²＝9，再乘 4 kg 的一半，得到 2 × 9＝18 J。\n\n(A) 12 的數值來自 4 × 3，這是 mv，單位為 kg·m/s，不能當成動能。\n(B) 24 J 與 ½ × 4 × 3² 的結果不符。\n(C) 7 只是 4 與 3 的數值相加，質量和速率的單位不同，不能直接相加。\n(D) 18 J 符合動能公式。",
+  "trap": "速率要平方，質量要乘二分之一。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "動能",
+    "速率平方",
+    "焦耳"
+  ],
+  "images": [
+    "assets/originals/gpt077-q-1305-original-7af918cc58c1.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第23題",
+  "studentAnswer": "23@錯題A → D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "23",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "12 J",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "12 的數值來自 4 × 3，這是 mv，單位為 kg·m/s，不能當成動能。"
+    },
+    {
+      "label": "B",
+      "text": "24 J",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "24 J 與 ½ × 4 × 3² 的結果不符。"
+    },
+    {
+      "label": "C",
+      "text": "7 J",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "7 只是 4 與 3 的數值相加，質量和速率的單位不同，不能直接相加。"
+    },
+    {
+      "label": "D",
+      "text": "18 J",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "18 J 符合動能公式。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "4公斤物體的動能",
+    "art": "assets/comics/q-1305-art-399cb5440a.svg",
+    "panels": [
+      {
+        "heading": "找質量與速率",
+        "text": "物體質量 4 kg，速率 3 m/s。m/sec 與 m/s 是同一種速率單位。",
+        "alt": "質量 4 kg 的運動物體配向右 3 m/s 速度箭頭。",
+        "image": "assets/comics/q-1305-art-399cb5440a.svg"
+      },
+      {
+        "heading": "先把速率平方",
+        "text": "動能用 v²。3²＝9，可看成每排 3 格、共 3 排。",
+        "alt": "三乘三正方格標出邊長 3，顯示速率平方得到 9。",
+        "image": "assets/comics/q-1305-panel-2-art-cf7dc6a558.svg"
+      },
+      {
+        "heading": "質量乘一半",
+        "text": "公式 K＝½mv²，先算 ½ × 4＝2。用 2 再乘 9。",
+        "alt": "四個各 1 kg 的方塊有兩個被括起，代表取質量的一半。",
+        "image": "assets/comics/q-1305-panel-3-art-44f6912cf9.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(D) 18 J",
+      "points": [
+        "½ × 4 × 3²＝18 J。K 對速率是平方關係。"
+      ],
+      "image": "assets/comics/q-1305-panel-4-art-ef86c6166d.svg",
+      "alt": "定質量的動能和速率曲線，標出 3 m/s 對應 18 J。"
+    },
+    "protectedWords": [
+      "4 kg",
+      "3 m/s",
+      "m/sec",
+      "18 J",
+      "½mv²",
+      "m/s"
+    ]
+  }
+}

@@ -75,7 +75,7 @@ function renderSources(){if(!data)return;const batch=$('batch-filter').value,sta
 function renderIllustrationRework(r){
  const section=$('illustration-rework');section.hidden=!r;if(!r)return;
  $('illustration-rework-heading').textContent=r.title;
- $('illustration-rework-state').textContent=r.activeBatch?.state==='active'?`生物限額 ${r.activeBatch.completed}／${r.activeBatch.limit} 題` :r.activeBatch?.state==='complete'?`本批 ${r.activeBatch.limit} 題已完成`:r.state==='paused'?'目前暫停':r.pending?'依目前工作狀態':'已完成';
+ $('illustration-rework-state').textContent=r.activeBatch?.state==='active'?`${r.activeBatch.subject}限額 ${r.activeBatch.completed}／${r.activeBatch.limit} 題` :r.activeBatch?.state==='complete'?`本批 ${r.activeBatch.limit} 題已完成`:r.state==='paused'?'目前暫停':r.pending?'依目前工作狀態':'已完成';
  $('illustration-rework-counts').innerHTML=`<span>已驗收 <strong>${esc(r.completed)}</strong> 原問</span><span>待重製 <strong>${esc(r.pending)}</strong> 原問</span><span>舊免製待重審 <strong>${esc(r.reassess)}</strong> 原問</span>`;
  $('illustration-rework-subjects').innerHTML=r.subjects.map(s=>`<tr><th scope="row">${esc(s.name)}</th><td>${esc(s.completed)}</td><td>${esc(s.pending)}</td><td>${esc(s.reassess)}</td></tr>`).join('');
  $('illustration-rework-note').textContent=r.note;

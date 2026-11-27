@@ -159,13 +159,15 @@ def authorized_question_update(root, qid):
         raise ValueError('題目更新授權證據不完整；維持停止。') from error
 
 
-def assert_limited_biology_allowed(root, control, qid):
-    """The frozen batch, rather than a general biology flag, grants permission."""
+def assert_limited_rework_allowed(root, control, qid, entries):
+    """Only unfinished originals in the frozen batch may be reworked."""
+    nonbiology = control['mode'] == 'nonbiology_limited'
+    name = '非生物' if nonbiology else '生物'
     relative = Path(control.get('limitedBatch', ''))
     path = (root/relative).resolve()
     if (relative.is_absolute() or not path.is_relative_to((root/'docs/comics').resolve())
             or not path.is_file()):
-        raise ValueError('生物限量批次白名單缺漏；不得繼續領題或整合。')
+        raise ValueError(f'{name}限量批次白名單缺漏；不得繼續領題或整合。')
     batch = json.loads(path.read_text())
     ids = batch.get('questionIds', [])
     active = control.get('activeOriginalQuestionIds', [])
@@ -175,11 +177,21 @@ def assert_limited_biology_allowed(root, control, qid):
             or len(ids) != limit or len(set(ids)) != limit
             or set(active) != set(ids) or len(active) != limit
             or len(completed) != len(set(completed)) or not set(completed) <= set(ids)):
-        raise ValueError('生物限量批次白名單不一致；只授權已凍結的題目。')
-    if (batch.get('state') != 'active' or control.get('biologyQualityUpgrade') != 'active'
+        raise ValueError(f'{name}限量批次白名單不一致；只授權已凍結的題目。')
+    if nonbiology:
+        eligible = set()
+        for entry in entries:
+            if not entry.get('subject') or entry['subject'] == 'Biology' or entry.get('state') == 'complete':
+                continue
+            eligible.update(set(entry.get('originalQuestionIds', [entry['id']]))
+                            - set(entry.get('completedOriginalIds', [])))
+        if batch.get('kind') != 'nonbiology' or not set(ids) - set(completed) <= eligible:
+            raise ValueError('本批只授權待重製清單中的非生物原問。')
+    flag = 'textOnlyReplacement' if nonbiology else 'biologyQualityUpgrade'
+    if (batch.get('state') != 'active' or control.get(flag) != 'active'
             or len(completed) >= limit
             or control.get('remainingActiveOriginalQuestions', limit) <= 0):
-        raise ValueError('生物限量批次已停止；本批驗收已結束。')
+        raise ValueError(f'{name}限量批次已停止；本批驗收已結束。')
     if qid not in ids or qid in completed:
         raise ValueError(f'{qid}: 不在本批尚未完成的白名單；其他重製維持暫停。')
 
@@ -194,8 +206,8 @@ def assert_work_allowed(root, qid):
         return
     plan = json.loads(path.read_text())
     control = plan.get('executionControl', {})
-    if control.get('mode') == 'biology_limited':
-        assert_limited_biology_allowed(root, control, qid)
+    if control.get('mode') in ('biology_limited', 'nonbiology_limited'):
+        assert_limited_rework_allowed(root, control, qid, plan.get('entries', []))
         return
     if control.get('mode') != 'missing_only':
         return

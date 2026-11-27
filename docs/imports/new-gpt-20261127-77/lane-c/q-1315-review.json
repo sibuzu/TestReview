@@ -1,0 +1,67 @@
+{
+  "id": "q-1315",
+  "attachmentIndex": 21,
+  "originalQuestionNumber": "11",
+  "disposition": "new",
+  "inclusionEvidence": "原卷藍筆 D、紅筆改 B。",
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "attachmentSHA256": "a91da6aaf5d4a9f42bba3e0458b86ea6e3aa0ab27800454ebd5caca1ce0e80ed",
+  "originalCrop": [
+    48,
+    594,
+    1025,
+    805
+  ],
+  "originalCropPath": "docs/imports/new-gpt-20261127-77/lane-c/q-1315-original.jpg",
+  "illustrations": [
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1315-panel-1.svg",
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1315-panel-2.svg",
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1315-panel-3.svg",
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1315-panel-4.svg"
+  ],
+  "answerVerified": true,
+  "figureCrop": [
+    721,
+    595,
+    1024,
+    723
+  ],
+  "originalIndex": 21,
+  "originalPath": "docs/source-pages/chatgpt-6b099415-21.jpg",
+  "originalSHA256": "a91da6aaf5d4a9f42bba3e0458b86ea6e3aa0ab27800454ebd5caca1ce0e80ed",
+  "cropSHA256": "9457065751cdbdc7ab94b28dbef44669dfb0f08ad49b2f62ca0408c3a65fcb64",
+  "originalVisualChecked": true,
+  "requiredMaterialMissing": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6b099415-21.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-c/q-1315-original.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-c/q-1315-figure.jpg",
+    ".cache/intake-20261127-6b099415/lane-c-preview/q-1315-1440.png",
+    ".cache/intake-20261127-6b099415/lane-c-preview/q-1315-390.png"
+  ],
+  "originalAttachment": {
+    "fileId": "file_00000000ee148206bf90277cd689a1e2",
+    "sha256": "a91da6aaf5d4a9f42bba3e0458b86ea6e3aa0ab27800454ebd5caca1ce0e80ed",
+    "messageId": "49307d7b-ca62-4e36-bd69-4790e8131246",
+    "messageIndex": 115
+  },
+  "duplicateReview": {
+    "method": "展開正式題庫及同科題組，NFKC 去標點空白比較完整題目、題幹與必要材料，人工複核相近候選。",
+    "candidates": [],
+    "result": "未找到完整原題重複。"
+  },
+  "answerChecked": "B．乙車作用於甲車的作用力為 －80 N（錯誤的敘述）",
+  "corrections": [
+    {
+      "kind": "source_figure_correction",
+      "reason": "原 AI 互作用力圖把左右兩條線寫在同一 SVG 路徑，只在最後一段顯示箭頭，無法從圖上辨明乙車對甲車的力朝左。",
+      "before": "互作用力圖有向右箭頭，左向只有線段。原 AI 文字仍有正確寫出乙對甲向左 40 N。",
+      "after": "新圖分別畫出甲車向左與乙車向右的等長 40 N 箭頭。保留原卷 B，說明改從乙側向左推時甲車才受 80 N 向左。"
+    }
+  ],
+  "passed": true,
+  "automatedValidation": "docs/imports/new-gpt-20261127-77/lane-c/isolated-qa.json",
+  "automatedValidationSHA256": "96cdfc26ad08022077a07c03cbd9f72a6d79c0c52e0a35e425cbcc9951b6ab22",
+  "sourceSVGMarkerEvidence": ".cache/intake-20261127-6b099415/lane-c-preview/source-marker-check.png"
+}

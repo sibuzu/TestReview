@@ -1,0 +1,86 @@
+{
+  "id": "q-1325",
+  "subject": "Physics-Chemistry",
+  "title": "高爾夫球能升到多高",
+  "art": "docs/imports/new-gpt-20261127-77/root/art/q-1325-panel-1.svg",
+  "panels": [
+    {
+      "heading": "找出擊球位置與最高點",
+      "text": "質量 50 g，從擊球點算起的垂直高度是未知數。",
+      "image": "docs/imports/new-gpt-20261127-77/root/art/q-1325-panel-1.svg",
+      "alt": "高爾夫球弧線及最高點。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "把能量中可用的比例分出",
+      "text": "50 J 的 49%＝24.5 J，這是重力位能最多增加量。",
+      "image": "docs/imports/new-gpt-20261127-77/root/art/q-1325-panel-2.svg",
+      "alt": "圓形能量圖將 49% 的份額以深色標出。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "位能隨高度成比例",
+      "text": "球重 mg＝0.49 N，因此每升高 1 m 增加 0.49 J。",
+      "image": "docs/imports/new-gpt-20261127-77/root/art/q-1325-panel-3.svg",
+      "alt": "圖上顯示每加一公尺，位能增加 0.49 焦耳。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 50 公尺",
+    "points": [
+      "h＝24.5÷0.49＝50 m。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-77/root/art/q-1325-panel-4.svg",
+    "alt": "擊球點到弧線最高點的垂直尺寸是 50 公尺。"
+  },
+  "layoutVersion": "native-four-images-v7",
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-77/root/q-1325-original.jpg"
+  ],
+  "answerCheckedAgainst": "(C) 50 公尺",
+  "producerAgent": "/root",
+  "rationale": "用物件、向量、關係圖與能量圖解逐步重建理化推理。",
+  "producerReviewPath": "docs/imports/new-gpt-20261127-77/root/q-1325-review.json",
+  "nativeArt": "assets/comics/q-1325-art-192c206767.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "protectedWords": [
+    "0.49 J",
+    "0.49 N",
+    "24.5 J",
+    "24.5÷0.49",
+    "50 m"
+  ],
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:00:16.159756+00:00",
+  "validationFile": "docs/comics/q-1325-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。"
+  }
+}

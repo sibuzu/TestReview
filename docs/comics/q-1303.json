@@ -1,0 +1,80 @@
+{
+  "id": "q-1303",
+  "subject": "Physics-Chemistry",
+  "title": "軌道上可到達的最高處",
+  "art": "docs/imports/new-gpt-20261127-77/lane-a/art/q-1303-panel-1.svg",
+  "panels": [
+    {
+      "heading": "逐一讀取軌道高度",
+      "text": "A 高 10 m、C 高 6 m、E 高 16 m；B、D 在基線上。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-a/art/q-1303-panel-1.svg",
+      "alt": "由左至右畫出 A、B、C、D、E 軌道與 10、6、16 m 高度。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "起點的能量限制高度",
+      "text": "由靜止出發，總力學能只容許小球到 10 m 高度。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-a/art/q-1303-panel-2.svg",
+      "alt": "軌道圖延伸一條 10 m 高的水平虛線，E 點在虛線上方。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "追蹤到實際可達處",
+      "text": "小球會先過 B、C、D，再沿上坡爬回 10 m，無法到 E。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-a/art/q-1303-panel-3.svg",
+      "alt": "綠線標記可達部分，末段以 10 m 高的水平線為界，E 的高處軌道成虛線。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "(A) A 點",
+    "points": [
+      "A 的 10 m 高於 C 和 D。E 的 16 m 雖高，卻不在路徑上。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-77/lane-a/art/q-1303-panel-4.svg",
+    "alt": "四個選項高度長條為 A 10、C 6、D 0、E 16 m；E 虛線標記無法到達。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-77/lane-a/q-1303-original.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-a/q-1303-figure.jpg"
+  ],
+  "answerCheckedAgainst": "(A) A 點",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source77_a",
+  "rationale": "以四張獨立的物理圖或量值圖示呈現原題條件、關係、推導與結論。",
+  "producerReviewPath": "docs/imports/new-gpt-20261127-77/lane-a/q-1303-review.json",
+  "nativeArt": "assets/comics/q-1303-art-9e80ee8054.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:00:14.615400+00:00",
+  "validationFile": "docs/comics/q-1303-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。"
+  }
+}

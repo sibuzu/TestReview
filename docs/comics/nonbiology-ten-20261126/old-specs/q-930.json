@@ -1,0 +1,144 @@
+{
+  "id": "q-930",
+  "subject": "Civics",
+  "title": "機關與程序，要配對正確",
+  "art": "docs/comics/art/q-930-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 調解委員會，辦理的是調解",
+      "text": "B把「調解委員會」和「提民事訴訟」接在一起，機關與程序搭配錯誤。",
+      "alt": "當事人聲請調解與調解委員會的角色直接標明，沒有稱它為民事法院。",
+      "diagram": {
+        "kind": "flow",
+        "title": "調解這條路",
+        "items": [
+          {
+            "label": "當事人｜希望協商解決糾紛",
+            "detail": "房屋買賣糾紛可循調解途徑。",
+            "tone": "blue"
+          },
+          {
+            "label": "調解委員會｜受理聲請調解",
+            "detail": "不是向它提起民事訴訟。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "聲請調解"
+      }
+    },
+    {
+      "heading": "② 民事訴訟，向法院提出",
+      "text": "C用了「可能」：不履行契約且符合賠償要件，才可能負責，不是所有糾紛必然賠償。",
+      "alt": "訴狀交有管轄權法院的程序與可能的債務不履行責任明確分開。",
+      "diagram": {
+        "kind": "flow",
+        "title": "訴訟這條路",
+        "items": [
+          {
+            "label": "原告｜提出民事訴狀",
+            "detail": "表明請求及原因事實。",
+            "tone": "blue"
+          },
+          {
+            "label": "有管轄權的法院｜受理民事訴訟",
+            "detail": "法院也能辦理調解，但不使調解委員會變成法院。",
+            "tone": "gold"
+          }
+        ],
+        "arrow": "向法院起訴"
+      }
+    },
+    {
+      "heading": "③ 買賣成立，不等於所有權移轉",
+      "text": "D照原題保留為概括語境。書面、登記是本題房屋物權移轉的要求，不能擴成所有買賣成立皆須登記。",
+      "alt": "兩種法律行為分開列明：買賣契約成立與房屋所有權移轉。",
+      "diagram": {
+        "kind": "paths",
+        "title": "D須分清的兩件事",
+        "items": [
+          {
+            "label": "買賣契約｜成立",
+            "detail": "與所有權移轉是不同法律效果。",
+            "tone": "green"
+          },
+          {
+            "label": "房屋所有權｜因買賣而移轉",
+            "detail": "不動產物權變動須書面及登記。",
+            "tone": "gold"
+          }
+        ],
+        "target": "結論｜不把兩件事混成一項",
+        "arrow": "區分法律效果"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 B：調解委員會不受理民事起訴",
+    "points": [
+      "聲請調解：找調解委員會。",
+      "提起民事訴訟：向法院。",
+      "沿用來源使用者明確更正B；D的契約與物權差別照留。"
+    ]
+  },
+  "protectedWords": [
+    "調解委員會",
+    "民事訴訟",
+    "有管轄權",
+    "買賣契約",
+    "所有權移轉",
+    "聲請調解"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi065-6c52ad1fe7d1.png"
+    ],
+    "visualChecked": true,
+    "answer": "B",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "核心是機關、程序與物權法律效果的配對，採明確中文標示的HTML流程與比較圖，比人物場景更精確。維持使用者來源中更正B，不重開D語義同項確認。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:08:04.938191+00:00",
+  "artSHA256": "62673d437a9ba7d5a30394805fa2582be9d6fe47775b0bfa704582434d2f8c8b",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:15:20.284594+00:00",
+  "previewValidation": "docs/comics/q-930-preview-validation.json",
+  "visualReview": "已實看1440/390精確HTML圖表：調解與訴訟機關/動作、買賣成立與物權移轉均標明中文角色與法律效果；B及來源使用者更正照留。三寬無溢出、保護詞完整，同行等高與單欄自然高度。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-930-1440.png",
+      "/tmp/weirugo-comic-previews/q-930-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-930-art-62673d437a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:15:20.276377+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-930-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-930-validation.json"
+}

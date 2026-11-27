@@ -1,0 +1,149 @@
+{
+  "id": "q-933",
+  "subject": "Civics",
+  "title": "竹北市：先看層級，再看欄位",
+  "art": "docs/comics/art/q-933.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 先辨層級：這裡是縣轄市",
+      "text": "竹北市隸屬新竹縣，是縣轄市，與鄉、鎮同層級。名字有「市」，不代表都是同一種層級。",
+      "diagram": {
+        "kind": "nested",
+        "title": "行政層級：縣之下",
+        "items": [
+          {
+            "label": "新竹縣",
+            "tone": "blue"
+          },
+          {
+            "label": "竹北市（縣轄市）",
+            "tone": "green"
+          }
+        ],
+        "note": "縣轄市與鄉、鎮同層級。"
+      },
+      "alt": "外層新竹縣、內層竹北市，中文直接標明縣轄市。"
+    },
+    {
+      "heading": "② 再看欄位：本空問立法機關",
+      "text": "原表本空在立法機關欄。縣轄市的立法機關為民代表會，填入後是竹北市民代表會，選D。",
+      "diagram": {
+        "kind": "paths",
+        "title": "原表欄位→機關名稱",
+        "items": [
+          {
+            "label": "本空：立法機關",
+            "detail": "先讀欄名，不只讀地名。",
+            "tone": "gold"
+          }
+        ],
+        "target": "竹北市民代表會（D）",
+        "arrow": "依縣轄市制度填寫"
+      },
+      "alt": "本空立法機關經中文箭頭對應竹北市民代表會，代號D。"
+    },
+    {
+      "heading": "③ 對照同層級的兩種機關",
+      "text": "同一個縣轄市，行政是公所，立法是民代表會。不要填成行政機關，也不要套用政府／議會。",
+      "diagram": {
+        "kind": "flow",
+        "title": "同一層級，欄位不同",
+        "items": [
+          {
+            "label": "行政機關：公所 C",
+            "tone": "green"
+          },
+          {
+            "label": "立法機關：民代表會 D",
+            "tone": "purple"
+          }
+        ],
+        "arrow": "換欄時，名稱也要換",
+        "note": "政府／議會不是本題縣轄市的答案。"
+      },
+      "alt": "精確中文對照行政公所C、立法民代表會D，不用顏色猜角色。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 D：民代表會",
+    "points": [
+      "竹北市是新竹縣的縣轄市。",
+      "本空問立法機關，填民代表會。",
+      "不是看到「市」就一律填政府或議會。"
+    ]
+  },
+  "protectedWords": [
+    "竹北市",
+    "新竹縣",
+    "縣轄市",
+    "行政機關",
+    "立法機關",
+    "民代表會",
+    "公所",
+    "政府",
+    "議會",
+    "同層級"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "path": "site/dist/assets/originals/src-more-055-original-mi111-62182cac1c84.png",
+    "visualChecked": true
+  },
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+  "rationale": "原題是共同表格填機關；以中文標明新竹縣包含竹北市的層級，再以立法機關箭頭選民代表會，比人物情境更精確；四子各保留一份，不混合答案。",
+  "designFile": "docs/comics/q-933-design.txt",
+  "officialReferences": [
+    {
+      "title": "地方制度法第5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=5"
+    },
+    {
+      "title": "地方制度法第58條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=58"
+    },
+    {
+      "title": "地方制度法第59條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=59"
+    },
+    {
+      "title": "地方制度法第83-2條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=83-2"
+    },
+    {
+      "title": "內政部我國地方制度概況",
+      "url": "https://www.moi.gov.tw/cp.aspx?n=674"
+    }
+  ],
+  "legalCheckedAt": "2026-11-04",
+  "artSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:31:34.596733+00:00",
+  "previewValidation": "docs/comics/q-933-preview-validation.json",
+  "visualReview": "已實看原卷及1440/390：竹北市是新竹縣轄市，本空立法機關對應竹北市民代表會D；與公所C行政欄分開，中文角色與箭頭清楚，無溢出、同行等高及手機自然高度。",
+  "nativeArt": "assets/comics/q-933-art-99e3b23e9a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:31:34.567123+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-933-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-933-validation.json"
+}

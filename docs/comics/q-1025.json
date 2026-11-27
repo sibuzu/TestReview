@@ -1,135 +1,57 @@
 {
   "id": "q-1025",
   "subject": "Civics",
-  "title": "嬸嬸和姊夫是姻親，不是旁系血親",
-  "art": "docs/comics/art/q-1025-kinship.svg",
-  "layoutVersion": "native-fluid-v6",
-  "generationMethod": "new selectable HTML kinship paths and precise parent/spouse relationship analysis",
-  "sourceGeneratedArtUsed": false,
+  "title": "家族企業中的血親與姻親",
+  "art": "docs/comics/nonbiology-ten-20261126/art/q-1025-panel-1.svg",
+  "panels": [
+    {
+      "heading": "圖中列出哪五人",
+      "text": "從原卷的主管架構先列出名凱、媽媽、嬸嬸、爸爸和姊夫，範圍是這五人彼此間的關係。",
+      "alt": "公司頂端連到五位經理的圖像。爸爸與媽媽在圖中各出現一次。",
+      "image": "docs/comics/nonbiology-ten-20261126/art/q-1025-panel-1.svg"
+    },
+    {
+      "heading": "分清配偶與直系",
+      "text": "爸媽彼此是配偶。名凱分別與媽媽、爸爸互為直系血親，所以涉及三人。",
+      "alt": "爸媽的水平線表示配偶。兩人各有一條直系連線到名凱。",
+      "image": "docs/comics/nonbiology-ten-20261126/art/q-1025-panel-2.svg"
+    },
+    {
+      "heading": "找稱謂中的中間親屬",
+      "text": "嬸嬸是叔叔的配偶，姊夫是姊姊的配偶。叔叔與姊姊都沒有列在五位主管中。",
+      "alt": "名凱分別經過圖外的叔叔與姊姊，連到架構中的嬸嬸與姊夫。",
+      "image": "docs/comics/nonbiology-ten-20261126/art/q-1025-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 不存在旁系血親關係",
+    "points": [
+      "直接看五人彼此的關係，未列在主管圖中的親屬不加入計數。",
+      "爸媽是一組配偶，名凱與兩位家長的直系關係共涉及三人。"
+    ],
+    "image": "docs/comics/nonbiology-ten-20261126/art/q-1025-panel-4.svg",
+    "alt": "三位直系成員在左，兩位姻親在右，下方標示旁系血親零組。"
+  },
   "originalMaterialsChecked": true,
   "originalMaterials": [
     "site/dist/assets/questions/q-1025-original-16-092caf96cbbd.jpg",
     "site/dist/assets/questions/q-1025-figure-16-c16c683323a0.jpg"
   ],
-  "sourceReview": "correction-q-1025-5ea0c491b56e (resolved)",
-  "answerCheckedAgainst": "重新實看五經理名單為名凱、媽媽、嬸嬸、爸爸、姊夫，並讀已resolved確認。無一對旁系血親，B；不把嬸嬸改姑姑，也不把姊夫當嬸嬸的配偶。",
-  "supportingSources": [
-    {
-      "title": "民法第967條",
-      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=967",
-      "finding": "直系血親依世代所出；旁系血親是同源但非直系的血親。"
-    },
-    {
-      "title": "民法第969條",
-      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=969",
-      "finding": "血親的配偶、配偶的血親、配偶的血親的配偶，屬姻親。"
-    }
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6af04774-019c-83ee-9f45-5df6edfd1739",
+  "answerCheckedAgainst": "(B) 不存在旁系血親關係",
+  "layoutVersion": "native-four-images-v7",
+  "generationMethod": "authored_svg",
+  "rationale": "用主管圖與描出中間親屬的親屬圖，分辨直系、配偶與姻親。",
+  "checkedReferences": [
+    "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=967",
+    "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=969"
   ],
-  "rationale": "本題易錯在稱謂所指的精確婚姻與血緣連結，不是家人外貌或辦公室情境。用可選取中文關係路徑直接標人名、關係、三種人數，避免生成人像誤連嬸嬸與姊夫；沒有把名單外叔叔姊姊加入經理數。",
-  "panels": [
-    {
-      "heading": "① 直系血親涉及名凱和爸媽三人",
-      "text": "名凱與爸爸、媽媽分別是直系血親。爸爸和媽媽彼此是一組配偶，不是因為同為家人就彼此成為血親。",
-      "alt": "爸爸與名凱、媽媽與名凱分別直系血親的可選取路徑，合計三位名單內人物。",
-      "diagram": {
-        "kind": "paths",
-        "title": "把直系血親配對列出",
-        "items": [
-          {
-            "label": "爸爸 ↔ 名凱",
-            "detail": "親子，直系血親。",
-            "tone": "blue"
-          },
-          {
-            "label": "媽媽 ↔ 名凱",
-            "detail": "親子，直系血親。",
-            "tone": "green"
-          }
-        ],
-        "target": "涉及3人，不是C所說的4人",
-        "arrow": "只計不同的人，不重複算名凱",
-        "note": "名單內配偶只有爸爸、媽媽一組，A也不成立。"
-      }
-    },
-    {
-      "heading": "② 嬸嬸、姊夫都由婚姻連結",
-      "text": "嬸嬸是叔叔的配偶；姊夫是姊姊的配偶。兩者與名凱均是姻親，不能因稱謂帶親屬字，就當成旁系血親。",
-      "alt": "嬸嬸連到叔叔配偶、姊夫連到姊姊配偶，兩者與名凱均由婚姻連結而為姻親。",
-      "diagram": {
-        "kind": "paths",
-        "title": "逐字拆開親屬稱謂",
-        "items": [
-          {
-            "label": "嬸嬸＝叔叔的配偶",
-            "detail": "不是爸爸的姊妹。",
-            "tone": "gold"
-          },
-          {
-            "label": "姊夫＝姊姊的配偶",
-            "detail": "不是名凱的親姊姊。",
-            "tone": "blue"
-          }
-        ],
-        "target": "名凱與兩人均是姻親",
-        "arrow": "從婚姻關係連結",
-        "note": "叔叔、姊姊只用來解釋稱謂，沒有列在五位經理內。"
-      }
-    },
-    {
-      "heading": "③ 五人都可找到姻親配對",
-      "text": "名凱與姊夫、爸媽與姊夫，以及嬸嬸與名凱，都有姻親連結。這涵蓋名單五人，所以D說姻親人數最少也不對。",
-      "alt": "名凱與姊夫、爸媽與姊夫、嬸嬸與名凱三組可選取配對，涵蓋名單全五人。",
-      "diagram": {
-        "kind": "paths",
-        "title": "檢查D，不把姻親只算兩人",
-        "items": [
-          {
-            "label": "名凱 ↔ 姊夫",
-            "detail": "血親的配偶。",
-            "tone": "blue"
-          },
-          {
-            "label": "爸爸、媽媽 ↔ 姊夫",
-            "detail": "女兒的配偶。",
-            "tone": "green"
-          },
-          {
-            "label": "嬸嬸 ↔ 名凱",
-            "detail": "配偶的血親。",
-            "tone": "gold"
-          }
-        ],
-        "target": "五人均可找到姻親配對",
-        "arrow": "同一人可對不同人有不同關係"
-      }
-    }
-  ],
-  "fourth": {
-    "answer": "答案 B：沒有旁系血親配對",
-    "points": [
-      "只比較原圖列出的五位經理。",
-      "爸爸媽媽是一組配偶；名凱和爸媽涉及直系血親三人。",
-      "嬸嬸、姊夫是姻親；不能改成姑姑、姊姊。"
-    ]
-  },
-  "protectedWords": [
-    "名凱",
-    "嬸嬸",
-    "姊夫",
-    "直系血親",
-    "旁系血親",
-    "姻親",
-    "叔叔",
-    "姊姊",
-    "五位經理"
-  ],
-  "createdAt": "2026-11-09T15:01:41.757568+00:00",
-  "artSHA256": "11a43856b1a3374e4d874f0056843743f81e707fc8cbf98a834b86187e74c6fd",
+  "producerAgent": "/root",
+  "producerReviewPath": "docs/comics/nonbiology-ten-20261126/isolated-qa.json",
+  "producerManifest": "docs/comics/nonbiology-ten-20261126/artwork.json",
   "visualChecked": true,
-  "checkedAt": "2026-11-09T15:05:51.797813+00:00",
-  "previewValidation": "docs/comics/q-1025-preview-validation.json",
-  "visualReview": "原卷五經理與必要架構圖已實開，已resolved確認已讀；1440/1120/390逐張實看新中文配對圖，稱謂嬸嬸/姊夫未改錯，三名直系、配偶一組與五人姻親配對清楚。叔叔姊姊只釋義未加經理，無橫溢/保護詞斷裂，手機自然高度。",
-  "nativeArt": "assets/comics/q-1025-art-11a43856b1.svg",
+  "nativeArt": "assets/comics/q-1025-art-272460d1d3.svg",
   "nativeLayout": {
     "width": "100%",
     "height": "auto",
@@ -142,17 +64,24 @@
     "narrowSingleColumn": true
   },
   "rootReview": {
+    "reviewerAgent": "/root",
     "visualChecked": true,
+    "originalMaterialsChecked": true,
     "desktopMobileActuallyViewed": true,
-    "reviewerAgent": "/root/comic_lane_1",
-    "checkedAt": "2026-11-09T15:05:51.790220+00:00",
+    "answerAndExplanationChecked": true,
+    "fourActualIndependentImages": true,
+    "originalMaterials": [
+      "site/dist/assets/questions/q-1025-original-16-092caf96cbbd.jpg",
+      "site/dist/assets/questions/q-1025-figure-16-c16c683323a0.jpg"
+    ],
     "screenshots": [
       "/tmp/weirugo-comic-checks/q-1025-app-1440.png",
       "/tmp/weirugo-comic-checks/q-1025-app-390.png",
       "/tmp/weirugo-comic-checks/q-1025-standalone-1440.png",
       "/tmp/weirugo-comic-checks/q-1025-standalone-390.png"
     ],
-    "note": "實開原卷五位經理及完整ABCD；正式app/單頁桌手機4圖實看，名單五人、爸媽名凱三人直系與嬸嬸/姊夫姻親皆正確；未把名單外角色加為經理，B維持，6布局PASS。"
+    "checkedAt": "2026-11-26T15:24:30.564751+00:00"
   },
+  "checkedAt": "2026-11-26T15:24:30.599787+00:00",
   "validationFile": "docs/comics/q-1025-validation.json"
 }

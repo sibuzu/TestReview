@@ -1,0 +1,51 @@
+{
+  "id": "q-1306",
+  "subject": "Physics-Chemistry",
+  "title": "樓頂物體相對地面的重力位能",
+  "art": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1306-panel-1.svg",
+  "panels": [
+    {
+      "heading": "高度從地面量起",
+      "text": "質量 10 kg 的物體放在 10 m 高的樓頂，地面是高度零點。",
+      "alt": "示意樓頂放置 10 kg 物體，高度由地面量到樓頂為 10 m。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1306-panel-1.svg"
+    },
+    {
+      "heading": "質量換算成重力",
+      "text": "以 g＝9.8 m/s² 估算，10 kg 物體所受重力是 98 N，方向向下。",
+      "alt": "物體所受向下重力的示意，標出 98 N。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1306-panel-2.svg"
+    },
+    {
+      "heading": "重力位能隨高度增加",
+      "text": "質量固定時，U＝mgh。每高 1 m，位能增加 98 J。",
+      "alt": "由地面零點起的位能與高度直線，標出 10 m 對應 980 J。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1306-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 980 J",
+    "points": [
+      "U＝98 N × 10 m＝980 J。98 N 是重力大小，980 J 才是相對地面的重力位能。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1306-panel-4.svg",
+    "alt": "樓頂示意配位能高度條，標出起點為零、樓頂為 980 J。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+  "protectedWords": [
+    "10 kg",
+    "10 m",
+    "9.8 m/s²",
+    "980 J",
+    "98 N"
+  ],
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-77/lane-b/q-1306-original.jpg"
+  ],
+  "answerCheckedAgainst": "(B) 980 J",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source77_b",
+  "rationale": "依該題物理條件自製四張獨立向量圖，圖像與圖說分別處理原題條件、物理關係、推導及結論。"
+}

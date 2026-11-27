@@ -1,0 +1,67 @@
+{
+  "id": "q-1316",
+  "attachmentIndex": 22,
+  "originalQuestionNumber": "12",
+  "disposition": "new",
+  "inclusionEvidence": "原卷藍筆 C、紅筆改 A。",
+  "completeOriginalAndOptions": true,
+  "sourceGeneratedArtUsed": false,
+  "attachmentSHA256": "a9a6fb3faffd99be2f7484975f174d4f10215005cdc26d1fef7fc5bcb075fd8e",
+  "originalCrop": [
+    45,
+    781,
+    1035,
+    1026
+  ],
+  "originalCropPath": "docs/imports/new-gpt-20261127-77/lane-c/q-1316-original.jpg",
+  "illustrations": [
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1316-panel-1.svg",
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1316-panel-2.svg",
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1316-panel-3.svg",
+    "docs/imports/new-gpt-20261127-77/lane-c/art/q-1316-panel-4.svg"
+  ],
+  "answerVerified": true,
+  "figureCrop": [
+    846,
+    811,
+    1034,
+    1023
+  ],
+  "originalIndex": 22,
+  "originalPath": "docs/source-pages/chatgpt-6b099415-22.jpg",
+  "originalSHA256": "a9a6fb3faffd99be2f7484975f174d4f10215005cdc26d1fef7fc5bcb075fd8e",
+  "cropSHA256": "3149917e8c8ec96cd2748cd48d942bf066361d78932de02ae82c6ce9fdd44e87",
+  "originalVisualChecked": true,
+  "requiredMaterialMissing": false,
+  "actualViewed": [
+    "docs/source-pages/chatgpt-6b099415-22.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-c/q-1316-original.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-c/q-1316-figure.jpg",
+    ".cache/intake-20261127-6b099415/lane-c-preview/q-1316-1440.png",
+    ".cache/intake-20261127-6b099415/lane-c-preview/q-1316-390.png"
+  ],
+  "originalAttachment": {
+    "fileId": "file_0000000095688206a8d353f35868b470",
+    "sha256": "a9a6fb3faffd99be2f7484975f174d4f10215005cdc26d1fef7fc5bcb075fd8e",
+    "messageId": "fc2af47d-7a40-4ec0-9b4b-f0d49705953c",
+    "messageIndex": 120
+  },
+  "duplicateReview": {
+    "method": "展開正式題庫及同科題組，NFKC 去標點空白比較完整題目、題幹與必要材料，人工複核相近候選。",
+    "candidates": [],
+    "result": "未找到完整原題重複。"
+  },
+  "answerChecked": "A（原卷紅筆答案，題意有歧義）",
+  "corrections": [
+    {
+      "kind": "original_ambiguity",
+      "reason": "A 的「出力」若指實際接觸作用力，依牛頓第三定律必等大，原卷單選就沒有唯一錯誤選項。 原 AI 的互推圖在成年人的施力箭頭與加速度箭頭也缺左向箭頭尖端。",
+      "before": "原卷紅筆改 A；原 AI 指出「出力」一詞歧義。 原 AI 使用同一條 SVG 路徑與一個末端標記畫相反方向，實測左向只顯示線段。",
+      "after": "維持原卷預期 A，逐項說明主觀肌肉使力與兩人實際施在對方的接觸力之差別，以及若採接觸力解讀 A 同樣成立。 我們使用兩支獨立箭頭，圖解接觸力等長、加速度因質量不同而長短不同。"
+    }
+  ],
+  "passed": true,
+  "automatedValidation": "docs/imports/new-gpt-20261127-77/lane-c/isolated-qa.json",
+  "automatedValidationSHA256": "96cdfc26ad08022077a07c03cbd9f72a6d79c0c52e0a35e425cbcc9951b6ab22",
+  "sourceSVGMarkerEvidence": ".cache/intake-20261127-6b099415/lane-c-preview/source-marker-check.png"
+}

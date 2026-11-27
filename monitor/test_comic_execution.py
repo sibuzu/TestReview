@@ -8,6 +8,42 @@ from .comic_execution import assert_work_allowed
 from .comic_pipeline import claim, stage, begin, integrated
 
 
+class NonbiologyReworkScopeTests(unittest.TestCase):
+    def test_only_frozen_pending_nonbiology_originals_can_run(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            comics = root / 'docs/comics'
+            plan = comics / 'biology-rework-20261112/plan.json'
+            plan.parent.mkdir(parents=True)
+            batch = comics / 'batch.json'
+            control = dict(mode='nonbiology_limited', textOnlyReplacement='active',
+                           limitedBatch='docs/comics/batch.json', activeOriginalQuestionCount=2,
+                           activeOriginalQuestionIds=['q-2', 'q-3'], remainingActiveOriginalQuestions=2)
+            entries = [dict(id='q-1', subject='Civics', state='paused',
+                            originalQuestionIds=['q-1', 'q-2'], completedOriginalIds=['q-1']),
+                       dict(id='q-3', subject='History', state='paused'),
+                       dict(id='q-4', subject='Biology', state='paused')]
+            plan.write_text(json.dumps(dict(executionControl=control, entries=entries)))
+            work = dict(kind='nonbiology', state='active', limit=2,
+                        questionIds=['q-2', 'q-3'], completedQuestionIds=[])
+            batch.write_text(json.dumps(work))
+            assert_work_allowed(root, 'q-2')
+            for qid in ('q-1', 'q-4', 'q-5'):
+                with self.subTest(qid=qid), self.assertRaises(ValueError):
+                    assert_work_allowed(root, qid)
+            control['activeOriginalQuestionIds'] = work['questionIds'] = ['q-3', 'q-4']
+            plan.write_text(json.dumps(dict(executionControl=control, entries=entries)))
+            batch.write_text(json.dumps(work))
+            with self.assertRaisesRegex(ValueError, '待重製清單'):
+                assert_work_allowed(root, 'q-4')
+            control['activeOriginalQuestionIds'] = work['questionIds'] = ['q-2', 'q-3']
+            work.update(state='complete', completedQuestionIds=['q-2', 'q-3'])
+            plan.write_text(json.dumps(dict(executionControl=control, entries=entries)))
+            batch.write_text(json.dumps(work))
+            with self.assertRaisesRegex(ValueError, '已停止'):
+                assert_work_allowed(root, 'q-2')
+
+
 class ExplicitQuestionUpdateTests(unittest.TestCase):
     def fixture(self, directory):
         root = Path(directory)

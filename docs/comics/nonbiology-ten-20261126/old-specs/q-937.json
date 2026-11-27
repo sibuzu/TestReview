@@ -1,0 +1,158 @@
+{
+  "id": "q-937",
+  "subject": "Civics",
+  "title": "臺北市一般區：別漏里長",
+  "art": "docs/comics/art/q-937.svg",
+  "layoutVersion": "native-fluid-v6",
+  "panels": [
+    {
+      "heading": "① 戶籍逐層看：直轄市、一般區、里",
+      "text": "婷婷在臺北市大安區學府里。臺北市是直轄市，大安區是一般區；先確認制度，再判斷能選的地方公職。",
+      "diagram": {
+        "kind": "flow",
+        "title": "婷婷的戶籍層級",
+        "items": [
+          {
+            "label": "臺北市：直轄市",
+            "tone": "blue"
+          },
+          {
+            "label": "大安區：一般行政區",
+            "tone": "gold"
+          },
+          {
+            "label": "學府里",
+            "tone": "green"
+          }
+        ],
+        "arrow": "由上往下看戶籍層級"
+      },
+      "alt": "中文逐層標示臺北市、大安區、學府里。"
+    },
+    {
+      "heading": "② 直轄市層級：選A、B",
+      "text": "直轄市層級可選市長A、市議員B。不能再重複加入縣市長E、縣市議員F；它們是不同類別。",
+      "diagram": {
+        "kind": "paths",
+        "title": "直轄市層級的公職",
+        "items": [
+          {
+            "label": "A：直轄市市長",
+            "tone": "blue"
+          },
+          {
+            "label": "B：直轄市議員",
+            "tone": "green"
+          }
+        ],
+        "target": "直轄市層級：2類",
+        "arrow": "依本題表的代號列出"
+      },
+      "alt": "A市長及B市議員兩項以中文明示，合計2類。"
+    },
+    {
+      "heading": "③ 一般區長不選，里長仍要選",
+      "text": "大安區長由市長依法任用，不是本題另選的公職；學府里的里長I仍由里民選出，不能一起漏掉。",
+      "diagram": {
+        "kind": "flow",
+        "title": "一般區與里長分開判斷",
+        "items": [
+          {
+            "label": "大安區長：依法任用",
+            "detail": "一般區長不是民選。",
+            "tone": "gold"
+          },
+          {
+            "label": "學府里長 I：里民選出",
+            "detail": "補上本題漏選的里長。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "區長不是民選，不影響里長民選"
+      },
+      "alt": "中文對照一般區長任用及里長I民選。"
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A、B、I：共3類地方公職",
+    "points": [
+      "A市長＋B市議員＋I里長。",
+      "大安區是一般區，不加區長或區民代表。",
+      "本題算公職類別，不把公投另加進來。"
+    ]
+  },
+  "protectedWords": [
+    "婷婷",
+    "臺北市",
+    "大安區",
+    "學府里",
+    "直轄市",
+    "一般行政區",
+    "依法任用",
+    "里民選出",
+    "地方公職",
+    "里長",
+    "市議員"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "path": "site/dist/assets/originals/src-more-055-original-mi154-9ac8a53a50c4.png",
+    "visualChecked": true
+  },
+  "sourceGeneratedArtUsed": false,
+  "generationMethod": "new selectable native HTML relationship diagrams with explicit Chinese roles/levels/actions; deterministic SVG fallback; imagegenCalls=0",
+  "rationale": "本題核心為戶籍制度與公職代號，精確HTML逐層標明角色與2＋1類，不用無字人物或選票圖示讓讀者猜，依原表保留ABI。",
+  "designFile": "docs/comics/q-937-design.txt",
+  "officialReferences": [
+    {
+      "title": "地方制度法第5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=5"
+    },
+    {
+      "title": "地方制度法第58條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=58"
+    },
+    {
+      "title": "地方制度法第59條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=59"
+    },
+    {
+      "title": "地方制度法第83-2條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0040003&flno=83-2"
+    },
+    {
+      "title": "內政部我國地方制度概況",
+      "url": "https://www.moi.gov.tw/cp.aspx?n=674"
+    }
+  ],
+  "legalCheckedAt": "2026-11-04",
+  "artSHA256": "99e3b23e9a13a2f322acdc9a833b0edff9ac5288f220a48a637fa2b8a9b18724",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:31:34.692872+00:00",
+  "previewValidation": "docs/comics/q-937-preview-validation.json",
+  "visualReview": "已實看原卷共表及1440/390：臺北市直轄市/大安一般區/學府里依層標示，A市長B市議員加I里長共3類，不把一般區長列民選、不漏里長；角色、箭頭及類數直接標明，三寬無溢出、同行等高。",
+  "nativeArt": "assets/comics/q-937-art-99e3b23e9a.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:31:34.567123+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-937-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-937-validation.json"
+}

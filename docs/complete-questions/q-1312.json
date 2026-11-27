@@ -1,0 +1,112 @@
+{
+  "id": "q-1312",
+  "sourceId": "src-more-077",
+  "subject": "Physics-Chemistry",
+  "title": "理化第4題｜棒球反向擊出的平均受力",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "旅美國民隊投手王建民，面對洋基隊強打坎農，投出 40 m/s（時速 144 公里）的快速球，坎農發揮強打威力將球以 20 m/s 的速度反向擊出，而球與球棒接觸時間為 0.3 秒，則棒球在這段時間內平均受力大小為多少 N？（棒球質量為 150 g）\n\n(A) 10\n(B) 20\n(C) 30\n(D) 50",
+  "answer": "(C) 30 N",
+  "explanation": "取來球方向為正，初速度 vᵢ＝＋40 m/s，球反向飛出，末速度 v𝒇＝−20 m/s。因此 Δv＝−20−40＝−60 m/s。150 g＝0.150 kg，接觸時間 Δt＝0.3 s，所以平均加速度 a平均＝−60／0.3＝−200 m/s²，平均合力 F平均＝0.150 × (−200)＝−30 N。負號代表和來球方向相反；題目問大小，故取 30 N。\n\n(A) 10 N 會出現在把兩個速率直接相減、未納入反向時。\n(B) 20 N 相當於只算球由 40 m/s 減速至停止，漏算反向擊出的速度。\n(C) 30 N 正確納入兩個速度方向、質量和接觸時間。\n(D) 50 N 不符合上述速度變化與受力時間。",
+  "trap": "先設正方向、替初速和末速加上正負號，再算「末速度減初速度」。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "牛頓第二運動定律",
+    "平均力",
+    "速度方向",
+    "單位換算"
+  ],
+  "images": [
+    "assets/originals/gpt077-q-1312-original-e974d6534b95.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第4題",
+  "studentAnswer": "4@錯題B → C",
+  "contentStatus": "完整原題",
+  "correctOption": "C",
+  "passage": "",
+  "originalQuestionNumber": "4",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "10",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "10 N 會出現在把兩個速率直接相減、未納入反向時。"
+    },
+    {
+      "label": "B",
+      "text": "20",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "20 N 相當於只算球由 40 m/s 減速至停止，漏算反向擊出的速度。"
+    },
+    {
+      "label": "C",
+      "text": "30",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "30 N 正確納入兩個速度方向、質量和接觸時間。"
+    },
+    {
+      "label": "D",
+      "text": "50",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "50 N 不符合上述速度變化與受力時間。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "棒球反向擊出的平均受力",
+    "art": "assets/comics/q-1312-art-cfc121aa69.svg",
+    "panels": [
+      {
+        "heading": "來球和回球相反",
+        "text": "取來球向右為正。投出的速度是 +40 m/s，反向擊出後是 −20 m/s。",
+        "alt": "畫出棒球、球棒及長度二比一的來球與回球速度箭頭。",
+        "image": "assets/comics/q-1312-art-cfc121aa69.svg"
+      },
+      {
+        "heading": "在數線上算速度差",
+        "text": "末速度減初速度，Δv＝−20−40＝−60 m/s。負號代表與來球方向相反。",
+        "alt": "帶正負號的速度數線，從 +40 到 −20 的向左箭頭代表速度改變。",
+        "image": "assets/comics/q-1312-panel-2-art-86d656c42d.svg"
+      },
+      {
+        "heading": "用 0.3 秒求平均加速度",
+        "text": "−60 m/s ÷ 0.3 s＝−200 m/s²。圖中的斜虛線只代表兩端點的平均斜率。",
+        "alt": "速度時間的端點與斜虛線，標出 0.3 秒內由 +40 變為 −20。",
+        "image": "assets/comics/q-1312-panel-3-art-b2c467aa28.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(C) 30 N",
+      "points": [
+        "質量 150 g＝0.150 kg，乘平均加速度得到 −30 N。題目問大小，選 30 N。"
+      ],
+      "image": "assets/comics/q-1312-panel-4-art-1d8a920ed0.svg",
+      "alt": "棒球質量標為 0.150 kg，平均合力箭頭指向左，標出大小 30 N。"
+    },
+    "protectedWords": [
+      "+40 m/s",
+      "−20 m/s",
+      "−60 m/s",
+      "−200 m/s²",
+      "0.3 s",
+      "150 g",
+      "0.150 kg",
+      "−30 N",
+      "30 N"
+    ]
+  }
+}

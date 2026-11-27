@@ -1,0 +1,51 @@
+{
+  "id": "q-1304",
+  "subject": "Physics-Chemistry",
+  "title": "軌道上何處動能最大",
+  "art": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1304-panel-1.svg",
+  "panels": [
+    {
+      "heading": "沿原卷找各點高度",
+      "text": "從 A 點 10 m 高處自由滾下。C 點高 6 m，E 點高 16 m；B、D 都在底線。",
+      "alt": "軌道簡圖標出 A、C、E 高度及底線 B、D。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1304-panel-1.svg"
+    },
+    {
+      "heading": "下降時動能增加",
+      "text": "沒有摩擦阻力造成的能量損耗。從 A 下降到 B，減少的重力位能轉為動能。",
+      "alt": "放大 A 到 B 的下降軌道，以三個球的位置和箭頭表現下坡。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1304-panel-2.svg"
+    },
+    {
+      "heading": "比較可到達處的能量",
+      "text": "A、B、C、D 的動能加位能相同。E 高於起點，沒有足夠力學能到達。",
+      "alt": "A、B、C、D 的動能與位能堆疊圖，四處總量相等。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1304-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "(B) B點",
+    "points": [
+      "B、D 同高且都位在底線，動能同為最大。選項中只有 B 點。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1304-panel-4.svg",
+    "alt": "軌道圖同時突顯底線的 B 和 D，兩個位置具有相同最大動能。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+  "protectedWords": [
+    "10 m",
+    "6 m",
+    "16 m",
+    "B、D"
+  ],
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-77/lane-b/q-1304-original.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-b/q-1304-figure.jpg"
+  ],
+  "answerCheckedAgainst": "(B) B點",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source77_b",
+  "rationale": "依該題物理條件自製四張獨立向量圖，圖像與圖說分別處理原題條件、物理關係、推導及結論。"
+}

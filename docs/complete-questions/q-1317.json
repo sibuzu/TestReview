@@ -1,0 +1,78 @@
+{
+  "id": "q-1317",
+  "sourceId": "src-more-077",
+  "subject": "Physics-Chemistry",
+  "title": "理化第16題｜四組物體的萬有引力大小",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "以萬有引力定律判斷，下列那一組物體間的萬有引力最小？\n\n(A) 2m 與 2m，相距 R\n(B) m 與 m，相距 R\n(C) 2m 與 m，相距 2R\n(D) 3m 與 m，相距 2R",
+  "answer": "C．2m 與 m，相距 2R",
+  "explanation": "依萬有引力定律 F＝Gm₁m₂／r²。取 F₀＝Gm²／R² 為比較基準。\n\n(A) 質量乘積是 4m²，距離平方是 R²，得 4F₀。(B) 得 F₀。(C) 質量乘積是 2m²，距離平方是 4R²，得 ½F₀。(D) 質量乘積是 3m²，距離平方也是 4R²，得 ¾F₀。\n\n½F₀ ＜ ¾F₀ ＜ F₀ ＜ 4F₀，所以 C 最小。",
+  "trap": "",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "萬有引力",
+    "距離平方反比",
+    "比例"
+  ],
+  "images": [
+    "assets/originals/gpt077-q-1317-original-201a9f6fdfe0.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第16題",
+  "studentAnswer": "原卷藍筆 B、紅筆改 C。",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "16",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt077-q-1317-figure-fb6854d22300.jpg",
+      "alt": "原卷四組比較圖。A 為 2m、2m、R，B 為 m、m、R，C 為 2m、m、2R，D 為 3m、m、2R。",
+      "caption": "原卷選項附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "四組物體的萬有引力大小",
+    "art": "assets/comics/q-1317-art-034f2ec4ab.svg",
+    "panels": [
+      {
+        "heading": "先讀質量與距離",
+        "text": "A、B 的距離是 R，C、D 是 2R。每組兩個物體的質量另行相乘。",
+        "alt": "A 至 D 四組圓球，各標質量與中心距離 R 或 2R",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1317-art-034f2ec4ab.svg"
+      },
+      {
+        "heading": "距離兩倍，平方四倍",
+        "text": "把 r² 想成邊長為 r 的正方形面積。邊長兩倍，面積變為四倍。",
+        "alt": "並排畫邊長 R 與 2R 的正方形，後者分成四個相等小正方形",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1317-panel-2-art-edeae9299f.svg"
+      },
+      {
+        "heading": "以 B 組引力做基準",
+        "text": "A＝4F₀、B＝F₀、C＝½F₀、D＝¾F₀。",
+        "alt": "四組引力比例長條，A 最長，C 最短",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1317-panel-3-art-8aedd1b2f8.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "C．2m 與 m，相距 2R",
+      "points": [
+        "同樣相距 2R，2m×m 比 3m×m 小，C 的引力最低。"
+      ],
+      "image": "assets/comics/q-1317-panel-4-art-cc51337f47.svg",
+      "alt": "C、D 的物體和距離上下對照，引力長條以二比三呈現"
+    }
+  }
+}

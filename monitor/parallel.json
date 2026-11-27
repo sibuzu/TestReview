@@ -1,8 +1,8 @@
 {
   "mode": "biology_four_image_goal",
   "workerLimit": 3,
-  "rootRole": "生物舊圖剩餘9題均正式驗收完成。",
-  "updatedAt": "2026-11-26T15:09:39.333380+00:00",
+  "rootRole": "監看待重製清單的本批10個非生物原問已正式驗收。",
+  "updatedAt": "2026-11-27T15:00:16.361081+00:00",
   "lanes": [
     {
       "lane": 1,
@@ -45,7 +45,7 @@
     }
   ],
   "ready": [],
-  "integrated": 1267,
+  "integrated": 1304,
   "blocked": [
     {
       "id": "q-1176",
@@ -548,6 +548,121 @@
       "integrationTimingHost": "WorkNerd",
       "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
       "formalArtValidatedAt": "2026-11-26T15:09:32.911313+00:00"
+    },
+    {
+      "id": "q-1299",
+      "title": "理化第12題｜滑雪下坡的動能與單位",
+      "subject": "Physics-Chemistry",
+      "lane": 1,
+      "state": "blocked",
+      "decision": "awaiting_confirmation",
+      "startedAt": "2026-11-27T14:56:51.745087+00:00",
+      "readyAt": "2026-11-27T14:56:51.745087+00:00",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "reason": "四張新製圖解已通過正式驗版，原題或解說訂正待監看確認。",
+      "evidence": [
+        "docs/imports/new-gpt-20261127-77/lane-a/q-1299-spec.json",
+        "docs/imports/new-gpt-20261127-77/lane-a/q-1299-review.json"
+      ],
+      "jobId": "job-15a7582f8b7d48afa821d24b53aa6712",
+      "integrationStartedAt": "2026-11-27T14:56:53.372878+00:00",
+      "integrationMonotonicStartNs": 920939243990547,
+      "integrationTimingHost": "WorkNerd",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "formalArtValidatedAt": "2026-11-27T15:00:13.988766+00:00"
+    },
+    {
+      "id": "q-1315",
+      "title": "理化第11題｜推相連的兩台購物車",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "decision": "awaiting_confirmation",
+      "startedAt": "2026-11-27T14:56:51.745087+00:00",
+      "readyAt": "2026-11-27T14:56:51.745087+00:00",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "reason": "四張新製圖解已通過正式驗版，原題或解說訂正待監看確認。",
+      "evidence": [
+        "docs/imports/new-gpt-20261127-77/lane-c/q-1315-spec.json",
+        "docs/imports/new-gpt-20261127-77/lane-c/q-1315-review.json"
+      ],
+      "jobId": "job-ae2f2225548c42308b61c86717ae2b40",
+      "integrationStartedAt": "2026-11-27T14:56:54.106896+00:00",
+      "integrationMonotonicStartNs": 920939978007159,
+      "integrationTimingHost": "WorkNerd",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "formalArtValidatedAt": "2026-11-27T15:00:13.988766+00:00"
+    },
+    {
+      "id": "q-1316",
+      "title": "理化第12題｜大人與小孩穿溜冰鞋互推",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "decision": "awaiting_confirmation",
+      "startedAt": "2026-11-27T14:56:51.745087+00:00",
+      "readyAt": "2026-11-27T14:56:51.745087+00:00",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "reason": "四張新製圖解已通過正式驗版，原題或解說訂正待監看確認。",
+      "evidence": [
+        "docs/imports/new-gpt-20261127-77/lane-c/q-1316-spec.json",
+        "docs/imports/new-gpt-20261127-77/lane-c/q-1316-review.json"
+      ],
+      "jobId": "job-3385b9702065416494a09f50a6b6bd38",
+      "integrationStartedAt": "2026-11-27T14:56:54.155097+00:00",
+      "integrationMonotonicStartNs": 920940026205823,
+      "integrationTimingHost": "WorkNerd",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "formalArtValidatedAt": "2026-11-27T15:00:13.988766+00:00"
+    },
+    {
+      "id": "q-1319",
+      "title": "理化第22題｜萬有引力與距離平方反比",
+      "subject": "Physics-Chemistry",
+      "lane": 3,
+      "state": "blocked",
+      "decision": "awaiting_confirmation",
+      "startedAt": "2026-11-27T14:56:51.745087+00:00",
+      "readyAt": "2026-11-27T14:56:51.745087+00:00",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "reason": "四張新製圖解已通過正式驗版，原題或解說訂正待監看確認。",
+      "evidence": [
+        "docs/imports/new-gpt-20261127-77/lane-c/q-1319-spec.json",
+        "docs/imports/new-gpt-20261127-77/lane-c/q-1319-review.json"
+      ],
+      "jobId": "job-bfdc13e31bdf46e89a2746092cfa9068",
+      "integrationStartedAt": "2026-11-27T14:56:54.293507+00:00",
+      "integrationMonotonicStartNs": 920940164614848,
+      "integrationTimingHost": "WorkNerd",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "formalArtValidatedAt": "2026-11-27T15:00:13.988766+00:00"
+    },
+    {
+      "id": "q-1327",
+      "title": "理化第40題｜半圓軌道的動能與位能",
+      "subject": "Physics-Chemistry",
+      "lane": 1,
+      "state": "blocked",
+      "decision": "awaiting_confirmation",
+      "startedAt": "2026-11-27T14:56:51.745087+00:00",
+      "readyAt": "2026-11-27T14:56:51.745087+00:00",
+      "productionTimingIncomplete": true,
+      "excludeFromSpeedStatistics": true,
+      "reason": "四張新製圖解已通過正式驗版，原題或解說訂正待監看確認。",
+      "evidence": [
+        "docs/imports/new-gpt-20261127-77/root/q-1327-spec.json",
+        "docs/imports/new-gpt-20261127-77/root/q-1327-review.json"
+      ],
+      "jobId": "job-14b79de53a59417eb762fbbf72a31f44",
+      "integrationStartedAt": "2026-11-27T14:56:54.668944+00:00",
+      "integrationMonotonicStartNs": 920940540053653,
+      "integrationTimingHost": "WorkNerd",
+      "integrationTimingScope": "begin through formal QA and integration bookkeeping; includes coordination and human visual review",
+      "formalArtValidatedAt": "2026-11-27T15:00:13.988766+00:00"
     }
   ],
   "waiting": [],

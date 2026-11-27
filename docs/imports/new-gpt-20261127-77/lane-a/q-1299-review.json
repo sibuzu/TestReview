@@ -1,0 +1,49 @@
+{
+  "id": "q-1299",
+  "disposition": "new",
+  "originalIndex": 5,
+  "originalQuestionNumber": "12",
+  "originalPath": "docs/source-pages/chatgpt-6b099415-05.jpg",
+  "originalSHA256": "a4f9cf633190d0d7ab20d272d1ef38ab3d1d75d6fa7f00bc3c6562c1c38ea640",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "actualViewed": [
+    "docs/imports/new-gpt-20261127-77/lane-a/q-1299-original.jpg",
+    "docs/imports/new-gpt-20261127-77/lane-a/q-1299-figure.jpg"
+  ],
+  "originalCropPath": "docs/imports/new-gpt-20261127-77/lane-a/q-1299-original.jpg",
+  "inclusionEvidence": "原卷第12題可見藍筆 C 與紅筆 B。原對話「12@錯題C → B」。",
+  "duplicateReview": "已以索引關鍵詞及正式題庫正規化題幹查重，未發現題幹、選項及作答圖相同的已收入題。",
+  "nearMatchIds": [],
+  "sourceGeneratedArtUsed": false,
+  "originalFigurePath": "docs/imports/new-gpt-20261127-77/lane-a/q-1299-figure.jpg",
+  "monitorReview": {
+    "title": "滑雪題的 A、B 選項能量等值",
+    "before": "原卷紅筆將 C 更正為 B，題目未限制用焦耳作答。",
+    "after": "保留原卷預期答案 B（58800 J）。解說逐項列明 A（6000 kgw-m）乘以 9.8 同為 58800 J。",
+    "reason": "A 與 B 是不同單位表示的同一物理量，原題未要求採國際單位制，因此單選答案不具唯一性。原 AI 也指出 A、B 等值。",
+    "questionId": "q-1299",
+    "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+    "question": "如右圖，一滑雪選手自 100 公尺高的山上，沿斜坡直線自由下滑，若不計摩擦阻力，此選手體重 60 kgw，求其滑至山下時的動能？\n\n(A) 6000 kgw-m\n(B) 58800 J\n(C) 6000 J\n(D) 6000 W"
+  },
+  "passed": true,
+  "isolatedQA": {
+    "viewports": [
+      1440,
+      390
+    ],
+    "screenshotsVisuallyChecked": true,
+    "screenshots": [
+      ".cache/intake-20261127-6b099415/lane-a-preview/q-1299-1440.png",
+      ".cache/intake-20261127-6b099415/lane-a-preview/q-1299-390.png"
+    ],
+    "assertions": [
+      "answers collapsed by default",
+      "four images loaded",
+      "desktop pair sizing",
+      "mobile natural single column",
+      "copy preserved",
+      "no horizontal overflow"
+    ]
+  }
+}

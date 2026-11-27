@@ -1,0 +1,104 @@
+{
+  "id": "q-1308",
+  "sourceId": "src-more-077",
+  "subject": "Physics-Chemistry",
+  "title": "理化第2題｜籃球上拋時動能如何變化",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "籃球賽開球時，裁判將球垂直向上拋出，如果不考慮空氣的影響，下列敘述何者正確？\n\n(A) 球在上升過程中，所受重力逐漸變大\n(B) 球到達最高點瞬間，所受合力為零\n(C) 球在上升過程中，重力位能逐漸變少\n(D) 球在上升過程中，動能逐漸變少",
+  "answer": "(D) 球在上升過程中，動能逐漸變少",
+  "explanation": "籃球離手後，忽略空氣影響，在球場這樣的高度範圍內，球只受近似固定、方向向下的重力。球上升時仍向上運動，但加速度向下，因此速率逐漸減小。依 K＝½mv²，動能也逐漸減少，同時因高度上升，重力位能增加。\n\n(A) 球在這個高度範圍內所受的重力近似不變。\n(B) 在最高點，球的速度瞬間為零，重力與向下加速度仍存在。\n(C) 上升時高度增加，所以重力位能增加。\n(D) 上升時速率減小，所以動能減少。",
+  "trap": "在最高點速度瞬間為零，球仍受向下的重力。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "上拋運動",
+    "力學能守恆",
+    "動能"
+  ],
+  "images": [
+    "assets/originals/gpt077-q-1308-original-5607966b3a48.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第2題",
+  "studentAnswer": "2@錯題B → D",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "2",
+  "optionAnalysis": [
+    {
+      "label": "A",
+      "text": "球在上升過程中，所受重力逐漸變大",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "球在這個高度範圍內所受的重力近似不變。"
+    },
+    {
+      "label": "B",
+      "text": "球到達最高點瞬間，所受合力為零",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "在最高點，球的速度瞬間為零，重力與向下加速度仍存在。"
+    },
+    {
+      "label": "C",
+      "text": "球在上升過程中，重力位能逐漸變少",
+      "wordClass": "不選",
+      "meaning": "",
+      "explanation": "上升時高度增加，所以重力位能增加。"
+    },
+    {
+      "label": "D",
+      "text": "球在上升過程中，動能逐漸變少",
+      "wordClass": "應選",
+      "meaning": "",
+      "explanation": "上升時速率減小，所以動能減少。"
+    }
+  ],
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "籃球上拋時動能如何變化",
+    "art": "assets/comics/q-1308-art-22dab6aafb.svg",
+    "panels": [
+      {
+        "heading": "籃球離手後向上",
+        "text": "籃球離手後仍往上移動。這裡忽略空氣的影響。",
+        "alt": "三個高度的籃球和朝上的運動方向。",
+        "image": "assets/comics/q-1308-art-22dab6aafb.svg"
+      },
+      {
+        "heading": "重力持續向下",
+        "text": "在球場高度範圍內，向下重力近似固定。各位置方向相同、大小近似相同。",
+        "alt": "兩個不同高度的籃球，各畫同長的向下重力箭頭。",
+        "image": "assets/comics/q-1308-panel-2-art-f6d03c600b.svg"
+      },
+      {
+        "heading": "位能增加、動能減少",
+        "text": "重力向下，使上升速率逐漸減小；高度越來越高，重力位能增加。",
+        "alt": "從低處到最高點的能量堆疊圖，動能漸小、位能漸大。",
+        "image": "assets/comics/q-1308-panel-3-art-709a4562ec.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(D) 球在上升過程中，動能逐漸變少",
+      "points": [
+        "D 正確。上升時動能逐漸變少。到最高點時速度瞬間為零，仍有向下的重力。"
+      ],
+      "image": "assets/comics/q-1308-panel-4-art-fc8592914c.svg",
+      "alt": "速度隨時間下降的圖，最高點速度為零、直線斜率仍向下。"
+    },
+    "protectedWords": [
+      "重力位能",
+      "最高點"
+    ]
+  }
+}

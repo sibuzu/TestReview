@@ -1,0 +1,145 @@
+{
+  "id": "q-929",
+  "subject": "Civics",
+  "title": "先查宣告，再看年齡與交易",
+  "art": "docs/comics/art/q-929-relationships.svg",
+  "panels": [
+    {
+      "heading": "① 已成年，仍須檢查監護宣告",
+      "text": "第15條看的是監護宣告；滿18歲，不會讓監護宣告的效果消失。",
+      "alt": "成年條件與監護宣告明確標示，指向無行為能力。",
+      "diagram": {
+        "kind": "paths",
+        "title": "A的兩項條件同時看",
+        "items": [
+          {
+            "label": "年齡｜18歲以上",
+            "detail": "已達成年年齡。",
+            "tone": "blue"
+          },
+          {
+            "label": "法院｜受監護宣告",
+            "detail": "另有監護宣告的法律效果。",
+            "tone": "gold"
+          }
+        ],
+        "target": "分類｜無行為能力人",
+        "arrow": "合併條件判斷"
+      }
+    },
+    {
+      "heading": "② 未成年人也有生活交易例外",
+      "text": "一般國中生吃飯屬生活必需交易，不能說每次都須父母先同意。",
+      "alt": "限制行為能力與生活必需交易例外以條件流程標示。",
+      "diagram": {
+        "kind": "flow",
+        "title": "B：不可一概要求父母同意",
+        "items": [
+          {
+            "label": "一般未成年國中生",
+            "detail": "通常是限制行為能力人。",
+            "tone": "blue"
+          },
+          {
+            "label": "符合年齡、身分的生活必需交易",
+            "detail": "第77條例外，不須先取得法定代理人允許。",
+            "tone": "green"
+          }
+        ],
+        "arrow": "再檢查交易性質",
+        "note": "昂貴或非生活必需消費，不能直接套用這個例外。"
+      }
+    },
+    {
+      "heading": "③ 結婚與高齡，別只靠印象分類",
+      "text": "滿18歲結婚不以父母同意為必要；高齡也不會自動變成限制行為能力。",
+      "alt": "18歲成年與80歲精神健全兩個案例分別標示，不以年老判定受限制。",
+      "diagram": {
+        "kind": "paths",
+        "title": "C、D各自錯在哪裡？",
+        "items": [
+          {
+            "label": "C｜滿18歲結婚",
+            "detail": "已成年，仍要符合其他結婚要件。",
+            "tone": "green"
+          },
+          {
+            "label": "D｜80歲且精神健全",
+            "detail": "高齡本身不會變成限制行為能力。",
+            "tone": "gold"
+          }
+        ],
+        "target": "結論｜只符合A的敘述",
+        "arrow": "逐項核對法律條件"
+      }
+    }
+  ],
+  "fourth": {
+    "answer": "答案 A：成年受監護宣告者仍無行為能力",
+    "points": [
+      "監護宣告的效果，不能只用成年年齡排除。",
+      "一般生活必需交易例外，不等於所有消費都可自行決定。",
+      "成年結婚不須父母同意，高齡不自動受限制。"
+    ]
+  },
+  "protectedWords": [
+    "監護宣告",
+    "無行為能力",
+    "限制行為能力",
+    "生活必需交易",
+    "法定代理人"
+  ],
+  "sourceUrl": "https://chatgpt.com/share/6aea190f-d430-83ee-ab44-f243de7f2aec",
+  "originalMaterialsChecked": true,
+  "originalChecked": {
+    "images": [
+      "site/dist/assets/originals/src-more-055-original-mi039-c28d0a3a8cc2.png"
+    ],
+    "visualChecked": true,
+    "answer": "A",
+    "notes": "本代理已逐題實看原卷/裁圖，讀完原題、所有選項及必要材料並獨立核官方法規。"
+  },
+  "rationale": "題目比較四個條件分類，採可選取HTML角色/年齡/法律效果圖，精確列出條件與例外比人物情境更能避免分類誤學。",
+  "generationMethod": "Selectable native HTML/CSS labeled relationship diagrams; compatibility SVG is not the visible teaching content.",
+  "sourceGeneratedArtUsed": false,
+  "producerAgent": "/root/comic_lane_2",
+  "createdAt": "2026-11-03T20:04:56.428395+00:00",
+  "artSHA256": "8716e859aa2ab29014e60722d2fe9f6b0715fc454fc459bd2b271a76411f2da1",
+  "layoutVersion": "native-fluid-v6",
+  "visualChecked": true,
+  "checkedAt": "2026-11-03T20:10:10.518277+00:00",
+  "previewValidation": "docs/comics/q-929-preview-validation.json",
+  "visualReview": "實看1440/390原生HTML圖表，成年與監護的兩條件、生活必需交易例外、結婚與高齡案例皆直接中文標名；受監護宣告者與監護人未混淆。A答案不變，三寬驗證無溢出、同行等高與單欄自然高度。",
+  "producerReview": {
+    "reviewerAgent": "/root/comic_lane_2",
+    "originalCropsActuallyViewed": true,
+    "desktopMobileActuallyViewed": true,
+    "screenshots": [
+      "/tmp/weirugo-comic-previews/q-929-1440.png",
+      "/tmp/weirugo-comic-previews/q-929-390.png"
+    ]
+  },
+  "nativeArt": "assets/comics/q-929-art-8716e859aa.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "rootReview": {
+    "checkedAt": "2026-11-03T20:10:10.512463+00:00",
+    "reviewerAgent": "/root/comic_lane_1",
+    "visualChecked": true,
+    "desktopMobileActuallyViewed": true,
+    "decision": "complete",
+    "formalAppAndStandaloneQA": true,
+    "previewQAInherited": "docs/comics/q-929-preview-validation.json",
+    "note": "正式題庫及單頁1440/1120/390版面QA；實看正式桌機與手機四格，圖文、預設收合、實際解碼與原題答案保持。"
+  },
+  "validationFile": "docs/comics/q-929-validation.json"
+}

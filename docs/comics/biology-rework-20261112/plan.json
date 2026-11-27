@@ -2,8 +2,8 @@
   "kind": "four_image_biology_and_missing_rework",
   "state": "paused",
   "createdAt": "2026-11-11T16:27:16.335709+00:00",
-  "updatedAt": "2026-11-25T15:41:18.545153+00:00",
-  "worknerdTaskId": "t_82ad7a4e2c8f488db673",
+  "updatedAt": "2026-11-26T15:24:30.564751+00:00",
+  "worknerdTaskId": "t_a199d3efb8db46cf8329",
   "goalActive": false,
   "scope": "46個生物題面、33個teachingComic缺失題面，加53個原來只有文字流程框/空白placeholder的題面；按實際圖像深查擴為130題面/140原問/560張圖。舊77題面初盤與進度保留。",
   "qualityReference": "todo/image.png",
@@ -17,7 +17,7 @@
   "questionPageCount": 130,
   "originalQuestionCount": 140,
   "requiredImageCount": 560,
-  "completedQuestionPages": 91,
+  "completedQuestionPages": 96,
   "questionIds": [
     "q-046",
     "q-044",
@@ -2088,13 +2088,20 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "paused",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-929"
+      ],
       "stateBeforePause": "queued",
       "pausedAt": "2026-11-11T18:57:46.761749+00:00",
-      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
+      "visualChecked": true,
+      "lastAcceptedBatch": "nonbiology-ten-20261126",
+      "originalValidationFiles": {
+        "q-929": "docs/comics/q-929-validation.json"
+      },
+      "completedAt": "2026-11-26T15:24:30.564751+00:00"
     },
     {
       "id": "q-930",
@@ -2106,13 +2113,20 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "paused",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-930"
+      ],
       "stateBeforePause": "queued",
       "pausedAt": "2026-11-11T18:57:46.761749+00:00",
-      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
+      "visualChecked": true,
+      "lastAcceptedBatch": "nonbiology-ten-20261126",
+      "originalValidationFiles": {
+        "q-930": "docs/comics/q-930-validation.json"
+      },
+      "completedAt": "2026-11-26T15:24:30.564751+00:00"
     },
     {
       "id": "q-932",
@@ -2127,13 +2141,26 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "paused",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 16,
+      "completedOriginalIds": [
+        "q-932",
+        "q-933",
+        "q-934",
+        "q-935"
+      ],
       "stateBeforePause": "queued",
       "pausedAt": "2026-11-11T18:57:46.761749+00:00",
-      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
+      "visualChecked": true,
+      "lastAcceptedBatch": "nonbiology-ten-20261126",
+      "originalValidationFiles": {
+        "q-932": "docs/comics/q-932-validation.json",
+        "q-933": "docs/comics/q-933-validation.json",
+        "q-934": "docs/comics/q-934-validation.json",
+        "q-935": "docs/comics/q-935-validation.json"
+      },
+      "completedAt": "2026-11-26T15:24:30.564751+00:00"
     },
     {
       "id": "q-936",
@@ -2145,13 +2172,20 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "paused",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-936"
+      ],
       "stateBeforePause": "queued",
       "pausedAt": "2026-11-11T18:57:46.761749+00:00",
-      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
+      "visualChecked": true,
+      "lastAcceptedBatch": "nonbiology-ten-20261126",
+      "originalValidationFiles": {
+        "q-936": "docs/comics/q-936-validation.json"
+      },
+      "completedAt": "2026-11-26T15:24:30.564751+00:00"
     },
     {
       "id": "q-937",
@@ -2167,11 +2201,21 @@
       ],
       "state": "paused",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 8,
+      "completedOriginalIds": [
+        "q-937",
+        "q-938"
+      ],
       "stateBeforePause": "queued",
       "pausedAt": "2026-11-11T18:57:46.761749+00:00",
-      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
+      "pauseReason": "題組其餘小題留在待重製清單。",
+      "visualChecked": false,
+      "lastAcceptedBatch": "nonbiology-ten-20261126",
+      "originalValidationFiles": {
+        "q-937": "docs/comics/q-937-validation.json",
+        "q-938": "docs/comics/q-938-validation.json"
+      },
+      "lastPartialCompletionAt": "2026-11-26T15:24:30.564751+00:00"
     },
     {
       "id": "q-941",
@@ -2565,13 +2609,20 @@
       "reasons": [
         "text_only_diagram_without_actual_illustration"
       ],
-      "state": "paused",
+      "state": "complete",
       "requiredImagesPerOriginal": 4,
-      "completedImages": 0,
-      "completedOriginalIds": [],
+      "completedImages": 4,
+      "completedOriginalIds": [
+        "q-1025"
+      ],
       "stateBeforePause": "queued",
       "pausedAt": "2026-11-11T18:57:46.761749+00:00",
-      "pauseReason": "使用者暫停重製，保留草稿，不續驗收或整合"
+      "visualChecked": true,
+      "lastAcceptedBatch": "nonbiology-ten-20261126",
+      "originalValidationFiles": {
+        "q-1025": "docs/comics/q-1025-validation.json"
+      },
+      "completedAt": "2026-11-26T15:24:30.564751+00:00"
     },
     {
       "id": "q-1002",
@@ -3083,8 +3134,8 @@
   ],
   "textOnlyAdditionalQuestionPageCount": 53,
   "initialFieldAuditQuestionPages": 77,
-  "completedOriginalQuestions": 94,
-  "completedImages": 376,
+  "completedOriginalQuestions": 104,
+  "completedImages": 416,
   "publishedBatches": [
     {
       "batchNumber": 33,
@@ -3194,33 +3245,33 @@
     }
   ],
   "executionControl": {
-    "changedAt": "2026-11-25T15:27:06.104678+00:00",
-    "mode": "biology_limited",
+    "changedAt": "2026-11-26T15:15:13.083586+00:00",
+    "mode": "nonbiology_limited",
     "missingIllustration": "completed",
     "biologyQualityUpgrade": "completed",
     "textOnlyReplacement": "paused",
-    "userInstruction": "將生物的舊解說圖改為精美解說圖 9 題作完， COMMIT PUSH",
+    "userInstruction": "繼續非生物圖解重製，只處理監看頁的待重製清單 -> 再作 10 題",
     "biologyResumePhrase": "將生物的舊解說圖改為精美解說圖",
-    "activeQuestionPageCount": 9,
-    "activeOriginalQuestionCount": 9,
-    "activeRequiredImages": 36,
+    "activeQuestionPageCount": 6,
+    "activeOriginalQuestionCount": 10,
+    "activeRequiredImages": 40,
     "activeOriginalQuestionIds": [
-      "q-307",
-      "q-308",
-      "q-309",
-      "q-310",
-      "q-311",
-      "q-348",
-      "q-349",
-      "q-559",
-      "q-560"
+      "q-1025",
+      "q-929",
+      "q-930",
+      "q-932",
+      "q-933",
+      "q-934",
+      "q-935",
+      "q-936",
+      "q-937",
+      "q-938"
     ],
-    "pausedQuestionPageCount": 39,
-    "pausedOriginalQuestionCount": 46,
+    "pausedQuestionPageCount": 34,
+    "pausedOriginalQuestionCount": 36,
     "pausedOriginalQuestionIds": [
       "q-1005",
       "q-1008",
-      "q-1025",
       "q-1035",
       "q-1050",
       "q-1051",
@@ -3236,15 +3287,6 @@
       "q-912",
       "q-921",
       "q-925",
-      "q-929",
-      "q-930",
-      "q-932",
-      "q-933",
-      "q-934",
-      "q-935",
-      "q-936",
-      "q-937",
-      "q-938",
       "q-939",
       "q-941",
       "q-942",
@@ -3275,8 +3317,8 @@
       "commit": "85a3fac556a8706a336fc961691f47d2bd4add5f",
       "remoteVerified": true
     },
-    "limitedBatch": "docs/comics/biology-final9-20261125/manifest.json",
-    "limitedBatchCompletedAt": "2026-11-25T15:41:18.545153+00:00"
+    "limitedBatch": "docs/comics/nonbiology-ten-20261126/manifest.json",
+    "limitedBatchCompletedAt": "2026-11-26T15:24:30.564751+00:00"
   },
-  "pauseReason": "生物舊圖9題已全部完成，剩餘非生物重製暫停。"
+  "pauseReason": "本批40張圖解已通過驗收，剩餘36道非生物原問待重製。"
 }

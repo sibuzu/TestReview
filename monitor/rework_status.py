@@ -25,11 +25,12 @@ def build_rework_status(root, data, progress):
     batch = json.loads(batch_path.read_text()) if batch_path.is_file() else {}
     active_ids = set(batch.get('questionIds', [])) if batch.get('state') == 'active' else set()
     limit = batch.get('limit', 0)
+    batch_subject = '非生物' if batch.get('kind') == 'nonbiology' else '生物'
     if batch.get('state') == 'complete':
         image_count = batch.get('completedImages', limit * 4)
-        batch_note = f' 本批生物{limit}題、{image_count}張圖已完成驗收。其餘重製維持暫停。'
+        batch_note = f' 本批{batch_subject}{limit}題、{image_count}張圖已完成驗收。其餘重製維持暫停。'
     elif batch:
-        batch_note = f' 本批生物{limit}題，每題4圖，完成本批後停止。其餘重製維持暫停。'
+        batch_note = f' 本批{batch_subject}{limit}題，每題4圖，完成本批後停止。其餘重製維持暫停。'
     else:
         batch_note = '新來源製圖另列，不會恢復這份暫停清單。'
     questions, parents = {}, {}
@@ -39,15 +40,16 @@ def build_rework_status(root, data, progress):
             parents[question['id']] = page['id']
     counts, items, seen = {}, [], set()
     for entry in plan.get('entries', []):
-        completed_ids = entry.get('completedOriginalIds', entry.get('originalQuestionIds', [entry['id']]))
-        for qid in entry.get('originalQuestionIds', [entry['id']]):
+        original_ids = entry.get('originalQuestionIds', [entry['id']])
+        completed_ids = entry.get('completedOriginalIds', original_ids if entry['state'] == 'complete' else [])
+        for qid in original_ids:
             if qid in seen:
                 continue
             seen.add(qid)
             question = questions.get(qid, {})
             subject = question.get('subject', entry.get('subject', ''))
             row = counts.setdefault(subject, Counter(completed=0, pending=0, reassess=0))
-            complete = entry.get('state') == 'complete' and qid in completed_ids and four_images(question)
+            complete = qid in completed_ids and four_images(question)
             row['completed' if complete else 'pending'] += 1
             items.append(dict(id=qid, title=question.get('title', entry.get('title', qid)),
                               subject=subject, subjectName=SUBJECTS.get(subject, subject),
@@ -77,6 +79,7 @@ def build_rework_status(root, data, progress):
                 activeBatch=dict(limit=batch.get('limit'),
                                  completed=len(batch.get('completedQuestionIds', [])),
                                  state=batch.get('state'),
+                                 subject=batch_subject,
                                  remaining=sum(q['state'] == 'active' for q in items)) if batch else None,
                 biologyResumeCommand=plan.get('executionControl', {}).get('biologyResumePhrase')
                     or '將生物的舊解說圖改為精美解說圖',

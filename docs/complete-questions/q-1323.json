@@ -1,0 +1,78 @@
+{
+  "id": "q-1323",
+  "sourceId": "src-more-077",
+  "subject": "Physics-Chemistry",
+  "title": "理化第36題｜從位置與速度圖判讀恆定動能",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "下列有關物體作直線運動的甲、乙、丙、丁、戊、己六個關係圖中，在 t₁ 到 t₂ 時間內，那個圖形的動能是不變且不為零？\n(A) 甲丙戊\n(B) 乙丁己\n(C) 乙丁戊\n(D) 甲丙己",
+  "answer": "(D) 甲、丙、己",
+  "explanation": "同一物體的質量固定，動能不變且不為零，表示速率固定且大於零。位置－時間圖看斜率，速度－時間圖直接看縱值。\n\n甲的斜率為固定正值，丙的斜率為固定負值，兩者速率均固定且大於零。戊的位置固定，速度為零。乙、丁的速度隨時間改變，在指定區間內速率不固定。己的速度維持固定的非零值，所以選甲、丙、己。",
+  "trap": "向負方向等速運動也有動能。位置曲線水平代表靜止，速度線水平代表速度固定。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "運動圖表",
+    "力學"
+  ],
+  "images": [
+    "assets/originals/gpt077-q-1323-original-49b7f47caf70.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第36題",
+  "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 D。",
+  "contentStatus": "完整原題",
+  "correctOption": "D",
+  "passage": "",
+  "originalQuestionNumber": "36",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt077-q-1323-figure-b9d081dd66be.jpg",
+      "alt": "甲丙戊為位置時間圖，乙丁己為速度時間圖，圖中均標示 t₁ 與 t₂",
+      "caption": "原卷作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "從位置與速度圖判讀恆定動能",
+    "art": "assets/comics/q-1323-art-ea60c13788.svg",
+    "panels": [
+      {
+        "heading": "先辨認縱軸",
+        "text": "位置－時間圖用斜率找速度，速度－時間圖直接看速度。",
+        "alt": "畫出位置、速度對時間的兩種軸，提醒讀法不同。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1323-art-ea60c13788.svg"
+      },
+      {
+        "heading": "甲、丙、戊的位置圖",
+        "text": "甲正斜率、丙負斜率都固定；戊是水平線，物體靜止。",
+        "alt": "三張位置對時間圖，分別是上升、下降和水平。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1323-panel-2-art-04bf7a4b9d.svg"
+      },
+      {
+        "heading": "乙、丁、己的速度圖",
+        "text": "乙、丁的速度在變，只有己維持固定非零速度。",
+        "alt": "三張速度對時間圖，分別是上升、下降和非零水平。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1323-panel-3-art-6a11e68d97.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(D) 甲、丙、己",
+      "points": [
+        "甲、丙運動方向相反，但動能取決於速率平方。"
+      ],
+      "image": "assets/comics/q-1323-panel-4-art-c4a5b5bb08.svg",
+      "alt": "左方、右方運動與同向等速運動三列，各標出相應圖形。"
+    }
+  }
+}

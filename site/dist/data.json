@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-27.2769a75e1d97",
+  "revision": "2026-10-27.e184454b4ab8",
   "subjects": [
     {
       "id": "Chinese",
@@ -3040,6 +3040,53 @@
       ],
       "content": "",
       "note": "79張原卷已核對，76題和304張新製圖解已上架，3筆在不同題本編號出現的重複題沿用較早題號。10題解說訂正或原題疑義待確認。"
+    },
+    {
+      "id": "src-more-077",
+      "url": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+      "title": "錯題答案訂正",
+      "platform": "ChatGPT",
+      "date": "2026-11-27",
+      "addedAt": "2026-11-27",
+      "status": "pending",
+      "transcript": "sources/6b099415-1dd0-83e8-b6dd-88a58dc4c147.txt",
+      "images": [
+        "assets/originals/gpt077-q-1295-original-9336e0e37676.jpg",
+        "assets/originals/gpt077-q-1296-original-da417cf06e8f.jpg",
+        "assets/originals/gpt077-q-1297-original-151bfe51de52.jpg",
+        "assets/originals/gpt077-q-1298-original-cd4a5c588fb9.jpg",
+        "assets/originals/gpt077-q-1299-original-165bccfd4b58.jpg",
+        "assets/originals/gpt077-q-1300-original-cd1b0d9ab834.jpg",
+        "assets/originals/gpt077-q-1301-original-bfc80d9c9f3f.jpg",
+        "assets/originals/gpt077-q-1302-original-77ffcd9723d2.jpg",
+        "assets/originals/gpt077-q-1303-original-6c2b02101638.jpg",
+        "assets/originals/gpt077-q-1304-original-f25c82afec03.jpg",
+        "assets/originals/gpt077-q-1305-original-7af918cc58c1.jpg",
+        "assets/originals/gpt077-q-1306-original-9544eda36962.jpg",
+        "assets/originals/gpt077-q-1307-original-903baf6241b3.jpg",
+        "assets/originals/gpt077-q-1308-original-5607966b3a48.jpg",
+        "assets/originals/gpt077-q-1309-original-f780e527499a.jpg",
+        "assets/originals/gpt077-q-1310-condition-176bdfd27d7a.jpg",
+        "assets/originals/gpt077-q-1310-original-f3fc6d848dd7.jpg",
+        "assets/originals/gpt077-q-1312-original-e974d6534b95.jpg",
+        "assets/originals/gpt077-q-1313-original-928df308f7b2.jpg",
+        "assets/originals/gpt077-q-1314-original-7c5af9f061e2.jpg",
+        "assets/originals/gpt077-q-1315-original-9457065751cd.jpg",
+        "assets/originals/gpt077-q-1316-original-3149917e8c8e.jpg",
+        "assets/originals/gpt077-q-1317-original-201a9f6fdfe0.jpg",
+        "assets/originals/gpt077-q-1318-original-49501786779d.jpg",
+        "assets/originals/gpt077-q-1319-original-7521012f47d3.jpg",
+        "assets/originals/gpt077-q-1320-original-5568a9ae6f20.jpg",
+        "assets/originals/gpt077-q-1321-original-dc6561e1c24d.jpg",
+        "assets/originals/gpt077-q-1322-original-27623ee62bad.jpg",
+        "assets/originals/gpt077-q-1323-original-49b7f47caf70.jpg",
+        "assets/originals/gpt077-q-1324-original-51e2e4d0d6a7.jpg",
+        "assets/originals/gpt077-q-1325-original-46baef5a3e57.jpg",
+        "assets/originals/gpt077-q-1326-original-d5a2eeb7a38f.jpg",
+        "assets/originals/gpt077-q-1327-original-26d4438aa2ba.jpg"
+      ],
+      "content": "",
+      "note": "29張原卷已取得，33個提問中收入32個原問（31個題面），1題缺完整選項。正在正式驗版。"
     }
   ],
   "questions": [
@@ -99690,94 +99737,37 @@
       "questionFigures": [],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "先查宣告，再看年齡與交易",
-        "art": "assets/comics/q-929-art-8716e859aa.svg",
+        "title": "成年、監護與日常交易",
+        "art": "assets/comics/q-929-art-54b6c067f2.svg",
         "panels": [
           {
-            "heading": "① 已成年，仍須檢查監護宣告",
-            "text": "第15條看的是監護宣告；滿18歲，不會讓監護宣告的效果消失。",
-            "alt": "成年條件與監護宣告明確標示，指向無行為能力。",
-            "diagram": {
-              "kind": "paths",
-              "title": "A的兩項條件同時看",
-              "items": [
-                {
-                  "label": "年齡｜18歲以上",
-                  "detail": "已達成年年齡。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "法院｜受監護宣告",
-                  "detail": "另有監護宣告的法律效果。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "分類｜無行為能力人",
-              "arrow": "合併條件判斷"
-            }
+            "heading": "先看18歲這條線",
+            "text": "民法以滿18歲為成年。看到成年線索時，也要讀完原題是否提到受監護宣告。",
+            "alt": "孩童至成人的年齡線，18歲為成年節點，較高歲數不自動改變行為能力。",
+            "image": "assets/comics/q-929-art-54b6c067f2.svg"
           },
           {
-            "heading": "② 未成年人也有生活交易例外",
-            "text": "一般國中生吃飯屬生活必需交易，不能說每次都須父母先同意。",
-            "alt": "限制行為能力與生活必需交易例外以條件流程標示。",
-            "diagram": {
-              "kind": "flow",
-              "title": "B：不可一概要求父母同意",
-              "items": [
-                {
-                  "label": "一般未成年國中生",
-                  "detail": "通常是限制行為能力人。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "符合年齡、身分的生活必需交易",
-                  "detail": "第77條例外，不須先取得法定代理人允許。",
-                  "tone": "green"
-                }
-              ],
-              "arrow": "再檢查交易性質",
-              "note": "昂貴或非生活必需消費，不能直接套用這個例外。"
-            }
+            "heading": "看見法院的監護宣告",
+            "text": "已受監護宣告者依民法第15條無行為能力。即使已經成年，這個法律效果仍成立。",
+            "alt": "法院與裁定書指向受監護宣告的成人，標示無行為能力。",
+            "image": "assets/comics/q-929-panel-2-art-0d129887f1.svg"
           },
           {
-            "heading": "③ 結婚與高齡，別只靠印象分類",
-            "text": "滿18歲結婚不以父母同意為必要；高齡也不會自動變成限制行為能力。",
-            "alt": "18歲成年與80歲精神健全兩個案例分別標示，不以年老判定受限制。",
-            "diagram": {
-              "kind": "paths",
-              "title": "C、D各自錯在哪裡？",
-              "items": [
-                {
-                  "label": "C｜滿18歲結婚",
-                  "detail": "已成年，仍要符合其他結婚要件。",
-                  "tone": "green"
-                },
-                {
-                  "label": "D｜80歲且精神健全",
-                  "detail": "高齡本身不會變成限制行為能力。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "結論｜只符合A的敘述",
-              "arrow": "逐項核對法律條件"
-            }
+            "heading": "看國中生的日常消費",
+            "text": "一般吃飯屬於依年齡、身分所需的日常生活交易，適用民法第77條的例外。",
+            "alt": "兩位同學與餐盤、餐費，呈現原題放學一起吃飯的例子。",
+            "image": "assets/comics/q-929-panel-3-art-11c164ed42.svg"
           }
         ],
         "fourth": {
-          "answer": "答案 A：成年受監護宣告者仍無行為能力",
+          "answer": "(A) 18歲以上受監護宣告者仍是無行為能力人",
           "points": [
-            "監護宣告的效果，不能只用成年年齡排除。",
-            "一般生活必需交易例外，不等於所有消費都可自行決定。",
-            "成年結婚不須父母同意，高齡不自動受限制。"
-          ]
-        },
-        "protectedWords": [
-          "監護宣告",
-          "無行為能力",
-          "限制行為能力",
-          "生活必需交易",
-          "法定代理人"
-        ]
+            "受監護宣告者無行為能力。",
+            "日常生活必需交易是一般未成年人的行為能力規則中的例外。"
+          ],
+          "image": "assets/comics/q-929-panel-4-art-87a25a4f13.svg",
+          "alt": "左側18歲年齡標記與右側法院宣告書並列，下方凸顯A。"
+        }
       }
     },
     {
@@ -99871,93 +99861,37 @@
       "questionFigures": [],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "機關與程序，要配對正確",
-        "art": "assets/comics/q-930-art-62673d437a.svg",
+        "title": "房屋糾紛的調解與訴訟",
+        "art": "assets/comics/q-930-art-bdb422c70d.svg",
         "panels": [
           {
-            "heading": "① 調解委員會，辦理的是調解",
-            "text": "B把「調解委員會」和「提民事訴訟」接在一起，機關與程序搭配錯誤。",
-            "alt": "當事人聲請調解與調解委員會的角色直接標明，沒有稱它為民事法院。",
-            "diagram": {
-              "kind": "flow",
-              "title": "調解這條路",
-              "items": [
-                {
-                  "label": "當事人｜希望協商解決糾紛",
-                  "detail": "房屋買賣糾紛可循調解途徑。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "調解委員會｜受理聲請調解",
-                  "detail": "不是向它提起民事訴訟。",
-                  "tone": "green"
-                }
-              ],
-              "arrow": "聲請調解"
-            }
+            "heading": "讀113年原表的件數",
+            "text": "原表列三個部分原因。漏水及終止契約各52件，隱瞞重要資訊34件。",
+            "alt": "三條共用零點的橫條，長度對應52、52與34件，各標件數。",
+            "image": "assets/comics/q-930-art-bdb422c70d.svg"
           },
           {
-            "heading": "② 民事訴訟，向法院提出",
-            "text": "C用了「可能」：不履行契約且符合賠償要件，才可能負責，不是所有糾紛必然賠償。",
-            "alt": "訴狀交有管轄權法院的程序與可能的債務不履行責任明確分開。",
-            "diagram": {
-              "kind": "flow",
-              "title": "訴訟這條路",
-              "items": [
-                {
-                  "label": "原告｜提出民事訴狀",
-                  "detail": "表明請求及原因事實。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "有管轄權的法院｜受理民事訴訟",
-                  "detail": "法院也能辦理調解，但不使調解委員會變成法院。",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "向法院起訴"
-            }
+            "heading": "兩種程序去不同地方",
+            "text": "可向調解委員會聲請調解。要提起民事訴訟，起訴狀交給有管轄權的法院。",
+            "alt": "中間的房屋糾紛分成調解委員會與法院兩條路，分別標示聲請調解與民事起訴。",
+            "image": "assets/comics/q-930-panel-2-art-d656ff1bb3.svg"
           },
           {
-            "heading": "③ 買賣成立，不等於所有權移轉",
-            "text": "D照原題保留為概括語境。書面、登記是本題房屋物權移轉的要求，不能擴成所有買賣成立皆須登記。",
-            "alt": "兩種法律行為分開列明：買賣契約成立與房屋所有權移轉。",
-            "diagram": {
-              "kind": "paths",
-              "title": "D須分清的兩件事",
-              "items": [
-                {
-                  "label": "買賣契約｜成立",
-                  "detail": "與所有權移轉是不同法律效果。",
-                  "tone": "green"
-                },
-                {
-                  "label": "房屋所有權｜因買賣而移轉",
-                  "detail": "不動產物權變動須書面及登記。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "結論｜不把兩件事混成一項",
-              "arrow": "區分法律效果"
-            }
+            "heading": "分清買賣與物權移轉",
+            "text": "原題D按房屋所有權移轉理解。書面與登記是物權移轉的要求，買賣契約本身有另一個成立問題。",
+            "alt": "房子圖旁分出訂立買賣契約和移轉所有權兩階段，書面憑據指向登記。",
+            "image": "assets/comics/q-930-panel-3-art-99c9722112.svg"
           }
         ],
         "fourth": {
-          "answer": "答案 B：調解委員會不受理民事起訴",
+          "answer": "(B) 買方可向調解委員會提民事訴訟追究民事責任",
           "points": [
-            "聲請調解：找調解委員會。",
-            "提起民事訴訟：向法院。",
-            "沿用來源使用者明確更正B；D的契約與物權差別照留。"
-          ]
-        },
-        "protectedWords": [
-          "調解委員會",
-          "民事訴訟",
-          "有管轄權",
-          "買賣契約",
-          "所有權移轉",
-          "聲請調解"
-        ]
+            "題目要選錯誤敘述，B把「提民事訴訟」和「聲請調解」的機關混用。",
+            "按原卷與已確認解說的語境處理房屋移轉。"
+          ],
+          "image": "assets/comics/q-930-panel-4-art-42ebf7590c.svg",
+          "alt": "起訴狀通往法院，連到調解委員會的起訴路線以叉號標出。"
+        }
       }
     },
     {
@@ -100248,89 +100182,36 @@
           "questionFigures": [],
           "explanationFigures": [],
           "teachingComic": {
-            "title": "竹北市：先看層級，再看欄位",
-            "art": "assets/comics/q-932-art-99e3b23e9a.svg",
+            "title": "竹北市的行政機關",
+            "art": "assets/comics/q-932-art-23696cd62a.svg",
             "panels": [
               {
-                "heading": "① 先辨層級：這裡是縣轄市",
-                "text": "竹北市隸屬新竹縣，是縣轄市，與鄉、鎮同層級。名字有「市」，不代表都是同一種層級。",
-                "alt": "外層新竹縣、內層竹北市，中文直接標明縣轄市。",
-                "diagram": {
-                  "kind": "nested",
-                  "title": "行政層級：縣之下",
-                  "items": [
-                    {
-                      "label": "新竹縣",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "竹北市（縣轄市）",
-                      "tone": "green"
-                    }
-                  ],
-                  "note": "縣轄市與鄉、鎮同層級。"
-                }
+                "heading": "先定位竹北市",
+                "text": "竹北市在新竹縣內，屬縣轄市。先認出這一層級，再回表找欄位。",
+                "alt": "新竹縣的外框包住竹北市，市鎮圖標放在縣的範圍內。",
+                "image": "assets/comics/q-932-art-23696cd62a.svg"
               },
               {
-                "heading": "② 再看欄位：本空問行政機關",
-                "text": "原表本空在行政機關欄。縣轄市的行政機關為公所，填入後是竹北市公所，選C。",
-                "alt": "本空行政機關經中文箭頭對應竹北市公所，代號C。",
-                "diagram": {
-                  "kind": "paths",
-                  "title": "原表欄位→機關名稱",
-                  "items": [
-                    {
-                      "label": "本空：行政機關",
-                      "detail": "先讀欄名，不只讀地名。",
-                      "tone": "gold"
-                    }
-                  ],
-                  "target": "竹北市公所（C）",
-                  "arrow": "依縣轄市制度填寫"
-                }
+                "heading": "把視線停在第3空",
+                "text": "第3空在「行政機關」欄，需要找負責行政的機關名稱。",
+                "alt": "兩座機關建築並排，標記指向行政機關欄。",
+                "image": "assets/comics/q-932-panel-2-art-045c4e37b3.svg"
               },
               {
-                "heading": "③ 對照同層級的兩種機關",
-                "text": "同一個縣轄市，行政是公所，立法是民代表會。不要填成立法機關，也不要套用政府／議會。",
-                "alt": "精確中文對照行政公所C、立法民代表會D，不用顏色猜角色。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "同一層級，欄位不同",
-                  "items": [
-                    {
-                      "label": "行政機關：公所 C",
-                      "tone": "green"
-                    },
-                    {
-                      "label": "立法機關：民代表會 D",
-                      "tone": "purple"
-                    }
-                  ],
-                  "arrow": "換欄時，名稱也要換",
-                  "note": "政府／議會不是本題縣轄市的答案。"
-                }
+                "heading": "看公所辦理行政",
+                "text": "縣轄市的行政機關稱市公所，街區與行政窗口相連，代表公所承辦市務。",
+                "alt": "竹北市街區的文件送往公所行政窗口。",
+                "image": "assets/comics/q-932-panel-3-art-b78d69c798.svg"
               }
             ],
             "fourth": {
-              "answer": "答案 C：公所",
+              "answer": "(C) 公所",
               "points": [
-                "竹北市是新竹縣的縣轄市。",
-                "本空問行政機關，填公所。",
-                "不是看到「市」就一律填政府或議會。"
-              ]
-            },
-            "protectedWords": [
-              "竹北市",
-              "新竹縣",
-              "縣轄市",
-              "行政機關",
-              "立法機關",
-              "民代表會",
-              "公所",
-              "政府",
-              "議會",
-              "同層級"
-            ]
+                "竹北市屬新竹縣。縣轄市的行政機關叫公所。"
+              ],
+              "image": "assets/comics/q-932-panel-4-art-0b6a2e5855.svg",
+              "alt": "竹北街區指向行政公所，附代號C。"
+            }
           }
         },
         {
@@ -100402,89 +100283,36 @@
           "questionFigures": [],
           "explanationFigures": [],
           "teachingComic": {
-            "title": "竹北市：先看層級，再看欄位",
-            "art": "assets/comics/q-933-art-99e3b23e9a.svg",
+            "title": "竹北市的立法機關",
+            "art": "assets/comics/q-933-art-33cd06b0fb.svg",
             "panels": [
               {
-                "heading": "① 先辨層級：這裡是縣轄市",
-                "text": "竹北市隸屬新竹縣，是縣轄市，與鄉、鎮同層級。名字有「市」，不代表都是同一種層級。",
-                "alt": "外層新竹縣、內層竹北市，中文直接標明縣轄市。",
-                "diagram": {
-                  "kind": "nested",
-                  "title": "行政層級：縣之下",
-                  "items": [
-                    {
-                      "label": "新竹縣",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "竹北市（縣轄市）",
-                      "tone": "green"
-                    }
-                  ],
-                  "note": "縣轄市與鄉、鎮同層級。"
-                }
+                "heading": "沿第4空讀立法欄",
+                "text": "先找竹北市這一列，再往「立法機關」欄找到第4空。",
+                "alt": "兩種地方機關並排，第4空標記指向院會造型的立法機關。",
+                "image": "assets/comics/q-933-art-33cd06b0fb.svg"
               },
               {
-                "heading": "② 再看欄位：本空問立法機關",
-                "text": "原表本空在立法機關欄。縣轄市的立法機關為民代表會，填入後是竹北市民代表會，選D。",
-                "alt": "本空立法機關經中文箭頭對應竹北市民代表會，代號D。",
-                "diagram": {
-                  "kind": "paths",
-                  "title": "原表欄位→機關名稱",
-                  "items": [
-                    {
-                      "label": "本空：立法機關",
-                      "detail": "先讀欄名，不只讀地名。",
-                      "tone": "gold"
-                    }
-                  ],
-                  "target": "竹北市民代表會（D）",
-                  "arrow": "依縣轄市制度填寫"
-                }
+                "heading": "看審議桌上的工作",
+                "text": "地方立法機關審議自治事項。縣轄市設民代表會，圖中的席次表示代表組成。",
+                "alt": "代表在弧形議事區，兩側資料標預算案與提案。",
+                "image": "assets/comics/q-933-panel-2-art-7868d08f91.svg"
               },
               {
-                "heading": "③ 對照同層級的兩種機關",
-                "text": "同一個縣轄市，行政是公所，立法是民代表會。不要填成行政機關，也不要套用政府／議會。",
-                "alt": "精確中文對照行政公所C、立法民代表會D，不用顏色猜角色。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "同一層級，欄位不同",
-                  "items": [
-                    {
-                      "label": "行政機關：公所 C",
-                      "tone": "green"
-                    },
-                    {
-                      "label": "立法機關：民代表會 D",
-                      "tone": "purple"
-                    }
-                  ],
-                  "arrow": "換欄時，名稱也要換",
-                  "note": "政府／議會不是本題縣轄市的答案。"
-                }
+                "heading": "縣有議會，縣轄市有民代表會",
+                "text": "新竹縣的立法機關稱議會。竹北市是縣轄市，對應市民代表會。",
+                "alt": "新竹縣議會及竹北市民代表會在兩欄，對照各自層級和名稱。",
+                "image": "assets/comics/q-933-panel-3-art-7c92a95ef2.svg"
               }
             ],
             "fourth": {
-              "answer": "答案 D：民代表會",
+              "answer": "(D) 民代表會",
               "points": [
-                "竹北市是新竹縣的縣轄市。",
-                "本空問立法機關，填民代表會。",
-                "不是看到「市」就一律填政府或議會。"
-              ]
-            },
-            "protectedWords": [
-              "竹北市",
-              "新竹縣",
-              "縣轄市",
-              "行政機關",
-              "立法機關",
-              "民代表會",
-              "公所",
-              "政府",
-              "議會",
-              "同層級"
-            ]
+                "第4空問立法機關。用縣轄市的「民代表會」對應原卷D。"
+              ],
+              "image": "assets/comics/q-933-panel-4-art-d416366daf.svg",
+              "alt": "竹北市街區連到立法機關，附代號D及完整機關名。"
+            }
           }
         },
         {
@@ -100556,89 +100384,36 @@
           "questionFigures": [],
           "explanationFigures": [],
           "teachingComic": {
-            "title": "花蓮市：先看層級，再看欄位",
-            "art": "assets/comics/q-934-art-99e3b23e9a.svg",
+            "title": "花蓮市的行政機關",
+            "art": "assets/comics/q-934-art-97f1412500.svg",
             "panels": [
               {
-                "heading": "① 先辨層級：這裡是縣轄市",
-                "text": "花蓮市隸屬花蓮縣，是縣轄市，與鄉、鎮同層級。名字有「市」，不代表都是同一種層級。",
-                "alt": "外層花蓮縣、內層花蓮市，中文直接標明縣轄市。",
-                "diagram": {
-                  "kind": "nested",
-                  "title": "行政層級：縣之下",
-                  "items": [
-                    {
-                      "label": "花蓮縣",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "花蓮市（縣轄市）",
-                      "tone": "green"
-                    }
-                  ],
-                  "note": "縣轄市與鄉、鎮同層級。"
-                }
+                "heading": "分辨花蓮縣與花蓮市",
+                "text": "花蓮市隸屬花蓮縣。山海城市圖標顯示縣、市是相包含的兩個行政範圍。",
+                "alt": "花蓮縣外框包含花蓮市，內框以山、海與房屋表示城市。",
+                "image": "assets/comics/q-934-art-97f1412500.svg"
               },
               {
-                "heading": "② 再看欄位：本空問行政機關",
-                "text": "原表本空在行政機關欄。縣轄市的行政機關為公所，填入後是花蓮市公所，選C。",
-                "alt": "本空行政機關經中文箭頭對應花蓮市公所，代號C。",
-                "diagram": {
-                  "kind": "paths",
-                  "title": "原表欄位→機關名稱",
-                  "items": [
-                    {
-                      "label": "本空：行政機關",
-                      "detail": "先讀欄名，不只讀地名。",
-                      "tone": "gold"
-                    }
-                  ],
-                  "target": "花蓮市公所（C）",
-                  "arrow": "依縣轄市制度填寫"
-                }
+                "heading": "從兩座行政機關選名稱",
+                "text": "原表也有花蓮縣。花蓮縣的行政機關稱縣政府，花蓮市的行政機關稱市公所。",
+                "alt": "縣政府及市公所用兩棟建築並排，有各自的層級和名稱。",
+                "image": "assets/comics/q-934-panel-2-art-10a98a7ba7.svg"
               },
               {
-                "heading": "③ 對照同層級的兩種機關",
-                "text": "同一個縣轄市，行政是公所，立法是民代表會。不要填成立法機關，也不要套用政府／議會。",
-                "alt": "精確中文對照行政公所C、立法民代表會D，不用顏色猜角色。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "同一層級，欄位不同",
-                  "items": [
-                    {
-                      "label": "行政機關：公所 C",
-                      "tone": "green"
-                    },
-                    {
-                      "label": "立法機關：民代表會 D",
-                      "tone": "purple"
-                    }
-                  ],
-                  "arrow": "換欄時，名稱也要換",
-                  "note": "政府／議會不是本題縣轄市的答案。"
-                }
+                "heading": "回到花蓮市這一列",
+                "text": "第9空在花蓮市的行政機關欄。辨認欄位可避免把立法機關填進去。",
+                "alt": "標記落在行政欄的一側，底部保留花蓮市第9空文字。",
+                "image": "assets/comics/q-934-panel-3-art-04141bdaf3.svg"
               }
             ],
             "fourth": {
-              "answer": "答案 C：公所",
+              "answer": "(C) 公所",
               "points": [
-                "花蓮市是花蓮縣的縣轄市。",
-                "本空問行政機關，填公所。",
-                "不是看到「市」就一律填政府或議會。"
-              ]
-            },
-            "protectedWords": [
-              "花蓮市",
-              "花蓮縣",
-              "縣轄市",
-              "行政機關",
-              "立法機關",
-              "民代表會",
-              "公所",
-              "政府",
-              "議會",
-              "同層級"
-            ]
+                "花蓮市是縣轄市，第9空問行政機關，填「公所」。"
+              ],
+              "image": "assets/comics/q-934-panel-4-art-0b3c53bac8.svg",
+              "alt": "山海城市連到行政公所，附代號C及花蓮市公所。"
+            }
           }
         },
         {
@@ -100710,89 +100485,36 @@
           "questionFigures": [],
           "explanationFigures": [],
           "teachingComic": {
-            "title": "花蓮市：先看層級，再看欄位",
-            "art": "assets/comics/q-935-art-99e3b23e9a.svg",
+            "title": "花蓮市的立法機關",
+            "art": "assets/comics/q-935-art-a271960c52.svg",
             "panels": [
               {
-                "heading": "① 先辨層級：這裡是縣轄市",
-                "text": "花蓮市隸屬花蓮縣，是縣轄市，與鄉、鎮同層級。名字有「市」，不代表都是同一種層級。",
-                "alt": "外層花蓮縣、內層花蓮市，中文直接標明縣轄市。",
-                "diagram": {
-                  "kind": "nested",
-                  "title": "行政層級：縣之下",
-                  "items": [
-                    {
-                      "label": "花蓮縣",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "花蓮市（縣轄市）",
-                      "tone": "green"
-                    }
-                  ],
-                  "note": "縣轄市與鄉、鎮同層級。"
-                }
+                "heading": "找花蓮市立法欄的第10空",
+                "text": "第10空位在和第9空同一列。第10空要找立法機關。",
+                "alt": "左右行政、立法兩座建築，標記鎖定花蓮市第10空的立法欄。",
+                "image": "assets/comics/q-935-art-a271960c52.svg"
               },
               {
-                "heading": "② 再看欄位：本空問立法機關",
-                "text": "原表本空在立法機關欄。縣轄市的立法機關為民代表會，填入後是花蓮市民代表會，選D。",
-                "alt": "本空立法機關經中文箭頭對應花蓮市民代表會，代號D。",
-                "diagram": {
-                  "kind": "paths",
-                  "title": "原表欄位→機關名稱",
-                  "items": [
-                    {
-                      "label": "本空：立法機關",
-                      "detail": "先讀欄名，不只讀地名。",
-                      "tone": "gold"
-                    }
-                  ],
-                  "target": "花蓮市民代表會（D）",
-                  "arrow": "依縣轄市制度填寫"
-                }
+                "heading": "由市民選出代表",
+                "text": "縣轄市民依法選出市民代表，代表組成市民代表會。",
+                "alt": "市民、投票匭及弧形代表席依序排列。",
+                "image": "assets/comics/q-935-panel-2-art-be08dd62bb.svg"
               },
               {
-                "heading": "③ 對照同層級的兩種機關",
-                "text": "同一個縣轄市，行政是公所，立法是民代表會。不要填成行政機關，也不要套用政府／議會。",
-                "alt": "精確中文對照行政公所C、立法民代表會D，不用顏色猜角色。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "同一層級，欄位不同",
-                  "items": [
-                    {
-                      "label": "行政機關：公所 C",
-                      "tone": "green"
-                    },
-                    {
-                      "label": "立法機關：民代表會 D",
-                      "tone": "purple"
-                    }
-                  ],
-                  "arrow": "換欄時，名稱也要換",
-                  "note": "政府／議會不是本題縣轄市的答案。"
-                }
+                "heading": "確認立法機關叫什麼",
+                "text": "花蓮縣稱議會，花蓮市稱市民代表會。先確認是縣還是縣轄市。",
+                "alt": "花蓮縣議會與花蓮市民代表會以縣市層級並排比較。",
+                "image": "assets/comics/q-935-panel-3-art-92e0a8433d.svg"
               }
             ],
             "fourth": {
-              "answer": "答案 D：民代表會",
+              "answer": "(D) 民代表會",
               "points": [
-                "花蓮市是花蓮縣的縣轄市。",
-                "本空問立法機關，填民代表會。",
-                "不是看到「市」就一律填政府或議會。"
-              ]
-            },
-            "protectedWords": [
-              "花蓮市",
-              "花蓮縣",
-              "縣轄市",
-              "行政機關",
-              "立法機關",
-              "民代表會",
-              "公所",
-              "政府",
-              "議會",
-              "同層級"
-            ]
+                "第10空問立法機關。縣轄市的立法機關叫民代表會。"
+              ],
+              "image": "assets/comics/q-935-panel-4-art-f673cd8c5b.svg",
+              "alt": "山海城市連到立法會堂，附代號D。"
+            }
           }
         }
       ],
@@ -100821,91 +100543,6 @@
           "q-935"
         ],
         "commonFigureEquivalentSources": []
-      },
-      "teachingComic": {
-        "title": "竹北市：先看層級，再看欄位",
-        "art": "assets/comics/q-932-art-99e3b23e9a.svg",
-        "panels": [
-          {
-            "heading": "① 先辨層級：這裡是縣轄市",
-            "text": "竹北市隸屬新竹縣，是縣轄市，與鄉、鎮同層級。名字有「市」，不代表都是同一種層級。",
-            "alt": "外層新竹縣、內層竹北市，中文直接標明縣轄市。",
-            "diagram": {
-              "kind": "nested",
-              "title": "行政層級：縣之下",
-              "items": [
-                {
-                  "label": "新竹縣",
-                  "tone": "blue"
-                },
-                {
-                  "label": "竹北市（縣轄市）",
-                  "tone": "green"
-                }
-              ],
-              "note": "縣轄市與鄉、鎮同層級。"
-            }
-          },
-          {
-            "heading": "② 再看欄位：本空問行政機關",
-            "text": "原表本空在行政機關欄。縣轄市的行政機關為公所，填入後是竹北市公所，選C。",
-            "alt": "本空行政機關經中文箭頭對應竹北市公所，代號C。",
-            "diagram": {
-              "kind": "paths",
-              "title": "原表欄位→機關名稱",
-              "items": [
-                {
-                  "label": "本空：行政機關",
-                  "detail": "先讀欄名，不只讀地名。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "竹北市公所（C）",
-              "arrow": "依縣轄市制度填寫"
-            }
-          },
-          {
-            "heading": "③ 對照同層級的兩種機關",
-            "text": "同一個縣轄市，行政是公所，立法是民代表會。不要填成立法機關，也不要套用政府／議會。",
-            "alt": "精確中文對照行政公所C、立法民代表會D，不用顏色猜角色。",
-            "diagram": {
-              "kind": "flow",
-              "title": "同一層級，欄位不同",
-              "items": [
-                {
-                  "label": "行政機關：公所 C",
-                  "tone": "green"
-                },
-                {
-                  "label": "立法機關：民代表會 D",
-                  "tone": "purple"
-                }
-              ],
-              "arrow": "換欄時，名稱也要換",
-              "note": "政府／議會不是本題縣轄市的答案。"
-            }
-          }
-        ],
-        "fourth": {
-          "answer": "答案 C：公所",
-          "points": [
-            "竹北市是新竹縣的縣轄市。",
-            "本空問行政機關，填公所。",
-            "不是看到「市」就一律填政府或議會。"
-          ]
-        },
-        "protectedWords": [
-          "竹北市",
-          "新竹縣",
-          "縣轄市",
-          "行政機關",
-          "立法機關",
-          "民代表會",
-          "公所",
-          "政府",
-          "議會",
-          "同層級"
-        ]
       }
     },
     {
@@ -101008,97 +100645,37 @@
       "questionFigures": [],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "親屬與公職，兩個條件都要過",
-        "art": "assets/comics/q-936-art-212b8c8933.svg",
+        "title": "親屬關係與地方公職",
+        "art": "assets/comics/q-936-art-c173033c88.svg",
         "panels": [
           {
-            "heading": "① 先找旁系血親，留下舅舅和姑姑",
-            "text": "舅舅與姑姑和自己有共同血源；姨丈、伯母是血親的配偶，屬姻親。",
-            "alt": "四個親戚角色以精確中文標示親屬關係，分清血親與姻親。",
-            "diagram": {
-              "kind": "paths",
-              "title": "第一關｜親屬關係",
-              "items": [
-                {
-                  "label": "B 舅舅／C 姑姑",
-                  "detail": "母親的兄弟／父親的姊妹，都是旁系血親。",
-                  "tone": "green"
-                },
-                {
-                  "label": "A 姨丈／D 伯母",
-                  "detail": "阿姨的配偶／伯父的配偶，屬於姻親。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "保留｜B、C",
-              "arrow": "先排除不符血親者"
-            }
+            "heading": "讀原表的四段借宿行程",
+            "text": "題目同時給親戚稱謂和借宿地點。先把這兩欄一一對上。",
+            "alt": "四位親戚依原卷順序排列，下方依序標新北市、花蓮縣、臺南市、彰化縣。",
+            "image": "assets/comics/q-936-art-c173033c88.svg"
           },
           {
-            "heading": "② 再看市民代表，不是市議員",
-            "text": "臺南市是直轄市，應參選市議員；花蓮縣內有縣轄市，和市民代表的條件相容。",
-            "alt": "兩名留下的人與借宿地點、公職制度直接配對。",
-            "diagram": {
-              "kind": "paths",
-              "title": "第二關｜地方公職",
-              "items": [
-                {
-                  "label": "B 舅舅｜花蓮縣",
-                  "detail": "縣內有縣轄市花蓮市，設市民代表會。",
-                  "tone": "green"
-                },
-                {
-                  "label": "C 姑姑｜臺南市",
-                  "detail": "直轄市設市議會，不是市民代表會。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "最可能｜B 舅舅",
-              "arrow": "比對公職與所在地"
-            }
+            "heading": "用血緣先縮小範圍",
+            "text": "舅舅是母親的兄弟，姑姑是父親的姊妹。兩人符合旁系血親，姨丈與伯母屬姻親。",
+            "alt": "中央的小惠連到父親和母親，再分別連到姑姑與舅舅。",
+            "image": "assets/comics/q-936-panel-2-art-6539754f15.svg"
           },
           {
-            "heading": "③ 原文與推論，記得分開",
-            "text": "原表只寫「花蓮縣」，沒有說舅舅住花蓮市。本題是結合兩條線索選最可能的人，不擅自補地址。",
-            "alt": "原表已知與解題推論分欄，避免把花蓮市冒充題幹已載條件。",
-            "diagram": {
-              "kind": "flow",
-              "title": "別把推論寫成原題",
-              "items": [
-                {
-                  "label": "原文明載｜花蓮縣、舅舅",
-                  "detail": "附表的已知資訊。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "結合條件｜最可能符合市民代表",
-                  "detail": "不能反說原表已明載花蓮市。",
-                  "tone": "gold"
-                }
-              ],
-              "arrow": "結合兩項線索"
-            }
+            "heading": "再看「市民代表」的地方層級",
+            "text": "臺南市是直轄市，選市議員。花蓮縣內的花蓮市是縣轄市，有市民代表這一公職。",
+            "alt": "左側臺南市對應市議員，右側以花蓮縣內的花蓮市為可能情境，對應市民代表。",
+            "image": "assets/comics/q-936-panel-3-art-91f11bf368.svg"
           }
         ],
         "fourth": {
-          "answer": "答案 B：舅舅",
+          "answer": "(B) 舅舅",
           "points": [
-            "先找旁系血親，再比對地方公職種類。",
-            "姑姑只通過血親條件，臺南市的機關不符。",
-            "花蓮市是可能推論，不是原表明載地址。"
-          ]
-        },
-        "protectedWords": [
-          "旁系血親",
-          "姻親",
-          "舅舅",
-          "姑姑",
-          "市民代表",
-          "市議員",
-          "花蓮縣",
-          "花蓮市",
-          "臺南市"
-        ]
+            "花蓮市只是由兩項線索推出的可能情境。",
+            "舅舅與姑姑皆屬旁系血親，地方公職的名稱決定哪個選項最符合。"
+          ],
+          "image": "assets/comics/q-936-panel-4-art-62288a1f17.svg",
+          "alt": "舅舅圖像連到旁系血親及可能的花蓮市情境，並標出原表只給花蓮縣。"
+        }
       }
     },
     {
@@ -101292,98 +100869,37 @@
           "questionFigures": [],
           "explanationFigures": [],
           "teachingComic": {
-            "title": "臺北市一般區：別漏里長",
-            "art": "assets/comics/q-937-art-99e3b23e9a.svg",
+            "title": "臺北市大安區學府里的婷婷可選的公職",
+            "art": "assets/comics/q-937-art-16bdb4fa2e.svg",
             "panels": [
               {
-                "heading": "① 戶籍逐層看：直轄市、一般區、里",
-                "text": "婷婷在臺北市大安區學府里。臺北市是直轄市，大安區是一般區；先確認制度，再判斷能選的地方公職。",
-                "alt": "中文逐層標示臺北市、大安區、學府里。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "婷婷的戶籍層級",
-                  "items": [
-                    {
-                      "label": "臺北市：直轄市",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "大安區：一般行政區",
-                      "tone": "gold"
-                    },
-                    {
-                      "label": "學府里",
-                      "tone": "green"
-                    }
-                  ],
-                  "arrow": "由上往下看戶籍層級"
-                }
+                "heading": "拆出婷婷的戶籍三層",
+                "text": "原題是臺北市、大安區、學府里。把地址按層級拆開，才能逐項確認地方公職。",
+                "alt": "臺北市外框包住大安區，大安區內是學府里，附街區與房屋圖。",
+                "image": "assets/comics/q-937-art-16bdb4fa2e.svg"
               },
               {
-                "heading": "② 直轄市層級：選A、B",
-                "text": "直轄市層級可選市長A、市議員B。不能再重複加入縣市長E、縣市議員F；它們是不同類別。",
-                "alt": "A市長及B市議員兩項以中文明示，合計2類。",
-                "diagram": {
-                  "kind": "paths",
-                  "title": "直轄市層級的公職",
-                  "items": [
-                    {
-                      "label": "A：直轄市市長",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "B：直轄市議員",
-                      "tone": "green"
-                    }
-                  ],
-                  "target": "直轄市層級：2類",
-                  "arrow": "依本題表的代號列出"
-                }
+                "heading": "直轄市先看市長與市議員",
+                "text": "臺北市是直轄市。對照代號表，市長是A，市議員是B。",
+                "alt": "投票箱分別指向臺北市的行政機關與議事席，標示A和B。",
+                "image": "assets/comics/q-937-panel-2-art-bad1a5039a.svg"
               },
               {
-                "heading": "③ 一般區長不選，里長仍要選",
-                "text": "大安區長由市長依法任用，不是本題另選的公職；學府里的里長I仍由里民選出，不能一起漏掉。",
-                "alt": "中文對照一般區長任用及里長I民選。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "一般區與里長分開判斷",
-                  "items": [
-                    {
-                      "label": "大安區長：依法任用",
-                      "detail": "一般區長不是民選。",
-                      "tone": "gold"
-                    },
-                    {
-                      "label": "學府里長 I：里民選出",
-                      "detail": "補上本題漏選的里長。",
-                      "tone": "green"
-                    }
-                  ],
-                  "arrow": "區長不是民選，不影響里長民選"
-                }
+                "heading": "大安區長任用，學府里長民選",
+                "text": "大安區屬一般行政區，區長由市長任用。學府里屬里，里長由里民選舉。",
+                "alt": "左側市長的任用文件通往大安區長，右側投票箱通往學府里長。",
+                "image": "assets/comics/q-937-panel-3-art-d547c05793.svg"
               }
             ],
             "fourth": {
-              "answer": "答案 A、B、I：共3類地方公職",
+              "answer": "(A) 直轄市市長、(B) 直轄市議員、(I) 村（里）長",
               "points": [
-                "A市長＋B市議員＋I里長。",
-                "大安區是一般區，不加區長或區民代表。",
-                "本題算公職類別，不把公投另加進來。"
-              ]
-            },
-            "protectedWords": [
-              "婷婷",
-              "臺北市",
-              "大安區",
-              "學府里",
-              "直轄市",
-              "一般行政區",
-              "依法任用",
-              "里民選出",
-              "地方公職",
-              "里長",
-              "市議員"
-            ]
+                "一般區長由市長依法任用。里長仍由里民選舉。",
+                "對照原卷代號 A、B、I。"
+              ],
+              "image": "assets/comics/q-937-panel-4-art-7b086e08ed.svg",
+              "alt": "一個投票匭連向市府、議事場地和里長，代號A、B、I各對應一類。"
+            }
           }
         },
         {
@@ -101490,95 +101006,37 @@
           "questionFigures": [],
           "explanationFigures": [],
           "teachingComic": {
-            "title": "和平區：自治區公職與里長都要列",
-            "art": "assets/comics/q-938-art-99e3b23e9a.svg",
+            "title": "臺中市和平區平等里的阿承可選的公職",
+            "art": "assets/comics/q-938-art-ddd4a09b31.svg",
             "panels": [
               {
-                "heading": "① 和平區是山地原住民區",
-                "text": "阿承在臺中市和平區平等里。和平區具有自治地位，與一般行政區的區長任用制度不同。",
-                "alt": "臺中市、和平區、平等里層級及山地原住民區明標。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "阿承的戶籍層級",
-                  "items": [
-                    {
-                      "label": "臺中市：直轄市",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "和平區：山地原住民區",
-                      "tone": "gold"
-                    },
-                    {
-                      "label": "平等里",
-                      "tone": "green"
-                    }
-                  ],
-                  "arrow": "由上往下判斷制度"
-                }
+                "heading": "戶籍落在和平區平等里",
+                "text": "臺中市是直轄市。和平區屬直轄市山地原住民區，平等里在和平區內。",
+                "alt": "臺中市外框包含和平區，和平區內標出平等里。",
+                "image": "assets/comics/q-938-art-ddd4a09b31.svg"
               },
               {
-                "heading": "② 市與自治區：A、B、C、D",
-                "text": "先有臺中市長A、市議員B；和平區還能選區長C、區民代表D。依戶籍制度判斷，不是只看個人有無原住民身分。",
-                "alt": "中文標示市A/B、自治區C/D，各2類合計4類。",
-                "diagram": {
-                  "kind": "paths",
-                  "title": "市與自治區的公職",
-                  "items": [
-                    {
-                      "label": "市層級：A市長、B市議員",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "自治區：C區長、D區民代表",
-                      "tone": "purple"
-                    }
-                  ],
-                  "target": "先列出4類地方公職",
-                  "arrow": "兩層制度分別適用"
-                }
+                "heading": "兩種區的公職制度",
+                "text": "和平區是直轄市山地原住民區，是地方自治團體，有區長與區民代表選舉。",
+                "alt": "左側一般區用任用文書，右側山地原住民區用投票匭，呈現兩種制度。",
+                "image": "assets/comics/q-938-panel-2-art-62dd5eb2b8.svg"
               },
               {
-                "heading": "③ 平等里長I也要選",
-                "text": "別漏平等里的里長I，總共A、B、C、D、I五類。C已是本地區長，不能再把鄉鎮市長G重複加進來。",
-                "alt": "以中文及數字4類加里長I成5類，不使用件數或未標圖示。",
-                "diagram": {
-                  "kind": "flow",
-                  "title": "最後補上里長",
-                  "items": [
-                    {
-                      "label": "A、B、C、D：4類",
-                      "tone": "blue"
-                    },
-                    {
-                      "label": "加I：平等里長，合計5類",
-                      "tone": "green"
-                    }
-                  ],
-                  "arrow": "把里長加入完整清單"
-                }
+                "heading": "和平區在本題多出C和D",
+                "text": "原卷C是山地原住民區長，D是山地原住民區民代表。區長掌行政，代表參與地方立法。",
+                "alt": "投票匭分往區公所與區民代表會，標示C區長與D區民代表。",
+                "image": "assets/comics/q-938-panel-3-art-4fa7289d7d.svg"
               }
             ],
             "fourth": {
-              "answer": "答案 A、B、C、D、I：共5類",
+              "answer": "(A) 直轄市市長、(B) 直轄市議員、(C) 直轄市山地原住民區長、(D) 直轄市山地原住民區民代表、(I) 村（里）長",
               "points": [
-                "臺中市層級A、B。",
-                "和平自治區層級C、D。",
-                "平等里長I，不重複加G、H。"
-              ]
-            },
-            "protectedWords": [
-              "阿承",
-              "臺中市",
-              "和平區",
-              "平等里",
-              "山地原住民區",
-              "一般行政區",
-              "區民代表",
-              "地方公職",
-              "原住民身分",
-              "依法任用"
-            ]
+                "和平區的山地原住民區身分，是比一般區多選C、D的原因。",
+                "按原卷代號填 A、B、C、D、I。"
+              ],
+              "image": "assets/comics/q-938-panel-4-art-64bdd4c765.svg",
+              "alt": "五個各有圖案的代號按市、區、里分列，清楚列出A、B、C、D、I。"
+            }
           }
         },
         {
@@ -101805,100 +101263,6 @@
           "q-939"
         ],
         "commonFigureEquivalentSources": []
-      },
-      "teachingComic": {
-        "title": "臺北市一般區：別漏里長",
-        "art": "assets/comics/q-937-art-99e3b23e9a.svg",
-        "panels": [
-          {
-            "heading": "① 戶籍逐層看：直轄市、一般區、里",
-            "text": "婷婷在臺北市大安區學府里。臺北市是直轄市，大安區是一般區；先確認制度，再判斷能選的地方公職。",
-            "alt": "中文逐層標示臺北市、大安區、學府里。",
-            "diagram": {
-              "kind": "flow",
-              "title": "婷婷的戶籍層級",
-              "items": [
-                {
-                  "label": "臺北市：直轄市",
-                  "tone": "blue"
-                },
-                {
-                  "label": "大安區：一般行政區",
-                  "tone": "gold"
-                },
-                {
-                  "label": "學府里",
-                  "tone": "green"
-                }
-              ],
-              "arrow": "由上往下看戶籍層級"
-            }
-          },
-          {
-            "heading": "② 直轄市層級：選A、B",
-            "text": "直轄市層級可選市長A、市議員B。不能再重複加入縣市長E、縣市議員F；它們是不同類別。",
-            "alt": "A市長及B市議員兩項以中文明示，合計2類。",
-            "diagram": {
-              "kind": "paths",
-              "title": "直轄市層級的公職",
-              "items": [
-                {
-                  "label": "A：直轄市市長",
-                  "tone": "blue"
-                },
-                {
-                  "label": "B：直轄市議員",
-                  "tone": "green"
-                }
-              ],
-              "target": "直轄市層級：2類",
-              "arrow": "依本題表的代號列出"
-            }
-          },
-          {
-            "heading": "③ 一般區長不選，里長仍要選",
-            "text": "大安區長由市長依法任用，不是本題另選的公職；學府里的里長I仍由里民選出，不能一起漏掉。",
-            "alt": "中文對照一般區長任用及里長I民選。",
-            "diagram": {
-              "kind": "flow",
-              "title": "一般區與里長分開判斷",
-              "items": [
-                {
-                  "label": "大安區長：依法任用",
-                  "detail": "一般區長不是民選。",
-                  "tone": "gold"
-                },
-                {
-                  "label": "學府里長 I：里民選出",
-                  "detail": "補上本題漏選的里長。",
-                  "tone": "green"
-                }
-              ],
-              "arrow": "區長不是民選，不影響里長民選"
-            }
-          }
-        ],
-        "fourth": {
-          "answer": "答案 A、B、I：共3類地方公職",
-          "points": [
-            "A市長＋B市議員＋I里長。",
-            "大安區是一般區，不加區長或區民代表。",
-            "本題算公職類別，不把公投另加進來。"
-          ]
-        },
-        "protectedWords": [
-          "婷婷",
-          "臺北市",
-          "大安區",
-          "學府里",
-          "直轄市",
-          "一般行政區",
-          "依法任用",
-          "里民選出",
-          "地方公職",
-          "里長",
-          "市議員"
-        ]
       }
     },
     {
@@ -110631,105 +109995,37 @@
       ],
       "explanationFigures": [],
       "teachingComic": {
-        "title": "嬸嬸和姊夫是姻親，不是旁系血親",
-        "art": "assets/comics/q-1025-art-11a43856b1.svg",
+        "title": "家族企業中的血親與姻親",
+        "art": "assets/comics/q-1025-art-272460d1d3.svg",
         "panels": [
           {
-            "heading": "① 直系血親涉及名凱和爸媽三人",
-            "text": "名凱與爸爸、媽媽分別是直系血親。爸爸和媽媽彼此是一組配偶，不是因為同為家人就彼此成為血親。",
-            "alt": "爸爸與名凱、媽媽與名凱分別直系血親的可選取路徑，合計三位名單內人物。",
-            "diagram": {
-              "kind": "paths",
-              "title": "把直系血親配對列出",
-              "items": [
-                {
-                  "label": "爸爸 ↔ 名凱",
-                  "detail": "親子，直系血親。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "媽媽 ↔ 名凱",
-                  "detail": "親子，直系血親。",
-                  "tone": "green"
-                }
-              ],
-              "target": "涉及3人，不是C所說的4人",
-              "arrow": "只計不同的人，不重複算名凱",
-              "note": "名單內配偶只有爸爸、媽媽一組，A也不成立。"
-            }
+            "heading": "圖中列出哪五人",
+            "text": "從原卷的主管架構先列出名凱、媽媽、嬸嬸、爸爸和姊夫，範圍是這五人彼此間的關係。",
+            "alt": "公司頂端連到五位經理的圖像。爸爸與媽媽在圖中各出現一次。",
+            "image": "assets/comics/q-1025-art-272460d1d3.svg"
           },
           {
-            "heading": "② 嬸嬸、姊夫都由婚姻連結",
-            "text": "嬸嬸是叔叔的配偶；姊夫是姊姊的配偶。兩者與名凱均是姻親，不能因稱謂帶親屬字，就當成旁系血親。",
-            "alt": "嬸嬸連到叔叔配偶、姊夫連到姊姊配偶，兩者與名凱均由婚姻連結而為姻親。",
-            "diagram": {
-              "kind": "paths",
-              "title": "逐字拆開親屬稱謂",
-              "items": [
-                {
-                  "label": "嬸嬸＝叔叔的配偶",
-                  "detail": "不是爸爸的姊妹。",
-                  "tone": "gold"
-                },
-                {
-                  "label": "姊夫＝姊姊的配偶",
-                  "detail": "不是名凱的親姊姊。",
-                  "tone": "blue"
-                }
-              ],
-              "target": "名凱與兩人均是姻親",
-              "arrow": "從婚姻關係連結",
-              "note": "叔叔、姊姊只用來解釋稱謂，沒有列在五位經理內。"
-            }
+            "heading": "分清配偶與直系",
+            "text": "爸媽彼此是配偶。名凱分別與媽媽、爸爸互為直系血親，所以涉及三人。",
+            "alt": "爸媽的水平線表示配偶。兩人各有一條直系連線到名凱。",
+            "image": "assets/comics/q-1025-panel-2-art-fa31f41b0f.svg"
           },
           {
-            "heading": "③ 五人都可找到姻親配對",
-            "text": "名凱與姊夫、爸媽與姊夫，以及嬸嬸與名凱，都有姻親連結。這涵蓋名單五人，所以D說姻親人數最少也不對。",
-            "alt": "名凱與姊夫、爸媽與姊夫、嬸嬸與名凱三組可選取配對，涵蓋名單全五人。",
-            "diagram": {
-              "kind": "paths",
-              "title": "檢查D，不把姻親只算兩人",
-              "items": [
-                {
-                  "label": "名凱 ↔ 姊夫",
-                  "detail": "血親的配偶。",
-                  "tone": "blue"
-                },
-                {
-                  "label": "爸爸、媽媽 ↔ 姊夫",
-                  "detail": "女兒的配偶。",
-                  "tone": "green"
-                },
-                {
-                  "label": "嬸嬸 ↔ 名凱",
-                  "detail": "配偶的血親。",
-                  "tone": "gold"
-                }
-              ],
-              "target": "五人均可找到姻親配對",
-              "arrow": "同一人可對不同人有不同關係"
-            }
+            "heading": "找稱謂中的中間親屬",
+            "text": "嬸嬸是叔叔的配偶，姊夫是姊姊的配偶。叔叔與姊姊都沒有列在五位主管中。",
+            "alt": "名凱分別經過圖外的叔叔與姊姊，連到架構中的嬸嬸與姊夫。",
+            "image": "assets/comics/q-1025-panel-3-art-3d013d7c50.svg"
           }
         ],
         "fourth": {
-          "answer": "答案 B：沒有旁系血親配對",
+          "answer": "(B) 不存在旁系血親關係",
           "points": [
-            "只比較原圖列出的五位經理。",
-            "爸爸媽媽是一組配偶；名凱和爸媽涉及直系血親三人。",
-            "嬸嬸、姊夫是姻親；不能改成姑姑、姊姊。"
-          ]
-        },
-        "protectedWords": [
-          "名凱",
-          "嬸嬸",
-          "姊夫",
-          "直系血親",
-          "旁系血親",
-          "姻親",
-          "叔叔",
-          "姊姊",
-          "五位經理"
-        ]
+            "直接看五人彼此的關係，未列在主管圖中的親屬不加入計數。",
+            "爸媽是一組配偶，名凱與兩位家長的直系關係共涉及三人。"
+          ],
+          "image": "assets/comics/q-1025-panel-4-art-6f4dfd6aaf.svg",
+          "alt": "三位直系成員在左，兩位姻親在右，下方標示旁系血親零組。"
+        }
       }
     },
     {
@@ -135050,7 +134346,2784 @@
           "alt": "asked與planned to go swimming的圖示，標出 if he planned"
         }
       }
+    },
+    {
+      "id": "q-1295",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第3題｜功的常用單位",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "何者為功的常用單位？\n\n(A) 牛頓\n(B) 焦耳\n(C) 瓦特\n(D) 庫侖",
+      "answer": "(B) 焦耳",
+      "explanation": "力與位移同向時，功等於力乘位移。力用牛頓（N），位移用公尺（m），所以功的單位是牛頓公尺（N·m），也就是焦耳（J）。1 N 的力讓物體沿力的方向移動 1 m，就作了 1 J 的功。\n\n(A) 牛頓是力的單位。\n(B) 焦耳是功與能量的單位。\n(C) 瓦特是功率的單位，1 W＝1 J/s。\n(D) 庫侖是電荷量的單位。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "功",
+        "焦耳",
+        "單位"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1295-original-9336e0e37676.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第3題",
+      "studentAnswer": "原卷藍筆選 A，紅筆訂正為 B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "3",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "功的常用單位",
+        "art": "assets/comics/q-1295-art-4c8ca967f0.svg",
+        "panels": [
+          {
+            "heading": "力使物體移動",
+            "text": "同向施力使箱子移動。",
+            "alt": "箱子受到 1 N 向右推力，沿地面右移 1 m。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1295-art-4c8ca967f0.svg"
+          },
+          {
+            "heading": "力乘以位移",
+            "text": "1 N 乘 1 m 得到 1 N·m。",
+            "alt": "用一格面積表示 1 N 乘 1 m 的功，等於 1 J。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1295-panel-2-art-2fcd9febf0.svg"
+          },
+          {
+            "heading": "分清四個物理量",
+            "text": "牛頓量力、焦耳量功、瓦特量功率、庫侖量電荷。",
+            "alt": "推力箭頭、箱子位移、時鐘與帶電粒子分別代表 N、J、W、C。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1295-panel-3-art-2df311cd34.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 焦耳",
+          "points": [
+            "2 N 沿力的方向推 3 m，作功 6 J。"
+          ],
+          "image": "assets/comics/q-1295-panel-4-art-bea3444b13.svg",
+          "alt": "三格位移每格 1 m，2 N 的推力在每一格作 2 J。"
+        }
+      }
+    },
+    {
+      "id": "q-1296",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第4題｜沿斜面推物體所作的功",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "如右圖，詩涵施力 50 牛頓將一質量 10 kg 的物體，沿斜面方向由 A 點上推至 B 點，則她對物體作功多少？\n\n(A) 100 J\n(B) 200 J\n(C) 500 J\n(D) 392 J",
+      "answer": "(C) 500 J",
+      "explanation": "先圈出「她對物體作功」。詩涵的推力是 50 N，方向沿斜面向上，物體也沿斜面由 A 到 B 移動 10 m。力與位移同向，她對物體作功 W＝50×10＝500 J。\n\n(A) 把 10 kg 的質量直接和 10 m 相乘，不能得到功。\n(B) 50×4 使用了垂直高度，並非沿施力方向的位移。\n(C) 50×10 使用了詩涵的力與同向位移。\n(D) 10×9.8×4＝392 J 是重力位能的增加量，重力作功則為 −392 J。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "作功",
+        "斜面",
+        "位移"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1296-original-da417cf06e8f.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第4題",
+      "studentAnswer": "原卷藍筆選 A，紅筆訂正為 C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "4",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1296-figure-7c416ffccaf4.jpg",
+          "alt": "原圖標出沿斜面向上的推力 50 牛頓，A 到 B 的斜面長 10 m，垂直高差 4 m，物體質量 10 kg。",
+          "caption": "原卷第4題作答圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "沿斜面推物體所作的功",
+        "art": "assets/comics/q-1296-art-dc8de54ff4.svg",
+        "panels": [
+          {
+            "heading": "沿斜面從 A 推到 B",
+            "text": "10 kg 物體沿 10 m 的斜面移動，高差 4 m。",
+            "alt": "物體沿斜面由 A 到 B，斜面長 10 m，垂直高差 4 m。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1296-art-dc8de54ff4.svg"
+          },
+          {
+            "heading": "找出同向的施力與位移",
+            "text": "50 N 推力平行斜面，與 10 m 位移成 0°。",
+            "alt": "50 N 的施力箭頭與 10 m 的位移箭頭沿同一斜面平行向上。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1296-panel-2-art-5a9d9bb247.svg"
+          },
+          {
+            "heading": "分開高差和路徑長",
+            "text": "50×4 錯用了高差，392 J 是增加的重力位能。",
+            "alt": "三條依 200、392、500 比例繪製的能量長條比較不同算法。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1296-panel-3-art-bfab52fc87.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 500 J",
+          "points": [
+            "每前進 2 m 作功 100 J，走完 10 m 作功 500 J。"
+          ],
+          "image": "assets/comics/q-1296-panel-4-art-65487211d5.svg",
+          "alt": "將斜面位移拆成五個 2 m，五段分別作功 100 J。"
+        }
+      }
+    },
+    {
+      "id": "q-1297",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第6題｜公斤重換成牛頓後求功",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "宜廷以 2 公斤重的水平拉力將一件 10 公斤重的行李往水平方向拉動 10 公尺，則宜廷對行李作功\n\n(A) 20 焦耳\n(B) 196 焦耳\n(C) 100 焦耳\n(D) 980 焦耳",
+      "answer": "(B) 196 焦耳",
+      "explanation": "宜廷施加的水平拉力是 2 kgw。取 1 kgw＝9.8 N，拉力是 19.6 N。它與 10 m 的位移同向，所以宜廷對行李作功 19.6×10＝196 J。\n\n(A) 2×10＝20 的單位是 kgw·m，需要再換算成焦耳。\n(B) 先把拉力換成牛頓，再乘同向位移，得到 196 J。\n(C) 10×10 使用了行李的重量數字，且未換成牛頓。\n(D) 10×9.8×10 使用的是行李重量的大小。重量方向向下，與水平位移垂直，重力在這段路程作功為零。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "作功",
+        "公斤重",
+        "水平拉力"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1297-original-151bfe51de52.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第6題",
+      "studentAnswer": "原卷藍筆選 C，紅筆訂正為 B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "6",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "公斤重換成牛頓後求功",
+        "art": "assets/comics/q-1297-art-cfc69a56a7.svg",
+        "panels": [
+          {
+            "heading": "水平拉力與重量",
+            "text": "拉力是 2 kgw，行李重量是 10 kgw。",
+            "alt": "行李受到向右的拉力與向下的重量，位移水平向右。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1297-art-cfc69a56a7.svg"
+          },
+          {
+            "heading": "兩種力單位的換算",
+            "text": "等量的 2 kgw 也可以表示成 19.6 N。",
+            "alt": "兩列各兩格，每格 1 kgw 或 9.8 N，表示相同的力。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1297-panel-2-art-44abbf5b6a.svg"
+          },
+          {
+            "heading": "只乘水平位移",
+            "text": "19.6 N 拉力方向與 10 m 位移相同，重量不作功。",
+            "alt": "橘色 19.6 N 向右，藍色 10 m 向右，灰色重量向下並形成直角。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1297-panel-3-art-0284b8672a.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 196 焦耳",
+          "points": [
+            "每 1 m 作 19.6 J，10 m 合計 196 J。"
+          ],
+          "image": "assets/comics/q-1297-panel-4-art-3f7d0a4b0f.svg",
+          "alt": "十格距離，每格累積相同能量，終點累計 196 J。"
+        }
+      }
+    },
+    {
+      "id": "q-1298",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第10題｜水平推力的平均功率",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "怡臻施一向右 8 牛頓的水平推力，使一重量為 10 公斤重的物體水平向右移動 15 公尺，費時 12 秒；則怡臻作功的功率為\n\n(A) 80 W\n(B) 10 W\n(C) 12.5 W\n(D) 122.5 W",
+      "answer": "(B) 10 W",
+      "explanation": "推力與位移都向右，怡臻作功 8×15＝120 J。這 120 J 共費時 12 s，故平均功率 P＝120÷12＝10 W。\n\n(A) 80 W 不能由 120 J 除以 12 s 得到。\n(B) 平均每秒作功 10 J，即 10 W。\n(C) 12.5 W 相當於把重量數字 10 當作牛頓表示的水平推力。\n(D) 122.5 W 相當於改用 10 kgw＝98 N 計算，但那是向下的重量。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "功率",
+        "作功",
+        "同向力與位移"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1298-original-cd4a5c588fb9.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第10題",
+      "studentAnswer": "原卷藍筆選 C，紅筆訂正為 B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "10",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "水平推力的平均功率",
+        "art": "assets/comics/q-1298-art-d094224c65.svg",
+        "panels": [
+          {
+            "heading": "找出怡臻的水平推力",
+            "text": "8 N 的推力和物體的 15 m 位移均向右。",
+            "alt": "水平推箱示意，向右推力為 8 N，向右位移為 15 m。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1298-art-d094224c65.svg"
+          },
+          {
+            "heading": "累計 120 J 的功",
+            "text": "8 N 推 15 m，作功 120 J。",
+            "alt": "力對位移圖上高度 8 N、底 15 m 的矩形面積為 120 J。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1298-panel-2-art-95e3acefaa.svg"
+          },
+          {
+            "heading": "看完成整段所花時間",
+            "text": "從開始到結束總共 12 秒。",
+            "alt": "時鐘與時間尺一起標出 0 到 12 秒。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1298-panel-3-art-a3ece07018.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 10 W",
+          "points": [
+            "120 J 平均分成 12 秒，每秒相當於 10 J。"
+          ],
+          "image": "assets/comics/q-1298-panel-4-art-ab7b304a0d.svg",
+          "alt": "把總功平均分成 12 格，每格 10 J 並對應一秒。"
+        }
+      }
+    },
+    {
+      "id": "q-1299",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第12題｜滑雪下坡的動能與單位",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "如右圖，一滑雪選手自 100 公尺高的山上，沿斜坡直線自由下滑，若不計摩擦阻力，此選手體重 60 kgw，求其滑至山下時的動能？\n\n(A) 6000 kgw-m\n(B) 58800 J\n(C) 6000 J\n(D) 6000 W",
+      "answer": "(B) 58800 J",
+      "explanation": "按題意由靜止自由下滑，忽略摩擦，以山下為重力位能零點。山頂的重力位能全部轉換為山下的動能。體重 60 kgw＝588 N，垂直下降 100 m，所以山下動能為 588×100＝58800 J。30° 會影響斜坡長度，但重力位能差只看垂直高差。\n\n(A) 60 kgw×100 m＝6000 kgw·m，乘 9.8 後就是 58800 J，與 B 代表相同能量。\n(B) 58800 J 是換成國際單位制焦耳的結果，符合原卷紅筆訂正。\n(C) 把 6000 kgw·m 的數字直接寫成 6000 J，漏了單位換算。\n(D) 瓦特是功率單位。\n\n原題未要求用焦耳，A、B 在物理上等值。若依原卷訂正作答可選 B，理解時須保留 A 的等值說明。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。A、B 物理量等值，原卷紅筆訂正 B，詳解保留等值說明。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "力學能守恆",
+        "重力位能",
+        "動能",
+        "公斤重"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1299-original-165bccfd4b58.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第12題",
+      "studentAnswer": "原卷藍筆選 C，紅筆訂正為 B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "12",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1299-figure-60998ec4235c.jpg",
+          "alt": "原卷滑雪斜面圖，頂端到山下的垂直高度是 100 公尺，斜面和水平面夾角 30 度。",
+          "caption": "原卷第12題作答圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "滑雪下坡的動能與單位",
+        "art": "assets/comics/q-1299-art-55e4278cae.svg",
+        "panels": [
+          {
+            "heading": "認清垂直下降量",
+            "text": "體重 60 kgw，起點比山下高 100 m。",
+            "alt": "滑雪板在 30 度斜坡頂端，垂直高差 100 m。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1299-art-55e4278cae.svg"
+          },
+          {
+            "heading": "重力位能轉成動能",
+            "text": "山下取位能零點，忽略摩擦時兩者此消彼長。",
+            "alt": "山頂、中途與山下的總能量長條等高，藍色位能逐步轉為綠色動能。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1299-panel-2-art-ceb9ff289e.svg"
+          },
+          {
+            "heading": "比較等量的兩個單位",
+            "text": "6000 kgw·m 乘 9.8 換成 58800 J。",
+            "alt": "兩條相同長度的能量棒標出 6000 kgw·m 與 58800 J，代表同一能量。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1299-panel-3-art-55e242b2ab.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 58800 J",
+          "points": [
+            "588 N 乘垂直下降 100 m 得 58800 J。"
+          ],
+          "image": "assets/comics/q-1299-panel-4-art-1bf46252c3.svg",
+          "alt": "以體重 588 N 與垂直高差 100 m 所圍面積標出 58800 J。"
+        }
+      }
+    },
+    {
+      "id": "q-1300",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第14題｜擺錘下降的位能與動能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "單擺之擺錘從高處盪至低處的過程\n\n(A) 動能、位能皆增加\n(B) 動能減少、位能增加\n(C) 動能增加、位能減少\n(D) 動能、位能皆減少",
+      "answer": "(C) 動能增加、位能減少",
+      "explanation": "擺錘從高處盪至低處時，高度下降，所以重力位能減少。向最低點擺下時，重力沿擺動方向的分量讓擺錘加速，速率增大，動能增加。忽略阻力時，重力位能的減少量等於動能的增加量。\n\n(A) 高度降低，重力位能不能增加。\n(B) 這是擺錘由低處盪向高處時的變化。\n(C) 向低處盪下，高度降低、速率增加。\n(D) 向低處盪下時速率增加，動能也增加。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "單擺",
+        "動能",
+        "重力位能"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1300-original-cd1b0d9ab834.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第14題",
+      "studentAnswer": "原卷藍筆選 B，紅筆訂正為 C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "14",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "擺錘下降的位能與動能",
+        "art": "assets/comics/q-1300-art-4529a58d3d.svg",
+        "panels": [
+          {
+            "heading": "擺錘由高處盪下",
+            "text": "擺錘沿圓弧下降，高度逐步降低。",
+            "alt": "高處擺錘、弧線中途和最低點的高度依序降低。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1300-art-4529a58d3d.svg"
+          },
+          {
+            "heading": "高度降低，位能減少",
+            "text": "用同一條基準線比較擺錘的位置。",
+            "alt": "高處、中途、低處以上方高度尺比較，擺錘的高度越來越小。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1300-panel-2-art-1e8ad92253.svg"
+          },
+          {
+            "heading": "速率增加，動能增加",
+            "text": "沿弧線越盪越低，速度箭頭越長。",
+            "alt": "序列中的速度箭頭依序變長，並沿各點軌跡切線前進。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1300-panel-3-art-55bc260b80.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 動能增加、位能減少",
+          "points": [
+            "忽略阻力，位能下降多少，動能便增加多少。"
+          ],
+          "image": "assets/comics/q-1300-panel-4-art-a312c984d3.svg",
+          "alt": "三條總能量相同的堆疊柱圖顯示位能轉為動能。"
+        }
+      }
+    },
+    {
+      "id": "q-1301",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第17題｜動能公式的速率平方",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "一物體的質量為 m 公斤，正以 v 公尺／秒的速率向東方運動，則該物體擁有的動能為\n\n(A) m × v 焦耳\n(B) （m＋v）× 2 焦耳\n(C) （m × v²）÷ 2 焦耳\n(D) m × v ÷ 2 焦耳",
+      "answer": "(C) （m × v²）÷ 2 焦耳",
+      "explanation": "物體的平動動能 K＝½mv²。質量 m 用公斤、速率 v 用公尺每秒時，所得單位是焦耳。動能只有大小，向東或向西都不改變同一速率下的動能。\n\n(A) mv 是動量的大小，單位 kg·m/s。\n(B) 公斤和公尺／秒的數值不能直接相加成能量。\n(C) 先平方速率，再乘質量、除以 2。\n(D) 少了速率的平方。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "動能",
+        "速率平方",
+        "質量"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1301-original-bfc80d9c9f3f.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第17題",
+      "studentAnswer": "原卷藍筆選 A，紅筆訂正為 C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "17",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "動能公式的速率平方",
+        "art": "assets/comics/q-1301-art-5638c076d4.svg",
+        "panels": [
+          {
+            "heading": "向東移動的物體",
+            "text": "讀到質量 m 與速率 v，即可找出動能的兩個變數。",
+            "alt": "質量為 m 的小車以速率 v 向東運動。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1301-art-5638c076d4.svg"
+          },
+          {
+            "heading": "速率不是一次方",
+            "text": "固定質量時，動能與速率平方成正比。",
+            "alt": "動能對速率的關係為向上彎曲的拋物線，而非直線。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1301-panel-2-art-63cb8a9782.svg"
+          },
+          {
+            "heading": "用速率加倍驗證",
+            "text": "同質量時，速率從 v 變 2v，動能變 4 倍。",
+            "alt": "兩輛同質量小車的速率比一比二，動能條長度比一比四。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1301-panel-3-art-3af91ddee3.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) （m × v²）÷ 2 焦耳",
+          "points": [
+            "K＝½mv²，使用公斤和公尺／秒會得焦耳。"
+          ],
+          "image": "assets/comics/q-1301-panel-4-art-9f4c7a500f.svg",
+          "alt": "寬為 v²、高為 m 的矩形取一半面積，表示二分之一 mv²。"
+        },
+        "protectedWords": [
+          "m × v²",
+          "½mv²",
+          "v²"
+        ]
+      }
+    },
+    {
+      "id": "q-1302",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第18題｜鉛直上拋的動能與位能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "手持物體沿鉛直方向往上方拋射時，離手後物體的高度逐漸升高，則該物體\n\n(A) 位能、動能皆逐漸增加\n(B) 位能逐漸減少、動能逐漸增加\n(C) 位能逐漸增加、動能逐漸減少\n(D) 位能、動能皆逐漸減少",
+      "answer": "(C) 位能逐漸增加、動能逐漸減少",
+      "explanation": "離手後的上升階段，物體高度逐漸提高，重力位能 mgh 增加。此時物體仍向上運動，重力方向向下，速率逐漸減小，動能 ½mv² 隨之減少。忽略空氣阻力時，減少的動能等於增加的重力位能。\n\n(A) 上升時速率減小，動能不會增加。\n(B) 這是自由落下時的能量變化。\n(C) 正確描述物體離手後仍在上升時的變化。\n(D) 上升時高度增加，重力位能不會減少。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "鉛直上拋",
+        "重力位能",
+        "動能"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1302-original-77ffcd9723d2.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第18題",
+      "studentAnswer": "原卷藍筆選 B，紅筆訂正為 C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "18",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "鉛直上拋的動能與位能",
+        "art": "assets/comics/q-1302-art-d2020b103e.svg",
+        "panels": [
+          {
+            "heading": "只看離手後的上升",
+            "text": "同一物體先後來到 1、2、3，高度愈來愈高。",
+            "alt": "三個時間點的球位置依序上升，地面為共同參照。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1302-art-d2020b103e.svg"
+          },
+          {
+            "heading": "重力與速度方向相反",
+            "text": "上升時重力向下，所以向上的速率逐漸降低。",
+            "alt": "三個時刻都有等長向下重力箭頭，向上速度箭頭逐步變短。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1302-panel-2-art-d0b5ad6bcc.svg"
+          },
+          {
+            "heading": "把高度與能量對起來",
+            "text": "上升時位能增加，同時動能減少。",
+            "alt": "同一球先後三個位置的位能比例增加，動能比例減少。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1302-panel-3-art-7067dc874b.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 位能逐漸增加、動能逐漸減少",
+          "points": [
+            "忽略空阻，動能減少和位能增加的量相同。"
+          ],
+          "image": "assets/comics/q-1302-panel-4-art-27c05ce578.svg",
+          "alt": "隨高度增加，重力位能直線上升，動能直線下降，總力學能水平不變。"
+        }
+      }
+    },
+    {
+      "id": "q-1303",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化題組｜軌道上的重力位能與動能（第19、20題）",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "【第19題】\n則於運動的過程中，小球在何處的位能最大？\n\n(A) A 點\n(B) C 點\n(C) D 點\n(D) E 點\n\n【第20題】\n承第19題：小球在何處動能最大？\n\n(A) A點\n(B) B點\n(C) C點\n(D) E點",
+      "answer": "第19題：(A) A 點\n第20題：(B) B點",
+      "explanation": "【第19題】\n以水平基線為重力位能零點，越高則重力位能 mgh 越大。小球從 10 m 高的 A 點由靜止出發，題設沒有摩擦阻力，也沒有額外能量輸入，因而力學能等於放開時的重力位能 mg×10 m。後續能爬到的高度以 10 m 為上限，無法到達 16 m 的 E 點。\n\n(A) A 點的 10 m 是小球可達的最高高度，位能最大。小球若沿末段爬回 10 m，會有同樣大的位能。\n(B) C 點高 6 m，低於 A。\n(C) D 點在水平基線，重力位能最小。\n(D) E 點雖然高 16 m，卻超過小球能達到的上限。\n\n【第20題】\n從 A 點自由滾下，依題意沒有摩擦造成的能量損失。以 B、D 所在的底線為零高度，重力位能 U＝mgh。當高度下降，減少的重力位能轉為動能，因此小球能到達的最低位置動能最大。\n\n(A) A 點是 10 m 高的起點，依題意由靜止開始，動能為零。\n(B) B 點在底線上，高度最低，動能最大。\n(C) C 點高 6 m，比 B 點高，動能比 B 點小。\n(D) E 點高 16 m，高於自 A 點起始的 10 m，小球無法到達。\n\nD 點也在同一條底線上，動能與 B 點相同。四個選項中只有 B 點列為最低且可到達的位置。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "重力位能",
+        "力學能守恆",
+        "軌道"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1303-original-6c2b02101638.jpg",
+        "assets/originals/gpt077-q-1304-original-f25c82afec03.jpg"
+      ],
+      "sourceLabel": "分享原卷｜同一份試卷第19、20題",
+      "studentAnswer": "原卷藍筆選 C，紅筆訂正為 A。",
+      "contentStatus": "完整原題",
+      "correctOption": "A",
+      "passage": "如右圖，有一小球自 A 點沿軌道往右自由滾下，設軌道上沒有摩擦阻力作用。",
+      "originalQuestionNumber": "19",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1303-figure-50889cc270a0.jpg",
+          "alt": "原卷共用軌道圖。A 高 10 m，B 是地面處的低點，C 高 6 m，D 是地面處的低點，E 高 16 m。",
+          "caption": "原卷第19、20題共用軌道圖"
+        }
+      ],
+      "explanationFigures": [],
+      "groupQuestions": [
+        {
+          "id": "q-1303",
+          "sourceId": "src-more-077",
+          "subject": "Physics-Chemistry",
+          "title": "理化第19題｜軌道上可到達的最高處",
+          "chapter": "綜合",
+          "volume": "綜合",
+          "date": "2026-11-27",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-11-27",
+          "question": "則於運動的過程中，小球在何處的位能最大？\n\n(A) A 點\n(B) C 點\n(C) D 點\n(D) E 點",
+          "answer": "(A) A 點",
+          "explanation": "以水平基線為重力位能零點，越高則重力位能 mgh 越大。小球從 10 m 高的 A 點由靜止出發，題設沒有摩擦阻力，也沒有額外能量輸入，因而力學能等於放開時的重力位能 mg×10 m。後續能爬到的高度以 10 m 為上限，無法到達 16 m 的 E 點。\n\n(A) A 點的 10 m 是小球可達的最高高度，位能最大。小球若沿末段爬回 10 m，會有同樣大的位能。\n(B) C 點高 6 m，低於 A。\n(C) D 點在水平基線，重力位能最小。\n(D) E 點雖然高 16 m，卻超過小球能達到的上限。",
+          "trap": "",
+          "verification": "原卷逐題核對",
+          "verificationNote": "已核對分享對話上傳的原卷。卷首為臺北縣立板橋國民中學九十五學年度第一學期九年級第三次自然與生活科技領域段考；未標確切考試日期，採首次對話的台灣日期。",
+          "diagram": "",
+          "notes": "",
+          "status": "todo",
+          "starred": false,
+          "tags": [
+            "重力位能",
+            "力學能守恆",
+            "軌道"
+          ],
+          "images": [
+            "assets/originals/gpt077-q-1303-original-6c2b02101638.jpg"
+          ],
+          "sourceLabel": "分享原卷｜原卷第19題",
+          "studentAnswer": "原卷藍筆選 C，紅筆訂正為 A。",
+          "contentStatus": "完整原題",
+          "correctOption": "A",
+          "passage": "",
+          "originalQuestionNumber": "19",
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "軌道上可到達的最高處",
+            "art": "assets/comics/q-1303-art-9e80ee8054.svg",
+            "panels": [
+              {
+                "heading": "逐一讀取軌道高度",
+                "text": "A 高 10 m、C 高 6 m、E 高 16 m；B、D 在基線上。",
+                "alt": "由左至右畫出 A、B、C、D、E 軌道與 10、6、16 m 高度。",
+                "caption": "新製教學示意",
+                "image": "assets/comics/q-1303-art-9e80ee8054.svg"
+              },
+              {
+                "heading": "起點的能量限制高度",
+                "text": "由靜止出發，總力學能只容許小球到 10 m 高度。",
+                "alt": "軌道圖延伸一條 10 m 高的水平虛線，E 點在虛線上方。",
+                "caption": "新製教學示意",
+                "image": "assets/comics/q-1303-panel-2-art-6d93e14e6e.svg"
+              },
+              {
+                "heading": "追蹤到實際可達處",
+                "text": "小球會先過 B、C、D，再沿上坡爬回 10 m，無法到 E。",
+                "alt": "綠線標記可達部分，末段以 10 m 高的水平線為界，E 的高處軌道成虛線。",
+                "caption": "新製教學示意",
+                "image": "assets/comics/q-1303-panel-3-art-7ee507a019.svg"
+              }
+            ],
+            "fourth": {
+              "answer": "(A) A 點",
+              "points": [
+                "A 的 10 m 高於 C 和 D。E 的 16 m 雖高，卻不在路徑上。"
+              ],
+              "image": "assets/comics/q-1303-panel-4-art-7f89411e63.svg",
+              "alt": "四個選項高度長條為 A 10、C 6、D 0、E 16 m；E 虛線標記無法到達。"
+            }
+          }
+        },
+        {
+          "id": "q-1304",
+          "sourceId": "src-more-077",
+          "subject": "Physics-Chemistry",
+          "title": "理化第20題｜軌道上何處動能最大",
+          "chapter": "綜合",
+          "volume": "綜合",
+          "date": "2026-11-27",
+          "dateLabel": "首次出題日期",
+          "addedAt": "2026-11-27",
+          "question": "承第19題：小球在何處動能最大？\n\n(A) A點\n(B) B點\n(C) C點\n(D) E點",
+          "answer": "(B) B點",
+          "explanation": "從 A 點自由滾下，依題意沒有摩擦造成的能量損失。以 B、D 所在的底線為零高度，重力位能 U＝mgh。當高度下降，減少的重力位能轉為動能，因此小球能到達的最低位置動能最大。\n\n(A) A 點是 10 m 高的起點，依題意由靜止開始，動能為零。\n(B) B 點在底線上，高度最低，動能最大。\n(C) C 點高 6 m，比 B 點高，動能比 B 點小。\n(D) E 點高 16 m，高於自 A 點起始的 10 m，小球無法到達。\n\nD 點也在同一條底線上，動能與 B 點相同。四個選項中只有 B 點列為最低且可到達的位置。",
+          "trap": "在無能量損耗的軌道上，比較可到達位置的高度。相同高度的動能相同。",
+          "verification": "原卷逐題核對",
+          "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。承接前題的必要條件與原卷圖另列於作答區。",
+          "diagram": "",
+          "notes": "",
+          "status": "todo",
+          "starred": false,
+          "tags": [
+            "動能",
+            "重力位能",
+            "力學能守恆"
+          ],
+          "images": [
+            "assets/originals/gpt077-q-1304-original-f25c82afec03.jpg"
+          ],
+          "sourceLabel": "分享原卷｜原卷第20題",
+          "studentAnswer": "20@錯題A → B",
+          "contentStatus": "完整原題",
+          "correctOption": "B",
+          "passage": "",
+          "originalQuestionNumber": "20",
+          "optionAnalysis": [
+            {
+              "label": "A",
+              "text": "A點",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "A 點是 10 m 高的起點，依題意由靜止開始，動能為零。"
+            },
+            {
+              "label": "B",
+              "text": "B點",
+              "wordClass": "應選",
+              "meaning": "",
+              "explanation": "B 點在底線上，高度最低，動能最大。"
+            },
+            {
+              "label": "C",
+              "text": "C點",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "C 點高 6 m，比 B 點高，動能比 B 點小。"
+            },
+            {
+              "label": "D",
+              "text": "E點",
+              "wordClass": "不選",
+              "meaning": "",
+              "explanation": "E 點高 16 m，高於自 A 點起始的 10 m，小球無法到達。"
+            }
+          ],
+          "tables": [],
+          "questionFigures": [],
+          "explanationFigures": [],
+          "teachingComic": {
+            "title": "軌道上何處動能最大",
+            "art": "assets/comics/q-1304-art-33658dffa8.svg",
+            "panels": [
+              {
+                "heading": "沿原卷找各點高度",
+                "text": "從 A 點 10 m 高處自由滾下。C 點高 6 m，E 點高 16 m；B、D 都在底線。",
+                "alt": "軌道簡圖標出 A、C、E 高度及底線 B、D。",
+                "image": "assets/comics/q-1304-art-33658dffa8.svg"
+              },
+              {
+                "heading": "下降時動能增加",
+                "text": "沒有摩擦阻力造成的能量損耗。從 A 下降到 B，減少的重力位能轉為動能。",
+                "alt": "放大 A 到 B 的下降軌道，以三個球的位置和箭頭表現下坡。",
+                "image": "assets/comics/q-1304-panel-2-art-a338454f07.svg"
+              },
+              {
+                "heading": "比較可到達處的能量",
+                "text": "A、B、C、D 的動能加位能相同。E 高於起點，沒有足夠力學能到達。",
+                "alt": "A、B、C、D 的動能與位能堆疊圖，四處總量相等。",
+                "image": "assets/comics/q-1304-panel-3-art-cc84186e0d.svg"
+              }
+            ],
+            "fourth": {
+              "answer": "(B) B點",
+              "points": [
+                "B、D 同高且都位在底線，動能同為最大。選項中只有 B 點。"
+              ],
+              "image": "assets/comics/q-1304-panel-4-art-0a6d9a5000.svg",
+              "alt": "軌道圖同時突顯底線的 B 和 D，兩個位置具有相同最大動能。"
+            },
+            "protectedWords": [
+              "10 m",
+              "6 m",
+              "16 m",
+              "B、D"
+            ]
+          }
+        }
+      ],
+      "groupMetadata": {
+        "groupId": "group-q-1303-q-1304",
+        "kind": "original_paper",
+        "retainId": "q-1303",
+        "printedRange": "板橋國中九年級同份試卷第19、20題。第20題印有承第19題。",
+        "representativeSubjectReason": "兩個原問共用同一張軌道圖，均屬理化力學能。",
+        "originalQuestionIds": [
+          "q-1303",
+          "q-1304"
+        ],
+        "displayOrder": [
+          "q-1303",
+          "q-1304"
+        ],
+        "aliasesProposed": [
+          "q-1304"
+        ],
+        "commonFigureEquivalentSources": []
+      }
+    },
+    {
+      "id": "q-1305",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第23題｜4公斤物體的動能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "某物體質量為 4 kg，正以 3 m/sec 的速率運動，則該物體的動能為\n\n(A) 12 J\n(B) 24 J\n(C) 7 J\n(D) 18 J",
+      "answer": "(D) 18 J",
+      "explanation": "動能 K＝½mv²。把質量 4 kg 及速率 3 m/s 代入，先算 3²＝9，再乘 4 kg 的一半，得到 2 × 9＝18 J。\n\n(A) 12 的數值來自 4 × 3，這是 mv，單位為 kg·m/s，不能當成動能。\n(B) 24 J 與 ½ × 4 × 3² 的結果不符。\n(C) 7 只是 4 與 3 的數值相加，質量和速率的單位不同，不能直接相加。\n(D) 18 J 符合動能公式。",
+      "trap": "速率要平方，質量要乘二分之一。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "動能",
+        "速率平方",
+        "焦耳"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1305-original-7af918cc58c1.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第23題",
+      "studentAnswer": "23@錯題A → D",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "23",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "12 J",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "12 的數值來自 4 × 3，這是 mv，單位為 kg·m/s，不能當成動能。"
+        },
+        {
+          "label": "B",
+          "text": "24 J",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "24 J 與 ½ × 4 × 3² 的結果不符。"
+        },
+        {
+          "label": "C",
+          "text": "7 J",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "7 只是 4 與 3 的數值相加，質量和速率的單位不同，不能直接相加。"
+        },
+        {
+          "label": "D",
+          "text": "18 J",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "18 J 符合動能公式。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "4公斤物體的動能",
+        "art": "assets/comics/q-1305-art-399cb5440a.svg",
+        "panels": [
+          {
+            "heading": "找質量與速率",
+            "text": "物體質量 4 kg，速率 3 m/s。m/sec 與 m/s 是同一種速率單位。",
+            "alt": "質量 4 kg 的運動物體配向右 3 m/s 速度箭頭。",
+            "image": "assets/comics/q-1305-art-399cb5440a.svg"
+          },
+          {
+            "heading": "先把速率平方",
+            "text": "動能用 v²。3²＝9，可看成每排 3 格、共 3 排。",
+            "alt": "三乘三正方格標出邊長 3，顯示速率平方得到 9。",
+            "image": "assets/comics/q-1305-panel-2-art-cf7dc6a558.svg"
+          },
+          {
+            "heading": "質量乘一半",
+            "text": "公式 K＝½mv²，先算 ½ × 4＝2。用 2 再乘 9。",
+            "alt": "四個各 1 kg 的方塊有兩個被括起，代表取質量的一半。",
+            "image": "assets/comics/q-1305-panel-3-art-44f6912cf9.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 18 J",
+          "points": [
+            "½ × 4 × 3²＝18 J。K 對速率是平方關係。"
+          ],
+          "image": "assets/comics/q-1305-panel-4-art-ef86c6166d.svg",
+          "alt": "定質量的動能和速率曲線，標出 3 m/s 對應 18 J。"
+        },
+        "protectedWords": [
+          "4 kg",
+          "3 m/s",
+          "m/sec",
+          "18 J",
+          "½mv²",
+          "m/s"
+        ]
+      }
+    },
+    {
+      "id": "q-1306",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第24題｜樓頂物體相對地面的重力位能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "某物體質量為 10 公斤，位於 10 公尺的樓頂上，則相對於地面而言，該物體的重力位能為\n\n(A) 100 J\n(B) 980 J\n(C) 98 J\n(D) 20 J",
+      "answer": "(B) 980 J",
+      "explanation": "以地面作為高度零點，樓頂高度 h＝10 m，物體質量 m＝10 kg。取 g＝9.8 m/s²，物體的重力大小 mg＝98 N。重力位能 U＝mgh＝98 N × 10 m＝980 J。\n\n(A) 100 漏掉重力加速度 9.8 m/s²，質量乘高度的單位也不是焦耳。\n(B) 980 J 同時代入正確的重力大小及垂直高度。\n(C) 98 是重力大小的數值，單位應為牛頓，還要乘上 10 m。\n(D) 20 只是把兩個數字相加，無法用來求重力位能。",
+      "trap": "先由質量求重力大小，再乘相對地面的垂直高度。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "重力位能",
+        "質量",
+        "重力",
+        "焦耳"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1306-original-9544eda36962.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第24題",
+      "studentAnswer": "24@錯題A → B",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "24",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "100 J",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "100 漏掉重力加速度 9.8 m/s²，質量乘高度的單位也不是焦耳。"
+        },
+        {
+          "label": "B",
+          "text": "980 J",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "980 J 同時代入正確的重力大小及垂直高度。"
+        },
+        {
+          "label": "C",
+          "text": "98 J",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "98 是重力大小的數值，單位應為牛頓，還要乘上 10 m。"
+        },
+        {
+          "label": "D",
+          "text": "20 J",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "20 只是把兩個數字相加，無法用來求重力位能。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "樓頂物體相對地面的重力位能",
+        "art": "assets/comics/q-1306-art-6e48656335.svg",
+        "panels": [
+          {
+            "heading": "高度從地面量起",
+            "text": "質量 10 kg 的物體放在 10 m 高的樓頂，地面是高度零點。",
+            "alt": "示意樓頂放置 10 kg 物體，高度由地面量到樓頂為 10 m。",
+            "image": "assets/comics/q-1306-art-6e48656335.svg"
+          },
+          {
+            "heading": "質量換算成重力",
+            "text": "以 g＝9.8 m/s² 估算，10 kg 物體所受重力是 98 N，方向向下。",
+            "alt": "物體所受向下重力的示意，標出 98 N。",
+            "image": "assets/comics/q-1306-panel-2-art-65e42156ec.svg"
+          },
+          {
+            "heading": "重力位能隨高度增加",
+            "text": "質量固定時，U＝mgh。每高 1 m，位能增加 98 J。",
+            "alt": "由地面零點起的位能與高度直線，標出 10 m 對應 980 J。",
+            "image": "assets/comics/q-1306-panel-3-art-024dad86f0.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 980 J",
+          "points": [
+            "U＝98 N × 10 m＝980 J。98 N 是重力大小，980 J 才是相對地面的重力位能。"
+          ],
+          "image": "assets/comics/q-1306-panel-4-art-7218a01893.svg",
+          "alt": "樓頂示意配位能高度條，標出起點為零、樓頂為 980 J。"
+        },
+        "protectedWords": [
+          "10 kg",
+          "10 m",
+          "9.8 m/s²",
+          "980 J",
+          "98 N"
+        ]
+      }
+    },
+    {
+      "id": "q-1307",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第27題｜斜向作用力的力臂",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "如右圖 F₁、F₂、F₃ 三個作用力同時作用在一橫桿上，則 F₁ 的力臂為\n\n(A) 7 m\n(B) 4 m\n(C) 2 m\n(D) 3 m",
+      "answer": "(C) 2 m",
+      "explanation": "力臂是支點到該力作用線的垂直距離。F₁ 施於橫桿右端，支點距右端 2 m＋2 m＝4 m。沿 F₁ 方向畫出作用線，再從支點引垂線。支點、垂足及施力點組成一個直角三角形，4 m 是斜邊，30° 的對邊就是力臂。30° 直角三角形的短直角邊是斜邊的一半，因此 F₁ 的力臂為 2 m。\n\n(A) 7 m 是整根橫桿的長度。\n(B) 4 m 是支點到 F₁ 施力點的距離。\n(C) 2 m 是支點到 F₁ 作用線的垂直距離。\n(D) 3 m 是支點到左方 F₂ 作用線的垂直距離。",
+      "trap": "先沿施力方向找作用線，再由支點作垂線。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "力臂",
+        "力矩",
+        "支點",
+        "直角三角形"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1307-original-903baf6241b3.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第27題",
+      "studentAnswer": "27@錯題D → C",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "27",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "7 m",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "7 m 是整根橫桿的長度。"
+        },
+        {
+          "label": "B",
+          "text": "4 m",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "4 m 是支點到 F₁ 施力點的距離。"
+        },
+        {
+          "label": "C",
+          "text": "2 m",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "2 m 是支點到 F₁ 作用線的垂直距離。"
+        },
+        {
+          "label": "D",
+          "text": "3 m",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "3 m 是支點到左方 F₂ 作用線的垂直距離。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1307-figure-4e9c9ae2f2bc.jpg",
+          "alt": "原卷橫桿圖，左側 F₂＝3 N 向下、右方 F₃＝1 N 向上、最右端 F₁＝6 N 斜向左上。F₁ 與橫桿夾角 30°，支點至右端分兩段各 2 m；支點至左端 3 m。",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "斜向作用力的力臂",
+        "art": "assets/comics/q-1307-art-143c6a131a.svg",
+        "panels": [
+          {
+            "heading": "認出 F₁ 及支點",
+            "text": "F₁ 加在右端，與橫桿夾 30°。題目要從支點找 F₁ 的力臂。",
+            "alt": "橫桿、支點和三個力的位置，以藍色箭頭標出斜向 F₁。",
+            "image": "assets/comics/q-1307-art-143c6a131a.svg"
+          },
+          {
+            "heading": "算到施力點的距離",
+            "text": "從支點沿橫桿到右端是 2 m＋2 m＝4 m。",
+            "alt": "以兩段各 2 m 的刻度表示支點到 F₁ 施力點共 4 m。",
+            "image": "assets/comics/q-1307-panel-2-art-065c9dd744.svg"
+          },
+          {
+            "heading": "由支點作垂線",
+            "text": "沿 F₁ 的方向延長作用線，從支點引垂線。截出的三角形有一個 30° 角。",
+            "alt": "支點到 F₁ 作用線的垂線以綠色標出，垂足標直角。",
+            "image": "assets/comics/q-1307-panel-3-art-62b690538b.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 2 m",
+          "points": [
+            "4 m 是斜邊。30° 所對的短直角邊是一半，所以 F₁ 力臂為 2 m。"
+          ],
+          "image": "assets/comics/q-1307-panel-4-art-9e383554ee.svg",
+          "alt": "30° 直角三角形標出斜邊 4 m，與 F₁ 力臂相同的短邊為 2 m。"
+        },
+        "protectedWords": [
+          "F₁",
+          "30°",
+          "2 m",
+          "4 m",
+          "作用線"
+        ]
+      }
+    },
+    {
+      "id": "q-1308",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第2題｜籃球上拋時動能如何變化",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "籃球賽開球時，裁判將球垂直向上拋出，如果不考慮空氣的影響，下列敘述何者正確？\n\n(A) 球在上升過程中，所受重力逐漸變大\n(B) 球到達最高點瞬間，所受合力為零\n(C) 球在上升過程中，重力位能逐漸變少\n(D) 球在上升過程中，動能逐漸變少",
+      "answer": "(D) 球在上升過程中，動能逐漸變少",
+      "explanation": "籃球離手後，忽略空氣影響，在球場這樣的高度範圍內，球只受近似固定、方向向下的重力。球上升時仍向上運動，但加速度向下，因此速率逐漸減小。依 K＝½mv²，動能也逐漸減少，同時因高度上升，重力位能增加。\n\n(A) 球在這個高度範圍內所受的重力近似不變。\n(B) 在最高點，球的速度瞬間為零，重力與向下加速度仍存在。\n(C) 上升時高度增加，所以重力位能增加。\n(D) 上升時速率減小，所以動能減少。",
+      "trap": "在最高點速度瞬間為零，球仍受向下的重力。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "上拋運動",
+        "力學能守恆",
+        "動能"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1308-original-5607966b3a48.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第2題",
+      "studentAnswer": "2@錯題B → D",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "2",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "球在上升過程中，所受重力逐漸變大",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "球在這個高度範圍內所受的重力近似不變。"
+        },
+        {
+          "label": "B",
+          "text": "球到達最高點瞬間，所受合力為零",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "在最高點，球的速度瞬間為零，重力與向下加速度仍存在。"
+        },
+        {
+          "label": "C",
+          "text": "球在上升過程中，重力位能逐漸變少",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "上升時高度增加，所以重力位能增加。"
+        },
+        {
+          "label": "D",
+          "text": "球在上升過程中，動能逐漸變少",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "上升時速率減小，所以動能減少。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "籃球上拋時動能如何變化",
+        "art": "assets/comics/q-1308-art-22dab6aafb.svg",
+        "panels": [
+          {
+            "heading": "籃球離手後向上",
+            "text": "籃球離手後仍往上移動。這裡忽略空氣的影響。",
+            "alt": "三個高度的籃球和朝上的運動方向。",
+            "image": "assets/comics/q-1308-art-22dab6aafb.svg"
+          },
+          {
+            "heading": "重力持續向下",
+            "text": "在球場高度範圍內，向下重力近似固定。各位置方向相同、大小近似相同。",
+            "alt": "兩個不同高度的籃球，各畫同長的向下重力箭頭。",
+            "image": "assets/comics/q-1308-panel-2-art-f6d03c600b.svg"
+          },
+          {
+            "heading": "位能增加、動能減少",
+            "text": "重力向下，使上升速率逐漸減小；高度越來越高，重力位能增加。",
+            "alt": "從低處到最高點的能量堆疊圖，動能漸小、位能漸大。",
+            "image": "assets/comics/q-1308-panel-3-art-709a4562ec.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 球在上升過程中，動能逐漸變少",
+          "points": [
+            "D 正確。上升時動能逐漸變少。到最高點時速度瞬間為零，仍有向下的重力。"
+          ],
+          "image": "assets/comics/q-1308-panel-4-art-fc8592914c.svg",
+          "alt": "速度隨時間下降的圖，最高點速度為零、直線斜率仍向下。"
+        },
+        "protectedWords": [
+          "重力位能",
+          "最高點"
+        ]
+      }
+    },
+    {
+      "id": "q-1309",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第3題｜相同推力與位移下的木塊動能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "如右圖所示，在光滑的水平面上，靜止的甲、乙兩物體質量分別為 m、2m，同時受相同的水平力 F 作用，當沿力方向移動相同距離 S 時，下列敘述何者正確？\n\n(A) F 對乙物體作功較大\n(B) 移動相同距離 S 後，甲、乙兩物體的速率相等\n(C) 甲、乙兩物體獲得的動能相等\n(D) 移動相同距離 S，所經歷的時間相同。",
+      "answer": "(C) 甲、乙兩物體獲得的動能相等",
+      "explanation": "兩塊木塊在光滑平面上從靜止開始。水平推力 F 與位移 S 同方向，因此對兩木塊各作功 W＝FS。鉛直的重力和支持力與位移垂直，都不作功。依功與動能的關係，兩物體由零增加的動能同為 FS。\n\n(A) 兩物體所受的推力和沿力方向的位移都相同，因此作功相等。\n(B) 動能相同時，質量較小的甲速率較大。代入 ½mv甲²＝½(2m)v乙²，得 v甲＝√2 v乙。\n(C) 兩物體的初動能都是零，分別得到相同的功，末動能相等。\n(D) 相同水平力下，甲的加速度 F／m 是乙的兩倍。兩者由靜止走完相同距離 S，甲花的時間較短。",
+      "trap": "同力同位移給出相同的功；質量不同時，相同動能可以有不同速率。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "作功",
+        "動能",
+        "加速度"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1309-original-f780e527499a.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第3題",
+      "studentAnswer": "3@錯題A → C",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "3",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "F 對乙物體作功較大",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "兩物體所受的推力和沿力方向的位移都相同，因此作功相等。"
+        },
+        {
+          "label": "B",
+          "text": "移動相同距離 S 後，甲、乙兩物體的速率相等",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "動能相同時，質量較小的甲速率較大。代入 ½mv甲²＝½(2m)v乙²，得 v甲＝√2 v乙。"
+        },
+        {
+          "label": "C",
+          "text": "甲、乙兩物體獲得的動能相等",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "兩物體的初動能都是零，分別得到相同的功，末動能相等。"
+        },
+        {
+          "label": "D",
+          "text": "移動相同距離 S，所經歷的時間相同。",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "相同水平力下，甲的加速度 F／m 是乙的兩倍。兩者由靜止走完相同距離 S，甲花的時間較短。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1309-figure-f8ad2c5b32f7.jpg",
+          "alt": "原卷示意圖，甲質量 m、乙質量 2m，兩者各受向右的水平力 F，沿光滑平面各移動相同距離 S。",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "相同推力與位移下的木塊動能",
+        "art": "assets/comics/q-1309-art-365777b8c5.svg",
+        "panels": [
+          {
+            "heading": "同力、同方向、同位移",
+            "text": "甲的質量 m，乙 2m。兩塊從靜止出發，各受水平推力 F 並移動 S。",
+            "alt": "兩排木塊各受水平推力 F，標出質量和相同位移 S。",
+            "image": "assets/comics/q-1309-art-365777b8c5.svg"
+          },
+          {
+            "heading": "兩塊都得到 FS 的功",
+            "text": "力沿著位移方向，W＝FS。兩塊的力與位移相同，獲得的動能也相同。",
+            "alt": "兩個相等的 F 乘 S 面積代表相等的功。",
+            "image": "assets/comics/q-1309-panel-2-art-b032768d4f.svg"
+          },
+          {
+            "heading": "相同動能可有不同速率",
+            "text": "甲質量較小，相同動能下甲速率較大。若乙速率為 v，甲為 √2 v。",
+            "alt": "兩木塊與長度比為根號二比一的速度箭頭。",
+            "image": "assets/comics/q-1309-panel-3-art-f6886866c5.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 甲、乙兩物體獲得的動能相等",
+          "points": [
+            "C 正確。甲加速度較大，先走完距離 S；兩塊走完時各有 FS 的動能。"
+          ],
+          "image": "assets/comics/q-1309-panel-4-art-ee66849765.svg",
+          "alt": "兩個計時錶指示移動相同距離，甲用時較短。"
+        },
+        "protectedWords": [
+          "相同位移",
+          "√2 v",
+          "W＝FS"
+        ]
+      }
+    },
+    {
+      "id": "q-1310",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第6題｜帆船重量的反作用力",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "承上題，帆船重量的反作用力為\n\n(A) 水面受來自帆船重量所施的一個向下力\n(B) 水給帆船的浮力\n(C) 帆船與水面的靜摩擦力\n(D) 帆船對地球的吸引力。",
+      "answer": "(D) 帆船對地球的吸引力。",
+      "explanation": "帆船的重量是地球對帆船的引力。依牛頓第三運動定律，反作用力要交換施力與受力的物體，並且是同一次相互作用，所以是帆船對地球、方向朝向帆船的引力。\n\n(A) 船對水的向下作用屬船與水的交互作用，與地球對船的引力是不同力對。\n(B) 水對船的浮力和船的重量都作用在船上。船靜止時這兩個力在鉛直方向互相平衡。\n(C) 帆船和水面間的摩擦與地球對船的引力無關。\n(D) 帆船吸引地球，與地球吸引帆船的力大小相同、方向相反，分別作用在地球和帆船。",
+      "trap": "認作用反作用力時，先寫出力的施力者和受力者，再交換兩個物體。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。承接前題的必要條件與原卷圖另列於作答區。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "牛頓第三運動定律",
+        "反作用力",
+        "平衡力",
+        "浮力"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1310-condition-176bdfd27d7a.jpg",
+        "assets/originals/gpt077-q-1310-original-f3fc6d848dd7.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第6題",
+      "studentAnswer": "6@錯題B → D",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "前題條件：一帆船靜止於水面上。",
+      "originalQuestionNumber": "6",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "水面受來自帆船重量所施的一個向下力",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "船對水的向下作用屬船與水的交互作用，與地球對船的引力是不同力對。"
+        },
+        {
+          "label": "B",
+          "text": "水給帆船的浮力",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "水對船的浮力和船的重量都作用在船上。船靜止時這兩個力在鉛直方向互相平衡。"
+        },
+        {
+          "label": "C",
+          "text": "帆船與水面的靜摩擦力",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "帆船和水面間的摩擦與地球對船的引力無關。"
+        },
+        {
+          "label": "D",
+          "text": "帆船對地球的吸引力。",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "帆船吸引地球，與地球吸引帆船的力大小相同、方向相反，分別作用在地球和帆船。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1310-figure-a15e8a0916ea.jpg",
+          "alt": "前題原卷附圖，一艘帆船浮在水面上。",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "帆船重量的反作用力",
+        "art": "assets/comics/q-1310-art-db39b1295b.svg",
+        "panels": [
+          {
+            "heading": "帆船浮在水面",
+            "text": "前題給帆船在水面上靜止。這題指定帆船的重量，先寫出誰拉誰。",
+            "alt": "靜止的帆船浮在水面上，標出重力方向向下。",
+            "image": "assets/comics/q-1310-art-db39b1295b.svg"
+          },
+          {
+            "heading": "地球與帆船互相吸引",
+            "text": "地球對帆船的引力是重量。交換施力者與受力者，可得帆船對地球的引力。",
+            "alt": "地球拉船向下，船拉地球向上，箭頭等長且作用在不同物體。",
+            "image": "assets/comics/q-1310-panel-2-art-2923d2fede.svg"
+          },
+          {
+            "heading": "浮力和重力都作用在船上",
+            "text": "水對船的浮力向上、船的重量向下。船靜止，這兩個力大小相等。",
+            "alt": "靜止帆船圖中，浮力與重量兩支等長的箭頭都從船上指出，方向相反。",
+            "image": "assets/comics/q-1310-panel-3-art-d4ddf09917.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 帆船對地球的吸引力。",
+          "points": [
+            "D 正確。與重量成對的是帆船對地球的吸引力。同一重力作用分別落在地球與船上。"
+          ],
+          "image": "assets/comics/q-1310-panel-4-art-451fcb26c0.svg",
+          "alt": "橫放地球與帆船的引力關係圖，標出兩支力箭頭和施力者。"
+        },
+        "protectedWords": [
+          "反作用力",
+          "重力作用"
+        ]
+      }
+    },
+    {
+      "id": "q-1312",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第4題｜棒球反向擊出的平均受力",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "旅美國民隊投手王建民，面對洋基隊強打坎農，投出 40 m/s（時速 144 公里）的快速球，坎農發揮強打威力將球以 20 m/s 的速度反向擊出，而球與球棒接觸時間為 0.3 秒，則棒球在這段時間內平均受力大小為多少 N？（棒球質量為 150 g）\n\n(A) 10\n(B) 20\n(C) 30\n(D) 50",
+      "answer": "(C) 30 N",
+      "explanation": "取來球方向為正，初速度 vᵢ＝＋40 m/s，球反向飛出，末速度 v𝒇＝−20 m/s。因此 Δv＝−20−40＝−60 m/s。150 g＝0.150 kg，接觸時間 Δt＝0.3 s，所以平均加速度 a平均＝−60／0.3＝−200 m/s²，平均合力 F平均＝0.150 × (−200)＝−30 N。負號代表和來球方向相反；題目問大小，故取 30 N。\n\n(A) 10 N 會出現在把兩個速率直接相減、未納入反向時。\n(B) 20 N 相當於只算球由 40 m/s 減速至停止，漏算反向擊出的速度。\n(C) 30 N 正確納入兩個速度方向、質量和接觸時間。\n(D) 50 N 不符合上述速度變化與受力時間。",
+      "trap": "先設正方向、替初速和末速加上正負號，再算「末速度減初速度」。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對使用者上傳的原卷、四個選項及紅筆訂正。無可確認的實際考試日期，使用首次提問的臺灣日期；冊次與章節歸綜合。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "牛頓第二運動定律",
+        "平均力",
+        "速度方向",
+        "單位換算"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1312-original-e974d6534b95.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第4題",
+      "studentAnswer": "4@錯題B → C",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "4",
+      "optionAnalysis": [
+        {
+          "label": "A",
+          "text": "10",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "10 N 會出現在把兩個速率直接相減、未納入反向時。"
+        },
+        {
+          "label": "B",
+          "text": "20",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "20 N 相當於只算球由 40 m/s 減速至停止，漏算反向擊出的速度。"
+        },
+        {
+          "label": "C",
+          "text": "30",
+          "wordClass": "應選",
+          "meaning": "",
+          "explanation": "30 N 正確納入兩個速度方向、質量和接觸時間。"
+        },
+        {
+          "label": "D",
+          "text": "50",
+          "wordClass": "不選",
+          "meaning": "",
+          "explanation": "50 N 不符合上述速度變化與受力時間。"
+        }
+      ],
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "棒球反向擊出的平均受力",
+        "art": "assets/comics/q-1312-art-cfc121aa69.svg",
+        "panels": [
+          {
+            "heading": "來球和回球相反",
+            "text": "取來球向右為正。投出的速度是 +40 m/s，反向擊出後是 −20 m/s。",
+            "alt": "畫出棒球、球棒及長度二比一的來球與回球速度箭頭。",
+            "image": "assets/comics/q-1312-art-cfc121aa69.svg"
+          },
+          {
+            "heading": "在數線上算速度差",
+            "text": "末速度減初速度，Δv＝−20−40＝−60 m/s。負號代表與來球方向相反。",
+            "alt": "帶正負號的速度數線，從 +40 到 −20 的向左箭頭代表速度改變。",
+            "image": "assets/comics/q-1312-panel-2-art-86d656c42d.svg"
+          },
+          {
+            "heading": "用 0.3 秒求平均加速度",
+            "text": "−60 m/s ÷ 0.3 s＝−200 m/s²。圖中的斜虛線只代表兩端點的平均斜率。",
+            "alt": "速度時間的端點與斜虛線，標出 0.3 秒內由 +40 變為 −20。",
+            "image": "assets/comics/q-1312-panel-3-art-b2c467aa28.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 30 N",
+          "points": [
+            "質量 150 g＝0.150 kg，乘平均加速度得到 −30 N。題目問大小，選 30 N。"
+          ],
+          "image": "assets/comics/q-1312-panel-4-art-1d8a920ed0.svg",
+          "alt": "棒球質量標為 0.150 kg，平均合力箭頭指向左，標出大小 30 N。"
+        },
+        "protectedWords": [
+          "+40 m/s",
+          "−20 m/s",
+          "−60 m/s",
+          "−200 m/s²",
+          "0.3 s",
+          "150 g",
+          "0.150 kg",
+          "−30 N",
+          "30 N"
+        ]
+      }
+    },
+    {
+      "id": "q-1313",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第7題｜向上拉舉時的合力",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "在重力加速度 g＝9.8 公尺／秒² 的狀況下，有一個質量 5 公斤的物體，受到一個 10 公斤重的作用力垂直向上拉舉，試問此物體所產生的加速度大小為多少 m/s²？\n\n(A) 2 m/s²\n(B) 1 m/s²\n(C) 19.6 m/s²\n(D) 9.8 m/s²",
+      "answer": "D．9.8 m/s²",
+      "explanation": "1 公斤重＝9.8 N，10 公斤重的拉力是 98 N，方向向上。5 kg 的物體所受重力是 5 × 9.8＝49 N，方向向下。\n\n取向上為正，合力為 98－49＝49 N。依 F合＝ma，得到 a＝49 ÷ 5＝9.8 m/s²，方向向上。\n\n(A) 與 (B) 都不是由合力除以質量所得。(C) 19.6 m/s² 是只算 98 ÷ 5、忽略重力的結果。(D) 正確。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "牛頓第二運動定律",
+        "公斤重",
+        "合力"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1313-original-928df308f7b2.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第7題",
+      "studentAnswer": "原卷藍筆 C、紅筆改 D。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "7",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "向上拉舉時的合力",
+        "art": "assets/comics/q-1313-art-8471ca6d5f.svg",
+        "panels": [
+          {
+            "heading": "找出向上的拉力",
+            "text": "10 公斤重是力的大小，換算為 98 N。",
+            "alt": "向上箭頭標示 10 kgw 對 5 kg 物體的拉力",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1313-art-8471ca6d5f.svg"
+          },
+          {
+            "heading": "把拉力和重力都畫出來",
+            "text": "物體重 49 N。兩力方向相反，向上箭頭是向下箭頭的兩倍。",
+            "alt": "98 N 向上與 49 N 向下的成比例箭頭",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1313-panel-2-art-8c794aedcc.svg"
+          },
+          {
+            "heading": "相反方向要相減",
+            "text": "取向上為正，合力是 +49 N。",
+            "alt": "98 N 負載條扣掉 49 N，得到 49 N",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1313-panel-3-art-498898f956.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "D．9.8 m/s²",
+          "points": [
+            "49 ÷ 5＝9.8 m/s²，方向向上，選 D。"
+          ],
+          "image": "assets/comics/q-1313-panel-4-art-b9c4b0e019.svg",
+          "alt": "5 kg 物塊上升示意與向上加速度箭頭"
+        }
+      }
+    },
+    {
+      "id": "q-1314",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第9題｜桌面支持力的反作用力",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "一物體靜置於水平桌面上，如圖所示，若 N₁ 為桌面支撐物體之力，W₁ 為物體所受之重力，N₂ 為物體作用於桌面之力，W₂ 為物體作用於地球之力，則下列何者為一對作用力與反作用力；何者為一對平衡力？\n\n(A) N₁ 與 W₁；N₁ 與 N₂\n(B) W₁ 與 W₂；N₂ 與 W₂\n(C) N₁ 與 N₂；N₁ 與 W₁\n(D) N₂ 與 W₂；N₁ 與 W₁",
+      "answer": "C．N₁ 與 N₂；N₁ 與 W₁",
+      "explanation": "作用力與反作用力是同一次交互作用，分別作用在不同物體。桌面對物體的支持力 N₁ 向上，物體對桌面的力 N₂ 向下，兩者是一對。同理，物體受到地球吸引的 W₁ 與物體吸引地球的 W₂ 也是一對。\n\n平衡力作用在同一物體。物體靜止於水平桌面上，向上的 N₁ 與向下的 W₁ 大小相等、合力為零。\n\n(A) 兩組的角色對調。(B) 第一組是作用力與反作用力，但第二組的受力物是桌面與地球，無法在同一物體上平衡。(C) 正確。(D) N₂ 與 W₂ 來自不同交互作用。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "牛頓第三運動定律",
+        "平衡力",
+        "支持力"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1314-original-7c5af9f061e2.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第9題",
+      "studentAnswer": "原卷藍筆 A、紅筆改 C。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "9",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1314-figure-2f380f798e6a.jpg",
+          "alt": "原題桌面受力示意圖，標出 N₁、N₂、W₁、W₂。",
+          "caption": "原卷附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "桌面支持力的反作用力",
+        "art": "assets/comics/q-1314-art-6532bba465.svg",
+        "panels": [
+          {
+            "heading": "先辨認物體和桌面",
+            "text": "原圖有物體、水平桌面和地球。寫下每個力作用在哪裡。",
+            "alt": "物體放在有桌腳的桌面上，最下方為地球",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1314-art-6532bba465.svg"
+          },
+          {
+            "heading": "接觸力各作用在一方",
+            "text": "N₁ 作用於物體，N₂ 作用於桌面，是同一對接觸力。",
+            "alt": "同接觸點上下各一支等長箭頭，N₁ 向物體，N₂ 向桌面",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1314-panel-2-art-48b991a597.svg"
+          },
+          {
+            "heading": "只看物體就能判平衡",
+            "text": "把桌面與地球暫時移出圖外。物體只受向上的 N₁ 與向下的 W₁。",
+            "alt": "單獨物塊的兩支相反等長箭頭 N₁ 與 W₁",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1314-panel-3-art-45e459309c.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "C．N₁ 與 N₂；N₁ 與 W₁",
+          "points": [
+            "C 所列的第一對作用在不同物體，第二對作用在同一物體。"
+          ],
+          "image": "assets/comics/q-1314-panel-4-art-88b56be027.svg",
+          "alt": "左右並排對照 N₁、N₂ 的接觸關係與 N₁、W₁ 的平衡關係"
+        }
+      }
+    },
+    {
+      "id": "q-1315",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第11題｜推相連的兩台購物車",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "小華利用暑假在大賣場打工，準備將倉庫內甲、乙兩種不同貨物送上架，若小華以一組連結車推運貨物，如圖所示。若忽略摩擦力、空氣阻力，當連結車以加速度 ＋2 m/s² 向右前進時，下列敘述何者錯誤？\n\n(A) 甲車作用於乙車的作用力為 ＋40 N\n(B) 乙車作用於甲車的作用力為 －80 N\n(C) 若改從乙車那一邊施力，則兩車產生的加速度大小不變\n(D) 承 (C) 選項，若改從乙車那一邊向左施力，乙車作用於甲車的作用力為 －80 N。",
+      "answer": "B．乙車作用於甲車的作用力為 －80 N（錯誤的敘述）",
+      "explanation": "原圖甲車 40 kg，乙車 20 kg。取向右為正，兩車總質量 60 kg，因此原情境的外力是 60 × 2＝＋120 N。\n\n原情境中小華從甲側推。只看乙車，水平力來自甲車，故 F甲→乙＝20 × 2＝＋40 N。由牛頓第三運動定律，F乙→甲＝－40 N，因此 (A) 正確、(B) 錯誤。\n\n(C) 依題意沿用相同大小的 120 N 推力。換側施力時，總質量不變，所以加速度的大小仍是 2 m/s²。若推力改變，加速度大小未必相同。\n\n(D) 從乙側以同樣大小的力向左推時，a＝－2 m/s²。只看甲車，水平力來自乙車，故 F乙→甲＝40 × (－2)＝－80 N，正確。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "牛頓第二運動定律",
+        "牛頓第三運動定律",
+        "隔離物體"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1315-original-9457065751cd.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第11題",
+      "studentAnswer": "原卷藍筆 D、紅筆改 B。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "11",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1315-figure-ab3330c0298b.jpg",
+          "alt": "原卷中小華從左方推兩台連結車。左甲車 40 kg，右乙車 20 kg。",
+          "caption": "原卷附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "推相連的兩台購物車",
+        "art": "assets/comics/q-1315-art-f3f61be1d3.svg",
+        "panels": [
+          {
+            "heading": "用兩台車合計外力",
+            "text": "質量合計 60 kg，往右加速。外力為 ＋120 N。",
+            "alt": "左側推力朝右，下面是相連的 40 kg 與 20 kg 車",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1315-art-f3f61be1d3.svg"
+          },
+          {
+            "heading": "只看被甲推的乙車",
+            "text": "乙車 20 kg，a＝＋2 m/s²，甲對乙的力為 ＋40 N。",
+            "alt": "乙車單獨受一支往右的 40 N 箭頭",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1315-panel-2-art-9920b6d901.svg"
+          },
+          {
+            "heading": "反作用力作用在甲車",
+            "text": "反向、等大，所以乙對甲是 －40 N。",
+            "alt": "甲乙車各有一支對應的 40 N 箭頭，方向相反",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1315-panel-3-art-2650f71fd5.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "B．乙車作用於甲車的作用力為 －80 N（錯誤的敘述）",
+          "points": [
+            "仍用 120 N 向左推，甲車才受到 －80 N。題問錯誤，選 B。"
+          ],
+          "image": "assets/comics/q-1315-panel-4-art-c5842793c1.svg",
+          "alt": "右側外力向左，甲車上的乙對甲作用力為 80 N 向左"
+        }
+      }
+    },
+    {
+      "id": "q-1316",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第12題｜大人與小孩穿溜冰鞋互推",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "在光滑的水平地面上，質量為 m₁ 的大人與質量為 m₂ 的小孩（m₁＞m₂），分別穿上溜冰鞋後，兩人面對面互推，如圖所示，F₁ 為大人的受力，F₂ 為小孩的受力，則下列敘述何者錯誤？\n\n(A) 大人跟小孩兩者出力的大小必相等\n(B) 大人跟小孩兩者的受力大小相等：F₁＝F₂（不考慮方向性）\n(C) 施力期間，大人向後滑行的加速度小於小孩向後滑行的加速度\n(D) 當大人與小孩的雙手互相分離後，兩者以等速度退後。",
+      "answer": "A（原卷紅筆答案，題意有歧義）",
+      "explanation": "原卷紅筆選 A。依原卷預期，A 的「出力」若指各自的主動使力程度或肌肉用力，題目給不出兩者必相等的結論。若「出力」指大人施於小孩、小孩施於大人的實際接觸力，兩者正是牛頓第三運動定律的一對，大小一定相等，此時 A 也成立，所以原題用詞有歧義。\n\n(B) 互推時，大人與小孩在水平方向受到大小相等、方向相反的接觸力。(C) 依 a＝F／m，受力大小相等而大人質量較大，大人的加速度大小較小。(D) 手分開後，忽略水平阻力，各自做等速度直線運動，兩人各自的速率不一定相同。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "牛頓第三運動定律",
+        "作用力與反作用力",
+        "出力用詞疑義"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1316-original-3149917e8c8e.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第12題",
+      "studentAnswer": "原卷藍筆 C、紅筆改 A。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "12",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1316-figure-32abd28e5dbf.jpg",
+          "alt": "原卷成人和小孩分別標註 m₁、m₂，圖示穿上溜冰鞋後面對面互推。",
+          "caption": "原卷附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "大人與小孩穿溜冰鞋互推",
+        "art": "assets/comics/q-1316-art-3281e862cd.svg",
+        "panels": [
+          {
+            "heading": "兩人的質量不同",
+            "text": "大人 m₁ 大於小孩 m₂。兩人在光滑地面面對面互推。",
+            "alt": "較高的大人與較矮的小孩穿溜冰鞋，在水平地面互推",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1316-art-3281e862cd.svg"
+          },
+          {
+            "heading": "實際互推的力等大反向",
+            "text": "F₁ 作用在大人，F₂ 作用在小孩。兩力來自同一次接觸。",
+            "alt": "同一次接觸的兩支等長、反向的力箭頭",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1316-panel-2-art-1d575c4992.svg"
+          },
+          {
+            "heading": "用質量比較加速度",
+            "text": "力一樣大，大人的質量較大，加速度大小較小。",
+            "alt": "用長短有別的反向箭頭比較兩人的加速度",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1316-panel-3-art-05a1c4be8c.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "A（原卷紅筆答案，題意有歧義）",
+          "points": [
+            "用紅筆答案 A 理解「出力」的措辭，實際互推的接觸力仍一定等大。"
+          ],
+          "image": "assets/comics/q-1316-panel-4-art-a092a667a8.svg",
+          "alt": "兩人手分開後退，等間隔位置點各自表示恆定速度"
+        }
+      }
+    },
+    {
+      "id": "q-1317",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第16題｜四組物體的萬有引力大小",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "以萬有引力定律判斷，下列那一組物體間的萬有引力最小？\n\n(A) 2m 與 2m，相距 R\n(B) m 與 m，相距 R\n(C) 2m 與 m，相距 2R\n(D) 3m 與 m，相距 2R",
+      "answer": "C．2m 與 m，相距 2R",
+      "explanation": "依萬有引力定律 F＝Gm₁m₂／r²。取 F₀＝Gm²／R² 為比較基準。\n\n(A) 質量乘積是 4m²，距離平方是 R²，得 4F₀。(B) 得 F₀。(C) 質量乘積是 2m²，距離平方是 4R²，得 ½F₀。(D) 質量乘積是 3m²，距離平方也是 4R²，得 ¾F₀。\n\n½F₀ ＜ ¾F₀ ＜ F₀ ＜ 4F₀，所以 C 最小。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "萬有引力",
+        "距離平方反比",
+        "比例"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1317-original-201a9f6fdfe0.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第16題",
+      "studentAnswer": "原卷藍筆 B、紅筆改 C。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "16",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1317-figure-fb6854d22300.jpg",
+          "alt": "原卷四組比較圖。A 為 2m、2m、R，B 為 m、m、R，C 為 2m、m、2R，D 為 3m、m、2R。",
+          "caption": "原卷選項附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "四組物體的萬有引力大小",
+        "art": "assets/comics/q-1317-art-034f2ec4ab.svg",
+        "panels": [
+          {
+            "heading": "先讀質量與距離",
+            "text": "A、B 的距離是 R，C、D 是 2R。每組兩個物體的質量另行相乘。",
+            "alt": "A 至 D 四組圓球，各標質量與中心距離 R 或 2R",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1317-art-034f2ec4ab.svg"
+          },
+          {
+            "heading": "距離兩倍，平方四倍",
+            "text": "把 r² 想成邊長為 r 的正方形面積。邊長兩倍，面積變為四倍。",
+            "alt": "並排畫邊長 R 與 2R 的正方形，後者分成四個相等小正方形",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1317-panel-2-art-edeae9299f.svg"
+          },
+          {
+            "heading": "以 B 組引力做基準",
+            "text": "A＝4F₀、B＝F₀、C＝½F₀、D＝¾F₀。",
+            "alt": "四組引力比例長條，A 最長，C 最短",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1317-panel-3-art-8aedd1b2f8.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "C．2m 與 m，相距 2R",
+          "points": [
+            "同樣相距 2R，2m×m 比 3m×m 小，C 的引力最低。"
+          ],
+          "image": "assets/comics/q-1317-panel-4-art-cc51337f47.svg",
+          "alt": "C、D 的物體和距離上下對照，引力長條以二比三呈現"
+        }
+      }
+    },
+    {
+      "id": "q-1318",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第19題｜等速率圓周運動的速度與合力",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "有關作等速率圓周運動的物體，下列敘述何者錯誤？\n\n(A) 此物體的運動不是等速度運動\n(B) 向心力是改變物體速度的原因\n(C) 所受的合力方向一直在改變，但皆指向圓周的切線方向\n(D) 此物體作加速度運動。",
+      "answer": "C．所受的合力方向一直在改變，但皆指向圓周的切線方向（錯誤的敘述）",
+      "explanation": "速度有大小與方向。等速率圓周運動的速度大小不變，但每一瞬間都沿各點的切線，方向隨位置改變，所以 (A) 正確。\n\n合力提供向心加速度，持續改變速度方向，所以 (B) 與 (D) 也正確。\n\n(C) 的前半句「合力方向一直在改變」正確；後半句錯在說合力沿切線。向心合力永遠沿半徑指向圓心，與瞬時速度垂直。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "等速率圓周運動",
+        "向心力",
+        "切線速度"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1318-original-49501786779d.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第19題",
+      "studentAnswer": "原卷藍筆 D、紅筆改 C。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "19",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "等速率圓周運動的速度與合力",
+        "art": "assets/comics/q-1318-art-da7ed4310f.svg",
+        "panels": [
+          {
+            "heading": "速率相同，方向會變",
+            "text": "在圓周不同的位置，切線方向不同。",
+            "alt": "圓周上方與右方的兩支等長切線速度箭頭",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1318-art-da7ed4310f.svg"
+          },
+          {
+            "heading": "合力指向圓心",
+            "text": "合力沿半徑往內，瞬時速度則沿切線。",
+            "alt": "右側圓周點的切線速度和向心力呈九十度",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1318-panel-2-art-b0fe76c3b4.svg"
+          },
+          {
+            "heading": "加速度來自速度的改變",
+            "text": "比較兩個相鄰位置的等長速度箭頭，方向不同，所以速度向量有變化。",
+            "alt": "兩支等長但方向不同的速度箭頭與末端差向量",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1318-panel-3-art-66a5b075e4.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "C．所受的合力方向一直在改變，但皆指向圓周的切線方向（錯誤的敘述）",
+          "points": [
+            "合力始終朝圓心，方向隨位置改變。錯誤的敘述是 C。"
+          ],
+          "image": "assets/comics/q-1318-panel-4-art-22e75110cb.svg",
+          "alt": "兩處圓周點的合力箭頭都往同一圓心，速度箭頭沿各自的切線"
+        }
+      }
+    },
+    {
+      "id": "q-1319",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第22題｜萬有引力與距離平方反比",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "下列有關萬有引力的敘述，何者錯誤？\n\n(A) 萬有引力和兩物體間的距離平方成正比\n(B) 萬有引力必為吸引力\n(C) 萬有引力遵守牛頓第三運動定律\n(D) 萬有引力提供人造衛星繞地球運轉所需的向心力。",
+      "answer": "A．萬有引力和兩物體間的距離平方成正比（錯誤的敘述）",
+      "explanation": "依 F＝Gm₁m₂／r²，兩物體的質量固定時，引力與兩物體間距離的平方成反比。距離變成兩倍，引力剩 ¼，所以 (A) 錯誤。\n\n(B) 在國中牛頓重力模型中，兩個有質量的物體彼此吸引。(C) 兩物體互施的引力等大反向，分別作用在兩物體上，符合牛頓第三運動定律。(D) 對理想圓形軌道而言，人造衛星的向心力由地球對衛星的引力提供。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "萬有引力",
+        "距離平方反比",
+        "衛星向心力"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1319-original-7521012f47d3.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第22題",
+      "studentAnswer": "原卷藍筆 B、紅筆改 A。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "22",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "萬有引力與距離平方反比",
+        "art": "assets/comics/q-1319-art-458453a91e.svg",
+        "panels": [
+          {
+            "heading": "引力對著另一物體",
+            "text": "兩物體互相吸引，兩支力箭頭分別作用在不同物體。",
+            "alt": "一對相向、等長的作用力箭頭",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1319-art-458453a91e.svg"
+          },
+          {
+            "heading": "固定質量，只拉開距離",
+            "text": "中心距離 r 變成 2r，引力大小從 F 變成 F／4。",
+            "alt": "兩排圓球的中心距離是一倍和兩倍，下面的引力箭頭縮短到四分之一",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1319-panel-2-art-fd6d229b54.svg"
+          },
+          {
+            "heading": "引力會持續偏轉衛星",
+            "text": "衛星速度沿切線，地球引力沿半徑指向地心。",
+            "alt": "圓軌道、地球、衛星與向心力和速度箭頭",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1319-panel-3-art-b4027f7a8e.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "A．萬有引力和兩物體間的距離平方成正比（錯誤的敘述）",
+          "points": [
+            "距離 r、2r、3r 引力依次是 F、F／4、F／9。A 把反比寫成正比。"
+          ],
+          "image": "assets/comics/q-1319-panel-4-art-09fe76450a.svg",
+          "alt": "F 對 r 的遞減關係，標註 r、2r、3r 時的高度"
+        }
+      }
+    },
+    {
+      "id": "q-1320",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第26題｜來回推物體時小英作的功",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "小英以 5N 的水平施力推動 2kgw 的物體，在一粗糙水平面上等速前進了 10 公尺，再沿同路線將物體等速推回原出發點，重力加速度 g＝9.8 m/s²，則小英共作功多少焦耳？\n\n(A) 392\n(B) 100\n(C) 50\n(D) 0。",
+      "answer": "B．100 J",
+      "explanation": "先找題目問的力：只計小英施力作的功。去程推力與去程位移同向，作功 5 × 10＝50 J；回程推力也跟著轉向，同樣與回程位移同向，所以再作 50 J。合計 100 J，選 (B)。\n\n若統一取去程為正，回程是 (－5 N) × (－10 m)＝＋50 J。由於兩段推力方向不同，不能把同一個力乘來回總位移 0。\n\n(A) 392 J 是拿 2 kgw 換算的重力去乘 20 m，但重力與水平位移垂直。(C) 50 J 只算了一段。(D) 0 J 可描述兩段等速時的合力總功，不能用於小英施力作的功；兩段摩擦力各作 －50 J，正好抵消小英作的正功。",
+      "trap": "",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。無可確認的實際出題日期，採首次對話的臺灣日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "作功",
+        "摩擦力",
+        "正功",
+        "力與位移"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1320-original-5568a9ae6f20.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第26題",
+      "studentAnswer": "原卷藍筆 D、紅筆改 B。",
+      "contentStatus": "完整原題",
+      "passage": "",
+      "originalQuestionNumber": "26",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "來回推物體時小英作的功",
+        "art": "assets/comics/q-1320-art-b6021fab9c.svg",
+        "panels": [
+          {
+            "heading": "去程，推力和位移同向",
+            "text": "朝右走 10 m，朝右推 5 N，所以作 ＋50 J。",
+            "alt": "去程從左向右，水平推力和位移箭頭同向",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1320-art-b6021fab9c.svg"
+          },
+          {
+            "heading": "回程，推力也跟著轉向",
+            "text": "朝左走 10 m，朝左推 5 N，也是 ＋50 J。",
+            "alt": "回程從右向左，水平推力和位移箭頭同向",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1320-panel-2-art-9914c58f1f.svg"
+          },
+          {
+            "heading": "把兩段的正功相加",
+            "text": "去程、回程各 50 J，合計 100 J。",
+            "alt": "兩段一樣長的能量條，分別為 50 J",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1320-panel-3-art-496f9115f3.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "B．100 J",
+          "points": [
+            "小英共作 100 J；摩擦共作 －100 J。兩段等速，合力總功為 0 J。"
+          ],
+          "image": "assets/comics/q-1320-panel-4-art-5a4fe19bd0.svg",
+          "alt": "能量帳圖，從零到 100 J 是小英作功，從零到負 100 J 是摩擦作功"
+        }
+      }
+    },
+    {
+      "id": "q-1321",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第34題｜大卡車停車需要多少負功",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "想要使一輛時速 144 公里、質量為 15000 公斤（含貨物），沿著直線行駛的大卡車停下來，請問煞車時至少需作負功多少焦耳？\n(A) 2.4×10⁷\n(B) 1.2×10⁷\n(C) 2.4×10⁶\n(D) 1.2×10⁶",
+      "answer": "(B) 1.2×10⁷ J",
+      "explanation": "把 144 km/h 除以 3.6，得到 40 m/s。大卡車停下，末動能為 0，初動能是 ½×15000×40²＝1.2×10⁷ J。\n\n依功與動能定理，合力作功等於動能變化，因此合功為 −1.2×10⁷ J。題目問作負功的大小，填正值 1.2×10⁷ J。",
+      "trap": "先換成 m/s 再平方。負號說明動能減少，選項列的是負功大小。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "功與動能",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1321-original-dc6561e1c24d.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第34題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "34",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "大卡車停車需要多少負功",
+        "art": "assets/comics/q-1321-art-08090bf87b.svg",
+        "panels": [
+          {
+            "heading": "大卡車從行駛到停止",
+            "text": "質量 15000 kg，初始時速 144 km/h。",
+            "alt": "卡車沿直線向右行駛，箭頭標出速度。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1321-art-08090bf87b.svg"
+          },
+          {
+            "heading": "把速率換成公尺每秒",
+            "text": "144÷3.6＝40 m/s。",
+            "alt": "公里每小時與公尺每秒的換算，圖上比較兩種等值標示。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1321-panel-2-art-4876afc2ed.svg"
+          },
+          {
+            "heading": "比較停止前後的動能",
+            "text": "初動能是 1.2×10⁷ J，停車後動能是 0。",
+            "alt": "左邊有初動能柱，右邊停車時動能為零。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1321-panel-3-art-9a8a7f1fc1.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 1.2×10⁷ J",
+          "points": [
+            "合功 W＝−1.2×10⁷ J，題目問其大小。"
+          ],
+          "image": "assets/comics/q-1321-panel-4-art-a21e46633e.svg",
+          "alt": "車往右前進，煞車力指向左方。"
+        },
+        "protectedWords": [
+          "15000 kg",
+          "144 km/h",
+          "40 m/s",
+          "1.2×10⁷ J",
+          "−1.2×10⁷ J"
+        ]
+      }
+    },
+    {
+      "id": "q-1322",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第35題｜同高度落下的兩球比較",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "A、B 兩球，質量比 Mₐ：Mᵦ＝1：5，同時自 10 公尺高樓自由落下，當球即將著地的瞬間，如圖所示，下列敘述何者正確？（不計空氣阻力及浮力）\n(A) 動能比為 1：5\n(B) 時間比為 1：5\n(C) 速度比為 1：5\n(D) 加速度比為 1：5",
+      "answer": "(A) 動能比為 1：5",
+      "explanation": "忽略空氣阻力與浮力，兩球從同一高度由靜止釋放，加速度都等於 g，落地時間相同，著地前速率也相同。\n\nK＝½mv²。速率相同時，動能比等於質量比 1：5。B、C、D 所比較的量皆為 1：1。",
+      "trap": "同高、同初速、同重力加速度才可直接比較著地速率。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "自由落體",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1322-original-27623ee62bad.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第35題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 A。",
+      "contentStatus": "完整原題",
+      "correctOption": "A",
+      "passage": "",
+      "originalQuestionNumber": "35",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1322-figure-cef1f7725145.jpg",
+          "alt": "A、B 兩球從同一高度自由落下，高度 10 公尺",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "同高度落下的兩球比較",
+        "art": "assets/comics/q-1322-art-588063160e.svg",
+        "panels": [
+          {
+            "heading": "兩球從同一高度釋放",
+            "text": "高度 10 m。A、B 質量比是 1：5。",
+            "alt": "小球 A 與較重的球 B 從同一水平線落下。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1322-art-588063160e.svg"
+          },
+          {
+            "heading": "自由落體的加速度相同",
+            "text": "不計空氣阻力、浮力，兩球同時落地。",
+            "alt": "兩球在同一高度各有等長的重力加速度箭頭。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1322-panel-2-art-3382453cc3.svg"
+          },
+          {
+            "heading": "同一時刻有相同速率",
+            "text": "計時相同、起始速率為零，著地前速率同大。",
+            "alt": "自由落體兩個速度對時間關係重合為同一斜直線。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1322-panel-3-art-46a1abdfab.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(A) 動能比為 1：5",
+          "points": [
+            "速率相同，½mv² 只比較 m，得到 1：5。"
+          ],
+          "image": "assets/comics/q-1322-panel-4-art-b10f7336c2.svg",
+          "alt": "相同速率下的 A 和 B 動能柱，比例一比五。"
+        },
+        "protectedWords": [
+          "½mv²",
+          "1：5",
+          "10 m"
+        ]
+      }
+    },
+    {
+      "id": "q-1323",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第36題｜從位置與速度圖判讀恆定動能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "下列有關物體作直線運動的甲、乙、丙、丁、戊、己六個關係圖中，在 t₁ 到 t₂ 時間內，那個圖形的動能是不變且不為零？\n(A) 甲丙戊\n(B) 乙丁己\n(C) 乙丁戊\n(D) 甲丙己",
+      "answer": "(D) 甲、丙、己",
+      "explanation": "同一物體的質量固定，動能不變且不為零，表示速率固定且大於零。位置－時間圖看斜率，速度－時間圖直接看縱值。\n\n甲的斜率為固定正值，丙的斜率為固定負值，兩者速率均固定且大於零。戊的位置固定，速度為零。乙、丁的速度隨時間改變，在指定區間內速率不固定。己的速度維持固定的非零值，所以選甲、丙、己。",
+      "trap": "向負方向等速運動也有動能。位置曲線水平代表靜止，速度線水平代表速度固定。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "運動圖表",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1323-original-49b7f47caf70.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第36題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "36",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1323-figure-b9d081dd66be.jpg",
+          "alt": "甲丙戊為位置時間圖，乙丁己為速度時間圖，圖中均標示 t₁ 與 t₂",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "從位置與速度圖判讀恆定動能",
+        "art": "assets/comics/q-1323-art-ea60c13788.svg",
+        "panels": [
+          {
+            "heading": "先辨認縱軸",
+            "text": "位置－時間圖用斜率找速度，速度－時間圖直接看速度。",
+            "alt": "畫出位置、速度對時間的兩種軸，提醒讀法不同。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1323-art-ea60c13788.svg"
+          },
+          {
+            "heading": "甲、丙、戊的位置圖",
+            "text": "甲正斜率、丙負斜率都固定；戊是水平線，物體靜止。",
+            "alt": "三張位置對時間圖，分別是上升、下降和水平。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1323-panel-2-art-04bf7a4b9d.svg"
+          },
+          {
+            "heading": "乙、丁、己的速度圖",
+            "text": "乙、丁的速度在變，只有己維持固定非零速度。",
+            "alt": "三張速度對時間圖，分別是上升、下降和非零水平。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1323-panel-3-art-6a11e68d97.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 甲、丙、己",
+          "points": [
+            "甲、丙運動方向相反，但動能取決於速率平方。"
+          ],
+          "image": "assets/comics/q-1323-panel-4-art-c4a5b5bb08.svg",
+          "alt": "左方、右方運動與同向等速運動三列，各標出相應圖形。"
+        }
+      }
+    },
+    {
+      "id": "q-1324",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第37題｜彈簧形變量與釋放速率",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "光滑水平桌面上有一條彈簧固定在牆壁上，彈簧另一端掛上一木塊，如圖所示。試問下列何種情形下（假設皆不超過彈簧的彈性限度），當手放開時，彈簧回復至原長度時木塊的速率最大？\n(A) 彈簧拉長 7 cm\n(B) 彈簧拉長 4 cm\n(C) 彈簧壓縮 3 cm\n(D) 彈簧壓縮 9 cm",
+      "answer": "(D) 彈簧壓縮 9 cm",
+      "explanation": "比較同一條彈簧偏離原長的距離。按題目採用的理想彈簧模型，彈性位能是 ½kx²，拉長和壓縮同樣距離時儲能相同。\n\n在光滑桌面，回到原長時原有彈性位能轉成木塊動能。四個選項的形變量大小分別為 7、4、3、9 cm，9 cm 最大，因此 D 的木塊速率最大。",
+      "trap": "平方比較的是偏離原長量，不是彈簧總長。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "彈性位能",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1324-original-51e2e4d0d6a7.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第37題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "37",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1324-figure-197dc8577544.jpg",
+          "alt": "固定在牆上的彈簧另一端連木塊，木塊在光滑水平桌上",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "彈簧形變量與釋放速率",
+        "art": "assets/comics/q-1324-art-03d7facff8.svg",
+        "panels": [
+          {
+            "heading": "以原長作為基準",
+            "text": "彈簧拉長或壓縮，形變量都是相對原長量。",
+            "alt": "牆面、原長時的彈簧與木塊。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1324-art-03d7facff8.svg"
+          },
+          {
+            "heading": "拉長與壓縮都會儲能",
+            "text": "同一理想彈簧的儲能為 ½kx²。",
+            "alt": "上列拉長，下列壓縮，虛線標出原長。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1324-panel-2-art-fb1be70a89.svg"
+          },
+          {
+            "heading": "按形變量平方比較",
+            "text": "7²、4²、3²、9²＝49、16、9、81。",
+            "alt": "四種形變的相對儲能柱，壓縮 9 公分為最高柱。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1324-panel-3-art-90744f2107.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 彈簧壓縮 9 cm",
+          "points": [
+            "回到原長時，儲存的彈性位能已轉成木塊的動能。"
+          ],
+          "image": "assets/comics/q-1324-panel-4-art-bb3b7d777a.svg",
+          "alt": "上列壓縮，恢復原長時木塊朝右運動。"
+        },
+        "protectedWords": [
+          "½kx²",
+          "9 cm"
+        ]
+      }
+    },
+    {
+      "id": "q-1325",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第38題｜高爾夫球能升到多高",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "曾雅妮於 2011 年 2 月贏得女子高球名人賽冠軍後，在女性高爾夫選手排名登上世界第一。若曾雅妮使 50 公克的高爾夫球在 50 焦耳的力學能狀態下擊出，整個過程中最多有 49% 的能量轉換成位能，則該高爾夫球最高可達多少公尺？（重力加速度 g＝9.8 m/s²）\n(A) 10\n(B) 30\n(C) 50\n(D) 70",
+      "answer": "(C) 50 公尺",
+      "explanation": "以擊球位置作為重力位能基準。最多增加的位能為 50×0.49＝24.5 J。\n\n50 公克＝0.05 公斤，代入 mgh＝24.5 得 h＝24.5÷（0.05×9.8）＝50 m。若球向前飛，最高點仍可能有水平速度，依題目給的 49% 計算。",
+      "trap": "先把公克換成公斤。由題目指定的能量比例計算垂直高度。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "重力位能",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1325-original-46baef5a3e57.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第38題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 C。",
+      "contentStatus": "完整原題",
+      "correctOption": "C",
+      "passage": "",
+      "originalQuestionNumber": "38",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "高爾夫球能升到多高",
+        "art": "assets/comics/q-1325-art-192c206767.svg",
+        "panels": [
+          {
+            "heading": "找出擊球位置與最高點",
+            "text": "質量 50 g，從擊球點算起的垂直高度是未知數。",
+            "alt": "高爾夫球弧線及最高點。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1325-art-192c206767.svg"
+          },
+          {
+            "heading": "把能量中可用的比例分出",
+            "text": "50 J 的 49%＝24.5 J，這是重力位能最多增加量。",
+            "alt": "圓形能量圖將 49% 的份額以深色標出。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1325-panel-2-art-bad997b81c.svg"
+          },
+          {
+            "heading": "位能隨高度成比例",
+            "text": "球重 mg＝0.49 N，因此每升高 1 m 增加 0.49 J。",
+            "alt": "圖上顯示每加一公尺，位能增加 0.49 焦耳。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1325-panel-3-art-d3deb6cf29.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(C) 50 公尺",
+          "points": [
+            "h＝24.5÷0.49＝50 m。"
+          ],
+          "image": "assets/comics/q-1325-panel-4-art-f9e6626d41.svg",
+          "alt": "擊球點到弧線最高點的垂直尺寸是 50 公尺。"
+        },
+        "protectedWords": [
+          "0.49 J",
+          "0.49 N",
+          "24.5 J",
+          "24.5÷0.49",
+          "50 m"
+        ]
+      }
+    },
+    {
+      "id": "q-1326",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第39題｜抽蓄發電的能量轉換",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "大觀發電二廠會在深夜用電離峰時間利用剩餘的電能，將水里溪水壩（比日月潭低 300 公尺）的水抽取上來，貯存在日月潭中；白天時，再由日月潭把水洩到水里溪水壩中進行發電，關於水推動發電機而發電的敘述，下列何者錯誤？\n(A) 水的位能減少，動能增加\n(B) 損失的位能可以 100% 轉換成電能\n(C) 部分的能轉成熱能而散失\n(D) 仍然遵守「能量守恆」定律",
+      "answer": "(B) 損失的位能可以 100% 轉換成電能",
+      "explanation": "發電時，高處水庫放水，水的重力位能下降，水流可帶動水輪機再驅動發電機。A 描述水由高處放流時，部分位能轉為水流動能。\n\n實際發電有摩擦、湍流及設備發熱等耗散，降低的重力位能只有一部分轉成可用電能，因此 B 錯、C 正確。把電能、熱等形式都算入，仍遵守能量守恆，D 正確。",
+      "trap": "電能產出有損耗，散失到周圍的能量仍計入總能量。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "能量轉換",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1326-original-d5a2eeb7a38f.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第39題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 B。",
+      "contentStatus": "完整原題",
+      "correctOption": "B",
+      "passage": "",
+      "originalQuestionNumber": "39",
+      "tables": [],
+      "questionFigures": [],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "抽蓄發電的能量轉換",
+        "art": "assets/comics/q-1326-art-f32c9b5aa2.svg",
+        "panels": [
+          {
+            "heading": "深夜抽水儲能",
+            "text": "用剩餘電能把水由較低的水庫抽到上方。",
+            "alt": "上下水庫和由下往上的抽水箭頭。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1326-art-f32c9b5aa2.svg"
+          },
+          {
+            "heading": "白天放水帶動水輪機",
+            "text": "水降落時重力位能減少，水流可帶動機組。",
+            "alt": "上下水庫和由上往下的放水箭頭，經過水輪機。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1326-panel-2-art-79ba7021a2.svg"
+          },
+          {
+            "heading": "部分能量轉為熱",
+            "text": "摩擦、湍流及設備耗散使電能產出小於位能降幅。",
+            "alt": "水輪機一條箭頭通往電能，另一條通往熱。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1326-panel-3-art-df7bf5d94c.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(B) 損失的位能可以 100% 轉換成電能",
+          "points": [
+            "發電的電能不是位能減少量的 100%。"
+          ],
+          "image": "assets/comics/q-1326-panel-4-art-a6a2f01227.svg",
+          "alt": "等長條比較位能減少量與分成電能、熱等的能量。"
+        }
+      }
+    },
+    {
+      "id": "q-1327",
+      "sourceId": "src-more-077",
+      "subject": "Physics-Chemistry",
+      "title": "理化第40題｜半圓軌道的動能與位能",
+      "chapter": "綜合",
+      "volume": "綜合",
+      "date": "2026-11-27",
+      "dateLabel": "首次出題日期",
+      "addedAt": "2026-11-27",
+      "question": "如圖所示，為一半徑 20 公分的光滑半圓形軌道固定在水平桌面上，將質量為 0.1 公斤的小球，由半圓形軌道 A 點處自由釋放，滑行到 D 點，A、D 兩點位在同一水平面上，B 點為軌道最低點（設 B 點的重力位能為零），B、C 兩點高度相差 15 公分。若忽略小球半徑，有關此球從 A 點到 D 點過程的敘述，下列何者錯誤？（重力加速度＝10 公尺／秒²）\n(A) 小球滾到 B 點時的動能 0.2 J\n(B) 小球滾到 C 點時的速率為 1 m/s\n(C) 小球滾到 D 點時的力學能為何 0.2 J\n(D) 前半程（A 點→B 點）重力位能變大，後半程（B 點→D 點）重力位能變小",
+      "answer": "(D) 下降段位能變小，上升段位能變大",
+      "explanation": "以 B 為高度零點。A、D 高 0.20 m，C 高 0.15 m。A 靜止釋放，力學能為 0.1×10×0.20＝0.2 J，光滑軌道上維持不變。\n\nB 點位能為零，動能為 0.2 J。C 點位能為 0.15 J，動能為 0.05 J，代入 K＝½mv² 得 v＝1 m/s。D 的力學能仍為 0.2 J。A→B 下降時位能變小，B→D 上升時變大，因此 D 將兩個方向顛倒。原卷 C 的「為何」照錄，按敘述值 0.2 J 判讀。",
+      "trap": "C 的速度由 A 到 C 的高度差 5 公分決定。",
+      "verification": "原卷逐題核對",
+      "verificationNote": "已核對海山高中國中部九年級理化原卷的題幹、四選項與必要原圖。原卷僅註明學年度及段考，日期取首次對話日期。",
+      "diagram": "",
+      "notes": "",
+      "status": "todo",
+      "starred": false,
+      "tags": [
+        "力學能守恆",
+        "力學"
+      ],
+      "images": [
+        "assets/originals/gpt077-q-1327-original-26d4438aa2ba.jpg"
+      ],
+      "sourceLabel": "分享原卷｜原卷第40題",
+      "studentAnswer": "原卷括號內未辨識到原選，左側紅筆訂正為 D。",
+      "contentStatus": "完整原題",
+      "correctOption": "D",
+      "passage": "",
+      "originalQuestionNumber": "40",
+      "tables": [],
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt077-q-1327-figure-ed0452714812.jpg",
+          "alt": "半圓形軌道的 A、B、C、D 點。C 比最低點 B 高 15 公分",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "explanationFigures": [],
+      "teachingComic": {
+        "title": "半圓軌道的動能與位能",
+        "art": "assets/comics/q-1327-art-66a39479ff.svg",
+        "panels": [
+          {
+            "heading": "辨認各點高度",
+            "text": "A、D 高 20 cm，C 高 15 cm，B 的位能設為零。",
+            "alt": "半圓軌道包含 A、B、C、D。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1327-art-66a39479ff.svg"
+          },
+          {
+            "heading": "最低點動能最大",
+            "text": "A 點釋放時力學能 0.2 J，B 點位能為零。",
+            "alt": "球位於軌道最低點 B。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1327-panel-2-art-5c832e2af1.svg"
+          },
+          {
+            "heading": "C 點高度比起點低 5 cm",
+            "text": "C 的位能為 0.15 J、動能為 0.05 J，速率 1 m/s。",
+            "alt": "C 點動能與位能的兩根比較柱。",
+            "caption": "新製教學示意",
+            "image": "assets/comics/q-1327-panel-3-art-dff0fa703a.svg"
+          }
+        ],
+        "fourth": {
+          "answer": "(D) 下降段位能變小，上升段位能變大",
+          "points": [
+            "A→B 位能減少，B→D 位能增加，所以 D 錯。"
+          ],
+          "image": "assets/comics/q-1327-panel-4-art-e74aa06f34.svg",
+          "alt": "箭頭指示先下到 B，再上到 D。"
+        },
+        "protectedWords": [
+          "20 cm",
+          "15 cm",
+          "5 cm",
+          "0.2 J",
+          "0.15 J",
+          "0.05 J",
+          "1 m/s"
+        ]
+      }
     }
   ],
-  "dataUpdatedAt": "2026-11-26T15:09:39+00:00"
+  "dataUpdatedAt": "2026-11-27T14:59:25+00:00"
 }

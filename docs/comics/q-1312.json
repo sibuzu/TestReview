@@ -1,0 +1,87 @@
+{
+  "id": "q-1312",
+  "subject": "Physics-Chemistry",
+  "title": "棒球反向擊出的平均受力",
+  "art": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1312-panel-1.svg",
+  "panels": [
+    {
+      "heading": "來球和回球相反",
+      "text": "取來球向右為正。投出的速度是 +40 m/s，反向擊出後是 −20 m/s。",
+      "alt": "畫出棒球、球棒及長度二比一的來球與回球速度箭頭。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1312-panel-1.svg"
+    },
+    {
+      "heading": "在數線上算速度差",
+      "text": "末速度減初速度，Δv＝−20−40＝−60 m/s。負號代表與來球方向相反。",
+      "alt": "帶正負號的速度數線，從 +40 到 −20 的向左箭頭代表速度改變。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1312-panel-2.svg"
+    },
+    {
+      "heading": "用 0.3 秒求平均加速度",
+      "text": "−60 m/s ÷ 0.3 s＝−200 m/s²。圖中的斜虛線只代表兩端點的平均斜率。",
+      "alt": "速度時間的端點與斜虛線，標出 0.3 秒內由 +40 變為 −20。",
+      "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1312-panel-3.svg"
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 30 N",
+    "points": [
+      "質量 150 g＝0.150 kg，乘平均加速度得到 −30 N。題目問大小，選 30 N。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-77/lane-b/art/q-1312-panel-4.svg",
+    "alt": "棒球質量標為 0.150 kg，平均合力箭頭指向左，標出大小 30 N。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099415-1dd0-83e8-b6dd-88a58dc4c147",
+  "protectedWords": [
+    "+40 m/s",
+    "−20 m/s",
+    "−60 m/s",
+    "−200 m/s²",
+    "0.3 s",
+    "150 g",
+    "0.150 kg",
+    "−30 N",
+    "30 N"
+  ],
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-77/lane-b/q-1312-original.jpg"
+  ],
+  "answerCheckedAgainst": "(C) 30 N",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source77_b",
+  "rationale": "依該題物理條件自製四張獨立向量圖，圖像與圖說分別處理原題條件、物理關係、推導及結論。",
+  "producerReviewPath": "docs/imports/new-gpt-20261127-77/lane-b/q-1312-review.json",
+  "nativeArt": "assets/comics/q-1312-art-cfc121aa69.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:00:15.298865+00:00",
+  "validationFile": "docs/comics/q-1312-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。"
+  }
+}

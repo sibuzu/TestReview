@@ -48,6 +48,16 @@ class ReworkStatusTest(unittest.TestCase):
         self.assertEqual((status['completed'], status['pending']), (0, 2))
         self.assertEqual(status['biologyResumeCommand'], '將生物的舊解說圖改為精美解說圖')
 
+    def test_completed_originals_count_when_other_group_members_are_paused(self):
+        self.plan([dict(id='q-001', state='paused', originalQuestionIds=['q-001', 'q-002'],
+                        completedOriginalIds=['q-001'])])
+        data = {'questions': [{'id': 'q-001', 'groupQuestions': [
+            dict(id=qid, subject='Civics', teachingComic=comic()) for qid in ('q-001', 'q-002')]}]}
+        status = build_rework_status(self.root, data, {})
+        self.assertEqual((status['completed'], status['otherPending']), (1, 1))
+        self.assertEqual([q['state'] for q in status['items']], ['complete', 'paused'])
+        self.assertEqual(status['items'][1]['url'], '/site/index.html#question/q-001')
+
     def test_legacy_exemption_is_separate_and_links_to_its_group(self):
         self.plan([dict(id='q-001', state='paused')])
         data = {'questions': [dict(id='q-001', subject='Biology'),

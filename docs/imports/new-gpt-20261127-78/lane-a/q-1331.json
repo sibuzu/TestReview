@@ -1,0 +1,43 @@
+{
+  "id": "q-1331",
+  "subject": "Math",
+  "title": "數學填充第5題｜同心圓的兩條切線",
+  "sourceId": "src-more-078",
+  "date": "2026-11-27",
+  "addedAt": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "originalQuestionNumber": "5",
+  "question": "如圖四，兩同心圓中，BC 為小圓的切線，M 為切點，CD 為大圓的切線，D 為切點，若 BC＝13，兩圓半徑分別為 3、5，則 CD＝＿＿＿＿。",
+  "answer": "√65",
+  "explanation": "設 O 為共同圓心。OM＝3、OB＝OD＝5，且 OM⊥BC、OD⊥CD。先在直角 △OMB 中求得 MB＝√(5²−3²)＝4。依原圖的直線順序 C、A、M、B，M 介於 C、B 之間，所以 CM＝13−4＝9。\n\n接著在直角 △OMC 中，OC²＝3²＋9²＝90。最後在直角 △ODC 中，CD²＝OC²−OD²＝90−25＝65，因此 CD＝√65。\n\nOM 是小圓的一條半徑，長度為 3。在 OC² 中誤用直徑 6 會得出 36＋81−25＝92。",
+  "studentAnswer": "原卷鉛筆寫 √92＝2√23，紅筆訂正為 √65。",
+  "tags": [
+    "同心圓",
+    "切線",
+    "畢氏定理"
+  ],
+  "passage": "",
+  "images": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1331-original.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261127-78/lane-a/q-1331-figure.jpg",
+      "alt": "原卷圖四。O 是同心圓圓心。由左至右是 C、A、M、B。BC 在 M 與小圓相切，CD 在 D 與大圓相切。",
+      "caption": "原卷第5題作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "tables": [],
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+  "trap": "先從 BC 扣掉 MB 求 CM。兩次使用 OM 時都取小圓半徑 3。",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "sourceLabel": "分享原卷｜原卷第5題"
+}

@@ -7989,6 +7989,108 @@
       "confirmationToken": "861ea19dc56791ccd2b90bb472dfe3a9f1922c9e34a8847bb25aad89f2560fca",
       "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
       "resolvedAt": "2026-11-26T15:00:01.566421+00:00"
+    },
+    {
+      "id": "correction-q-1331-bfedbc7e3584",
+      "state": "resolved",
+      "kind": "原題與解說確認",
+      "title": "數學填充第5題｜同心圓的兩條切線",
+      "questionId": "q-1331",
+      "questionText": "如圖四，兩同心圓中，BC 為小圓的切線，M 為切點，CD 為大圓的切線，D 為切點，若 BC＝13，兩圓半徑分別為 3、5，則 CD＝＿＿＿＿。",
+      "questionUrl": "/site/index.html#question/q-1331",
+      "url": "/site/index.html#question/q-1331",
+      "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+      "questions": [
+        "原 AI 的合成圖畫出的 D 不滿足 CD 與 OD 垂直，與原題切線條件及其文字推導不一致。",
+        "修改前／原AI內容：原 AI 圖把 O 畫在 (221,110)、C 在 (59,164)、D 在 (148.38,56.83)，D 雖近似位在大圓上，但 CD 與 OD 的內積非零，卻標成直角。",
+        "目前處理：新圖依圓與外點的切線條件計算 D，校核 D 在大圓上且 OD⊥CD。答案仍為 √65。"
+      ],
+      "before": "原 AI 圖把 O 畫在 (221,110)、C 在 (59,164)、D 在 (148.38,56.83)，D 雖近似位在大圓上，但 CD 與 OD 的內積非零，卻標成直角。",
+      "after": "新圖依圓與外點的切線條件計算 D，校核 D 在大圓上且 OD⊥CD。答案仍為 √65。",
+      "createdAt": "2026-11-27T15:37:01.645601+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt078-q-1331-figure-0d20dc8a096b.jpg",
+          "alt": "原卷圖四。O 是同心圓圓心。由左至右是 C、A、M、B。BC 在 M 與小圓相切，CD 在 D 與大圓相切。",
+          "caption": "原卷第5題作答附圖"
+        }
+      ],
+      "confirmationToken": "761aa50096339739d2f4faffb291e8921260ba01f9c49d33e8088c1c6d593fce",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-27T15:37:26.123342+00:00"
+    },
+    {
+      "id": "correction-q-1335-117d31c2eb54",
+      "state": "resolved",
+      "kind": "原題與解說確認",
+      "title": "地理第3題｜蘇伊士運河與巴拿馬運河",
+      "questionId": "q-1335",
+      "questionText": "原卷比較表\n項目｜(A) 洲別交界｜(B) 銜接海域｜(C) 所屬國家｜(D) 重要性\n蘇伊士運河｜歐洲、亞洲｜紅海、地中海｜蘇丹｜對歐、亞之間的海運十分重要\n巴拿馬運河｜中美洲、南美洲｜太平洋、印度洋｜巴拿馬｜全球唯一聯洋運河\n\n附表關於「蘇伊士運河」及「巴拿馬運河」的比較，下列何者正確？【高市右昌國中】\n\n(A) 洲別交界\n(B) 銜接海域\n(C) 所屬國家\n(D) 重要性",
+      "questionUrl": "/site/index.html#question/q-1335",
+      "url": "/site/index.html#question/q-1335",
+      "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+      "questions": [
+        "原卷 D 欄的「全球唯一聯洋運河」未限定如何判定「聯洋」。蘇伊士運河管理局也把該航線稱為大西洋至印度洋的快速通道。原 AI 曾以未查核的「教材常見表述」解釋，後段已有保留。",
+        "修改前／原AI內容：原卷紅筆訂正 D。D 欄寫巴拿馬運河為「全球唯一聯洋運河」；原 AI 以教材常見表述解釋，後段另提醒廣義分類下不夠嚴謹。",
+        "目前處理：保留原表與原卷預期答案 D。詳解逐欄排除 A、B、C，並按兩地運河管理機關資料說明實際水域與航程功能，避免把「全球唯一」當地理通則。"
+      ],
+      "before": "原卷紅筆訂正 D。D 欄寫巴拿馬運河為「全球唯一聯洋運河」；原 AI 以教材常見表述解釋，後段另提醒廣義分類下不夠嚴謹。",
+      "after": "保留原表與原卷預期答案 D。詳解逐欄排除 A、B、C，並按兩地運河管理機關資料說明實際水域與航程功能，避免把「全球唯一」當地理通則。",
+      "createdAt": "2026-11-27T15:37:01.771960+00:00",
+      "confirmationToken": "4780775c990f4b40fc2b116a22aa2b6ee59c74a567fda5b7767b721f292af3c0",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-27T15:37:31.754422+00:00"
+    },
+    {
+      "id": "correction-q-1340-af4dac058b34",
+      "state": "resolved",
+      "kind": "原題與解說確認",
+      "title": "歷史第8題｜英、荷東印度公司共有的權力",
+      "questionId": "q-1340",
+      "questionText": "十七世紀初，英、荷兩國分別成立東印度公司，對世界歷史造成極大的影響。請問：關於英屬東印度公司及荷蘭聯合東印度公司的比較，何者正確？\n\n(A) 只有英屬東印度公司和臺灣有互動\n(B) 英屬東印度公司的總部設於阿姆斯特丹\n(C) 只有英屬東印度公司擁有政府賦予的貿易獨佔權\n(D) 兩間公司都被允許籌組武裝勢力。",
+      "questionUrl": "/site/index.html#question/q-1340",
+      "url": "/site/index.html#question/q-1340",
+      "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+      "questions": [
+        "原題與原AI都用「十七世紀初」概括兩家公司成立，但英方的1600年是十六世紀的最後一年。",
+        "修改前／原AI內容：原AI題意將兩家公司放在十七世紀初，並在比較圖中把成立年分別標為1600年與1602年。",
+        "目前處理：原題保留，說明分別成立於1600年（十六世紀末）及1602年（十七世紀初），共同點仍是兩間公司都曾獲准籌組武裝勢力，答案D。"
+      ],
+      "before": "原AI題意將兩家公司放在十七世紀初，並在比較圖中把成立年分別標為1600年與1602年。",
+      "after": "原題保留，說明分別成立於1600年（十六世紀末）及1602年（十七世紀初），共同點仍是兩間公司都曾獲准籌組武裝勢力，答案D。",
+      "createdAt": "2026-11-27T15:37:01.938716+00:00",
+      "confirmationToken": "48fbad0e93112f264d47d6c1358303d4aec580dbe86481dbb4c5c89d72e29044",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-27T15:37:35.235392+00:00"
+    },
+    {
+      "id": "correction-q-1355-f53c76661fc2",
+      "state": "resolved",
+      "kind": "原題與解說確認",
+      "title": "理化題組｜肩膀與手的受力（第19、20題）",
+      "questionId": "q-1355",
+      "questionText": "作答材料：\n樵夫扛著長柄斧頭，手握木柄末端，達靜力平衡，如右圖，木柄全長 1 公尺，重量不計，鐵斧重 4 公斤，距肩膀 60 公分。試問下列 19、20 題：\n\n樵夫肩膀受力多少公斤重？\n\n(A) 2\n(B) 4\n(C) 6\n(D) 10\n\n樵夫握木柄的手需施力多少公斤重？\n\n(A) 2\n(B) 4\n(C) 6\n(D) 10",
+      "questionUrl": "/site/index.html#question/q-1355",
+      "url": "/site/index.html#question/q-1355",
+      "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+      "questions": [
+        "分享訊息把第19、20題都記為 B→D。兩題所問的力不同，原卷第20題紅筆是 C，而且力矩計算同樣得到 C。原 AI 最後亦已指出此差異。",
+        "修改前／原AI內容：分享提問把本題訂正標為 D（10 公斤重）。",
+        "目前處理：原卷紅筆 C 與力矩解一致。手向下施 6 公斤重，10 公斤重是第19題肩膀受力。"
+      ],
+      "before": "分享提問把本題訂正標為 D（10 公斤重）。",
+      "after": "原卷紅筆 C 與力矩解一致。手向下施 6 公斤重，10 公斤重是第19題肩膀受力。",
+      "createdAt": "2026-11-27T15:37:02.118994+00:00",
+      "questionFigures": [
+        {
+          "src": "assets/originals/gpt078-q-1355-figure-5989fa11311d.jpg",
+          "alt": "原卷兩小題共用圖。樵夫左側握木柄尾端，右側是鐵斧，肩膀位於兩者之間，原圖保留手寫的 60。",
+          "caption": "原卷作答附圖"
+        }
+      ],
+      "confirmationToken": "f72cc5b5de198983fed0b62cd08f110a1722224c438ab09d347b3fbb2ab0848f",
+      "resolution": "使用者在 monitor 點選「確認 OK」，確認目前內容沒有問題。",
+      "resolvedAt": "2026-11-27T15:37:43.872067+00:00"
     }
   ],
   "feedback": [

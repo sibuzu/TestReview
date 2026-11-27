@@ -81578,5 +81578,1469 @@
       }
     ],
     "explanationFigures": []
+  },
+  {
+    "id": "q-1328",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學第4題｜圓與鉛直線的位置關係",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "坐標平面上有一個圓，其半徑為 4，圓心坐標為（1，−3），則此圓與直線方程式 x＝−5 圖形的關係為何？\n\n(A) 沒有交點\n(B) 相切\n(C) 相交於兩點\n(D) 無法判別",
+    "answer": "(A) 沒有交點",
+    "explanation": "直線 x＝−5 上每個點的 x 坐標都是 −5。由圓心（1，−3）向它畫水平垂線，垂足為（−5，−3），所以圓心到直線的距離 d＝|1−(−5)|＝6。\n\n半徑 r＝4。因 d＞r，直線在圓外，選 A。d＝r 時才會相切，d＜r 時才有兩個交點，已知距離和半徑即可判斷。亦可看圓的最左方 x＝1−4＝−3，直線 x＝−5 還在更左方。",
+    "trap": "x＝常數是鉛直線，算水平距離。圓心的 y 坐標決定垂足高度。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "圓與直線",
+      "圓心距",
+      "坐標平面"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1328-original-91a4c165a534.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第4題",
+    "studentAnswer": "原卷鉛筆選 B，紅筆訂正為 A。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "4",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1329",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學第6題｜弦通過半徑中點時的圓周長",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "圓內有一弦 AB 通過其半徑的中點，且與此半徑垂直，若 AB＝6，則此圓的周長是多少？\n\n(A) 2√3π\n(B) 4√3π\n(C) 6√3π\n(D) 8√3π",
+    "answer": "(B) 4√3π",
+    "explanation": "設 O 為圓心，M 是題目所說的半徑中點，r 是半徑。半徑所在直線垂直弦 AB，所以平分 AB，AM＝MB＝3。同時 OM＝r／2，OB＝r。\n\n△OMB 在 M 點為直角。畢氏定理給 r²＝3²＋（r／2）²，所以 3r²／4＝9，進而 r²＝12、r＝2√3。圓周長 2πr＝4√3π，因此選 B。A 的值相當於 πr，少了因子 2。",
+    "trap": "M 同時是題給半徑的中點，也是弦 AB 的中點。題目最後求 2πr。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "圓",
+      "弦心距",
+      "畢氏定理"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1329-original-4a48d422744e.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第6題",
+    "studentAnswer": "原卷鉛筆選 A，紅筆訂正為 B。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "6",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1330",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學填充第2題｜60°扇形內的灰色弓形",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "如圖一，有一個扇形半徑為 6 公分，圓心角為 60°，則灰色區域的面積為＿＿＿＿平方公分。",
+    "answer": "6π－9√3 平方公分",
+    "explanation": "灰色區域介在弦 AB 與弧 AB 之間。以 O 為圓心，扇形 AOB 的面積是 (60°／360°)×π×6²＝6π 平方公分。\n\nOA＝OB＝6，夾角是 60°，因此 △AOB 三角均為 60°，是等邊三角形。從 A 向 OB 作高，垂足把 OB 分為兩段各長 3，高為 √(6²−3²)＝3√3。三角形面積是 6×3√3÷2＝9√3 平方公分。用扇形面積減去三角形面積，得到 6π－9√3 平方公分。",
+    "trap": "先確定陰影只在弧與弦之間。60° 扇形佔整個圓的六分之一。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "扇形",
+      "弓形面積",
+      "等邊三角形"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1330-original-d450347238a9.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第2題",
+    "studentAnswer": "原卷填答可見 π－9√3，π 前的 6 為紅筆。",
+    "contentStatus": "完整原題",
+    "passage": "",
+    "originalQuestionNumber": "2",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1330-figure-7907a5721e44.jpg",
+        "alt": "原卷圖一，扇形 OAB 的灰色弓形介於弦 AB 與弧 AB 之間。",
+        "caption": "原卷第2題作答附圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1331",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學填充第5題｜同心圓的兩條切線",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "如圖四，兩同心圓中，BC 為小圓的切線，M 為切點，CD 為大圓的切線，D 為切點，若 BC＝13，兩圓半徑分別為 3、5，則 CD＝＿＿＿＿。",
+    "answer": "√65",
+    "explanation": "設 O 為共同圓心。OM＝3、OB＝OD＝5，且 OM⊥BC、OD⊥CD。先在直角 △OMB 中求得 MB＝√(5²−3²)＝4。依原圖的直線順序 C、A、M、B，M 介於 C、B 之間，所以 CM＝13−4＝9。\n\n接著在直角 △OMC 中，OC²＝3²＋9²＝90。最後在直角 △ODC 中，CD²＝OC²−OD²＝90−25＝65，因此 CD＝√65。\n\nOM 是小圓的一條半徑，長度為 3。在 OC² 中誤用直徑 6 會得出 36＋81−25＝92。",
+    "trap": "先從 BC 扣掉 MB 求 CM。兩次使用 OM 時都取小圓半徑 3。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "同心圓",
+      "切線",
+      "畢氏定理"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1331-original-2b570f0fbef0.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第5題",
+    "studentAnswer": "原卷鉛筆寫 √92＝2√23，紅筆訂正為 √65。",
+    "contentStatus": "完整原題",
+    "passage": "",
+    "originalQuestionNumber": "5",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1331-figure-0d20dc8a096b.jpg",
+        "alt": "原卷圖四。O 是同心圓圓心。由左至右是 C、A、M、B。BC 在 M 與小圓相切，CD 在 D 與大圓相切。",
+        "caption": "原卷第5題作答附圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1332",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學計算第1題｜桌球拍的弓形周長",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "小珊參加學校的桌球晨間活動，她發現球拍的拍面是直徑為 24 公分的圓，如右圖，若⌒AB＝90°，則拍面上弓形 ACB（著色部分）的周長為多少公分？",
+    "answer": "12√2＋18π 公分",
+    "explanation": "拍面半徑為 24÷2＝12 公分。著色弓形 ACB 的周界由通過 C 的優弧 ACB 與弦 AB 組成。已知劣弧 AB 的度數為 90°，所以優弧度數為 360°−90°＝270°。優弧長 (270°／360°)×2π×12＝18π 公分。\n\n連結 OA、OB，可得兩直角邊各長 12 的等腰直角三角形 AOB。弦 AB 是斜邊，AB＝√(12²＋12²)＝12√2 公分。兩段邊界相加得 12√2＋18π 公分。",
+    "trap": "從 A 沿圓周走過 C 到 B，再沿弦 AB 回去，才是完整邊界。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "弓形周長",
+      "優弧",
+      "畢氏定理"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1332-original-37f0fe16453d.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第1題",
+    "studentAnswer": "原卷解答區紅筆寫 12√2＋18π，沒有可辨識的原先答案。",
+    "contentStatus": "完整原題",
+    "passage": "",
+    "originalQuestionNumber": "1",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1332-figure-aac826c8592e.jpg",
+        "alt": "原卷桌球拍圖，A、B 在拍面下緣，弦 AB 以上含 C 的大弓形著色，弦以下的小弓形未著色。",
+        "caption": "原卷第1題作答附圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1333",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學計算第2題｜由圓周角求弦與半徑、切線的夾角",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "如右圖，直線 CD 切圓 O 於 P，A、B 兩點在圓 O 上，∠ABP＝60°，則：\n(1) ∠OAP 為多少度？（4 分）\n(2) ∠APC 為多少度？（4 分）",
+    "answer": "(1) ∠OAP＝30°\n(2) ∠APC＝60°",
+    "explanation": "(1) ∠ABP＝60° 是圓周角，所對的是不含 B 的弧 AP。對應的圓心角 ∠AOP＝120°。又 OA＝OP，△AOP 是等腰三角形，∠OAP＝∠APO＝(180°−120°)÷2＝30°。\n\n(2) 半徑 OP 垂直於切線 CD，所以 ∠OPC＝90°。依原圖，射線 PA 在 ∠OPC 內部，故 ∠APC＝90°−∠APO＝90°−30°＝60°。",
+    "trap": "辨認圓周角所對不含角頂點的弧。切線在 P 點垂直於半徑 OP。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "圓周角",
+      "切線",
+      "等腰三角形"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1333-original-d9464bd2f4a7.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第2題",
+    "studentAnswer": "原卷兩小題旁分別有紅筆 30、60，沒有可辨識的原先答案。",
+    "contentStatus": "完整原題",
+    "passage": "",
+    "originalQuestionNumber": "2",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1333-figure-2279555f1c87.jpg",
+        "alt": "原卷圓 O 與切線。直線 CD 在 P 與圓相切。C 在 P 左側，D 在右側，A 在圓左上，B 在圓右下。",
+        "caption": "原卷第2題作答附圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1334",
+    "sourceId": "src-more-078",
+    "subject": "Math",
+    "title": "數學計算第3題｜半圓形碗內的水面截面",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "紹琪拿一個側面平視為半圓形的碗來裝水，如右圖，水平面 CD 與碗口 AB 平行，若 AB＝12，⌒CD＝4⌒AC，則著色部分的面積為何？",
+    "answer": "12π－9√3 平方單位",
+    "explanation": "O 是直徑 AB 的中點，半徑為 6。因 CD∥AB，過 O 作 AB 的垂線時，也會垂直平分 CD。左右對稱，故弧 AC 和弧 DB 等長、度數相等。設弧 AC 的度數為 x，半圓下弧 A 到 B 共 180°，所以 x＋4x＋x＝180°，得 x＝30°，而 ∠COD＝120°。\n\n扇形 COD 面積＝(120°／360°)×π×6²＝12π。設 M 為 CD 中點。∠COM＝60°，所以直角 △OCM 的 ∠OCM＝30°。30° 的對邊 OM 為斜邊 6 的一半，得 OM＝3、CM＝√(6²−3²)＝3√3，因此 CD＝6√3。△COD 面積＝6√3×3÷2＝9√3。灰色弓形面積＝扇形 COD 面積−△COD 面積＝12π－9√3。原題給 AB＝12 而沒有另列長度單位，所以用平方單位。",
+    "trap": "半圓弧要算 AC、CD、DB 三段。CD 平行於 AB，所以左右兩段等弧。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "平行弦",
+      "扇形",
+      "弓形面積"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1334-original-5883a85b9287.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第3題",
+    "studentAnswer": "原卷解答區紅筆寫 12π－9√3，沒有可辨識的原先答案。",
+    "contentStatus": "完整原題",
+    "passage": "",
+    "originalQuestionNumber": "3",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1334-figure-b4127ae26616.jpg",
+        "alt": "原卷半圓形容器截面。A、O、B 在水平直徑上，弦 CD 平行於 AB，CD 下方灰色弓形是所求。",
+        "caption": "原卷第3題作答附圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1335",
+    "sourceId": "src-more-078",
+    "subject": "Geography",
+    "title": "地理第3題｜蘇伊士運河與巴拿馬運河",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "附表關於「蘇伊士運河」及「巴拿馬運河」的比較，下列何者正確？【高市右昌國中】\n\n(A) 洲別交界\n(B) 銜接海域\n(C) 所屬國家\n(D) 重要性",
+    "answer": "(D) 重要性（原卷預期）",
+    "explanation": "每個選項是一個欄位，要同時核對兩條運河。\n\n(A) 蘇伊士運河位於非洲與亞洲交界，與歐洲、亞洲的交界無關。巴拿馬運河位於中美洲巴拿馬境內，未構成中美洲與南美洲的分界。\n(B) 蘇伊士運河連接地中海與紅海。巴拿馬運河連接太平洋和大西洋側的加勒比海，表內寫的印度洋不符。\n(C) 蘇伊士運河位於埃及。巴拿馬運河位於巴拿馬。\n(D) 蘇伊士運河縮短歐洲與亞洲的海運航程。巴拿馬運河橫越巴拿馬地峽並連通太平洋和大西洋，使船舶可縮短跨洋航程。「全球唯一聯洋運河」需有明確的聯洋定義。若也計入藉相接海域跨越兩大洋的航路，蘇伊士運河本身也提供大西洋和印度洋之間的通道。依紅筆訂正及其餘欄位的明確錯誤，D 是原卷的預期答案。",
+    "trap": "分開看運河的位置、實際相連的水域，以及服務的航線。蘇伊士運河便於歐亞航運，洲界仍是非洲與亞洲。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。 D 為原卷預期答案，詳解保留「全球唯一」的用語限制。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "世界航運",
+      "蘇伊士運河",
+      "巴拿馬運河"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1335-original-b93ed5bd7a6f.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第3題",
+    "studentAnswer": "原卷鉛筆選 A，紅筆訂正為 D。原表另有紅筆更正部分格子。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "3",
+    "tables": [
+      {
+        "caption": "原卷比較表",
+        "headers": [
+          "項目",
+          "(A) 洲別交界",
+          "(B) 銜接海域",
+          "(C) 所屬國家",
+          "(D) 重要性"
+        ],
+        "rows": [
+          [
+            "蘇伊士運河",
+            "歐洲、亞洲",
+            "紅海、地中海",
+            "蘇丹",
+            "對歐、亞之間的海運十分重要"
+          ],
+          [
+            "巴拿馬運河",
+            "中美洲、南美洲",
+            "太平洋、印度洋",
+            "巴拿馬",
+            "全球唯一聯洋運河"
+          ]
+        ]
+      }
+    ],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1336",
+    "sourceId": "src-more-078",
+    "subject": "Geography",
+    "title": "地理第10題｜辨別巴塔哥尼亞高原的景觀",
+    "chapter": "綜合",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "電影《革命前夕的摩托車日記》中，格瓦拉與阿爾貝托騎著重型機車，從阿根廷的首都出發，路線經智利、秘魯、哥倫比亞，到達委內瑞拉，完成超過13,000公里的壯旅（路線如附圖）。請問：主角們在路上不會見到什麼場景？\n\n(A) 印加遺址的馬丘比丘城\n(B) 草原、叢林、高山、深雪\n(C) 巴塔哥尼亞高原的莽原因乾季較長，草原隨乾溼季形成枯榮景觀\n(D) 安地斯山的土地利用隨高度呈垂直變化，從甘蔗、咖啡、可可到草原放牧",
+    "answer": "(C) 巴塔哥尼亞高原的莽原因乾季較長，草原隨乾溼季形成枯榮景觀",
+    "explanation": "先依原卷地圖確認旅途經過南美洲西部，再找氣候與地景配對錯誤的一項。題目中的「不會見到」在考哪種景觀描述不符合所在地。\n\n(A) 馬丘比丘位於秘魯安地斯山區，符合題圖路線所在的區域。\n(B) 題圖經過低地及安地斯高山。緯度和海拔變化可以帶來草原、叢林及高山積雪等不同景觀。\n(C) 巴塔哥尼亞高原的典型景觀是溫帶乾草原與半乾燥灌叢。南部安地斯山西側攔下西風帶來的水氣，東側高原因背風而乾燥。題句把這片乾草原和低緯、全年溫暖且乾溼季分明的熱帶莽原混在一起。\n(D) 安地斯山區的熱量條件隨海拔改變，較低的暖區可栽培熱帶作物，較高處可利用草地放牧。作物與放牧帶的高度會隨地點改變。",
+    "trap": "巴塔哥尼亞東側的乾草原要用中緯度西風與安地斯山的雨影理解。熱帶莽原即使也有高草與灌木，雨量季節分配和成因不同。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。同一份地理原卷頁腳明示第5冊。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "南美洲",
+      "安地斯山",
+      "雨影效應",
+      "巴塔哥尼亞高原"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1336-original-4b76cb8d1c67.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第10題【高市陽明國中】",
+    "studentAnswer": "原卷原答 B，紅筆訂正為 C。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "10",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "印加遺址的馬丘比丘城",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "馬丘比丘位於秘魯安地斯山區，符合題圖路線所在的區域。"
+      },
+      {
+        "label": "B",
+        "text": "草原、叢林、高山、深雪",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "題圖經過低地及安地斯高山。緯度和海拔變化可以帶來草原、叢林及高山積雪等不同景觀。"
+      },
+      {
+        "label": "C",
+        "text": "巴塔哥尼亞高原的莽原因乾季較長，草原隨乾溼季形成枯榮景觀",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "巴塔哥尼亞高原的典型景觀是溫帶乾草原與半乾燥灌叢。南部安地斯山西側攔下西風帶來的水氣，東側高原因背風而乾燥。題句把這片乾草原和低緯、全年溫暖且乾溼季分明的熱帶莽原混在一起。"
+      },
+      {
+        "label": "D",
+        "text": "安地斯山的土地利用隨高度呈垂直變化，從甘蔗、咖啡、可可到草原放牧",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "安地斯山區的熱量條件隨海拔改變，較低的暖區可栽培熱帶作物，較高處可利用草地放牧。作物與放牧帶的高度會隨地點改變。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1336-figure-b4a5f294d657.jpg",
+        "alt": "原卷南美洲地圖，粗線標示阿根廷首都出發，經智利、秘魯、哥倫比亞，往委內瑞拉的主要路線。",
+        "caption": "原卷附圖｜主要路線"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1337",
+    "sourceId": "src-more-078",
+    "subject": "Geography",
+    "title": "地理第16題｜中南美洲殖民地式經濟的貿易方向",
+    "chapter": "綜合",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "中南美洲的發展雖較北美洲早，然而受到殖民地式經濟的影響，資金難以累積，因此經濟發展普遍不佳。這和該地區何種貿易狀況的關係最大？\n\n(A) 輸出低價農作，進口昂貴礦產\n(B) 輸出加工產品，進口農礦原料\n(C) 輸出工業產品，進口糧食作物\n(D) 輸出農牧礦產，進口工業產品",
+    "answer": "(D) 輸出農牧礦產，進口工業產品",
+    "explanation": "題目在問殖民地式經濟的長期影響。農牧與礦產多在原產地直接輸出，而外部的工業地區進行加工，再把機械、紡織品等製成品賣回來。當收入倚賴少數初級商品，出口價格波動與加工利潤留在外地容易限制當地的資本累積。這是對歷史經濟結構的概括，各國今日的產業與貿易組合可以不同。\n\n(A) 農作與礦產同為傳統初級輸出品，將礦產列作此模式下的主要進口品，方向不符。\n(B) 原料進口、加工品出口，方向和題目所問的歷史經濟型態相反。\n(C) 以工業品為主要輸出也與題意相反。\n(D) 農、牧、礦原料賣出，向外買入加工製成品，正是原料供應地與製成品市場的分工。",
+    "trap": "先分清初級產品與加工製成品，再判斷哪一類是題目所問地區的出口。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。同一份地理原卷頁腳明示第5冊。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "中南美洲",
+      "殖民地式經濟",
+      "初級產品",
+      "貿易"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1337-original-e2a67d0c1719.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第16題【高市復華國中】",
+    "studentAnswer": "原卷原答 A，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "16",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "輸出低價農作，進口昂貴礦產",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "農作與礦產同為傳統初級輸出品，將礦產列作此模式下的主要進口品，方向不符。"
+      },
+      {
+        "label": "B",
+        "text": "輸出加工產品，進口農礦原料",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "原料進口、加工品出口，方向和題目所問的歷史經濟型態相反。"
+      },
+      {
+        "label": "C",
+        "text": "輸出工業產品，進口糧食作物",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "以工業品為主要輸出也與題意相反。"
+      },
+      {
+        "label": "D",
+        "text": "輸出農牧礦產，進口工業產品",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "農、牧、礦原料賣出，向外買入加工製成品，正是原料供應地與製成品市場的分工。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1338",
+    "sourceId": "src-more-078",
+    "subject": "Geography",
+    "title": "地理第18題｜智利由南往北的氣候順序",
+    "chapter": "綜合",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "智利是一個狹長的國家，若從智利南端一路向北，最可能依序經過哪些氣候區？\n\n(A) 溫帶大陸性氣候、溫帶地中海型氣候、熱帶雨林氣候\n(B) 溫帶地中海型氣候、溫帶海洋性氣候、熱帶沙漠氣候\n(C) 溫帶海洋性氣候、溫帶地中海型氣候、熱帶沙漠氣候\n(D) 溫帶大陸性氣候、溫帶海洋性氣候、熱帶雨林氣候",
+    "answer": "(C) 溫帶海洋性氣候、溫帶地中海型氣候、熱帶沙漠氣候",
+    "explanation": "按照題目要求從南往北讀。智利西鄰太平洋，東靠安地斯山脈。南部沿岸受西風與海洋水氣影響，中部的地中海型區冬季較易有西風系統帶來降雨，夏季則乾燥。北部的阿塔卡馬沙漠受副熱帶下沉氣流、沿岸寒流與地形等因素共同影響。題目比較的是三種代表性區域氣候，智利極南端及高山也有其他寒冷氣候。\n\n(A) 北部阿塔卡馬代表乾燥沙漠。熱帶雨林不符合北部地景。\n(B) 海洋影響強的溼潤區在南部，地中海型典型區在中部，這項交換了前兩站。\n(C) 依題目採用的主要氣候分區，南部較涼且溼潤，典型中部夏乾冬雨，北部阿塔卡馬一帶乾燥。\n(D) 北部沙漠和中部的地中海型都沒有正確列出。",
+    "trap": "同樣三個氣候名稱也可能排錯。由南往北讀成「海洋性→地中海型→沙漠」。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。同一份地理原卷頁腳明示第5冊。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "智利",
+      "南北氣候分布",
+      "地中海型氣候",
+      "阿塔卡馬沙漠"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1338-original-75a67f067e33.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第18題【高市大灣國中】",
+    "studentAnswer": "原卷原答 B，紅筆訂正為 C。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "18",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "溫帶大陸性氣候、溫帶地中海型氣候、熱帶雨林氣候",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "北部阿塔卡馬代表乾燥沙漠。熱帶雨林不符合北部地景。"
+      },
+      {
+        "label": "B",
+        "text": "溫帶地中海型氣候、溫帶海洋性氣候、熱帶沙漠氣候",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "海洋影響強的溼潤區在南部，地中海型典型區在中部，這項交換了前兩站。"
+      },
+      {
+        "label": "C",
+        "text": "溫帶海洋性氣候、溫帶地中海型氣候、熱帶沙漠氣候",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "依題目採用的主要氣候分區，南部較涼且溼潤，典型中部夏乾冬雨，北部阿塔卡馬一帶乾燥。"
+      },
+      {
+        "label": "D",
+        "text": "溫帶大陸性氣候、溫帶海洋性氣候、熱帶雨林氣候",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "北部沙漠和中部的地中海型都沒有正確列出。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1339",
+    "sourceId": "src-more-078",
+    "subject": "Geography",
+    "title": "地理第19題｜由氣候圖找出南美洲的乙區",
+    "chapter": "綜合",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "圖（一）為南美洲的氣候分區圖，圖（二）為★國首都的氣候圖。★國首都應位於圖（一）中的哪一個氣候區內？\n\n(A) 甲\n(B) 乙\n(C) 庚\n(D) 辛",
+    "answer": "(B) 乙",
+    "explanation": "溫度讀左軸與折線，降水讀右軸與長條。這張圖的折線全年約20°C上下，雨柱到年中很低，再從春末進入多雨期。題圖在考氣候分區，從溫度及雨量季節就能判讀乙。\n\n(A) 甲在低緯的亞馬孫流域。典型熱帶雨林全年多雨，和題圖明顯的年中乾季不同。\n(B) 乙區位於巴西高原一帶。年均溫約21.2°C，年溫差小；11至3月雨量較多，6至8月極少。南半球此時分別是暖季與冬季，正是夏雨冬乾的熱帶莽原型態。\n(C) 庚在智利中部一帶，典型地中海型夏乾冬雨，雨季與題圖的旺季相反。\n(D) 辛在智利南部一帶，溫帶海洋性氣候較涼且雨量分配較均勻，兩項線索均和題圖有差異。",
+    "trap": "南半球6至8月是冬季。讀雨量時先判斷乾季落在哪些月份，再比對三種氣候的降雨時序。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。同一份地理原卷頁腳明示第5冊。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "南美洲",
+      "氣候圖",
+      "熱帶莽原",
+      "南半球"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1339-original-93b7463fdb94.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第19題",
+    "studentAnswer": "原卷原答 D，紅筆訂正為 B。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "19",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "甲",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "甲在低緯的亞馬孫流域。典型熱帶雨林全年多雨，和題圖明顯的年中乾季不同。"
+      },
+      {
+        "label": "B",
+        "text": "乙",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "乙區位於巴西高原一帶。年均溫約21.2°C，年溫差小；11至3月雨量較多，6至8月極少。南半球此時分別是暖季與冬季，正是夏雨冬乾的熱帶莽原型態。"
+      },
+      {
+        "label": "C",
+        "text": "庚",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "庚在智利中部一帶，典型地中海型夏乾冬雨，雨季與題圖的旺季相反。"
+      },
+      {
+        "label": "D",
+        "text": "辛",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "辛在智利南部一帶，溫帶海洋性氣候較涼且雨量分配較均勻，兩項線索均和題圖有差異。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1339-figure-6c3ef53209c4.jpg",
+        "alt": "原卷附圖一是南美洲氣候分區圖，標出赤道與南回歸線；圖二是★國首都的溫度折線及降水柱。",
+        "caption": "原卷附圖｜氣候分區與月氣候圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1340",
+    "sourceId": "src-more-078",
+    "subject": "History",
+    "title": "歷史第8題｜英、荷東印度公司共有的權力",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "十七世紀初，英、荷兩國分別成立東印度公司，對世界歷史造成極大的影響。請問：關於英屬東印度公司及荷蘭聯合東印度公司的比較，何者正確？\n\n(A) 只有英屬東印度公司和臺灣有互動\n(B) 英屬東印度公司的總部設於阿姆斯特丹\n(C) 只有英屬東印度公司擁有政府賦予的貿易獨佔權\n(D) 兩間公司都被允許籌組武裝勢力。",
+    "answer": "(D) 兩間公司都被允許籌組武裝勢力",
+    "explanation": "題幹概稱十七世紀初。按成立年份，英屬東印度公司在1600年末取得特許狀，屬十六世紀末；荷蘭聯合東印度公司成立於1602年，屬十七世紀初。兩者是跨十六、十七世紀之交成立的特許公司，日期邊界不改變選項D。\n\n(A) 荷蘭聯合東印度公司也和臺灣有互動，曾以臺灣南部的熱蘭遮城作為據點。\n(B) 英屬東印度公司的總部位於倫敦。阿姆斯特丹是荷蘭聯合東印度公司的主要歐洲據點。\n(C) 荷蘭聯合東印度公司也得到政府授予的亞洲貿易專營權，不能用「只有」限定英方。\n(D) 兩間公司都能以武裝力量保障經商據點與擴展勢力。英方的權限隨後續特許狀擴大，荷方也獲准維持軍隊，不能把兩家的初始授權內容視作完全相同。",
+    "trap": "這題在考兩家公司共有的權力。「有」不代表「只有」。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "大航海時代",
+      "東印度公司",
+      "特許公司",
+      "貿易獨佔"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1340-original-7c9334af2169.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第8題",
+    "studentAnswer": "原卷原答 C，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "8",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "只有英屬東印度公司和臺灣有互動",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "荷蘭聯合東印度公司也和臺灣有互動，曾以臺灣南部的熱蘭遮城作為據點。"
+      },
+      {
+        "label": "B",
+        "text": "英屬東印度公司的總部設於阿姆斯特丹",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "英屬東印度公司的總部位於倫敦。阿姆斯特丹是荷蘭聯合東印度公司的主要歐洲據點。"
+      },
+      {
+        "label": "C",
+        "text": "只有英屬東印度公司擁有政府賦予的貿易獨佔權",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "荷蘭聯合東印度公司也得到政府授予的亞洲貿易專營權，不能用「只有」限定英方。"
+      },
+      {
+        "label": "D",
+        "text": "兩間公司都被允許籌組武裝勢力。",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "兩間公司都能以武裝力量保障經商據點與擴展勢力。英方的權限隨後續特許狀擴大，荷方也獲准維持軍隊，不能把兩家的初始授權內容視作完全相同。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1341",
+    "sourceId": "src-more-078",
+    "subject": "History",
+    "title": "歷史第21題｜文藝復興興起的古典文化背景",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "十四至十六世紀，歐洲興起文藝復興運動。下列有關文藝復興運動興起背景的敘述，何者正確？\n\n(A) 拜占庭學者西遷至希臘避禍，藉機研究留存於當地的古希臘典籍\n(B) 義大利留存許多古羅馬遺址，引發人們對古文化的研究熱潮\n(C) 宗教改革使歐洲商業復興，有錢人開始支持文藝創作\n(D) 阿拉伯人將翻譯的古希臘、羅馬書籍帶回阿拉伯半島，促進了文藝復興的發展。",
+    "answer": "(B) 義大利留存許多古羅馬遺址，引發人們對古文化的研究熱潮",
+    "explanation": "文藝復興由義大利發展，既有古典建物與文本可研究，也有城市商業發展和贊助提供資源。題目問的是興起背景，應分清既有條件與後來發生的宗教改革。\n\n(A) 教材討論的關鍵是有拜占庭學者到義大利，帶來典籍和古希臘語知識，促使西歐研究發展。「至希臘」未指出此處關鍵的傳入地。\n(B) 義大利的古羅馬建築、雕塑與遺跡成為研究和創作的素材，符合文藝復興對古典文化的重新理解。\n(C) 義大利城市早已因商業而繁榮，贊助者支持藝術與學術創作。宗教改革的重要標誌是1517年，此時文藝復興已發展多年。\n(D) 阿拉伯語譯本及後來的拉丁語翻譯確實促進古典知識傳播。與本題相關的是知識如何傳入西歐，而非把書帶回阿拉伯半島就直接促成文藝復興。",
+    "trap": "先把事件放回時間軸。商業繁榮與贊助早於宗教改革，C 的因果倒置。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "文藝復興",
+      "古羅馬遺址",
+      "義大利",
+      "宗教改革"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1341-original-0a6858ae7ed1.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第21題",
+    "studentAnswer": "原卷原答 C，紅筆訂正為 B。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "21",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "拜占庭學者西遷至希臘避禍，藉機研究留存於當地的古希臘典籍",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "教材討論的關鍵是有拜占庭學者到義大利，帶來典籍和古希臘語知識，促使西歐研究發展。「至希臘」未指出此處關鍵的傳入地。"
+      },
+      {
+        "label": "B",
+        "text": "義大利留存許多古羅馬遺址，引發人們對古文化的研究熱潮",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "義大利的古羅馬建築、雕塑與遺跡成為研究和創作的素材，符合文藝復興對古典文化的重新理解。"
+      },
+      {
+        "label": "C",
+        "text": "宗教改革使歐洲商業復興，有錢人開始支持文藝創作",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "義大利城市早已因商業而繁榮，贊助者支持藝術與學術創作。宗教改革的重要標誌是1517年，此時文藝復興已發展多年。"
+      },
+      {
+        "label": "D",
+        "text": "阿拉伯人將翻譯的古希臘、羅馬書籍帶回阿拉伯半島，促進了文藝復興的發展。",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "阿拉伯語譯本及後來的拉丁語翻譯確實促進古典知識傳播。與本題相關的是知識如何傳入西歐，而非把書帶回阿拉伯半島就直接促成文藝復興。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1342",
+    "sourceId": "src-more-078",
+    "subject": "History",
+    "title": "歷史題組1（1）｜三條大航海航程由長到短",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "（甲）哥倫布從西班牙抵達美洲的西印度群島 （乙）達伽馬從葡萄牙出發繞過好望角，抵達印度西岸 （丙）麥哲倫船隊完成環繞世界一周的壯舉。大航海時代，歐洲出現了許多著名的航海家，若依照三人探索距離由長到短的排列，下列何者正確？\n\n(A) 甲乙丙\n(B) 乙丙甲\n(C) 丙甲乙\n(D) 丙乙甲。",
+    "answer": "(D) 丙乙甲",
+    "explanation": "比較原題明列的各段航程。甲於1492年自西班牙跨大西洋抵西印度群島；乙於1497年從葡萄牙出發，1498年繞抵印度西岸；丙的船隊由西班牙出發，在1519至1522年間完成環球。麥哲倫途中去世，後由艾爾卡諾率船返抵西班牙。\n\n(A) 甲、乙、丙恰是這三段航行開始的時間順序，也是由短至長。本題要求相反。\n(B) 乙繞行非洲抵印度，航程比丙環球短，兩者次序倒置。\n(C) 丙應排第一，但甲橫越大西洋到加勒比，比乙繞過非洲再橫過印度洋短。\n(D) 丙環球最長，其次為乙繞非洲至印度，再來是甲橫越大西洋，符合由長到短。",
+    "trap": "先圈「距離」與「由長到短」。年份可幫助辨別航行，但題目要比的是航程。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "大航海時代",
+      "哥倫布",
+      "達伽馬",
+      "麥哲倫船隊"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1342-original-dfdf06bdfa73.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷題組1（1）",
+    "studentAnswer": "原卷原答 A，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "十五世紀以來，歐洲的船隊出現在世界各處的海洋，尋找著新的貿易路線。在這些遠洋探索中，歐洲人發現了許多當時在歐洲不為人知的國家與地區。與此同時，歐洲出現許多著名的航海家。大航海時代帶來的影響則是複雜而矛盾的，除了物資交流外，殖民者帶給原住民的常是死亡和掠奪，可說是一部大侵略史。請回答下列問題：",
+    "originalQuestionNumber": "1",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "甲乙丙",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "甲、乙、丙恰是這三段航行開始的時間順序，也是由短至長。本題要求相反。"
+      },
+      {
+        "label": "B",
+        "text": "乙丙甲",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "乙繞行非洲抵印度，航程比丙環球短，兩者次序倒置。"
+      },
+      {
+        "label": "C",
+        "text": "丙甲乙",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "丙應排第一，但甲橫越大西洋到加勒比，比乙繞過非洲再橫過印度洋短。"
+      },
+      {
+        "label": "D",
+        "text": "丙乙甲。",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "丙環球最長，其次為乙繞非洲至印度，再來是甲橫越大西洋，符合由長到短。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1343",
+    "sourceId": "src-more-078",
+    "subject": "History",
+    "title": "歷史題組2（3）｜與達文西同時期的藝術家",
+    "chapter": "綜合",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "達文西是文藝復興時期重要的藝術家之一，下列哪些藝術家與達文西活躍在同一時代？（甲）拉斐爾 （乙）希羅多德 （丙）阿基米德 （丁）米開朗基羅\n\n(A) 甲乙\n(B) 甲丙\n(C) 甲丁\n(D) 乙丙。",
+    "answer": "(C) 甲丁",
+    "explanation": "達文西（1452–1519）、拉斐爾（1483–1520）與米開朗基羅（1475–1564）的在世期間重疊，三人都是義大利文藝復興盛期的代表藝術家。希羅多德和阿基米德則是西元前的兩位人物。\n\n(A) 甲拉斐爾是文藝復興藝術家，乙希羅多德是西元前5世紀的古希臘史家。\n(B) 甲拉斐爾同時期，丙阿基米德屬西元前3世紀的希臘化時代。\n(C) 甲拉斐爾與丁米開朗基羅都活躍於義大利文藝復興盛期，和達文西同時代。\n(D) 乙、丙都活躍於古代地中海世界，與達文西相隔逾千年。",
+    "trap": "文藝復興從古典文化汲取素材。判定「同一時代」時，要分清藝術家活動的時期，以及作品借鑑的古典時代。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對真正上傳的原卷、題幹、四個選項與紅筆訂正；必要圖文已保留。欠缺實際考試日期，採首次出題的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "義大利文藝復興",
+      "達文西",
+      "拉斐爾",
+      "米開朗基羅"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1343-passage-99b2c660bd88.jpg",
+      "assets/originals/gpt078-q-1343-original-ecb42b57db93.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷題組2（3）",
+    "studentAnswer": "原卷原答 A，紅筆訂正為 C。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "十四至十六世紀，歐洲展開兼具復古與創新意涵的「文藝復興」運動，其影響遍及文學、哲學、藝術、政治、科學、宗教等各個方面。文藝復興時期重視人文主義，同時也影響了藝術的創作。請問：",
+    "originalQuestionNumber": "3",
+    "optionAnalysis": [
+      {
+        "label": "A",
+        "text": "甲乙",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "甲拉斐爾是文藝復興藝術家，乙希羅多德是西元前5世紀的古希臘史家。"
+      },
+      {
+        "label": "B",
+        "text": "甲丙",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "甲拉斐爾同時期，丙阿基米德屬西元前3世紀的希臘化時代。"
+      },
+      {
+        "label": "C",
+        "text": "甲丁",
+        "wordClass": "應選",
+        "meaning": "",
+        "explanation": "甲拉斐爾與丁米開朗基羅都活躍於義大利文藝復興盛期，和達文西同時代。"
+      },
+      {
+        "label": "D",
+        "text": "乙丙。",
+        "wordClass": "不選",
+        "meaning": "",
+        "explanation": "乙、丙都活躍於古代地中海世界，與達文西相隔逾千年。"
+      }
+    ],
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1344",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第10題｜成語的意思要放回語境",
+    "chapter": "綜合",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "下列各項「　」中的成語，何者運用正確？\n\n(A) 與人交往若是過於吹毛求疵，容易「水清無魚」，反而交不到朋友\n(B) 在「曉風殘月」的深夜獨行於鄉間小路，令人毛骨悚然\n(C) 春天百花盛開，「韶光荏苒」，繁茂的景象使人沉醉\n(D) 泛舟江上，欣賞眼前的「鏡花水月」，倍覺心曠神怡",
+    "answer": "(A) 水清無魚",
+    "explanation": "「水清無魚」比喻對人過於苛求，難以容納他人，便容易失去朋友。A 先寫吹毛求疵，再寫交不到朋友，語境與成語的比喻相符。\n\nB 的「曉」指天將亮或清晨，和此處的深夜不合。C 的「韶光荏苒」重在時光逐漸流逝，這句著重眼前花繁景美。D 的「鏡花水月」比喻虛幻而不可得的事物，句中把它當成可欣賞的眼前江景。",
+    "trap": "先找選項中交代的時間、景象與人際結果，再核對成語真正表示的內容。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "成語",
+      "語境"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1344-original-51f06959e672.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第10題",
+    "studentAnswer": "原卷藍筆 B、紅筆改 A。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "10",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1345",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第3題｜杯水車薪與其他成語的用法",
+    "chapter": "綜合",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "下列「　」中的成語，何者運用正確？\n\n(A) 好朋友重感情也要明是非，考試時彼此「交相輝映」、一起作弊的行為極不可取\n(B) 我喜歡登山踏青，享受「高山仰止」、俯瞰大地的樂趣\n(C) 防疫工作需要全民的配合，單靠政府的力量，就如「杯水車薪」，起不了作用\n(D) 他遊手好閒、不事生產，多年下來已經是「兩袖清風」、一貧如洗",
+    "answer": "(C) 杯水車薪",
+    "explanation": "「杯水車薪」用一小杯水對付一車燃燒的柴草，比喻投入的力量不足以解決問題。C 說明防疫所需的總體配合大，單靠政府力量不足，使用恰當。\n\nA 的「交相輝映」指相互映照、襯托，不表示合夥作弊。B 的「高山仰止」多用來比喻景仰崇高的德行，句中只在說登山俯瞰。D 的「兩袖清風」形容為官廉潔，句中說的是不事生產所造成的窮困。",
+    "trap": "詞面出現「山」或「清風」，仍要先確認成語在句中表示的意思。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "成語",
+      "語境"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1345-original-094af968cc2c.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第3題",
+    "studentAnswer": "原卷藍筆 D、紅筆改 C。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "3",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1346",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第6題｜「在晝猶昏」與古代時辰",
+    "chapter": "與宋元思書",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "由「橫柯上蔽，在晝猶昏；疏條交映，有時見日」判斷，吳均遊歷富春江的時間最有可能是下列哪一個時辰？\n\n(A) 寅時\n(B) 未時\n(C) 戌時\n(D) 亥時",
+    "answer": "(B) 未時",
+    "explanation": "「在晝」表示當時是白天，「猶昏」是林蔭深密使光線像黃昏般暗。枝條比較疏的地方偶爾看得到日光，和白天相符。\n\n寅時約為凌晨 3 至 5 時，未時約為下午 1 至 3 時，戌時約為晚上 7 至 9 時，亥時約為晚上 9 至 11 時。四個選項中，只有未時明確落在白天，所以選 B。引文可辨日夜，無法單獨斷定作者遊覽的精確時刻。",
+    "trap": "用「晝」辨識白天，再核對各時辰所對應的時間。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "文言文",
+      "時辰",
+      "富春江",
+      "與宋元思書"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1346-original-b1e3438e8969.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第6題",
+    "studentAnswer": "原卷藍筆 C、紅筆改 B。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "6",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1347",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第7題｜從明喻、暗喻與擬人辨識誇飾",
+    "chapter": "與宋元思書",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "「奇山異水，天下獨絕」一句以誇張的手法表現，下列何者也運用相同的技巧？\n\n(A) 來自海上的風／說海的笑聲太遼闊\n(B) 像天上的星，那麼多的離情別意，每一句道別都伴著一聲嘆息\n(C) 過去是一面鏡子，只能回憶；現在是一把火，可以取暖\n(D) 天是那樣藍，幾乎透明似的，月亮離山頂，似乎不過幾尺",
+    "answer": "(D) 月亮離山頂，似乎不過幾尺",
+    "explanation": "「天下獨絕」把山水之美說到極致，屬於誇飾。D 把月亮和山頂的距離說成幾尺，刻意縮小距離，凸顯月亮看起來彷彿緊貼山頂。誇飾既可以放大，也可以縮小。\n\nA 讓風會說話、海會笑，主要手法是擬人。B 用「像」把濃厚的離別情意比作繁星，是明喻。C 把過去比成鏡子、現在比成火，是暗喻。",
+    "trap": "看出作者是用另一物來比擬，還是把大小、程度或距離刻意說得超出常情。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "修辭",
+      "誇飾",
+      "譬喻",
+      "與宋元思書"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1347-original-599cf461c53c.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第7題",
+    "studentAnswer": "原卷藍筆 C、紅筆改 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "7",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1348",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第1題｜同音注音如何判斷字形",
+    "chapter": "人生逆境",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "下列「　」中的注音寫成國字後，何者字形相同？\n\n(A) 版「ㄑㄩㄢˊ」所有／「ㄑㄩㄢˊ」釋說明\n(B) 命運「ㄎㄢˇ」坷／「ㄎㄢˇ」井之蛙\n(C) 尋尋「ㄇㄧˋ」ㄇㄧˋ／百「ㄇㄧˋ」一疏\n(D) 「ㄏㄨㄛˋ」達大度／蠱「ㄏㄨㄛˋ」人心",
+    "answer": "(B) 命運「坎」坷／「坎」井之蛙",
+    "explanation": "先依上下文還原詞語，再比較所填的字。A 是「版權」與「詮釋」，權是權利，詮指解說。B 是「坎坷」與「坎井」，兩處均寫「坎」。「坎坷」可形容遭遇不順，「坎井」指淺井。\n\nC 是「尋尋覓覓」與「百密一疏」，覓指找尋，密指周密。D 是「豁達」與「蠱惑」，豁指開闊，惑指迷惑。四組中只有 B 字形相同。",
+    "trap": "同一組注音可能對應不同字。先把前後詞語讀完整再決定字形。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "字形",
+      "同音字",
+      "注音"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1348-original-2ed5eb58cd77.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第1題",
+    "studentAnswer": "原卷藍筆 A、紅筆改 B。",
+    "contentStatus": "完整原題",
+    "correctOption": "B",
+    "passage": "",
+    "originalQuestionNumber": "1",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1349",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第3題｜用整體詞義辨識聯綿詞",
+    "chapter": "人生逆境",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "有一部分的字無法單獨成詞，它一定要與另一個字合成一詞，才能表達一個意義，稱為聯綿詞。下列「　」中的詞語，何者屬於聯綿詞？\n\n(A) 他雖然經歷「坎坷」的命運，但卻以正向的心態積極面對\n(B) 電影公司在大街上拍外景，吸引了許多行人「駐足」圍觀\n(C) 人的一生如同考古，要經歷不斷地探索和「尋覓」，才會有意外的驚奇\n(D) 並非人人都能一生平順，「苦樂」參半的人生最值得令人回味",
+    "answer": "(A) 坎坷",
+    "explanation": "「坎坷」在題句中整體表示境遇不順、人生多挫折。兩個音節連讀後形成詞義，不能把字分別理解為兩個並列成分來得到這個語境下的意思，故按本題的判準選 A。\n\n「駐足」可以由「停留」與「腳步」理解成停下腳步。「尋」和「覓」都表示找尋，合起來仍是找尋。「苦樂」是痛苦與快樂並列。字在其他用法中可能有別的義項，判讀時要看它在本詞裡是否各自表義。",
+    "trap": "從詞在這個句子中的意思下手，檢查拆開的兩部分能否直接組回原意。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "聯綿詞",
+      "構詞"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1349-original-6c46025ebe27.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第3題",
+    "studentAnswer": "原卷藍筆 B、紅筆改 A。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "3",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1350",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第10題｜詩句物候與農曆月份別稱",
+    "chapter": "人生逆境",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "每個月份都有不同的植物與之配對，下列何者說明正確？\n\n(A) 麥花雪白菜花稀的臘月\n(B) 停車坐愛楓林晚的花月\n(C) 千里鶯啼綠映紅的桐月\n(D) 木落水盡千崖枯的梅月",
+    "answer": "(C) 千里鶯啼綠映紅的桐月",
+    "explanation": "桐月是農曆三月的別稱。「千里鶯啼綠映紅」寫黃鶯啼叫、綠葉與紅花相映，是杜牧〈江南春〉開頭的春景，和三月相合。\n\nA 出自范成大描寫初夏的田園詩，臘月則是農曆十二月。B 的楓林景色放在〈山行〉的「霜葉」語境看，是秋景，和本題花月所指的春季不符。D 寫樹葉凋落、溪流水涸、山崖枯寂，與一般教材所用「梅月」指農曆四月的初夏時序不合。",
+    "trap": "先辨認詩句的季節，再對照本題採用的農曆月份別稱。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "季節",
+      "月份別稱",
+      "詩詞"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1350-original-4b1a30cec654.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第10題",
+    "studentAnswer": "原卷藍筆 A、紅筆改 C。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "10",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1351",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第11題｜面對逆境要保有希望和方向",
+    "chapter": "人生逆境",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "「逢到逆境時，我們要忍一忍、熬一熬，再多拿出一分勇氣和信心。不要只看旅途的艱苦，而要把希望的燈光點亮，去照見那你所想要去的地方。」上述文句所表達的主旨與下列何者最為接近？\n\n(A) 堅定自我，因為黎明以前的時分是最黑暗的\n(B) 汲取教訓，記得失敗為成功之母\n(C) 隨遇而安，順應自然凡事順其發展\n(D) 堅忍不拔，克服自己心中的高牆與心魔",
+    "answer": "(A) 堅定自我，因為黎明以前的時分是最黑暗的",
+    "explanation": "段落前半說遇到逆境要忍耐、鼓起勇氣與信心。後半把希望比成燈光，照見想前往的地方，強調即使現在艱難，也能抱持希望，朝自己的目標走。A 的「堅定自我」對應勇氣與信心，黎明前的黑暗對應眼前的逆境與未來的希望。\n\nB 側重從失敗吸取教訓，C 側重順其自然。D 的「堅忍不拔」確實貼近前半段，但後半聚焦心中的障礙，少了原文「用希望照見目標」的重點，因此 A 最接近。",
+    "trap": "找轉折後的落點。「不要只看……而要……」後面的行動是段落主旨線索。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對分享對話上傳的原卷完整題幹、四個選項與紅筆訂正。原卷未註明實際出題日期，採首次對話的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "主旨",
+      "文意理解",
+      "逆境"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1351-original-900ddceb6b37.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第11題",
+    "studentAnswer": "原卷藍筆 D、紅筆改 A。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "11",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1352",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第5題｜從下定決心推知作者的困難",
+    "chapter": "第六課 人生逆境",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "「首位飛越大西洋女性駕駛——愛蜜莉亞・艾爾哈特曾說過一句話：『「行動」是難下的決定，剩下的只是堅持！』用這句話來表達我的人生理念，真的是太貼切不過！我的人生所面臨的，更多是關於『下定決心』。」由上文可知，作者在面對人生十字路口時可能具有何種問題？\n\n(A) 極度樂天\n(B) 過度悲觀\n(C) 衝動行事\n(D) 優柔寡斷",
+    "answer": "(D) 優柔寡斷",
+    "explanation": "這題問作者最容易卡在哪一步。「行動是難下的決定」把重點放在決定是否開始。「更多是關於下定決心」又說明，作者多半要先克服猶豫，才有辦法開始改變。這和「優柔寡斷」的遲疑、難以下決定最吻合。\n\nA、B 分別是對前景樂觀、悲觀，文段沒有把兩者當成主要障礙。C「衝動行事」意指來不及多想就行動，和文中難下決心的困難相反。",
+    "trap": "先找作者明說的困難，再選與該困難意思最相合的詞。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對使用者上傳原卷及必需的跨頁讀文或作答附圖。原卷沒有確切作答日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "文意推論",
+      "人生逆境"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1352-original-55ccc7b1277a.jpg",
+      "assets/originals/gpt078-q-1352-original-2-8c34ab017152.jpg",
+      "assets/originals/gpt078-q-1352-original-3-4c7fb932deee.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第5題",
+    "studentAnswer": "原卷作答 A，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "（乙）瘋過，才知道我是誰！比改變更重要的是「下定決心」　阮丞輝\n\n面對改變這個名詞，每個人給予他的定義皆不相同。有些人覺得改變是困難的、有些人覺得改變是輕鬆的、有些人覺得改變是未知的，更有些人對於改變是期待的，你面對改變的態度，會決定人生下一步的勇氣程度。\n\n改變之於我，代表著原本所沒有，但因想要有，所以要透過「改變」而取得。\n\n首位飛越大西洋女性駕駛——愛蜜莉亞・艾爾哈特曾說過一句話：「『行動』是難下的決定，剩下的只是堅持！」用這句話來表達我的人生理念，真的是太貼切不過！我的人生所面臨的，更多是關於「下定決心」。\n\n當你已經下定決心去做某件事情，完成某個目標時，改變的痛苦對於你來說，就會變得舉足輕重，因為你擁有了一個更遠大的理想，那麼眼前這些不舒服的改變，就不算些什麼了！以我自己為例，我在達成我的目標之中，需要改變的是對他人的同理、將心比心，在事業上，我也無時無刻地面臨商業模式的轉變與環境的轉化等。改變勢必帶著不舒服！\n\n因此你需要先下定決心，＿＿＿＿＿＿＿＿。",
+    "originalQuestionNumber": "5",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1353",
+    "sourceId": "src-more-078",
+    "subject": "Chinese",
+    "title": "國文第6題｜從柴火與沸水理解釜底抽薪",
+    "chapter": "第六課 人生逆境",
+    "volume": "綜合",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "根據內容判斷，此篇短文應是屬於「三十六計」中的哪一種策略？\n\n(A) 調虎離山\n(B) 聲東擊西\n(C) 借刀殺人\n(D) 釜底抽薪",
+    "answer": "(D) 釜底抽薪",
+    "explanation": "原文把沸水比作看得見的強大力量，把柴火比作維持那股力量的條件。「故力不可當而勢猶可消」指出，正面難以抵擋時，仍可從根源瓦解支撐那股力量的因素。把鍋下的柴抽走，火逐漸熄弱，水便不再沸騰，正是「釜底抽薪」的比喻。\n\nA 是引對象離開有利位置，B 指以假動向掩護真動向，C 是借用第三者的力量。這三者都沒有扣住所依賴的力量來源，因此選 D。",
+    "trap": "「釜」是鍋，「薪」是柴。從喻物的因果關係回到主旨。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對使用者上傳原卷及必需的跨頁讀文或作答附圖。原卷沒有確切作答日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "文言文",
+      "成語",
+      "比喻"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1353-original-69bc3f04162b.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第6題",
+    "studentAnswer": "原卷作答 C，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "（丙）三十六計　網路文章\n\n水沸者，力也，火之力也，陽中之陽也，銳不可當；薪者，火之魄也，即力之勢也，陰中之陰也，近而無害。故力不可當而勢猶可消。尉繚子曰：「氣實則鬥，氣奪則走。」而奪氣之法，則在攻心。此即攻心奪氣之用也。或曰：敵與敵對，搗強敵之虛以敗其將成之功也。",
+    "originalQuestionNumber": "6",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1354",
+    "sourceId": "src-more-078",
+    "subject": "Physics-Chemistry",
+    "title": "理化第18題｜用腳尖作轉軸求雙手支撐力",
+    "chapter": "3-3 力矩與轉動平衡",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "體育課時，阿東老師為同學們作伏地挺身示範，如果阿東老師的體重為 90 kgw，且重量集中在重心（圖中 W 處）。手掌著地處與腳尖的距離、重心與腳尖的距離如圖所示，當阿東老師將兩手伸直按在地面保持不動時，請問地面對阿東老師雙手的支撐力是多少 kgw？\n\n(A) 20\n(B) 30\n(C) 40\n(D) 60",
+    "answer": "(D) 60 kgw",
+    "explanation": "把腳尖當作轉軸，腳尖的支撐力作用線通過轉軸，力矩為零。圖上重力作用線距腳尖 120 cm，雙手的支撐力作用線距腳尖 60＋120＝180 cm。\n\n保持靜止，兩個方向的力矩相等。雙手支撐力×180＝90×120，所以地面對雙手的總支撐力為 60 kgw。腳尖則承受 90−60＝30 kgw，這是選項 B 對應的另一個量。",
+    "trap": "以腳尖作轉軸，手的力臂是 180 cm。題目問兩手合計。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對使用者上傳原卷及必需的跨頁讀文或作答附圖。原卷沒有確切作答日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "力矩",
+      "靜力平衡"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1354-original-71fe68f888d2.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第18題",
+    "studentAnswer": "原卷作答 B，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "18",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1354-figure-c4b8b029542c.jpg",
+        "alt": "原卷伏地挺身附圖。手掌到重心 60 cm，重心到腳尖 120 cm。",
+        "caption": "原卷作答附圖"
+      }
+    ],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1355",
+    "sourceId": "src-more-078",
+    "subject": "Physics-Chemistry",
+    "title": "理化第19題｜肩膀承受的力",
+    "chapter": "3-3 力矩與轉動平衡",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "樵夫肩膀受力多少公斤重？\n\n(A) 2\n(B) 4\n(C) 6\n(D) 10",
+    "answer": "(D) 10 公斤重",
+    "explanation": "以肩膀為轉軸，木柄全長 100 cm，肩到斧端 60 cm，肩到手是 40 cm。斧端重力向下，要平衡其力矩，手在另一側也須向下壓。令手的力大小為 F，則 F×40＝4×60，得到 F＝6 kgw。\n\n再看整根木柄的垂直力平衡。手向下 6 kgw 加上鐵斧向下 4 kgw，肩膀必須對木柄提供向上 10 kgw。木柄對肩膀的作用力方向向下，大小相等，因此答案為 10 kgw。",
+    "trap": "力矩平衡可求手的力。求肩上的總力還要用垂直力平衡。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對使用者上傳原卷及必需的跨頁讀文或作答附圖。原卷沒有確切作答日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "力矩",
+      "受力平衡"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1355-original-99754f1ddaca.jpg",
+      "assets/originals/gpt078-q-1355-1356-shared-original-5b4ec53a3ae3.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第19題",
+    "studentAnswer": "原卷作答 B，紅筆訂正為 D。",
+    "contentStatus": "完整原題",
+    "correctOption": "D",
+    "passage": "",
+    "originalQuestionNumber": "19",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1356",
+    "sourceId": "src-more-078",
+    "subject": "Physics-Chemistry",
+    "title": "理化第20題｜手需要向下施多少力",
+    "chapter": "3-3 力矩與轉動平衡",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "樵夫握木柄的手需施力多少公斤重？\n\n(A) 2\n(B) 4\n(C) 6\n(D) 10",
+    "answer": "(C) 6 公斤重",
+    "explanation": "肩膀是轉軸。手到肩的力臂為 100−60＝40 cm，斧端重力 4 kgw 的力臂為 60 cm。手必須往下壓，使它在肩的另一側產生反方向力矩。\n\n手的力×40＝4×60，因此手的施力為 6 kgw，即 C。10 kgw 是上一題的肩膀受力。分享訊息將本題訂正寫成 D，但原卷紅筆為 C，計算結果也為 C。",
+    "trap": "先確認題目問手還是肩。手的力臂是 40 cm。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對使用者上傳原卷及必需的跨頁讀文或作答附圖。原卷沒有確切作答日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "力臂",
+      "力矩"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1356-original-2ce6b26cab9c.jpg",
+      "assets/originals/gpt078-q-1355-1356-shared-original-5b4ec53a3ae3.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第20題",
+    "studentAnswer": "原卷作答 B，紅筆訂正為 C。",
+    "contentStatus": "完整原題",
+    "correctOption": "C",
+    "passage": "",
+    "originalQuestionNumber": "20",
+    "tables": [],
+    "questionFigures": [],
+    "explanationFigures": []
+  },
+  {
+    "id": "q-1357",
+    "sourceId": "src-more-078",
+    "subject": "Physics-Chemistry",
+    "title": "理化第23題｜相反方向的力，力矩也相反嗎",
+    "chapter": "3-3 力矩與轉動平衡",
+    "volume": "第五冊",
+    "date": "2026-11-27",
+    "dateLabel": "首次出題日期",
+    "addedAt": "2026-11-27",
+    "question": "有一橫桿其轉軸 O₁ 點在橫桿中央，同時在距 O₁ 點兩側 20 cm 處，垂直橫桿施予大小為 F 的力，如下圖（一）所示，兩力對此橫桿產生的合力矩大小為 L₁。另有一橫桿其轉軸 O₂ 點在橫桿的一端，在距 O₂ 點 40 cm 處，垂直橫桿施予大小為 F 的力，如下圖（二）所示，此力對此橫桿產生的力矩大小為 L₂。關於 L₁ 及 L₂ 兩者的關係，下列何者正確？\n\n(A) L₁＝L₂\n(B) L₁＝2L₂\n(C) 2L₁＝L₂\n(D) L₁＝0，且 L₁＜L₂",
+    "answer": "(A) L₁＝L₂",
+    "explanation": "圖（一）左側向上、右側向下，兩個力都讓橫桿向同一方向（順時針）轉。各自力矩大小為 20F，因此合力矩 L₁＝20F＋20F＝40F。\n\n圖（二）只有距轉軸 40 cm 處的一個向下力，力矩 L₂＝40F。因此 L₁＝L₂。圖（一）的兩個力合力為零，但它們作用在不同位置，力矩仍會相加。",
+    "trap": "先判斷每個力讓槓桿往哪個方向轉，再決定力矩加減。",
+    "verification": "原卷逐題核對",
+    "verificationNote": "已核對使用者上傳原卷及必需的跨頁讀文或作答附圖。原卷沒有確切作答日期，採首次提問的臺灣日期。",
+    "diagram": "",
+    "notes": "",
+    "status": "todo",
+    "starred": false,
+    "tags": [
+      "力矩",
+      "力偶",
+      "轉動方向"
+    ],
+    "images": [
+      "assets/originals/gpt078-q-1357-original-9b0e230b44a1.jpg"
+    ],
+    "sourceLabel": "分享原卷｜原卷第23題",
+    "studentAnswer": "原卷作答 C，紅筆訂正為 A。",
+    "contentStatus": "完整原題",
+    "correctOption": "A",
+    "passage": "",
+    "originalQuestionNumber": "23",
+    "tables": [],
+    "questionFigures": [
+      {
+        "src": "assets/originals/gpt078-q-1357-figure-608ec8b718d7.jpg",
+        "alt": "原卷圖（一）左端向上、右端向下，各距中央轉軸 20 cm；圖（二）右端向下，力臂 40 cm。",
+        "caption": "原卷作答附圖"
+      }
+    ],
+    "explanationFigures": []
   }
 ]

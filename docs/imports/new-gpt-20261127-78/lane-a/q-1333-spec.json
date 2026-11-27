@@ -1,0 +1,59 @@
+{
+  "id": "q-1333",
+  "subject": "Math",
+  "title": "由圓周角求弦與半徑、切線的夾角",
+  "art": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1333-panel-1.svg",
+  "panels": [
+    {
+      "heading": "從 B 找出圓周角的對弧",
+      "text": "∠ABP＝60°，所對的是不含 B 的弧 AP。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1333-panel-1.svg",
+      "alt": "從 B 連到 A 與 P，左側弧 AP 著色，B 角是 60 度。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "同一段弧的圓心角",
+      "text": "∠AOP 是圓周角的 2 倍，等於 120°。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1333-panel-2.svg",
+      "alt": "圓心 O 的 120 度角對應同一段橙色弧 AP。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "兩半徑形成等腰三角形",
+      "text": "OA＝OP，剩下的 60° 平分成兩個 30°。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1333-panel-3.svg",
+      "alt": "三角形 AOP 展開成等腰形，頂角 120 度、兩個底角 30 度。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "(1) ∠OAP＝30°\n(2) ∠APC＝60°",
+    "points": [
+      "∠OPC＝90°，扣掉 ∠APO＝30°，得 ∠APC＝60°。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1333-panel-4.svg",
+    "alt": "P 點的半徑與切線構成直角，PA 分出 60 度與 30 度。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1333-original.jpg",
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1333-figure.jpg"
+  ],
+  "answerCheckedAgainst": "(1) ∠OAP＝30°\n(2) ∠APC＝60°",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source78_a",
+  "protectedWords": [
+    "∠OAP",
+    "∠APC",
+    "∠ABP",
+    "∠AOP",
+    "∠APO",
+    "30°",
+    "60°",
+    "90°",
+    "120°"
+  ],
+  "rationale": "使用實際幾何、坐標、量值或運河位置示意，依序呈現題意、關係、推導與完整結論。"
+}

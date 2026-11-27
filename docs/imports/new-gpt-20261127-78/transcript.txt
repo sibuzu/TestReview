@@ -1,0 +1,4763 @@
+錯題解析
+https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7
+
+
+[user 2026-11-27T22:34:18.374411+08:00]
+[使用者原卷附件 01]
+4@錯題B → A
+
+[assistant 2026-11-27T22:34:21.134249+08:00]
+# 第4題｜圓與直線的位置關係
+
+<row align="center">
+  <badge color="danger">原選 B：相切</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 A：沒有交點</badge>
+</row>
+
+## 一、題意與核心觀念
+
+已知圓心為 \(P(1,-3)\)，半徑為 \(4\)，判斷此圓與直線 \(x=-5\) 的位置關係。
+
+這題的關鍵是：**比較圓心到直線的垂直距離與半徑。**
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 340 290" width="100%">
+  <defs>
+    <pattern id="grid4" width="22" height="22" patternUnits="userSpaceOnUse" x="170" y="60"><path d="M22 0H0V22" fill="none" stroke="currentColor" strokeOpacity=".09"/></pattern>
+  </defs>
+  <rect x="16" y="16" width="308" height="264" fill="url(#grid4)"/>
+  <path d="M16 60H324M170 280V16" stroke="currentColor" strokeWidth="1.3"/>
+  <path d="M319 56L324 60L319 64M166 21L170 16L174 21" stroke="currentColor" fill="none"/>
+  <text x="325" y="53" fontSize="12" fill="currentColor">x</text>
+  <text x="180" y="23" fontSize="12" fill="currentColor">y</text>
+  <circle cx="192" cy="126" r="88" fill="#3b82f6" fillOpacity=".08" stroke="#3b82f6" strokeWidth="2.5"/>
+  <path d="M60 17V277" stroke="#dc2626" strokeWidth="2.5"/>
+  <text x="22" y="31" fontSize="13" fill="#dc2626">x = −5</text>
+  <path d="M60 126H192" stroke="#d97706" strokeWidth="2" strokeDasharray="5 3"/>
+  <path d="M60 116H70V126" stroke="#d97706" fill="none"/>
+  <circle cx="192" cy="126" r="4" fill="currentColor"/>
+  <text x="200" y="118" fontSize="13" fill="currentColor">P(1,−3)</text>
+  <path d="M192 126V214" stroke="#2563eb" strokeWidth="2.5"/>
+  <text x="202" y="179" fontSize="13" fill="#2563eb">r = 4</text>
+  <text x="100" y="116" fontSize="14" fontWeight="bold" fill="#d97706">d = 6</text>
+  <text x="52" y="77" fontSize="12" fill="currentColor">−5</text>
+  <text x="188" y="77" fontSize="12" fill="currentColor">1</text>
+  <text x="157" y="53" fontSize="12" fill="currentColor">0</text>
+  <path d="M60 237V247M60 242H104M104 237V247" stroke="#16a34a" strokeWidth="1.8"/>
+  <text x="82" y="263" textAnchor="middle" fontSize="12" fill="#16a34a">相隔 2</text>
+</svg>
+<row justify="center">
+  <text color="success" weight="medium">圓心到直線的距離 6 ＞ 半徑 4</text>
+</row>
+</card>
+
+因為 \(x=-5\) 是一條垂直線，所以只需要比較 **x 坐標**，不需要使用 y 坐標。
+
+\[
+d=|1-(-5)|=6
+\]
+
+又因為半徑為 4：
+
+\[
+6>4
+\]
+
+因此圓與直線沒有交點，選 **A**。
+
+## 三、三種位置關係
+
+<grid columns={3} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={2} align="center">
+      <svg viewBox="0 0 110 100" width="100%">
+        <circle cx="67" cy="50" r="29" stroke="#2563eb" strokeWidth="2" fill="#3b82f6" fillOpacity=".08"/>
+        <path d="M15 8V92" stroke="#dc2626" strokeWidth="2"/>
+        <path d="M15 50H67" stroke="#d97706" strokeDasharray="4 3"/>
+        <circle cx="67" cy="50" r="3" fill="currentColor"/>
+      </svg>
+      **相離**
+      <math value="d>r"/>
+      <text size="sm" color="success">0 個交點</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2} align="center">
+      <svg viewBox="0 0 110 100" width="100%">
+        <circle cx="67" cy="50" r="29" stroke="#2563eb" strokeWidth="2" fill="#3b82f6" fillOpacity=".08"/>
+        <path d="M38 8V92" stroke="#dc2626" strokeWidth="2"/>
+        <path d="M38 50H67" stroke="#d97706" strokeDasharray="4 3"/>
+        <circle cx="67" cy="50" r="3" fill="currentColor"/>
+        <circle cx="38" cy="50" r="4" fill="#dc2626"/>
+      </svg>
+      **相切**
+      <math value="d=r"/>
+      <text size="sm">1 個交點</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2} align="center">
+      <svg viewBox="0 0 110 100" width="100%">
+        <circle cx="67" cy="50" r="29" stroke="#2563eb" strokeWidth="2" fill="#3b82f6" fillOpacity=".08"/>
+        <path d="M51 8V92" stroke="#dc2626" strokeWidth="2"/>
+        <path d="M51 50H67" stroke="#d97706" strokeDasharray="4 3"/>
+        <circle cx="67" cy="50" r="3" fill="currentColor"/>
+        <circle cx="51" cy="25.81" r="4" fill="#dc2626"/>
+        <circle cx="51" cy="74.19" r="4" fill="#dc2626"/>
+      </svg>
+      **相交**
+      <math value="d<r"/>
+      <text size="sm">2 個交點</text>
+    </box>
+  </grid-item>
+</grid>
+
+## 四、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A 沒有交點 | <text color="success">正確</text> | 距離 6 大於半徑 4 |
+| B 相切 | <text color="danger">誤選</text> | 距離必須等於 4 |
+| C 相交於兩點 | 錯誤 | 距離必須小於 4 |
+| D 無法判別 | 錯誤 | 已知條件足夠判斷 |
+
+## 五、二選一決勝｜B vs. A
+
+誤選 B 與正解 A 的決定性差異，在於距離是否恰好等於半徑。
+
+假如直線是 \(x=-3\)，才會有：
+
+\[
+|1-(-3)|=4
+\]
+
+此時才是相切。但原題是 \(x=-5\)，距離為 6，因此必須選 A。
+
+**可能的誤選陷阱：**未正確計算負坐標之間的距離，或混淆相切與相離的成立條件。由於缺乏完整作答過程，實際錯因尚不能確定。
+
+## 六、考場快速自我檢核
+
+記住口訣：**大離、等切、小交。**
+
+看到圓與直線的位置關係題，先算距離，再比半徑，最後選答案。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-1 點、直線與圓之間的位置關係。</caption>
+<caption>P0：已依原題獨立計算，並以圓的最左端 x＝−3 複核答案 A。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:35:03.743453+08:00]
+[使用者原卷附件 02]
+6@錯題A → B
+
+[assistant 2026-11-27T22:35:06.926745+08:00]
+# 第6題｜弦心距與圓的周長
+
+<row align="center">
+  <badge color="danger">原選 A：2√3π</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 B：4√3π</badge>
+</row>
+
+## 一、題意與核心觀念
+
+圓內有一弦 \(\overline{AB}\) 通過某半徑的中點，且與此半徑垂直。若 \(\overline{AB}=6\)，則此圓的周長是多少？
+
+本題考查三個觀念：
+
+- 垂直於弦的半徑會平分弦。
+- 利用畢氏定理求出半徑。
+- 圓周長公式為 \(2\pi r\)，不是 \(\pi r\)。
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 340 275" width="100%">
+  <circle cx="165" cy="128" r="108" fill="#3b82f6" fillOpacity=".05" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M165 128L258.53 182H165Z" fill="#f59e0b" fillOpacity=".15"/>
+  <path d="M71.47 182H258.53" stroke="#dc2626" strokeWidth="2.5"/>
+  <path d="M165 128V236" stroke="#2563eb" strokeWidth="2.5"/>
+  <path d="M165 128L258.53 182" stroke="#d97706" strokeWidth="2.5"/>
+  <path d="M165 170H177V182" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+  {#each [[165,128],[165,182],[165,236],[71.47,182],[258.53,182]] as p}
+    <circle cx={p[0]} cy={p[1]} r="3" fill="currentColor"/>
+  {/each}
+  <text x="151" y="117" fontSize="15" fill="currentColor">O</text>
+  <text x="148" y="199" fontSize="15" fill="currentColor">M</text>
+  <text x="165" y="255" textAnchor="middle" fontSize="15" fill="currentColor">C</text>
+  <text x="54" y="187" fontSize="15" fill="currentColor">A</text>
+  <text x="268" y="187" fontSize="15" fill="currentColor">B</text>
+  <text x="213" y="145" fontSize="16" fontWeight="bold" fill="#d97706">2x</text>
+  <text x="146" y="158" fontSize="15" fill="#2563eb">x</text>
+  <text x="178" y="220" fontSize="15" fill="#2563eb">x</text>
+  <text x="116" y="173" fontSize="16" fill="#dc2626">3</text>
+  <text x="215" y="174" fontSize="16" fill="#dc2626">3</text>
+  <path d="M159 151H171M159 205H171" stroke="#2563eb" strokeWidth="2"/>
+</svg>
+<caption>O 為圓心，M 為半徑 OC 的中點，橘色區域為直角三角形 OMB。</caption>
+</card>
+
+### 步驟①：求出半弦長
+
+因為半徑垂直於弦，所以：
+
+\[
+AM=MB=\frac{6}{2}=3
+\]
+
+### 步驟②：利用畢氏定理求半徑
+
+設 \(OM=MC=x\)，則半徑 \(OB=2x\)。
+
+在直角三角形 OMB 中：
+
+\[
+x^2+3^2=(2x)^2
+\]
+
+\[
+x^2+9=4x^2
+\]
+
+\[
+3x^2=9
+\]
+
+\[
+x=\sqrt3
+\]
+
+因此半徑為：
+
+\[
+r=2x=2\sqrt3
+\]
+
+### 步驟③：求圓周長
+
+\[
+L=2\pi r
+\]
+
+\[
+=2\pi\times2\sqrt3
+\]
+
+\[
+\boxed{4\sqrt3\pi}
+\]
+
+所以答案為 **B**。
+
+## 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A \(2\sqrt3\pi\) | <text color="danger">誤選</text> | 只有正確周長的一半 |
+| B \(4\sqrt3\pi\) | <text color="success">正確</text> | 正確代入圓周長公式 |
+| C \(6\sqrt3\pi\) | 錯誤 | 不符合計算結果 |
+| D \(8\sqrt3\pi\) | 錯誤 | 為正確周長的兩倍 |
+
+## 四、二選一決勝｜A vs. B
+
+<box border radius="lg" padding={3} gap={2}>
+  <grid columns={2}>
+    <grid-item>
+      <caption>誤選 A</caption>
+      <title color="danger" size="xl">\(2\sqrt3\pi\)</title>
+      少乘了一個 2
+    </grid-item>
+    <grid-item>
+      <caption>正解 B</caption>
+      <title color="success" size="xl">\(4\sqrt3\pi\)</title>
+      正確的圓周長
+    </grid-item>
+  </grid>
+  <divider/>
+  <row justify="center">
+    <math value="\\underbrace{\\sqrt3}_{半徑的一半}\\times2\\times2\\pi=4\\sqrt3\\pi"/>
+  </row>
+</box>
+
+從試卷右側的手寫計算來看，孩子已經正確算出 \(x=\sqrt3\)。
+
+這表示畢氏定理的運算已有正確成果。較可能的問題出現在最後的數值轉換：
+
+- 忘記 \(x\) 只是半徑的一半。
+- 忘記圓周長公式還要乘以 2。
+
+兩種情況都會得到選項 A，目前無法確定是哪一種。
+
+## 五、考場快速自我檢核
+
+<box border radius="lg" padding={3} gap={1}>
+  <svg viewBox="0 0 320 65" width="100%">
+    {#each [{x:52,t:"半徑的一半",v:"√3"},{x:160,t:"半徑",v:"2√3"},{x:268,t:"圓周長",v:"4√3π"}] as a}
+      <text x={a.x} y="16" fontSize="12" fill="currentColor" textAnchor="middle">{a.t}</text>
+      <text x={a.x} y="44" fontSize="21" fontWeight="bold" fill="#16a34a" textAnchor="middle">{a.v}</text>
+    {/each}
+    <path d="M94 39H119L114 34M119 39L114 44M201 39H226L221 34M226 39L221 44" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+    <text x="106" y="28" fontSize="11" fill="currentColor" textAnchor="middle">×2</text>
+    <text x="214" y="28" fontSize="11" fill="currentColor" textAnchor="middle">×2π</text>
+  </svg>
+</box>
+
+**算出未知數，不代表已經算出題目要求的答案。**
+
+這題不需要重新練習畢氏定理，優先改善的是計算完成後，回頭確認題目究竟要求半徑、直徑、周長還是面積。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-1 點、直線與圓之間的位置關係。</caption>
+<caption>誤選追蹤：中間運算正確，疑似最終答案轉換失誤。</caption>
+<caption>P0 複核：通過。利用 30°－60°－90° 直角三角形邊長比例亦可驗證半徑為 2√3，答案 B。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:36:24.869260+08:00]
+[使用者原卷附件 03]
+2@錯題
+
+[assistant 2026-11-27T22:36:33.699395+08:00]
+# 填充第2題｜扇形與弓形面積
+
+<row align="center">
+  <badge color="success">正解：6π－9√3 平方公分</badge>
+</row>
+
+## 一、題意與核心觀念
+
+如圖一，有一個扇形半徑為 6 公分，圓心角為 60°，求灰色區域的面積。
+
+本題灰色區域稱為「弓形」，不是整個扇形。
+
+**弓形面積＝扇形面積－三角形面積。**
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 320 235" width="100%">
+  <path d="M45 196L145 22.795A200 200 0 0 1 245 196Z" fill="#3b82f6" fillOpacity=".09" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M145 22.795A200 200 0 0 1 245 196Z" fill="#e5a13c" fillOpacity=".7" stroke="#b7791f" strokeWidth="1.5"/>
+  <path d="M45 196L145 22.795L245 196Z" fill="none" stroke="currentColor" strokeWidth="1.8"/>
+  <path d="M145 22.795V196" stroke="#16a34a" strokeDasharray="5 4" strokeWidth="1.8"/>
+  <path d="M145 184H157V196" fill="none" stroke="#16a34a" strokeWidth="1.5"/>
+  <path d="M82 196A37 37 0 0 0 63.5 163.96" fill="none" stroke="#2563eb" strokeWidth="1.8"/>
+  <text x="83" y="177" fontSize="14" fill="#2563eb">60°</text>
+  <text x="137" y="15" fontSize="15" fill="currentColor">A</text>
+  <text x="251" y="209" fontSize="15" fill="currentColor">B</text>
+  <text x="29" y="211" fontSize="15" fill="currentColor">O</text>
+  <text x="80" y="105" fontSize="16" fill="currentColor">6</text>
+  <text x="145" y="218" textAnchor="middle" fontSize="16" fill="currentColor">6</text>
+  <text x="151" y="126" fontSize="15" fill="#16a34a">3√3</text>
+  <text x="228" y="91" fontSize="13" fill="#b7791f">弓形</text>
+  <path d="M226 97L209 113" stroke="#b7791f" strokeWidth="1.5"/>
+</svg>
+<row justify="center" gap={4}>
+  <row align="center" gap={1}><box size="12px" background="#e5a13c" radius="sm"/><caption>題目所求區域</caption></row>
+  <row align="center" gap={1}><box size="12px" background="#16a34a" radius="sm"/><caption>三角形的高</caption></row>
+</row>
+</card>
+
+<svg viewBox="0 0 340 132" width="100%">
+  <g transform="translate(5 9)">
+    <path d="M10 92L52.5 18.388A85 85 0 0 1 95 92Z" fill="#3b82f6" fillOpacity=".2" stroke="#2563eb" strokeWidth="1.6"/>
+    <text x="52" y="114" textAnchor="middle" fontSize="13" fill="currentColor">扇形</text>
+  </g>
+  <text x="113" y="65" fontSize="24" fill="currentColor" textAnchor="middle">−</text>
+  <g transform="translate(119 9)">
+    <path d="M10 92L52.5 18.388L95 92Z" fill="#3b82f6" fillOpacity=".2" stroke="#2563eb" strokeWidth="1.6"/>
+    <text x="52" y="114" textAnchor="middle" fontSize="13" fill="currentColor">三角形</text>
+  </g>
+  <text x="227" y="65" fontSize="24" fill="currentColor" textAnchor="middle">=</text>
+  <g transform="translate(235 9)">
+    <path d="M52.5 18.388A85 85 0 0 1 95 92Z" fill="#e5a13c" fillOpacity=".7" stroke="#b7791f" strokeWidth="1.6"/>
+    <text x="65" y="114" textAnchor="middle" fontSize="13" fill="currentColor">弓形</text>
+  </g>
+</svg>
+
+## 三、階梯式解題
+
+### 步驟①：求扇形面積
+
+圓心角 60° 占整個圓的六分之一。
+
+\[
+\begin{aligned}
+S_{\text{扇形}}&=\pi r^2\times\frac{60}{360}\\
+&=36\pi\times\frac16\\
+&=6\pi
+\end{aligned}
+\]
+
+### 步驟②：求三角形面積
+
+因為 \(OA=OB=6\)，且夾角為 60°，所以 △OAB 為正三角形，三邊皆為 6。
+
+利用畢氏定理求高：
+
+\[
+h=\sqrt{6^2-3^2}=3\sqrt3
+\]
+
+因此：
+
+\[
+\begin{aligned}
+S_{\triangle OAB}&=\frac12\times6\times3\sqrt3\\
+&=9\sqrt3
+\end{aligned}
+\]
+
+### 步驟③：求灰色區域面積
+
+\[
+S_{\text{弓形}}=6\pi-9\sqrt3
+\]
+
+<box border radius="lg" padding={3} align="center">
+  <caption>最終答案</caption>
+  <title size="2xl" color="success">\(6\pi-9\sqrt3\)</title>
+  平方公分
+</box>
+
+## 四、錯因診斷
+
+| 常見錯誤 | 正確觀念 |
+|---|---|
+| 只算出 \(6\pi\) | 尚未扣除三角形 |
+| 將 6 當成三角形的高 | 正三角形的高為 \(3\sqrt3\) |
+| 忘記三角形面積除以 2 | 底 × 高 ÷ 2 |
+| 混淆弧長與面積公式 | 面積使用半徑平方 |
+
+試卷上的原始答案與訂正筆跡有所重疊，無法完整確認原始錯因，因此以上列為可能的判斷陷阱，不認定為孩子實際犯錯的原因。
+
+## 五、考場快速自我檢核
+
+遇到「半徑為 \(r\)、圓心角為 60°」的弓形面積題，可以立即想到：
+
+\[
+\boxed{\frac{\pi r^2}{6}-\frac{\sqrt3}{4}r^2}
+\]
+
+但不必死背公式，只要掌握兩個觀念：
+
+**60°＋兩條等長半徑＝正三角形。**
+
+**弓形＝扇形－三角形。**
+
+最後以數值估算複核：
+
+\[
+6\pi-9\sqrt3\approx3.26
+\]
+
+符合原圖灰色區域只占扇形一小部分的情況。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-2 圓心角、圓周角與弧的關係。</caption>
+<caption>題型：非選擇題，採階梯式解題，不強制使用二選一決勝。</caption>
+<caption>P0 複核：答案、圖解比例、圓心角與面積公式均已核對。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:37:17.129321+08:00]
+[使用者原卷附件 04]
+5@錯題
+
+[assistant 2026-11-27T22:37:20.089043+08:00]
+# 填充第5題｜同心圓與切線長
+
+<row align="center">
+  <badge color="danger">原答：2√23</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解：√65</badge>
+</row>
+
+## 一、題意與核心觀念
+
+如圖四，兩同心圓中：
+
+- \(\overline{BC}\) 為小圓的切線，M 為切點。
+- \(\overline{CD}\) 為大圓的切線，D 為切點。
+- \(BC=13\)，小圓半徑為 3，大圓半徑為 5。
+
+求 \(\overline{CD}\) 的長度。
+
+本題需要掌握「切線垂直於通過切點的半徑」，並依序利用三次畢氏定理求解。
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 340 245" width="100%">
+  <circle cx="221" cy="110" r="90" fill="#3b82f6" fillOpacity=".04" stroke="#2563eb" strokeWidth="2"/>
+  <circle cx="221" cy="110" r="54" fill="#3b82f6" fillOpacity=".06" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M59 164L148.38 56.83L221 110Z" fill="#f59e0b" fillOpacity=".13"/>
+  <path d="M59 164H293L221 110Z" fill="#16a34a" fillOpacity=".06"/>
+  <path d="M59 164H293" stroke="currentColor" strokeWidth="2"/>
+  <path d="M59 164L148.38 56.83" stroke="#dc2626" strokeWidth="2.8"/>
+  <path d="M148.38 56.83L221 110" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M221 110V164" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M221 110L293 164" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M59 164L221 110" stroke="#d97706" strokeWidth="2" strokeDasharray="5 3"/>
+  <path d="M221 152H233V164" stroke="currentColor" fill="none" strokeWidth="1.4"/>
+  <path d="M141.29 66.52L150.97 73.61L158.06 63.92" fill="none" stroke="currentColor" strokeWidth="1.4"/>
+  {#each [{x:59,y:164,t:"C",dx:-15,dy:4},{x:149,y:164,t:"A",dx:-5,dy:17},{x:221,y:164,t:"M",dx:-6,dy:17},{x:293,y:164,t:"B",dx:7,dy:4},{x:148.38,y:56.83,t:"D",dx:-15,dy:-8},{x:221,y:110,t:"O",dx:7,dy:-8}] as p}
+    <circle cx={p.x} cy={p.y} r="2.8" fill="currentColor"/>
+    <text x={p.x+p.dx} y={p.y+p.dy} fontSize="14" fill="currentColor">{p.t}</text>
+  {/each}
+  <text x="228" y="138" fontSize="14" fill="#2563eb">3</text>
+  <text x="267" y="132" fontSize="14" fill="#2563eb">5</text>
+  <text x="188" y="73" fontSize="14" fill="#2563eb">5</text>
+  <text x="85" y="95" fontSize="15" fontWeight="bold" fill="#dc2626">√65</text>
+  <text x="134" y="126" fontSize="14" fill="#d97706">√90</text>
+  <path d="M59 187V197M59 192H221M221 187V197M221 192H293M293 187V197" stroke="currentColor" strokeWidth="1"/>
+  <text x="140" y="207" fontSize="14" textAnchor="middle" fill="currentColor">9</text>
+  <text x="257" y="207" fontSize="14" textAnchor="middle" fill="currentColor">4</text>
+  <path d="M59 215V225M59 220H293M293 215V225" stroke="currentColor" strokeWidth="1"/>
+  <text x="176" y="239" fontSize="14" textAnchor="middle" fill="currentColor">BC = 13</text>
+</svg>
+<caption>藍線：半徑　橘色虛線：共同斜邊 OC　紅線：所求切線 CD</caption>
+</card>
+
+## 三、階梯式解題
+
+### 步驟①：求 MB
+
+因為 BC 為小圓的切線，所以 \(OM\perp BC\)。
+
+在直角三角形 OMB 中：
+
+\[
+OB=5,\quad OM=3
+\]
+
+\[
+MB=\sqrt{5^2-3^2}
+\]
+
+\[
+=\sqrt{16}=4
+\]
+
+這是一個典型的 **3、4、5 直角三角形**。
+
+### 步驟②：求 CM
+
+由原圖可知 C、A、M、B 依序位於同一直線上。
+
+\[
+CM=BC-MB
+\]
+
+\[
+=13-4=\boxed{9}
+\]
+
+### 步驟③：求 OC
+
+在直角三角形 OMC 中：
+
+\[
+OC^2=OM^2+CM^2
+\]
+
+\[
+=3^2+9^2=90
+\]
+
+### 步驟④：求 CD
+
+因為 CD 為大圓的切線，所以 \(OD\perp CD\)。
+
+在直角三角形 ODC 中：
+
+\[
+CD^2=OC^2-OD^2
+\]
+
+\[
+=90-5^2=65
+\]
+
+\[
+\boxed{CD=\sqrt{65}}
+\]
+
+## 四、三個直角三角形的連接關係
+
+<card gap={2}>
+<svg viewBox="0 0 340 130" width="100%">
+  <path d="M12 85H84L12 31Z" fill="#3b82f6" fillOpacity=".12" stroke="#2563eb" strokeWidth="1.7"/>
+  <path d="M12 76H21V85" fill="none" stroke="currentColor"/>
+  <text x="1" y="26" fontSize="12" fill="currentColor">O</text>
+  <text x="1" y="99" fontSize="12" fill="currentColor">M</text>
+  <text x="85" y="99" fontSize="12" fill="currentColor">B</text>
+  <text x="0" y="59" fontSize="12" fill="currentColor">3</text>
+  <text x="48" y="99" fontSize="13" fill="#16a34a">4</text>
+  <text x="52" y="50" fontSize="12" fill="currentColor">5</text>
+  <text x="48" y="122" textAnchor="middle" fontSize="12" fill="currentColor">求 MB</text>
+  <path d="M96 60H115L110 55M115 60L110 65" stroke="currentColor" fill="none"/>
+  <path d="M126 85H216V55Z" fill="#f59e0b" fillOpacity=".15" stroke="#d97706" strokeWidth="1.7"/>
+  <path d="M207 85V76H216" stroke="currentColor" fill="none"/>
+  <text x="117" y="99" fontSize="12" fill="currentColor">C</text>
+  <text x="211" y="99" fontSize="12" fill="currentColor">M</text>
+  <text x="214" y="49" fontSize="12" fill="currentColor">O</text>
+  <text x="168" y="99" fontSize="13" fill="currentColor">9</text>
+  <text x="222" y="74" fontSize="12" fill="currentColor">3</text>
+  <text x="157" y="59" fontSize="12" fill="#d97706">√90</text>
+  <text x="171" y="122" textAnchor="middle" fontSize="12" fill="currentColor">求 OC</text>
+  <path d="M234 60H251L246 55M251 60L246 65" stroke="currentColor" fill="none"/>
+  <path d="M261 85H330V42.21Z" fill="#16a34a" fillOpacity=".1" stroke="#16a34a" strokeWidth="1.7"/>
+  <path d="M321 85V76H330" stroke="currentColor" fill="none"/>
+  <text x="252" y="99" fontSize="12" fill="currentColor">C</text>
+  <text x="326" y="99" fontSize="12" fill="currentColor">D</text>
+  <text x="326" y="36" fontSize="12" fill="currentColor">O</text>
+  <text x="284" y="99" fontSize="13" fill="#16a34a">√65</text>
+  <text x="333" y="66" fontSize="12" fill="currentColor">5</text>
+  <text x="272" y="53" fontSize="12" fill="#d97706">√90</text>
+  <text x="295" y="122" textAnchor="middle" fontSize="12" fill="currentColor">求 CD</text>
+</svg>
+<caption>解題順序：△OMB → △OMC → △ODC</caption>
+</card>
+
+## 五、錯因診斷
+
+從試卷上的手寫計算，可以辨認出：
+
+\[
+36+81=117
+\]
+
+\[
+117-25=92
+\]
+
+\[
+\sqrt{92}=2\sqrt{23}
+\]
+
+這與原答相符。若第一行是在計算 \(OC^2\)，則很可能是將小圓的直徑 6 誤當成半徑 3。
+
+| 比較項目 | 疑似誤用 | 正確數值 |
+|---|---:|---:|
+| CM | 9 | 9 |
+| OM | 6 | 3 |
+| OC² | 117 | 90 |
+| CD² | 92 | 65 |
+| CD | \(2\sqrt{23}\) | \(\sqrt{65}\) |
+
+孩子後續的畢氏定理與根式化簡並沒有明顯運算錯誤，問題較可能出在**幾何線段的數值代入**。由於手寫算式未標明每個數值代表的線段，實際錯因仍屬高度可能，而非完全確認。
+
+## 六、考場快速自我檢核
+
+**先標線段，再代數字。**
+
+遇到同心圓與切線題，特別確認圓心到切點的距離是半徑，而不是直徑。
+
+本題也可以用一條算式快速複核：
+
+\[
+CD=\sqrt{(13-4)^2+3^2-5^2}
+\]
+
+\[
+=\sqrt{81+9-25}=\boxed{\sqrt{65}}
+\]
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-1 點、直線與圓之間的位置關係。</caption>
+<caption>錯題分類：幾何線段辨識、半徑與直徑混淆（疑似）。</caption>
+<caption>P0：已獨立計算並複核答案。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:38:30.403222+08:00]
+[使用者原卷附件 05]
+1@錯題
+
+[assistant 2026-11-27T22:38:34.209181+08:00]
+# 計算第1題｜優弧與弓形周長
+
+<badge color="success">正解：12√2＋18π 公分</badge>
+
+## 一、題意與核心觀念
+
+已知桌球拍的拍面為直徑 24 公分的圓，且劣弧 \(\overset{\frown}{AB}=90^\circ\)，求弓形 ACB（著色部分）的周長。
+
+本題最重要的是辨認著色區域的完整邊界。
+
+**弓形周長＝弧長＋弦長。**
+
+注意：本題要求的是較大的弓形，因此必須使用 **270° 的優弧**，而不是題目給出的 90° 劣弧。
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 340 300" width="100%">
+  <path d="M85.15 204.85A120 120 0 1 1 254.85 204.85Z" fill="#3b82f6" fillOpacity=".12"/>
+  <path d="M85.15 204.85A120 120 0 1 1 254.85 204.85" stroke="#2563eb" strokeWidth="4" fill="none"/>
+  <path d="M85.15 204.85A120 120 0 0 0 254.85 204.85" stroke="#888888" strokeWidth="1.8" strokeDasharray="5 4" fill="none"/>
+  <path d="M85.15 204.85H254.85" stroke="#dc2626" strokeWidth="3.5"/>
+  <path d="M85.15 204.85L170 120L254.85 204.85" stroke="#d97706" strokeWidth="1.8" strokeDasharray="5 3" fill="none"/>
+  <path d="M158 132L170 144L182 132" fill="none" stroke="#d97706" strokeWidth="1.5"/>
+  <circle cx="170" cy="120" r="3.5" fill="currentColor"/>
+  <circle cx="85.15" cy="35.15" r="3" fill="#2563eb"/>
+  <text x="67" y="31" fontSize="16" fill="currentColor">C</text>
+  <text x="69" y="218" fontSize="16" fill="currentColor">A</text>
+  <text x="260" y="218" fontSize="16" fill="currentColor">B</text>
+  <text x="164" y="108" fontSize="16" fill="currentColor">O</text>
+  <text x="105" y="155" fontSize="15" fill="#d97706">12</text>
+  <text x="222" y="155" fontSize="15" fill="#d97706">12</text>
+  <text x="170" y="163" textAnchor="middle" fontSize="14" fill="#d97706">90°</text>
+  <text x="170" y="56" textAnchor="middle" fontSize="17" fontWeight="bold" fill="#2563eb">優弧 270°</text>
+  <text x="170" y="80" textAnchor="middle" fontSize="16" fill="#2563eb">弧長＝18π</text>
+  <text x="170" y="195" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#dc2626">弦長＝12√2</text>
+  <text x="170" y="263" textAnchor="middle" fontSize="13" fill="currentColor">劣弧 90°（不計入）</text>
+  <path d="M170 248V242" stroke="currentColor"/>
+</svg>
+<row align="center" gap={2}>
+  <box background="#2563eb" size="12px" radius="sm"/>
+  藍線：優弧 ACB
+</row>
+<row align="center" gap={2}>
+  <box background="#dc2626" size="12px" radius="sm"/>
+  紅線：弦 AB
+</row>
+<caption>只有藍線與紅線構成著色弓形的周長，灰色虛線不計入。</caption>
+</card>
+
+## 三、階梯式解題
+
+### 步驟①：求半徑
+
+題目給的是直徑 24 公分。
+
+\[
+r=24\div2=12
+\]
+
+### 步驟②：求優弧 ACB 的長度
+
+整個圓為 360°，扣除劣弧 90°：
+
+\[
+360^\circ-90^\circ=270^\circ
+\]
+
+代入弧長公式：
+
+\[
+\begin{aligned}
+\overset{\frown}{ACB}
+&=2\pi r\times\frac{270}{360}\\
+&=2\pi\times12\times\frac34\\
+&=18\pi
+\end{aligned}
+\]
+
+### 步驟③：求弦 AB 的長度
+
+因為圓心角 \(\angle AOB=90^\circ\)，且 \(OA=OB=12\)，所以 △AOB 為等腰直角三角形。
+
+利用畢氏定理：
+
+\[
+\begin{aligned}
+AB^2&=12^2+12^2\\
+&=288
+\end{aligned}
+\]
+
+\[
+AB=\sqrt{288}=12\sqrt2
+\]
+
+### 步驟④：將弧長與弦長相加
+
+\[
+\begin{aligned}
+L&=\overset{\frown}{ACB}+AB\\
+&=18\pi+12\sqrt2
+\end{aligned}
+\]
+
+<box border radius="lg" padding={3} align="center">
+  <caption>最終答案</caption>
+  <title size="2xl" color="success">\(12\sqrt2+18\pi\)</title>
+  公分
+</box>
+
+## 四、觀念透析｜扇形與弓形周長的差異
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={2} align="center">
+      <svg viewBox="0 0 150 145" width="100%">
+        <path d="M75 75L25.5 124.5A70 70 0 1 1 124.5 124.5Z" fill="#3b82f6" fillOpacity=".15" stroke="#2563eb" strokeWidth="2.5"/>
+        <path d="M25.5 124.5L75 75L124.5 124.5" stroke="#dc2626" strokeWidth="3" fill="none"/>
+        <circle cx="75" cy="75" r="3" fill="currentColor"/>
+      </svg>
+      **扇形周長**
+      <text size="sm">弧長＋兩條半徑</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2} align="center">
+      <svg viewBox="0 0 150 145" width="100%">
+        <path d="M25.5 124.5A70 70 0 1 1 124.5 124.5Z" fill="#3b82f6" fillOpacity=".15" stroke="#2563eb" strokeWidth="2.5"/>
+        <path d="M25.5 124.5H124.5" stroke="#dc2626" strokeWidth="3"/>
+        <circle cx="75" cy="75" r="3" fill="currentColor"/>
+      </svg>
+      **弓形周長**
+      <text size="sm">弧長＋一條弦</text>
+    </box>
+  </grid-item>
+</grid>
+
+兩種圖形的弧長可以相同，但是直線部分不同，因此周長也不同。
+
+## 五、錯因診斷
+
+| 可能的解題陷阱 | 正確觀念 |
+|---|---|
+| 將 24 當成半徑 | 半徑為 12 |
+| 使用 90° 計算弧長 | 著色部分為 270° 優弧 |
+| 只算出 \(18\pi\) | 尚未加上弦長 |
+| 加上兩條半徑 | 弓形應加上一條弦 |
+| 使用面積公式 | 本題要求周長 |
+
+試卷上可辨認出紅筆訂正答案，但未見完整原始作答過程，因此實際錯因尚不能確定。
+
+## 六、考場快速自我檢核
+
+遇到不規則圖形的周長題，先用筆尖沿著著色區域的外框走一圈，再開始計算。
+
+**先辨認邊界，再選擇公式。**
+
+本題依序確認：
+
+- [ ] 直徑是否已換算成半徑？
+- [ ] 所求的是優弧還是劣弧？
+- [ ] 是否已加上全部直線邊界？
+
+這也能與前面的填充第2題一起建立觀念：
+
+| 題型 | 解題方法 |
+|---|---|
+| 弓形面積（劣弓形） | 扇形面積－三角形面積 |
+| 弓形周長 | 弧長＋弦長 |
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-2 圓心角、圓周角與弧的關係。</caption>
+<caption>題型：非選擇題・幾何邊界辨識與階梯式計算。</caption>
+<caption>P0 複核：優弧角度、半徑、弦長、圖解幾何比例及最終答案均已核對。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:39:33.037211+08:00]
+[使用者原卷附件 06]
+2@錯題
+
+[assistant 2026-11-27T22:39:37.203965+08:00]
+# 計算第2題｜圓周角、圓心角與切線
+
+<box border radius="lg" padding={3}>
+  <grid columns={2}>
+    <grid-item>
+      <caption>第 (1) 小題</caption>
+      <title size="xl" color="success">∠OAP＝30°</title>
+    </grid-item>
+    <grid-item>
+      <caption>第 (2) 小題</caption>
+      <title size="xl" color="success">∠APC＝60°</title>
+    </grid-item>
+  </grid>
+</box>
+
+## 一、題意與核心觀念
+
+已知直線 CD 切圓 O 於 P 點，A、B 兩點在圓 O 上，且 \(\angle ABP=60^\circ\)。
+
+本題結合三個重要觀念：
+
+- 同弧所對的圓心角是圓周角的兩倍。
+- 同一個圓的半徑等長，可構成等腰三角形。
+- 通過切點的半徑與切線垂直。
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 340 285" width="100%">
+  <circle cx="175" cy="120" r="100" fill="#3b82f6" fillOpacity=".035" stroke="currentColor" strokeWidth="1.7"/>
+  <path d="M88.397 70L175 120L175 220Z" fill="#3b82f6" fillOpacity=".13"/>
+  <path d="M88.397 70A100 100 0 0 0 175 220" stroke="#d97706" strokeWidth="3.5" fill="none"/>
+  <path d="M88.397 70L251.604 184.279L175 220L88.397 70" fill="none" stroke="currentColor" strokeWidth="1.8"/>
+  <path d="M88.397 70L175 120V220" fill="none" stroke="#2563eb" strokeWidth="2.3"/>
+  <path d="M24 220H318" stroke="currentColor" strokeWidth="2"/>
+  <path d="M161 220V206H175" fill="none" stroke="#16a34a" strokeWidth="1.8"/>
+  <path d="M175 148A28 28 0 0 1 150.75 106" stroke="#2563eb" strokeWidth="2" fill="none"/>
+  <text x="126" y="150" fontSize="15" fill="#2563eb" fontWeight="bold">120°</text>
+  <path d="M110.05 82.5A25 25 0 0 1 100.9 91.65" stroke="#16a34a" strokeWidth="2" fill="none"/>
+  <text x="117" y="100" fontSize="14" fill="#16a34a" fontWeight="bold">30°</text>
+  <path d="M161 195.75A28 28 0 0 1 175 192" fill="none" stroke="#16a34a" strokeWidth="2"/>
+  <text x="180" y="191" fontSize="14" fill="#16a34a">30°</text>
+  <path d="M141 220A34 34 0 0 1 158 190.55" stroke="#dc2626" strokeWidth="2.2" fill="none"/>
+  <text x="121" y="198" fontSize="15" fill="#dc2626" fontWeight="bold">60°</text>
+  <path d="M231.94 170.51A24 24 0 0 0 229.85 194.42" fill="none" stroke="#d97706" strokeWidth="2"/>
+  <text x="211" y="182" fontSize="14" fill="#d97706" fontWeight="bold">60°</text>
+  <path d="M125 102L132 90M169 165H181" stroke="#2563eb" strokeWidth="2"/>
+  {#each [{x:88.397,y:70,t:"A",dx:-16,dy:-6},{x:175,y:120,t:"O",dx:9,dy:-7},{x:251.604,y:184.279,t:"B",dx:9,dy:5},{x:175,y:220,t:"P",dx:-5,dy:20},{x:48,y:220,t:"C",dx:-5,dy:20},{x:302,y:220,t:"D",dx:-5,dy:20}] as p}
+    <circle cx={p.x} cy={p.y} r="2.8" fill="currentColor"/>
+    <text x={p.x+p.dx} y={p.y+p.dy} fontSize="15" fill="currentColor">{p.t}</text>
+  {/each}
+  <text x="170" y="270" textAnchor="middle" fontSize="13" fill="currentColor">OP ⊥ CD，且 OA＝OP</text>
+</svg>
+<caption>橘色：已知圓周角及其所對弧 AP。</caption>
+<caption>藍色：圓心角 120°。綠色：等腰三角形底角 30°。紅色：所求弦切角 60°。</caption>
+</card>
+
+## 三、階梯式解題
+
+### 第 (1) 小題：求 ∠OAP
+
+**步驟①：利用圓周角求圓心角。**
+
+\(\angle ABP\) 與 \(\angle AOP\) 對應同一段弧 AP。
+
+因此：
+
+\[
+\angle AOP=2\times\angle ABP
+\]
+
+\[
+=2\times60^\circ=120^\circ
+\]
+
+**步驟②：利用等腰三角形求底角。**
+
+因為 OA、OP 都是半徑，所以：
+
+\[
+OA=OP
+\]
+
+因此 △AOP 為等腰三角形，兩個底角相等。
+
+\[
+\angle OAP=\angle APO
+\]
+
+\[
+=\frac{180^\circ-120^\circ}{2}
+\]
+
+\[
+\boxed{\angle OAP=30^\circ}
+\]
+
+### 第 (2) 小題：求 ∠APC
+
+因為 CD 是圓 O 的切線，P 是切點，所以：
+
+\[
+OP\perp CD
+\]
+
+因此：
+
+\[
+\angle OPC=90^\circ
+\]
+
+由上一小題可知：
+
+\[
+\angle APO=30^\circ
+\]
+
+所以：
+
+\[
+\angle APC=90^\circ-30^\circ
+\]
+
+\[
+\boxed{\angle APC=60^\circ}
+\]
+
+## 四、觀念透析｜角度如何一步步傳遞？
+
+<card gap={1}>
+  <box align="center" background="surface-secondary" radius="md" padding={2}>
+    <caption>已知圓周角 ∠ABP</caption>
+    <title size="xl" color="#d97706">60°</title>
+  </box>
+  <row justify="center" align="center">
+    <icon name="arrow-down" color="secondary"/>
+    <caption>同弧圓心角 × 2</caption>
+  </row>
+  <box align="center" border radius="md" padding={2}>
+    <caption>圓心角 ∠AOP</caption>
+    <title size="xl" color="#2563eb">120°</title>
+  </box>
+  <row justify="center" align="center">
+    <icon name="arrow-down" color="secondary"/>
+    <caption>等腰三角形（180°－120°）÷ 2</caption>
+  </row>
+  <box align="center" border radius="md" padding={2}>
+    <caption>∠OAP＝∠APO</caption>
+    <title size="xl" color="success">30°</title>
+  </box>
+  <row justify="center" align="center">
+    <icon name="arrow-down" color="secondary"/>
+    <caption>切線垂直半徑 90°－30°</caption>
+  </row>
+  <box align="center" border radius="md" padding={2}>
+    <caption>∠APC</caption>
+    <title size="xl" color="success">60°</title>
+  </box>
+</card>
+
+## 五、錯因診斷
+
+| 可能的解題障礙 | 正確觀念 |
+|---|---|
+| 不知道如何開始 | 先找同弧所對的圓心角 |
+| 將圓心角算成 60° | 圓心角是圓周角的兩倍 |
+| 未發現等腰三角形 | OA＝OP，兩條都是半徑 |
+| 不知道切點的角度 | 半徑與切線垂直 |
+| 誤認 AB 為直徑 | 題目並未給定 AB 通過圓心 |
+
+原試卷只有紅筆訂正答案，沒有足夠的原始解題過程，因此無法確認實際卡在哪一個步驟。
+
+## 六、考場快速解題技巧
+
+第 (2) 小題也可以直接利用**弦切角定理**求解。
+
+<svg viewBox="0 0 320 210" width="100%">
+  <circle cx="160" cy="95" r="80" fill="none" stroke="currentColor" strokeWidth="1.6"/>
+  <path d="M90.718 55A80 80 0 0 0 160 175" stroke="#2563eb" strokeWidth="3" fill="none"/>
+  <path d="M90.718 55L221.284 146.423L160 175Z" stroke="currentColor" strokeWidth="1.8" fill="none"/>
+  <path d="M25 175H290" stroke="currentColor" strokeWidth="1.8"/>
+  <path d="M130 175A30 30 0 0 1 145 149.019" stroke="#dc2626" strokeWidth="2.5" fill="none"/>
+  <path d="M196.71 129.216A30 30 0 0 0 194.095 159.102" stroke="#dc2626" strokeWidth="2.5" fill="none"/>
+  <text x="104" y="154" fontSize="15" fontWeight="bold" fill="#dc2626">60°</text>
+  <text x="177" y="145" fontSize="15" fontWeight="bold" fill="#dc2626">60°</text>
+  <text x="75" y="50" fontSize="14" fill="currentColor">A</text>
+  <text x="230" y="149" fontSize="14" fill="currentColor">B</text>
+  <text x="155" y="193" fontSize="14" fill="currentColor">P</text>
+  <text x="40" y="193" fontSize="14" fill="currentColor">C</text>
+  <text x="280" y="193" fontSize="14" fill="currentColor">D</text>
+</svg>
+
+弦 PA 與切線 PC 所夾的角，等於同弧所對的圓周角 ABP。
+
+\[
+\boxed{\angle APC=\angle ABP=60^\circ}
+\]
+
+這也可以用來獨立複核第 (2) 小題。
+
+**考場記憶口訣：同弧角加倍、半徑找等腰、切點找直角。**
+
+這三個觀念可以串聯解決許多國中會考的圓形角度題，不需要另外背誦複雜公式。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-1、2-2 跨節整合。</caption>
+<caption>題型：非選擇題・幾何角度推導。</caption>
+<caption>P0 複核：兩小題答案均正確，第二小題另以弦切角定理驗證。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:40:16.343926+08:00]
+[使用者原卷附件 07]
+3@錯題
+
+[assistant 2026-11-27T22:40:20.048039+08:00]
+# 計算第3題｜平行弦、圓心角與弓形面積
+
+<badge color="success">正解：12π－9√3</badge>
+
+## 一、題意與核心觀念
+
+已知碗的側面為半圓形，水面 CD 與碗口 AB 平行，且：
+
+- 直徑 \(AB=12\)。
+- 弧 CD 的度數是弧 AC 的 4 倍。
+- 求著色部分的面積。
+
+本題的解題關鍵是先利用**平行弦所夾的弧相等**，求出圓心角，再計算弓形面積。
+
+## 二、精準圖解
+
+<card gap={2}>
+<svg viewBox="0 0 340 255" width="100%">
+  <path d="M40 65A130 130 0 0 0 300 65Z" fill="#3b82f6" fillOpacity=".04" stroke="currentColor" strokeWidth="2"/>
+  <path d="M57.417 130A130 130 0 0 0 282.583 130Z" fill="#3b82f6" fillOpacity=".38" stroke="#2563eb" strokeWidth="2"/>
+  <path d="M57.417 130L170 65L282.583 130Z" fill="#f59e0b" fillOpacity=".12" stroke="#d97706" strokeWidth="1.8"/>
+  <path d="M40 65A130 130 0 0 0 57.417 130M282.583 130A130 130 0 0 0 300 65" fill="none" stroke="#16a34a" strokeWidth="3.5"/>
+  <path d="M170 65V130" stroke="#d97706" strokeWidth="1.8" strokeDasharray="4 3"/>
+  <path d="M170 118H182V130" stroke="#d97706" strokeWidth="1.4" fill="none"/>
+  <path d="M142 65A28 28 0 0 0 145.75 79M194.25 79A28 28 0 0 0 198 65" stroke="#16a34a" strokeWidth="1.7" fill="none"/>
+  <path d="M140.56 82A34 34 0 0 0 199.44 82" fill="none" stroke="#d97706" strokeWidth="1.7"/>
+  <text x="115" y="82" fontSize="13" fill="#16a34a">30°</text>
+  <text x="205" y="82" fontSize="13" fill="#16a34a">30°</text>
+  <text x="170" y="115" fontSize="14" textAnchor="middle" fill="#d97706" fontWeight="bold">120°</text>
+  <text x="100" y="93" fontSize="14" fill="currentColor">6</text>
+  <text x="233" y="93" fontSize="14" fill="currentColor">6</text>
+  <text x="179" y="104" fontSize="13" fill="#d97706">3</text>
+  <text x="35" y="55" fontSize="15" fill="currentColor">A</text>
+  <text x="296" y="55" fontSize="15" fill="currentColor">B</text>
+  <text x="165" y="55" fontSize="15" fill="currentColor">O</text>
+  <text x="39" y="137" fontSize="15" fill="currentColor">C</text>
+  <text x="290" y="137" fontSize="15" fill="currentColor">D</text>
+  <text x="165" y="145" fontSize="13" fill="currentColor">M</text>
+  <circle cx="170" cy="65" r="3" fill="currentColor"/>
+  <text x="170" y="174" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#2563eb">所求弓形面積</text>
+  <path d="M40 30V40M40 35H300M300 30V40" stroke="currentColor" fill="none"/>
+  <text x="170" y="26" textAnchor="middle" fontSize="14" fill="currentColor">直徑 AB＝12</text>
+  <text x="170" y="225" textAnchor="middle" fontSize="14" fill="currentColor">弧 AC＝弧 DB＝30°</text>
+  <text x="170" y="245" textAnchor="middle" fontSize="14" fill="#2563eb">弧 CD＝120°</text>
+</svg>
+<caption>綠色：兩側等弧。橘色：需要扣除的三角形。藍色：題目要求的著色區域。</caption>
+</card>
+
+## 三、階梯式解題
+
+### 步驟①：求弧 CD 的度數
+
+因為 \(AB\parallel CD\)，所以：
+
+\[
+\overset{\frown}{AC}=\overset{\frown}{DB}
+\]
+
+設弧 AC 的度數為 \(x\)，則弧 DB 為 \(x\)，弧 CD 為 \(4x\)。
+
+<svg viewBox="0 0 320 95" width="100%">
+  {#each Array.from({length:6}) as _,i}
+    <rect x={16+i*48} y="30" width="46" height="30" rx="3" fill={i===0||i===5?"#16a34a":"#2563eb"} fillOpacity=".18" stroke={i===0||i===5?"#16a34a":"#2563eb"}/>
+    <text x={39+i*48} y="50" fontSize="14" textAnchor="middle" fill="currentColor">x</text>
+  {/each}
+  <text x="39" y="20" fontSize="13" textAnchor="middle" fill="#16a34a">弧 AC</text>
+  <text x="159" y="20" fontSize="13" textAnchor="middle" fill="#2563eb">弧 CD＝4x</text>
+  <text x="279" y="20" fontSize="13" textAnchor="middle" fill="#16a34a">弧 DB</text>
+  <path d="M16 68V76H302V68" stroke="currentColor" fill="none"/>
+  <text x="159" y="91" fontSize="13" textAnchor="middle" fill="currentColor">半圓共 180°</text>
+</svg>
+
+\[
+x+4x+x=180^\circ
+\]
+
+\[
+6x=180^\circ
+\]
+
+\[
+x=30^\circ
+\]
+
+因此圓心角：
+
+\[
+\boxed{\angle COD=120^\circ}
+\]
+
+### 步驟②：求扇形 COD 面積
+
+半徑為：
+
+\[
+r=12\div2=6
+\]
+
+\[
+\begin{aligned}
+S_{\text{扇形}}&=\pi\times6^2\times\frac{120}{360}\\
+&=\boxed{12\pi}
+\end{aligned}
+\]
+
+### 步驟③：求三角形 COD 面積
+
+從圓心 O 向弦 CD 作垂線，垂足為 M。
+
+因為 △COD 為等腰三角形，所以 OM 平分圓心角及弦 CD。
+
+<card gap={1}>
+<svg viewBox="0 0 320 180" width="100%">
+  <path d="M160 20L45.685 86H274.315Z" fill="#f59e0b" fillOpacity=".12" stroke="#d97706" strokeWidth="2"/>
+  <path d="M160 20V86" stroke="#2563eb" strokeWidth="2" strokeDasharray="5 3"/>
+  <path d="M160 75H171V86" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+  <path d="M135.75 34A28 28 0 0 0 160 48M160 48A28 28 0 0 0 184.25 34" stroke="#d97706" fill="none"/>
+  <text x="128" y="56" fontSize="13" fill="#d97706">60°</text>
+  <text x="170" y="56" fontSize="13" fill="#d97706">60°</text>
+  <text x="153" y="13" fontSize="14" fill="currentColor">O</text>
+  <text x="29" y="92" fontSize="14" fill="currentColor">C</text>
+  <text x="281" y="92" fontSize="14" fill="currentColor">D</text>
+  <text x="154" y="103" fontSize="14" fill="currentColor">M</text>
+  <text x="92" y="44" fontSize="15" fill="currentColor">6</text>
+  <text x="222" y="44" fontSize="15" fill="currentColor">6</text>
+  <text x="146" y="74" fontSize="15" fill="#2563eb">3</text>
+  <text x="99" y="105" fontSize="14" textAnchor="middle" fill="#2563eb">3√3</text>
+  <text x="220" y="105" fontSize="14" textAnchor="middle" fill="#2563eb">3√3</text>
+  <path d="M45.685 120V130M45.685 125H274.315M274.315 120V130" stroke="currentColor"/>
+  <text x="160" y="147" textAnchor="middle" fontSize="15" fill="currentColor">底 CD＝6√3</text>
+  <text x="160" y="169" textAnchor="middle" fontSize="13" fill="#2563eb">高 OM＝3</text>
+</svg>
+<caption>利用 30°、60°、90° 特殊直角三角形的邊長比例 1：√3：2。</caption>
+</card>
+
+\[
+OM=6\div2=3
+\]
+
+\[
+CM=MD=3\sqrt3
+\]
+
+所以：
+
+\[
+CD=6\sqrt3
+\]
+
+三角形面積為：
+
+\[
+\begin{aligned}
+S_{\triangle COD}&=\frac12\times6\sqrt3\times3\\
+&=\boxed{9\sqrt3}
+\end{aligned}
+\]
+
+### 步驟④：求著色部分面積
+
+弓形面積＝扇形面積－三角形面積。
+
+\[
+S=12\pi-9\sqrt3
+\]
+
+<box border radius="lg" padding={3} align="center">
+  <caption>最終答案</caption>
+  <title size="2xl" color="success">\(12\pi-9\sqrt3\)</title>
+</box>
+
+## 四、與前面填充第2題比較
+
+這兩題都是弓形面積題，半徑也同樣為 6，但圓心角不同。
+
+| 比較項目 | 填充第2題 | 計算第3題 |
+|---|---|---|
+| 半徑 | 6 | 6 |
+| 圓心角 | 60° | 120° |
+| 扇形面積 | \(6\pi\) | \(12\pi\) |
+| 三角形面積 | \(9\sqrt3\) | \(9\sqrt3\) |
+| 弓形面積 | \(6\pi-9\sqrt3\) | \(12\pi-9\sqrt3\) |
+
+<svg viewBox="0 0 340 165" width="100%">
+  <path d="M20 118L85 5.417A130 130 0 0 1 150 118Z" fill="#3b82f6" fillOpacity=".08" stroke="#2563eb" strokeWidth="1.5"/>
+  <path d="M85 5.417A130 130 0 0 1 150 118Z" fill="#3b82f6" fillOpacity=".35" stroke="#2563eb" strokeWidth="1.5"/>
+  <path d="M20 118L85 5.417L150 118Z" fill="#f59e0b" fillOpacity=".12" stroke="#d97706" strokeWidth="1.5"/>
+  <text x="54" y="99" fontSize="14" fill="currentColor">60°</text>
+  <path d="M182.842 60L250 21.225L317.158 60A77.55 77.55 0 0 1 182.842 60Z" fill="#3b82f6" fillOpacity=".35" stroke="#2563eb" strokeWidth="1.5"/>
+  <path d="M182.842 60L250 21.225L317.158 60Z" fill="#f59e0b" fillOpacity=".6" stroke="#d97706" strokeWidth="1.5"/>
+  <text x="250" y="49" textAnchor="middle" fontSize="13" fill="currentColor">120°</text>
+  <text x="85" y="142" textAnchor="middle" fontSize="13" fill="currentColor">填充第2題</text>
+  <text x="250" y="142" textAnchor="middle" fontSize="13" fill="currentColor">計算第3題</text>
+</svg>
+<caption>比較示意圖（兩圖顯示比例不同）：藍色為弓形，橘色為三角形。</caption>
+
+值得注意的是，兩題的三角形面積恰好相等，但扇形面積不同。不能因為題型相似，就直接套用上一題的答案。
+
+## 五、錯因診斷
+
+本題沒有完整的原始作答紀錄，因此只能辨認可能的解題障礙：
+
+| 可能卡關處 | 應掌握的觀念 |
+|---|---|
+| 無法求圓心角 | 平行弦所夾的弧相等 |
+| 不知道如何列式 | \(x+4x+x=180^\circ\) |
+| 不會求三角形面積 | 作垂線，找特殊直角三角形 |
+| 不會求著色面積 | 扇形減去三角形 |
+
+## 六、考場快速自我檢核
+
+**平行找等弧、半圓找 180°、弓形找面積差。**
+
+這題與前面的填充第2題具有相同的核心觀念，建議直接利用這兩道原有錯題進行比較，不必額外增加練習題。優先建立從圖形找出圓心角，再拆解面積的能力。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>知識範圍：九上數學 2-2 圓心角、圓周角與弧的關係。</caption>
+<caption>跨題關聯：填充第2題、計算第1題及計算第3題，皆涉及弓形的幾何辨識。</caption>
+<caption>P0 複核：弧度分配 30°＋120°＋30°＝180°；面積約為 22.11，小於半圓面積 18π，符合原題圖形。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:41:00.029837+08:00]
+[使用者原卷附件 08]
+3@錯題A → D
+
+[assistant 2026-11-27T22:41:03.906386+08:00]
+# 第3題｜蘇伊士運河與巴拿馬運河
+
+<row align="center">
+  <badge color="danger">原選 A：洲別交界</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">試卷訂正 D：重要性</badge>
+</row>
+
+## 一、題意與核心觀念
+
+本題要求比較蘇伊士運河與巴拿馬運河的洲別交界、銜接海域、所屬國家及重要性。
+
+**每個選項都有兩項敘述，必須兩項都正確，才能選擇。**
+
+## 二、地理位置圖解
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="Suez Canal map Egypt Sinai Africa Asia Mediterranean Red Sea labeled geography map" aspectRatio="4:3" fit="contain"/>
+    **蘇伊士運河**
+    <text size="sm">位於埃及，分隔亞洲與非洲，連接地中海與紅海。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Panama Canal map Panama Central America Caribbean Sea Pacific Ocean labeled geography map" aspectRatio="4:3" fit="contain"/>
+    **巴拿馬運河**
+    <text size="sm">位於中美洲的巴拿馬，連通大西洋與太平洋。</text>
+  </grid-item>
+</grid>
+
+<card gap={2}>
+  <svg viewBox="0 0 340 225" width="100%">
+    <rect x="6" y="5" width="328" height="101" rx="8" fill="#3b82f6" fillOpacity=".06" stroke="#888888" strokeOpacity=".4"/>
+    <text x="170" y="23" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">蘇伊士運河</text>
+    <rect x="18" y="39" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <rect x="126" y="39" width="88" height="40" rx="5" fill="#d97706" fillOpacity=".15"/>
+    <rect x="234" y="39" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <text x="62" y="63" textAnchor="middle" fontSize="14" fill="currentColor">地中海</text>
+    <text x="170" y="55" textAnchor="middle" fontSize="12" fill="currentColor">運河</text>
+    <text x="170" y="70" textAnchor="middle" fontSize="12" fill="#d97706">埃及</text>
+    <text x="278" y="63" textAnchor="middle" fontSize="14" fill="currentColor">紅海</text>
+    <path d="M108 59H124M216 59H232" stroke="#2563eb" strokeWidth="2"/>
+    <text x="170" y="96" textAnchor="middle" fontSize="12" fill="currentColor">縮短歐洲與亞洲之間的航程</text>
+    <rect x="6" y="119" width="328" height="101" rx="8" fill="#3b82f6" fillOpacity=".06" stroke="#888888" strokeOpacity=".4"/>
+    <text x="170" y="137" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">巴拿馬運河</text>
+    <rect x="18" y="153" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <rect x="126" y="153" width="88" height="40" rx="5" fill="#d97706" fillOpacity=".15"/>
+    <rect x="234" y="153" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <text x="62" y="177" textAnchor="middle" fontSize="14" fill="currentColor">太平洋</text>
+    <text x="170" y="169" textAnchor="middle" fontSize="12" fill="currentColor">運河</text>
+    <text x="170" y="184" textAnchor="middle" fontSize="12" fill="#d97706">巴拿馬</text>
+    <text x="278" y="177" textAnchor="middle" fontSize="14" fill="currentColor">大西洋</text>
+    <path d="M108 173H124M216 173H232" stroke="#2563eb" strokeWidth="2"/>
+    <text x="170" y="210" textAnchor="middle" fontSize="12" fill="currentColor">不必繞行南美洲南端</text>
+  </svg>
+  <caption>兩條運河都具有縮短國際海運航程的重要功能。</caption>
+</card>
+
+## 三、四選項逐項辨析
+
+| 選項 | 蘇伊士運河 | 巴拿馬運河 | 判斷 |
+|---|---|---|---|
+| A 洲別交界 | 歐洲、亞洲 ❌ | 中美洲、南美洲 ❌ | 錯誤 |
+| B 銜接海域 | 紅海、地中海 ✓ | 太平洋、印度洋 ❌ | 錯誤 |
+| C 所屬國家 | 蘇丹 ❌ | 巴拿馬 ✓ | 錯誤 |
+| D 重要性 | 歐亞海運重要 ✓ | 全球唯一聯洋運河（教材常見表述） | 命題預期答案 |
+
+[assistant 2026-11-27T22:41:03.912711+08:00]
+# 第3題｜蘇伊士運河與巴拿馬運河
+
+<row align="center">
+  <badge color="danger">原選 A：洲別交界</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">試卷訂正 D：重要性</badge>
+</row>
+
+## 一、題意與核心觀念
+
+本題要求比較蘇伊士運河與巴拿馬運河的洲別交界、銜接海域、所屬國家及重要性。
+
+**每個選項都有兩項敘述，必須兩項都正確，才能選擇。**
+
+## 二、地理位置圖解
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="Suez Canal map Egypt Sinai Africa Asia Mediterranean Red Sea labeled geography map" aspectRatio="4:3" fit="contain"/>
+    **蘇伊士運河**
+    <text size="sm">位於埃及，分隔亞洲與非洲，連接地中海與紅海。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Panama Canal map Panama Central America Caribbean Sea Pacific Ocean labeled geography map" aspectRatio="4:3" fit="contain"/>
+    **巴拿馬運河**
+    <text size="sm">位於中美洲的巴拿馬，連通大西洋與太平洋。</text>
+  </grid-item>
+</grid>
+
+<card gap={2}>
+  <svg viewBox="0 0 340 225" width="100%">
+    <rect x="6" y="5" width="328" height="101" rx="8" fill="#3b82f6" fillOpacity=".06" stroke="#888888" strokeOpacity=".4"/>
+    <text x="170" y="23" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">蘇伊士運河</text>
+    <rect x="18" y="39" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <rect x="126" y="39" width="88" height="40" rx="5" fill="#d97706" fillOpacity=".15"/>
+    <rect x="234" y="39" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <text x="62" y="63" textAnchor="middle" fontSize="14" fill="currentColor">地中海</text>
+    <text x="170" y="55" textAnchor="middle" fontSize="12" fill="currentColor">運河</text>
+    <text x="170" y="70" textAnchor="middle" fontSize="12" fill="#d97706">埃及</text>
+    <text x="278" y="63" textAnchor="middle" fontSize="14" fill="currentColor">紅海</text>
+    <path d="M108 59H124M216 59H232" stroke="#2563eb" strokeWidth="2"/>
+    <text x="170" y="96" textAnchor="middle" fontSize="12" fill="currentColor">縮短歐洲與亞洲之間的航程</text>
+    <rect x="6" y="119" width="328" height="101" rx="8" fill="#3b82f6" fillOpacity=".06" stroke="#888888" strokeOpacity=".4"/>
+    <text x="170" y="137" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">巴拿馬運河</text>
+    <rect x="18" y="153" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <rect x="126" y="153" width="88" height="40" rx="5" fill="#d97706" fillOpacity=".15"/>
+    <rect x="234" y="153" width="88" height="40" rx="5" fill="#3b82f6" fillOpacity=".18"/>
+    <text x="62" y="177" textAnchor="middle" fontSize="14" fill="currentColor">太平洋</text>
+    <text x="170" y="169" textAnchor="middle" fontSize="12" fill="currentColor">運河</text>
+    <text x="170" y="184" textAnchor="middle" fontSize="12" fill="#d97706">巴拿馬</text>
+    <text x="278" y="177" textAnchor="middle" fontSize="14" fill="currentColor">大西洋</text>
+    <path d="M108 173H124M216 173H232" stroke="#2563eb" strokeWidth="2"/>
+    <text x="170" y="210" textAnchor="middle" fontSize="12" fill="currentColor">不必繞行南美洲南端</text>
+  </svg>
+  <caption>兩條運河都具有縮短國際海運航程的重要功能。</caption>
+</card>
+
+## 三、四選項逐項辨析
+
+| 選項 | 蘇伊士運河 | 巴拿馬運河 | 判斷 |
+|---|---|---|---|
+| A 洲別交界 | 歐洲、亞洲 ❌ | 中美洲、南美洲 ❌ | 錯誤 |
+| B 銜接海域 | 紅海、地中海 ✓ | 太平洋、印度洋 ❌ | 錯誤 |
+| C 所屬國家 | 蘇丹 ❌ | 巴拿馬 ✓ | 錯誤 |
+| D 重要性 | 歐亞海運重要 ✓ | 全球唯一聯洋運河（教材常見表述） | 命題預期答案 |
+
+## 四、二選一決勝｜A vs. D
+
+<box border radius="lg" padding={3} gap={2}>
+  <text color="danger" weight="medium">A：洲別交界</text>
+  蘇伊士運河位於亞洲與非洲的交界，不是歐洲與亞洲的交界。
+
+  巴拿馬運河位於中美洲，並非中美洲與南美洲的分界線。
+  <divider/>
+  <text color="success" weight="medium">D：重要性</text>
+  蘇伊士運河是歐亞海運的重要捷徑；巴拿馬運河則直接連通太平洋與大西洋。
+</box>
+
+特別注意：**服務歐亞海運，不代表位於歐亞兩洲交界。**
+
+這是 A 與 D 最值得辨析的觀念。
+
+另外，D 選項的「全球唯一聯洋運河」若採廣義的地理定義，措辭並不夠嚴謹。本題依國中教材常見分類及其他選項的明確錯誤，應選 D。
+
+## 五、正確觀念整理
+
+| 比較項目 | 蘇伊士運河 | 巴拿馬運河 |
+|---|---|---|
+| 所屬國家 | 埃及 | 巴拿馬 |
+| 地理位置 | 亞洲與非洲交界 | 中美洲 |
+| 連接海域 | 地中海、紅海 | 大西洋、太平洋 |
+| 避免繞行 | 非洲好望角 | 南美洲南端 |
+| 船閘設施 | 無 | 有 |
+
+## 六、考場快速自我檢核
+
+**蘇伊士：埃及、亞非、地中海與紅海。**
+
+**巴拿馬：中美洲、太平洋與大西洋。**
+
+遇到表格比較題，不必逐一證明所有敘述，只要發現其中一項明確錯誤，就可以排除整個選項。
+
+本題可能涉及地理位置與海運功能的混淆，但缺乏完整作答過程，尚不能確定實際錯因，也不能確認孩子當時是否真的只剩 A、D 兩個選項。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → D。</caption>
+<caption>知識範圍：九上地理・中南美洲與國際海運。</caption>
+<caption>P0 複核：A、B、C 均有明確錯誤，D 為命題預期答案，但其唯一性表述存在嚴謹性問題。教材原頁尚未查核，不標註頁碼。</caption>
+
+[assistant 2026-11-27T22:41:16.048350+08:00]
+## 四、二選一決勝｜A vs. D
+
+<box border radius="lg" padding={3} gap={2}>
+  <text color="danger" weight="medium">A：洲別交界</text>
+  蘇伊士運河位於亞洲與非洲的交界，不是歐洲與亞洲的交界。
+
+  巴拿馬運河位於中美洲，並非中美洲與南美洲的分界線。
+  <divider/>
+  <text color="success" weight="medium">D：重要性</text>
+  蘇伊士運河是歐亞海運的重要捷徑；巴拿馬運河則直接連通太平洋與大西洋。
+</box>
+
+特別注意：**服務歐亞海運，不代表位於歐亞兩洲交界。**
+
+這是 A 與 D 最值得辨析的觀念。
+
+另外，D 選項的「全球唯一聯洋運河」若採廣義的地理定義，措辭並不夠嚴謹。本題依國中教材常見分類及其他選項的明確錯誤，應選 D。
+
+## 五、正確觀念整理
+
+| 比較項目 | 蘇伊士運河 | 巴拿馬運河 |
+|---|---|---|
+| 所屬國家 | 埃及 | 巴拿馬 |
+| 地理位置 | 亞洲與非洲交界 | 中美洲 |
+| 連接海域 | 地中海、紅海 | 大西洋、太平洋 |
+| 避免繞行 | 非洲好望角 | 南美洲南端 |
+| 船閘設施 | 無 | 有 |
+
+## 六、考場快速自我檢核
+
+**蘇伊士：埃及、亞非、地中海與紅海。**
+
+**巴拿馬：中美洲、太平洋與大西洋。**
+
+遇到表格比較題，不必逐一證明所有敘述，只要發現其中一項明確錯誤，就可以排除整個選項。
+
+本題可能涉及地理位置與海運功能的混淆，但缺乏完整作答過程，尚不能確定實際錯因，也不能確認孩子當時是否真的只剩 A、D 兩個選項。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → D。</caption>
+<caption>知識範圍：九上地理・中南美洲與國際海運。</caption>
+<caption>P0 複核：A、B、C 均有明確錯誤，D 為命題預期答案，但其唯一性表述存在嚴謹性問題。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:41:59.548937+08:00]
+[使用者原卷附件 09]
+10@錯題B → C
+
+[assistant 2026-11-27T22:42:03.469971+08:00]
+# 第10題｜南美洲地形、氣候與自然景觀
+
+<row align="center">
+  <badge color="danger">原選 B</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 C</badge>
+</row>
+
+## 一、題意與核心觀念
+
+電影中的主角從阿根廷出發，經過智利、秘魯、哥倫比亞，最後抵達委內瑞拉。
+
+題目問的是沿途**不會見到**什麼場景。
+
+本題主要考查南美洲的地形、氣候、自然景觀與農業垂直分布，尤其要辨別巴塔哥尼亞高原乾燥的真正原因。
+
+## 二、精準地理圖解
+
+<MapWidgetV2 points={[{"id":"a","name":"阿根廷","address":"Buenos Aires, Argentina","icon":"📍"},{"id":"b","name":"智利","address":"Santiago, Chile","icon":"📍"},{"id":"c","name":"秘魯・馬丘比丘","address":"Machu Picchu, Cusco, Peru","icon":"📍"},{"id":"d","name":"哥倫比亞","address":"Bogotá, Colombia","icon":"📍"},{"id":"e","name":"委內瑞拉","address":"Caracas, Venezuela","icon":"📍"},{"id":"f","name":"巴塔哥尼亞高原","lat":-46.5,"long":-68.5,"icon":"🏔️"}]} carousel={{"visibility":"hidden"}}/>
+
+<caption>地理位置參考圖：標示題幹涉及的國家及景觀位置，並非電影實際行經路線。</caption>
+
+<row align="start">
+  <AsyncImage query="Patagonia Argentina dry semi arid steppe sparse shrubs landscape" aspectRatio="4:3" maxWidth="132px"/>
+  <box gap={1}>
+    **巴塔哥尼亞高原**
+
+    位於安地斯山脈東側，受到雨影效應影響，氣候乾燥，植被以耐旱草類及灌木為主。
+  </box>
+</row>
+<row align="start">
+  <AsyncImage query="Venezuela Llanos tropical savanna wet dry season grassland landscape" aspectRatio="4:3" maxWidth="132px"/>
+  <box gap={1}>
+    **熱帶莽原**
+
+    具有明顯乾、溼季，草原景觀隨季節而改變，例如委內瑞拉的奧里諾科平原。
+  </box>
+</row>
+
+### 巴塔哥尼亞高原為什麼乾燥？
+
+<card gap={2}>
+<svg viewBox="0 0 340 220" width="100%">
+  <defs>
+    <marker id="wind10" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#2563eb"/></marker>
+  </defs>
+  <path d="M0 160H67V185H0Z" fill="#60a5fa" fillOpacity=".5"/>
+  <path d="M67 160L100 120L126 78L155 28L181 90L210 150L240 155L340 155V185H67Z" fill="#b9a17c" stroke="#92734c" strokeWidth="1.5"/>
+  <path d="M126 78L155 28L177 80L158 68L148 77L140 63Z" fill="#e2e8f0"/>
+  <path d="M15 100C55 100 87 84 120 49" stroke="#2563eb" strokeWidth="2.5" markerEnd="url(#wind10)" fill="none"/>
+  <path d="M178 48Q217 70 249 125" stroke="#d97706" strokeWidth="2.5" strokeDasharray="5 3" fill="none"/>
+  <g fill="#94a3b8">
+    <ellipse cx="83" cy="48" rx="24" ry="12"/>
+    <ellipse cx="100" cy="43" rx="21" ry="14"/>
+    <ellipse cx="113" cy="51" rx="18" ry="10"/>
+  </g>
+  {#each [77,89,101,113] as x}
+    <path d={`M${x} 65l-6 15M${x} 86l-6 15`} stroke="#2563eb" strokeWidth="2"/>
+  {/each}
+  {#each [245,273,301,325] as x}
+    <path d={`M${x} 155l-5 -9m5 9l5 -11m-5 11v-14`} stroke="#77904c" strokeWidth="2" fill="none"/>
+  {/each}
+  <text x="155" y="16" textAnchor="middle" fontSize="13" fill="currentColor">安地斯山脈</text>
+  <text x="13" y="85" fontSize="13" fill="#2563eb">盛行西風</text>
+  <text x="68" y="119" fontSize="12" fill="#2563eb">降雨多</text>
+  <text x="239" y="85" fontSize="13" fill="#d97706">背風側乾燥</text>
+  <text x="30" y="177" fontSize="12" textAnchor="middle" fill="#1d4ed8">太平洋</text>
+  <text x="111" y="201" fontSize="12" textAnchor="middle" fill="currentColor">智利</text>
+  <text x="265" y="201" fontSize="13" textAnchor="middle" fill="currentColor">巴塔哥尼亞高原</text>
+  <text x="265" y="217" fontSize="12" textAnchor="middle" fill="currentColor">阿根廷</text>
+</svg>
+<caption>西風帶來的水氣受到安地斯山脈阻擋，西側降雨較多，東側形成乾燥的雨影區。</caption>
+</card>
+
+## 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A 印加遺址馬丘比丘城 | 可見 | 位於秘魯的安地斯山區 |
+| B 草原、叢林、高山、深雪 | <text color="danger">誤選</text> | 南美洲緯度與海拔差異大，沿途可能出現這些景觀 |
+| C 巴塔哥尼亞高原的莽原因乾溼季形成枯榮景觀 | <text color="success">正解</text> | 將乾燥草原與熱帶莽原的氣候特徵混淆 |
+| D 安地斯山土地利用隨高度垂直變化 | 可見 | 海拔不同，氣溫及適合種植的作物也不同 |
+
+## 四、二選一決勝｜B vs. C
+
+<box border radius="lg" padding={3} gap={2}>
+  <text color="danger" weight="medium">B：草原、叢林、高山、深雪</text>
+  南美洲不只有熱帶氣候，安地斯山脈海拔很高，即使位於低緯度地區，也可能出現積雪。
+  <divider/>
+  <text color="success" weight="medium">C：巴塔哥尼亞高原具有熱帶莽原景觀</text>
+  巴塔哥尼亞高原主要受到地形雨影效應影響，形成乾燥草原及半沙漠景觀，並非典型的熱帶乾溼季莽原。
+</box>
+
+**決定性差異：B 的景觀可以同時存在於南美洲不同地區；C 則將不同氣候區的特徵錯誤配對。**
+
+## 五、觀念透析｜兩種草原的差異
+
+| 比較項目 | 巴塔哥尼亞乾燥草原 | 熱帶莽原 |
+|---|---|---|
+| 緯度 | 主要位於南半球中緯度 | 低緯度 |
+| 氣候特徵 | 乾燥、風強 | 終年高溫、乾溼季分明 |
+| 主要形成原因 | 安地斯山脈雨影效應 | 季節性降雨變化 |
+| 植被 | 耐旱草類、低矮灌木 | 高草、散生樹木 |
+
+## 六、考場快速自我檢核
+
+看到南美洲自然景觀題，先從三個條件判斷：
+
+- **緯度：**影響氣溫。
+- **海拔：**海拔越高，氣溫通常越低。
+- **地形：**山脈阻擋水氣，造成迎風側與背風側的降雨差異。
+
+本題可能是忽略海拔對氣溫的影響，或未能區分乾燥草原與熱帶莽原。但缺乏原始思考過程，實際錯因尚未確認。
+
+**記憶口訣：安地斯山西溼東乾（南部西風帶）；巴塔哥尼亞乾燥，熱帶莽原乾溼分明。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：B → C。</caption>
+<caption>知識範圍：九上地理・中南美洲的地形與氣候。</caption>
+<caption>錯題分類：氣候與自然景觀配對、地形影響氣候、反向題判斷。</caption>
+<caption>P0：已依原題逐項辨析並複核答案 C。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:42:44.753845+08:00]
+[使用者原卷附件 10]
+16@錯題A → D
+
+[assistant 2026-11-27T22:42:48.767808+08:00]
+# 第16題｜中南美洲的殖民地式經濟
+
+<row align="center">
+  <badge color="danger">原選 A</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 D</badge>
+</row>
+
+## 一、題意與核心觀念
+
+中南美洲受到殖民地式經濟的影響，資金難以累積，因此經濟發展普遍不佳。這與哪一種貿易狀況的關係最大？
+
+題幹的關鍵詞是：
+
+**殖民地式經濟、資金難以累積。**
+
+傳統殖民地式經濟的主要特徵是輸出初級產品，進口工業製成品，容易形成對外經濟依賴。
+
+## 二、精準圖解｜殖民地式經濟
+
+<card gap={2}>
+<svg viewBox="0 0 340 290" width="100%">
+  <defs>
+    <marker id="export16" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#16a34a"/></marker>
+    <marker id="import16" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#2563eb"/></marker>
+  </defs>
+  <rect x="8" y="10" width="138" height="158" rx="9" fill="#16a34a" fillOpacity=".07" stroke="#16a34a"/>
+  <rect x="194" y="10" width="138" height="158" rx="9" fill="#2563eb" fillOpacity=".07" stroke="#2563eb"/>
+  <text x="77" y="32" textAnchor="middle" fontSize="15" fontWeight="bold" fill="currentColor">中南美洲</text>
+  <text x="263" y="32" textAnchor="middle" fontSize="15" fontWeight="bold" fill="currentColor">工業發達國家</text>
+  <g transform="translate(23 48)">
+    <path d="M0 42Q25 6 50 42T100 42V65H0Z" fill="#81a34f"/>
+    <path d="M8 64L32 39M29 65L48 43M54 65L67 43M76 65L91 43" stroke="#e5d6a1" strokeWidth="3"/>
+    <path d="M53 38V9M53 16Q33 0 28 13Q38 25 53 22M53 17Q71 0 80 12Q70 26 53 23" fill="#16a34a" stroke="#16a34a" strokeWidth="2"/>
+    <path d="M77 66L89 45L107 66Z" fill="#777777"/>
+  </g>
+  <g transform="translate(207 51)">
+    <path d="M0 62V28L28 13V30L54 13V30L79 15V62Z" fill="#94a3b8" stroke="#64748b"/>
+    <rect x="82" y="0" width="13" height="62" fill="#64748b"/>
+    {#each [10,33,56] as x}
+      <rect x={x} y="40" width="13" height="12" fill="#e0f2fe"/>
+    {/each}
+  </g>
+  <text x="77" y="135" textAnchor="middle" fontSize="13" fill="currentColor">咖啡、香蕉、牛肉</text>
+  <text x="77" y="153" textAnchor="middle" fontSize="13" fill="currentColor">銅礦、鐵礦等</text>
+  <text x="263" y="135" textAnchor="middle" fontSize="13" fill="currentColor">汽車、機械</text>
+  <text x="263" y="153" textAnchor="middle" fontSize="13" fill="currentColor">電子及工業製品</text>
+  <path d="M25 196H313" stroke="#16a34a" strokeWidth="2.5" markerEnd="url(#export16)"/>
+  <text x="170" y="188" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#16a34a">輸出農牧礦產</text>
+  <path d="M313 233H25" stroke="#2563eb" strokeWidth="2.5" markerEnd="url(#import16)"/>
+  <text x="170" y="225" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#2563eb">進口工業產品</text>
+  <text x="170" y="270" textAnchor="middle" fontSize="14" fill="currentColor">容易形成經濟依賴，資金累積不易</text>
+</svg>
+<caption>傳統殖民地式經濟的貿易結構示意圖。</caption>
+</card>
+
+初級產品通常加工程度較低，附加價值有限，價格也容易受到國際市場波動影響；工業製成品則通常具有較高的附加價值。
+
+長期依賴這種貿易模式，容易使本地工業發展及資金累積受到限制。
+
+## 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A 輸出低價農作，進口昂貴礦產 | <text color="danger">誤選</text> | 礦產也是中南美洲傳統的重要輸出品 |
+| B 輸出加工產品，進口農礦原料 | 錯誤 | 較接近工業發達國家的貿易模式 |
+| C 輸出工業產品，進口糧食作物 | 錯誤 | 不符合傳統殖民地式經濟的主要特徵 |
+| D 輸出農牧礦產，進口工業產品 | <text color="success">正確</text> | 符合初級產品輸出、工業產品進口的經濟結構 |
+
+## 四、二選一決勝｜A vs. D
+
+<box border radius="lg" padding={3} gap={2}>
+  <text color="danger" weight="medium">A：輸出低價農作，進口昂貴礦產</text>
+  <row align="center">
+    <box flex={1} align="center" background="surface-secondary" radius="md" padding={2}>
+      <icon name="wheat" size="3xl"/>
+      輸出農作
+    </box>
+    <box flex={1} align="center" background="surface-secondary" radius="md" padding={2}>
+      <icon name="gem" size="3xl"/>
+      進口礦產
+    </box>
+  </row>
+  錯在將礦產列為主要進口品。
+  <divider/>
+  <text color="success" weight="medium">D：輸出農牧礦產，進口工業產品</text>
+  <row align="center">
+    <box flex={1} align="center" background="surface-secondary" radius="md" padding={2}>
+      <row align="center">
+        <icon name="wheat" size="xl"/>
+        <icon name="beef" size="xl"/>
+        <icon name="gem" size="xl"/>
+      </row>
+      輸出初級產品
+    </box>
+    <box flex={1} align="center" background="surface-secondary" radius="md" padding={2}>
+      <row align="center">
+        <icon name="car" size="xl"/>
+        <icon name="factory" size="xl"/>
+      </row>
+      進口工業產品
+    </box>
+  </row>
+  正確掌握殖民地式經濟的貿易方向。
+</box>
+
+A 選項利用「低價」與「昂貴」的文字，讓人容易聯想到資金難以累積。
+
+但是，**不能只看價格高低，還要確認進出口商品的種類是否正確。**
+
+## 五、觀念透析｜中南美洲的重要輸出品
+
+| 國家 | 代表性農牧礦產品 |
+|---|---|
+| 巴西 | 咖啡、黃豆、鐵礦 |
+| 阿根廷 | 小麥、牛肉、黃豆 |
+| 智利 | 銅礦 |
+| 哥倫比亞 | 咖啡 |
+| 委內瑞拉 | 石油 |
+
+從這些例子就可以發現，礦產也是重要的輸出資源，因此能迅速排除 A。
+
+上述是代表性產品及傳統經濟結構，並不表示現今中南美洲各國都沒有工業發展。
+
+## 六、考場快速自我檢核
+
+**記憶口訣：原料向外賣，工業品向內買。**
+
+看到「殖民地式經濟」，立即確認三件事：
+
+- 輸出：農、牧、礦等初級產品。
+- 進口：加工及工業製成品。
+- 影響：經濟依賴、資金累積不易。
+
+本題可能是受到 A 選項「低價、昂貴」的文字干擾，而忽略商品種類與貿易方向。但缺乏完整作答過程，實際錯因尚未確認。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → D。</caption>
+<caption>知識範圍：九上地理・中南美洲的產業與經濟發展。</caption>
+<caption>錯題分類：經濟結構辨識、進出口方向、干擾選項辨析。</caption>
+<caption>P0 複核：已依原題四選項獨立判斷，答案 D 正確。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:43:13.625983+08:00]
+[使用者原卷附件 11]
+18@錯題B → C
+
+[assistant 2026-11-27T22:43:18.452096+08:00]
+# 第18題｜智利的氣候分布
+
+<row align="center">
+  <badge color="danger">原選 B</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 C</badge>
+</row>
+
+## 一、題意與核心觀念
+
+智利是一個南北狹長的國家，若從智利南端一路向北，最可能依序經過哪些氣候區？
+
+本題有兩個關鍵：
+
+- 智利位於南半球，越往北越接近赤道。
+- 題目要求的是「由南向北」的氣候排列順序。
+
+## 二、精準地理圖解
+
+<card gap={3}>
+  <row align="center">
+    <AsyncImage query="Chile geography climate zones map Atacama desert Mediterranean central Chile oceanic southern Chile" aspectRatio="2:5" fit="contain" maxWidth="145px"/>
+    <box flex={1} gap={3}>
+      <caption>北方｜接近赤道</caption>
+      <row align="center">
+        <AsyncImage query="Atacama desert Chile arid landscape" aspectRatio="4:3" maxWidth="84px"/>
+        <box gap={1}>
+          **熱帶沙漠氣候**
+          <text size="sm">阿塔卡馬沙漠，終年乾燥少雨。</text>
+        </box>
+      </row>
+      <divider/>
+      <row align="center">
+        <AsyncImage query="Central Chile Mediterranean climate vineyard green hills" aspectRatio="4:3" maxWidth="84px"/>
+        <box gap={1}>
+          **溫帶地中海型氣候**
+          <text size="sm">夏乾冬雨，適合種植葡萄。</text>
+        </box>
+      </row>
+      <divider/>
+      <row align="center">
+        <AsyncImage query="Southern Chile Valdivian temperate rainforest rainy green landscape" aspectRatio="4:3" maxWidth="84px"/>
+        <box gap={1}>
+          **溫帶海洋性氣候**
+          <text size="sm">受到西風與海洋影響，降雨較多。</text>
+        </box>
+      </row>
+      <caption>南方｜較高緯度</caption>
+    </box>
+  </row>
+  <divider/>
+  <svg viewBox="0 0 330 100" width="100%">
+    <text x="55" y="15" textAnchor="middle" fontSize="13" fill="currentColor">南端出發</text>
+    <text x="275" y="15" textAnchor="middle" fontSize="13" fill="currentColor">向北前進</text>
+    {#each [{x:5,c:"#2563eb",a:"海洋性",b:"溼潤"},{x:115,c:"#16a34a",a:"地中海型",b:"夏乾冬雨"},{x:225,c:"#d97706",a:"沙漠",b:"乾燥"}] as z}
+      <rect x={z.x} y="28" width="100" height="64" rx="6" fill={z.c} fillOpacity=".12" stroke={z.c}/>
+      <text x={z.x+50} y="53" fontSize="15" fontWeight="bold" textAnchor="middle" fill={z.c}>{z.a}</text>
+      <text x={z.x+50} y="76" fontSize="13" textAnchor="middle" fill="currentColor">{z.b}</text>
+    {/each}
+    <path d="M105 60H115M110 55L115 60L110 65M215 60H225M220 55L225 60L220 65" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+  </svg>
+  <caption>國中地理主要氣候帶簡化示意：由南向北為海洋性、地中海型、沙漠氣候。</caption>
+</card>
+
+## 三、觀念透析｜為什麼智利有三種主要氣候？
+
+| 地區 | 主要氣候 | 形成原因 |
+|---|---|---|
+| 北部 | 熱帶沙漠氣候 | 祕魯寒流、副熱帶高壓等因素 |
+| 中部 | 溫帶地中海型氣候 | 夏季受副熱帶高壓影響，冬季受西風影響 |
+| 南部 | 溫帶海洋性氣候 | 盛行西風帶來海洋水氣 |
+
+特別注意，智利北部雖然靠近太平洋，卻十分乾燥，因為沿岸的祕魯寒流不利於降雨形成。
+
+## 四、四選項逐項辨析
+
+| 選項 | 氣候排列順序 | 判斷 |
+|---|---|---|
+| A | 大陸性 → 地中海型 → 雨林 | 錯誤 |
+| B | 地中海型 → 海洋性 → 沙漠 | <text color="danger">誤選，前兩者顛倒</text> |
+| C | 海洋性 → 地中海型 → 沙漠 | <text color="success">正確</text> |
+| D | 大陸性 → 海洋性 → 雨林 | 錯誤 |
+
+智利北部以沙漠氣候為代表，因此可以先排除 A、D，再比較 B、C 的排列順序。
+
+## 五、二選一決勝｜B vs. C
+
+<box border radius="lg" padding={3} gap={3}>
+  {#each [{name:"B 誤選",items:["地中海型","海洋性","沙漠"],colors:["#16a34a","#2563eb","#d97706"],correct:false},{name:"C 正解",items:["海洋性","地中海型","沙漠"],colors:["#2563eb","#16a34a","#d97706"],correct:true}] as a}
+    <text color={a.correct?"success":"danger"} weight="medium">{a.name}</text>
+    <row gap={1} align="center">
+      {#each a.items as item,i}
+        {#if i>0}<icon name="arrow-right" size="sm"/>{/if}
+        <box flex={1} background="surface-secondary" radius="md" padding={2} align="center">
+          <text color={a.colors[i]} weight="medium" size="sm">{item}</text>
+        </box>
+      {/each}
+    </row>
+    <caption>{a.correct?"南部海洋性、中部地中海型、北部沙漠。":"南部與中部的氣候位置顛倒。"}</caption>
+  {/each}
+</box>
+
+B、C 都包含正確的三種主要氣候，唯一差異是前兩種氣候的排列順序。
+
+**決定性條件：智利中部才是地中海型氣候，南部則以溫帶海洋性氣候為代表。**
+
+孩子可能已經知道智利的三種主要氣候，但對氣候帶的空間位置掌握不夠精確。由於沒有完整作答過程，實際錯因尚不能確定。
+
+## 六、考場快速自我檢核
+
+**記憶口訣：智利北乾、中夏乾、南溼。**
+
+- 北部：終年乾燥的沙漠。
+- 中部：夏乾冬雨的地中海型氣候。
+- 南部：較溼潤的海洋性氣候。
+
+遇到地理排列順序題，先確定起點與終點，再排列中間的位置，不要只確認選項中的名詞是否正確。
+
+### 與前面第10題的觀念連結
+
+第10題與本題都涉及南美洲氣候分布，可以一起理解：
+
+- 智利南部：西風迎風側，降雨較多。
+- 巴塔哥尼亞高原：安地斯山脈背風側，較為乾燥。
+
+利用原有兩道錯題建立完整的地理空間概念即可，不必額外增加練習題。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：B → C。</caption>
+<caption>知識範圍：九上地理・中南美洲的氣候分布。</caption>
+<caption>錯題分類：空間位置辨識、氣候排列順序。</caption>
+<caption>P0 複核：四選項已獨立辨析，答案 C 正確。氣候分布採國中地理簡化分類，未細分極南端及高山氣候。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:43:57.577392+08:00]
+[使用者原卷附件 12]
+19@錯題
+
+[assistant 2026-11-27T22:44:02.732749+08:00]
+# 第19題｜南美洲氣候圖判讀
+
+<row align="center">
+  <badge color="danger">原選 D：辛</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 B：乙</badge>
+</row>
+
+## 一、題意與核心觀念
+
+圖（一）為南美洲氣候分區圖，圖（二）為某國首都的氣候圖，請判斷該首都位於哪一個氣候區。
+
+本題不能只靠地圖位置猜測，必須先從氣候圖判斷：
+
+- 氣溫高低與年溫差。
+- 降雨量的季節分布。
+- 南、北半球的季節差異。
+
+## 二、精準圖解｜氣候圖判讀
+
+<card gap={2}>
+  <svg viewBox="0 0 340 285" width="100%">
+    <rect x="161" y="38" width="79" height="180" fill="#d97706" fillOpacity=".09"/>
+    <rect x="48" y="38" width="76" height="180" fill="#2563eb" fillOpacity=".07"/>
+    <rect x="258" y="38" width="58" height="180" fill="#2563eb" fillOpacity=".07"/>
+    {#each [0,50,100,150,200,250,300] as v}
+      <path d={`M48 ${218-v*.6}H316`} stroke="currentColor" strokeOpacity=".12"/>
+      <text x="322" y={222-v*.6} fontSize="10" fill="currentColor">{v}</text>
+    {/each}
+    {#each [0,10,20,30] as v}
+      <text x="39" y={222-v*6} fontSize="11" textAnchor="end" fill="#dc2626">{v}</text>
+    {/each}
+    {#each [240,215,190,125,40,8,5,12,50,175,240,250] as v,i}
+      <rect x={51+i*22} y={218-v*.6} width="16" height={v*.6} fill="#60a5fa" stroke="#2563eb" strokeWidth=".7"/>
+      <text x={59+i*22} y="233" fontSize="10" textAnchor="middle" fill="currentColor">{i+1}</text>
+    {/each}
+    <polyline points={[22,22,22,21,19.5,18.5,18.5,20,22,23,22.5,22].map((v,i)=>`${59+i*22},${218-v*6}`).join(" ")} fill="none" stroke="#dc2626" strokeWidth="2.5"/>
+    <path d="M48 38V218H316V38" fill="none" stroke="currentColor"/>
+    <text x="8" y="27" fontSize="11" fill="#dc2626">氣溫°C</text>
+    <text x="335" y="27" textAnchor="end" fontSize="11" fill="#2563eb">降雨量mm</text>
+    <text x="183" y="65" textAnchor="middle" fontSize="13" fontWeight="bold" fill="#dc2626">全年溫暖、年溫差小</text>
+    <text x="200" y="166" textAnchor="middle" fontSize="13" fill="#d97706">冬季乾燥</text>
+    <text x="84" y="252" textAnchor="middle" fontSize="12" fill="#2563eb">夏季雨多</text>
+    <text x="200" y="252" textAnchor="middle" fontSize="12" fill="#d97706">冬季雨少</text>
+    <text x="285" y="252" textAnchor="middle" fontSize="12" fill="#2563eb">夏季雨多</text>
+    <text x="180" y="277" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">南半球的熱帶莽原氣候</text>
+  </svg>
+  <caption>依原題氣候圖的趨勢重繪，月溫及雨量為近似值，並非原始精確統計數據。</caption>
+</card>
+
+### 步驟①：看氣溫
+
+原圖年均溫約為 21.2°C，各月氣溫變化不大。
+
+代表當地全年溫暖，符合熱帶莽原氣候的特徵。
+
+### 步驟②：看降雨
+
+原圖顯示：
+
+- 11～3月：降雨較多。
+- 6～8月：降雨極少。
+
+具有明顯的乾季與溼季，因此不是全年多雨的熱帶雨林氣候。
+
+### 步驟③：判斷季節
+
+南半球的季節與臺灣相反。
+
+| 月份 | 南半球季節 | 降雨特徵 |
+|---|---|---|
+| 12～2月 | 夏季 | 多雨 |
+| 6～8月 | 冬季 | 乾燥 |
+
+因此，此地具有**夏雨冬乾**的氣候特徵，符合熱帶莽原氣候，對應原圖的乙區。
+
+## 三、四選項逐項辨析
+
+| 選項 | 原圖位置及氣候 | 判斷 |
+|---|---|---|
+| A 甲 | 亞馬孫河流域：熱帶雨林氣候 | 全年多雨，錯誤 |
+| B 乙 | 巴西高原廣大地區：熱帶莽原氣候 | <text color="success">正確</text> |
+| C 庚 | 智利中部：溫帶地中海型氣候 | 夏乾冬雨，錯誤 |
+| D 辛 | 智利南部：溫帶海洋性氣候 | <text color="danger">誤選，氣溫及降雨特徵不符</text> |
+
+## 四、二選一決勝｜B vs. D
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="Brazil Cerrado tropical savanna grassland scattered trees landscape" aspectRatio="4:3"/>
+    **B：乙區**
+    <text color="success" weight="medium">熱帶莽原氣候</text>
+    <svg viewBox="0 0 150 100" width="100%">
+      {#each [80,70,65,40,15,3,2,5,18,55,75,85] as v,i}
+        <rect x={7+i*11.5} y={90-v*.8} width="8" height={v*.8} fill="#60a5fa"/>
+      {/each}
+      <path d="M5 90H145" stroke="currentColor"/>
+      <path d="M10 23Q45 23 75 30T140 23" fill="none" stroke="#dc2626" strokeWidth="2"/>
+      <text x="8" y="99" fontSize="9" fill="currentColor">1月</text>
+      <text x="122" y="99" fontSize="9" fill="currentColor">12月</text>
+    </svg>
+    全年溫暖、夏雨冬乾。
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Southern Chile Valdivian temperate rainforest lush green wet forest landscape" aspectRatio="4:3"/>
+    **D：辛區**
+    <text color="danger" weight="medium">溫帶海洋性氣候</text>
+    <svg viewBox="0 0 150 100" width="100%">
+      {#each [35,32,40,55,65,80,85,75,65,55,45,38] as v,i}
+        <rect x={7+i*11.5} y={90-v*.8} width="8" height={v*.8} fill="#60a5fa"/>
+      {/each}
+      <path d="M5 90H145" stroke="currentColor"/>
+      <path d="M10 40Q42 45 75 58T140 40" fill="none" stroke="#dc2626" strokeWidth="2"/>
+      <text x="8" y="99" fontSize="9" fill="currentColor">1月</text>
+      <text x="122" y="99" fontSize="9" fill="currentColor">12月</text>
+    </svg>
+    氣溫較低、全年有雨。
+  </grid-item>
+</grid>
+<caption>典型氣候特徵比較示意，非實際測站數據。</caption>
+
+**決定性差異：原題在6～8月幾乎沒有降雨，具有明顯乾季，不符合溫帶海洋性氣候的特徵。**
+
+## 五、觀念透析｜四種氣候快速辨識
+
+| 氣候類型 | 氣溫特徵 | 降雨特徵 |
+|---|---|---|
+| 熱帶雨林 | 全年高溫 | 全年多雨 |
+| **熱帶莽原** | 全年溫暖 | **夏雨冬乾** |
+| 地中海型 | 夏熱冬溫 | 夏乾冬雨 |
+| 溫帶海洋性 | 夏涼冬溫 | 全年有雨 |
+
+尤其要注意，熱帶莽原與地中海型氣候都有乾溼季，但降雨季節恰好相反。
+
+## 六、跨題觀念連結
+
+| 本批錯題 | 考查能力 |
+|---|---|
+| 第10題 B → C | 氣候與自然景觀配對 |
+| 第18題 B → C | 氣候的空間分布與排列 |
+| 第19題 D → B | 氣候圖與地理位置配對 |
+
+這三題都集中在南美洲的氣候觀念，值得列為本次段考訂正的優先改善項目。
+
+目前可以確認三題具有共同知識範圍，但尚不能認定是同一錯因造成。
+
+## 七、考場快速自我檢核
+
+**先看氣溫，再看雨量，最後確認半球與位置。**
+
+記憶口訣：
+
+- 雨林：全年雨。
+- 莽原：夏季雨。
+- 地中海：冬季雨。
+- 海洋性：四季有雨。
+
+直接利用本批原有錯題建立氣候辨識能力，不必額外增加練習負擔。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：D → B。</caption>
+<caption>錯題分類：氣候圖判讀、乾溼季辨識、空間位置配對。</caption>
+<caption>實際錯因：缺乏完整作答過程，尚未確認。</caption>
+<caption>P0 複核：原題氣候圖與乙區位置相符，四選項獨立辨析後確認答案 B。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:44:58.717512+08:00]
+[使用者原卷附件 13]
+8@錯題C → D
+
+[assistant 2026-11-27T22:45:03.284170+08:00]
+# 第8題｜英、荷東印度公司的比較
+
+<row align="center">
+  <badge color="danger">原選 C</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 D</badge>
+</row>
+
+## 一、題意與核心觀念
+
+十七世紀初，英國與荷蘭分別成立東印度公司，對世界歷史造成極大的影響。請問兩間公司的比較，何者正確？
+
+本題的核心是理解：**東印度公司並非一般的商業公司，而是受到國家授權、兼具商業與軍事力量的特許公司。**
+
+## 二、精準圖解｜東印度公司的共同特徵
+
+<card gap={2}>
+  <svg viewBox="0 0 340 290" width="100%">
+    {#each [{x:12,name:"英國",year:"1600年",company:"英屬東印度公司",city:"倫敦"},{x:182,name:"荷蘭",year:"1602年",company:"荷蘭聯合東印度公司",city:"阿姆斯特丹"}] as a,i}
+      <rect x={a.x} y="8" width="146" height="119" rx="7" fill="#64748b" fillOpacity=".08" stroke="#94a3b8"/>
+      {#if i===0}
+        <rect x={a.x+48} y="17" width="50" height="30" fill="#183b79"/>
+        <path d={`M${a.x+48} 17l50 30m0 -30l-50 30`} stroke="white" strokeWidth="5"/>
+        <path d={`M${a.x+73} 17v30M${a.x+48} 32h50`} stroke="white" strokeWidth="10"/>
+        <path d={`M${a.x+73} 17v30M${a.x+48} 32h50`} stroke="#dc2626" strokeWidth="5"/>
+      {:else}
+        <rect x={a.x+48} y="17" width="50" height="10" fill="#ae1c28"/>
+        <rect x={a.x+48} y="27" width="50" height="10" fill="#ffffff"/>
+        <rect x={a.x+48} y="37" width="50" height="10" fill="#21468b"/>
+      {/if}
+      <text x={a.x+73} y="64" textAnchor="middle" fontSize="15" fontWeight="bold" fill="currentColor">{a.name}</text>
+      <text x={a.x+73} y="82" textAnchor="middle" fontSize="13" fill="currentColor">{a.year}</text>
+      <text x={a.x+73} y="100" textAnchor="middle" fontSize="12" fill="currentColor">{a.company}</text>
+      <text x={a.x+73} y="117" textAnchor="middle" fontSize="12" fill="currentColor">{a.city}</text>
+    {/each}
+    <path d="M85 127V143H255V127M170 143V160" stroke="currentColor" strokeWidth="1.6" fill="none"/>
+    <rect x="96" y="160" width="148" height="32" rx="5" fill="#64748b" fillOpacity=".12" stroke="#94a3b8"/>
+    <text x="170" y="181" fontSize="15" textAnchor="middle" fontWeight="bold" fill="currentColor">國家授予特權</text>
+    <path d="M170 192V204H85V216M170 204H255V216" stroke="currentColor" strokeWidth="1.6" fill="none"/>
+    <rect x="12" y="216" width="146" height="65" rx="7" fill="#2563eb" fillOpacity=".09" stroke="#2563eb"/>
+    <rect x="182" y="216" width="146" height="65" rx="7" fill="#16a34a" fillOpacity=".09" stroke="#16a34a"/>
+    <text x="85" y="240" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#2563eb">貿易獨占權</text>
+    <text x="85" y="263" textAnchor="middle" fontSize="12" fill="currentColor">經營特定區域貿易</text>
+    <text x="255" y="240" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#16a34a">組織武裝勢力</text>
+    <text x="255" y="263" textAnchor="middle" fontSize="12" fill="currentColor">保護及擴張商業利益</text>
+  </svg>
+  <caption>兩間公司的共同特徵：貿易獨占權與武裝力量。武裝及其他權限是在各自發展過程中取得或擴大的；國旗採現代識別符號。</caption>
+</card>
+
+## 三、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A 只有英屬東印度公司和臺灣有互動 | 錯誤 | 荷蘭東印度公司曾於1624～1662年統治臺灣部分地區 |
+| B 英屬東印度公司的總部設於阿姆斯特丹 | 錯誤 | 英屬東印度公司的總部在倫敦 |
+| C 只有英屬東印度公司擁有政府賦予的貿易獨占權 | <text color="danger">誤選</text> | 荷蘭東印度公司也擁有國家授予的貿易獨占權 |
+| D 兩間公司都被允許籌組武裝勢力 | <text color="success">正確</text> | 兩間公司都具有武裝力量，以維護及擴張商業利益 |
+
+## 四、二選一決勝｜C vs. D
+
+| 關鍵權力 | 英屬東印度公司 | 荷蘭東印度公司 |
+|---|:---:|:---:|
+| 貿易獨占權 | <icon name="check-circle-filled" color="success"/> | <icon name="check-circle-filled" color="success"/> |
+| 籌組武裝勢力 | <icon name="check-circle-filled" color="success"/> | <icon name="check-circle-filled" color="success"/> |
+
+C 選項最重要的陷阱是「**只有**」兩個字。
+
+英屬東印度公司擁有貿易獨占權，這件事本身沒有錯；錯在認為荷蘭東印度公司沒有這項權力。
+
+D 選項使用「兩間公司都」，符合兩者的共同特徵。
+
+**決定性差異：不是英國獨有，而是英、荷共有。**
+
+## 五、觀念透析｜兩間公司的異同
+
+<row align="start">
+  <AsyncImage query="British East India Company historical painting trading ships India port" aspectRatio="4:3" maxWidth="120px"/>
+  <box gap={1}>
+    **英屬東印度公司（1600年）**
+
+    主要勢力逐漸集中於印度，後來由商業貿易發展至政治與軍事控制。
+  </box>
+</row>
+<divider/>
+<row align="start">
+  <AsyncImage query="Dutch East India Company VOC historical Fort Zeelandia Taiwan illustration" aspectRatio="4:3" maxWidth="120px"/>
+  <box gap={1}>
+    **荷蘭聯合東印度公司（1602年）**
+
+    以巴達維亞（今雅加達）為亞洲重要據點，曾在臺灣建立熱蘭遮城，經營東亞貿易。
+  </box>
+</row>
+
+| 比較項目 | 英國 | 荷蘭 |
+|---|---|---|
+| 成立時間 | 1600年 | 1602年 |
+| 歐洲總部 | 倫敦 | 阿姆斯特丹 |
+| 亞洲代表性據點 | 印度 | 巴達維亞、臺灣 |
+| 貿易獨占權 | 有 | 有 |
+| 武裝力量 | 有 | 有 |
+
+## 六、錯因診斷與考場自我檢核
+
+從試卷可見 A、B 選項有劃除痕跡，顯示孩子可能已經成功排除兩個干擾選項，最後在 C、D 之間誤判。但實際思考過程仍待確認。
+
+本題最值得改善的是**絕對性用語的辨識能力**。
+
+遇到「只有、唯一、全部、皆、完全」等字詞，應特別檢查敘述的適用範圍。
+
+例如本題，只要問自己：「荷蘭東印度公司難道沒有貿易獨占權嗎？」就能排除 C。
+
+**記憶口訣：英荷東印度，政府給特權；既能做貿易，也有武裝權。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：C → D。</caption>
+<caption>知識範圍：九上歷史・大航海時代與歐洲海外擴張。</caption>
+<caption>錯題分類：歷史比較、共同特徵辨識、絕對性用語陷阱。</caption>
+<caption>P0 複核：已依原題四選項獨立辨析，確認答案 D。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:45:48.761662+08:00]
+[使用者原卷附件 14]
+21@錯題C → B
+
+[assistant 2026-11-27T22:45:52.379690+08:00]
+# 第21題｜文藝復興運動的興起背景
+
+<row align="center">
+  <badge color="danger">原選 C</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 B</badge>
+</row>
+
+## 一、題意與核心觀念
+
+十四至十六世紀，歐洲興起文藝復興運動。下列有關文藝復興運動興起背景的敘述，何者正確？
+
+本題主要考查**文藝復興的形成原因，以及歷史事件的先後順序**。
+
+文藝復興最早興起於義大利，主要背景包括古典文化的重新發現、商業繁榮及富商支持文藝創作。
+
+## 二、精準圖解｜文藝復興的三大背景
+
+<box gap={3}>
+  <row align="center">
+    <AsyncImage query="Roman Forum ancient Roman ruins Italy" aspectRatio="4:3" maxWidth="112px"/>
+    <box flex={1} gap={1}>
+      **古羅馬文化遺產**
+      
+      義大利保留許多古羅馬遺址，引發人們研究古典文化的興趣。
+    </box>
+  </row>
+  <row align="center">
+    <AsyncImage query="Renaissance Florence wealthy merchants Medici patronage historical painting" aspectRatio="4:3" maxWidth="112px"/>
+    <box flex={1} gap={1}>
+      **商業繁榮與富商支持**
+
+      城市經濟發展，富商有能力資助藝術家及學者。
+    </box>
+  </row>
+  <row align="center">
+    <AsyncImage query="Byzantine Greek scholars ancient Greek manuscripts Renaissance Italy" aspectRatio="4:3" maxWidth="112px"/>
+    <box flex={1} gap={1}>
+      **古希臘典籍傳入**
+
+      拜占庭學者西遷義大利，帶來古希臘典籍，進一步促進古典文化研究。
+    </box>
+  </row>
+  <row justify="center">
+    <icon name="arrow-down" size="xl"/>
+  </row>
+  <box border radius="md" padding={3} align="center">
+    **文藝復興運動**
+    <text color="secondary">復興古典文化、發展人文主義、肯定人的價值與尊嚴</text>
+  </box>
+</box>
+
+## 三、觀念透析｜歷史事件的先後順序
+
+<card gap={2}>
+  <svg viewBox="0 0 340 225" width="100%">
+    <path d="M25 105H320L312 100M320 105L312 110" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+    {#each [1300,1400,1500,1600] as y,i}
+      <path d={`M${30+i*90} 99V112`} stroke="currentColor"/>
+      <text x={30+i*90} y="128" textAnchor="middle" fontSize="12" fill="currentColor">{y}</text>
+    {/each}
+    <rect x="30" y="46" width="270" height="33" rx="5" fill="#2563eb" fillOpacity=".15" stroke="#2563eb"/>
+    <text x="165" y="67" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#2563eb">文藝復興（14～16世紀）</text>
+    <path d="M167.7 80V105" stroke="#64748b" strokeDasharray="3 3"/>
+    <text x="167.7" y="20" textAnchor="middle" fontSize="12" fill="currentColor">1453年</text>
+    <text x="167.7" y="36" textAnchor="middle" fontSize="12" fill="currentColor">拜占庭帝國滅亡</text>
+    <path d="M225.3 105V151" stroke="#d97706" strokeWidth="1.5" strokeDasharray="4 3"/>
+    <circle cx="225.3" cy="105" r="4" fill="#d97706"/>
+    <rect x="135" y="151" width="180" height="48" rx="6" fill="#d97706" fillOpacity=".1" stroke="#d97706"/>
+    <text x="225" y="170" textAnchor="middle" fontSize="13" fill="#d97706">1517年 馬丁路德</text>
+    <text x="225" y="189" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#d97706">宗教改革的重要起點</text>
+    <text x="170" y="219" textAnchor="middle" fontSize="13" fill="currentColor">文藝復興興起早於宗教改革</text>
+  </svg>
+  <caption>兩場運動的發展時期有所重疊，但文藝復興早在宗教改革之前便已興起。</caption>
+</card>
+
+## 四、四選項逐項辨析
+
+| 選項 | 判斷 | 理由 |
+|---|---|---|
+| A 拜占庭學者西遷至希臘避禍 | 錯誤 | 重要的西遷目的地是義大利 |
+| B 義大利留存許多古羅馬遺址，引發古文化研究熱潮 | <text color="success">正確</text> | 符合文藝復興的文化背景 |
+| C 宗教改革使歐洲商業復興，有錢人支持文藝創作 | <text color="danger">誤選</text> | 歷史事件的先後順序與因果關係錯誤 |
+| D 阿拉伯人將翻譯的古典書籍帶回阿拉伯半島 | 錯誤 | 關鍵是古典知識經由翻譯與文化交流傳入西歐 |
+
+## 五、二選一決勝｜C vs. B
+
+<box border radius="lg" padding={3} gap={2}>
+  <text color="danger" weight="medium">C：錯誤的因果關係</text>
+  <box align="center" gap={1}>
+    **宗教改革**
+    <icon name="arrow-down" color="danger"/>
+    商業復興
+    <icon name="arrow-down" color="danger"/>
+    富商支持文藝創作
+    <icon name="x-circle" color="danger" size="xl"/>
+  </box>
+  <caption>富商支持文藝創作確實存在，但不能將商業復興歸因於後來的宗教改革。</caption>
+  <divider/>
+  <text color="success" weight="medium">B：正確的歷史背景</text>
+  <box align="center" gap={1}>
+    **義大利保留古羅馬文化遺產**
+    <icon name="arrow-down" color="success"/>
+    研究古希臘、羅馬文化
+    <icon name="arrow-down" color="success"/>
+    促進文藝復興
+    <icon name="check-circle" color="success" size="xl"/>
+  </box>
+</box>
+
+C 選項的迷惑性在於後半段「有錢人開始支持文藝創作」確實符合史實，但前半段的原因錯誤。
+
+**不能因為選項有一部分正確，就認定整個選項正確。**
+
+## 六、文藝復興與宗教改革比較
+
+| 比較項目 | 文藝復興 | 宗教改革 |
+|---|---|---|
+| 興起時間 | 14世紀 | 16世紀 |
+| 興起地區 | 義大利 | 德意志地區 |
+| 核心觀念 | 人文主義 | 改革教會 |
+| 代表人物 | 佩脫拉克、達文西 | 馬丁路德 |
+| 主要影響 | 文學、藝術、思想發展 | 基督宗教分裂、新教興起 |
+
+## 七、錯因診斷與考場快速自我檢核
+
+本題可能涉及兩種判斷陷阱：歷史事件的時間順序混淆，以及被部分正確的敘述所吸引。缺乏完整作答過程，因此尚不能確認實際錯因。
+
+遇到歷史因果關係題，先問自己：
+
+**「這個原因，是否早於它所造成的結果？」**
+
+只要記得文藝復興在十四世紀已經興起，宗教改革則在十六世紀展開，就能快速排除 C。
+
+**記憶口訣：義大利、古文化、商業盛、富商助；先有文藝復興，後有宗教改革。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：C → B。</caption>
+<caption>知識範圍：九上歷史・文藝復興與宗教改革。</caption>
+<caption>錯題分類：歷史時序、因果關係、部分正確敘述陷阱。</caption>
+<caption>P0 複核：已依原題四選項獨立辨析，確認答案 B。教材原頁尚未查核，不標註頁碼。</caption>
+
+[user 2026-11-27T22:46:43.242509+08:00]
+[使用者原卷附件 15]
+（1）@錯題A → D
+
+[assistant 2026-11-27T22:46:47.269706+08:00]
+# 題組第1題（1）｜大航海時代的探索路線
+
+<row align="center">
+  <badge color="danger">原選 A：甲乙丙</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 D：丙乙甲</badge>
+</row>
+
+## 一、題意與核心觀念
+
+題目列出三位航海家的探索路線：
+
+- 甲：哥倫布從西班牙抵達美洲的西印度群島。
+- 乙：達伽馬從葡萄牙出發，繞過好望角，抵達印度西岸。
+- 丙：麥哲倫船隊完成環繞世界一周的壯舉。
+
+題目要求按照**探索距離由長到短**排列，而不是按照航海年代的先後排列。
+
+## 二、精準圖解｜三大航海路線
+
+<card gap={3}>
+  <AsyncImage query="Age of exploration world map Christopher Columbus Vasco da Gama Ferdinand Magellan circumnavigation three routes labeled world map" aspectRatio="16:9" fit="contain"/>
+  <divider/>
+  <svg viewBox="0 0 340 265" width="100%">
+    <defs>
+      <marker id="navarrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="currentColor"/></marker>
+    </defs>
+    <text x="10" y="20" fontSize="14" fontWeight="bold" fill="#2563eb">甲｜哥倫布（1492年）</text>
+    <rect x="10" y="32" width="83" height="31" rx="5" fill="#2563eb" fillOpacity=".12"/>
+    <rect x="218" y="32" width="112" height="31" rx="5" fill="#2563eb" fillOpacity=".12"/>
+    <text x="51" y="52" fontSize="13" textAnchor="middle" fill="currentColor">西班牙</text>
+    <text x="274" y="52" fontSize="13" textAnchor="middle" fill="currentColor">西印度群島</text>
+    <path d="M98 48H212" stroke="#2563eb" strokeWidth="2" markerEnd="url(#navarrow)"/>
+    <text x="155" y="41" fontSize="12" textAnchor="middle" fill="#2563eb">大西洋</text>
+    <text x="170" y="80" fontSize="12" textAnchor="middle" fill="currentColor">橫越大西洋</text>
+    <path d="M10 92H330" stroke="currentColor" strokeOpacity=".15"/>
+    <text x="10" y="111" fontSize="14" fontWeight="bold" fill="#d97706">乙｜達伽馬（1497～1498年）</text>
+    {#each ["葡萄牙","好望角","印度西岸"] as a,i}
+      <rect x={10+i*116} y="124" width="88" height="31" rx="5" fill="#d97706" fillOpacity=".12"/>
+      <text x={54+i*116} y="144" fontSize="13" textAnchor="middle" fill="currentColor">{a}</text>
+      {#if i<2}<path d={`M${102+i*116} 140h19`} stroke="#d97706" strokeWidth="2" markerEnd="url(#navarrow)"/>{/if}
+    {/each}
+    <text x="170" y="173" fontSize="12" textAnchor="middle" fill="currentColor">繞過非洲南端，進入印度洋</text>
+    <path d="M10 184H330" stroke="currentColor" strokeOpacity=".15"/>
+    <text x="10" y="204" fontSize="14" fontWeight="bold" fill="#16a34a">丙｜麥哲倫船隊（1519～1522年）</text>
+    {#each ["大西洋","太平洋","印度洋","大西洋"] as a,i}
+      <rect x={8+i*84} y="216" width="72" height="29" rx="5" fill="#16a34a" fillOpacity=".12"/>
+      <text x={44+i*84} y="235" fontSize="12" textAnchor="middle" fill="currentColor">{a}</text>
+      {#if i<3}<path d={`M${81+i*84} 230h9`} stroke="#16a34a" strokeWidth="1.5" markerEnd="url(#navarrow)"/>{/if}
+    {/each}
+    <text x="170" y="261" fontSize="12" textAnchor="middle" fill="currentColor">從西班牙出發，環繞地球後返回</text>
+  </svg>
+  <caption>航海路線簡化示意，並非等比例航程圖。</caption>
+</card>
+
+## 三、探索距離比較
+
+<card gap={3}>
+  <caption>相對航程長短示意（非實際里程）</caption>
+  {#each [{name:"丙｜麥哲倫船隊",w:100,c:"#16a34a",desc:"環繞世界一周"},{name:"乙｜達伽馬",w:43,c:"#d97706",desc:"繞過非洲抵達印度"},{name:"甲｜哥倫布",w:18,c:"#2563eb",desc:"橫越大西洋"}] as a}
+    <box gap={1}>
+      <row>
+        **{a.name}**
+        <spacer/>
+        <caption>{a.desc}</caption>
+      </row>
+      <box height={24} radius="sm" background="surface-tertiary">
+        <box height={24} width={`${a.w}%`} radius="sm" background={a.c}/>
+      </box>
+    </box>
+  {/each}
+  <title size="xl" textAlign="center">丙 ＞ 乙 ＞ 甲</title>
+</card>
+
+麥哲倫船隊環繞世界，距離最長；達伽馬必須沿著非洲航行，再跨越印度洋，距離次之；哥倫布橫越大西洋，三者之中距離最短。
+
+## 四、四選項逐項辨析
+
+| 選項 | 排列順序 | 判斷 |
+|---|---|---|
+| A | 甲乙丙 | <text color="danger">誤選，距離由短到長</text> |
+| B | 乙丙甲 | 麥哲倫船隊應排第一 |
+| C | 丙甲乙 | 哥倫布與達伽馬的順序顛倒 |
+| D | 丙乙甲 | <text color="success">正確，距離由長到短</text> |
+
+## 五、關鍵決勝｜A vs. D
+
+| 比較項目 | A 原選 | D 正解 |
+|---|---|---|
+| 第一位 | 哥倫布 | 麥哲倫船隊 |
+| 最後一位 | 麥哲倫船隊 | 哥倫布 |
+| 距離順序 | 短 → 長 | 長 → 短 |
+| 航海年代 | 早 → 晚 | 晚 → 早 |
+
+值得注意的是，A 選項恰好符合三位航海家上述航行的年代先後順序，卻與題目要求的距離排列完全相反。
+
+**決定性條件：題目問的是距離，不是年代。**
+
+## 六、觀念透析｜三位航海家的歷史貢獻
+
+| 比較項目 | 哥倫布 | 達伽馬 | 麥哲倫船隊 |
+|---|---|---|---|
+| 出發國 | 西班牙 | 葡萄牙 | 西班牙 |
+| 航行方向 | 向西 | 向南再向東 | 主要向西 |
+| 代表航行 | 1492年 | 1497～1498年 | 1519～1522年 |
+| 主要成就 | 抵達美洲 | 開闢歐洲繞非洲至印度的航路 | 首次完成環球航行 |
+
+補充：麥哲倫本人在菲律賓去世，最後由艾爾卡諾率領剩餘船員完成環球航行，因此原題使用「麥哲倫船隊」的說法是正確的。
+
+## 七、錯因診斷與考場快速自我檢核
+
+本題原選 A 恰好是正確答案的反向排列，可能涉及：
+
+- 將探索距離誤認為航海年代。
+- 忽略題幹「由長到短」的方向要求。
+- 未能將航海路線轉換成地理空間概念。
+
+目前沒有完整作答過程，不能確定是哪一種錯因。
+
+遇到歷史排列題，先確認**排列依據、排列方向、第一位與最後一位**，再選答案。
+
+**記憶口訣：哥倫布跨大西洋，達伽馬繞非洲，麥哲倫船隊繞地球。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → D。</caption>
+<caption>知識範圍：九上歷史・大航海時代。</caption>
+<caption>錯題分類：排列方向、歷史與地理跨科整合、題幹條件辨識。</caption>
+<caption>P0 複核：已依原題三條航線及全部選項獨立判斷，確認答案 D。教材原頁尚未查核，不標註頁碼；航程比較圖僅呈現相對長短。</caption>
+
+[user 2026-11-27T22:47:32.296700+08:00]
+[使用者原卷附件 16]
+（3）@錯題A → C
+
+[assistant 2026-11-27T22:47:36.442205+08:00]
+# 題組第2題（3）｜文藝復興的代表人物
+
+<row align="center">
+  <text color="danger" weight="medium">原選 A：甲乙</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 C：甲丁</text>
+</row>
+
+## 一、題意與核心觀念
+
+達文西是文藝復興時期重要的藝術家之一，下列哪些藝術家與達文西活躍在同一時代？
+
+甲：拉斐爾　乙：希羅多德  
+丙：阿基米德　丁：米開朗基羅
+
+本題考查的是**歷史人物的時代定位與文藝復興三傑**。
+
+## 二、精準圖解｜文藝復興三傑
+
+<grid columns={3} gap={2}>
+  <grid-item>
+    <AsyncImage query="Leonardo da Vinci Mona Lisa Louvre painting" aspectRatio="3:4"/>
+    **達文西**
+    
+    <caption>1452～1519年</caption>
+    代表作：《蒙娜麗莎》
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Raphael School of Athens Vatican fresco full painting" aspectRatio="3:4"/>
+    **拉斐爾（甲）**
+
+    <caption>1483～1520年</caption>
+    代表作：《雅典學院》
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Michelangelo David marble sculpture Florence full statue" aspectRatio="3:4"/>
+    **米開朗基羅（丁）**
+
+    <caption>1475～1564年</caption>
+    代表作：《大衛像》
+  </grid-item>
+</grid>
+
+這三位藝術家皆活躍於義大利文藝復興盛期，合稱「文藝復興三傑」。
+
+## 三、歷史時空定位
+
+<card gap={2}>
+  <svg viewBox="0 0 340 235" width="100%">
+    <rect x="8" y="8" width="154" height="150" rx="8" fill="#d97706" fillOpacity=".08" stroke="#d97706"/>
+    <text x="85" y="30" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#d97706">古希臘時代</text>
+    <text x="85" y="48" textAnchor="middle" fontSize="11" fill="currentColor">西元前</text>
+    <text x="85" y="73" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">乙：希羅多德</text>
+    <text x="85" y="91" textAnchor="middle" fontSize="12" fill="currentColor">歷史學家</text>
+    <path d="M24 101H146" stroke="#d97706" strokeOpacity=".4"/>
+    <text x="85" y="123" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">丙：阿基米德</text>
+    <text x="85" y="142" textAnchor="middle" fontSize="12" fill="currentColor">數學家、科學家</text>
+    <rect x="178" y="8" width="154" height="150" rx="8" fill="#16a34a" fillOpacity=".08" stroke="#16a34a"/>
+    <text x="255" y="30" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#16a34a">文藝復興時期</text>
+    <text x="255" y="48" textAnchor="middle" fontSize="12" fill="currentColor">14～16世紀</text>
+    {#each ["達文西","甲：拉斐爾","丁：米開朗基羅"] as n,i}
+      <rect x="188" y={59+i*30} width="134" height="25" rx="4" fill="#16a34a" fillOpacity=".13"/>
+      <text x="255" y={76+i*30} textAnchor="middle" fontSize="13" fontWeight="bold" fill="currentColor">{n}</text>
+    {/each}
+    <path d="M85 159V174H255V159" stroke="currentColor" strokeWidth="1.3" fill="none"/>
+    <text x="170" y="192" textAnchor="middle" fontSize="12" fill="currentColor">相隔約一千多年</text>
+    <rect x="72" y="204" width="196" height="27" rx="5" fill="#16a34a" fillOpacity=".12"/>
+    <text x="170" y="222" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#16a34a">同一時代：甲、丁</text>
+  </svg>
+  <caption>文藝復興受到古希臘、羅馬文化影響，但不代表兩個時代的人物生活在同一時期。</caption>
+</card>
+
+## 四、人物與四選項逐項辨析
+
+| 人物 | 身分與時代 | 判斷 |
+|---|---|---|
+| 甲 拉斐爾 | 文藝復興藝術家 | <text color="success">符合</text> |
+| 乙 希羅多德 | 古希臘歷史學家，有「歷史之父」之稱 | 不符合 |
+| 丙 阿基米德 | 希臘化時代的數學家、科學家 | 不符合 |
+| 丁 米開朗基羅 | 文藝復興藝術家 | <text color="success">符合</text> |
+
+| 選項 | 組合 | 判斷 |
+|---|---|---|
+| A | 甲乙 | <text color="danger">誤選，乙的時代錯誤</text> |
+| B | 甲丙 | 丙的時代錯誤 |
+| C | 甲丁 | <text color="success">正確</text> |
+| D | 乙丙 | 兩人皆不符合 |
+
+## 五、二選一決勝｜A vs. C
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={2} gap={1}>
+      **A：甲乙（誤選）**
+      <divider/>
+      <text color="success"><icon name="check-circle" inline/> 拉斐爾</text>
+      <text color="danger"><icon name="x-circle" inline/> 希羅多德</text>
+      <caption>文藝復興＋古希臘</caption>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2} gap={1}>
+      **C：甲丁（正解）**
+      <divider/>
+      <text color="success"><icon name="check-circle" inline/> 拉斐爾</text>
+      <text color="success"><icon name="check-circle" inline/> 米開朗基羅</text>
+      <caption>兩人皆屬文藝復興</caption>
+    </box>
+  </grid-item>
+</grid>
+
+A、C 都有拉斐爾，因此真正的決勝關鍵是比較「乙」與「丁」，不必重新判斷全部人物。
+
+**希羅多德是古希臘歷史學家，米開朗基羅才是文藝復興藝術家。**
+
+## 六、觀念透析｜復古不等於同時代
+
+| 比較項目 | 古希臘文化 | 文藝復興 |
+|---|---|---|
+| 時代 | 西元前 | 14～16世紀 |
+| 代表人物 | 希羅多德、阿基米德 | 達文西、拉斐爾、米開朗基羅 |
+| 兩者關係 | 提供古典文化基礎 | 重新研究古典文化並加以創新 |
+
+文藝復興是重新發掘古希臘、羅馬文化，並融入新的思想與藝術技法，而不是古希臘時代本身。
+
+## 七、錯因診斷與考場快速自我檢核
+
+本題可能涉及歷史人物的時代混淆，或尚未熟悉文藝復興三傑的組合。由於缺乏完整作答過程，實際錯因仍待確認。
+
+遇到人物組合題，先確認共同人物，再集中比較不同的人物，可以減少判斷負擔。
+
+**記憶口訣：文藝復興有三傑，達文西、拉斐爾、米開朗基羅。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → C。</caption>
+<caption>知識範圍：九上歷史・文藝復興。</caption>
+<caption>錯題分類：歷史人物定位、時代混淆、組合選擇題。</caption>
+<caption>P0 答案複核：已依原題四位人物及全部選項獨立判斷，確認答案 C。</caption>
+<caption>P1 教材證據：尚未查核教材原頁，不標註課本頁碼。</caption>
+<caption>P2 圖解：人物時代與選項對應已核對；藝術作品參考圖片尚未逐張驗收。</caption>
+
+[user 2026-11-27T22:59:14.030284+08:00]
+[使用者原卷附件 17]
+10@錯題B → A
+
+[assistant 2026-11-27T22:59:18.640994+08:00]
+# 第10題｜成語運用與語境判斷
+
+<row align="center">
+  <text color="danger" weight="medium">原選 B：曉風殘月</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 A：水清無魚</text>
+</row>
+
+## 一、題意與核心觀念
+
+下列各項「　」中的成語，何者運用正確？
+
+本題不只是考查成語的字面意思，更重要的是判斷**成語的真正含義是否符合句子的情境**。
+
+## 二、四選項逐項辨析
+
+<box gap={3}>
+  <row align="start">
+    <AsyncImage query="clear shallow water empty pond no fish Chinese educational illustration" aspectRatio="4:3" maxWidth="108px"/>
+    <box flex={1} gap={1}>
+      **(A) 水清無魚**（正確）
+
+      ㄕㄨㄟˇ ㄑㄧㄥ ㄨˊ ㄩˊ
+
+      比喻對人要求過於嚴苛，就難以與人相處。
+
+      原句中的「吹毛求疵」、「交不到朋友」符合成語含義。
+    </box>
+  </row>
+  <divider/>
+  <row align="start">
+    <AsyncImage query="Chinese classical landscape painting dawn crescent waning moon willow trees melancholy river early morning" aspectRatio="4:3" maxWidth="108px"/>
+    <box flex={1} gap={1}>
+      **(B) 曉風殘月**（誤選）
+
+      ㄒㄧㄠˇ ㄈㄥ ㄘㄢˊ ㄩㄝˋ
+
+      指清晨的微風與將落的月亮，常用來描寫清冷、離別的情境。
+
+      原句使用「深夜」，與「曉」所代表的清晨不符。
+    </box>
+  </row>
+  <divider/>
+  <row align="start">
+    <AsyncImage query="Chinese educational illustration person watching seasons pass calendar falling pages passage of time" aspectRatio="4:3" maxWidth="108px"/>
+    <box flex={1} gap={1}>
+      **(C) 韶光荏苒**（錯誤）
+
+      ㄕㄠˊ ㄍㄨㄤ ㄖㄣˇ ㄖㄢˇ
+
+      形容美好的時光逐漸流逝。
+
+      原句描寫春天百花盛開的繁茂景象，並非感嘆時光流逝。
+    </box>
+  </row>
+  <divider/>
+  <row align="start">
+    <AsyncImage query="Chinese poetic illustration moon reflected in water hand reaching for reflection illusion" aspectRatio="4:3" maxWidth="108px"/>
+    <box flex={1} gap={1}>
+      **(D) 鏡花水月**（錯誤）
+
+      ㄐㄧㄥˋ ㄏㄨㄚ ㄕㄨㄟˇ ㄩㄝˋ
+
+      比喻虛幻而不可實際獲得的事物。
+
+      原句描寫泛舟欣賞美景、心曠神怡，未呈現虛幻不可得的含義。
+    </box>
+  </row>
+</box>
+
+## 三、精準圖解｜曉風殘月的時間陷阱
+
+<card gap={2}>
+  <svg viewBox="0 0 340 177" width="100%">
+    <rect x="5" y="5" width="160" height="130" rx="8" fill="#172554"/>
+    <rect x="175" y="5" width="160" height="130" rx="8" fill="#fde5bd"/>
+    <path d="M0 0A19 19 0 1 0 23 28A17 17 0 0 1 0 0" transform="translate(72 22)" fill="#fef3c7"/>
+    {#each [[30,25],[120,38],[45,62],[135,19]] as p}
+      <circle cx={p[0]} cy={p[1]} r="1.5" fill="white"/>
+    {/each}
+    <path d="M5 106L48 75L90 106L125 83L165 106V135H5Z" fill="#334155"/>
+    <circle cx="284" cy="96" r="20" fill="#f59e0b"/>
+    <path d="M175 109L213 79L254 109L300 99L335 110V135H175Z" fill="#78966c"/>
+    <path d="M0 0A13 13 0 1 0 16 20A12 12 0 0 1 0 0" transform="translate(215 24)" fill="#fffdf0"/>
+    <path d="M270 44q16 -10 32 0M255 55q15 -8 29 0" stroke="#64748b" strokeWidth="1.5" fill="none"/>
+    <text x="85" y="125" textAnchor="middle" fontSize="15" fill="white">深夜</text>
+    <text x="255" y="125" textAnchor="middle" fontSize="15" fill="#ffffff">清晨</text>
+    <text x="85" y="154" textAnchor="middle" fontSize="14" fill="#dc2626">✗ 原句時間</text>
+    <text x="255" y="154" textAnchor="middle" fontSize="14" fill="#16a34a">✓ 曉風殘月</text>
+    <text x="170" y="174" textAnchor="middle" fontSize="12" fill="currentColor">曉＝天剛亮，而非深夜</text>
+  </svg>
+</card>
+
+「曉風殘月」出自宋代柳永《雨霖鈴》：
+
+「今宵酒醒何處？楊柳岸，曉風殘月。」
+
+描寫離別後清晨的清冷景象，帶有離愁別緒。
+
+## 四、二選一決勝｜B vs. A
+
+| 判斷條件 | B 曉風殘月 | A 水清無魚 |
+|---|---|---|
+| 原句線索 | 深夜、毛骨悚然 | 吹毛求疵、交不到朋友 |
+| 成語含義 | 清晨、清冷離愁 | 待人過於苛刻 |
+| 語境是否吻合 | <text color="danger">不吻合</text> | <text color="success">吻合</text> |
+
+**決定性差異：B 的時間不符，A 的前因與後果完全符合成語含義。**
+
+## 五、觀念透析｜水清無魚
+
+<box border radius="lg" padding={3} align="center" gap={1}>
+  **水至清則無魚**
+  <caption>水過於清澈，難以養魚的古代譬喻</caption>
+  <icon name="arrow-down"/>
+  **人至察則無徒**
+  <caption>對別人過於苛察，就難以擁有朋友或追隨者</caption>
+  <icon name="arrow-down"/>
+  <text color="success" weight="medium">待人應適度包容，不宜吹毛求疵</text>
+</box>
+
+這是一種處世哲理的比喻，並非自然科學上的定律。
+
+## 六、四個成語快速記憶
+
+| 成語 | 關鍵記憶詞 |
+|---|---|
+| 水清無魚 | 待人過於苛刻 |
+| 曉風殘月 | 清晨、離愁 |
+| 韶光荏苒 | 時光流逝 |
+| 鏡花水月 | 虛幻不可得 |
+
+## 七、錯因診斷與考場自我檢核
+
+從試卷可見 C、D 有劃除痕跡，可能已進入 A、B 二選一的階段，但實際思考過程仍待確認。
+
+本題可能是受到「風、月」等字面景象吸引，卻忽略「曉」的時間限制。
+
+今後遇到成語運用題，可以採取三步判斷法：
+
+**字義辨識 → 成語本義 → 語境比對**
+
+尤其最後剩下兩個選項時，找出一個足以排除錯誤答案的關鍵字即可。本題就是「曉」與「深夜」的矛盾。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：B → A。</caption>
+<caption>錯題分類：成語運用、語境辨析、關鍵字辨識。</caption>
+<caption>P0 答案複核：已依原題四選項獨立判斷，確認答案 A。</caption>
+<caption>P1 教材證據：尚未查核教材原頁及辭典原文。</caption>
+<caption>P2 圖解：清晨與深夜示意圖的概念及標示已核對；外部參考插畫尚未逐張驗收。</caption>
+
+[user 2026-11-27T22:59:47.850675+08:00]
+[使用者原卷附件 18]
+3@錯題D → C
+
+[assistant 2026-11-27T22:59:53.597793+08:00]
+# 第3題｜成語運用與語境辨析
+
+<row align="center">
+  <text color="danger" weight="medium">原選 D：兩袖清風</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 C：杯水車薪</text>
+</row>
+
+## 一、題意與核心觀念
+
+下列「　」中的成語，何者運用正確？
+
+本題的核心是辨別成語的**真正含義、使用情境及褒貶色彩**，不能只根據字面意思作答。
+
+## 二、四選項逐項辨析
+
+| 成語與注音 | 正確含義 | 原題判斷 |
+|---|---|---|
+| (A) 交相輝映 ㄐㄧㄠ ㄒㄧㄤ ㄏㄨㄟ ㄧㄥˋ | 彼此映照，互相增添光彩 | 錯誤：不能形容互相作弊 |
+| (B) 高山仰止 ㄍㄠ ㄕㄢ ㄧㄤˇ ㄓˇ | 比喻對高尚品德的敬仰 | 錯誤：不是登山或欣賞風景 |
+| (C) 杯水車薪 ㄅㄟ ㄕㄨㄟˇ ㄐㄩ ㄒㄧㄣ | 比喻力量太小，無法解決問題 | <text color="success">正確：單靠政府力量不足</text> |
+| (D) 兩袖清風 ㄌㄧㄤˇ ㄒㄧㄡˋ ㄑㄧㄥ ㄈㄥ | 形容為官清廉、不貪財物 | <text color="danger">誤選：不能形容懶惰造成的貧窮</text> |
+
+## 三、精準圖解｜四個成語的真正含義
+
+<card gap={3}>
+  <svg viewBox="0 0 340 350" width="100%">
+    <rect x="4" y="4" width="162" height="165" rx="8" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <rect x="174" y="4" width="162" height="165" rx="8" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <rect x="4" y="178" width="162" height="165" rx="8" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <rect x="174" y="178" width="162" height="165" rx="8" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    {#each [49,120] as x}
+      <circle cx={x} cy="67" r="27" fill="#fbbf24" fillOpacity=".15"/>
+      <circle cx={x} cy="67" r="17" fill="#fbbf24"/>
+      {#each [0,45,90,135,180,225,270,315] as a}
+        <path d={`M${x+22*Math.cos(a*Math.PI/180)} ${67+22*Math.sin(a*Math.PI/180)}L${x+32*Math.cos(a*Math.PI/180)} ${67+32*Math.sin(a*Math.PI/180)}`} stroke="#d97706" strokeWidth="2"/>
+      {/each}
+    {/each}
+    <path d="M188 107L243 27L321 107Z" fill="#64748b"/>
+    <path d="M227 50L243 27L264 50L253 47L244 56L236 46Z" fill="#e2e8f0"/>
+    <circle cx="206" cy="88" r="7" fill="#d6a477"/>
+    <path d="M206 96V116M206 102L218 91M206 116L198 126M206 116L215 126" stroke="#2563eb" strokeWidth="4" strokeLinecap="round"/>
+    <path d="M23 212L28 239H52L57 212Z" fill="#bfdbfe" stroke="#2563eb" strokeWidth="1.5"/>
+    <path d="M28 223H52L49 236H31Z" fill="#60a5fa"/>
+    <path d="M58 225Q76 218 84 241" stroke="#60a5fa" strokeDasharray="4 4" strokeWidth="3" fill="none"/>
+    {#each [0,1,2] as i}
+      <rect x={76+i*5} y={260-i*11} width="67" height="9" rx="4" fill="#92400e" stroke="#78350f"/>
+    {/each}
+    {#each [85,108,130] as x}
+      <path d={`M${x-10} 247Q${x-18} 228 ${x} 207Q${x-3} 226 ${x+7} 215Q${x+20} 238 ${x+8} 247Z`} fill="#f97316"/>
+      <path d={`M${x-4} 247Q${x-9} 237 ${x+2} 227Q${x+12} 242 ${x+5} 247Z`} fill="#fde047"/>
+    {/each}
+    <circle cx="255" cy="207" r="14" fill="#d6a477"/>
+    <path d="M240 202V193H270V202Z" fill="#334155"/>
+    <path d="M240 225L212 235L190 261L219 272L238 249L233 283H277L272 249L291 272L320 261L298 235L270 225Z" fill="#60a5fa" stroke="#2563eb"/>
+    <path d="M182 243q12 -9 24 -2M181 251q10 -5 18 0M306 239q10 -8 21 -2" stroke="#94a3b8" strokeWidth="2" fill="none"/>
+    {#each [{x:85,y:136,t:"交相輝映",d:"彼此增添光彩"},{x:255,y:136,t:"高山仰止",d:"敬仰高尚品德"},{x:85,y:310,t:"杯水車薪",d:"力量不足以解決問題"},{x:255,y:310,t:"兩袖清風",d:"為官清廉不貪財"}] as a}
+      <text x={a.x} y={a.y} textAnchor="middle" fontSize="16" fontWeight="bold" fill="currentColor">{a.t}</text>
+      <text x={a.x} y={a.y+20} textAnchor="middle" fontSize="12" fill="currentColor">{a.d}</text>
+    {/each}
+  </svg>
+  <caption>成語的字面意象是記憶輔助，作答時仍須以引申含義為準。</caption>
+</card>
+
+## 四、二選一決勝｜D vs. C
+
+| 比較項目 | D 兩袖清風 | C 杯水車薪 |
+|---|---|---|
+| 原句線索 | 遊手好閒、不事生產 | 單靠政府、起不了作用 |
+| 成語含義 | 清廉、不貪財 | 力量不足 |
+| 語境吻合 | <text color="danger">不符合</text> | <text color="success">符合</text> |
+
+D 選項的陷阱在於「兩袖清風」與「一貧如洗」都可能讓人聯想到沒有錢，但兩者的含義不同。
+
+**決定性差異：沒有錢不一定代表清廉。**
+
+## 五、觀念透析｜兩袖清風與一貧如洗
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      **兩袖清風**
+      <text color="success">褒義</text>
+      為官清廉，拒絕收受賄賂。
+      <divider/>
+      重點：品德
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      **一貧如洗**
+      <text color="secondary">中性</text>
+      非常貧窮，幾乎一無所有。
+      <divider/>
+      重點：經濟狀況
+    </box>
+  </grid-item>
+</grid>
+
+原題 D 描寫一個人因遊手好閒而陷入貧窮，可以使用「一貧如洗」，卻不能使用「兩袖清風」。
+
+正確例句：這位官員為官多年，始終兩袖清風，深受百姓敬重。
+
+## 六、錯因診斷與考場快速自我檢核
+
+本題可能涉及成語字面聯想、引申含義不熟悉，以及褒貶色彩的判斷錯誤。由於缺乏完整作答過程，實際錯因仍待確認。
+
+與前一題第10題的「曉風殘月」誤選情況相比，兩題都涉及**成語真正含義與原句語境的比對**，值得列為後續觀察的共同考點，但尚不能確認兩題的實際錯因相同。
+
+遇到成語運用題，優先採用「白話替換法」：將成語換成真正的白話含義，再讀一次原句，檢查是否合理。
+
+**記憶口訣：**
+
+- 交相輝映：互增光彩。
+- 高山仰止：敬仰品德。
+- 杯水車薪：力量不足。
+- 兩袖清風：清廉不貪。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：D → C。</caption>
+<caption>錯題分類：成語引申義、褒貶色彩、語境辨析。</caption>
+<caption>P0 答案複核：已依原題四選項獨立判斷，確認答案 C。</caption>
+<caption>P1 教材證據：尚未查核教材原頁及辭典原文。</caption>
+<caption>P2 圖解：採程式化示意圖，已核對四個成語與圖解概念的對應，實際畫面渲染尚未驗收。</caption>
+
+[user 2026-11-27T23:01:08.955234+08:00]
+[使用者原卷附件 19]
+6@錯題C → B
+
+[assistant 2026-11-27T23:01:13.129795+08:00]
+# 第6題｜《與宋元思書》文意理解與古代時辰
+
+<row align="center">
+  <text color="danger" weight="medium">原選 C：戌時</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 B：未時</text>
+</row>
+
+## 一、原題與白話翻譯
+
+由「橫柯上蔽，在晝猶昏；疏條交映，有時見日」判斷，吳均遊歷富春江的時間最有可能是下列哪一個時辰？
+
+**白話翻譯：**
+
+橫生的樹枝在上方遮蔽天空，即使是白天，也像黃昏一樣昏暗；稀疏的枝條互相交錯，偶爾還能看見陽光。
+
+| 詞語 | 意思 |
+|---|---|
+| 橫柯 | 橫生的樹枝 |
+| 上蔽 | 在上方遮蔽 |
+| 在晝猶昏 | 白天卻像黃昏一樣昏暗 |
+| 疏條交映 | 稀疏的枝條互相交錯掩映 |
+| 有時見日 | 偶爾可以看見太陽 |
+
+## 二、精準圖解｜白天為何像黃昏？
+
+<card gap={2}>
+  <svg viewBox="0 0 340 210" width="100%">
+    <rect width="340" height="210" rx="8" fill="#e0f2fe"/>
+    <circle cx="180" cy="30" r="18" fill="#fbbf24"/>
+    {#each [0,45,90,135,180,225,270,315] as a}
+      <path d={`M${180+23*Math.cos(a*Math.PI/180)} ${30+23*Math.sin(a*Math.PI/180)}L${180+30*Math.cos(a*Math.PI/180)} ${30+30*Math.sin(a*Math.PI/180)}`} stroke="#eab308" strokeWidth="2"/>
+    {/each}
+    <path d="M165 48L130 180L205 180L189 48Z" fill="#fde68a" opacity=".65"/>
+    <path d="M0 164Q80 140 155 167T340 155V210H0Z" fill="#527d4d"/>
+    <path d="M35 185L43 65L61 65L66 185M278 185L281 60L300 60L308 185" fill="#795438"/>
+    <path d="M52 104L146 56M290 96L211 58M50 78L9 40M291 77L331 30" stroke="#795438" strokeWidth="9" strokeLinecap="round"/>
+    {#each [[20,58,38],[65,42,42],[108,61,39],[139,49,28],[229,51,32],[265,40,40],[315,55,40],[40,94,33],[98,85,30],[263,83,32],[315,90,33]] as p}
+      <circle cx={p[0]} cy={p[1]} r={p[2]} fill="#326344"/>
+    {/each}
+    <path d="M0 181Q95 157 171 185T340 176V210H0Z" fill="#60a5a8"/>
+    <path d="M145 183Q170 175 195 183L185 193H156Z" fill="#795438"/>
+    <circle cx="170" cy="161" r="6" fill="#e0b18b"/>
+    <path d="M170 168V183" stroke="#334155" strokeWidth="8"/>
+    <rect x="7" y="119" width="108" height="25" rx="5" fill="#fff" opacity=".95"/>
+    <text x="61" y="136" fontSize="13" textAnchor="middle" fill="#334155">樹蔭遮蔽陽光</text>
+    <rect x="211" y="119" width="122" height="25" rx="5" fill="#fff" opacity=".95"/>
+    <text x="272" y="136" fontSize="13" textAnchor="middle" fill="#334155">陽光穿過枝葉</text>
+  </svg>
+  <text weight="medium" textAlign="center">實際是白天，只因樹木茂密而顯得昏暗。</text>
+</card>
+
+## 三、四選項逐項辨析
+
+| 選項 | 現代時間 | 判斷 |
+|---|---|---|
+| (A) 寅時 | 03:00～05:00 | 凌晨，不符合 |
+| (B) 未時 | 13:00～15:00 | <text color="success">下午，符合題意</text> |
+| (C) 戌時 | 19:00～21:00 | <text color="danger">夜晚，不符合</text> |
+| (D) 亥時 | 21:00～23:00 | 深夜，不符合 |
+
+## 四、古代十二時辰對照圖
+
+<card gap={2}>
+  <svg viewBox="0 0 320 320" width="100%">
+    {#each Array.from({length:12},(_,i)=>i) as i}
+      <path d={`M160 160 L${160+126*Math.cos((i*30-105)*Math.PI/180)} ${160+126*Math.sin((i*30-105)*Math.PI/180)} A126 126 0 0 1 ${160+126*Math.cos((i*30-75)*Math.PI/180)} ${160+126*Math.sin((i*30-75)*Math.PI/180)}Z`} fill={i===7?"#22c55e":i===10?"#ef4444":i>=3&&i<=8?"#eab308":"#64748b"} fillOpacity={i===7||i===10?".26":".09"} stroke="currentColor" strokeOpacity=".2"/>
+      <text x={160+96*Math.sin(i*Math.PI/6)} y={157-96*Math.cos(i*Math.PI/6)} fontSize="16" fontWeight="bold" fill={i===7?"#16a34a":i===10?"#dc2626":"currentColor"} textAnchor="middle">{["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"][i]}</text>
+      <text x={160+96*Math.sin(i*Math.PI/6)} y={172-96*Math.cos(i*Math.PI/6)} fontSize="10" fill="currentColor" textAnchor="middle">{["23–01","01–03","03–05","05–07","07–09","09–11","11–13","13–15","15–17","17–19","19–21","21–23"][i]}</text>
+    {/each}
+    <circle cx="160" cy="160" r="55" fill="currentColor" fillOpacity=".04" stroke="currentColor" strokeOpacity=".25"/>
+    <text x="160" y="151" fontSize="15" fontWeight="bold" textAnchor="middle" fill="currentColor">十二時辰</text>
+    <text x="160" y="174" fontSize="12" textAnchor="middle" fill="currentColor">一時辰＝2小時</text>
+  </svg>
+  <row justify="center" gap={4}>
+    <row align="center" gap={1}><box size="10px" background="#22c55e" radius="sm"/><caption>正解：未時</caption></row>
+    <row align="center" gap={1}><box size="10px" background="#ef4444" radius="sm"/><caption>誤選：戌時</caption></row>
+  </row>
+</card>
+
+## 五、二選一決勝｜C vs. B
+
+| 判斷線索 | C 戌時 | B 未時 |
+|---|---|---|
+| 在晝 | 夜晚，不符合 | 白天，符合 |
+| 猶昏 | 本來就昏暗 | 因樹蔭而像黃昏 |
+| 有時見日 | 不符合 | 符合 |
+
+**本題最重要的決勝字是「猶」。**
+
+「猶」是「如同、好像」的意思。
+
+作者不是說當時已經黃昏，而是說白天的光線昏暗得**好像黃昏**。
+
+原文只能確定是白天，不能確定具體時間，但四個選項中，未時最符合。
+
+## 六、錯因診斷與考場快速檢核
+
+可能的錯因：
+
+- 將「昏」直接理解成實際時間是黃昏。
+- 未注意「晝」與「猶」的語意。
+- 古代十二時辰與現代時間的對應不熟悉。
+
+目前沒有完整作答過程，因此不能確定是哪一項造成誤選。
+
+**考場記憶口訣：午時正中午，未時是午後，戌時已入夜。**
+
+遇到文言文時間判斷題，先找原文的時間證據，再對照古代時辰，不要被景物描寫誤導。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：C → B。</caption>
+<caption>錯題分類：文言文語意辨析、古代文化常識。</caption>
+<caption>P0：已獨立複核原文、選項及時辰對應。</caption>
+<caption>P1：尚未查核國中教材原頁。</caption>
+<caption>P2：已核對示意圖與十二時辰圖的標示邏輯，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:01:41.164921+08:00]
+[使用者原卷附件 20]
+7@錯題C → D
+
+[assistant 2026-11-27T23:01:50.211908+08:00]
+# 第7題｜修辭辨析：誇飾與譬喻
+
+<row align="center">
+  <text color="danger" weight="medium">原選 C：譬喻</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 D：誇飾</text>
+</row>
+
+## 一、原題與核心觀念
+
+「奇山異水，天下獨絕」一句以誇張的手法表現，下列何者也運用相同的技巧？
+
+出自吳均《與宋元思書》。
+
+**白話翻譯：**奇特的山峰、秀麗的流水，是天下獨一無二的美景。
+
+作者使用「天下獨絕」來極力讚美富春江的景色，刻意放大其美麗程度，因此屬於**誇飾修辭**。
+
+## 二、四選項逐項辨析
+
+| 選項 | 關鍵語句 | 修辭判斷 |
+|---|---|---|
+| (A) | 來自海上的風／說海的笑聲太遼闊 | 轉化（擬人），將風與海賦予人的行為 |
+| (B) | 像天上的星，那麼多的離情別意 | 譬喻，將離情別意比作繁星 |
+| (C) | 過去是一面鏡子；現在是一把火 | 譬喻（隱喻），以具體事物比喻抽象概念 |
+| (D) | 月亮離山頂，似乎不過幾尺 | <text color="success">誇飾，刻意縮小實際距離</text> |
+
+## 三、精準圖解｜譬喻與誇飾的差異
+
+<card gap={3}>
+  <svg viewBox="0 0 340 290" width="100%">
+    <rect x="4" y="4" width="162" height="280" rx="9" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <rect x="174" y="4" width="162" height="280" rx="9" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <text x="85" y="29" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#dc2626">C 譬喻</text>
+    <text x="255" y="29" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#16a34a">D 誇飾</text>
+    <rect x="19" y="48" width="55" height="77" rx="5" fill="#a5d8ed" stroke="#926b42" strokeWidth="5"/>
+    <path d="M28 78L58 55M30 101L65 73" stroke="#fff" strokeWidth="4" opacity=".8"/>
+    <path d="M103 124Q79 106 107 67Q104 91 119 78Q146 109 126 124Z" fill="#f97316"/>
+    <path d="M110 124Q98 112 117 96Q132 116 122 124Z" fill="#facc15"/>
+    <text x="47" y="148" fontSize="13" textAnchor="middle" fill="currentColor">過去</text>
+    <text x="117" y="148" fontSize="13" textAnchor="middle" fill="currentColor">現在</text>
+    <rect x="182" y="42" width="146" height="119" rx="5" fill="#243b64"/>
+    <circle cx="257" cy="69" r="21" fill="#fef3c7"/>
+    <path d="M182 161L220 114L233 129L257 105L302 161Z" fill="#64748b"/>
+    <path d="M258 91V104M253 91H263M253 104H263" stroke="#facc15" strokeWidth="2"/>
+    <text x="283" y="101" fontSize="11" fill="#fef3c7">幾尺</text>
+    <text x="85" y="190" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">用其他事物比喻</text>
+    <text x="85" y="214" textAnchor="middle" fontSize="12" fill="currentColor">過去 → 鏡子</text>
+    <text x="85" y="233" textAnchor="middle" fontSize="12" fill="currentColor">現在 → 火焰</text>
+    <text x="255" y="190" textAnchor="middle" fontSize="14" fontWeight="bold" fill="currentColor">刻意縮小距離</text>
+    <text x="255" y="214" textAnchor="middle" fontSize="12" fill="currentColor">月亮原本非常遙遠</text>
+    <text x="255" y="233" textAnchor="middle" fontSize="12" fill="currentColor">卻形容只有幾尺</text>
+    <text x="85" y="266" textAnchor="middle" fontSize="13" fill="#dc2626">✕ 不同修辭</text>
+    <text x="255" y="266" textAnchor="middle" fontSize="13" fill="#16a34a">✓ 相同修辭</text>
+  </svg>
+  <caption>概念示意：譬喻重在相似性，誇飾重在程度的放大或縮小。</caption>
+</card>
+
+## 四、二選一決勝｜C vs. D
+
+| 比較項目 | C 譬喻 | D 誇飾 |
+|---|---|---|
+| 表達方式 | 把過去比作鏡子 | 把遙遠距離說成幾尺 |
+| 核心技巧 | 借用相似事物 | 刻意偏離實際程度 |
+| 與題幹相同？ | <text color="danger">否</text> | <text color="success">是</text> |
+
+特別注意，D 雖然出現「似乎」，卻不是因此就屬於譬喻。判斷修辭不能只看特定字詞，而要理解整句的表達方式。
+
+## 五、觀念透析｜誇飾不只是誇大
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={3}>
+      **擴大誇飾**
+      <text color="secondary" size="sm">把程度說得更大</text>
+      <svg viewBox="0 0 150 75" width="100%">
+        <path d="M5 65L40 35L60 47L98 5L145 65Z" fill="#64748b"/>
+        <path d="M98 5L78 36L98 28L116 34Z" fill="#e2e8f0"/>
+        <path d="M10 20H60M110 16H146" stroke="#94a3b8" strokeWidth="5" strokeLinecap="round"/>
+      </svg>
+      山峰高聳入雲，直達天際。
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3}>
+      **縮小誇飾**
+      <text color="secondary" size="sm">把程度說得更小</text>
+      <svg viewBox="0 0 150 75" width="100%">
+        <circle cx="75" cy="17" r="15" fill="#eab308"/>
+        <path d="M5 70L75 38L145 70Z" fill="#64748b"/>
+        <path d="M75 32V38" stroke="#dc2626" strokeWidth="2"/>
+      </svg>
+      月亮離山頂不過幾尺。
+    </box>
+  </grid-item>
+</grid>
+
+題幹「天下獨絕」屬於擴大誇飾，D 選項則以縮小距離的方式誇飾，兩者都屬於誇飾修辭。
+
+## 六、錯因診斷與考場快速檢核
+
+本題可能是未能掌握譬喻與誇飾的決定性差異，或只注意到語句並非字面事實，卻沒有進一步辨別修辭類型。實際錯因仍待確認。
+
+**考場三秒判斷口訣：**
+
+- 譬喻：把甲比作乙。
+- 誇飾：故意說得太大或太小。
+- 轉化：讓非人事物具有人的特性（擬人）。
+
+本題只要抓住「月亮不可能真的離山頂只有幾尺」，便能判斷 D 運用了誇飾。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：C → D。</caption>
+<caption>錯題分類：修辭辨析、譬喻與誇飾。</caption>
+<caption>P0 答案複核：已依原題四選項獨立判斷，確認 D。</caption>
+<caption>P1 教材證據：尚未查核國中教材原頁。</caption>
+<caption>P2 精準圖解：已核對圖解內容與原題概念，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:02:46.467833+08:00]
+[使用者原卷附件 21]
+1@錯題A → B
+
+[assistant 2026-11-27T23:02:50.030527+08:00]
+# 第1題｜字形辨析：同音異字
+
+<row align="center">
+  <text color="danger" weight="medium">原選 A：權／詮</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 B：坎／坎</text>
+</row>
+
+## 一、原題與核心觀念
+
+下列「　」中的注音寫成國字後，何者字形相同？
+
+本題考查的是**讀音相同，但字形與字義是否相同**，必須根據完整詞語判斷。
+
+## 二、四選項逐項辨析
+
+| 選項 | 正確國字 | 注音 | 判斷 |
+|---|---|---|---|
+| (A) | 版**權**所有／**詮**釋說明 | ㄑㄩㄢˊ | <text color="danger">字形不同</text> |
+| (B) | 命運**坎**坷／**坎**井之蛙 | ㄎㄢˇ | <text color="success">字形相同</text> |
+| (C) | 尋尋**覓**覓／百**密**一疏 | ㄇㄧˋ | 字形不同 |
+| (D) | **豁**達大度／蠱**惑**人心 | ㄏㄨㄛˋ | 字形不同 |
+
+因此，正確答案為 **B**。
+
+## 三、字形與詞義透析
+
+<box gap={3}>
+  <row align="start">
+    <box border radius="lg" size="76px" justify="center" align="center">
+      <title size="2xl">權</title>
+      <caption>ㄑㄩㄢˊ</caption>
+    </box>
+    <box flex={1} gap={1}>
+      **版權所有**
+      
+      指作品受到著作權保障。
+      
+      <text color="secondary" size="sm">木部｜權利、權力、授權。</text>
+    </box>
+  </row>
+  <divider/>
+  <row align="start">
+    <box border radius="lg" size="76px" justify="center" align="center">
+      <title size="2xl">詮</title>
+      <caption>ㄑㄩㄢˊ</caption>
+    </box>
+    <box flex={1} gap={1}>
+      **詮釋說明**
+      
+      解釋事物的意義。
+      
+      <text color="secondary" size="sm">言部｜與解說、說明有關。</text>
+    </box>
+  </row>
+  <divider/>
+  <row align="start">
+    <box border radius="lg" size="76px" justify="center" align="center">
+      <title size="2xl">坎</title>
+      <caption>ㄎㄢˇ</caption>
+    </box>
+    <box flex={1} gap={1}>
+      **命運坎坷／坎井之蛙**
+      
+      坎的本義為低陷的地方、坑穴。
+      
+      <text color="secondary" size="sm">土部｜與地面凹陷有關。</text>
+    </box>
+  </row>
+</box>
+
+## 四、精準圖解｜「坎」的字義延伸
+
+<card gap={2}>
+  <svg viewBox="0 0 340 208" width="100%">
+    <rect x="4" y="4" width="162" height="198" rx="8" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <rect x="174" y="4" width="162" height="198" rx="8" fill="#64748b" fillOpacity=".06" stroke="#94a3b8"/>
+    <text x="85" y="29" textAnchor="middle" fontSize="16" fontWeight="bold" fill="currentColor">命運坎坷</text>
+    <text x="255" y="29" textAnchor="middle" fontSize="16" fontWeight="bold" fill="currentColor">坎井之蛙</text>
+    <path d="M12 105L40 90L64 124L88 87L112 117L154 79V150H12Z" fill="#a87d50"/>
+    <path d="M12 105L40 90L64 124L88 87L112 117L154 79" stroke="#527d38" strokeWidth="5" fill="none"/>
+    <circle cx="87" cy="52" r="9" fill="#d6a477"/>
+    <path d="M87 62L82 79L68 91M82 79L98 87M85 66L69 74M85 66L101 59" stroke="#2563eb" strokeWidth="5" strokeLinecap="round"/>
+    <path d="M184 65H326V150H184Z" fill="#a87d50"/>
+    <path d="M221 65H289V150H221Z" fill="#4b392b"/>
+    <path d="M221 65V150M289 65V150" stroke="#b8a38b" strokeWidth="7"/>
+    <ellipse cx="255" cy="134" rx="20" ry="12" fill="#65a30d"/>
+    <circle cx="244" cy="123" r="8" fill="#84cc16"/>
+    <circle cx="266" cy="123" r="8" fill="#84cc16"/>
+    <circle cx="244" cy="121" r="3" fill="#26351b"/>
+    <circle cx="266" cy="121" r="3" fill="#26351b"/>
+    <text x="85" y="171" textAnchor="middle" fontSize="13" fill="currentColor">道路高低不平</text>
+    <text x="85" y="190" textAnchor="middle" fontSize="12" fill="currentColor">比喻人生不順遂</text>
+    <text x="255" y="171" textAnchor="middle" fontSize="13" fill="currentColor">住在淺井中的青蛙</text>
+    <text x="255" y="190" textAnchor="middle" fontSize="12" fill="currentColor">比喻見識狹窄</text>
+  </svg>
+  <caption>兩個詞語都使用土部的「坎」，由坑穴的本義延伸出不同詞義。</caption>
+</card>
+
+## 五、二選一決勝｜A vs. B
+
+| 比較 | A | B |
+|---|---|---|
+| 第一個字 | 權 | 坎 |
+| 第二個字 | 詮 | 坎 |
+| 讀音 | 相同 | 相同 |
+| 字形 | <text color="danger">不同</text> | <text color="success">相同</text> |
+
+**決定性差異：題目問的是字形相同，而不是讀音相同。**
+
+「版權」與「詮釋」雖然讀音相同，但一個是木部，一個是言部，因此不能選 A。
+
+## 六、易混淆字速記
+
+| 國字 | 記憶關鍵 |
+|---|---|
+| 權 | 權利 |
+| 詮 | 解說 |
+| 坎 | 坑穴 |
+| 覓 | 尋找 |
+| 密 | 細密 |
+| 豁 | 開闊 |
+| 惑 | 迷惑 |
+
+## 七、錯因診斷與考場快速檢核
+
+本題可能涉及同音異字的辨識不熟悉，尤其是「權」與「詮」的字形及字義區別。實際錯因仍須依作答過程確認。
+
+**考場策略：先還原國字，再比較部首，最後確認字形。**
+
+不要只在心中默念讀音，因為本題每組詞語的讀音原本就相同。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → B。</caption>
+<caption>錯題分類：同音異字、字形辨析、詞義理解。</caption>
+<caption>P0：已獨立複核四組詞語的字形與讀音，確認 B。</caption>
+<caption>P1：尚未查核教材原頁及教育部辭典原文。</caption>
+<caption>P2：字形採文字排版，圖解概念已核對，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:03:11.956715+08:00]
+[使用者原卷附件 22]
+3@錯題B → A
+
+[assistant 2026-11-27T23:03:17.320773+08:00]
+# 第3題｜詞語辨析：聯綿詞
+
+<row align="center">
+  <text color="danger" weight="medium">原選 B：駐足</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 A：坎坷</text>
+</row>
+
+## 一、原題與核心觀念
+
+有一部分的字無法單獨成詞，它一定要與另一個字合成一詞，才能表達一個意義，稱為聯綿詞。下列「　」中的詞語，何者屬於聯綿詞？
+
+**聯綿詞：由兩個音節組成，兩字共同表達一個完整的意義，不能直接拆開解釋成原詞的意思。**
+
+例如：坎坷、徘徊、彷彿、葡萄。
+
+## 二、四選項逐項辨析
+
+| 選項 | 詞語及注音 | 詞義與構成 | 判斷 |
+|---|---|---|---|
+| (A) | 坎坷 ㄎㄢˇ ㄎㄜˇ | 比喻人生不順遂，兩字共同表義 | <text color="success">聯綿詞</text> |
+| (B) | 駐足 ㄓㄨˋ ㄗㄨˊ | 駐：停留；足：腳步 | <text color="danger">非聯綿詞</text> |
+| (C) | 尋覓 ㄒㄩㄣˊ ㄇㄧˋ | 尋：尋找；覓：找尋 | 非聯綿詞 |
+| (D) | 苦樂 ㄎㄨˇ ㄌㄜˋ | 苦：痛苦；樂：快樂 | 非聯綿詞 |
+
+## 三、精準圖解｜能不能拆開解釋？
+
+<card gap={3}>
+  <svg viewBox="0 0 340 280" width="100%">
+    <rect x="5" y="5" width="160" height="268" rx="9" fill="#16a34a" fillOpacity=".05" stroke="#94a3b8"/>
+    <rect x="175" y="5" width="160" height="268" rx="9" fill="#64748b" fillOpacity=".05" stroke="#94a3b8"/>
+    <text x="85" y="28" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#16a34a">A 聯綿詞</text>
+    <text x="255" y="28" textAnchor="middle" fontSize="15" fontWeight="bold" fill="currentColor">B 一般合成詞</text>
+    <rect x="26" y="43" width="118" height="49" rx="7" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="85" y="76" textAnchor="middle" fontSize="28" fontWeight="bold" fill="#166534">坎坷</text>
+    <rect x="188" y="43" width="60" height="49" rx="7" fill="#dbeafe" stroke="#2563eb"/>
+    <rect x="262" y="43" width="60" height="49" rx="7" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="218" y="76" textAnchor="middle" fontSize="27" fill="#1e40af">駐</text>
+    <text x="292" y="76" textAnchor="middle" fontSize="27" fill="#1e40af">足</text>
+    <text x="255" y="73" textAnchor="middle" fontSize="15" fill="currentColor">＋</text>
+    <text x="218" y="111" textAnchor="middle" fontSize="12" fill="currentColor">停留</text>
+    <text x="292" y="111" textAnchor="middle" fontSize="12" fill="currentColor">腳步</text>
+    <path d="M14 177L38 151L60 184L87 145L115 178L156 137V207H14Z" fill="#b38a62"/>
+    <path d="M14 177L38 151L60 184L87 145L115 178L156 137" fill="none" stroke="#648448" strokeWidth="4"/>
+    <circle cx="86" cy="116" r="9" fill="#d6a477"/>
+    <path d="M86 127L81 146L66 158M81 146L96 157M84 130L67 138M84 130L99 121" stroke="#2563eb" strokeWidth="5" strokeLinecap="round"/>
+    <path d="M190 207H320" stroke="#94a3b8" strokeWidth="3"/>
+    <circle cx="251" cy="139" r="11" fill="#d6a477"/>
+    <path d="M251 153V179M251 159L235 173M251 159L268 173M251 179L240 204M251 179L263 204" stroke="#2563eb" strokeWidth="7" strokeLinecap="round"/>
+    <rect x="288" y="145" width="26" height="42" rx="3" fill="#eab308"/>
+    <path d="M301 187V207" stroke="#64748b" strokeWidth="4"/>
+    <text x="85" y="231" textAnchor="middle" fontSize="14" fill="currentColor">人生道路不順遂</text>
+    <text x="255" y="231" textAnchor="middle" fontSize="14" fill="currentColor">停下腳步觀看</text>
+    <text x="85" y="254" textAnchor="middle" fontSize="13" fontWeight="bold" fill="#16a34a">兩字共同表義</text>
+    <text x="255" y="254" textAnchor="middle" fontSize="13" fontWeight="bold" fill="currentColor">可拆解字義</text>
+  </svg>
+  <caption>聯綿詞須從整體理解詞義；一般合成詞則可藉由各字的意義理解整個詞語。</caption>
+</card>
+
+## 四、觀念透析｜聯綿詞的三種類型
+
+| 類型 | 特徵 | 例子 |
+|---|---|---|
+| 雙聲聯綿詞 | 兩字聲母相同 | 坎坷、彷彿、玲瓏 |
+| 疊韻聯綿詞 | 兩字韻母相同 | 徘徊、逍遙、窈窕 |
+| 非雙聲疊韻聯綿詞 | 不具上述兩種特徵 | 葡萄、蝴蝶、芙蓉 |
+
+本題的「坎坷」屬於**雙聲聯綿詞**。
+
+<card gap={2}>
+  <grid columns={2}>
+    <grid-item>
+      <box align="center" gap={1}>
+        <title size="2xl">坎</title>
+        <title size="lg"><text color="success" inline>ㄎ</text>ㄢˇ</title>
+      </box>
+    </grid-item>
+    <grid-item>
+      <box align="center" gap={1}>
+        <title size="2xl">坷</title>
+        <title size="lg"><text color="success" inline>ㄎ</text>ㄜˇ</title>
+      </box>
+    </grid-item>
+  </grid>
+  <divider/>
+  <text textAlign="center" weight="medium">聲母同為「ㄎ」＝雙聲</text>
+</card>
+
+注意：聲母或韻母相同只是分類特徵，不能單憑這項條件認定一個詞是聯綿詞。
+
+## 五、二選一決勝｜B vs. A
+
+| 比較項目 | B 駐足 | A 坎坷 |
+|---|---|---|
+| 詞義 | 停下腳步 | 不順遂 |
+| 能否依各字字義組合解釋 | 可以 | 不宜直接拆解 |
+| 是否為聯綿詞 | <text color="danger">否</text> | <text color="success">是</text> |
+
+**決定性差異：「駐足」可以解釋成「停下腳步」，而「坎坷」須以整個詞語理解。**
+
+## 六、錯因診斷與考場快速檢核
+
+可能是對聯綿詞與一般合成詞的構成方式不熟悉，而非單純不理解詞義。由於缺乏完整作答過程，實際錯因仍待確認。
+
+考場上使用「拆字辨義法」：
+
+- 駐＋足＝停下腳步。
+- 尋＋覓＝尋找。
+- 苦＋樂＝痛苦與快樂。
+- 坎坷＝整體表達不順遂。
+
+**記憶口訣：聯綿成詞，整體表義；拆字辨義，排除干擾。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：B → A。</caption>
+<caption>錯題分類：詞語結構、聯綿詞、雙聲疊韻。</caption>
+<caption>P0：已依原題四選項獨立複核，確認答案 A。</caption>
+<caption>P1：尚未查核國中教材原頁及教育部辭典原文。</caption>
+<caption>P2：圖解概念與文字標示已核對，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:03:42.361875+08:00]
+[使用者原卷附件 23]
+10@錯題A → C
+
+[assistant 2026-11-27T23:03:47.519691+08:00]
+# 第10題｜文化常識：農曆月份與季節
+
+<row align="center">
+  <text color="danger" weight="medium">原選 A</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 C</text>
+</row>
+
+## 一、原題與解題關鍵
+
+每個月份都有不同的植物與之配對，下列何者說明正確？
+
+本題考查的是**農曆月份別稱、季節特徵與詩句意象的配對**。
+
+解題時不能只看月份名稱，必須先判斷詩句描寫的是哪一個季節。
+
+## 二、精準圖解｜四季與詩句意象
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <AsyncImage query="Chinese traditional landscape spring green willow red blossoms yellow oriole birds painting" aspectRatio="16:9"/>
+    **春季｜農曆一至三月**
+
+    花紅柳綠、黃鶯啼叫。
+
+    <text color="success">C：桐月（三月）符合。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Chinese countryside early summer white buckwheat flowers yellow rapeseed flowers landscape" aspectRatio="16:9"/>
+    **夏季｜農曆四至六月**
+
+    蕎花雪白、菜花漸稀。
+
+    <text color="danger">A：並非臘月。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Chinese mountain autumn red maple forest stone path traditional landscape" aspectRatio="16:9"/>
+    **秋季｜農曆七至九月**
+
+    楓葉轉紅、秋色迷人。
+
+    <text color="danger">B：並非花月。</text>
+  </grid-item>
+  <grid-item>
+    <AsyncImage query="Chinese winter mountain landscape bare trees dry river cold desolate scenery" aspectRatio="16:9"/>
+    **冬季｜農曆十至十二月**
+
+    樹木落葉、水量減少。
+
+    <text color="danger">D：並非梅月。</text>
+  </grid-item>
+</grid>
+
+## 三、四選項逐項辨析
+
+| 選項 | 詩句 | 實際季節 | 月份別稱 | 判斷 |
+|---|---|---|---|---|
+| A | 蕎花雪白菜花稀 | 初夏 | 臘月：十二月 | <text color="danger">錯誤</text> |
+| B | 停車坐愛楓林晚 | 秋季 | 花月：二月 | <text color="danger">錯誤</text> |
+| C | 千里鶯啼綠映紅 | 春季 | 桐月：三月 | <text color="success">正確</text> |
+| D | 木落水盡千崖枯 | 冬季 | 梅月：四月 | <text color="danger">錯誤</text> |
+
+### 特別注意 A 選項
+
+「蕎花雪白」是指蕎麥花像雪一樣潔白，**不是指冬天下雪**。
+
+這句出自范成大的〈四時田園雜興〉夏日田園雜興組詩。
+
+### 正解 C 的詩句
+
+杜牧〈江南春〉：
+
+> 千里鶯啼綠映紅，水村山郭酒旗風。
+> 南朝四百八十寺，多少樓臺煙雨中。
+
+黃鶯啼叫、綠葉與紅花互相映襯，呈現春天生機盎然的景象，符合農曆三月的桐月。
+
+## 四、觀念透析｜農曆十二月份別稱
+
+以下為國中常見的月份別稱，每個月份可能另有其他名稱。
+
+<card gap={3}>
+  {#each [{s:"春季",c:"#16a34a",m:["一月｜孟春","二月｜花月","三月｜桐月"]},{s:"夏季",c:"#ea580c",m:["四月｜梅月","五月｜榴月","六月｜荷月"]},{s:"秋季",c:"#b45309",m:["七月｜蘭月","八月｜桂月","九月｜菊月"]},{s:"冬季",c:"#2563eb",m:["十月｜孟冬","十一月｜葭月","十二月｜臘月"]}] as season}
+    <row align="center">
+      <box width="5px" height="54px" background={season.c} radius="full"/>
+      <box width="40px">
+        **{season.s}**
+      </box>
+      <grid columns={3} gap={1}>
+        {#each season.m as month}
+          <grid-item>
+            <box background="surface-secondary" radius="md" padding={2} align="center">
+              <caption>{month.split("｜")[0]}</caption>
+              <title size="md">{month.split("｜")[1]}</title>
+            </box>
+          </grid-item>
+        {/each}
+      </grid>
+    </row>
+  {/each}
+</card>
+
+## 五、二選一決勝｜A vs. C
+
+| 比較項目 | A 蕎花雪白 | C 鶯啼綠映紅 |
+|---|---|---|
+| 關鍵字 | 雪白 | 鶯啼、綠、紅 |
+| 真正含義 | 花朵的顏色 | 春天的景象 |
+| 月份是否符合 | <text color="danger">否</text> | <text color="success">是</text> |
+
+**決定性差異：雪白是顏色，不是季節。**
+
+## 六、錯因診斷與考場快速檢核
+
+可能的判斷陷阱是將「雪白」誤認為冬季線索，或尚未熟悉農曆月份別稱。由於沒有完整作答過程，實際錯因仍待確認。
+
+考場解題三步驟：
+
+1. 判斷詩句描寫的實際景象。
+2. 將月份別稱轉換為農曆月份。
+3. 確認月份與季節是否一致。
+
+**記憶口訣：先辨景，再辨季，最後對月份。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → C。</caption>
+<caption>錯題分類：文化常識、月份別稱、詩句意象辨析。</caption>
+<caption>P0：已依原題逐項獨立判斷，答案為 C。</caption>
+<caption>P1：尚未查核國中教材原頁及詩詞原始文獻。</caption>
+<caption>P2：圖解採季節情境參考圖片，實際圖片與文字一致性尚未驗收。</caption>
+
+[user 2026-11-27T23:04:09.714557+08:00]
+[使用者原卷附件 24]
+11@錯題D → A
+
+[assistant 2026-11-27T23:04:14.943603+08:00]
+# 第11題｜文意理解：面對人生逆境
+
+<row align="center">
+  <text color="danger" weight="medium">原選 D</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 A</text>
+</row>
+
+## 一、原題與白話解說
+
+「逢到逆境時，我們要忍一忍、熬一熬，再多拿出一分勇氣和信心。不要只看旅途的艱苦，而要把希望的燈光點亮，去照見那你所想要去的地方。」
+
+**白話解說：**遇到困難時，要保持勇氣與信心，不要因為眼前的挫折而失去希望，相信自己能度過難關，朝理想的目標前進。
+
+## 二、精準圖解｜從逆境走向希望
+
+<box border radius="xl" padding={2}>
+  <svg viewBox="0 0 340 190" width="100%">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="#17263e"/>
+        <stop offset="50%" stopColor="#52627c"/>
+        <stop offset="100%" stopColor="#ffe3a0"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="340" height="190" rx="10" fill="url(#sky)"/>
+    <circle cx="290" cy="75" r="28" fill="#fff0ac"/>
+    <path d="M0 125 L45 72 L90 130 L140 85 L200 136 L260 100 L340 130 V190 H0Z" fill="#52665e"/>
+    <path d="M0 155 L65 130 L120 158 L180 125 L235 140 L340 110 V190 H0Z" fill="#344b43"/>
+    <path d="M25 190 Q80 140 135 165 T290 111" stroke="#d6bb83" strokeWidth="13" fill="none"/>
+    <circle cx="65" cy="127" r="7" fill="#f0c9a4"/>
+    <path d="M65 136 L65 153 M65 140 L52 148 M65 140 L78 146 M65 153 L54 169 M65 153 L76 168" stroke="#e2e8f0" strokeWidth="5" strokeLinecap="round"/>
+    <circle cx="83" cy="147" r="13" fill="#ffdd72" opacity=".24"/>
+    <rect x="78" y="140" width="10" height="14" rx="2" fill="#ffdf76"/>
+    <text x="49" y="25" textAnchor="middle" fontSize="14" fill="white" fontWeight="bold">眼前逆境</text>
+    <text x="165" y="25" textAnchor="middle" fontSize="14" fill="white" fontWeight="bold">勇氣與信心</text>
+    <text x="290" y="25" textAnchor="middle" fontSize="14" fill="#684614" fontWeight="bold">未來希望</text>
+    <path d="M96 42 H120 M115 37 L120 42 L115 47 M218 42 H242 M237 37 L242 42 L237 47" stroke="#fff" strokeWidth="2" fill="none"/>
+  </svg>
+  <caption textAlign="center">黑暗只是暫時的，不要因眼前的困難而放棄未來的希望。</caption>
+</box>
+
+## 三、四選項逐項辨析
+
+| 選項 | 主要含義 | 判斷 |
+|---|---|---|
+| A 堅定自我，因為黎明以前的時分是最黑暗的 | 在逆境中保持信心，相信希望即將到來 | <text color="success">正確</text> |
+| B 汲取教訓，記得失敗為成功之母 | 從失敗中學習經驗 | <text color="danger">錯誤</text> |
+| C 隨遇而安，順應自然凡事順其發展 | 接受環境，順其自然 | <text color="danger">錯誤</text> |
+| D 堅忍不拔，克服自己心中的高牆與心魔 | 克服內心的障礙與恐懼 | <text color="danger">非最接近</text> |
+
+## 四、二選一決勝｜A vs. D
+
+這兩個選項都強調面對困難時不能輕易放棄，因此容易混淆。
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="success" weight="medium">A｜逆境中的希望</text>
+      <svg viewBox="0 0 150 95" width="100%">
+        <rect width="150" height="95" rx="6" fill="#374762"/>
+        <circle cx="75" cy="65" r="28" fill="#ffd479"/>
+        <path d="M0 75 L35 53 L65 77 L110 50 L150 75 V95 H0Z" fill="#293b39"/>
+        <path d="M0 80 H150" stroke="#f9ca76" strokeWidth="2"/>
+      </svg>
+      黑暗即將過去，黎明終將到來。
+
+      **重點：保持希望。**
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={2}>
+      <text color="danger" weight="medium">D｜克服內心障礙</text>
+      <svg viewBox="0 0 150 95" width="100%">
+        <rect width="150" height="95" rx="6" fill="#e4e9ef"/>
+        <rect x="80" y="12" width="55" height="76" fill="#929da9"/>
+        {#each [31,50,69] as y}
+          <path d={`M80 ${y} H135`} stroke="#e4e9ef" strokeWidth="2"/>
+        {/each}
+        <path d="M105 12 V31 M116 31 V50 M100 50 V69 M116 69 V88" stroke="#e4e9ef" strokeWidth="2"/>
+        <circle cx="45" cy="43" r="9" fill="#c28c62"/>
+        <path d="M45 54 V73 M45 58 L63 48 M45 73 L34 87 M45 73 L56 87" stroke="#425b77" strokeWidth="6" strokeLinecap="round"/>
+      </svg>
+      突破自己的恐懼與心理限制。
+
+      **重點：克服心魔。**
+    </box>
+  </grid-item>
+</grid>
+
+原文的決定性線索是：
+
+- 「勇氣和信心」
+- 「把希望的燈光點亮」
+- 「照見那你所想要去的地方」
+
+全文強調的是對未來保持希望，而非特別針對內心的障礙，因此 A 更貼近主旨。
+
+## 五、錯因診斷與改善策略
+
+**可能的誤選陷阱：局部語意相符，卻未掌握全文主旨。**
+
+D 的「堅忍不拔」確實符合原文的「忍一忍、熬一熬」，但後半句的「高牆與心魔」並不是文章主要強調的內容。實際錯因仍須依孩子的作答過程確認。
+
+## 六、考場10秒自我檢核
+
+遇到「何者最為接近」的文意理解題，不能只比較選項的前半句，也要確認後半句是否符合全文。
+
+**尤其注意「不要……而要……」的句型，主旨通常落在「而要」之後。**
+
+本題：「而要把希望的燈光點亮」→ 保持希望 → 選 A。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：D → A</caption>
+<caption>錯題分類：文意理解、主旨判斷、相近選項辨析。</caption>
+<caption>P0：已依原題獨立判斷，答案為 A。</caption>
+<caption>P1：原題資訊充分，尚未查核國中教材原頁。</caption>
+<caption>P2：採程式化語意示意圖，已核對圖解內容與原文主旨，未進行實際畫面渲染驗收。</caption>
+
+[user 2026-11-27T23:04:52.940613+08:00]
+[使用者原卷附件 25]
+[使用者原卷附件 26]
+5@錯題A → D
+
+[assistant 2026-11-27T23:04:56.889370+08:00]
+# 第5題｜文意理解：下定決心與行動
+
+<row align="center">
+  <text color="danger" weight="medium">原選 A</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 D</text>
+</row>
+
+## 一、原題與解題關鍵
+
+首位飛越大西洋女性駕駛——愛蜜莉亞・艾爾哈特曾說過一句話：
+
+「『行動』是難下的決定，剩下的只是堅持！」
+
+作者認為這句話十分貼切地表達自己的人生理念，並表示：
+
+「我的人生所面臨的，更多是關於『下定決心』。」
+
+**題目：作者在面對人生十字路口時，可能具有何種問題？**
+
+關鍵在於作者認為最困難的不是堅持，而是**下定決心、開始行動**。
+
+## 二、精準圖解｜人生十字路口
+
+<box border radius="xl" padding={3}>
+  <svg viewBox="0 0 340 220" width="100%">
+    <rect width="340" height="220" rx="10" fill="#edf3e9"/>
+    <path d="M170 220 V133 Q170 105 75 55 M170 133 Q170 105 265 55" fill="none" stroke="#b4b8bc" strokeWidth="45"/>
+    <path d="M170 220 V133 Q170 105 75 55 M170 133 Q170 105 265 55" fill="none" stroke="white" strokeWidth="2" strokeDasharray="8 7"/>
+    <rect x="15" y="12" width="126" height="34" rx="7" fill="#607b9e"/>
+    <rect x="199" y="12" width="126" height="34" rx="7" fill="#40865a"/>
+    <text x="78" y="34" fontSize="14" textAnchor="middle" fill="white">維持現狀</text>
+    <text x="262" y="34" fontSize="14" textAnchor="middle" fill="white">勇敢改變</text>
+    <circle cx="170" cy="131" r="11" fill="#e3b18c"/>
+    <path d="M170 145 V170 M170 150 L153 160 M170 150 L186 137 M170 170 L157 189 M170 170 L184 189" stroke="#334b69" strokeWidth="8" strokeLinecap="round"/>
+    <circle cx="170" cy="84" r="24" fill="#fff" stroke="#c0c8cf"/>
+    <text x="170" y="94" textAnchor="middle" fontSize="29" fontWeight="bold" fill="#b7791f">?</text>
+    <rect x="8" y="139" width="125" height="43" rx="8" fill="#fff"/>
+    <text x="70" y="157" textAnchor="middle" fontSize="12" fill="#374151">到底該怎麼選？</text>
+    <text x="70" y="173" textAnchor="middle" fontSize="12" fill="#374151">遲遲無法決定</text>
+    <path d="M133 155 L150 145" stroke="#9ca3af" strokeWidth="2"/>
+  </svg>
+  <caption textAlign="center">面臨選擇時反覆猶豫、難以下定決心，就是「優柔寡斷」。</caption>
+  <divider/>
+  <row align="center" justify="center">
+    <box flex={1} align="center" background="#fef2f2" radius="md" padding={2}>
+      <text color="#b91c1c" weight="medium">下定決心</text>
+      <text color="#b91c1c" size="sm">作者認為最困難</text>
+    </box>
+    <icon name="arrow-right"/>
+    <box flex={1} align="center" background="#f0fdf4" radius="md" padding={2}>
+      <text color="#15803d" weight="medium">開始行動</text>
+      <text color="#15803d" size="sm">接著持續堅持</text>
+    </box>
+  </row>
+</box>
+
+## 三、四選項逐項辨析
+
+| 選項 | 詞義與判斷 | 結果 |
+|---|---|---|
+| A 極度樂天 | 過於樂觀，總是往好的方面想。原文並未指出作者過度樂觀。 | <text color="danger">錯誤</text> |
+| B 過度悲觀 | 對未來缺乏信心，總是往壞處想。原文未強調悲觀。 | <text color="danger">錯誤</text> |
+| C 衝動行事 | 未經充分考慮就採取行動，與難以下定決心的情況相反。 | <text color="danger">錯誤</text> |
+| D 優柔寡斷 | 做事猶豫不決，缺乏果斷作決定的能力。 | <text color="success">正確</text> |
+
+## 四、二選一決勝｜A vs. D
+
+| 比較項目 | A 極度樂天 | D 優柔寡斷 |
+|---|---|---|
+| 核心問題 | 過度樂觀 | 難以作決定 |
+| 判斷方向 | 對未來的看法 | 作決定的能力 |
+| 符合「下定決心」的困難 | 否 | 是 |
+
+**決定性差異：作者的問題不是如何看待未來，而是能否果斷地作出選擇。**
+
+文章整體語氣雖然積極正向，但不代表作者本身具有「極度樂天」的問題。
+
+## 五、觀念透析｜優柔寡斷
+
+**注音：**ㄧㄡ ㄖㄡˊ ㄍㄨㄚˇ ㄉㄨㄢˋ
+
+**詞義：**行事猶豫不決，不能果斷地作出決定。
+
+**例句：**他面對升學選擇時總是優柔寡斷，遲遲無法決定自己的方向。
+
+反義詞：當機立斷、毅然決然。
+
+## 六、錯因診斷與考場快速檢核
+
+可能的誤選陷阱是將**文章的正向語氣**與**題目要求推論的人物問題**混為一談。實際錯因仍待確認。
+
+遇到人物特質推論題，先找出原文中的行為證據，再對應選項詞義。
+
+<box gap={1} align="center">
+  <box border radius="md" padding={2} width="100%" align="center">
+    原文證據：下定決心很困難
+  </box>
+  <icon name="arrow-down" color="secondary"/>
+  <box border radius="md" padding={2} width="100%" align="center">
+    人物問題：猶豫不決
+  </box>
+  <icon name="arrow-down" color="secondary"/>
+  <box border radius="md" padding={2} width="100%" align="center">
+    <text color="success" weight="medium">D 優柔寡斷</text>
+  </box>
+</box>
+
+**考場口訣：不憑文章語氣猜性格，要用具體行為找證據。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：A → D。</caption>
+<caption>錯題分類：文意理解、人物特質推論、成語詞義辨析。</caption>
+<caption>P0：已依兩張原題照片獨立推論，答案為 D。</caption>
+<caption>P1：已核對使用者提供的文章，尚未查核教材外掛原頁。</caption>
+<caption>P2：程式化情境圖解，語意已核對，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:05:41.733469+08:00]
+[使用者原卷附件 27]
+6@錯題C → D
+
+[assistant 2026-11-27T23:05:45.312794+08:00]
+# 第6題｜文言文閱讀：三十六計
+
+<row align="center">
+  <text color="danger" weight="medium">原選 C 借刀殺人</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 D 釜底抽薪</text>
+</row>
+
+## 一、原題與解題關鍵
+
+題目要求根據短文內容，判斷屬於《三十六計》中的哪一種策略。
+
+原文的關鍵線索：
+
+- 「水沸者，力也，火之力也。」
+- 「薪者，火之魄也，即力之勢也。」
+- 「故力不可當而勢猶可消。」
+
+意思是：即使對方的力量強大，難以正面抵擋，仍然可以從根本消除支持其力量的條件。
+
+**薪就是柴火，抽走柴火，便能使火勢減弱，讓沸水逐漸停止沸騰。**
+
+## 二、精準圖解｜釜底抽薪
+
+<box border radius="xl" padding={3}>
+  <svg viewBox="0 0 340 245" width="100%">
+    <rect x="0" y="0" width="340" height="245" rx="10" fill="#f8f5ed"/>
+    <text x="85" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#a33e22">抽薪之前</text>
+    <text x="255" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#276849">抽薪之後</text>
+    {#each [85,255] as x}
+      <path d={`M${x-49} 72 L${x-40} 121 Q${x} 145 ${x+40} 121 L${x+49} 72 Z`} fill="#8c99a5" stroke="#485461" strokeWidth="2"/>
+      <ellipse cx={x} cy="72" rx="49" ry="13" fill="#9bd8ef" stroke="#485461" strokeWidth="2"/>
+      <path d={`M${x-49} 85 h-12 v15 h15 M${x+49} 85 h12 v15 h-15`} fill="none" stroke="#485461" strokeWidth="5"/>
+    {/each}
+    {#each [56,76,98,115] as x}
+      <circle cx={x} cy={70} r="5" fill="#e9faff" stroke="#5299ba"/>
+      <path d={`M${x} 57 q-8 -7 0 -15 q8 -7 0 -13`} fill="none" stroke="#9eabb3" strokeWidth="2"/>
+    {/each}
+    <path d="M48 174 Q30 153 57 137 Q49 158 69 159 Q58 139 85 126 Q76 148 96 153 Q111 145 110 135 Q141 159 120 174 Z" fill="#ed6933"/>
+    <path d="M69 174 Q60 162 83 147 Q82 162 96 165 L105 174 Z" fill="#ffcf54"/>
+    <path d="M44 182 L124 193 M46 193 L125 181" stroke="#86532d" strokeWidth="12" strokeLinecap="round"/>
+    <path d="M267 182 L315 192 M267 192 L315 180" stroke="#86532d" strokeWidth="10" strokeLinecap="round"/>
+    <path d="M215 186 H250" stroke="#276849" strokeWidth="3"/>
+    <path d="M250 186 l-10 -6 v12 Z" fill="#276849"/>
+    <text x="254" y="160" fontSize="12" textAnchor="middle" fill="#276849">火勢消失</text>
+    <path d="M147 105 H192" stroke="#64748b" strokeWidth="3"/>
+    <path d="M192 105 l-10 -7 v14 Z" fill="#64748b"/>
+    <text x="170" y="94" fontSize="12" textAnchor="middle" fill="#374151">抽薪</text>
+    <text x="85" y="219" textAnchor="middle" fontSize="13" fill="#a33e22">柴火旺盛、水沸騰</text>
+    <text x="255" y="219" textAnchor="middle" fontSize="13" fill="#276849">移除柴火、水漸冷</text>
+  </svg>
+  <divider/>
+  | 圖中事物 | 原文象徵 |
+  |---|---|
+  | 沸水 | 強大的力量 |
+  | 火 | 產生力量的作用 |
+  | 柴火 | 支持力量的根本條件 |
+  | 抽走柴火 | 消除力量的來源 |
+</box>
+
+[assistant 2026-11-27T23:05:45.317706+08:00]
+# 第6題｜文言文閱讀：三十六計
+
+<row align="center">
+  <text color="danger" weight="medium">原選 C 借刀殺人</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 D 釜底抽薪</text>
+</row>
+
+## 一、原題與解題關鍵
+
+題目要求根據短文內容，判斷屬於《三十六計》中的哪一種策略。
+
+原文的關鍵線索：
+
+- 「水沸者，力也，火之力也。」
+- 「薪者，火之魄也，即力之勢也。」
+- 「故力不可當而勢猶可消。」
+
+意思是：即使對方的力量強大，難以正面抵擋，仍然可以從根本消除支持其力量的條件。
+
+**薪就是柴火，抽走柴火，便能使火勢減弱，讓沸水逐漸停止沸騰。**
+
+## 二、精準圖解｜釜底抽薪
+
+<box border radius="xl" padding={3}>
+  <svg viewBox="0 0 340 245" width="100%">
+    <rect x="0" y="0" width="340" height="245" rx="10" fill="#f8f5ed"/>
+    <text x="85" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#a33e22">抽薪之前</text>
+    <text x="255" y="24" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#276849">抽薪之後</text>
+    {#each [85,255] as x}
+      <path d={`M${x-49} 72 L${x-40} 121 Q${x} 145 ${x+40} 121 L${x+49} 72 Z`} fill="#8c99a5" stroke="#485461" strokeWidth="2"/>
+      <ellipse cx={x} cy="72" rx="49" ry="13" fill="#9bd8ef" stroke="#485461" strokeWidth="2"/>
+      <path d={`M${x-49} 85 h-12 v15 h15 M${x+49} 85 h12 v15 h-15`} fill="none" stroke="#485461" strokeWidth="5"/>
+    {/each}
+    {#each [56,76,98,115] as x}
+      <circle cx={x} cy={70} r="5" fill="#e9faff" stroke="#5299ba"/>
+      <path d={`M${x} 57 q-8 -7 0 -15 q8 -7 0 -13`} fill="none" stroke="#9eabb3" strokeWidth="2"/>
+    {/each}
+    <path d="M48 174 Q30 153 57 137 Q49 158 69 159 Q58 139 85 126 Q76 148 96 153 Q111 145 110 135 Q141 159 120 174 Z" fill="#ed6933"/>
+    <path d="M69 174 Q60 162 83 147 Q82 162 96 165 L105 174 Z" fill="#ffcf54"/>
+    <path d="M44 182 L124 193 M46 193 L125 181" stroke="#86532d" strokeWidth="12" strokeLinecap="round"/>
+    <path d="M267 182 L315 192 M267 192 L315 180" stroke="#86532d" strokeWidth="10" strokeLinecap="round"/>
+    <path d="M215 186 H250" stroke="#276849" strokeWidth="3"/>
+    <path d="M250 186 l-10 -6 v12 Z" fill="#276849"/>
+    <text x="254" y="160" fontSize="12" textAnchor="middle" fill="#276849">火勢消失</text>
+    <path d="M147 105 H192" stroke="#64748b" strokeWidth="3"/>
+    <path d="M192 105 l-10 -7 v14 Z" fill="#64748b"/>
+    <text x="170" y="94" fontSize="12" textAnchor="middle" fill="#374151">抽薪</text>
+    <text x="85" y="219" textAnchor="middle" fontSize="13" fill="#a33e22">柴火旺盛、水沸騰</text>
+    <text x="255" y="219" textAnchor="middle" fontSize="13" fill="#276849">移除柴火、水漸冷</text>
+  </svg>
+  <divider/>
+  | 圖中事物 | 原文象徵 |
+  |---|---|
+  | 沸水 | 強大的力量 |
+  | 火 | 產生力量的作用 |
+  | 柴火 | 支持力量的根本條件 |
+  | 抽走柴火 | 消除力量的來源 |
+</box>
+
+## 三、全文白話翻譯
+
+| 原文 | 白話解說 |
+|---|---|
+| 水沸者，力也，火之力也，陽中之陽也，銳不可當。 | 水的沸騰是一種力量，來自火的作用，這股力量十分強盛，難以正面抵擋。 |
+| 薪者，火之魄也，即力之勢也，陰中之陰也，近而無害。 | 柴火是火的根本，也是支持力量的條件，本身卻可以接近而不受傷害。 |
+| 故力不可當而勢猶可消。 | 因此，即使力量難以抵擋，仍然可以消除支持這股力量的條件。 |
+| 尉繚子曰：「氣實則鬥，氣奪則走。」 | 士氣旺盛就會奮勇作戰，士氣喪失就會逃走。 |
+| 而奪氣之法，則在攻心。 | 而削弱對方士氣的方法，在於心理上的打擊。 |
+| 此即攻心奪氣之用也。 | 這就是攻心、削弱士氣的作用。 |
+| 或曰：敵與敵對，搗強敵之虛以敗其將成之功也。 | 也有人說，雙方對抗時，可以針對強敵的弱點，使其即將完成的成果失敗。 |
+
+## 四、四選項逐項辨析
+
+| 選項 | 策略意義 | 判斷 |
+|---|---|---|
+| A 調虎離山 | 引誘對方離開原本有利的位置。 | <text color="danger">錯誤</text> |
+| B 聲東擊西 | 製造假象，使對方誤判真正的行動方向。 | <text color="danger">錯誤</text> |
+| C 借刀殺人 | 利用第三者的力量達成自己的目的。 | <text color="danger">錯誤</text> |
+| D 釜底抽薪 | 從根本消除問題或力量的來源。 | <text color="success">正確</text> |
+
+## 五、二選一決勝｜C vs. D
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={2}>
+      **C 借刀殺人**
+      <svg viewBox="0 0 150 120" width="100%">
+        <rect x="40" y="5" width="70" height="26" rx="5" fill="#64748b"/>
+        <text x="75" y="23" fontSize="13" fill="white" textAnchor="middle">自己</text>
+        <path d="M75 32 V46" stroke="#64748b" strokeWidth="2"/>
+        <path d="M70 42 L75 49 L80 42" fill="#64748b"/>
+        <rect x="40" y="49" width="70" height="26" rx="5" fill="#bf8538"/>
+        <text x="75" y="67" fontSize="13" fill="white" textAnchor="middle">第三者</text>
+        <path d="M75 76 V90" stroke="#64748b" strokeWidth="2"/>
+        <path d="M70 86 L75 93 L80 86" fill="#64748b"/>
+        <rect x="40" y="93" width="70" height="25" rx="5" fill="#a65050"/>
+        <text x="75" y="110" fontSize="13" fill="white" textAnchor="middle">對方</text>
+      </svg>
+      <text textAlign="center" size="sm">借用別人的力量</text>
+      <text color="danger" textAlign="center">原文沒有第三者</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2}>
+      **D 釜底抽薪**
+      <svg viewBox="0 0 150 120" width="100%">
+        <rect x="40" y="5" width="70" height="26" rx="5" fill="#a65050"/>
+        <text x="75" y="23" fontSize="13" fill="white" textAnchor="middle">強大力量</text>
+        <path d="M75 90 V34" stroke="#64748b" strokeWidth="2" strokeDasharray="4 3"/>
+        <path d="M70 40 L75 33 L80 40" fill="#64748b"/>
+        <circle cx="75" cy="60" r="15" fill="#fce7e7"/>
+        <path d="M67 52 L83 68 M83 52 L67 68" stroke="#b91c1c" strokeWidth="4"/>
+        <rect x="30" y="93" width="90" height="25" rx="5" fill="#40865a"/>
+        <text x="75" y="110" fontSize="13" fill="white" textAnchor="middle">力量來源</text>
+      </svg>
+      <text textAlign="center" size="sm">消除力量的來源</text>
+      <text color="success" textAlign="center">符合原文抽薪概念</text>
+    </box>
+  </grid-item>
+</grid>
+
+**決定性差異：借力與消力。**
+
+借刀殺人是借助他人的力量；釜底抽薪則是消除對方力量的根源。
+
+## 六、成語觀念透析
+
+**釜底抽薪**
+
+注音：ㄈㄨˇ ㄉㄧˇ ㄔㄡ ㄒㄧㄣ
+
+- 釜：鍋子。
+- 薪：柴火。
+- 詞義：比喻從根本解決問題。
+- 例句：要改善河川污染，必須從源頭管制汙水排放，才能達到釜底抽薪的效果。
+
+## 七、錯因診斷與考場快速檢核
+
+可能的誤選陷阱：只注意到文章描述不直接與敵人對抗的策略，卻沒有進一步辨認策略的具體原理。實際錯因仍待確認。
+
+考場上只要抓住「薪」和「勢猶可消」兩個關鍵線索，就能排除 C，選出 D。
+
+**考場口訣：借他人之力是借刀殺人；斷力量之源是釜底抽薪。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：C → D</caption>
+<caption>錯題分類：文言文理解、成語辨析、核心概念對應。</caption>
+<caption>P0：已依原題獨立判斷，答案為 D。</caption>
+<caption>P1：已核對原題照片，尚未查核教材外掛原頁。</caption>
+<caption>P2：程式化圖解，內容已核對，實際渲染畫面尚未驗收。</caption>
+
+[assistant 2026-11-27T23:06:06.561802+08:00]
+## 三、全文白話翻譯
+
+| 原文 | 白話解說 |
+|---|---|
+| 水沸者，力也，火之力也，陽中之陽也，銳不可當。 | 水的沸騰是一種力量，來自火的作用，這股力量十分強盛，難以正面抵擋。 |
+| 薪者，火之魄也，即力之勢也，陰中之陰也，近而無害。 | 柴火是火的根本，也是支持力量的條件，本身卻可以接近而不受傷害。 |
+| 故力不可當而勢猶可消。 | 因此，即使力量難以抵擋，仍然可以消除支持這股力量的條件。 |
+| 尉繚子曰：「氣實則鬥，氣奪則走。」 | 士氣旺盛就會奮勇作戰，士氣喪失就會逃走。 |
+| 而奪氣之法，則在攻心。 | 而削弱對方士氣的方法，在於心理上的打擊。 |
+| 此即攻心奪氣之用也。 | 這就是攻心、削弱士氣的作用。 |
+| 或曰：敵與敵對，搗強敵之虛以敗其將成之功也。 | 也有人說，雙方對抗時，可以針對強敵的弱點，使其即將完成的成果失敗。 |
+
+## 四、四選項逐項辨析
+
+| 選項 | 策略意義 | 判斷 |
+|---|---|---|
+| A 調虎離山 | 引誘對方離開原本有利的位置。 | <text color="danger">錯誤</text> |
+| B 聲東擊西 | 製造假象，使對方誤判真正的行動方向。 | <text color="danger">錯誤</text> |
+| C 借刀殺人 | 利用第三者的力量達成自己的目的。 | <text color="danger">錯誤</text> |
+| D 釜底抽薪 | 從根本消除問題或力量的來源。 | <text color="success">正確</text> |
+
+## 五、二選一決勝｜C vs. D
+
+<grid columns={2} gap={3}>
+  <grid-item>
+    <box border radius="lg" padding={2}>
+      **C 借刀殺人**
+      <svg viewBox="0 0 150 120" width="100%">
+        <rect x="40" y="5" width="70" height="26" rx="5" fill="#64748b"/>
+        <text x="75" y="23" fontSize="13" fill="white" textAnchor="middle">自己</text>
+        <path d="M75 32 V46" stroke="#64748b" strokeWidth="2"/>
+        <path d="M70 42 L75 49 L80 42" fill="#64748b"/>
+        <rect x="40" y="49" width="70" height="26" rx="5" fill="#bf8538"/>
+        <text x="75" y="67" fontSize="13" fill="white" textAnchor="middle">第三者</text>
+        <path d="M75 76 V90" stroke="#64748b" strokeWidth="2"/>
+        <path d="M70 86 L75 93 L80 86" fill="#64748b"/>
+        <rect x="40" y="93" width="70" height="25" rx="5" fill="#a65050"/>
+        <text x="75" y="110" fontSize="13" fill="white" textAnchor="middle">對方</text>
+      </svg>
+      <text textAlign="center" size="sm">借用別人的力量</text>
+      <text color="danger" textAlign="center">原文沒有第三者</text>
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={2}>
+      **D 釜底抽薪**
+      <svg viewBox="0 0 150 120" width="100%">
+        <rect x="40" y="5" width="70" height="26" rx="5" fill="#a65050"/>
+        <text x="75" y="23" fontSize="13" fill="white" textAnchor="middle">強大力量</text>
+        <path d="M75 90 V34" stroke="#64748b" strokeWidth="2" strokeDasharray="4 3"/>
+        <path d="M70 40 L75 33 L80 40" fill="#64748b"/>
+        <circle cx="75" cy="60" r="15" fill="#fce7e7"/>
+        <path d="M67 52 L83 68 M83 52 L67 68" stroke="#b91c1c" strokeWidth="4"/>
+        <rect x="30" y="93" width="90" height="25" rx="5" fill="#40865a"/>
+        <text x="75" y="110" fontSize="13" fill="white" textAnchor="middle">力量來源</text>
+      </svg>
+      <text textAlign="center" size="sm">消除力量的來源</text>
+      <text color="success" textAlign="center">符合原文抽薪概念</text>
+    </box>
+  </grid-item>
+</grid>
+
+**決定性差異：借力與消力。**
+
+借刀殺人是借助他人的力量；釜底抽薪則是消除對方力量的根源。
+
+## 六、成語觀念透析
+
+**釜底抽薪**
+
+注音：ㄈㄨˇ ㄉㄧˇ ㄔㄡ ㄒㄧㄣ
+
+- 釜：鍋子。
+- 薪：柴火。
+- 詞義：比喻從根本解決問題。
+- 例句：要改善河川污染，必須從源頭管制汙水排放，才能達到釜底抽薪的效果。
+
+## 七、錯因診斷與考場快速檢核
+
+可能的誤選陷阱：只注意到文章描述不直接與敵人對抗的策略，卻沒有進一步辨認策略的具體原理。實際錯因仍待確認。
+
+考場上只要抓住「薪」和「勢猶可消」兩個關鍵線索，就能排除 C，選出 D。
+
+**考場口訣：借他人之力是借刀殺人；斷力量之源是釜底抽薪。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>誤選紀錄：C → D</caption>
+<caption>錯題分類：文言文理解、成語辨析、核心概念對應。</caption>
+<caption>P0：已依原題獨立判斷，答案為 D。</caption>
+<caption>P1：已核對原題照片，尚未查核教材外掛原頁。</caption>
+<caption>P2：程式化圖解，內容已核對，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:06:53.030646+08:00]
+[使用者原卷附件 28]
+18@錯題B → D
+
+[assistant 2026-11-27T23:06:57.231264+08:00]
+# 第18題｜力矩與轉動平衡
+
+<row align="center">
+  <text color="danger" weight="medium">原選 B（30 kgw）</text>
+  <icon name="arrow-right"/>
+  <text color="success" weight="medium">正解 D（60 kgw）</text>
+</row>
+
+## 一、題目關鍵條件
+
+阿東老師做伏地挺身，保持靜止不動。
+
+- 體重：90 kgw。
+- 雙手至重心：60 cm。
+- 重心至腳尖：120 cm。
+- 雙手至腳尖：180 cm。
+
+題目要求的是**地面對雙手的總支撐力**，不是腳尖的支撐力。
+
+## 二、精準圖解｜人體槓桿與力矩
+
+<box border radius="xl" padding={3}>
+  <svg viewBox="0 0 350 255" width="100%">
+    <rect width="350" height="255" rx="10" fill="#f4f7fa"/>
+    <path d="M20 167 H332" stroke="#64748b" strokeWidth="3"/>
+    <circle cx="35" cy="66" r="17" fill="#e8bb95"/>
+    <path d="M18 65 Q13 41 39 45 Q56 46 51 62" fill="#41454c"/>
+    <path d="M54 70 L134 85 L128 111 L50 94 Z" fill="#7da9d4" stroke="#456b92"/>
+    <path d="M133 86 L294 145 L288 160 L127 111 Z" fill="#425f99" stroke="#304875"/>
+    <path d="M55 87 L50 158 L38 164" fill="none" stroke="#d7a47d" strokeWidth="11" strokeLinecap="round"/>
+    <path d="M293 148 L307 165" stroke="#d7a47d" strokeWidth="11" strokeLinecap="round"/>
+    <circle cx="135" cy="99" r="4" fill="#c0392b"/>
+    <path d="M135 34 V159" stroke="#c0392b" strokeWidth="3"/>
+    <path d="M128 149 L135 163 L142 149 Z" fill="#c0392b"/>
+    <text x="135" y="23" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#b42318">體重 90 kgw</text>
+    <path d="M50 165 V110" stroke="#16834b" strokeWidth="4"/>
+    <path d="M42 119 L50 104 L58 119 Z" fill="#16834b"/>
+    <text x="10" y="188" fontSize="13" fontWeight="bold" fill="#16834b">雙手 F</text>
+    <path d="M305 165 V100" stroke="#2563a8" strokeWidth="3"/>
+    <path d="M298 110 L305 96 L312 110 Z" fill="#2563a8"/>
+    <text x="305" y="84" textAnchor="middle" fontSize="12" fill="#2563a8">腳尖支撐力</text>
+    <path d="M305 169 L294 184 H316 Z" fill="#64748b"/>
+    <text x="305" y="199" fontSize="12" textAnchor="middle" fill="#475569">選為支點</text>
+    <path d="M50 194 V218 M135 172 V218 M305 203 V218 M50 210 H305" stroke="#64748b" strokeWidth="1.2"/>
+    <text x="92.5" y="205" fontSize="13" textAnchor="middle" fill="#334155">60 cm</text>
+    <text x="220" y="205" fontSize="13" textAnchor="middle" fill="#334155">120 cm</text>
+    <path d="M50 225 V234 H305 V225" stroke="#16834b" fill="none" strokeWidth="1.5"/>
+    <text x="177.5" y="249" fontSize="14" textAnchor="middle" fontWeight="bold" fill="#16834b">總距離 180 cm</text>
+  </svg>
+  <caption>依原題距離比例重建受力示意圖，以腳尖為支點。</caption>
+</box>
+
+## 三、觀念透析與計算
+
+物體保持轉動平衡時：
+
+\[
+順時針力矩=逆時針力矩
+\]
+
+以腳尖為支點：
+
+| 作用力 | 力臂 |
+|---|---:|
+| 體重 90 kgw | 120 cm |
+| 雙手支撐力 F | 180 cm |
+| 腳尖支撐力 | 0 cm |
+
+代入力矩平衡公式：
+
+\[
+F\times180=90\times120
+\]
+
+\[
+F=\frac{90\times120}{180}
+\]
+
+\[
+\boxed{F=60\text{ kgw}}
+\]
+
+因此答案為 **(D)**。
+
+## 四、四選項逐項辨析
+
+| 選項 | 數值 | 判斷 |
+|---|---:|---|
+| A | 20 kgw | 不符合力矩平衡 |
+| B | 30 kgw | 是腳尖的支撐力 |
+| C | 40 kgw | 不符合力矩平衡 |
+| D | 60 kgw | 雙手的總支撐力，正確 |
+
+## 五、二選一決勝｜B vs. D
+
+<box border radius="xl" padding={3} gap={3}>
+  <title size="md">90 kgw 的體重如何分配？</title>
+  <row align="center">
+    <box flex={2} gap={1}>
+      <text color="success" weight="medium">雙手支撐力</text>
+      <title size="2xl" color="success" tabularNums={true}>60 kgw</title>
+    </box>
+    <box flex={1} gap={1}>
+      <text color="secondary">腳尖支撐力</text>
+      <title size="2xl" tabularNums={true}>30 kgw</title>
+    </box>
+  </row>
+  <row height={30} gap={0} radius="md" clip={true}>
+    <box background="#26965e" flex={2} align="center" justify="center">
+      <text color="#ffffff" weight="medium">2/3</text>
+    </box>
+    <box background="#64748b" flex={1} align="center" justify="center">
+      <text color="#ffffff" weight="medium">1/3</text>
+    </box>
+  </row>
+  <svg viewBox="0 0 320 95" width="100%">
+    <path d="M30 43 H290" stroke="currentColor" strokeWidth="4"/>
+    <path d="M30 43 L20 60 H40 Z M290 43 L280 60 H300 Z" fill="#64748b"/>
+    <path d="M116.67 10 V40" stroke="#c0392b" strokeWidth="3"/>
+    <path d="M110 32 L116.67 44 L123 32 Z" fill="#c0392b"/>
+    <text x="116.67" y="9" fontSize="11" fill="#c0392b" textAnchor="middle">重心</text>
+    <text x="73" y="35" fontSize="12" fill="currentColor" textAnchor="middle">60 cm</text>
+    <text x="203" y="35" fontSize="12" fill="currentColor" textAnchor="middle">120 cm</text>
+    <text x="30" y="78" fontSize="13" fill="#26965e" textAnchor="middle">雙手</text>
+    <text x="290" y="78" fontSize="13" fill="currentColor" textAnchor="middle">腳尖</text>
+  </svg>
+  **重心越靠近哪一端，哪一端承受的重量就越大。**
+</box>
+
+重心距離雙手只有60 cm，距離腳尖卻有120 cm，因此雙手承受的重量應該比腳尖大。
+
+- B：30 kgw，是腳尖承受的重量。
+- D：60 kgw，是雙手承受的重量。
+
+即使不列公式，也能利用重心位置排除 B。
+
+## 六、考場10秒自我檢核
+
+遇到兩端支撐的力矩題，先確認三件事：
+
+1. 題目要求哪一端的支撐力？
+2. 重心比較靠近哪一端？
+3. 靠近重心的一端，支撐力是否比較大？
+
+**記憶口訣：重心靠哪端，哪端承重多；力矩算距離，支點先選好。**
+
+## 七、錯因診斷
+
+本題可能不是不會計算力矩，而是將雙手與腳尖的支撐力混淆，或選錯力臂。由於沒有完整作答過程，實際錯因尚不能確定。
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>錯題分類：力矩平衡、力臂判讀、求解對象混淆。</caption>
+<caption>P0：力矩計算與總支撐力交叉驗證一致。</caption>
+<caption>P1：已核對原題照片，尚未查核教材外掛原頁。</caption>
+<caption>P2：程式化圖解的數值與位置已核對，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:08:03.712644+08:00]
+[使用者原卷附件 29]
+19@錯題B → D 20@錯題B → D
+
+[assistant 2026-11-27T23:08:11.944425+08:00]
+# 第19、20題｜力矩與靜力平衡
+
+<box border radius="lg" padding={3} gap={2}>
+  <row>
+    **第19題：肩膀受力**
+    <spacer/>
+    <text color="danger">B（4）</text>
+    <icon name="arrow-right"/>
+    <text color="success" weight="medium">D（10）</text>
+  </row>
+  <divider/>
+  <row>
+    **第20題：手的施力**
+    <spacer/>
+    <text color="danger">B（4）</text>
+    <icon name="arrow-right"/>
+    <text color="success" weight="medium">C（6）</text>
+  </row>
+</box>
+
+**答案校正：第20題應為 C（6公斤重），不是 D（10公斤重）。** 這也與照片中的紅筆訂正一致。
+
+## 一、原題關鍵條件
+
+- 木柄全長：100 cm。
+- 木柄重量：忽略不計。
+- 鐵斧重量：4 kgw。
+- 鐵斧距離肩膀：60 cm。
+- 手距離肩膀：100－60＝40 cm。
+- 整體處於靜力平衡。
+
+## 二、精準圖解｜三個作用力
+
+<box border radius="xl" padding={3}>
+  <svg viewBox="0 0 340 270" width="100%">
+    <rect width="340" height="270" rx="10" fill="#f6f7f9"/>
+    <circle cx="137" cy="83" r="20" fill="#e5ba91"/>
+    <path d="M110 71 L137 40 L164 71 Z" fill="#c7a35c" stroke="#8d713b"/>
+    <path d="M118 112 Q140 104 158 115 L165 188 L111 188 Z" fill="#9aa9a5"/>
+    <path d="M119 183 L111 232 L95 247 M151 184 L161 232 L178 247" fill="none" stroke="#58616b" strokeWidth="15" strokeLinecap="round"/>
+    <path d="M119 126 L75 157 L42 117" fill="none" stroke="#d5a47c" strokeWidth="12" strokeLinecap="round"/>
+    <rect x="32" y="103" width="280" height="9" rx="4" fill="#8b5b36"/>
+    <path d="M291 100 L313 100 L326 141 Q303 153 278 141 Z" fill="#737c87" stroke="#4b5563"/>
+    <circle cx="144" cy="108" r="4" fill="#16834b"/>
+    <path d="M32 109 V177" stroke="#b45309" strokeWidth="3.5"/>
+    <path d="M25 167 L32 181 L39 167 Z" fill="#b45309"/>
+    <text x="32" y="195" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#b45309">手向下拉</text>
+    <text x="32" y="211" textAnchor="middle" fontSize="14" fill="#b45309">6 kgw</text>
+    <path d="M144 109 V22" stroke="#16834b" strokeWidth="4"/>
+    <path d="M136 32 L144 16 L152 32 Z" fill="#16834b"/>
+    <text x="157" y="20" fontSize="13" fontWeight="bold" fill="#16834b">肩膀向上支撐</text>
+    <text x="157" y="37" fontSize="14" fill="#16834b">10 kgw</text>
+    <path d="M312 112 V157" stroke="#b42318" strokeWidth="3"/>
+    <path d="M305 151 L312 165 L319 151 Z" fill="#b42318"/>
+    <text x="302" y="182" textAnchor="middle" fontSize="12" fill="#b42318">鐵斧重力</text>
+    <text x="302" y="198" textAnchor="middle" fontSize="14" fill="#b42318">4 kgw</text>
+    <path d="M32 99 V79 M144 99 V79 M312 99 V79 M32 87 H312" stroke="#64748b" strokeWidth="1"/>
+    <text x="88" y="81" fontSize="13" textAnchor="middle" fill="#334155">40 cm</text>
+    <text x="228" y="81" fontSize="13" textAnchor="middle" fill="#334155">60 cm</text>
+    <path d="M144 112 L135 124 H153 Z" fill="#16834b"/>
+    <text x="180" y="130" fontSize="12" fill="#16834b">支點：肩膀</text>
+  </svg>
+  <caption>箭頭表示作用在斧頭與木柄系統上的力。肩膀受到木柄向下的反作用力為10 kgw。</caption>
+</box>
+
+最重要的觀念是：**手必須向下拉，而不是向上托。** 如此才能抵銷右側鐵斧造成的順時針力矩。
+
+## 三、解題順序｜先算第20題，再算第19題
+
+### 第20題：手需要施多少力？
+
+以肩膀為支點，利用力矩平衡：
+
+\[
+逆時針力矩=順時針力矩
+\]
+
+\[
+F\times40=4\times60
+\]
+
+\[
+F=\frac{240}{40}=6\text{ kgw}
+\]
+
+<text color="success" weight="medium">正解：(C) 6公斤重。</text>
+
+### 第19題：肩膀受到多少力？
+
+利用上下方向的合力為零。
+
+<box border radius="lg" padding={3}>
+  <svg viewBox="0 0 320 150" width="100%">
+    <path d="M25 70 H295" stroke="#91633d" strokeWidth="7" strokeLinecap="round"/>
+    <path d="M25 73 V112" stroke="#b45309" strokeWidth="4"/>
+    <path d="M18 104 L25 118 L32 104 Z" fill="#b45309"/>
+    <path d="M133 67 V25" stroke="#16834b" strokeWidth="5"/>
+    <path d="M125 30 L133 15 L141 30 Z" fill="#16834b"/>
+    <path d="M295 73 V112" stroke="#b42318" strokeWidth="3"/>
+    <path d="M288 104 L295 118 L302 104 Z" fill="#b42318"/>
+    <text x="133" y="12" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#16834b">肩膀 10 kgw</text>
+    <text x="25" y="138" fontSize="12" fill="#b45309">手 6 kgw</text>
+    <text x="310" y="138" textAnchor="end" fontSize="12" fill="#b42318">鐵斧 4 kgw</text>
+  </svg>
+  <title textAlign="center" size="xl" color="success">10 ↑ ＝ 6 ↓ ＋ 4 ↓</title>
+</box>
+
+肩膀必須同時抵銷手向下的拉力及鐵斧的重力。
+
+\[
+F_{\text{肩膀}}=6+4=10\text{ kgw}
+\]
+
+<text color="success" weight="medium">正解：(D) 10公斤重。</text>
+
+## 四、四選項逐項辨析
+
+| 選項 | 第19題：肩膀 | 第20題：手 |
+|---|---|---|
+| A（2） | 支撐力不足 | 力矩不足 |
+| B（4） | 只考慮鐵斧重量 | 忽略力臂不同 |
+| C（6） | 誤用手的施力 | <text color="success">正確</text> |
+| D（10） | <text color="success">正確</text> | 誤用肩膀支撐力 |
+
+## 五、二選一決勝辨析
+
+| 比較 | 原選 B（4） | 正確答案 |
+|---|---|---|
+| 第19題 | 只承受鐵斧重量 | D：還要承受手向下的6 kgw |
+| 第20題 | 認為兩端施力相等 | C：力臂較短，必須施更大的力 |
+
+兩題共同的陷阱是：**平衡不代表每個力都相等。**
+
+- 轉動平衡：兩方向的力矩相等。
+- 平移平衡：上下方向的合力為零。
+
+## 六、互動觀念圖解
+
+拖動滑桿，觀察鐵斧距離肩膀改變時，手與肩膀的受力如何變化。
+
+{@body const [d,setD]=DIL.useState(60)}
+{@body const hand=4*d/(100-d)}
+<card gap={3}>
+  <row align="center">
+    <label>鐵斧至肩膀距離</label>
+    <spacer/>
+    <title size="lg" color="default">{d} cm</title>
+  </row>
+  <slider min={20} max={80} step={10} value={d} onChange={setD} marks={[{"value":20,"label":"20"},{"value":60,"label":"原題60"},{"value":80,"label":"80"}]}/>
+  <svg viewBox="0 0 320 170" width="100%">
+    <rect x="20" y="78" width="280" height="7" rx="3" fill="#95683f"/>
+    <path d={`M${20+2.8*(100-d)} 85 l-13 19 h26 Z`} fill="#64748b"/>
+    <path d={`M${20+2.8*(100-d)} 76 V18`} stroke="#16834b" strokeWidth="4"/>
+    <path d={`M${12+2.8*(100-d)} 27 l8 -13 l8 13 Z`} fill="#16834b"/>
+    <path d={`M20 86 V${95+Math.min(50,hand*3)}`} stroke="#b45309" strokeWidth="4"/>
+    <path d={`M13 ${90+Math.min(50,hand*3)} l7 13 l7 -13 Z`} fill="#b45309"/>
+    <path d="M300 86 V125 M293 119 L300 132 L307 119 Z" stroke="#b42318" fill="#b42318" strokeWidth="2"/>
+    <text x={20+2.8*(100-d)} y="12" fontSize="12" textAnchor="middle" fill="#16834b">肩膀</text>
+    <text x={20+1.4*(100-d)} y="69" textAnchor="middle" fontSize="12" fill="currentColor">{100-d} cm</text>
+    <text x={300-1.4*d} y="69" textAnchor="middle" fontSize="12" fill="currentColor">{d} cm</text>
+    <text x="12" y="165" fontSize="12" fill="#b45309">手向下拉</text>
+    <text x="310" y="165" textAnchor="end" fontSize="12" fill="#b42318">鐵斧 4 kgw</text>
+  </svg>
+  <grid columns={2}>
+    <grid-item>
+      <caption>手的施力</caption>
+      <title size="2xl" color="#b45309">{Number(hand.toFixed(2))} kgw</title>
+    </grid-item>
+    <grid-item>
+      <caption>肩膀受力</caption>
+      <title size="2xl" color="success">{Number((hand+4).toFixed(2))} kgw</title>
+    </grid-item>
+  </grid>
+  <divider/>
+  <row align="center">
+    <caption>箭頭為受力方向示意，非精確力值比例。</caption>
+    <spacer/>
+    <button size="sm" variant="outline" onClick={()=>setD(60)}>恢復原題</button>
+  </row>
+</card>
+
+## 七、錯因診斷與考場策略
+
+結合前一題第18題，這三題都涉及力矩平衡與支撐力的判斷，值得優先加強的是**受力方向、力臂及求解對象的辨識**。但目前沒有完整作答過程，不能確定實際錯因完全相同。
+
+考場記憶口訣：
+
+**先畫力的方向，再找支點與力臂；先算力矩平衡，再算上下合力。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>第19題：B → D；第20題：B → C（已校正）。</caption>
+<caption>P0：已完成力矩平衡與合力平衡交叉驗證。</caption>
+<caption>P1：已核對原題照片，尚未查核教材外掛原頁。</caption>
+<caption>P2：程式化圖解與互動計算邏輯已核對，實際渲染畫面尚未驗收。</caption>
+
+[user 2026-11-27T23:10:22.362288+08:00]
+[使用者原卷附件 30]
+23@錯題C → A
+
+[assistant 2026-11-27T23:10:26.263378+08:00]
+# 第23題｜力矩的方向與合力矩
+
+<row align="center">
+  <badge color="danger">原選 C</badge>
+  <icon name="arrow-right"/>
+  <badge color="success">正解 A</badge>
+</row>
+
+**考點：力的方向相反，不代表力矩的方向相反。**
+
+## 一、原題關鍵條件
+
+| 比較項目 | 圖（一） | 圖（二） |
+|---|---|---|
+| 轉軸 | 槓桿中央 O₁ | 槓桿左端 O₂ |
+| 施力數量 | 兩個 F | 一個 F |
+| 力臂 | 各20 cm | 40 cm |
+| 合力矩 | L₁ | L₂ |
+
+題目要求比較 L₁ 與 L₂ 的大小。
+
+## 二、精準圖解
+
+<box border radius="xl" padding={3} gap={3}>
+  **圖（一）：兩個力都造成順時針轉動**
+  <svg viewBox="0 0 340 190" width="100%">
+    <rect x="10" y="5" width="320" height="180" rx="10" fill="#f5f7fa"/>
+    <rect x="40" y="85" width="260" height="12" rx="3" fill="#b9c68c" stroke="#596442"/>
+    {#each Array.from({length:17}) as _,i}
+      <circle cx={44+i*15.75} cy="91" r="2.5" fill="#596442"/>
+    {/each}
+    <path d="M170 97 L155 119 H185 Z" fill="#64748b"/>
+    <text x="170" y="134" textAnchor="middle" fontSize="13" fill="#334155">O₁</text>
+    <path d="M44 144 V101" stroke="#c2413b" strokeWidth="4"/>
+    <path d="M37 110 L44 97 L51 110 Z" fill="#c2413b"/>
+    <text x="57" y="137" fontSize="15" fill="#c2413b">F</text>
+    <path d="M296 40 V80" stroke="#c2413b" strokeWidth="4"/>
+    <path d="M289 72 L296 85 L303 72 Z" fill="#c2413b"/>
+    <text x="308" y="48" fontSize="15" fill="#c2413b">F</text>
+    <path d="M44 72 V63 M44 67 H170 M170 72 V63 M170 67 H296 M296 72 V63" stroke="#475569"/>
+    <text x="107" y="58" fontSize="13" textAnchor="middle" fill="#334155">20 cm</text>
+    <text x="233" y="58" fontSize="13" textAnchor="middle" fill="#334155">20 cm</text>
+    <path d="M146 43 A28 28 0 0 1 194 43" fill="none" stroke="#2563eb" strokeWidth="3"/>
+    <path d="M183 40 L197 49 L197 34 Z" fill="#2563eb"/>
+    <text x="170" y="166" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#2563eb">左端上升、右端下降 ↻</text>
+  </svg>
+  <title size="lg" textAlign="center">L₁＝20F＋20F＝40F</title>
+  <divider/>
+  **圖（二）：一個力造成順時針轉動**
+  <svg viewBox="0 0 340 175" width="100%">
+    <rect x="10" y="5" width="320" height="165" rx="10" fill="#f5f7fa"/>
+    <rect x="40" y="78" width="260" height="12" rx="3" fill="#b9c68c" stroke="#596442"/>
+    {#each Array.from({length:17}) as _,i}
+      <circle cx={44+i*15.75} cy="84" r="2.5" fill="#596442"/>
+    {/each}
+    <path d="M44 90 L29 112 H59 Z" fill="#64748b"/>
+    <text x="44" y="128" textAnchor="middle" fontSize="13" fill="#334155">O₂</text>
+    <path d="M296 25 V73" stroke="#c2413b" strokeWidth="4"/>
+    <path d="M289 65 L296 78 L303 65 Z" fill="#c2413b"/>
+    <text x="310" y="32" fontSize="15" fill="#c2413b">F</text>
+    <path d="M44 67 V56 M44 61 H296 M296 67 V56" stroke="#475569"/>
+    <text x="170" y="52" textAnchor="middle" fontSize="14" fill="#334155">40 cm</text>
+    <path d="M153 109 A27 27 0 0 1 201 109" fill="none" stroke="#2563eb" strokeWidth="3"/>
+    <path d="M190 106 L204 115 L204 100 Z" fill="#2563eb"/>
+    <text x="170" y="151" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#2563eb">右端下降 ↻</text>
+  </svg>
+  <title size="lg" textAlign="center">L₂＝40F</title>
+  <divider/>
+  <title size="2xl" color="success" textAlign="center">L₁＝L₂</title>
+</box>
+
+## 三、核心觀念透析
+
+力矩的公式：
+
+\[
+力矩＝力\times力臂
+\]
+
+圖（一）雖然左側的力向上、右側的力向下，但是兩個力都使槓桿順時針轉動，因此力矩必須**相加，而不是相減**。
+
+圖（二）只有一個力，但力臂是圖（一）單側力臂的兩倍，因此兩圖的合力矩大小相同。
+
+## 四、四選項逐項辨析
+
+| 選項 | 判斷 | 原因 |
+|---|---|---|
+| (A) L₁＝L₂ | <text color="success">正確</text> | 兩者皆為40F |
+| (B) L₁＝2L₂ | <text color="danger">錯誤</text> | 不能只比較施力數量 |
+| (C) 2L₁＝L₂ | <text color="danger">錯誤</text> | 可能漏算圖（一）的其中一個力矩 |
+| (D) L₁＝0，且L₁＜L₂ | <text color="danger">錯誤</text> | 兩個力矩方向相同，不會抵銷 |
+
+## 五、二選一決勝辨析｜C vs. A
+
+<grid columns={2} gap={2}>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="danger" weight="medium">原選 C 的可能陷阱</text>
+      <math value="L_1=20F"/>
+      <math value="L_2=40F"/>
+      <divider/>
+      漏算另一個20F的力矩。
+    </box>
+  </grid-item>
+  <grid-item>
+    <box border radius="lg" padding={3} gap={1}>
+      <text color="success" weight="medium">正解 A 的判斷</text>
+      <math value="L_1=20F+20F"/>
+      <math value="L_2=40F"/>
+      <divider/>
+      完整計算所有力矩。
+    </box>
+  </grid-item>
+</grid>
+
+## 六、互動圖解｜力的方向與力矩
+
+切換左右兩端的施力方向，觀察合力矩如何改變。
+
+{@body const [left,setLeft]=DIL.useState("up")}
+{@body const [right,setRight]=DIL.useState("down")}
+{@body const torque=(left==="up"?20:-20)+(right==="down"?20:-20)}
+<card gap={3}>
+  <grid columns={2}>
+    <grid-item>
+      <label>左端施力</label>
+      <segmented-control options={[{"label":"↑ 向上","value":"up"},{"label":"↓ 向下","value":"down"}]} value={left} onChange={setLeft}/>
+    </grid-item>
+    <grid-item>
+      <label>右端施力</label>
+      <segmented-control options={[{"label":"↑ 向上","value":"up"},{"label":"↓ 向下","value":"down"}]} value={right} onChange={setRight}/>
+    </grid-item>
+  </grid>
+  <svg viewBox="0 0 320 200" width="100%">
+    <g transform={`rotate(${torque===0?0:torque>0?12:-12} 160 100)`}>
+      <rect x="30" y="94" width="260" height="12" rx="3" fill="#b9c68c" stroke="#596442"/>
+      <circle cx="160" cy="100" r="5" fill="#475569"/>
+    </g>
+    <path d="M160 106 L143 130 H177 Z" fill="#64748b"/>
+    <text x="160" y="145" fontSize="13" textAnchor="middle" fill="currentColor">支點 O₁</text>
+    {#each [{x:34,y:100-126*Math.sin((torque===0?0:torque>0?12:-12)*Math.PI/180),dir:left},{x:286,y:100+126*Math.sin((torque===0?0:torque>0?12:-12)*Math.PI/180),dir:right}] as a}
+      <g transform={`translate(${a.x} ${a.y}) rotate(${a.dir==="up"?180:0})`}>
+        <path d="M0 0 V43" stroke="#dc4545" strokeWidth="4"/>
+        <path d="M-8 35 L0 49 L8 35 Z" fill="#dc4545"/>
+      </g>
+      <text x={a.x+12} y={a.y+(a.dir==="up"?-30:30)} fontSize="16" fill="#dc4545">F</text>
+    {/each}
+    <text x="94" y="48" textAnchor="middle" fontSize="13" fill="currentColor">20 cm</text>
+    <text x="226" y="48" textAnchor="middle" fontSize="13" fill="currentColor">20 cm</text>
+    <text x="160" y="181" textAnchor="middle" fontSize="15" fontWeight="bold" fill="#2563eb">{torque===0?"力矩互相抵銷":torque>0?"↻ 順時針轉動":"↺ 逆時針轉動"}</text>
+  </svg>
+  <grid columns={2}>
+    <grid-item>
+      <caption>左側力矩</caption>
+      <title size="lg">{left==="up"?"↻":"↺"} 20F</title>
+    </grid-item>
+    <grid-item>
+      <caption>右側力矩</caption>
+      <title size="lg">{right==="down"?"↻":"↺"} 20F</title>
+    </grid-item>
+  </grid>
+  <divider/>
+  <caption>初始水平位置的合力矩大小（F以牛頓計）</caption>
+  <title size="2xl" color="success">{Math.abs(torque)===0?"0":Math.abs(torque)+"F"} N·cm</title>
+  <caption>傾斜角度僅為轉動方向示意。</caption>
+  <button variant="outline" block onClick={()=>{setLeft("up");setRight("down")}}>恢復原題</button>
+</card>
+
+## 七、錯因診斷與考場策略
+
+結合前面的第18、19、20題，目前這批理化錯題已出現多題力矩與靜力平衡相關的誤選，值得列為優先觀察的概念群。但缺少完整作答過程，尚不能確認實際錯因。
+
+**考場5秒自我檢核：**
+
+- 找到支點。
+- 判斷每個力造成的轉動方向。
+- 同方向相加，反方向相減。
+- 確認沒有漏算任何力矩。
+
+**記憶口訣：不看力往哪裡推，要看槓桿往哪裡轉。**
+
+---
+
+<caption>＠錯題｜融合模式 v2.1・適中標準版</caption>
+<caption>錯題紀錄：第23題 C → A（111年教育會考題）。</caption>
+<caption>P0：已完成原題辨識與力矩計算複核。</caption>
+<caption>P1：已核對照片第94頁，尚未查核教材外掛。</caption>
+<caption>P2：圖解與互動計算邏輯已核對，實際渲染畫面尚未驗收。</caption>
+
+---
+
+如果你願意，我可以：
+
+- 繼續解說扇形與弓形面積的計算步驟
+- 解釋扇形與弓形相關幾何公式
+- 提供扇形弓形面積的練習題及解答

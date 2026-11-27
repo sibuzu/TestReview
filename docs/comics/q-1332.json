@@ -1,0 +1,86 @@
+{
+  "id": "q-1332",
+  "subject": "Math",
+  "title": "桌球拍的弓形周長",
+  "art": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1332-panel-1.svg",
+  "panels": [
+    {
+      "heading": "找出桌球拍的著色部分",
+      "text": "直徑 24 公分，半徑 12 公分。所求是上方大弓形的周長。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1332-panel-1.svg",
+      "alt": "桌球拍中弦 AB 以上的大弓形著色，圓弧上標出 C。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "沿著優弧 ACB 走",
+      "text": "劣弧是 90°，優弧是 270°，長 18π 公分。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1332-panel-2.svg",
+      "alt": "圓周四分之三的藍色優弧和其餘的橙色劣弧。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "找另一段邊界：弦 AB",
+      "text": "OA、OB 互相垂直且各長 12，得 AB＝12√2。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1332-panel-3.svg",
+      "alt": "直角三角形的兩股長 12，底部弦 AB 是斜邊。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "12√2＋18π 公分",
+    "points": [
+      "周長是 12√2＋18π 公分。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1332-panel-4.svg",
+    "alt": "優弧 ACB 和弦 AB 以不同顏色組成完整大弓形周界。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1332-original.jpg",
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1332-figure.jpg"
+  ],
+  "answerCheckedAgainst": "12√2＋18π 公分",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source78_a",
+  "protectedWords": [
+    "12√2＋18π",
+    "12√2",
+    "18π",
+    "270°"
+  ],
+  "rationale": "使用實際幾何、坐標、量值或運河位置示意，依序呈現題意、關係、推導與完整結論。",
+  "producerReviewPath": "docs/imports/new-gpt-20261127-78/lane-a/q-1332-review.json",
+  "nativeArt": "assets/comics/q-1332-art-c25b85c173.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:38:39.732779+00:00",
+  "validationFile": "docs/comics/q-1332-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "q-1356",
+  "subject": "Physics-Chemistry",
+  "title": "手需要向下施多少力",
+  "art": "docs/imports/new-gpt-20261127-78/root/art/q-1356-panel-1.svg",
+  "panels": [
+    {
+      "heading": "以肩膀當作轉軸",
+      "text": "木柄全長 100 cm；斧端到肩 60 cm。",
+      "image": "docs/imports/new-gpt-20261127-78/root/art/q-1356-panel-1.svg",
+      "alt": "樵夫的肩簡化成轉軸，木柄兩端各有身分標籤。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "從全長得到手的力臂",
+      "text": "100−60＝40 cm。手端在轉軸的另一側。",
+      "image": "docs/imports/new-gpt-20261127-78/root/art/q-1356-panel-2.svg",
+      "alt": "木柄下分別標出手端 40 cm、斧端 60 cm。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "分開考慮轉動方向",
+      "text": "右端向下造成順時針轉動。左端也向下，才能產生反向力矩。",
+      "image": "docs/imports/new-gpt-20261127-78/root/art/q-1356-panel-3.svg",
+      "alt": "兩端向下箭頭造成相反的轉動，兩個弧形標出力矩方向。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "(C) 6 公斤重",
+    "points": [
+      "由 F手×40＝4×60 解出 6 kgw。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/root/art/q-1356-panel-4.svg",
+    "alt": "左端向下 6 公斤重平衡右端向下 4 公斤重。"
+  },
+  "layoutVersion": "native-four-images-v7",
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/root/q-1356-original.jpg",
+    "docs/imports/new-gpt-20261127-78/root/q-1355-1356-shared-original.jpg"
+  ],
+  "answerCheckedAgainst": "(C) 6 公斤重",
+  "producerAgent": "/root",
+  "rationale": "依文段推理或力矩條件繪製四張精確且獨立的教學圖。",
+  "protectedWords": [
+    "60 kgw",
+    "30 kgw",
+    "90 kgw",
+    "120 cm",
+    "180 cm",
+    "40 cm",
+    "60 cm",
+    "10 kgw",
+    "6 kgw",
+    "4 kgw",
+    "20 cm",
+    "40F"
+  ],
+  "producerReviewPath": "docs/imports/new-gpt-20261127-78/root/q-1356-review.json",
+  "nativeArt": "assets/comics/q-1356-art-d849c3ad97.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:38:41.916832+00:00",
+  "validationFile": "docs/comics/q-1356-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。",
+    "resolvedMonitorConfirmation": "correction-q-1355-f53c76661fc2"
+  }
+}

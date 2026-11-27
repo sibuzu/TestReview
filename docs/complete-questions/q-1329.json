@@ -1,0 +1,79 @@
+{
+  "id": "q-1329",
+  "sourceId": "src-more-078",
+  "subject": "Math",
+  "title": "數學第6題｜弦通過半徑中點時的圓周長",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "圓內有一弦 AB 通過其半徑的中點，且與此半徑垂直，若 AB＝6，則此圓的周長是多少？\n\n(A) 2√3π\n(B) 4√3π\n(C) 6√3π\n(D) 8√3π",
+  "answer": "(B) 4√3π",
+  "explanation": "設 O 為圓心，M 是題目所說的半徑中點，r 是半徑。半徑所在直線垂直弦 AB，所以平分 AB，AM＝MB＝3。同時 OM＝r／2，OB＝r。\n\n△OMB 在 M 點為直角。畢氏定理給 r²＝3²＋（r／2）²，所以 3r²／4＝9，進而 r²＝12、r＝2√3。圓周長 2πr＝4√3π，因此選 B。A 的值相當於 πr，少了因子 2。",
+  "trap": "M 同時是題給半徑的中點，也是弦 AB 的中點。題目最後求 2πr。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "圓",
+    "弦心距",
+    "畢氏定理"
+  ],
+  "images": [
+    "assets/originals/gpt078-q-1329-original-4a48d422744e.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第6題",
+  "studentAnswer": "原卷鉛筆選 A，紅筆訂正為 B。",
+  "contentStatus": "完整原題",
+  "correctOption": "B",
+  "passage": "",
+  "originalQuestionNumber": "6",
+  "tables": [],
+  "questionFigures": [],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "弦通過半徑中點時的圓周長",
+    "art": "assets/comics/q-1329-art-b0db338868.svg",
+    "panels": [
+      {
+        "heading": "找半徑中點與弦",
+        "text": "M 位在半徑中點，AB 長 6 且垂直半徑。",
+        "alt": "圓上的橫弦 AB 通過半徑上的 M 並與半徑垂直。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1329-art-b0db338868.svg"
+      },
+      {
+        "heading": "垂徑把弦平分",
+        "text": "AM＝MB＝3，M 到圓心的距離是 r／2。",
+        "alt": "過 M 的垂直線把長 6 的弦分成左右各 3。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1329-panel-2-art-484522dcec.svg"
+      },
+      {
+        "heading": "將三段代入畢氏定理",
+        "text": "兩股為 3 和 r／2，畢氏定理得 r＝2√3。",
+        "alt": "直角三角形 OMB 的斜邊是 r，兩直角邊是 r/2 和 3。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1329-panel-3-art-0a8538a7c4.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(B) 4√3π",
+      "points": [
+        "直徑 4√3，乘 π 得圓周長 4√3π。"
+      ],
+      "image": "assets/comics/q-1329-panel-4-art-017cf3da97.svg",
+      "alt": "完整圓周與穿過圓心的直徑，分別標記圓周長及直徑。"
+    },
+    "protectedWords": [
+      "r／2",
+      "r²",
+      "2√3",
+      "4√3π"
+    ]
+  }
+}

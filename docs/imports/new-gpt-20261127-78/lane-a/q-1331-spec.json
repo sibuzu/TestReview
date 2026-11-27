@@ -1,0 +1,54 @@
+{
+  "id": "q-1331",
+  "subject": "Math",
+  "title": "同心圓的兩條切線",
+  "art": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1331-panel-1.svg",
+  "panels": [
+    {
+      "heading": "找出兩條切線與切點",
+      "text": "BC 在 M 切小圓，CD 在 D 切大圓。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1331-panel-1.svg",
+      "alt": "同心圓與兩條切線。M 與 D 都有直角，圖形依圓與切線幾何繪製。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "△OMB 先找 MB",
+      "text": "OM＝3、OB＝5，所以 MB＝4。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1331-panel-2.svg",
+      "alt": "直角三角形 OMB，三邊是 3、4、5。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "△OMC 找共同斜邊",
+      "text": "CM＝13−4＝9，OC²＝3²＋9²＝90。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1331-panel-3.svg",
+      "alt": "直角三角形 OMC，兩股為 9 和 3，斜邊為根號 90。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "√65",
+    "points": [
+      "OD＝5，CD²＝90−25＝65，因此 CD＝√65。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1331-panel-4.svg",
+    "alt": "D 為直角的三角形 ODC，半徑為 5，斜邊根號 90，切線長根號 65。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1331-original.jpg",
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1331-figure.jpg"
+  ],
+  "answerCheckedAgainst": "√65",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source78_a",
+  "protectedWords": [
+    "OC²",
+    "CD²",
+    "√65",
+    "CM＝13−4＝9"
+  ],
+  "rationale": "使用實際幾何、坐標、量值或運河位置示意，依序呈現題意、關係、推導與完整結論。"
+}

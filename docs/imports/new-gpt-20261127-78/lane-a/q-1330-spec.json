@@ -1,0 +1,54 @@
+{
+  "id": "q-1330",
+  "subject": "Math",
+  "title": "60°扇形內的灰色弓形",
+  "art": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1330-panel-1.svg",
+  "panels": [
+    {
+      "heading": "找出弧與弦之間的陰影",
+      "text": "灰色的是弓形，邊界是弧 AB 和弦 AB。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1330-panel-1.svg",
+      "alt": "扇形 OAB 裡以深色標出弧 AB 和弦 AB 之間的弓形。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "先算 60° 扇形",
+      "text": "半徑 6，扇形佔全圓 1／6，因此面積是 6π。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1330-panel-2.svg",
+      "alt": "完整圓分成六個等份，其中一份是題目的 60 度扇形。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "算等邊三角形的面積",
+      "text": "邊長都是 6，高 3√3，三角形面積是 9√3。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1330-panel-3.svg",
+      "alt": "等邊三角形由 A 作垂線到 OB 中點，垂線標成 3√3。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "6π－9√3 平方公分",
+    "points": [
+      "6π－9√3 平方公分，就是留下的弓形。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1330-panel-4.svg",
+    "alt": "由左至右繪出扇形、扣去的等邊三角形及剩下的弓形，底部寫出面積。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1330-original.jpg",
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1330-figure.jpg"
+  ],
+  "answerCheckedAgainst": "6π－9√3 平方公分",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source78_a",
+  "protectedWords": [
+    "6π－9√3",
+    "9√3",
+    "3√3",
+    "60°"
+  ],
+  "rationale": "使用實際幾何、坐標、量值或運河位置示意，依序呈現題意、關係、推導與完整結論。"
+}

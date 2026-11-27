@@ -1,0 +1,62 @@
+{
+  "id": "q-1335",
+  "disposition": "new",
+  "originalIndex": 8,
+  "attachmentIndex": 8,
+  "originalQuestionNumber": "3",
+  "originalPath": "docs/source-pages/chatgpt-6b099d87-08.jpg",
+  "originalSHA256": "a038902befbb236ac50bed0cacc3293b650cefadd16893e7716f65b61f3bb172",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "requiredMaterialMissing": false,
+  "actualViewed": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1335-original.jpg"
+  ],
+  "originalCropPath": "docs/imports/new-gpt-20261127-78/lane-a/q-1335-original.jpg",
+  "cropSHA256": "b93ed5bd7a6f3a711b75bb2891ed788070bd408840614fba4b56f19525c94aa8",
+  "inclusionEvidence": "原卷鉛筆選 A，紅筆訂正為 D。原表另有紅筆更正部分格子。",
+  "duplicateReview": {
+    "method": "正式題庫含子題，按科目比對正規化題幹、全選項與關鍵圖形條件，並以索引查詢特徵詞。",
+    "candidates": [
+      "q-1122",
+      "q-1124"
+    ],
+    "result": "相同運河地名，題意與全部選項不同；未見同一原題。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "answerVerified": true,
+  "answerChecked": "(D) 重要性（原卷預期）",
+  "corrections": [
+    {
+      "reason": "原卷 D 欄的「全球唯一聯洋運河」未限定如何判定「聯洋」。蘇伊士運河管理局也把該航線稱為大西洋至印度洋的快速通道。原 AI 曾以未查核的「教材常見表述」解釋，後段已有保留。",
+      "before": "原卷紅筆訂正 D。D 欄寫巴拿馬運河為「全球唯一聯洋運河」；原 AI 以教材常見表述解釋，後段另提醒廣義分類下不夠嚴謹。",
+      "after": "保留原表與原卷預期答案 D。詳解逐欄排除 A、B、C，並按兩地運河管理機關資料說明實際水域與航程功能，避免把「全球唯一」當地理通則。"
+    }
+  ],
+  "references": [
+    {
+      "title": "蘇伊士運河管理局 About Suez Canal",
+      "url": "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/AboutSuezCanal.aspx",
+      "evidence": "埃及境內、非洲與亞洲交界、連接地中海與紅海，並可縮短大西洋與印度洋之間的海運路線。"
+    },
+    {
+      "title": "巴拿馬運河管理局 History of the Panama Canal",
+      "url": "https://pancanal.com/en/history-of-the-panama-canal/",
+      "evidence": "巴拿馬運河橫越地峽，連通太平洋與大西洋。"
+    }
+  ],
+  "passed": true,
+  "isolatedQA": {
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "screenshotsVisuallyChecked": true,
+    "screenshots": [
+      ".cache/intake-20261127-6b099d87/lane-a-preview/q-1335-1440.png",
+      ".cache/intake-20261127-6b099d87/lane-a-preview/q-1335-1120.png",
+      ".cache/intake-20261127-6b099d87/lane-a-preview/q-1335-390.png"
+    ]
+  }
+}

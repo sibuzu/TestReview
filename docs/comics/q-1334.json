@@ -1,0 +1,86 @@
+{
+  "id": "q-1334",
+  "subject": "Math",
+  "title": "半圓形碗內的水面截面",
+  "art": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1334-panel-1.svg",
+  "panels": [
+    {
+      "heading": "看碗口直徑和水平水面",
+      "text": "AB＝12，所以半徑 6；CD 與 AB 平行。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1334-panel-1.svg",
+      "alt": "半圓截面中 CD 平行直徑 AB，CD 下方為著色區。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "把半圓下弧分成三段",
+      "text": "AC、DB 等弧，CD 是 AC 的 4 倍，得 30°、120°、30°。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1334-panel-2.svg",
+      "alt": "左右短弧各 30 度，連 C 與 D 的中間圓弧為 120 度。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "求扇形與三角形的面積",
+      "text": "扇形 12π。△COD 的高為 3，底 6√3，面積 9√3。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1334-panel-3.svg",
+      "alt": "120 度扇形中畫出三角形 COD 與高 3，底 CD 長 6√3。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "12π－9√3 平方單位",
+    "points": [
+      "著色水域的截面面積是 12π－9√3 平方單位。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1334-panel-4.svg",
+    "alt": "左上為扇形，右上為扣去的三角形，下方是留下的水面截面弓形。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1334-original.jpg",
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1334-figure.jpg"
+  ],
+  "answerCheckedAgainst": "12π－9√3 平方單位",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source78_a",
+  "protectedWords": [
+    "12π－9√3",
+    "6√3",
+    "9√3",
+    "120°"
+  ],
+  "rationale": "使用實際幾何、坐標、量值或運河位置示意，依序呈現題意、關係、推導與完整結論。",
+  "producerReviewPath": "docs/imports/new-gpt-20261127-78/lane-a/q-1334-review.json",
+  "nativeArt": "assets/comics/q-1334-art-756128beef.svg",
+  "nativeLayout": {
+    "width": "100%",
+    "height": "auto",
+    "artWidth": 180,
+    "fontSize": 14,
+    "equalColumnWidths": true,
+    "equalHeightWithinRow": true,
+    "independentRowHeights": true,
+    "singleColumnNaturalHeight": true,
+    "narrowSingleColumn": true
+  },
+  "visualChecked": true,
+  "checkedAt": "2026-11-27T15:38:39.908820+00:00",
+  "validationFile": "docs/comics/q-1334-validation.json",
+  "rootReview": {
+    "reviewerAgent": "/root",
+    "visualChecked": true,
+    "originalMaterialsChecked": true,
+    "freshActualImageCount": 4,
+    "standaloneAndApp": true,
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "answerInitiallyCollapsed": true,
+    "sameSourceOriginalArtworkReused": false,
+    "waitingForConfirmation": false,
+    "basis": "實看原卷裁圖與正式桌機手機畫面。Chrome 檢查主站與單頁、答案收合、四張圖皆可見，且無文字溢出。"
+  }
+}

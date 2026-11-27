@@ -1,0 +1,51 @@
+{
+  "id": "q-1331",
+  "disposition": "new",
+  "originalIndex": 4,
+  "attachmentIndex": 4,
+  "originalQuestionNumber": "5",
+  "originalPath": "docs/source-pages/chatgpt-6b099d87-04.jpg",
+  "originalSHA256": "d2f1a66bf217c05c273065c9bae0a895644a7407c67d413b9415a767b04f386c",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "requiredMaterialMissing": false,
+  "actualViewed": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1331-original.jpg",
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1331-figure.jpg"
+  ],
+  "originalCropPath": "docs/imports/new-gpt-20261127-78/lane-a/q-1331-original.jpg",
+  "cropSHA256": "2b570f0fbef06ccb0fbfcd68b0e84aaf1237ff62de00bd50469466917e072822",
+  "inclusionEvidence": "原卷鉛筆寫 √92＝2√23，紅筆訂正為 √65。",
+  "duplicateReview": {
+    "method": "正式題庫含子題，按科目比對正規化題幹、全選項與關鍵圖形條件，並以索引查詢特徵詞。",
+    "candidates": [
+      "q-1212"
+    ],
+    "result": "舊題是切線及單圓弦、距離數值 4 和 9，求一段弦長；新題是兩同心圓的兩條切線。 未見相同原題。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "answerVerified": true,
+  "answerChecked": "√65",
+  "corrections": [
+    {
+      "reason": "原 AI 的合成圖畫出的 D 不滿足 CD 與 OD 垂直，與原題切線條件及其文字推導不一致。",
+      "before": "原 AI 圖把 O 畫在 (221,110)、C 在 (59,164)、D 在 (148.38,56.83)，D 雖近似位在大圓上，但 CD 與 OD 的內積非零，卻標成直角。",
+      "after": "新圖依圓與外點的切線條件計算 D，校核 D 在大圓上且 OD⊥CD。答案仍為 √65。"
+    }
+  ],
+  "originalFigurePath": "docs/imports/new-gpt-20261127-78/lane-a/q-1331-figure.jpg",
+  "passed": true,
+  "isolatedQA": {
+    "viewports": [
+      1440,
+      1120,
+      390
+    ],
+    "screenshotsVisuallyChecked": true,
+    "screenshots": [
+      ".cache/intake-20261127-6b099d87/lane-a-preview/q-1331-1440.png",
+      ".cache/intake-20261127-6b099d87/lane-a-preview/q-1331-1120.png",
+      ".cache/intake-20261127-6b099d87/lane-a-preview/q-1331-390.png"
+    ]
+  }
+}

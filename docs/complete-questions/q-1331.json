@@ -1,0 +1,84 @@
+{
+  "id": "q-1331",
+  "sourceId": "src-more-078",
+  "subject": "Math",
+  "title": "數學填充第5題｜同心圓的兩條切線",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "如圖四，兩同心圓中，BC 為小圓的切線，M 為切點，CD 為大圓的切線，D 為切點，若 BC＝13，兩圓半徑分別為 3、5，則 CD＝＿＿＿＿。",
+  "answer": "√65",
+  "explanation": "設 O 為共同圓心。OM＝3、OB＝OD＝5，且 OM⊥BC、OD⊥CD。先在直角 △OMB 中求得 MB＝√(5²−3²)＝4。依原圖的直線順序 C、A、M、B，M 介於 C、B 之間，所以 CM＝13−4＝9。\n\n接著在直角 △OMC 中，OC²＝3²＋9²＝90。最後在直角 △ODC 中，CD²＝OC²−OD²＝90−25＝65，因此 CD＝√65。\n\nOM 是小圓的一條半徑，長度為 3。在 OC² 中誤用直徑 6 會得出 36＋81−25＝92。",
+  "trap": "先從 BC 扣掉 MB 求 CM。兩次使用 OM 時都取小圓半徑 3。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "同心圓",
+    "切線",
+    "畢氏定理"
+  ],
+  "images": [
+    "assets/originals/gpt078-q-1331-original-2b570f0fbef0.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第5題",
+  "studentAnswer": "原卷鉛筆寫 √92＝2√23，紅筆訂正為 √65。",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "5",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt078-q-1331-figure-0d20dc8a096b.jpg",
+      "alt": "原卷圖四。O 是同心圓圓心。由左至右是 C、A、M、B。BC 在 M 與小圓相切，CD 在 D 與大圓相切。",
+      "caption": "原卷第5題作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "同心圓的兩條切線",
+    "art": "assets/comics/q-1331-art-18a16d0f1c.svg",
+    "panels": [
+      {
+        "heading": "找出兩條切線與切點",
+        "text": "BC 在 M 切小圓，CD 在 D 切大圓。",
+        "alt": "同心圓與兩條切線。M 與 D 都有直角，圖形依圓與切線幾何繪製。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1331-art-18a16d0f1c.svg"
+      },
+      {
+        "heading": "△OMB 先找 MB",
+        "text": "OM＝3、OB＝5，所以 MB＝4。",
+        "alt": "直角三角形 OMB，三邊是 3、4、5。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1331-panel-2-art-34a835bdea.svg"
+      },
+      {
+        "heading": "△OMC 找共同斜邊",
+        "text": "CM＝13−4＝9，OC²＝3²＋9²＝90。",
+        "alt": "直角三角形 OMC，兩股為 9 和 3，斜邊為根號 90。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1331-panel-3-art-99251d4003.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "√65",
+      "points": [
+        "OD＝5，CD²＝90−25＝65，因此 CD＝√65。"
+      ],
+      "image": "assets/comics/q-1331-panel-4-art-c3a7e789b0.svg",
+      "alt": "D 為直角的三角形 ODC，半徑為 5，斜邊根號 90，切線長根號 65。"
+    },
+    "protectedWords": [
+      "OC²",
+      "CD²",
+      "√65",
+      "CM＝13−4＝9"
+    ]
+  }
+}

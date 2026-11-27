@@ -1,0 +1,89 @@
+{
+  "id": "q-1333",
+  "sourceId": "src-more-078",
+  "subject": "Math",
+  "title": "數學計算第2題｜由圓周角求弦與半徑、切線的夾角",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "如右圖，直線 CD 切圓 O 於 P，A、B 兩點在圓 O 上，∠ABP＝60°，則：\n(1) ∠OAP 為多少度？（4 分）\n(2) ∠APC 為多少度？（4 分）",
+  "answer": "(1) ∠OAP＝30°\n(2) ∠APC＝60°",
+  "explanation": "(1) ∠ABP＝60° 是圓周角，所對的是不含 B 的弧 AP。對應的圓心角 ∠AOP＝120°。又 OA＝OP，△AOP 是等腰三角形，∠OAP＝∠APO＝(180°−120°)÷2＝30°。\n\n(2) 半徑 OP 垂直於切線 CD，所以 ∠OPC＝90°。依原圖，射線 PA 在 ∠OPC 內部，故 ∠APC＝90°−∠APO＝90°−30°＝60°。",
+  "trap": "辨認圓周角所對不含角頂點的弧。切線在 P 點垂直於半徑 OP。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "圓周角",
+    "切線",
+    "等腰三角形"
+  ],
+  "images": [
+    "assets/originals/gpt078-q-1333-original-d9464bd2f4a7.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第2題",
+  "studentAnswer": "原卷兩小題旁分別有紅筆 30、60，沒有可辨識的原先答案。",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "2",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt078-q-1333-figure-2279555f1c87.jpg",
+      "alt": "原卷圓 O 與切線。直線 CD 在 P 與圓相切。C 在 P 左側，D 在右側，A 在圓左上，B 在圓右下。",
+      "caption": "原卷第2題作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "由圓周角求弦與半徑、切線的夾角",
+    "art": "assets/comics/q-1333-art-4a4b21b4b1.svg",
+    "panels": [
+      {
+        "heading": "從 B 找出圓周角的對弧",
+        "text": "∠ABP＝60°，所對的是不含 B 的弧 AP。",
+        "alt": "從 B 連到 A 與 P，左側弧 AP 著色，B 角是 60 度。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1333-art-4a4b21b4b1.svg"
+      },
+      {
+        "heading": "同一段弧的圓心角",
+        "text": "∠AOP 是圓周角的 2 倍，等於 120°。",
+        "alt": "圓心 O 的 120 度角對應同一段橙色弧 AP。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1333-panel-2-art-1774c4c648.svg"
+      },
+      {
+        "heading": "兩半徑形成等腰三角形",
+        "text": "OA＝OP，剩下的 60° 平分成兩個 30°。",
+        "alt": "三角形 AOP 展開成等腰形，頂角 120 度、兩個底角 30 度。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1333-panel-3-art-1546fc16a5.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "(1) ∠OAP＝30°\n(2) ∠APC＝60°",
+      "points": [
+        "∠OPC＝90°，扣掉 ∠APO＝30°，得 ∠APC＝60°。"
+      ],
+      "image": "assets/comics/q-1333-panel-4-art-a8db186601.svg",
+      "alt": "P 點的半徑與切線構成直角，PA 分出 60 度與 30 度。"
+    },
+    "protectedWords": [
+      "∠OAP",
+      "∠APC",
+      "∠ABP",
+      "∠AOP",
+      "∠APO",
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ]
+  }
+}

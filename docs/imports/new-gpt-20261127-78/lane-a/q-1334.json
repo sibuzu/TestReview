@@ -1,0 +1,43 @@
+{
+  "id": "q-1334",
+  "subject": "Math",
+  "title": "數學計算第3題｜半圓形碗內的水面截面",
+  "sourceId": "src-more-078",
+  "date": "2026-11-27",
+  "addedAt": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "volume": "綜合",
+  "chapter": "綜合",
+  "originalQuestionNumber": "3",
+  "question": "紹琪拿一個側面平視為半圓形的碗來裝水，如右圖，水平面 CD 與碗口 AB 平行，若 AB＝12，⌒CD＝4⌒AC，則著色部分的面積為何？",
+  "answer": "12π－9√3 平方單位",
+  "explanation": "O 是直徑 AB 的中點，半徑為 6。因 CD∥AB，過 O 作 AB 的垂線時，也會垂直平分 CD。左右對稱，故弧 AC 和弧 DB 等長、度數相等。設弧 AC 的度數為 x，半圓下弧 A 到 B 共 180°，所以 x＋4x＋x＝180°，得 x＝30°，而 ∠COD＝120°。\n\n扇形 COD 面積＝(120°／360°)×π×6²＝12π。設 M 為 CD 中點。∠COM＝60°，所以直角 △OCM 的 ∠OCM＝30°。30° 的對邊 OM 為斜邊 6 的一半，得 OM＝3、CM＝√(6²−3²)＝3√3，因此 CD＝6√3。△COD 面積＝6√3×3÷2＝9√3。灰色弓形面積＝扇形 COD 面積−△COD 面積＝12π－9√3。原題給 AB＝12 而沒有另列長度單位，所以用平方單位。",
+  "studentAnswer": "原卷解答區紅筆寫 12π－9√3，沒有可辨識的原先答案。",
+  "tags": [
+    "平行弦",
+    "扇形",
+    "弓形面積"
+  ],
+  "passage": "",
+  "images": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1334-original.jpg"
+  ],
+  "questionFigures": [
+    {
+      "src": "docs/imports/new-gpt-20261127-78/lane-a/q-1334-figure.jpg",
+      "alt": "原卷半圓形容器截面。A、O、B 在水平直徑上，弦 CD 平行於 AB，CD 下方灰色弓形是所求。",
+      "caption": "原卷第3題作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "tables": [],
+  "diagram": "",
+  "contentStatus": "完整原題",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+  "trap": "半圓弧要算 AC、CD、DB 三段。CD 平行於 AB，所以左右兩段等弧。",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "sourceLabel": "分享原卷｜原卷第3題"
+}

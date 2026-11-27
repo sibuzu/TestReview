@@ -1,0 +1,84 @@
+{
+  "id": "q-1332",
+  "sourceId": "src-more-078",
+  "subject": "Math",
+  "title": "數學計算第1題｜桌球拍的弓形周長",
+  "chapter": "綜合",
+  "volume": "綜合",
+  "date": "2026-11-27",
+  "dateLabel": "首次出題日期",
+  "addedAt": "2026-11-27",
+  "question": "小珊參加學校的桌球晨間活動，她發現球拍的拍面是直徑為 24 公分的圓，如右圖，若⌒AB＝90°，則拍面上弓形 ACB（著色部分）的周長為多少公分？",
+  "answer": "12√2＋18π 公分",
+  "explanation": "拍面半徑為 24÷2＝12 公分。著色弓形 ACB 的周界由通過 C 的優弧 ACB 與弦 AB 組成。已知劣弧 AB 的度數為 90°，所以優弧度數為 360°−90°＝270°。優弧長 (270°／360°)×2π×12＝18π 公分。\n\n連結 OA、OB，可得兩直角邊各長 12 的等腰直角三角形 AOB。弦 AB 是斜邊，AB＝√(12²＋12²)＝12√2 公分。兩段邊界相加得 12√2＋18π 公分。",
+  "trap": "從 A 沿圓周走過 C 到 B，再沿弦 AB 回去，才是完整邊界。",
+  "verification": "原卷逐題核對",
+  "verificationNote": "已核對題幹、所附作答材料與紅筆。未取得確切考試日期，採首次提問的臺灣日期。",
+  "diagram": "",
+  "notes": "",
+  "status": "todo",
+  "starred": false,
+  "tags": [
+    "弓形周長",
+    "優弧",
+    "畢氏定理"
+  ],
+  "images": [
+    "assets/originals/gpt078-q-1332-original-37f0fe16453d.jpg"
+  ],
+  "sourceLabel": "分享原卷｜原卷第1題",
+  "studentAnswer": "原卷解答區紅筆寫 12√2＋18π，沒有可辨識的原先答案。",
+  "contentStatus": "完整原題",
+  "passage": "",
+  "originalQuestionNumber": "1",
+  "tables": [],
+  "questionFigures": [
+    {
+      "src": "assets/originals/gpt078-q-1332-figure-aac826c8592e.jpg",
+      "alt": "原卷桌球拍圖，A、B 在拍面下緣，弦 AB 以上含 C 的大弓形著色，弦以下的小弓形未著色。",
+      "caption": "原卷第1題作答附圖"
+    }
+  ],
+  "explanationFigures": [],
+  "teachingComic": {
+    "title": "桌球拍的弓形周長",
+    "art": "assets/comics/q-1332-art-c25b85c173.svg",
+    "panels": [
+      {
+        "heading": "找出桌球拍的著色部分",
+        "text": "直徑 24 公分，半徑 12 公分。所求是上方大弓形的周長。",
+        "alt": "桌球拍中弦 AB 以上的大弓形著色，圓弧上標出 C。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1332-art-c25b85c173.svg"
+      },
+      {
+        "heading": "沿著優弧 ACB 走",
+        "text": "劣弧是 90°，優弧是 270°，長 18π 公分。",
+        "alt": "圓周四分之三的藍色優弧和其餘的橙色劣弧。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1332-panel-2-art-3b4c6684d5.svg"
+      },
+      {
+        "heading": "找另一段邊界：弦 AB",
+        "text": "OA、OB 互相垂直且各長 12，得 AB＝12√2。",
+        "alt": "直角三角形的兩股長 12，底部弦 AB 是斜邊。",
+        "caption": "新製教學示意",
+        "image": "assets/comics/q-1332-panel-3-art-ac762e06c5.svg"
+      }
+    ],
+    "fourth": {
+      "answer": "12√2＋18π 公分",
+      "points": [
+        "周長是 12√2＋18π 公分。"
+      ],
+      "image": "assets/comics/q-1332-panel-4-art-ae64ca2a99.svg",
+      "alt": "優弧 ACB 和弦 AB 以不同顏色組成完整大弓形周界。"
+    },
+    "protectedWords": [
+      "12√2＋18π",
+      "12√2",
+      "18π",
+      "270°"
+    ]
+  }
+}

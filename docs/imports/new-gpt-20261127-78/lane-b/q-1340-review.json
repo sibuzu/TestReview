@@ -1,0 +1,58 @@
+{
+  "id": "q-1340",
+  "disposition": "new",
+  "originalIndex": 13,
+  "attachmentIndex": 13,
+  "originalQuestionNumber": "8",
+  "originalPath": "docs/source-pages/chatgpt-6b099d87-13.jpg",
+  "originalSHA256": "a981c67dd81c1a3991eb990051824d59d95ff329c2bebc6efb9a37864d314095",
+  "originalCropPath": "docs/imports/new-gpt-20261127-78/lane-b/q-1340-original.jpg",
+  "cropSHA256": "7c9334af21694d271fe9cdf2d81c2be4e92d3dc2c825c4481289815423ddb5d4",
+  "originalVisualChecked": true,
+  "completeOriginalAndOptions": true,
+  "requiredMaterialMissing": false,
+  "actualViewed": [
+    "docs/imports/new-gpt-20261127-78/lane-b/q-1340-original.jpg",
+    ".cache/intake-20261127-6b099d87/lane-b-qa/q-1340-1440.png",
+    ".cache/intake-20261127-6b099d87/lane-b-qa/q-1340-390.png"
+  ],
+  "originalAttachment": {
+    "fileId": "file_00000000cff082068a217e91e0946d1b",
+    "sha256": "a981c67dd81c1a3991eb990051824d59d95ff329c2bebc6efb9a37864d314095",
+    "messageId": "4ae7ef2e-722d-49d5-a4b5-a3b234526a01",
+    "messageIndex": 72
+  },
+  "inclusionEvidence": "照片中原卷第8題左側可讀原答 C 與紅字 D。",
+  "duplicateReview": {
+    "method": "把正式題庫的題組展開，比對標點正規化的完整題幹核心、四個選項與必要材料。",
+    "result": "未發現相同題目。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "answerChecked": "(D) 兩間公司都被允許籌組武裝勢力",
+  "verificationSources": [
+    {
+      "title": "英國圖書館印度事務部檔案，1600年及後續特許狀",
+      "url": "https://searcharchives.bl.uk/catalog/036-000178601"
+    },
+    {
+      "title": "荷蘭國家博物館，VOC的貿易特許與軍權",
+      "url": "https://www.rijksmuseum.nl/nl/collectie/node/Verenigde-Oostindische-Compagnie-VOC--45d4a3daf93e41baae6017768c3d93df"
+    }
+  ],
+  "corrections": [
+    {
+      "reason": "原題與原AI都用「十七世紀初」概括兩家公司成立，但英方的1600年是十六世紀的最後一年。",
+      "before": "原AI題意將兩家公司放在十七世紀初，並在比較圖中把成立年分別標為1600年與1602年。",
+      "after": "原題保留，說明分別成立於1600年（十六世紀末）及1602年（十七世紀初），共同點仍是兩間公司都曾獲准籌組武裝勢力，答案D。"
+    }
+  ],
+  "illustrations": [
+    "docs/imports/new-gpt-20261127-78/lane-b/art/q-1340-panel-1.svg",
+    "docs/imports/new-gpt-20261127-78/lane-b/art/q-1340-panel-2.svg",
+    "docs/imports/new-gpt-20261127-78/lane-b/art/q-1340-panel-3.svg",
+    "docs/imports/new-gpt-20261127-78/lane-b/art/q-1340-panel-4.svg"
+  ],
+  "passed": true,
+  "automatedValidation": "docs/imports/new-gpt-20261127-78/lane-b/isolated-qa.json",
+  "automatedValidationSHA256": "c9b0c4feb297403f8f555bb7af3ae53173bab43e9fc66c4934ba41976aac5b62"
+}

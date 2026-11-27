@@ -1,0 +1,53 @@
+{
+  "id": "q-1329",
+  "subject": "Math",
+  "title": "弦通過半徑中點時的圓周長",
+  "art": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1329-panel-1.svg",
+  "panels": [
+    {
+      "heading": "找半徑中點與弦",
+      "text": "M 位在半徑中點，AB 長 6 且垂直半徑。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1329-panel-1.svg",
+      "alt": "圓上的橫弦 AB 通過半徑上的 M 並與半徑垂直。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "垂徑把弦平分",
+      "text": "AM＝MB＝3，M 到圓心的距離是 r／2。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1329-panel-2.svg",
+      "alt": "過 M 的垂直線把長 6 的弦分成左右各 3。",
+      "caption": "新製教學示意"
+    },
+    {
+      "heading": "將三段代入畢氏定理",
+      "text": "兩股為 3 和 r／2，畢氏定理得 r＝2√3。",
+      "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1329-panel-3.svg",
+      "alt": "直角三角形 OMB 的斜邊是 r，兩直角邊是 r/2 和 3。",
+      "caption": "新製教學示意"
+    }
+  ],
+  "fourth": {
+    "answer": "(B) 4√3π",
+    "points": [
+      "直徑 4√3，乘 π 得圓周長 4√3π。"
+    ],
+    "image": "docs/imports/new-gpt-20261127-78/lane-a/art/q-1329-panel-4.svg",
+    "alt": "完整圓周與穿過圓心的直徑，分別標記圓周長及直徑。"
+  },
+  "sourceGeneratedArtUsed": false,
+  "sourceUrl": "https://chatgpt.com/share/6b099d87-cc94-83ec-be02-ba1528f020e7",
+  "originalMaterialsChecked": true,
+  "originalMaterials": [
+    "docs/imports/new-gpt-20261127-78/lane-a/q-1329-original.jpg"
+  ],
+  "answerCheckedAgainst": "(B) 4√3π",
+  "layoutVersion": "native-four-images-v7",
+  "producerAgent": "/root/source78_a",
+  "protectedWords": [
+    "r／2",
+    "r²",
+    "2√3",
+    "4√3π"
+  ],
+  "rationale": "使用實際幾何、坐標、量值或運河位置示意，依序呈現題意、關係、推導與完整結論。"
+}
